@@ -161,6 +161,7 @@ MANUAL_OVERRIDES = {
     "6456": {"domain": "ne.ch", "provider": "sovereign", "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"], "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all"},  # Lignieres
     "6504": {"domain": "ne.ch", "provider": "sovereign", "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"], "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all"},  # La Cote-aux-Fees
     # Other manual resolutions
+    "261":  {"domain": "zuerich.ch"},                                   # Zürich (not gemeinde-zuerich.ch)
     "422":  {"domain": "ruetibeilyssach.ch", "provider": "infomaniak"},  # Rueti bei Lyssach
     "5258": {"domain": "comunebreggia.ch", "provider": "sovereign"},    # Morbio Superiore
     # Merged municipalities (no longer independent)
@@ -179,18 +180,39 @@ async def run(data_path: Path):
 
     # Step 1: Apply manual overrides
     print("Applying manual overrides...")
+    dns_relookup = []  # (bfs, domain) pairs needing MX/SPF re-lookup
     for bfs, override in MANUAL_OVERRIDES.items():
         if bfs in muni:
-            muni[bfs]["provider"] = override["provider"]
-            muni[bfs]["domain"] = override["domain"]
+            if "domain" in override:
+                muni[bfs]["domain"] = override["domain"]
+            if "provider" in override:
+                muni[bfs]["provider"] = override["provider"]
             if "mx" in override:
                 muni[bfs]["mx"] = override["mx"]
             if "spf" in override:
                 muni[bfs]["spf"] = override["spf"]
-            if override["provider"] == "merged":
+            if override.get("provider") == "merged":
                 muni[bfs]["mx"] = []
                 muni[bfs]["spf"] = ""
-            print(f"  {bfs:>5} {muni[bfs]['name']:<30} -> {override['provider']}")
+            # Domain-only override: need to re-lookup MX/SPF from DNS
+            if "domain" in override and override["domain"] and "mx" not in override and "provider" not in override:
+                dns_relookup.append((bfs, override["domain"]))
+            else:
+                print(f"  {bfs:>5} {muni[bfs]['name']:<30} -> {override.get('provider', '?')}")
+
+    if dns_relookup:
+        async def _relookup(bfs, domain):
+            mx = await lookup_mx(domain)
+            spf = await lookup_spf(domain)
+            provider = classify(mx, spf)
+            return bfs, mx, spf, provider
+
+        results = await asyncio.gather(*[_relookup(b, d) for b, d in dns_relookup])
+        for bfs, mx, spf, provider in results:
+            muni[bfs]["mx"] = mx
+            muni[bfs]["spf"] = spf
+            muni[bfs]["provider"] = provider
+            print(f"  {bfs:>5} {muni[bfs]['name']:<30} -> {provider} (DNS re-lookup)")
 
     # Step 2: Scrape remaining unknowns
     unknowns = [m for m in muni.values() if m["provider"] == "unknown"]
