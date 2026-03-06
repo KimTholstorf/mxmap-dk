@@ -1,6 +1,6 @@
 {
   "total": 2171,
-  "average_score": 87.9,
+  "average_score": 87.2,
   "entries": {
     "1": {
       "name": "Aeugst am Albis",
@@ -62,11 +62,10 @@
       "name": "Kappel am Albis",
       "provider": "sovereign",
       "domain": "kappel-am-albis.ch",
-      "confidence": 95,
+      "confidence": 55,
       "flags": [
         "multiple_mx",
-        "spf_strict",
-        "mx_spf_match",
+        "no_spf",
         "provider_classified"
       ]
     },
@@ -180,11 +179,10 @@
       "name": "Berg am Irchel",
       "provider": "sovereign",
       "domain": "berg-am-irchel.ch",
-      "confidence": 95,
+      "confidence": 55,
       "flags": [
         "multiple_mx",
-        "spf_strict",
-        "mx_spf_match",
+        "no_spf",
         "provider_classified"
       ]
     },
@@ -2211,11 +2209,10 @@
       "name": "Bolligen",
       "provider": "sovereign",
       "domain": "bolligen.ch",
-      "confidence": 95,
+      "confidence": 55,
       "flags": [
         "multiple_mx",
-        "spf_strict",
-        "mx_spf_match",
+        "no_spf",
         "provider_classified"
       ]
     },
@@ -2223,10 +2220,9 @@
       "name": "Bremgarten bei Bern",
       "provider": "sovereign",
       "domain": "3047.ch",
-      "confidence": 80,
+      "confidence": 50,
       "flags": [
-        "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "no_spf",
         "provider_classified"
       ]
     },
@@ -2243,13 +2239,13 @@
     },
     "355": {
       "name": "Köniz",
-      "provider": "sovereign",
+      "provider": "unknown",
       "domain": "koeniz.ch",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "356": {
@@ -2291,11 +2287,10 @@
       "name": "Vechigen",
       "provider": "sovereign",
       "domain": "vechigen.ch",
-      "confidence": 95,
+      "confidence": 55,
       "flags": [
         "multiple_mx",
-        "spf_strict",
-        "mx_spf_match",
+        "no_spf",
         "provider_classified"
       ]
     },
@@ -2371,11 +2366,10 @@
     "381": {
       "name": "Arch",
       "provider": "sovereign",
-      "domain": "arch-be.ch",
-      "confidence": 93,
+      "domain": "arch.ch",
+      "confidence": 90,
       "flags": [
-        "multiple_mx",
-        "spf_softfail",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -4139,13 +4133,13 @@
     },
     "711": {
       "name": "Sorvilier",
-      "provider": "sovereign",
+      "provider": "unknown",
       "domain": "sorvilier.ch",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "713": {
@@ -4197,7 +4191,7 @@
     "723": {
       "name": "La Neuveville",
       "provider": "sovereign",
-      "domain": "laneuveville.ch",
+      "domain": "la-neuveville.ch",
       "confidence": 50,
       "flags": [
         "no_spf",
@@ -4252,13 +4246,13 @@
     },
     "733": {
       "name": "Brügg",
-      "provider": "microsoft",
+      "provider": "unknown",
       "domain": "bruegg.ch",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "734": {
@@ -6632,11 +6626,10 @@
       "name": "Gurtnellen",
       "provider": "sovereign",
       "domain": "gurtnellen.ch",
-      "confidence": 85,
+      "confidence": 55,
       "flags": [
         "multiple_mx",
-        "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "no_spf",
         "provider_classified"
       ]
     },
@@ -6644,10 +6637,9 @@
       "name": "Hospental",
       "provider": "sovereign",
       "domain": "hospental.ch",
-      "confidence": 88,
+      "confidence": 50,
       "flags": [
-        "spf_softfail",
-        "mx_spf_match",
+        "no_spf",
         "provider_classified"
       ]
     },
@@ -6667,10 +6659,9 @@
       "name": "Realp",
       "provider": "microsoft",
       "domain": "realp.ch",
-      "confidence": 90,
+      "confidence": 50,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
+        "no_spf",
         "provider_classified"
       ]
     },
@@ -6689,10 +6680,9 @@
       "name": "Seedorf",
       "provider": "sovereign",
       "domain": "seedorf-uri.ch",
-      "confidence": 90,
+      "confidence": 50,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
+        "no_spf",
         "provider_classified"
       ]
     },
@@ -6778,13 +6768,13 @@
     },
     "1311": {
       "name": "Gersau",
-      "provider": "microsoft",
+      "provider": "unknown",
       "domain": "gersau.ch",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "1321": {
@@ -13742,10 +13732,9 @@
       "name": "Schiers",
       "provider": "microsoft",
       "domain": "schiers.ch",
-      "confidence": 90,
+      "confidence": 50,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
+        "no_spf",
         "provider_classified"
       ]
     },
@@ -13765,17 +13754,16 @@
       "name": "Breil/Brigels",
       "provider": "microsoft",
       "domain": "breil.ch",
-      "confidence": 90,
+      "confidence": 50,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
+        "no_spf",
         "provider_classified"
       ]
     },
     "3982": {
       "name": "Disentis/Mustér",
       "provider": "microsoft",
-      "domain": "disentis.ch",
+      "domain": "disentis-muster.ch",
       "confidence": 90,
       "flags": [
         "spf_strict",
@@ -14718,10 +14706,9 @@
       "name": "Windisch",
       "provider": "sovereign",
       "domain": "windisch.ch",
-      "confidence": 90,
+      "confidence": 50,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
+        "no_spf",
         "provider_classified"
       ]
     },
@@ -14740,11 +14727,10 @@
       "name": "Schinznach",
       "provider": "sovereign",
       "domain": "schinznach.ch",
-      "confidence": 95,
+      "confidence": 55,
       "flags": [
         "multiple_mx",
-        "spf_strict",
-        "mx_spf_match",
+        "no_spf",
         "provider_classified"
       ]
     },
@@ -14773,10 +14759,9 @@
       "name": "Dürrenäsch",
       "provider": "microsoft",
       "domain": "duerrenaesch.ch",
-      "confidence": 90,
+      "confidence": 50,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
+        "no_spf",
         "provider_classified"
       ]
     },
@@ -14860,9 +14845,9 @@
       "name": "Schlossrued",
       "provider": "aws",
       "domain": "schlossrued.ch",
-      "confidence": 70,
+      "confidence": 50,
       "flags": [
-        "spf_strict",
+        "no_spf",
         "provider_classified"
       ]
     },
@@ -18453,11 +18438,9 @@
       "name": "Yvorne",
       "provider": "microsoft",
       "domain": "yvorne.ch",
-      "confidence": 80,
+      "confidence": 50,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "multi_provider_spf:infomaniak+microsoft",
+        "no_spf",
         "provider_classified"
       ]
     },
@@ -18498,11 +18481,9 @@
       "name": "Bière",
       "provider": "microsoft",
       "domain": "biere-vd.ch",
-      "confidence": 80,
+      "confidence": 50,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "multi_provider_spf:infomaniak+microsoft",
+        "no_spf",
         "provider_classified"
       ]
     },
@@ -18519,23 +18500,24 @@
     },
     "5427": {
       "name": "Féchy",
-      "provider": "infomaniak",
+      "provider": "unknown",
       "domain": "fechy.ch",
-      "confidence": 85,
+      "confidence": 15,
       "flags": [
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "5428": {
       "name": "Gimel VD",
-      "provider": "microsoft",
+      "provider": "unknown",
       "domain": "gimel.ch",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "5429": {
@@ -18564,10 +18546,9 @@
       "name": "Mollens",
       "provider": "microsoft",
       "domain": "mollensvd.ch",
-      "confidence": 90,
+      "confidence": 50,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
+        "no_spf",
         "provider_classified"
       ]
     },
@@ -18595,12 +18576,13 @@
     },
     "5436": {
       "name": "Saint-Oyens",
-      "provider": "infomaniak",
+      "provider": "unknown",
       "domain": "saint-oyens.ch",
-      "confidence": 85,
+      "confidence": 15,
       "flags": [
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "5437": {
@@ -18617,10 +18599,9 @@
       "name": "Avenches",
       "provider": "microsoft",
       "domain": "avenches.ch",
-      "confidence": 90,
+      "confidence": 50,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
+        "no_spf",
         "provider_classified"
       ]
     },
@@ -20526,12 +20507,13 @@
     },
     "5743": {
       "name": "Arnex-sur-Orbe",
-      "provider": "infomaniak",
+      "provider": "unknown",
       "domain": "arnex-sur-orbe.ch",
-      "confidence": 85,
+      "confidence": 15,
       "flags": [
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "5744": {
@@ -20547,13 +20529,13 @@
     },
     "5745": {
       "name": "Baulmes",
-      "provider": "sovereign",
+      "provider": "unknown",
       "domain": "baulmes.ch",
-      "confidence": 90,
+      "confidence": 15,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "5746": {
@@ -20604,10 +20586,9 @@
       "name": "Les Clées",
       "provider": "infomaniak",
       "domain": "lesclees.ch",
-      "confidence": 90,
+      "confidence": 50,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
+        "no_spf",
         "provider_classified"
       ]
     },
@@ -20623,12 +20604,13 @@
     },
     "5754": {
       "name": "Juriens",
-      "provider": "infomaniak",
+      "provider": "unknown",
       "domain": "juriens.ch",
-      "confidence": 85,
+      "confidence": 15,
       "flags": [
-        "mx_spf_match",
-        "provider_classified"
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
       ]
     },
     "5755": {
@@ -20646,10 +20628,9 @@
       "name": "Montcherand",
       "provider": "infomaniak",
       "domain": "montcherand.ch",
-      "confidence": 90,
+      "confidence": 50,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
+        "no_spf",
         "provider_classified"
       ]
     },
