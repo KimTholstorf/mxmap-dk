@@ -5,7 +5,11 @@ import sys
 from pathlib import Path
 from typing import Any
 
-from mail_sovereignty.classify import classify_from_mx, classify_from_spf, spf_mentions_providers
+from mail_sovereignty.classify import (
+    classify_from_mx,
+    classify_from_spf,
+    spf_mentions_providers,
+)
 from mail_sovereignty.constants import PROVIDER_KEYWORDS
 
 # Quality gate thresholds (override via env vars in CI)
@@ -14,10 +18,26 @@ MIN_HIGH_CONFIDENCE_PCT = int(os.environ.get("MIN_HIGH_CONFIDENCE_PCT", "80"))
 HIGH_CONFIDENCE_THRESHOLD = 80
 
 MANUAL_OVERRIDE_BFS = {
-    "6404", "6408", "6413", "6416", "6417", "6432", "6433", "6434",
-    "6435", "6437", "6451", "6455", "6456", "6504",
-    "422", "5258",
-    "4114", "6074", "6453", "6454",
+    "6404",
+    "6408",
+    "6413",
+    "6416",
+    "6417",
+    "6432",
+    "6433",
+    "6434",
+    "6435",
+    "6437",
+    "6451",
+    "6455",
+    "6456",
+    "6504",
+    "422",
+    "5258",
+    "4114",
+    "6074",
+    "6453",
+    "6454",
 }
 
 
@@ -105,8 +125,8 @@ def score_entry(entry: dict[str, Any]) -> dict[str, Any]:
     # Provider detected via CNAME resolution
     mx_cnames = entry.get("mx_cnames", {})
     if mx_cnames:
-        mx_blob = ' '.join(mx).lower()
-        cname_blob = ' '.join(mx_cnames.values()).lower()
+        mx_blob = " ".join(mx).lower()
+        cname_blob = " ".join(mx_cnames.values()).lower()
         mx_matches_provider = any(
             any(k in mx_blob for k in kws) for kws in PROVIDER_KEYWORDS.values()
         )
@@ -151,7 +171,7 @@ def print_report(scored_entries: list[dict[str, Any]]) -> None:
         else:
             buckets["0-29"] += 1
 
-    print(f"\n  Score distribution:")
+    print("\n  Score distribution:")
     max_bar = 40
     max_count = max(buckets.values()) if buckets.values() else 1
     for label, count in buckets.items():
@@ -162,10 +182,10 @@ def print_report(scored_entries: list[dict[str, Any]]) -> None:
     medium = [e for e in scored_entries if 50 <= e["score"] < 80]
     low = [e for e in scored_entries if e["score"] < 50]
 
-    print(f"\n  Confidence tiers:")
-    print(f"    High   (>=80): {len(high):>5}  ({len(high)/total*100:.1f}%)")
-    print(f"    Medium (50-79): {len(medium):>5}  ({len(medium)/total*100:.1f}%)")
-    print(f"    Low    (<50):  {len(low):>5}  ({len(low)/total*100:.1f}%)")
+    print("\n  Confidence tiers:")
+    print(f"    High   (>=80): {len(high):>5}  ({len(high) / total * 100:.1f}%)")
+    print(f"    Medium (50-79): {len(medium):>5}  ({len(medium) / total * 100:.1f}%)")
+    print(f"    Low    (<50):  {len(low):>5}  ({len(low) / total * 100:.1f}%)")
 
     avg = sum(scores) / total if total else 0
     print(f"\n  Average score: {avg:.1f}")
@@ -176,28 +196,32 @@ def print_report(scored_entries: list[dict[str, Any]]) -> None:
             flag_name = f.split(":")[0]
             flag_counts[flag_name] = flag_counts.get(flag_name, 0) + 1
 
-    print(f"\n  Flag breakdown:")
+    print("\n  Flag breakdown:")
     for flag, count in sorted(flag_counts.items(), key=lambda x: -x[1]):
         print(f"    {flag:<35} {count:>5}")
 
     non_merged = [e for e in scored_entries if "merged_municipality" not in e["flags"]]
     lowest = sorted(non_merged, key=lambda x: x["score"])[:15]
 
-    print(f"\n  Lowest-confidence entries (for review):")
+    print("\n  Lowest-confidence entries (for review):")
     print(f"    {'BFS':>5}  {'Score':>5}  {'Provider':<12} {'Name':<30} Flags")
-    print(f"    {'-'*5}  {'-'*5}  {'-'*12} {'-'*30} {'-'*20}")
+    print(f"    {'-' * 5}  {'-' * 5}  {'-' * 12} {'-' * 30} {'-' * 20}")
     for e in lowest:
         flags_str = ", ".join(e["flags"])
-        print(f"    {e['bfs']:>5}  {e['score']:>5}  {e['provider']:<12} "
-              f"{e['name']:<30} {flags_str}")
+        print(
+            f"    {e['bfs']:>5}  {e['score']:>5}  {e['provider']:<12} "
+            f"{e['name']:<30} {flags_str}"
+        )
 
     mismatched = [e for e in scored_entries if "mx_spf_mismatch" in e["flags"]]
     if mismatched:
         print(f"\n  MX/SPF mismatches ({len(mismatched)}):")
         for e in sorted(mismatched, key=lambda x: x["score"]):
-            print(f"    {e['bfs']:>5}  {e['name']:<30} "
-                  f"mx_provider={classify_from_mx(e.get('mx_raw', []))} "
-                  f"spf_provider={classify_from_spf(e.get('spf_raw', ''))}")
+            print(
+                f"    {e['bfs']:>5}  {e['name']:<30} "
+                f"mx_provider={classify_from_mx(e.get('mx_raw', []))} "
+                f"spf_provider={classify_from_spf(e.get('spf_raw', ''))}"
+            )
 
     print(f"\n{'=' * 60}\n")
 
@@ -215,23 +239,30 @@ def run(data_path: Path, output_dir: Path, quality_gate: bool = False) -> bool:
 
     for bfs, entry in municipalities.items():
         result = score_entry(entry)
-        scored.append({
-            "bfs": entry["bfs"],
-            "name": entry["name"],
-            "provider": entry["provider"],
-            "domain": entry.get("domain", ""),
-            "score": result["score"],
-            "flags": result["flags"],
-            "mx_raw": entry.get("mx", []),
-            "spf_raw": entry.get("spf", ""),
-        })
+        scored.append(
+            {
+                "bfs": entry["bfs"],
+                "name": entry["name"],
+                "provider": entry["provider"],
+                "domain": entry.get("domain", ""),
+                "score": result["score"],
+                "flags": result["flags"],
+                "mx_raw": entry.get("mx", []),
+                "spf_raw": entry.get("spf", ""),
+            }
+        )
 
     print_report(scored)
 
     avg_score = round(sum(e["score"] for e in scored) / len(scored), 1)
-    high_confidence_count = sum(1 for e in scored if e["score"] >= HIGH_CONFIDENCE_THRESHOLD)
+    high_confidence_count = sum(
+        1 for e in scored if e["score"] >= HIGH_CONFIDENCE_THRESHOLD
+    )
     high_confidence_pct = round(high_confidence_count / len(scored) * 100, 1)
-    quality_passed = avg_score >= MIN_AVERAGE_SCORE and high_confidence_pct >= MIN_HIGH_CONFIDENCE_PCT
+    quality_passed = (
+        avg_score >= MIN_AVERAGE_SCORE
+        and high_confidence_pct >= MIN_HIGH_CONFIDENCE_PCT
+    )
 
     report = {
         "total": len(scored),
@@ -262,23 +293,29 @@ def run(data_path: Path, output_dir: Path, quality_gate: bool = False) -> bool:
         writer = csv.writer(f)
         writer.writerow(["bfs", "name", "provider", "domain", "confidence", "flags"])
         for e in sorted_entries:
-            writer.writerow([
-                e["bfs"],
-                e["name"],
-                e["provider"],
-                e["domain"],
-                e["score"],
-                "; ".join(e["flags"]),
-            ])
+            writer.writerow(
+                [
+                    e["bfs"],
+                    e["name"],
+                    e["provider"],
+                    e["domain"],
+                    e["score"],
+                    "; ".join(e["flags"]),
+                ]
+            )
 
     print(f"Written {json_path} and {csv_path} ({len(scored)} entries)")
 
     # Quality gate
     if quality_passed:
-        print(f"Quality gate PASSED (avg={avg_score}, high_conf={high_confidence_pct}%)")
+        print(
+            f"Quality gate PASSED (avg={avg_score}, high_conf={high_confidence_pct}%)"
+        )
     else:
-        print(f"Quality gate FAILED (avg={avg_score} min={MIN_AVERAGE_SCORE}, "
-              f"high_conf={high_confidence_pct}% min={MIN_HIGH_CONFIDENCE_PCT}%)")
+        print(
+            f"Quality gate FAILED (avg={avg_score} min={MIN_AVERAGE_SCORE}, "
+            f"high_conf={high_confidence_pct}% min={MIN_HIGH_CONFIDENCE_PCT}%)"
+        )
         if quality_gate:
             sys.exit(1)
 

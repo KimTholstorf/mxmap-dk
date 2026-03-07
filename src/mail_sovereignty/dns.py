@@ -37,12 +37,14 @@ async def lookup_mx(domain: str) -> list[str]:
     resolvers = get_resolvers()
     for i, resolver in enumerate(resolvers):
         try:
-            answers = await resolver.resolve(domain, 'MX')
-            return sorted(str(r.exchange).rstrip('.').lower() for r in answers)
+            answers = await resolver.resolve(domain, "MX")
+            return sorted(str(r.exchange).rstrip(".").lower() for r in answers)
         except dns.resolver.NXDOMAIN:
             return []
         except _RETRYABLE as e:
-            logger.debug("MX %s: %s on resolver %d, retrying", domain, type(e).__name__, i)
+            logger.debug(
+                "MX %s: %s on resolver %d, retrying", domain, type(e).__name__, i
+            )
             await asyncio.sleep(0.5)
             continue
         except Exception:
@@ -56,11 +58,11 @@ async def lookup_spf(domain: str) -> str:
     resolvers = get_resolvers()
     for i, resolver in enumerate(resolvers):
         try:
-            answers = await resolver.resolve(domain, 'TXT')
+            answers = await resolver.resolve(domain, "TXT")
             spf_records = []
             for r in answers:
-                txt = b''.join(r.strings).decode('utf-8', errors='ignore')
-                if txt.lower().startswith('v=spf1'):
+                txt = b"".join(r.strings).decode("utf-8", errors="ignore")
+                if txt.lower().startswith("v=spf1"):
                     spf_records.append(txt)
             if spf_records:
                 return sorted(spf_records)[0]
@@ -68,7 +70,9 @@ async def lookup_spf(domain: str) -> str:
         except dns.resolver.NXDOMAIN:
             return ""
         except _RETRYABLE as e:
-            logger.debug("SPF %s: %s on resolver %d, retrying", domain, type(e).__name__, i)
+            logger.debug(
+                "SPF %s: %s on resolver %d, retrying", domain, type(e).__name__, i
+            )
             await asyncio.sleep(0.5)
             continue
         except Exception:
@@ -87,8 +91,8 @@ async def lookup_cname_chain(hostname: str, max_hops: int = 10) -> list[str]:
         resolved = False
         for i, resolver in enumerate(resolvers):
             try:
-                answers = await resolver.resolve(current, 'CNAME')
-                target = str(list(answers)[0].target).rstrip('.').lower()
+                answers = await resolver.resolve(current, "CNAME")
+                target = str(list(answers)[0].target).rstrip(".").lower()
                 chain.append(target)
                 current = target
                 resolved = True
@@ -96,7 +100,12 @@ async def lookup_cname_chain(hostname: str, max_hops: int = 10) -> list[str]:
             except (dns.resolver.NXDOMAIN, dns.resolver.NoAnswer):
                 break
             except _RETRYABLE as e:
-                logger.debug("CNAME %s: %s on resolver %d, retrying", current, type(e).__name__, i)
+                logger.debug(
+                    "CNAME %s: %s on resolver %d, retrying",
+                    current,
+                    type(e).__name__,
+                    i,
+                )
                 await asyncio.sleep(0.5)
                 continue
             except Exception:
@@ -122,12 +131,14 @@ async def lookup_a(hostname: str) -> list[str]:
     resolvers = get_resolvers()
     for i, resolver in enumerate(resolvers):
         try:
-            answers = await resolver.resolve(hostname, 'A')
+            answers = await resolver.resolve(hostname, "A")
             return [str(r) for r in answers]
         except dns.resolver.NXDOMAIN:
             return []
         except _RETRYABLE as e:
-            logger.debug("A %s: %s on resolver %d, retrying", hostname, type(e).__name__, i)
+            logger.debug(
+                "A %s: %s on resolver %d, retrying", hostname, type(e).__name__, i
+            )
             await asyncio.sleep(0.5)
             continue
         except Exception:
@@ -138,16 +149,16 @@ async def lookup_a(hostname: str) -> list[str]:
 
 async def lookup_asn_cymru(ip: str) -> int | None:
     """Query Team Cymru DNS for ASN number of an IP address."""
-    reversed_ip = '.'.join(reversed(ip.split('.')))
+    reversed_ip = ".".join(reversed(ip.split(".")))
     query = f"{reversed_ip}.origin.asn.cymru.com"
     resolvers = get_resolvers()
     for i, resolver in enumerate(resolvers):
         try:
-            answers = await resolver.resolve(query, 'TXT')
+            answers = await resolver.resolve(query, "TXT")
             for r in answers:
-                txt = b''.join(r.strings).decode('utf-8', errors='ignore')
+                txt = b"".join(r.strings).decode("utf-8", errors="ignore")
                 # Format: "3303 | 193.135.252.0/24 | CH | ripencc | ..."
-                asn_str = txt.split('|')[0].strip()
+                asn_str = txt.split("|")[0].strip()
                 return int(asn_str)
         except dns.resolver.NXDOMAIN:
             return None

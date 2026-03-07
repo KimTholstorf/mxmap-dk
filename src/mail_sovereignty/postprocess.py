@@ -14,7 +14,12 @@ from mail_sovereignty.constants import (
     SUBPAGES,
     TYPO3_RE,
 )
-from mail_sovereignty.dns import lookup_mx, lookup_spf, resolve_mx_asns, resolve_mx_cnames
+from mail_sovereignty.dns import (
+    lookup_mx,
+    lookup_spf,
+    resolve_mx_asns,
+    resolve_mx_cnames,
+)
 
 
 def decrypt_typo3(encoded: str, offset: int = 2) -> str:
@@ -41,7 +46,7 @@ def decrypt_typo3(encoded: str, offset: int = 2) -> str:
                 break
         if not decrypted:
             result.append(c)
-    return ''.join(result)
+    return "".join(result)
 
 
 def extract_email_domains(html: str) -> set[str]:
@@ -49,21 +54,21 @@ def extract_email_domains(html: str) -> set[str]:
     domains = set()
 
     for email in EMAIL_RE.findall(html):
-        domain = email.split('@')[1].lower()
+        domain = email.split("@")[1].lower()
         if domain not in SKIP_DOMAINS:
             domains.add(domain)
 
-    for email in __import__('re').findall(r'mailto:([^">\s?]+)', html):
-        if '@' in email:
-            domain = email.split('@')[1].lower()
+    for email in __import__("re").findall(r'mailto:([^">\s?]+)', html):
+        if "@" in email:
+            domain = email.split("@")[1].lower()
             if domain not in SKIP_DOMAINS:
                 domains.add(domain)
 
     for encoded in TYPO3_RE.findall(html):
         decoded = decrypt_typo3(encoded)
-        decoded = decoded.replace('mailto:', '')
-        if '@' in decoded:
-            domain = decoded.split('@')[1].lower()
+        decoded = decoded.replace("mailto:", "")
+        if "@" in decoded:
+            domain = decoded.split("@")[1].lower()
             if domain not in SKIP_DOMAINS:
                 domains.add(domain)
 
@@ -73,18 +78,18 @@ def extract_email_domains(html: str) -> set[str]:
 def build_urls(domain: str) -> list[str]:
     """Build candidate URLs to scrape, trying www. prefix first."""
     domain = domain.strip()
-    if domain.startswith(('http://', 'https://')):
+    if domain.startswith(("http://", "https://")):
         parsed = urlparse(domain)
         domain = parsed.hostname or domain
-    if domain.startswith('www.'):
+    if domain.startswith("www."):
         bare = domain[4:]
     else:
         bare = domain
 
-    bases = [f'https://www.{bare}', f'https://{bare}']
+    bases = [f"https://www.{bare}", f"https://{bare}"]
     urls = []
     for base in bases:
-        urls.append(base + '/')
+        urls.append(base + "/")
         for path in SUBPAGES:
             urls.append(base + path)
     return urls
@@ -113,7 +118,9 @@ async def scrape_email_domains(client: httpx.AsyncClient, domain: str) -> set[st
     return all_domains
 
 
-async def process_unknown(client: httpx.AsyncClient, semaphore: asyncio.Semaphore, m: dict[str, Any]) -> dict[str, Any]:
+async def process_unknown(
+    client: httpx.AsyncClient, semaphore: asyncio.Semaphore, m: dict[str, Any]
+) -> dict[str, Any]:
     """Try to resolve an unknown municipality by scraping its website."""
     async with semaphore:
         bfs = m["bfs"]
@@ -132,9 +139,13 @@ async def process_unknown(client: httpx.AsyncClient, semaphore: asyncio.Semaphor
                 spf = await lookup_spf(email_domain)
                 mx_cnames = await resolve_mx_cnames(mx)
                 mx_asns = await resolve_mx_asns(mx)
-                provider = classify(mx, spf, mx_cnames=mx_cnames, mx_asns=mx_asns or None)
-                print(f"  RESOLVED {bfs:>5} {name:<30} "
-                      f"email_domain={email_domain} -> {provider}")
+                provider = classify(
+                    mx, spf, mx_cnames=mx_cnames, mx_asns=mx_asns or None
+                )
+                print(
+                    f"  RESOLVED {bfs:>5} {name:<30} "
+                    f"email_domain={email_domain} -> {provider}"
+                )
                 m["mx"] = mx
                 m["spf"] = spf
                 m["provider"] = provider
@@ -145,37 +156,115 @@ async def process_unknown(client: httpx.AsyncClient, semaphore: asyncio.Semaphor
                     m["mx_asns"] = sorted(mx_asns)
                 return m
 
-        print(f"  UNKNOWN  {bfs:>5} {name:<30} "
-              f"(scraped email domains: {email_domains or 'none'})")
+        print(
+            f"  UNKNOWN  {bfs:>5} {name:<30} "
+            f"(scraped email domains: {email_domains or 'none'})"
+        )
         return m
 
 
 MANUAL_OVERRIDES = {
     # Neuchatel canton: all use @ne.ch (cantonal mail gateway operated by SIEN,
     # MX points to cantonal servers nemx9a.ne.ch / ne2mx9a.ne.ch, not Microsoft)
-    "6404": {"domain": "ne.ch", "provider": "sovereign", "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"], "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all"},  # Boudry
-    "6408": {"domain": "ne.ch", "provider": "sovereign", "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"], "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all"},  # Cortaillod
-    "6413": {"domain": "ne.ch", "provider": "sovereign", "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"], "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all"},  # Rochefort
-    "6416": {"domain": "ne.ch", "provider": "sovereign", "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"], "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all"},  # Milvignes
-    "6417": {"domain": "ne.ch", "provider": "sovereign", "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"], "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all"},  # La Grande Beroche
-    "6432": {"domain": "ne.ch", "provider": "sovereign", "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"], "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all"},  # La Brevine
-    "6433": {"domain": "ne.ch", "provider": "sovereign", "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"], "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all"},  # Brot-Plamboz
-    "6434": {"domain": "ne.ch", "provider": "sovereign", "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"], "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all"},  # Le Cerneux-Pequignot
-    "6435": {"domain": "ne.ch", "provider": "sovereign", "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"], "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all"},  # La Chaux-du-Milieu
-    "6437": {"domain": "ne.ch", "provider": "sovereign", "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"], "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all"},  # Les Ponts-de-Martel
-    "6451": {"domain": "ne.ch", "provider": "sovereign", "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"], "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all"},  # Cornaux
-    "6455": {"domain": "ne.ch", "provider": "sovereign", "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"], "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all"},  # Le Landeron
-    "6456": {"domain": "ne.ch", "provider": "sovereign", "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"], "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all"},  # Lignieres
-    "6504": {"domain": "ne.ch", "provider": "sovereign", "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"], "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all"},  # La Cote-aux-Fees
+    "6404": {
+        "domain": "ne.ch",
+        "provider": "sovereign",
+        "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"],
+        "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all",
+    },  # Boudry
+    "6408": {
+        "domain": "ne.ch",
+        "provider": "sovereign",
+        "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"],
+        "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all",
+    },  # Cortaillod
+    "6413": {
+        "domain": "ne.ch",
+        "provider": "sovereign",
+        "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"],
+        "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all",
+    },  # Rochefort
+    "6416": {
+        "domain": "ne.ch",
+        "provider": "sovereign",
+        "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"],
+        "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all",
+    },  # Milvignes
+    "6417": {
+        "domain": "ne.ch",
+        "provider": "sovereign",
+        "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"],
+        "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all",
+    },  # La Grande Beroche
+    "6432": {
+        "domain": "ne.ch",
+        "provider": "sovereign",
+        "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"],
+        "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all",
+    },  # La Brevine
+    "6433": {
+        "domain": "ne.ch",
+        "provider": "sovereign",
+        "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"],
+        "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all",
+    },  # Brot-Plamboz
+    "6434": {
+        "domain": "ne.ch",
+        "provider": "sovereign",
+        "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"],
+        "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all",
+    },  # Le Cerneux-Pequignot
+    "6435": {
+        "domain": "ne.ch",
+        "provider": "sovereign",
+        "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"],
+        "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all",
+    },  # La Chaux-du-Milieu
+    "6437": {
+        "domain": "ne.ch",
+        "provider": "sovereign",
+        "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"],
+        "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all",
+    },  # Les Ponts-de-Martel
+    "6451": {
+        "domain": "ne.ch",
+        "provider": "sovereign",
+        "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"],
+        "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all",
+    },  # Cornaux
+    "6455": {
+        "domain": "ne.ch",
+        "provider": "sovereign",
+        "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"],
+        "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all",
+    },  # Le Landeron
+    "6456": {
+        "domain": "ne.ch",
+        "provider": "sovereign",
+        "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"],
+        "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all",
+    },  # Lignieres
+    "6504": {
+        "domain": "ne.ch",
+        "provider": "sovereign",
+        "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"],
+        "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all",
+    },  # La Cote-aux-Fees
     # Other manual resolutions
-    "261":  {"domain": "zuerich.ch", "provider": "sovereign"},          # Zürich (not gemeinde-zuerich.ch)
-    "422":  {"domain": "ruetibeilyssach.ch", "provider": "infomaniak"},  # Rueti bei Lyssach
-    "5258": {"domain": "comunebreggia.ch", "provider": "sovereign"},    # Morbio Superiore
+    "261": {
+        "domain": "zuerich.ch",
+        "provider": "sovereign",
+    },  # Zürich (not gemeinde-zuerich.ch)
+    "422": {
+        "domain": "ruetibeilyssach.ch",
+        "provider": "infomaniak",
+    },  # Rueti bei Lyssach
+    "5258": {"domain": "comunebreggia.ch", "provider": "sovereign"},  # Morbio Superiore
     # Merged municipalities (no longer independent)
-    "4114": {"domain": "", "provider": "merged"},   # Schinznach-Bad -> Brugg (2020)
-    "6074": {"domain": "", "provider": "merged"},   # Muenster-Geschinen -> Goms (2017)
-    "6453": {"domain": "", "provider": "merged"},   # Enges -> Latena (2025)
-    "6454": {"domain": "", "provider": "merged"},   # Hauterive -> Latena (2025)
+    "4114": {"domain": "", "provider": "merged"},  # Schinznach-Bad -> Brugg (2020)
+    "6074": {"domain": "", "provider": "merged"},  # Muenster-Geschinen -> Goms (2017)
+    "6453": {"domain": "", "provider": "merged"},  # Enges -> Latena (2025)
+    "6454": {"domain": "", "provider": "merged"},  # Hauterive -> Latena (2025)
 }
 
 
@@ -202,12 +291,20 @@ async def run(data_path: Path) -> None:
                 muni[bfs]["mx"] = []
                 muni[bfs]["spf"] = ""
             # Domain-only override: need to re-lookup MX/SPF from DNS
-            if "domain" in override and override["domain"] and "mx" not in override and "provider" not in override:
+            if (
+                "domain" in override
+                and override["domain"]
+                and "mx" not in override
+                and "provider" not in override
+            ):
                 dns_relookup.append((bfs, override["domain"]))
             else:
-                print(f"  {bfs:>5} {muni[bfs]['name']:<30} -> {override.get('provider', '?')}")
+                print(
+                    f"  {bfs:>5} {muni[bfs]['name']:<30} -> {override.get('provider', '?')}"
+                )
 
     if dns_relookup:
+
         async def _relookup(bfs, domain):
             mx = await lookup_mx(domain)
             spf = await lookup_spf(domain)
@@ -228,7 +325,9 @@ async def run(data_path: Path) -> None:
             print(f"  {bfs:>5} {muni[bfs]['name']:<30} -> {provider} (DNS re-lookup)")
 
     # Step 2: Retry DNS for unknowns that have a domain
-    dns_retry_candidates = [m for m in muni.values() if m["provider"] == "unknown" and m.get("domain")]
+    dns_retry_candidates = [
+        m for m in muni.values() if m["provider"] == "unknown" and m.get("domain")
+    ]
     if dns_retry_candidates:
         print(f"\nRetrying DNS for {len(dns_retry_candidates)} unknown domains...")
         for m in dns_retry_candidates:
@@ -237,7 +336,9 @@ async def run(data_path: Path) -> None:
                 spf = await lookup_spf(m["domain"])
                 mx_cnames = await resolve_mx_cnames(mx)
                 mx_asns = await resolve_mx_asns(mx)
-                provider = classify(mx, spf, mx_cnames=mx_cnames, mx_asns=mx_asns or None)
+                provider = classify(
+                    mx, spf, mx_cnames=mx_cnames, mx_asns=mx_asns or None
+                )
                 m["mx"] = mx
                 m["spf"] = spf
                 m["provider"] = provider
@@ -254,7 +355,9 @@ async def run(data_path: Path) -> None:
     if unknowns:
         semaphore = asyncio.Semaphore(CONCURRENCY_POSTPROCESS)
         async with httpx.AsyncClient(
-            headers={"User-Agent": "mxmap.ch/1.0 (https://github.com/davidhuser/mxmap)"},
+            headers={
+                "User-Agent": "mxmap.ch/1.0 (https://github.com/davidhuser/mxmap)"
+            },
             follow_redirects=True,
         ) as client:
             tasks = [process_unknown(client, semaphore, m) for m in unknowns]
@@ -281,7 +384,9 @@ async def run(data_path: Path) -> None:
         print(f"\nStill unknown ({remaining}, for manual review):")
         for m in sorted(muni.values(), key=lambda x: int(x["bfs"])):
             if m["provider"] == "unknown":
-                print(f"  {m['bfs']:>5}  {m['name']:<30} {m['canton']:<20} domain={m['domain']}")
+                print(
+                    f"  {m['bfs']:>5}  {m['name']:<30} {m['canton']:<20} domain={m['domain']}"
+                )
 
     with open(data_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2, separators=(",", ":"))

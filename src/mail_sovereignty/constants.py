@@ -1,13 +1,20 @@
 import re
 
 MICROSOFT_KEYWORDS = [
-    "mail.protection.outlook.com", "outlook.com",
-    "microsoft", "office365", "onmicrosoft",
-    "spf.protection.outlook.com", "sharepointonline",
+    "mail.protection.outlook.com",
+    "outlook.com",
+    "microsoft",
+    "office365",
+    "onmicrosoft",
+    "spf.protection.outlook.com",
+    "sharepointonline",
 ]
 GOOGLE_KEYWORDS = [
-    "google", "googlemail", "gmail",
-    "_spf.google.com", "aspmx.l.google.com",
+    "google",
+    "googlemail",
+    "gmail",
+    "_spf.google.com",
+    "aspmx.l.google.com",
 ]
 AWS_KEYWORDS = ["amazonaws", "amazonses", "awsdns"]
 INFOMANIAK_KEYWORDS = ["infomaniak", "ikmail.com", "mxpool.infomaniak"]
@@ -32,17 +39,34 @@ SELECT ?item ?itemLabel ?bfs ?website ?cantonLabel WHERE {
 ORDER BY xsd:integer(?bfs)
 """
 
-EMAIL_RE = re.compile(r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}')
+EMAIL_RE = re.compile(r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}")
 TYPO3_RE = re.compile(r"linkTo_UnCryptMailto\(['\"]([^'\"]+)['\"]")
-SKIP_DOMAINS = {'example.com', 'example.ch', 'sentry.io', 'w3.org',
-                'gstatic.com', 'googleapis.com', 'schema.org'}
+SKIP_DOMAINS = {
+    "example.com",
+    "example.ch",
+    "sentry.io",
+    "w3.org",
+    "gstatic.com",
+    "googleapis.com",
+    "schema.org",
+}
 
 SUBPAGES = [
-    '/kontakt', '/contact', '/impressum',
-    '/kontakt/', '/contact/', '/impressum/',
-    '/de/kontakt', '/fr/contact', '/it/contatto',
-    '/verwaltung', '/administration', '/autorites',
-    '/gemeinde', '/commune', '/comune',
+    "/kontakt",
+    "/contact",
+    "/impressum",
+    "/kontakt/",
+    "/contact/",
+    "/impressum/",
+    "/de/kontakt",
+    "/fr/contact",
+    "/it/contatto",
+    "/verwaltung",
+    "/administration",
+    "/autorites",
+    "/gemeinde",
+    "/commune",
+    "/comune",
 ]
 
 SWISS_ISP_ASNS: dict[int, str] = {

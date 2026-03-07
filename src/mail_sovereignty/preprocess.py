@@ -10,7 +10,12 @@ import httpx
 
 from mail_sovereignty.classify import classify
 from mail_sovereignty.constants import CONCURRENCY, SPARQL_QUERY, SPARQL_URL
-from mail_sovereignty.dns import lookup_mx, lookup_spf, resolve_mx_asns, resolve_mx_cnames
+from mail_sovereignty.dns import (
+    lookup_mx,
+    lookup_spf,
+    resolve_mx_asns,
+    resolve_mx_cnames,
+)
 
 
 def url_to_domain(url: str | None) -> str | None:
@@ -27,23 +32,34 @@ def url_to_domain(url: str | None) -> str | None:
 def guess_domains(name: str) -> list[str]:
     """Generate a small set of plausible domain guesses for a municipality."""
     raw = name.lower().strip()
-    raw = re.sub(r'\s*\(.*?\)\s*', '', raw)
+    raw = re.sub(r"\s*\(.*?\)\s*", "", raw)
 
     # German umlaut transliteration
-    de = raw.replace('\u00fc', 'ue').replace('\u00e4', 'ae').replace('\u00f6', 'oe')
+    de = raw.replace("\u00fc", "ue").replace("\u00e4", "ae").replace("\u00f6", "oe")
     # French accent removal
     fr = raw
-    for a, b in [('\u00e9', 'e'), ('\u00e8', 'e'), ('\u00ea', 'e'), ('\u00eb', 'e'),
-                 ('\u00e0', 'a'), ('\u00e2', 'a'), ('\u00f4', 'o'), ('\u00ee', 'i'),
-                 ('\u00f9', 'u'), ('\u00fb', 'u'), ('\u00e7', 'c'), ('\u00ef', 'i')]:
+    for a, b in [
+        ("\u00e9", "e"),
+        ("\u00e8", "e"),
+        ("\u00ea", "e"),
+        ("\u00eb", "e"),
+        ("\u00e0", "a"),
+        ("\u00e2", "a"),
+        ("\u00f4", "o"),
+        ("\u00ee", "i"),
+        ("\u00f9", "u"),
+        ("\u00fb", "u"),
+        ("\u00e7", "c"),
+        ("\u00ef", "i"),
+    ]:
         fr = fr.replace(a, b)
 
     def slugify(s):
         s = re.sub(r"['\u2019`]", "", s)
-        s = re.sub(r'[^a-z0-9]+', '-', s)
-        return s.strip('-')
+        s = re.sub(r"[^a-z0-9]+", "-", s)
+        return s.strip("-")
 
-    slugs = {slugify(de), slugify(fr), slugify(raw)} - {''}
+    slugs = {slugify(de), slugify(fr), slugify(raw)} - {""}
     candidates = set()
     for slug in slugs:
         candidates.add(f"{slug}.ch")
@@ -85,12 +101,16 @@ async def fetch_wikidata() -> dict[str, dict[str, str]]:
         elif not municipalities[bfs]["website"] and website:
             municipalities[bfs]["website"] = website
 
-    print(f"  Found {len(municipalities)} municipalities, "
-          f"{sum(1 for m in municipalities.values() if m['website'])} with websites")
+    print(
+        f"  Found {len(municipalities)} municipalities, "
+        f"{sum(1 for m in municipalities.values() if m['website'])} with websites"
+    )
     return municipalities
 
 
-async def scan_municipality(m: dict[str, str], semaphore: asyncio.Semaphore) -> dict[str, Any]:
+async def scan_municipality(
+    m: dict[str, str], semaphore: asyncio.Semaphore
+) -> dict[str, Any]:
     """Scan a single municipality for email provider info."""
     async with semaphore:
         domain = url_to_domain(m.get("website", ""))
@@ -151,14 +171,16 @@ async def run(output_path: Path) -> None:
             counts = {}
             for r in results.values():
                 counts[r["provider"]] = counts.get(r["provider"], 0) + 1
-            print(f"  [{done:4d}/{total}]  "
-                  f"MS={counts.get('microsoft', 0)}  "
-                  f"Google={counts.get('google', 0)}  "
-                  f"Infomaniak={counts.get('infomaniak', 0)}  "
-                  f"AWS={counts.get('aws', 0)}  "
-                  f"ISP={counts.get('swiss-isp', 0)}  "
-                  f"Sov={counts.get('sovereign', 0)}  "
-                  f"?={counts.get('unknown', 0)}")
+            print(
+                f"  [{done:4d}/{total}]  "
+                f"MS={counts.get('microsoft', 0)}  "
+                f"Google={counts.get('google', 0)}  "
+                f"Infomaniak={counts.get('infomaniak', 0)}  "
+                f"AWS={counts.get('aws', 0)}  "
+                f"ISP={counts.get('swiss-isp', 0)}  "
+                f"Sov={counts.get('sovereign', 0)}  "
+                f"?={counts.get('unknown', 0)}"
+            )
 
     counts = {}
     for r in results.values():

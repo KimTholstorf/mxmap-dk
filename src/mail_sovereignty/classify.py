@@ -8,51 +8,56 @@ from mail_sovereignty.constants import (
 )
 
 
-def classify(mx_records: list[str], spf_record: str | None, mx_cnames: dict[str, str] | None = None, mx_asns: set[int] | None = None) -> str:
+def classify(
+    mx_records: list[str],
+    spf_record: str | None,
+    mx_cnames: dict[str, str] | None = None,
+    mx_asns: set[int] | None = None,
+) -> str:
     """Classify email provider based on MX, CNAME targets, and SPF.
 
     MX records are checked first (they show where mail is actually delivered).
     CNAME targets of MX hosts are checked next (to detect hidden hyperscaler usage).
     SPF is only used as fallback when MX alone is inconclusive.
     """
-    mx_blob = ' '.join(mx_records).lower()
+    mx_blob = " ".join(mx_records).lower()
 
     if any(k in mx_blob for k in MICROSOFT_KEYWORDS):
-        return 'microsoft'
+        return "microsoft"
     if any(k in mx_blob for k in GOOGLE_KEYWORDS):
-        return 'google'
+        return "google"
     if any(k in mx_blob for k in INFOMANIAK_KEYWORDS):
-        return 'infomaniak'
+        return "infomaniak"
     if any(k in mx_blob for k in AWS_KEYWORDS):
-        return 'aws'
+        return "aws"
 
     if mx_records and mx_cnames:
-        cname_blob = ' '.join(mx_cnames.values()).lower()
+        cname_blob = " ".join(mx_cnames.values()).lower()
         if any(k in cname_blob for k in MICROSOFT_KEYWORDS):
-            return 'microsoft'
+            return "microsoft"
         if any(k in cname_blob for k in GOOGLE_KEYWORDS):
-            return 'google'
+            return "google"
         if any(k in cname_blob for k in INFOMANIAK_KEYWORDS):
-            return 'infomaniak'
+            return "infomaniak"
         if any(k in cname_blob for k in AWS_KEYWORDS):
-            return 'aws'
+            return "aws"
 
     if mx_records:
         if mx_asns and mx_asns & SWISS_ISP_ASNS.keys():
-            return 'swiss-isp'
-        return 'sovereign'
+            return "swiss-isp"
+        return "sovereign"
 
-    spf_blob = (spf_record or '').lower()
+    spf_blob = (spf_record or "").lower()
     if any(k in spf_blob for k in MICROSOFT_KEYWORDS):
-        return 'microsoft'
+        return "microsoft"
     if any(k in spf_blob for k in GOOGLE_KEYWORDS):
-        return 'google'
+        return "google"
     if any(k in spf_blob for k in INFOMANIAK_KEYWORDS):
-        return 'infomaniak'
+        return "infomaniak"
     if any(k in spf_blob for k in AWS_KEYWORDS):
-        return 'aws'
+        return "aws"
 
-    return 'unknown'
+    return "unknown"
 
 
 def classify_from_mx(mx_records: list[str]) -> str | None:
