@@ -100,6 +100,9 @@
   }
   .cat-badge.hyperscaler { background: #fee2e2; color: #dc2626; }
   .cat-badge.domestic { background: #dcfce7; color: #16a34a; }
+  .legend-group { margin-top: 8px; }
+  .legend-group:first-child { margin-top: 4px; }
+  .legend-group-label { font-size: 11px; color: #999; text-transform: uppercase; letter-spacing: 0.3px; font-weight: 600; display: block; margin-bottom: 2px; }
 </style>
 </head>
 <body>
@@ -126,11 +129,11 @@
   <div class="info-grid">
     <div class="info-card">
       <h3>What is this?</h3>
-      <p>Email hosting map of all ~2,100 Swiss municipalities, based on automated DNS analysis (MX + SPF). See legend for provider colors.</p>
+      <p>This map shows how each of Switzerland's ~2,100 municipalities hosts its official email, based on automated DNS analysis (MX + SPF records). Municipalities are color-coded by email provider — green/blue tones indicate domestic or self-hosted infrastructure, while red/purple/amber indicate US hyperscalers subject to the CLOUD Act.</p>
     </div>
     <div class="info-card">
       <h3>Why does it matter?</h3>
-      <p>The US CLOUD Act (2018) lets US authorities force American cloud providers to hand over data — regardless of where it's stored. A substantial amount of Swiss municipalities route official email through US infrastructure.</p>
+      <p>The US CLOUD Act (2018) lets US authorities force American cloud providers to hand over data — regardless of where it's stored. A substantial amount of Swiss municipalities route official email through US infrastructure, raising concerns about data sovereignty.</p>
     </div>
     <div class="info-card">
       <h3>Who made this?</h3>
@@ -243,6 +246,23 @@ document.getElementById('info-bar').addEventListener('transitionend', function (
   if (e.propertyName === 'max-height') map.invalidateSize();
 });
 
+function legendItemHtml(key, counts) {
+  const hatchSvg = 'data:image/svg+xml,' +
+    encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="8" height="8"><rect width="8" height="8" fill="#ababab"/><path d="M-1,1 l2,-2 M0,8 l8,-8 M7,9 l2,-2" stroke="#000" stroke-width="1"/></svg>');
+  const bg = key === 'unknown'
+    ? "background-image:url('" + hatchSvg + "')"
+    : `background:${COLORS[key]}`;
+  return `<i style="${bg}"></i>${LABELS[key]} (${counts[key] || 0})`;
+}
+
+function legendGroupHtml(label, keys, counts) {
+  const heading = label
+    ? `<span class="legend-group-label">${label}</span>`
+    : '';
+  const items = keys.map(k => legendItemHtml(k, counts)).join('<br>');
+  return `<div class="legend-group">${heading}${items}</div>`;
+}
+
 async function loadData() {
   const [topoRes, dataRes] = await Promise.all([
     fetch('https://cdn.jsdelivr.net/npm/swiss-maps@4.7.0/2026/ch-combined.json'),
@@ -271,15 +291,10 @@ async function loadData() {
     div.innerHTML =
       '<button class="legend-toggle" onclick="toggleLegend()">' + (isMobile ? 'Legend \u25B8' : '') + '</button>' +
       '<div class="legend-content">' +
-      '<strong>Email Provider</strong><br>' +
-      Object.entries(LABELS).map(([k, v]) => {
-        const bg = k === 'unknown'
-          ? "background-image:url('" + 'data:image/svg+xml,' +
-            encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="8" height="8"><rect width="8" height="8" fill="#ababab"/><path d="M-1,1 l2,-2 M0,8 l8,-8 M7,9 l2,-2" stroke="#000" stroke-width="1"/></svg>') +
-            "')"
-          : `background:${COLORS[k]}`;
-        return `<i style="${bg}"></i>${v} (${dnsData.counts[k] || 0})`;
-      }).join('<br>') +
+      '<strong>Email Provider</strong>' +
+      legendGroupHtml('US Hyperscaler', ['microsoft', 'google', 'aws'], dnsData.counts) +
+      legendGroupHtml('Domestic / Sovereign', ['sovereign', 'infomaniak', 'swiss-isp'], dnsData.counts) +
+      legendGroupHtml(null, ['merged', 'unknown'], dnsData.counts) +
       '<br><br><small class="legend-error-link">Found an error? <a href="https://github.com/davidhuser/mxmap/issues" target="_blank">Report it on GitHub</a></small>' +
       '</div>';
     L.DomEvent.disableClickPropagation(div);
