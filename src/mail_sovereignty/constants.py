@@ -45,5 +45,13 @@ SUBPAGES = [
     '/gemeinde', '/commune', '/comune',
 ]
 
+SWISS_ISP_ASNS: dict[int, str] = {
+    3303: "Swisscom",
+    6830: "Liberty Global (UPC/Sunrise)",
+    12399: "Sunrise",
+    13030: "Init7",
+    15576: "NTS",
+}
+
 CONCURRENCY = 20
 CONCURRENCY_POSTPROCESS = 10

@@ -5,7 +5,7 @@ import dns.exception
 import dns.resolver
 import pytest
 
-from mail_sovereignty.dns import get_resolvers, lookup_cname_chain, lookup_mx, lookup_spf, make_resolvers, resolve_mx_cnames
+from mail_sovereignty.dns import get_resolvers, lookup_a, lookup_asn_cymru, lookup_cname_chain, lookup_mx, lookup_spf, make_resolvers, resolve_mx_asns, resolve_mx_cnames
 
 
 @pytest.fixture(autouse=True)
@@ -344,3 +344,133 @@ class TestResolveMxCnames:
         with patch("mail_sovereignty.dns.get_resolvers", return_value=[mock_resolver]):
             result = await resolve_mx_cnames(["mail.example.ch", "mail2.example.ch"])
         assert result == {"mail.example.ch": "mail.protection.outlook.com"}
+
+
+class TestLookupA:
+    async def test_success(self):
+        mock_resolver = AsyncMock()
+        mock_resolver.resolve = AsyncMock(return_value=["193.135.252.10"])
+
+        with patch("mail_sovereignty.dns.get_resolvers", return_value=[mock_resolver]):
+            result = await lookup_a("mail.example.ch")
+        assert result == ["193.135.252.10"]
+
+    async def test_nxdomain_returns_empty(self):
+        mock_resolver = AsyncMock()
+        mock_resolver.resolve = AsyncMock(side_effect=dns.resolver.NXDOMAIN())
+
+        with patch("mail_sovereignty.dns.get_resolvers", return_value=[mock_resolver]):
+            result = await lookup_a("nonexistent.ch")
+        assert result == []
+
+    async def test_timeout_retries(self):
+        mock_resolver1 = AsyncMock()
+        mock_resolver1.resolve = AsyncMock(side_effect=dns.exception.Timeout())
+
+        mock_resolver2 = AsyncMock()
+        mock_resolver2.resolve = AsyncMock(return_value=["1.2.3.4"])
+
+        with patch("mail_sovereignty.dns.get_resolvers", return_value=[mock_resolver1, mock_resolver2]):
+            with patch("asyncio.sleep", new_callable=AsyncMock):
+                result = await lookup_a("example.ch")
+        assert result == ["1.2.3.4"]
+
+    async def test_all_resolvers_fail(self):
+        resolvers = []
+        for _ in range(3):
+            r = AsyncMock()
+            r.resolve = AsyncMock(side_effect=dns.exception.Timeout())
+            resolvers.append(r)
+
+        with patch("mail_sovereignty.dns.get_resolvers", return_value=resolvers):
+            with patch("asyncio.sleep", new_callable=AsyncMock):
+                result = await lookup_a("example.ch")
+        assert result == []
+
+
+class TestLookupAsnCymru:
+    async def test_success(self):
+        mock_rr = MagicMock()
+        mock_rr.strings = [b"3303 | 193.135.252.0/24 | CH | ripencc | 2000-01-01"]
+        mock_answer = [mock_rr]
+
+        mock_resolver = AsyncMock()
+        mock_resolver.resolve = AsyncMock(return_value=mock_answer)
+
+        with patch("mail_sovereignty.dns.get_resolvers", return_value=[mock_resolver]):
+            result = await lookup_asn_cymru("193.135.252.10")
+        assert result == 3303
+        mock_resolver.resolve.assert_called_once_with(
+            "10.252.135.193.origin.asn.cymru.com", "TXT"
+        )
+
+    async def test_nxdomain_returns_none(self):
+        mock_resolver = AsyncMock()
+        mock_resolver.resolve = AsyncMock(side_effect=dns.resolver.NXDOMAIN())
+
+        with patch("mail_sovereignty.dns.get_resolvers", return_value=[mock_resolver]):
+            result = await lookup_asn_cymru("192.0.2.1")
+        assert result is None
+
+    async def test_timeout_retries(self):
+        mock_rr = MagicMock()
+        mock_rr.strings = [b"13030 | 77.109.128.0/19 | CH | ripencc | 2003-01-01"]
+
+        mock_resolver1 = AsyncMock()
+        mock_resolver1.resolve = AsyncMock(side_effect=dns.exception.Timeout())
+
+        mock_resolver2 = AsyncMock()
+        mock_resolver2.resolve = AsyncMock(return_value=[mock_rr])
+
+        with patch("mail_sovereignty.dns.get_resolvers", return_value=[mock_resolver1, mock_resolver2]):
+            with patch("asyncio.sleep", new_callable=AsyncMock):
+                result = await lookup_asn_cymru("77.109.128.1")
+        assert result == 13030
+
+    async def test_all_resolvers_fail(self):
+        resolvers = []
+        for _ in range(3):
+            r = AsyncMock()
+            r.resolve = AsyncMock(side_effect=dns.exception.Timeout())
+            resolvers.append(r)
+
+        with patch("mail_sovereignty.dns.get_resolvers", return_value=resolvers):
+            with patch("asyncio.sleep", new_callable=AsyncMock):
+                result = await lookup_asn_cymru("1.2.3.4")
+        assert result is None
+
+
+class TestResolveMxAsns:
+    async def test_returns_asn_set(self):
+        with patch("mail_sovereignty.dns.lookup_a", new_callable=AsyncMock) as mock_a, \
+             patch("mail_sovereignty.dns.lookup_asn_cymru", new_callable=AsyncMock) as mock_asn:
+            mock_a.return_value = ["193.135.252.10"]
+            mock_asn.return_value = 3303
+
+            result = await resolve_mx_asns(["mail1.rzobt.ch"])
+        assert result == {3303}
+
+    async def test_multiple_hosts_dedup(self):
+        with patch("mail_sovereignty.dns.lookup_a", new_callable=AsyncMock) as mock_a, \
+             patch("mail_sovereignty.dns.lookup_asn_cymru", new_callable=AsyncMock) as mock_asn:
+            mock_a.return_value = ["193.135.252.10"]
+            mock_asn.return_value = 3303
+
+            result = await resolve_mx_asns(["mail1.rzobt.ch", "mail2.rzobt.ch"])
+        assert result == {3303}
+
+    async def test_no_ips_returns_empty(self):
+        with patch("mail_sovereignty.dns.lookup_a", new_callable=AsyncMock) as mock_a:
+            mock_a.return_value = []
+
+            result = await resolve_mx_asns(["mail.example.ch"])
+        assert result == set()
+
+    async def test_asn_lookup_failure_skipped(self):
+        with patch("mail_sovereignty.dns.lookup_a", new_callable=AsyncMock) as mock_a, \
+             patch("mail_sovereignty.dns.lookup_asn_cymru", new_callable=AsyncMock) as mock_asn:
+            mock_a.return_value = ["1.2.3.4"]
+            mock_asn.return_value = None
+
+            result = await resolve_mx_asns(["mail.example.ch"])
+        assert result == set()

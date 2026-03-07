@@ -10,7 +10,7 @@ import httpx
 
 from mail_sovereignty.classify import classify
 from mail_sovereignty.constants import CONCURRENCY, SPARQL_QUERY, SPARQL_URL
-from mail_sovereignty.dns import lookup_mx, lookup_spf, resolve_mx_cnames
+from mail_sovereignty.dns import lookup_mx, lookup_spf, resolve_mx_asns, resolve_mx_cnames
 
 
 def url_to_domain(url: str | None) -> str | None:
@@ -112,7 +112,8 @@ async def scan_municipality(m: dict[str, str], semaphore: asyncio.Semaphore) -> 
                     break
 
         mx_cnames = await resolve_mx_cnames(mx) if mx else {}
-        provider = classify(mx, spf, mx_cnames=mx_cnames)
+        mx_asns = await resolve_mx_asns(mx) if mx else set()
+        provider = classify(mx, spf, mx_cnames=mx_cnames, mx_asns=mx_asns or None)
 
         entry: dict[str, Any] = {
             "bfs": m["bfs"],
@@ -125,6 +126,8 @@ async def scan_municipality(m: dict[str, str], semaphore: asyncio.Semaphore) -> 
         }
         if mx_cnames:
             entry["mx_cnames"] = mx_cnames
+        if mx_asns:
+            entry["mx_asns"] = sorted(mx_asns)
         return entry
 
 
@@ -153,6 +156,7 @@ async def run(output_path: Path) -> None:
                   f"Google={counts.get('google', 0)}  "
                   f"Infomaniak={counts.get('infomaniak', 0)}  "
                   f"AWS={counts.get('aws', 0)}  "
+                  f"ISP={counts.get('swiss-isp', 0)}  "
                   f"Sov={counts.get('sovereign', 0)}  "
                   f"?={counts.get('unknown', 0)}")
 
@@ -166,6 +170,7 @@ async def run(output_path: Path) -> None:
     print(f"  Google/GCP      : {counts.get('google', 0):>5}")
     print(f"  Infomaniak      : {counts.get('infomaniak', 0):>5}")
     print(f"  AWS             : {counts.get('aws', 0):>5}")
+    print(f"  Swiss ISP       : {counts.get('swiss-isp', 0):>5}")
     print(f"  Sovereign/Other : {counts.get('sovereign', 0):>5}")
     print(f"  Unknown/No MX   : {counts.get('unknown', 0):>5}")
     print(f"{'=' * 50}")

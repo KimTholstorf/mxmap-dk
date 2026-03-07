@@ -115,3 +115,59 @@ async def resolve_mx_cnames(mx_hosts: list[str]) -> dict[str, str]:
         if chain:
             result[host] = chain[-1]
     return result
+
+
+async def lookup_a(hostname: str) -> list[str]:
+    """Resolve hostname to IPv4 addresses via A record query."""
+    resolvers = get_resolvers()
+    for i, resolver in enumerate(resolvers):
+        try:
+            answers = await resolver.resolve(hostname, 'A')
+            return [str(r) for r in answers]
+        except dns.resolver.NXDOMAIN:
+            return []
+        except _RETRYABLE as e:
+            logger.debug("A %s: %s on resolver %d, retrying", hostname, type(e).__name__, i)
+            await asyncio.sleep(0.5)
+            continue
+        except Exception:
+            continue
+    logger.info("A %s: all resolvers failed", hostname)
+    return []
+
+
+async def lookup_asn_cymru(ip: str) -> int | None:
+    """Query Team Cymru DNS for ASN number of an IP address."""
+    reversed_ip = '.'.join(reversed(ip.split('.')))
+    query = f"{reversed_ip}.origin.asn.cymru.com"
+    resolvers = get_resolvers()
+    for i, resolver in enumerate(resolvers):
+        try:
+            answers = await resolver.resolve(query, 'TXT')
+            for r in answers:
+                txt = b''.join(r.strings).decode('utf-8', errors='ignore')
+                # Format: "3303 | 193.135.252.0/24 | CH | ripencc | ..."
+                asn_str = txt.split('|')[0].strip()
+                return int(asn_str)
+        except dns.resolver.NXDOMAIN:
+            return None
+        except _RETRYABLE as e:
+            logger.debug("ASN %s: %s on resolver %d, retrying", ip, type(e).__name__, i)
+            await asyncio.sleep(0.5)
+            continue
+        except Exception:
+            continue
+    logger.info("ASN %s: all resolvers failed", ip)
+    return None
+
+
+async def resolve_mx_asns(mx_hosts: list[str]) -> set[int]:
+    """Resolve all MX hosts to IPs, look up ASNs, return set of unique ASNs."""
+    asns = set()
+    for host in mx_hosts:
+        ips = await lookup_a(host)
+        for ip in ips:
+            asn = await lookup_asn_cymru(ip)
+            if asn is not None:
+                asns.add(asn)
+    return asns

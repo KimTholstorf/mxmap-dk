@@ -59,6 +59,47 @@ class TestClassify:
         )
         assert result == "microsoft"
 
+    def test_swiss_isp_asn(self):
+        result = classify(
+            ["mail1.rzobt.ch"],
+            "",
+            mx_asns={3303},
+        )
+        assert result == "swiss-isp"
+
+    def test_swiss_isp_does_not_override_hostname_match(self):
+        result = classify(
+            ["mail.protection.outlook.com"],
+            "",
+            mx_asns={3303},
+        )
+        assert result == "microsoft"
+
+    def test_swiss_isp_does_not_override_cname_match(self):
+        result = classify(
+            ["mail.example.ch"],
+            "",
+            mx_cnames={"mail.example.ch": "mail.protection.outlook.com"},
+            mx_asns={3303},
+        )
+        assert result == "microsoft"
+
+    def test_non_swiss_isp_asn_stays_sovereign(self):
+        result = classify(
+            ["mail.example.ch"],
+            "",
+            mx_asns={99999},
+        )
+        assert result == "sovereign"
+
+    def test_empty_asns_stays_sovereign(self):
+        result = classify(
+            ["mail.example.ch"],
+            "",
+            mx_asns=set(),
+        )
+        assert result == "sovereign"
+
 
 # ── classify_from_mx() ──────────────────────────────────────────────
 

@@ -4,10 +4,11 @@ from mail_sovereignty.constants import (
     INFOMANIAK_KEYWORDS,
     MICROSOFT_KEYWORDS,
     PROVIDER_KEYWORDS,
+    SWISS_ISP_ASNS,
 )
 
 
-def classify(mx_records: list[str], spf_record: str | None, mx_cnames: dict[str, str] | None = None) -> str:
+def classify(mx_records: list[str], spf_record: str | None, mx_cnames: dict[str, str] | None = None, mx_asns: set[int] | None = None) -> str:
     """Classify email provider based on MX, CNAME targets, and SPF.
 
     MX records are checked first (they show where mail is actually delivered).
@@ -37,6 +38,8 @@ def classify(mx_records: list[str], spf_record: str | None, mx_cnames: dict[str,
             return 'aws'
 
     if mx_records:
+        if mx_asns and mx_asns & SWISS_ISP_ASNS.keys():
+            return 'swiss-isp'
         return 'sovereign'
 
     spf_blob = (spf_record or '').lower()

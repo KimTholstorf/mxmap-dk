@@ -148,6 +148,7 @@ const COLORS = {
   google:     '#a855f7',  // vivid purple — US cloud
   aws:        '#f59e0b',  // warm amber — US cloud
   infomaniak: '#2563eb',  // strong blue — Swiss provider
+  'swiss-isp': '#0ea5e9',  // sky blue — Swiss ISP
   sovereign:  '#16a34a',  // vivid green — self-hosted (best)
   merged:     '#BBBBBB',  // gray
   unknown:    '#8b8b8b'   // gray with hatching
@@ -158,6 +159,7 @@ const LABELS = {
   google:     'Google Workspace',
   aws:        'Amazon Web Services',
   infomaniak: 'Infomaniak',
+  'swiss-isp': 'Swiss ISP',
   sovereign:  'Sovereign / Self-hosted',
   merged:     'Merged municipality',
   unknown:    'Unknown'
@@ -319,7 +321,7 @@ async function loadData() {
         return;
       }
       const color = COLORS[m.provider] || COLORS.unknown;
-      const textColor = ['aws', 'merged', 'unknown'].includes(m.provider) ? '#333' : '#fff';
+      const textColor = ['aws', 'swiss-isp', 'merged', 'unknown'].includes(m.provider) ? '#333' : '#fff';
       const label = LABELS[m.provider] || m.provider;
 
       let mxSection = '';
