@@ -157,6 +157,11 @@ class TestScanMunicipality:
                 new_callable=AsyncMock,
                 return_value="v=spf1 include:spf.protection.outlook.com -all",
             ),
+            patch(
+                "mail_sovereignty.preprocess.lookup_autodiscover",
+                new_callable=AsyncMock,
+                return_value={},
+            ),
         ):
             result = await scan_municipality(m, sem)
 
@@ -183,6 +188,11 @@ class TestScanMunicipality:
                 "mail_sovereignty.preprocess.resolve_spf_includes",
                 new_callable=AsyncMock,
                 return_value="",
+            ),
+            patch(
+                "mail_sovereignty.preprocess.lookup_autodiscover",
+                new_callable=AsyncMock,
+                return_value={},
             ),
         ):
             result = await scan_municipality(m, sem)
@@ -235,6 +245,11 @@ class TestScanMunicipality:
                 new_callable=AsyncMock,
                 return_value="v=spf1 include:spf.protection.outlook.com -all",
             ),
+            patch(
+                "mail_sovereignty.preprocess.lookup_autodiscover",
+                new_callable=AsyncMock,
+                return_value={},
+            ),
         ):
             result = await scan_municipality(m, sem)
 
@@ -269,12 +284,56 @@ class TestScanMunicipality:
                 new_callable=AsyncMock,
                 return_value=resolved_spf,
             ),
+            patch(
+                "mail_sovereignty.preprocess.lookup_autodiscover",
+                new_callable=AsyncMock,
+                return_value={},
+            ),
         ):
             result = await scan_municipality(m, sem)
 
         assert result["provider"] == "microsoft"
         assert result["gateway"] == "cleanmail"
         assert result["spf_resolved"] == resolved_spf
+
+    async def test_autodiscover_stored_when_found(self):
+        m = {
+            "bfs": "500",
+            "name": "Frutigen",
+            "canton": "Bern",
+            "website": "https://www.frutigen.ch",
+        }
+        sem = __import__("asyncio").Semaphore(10)
+
+        with (
+            patch(
+                "mail_sovereignty.preprocess.lookup_mx",
+                new_callable=AsyncMock,
+                return_value=["mx01.hornetsecurity.com"],
+            ),
+            patch(
+                "mail_sovereignty.preprocess.lookup_spf",
+                new_callable=AsyncMock,
+                return_value="v=spf1 ip4:1.2.3.4 -all",
+            ),
+            patch(
+                "mail_sovereignty.preprocess.resolve_spf_includes",
+                new_callable=AsyncMock,
+                return_value="v=spf1 ip4:1.2.3.4 -all",
+            ),
+            patch(
+                "mail_sovereignty.preprocess.lookup_autodiscover",
+                new_callable=AsyncMock,
+                return_value={"autodiscover_cname": "autodiscover.outlook.com"},
+            ),
+        ):
+            result = await scan_municipality(m, sem)
+
+        assert result["provider"] == "microsoft"
+        assert result["gateway"] == "hornetsecurity"
+        assert result["autodiscover"] == {
+            "autodiscover_cname": "autodiscover.outlook.com"
+        }
 
 
 # ── run() ────────────────────────────────────────────────────────────
@@ -316,6 +375,11 @@ class TestPreprocessRun:
                 "mail_sovereignty.preprocess.resolve_spf_includes",
                 new_callable=AsyncMock,
                 return_value="",
+            ),
+            patch(
+                "mail_sovereignty.preprocess.lookup_autodiscover",
+                new_callable=AsyncMock,
+                return_value={},
             ),
         ):
             output = tmp_path / "data.json"

@@ -15,6 +15,7 @@ from mail_sovereignty.constants import (
     TYPO3_RE,
 )
 from mail_sovereignty.dns import (
+    lookup_autodiscover,
     lookup_mx,
     lookup_spf,
     resolve_mx_asns,
@@ -141,12 +142,14 @@ async def process_unknown(
                 spf_resolved = await resolve_spf_includes(spf) if spf else ""
                 mx_cnames = await resolve_mx_cnames(mx)
                 mx_asns = await resolve_mx_asns(mx)
+                autodiscover = await lookup_autodiscover(email_domain)
                 provider = classify(
                     mx,
                     spf,
                     mx_cnames=mx_cnames,
                     mx_asns=mx_asns or None,
                     resolved_spf=spf_resolved or None,
+                    autodiscover=autodiscover or None,
                 )
                 gateway = detect_gateway(mx)
                 print(
@@ -165,6 +168,8 @@ async def process_unknown(
                     m["mx_cnames"] = mx_cnames
                 if mx_asns:
                     m["mx_asns"] = sorted(mx_asns)
+                if autodiscover:
+                    m["autodiscover"] = autodiscover
                 return m
 
         print(
@@ -322,15 +327,27 @@ async def run(data_path: Path) -> None:
             spf_resolved = await resolve_spf_includes(spf) if spf else ""
             mx_cnames = await resolve_mx_cnames(mx) if mx else {}
             mx_asns = await resolve_mx_asns(mx) if mx else set()
+            autodiscover = await lookup_autodiscover(domain)
             provider = classify(
                 mx,
                 spf,
                 mx_cnames=mx_cnames,
                 mx_asns=mx_asns or None,
                 resolved_spf=spf_resolved or None,
+                autodiscover=autodiscover or None,
             )
             gateway = detect_gateway(mx) if mx else None
-            return bfs, mx, spf, spf_resolved, mx_cnames, mx_asns, provider, gateway
+            return (
+                bfs,
+                mx,
+                spf,
+                spf_resolved,
+                mx_cnames,
+                mx_asns,
+                provider,
+                gateway,
+                autodiscover,
+            )
 
         results = await asyncio.gather(*[_relookup(b, d) for b, d in dns_relookup])
         for (
@@ -342,6 +359,7 @@ async def run(data_path: Path) -> None:
             mx_asns,
             provider,
             gateway,
+            autodiscover,
         ) in results:
             muni[bfs]["mx"] = mx
             muni[bfs]["spf"] = spf
@@ -354,6 +372,8 @@ async def run(data_path: Path) -> None:
                 muni[bfs]["mx_cnames"] = mx_cnames
             if mx_asns:
                 muni[bfs]["mx_asns"] = sorted(mx_asns)
+            if autodiscover:
+                muni[bfs]["autodiscover"] = autodiscover
             print(f"  {bfs:>5} {muni[bfs]['name']:<30} -> {provider} (DNS re-lookup)")
 
     # Step 2: Retry DNS for unknowns that have a domain
@@ -369,12 +389,14 @@ async def run(data_path: Path) -> None:
                 spf_resolved = await resolve_spf_includes(spf) if spf else ""
                 mx_cnames = await resolve_mx_cnames(mx)
                 mx_asns = await resolve_mx_asns(mx)
+                autodiscover = await lookup_autodiscover(m["domain"])
                 provider = classify(
                     mx,
                     spf,
                     mx_cnames=mx_cnames,
                     mx_asns=mx_asns or None,
                     resolved_spf=spf_resolved or None,
+                    autodiscover=autodiscover or None,
                 )
                 gateway = detect_gateway(mx)
                 m["mx"] = mx
@@ -388,6 +410,8 @@ async def run(data_path: Path) -> None:
                     m["mx_cnames"] = mx_cnames
                 if mx_asns:
                     m["mx_asns"] = sorted(mx_asns)
+                if autodiscover:
+                    m["autodiscover"] = autodiscover
                 print(f"  RECOVERED {m['bfs']:>5} {m['name']:<30} -> {provider}")
 
     # Step 3: Scrape remaining unknowns

@@ -1,5 +1,6 @@
 from mail_sovereignty.classify import (
     classify,
+    classify_from_autodiscover,
     classify_from_mx,
     classify_from_spf,
     detect_gateway,
@@ -189,6 +190,91 @@ class TestClassify:
             "v=spf1 include:_spf.google.com -all",
         )
         assert result == "microsoft"
+
+    # ── Autodiscover in classify() ──
+
+    def test_gateway_autodiscover_reveals_microsoft(self):
+        result = classify(
+            ["mx01.hornetsecurity.com"],
+            "v=spf1 ip4:1.2.3.4 -all",
+            autodiscover={"autodiscover_cname": "autodiscover.outlook.com"},
+        )
+        assert result == "microsoft"
+
+    def test_gateway_autodiscover_reveals_google(self):
+        result = classify(
+            ["filter.seppmail.cloud"],
+            "",
+            autodiscover={"autodiscover_srv": "autodiscover.google.com"},
+        )
+        assert result == "google"
+
+    def test_gateway_spf_takes_precedence_over_autodiscover(self):
+        """If SPF already identifies a provider, autodiscover is not checked."""
+        result = classify(
+            ["mx.cleanmail.ch"],
+            "v=spf1 include:_spf.google.com -all",
+            autodiscover={"autodiscover_cname": "autodiscover.outlook.com"},
+        )
+        assert result == "google"
+
+    def test_non_gateway_sovereign_ignores_autodiscover(self):
+        """Non-gateway sovereign MX should NOT use autodiscover."""
+        result = classify(
+            ["mail.example.ch"],
+            "",
+            autodiscover={"autodiscover_cname": "autodiscover.outlook.com"},
+        )
+        assert result == "sovereign"
+
+    def test_gateway_empty_autodiscover_stays_sovereign(self):
+        result = classify(
+            ["filter.seppmail.cloud"],
+            "",
+            autodiscover={},
+        )
+        assert result == "sovereign"
+
+    def test_gateway_autodiscover_none_stays_sovereign(self):
+        result = classify(
+            ["filter.seppmail.cloud"],
+            "",
+            autodiscover=None,
+        )
+        assert result == "sovereign"
+
+
+# ── classify_from_autodiscover() ────────────────────────────────────
+
+
+class TestClassifyFromAutodiscover:
+    def test_none_returns_none(self):
+        assert classify_from_autodiscover(None) is None
+
+    def test_empty_dict_returns_none(self):
+        assert classify_from_autodiscover({}) is None
+
+    def test_microsoft_cname(self):
+        assert (
+            classify_from_autodiscover(
+                {"autodiscover_cname": "autodiscover.outlook.com"}
+            )
+            == "microsoft"
+        )
+
+    def test_google_srv(self):
+        assert (
+            classify_from_autodiscover({"autodiscover_srv": "autodiscover.google.com"})
+            == "google"
+        )
+
+    def test_unrecognized_returns_none(self):
+        assert (
+            classify_from_autodiscover(
+                {"autodiscover_cname": "autodiscover.custom-host.ch"}
+            )
+            is None
+        )
 
 
 # ── detect_gateway() ────────────────────────────────────────────────

@@ -8,9 +8,11 @@ from mail_sovereignty.dns import (
     get_resolvers,
     lookup_a,
     lookup_asn_cymru,
+    lookup_autodiscover,
     lookup_cname_chain,
     lookup_mx,
     lookup_spf,
+    lookup_srv,
     make_resolvers,
     resolve_mx_asns,
     resolve_mx_cnames,
@@ -594,3 +596,126 @@ class TestResolveMxAsns:
 
             result = await resolve_mx_asns(["mail.example.ch"])
         assert result == set()
+
+
+class TestLookupSrv:
+    async def test_success(self):
+        mock_rr = MagicMock()
+        mock_rr.target = "autodiscover.outlook.com."
+        mock_rr.port = 443
+        mock_answer = [mock_rr]
+
+        mock_resolver = AsyncMock()
+        mock_resolver.resolve = AsyncMock(return_value=mock_answer)
+
+        with patch("mail_sovereignty.dns.get_resolvers", return_value=[mock_resolver]):
+            result = await lookup_srv("_autodiscover._tcp.example.ch")
+        assert result == [("autodiscover.outlook.com", 443)]
+
+    async def test_nxdomain_returns_empty(self):
+        mock_resolver = AsyncMock()
+        mock_resolver.resolve = AsyncMock(side_effect=dns.resolver.NXDOMAIN())
+
+        with patch("mail_sovereignty.dns.get_resolvers", return_value=[mock_resolver]):
+            result = await lookup_srv("_autodiscover._tcp.nonexistent.ch")
+        assert result == []
+
+    async def test_timeout_retries(self):
+        mock_rr = MagicMock()
+        mock_rr.target = "autodiscover.outlook.com."
+        mock_rr.port = 443
+
+        mock_resolver1 = AsyncMock()
+        mock_resolver1.resolve = AsyncMock(side_effect=dns.exception.Timeout())
+
+        mock_resolver2 = AsyncMock()
+        mock_resolver2.resolve = AsyncMock(return_value=[mock_rr])
+
+        with patch(
+            "mail_sovereignty.dns.get_resolvers",
+            return_value=[mock_resolver1, mock_resolver2],
+        ):
+            with patch("asyncio.sleep", new_callable=AsyncMock):
+                result = await lookup_srv("_autodiscover._tcp.example.ch")
+        assert result == [("autodiscover.outlook.com", 443)]
+
+    async def test_all_resolvers_fail(self):
+        resolvers = []
+        for _ in range(3):
+            r = AsyncMock()
+            r.resolve = AsyncMock(side_effect=dns.exception.Timeout())
+            resolvers.append(r)
+
+        with patch("mail_sovereignty.dns.get_resolvers", return_value=resolvers):
+            with patch("asyncio.sleep", new_callable=AsyncMock):
+                result = await lookup_srv("_autodiscover._tcp.example.ch")
+        assert result == []
+
+
+class TestLookupAutodiscover:
+    async def test_cname_found(self):
+        with (
+            patch(
+                "mail_sovereignty.dns.lookup_cname_chain",
+                new_callable=AsyncMock,
+                return_value=["autodiscover.outlook.com"],
+            ),
+            patch(
+                "mail_sovereignty.dns.lookup_srv",
+                new_callable=AsyncMock,
+                return_value=[],
+            ),
+        ):
+            result = await lookup_autodiscover("frutigen.ch")
+        assert result == {"autodiscover_cname": "autodiscover.outlook.com"}
+
+    async def test_srv_found(self):
+        with (
+            patch(
+                "mail_sovereignty.dns.lookup_cname_chain",
+                new_callable=AsyncMock,
+                return_value=[],
+            ),
+            patch(
+                "mail_sovereignty.dns.lookup_srv",
+                new_callable=AsyncMock,
+                return_value=[("autodiscover.outlook.com", 443)],
+            ),
+        ):
+            result = await lookup_autodiscover("example.ch")
+        assert result == {"autodiscover_srv": "autodiscover.outlook.com"}
+
+    async def test_both_found(self):
+        with (
+            patch(
+                "mail_sovereignty.dns.lookup_cname_chain",
+                new_callable=AsyncMock,
+                return_value=["autodiscover.outlook.com"],
+            ),
+            patch(
+                "mail_sovereignty.dns.lookup_srv",
+                new_callable=AsyncMock,
+                return_value=[("autodiscover.outlook.com", 443)],
+            ),
+        ):
+            result = await lookup_autodiscover("example.ch")
+        assert result == {
+            "autodiscover_cname": "autodiscover.outlook.com",
+            "autodiscover_srv": "autodiscover.outlook.com",
+        }
+
+    async def test_nothing_found(self):
+        with (
+            patch(
+                "mail_sovereignty.dns.lookup_cname_chain",
+                new_callable=AsyncMock,
+                return_value=[],
+            ),
+            patch(
+                "mail_sovereignty.dns.lookup_srv",
+                new_callable=AsyncMock,
+                return_value=[],
+            ),
+        ):
+            result = await lookup_autodiscover("example.ch")
+        assert result == {}

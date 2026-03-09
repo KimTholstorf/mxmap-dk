@@ -207,6 +207,42 @@ async def lookup_asn_cymru(ip: str) -> int | None:
     return None
 
 
+async def lookup_srv(name: str) -> list[tuple[str, int]]:
+    """Return list of (target, port) from SRV records."""
+    resolvers = get_resolvers()
+    for i, resolver in enumerate(resolvers):
+        try:
+            answers = await resolver.resolve(name, "SRV")
+            return [(str(r.target).rstrip(".").lower(), r.port) for r in answers]
+        except dns.resolver.NXDOMAIN:
+            return []
+        except _RETRYABLE as e:
+            logger.debug(
+                "SRV %s: %s on resolver %d, retrying", name, type(e).__name__, i
+            )
+            await asyncio.sleep(0.5)
+            continue
+        except Exception:
+            continue
+    logger.info("SRV %s: all resolvers failed", name)
+    return []
+
+
+async def lookup_autodiscover(domain: str) -> dict[str, str]:
+    """Check autodiscover DNS records. Returns dict of record_type -> target."""
+    cname_coro = lookup_cname_chain(f"autodiscover.{domain}", max_hops=1)
+    srv_coro = lookup_srv(f"_autodiscover._tcp.{domain}")
+
+    cname_result, srv_result = await asyncio.gather(cname_coro, srv_coro)
+
+    result: dict[str, str] = {}
+    if cname_result:
+        result["autodiscover_cname"] = cname_result[-1]
+    if srv_result:
+        result["autodiscover_srv"] = srv_result[0][0]
+    return result
+
+
 async def resolve_mx_asns(mx_hosts: list[str]) -> set[int]:
     """Resolve all MX hosts to IPs, look up ASNs, return set of unique ASNs."""
     asns = set()

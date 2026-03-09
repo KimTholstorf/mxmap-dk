@@ -167,6 +167,11 @@ class TestProcessUnknown:
                 new_callable=AsyncMock,
                 return_value="",
             ),
+            patch(
+                "mail_sovereignty.postprocess.lookup_autodiscover",
+                new_callable=AsyncMock,
+                return_value={},
+            ),
         ):
             result = await process_unknown(client, sem, m)
 
@@ -238,6 +243,11 @@ class TestDnsRetryStep:
                 "mail_sovereignty.postprocess.lookup_spf",
                 new_callable=AsyncMock,
                 return_value="v=spf1 include:spf.protection.outlook.com -all",
+            ),
+            patch(
+                "mail_sovereignty.postprocess.lookup_autodiscover",
+                new_callable=AsyncMock,
+                return_value={},
             ),
         ):
             await run(path)

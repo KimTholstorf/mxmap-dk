@@ -185,6 +185,46 @@ class TestScoreEntry:
         )
         assert result["score"] <= 25
 
+    def test_autodiscover_confirms(self):
+        result = score_entry(
+            {
+                "provider": "microsoft",
+                "domain": "frutigen.ch",
+                "mx": ["mx01.hornetsecurity.com"],
+                "spf": "v=spf1 include:spf.protection.outlook.com -all",
+                "bfs": "500",
+                "gateway": "hornetsecurity",
+                "autodiscover": {"autodiscover_cname": "autodiscover.outlook.com"},
+            }
+        )
+        assert "autodiscover_confirms" in result["flags"]
+
+    def test_autodiscover_suggests_for_sovereign(self):
+        result = score_entry(
+            {
+                "provider": "sovereign",
+                "domain": "example.ch",
+                "mx": ["mail.example.ch"],
+                "spf": "",
+                "bfs": "9000",
+                "autodiscover": {"autodiscover_cname": "autodiscover.outlook.com"},
+            }
+        )
+        assert "autodiscover_suggests:microsoft" in result["flags"]
+
+    def test_autodiscover_no_flag_when_unrecognized(self):
+        result = score_entry(
+            {
+                "provider": "sovereign",
+                "domain": "example.ch",
+                "mx": ["mail.example.ch"],
+                "spf": "",
+                "bfs": "9000",
+                "autodiscover": {"autodiscover_cname": "autodiscover.custom.ch"},
+            }
+        )
+        assert not any(f.startswith("autodiscover_") for f in result["flags"])
+
 
 # ── print_report() ───────────────────────────────────────────────────
 

@@ -11,6 +11,7 @@ import httpx
 from mail_sovereignty.classify import classify, detect_gateway
 from mail_sovereignty.constants import CONCURRENCY, SPARQL_QUERY, SPARQL_URL
 from mail_sovereignty.dns import (
+    lookup_autodiscover,
     lookup_mx,
     lookup_spf,
     resolve_mx_asns,
@@ -135,12 +136,14 @@ async def scan_municipality(
         spf_resolved = await resolve_spf_includes(spf) if spf else ""
         mx_cnames = await resolve_mx_cnames(mx) if mx else {}
         mx_asns = await resolve_mx_asns(mx) if mx else set()
+        autodiscover = await lookup_autodiscover(domain) if domain else {}
         provider = classify(
             mx,
             spf,
             mx_cnames=mx_cnames,
             mx_asns=mx_asns or None,
             resolved_spf=spf_resolved or None,
+            autodiscover=autodiscover or None,
         )
         gateway = detect_gateway(mx) if mx else None
 
@@ -161,6 +164,8 @@ async def scan_municipality(
             entry["mx_cnames"] = mx_cnames
         if mx_asns:
             entry["mx_asns"] = sorted(mx_asns)
+        if autodiscover:
+            entry["autodiscover"] = autodiscover
         return entry
 
 

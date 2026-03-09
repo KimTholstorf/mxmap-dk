@@ -10,6 +10,17 @@ from mail_sovereignty.constants import (
 )
 
 
+def classify_from_autodiscover(autodiscover: dict[str, str] | None) -> str | None:
+    """Classify provider from autodiscover DNS records."""
+    if not autodiscover:
+        return None
+    blob = " ".join(autodiscover.values()).lower()
+    for provider, keywords in PROVIDER_KEYWORDS.items():
+        if any(k in blob for k in keywords):
+            return provider
+    return None
+
+
 def detect_gateway(mx_records: list[str]) -> str | None:
     """Return gateway provider name if MX matches a known gateway, else None."""
     mx_blob = " ".join(mx_records).lower()
@@ -33,6 +44,7 @@ def classify(
     mx_cnames: dict[str, str] | None = None,
     mx_asns: set[int] | None = None,
     resolved_spf: str | None = None,
+    autodiscover: dict[str, str] | None = None,
 ) -> str:
     """Classify email provider based on MX, CNAME targets, and SPF.
 
@@ -71,7 +83,11 @@ def classify(
             provider = _check_spf_for_provider(resolved_spf.lower())
         if provider:
             return provider
-        # No hyperscaler in SPF — gateway relays to self-hosted, fall through
+        # No hyperscaler in SPF — check autodiscover for backend provider
+        ad_provider = classify_from_autodiscover(autodiscover)
+        if ad_provider:
+            return ad_provider
+        # Gateway relays to self-hosted, fall through
 
     if mx_records:
         if mx_asns and mx_asns & SWISS_ISP_ASNS.keys():

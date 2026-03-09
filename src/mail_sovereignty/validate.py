@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import Any
 
 from mail_sovereignty.classify import (
+    classify_from_autodiscover,
     classify_from_mx,
     classify_from_spf,
     spf_mentions_providers,
@@ -140,6 +141,16 @@ def score_entry(entry: dict[str, Any]) -> dict[str, Any]:
     # Provider detected via gateway + SPF resolution
     if entry.get("gateway"):
         flags.append("provider_via_gateway_spf")
+
+    # Autodiscover confirms or suggests provider
+    autodiscover = entry.get("autodiscover")
+    if autodiscover:
+        ad_provider = classify_from_autodiscover(autodiscover)
+        if ad_provider and ad_provider == provider:
+            score += 5
+            flags.append("autodiscover_confirms")
+        elif ad_provider and provider == "sovereign":
+            flags.append(f"autodiscover_suggests:{ad_provider}")
 
     # Manual override (+5)
     if bfs in MANUAL_OVERRIDE_BFS:
