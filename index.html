@@ -110,6 +110,7 @@
     font-size: 11px; color: #999; text-transform: uppercase;
     letter-spacing: 0.5px; margin-bottom: 2px; font-weight: 600;
   }
+  .popup-section-hint { font-weight: 400; opacity: 0.7; }
   .dns-table { border-collapse: collapse; }
   .dns-table td { padding: 1px 8px 1px 0; vertical-align: baseline; font-size: 12px; white-space: nowrap; }
   .dns-table .dn { font-weight: 600; }
@@ -140,6 +141,7 @@
   </div>
 </header>
 <section id="info-bar" aria-label="About this project">
+<script>if(window.innerWidth<=600)document.getElementById('info-bar').classList.add('collapsed');</script>
   <h2 class="info-title">Email Sovereignty of Swiss Municipalities</h2>
   <div class="info-grid">
     <div class="info-card">
@@ -436,13 +438,13 @@ async function loadData() {
 
       let mxSection = '';
       if (m.mx && m.mx.length > 0) {
-        mxSection = `<div class="popup-section"><div class="popup-section-title">Receives mail via (MX)</div>${renderTable(m.mx)}</div>`;
+        mxSection = `<div class="popup-section"><div class="popup-section-title">Incoming mail handled by <span class="popup-section-hint">(MX)</span></div>${renderTable(m.mx)}</div>`;
       }
 
       const spfDelegations = parseSpfDelegations(m.spf);
       let spfSection = '';
       if (spfDelegations.length > 0) {
-        spfSection = `<div class="popup-section"><div class="popup-section-title">Sends mail via (SPF)</div>${renderTable(spfDelegations)}</div>`;
+        spfSection = `<div class="popup-section"><div class="popup-section-title">Authorized to send mail <span class="popup-section-hint">(SPF)</span></div>${renderTable(spfDelegations)}</div>`;
       }
 
       const eName = escapeHtml(m.name);
