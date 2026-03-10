@@ -246,12 +246,21 @@ class TestClassify:
         )
         assert result == "google"
 
-    def test_non_gateway_sovereign_ignores_autodiscover(self):
-        """Non-gateway sovereign MX should NOT use autodiscover."""
+    def test_non_gateway_sovereign_uses_autodiscover_fallback(self):
+        """Non-gateway sovereign MX should use autodiscover as fallback."""
         result = classify(
             ["mail.example.ch"],
             "",
             autodiscover={"autodiscover_cname": "autodiscover.outlook.com"},
+        )
+        assert result == "microsoft"
+
+    def test_non_gateway_sovereign_no_autodiscover_stays_sovereign(self):
+        """Non-gateway sovereign MX without autodiscover stays sovereign."""
+        result = classify(
+            ["mail.example.ch"],
+            "",
+            autodiscover=None,
         )
         assert result == "sovereign"
 

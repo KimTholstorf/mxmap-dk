@@ -92,6 +92,10 @@ def classify(
     if mx_records:
         if mx_asns and mx_asns & SWISS_ISP_ASNS.keys():
             return "swiss-isp"
+        # Check autodiscover for hyperscaler backend behind self-hosted MX
+        ad_provider = classify_from_autodiscover(autodiscover)
+        if ad_provider:
+            return ad_provider
         return "sovereign"
 
     spf_blob = (spf_record or "").lower()
