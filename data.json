@@ -5,9 +5,9 @@
     "aws":26,
     "google":4,
     "infomaniak":120,
-    "microsoft":1103,
+    "microsoft":1108,
     "sovereign":708,
-    "swiss-isp":152,
+    "swiss-isp":147,
     "unknown":2
   },
   "municipalities":{
@@ -206,7 +206,7 @@
         "mailgw02.zii.ch"
       ],
       "spf":"v=spf1 mx include:spf.zii.ch include:spf.abxsec.com include:spf.protection.outlook.com -all",
-      "provider":"swiss-isp",
+      "provider":"microsoft",
       "spf_resolved":"v=spf1 mx include:spf.zii.ch include:spf.abxsec.com include:spf.protection.outlook.com -all v=spf1 ip4:195.65.253.130 ip4:83.144.243.194 include:spf.protection.outlook.com -all v=spf1 ip4:193.246.95.96/27 ip6:2A02:C382:0:8007::/64 ip4:193.246.95.252 ip4:160.63.80.14/31 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         3303,
@@ -1643,7 +1643,7 @@
         "mailgw02.zii.ch"
       ],
       "spf":"v=spf1 mx ip4:92.43.216.251 ip4:92.43.216.110 a:msscript1.webland.ch include:spf.protection.outlook.com include:spf.ws-hp-ias.ch include:spf.zii.ch -all",
-      "provider":"swiss-isp",
+      "provider":"microsoft",
       "spf_resolved":"v=spf1 mx ip4:92.43.216.251 ip4:92.43.216.110 a:msscript1.webland.ch include:spf.protection.outlook.com include:spf.ws-hp-ias.ch include:spf.zii.ch -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 include:spf.mail.hostpoint.ch -all v=spf1 ip4:195.65.253.130 ip4:83.144.243.194 include:spf.protection.outlook.com -all",
       "mx_asns":[
         3303,
@@ -1700,7 +1700,7 @@
         "mailgw02.zii.ch"
       ],
       "spf":"v=spf1 include:spf.zii.ch include:_spf.i-web.ch include:spf.abacuscity.ch ip4:195.49.84.165 include:spf.protection.outlook.com include:spf.mail.hostpoint.ch -all",
-      "provider":"swiss-isp",
+      "provider":"microsoft",
       "spf_resolved":"v=spf1 include:spf.zii.ch include:_spf.i-web.ch include:spf.abacuscity.ch ip4:195.49.84.165 include:spf.protection.outlook.com include:spf.mail.hostpoint.ch -all v=spf1 ip4:195.65.253.130 ip4:83.144.243.194 include:spf.protection.outlook.com -all v=spf1 ip4:195.65.10.12 ip4:195.65.10.14 -all v=spf1 ip4:46.227.226.102 ip4:46.227.226.108 ip4:46.227.226.21 ip4:46.227.228.154 ip4:46.227.228.228 ip4:46.227.228.28 ip6:2a02:cd8:2ee3:e200::15 ip6:2a02:cd8:2ee3:e200::65 ip6:2a02:cd8:2ee3:e200::7b ip6:2a02:cd8:2ee3:e400::1c ip6:2a02:cd8:2ee3:e400::293 ip6:2a02:cd8:2ee3:e400::446 ip4:62.106.93.27 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 +ip4:217.26.49.128/25 +ip6:2a00:d70:0:e::/64 +ip4:217.26.63.0/24 +ip6:2a00:d70:0:12::/64 +ip4:217.26.50.0/23 +ip4:217.26.52.0/23 +ip4:217.26.54.0/23 +ip4:217.26.58.0/23 +ip6:2a00:d70:0:b::/64 -all",
       "mx_asns":[
         3303,
@@ -2840,7 +2840,7 @@
         "mailgw02.zii.ch"
       ],
       "spf":"v=spf1 include:spf.zii.ch include:_spf.i-web.ch include:_spf.web-solutions.io include:spf.abxsec.com include:spf.protection.outlook.com include:_spf.rexx-systems.com ip4:193.135.56.6 -all",
-      "provider":"swiss-isp",
+      "provider":"microsoft",
       "spf_resolved":"v=spf1 include:spf.zii.ch include:_spf.i-web.ch include:_spf.web-solutions.io include:spf.abxsec.com include:spf.protection.outlook.com include:_spf.rexx-systems.com ip4:193.135.56.6 -all v=spf1 ip4:195.65.253.130 ip4:83.144.243.194 include:spf.protection.outlook.com -all v=spf1 ip4:195.65.10.12 ip4:195.65.10.14 -all v=spf1 +ip4:185.90.39.55 -all v=spf1 ip4:193.246.95.96/27 ip6:2A02:C382:0:8007::/64 ip4:193.246.95.252 ip4:160.63.80.14/31 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 a:mx01.rexx-systems.de ip6:2001:67c:2050::/48 ip4:92.51.187.64/27 ip4:83.169.51.224/27 ip4:80.237.187.32/28 ip4:91.250.74.128/27 ip4:87.230.74.128/28 ip4:91.250.95.64/26 ip4:85.25.89.0/24 ip4:195.10.208.0/26 -all",
       "mx_asns":[
         3303,
@@ -32953,7 +32953,7 @@
         "office.rougemont.ch"
       ],
       "spf":"v=spf1 mx a ip4:46.14.89.238 ip4:212.71.120.144/28 -all",
-      "provider":"swiss-isp",
+      "provider":"microsoft",
       "mx_asns":[
         3303
       ],

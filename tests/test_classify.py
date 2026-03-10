@@ -92,6 +92,26 @@ class TestClassify:
         )
         assert result == "microsoft"
 
+    def test_swiss_isp_with_autodiscover_microsoft(self):
+        """Swiss ISP relay with autodiscover pointing to outlook.com → microsoft."""
+        result = classify(
+            ["mail1.rzobt.ch"],
+            "",
+            mx_asns={3303},
+            autodiscover={"autodiscover_cname": "autodiscover.outlook.com"},
+        )
+        assert result == "microsoft"
+
+    def test_swiss_isp_without_autodiscover_stays_swiss_isp(self):
+        """Swiss ISP relay without autodiscover stays swiss-isp."""
+        result = classify(
+            ["mail1.rzobt.ch"],
+            "",
+            mx_asns={3303},
+            autodiscover=None,
+        )
+        assert result == "swiss-isp"
+
     def test_non_swiss_isp_asn_stays_sovereign(self):
         result = classify(
             ["mail.example.ch"],
