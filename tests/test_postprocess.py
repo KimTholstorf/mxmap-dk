@@ -109,7 +109,7 @@ class TestManualOverrides:
             assert "provider" in entry, f"BFS {bfs} missing 'provider'"
 
     def test_valid_providers(self):
-        valid = {"sovereign", "infomaniak"}
+        valid = {"sovereign", "infomaniak", "microsoft"}
         for bfs, entry in MANUAL_OVERRIDES.items():
             assert entry["provider"] in valid, (
                 f"BFS {bfs}: unexpected provider {entry['provider']}"

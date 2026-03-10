@@ -279,9 +279,11 @@ MANUAL_OVERRIDES = {
         "name": "Fétigny-Ménières",
         "canton": "Kanton Freiburg",
         "domain": "fetigny-menieres.ch",
+        "provider": "microsoft",
     },  # Missing from Wikidata
     "6172": {
         "domain": "gemeinde-bister.ch",
+        "provider": "microsoft",
     },  # Bister VS
 }
 
