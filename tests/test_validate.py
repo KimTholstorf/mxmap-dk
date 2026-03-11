@@ -218,6 +218,67 @@ class TestScoreEntry:
         )
         assert "autodiscover_suggests:microsoft" in result["flags"]
 
+    def test_smtp_confirms(self):
+        result = score_entry(
+            {
+                "provider": "microsoft",
+                "domain": "test.ch",
+                "mx": ["mail.protection.outlook.com"],
+                "spf": "v=spf1 include:spf.protection.outlook.com -all",
+                "bfs": "9000",
+                "smtp_banner": "220 mail.protection.outlook.com Microsoft ESMTP MAIL Service ready",
+            }
+        )
+        assert "smtp_confirms" in result["flags"]
+
+    def test_smtp_suggests_for_self_hosted(self):
+        result = score_entry(
+            {
+                "provider": "self-hosted",
+                "domain": "example.ch",
+                "mx": ["mail.example.ch"],
+                "spf": "",
+                "bfs": "9000",
+                "smtp_banner": "220 mail.protection.outlook.com Microsoft ESMTP MAIL Service ready",
+            }
+        )
+        assert "smtp_suggests:microsoft" in result["flags"]
+
+    def test_smtp_no_flag_when_unrecognized(self):
+        result = score_entry(
+            {
+                "provider": "self-hosted",
+                "domain": "example.ch",
+                "mx": ["mail.example.ch"],
+                "spf": "",
+                "bfs": "9000",
+                "smtp_banner": "220 mail.example.ch ESMTP Postfix",
+            }
+        )
+        assert not any(f.startswith("smtp_") for f in result["flags"])
+
+    def test_smtp_confirms_adds_score(self):
+        with_smtp = score_entry(
+            {
+                "provider": "microsoft",
+                "domain": "test.ch",
+                "mx": ["mail.protection.outlook.com"],
+                "spf": "v=spf1 include:spf.protection.outlook.com -all",
+                "bfs": "9000",
+                "smtp_banner": "220 mail.protection.outlook.com Microsoft ESMTP MAIL Service ready",
+            }
+        )
+        without_smtp = score_entry(
+            {
+                "provider": "microsoft",
+                "domain": "test.ch",
+                "mx": ["mail.protection.outlook.com"],
+                "spf": "v=spf1 include:spf.protection.outlook.com -all",
+                "bfs": "9000",
+            }
+        )
+        assert with_smtp["score"] == without_smtp["score"] + 5
+
     def test_autodiscover_no_flag_when_unrecognized(self):
         result = score_entry(
             {

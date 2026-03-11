@@ -281,6 +281,179 @@ class TestDnsRetryStep:
         assert result["municipalities"]["9999"]["provider"] == "unknown"
 
 
+class TestSmtpBannerStep:
+    async def test_reclassifies_self_hosted_via_smtp(self, tmp_path):
+        data = {
+            "generated": "2025-01-01",
+            "total": 1,
+            "counts": {"self-hosted": 1},
+            "municipalities": {
+                "1000": {
+                    "bfs": "1000",
+                    "name": "SmtpTown",
+                    "canton": "Test",
+                    "domain": "smtptown.ch",
+                    "mx": ["mail.smtptown.ch"],
+                    "spf": "",
+                    "provider": "self-hosted",
+                },
+            },
+        }
+        path = tmp_path / "data.json"
+        path.write_text(json.dumps(data))
+
+        with patch(
+            "mail_sovereignty.postprocess.fetch_smtp_banner",
+            new_callable=AsyncMock,
+            return_value={
+                "banner": "220 mail.protection.outlook.com Microsoft ESMTP MAIL Service ready",
+                "ehlo": "250 ready",
+            },
+        ):
+            await run(path)
+
+        result = json.loads(path.read_text())
+        assert result["municipalities"]["1000"]["provider"] == "microsoft"
+        assert "smtp_banner" in result["municipalities"]["1000"]
+
+    async def test_leaves_self_hosted_when_banner_is_postfix(self, tmp_path):
+        data = {
+            "generated": "2025-01-01",
+            "total": 1,
+            "counts": {"self-hosted": 1},
+            "municipalities": {
+                "1001": {
+                    "bfs": "1001",
+                    "name": "PostfixTown",
+                    "canton": "Test",
+                    "domain": "postfixtown.ch",
+                    "mx": ["mail.postfixtown.ch"],
+                    "spf": "",
+                    "provider": "self-hosted",
+                },
+            },
+        }
+        path = tmp_path / "data.json"
+        path.write_text(json.dumps(data))
+
+        with patch(
+            "mail_sovereignty.postprocess.fetch_smtp_banner",
+            new_callable=AsyncMock,
+            return_value={
+                "banner": "220 mail.postfixtown.ch ESMTP Postfix",
+                "ehlo": "250 mail.postfixtown.ch",
+            },
+        ):
+            await run(path)
+
+        result = json.loads(path.read_text())
+        assert result["municipalities"]["1001"]["provider"] == "self-hosted"
+        assert "smtp_banner" in result["municipalities"]["1001"]
+
+    async def test_skips_already_classified(self, tmp_path):
+        data = {
+            "generated": "2025-01-01",
+            "total": 1,
+            "counts": {"microsoft": 1},
+            "municipalities": {
+                "1002": {
+                    "bfs": "1002",
+                    "name": "AlreadyKnown",
+                    "canton": "Test",
+                    "domain": "known.ch",
+                    "mx": ["mail.protection.outlook.com"],
+                    "spf": "v=spf1 include:spf.protection.outlook.com -all",
+                    "provider": "microsoft",
+                },
+            },
+        }
+        path = tmp_path / "data.json"
+        path.write_text(json.dumps(data))
+
+        with patch(
+            "mail_sovereignty.postprocess.fetch_smtp_banner",
+            new_callable=AsyncMock,
+        ) as mock_fetch:
+            await run(path)
+            mock_fetch.assert_not_called()
+
+    async def test_deduplicates_mx_hosts(self, tmp_path):
+        data = {
+            "generated": "2025-01-01",
+            "total": 2,
+            "counts": {"self-hosted": 2},
+            "municipalities": {
+                "2000": {
+                    "bfs": "2000",
+                    "name": "Town1",
+                    "canton": "Test",
+                    "domain": "town1.ch",
+                    "mx": ["shared-mx.example.ch"],
+                    "spf": "",
+                    "provider": "self-hosted",
+                },
+                "2001": {
+                    "bfs": "2001",
+                    "name": "Town2",
+                    "canton": "Test",
+                    "domain": "town2.ch",
+                    "mx": ["shared-mx.example.ch"],
+                    "spf": "",
+                    "provider": "self-hosted",
+                },
+            },
+        }
+        path = tmp_path / "data.json"
+        path.write_text(json.dumps(data))
+
+        with patch(
+            "mail_sovereignty.postprocess.fetch_smtp_banner",
+            new_callable=AsyncMock,
+            return_value={
+                "banner": "220 mail.protection.outlook.com Microsoft ESMTP MAIL Service",
+                "ehlo": "250 ready",
+            },
+        ) as mock_fetch:
+            await run(path)
+            # Should only be called once for the shared MX host
+            assert mock_fetch.call_count == 1
+
+        result = json.loads(path.read_text())
+        assert result["municipalities"]["2000"]["provider"] == "microsoft"
+        assert result["municipalities"]["2001"]["provider"] == "microsoft"
+
+    async def test_empty_banner_no_change(self, tmp_path):
+        data = {
+            "generated": "2025-01-01",
+            "total": 1,
+            "counts": {"self-hosted": 1},
+            "municipalities": {
+                "3000": {
+                    "bfs": "3000",
+                    "name": "NoConnect",
+                    "canton": "Test",
+                    "domain": "noconnect.ch",
+                    "mx": ["mail.noconnect.ch"],
+                    "spf": "",
+                    "provider": "self-hosted",
+                },
+            },
+        }
+        path = tmp_path / "data.json"
+        path.write_text(json.dumps(data))
+
+        with patch(
+            "mail_sovereignty.postprocess.fetch_smtp_banner",
+            new_callable=AsyncMock,
+            return_value={"banner": "", "ehlo": ""},
+        ):
+            await run(path)
+
+        result = json.loads(path.read_text())
+        assert result["municipalities"]["3000"]["provider"] == "self-hosted"
+        assert "smtp_banner" not in result["municipalities"]["3000"]
+
+
 class TestPostprocessRun:
     async def test_applies_manual_overrides(self, tmp_path):
         data = {

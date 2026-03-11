@@ -8,6 +8,7 @@ from typing import Any
 from mail_sovereignty.classify import (
     classify_from_autodiscover,
     classify_from_mx,
+    classify_from_smtp_banner,
     classify_from_spf,
     spf_mentions_providers,
 )
@@ -192,6 +193,16 @@ def score_entry(entry: dict[str, Any]) -> dict[str, Any]:
     # Provider detected via gateway + SPF resolution
     if entry.get("gateway"):
         flags.append("provider_via_gateway_spf")
+
+    # SMTP banner confirms or suggests provider
+    smtp_banner = entry.get("smtp_banner", "")
+    if smtp_banner:
+        smtp_provider = classify_from_smtp_banner(smtp_banner)
+        if smtp_provider and smtp_provider == provider:
+            score += 5
+            flags.append("smtp_confirms")
+        elif smtp_provider and provider == "self-hosted":
+            flags.append(f"smtp_suggests:{smtp_provider}")
 
     # Autodiscover confirms or suggests provider
     autodiscover = entry.get("autodiscover")

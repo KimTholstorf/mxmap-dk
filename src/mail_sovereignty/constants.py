@@ -126,3 +126,23 @@ SWISS_ISP_ASNS: dict[int, str] = {
 
 CONCURRENCY = 20
 CONCURRENCY_POSTPROCESS = 10
+CONCURRENCY_SMTP = 5
+
+SMTP_BANNER_KEYWORDS = {
+    "microsoft": [
+        "microsoft esmtp mail service",
+        "outlook.com",
+        "protection.outlook.com",
+    ],
+    "google": [
+        "mx.google.com",
+        "google esmtp",
+    ],
+    "infomaniak": [
+        "infomaniak",
+    ],
+    "aws": [
+        "amazonaws",
+        "amazonses",
+    ],
+}

@@ -6,8 +6,20 @@ from mail_sovereignty.constants import (
     INFOMANIAK_KEYWORDS,
     MICROSOFT_KEYWORDS,
     PROVIDER_KEYWORDS,
+    SMTP_BANNER_KEYWORDS,
     SWISS_ISP_ASNS,
 )
+
+
+def classify_from_smtp_banner(banner: str, ehlo: str = "") -> str | None:
+    """Classify provider from SMTP banner/EHLO. Returns provider or None."""
+    if not banner and not ehlo:
+        return None
+    blob = f"{banner} {ehlo}".lower()
+    for provider, keywords in SMTP_BANNER_KEYWORDS.items():
+        if any(k in blob for k in keywords):
+            return provider
+    return None
 
 
 def classify_from_autodiscover(autodiscover: dict[str, str] | None) -> str | None:

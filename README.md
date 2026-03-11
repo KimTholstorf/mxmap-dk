@@ -14,7 +14,7 @@ An interactive map showing where Swiss municipalities host their email — wheth
 The data pipeline has three steps:
 
 1. **Preprocess** -- Fetches all ~2100 Swiss municipalities from Wikidata, performs MX and SPF DNS lookups on their official domains, and classifies each municipality's email provider.
-2. **Postprocess** -- Applies manual overrides for edge cases, retries DNS for unresolved domains, then scrapes websites of still-unclassified municipalities for email addresses.
+2. **Postprocess** -- Applies manual overrides for edge cases, retries DNS for unresolved domains, checks SMTP banners of self-hosted MX hosts for hidden providers, then scrapes websites of still-unclassified municipalities for email addresses.
 3. **Validate** -- Cross-validates MX and SPF records, assigns a confidence score (0-100) to each entry, and generates a validation report.
 
 ```mermaid
@@ -30,14 +30,15 @@ flowchart TD
         cname --> asn["ASN lookups<br/>(Team Cymru)"]
         asn --> autodiscover["Autodiscover DNS<br/>(CNAME + SRV)"]
         autodiscover --> gateway["Detect gateways<br/>(SeppMail, Barracuda,<br/>Proofpoint, Sophos ...)"]
-        gateway --> classify["Classify providers<br/>MX → CNAME → SPF → Autodiscover"]
+        gateway --> classify["Classify providers<br/>MX → CNAME → SPF → Autodiscover → SMTP"]
     end
 
     classify --> overrides
 
     subgraph post ["2 · Postprocess"]
         overrides["Apply manual overrides<br/>(19 edge cases)"] --> retry["Retry DNS<br/>for unknowns"]
-        retry --> scrape_urls["Probe municipal websites<br/>(/kontakt, /contact, /impressum …)"]
+        retry --> smtp["SMTP banner check<br/>(EHLO on port 25)"]
+        smtp --> scrape_urls["Probe municipal websites<br/>(/kontakt, /contact, /impressum …)"]
         scrape_urls --> extract["Extract emails<br/>+ decrypt TYPO3 obfuscation"]
         extract --> scrape_dns["DNS lookup on<br/>email domains"]
         scrape_dns --> reclassify["Reclassify<br/>resolved entries"]

@@ -400,7 +400,7 @@ async function loadData() {
       '<button class="legend-toggle" aria-label="Toggle legend" aria-expanded="' + (!isMobile) + '">' + (isMobile ? 'Legend \u25B8' : '') + '</button>' +
       '<div class="legend-content">' +
       '<strong>Email Provider</strong>' +
-      legendGroupHtml('US-based providers', ['microsoft', 'aws', 'google'], dnsData.counts) +
+      legendGroupHtml('US-based', ['microsoft', 'aws', 'google'], dnsData.counts) +
       legendGroupHtml('Swiss-based', ['self-hosted', 'swiss-isp', 'infomaniak'], dnsData.counts) +
       '</div>';
     L.DomEvent.disableClickPropagation(div);

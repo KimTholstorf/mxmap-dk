@@ -6,9 +6,14 @@ from urllib.parse import urlparse
 
 import httpx
 
-from mail_sovereignty.classify import classify, detect_gateway
+from mail_sovereignty.classify import (
+    classify,
+    classify_from_smtp_banner,
+    detect_gateway,
+)
 from mail_sovereignty.constants import (
     CONCURRENCY_POSTPROCESS,
+    CONCURRENCY_SMTP,
     EMAIL_RE,
     SKIP_DOMAINS,
     SUBPAGES,
@@ -22,6 +27,7 @@ from mail_sovereignty.dns import (
     resolve_mx_cnames,
     resolve_spf_includes,
 )
+from mail_sovereignty.smtp import fetch_smtp_banner
 
 
 def decrypt_typo3(encoded: str, offset: int = 2) -> str:
@@ -467,6 +473,54 @@ async def run(data_path: Path) -> None:
                 if autodiscover:
                     m["autodiscover"] = autodiscover
                 print(f"  RECOVERED {m['bfs']:>5} {m['name']:<30} -> {provider}")
+
+    # Step 2.5: SMTP banner check for self-hosted/unknown with MX records
+    smtp_candidates = [
+        m
+        for m in muni.values()
+        if m["provider"] in ("self-hosted", "unknown") and m.get("mx")
+    ]
+    if smtp_candidates:
+        # Deduplicate: map each unique MX host -> list of BFS numbers
+        mx_host_to_bfs: dict[str, list[str]] = {}
+        for m in smtp_candidates:
+            primary_mx = m["mx"][0]
+            mx_host_to_bfs.setdefault(primary_mx, []).append(m["bfs"])
+
+        print(
+            f"\nSMTP banner check: {len(smtp_candidates)} entries, "
+            f"{len(mx_host_to_bfs)} unique MX hosts..."
+        )
+        smtp_semaphore = asyncio.Semaphore(CONCURRENCY_SMTP)
+
+        async def _fetch_banner(mx_host: str) -> tuple[str, dict[str, str]]:
+            async with smtp_semaphore:
+                res = await fetch_smtp_banner(mx_host)
+                return mx_host, res
+
+        banner_results = await asyncio.gather(
+            *[_fetch_banner(host) for host in mx_host_to_bfs]
+        )
+
+        smtp_reclassified = 0
+        for mx_host, result in banner_results:
+            banner = result.get("banner", "")
+            ehlo = result.get("ehlo", "")
+            if not banner:
+                continue
+            provider = classify_from_smtp_banner(banner, ehlo)
+            for bfs in mx_host_to_bfs[mx_host]:
+                muni[bfs]["smtp_banner"] = banner
+                if provider and muni[bfs]["provider"] in ("self-hosted", "unknown"):
+                    old = muni[bfs]["provider"]
+                    muni[bfs]["provider"] = provider
+                    smtp_reclassified += 1
+                    print(
+                        f"  SMTP     {bfs:>5} {muni[bfs]['name']:<30} "
+                        f"{old} -> {provider} ({mx_host})"
+                    )
+
+        print(f"  SMTP reclassified: {smtp_reclassified}")
 
     # Step 3: Scrape remaining unknowns
     unknowns = [m for m in muni.values() if m["provider"] == "unknown"]

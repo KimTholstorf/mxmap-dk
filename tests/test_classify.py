@@ -2,6 +2,7 @@ from mail_sovereignty.classify import (
     classify,
     classify_from_autodiscover,
     classify_from_mx,
+    classify_from_smtp_banner,
     classify_from_spf,
     detect_gateway,
     spf_mentions_providers,
@@ -492,3 +493,60 @@ class TestSpfMentionsProviders:
 
     def test_foreign_sender_not_in_classify_from_spf(self):
         assert classify_from_spf("v=spf1 include:spf.mandrillapp.com -all") is None
+
+
+# ── classify_from_smtp_banner() ────────────────────────────────────
+
+
+class TestClassifyFromSmtpBanner:
+    def test_empty_returns_none(self):
+        assert classify_from_smtp_banner("") is None
+
+    def test_both_empty_returns_none(self):
+        assert classify_from_smtp_banner("", "") is None
+
+    def test_microsoft_banner(self):
+        assert (
+            classify_from_smtp_banner(
+                "220 BL02EPF0001CA17.mail.protection.outlook.com "
+                "Microsoft ESMTP MAIL Service ready"
+            )
+            == "microsoft"
+        )
+
+    def test_microsoft_outlook_com(self):
+        assert (
+            classify_from_smtp_banner("220 something.outlook.com ready") == "microsoft"
+        )
+
+    def test_google_banner(self):
+        assert classify_from_smtp_banner("220 mx.google.com ESMTP ready") == "google"
+
+    def test_google_esmtp_in_ehlo(self):
+        assert (
+            classify_from_smtp_banner("220 custom.example.ch", "250 Google ESMTP ready")
+            == "google"
+        )
+
+    def test_infomaniak_banner(self):
+        assert classify_from_smtp_banner("220 mail.infomaniak.ch ESMTP") == "infomaniak"
+
+    def test_aws_banner(self):
+        assert (
+            classify_from_smtp_banner("220 inbound-smtp.eu-west-1.amazonaws.com ESMTP")
+            == "aws"
+        )
+
+    def test_postfix_returns_none(self):
+        assert classify_from_smtp_banner("220 mail.example.ch ESMTP Postfix") is None
+
+    def test_exim_returns_none(self):
+        assert classify_from_smtp_banner("220 mail.example.ch ESMTP Exim 4.96") is None
+
+    def test_case_insensitive(self):
+        assert (
+            classify_from_smtp_banner(
+                "220 MAIL.PROTECTION.OUTLOOK.COM MICROSOFT ESMTP MAIL SERVICE"
+            )
+            == "microsoft"
+        )
