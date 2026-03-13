@@ -316,7 +316,8 @@ function buildPopup(m) {
   return `<div class="info-popup">` +
     `<strong>${flag} ${eName}</strong><br>` +
     `${eDomain} <span class="provider-badge" style="background:${color};color:${textColor}">${escapeHtml(cls.provider)}</span>` +
-    `<br><span style="font-size:11px;color:#888">${m.region ? escapeHtml(m.region) + ' \u00b7 ' : ''}${m.country} \u00b7 ${cls.confidence}% confidence</span>` +
+    `<br><span style="font-size:11px;color:#888">${m.region ? escapeHtml(m.region) + ' \u00b7 ' : ''}${m.country}</span>` +
+    (cls.reason ? `<div style="margin-top:4px;font-size:11px;color:#666;font-style:italic">${escapeHtml(cls.reason)}</div>` : '') +
     mxSection + spfSection +
     `</div>`;
 }
@@ -408,6 +409,7 @@ async function loadData() {
         provider: displayProvider,
         mx_records: mxRecords,
         spf: m.spf || '',
+        reason: m.reason || '',
         confidence: 80,
       },
     };
