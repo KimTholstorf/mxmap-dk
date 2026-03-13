@@ -124,3 +124,33 @@ Sources: national statistics office API for official list, Wikidata SPARQL for O
 ### 6. Verify
 
 Run preprocess → check "independent" municipalities → look up their MX ASNs → add missing local ISPs to `BALTIC_ISP_ASNS` → re-run. Typical pattern: first run has too many "independent", iteratively adding ISP ASNs brings it down to a handful of genuinely self-hosted servers.
+
+## Common Domain Pitfalls
+
+Municipality domains are the most error-prone part of the data. Always verify domains via web search — do not trust automated guessing alone.
+
+### Domain ≠ municipality name
+Many municipality domains do NOT match the municipality name:
+- **Corporate namesakes**: `nokia.fi` (phone company), `outokumpu.fi` (mining company), `noo.ee` (meat factory). Cities use `nokiankaupunki.fi`, `outokummunkaupunki.fi`, `nvv.ee`.
+- **Tourism/portal sites**: `hiiumaa.ee` (tourism portal, municipality is at `vald.hiiumaa.ee`), `peipsi.ee` (tourism NGO, municipality is `peipsivald.ee`), `rouge.ee` (community portal, municipality is `rougevald.ee`).
+- **Gaming/unrelated sites**: `siauliu.lt` was a Counter-Strike gaming site; the actual municipality domain is `siauliuraj.lt`.
+
+### Bilingual municipalities use the minority-language domain
+Swedish-speaking Finnish municipalities consistently use their **Swedish name** for domains: Kruunupyy→`kronoby.fi`, Luoto→`larsmo.fi`, Maalahti→`malax.fi`, Vöyri→`vora.fi`, Kristiinankaupunki→`krs.fi`.
+
+### Latvian novads vs city domains
+After Latvia's 2021 municipal reform, many novads (counties) have their own domains distinct from the main city: `bauskasnovads.lv` (not `bauska.lv`), `valmierasnovads.lv` (not `valmiera.lv`), `ventspilsnd.lv` (not `ventspils.lv` which is the city). The seed data domain with no MX causes the pipeline to guess the city domain instead — always set the correct novads domain in seed data.
+
+### Website domain ≠ email domain
+Some municipalities use different domains for their website and email. When the seed data domain has no MX records, the pipeline falls back to guessing from the municipality name, which may find a wrong domain. Always check MX records for the seed data domain; if empty, search for the actual email domain.
+
+### Verification approach
+For each country, web-search every municipality to verify domains. Use `dig +short domain MX` to confirm MX records exist. The `MANUAL_OVERRIDES` dict in `postprocess.py` handles cases where the guessed domain is wrong but the seed data domain is correct for the website (overrides trigger DNS re-lookup on the corrected domain).
+
+## Gateway Detection Patterns
+
+Municipalities often use local email security gateways (FortiMail, SecMail, D-Fence, Barracuda, etc.) that relay to cloud providers. The pipeline detects these via `GATEWAY_KEYWORDS` in `constants.py`. When a gateway is detected, the pipeline checks SPF → autodiscover → DKIM to identify the backend provider.
+
+Small local IT companies can also act as gateways (e.g., `edelkey.net` for Helsinki, `ippnet.fi` for Parkano, `garmtech.com` for Saulkrasti). Add these to `GATEWAY_KEYWORDS` when discovered — otherwise they get classified as "independent" instead of the actual backend provider.
+
+**DKIM is the most reliable signal** for identifying the backend provider. A CNAME at `selector1._domainkey.domain` pointing to `*.onmicrosoft.com` is definitive proof of Microsoft 365, even when MX and SPF point elsewhere.
