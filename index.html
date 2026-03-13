@@ -36,11 +36,11 @@
   }
   .toggle-info:hover { background: rgba(255,255,255,0.25); color: #fff; }
 
-  #info-bar {
+  #info-bar, #stats-bar {
     background: #f8f9fb; border-bottom: 1px solid #e2e4e8; overflow: hidden; flex-shrink: 0;
-    max-height: 600px; padding: 16px 20px;
+    max-height: 2000px; padding: 16px 20px;
   }
-  #info-bar.collapsed { max-height: 0; padding-top: 0; padding-bottom: 0; }
+  #info-bar.collapsed, #stats-bar.collapsed { max-height: 0; padding-top: 0; padding-bottom: 0; }
   .info-grid {
     display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 14px;
@@ -50,7 +50,6 @@
   .info-card a { color: #2563eb; text-decoration: none; }
   .info-card a:hover { text-decoration: underline; }
   .info-title { display: none; font-size: 16px; font-weight: 600; color: #1a1a2e; margin-bottom: 12px; }
-  .info-card-wide { grid-column: 1 / -1; }
   .stats-row { display: flex; align-items: center; gap: 8px; margin: 4px 0; font-size: 13px; }
   .stats-label { width: 90px; text-align: right; color: #555; flex-shrink: 0; }
   .stats-bar-bg { flex: 1; background: #e8e8e8; border-radius: 3px; height: 16px; overflow: hidden; }
@@ -135,6 +134,7 @@
   </div>
   <div class="header-right">
     <span class="updated" id="generated"></span>
+    <button class="toggle-info" id="toggle-stats" aria-expanded="false" aria-controls="stats-bar">Statistics &#9662;</button>
     <button class="toggle-info" id="toggle-info" aria-expanded="true" aria-controls="info-bar">About &#9652;</button>
   </div>
 </header>
@@ -160,11 +160,10 @@
       <p>Inspired by <a href="https://mxmap.ch" target="_blank">mxmap.ch</a> (Swiss municipalities).<br>
       Code and data on <a href="https://github.com/livenson/mxmap" target="_blank">GitHub</a>.</p>
     </div>
-    <div class="info-card info-card-wide" id="stats-card" style="display:none">
-      <h3>Key findings</h3>
-      <div id="stats-content"></div>
-    </div>
   </div>
+</section>
+<section id="stats-bar" class="collapsed" aria-label="Statistics">
+  <div id="stats-content"></div>
 </section>
 <main id="map" role="application" aria-label="Interactive map of Baltic municipality email providers">
   <div id="map-loading" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;z-index:1000;background:rgba(255,255,255,0.85);font-size:15px;color:#555;">Loading map data&hellip;</div>
@@ -240,13 +239,22 @@ window.addEventListener('resize', function () {
 });
 
 // --- Info bar toggle ---
+function collapsePanel(id, btnId, label) {
+  document.getElementById(id).classList.add('collapsed');
+  const b = document.getElementById(btnId);
+  b.innerHTML = label + ' \u25be';
+  b.setAttribute('aria-expanded', 'false');
+}
+
 function toggleInfo() {
   const bar = document.getElementById('info-bar');
   const btn = document.getElementById('toggle-info');
+  const wasCollapsed = bar.classList.contains('collapsed');
   bar.classList.toggle('collapsed');
   const collapsed = bar.classList.contains('collapsed');
   btn.innerHTML = collapsed ? 'About \u25be' : 'About \u25b4';
   btn.setAttribute('aria-expanded', String(!collapsed));
+  if (wasCollapsed) collapsePanel('stats-bar', 'toggle-stats', 'Statistics');
   map.invalidateSize({ animate: false });
 }
 document.getElementById('toggle-info').addEventListener('click', toggleInfo);
@@ -255,6 +263,19 @@ if (window.innerWidth <= 600) {
   btn.innerHTML = 'About \u25be';
   btn.setAttribute('aria-expanded', 'false');
 }
+
+function toggleStats() {
+  const bar = document.getElementById('stats-bar');
+  const btn = document.getElementById('toggle-stats');
+  const wasCollapsed = bar.classList.contains('collapsed');
+  bar.classList.toggle('collapsed');
+  const collapsed = bar.classList.contains('collapsed');
+  btn.innerHTML = collapsed ? 'Statistics \u25be' : 'Statistics \u25b4';
+  btn.setAttribute('aria-expanded', String(!collapsed));
+  if (wasCollapsed) collapsePanel('info-bar', 'toggle-info', 'About');
+  map.invalidateSize({ animate: false });
+}
+document.getElementById('toggle-stats').addEventListener('click', toggleStats);
 
 // --- Legend ---
 function toggleLegend() {
@@ -283,67 +304,131 @@ function legendGroupHtml(label, keys, counts) {
 
 // --- Stats panel ---
 function buildStats(muniList) {
-  const card = document.getElementById('stats-card');
   const content = document.getElementById('stats-content');
-  if (!card || !content) return;
+  if (!content) return;
 
-  const total = muniList.length;
-  const withMx = muniList.filter(m => (m.mx || []).length > 0).length;
+  const filtered = muniList.filter(m => activeCountries.has(m.country));
+  const total = filtered.length;
+  if (total === 0) { content.innerHTML = '<p style="color:#999">No municipalities selected.</p>'; return; }
+  const withMx = filtered.filter(m => (m.mx || []).length > 0).length;
 
-  // MX server country distribution
-  const countryCounts = {};
-  for (const m of muniList) {
-    for (const cc of (m.mx_countries || [])) {
-      countryCounts[cc] = (countryCounts[cc] || 0) + 1;
-    }
-  }
-  const countryEntries = Object.entries(countryCounts).sort((a, b) => b[1] - a[1]);
-
-  // Provider jurisdiction summary
   const usProviders = new Set(['Microsoft', 'Google', 'AWS']);
-  let usCount = 0, euCount = 0, otherCount = 0;
-  for (const m of muniList) {
-    const p = m.classification.provider;
-    if (usProviders.has(p)) usCount++;
-    else if (p === 'Unknown') otherCount++;
-    else euCount++;
-  }
+  const countryColors = { US: '#E83838', EE: '#2EDBA8', LV: '#34D5A0', LT: '#78FFD6', DE: '#6BA3D6', NL: '#6BA3D6', FI: '#6BA3D6', SE: '#6BA3D6', IE: '#6BA3D6' };
+  const sectionTitle = '<div style="font-size:12px;color:#777;text-transform:uppercase;letter-spacing:0.3px;font-weight:600;margin-bottom:4px">';
 
-  // MX in US vs Baltic
-  let mxInUs = 0, mxInBaltic = 0;
-  for (const m of muniList) {
-    const cc = m.mx_countries || [];
-    if (cc.includes('US')) mxInUs++;
-    if (cc.some(c => ['EE', 'LV', 'LT'].includes(c))) mxInBaltic++;
-  }
-
-  function barHtml(label, value, max, color) {
+  function barHtml(label, value, max, color, base) {
+    base = base || total;
     const pct = max > 0 ? (value / max * 100) : 0;
-    const pctLabel = (value / total * 100).toFixed(0);
+    const pctLabel = (value / base * 100).toFixed(0);
     return `<div class="stats-row">` +
       `<span class="stats-label">${escapeHtml(label)}</span>` +
       `<div class="stats-bar-bg"><div class="stats-bar" style="width:${pct}%;background:${color}"></div></div>` +
       `<span class="stats-value">${value} (${pctLabel}%)</span></div>`;
   }
 
-  const maxCountry = countryEntries.length > 0 ? countryEntries[0][1] : 1;
-  const countryColors = { US: '#E83838', EE: '#2EDBA8', LV: '#34D5A0', LT: '#78FFD6' };
-
-  let html = '<div class="stats-columns"><div class="stats-column">';
-  html += '<div style="font-size:12px;color:#999;text-transform:uppercase;letter-spacing:0.3px;font-weight:600;margin-bottom:4px">Provider jurisdiction</div>';
-  html += barHtml('US-based', usCount, total, '#E83838');
-  html += barHtml('Baltic/EU', euCount, total, '#2EDBA8');
-  if (otherCount > 0) html += barHtml('Unknown', otherCount, total, '#BFBFBF');
-  html += '</div><div class="stats-column">';
-  html += '<div style="font-size:12px;color:#999;text-transform:uppercase;letter-spacing:0.3px;font-weight:600;margin-bottom:4px">MX server location (by IP registration)</div>';
-  for (const [cc, count] of countryEntries.slice(0, 6)) {
-    html += barHtml(cc, count, maxCountry, countryColors[cc] || '#888');
+  function computeStats(list) {
+    const t = list.length;
+    let us = 0, eu = 0, unk = 0;
+    const providers = {};
+    const mxCountries = {};
+    let mxUs = 0, mxBaltic = 0;
+    for (const m of list) {
+      const p = m.classification.provider;
+      providers[p] = (providers[p] || 0) + 1;
+      if (usProviders.has(p)) us++;
+      else if (p === 'Unknown') unk++;
+      else eu++;
+      for (const cc of (m.mx_countries || [])) {
+        mxCountries[cc] = (mxCountries[cc] || 0) + 1;
+      }
+      const cc = m.mx_countries || [];
+      if (cc.includes('US')) mxUs++;
+      if (cc.some(c => ['EE', 'LV', 'LT'].includes(c))) mxBaltic++;
+    }
+    return { total: t, us, eu, unk, providers, mxCountries, mxUs, mxBaltic };
   }
+
+  function jurisdictionHtml(stats, max) {
+    let h = '';
+    h += barHtml('US-based', stats.us, max, '#E83838', stats.total);
+    h += barHtml('Baltic/EU', stats.eu, max, '#2EDBA8', stats.total);
+    if (stats.unk > 0) h += barHtml('Unknown', stats.unk, max, '#BFBFBF', stats.total);
+    return h;
+  }
+
+  function mxLocationHtml(stats, max) {
+    const entries = Object.entries(stats.mxCountries).sort((a, b) => b[1] - a[1]);
+    let h = '';
+    for (const [cc, count] of entries.slice(0, 6)) {
+      h += barHtml(cc, count, max, countryColors[cc] || '#888', stats.total);
+    }
+    return h;
+  }
+
+  function providerHtml(stats, max) {
+    const entries = Object.entries(stats.providers).sort((a, b) => b[1] - a[1]);
+    let h = '';
+    for (const [p, count] of entries) {
+      const color = COLORS[p] || '#888';
+      h += barHtml(p, count, max, color, stats.total);
+    }
+    return h;
+  }
+
+  // Overall stats
+  const allStats = computeStats(filtered);
+
+  let html = '<h3 style="margin:0 0 8px;font-size:14px;color:#555">Overall</h3>';
+  html += '<div class="stats-columns"><div class="stats-column">';
+  html += sectionTitle + 'Provider jurisdiction</div>';
+  html += jurisdictionHtml(allStats, total);
+  html += '</div><div class="stats-column">';
+  html += sectionTitle + 'MX server location (by IP)</div>';
+  html += mxLocationHtml(allStats, Math.max(...Object.values(allStats.mxCountries), 1));
+  html += '</div><div class="stats-column">';
+  html += sectionTitle + 'Providers</div>';
+  html += providerHtml(allStats, Math.max(...Object.values(allStats.providers), 1));
   html += '</div></div>';
+
+  const mxInUs = allStats.mxUs;
   html += `<p style="font-size:12px;color:#777;margin-top:8px"><strong>${mxInUs}</strong> of ${withMx} municipalities with MX records route mail through servers registered in the US.</p>`;
 
+  // Per-country breakdown — side by side
+  const countryNames = { EE: 'Estonia', LV: 'Latvia', LT: 'Lithuania' };
+  const activeList = ['EE', 'LV', 'LT'].filter(cc => activeCountries.has(cc));
+  const countryStats = {};
+  for (const cc of activeList) {
+    const list = filtered.filter(m => m.country === cc);
+    if (list.length > 0) countryStats[cc] = computeStats(list);
+  }
+
+  if (Object.keys(countryStats).length > 0) {
+    html += '<div style="border-top:1px solid #ddd;margin-top:12px;padding-top:12px">';
+    html += sectionTitle + 'By country</div>';
+    html += '<div class="stats-columns">';
+    for (const cc of activeList) {
+      const stats = countryStats[cc];
+      if (!stats) continue;
+      const topProviders = Object.entries(stats.providers).sort((a, b) => b[1] - a[1]).slice(0, 4);
+      const topMx = Object.entries(stats.mxCountries).sort((a, b) => b[1] - a[1]).slice(0, 3);
+      html += `<div class="stats-column" style="min-width:220px">`;
+      html += `<div style="font-size:13px;font-weight:600;color:#444;margin-bottom:6px">${FLAGS[cc] || ''} ${countryNames[cc]} (${stats.total})</div>`;
+      html += barHtml('US-based', stats.us, stats.total, '#E83838', stats.total);
+      html += barHtml('Baltic/EU', stats.eu, stats.total, '#2EDBA8', stats.total);
+      html += `<div style="margin-top:6px;font-size:11px;color:#999;font-weight:600">TOP PROVIDERS</div>`;
+      for (const [p, count] of topProviders) {
+        html += barHtml(p, count, topProviders[0][1], COLORS[p] || '#888', stats.total);
+      }
+      html += `<div style="margin-top:6px;font-size:11px;color:#999;font-weight:600">MX SERVERS</div>`;
+      for (const [loc, count] of topMx) {
+        html += barHtml(loc, count, topMx[0][1], countryColors[loc] || '#888', stats.total);
+      }
+      html += '</div>';
+    }
+    html += '</div></div>';
+  }
+
   content.innerHTML = html;
-  card.style.display = '';
 }
 
 // --- Feature matching ---
@@ -454,6 +539,7 @@ document.querySelectorAll('.country-btn').forEach(function (btn) {
     else activeCountries.add(country);
     updateStyles();
     updateLegend();
+    if (dnsData) buildStats(dnsData.municipalities);
   });
 });
 
