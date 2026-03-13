@@ -197,8 +197,11 @@ async def process_unknown(
 
 MANUAL_OVERRIDES = {
     # Domains that differ from the guessed pattern
+    "EE-0528": {
+        "domain": "nvv.ee",  # noo.ee is Noo Lihatoostus (meat factory)
+    },
     "EE-0589": {
-        "domain": "peipsi.ee",
+        "domain": "peipsivald.ee",  # peipsi.ee is a tourism NGO
     },
     "EE-0638": {
         "domain": "pparnumaa.ee",
@@ -208,6 +211,22 @@ MANUAL_OVERRIDES = {
     },
     "LV-0112": {
         "domain": "dkn.lv",
+    },
+    # Outokumpu: outokumpu.fi is the mining company, not the city
+    "FI-309": {
+        "domain": "outokummunkaupunki.fi",
+    },
+    # Nokia: nokia.fi is the phone company, not the city
+    "FI-536": {
+        "domain": "nokiankaupunki.fi",
+    },
+    # Närpiö: domain is narpes.fi (Swedish name), not narpio.fi
+    "FI-545": {
+        "domain": "narpes.fi",
+    },
+    # Koski Tl: official domain is koski.fi (not koski-tl.fi)
+    "FI-284": {
+        "domain": "koski.fi",
     },
 }
 

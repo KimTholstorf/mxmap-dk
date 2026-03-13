@@ -91,6 +91,9 @@ GATEWAY_KEYWORDS = {
     "fortimail": ["fortimail", "fortimailcloud.com"],
     "secmail": ["secmail.com"],
     "d-fence": ["d-fence.eu"],
+    "edelkey": ["edelkey.net"],
+    "ippnet": ["ippnet.fi"],
+    "garmtech": ["garmtech.com", "garmtech.net"],
 }
 
 # Baltic ISP ASNs (replaces SWISS_ISP_ASNS)
@@ -106,13 +109,20 @@ BALTIC_ISP_ASNS: dict[int, str] = {
     12578: "Lattelecom",
     12993: "LVRTC",
     2847: "LATNET",
+    5538: "SigmaNet (LV)",
+    43513: "Nano IT (LV)",
+    29600: "Latvenergo/IVIKS (LV)",
+    206111: "LINKIT (LV)",
     # Lithuania
     8764: "Telia Lietuva",
+    43811: "Telia Lietuva",
     13194: "Bite Lietuva",
     33922: "Cgates",
     15440: "Baltneta",
     61272: "Init (LT)",
     6769: "LITNET",
+    15419: "LRTC (LT)",
+    212531: "Interneto Vizija (LT)",
     # Multi-country
     2588: "Elisa",
     # Finland

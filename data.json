@@ -1,14 +1,13 @@
 {
-  "generated":"2026-03-13T17:13:57Z",
+  "generated":"2026-03-13T18:50:45Z",
   "total":490,
   "counts":{
-    "baltic-isp":61,
-    "elkdata":2,
-    "google":5,
-    "independent":44,
-    "microsoft":361,
+    "baltic-isp":90,
+    "elkdata":1,
+    "google":6,
+    "independent":5,
+    "microsoft":374,
     "telia":3,
-    "unknown":3,
     "zone":11
   },
   "municipalities":{
@@ -1034,23 +1033,27 @@
       "name":"Nõo vald",
       "canton":"Tartu maakond",
       "country":"EE",
-      "domain":"noo.ee",
+      "domain":"nvv.ee",
       "mx":[
-        "noo-ee.mail.protection.outlook.com"
+        "zonemx.eu"
       ],
-      "spf":"v=spf1 ip4:80.250.114.239 mx ip4:213.180.13.122/32 include:spf.protection.outlook.com include:_spf.smaily.com -all",
-      "provider":"microsoft",
-      "reason":"MX record (noo-ee.mail.protection.outlook.com) matches Microsoft",
+      "spf":"v=spf1 a mx include:_spf.zone.eu include:mailgun.org include:spf.protection.outlook.com ~all",
+      "provider":"zone",
+      "reason":"MX record (zonemx.eu) matches Zone.eu",
       "osm_relation_id":2628580,
-      "spf_resolved":"v=spf1 ip4:80.250.114.239 mx ip4:213.180.13.122/32 include:spf.protection.outlook.com include:_spf.smaily.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:149.154.156.2/31 ip4:149.154.156.4/30 ip4:149.154.156.8/29 ip4:149.154.156.16/31 ip4:185.31.243.2/31 ip4:185.31.243.4/30 ip4:185.31.243.8/29 ip4:185.31.243.16/28 ip4:185.31.243.32/29 ip4:149.202.130.128/25 -all",
+      "spf_resolved":"v=spf1 a mx include:_spf.zone.eu include:mailgun.org include:spf.protection.outlook.com ~all v=spf1 ip4:217.146.64.0/20 ip4:185.31.240.0/22 ip4:85.222.232.0/22 ip4:85.234.242.0/23 ip4:85.234.244.0/22 ip6:2a02:29e8::/29 ip4:90.191.225.240/29 ip6:2001:7d0:d100:6::/64 ip4:90.191.225.208/28 ip4:87.119.168.48/29 ip4:217.68.24.144/29 ip4:45.151.4.0/23 -all v=spf1 include:_spf.mailgun.org include:_spf.eu.mailgun.org -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 include:_spf1.mailgun.org include:_spf2.mailgun.org ~all v=spf1 ip4:141.193.32.0/23 ip4:159.135.140.80/29 ip4:159.135.132.128/25 ip4:161.38.204.0/22 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:143.55.236.0/22 ip4:198.244.60.0/22 ip4:204.220.160.0/21 ~all v=spf1 ip4:209.61.151.0/24 ip4:166.78.68.0/22 ip4:198.61.254.0/23 ip4:192.237.158.0/23 ip4:23.253.182.0/23 ip4:104.130.96.0/28 ip4:146.20.113.0/24 ip4:146.20.191.0/24 ip4:159.135.224.0/20 ip4:69.72.32.0/20 ~all v=spf1 ip4:104.130.122.0/23 ip4:146.20.112.0/26 ip4:161.38.192.0/20 ip4:143.55.224.0/21 ip4:143.55.232.0/22 ip4:159.112.240.0/20 ip4:198.244.48.0/20 ip4:204.220.168.0/21 ip4:204.220.176.0/20 ~all",
       "mx_asns":[
-        8075
+        49604
       ],
       "mx_countries":[
-        "US"
+        "EE"
       ],
       "autodiscover":{
-        "autodiscover_cname":"autodiscover.outlook.com"
+        "autodiscover_srv":"mailconfig.zone.eu"
+      },
+      "dkim":{
+        "selector1":"selector1-nvv-ee._domainkey.nvvee.onmicrosoft.com",
+        "selector2":"selector2-nvv-ee._domainkey.nvvee.onmicrosoft.com"
       }
     },
     "EE-0557":{
@@ -1110,24 +1113,27 @@
       "name":"Peipsiääre vald",
       "canton":"Tartu maakond",
       "country":"EE",
-      "domain":"peipsi.ee",
+      "domain":"peipsivald.ee",
       "mx":[
-        "mh1.elkdata.ee",
-        "mh25.elkdata.ee"
+        "peipsivald-ee.mail.protection.outlook.com"
       ],
-      "spf":"v=spf1 a mx include:mail.spf.elkdata.ee ~all",
-      "provider":"elkdata",
-      "reason":"MX record (mh1.elkdata.ee, mh25.elkdata.ee) matches Elkdata",
+      "spf":"v=spf1 include:spf.protection.outlook.com  include:_spf.smaily.com include:_spf.zone.eu -all",
+      "provider":"microsoft",
+      "reason":"MX record (peipsivald-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":9622885,
-      "spf_resolved":"v=spf1 a mx include:mail.spf.elkdata.ee ~all v=spf1 include:mh.spf.elkdata.ee ip4:194.106.101.168 ip4:185.7.252.120/29 ip4:185.7.252.64 ip4:185.7.252.68 ip4:185.7.252.69 ip4:85.194.200.192/26 -all v=spf1 ip4:185.7.252.14 ip4:185.7.252.160 ip4:185.7.252.15 ip4:185.7.252.75 ip4:185.7.252.76 ip4:185.7.252.16/28 ip4:185.7.252.32/29 ip4:85.194.202.0/25 -all",
+      "spf_resolved":"v=spf1 include:spf.protection.outlook.com  include:_spf.smaily.com include:_spf.zone.eu -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:149.154.156.2/31 ip4:149.154.156.4/30 ip4:149.154.156.8/29 ip4:149.154.156.16/31 ip4:185.31.243.2/31 ip4:185.31.243.4/30 ip4:185.31.243.8/29 ip4:185.31.243.16/28 ip4:185.31.243.32/29 ip4:149.202.130.128/25 -all v=spf1 ip4:217.146.64.0/20 ip4:185.31.240.0/22 ip4:85.222.232.0/22 ip4:85.234.242.0/23 ip4:85.234.244.0/22 ip6:2a02:29e8::/29 ip4:90.191.225.240/29 ip6:2001:7d0:d100:6::/64 ip4:90.191.225.208/28 ip4:87.119.168.48/29 ip4:217.68.24.144/29 ip4:45.151.4.0/23 -all",
       "mx_asns":[
-        61189
+        8075
       ],
       "mx_countries":[
-        "EE"
+        "US"
       ],
       "autodiscover":{
-        "autodiscover_srv":"webmail.veebimajutus.ee"
+        "autodiscover_cname":"autodiscover.outlook.com"
+      },
+      "dkim":{
+        "selector1":"selector1-peipsivald-ee._domainkey.peipsivald.onmicrosoft.com",
+        "selector2":"selector2-peipsivald-ee._domainkey.peipsivald.onmicrosoft.com"
       }
     },
     "EE-0615":{
@@ -1425,20 +1431,24 @@
       "name":"Rõuge vald",
       "canton":"Võru maakond",
       "country":"EE",
-      "domain":"rouge.ee",
+      "domain":"rougevald.ee",
       "mx":[
-        "rouge.ee"
+        "rougevald-ee.mail.protection.outlook.com"
       ],
-      "spf":"",
-      "provider":"independent",
-      "reason":"MX (rouge.ee) is self-hosted",
+      "spf":"v=spf1 ip4:195.80.113.118 include:spf.protection.outlook.com -all",
+      "provider":"microsoft",
+      "reason":"MX record (rougevald-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":8414598,
+      "spf_resolved":"v=spf1 ip4:195.80.113.118 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
-        16276
+        8075
       ],
       "mx_countries":[
-        "CA"
-      ]
+        "US"
+      ],
+      "autodiscover":{
+        "autodiscover_cname":"autodiscover.outlook.com"
+      }
     },
     "EE-0708":{
       "bfs":"EE-0708",
@@ -1949,21 +1959,28 @@
       "name":"Viru-Nigula vald",
       "canton":"Lääne-Viru maakond",
       "country":"EE",
-      "domain":"virunigula.ee",
+      "domain":"viru-nigula.ee",
       "mx":[
-        "zonemx.eu"
+        "virunigula-ee01b.mail.protection.outlook.com"
       ],
-      "spf":"v=spf1 a mx include:_spf.zone.eu -all",
-      "provider":"zone",
-      "reason":"MX record (zonemx.eu) matches Zone.eu",
+      "spf":"v=spf1 include:spf.protection.outlook.com a:o1.smtp.interinx.com -all",
+      "provider":"microsoft",
+      "reason":"MX record (virunigula-ee01b.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":9622897,
-      "spf_resolved":"v=spf1 a mx include:_spf.zone.eu -all v=spf1 ip4:217.146.64.0/20 ip4:185.31.240.0/22 ip4:85.222.232.0/22 ip4:85.234.242.0/23 ip4:85.234.244.0/22 ip6:2a02:29e8::/29 ip4:90.191.225.240/29 ip6:2001:7d0:d100:6::/64 ip4:90.191.225.208/28 ip4:87.119.168.48/29 ip4:217.68.24.144/29 ip4:45.151.4.0/23 -all",
+      "spf_resolved":"v=spf1 include:spf.protection.outlook.com a:o1.smtp.interinx.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
-        49604
+        8075
       ],
       "mx_countries":[
-        "EE"
-      ]
+        "US"
+      ],
+      "autodiscover":{
+        "autodiscover_cname":"autodiscover.outlook.com"
+      },
+      "dkim":{
+        "selector1":"selector1-virunigula-ee01b._domainkey.virunigula.onmicrosoft.com",
+        "selector2":"selector2-virunigula-ee01b._domainkey.virunigula.onmicrosoft.com"
+      }
     },
     "EE-0890":{
       "bfs":"EE-0890",
@@ -2959,10 +2976,11 @@
         "smtp2.edelkey.net"
       ],
       "spf":"v=spf1 include:spf1.hel.fi include:spf2.hel.fi include:eu.mailgun.org include:spf.protection.outlook.com include:_spf.netigate.se -all",
-      "provider":"independent",
-      "reason":"MX (smtp1.edelkey.net, smtp2.edelkey.net) is self-hosted",
+      "provider":"microsoft",
+      "reason":"MX is edelkey gateway; SPF authorizes microsoft",
       "osm_relation_id":34914,
       "spf_resolved":"v=spf1 include:spf1.hel.fi include:spf2.hel.fi include:eu.mailgun.org include:spf.protection.outlook.com include:_spf.netigate.se -all v=spf1 ip4:213.138.147.128/27 ip4:213.138.142.160/27 ip4:137.163.56.2 ip4:137.163.21.40 ip4:137.163.145.32/29 ip4:137.163.56.12 ip4:137.163.56.7 ip4:137.163.56.8 ip4:137.163.31.100 ip4:137.163.30.3 ip4:213.214.134.217 ip4:213.214.134.219 ip4:137.163.57.144/28 ip4:137.163.27.2 -all v=spf1 ip4:81.22.243.153 ip4:167.89.6.190 ip4:192.49.185.74 ip4:77.72.56.0/24 ip4:131.207.84.81 ip4:81.22.169.238 ip4:81.22.169.239 ip4:109.70.166.82 ip4:109.70.160.96/27 ip4:109.70.166.158 ip4:77.86.249.36 ip4:89.250.48.136 ip4:77.72.56.50 ip4:131.207.55.52 ip4:131.207.55.53 ip4:31.217.192.63 ip4:31.217.192.66 ip4:31.217.192.174 ip4:31.217.192.38 ip4:31.217.196.100 ip4:81.236.60.200 ip4:81.236.60.201 ip4:148.139.0.2 ip4:148.139.1.2 ip4:185.121.204.4 ip4:185.121.204.138 ip4:80.242.21.76 ip4:185.6.180.156 ip4:104.45.82.9 ip4:194.14.67.124/31 -all v=spf1 include:_spf.eu.mailgun.org ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:89.45.227.221 ip4:89.45.227.195 ip4:86.107.243.139 ip4:143.55.236.39 ip4:141.193.32.19 -all v=spf1 ip4:141.193.32.0/23 ip4:159.135.140.80/29 ip4:159.135.132.128/25 ip4:161.38.204.0/22 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:143.55.236.0/22 ip4:198.244.60.0/22 ip4:204.220.160.0/21 ~all",
+      "gateway":"edelkey",
       "mx_asns":[
         1342
       ],
@@ -4905,12 +4923,26 @@
       "name":"Koski Tl",
       "canton":"Varsinais-Suomi",
       "country":"FI",
-      "domain":"koski-tl.fi",
-      "mx":[],
-      "spf":"",
-      "provider":"unknown",
-      "reason":"No MX records found",
-      "osm_relation_id":2506379
+      "domain":"koski.fi",
+      "mx":[
+        "fimx1.d-fence.eu",
+        "fimx2.d-fence.eu"
+      ],
+      "spf":"v=spf1 mx a ip4:31.187.85.152 ip4:31.187.85.155 ip4:31.187.85.162 ip4:31.187.85.153 ip4:31.217.193.39 ip4:185.121.204.138 ip4:185.121.204.4 ip4:81.17.201.0/26 include:spf.summitmedia.fi include:spf.protection.outlook.com include:8683531.spf07.hubspotemail.net ~all",
+      "provider":"microsoft",
+      "reason":"MX is d-fence gateway; SPF authorizes microsoft",
+      "osm_relation_id":2506379,
+      "spf_resolved":"v=spf1 mx a ip4:31.187.85.152 ip4:31.187.85.155 ip4:31.187.85.162 ip4:31.187.85.153 ip4:31.217.193.39 ip4:185.121.204.138 ip4:185.121.204.4 ip4:81.17.201.0/26 include:spf.summitmedia.fi include:spf.protection.outlook.com include:8683531.spf07.hubspotemail.net ~all v=spf1 mx a ip4:65.108.149.41 ip4:37.27.16.22 a:secure.summitmedia.fi a:peak.summitmedia.fi a:cave.summitmedia.fi -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:3.93.157.0/24 ip4:3.210.190.0/24 ip4:18.208.124.128/25 ip4:54.174.52.0/24 ip4:54.174.57.0/24 ip4:54.174.59.0/24 ip4:54.174.60.0/23 ip4:54.174.63.0/24 ip4:108.179.144.0/20 ip4:139.180.17.0/24 ip4:141.193.184.32/27 ip4:141.193.184.64/26 ip4:141.193.184.128/25 ip4:141.193.185.32/27 ip4:141.193.185.64/26 ip4:141.193.185.128/25 ip4:143.244.80.0/20 ip4:158.247.16.0/20 ip4:216.139.64.0/19 -all",
+      "gateway":"d-fence",
+      "mx_asns":[
+        15830
+      ],
+      "mx_countries":[
+        "FI"
+      ],
+      "autodiscover":{
+        "autodiscover_cname":"autodiscover.outlook.com"
+      }
     },
     "FI-285":{
       "bfs":"FI-285",
@@ -4973,28 +5005,52 @@
       "name":"Kristiinankaupunki",
       "canton":"Pohjanmaa",
       "country":"FI",
-      "domain":"kristiinankaupunki.fi",
+      "domain":"krs.fi",
       "mx":[
-        "mail.krs.fi"
+        "krs-fi.mail.protection.outlook.com"
       ],
-      "spf":"",
-      "provider":"independent",
-      "reason":"MX (mail.krs.fi) is self-hosted",
-      "osm_relation_id":2365311
+      "spf":"v=spf1 include:spf.protection.outlook.com mx ip4:194.251.132.2 a:webmail.krs.fi include:spf.creamarketing.com ip4:81.22.169.238 ip4:81.22.169.239 include:_spf.datacenter.fi -all",
+      "provider":"microsoft",
+      "reason":"MX record (krs-fi.mail.protection.outlook.com) matches Microsoft",
+      "osm_relation_id":2365311,
+      "spf_resolved":"v=spf1 include:spf.protection.outlook.com mx ip4:194.251.132.2 a:webmail.krs.fi include:spf.creamarketing.com ip4:81.22.169.238 ip4:81.22.169.239 include:_spf.datacenter.fi -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:62.183.231.26/32 ip4:62.183.231.50/32 ip4:62.183.231.31/32 ip4:62.183.231.23/32 -all v=spf1 ip4:89.250.60.42 ip4:5.250.160.26 ip4:89.250.48.136 ip4:80.242.31.11 ip4:195.60.252.134 ip4:195.60.252.50 ip4:13.51.142.212 ip4:16.170.123.104 ip4:51.20.26.199 ?all",
+      "mx_asns":[
+        8075
+      ],
+      "mx_countries":[
+        "US"
+      ],
+      "autodiscover":{
+        "autodiscover_cname":"autodiscover.outlook.com"
+      },
+      "dkim":{
+        "selector1":"selector1-krs-fi._domainkey.kristinestad.onmicrosoft.com",
+        "selector2":"selector2-krs-fi._domainkey.kristinestad.onmicrosoft.com"
+      }
     },
     "FI-288":{
       "bfs":"FI-288",
       "name":"Kruunupyy",
       "canton":"Pohjanmaa",
       "country":"FI",
-      "domain":"kruunupyy.fi",
+      "domain":"kronoby.fi",
       "mx":[
-        ""
+        "kronoby-fi.mail.protection.outlook.com"
       ],
-      "spf":"v=spf1 +a -all",
-      "provider":"independent",
-      "reason":"MX () is self-hosted",
-      "osm_relation_id":1855921
+      "spf":"v=spf1 ip4:85.157.244.18 include:spf.protection.outlook.com include:_spf.datacenter.fi include:spf.creamarketing.com ip4:193.64.173.32/27 include:_se_net.axiell.com -all",
+      "provider":"microsoft",
+      "reason":"MX record (kronoby-fi.mail.protection.outlook.com) matches Microsoft",
+      "osm_relation_id":1855921,
+      "spf_resolved":"v=spf1 ip4:85.157.244.18 include:spf.protection.outlook.com include:_spf.datacenter.fi include:spf.creamarketing.com ip4:193.64.173.32/27 include:_se_net.axiell.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:89.250.60.42 ip4:5.250.160.26 ip4:89.250.48.136 ip4:80.242.31.11 ip4:195.60.252.134 ip4:195.60.252.50 ip4:13.51.142.212 ip4:16.170.123.104 ip4:51.20.26.199 ?all v=spf1 ip4:62.183.231.26/32 ip4:62.183.231.50/32 ip4:62.183.231.31/32 ip4:62.183.231.23/32 -all v=spf1 ip4:185.121.206.13/32 ip4:212.247.85.136/30 ip4:185.121.204.138/32 ip4:185.121.204.164/32 ip6:2001:7b8:100:1::68 ip4:37.221.225.39/32 ip4:185.121.204.223/32 ~all",
+      "mx_asns":[
+        8075
+      ],
+      "mx_countries":[
+        "US"
+      ],
+      "autodiscover":{
+        "autodiscover_cname":"autodiscover.outlook.com"
+      }
     },
     "FI-290":{
       "bfs":"FI-290",
@@ -5219,21 +5275,24 @@
       "name":"Outokumpu",
       "canton":"Pohjois-Karjala",
       "country":"FI",
-      "domain":"outokumpu.fi",
+      "domain":"outokummunkaupunki.fi",
       "mx":[
-        "relay1.netnames.net",
-        "relay2.netnames.net"
+        "outokummunkaupunki-fi.mail.protection.outlook.com"
       ],
-      "spf":"v=spf1 -all",
-      "provider":"independent",
-      "reason":"MX (relay1.netnames.net, relay2.netnames.net) is self-hosted",
+      "spf":"v=spf1 include:spf.protection.outlook.com include:spf-a.meita.fi include:spf.palvelukanava.fi include:spf.lianamailer.com ip4:91.209.29.24 ip4:185.55.176.54 ip4:89.250.48.136 ip4:89.250.61.185 -all",
+      "provider":"microsoft",
+      "reason":"MX record (outokummunkaupunki-fi.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":2521594,
       "mx_asns":[
-        34922
+        8075
       ],
       "mx_countries":[
-        "GB"
-      ]
+        "US"
+      ],
+      "spf_resolved":"v=spf1 include:spf.protection.outlook.com include:spf-a.meita.fi include:spf.palvelukanava.fi include:spf.lianamailer.com ip4:91.209.29.24 ip4:185.55.176.54 ip4:89.250.48.136 ip4:89.250.61.185 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:62.148.96.236 ip4:62.148.110.94 ip4:194.251.35.220 -all v=spf1 ip4:185.83.204.135 ip4:185.83.204.137 ip4:185.83.204.138 ip4:185.83.204.140 ip4:185.83.204.141 ip4:185.83.204.150 ip4:185.83.205.251 ip4:52.174.94.160 ip4:185.83.205.59 -all v=spf1 ip4:77.86.247.13 ip4:77.86.247.21 ip4:77.86.247.134 ip4:77.86.247.149 ip4:77.86.247.154 ip4:77.86.247.214 ip4:77.86.247.230 ip4:77.86.251.39 ip4:77.86.251.41 ip4:77.86.251.42 ip4:77.86.255.242 ip4:77.86.255.243 ip4:195.201.75.0/27 ip4:195.201.75.32/27 ip4:195.201.73.224/27 ip4:213.139.173.144/28 ip4:88.198.228.224/27 ip4:89.166.55.64/27 ip4:85.131.41.192/28 ip4:212.146.22.0/25 ip4:94.237.5.0/24 ip4:94.237.6.0/24 ip4:45.66.245.116 ip4:45.66.245.117 ip4:45.66.245.118 ip4:45.66.245.119 ip4:45.66.245.120 ip4:45.66.245.121 ip4:45.66.245.122 ip4:45.66.245.123 ip4:45.66.245.124 ip4:45.66.245.125 ip4:94.237.82.59/32 ip4:94.237.91.66/32 ip4:94.237.87.9/32 ip4:94.237.84.178/32 ip4:94.237.82.97/32 ip4:62.122.31.0/26 ip4:62.122.31.192/27 ip4:62.122.31.240/28 ip4:94.237.90.130/32 ip4:85.9.206.74 ip4:85.9.200.78 ip4:94.237.80.35 ip4:94.237.91.112 ip4:94.237.98.202 ip4:94.237.31.215 ip4:5.22.215.160 ip4:94.237.101.144 ip4:94.237.30.7 ip4:94.237.93.46 ip4:94.237.94.174/32 -all ",
+      "autodiscover":{
+        "autodiscover_cname":"autodiscover.outlook.com"
+      }
     },
     "FI-312":{
       "bfs":"FI-312",
@@ -5458,11 +5517,11 @@
         "mx62784.bak.secmail.com",
         "mx62784.pri.secmail.com"
       ],
-      "spf":"v=spf1  ip4:213.214.170.95 ip4:213.138.147.128/27 ip4:91.209.29.24 ip4:91.209.29.24 ip4:81.209.91.20 ip4:192.103.112.33 ip4:192.103.112.32 ip4:185.55.176.54  include:spf.protection.outlook.com include:_spf.datacenter.fi include:sendgrid.net ~all",
+      "spf":"v=spf1  ip4:185.55.176.54 ip4:213.214.170.95 ip4:213.138.147.128/27 ip4:91.209.29.24 ip4:91.209.29.24  ip4:81.209.91.20 ip4:192.103.112.33 ip4:192.103.112.32 include:spf.protection.outlook.com include:_spf.datacenter.fi include:sendgrid.net ~all ",
       "provider":"microsoft",
       "reason":"MX is secmail gateway; SPF authorizes microsoft",
       "osm_relation_id":2378069,
-      "spf_resolved":"v=spf1  ip4:213.214.170.95 ip4:213.138.147.128/27 ip4:91.209.29.24 ip4:91.209.29.24 ip4:81.209.91.20 ip4:192.103.112.33 ip4:192.103.112.32 ip4:185.55.176.54  include:spf.protection.outlook.com include:_spf.datacenter.fi include:sendgrid.net ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:89.250.60.42 ip4:5.250.160.26 ip4:89.250.48.136 ip4:80.242.31.11 ip4:195.60.252.134 ip4:195.60.252.50 ip4:13.51.142.212 ip4:16.170.123.104 ip4:51.20.26.199 ?all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
+      "spf_resolved":"v=spf1  ip4:185.55.176.54 ip4:213.214.170.95 ip4:213.138.147.128/27 ip4:91.209.29.24 ip4:91.209.29.24  ip4:81.209.91.20 ip4:192.103.112.33 ip4:192.103.112.32 include:spf.protection.outlook.com include:_spf.datacenter.fi include:sendgrid.net ~all  v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:89.250.60.42 ip4:5.250.160.26 ip4:89.250.48.136 ip4:80.242.31.11 ip4:195.60.252.134 ip4:195.60.252.50 ip4:13.51.142.212 ip4:16.170.123.104 ip4:51.20.26.199 ?all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
       "gateway":"secmail",
       "mx_asns":[
         1759,
@@ -6053,14 +6112,24 @@
       "name":"Luoto",
       "canton":"Pohjanmaa",
       "country":"FI",
-      "domain":"luoto.fi",
+      "domain":"larsmo.fi",
       "mx":[
-        "localhost"
+        "larsmo-fi.mail.protection.outlook.com"
       ],
-      "spf":"v=spf1 -all",
-      "provider":"independent",
-      "reason":"MX (localhost) is self-hosted",
-      "osm_relation_id":1855922
+      "spf":"v=spf1 include:spf.protection.outlook.com a:mx3.multi.fi a:mda-out.datacenter.fi include:spfa.cust.multi.fi ip4:62.72.243.69 ip4:85.134.46.250 include:spf.creamarketing.com include:spf.cloudcity.fi include:_se_net.axiell.com ip4:213.139.172.10 -all",
+      "provider":"microsoft",
+      "reason":"MX record (larsmo-fi.mail.protection.outlook.com) matches Microsoft",
+      "osm_relation_id":1855922,
+      "spf_resolved":"v=spf1 include:spf.protection.outlook.com a:mx3.multi.fi a:mda-out.datacenter.fi include:spfa.cust.multi.fi ip4:62.72.243.69 ip4:85.134.46.250 include:spf.creamarketing.com include:spf.cloudcity.fi include:_se_net.axiell.com ip4:213.139.172.10 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:62.80.128.0/24 ip4:62.80.136.16/28 ip4:85.134.37.0/24 ip6:2a00:4380:1:1::/64 ip6:2a00:4380:1:128::/64 -all v=spf1 ip4:62.183.231.26/32 ip4:62.183.231.50/32 ip4:62.183.231.31/32 ip4:62.183.231.23/32 -all v=spf1 ip4:185.220.76.0/22 ip6:2a0b:f240::/29 -all v=spf1 ip4:185.121.206.13/32 ip4:212.247.85.136/30 ip4:185.121.204.138/32 ip4:185.121.204.164/32 ip6:2001:7b8:100:1::68 ip4:37.221.225.39/32 ip4:185.121.204.223/32 ~all",
+      "mx_asns":[
+        8075
+      ],
+      "mx_countries":[
+        "US"
+      ],
+      "autodiscover":{
+        "autodiscover_cname":"autodiscover.outlook.com"
+      }
     },
     "FI-441":{
       "bfs":"FI-441",
@@ -6145,15 +6214,24 @@
       "name":"Maalahti",
       "canton":"Pohjanmaa",
       "country":"FI",
-      "domain":"maalahti.fi",
+      "domain":"malax.fi",
       "mx":[
-        ""
+        "malax-fi.mail.protection.outlook.com"
       ],
-      "spf":"v=spf1 include:malax.fi ~all",
-      "provider":"independent",
-      "reason":"MX () is self-hosted",
+      "spf":"v=spf1 a ip4:213.250.85.24 include:spf.protection.outlook.com include:spf.creamarketing.com include:_spf.datacenter.fi include:spfa.cust.multi.fi ip4:62.72.240.76 include:_se_net.axiell.com -all",
+      "provider":"microsoft",
+      "reason":"MX record (malax-fi.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":1855923,
-      "spf_resolved":"v=spf1 include:malax.fi ~all v=spf1 a ip4:213.250.85.24 include:spf.protection.outlook.com include:spf.creamarketing.com include:_spf.datacenter.fi include:spfa.cust.multi.fi ip4:62.72.240.76 include:_se_net.axiell.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:62.183.231.26/32 ip4:62.183.231.50/32 ip4:62.183.231.31/32 ip4:62.183.231.23/32 -all v=spf1 ip4:89.250.60.42 ip4:5.250.160.26 ip4:89.250.48.136 ip4:80.242.31.11 ip4:195.60.252.134 ip4:195.60.252.50 ip4:13.51.142.212 ip4:16.170.123.104 ip4:51.20.26.199 ?all v=spf1 ip4:62.80.128.0/24 ip4:62.80.136.16/28 ip4:85.134.37.0/24 ip6:2a00:4380:1:1::/64 ip6:2a00:4380:1:128::/64 -all v=spf1 ip4:185.121.206.13/32 ip4:212.247.85.136/30 ip4:185.121.204.138/32 ip4:185.121.204.164/32 ip6:2001:7b8:100:1::68 ip4:37.221.225.39/32 ip4:185.121.204.223/32 ~all"
+      "spf_resolved":"v=spf1 a ip4:213.250.85.24 include:spf.protection.outlook.com include:spf.creamarketing.com include:_spf.datacenter.fi include:spfa.cust.multi.fi ip4:62.72.240.76 include:_se_net.axiell.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:62.183.231.26/32 ip4:62.183.231.50/32 ip4:62.183.231.31/32 ip4:62.183.231.23/32 -all v=spf1 ip4:89.250.60.42 ip4:5.250.160.26 ip4:89.250.48.136 ip4:80.242.31.11 ip4:195.60.252.134 ip4:195.60.252.50 ip4:13.51.142.212 ip4:16.170.123.104 ip4:51.20.26.199 ?all v=spf1 ip4:62.80.128.0/24 ip4:62.80.136.16/28 ip4:85.134.37.0/24 ip6:2a00:4380:1:1::/64 ip6:2a00:4380:1:128::/64 -all v=spf1 ip4:185.121.206.13/32 ip4:212.247.85.136/30 ip4:185.121.204.138/32 ip4:185.121.204.164/32 ip6:2001:7b8:100:1::68 ip4:37.221.225.39/32 ip4:185.121.204.223/32 ~all",
+      "mx_asns":[
+        8075
+      ],
+      "mx_countries":[
+        "US"
+      ],
+      "autodiscover":{
+        "autodiscover_cname":"autodiscover.outlook.com"
+      }
     },
     "FI-478":{
       "bfs":"FI-478",
@@ -6694,12 +6772,28 @@
       "name":"Nokia",
       "canton":"Pirkanmaa",
       "country":"FI",
-      "domain":"nokia.fi",
-      "mx":[],
-      "spf":"",
-      "provider":"unknown",
-      "reason":"No MX records found",
-      "osm_relation_id":75300
+      "domain":"nokiankaupunki.fi",
+      "mx":[
+        "nokiankaupunki-fi.mail.protection.outlook.com"
+      ],
+      "spf":"v=spf1 mx ip4:82.197.21.80/28 ip4:185.26.50.48 ip4:217.78.212.80/28 ip4:213.138.147.128/27 ip4:89.250.48.136 ip4:192.89.123.25 include:spf.tampere.fi include:spf.mailjet.com include:spf.qb-feedback.com include:spf.cloudcity.fi -all",
+      "provider":"microsoft",
+      "reason":"MX record (nokiankaupunki-fi.mail.protection.outlook.com) matches Microsoft",
+      "osm_relation_id":75300,
+      "spf_resolved":"v=spf1 mx ip4:82.197.21.80/28 ip4:185.26.50.48 ip4:217.78.212.80/28 ip4:213.138.147.128/27 ip4:89.250.48.136 ip4:192.89.123.25 include:spf.tampere.fi include:spf.mailjet.com include:spf.qb-feedback.com include:spf.cloudcity.fi -all v=spf1 ip4:131.207.109.86 ip4:131.207.109.87 ip4:131.207.109.88 ip4:131.207.109.89 ip4:131.207.84.71 ip4:91.230.5.6 ip4:91.230.5.7 ip4:91.230.5.8 include:spf.protection.outlook.com v=spf1 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:45.14.148.0/22 ~all v=spf1 ip4:195.66.99.135 ip4:62.75.247.44 ip4:212.227.89.57 ip4:217.160.226.166 ip4:82.165.193.1 ip4:85.25.144.9 ip4:54.194.192.132 ip4:87.79.30.25 ip4:87.79.30.30 ip4:91.217.141.0/24 ~all v=spf1 ip4:185.220.76.0/22 ip6:2a0b:f240::/29 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
+      "mx_asns":[
+        8075
+      ],
+      "mx_countries":[
+        "US"
+      ],
+      "autodiscover":{
+        "autodiscover_srv":"autodiscover.tampere.fi"
+      },
+      "dkim":{
+        "selector1":"selector1-nokiankaupunki-fi._domainkey.tampereenseutu.onmicrosoft.com",
+        "selector2":"selector2-nokiankaupunki-fi._domainkey.tampereenseutu.onmicrosoft.com"
+      }
     },
     "FI-538":{
       "bfs":"FI-538",
@@ -6782,12 +6876,29 @@
       "name":"Närpiö",
       "canton":"Pohjanmaa",
       "country":"FI",
-      "domain":"narpio.fi",
-      "mx":[],
-      "spf":"",
-      "provider":"unknown",
-      "reason":"No MX records found",
-      "osm_relation_id":2320684
+      "domain":"narpes.fi",
+      "mx":[
+        "narpes-fi.mail.protection.outlook.com"
+      ],
+      "spf":"v=spf1 mx ip4:85.134.54.126 include:spf.protection.outlook.com include:_spf.datacenter.fi include:mailgun.org include:_se_net.axiell.com -all",
+      "provider":"microsoft",
+      "reason":"MX record (narpes-fi.mail.protection.outlook.com) matches Microsoft",
+      "osm_relation_id":2320684,
+      "spf_resolved":"v=spf1 mx ip4:85.134.54.126 include:spf.protection.outlook.com include:_spf.datacenter.fi include:mailgun.org include:_se_net.axiell.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:89.250.60.42 ip4:5.250.160.26 ip4:89.250.48.136 ip4:80.242.31.11 ip4:195.60.252.134 ip4:195.60.252.50 ip4:13.51.142.212 ip4:16.170.123.104 ip4:51.20.26.199 ?all v=spf1 include:_spf.mailgun.org include:_spf.eu.mailgun.org -all v=spf1 ip4:185.121.206.13/32 ip4:212.247.85.136/30 ip4:185.121.204.138/32 ip4:185.121.204.164/32 ip6:2001:7b8:100:1::68 ip4:37.221.225.39/32 ip4:185.121.204.223/32 ~all v=spf1 include:_spf1.mailgun.org include:_spf2.mailgun.org ~all v=spf1 ip4:141.193.32.0/23 ip4:159.135.140.80/29 ip4:159.135.132.128/25 ip4:161.38.204.0/22 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:143.55.236.0/22 ip4:198.244.60.0/22 ip4:204.220.160.0/21 ~all v=spf1 ip4:209.61.151.0/24 ip4:166.78.68.0/22 ip4:198.61.254.0/23 ip4:192.237.158.0/23 ip4:23.253.182.0/23 ip4:104.130.96.0/28 ip4:146.20.113.0/24 ip4:146.20.191.0/24 ip4:159.135.224.0/20 ip4:69.72.32.0/20 ~all v=spf1 ip4:104.130.122.0/23 ip4:146.20.112.0/26 ip4:161.38.192.0/20 ip4:143.55.224.0/21 ip4:143.55.232.0/22 ip4:159.112.240.0/20 ip4:198.244.48.0/20 ip4:204.220.168.0/21 ip4:204.220.176.0/20 ~all",
+      "mx_asns":[
+        8075
+      ],
+      "mx_countries":[
+        "US"
+      ],
+      "autodiscover":{
+        "autodiscover_cname":"autodiscover.outlook.com",
+        "autodiscover_srv":"mail.narpes.fi"
+      },
+      "dkim":{
+        "selector1":"selector1-narpes-fi._domainkey.narpes.onmicrosoft.com",
+        "selector2":"selector2-narpes-fi._domainkey.narpes.onmicrosoft.com"
+      }
     },
     "FI-560":{
       "bfs":"FI-560",
@@ -7044,10 +7155,11 @@
         "saapuva.ippnet.fi"
       ],
       "spf":"v=spf1 a mx include:spf.ippnet.fi ip4:62.106.63.88 ip4:62.106.62.150 ip4:62.106.62.148 ip4:62.106.62.149 ip4:213.157.84.84 include:_spf.datacenter.fi include:spf.cloudcity.fi include:spf.protection.outlook.com -all",
-      "provider":"independent",
-      "reason":"MX (mail.ippnet.fi, saapuva.ippnet.fi) is self-hosted",
+      "provider":"microsoft",
+      "reason":"MX is ippnet gateway; SPF authorizes microsoft",
       "osm_relation_id":2270669,
       "spf_resolved":"v=spf1 a mx include:spf.ippnet.fi ip4:62.106.63.88 ip4:62.106.62.150 ip4:62.106.62.148 ip4:62.106.62.149 ip4:213.157.84.84 include:_spf.datacenter.fi include:spf.cloudcity.fi include:spf.protection.outlook.com -all v=spf1 ip4:62.106.63.0/26 ip4:62.106.59.32/27 -all v=spf1 ip4:89.250.60.42 ip4:5.250.160.26 ip4:89.250.48.136 ip4:80.242.31.11 ip4:195.60.252.134 ip4:195.60.252.50 ip4:13.51.142.212 ip4:16.170.123.104 ip4:51.20.26.199 ?all v=spf1 ip4:185.220.76.0/22 ip6:2a0b:f240::/29 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
+      "gateway":"ippnet",
       "mx_asns":[
         57732
       ],
@@ -10126,21 +10238,28 @@
       "name":"Vöyri",
       "canton":"Pohjanmaa",
       "country":"FI",
-      "domain":"voyri.fi",
+      "domain":"vora.fi",
       "mx":[
-        "pop.voyri.fi"
+        "vora-fi.mail.protection.outlook.com"
       ],
-      "spf":"v=spf1 include:spf.creamarketing.com a mx -all",
-      "provider":"baltic-isp",
-      "reason":"MX (pop.voyri.fi) hosted on Baltic ISP (Elisa (FI))",
+      "spf":"v=spf1 a:pop.vora.fi ip4:217.78.212.80/28 ip4:85.134.37.151/32 include:spf.protection.outlook.com include:_spf.datacenter.fi include:spf.creamarketing.com a -all",
+      "provider":"microsoft",
+      "reason":"MX record (vora-fi.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":1855927,
-      "spf_resolved":"v=spf1 include:spf.creamarketing.com a mx -all v=spf1 ip4:62.183.231.26/32 ip4:62.183.231.50/32 ip4:62.183.231.31/32 ip4:62.183.231.23/32 -all",
+      "spf_resolved":"v=spf1 a:pop.vora.fi ip4:217.78.212.80/28 ip4:85.134.37.151/32 include:spf.protection.outlook.com include:_spf.datacenter.fi include:spf.creamarketing.com a -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:89.250.60.42 ip4:5.250.160.26 ip4:89.250.48.136 ip4:80.242.31.11 ip4:195.60.252.134 ip4:195.60.252.50 ip4:13.51.142.212 ip4:16.170.123.104 ip4:51.20.26.199 ?all v=spf1 ip4:62.183.231.26/32 ip4:62.183.231.50/32 ip4:62.183.231.31/32 ip4:62.183.231.23/32 -all",
       "mx_asns":[
-        719
+        8075
       ],
       "mx_countries":[
-        "FI"
-      ]
+        "US"
+      ],
+      "autodiscover":{
+        "autodiscover_cname":"autodiscover.outlook.com"
+      },
+      "dkim":{
+        "selector1":"selector1-vora-fi._domainkey.vorakommun.onmicrosoft.com",
+        "selector2":"selector2-vora-fi._domainkey.vorakommun.onmicrosoft.com"
+      }
     },
     "FI-976":{
       "bfs":"FI-976",
@@ -10318,8 +10437,8 @@
         "mail.akmene.lt"
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.41.24 +include:spf.protection.outlook.com -all",
-      "provider":"independent",
-      "reason":"MX (mail.akmene.lt) is self-hosted",
+      "provider":"baltic-isp",
+      "reason":"MX (mail.akmene.lt) hosted on Baltic ISP (LRTC (LT))",
       "osm_relation_id":1307304,
       "spf_resolved":"v=spf1 +mx +a +ip4:89.116.41.24 +include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -10397,8 +10516,8 @@
         "mail.anyksciai.lt"
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.41.25 +ip4:89.116.15.172 -all",
-      "provider":"independent",
-      "reason":"MX (mail.anyksciai.lt) is self-hosted",
+      "provider":"baltic-isp",
+      "reason":"MX (mail.anyksciai.lt) hosted on Baltic ISP (LRTC (LT))",
       "osm_relation_id":1002204,
       "mx_asns":[
         15419
@@ -10546,8 +10665,8 @@
         "mail.jonava.lt"
       ],
       "spf":"v=spf1 +a +mx +ip4:89.116.41.33 +include:spf.protection.outlook.com -all",
-      "provider":"independent",
-      "reason":"MX (mail.jonava.lt) is self-hosted",
+      "provider":"baltic-isp",
+      "reason":"MX (mail.jonava.lt) hosted on Baltic ISP (LRTC (LT))",
       "osm_relation_id":1447848,
       "spf_resolved":"v=spf1 +a +mx +ip4:89.116.41.33 +include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -10605,8 +10724,8 @@
         "mail.jurbarkas.lt"
       ],
       "spf":"v=spf1 +a +mx +ip4:89.116.41.9 +ip4:92.62.131.15 +ip4:89.116.15.132 -all",
-      "provider":"independent",
-      "reason":"MX (mail.jurbarkas.lt) is self-hosted",
+      "provider":"baltic-isp",
+      "reason":"MX (mail.jurbarkas.lt) hosted on Baltic ISP (LRTC (LT))",
       "osm_relation_id":1518458,
       "mx_asns":[
         15419
@@ -10733,8 +10852,8 @@
         "mail.kazluruda.lt"
       ],
       "spf":"v=spf1 include:spf.serveriai.lt ip4:195.182.81.34 ip4:195.182.86.72 -all",
-      "provider":"independent",
-      "reason":"MX (mail.kazluruda.lt) is self-hosted",
+      "provider":"baltic-isp",
+      "reason":"MX (mail.kazluruda.lt) hosted on Baltic ISP (Interneto Vizija (LT))",
       "osm_relation_id":974207,
       "spf_resolved":"v=spf1 include:spf.serveriai.lt ip4:195.182.81.34 ip4:195.182.86.72 -all v=spf1 ip4:31.14.176.0/22 ip4:62.77.152.0/21 ip4:79.98.24.0/21 ip4:80.208.224.0/21 ip4:80.209.224.0/20 ip4:89.40.0.0/20 ip4:89.47.160.0/21 ip4:94.176.232.0/21 ip4:109.235.64.0/21 ip4:176.223.128.0/20 ip4:185.5.52.0/22 ip4:185.69.52.0/22 ip4:185.81.164.0/22 ip4:194.135.80.0/20 ip4:195.181.240.0/21 ip4:212.24.96.0/20 ip4:212.237.232.0/22 -all",
       "mx_asns":[
@@ -10754,8 +10873,8 @@
         "mail.kedainiai.lt"
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.41.10 +ip4:89.116.15.130 +ip4:195.182.73.194 +include:spf.protection.outlook.com -all",
-      "provider":"independent",
-      "reason":"MX (mail.kedainiai.lt) is self-hosted",
+      "provider":"baltic-isp",
+      "reason":"MX (mail.kedainiai.lt) hosted on Baltic ISP (LRTC (LT))",
       "osm_relation_id":1518457,
       "spf_resolved":"v=spf1 +mx +a +ip4:89.116.41.10 +ip4:89.116.15.130 +ip4:195.182.73.194 +include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -10778,8 +10897,8 @@
         "mail.kelme.lt"
       ],
       "spf":"v=spf1 ip4:195.182.81.3 ip4:195.182.81.5 ip4:195.182.81.11 ip4:89.116.15.140 -all",
-      "provider":"independent",
-      "reason":"MX (mail.kelme.lt) is self-hosted",
+      "provider":"baltic-isp",
+      "reason":"MX (mail.kelme.lt) hosted on Baltic ISP (LRTC (LT))",
       "osm_relation_id":1307307,
       "mx_asns":[
         15419
@@ -10946,8 +11065,8 @@
         "mail.mazeikiai.lt"
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.41.6 +ip4:86.38.8.113 +ip4:89.116.15.183 +ip4:195.182.85.129 +ip4:195.182.85.139 -all",
-      "provider":"independent",
-      "reason":"MX (mail.mazeikiai.lt) is self-hosted",
+      "provider":"baltic-isp",
+      "reason":"MX (mail.mazeikiai.lt) hosted on Baltic ISP (LRTC (LT))",
       "osm_relation_id":1211023,
       "mx_asns":[
         15419
@@ -10994,8 +11113,8 @@
         "mail.neringa.lt"
       ],
       "spf":"v=spf1 +a +mx +ip4:89.116.41.11 +ip4:89.116.15.173 +ip4:86.38.8.114 -all",
-      "provider":"independent",
-      "reason":"MX (mail.neringa.lt) is self-hosted",
+      "provider":"baltic-isp",
+      "reason":"MX (mail.neringa.lt) hosted on Baltic ISP (LRTC (LT))",
       "osm_relation_id":1078733,
       "mx_asns":[
         15419
@@ -11014,8 +11133,8 @@
         "mail.pagegiai.lt"
       ],
       "spf":"v=spf1 +a +mx include:_spf.sender.hostex.lt -all",
-      "provider":"independent",
-      "reason":"MX (mail.pagegiai.lt) is self-hosted",
+      "provider":"baltic-isp",
+      "reason":"MX (mail.pagegiai.lt) hosted on Baltic ISP (Telia Lietuva)",
       "osm_relation_id":1002044,
       "spf_resolved":"v=spf1 +a +mx include:_spf.sender.hostex.lt -all v=spf1 +a:sender-spf.hostex.lt +a:pastas.hostex.lt +a:mailgw.hostex.lt +ip4:92.61.46.248 ?all",
       "mx_asns":[
@@ -11035,8 +11154,8 @@
         "mail.pakruojis.lt"
       ],
       "spf":"v=spf1 +a +mx +ip4:89.116.41.78 +ip4:89.116.15.181 -all",
-      "provider":"independent",
-      "reason":"MX (mail.pakruojis.lt) is self-hosted",
+      "provider":"baltic-isp",
+      "reason":"MX (mail.pakruojis.lt) hosted on Baltic ISP (LRTC (LT))",
       "osm_relation_id":1256234,
       "mx_asns":[
         15419
@@ -11163,8 +11282,8 @@
         "mail.prienai.lt"
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.15.136 +ip4:86.38.8.113 +include:_spf.google.com -all",
-      "provider":"independent",
-      "reason":"MX (mail.prienai.lt) is self-hosted",
+      "provider":"baltic-isp",
+      "reason":"MX (mail.prienai.lt) hosted on Baltic ISP (LRTC (LT))",
       "osm_relation_id":1312644,
       "spf_resolved":"v=spf1 +mx +a +ip4:89.116.15.136 +ip4:86.38.8.113 +include:_spf.google.com -all v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all",
       "mx_asns":[
@@ -11208,8 +11327,8 @@
         "mail.raseiniai.lt"
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.15.138 +ip4:86.38.8.113 -all",
-      "provider":"independent",
-      "reason":"MX (mail.raseiniai.lt) is self-hosted",
+      "provider":"baltic-isp",
+      "reason":"MX (mail.raseiniai.lt) hosted on Baltic ISP (LRTC (LT))",
       "osm_relation_id":1476170,
       "mx_asns":[
         15419
@@ -11228,8 +11347,8 @@
         "mail.rietavas.lt"
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.15.163 +ip4:86.38.8.113 -all",
-      "provider":"independent",
-      "reason":"MX (mail.rietavas.lt) is self-hosted",
+      "provider":"baltic-isp",
+      "reason":"MX (mail.rietavas.lt) hosted on Baltic ISP (LRTC (LT))",
       "osm_relation_id":1129075,
       "mx_asns":[
         15419
@@ -11329,16 +11448,16 @@
       "name":"Šiaulių rajono savivaldybė",
       "canton":"Šiaulių apskritis",
       "country":"LT",
-      "domain":"siauliu.lt",
+      "domain":"siauliuraj.lt",
       "mx":[
-        "_dc-mx.6a86cf300b9b.siauliu.lt"
+        "mail.siauliuraj.lt"
       ],
-      "spf":"v=spf1 ip4:213.226.189.239 ip4:213.226.189.240 +a +mx +ip4:213.226.189.0/24 ~all",
+      "spf":"v=spf1 +mx +a +ip4:89.116.15.150 +ip4:86.38.8.113 -all",
       "provider":"baltic-isp",
-      "reason":"MX (_dc-mx.6a86cf300b9b.siauliu.lt) hosted on Baltic ISP (Bite Lietuva)",
+      "reason":"MX (mail.siauliuraj.lt) hosted on Baltic ISP (LRTC (LT))",
       "osm_relation_id":1256236,
       "mx_asns":[
-        13194
+        15419
       ],
       "mx_countries":[
         "LT"
@@ -11355,8 +11474,8 @@
         "silale.hostingas.lt"
       ],
       "spf":"v=spf1 a mx ptr redirect=spf.serveriai.lt",
-      "provider":"independent",
-      "reason":"MX (mx-backup.serveriai.lt, silale.hostingas.lt) is self-hosted",
+      "provider":"baltic-isp",
+      "reason":"MX (mx-backup.serveriai.lt, silale.hostingas.lt) hosted on Baltic ISP (Interneto Vizija (LT))",
       "osm_relation_id":1518454,
       "spf_resolved":"v=spf1 a mx ptr redirect=spf.serveriai.lt v=spf1 ip4:31.14.176.0/22 ip4:62.77.152.0/21 ip4:79.98.24.0/21 ip4:80.208.224.0/21 ip4:80.209.224.0/20 ip4:89.40.0.0/20 ip4:89.47.160.0/21 ip4:94.176.232.0/21 ip4:109.235.64.0/21 ip4:176.223.128.0/20 ip4:185.5.52.0/22 ip4:185.69.52.0/22 ip4:185.81.164.0/22 ip4:194.135.80.0/20 ip4:195.181.240.0/21 ip4:212.24.96.0/20 ip4:212.237.232.0/22 -all",
       "mx_asns":[
@@ -11376,8 +11495,8 @@
         "mail.silute.lt"
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.15.153 +ip4:86.38.8.113 -all",
-      "provider":"independent",
-      "reason":"MX (mail.silute.lt) is self-hosted",
+      "provider":"baltic-isp",
+      "reason":"MX (mail.silute.lt) hosted on Baltic ISP (LRTC (LT))",
       "osm_relation_id":1203041,
       "mx_asns":[
         15419
@@ -11396,8 +11515,8 @@
         "mail.sirvintos.lt"
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.15.162 +ip4:86.38.8.113 +include:_spf.google.com -all",
-      "provider":"independent",
-      "reason":"MX (mail.sirvintos.lt) is self-hosted",
+      "provider":"baltic-isp",
+      "reason":"MX (mail.sirvintos.lt) hosted on Baltic ISP (LRTC (LT))",
       "osm_relation_id":1016308,
       "spf_resolved":"v=spf1 +mx +a +ip4:89.116.15.162 +ip4:86.38.8.113 +include:_spf.google.com -all v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all",
       "mx_asns":[
@@ -11417,8 +11536,8 @@
         "mail.skuodas.lt"
       ],
       "spf":"v=spf1 +a +mx +ip4:89.116.41.2 +ip4:89.116.15.165 -all",
-      "provider":"independent",
-      "reason":"MX (mail.skuodas.lt) is self-hosted",
+      "provider":"baltic-isp",
+      "reason":"MX (mail.skuodas.lt) hosted on Baltic ISP (LRTC (LT))",
       "osm_relation_id":1203042,
       "mx_asns":[
         15419
@@ -11437,8 +11556,8 @@
         "mail.svencionys.lt"
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.41.22 +ip4:89.116.15.170 -all",
-      "provider":"independent",
-      "reason":"MX (mail.svencionys.lt) is self-hosted",
+      "provider":"baltic-isp",
+      "reason":"MX (mail.svencionys.lt) hosted on Baltic ISP (LRTC (LT))",
       "osm_relation_id":967318,
       "mx_asns":[
         15419
@@ -11485,8 +11604,8 @@
         "mail.telsiai.lt"
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.15.180 +ip4:86.38.8.113 -all",
-      "provider":"independent",
-      "reason":"MX (mail.telsiai.lt) is self-hosted",
+      "provider":"baltic-isp",
+      "reason":"MX (mail.telsiai.lt) hosted on Baltic ISP (LRTC (LT))",
       "osm_relation_id":1360453,
       "mx_asns":[
         15419
@@ -11533,8 +11652,8 @@
         "mail.ukmerge.lt"
       ],
       "spf":"v=spf1 a mx ip4:195.182.87.3 ip4:195.182.87.11 ip4:195.182.87.5 ip4:89.116.15.129 ip4:89.116.15.228 ~all",
-      "provider":"independent",
-      "reason":"MX (mail.ukmerge.lt) is self-hosted",
+      "provider":"baltic-isp",
+      "reason":"MX (mail.ukmerge.lt) hosted on Baltic ISP (LRTC (LT))",
       "osm_relation_id":1027570,
       "mx_asns":[
         15419
@@ -11584,8 +11703,8 @@
         "mail.varena.lt"
       ],
       "spf":"v=spf1 +a +mx +ip4:89.116.15.129 +ip4:89.116.15.131 ~all",
-      "provider":"independent",
-      "reason":"MX (mail.varena.lt) is self-hosted",
+      "provider":"baltic-isp",
+      "reason":"MX (mail.varena.lt) hosted on Baltic ISP (LRTC (LT))",
       "osm_relation_id":1076929,
       "mx_asns":[
         15419
@@ -11680,8 +11799,8 @@
         "mx.serveriai.lt"
       ],
       "spf":"v=spf1 a mx ip4:195.182.88.160/28 ip4:89.116.15.0/24 include:cphostingas.telecentras.lt include:spf.serveriai.lt -all",
-      "provider":"independent",
-      "reason":"MX (mx.serveriai.lt) is self-hosted",
+      "provider":"baltic-isp",
+      "reason":"MX (mx.serveriai.lt) hosted on Baltic ISP (Interneto Vizija (LT))",
       "osm_relation_id":966362,
       "spf_resolved":"v=spf1 a mx ip4:195.182.88.160/28 ip4:89.116.15.0/24 include:cphostingas.telecentras.lt include:spf.serveriai.lt -all v=spf1 +mx +a +ip4:89.116.15.129 ~all v=spf1 ip4:31.14.176.0/22 ip4:62.77.152.0/21 ip4:79.98.24.0/21 ip4:80.208.224.0/21 ip4:80.209.224.0/20 ip4:89.40.0.0/20 ip4:89.47.160.0/21 ip4:94.176.232.0/21 ip4:109.235.64.0/21 ip4:176.223.128.0/20 ip4:185.5.52.0/22 ip4:185.69.52.0/22 ip4:185.81.164.0/22 ip4:194.135.80.0/20 ip4:195.181.240.0/21 ip4:212.24.96.0/20 ip4:212.237.232.0/22 -all",
       "mx_asns":[
@@ -11701,8 +11820,8 @@
         "zarasai.hostingas.lt"
       ],
       "spf":"v=spf1 mx redirect=spf.serveriai.lt -all",
-      "provider":"independent",
-      "reason":"MX (zarasai.hostingas.lt) is self-hosted",
+      "provider":"baltic-isp",
+      "reason":"MX (zarasai.hostingas.lt) hosted on Baltic ISP (Interneto Vizija (LT))",
       "osm_relation_id":966544,
       "spf_resolved":"v=spf1 mx redirect=spf.serveriai.lt -all v=spf1 ip4:31.14.176.0/22 ip4:62.77.152.0/21 ip4:79.98.24.0/21 ip4:80.208.224.0/21 ip4:80.209.224.0/20 ip4:89.40.0.0/20 ip4:89.47.160.0/21 ip4:94.176.232.0/21 ip4:109.235.64.0/21 ip4:176.223.128.0/20 ip4:185.5.52.0/22 ip4:185.69.52.0/22 ip4:185.81.164.0/22 ip4:194.135.80.0/20 ip4:195.181.240.0/21 ip4:212.24.96.0/20 ip4:212.237.232.0/22 -all",
       "mx_asns":[
@@ -11930,7 +12049,7 @@
       "name":"Valmieras novads",
       "canton":"Vidzemes plānošanas reģions",
       "country":"LV",
-      "domain":"valmiera.lv",
+      "domain":"valmierasnovads.lv",
       "mx":[
         "alt1.aspmx.l.google.com",
         "alt2.aspmx.l.google.com",
@@ -11938,11 +12057,11 @@
         "alt4.aspmx.l.google.com",
         "aspmx.l.google.com"
       ],
-      "spf":"v=spf1 include:_spf.mlsend.com ip4:213.21.210.8 ip4:13.80.21.191 ip4:78.28.242.87 include:_spf.google.com -all",
+      "spf":"v=spf1 include:_spf.mlsend.com ip4:213.21.210.8 ip4:13.80.21.191 ip4:78.28.242.87 ip4:78.28.242.24 include:_spf.google.com -all",
       "provider":"google",
       "reason":"MX record (alt1.aspmx.l.google.com, alt2.aspmx.l.google.com) matches Google",
       "osm_relation_id":14102184,
-      "spf_resolved":"v=spf1 include:_spf.mlsend.com ip4:213.21.210.8 ip4:13.80.21.191 ip4:78.28.242.87 include:_spf.google.com -all v=spf1 ip4:185.249.220.0/24 ip4:185.225.161.0/24 ~all v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all",
+      "spf_resolved":"v=spf1 include:_spf.mlsend.com ip4:213.21.210.8 ip4:13.80.21.191 ip4:78.28.242.87 ip4:78.28.242.24 include:_spf.google.com -all v=spf1 ip4:185.249.220.0/24 ip4:185.225.161.0/24 ~all v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all",
       "mx_asns":[
         15169
       ],
@@ -12010,8 +12129,8 @@
         "mx2.sigmanet.lv"
       ],
       "spf":"v=spf1 include:spf.protect.sigmanet.lv -all",
-      "provider":"independent",
-      "reason":"MX (mx.sigmanet.lv, mx2.sigmanet.lv) is self-hosted",
+      "provider":"baltic-isp",
+      "reason":"MX (mx.sigmanet.lv, mx2.sigmanet.lv) hosted on Baltic ISP (SigmaNet (LV))",
       "osm_relation_id":14102155,
       "spf_resolved":"v=spf1 include:spf.protect.sigmanet.lv -all v=spf1 ip4:92.240.66.0/24 ip4:92.240.65.0/24 ip4:92.240.72.0/24 ip4:92.240.80.54 ip4:92.240.80.58 ip4:92.240.80.57 ip4:92.240.80.53 ip4:92.240.80.63 ip4:92.240.80.64 ip4:92.240.80.69 ip4:92.240.80.68 include:spf2.protect.sigmanet.lv -all v=spf1 ip6:2a02:500:4500:b::1 ip6:2a02:500:4500:b::2 ip6:2a02:500:4500:b::3 ip6:2a02:500:4500:b::4 ip6:2a02:500:4500:b::11 ip6:2a02:500:4500:b::12 ip6:2a02:500:4500:b::21 ip6:2a02:500:4500:b::22 -all",
       "mx_asns":[
@@ -12026,15 +12145,15 @@
       "name":"Bauskas novads",
       "canton":"Zemgales plānošanas reģions",
       "country":"LV",
-      "domain":"bauska.lv",
+      "domain":"bauskasnovads.lv",
       "mx":[
-        "mail.bauska.lv"
+        "mail.linkit.lv"
       ],
-      "spf":"v=spf1 a mx ip4:81.198.190.20 include:spf.protection.outlook.com -all",
-      "provider":"independent",
-      "reason":"MX (mail.bauska.lv) is self-hosted",
+      "spf":"v=spf1 mx include:_spf.mlsend.com -all",
+      "provider":"baltic-isp",
+      "reason":"MX (mail.linkit.lv) hosted on Baltic ISP (LINKIT (LV))",
       "osm_relation_id":14102156,
-      "spf_resolved":"v=spf1 a mx ip4:81.198.190.20 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
+      "spf_resolved":"v=spf1 mx include:_spf.mlsend.com -all v=spf1 ip4:185.249.220.0/24 ip4:185.225.161.0/24 ~all",
       "mx_asns":[
         206111
       ],
@@ -12081,12 +12200,12 @@
         "mail2.ilva.lv"
       ],
       "spf":"v=spf1 +mx ip4:80.233.228.21 ip4:162.19.224.132 ~all",
-      "provider":"baltic-isp",
-      "reason":"MX (mail.dobele.lv, mail2.ilva.lv) hosted on Baltic ISP (TET (Lattelecom))",
+      "provider":"independent",
+      "reason":"MX (mail.dobele.lv, mail2.ilva.lv) is self-hosted",
       "osm_relation_id":14102159,
       "mx_asns":[
-        5518,
-        16276
+        16276,
+        47499
       ],
       "mx_countries":[
         "FR",
@@ -12182,8 +12301,8 @@
         "mail.iviks.lv"
       ],
       "spf":"v=spf1 a mx a:mail.iviks.lv ip4:85.15.236.0/23 ip4:85.15.208.0/23 -all",
-      "provider":"independent",
-      "reason":"MX (mail.iviks.lv) is self-hosted",
+      "provider":"baltic-isp",
+      "reason":"MX (mail.iviks.lv) hosted on Baltic ISP (Latvenergo/IVIKS (LV))",
       "osm_relation_id":14102164,
       "mx_asns":[
         29600
@@ -12271,8 +12390,8 @@
         "mx2.sigmanet.lv"
       ],
       "spf":"v=spf1 include:spf.protect.sigmanet.lv include:mail.ludza.lv -all",
-      "provider":"independent",
-      "reason":"MX (mx.sigmanet.lv, mx2.sigmanet.lv) is self-hosted",
+      "provider":"baltic-isp",
+      "reason":"MX (mx.sigmanet.lv, mx2.sigmanet.lv) hosted on Baltic ISP (SigmaNet (LV))",
       "osm_relation_id":14102168,
       "spf_resolved":"v=spf1 include:spf.protect.sigmanet.lv include:mail.ludza.lv -all v=spf1 ip4:92.240.66.0/24 ip4:92.240.65.0/24 ip4:92.240.72.0/24 ip4:92.240.80.54 ip4:92.240.80.58 ip4:92.240.80.57 ip4:92.240.80.53 ip4:92.240.80.63 ip4:92.240.80.64 ip4:92.240.80.69 ip4:92.240.80.68 include:spf2.protect.sigmanet.lv -all v=spf1 ip6:2a02:500:4500:b::1 ip6:2a02:500:4500:b::2 ip6:2a02:500:4500:b::3 ip6:2a02:500:4500:b::4 ip6:2a02:500:4500:b::11 ip6:2a02:500:4500:b::12 ip6:2a02:500:4500:b::21 ip6:2a02:500:4500:b::22 -all",
       "mx_asns":[
@@ -12408,8 +12527,8 @@
         "mx2.sigmanet.lv"
       ],
       "spf":"v=spf1 include:spf.protect.sigmanet.lv -all",
-      "provider":"independent",
-      "reason":"MX (mx.sigmanet.lv, mx2.sigmanet.lv) is self-hosted",
+      "provider":"baltic-isp",
+      "reason":"MX (mx.sigmanet.lv, mx2.sigmanet.lv) hosted on Baltic ISP (SigmaNet (LV))",
       "osm_relation_id":14102163,
       "spf_resolved":"v=spf1 include:spf.protect.sigmanet.lv -all v=spf1 ip4:92.240.66.0/24 ip4:92.240.65.0/24 ip4:92.240.72.0/24 ip4:92.240.80.54 ip4:92.240.80.58 ip4:92.240.80.57 ip4:92.240.80.53 ip4:92.240.80.63 ip4:92.240.80.64 ip4:92.240.80.69 ip4:92.240.80.68 include:spf2.protect.sigmanet.lv -all v=spf1 ip6:2a02:500:4500:b::1 ip6:2a02:500:4500:b::2 ip6:2a02:500:4500:b::3 ip6:2a02:500:4500:b::4 ip6:2a02:500:4500:b::11 ip6:2a02:500:4500:b::12 ip6:2a02:500:4500:b::21 ip6:2a02:500:4500:b::22 -all",
       "mx_asns":[
@@ -12458,8 +12577,8 @@
         "mx2.sigmanet.lv"
       ],
       "spf":"v=spf1 include:spf.protect.sigmanet.lv -all",
-      "provider":"independent",
-      "reason":"MX (mx.sigmanet.lv, mx2.sigmanet.lv) is self-hosted",
+      "provider":"baltic-isp",
+      "reason":"MX (mx.sigmanet.lv, mx2.sigmanet.lv) hosted on Baltic ISP (SigmaNet (LV))",
       "osm_relation_id":14102172,
       "spf_resolved":"v=spf1 include:spf.protect.sigmanet.lv -all v=spf1 ip4:92.240.66.0/24 ip4:92.240.65.0/24 ip4:92.240.72.0/24 ip4:92.240.80.54 ip4:92.240.80.58 ip4:92.240.80.57 ip4:92.240.80.53 ip4:92.240.80.63 ip4:92.240.80.64 ip4:92.240.80.69 ip4:92.240.80.68 include:spf2.protect.sigmanet.lv -all v=spf1 ip6:2a02:500:4500:b::1 ip6:2a02:500:4500:b::2 ip6:2a02:500:4500:b::3 ip6:2a02:500:4500:b::4 ip6:2a02:500:4500:b::11 ip6:2a02:500:4500:b::12 ip6:2a02:500:4500:b::21 ip6:2a02:500:4500:b::22 -all",
       "mx_asns":[
@@ -12524,10 +12643,11 @@
         "mx2.garmtech.com"
       ],
       "spf":"v=spf1 a mx a:webmail.garmtech.net a:web11.garmtech.net a:ns2.garmtech.com include:relay.mailchannels.net ~all",
-      "provider":"independent",
-      "reason":"MX (mail.saulkrasti.lv, mx2.garmtech.com) is self-hosted",
+      "provider":"microsoft",
+      "reason":"MX is garmtech gateway; DKIM signs via microsoft",
       "osm_relation_id":14102178,
       "spf_resolved":"v=spf1 a mx a:webmail.garmtech.net a:web11.garmtech.net a:ns2.garmtech.com include:relay.mailchannels.net ~all v=spf1 ip4:23.83.208.0/20 ip4:35.85.190.185/32 ~all",
+      "gateway":"garmtech",
       "mx_asns":[
         14061,
         43108
@@ -12625,8 +12745,8 @@
         "mail.tukums.lv"
       ],
       "spf":"v=spf1 ip4:91.135.81.2  -all",
-      "provider":"independent",
-      "reason":"MX (mail.tukums.lv) is self-hosted",
+      "provider":"baltic-isp",
+      "reason":"MX (mail.tukums.lv) hosted on Baltic ISP (Nano IT (LV))",
       "osm_relation_id":14102182,
       "mx_asns":[
         43513
@@ -12708,27 +12828,25 @@
       "name":"Ventspils novads",
       "canton":"Kurzemes plānošanas reģions",
       "country":"LV",
-      "domain":"ventspils.lv",
+      "domain":"ventspilsnd.lv",
       "mx":[
-        "d315568.a.ess.de.barracudanetworks.com",
-        "d315568.b.ess.de.barracudanetworks.com"
+        "mx4.advailo.com",
+        "zesq464cgkfo5jfawzmrtqubaxixci4gzvfbqcmyfcfodvr7cfya.mx-verification.google.com"
       ],
-      "spf":"v=spf1 a mx ip4:94.140.104.171 ip4:193.200.201.80 ip4:193.200.201.100 ip4:94.140.104.17 ip4:94.140.104.200 include:spf.mandrillapp.com include:spf.protection.outlook.com include:venta.lv ~all",
-      "provider":"microsoft",
-      "reason":"MX is barracuda gateway; SPF authorizes microsoft",
+      "spf":"v=spf1 mx include:spf.advailo.com ip4:94.100.1.0/24 ip4:80.232.255.42 ip4:193.200.201.134 -all",
+      "provider":"google",
+      "reason":"MX record (mx4.advailo.com, zesq464cgkfo5jfawzmrtqubaxixci4gzvfbqcmyfcfodvr7cfya.mx-verification.google.com) matches Google",
       "osm_relation_id":14102186,
-      "spf_resolved":"v=spf1 a mx ip4:94.140.104.171 ip4:193.200.201.80 ip4:193.200.201.100 ip4:94.140.104.17 ip4:94.140.104.200 include:spf.mandrillapp.com include:spf.protection.outlook.com include:venta.lv ~all v=spf1 ip4:198.2.128.0/24 ip4:198.2.132.0/22 ip4:198.2.136.0/23 ip4:198.2.145.0/24 ip4:198.2.186.0/23 ip4:205.201.131.128/25 ip4:205.201.134.128/25 ip4:205.201.136.0/23 ip4:205.201.139.0/24 ip4:198.2.177.0/24 ip4:198.2.178.0/23 ip4:198.2.180.0/24 ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 a mx ip4:193.105.155.0/25 ip6:2001:67c:2980::/48  include:_spf.google.com -all v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all",
-      "gateway":"barracuda",
+      "spf_resolved":"v=spf1 mx include:spf.advailo.com ip4:94.100.1.0/24 ip4:80.232.255.42 ip4:193.200.201.134 -all v=spf1 include:_spf.zone-mta.advailo.com include:amazonses.com ip4:16.16.6.141 -all v=spf1 ip4:94.100.1.0/24 ip4:16.16.6.141 -all v=spf1 ip4:199.255.192.0/22 ip4:199.127.232.0/22 ip4:54.240.0.0/18 ip4:69.169.224.0/20 ip4:23.249.208.0/20 ip4:23.251.224.0/19 ip4:76.223.176.0/20 ip4:54.240.64.0/18 ip4:76.223.128.0/19 ip4:216.221.160.0/19 ip4:206.55.144.0/20 ip4:24.110.64.0/18 -all",
+      "mx_cnames":{
+        "mx4.advailo.com":"tf-advailo-mail-nlb-41c9b95f1630203e.elb.eu-north-1.amazonaws.com"
+      },
       "mx_asns":[
         16509
       ],
       "mx_countries":[
         "US"
-      ],
-      "autodiscover":{
-        "autodiscover_cname":"mx.ventspils.lv",
-        "autodiscover_srv":"mx.ventspils.lv"
-      }
+      ]
     }
   }
 }

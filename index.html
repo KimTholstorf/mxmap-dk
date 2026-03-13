@@ -35,6 +35,7 @@
     white-space: nowrap;
   }
   .toggle-info:hover { background: rgba(255,255,255,0.25); color: #fff; }
+  .gateway-icon { background: none !important; border: none !important; }
 
   #info-bar, #stats-bar {
     background: #f8f9fb; border-bottom: 1px solid #e2e4e8; overflow: hidden; flex-shrink: 0;
@@ -204,9 +205,15 @@ const TIERS = {
 
 const FLAGS = { EE: '\u{1F1EA}\u{1F1EA}', LV: '\u{1F1F1}\u{1F1FB}', LT: '\u{1F1F1}\u{1F1F9}', FI: '\u{1F1EB}\u{1F1EE}' };
 
+const US_PROVIDERS = new Set(['Microsoft', 'Google', 'AWS']);
+function hasLocalGateway(m) {
+  return m.gateway && (m.mx_countries || []).includes(m.country) && US_PROVIDERS.has(m.classification.provider);
+}
+
 // --- State ---
 let dnsData = null;
 let geoLayer = null;
+let gatewayMarkers = L.layerGroup();
 let updateLegend = function () {};
 let activeCountries = new Set(['EE', 'LV', 'LT', 'FI']);
 let muniByOsm = {};   // "relation/12345" -> municipality
@@ -329,17 +336,19 @@ function buildStats(muniList) {
 
   function computeStats(list) {
     const t = list.length;
-    let us = 0, sameCountry = 0, otherEu = 0, unk = 0;
+    let us = 0, usLocalGw = 0, sameCountry = 0, otherEu = 0, unk = 0;
     const providers = {};
     const mxCountries = {};
     let mxUs = 0, mxLocal = 0;
     for (const m of list) {
       const p = m.classification.provider;
       providers[p] = (providers[p] || 0) + 1;
-      if (usProviders.has(p)) us++;
+      if (usProviders.has(p)) {
+        us++;
+        if (hasLocalGateway(m)) usLocalGw++;
+      }
       else if (p === 'Unknown') unk++;
       else {
-        // Check if MX is in the same country as the municipality
         const cc = m.mx_countries || [];
         if (cc.includes(m.country)) sameCountry++;
         else otherEu++;
@@ -351,12 +360,15 @@ function buildStats(muniList) {
       if (cc.includes('US')) mxUs++;
       if (cc.some(c => ['EE', 'LV', 'LT', 'FI'].includes(c))) mxLocal++;
     }
-    return { total: t, us, sameCountry, otherEu, unk, providers, mxCountries, mxUs, mxLocal };
+    return { total: t, us, usLocalGw, sameCountry, otherEu, unk, providers, mxCountries, mxUs, mxLocal };
   }
 
   function jurisdictionHtml(stats, max) {
     let h = '';
     h += barHtml('US-based', stats.us, max, '#E83838', stats.total);
+    if (stats.usLocalGw > 0) {
+      h += `<div style="margin:-2px 0 4px 100px;font-size:11px;color:#795548">\u{1F6E1}\uFE0F ${stats.usLocalGw} via local gateway</div>`;
+    }
     h += barHtml('Same country', stats.sameCountry, max, '#0E9680', stats.total);
     if (stats.otherEu > 0) h += barHtml('Other EU', stats.otherEu, max, '#2EDBA8', stats.total);
     if (stats.unk > 0) h += barHtml('Unknown', stats.unk, max, '#BFBFBF', stats.total);
@@ -487,12 +499,20 @@ function buildPopup(m) {
     }
   }
 
+  let gatewayNote = '';
+  if (hasLocalGateway(m)) {
+    gatewayNote = `<div style="margin-top:6px;padding:5px 8px;background:#fff3e0;border-left:3px solid #ff9800;font-size:11px;color:#795548">` +
+      `\u{1F6E1}\uFE0F Mail filtered locally via <strong>${escapeHtml(m.gateway)}</strong> (${m.country}), ` +
+      `but mailboxes hosted by <strong>${escapeHtml(cls.provider)}</strong> (US)</div>`;
+  }
+
   return `<div class="info-popup">` +
     `<strong>${flag} ${eName}</strong><br>` +
     `${eDomain} <span class="provider-badge" style="background:${color};color:${textColor}">${escapeHtml(cls.provider)}</span>` +
+    (hasLocalGateway(m) ? ' <span title="Local gateway" style="font-size:13px">\u{1F6E1}\uFE0F</span>' : '') +
     `<br><span style="font-size:11px;color:#888">${m.region ? escapeHtml(m.region) + ' \u00b7 ' : ''}${m.country}</span>` +
     (cls.reason ? `<div style="margin-top:4px;font-size:11px;color:#666;font-style:italic">${escapeHtml(cls.reason)}</div>` : '') +
-    mxSection + spfSection +
+    gatewayNote + mxSection + spfSection +
     `</div>`;
 }
 
@@ -525,6 +545,25 @@ function renderMap(topo) {
   }).addTo(map);
 }
 
+const shieldIcon = L.divIcon({
+  html: '<span style="font-size:11px;filter:drop-shadow(0 0 1px #fff)">\u{1F6E1}\uFE0F</span>',
+  className: 'gateway-icon',
+  iconSize: [14, 14],
+  iconAnchor: [7, 7],
+});
+
+function updateGatewayMarkers() {
+  gatewayMarkers.clearLayers();
+  if (!geoLayer) return;
+  geoLayer.eachLayer(function (layer) {
+    const m = matchFeature(layer.feature);
+    if (!m || !activeCountries.has(m.country) || !hasLocalGateway(m)) return;
+    const center = layer.getBounds().getCenter();
+    const marker = L.marker(center, { icon: shieldIcon, interactive: false });
+    gatewayMarkers.addLayer(marker);
+  });
+}
+
 function updateStyles() {
   if (!geoLayer) return;
   geoLayer.eachLayer(function (layer) {
@@ -536,6 +575,7 @@ function updateStyles() {
       layer.setStyle({ fillColor: color, fillOpacity: 0.75, color: '#666', weight: 0.5 });
     }
   });
+  updateGatewayMarkers();
 }
 
 // --- Country filters ---
@@ -635,21 +675,23 @@ async function loadData() {
 
   updateLegend = function () {
     const counts = {};
-    let total = 0;
+    let total = 0, gwCount = 0;
     for (const m of dnsData.municipalities) {
       if (!activeCountries.has(m.country)) continue;
       const p = m.classification.provider;
       counts[p] = (counts[p] || 0) + 1;
       total++;
+      if (hasLocalGateway(m)) gwCount++;
     }
     const content = document.querySelector('.legend-content');
     if (content) {
       content.innerHTML =
         '<strong>Email Provider</strong>' +
         legendGroupHtml('US-based', ['Microsoft', 'Google', 'AWS'], counts) +
-        legendGroupHtml('Baltic/EU', ['Telia', 'TET', 'Zone.eu', 'Elkdata', 'Local ISP', 'Self-hosted'], counts) +
+        legendGroupHtml('Nordic-Baltic/EU', ['Telia', 'TET', 'Zone.eu', 'Elkdata', 'Local ISP', 'Self-hosted'], counts) +
         legendGroupHtml('', ['Unknown'], counts) +
-        `<div style="margin-top:8px;font-size:11px;color:#999">${total} municipalities</div>`;
+        (gwCount > 0 ? `<div style="margin-top:8px;font-size:11px;color:#795548">\u{1F6E1}\uFE0F = local gateway, US mailbox (${gwCount})</div>` : '') +
+        `<div style="margin-top:4px;font-size:11px;color:#999">${total} municipalities</div>`;
     }
   };
   updateLegend();
@@ -659,6 +701,8 @@ async function loadData() {
 
   // Render map
   renderMap(topo);
+  gatewayMarkers.addTo(map);
+  updateGatewayMarkers();
 
   // Remove loading
   const loading = document.getElementById('map-loading');
