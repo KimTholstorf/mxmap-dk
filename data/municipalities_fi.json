@@ -1,0 +1,2466 @@
+[
+  {
+    "id": "FI-005",
+    "name": "Alajärvi",
+    "country": "FI",
+    "region": "Etelä-Pohjanmaa",
+    "domain": "alajarvi.fi",
+    "osm_relation_id": 2367272
+  },
+  {
+    "id": "FI-009",
+    "name": "Alavieska",
+    "country": "FI",
+    "region": "Pohjois-Pohjanmaa",
+    "domain": "alavieska.fi",
+    "osm_relation_id": 2525916
+  },
+  {
+    "id": "FI-010",
+    "name": "Alavus",
+    "country": "FI",
+    "region": "Etelä-Pohjanmaa",
+    "domain": "alavus.fi",
+    "osm_relation_id": 2641546
+  },
+  {
+    "id": "FI-016",
+    "name": "Asikkala",
+    "country": "FI",
+    "region": "Päijät-Häme",
+    "domain": "asikkala.fi",
+    "osm_relation_id": 2509098
+  },
+  {
+    "id": "FI-018",
+    "name": "Askola",
+    "country": "FI",
+    "region": "Uusimaa",
+    "domain": "askola.fi",
+    "osm_relation_id": 37202
+  },
+  {
+    "id": "FI-019",
+    "name": "Aura",
+    "country": "FI",
+    "region": "Varsinais-Suomi",
+    "domain": "aura.fi",
+    "osm_relation_id": 2380605
+  },
+  {
+    "id": "FI-020",
+    "name": "Akaa",
+    "country": "FI",
+    "region": "Pirkanmaa",
+    "domain": "akaa.fi",
+    "osm_relation_id": 2389014
+  },
+  {
+    "id": "FI-035",
+    "name": "Brändö",
+    "country": "FI",
+    "region": "Ahvenanmaa",
+    "domain": "brando.ax",
+    "osm_relation_id": 2375650
+  },
+  {
+    "id": "FI-043",
+    "name": "Eckerö",
+    "country": "FI",
+    "region": "Ahvenanmaa",
+    "domain": "eckero.ax",
+    "osm_relation_id": 2587484
+  },
+  {
+    "id": "FI-046",
+    "name": "Enonkoski",
+    "country": "FI",
+    "region": "Etelä-Savo",
+    "domain": "enonkoski.fi",
+    "osm_relation_id": 2522457
+  },
+  {
+    "id": "FI-047",
+    "name": "Enontekiö",
+    "country": "FI",
+    "region": "Lappi",
+    "domain": "enontekio.fi",
+    "osm_relation_id": 1724976
+  },
+  {
+    "id": "FI-049",
+    "name": "Espoo",
+    "country": "FI",
+    "region": "Uusimaa",
+    "domain": "espoo.fi",
+    "osm_relation_id": 36097
+  },
+  {
+    "id": "FI-050",
+    "name": "Eura",
+    "country": "FI",
+    "region": "Satakunta",
+    "domain": "eura.fi",
+    "osm_relation_id": 2378804
+  },
+  {
+    "id": "FI-051",
+    "name": "Eurajoki",
+    "country": "FI",
+    "region": "Satakunta",
+    "domain": "eurajoki.fi",
+    "osm_relation_id": 2506773
+  },
+  {
+    "id": "FI-052",
+    "name": "Evijärvi",
+    "country": "FI",
+    "region": "Etelä-Pohjanmaa",
+    "domain": "evijarvi.fi",
+    "osm_relation_id": 1855917
+  },
+  {
+    "id": "FI-060",
+    "name": "Finström",
+    "country": "FI",
+    "region": "Ahvenanmaa",
+    "domain": "finstrom.ax",
+    "osm_relation_id": 2587482
+  },
+  {
+    "id": "FI-061",
+    "name": "Forssa",
+    "country": "FI",
+    "region": "Kanta-Häme",
+    "domain": "forssa.fi",
+    "osm_relation_id": 2387804
+  },
+  {
+    "id": "FI-062",
+    "name": "Föglö",
+    "country": "FI",
+    "region": "Ahvenanmaa",
+    "domain": "foglo.ax",
+    "osm_relation_id": 2587475
+  },
+  {
+    "id": "FI-065",
+    "name": "Geta",
+    "country": "FI",
+    "region": "Ahvenanmaa",
+    "domain": "geta.ax",
+    "osm_relation_id": 2587476
+  },
+  {
+    "id": "FI-069",
+    "name": "Haapajärvi",
+    "country": "FI",
+    "region": "Pohjois-Pohjanmaa",
+    "domain": "haapajarvi.fi",
+    "osm_relation_id": 2525917
+  },
+  {
+    "id": "FI-071",
+    "name": "Haapavesi",
+    "country": "FI",
+    "region": "Pohjois-Pohjanmaa",
+    "domain": "haapavesi.fi",
+    "osm_relation_id": 2525918
+  },
+  {
+    "id": "FI-072",
+    "name": "Hailuoto",
+    "country": "FI",
+    "region": "Pohjois-Pohjanmaa",
+    "domain": "hailuoto.fi",
+    "osm_relation_id": 2525811
+  },
+  {
+    "id": "FI-074",
+    "name": "Halsua",
+    "country": "FI",
+    "region": "Keski-Pohjanmaa",
+    "domain": "halsua.fi",
+    "osm_relation_id": 2523786
+  },
+  {
+    "id": "FI-075",
+    "name": "Hamina",
+    "country": "FI",
+    "region": "Kymenlaakso",
+    "domain": "hamina.fi",
+    "osm_relation_id": 2502574
+  },
+  {
+    "id": "FI-076",
+    "name": "Hammarland",
+    "country": "FI",
+    "region": "Ahvenanmaa",
+    "domain": "hammarland.ax",
+    "osm_relation_id": 2587483
+  },
+  {
+    "id": "FI-077",
+    "name": "Hankasalmi",
+    "country": "FI",
+    "region": "Keski-Suomi",
+    "domain": "hankasalmi.fi",
+    "osm_relation_id": 1216480
+  },
+  {
+    "id": "FI-078",
+    "name": "Hanko",
+    "country": "FI",
+    "region": "Uusimaa",
+    "domain": "hanko.fi",
+    "osm_relation_id": 38033
+  },
+  {
+    "id": "FI-079",
+    "name": "Harjavalta",
+    "country": "FI",
+    "region": "Satakunta",
+    "domain": "harjavalta.fi",
+    "osm_relation_id": 2506774
+  },
+  {
+    "id": "FI-081",
+    "name": "Hartola",
+    "country": "FI",
+    "region": "Päijät-Häme",
+    "domain": "hartola.fi",
+    "osm_relation_id": 1703044
+  },
+  {
+    "id": "FI-082",
+    "name": "Hattula",
+    "country": "FI",
+    "region": "Kanta-Häme",
+    "domain": "hattula.fi",
+    "osm_relation_id": 2390003
+  },
+  {
+    "id": "FI-086",
+    "name": "Hausjärvi",
+    "country": "FI",
+    "region": "Kanta-Häme",
+    "domain": "hausjarvi.fi",
+    "osm_relation_id": 37062
+  },
+  {
+    "id": "FI-090",
+    "name": "Heinävesi",
+    "country": "FI",
+    "region": "Pohjois-Karjala",
+    "domain": "heinavesi.fi",
+    "osm_relation_id": 2522458
+  },
+  {
+    "id": "FI-091",
+    "name": "Helsinki",
+    "country": "FI",
+    "region": "Uusimaa",
+    "domain": "hel.fi",
+    "osm_relation_id": 34914
+  },
+  {
+    "id": "FI-092",
+    "name": "Vantaa",
+    "country": "FI",
+    "region": "Uusimaa",
+    "domain": "vantaa.fi",
+    "osm_relation_id": 34920
+  },
+  {
+    "id": "FI-097",
+    "name": "Hirvensalmi",
+    "country": "FI",
+    "region": "Etelä-Savo",
+    "domain": "hirvensalmi.fi",
+    "osm_relation_id": 2519797
+  },
+  {
+    "id": "FI-098",
+    "name": "Hollola",
+    "country": "FI",
+    "region": "Päijät-Häme",
+    "domain": "hollola.fi",
+    "osm_relation_id": 37186
+  },
+  {
+    "id": "FI-102",
+    "name": "Huittinen",
+    "country": "FI",
+    "region": "Satakunta",
+    "domain": "huittinen.fi",
+    "osm_relation_id": 2385387
+  },
+  {
+    "id": "FI-103",
+    "name": "Humppila",
+    "country": "FI",
+    "region": "Kanta-Häme",
+    "domain": "humppila.fi",
+    "osm_relation_id": 2387805
+  },
+  {
+    "id": "FI-105",
+    "name": "Hyrynsalmi",
+    "country": "FI",
+    "region": "Kainuu",
+    "domain": "hyrynsalmi.fi",
+    "osm_relation_id": 2525692
+  },
+  {
+    "id": "FI-106",
+    "name": "Hyvinkää",
+    "country": "FI",
+    "region": "Uusimaa",
+    "domain": "hyvinkaa.fi",
+    "osm_relation_id": 36101
+  },
+  {
+    "id": "FI-108",
+    "name": "Hämeenkyrö",
+    "country": "FI",
+    "region": "Pirkanmaa",
+    "domain": "hameenkyro.fi",
+    "osm_relation_id": 1666766
+  },
+  {
+    "id": "FI-109",
+    "name": "Hämeenlinna",
+    "country": "FI",
+    "region": "Kanta-Häme",
+    "domain": "hameenlinna.fi",
+    "osm_relation_id": 2388843
+  },
+  {
+    "id": "FI-111",
+    "name": "Heinola",
+    "country": "FI",
+    "region": "Päijät-Häme",
+    "domain": "heinola.fi",
+    "osm_relation_id": 2509099
+  },
+  {
+    "id": "FI-139",
+    "name": "Ii",
+    "country": "FI",
+    "region": "Pohjois-Pohjanmaa",
+    "domain": "ii.fi",
+    "osm_relation_id": 2525740
+  },
+  {
+    "id": "FI-140",
+    "name": "Iisalmi",
+    "country": "FI",
+    "region": "Pohjois-Savo",
+    "domain": "iisalmi.fi",
+    "osm_relation_id": 2522178
+  },
+  {
+    "id": "FI-142",
+    "name": "Iitti",
+    "country": "FI",
+    "region": "Päijät-Häme",
+    "domain": "iitti.fi",
+    "osm_relation_id": 2473559
+  },
+  {
+    "id": "FI-143",
+    "name": "Ikaalinen",
+    "country": "FI",
+    "region": "Pirkanmaa",
+    "domain": "ikaalinen.fi",
+    "osm_relation_id": 2524087
+  },
+  {
+    "id": "FI-145",
+    "name": "Ilmajoki",
+    "country": "FI",
+    "region": "Etelä-Pohjanmaa",
+    "domain": "ilmajoki.fi",
+    "osm_relation_id": 2269241
+  },
+  {
+    "id": "FI-146",
+    "name": "Ilomantsi",
+    "country": "FI",
+    "region": "Pohjois-Karjala",
+    "domain": "ilomantsi.fi",
+    "osm_relation_id": 2521758
+  },
+  {
+    "id": "FI-148",
+    "name": "Inari",
+    "country": "FI",
+    "region": "Lappi",
+    "domain": "inari.fi",
+    "osm_relation_id": 1724821
+  },
+  {
+    "id": "FI-149",
+    "name": "Inkoo",
+    "country": "FI",
+    "region": "Uusimaa",
+    "domain": "inkoo.fi",
+    "osm_relation_id": 36103
+  },
+  {
+    "id": "FI-151",
+    "name": "Isojoki",
+    "country": "FI",
+    "region": "Etelä-Pohjanmaa",
+    "domain": "isojoki.fi",
+    "osm_relation_id": 2523700
+  },
+  {
+    "id": "FI-152",
+    "name": "Isokyrö",
+    "country": "FI",
+    "region": "Etelä-Pohjanmaa",
+    "domain": "isokyro.fi",
+    "osm_relation_id": 2208657
+  },
+  {
+    "id": "FI-153",
+    "name": "Imatra",
+    "country": "FI",
+    "region": "Etelä-Karjala",
+    "domain": "imatra.fi",
+    "osm_relation_id": 2259189
+  },
+  {
+    "id": "FI-165",
+    "name": "Janakkala",
+    "country": "FI",
+    "region": "Kanta-Häme",
+    "domain": "janakkala.fi",
+    "osm_relation_id": 37087
+  },
+  {
+    "id": "FI-167",
+    "name": "Joensuu",
+    "country": "FI",
+    "region": "Pohjois-Karjala",
+    "domain": "joensuu.fi",
+    "osm_relation_id": 2521759
+  },
+  {
+    "id": "FI-169",
+    "name": "Jokioinen",
+    "country": "FI",
+    "region": "Kanta-Häme",
+    "domain": "jokioinen.fi",
+    "osm_relation_id": 2510177
+  },
+  {
+    "id": "FI-170",
+    "name": "Jomala",
+    "country": "FI",
+    "region": "Ahvenanmaa",
+    "domain": "jomala.ax",
+    "osm_relation_id": 2297664
+  },
+  {
+    "id": "FI-171",
+    "name": "Joroinen",
+    "country": "FI",
+    "region": "Pohjois-Savo",
+    "domain": "joroinen.fi",
+    "osm_relation_id": 2522459
+  },
+  {
+    "id": "FI-172",
+    "name": "Joutsa",
+    "country": "FI",
+    "region": "Keski-Suomi",
+    "domain": "joutsa.fi",
+    "osm_relation_id": 1703043
+  },
+  {
+    "id": "FI-176",
+    "name": "Juuka",
+    "country": "FI",
+    "region": "Pohjois-Karjala",
+    "domain": "juuka.fi",
+    "osm_relation_id": 2521589
+  },
+  {
+    "id": "FI-177",
+    "name": "Juupajoki",
+    "country": "FI",
+    "region": "Pirkanmaa",
+    "domain": "juupajoki.fi",
+    "osm_relation_id": 2371980
+  },
+  {
+    "id": "FI-178",
+    "name": "Juva",
+    "country": "FI",
+    "region": "Etelä-Savo",
+    "domain": "juva.fi",
+    "osm_relation_id": 2522460
+  },
+  {
+    "id": "FI-179",
+    "name": "Jyväskylä",
+    "country": "FI",
+    "region": "Keski-Suomi",
+    "domain": "jyvaskyla.fi",
+    "osm_relation_id": 569407
+  },
+  {
+    "id": "FI-181",
+    "name": "Jämijärvi",
+    "country": "FI",
+    "region": "Satakunta",
+    "domain": "jamijarvi.fi",
+    "osm_relation_id": 2506777
+  },
+  {
+    "id": "FI-182",
+    "name": "Jämsä",
+    "country": "FI",
+    "region": "Keski-Suomi",
+    "domain": "jamsa.fi",
+    "osm_relation_id": 1518903
+  },
+  {
+    "id": "FI-186",
+    "name": "Järvenpää",
+    "country": "FI",
+    "region": "Uusimaa",
+    "domain": "jarvenpaa.fi",
+    "osm_relation_id": 36107
+  },
+  {
+    "id": "FI-202",
+    "name": "Kaarina",
+    "country": "FI",
+    "region": "Varsinais-Suomi",
+    "domain": "kaarina.fi",
+    "osm_relation_id": 2506378
+  },
+  {
+    "id": "FI-204",
+    "name": "Kaavi",
+    "country": "FI",
+    "region": "Pohjois-Savo",
+    "domain": "kaavi.fi",
+    "osm_relation_id": 2522183
+  },
+  {
+    "id": "FI-205",
+    "name": "Kajaani",
+    "country": "FI",
+    "region": "Kainuu",
+    "domain": "kajaani.fi",
+    "osm_relation_id": 2525693
+  },
+  {
+    "id": "FI-208",
+    "name": "Kalajoki",
+    "country": "FI",
+    "region": "Pohjois-Pohjanmaa",
+    "domain": "kalajoki.fi",
+    "osm_relation_id": 2525919
+  },
+  {
+    "id": "FI-211",
+    "name": "Kangasala",
+    "country": "FI",
+    "region": "Pirkanmaa",
+    "domain": "kangasala.fi",
+    "osm_relation_id": 1700625
+  },
+  {
+    "id": "FI-213",
+    "name": "Kangasniemi",
+    "country": "FI",
+    "region": "Etelä-Savo",
+    "domain": "kangasniemi.fi",
+    "osm_relation_id": 2519794
+  },
+  {
+    "id": "FI-214",
+    "name": "Kankaanpää",
+    "country": "FI",
+    "region": "Satakunta",
+    "domain": "kankaanpaa.fi",
+    "osm_relation_id": 2506778
+  },
+  {
+    "id": "FI-216",
+    "name": "Kannonkoski",
+    "country": "FI",
+    "region": "Keski-Suomi",
+    "domain": "kannonkoski.fi",
+    "osm_relation_id": 1707308
+  },
+  {
+    "id": "FI-217",
+    "name": "Kannus",
+    "country": "FI",
+    "region": "Keski-Pohjanmaa",
+    "domain": "kannus.fi",
+    "osm_relation_id": 2523787
+  },
+  {
+    "id": "FI-218",
+    "name": "Karijoki",
+    "country": "FI",
+    "region": "Etelä-Pohjanmaa",
+    "domain": "karijoki.fi",
+    "osm_relation_id": 2365310
+  },
+  {
+    "id": "FI-224",
+    "name": "Karkkila",
+    "country": "FI",
+    "region": "Uusimaa",
+    "domain": "karkkila.fi",
+    "osm_relation_id": 37071
+  },
+  {
+    "id": "FI-226",
+    "name": "Karstula",
+    "country": "FI",
+    "region": "Keski-Suomi",
+    "domain": "karstula.fi",
+    "osm_relation_id": 1702333
+  },
+  {
+    "id": "FI-230",
+    "name": "Karvia",
+    "country": "FI",
+    "region": "Satakunta",
+    "domain": "karvia.fi",
+    "osm_relation_id": 2354312
+  },
+  {
+    "id": "FI-231",
+    "name": "Kaskinen",
+    "country": "FI",
+    "region": "Pohjanmaa",
+    "domain": "kaskinen.fi",
+    "osm_relation_id": 2366153
+  },
+  {
+    "id": "FI-232",
+    "name": "Kauhajoki",
+    "country": "FI",
+    "region": "Etelä-Pohjanmaa",
+    "domain": "kauhajoki.fi",
+    "osm_relation_id": 2316286
+  },
+  {
+    "id": "FI-233",
+    "name": "Kauhava",
+    "country": "FI",
+    "region": "Etelä-Pohjanmaa",
+    "domain": "kauhava.fi",
+    "osm_relation_id": 1855919
+  },
+  {
+    "id": "FI-235",
+    "name": "Kauniainen",
+    "country": "FI",
+    "region": "Uusimaa",
+    "domain": "kauniainen.fi",
+    "osm_relation_id": 37224
+  },
+  {
+    "id": "FI-236",
+    "name": "Kaustinen",
+    "country": "FI",
+    "region": "Keski-Pohjanmaa",
+    "domain": "kaustinen.fi",
+    "osm_relation_id": 2523788
+  },
+  {
+    "id": "FI-239",
+    "name": "Keitele",
+    "country": "FI",
+    "region": "Pohjois-Savo",
+    "domain": "keitele.fi",
+    "osm_relation_id": 1723579
+  },
+  {
+    "id": "FI-240",
+    "name": "Kemi",
+    "country": "FI",
+    "region": "Lappi",
+    "domain": "kemi.fi",
+    "osm_relation_id": 2527259
+  },
+  {
+    "id": "FI-241",
+    "name": "Keminmaa",
+    "country": "FI",
+    "region": "Lappi",
+    "domain": "keminmaa.fi",
+    "osm_relation_id": 2528471
+  },
+  {
+    "id": "FI-244",
+    "name": "Kempele",
+    "country": "FI",
+    "region": "Pohjois-Pohjanmaa",
+    "domain": "kempele.fi",
+    "osm_relation_id": 2513124
+  },
+  {
+    "id": "FI-245",
+    "name": "Kerava",
+    "country": "FI",
+    "region": "Uusimaa",
+    "domain": "kerava.fi",
+    "osm_relation_id": 35157
+  },
+  {
+    "id": "FI-249",
+    "name": "Keuruu",
+    "country": "FI",
+    "region": "Keski-Suomi",
+    "domain": "keuruu.fi",
+    "osm_relation_id": 1701739
+  },
+  {
+    "id": "FI-250",
+    "name": "Kihniö",
+    "country": "FI",
+    "region": "Pirkanmaa",
+    "domain": "kihnio.fi",
+    "osm_relation_id": 2270668
+  },
+  {
+    "id": "FI-256",
+    "name": "Kinnula",
+    "country": "FI",
+    "region": "Keski-Suomi",
+    "domain": "kinnula.fi",
+    "osm_relation_id": 2422933
+  },
+  {
+    "id": "FI-257",
+    "name": "Kirkkonummi",
+    "country": "FI",
+    "region": "Uusimaa",
+    "domain": "kirkkonummi.fi",
+    "osm_relation_id": 36099
+  },
+  {
+    "id": "FI-260",
+    "name": "Kitee",
+    "country": "FI",
+    "region": "Pohjois-Karjala",
+    "domain": "kitee.fi",
+    "osm_relation_id": 2654556
+  },
+  {
+    "id": "FI-261",
+    "name": "Kittilä",
+    "country": "FI",
+    "region": "Lappi",
+    "domain": "kittila.fi",
+    "osm_relation_id": 2266938
+  },
+  {
+    "id": "FI-263",
+    "name": "Kiuruvesi",
+    "country": "FI",
+    "region": "Pohjois-Savo",
+    "domain": "kiuruvesi.fi",
+    "osm_relation_id": 2522179
+  },
+  {
+    "id": "FI-265",
+    "name": "Kivijärvi",
+    "country": "FI",
+    "region": "Keski-Suomi",
+    "domain": "kivijarvi.fi",
+    "osm_relation_id": 2416995
+  },
+  {
+    "id": "FI-271",
+    "name": "Kokemäki",
+    "country": "FI",
+    "region": "Satakunta",
+    "domain": "kokemaki.fi",
+    "osm_relation_id": 2508074
+  },
+  {
+    "id": "FI-272",
+    "name": "Kokkola",
+    "country": "FI",
+    "region": "Keski-Pohjanmaa",
+    "domain": "kokkola.fi",
+    "osm_relation_id": 1855920
+  },
+  {
+    "id": "FI-273",
+    "name": "Kolari",
+    "country": "FI",
+    "region": "Lappi",
+    "domain": "kolari.fi",
+    "osm_relation_id": 2527260
+  },
+  {
+    "id": "FI-275",
+    "name": "Konnevesi",
+    "country": "FI",
+    "region": "Keski-Suomi",
+    "domain": "konnevesi.fi",
+    "osm_relation_id": 1709291
+  },
+  {
+    "id": "FI-276",
+    "name": "Kontiolahti",
+    "country": "FI",
+    "region": "Pohjois-Karjala",
+    "domain": "kontiolahti.fi",
+    "osm_relation_id": 2521760
+  },
+  {
+    "id": "FI-280",
+    "name": "Korsnäs",
+    "country": "FI",
+    "region": "Pohjanmaa",
+    "domain": "korsnas.fi",
+    "osm_relation_id": 2362421
+  },
+  {
+    "id": "FI-284",
+    "name": "Koski Tl",
+    "country": "FI",
+    "region": "Varsinais-Suomi",
+    "domain": "koski-tl.fi",
+    "osm_relation_id": 2506379
+  },
+  {
+    "id": "FI-285",
+    "name": "Kotka",
+    "country": "FI",
+    "region": "Kymenlaakso",
+    "domain": "kotka.fi",
+    "osm_relation_id": 2485457
+  },
+  {
+    "id": "FI-286",
+    "name": "Kouvola",
+    "country": "FI",
+    "region": "Kymenlaakso",
+    "domain": "kouvola.fi",
+    "osm_relation_id": 2472594
+  },
+  {
+    "id": "FI-287",
+    "name": "Kristiinankaupunki",
+    "country": "FI",
+    "region": "Pohjanmaa",
+    "domain": "kristiinankaupunki.fi",
+    "osm_relation_id": 2365311
+  },
+  {
+    "id": "FI-288",
+    "name": "Kruunupyy",
+    "country": "FI",
+    "region": "Pohjanmaa",
+    "domain": "kruunupyy.fi",
+    "osm_relation_id": 1855921
+  },
+  {
+    "id": "FI-290",
+    "name": "Kuhmo",
+    "country": "FI",
+    "region": "Kainuu",
+    "domain": "kuhmo.fi",
+    "osm_relation_id": 2525694
+  },
+  {
+    "id": "FI-291",
+    "name": "Kuhmoinen",
+    "country": "FI",
+    "region": "Pirkanmaa",
+    "domain": "kuhmoinen.fi",
+    "osm_relation_id": 1704307
+  },
+  {
+    "id": "FI-295",
+    "name": "Kumlinge",
+    "country": "FI",
+    "region": "Ahvenanmaa",
+    "domain": "kumlinge.ax",
+    "osm_relation_id": 2375653
+  },
+  {
+    "id": "FI-297",
+    "name": "Kuopio",
+    "country": "FI",
+    "region": "Pohjois-Savo",
+    "domain": "kuopio.fi",
+    "osm_relation_id": 919417
+  },
+  {
+    "id": "FI-300",
+    "name": "Kuortane",
+    "country": "FI",
+    "region": "Etelä-Pohjanmaa",
+    "domain": "kuortane.fi",
+    "osm_relation_id": 2366532
+  },
+  {
+    "id": "FI-301",
+    "name": "Kurikka",
+    "country": "FI",
+    "region": "Etelä-Pohjanmaa",
+    "domain": "kurikka.fi",
+    "osm_relation_id": 2269242
+  },
+  {
+    "id": "FI-304",
+    "name": "Kustavi",
+    "country": "FI",
+    "region": "Varsinais-Suomi",
+    "domain": "kustavi.fi",
+    "osm_relation_id": 2375715
+  },
+  {
+    "id": "FI-305",
+    "name": "Kuusamo",
+    "country": "FI",
+    "region": "Pohjois-Pohjanmaa",
+    "domain": "kuusamo.fi",
+    "osm_relation_id": 2525741
+  },
+  {
+    "id": "FI-309",
+    "name": "Outokumpu",
+    "country": "FI",
+    "region": "Pohjois-Karjala",
+    "domain": "outokumpu.fi",
+    "osm_relation_id": 2521594
+  },
+  {
+    "id": "FI-312",
+    "name": "Kyyjärvi",
+    "country": "FI",
+    "region": "Keski-Suomi",
+    "domain": "kyyjarvi.fi",
+    "osm_relation_id": 1702328
+  },
+  {
+    "id": "FI-316",
+    "name": "Kärkölä",
+    "country": "FI",
+    "region": "Päijät-Häme",
+    "domain": "karkola.fi",
+    "osm_relation_id": 37090
+  },
+  {
+    "id": "FI-317",
+    "name": "Kärsämäki",
+    "country": "FI",
+    "region": "Pohjois-Pohjanmaa",
+    "domain": "karsamaki.fi",
+    "osm_relation_id": 2525920
+  },
+  {
+    "id": "FI-318",
+    "name": "Kökar",
+    "country": "FI",
+    "region": "Ahvenanmaa",
+    "domain": "kokar.ax",
+    "osm_relation_id": 2375169
+  },
+  {
+    "id": "FI-320",
+    "name": "Kemijärvi",
+    "country": "FI",
+    "region": "Lappi",
+    "domain": "kemijarvi.fi",
+    "osm_relation_id": 2528662
+  },
+  {
+    "id": "FI-322",
+    "name": "Kemiönsaari",
+    "country": "FI",
+    "region": "Varsinais-Suomi",
+    "domain": "kemionsaari.fi",
+    "osm_relation_id": 2373192
+  },
+  {
+    "id": "FI-398",
+    "name": "Lahti",
+    "country": "FI",
+    "region": "Päijät-Häme",
+    "domain": "lahti.fi",
+    "osm_relation_id": 345901
+  },
+  {
+    "id": "FI-399",
+    "name": "Laihia",
+    "country": "FI",
+    "region": "Pohjanmaa",
+    "domain": "laihia.fi",
+    "osm_relation_id": 2194232
+  },
+  {
+    "id": "FI-400",
+    "name": "Laitila",
+    "country": "FI",
+    "region": "Varsinais-Suomi",
+    "domain": "laitila.fi",
+    "osm_relation_id": 2378069
+  },
+  {
+    "id": "FI-402",
+    "name": "Lapinlahti",
+    "country": "FI",
+    "region": "Pohjois-Savo",
+    "domain": "lapinlahti.fi",
+    "osm_relation_id": 2522180
+  },
+  {
+    "id": "FI-403",
+    "name": "Lappajärvi",
+    "country": "FI",
+    "region": "Etelä-Pohjanmaa",
+    "domain": "lappajarvi.fi",
+    "osm_relation_id": 2213830
+  },
+  {
+    "id": "FI-405",
+    "name": "Lappeenranta",
+    "country": "FI",
+    "region": "Etelä-Karjala",
+    "domain": "lappeenranta.fi",
+    "osm_relation_id": 2273016
+  },
+  {
+    "id": "FI-407",
+    "name": "Lapinjärvi",
+    "country": "FI",
+    "region": "Uusimaa",
+    "domain": "lapinjarvi.fi",
+    "osm_relation_id": 2473508
+  },
+  {
+    "id": "FI-408",
+    "name": "Lapua",
+    "country": "FI",
+    "region": "Etelä-Pohjanmaa",
+    "domain": "lapua.fi",
+    "osm_relation_id": 2361474
+  },
+  {
+    "id": "FI-410",
+    "name": "Laukaa",
+    "country": "FI",
+    "region": "Keski-Suomi",
+    "domain": "laukaa.fi",
+    "osm_relation_id": 569417
+  },
+  {
+    "id": "FI-416",
+    "name": "Lemi",
+    "country": "FI",
+    "region": "Etelä-Karjala",
+    "domain": "lemi.fi",
+    "osm_relation_id": 2502702
+  },
+  {
+    "id": "FI-417",
+    "name": "Lemland",
+    "country": "FI",
+    "region": "Ahvenanmaa",
+    "domain": "lemland.ax",
+    "osm_relation_id": 2587481
+  },
+  {
+    "id": "FI-418",
+    "name": "Lempäälä",
+    "country": "FI",
+    "region": "Pirkanmaa",
+    "domain": "lempaala.fi",
+    "osm_relation_id": 1700646
+  },
+  {
+    "id": "FI-420",
+    "name": "Leppävirta",
+    "country": "FI",
+    "region": "Pohjois-Savo",
+    "domain": "leppavirta.fi",
+    "osm_relation_id": 2521952
+  },
+  {
+    "id": "FI-421",
+    "name": "Lestijärvi",
+    "country": "FI",
+    "region": "Keski-Pohjanmaa",
+    "domain": "lestijarvi.fi",
+    "osm_relation_id": 2424504
+  },
+  {
+    "id": "FI-422",
+    "name": "Lieksa",
+    "country": "FI",
+    "region": "Pohjois-Karjala",
+    "domain": "lieksa.fi",
+    "osm_relation_id": 2521761
+  },
+  {
+    "id": "FI-423",
+    "name": "Lieto",
+    "country": "FI",
+    "region": "Varsinais-Suomi",
+    "domain": "lieto.fi",
+    "osm_relation_id": 4446204
+  },
+  {
+    "id": "FI-425",
+    "name": "Liminka",
+    "country": "FI",
+    "region": "Pohjois-Pohjanmaa",
+    "domain": "liminka.fi",
+    "osm_relation_id": 2525813
+  },
+  {
+    "id": "FI-426",
+    "name": "Liperi",
+    "country": "FI",
+    "region": "Pohjois-Karjala",
+    "domain": "liperi.fi",
+    "osm_relation_id": 2521592
+  },
+  {
+    "id": "FI-430",
+    "name": "Loimaa",
+    "country": "FI",
+    "region": "Varsinais-Suomi",
+    "domain": "loimaa.fi",
+    "osm_relation_id": 2385027
+  },
+  {
+    "id": "FI-433",
+    "name": "Loppi",
+    "country": "FI",
+    "region": "Kanta-Häme",
+    "domain": "loppi.fi",
+    "osm_relation_id": 37064
+  },
+  {
+    "id": "FI-434",
+    "name": "Loviisa",
+    "country": "FI",
+    "region": "Uusimaa",
+    "domain": "loviisa.fi",
+    "osm_relation_id": 2473051
+  },
+  {
+    "id": "FI-435",
+    "name": "Luhanka",
+    "country": "FI",
+    "region": "Keski-Suomi",
+    "domain": "luhanka.fi",
+    "osm_relation_id": 1703365
+  },
+  {
+    "id": "FI-436",
+    "name": "Lumijoki",
+    "country": "FI",
+    "region": "Pohjois-Pohjanmaa",
+    "domain": "lumijoki.fi",
+    "osm_relation_id": 2525814
+  },
+  {
+    "id": "FI-438",
+    "name": "Lumparland",
+    "country": "FI",
+    "region": "Ahvenanmaa",
+    "domain": "lumparland.ax",
+    "osm_relation_id": 2587477
+  },
+  {
+    "id": "FI-440",
+    "name": "Luoto",
+    "country": "FI",
+    "region": "Pohjanmaa",
+    "domain": "luoto.fi",
+    "osm_relation_id": 1855922
+  },
+  {
+    "id": "FI-441",
+    "name": "Luumäki",
+    "country": "FI",
+    "region": "Etelä-Karjala",
+    "domain": "luumaki.fi",
+    "osm_relation_id": 2502586
+  },
+  {
+    "id": "FI-444",
+    "name": "Lohja",
+    "country": "FI",
+    "region": "Uusimaa",
+    "domain": "lohja.fi",
+    "osm_relation_id": 2752633
+  },
+  {
+    "id": "FI-445",
+    "name": "Parainen",
+    "country": "FI",
+    "region": "Varsinais-Suomi",
+    "domain": "parainen.fi",
+    "osm_relation_id": 2374222
+  },
+  {
+    "id": "FI-475",
+    "name": "Maalahti",
+    "country": "FI",
+    "region": "Pohjanmaa",
+    "domain": "maalahti.fi",
+    "osm_relation_id": 1855923
+  },
+  {
+    "id": "FI-478",
+    "name": "Maarianhamina - Mariehamn",
+    "country": "FI",
+    "region": "Ahvenanmaa",
+    "domain": "mariehamn.ax",
+    "osm_relation_id": 2297665
+  },
+  {
+    "id": "FI-480",
+    "name": "Marttila",
+    "country": "FI",
+    "region": "Varsinais-Suomi",
+    "domain": "marttila.fi",
+    "osm_relation_id": 2506380
+  },
+  {
+    "id": "FI-481",
+    "name": "Masku",
+    "country": "FI",
+    "region": "Varsinais-Suomi",
+    "domain": "masku.fi",
+    "osm_relation_id": 2381627
+  },
+  {
+    "id": "FI-483",
+    "name": "Merijärvi",
+    "country": "FI",
+    "region": "Pohjois-Pohjanmaa",
+    "domain": "merijarvi.fi",
+    "osm_relation_id": 2525921
+  },
+  {
+    "id": "FI-484",
+    "name": "Merikarvia",
+    "country": "FI",
+    "region": "Satakunta",
+    "domain": "merikarvia.fi",
+    "osm_relation_id": 2506784
+  },
+  {
+    "id": "FI-489",
+    "name": "Miehikkälä",
+    "country": "FI",
+    "region": "Kymenlaakso",
+    "domain": "miehikkala.fi",
+    "osm_relation_id": 2502573
+  },
+  {
+    "id": "FI-491",
+    "name": "Mikkeli",
+    "country": "FI",
+    "region": "Etelä-Savo",
+    "domain": "mikkeli.fi",
+    "osm_relation_id": 2752683
+  },
+  {
+    "id": "FI-494",
+    "name": "Muhos",
+    "country": "FI",
+    "region": "Pohjois-Pohjanmaa",
+    "domain": "muhos.fi",
+    "osm_relation_id": 2525815
+  },
+  {
+    "id": "FI-495",
+    "name": "Multia",
+    "country": "FI",
+    "region": "Keski-Suomi",
+    "domain": "multia.fi",
+    "osm_relation_id": 1702329
+  },
+  {
+    "id": "FI-498",
+    "name": "Muonio",
+    "country": "FI",
+    "region": "Lappi",
+    "domain": "muonio.fi",
+    "osm_relation_id": 2266939
+  },
+  {
+    "id": "FI-499",
+    "name": "Mustasaari",
+    "country": "FI",
+    "region": "Pohjanmaa",
+    "domain": "mustasaari.fi",
+    "osm_relation_id": 1855924
+  },
+  {
+    "id": "FI-500",
+    "name": "Muurame",
+    "country": "FI",
+    "region": "Keski-Suomi",
+    "domain": "muurame.fi",
+    "osm_relation_id": 569408
+  },
+  {
+    "id": "FI-503",
+    "name": "Mynämäki",
+    "country": "FI",
+    "region": "Varsinais-Suomi",
+    "domain": "mynamaki.fi",
+    "osm_relation_id": 2378805
+  },
+  {
+    "id": "FI-504",
+    "name": "Myrskylä",
+    "country": "FI",
+    "region": "Uusimaa",
+    "domain": "myrskyla.fi",
+    "osm_relation_id": 37204
+  },
+  {
+    "id": "FI-505",
+    "name": "Mäntsälä",
+    "country": "FI",
+    "region": "Uusimaa",
+    "domain": "mantsala.fi",
+    "osm_relation_id": 36117
+  },
+  {
+    "id": "FI-507",
+    "name": "Mäntyharju",
+    "country": "FI",
+    "region": "Etelä-Savo",
+    "domain": "mantyharju.fi",
+    "osm_relation_id": 2519795
+  },
+  {
+    "id": "FI-508",
+    "name": "Mänttä-Vilppula",
+    "country": "FI",
+    "region": "Pirkanmaa",
+    "domain": "manttavilppula.fi",
+    "osm_relation_id": 1701738
+  },
+  {
+    "id": "FI-529",
+    "name": "Naantali",
+    "country": "FI",
+    "region": "Varsinais-Suomi",
+    "domain": "naantali.fi",
+    "osm_relation_id": 2376175
+  },
+  {
+    "id": "FI-531",
+    "name": "Nakkila",
+    "country": "FI",
+    "region": "Satakunta",
+    "domain": "nakkila.fi",
+    "osm_relation_id": 2506785
+  },
+  {
+    "id": "FI-535",
+    "name": "Nivala",
+    "country": "FI",
+    "region": "Pohjois-Pohjanmaa",
+    "domain": "nivala.fi",
+    "osm_relation_id": 2525922
+  },
+  {
+    "id": "FI-536",
+    "name": "Nokia",
+    "country": "FI",
+    "region": "Pirkanmaa",
+    "domain": "nokia.fi",
+    "osm_relation_id": 75300
+  },
+  {
+    "id": "FI-538",
+    "name": "Nousiainen",
+    "country": "FI",
+    "region": "Varsinais-Suomi",
+    "domain": "nousiainen.fi",
+    "osm_relation_id": 2379144
+  },
+  {
+    "id": "FI-541",
+    "name": "Nurmes",
+    "country": "FI",
+    "region": "Pohjois-Karjala",
+    "domain": "nurmes.fi",
+    "osm_relation_id": 2521593
+  },
+  {
+    "id": "FI-543",
+    "name": "Nurmijärvi",
+    "country": "FI",
+    "region": "Uusimaa",
+    "domain": "nurmijarvi.fi",
+    "osm_relation_id": 36098
+  },
+  {
+    "id": "FI-545",
+    "name": "Närpiö",
+    "country": "FI",
+    "region": "Pohjanmaa",
+    "domain": "narpio.fi",
+    "osm_relation_id": 2320684
+  },
+  {
+    "id": "FI-560",
+    "name": "Orimattila",
+    "country": "FI",
+    "region": "Päijät-Häme",
+    "domain": "orimattila.fi",
+    "osm_relation_id": 37167
+  },
+  {
+    "id": "FI-561",
+    "name": "Oripää",
+    "country": "FI",
+    "region": "Varsinais-Suomi",
+    "domain": "oripaa.fi",
+    "osm_relation_id": 2506381
+  },
+  {
+    "id": "FI-562",
+    "name": "Orivesi",
+    "country": "FI",
+    "region": "Pirkanmaa",
+    "domain": "orivesi.fi",
+    "osm_relation_id": 1700624
+  },
+  {
+    "id": "FI-563",
+    "name": "Oulainen",
+    "country": "FI",
+    "region": "Pohjois-Pohjanmaa",
+    "domain": "oulainen.fi",
+    "osm_relation_id": 2525923
+  },
+  {
+    "id": "FI-564",
+    "name": "Oulu",
+    "country": "FI",
+    "region": "Pohjois-Pohjanmaa",
+    "domain": "ouka.fi",
+    "osm_relation_id": 2711874
+  },
+  {
+    "id": "FI-576",
+    "name": "Padasjoki",
+    "country": "FI",
+    "region": "Päijät-Häme",
+    "domain": "padasjoki.fi",
+    "osm_relation_id": 2372651
+  },
+  {
+    "id": "FI-577",
+    "name": "Paimio",
+    "country": "FI",
+    "region": "Varsinais-Suomi",
+    "domain": "paimio.fi",
+    "osm_relation_id": 2506382
+  },
+  {
+    "id": "FI-578",
+    "name": "Paltamo",
+    "country": "FI",
+    "region": "Kainuu",
+    "domain": "paltamo.fi",
+    "osm_relation_id": 2525695
+  },
+  {
+    "id": "FI-580",
+    "name": "Parikkala",
+    "country": "FI",
+    "region": "Etelä-Karjala",
+    "domain": "parikkala.fi",
+    "osm_relation_id": 2309671
+  },
+  {
+    "id": "FI-581",
+    "name": "Parkano",
+    "country": "FI",
+    "region": "Pirkanmaa",
+    "domain": "parkano.fi",
+    "osm_relation_id": 2270669
+  },
+  {
+    "id": "FI-583",
+    "name": "Pelkosenniemi",
+    "country": "FI",
+    "region": "Lappi",
+    "domain": "pelkosenniemi.fi",
+    "osm_relation_id": 2528663
+  },
+  {
+    "id": "FI-584",
+    "name": "Perho",
+    "country": "FI",
+    "region": "Keski-Pohjanmaa",
+    "domain": "perho.fi",
+    "osm_relation_id": 2420899
+  },
+  {
+    "id": "FI-592",
+    "name": "Petäjävesi",
+    "country": "FI",
+    "region": "Keski-Suomi",
+    "domain": "petajavesi.fi",
+    "osm_relation_id": 1208006
+  },
+  {
+    "id": "FI-593",
+    "name": "Pieksämäki",
+    "country": "FI",
+    "region": "Etelä-Savo",
+    "domain": "pieksamaki.fi",
+    "osm_relation_id": 918895
+  },
+  {
+    "id": "FI-595",
+    "name": "Pielavesi",
+    "country": "FI",
+    "region": "Pohjois-Savo",
+    "domain": "pielavesi.fi",
+    "osm_relation_id": 2521954
+  },
+  {
+    "id": "FI-598",
+    "name": "Pietarsaari",
+    "country": "FI",
+    "region": "Pohjanmaa",
+    "domain": "pietarsaari.fi",
+    "osm_relation_id": 1855918
+  },
+  {
+    "id": "FI-599",
+    "name": "Pedersören kunta",
+    "country": "FI",
+    "region": "Pohjanmaa",
+    "domain": "pedersore.fi",
+    "osm_relation_id": 1855925
+  },
+  {
+    "id": "FI-601",
+    "name": "Pihtipudas",
+    "country": "FI",
+    "region": "Keski-Suomi",
+    "domain": "pihtipudas.fi",
+    "osm_relation_id": 2424664
+  },
+  {
+    "id": "FI-604",
+    "name": "Pirkkala",
+    "country": "FI",
+    "region": "Pirkanmaa",
+    "domain": "pirkkala.fi",
+    "osm_relation_id": 1700655
+  },
+  {
+    "id": "FI-607",
+    "name": "Polvijärvi",
+    "country": "FI",
+    "region": "Pohjois-Karjala",
+    "domain": "polvijarvi.fi",
+    "osm_relation_id": 2521595
+  },
+  {
+    "id": "FI-608",
+    "name": "Pomarkku",
+    "country": "FI",
+    "region": "Satakunta",
+    "domain": "pomarkku.fi",
+    "osm_relation_id": 2506787
+  },
+  {
+    "id": "FI-609",
+    "name": "Pori",
+    "country": "FI",
+    "region": "Satakunta",
+    "domain": "pori.fi",
+    "osm_relation_id": 4446212
+  },
+  {
+    "id": "FI-611",
+    "name": "Pornainen",
+    "country": "FI",
+    "region": "Uusimaa",
+    "domain": "pornainen.fi",
+    "osm_relation_id": 37194
+  },
+  {
+    "id": "FI-614",
+    "name": "Posio",
+    "country": "FI",
+    "region": "Lappi",
+    "domain": "posio.fi",
+    "osm_relation_id": 2528472
+  },
+  {
+    "id": "FI-615",
+    "name": "Pudasjärvi",
+    "country": "FI",
+    "region": "Pohjois-Pohjanmaa",
+    "domain": "pudasjarvi.fi",
+    "osm_relation_id": 2525742
+  },
+  {
+    "id": "FI-616",
+    "name": "Pukkila",
+    "country": "FI",
+    "region": "Uusimaa",
+    "domain": "pukkila.fi",
+    "osm_relation_id": 37203
+  },
+  {
+    "id": "FI-619",
+    "name": "Punkalaidun",
+    "country": "FI",
+    "region": "Pirkanmaa",
+    "domain": "punkalaidun.fi",
+    "osm_relation_id": 2387683
+  },
+  {
+    "id": "FI-620",
+    "name": "Puolanka",
+    "country": "FI",
+    "region": "Kainuu",
+    "domain": "puolanka.fi",
+    "osm_relation_id": 2525696
+  },
+  {
+    "id": "FI-623",
+    "name": "Puumala",
+    "country": "FI",
+    "region": "Etelä-Savo",
+    "domain": "puumala.fi",
+    "osm_relation_id": 2301965
+  },
+  {
+    "id": "FI-624",
+    "name": "Pyhtää",
+    "country": "FI",
+    "region": "Kymenlaakso",
+    "domain": "pyhtaa.fi",
+    "osm_relation_id": 2472595
+  },
+  {
+    "id": "FI-625",
+    "name": "Pyhäjoki",
+    "country": "FI",
+    "region": "Pohjois-Pohjanmaa",
+    "domain": "pyhajoki.fi",
+    "osm_relation_id": 2525924
+  },
+  {
+    "id": "FI-626",
+    "name": "Pyhäjärvi",
+    "country": "FI",
+    "region": "Pohjois-Pohjanmaa",
+    "domain": "pyhajarvi.fi",
+    "osm_relation_id": 2525816
+  },
+  {
+    "id": "FI-630",
+    "name": "Pyhäntä",
+    "country": "FI",
+    "region": "Pohjois-Pohjanmaa",
+    "domain": "pyhanta.fi",
+    "osm_relation_id": 2525817
+  },
+  {
+    "id": "FI-631",
+    "name": "Pyhäranta",
+    "country": "FI",
+    "region": "Varsinais-Suomi",
+    "domain": "pyharanta.fi",
+    "osm_relation_id": 2377365
+  },
+  {
+    "id": "FI-635",
+    "name": "Pälkäne",
+    "country": "FI",
+    "region": "Pirkanmaa",
+    "domain": "palkane.fi",
+    "osm_relation_id": 2373140
+  },
+  {
+    "id": "FI-636",
+    "name": "Pöytyä",
+    "country": "FI",
+    "region": "Varsinais-Suomi",
+    "domain": "poytya.fi",
+    "osm_relation_id": 2379143
+  },
+  {
+    "id": "FI-638",
+    "name": "Porvoo",
+    "country": "FI",
+    "region": "Uusimaa",
+    "domain": "porvoo.fi",
+    "osm_relation_id": 37197
+  },
+  {
+    "id": "FI-678",
+    "name": "Raahe",
+    "country": "FI",
+    "region": "Pohjois-Pohjanmaa",
+    "domain": "raahe.fi",
+    "osm_relation_id": 2752723
+  },
+  {
+    "id": "FI-680",
+    "name": "Raisio",
+    "country": "FI",
+    "region": "Varsinais-Suomi",
+    "domain": "raisio.fi",
+    "osm_relation_id": 2506383
+  },
+  {
+    "id": "FI-681",
+    "name": "Rantasalmi",
+    "country": "FI",
+    "region": "Etelä-Savo",
+    "domain": "rantasalmi.fi",
+    "osm_relation_id": 2522464
+  },
+  {
+    "id": "FI-683",
+    "name": "Ranua",
+    "country": "FI",
+    "region": "Lappi",
+    "domain": "ranua.fi",
+    "osm_relation_id": 2528473
+  },
+  {
+    "id": "FI-684",
+    "name": "Rauma",
+    "country": "FI",
+    "region": "Satakunta",
+    "domain": "rauma.fi",
+    "osm_relation_id": 2377364
+  },
+  {
+    "id": "FI-686",
+    "name": "Rautalampi",
+    "country": "FI",
+    "region": "Pohjois-Savo",
+    "domain": "rautalampi.fi",
+    "osm_relation_id": 1214216
+  },
+  {
+    "id": "FI-687",
+    "name": "Rautavaara",
+    "country": "FI",
+    "region": "Pohjois-Savo",
+    "domain": "rautavaara.fi",
+    "osm_relation_id": 2522181
+  },
+  {
+    "id": "FI-689",
+    "name": "Rautjärvi",
+    "country": "FI",
+    "region": "Etelä-Karjala",
+    "domain": "rautjarvi.fi",
+    "osm_relation_id": 2257160
+  },
+  {
+    "id": "FI-691",
+    "name": "Reisjärvi",
+    "country": "FI",
+    "region": "Pohjois-Pohjanmaa",
+    "domain": "reisjarvi.fi",
+    "osm_relation_id": 2525926
+  },
+  {
+    "id": "FI-694",
+    "name": "Riihimäki",
+    "country": "FI",
+    "region": "Kanta-Häme",
+    "domain": "riihimaki.fi",
+    "osm_relation_id": 37066
+  },
+  {
+    "id": "FI-697",
+    "name": "Ristijärvi",
+    "country": "FI",
+    "region": "Kainuu",
+    "domain": "ristijarvi.fi",
+    "osm_relation_id": 2525697
+  },
+  {
+    "id": "FI-698",
+    "name": "Rovaniemi",
+    "country": "FI",
+    "region": "Lappi",
+    "domain": "rovaniemi.fi",
+    "osm_relation_id": 2528474
+  },
+  {
+    "id": "FI-700",
+    "name": "Ruokolahti",
+    "country": "FI",
+    "region": "Etelä-Karjala",
+    "domain": "ruokolahti.fi",
+    "osm_relation_id": 2257159
+  },
+  {
+    "id": "FI-702",
+    "name": "Ruovesi",
+    "country": "FI",
+    "region": "Pirkanmaa",
+    "domain": "ruovesi.fi",
+    "osm_relation_id": 1670949
+  },
+  {
+    "id": "FI-704",
+    "name": "Rusko",
+    "country": "FI",
+    "region": "Varsinais-Suomi",
+    "domain": "rusko.fi",
+    "osm_relation_id": 2379142
+  },
+  {
+    "id": "FI-707",
+    "name": "Rääkkylä",
+    "country": "FI",
+    "region": "Pohjois-Karjala",
+    "domain": "raakkyla.fi",
+    "osm_relation_id": 405791
+  },
+  {
+    "id": "FI-710",
+    "name": "Raasepori",
+    "country": "FI",
+    "region": "Uusimaa",
+    "domain": "raasepori.fi",
+    "osm_relation_id": 452116
+  },
+  {
+    "id": "FI-729",
+    "name": "Saarijärvi",
+    "country": "FI",
+    "region": "Keski-Suomi",
+    "domain": "saarijarvi.fi",
+    "osm_relation_id": 1702335
+  },
+  {
+    "id": "FI-732",
+    "name": "Salla",
+    "country": "FI",
+    "region": "Lappi",
+    "domain": "salla.fi",
+    "osm_relation_id": 2528664
+  },
+  {
+    "id": "FI-734",
+    "name": "Salo",
+    "country": "FI",
+    "region": "Varsinais-Suomi",
+    "domain": "salo.fi",
+    "osm_relation_id": 2373964
+  },
+  {
+    "id": "FI-736",
+    "name": "Saltvik",
+    "country": "FI",
+    "region": "Ahvenanmaa",
+    "domain": "saltvik.ax",
+    "osm_relation_id": 2587478
+  },
+  {
+    "id": "FI-738",
+    "name": "Sauvo",
+    "country": "FI",
+    "region": "Varsinais-Suomi",
+    "domain": "sauvo.fi",
+    "osm_relation_id": 2373966
+  },
+  {
+    "id": "FI-739",
+    "name": "Savitaipale",
+    "country": "FI",
+    "region": "Etelä-Karjala",
+    "domain": "savitaipale.fi",
+    "osm_relation_id": 2502703
+  },
+  {
+    "id": "FI-740",
+    "name": "Savonlinna",
+    "country": "FI",
+    "region": "Etelä-Savo",
+    "domain": "savonlinna.fi",
+    "osm_relation_id": 2673137
+  },
+  {
+    "id": "FI-742",
+    "name": "Savukoski",
+    "country": "FI",
+    "region": "Lappi",
+    "domain": "savukoski.fi",
+    "osm_relation_id": 2528665
+  },
+  {
+    "id": "FI-743",
+    "name": "Seinäjoki",
+    "country": "FI",
+    "region": "Etelä-Pohjanmaa",
+    "domain": "seinajoki.fi",
+    "osm_relation_id": 2216875
+  },
+  {
+    "id": "FI-746",
+    "name": "Sievi",
+    "country": "FI",
+    "region": "Pohjois-Pohjanmaa",
+    "domain": "sievi.fi",
+    "osm_relation_id": 2525927
+  },
+  {
+    "id": "FI-747",
+    "name": "Siikainen",
+    "country": "FI",
+    "region": "Satakunta",
+    "domain": "siikainen.fi",
+    "osm_relation_id": 2506789
+  },
+  {
+    "id": "FI-748",
+    "name": "Siikajoki",
+    "country": "FI",
+    "region": "Pohjois-Pohjanmaa",
+    "domain": "siikajoki.fi",
+    "osm_relation_id": 2525928
+  },
+  {
+    "id": "FI-749",
+    "name": "Siilinjärvi",
+    "country": "FI",
+    "region": "Pohjois-Savo",
+    "domain": "siilinjarvi.fi",
+    "osm_relation_id": 1406989
+  },
+  {
+    "id": "FI-751",
+    "name": "Simo",
+    "country": "FI",
+    "region": "Lappi",
+    "domain": "simo.fi",
+    "osm_relation_id": 2528475
+  },
+  {
+    "id": "FI-753",
+    "name": "Sipoo",
+    "country": "FI",
+    "region": "Uusimaa",
+    "domain": "sipoo.fi",
+    "osm_relation_id": 35159
+  },
+  {
+    "id": "FI-755",
+    "name": "Siuntio",
+    "country": "FI",
+    "region": "Uusimaa",
+    "domain": "siuntio.fi",
+    "osm_relation_id": 36102
+  },
+  {
+    "id": "FI-758",
+    "name": "Sodankylä",
+    "country": "FI",
+    "region": "Lappi",
+    "domain": "sodankyla.fi",
+    "osm_relation_id": 2528666
+  },
+  {
+    "id": "FI-759",
+    "name": "Soini",
+    "country": "FI",
+    "region": "Etelä-Pohjanmaa",
+    "domain": "soini.fi",
+    "osm_relation_id": 1702332
+  },
+  {
+    "id": "FI-761",
+    "name": "Somero",
+    "country": "FI",
+    "region": "Varsinais-Suomi",
+    "domain": "somero.fi",
+    "osm_relation_id": 38111
+  },
+  {
+    "id": "FI-762",
+    "name": "Sonkajärvi",
+    "country": "FI",
+    "region": "Pohjois-Savo",
+    "domain": "sonkajarvi.fi",
+    "osm_relation_id": 2522198
+  },
+  {
+    "id": "FI-765",
+    "name": "Sotkamo",
+    "country": "FI",
+    "region": "Kainuu",
+    "domain": "sotkamo.fi",
+    "osm_relation_id": 2525698
+  },
+  {
+    "id": "FI-766",
+    "name": "Sottunga",
+    "country": "FI",
+    "region": "Ahvenanmaa",
+    "domain": "sottunga.ax",
+    "osm_relation_id": 2375652
+  },
+  {
+    "id": "FI-768",
+    "name": "Sulkava",
+    "country": "FI",
+    "region": "Etelä-Savo",
+    "domain": "sulkava.fi",
+    "osm_relation_id": 2522467
+  },
+  {
+    "id": "FI-771",
+    "name": "Sund",
+    "country": "FI",
+    "region": "Ahvenanmaa",
+    "domain": "sund.ax",
+    "osm_relation_id": 2587479
+  },
+  {
+    "id": "FI-777",
+    "name": "Suomussalmi",
+    "country": "FI",
+    "region": "Kainuu",
+    "domain": "suomussalmi.fi",
+    "osm_relation_id": 2525699
+  },
+  {
+    "id": "FI-778",
+    "name": "Suonenjoki",
+    "country": "FI",
+    "region": "Pohjois-Savo",
+    "domain": "suonenjoki.fi",
+    "osm_relation_id": 918896
+  },
+  {
+    "id": "FI-781",
+    "name": "Sysmä",
+    "country": "FI",
+    "region": "Päijät-Häme",
+    "domain": "sysma.fi",
+    "osm_relation_id": 1704306
+  },
+  {
+    "id": "FI-783",
+    "name": "Säkylä",
+    "country": "FI",
+    "region": "Satakunta",
+    "domain": "sakyla.fi",
+    "osm_relation_id": 2385028
+  },
+  {
+    "id": "FI-785",
+    "name": "Vaala",
+    "country": "FI",
+    "region": "Pohjois-Pohjanmaa",
+    "domain": "vaala.fi",
+    "osm_relation_id": 2525700
+  },
+  {
+    "id": "FI-790",
+    "name": "Sastamala",
+    "country": "FI",
+    "region": "Pirkanmaa",
+    "domain": "sastamala.fi",
+    "osm_relation_id": 2524088
+  },
+  {
+    "id": "FI-791",
+    "name": "Siikalatva",
+    "country": "FI",
+    "region": "Pohjois-Pohjanmaa",
+    "domain": "siikalatva.fi",
+    "osm_relation_id": 2525940
+  },
+  {
+    "id": "FI-831",
+    "name": "Taipalsaari",
+    "country": "FI",
+    "region": "Etelä-Karjala",
+    "domain": "taipalsaari.fi",
+    "osm_relation_id": 2289002
+  },
+  {
+    "id": "FI-832",
+    "name": "Taivalkoski",
+    "country": "FI",
+    "region": "Pohjois-Pohjanmaa",
+    "domain": "taivalkoski.fi",
+    "osm_relation_id": 2525743
+  },
+  {
+    "id": "FI-833",
+    "name": "Taivassalo",
+    "country": "FI",
+    "region": "Varsinais-Suomi",
+    "domain": "taivassalo.fi",
+    "osm_relation_id": 2376176
+  },
+  {
+    "id": "FI-834",
+    "name": "Tammela",
+    "country": "FI",
+    "region": "Kanta-Häme",
+    "domain": "tammela.fi",
+    "osm_relation_id": 37078
+  },
+  {
+    "id": "FI-837",
+    "name": "Tampere",
+    "country": "FI",
+    "region": "Pirkanmaa",
+    "domain": "tampere.fi",
+    "osm_relation_id": 3579531
+  },
+  {
+    "id": "FI-844",
+    "name": "Tervo",
+    "country": "FI",
+    "region": "Pohjois-Savo",
+    "domain": "tervo.fi",
+    "osm_relation_id": 2433381
+  },
+  {
+    "id": "FI-845",
+    "name": "Tervola",
+    "country": "FI",
+    "region": "Lappi",
+    "domain": "tervola.fi",
+    "osm_relation_id": 2528476
+  },
+  {
+    "id": "FI-846",
+    "name": "Teuva",
+    "country": "FI",
+    "region": "Etelä-Pohjanmaa",
+    "domain": "teuva.fi",
+    "osm_relation_id": 2364122
+  },
+  {
+    "id": "FI-848",
+    "name": "Tohmajärvi",
+    "country": "FI",
+    "region": "Pohjois-Karjala",
+    "domain": "tohmajarvi.fi",
+    "osm_relation_id": 2521762
+  },
+  {
+    "id": "FI-849",
+    "name": "Toholampi",
+    "country": "FI",
+    "region": "Keski-Pohjanmaa",
+    "domain": "toholampi.fi",
+    "osm_relation_id": 2523790
+  },
+  {
+    "id": "FI-850",
+    "name": "Toivakka",
+    "country": "FI",
+    "region": "Keski-Suomi",
+    "domain": "toivakka.fi",
+    "osm_relation_id": 1703340
+  },
+  {
+    "id": "FI-851",
+    "name": "Tornio",
+    "country": "FI",
+    "region": "Lappi",
+    "domain": "tornio.fi",
+    "osm_relation_id": 403011
+  },
+  {
+    "id": "FI-853",
+    "name": "Turku",
+    "country": "FI",
+    "region": "Varsinais-Suomi",
+    "domain": "turku.fi",
+    "osm_relation_id": 399906
+  },
+  {
+    "id": "FI-854",
+    "name": "Pello",
+    "country": "FI",
+    "region": "Lappi",
+    "domain": "pello.fi",
+    "osm_relation_id": 2527261
+  },
+  {
+    "id": "FI-857",
+    "name": "Tuusniemi",
+    "country": "FI",
+    "region": "Pohjois-Savo",
+    "domain": "tuusniemi.fi",
+    "osm_relation_id": 2426368
+  },
+  {
+    "id": "FI-858",
+    "name": "Tuusula",
+    "country": "FI",
+    "region": "Uusimaa",
+    "domain": "tuusula.fi",
+    "osm_relation_id": 35158
+  },
+  {
+    "id": "FI-859",
+    "name": "Tyrnävä",
+    "country": "FI",
+    "region": "Pohjois-Pohjanmaa",
+    "domain": "tyrnava.fi",
+    "osm_relation_id": 2525818
+  },
+  {
+    "id": "FI-886",
+    "name": "Ulvila",
+    "country": "FI",
+    "region": "Satakunta",
+    "domain": "ulvila.fi",
+    "osm_relation_id": 2506790
+  },
+  {
+    "id": "FI-887",
+    "name": "Urjala",
+    "country": "FI",
+    "region": "Pirkanmaa",
+    "domain": "urjala.fi",
+    "osm_relation_id": 2387806
+  },
+  {
+    "id": "FI-889",
+    "name": "Utajärvi",
+    "country": "FI",
+    "region": "Pohjois-Pohjanmaa",
+    "domain": "utajarvi.fi",
+    "osm_relation_id": 2525744
+  },
+  {
+    "id": "FI-890",
+    "name": "Utsjoki",
+    "country": "FI",
+    "region": "Lappi",
+    "domain": "utsjoki.fi",
+    "osm_relation_id": 1724822
+  },
+  {
+    "id": "FI-892",
+    "name": "Uurainen",
+    "country": "FI",
+    "region": "Keski-Suomi",
+    "domain": "uurainen.fi",
+    "osm_relation_id": 1200893
+  },
+  {
+    "id": "FI-893",
+    "name": "Uusikaarlepyy",
+    "country": "FI",
+    "region": "Pohjanmaa",
+    "domain": "uusikaarlepyy.fi",
+    "osm_relation_id": 1855329
+  },
+  {
+    "id": "FI-895",
+    "name": "Uusikaupunki",
+    "country": "FI",
+    "region": "Varsinais-Suomi",
+    "domain": "uusikaupunki.fi",
+    "osm_relation_id": 2376177
+  },
+  {
+    "id": "FI-905",
+    "name": "Vaasa",
+    "country": "FI",
+    "region": "Pohjanmaa",
+    "domain": "vaasa.fi",
+    "osm_relation_id": 1855926
+  },
+  {
+    "id": "FI-908",
+    "name": "Valkeakoski",
+    "country": "FI",
+    "region": "Pirkanmaa",
+    "domain": "valkeakoski.fi",
+    "osm_relation_id": 2248587
+  },
+  {
+    "id": "FI-915",
+    "name": "Varkaus",
+    "country": "FI",
+    "region": "Pohjois-Savo",
+    "domain": "varkaus.fi",
+    "osm_relation_id": 2521955
+  },
+  {
+    "id": "FI-918",
+    "name": "Vehmaa",
+    "country": "FI",
+    "region": "Varsinais-Suomi",
+    "domain": "vehmaa.fi",
+    "osm_relation_id": 2384801
+  },
+  {
+    "id": "FI-921",
+    "name": "Vesanto",
+    "country": "FI",
+    "region": "Pohjois-Savo",
+    "domain": "vesanto.fi",
+    "osm_relation_id": 1709292
+  },
+  {
+    "id": "FI-922",
+    "name": "Vesilahti",
+    "country": "FI",
+    "region": "Pirkanmaa",
+    "domain": "vesilahti.fi",
+    "osm_relation_id": 2524089
+  },
+  {
+    "id": "FI-924",
+    "name": "Veteli",
+    "country": "FI",
+    "region": "Keski-Pohjanmaa",
+    "domain": "veteli.fi",
+    "osm_relation_id": 2213831
+  },
+  {
+    "id": "FI-925",
+    "name": "Vieremä",
+    "country": "FI",
+    "region": "Pohjois-Savo",
+    "domain": "vierema.fi",
+    "osm_relation_id": 2522182
+  },
+  {
+    "id": "FI-927",
+    "name": "Vihti",
+    "country": "FI",
+    "region": "Uusimaa",
+    "domain": "vihti.fi",
+    "osm_relation_id": 36100
+  },
+  {
+    "id": "FI-931",
+    "name": "Viitasaari",
+    "country": "FI",
+    "region": "Keski-Suomi",
+    "domain": "viitasaari.fi",
+    "osm_relation_id": 1709290
+  },
+  {
+    "id": "FI-934",
+    "name": "Vimpeli",
+    "country": "FI",
+    "region": "Etelä-Pohjanmaa",
+    "domain": "vimpeli.fi",
+    "osm_relation_id": 2523702
+  },
+  {
+    "id": "FI-935",
+    "name": "Virolahti",
+    "country": "FI",
+    "region": "Kymenlaakso",
+    "domain": "virolahti.fi",
+    "osm_relation_id": 2502572
+  },
+  {
+    "id": "FI-936",
+    "name": "Virrat",
+    "country": "FI",
+    "region": "Pirkanmaa",
+    "domain": "virrat.fi",
+    "osm_relation_id": 1670950
+  },
+  {
+    "id": "FI-941",
+    "name": "Vårdö",
+    "country": "FI",
+    "region": "Ahvenanmaa",
+    "domain": "vardo.ax",
+    "osm_relation_id": 2587480
+  },
+  {
+    "id": "FI-946",
+    "name": "Vöyri",
+    "country": "FI",
+    "region": "Pohjanmaa",
+    "domain": "voyri.fi",
+    "osm_relation_id": 1855927
+  },
+  {
+    "id": "FI-976",
+    "name": "Ylitornio",
+    "country": "FI",
+    "region": "Lappi",
+    "domain": "ylitornio.fi",
+    "osm_relation_id": 2527262
+  },
+  {
+    "id": "FI-977",
+    "name": "Ylivieska",
+    "country": "FI",
+    "region": "Pohjois-Pohjanmaa",
+    "domain": "ylivieska.fi",
+    "osm_relation_id": 2525930
+  },
+  {
+    "id": "FI-980",
+    "name": "Ylöjärvi",
+    "country": "FI",
+    "region": "Pirkanmaa",
+    "domain": "ylojarvi.fi",
+    "osm_relation_id": 156823
+  },
+  {
+    "id": "FI-981",
+    "name": "Ypäjä",
+    "country": "FI",
+    "region": "Kanta-Häme",
+    "domain": "ypaja.fi",
+    "osm_relation_id": 2510290
+  },
+  {
+    "id": "FI-989",
+    "name": "Ähtäri",
+    "country": "FI",
+    "region": "Etelä-Pohjanmaa",
+    "domain": "ahtari.fi",
+    "osm_relation_id": 1153387
+  },
+  {
+    "id": "FI-992",
+    "name": "Äänekoski",
+    "country": "FI",
+    "region": "Keski-Suomi",
+    "domain": "aanekoski.fi",
+    "osm_relation_id": 1200894
+  }
+]

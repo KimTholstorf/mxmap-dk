@@ -88,6 +88,9 @@ GATEWAY_KEYWORDS = {
     "hornetsecurity": ["hornetsecurity.com"],
     "proofpoint": ["ppe-hosted.com"],
     "sophos": ["hydra.sophos.com"],
+    "fortimail": ["fortimail", "fortimailcloud.com"],
+    "secmail": ["secmail.com"],
+    "d-fence": ["d-fence.eu"],
 }
 
 # Baltic ISP ASNs (replaces SWISS_ISP_ASNS)
@@ -112,6 +115,16 @@ BALTIC_ISP_ASNS: dict[int, str] = {
     6769: "LITNET",
     # Multi-country
     2588: "Elisa",
+    # Finland
+    719: "Elisa (FI)",
+    1759: "Cinia/SecMail",
+    39699: "Lounea",
+    198024: "Istekki",
+    16086: "Ratkaisutalo",
+    215722: "Lapit Oy",
+    199087: "Kase Oy",
+    29240: "LanMail",
+    3238: "Ålands Telekommunikation",
 }
 
 CONCURRENCY = 20

@@ -262,6 +262,22 @@ async def lookup_autodiscover(domain: str) -> dict[str, str]:
     return result
 
 
+async def lookup_dkim(domain: str) -> dict[str, str]:
+    """Check DKIM CNAME records for common selectors. Returns dict of selector -> target."""
+    selectors = ["selector1", "selector2", "google"]
+    result: dict[str, str] = {}
+
+    async def _check(selector: str) -> tuple[str, str | None]:
+        chain = await lookup_cname_chain(f"{selector}._domainkey.{domain}", max_hops=1)
+        return selector, chain[-1] if chain else None
+
+    results = await asyncio.gather(*[_check(s) for s in selectors])
+    for selector, target in results:
+        if target:
+            result[selector] = target
+    return result
+
+
 async def resolve_mx_asns(mx_hosts: list[str]) -> set[int]:
     """Resolve all MX hosts to IPs, look up ASNs, return set of unique ASNs."""
     asns = set()

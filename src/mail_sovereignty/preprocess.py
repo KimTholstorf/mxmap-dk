@@ -12,6 +12,7 @@ from mail_sovereignty.classify import classify, detect_gateway
 from mail_sovereignty.constants import CONCURRENCY
 from mail_sovereignty.dns import (
     lookup_autodiscover,
+    lookup_dkim,
     lookup_mx,
     lookup_spf,
     resolve_mx_asns,
@@ -26,6 +27,7 @@ SEED_FILES = {
     "EE": "municipalities_ee.json",
     "LV": "municipalities_lv.json",
     "LT": "municipalities_lt.json",
+    "FI": "municipalities_fi.json",
 }
 
 
@@ -51,6 +53,7 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         " novads", " pilsēta", " valstspilsēta",      # Latvian
         " rajono savivaldybė", " miesto savivaldybė",  # Lithuanian
         " savivaldybė",
+        " kaupunki", " kunta",                         # Finnish
     ]:
         if raw.endswith(suffix):
             raw = raw[: -len(suffix)]
@@ -62,6 +65,7 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         ("ā", "a"), ("ē", "e"), ("ī", "i"), ("ū", "u"),  # Latvian
         ("ķ", "k"), ("ļ", "l"), ("ņ", "n"), ("ģ", "g"),
         ("ė", "e"), ("į", "i"), ("ų", "u"), ("ū", "u"),  # Lithuanian
+        ("å", "a"),                                          # Finnish/Nordic
     ]
     clean = raw
     for a, b in translits:
@@ -75,8 +79,8 @@ def guess_domains(name: str, country: str = "") -> list[str]:
     slugs = {slugify(clean), slugify(raw)} - {""}
 
     # Determine TLDs based on country
-    tld_map = {"EE": [".ee"], "LV": [".lv"], "LT": [".lt"]}
-    tlds = tld_map.get(country, [".ee", ".lv", ".lt"])
+    tld_map = {"EE": [".ee"], "LV": [".lv"], "LT": [".lt"], "FI": [".fi"]}
+    tlds = tld_map.get(country, [".ee", ".lv", ".lt", ".fi"])
 
     candidates = set()
     for slug in slugs:
@@ -155,6 +159,7 @@ async def scan_municipality(
         mx_asns = await resolve_mx_asns(mx) if mx else set()
         mx_countries = await resolve_mx_countries(mx) if mx else set()
         autodiscover = await lookup_autodiscover(domain) if domain else {}
+        dkim = await lookup_dkim(domain) if domain else {}
         provider, reason = classify(
             mx,
             spf,
@@ -162,6 +167,7 @@ async def scan_municipality(
             mx_asns=mx_asns or None,
             resolved_spf=spf_resolved or None,
             autodiscover=autodiscover or None,
+            dkim=dkim or None,
         )
         gateway = detect_gateway(mx) if mx else None
 
@@ -190,6 +196,8 @@ async def scan_municipality(
             entry["mx_countries"] = sorted(mx_countries)
         if autodiscover:
             entry["autodiscover"] = autodiscover
+        if dkim:
+            entry["dkim"] = dkim
         return entry
 
 

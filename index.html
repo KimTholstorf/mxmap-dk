@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://b.basemaps.cartocdn.com" crossorigin>
 <link rel="preconnect" href="https://c.basemaps.cartocdn.com" crossorigin>
 <link rel="preconnect" href="https://d.basemaps.cartocdn.com" crossorigin>
-<title>MX Map — Email Providers of Baltic Municipalities</title>
+<title>MX Map — Email Providers of Nordic-Baltic Municipalities</title>
 <meta name="description" content="Interactive map showing the email providers of all ~182 municipalities in Estonia, Latvia, and Lithuania, based on DNS analysis of MX and SPF records.">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='2' y='7' width='28' height='18' rx='2' fill='%231a1a2e'/%3E%3Cpath d='M2 9l14 9 14-9' fill='none' stroke='%2316a34a' stroke-width='2'/%3E%3C/svg%3E">
 <link rel="preload" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -130,7 +130,7 @@
   <div class="header-left">
     <h1 class="brand">MX Map</h1>
     <span class="separator">|</span>
-    <span class="tagline">Email Providers of Baltic Municipalities</span>
+    <span class="tagline">Email Providers of Nordic-Baltic Municipalities</span>
   </div>
   <div class="header-right">
     <span class="updated" id="generated"></span>
@@ -140,11 +140,11 @@
 </header>
 <section id="info-bar" aria-label="About this project">
 <script>if(window.innerWidth<=600)document.getElementById('info-bar').classList.add('collapsed');</script>
-  <h2 class="info-title">Email Providers of Baltic Municipalities</h2>
+  <h2 class="info-title">Email Providers of Nordic-Baltic Municipalities</h2>
   <div class="info-grid">
     <div class="info-card">
       <h3>What is this?</h3>
-      <p>A map of all ~182 municipalities in Estonia, Latvia, and Lithuania showing which provider handles their official email — grouped by jurisdiction — based on public DNS records.</p>
+      <p>A map of municipalities in Estonia, Latvia, Lithuania, and Finland showing which provider handles their official email — grouped by jurisdiction — based on public DNS records.</p>
     </div>
     <div class="info-card">
       <h3>Digital sovereignty</h3>
@@ -171,6 +171,7 @@
     <button class="country-btn active" data-country="EE">EE</button>
     <button class="country-btn active" data-country="LV">LV</button>
     <button class="country-btn active" data-country="LT">LT</button>
+    <button class="country-btn active" data-country="FI">FI</button>
   </div>
 </main>
 
@@ -201,20 +202,20 @@ const TIERS = {
   'Unknown':        ['Unknown']
 };
 
-const FLAGS = { EE: '\u{1F1EA}\u{1F1EA}', LV: '\u{1F1F1}\u{1F1FB}', LT: '\u{1F1F1}\u{1F1F9}' };
+const FLAGS = { EE: '\u{1F1EA}\u{1F1EA}', LV: '\u{1F1F1}\u{1F1FB}', LT: '\u{1F1F1}\u{1F1F9}', FI: '\u{1F1EB}\u{1F1EE}' };
 
 // --- State ---
 let dnsData = null;
 let geoLayer = null;
 let updateLegend = function () {};
-let activeCountries = new Set(['EE', 'LV', 'LT']);
+let activeCountries = new Set(['EE', 'LV', 'LT', 'FI']);
 let muniByOsm = {};   // "relation/12345" -> municipality
 let muniByName = {};   // lowercase name -> municipality
 
 // --- Map ---
 const map = L.map('map', {
-  center: [57.0, 24.5],
-  zoom: 7,
+  center: [60.0, 25.5],
+  zoom: 6,
   minZoom: 5,
   maxZoom: 14,
   renderer: L.canvas()
@@ -328,30 +329,36 @@ function buildStats(muniList) {
 
   function computeStats(list) {
     const t = list.length;
-    let us = 0, eu = 0, unk = 0;
+    let us = 0, sameCountry = 0, otherEu = 0, unk = 0;
     const providers = {};
     const mxCountries = {};
-    let mxUs = 0, mxBaltic = 0;
+    let mxUs = 0, mxLocal = 0;
     for (const m of list) {
       const p = m.classification.provider;
       providers[p] = (providers[p] || 0) + 1;
       if (usProviders.has(p)) us++;
       else if (p === 'Unknown') unk++;
-      else eu++;
+      else {
+        // Check if MX is in the same country as the municipality
+        const cc = m.mx_countries || [];
+        if (cc.includes(m.country)) sameCountry++;
+        else otherEu++;
+      }
       for (const cc of (m.mx_countries || [])) {
         mxCountries[cc] = (mxCountries[cc] || 0) + 1;
       }
       const cc = m.mx_countries || [];
       if (cc.includes('US')) mxUs++;
-      if (cc.some(c => ['EE', 'LV', 'LT'].includes(c))) mxBaltic++;
+      if (cc.some(c => ['EE', 'LV', 'LT', 'FI'].includes(c))) mxLocal++;
     }
-    return { total: t, us, eu, unk, providers, mxCountries, mxUs, mxBaltic };
+    return { total: t, us, sameCountry, otherEu, unk, providers, mxCountries, mxUs, mxLocal };
   }
 
   function jurisdictionHtml(stats, max) {
     let h = '';
     h += barHtml('US-based', stats.us, max, '#E83838', stats.total);
-    h += barHtml('Baltic/EU', stats.eu, max, '#2EDBA8', stats.total);
+    h += barHtml('Same country', stats.sameCountry, max, '#0E9680', stats.total);
+    if (stats.otherEu > 0) h += barHtml('Other EU', stats.otherEu, max, '#2EDBA8', stats.total);
     if (stats.unk > 0) h += barHtml('Unknown', stats.unk, max, '#BFBFBF', stats.total);
     return h;
   }
@@ -394,8 +401,8 @@ function buildStats(muniList) {
   html += `<p style="font-size:12px;color:#777;margin-top:8px"><strong>${mxInUs}</strong> of ${withMx} municipalities with MX records route mail through servers registered in the US.</p>`;
 
   // Per-country breakdown — side by side
-  const countryNames = { EE: 'Estonia', LV: 'Latvia', LT: 'Lithuania' };
-  const activeList = ['EE', 'LV', 'LT'].filter(cc => activeCountries.has(cc));
+  const countryNames = { EE: 'Estonia', LV: 'Latvia', LT: 'Lithuania', FI: 'Finland' };
+  const activeList = ['EE', 'LV', 'LT', 'FI'].filter(cc => activeCountries.has(cc));
   const countryStats = {};
   for (const cc of activeList) {
     const list = filtered.filter(m => m.country === cc);
@@ -414,7 +421,8 @@ function buildStats(muniList) {
       html += `<div class="stats-column" style="min-width:220px">`;
       html += `<div style="font-size:13px;font-weight:600;color:#444;margin-bottom:8px">${FLAGS[cc] || ''} ${countryNames[cc]} (${stats.total})</div>`;
       html += barHtml('US-based', stats.us, stats.total, '#E83838', stats.total);
-      html += barHtml('Baltic/EU', stats.eu, stats.total, '#2EDBA8', stats.total);
+      html += barHtml('Same country', stats.sameCountry, stats.total, '#0E9680', stats.total);
+      if (stats.otherEu > 0) html += barHtml('Other EU', stats.otherEu, stats.total, '#2EDBA8', stats.total);
       html += `<div style="margin-top:12px;font-size:11px;color:#999;font-weight:600">TOP PROVIDERS</div>`;
       for (const [p, count] of topProviders) {
         html += barHtml(p, count, topProviders[0][1], COLORS[p] || '#888', stats.total);

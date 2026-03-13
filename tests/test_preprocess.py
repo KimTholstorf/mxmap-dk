@@ -71,7 +71,7 @@ class TestGuessDomains:
     def test_no_country_generates_all_tlds(self):
         domains = guess_domains("Test")
         tlds = {d.split(".")[-1] for d in domains}
-        assert tlds == {"ee", "lv", "lt"}
+        assert tlds == {"ee", "lv", "lt", "fi"}
 
 
 # ── load_seed_data() ─────────────────────────────────────────────────
@@ -81,7 +81,7 @@ class TestLoadSeedData:
     def test_loads_all_countries(self):
         data = load_seed_data()
         countries = {m.get("country") for m in data.values()}
-        assert countries == {"EE", "LV", "LT"}
+        assert countries == {"EE", "LV", "LT", "FI"}
 
     def test_minimum_count(self):
         data = load_seed_data()

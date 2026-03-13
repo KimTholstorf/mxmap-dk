@@ -45,6 +45,23 @@ def detect_gateway(mx_records: list[str]) -> str | None:
     return None
 
 
+def classify_from_dkim(dkim: dict[str, str] | None) -> str | None:
+    """Classify provider from DKIM CNAME targets."""
+    if not dkim:
+        return None
+    blob = " ".join(dkim.values()).lower()
+    # Microsoft: selector1/2 -> *.onmicrosoft.com
+    if "onmicrosoft.com" in blob:
+        return "microsoft"
+    # Google: google._domainkey -> *.googlemail.com or *.google.com
+    if "google" in blob or "googlemail" in blob:
+        return "google"
+    for provider, keywords in PROVIDER_KEYWORDS.items():
+        if any(k in blob for k in keywords):
+            return provider
+    return None
+
+
 def _check_spf_for_provider(spf_blob: str) -> str | None:
     """Check an SPF blob for hyperscaler keywords, return provider or None."""
     for provider, keywords in PROVIDER_KEYWORDS.items():
@@ -71,16 +88,17 @@ def classify(
     mx_asns: set[int] | None = None,
     resolved_spf: str | None = None,
     autodiscover: dict[str, str] | None = None,
+    dkim: dict[str, str] | None = None,
 ) -> tuple[str, str]:
-    """Classify email provider based on MX, CNAME targets, SPF, and autodiscover.
+    """Classify email provider based on MX, CNAME targets, SPF, autodiscover, and DKIM.
 
     Returns (provider, reason) where reason explains the classification decision.
 
     Classification order:
     1. MX hostname matches a known provider directly
     2. CNAME of MX host resolves to a known provider
-    3. MX is a known gateway (spam filter) → check SPF/autodiscover for backend
-    4. MX exists but unrecognized → independent or Baltic ISP (by ASN)
+    3. MX is a known gateway (spam filter) → check SPF/autodiscover/DKIM for backend
+    4. MX exists but unrecognized → check DKIM, then independent or Baltic ISP (by ASN)
     5. No MX → unknown
     """
     mx_blob = " ".join(mx_records).lower()
@@ -127,6 +145,11 @@ def classify(
         if ad_provider:
             return ad_provider, (
                 f"MX is {gateway} gateway; autodiscover points to {ad_provider}"
+            )
+        dkim_provider = classify_from_dkim(dkim)
+        if dkim_provider:
+            return dkim_provider, (
+                f"MX is {gateway} gateway; DKIM signs via {dkim_provider}"
             )
         # Gateway relays to unknown backend — fall through to independent
 
