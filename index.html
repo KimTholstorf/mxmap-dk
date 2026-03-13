@@ -41,6 +41,7 @@
     background: #f8f9fb; border-bottom: 1px solid #e2e4e8; overflow: hidden; flex-shrink: 0;
     max-height: 2000px; padding: 16px 20px;
   }
+  #stats-bar:not(.collapsed) { max-height: 50vh; overflow-y: auto; }
   #info-bar.collapsed, #stats-bar.collapsed { max-height: 0; padding-top: 0; padding-bottom: 0; }
   .info-grid {
     display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -58,6 +59,12 @@
   .stats-value { width: 70px; font-size: 12px; color: #666; flex-shrink: 0; }
   .stats-columns { display: flex; gap: 32px; flex-wrap: wrap; }
   .stats-column { flex: 1; min-width: 280px; }
+  .stats-countries { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px 24px; }
+  .stats-countries .stats-label { width: 75px; font-size: 12px; }
+  .stats-countries .stats-value { width: 60px; }
+  .stats-countries .stats-row { margin: 3px 0; }
+  @media (max-width: 900px) { .stats-countries { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 600px) { .stats-countries { grid-template-columns: 1fr; } }
 
   #map { flex: 1; position: relative; width: 100%; will-change: transform; }
 
@@ -144,7 +151,7 @@
   <div class="info-grid">
     <div class="info-card">
       <h3>What is this?</h3>
-      <p>A map of municipalities in Estonia, Latvia, Lithuania, Finland, and Norway showing which provider handles their official email — grouped by jurisdiction — based on public DNS records.</p>
+      <p>A map of municipalities in Estonia, Latvia, Lithuania, Finland, Norway, and Sweden showing which provider handles their official email — grouped by jurisdiction — based on public DNS records.</p>
     </div>
     <div class="info-card">
       <h3>Digital sovereignty</h3>
@@ -182,6 +189,7 @@
     <button class="country-btn active" data-country="LT">LT</button>
     <button class="country-btn active" data-country="FI">FI</button>
     <button class="country-btn active" data-country="NO">NO</button>
+    <button class="country-btn active" data-country="SE">SE</button>
   </div>
 </main>
 
@@ -212,7 +220,7 @@ const TIERS = {
   'Unknown':        ['Unknown']
 };
 
-const FLAGS = { EE: '\u{1F1EA}\u{1F1EA}', LV: '\u{1F1F1}\u{1F1FB}', LT: '\u{1F1F1}\u{1F1F9}', FI: '\u{1F1EB}\u{1F1EE}', NO: '\u{1F1F3}\u{1F1F4}' };
+const FLAGS = { EE: '\u{1F1EA}\u{1F1EA}', LV: '\u{1F1F1}\u{1F1FB}', LT: '\u{1F1F1}\u{1F1F9}', FI: '\u{1F1EB}\u{1F1EE}', NO: '\u{1F1F3}\u{1F1F4}', SE: '\u{1F1F8}\u{1F1EA}' };
 
 const US_PROVIDERS = new Set(['Microsoft', 'Google', 'AWS']);
 function hasLocalGateway(m) {
@@ -224,7 +232,7 @@ let dnsData = null;
 let geoLayer = null;
 let gatewayMarkers = L.layerGroup();
 let updateLegend = function () {};
-let activeCountries = new Set(['EE', 'LV', 'LT', 'FI', 'NO']);
+let activeCountries = new Set(['EE', 'LV', 'LT', 'FI', 'NO', 'SE']);
 let muniByOsm = {};   // "relation/12345" -> municipality
 let muniByName = {};   // lowercase name -> municipality
 
@@ -325,7 +333,7 @@ function buildStats(muniList) {
   const withMx = filtered.filter(m => (m.mx || []).length > 0).length;
 
   const usProviders = new Set(['Microsoft', 'Google', 'AWS']);
-  const countryColors = { US: '#E83838', EE: '#2EDBA8', LV: '#34D5A0', LT: '#78FFD6', DE: '#6BA3D6', NL: '#6BA3D6', FI: '#6BA3D6', SE: '#6BA3D6', IE: '#6BA3D6', NO: '#10B898' };
+  const countryColors = { US: '#E83838', EE: '#2EDBA8', LV: '#34D5A0', LT: '#78FFD6', DE: '#6BA3D6', NL: '#6BA3D6', FI: '#6BA3D6', SE: '#56E8B0', IE: '#6BA3D6', NO: '#10B898' };
   const sectionTitle = '<div style="font-size:12px;color:#777;text-transform:uppercase;letter-spacing:0.3px;font-weight:600;margin-bottom:4px">';
 
   function barHtml(label, value, max, color, base) {
@@ -362,7 +370,7 @@ function buildStats(muniList) {
       }
       const cc = m.mx_countries || [];
       if (cc.includes('US')) mxUs++;
-      if (cc.some(c => ['EE', 'LV', 'LT', 'FI', 'NO'].includes(c))) mxLocal++;
+      if (cc.some(c => ['EE', 'LV', 'LT', 'FI', 'NO', 'SE'].includes(c))) mxLocal++;
     }
     return { total: t, us, usLocalGw, sameCountry, otherEu, unk, providers, mxCountries, mxUs, mxLocal };
   }
@@ -417,8 +425,8 @@ function buildStats(muniList) {
   html += `<p style="font-size:12px;color:#777;margin-top:8px"><strong>${mxInUs}</strong> of ${withMx} municipalities with MX records route mail through servers registered in the US.</p>`;
 
   // Per-country breakdown — side by side
-  const countryNames = { EE: 'Estonia', LV: 'Latvia', LT: 'Lithuania', FI: 'Finland', NO: 'Norway' };
-  const activeList = ['EE', 'LV', 'LT', 'FI', 'NO'].filter(cc => activeCountries.has(cc));
+  const countryNames = { EE: 'Estonia', LV: 'Latvia', LT: 'Lithuania', FI: 'Finland', NO: 'Norway', SE: 'Sweden' };
+  const activeList = ['EE', 'LV', 'LT', 'FI', 'NO', 'SE'].filter(cc => activeCountries.has(cc));
   const countryStats = {};
   for (const cc of activeList) {
     const list = filtered.filter(m => m.country === cc);
@@ -428,13 +436,13 @@ function buildStats(muniList) {
   if (Object.keys(countryStats).length > 0) {
     html += '<div style="border-top:1px solid #ddd;margin-top:12px;padding-top:12px">';
     html += sectionTitle + 'By country</div>';
-    html += '<div class="stats-columns">';
+    html += '<div class="stats-countries">';
     for (const cc of activeList) {
       const stats = countryStats[cc];
       if (!stats) continue;
       const topProviders = Object.entries(stats.providers).sort((a, b) => b[1] - a[1]).slice(0, 4);
       const topMx = Object.entries(stats.mxCountries).sort((a, b) => b[1] - a[1]).slice(0, 3);
-      html += `<div class="stats-column" style="min-width:220px">`;
+      html += `<div class="stats-column">`;
       html += `<div style="font-size:13px;font-weight:600;color:#444;margin-bottom:8px">${FLAGS[cc] || ''} ${countryNames[cc]} (${stats.total})</div>`;
       html += barHtml('US-based', stats.us, stats.total, '#E83838', stats.total);
       html += barHtml('Same country', stats.sameCountry, stats.total, '#0E9680', stats.total);
