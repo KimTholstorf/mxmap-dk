@@ -3,11 +3,13 @@ from mail_sovereignty.constants import (
     FOREIGN_SENDER_KEYWORDS,
     GATEWAY_KEYWORDS,
     GOOGLE_KEYWORDS,
-    INFOMANIAK_KEYWORDS,
+    TELIA_KEYWORDS,
+    TET_KEYWORDS,
+    ZONE_KEYWORDS,
     MICROSOFT_KEYWORDS,
     PROVIDER_KEYWORDS,
     SMTP_BANNER_KEYWORDS,
-    SWISS_ISP_ASNS,
+    BALTIC_ISP_ASNS,
 )
 
 
@@ -72,8 +74,12 @@ def classify(
         return "microsoft"
     if any(k in mx_blob for k in GOOGLE_KEYWORDS):
         return "google"
-    if any(k in mx_blob for k in INFOMANIAK_KEYWORDS):
-        return "infomaniak"
+    if any(k in mx_blob for k in ZONE_KEYWORDS):
+        return "zone"
+    if any(k in mx_blob for k in TELIA_KEYWORDS):
+        return "telia"
+    if any(k in mx_blob for k in TET_KEYWORDS):
+        return "tet"
     if any(k in mx_blob for k in AWS_KEYWORDS):
         return "aws"
 
@@ -83,8 +89,12 @@ def classify(
             return "microsoft"
         if any(k in cname_blob for k in GOOGLE_KEYWORDS):
             return "google"
-        if any(k in cname_blob for k in INFOMANIAK_KEYWORDS):
-            return "infomaniak"
+        if any(k in cname_blob for k in ZONE_KEYWORDS):
+            return "zone"
+        if any(k in cname_blob for k in TELIA_KEYWORDS):
+            return "telia"
+        if any(k in cname_blob for k in TET_KEYWORDS):
+            return "tet"
         if any(k in cname_blob for k in AWS_KEYWORDS):
             return "aws"
 
@@ -102,12 +112,12 @@ def classify(
         # Gateway relays to independent, fall through
 
     if mx_records:
-        if mx_asns and mx_asns & SWISS_ISP_ASNS.keys():
-            # Check autodiscover for hyperscaler backend behind Swiss ISP relay
+        if mx_asns and mx_asns & BALTIC_ISP_ASNS.keys():
+            # Check autodiscover for hyperscaler backend behind Baltic ISP relay
             ad_provider = classify_from_autodiscover(autodiscover)
             if ad_provider:
                 return ad_provider
-            return "swiss-isp"
+            return "baltic-isp"
         # Check autodiscover for hyperscaler backend behind independent MX
         ad_provider = classify_from_autodiscover(autodiscover)
         if ad_provider:

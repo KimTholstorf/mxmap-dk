@@ -186,146 +186,19 @@ async def process_unknown(
 
 
 MANUAL_OVERRIDES = {
-    # Neuchatel canton: all use @ne.ch (cantonal mail gateway operated by SIEN,
-    # MX points to cantonal servers nemx9a.ne.ch / ne2mx9a.ne.ch on SWITCH AS559)
-    "6404": {
-        "domain": "ne.ch",
-        "provider": "swiss-isp",
-        "gateway": "cantonal-ne",
-        "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"],
-        "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all",
-    },  # Boudry
-    "6408": {
-        "domain": "ne.ch",
-        "provider": "swiss-isp",
-        "gateway": "cantonal-ne",
-        "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"],
-        "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all",
-    },  # Cortaillod
-    "6413": {
-        "domain": "ne.ch",
-        "provider": "swiss-isp",
-        "gateway": "cantonal-ne",
-        "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"],
-        "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all",
-    },  # Rochefort
-    "6416": {
-        "domain": "ne.ch",
-        "provider": "swiss-isp",
-        "gateway": "cantonal-ne",
-        "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"],
-        "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all",
-    },  # Milvignes
-    "6417": {
-        "domain": "ne.ch",
-        "provider": "swiss-isp",
-        "gateway": "cantonal-ne",
-        "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"],
-        "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all",
-    },  # La Grande Beroche
-    "6432": {
-        "domain": "ne.ch",
-        "provider": "swiss-isp",
-        "gateway": "cantonal-ne",
-        "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"],
-        "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all",
-    },  # La Brevine
-    "6433": {
-        "domain": "ne.ch",
-        "provider": "swiss-isp",
-        "gateway": "cantonal-ne",
-        "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"],
-        "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all",
-    },  # Brot-Plamboz
-    "6434": {
-        "domain": "ne.ch",
-        "provider": "swiss-isp",
-        "gateway": "cantonal-ne",
-        "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"],
-        "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all",
-    },  # Le Cerneux-Pequignot
-    "6435": {
-        "domain": "ne.ch",
-        "provider": "swiss-isp",
-        "gateway": "cantonal-ne",
-        "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"],
-        "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all",
-    },  # La Chaux-du-Milieu
-    "6437": {
-        "domain": "ne.ch",
-        "provider": "swiss-isp",
-        "gateway": "cantonal-ne",
-        "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"],
-        "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all",
-    },  # Les Ponts-de-Martel
-    "6451": {
-        "domain": "ne.ch",
-        "provider": "swiss-isp",
-        "gateway": "cantonal-ne",
-        "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"],
-        "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all",
-    },  # Cornaux
-    "6455": {
-        "domain": "ne.ch",
-        "provider": "swiss-isp",
-        "gateway": "cantonal-ne",
-        "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"],
-        "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all",
-    },  # Le Landeron
-    "6456": {
-        "domain": "ne.ch",
-        "provider": "swiss-isp",
-        "gateway": "cantonal-ne",
-        "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"],
-        "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all",
-    },  # Lignieres
-    "6504": {
-        "domain": "ne.ch",
-        "provider": "swiss-isp",
-        "gateway": "cantonal-ne",
-        "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"],
-        "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all",
-    },  # La Cote-aux-Fees
-    "6423": {
-        "domain": "ne.ch",
-        "provider": "swiss-isp",
-        "gateway": "cantonal-ne",
-        "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"],
-        "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all",
-    },  # La Sagne
-    "6458": {
-        "domain": "ne.ch",
-        "provider": "swiss-isp",
-        "gateway": "cantonal-ne",
-        "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"],
-        "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all",
-    },  # Neuchatel
-    "6487": {
-        "domain": "ne.ch",
-        "provider": "swiss-isp",
-        "gateway": "cantonal-ne",
-        "mx": ["nemx9a.ne.ch", "ne2mx9a.ne.ch"],
-        "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all",
-    },  # Val-de-Ruz
-    # Other manual resolutions
-    "261": {
-        "domain": "zuerich.ch",
-        "provider": "independent",
-    },  # Zürich (not gemeinde-zuerich.ch)
-    "422": {
-        "domain": "ruetibeilyssach.ch",
-        "provider": "infomaniak",
-    },  # Rueti bei Lyssach
-    "2056": {
-        "name": "Fétigny-Ménières",
-        "canton": "Kanton Freiburg",
-        "domain": "fetigny-menieres.ch",
-        "provider": "microsoft",
-    },  # Missing from Wikidata
-    "6172": {
-        "domain": "gemeinde-bister.ch",
-        "provider": "microsoft",
-    },  # Bister VS
+    # Domains that differ from the guessed pattern
+    "EE-0589": {
+        "domain": "peipsi.ee",
+    },
+    "EE-0638": {
+        "domain": "pparnumaa.ee",
+    },
+    "LT-33": {
+        "domain": "panrs.lt",
+    },
+    "LV-0112": {
+        "domain": "dkn.lv",
+    },
 }
 
 
@@ -530,7 +403,7 @@ async def run(data_path: Path) -> None:
         semaphore = asyncio.Semaphore(CONCURRENCY_POSTPROCESS)
         async with httpx.AsyncClient(
             headers={
-                "User-Agent": "mxmap.ch/1.0 (https://github.com/davidhuser/mxmap)"
+                "User-Agent": "mxmap.ee/1.0 (https://github.com/livenson/mxmap)"
             },
             follow_redirects=True,
         ) as client:
@@ -550,14 +423,14 @@ async def run(data_path: Path) -> None:
         counts[m["provider"]] = counts.get(m["provider"], 0) + 1
     data["counts"] = dict(sorted(counts.items()))
     data["total"] = len(muni)
-    data["municipalities"] = dict(sorted(muni.items(), key=lambda kv: int(kv[0])))
+    data["municipalities"] = dict(sorted(muni.items()))
 
     remaining = counts.get("unknown", 0)
     print(f"\nFinal counts: {json.dumps(counts)}")
 
     if remaining > 0:
         print(f"\nStill unknown ({remaining}, for manual review):")
-        for m in sorted(muni.values(), key=lambda x: int(x["bfs"])):
+        for m in sorted(muni.values(), key=lambda x: x["bfs"]):
             if m["provider"] == "unknown":
                 print(
                     f"  {m['bfs']:>5}  {m['name']:<30} {m['canton']:<20} domain={m['domain']}"

@@ -2,11 +2,13 @@ from mail_sovereignty.constants import (
     MICROSOFT_KEYWORDS,
     GOOGLE_KEYWORDS,
     AWS_KEYWORDS,
-    INFOMANIAK_KEYWORDS,
+    ZONE_KEYWORDS,
+    TELIA_KEYWORDS,
+    TET_KEYWORDS,
     PROVIDER_KEYWORDS,
     FOREIGN_SENDER_KEYWORDS,
     SKIP_DOMAINS,
-    SWISS_ISP_ASNS,
+    BALTIC_ISP_ASNS,
 )
 
 
@@ -14,11 +16,15 @@ def test_keyword_lists_non_empty():
     assert MICROSOFT_KEYWORDS
     assert GOOGLE_KEYWORDS
     assert AWS_KEYWORDS
-    assert INFOMANIAK_KEYWORDS
+    assert ZONE_KEYWORDS
+    assert TELIA_KEYWORDS
+    assert TET_KEYWORDS
 
 
 def test_provider_keywords_has_all_providers():
-    assert set(PROVIDER_KEYWORDS.keys()) == {"microsoft", "google", "aws", "infomaniak"}
+    assert set(PROVIDER_KEYWORDS.keys()) == {
+        "microsoft", "google", "aws", "zone", "telia", "tet",
+    }
 
 
 def test_foreign_sender_keywords_non_empty():
@@ -39,12 +45,12 @@ def test_skip_domains_contains_expected():
     assert "schema.org" in SKIP_DOMAINS
 
 
-def test_swiss_isp_asns_contains_key_providers():
-    assert 3303 in SWISS_ISP_ASNS  # Swisscom
-    assert 559 in SWISS_ISP_ASNS  # SWITCH
-    assert 29691 in SWISS_ISP_ASNS  # Hostpoint
-    assert 15600 in SWISS_ISP_ASNS  # Quickline
+def test_baltic_isp_asns_contains_key_providers():
+    assert 3249 in BALTIC_ISP_ASNS  # Telia
+    assert 5518 in BALTIC_ISP_ASNS  # TET
+    assert 2586 in BALTIC_ISP_ASNS  # Elisa
+    assert 13194 in BALTIC_ISP_ASNS  # Bite
 
 
-def test_swiss_isp_asns_minimum_count():
-    assert len(SWISS_ISP_ASNS) >= 13
+def test_baltic_isp_asns_minimum_count():
+    assert len(BALTIC_ISP_ASNS) >= 10

@@ -1,0 +1,346 @@
+[
+  {
+    "id": "LV-0001",
+    "name": "Rīga",
+    "country": "LV",
+    "region": "Rīgas plānošanas reģions",
+    "domain": "riga.lv",
+    "osm_relation_id": 62495
+  },
+  {
+    "id": "LV-0005",
+    "name": "Daugavpils",
+    "country": "LV",
+    "region": "Latgales plānošanas reģions",
+    "domain": "daugavpils.lv",
+    "osm_relation_id": 1759163
+  },
+  {
+    "id": "LV-0009",
+    "name": "Jelgava",
+    "country": "LV",
+    "region": "Zemgales plānošanas reģions",
+    "domain": "jelgava.lv",
+    "osm_relation_id": 2219894
+  },
+  {
+    "id": "LV-0013",
+    "name": "Jūrmala",
+    "country": "LV",
+    "region": "Rīgas plānošanas reģions",
+    "domain": "jurmala.lv",
+    "osm_relation_id": 1765069
+  },
+  {
+    "id": "LV-0017",
+    "name": "Liepāja",
+    "country": "LV",
+    "region": "Kurzemes plānošanas reģions",
+    "domain": "liepaja.lv",
+    "osm_relation_id": 1625505
+  },
+  {
+    "id": "LV-0021",
+    "name": "Rēzekne",
+    "country": "LV",
+    "region": "Latgales plānošanas reģions",
+    "domain": "rezekne.lv",
+    "osm_relation_id": 2220728
+  },
+  {
+    "id": "LV-0027",
+    "name": "Ventspils",
+    "country": "LV",
+    "region": "Kurzemes plānošanas reģions",
+    "domain": "ventspils.lv",
+    "osm_relation_id": 2093752
+  },
+  {
+    "id": "LV-0804",
+    "name": "Ādažu novads",
+    "country": "LV",
+    "region": "Rīgas plānošanas reģions",
+    "domain": "adazi.lv",
+    "osm_relation_id": 14102151
+  },
+  {
+    "id": "LV-0326",
+    "name": "Aizkraukles novads",
+    "country": "LV",
+    "region": "Zemgales plānošanas reģions",
+    "domain": "aizkraukle.lv",
+    "osm_relation_id": 14102152
+  },
+  {
+    "id": "LV-0364",
+    "name": "Alūksnes novads",
+    "country": "LV",
+    "region": "Vidzemes plānošanas reģions",
+    "domain": "aluksne.lv",
+    "osm_relation_id": 14102153
+  },
+  {
+    "id": "LV-0110",
+    "name": "Augšdaugavas novads",
+    "country": "LV",
+    "region": "Latgales plānošanas reģions",
+    "domain": "augsdaugavasnovads.lv",
+    "osm_relation_id": 14102154
+  },
+  {
+    "id": "LV-0386",
+    "name": "Balvu novads",
+    "country": "LV",
+    "region": "Latgales plānošanas reģions",
+    "domain": "balvi.lv",
+    "osm_relation_id": 14102155
+  },
+  {
+    "id": "LV-0408",
+    "name": "Bauskas novads",
+    "country": "LV",
+    "region": "Zemgales plānošanas reģions",
+    "domain": "bauska.lv",
+    "osm_relation_id": 14102156
+  },
+  {
+    "id": "LV-0429",
+    "name": "Cēsu novads",
+    "country": "LV",
+    "region": "Vidzemes plānošanas reģions",
+    "domain": "cesis.lv",
+    "osm_relation_id": 14102157
+  },
+  {
+    "id": "LV-0112",
+    "name": "Dienvidkurzemes novads",
+    "country": "LV",
+    "region": "Kurzemes plānošanas reģions",
+    "domain": "dienvidkurzeme.lv",
+    "osm_relation_id": 14102158
+  },
+  {
+    "id": "LV-0468",
+    "name": "Dobeles novads",
+    "country": "LV",
+    "region": "Zemgales plānošanas reģions",
+    "domain": "dobele.lv",
+    "osm_relation_id": 14102159
+  },
+  {
+    "id": "LV-0508",
+    "name": "Gulbenes novads",
+    "country": "LV",
+    "region": "Vidzemes plānošanas reģions",
+    "domain": "gulbene.lv",
+    "osm_relation_id": 14102160
+  },
+  {
+    "id": "LV-0544",
+    "name": "Jelgavas novads",
+    "country": "LV",
+    "region": "Zemgales plānošanas reģions",
+    "domain": "jelgavasnovads.lv",
+    "osm_relation_id": 14102161
+  },
+  {
+    "id": "LV-0568",
+    "name": "Jēkabpils novads",
+    "country": "LV",
+    "region": "Zemgales plānošanas reģions",
+    "domain": "jekabpils.lv",
+    "osm_relation_id": 14102162
+  },
+  {
+    "id": "LV-0806",
+    "name": "Ķekavas novads",
+    "country": "LV",
+    "region": "Rīgas plānošanas reģions",
+    "domain": "kekava.lv",
+    "osm_relation_id": 14102163
+  },
+  {
+    "id": "LV-0607",
+    "name": "Krāslavas novads",
+    "country": "LV",
+    "region": "Latgales plānošanas reģions",
+    "domain": "kraslava.lv",
+    "osm_relation_id": 14102164
+  },
+  {
+    "id": "LV-0624",
+    "name": "Kuldīgas novads",
+    "country": "LV",
+    "region": "Kurzemes plānošanas reģions",
+    "domain": "kuldiga.lv",
+    "osm_relation_id": 14102165
+  },
+  {
+    "id": "LV-0661",
+    "name": "Limbažu novads",
+    "country": "LV",
+    "region": "Rīgas plānošanas reģions",
+    "domain": "limbazi.lv",
+    "osm_relation_id": 14102166
+  },
+  {
+    "id": "LV-0676",
+    "name": "Līvānu novads",
+    "country": "LV",
+    "region": "Latgales plānošanas reģions",
+    "domain": "livani.lv",
+    "osm_relation_id": 14102167
+  },
+  {
+    "id": "LV-0684",
+    "name": "Ludzas novads",
+    "country": "LV",
+    "region": "Latgales plānošanas reģions",
+    "domain": "ludza.lv",
+    "osm_relation_id": 14102168
+  },
+  {
+    "id": "LV-0702",
+    "name": "Madonas novads",
+    "country": "LV",
+    "region": "Vidzemes plānošanas reģions",
+    "domain": "madona.lv",
+    "osm_relation_id": 14102169
+  },
+  {
+    "id": "LV-0808",
+    "name": "Mārupes novads",
+    "country": "LV",
+    "region": "Rīgas plānošanas reģions",
+    "domain": "marupe.lv",
+    "osm_relation_id": 14102170
+  },
+  {
+    "id": "LV-0740",
+    "name": "Ogres novads",
+    "country": "LV",
+    "region": "Rīgas plānošanas reģions",
+    "domain": "ogresnovads.lv",
+    "osm_relation_id": 14102171
+  },
+  {
+    "id": "LV-0809",
+    "name": "Olaines novads",
+    "country": "LV",
+    "region": "Rīgas plānošanas reģions",
+    "domain": "olaine.lv",
+    "osm_relation_id": 14102172
+  },
+  {
+    "id": "LV-0766",
+    "name": "Preiļu novads",
+    "country": "LV",
+    "region": "Latgales plānošanas reģions",
+    "domain": "preili.lv",
+    "osm_relation_id": 14102173
+  },
+  {
+    "id": "LV-0786",
+    "name": "Rēzeknes novads",
+    "country": "LV",
+    "region": "Latgales plānošanas reģions",
+    "domain": "rezeknesnovads.lv",
+    "osm_relation_id": 14102174
+  },
+  {
+    "id": "LV-0813",
+    "name": "Ropažu novads",
+    "country": "LV",
+    "region": "Rīgas plānošanas reģions",
+    "domain": "ropazi.lv",
+    "osm_relation_id": 14102175
+  },
+  {
+    "id": "LV-0815",
+    "name": "Salaspils novads",
+    "country": "LV",
+    "region": "Rīgas plānošanas reģions",
+    "domain": "salaspils.lv",
+    "osm_relation_id": 14102176
+  },
+  {
+    "id": "LV-0848",
+    "name": "Saldus novads",
+    "country": "LV",
+    "region": "Kurzemes plānošanas reģions",
+    "domain": "saldus.lv",
+    "osm_relation_id": 14102177
+  },
+  {
+    "id": "LV-0818",
+    "name": "Saulkrastu novads",
+    "country": "LV",
+    "region": "Rīgas plānošanas reģions",
+    "domain": "saulkrasti.lv",
+    "osm_relation_id": 14102178
+  },
+  {
+    "id": "LV-0820",
+    "name": "Siguldas novads",
+    "country": "LV",
+    "region": "Rīgas plānošanas reģions",
+    "domain": "sigulda.lv",
+    "osm_relation_id": 14102179
+  },
+  {
+    "id": "LV-0886",
+    "name": "Smiltenes novads",
+    "country": "LV",
+    "region": "Vidzemes plānošanas reģions",
+    "domain": "smiltene.lv",
+    "osm_relation_id": 14102180
+  },
+  {
+    "id": "LV-0908",
+    "name": "Talsu novads",
+    "country": "LV",
+    "region": "Kurzemes plānošanas reģions",
+    "domain": "talsi.lv",
+    "osm_relation_id": 14102181
+  },
+  {
+    "id": "LV-0906",
+    "name": "Tukuma novads",
+    "country": "LV",
+    "region": "Rīgas plānošanas reģions",
+    "domain": "tukums.lv",
+    "osm_relation_id": 14102182
+  },
+  {
+    "id": "LV-0942",
+    "name": "Valkas novads",
+    "country": "LV",
+    "region": "Vidzemes plānošanas reģions",
+    "domain": "valka.lv",
+    "osm_relation_id": 14102183
+  },
+  {
+    "id": "LV-0250",
+    "name": "Valmieras novads",
+    "country": "LV",
+    "region": "Vidzemes plānošanas reģions",
+    "domain": "valmiera.lv",
+    "osm_relation_id": 14102184
+  },
+  {
+    "id": "LV-0968",
+    "name": "Varakļānu novads",
+    "country": "LV",
+    "region": "Latgales plānošanas reģions",
+    "domain": "varaklani.lv",
+    "osm_relation_id": 14102185
+  },
+  {
+    "id": "LV-0984",
+    "name": "Ventspils novads",
+    "country": "LV",
+    "region": "Kurzemes plānošanas reģions",
+    "domain": "ventspilsnovads.lv",
+    "osm_relation_id": 14102186
+  }
+]

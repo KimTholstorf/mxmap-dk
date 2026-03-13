@@ -14,21 +14,27 @@ from mail_sovereignty.classify import (
 
 class TestClassify:
     def test_microsoft_mx(self):
-        assert classify(["bern-ch.mail.protection.outlook.com"], "") == "microsoft"
+        assert classify(["tallinn-ch.mail.protection.outlook.com"], "") == "microsoft"
 
     def test_google_mx(self):
         assert (
             classify(["aspmx.l.google.com", "alt1.aspmx.l.google.com"], "") == "google"
         )
 
-    def test_infomaniak_mx(self):
-        assert classify(["mxpool.infomaniak.com"], "") == "infomaniak"
+    def test_zone_mx(self):
+        assert classify(["mxpool.zone.eu"], "") == "zone"
+
+    def test_telia_mx(self):
+        assert classify(["mail.telia.ee"], "") == "telia"
+
+    def test_tet_mx(self):
+        assert classify(["mail.tet.lv"], "") == "tet"
 
     def test_aws_mx(self):
         assert classify(["inbound-smtp.us-east-1.amazonaws.com"], "") == "aws"
 
     def test_independent_mx(self):
-        assert classify(["mail.example.ch"], "") == "independent"
+        assert classify(["mail.example.ee"], "") == "independent"
 
     def test_spf_fallback_when_no_mx(self):
         assert (
@@ -41,24 +47,24 @@ class TestClassify:
 
     def test_mx_takes_precedence_over_spf(self):
         result = classify(
-            ["mail.example.ch"],
+            ["mail.example.ee"],
             "v=spf1 include:spf.protection.outlook.com -all",
         )
         assert result == "independent"
 
     def test_cname_detects_microsoft(self):
         result = classify(
-            ["mail.example.ch"],
+            ["mail.example.ee"],
             "",
-            mx_cnames={"mail.example.ch": "mail.protection.outlook.com"},
+            mx_cnames={"mail.example.ee": "mail.protection.outlook.com"},
         )
         assert result == "microsoft"
 
     def test_cname_none_stays_independent(self):
-        assert classify(["mail.example.ch"], "", mx_cnames=None) == "independent"
+        assert classify(["mail.example.ee"], "", mx_cnames=None) == "independent"
 
     def test_cname_empty_stays_independent(self):
-        assert classify(["mail.example.ch"], "", mx_cnames={}) == "independent"
+        assert classify(["mail.example.ee"], "", mx_cnames={}) == "independent"
 
     def test_direct_mx_takes_precedence_over_cname(self):
         result = classify(
@@ -68,54 +74,54 @@ class TestClassify:
         )
         assert result == "microsoft"
 
-    def test_swiss_isp_asn(self):
+    def test_baltic_isp_asn(self):
         result = classify(
-            ["mail1.rzobt.ch"],
+            ["mail1.example.ee"],
             "",
-            mx_asns={3303},
+            mx_asns={3249},
         )
-        assert result == "swiss-isp"
+        assert result == "baltic-isp"
 
-    def test_swiss_isp_does_not_override_hostname_match(self):
+    def test_baltic_isp_does_not_override_hostname_match(self):
         result = classify(
             ["mail.protection.outlook.com"],
             "",
-            mx_asns={3303},
+            mx_asns={3249},
         )
         assert result == "microsoft"
 
-    def test_swiss_isp_does_not_override_cname_match(self):
+    def test_baltic_isp_does_not_override_cname_match(self):
         result = classify(
-            ["mail.example.ch"],
+            ["mail.example.ee"],
             "",
-            mx_cnames={"mail.example.ch": "mail.protection.outlook.com"},
-            mx_asns={3303},
+            mx_cnames={"mail.example.ee": "mail.protection.outlook.com"},
+            mx_asns={3249},
         )
         assert result == "microsoft"
 
-    def test_swiss_isp_with_autodiscover_microsoft(self):
-        """Swiss ISP relay with autodiscover pointing to outlook.com → microsoft."""
+    def test_baltic_isp_with_autodiscover_microsoft(self):
+        """Baltic ISP relay with autodiscover pointing to outlook.com → microsoft."""
         result = classify(
-            ["mail1.rzobt.ch"],
+            ["mail1.example.ee"],
             "",
-            mx_asns={3303},
+            mx_asns={3249},
             autodiscover={"autodiscover_cname": "autodiscover.outlook.com"},
         )
         assert result == "microsoft"
 
-    def test_swiss_isp_without_autodiscover_stays_swiss_isp(self):
-        """Swiss ISP relay without autodiscover stays swiss-isp."""
+    def test_baltic_isp_without_autodiscover_stays_baltic_isp(self):
+        """Baltic ISP relay without autodiscover stays baltic-isp."""
         result = classify(
-            ["mail1.rzobt.ch"],
+            ["mail1.example.ee"],
             "",
-            mx_asns={3303},
+            mx_asns={3249},
             autodiscover=None,
         )
-        assert result == "swiss-isp"
+        assert result == "baltic-isp"
 
-    def test_non_swiss_isp_asn_stays_independent(self):
+    def test_non_baltic_isp_asn_stays_independent(self):
         result = classify(
-            ["mail.example.ch"],
+            ["mail.example.ee"],
             "",
             mx_asns={99999},
         )
@@ -123,7 +129,7 @@ class TestClassify:
 
     def test_empty_asns_stays_independent(self):
         result = classify(
-            ["mail.example.ch"],
+            ["mail.example.ee"],
             "",
             mx_asns=set(),
         )
@@ -137,13 +143,6 @@ class TestClassify:
             "v=spf1 include:spf.protection.outlook.com -all",
         )
         assert result == "microsoft"
-
-    def test_cleanmail_gateway_with_google_spf(self):
-        result = classify(
-            ["mx.cleanmail.ch"],
-            "v=spf1 include:_spf.google.com -all",
-        )
-        assert result == "google"
 
     def test_gateway_no_hyperscaler_spf_stays_independent(self):
         result = classify(
@@ -161,24 +160,16 @@ class TestClassify:
 
     def test_gateway_microsoft_in_resolved_spf(self):
         result = classify(
-            ["mx.cleanmail.ch"],
-            "v=spf1 include:custom.ch -all",
-            resolved_spf="v=spf1 include:custom.ch -all v=spf1 include:spf.protection.outlook.com -all",
+            ["mx01.hornetsecurity.com"],
+            "v=spf1 include:custom.ee -all",
+            resolved_spf="v=spf1 include:custom.ee -all v=spf1 include:spf.protection.outlook.com -all",
         )
         assert result == "microsoft"
-
-    def test_gateway_resolved_spf_not_checked_if_raw_matches(self):
-        result = classify(
-            ["mx.cleanmail.ch"],
-            "v=spf1 include:_spf.google.com -all",
-            resolved_spf="v=spf1 include:spf.protection.outlook.com -all",
-        )
-        assert result == "google"
 
     def test_non_gateway_independent_mx_ignores_spf(self):
         """Self-hosted MX (not a gateway) should NOT be reclassified by SPF."""
         result = classify(
-            ["nemx9a.ne.ch"],
+            ["mail.tallinn.ee"],
             "v=spf1 include:spf.protection.outlook.com -all",
         )
         assert result == "independent"
@@ -204,13 +195,6 @@ class TestClassify:
         )
         assert result == "microsoft"
 
-    def test_abxsec_gateway_with_microsoft_spf(self):
-        result = classify(
-            ["mta1.abxsec.com"],
-            "v=spf1 include:spf.protection.outlook.com -all",
-        )
-        assert result == "microsoft"
-
     def test_proofpoint_gateway_with_microsoft_spf(self):
         result = classify(
             ["mx1.ppe-hosted.com"],
@@ -224,13 +208,6 @@ class TestClassify:
             "v=spf1 include:spf.protection.outlook.com -all",
         )
         assert result == "microsoft"
-
-    def test_spamvor_gateway_stays_independent_no_hyperscaler_spf(self):
-        result = classify(
-            ["relay.spamvor.com"],
-            "v=spf1 ip4:1.2.3.4 -all",
-        )
-        assert result == "independent"
 
     def test_gateway_does_not_override_direct_mx_match(self):
         """If MX directly matches a provider, gateway check is skipped."""
@@ -261,7 +238,7 @@ class TestClassify:
     def test_gateway_spf_takes_precedence_over_autodiscover(self):
         """If SPF already identifies a provider, autodiscover is not checked."""
         result = classify(
-            ["mx.cleanmail.ch"],
+            ["mx01.hornetsecurity.com"],
             "v=spf1 include:_spf.google.com -all",
             autodiscover={"autodiscover_cname": "autodiscover.outlook.com"},
         )
@@ -270,7 +247,7 @@ class TestClassify:
     def test_non_gateway_independent_uses_autodiscover_fallback(self):
         """Non-gateway independent MX should use autodiscover as fallback."""
         result = classify(
-            ["mail.example.ch"],
+            ["mail.example.ee"],
             "",
             autodiscover={"autodiscover_cname": "autodiscover.outlook.com"},
         )
@@ -279,7 +256,7 @@ class TestClassify:
     def test_non_gateway_independent_no_autodiscover_stays_independent(self):
         """Non-gateway independent MX without autodiscover stays independent."""
         result = classify(
-            ["mail.example.ch"],
+            ["mail.example.ee"],
             "",
             autodiscover=None,
         )
@@ -307,8 +284,8 @@ class TestClassify:
         """No MX, raw SPF has no keywords, resolved_spf has Microsoft → microsoft."""
         result = classify(
             [],
-            "v=spf1 include:custom.ch -all",
-            resolved_spf="v=spf1 include:custom.ch -all v=spf1 include:spf.protection.outlook.com -all",
+            "v=spf1 include:custom.ee -all",
+            resolved_spf="v=spf1 include:custom.ee -all v=spf1 include:spf.protection.outlook.com -all",
         )
         assert result == "microsoft"
 
@@ -358,7 +335,7 @@ class TestClassifyFromAutodiscover:
     def test_unrecognized_returns_none(self):
         assert (
             classify_from_autodiscover(
-                {"autodiscover_cname": "autodiscover.custom-host.ch"}
+                {"autodiscover_cname": "autodiscover.custom-host.ee"}
             )
             is None
         )
@@ -371,9 +348,6 @@ class TestDetectGateway:
     def test_seppmail(self):
         assert detect_gateway(["customer.seppmail.cloud"]) == "seppmail"
 
-    def test_cleanmail(self):
-        assert detect_gateway(["mx.cleanmail.ch"]) == "cleanmail"
-
     def test_barracuda(self):
         assert detect_gateway(["mail.barracudanetworks.com"]) == "barracuda"
 
@@ -383,20 +357,14 @@ class TestDetectGateway:
     def test_hornetsecurity(self):
         assert detect_gateway(["mx01.hornetsecurity.com"]) == "hornetsecurity"
 
-    def test_abxsec(self):
-        assert detect_gateway(["mta1.abxsec.com"]) == "abxsec"
-
     def test_proofpoint(self):
         assert detect_gateway(["mx1.ppe-hosted.com"]) == "proofpoint"
 
     def test_sophos(self):
         assert detect_gateway(["mx.hydra.sophos.com"]) == "sophos"
 
-    def test_spamvor(self):
-        assert detect_gateway(["relay.spamvor.com"]) == "spamvor"
-
     def test_no_gateway(self):
-        assert detect_gateway(["mail.example.ch"]) is None
+        assert detect_gateway(["mail.example.ee"]) is None
 
     def test_empty_list(self):
         assert detect_gateway([]) is None
@@ -419,7 +387,7 @@ class TestClassifyFromMx:
         assert classify_from_mx(["aspmx.l.google.com"]) == "google"
 
     def test_unrecognized_returns_independent(self):
-        assert classify_from_mx(["mail.custom.ch"]) == "independent"
+        assert classify_from_mx(["mail.custom.ee"]) == "independent"
 
     def test_case_insensitive(self):
         assert classify_from_mx(["MAIL.PROTECTION.OUTLOOK.COM"]) == "microsoft"
@@ -442,7 +410,7 @@ class TestClassifyFromSpf:
         )
 
     def test_unrecognized_returns_none(self):
-        assert classify_from_spf("v=spf1 include:custom.ch -all") is None
+        assert classify_from_spf("v=spf1 include:custom.ee -all") is None
 
 
 # ── spf_mentions_providers() ─────────────────────────────────────────
@@ -524,12 +492,15 @@ class TestClassifyFromSmtpBanner:
 
     def test_google_esmtp_in_ehlo(self):
         assert (
-            classify_from_smtp_banner("220 custom.example.ch", "250 Google ESMTP ready")
+            classify_from_smtp_banner("220 custom.example.ee", "250 Google ESMTP ready")
             == "google"
         )
 
-    def test_infomaniak_banner(self):
-        assert classify_from_smtp_banner("220 mail.infomaniak.ch ESMTP") == "infomaniak"
+    def test_zone_banner(self):
+        assert classify_from_smtp_banner("220 mail.zone.eu ESMTP") == "zone"
+
+    def test_telia_banner(self):
+        assert classify_from_smtp_banner("220 mail.telia.ee ESMTP") == "telia"
 
     def test_aws_banner(self):
         assert (
@@ -538,10 +509,10 @@ class TestClassifyFromSmtpBanner:
         )
 
     def test_postfix_returns_none(self):
-        assert classify_from_smtp_banner("220 mail.example.ch ESMTP Postfix") is None
+        assert classify_from_smtp_banner("220 mail.example.ee ESMTP Postfix") is None
 
     def test_exim_returns_none(self):
-        assert classify_from_smtp_banner("220 mail.example.ch ESMTP Exim 4.96") is None
+        assert classify_from_smtp_banner("220 mail.example.ee ESMTP Exim 4.96") is None
 
     def test_case_insensitive(self):
         assert (

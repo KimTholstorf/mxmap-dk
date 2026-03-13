@@ -1,0 +1,634 @@
+[
+  {
+    "id": "EE-0784",
+    "name": "Tallinn",
+    "country": "EE",
+    "region": "Harju maakond",
+    "domain": "tallinn.ee",
+    "osm_relation_id": 2580784
+  },
+  {
+    "id": "EE-0141",
+    "name": "Anija vald",
+    "country": "EE",
+    "region": "Harju maakond",
+    "domain": "anija.ee",
+    "osm_relation_id": 2631369
+  },
+  {
+    "id": "EE-0198",
+    "name": "Harku vald",
+    "country": "EE",
+    "region": "Harju maakond",
+    "domain": "harku.ee",
+    "osm_relation_id": 2631430
+  },
+  {
+    "id": "EE-0245",
+    "name": "Jõelähtme vald",
+    "country": "EE",
+    "region": "Harju maakond",
+    "domain": "joelahtme.ee",
+    "osm_relation_id": 2631502
+  },
+  {
+    "id": "EE-0279",
+    "name": "Keila linn",
+    "country": "EE",
+    "region": "Harju maakond",
+    "domain": "keila.ee",
+    "osm_relation_id": 2631537
+  },
+  {
+    "id": "EE-0296",
+    "name": "Kiili vald",
+    "country": "EE",
+    "region": "Harju maakond",
+    "domain": "kiilivald.ee",
+    "osm_relation_id": 2631555
+  },
+  {
+    "id": "EE-0338",
+    "name": "Kose vald",
+    "country": "EE",
+    "region": "Harju maakond",
+    "domain": "kosevald.ee",
+    "osm_relation_id": 2631566
+  },
+  {
+    "id": "EE-0353",
+    "name": "Kuusalu vald",
+    "country": "EE",
+    "region": "Harju maakond",
+    "domain": "kuusalu.ee",
+    "osm_relation_id": 2631575
+  },
+  {
+    "id": "EE-0424",
+    "name": "Loksa linn",
+    "country": "EE",
+    "region": "Harju maakond",
+    "domain": "loksa.ee",
+    "osm_relation_id": 2631580
+  },
+  {
+    "id": "EE-0431",
+    "name": "Lääne-Harju vald",
+    "country": "EE",
+    "region": "Harju maakond",
+    "domain": "laaneharju.ee",
+    "osm_relation_id": 9622893
+  },
+  {
+    "id": "EE-0446",
+    "name": "Maardu linn",
+    "country": "EE",
+    "region": "Harju maakond",
+    "domain": "maardu.ee",
+    "osm_relation_id": 2631624
+  },
+  {
+    "id": "EE-0651",
+    "name": "Raasiku vald",
+    "country": "EE",
+    "region": "Harju maakond",
+    "domain": "raasiku.ee",
+    "osm_relation_id": 2631635
+  },
+  {
+    "id": "EE-0653",
+    "name": "Rae vald",
+    "country": "EE",
+    "region": "Harju maakond",
+    "domain": "rae.ee",
+    "osm_relation_id": 2631644
+  },
+  {
+    "id": "EE-0718",
+    "name": "Saku vald",
+    "country": "EE",
+    "region": "Harju maakond",
+    "domain": "sakuvald.ee",
+    "osm_relation_id": 2631660
+  },
+  {
+    "id": "EE-0726",
+    "name": "Saue vald",
+    "country": "EE",
+    "region": "Harju maakond",
+    "domain": "sauevald.ee",
+    "osm_relation_id": 8414542
+  },
+  {
+    "id": "EE-0890",
+    "name": "Viimsi vald",
+    "country": "EE",
+    "region": "Harju maakond",
+    "domain": "viimsi.ee",
+    "osm_relation_id": 2631700
+  },
+  {
+    "id": "EE-0205",
+    "name": "Hiiumaa vald",
+    "country": "EE",
+    "region": "Hiiu maakond",
+    "domain": "hiiumaa.ee",
+    "osm_relation_id": 9702498
+  },
+  {
+    "id": "EE-0130",
+    "name": "Alutaguse vald",
+    "country": "EE",
+    "region": "Ida-Viru maakond",
+    "domain": "alutagusevald.ee",
+    "osm_relation_id": 9622858
+  },
+  {
+    "id": "EE-0251",
+    "name": "Jõhvi vald",
+    "country": "EE",
+    "region": "Ida-Viru maakond",
+    "domain": "johvi.ee",
+    "osm_relation_id": 2625849
+  },
+  {
+    "id": "EE-0321",
+    "name": "Kohtla-Järve linn",
+    "country": "EE",
+    "region": "Ida-Viru maakond",
+    "domain": "kohtla-jarve.ee",
+    "osm_relation_id": 2625875
+  },
+  {
+    "id": "EE-0428",
+    "name": "Lüganuse vald",
+    "country": "EE",
+    "region": "Ida-Viru maakond",
+    "domain": "lyganuse.ee",
+    "osm_relation_id": 8414579
+  },
+  {
+    "id": "EE-0511",
+    "name": "Narva linn",
+    "country": "EE",
+    "region": "Ida-Viru maakond",
+    "domain": "narva.ee",
+    "osm_relation_id": 1900592
+  },
+  {
+    "id": "EE-0514",
+    "name": "Narva-Jõesuu linn",
+    "country": "EE",
+    "region": "Ida-Viru maakond",
+    "domain": "narva-joesuu.ee",
+    "osm_relation_id": 2625901
+  },
+  {
+    "id": "EE-0735",
+    "name": "Sillamäe linn",
+    "country": "EE",
+    "region": "Ida-Viru maakond",
+    "domain": "sillamae.ee",
+    "osm_relation_id": 1753498
+  },
+  {
+    "id": "EE-0803",
+    "name": "Toila vald",
+    "country": "EE",
+    "region": "Ida-Viru maakond",
+    "domain": "toila.ee",
+    "osm_relation_id": 8414613
+  },
+  {
+    "id": "EE-0255",
+    "name": "Jõgeva vald",
+    "country": "EE",
+    "region": "Jõgeva maakond",
+    "domain": "jogeva.ee",
+    "osm_relation_id": 8414569
+  },
+  {
+    "id": "EE-0486",
+    "name": "Mustvee vald",
+    "country": "EE",
+    "region": "Jõgeva maakond",
+    "domain": "mustvee.ee",
+    "osm_relation_id": 9622882
+  },
+  {
+    "id": "EE-0622",
+    "name": "Põltsamaa vald",
+    "country": "EE",
+    "region": "Jõgeva maakond",
+    "domain": "poltsamaa.ee",
+    "osm_relation_id": 8414596
+  },
+  {
+    "id": "EE-0247",
+    "name": "Järva vald",
+    "country": "EE",
+    "region": "Järva maakond",
+    "domain": "jarvavald.ee",
+    "osm_relation_id": 9622870
+  },
+  {
+    "id": "EE-0586",
+    "name": "Paide linn",
+    "country": "EE",
+    "region": "Järva maakond",
+    "domain": "paide.ee",
+    "osm_relation_id": 8414588
+  },
+  {
+    "id": "EE-0834",
+    "name": "Türi vald",
+    "country": "EE",
+    "region": "Järva maakond",
+    "domain": "tyri.ee",
+    "osm_relation_id": 8414622
+  },
+  {
+    "id": "EE-0191",
+    "name": "Haljala vald",
+    "country": "EE",
+    "region": "Lääne-Viru maakond",
+    "domain": "haljala.ee",
+    "osm_relation_id": 8414551
+  },
+  {
+    "id": "EE-0261",
+    "name": "Kadrina vald",
+    "country": "EE",
+    "region": "Lääne-Viru maakond",
+    "domain": "kadrina.ee",
+    "osm_relation_id": 2638049
+  },
+  {
+    "id": "EE-0663",
+    "name": "Rakvere linn",
+    "country": "EE",
+    "region": "Lääne-Viru maakond",
+    "domain": "rakvere.ee",
+    "osm_relation_id": 2638225
+  },
+  {
+    "id": "EE-0665",
+    "name": "Rakvere vald",
+    "country": "EE",
+    "region": "Lääne-Viru maakond",
+    "domain": "rakverevald.ee",
+    "osm_relation_id": 2638231
+  },
+  {
+    "id": "EE-0792",
+    "name": "Tapa vald",
+    "country": "EE",
+    "region": "Lääne-Viru maakond",
+    "domain": "tapa.ee",
+    "osm_relation_id": 8414609
+  },
+  {
+    "id": "EE-0862",
+    "name": "Vinni vald",
+    "country": "EE",
+    "region": "Lääne-Viru maakond",
+    "domain": "vinnivald.ee",
+    "osm_relation_id": 8414628
+  },
+  {
+    "id": "EE-0870",
+    "name": "Viru-Nigula vald",
+    "country": "EE",
+    "region": "Lääne-Viru maakond",
+    "domain": "virunigula.ee",
+    "osm_relation_id": 9622897
+  },
+  {
+    "id": "EE-0903",
+    "name": "Väike-Maarja vald",
+    "country": "EE",
+    "region": "Lääne-Viru maakond",
+    "domain": "v-maarja.ee",
+    "osm_relation_id": 2638647
+  },
+  {
+    "id": "EE-0184",
+    "name": "Haapsalu linn",
+    "country": "EE",
+    "region": "Lääne maakond",
+    "domain": "haapsalu.ee",
+    "osm_relation_id": 8414556
+  },
+  {
+    "id": "EE-0441",
+    "name": "Lääne-Nigula vald",
+    "country": "EE",
+    "region": "Lääne maakond",
+    "domain": "laanenigula.ee",
+    "osm_relation_id": 9622876
+  },
+  {
+    "id": "EE-0907",
+    "name": "Vormsi vald",
+    "country": "EE",
+    "region": "Lääne maakond",
+    "domain": "vormsi.ee",
+    "osm_relation_id": 2637563
+  },
+  {
+    "id": "EE-0214",
+    "name": "Häädemeeste vald",
+    "country": "EE",
+    "region": "Pärnu maakond",
+    "domain": "haademeeste.ee",
+    "osm_relation_id": 2637535
+  },
+  {
+    "id": "EE-0284",
+    "name": "Kihnu vald",
+    "country": "EE",
+    "region": "Pärnu maakond",
+    "domain": "kihnu.ee",
+    "osm_relation_id": 2637548
+  },
+  {
+    "id": "EE-0430",
+    "name": "Lääneranna vald",
+    "country": "EE",
+    "region": "Pärnu maakond",
+    "domain": "laanerannavald.ee",
+    "osm_relation_id": 9622878
+  },
+  {
+    "id": "EE-0624",
+    "name": "Pärnu linn",
+    "country": "EE",
+    "region": "Pärnu maakond",
+    "domain": "parnu.ee",
+    "osm_relation_id": 2637573
+  },
+  {
+    "id": "EE-0638",
+    "name": "Põhja-Pärnumaa vald",
+    "country": "EE",
+    "region": "Pärnu maakond",
+    "domain": "pohja-parnumaa.ee",
+    "osm_relation_id": 9622887
+  },
+  {
+    "id": "EE-0712",
+    "name": "Saarde vald",
+    "country": "EE",
+    "region": "Pärnu maakond",
+    "domain": "saarde.ee",
+    "osm_relation_id": 8414600
+  },
+  {
+    "id": "EE-0809",
+    "name": "Tori vald",
+    "country": "EE",
+    "region": "Pärnu maakond",
+    "domain": "torivald.ee",
+    "osm_relation_id": 9622895
+  },
+  {
+    "id": "EE-0283",
+    "name": "Kanepi vald",
+    "country": "EE",
+    "region": "Põlva maakond",
+    "domain": "kanepi.ee",
+    "osm_relation_id": 8414573
+  },
+  {
+    "id": "EE-0625",
+    "name": "Põlva vald",
+    "country": "EE",
+    "region": "Põlva maakond",
+    "domain": "polva.ee",
+    "osm_relation_id": 8414594
+  },
+  {
+    "id": "EE-0708",
+    "name": "Räpina vald",
+    "country": "EE",
+    "region": "Põlva maakond",
+    "domain": "rapina.ee",
+    "osm_relation_id": 8414602
+  },
+  {
+    "id": "EE-0293",
+    "name": "Kehtna vald",
+    "country": "EE",
+    "region": "Rapla maakond",
+    "domain": "kehtna.ee",
+    "osm_relation_id": 2637974
+  },
+  {
+    "id": "EE-0304",
+    "name": "Kohila vald",
+    "country": "EE",
+    "region": "Rapla maakond",
+    "domain": "kohila.ee",
+    "osm_relation_id": 2638000
+  },
+  {
+    "id": "EE-0468",
+    "name": "Märjamaa vald",
+    "country": "EE",
+    "region": "Rapla maakond",
+    "domain": "marjamaa.ee",
+    "osm_relation_id": 8414582
+  },
+  {
+    "id": "EE-0668",
+    "name": "Rapla vald",
+    "country": "EE",
+    "region": "Rapla maakond",
+    "domain": "rapla.ee",
+    "osm_relation_id": 8414595
+  },
+  {
+    "id": "EE-0478",
+    "name": "Muhu vald",
+    "country": "EE",
+    "region": "Saare maakond",
+    "domain": "muhu.ee",
+    "osm_relation_id": 2625899
+  },
+  {
+    "id": "EE-0698",
+    "name": "Ruhnu vald",
+    "country": "EE",
+    "region": "Saare maakond",
+    "domain": "ruhnu.ee",
+    "osm_relation_id": 2637558
+  },
+  {
+    "id": "EE-0714",
+    "name": "Saaremaa vald",
+    "country": "EE",
+    "region": "Saare maakond",
+    "domain": "saaremaavald.ee",
+    "osm_relation_id": 9622890
+  },
+  {
+    "id": "EE-0142",
+    "name": "Elva vald",
+    "country": "EE",
+    "region": "Tartu maakond",
+    "domain": "elva.ee",
+    "osm_relation_id": 8414543
+  },
+  {
+    "id": "EE-0271",
+    "name": "Kambja vald",
+    "country": "EE",
+    "region": "Tartu maakond",
+    "domain": "kambja.ee",
+    "osm_relation_id": 8414571
+  },
+  {
+    "id": "EE-0291",
+    "name": "Kastre vald",
+    "country": "EE",
+    "region": "Tartu maakond",
+    "domain": "kastre.ee",
+    "osm_relation_id": 9622871
+  },
+  {
+    "id": "EE-0432",
+    "name": "Luunja vald",
+    "country": "EE",
+    "region": "Tartu maakond",
+    "domain": "luunja.ee",
+    "osm_relation_id": 2628556
+  },
+  {
+    "id": "EE-0528",
+    "name": "Nõo vald",
+    "country": "EE",
+    "region": "Tartu maakond",
+    "domain": "nvald.ee",
+    "osm_relation_id": 2628580
+  },
+  {
+    "id": "EE-0589",
+    "name": "Peipsiääre vald",
+    "country": "EE",
+    "region": "Tartu maakond",
+    "domain": "peipsiaare.ee",
+    "osm_relation_id": 9622885
+  },
+  {
+    "id": "EE-0793",
+    "name": "Tartu linn",
+    "country": "EE",
+    "region": "Tartu maakond",
+    "domain": "tartu.ee",
+    "osm_relation_id": 2628601
+  },
+  {
+    "id": "EE-0796",
+    "name": "Tartu vald",
+    "country": "EE",
+    "region": "Tartu maakond",
+    "domain": "tartuvald.ee",
+    "osm_relation_id": 8414611
+  },
+  {
+    "id": "EE-0557",
+    "name": "Otepää vald",
+    "country": "EE",
+    "region": "Valga maakond",
+    "domain": "otepaa.ee",
+    "osm_relation_id": 8414586
+  },
+  {
+    "id": "EE-0824",
+    "name": "Tõrva vald",
+    "country": "EE",
+    "region": "Valga maakond",
+    "domain": "torva.ee",
+    "osm_relation_id": 9622896
+  },
+  {
+    "id": "EE-0855",
+    "name": "Valga vald",
+    "country": "EE",
+    "region": "Valga maakond",
+    "domain": "valga.ee",
+    "osm_relation_id": 8414624
+  },
+  {
+    "id": "EE-0480",
+    "name": "Mulgi vald",
+    "country": "EE",
+    "region": "Viljandi maakond",
+    "domain": "mulgivald.ee",
+    "osm_relation_id": 9622880
+  },
+  {
+    "id": "EE-0615",
+    "name": "Põhja-Sakala vald",
+    "country": "EE",
+    "region": "Viljandi maakond",
+    "domain": "pohja-sakala.ee",
+    "osm_relation_id": 9622889
+  },
+  {
+    "id": "EE-0843",
+    "name": "Viljandi linn",
+    "country": "EE",
+    "region": "Viljandi maakond",
+    "domain": "viljandi.ee",
+    "osm_relation_id": 2638610
+  },
+  {
+    "id": "EE-0847",
+    "name": "Viljandi vald",
+    "country": "EE",
+    "region": "Viljandi maakond",
+    "domain": "viljandivald.ee",
+    "osm_relation_id": 8414626
+  },
+  {
+    "id": "EE-0132",
+    "name": "Antsla vald",
+    "country": "EE",
+    "region": "Võru maakond",
+    "domain": "antsla.ee",
+    "osm_relation_id": 2638317
+  },
+  {
+    "id": "EE-0699",
+    "name": "Rõuge vald",
+    "country": "EE",
+    "region": "Võru maakond",
+    "domain": "rouge.ee",
+    "osm_relation_id": 8414598
+  },
+  {
+    "id": "EE-0732",
+    "name": "Setomaa vald",
+    "country": "EE",
+    "region": "Võru maakond",
+    "domain": "setomaa.ee",
+    "osm_relation_id": 9622891
+  },
+  {
+    "id": "EE-0917",
+    "name": "Võru linn",
+    "country": "EE",
+    "region": "Võru maakond",
+    "domain": "voru.ee",
+    "osm_relation_id": 2638662
+  },
+  {
+    "id": "EE-0919",
+    "name": "Võru vald",
+    "country": "EE",
+    "region": "Võru maakond",
+    "domain": "voruvald.ee",
+    "osm_relation_id": 8414632
+  }
+]

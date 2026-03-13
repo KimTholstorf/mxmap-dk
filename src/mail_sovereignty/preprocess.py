@@ -9,7 +9,7 @@ from urllib.parse import urlparse
 import httpx
 
 from mail_sovereignty.classify import classify, detect_gateway
-from mail_sovereignty.constants import CONCURRENCY, SPARQL_QUERY, SPARQL_URL
+from mail_sovereignty.constants import CONCURRENCY
 from mail_sovereignty.dns import (
     lookup_autodiscover,
     lookup_mx,
@@ -18,6 +18,14 @@ from mail_sovereignty.dns import (
     resolve_mx_cnames,
     resolve_spf_includes,
 )
+
+DATA_DIR = Path(__file__).resolve().parent.parent.parent / "data"
+
+SEED_FILES = {
+    "EE": "municipalities_ee.json",
+    "LV": "municipalities_lv.json",
+    "LT": "municipalities_lt.json",
+}
 
 
 def url_to_domain(url: str | None) -> str | None:
@@ -31,81 +39,88 @@ def url_to_domain(url: str | None) -> str | None:
     return host if host else None
 
 
-def guess_domains(name: str) -> list[str]:
-    """Generate a small set of plausible domain guesses for a municipality."""
+def guess_domains(name: str, country: str = "") -> list[str]:
+    """Generate a small set of plausible domain guesses for a Baltic municipality."""
     raw = name.lower().strip()
     raw = re.sub(r"\s*\(.*?\)\s*", "", raw)
 
-    # German umlaut transliteration
-    de = raw.replace("\u00fc", "ue").replace("\u00e4", "ae").replace("\u00f6", "oe")
-    # French accent removal
-    fr = raw
-    for a, b in [
-        ("\u00e9", "e"),
-        ("\u00e8", "e"),
-        ("\u00ea", "e"),
-        ("\u00eb", "e"),
-        ("\u00e0", "a"),
-        ("\u00e2", "a"),
-        ("\u00f4", "o"),
-        ("\u00ee", "i"),
-        ("\u00f9", "u"),
-        ("\u00fb", "u"),
-        ("\u00e7", "c"),
-        ("\u00ef", "i"),
+    # Remove common suffixes in municipality names
+    for suffix in [
+        " vald", " linn",                             # Estonian
+        " novads", " pilsēta", " valstspilsēta",      # Latvian
+        " rajono savivaldybė", " miesto savivaldybė",  # Lithuanian
+        " savivaldybė",
     ]:
-        fr = fr.replace(a, b)
+        if raw.endswith(suffix):
+            raw = raw[: -len(suffix)]
+
+    # Baltic diacritics transliteration
+    translits = [
+        ("ä", "a"), ("ö", "o"), ("ü", "u"), ("õ", "o"),  # Estonian
+        ("š", "s"), ("ž", "z"), ("č", "c"),                # Shared
+        ("ā", "a"), ("ē", "e"), ("ī", "i"), ("ū", "u"),  # Latvian
+        ("ķ", "k"), ("ļ", "l"), ("ņ", "n"), ("ģ", "g"),
+        ("ė", "e"), ("į", "i"), ("ų", "u"), ("ū", "u"),  # Lithuanian
+    ]
+    clean = raw
+    for a, b in translits:
+        clean = clean.replace(a, b)
 
     def slugify(s):
         s = re.sub(r"['\u2019`]", "", s)
         s = re.sub(r"[^a-z0-9]+", "-", s)
         return s.strip("-")
 
-    slugs = {slugify(de), slugify(fr), slugify(raw)} - {""}
+    slugs = {slugify(clean), slugify(raw)} - {""}
+
+    # Determine TLDs based on country
+    tld_map = {"EE": [".ee"], "LV": [".lv"], "LT": [".lt"]}
+    tlds = tld_map.get(country, [".ee", ".lv", ".lt"])
+
     candidates = set()
     for slug in slugs:
-        candidates.add(f"{slug}.ch")
-        candidates.add(f"gemeinde-{slug}.ch")
-        candidates.add(f"commune-de-{slug}.ch")
+        for tld in tlds:
+            candidates.add(f"{slug}{tld}")
     return sorted(candidates)
 
 
-async def fetch_wikidata() -> dict[str, dict[str, str]]:
-    """Query Wikidata for all Swiss municipalities."""
-    print("Querying Wikidata for Swiss municipalities...")
-    headers = {
-        "Accept": "application/sparql-results+json",
-        "User-Agent": "MXmap/1.0 (https://github.com/davidhuser/mxmap)",
-    }
-    async with httpx.AsyncClient(timeout=120) as client:
-        r = await client.post(
-            SPARQL_URL,
-            data={"query": SPARQL_QUERY},
-            headers=headers,
-        )
-        r.raise_for_status()
-        data = r.json()
-
+def load_seed_data() -> dict[str, dict[str, str]]:
+    """Load Baltic municipalities from curated seed JSON files."""
+    print("Loading Baltic municipalities from seed data...")
     municipalities = {}
-    for row in data["results"]["bindings"]:
-        bfs = row["bfs"]["value"]
-        name = row.get("itemLabel", {}).get("value", f"BFS-{bfs}")
-        website = row.get("website", {}).get("value", "")
-        canton = row.get("cantonLabel", {}).get("value", "")
 
-        if bfs not in municipalities:
-            municipalities[bfs] = {
-                "bfs": bfs,
-                "name": name,
-                "website": website,
-                "canton": canton,
+    for country_code, filename in SEED_FILES.items():
+        path = DATA_DIR / filename
+        if not path.exists():
+            print(f"  WARNING: {path} not found, skipping {country_code}")
+            continue
+        with open(path, encoding="utf-8") as f:
+            entries = json.load(f)
+
+        for entry in entries:
+            muni_id = entry["id"]
+            municipalities[muni_id] = {
+                "bfs": muni_id,  # reuse "bfs" field as generic municipality ID
+                "name": entry["name"],
+                "canton": entry.get("region", ""),  # reuse "canton" field for region
+                "country": entry.get("country", country_code),
+                "website": entry.get("domain", ""),
+                "osm_relation_id": entry.get("osm_relation_id"),
             }
-        elif not municipalities[bfs]["website"] and website:
-            municipalities[bfs]["website"] = website
+        print(f"  {country_code}: {len(entries)} municipalities")
+
+    # Apply overrides
+    overrides_path = DATA_DIR / "overrides.json"
+    if overrides_path.exists():
+        with open(overrides_path, encoding="utf-8") as f:
+            overrides = json.load(f)
+        for muni_id, override in overrides.items():
+            if muni_id in municipalities:
+                municipalities[muni_id].update(override)
 
     print(
-        f"  Found {len(municipalities)} municipalities, "
-        f"{sum(1 for m in municipalities.values() if m['website'])} with websites"
+        f"  Total: {len(municipalities)} municipalities, "
+        f"{sum(1 for m in municipalities.values() if m['website'])} with domains"
     )
     return municipalities
 
@@ -124,7 +139,8 @@ async def scan_municipality(
                 spf = await lookup_spf(domain)
 
         if not mx:
-            for guess in guess_domains(m["name"]):
+            country = m.get("country", "")
+            for guess in guess_domains(m["name"], country):
                 if guess == domain:
                     continue
                 mx = await lookup_mx(guess)
@@ -151,11 +167,14 @@ async def scan_municipality(
             "bfs": m["bfs"],
             "name": m["name"],
             "canton": m.get("canton", ""),
+            "country": m.get("country", ""),
             "domain": domain or "",
             "mx": mx,
             "spf": spf,
             "provider": provider,
         }
+        if m.get("osm_relation_id"):
+            entry["osm_relation_id"] = m["osm_relation_id"]
         if spf_resolved and spf_resolved != spf:
             entry["spf_resolved"] = spf_resolved
         if gateway:
@@ -170,7 +189,7 @@ async def scan_municipality(
 
 
 async def run(output_path: Path) -> None:
-    municipalities = await fetch_wikidata()
+    municipalities = load_seed_data()
     total = len(municipalities)
 
     print(f"\nScanning {total} municipalities for MX/SPF records...")
@@ -193,9 +212,11 @@ async def run(output_path: Path) -> None:
                 f"  [{done:4d}/{total}]  "
                 f"MS={counts.get('microsoft', 0)}  "
                 f"Google={counts.get('google', 0)}  "
-                f"Infomaniak={counts.get('infomaniak', 0)}  "
+                f"Zone={counts.get('zone', 0)}  "
+                f"Telia={counts.get('telia', 0)}  "
+                f"TET={counts.get('tet', 0)}  "
                 f"AWS={counts.get('aws', 0)}  "
-                f"ISP={counts.get('swiss-isp', 0)}  "
+                f"ISP={counts.get('baltic-isp', 0)}  "
                 f"Indep={counts.get('independent', 0)}  "
                 f"?={counts.get('unknown', 0)}"
             )
@@ -208,15 +229,17 @@ async def run(output_path: Path) -> None:
     print(f"RESULTS: {len(results)} municipalities scanned")
     print(f"  Microsoft/Azure : {counts.get('microsoft', 0):>5}")
     print(f"  Google/GCP      : {counts.get('google', 0):>5}")
-    print(f"  Infomaniak      : {counts.get('infomaniak', 0):>5}")
+    print(f"  Zone.eu         : {counts.get('zone', 0):>5}")
+    print(f"  Telia           : {counts.get('telia', 0):>5}")
+    print(f"  TET             : {counts.get('tet', 0):>5}")
     print(f"  AWS             : {counts.get('aws', 0):>5}")
-    print(f"  Swiss ISP       : {counts.get('swiss-isp', 0):>5}")
+    print(f"  Baltic ISP      : {counts.get('baltic-isp', 0):>5}")
     print(f"  Independent     : {counts.get('independent', 0):>5}")
     print(f"  Unknown/No MX   : {counts.get('unknown', 0):>5}")
     print(f"{'=' * 50}")
 
     sorted_counts = dict(sorted(counts.items()))
-    sorted_munis = dict(sorted(results.items(), key=lambda kv: int(kv[0])))
+    sorted_munis = dict(sorted(results.items()))
 
     output = {
         "generated": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),

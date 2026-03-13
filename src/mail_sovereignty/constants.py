@@ -17,13 +17,19 @@ GOOGLE_KEYWORDS = [
     "aspmx.l.google.com",
 ]
 AWS_KEYWORDS = ["amazonaws", "amazonses", "awsdns"]
-INFOMANIAK_KEYWORDS = ["infomaniak", "ikmail.com", "mxpool.infomaniak"]
+
+# Baltic-specific providers (replaces Infomaniak for Swiss)
+ZONE_KEYWORDS = ["zone.eu", "zone.ee", "zoneit.eu"]
+TELIA_KEYWORDS = ["telia.ee", "telia.lt", "telia.lv", "telia.com"]
+TET_KEYWORDS = ["tet.lv"]
 
 PROVIDER_KEYWORDS = {
     "microsoft": MICROSOFT_KEYWORDS,
     "google": GOOGLE_KEYWORDS,
     "aws": AWS_KEYWORDS,
-    "infomaniak": INFOMANIAK_KEYWORDS,
+    "zone": ZONE_KEYWORDS,
+    "telia": TELIA_KEYWORDS,
+    "tet": TET_KEYWORDS,
 }
 
 FOREIGN_SENDER_KEYWORDS = {
@@ -41,36 +47,16 @@ FOREIGN_SENDER_KEYWORDS = {
 }
 
 SPARQL_URL = "https://query.wikidata.org/sparql"
-SPARQL_QUERY = """
-SELECT ?item ?itemLabel ?bfs ?website ?cantonLabel WHERE {
-  ?item wdt:P31 wd:Q70208 .          # instance of: municipality of Switzerland
-  ?item wdt:P771 ?bfs .              # Swiss municipality code (BFS number)
-  FILTER NOT EXISTS {                  # exclude dissolved municipalities
-    ?item wdt:P576 ?dissolved .
-    FILTER(?dissolved <= NOW())
-  }
-  FILTER NOT EXISTS {                  # exclude municipalities with ended P31 statement
-    ?item p:P31 ?stmt .
-    ?stmt ps:P31 wd:Q70208 .
-    ?stmt pq:P582 ?endTime .
-    FILTER(?endTime <= NOW())
-  }
-  FILTER NOT EXISTS {                  # exclude municipalities replaced by a successor
-    ?item wdt:P1366 ?successor .
-  }
-  OPTIONAL { ?item wdt:P856 ?website . }
-  OPTIONAL { ?item wdt:P131 ?canton .
-             ?canton wdt:P31 wd:Q23058 . }
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "de,fr,it,rm,en" . }
-}
-ORDER BY xsd:integer(?bfs)
-"""
+# Not used — Baltic municipalities are loaded from seed JSON files
+SPARQL_QUERY = ""
 
 EMAIL_RE = re.compile(r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}")
 TYPO3_RE = re.compile(r"linkTo_UnCryptMailto\(['\"]([^'\"]+)['\"]")
 SKIP_DOMAINS = {
     "example.com",
-    "example.ch",
+    "example.ee",
+    "example.lv",
+    "example.lt",
     "sentry.io",
     "w3.org",
     "gstatic.com",
@@ -81,47 +67,49 @@ SKIP_DOMAINS = {
 SUBPAGES = [
     "/kontakt",
     "/contact",
-    "/impressum",
+    "/kontaktid",       # Estonian
+    "/kontakti",        # Latvian
+    "/kontaktai",       # Lithuanian
     "/kontakt/",
     "/contact/",
-    "/impressum/",
-    "/de/kontakt",
-    "/fr/contact",
-    "/it/contatto",
-    "/verwaltung",
-    "/administration",
-    "/autorites",
-    "/gemeinde",
-    "/commune",
-    "/comune",
+    "/meist",           # Estonian: "About us"
+    "/par-mums",        # Latvian: "About us"
+    "/apie-mus",        # Lithuanian: "About us"
+    "/struktuur",       # Estonian: "Structure"
+    "/struktura",       # Lithuanian: "Structure"
 ]
 
 GATEWAY_KEYWORDS = {
     "seppmail": ["seppmail.cloud", "seppmail.com"],
-    "cleanmail": ["cleanmail.ch", "cleanmail.safecenter.ch"],
     "barracuda": ["barracudanetworks.com", "barracuda.com"],
     "trendmicro": ["tmes.trendmicro.eu", "tmes.trendmicro.com"],
-    "hornetsecurity": ["hornetsecurity.com", "hornetsecurity.ch"],
-    "abxsec": ["abxsec.com"],
+    "hornetsecurity": ["hornetsecurity.com"],
     "proofpoint": ["ppe-hosted.com"],
     "sophos": ["hydra.sophos.com"],
-    "spamvor": ["spamvor.com"],
 }
 
-SWISS_ISP_ASNS: dict[int, str] = {
-    559: "SWITCH",
-    3303: "Swisscom",
-    6730: "Sunrise UPC",
-    6830: "Liberty Global (UPC/Sunrise)",
-    12399: "Sunrise",
-    13030: "Init7",
-    13213: "Cyberlink AG",
-    15576: "NTS",
-    15600: "Quickline",
-    15796: "Netzone AG",
-    24889: "Datapark AG",
-    29691: "Hostpoint / Green.ch",
-    51786: "Infomaniak Network SA",
+# Baltic ISP ASNs (replaces SWISS_ISP_ASNS)
+BALTIC_ISP_ASNS: dict[int, str] = {
+    # Estonia
+    3249: "Telia (EE/LT)",
+    2586: "Elisa Eesti",
+    3327: "Telia Eesti",
+    49604: "Telia Eesti",
+    3212: "EENET",
+    # Latvia
+    5518: "TET (Lattelecom)",
+    12578: "Lattelecom",
+    12993: "LVRTC",
+    2847: "LATNET",
+    # Lithuania
+    8764: "Telia Lietuva",
+    13194: "Bite Lietuva",
+    33922: "Cgates",
+    15440: "Baltneta",
+    61272: "Init (LT)",
+    6769: "LITNET",
+    # Multi-country
+    2588: "Elisa",
 }
 
 CONCURRENCY = 20
@@ -138,8 +126,13 @@ SMTP_BANNER_KEYWORDS = {
         "mx.google.com",
         "google esmtp",
     ],
-    "infomaniak": [
-        "infomaniak",
+    "zone": [
+        "zone.eu",
+        "zone.ee",
+    ],
+    "telia": [
+        "telia.ee",
+        "telia.lt",
     ],
     "aws": [
         "amazonaws",
