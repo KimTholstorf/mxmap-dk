@@ -1,28 +1,27 @@
-# MXmap — Email Providers of Swiss Municipalities
+# MX Map — Email Providers of Baltic Municipalities
 
-[![CI](https://github.com/davidhuser/mxmap/actions/workflows/ci.yml/badge.svg)](https://github.com/davidhuser/mxmap/actions/workflows/ci.yml)
-[![Nightly](https://github.com/davidhuser/mxmap/actions/workflows/nightly.yml/badge.svg)](https://github.com/davidhuser/mxmap/actions/workflows/nightly.yml)
+[![Nightly](https://github.com/livenson/mxmap/actions/workflows/nightly.yml/badge.svg)](https://github.com/livenson/mxmap/actions/workflows/nightly.yml)
 
-An interactive map showing where Swiss municipalities host their email — whether with US hyperscalers (Microsoft, Google, AWS) or Swiss providers or other solutions.
+An interactive map showing where municipalities in Estonia, Latvia, and Lithuania host their official email — whether with US hyperscalers (Microsoft, Google, AWS) or Baltic/EU providers or self-hosted solutions.
 
-**[View the live map](https://mxmap.ch)**
+**[View the live map](https://livenson.github.io/mxmap/)**
 
-[![Screenshot of MXmap](og-image.jpg)](https://mxmap.ch)
+[![Screenshot of MX Map](og-image.jpg)](https://livenson.github.io/mxmap/)
 
 ## How it works
 
 The data pipeline has three steps:
 
-1. **Preprocess** -- Fetches all ~2100 Swiss municipalities from Wikidata, performs MX and SPF DNS lookups on their official domains, and classifies each municipality's email provider.
-2. **Postprocess** -- Applies manual overrides for edge cases, retries DNS for unresolved domains, checks SMTP banners of independent MX hosts for hidden providers, then scrapes websites of still-unclassified municipalities for email addresses.
-3. **Validate** -- Cross-validates MX and SPF records, assigns a confidence score (0-100) to each entry, and generates a validation report.
+1. **Preprocess** — Loads ~182 Baltic municipalities from curated seed data, performs MX and SPF DNS lookups on their official domains (with domain guessing for missing entries), and classifies each municipality's email provider.
+2. **Postprocess** — Applies manual overrides for edge cases, retries DNS for unresolved domains, checks SMTP banners of independent MX hosts for hidden providers, then scrapes websites of still-unclassified municipalities for email addresses.
+3. **Validate** — Cross-validates MX and SPF records, assigns a confidence score (0–100) to each entry, and generates a validation report.
 
 ```mermaid
 flowchart TD
-    trigger["Nightly trigger"] --> wikidata
+    trigger["Nightly trigger"] --> seed
 
     subgraph pre ["1 · Preprocess"]
-        wikidata[/"Wikidata SPARQL"/] --> fetch["Fetch ~2100 municipalities"]
+        seed[/"Seed data (EE, LV, LT)"/] --> fetch["Load ~182 municipalities"]
         fetch --> domains["Extract domains +<br/>guess candidates"]
         domains --> dns["MX + SPF lookups<br/>(3 resolvers)"]
         dns --> spf_resolve["Resolve SPF includes<br/>& redirects"]
@@ -36,9 +35,9 @@ flowchart TD
     classify --> overrides
 
     subgraph post ["2 · Postprocess"]
-        overrides["Apply manual overrides<br/>(19 edge cases)"] --> retry["Retry DNS<br/>for unknowns"]
+        overrides["Apply manual overrides"] --> retry["Retry DNS<br/>for unknowns"]
         retry --> smtp["SMTP banner check<br/>(EHLO on port 25)"]
-        smtp --> scrape_urls["Probe municipal websites<br/>(/kontakt, /contact, /impressum …)"]
+        smtp --> scrape_urls["Probe municipal websites<br/>(/kontaktid, /kontakti, /kontaktai …)"]
         scrape_urls --> extract["Extract emails<br/>+ decrypt TYPO3 obfuscation"]
         extract --> scrape_dns["DNS lookup on<br/>email domains"]
         scrape_dns --> reclassify["Reclassify<br/>resolved entries"]
@@ -56,7 +55,7 @@ flowchart TD
     gate -- "Fail" --> issue["Open GitHub issue"]
 
     style trigger fill:#e8f4fd,stroke:#4a90d9,color:#1a5276
-    style wikidata fill:#e8f4fd,stroke:#4a90d9,color:#1a5276
+    style seed fill:#e8f4fd,stroke:#4a90d9,color:#1a5276
     style data fill:#d5f5e3,stroke:#27ae60,color:#1e8449
     style deploy fill:#d5f5e3,stroke:#27ae60,color:#1e8449
     style issue fill:#fadbd8,stroke:#e74c3c,color:#922b21
@@ -89,12 +88,17 @@ uv run ruff check src tests
 uv run ruff format src tests
 ```
 
+## Attribution
+
+This project is a fork of [mxmap.ch](https://mxmap.ch) by [David Huser](https://github.com/davidhuser/mxmap), which maps email providers of Swiss municipalities. Adapted for the Baltic states (Estonia, Latvia, Lithuania) with Baltic-specific provider detection (Telia, TET, Zone.eu, Baltic ISPs), curated seed data, and Baltic municipality geodata.
+
 ## Related work
 
+* [mxmap.ch](https://mxmap.ch) — the original Swiss municipality email provider map
 * [hpr4379 :: Mapping Municipalities' Digital Dependencies](https://hackerpublicradio.org/eps/hpr4379/index.html)
-* if you know of other similar projects, please open an issue or submit a PR to add them here!
+* If you know of similar projects for other countries, please open an issue or submit a PR!
 
 ## Contributing
 
-If you spot a misclassification, please open an issue with the BFS number and the correct provider.
+If you spot a misclassification, please open an issue with the municipality ID and the correct provider.
 For municipalities where automated detection fails, corrections can be added to the `MANUAL_OVERRIDES` dict in `src/mail_sovereignty/postprocess.py`.
