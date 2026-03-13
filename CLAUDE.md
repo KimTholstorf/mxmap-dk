@@ -70,11 +70,11 @@ All provider detection is keyword-based. To add a new provider:
 
 ### Frontend (`index.html`)
 
-Single-page app that fetches `data.json` + `baltic-municipalities.topo.json`. Normalizes pipeline output (dict keyed by BFS ID) into the shape the map expects. Features: country filters (EE/LV/LT) that update both map styling and legend counts, provider-colored choropleth, click popups with classification reason.
+Single-page app that fetches `data.json` + `baltic-municipalities.topo.json`. Normalizes pipeline output (dict keyed by BFS ID) into the shape the map expects. Features: country filters (EE/LV/LT) that update map styling, legend counts, and statistics; provider-colored choropleth; click popups with classification reason and MX server country. Two mutually-exclusive collapsible panels: About (project info) and Statistics (overall + per-country jurisdiction/provider/MX location breakdowns).
 
 ### DNS Module (`dns.py`)
 
-All lookups use 3 independent resolvers with retry logic. Key functions: `lookup_mx()`, `lookup_spf()`, `resolve_spf_includes()` (recursive BFS with loop detection), `resolve_mx_cnames()`, `resolve_mx_asns()` (via Team Cymru DNS), `lookup_autodiscover()`.
+All lookups use 3 independent resolvers with retry logic. Key functions: `lookup_mx()`, `lookup_spf()`, `resolve_spf_includes()` (recursive BFS with loop detection), `resolve_mx_cnames()`, `resolve_mx_asns()`, `resolve_mx_countries()` (both via Team Cymru DNS — ASN + country code from same query), `lookup_autodiscover()`.
 
 ## Testing
 
