@@ -1,0 +1,2322 @@
+[
+  {
+    "id": "SE-0114",
+    "name": "Upplands Väsby",
+    "country": "SE",
+    "region": "Stockholms län",
+    "domain": "upplandsvasby.se",
+    "osm_relation_id": 397187
+  },
+  {
+    "id": "SE-0115",
+    "name": "Vallentuna",
+    "country": "SE",
+    "region": "Stockholms län",
+    "domain": "vallentuna.se",
+    "osm_relation_id": 959462
+  },
+  {
+    "id": "SE-0117",
+    "name": "Österåker",
+    "country": "SE",
+    "region": "Stockholms län",
+    "domain": "osteraker.se",
+    "osm_relation_id": 398037
+  },
+  {
+    "id": "SE-0120",
+    "name": "Värmdö",
+    "country": "SE",
+    "region": "Stockholms län",
+    "domain": "varmdo.se",
+    "osm_relation_id": 398649
+  },
+  {
+    "id": "SE-0123",
+    "name": "Järfälla",
+    "country": "SE",
+    "region": "Stockholms län",
+    "domain": "jarfalla.se",
+    "osm_relation_id": 398022
+  },
+  {
+    "id": "SE-0125",
+    "name": "Ekerö",
+    "country": "SE",
+    "region": "Stockholms län",
+    "domain": "ekero.se",
+    "osm_relation_id": 398920
+  },
+  {
+    "id": "SE-0126",
+    "name": "Huddinge",
+    "country": "SE",
+    "region": "Stockholms län",
+    "domain": "huddinge.se",
+    "osm_relation_id": 398567
+  },
+  {
+    "id": "SE-0127",
+    "name": "Botkyrka",
+    "country": "SE",
+    "region": "Stockholms län",
+    "domain": "botkyrka.se",
+    "osm_relation_id": 398626
+  },
+  {
+    "id": "SE-0128",
+    "name": "Salem",
+    "country": "SE",
+    "region": "Stockholms län",
+    "domain": "salem.se",
+    "osm_relation_id": 398918
+  },
+  {
+    "id": "SE-0136",
+    "name": "Haninge",
+    "country": "SE",
+    "region": "Stockholms län",
+    "domain": "haninge.se",
+    "osm_relation_id": 398625
+  },
+  {
+    "id": "SE-0138",
+    "name": "Tyresö",
+    "country": "SE",
+    "region": "Stockholms län",
+    "domain": "tyreso.se",
+    "osm_relation_id": 398575
+  },
+  {
+    "id": "SE-0139",
+    "name": "Upplands-Bro",
+    "country": "SE",
+    "region": "Stockholms län",
+    "domain": "upplands-bro.se",
+    "osm_relation_id": 369474
+  },
+  {
+    "id": "SE-0140",
+    "name": "Nykvarn",
+    "country": "SE",
+    "region": "Stockholms län",
+    "domain": "nykvarn.se",
+    "osm_relation_id": 935473
+  },
+  {
+    "id": "SE-0160",
+    "name": "Täby",
+    "country": "SE",
+    "region": "Stockholms län",
+    "domain": "taby.se",
+    "osm_relation_id": 397194
+  },
+  {
+    "id": "SE-0162",
+    "name": "Danderyd",
+    "country": "SE",
+    "region": "Stockholms län",
+    "domain": "danderyd.se",
+    "osm_relation_id": 398034
+  },
+  {
+    "id": "SE-0163",
+    "name": "Sollentuna",
+    "country": "SE",
+    "region": "Stockholms län",
+    "domain": "sollentuna.se",
+    "osm_relation_id": 398023
+  },
+  {
+    "id": "SE-0180",
+    "name": "Stockholm",
+    "country": "SE",
+    "region": "Stockholms län",
+    "domain": "stockholm.se",
+    "osm_relation_id": 398021
+  },
+  {
+    "id": "SE-0181",
+    "name": "Södertälje",
+    "country": "SE",
+    "region": "Stockholms län",
+    "domain": "sodertalje.se",
+    "osm_relation_id": 398919
+  },
+  {
+    "id": "SE-0182",
+    "name": "Nacka",
+    "country": "SE",
+    "region": "Stockholms län",
+    "domain": "nacka.se",
+    "osm_relation_id": 398038
+  },
+  {
+    "id": "SE-0183",
+    "name": "Sundbyberg",
+    "country": "SE",
+    "region": "Stockholms län",
+    "domain": "sundbyberg.se",
+    "osm_relation_id": 398039
+  },
+  {
+    "id": "SE-0184",
+    "name": "Solna",
+    "country": "SE",
+    "region": "Stockholms län",
+    "domain": "solna.se",
+    "osm_relation_id": 398040
+  },
+  {
+    "id": "SE-0186",
+    "name": "Lidingö",
+    "country": "SE",
+    "region": "Stockholms län",
+    "domain": "lidingo.se",
+    "osm_relation_id": 398035
+  },
+  {
+    "id": "SE-0187",
+    "name": "Vaxholm",
+    "country": "SE",
+    "region": "Stockholms län",
+    "domain": "vaxholm.se",
+    "osm_relation_id": 398036
+  },
+  {
+    "id": "SE-0188",
+    "name": "Norrtälje",
+    "country": "SE",
+    "region": "Stockholms län",
+    "domain": "norrtalje.se",
+    "osm_relation_id": 397159
+  },
+  {
+    "id": "SE-0191",
+    "name": "Sigtuna",
+    "country": "SE",
+    "region": "Stockholms län",
+    "domain": "sigtuna.se",
+    "osm_relation_id": 397127
+  },
+  {
+    "id": "SE-0192",
+    "name": "Nynäshamn",
+    "country": "SE",
+    "region": "Stockholms län",
+    "domain": "nynashamn.se",
+    "osm_relation_id": 398627
+  },
+  {
+    "id": "SE-0305",
+    "name": "Håbo",
+    "country": "SE",
+    "region": "Uppsala län",
+    "domain": "habo.se",
+    "osm_relation_id": 308558
+  },
+  {
+    "id": "SE-0319",
+    "name": "Älvkarleby",
+    "country": "SE",
+    "region": "Uppsala län",
+    "domain": "alvkarleby.se",
+    "osm_relation_id": 289344
+  },
+  {
+    "id": "SE-0330",
+    "name": "Knivsta",
+    "country": "SE",
+    "region": "Uppsala län",
+    "domain": "knivsta.se",
+    "osm_relation_id": 397128
+  },
+  {
+    "id": "SE-0331",
+    "name": "Heby",
+    "country": "SE",
+    "region": "Uppsala län",
+    "domain": "heby.se",
+    "osm_relation_id": 305452
+  },
+  {
+    "id": "SE-0360",
+    "name": "Tierp",
+    "country": "SE",
+    "region": "Uppsala län",
+    "domain": "tierp.se",
+    "osm_relation_id": 305453
+  },
+  {
+    "id": "SE-0380",
+    "name": "Uppsala",
+    "country": "SE",
+    "region": "Uppsala län",
+    "domain": "uppsala.se",
+    "osm_relation_id": 305455
+  },
+  {
+    "id": "SE-0381",
+    "name": "Enköping",
+    "country": "SE",
+    "region": "Uppsala län",
+    "domain": "enkoping.se",
+    "osm_relation_id": 308557
+  },
+  {
+    "id": "SE-0382",
+    "name": "Östhammar",
+    "country": "SE",
+    "region": "Uppsala län",
+    "domain": "osthammar.se",
+    "osm_relation_id": 398892
+  },
+  {
+    "id": "SE-0428",
+    "name": "Vingåker",
+    "country": "SE",
+    "region": "Södermanlands län",
+    "domain": "vingaker.se",
+    "osm_relation_id": 935676
+  },
+  {
+    "id": "SE-0461",
+    "name": "Gnesta",
+    "country": "SE",
+    "region": "Södermanlands län",
+    "domain": "gnesta.se",
+    "osm_relation_id": 935602
+  },
+  {
+    "id": "SE-0480",
+    "name": "Nyköping",
+    "country": "SE",
+    "region": "Södermanlands län",
+    "domain": "nykoping.se",
+    "osm_relation_id": 935516
+  },
+  {
+    "id": "SE-0481",
+    "name": "Oxelösund",
+    "country": "SE",
+    "region": "Södermanlands län",
+    "domain": "oxelosund.se",
+    "osm_relation_id": 935524
+  },
+  {
+    "id": "SE-0482",
+    "name": "Flen",
+    "country": "SE",
+    "region": "Södermanlands län",
+    "domain": "flen.se",
+    "osm_relation_id": 935683
+  },
+  {
+    "id": "SE-0483",
+    "name": "Katrineholm",
+    "country": "SE",
+    "region": "Södermanlands län",
+    "domain": "katrineholm.se",
+    "osm_relation_id": 935400
+  },
+  {
+    "id": "SE-0484",
+    "name": "Eskilstuna",
+    "country": "SE",
+    "region": "Södermanlands län",
+    "domain": "eskilstuna.se",
+    "osm_relation_id": 935569
+  },
+  {
+    "id": "SE-0486",
+    "name": "Strängnä",
+    "country": "SE",
+    "region": "Södermanlands län",
+    "domain": "strangnas.se",
+    "osm_relation_id": 398917
+  },
+  {
+    "id": "SE-0488",
+    "name": "Trosa",
+    "country": "SE",
+    "region": "Södermanlands län",
+    "domain": "trosa.se",
+    "osm_relation_id": 935460
+  },
+  {
+    "id": "SE-0509",
+    "name": "Ödeshög",
+    "country": "SE",
+    "region": "Östergötlands län",
+    "domain": "odeshog.se",
+    "osm_relation_id": 935434
+  },
+  {
+    "id": "SE-0512",
+    "name": "Ydre",
+    "country": "SE",
+    "region": "Östergötlands län",
+    "domain": "ydre.se",
+    "osm_relation_id": 935618
+  },
+  {
+    "id": "SE-0513",
+    "name": "Kinda",
+    "country": "SE",
+    "region": "Östergötlands län",
+    "domain": "kinda.se",
+    "osm_relation_id": 935596
+  },
+  {
+    "id": "SE-0560",
+    "name": "Boxholm",
+    "country": "SE",
+    "region": "Östergötlands län",
+    "domain": "boxholm.se",
+    "osm_relation_id": 935594
+  },
+  {
+    "id": "SE-0561",
+    "name": "Åtvidaberg",
+    "country": "SE",
+    "region": "Östergötlands län",
+    "domain": "atvidaberg.se",
+    "osm_relation_id": 935464
+  },
+  {
+    "id": "SE-0562",
+    "name": "Finspång",
+    "country": "SE",
+    "region": "Östergötlands län",
+    "domain": "finspang.se",
+    "osm_relation_id": 935444
+  },
+  {
+    "id": "SE-0563",
+    "name": "Valdemarsvik",
+    "country": "SE",
+    "region": "Östergötlands län",
+    "domain": "valdemarsvik.se",
+    "osm_relation_id": 935443
+  },
+  {
+    "id": "SE-0580",
+    "name": "Linköping",
+    "country": "SE",
+    "region": "Östergötlands län",
+    "domain": "linkoping.se",
+    "osm_relation_id": 935467
+  },
+  {
+    "id": "SE-0581",
+    "name": "Norrköping",
+    "country": "SE",
+    "region": "Östergötlands län",
+    "domain": "norrkoping.se",
+    "osm_relation_id": 935447
+  },
+  {
+    "id": "SE-0582",
+    "name": "Söderköping",
+    "country": "SE",
+    "region": "Östergötlands län",
+    "domain": "soderkoping.se",
+    "osm_relation_id": 935556
+  },
+  {
+    "id": "SE-0583",
+    "name": "Motala",
+    "country": "SE",
+    "region": "Östergötlands län",
+    "domain": "motala.se",
+    "osm_relation_id": 935668
+  },
+  {
+    "id": "SE-0584",
+    "name": "Vadstena",
+    "country": "SE",
+    "region": "Östergötlands län",
+    "domain": "vadstena.se",
+    "osm_relation_id": 935553
+  },
+  {
+    "id": "SE-0586",
+    "name": "Mjölby",
+    "country": "SE",
+    "region": "Östergötlands län",
+    "domain": "mjolby.se",
+    "osm_relation_id": 935507
+  },
+  {
+    "id": "SE-0604",
+    "name": "Aneby",
+    "country": "SE",
+    "region": "Jönköpings län",
+    "domain": "aneby.se",
+    "osm_relation_id": 935684
+  },
+  {
+    "id": "SE-0617",
+    "name": "Gnosjö",
+    "country": "SE",
+    "region": "Jönköpings län",
+    "domain": "gnosjo.se",
+    "osm_relation_id": 935543
+  },
+  {
+    "id": "SE-0642",
+    "name": "Mullsjö",
+    "country": "SE",
+    "region": "Jönköpings län",
+    "domain": "mullsjo.se",
+    "osm_relation_id": 935634
+  },
+  {
+    "id": "SE-0643",
+    "name": "Habo",
+    "country": "SE",
+    "region": "Jönköpings län",
+    "domain": "habokommun.se",
+    "osm_relation_id": 935405
+  },
+  {
+    "id": "SE-0662",
+    "name": "Gislaved",
+    "country": "SE",
+    "region": "Jönköpings län",
+    "domain": "gislaved.se",
+    "osm_relation_id": 935604
+  },
+  {
+    "id": "SE-0665",
+    "name": "Vaggeryd",
+    "country": "SE",
+    "region": "Jönköpings län",
+    "domain": "vaggeryd.se",
+    "osm_relation_id": 935581
+  },
+  {
+    "id": "SE-0680",
+    "name": "Jönköping",
+    "country": "SE",
+    "region": "Jönköpings län",
+    "domain": "jonkoping.se",
+    "osm_relation_id": 935495
+  },
+  {
+    "id": "SE-0682",
+    "name": "Nässjö",
+    "country": "SE",
+    "region": "Jönköpings län",
+    "domain": "nassjo.se",
+    "osm_relation_id": 935670
+  },
+  {
+    "id": "SE-0683",
+    "name": "Värnamo",
+    "country": "SE",
+    "region": "Jönköpings län",
+    "domain": "kommun.varnamo.se",
+    "osm_relation_id": 935439
+  },
+  {
+    "id": "SE-0684",
+    "name": "Sävsjö",
+    "country": "SE",
+    "region": "Jönköpings län",
+    "domain": "savsjo.se",
+    "osm_relation_id": 935481
+  },
+  {
+    "id": "SE-0685",
+    "name": "Vetlanda",
+    "country": "SE",
+    "region": "Jönköpings län",
+    "domain": "kommun.vetlanda.se",
+    "osm_relation_id": 935454
+  },
+  {
+    "id": "SE-0686",
+    "name": "Eksjö",
+    "country": "SE",
+    "region": "Jönköpings län",
+    "domain": "eksjo.se",
+    "osm_relation_id": 935636
+  },
+  {
+    "id": "SE-0687",
+    "name": "Tranå",
+    "country": "SE",
+    "region": "Jönköpings län",
+    "domain": "tranas.se",
+    "osm_relation_id": 935570
+  },
+  {
+    "id": "SE-0760",
+    "name": "Uppvidinge",
+    "country": "SE",
+    "region": "Kronobergs län",
+    "domain": "uppvidinge.se",
+    "osm_relation_id": 935488
+  },
+  {
+    "id": "SE-0761",
+    "name": "Lessebo",
+    "country": "SE",
+    "region": "Kronobergs län",
+    "domain": "lessebo.se",
+    "osm_relation_id": 935521
+  },
+  {
+    "id": "SE-0763",
+    "name": "Tingsryd",
+    "country": "SE",
+    "region": "Kronobergs län",
+    "domain": "tingsryd.se",
+    "osm_relation_id": 935578
+  },
+  {
+    "id": "SE-0764",
+    "name": "Alvesta",
+    "country": "SE",
+    "region": "Kronobergs län",
+    "domain": "alvesta.se",
+    "osm_relation_id": 935435
+  },
+  {
+    "id": "SE-0765",
+    "name": "Älmhult",
+    "country": "SE",
+    "region": "Kronobergs län",
+    "domain": "almhult.se",
+    "osm_relation_id": 935538
+  },
+  {
+    "id": "SE-0767",
+    "name": "Markaryd",
+    "country": "SE",
+    "region": "Kronobergs län",
+    "domain": "markaryd.se",
+    "osm_relation_id": 935621
+  },
+  {
+    "id": "SE-0780",
+    "name": "Växjö",
+    "country": "SE",
+    "region": "Kronobergs län",
+    "domain": "vaxjo.se",
+    "osm_relation_id": 935654
+  },
+  {
+    "id": "SE-0781",
+    "name": "Ljungby",
+    "country": "SE",
+    "region": "Kronobergs län",
+    "domain": "ljungby.se",
+    "osm_relation_id": 935542
+  },
+  {
+    "id": "SE-0821",
+    "name": "Högsby",
+    "country": "SE",
+    "region": "Kalmar län",
+    "domain": "hogsby.se",
+    "osm_relation_id": 935487
+  },
+  {
+    "id": "SE-0834",
+    "name": "Torså",
+    "country": "SE",
+    "region": "Kalmar län",
+    "domain": "torsas.se",
+    "osm_relation_id": 935512
+  },
+  {
+    "id": "SE-0840",
+    "name": "Mörbylånga",
+    "country": "SE",
+    "region": "Kalmar län",
+    "domain": "morbylanga.se",
+    "osm_relation_id": 935518
+  },
+  {
+    "id": "SE-0860",
+    "name": "Hultsfred",
+    "country": "SE",
+    "region": "Kalmar län",
+    "domain": "hultsfred.se",
+    "osm_relation_id": 935677
+  },
+  {
+    "id": "SE-0861",
+    "name": "Mönsterå",
+    "country": "SE",
+    "region": "Kalmar län",
+    "domain": "monsteras.se",
+    "osm_relation_id": 935575
+  },
+  {
+    "id": "SE-0862",
+    "name": "Emmaboda",
+    "country": "SE",
+    "region": "Kalmar län",
+    "domain": "emmaboda.se",
+    "osm_relation_id": 935598
+  },
+  {
+    "id": "SE-0880",
+    "name": "Kalmar",
+    "country": "SE",
+    "region": "Kalmar län",
+    "domain": "kalmar.se",
+    "osm_relation_id": 935466
+  },
+  {
+    "id": "SE-0881",
+    "name": "Nybro",
+    "country": "SE",
+    "region": "Kalmar län",
+    "domain": "nybro.se",
+    "osm_relation_id": 935475
+  },
+  {
+    "id": "SE-0882",
+    "name": "Oskarshamn",
+    "country": "SE",
+    "region": "Kalmar län",
+    "domain": "oskarshamn.se",
+    "osm_relation_id": 935653
+  },
+  {
+    "id": "SE-0883",
+    "name": "Västervik",
+    "country": "SE",
+    "region": "Kalmar län",
+    "domain": "vastervik.se",
+    "osm_relation_id": 935408
+  },
+  {
+    "id": "SE-0884",
+    "name": "Vimmerby",
+    "country": "SE",
+    "region": "Kalmar län",
+    "domain": "vimmerby.se",
+    "osm_relation_id": 935546
+  },
+  {
+    "id": "SE-0885",
+    "name": "Borgholm",
+    "country": "SE",
+    "region": "Kalmar län",
+    "domain": "borgholm.se",
+    "osm_relation_id": 935406
+  },
+  {
+    "id": "SE-0980",
+    "name": "Region Gotland",
+    "country": "SE",
+    "region": "Gotlands län",
+    "domain": "gotland.se",
+    "osm_relation_id": 1125739
+  },
+  {
+    "id": "SE-1060",
+    "name": "Olofström",
+    "country": "SE",
+    "region": "Blekinge län",
+    "domain": "olofstrom.se",
+    "osm_relation_id": 935603
+  },
+  {
+    "id": "SE-1080",
+    "name": "Karlskrona",
+    "country": "SE",
+    "region": "Blekinge län",
+    "domain": "karlskrona.se",
+    "osm_relation_id": 935548
+  },
+  {
+    "id": "SE-1081",
+    "name": "Ronneby",
+    "country": "SE",
+    "region": "Blekinge län",
+    "domain": "ronneby.se",
+    "osm_relation_id": 935527
+  },
+  {
+    "id": "SE-1082",
+    "name": "Karlshamn",
+    "country": "SE",
+    "region": "Blekinge län",
+    "domain": "karlshamn.se",
+    "osm_relation_id": 935522
+  },
+  {
+    "id": "SE-1083",
+    "name": "Sölvesborg",
+    "country": "SE",
+    "region": "Blekinge län",
+    "domain": "solvesborg.se",
+    "osm_relation_id": 935608
+  },
+  {
+    "id": "SE-1214",
+    "name": "Svalöv",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "svalov.se",
+    "osm_relation_id": 935403
+  },
+  {
+    "id": "SE-1230",
+    "name": "Staffanstorp",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "staffanstorp.se",
+    "osm_relation_id": 935502
+  },
+  {
+    "id": "SE-1231",
+    "name": "Burlöv",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "burlov.se",
+    "osm_relation_id": 935642
+  },
+  {
+    "id": "SE-1233",
+    "name": "Vellinge",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "vellinge.se",
+    "osm_relation_id": 935451
+  },
+  {
+    "id": "SE-1256",
+    "name": "Östra Göinge",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "ostragoinge.se",
+    "osm_relation_id": 935535
+  },
+  {
+    "id": "SE-1257",
+    "name": "Örkelljunga",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "orkelljunga.se",
+    "osm_relation_id": 935449
+  },
+  {
+    "id": "SE-1260",
+    "name": "Bjuv",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "bjuv.se",
+    "osm_relation_id": 935478
+  },
+  {
+    "id": "SE-1261",
+    "name": "Kävlinge",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "kavlinge.se",
+    "osm_relation_id": 935625
+  },
+  {
+    "id": "SE-1262",
+    "name": "Lomma",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "lomma.se",
+    "osm_relation_id": 935410
+  },
+  {
+    "id": "SE-1263",
+    "name": "Svedala",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "svedala.se",
+    "osm_relation_id": 935510
+  },
+  {
+    "id": "SE-1264",
+    "name": "Skurup",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "skurup.se",
+    "osm_relation_id": 935437
+  },
+  {
+    "id": "SE-1265",
+    "name": "Sjöbo",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "sjobo.se",
+    "osm_relation_id": 935525
+  },
+  {
+    "id": "SE-1266",
+    "name": "Hörby",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "horby.se",
+    "osm_relation_id": 935623
+  },
+  {
+    "id": "SE-1267",
+    "name": "Höör",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "hoor.se",
+    "osm_relation_id": 935450
+  },
+  {
+    "id": "SE-1270",
+    "name": "Tomelilla",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "tomelilla.se",
+    "osm_relation_id": 935671
+  },
+  {
+    "id": "SE-1272",
+    "name": "Bromölla",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "bromolla.se",
+    "osm_relation_id": 935659
+  },
+  {
+    "id": "SE-1273",
+    "name": "Osby",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "osby.se",
+    "osm_relation_id": 935492
+  },
+  {
+    "id": "SE-1275",
+    "name": "Perstorp",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "perstorp.se",
+    "osm_relation_id": 935530
+  },
+  {
+    "id": "SE-1276",
+    "name": "Klippan",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "klippan.se",
+    "osm_relation_id": 935658
+  },
+  {
+    "id": "SE-1277",
+    "name": "Åstorp",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "astorp.se",
+    "osm_relation_id": 935517
+  },
+  {
+    "id": "SE-1278",
+    "name": "Båstad",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "bastad.se",
+    "osm_relation_id": 935399
+  },
+  {
+    "id": "SE-1280",
+    "name": "Malmö",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "malmo.se",
+    "osm_relation_id": 935416
+  },
+  {
+    "id": "SE-1281",
+    "name": "Lund",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "lund.se",
+    "osm_relation_id": 935666
+  },
+  {
+    "id": "SE-1282",
+    "name": "Landskrona",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "landskrona.se",
+    "osm_relation_id": 935414
+  },
+  {
+    "id": "SE-1283",
+    "name": "Helsingborg",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "helsingborg.se",
+    "osm_relation_id": 935560
+  },
+  {
+    "id": "SE-1284",
+    "name": "Höganä",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "hoganas.se",
+    "osm_relation_id": 935552
+  },
+  {
+    "id": "SE-1285",
+    "name": "Eslöv",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "eslov.se",
+    "osm_relation_id": 935571
+  },
+  {
+    "id": "SE-1286",
+    "name": "Ystad",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "ystad.se",
+    "osm_relation_id": 935599
+  },
+  {
+    "id": "SE-1287",
+    "name": "Trelleborg",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "trelleborg.se",
+    "osm_relation_id": 935531
+  },
+  {
+    "id": "SE-1290",
+    "name": "Kristianstad",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "kristianstad.se",
+    "osm_relation_id": 935448
+  },
+  {
+    "id": "SE-1291",
+    "name": "Simrishamn",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "simrishamn.se",
+    "osm_relation_id": 935529
+  },
+  {
+    "id": "SE-1292",
+    "name": "Ängelholm",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "engelholm.se",
+    "osm_relation_id": 935679
+  },
+  {
+    "id": "SE-1293",
+    "name": "Hässleholm",
+    "country": "SE",
+    "region": "Skåne län",
+    "domain": "hassleholm.se",
+    "osm_relation_id": 935519
+  },
+  {
+    "id": "SE-1315",
+    "name": "Hylte",
+    "country": "SE",
+    "region": "Hallands län",
+    "domain": "hylte.se",
+    "osm_relation_id": 935407
+  },
+  {
+    "id": "SE-1380",
+    "name": "Halmstad",
+    "country": "SE",
+    "region": "Hallands län",
+    "domain": "halmstad.se",
+    "osm_relation_id": 935442
+  },
+  {
+    "id": "SE-1381",
+    "name": "Laholm",
+    "country": "SE",
+    "region": "Hallands län",
+    "domain": "laholm.se",
+    "osm_relation_id": 935662
+  },
+  {
+    "id": "SE-1382",
+    "name": "Falkenberg",
+    "country": "SE",
+    "region": "Hallands län",
+    "domain": "kommun.falkenberg.se",
+    "osm_relation_id": 935411
+  },
+  {
+    "id": "SE-1383",
+    "name": "Varberg",
+    "country": "SE",
+    "region": "Hallands län",
+    "domain": "varberg.se",
+    "osm_relation_id": 935585
+  },
+  {
+    "id": "SE-1384",
+    "name": "Kungsbacka",
+    "country": "SE",
+    "region": "Hallands län",
+    "domain": "kungsbacka.se",
+    "osm_relation_id": 935626
+  },
+  {
+    "id": "SE-1401",
+    "name": "Härryda",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "harryda.se",
+    "osm_relation_id": 935649
+  },
+  {
+    "id": "SE-1402",
+    "name": "Partille",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "partille.se",
+    "osm_relation_id": 935656
+  },
+  {
+    "id": "SE-1407",
+    "name": "Öckerö",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "ockero.se",
+    "osm_relation_id": 1120170
+  },
+  {
+    "id": "SE-1415",
+    "name": "Stenungsund",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "stenungsund.se",
+    "osm_relation_id": 935503
+  },
+  {
+    "id": "SE-1419",
+    "name": "Tjörn",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "tjorn.se",
+    "osm_relation_id": 1120171
+  },
+  {
+    "id": "SE-1421",
+    "name": "Orust",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "orust.se",
+    "osm_relation_id": 935532
+  },
+  {
+    "id": "SE-1427",
+    "name": "Sotenä",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "sotenas.se",
+    "osm_relation_id": 935430
+  },
+  {
+    "id": "SE-1430",
+    "name": "Munkedal",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "munkedal.se",
+    "osm_relation_id": 935678
+  },
+  {
+    "id": "SE-1435",
+    "name": "Tanum",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "tanum.se",
+    "osm_relation_id": 935640
+  },
+  {
+    "id": "SE-1440",
+    "name": "Ale",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "ale.se",
+    "osm_relation_id": 935506
+  },
+  {
+    "id": "SE-1480",
+    "name": "Göteborg",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "goteborg.se",
+    "osm_relation_id": 935611
+  },
+  {
+    "id": "SE-1481",
+    "name": "Mölndal",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "molndal.se",
+    "osm_relation_id": 935463
+  },
+  {
+    "id": "SE-1482",
+    "name": "Kungälv",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "kungalv.se",
+    "osm_relation_id": 935505
+  },
+  {
+    "id": "SE-1484",
+    "name": "Lysekil",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "lysekil.se",
+    "osm_relation_id": 935549
+  },
+  {
+    "id": "SE-1485",
+    "name": "Uddevalla",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "uddevalla.se",
+    "osm_relation_id": 935644
+  },
+  {
+    "id": "SE-1486",
+    "name": "Strömstad",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "stromstad.se",
+    "osm_relation_id": 935489
+  },
+  {
+    "id": "SE-1438",
+    "name": "Dals-Ed",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "dalsed.se",
+    "osm_relation_id": 935404
+  },
+  {
+    "id": "SE-1439",
+    "name": "Färgelanda",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "fargelanda.se",
+    "osm_relation_id": 935431
+  },
+  {
+    "id": "SE-1441",
+    "name": "Lerum",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "lerum.se",
+    "osm_relation_id": 935550
+  },
+  {
+    "id": "SE-1442",
+    "name": "Vårgårda",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "vargarda.se",
+    "osm_relation_id": 935441
+  },
+  {
+    "id": "SE-1443",
+    "name": "Bollebygd",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "bollebygd.se",
+    "osm_relation_id": 935565
+  },
+  {
+    "id": "SE-1452",
+    "name": "Tranemo",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "tranemo.se",
+    "osm_relation_id": 935584
+  },
+  {
+    "id": "SE-1460",
+    "name": "Bengtsfor",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "bengtsfors.se",
+    "osm_relation_id": 935491
+  },
+  {
+    "id": "SE-1461",
+    "name": "Mellerud",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "mellerud.se",
+    "osm_relation_id": 935622
+  },
+  {
+    "id": "SE-1462",
+    "name": "Lilla Edet",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "lillaedet.se",
+    "osm_relation_id": 935526
+  },
+  {
+    "id": "SE-1463",
+    "name": "Mark",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "mark.se",
+    "osm_relation_id": 935639
+  },
+  {
+    "id": "SE-1465",
+    "name": "Svenljunga",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "svenljunga.se",
+    "osm_relation_id": 935586
+  },
+  {
+    "id": "SE-1466",
+    "name": "Herrljunga",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "herrljunga.se",
+    "osm_relation_id": 935533
+  },
+  {
+    "id": "SE-1487",
+    "name": "Vänersborg",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "vanersborg.se",
+    "osm_relation_id": 935453
+  },
+  {
+    "id": "SE-1488",
+    "name": "Trollhättan",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "trollhattan.se",
+    "osm_relation_id": 935609
+  },
+  {
+    "id": "SE-1489",
+    "name": "Alingså",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "alingsas.se",
+    "osm_relation_id": 935547
+  },
+  {
+    "id": "SE-1490",
+    "name": "Borås",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "boras.se",
+    "osm_relation_id": 935544
+  },
+  {
+    "id": "SE-1491",
+    "name": "Ulricehamn",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "ulricehamn.se",
+    "osm_relation_id": 935554
+  },
+  {
+    "id": "SE-1492",
+    "name": "Åmål",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "amal.se",
+    "osm_relation_id": 935601
+  },
+  {
+    "id": "SE-1444",
+    "name": "Grästorp",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "grastorp.se",
+    "osm_relation_id": 935415
+  },
+  {
+    "id": "SE-1445",
+    "name": "Essunga",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "essunga.se",
+    "osm_relation_id": 935417
+  },
+  {
+    "id": "SE-1446",
+    "name": "Karlsborg",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "karlsborg.se",
+    "osm_relation_id": 935617
+  },
+  {
+    "id": "SE-1447",
+    "name": "Gullspång",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "gullspang.se",
+    "osm_relation_id": 935470
+  },
+  {
+    "id": "SE-1470",
+    "name": "Vara",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "vara.se",
+    "osm_relation_id": 935476
+  },
+  {
+    "id": "SE-1471",
+    "name": "Götene",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "gotene.se",
+    "osm_relation_id": 935419
+  },
+  {
+    "id": "SE-1472",
+    "name": "Tibro",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "tibro.se",
+    "osm_relation_id": 935650
+  },
+  {
+    "id": "SE-1473",
+    "name": "Töreboda",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "toreboda.se",
+    "osm_relation_id": 935637
+  },
+  {
+    "id": "SE-1493",
+    "name": "Mariestad",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "mariestad.se",
+    "osm_relation_id": 935422
+  },
+  {
+    "id": "SE-1494",
+    "name": "Lidköping",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "lidkoping.se",
+    "osm_relation_id": 935469
+  },
+  {
+    "id": "SE-1495",
+    "name": "Skara",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "skara.se",
+    "osm_relation_id": 935508
+  },
+  {
+    "id": "SE-1496",
+    "name": "Skövde",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "skovde.se",
+    "osm_relation_id": 935485
+  },
+  {
+    "id": "SE-1497",
+    "name": "Hjo",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "hjo.se",
+    "osm_relation_id": 935672
+  },
+  {
+    "id": "SE-1498",
+    "name": "Tidaholm",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "tidaholm.se",
+    "osm_relation_id": 935567
+  },
+  {
+    "id": "SE-1499",
+    "name": "Falköping",
+    "country": "SE",
+    "region": "Västra Götalands län",
+    "domain": "falkoping.se",
+    "osm_relation_id": 935600
+  },
+  {
+    "id": "SE-1715",
+    "name": "Kil",
+    "country": "SE",
+    "region": "Värmlands län",
+    "domain": "kil.se",
+    "osm_relation_id": 935606
+  },
+  {
+    "id": "SE-1730",
+    "name": "Eda",
+    "country": "SE",
+    "region": "Värmlands län",
+    "domain": "eda.se",
+    "osm_relation_id": 935657
+  },
+  {
+    "id": "SE-1737",
+    "name": "Torsby",
+    "country": "SE",
+    "region": "Värmlands län",
+    "domain": "torsby.se",
+    "osm_relation_id": 935682
+  },
+  {
+    "id": "SE-1760",
+    "name": "Storfor",
+    "country": "SE",
+    "region": "Värmlands län",
+    "domain": "storfors.se",
+    "osm_relation_id": 935493
+  },
+  {
+    "id": "SE-1761",
+    "name": "Hammarö",
+    "country": "SE",
+    "region": "Värmlands län",
+    "domain": "hammaro.se",
+    "osm_relation_id": 1076755
+  },
+  {
+    "id": "SE-1762",
+    "name": "Munkfor",
+    "country": "SE",
+    "region": "Värmlands län",
+    "domain": "munkfors.se",
+    "osm_relation_id": 935501
+  },
+  {
+    "id": "SE-1763",
+    "name": "Forshaga",
+    "country": "SE",
+    "region": "Värmlands län",
+    "domain": "forshaga.se",
+    "osm_relation_id": 935539
+  },
+  {
+    "id": "SE-1764",
+    "name": "Grum",
+    "country": "SE",
+    "region": "Värmlands län",
+    "domain": "grums.se",
+    "osm_relation_id": 935612
+  },
+  {
+    "id": "SE-1765",
+    "name": "Årjäng",
+    "country": "SE",
+    "region": "Värmlands län",
+    "domain": "arjang.se",
+    "osm_relation_id": 935665
+  },
+  {
+    "id": "SE-1766",
+    "name": "Sunne",
+    "country": "SE",
+    "region": "Värmlands län",
+    "domain": "sunne.se",
+    "osm_relation_id": 935627
+  },
+  {
+    "id": "SE-1780",
+    "name": "Karlstad",
+    "country": "SE",
+    "region": "Värmlands län",
+    "domain": "karlstad.se",
+    "osm_relation_id": 935514
+  },
+  {
+    "id": "SE-1781",
+    "name": "Kristinehamn",
+    "country": "SE",
+    "region": "Värmlands län",
+    "domain": "kristinehamn.se",
+    "osm_relation_id": 935461
+  },
+  {
+    "id": "SE-1782",
+    "name": "Filipstad",
+    "country": "SE",
+    "region": "Värmlands län",
+    "domain": "filipstad.se",
+    "osm_relation_id": 935619
+  },
+  {
+    "id": "SE-1783",
+    "name": "Hagfor",
+    "country": "SE",
+    "region": "Värmlands län",
+    "domain": "hagfors.se",
+    "osm_relation_id": 935638
+  },
+  {
+    "id": "SE-1784",
+    "name": "Arvika",
+    "country": "SE",
+    "region": "Värmlands län",
+    "domain": "arvika.se",
+    "osm_relation_id": 935465
+  },
+  {
+    "id": "SE-1785",
+    "name": "Säffle",
+    "country": "SE",
+    "region": "Värmlands län",
+    "domain": "saffle.se",
+    "osm_relation_id": 935597
+  },
+  {
+    "id": "SE-1814",
+    "name": "Lekeberg",
+    "country": "SE",
+    "region": "Örebro län",
+    "domain": "lekeberg.se",
+    "osm_relation_id": 935673
+  },
+  {
+    "id": "SE-1860",
+    "name": "Laxå",
+    "country": "SE",
+    "region": "Örebro län",
+    "domain": "laxa.se",
+    "osm_relation_id": 935605
+  },
+  {
+    "id": "SE-1861",
+    "name": "Hallsberg",
+    "country": "SE",
+    "region": "Örebro län",
+    "domain": "hallsberg.se",
+    "osm_relation_id": 935572
+  },
+  {
+    "id": "SE-1862",
+    "name": "Degerfor",
+    "country": "SE",
+    "region": "Örebro län",
+    "domain": "degerfors.se",
+    "osm_relation_id": 935498
+  },
+  {
+    "id": "SE-1863",
+    "name": "Hällefor",
+    "country": "SE",
+    "region": "Örebro län",
+    "domain": "hellefors.se",
+    "osm_relation_id": 935486
+  },
+  {
+    "id": "SE-1864",
+    "name": "Ljusnarsberg",
+    "country": "SE",
+    "region": "Örebro län",
+    "domain": "ljusnarsberg.se",
+    "osm_relation_id": 935563
+  },
+  {
+    "id": "SE-1880",
+    "name": "Örebro",
+    "country": "SE",
+    "region": "Örebro län",
+    "domain": "orebro.se",
+    "osm_relation_id": 935628
+  },
+  {
+    "id": "SE-1881",
+    "name": "Kumla",
+    "country": "SE",
+    "region": "Örebro län",
+    "domain": "kumla.se",
+    "osm_relation_id": 935494
+  },
+  {
+    "id": "SE-1882",
+    "name": "Askersund",
+    "country": "SE",
+    "region": "Örebro län",
+    "domain": "askersund.se",
+    "osm_relation_id": 935513
+  },
+  {
+    "id": "SE-1883",
+    "name": "Karlskoga",
+    "country": "SE",
+    "region": "Örebro län",
+    "domain": "karlskoga.se",
+    "osm_relation_id": 935520
+  },
+  {
+    "id": "SE-1884",
+    "name": "Nora",
+    "country": "SE",
+    "region": "Örebro län",
+    "domain": "nora.se",
+    "osm_relation_id": 935472
+  },
+  {
+    "id": "SE-1885",
+    "name": "Lindesberg",
+    "country": "SE",
+    "region": "Örebro län",
+    "domain": "lindesberg.se",
+    "osm_relation_id": 935557
+  },
+  {
+    "id": "SE-1904",
+    "name": "Skinnskatteberg",
+    "country": "SE",
+    "region": "Västmanlands län",
+    "domain": "skinnskatteberg.se",
+    "osm_relation_id": 935423
+  },
+  {
+    "id": "SE-1907",
+    "name": "Surahammar",
+    "country": "SE",
+    "region": "Västmanlands län",
+    "domain": "surahammar.se",
+    "osm_relation_id": 935426
+  },
+  {
+    "id": "SE-1960",
+    "name": "Kungsör",
+    "country": "SE",
+    "region": "Västmanlands län",
+    "domain": "kungsor.se",
+    "osm_relation_id": 935537
+  },
+  {
+    "id": "SE-1961",
+    "name": "Hallstahammar",
+    "country": "SE",
+    "region": "Västmanlands län",
+    "domain": "hallstahammar.se",
+    "osm_relation_id": 935590
+  },
+  {
+    "id": "SE-1962",
+    "name": "Norberg",
+    "country": "SE",
+    "region": "Västmanlands län",
+    "domain": "norberg.se",
+    "osm_relation_id": 307885
+  },
+  {
+    "id": "SE-1980",
+    "name": "Västerå",
+    "country": "SE",
+    "region": "Västmanlands län",
+    "domain": "vasteras.se",
+    "osm_relation_id": 935588
+  },
+  {
+    "id": "SE-1981",
+    "name": "Sala",
+    "country": "SE",
+    "region": "Västmanlands län",
+    "domain": "sala.se",
+    "osm_relation_id": 369508
+  },
+  {
+    "id": "SE-1982",
+    "name": "Fagersta",
+    "country": "SE",
+    "region": "Västmanlands län",
+    "domain": "fagersta.se",
+    "osm_relation_id": 935504
+  },
+  {
+    "id": "SE-1983",
+    "name": "Köping",
+    "country": "SE",
+    "region": "Västmanlands län",
+    "domain": "koping.se",
+    "osm_relation_id": 935409
+  },
+  {
+    "id": "SE-1984",
+    "name": "Arboga",
+    "country": "SE",
+    "region": "Västmanlands län",
+    "domain": "arboga.se",
+    "osm_relation_id": 935652
+  },
+  {
+    "id": "SE-2021",
+    "name": "Vansbro",
+    "country": "SE",
+    "region": "Dalarnas län",
+    "domain": "vansbro.se",
+    "osm_relation_id": 57891
+  },
+  {
+    "id": "SE-2023",
+    "name": "Malung-Sälen",
+    "country": "SE",
+    "region": "Dalarnas län",
+    "domain": "malung-salen.se",
+    "osm_relation_id": 935398
+  },
+  {
+    "id": "SE-2026",
+    "name": "Gagnef",
+    "country": "SE",
+    "region": "Dalarnas län",
+    "domain": "gagnef.se",
+    "osm_relation_id": 307849
+  },
+  {
+    "id": "SE-2029",
+    "name": "Leksand",
+    "country": "SE",
+    "region": "Dalarnas län",
+    "domain": "leksand.se",
+    "osm_relation_id": 307848
+  },
+  {
+    "id": "SE-2031",
+    "name": "Rättvik",
+    "country": "SE",
+    "region": "Dalarnas län",
+    "domain": "rattvik.se",
+    "osm_relation_id": 300964
+  },
+  {
+    "id": "SE-2034",
+    "name": "Orsa",
+    "country": "SE",
+    "region": "Dalarnas län",
+    "domain": "orsa.se",
+    "osm_relation_id": 290048
+  },
+  {
+    "id": "SE-2039",
+    "name": "Älvdalen",
+    "country": "SE",
+    "region": "Dalarnas län",
+    "domain": "alvdalen.se",
+    "osm_relation_id": 935540
+  },
+  {
+    "id": "SE-2061",
+    "name": "Smedjebacken",
+    "country": "SE",
+    "region": "Dalarnas län",
+    "domain": "smedjebacken.se",
+    "osm_relation_id": 307884
+  },
+  {
+    "id": "SE-2062",
+    "name": "Mora",
+    "country": "SE",
+    "region": "Dalarnas län",
+    "domain": "morakommun.se",
+    "osm_relation_id": 304100
+  },
+  {
+    "id": "SE-2080",
+    "name": "Falu",
+    "country": "SE",
+    "region": "Dalarnas län",
+    "domain": "falun.se",
+    "osm_relation_id": 300963
+  },
+  {
+    "id": "SE-2081",
+    "name": "Borlänge",
+    "country": "SE",
+    "region": "Dalarnas län",
+    "domain": "borlange.se",
+    "osm_relation_id": 307850
+  },
+  {
+    "id": "SE-2082",
+    "name": "Säter",
+    "country": "SE",
+    "region": "Dalarnas län",
+    "domain": "sater.se",
+    "osm_relation_id": 300938
+  },
+  {
+    "id": "SE-2083",
+    "name": "Hedemora",
+    "country": "SE",
+    "region": "Dalarnas län",
+    "domain": "hedemora.se",
+    "osm_relation_id": 300939
+  },
+  {
+    "id": "SE-2084",
+    "name": "Avesta",
+    "country": "SE",
+    "region": "Dalarnas län",
+    "domain": "avesta.se",
+    "osm_relation_id": 312618
+  },
+  {
+    "id": "SE-2085",
+    "name": "Ludvika",
+    "country": "SE",
+    "region": "Dalarnas län",
+    "domain": "ludvika.se",
+    "osm_relation_id": 57886
+  },
+  {
+    "id": "SE-2101",
+    "name": "Ockelbo",
+    "country": "SE",
+    "region": "Gävleborgs län",
+    "domain": "ockelbo.se",
+    "osm_relation_id": 278632
+  },
+  {
+    "id": "SE-2104",
+    "name": "Hofors",
+    "country": "SE",
+    "region": "Gävleborgs län",
+    "domain": "hofors.se",
+    "osm_relation_id": 289354
+  },
+  {
+    "id": "SE-2121",
+    "name": "Ovanåker",
+    "country": "SE",
+    "region": "Gävleborgs län",
+    "domain": "ovanaker.se",
+    "osm_relation_id": 368254
+  },
+  {
+    "id": "SE-2132",
+    "name": "Nordanstig",
+    "country": "SE",
+    "region": "Gävleborgs län",
+    "domain": "nordanstig.se",
+    "osm_relation_id": 935645
+  },
+  {
+    "id": "SE-2161",
+    "name": "Ljusdal",
+    "country": "SE",
+    "region": "Gävleborgs län",
+    "domain": "ljusdal.se",
+    "osm_relation_id": 935592
+  },
+  {
+    "id": "SE-2180",
+    "name": "Gävle",
+    "country": "SE",
+    "region": "Gävleborgs län",
+    "domain": "gavle.se",
+    "osm_relation_id": 278620
+  },
+  {
+    "id": "SE-2181",
+    "name": "Sandviken",
+    "country": "SE",
+    "region": "Gävleborgs län",
+    "domain": "sandviken.se",
+    "osm_relation_id": 278633
+  },
+  {
+    "id": "SE-2182",
+    "name": "Söderhamn",
+    "country": "SE",
+    "region": "Gävleborgs län",
+    "domain": "soderhamn.se",
+    "osm_relation_id": 296292
+  },
+  {
+    "id": "SE-2183",
+    "name": "Bollnä",
+    "country": "SE",
+    "region": "Gävleborgs län",
+    "domain": "bollnas.se",
+    "osm_relation_id": 296291
+  },
+  {
+    "id": "SE-2184",
+    "name": "Hudiksvall",
+    "country": "SE",
+    "region": "Gävleborgs län",
+    "domain": "hudiksvall.se",
+    "osm_relation_id": 935648
+  },
+  {
+    "id": "SE-2260",
+    "name": "Ånge",
+    "country": "SE",
+    "region": "Västernorrlands län",
+    "domain": "ange.se",
+    "osm_relation_id": 935477
+  },
+  {
+    "id": "SE-2262",
+    "name": "Timrå",
+    "country": "SE",
+    "region": "Västernorrlands län",
+    "domain": "timra.se",
+    "osm_relation_id": 935568
+  },
+  {
+    "id": "SE-2280",
+    "name": "Härnösand",
+    "country": "SE",
+    "region": "Västernorrlands län",
+    "domain": "harnosand.se",
+    "osm_relation_id": 935418
+  },
+  {
+    "id": "SE-2281",
+    "name": "Sundsvall",
+    "country": "SE",
+    "region": "Västernorrlands län",
+    "domain": "sundsvall.se",
+    "osm_relation_id": 935497
+  },
+  {
+    "id": "SE-2282",
+    "name": "Kramfor",
+    "country": "SE",
+    "region": "Västernorrlands län",
+    "domain": "kramfors.se",
+    "osm_relation_id": 935445
+  },
+  {
+    "id": "SE-2283",
+    "name": "Sollefteå",
+    "country": "SE",
+    "region": "Västernorrlands län",
+    "domain": "solleftea.se",
+    "osm_relation_id": 935624
+  },
+  {
+    "id": "SE-2284",
+    "name": "Örnsköldsvik",
+    "country": "SE",
+    "region": "Västernorrlands län",
+    "domain": "ornskoldsvik.se",
+    "osm_relation_id": 935455
+  },
+  {
+    "id": "SE-2303",
+    "name": "Ragunda",
+    "country": "SE",
+    "region": "Jämtlands län",
+    "domain": "ragunda.se",
+    "osm_relation_id": 935558
+  },
+  {
+    "id": "SE-2305",
+    "name": "Bräcke",
+    "country": "SE",
+    "region": "Jämtlands län",
+    "domain": "bracke.se",
+    "osm_relation_id": 935457
+  },
+  {
+    "id": "SE-2309",
+    "name": "Krokom",
+    "country": "SE",
+    "region": "Jämtlands län",
+    "domain": "krokom.se",
+    "osm_relation_id": 935615
+  },
+  {
+    "id": "SE-2313",
+    "name": "Strömsund",
+    "country": "SE",
+    "region": "Jämtlands län",
+    "domain": "stromsund.se",
+    "osm_relation_id": 935413
+  },
+  {
+    "id": "SE-2321",
+    "name": "Åre",
+    "country": "SE",
+    "region": "Jämtlands län",
+    "domain": "are.se",
+    "osm_relation_id": 935429
+  },
+  {
+    "id": "SE-2326",
+    "name": "Berg",
+    "country": "SE",
+    "region": "Jämtlands län",
+    "domain": "berg.se",
+    "osm_relation_id": 935633
+  },
+  {
+    "id": "SE-2361",
+    "name": "Härjedalen",
+    "country": "SE",
+    "region": "Jämtlands län",
+    "domain": "herjedalen.se",
+    "osm_relation_id": 935534
+  },
+  {
+    "id": "SE-2380",
+    "name": "Östersund",
+    "country": "SE",
+    "region": "Jämtlands län",
+    "domain": "ostersund.se",
+    "osm_relation_id": 935577
+  },
+  {
+    "id": "SE-2401",
+    "name": "Nordmaling",
+    "country": "SE",
+    "region": "Västerbottens län",
+    "domain": "nordmaling.se",
+    "osm_relation_id": 935647
+  },
+  {
+    "id": "SE-2403",
+    "name": "Bjurholm",
+    "country": "SE",
+    "region": "Västerbottens län",
+    "domain": "bjurholm.se",
+    "osm_relation_id": 935607
+  },
+  {
+    "id": "SE-2404",
+    "name": "Vindeln",
+    "country": "SE",
+    "region": "Västerbottens län",
+    "domain": "vindeln.se",
+    "osm_relation_id": 935402
+  },
+  {
+    "id": "SE-2409",
+    "name": "Robertsfor",
+    "country": "SE",
+    "region": "Västerbottens län",
+    "domain": "robertsfors.se",
+    "osm_relation_id": 935681
+  },
+  {
+    "id": "SE-2417",
+    "name": "Norsjö",
+    "country": "SE",
+    "region": "Västerbottens län",
+    "domain": "norsjo.se",
+    "osm_relation_id": 935593
+  },
+  {
+    "id": "SE-2418",
+    "name": "Malå",
+    "country": "SE",
+    "region": "Västerbottens län",
+    "domain": "mala.se",
+    "osm_relation_id": 935500
+  },
+  {
+    "id": "SE-2421",
+    "name": "Storuman",
+    "country": "SE",
+    "region": "Västerbottens län",
+    "domain": "storuman.se",
+    "osm_relation_id": 935479
+  },
+  {
+    "id": "SE-2422",
+    "name": "Sorsele",
+    "country": "SE",
+    "region": "Västerbottens län",
+    "domain": "sorsele.se",
+    "osm_relation_id": 935655
+  },
+  {
+    "id": "SE-2425",
+    "name": "Dorotea",
+    "country": "SE",
+    "region": "Västerbottens län",
+    "domain": "dorotea.se",
+    "osm_relation_id": 935438
+  },
+  {
+    "id": "SE-2460",
+    "name": "Vännä",
+    "country": "SE",
+    "region": "Västerbottens län",
+    "domain": "vannas.se",
+    "osm_relation_id": 935564
+  },
+  {
+    "id": "SE-2462",
+    "name": "Vilhelmina",
+    "country": "SE",
+    "region": "Västerbottens län",
+    "domain": "vilhelmina.se",
+    "osm_relation_id": 935528
+  },
+  {
+    "id": "SE-2463",
+    "name": "Åsele",
+    "country": "SE",
+    "region": "Västerbottens län",
+    "domain": "asele.se",
+    "osm_relation_id": 935432
+  },
+  {
+    "id": "SE-2480",
+    "name": "Umeå",
+    "country": "SE",
+    "region": "Västerbottens län",
+    "domain": "umea.se",
+    "osm_relation_id": 935646
+  },
+  {
+    "id": "SE-2481",
+    "name": "Lycksele",
+    "country": "SE",
+    "region": "Västerbottens län",
+    "domain": "lycksele.se",
+    "osm_relation_id": 935428
+  },
+  {
+    "id": "SE-2482",
+    "name": "Skellefteå",
+    "country": "SE",
+    "region": "Västerbottens län",
+    "domain": "skelleftea.se",
+    "osm_relation_id": 935576
+  },
+  {
+    "id": "SE-2505",
+    "name": "Arvidsjaur",
+    "country": "SE",
+    "region": "Norrbottens län",
+    "domain": "arvidsjaur.se",
+    "osm_relation_id": 935667
+  },
+  {
+    "id": "SE-2506",
+    "name": "Arjeplog",
+    "country": "SE",
+    "region": "Norrbottens län",
+    "domain": "arjeplog.se",
+    "osm_relation_id": 935425
+  },
+  {
+    "id": "SE-2510",
+    "name": "Jokkmokk",
+    "country": "SE",
+    "region": "Norrbottens län",
+    "domain": "jokkmokk.se",
+    "osm_relation_id": 935630
+  },
+  {
+    "id": "SE-2513",
+    "name": "Överkalix",
+    "country": "SE",
+    "region": "Norrbottens län",
+    "domain": "overkalix.se",
+    "osm_relation_id": 935629
+  },
+  {
+    "id": "SE-2514",
+    "name": "Kalix",
+    "country": "SE",
+    "region": "Norrbottens län",
+    "domain": "kalix.se",
+    "osm_relation_id": 935474
+  },
+  {
+    "id": "SE-2518",
+    "name": "Övertorneå",
+    "country": "SE",
+    "region": "Norrbottens län",
+    "domain": "overtornea.se",
+    "osm_relation_id": 935620
+  },
+  {
+    "id": "SE-2521",
+    "name": "Pajala",
+    "country": "SE",
+    "region": "Norrbottens län",
+    "domain": "pajala.se",
+    "osm_relation_id": 935573
+  },
+  {
+    "id": "SE-2523",
+    "name": "Gällivare",
+    "country": "SE",
+    "region": "Norrbottens län",
+    "domain": "gellivare.se",
+    "osm_relation_id": 935446
+  },
+  {
+    "id": "SE-2560",
+    "name": "Älvsbyn",
+    "country": "SE",
+    "region": "Norrbottens län",
+    "domain": "alvsbyn.se",
+    "osm_relation_id": 935574
+  },
+  {
+    "id": "SE-2580",
+    "name": "Luleå",
+    "country": "SE",
+    "region": "Norrbottens län",
+    "domain": "lulea.se",
+    "osm_relation_id": 935482
+  },
+  {
+    "id": "SE-2581",
+    "name": "Piteå",
+    "country": "SE",
+    "region": "Norrbottens län",
+    "domain": "pitea.se",
+    "osm_relation_id": 935490
+  },
+  {
+    "id": "SE-2582",
+    "name": "Boden",
+    "country": "SE",
+    "region": "Norrbottens län",
+    "domain": "boden.se",
+    "osm_relation_id": 935421
+  },
+  {
+    "id": "SE-2583",
+    "name": "Haparanda",
+    "country": "SE",
+    "region": "Norrbottens län",
+    "domain": "haparanda.se",
+    "osm_relation_id": 935579
+  },
+  {
+    "id": "SE-2584",
+    "name": "Kiruna",
+    "country": "SE",
+    "region": "Norrbottens län",
+    "domain": "kiruna.se",
+    "osm_relation_id": 935541
+  }
+]

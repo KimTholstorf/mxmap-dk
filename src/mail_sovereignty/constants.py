@@ -60,6 +60,7 @@ SKIP_DOMAINS = {
     "example.lv",
     "example.lt",
     "example.no",
+    "example.se",
     "kommune.no",
     "sentry.io",
     "w3.org",
@@ -98,9 +99,10 @@ GATEWAY_KEYWORDS = {
     "garmtech": ["garmtech.com", "garmtech.net"],
     "cisco-ironport": ["iphmx.com"],
     "staysecure": ["staysecuregroup.com"],
-    "mailanyone": ["mailanyone.net"],
+    "mailanyone": ["mailanyone.net", "electric.net"],
     "comendo": ["comendosystems.com"],
     "heimdal": ["heimdalsecurity.com"],
+    "messagelabs": ["messagelabs.com"],
 }
 
 # Local ISP ASNs (replaces SWISS_ISP_ASNS)
@@ -150,6 +152,20 @@ LOCAL_ISP_ASNS: dict[int, str] = {
     210615: "Alta Kommune (NO)",
     207464: "Varanger Kraft (NO)",
     29695: "Altibox (NO)",
+    # Sweden
+    3301: "Telia Sweden",
+    28954: "Fiberstaden (SE)",
+    12552: "GlobalConnect (SE)",
+    29672: "Stockholm stad (SE)",
+    198568: "Atea (SE)",
+    202780: "Advania (SE)",
+    60053: "Habo kommun (SE)",
+    206387: "BLL (SE)",
+    205574: "Borås stad (SE)",
+    206114: "Hofors kommun (SE)",
+    25417: "Ljusnet (SE)",
+    1257: "Tele2 (SE)",
+    6782: "Bdnet (SE)",
 }
 
 CONCURRENCY = 20

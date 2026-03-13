@@ -29,6 +29,7 @@ SEED_FILES = {
     "LT": "municipalities_lt.json",
     "FI": "municipalities_fi.json",
     "NO": "municipalities_no.json",
+    "SE": "municipalities_se.json",
 }
 
 
@@ -56,6 +57,7 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         " savivaldybė",
         " kaupunki", " kunta",                         # Finnish
         " kommune",                                     # Norwegian
+        " kommun",                                      # Swedish
     ]:
         if raw.endswith(suffix):
             raw = raw[: -len(suffix)]
@@ -82,8 +84,8 @@ def guess_domains(name: str, country: str = "") -> list[str]:
     slugs = {slugify(clean), slugify(raw)} - {""}
 
     # Determine TLDs based on country
-    tld_map = {"EE": [".ee"], "LV": [".lv"], "LT": [".lt"], "FI": [".fi"], "NO": [".no", ".kommune.no"]}
-    tlds = tld_map.get(country, [".ee", ".lv", ".lt", ".fi", ".no"])
+    tld_map = {"EE": [".ee"], "LV": [".lv"], "LT": [".lt"], "FI": [".fi"], "NO": [".no", ".kommune.no"], "SE": [".se"]}
+    tlds = tld_map.get(country, [".ee", ".lv", ".lt", ".fi", ".no", ".se"])
 
     candidates = set()
     for slug in slugs:

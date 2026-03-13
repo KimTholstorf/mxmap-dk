@@ -71,11 +71,15 @@ class TestGuessDomains:
     def test_no_country_generates_all_tlds(self):
         domains = guess_domains("Test")
         tlds = {d.split(".")[-1] for d in domains}
-        assert tlds == {"ee", "lv", "lt", "fi", "no"}
+        assert tlds == {"ee", "lv", "lt", "fi", "no", "se"}
 
     def test_norwegian_diacritics(self):
         domains = guess_domains("Trømsø", "NO")
         assert "tromso.no" in domains or "tromso.kommune.no" in domains
+
+    def test_swedish_diacritics(self):
+        domains = guess_domains("Malmö", "SE")
+        assert "malmo.se" in domains
 
 
 # ── load_seed_data() ─────────────────────────────────────────────────
@@ -85,7 +89,7 @@ class TestLoadSeedData:
     def test_loads_all_countries(self):
         data = load_seed_data()
         countries = {m.get("country") for m in data.values()}
-        assert countries == {"EE", "LV", "LT", "FI", "NO"}
+        assert countries == {"EE", "LV", "LT", "FI", "NO", "SE"}
 
     def test_minimum_count(self):
         data = load_seed_data()
