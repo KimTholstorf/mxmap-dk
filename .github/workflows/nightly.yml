@@ -1,8 +1,8 @@
 name: Nightly data update
 
 on:
-#  schedule:
-#    - cron: '0 4 * * *'
+  schedule:
+    - cron: '0 4 * * *'
   workflow_dispatch:
 
 permissions:
@@ -68,6 +68,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v6
+        with:
+          ref: baltic
       - uses: actions/upload-pages-artifact@v4
         with:
           path: .
