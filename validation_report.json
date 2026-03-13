@@ -5545,7 +5545,7 @@
     },
     "LV-0468": {
       "name": "Dobeles novads",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "dobele.lv",
       "confidence": 93,
       "flags": [
@@ -5683,7 +5683,7 @@
     },
     "LV-0786": {
       "name": "Rēzeknes novads",
-      "provider": "local-isp",
+      "provider": "independent",
       "domain": "rezeknesnovads.lv",
       "confidence": 95,
       "flags": [

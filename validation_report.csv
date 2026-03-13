@@ -287,7 +287,7 @@ NO-4648,Bremanger,microsoft,bremanger.kommune.no,93,spf_softfail; mx_spf_match; 
 NO-4220,Bygland,microsoft,bygland.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 NO-1867,Bø,microsoft,boe.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 LV-0429,Cēsu novads,microsoft,cesis.lv,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
-LV-0468,Dobeles novads,independent,dobele.lv,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
+LV-0468,Dobeles novads,local-isp,dobele.lv,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 NO-1101,Eigersund,microsoft,eigersund.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 FI-049,Espoo,microsoft,espoo.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 NO-3450,Etnedal,microsoft,etnedal.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
@@ -690,7 +690,7 @@ FI-707,Rääkkylä,microsoft,raakkyla.fi,95,spf_strict; mx_spf_match; provider_c
 EE-0699,Rõuge vald,microsoft,rougevald.ee,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 NO-1836,Rødøy,microsoft,rodoy.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 NO-5025,Røros - Rosse,microsoft,roros.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
-LV-0786,Rēzeknes novads,local-isp,rezeknesnovads.lv,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+LV-0786,Rēzeknes novads,independent,rezeknesnovads.lv,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 EE-0714,Saaremaa vald,microsoft,saaremaavald.ee,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 FI-729,Saarijärvi,microsoft,saarijarvi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 NO-5522,Salangen,microsoft,salangen.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms

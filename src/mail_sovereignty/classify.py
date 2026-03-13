@@ -159,7 +159,10 @@ def classify(
             return dkim_provider, (
                 f"MX is {gateway} gateway; DKIM signs via {dkim_provider}"
             )
-        # Gateway relays to unknown backend — fall through to independent
+        # Gateway relays to unknown backend
+        return "independent", (
+            f"MX is {gateway} gateway; backend provider unknown"
+        )
 
     # 4. MX exists but no direct provider match → check DKIM for hidden
     #    backend (self-hosted gateway pattern), then Local ISP, then independent
