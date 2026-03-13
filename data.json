@@ -1,13 +1,14 @@
 {
-  "generated":"2026-03-13T10:43:49Z",
+  "generated":"2026-03-13T12:39:23Z",
   "total":182,
   "counts":{
-    "baltic-isp":32,
-    "google":2,
-    "independent":35,
-    "microsoft":102,
-    "telia":3,
-    "zone":8
+    "aws":1,
+    "baltic-isp":24,
+    "google":7,
+    "independent":30,
+    "microsoft":105,
+    "telia":4,
+    "zone":11
   },
   "municipalities":{
     "EE-0130":{
@@ -21,6 +22,7 @@
       ],
       "spf":"v=spf1 a mx a:delta.andmevara.ee include:spf.protection.outlook.com ~all",
       "provider":"microsoft",
+      "reason":"MX record (alutagusevald-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":9622858,
       "spf_resolved":"v=spf1 a mx a:delta.andmevara.ee include:spf.protection.outlook.com ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -41,6 +43,7 @@
       ],
       "spf":"v=spf1 a mx include:_spf.zone.eu ip4:185.250.238.195 -all",
       "provider":"zone",
+      "reason":"MX record (zonemx.eu) matches Zone.eu",
       "osm_relation_id":2638317,
       "spf_resolved":"v=spf1 a mx include:_spf.zone.eu ip4:185.250.238.195 -all v=spf1 ip4:217.146.64.0/20 ip4:185.31.240.0/22 ip4:85.222.232.0/22 ip4:85.234.242.0/23 ip4:85.234.244.0/22 ip6:2a02:29e8::/29 ip4:90.191.225.240/29 ip6:2001:7d0:d100:6::/64 ip4:90.191.225.208/28 ip4:87.119.168.48/29 ip4:217.68.24.144/29 ip4:45.151.4.0/23 -all",
       "mx_asns":[
@@ -61,6 +64,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com include:_netblocks.neti.ee include:sendgrid.net include:_spf.spin.ee ~all",
       "provider":"microsoft",
+      "reason":"MX record (anija-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":2631369,
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com include:_netblocks.neti.ee include:sendgrid.net include:_spf.spin.ee ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:80.235.21.0/24 ip4:80.235.79.160/27 ip4:80.235.79.224/27 ip4:185.43.106.0/24 ip4:217.146.65.105 include:spf.mailcore.net include:sendgrid.net include:mail.zendesk.com ~all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:194.204.19.0/26 ip4:194.204.19.85/32 -all v=spf1 ip4:194.19.134.0/25 ip4:185.138.56.128/25 -all v=spf1 ip4:103.151.192.0/23 ip4:185.12.80.0/22 ip4:188.172.128.0/20 ip4:192.161.144.0/20 ip4:216.198.0.0/18 ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
       "mx_asns":[
@@ -82,6 +86,7 @@
       ],
       "spf":"v=spf1 include:_spf.zone.eu include:spf.protection.outlook.com include:_spf.smaily.com a:piksel.ee a:sendgrid.net -all",
       "provider":"microsoft",
+      "reason":"MX record (elva-ee.mail.protection.outlook.com, zonemx.eu) matches Microsoft",
       "osm_relation_id":8414543,
       "spf_resolved":"v=spf1 include:_spf.zone.eu include:spf.protection.outlook.com include:_spf.smaily.com a:piksel.ee a:sendgrid.net -all v=spf1 ip4:217.146.64.0/20 ip4:185.31.240.0/22 ip4:85.222.232.0/22 ip4:85.234.242.0/23 ip4:85.234.244.0/22 ip6:2a02:29e8::/29 ip4:90.191.225.240/29 ip6:2001:7d0:d100:6::/64 ip4:90.191.225.208/28 ip4:87.119.168.48/29 ip4:217.68.24.144/29 ip4:45.151.4.0/23 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:149.154.156.2/31 ip4:149.154.156.4/30 ip4:149.154.156.8/29 ip4:149.154.156.16/31 ip4:185.31.243.2/31 ip4:185.31.243.4/30 ip4:185.31.243.8/29 ip4:185.31.243.16/28 ip4:185.31.243.32/29 ip4:149.202.130.128/25 -all",
       "mx_asns":[
@@ -104,6 +109,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (haapsalu-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":8414556,
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -124,6 +130,7 @@
       ],
       "spf":"v=spf1 ip4:185.250.238.195 a mx include:spf.protection.outlook.com include:_spf.smaily.com a:smtp2.almic.ee -all",
       "provider":"microsoft",
+      "reason":"MX record (haljala-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":8414551,
       "spf_resolved":"v=spf1 ip4:185.250.238.195 a mx include:spf.protection.outlook.com include:_spf.smaily.com a:smtp2.almic.ee -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:149.154.156.2/31 ip4:149.154.156.4/30 ip4:149.154.156.8/29 ip4:149.154.156.16/31 ip4:185.31.243.2/31 ip4:185.31.243.4/30 ip4:185.31.243.8/29 ip4:185.31.243.16/28 ip4:185.31.243.32/29 ip4:149.202.130.128/25 -all",
       "mx_asns":[
@@ -145,6 +152,7 @@
       ],
       "spf":"v=spf1 mx a include:spf.protection.outlook.com include:spf.mandrillapp.com include:servers.mcsv.net include:_spf.smaily.com ip4:80.235.97.26/29 ip4:195.80.112.79/31 ip4:46.22.220.218 ip4:185.250.238.195 a:mail.harku.ee a:dispatch-eu.ppe-hosted.com -all",
       "provider":"microsoft",
+      "reason":"MX is proofpoint gateway; SPF authorizes microsoft",
       "osm_relation_id":2631430,
       "spf_resolved":"v=spf1 mx a include:spf.protection.outlook.com include:spf.mandrillapp.com include:servers.mcsv.net include:_spf.smaily.com ip4:80.235.97.26/29 ip4:195.80.112.79/31 ip4:46.22.220.218 ip4:185.250.238.195 a:mail.harku.ee a:dispatch-eu.ppe-hosted.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:198.2.128.0/24 ip4:198.2.132.0/22 ip4:198.2.136.0/23 ip4:198.2.145.0/24 ip4:198.2.186.0/23 ip4:205.201.131.128/25 ip4:205.201.134.128/25 ip4:205.201.136.0/23 ip4:205.201.139.0/24 ip4:198.2.177.0/24 ip4:198.2.178.0/23 ip4:198.2.180.0/24 ~all v=spf1 ip4:205.201.128.0/20 ip4:198.2.128.0/18 ip4:148.105.0.0/16 -all v=spf1 ip4:149.154.156.2/31 ip4:149.154.156.4/30 ip4:149.154.156.8/29 ip4:149.154.156.16/31 ip4:185.31.243.2/31 ip4:185.31.243.4/30 ip4:185.31.243.8/29 ip4:185.31.243.16/28 ip4:185.31.243.32/29 ip4:149.202.130.128/25 -all",
       "gateway":"proofpoint",
@@ -166,6 +174,7 @@
       ],
       "spf":"v=spf1 mx include:spf.protection.outlook.com  a:post.holdit.ee  a:158.109.219.213.sta.estpak.ee  ip4:213.35.185.34 include:_spf.smaily.com  ip4:213.219.109.158 include:mail.spf.elkdata.ee ip4:213.184.45.232 ip4:213.184.45.235 ip4:185.250.238.195 include:servers.mcsv.net -all",
       "provider":"microsoft",
+      "reason":"MX record (hiiumaa-ee.h-v1.mx.microsoft) matches Microsoft",
       "osm_relation_id":9702498,
       "spf_resolved":"v=spf1 mx include:spf.protection.outlook.com  a:post.holdit.ee  a:158.109.219.213.sta.estpak.ee  ip4:213.35.185.34 include:_spf.smaily.com  ip4:213.219.109.158 include:mail.spf.elkdata.ee ip4:213.184.45.232 ip4:213.184.45.235 ip4:185.250.238.195 include:servers.mcsv.net -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:149.154.156.2/31 ip4:149.154.156.4/30 ip4:149.154.156.8/29 ip4:149.154.156.16/31 ip4:185.31.243.2/31 ip4:185.31.243.4/30 ip4:185.31.243.8/29 ip4:185.31.243.16/28 ip4:185.31.243.32/29 ip4:149.202.130.128/25 -all v=spf1 include:mh.spf.elkdata.ee ip4:194.106.101.168 ip4:185.7.252.120/29 ip4:185.7.252.64 ip4:185.7.252.68 ip4:185.7.252.69 ip4:85.194.200.192/26 -all v=spf1 ip4:205.201.128.0/20 ip4:198.2.128.0/18 ip4:148.105.0.0/16 -all v=spf1 ip4:185.7.252.14 ip4:185.7.252.160 ip4:185.7.252.15 ip4:185.7.252.75 ip4:185.7.252.76 ip4:185.7.252.16/28 ip4:185.7.252.32/29 ip4:85.194.202.0/25 -all",
       "mx_asns":[
@@ -186,6 +195,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (haademeeste-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":2637535,
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -207,6 +217,7 @@
       ],
       "spf":"v=spf1 a:mail.webware.ee include:spf.protection.outlook.com include:_spf.zone.eu include:_spf.smaily.com include:_spf.telia.ee -all",
       "provider":"microsoft",
+      "reason":"MX record (joelahtme-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":2631502,
       "spf_resolved":"v=spf1 a:mail.webware.ee include:spf.protection.outlook.com include:_spf.zone.eu include:_spf.smaily.com include:_spf.telia.ee -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:217.146.64.0/20 ip4:185.31.240.0/22 ip4:85.222.232.0/22 ip4:85.234.242.0/23 ip4:85.234.244.0/22 ip6:2a02:29e8::/29 ip4:90.191.225.240/29 ip6:2001:7d0:d100:6::/64 ip4:90.191.225.208/28 ip4:87.119.168.48/29 ip4:217.68.24.144/29 ip4:45.151.4.0/23 -all v=spf1 ip4:149.154.156.2/31 ip4:149.154.156.4/30 ip4:149.154.156.8/29 ip4:149.154.156.16/31 ip4:185.31.243.2/31 ip4:185.31.243.4/30 ip4:185.31.243.8/29 ip4:185.31.243.16/28 ip4:185.31.243.32/29 ip4:149.202.130.128/25 -all v=spf1 include:spf.protection.outlook.com include:_spfa.telia.ee include:_spf6.telia.ee include:spf.flowmailer.net -all v=spf1 ip4:194.106.115.56/29 ip4:194.204.27.128/29 ip4:80.235.11.68/32 ip4:80.235.5.160/29 ip4:80.235.5.248/29 ip4:80.235.4.96/28 ip4:81.198.79.192/27 ip4:81.236.57.0/24 ip4:88.196.160.0/29 ip4:88.196.160.128/28 ip4:88.196.160.8/29 ip4:88.196.170.55/32 ip4:90.190.52.20/32 ip4:80.74.207.112/28 ip4:81.227.116.64/26 ip4:90.190.54.208/29 ip4:185.43.106.109/32 -all v=spf1 ip6:2001:7d0:d000:6::/64 ip6:2001:7d0:d000:7::/64 ip6:2001:7d0:d000:8::/64  ip6:2001:7d0:d000:9::/64 -all v=spf1 ip4:185.136.64.128/27 ip4:185.136.65.128/27 ~all",
       "mx_asns":[
@@ -227,6 +238,7 @@
       ],
       "spf":"v=spf1 a:delta.andmevara.ee include:_spf.zone.eu include:spf.protection.outlook.com include:re.eenet.ee include:_spf.smaily.com -all",
       "provider":"microsoft",
+      "reason":"MX record (jarvavald-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":9622870,
       "spf_resolved":"v=spf1 a:delta.andmevara.ee include:_spf.zone.eu include:spf.protection.outlook.com include:re.eenet.ee include:_spf.smaily.com -all v=spf1 ip4:217.146.64.0/20 ip4:185.31.240.0/22 ip4:85.222.232.0/22 ip4:85.234.242.0/23 ip4:85.234.244.0/22 ip6:2a02:29e8::/29 ip4:90.191.225.240/29 ip6:2001:7d0:d100:6::/64 ip4:90.191.225.208/28 ip4:87.119.168.48/29 ip4:217.68.24.144/29 ip4:45.151.4.0/23 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:193.40.0.42 ip6:2001:bb8:2001::25:42 ip4:193.40.0.43 ip6:2001:bb8:2001::25:43 ip4:193.40.0.44 ip6:2001:bb8:2001::25:44 ip4:193.40.0.15 ip6:2001:bb8:2001::15 -all v=spf1 ip4:149.154.156.2/31 ip4:149.154.156.4/30 ip4:149.154.156.8/29 ip4:149.154.156.16/31 ip4:185.31.243.2/31 ip4:185.31.243.4/30 ip4:185.31.243.8/29 ip4:185.31.243.16/28 ip4:185.31.243.32/29 ip4:149.202.130.128/25 -all",
       "mx_asns":[
@@ -247,6 +259,7 @@
       ],
       "spf":"v=spf1 a:delta.andmevara.ee  ip4:217.159.236.90  ip4:195.80.124.2  ip4:217.159.201.70 include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (johvi-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":2625849,
       "spf_resolved":"v=spf1 a:delta.andmevara.ee  ip4:217.159.236.90  ip4:195.80.124.2  ip4:217.159.201.70 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -267,6 +280,7 @@
       ],
       "spf":"v=spf1 mx ip4:195.80.100.186 ip4:193.40.110.165 ip4:195.80.100.50 ip4:195.80.100.6 ip4:193.40.110.162 ip4:167.89.90.87 include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (jogeva-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":8414569,
       "spf_resolved":"v=spf1 mx ip4:195.80.100.186 ip4:193.40.110.165 ip4:195.80.100.50 ip4:195.80.100.6 ip4:193.40.110.162 ip4:167.89.90.87 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -287,6 +301,7 @@
       ],
       "spf":"v=spf1 mx include:_netblocks.neti.ee include:spf.protection.outlook.com include:teliaklm.ee -all",
       "provider":"microsoft",
+      "reason":"MX record (kadrina-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":2638049,
       "spf_resolved":"v=spf1 mx include:_netblocks.neti.ee include:spf.protection.outlook.com include:teliaklm.ee -all v=spf1 ip4:80.235.21.0/24 ip4:80.235.79.160/27 ip4:80.235.79.224/27 ip4:185.43.106.0/24 ip4:217.146.65.105 include:spf.mailcore.net include:sendgrid.net include:mail.zendesk.com ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:185.43.106.0/24 ip4:217.146.65.105 -all v=spf1 ip4:194.19.134.0/25 ip4:185.138.56.128/25 -all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:103.151.192.0/23 ip4:185.12.80.0/22 ip4:188.172.128.0/20 ip4:192.161.144.0/20 ip4:216.198.0.0/18 ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
       "mx_asns":[
@@ -307,6 +322,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com include:_spf.zone.eu ip4:46.22.220.218 ip4:195.80.115.28 ip4:195.80.115.29 -all",
       "provider":"microsoft",
+      "reason":"MX record (kambja-ee.mail.eo.outlook.com) matches Microsoft",
       "osm_relation_id":8414571,
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com include:_spf.zone.eu ip4:46.22.220.218 ip4:195.80.115.28 ip4:195.80.115.29 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:217.146.64.0/20 ip4:185.31.240.0/22 ip4:85.222.232.0/22 ip4:85.234.242.0/23 ip4:85.234.244.0/22 ip6:2a02:29e8::/29 ip4:90.191.225.240/29 ip6:2001:7d0:d100:6::/64 ip4:90.191.225.208/28 ip4:87.119.168.48/29 ip4:217.68.24.144/29 ip4:45.151.4.0/23 -all",
       "mx_asns":[
@@ -327,6 +343,7 @@
       ],
       "spf":"v=spf1 mx a:enigma.keila.ee a:mail.keila.ee a:delta.andmevara.ee ip4:217.159.236.90 ip4:185.43.106.0/24 include:spf.protection.outlook.com include:_spf.spin.ee -all",
       "provider":"microsoft",
+      "reason":"MX record (keila-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":2631537,
       "spf_resolved":"v=spf1 mx a:enigma.keila.ee a:mail.keila.ee a:delta.andmevara.ee ip4:217.159.236.90 ip4:185.43.106.0/24 include:spf.protection.outlook.com include:_spf.spin.ee -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:194.204.19.0/26 ip4:194.204.19.85/32 -all",
       "mx_asns":[
@@ -347,6 +364,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com include:_netblocks.neti.ee a:delta.andmevara.ee ip4:213.168.27.147 -all",
       "provider":"microsoft",
+      "reason":"MX record (kanepi-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":8414573,
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com include:_netblocks.neti.ee a:delta.andmevara.ee ip4:213.168.27.147 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:80.235.21.0/24 ip4:80.235.79.160/27 ip4:80.235.79.224/27 ip4:185.43.106.0/24 ip4:217.146.65.105 include:spf.mailcore.net include:sendgrid.net include:mail.zendesk.com ~all v=spf1 ip4:194.19.134.0/25 ip4:185.138.56.128/25 -all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:103.151.192.0/23 ip4:185.12.80.0/22 ip4:188.172.128.0/20 ip4:192.161.144.0/20 ip4:216.198.0.0/18 ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
       "mx_asns":[
@@ -367,6 +385,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (kihnu-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":2637548,
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -388,6 +407,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com include:_spf.zone.eu -all",
       "provider":"microsoft",
+      "reason":"MX record (kastre-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":9622871,
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com include:_spf.zone.eu -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:217.146.64.0/20 ip4:185.31.240.0/22 ip4:85.222.232.0/22 ip4:85.234.242.0/23 ip4:85.234.244.0/22 ip6:2a02:29e8::/29 ip4:90.191.225.240/29 ip6:2001:7d0:d100:6::/64 ip4:90.191.225.208/28 ip4:87.119.168.48/29 ip4:217.68.24.144/29 ip4:45.151.4.0/23 -all",
       "mx_asns":[
@@ -408,6 +428,7 @@
       ],
       "spf":"v=spf1 a mx ip4:195.80.98.222  ip4:185.250.238.195 include:_netblocks.neti.ee include:spf.protection.outlook.com include:teliaklm.ee -all",
       "provider":"microsoft",
+      "reason":"MX record (kehtna-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":2637974,
       "spf_resolved":"v=spf1 a mx ip4:195.80.98.222  ip4:185.250.238.195 include:_netblocks.neti.ee include:spf.protection.outlook.com include:teliaklm.ee -all v=spf1 ip4:80.235.21.0/24 ip4:80.235.79.160/27 ip4:80.235.79.224/27 ip4:185.43.106.0/24 ip4:217.146.65.105 include:spf.mailcore.net include:sendgrid.net include:mail.zendesk.com ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:185.43.106.0/24 ip4:217.146.65.105 -all v=spf1 ip4:194.19.134.0/25 ip4:185.138.56.128/25 -all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:103.151.192.0/23 ip4:185.12.80.0/22 ip4:188.172.128.0/20 ip4:192.161.144.0/20 ip4:216.198.0.0/18 ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
       "mx_asns":[
@@ -428,6 +449,7 @@
       ],
       "spf":"v=spf1 a mx a:mail.webware.ee include:mail.spf.elkdata.ee include:spf.protection.outlook.com include:spf.brevo.com -all",
       "provider":"microsoft",
+      "reason":"MX record (kiilivald-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":2631555,
       "spf_resolved":"v=spf1 a mx a:mail.webware.ee include:mail.spf.elkdata.ee include:spf.protection.outlook.com include:spf.brevo.com -all v=spf1 include:mh.spf.elkdata.ee ip4:194.106.101.168 ip4:185.7.252.120/29 ip4:185.7.252.64 ip4:185.7.252.68 ip4:185.7.252.69 ip4:85.194.200.192/26 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:185.41.28.0/22 ip4:94.143.16.0/21 ip4:185.24.144.0/22 ip4:153.92.224.0/19 ip4:213.32.128.0/18 ip4:185.107.232.0/22 ip4:77.32.128.0/18 ip4:77.32.192.0/19 ip4:212.146.192.0/18 ip4:172.246.0.0/18 -all v=spf1 ip4:185.7.252.14 ip4:185.7.252.160 ip4:185.7.252.15 ip4:185.7.252.75 ip4:185.7.252.76 ip4:185.7.252.16/28 ip4:185.7.252.32/29 ip4:85.194.202.0/25 -all",
       "mx_asns":[
@@ -448,6 +470,7 @@
       ],
       "spf":"v=spf1 +mx +a +a:delta.andmevara.ee +ip4:212.47.208.134 +ip4:185.86.211.154 +ip4:185.86.211.134 +ip4:195.80.98.250 +ip4:213.35.185.34 +include:_spf.radicenter.eu +include:_spf.spin.ee +include:_spf.google.com +include:spf.protection.outlook.com ~all",
       "provider":"microsoft",
+      "reason":"MX record (kohila-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":2638000,
       "spf_resolved":"v=spf1 +mx +a +a:delta.andmevara.ee +ip4:212.47.208.134 +ip4:185.86.211.154 +ip4:185.86.211.134 +ip4:195.80.98.250 +ip4:213.35.185.34 +include:_spf.radicenter.eu +include:_spf.spin.ee +include:_spf.google.com +include:spf.protection.outlook.com ~all v=spf1 ip4:185.86.211.0/24 ip6:2a13:c5c0::/32 -all v=spf1 ip4:194.204.19.0/26 ip4:194.204.19.85/32 -all v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -467,7 +490,8 @@
         "zonemx.eu"
       ],
       "spf":"",
-      "provider":"baltic-isp",
+      "provider":"zone",
+      "reason":"MX record (zonemx.eu) matches Zone.eu",
       "osm_relation_id":2625875,
       "mx_asns":[
         49604
@@ -484,6 +508,7 @@
       ],
       "spf":"v=spf1  ip4:185.250.238.195 mx include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (kosevald-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":2631566,
       "spf_resolved":"v=spf1  ip4:185.250.238.195 mx include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -504,6 +529,7 @@
       ],
       "spf":"v=spf1 mx include:spf.protection.outlook.com a:mail.kuusalu.ee ip4:185.250.238.195 -all",
       "provider":"microsoft",
+      "reason":"MX record (kuusalu-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":2631575,
       "spf_resolved":"v=spf1 mx include:spf.protection.outlook.com a:mail.kuusalu.ee ip4:185.250.238.195 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -524,6 +550,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com include:sendgrid.net ip4:185.250.238.195 ~all",
       "provider":"microsoft",
+      "reason":"MX record (loksa-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":2631580,
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com include:sendgrid.net ip4:185.250.238.195 ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
       "mx_asns":[
@@ -544,6 +571,7 @@
       ],
       "spf":"v=spf1 a mx include:_spf.zone.eu ip4:167.89.90.87 ip4:213.35.185.34 -all",
       "provider":"zone",
+      "reason":"MX record (zonemx.eu) matches Zone.eu",
       "osm_relation_id":8414579,
       "spf_resolved":"v=spf1 a mx include:_spf.zone.eu ip4:167.89.90.87 ip4:213.35.185.34 -all v=spf1 ip4:217.146.64.0/20 ip4:185.31.240.0/22 ip4:85.222.232.0/22 ip4:85.234.242.0/23 ip4:85.234.244.0/22 ip6:2a02:29e8::/29 ip4:90.191.225.240/29 ip6:2001:7d0:d100:6::/64 ip4:90.191.225.208/28 ip4:87.119.168.48/29 ip4:217.68.24.144/29 ip4:45.151.4.0/23 -all",
       "mx_asns":[
@@ -564,6 +592,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (laanerannavald-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":9622878,
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -584,6 +613,7 @@
       ],
       "spf":"v=spf1 include:_spf.spin.ee include:sendgrid.net include:spf.protection.outlook.com ip4:167.89.90.87  ip4:213.168.29.16 ip4:217.159.201.70 ip4:185.250.238.195 ip4:80.235.7.30 -all",
       "provider":"microsoft",
+      "reason":"MX record (laaneharju-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":9622893,
       "spf_resolved":"v=spf1 include:_spf.spin.ee include:sendgrid.net include:spf.protection.outlook.com ip4:167.89.90.87  ip4:213.168.29.16 ip4:217.159.201.70 ip4:185.250.238.195 ip4:80.235.7.30 -all v=spf1 ip4:194.204.19.0/26 ip4:194.204.19.85/32 -all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
       "mx_asns":[
@@ -604,6 +634,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com include:_spf.zone.eu include:delta.andmevara.ee ip4:167.89.90.87 -all",
       "provider":"microsoft",
+      "reason":"MX record (luunja-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":2628556,
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com include:_spf.zone.eu include:delta.andmevara.ee ip4:167.89.90.87 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:217.146.64.0/20 ip4:185.31.240.0/22 ip4:85.222.232.0/22 ip4:85.234.242.0/23 ip4:85.234.244.0/22 ip6:2a02:29e8::/29 ip4:90.191.225.240/29 ip6:2001:7d0:d100:6::/64 ip4:90.191.225.208/28 ip4:87.119.168.48/29 ip4:217.68.24.144/29 ip4:45.151.4.0/23 -all v=spf1 ip4:213.184.44.210 -all",
       "mx_asns":[
@@ -624,6 +655,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com ip4:213.35.185.34 ip4:80.235.126.234 include:mail.spf.elkdata.ee a:delta.andmevara.ee include:_spf.smaily.com -all",
       "provider":"microsoft",
+      "reason":"MX record (laanenigula-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":9622876,
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com ip4:213.35.185.34 ip4:80.235.126.234 include:mail.spf.elkdata.ee a:delta.andmevara.ee include:_spf.smaily.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 include:mh.spf.elkdata.ee ip4:194.106.101.168 ip4:185.7.252.120/29 ip4:185.7.252.64 ip4:185.7.252.68 ip4:185.7.252.69 ip4:85.194.200.192/26 -all v=spf1 ip4:149.154.156.2/31 ip4:149.154.156.4/30 ip4:149.154.156.8/29 ip4:149.154.156.16/31 ip4:185.31.243.2/31 ip4:185.31.243.4/30 ip4:185.31.243.8/29 ip4:185.31.243.16/28 ip4:185.31.243.32/29 ip4:149.202.130.128/25 -all v=spf1 ip4:185.7.252.14 ip4:185.7.252.160 ip4:185.7.252.15 ip4:185.7.252.75 ip4:185.7.252.76 ip4:185.7.252.16/28 ip4:185.7.252.32/29 ip4:85.194.202.0/25 -all",
       "mx_asns":[
@@ -645,6 +677,7 @@
       ],
       "spf":"v=spf1 mx ip4:88.196.161.88/29 include:_netblocks.neti.ee a:_o1.smtp.interinx.com include:teliaklm.ee include:spf.protection.outlook.com include:_spf.spin.ee -all",
       "provider":"microsoft",
+      "reason":"MX record (maardu-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":2631624,
       "spf_resolved":"v=spf1 mx ip4:88.196.161.88/29 include:_netblocks.neti.ee a:_o1.smtp.interinx.com include:teliaklm.ee include:spf.protection.outlook.com include:_spf.spin.ee -all v=spf1 ip4:80.235.21.0/24 ip4:80.235.79.160/27 ip4:80.235.79.224/27 ip4:185.43.106.0/24 ip4:217.146.65.105 include:spf.mailcore.net include:sendgrid.net include:mail.zendesk.com ~all v=spf1 ip4:185.43.106.0/24 ip4:217.146.65.105 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:194.204.19.0/26 ip4:194.204.19.85/32 -all v=spf1 ip4:194.19.134.0/25 ip4:185.138.56.128/25 -all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:103.151.192.0/23 ip4:185.12.80.0/22 ip4:188.172.128.0/20 ip4:192.161.144.0/20 ip4:216.198.0.0/18 ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
       "mx_asns":[
@@ -665,6 +698,7 @@
       ],
       "spf":"v=spf1 ip4:213.35.134.184/29 ip4:85.29.218.135 ip4:85.29.198.24 ip4:195.250.179.182 ip4:195.250.179.135 ip4:195.250.179.145 ip4:194.106.100.47 include:_spf.marjamaa.ee include:_spf1.marjamaa.ee include:_netblocks.neti.ee include:spf.protection.outlook.com include:teliaklm.ee -all",
       "provider":"telia",
+      "reason":"MX record (cmx.telia.ee) matches Telia",
       "osm_relation_id":8414582,
       "spf_resolved":"v=spf1 ip4:213.35.134.184/29 ip4:85.29.218.135 ip4:85.29.198.24 ip4:195.250.179.182 ip4:195.250.179.135 ip4:195.250.179.145 ip4:194.106.100.47 include:_spf.marjamaa.ee include:_spf1.marjamaa.ee include:_netblocks.neti.ee include:spf.protection.outlook.com include:teliaklm.ee -all v=spf1 ip4:185.250.238.195 ip4:217.159.196.196 ip4:195.250.179.143 ip4:195.250.179.218 ip4:80.235.7.239 ip4:195.250.179.161 ip4:195.250.179.164 ip4:195.250.179.198 ip4:195.250.166.32/29 ip4:80.235.7.243 ip4:84.50.108.64/29 ip4:185.94.112.71 ~all v=spf1 ip4:217.159.246.158 ip4:85.29.245.121 ip4:213.219.125.180 ip4:195.250.179.141 ip4:195.250.179.150 ip4:195.250.179.166 ip4:195.250.179.169 ip4:80.235.7.62 ip4:195.250.179.173 ip4:195.250.179.175 ip4:195.250.179.176 ip4:195.250.179.177 ip4:213.35.185.34 a:o1.smtp.interinx.com ~all v=spf1 ip4:80.235.21.0/24 ip4:80.235.79.160/27 ip4:80.235.79.224/27 ip4:185.43.106.0/24 ip4:217.146.65.105 include:spf.mailcore.net include:sendgrid.net include:mail.zendesk.com ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:185.43.106.0/24 ip4:217.146.65.105 -all v=spf1 ip4:194.19.134.0/25 ip4:185.138.56.128/25 -all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:103.151.192.0/23 ip4:185.12.80.0/22 ip4:188.172.128.0/20 ip4:192.161.144.0/20 ip4:216.198.0.0/18 ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
       "mx_asns":[
@@ -684,7 +718,8 @@
         "mail.muhu.ee"
       ],
       "spf":"v=spf1 +a +mx +ip4:185.86.211.140 +ip4:185.86.211.160 include:_spf.radicenter.eu +ip4:212.47.208.140 +mx:webware.ee +mx:webriks.ee +include:spf.protection.outlook.com ~all",
-      "provider":"independent",
+      "provider":"microsoft",
+      "reason":"MX (mail.muhu.ee) is self-hosted; SPF authorizes microsoft — hybrid relay setup",
       "osm_relation_id":2625899,
       "spf_resolved":"v=spf1 +a +mx +ip4:185.86.211.140 +ip4:185.86.211.160 include:_spf.radicenter.eu +ip4:212.47.208.140 +mx:webware.ee +mx:webriks.ee +include:spf.protection.outlook.com ~all v=spf1 ip4:185.86.211.0/24 ip6:2a13:c5c0::/32 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -704,7 +739,8 @@
         "zonemx.eu"
       ],
       "spf":"v=spf1 a mx a:smtp2.excellent.ee include:_spf.zone.eu ip4:167.89.90.87 ip4:185.250.238.195 include:spf.protection.outlook.com a:delta.andmevara.ee -all",
-      "provider":"microsoft",
+      "provider":"zone",
+      "reason":"MX record (zonemx.eu) matches Zone.eu",
       "osm_relation_id":9622880,
       "spf_resolved":"v=spf1 a mx a:smtp2.excellent.ee include:_spf.zone.eu ip4:167.89.90.87 ip4:185.250.238.195 include:spf.protection.outlook.com a:delta.andmevara.ee -all v=spf1 ip4:217.146.64.0/20 ip4:185.31.240.0/22 ip4:85.222.232.0/22 ip4:85.234.242.0/23 ip4:85.234.244.0/22 ip6:2a02:29e8::/29 ip4:90.191.225.240/29 ip6:2001:7d0:d100:6::/64 ip4:90.191.225.208/28 ip4:87.119.168.48/29 ip4:217.68.24.144/29 ip4:45.151.4.0/23 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -726,6 +762,7 @@
       ],
       "spf":"v=spf1 a:delta.andmevara.ee include:spf.protection.outlook.com include:_netblocks.neti.ee ip4:213.219.73.75 ip4:213.168.19.106 ip4:88.196.17.118 ip4:213.219.73.35 ip4:195.80.100.91 ip4:37.157.76.64 include:teliaklm.ee -all",
       "provider":"microsoft",
+      "reason":"MX record (mustvee-ee.mail.eo.outlook.com) matches Microsoft",
       "osm_relation_id":9622882,
       "spf_resolved":"v=spf1 a:delta.andmevara.ee include:spf.protection.outlook.com include:_netblocks.neti.ee ip4:213.219.73.75 ip4:213.168.19.106 ip4:88.196.17.118 ip4:213.219.73.35 ip4:195.80.100.91 ip4:37.157.76.64 include:teliaklm.ee -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:80.235.21.0/24 ip4:80.235.79.160/27 ip4:80.235.79.224/27 ip4:185.43.106.0/24 ip4:217.146.65.105 include:spf.mailcore.net include:sendgrid.net include:mail.zendesk.com ~all v=spf1 ip4:185.43.106.0/24 ip4:217.146.65.105 -all v=spf1 ip4:194.19.134.0/25 ip4:185.138.56.128/25 -all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:103.151.192.0/23 ip4:185.12.80.0/22 ip4:188.172.128.0/20 ip4:192.161.144.0/20 ip4:216.198.0.0/18 ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
       "mx_asns":[
@@ -747,6 +784,7 @@
       ],
       "spf":"v=spf1 a ip4:213.184.47.202 ip4:213.184.47.200 ip4:80.235.127.117 ip4:88.196.98.240 ip4:90.190.106.86 ip4:194.204.19.38 ip4:217.159.236.90  mx  ~all",
       "provider":"baltic-isp",
+      "reason":"MX (mail.narva.ee, mail2.narva.ee) hosted on Baltic ISP (Telia (EE/LT))",
       "osm_relation_id":1900592,
       "mx_asns":[
         3249,
@@ -764,6 +802,7 @@
       ],
       "spf":"v=spf1 a mx include:_spf.zone.eu ip4:167.89.90.87 -all",
       "provider":"zone",
+      "reason":"MX record (zonemx.eu) matches Zone.eu",
       "osm_relation_id":2625901,
       "spf_resolved":"v=spf1 a mx include:_spf.zone.eu ip4:167.89.90.87 -all v=spf1 ip4:217.146.64.0/20 ip4:185.31.240.0/22 ip4:85.222.232.0/22 ip4:85.234.242.0/23 ip4:85.234.244.0/22 ip6:2a02:29e8::/29 ip4:90.191.225.240/29 ip6:2001:7d0:d100:6::/64 ip4:90.191.225.208/28 ip4:87.119.168.48/29 ip4:217.68.24.144/29 ip4:45.151.4.0/23 -all",
       "mx_asns":[
@@ -784,6 +823,7 @@
       ],
       "spf":"v=spf1 ip4:80.250.114.239 mx ip4:213.180.13.122/32 include:spf.protection.outlook.com include:_spf.smaily.com -all",
       "provider":"microsoft",
+      "reason":"MX record (noo-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":2628580,
       "spf_resolved":"v=spf1 ip4:80.250.114.239 mx ip4:213.180.13.122/32 include:spf.protection.outlook.com include:_spf.smaily.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:149.154.156.2/31 ip4:149.154.156.4/30 ip4:149.154.156.8/29 ip4:149.154.156.16/31 ip4:185.31.243.2/31 ip4:185.31.243.4/30 ip4:185.31.243.8/29 ip4:185.31.243.16/28 ip4:185.31.243.32/29 ip4:149.202.130.128/25 -all",
       "mx_asns":[
@@ -804,6 +844,7 @@
       ],
       "spf":"v=spf1 a mx ip4:213.35.185.34 include:_spf.zone.eu ~all",
       "provider":"zone",
+      "reason":"MX record (zonemx.eu) matches Zone.eu",
       "osm_relation_id":8414586,
       "spf_resolved":"v=spf1 a mx ip4:213.35.185.34 include:_spf.zone.eu ~all v=spf1 ip4:217.146.64.0/20 ip4:185.31.240.0/22 ip4:85.222.232.0/22 ip4:85.234.242.0/23 ip4:85.234.244.0/22 ip6:2a02:29e8::/29 ip4:90.191.225.240/29 ip6:2001:7d0:d100:6::/64 ip4:90.191.225.208/28 ip4:87.119.168.48/29 ip4:217.68.24.144/29 ip4:45.151.4.0/23 -all",
       "mx_asns":[
@@ -824,6 +865,7 @@
       ],
       "spf":"v=spf1 +mx +a:delta.andmevara.ee +ip4:213.184.44.50 +ip4:80.79.114.202 include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (paide-ee.mail.eo.outlook.com) matches Microsoft",
       "osm_relation_id":8414588,
       "spf_resolved":"v=spf1 +mx +a:delta.andmevara.ee +ip4:213.184.44.50 +ip4:80.79.114.202 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -845,6 +887,7 @@
       ],
       "spf":"v=spf1 a mx include:mail.spf.elkdata.ee ~all",
       "provider":"independent",
+      "reason":"MX (mh1.elkdata.ee, mh25.elkdata.ee) is self-hosted; no known provider in SPF or autodiscover",
       "osm_relation_id":9622885,
       "spf_resolved":"v=spf1 a mx include:mail.spf.elkdata.ee ~all v=spf1 include:mh.spf.elkdata.ee ip4:194.106.101.168 ip4:185.7.252.120/29 ip4:185.7.252.64 ip4:185.7.252.68 ip4:185.7.252.69 ip4:85.194.200.192/26 -all v=spf1 ip4:185.7.252.14 ip4:185.7.252.160 ip4:185.7.252.15 ip4:185.7.252.75 ip4:185.7.252.76 ip4:185.7.252.16/28 ip4:185.7.252.32/29 ip4:85.194.202.0/25 -all",
       "mx_asns":[
@@ -865,6 +908,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com include:mailgun.org include:_spf.zone.eu ip4:85.234.244.117 ip4:85.234.244.116 ~all",
       "provider":"microsoft",
+      "reason":"MX record (pohjasakala-ee01c.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":9622889,
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com include:mailgun.org include:_spf.zone.eu ip4:85.234.244.117 ip4:85.234.244.116 ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 include:_spf.mailgun.org include:_spf.eu.mailgun.org -all v=spf1 ip4:217.146.64.0/20 ip4:185.31.240.0/22 ip4:85.222.232.0/22 ip4:85.234.242.0/23 ip4:85.234.244.0/22 ip6:2a02:29e8::/29 ip4:90.191.225.240/29 ip6:2001:7d0:d100:6::/64 ip4:90.191.225.208/28 ip4:87.119.168.48/29 ip4:217.68.24.144/29 ip4:45.151.4.0/23 -all v=spf1 include:_spf1.mailgun.org include:_spf2.mailgun.org ~all v=spf1 ip4:141.193.32.0/23 ip4:159.135.140.80/29 ip4:159.135.132.128/25 ip4:161.38.204.0/22 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:143.55.236.0/22 ip4:198.244.60.0/22 ip4:204.220.160.0/21 ~all v=spf1 ip4:209.61.151.0/24 ip4:166.78.68.0/22 ip4:198.61.254.0/23 ip4:192.237.158.0/23 ip4:23.253.182.0/23 ip4:104.130.96.0/28 ip4:146.20.113.0/24 ip4:146.20.191.0/24 ip4:159.135.224.0/20 ip4:69.72.32.0/20 ~all v=spf1 ip4:104.130.122.0/23 ip4:146.20.112.0/26 ip4:161.38.192.0/20 ip4:143.55.224.0/21 ip4:143.55.232.0/22 ip4:159.112.240.0/20 ip4:198.244.48.0/20 ip4:204.220.168.0/21 ip4:204.220.176.0/20 ~all",
       "mx_asns":[
@@ -886,6 +930,7 @@
       ],
       "spf":"v=spf1 mx ip4:80.235.119.82 ip4:80.235.85.90 ip4:37.143.71.115 ip4:213.184.44.210 include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (poltsamaa-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":8414596,
       "spf_resolved":"v=spf1 mx ip4:80.235.119.82 ip4:80.235.85.90 ip4:37.143.71.115 ip4:213.184.44.210 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -906,6 +951,7 @@
       ],
       "spf":"v=spf1 ip4:195.80.101.225/27 a:piksel.ee include:spf.protection.outlook.com include:_spf.smaily.com include:_netblocks.neti.ee include:sendgrid.net include:_spf.spin.ee include:_spf.zone.eu ip4:217.146.69.47 ip4:194.204.11.213 -all",
       "provider":"microsoft",
+      "reason":"MX record (parnu-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":2637573,
       "spf_resolved":"v=spf1 ip4:195.80.101.225/27 a:piksel.ee include:spf.protection.outlook.com include:_spf.smaily.com include:_netblocks.neti.ee include:sendgrid.net include:_spf.spin.ee include:_spf.zone.eu ip4:217.146.69.47 ip4:194.204.11.213 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:149.154.156.2/31 ip4:149.154.156.4/30 ip4:149.154.156.8/29 ip4:149.154.156.16/31 ip4:185.31.243.2/31 ip4:185.31.243.4/30 ip4:185.31.243.8/29 ip4:185.31.243.16/28 ip4:185.31.243.32/29 ip4:149.202.130.128/25 -all v=spf1 ip4:80.235.21.0/24 ip4:80.235.79.160/27 ip4:80.235.79.224/27 ip4:185.43.106.0/24 ip4:217.146.65.105 include:spf.mailcore.net include:sendgrid.net include:mail.zendesk.com ~all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:194.204.19.0/26 ip4:194.204.19.85/32 -all v=spf1 ip4:217.146.64.0/20 ip4:185.31.240.0/22 ip4:85.222.232.0/22 ip4:85.234.242.0/23 ip4:85.234.244.0/22 ip6:2a02:29e8::/29 ip4:90.191.225.240/29 ip6:2001:7d0:d100:6::/64 ip4:90.191.225.208/28 ip4:87.119.168.48/29 ip4:217.68.24.144/29 ip4:45.151.4.0/23 -all v=spf1 ip4:194.19.134.0/25 ip4:185.138.56.128/25 -all v=spf1 ip4:103.151.192.0/23 ip4:185.12.80.0/22 ip4:188.172.128.0/20 ip4:192.161.144.0/20 ip4:216.198.0.0/18 ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
       "mx_asns":[
@@ -926,6 +972,7 @@
       ],
       "spf":"v=spf1 a:raamat.polva.ee a:delta.andmevara.ee a:piksel.ee include:spf.protection.outlook.com ip4:217.159.236.90 -all",
       "provider":"microsoft",
+      "reason":"MX record (polva-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":8414594,
       "spf_resolved":"v=spf1 a:raamat.polva.ee a:delta.andmevara.ee a:piksel.ee include:spf.protection.outlook.com ip4:217.159.236.90 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -946,6 +993,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com include:sendgrid.net -all",
       "provider":"microsoft",
+      "reason":"MX record (pparnumaa-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":9622887,
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com include:sendgrid.net -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
       "mx_asns":[
@@ -966,6 +1014,7 @@
       ],
       "spf":"v=spf1 ip4:195.80.98.114 include:_spf.google.com include:_spf.zone.eu include:_netblocks.neti.ee include:spf.protection.outlook.com ~all",
       "provider":"microsoft",
+      "reason":"MX record (raasiku-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":2631635,
       "spf_resolved":"v=spf1 ip4:195.80.98.114 include:_spf.google.com include:_spf.zone.eu include:_netblocks.neti.ee include:spf.protection.outlook.com ~all v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all v=spf1 ip4:217.146.64.0/20 ip4:185.31.240.0/22 ip4:85.222.232.0/22 ip4:85.234.242.0/23 ip4:85.234.244.0/22 ip6:2a02:29e8::/29 ip4:90.191.225.240/29 ip6:2001:7d0:d100:6::/64 ip4:90.191.225.208/28 ip4:87.119.168.48/29 ip4:217.68.24.144/29 ip4:45.151.4.0/23 -all v=spf1 ip4:80.235.21.0/24 ip4:80.235.79.160/27 ip4:80.235.79.224/27 ip4:185.43.106.0/24 ip4:217.146.65.105 include:spf.mailcore.net include:sendgrid.net include:mail.zendesk.com ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:194.19.134.0/25 ip4:185.138.56.128/25 -all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:103.151.192.0/23 ip4:185.12.80.0/22 ip4:188.172.128.0/20 ip4:192.161.144.0/20 ip4:216.198.0.0/18 ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
       "mx_asns":[
@@ -986,6 +1035,7 @@
       ],
       "spf":"v=spf1 include:spf.mailjet.com a mx a:piksel.ee include:_spf.zone.eu include:_spf.smaily.com include:spf.protection.outlook.com ip4:213.184.38.179 -all",
       "provider":"microsoft",
+      "reason":"MX record (rae-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":2631644,
       "spf_resolved":"v=spf1 include:spf.mailjet.com a mx a:piksel.ee include:_spf.zone.eu include:_spf.smaily.com include:spf.protection.outlook.com ip4:213.184.38.179 -all v=spf1 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:45.14.148.0/22 ~all v=spf1 ip4:217.146.64.0/20 ip4:185.31.240.0/22 ip4:85.222.232.0/22 ip4:85.234.242.0/23 ip4:85.234.244.0/22 ip6:2a02:29e8::/29 ip4:90.191.225.240/29 ip6:2001:7d0:d100:6::/64 ip4:90.191.225.208/28 ip4:87.119.168.48/29 ip4:217.68.24.144/29 ip4:45.151.4.0/23 -all v=spf1 ip4:149.154.156.2/31 ip4:149.154.156.4/30 ip4:149.154.156.8/29 ip4:149.154.156.16/31 ip4:185.31.243.2/31 ip4:185.31.243.4/30 ip4:185.31.243.8/29 ip4:185.31.243.16/28 ip4:185.31.243.32/29 ip4:149.202.130.128/25 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -1006,6 +1056,7 @@
       ],
       "spf":"v=spf1 ip4:213.184.37.22 mx include:_netblocks.neti.ee a:piksel.ee ip4:185.250.238.195 include:mailgun.org include:spf.protection.outlook.com include:sendgrid.net include:teliaklm.ee -all",
       "provider":"telia",
+      "reason":"MX record (cmx.telia.ee) matches Telia",
       "osm_relation_id":2638225,
       "spf_resolved":"v=spf1 ip4:213.184.37.22 mx include:_netblocks.neti.ee a:piksel.ee ip4:185.250.238.195 include:mailgun.org include:spf.protection.outlook.com include:sendgrid.net include:teliaklm.ee -all v=spf1 ip4:80.235.21.0/24 ip4:80.235.79.160/27 ip4:80.235.79.224/27 ip4:185.43.106.0/24 ip4:217.146.65.105 include:spf.mailcore.net include:sendgrid.net include:mail.zendesk.com ~all v=spf1 include:_spf.mailgun.org include:_spf.eu.mailgun.org -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:185.43.106.0/24 ip4:217.146.65.105 -all v=spf1 ip4:194.19.134.0/25 ip4:185.138.56.128/25 -all v=spf1 ip4:103.151.192.0/23 ip4:185.12.80.0/22 ip4:188.172.128.0/20 ip4:192.161.144.0/20 ip4:216.198.0.0/18 ~all v=spf1 include:_spf1.mailgun.org include:_spf2.mailgun.org ~all v=spf1 ip4:141.193.32.0/23 ip4:159.135.140.80/29 ip4:159.135.132.128/25 ip4:161.38.204.0/22 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:143.55.236.0/22 ip4:198.244.60.0/22 ip4:204.220.160.0/21 ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
       "mx_asns":[
@@ -1023,6 +1074,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com include:_netblocks.neti.ee include:sendgrid.net include:_spf.spin.ee ~all",
       "provider":"microsoft",
+      "reason":"MX record (rakverevald-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":2638231,
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com include:_netblocks.neti.ee include:sendgrid.net include:_spf.spin.ee ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:80.235.21.0/24 ip4:80.235.79.160/27 ip4:80.235.79.224/27 ip4:185.43.106.0/24 ip4:217.146.65.105 include:spf.mailcore.net include:sendgrid.net include:mail.zendesk.com ~all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:194.204.19.0/26 ip4:194.204.19.85/32 -all v=spf1 ip4:194.19.134.0/25 ip4:185.138.56.128/25 -all v=spf1 ip4:103.151.192.0/23 ip4:185.12.80.0/22 ip4:188.172.128.0/20 ip4:192.161.144.0/20 ip4:216.198.0.0/18 ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
       "mx_asns":[
@@ -1043,6 +1095,7 @@
       ],
       "spf":"v=spf1 a mx ip4:213.35.147.66 ip4:194.126.106.64/27 ip4:194.126.126.32/28 include:_netblocks.neti.ee include:spf.protection.outlook.com ~all",
       "provider":"microsoft",
+      "reason":"MX record (rapla-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":8414595,
       "spf_resolved":"v=spf1 a mx ip4:213.35.147.66 ip4:194.126.106.64/27 ip4:194.126.126.32/28 include:_netblocks.neti.ee include:spf.protection.outlook.com ~all v=spf1 ip4:80.235.21.0/24 ip4:80.235.79.160/27 ip4:80.235.79.224/27 ip4:185.43.106.0/24 ip4:217.146.65.105 include:spf.mailcore.net include:sendgrid.net include:mail.zendesk.com ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:194.19.134.0/25 ip4:185.138.56.128/25 -all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:103.151.192.0/23 ip4:185.12.80.0/22 ip4:188.172.128.0/20 ip4:192.161.144.0/20 ip4:216.198.0.0/18 ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
       "mx_asns":[
@@ -1063,6 +1116,7 @@
       ],
       "spf":"v=spf1 a mx include:_spf.zone.eu include:spf.protection.outlook.com a:delta.andmevara.ee -all",
       "provider":"zone",
+      "reason":"MX record (zonemx.eu) matches Zone.eu",
       "osm_relation_id":2637558,
       "spf_resolved":"v=spf1 a mx include:_spf.zone.eu include:spf.protection.outlook.com a:delta.andmevara.ee -all v=spf1 ip4:217.146.64.0/20 ip4:185.31.240.0/22 ip4:85.222.232.0/22 ip4:85.234.242.0/23 ip4:85.234.244.0/22 ip6:2a02:29e8::/29 ip4:90.191.225.240/29 ip6:2001:7d0:d100:6::/64 ip4:90.191.225.208/28 ip4:87.119.168.48/29 ip4:217.68.24.144/29 ip4:45.151.4.0/23 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -1083,6 +1137,7 @@
       ],
       "spf":"",
       "provider":"independent",
+      "reason":"MX (rouge.ee) is self-hosted; no known provider in SPF or autodiscover",
       "osm_relation_id":8414598,
       "mx_asns":[
         16276
@@ -1099,6 +1154,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com a:delta.andmevara.ee -all",
       "provider":"microsoft",
+      "reason":"MX record (rapina-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":8414602,
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com a:delta.andmevara.ee -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -1120,6 +1176,7 @@
       ],
       "spf":"v=spf1 a mx include:_spf.zone.eu include:spf.protection.outlook.com include:sendgrid.net include:mailgun.org ip4:185.250.238.195 ~all",
       "provider":"zone",
+      "reason":"MX record (zonemx.eu) matches Zone.eu",
       "osm_relation_id":8414600,
       "spf_resolved":"v=spf1 a mx include:_spf.zone.eu include:spf.protection.outlook.com include:sendgrid.net include:mailgun.org ip4:185.250.238.195 ~all v=spf1 ip4:217.146.64.0/20 ip4:185.31.240.0/22 ip4:85.222.232.0/22 ip4:85.234.242.0/23 ip4:85.234.244.0/22 ip6:2a02:29e8::/29 ip4:90.191.225.240/29 ip6:2001:7d0:d100:6::/64 ip4:90.191.225.208/28 ip4:87.119.168.48/29 ip4:217.68.24.144/29 ip4:45.151.4.0/23 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 include:_spf.mailgun.org include:_spf.eu.mailgun.org -all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all v=spf1 include:_spf1.mailgun.org include:_spf2.mailgun.org ~all v=spf1 ip4:141.193.32.0/23 ip4:159.135.140.80/29 ip4:159.135.132.128/25 ip4:161.38.204.0/22 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:143.55.236.0/22 ip4:198.244.60.0/22 ip4:204.220.160.0/21 ~all v=spf1 ip4:209.61.151.0/24 ip4:166.78.68.0/22 ip4:198.61.254.0/23 ip4:192.237.158.0/23 ip4:23.253.182.0/23 ip4:104.130.96.0/28 ip4:146.20.113.0/24 ip4:146.20.191.0/24 ip4:159.135.224.0/20 ip4:69.72.32.0/20 ~all v=spf1 ip4:104.130.122.0/23 ip4:146.20.112.0/26 ip4:161.38.192.0/20 ip4:143.55.224.0/21 ip4:143.55.232.0/22 ip4:159.112.240.0/20 ip4:198.244.48.0/20 ip4:204.220.168.0/21 ip4:204.220.176.0/20 ~all",
       "mx_asns":[
@@ -1140,6 +1197,7 @@
       ],
       "spf":"v=spf1 include:_vorgud.saaremaavald.ee include:_vorgud2.saaremaavald.ee include:spf.protection.outlook.com include:_spf.smaily.com a:delta.andmevara.ee a:pbx.saaremaavald.ee -all",
       "provider":"microsoft",
+      "reason":"MX record (saaremaavald-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":9622890,
       "spf_resolved":"v=spf1 include:_vorgud.saaremaavald.ee include:_vorgud2.saaremaavald.ee include:spf.protection.outlook.com include:_spf.smaily.com a:delta.andmevara.ee a:pbx.saaremaavald.ee -all v=spf1 ip4:195.80.96.98 ip4:195.80.96.106 ip4:195.80.110.74 ip4:195.80.98.123 ip4:195.80.97.129 ip4:213.219.93.218 ip4:195.80.96.114 ip4:195.80.114.101 ip4:195.80.114.54 ip4:195.80.114.75 -all v=spf1 ip4:90.190.96.26 ip4:213.184.45.69 ip4:193.40.180.96/29 ip4:213.219.77.74 ip4:195.80.110.10 ip4:213.184.45.64/28 ip4:213.184.45.152/29 ip4:195.80.114.248/29 ip4:62.65.40.242 ip4:193.40.164.123 ip4:193.40.164.124 ip4:193.40.164.125 ip4:217.159.201.70 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:149.154.156.2/31 ip4:149.154.156.4/30 ip4:149.154.156.8/29 ip4:149.154.156.16/31 ip4:185.31.243.2/31 ip4:185.31.243.4/30 ip4:185.31.243.8/29 ip4:185.31.243.16/28 ip4:185.31.243.32/29 ip4:149.202.130.128/25 -all",
       "mx_asns":[
@@ -1160,6 +1218,7 @@
       ],
       "spf":"v=spf1 a a:delta.andmevara.ee include:mail.spf.elkdata.ee ip4:213.35.185.34 ip4:213.219.84.58 include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (sakuvald-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":2631660,
       "spf_resolved":"v=spf1 a a:delta.andmevara.ee include:mail.spf.elkdata.ee ip4:213.35.185.34 ip4:213.219.84.58 include:spf.protection.outlook.com -all v=spf1 include:mh.spf.elkdata.ee ip4:194.106.101.168 ip4:185.7.252.120/29 ip4:185.7.252.64 ip4:185.7.252.68 ip4:185.7.252.69 ip4:85.194.200.192/26 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:185.7.252.14 ip4:185.7.252.160 ip4:185.7.252.15 ip4:185.7.252.75 ip4:185.7.252.76 ip4:185.7.252.16/28 ip4:185.7.252.32/29 ip4:85.194.202.0/25 -all",
       "mx_asns":[
@@ -1180,6 +1239,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com include:fsspfeuc.freshemail.io ip4:195.80.126.224/28 ip4:88.196.175.88/29 ip4:195.222.0.3 ip4:217.159.201.70  include:spf.mailjet.com  include:_spf.smaily.com -all",
       "provider":"microsoft",
+      "reason":"MX record (sauevald-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":8414542,
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com include:fsspfeuc.freshemail.io ip4:195.80.126.224/28 ip4:88.196.175.88/29 ip4:195.222.0.3 ip4:217.159.201.70  include:spf.mailjet.com  include:_spf.smaily.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:3.120.181.200/29 ip4:35.159.219.224/28 ip4:18.199.180.160/27 ~all v=spf1 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:45.14.148.0/22 ~all v=spf1 ip4:149.154.156.2/31 ip4:149.154.156.4/30 ip4:149.154.156.8/29 ip4:149.154.156.16/31 ip4:185.31.243.2/31 ip4:185.31.243.4/30 ip4:185.31.243.8/29 ip4:185.31.243.16/28 ip4:185.31.243.32/29 ip4:149.202.130.128/25 -all",
       "mx_asns":[
@@ -1201,6 +1261,7 @@
       ],
       "spf":"v=spf1 a mx include:mail.spf.elkdata.ee ip4:213.35.185.34 ip4:185.250.238.195 include:mailgun.org include:_spf.smaily.com ~all",
       "provider":"independent",
+      "reason":"MX (mh1.elkdata.ee, mh25.elkdata.ee) is self-hosted; no known provider in SPF or autodiscover",
       "osm_relation_id":9622891,
       "spf_resolved":"v=spf1 a mx include:mail.spf.elkdata.ee ip4:213.35.185.34 ip4:185.250.238.195 include:mailgun.org include:_spf.smaily.com ~all v=spf1 include:mh.spf.elkdata.ee ip4:194.106.101.168 ip4:185.7.252.120/29 ip4:185.7.252.64 ip4:185.7.252.68 ip4:185.7.252.69 ip4:85.194.200.192/26 -all v=spf1 include:_spf.mailgun.org include:_spf.eu.mailgun.org -all v=spf1 ip4:149.154.156.2/31 ip4:149.154.156.4/30 ip4:149.154.156.8/29 ip4:149.154.156.16/31 ip4:185.31.243.2/31 ip4:185.31.243.4/30 ip4:185.31.243.8/29 ip4:185.31.243.16/28 ip4:185.31.243.32/29 ip4:149.202.130.128/25 -all v=spf1 ip4:185.7.252.14 ip4:185.7.252.160 ip4:185.7.252.15 ip4:185.7.252.75 ip4:185.7.252.76 ip4:185.7.252.16/28 ip4:185.7.252.32/29 ip4:85.194.202.0/25 -all v=spf1 include:_spf1.mailgun.org include:_spf2.mailgun.org ~all v=spf1 ip4:141.193.32.0/23 ip4:159.135.140.80/29 ip4:159.135.132.128/25 ip4:161.38.204.0/22 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:143.55.236.0/22 ip4:198.244.60.0/22 ip4:204.220.160.0/21 ~all v=spf1 ip4:209.61.151.0/24 ip4:166.78.68.0/22 ip4:198.61.254.0/23 ip4:192.237.158.0/23 ip4:23.253.182.0/23 ip4:104.130.96.0/28 ip4:146.20.113.0/24 ip4:146.20.191.0/24 ip4:159.135.224.0/20 ip4:69.72.32.0/20 ~all v=spf1 ip4:104.130.122.0/23 ip4:146.20.112.0/26 ip4:161.38.192.0/20 ip4:143.55.224.0/21 ip4:143.55.232.0/22 ip4:159.112.240.0/20 ip4:198.244.48.0/20 ip4:204.220.168.0/21 ip4:204.220.176.0/20 ~all",
       "mx_asns":[
@@ -1218,6 +1279,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com a:delta.andmevara.ee -all",
       "provider":"microsoft",
+      "reason":"MX record (sillamae-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":1753498,
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com a:delta.andmevara.ee -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -1239,7 +1301,8 @@
         "mx2.tallinn.ee"
       ],
       "spf":"v=spf1 include:_spf.tallinn.ee include:_spfa.tallinn.ee include:_spf.dbweb.ee -all",
-      "provider":"baltic-isp",
+      "provider":"microsoft",
+      "reason":"MX (mx1.tallinn.ee, mx2.tallinn.ee) is Baltic ISP; SPF authorizes microsoft — hybrid relay setup",
       "osm_relation_id":2580784,
       "spf_resolved":"v=spf1 include:_spf.tallinn.ee include:_spfa.tallinn.ee include:_spf.dbweb.ee -all v=spf1 ip4:213.35.158.227 ip4:213.35.158.232 ip4:90.190.145.96/28 ip4:90.190.142.176/28 a:gw.tallinnlv.ee a:mailer.helmes.ee include:_spf.spin.ee include:spf.protection.outlook.com -all v=spf1 ip4:213.184.55.217/30 ip4:194.126.106.64/27 ip4:81.20.157.176/29 ip4:90.190.151.133 ip4:95.215.133.106 ip4:95.215.133.203 a:gw2.tallinnlv.ee -all v=spf1 ip4:81.21.253.0/25 ip6:2a01:1b8:2:14::/64 -all v=spf1 ip4:194.204.19.0/26 ip4:194.204.19.85/32 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -1261,6 +1324,7 @@
       ],
       "spf":"v=spf1 a:delta.andmevara.ee a:pmen.neuron.ee ip4:195.80.125.138  include:_netblocks.neti.ee include:teliaklm.ee include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (tapa-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":8414609,
       "spf_resolved":"v=spf1 a:delta.andmevara.ee a:pmen.neuron.ee ip4:195.80.125.138  include:_netblocks.neti.ee include:teliaklm.ee include:spf.protection.outlook.com -all v=spf1 ip4:80.235.21.0/24 ip4:80.235.79.160/27 ip4:80.235.79.224/27 ip4:185.43.106.0/24 ip4:217.146.65.105 include:spf.mailcore.net include:sendgrid.net include:mail.zendesk.com ~all v=spf1 ip4:185.43.106.0/24 ip4:217.146.65.105 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:194.19.134.0/25 ip4:185.138.56.128/25 -all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:103.151.192.0/23 ip4:185.12.80.0/22 ip4:188.172.128.0/20 ip4:192.161.144.0/20 ip4:216.198.0.0/18 ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
       "mx_asns":[
@@ -1281,6 +1345,7 @@
       ],
       "spf":"v=spf1 a mx ip4:195.80.116.148 ip4:195.80.116.156 ip4:194.204.19.38/32 include:spf.protection.outlook.com include:_spf.atlassian.net ip4:213.184.43.22/32 ip4:213.184.43.23/32 ip4:213.184.43.28/32 ~all",
       "provider":"microsoft",
+      "reason":"MX record (tartu-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":2628601,
       "spf_resolved":"v=spf1 a mx ip4:195.80.116.148 ip4:195.80.116.156 ip4:194.204.19.38/32 include:spf.protection.outlook.com include:_spf.atlassian.net ip4:213.184.43.22/32 ip4:213.184.43.23/32 ip4:213.184.43.28/32 ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:167.89.0.0/17 ip4:168.245.0.0/17 include:amazonses.com -all v=spf1 ip4:199.255.192.0/22 ip4:199.127.232.0/22 ip4:54.240.0.0/18 ip4:69.169.224.0/20 ip4:23.249.208.0/20 ip4:23.251.224.0/19 ip4:76.223.176.0/20 ip4:54.240.64.0/18 ip4:76.223.128.0/19 ip4:216.221.160.0/19 ip4:206.55.144.0/20 ip4:24.110.64.0/18 -all",
       "mx_asns":[
@@ -1301,6 +1366,7 @@
       ],
       "spf":"v=spf1 a:delta.andmevara.ee ip4:217.159.201.70 ip4:195.80.126.50 ip4:37.143.70.230 ip4:213.184.42.219 include:spf.protection.outlook.com include:_spf.smaily.com include:_spf.spin.ee -all",
       "provider":"microsoft",
+      "reason":"MX record (tartuvald-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":8414611,
       "spf_resolved":"v=spf1 a:delta.andmevara.ee ip4:217.159.201.70 ip4:195.80.126.50 ip4:37.143.70.230 ip4:213.184.42.219 include:spf.protection.outlook.com include:_spf.smaily.com include:_spf.spin.ee -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:149.154.156.2/31 ip4:149.154.156.4/30 ip4:149.154.156.8/29 ip4:149.154.156.16/31 ip4:185.31.243.2/31 ip4:185.31.243.4/30 ip4:185.31.243.8/29 ip4:185.31.243.16/28 ip4:185.31.243.32/29 ip4:149.202.130.128/25 -all v=spf1 ip4:194.204.19.0/26 ip4:194.204.19.85/32 -all",
       "mx_asns":[
@@ -1321,6 +1387,7 @@
       ],
       "spf":"v=spf1 a mx a:mail.neti.ee a:mail.webware.ee ip4:213.219.98.120/29 include:_spf.zone.eu ~all",
       "provider":"zone",
+      "reason":"MX record (zonemx.eu) matches Zone.eu",
       "osm_relation_id":8414613,
       "spf_resolved":"v=spf1 a mx a:mail.neti.ee a:mail.webware.ee ip4:213.219.98.120/29 include:_spf.zone.eu ~all v=spf1 ip4:217.146.64.0/20 ip4:185.31.240.0/22 ip4:85.222.232.0/22 ip4:85.234.242.0/23 ip4:85.234.244.0/22 ip6:2a02:29e8::/29 ip4:90.191.225.240/29 ip6:2001:7d0:d100:6::/64 ip4:90.191.225.208/28 ip4:87.119.168.48/29 ip4:217.68.24.144/29 ip4:45.151.4.0/23 -all",
       "mx_asns":[
@@ -1341,6 +1408,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com include:mailgun.org include:_spf.smaily.com ip4:185.250.238.195 ip4:167.89.90.87 ~all",
       "provider":"microsoft",
+      "reason":"MX record (torivald-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":9622895,
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com include:mailgun.org include:_spf.smaily.com ip4:185.250.238.195 ip4:167.89.90.87 ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 include:_spf.mailgun.org include:_spf.eu.mailgun.org -all v=spf1 ip4:149.154.156.2/31 ip4:149.154.156.4/30 ip4:149.154.156.8/29 ip4:149.154.156.16/31 ip4:185.31.243.2/31 ip4:185.31.243.4/30 ip4:185.31.243.8/29 ip4:185.31.243.16/28 ip4:185.31.243.32/29 ip4:149.202.130.128/25 -all v=spf1 include:_spf1.mailgun.org include:_spf2.mailgun.org ~all v=spf1 ip4:141.193.32.0/23 ip4:159.135.140.80/29 ip4:159.135.132.128/25 ip4:161.38.204.0/22 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:143.55.236.0/22 ip4:198.244.60.0/22 ip4:204.220.160.0/21 ~all v=spf1 ip4:209.61.151.0/24 ip4:166.78.68.0/22 ip4:198.61.254.0/23 ip4:192.237.158.0/23 ip4:23.253.182.0/23 ip4:104.130.96.0/28 ip4:146.20.113.0/24 ip4:146.20.191.0/24 ip4:159.135.224.0/20 ip4:69.72.32.0/20 ~all v=spf1 ip4:104.130.122.0/23 ip4:146.20.112.0/26 ip4:161.38.192.0/20 ip4:143.55.224.0/21 ip4:143.55.232.0/22 ip4:159.112.240.0/20 ip4:198.244.48.0/20 ip4:204.220.168.0/21 ip4:204.220.176.0/20 ~all",
       "mx_asns":[
@@ -1361,6 +1429,7 @@
       ],
       "spf":"v=spf1 mx ip4:213.184.32.86 ip4:193.40.178.82 ip4:213.35.185.34 ip4:195.80.122.82 ip4:209.250.243.78 ip4:54.210.254.128/25 ip4:65.21.183.189 a:delta.andmevara.ee include:spf.protection.outlook.com include:teliaklm.ee include:_spf.smaily.com include:_netblocks2.neti.ee -all",
       "provider":"telia",
+      "reason":"MX record (cmx.telia.ee) matches Telia",
       "osm_relation_id":9622896,
       "spf_resolved":"v=spf1 mx ip4:213.184.32.86 ip4:193.40.178.82 ip4:213.35.185.34 ip4:195.80.122.82 ip4:209.250.243.78 ip4:54.210.254.128/25 ip4:65.21.183.189 a:delta.andmevara.ee include:spf.protection.outlook.com include:teliaklm.ee include:_spf.smaily.com include:_netblocks2.neti.ee -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:185.43.106.0/24 ip4:217.146.65.105 -all v=spf1 ip4:149.154.156.2/31 ip4:149.154.156.4/30 ip4:149.154.156.8/29 ip4:149.154.156.16/31 ip4:185.31.243.2/31 ip4:185.31.243.4/30 ip4:185.31.243.8/29 ip4:185.31.243.16/28 ip4:185.31.243.32/29 ip4:149.202.130.128/25 -all v=spf1 ip4:80.235.21.0/24 ip4:80.235.79.160/27 ip4:80.235.79.224/27 ip4:185.43.106.0/24 ip4:217.146.65.105 -all",
       "mx_asns":[
@@ -1378,6 +1447,7 @@
       ],
       "spf":"v=spf1 a:esta.tyri.ee include:spf.protection.outlook.com ip4:213.35.185.34 ip4:217.159.236.90 ~all",
       "provider":"microsoft",
+      "reason":"MX record (tyri-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":8414622,
       "spf_resolved":"v=spf1 a:esta.tyri.ee include:spf.protection.outlook.com ip4:213.35.185.34 ip4:217.159.236.90 ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -1398,6 +1468,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (viljandi-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":2638610,
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -1418,6 +1489,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (viljandivald-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":8414626,
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -1439,6 +1511,7 @@
       ],
       "spf":"v=spf1 ip4:195.80.122.201 include:_spf.spin.ee include:spf.protection.outlook.com include:_spf.smaily.com ~all",
       "provider":"microsoft",
+      "reason":"MX record (valga-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":8414624,
       "spf_resolved":"v=spf1 ip4:195.80.122.201 include:_spf.spin.ee include:spf.protection.outlook.com include:_spf.smaily.com ~all v=spf1 ip4:194.204.19.0/26 ip4:194.204.19.85/32 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:149.154.156.2/31 ip4:149.154.156.4/30 ip4:149.154.156.8/29 ip4:149.154.156.16/31 ip4:185.31.243.2/31 ip4:185.31.243.4/30 ip4:185.31.243.8/29 ip4:185.31.243.16/28 ip4:185.31.243.32/29 ip4:149.202.130.128/25 -all",
       "mx_asns":[
@@ -1459,6 +1532,7 @@
       ],
       "spf":"v=spf1 mx include:spf.protection.outlook.com include:_netblocks.neti.ee include:teliaklm.ee -all",
       "provider":"microsoft",
+      "reason":"MX record (vinnivald-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":8414628,
       "spf_resolved":"v=spf1 mx include:spf.protection.outlook.com include:_netblocks.neti.ee include:teliaklm.ee -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:80.235.21.0/24 ip4:80.235.79.160/27 ip4:80.235.79.224/27 ip4:185.43.106.0/24 ip4:217.146.65.105 include:spf.mailcore.net include:sendgrid.net include:mail.zendesk.com ~all v=spf1 ip4:185.43.106.0/24 ip4:217.146.65.105 -all v=spf1 ip4:194.19.134.0/25 ip4:185.138.56.128/25 -all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:103.151.192.0/23 ip4:185.12.80.0/22 ip4:188.172.128.0/20 ip4:192.161.144.0/20 ip4:216.198.0.0/18 ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
       "mx_asns":[
@@ -1478,7 +1552,8 @@
         "zonemx.eu"
       ],
       "spf":"v=spf1 a mx include:_spf.zone.eu -all",
-      "provider":"baltic-isp",
+      "provider":"zone",
+      "reason":"MX record (zonemx.eu) matches Zone.eu",
       "osm_relation_id":9622897,
       "spf_resolved":"v=spf1 a mx include:_spf.zone.eu -all v=spf1 ip4:217.146.64.0/20 ip4:185.31.240.0/22 ip4:85.222.232.0/22 ip4:85.234.242.0/23 ip4:85.234.244.0/22 ip6:2a02:29e8::/29 ip4:90.191.225.240/29 ip6:2001:7d0:d100:6::/64 ip4:90.191.225.208/28 ip4:87.119.168.48/29 ip4:217.68.24.144/29 ip4:45.151.4.0/23 -all",
       "mx_asns":[
@@ -1496,6 +1571,7 @@
       ],
       "spf":"v=spf1 ip4:185.250.238.195 include:spf.protection.outlook.com include:_spf.spin.ee include:mailgun.org -all",
       "provider":"microsoft",
+      "reason":"MX record (viimsi-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":2631700,
       "spf_resolved":"v=spf1 ip4:185.250.238.195 include:spf.protection.outlook.com include:_spf.spin.ee include:mailgun.org -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:194.204.19.0/26 ip4:194.204.19.85/32 -all v=spf1 include:_spf.mailgun.org include:_spf.eu.mailgun.org -all v=spf1 include:_spf1.mailgun.org include:_spf2.mailgun.org ~all v=spf1 ip4:141.193.32.0/23 ip4:159.135.140.80/29 ip4:159.135.132.128/25 ip4:161.38.204.0/22 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:143.55.236.0/22 ip4:198.244.60.0/22 ip4:204.220.160.0/21 ~all v=spf1 ip4:209.61.151.0/24 ip4:166.78.68.0/22 ip4:198.61.254.0/23 ip4:192.237.158.0/23 ip4:23.253.182.0/23 ip4:104.130.96.0/28 ip4:146.20.113.0/24 ip4:146.20.191.0/24 ip4:159.135.224.0/20 ip4:69.72.32.0/20 ~all v=spf1 ip4:104.130.122.0/23 ip4:146.20.112.0/26 ip4:161.38.192.0/20 ip4:143.55.224.0/21 ip4:143.55.232.0/22 ip4:159.112.240.0/20 ip4:198.244.48.0/20 ip4:204.220.168.0/21 ip4:204.220.176.0/20 ~all",
       "mx_asns":[
@@ -1516,6 +1592,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (vmaarja-ee0c.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":2638647,
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -1536,6 +1613,7 @@
       ],
       "spf":"v=spf1 a mx include:_spf.zone.eu ip4:167.89.90.87 ip4:185.250.239.7 ip4:37.143.68.142 -all",
       "provider":"zone",
+      "reason":"MX record (zonemx.eu) matches Zone.eu",
       "osm_relation_id":2637563,
       "spf_resolved":"v=spf1 a mx include:_spf.zone.eu ip4:167.89.90.87 ip4:185.250.239.7 ip4:37.143.68.142 -all v=spf1 ip4:217.146.64.0/20 ip4:185.31.240.0/22 ip4:85.222.232.0/22 ip4:85.234.242.0/23 ip4:85.234.244.0/22 ip6:2a02:29e8::/29 ip4:90.191.225.240/29 ip6:2001:7d0:d100:6::/64 ip4:90.191.225.208/28 ip4:87.119.168.48/29 ip4:217.68.24.144/29 ip4:45.151.4.0/23 -all",
       "mx_asns":[
@@ -1556,6 +1634,7 @@
       ],
       "spf":"v=spf1 redirect=_spf.voru.ee",
       "provider":"independent",
+      "reason":"MX (mail.voru.ee) is self-hosted; no known provider in SPF or autodiscover",
       "osm_relation_id":2638662,
       "spf_resolved":"v=spf1 redirect=_spf.voru.ee v=spf1 ip4:195.80.124.2/32 ip4:195.80.113.56/29 ip4:193.40.104.35/32 ip4:185.7.252.75/32 ip4:193.40.0.43/32 -all",
       "mx_asns":[
@@ -1573,6 +1652,7 @@
       ],
       "spf":"v=spf1 mx include:spf.protection.outlook.com a:piksel.ee -all",
       "provider":"microsoft",
+      "reason":"MX record (voruvald-ee.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":8414632,
       "spf_resolved":"v=spf1 mx include:spf.protection.outlook.com a:piksel.ee -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -1593,6 +1673,7 @@
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.41.24 +include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX (mail.akmene.lt) is self-hosted; SPF authorizes microsoft — hybrid relay setup",
       "osm_relation_id":1307304,
       "spf_resolved":"v=spf1 +mx +a +ip4:89.116.41.24 +include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -1614,6 +1695,7 @@
       ],
       "spf":"v=spf1 +mx +a ip4:195.182.88.78 ~all",
       "provider":"baltic-isp",
+      "reason":"MX (mail.alytus.lt, mail.ams.lt) hosted on Baltic ISP (LITNET)",
       "osm_relation_id":1085091,
       "mx_asns":[
         6769
@@ -1634,6 +1716,7 @@
       ],
       "spf":"v=spf1 +ip4:89.116.41.26 +include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (arsa-lt.mail.protection.outlook.com, mail.arsa.lt) matches Microsoft",
       "osm_relation_id":1085089,
       "spf_resolved":"v=spf1 +ip4:89.116.41.26 +include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -1655,6 +1738,7 @@
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.41.25 +ip4:89.116.15.172 -all",
       "provider":"independent",
+      "reason":"MX (mail.anyksciai.lt) is self-hosted; no known provider in SPF or autodiscover",
       "osm_relation_id":1002204,
       "mx_asns":[
         15419
@@ -1671,6 +1755,7 @@
       ],
       "spf":"v=spf1 mx:2v.lt include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (birstonas-lt.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":3855485,
       "spf_resolved":"v=spf1 mx:2v.lt include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -1691,6 +1776,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (birzai-lt.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":1111074,
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -1712,6 +1798,7 @@
       ],
       "spf":"v=spf1 mx ip4:79.142.113.108 ip4:195.182.71.66 a:_spf.balt.net include:spf.protection.outlook.com include:email-messaging.com -all",
       "provider":"microsoft",
+      "reason":"MX (bmx.balt.net, mail.druskininkai.lt) is Baltic ISP; SPF authorizes microsoft — hybrid relay setup",
       "osm_relation_id":1076928,
       "spf_resolved":"v=spf1 mx ip4:79.142.113.108 ip4:195.182.71.66 a:_spf.balt.net include:spf.protection.outlook.com include:email-messaging.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 include:spf1.email-messaging.com ~all v=spf1 ip4:185.255.8.0/22 ip4:83.166.78.0/23 ip4:202.22.174.0/23 ip4:62.140.31.0/24 ip4:180.179.146.74 ip4:13.126.156.192 ip4:13.126.201.219 ip4:81.23.253.165/25 ip4:89.164.98.219 ip4:81.23.249.0/24 ip4:202.22.169.150/31 ip4:202.22.169.152/29 ip4:202.22.174.0/24 ip4:202.22.175.0/24 ip4:20.233.90.170 ip4:20.233.90.202 ip4:20.233.90.222 ip4:20.233.91.47 ip4:203.223.163.42 ip4:203.223.163.43 ip4:203.223.163.44 ip4:203.223.163.45 ip4:203.223.163.46 ip4:202.22.160.0/20 ip4:4.161.42.211 ip4:40.120.106.174 ip4:40.120.105.250 ip4:40.120.111.128 ip4:208.93.48.0/22 ip4:4.244.133.231 ip4:4.244.129.183 ip4:4.244.132.140 ip4:4.244.134.16 ip4:4.244.133.73 ip4:119.30.69.0 ip4:119.30.69.1 ip4:119.30.69.2 ip4:119.30.69.3 ip4:119.30.69.4 ip4:172.167.23.153 ip4:172.167.16.186 ip4:172.167.17.130 ip4:172.167.18.85 ip4:172.167.18.36 ip4:172.167.22.64 ip4:172.167.17.219 ip4:20.162.248.41 ip4:172.167.20.125 ip4:20.162.248.190  ip4:20.162.248.231 ip4:20.162.250.8 ip4:172.167.20.82 ip4:172.167.17.99 ip4:172.167.138.245  ip4:20.162.250.93 ip4:172.167.20.242 ip4:20.162.250.143 ip4:172.167.17.49 ip4:4.234.102.113 ip4:83.166.68.0/24 ip4:83.166.65.128/25 ip4:20.174.48.187  ip4:20.174.59.72 ip4:20.174.66.144 ip4:20.174.69.203 ip4:20.233.218.121 ip4:20.233.218.160 ip4:20.233.218.207 ip4:20.233.224.232 ip4:20.233.218.228 ip4:20.233.219.34 ip4:34.166.73.220 ip4:74.162.204.20 ip4:20.233.224.178 ip4:20.233.215.143 ip4:74.162.177.207 ip4:20.233.207.35 ip4:34.166.135.79 ip4:34.166.2.38 ip4:34.166.133.89 ip4:34.166.152.195 ip4:34.166.108.198 ip4:34.166.90.102 ip4:34.166.140.33 ip4:34.166.85.196 ip4:34.166.30.172 ip4:34.166.84.187 ip4:34.166.71.233 ip4:35.252.62.60 ip4:35.252.62.135 ip4:35.252.61.180 ip4:35.252.61.114 ip4:35.252.60.77 ip4:35.252.59.7 ip4:35.252.58.107 ip4:35.252.56.113 ip4:35.252.50.97 ip4:35.252.41.5 ip4:35.252.41.117 ip4:35.252.40.43 ip4:35.252.40.207 ip4:35.252.36.130 ip4:35.252.33.130 ip4:34.166.46.195 ip4:34.166.212.205 ip4:34.166.210.67 ip4:34.166.174.162 ip4:34.166.133.23 ~all",
       "mx_asns":[
@@ -1732,6 +1819,7 @@
       ],
       "spf":"v=spf1 ip4:195.182.87.3 ip4:195.182.87.11 ip4:195.182.87.5 include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (elektrenai-lt.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":968950,
       "spf_resolved":"v=spf1 ip4:195.182.87.3 ip4:195.182.87.11 ip4:195.182.87.5 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -1752,6 +1840,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (ignalina-lt.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":966363,
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -1770,10 +1859,11 @@
       "mx":[
         "mail.jonava.lt"
       ],
-      "spf":"v=spf1 +a +mx +ip4:89.116.15.152 +include:spf.protection.outlook.com -all",
+      "spf":"v=spf1 +a +mx +ip4:89.116.41.33 +include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX (mail.jonava.lt) is self-hosted; SPF authorizes microsoft — hybrid relay setup",
       "osm_relation_id":1447848,
-      "spf_resolved":"v=spf1 +a +mx +ip4:89.116.15.152 +include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
+      "spf_resolved":"v=spf1 +a +mx +ip4:89.116.41.33 +include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         15419
       ],
@@ -1793,6 +1883,7 @@
       ],
       "spf":"v=spf1 +ip4:89.116.41.13 +ip4:195.182.88.212 +ip4:195.182.88.216 +ip4:195.182.88.210 +include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (joniskis-lt.mail.protection.outlook.com, mail.joniskis.lt) matches Microsoft",
       "osm_relation_id":1256235,
       "spf_resolved":"v=spf1 +ip4:89.116.41.13 +ip4:195.182.88.212 +ip4:195.182.88.216 +ip4:195.182.88.210 +include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -1814,6 +1905,7 @@
       ],
       "spf":"v=spf1 +a +mx +ip4:89.116.41.9 +ip4:92.62.131.15 +ip4:89.116.15.132 -all",
       "provider":"independent",
+      "reason":"MX (mail.jurbarkas.lt) is self-hosted; no known provider in SPF or autodiscover",
       "osm_relation_id":1518458,
       "mx_asns":[
         15419
@@ -1830,6 +1922,7 @@
       ],
       "spf":"v=spf1 a a:blade2.is.lt ip4:195.182.81.34 ip4:195.182.79.114 ip4:89.117.128.113 ip4:82.140.132.73 ip4:82.140.132.201 ip4:82.140.132.202 ip4:82.140.132.203 ip4:86.38.176.249 ip4:86.38.176.250 ip4:86.38.176.251 ip4:20.50.183.148 include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (kaisiadorys-lt.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":1518453,
       "spf_resolved":"v=spf1 a a:blade2.is.lt ip4:195.182.81.34 ip4:195.182.79.114 ip4:89.117.128.113 ip4:82.140.132.73 ip4:82.140.132.201 ip4:82.140.132.202 ip4:82.140.132.203 ip4:86.38.176.249 ip4:86.38.176.250 ip4:86.38.176.251 ip4:20.50.183.148 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -1851,6 +1944,7 @@
       ],
       "spf":"v=spf1 +a +mx +ip4:89.116.41.12 +ip4:193.200.124.32 +include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (kalvarija-lt.mail.protection.outlook.com, mail.kalvarija.lt) matches Microsoft",
       "osm_relation_id":974208,
       "spf_resolved":"v=spf1 +a +mx +ip4:89.116.41.12 +ip4:193.200.124.32 +include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -1872,6 +1966,7 @@
       ],
       "spf":"v=spf1 ip4:195.182.73.64/26 ip4:195.182.72.64/27 ip4:88.118.135.10/32 include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (kaunas-lt.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":1067534,
       "spf_resolved":"v=spf1 ip4:195.182.73.64/26 ip4:195.182.72.64/27 ip4:88.118.135.10/32 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -1893,6 +1988,7 @@
       ],
       "spf":"v=spf1 mx a ip4:195.182.87.75 ip4:193.219.14.1 ip4:195.182.87.11 ip4:89.116.15.144 include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (krs-lt.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":974219,
       "spf_resolved":"v=spf1 mx a ip4:195.182.87.75 ip4:193.219.14.1 ip4:195.182.87.11 ip4:89.116.15.144 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -1913,6 +2009,7 @@
       ],
       "spf":"v=spf1 include:spf.serveriai.lt ip4:195.182.81.34 ip4:195.182.86.72 -all",
       "provider":"independent",
+      "reason":"MX (mail.kazluruda.lt) is self-hosted; no known provider in SPF or autodiscover",
       "osm_relation_id":974207,
       "spf_resolved":"v=spf1 include:spf.serveriai.lt ip4:195.182.81.34 ip4:195.182.86.72 -all v=spf1 ip4:31.14.176.0/22 ip4:62.77.152.0/21 ip4:79.98.24.0/21 ip4:80.208.224.0/21 ip4:80.209.224.0/20 ip4:89.40.0.0/20 ip4:89.47.160.0/21 ip4:94.176.232.0/21 ip4:109.235.64.0/21 ip4:176.223.128.0/20 ip4:185.5.52.0/22 ip4:185.69.52.0/22 ip4:185.81.164.0/22 ip4:194.135.80.0/20 ip4:195.181.240.0/21 ip4:212.24.96.0/20 ip4:212.237.232.0/22 -all",
       "mx_asns":[
@@ -1930,6 +2027,7 @@
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.41.10 +ip4:89.116.15.130 +ip4:195.182.73.194 +include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX (mail.kedainiai.lt) is self-hosted; SPF authorizes microsoft — hybrid relay setup",
       "osm_relation_id":1518457,
       "spf_resolved":"v=spf1 +mx +a +ip4:89.116.41.10 +ip4:89.116.15.130 +ip4:195.182.73.194 +include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -1950,6 +2048,7 @@
       ],
       "spf":"v=spf1 ip4:195.182.81.3 ip4:195.182.81.5 ip4:195.182.81.11 ip4:89.116.15.140 -all",
       "provider":"independent",
+      "reason":"MX (mail.kelme.lt) is self-hosted; no known provider in SPF or autodiscover",
       "osm_relation_id":1307307,
       "mx_asns":[
         15419
@@ -1966,6 +2065,7 @@
       ],
       "spf":"v=spf1 ip4:195.182.76.0/28 a mx include:amazonses.com include:spf.protection.outlook.com include:sendgrid.net include:_spf.firebasemail.com ~all",
       "provider":"microsoft",
+      "reason":"MX record (klaipeda-lt.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":1014347,
       "spf_resolved":"v=spf1 ip4:195.182.76.0/28 a mx include:amazonses.com include:spf.protection.outlook.com include:sendgrid.net include:_spf.firebasemail.com ~all v=spf1 ip4:199.255.192.0/22 ip4:199.127.232.0/22 ip4:54.240.0.0/18 ip4:69.169.224.0/20 ip4:23.249.208.0/20 ip4:23.251.224.0/19 ip4:76.223.176.0/20 ip4:54.240.64.0/18 ip4:76.223.128.0/19 ip4:216.221.160.0/19 ip4:206.55.144.0/20 ip4:24.110.64.0/18 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 include:sendgrid.net include:_spf.google.com ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all",
       "mx_asns":[
@@ -1986,6 +2086,7 @@
       ],
       "spf":"v=spf1 include:sendersrv.com ip4:195.182.83.162 ip4:195.182.83.171 include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (klaipedosr-lt02c.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":1203043,
       "spf_resolved":"v=spf1 include:sendersrv.com ip4:195.182.83.162 ip4:195.182.83.171 include:spf.protection.outlook.com -all v=spf1 ip4:185.3.229.125 ip4:185.3.229.126 ip4:185.3.229.127 ip4:185.3.229.128/27 ip4:141.136.38.0/24 ip4:141.136.40.0/24 ip4:195.191.140.0/24 ip4:195.191.176.0/24 ip4:134.209.89.39 ip4:167.172.239.16 ip4:94.75.223.106 include:_spf.mx.cloudflare.net -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:104.30.0.0/19 ip6:2405:8100:c000::/38 ~all",
       "mx_asns":[
@@ -2006,6 +2107,7 @@
       ],
       "spf":"v=spf1 ip4:195.182.80.71 ip4:195.182.80.69 ~all",
       "provider":"baltic-isp",
+      "reason":"MX (post.kretinga.lt) hosted on Baltic ISP (LITNET)",
       "osm_relation_id":1022102,
       "mx_asns":[
         6769
@@ -2022,6 +2124,7 @@
       ],
       "spf":"v=spf1 a mx a:mail.sos-it.lt -all",
       "provider":"baltic-isp",
+      "reason":"MX (post.kupiskis.lt) hosted on Baltic ISP (LITNET)",
       "osm_relation_id":1111075,
       "mx_asns":[
         6769
@@ -2038,6 +2141,7 @@
       ],
       "spf":"v=spf1 ip4:195.182.87.3 ip4:195.182.87.11 ip4:195.182.87.5 include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (lazdijai-lt.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":1082822,
       "spf_resolved":"v=spf1 ip4:195.182.87.3 ip4:195.182.87.11 ip4:195.182.87.5 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -2058,6 +2162,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (marijampole-lt.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":974204,
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -2078,6 +2183,7 @@
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.41.6 +ip4:86.38.8.113 +ip4:89.116.15.183 +ip4:195.182.85.129 +ip4:195.182.85.139 -all",
       "provider":"independent",
+      "reason":"MX (mail.mazeikiai.lt) is self-hosted; no known provider in SPF or autodiscover",
       "osm_relation_id":1211023,
       "mx_asns":[
         15419
@@ -2094,6 +2200,7 @@
       ],
       "spf":"v=spf1 a:mail.moletai.lt include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (moletai-lt.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":1002203,
       "spf_resolved":"v=spf1 a:mail.moletai.lt include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -2114,6 +2221,7 @@
       ],
       "spf":"v=spf1 +a +mx +ip4:89.116.41.11 +ip4:89.116.15.173 +ip4:86.38.8.114 -all",
       "provider":"independent",
+      "reason":"MX (mail.neringa.lt) is self-hosted; no known provider in SPF or autodiscover",
       "osm_relation_id":1078733,
       "mx_asns":[
         15419
@@ -2130,6 +2238,7 @@
       ],
       "spf":"v=spf1 +a +mx include:_spf.sender.hostex.lt -all",
       "provider":"independent",
+      "reason":"MX (mail.pagegiai.lt) is self-hosted; no known provider in SPF or autodiscover",
       "osm_relation_id":1002044,
       "spf_resolved":"v=spf1 +a +mx include:_spf.sender.hostex.lt -all v=spf1 +a:sender-spf.hostex.lt +a:pastas.hostex.lt +a:mailgw.hostex.lt +ip4:92.61.46.248 ?all",
       "mx_asns":[
@@ -2147,6 +2256,7 @@
       ],
       "spf":"v=spf1 +a +mx +ip4:89.116.41.78 +ip4:89.116.15.181 -all",
       "provider":"independent",
+      "reason":"MX (mail.pakruojis.lt) is self-hosted; no known provider in SPF or autodiscover",
       "osm_relation_id":1256234,
       "mx_asns":[
         15419
@@ -2163,6 +2273,7 @@
       ],
       "spf":"v=spf1 ip4:195.182.88.82 ip4:195.182.88.84 ip4:195.182.88.92 ip4:195.182.88.93 ip4:195.182.88.94 ip4:195.182.88.87 ip4:195.182.88.89 ip4:79.142.118.180 ip4:168.245.58.22 ip4:195.182.88.91 include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (palanga-lt.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":1022101,
       "spf_resolved":"v=spf1 ip4:195.182.88.82 ip4:195.182.88.84 ip4:195.182.88.92 ip4:195.182.88.93 ip4:195.182.88.94 ip4:195.182.88.87 ip4:195.182.88.89 ip4:79.142.118.180 ip4:168.245.58.22 ip4:195.182.88.91 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -2183,6 +2294,7 @@
       ],
       "spf":"v=spf1 a mx  ip4:195.182.86.155 ip4:195.182.81.34 ip4:195.182.86.145 -all",
       "provider":"baltic-isp",
+      "reason":"MX (senvage.panevezys.lt) hosted on Baltic ISP (LITNET)",
       "osm_relation_id":968945,
       "mx_asns":[
         6769
@@ -2199,6 +2311,7 @@
       ],
       "spf":"v=spf1 a ip4:195.182.71.149 a:mail.panrs.lt mx:panrs.lt -all",
       "provider":"baltic-isp",
+      "reason":"MX (mail.panrs.lt) hosted on Baltic ISP (LITNET)",
       "osm_relation_id":1028505,
       "mx_asns":[
         6769
@@ -2215,6 +2328,7 @@
       ],
       "spf":"v=spf1 a mx a:mail.pasvalys.lt ip4:176.223.130.232/32 ip4:84.46.136.249/32 ip4:195.182.79.0/24 ~all",
       "provider":"baltic-isp",
+      "reason":"MX (sav.pasvalys.lt) hosted on Baltic ISP (LITNET)",
       "osm_relation_id":1130030,
       "mx_asns":[
         6769
@@ -2231,6 +2345,7 @@
       ],
       "spf":"v=spf1 mx ip4:195.182.76.27 ip4:92.62.142.241 -all",
       "provider":"baltic-isp",
+      "reason":"MX (proxy.plunge.lt) hosted on Baltic ISP (LITNET)",
       "osm_relation_id":1360452,
       "mx_asns":[
         6769
@@ -2246,7 +2361,8 @@
         "mail.prienai.lt"
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.15.136 +ip4:86.38.8.113 +include:_spf.google.com -all",
-      "provider":"independent",
+      "provider":"google",
+      "reason":"MX (mail.prienai.lt) is self-hosted; SPF authorizes google — hybrid relay setup",
       "osm_relation_id":1312644,
       "spf_resolved":"v=spf1 +mx +a +ip4:89.116.15.136 +ip4:86.38.8.113 +include:_spf.google.com -all v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all",
       "mx_asns":[
@@ -2264,6 +2380,7 @@
       ],
       "spf":"v=spf1 +mx +a +include:spf.protection.outlook.com +ip4:89.116.15.135 +ip4:86.38.8.113 +ip4:195.182.70.34 +include:_spf.google.com -all",
       "provider":"microsoft",
+      "reason":"MX record (radviliskis-lt.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":1307306,
       "spf_resolved":"v=spf1 +mx +a +include:spf.protection.outlook.com +ip4:89.116.15.135 +ip4:86.38.8.113 +ip4:195.182.70.34 +include:_spf.google.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all",
       "mx_asns":[
@@ -2284,6 +2401,7 @@
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.15.138 +ip4:86.38.8.113 -all",
       "provider":"independent",
+      "reason":"MX (mail.raseiniai.lt) is self-hosted; no known provider in SPF or autodiscover",
       "osm_relation_id":1476170,
       "mx_asns":[
         15419
@@ -2300,6 +2418,7 @@
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.15.163 +ip4:86.38.8.113 -all",
       "provider":"independent",
+      "reason":"MX (mail.rietavas.lt) is self-hosted; no known provider in SPF or autodiscover",
       "osm_relation_id":1129075,
       "mx_asns":[
         15419
@@ -2316,6 +2435,7 @@
       ],
       "spf":"v=spf1 a mx a:hostingas.telecentras.lt ip4:86.38.8.113 ip4:79.98.26.21 ip4:89.116.15.178 include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (rokiskis-lt.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":1111073,
       "spf_resolved":"v=spf1 a mx a:hostingas.telecentras.lt ip4:86.38.8.113 ip4:79.98.26.21 ip4:89.116.15.178 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -2333,6 +2453,7 @@
       ],
       "spf":"v=spf1 mx ~all",
       "provider":"baltic-isp",
+      "reason":"MX (mail.sakiai.lt) hosted on Baltic ISP (LITNET)",
       "osm_relation_id":966581,
       "mx_asns":[
         6769
@@ -2349,6 +2470,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com ip4:195.182.87.3 ip4:195.182.87.11 ip4:195.182.87.5 -all",
       "provider":"microsoft",
+      "reason":"MX record (salcininkai-lt.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":1016307,
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com ip4:195.182.87.3 ip4:195.182.87.11 ip4:195.182.87.5 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -2368,7 +2490,8 @@
         "mail.siauliai.lt"
       ],
       "spf":"v=spf1 mx ip4:195.182.80.1 ip4:195.182.80.2 include:_spf.google.com -all",
-      "provider":"baltic-isp",
+      "provider":"google",
+      "reason":"MX (mail.siauliai.lt) is Baltic ISP; SPF authorizes google — hybrid relay setup",
       "osm_relation_id":968826,
       "spf_resolved":"v=spf1 mx ip4:195.182.80.1 ip4:195.182.80.2 include:_spf.google.com -all v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all",
       "mx_asns":[
@@ -2386,6 +2509,7 @@
       ],
       "spf":"v=spf1 ip4:213.226.189.239 ip4:213.226.189.240 +a +mx +ip4:213.226.189.0/24 ~all",
       "provider":"baltic-isp",
+      "reason":"MX (_dc-mx.6a86cf300b9b.siauliu.lt) hosted on Baltic ISP (Bite Lietuva)",
       "osm_relation_id":1256236,
       "mx_asns":[
         13194
@@ -2403,6 +2527,7 @@
       ],
       "spf":"v=spf1 a mx ptr redirect=spf.serveriai.lt",
       "provider":"independent",
+      "reason":"MX (mx-backup.serveriai.lt, silale.hostingas.lt) is self-hosted; no known provider in SPF or autodiscover",
       "osm_relation_id":1518454,
       "spf_resolved":"v=spf1 a mx ptr redirect=spf.serveriai.lt v=spf1 ip4:31.14.176.0/22 ip4:62.77.152.0/21 ip4:79.98.24.0/21 ip4:80.208.224.0/21 ip4:80.209.224.0/20 ip4:89.40.0.0/20 ip4:89.47.160.0/21 ip4:94.176.232.0/21 ip4:109.235.64.0/21 ip4:176.223.128.0/20 ip4:185.5.52.0/22 ip4:185.69.52.0/22 ip4:185.81.164.0/22 ip4:194.135.80.0/20 ip4:195.181.240.0/21 ip4:212.24.96.0/20 ip4:212.237.232.0/22 -all",
       "mx_asns":[
@@ -2420,6 +2545,7 @@
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.15.153 +ip4:86.38.8.113 -all",
       "provider":"independent",
+      "reason":"MX (mail.silute.lt) is self-hosted; no known provider in SPF or autodiscover",
       "osm_relation_id":1203041,
       "mx_asns":[
         15419
@@ -2435,7 +2561,8 @@
         "mail.sirvintos.lt"
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.15.162 +ip4:86.38.8.113 +include:_spf.google.com -all",
-      "provider":"independent",
+      "provider":"google",
+      "reason":"MX (mail.sirvintos.lt) is self-hosted; SPF authorizes google — hybrid relay setup",
       "osm_relation_id":1016308,
       "spf_resolved":"v=spf1 +mx +a +ip4:89.116.15.162 +ip4:86.38.8.113 +include:_spf.google.com -all v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all",
       "mx_asns":[
@@ -2453,6 +2580,7 @@
       ],
       "spf":"v=spf1 +a +mx +ip4:89.116.41.2 +ip4:89.116.15.165 -all",
       "provider":"independent",
+      "reason":"MX (mail.skuodas.lt) is self-hosted; no known provider in SPF or autodiscover",
       "osm_relation_id":1203042,
       "mx_asns":[
         15419
@@ -2469,6 +2597,7 @@
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.41.22 +ip4:89.116.15.170 -all",
       "provider":"independent",
+      "reason":"MX (mail.svencionys.lt) is self-hosted; no known provider in SPF or autodiscover",
       "osm_relation_id":967318,
       "mx_asns":[
         15419
@@ -2485,6 +2614,7 @@
       ],
       "spf":"v=spf1 include:_spf.mlsend.com ip4:89.116.15.221 include:spf.protection.outlook.com ip4:195.182.91.18 ip4:86.38.8.113 -all",
       "provider":"microsoft",
+      "reason":"MX record (taurage-lt.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":1479204,
       "spf_resolved":"v=spf1 include:_spf.mlsend.com ip4:89.116.15.221 include:spf.protection.outlook.com ip4:195.182.91.18 ip4:86.38.8.113 -all v=spf1 ip4:185.249.220.0/24 ip4:185.225.161.0/24 ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -2505,6 +2635,7 @@
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.15.180 +ip4:86.38.8.113 -all",
       "provider":"independent",
+      "reason":"MX (mail.telsiai.lt) is self-hosted; no known provider in SPF or autodiscover",
       "osm_relation_id":1360453,
       "mx_asns":[
         15419
@@ -2521,6 +2652,7 @@
       ],
       "spf":"v=spf1 ip4:195.182.87.5 ip4:195.182.87.11 ip4:195.182.87.31 ip4:195.182.87.39 ip4:89.116.15.179 include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (trakai-lt.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":1016309,
       "spf_resolved":"v=spf1 ip4:195.182.87.5 ip4:195.182.87.11 ip4:195.182.87.31 ip4:195.182.87.39 ip4:89.116.15.179 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -2541,6 +2673,7 @@
       ],
       "spf":"v=spf1 a mx ip4:195.182.87.3 ip4:195.182.87.11 ip4:195.182.87.5 ip4:89.116.15.129 ip4:89.116.15.228 ~all",
       "provider":"independent",
+      "reason":"MX (mail.ukmerge.lt) is self-hosted; no known provider in SPF or autodiscover",
       "osm_relation_id":1027570,
       "mx_asns":[
         15419
@@ -2558,6 +2691,7 @@
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.41.70 +ip4:195.182.87.3 +ip4:195.182.87.11 +ip4:195.182.87.5 +include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (mail.utena.lt, utena-lt.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":966642,
       "spf_resolved":"v=spf1 +mx +a +ip4:89.116.41.70 +ip4:195.182.87.3 +ip4:195.182.87.11 +ip4:195.182.87.5 +include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -2579,6 +2713,7 @@
       ],
       "spf":"v=spf1 +a +mx +ip4:89.116.15.129 +ip4:89.116.15.131 ~all",
       "provider":"independent",
+      "reason":"MX (mail.varena.lt) is self-hosted; no known provider in SPF or autodiscover",
       "osm_relation_id":1076929,
       "mx_asns":[
         15419
@@ -2595,6 +2730,7 @@
       ],
       "spf":"v=spf1 a mx ip4:195.182.80.86 -all",
       "provider":"baltic-isp",
+      "reason":"MX (mail.vilkaviskis.lt) hosted on Baltic ISP (LITNET)",
       "osm_relation_id":966580,
       "mx_asns":[
         6769
@@ -2611,6 +2747,7 @@
       ],
       "spf":"v=spf1 include:_spf.mlsend.com include:spf.protection.outlook.com a mx ip4:195.182.82.94 ip4:195.182.91.224 include:spf.vilnius.lm.lt include:privacios.vilnius.lm.lt -all",
       "provider":"microsoft",
+      "reason":"MX record (vilnius-lt.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":968952,
       "spf_resolved":"v=spf1 include:_spf.mlsend.com include:spf.protection.outlook.com a mx ip4:195.182.82.94 ip4:195.182.91.224 include:spf.vilnius.lm.lt include:privacios.vilnius.lm.lt -all v=spf1 ip4:185.249.220.0/24 ip4:185.225.161.0/24 ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:193.219.80.0/22 ip4:158.129.128.0/18 -all v=spf1 mx include:spf1.vilnius.lm.lt v=spf1  ip4:193.219.80.0/22 ip4:158.129.128.0/18 ip4:79.98.26.8 a:darzeliai.is.lt a:outmail.is.lt -all",
       "mx_asns":[
@@ -2631,6 +2768,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com mx ip4:91.103.97.35 ip4:91.103.96.85 ip4:195.182.83.115 ip4:89.116.15.156 ip4:89.116.15.129 -all",
       "provider":"microsoft",
+      "reason":"MX record (vrsa-lt.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":977316,
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com mx ip4:91.103.97.35 ip4:91.103.96.85 ip4:195.182.83.115 ip4:89.116.15.156 ip4:89.116.15.129 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -2651,6 +2789,7 @@
       ],
       "spf":"v=spf1 a mx ip4:195.182.88.160/28 ip4:89.116.15.0/24 include:cphostingas.telecentras.lt include:spf.serveriai.lt -all",
       "provider":"independent",
+      "reason":"MX (mx.serveriai.lt) is self-hosted; no known provider in SPF or autodiscover",
       "osm_relation_id":966362,
       "spf_resolved":"v=spf1 a mx ip4:195.182.88.160/28 ip4:89.116.15.0/24 include:cphostingas.telecentras.lt include:spf.serveriai.lt -all v=spf1 +mx +a +ip4:89.116.15.129 ~all v=spf1 ip4:31.14.176.0/22 ip4:62.77.152.0/21 ip4:79.98.24.0/21 ip4:80.208.224.0/21 ip4:80.209.224.0/20 ip4:89.40.0.0/20 ip4:89.47.160.0/21 ip4:94.176.232.0/21 ip4:109.235.64.0/21 ip4:176.223.128.0/20 ip4:185.5.52.0/22 ip4:185.69.52.0/22 ip4:185.81.164.0/22 ip4:194.135.80.0/20 ip4:195.181.240.0/21 ip4:212.24.96.0/20 ip4:212.237.232.0/22 -all",
       "mx_asns":[
@@ -2668,6 +2807,7 @@
       ],
       "spf":"v=spf1 mx redirect=spf.serveriai.lt -all",
       "provider":"independent",
+      "reason":"MX (zarasai.hostingas.lt) is self-hosted; no known provider in SPF or autodiscover",
       "osm_relation_id":966544,
       "spf_resolved":"v=spf1 mx redirect=spf.serveriai.lt -all v=spf1 ip4:31.14.176.0/22 ip4:62.77.152.0/21 ip4:79.98.24.0/21 ip4:80.208.224.0/21 ip4:80.209.224.0/20 ip4:89.40.0.0/20 ip4:89.47.160.0/21 ip4:94.176.232.0/21 ip4:109.235.64.0/21 ip4:176.223.128.0/20 ip4:185.5.52.0/22 ip4:185.69.52.0/22 ip4:185.81.164.0/22 ip4:194.135.80.0/20 ip4:195.181.240.0/21 ip4:212.24.96.0/20 ip4:212.237.232.0/22 -all",
       "mx_asns":[
@@ -2685,6 +2825,7 @@
       ],
       "spf":"v=spf1 mx ip4:213.175.127.33 ip4:213.175.124.130 ip4:213.175.124.138 ip4:213.175.127.3 include:spf.protection.outlook.com include:spf.sendinblue.com -all",
       "provider":"microsoft",
+      "reason":"MX record (riga-lv.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":62495,
       "spf_resolved":"v=spf1 mx ip4:213.175.127.33 ip4:213.175.124.130 ip4:213.175.124.138 ip4:213.175.127.3 include:spf.protection.outlook.com include:spf.sendinblue.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:185.41.28.0/22 ip4:94.143.16.0/21 ip4:185.24.144.0/22 ip4:153.92.224.0/19 ip4:213.32.128.0/18 ip4:185.107.232.0/22 ip4:77.32.128.0/18 ip4:77.32.192.0/19 ip4:212.146.192.0/18 ip4:172.246.0.0/18 -all",
       "mx_asns":[
@@ -2702,6 +2843,7 @@
       ],
       "spf":"v=spf1 include:_spf.mlsend.com ip4:78.28.205.254 a mx ~all",
       "provider":"baltic-isp",
+      "reason":"MX (mail.daugavpils.lv) hosted on Baltic ISP (TET (Lattelecom))",
       "osm_relation_id":1759163,
       "spf_resolved":"v=spf1 include:_spf.mlsend.com ip4:78.28.205.254 a mx ~all v=spf1 ip4:185.249.220.0/24 ip4:185.225.161.0/24 ~all",
       "mx_asns":[
@@ -2719,6 +2861,7 @@
       ],
       "spf":"v=spf1 mx ~all",
       "provider":"baltic-isp",
+      "reason":"MX (mf.jelgava.lv) hosted on Baltic ISP (TET (Lattelecom))",
       "osm_relation_id":2219894,
       "mx_asns":[
         5518
@@ -2735,6 +2878,7 @@
       ],
       "spf":"v=spf1 ip4:87.246.161.41 ip4:87.246.161.6 a:smtp01.emea.sabacloud.com include:spf.protection.outlook.com include:_spf.smaily.com -all",
       "provider":"microsoft",
+      "reason":"MX record (jurmala-lv.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":1765069,
       "spf_resolved":"v=spf1 ip4:87.246.161.41 ip4:87.246.161.6 a:smtp01.emea.sabacloud.com include:spf.protection.outlook.com include:_spf.smaily.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:149.154.156.2/31 ip4:149.154.156.4/30 ip4:149.154.156.8/29 ip4:149.154.156.16/31 ip4:185.31.243.2/31 ip4:185.31.243.4/30 ip4:185.31.243.8/29 ip4:185.31.243.16/28 ip4:185.31.243.32/29 ip4:149.202.130.128/25 -all",
       "mx_asns":[
@@ -2754,7 +2898,8 @@
         "mailz.liepaja.lv"
       ],
       "spf":"v=spf1 include:_spf.mlsend.com include:eu-west-1.amazonses.com ip4:80.232.164.128/27 ip4:54.240.4.15 ip4:80.232.237.216/29 ~all",
-      "provider":"baltic-isp",
+      "provider":"aws",
+      "reason":"MX (mailz.liepaja.lv) is Baltic ISP; SPF authorizes aws — hybrid relay setup",
       "osm_relation_id":1625505,
       "spf_resolved":"v=spf1 include:_spf.mlsend.com include:eu-west-1.amazonses.com ip4:80.232.164.128/27 ip4:54.240.4.15 ip4:80.232.237.216/29 ~all v=spf1 ip4:185.249.220.0/24 ip4:185.225.161.0/24 ~all v=spf1 include:amazonses.com -all v=spf1 ip4:199.255.192.0/22 ip4:199.127.232.0/22 ip4:54.240.0.0/18 ip4:69.169.224.0/20 ip4:23.249.208.0/20 ip4:23.251.224.0/19 ip4:76.223.176.0/20 ip4:54.240.64.0/18 ip4:76.223.128.0/19 ip4:216.221.160.0/19 ip4:206.55.144.0/20 ip4:24.110.64.0/18 -all",
       "mx_asns":[
@@ -2772,6 +2917,7 @@
       ],
       "spf":"v=spf1 ip4:78.28.215.11/29 -all",
       "provider":"baltic-isp",
+      "reason":"MX (epasts.rezekne.lv) hosted on Baltic ISP (TET (Lattelecom))",
       "osm_relation_id":2220728,
       "mx_asns":[
         5518
@@ -2789,6 +2935,7 @@
       ],
       "spf":"v=spf1 a mx ip4:94.140.104.171 ip4:193.200.201.80 ip4:193.200.201.100 ip4:94.140.104.17 ip4:94.140.104.200 include:spf.mandrillapp.com include:spf.protection.outlook.com include:venta.lv ~all",
       "provider":"microsoft",
+      "reason":"MX is barracuda gateway; SPF authorizes microsoft",
       "osm_relation_id":2093752,
       "spf_resolved":"v=spf1 a mx ip4:94.140.104.171 ip4:193.200.201.80 ip4:193.200.201.100 ip4:94.140.104.17 ip4:94.140.104.200 include:spf.mandrillapp.com include:spf.protection.outlook.com include:venta.lv ~all v=spf1 ip4:198.2.128.0/24 ip4:198.2.132.0/22 ip4:198.2.136.0/23 ip4:198.2.145.0/24 ip4:198.2.186.0/23 ip4:205.201.131.128/25 ip4:205.201.134.128/25 ip4:205.201.136.0/23 ip4:205.201.139.0/24 ip4:198.2.177.0/24 ip4:198.2.178.0/23 ip4:198.2.180.0/24 ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 a mx ip4:193.105.155.0/25 ip6:2001:67c:2980::/48  include:_spf.google.com -all v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all",
       "gateway":"barracuda",
@@ -2811,6 +2958,7 @@
       ],
       "spf":"v=spf1 a mx ip4:84.237.221.154 ip4:84.237.221.156 -all",
       "provider":"baltic-isp",
+      "reason":"MX (pasts.augsdaugavasnovads.lv) hosted on Baltic ISP (Lattelecom)",
       "osm_relation_id":14102154,
       "mx_asns":[
         12578
@@ -2830,6 +2978,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (dkn-lv.mail.eo.outlook.com) matches Microsoft",
       "osm_relation_id":14102158,
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -2854,6 +3003,7 @@
       ],
       "spf":"v=spf1 include:_spf.mlsend.com ip4:213.21.210.8 ip4:13.80.21.191 ip4:78.28.242.87 include:_spf.google.com -all",
       "provider":"google",
+      "reason":"MX record (alt1.aspmx.l.google.com, alt2.aspmx.l.google.com) matches Google",
       "osm_relation_id":14102184,
       "spf_resolved":"v=spf1 include:_spf.mlsend.com ip4:213.21.210.8 ip4:13.80.21.191 ip4:78.28.242.87 include:_spf.google.com -all v=spf1 ip4:185.249.220.0/24 ip4:185.225.161.0/24 ~all v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all",
       "mx_asns":[
@@ -2871,6 +3021,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com ip4:195.13.251.14 ip4:84.237.246.50 -all",
       "provider":"microsoft",
+      "reason":"MX record (aizkraukle-lv.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":14102152,
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com ip4:195.13.251.14 ip4:84.237.246.50 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -2890,7 +3041,8 @@
         "pasts.aluksne.lv"
       ],
       "spf":"v=spf1 ip4:195.122.28.139 include:_spf.google.com -all",
-      "provider":"baltic-isp",
+      "provider":"google",
+      "reason":"MX (pasts.aluksne.lv) is Baltic ISP; SPF authorizes google — hybrid relay setup",
       "osm_relation_id":14102153,
       "spf_resolved":"v=spf1 ip4:195.122.28.139 include:_spf.google.com -all v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all",
       "mx_asns":[
@@ -2909,6 +3061,7 @@
       ],
       "spf":"v=spf1 include:spf.protect.sigmanet.lv -all",
       "provider":"independent",
+      "reason":"MX (mx.sigmanet.lv, mx2.sigmanet.lv) is self-hosted; no known provider in SPF or autodiscover",
       "osm_relation_id":14102155,
       "spf_resolved":"v=spf1 include:spf.protect.sigmanet.lv -all v=spf1 ip4:92.240.66.0/24 ip4:92.240.65.0/24 ip4:92.240.72.0/24 ip4:92.240.80.54 ip4:92.240.80.58 ip4:92.240.80.57 ip4:92.240.80.53 ip4:92.240.80.63 ip4:92.240.80.64 ip4:92.240.80.69 ip4:92.240.80.68 include:spf2.protect.sigmanet.lv -all v=spf1 ip6:2a02:500:4500:b::1 ip6:2a02:500:4500:b::2 ip6:2a02:500:4500:b::3 ip6:2a02:500:4500:b::4 ip6:2a02:500:4500:b::11 ip6:2a02:500:4500:b::12 ip6:2a02:500:4500:b::21 ip6:2a02:500:4500:b::22 -all",
       "mx_asns":[
@@ -2925,7 +3078,8 @@
         "mail.bauska.lv"
       ],
       "spf":"v=spf1 a mx ip4:81.198.190.20 include:spf.protection.outlook.com -all",
-      "provider":"independent",
+      "provider":"microsoft",
+      "reason":"MX (mail.bauska.lv) is self-hosted; SPF authorizes microsoft — hybrid relay setup",
       "osm_relation_id":14102156,
       "spf_resolved":"v=spf1 a mx ip4:81.198.190.20 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -2943,6 +3097,7 @@
       ],
       "spf":"v=spf1 +a +mx +ip4:62.63.139.0/24 +ip4:62.63.146.0/24 +ip4:91.237.98.22 +ip4:94.140.122.3 +ip4:91.237.98.146 +ip4:85.31.98.149 +ip4:80.232.232.171 include:spf.protection.outlook.com ~all",
       "provider":"microsoft",
+      "reason":"MX record (cesis-lv.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":14102157,
       "spf_resolved":"v=spf1 +a +mx +ip4:62.63.139.0/24 +ip4:62.63.146.0/24 +ip4:91.237.98.22 +ip4:94.140.122.3 +ip4:91.237.98.146 +ip4:85.31.98.149 +ip4:80.232.232.171 include:spf.protection.outlook.com ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -2964,6 +3119,7 @@
       ],
       "spf":"v=spf1 +mx ip4:80.233.228.21 ip4:162.19.224.132 ~all",
       "provider":"baltic-isp",
+      "reason":"MX (mail.dobele.lv, mail2.ilva.lv) hosted on Baltic ISP (TET (Lattelecom))",
       "osm_relation_id":14102159,
       "mx_asns":[
         5518,
@@ -2985,6 +3141,7 @@
       ],
       "spf":"v=spf1 ip4:95.211.208.241 mx +ip4:95.168.166.47 +ip4:81.198.69.60 +ip4:213.21.210.8 +ip4:62.63.148.0/27 +ip4:195.244.156.200/32 +include:_spf.google.com -all",
       "provider":"google",
+      "reason":"MX record (alt1.aspmx.l.google.com, alt2.aspmx.l.google.com) matches Google",
       "osm_relation_id":14102160,
       "spf_resolved":"v=spf1 ip4:95.211.208.241 mx +ip4:95.168.166.47 +ip4:81.198.69.60 +ip4:213.21.210.8 +ip4:62.63.148.0/27 +ip4:195.244.156.200/32 +include:_spf.google.com -all v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all",
       "mx_asns":[
@@ -3002,7 +3159,8 @@
         "mail.jelgavasnovads.lv"
       ],
       "spf":"v=spf1 a mx include:protection.outlook.com -all",
-      "provider":"baltic-isp",
+      "provider":"microsoft",
+      "reason":"MX (anubis.jelgavasnovads.lv, mail.jelgavasnovads.lv) is Baltic ISP; SPF authorizes microsoft — hybrid relay setup",
       "osm_relation_id":14102161,
       "spf_resolved":"v=spf1 a mx include:protection.outlook.com -all v=spf1 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -3024,6 +3182,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com ip4:217.199.117.28 ip4:31.24.195.35 ip4:31.24.195.5 include:sendgrid.net -all",
       "provider":"microsoft",
+      "reason":"MX record (jekabpils-lv.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":14102162,
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com ip4:217.199.117.28 ip4:31.24.195.35 ip4:31.24.195.5 include:sendgrid.net -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
       "mx_asns":[
@@ -3044,6 +3203,7 @@
       ],
       "spf":"v=spf1 a mx a:mail.iviks.lv ip4:85.15.236.0/23 ip4:85.15.208.0/23 -all",
       "provider":"independent",
+      "reason":"MX (mail.iviks.lv) is self-hosted; no known provider in SPF or autodiscover",
       "osm_relation_id":14102164,
       "mx_asns":[
         29600
@@ -3060,6 +3220,7 @@
       ],
       "spf":"v=spf1 a mx a:mail.kuldiga.lv ip4:81.198.95.211 -all",
       "provider":"baltic-isp",
+      "reason":"MX (mx.kuldiga.lv) hosted on Baltic ISP (Lattelecom)",
       "osm_relation_id":14102165,
       "mx_asns":[
         12578
@@ -3076,6 +3237,7 @@
       ],
       "spf":"v=spf1 ip4:87.110.189.50 mx ~all",
       "provider":"baltic-isp",
+      "reason":"MX (mail.limbazunovads.lv) hosted on Baltic ISP (Lattelecom)",
       "osm_relation_id":14102166,
       "mx_asns":[
         12578
@@ -3092,6 +3254,7 @@
       ],
       "spf":"v=spf1 ip4:195.122.22.162 ip4:213.21.210.8 ip4:81.198.214.113 ip4:159.148.200.44 ip4:159.148.200.62 ip4:159.148.221.203 ip4:59.201.4.90 ip4:159.148.211.243 ip4:212.3.195.186 include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (livani-lv.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":14102167,
       "spf_resolved":"v=spf1 ip4:195.122.22.162 ip4:213.21.210.8 ip4:81.198.214.113 ip4:159.148.200.44 ip4:159.148.200.62 ip4:159.148.221.203 ip4:59.201.4.90 ip4:159.148.211.243 ip4:212.3.195.186 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -3113,6 +3276,7 @@
       ],
       "spf":"v=spf1 include:spf.protect.sigmanet.lv include:mail.ludza.lv -all",
       "provider":"independent",
+      "reason":"MX (mx.sigmanet.lv, mx2.sigmanet.lv) is self-hosted; no known provider in SPF or autodiscover",
       "osm_relation_id":14102168,
       "spf_resolved":"v=spf1 include:spf.protect.sigmanet.lv include:mail.ludza.lv -all v=spf1 ip4:92.240.66.0/24 ip4:92.240.65.0/24 ip4:92.240.72.0/24 ip4:92.240.80.54 ip4:92.240.80.58 ip4:92.240.80.57 ip4:92.240.80.53 ip4:92.240.80.63 ip4:92.240.80.64 ip4:92.240.80.69 ip4:92.240.80.68 include:spf2.protect.sigmanet.lv -all v=spf1 ip6:2a02:500:4500:b::1 ip6:2a02:500:4500:b::2 ip6:2a02:500:4500:b::3 ip6:2a02:500:4500:b::4 ip6:2a02:500:4500:b::11 ip6:2a02:500:4500:b::12 ip6:2a02:500:4500:b::21 ip6:2a02:500:4500:b::22 -all",
       "mx_asns":[
@@ -3130,6 +3294,7 @@
       ],
       "spf":"v=spf1 mx a ip4:194.19.240.45/32 ip4:194.19.240.43/32 ip4:194.19.240.38/32 ip4:194.19.240.38/32 -all",
       "provider":"baltic-isp",
+      "reason":"MX (mx.madona.lv) hosted on Baltic ISP (LVRTC)",
       "osm_relation_id":14102169,
       "mx_asns":[
         12993
@@ -3146,6 +3311,7 @@
       ],
       "spf":"v=spf1 ip4:94.100.9.4 ip4:94.100.9.10 include:spf.mailjet.com ~all",
       "provider":"independent",
+      "reason":"MX (mail.ogresnovads.lv) is self-hosted; no known provider in SPF or autodiscover",
       "osm_relation_id":14102171,
       "spf_resolved":"v=spf1 ip4:94.100.9.4 ip4:94.100.9.10 include:spf.mailjet.com ~all v=spf1 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:45.14.148.0/22 ~all",
       "mx_asns":[
@@ -3163,6 +3329,7 @@
       ],
       "spf":"v=spf1 ip4:159.148.6.167 ip4:159.148.43.76 mx include:spf.vardes.lv ~all",
       "provider":"baltic-isp",
+      "reason":"MX (mx.preili.lv) hosted on Baltic ISP (Elisa)",
       "osm_relation_id":14102173,
       "spf_resolved":"v=spf1 ip4:159.148.6.167 ip4:159.148.43.76 mx include:spf.vardes.lv ~all v=spf1 ip4:84.237.246.50 ip4:85.254.49.59 ip4:85.31.99.24 a:smtp.ltk.lv ~all",
       "mx_asns":[
@@ -3182,6 +3349,7 @@
       ],
       "spf":"v=spf1 ip4:195.13.215.96/28 -all",
       "provider":"baltic-isp",
+      "reason":"MX (barracuda.rdc.lv, d302581.a.ess.de.barracudanetworks.com) hosted on Baltic ISP (Lattelecom)",
       "osm_relation_id":14102174,
       "gateway":"barracuda",
       "mx_asns":[
@@ -3200,6 +3368,7 @@
       ],
       "spf":"v=spf1 include:rixtech.lv include:spf.vardes.lv include:sendgrid.net ip4:85.254.49.59 ip4:212.93.106.105 ip4:46.163.75.154 ip4:80.232.155.62 ip4:52.174.85.146 -all v=spf1 include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (adazi-lv.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":14102151,
       "spf_resolved":"v=spf1 include:rixtech.lv include:spf.vardes.lv include:sendgrid.net ip4:85.254.49.59 ip4:212.93.106.105 ip4:46.163.75.154 ip4:80.232.155.62 ip4:52.174.85.146 -all v=spf1 include:spf.protection.outlook.com -all v=spf1 mx ip4:89.111.48.242 ip4:89.111.48.245 include:sendgrid.net include:spf.protection.outlook.com -all v=spf1 ip4:84.237.246.50 ip4:85.254.49.59 ip4:85.31.99.24 a:smtp.ltk.lv ~all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
       "mx_asns":[
@@ -3221,6 +3390,7 @@
       ],
       "spf":"v=spf1 include:spf.protect.sigmanet.lv -all",
       "provider":"independent",
+      "reason":"MX (mx.sigmanet.lv, mx2.sigmanet.lv) is self-hosted; no known provider in SPF or autodiscover",
       "osm_relation_id":14102163,
       "spf_resolved":"v=spf1 include:spf.protect.sigmanet.lv -all v=spf1 ip4:92.240.66.0/24 ip4:92.240.65.0/24 ip4:92.240.72.0/24 ip4:92.240.80.54 ip4:92.240.80.58 ip4:92.240.80.57 ip4:92.240.80.53 ip4:92.240.80.63 ip4:92.240.80.64 ip4:92.240.80.69 ip4:92.240.80.68 include:spf2.protect.sigmanet.lv -all v=spf1 ip6:2a02:500:4500:b::1 ip6:2a02:500:4500:b::2 ip6:2a02:500:4500:b::3 ip6:2a02:500:4500:b::4 ip6:2a02:500:4500:b::11 ip6:2a02:500:4500:b::12 ip6:2a02:500:4500:b::21 ip6:2a02:500:4500:b::22 -all",
       "mx_asns":[
@@ -3238,6 +3408,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (marupe-lv.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":14102170,
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -3259,6 +3430,7 @@
       ],
       "spf":"v=spf1 include:spf.protect.sigmanet.lv -all",
       "provider":"independent",
+      "reason":"MX (mx.sigmanet.lv, mx2.sigmanet.lv) is self-hosted; no known provider in SPF or autodiscover",
       "osm_relation_id":14102172,
       "spf_resolved":"v=spf1 include:spf.protect.sigmanet.lv -all v=spf1 ip4:92.240.66.0/24 ip4:92.240.65.0/24 ip4:92.240.72.0/24 ip4:92.240.80.54 ip4:92.240.80.58 ip4:92.240.80.57 ip4:92.240.80.53 ip4:92.240.80.63 ip4:92.240.80.64 ip4:92.240.80.69 ip4:92.240.80.68 include:spf2.protect.sigmanet.lv -all v=spf1 ip6:2a02:500:4500:b::1 ip6:2a02:500:4500:b::2 ip6:2a02:500:4500:b::3 ip6:2a02:500:4500:b::4 ip6:2a02:500:4500:b::11 ip6:2a02:500:4500:b::12 ip6:2a02:500:4500:b::21 ip6:2a02:500:4500:b::22 -all",
       "mx_asns":[
@@ -3276,6 +3448,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (ropazi-lv.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":14102175,
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -3296,6 +3469,7 @@
       ],
       "spf":"v=spf1 mx ptr mx:mail.salaspils.lv ip4:81.198.71.243 ip4:195.10.216.186 -all",
       "provider":"baltic-isp",
+      "reason":"MX (mail.salaspils.lv) hosted on Baltic ISP (Lattelecom)",
       "osm_relation_id":14102176,
       "mx_asns":[
         12578
@@ -3313,6 +3487,7 @@
       ],
       "spf":"v=spf1 a mx a:webmail.garmtech.net a:web11.garmtech.net a:ns2.garmtech.com include:relay.mailchannels.net ~all",
       "provider":"independent",
+      "reason":"MX (mail.saulkrasti.lv, mx2.garmtech.com) is self-hosted; no known provider in SPF or autodiscover",
       "osm_relation_id":14102178,
       "spf_resolved":"v=spf1 a mx a:webmail.garmtech.net a:web11.garmtech.net a:ns2.garmtech.com include:relay.mailchannels.net ~all v=spf1 ip4:23.83.208.0/20 ip4:35.85.190.185/32 ~all",
       "mx_asns":[
@@ -3331,6 +3506,7 @@
       ],
       "spf":"v=spf1 include:sendersrv.com include:mailgun.org include:spf.mandrillapp.com include:spf.protect.sigmanet.lv include:spf.protection.outlook.com -all",
       "provider":"microsoft",
+      "reason":"MX record (sigulda-lv.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":14102179,
       "spf_resolved":"v=spf1 include:sendersrv.com include:mailgun.org include:spf.mandrillapp.com include:spf.protect.sigmanet.lv include:spf.protection.outlook.com -all v=spf1 ip4:185.3.229.125 ip4:185.3.229.126 ip4:185.3.229.127 ip4:185.3.229.128/27 ip4:141.136.38.0/24 ip4:141.136.40.0/24 ip4:195.191.140.0/24 ip4:195.191.176.0/24 ip4:134.209.89.39 ip4:167.172.239.16 ip4:94.75.223.106 include:_spf.mx.cloudflare.net -all v=spf1 include:_spf.mailgun.org include:_spf.eu.mailgun.org -all v=spf1 ip4:198.2.128.0/24 ip4:198.2.132.0/22 ip4:198.2.136.0/23 ip4:198.2.145.0/24 ip4:198.2.186.0/23 ip4:205.201.131.128/25 ip4:205.201.134.128/25 ip4:205.201.136.0/23 ip4:205.201.139.0/24 ip4:198.2.177.0/24 ip4:198.2.178.0/23 ip4:198.2.180.0/24 ~all v=spf1 ip4:92.240.66.0/24 ip4:92.240.65.0/24 ip4:92.240.72.0/24 ip4:92.240.80.54 ip4:92.240.80.58 ip4:92.240.80.57 ip4:92.240.80.53 ip4:92.240.80.63 ip4:92.240.80.64 ip4:92.240.80.69 ip4:92.240.80.68 include:spf2.protect.sigmanet.lv -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:104.30.0.0/19 ip6:2405:8100:c000::/38 ~all v=spf1 include:_spf1.mailgun.org include:_spf2.mailgun.org ~all v=spf1 ip4:141.193.32.0/23 ip4:159.135.140.80/29 ip4:159.135.132.128/25 ip4:161.38.204.0/22 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:143.55.236.0/22 ip4:198.244.60.0/22 ip4:204.220.160.0/21 ~all v=spf1 ip6:2a02:500:4500:b::1 ip6:2a02:500:4500:b::2 ip6:2a02:500:4500:b::3 ip6:2a02:500:4500:b::4 ip6:2a02:500:4500:b::11 ip6:2a02:500:4500:b::12 ip6:2a02:500:4500:b::21 ip6:2a02:500:4500:b::22 -all v=spf1 ip4:209.61.151.0/24 ip4:166.78.68.0/22 ip4:198.61.254.0/23 ip4:192.237.158.0/23 ip4:23.253.182.0/23 ip4:104.130.96.0/28 ip4:146.20.113.0/24 ip4:146.20.191.0/24 ip4:159.135.224.0/20 ip4:69.72.32.0/20 ~all",
       "mx_asns":[
@@ -3351,6 +3527,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com include:trendmicro.com include:spf.tmes.trendmicro.eu -all",
       "provider":"microsoft",
+      "reason":"MX is trendmicro gateway; SPF authorizes microsoft",
       "osm_relation_id":14102177,
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com include:trendmicro.com include:spf.tmes.trendmicro.eu -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 mx include:_spf-mix.trendmicro.com include:spf-us.tmes.trendmicro.com include:mktomail.com include:spf.mandrillapp.com include:fc1503.cuenote.jp include:spf-euw1.docebopaas.com -all v=spf1 ip4:18.185.115.0/25 ip4:18.185.115.128/26 ip4:34.253.238.128/26 ip4:34.253.238.192/26 ip4:3.72.196.143 ip4:18.156.0.20 ip4:35.156.245.132 ip4:18.208.22.124 ip4:18.208.22.125 ip4:18.96.32.128/27 ip6:2a05:d014:10e:d900::/60 ~all v=spf1 ip4:66.180.80.0/20 ip4:216.99.128.0/20 ip4:216.104.0.0/19 ip4:150.70.0.0/16 ip4:202.3.185.208/28 ip4:208.70.246.179 ip4:139.138.59.249 ip4:168.61.0.0/16 ip4:13.108.0.0/14 ip4:139.138.34.246 ip4:12.130.136.122 ip4:96.43.144.0/20 ip4:136.146.0.0/15 ip4:85.222.128.0/19 ip4:54.240.65.37/28 ip4:69.20.83.153 ip4:69.20.83.155 ip4:69.20.22.253 ip4:69.20.22.254 ip4:69.20.19.174 ip4:69.20.83.154 ip4:52.50.129.119 ip4:64.61.41.232/29 ip4:87.119.210.16/28 ip4:151.193.163.48/29 ip4:198.107.145.64/28 ip4:66.218.66.0/24 ip4:66.218.67.0/24 ip4:66.94.237.0/24 ip4:209.73.160.64/27 ip4:98.173.8.34 ip4:213.129.92.138 ip4:63.240.89.0/24 ip4:63.240.103.0/26 ip4:216.136.162.64/26 ip4:216.136.229.0/24 ip4:216.136.168.64/27 ip4:206.17.168.0/25 ip4:64.79.35.0/24 ip4:72.32.65.10 ip4:54.240.34.58 ip4:70.47.36.4 ip4:61.12.7.194 ip4:208.74.204.5 ip4:198.207.147.224/27 ip4:54.174.60.0/23 ip4:143.244.80.0/20 ip4:18.208.124.128/25 ip4:54.174.53.128/30 ip4:158.247.16.0/20 ip4:54.174.59.0/24 ip4:54.174.63.0/24 ip4:3.93.157.0/24 ip4:54.174.52.0/24 ip4:139.180.17.0/24 ip4:54.174.57.0/24 ip4:18.208.22.64/26 ip4:18.208.22.128/25 ip4:18.185.115.128/26 ip4:18.185.115.0/25 ip4:13.238.202.0/25 ip4:13.238.202.128/26 ip4:18.176.203.128/25 ip4:13.213.174.128/25 ip4:18.177.156.0/25 ip4:13.213.220.0/25 ip4:107.22.223.18/32 ip4:52.70.252.86/32 ip4:35.156.245.132/32 ip4:18.156.0.20/32 ip4:3.72.196.143/32 ip4:54.146.4.63/32 ip4:54.174.82.86/32 ip4:18.188.9.192/26 ip4:18.188.239.128/26 ip4:34.253.238.128/26 ip4:34.253.238.192/26 ip4:15.168.56.0/25 ip4:15.168.49.64/26 ip4:15.168.56.128/26 ip4:214.24.24.195/32 ip4:214.24.22.196/32 ip4:214.24.22.199/32 -all v=spf1 ip4:18.208.22.64/26 ip4:18.208.22.128/25 ip4:18.188.9.192/26 ip4:18.188.239.128/26 ip4:18.97.0.160/27 ip4:107.22.223.18 ip4:52.70.252.86 ip4:54.146.4.63 ip4:54.174.82.86 ip6:2600:1f18:42fe:5c00::/60 ~all v=spf1 ip4:199.15.212.0/22 ip4:72.3.185.0/24 ip4:72.32.154.0/24 ip4:72.32.217.0/24 ip4:72.32.243.0/24 ip4:94.236.119.0/26 ip4:37.188.97.188/32 ip4:185.28.196.0/22 ip4:192.28.128.0/18 ip4:103.237.104.0/22 ip4:130.248.172.0/24 ip4:130.248.173.0/24 ~all v=spf1 ip4:198.2.128.0/24 ip4:198.2.132.0/22 ip4:198.2.136.0/23 ip4:198.2.145.0/24 ip4:198.2.186.0/23 ip4:205.201.131.128/25 ip4:205.201.134.128/25 ip4:205.201.136.0/23 ip4:205.201.139.0/24 ip4:198.2.177.0/24 ip4:198.2.178.0/23 ip4:198.2.180.0/24 ~all v=spf1 ip4:210.152.128.130/31 ip4:210.152.128.132/30 ip4:210.152.128.136/29 ip4:210.152.128.144/30 ip4:210.152.128.148/31 ip4:210.152.128.150 ip4:210.152.203.0/28 ip4:210.152.203.16/30 ip4:210.152.203.20/31 ~all v=spf1 ip4:52.50.129.119 ip4:3.248.148.18 ~all",
       "gateway":"trendmicro",
@@ -3369,6 +3546,7 @@
       ],
       "spf":"v=spf1 a mx ip4:149.72.46.236 ip4:213.21.210.8 ip4:80.232.208.36 ip4:31.24.195.5 ip4:31.24.195.35 -all",
       "provider":"baltic-isp",
+      "reason":"MX (mail.smiltene.lv) hosted on Baltic ISP (Lattelecom)",
       "osm_relation_id":14102180,
       "mx_asns":[
         12578
@@ -3385,6 +3563,7 @@
       ],
       "spf":"v=spf1 ip4:91.135.81.2  -all",
       "provider":"microsoft",
+      "reason":"MX (mail.tukums.lv) is self-hosted; autodiscover points to microsoft",
       "osm_relation_id":14102182,
       "mx_asns":[
         43513
@@ -3403,7 +3582,8 @@
         "mx.online.lv"
       ],
       "spf":"v=spf1 ip4:195.13.208.226 include:_spf.online.lv include:_spf.google.com  -all",
-      "provider":"baltic-isp",
+      "provider":"google",
+      "reason":"MX (mx.online.lv) is Baltic ISP; SPF authorizes google — hybrid relay setup",
       "osm_relation_id":14102181,
       "spf_resolved":"v=spf1 ip4:195.13.208.226 include:_spf.online.lv include:_spf.google.com  -all v=spf1 ip4:87.110.224.30 ip4:81.198.164.220 ip4:84.237.195.153/30 ip4:81.198.165.177/30 ip4:80.232.230.225/30 ip4:81.198.164.193 v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all",
       "mx_asns":[
@@ -3420,7 +3600,8 @@
         "mail2.valka.lv"
       ],
       "spf":"v=spf1 a ip4:91.105.203.0/25 ip4:194.19.240.38/32 ip4:194.19.240.43/32 a:valka.lv. a:mail.valka.lv. a:mail.telia.lv. ?all",
-      "provider":"independent",
+      "provider":"telia",
+      "reason":"MX (mail2.valka.lv) is self-hosted; SPF authorizes telia — hybrid relay setup",
       "osm_relation_id":14102183,
       "mx_asns":[
         199103
@@ -3437,6 +3618,7 @@
       ],
       "spf":"v=spf1 mx a ip4:194.19.240.45/32 ip4:194.19.240.43/32 ip4:194.19.240.38/32 ip4:194.19.240.38/32 ?all",
       "provider":"baltic-isp",
+      "reason":"MX (mx.varaklani.lv) hosted on Baltic ISP (LVRTC)",
       "osm_relation_id":14102185,
       "mx_asns":[
         12993
@@ -3454,6 +3636,7 @@
       ],
       "spf":"v=spf1 a mx ip4:94.140.104.171 ip4:193.200.201.80 ip4:193.200.201.100 ip4:94.140.104.17 ip4:94.140.104.200 include:spf.mandrillapp.com include:spf.protection.outlook.com include:venta.lv ~all",
       "provider":"microsoft",
+      "reason":"MX is barracuda gateway; SPF authorizes microsoft",
       "osm_relation_id":14102186,
       "spf_resolved":"v=spf1 a mx ip4:94.140.104.171 ip4:193.200.201.80 ip4:193.200.201.100 ip4:94.140.104.17 ip4:94.140.104.200 include:spf.mandrillapp.com include:spf.protection.outlook.com include:venta.lv ~all v=spf1 ip4:198.2.128.0/24 ip4:198.2.132.0/22 ip4:198.2.136.0/23 ip4:198.2.145.0/24 ip4:198.2.186.0/23 ip4:205.201.131.128/25 ip4:205.201.134.128/25 ip4:205.201.136.0/23 ip4:205.201.139.0/24 ip4:198.2.177.0/24 ip4:198.2.178.0/23 ip4:198.2.180.0/24 ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 a mx ip4:193.105.155.0/25 ip6:2001:67c:2980::/48  include:_spf.google.com -all v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all",
       "gateway":"barracuda",

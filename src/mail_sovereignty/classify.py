@@ -52,6 +52,17 @@ def _check_spf_for_provider(spf_blob: str) -> str | None:
     return None
 
 
+def _check_spf_all(
+    spf_record: str | None, resolved_spf: str | None
+) -> str | None:
+    """Check raw and resolved SPF for a provider keyword."""
+    spf_blob = (spf_record or "").lower()
+    provider = _check_spf_for_provider(spf_blob)
+    if not provider and resolved_spf:
+        provider = _check_spf_for_provider(resolved_spf.lower())
+    return provider
+
+
 def classify(
     mx_records: list[str],
     spf_record: str | None,
@@ -59,79 +70,106 @@ def classify(
     mx_asns: set[int] | None = None,
     resolved_spf: str | None = None,
     autodiscover: dict[str, str] | None = None,
-) -> str:
-    """Classify email provider based on MX, CNAME targets, and SPF.
+) -> tuple[str, str]:
+    """Classify email provider based on MX, CNAME targets, SPF, and autodiscover.
 
-    MX records are checked first (they show where mail is actually delivered).
-    CNAME targets of MX hosts are checked next (to detect hidden hyperscaler usage).
-    If MX points to a known gateway, SPF (including resolved includes) is checked
-    to identify the actual mailbox provider behind the gateway.
-    SPF is only used as fallback when MX alone is inconclusive.
+    Returns (provider, reason) where reason explains the classification decision.
+
+    Classification order:
+    1. MX hostname matches a known provider directly
+    2. CNAME of MX host resolves to a known provider
+    3. MX is a known gateway → check SPF/autodiscover for backend provider
+    4. MX is independent/Baltic ISP → check SPF/autodiscover for hybrid setups
+    5. No MX → fall back to SPF-only classification
+    6. Nothing matches → unknown
     """
     mx_blob = " ".join(mx_records).lower()
+    mx_display = ", ".join(mx_records[:2])
 
-    if any(k in mx_blob for k in MICROSOFT_KEYWORDS):
-        return "microsoft"
-    if any(k in mx_blob for k in GOOGLE_KEYWORDS):
-        return "google"
-    if any(k in mx_blob for k in ZONE_KEYWORDS):
-        return "zone"
-    if any(k in mx_blob for k in TELIA_KEYWORDS):
-        return "telia"
-    if any(k in mx_blob for k in TET_KEYWORDS):
-        return "tet"
-    if any(k in mx_blob for k in AWS_KEYWORDS):
-        return "aws"
+    # 1. Direct MX hostname match
+    for provider, keywords, label in [
+        ("microsoft", MICROSOFT_KEYWORDS, "Microsoft"),
+        ("google", GOOGLE_KEYWORDS, "Google"),
+        ("zone", ZONE_KEYWORDS, "Zone.eu"),
+        ("telia", TELIA_KEYWORDS, "Telia"),
+        ("tet", TET_KEYWORDS, "TET"),
+        ("aws", AWS_KEYWORDS, "AWS"),
+    ]:
+        if any(k in mx_blob for k in keywords):
+            return provider, f"MX record ({mx_display}) matches {label}"
 
+    # 2. CNAME resolution of MX hosts
     if mx_records and mx_cnames:
         cname_blob = " ".join(mx_cnames.values()).lower()
-        if any(k in cname_blob for k in MICROSOFT_KEYWORDS):
-            return "microsoft"
-        if any(k in cname_blob for k in GOOGLE_KEYWORDS):
-            return "google"
-        if any(k in cname_blob for k in ZONE_KEYWORDS):
-            return "zone"
-        if any(k in cname_blob for k in TELIA_KEYWORDS):
-            return "telia"
-        if any(k in cname_blob for k in TET_KEYWORDS):
-            return "tet"
-        if any(k in cname_blob for k in AWS_KEYWORDS):
-            return "aws"
+        for provider, keywords, label in [
+            ("microsoft", MICROSOFT_KEYWORDS, "Microsoft"),
+            ("google", GOOGLE_KEYWORDS, "Google"),
+            ("zone", ZONE_KEYWORDS, "Zone.eu"),
+            ("telia", TELIA_KEYWORDS, "Telia"),
+            ("tet", TET_KEYWORDS, "TET"),
+            ("aws", AWS_KEYWORDS, "AWS"),
+        ]:
+            if any(k in cname_blob for k in keywords):
+                cname_target = next(iter(mx_cnames.values()), "?")
+                return provider, f"MX CNAME ({cname_target}) resolves to {label}"
 
-    if mx_records and detect_gateway(mx_records):
-        spf_blob = (spf_record or "").lower()
-        provider = _check_spf_for_provider(spf_blob)
-        if not provider and resolved_spf:
-            provider = _check_spf_for_provider(resolved_spf.lower())
-        if provider:
-            return provider
-        # No hyperscaler in SPF — check autodiscover for backend provider
+    # 3. Known email gateway → look through to backend provider
+    gateway = detect_gateway(mx_records) if mx_records else None
+    if gateway:
+        spf_provider = _check_spf_all(spf_record, resolved_spf)
+        if spf_provider:
+            return spf_provider, (
+                f"MX is {gateway} gateway; SPF authorizes {spf_provider}"
+            )
         ad_provider = classify_from_autodiscover(autodiscover)
         if ad_provider:
-            return ad_provider
-        # Gateway relays to independent, fall through
+            return ad_provider, (
+                f"MX is {gateway} gateway; autodiscover points to {ad_provider}"
+            )
+        # Gateway relays to unknown backend — fall through to independent
 
+    # 4. MX exists but no direct provider match
     if mx_records:
-        if mx_asns and mx_asns & BALTIC_ISP_ASNS.keys():
-            # Check autodiscover for hyperscaler backend behind Baltic ISP relay
-            ad_provider = classify_from_autodiscover(autodiscover)
-            if ad_provider:
-                return ad_provider
-            return "baltic-isp"
-        # Check autodiscover for hyperscaler backend behind independent MX
+        # Check SPF for hyperscaler behind local/ISP relay
+        spf_provider = _check_spf_all(spf_record, resolved_spf)
         ad_provider = classify_from_autodiscover(autodiscover)
+
+        is_baltic_isp = bool(mx_asns and mx_asns & BALTIC_ISP_ASNS.keys())
+        local_label = "Baltic ISP" if is_baltic_isp else "self-hosted"
+
+        if spf_provider:
+            return spf_provider, (
+                f"MX ({mx_display}) is {local_label}; "
+                f"SPF authorizes {spf_provider} — hybrid relay setup"
+            )
         if ad_provider:
-            return ad_provider
-        return "independent"
+            return ad_provider, (
+                f"MX ({mx_display}) is {local_label}; "
+                f"autodiscover points to {ad_provider}"
+            )
 
-    spf_blob = (spf_record or "").lower()
-    provider = _check_spf_for_provider(spf_blob)
-    if not provider and resolved_spf:
-        provider = _check_spf_for_provider(resolved_spf.lower())
-    if provider:
-        return provider
+        if is_baltic_isp:
+            asn_names = [
+                BALTIC_ISP_ASNS[a]
+                for a in sorted(mx_asns & BALTIC_ISP_ASNS.keys())
+            ]
+            return "baltic-isp", (
+                f"MX ({mx_display}) hosted on Baltic ISP "
+                f"({', '.join(asn_names)})"
+            )
 
-    return "unknown"
+        return "independent", (
+            f"MX ({mx_display}) is self-hosted; "
+            f"no known provider in SPF or autodiscover"
+        )
+
+    # 5. No MX — SPF-only fallback
+    spf_provider = _check_spf_all(spf_record, resolved_spf)
+    if spf_provider:
+        return spf_provider, f"No MX records; classified via SPF ({spf_provider})"
+
+    # 6. Nothing
+    return "unknown", "No MX records and no recognized provider in SPF"
 
 
 def classify_from_mx(mx_records: list[str]) -> str | None:

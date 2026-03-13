@@ -19,7 +19,7 @@ GOOGLE_KEYWORDS = [
 AWS_KEYWORDS = ["amazonaws", "amazonses", "awsdns"]
 
 # Baltic-specific providers (replaces Infomaniak for Swiss)
-ZONE_KEYWORDS = ["zone.eu", "zone.ee", "zoneit.eu"]
+ZONE_KEYWORDS = ["zone.eu", "zone.ee", "zoneit.eu", "zonemx.eu"]
 TELIA_KEYWORDS = ["telia.ee", "telia.lt", "telia.lv", "telia.com"]
 TET_KEYWORDS = ["tet.lv"]
 

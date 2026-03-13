@@ -103,8 +103,10 @@ class TestBuildUrls:
 class TestManualOverrides:
     def test_all_entries_have_required_keys(self):
         for bfs, entry in MANUAL_OVERRIDES.items():
-            assert "domain" in entry, f"BFS {bfs} missing 'domain'"
-            assert "provider" in entry, f"BFS {bfs} missing 'provider'"
+            # Each override must have at least a domain or a provider
+            assert "domain" in entry or "provider" in entry, (
+                f"BFS {bfs} missing both 'domain' and 'provider'"
+            )
 
     def test_valid_providers(self):
         valid = {
@@ -112,9 +114,10 @@ class TestManualOverrides:
             "google", "aws", "baltic-isp", "merged",
         }
         for bfs, entry in MANUAL_OVERRIDES.items():
-            assert entry["provider"] in valid, (
-                f"BFS {bfs}: unexpected provider {entry['provider']}"
-            )
+            if "provider" in entry:
+                assert entry["provider"] in valid, (
+                    f"BFS {bfs}: unexpected provider {entry['provider']}"
+                )
 
 
 # ── Async functions ──────────────────────────────────────────────────

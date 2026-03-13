@@ -153,7 +153,7 @@ async def scan_municipality(
         mx_cnames = await resolve_mx_cnames(mx) if mx else {}
         mx_asns = await resolve_mx_asns(mx) if mx else set()
         autodiscover = await lookup_autodiscover(domain) if domain else {}
-        provider = classify(
+        provider, reason = classify(
             mx,
             spf,
             mx_cnames=mx_cnames,
@@ -172,6 +172,7 @@ async def scan_municipality(
             "mx": mx,
             "spf": spf,
             "provider": provider,
+            "reason": reason,
         }
         if m.get("osm_relation_id"):
             entry["osm_relation_id"] = m["osm_relation_id"]
