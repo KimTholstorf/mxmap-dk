@@ -297,10 +297,12 @@ function buildPopup(m) {
 
   let mxSection = '';
   if (cls.mx_records && cls.mx_records.length > 0) {
+    const countries = (m.mx_countries || []).join(', ');
+    const countryNote = countries ? ` <span style="font-size:11px;color:#999">server in ${escapeHtml(countries)}</span>` : '';
     const rows = cls.mx_records.map(r =>
       `<tr><td class="pri">${r.priority}</td><td class="host" title="${escapeHtml(r.host)}">${escapeHtml(r.host)}</td></tr>`
     ).join('');
-    mxSection = `<div class="popup-section"><div class="popup-section-title">Incoming mail <span class="popup-section-hint">(MX)</span></div><table class="dns-table">${rows}</table></div>`;
+    mxSection = `<div class="popup-section"><div class="popup-section-title">Incoming mail <span class="popup-section-hint">(MX)</span>${countryNote}</div><table class="dns-table">${rows}</table></div>`;
   }
 
   let spfSection = '';

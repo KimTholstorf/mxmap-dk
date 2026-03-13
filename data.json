@@ -1,11 +1,11 @@
 {
-  "generated":"2026-03-13T14:14:40Z",
+  "generated":"2026-03-13T14:24:57Z",
   "total":182,
   "counts":{
-    "baltic-isp":31,
+    "baltic-isp":30,
     "elkdata":2,
     "google":2,
-    "independent":37,
+    "independent":38,
     "microsoft":96,
     "telia":3,
     "zone":11
@@ -28,6 +28,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -49,6 +52,9 @@
       "mx_asns":[
         49604
       ],
+      "mx_countries":[
+        "EE"
+      ],
       "autodiscover":{
         "autodiscover_srv":"mailconfig.zone.eu"
       }
@@ -69,6 +75,9 @@
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com include:_netblocks.neti.ee include:sendgrid.net include:_spf.spin.ee ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:80.235.21.0/24 ip4:80.235.79.160/27 ip4:80.235.79.224/27 ip4:185.43.106.0/24 ip4:217.146.65.105 include:spf.mailcore.net include:sendgrid.net include:mail.zendesk.com ~all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:194.204.19.0/26 ip4:194.204.19.85/32 -all v=spf1 ip4:194.19.134.0/25 ip4:185.138.56.128/25 -all v=spf1 ip4:103.151.192.0/23 ip4:185.12.80.0/22 ip4:188.172.128.0/20 ip4:192.161.144.0/20 ip4:216.198.0.0/18 ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -93,6 +102,10 @@
         8075,
         49604
       ],
+      "mx_countries":[
+        "EE",
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com",
         "autodiscover_srv":"mailconfig.zone.eu"
@@ -115,6 +128,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -135,6 +151,9 @@
       "spf_resolved":"v=spf1 ip4:185.250.238.195 a mx include:spf.protection.outlook.com include:_spf.smaily.com a:smtp2.almic.ee -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:149.154.156.2/31 ip4:149.154.156.4/30 ip4:149.154.156.8/29 ip4:149.154.156.16/31 ip4:185.31.243.2/31 ip4:185.31.243.4/30 ip4:185.31.243.8/29 ip4:185.31.243.16/28 ip4:185.31.243.32/29 ip4:149.202.130.128/25 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -159,6 +178,10 @@
       "mx_asns":[
         52129
       ],
+      "mx_countries":[
+        "GB",
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -180,6 +203,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -200,6 +226,9 @@
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com",
@@ -223,6 +252,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -243,6 +275,9 @@
       "spf_resolved":"v=spf1 a:delta.andmevara.ee include:_spf.zone.eu include:spf.protection.outlook.com include:re.eenet.ee include:_spf.smaily.com -all v=spf1 ip4:217.146.64.0/20 ip4:185.31.240.0/22 ip4:85.222.232.0/22 ip4:85.234.242.0/23 ip4:85.234.244.0/22 ip6:2a02:29e8::/29 ip4:90.191.225.240/29 ip6:2001:7d0:d100:6::/64 ip4:90.191.225.208/28 ip4:87.119.168.48/29 ip4:217.68.24.144/29 ip4:45.151.4.0/23 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:193.40.0.42 ip6:2001:bb8:2001::25:42 ip4:193.40.0.43 ip6:2001:bb8:2001::25:43 ip4:193.40.0.44 ip6:2001:bb8:2001::25:44 ip4:193.40.0.15 ip6:2001:bb8:2001::15 -all v=spf1 ip4:149.154.156.2/31 ip4:149.154.156.4/30 ip4:149.154.156.8/29 ip4:149.154.156.16/31 ip4:185.31.243.2/31 ip4:185.31.243.4/30 ip4:185.31.243.8/29 ip4:185.31.243.16/28 ip4:185.31.243.32/29 ip4:149.202.130.128/25 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -265,6 +300,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -285,6 +323,9 @@
       "spf_resolved":"v=spf1 mx ip4:195.80.100.186 ip4:193.40.110.165 ip4:195.80.100.50 ip4:195.80.100.6 ip4:193.40.110.162 ip4:167.89.90.87 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -307,6 +348,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -327,6 +371,9 @@
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com include:_spf.zone.eu ip4:46.22.220.218 ip4:195.80.115.28 ip4:195.80.115.29 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:217.146.64.0/20 ip4:185.31.240.0/22 ip4:85.222.232.0/22 ip4:85.234.242.0/23 ip4:85.234.244.0/22 ip6:2a02:29e8::/29 ip4:90.191.225.240/29 ip6:2001:7d0:d100:6::/64 ip4:90.191.225.208/28 ip4:87.119.168.48/29 ip4:217.68.24.144/29 ip4:45.151.4.0/23 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -349,6 +396,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -370,6 +420,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -390,6 +443,9 @@
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com",
@@ -413,6 +469,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -433,6 +492,9 @@
       "spf_resolved":"v=spf1 a mx ip4:195.80.98.222  ip4:185.250.238.195 include:_netblocks.neti.ee include:spf.protection.outlook.com include:teliaklm.ee -all v=spf1 ip4:80.235.21.0/24 ip4:80.235.79.160/27 ip4:80.235.79.224/27 ip4:185.43.106.0/24 ip4:217.146.65.105 include:spf.mailcore.net include:sendgrid.net include:mail.zendesk.com ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:185.43.106.0/24 ip4:217.146.65.105 -all v=spf1 ip4:194.19.134.0/25 ip4:185.138.56.128/25 -all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:103.151.192.0/23 ip4:185.12.80.0/22 ip4:188.172.128.0/20 ip4:192.161.144.0/20 ip4:216.198.0.0/18 ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -455,6 +517,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -476,6 +541,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -495,6 +563,9 @@
       "osm_relation_id":2625875,
       "mx_asns":[
         49604
+      ],
+      "mx_countries":[
+        "EE"
       ]
     },
     "EE-0338":{
@@ -513,6 +584,9 @@
       "spf_resolved":"v=spf1  ip4:185.250.238.195 mx include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -535,6 +609,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -555,6 +632,9 @@
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com include:sendgrid.net ip4:185.250.238.195 ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -577,6 +657,9 @@
       "mx_asns":[
         49604
       ],
+      "mx_countries":[
+        "EE"
+      ],
       "autodiscover":{
         "autodiscover_srv":"mailconfig.zone.eu"
       }
@@ -597,6 +680,9 @@
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -619,6 +705,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -640,6 +729,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -660,6 +752,9 @@
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com ip4:213.35.185.34 ip4:80.235.126.234 include:mail.spf.elkdata.ee a:delta.andmevara.ee include:_spf.smaily.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 include:mh.spf.elkdata.ee ip4:194.106.101.168 ip4:185.7.252.120/29 ip4:185.7.252.64 ip4:185.7.252.68 ip4:185.7.252.69 ip4:85.194.200.192/26 -all v=spf1 ip4:149.154.156.2/31 ip4:149.154.156.4/30 ip4:149.154.156.8/29 ip4:149.154.156.16/31 ip4:185.31.243.2/31 ip4:185.31.243.4/30 ip4:185.31.243.8/29 ip4:185.31.243.16/28 ip4:185.31.243.32/29 ip4:149.202.130.128/25 -all v=spf1 ip4:185.7.252.14 ip4:185.7.252.160 ip4:185.7.252.15 ip4:185.7.252.75 ip4:185.7.252.76 ip4:185.7.252.16/28 ip4:185.7.252.32/29 ip4:85.194.202.0/25 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com",
@@ -683,6 +778,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -703,6 +801,9 @@
       "spf_resolved":"v=spf1 ip4:213.35.134.184/29 ip4:85.29.218.135 ip4:85.29.198.24 ip4:195.250.179.182 ip4:195.250.179.135 ip4:195.250.179.145 ip4:194.106.100.47 include:_spf.marjamaa.ee include:_spf1.marjamaa.ee include:_netblocks.neti.ee include:spf.protection.outlook.com include:teliaklm.ee -all v=spf1 ip4:185.250.238.195 ip4:217.159.196.196 ip4:195.250.179.143 ip4:195.250.179.218 ip4:80.235.7.239 ip4:195.250.179.161 ip4:195.250.179.164 ip4:195.250.179.198 ip4:195.250.166.32/29 ip4:80.235.7.243 ip4:84.50.108.64/29 ip4:185.94.112.71 ~all v=spf1 ip4:217.159.246.158 ip4:85.29.245.121 ip4:213.219.125.180 ip4:195.250.179.141 ip4:195.250.179.150 ip4:195.250.179.166 ip4:195.250.179.169 ip4:80.235.7.62 ip4:195.250.179.173 ip4:195.250.179.175 ip4:195.250.179.176 ip4:195.250.179.177 ip4:213.35.185.34 a:o1.smtp.interinx.com ~all v=spf1 ip4:80.235.21.0/24 ip4:80.235.79.160/27 ip4:80.235.79.224/27 ip4:185.43.106.0/24 ip4:217.146.65.105 include:spf.mailcore.net include:sendgrid.net include:mail.zendesk.com ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:185.43.106.0/24 ip4:217.146.65.105 -all v=spf1 ip4:194.19.134.0/25 ip4:185.138.56.128/25 -all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:103.151.192.0/23 ip4:185.12.80.0/22 ip4:188.172.128.0/20 ip4:192.161.144.0/20 ip4:216.198.0.0/18 ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
       "mx_asns":[
         3249
+      ],
+      "mx_countries":[
+        "EE"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -725,6 +826,9 @@
       "mx_asns":[
         216263
       ],
+      "mx_countries":[
+        "EE"
+      ],
       "autodiscover":{
         "autodiscover_srv":"cpanelemaildiscovery.cpanel.net"
       }
@@ -745,6 +849,9 @@
       "spf_resolved":"v=spf1 a mx a:smtp2.excellent.ee include:_spf.zone.eu ip4:167.89.90.87 ip4:185.250.238.195 include:spf.protection.outlook.com a:delta.andmevara.ee -all v=spf1 ip4:217.146.64.0/20 ip4:185.31.240.0/22 ip4:85.222.232.0/22 ip4:85.234.242.0/23 ip4:85.234.244.0/22 ip6:2a02:29e8::/29 ip4:90.191.225.240/29 ip6:2001:7d0:d100:6::/64 ip4:90.191.225.208/28 ip4:87.119.168.48/29 ip4:217.68.24.144/29 ip4:45.151.4.0/23 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         49604
+      ],
+      "mx_countries":[
+        "EE"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com",
@@ -768,6 +875,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -789,6 +899,9 @@
       "mx_asns":[
         3249,
         8240
+      ],
+      "mx_countries":[
+        "EE"
       ]
     },
     "EE-0514":{
@@ -807,6 +920,9 @@
       "spf_resolved":"v=spf1 a mx include:_spf.zone.eu ip4:167.89.90.87 -all v=spf1 ip4:217.146.64.0/20 ip4:185.31.240.0/22 ip4:85.222.232.0/22 ip4:85.234.242.0/23 ip4:85.234.244.0/22 ip6:2a02:29e8::/29 ip4:90.191.225.240/29 ip6:2001:7d0:d100:6::/64 ip4:90.191.225.208/28 ip4:87.119.168.48/29 ip4:217.68.24.144/29 ip4:45.151.4.0/23 -all",
       "mx_asns":[
         49604
+      ],
+      "mx_countries":[
+        "EE"
       ],
       "autodiscover":{
         "autodiscover_srv":"mailconfig.zone.eu"
@@ -829,6 +945,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -850,6 +969,9 @@
       "mx_asns":[
         49604
       ],
+      "mx_countries":[
+        "EE"
+      ],
       "autodiscover":{
         "autodiscover_srv":"mailconfig.zone.eu"
       }
@@ -870,6 +992,9 @@
       "spf_resolved":"v=spf1 +mx +a:delta.andmevara.ee +ip4:213.184.44.50 +ip4:80.79.114.202 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -893,6 +1018,9 @@
       "mx_asns":[
         61189
       ],
+      "mx_countries":[
+        "EE"
+      ],
       "autodiscover":{
         "autodiscover_srv":"webmail.veebimajutus.ee"
       }
@@ -913,6 +1041,9 @@
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com include:mailgun.org include:_spf.zone.eu ip4:85.234.244.117 ip4:85.234.244.116 ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 include:_spf.mailgun.org include:_spf.eu.mailgun.org -all v=spf1 ip4:217.146.64.0/20 ip4:185.31.240.0/22 ip4:85.222.232.0/22 ip4:85.234.242.0/23 ip4:85.234.244.0/22 ip6:2a02:29e8::/29 ip4:90.191.225.240/29 ip6:2001:7d0:d100:6::/64 ip4:90.191.225.208/28 ip4:87.119.168.48/29 ip4:217.68.24.144/29 ip4:45.151.4.0/23 -all v=spf1 include:_spf1.mailgun.org include:_spf2.mailgun.org ~all v=spf1 ip4:141.193.32.0/23 ip4:159.135.140.80/29 ip4:159.135.132.128/25 ip4:161.38.204.0/22 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:143.55.236.0/22 ip4:198.244.60.0/22 ip4:204.220.160.0/21 ~all v=spf1 ip4:209.61.151.0/24 ip4:166.78.68.0/22 ip4:198.61.254.0/23 ip4:192.237.158.0/23 ip4:23.253.182.0/23 ip4:104.130.96.0/28 ip4:146.20.113.0/24 ip4:146.20.191.0/24 ip4:159.135.224.0/20 ip4:69.72.32.0/20 ~all v=spf1 ip4:104.130.122.0/23 ip4:146.20.112.0/26 ip4:161.38.192.0/20 ip4:143.55.224.0/21 ip4:143.55.232.0/22 ip4:159.112.240.0/20 ip4:198.244.48.0/20 ip4:204.220.168.0/21 ip4:204.220.176.0/20 ~all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com",
@@ -936,6 +1067,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -956,6 +1090,9 @@
       "spf_resolved":"v=spf1 ip4:195.80.101.225/27 a:piksel.ee include:spf.protection.outlook.com include:_spf.smaily.com include:_netblocks.neti.ee include:sendgrid.net include:_spf.spin.ee include:_spf.zone.eu ip4:217.146.69.47 ip4:194.204.11.213 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:149.154.156.2/31 ip4:149.154.156.4/30 ip4:149.154.156.8/29 ip4:149.154.156.16/31 ip4:185.31.243.2/31 ip4:185.31.243.4/30 ip4:185.31.243.8/29 ip4:185.31.243.16/28 ip4:185.31.243.32/29 ip4:149.202.130.128/25 -all v=spf1 ip4:80.235.21.0/24 ip4:80.235.79.160/27 ip4:80.235.79.224/27 ip4:185.43.106.0/24 ip4:217.146.65.105 include:spf.mailcore.net include:sendgrid.net include:mail.zendesk.com ~all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:194.204.19.0/26 ip4:194.204.19.85/32 -all v=spf1 ip4:217.146.64.0/20 ip4:185.31.240.0/22 ip4:85.222.232.0/22 ip4:85.234.242.0/23 ip4:85.234.244.0/22 ip6:2a02:29e8::/29 ip4:90.191.225.240/29 ip6:2001:7d0:d100:6::/64 ip4:90.191.225.208/28 ip4:87.119.168.48/29 ip4:217.68.24.144/29 ip4:45.151.4.0/23 -all v=spf1 ip4:194.19.134.0/25 ip4:185.138.56.128/25 -all v=spf1 ip4:103.151.192.0/23 ip4:185.12.80.0/22 ip4:188.172.128.0/20 ip4:192.161.144.0/20 ip4:216.198.0.0/18 ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -978,6 +1115,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -998,6 +1138,9 @@
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com include:sendgrid.net -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -1020,6 +1163,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -1041,6 +1187,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -1061,6 +1210,9 @@
       "spf_resolved":"v=spf1 ip4:213.184.37.22 mx include:_netblocks.neti.ee a:piksel.ee ip4:185.250.238.195 include:mailgun.org include:spf.protection.outlook.com include:sendgrid.net include:teliaklm.ee -all v=spf1 ip4:80.235.21.0/24 ip4:80.235.79.160/27 ip4:80.235.79.224/27 ip4:185.43.106.0/24 ip4:217.146.65.105 include:spf.mailcore.net include:sendgrid.net include:mail.zendesk.com ~all v=spf1 include:_spf.mailgun.org include:_spf.eu.mailgun.org -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:185.43.106.0/24 ip4:217.146.65.105 -all v=spf1 ip4:194.19.134.0/25 ip4:185.138.56.128/25 -all v=spf1 ip4:103.151.192.0/23 ip4:185.12.80.0/22 ip4:188.172.128.0/20 ip4:192.161.144.0/20 ip4:216.198.0.0/18 ~all v=spf1 include:_spf1.mailgun.org include:_spf2.mailgun.org ~all v=spf1 ip4:141.193.32.0/23 ip4:159.135.140.80/29 ip4:159.135.132.128/25 ip4:161.38.204.0/22 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:143.55.236.0/22 ip4:198.244.60.0/22 ip4:204.220.160.0/21 ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
       "mx_asns":[
         3249
+      ],
+      "mx_countries":[
+        "EE"
       ]
     },
     "EE-0665":{
@@ -1079,6 +1231,9 @@
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com include:_netblocks.neti.ee include:sendgrid.net include:_spf.spin.ee ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:80.235.21.0/24 ip4:80.235.79.160/27 ip4:80.235.79.224/27 ip4:185.43.106.0/24 ip4:217.146.65.105 include:spf.mailcore.net include:sendgrid.net include:mail.zendesk.com ~all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:194.204.19.0/26 ip4:194.204.19.85/32 -all v=spf1 ip4:194.19.134.0/25 ip4:185.138.56.128/25 -all v=spf1 ip4:103.151.192.0/23 ip4:185.12.80.0/22 ip4:188.172.128.0/20 ip4:192.161.144.0/20 ip4:216.198.0.0/18 ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -1101,6 +1256,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -1122,6 +1280,9 @@
       "mx_asns":[
         49604
       ],
+      "mx_countries":[
+        "EE"
+      ],
       "autodiscover":{
         "autodiscover_srv":"mailconfig.zone.eu"
       }
@@ -1141,6 +1302,9 @@
       "osm_relation_id":8414598,
       "mx_asns":[
         16276
+      ],
+      "mx_countries":[
+        "CA"
       ]
     },
     "EE-0708":{
@@ -1159,6 +1323,9 @@
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com a:delta.andmevara.ee -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com",
@@ -1182,6 +1349,9 @@
       "mx_asns":[
         49604
       ],
+      "mx_countries":[
+        "EE"
+      ],
       "autodiscover":{
         "autodiscover_srv":"mailconfig.zone.eu"
       }
@@ -1202,6 +1372,9 @@
       "spf_resolved":"v=spf1 include:_vorgud.saaremaavald.ee include:_vorgud2.saaremaavald.ee include:spf.protection.outlook.com include:_spf.smaily.com a:delta.andmevara.ee a:pbx.saaremaavald.ee -all v=spf1 ip4:195.80.96.98 ip4:195.80.96.106 ip4:195.80.110.74 ip4:195.80.98.123 ip4:195.80.97.129 ip4:213.219.93.218 ip4:195.80.96.114 ip4:195.80.114.101 ip4:195.80.114.54 ip4:195.80.114.75 -all v=spf1 ip4:90.190.96.26 ip4:213.184.45.69 ip4:193.40.180.96/29 ip4:213.219.77.74 ip4:195.80.110.10 ip4:213.184.45.64/28 ip4:213.184.45.152/29 ip4:195.80.114.248/29 ip4:62.65.40.242 ip4:193.40.164.123 ip4:193.40.164.124 ip4:193.40.164.125 ip4:217.159.201.70 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:149.154.156.2/31 ip4:149.154.156.4/30 ip4:149.154.156.8/29 ip4:149.154.156.16/31 ip4:185.31.243.2/31 ip4:185.31.243.4/30 ip4:185.31.243.8/29 ip4:185.31.243.16/28 ip4:185.31.243.32/29 ip4:149.202.130.128/25 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -1224,6 +1397,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -1244,6 +1420,9 @@
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com include:fsspfeuc.freshemail.io ip4:195.80.126.224/28 ip4:88.196.175.88/29 ip4:195.222.0.3 ip4:217.159.201.70  include:spf.mailjet.com  include:_spf.smaily.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:3.120.181.200/29 ip4:35.159.219.224/28 ip4:18.199.180.160/27 ~all v=spf1 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:45.14.148.0/22 ~all v=spf1 ip4:149.154.156.2/31 ip4:149.154.156.4/30 ip4:149.154.156.8/29 ip4:149.154.156.16/31 ip4:185.31.243.2/31 ip4:185.31.243.4/30 ip4:185.31.243.8/29 ip4:185.31.243.16/28 ip4:185.31.243.32/29 ip4:149.202.130.128/25 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -1266,6 +1445,9 @@
       "spf_resolved":"v=spf1 a mx include:mail.spf.elkdata.ee ip4:213.35.185.34 ip4:185.250.238.195 include:mailgun.org include:_spf.smaily.com ~all v=spf1 include:mh.spf.elkdata.ee ip4:194.106.101.168 ip4:185.7.252.120/29 ip4:185.7.252.64 ip4:185.7.252.68 ip4:185.7.252.69 ip4:85.194.200.192/26 -all v=spf1 include:_spf.mailgun.org include:_spf.eu.mailgun.org -all v=spf1 ip4:149.154.156.2/31 ip4:149.154.156.4/30 ip4:149.154.156.8/29 ip4:149.154.156.16/31 ip4:185.31.243.2/31 ip4:185.31.243.4/30 ip4:185.31.243.8/29 ip4:185.31.243.16/28 ip4:185.31.243.32/29 ip4:149.202.130.128/25 -all v=spf1 ip4:185.7.252.14 ip4:185.7.252.160 ip4:185.7.252.15 ip4:185.7.252.75 ip4:185.7.252.76 ip4:185.7.252.16/28 ip4:185.7.252.32/29 ip4:85.194.202.0/25 -all v=spf1 include:_spf1.mailgun.org include:_spf2.mailgun.org ~all v=spf1 ip4:141.193.32.0/23 ip4:159.135.140.80/29 ip4:159.135.132.128/25 ip4:161.38.204.0/22 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:143.55.236.0/22 ip4:198.244.60.0/22 ip4:204.220.160.0/21 ~all v=spf1 ip4:209.61.151.0/24 ip4:166.78.68.0/22 ip4:198.61.254.0/23 ip4:192.237.158.0/23 ip4:23.253.182.0/23 ip4:104.130.96.0/28 ip4:146.20.113.0/24 ip4:146.20.191.0/24 ip4:159.135.224.0/20 ip4:69.72.32.0/20 ~all v=spf1 ip4:104.130.122.0/23 ip4:146.20.112.0/26 ip4:161.38.192.0/20 ip4:143.55.224.0/21 ip4:143.55.232.0/22 ip4:159.112.240.0/20 ip4:198.244.48.0/20 ip4:204.220.168.0/21 ip4:204.220.176.0/20 ~all",
       "mx_asns":[
         61189
+      ],
+      "mx_countries":[
+        "EE"
       ]
     },
     "EE-0735":{
@@ -1284,6 +1466,9 @@
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com a:delta.andmevara.ee -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com",
@@ -1308,6 +1493,9 @@
       "mx_asns":[
         3249
       ],
+      "mx_countries":[
+        "EE"
+      ],
       "autodiscover":{
         "autodiscover_cname":"webmail.tallinn.ee",
         "autodiscover_srv":"webmail.tallinn.ee"
@@ -1330,6 +1518,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -1350,6 +1541,9 @@
       "spf_resolved":"v=spf1 a mx ip4:195.80.116.148 ip4:195.80.116.156 ip4:194.204.19.38/32 include:spf.protection.outlook.com include:_spf.atlassian.net ip4:213.184.43.22/32 ip4:213.184.43.23/32 ip4:213.184.43.28/32 ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:167.89.0.0/17 ip4:168.245.0.0/17 include:amazonses.com -all v=spf1 ip4:199.255.192.0/22 ip4:199.127.232.0/22 ip4:54.240.0.0/18 ip4:69.169.224.0/20 ip4:23.249.208.0/20 ip4:23.251.224.0/19 ip4:76.223.176.0/20 ip4:54.240.64.0/18 ip4:76.223.128.0/19 ip4:216.221.160.0/19 ip4:206.55.144.0/20 ip4:24.110.64.0/18 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -1372,6 +1566,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -1392,6 +1589,9 @@
       "spf_resolved":"v=spf1 a mx a:mail.neti.ee a:mail.webware.ee ip4:213.219.98.120/29 include:_spf.zone.eu ~all v=spf1 ip4:217.146.64.0/20 ip4:185.31.240.0/22 ip4:85.222.232.0/22 ip4:85.234.242.0/23 ip4:85.234.244.0/22 ip6:2a02:29e8::/29 ip4:90.191.225.240/29 ip6:2001:7d0:d100:6::/64 ip4:90.191.225.208/28 ip4:87.119.168.48/29 ip4:217.68.24.144/29 ip4:45.151.4.0/23 -all",
       "mx_asns":[
         49604
+      ],
+      "mx_countries":[
+        "EE"
       ],
       "autodiscover":{
         "autodiscover_srv":"mailconfig.zone.eu"
@@ -1414,6 +1614,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -1434,6 +1637,9 @@
       "spf_resolved":"v=spf1 mx ip4:213.184.32.86 ip4:193.40.178.82 ip4:213.35.185.34 ip4:195.80.122.82 ip4:209.250.243.78 ip4:54.210.254.128/25 ip4:65.21.183.189 a:delta.andmevara.ee include:spf.protection.outlook.com include:teliaklm.ee include:_spf.smaily.com include:_netblocks2.neti.ee -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:185.43.106.0/24 ip4:217.146.65.105 -all v=spf1 ip4:149.154.156.2/31 ip4:149.154.156.4/30 ip4:149.154.156.8/29 ip4:149.154.156.16/31 ip4:185.31.243.2/31 ip4:185.31.243.4/30 ip4:185.31.243.8/29 ip4:185.31.243.16/28 ip4:185.31.243.32/29 ip4:149.202.130.128/25 -all v=spf1 ip4:80.235.21.0/24 ip4:80.235.79.160/27 ip4:80.235.79.224/27 ip4:185.43.106.0/24 ip4:217.146.65.105 -all",
       "mx_asns":[
         3249
+      ],
+      "mx_countries":[
+        "EE"
       ]
     },
     "EE-0834":{
@@ -1452,6 +1658,9 @@
       "spf_resolved":"v=spf1 a:esta.tyri.ee include:spf.protection.outlook.com ip4:213.35.185.34 ip4:217.159.236.90 ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -1474,6 +1683,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -1494,6 +1706,9 @@
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com",
@@ -1517,6 +1732,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -1538,6 +1756,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -1558,6 +1779,9 @@
       "spf_resolved":"v=spf1 a mx include:_spf.zone.eu -all v=spf1 ip4:217.146.64.0/20 ip4:185.31.240.0/22 ip4:85.222.232.0/22 ip4:85.234.242.0/23 ip4:85.234.244.0/22 ip6:2a02:29e8::/29 ip4:90.191.225.240/29 ip6:2001:7d0:d100:6::/64 ip4:90.191.225.208/28 ip4:87.119.168.48/29 ip4:217.68.24.144/29 ip4:45.151.4.0/23 -all",
       "mx_asns":[
         49604
+      ],
+      "mx_countries":[
+        "EE"
       ]
     },
     "EE-0890":{
@@ -1576,6 +1800,9 @@
       "spf_resolved":"v=spf1 ip4:185.250.238.195 include:spf.protection.outlook.com include:_spf.spin.ee include:mailgun.org -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:194.204.19.0/26 ip4:194.204.19.85/32 -all v=spf1 include:_spf.mailgun.org include:_spf.eu.mailgun.org -all v=spf1 include:_spf1.mailgun.org include:_spf2.mailgun.org ~all v=spf1 ip4:141.193.32.0/23 ip4:159.135.140.80/29 ip4:159.135.132.128/25 ip4:161.38.204.0/22 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:143.55.236.0/22 ip4:198.244.60.0/22 ip4:204.220.160.0/21 ~all v=spf1 ip4:209.61.151.0/24 ip4:166.78.68.0/22 ip4:198.61.254.0/23 ip4:192.237.158.0/23 ip4:23.253.182.0/23 ip4:104.130.96.0/28 ip4:146.20.113.0/24 ip4:146.20.191.0/24 ip4:159.135.224.0/20 ip4:69.72.32.0/20 ~all v=spf1 ip4:104.130.122.0/23 ip4:146.20.112.0/26 ip4:161.38.192.0/20 ip4:143.55.224.0/21 ip4:143.55.232.0/22 ip4:159.112.240.0/20 ip4:198.244.48.0/20 ip4:204.220.168.0/21 ip4:204.220.176.0/20 ~all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -1598,6 +1825,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -1619,6 +1849,9 @@
       "mx_asns":[
         49604
       ],
+      "mx_countries":[
+        "EE"
+      ],
       "autodiscover":{
         "autodiscover_srv":"mailconfig.zone.eu"
       }
@@ -1639,6 +1872,9 @@
       "spf_resolved":"v=spf1 redirect=_spf.voru.ee v=spf1 ip4:195.80.124.2/32 ip4:195.80.113.56/29 ip4:193.40.104.35/32 ip4:185.7.252.75/32 ip4:193.40.0.43/32 -all",
       "mx_asns":[
         8240
+      ],
+      "mx_countries":[
+        "EE"
       ]
     },
     "EE-0919":{
@@ -1657,6 +1893,9 @@
       "spf_resolved":"v=spf1 mx include:spf.protection.outlook.com a:piksel.ee -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -1679,6 +1918,9 @@
       "mx_asns":[
         15419
       ],
+      "mx_countries":[
+        "LT"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -1699,6 +1941,9 @@
       "osm_relation_id":1085091,
       "mx_asns":[
         6769
+      ],
+      "mx_countries":[
+        "LT"
       ],
       "autodiscover":{
         "autodiscover_cname":"mail.alytus.lt"
@@ -1723,6 +1968,10 @@
         8075,
         15419
       ],
+      "mx_countries":[
+        "LT",
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -1742,6 +1991,9 @@
       "osm_relation_id":1002204,
       "mx_asns":[
         15419
+      ],
+      "mx_countries":[
+        "LT"
       ]
     },
     "LT-05":{
@@ -1760,6 +2012,9 @@
       "spf_resolved":"v=spf1 mx:2v.lt include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -1781,6 +2036,9 @@
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -1804,6 +2062,9 @@
       "mx_asns":[
         15440
       ],
+      "mx_countries":[
+        "LT"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -1824,6 +2085,9 @@
       "spf_resolved":"v=spf1 ip4:195.182.87.3 ip4:195.182.87.11 ip4:195.182.87.5 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -1846,6 +2110,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -1866,6 +2133,9 @@
       "spf_resolved":"v=spf1 +a +mx +ip4:89.116.41.33 +include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         15419
+      ],
+      "mx_countries":[
+        "LT"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -1890,6 +2160,10 @@
         8075,
         15419
       ],
+      "mx_countries":[
+        "LT",
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -1909,6 +2183,9 @@
       "osm_relation_id":1518458,
       "mx_asns":[
         15419
+      ],
+      "mx_countries":[
+        "LT"
       ]
     },
     "LT-13":{
@@ -1927,6 +2204,9 @@
       "spf_resolved":"v=spf1 a a:blade2.is.lt ip4:195.182.81.34 ip4:195.182.79.114 ip4:89.117.128.113 ip4:82.140.132.73 ip4:82.140.132.201 ip4:82.140.132.202 ip4:82.140.132.203 ip4:86.38.176.249 ip4:86.38.176.250 ip4:86.38.176.251 ip4:20.50.183.148 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -1951,6 +2231,10 @@
         8075,
         15419
       ],
+      "mx_countries":[
+        "LT",
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -1971,6 +2255,9 @@
       "spf_resolved":"v=spf1 ip4:195.182.73.64/26 ip4:195.182.72.64/27 ip4:88.118.135.10/32 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com",
@@ -1994,6 +2281,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -2014,6 +2304,9 @@
       "spf_resolved":"v=spf1 include:spf.serveriai.lt ip4:195.182.81.34 ip4:195.182.86.72 -all v=spf1 ip4:31.14.176.0/22 ip4:62.77.152.0/21 ip4:79.98.24.0/21 ip4:80.208.224.0/21 ip4:80.209.224.0/20 ip4:89.40.0.0/20 ip4:89.47.160.0/21 ip4:94.176.232.0/21 ip4:109.235.64.0/21 ip4:176.223.128.0/20 ip4:185.5.52.0/22 ip4:185.69.52.0/22 ip4:185.81.164.0/22 ip4:194.135.80.0/20 ip4:195.181.240.0/21 ip4:212.24.96.0/20 ip4:212.237.232.0/22 -all",
       "mx_asns":[
         212531
+      ],
+      "mx_countries":[
+        "LT"
       ]
     },
     "LT-18":{
@@ -2032,6 +2325,9 @@
       "spf_resolved":"v=spf1 +mx +a +ip4:89.116.41.10 +ip4:89.116.15.130 +ip4:195.182.73.194 +include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         15419
+      ],
+      "mx_countries":[
+        "LT"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -2052,6 +2348,9 @@
       "osm_relation_id":1307307,
       "mx_asns":[
         15419
+      ],
+      "mx_countries":[
+        "LT"
       ]
     },
     "LT-20":{
@@ -2070,6 +2369,9 @@
       "spf_resolved":"v=spf1 ip4:195.182.76.0/28 a mx include:amazonses.com include:spf.protection.outlook.com include:sendgrid.net include:_spf.firebasemail.com ~all v=spf1 ip4:199.255.192.0/22 ip4:199.127.232.0/22 ip4:54.240.0.0/18 ip4:69.169.224.0/20 ip4:23.249.208.0/20 ip4:23.251.224.0/19 ip4:76.223.176.0/20 ip4:54.240.64.0/18 ip4:76.223.128.0/19 ip4:216.221.160.0/19 ip4:206.55.144.0/20 ip4:24.110.64.0/18 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 include:sendgrid.net include:_spf.google.com ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"mail.klaipeda.lt"
@@ -2092,6 +2394,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -2111,6 +2416,9 @@
       "osm_relation_id":1022102,
       "mx_asns":[
         6769
+      ],
+      "mx_countries":[
+        "LT"
       ]
     },
     "LT-23":{
@@ -2128,6 +2436,9 @@
       "osm_relation_id":1111075,
       "mx_asns":[
         6769
+      ],
+      "mx_countries":[
+        "LT"
       ]
     },
     "LT-24":{
@@ -2146,6 +2457,9 @@
       "spf_resolved":"v=spf1 ip4:195.182.87.3 ip4:195.182.87.11 ip4:195.182.87.5 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -2168,6 +2482,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -2187,6 +2504,9 @@
       "osm_relation_id":1211023,
       "mx_asns":[
         15419
+      ],
+      "mx_countries":[
+        "LT"
       ]
     },
     "LT-27":{
@@ -2205,6 +2525,9 @@
       "spf_resolved":"v=spf1 a:mail.moletai.lt include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -2225,6 +2548,9 @@
       "osm_relation_id":1078733,
       "mx_asns":[
         15419
+      ],
+      "mx_countries":[
+        "LT"
       ]
     },
     "LT-29":{
@@ -2243,6 +2569,9 @@
       "spf_resolved":"v=spf1 +a +mx include:_spf.sender.hostex.lt -all v=spf1 +a:sender-spf.hostex.lt +a:pastas.hostex.lt +a:mailgw.hostex.lt +ip4:92.61.46.248 ?all",
       "mx_asns":[
         43811
+      ],
+      "mx_countries":[
+        "LT"
       ]
     },
     "LT-30":{
@@ -2260,6 +2589,9 @@
       "osm_relation_id":1256234,
       "mx_asns":[
         15419
+      ],
+      "mx_countries":[
+        "LT"
       ]
     },
     "LT-31":{
@@ -2278,6 +2610,9 @@
       "spf_resolved":"v=spf1 ip4:195.182.88.82 ip4:195.182.88.84 ip4:195.182.88.92 ip4:195.182.88.93 ip4:195.182.88.94 ip4:195.182.88.87 ip4:195.182.88.89 ip4:79.142.118.180 ip4:168.245.58.22 ip4:195.182.88.91 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -2298,6 +2633,9 @@
       "osm_relation_id":968945,
       "mx_asns":[
         6769
+      ],
+      "mx_countries":[
+        "LT"
       ]
     },
     "LT-33":{
@@ -2315,6 +2653,9 @@
       "osm_relation_id":1028505,
       "mx_asns":[
         6769
+      ],
+      "mx_countries":[
+        "LT"
       ]
     },
     "LT-34":{
@@ -2332,6 +2673,9 @@
       "osm_relation_id":1130030,
       "mx_asns":[
         6769
+      ],
+      "mx_countries":[
+        "LT"
       ]
     },
     "LT-35":{
@@ -2349,6 +2693,9 @@
       "osm_relation_id":1360452,
       "mx_asns":[
         6769
+      ],
+      "mx_countries":[
+        "LT"
       ]
     },
     "LT-36":{
@@ -2367,6 +2714,9 @@
       "spf_resolved":"v=spf1 +mx +a +ip4:89.116.15.136 +ip4:86.38.8.113 +include:_spf.google.com -all v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all",
       "mx_asns":[
         15419
+      ],
+      "mx_countries":[
+        "LT"
       ]
     },
     "LT-37":{
@@ -2385,6 +2735,9 @@
       "spf_resolved":"v=spf1 +mx +a +include:spf.protection.outlook.com +ip4:89.116.15.135 +ip4:86.38.8.113 +ip4:195.182.70.34 +include:_spf.google.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -2405,6 +2758,9 @@
       "osm_relation_id":1476170,
       "mx_asns":[
         15419
+      ],
+      "mx_countries":[
+        "LT"
       ]
     },
     "LT-39":{
@@ -2422,6 +2778,9 @@
       "osm_relation_id":1129075,
       "mx_asns":[
         15419
+      ],
+      "mx_countries":[
+        "LT"
       ]
     },
     "LT-40":{
@@ -2440,6 +2799,9 @@
       "spf_resolved":"v=spf1 a mx a:hostingas.telecentras.lt ip4:86.38.8.113 ip4:79.98.26.21 ip4:89.116.15.178 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ]
     },
     "LT-41":{
@@ -2457,6 +2819,9 @@
       "osm_relation_id":966581,
       "mx_asns":[
         6769
+      ],
+      "mx_countries":[
+        "LT"
       ]
     },
     "LT-42":{
@@ -2475,6 +2840,9 @@
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com ip4:195.182.87.3 ip4:195.182.87.11 ip4:195.182.87.5 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -2496,6 +2864,9 @@
       "spf_resolved":"v=spf1 mx ip4:195.182.80.1 ip4:195.182.80.2 include:_spf.google.com -all v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all",
       "mx_asns":[
         6769
+      ],
+      "mx_countries":[
+        "LT"
       ]
     },
     "LT-44":{
@@ -2513,6 +2884,9 @@
       "osm_relation_id":1256236,
       "mx_asns":[
         13194
+      ],
+      "mx_countries":[
+        "LT"
       ]
     },
     "LT-45":{
@@ -2532,6 +2906,9 @@
       "spf_resolved":"v=spf1 a mx ptr redirect=spf.serveriai.lt v=spf1 ip4:31.14.176.0/22 ip4:62.77.152.0/21 ip4:79.98.24.0/21 ip4:80.208.224.0/21 ip4:80.209.224.0/20 ip4:89.40.0.0/20 ip4:89.47.160.0/21 ip4:94.176.232.0/21 ip4:109.235.64.0/21 ip4:176.223.128.0/20 ip4:185.5.52.0/22 ip4:185.69.52.0/22 ip4:185.81.164.0/22 ip4:194.135.80.0/20 ip4:195.181.240.0/21 ip4:212.24.96.0/20 ip4:212.237.232.0/22 -all",
       "mx_asns":[
         212531
+      ],
+      "mx_countries":[
+        "LT"
       ]
     },
     "LT-46":{
@@ -2549,6 +2926,9 @@
       "osm_relation_id":1203041,
       "mx_asns":[
         15419
+      ],
+      "mx_countries":[
+        "LT"
       ]
     },
     "LT-47":{
@@ -2567,6 +2947,9 @@
       "spf_resolved":"v=spf1 +mx +a +ip4:89.116.15.162 +ip4:86.38.8.113 +include:_spf.google.com -all v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all",
       "mx_asns":[
         15419
+      ],
+      "mx_countries":[
+        "LT"
       ]
     },
     "LT-48":{
@@ -2584,6 +2967,9 @@
       "osm_relation_id":1203042,
       "mx_asns":[
         15419
+      ],
+      "mx_countries":[
+        "LT"
       ]
     },
     "LT-49":{
@@ -2601,6 +2987,9 @@
       "osm_relation_id":967318,
       "mx_asns":[
         15419
+      ],
+      "mx_countries":[
+        "LT"
       ]
     },
     "LT-50":{
@@ -2619,6 +3008,9 @@
       "spf_resolved":"v=spf1 include:_spf.mlsend.com ip4:89.116.15.221 include:spf.protection.outlook.com ip4:195.182.91.18 ip4:86.38.8.113 -all v=spf1 ip4:185.249.220.0/24 ip4:185.225.161.0/24 ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -2639,6 +3031,9 @@
       "osm_relation_id":1360453,
       "mx_asns":[
         15419
+      ],
+      "mx_countries":[
+        "LT"
       ]
     },
     "LT-52":{
@@ -2657,6 +3052,9 @@
       "spf_resolved":"v=spf1 ip4:195.182.87.5 ip4:195.182.87.11 ip4:195.182.87.31 ip4:195.182.87.39 ip4:89.116.15.179 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -2677,6 +3075,9 @@
       "osm_relation_id":1027570,
       "mx_asns":[
         15419
+      ],
+      "mx_countries":[
+        "LT"
       ]
     },
     "LT-54":{
@@ -2698,6 +3099,10 @@
         8075,
         15419
       ],
+      "mx_countries":[
+        "LT",
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -2717,6 +3122,9 @@
       "osm_relation_id":1076929,
       "mx_asns":[
         15419
+      ],
+      "mx_countries":[
+        "LT"
       ]
     },
     "LT-56":{
@@ -2734,6 +3142,9 @@
       "osm_relation_id":966580,
       "mx_asns":[
         6769
+      ],
+      "mx_countries":[
+        "LT"
       ]
     },
     "LT-57":{
@@ -2752,6 +3163,9 @@
       "spf_resolved":"v=spf1 include:_spf.mlsend.com include:spf.protection.outlook.com a mx ip4:195.182.82.94 ip4:195.182.91.224 include:spf.vilnius.lm.lt include:privacios.vilnius.lm.lt -all v=spf1 ip4:185.249.220.0/24 ip4:185.225.161.0/24 ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:193.219.80.0/22 ip4:158.129.128.0/18 -all v=spf1 mx include:spf1.vilnius.lm.lt v=spf1  ip4:193.219.80.0/22 ip4:158.129.128.0/18 ip4:79.98.26.8 a:darzeliai.is.lt a:outmail.is.lt -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -2774,6 +3188,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -2794,6 +3211,9 @@
       "spf_resolved":"v=spf1 a mx ip4:195.182.88.160/28 ip4:89.116.15.0/24 include:cphostingas.telecentras.lt include:spf.serveriai.lt -all v=spf1 +mx +a +ip4:89.116.15.129 ~all v=spf1 ip4:31.14.176.0/22 ip4:62.77.152.0/21 ip4:79.98.24.0/21 ip4:80.208.224.0/21 ip4:80.209.224.0/20 ip4:89.40.0.0/20 ip4:89.47.160.0/21 ip4:94.176.232.0/21 ip4:109.235.64.0/21 ip4:176.223.128.0/20 ip4:185.5.52.0/22 ip4:185.69.52.0/22 ip4:185.81.164.0/22 ip4:194.135.80.0/20 ip4:195.181.240.0/21 ip4:212.24.96.0/20 ip4:212.237.232.0/22 -all",
       "mx_asns":[
         212531
+      ],
+      "mx_countries":[
+        "LT"
       ]
     },
     "LT-60":{
@@ -2812,6 +3232,9 @@
       "spf_resolved":"v=spf1 mx redirect=spf.serveriai.lt -all v=spf1 ip4:31.14.176.0/22 ip4:62.77.152.0/21 ip4:79.98.24.0/21 ip4:80.208.224.0/21 ip4:80.209.224.0/20 ip4:89.40.0.0/20 ip4:89.47.160.0/21 ip4:94.176.232.0/21 ip4:109.235.64.0/21 ip4:176.223.128.0/20 ip4:185.5.52.0/22 ip4:185.69.52.0/22 ip4:185.81.164.0/22 ip4:194.135.80.0/20 ip4:195.181.240.0/21 ip4:212.24.96.0/20 ip4:212.237.232.0/22 -all",
       "mx_asns":[
         212531
+      ],
+      "mx_countries":[
+        "LT"
       ]
     },
     "LV-0001":{
@@ -2830,6 +3253,9 @@
       "spf_resolved":"v=spf1 mx ip4:213.175.127.33 ip4:213.175.124.130 ip4:213.175.124.138 ip4:213.175.127.3 include:spf.protection.outlook.com include:spf.sendinblue.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:185.41.28.0/22 ip4:94.143.16.0/21 ip4:185.24.144.0/22 ip4:153.92.224.0/19 ip4:213.32.128.0/18 ip4:185.107.232.0/22 ip4:77.32.128.0/18 ip4:77.32.192.0/19 ip4:212.146.192.0/18 ip4:172.246.0.0/18 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ]
     },
     "LV-0005":{
@@ -2848,6 +3274,9 @@
       "spf_resolved":"v=spf1 include:_spf.mlsend.com ip4:78.28.205.254 a mx ~all v=spf1 ip4:185.249.220.0/24 ip4:185.225.161.0/24 ~all",
       "mx_asns":[
         5518
+      ],
+      "mx_countries":[
+        "LV"
       ]
     },
     "LV-0009":{
@@ -2865,6 +3294,9 @@
       "osm_relation_id":2219894,
       "mx_asns":[
         5518
+      ],
+      "mx_countries":[
+        "LV"
       ]
     },
     "LV-0013":{
@@ -2883,6 +3315,9 @@
       "spf_resolved":"v=spf1 ip4:87.246.161.41 ip4:87.246.161.6 a:smtp01.emea.sabacloud.com include:spf.protection.outlook.com include:_spf.smaily.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:149.154.156.2/31 ip4:149.154.156.4/30 ip4:149.154.156.8/29 ip4:149.154.156.16/31 ip4:185.31.243.2/31 ip4:185.31.243.4/30 ip4:185.31.243.8/29 ip4:185.31.243.16/28 ip4:185.31.243.32/29 ip4:149.202.130.128/25 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"epasts.jpd.gov.lv"
@@ -2904,6 +3339,9 @@
       "spf_resolved":"v=spf1 include:_spf.mlsend.com include:eu-west-1.amazonses.com ip4:80.232.164.128/27 ip4:54.240.4.15 ip4:80.232.237.216/29 ~all v=spf1 ip4:185.249.220.0/24 ip4:185.225.161.0/24 ~all v=spf1 include:amazonses.com -all v=spf1 ip4:199.255.192.0/22 ip4:199.127.232.0/22 ip4:54.240.0.0/18 ip4:69.169.224.0/20 ip4:23.249.208.0/20 ip4:23.251.224.0/19 ip4:76.223.176.0/20 ip4:54.240.64.0/18 ip4:76.223.128.0/19 ip4:216.221.160.0/19 ip4:206.55.144.0/20 ip4:24.110.64.0/18 -all",
       "mx_asns":[
         12578
+      ],
+      "mx_countries":[
+        "LV"
       ]
     },
     "LV-0021":{
@@ -2921,6 +3359,9 @@
       "osm_relation_id":2220728,
       "mx_asns":[
         5518
+      ],
+      "mx_countries":[
+        "LV"
       ]
     },
     "LV-0027":{
@@ -2941,6 +3382,9 @@
       "gateway":"barracuda",
       "mx_asns":[
         16509
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"mx.ventspils.lv",
@@ -2963,6 +3407,9 @@
       "mx_asns":[
         12578
       ],
+      "mx_countries":[
+        "LV"
+      ],
       "autodiscover":{
         "autodiscover_srv":"pasts.augsdaugavasnovads.lv"
       }
@@ -2983,6 +3430,9 @@
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -3008,6 +3458,9 @@
       "spf_resolved":"v=spf1 include:_spf.mlsend.com ip4:213.21.210.8 ip4:13.80.21.191 ip4:78.28.242.87 include:_spf.google.com -all v=spf1 ip4:185.249.220.0/24 ip4:185.225.161.0/24 ~all v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all",
       "mx_asns":[
         15169
+      ],
+      "mx_countries":[
+        "US"
       ]
     },
     "LV-0326":{
@@ -3026,6 +3479,9 @@
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com ip4:195.13.251.14 ip4:84.237.246.50 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -3047,6 +3503,9 @@
       "spf_resolved":"v=spf1 ip4:195.122.28.139 include:_spf.google.com -all v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all",
       "mx_asns":[
         12578
+      ],
+      "mx_countries":[
+        "LV"
       ]
     },
     "LV-0386":{
@@ -3066,6 +3525,9 @@
       "spf_resolved":"v=spf1 include:spf.protect.sigmanet.lv -all v=spf1 ip4:92.240.66.0/24 ip4:92.240.65.0/24 ip4:92.240.72.0/24 ip4:92.240.80.54 ip4:92.240.80.58 ip4:92.240.80.57 ip4:92.240.80.53 ip4:92.240.80.63 ip4:92.240.80.64 ip4:92.240.80.69 ip4:92.240.80.68 include:spf2.protect.sigmanet.lv -all v=spf1 ip6:2a02:500:4500:b::1 ip6:2a02:500:4500:b::2 ip6:2a02:500:4500:b::3 ip6:2a02:500:4500:b::4 ip6:2a02:500:4500:b::11 ip6:2a02:500:4500:b::12 ip6:2a02:500:4500:b::21 ip6:2a02:500:4500:b::22 -all",
       "mx_asns":[
         5538
+      ],
+      "mx_countries":[
+        "LV"
       ]
     },
     "LV-0408":{
@@ -3084,6 +3546,9 @@
       "spf_resolved":"v=spf1 a mx ip4:81.198.190.20 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         206111
+      ],
+      "mx_countries":[
+        "LV"
       ]
     },
     "LV-0429":{
@@ -3103,6 +3568,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -3118,12 +3586,16 @@
         "mail2.ilva.lv"
       ],
       "spf":"v=spf1 +mx ip4:80.233.228.21 ip4:162.19.224.132 ~all",
-      "provider":"baltic-isp",
-      "reason":"MX (mail.dobele.lv, mail2.ilva.lv) hosted on Baltic ISP (TET (Lattelecom))",
+      "provider":"independent",
+      "reason":"MX (mail.dobele.lv, mail2.ilva.lv) is self-hosted",
       "osm_relation_id":14102159,
       "mx_asns":[
-        5518,
-        16276
+        16276,
+        47499
+      ],
+      "mx_countries":[
+        "FR",
+        "LV"
       ]
     },
     "LV-0508":{
@@ -3146,6 +3618,9 @@
       "spf_resolved":"v=spf1 ip4:95.211.208.241 mx +ip4:95.168.166.47 +ip4:81.198.69.60 +ip4:213.21.210.8 +ip4:62.63.148.0/27 +ip4:195.244.156.200/32 +include:_spf.google.com -all v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all",
       "mx_asns":[
         15169
+      ],
+      "mx_countries":[
+        "US"
       ]
     },
     "LV-0544":{
@@ -3165,6 +3640,9 @@
       "spf_resolved":"v=spf1 a mx include:protection.outlook.com -all v=spf1 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         12578
+      ],
+      "mx_countries":[
+        "LV"
       ],
       "autodiscover":{
         "autodiscover_cname":"mail.jelgavasnovads.lv",
@@ -3188,6 +3666,9 @@
       "mx_asns":[
         8075
       ],
+      "mx_countries":[
+        "US"
+      ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
       }
@@ -3207,6 +3688,9 @@
       "osm_relation_id":14102164,
       "mx_asns":[
         29600
+      ],
+      "mx_countries":[
+        "LV"
       ]
     },
     "LV-0624":{
@@ -3224,6 +3708,9 @@
       "osm_relation_id":14102165,
       "mx_asns":[
         12578
+      ],
+      "mx_countries":[
+        "LV"
       ]
     },
     "LV-0661":{
@@ -3241,6 +3728,9 @@
       "osm_relation_id":14102166,
       "mx_asns":[
         12578
+      ],
+      "mx_countries":[
+        "LV"
       ]
     },
     "LV-0676":{
@@ -3259,6 +3749,9 @@
       "spf_resolved":"v=spf1 ip4:195.122.22.162 ip4:213.21.210.8 ip4:81.198.214.113 ip4:159.148.200.44 ip4:159.148.200.62 ip4:159.148.221.203 ip4:59.201.4.90 ip4:159.148.211.243 ip4:212.3.195.186 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -3281,6 +3774,9 @@
       "spf_resolved":"v=spf1 include:spf.protect.sigmanet.lv include:mail.ludza.lv -all v=spf1 ip4:92.240.66.0/24 ip4:92.240.65.0/24 ip4:92.240.72.0/24 ip4:92.240.80.54 ip4:92.240.80.58 ip4:92.240.80.57 ip4:92.240.80.53 ip4:92.240.80.63 ip4:92.240.80.64 ip4:92.240.80.69 ip4:92.240.80.68 include:spf2.protect.sigmanet.lv -all v=spf1 ip6:2a02:500:4500:b::1 ip6:2a02:500:4500:b::2 ip6:2a02:500:4500:b::3 ip6:2a02:500:4500:b::4 ip6:2a02:500:4500:b::11 ip6:2a02:500:4500:b::12 ip6:2a02:500:4500:b::21 ip6:2a02:500:4500:b::22 -all",
       "mx_asns":[
         5538
+      ],
+      "mx_countries":[
+        "LV"
       ]
     },
     "LV-0702":{
@@ -3298,6 +3794,9 @@
       "osm_relation_id":14102169,
       "mx_asns":[
         12993
+      ],
+      "mx_countries":[
+        "LV"
       ]
     },
     "LV-0740":{
@@ -3316,6 +3815,9 @@
       "spf_resolved":"v=spf1 ip4:94.100.9.4 ip4:94.100.9.10 include:spf.mailjet.com ~all v=spf1 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:45.14.148.0/22 ~all",
       "mx_asns":[
         213934
+      ],
+      "mx_countries":[
+        "LV"
       ]
     },
     "LV-0766":{
@@ -3334,6 +3836,9 @@
       "spf_resolved":"v=spf1 ip4:159.148.6.167 ip4:159.148.43.76 mx include:spf.vardes.lv ~all v=spf1 ip4:84.237.246.50 ip4:85.254.49.59 ip4:85.31.99.24 a:smtp.ltk.lv ~all",
       "mx_asns":[
         2588
+      ],
+      "mx_countries":[
+        "LV"
       ]
     },
     "LV-0786":{
@@ -3355,6 +3860,10 @@
       "mx_asns":[
         12578,
         16509
+      ],
+      "mx_countries":[
+        "LV",
+        "US"
       ]
     },
     "LV-0804":{
@@ -3373,6 +3882,9 @@
       "spf_resolved":"v=spf1 include:rixtech.lv include:spf.vardes.lv include:sendgrid.net ip4:85.254.49.59 ip4:212.93.106.105 ip4:46.163.75.154 ip4:80.232.155.62 ip4:52.174.85.146 -all v=spf1 include:spf.protection.outlook.com -all v=spf1 mx ip4:89.111.48.242 ip4:89.111.48.245 include:sendgrid.net include:spf.protection.outlook.com -all v=spf1 ip4:84.237.246.50 ip4:85.254.49.59 ip4:85.31.99.24 a:smtp.ltk.lv ~all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -3395,6 +3907,9 @@
       "spf_resolved":"v=spf1 include:spf.protect.sigmanet.lv -all v=spf1 ip4:92.240.66.0/24 ip4:92.240.65.0/24 ip4:92.240.72.0/24 ip4:92.240.80.54 ip4:92.240.80.58 ip4:92.240.80.57 ip4:92.240.80.53 ip4:92.240.80.63 ip4:92.240.80.64 ip4:92.240.80.69 ip4:92.240.80.68 include:spf2.protect.sigmanet.lv -all v=spf1 ip6:2a02:500:4500:b::1 ip6:2a02:500:4500:b::2 ip6:2a02:500:4500:b::3 ip6:2a02:500:4500:b::4 ip6:2a02:500:4500:b::11 ip6:2a02:500:4500:b::12 ip6:2a02:500:4500:b::21 ip6:2a02:500:4500:b::22 -all",
       "mx_asns":[
         5538
+      ],
+      "mx_countries":[
+        "LV"
       ]
     },
     "LV-0808":{
@@ -3413,6 +3928,9 @@
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -3435,6 +3953,9 @@
       "spf_resolved":"v=spf1 include:spf.protect.sigmanet.lv -all v=spf1 ip4:92.240.66.0/24 ip4:92.240.65.0/24 ip4:92.240.72.0/24 ip4:92.240.80.54 ip4:92.240.80.58 ip4:92.240.80.57 ip4:92.240.80.53 ip4:92.240.80.63 ip4:92.240.80.64 ip4:92.240.80.69 ip4:92.240.80.68 include:spf2.protect.sigmanet.lv -all v=spf1 ip6:2a02:500:4500:b::1 ip6:2a02:500:4500:b::2 ip6:2a02:500:4500:b::3 ip6:2a02:500:4500:b::4 ip6:2a02:500:4500:b::11 ip6:2a02:500:4500:b::12 ip6:2a02:500:4500:b::21 ip6:2a02:500:4500:b::22 -all",
       "mx_asns":[
         5538
+      ],
+      "mx_countries":[
+        "LV"
       ]
     },
     "LV-0813":{
@@ -3453,6 +3974,9 @@
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -3473,6 +3997,9 @@
       "osm_relation_id":14102176,
       "mx_asns":[
         12578
+      ],
+      "mx_countries":[
+        "LV"
       ]
     },
     "LV-0818":{
@@ -3493,6 +4020,10 @@
       "mx_asns":[
         14061,
         43108
+      ],
+      "mx_countries":[
+        "GB",
+        "US"
       ]
     },
     "LV-0820":{
@@ -3511,6 +4042,9 @@
       "spf_resolved":"v=spf1 include:sendersrv.com include:mailgun.org include:spf.mandrillapp.com include:spf.protect.sigmanet.lv include:spf.protection.outlook.com -all v=spf1 ip4:185.3.229.125 ip4:185.3.229.126 ip4:185.3.229.127 ip4:185.3.229.128/27 ip4:141.136.38.0/24 ip4:141.136.40.0/24 ip4:195.191.140.0/24 ip4:195.191.176.0/24 ip4:134.209.89.39 ip4:167.172.239.16 ip4:94.75.223.106 include:_spf.mx.cloudflare.net -all v=spf1 include:_spf.mailgun.org include:_spf.eu.mailgun.org -all v=spf1 ip4:198.2.128.0/24 ip4:198.2.132.0/22 ip4:198.2.136.0/23 ip4:198.2.145.0/24 ip4:198.2.186.0/23 ip4:205.201.131.128/25 ip4:205.201.134.128/25 ip4:205.201.136.0/23 ip4:205.201.139.0/24 ip4:198.2.177.0/24 ip4:198.2.178.0/23 ip4:198.2.180.0/24 ~all v=spf1 ip4:92.240.66.0/24 ip4:92.240.65.0/24 ip4:92.240.72.0/24 ip4:92.240.80.54 ip4:92.240.80.58 ip4:92.240.80.57 ip4:92.240.80.53 ip4:92.240.80.63 ip4:92.240.80.64 ip4:92.240.80.69 ip4:92.240.80.68 include:spf2.protect.sigmanet.lv -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:104.30.0.0/19 ip6:2405:8100:c000::/38 ~all v=spf1 include:_spf1.mailgun.org include:_spf2.mailgun.org ~all v=spf1 ip4:141.193.32.0/23 ip4:159.135.140.80/29 ip4:159.135.132.128/25 ip4:161.38.204.0/22 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:143.55.236.0/22 ip4:198.244.60.0/22 ip4:204.220.160.0/21 ~all v=spf1 ip6:2a02:500:4500:b::1 ip6:2a02:500:4500:b::2 ip6:2a02:500:4500:b::3 ip6:2a02:500:4500:b::4 ip6:2a02:500:4500:b::11 ip6:2a02:500:4500:b::12 ip6:2a02:500:4500:b::21 ip6:2a02:500:4500:b::22 -all v=spf1 ip4:209.61.151.0/24 ip4:166.78.68.0/22 ip4:198.61.254.0/23 ip4:192.237.158.0/23 ip4:23.253.182.0/23 ip4:104.130.96.0/28 ip4:146.20.113.0/24 ip4:146.20.191.0/24 ip4:159.135.224.0/20 ip4:69.72.32.0/20 ~all",
       "mx_asns":[
         8075
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -3533,6 +4067,9 @@
       "gateway":"trendmicro",
       "mx_asns":[
         16509
+      ],
+      "mx_countries":[
+        "US"
       ]
     },
     "LV-0886":{
@@ -3550,6 +4087,9 @@
       "osm_relation_id":14102180,
       "mx_asns":[
         12578
+      ],
+      "mx_countries":[
+        "LV"
       ]
     },
     "LV-0906":{
@@ -3567,6 +4107,9 @@
       "osm_relation_id":14102182,
       "mx_asns":[
         43513
+      ],
+      "mx_countries":[
+        "LV"
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com"
@@ -3588,6 +4131,9 @@
       "spf_resolved":"v=spf1 ip4:195.13.208.226 include:_spf.online.lv include:_spf.google.com  -all v=spf1 ip4:87.110.224.30 ip4:81.198.164.220 ip4:84.237.195.153/30 ip4:81.198.165.177/30 ip4:80.232.230.225/30 ip4:81.198.164.193 v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all",
       "mx_asns":[
         12578
+      ],
+      "mx_countries":[
+        "LV"
       ]
     },
     "LV-0942":{
@@ -3605,6 +4151,9 @@
       "osm_relation_id":14102183,
       "mx_asns":[
         199103
+      ],
+      "mx_countries":[
+        "LV"
       ]
     },
     "LV-0968":{
@@ -3622,6 +4171,9 @@
       "osm_relation_id":14102185,
       "mx_asns":[
         12993
+      ],
+      "mx_countries":[
+        "LV"
       ]
     },
     "LV-0984":{
@@ -3642,6 +4194,9 @@
       "gateway":"barracuda",
       "mx_asns":[
         16509
+      ],
+      "mx_countries":[
+        "US"
       ],
       "autodiscover":{
         "autodiscover_cname":"mx.ventspils.lv",

@@ -192,6 +192,15 @@ async def lookup_a(hostname: str) -> list[str]:
 
 async def lookup_asn_cymru(ip: str) -> int | None:
     """Query Team Cymru DNS for ASN number of an IP address."""
+    result = await lookup_asn_country_cymru(ip)
+    return result[0] if result else None
+
+
+async def lookup_asn_country_cymru(ip: str) -> tuple[int, str] | None:
+    """Query Team Cymru DNS for ASN and country code of an IP address.
+
+    Returns (asn, country_code) or None if lookup fails.
+    """
     reversed_ip = ".".join(reversed(ip.split(".")))
     query = f"{reversed_ip}.origin.asn.cymru.com"
     resolvers = get_resolvers()
@@ -201,8 +210,10 @@ async def lookup_asn_cymru(ip: str) -> int | None:
             for r in answers:
                 txt = b"".join(r.strings).decode("utf-8", errors="ignore")
                 # Format: "3303 | 193.135.252.0/24 | CH | ripencc | ..."
-                asn_str = txt.split("|")[0].strip()
-                return int(asn_str)
+                parts = txt.split("|")
+                asn = int(parts[0].strip())
+                cc = parts[2].strip().upper() if len(parts) > 2 else ""
+                return asn, cc
         except dns.resolver.NXDOMAIN:
             return None
         except _RETRYABLE as e:
@@ -261,3 +272,15 @@ async def resolve_mx_asns(mx_hosts: list[str]) -> set[int]:
             if asn is not None:
                 asns.add(asn)
     return asns
+
+
+async def resolve_mx_countries(mx_hosts: list[str]) -> set[str]:
+    """Resolve all MX hosts to IPs, look up countries, return set of country codes."""
+    countries = set()
+    for host in mx_hosts:
+        ips = await lookup_a(host)
+        for ip in ips:
+            result = await lookup_asn_country_cymru(ip)
+            if result and result[1]:
+                countries.add(result[1])
+    return countries

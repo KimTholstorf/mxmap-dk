@@ -24,6 +24,7 @@ from mail_sovereignty.dns import (
     lookup_mx,
     lookup_spf,
     resolve_mx_asns,
+    resolve_mx_countries,
     resolve_mx_cnames,
     resolve_spf_includes,
 )
@@ -148,6 +149,7 @@ async def process_unknown(
                 spf_resolved = await resolve_spf_includes(spf) if spf else ""
                 mx_cnames = await resolve_mx_cnames(mx)
                 mx_asns = await resolve_mx_asns(mx)
+                mx_countries = await resolve_mx_countries(mx)
                 autodiscover = await lookup_autodiscover(email_domain)
                 provider, reason = classify(
                     mx,
@@ -175,6 +177,8 @@ async def process_unknown(
                     m["mx_cnames"] = mx_cnames
                 if mx_asns:
                     m["mx_asns"] = sorted(mx_asns)
+                if mx_countries:
+                    m["mx_countries"] = sorted(mx_countries)
                 if autodiscover:
                     m["autodiscover"] = autodiscover
                 return m
@@ -261,6 +265,7 @@ async def run(data_path: Path) -> None:
             spf_resolved = await resolve_spf_includes(spf) if spf else ""
             mx_cnames = await resolve_mx_cnames(mx) if mx else {}
             mx_asns = await resolve_mx_asns(mx) if mx else set()
+            mx_countries = await resolve_mx_countries(mx) if mx else set()
             autodiscover = await lookup_autodiscover(domain)
             provider, reason = classify(
                 mx,
@@ -278,6 +283,7 @@ async def run(data_path: Path) -> None:
                 spf_resolved,
                 mx_cnames,
                 mx_asns,
+                mx_countries,
                 provider,
                 reason,
                 gateway,
@@ -292,6 +298,7 @@ async def run(data_path: Path) -> None:
             spf_resolved,
             mx_cnames,
             mx_asns,
+            mx_countries,
             provider,
             reason,
             gateway,
@@ -309,6 +316,8 @@ async def run(data_path: Path) -> None:
                 muni[bfs]["mx_cnames"] = mx_cnames
             if mx_asns:
                 muni[bfs]["mx_asns"] = sorted(mx_asns)
+            if mx_countries:
+                muni[bfs]["mx_countries"] = sorted(mx_countries)
             if autodiscover:
                 muni[bfs]["autodiscover"] = autodiscover
             print(f"  {bfs:>5} {muni[bfs]['name']:<30} -> {provider} (DNS re-lookup)")
@@ -326,6 +335,7 @@ async def run(data_path: Path) -> None:
                 spf_resolved = await resolve_spf_includes(spf) if spf else ""
                 mx_cnames = await resolve_mx_cnames(mx)
                 mx_asns = await resolve_mx_asns(mx)
+                mx_countries = await resolve_mx_countries(mx)
                 autodiscover = await lookup_autodiscover(m["domain"])
                 provider, reason = classify(
                     mx,
@@ -348,6 +358,8 @@ async def run(data_path: Path) -> None:
                     m["mx_cnames"] = mx_cnames
                 if mx_asns:
                     m["mx_asns"] = sorted(mx_asns)
+                if mx_countries:
+                    m["mx_countries"] = sorted(mx_countries)
                 if autodiscover:
                     m["autodiscover"] = autodiscover
                 print(f"  RECOVERED {m['bfs']:>5} {m['name']:<30} -> {provider}")
