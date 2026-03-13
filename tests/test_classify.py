@@ -47,20 +47,20 @@ class TestClassify:
     def test_independent_mx(self):
         assert provider(classify(["mail.example.ee"], "")) == "independent"
 
-    def test_spf_fallback_when_no_mx(self):
-        assert provider(classify([], "v=spf1 include:spf.protection.outlook.com -all")) == "microsoft"
+    def test_no_mx_with_spf_stays_unknown(self):
+        """SPF alone does not determine provider — MX is required."""
+        assert provider(classify([], "v=spf1 include:spf.protection.outlook.com -all")) == "unknown"
 
     def test_no_mx_no_spf(self):
         assert provider(classify([], "")) == "unknown"
 
-    def test_independent_mx_with_microsoft_spf_is_microsoft(self):
-        """Self-hosted MX with Microsoft in SPF → hybrid relay → microsoft."""
+    def test_independent_mx_with_microsoft_spf_stays_independent(self):
+        """Self-hosted MX stays independent — SPF only means authorized sender."""
         result = classify(
             ["mail.tallinn.ee"],
             "v=spf1 include:spf.protection.outlook.com -all",
         )
-        assert provider(result) == "microsoft"
-        assert "hybrid" in reason(result).lower() or "SPF" in reason(result)
+        assert provider(result) == "independent"
 
     def test_independent_mx_without_provider_spf_stays_independent(self):
         """Self-hosted MX with no provider keywords in SPF → independent."""
@@ -118,25 +118,24 @@ class TestClassify:
         )
         assert provider(result) == "microsoft"
 
-    def test_baltic_isp_with_microsoft_spf(self):
-        """Baltic ISP relay with Microsoft SPF → microsoft (hybrid)."""
+    def test_baltic_isp_with_microsoft_spf_stays_baltic_isp(self):
+        """Baltic ISP stays baltic-isp — SPF only means authorized sender."""
         result = classify(
             ["mail1.example.ee"],
             "v=spf1 include:spf.protection.outlook.com -all",
             mx_asns={3249},
         )
-        assert provider(result) == "microsoft"
-        assert "hybrid" in reason(result).lower() or "SPF" in reason(result)
+        assert provider(result) == "baltic-isp"
 
-    def test_baltic_isp_with_autodiscover_microsoft(self):
-        """Baltic ISP relay with autodiscover pointing to outlook.com → microsoft."""
+    def test_baltic_isp_with_autodiscover_stays_baltic_isp(self):
+        """Baltic ISP stays baltic-isp even with autodiscover pointing elsewhere."""
         result = classify(
             ["mail1.example.ee"],
             "",
             mx_asns={3249},
             autodiscover={"autodiscover_cname": "autodiscover.outlook.com"},
         )
-        assert provider(result) == "microsoft"
+        assert provider(result) == "baltic-isp"
 
     def test_baltic_isp_without_spf_or_autodiscover_stays_baltic_isp(self):
         """Baltic ISP relay without any hyperscaler signals stays baltic-isp."""
@@ -265,14 +264,14 @@ class TestClassify:
         )
         assert provider(result) == "google"
 
-    def test_non_gateway_independent_uses_autodiscover_fallback(self):
-        """Non-gateway independent MX should use autodiscover as fallback."""
+    def test_non_gateway_independent_ignores_autodiscover(self):
+        """Non-gateway independent MX stays independent regardless of autodiscover."""
         result = classify(
             ["mail.example.ee"],
             "",
             autodiscover={"autodiscover_cname": "autodiscover.outlook.com"},
         )
-        assert provider(result) == "microsoft"
+        assert provider(result) == "independent"
 
     def test_non_gateway_independent_no_autodiscover_stays_independent(self):
         """Non-gateway independent MX without autodiscover stays independent."""
@@ -299,28 +298,27 @@ class TestClassify:
         )
         assert provider(result) == "independent"
 
-    # ── SPF-only resolved fallback ──
+    # ── No MX — SPF does not classify ──
 
-    def test_spf_only_resolved_fallback(self):
-        """No MX, raw SPF has no keywords, resolved_spf has Microsoft → microsoft."""
+    def test_no_mx_spf_resolved_stays_unknown(self):
+        """No MX → unknown, even if resolved SPF has a provider."""
         result = classify(
             [],
             "v=spf1 include:custom.ee -all",
-            resolved_spf="v=spf1 include:custom.ee -all v=spf1 include:spf.protection.outlook.com -all",
+            resolved_spf="v=spf1 include:spf.protection.outlook.com -all",
         )
-        assert provider(result) == "microsoft"
+        assert provider(result) == "unknown"
 
-    def test_spf_only_raw_takes_precedence(self):
-        """No MX, raw SPF has Google, resolved_spf has Microsoft → google (raw wins)."""
+    def test_no_mx_spf_google_stays_unknown(self):
+        """No MX → unknown, even if raw SPF has Google."""
         result = classify(
             [],
             "v=spf1 include:_spf.google.com -all",
-            resolved_spf="v=spf1 include:spf.protection.outlook.com -all",
         )
-        assert provider(result) == "google"
+        assert provider(result) == "unknown"
 
-    def test_spf_only_no_resolved_stays_unknown(self):
-        """No MX, raw SPF has no keywords, no resolved_spf → unknown."""
+    def test_no_mx_no_spf_stays_unknown(self):
+        """No MX, no meaningful SPF → unknown."""
         result = classify(
             [],
             "v=spf1 ip4:1.2.3.4 -all",
@@ -334,13 +332,6 @@ class TestClassify:
         _, r = classify(["mail.protection.outlook.com"], "")
         assert isinstance(r, str)
         assert len(r) > 0
-
-    def test_reason_mentions_hybrid_for_relay(self):
-        _, r = classify(
-            ["mail.local.ee"],
-            "v=spf1 include:spf.protection.outlook.com -all",
-        )
-        assert "hybrid" in r.lower()
 
 
 # ── classify_from_autodiscover() ────────────────────────────────────

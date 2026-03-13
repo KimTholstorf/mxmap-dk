@@ -1,14 +1,13 @@
 {
-  "generated":"2026-03-13T13:44:18Z",
+  "generated":"2026-03-13T14:10:53Z",
   "total":182,
   "counts":{
-    "aws":1,
-    "baltic-isp":23,
+    "baltic-isp":31,
     "elkdata":2,
-    "google":7,
-    "independent":29,
-    "microsoft":105,
-    "telia":4,
+    "google":2,
+    "independent":37,
+    "microsoft":96,
+    "telia":3,
     "zone":11
   },
   "municipalities":{
@@ -719,8 +718,8 @@
         "mail.muhu.ee"
       ],
       "spf":"v=spf1 +a +mx +ip4:185.86.211.140 +ip4:185.86.211.160 include:_spf.radicenter.eu +ip4:212.47.208.140 +mx:webware.ee +mx:webriks.ee +include:spf.protection.outlook.com ~all",
-      "provider":"microsoft",
-      "reason":"MX (mail.muhu.ee) is self-hosted; SPF authorizes microsoft — hybrid relay setup",
+      "provider":"independent",
+      "reason":"MX (mail.muhu.ee) is self-hosted",
       "osm_relation_id":2625899,
       "spf_resolved":"v=spf1 +a +mx +ip4:185.86.211.140 +ip4:185.86.211.160 include:_spf.radicenter.eu +ip4:212.47.208.140 +mx:webware.ee +mx:webriks.ee +include:spf.protection.outlook.com ~all v=spf1 ip4:185.86.211.0/24 ip6:2a13:c5c0::/32 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -1138,7 +1137,7 @@
       ],
       "spf":"",
       "provider":"independent",
-      "reason":"MX (rouge.ee) is self-hosted; no known provider in SPF or autodiscover",
+      "reason":"MX (rouge.ee) is self-hosted",
       "osm_relation_id":8414598,
       "mx_asns":[
         16276
@@ -1302,8 +1301,8 @@
         "mx2.tallinn.ee"
       ],
       "spf":"v=spf1 include:_spf.tallinn.ee include:_spfa.tallinn.ee include:_spf.dbweb.ee -all",
-      "provider":"microsoft",
-      "reason":"MX (mx1.tallinn.ee, mx2.tallinn.ee) is Baltic ISP; SPF authorizes microsoft — hybrid relay setup",
+      "provider":"baltic-isp",
+      "reason":"MX (mx1.tallinn.ee, mx2.tallinn.ee) hosted on Baltic ISP (Telia (EE/LT))",
       "osm_relation_id":2580784,
       "spf_resolved":"v=spf1 include:_spf.tallinn.ee include:_spfa.tallinn.ee include:_spf.dbweb.ee -all v=spf1 ip4:213.35.158.227 ip4:213.35.158.232 ip4:90.190.145.96/28 ip4:90.190.142.176/28 a:gw.tallinnlv.ee a:mailer.helmes.ee include:_spf.spin.ee include:spf.protection.outlook.com -all v=spf1 ip4:213.184.55.217/30 ip4:194.126.106.64/27 ip4:81.20.157.176/29 ip4:90.190.151.133 ip4:95.215.133.106 ip4:95.215.133.203 a:gw2.tallinnlv.ee -all v=spf1 ip4:81.21.253.0/25 ip6:2a01:1b8:2:14::/64 -all v=spf1 ip4:194.204.19.0/26 ip4:194.204.19.85/32 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -1635,7 +1634,7 @@
       ],
       "spf":"v=spf1 redirect=_spf.voru.ee",
       "provider":"independent",
-      "reason":"MX (mail.voru.ee) is self-hosted; no known provider in SPF or autodiscover",
+      "reason":"MX (mail.voru.ee) is self-hosted",
       "osm_relation_id":2638662,
       "spf_resolved":"v=spf1 redirect=_spf.voru.ee v=spf1 ip4:195.80.124.2/32 ip4:195.80.113.56/29 ip4:193.40.104.35/32 ip4:185.7.252.75/32 ip4:193.40.0.43/32 -all",
       "mx_asns":[
@@ -1673,8 +1672,8 @@
         "mail.akmene.lt"
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.41.24 +include:spf.protection.outlook.com -all",
-      "provider":"microsoft",
-      "reason":"MX (mail.akmene.lt) is self-hosted; SPF authorizes microsoft — hybrid relay setup",
+      "provider":"independent",
+      "reason":"MX (mail.akmene.lt) is self-hosted",
       "osm_relation_id":1307304,
       "spf_resolved":"v=spf1 +mx +a +ip4:89.116.41.24 +include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -1739,7 +1738,7 @@
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.41.25 +ip4:89.116.15.172 -all",
       "provider":"independent",
-      "reason":"MX (mail.anyksciai.lt) is self-hosted; no known provider in SPF or autodiscover",
+      "reason":"MX (mail.anyksciai.lt) is self-hosted",
       "osm_relation_id":1002204,
       "mx_asns":[
         15419
@@ -1798,8 +1797,8 @@
         "mail.druskininkai.lt"
       ],
       "spf":"v=spf1 mx ip4:79.142.113.108 ip4:195.182.71.66 a:_spf.balt.net include:spf.protection.outlook.com include:email-messaging.com -all",
-      "provider":"microsoft",
-      "reason":"MX (bmx.balt.net, mail.druskininkai.lt) is Baltic ISP; SPF authorizes microsoft — hybrid relay setup",
+      "provider":"baltic-isp",
+      "reason":"MX (bmx.balt.net, mail.druskininkai.lt) hosted on Baltic ISP (Baltneta)",
       "osm_relation_id":1076928,
       "spf_resolved":"v=spf1 mx ip4:79.142.113.108 ip4:195.182.71.66 a:_spf.balt.net include:spf.protection.outlook.com include:email-messaging.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 include:spf1.email-messaging.com ~all v=spf1 ip4:185.255.8.0/22 ip4:83.166.78.0/23 ip4:202.22.174.0/23 ip4:62.140.31.0/24 ip4:180.179.146.74 ip4:13.126.156.192 ip4:13.126.201.219 ip4:81.23.253.165/25 ip4:89.164.98.219 ip4:81.23.249.0/24 ip4:202.22.169.150/31 ip4:202.22.169.152/29 ip4:202.22.174.0/24 ip4:202.22.175.0/24 ip4:20.233.90.170 ip4:20.233.90.202 ip4:20.233.90.222 ip4:20.233.91.47 ip4:203.223.163.42 ip4:203.223.163.43 ip4:203.223.163.44 ip4:203.223.163.45 ip4:203.223.163.46 ip4:202.22.160.0/20 ip4:4.161.42.211 ip4:40.120.106.174 ip4:40.120.105.250 ip4:40.120.111.128 ip4:208.93.48.0/22 ip4:4.244.133.231 ip4:4.244.129.183 ip4:4.244.132.140 ip4:4.244.134.16 ip4:4.244.133.73 ip4:119.30.69.0 ip4:119.30.69.1 ip4:119.30.69.2 ip4:119.30.69.3 ip4:119.30.69.4 ip4:172.167.23.153 ip4:172.167.16.186 ip4:172.167.17.130 ip4:172.167.18.85 ip4:172.167.18.36 ip4:172.167.22.64 ip4:172.167.17.219 ip4:20.162.248.41 ip4:172.167.20.125 ip4:20.162.248.190  ip4:20.162.248.231 ip4:20.162.250.8 ip4:172.167.20.82 ip4:172.167.17.99 ip4:172.167.138.245  ip4:20.162.250.93 ip4:172.167.20.242 ip4:20.162.250.143 ip4:172.167.17.49 ip4:4.234.102.113 ip4:83.166.68.0/24 ip4:83.166.65.128/25 ip4:20.174.48.187  ip4:20.174.59.72 ip4:20.174.66.144 ip4:20.174.69.203 ip4:20.233.218.121 ip4:20.233.218.160 ip4:20.233.218.207 ip4:20.233.224.232 ip4:20.233.218.228 ip4:20.233.219.34 ip4:34.166.73.220 ip4:74.162.204.20 ip4:20.233.224.178 ip4:20.233.215.143 ip4:74.162.177.207 ip4:20.233.207.35 ip4:34.166.135.79 ip4:34.166.2.38 ip4:34.166.133.89 ip4:34.166.152.195 ip4:34.166.108.198 ip4:34.166.90.102 ip4:34.166.140.33 ip4:34.166.85.196 ip4:34.166.30.172 ip4:34.166.84.187 ip4:34.166.71.233 ip4:35.252.62.60 ip4:35.252.62.135 ip4:35.252.61.180 ip4:35.252.61.114 ip4:35.252.60.77 ip4:35.252.59.7 ip4:35.252.58.107 ip4:35.252.56.113 ip4:35.252.50.97 ip4:35.252.41.5 ip4:35.252.41.117 ip4:35.252.40.43 ip4:35.252.40.207 ip4:35.252.36.130 ip4:35.252.33.130 ip4:34.166.46.195 ip4:34.166.212.205 ip4:34.166.210.67 ip4:34.166.174.162 ip4:34.166.133.23 ~all",
       "mx_asns":[
@@ -1861,8 +1860,8 @@
         "mail.jonava.lt"
       ],
       "spf":"v=spf1 +a +mx +ip4:89.116.41.33 +include:spf.protection.outlook.com -all",
-      "provider":"microsoft",
-      "reason":"MX (mail.jonava.lt) is self-hosted; SPF authorizes microsoft — hybrid relay setup",
+      "provider":"independent",
+      "reason":"MX (mail.jonava.lt) is self-hosted",
       "osm_relation_id":1447848,
       "spf_resolved":"v=spf1 +a +mx +ip4:89.116.41.33 +include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -1906,7 +1905,7 @@
       ],
       "spf":"v=spf1 +a +mx +ip4:89.116.41.9 +ip4:92.62.131.15 +ip4:89.116.15.132 -all",
       "provider":"independent",
-      "reason":"MX (mail.jurbarkas.lt) is self-hosted; no known provider in SPF or autodiscover",
+      "reason":"MX (mail.jurbarkas.lt) is self-hosted",
       "osm_relation_id":1518458,
       "mx_asns":[
         15419
@@ -2010,7 +2009,7 @@
       ],
       "spf":"v=spf1 include:spf.serveriai.lt ip4:195.182.81.34 ip4:195.182.86.72 -all",
       "provider":"independent",
-      "reason":"MX (mail.kazluruda.lt) is self-hosted; no known provider in SPF or autodiscover",
+      "reason":"MX (mail.kazluruda.lt) is self-hosted",
       "osm_relation_id":974207,
       "spf_resolved":"v=spf1 include:spf.serveriai.lt ip4:195.182.81.34 ip4:195.182.86.72 -all v=spf1 ip4:31.14.176.0/22 ip4:62.77.152.0/21 ip4:79.98.24.0/21 ip4:80.208.224.0/21 ip4:80.209.224.0/20 ip4:89.40.0.0/20 ip4:89.47.160.0/21 ip4:94.176.232.0/21 ip4:109.235.64.0/21 ip4:176.223.128.0/20 ip4:185.5.52.0/22 ip4:185.69.52.0/22 ip4:185.81.164.0/22 ip4:194.135.80.0/20 ip4:195.181.240.0/21 ip4:212.24.96.0/20 ip4:212.237.232.0/22 -all",
       "mx_asns":[
@@ -2027,8 +2026,8 @@
         "mail.kedainiai.lt"
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.41.10 +ip4:89.116.15.130 +ip4:195.182.73.194 +include:spf.protection.outlook.com -all",
-      "provider":"microsoft",
-      "reason":"MX (mail.kedainiai.lt) is self-hosted; SPF authorizes microsoft — hybrid relay setup",
+      "provider":"independent",
+      "reason":"MX (mail.kedainiai.lt) is self-hosted",
       "osm_relation_id":1518457,
       "spf_resolved":"v=spf1 +mx +a +ip4:89.116.41.10 +ip4:89.116.15.130 +ip4:195.182.73.194 +include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -2049,7 +2048,7 @@
       ],
       "spf":"v=spf1 ip4:195.182.81.3 ip4:195.182.81.5 ip4:195.182.81.11 ip4:89.116.15.140 -all",
       "provider":"independent",
-      "reason":"MX (mail.kelme.lt) is self-hosted; no known provider in SPF or autodiscover",
+      "reason":"MX (mail.kelme.lt) is self-hosted",
       "osm_relation_id":1307307,
       "mx_asns":[
         15419
@@ -2184,7 +2183,7 @@
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.41.6 +ip4:86.38.8.113 +ip4:89.116.15.183 +ip4:195.182.85.129 +ip4:195.182.85.139 -all",
       "provider":"independent",
-      "reason":"MX (mail.mazeikiai.lt) is self-hosted; no known provider in SPF or autodiscover",
+      "reason":"MX (mail.mazeikiai.lt) is self-hosted",
       "osm_relation_id":1211023,
       "mx_asns":[
         15419
@@ -2222,7 +2221,7 @@
       ],
       "spf":"v=spf1 +a +mx +ip4:89.116.41.11 +ip4:89.116.15.173 +ip4:86.38.8.114 -all",
       "provider":"independent",
-      "reason":"MX (mail.neringa.lt) is self-hosted; no known provider in SPF or autodiscover",
+      "reason":"MX (mail.neringa.lt) is self-hosted",
       "osm_relation_id":1078733,
       "mx_asns":[
         15419
@@ -2239,7 +2238,7 @@
       ],
       "spf":"v=spf1 +a +mx include:_spf.sender.hostex.lt -all",
       "provider":"independent",
-      "reason":"MX (mail.pagegiai.lt) is self-hosted; no known provider in SPF or autodiscover",
+      "reason":"MX (mail.pagegiai.lt) is self-hosted",
       "osm_relation_id":1002044,
       "spf_resolved":"v=spf1 +a +mx include:_spf.sender.hostex.lt -all v=spf1 +a:sender-spf.hostex.lt +a:pastas.hostex.lt +a:mailgw.hostex.lt +ip4:92.61.46.248 ?all",
       "mx_asns":[
@@ -2257,7 +2256,7 @@
       ],
       "spf":"v=spf1 +a +mx +ip4:89.116.41.78 +ip4:89.116.15.181 -all",
       "provider":"independent",
-      "reason":"MX (mail.pakruojis.lt) is self-hosted; no known provider in SPF or autodiscover",
+      "reason":"MX (mail.pakruojis.lt) is self-hosted",
       "osm_relation_id":1256234,
       "mx_asns":[
         15419
@@ -2362,8 +2361,8 @@
         "mail.prienai.lt"
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.15.136 +ip4:86.38.8.113 +include:_spf.google.com -all",
-      "provider":"google",
-      "reason":"MX (mail.prienai.lt) is self-hosted; SPF authorizes google — hybrid relay setup",
+      "provider":"independent",
+      "reason":"MX (mail.prienai.lt) is self-hosted",
       "osm_relation_id":1312644,
       "spf_resolved":"v=spf1 +mx +a +ip4:89.116.15.136 +ip4:86.38.8.113 +include:_spf.google.com -all v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all",
       "mx_asns":[
@@ -2402,7 +2401,7 @@
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.15.138 +ip4:86.38.8.113 -all",
       "provider":"independent",
-      "reason":"MX (mail.raseiniai.lt) is self-hosted; no known provider in SPF or autodiscover",
+      "reason":"MX (mail.raseiniai.lt) is self-hosted",
       "osm_relation_id":1476170,
       "mx_asns":[
         15419
@@ -2419,7 +2418,7 @@
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.15.163 +ip4:86.38.8.113 -all",
       "provider":"independent",
-      "reason":"MX (mail.rietavas.lt) is self-hosted; no known provider in SPF or autodiscover",
+      "reason":"MX (mail.rietavas.lt) is self-hosted",
       "osm_relation_id":1129075,
       "mx_asns":[
         15419
@@ -2491,8 +2490,8 @@
         "mail.siauliai.lt"
       ],
       "spf":"v=spf1 mx ip4:195.182.80.1 ip4:195.182.80.2 include:_spf.google.com -all",
-      "provider":"google",
-      "reason":"MX (mail.siauliai.lt) is Baltic ISP; SPF authorizes google — hybrid relay setup",
+      "provider":"baltic-isp",
+      "reason":"MX (mail.siauliai.lt) hosted on Baltic ISP (LITNET)",
       "osm_relation_id":968826,
       "spf_resolved":"v=spf1 mx ip4:195.182.80.1 ip4:195.182.80.2 include:_spf.google.com -all v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all",
       "mx_asns":[
@@ -2528,7 +2527,7 @@
       ],
       "spf":"v=spf1 a mx ptr redirect=spf.serveriai.lt",
       "provider":"independent",
-      "reason":"MX (mx-backup.serveriai.lt, silale.hostingas.lt) is self-hosted; no known provider in SPF or autodiscover",
+      "reason":"MX (mx-backup.serveriai.lt, silale.hostingas.lt) is self-hosted",
       "osm_relation_id":1518454,
       "spf_resolved":"v=spf1 a mx ptr redirect=spf.serveriai.lt v=spf1 ip4:31.14.176.0/22 ip4:62.77.152.0/21 ip4:79.98.24.0/21 ip4:80.208.224.0/21 ip4:80.209.224.0/20 ip4:89.40.0.0/20 ip4:89.47.160.0/21 ip4:94.176.232.0/21 ip4:109.235.64.0/21 ip4:176.223.128.0/20 ip4:185.5.52.0/22 ip4:185.69.52.0/22 ip4:185.81.164.0/22 ip4:194.135.80.0/20 ip4:195.181.240.0/21 ip4:212.24.96.0/20 ip4:212.237.232.0/22 -all",
       "mx_asns":[
@@ -2546,7 +2545,7 @@
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.15.153 +ip4:86.38.8.113 -all",
       "provider":"independent",
-      "reason":"MX (mail.silute.lt) is self-hosted; no known provider in SPF or autodiscover",
+      "reason":"MX (mail.silute.lt) is self-hosted",
       "osm_relation_id":1203041,
       "mx_asns":[
         15419
@@ -2562,8 +2561,8 @@
         "mail.sirvintos.lt"
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.15.162 +ip4:86.38.8.113 +include:_spf.google.com -all",
-      "provider":"google",
-      "reason":"MX (mail.sirvintos.lt) is self-hosted; SPF authorizes google — hybrid relay setup",
+      "provider":"independent",
+      "reason":"MX (mail.sirvintos.lt) is self-hosted",
       "osm_relation_id":1016308,
       "spf_resolved":"v=spf1 +mx +a +ip4:89.116.15.162 +ip4:86.38.8.113 +include:_spf.google.com -all v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all",
       "mx_asns":[
@@ -2581,7 +2580,7 @@
       ],
       "spf":"v=spf1 +a +mx +ip4:89.116.41.2 +ip4:89.116.15.165 -all",
       "provider":"independent",
-      "reason":"MX (mail.skuodas.lt) is self-hosted; no known provider in SPF or autodiscover",
+      "reason":"MX (mail.skuodas.lt) is self-hosted",
       "osm_relation_id":1203042,
       "mx_asns":[
         15419
@@ -2598,7 +2597,7 @@
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.41.22 +ip4:89.116.15.170 -all",
       "provider":"independent",
-      "reason":"MX (mail.svencionys.lt) is self-hosted; no known provider in SPF or autodiscover",
+      "reason":"MX (mail.svencionys.lt) is self-hosted",
       "osm_relation_id":967318,
       "mx_asns":[
         15419
@@ -2636,7 +2635,7 @@
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.15.180 +ip4:86.38.8.113 -all",
       "provider":"independent",
-      "reason":"MX (mail.telsiai.lt) is self-hosted; no known provider in SPF or autodiscover",
+      "reason":"MX (mail.telsiai.lt) is self-hosted",
       "osm_relation_id":1360453,
       "mx_asns":[
         15419
@@ -2674,7 +2673,7 @@
       ],
       "spf":"v=spf1 a mx ip4:195.182.87.3 ip4:195.182.87.11 ip4:195.182.87.5 ip4:89.116.15.129 ip4:89.116.15.228 ~all",
       "provider":"independent",
-      "reason":"MX (mail.ukmerge.lt) is self-hosted; no known provider in SPF or autodiscover",
+      "reason":"MX (mail.ukmerge.lt) is self-hosted",
       "osm_relation_id":1027570,
       "mx_asns":[
         15419
@@ -2714,7 +2713,7 @@
       ],
       "spf":"v=spf1 +a +mx +ip4:89.116.15.129 +ip4:89.116.15.131 ~all",
       "provider":"independent",
-      "reason":"MX (mail.varena.lt) is self-hosted; no known provider in SPF or autodiscover",
+      "reason":"MX (mail.varena.lt) is self-hosted",
       "osm_relation_id":1076929,
       "mx_asns":[
         15419
@@ -2790,7 +2789,7 @@
       ],
       "spf":"v=spf1 a mx ip4:195.182.88.160/28 ip4:89.116.15.0/24 include:cphostingas.telecentras.lt include:spf.serveriai.lt -all",
       "provider":"independent",
-      "reason":"MX (mx.serveriai.lt) is self-hosted; no known provider in SPF or autodiscover",
+      "reason":"MX (mx.serveriai.lt) is self-hosted",
       "osm_relation_id":966362,
       "spf_resolved":"v=spf1 a mx ip4:195.182.88.160/28 ip4:89.116.15.0/24 include:cphostingas.telecentras.lt include:spf.serveriai.lt -all v=spf1 +mx +a +ip4:89.116.15.129 ~all v=spf1 ip4:31.14.176.0/22 ip4:62.77.152.0/21 ip4:79.98.24.0/21 ip4:80.208.224.0/21 ip4:80.209.224.0/20 ip4:89.40.0.0/20 ip4:89.47.160.0/21 ip4:94.176.232.0/21 ip4:109.235.64.0/21 ip4:176.223.128.0/20 ip4:185.5.52.0/22 ip4:185.69.52.0/22 ip4:185.81.164.0/22 ip4:194.135.80.0/20 ip4:195.181.240.0/21 ip4:212.24.96.0/20 ip4:212.237.232.0/22 -all",
       "mx_asns":[
@@ -2808,7 +2807,7 @@
       ],
       "spf":"v=spf1 mx redirect=spf.serveriai.lt -all",
       "provider":"independent",
-      "reason":"MX (zarasai.hostingas.lt) is self-hosted; no known provider in SPF or autodiscover",
+      "reason":"MX (zarasai.hostingas.lt) is self-hosted",
       "osm_relation_id":966544,
       "spf_resolved":"v=spf1 mx redirect=spf.serveriai.lt -all v=spf1 ip4:31.14.176.0/22 ip4:62.77.152.0/21 ip4:79.98.24.0/21 ip4:80.208.224.0/21 ip4:80.209.224.0/20 ip4:89.40.0.0/20 ip4:89.47.160.0/21 ip4:94.176.232.0/21 ip4:109.235.64.0/21 ip4:176.223.128.0/20 ip4:185.5.52.0/22 ip4:185.69.52.0/22 ip4:185.81.164.0/22 ip4:194.135.80.0/20 ip4:195.181.240.0/21 ip4:212.24.96.0/20 ip4:212.237.232.0/22 -all",
       "mx_asns":[
@@ -2899,8 +2898,8 @@
         "mailz.liepaja.lv"
       ],
       "spf":"v=spf1 include:_spf.mlsend.com include:eu-west-1.amazonses.com ip4:80.232.164.128/27 ip4:54.240.4.15 ip4:80.232.237.216/29 ~all",
-      "provider":"aws",
-      "reason":"MX (mailz.liepaja.lv) is Baltic ISP; SPF authorizes aws — hybrid relay setup",
+      "provider":"baltic-isp",
+      "reason":"MX (mailz.liepaja.lv) hosted on Baltic ISP (Lattelecom)",
       "osm_relation_id":1625505,
       "spf_resolved":"v=spf1 include:_spf.mlsend.com include:eu-west-1.amazonses.com ip4:80.232.164.128/27 ip4:54.240.4.15 ip4:80.232.237.216/29 ~all v=spf1 ip4:185.249.220.0/24 ip4:185.225.161.0/24 ~all v=spf1 include:amazonses.com -all v=spf1 ip4:199.255.192.0/22 ip4:199.127.232.0/22 ip4:54.240.0.0/18 ip4:69.169.224.0/20 ip4:23.249.208.0/20 ip4:23.251.224.0/19 ip4:76.223.176.0/20 ip4:54.240.64.0/18 ip4:76.223.128.0/19 ip4:216.221.160.0/19 ip4:206.55.144.0/20 ip4:24.110.64.0/18 -all",
       "mx_asns":[
@@ -3042,8 +3041,8 @@
         "pasts.aluksne.lv"
       ],
       "spf":"v=spf1 ip4:195.122.28.139 include:_spf.google.com -all",
-      "provider":"google",
-      "reason":"MX (pasts.aluksne.lv) is Baltic ISP; SPF authorizes google — hybrid relay setup",
+      "provider":"baltic-isp",
+      "reason":"MX (pasts.aluksne.lv) hosted on Baltic ISP (Lattelecom)",
       "osm_relation_id":14102153,
       "spf_resolved":"v=spf1 ip4:195.122.28.139 include:_spf.google.com -all v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all",
       "mx_asns":[
@@ -3062,7 +3061,7 @@
       ],
       "spf":"v=spf1 include:spf.protect.sigmanet.lv -all",
       "provider":"independent",
-      "reason":"MX (mx.sigmanet.lv, mx2.sigmanet.lv) is self-hosted; no known provider in SPF or autodiscover",
+      "reason":"MX (mx.sigmanet.lv, mx2.sigmanet.lv) is self-hosted",
       "osm_relation_id":14102155,
       "spf_resolved":"v=spf1 include:spf.protect.sigmanet.lv -all v=spf1 ip4:92.240.66.0/24 ip4:92.240.65.0/24 ip4:92.240.72.0/24 ip4:92.240.80.54 ip4:92.240.80.58 ip4:92.240.80.57 ip4:92.240.80.53 ip4:92.240.80.63 ip4:92.240.80.64 ip4:92.240.80.69 ip4:92.240.80.68 include:spf2.protect.sigmanet.lv -all v=spf1 ip6:2a02:500:4500:b::1 ip6:2a02:500:4500:b::2 ip6:2a02:500:4500:b::3 ip6:2a02:500:4500:b::4 ip6:2a02:500:4500:b::11 ip6:2a02:500:4500:b::12 ip6:2a02:500:4500:b::21 ip6:2a02:500:4500:b::22 -all",
       "mx_asns":[
@@ -3079,8 +3078,8 @@
         "mail.bauska.lv"
       ],
       "spf":"v=spf1 a mx ip4:81.198.190.20 include:spf.protection.outlook.com -all",
-      "provider":"microsoft",
-      "reason":"MX (mail.bauska.lv) is self-hosted; SPF authorizes microsoft — hybrid relay setup",
+      "provider":"independent",
+      "reason":"MX (mail.bauska.lv) is self-hosted",
       "osm_relation_id":14102156,
       "spf_resolved":"v=spf1 a mx ip4:81.198.190.20 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -3119,12 +3118,12 @@
         "mail2.ilva.lv"
       ],
       "spf":"v=spf1 +mx ip4:80.233.228.21 ip4:162.19.224.132 ~all",
-      "provider":"independent",
-      "reason":"MX (mail.dobele.lv, mail2.ilva.lv) is self-hosted; no known provider in SPF or autodiscover",
+      "provider":"baltic-isp",
+      "reason":"MX (mail.dobele.lv, mail2.ilva.lv) hosted on Baltic ISP (TET (Lattelecom))",
       "osm_relation_id":14102159,
       "mx_asns":[
-        16276,
-        47499
+        5518,
+        16276
       ]
     },
     "LV-0508":{
@@ -3160,8 +3159,8 @@
         "mail.jelgavasnovads.lv"
       ],
       "spf":"v=spf1 a mx include:protection.outlook.com -all",
-      "provider":"microsoft",
-      "reason":"MX (anubis.jelgavasnovads.lv, mail.jelgavasnovads.lv) is Baltic ISP; SPF authorizes microsoft — hybrid relay setup",
+      "provider":"baltic-isp",
+      "reason":"MX (anubis.jelgavasnovads.lv, mail.jelgavasnovads.lv) hosted on Baltic ISP (Lattelecom)",
       "osm_relation_id":14102161,
       "spf_resolved":"v=spf1 a mx include:protection.outlook.com -all v=spf1 include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -3204,7 +3203,7 @@
       ],
       "spf":"v=spf1 a mx a:mail.iviks.lv ip4:85.15.236.0/23 ip4:85.15.208.0/23 -all",
       "provider":"independent",
-      "reason":"MX (mail.iviks.lv) is self-hosted; no known provider in SPF or autodiscover",
+      "reason":"MX (mail.iviks.lv) is self-hosted",
       "osm_relation_id":14102164,
       "mx_asns":[
         29600
@@ -3277,7 +3276,7 @@
       ],
       "spf":"v=spf1 include:spf.protect.sigmanet.lv include:mail.ludza.lv -all",
       "provider":"independent",
-      "reason":"MX (mx.sigmanet.lv, mx2.sigmanet.lv) is self-hosted; no known provider in SPF or autodiscover",
+      "reason":"MX (mx.sigmanet.lv, mx2.sigmanet.lv) is self-hosted",
       "osm_relation_id":14102168,
       "spf_resolved":"v=spf1 include:spf.protect.sigmanet.lv include:mail.ludza.lv -all v=spf1 ip4:92.240.66.0/24 ip4:92.240.65.0/24 ip4:92.240.72.0/24 ip4:92.240.80.54 ip4:92.240.80.58 ip4:92.240.80.57 ip4:92.240.80.53 ip4:92.240.80.63 ip4:92.240.80.64 ip4:92.240.80.69 ip4:92.240.80.68 include:spf2.protect.sigmanet.lv -all v=spf1 ip6:2a02:500:4500:b::1 ip6:2a02:500:4500:b::2 ip6:2a02:500:4500:b::3 ip6:2a02:500:4500:b::4 ip6:2a02:500:4500:b::11 ip6:2a02:500:4500:b::12 ip6:2a02:500:4500:b::21 ip6:2a02:500:4500:b::22 -all",
       "mx_asns":[
@@ -3312,7 +3311,7 @@
       ],
       "spf":"v=spf1 ip4:94.100.9.4 ip4:94.100.9.10 include:spf.mailjet.com ~all",
       "provider":"independent",
-      "reason":"MX (mail.ogresnovads.lv) is self-hosted; no known provider in SPF or autodiscover",
+      "reason":"MX (mail.ogresnovads.lv) is self-hosted",
       "osm_relation_id":14102171,
       "spf_resolved":"v=spf1 ip4:94.100.9.4 ip4:94.100.9.10 include:spf.mailjet.com ~all v=spf1 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:45.14.148.0/22 ~all",
       "mx_asns":[
@@ -3391,7 +3390,7 @@
       ],
       "spf":"v=spf1 include:spf.protect.sigmanet.lv -all",
       "provider":"independent",
-      "reason":"MX (mx.sigmanet.lv, mx2.sigmanet.lv) is self-hosted; no known provider in SPF or autodiscover",
+      "reason":"MX (mx.sigmanet.lv, mx2.sigmanet.lv) is self-hosted",
       "osm_relation_id":14102163,
       "spf_resolved":"v=spf1 include:spf.protect.sigmanet.lv -all v=spf1 ip4:92.240.66.0/24 ip4:92.240.65.0/24 ip4:92.240.72.0/24 ip4:92.240.80.54 ip4:92.240.80.58 ip4:92.240.80.57 ip4:92.240.80.53 ip4:92.240.80.63 ip4:92.240.80.64 ip4:92.240.80.69 ip4:92.240.80.68 include:spf2.protect.sigmanet.lv -all v=spf1 ip6:2a02:500:4500:b::1 ip6:2a02:500:4500:b::2 ip6:2a02:500:4500:b::3 ip6:2a02:500:4500:b::4 ip6:2a02:500:4500:b::11 ip6:2a02:500:4500:b::12 ip6:2a02:500:4500:b::21 ip6:2a02:500:4500:b::22 -all",
       "mx_asns":[
@@ -3431,7 +3430,7 @@
       ],
       "spf":"v=spf1 include:spf.protect.sigmanet.lv -all",
       "provider":"independent",
-      "reason":"MX (mx.sigmanet.lv, mx2.sigmanet.lv) is self-hosted; no known provider in SPF or autodiscover",
+      "reason":"MX (mx.sigmanet.lv, mx2.sigmanet.lv) is self-hosted",
       "osm_relation_id":14102172,
       "spf_resolved":"v=spf1 include:spf.protect.sigmanet.lv -all v=spf1 ip4:92.240.66.0/24 ip4:92.240.65.0/24 ip4:92.240.72.0/24 ip4:92.240.80.54 ip4:92.240.80.58 ip4:92.240.80.57 ip4:92.240.80.53 ip4:92.240.80.63 ip4:92.240.80.64 ip4:92.240.80.69 ip4:92.240.80.68 include:spf2.protect.sigmanet.lv -all v=spf1 ip6:2a02:500:4500:b::1 ip6:2a02:500:4500:b::2 ip6:2a02:500:4500:b::3 ip6:2a02:500:4500:b::4 ip6:2a02:500:4500:b::11 ip6:2a02:500:4500:b::12 ip6:2a02:500:4500:b::21 ip6:2a02:500:4500:b::22 -all",
       "mx_asns":[
@@ -3488,7 +3487,7 @@
       ],
       "spf":"v=spf1 a mx a:webmail.garmtech.net a:web11.garmtech.net a:ns2.garmtech.com include:relay.mailchannels.net ~all",
       "provider":"independent",
-      "reason":"MX (mail.saulkrasti.lv, mx2.garmtech.com) is self-hosted; no known provider in SPF or autodiscover",
+      "reason":"MX (mail.saulkrasti.lv, mx2.garmtech.com) is self-hosted",
       "osm_relation_id":14102178,
       "spf_resolved":"v=spf1 a mx a:webmail.garmtech.net a:web11.garmtech.net a:ns2.garmtech.com include:relay.mailchannels.net ~all v=spf1 ip4:23.83.208.0/20 ip4:35.85.190.185/32 ~all",
       "mx_asns":[
@@ -3563,8 +3562,8 @@
         "mail.tukums.lv"
       ],
       "spf":"v=spf1 ip4:91.135.81.2  -all",
-      "provider":"microsoft",
-      "reason":"MX (mail.tukums.lv) is self-hosted; autodiscover points to microsoft",
+      "provider":"independent",
+      "reason":"MX (mail.tukums.lv) is self-hosted",
       "osm_relation_id":14102182,
       "mx_asns":[
         43513
@@ -3583,8 +3582,8 @@
         "mx.online.lv"
       ],
       "spf":"v=spf1 ip4:195.13.208.226 include:_spf.online.lv include:_spf.google.com  -all",
-      "provider":"google",
-      "reason":"MX (mx.online.lv) is Baltic ISP; SPF authorizes google — hybrid relay setup",
+      "provider":"baltic-isp",
+      "reason":"MX (mx.online.lv) hosted on Baltic ISP (Lattelecom)",
       "osm_relation_id":14102181,
       "spf_resolved":"v=spf1 ip4:195.13.208.226 include:_spf.online.lv include:_spf.google.com  -all v=spf1 ip4:87.110.224.30 ip4:81.198.164.220 ip4:84.237.195.153/30 ip4:81.198.165.177/30 ip4:80.232.230.225/30 ip4:81.198.164.193 v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all",
       "mx_asns":[
@@ -3601,8 +3600,8 @@
         "mail2.valka.lv"
       ],
       "spf":"v=spf1 a ip4:91.105.203.0/25 ip4:194.19.240.38/32 ip4:194.19.240.43/32 a:valka.lv. a:mail.valka.lv. a:mail.telia.lv. ?all",
-      "provider":"telia",
-      "reason":"MX (mail2.valka.lv) is self-hosted; SPF authorizes telia — hybrid relay setup",
+      "provider":"independent",
+      "reason":"MX (mail2.valka.lv) is self-hosted",
       "osm_relation_id":14102183,
       "mx_asns":[
         199103

@@ -79,10 +79,9 @@ def classify(
     Classification order:
     1. MX hostname matches a known provider directly
     2. CNAME of MX host resolves to a known provider
-    3. MX is a known gateway → check SPF/autodiscover for backend provider
-    4. MX is independent/Baltic ISP → check SPF/autodiscover for hybrid setups
-    5. No MX → fall back to SPF-only classification
-    6. Nothing matches → unknown
+    3. MX is a known gateway (spam filter) → check SPF/autodiscover for backend
+    4. MX exists but unrecognized → independent or Baltic ISP (by ASN)
+    5. No MX → unknown
     """
     mx_blob = " ".join(mx_records).lower()
     mx_display = ", ".join(mx_records[:2])
@@ -131,25 +130,9 @@ def classify(
             )
         # Gateway relays to unknown backend — fall through to independent
 
-    # 4. MX exists but no direct provider match
+    # 4. MX exists but no direct provider match → independent or Baltic ISP
     if mx_records:
-        # Check SPF for hyperscaler behind local/ISP relay
-        spf_provider = _check_spf_all(spf_record, resolved_spf)
-        ad_provider = classify_from_autodiscover(autodiscover)
-
         is_baltic_isp = bool(mx_asns and mx_asns & BALTIC_ISP_ASNS.keys())
-        local_label = "Baltic ISP" if is_baltic_isp else "self-hosted"
-
-        if spf_provider:
-            return spf_provider, (
-                f"MX ({mx_display}) is {local_label}; "
-                f"SPF authorizes {spf_provider} — hybrid relay setup"
-            )
-        if ad_provider:
-            return ad_provider, (
-                f"MX ({mx_display}) is {local_label}; "
-                f"autodiscover points to {ad_provider}"
-            )
 
         if is_baltic_isp:
             asn_names = [
@@ -162,17 +145,11 @@ def classify(
             )
 
         return "independent", (
-            f"MX ({mx_display}) is self-hosted; "
-            f"no known provider in SPF or autodiscover"
+            f"MX ({mx_display}) is self-hosted"
         )
 
-    # 5. No MX — SPF-only fallback
-    spf_provider = _check_spf_all(spf_record, resolved_spf)
-    if spf_provider:
-        return spf_provider, f"No MX records; classified via SPF ({spf_provider})"
-
-    # 6. Nothing
-    return "unknown", "No MX records and no recognized provider in SPF"
+    # 5. No MX → unknown
+    return "unknown", "No MX records found"
 
 
 def classify_from_mx(mx_records: list[str]) -> str | None:
