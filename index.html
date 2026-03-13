@@ -50,6 +50,14 @@
   .info-card a { color: #2563eb; text-decoration: none; }
   .info-card a:hover { text-decoration: underline; }
   .info-title { display: none; font-size: 16px; font-weight: 600; color: #1a1a2e; margin-bottom: 12px; }
+  .info-card-wide { grid-column: 1 / -1; }
+  .stats-row { display: flex; align-items: center; gap: 8px; margin: 4px 0; font-size: 13px; }
+  .stats-label { width: 90px; text-align: right; color: #555; flex-shrink: 0; }
+  .stats-bar-bg { flex: 1; background: #e8e8e8; border-radius: 3px; height: 16px; overflow: hidden; }
+  .stats-bar { height: 100%; border-radius: 3px; min-width: 2px; }
+  .stats-value { width: 70px; font-size: 12px; color: #666; flex-shrink: 0; }
+  .stats-columns { display: flex; gap: 32px; flex-wrap: wrap; }
+  .stats-column { flex: 1; min-width: 280px; }
 
   #map { flex: 1; position: relative; width: 100%; will-change: transform; }
 
@@ -151,6 +159,10 @@
       <h3>Open source &amp; open data</h3>
       <p>Inspired by <a href="https://mxmap.ch" target="_blank">mxmap.ch</a> (Swiss municipalities).<br>
       Code and data on <a href="https://github.com/livenson/mxmap" target="_blank">GitHub</a>.</p>
+    </div>
+    <div class="info-card info-card-wide" id="stats-card" style="display:none">
+      <h3>Key findings</h3>
+      <div id="stats-content"></div>
     </div>
   </div>
 </section>
@@ -267,6 +279,71 @@ function legendGroupHtml(label, keys, counts) {
   const heading = label ? `<span class="legend-group-label">${label}</span>` : '';
   const items = visible.map(k => legendItemHtml(k, counts)).join('<br>');
   return `<div class="legend-group">${heading}${items}</div>`;
+}
+
+// --- Stats panel ---
+function buildStats(muniList) {
+  const card = document.getElementById('stats-card');
+  const content = document.getElementById('stats-content');
+  if (!card || !content) return;
+
+  const total = muniList.length;
+  const withMx = muniList.filter(m => (m.mx || []).length > 0).length;
+
+  // MX server country distribution
+  const countryCounts = {};
+  for (const m of muniList) {
+    for (const cc of (m.mx_countries || [])) {
+      countryCounts[cc] = (countryCounts[cc] || 0) + 1;
+    }
+  }
+  const countryEntries = Object.entries(countryCounts).sort((a, b) => b[1] - a[1]);
+
+  // Provider jurisdiction summary
+  const usProviders = new Set(['Microsoft', 'Google', 'AWS']);
+  let usCount = 0, euCount = 0, otherCount = 0;
+  for (const m of muniList) {
+    const p = m.classification.provider;
+    if (usProviders.has(p)) usCount++;
+    else if (p === 'Unknown') otherCount++;
+    else euCount++;
+  }
+
+  // MX in US vs Baltic
+  let mxInUs = 0, mxInBaltic = 0;
+  for (const m of muniList) {
+    const cc = m.mx_countries || [];
+    if (cc.includes('US')) mxInUs++;
+    if (cc.some(c => ['EE', 'LV', 'LT'].includes(c))) mxInBaltic++;
+  }
+
+  function barHtml(label, value, max, color) {
+    const pct = max > 0 ? (value / max * 100) : 0;
+    const pctLabel = (value / total * 100).toFixed(0);
+    return `<div class="stats-row">` +
+      `<span class="stats-label">${escapeHtml(label)}</span>` +
+      `<div class="stats-bar-bg"><div class="stats-bar" style="width:${pct}%;background:${color}"></div></div>` +
+      `<span class="stats-value">${value} (${pctLabel}%)</span></div>`;
+  }
+
+  const maxCountry = countryEntries.length > 0 ? countryEntries[0][1] : 1;
+  const countryColors = { US: '#E83838', EE: '#2EDBA8', LV: '#34D5A0', LT: '#78FFD6' };
+
+  let html = '<div class="stats-columns"><div class="stats-column">';
+  html += '<div style="font-size:12px;color:#999;text-transform:uppercase;letter-spacing:0.3px;font-weight:600;margin-bottom:4px">Provider jurisdiction</div>';
+  html += barHtml('US-based', usCount, total, '#E83838');
+  html += barHtml('Baltic/EU', euCount, total, '#2EDBA8');
+  if (otherCount > 0) html += barHtml('Unknown', otherCount, total, '#BFBFBF');
+  html += '</div><div class="stats-column">';
+  html += '<div style="font-size:12px;color:#999;text-transform:uppercase;letter-spacing:0.3px;font-weight:600;margin-bottom:4px">MX server location (by IP registration)</div>';
+  for (const [cc, count] of countryEntries.slice(0, 6)) {
+    html += barHtml(cc, count, maxCountry, countryColors[cc] || '#888');
+  }
+  html += '</div></div>';
+  html += `<p style="font-size:12px;color:#777;margin-top:8px"><strong>${mxInUs}</strong> of ${withMx} municipalities with MX records route mail through servers registered in the US.</p>`;
+
+  content.innerHTML = html;
+  card.style.display = '';
 }
 
 // --- Feature matching ---
@@ -482,6 +559,9 @@ async function loadData() {
     }
   };
   updateLegend();
+
+  // Stats panel
+  buildStats(dnsData.municipalities);
 
   // Render map
   renderMap(topo);
