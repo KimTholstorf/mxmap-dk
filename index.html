@@ -382,7 +382,48 @@ async function loadData() {
   ]);
 
   const topo = await topoRes.json();
-  dnsData = await dataRes.json();
+  const raw = await dataRes.json();
+
+  // Normalise pipeline output: municipalities may be a dict keyed by BFS
+  const rawList = Array.isArray(raw.municipalities)
+    ? raw.municipalities
+    : Object.values(raw.municipalities || {});
+
+  // Map pipeline provider names to display names
+  const providerDisplayMap = {
+    'microsoft': 'Microsoft', 'google': 'Google', 'aws': 'AWS',
+    'telia': 'Telia', 'tet': 'TET', 'zone': 'Zone.eu',
+    'baltic-isp': 'Local ISP', 'independent': 'Self-hosted', 'unknown': 'Unknown',
+  };
+
+  // Transform flat pipeline entries into the shape the frontend expects
+  const muniList = rawList.map(m => {
+    const displayProvider = providerDisplayMap[m.provider] || m.provider;
+    const mxRecords = (m.mx || []).map((host, i) => ({ priority: (i + 1) * 10, host }));
+    return {
+      ...m,
+      region: m.canton || '',
+      domain: m.domain || '',
+      classification: {
+        provider: displayProvider,
+        mx_records: mxRecords,
+        spf: m.spf || '',
+        confidence: 80,
+      },
+    };
+  });
+
+  const providerCounts = {};
+  for (const m of muniList) {
+    const p = m.classification.provider;
+    providerCounts[p] = (providerCounts[p] || 0) + 1;
+  }
+
+  dnsData = {
+    municipalities: muniList,
+    stats: { total: muniList.length, provider_counts: providerCounts },
+    generated_at: raw.generated || raw.generated_at,
+  };
 
   // Build lookups
   for (const m of dnsData.municipalities) {
