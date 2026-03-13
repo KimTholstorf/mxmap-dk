@@ -59,6 +59,8 @@ SKIP_DOMAINS = {
     "example.ee",
     "example.lv",
     "example.lt",
+    "example.no",
+    "kommune.no",
     "sentry.io",
     "w3.org",
     "gstatic.com",
@@ -94,10 +96,15 @@ GATEWAY_KEYWORDS = {
     "edelkey": ["edelkey.net"],
     "ippnet": ["ippnet.fi"],
     "garmtech": ["garmtech.com", "garmtech.net"],
+    "cisco-ironport": ["iphmx.com"],
+    "staysecure": ["staysecuregroup.com"],
+    "mailanyone": ["mailanyone.net"],
+    "comendo": ["comendosystems.com"],
+    "heimdal": ["heimdalsecurity.com"],
 }
 
-# Baltic ISP ASNs (replaces SWISS_ISP_ASNS)
-BALTIC_ISP_ASNS: dict[int, str] = {
+# Local ISP ASNs (replaces SWISS_ISP_ASNS)
+LOCAL_ISP_ASNS: dict[int, str] = {
     # Estonia
     3249: "Telia (EE/LT)",
     2586: "Elisa Eesti",
@@ -136,6 +143,13 @@ BALTIC_ISP_ASNS: dict[int, str] = {
     199087: "Kase Oy",
     29240: "LanMail",
     3238: "Ålands Telekommunikation",
+    # Norway
+    29492: "Eidsiva/Hedmark IKT (NO)",
+    199900: "BedSys (NO)",
+    8542: "Eviny (NO)",
+    210615: "Alta Kommune (NO)",
+    207464: "Varanger Kraft (NO)",
+    29695: "Altibox (NO)",
 }
 
 CONCURRENCY = 20

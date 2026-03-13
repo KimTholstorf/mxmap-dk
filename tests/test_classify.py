@@ -92,16 +92,16 @@ class TestClassify:
         )
         assert provider(result) == "microsoft"
 
-    def test_baltic_isp_asn(self):
+    def test_local_isp_asn(self):
         result = classify(
             ["mail1.example.ee"],
             "",
             mx_asns={3249},
         )
-        assert provider(result) == "baltic-isp"
-        assert "Baltic ISP" in reason(result)
+        assert provider(result) == "local-isp"
+        assert "Local ISP" in reason(result)
 
-    def test_baltic_isp_does_not_override_hostname_match(self):
+    def test_local_isp_does_not_override_hostname_match(self):
         result = classify(
             ["mail.protection.outlook.com"],
             "",
@@ -109,7 +109,7 @@ class TestClassify:
         )
         assert provider(result) == "microsoft"
 
-    def test_baltic_isp_does_not_override_cname_match(self):
+    def test_local_isp_does_not_override_cname_match(self):
         result = classify(
             ["mail.example.ee"],
             "",
@@ -118,36 +118,36 @@ class TestClassify:
         )
         assert provider(result) == "microsoft"
 
-    def test_baltic_isp_with_microsoft_spf_stays_baltic_isp(self):
-        """Baltic ISP stays baltic-isp — SPF only means authorized sender."""
+    def test_local_isp_with_microsoft_spf_stays_local_isp(self):
+        """Local ISP stays local-isp — SPF only means authorized sender."""
         result = classify(
             ["mail1.example.ee"],
             "v=spf1 include:spf.protection.outlook.com -all",
             mx_asns={3249},
         )
-        assert provider(result) == "baltic-isp"
+        assert provider(result) == "local-isp"
 
-    def test_baltic_isp_with_autodiscover_stays_baltic_isp(self):
-        """Baltic ISP stays baltic-isp even with autodiscover pointing elsewhere."""
+    def test_local_isp_with_autodiscover_stays_local_isp(self):
+        """Local ISP stays local-isp even with autodiscover pointing elsewhere."""
         result = classify(
             ["mail1.example.ee"],
             "",
             mx_asns={3249},
             autodiscover={"autodiscover_cname": "autodiscover.outlook.com"},
         )
-        assert provider(result) == "baltic-isp"
+        assert provider(result) == "local-isp"
 
-    def test_baltic_isp_without_spf_or_autodiscover_stays_baltic_isp(self):
-        """Baltic ISP relay without any hyperscaler signals stays baltic-isp."""
+    def test_local_isp_without_spf_or_autodiscover_stays_local_isp(self):
+        """Local ISP relay without any hyperscaler signals stays local-isp."""
         result = classify(
             ["mail1.example.ee"],
             "",
             mx_asns={3249},
             autodiscover=None,
         )
-        assert provider(result) == "baltic-isp"
+        assert provider(result) == "local-isp"
 
-    def test_non_baltic_isp_asn_stays_independent(self):
+    def test_non_local_isp_asn_stays_independent(self):
         result = classify(
             ["mail.example.ee"],
             "",

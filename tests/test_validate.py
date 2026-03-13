@@ -172,7 +172,7 @@ class TestScoreEntry:
         try:
             result = score_entry(
                 {
-                    "provider": "baltic-isp",
+                    "provider": "local-isp",
                     "domain": "tallinn.ee",
                     "mx": ["mx.tallinn.ee"],
                     "spf": "v=spf1 include:spf.protection.outlook.com ~all",

@@ -8,7 +8,7 @@ from mail_sovereignty.constants import (
     PROVIDER_KEYWORDS,
     FOREIGN_SENDER_KEYWORDS,
     SKIP_DOMAINS,
-    BALTIC_ISP_ASNS,
+    LOCAL_ISP_ASNS,
 )
 
 
@@ -45,12 +45,12 @@ def test_skip_domains_contains_expected():
     assert "schema.org" in SKIP_DOMAINS
 
 
-def test_baltic_isp_asns_contains_key_providers():
-    assert 3249 in BALTIC_ISP_ASNS  # Telia
-    assert 5518 in BALTIC_ISP_ASNS  # TET
-    assert 2586 in BALTIC_ISP_ASNS  # Elisa
-    assert 13194 in BALTIC_ISP_ASNS  # Bite
+def test_local_isp_asns_contains_key_providers():
+    assert 3249 in LOCAL_ISP_ASNS  # Telia
+    assert 5518 in LOCAL_ISP_ASNS  # TET
+    assert 2586 in LOCAL_ISP_ASNS  # Elisa
+    assert 13194 in LOCAL_ISP_ASNS  # Bite
 
 
-def test_baltic_isp_asns_minimum_count():
-    assert len(BALTIC_ISP_ASNS) >= 10
+def test_local_isp_asns_minimum_count():
+    assert len(LOCAL_ISP_ASNS) >= 10

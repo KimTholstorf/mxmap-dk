@@ -1,0 +1,2858 @@
+[
+  {
+    "id": "NO-0301",
+    "name": "Oslo",
+    "country": "NO",
+    "region": "Oslo",
+    "domain": "oslo.kommune.no",
+    "osm_relation_id": 2775550
+  },
+  {
+    "id": "NO-1101",
+    "name": "Eigersund",
+    "country": "NO",
+    "region": "Rogaland",
+    "domain": "eigersund.kommune.no",
+    "osm_relation_id": 405825
+  },
+  {
+    "id": "NO-1103",
+    "name": "Stavanger",
+    "country": "NO",
+    "region": "Rogaland",
+    "domain": "stavanger.kommune.no",
+    "osm_relation_id": 10150658
+  },
+  {
+    "id": "NO-1106",
+    "name": "Haugesund",
+    "country": "NO",
+    "region": "Rogaland",
+    "domain": "haugesund.kommune.no",
+    "osm_relation_id": 405834
+  },
+  {
+    "id": "NO-1108",
+    "name": "Sandnes",
+    "country": "NO",
+    "region": "Rogaland",
+    "domain": "sandnes.kommune.no",
+    "osm_relation_id": 10150660
+  },
+  {
+    "id": "NO-1111",
+    "name": "Sokndal",
+    "country": "NO",
+    "region": "Rogaland",
+    "domain": "sokndal.kommune.no",
+    "osm_relation_id": 405788
+  },
+  {
+    "id": "NO-1112",
+    "name": "Lund",
+    "country": "NO",
+    "region": "Rogaland",
+    "domain": "lund.kommune.no",
+    "osm_relation_id": 405824
+  },
+  {
+    "id": "NO-1114",
+    "name": "Bjerkreim",
+    "country": "NO",
+    "region": "Rogaland",
+    "domain": "bjerkreim.kommune.no",
+    "osm_relation_id": 405826
+  },
+  {
+    "id": "NO-1119",
+    "name": "Hå",
+    "country": "NO",
+    "region": "Rogaland",
+    "domain": "ha.no",
+    "osm_relation_id": 405787
+  },
+  {
+    "id": "NO-1120",
+    "name": "Klepp",
+    "country": "NO",
+    "region": "Rogaland",
+    "domain": "klepp.kommune.no",
+    "osm_relation_id": 405655
+  },
+  {
+    "id": "NO-1121",
+    "name": "Time",
+    "country": "NO",
+    "region": "Rogaland",
+    "domain": "time.kommune.no",
+    "osm_relation_id": 405786
+  },
+  {
+    "id": "NO-1122",
+    "name": "Gjesdal",
+    "country": "NO",
+    "region": "Rogaland",
+    "domain": "gjesdal.kommune.no",
+    "osm_relation_id": 405827
+  },
+  {
+    "id": "NO-1124",
+    "name": "Sola",
+    "country": "NO",
+    "region": "Rogaland",
+    "domain": "sola.kommune.no",
+    "osm_relation_id": 405653
+  },
+  {
+    "id": "NO-1127",
+    "name": "Randaberg",
+    "country": "NO",
+    "region": "Rogaland",
+    "domain": "randaberg.kommune.no",
+    "osm_relation_id": 405652
+  },
+  {
+    "id": "NO-1130",
+    "name": "Strand",
+    "country": "NO",
+    "region": "Rogaland",
+    "domain": "strand.kommune.no",
+    "osm_relation_id": 405657
+  },
+  {
+    "id": "NO-1133",
+    "name": "Hjelmeland",
+    "country": "NO",
+    "region": "Rogaland",
+    "domain": "hjelmeland.kommune.no",
+    "osm_relation_id": 405829
+  },
+  {
+    "id": "NO-1134",
+    "name": "Suldal",
+    "country": "NO",
+    "region": "Rogaland",
+    "domain": "suldal.kommune.no",
+    "osm_relation_id": 405830
+  },
+  {
+    "id": "NO-1135",
+    "name": "Sauda",
+    "country": "NO",
+    "region": "Rogaland",
+    "domain": "sauda.kommune.no",
+    "osm_relation_id": 405837
+  },
+  {
+    "id": "NO-1144",
+    "name": "Kvitsøy",
+    "country": "NO",
+    "region": "Rogaland",
+    "domain": "kvitsoy.kommune.no",
+    "osm_relation_id": 405658
+  },
+  {
+    "id": "NO-1145",
+    "name": "Bokn",
+    "country": "NO",
+    "region": "Rogaland",
+    "domain": "bokn.kommune.no",
+    "osm_relation_id": 405833
+  },
+  {
+    "id": "NO-1146",
+    "name": "Tysvær",
+    "country": "NO",
+    "region": "Rogaland",
+    "domain": "tysver.kommune.no",
+    "osm_relation_id": 405835
+  },
+  {
+    "id": "NO-1149",
+    "name": "Karmøy",
+    "country": "NO",
+    "region": "Rogaland",
+    "domain": "karmoy.kommune.no",
+    "osm_relation_id": 405832
+  },
+  {
+    "id": "NO-1151",
+    "name": "Utsira",
+    "country": "NO",
+    "region": "Rogaland",
+    "domain": "utsira.kommune.no",
+    "osm_relation_id": 405831
+  },
+  {
+    "id": "NO-1160",
+    "name": "Vindafjord",
+    "country": "NO",
+    "region": "Rogaland",
+    "domain": "vindafjord.kommune.no",
+    "osm_relation_id": 405845
+  },
+  {
+    "id": "NO-1505",
+    "name": "Kristiansund",
+    "country": "NO",
+    "region": "Møre og Romsdal",
+    "domain": "kristiansund.kommune.no",
+    "osm_relation_id": 406837
+  },
+  {
+    "id": "NO-1506",
+    "name": "Molde",
+    "country": "NO",
+    "region": "Møre og Romsdal",
+    "domain": "molde.kommune.no",
+    "osm_relation_id": 10148086
+  },
+  {
+    "id": "NO-1508",
+    "name": "Ålesund",
+    "country": "NO",
+    "region": "Møre og Romsdal",
+    "domain": "alesund.kommune.no",
+    "osm_relation_id": 16873323
+  },
+  {
+    "id": "NO-1511",
+    "name": "Vanylven",
+    "country": "NO",
+    "region": "Møre og Romsdal",
+    "domain": "vanylven.kommune.no",
+    "osm_relation_id": 406862
+  },
+  {
+    "id": "NO-1514",
+    "name": "Sande",
+    "country": "NO",
+    "region": "Møre og Romsdal",
+    "domain": "sande-mr.kommune.no",
+    "osm_relation_id": 406867
+  },
+  {
+    "id": "NO-1515",
+    "name": "Herøy (Møre og Romsdal)",
+    "country": "NO",
+    "region": "Møre og Romsdal",
+    "domain": "heroy.kommune.no",
+    "osm_relation_id": 406866
+  },
+  {
+    "id": "NO-1516",
+    "name": "Ulstein",
+    "country": "NO",
+    "region": "Møre og Romsdal",
+    "domain": "ulstein.kommune.no",
+    "osm_relation_id": 406865
+  },
+  {
+    "id": "NO-1517",
+    "name": "Hareid",
+    "country": "NO",
+    "region": "Møre og Romsdal",
+    "domain": "hareid.kommune.no",
+    "osm_relation_id": 406864
+  },
+  {
+    "id": "NO-1520",
+    "name": "Ørsta",
+    "country": "NO",
+    "region": "Møre og Romsdal",
+    "domain": "orsta.kommune.no",
+    "osm_relation_id": 406860
+  },
+  {
+    "id": "NO-1525",
+    "name": "Stranda",
+    "country": "NO",
+    "region": "Møre og Romsdal",
+    "domain": "stranda.kommune.no",
+    "osm_relation_id": 406852
+  },
+  {
+    "id": "NO-1528",
+    "name": "Sykkylven",
+    "country": "NO",
+    "region": "Møre og Romsdal",
+    "domain": "sykkylven.kommune.no",
+    "osm_relation_id": 406857
+  },
+  {
+    "id": "NO-1531",
+    "name": "Sula",
+    "country": "NO",
+    "region": "Møre og Romsdal",
+    "domain": "sula.kommune.no",
+    "osm_relation_id": 406863
+  },
+  {
+    "id": "NO-1532",
+    "name": "Giske",
+    "country": "NO",
+    "region": "Møre og Romsdal",
+    "domain": "giske.kommune.no",
+    "osm_relation_id": 406859
+  },
+  {
+    "id": "NO-1535",
+    "name": "Vestnes",
+    "country": "NO",
+    "region": "Møre og Romsdal",
+    "domain": "vestnes.kommune.no",
+    "osm_relation_id": 406850
+  },
+  {
+    "id": "NO-1539",
+    "name": "Rauma",
+    "country": "NO",
+    "region": "Møre og Romsdal",
+    "domain": "rauma.kommune.no",
+    "osm_relation_id": 406844
+  },
+  {
+    "id": "NO-1547",
+    "name": "Aukra",
+    "country": "NO",
+    "region": "Møre og Romsdal",
+    "domain": "aukra.kommune.no",
+    "osm_relation_id": 406847
+  },
+  {
+    "id": "NO-1554",
+    "name": "Averøy",
+    "country": "NO",
+    "region": "Møre og Romsdal",
+    "domain": "averoy.kommune.no",
+    "osm_relation_id": 406840
+  },
+  {
+    "id": "NO-1557",
+    "name": "Gjemnes",
+    "country": "NO",
+    "region": "Møre og Romsdal",
+    "domain": "gjemnes.kommune.no",
+    "osm_relation_id": 406841
+  },
+  {
+    "id": "NO-1560",
+    "name": "Tingvoll",
+    "country": "NO",
+    "region": "Møre og Romsdal",
+    "domain": "tingvoll.kommune.no",
+    "osm_relation_id": 406838
+  },
+  {
+    "id": "NO-1563",
+    "name": "Sunndal",
+    "country": "NO",
+    "region": "Møre og Romsdal",
+    "domain": "sunndal.kommune.no",
+    "osm_relation_id": 406839
+  },
+  {
+    "id": "NO-1566",
+    "name": "Surnadal",
+    "country": "NO",
+    "region": "Møre og Romsdal",
+    "domain": "surnadal.kommune.no",
+    "osm_relation_id": 406836
+  },
+  {
+    "id": "NO-1573",
+    "name": "Smøla",
+    "country": "NO",
+    "region": "Møre og Romsdal",
+    "domain": "smola.kommune.no",
+    "osm_relation_id": 405267
+  },
+  {
+    "id": "NO-1576",
+    "name": "Aure",
+    "country": "NO",
+    "region": "Møre og Romsdal",
+    "domain": "aure.kommune.no",
+    "osm_relation_id": 406833
+  },
+  {
+    "id": "NO-1577",
+    "name": "Volda",
+    "country": "NO",
+    "region": "Møre og Romsdal",
+    "domain": "volda.kommune.no",
+    "osm_relation_id": 10148316
+  },
+  {
+    "id": "NO-1578",
+    "name": "Fjord",
+    "country": "NO",
+    "region": "Møre og Romsdal",
+    "domain": "fjord.kommune.no",
+    "osm_relation_id": 10148303
+  },
+  {
+    "id": "NO-1579",
+    "name": "Hustadvika",
+    "country": "NO",
+    "region": "Møre og Romsdal",
+    "domain": "hustadvika.kommune.no",
+    "osm_relation_id": 10148272
+  },
+  {
+    "id": "NO-1580",
+    "name": "Haram",
+    "country": "NO",
+    "region": "Møre og Romsdal",
+    "domain": "haram.kommune.no",
+    "osm_relation_id": 406856
+  },
+  {
+    "id": "NO-1804",
+    "name": "Bodø",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "bodo.kommune.no",
+    "osm_relation_id": 409037
+  },
+  {
+    "id": "NO-1806",
+    "name": "Narvik",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "narvik.kommune.no",
+    "osm_relation_id": 10143373
+  },
+  {
+    "id": "NO-1811",
+    "name": "Bindal",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "bindal.kommune.no",
+    "osm_relation_id": 408210
+  },
+  {
+    "id": "NO-1812",
+    "name": "Sømna",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "somna.kommune.no",
+    "osm_relation_id": 408211
+  },
+  {
+    "id": "NO-1813",
+    "name": "Brønnøy",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "bronnoy.kommune.no",
+    "osm_relation_id": 408212
+  },
+  {
+    "id": "NO-1815",
+    "name": "Vega",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "vega.kommune.no",
+    "osm_relation_id": 408215
+  },
+  {
+    "id": "NO-1816",
+    "name": "Vevelstad",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "vevelstad.kommune.no",
+    "osm_relation_id": 408214
+  },
+  {
+    "id": "NO-1818",
+    "name": "Herøy (Nordland)",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "heroy-no.kommune.no",
+    "osm_relation_id": 408217
+  },
+  {
+    "id": "NO-1820",
+    "name": "Alstahaug",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "alstahaug.kommune.no",
+    "osm_relation_id": 408216
+  },
+  {
+    "id": "NO-1822",
+    "name": "Leirfjord",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "leirfjord.kommune.no",
+    "osm_relation_id": 408218
+  },
+  {
+    "id": "NO-1824",
+    "name": "Vefsn",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "vefsn.kommune.no",
+    "osm_relation_id": 408213
+  },
+  {
+    "id": "NO-1825",
+    "name": "Grane",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "grane.kommune.no",
+    "osm_relation_id": 408209
+  },
+  {
+    "id": "NO-1826",
+    "name": "Aarborte - Hattfjelldal",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "hattfjelldal.kommune.no",
+    "osm_relation_id": 408200
+  },
+  {
+    "id": "NO-1827",
+    "name": "Dønna",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "donna.kommune.no",
+    "osm_relation_id": 408219
+  },
+  {
+    "id": "NO-1828",
+    "name": "Nesna",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "nesna.kommune.no",
+    "osm_relation_id": 408220
+  },
+  {
+    "id": "NO-1832",
+    "name": "Hemnes",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "hemnes.kommune.no",
+    "osm_relation_id": 408201
+  },
+  {
+    "id": "NO-1833",
+    "name": "Rana - Raane",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "rana.kommune.no",
+    "osm_relation_id": 408202
+  },
+  {
+    "id": "NO-1834",
+    "name": "Lurøy",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "luroy.kommune.no",
+    "osm_relation_id": 408221
+  },
+  {
+    "id": "NO-1835",
+    "name": "Træna",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "trana.kommune.no",
+    "osm_relation_id": 408222
+  },
+  {
+    "id": "NO-1836",
+    "name": "Rødøy",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "rodoy.kommune.no",
+    "osm_relation_id": 408223
+  },
+  {
+    "id": "NO-1837",
+    "name": "Meløy",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "meloy.kommune.no",
+    "osm_relation_id": 409040
+  },
+  {
+    "id": "NO-1838",
+    "name": "Gildeskål",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "gildeskal.kommune.no",
+    "osm_relation_id": 409038
+  },
+  {
+    "id": "NO-1839",
+    "name": "Beiarn",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "beiarn.kommune.no",
+    "osm_relation_id": 409039
+  },
+  {
+    "id": "NO-1840",
+    "name": "Saltdal",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "saltdal.kommune.no",
+    "osm_relation_id": 408203
+  },
+  {
+    "id": "NO-1841",
+    "name": "Fauske - Fuossko",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "fauske.kommune.no",
+    "osm_relation_id": 408204
+  },
+  {
+    "id": "NO-1845",
+    "name": "Sørfold - Fuolldá",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "sorfold.kommune.no",
+    "osm_relation_id": 408205
+  },
+  {
+    "id": "NO-1848",
+    "name": "Steigen",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "steigen.kommune.no",
+    "osm_relation_id": 408208
+  },
+  {
+    "id": "NO-1851",
+    "name": "Lødingen",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "lodingen.kommune.no",
+    "osm_relation_id": 409041
+  },
+  {
+    "id": "NO-1853",
+    "name": "Evenes - Evenášši",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "evenes.kommune.no",
+    "osm_relation_id": 409036
+  },
+  {
+    "id": "NO-1856",
+    "name": "Røst",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "rost.kommune.no",
+    "osm_relation_id": 409032
+  },
+  {
+    "id": "NO-1857",
+    "name": "Værøy",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "varoy.kommune.no",
+    "osm_relation_id": 409033
+  },
+  {
+    "id": "NO-1859",
+    "name": "Flakstad",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "flakstad.kommune.no",
+    "osm_relation_id": 408479
+  },
+  {
+    "id": "NO-1860",
+    "name": "Vestvågøy",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "vestvagoy.kommune.no",
+    "osm_relation_id": 408480
+  },
+  {
+    "id": "NO-1865",
+    "name": "Vågan",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "vagan.kommune.no",
+    "osm_relation_id": 408481
+  },
+  {
+    "id": "NO-1866",
+    "name": "Hadsel",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "hadsel.kommune.no",
+    "osm_relation_id": 409034
+  },
+  {
+    "id": "NO-1867",
+    "name": "Bø",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "boe.kommune.no",
+    "osm_relation_id": 408482
+  },
+  {
+    "id": "NO-1868",
+    "name": "Øksnes",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "oksnes.kommune.no",
+    "osm_relation_id": 408483
+  },
+  {
+    "id": "NO-1870",
+    "name": "Sortland - Suortá",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "sortland.kommune.no",
+    "osm_relation_id": 408484
+  },
+  {
+    "id": "NO-1871",
+    "name": "Andøy",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "andoy.kommune.no",
+    "osm_relation_id": 408160
+  },
+  {
+    "id": "NO-1874",
+    "name": "Moskenes",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "moskenes.kommune.no",
+    "osm_relation_id": 408478
+  },
+  {
+    "id": "NO-1875",
+    "name": "Hábmer - Hamarøy",
+    "country": "NO",
+    "region": "Nordland",
+    "domain": "hamaroy.kommune.no",
+    "osm_relation_id": 10143387
+  },
+  {
+    "id": "NO-3101",
+    "name": "Halden",
+    "country": "NO",
+    "region": "Østfold",
+    "domain": "halden.kommune.no",
+    "osm_relation_id": 406075
+  },
+  {
+    "id": "NO-3103",
+    "name": "Moss",
+    "country": "NO",
+    "region": "Østfold",
+    "domain": "moss.kommune.no",
+    "osm_relation_id": 10155463
+  },
+  {
+    "id": "NO-3105",
+    "name": "Sarpsborg",
+    "country": "NO",
+    "region": "Østfold",
+    "domain": "sarpsborg.com",
+    "osm_relation_id": 406078
+  },
+  {
+    "id": "NO-3107",
+    "name": "Fredrikstad",
+    "country": "NO",
+    "region": "Østfold",
+    "domain": "fredrikstad.kommune.no",
+    "osm_relation_id": 406077
+  },
+  {
+    "id": "NO-3110",
+    "name": "Hvaler",
+    "country": "NO",
+    "region": "Østfold",
+    "domain": "hvaler.kommune.no",
+    "osm_relation_id": 406076
+  },
+  {
+    "id": "NO-3112",
+    "name": "Råde",
+    "country": "NO",
+    "region": "Østfold",
+    "domain": "rade.kommune.no",
+    "osm_relation_id": 406089
+  },
+  {
+    "id": "NO-3114",
+    "name": "Våler (Østfold)",
+    "country": "NO",
+    "region": "Østfold",
+    "domain": "valer-of.kommune.no",
+    "osm_relation_id": 406086
+  },
+  {
+    "id": "NO-3116",
+    "name": "Skiptvet",
+    "country": "NO",
+    "region": "Østfold",
+    "domain": "skiptvet.kommune.no",
+    "osm_relation_id": 406083
+  },
+  {
+    "id": "NO-3118",
+    "name": "Indre Østfold",
+    "country": "NO",
+    "region": "Østfold",
+    "domain": "io.kommune.no",
+    "osm_relation_id": 10155447
+  },
+  {
+    "id": "NO-3120",
+    "name": "Rakkestad",
+    "country": "NO",
+    "region": "Østfold",
+    "domain": "rakkestad.kommune.no",
+    "osm_relation_id": 406079
+  },
+  {
+    "id": "NO-3122",
+    "name": "Marker",
+    "country": "NO",
+    "region": "Østfold",
+    "domain": "marker.kommune.no",
+    "osm_relation_id": 406073
+  },
+  {
+    "id": "NO-3124",
+    "name": "Aremark",
+    "country": "NO",
+    "region": "Østfold",
+    "domain": "aremark.kommune.no",
+    "osm_relation_id": 406074
+  },
+  {
+    "id": "NO-3201",
+    "name": "Bærum",
+    "country": "NO",
+    "region": "Akershus",
+    "domain": "baerum.kommune.no",
+    "osm_relation_id": 406136
+  },
+  {
+    "id": "NO-3203",
+    "name": "Asker",
+    "country": "NO",
+    "region": "Akershus",
+    "domain": "asker.kommune.no",
+    "osm_relation_id": 10483728
+  },
+  {
+    "id": "NO-3205",
+    "name": "Lillestrøm",
+    "country": "NO",
+    "region": "Akershus",
+    "domain": "lillestrom.kommune.no",
+    "osm_relation_id": 10155374
+  },
+  {
+    "id": "NO-3207",
+    "name": "Nordre Follo",
+    "country": "NO",
+    "region": "Akershus",
+    "domain": "nordrefollo.kommune.no",
+    "osm_relation_id": 10155388
+  },
+  {
+    "id": "NO-3209",
+    "name": "Ullensaker",
+    "country": "NO",
+    "region": "Akershus",
+    "domain": "ullensaker.kommune.no",
+    "osm_relation_id": 406118
+  },
+  {
+    "id": "NO-3212",
+    "name": "Nesodden",
+    "country": "NO",
+    "region": "Akershus",
+    "domain": "nesodden.kommune.no",
+    "osm_relation_id": 406135
+  },
+  {
+    "id": "NO-3214",
+    "name": "Frogn",
+    "country": "NO",
+    "region": "Akershus",
+    "domain": "frogn.kommune.no",
+    "osm_relation_id": 406134
+  },
+  {
+    "id": "NO-3216",
+    "name": "Vestby",
+    "country": "NO",
+    "region": "Akershus",
+    "domain": "vestby.kommune.no",
+    "osm_relation_id": 406133
+  },
+  {
+    "id": "NO-3218",
+    "name": "Ås",
+    "country": "NO",
+    "region": "Akershus",
+    "domain": "as.kommune.no",
+    "osm_relation_id": 409940
+  },
+  {
+    "id": "NO-3220",
+    "name": "Enebakk",
+    "country": "NO",
+    "region": "Akershus",
+    "domain": "enebakk.kommune.no",
+    "osm_relation_id": 406129
+  },
+  {
+    "id": "NO-3222",
+    "name": "Lørenskog",
+    "country": "NO",
+    "region": "Akershus",
+    "domain": "lorenskog.kommune.no",
+    "osm_relation_id": 406126
+  },
+  {
+    "id": "NO-3224",
+    "name": "Rælingen",
+    "country": "NO",
+    "region": "Akershus",
+    "domain": "ralingen.kommune.no",
+    "osm_relation_id": 406127
+  },
+  {
+    "id": "NO-3226",
+    "name": "Aurskog-Høland",
+    "country": "NO",
+    "region": "Akershus",
+    "domain": "ahk.no",
+    "osm_relation_id": 10155381
+  },
+  {
+    "id": "NO-3228",
+    "name": "Nes",
+    "country": "NO",
+    "region": "Akershus",
+    "domain": "nes.kommune.no",
+    "osm_relation_id": 406119
+  },
+  {
+    "id": "NO-3230",
+    "name": "Gjerdrum",
+    "country": "NO",
+    "region": "Akershus",
+    "domain": "gjerdrum.kommune.no",
+    "osm_relation_id": 406123
+  },
+  {
+    "id": "NO-3232",
+    "name": "Nittedal",
+    "country": "NO",
+    "region": "Akershus",
+    "domain": "nittedal.kommune.no",
+    "osm_relation_id": 406122
+  },
+  {
+    "id": "NO-3234",
+    "name": "Lunner",
+    "country": "NO",
+    "region": "Akershus",
+    "domain": "lunner.kommune.no",
+    "osm_relation_id": 412430
+  },
+  {
+    "id": "NO-3236",
+    "name": "Jevnaker",
+    "country": "NO",
+    "region": "Akershus",
+    "domain": "jevnaker.kommune.no",
+    "osm_relation_id": 412429
+  },
+  {
+    "id": "NO-3238",
+    "name": "Nannestad",
+    "country": "NO",
+    "region": "Akershus",
+    "domain": "nannestad.kommune.no",
+    "osm_relation_id": 406121
+  },
+  {
+    "id": "NO-3240",
+    "name": "Eidsvoll",
+    "country": "NO",
+    "region": "Akershus",
+    "domain": "eidsvoll.kommune.no",
+    "osm_relation_id": 406117
+  },
+  {
+    "id": "NO-3242",
+    "name": "Hurdal",
+    "country": "NO",
+    "region": "Akershus",
+    "domain": "hurdal.kommune.no",
+    "osm_relation_id": 406116
+  },
+  {
+    "id": "NO-3301",
+    "name": "Drammen",
+    "country": "NO",
+    "region": "Buskerud",
+    "domain": "drammen.kommune.no",
+    "osm_relation_id": 10483726
+  },
+  {
+    "id": "NO-3303",
+    "name": "Kongsberg",
+    "country": "NO",
+    "region": "Buskerud",
+    "domain": "kongsberg.kommune.no",
+    "osm_relation_id": 412349
+  },
+  {
+    "id": "NO-3305",
+    "name": "Ringerike",
+    "country": "NO",
+    "region": "Buskerud",
+    "domain": "ringerike.kommune.no",
+    "osm_relation_id": 412360
+  },
+  {
+    "id": "NO-3310",
+    "name": "Hole",
+    "country": "NO",
+    "region": "Buskerud",
+    "domain": "hole.kommune.no",
+    "osm_relation_id": 411384
+  },
+  {
+    "id": "NO-3312",
+    "name": "Lier",
+    "country": "NO",
+    "region": "Buskerud",
+    "domain": "lier.kommune.no",
+    "osm_relation_id": 411383
+  },
+  {
+    "id": "NO-3314",
+    "name": "Øvre Eiker",
+    "country": "NO",
+    "region": "Buskerud",
+    "domain": "ovre-eiker.kommune.no",
+    "osm_relation_id": 412350
+  },
+  {
+    "id": "NO-3316",
+    "name": "Modum",
+    "country": "NO",
+    "region": "Buskerud",
+    "domain": "modum.kommune.no",
+    "osm_relation_id": 412363
+  },
+  {
+    "id": "NO-3318",
+    "name": "Krødsherad",
+    "country": "NO",
+    "region": "Buskerud",
+    "domain": "krodsherad.kommune.no",
+    "osm_relation_id": 412361
+  },
+  {
+    "id": "NO-3320",
+    "name": "Flå",
+    "country": "NO",
+    "region": "Buskerud",
+    "domain": "flaa.kommune.no",
+    "osm_relation_id": 412359
+  },
+  {
+    "id": "NO-3322",
+    "name": "Nesbyen",
+    "country": "NO",
+    "region": "Buskerud",
+    "domain": "nes-bu.kommune.no",
+    "osm_relation_id": 412358
+  },
+  {
+    "id": "NO-3324",
+    "name": "Gol",
+    "country": "NO",
+    "region": "Buskerud",
+    "domain": "gol.kommune.no",
+    "osm_relation_id": 412357
+  },
+  {
+    "id": "NO-3326",
+    "name": "Hemsedal",
+    "country": "NO",
+    "region": "Buskerud",
+    "domain": "hemsedal.kommune.no",
+    "osm_relation_id": 412356
+  },
+  {
+    "id": "NO-3328",
+    "name": "Ål",
+    "country": "NO",
+    "region": "Buskerud",
+    "domain": "aal.kommune.no",
+    "osm_relation_id": 412355
+  },
+  {
+    "id": "NO-3330",
+    "name": "Hol",
+    "country": "NO",
+    "region": "Buskerud",
+    "domain": "hol.kommune.no",
+    "osm_relation_id": 412354
+  },
+  {
+    "id": "NO-3332",
+    "name": "Sigdal",
+    "country": "NO",
+    "region": "Buskerud",
+    "domain": "sigdal.kommune.no",
+    "osm_relation_id": 412362
+  },
+  {
+    "id": "NO-3334",
+    "name": "Flesberg",
+    "country": "NO",
+    "region": "Buskerud",
+    "domain": "flesberg.kommune.no",
+    "osm_relation_id": 412351
+  },
+  {
+    "id": "NO-3336",
+    "name": "Rollag",
+    "country": "NO",
+    "region": "Buskerud",
+    "domain": "rollag.kommune.no",
+    "osm_relation_id": 412352
+  },
+  {
+    "id": "NO-3338",
+    "name": "Nore og Uvdal",
+    "country": "NO",
+    "region": "Buskerud",
+    "domain": "nore-og-uvdal.kommune.no",
+    "osm_relation_id": 412353
+  },
+  {
+    "id": "NO-3401",
+    "name": "Kongsvinger",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "kongsvinger.kommune.no",
+    "osm_relation_id": 412534
+  },
+  {
+    "id": "NO-3403",
+    "name": "Hamar",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "hamar.kommune.no",
+    "osm_relation_id": 410882
+  },
+  {
+    "id": "NO-3405",
+    "name": "Lillehammer",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "lillehammer.kommune.no",
+    "osm_relation_id": 412416
+  },
+  {
+    "id": "NO-3407",
+    "name": "Gjøvik",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "gjovik.kommune.no",
+    "osm_relation_id": 412418
+  },
+  {
+    "id": "NO-3411",
+    "name": "Ringsaker",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "ringsaker.kommune.no",
+    "osm_relation_id": 411313
+  },
+  {
+    "id": "NO-3412",
+    "name": "Løten",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "loten.kommune.no",
+    "osm_relation_id": 410880
+  },
+  {
+    "id": "NO-3413",
+    "name": "Stange",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "stange.kommune.no",
+    "osm_relation_id": 410883
+  },
+  {
+    "id": "NO-3414",
+    "name": "Nord-Odal",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "nord-odal.kommune.no",
+    "osm_relation_id": 412536
+  },
+  {
+    "id": "NO-3415",
+    "name": "Sør-Odal",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "sor-odal.kommune.no",
+    "osm_relation_id": 412535
+  },
+  {
+    "id": "NO-3416",
+    "name": "Eidskog",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "eidskog.kommune.no",
+    "osm_relation_id": 412533
+  },
+  {
+    "id": "NO-3417",
+    "name": "Grue",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "grue.kommune.no",
+    "osm_relation_id": 412537
+  },
+  {
+    "id": "NO-3418",
+    "name": "Åsnes",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "asnes.kommune.no",
+    "osm_relation_id": 412538
+  },
+  {
+    "id": "NO-3419",
+    "name": "Våler (Innlandet)",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "vaaler-he.kommune.no",
+    "osm_relation_id": 410884
+  },
+  {
+    "id": "NO-3420",
+    "name": "Elverum",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "elverum.kommune.no",
+    "osm_relation_id": 410881
+  },
+  {
+    "id": "NO-3421",
+    "name": "Trysil",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "trysil.kommune.no",
+    "osm_relation_id": 412539
+  },
+  {
+    "id": "NO-3422",
+    "name": "Åmot",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "amot.kommune.no",
+    "osm_relation_id": 410885
+  },
+  {
+    "id": "NO-3423",
+    "name": "Stor-Elvdal",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "stor-elvdal.kommune.no",
+    "osm_relation_id": 412540
+  },
+  {
+    "id": "NO-3424",
+    "name": "Rendalen",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "rendalen.kommune.no",
+    "osm_relation_id": 412541
+  },
+  {
+    "id": "NO-3425",
+    "name": "Engerdal",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "engerdal.kommune.no",
+    "osm_relation_id": 412542
+  },
+  {
+    "id": "NO-3426",
+    "name": "Tolga",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "tolga.kommune.no",
+    "osm_relation_id": 412544
+  },
+  {
+    "id": "NO-3427",
+    "name": "Tynset",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "tynset.kommune.no",
+    "osm_relation_id": 412545
+  },
+  {
+    "id": "NO-3428",
+    "name": "Alvdal",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "alvdal.kommune.no",
+    "osm_relation_id": 412546
+  },
+  {
+    "id": "NO-3429",
+    "name": "Folldal",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "folldal.kommune.no",
+    "osm_relation_id": 412547
+  },
+  {
+    "id": "NO-3430",
+    "name": "Os",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "os.kommune.no",
+    "osm_relation_id": 412543
+  },
+  {
+    "id": "NO-3431",
+    "name": "Dovre",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "dovre.kommune.no",
+    "osm_relation_id": 412408
+  },
+  {
+    "id": "NO-3432",
+    "name": "Lesja",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "lesja.kommune.no",
+    "osm_relation_id": 412407
+  },
+  {
+    "id": "NO-3433",
+    "name": "Skjåk",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "skjaak.kommune.no",
+    "osm_relation_id": 412406
+  },
+  {
+    "id": "NO-3434",
+    "name": "Lom",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "lom.kommune.no",
+    "osm_relation_id": 412409
+  },
+  {
+    "id": "NO-3435",
+    "name": "Vågå",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "vaga.kommune.no",
+    "osm_relation_id": 412410
+  },
+  {
+    "id": "NO-3436",
+    "name": "Nord-Fron",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "nord-fron.kommune.no",
+    "osm_relation_id": 412412
+  },
+  {
+    "id": "NO-3437",
+    "name": "Sel",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "sel.kommune.no",
+    "osm_relation_id": 412411
+  },
+  {
+    "id": "NO-3438",
+    "name": "Sør-Fron",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "sor-fron.kommune.no",
+    "osm_relation_id": 412413
+  },
+  {
+    "id": "NO-3439",
+    "name": "Ringebu",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "ringebu.kommune.no",
+    "osm_relation_id": 412414
+  },
+  {
+    "id": "NO-3440",
+    "name": "Øyer",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "oyer.kommune.no",
+    "osm_relation_id": 412415
+  },
+  {
+    "id": "NO-3441",
+    "name": "Gausdal",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "gausdal.kommune.no",
+    "osm_relation_id": 412417
+  },
+  {
+    "id": "NO-3442",
+    "name": "Østre Toten",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "ostre-toten.kommune.no",
+    "osm_relation_id": 412419
+  },
+  {
+    "id": "NO-3443",
+    "name": "Vestre Toten",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "vestre-toten.kommune.no",
+    "osm_relation_id": 412420
+  },
+  {
+    "id": "NO-3446",
+    "name": "Gran",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "gran.kommune.no",
+    "osm_relation_id": 412421
+  },
+  {
+    "id": "NO-3447",
+    "name": "Søndre Land",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "sondre-land.kommune.no",
+    "osm_relation_id": 412422
+  },
+  {
+    "id": "NO-3448",
+    "name": "Nordre Land",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "nordre-land.kommune.no",
+    "osm_relation_id": 412423
+  },
+  {
+    "id": "NO-3449",
+    "name": "Sør-Aurdal",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "sor-aurdal.kommune.no",
+    "osm_relation_id": 412424
+  },
+  {
+    "id": "NO-3450",
+    "name": "Etnedal",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "etnedal.kommune.no",
+    "osm_relation_id": 412428
+  },
+  {
+    "id": "NO-3451",
+    "name": "Nord-Aurdal",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "nord-aurdal.kommune.no",
+    "osm_relation_id": 412425
+  },
+  {
+    "id": "NO-3452",
+    "name": "Vestre Slidre",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "vestre-slidre.kommune.no",
+    "osm_relation_id": 412426
+  },
+  {
+    "id": "NO-3453",
+    "name": "Øystre Slidre",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "oystre-slidre.kommune.no",
+    "osm_relation_id": 412431
+  },
+  {
+    "id": "NO-3454",
+    "name": "Vang",
+    "country": "NO",
+    "region": "Innlandet",
+    "domain": "vang.kommune.no",
+    "osm_relation_id": 412427
+  },
+  {
+    "id": "NO-3901",
+    "name": "Horten",
+    "country": "NO",
+    "region": "Vestfold",
+    "domain": "horten.kommune.no",
+    "osm_relation_id": 404590
+  },
+  {
+    "id": "NO-3903",
+    "name": "Holmestrand",
+    "country": "NO",
+    "region": "Vestfold",
+    "domain": "holmestrand.kommune.no",
+    "osm_relation_id": 10483727
+  },
+  {
+    "id": "NO-3905",
+    "name": "Tønsberg",
+    "country": "NO",
+    "region": "Vestfold",
+    "domain": "tonsberg.kommune.no",
+    "osm_relation_id": 10152542
+  },
+  {
+    "id": "NO-3907",
+    "name": "Sandefjord",
+    "country": "NO",
+    "region": "Vestfold",
+    "domain": "sandefjord.kommune.no",
+    "osm_relation_id": 404592
+  },
+  {
+    "id": "NO-3909",
+    "name": "Larvik",
+    "country": "NO",
+    "region": "Vestfold",
+    "domain": "larvik.kommune.no",
+    "osm_relation_id": 404591
+  },
+  {
+    "id": "NO-3911",
+    "name": "Færder",
+    "country": "NO",
+    "region": "Vestfold",
+    "domain": "faerder.kommune.no",
+    "osm_relation_id": 404594
+  },
+  {
+    "id": "NO-4001",
+    "name": "Porsgrunn",
+    "country": "NO",
+    "region": "Telemark",
+    "domain": "porsgrunn.kommune.no",
+    "osm_relation_id": 405171
+  },
+  {
+    "id": "NO-4003",
+    "name": "Skien",
+    "country": "NO",
+    "region": "Telemark",
+    "domain": "skien.kommune.no",
+    "osm_relation_id": 405166
+  },
+  {
+    "id": "NO-4005",
+    "name": "Notodden",
+    "country": "NO",
+    "region": "Telemark",
+    "domain": "notodden.kommune.no",
+    "osm_relation_id": 405159
+  },
+  {
+    "id": "NO-4010",
+    "name": "Siljan",
+    "country": "NO",
+    "region": "Telemark",
+    "domain": "siljan.kommune.no",
+    "osm_relation_id": 405170
+  },
+  {
+    "id": "NO-4012",
+    "name": "Bamble",
+    "country": "NO",
+    "region": "Telemark",
+    "domain": "bamble.kommune.no",
+    "osm_relation_id": 405172
+  },
+  {
+    "id": "NO-4014",
+    "name": "Kragerø",
+    "country": "NO",
+    "region": "Telemark",
+    "domain": "kragero.kommune.no",
+    "osm_relation_id": 405173
+  },
+  {
+    "id": "NO-4016",
+    "name": "Drangedal",
+    "country": "NO",
+    "region": "Telemark",
+    "domain": "drangedal.kommune.no",
+    "osm_relation_id": 405167
+  },
+  {
+    "id": "NO-4018",
+    "name": "Nome",
+    "country": "NO",
+    "region": "Telemark",
+    "domain": "nome.kommune.no",
+    "osm_relation_id": 405164
+  },
+  {
+    "id": "NO-4020",
+    "name": "Midt-Telemark",
+    "country": "NO",
+    "region": "Telemark",
+    "domain": "midt-telemark.kommune.no",
+    "osm_relation_id": 10152443
+  },
+  {
+    "id": "NO-4022",
+    "name": "Seljord",
+    "country": "NO",
+    "region": "Telemark",
+    "domain": "seljord.kommune.no",
+    "osm_relation_id": 405161
+  },
+  {
+    "id": "NO-4024",
+    "name": "Hjartdal",
+    "country": "NO",
+    "region": "Telemark",
+    "domain": "hjartdal.kommune.no",
+    "osm_relation_id": 405160
+  },
+  {
+    "id": "NO-4026",
+    "name": "Tinn",
+    "country": "NO",
+    "region": "Telemark",
+    "domain": "tinn.kommune.no",
+    "osm_relation_id": 405158
+  },
+  {
+    "id": "NO-4028",
+    "name": "Kviteseid",
+    "country": "NO",
+    "region": "Telemark",
+    "domain": "kviteseid.kommune.no",
+    "osm_relation_id": 405163
+  },
+  {
+    "id": "NO-4030",
+    "name": "Nissedal",
+    "country": "NO",
+    "region": "Telemark",
+    "domain": "nissedal.kommune.no",
+    "osm_relation_id": 405174
+  },
+  {
+    "id": "NO-4032",
+    "name": "Fyresdal",
+    "country": "NO",
+    "region": "Telemark",
+    "domain": "fyresdal.kommune.no",
+    "osm_relation_id": 405168
+  },
+  {
+    "id": "NO-4034",
+    "name": "Tokke",
+    "country": "NO",
+    "region": "Telemark",
+    "domain": "tokke.kommune.no",
+    "osm_relation_id": 405169
+  },
+  {
+    "id": "NO-4036",
+    "name": "Vinje",
+    "country": "NO",
+    "region": "Telemark",
+    "domain": "vinje.kommune.no",
+    "osm_relation_id": 405157
+  },
+  {
+    "id": "NO-4201",
+    "name": "Risør",
+    "country": "NO",
+    "region": "Agder",
+    "domain": "risor.kommune.no",
+    "osm_relation_id": 406025
+  },
+  {
+    "id": "NO-4202",
+    "name": "Grimstad",
+    "country": "NO",
+    "region": "Agder",
+    "domain": "grimstad.kommune.no",
+    "osm_relation_id": 406035
+  },
+  {
+    "id": "NO-4203",
+    "name": "Arendal",
+    "country": "NO",
+    "region": "Agder",
+    "domain": "arendal.kommune.no",
+    "osm_relation_id": 406036
+  },
+  {
+    "id": "NO-4204",
+    "name": "Kristiansand",
+    "country": "NO",
+    "region": "Agder",
+    "domain": "kristiansand.kommune.no",
+    "osm_relation_id": 10152440
+  },
+  {
+    "id": "NO-4205",
+    "name": "Lindesnes",
+    "country": "NO",
+    "region": "Agder",
+    "domain": "lindesnes.kommune.no",
+    "osm_relation_id": 10152441
+  },
+  {
+    "id": "NO-4206",
+    "name": "Farsund",
+    "country": "NO",
+    "region": "Agder",
+    "domain": "farsund.kommune.no",
+    "osm_relation_id": 405986
+  },
+  {
+    "id": "NO-4207",
+    "name": "Flekkefjord",
+    "country": "NO",
+    "region": "Agder",
+    "domain": "flekkefjord.kommune.no",
+    "osm_relation_id": 405973
+  },
+  {
+    "id": "NO-4211",
+    "name": "Gjerstad",
+    "country": "NO",
+    "region": "Agder",
+    "domain": "gjerstad.kommune.no",
+    "osm_relation_id": 406038
+  },
+  {
+    "id": "NO-4212",
+    "name": "Vegårshei",
+    "country": "NO",
+    "region": "Agder",
+    "domain": "vegarshei.kommune.no",
+    "osm_relation_id": 406037
+  },
+  {
+    "id": "NO-4213",
+    "name": "Tvedestrand",
+    "country": "NO",
+    "region": "Agder",
+    "domain": "tvedestrand.kommune.no",
+    "osm_relation_id": 406026
+  },
+  {
+    "id": "NO-4214",
+    "name": "Froland",
+    "country": "NO",
+    "region": "Agder",
+    "domain": "froland.kommune.no",
+    "osm_relation_id": 407595
+  },
+  {
+    "id": "NO-4215",
+    "name": "Lillesand",
+    "country": "NO",
+    "region": "Agder",
+    "domain": "lillesand.kommune.no",
+    "osm_relation_id": 406034
+  },
+  {
+    "id": "NO-4216",
+    "name": "Birkenes",
+    "country": "NO",
+    "region": "Agder",
+    "domain": "birkenes.kommune.no",
+    "osm_relation_id": 406033
+  },
+  {
+    "id": "NO-4217",
+    "name": "Åmli",
+    "country": "NO",
+    "region": "Agder",
+    "domain": "amli.kommune.no",
+    "osm_relation_id": 406030
+  },
+  {
+    "id": "NO-4218",
+    "name": "Iveland",
+    "country": "NO",
+    "region": "Agder",
+    "domain": "iveland.kommune.no",
+    "osm_relation_id": 406032
+  },
+  {
+    "id": "NO-4219",
+    "name": "Evje og Hornnes",
+    "country": "NO",
+    "region": "Agder",
+    "domain": "e-h.kommune.no",
+    "osm_relation_id": 406031
+  },
+  {
+    "id": "NO-4220",
+    "name": "Bygland",
+    "country": "NO",
+    "region": "Agder",
+    "domain": "bygland.kommune.no",
+    "osm_relation_id": 406029
+  },
+  {
+    "id": "NO-4221",
+    "name": "Valle",
+    "country": "NO",
+    "region": "Agder",
+    "domain": "valle.kommune.no",
+    "osm_relation_id": 406028
+  },
+  {
+    "id": "NO-4222",
+    "name": "Bykle",
+    "country": "NO",
+    "region": "Agder",
+    "domain": "bykle.kommune.no",
+    "osm_relation_id": 406027
+  },
+  {
+    "id": "NO-4223",
+    "name": "Vennesla",
+    "country": "NO",
+    "region": "Agder",
+    "domain": "vennesla.kommune.no",
+    "osm_relation_id": 405980
+  },
+  {
+    "id": "NO-4224",
+    "name": "Åseral",
+    "country": "NO",
+    "region": "Agder",
+    "domain": "aseral.kommune.no",
+    "osm_relation_id": 405976
+  },
+  {
+    "id": "NO-4225",
+    "name": "Lyngdal",
+    "country": "NO",
+    "region": "Agder",
+    "domain": "lyngdal.kommune.no",
+    "osm_relation_id": 10152428
+  },
+  {
+    "id": "NO-4226",
+    "name": "Hægebostad",
+    "country": "NO",
+    "region": "Agder",
+    "domain": "haegebostad.kommune.no",
+    "osm_relation_id": 405987
+  },
+  {
+    "id": "NO-4227",
+    "name": "Kvinesdal",
+    "country": "NO",
+    "region": "Agder",
+    "domain": "kvinesdal.kommune.no",
+    "osm_relation_id": 405975
+  },
+  {
+    "id": "NO-4228",
+    "name": "Sirdal",
+    "country": "NO",
+    "region": "Agder",
+    "domain": "sirdal.kommune.no",
+    "osm_relation_id": 405974
+  },
+  {
+    "id": "NO-4601",
+    "name": "Bergen",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "bergen.kommune.no",
+    "osm_relation_id": 404159
+  },
+  {
+    "id": "NO-4602",
+    "name": "Kinn",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "kinn.kommune.no",
+    "osm_relation_id": 10150594
+  },
+  {
+    "id": "NO-4611",
+    "name": "Etne",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "etne.kommune.no",
+    "osm_relation_id": 404168
+  },
+  {
+    "id": "NO-4612",
+    "name": "Sveio",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "sveio.kommune.no",
+    "osm_relation_id": 404171
+  },
+  {
+    "id": "NO-4613",
+    "name": "Bømlo",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "bomlo.kommune.no",
+    "osm_relation_id": 404170
+  },
+  {
+    "id": "NO-4614",
+    "name": "Stord",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "stord.kommune.no",
+    "osm_relation_id": 404169
+  },
+  {
+    "id": "NO-4615",
+    "name": "Fitjar",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "fitjar.kommune.no",
+    "osm_relation_id": 404166
+  },
+  {
+    "id": "NO-4616",
+    "name": "Tysnes",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "tysnes.kommune.no",
+    "osm_relation_id": 404165
+  },
+  {
+    "id": "NO-4617",
+    "name": "Kvinnherad",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "kvinnherad.kommune.no",
+    "osm_relation_id": 404167
+  },
+  {
+    "id": "NO-4618",
+    "name": "Ullensvang",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "ullensvang.kommune.no",
+    "osm_relation_id": 10150643
+  },
+  {
+    "id": "NO-4619",
+    "name": "Eidfjord",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "eidfjord.kommune.no",
+    "osm_relation_id": 404151
+  },
+  {
+    "id": "NO-4620",
+    "name": "Ulvik",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "ulvik.kommune.no",
+    "osm_relation_id": 404149
+  },
+  {
+    "id": "NO-4621",
+    "name": "Voss",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "voss.herad.no",
+    "osm_relation_id": 10150615
+  },
+  {
+    "id": "NO-4622",
+    "name": "Kvam",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "kvam.no",
+    "osm_relation_id": 404155
+  },
+  {
+    "id": "NO-4623",
+    "name": "Samnanger",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "samnanger.kommune.no",
+    "osm_relation_id": 404160
+  },
+  {
+    "id": "NO-4624",
+    "name": "Bjørnafjorden",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "bjornafjorden.kommune.no",
+    "osm_relation_id": 10150641
+  },
+  {
+    "id": "NO-4625",
+    "name": "Austevoll",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "austevoll.kommune.no",
+    "osm_relation_id": 404164
+  },
+  {
+    "id": "NO-4626",
+    "name": "Øygarden",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "oygarden.kommune.no",
+    "osm_relation_id": 10150629
+  },
+  {
+    "id": "NO-4627",
+    "name": "Askøy",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "askoy.kommune.no",
+    "osm_relation_id": 404157
+  },
+  {
+    "id": "NO-4628",
+    "name": "Vaksdal",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "vaksdal.kommune.no",
+    "osm_relation_id": 404139
+  },
+  {
+    "id": "NO-4629",
+    "name": "Modalen",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "modalen.kommune.no",
+    "osm_relation_id": 404140
+  },
+  {
+    "id": "NO-4630",
+    "name": "Osterøy",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "osteroy.kommune.no",
+    "osm_relation_id": 404141
+  },
+  {
+    "id": "NO-4631",
+    "name": "Alver",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "alver.kommune.no",
+    "osm_relation_id": 10150624
+  },
+  {
+    "id": "NO-4632",
+    "name": "Austrheim",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "austrheim.kommune.no",
+    "osm_relation_id": 404145
+  },
+  {
+    "id": "NO-4633",
+    "name": "Fedje",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "fedje.kommune.no",
+    "osm_relation_id": 404146
+  },
+  {
+    "id": "NO-4634",
+    "name": "Masfjorden",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "masfjorden.kommune.no",
+    "osm_relation_id": 404143
+  },
+  {
+    "id": "NO-4635",
+    "name": "Gulen",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "gulen.kommune.no",
+    "osm_relation_id": 405322
+  },
+  {
+    "id": "NO-4636",
+    "name": "Solund",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "solund.kommune.no",
+    "osm_relation_id": 404731
+  },
+  {
+    "id": "NO-4637",
+    "name": "Hyllestad",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "hyllestad.kommune.no",
+    "osm_relation_id": 404674
+  },
+  {
+    "id": "NO-4638",
+    "name": "Høyanger",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "hoyanger.kommune.no",
+    "osm_relation_id": 409073
+  },
+  {
+    "id": "NO-4639",
+    "name": "Vik",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "vik.kommune.no",
+    "osm_relation_id": 409074
+  },
+  {
+    "id": "NO-4640",
+    "name": "Sogndal",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "sogndal.kommune.no",
+    "osm_relation_id": 10150612
+  },
+  {
+    "id": "NO-4641",
+    "name": "Aurland",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "aurland.kommune.no",
+    "osm_relation_id": 409075
+  },
+  {
+    "id": "NO-4642",
+    "name": "Lærdal",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "laerdal.kommune.no",
+    "osm_relation_id": 409076
+  },
+  {
+    "id": "NO-4643",
+    "name": "Årdal",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "ardal.kommune.no",
+    "osm_relation_id": 409077
+  },
+  {
+    "id": "NO-4644",
+    "name": "Luster",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "luster.kommune.no",
+    "osm_relation_id": 409078
+  },
+  {
+    "id": "NO-4645",
+    "name": "Askvoll",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "askvoll.kommune.no",
+    "osm_relation_id": 404673
+  },
+  {
+    "id": "NO-4646",
+    "name": "Fjaler",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "fjaler.kommune.no",
+    "osm_relation_id": 404672
+  },
+  {
+    "id": "NO-4647",
+    "name": "Sunnfjord",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "sunnfjord.kommune.no",
+    "osm_relation_id": 10150607
+  },
+  {
+    "id": "NO-4648",
+    "name": "Bremanger",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "bremanger.kommune.no",
+    "osm_relation_id": 409083
+  },
+  {
+    "id": "NO-4649",
+    "name": "Stad",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "stad.kommune.no",
+    "osm_relation_id": 10148356
+  },
+  {
+    "id": "NO-4650",
+    "name": "Gloppen",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "gloppen.kommune.no",
+    "osm_relation_id": 409082
+  },
+  {
+    "id": "NO-4651",
+    "name": "Stryn",
+    "country": "NO",
+    "region": "Vestland",
+    "domain": "stryn.kommune.no",
+    "osm_relation_id": 409079
+  },
+  {
+    "id": "NO-5001",
+    "name": "Trondheim - Tråante",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "trondheim.kommune.no",
+    "osm_relation_id": 10143487
+  },
+  {
+    "id": "NO-5006",
+    "name": "Steinkjer",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "steinkjer.kommune.no",
+    "osm_relation_id": 10143420
+  },
+  {
+    "id": "NO-5007",
+    "name": "Namsos - Nåavmesjenjaelmie",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "namsos.kommune.no",
+    "osm_relation_id": 10143402
+  },
+  {
+    "id": "NO-5014",
+    "name": "Frøya",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "froya.kommune.no",
+    "osm_relation_id": 405219
+  },
+  {
+    "id": "NO-5020",
+    "name": "Osen",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "osen.kommune.no",
+    "osm_relation_id": 405317
+  },
+  {
+    "id": "NO-5021",
+    "name": "Oppdal",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "oppdal.kommune.no",
+    "osm_relation_id": 406463
+  },
+  {
+    "id": "NO-5022",
+    "name": "Rennebu",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "rennebu.kommune.no",
+    "osm_relation_id": 406462
+  },
+  {
+    "id": "NO-5025",
+    "name": "Røros - Rosse",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "roros.kommune.no",
+    "osm_relation_id": 406493
+  },
+  {
+    "id": "NO-5026",
+    "name": "Holtålen",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "holtalen.kommune.no",
+    "osm_relation_id": 406477
+  },
+  {
+    "id": "NO-5027",
+    "name": "Midtre Gauldal",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "mgk.no",
+    "osm_relation_id": 406476
+  },
+  {
+    "id": "NO-5028",
+    "name": "Melhus",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "melhus.kommune.no",
+    "osm_relation_id": 406537
+  },
+  {
+    "id": "NO-5029",
+    "name": "Skaun",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "skaun.kommune.no",
+    "osm_relation_id": 406540
+  },
+  {
+    "id": "NO-5031",
+    "name": "Malvik",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "malvik.kommune.no",
+    "osm_relation_id": 406554
+  },
+  {
+    "id": "NO-5032",
+    "name": "Selbu",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "selbu.kommune.no",
+    "osm_relation_id": 406520
+  },
+  {
+    "id": "NO-5033",
+    "name": "Tydal",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "tydal.kommune.no",
+    "osm_relation_id": 406502
+  },
+  {
+    "id": "NO-5034",
+    "name": "Meråker",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "meraker.kommune.no",
+    "osm_relation_id": 407292
+  },
+  {
+    "id": "NO-5035",
+    "name": "Stjørdal",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "stjordal.kommune.no",
+    "osm_relation_id": 407291
+  },
+  {
+    "id": "NO-5036",
+    "name": "Frosta",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "frosta.kommune.no",
+    "osm_relation_id": 407287
+  },
+  {
+    "id": "NO-5037",
+    "name": "Levanger - Levangke",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "levanger.kommune.no",
+    "osm_relation_id": 407290
+  },
+  {
+    "id": "NO-5038",
+    "name": "Verdal",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "verdal.kommune.no",
+    "osm_relation_id": 407278
+  },
+  {
+    "id": "NO-5041",
+    "name": "Snåase - Snåsa",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "snasa.kommune.no",
+    "osm_relation_id": 407273
+  },
+  {
+    "id": "NO-5042",
+    "name": "Lierne",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "lierne.kommune.no",
+    "osm_relation_id": 407217
+  },
+  {
+    "id": "NO-5043",
+    "name": "Raarvihke - Røyrvik",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "royrvik.kommune.no",
+    "osm_relation_id": 407202
+  },
+  {
+    "id": "NO-5044",
+    "name": "Namsskogan",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "namsskogan.kommune.no",
+    "osm_relation_id": 407201
+  },
+  {
+    "id": "NO-5045",
+    "name": "Grong",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "grong.kommune.no",
+    "osm_relation_id": 407216
+  },
+  {
+    "id": "NO-5046",
+    "name": "Høylandet",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "hoylandet.kommune.no",
+    "osm_relation_id": 407200
+  },
+  {
+    "id": "NO-5047",
+    "name": "Overhalla",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "overhalla.kommune.no",
+    "osm_relation_id": 407211
+  },
+  {
+    "id": "NO-5049",
+    "name": "Flatanger",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "flatanger.kommune.no",
+    "osm_relation_id": 407245
+  },
+  {
+    "id": "NO-5052",
+    "name": "Leka",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "leka.kommune.no",
+    "osm_relation_id": 407178
+  },
+  {
+    "id": "NO-5053",
+    "name": "Inderøy",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "inderoy.kommune.no",
+    "osm_relation_id": 2167163
+  },
+  {
+    "id": "NO-5054",
+    "name": "Indre Fosen",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "indrefosen.kommune.no",
+    "osm_relation_id": 405951
+  },
+  {
+    "id": "NO-5055",
+    "name": "Heim",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "heim.kommune.no",
+    "osm_relation_id": 10143451
+  },
+  {
+    "id": "NO-5056",
+    "name": "Hitra",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "hitra.kommune.no",
+    "osm_relation_id": 10143441
+  },
+  {
+    "id": "NO-5057",
+    "name": "Ørland",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "orland.kommune.no",
+    "osm_relation_id": 10143423
+  },
+  {
+    "id": "NO-5058",
+    "name": "Åfjord",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "afjord.kommune.no",
+    "osm_relation_id": 10143415
+  },
+  {
+    "id": "NO-5059",
+    "name": "Orkland",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "orkland.kommune.no",
+    "osm_relation_id": 10143469
+  },
+  {
+    "id": "NO-5060",
+    "name": "Nærøysund",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "naroysund.kommune.no",
+    "osm_relation_id": 10143398
+  },
+  {
+    "id": "NO-5061",
+    "name": "Rindal",
+    "country": "NO",
+    "region": "Trøndelag",
+    "domain": "rindal.kommune.no",
+    "osm_relation_id": 406835
+  },
+  {
+    "id": "NO-5501",
+    "name": "Tromsø",
+    "country": "NO",
+    "region": "Troms",
+    "domain": "tromso.kommune.no",
+    "osm_relation_id": 407754
+  },
+  {
+    "id": "NO-5503",
+    "name": "Harstad - Hárstták",
+    "country": "NO",
+    "region": "Troms",
+    "domain": "harstad.kommune.no",
+    "osm_relation_id": 407767
+  },
+  {
+    "id": "NO-5510",
+    "name": "Kvæfjord",
+    "country": "NO",
+    "region": "Troms",
+    "domain": "kvafjord.kommune.no",
+    "osm_relation_id": 407768
+  },
+  {
+    "id": "NO-5512",
+    "name": "Dielddanuorri - Tjeldsund",
+    "country": "NO",
+    "region": "Troms",
+    "domain": "tjeldsund.kommune.no",
+    "osm_relation_id": 10143346
+  },
+  {
+    "id": "NO-5514",
+    "name": "Ibestad",
+    "country": "NO",
+    "region": "Troms",
+    "domain": "ibestad.kommune.no",
+    "osm_relation_id": 407772
+  },
+  {
+    "id": "NO-5516",
+    "name": "Gratangen - Rivtták",
+    "country": "NO",
+    "region": "Troms",
+    "domain": "gratangen.kommune.no",
+    "osm_relation_id": 407765
+  },
+  {
+    "id": "NO-5518",
+    "name": "Loabák - Lavangen",
+    "country": "NO",
+    "region": "Troms",
+    "domain": "lavangen.kommune.no",
+    "osm_relation_id": 407764
+  },
+  {
+    "id": "NO-5520",
+    "name": "Bardu",
+    "country": "NO",
+    "region": "Troms",
+    "domain": "bardu.kommune.no",
+    "osm_relation_id": 407757
+  },
+  {
+    "id": "NO-5522",
+    "name": "Salangen",
+    "country": "NO",
+    "region": "Troms",
+    "domain": "salangen.kommune.no",
+    "osm_relation_id": 407763
+  },
+  {
+    "id": "NO-5524",
+    "name": "Målselv",
+    "country": "NO",
+    "region": "Troms",
+    "domain": "malselv.kommune.no",
+    "osm_relation_id": 407756
+  },
+  {
+    "id": "NO-5526",
+    "name": "Sørreisa",
+    "country": "NO",
+    "region": "Troms",
+    "domain": "sorreisa.kommune.no",
+    "osm_relation_id": 407761
+  },
+  {
+    "id": "NO-5528",
+    "name": "Dyrøy",
+    "country": "NO",
+    "region": "Troms",
+    "domain": "dyroy.kommune.no",
+    "osm_relation_id": 407762
+  },
+  {
+    "id": "NO-5530",
+    "name": "Senja",
+    "country": "NO",
+    "region": "Troms",
+    "domain": "senja.kommune.no",
+    "osm_relation_id": 10143357
+  },
+  {
+    "id": "NO-5532",
+    "name": "Balsfjord",
+    "country": "NO",
+    "region": "Troms",
+    "domain": "balsfjord.kommune.no",
+    "osm_relation_id": 407755
+  },
+  {
+    "id": "NO-5534",
+    "name": "Karlsøy",
+    "country": "NO",
+    "region": "Troms",
+    "domain": "karlsoy.kommune.no",
+    "osm_relation_id": 407753
+  },
+  {
+    "id": "NO-5536",
+    "name": "Lyngen",
+    "country": "NO",
+    "region": "Troms",
+    "domain": "lyngen.kommune.no",
+    "osm_relation_id": 407752
+  },
+  {
+    "id": "NO-5538",
+    "name": "Storfjord - Omasvuotna - Omasvuono",
+    "country": "NO",
+    "region": "Troms",
+    "domain": "storfjord.kommune.no",
+    "osm_relation_id": 407751
+  },
+  {
+    "id": "NO-5540",
+    "name": "Gáivuotna - Kåfjord - Kaivuono",
+    "country": "NO",
+    "region": "Troms",
+    "domain": "kafjord.kommune.no",
+    "osm_relation_id": 407750
+  },
+  {
+    "id": "NO-5542",
+    "name": "Skjervøy",
+    "country": "NO",
+    "region": "Troms",
+    "domain": "skjervoy.kommune.no",
+    "osm_relation_id": 407749
+  },
+  {
+    "id": "NO-5544",
+    "name": "Nordreisa - Ráisa - Raisi",
+    "country": "NO",
+    "region": "Troms",
+    "domain": "nordreisa.kommune.no",
+    "osm_relation_id": 407747
+  },
+  {
+    "id": "NO-5546",
+    "name": "Kvænangen",
+    "country": "NO",
+    "region": "Troms",
+    "domain": "kvanangen.kommune.no",
+    "osm_relation_id": 407748
+  },
+  {
+    "id": "NO-5601",
+    "name": "Alta",
+    "country": "NO",
+    "region": "Finnmark",
+    "domain": "alta.kommune.no",
+    "osm_relation_id": 406659
+  },
+  {
+    "id": "NO-5603",
+    "name": "Hammerfest - Hámmerfeasta",
+    "country": "NO",
+    "region": "Finnmark",
+    "domain": "hammerfest.kommune.no",
+    "osm_relation_id": 10143340
+  },
+  {
+    "id": "NO-5605",
+    "name": "Sør-Varanger",
+    "country": "NO",
+    "region": "Finnmark",
+    "domain": "sor-varanger.kommune.no",
+    "osm_relation_id": 406510
+  },
+  {
+    "id": "NO-5607",
+    "name": "Vadsø",
+    "country": "NO",
+    "region": "Finnmark",
+    "domain": "vadso.kommune.no",
+    "osm_relation_id": 406653
+  },
+  {
+    "id": "NO-5610",
+    "name": "Kárášjohka - Karasjok",
+    "country": "NO",
+    "region": "Finnmark",
+    "domain": "karasjok.kommune.no",
+    "osm_relation_id": 406656
+  },
+  {
+    "id": "NO-5612",
+    "name": "Guovdageaidnu - Kautokeino",
+    "country": "NO",
+    "region": "Finnmark",
+    "domain": "kautokeino.kommune.no",
+    "osm_relation_id": 406657
+  },
+  {
+    "id": "NO-5614",
+    "name": "Loppa",
+    "country": "NO",
+    "region": "Finnmark",
+    "domain": "loppa.kommune.no",
+    "osm_relation_id": 406643
+  },
+  {
+    "id": "NO-5616",
+    "name": "Hasvik",
+    "country": "NO",
+    "region": "Finnmark",
+    "domain": "hasvik.kommune.no",
+    "osm_relation_id": 406644
+  },
+  {
+    "id": "NO-5618",
+    "name": "Måsøy",
+    "country": "NO",
+    "region": "Finnmark",
+    "domain": "masoy.kommune.no",
+    "osm_relation_id": 406646
+  },
+  {
+    "id": "NO-5620",
+    "name": "Nordkapp",
+    "country": "NO",
+    "region": "Finnmark",
+    "domain": "nordkapp.kommune.no",
+    "osm_relation_id": 406647
+  },
+  {
+    "id": "NO-5622",
+    "name": "Porsanger - Porsángu - Porsanki",
+    "country": "NO",
+    "region": "Finnmark",
+    "domain": "porsanger.kommune.no",
+    "osm_relation_id": 406648
+  },
+  {
+    "id": "NO-5624",
+    "name": "Lebesby",
+    "country": "NO",
+    "region": "Finnmark",
+    "domain": "lebesby.kommune.no",
+    "osm_relation_id": 406658
+  },
+  {
+    "id": "NO-5626",
+    "name": "Gamvik",
+    "country": "NO",
+    "region": "Finnmark",
+    "domain": "gamvik.kommune.no",
+    "osm_relation_id": 406649
+  },
+  {
+    "id": "NO-5628",
+    "name": "Deatnu - Tana",
+    "country": "NO",
+    "region": "Finnmark",
+    "domain": "tana.kommune.no",
+    "osm_relation_id": 406655
+  },
+  {
+    "id": "NO-5630",
+    "name": "Berlevåg",
+    "country": "NO",
+    "region": "Finnmark",
+    "domain": "berlevag.kommune.no",
+    "osm_relation_id": 406650
+  },
+  {
+    "id": "NO-5632",
+    "name": "Båtsfjord",
+    "country": "NO",
+    "region": "Finnmark",
+    "domain": "batsfjord.kommune.no",
+    "osm_relation_id": 406651
+  },
+  {
+    "id": "NO-5634",
+    "name": "Vardø",
+    "country": "NO",
+    "region": "Finnmark",
+    "domain": "vardo.kommune.no",
+    "osm_relation_id": 406652
+  },
+  {
+    "id": "NO-5636",
+    "name": "Unjárga - Nesseby",
+    "country": "NO",
+    "region": "Finnmark",
+    "domain": "nesseby.kommune.no",
+    "osm_relation_id": 406654
+  }
+]

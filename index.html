@@ -136,16 +136,15 @@
   <div class="header-right">
     <span class="updated" id="generated"></span>
     <button class="toggle-info" id="toggle-stats" aria-expanded="false" aria-controls="stats-bar">Statistics &#9662;</button>
-    <button class="toggle-info" id="toggle-info" aria-expanded="true" aria-controls="info-bar">About &#9652;</button>
+    <button class="toggle-info" id="toggle-info" aria-expanded="false" aria-controls="info-bar">About &#9662;</button>
   </div>
 </header>
-<section id="info-bar" aria-label="About this project">
-<script>if(window.innerWidth<=600)document.getElementById('info-bar').classList.add('collapsed');</script>
+<section id="info-bar" class="collapsed" aria-label="About this project">
   <h2 class="info-title">Email Providers of Nordic-Baltic Municipalities</h2>
   <div class="info-grid">
     <div class="info-card">
       <h3>What is this?</h3>
-      <p>A map of municipalities in Estonia, Latvia, Lithuania, and Finland showing which provider handles their official email — grouped by jurisdiction — based on public DNS records.</p>
+      <p>A map of municipalities in Estonia, Latvia, Lithuania, Finland, and Norway showing which provider handles their official email — grouped by jurisdiction — based on public DNS records.</p>
     </div>
     <div class="info-card">
       <h3>Digital sovereignty</h3>
@@ -153,8 +152,17 @@
     </div>
     <div class="info-card">
       <h3>How does it work?</h3>
-      <p>Each municipality's official domain is checked via public DNS records (MX + SPF) and classified by provider type.</p>
-      <p style="font-size:12px;color:#777;margin-top:6px;">Disclaimer: DNS records indicate mail routing, not necessarily where data is stored.</p>
+      <p>For each municipality's domain, public DNS records are queried and the provider is classified in priority order:</p>
+      <ol style="font-size:12px;color:#444;line-height:1.7;margin:4px 0 0 16px;padding:0">
+        <li><strong>MX hostname</strong> — if the mail server name contains a known provider keyword (e.g. <code>outlook.com</code>), classify directly.</li>
+        <li><strong>MX CNAME</strong> — if the MX host's CNAME resolves to a known provider.</li>
+        <li><strong>Gateway look-through</strong> — if MX matches a known email gateway (FortiMail, Barracuda, TrendMicro, etc.), check SPF (if unambiguous), then autodiscover, then DKIM to identify the backend provider.</li>
+        <li><strong>Self-hosted gateway</strong> — MX doesn't match any known provider or gateway, but DKIM CNAMEs reveal the actual backend (e.g. <code>selector1._domainkey</code> → <code>*.onmicrosoft.com</code> = Microsoft).</li>
+        <li><strong>Local ISP</strong> — MX server's ASN matches a known Nordic-Baltic ISP.</li>
+        <li><strong>Self-hosted</strong> — MX exists but no known provider detected.</li>
+        <li><strong>Unknown</strong> — no MX records found.</li>
+      </ol>
+      <p style="font-size:12px;color:#777;margin-top:6px;">DKIM is the most reliable signal — a CNAME proving a provider signs mail for the domain is definitive proof of mail hosting. SPF only indicates send authorization, not hosting.</p>
     </div>
     <div class="info-card">
       <h3>Open source &amp; open data</h3>
@@ -173,6 +181,7 @@
     <button class="country-btn active" data-country="LV">LV</button>
     <button class="country-btn active" data-country="LT">LT</button>
     <button class="country-btn active" data-country="FI">FI</button>
+    <button class="country-btn active" data-country="NO">NO</button>
   </div>
 </main>
 
@@ -203,7 +212,7 @@ const TIERS = {
   'Unknown':        ['Unknown']
 };
 
-const FLAGS = { EE: '\u{1F1EA}\u{1F1EA}', LV: '\u{1F1F1}\u{1F1FB}', LT: '\u{1F1F1}\u{1F1F9}', FI: '\u{1F1EB}\u{1F1EE}' };
+const FLAGS = { EE: '\u{1F1EA}\u{1F1EA}', LV: '\u{1F1F1}\u{1F1FB}', LT: '\u{1F1F1}\u{1F1F9}', FI: '\u{1F1EB}\u{1F1EE}', NO: '\u{1F1F3}\u{1F1F4}' };
 
 const US_PROVIDERS = new Set(['Microsoft', 'Google', 'AWS']);
 function hasLocalGateway(m) {
@@ -215,15 +224,15 @@ let dnsData = null;
 let geoLayer = null;
 let gatewayMarkers = L.layerGroup();
 let updateLegend = function () {};
-let activeCountries = new Set(['EE', 'LV', 'LT', 'FI']);
+let activeCountries = new Set(['EE', 'LV', 'LT', 'FI', 'NO']);
 let muniByOsm = {};   // "relation/12345" -> municipality
 let muniByName = {};   // lowercase name -> municipality
 
 // --- Map ---
 const map = L.map('map', {
-  center: [60.0, 25.5],
-  zoom: 6,
-  minZoom: 5,
+  center: [63.0, 18.0],
+  zoom: 5,
+  minZoom: 4,
   maxZoom: 14,
   renderer: L.canvas()
 });
@@ -266,11 +275,6 @@ function toggleInfo() {
   map.invalidateSize({ animate: false });
 }
 document.getElementById('toggle-info').addEventListener('click', toggleInfo);
-if (window.innerWidth <= 600) {
-  const btn = document.getElementById('toggle-info');
-  btn.innerHTML = 'About \u25be';
-  btn.setAttribute('aria-expanded', 'false');
-}
 
 function toggleStats() {
   const bar = document.getElementById('stats-bar');
@@ -321,7 +325,7 @@ function buildStats(muniList) {
   const withMx = filtered.filter(m => (m.mx || []).length > 0).length;
 
   const usProviders = new Set(['Microsoft', 'Google', 'AWS']);
-  const countryColors = { US: '#E83838', EE: '#2EDBA8', LV: '#34D5A0', LT: '#78FFD6', DE: '#6BA3D6', NL: '#6BA3D6', FI: '#6BA3D6', SE: '#6BA3D6', IE: '#6BA3D6' };
+  const countryColors = { US: '#E83838', EE: '#2EDBA8', LV: '#34D5A0', LT: '#78FFD6', DE: '#6BA3D6', NL: '#6BA3D6', FI: '#6BA3D6', SE: '#6BA3D6', IE: '#6BA3D6', NO: '#10B898' };
   const sectionTitle = '<div style="font-size:12px;color:#777;text-transform:uppercase;letter-spacing:0.3px;font-weight:600;margin-bottom:4px">';
 
   function barHtml(label, value, max, color, base) {
@@ -358,7 +362,7 @@ function buildStats(muniList) {
       }
       const cc = m.mx_countries || [];
       if (cc.includes('US')) mxUs++;
-      if (cc.some(c => ['EE', 'LV', 'LT', 'FI'].includes(c))) mxLocal++;
+      if (cc.some(c => ['EE', 'LV', 'LT', 'FI', 'NO'].includes(c))) mxLocal++;
     }
     return { total: t, us, usLocalGw, sameCountry, otherEu, unk, providers, mxCountries, mxUs, mxLocal };
   }
@@ -413,8 +417,8 @@ function buildStats(muniList) {
   html += `<p style="font-size:12px;color:#777;margin-top:8px"><strong>${mxInUs}</strong> of ${withMx} municipalities with MX records route mail through servers registered in the US.</p>`;
 
   // Per-country breakdown — side by side
-  const countryNames = { EE: 'Estonia', LV: 'Latvia', LT: 'Lithuania', FI: 'Finland' };
-  const activeList = ['EE', 'LV', 'LT', 'FI'].filter(cc => activeCountries.has(cc));
+  const countryNames = { EE: 'Estonia', LV: 'Latvia', LT: 'Lithuania', FI: 'Finland', NO: 'Norway' };
+  const activeList = ['EE', 'LV', 'LT', 'FI', 'NO'].filter(cc => activeCountries.has(cc));
   const countryStats = {};
   for (const cc of activeList) {
     const list = filtered.filter(m => m.country === cc);
@@ -499,6 +503,24 @@ function buildPopup(m) {
     }
   }
 
+  let autodiscoverSection = '';
+  if (m.autodiscover) {
+    const entries = Object.entries(m.autodiscover);
+    if (entries.length > 0) {
+      const rows = entries.map(([k, v]) => `<tr><td class="host" title="${escapeHtml(v)}">${escapeHtml(v)}</td></tr>`).join('');
+      autodiscoverSection = `<div class="popup-section"><div class="popup-section-title">Autodiscover</div><table class="dns-table">${rows}</table></div>`;
+    }
+  }
+
+  let dkimSection = '';
+  if (m.dkim) {
+    const entries = Object.entries(m.dkim);
+    if (entries.length > 0) {
+      const rows = entries.map(([k, v]) => `<tr><td class="pri">${escapeHtml(k)}</td><td class="host" title="${escapeHtml(v)}">${escapeHtml(v)}</td></tr>`).join('');
+      dkimSection = `<div class="popup-section"><div class="popup-section-title">DKIM</div><table class="dns-table">${rows}</table></div>`;
+    }
+  }
+
   let gatewayNote = '';
   if (hasLocalGateway(m)) {
     gatewayNote = `<div style="margin-top:6px;padding:5px 8px;background:#fff3e0;border-left:3px solid #ff9800;font-size:11px;color:#795548">` +
@@ -512,7 +534,7 @@ function buildPopup(m) {
     (hasLocalGateway(m) ? ' <span title="Local gateway" style="font-size:13px">\u{1F6E1}\uFE0F</span>' : '') +
     `<br><span style="font-size:11px;color:#888">${m.region ? escapeHtml(m.region) + ' \u00b7 ' : ''}${m.country}</span>` +
     (cls.reason ? `<div style="margin-top:4px;font-size:11px;color:#666;font-style:italic">${escapeHtml(cls.reason)}</div>` : '') +
-    gatewayNote + mxSection + spfSection +
+    gatewayNote + mxSection + spfSection + autodiscoverSection + dkimSection +
     `</div>`;
 }
 
@@ -610,7 +632,7 @@ async function loadData() {
   const providerDisplayMap = {
     'microsoft': 'Microsoft', 'google': 'Google', 'aws': 'AWS',
     'telia': 'Telia', 'tet': 'TET', 'zone': 'Zone.eu', 'elkdata': 'Elkdata',
-    'baltic-isp': 'Local ISP', 'independent': 'Self-hosted', 'unknown': 'Unknown',
+    'local-isp': 'Local ISP', 'independent': 'Self-hosted', 'unknown': 'Unknown',
   };
 
   // Transform flat pipeline entries into the shape the frontend expects

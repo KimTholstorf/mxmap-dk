@@ -10,7 +10,7 @@ from mail_sovereignty.constants import (
     MICROSOFT_KEYWORDS,
     PROVIDER_KEYWORDS,
     SMTP_BANNER_KEYWORDS,
-    BALTIC_ISP_ASNS,
+    LOCAL_ISP_ASNS,
 )
 
 
@@ -98,7 +98,7 @@ def classify(
     1. MX hostname matches a known provider directly
     2. CNAME of MX host resolves to a known provider
     3. MX is a known gateway (spam filter) → check SPF/autodiscover/DKIM for backend
-    4. MX exists but unrecognized → check DKIM, then independent or Baltic ISP (by ASN)
+    4. MX exists but unrecognized → check DKIM, then independent or Local ISP (by ASN)
     5. No MX → unknown
     """
     mx_blob = " ".join(mx_records).lower()
@@ -136,8 +136,16 @@ def classify(
     # 3. Known email gateway → look through to backend provider
     gateway = detect_gateway(mx_records) if mx_records else None
     if gateway:
-        spf_provider = _check_spf_all(spf_record, resolved_spf)
-        if spf_provider:
+        # Only trust SPF if exactly one main provider is found;
+        # multiple providers in SPF is ambiguous (e.g., Microsoft for
+        # calendars + Google for transactional email)
+        spf_blob = ((spf_record or "") + " " + (resolved_spf or "")).lower()
+        spf_providers = set()
+        for prov, keywords in PROVIDER_KEYWORDS.items():
+            if any(k in spf_blob for k in keywords):
+                spf_providers.add(prov)
+        if len(spf_providers) == 1:
+            spf_provider = next(iter(spf_providers))
             return spf_provider, (
                 f"MX is {gateway} gateway; SPF authorizes {spf_provider}"
             )
@@ -154,7 +162,7 @@ def classify(
         # Gateway relays to unknown backend — fall through to independent
 
     # 4. MX exists but no direct provider match → check DKIM for hidden
-    #    backend (self-hosted gateway pattern), then Baltic ISP, then independent
+    #    backend (self-hosted gateway pattern), then Local ISP, then independent
     #    Note: SPF is NOT used here — SPF only indicates send authorization,
     #    not where mailboxes are hosted. Many ISP-hosted municipalities have
     #    SPF includes for Outlook (shared calendars, etc.) without using it
@@ -169,15 +177,15 @@ def classify(
                     f"DKIM reveals {dkim_provider} backend"
                 )
 
-        is_baltic_isp = bool(mx_asns and mx_asns & BALTIC_ISP_ASNS.keys())
+        is_local_isp = bool(mx_asns and mx_asns & LOCAL_ISP_ASNS.keys())
 
-        if is_baltic_isp:
+        if is_local_isp:
             asn_names = [
-                BALTIC_ISP_ASNS[a]
-                for a in sorted(mx_asns & BALTIC_ISP_ASNS.keys())
+                LOCAL_ISP_ASNS[a]
+                for a in sorted(mx_asns & LOCAL_ISP_ASNS.keys())
             ]
-            return "baltic-isp", (
-                f"MX ({mx_display}) hosted on Baltic ISP "
+            return "local-isp", (
+                f"MX ({mx_display}) hosted on Local ISP "
                 f"({', '.join(asn_names)})"
             )
 

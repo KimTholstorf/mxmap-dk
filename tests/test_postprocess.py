@@ -111,7 +111,7 @@ class TestManualOverrides:
     def test_valid_providers(self):
         valid = {
             "independent", "zone", "telia", "tet", "microsoft",
-            "google", "aws", "baltic-isp", "merged",
+            "google", "aws", "local-isp", "merged",
         }
         for bfs, entry in MANUAL_OVERRIDES.items():
             if "provider" in entry:

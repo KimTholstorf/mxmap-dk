@@ -28,6 +28,7 @@ SEED_FILES = {
     "LV": "municipalities_lv.json",
     "LT": "municipalities_lt.json",
     "FI": "municipalities_fi.json",
+    "NO": "municipalities_no.json",
 }
 
 
@@ -54,6 +55,7 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         " rajono savivaldybė", " miesto savivaldybė",  # Lithuanian
         " savivaldybė",
         " kaupunki", " kunta",                         # Finnish
+        " kommune",                                     # Norwegian
     ]:
         if raw.endswith(suffix):
             raw = raw[: -len(suffix)]
@@ -66,6 +68,7 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         ("ķ", "k"), ("ļ", "l"), ("ņ", "n"), ("ģ", "g"),
         ("ė", "e"), ("į", "i"), ("ų", "u"), ("ū", "u"),  # Lithuanian
         ("å", "a"),                                          # Finnish/Nordic
+        ("ø", "o"), ("æ", "ae"),                                 # Norwegian
     ]
     clean = raw
     for a, b in translits:
@@ -79,8 +82,8 @@ def guess_domains(name: str, country: str = "") -> list[str]:
     slugs = {slugify(clean), slugify(raw)} - {""}
 
     # Determine TLDs based on country
-    tld_map = {"EE": [".ee"], "LV": [".lv"], "LT": [".lt"], "FI": [".fi"]}
-    tlds = tld_map.get(country, [".ee", ".lv", ".lt", ".fi"])
+    tld_map = {"EE": [".ee"], "LV": [".lv"], "LT": [".lt"], "FI": [".fi"], "NO": [".no", ".kommune.no"]}
+    tlds = tld_map.get(country, [".ee", ".lv", ".lt", ".fi", ".no"])
 
     candidates = set()
     for slug in slugs:
@@ -229,7 +232,7 @@ async def run(output_path: Path) -> None:
                 f"Telia={counts.get('telia', 0)}  "
                 f"TET={counts.get('tet', 0)}  "
                 f"AWS={counts.get('aws', 0)}  "
-                f"ISP={counts.get('baltic-isp', 0)}  "
+                f"ISP={counts.get('local-isp', 0)}  "
                 f"Indep={counts.get('independent', 0)}  "
                 f"?={counts.get('unknown', 0)}"
             )
@@ -246,7 +249,7 @@ async def run(output_path: Path) -> None:
     print(f"  Telia           : {counts.get('telia', 0):>5}")
     print(f"  TET             : {counts.get('tet', 0):>5}")
     print(f"  AWS             : {counts.get('aws', 0):>5}")
-    print(f"  Baltic ISP      : {counts.get('baltic-isp', 0):>5}")
+    print(f"  Local ISP       : {counts.get('local-isp', 0):>5}")
     print(f"  Independent     : {counts.get('independent', 0):>5}")
     print(f"  Unknown/No MX   : {counts.get('unknown', 0):>5}")
     print(f"{'=' * 50}")
