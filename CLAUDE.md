@@ -50,12 +50,15 @@ All three stages operate on `data.json` at the repo root:
 Priority order:
 1. **Direct MX match** — MX hostname contains provider keyword
 2. **CNAME resolution** — MX host's CNAME target matches a provider
-3. **Gateway look-through** — MX is a known gateway/spam filter (SeppMail, Barracuda, FortiMail, SecMail, D-Fence, etc.) → check SPF/autodiscover/DKIM for the actual backend provider
-4. **Local ISP** — MX ASN matches known Nordic-Baltic ISP ASNs (`BALTIC_ISP_ASNS` in constants.py)
-5. **Independent** — MX exists but doesn't match any known provider
-6. **Unknown** — No MX records found
+3. **Known gateway look-through** — MX matches a `GATEWAY_KEYWORDS` entry (SeppMail, Barracuda, FortiMail, SecMail, D-Fence, edelkey, ippnet, garmtech, etc.) → check SPF → autodiscover → DKIM for the actual backend provider
+4. **Self-hosted gateway detection** — MX exists but doesn't match any provider or gateway → check DKIM for a hidden backend provider (e.g., `mail.muhu.ee` on Radicenter but DKIM → `*.onmicrosoft.com` = Microsoft)
+5. **Local ISP** — MX ASN matches known Nordic-Baltic ISP ASNs (`BALTIC_ISP_ASNS` in constants.py)
+6. **Independent** — MX exists but doesn't match any known provider and no DKIM backend found
+7. **Unknown** — No MX records found
 
-**Important:** SPF is only used to identify the backend provider when MX points to a known gateway. SPF alone does not determine the provider — it only indicates who is authorized to send, not where mailboxes are hosted.
+**SPF vs DKIM for backend detection:**
+- **SPF** is only used in step 3 (known gateways). SPF indicates who is authorized to *send* on behalf of a domain, not where mailboxes are hosted. Many municipalities include `spf.protection.outlook.com` in SPF for shared calendars or hybrid sending without hosting mailboxes on Microsoft.
+- **DKIM** is used in both steps 3 and 4. DKIM CNAMEs (`selector1._domainkey.domain → *.onmicrosoft.com`) prove a Microsoft 365 tenant is configured to sign mail for that domain — this is definitive proof of mail hosting. DKIM is the most reliable signal for identifying the actual backend provider.
 
 Provider values: `microsoft`, `google`, `aws`, `zone`, `telia`, `tet`, `elkdata`, `baltic-isp`, `independent`, `unknown`.
 

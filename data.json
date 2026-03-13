@@ -1,12 +1,12 @@
 {
-  "generated":"2026-03-13T18:50:45Z",
+  "generated":"2026-03-13T19:49:59Z",
   "total":490,
   "counts":{
-    "baltic-isp":90,
+    "baltic-isp":83,
     "elkdata":1,
     "google":6,
-    "independent":5,
-    "microsoft":374,
+    "independent":4,
+    "microsoft":382,
     "telia":3,
     "zone":11
   },
@@ -919,8 +919,8 @@
         "mail.muhu.ee"
       ],
       "spf":"v=spf1 +a +mx +ip4:185.86.211.140 +ip4:185.86.211.160 include:_spf.radicenter.eu +ip4:212.47.208.140 +mx:webware.ee +mx:webriks.ee +include:spf.protection.outlook.com ~all",
-      "provider":"independent",
-      "reason":"MX (mail.muhu.ee) is self-hosted",
+      "provider":"baltic-isp",
+      "reason":"MX (mail.muhu.ee) hosted on Baltic ISP (Radicenter (EE))",
       "osm_relation_id":2625899,
       "spf_resolved":"v=spf1 +a +mx +ip4:185.86.211.140 +ip4:185.86.211.160 include:_spf.radicenter.eu +ip4:212.47.208.140 +mx:webware.ee +mx:webriks.ee +include:spf.protection.outlook.com ~all v=spf1 ip4:185.86.211.0/24 ip6:2a13:c5c0::/32 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -5200,8 +5200,8 @@
         "mx2.ya.elisa.fi"
       ],
       "spf":"v=spf1 a mx a:mail.kurikka.fi include:sendgrid.net include:spf.protection.outlook.com include:mail.webropolsurveys.com include:_spf.datacenter.fi ip4:193.64.173.0/24 ip4:91.123.141.101 ip4:91.217.117.27 ip4:217.78.212.80/28 include:_spf.emaileri.fi -all",
-      "provider":"baltic-isp",
-      "reason":"MX (mx1.ya.elisa.fi, mx2.ya.elisa.fi) hosted on Baltic ISP (Elisa (FI))",
+      "provider":"microsoft",
+      "reason":"MX (mx1.ya.elisa.fi, mx2.ya.elisa.fi) is local gateway; DKIM reveals microsoft backend",
       "osm_relation_id":2269242,
       "spf_resolved":"v=spf1 a mx a:mail.kurikka.fi include:sendgrid.net include:spf.protection.outlook.com include:mail.webropolsurveys.com include:_spf.datacenter.fi ip4:193.64.173.0/24 ip4:91.123.141.101 ip4:91.217.117.27 ip4:217.78.212.80/28 include:_spf.emaileri.fi -all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:213.157.70.72/29 ip4:213.157.70.80/31 ~all v=spf1 ip4:89.250.60.42 ip4:5.250.160.26 ip4:89.250.48.136 ip4:80.242.31.11 ip4:195.60.252.134 ip4:195.60.252.50 ip4:13.51.142.212 ip4:16.170.123.104 ip4:51.20.26.199 ?all v=spf1 ip4:91.233.125.0/24 ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
       "mx_asns":[
@@ -5517,11 +5517,11 @@
         "mx62784.bak.secmail.com",
         "mx62784.pri.secmail.com"
       ],
-      "spf":"v=spf1  ip4:185.55.176.54 ip4:213.214.170.95 ip4:213.138.147.128/27 ip4:91.209.29.24 ip4:91.209.29.24  ip4:81.209.91.20 ip4:192.103.112.33 ip4:192.103.112.32 include:spf.protection.outlook.com include:_spf.datacenter.fi include:sendgrid.net ~all ",
+      "spf":"v=spf1  ip4:213.214.170.95 ip4:213.138.147.128/27 ip4:91.209.29.24 ip4:91.209.29.24 ip4:81.209.91.20 ip4:192.103.112.33 ip4:192.103.112.32 ip4:185.55.176.54  include:spf.protection.outlook.com include:_spf.datacenter.fi include:sendgrid.net ~all",
       "provider":"microsoft",
       "reason":"MX is secmail gateway; SPF authorizes microsoft",
       "osm_relation_id":2378069,
-      "spf_resolved":"v=spf1  ip4:185.55.176.54 ip4:213.214.170.95 ip4:213.138.147.128/27 ip4:91.209.29.24 ip4:91.209.29.24  ip4:81.209.91.20 ip4:192.103.112.33 ip4:192.103.112.32 include:spf.protection.outlook.com include:_spf.datacenter.fi include:sendgrid.net ~all  v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:89.250.60.42 ip4:5.250.160.26 ip4:89.250.48.136 ip4:80.242.31.11 ip4:195.60.252.134 ip4:195.60.252.50 ip4:13.51.142.212 ip4:16.170.123.104 ip4:51.20.26.199 ?all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
+      "spf_resolved":"v=spf1  ip4:213.214.170.95 ip4:213.138.147.128/27 ip4:91.209.29.24 ip4:91.209.29.24 ip4:81.209.91.20 ip4:192.103.112.33 ip4:192.103.112.32 ip4:185.55.176.54  include:spf.protection.outlook.com include:_spf.datacenter.fi include:sendgrid.net ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:89.250.60.42 ip4:5.250.160.26 ip4:89.250.48.136 ip4:80.242.31.11 ip4:195.60.252.134 ip4:195.60.252.50 ip4:13.51.142.212 ip4:16.170.123.104 ip4:51.20.26.199 ?all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all",
       "gateway":"secmail",
       "mx_asns":[
         1759,
@@ -6162,8 +6162,8 @@
         "vsgw2.lohja.fi"
       ],
       "spf":"v=spf1 a:vsgw2.lohja.fi ip4:194.241.59.0/24 ip4:195.255.158.0/24 include:spf1.lohja.fi include:spf2.lohja.fi include:spf.protection.outlook.com -all",
-      "provider":"baltic-isp",
-      "reason":"MX (vsgw2.lohja.fi) hosted on Baltic ISP (Elisa (FI))",
+      "provider":"microsoft",
+      "reason":"MX (vsgw2.lohja.fi) is local gateway; DKIM reveals microsoft backend",
       "osm_relation_id":2752633,
       "spf_resolved":"v=spf1 a:vsgw2.lohja.fi ip4:194.241.59.0/24 ip4:195.255.158.0/24 include:spf1.lohja.fi include:spf2.lohja.fi include:spf.protection.outlook.com -all v=spf1 a:mda-out.datacenter.fi a:posti.saas.cldpart.net a:smtp.netticket.fi include:_spf.fronter.com include:spf.lianamailer.com include:_spf.signicat.cloud -all v=spf1 ip4:87.108.24.0 ip4:91.123.138.78 ip4:94.237.38.13 ip4:185.121.204.4 ip4:185.121.204.138 ip4:185.55.176.54 ip4:91.209.29.24 ip4:81.22.169.240 ip4:81.22.169.219 ip4:81.22.169.238 ip4:81.22.169.239 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:193.157.209.0/25 ip4:185.102.52.0/22 ip6:2a06:2300::/29 ip4:129.240.10.44/32 ip4:129.240.10.45/32 ip4:85.194.254.104/32 -all v=spf1 ip4:77.86.247.13 ip4:77.86.247.21 ip4:77.86.247.134 ip4:77.86.247.149 ip4:77.86.247.154 ip4:77.86.247.214 ip4:77.86.247.230 ip4:77.86.251.39 ip4:77.86.251.41 ip4:77.86.251.42 ip4:77.86.255.242 ip4:77.86.255.243 ip4:195.201.75.0/27 ip4:195.201.75.32/27 ip4:195.201.73.224/27 ip4:213.139.173.144/28 ip4:88.198.228.224/27 ip4:89.166.55.64/27 ip4:85.131.41.192/28 ip4:212.146.22.0/25 ip4:94.237.5.0/24 ip4:94.237.6.0/24 ip4:45.66.245.116 ip4:45.66.245.117 ip4:45.66.245.118 ip4:45.66.245.119 ip4:45.66.245.120 ip4:45.66.245.121 ip4:45.66.245.122 ip4:45.66.245.123 ip4:45.66.245.124 ip4:45.66.245.125 ip4:94.237.82.59/32 ip4:94.237.91.66/32 ip4:94.237.87.9/32 ip4:94.237.84.178/32 ip4:94.237.82.97/32 ip4:62.122.31.0/26 ip4:62.122.31.192/27 ip4:62.122.31.240/28 ip4:94.237.90.130/32 ip4:85.9.206.74 ip4:85.9.200.78 ip4:94.237.80.35 ip4:94.237.91.112 ip4:94.237.98.202 ip4:94.237.31.215 ip4:5.22.215.160 ip4:94.237.101.144 ip4:94.237.30.7 ip4:94.237.93.46 ip4:94.237.94.174/32 -all  v=spf1 ip4:81.93.166.36 ip4:81.93.166.37 ip4:89.250.114.179 ip4:89.250.114.180 ip4:195.225.6.203 ip4:195.225.6.204 ip4:81.93.175.236 ip4:81.93.175.237 ~all",
       "mx_asns":[
@@ -7531,8 +7531,8 @@
         "smtp1.lapit.fi"
       ],
       "spf":"v=spf1 ip4:193.106.9.39 include:spfa.posio.fi include:spfb.posio.fi include:spfa.lapit.fi include:spf.protection.outlook.com -all",
-      "provider":"baltic-isp",
-      "reason":"MX (smtp1.lapit.fi) hosted on Baltic ISP (Lapit Oy)",
+      "provider":"microsoft",
+      "reason":"MX (smtp1.lapit.fi) is local gateway; DKIM reveals microsoft backend",
       "osm_relation_id":2528472,
       "spf_resolved":"v=spf1 ip4:193.106.9.39 include:spfa.posio.fi include:spfb.posio.fi include:spfa.lapit.fi include:spf.protection.outlook.com -all v=spf1 ip4:62.237.81.32/27 ip4:109.70.160.0/21 ip4:81.22.160.0/20 ip4:213.255.168.0/24 ip4:185.43.88.0/24 ip4:217.30.180.0/24 ip4:62.71.2.0/24 ip4:94.237.32.0/21 ip4:91.209.29.24 ip4:185.55.176.54 ip4:185.83.204.135 ip4:185.83.204.137 ip4:185.83.204.138 ip4:185.83.204.140 ip4:185.83.204.141 ip4:185.83.204.150 ip4:185.83.205.251 ip4:52.174.94.160 a:mailout4.palvelukanava.fi -all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:217.78.212.80/28 ip4:149.72.0.0/16 -all v=spf1 ip4:193.106.9.42 ip4:193.106.9.93 ip4:193.106.9.94 ip4:81.22.168.0/21 ip4:213.138.128.0/19 ip4:185.59.116.0/22 ip4:185.55.176.54 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -8414,8 +8414,8 @@
         "salomx04.salo.fi"
       ],
       "spf":"v=spf1 mx include:_spf.salo.fi a:mail.webropolsurveys.com a:mda-out.datacenter.fi a:verkkokauppa.salo.fi include:spf.protection.outlook.com include:spf.mailjet.com include:mg-lcsse.tietoevry.com include:salomx03.salo.fi   include:spf.lianamailer.com ~all",
-      "provider":"baltic-isp",
-      "reason":"MX (salomx03.salo.fi, salomx04.salo.fi) hosted on Baltic ISP (Lounea)",
+      "provider":"microsoft",
+      "reason":"MX (salomx03.salo.fi, salomx04.salo.fi) is local gateway; DKIM reveals microsoft backend",
       "osm_relation_id":2373964,
       "spf_resolved":"v=spf1 mx include:_spf.salo.fi a:mail.webropolsurveys.com a:mda-out.datacenter.fi a:verkkokauppa.salo.fi include:spf.protection.outlook.com include:spf.mailjet.com include:mg-lcsse.tietoevry.com include:salomx03.salo.fi   include:spf.lianamailer.com ~all v=spf1 ip4:185.43.122.145 ip4:86.60.245.32 ip4:86.60.245.33 ip4:86.60.250.39 ip4:86.60.250.56 ip4:86.60.250.57 v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:45.14.148.0/22 ~all v=spf1 ip4:194.14.67.124 ip4:194.14.67.125 ip4:192.176.136.195 ip4:192.176.136.197 ip4:192.176.133.70 ip4:192.176.133.71 -all v=spf1 ip4:77.86.247.13 ip4:77.86.247.21 ip4:77.86.247.134 ip4:77.86.247.149 ip4:77.86.247.154 ip4:77.86.247.214 ip4:77.86.247.230 ip4:77.86.251.39 ip4:77.86.251.41 ip4:77.86.251.42 ip4:77.86.255.242 ip4:77.86.255.243 ip4:195.201.75.0/27 ip4:195.201.75.32/27 ip4:195.201.73.224/27 ip4:213.139.173.144/28 ip4:88.198.228.224/27 ip4:89.166.55.64/27 ip4:85.131.41.192/28 ip4:212.146.22.0/25 ip4:94.237.5.0/24 ip4:94.237.6.0/24 ip4:45.66.245.116 ip4:45.66.245.117 ip4:45.66.245.118 ip4:45.66.245.119 ip4:45.66.245.120 ip4:45.66.245.121 ip4:45.66.245.122 ip4:45.66.245.123 ip4:45.66.245.124 ip4:45.66.245.125 ip4:94.237.82.59/32 ip4:94.237.91.66/32 ip4:94.237.87.9/32 ip4:94.237.84.178/32 ip4:94.237.82.97/32 ip4:62.122.31.0/26 ip4:62.122.31.192/27 ip4:62.122.31.240/28 ip4:94.237.90.130/32 ip4:85.9.206.74 ip4:85.9.200.78 ip4:94.237.80.35 ip4:94.237.91.112 ip4:94.237.98.202 ip4:94.237.31.215 ip4:5.22.215.160 ip4:94.237.101.144 ip4:94.237.30.7 ip4:94.237.93.46 ip4:94.237.94.174/32 -all ",
       "mx_asns":[
@@ -9555,8 +9555,8 @@
         "smtp1.lapit.fi"
       ],
       "spf":"v=spf1 ip4:193.106.9.39 ip4:193.106.9.42 ip4:209.85.215.179 ip4:91.209.29.24 ip4:185.55.176.54 ip4:209.85.166.53 ip4:209.85.217.49 ip4:209.85.160.176 ip4:209.85.166.173 ip4:209.85.166.52 ip4:209.85.166.49 ip4:209.85.166.177 ip4:209.85.166.180 ip4:217.78.212.80/28 include:_spf.google.com include:_spf.datacenter.fi include:spf.palvelukanava.fi include:spf.protection.outlook.com a:mailout4.palvelukanava.fi -all",
-      "provider":"baltic-isp",
-      "reason":"MX (smtp1.lapit.fi) hosted on Baltic ISP (Lapit Oy)",
+      "provider":"microsoft",
+      "reason":"MX (smtp1.lapit.fi) is local gateway; DKIM reveals microsoft backend",
       "osm_relation_id":2527261,
       "spf_resolved":"v=spf1 ip4:193.106.9.39 ip4:193.106.9.42 ip4:209.85.215.179 ip4:91.209.29.24 ip4:185.55.176.54 ip4:209.85.166.53 ip4:209.85.217.49 ip4:209.85.160.176 ip4:209.85.166.173 ip4:209.85.166.52 ip4:209.85.166.49 ip4:209.85.166.177 ip4:209.85.166.180 ip4:217.78.212.80/28 include:_spf.google.com include:_spf.datacenter.fi include:spf.palvelukanava.fi include:spf.protection.outlook.com a:mailout4.palvelukanava.fi -all v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all v=spf1 ip4:89.250.60.42 ip4:5.250.160.26 ip4:89.250.48.136 ip4:80.242.31.11 ip4:195.60.252.134 ip4:195.60.252.50 ip4:13.51.142.212 ip4:16.170.123.104 ip4:51.20.26.199 ?all v=spf1 ip4:185.83.204.135 ip4:185.83.204.137 ip4:185.83.204.138 ip4:185.83.204.140 ip4:185.83.204.141 ip4:185.83.204.150 ip4:185.83.205.251 ip4:52.174.94.160 ip4:185.83.205.59 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -10437,8 +10437,8 @@
         "mail.akmene.lt"
       ],
       "spf":"v=spf1 +mx +a +ip4:89.116.41.24 +include:spf.protection.outlook.com -all",
-      "provider":"baltic-isp",
-      "reason":"MX (mail.akmene.lt) hosted on Baltic ISP (LRTC (LT))",
+      "provider":"microsoft",
+      "reason":"MX (mail.akmene.lt) is local gateway; DKIM reveals microsoft backend",
       "osm_relation_id":1307304,
       "spf_resolved":"v=spf1 +mx +a +ip4:89.116.41.24 +include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -10665,8 +10665,8 @@
         "mail.jonava.lt"
       ],
       "spf":"v=spf1 +a +mx +ip4:89.116.41.33 +include:spf.protection.outlook.com -all",
-      "provider":"baltic-isp",
-      "reason":"MX (mail.jonava.lt) hosted on Baltic ISP (LRTC (LT))",
+      "provider":"microsoft",
+      "reason":"MX (mail.jonava.lt) is local gateway; DKIM reveals microsoft backend",
       "osm_relation_id":1447848,
       "spf_resolved":"v=spf1 +a +mx +ip4:89.116.41.33 +include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
@@ -12745,8 +12745,8 @@
         "mail.tukums.lv"
       ],
       "spf":"v=spf1 ip4:91.135.81.2  -all",
-      "provider":"baltic-isp",
-      "reason":"MX (mail.tukums.lv) hosted on Baltic ISP (Nano IT (LV))",
+      "provider":"microsoft",
+      "reason":"MX (mail.tukums.lv) is local gateway; DKIM reveals microsoft backend",
       "osm_relation_id":14102182,
       "mx_asns":[
         43513

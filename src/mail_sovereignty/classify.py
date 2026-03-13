@@ -153,8 +153,22 @@ def classify(
             )
         # Gateway relays to unknown backend — fall through to independent
 
-    # 4. MX exists but no direct provider match → independent or Baltic ISP
+    # 4. MX exists but no direct provider match → check DKIM for hidden
+    #    backend (self-hosted gateway pattern), then Baltic ISP, then independent
+    #    Note: SPF is NOT used here — SPF only indicates send authorization,
+    #    not where mailboxes are hosted. Many ISP-hosted municipalities have
+    #    SPF includes for Outlook (shared calendars, etc.) without using it
+    #    for mail hosting. DKIM CNAMEs are specific to the actual mail host.
     if mx_records:
+        # Check if DKIM reveals a backend provider (self-hosted gateway)
+        if not gateway:
+            dkim_provider = classify_from_dkim(dkim)
+            if dkim_provider:
+                return dkim_provider, (
+                    f"MX ({mx_display}) is local gateway; "
+                    f"DKIM reveals {dkim_provider} backend"
+                )
+
         is_baltic_isp = bool(mx_asns and mx_asns & BALTIC_ISP_ASNS.keys())
 
         if is_baltic_isp:

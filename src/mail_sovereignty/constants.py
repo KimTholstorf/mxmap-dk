@@ -104,6 +104,7 @@ BALTIC_ISP_ASNS: dict[int, str] = {
     3327: "Telia Eesti",
     49604: "Telia Eesti",
     3212: "EENET",
+    216263: "Radicenter (EE)",
     # Latvia
     5518: "TET (Lattelecom)",
     12578: "Lattelecom",
