@@ -1,4 +1,5 @@
 name: Nightly data update
+# Runs preprocess (DNS) + postprocess (overrides, SMTP) + validate + deploy
 
 on:
   schedule:
