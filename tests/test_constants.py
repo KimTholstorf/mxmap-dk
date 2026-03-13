@@ -23,7 +23,7 @@ def test_keyword_lists_non_empty():
 
 def test_provider_keywords_has_all_providers():
     assert set(PROVIDER_KEYWORDS.keys()) == {
-        "microsoft", "google", "aws", "zone", "telia", "tet",
+        "microsoft", "google", "aws", "zone", "telia", "tet", "elkdata",
     }
 
 

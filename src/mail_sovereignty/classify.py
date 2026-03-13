@@ -1,5 +1,6 @@
 from mail_sovereignty.constants import (
     AWS_KEYWORDS,
+    ELKDATA_KEYWORDS,
     FOREIGN_SENDER_KEYWORDS,
     GATEWAY_KEYWORDS,
     GOOGLE_KEYWORDS,
@@ -94,6 +95,7 @@ def classify(
         ("telia", TELIA_KEYWORDS, "Telia"),
         ("tet", TET_KEYWORDS, "TET"),
         ("aws", AWS_KEYWORDS, "AWS"),
+        ("elkdata", ELKDATA_KEYWORDS, "Elkdata"),
     ]:
         if any(k in mx_blob for k in keywords):
             return provider, f"MX record ({mx_display}) matches {label}"
@@ -108,6 +110,7 @@ def classify(
             ("telia", TELIA_KEYWORDS, "Telia"),
             ("tet", TET_KEYWORDS, "TET"),
             ("aws", AWS_KEYWORDS, "AWS"),
+            ("elkdata", ELKDATA_KEYWORDS, "Elkdata"),
         ]:
             if any(k in cname_blob for k in keywords):
                 cname_target = next(iter(mx_cnames.values()), "?")

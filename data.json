@@ -1,11 +1,12 @@
 {
-  "generated":"2026-03-13T13:17:32Z",
+  "generated":"2026-03-13T13:44:18Z",
   "total":182,
   "counts":{
     "aws":1,
     "baltic-isp":23,
+    "elkdata":2,
     "google":7,
-    "independent":31,
+    "independent":29,
     "microsoft":105,
     "telia":4,
     "zone":11
@@ -886,8 +887,8 @@
         "mh25.elkdata.ee"
       ],
       "spf":"v=spf1 a mx include:mail.spf.elkdata.ee ~all",
-      "provider":"independent",
-      "reason":"MX (mh1.elkdata.ee, mh25.elkdata.ee) is self-hosted; no known provider in SPF or autodiscover",
+      "provider":"elkdata",
+      "reason":"MX record (mh1.elkdata.ee, mh25.elkdata.ee) matches Elkdata",
       "osm_relation_id":9622885,
       "spf_resolved":"v=spf1 a mx include:mail.spf.elkdata.ee ~all v=spf1 include:mh.spf.elkdata.ee ip4:194.106.101.168 ip4:185.7.252.120/29 ip4:185.7.252.64 ip4:185.7.252.68 ip4:185.7.252.69 ip4:85.194.200.192/26 -all v=spf1 ip4:185.7.252.14 ip4:185.7.252.160 ip4:185.7.252.15 ip4:185.7.252.75 ip4:185.7.252.76 ip4:185.7.252.16/28 ip4:185.7.252.32/29 ip4:85.194.202.0/25 -all",
       "mx_asns":[
@@ -895,8 +896,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"webmail.veebimajutus.ee"
-      },
-      "smtp_banner":"220 mh1.elkdata.ee ESMTP Postfix"
+      }
     },
     "EE-0615":{
       "bfs":"EE-0615",
@@ -1142,8 +1142,7 @@
       "osm_relation_id":8414598,
       "mx_asns":[
         16276
-      ],
-      "smtp_banner":"220 localhost ESMTP Postfix"
+      ]
     },
     "EE-0708":{
       "bfs":"EE-0708",
@@ -1262,14 +1261,13 @@
         "mh25.elkdata.ee"
       ],
       "spf":"v=spf1 a mx include:mail.spf.elkdata.ee ip4:213.35.185.34 ip4:185.250.238.195 include:mailgun.org include:_spf.smaily.com ~all",
-      "provider":"independent",
-      "reason":"MX (mh1.elkdata.ee, mh25.elkdata.ee) is self-hosted; no known provider in SPF or autodiscover",
+      "provider":"elkdata",
+      "reason":"MX record (mh1.elkdata.ee, mh25.elkdata.ee) matches Elkdata",
       "osm_relation_id":9622891,
       "spf_resolved":"v=spf1 a mx include:mail.spf.elkdata.ee ip4:213.35.185.34 ip4:185.250.238.195 include:mailgun.org include:_spf.smaily.com ~all v=spf1 include:mh.spf.elkdata.ee ip4:194.106.101.168 ip4:185.7.252.120/29 ip4:185.7.252.64 ip4:185.7.252.68 ip4:185.7.252.69 ip4:85.194.200.192/26 -all v=spf1 include:_spf.mailgun.org include:_spf.eu.mailgun.org -all v=spf1 ip4:149.154.156.2/31 ip4:149.154.156.4/30 ip4:149.154.156.8/29 ip4:149.154.156.16/31 ip4:185.31.243.2/31 ip4:185.31.243.4/30 ip4:185.31.243.8/29 ip4:185.31.243.16/28 ip4:185.31.243.32/29 ip4:149.202.130.128/25 -all v=spf1 ip4:185.7.252.14 ip4:185.7.252.160 ip4:185.7.252.15 ip4:185.7.252.75 ip4:185.7.252.76 ip4:185.7.252.16/28 ip4:185.7.252.32/29 ip4:85.194.202.0/25 -all v=spf1 include:_spf1.mailgun.org include:_spf2.mailgun.org ~all v=spf1 ip4:141.193.32.0/23 ip4:159.135.140.80/29 ip4:159.135.132.128/25 ip4:161.38.204.0/22 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:143.55.236.0/22 ip4:198.244.60.0/22 ip4:204.220.160.0/21 ~all v=spf1 ip4:209.61.151.0/24 ip4:166.78.68.0/22 ip4:198.61.254.0/23 ip4:192.237.158.0/23 ip4:23.253.182.0/23 ip4:104.130.96.0/28 ip4:146.20.113.0/24 ip4:146.20.191.0/24 ip4:159.135.224.0/20 ip4:69.72.32.0/20 ~all v=spf1 ip4:104.130.122.0/23 ip4:146.20.112.0/26 ip4:161.38.192.0/20 ip4:143.55.224.0/21 ip4:143.55.232.0/22 ip4:159.112.240.0/20 ip4:198.244.48.0/20 ip4:204.220.168.0/21 ip4:204.220.176.0/20 ~all",
       "mx_asns":[
         61189
-      ],
-      "smtp_banner":"220 mh1.elkdata.ee ESMTP Postfix"
+      ]
     },
     "EE-0735":{
       "bfs":"EE-0735",
@@ -1642,8 +1640,7 @@
       "spf_resolved":"v=spf1 redirect=_spf.voru.ee v=spf1 ip4:195.80.124.2/32 ip4:195.80.113.56/29 ip4:193.40.104.35/32 ip4:185.7.252.75/32 ip4:193.40.0.43/32 -all",
       "mx_asns":[
         8240
-      ],
-      "smtp_banner":"220-voru.ee -- please wait"
+      ]
     },
     "EE-0919":{
       "bfs":"EE-0919",
@@ -2018,8 +2015,7 @@
       "spf_resolved":"v=spf1 include:spf.serveriai.lt ip4:195.182.81.34 ip4:195.182.86.72 -all v=spf1 ip4:31.14.176.0/22 ip4:62.77.152.0/21 ip4:79.98.24.0/21 ip4:80.208.224.0/21 ip4:80.209.224.0/20 ip4:89.40.0.0/20 ip4:89.47.160.0/21 ip4:94.176.232.0/21 ip4:109.235.64.0/21 ip4:176.223.128.0/20 ip4:185.5.52.0/22 ip4:185.69.52.0/22 ip4:185.81.164.0/22 ip4:194.135.80.0/20 ip4:195.181.240.0/21 ip4:212.24.96.0/20 ip4:212.237.232.0/22 -all",
       "mx_asns":[
         212531
-      ],
-      "smtp_banner":"220 kazluruda.hostingas.lt ESMTP"
+      ]
     },
     "LT-18":{
       "bfs":"LT-18",
@@ -2248,8 +2244,7 @@
       "spf_resolved":"v=spf1 +a +mx include:_spf.sender.hostex.lt -all v=spf1 +a:sender-spf.hostex.lt +a:pastas.hostex.lt +a:mailgw.hostex.lt +ip4:92.61.46.248 ?all",
       "mx_asns":[
         43811
-      ],
-      "smtp_banner":"220-ltvnsplsk50.teliahosting.lt ESMTP Postfix"
+      ]
     },
     "LT-30":{
       "bfs":"LT-30",
@@ -2538,8 +2533,7 @@
       "spf_resolved":"v=spf1 a mx ptr redirect=spf.serveriai.lt v=spf1 ip4:31.14.176.0/22 ip4:62.77.152.0/21 ip4:79.98.24.0/21 ip4:80.208.224.0/21 ip4:80.209.224.0/20 ip4:89.40.0.0/20 ip4:89.47.160.0/21 ip4:94.176.232.0/21 ip4:109.235.64.0/21 ip4:176.223.128.0/20 ip4:185.5.52.0/22 ip4:185.69.52.0/22 ip4:185.81.164.0/22 ip4:194.135.80.0/20 ip4:195.181.240.0/21 ip4:212.24.96.0/20 ip4:212.237.232.0/22 -all",
       "mx_asns":[
         212531
-      ],
-      "smtp_banner":"220 mx-backup2.serveriai.lt ESMTP Exim 4.99 Fri, 13 Mar 2026 15:18:03 +0200"
+      ]
     },
     "LT-46":{
       "bfs":"LT-46",
@@ -2801,8 +2795,7 @@
       "spf_resolved":"v=spf1 a mx ip4:195.182.88.160/28 ip4:89.116.15.0/24 include:cphostingas.telecentras.lt include:spf.serveriai.lt -all v=spf1 +mx +a +ip4:89.116.15.129 ~all v=spf1 ip4:31.14.176.0/22 ip4:62.77.152.0/21 ip4:79.98.24.0/21 ip4:80.208.224.0/21 ip4:80.209.224.0/20 ip4:89.40.0.0/20 ip4:89.47.160.0/21 ip4:94.176.232.0/21 ip4:109.235.64.0/21 ip4:176.223.128.0/20 ip4:185.5.52.0/22 ip4:185.69.52.0/22 ip4:185.81.164.0/22 ip4:194.135.80.0/20 ip4:195.181.240.0/21 ip4:212.24.96.0/20 ip4:212.237.232.0/22 -all",
       "mx_asns":[
         212531
-      ],
-      "smtp_banner":"220 mx2b.serveriai.lt ESMTP Exim 20260310.1000 Fri, 13 Mar 2026 15:18:14 +0200"
+      ]
     },
     "LT-60":{
       "bfs":"LT-60",
@@ -2820,8 +2813,7 @@
       "spf_resolved":"v=spf1 mx redirect=spf.serveriai.lt -all v=spf1 ip4:31.14.176.0/22 ip4:62.77.152.0/21 ip4:79.98.24.0/21 ip4:80.208.224.0/21 ip4:80.209.224.0/20 ip4:89.40.0.0/20 ip4:89.47.160.0/21 ip4:94.176.232.0/21 ip4:109.235.64.0/21 ip4:176.223.128.0/20 ip4:185.5.52.0/22 ip4:185.69.52.0/22 ip4:185.81.164.0/22 ip4:194.135.80.0/20 ip4:195.181.240.0/21 ip4:212.24.96.0/20 ip4:212.237.232.0/22 -all",
       "mx_asns":[
         212531
-      ],
-      "smtp_banner":"220 zarasai.hostingas.lt ESMTP"
+      ]
     },
     "LV-0001":{
       "bfs":"LV-0001",
@@ -3075,8 +3067,7 @@
       "spf_resolved":"v=spf1 include:spf.protect.sigmanet.lv -all v=spf1 ip4:92.240.66.0/24 ip4:92.240.65.0/24 ip4:92.240.72.0/24 ip4:92.240.80.54 ip4:92.240.80.58 ip4:92.240.80.57 ip4:92.240.80.53 ip4:92.240.80.63 ip4:92.240.80.64 ip4:92.240.80.69 ip4:92.240.80.68 include:spf2.protect.sigmanet.lv -all v=spf1 ip6:2a02:500:4500:b::1 ip6:2a02:500:4500:b::2 ip6:2a02:500:4500:b::3 ip6:2a02:500:4500:b::4 ip6:2a02:500:4500:b::11 ip6:2a02:500:4500:b::12 ip6:2a02:500:4500:b::21 ip6:2a02:500:4500:b::22 -all",
       "mx_asns":[
         5538
-      ],
-      "smtp_banner":"220 mx.sigmanet.lv ESMTP"
+      ]
     },
     "LV-0408":{
       "bfs":"LV-0408",
@@ -3134,8 +3125,7 @@
       "mx_asns":[
         16276,
         47499
-      ],
-      "smtp_banner":"220 mail1.ilva.lv ESMTP MailServer"
+      ]
     },
     "LV-0508":{
       "bfs":"LV-0508",
@@ -3218,8 +3208,7 @@
       "osm_relation_id":14102164,
       "mx_asns":[
         29600
-      ],
-      "smtp_banner":"220-mail.iviks.lv ESMTP Postfix"
+      ]
     },
     "LV-0624":{
       "bfs":"LV-0624",
@@ -3293,8 +3282,7 @@
       "spf_resolved":"v=spf1 include:spf.protect.sigmanet.lv include:mail.ludza.lv -all v=spf1 ip4:92.240.66.0/24 ip4:92.240.65.0/24 ip4:92.240.72.0/24 ip4:92.240.80.54 ip4:92.240.80.58 ip4:92.240.80.57 ip4:92.240.80.53 ip4:92.240.80.63 ip4:92.240.80.64 ip4:92.240.80.69 ip4:92.240.80.68 include:spf2.protect.sigmanet.lv -all v=spf1 ip6:2a02:500:4500:b::1 ip6:2a02:500:4500:b::2 ip6:2a02:500:4500:b::3 ip6:2a02:500:4500:b::4 ip6:2a02:500:4500:b::11 ip6:2a02:500:4500:b::12 ip6:2a02:500:4500:b::21 ip6:2a02:500:4500:b::22 -all",
       "mx_asns":[
         5538
-      ],
-      "smtp_banner":"220 mx.sigmanet.lv ESMTP"
+      ]
     },
     "LV-0702":{
       "bfs":"LV-0702",
@@ -3329,8 +3317,7 @@
       "spf_resolved":"v=spf1 ip4:94.100.9.4 ip4:94.100.9.10 include:spf.mailjet.com ~all v=spf1 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:45.14.148.0/22 ~all",
       "mx_asns":[
         213934
-      ],
-      "smtp_banner":"220 mail.ogresnovads.lv ESMTP Sendmail"
+      ]
     },
     "LV-0766":{
       "bfs":"LV-0766",
@@ -3409,8 +3396,7 @@
       "spf_resolved":"v=spf1 include:spf.protect.sigmanet.lv -all v=spf1 ip4:92.240.66.0/24 ip4:92.240.65.0/24 ip4:92.240.72.0/24 ip4:92.240.80.54 ip4:92.240.80.58 ip4:92.240.80.57 ip4:92.240.80.53 ip4:92.240.80.63 ip4:92.240.80.64 ip4:92.240.80.69 ip4:92.240.80.68 include:spf2.protect.sigmanet.lv -all v=spf1 ip6:2a02:500:4500:b::1 ip6:2a02:500:4500:b::2 ip6:2a02:500:4500:b::3 ip6:2a02:500:4500:b::4 ip6:2a02:500:4500:b::11 ip6:2a02:500:4500:b::12 ip6:2a02:500:4500:b::21 ip6:2a02:500:4500:b::22 -all",
       "mx_asns":[
         5538
-      ],
-      "smtp_banner":"220 mx.sigmanet.lv ESMTP"
+      ]
     },
     "LV-0808":{
       "bfs":"LV-0808",
@@ -3450,8 +3436,7 @@
       "spf_resolved":"v=spf1 include:spf.protect.sigmanet.lv -all v=spf1 ip4:92.240.66.0/24 ip4:92.240.65.0/24 ip4:92.240.72.0/24 ip4:92.240.80.54 ip4:92.240.80.58 ip4:92.240.80.57 ip4:92.240.80.53 ip4:92.240.80.63 ip4:92.240.80.64 ip4:92.240.80.69 ip4:92.240.80.68 include:spf2.protect.sigmanet.lv -all v=spf1 ip6:2a02:500:4500:b::1 ip6:2a02:500:4500:b::2 ip6:2a02:500:4500:b::3 ip6:2a02:500:4500:b::4 ip6:2a02:500:4500:b::11 ip6:2a02:500:4500:b::12 ip6:2a02:500:4500:b::21 ip6:2a02:500:4500:b::22 -all",
       "mx_asns":[
         5538
-      ],
-      "smtp_banner":"220 mx.sigmanet.lv ESMTP"
+      ]
     },
     "LV-0813":{
       "bfs":"LV-0813",
@@ -3509,8 +3494,7 @@
       "mx_asns":[
         14061,
         43108
-      ],
-      "smtp_banner":"220 web11.garmtech.net ESMTP Postfix"
+      ]
     },
     "LV-0820":{
       "bfs":"LV-0820",

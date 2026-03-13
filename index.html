@@ -176,6 +176,7 @@ const COLORS = {
   'Telia':       '#2EDBA8',
   'TET':         '#34D5A0',
   'Zone.eu':     '#78FFD6',
+  'Elkdata':     '#56E8B0',
   'Local ISP':   '#10B898',
   'Self-hosted': '#0E9680',
   'Unknown':     '#BFBFBF'
@@ -185,7 +186,7 @@ const DARK_TEXT = new Set(['Google', 'AWS', 'Zone.eu', 'Unknown']);
 
 const TIERS = {
   'US (CLOUD Act)': ['Microsoft', 'Google', 'AWS'],
-  'Baltic/EU':      ['Telia', 'TET', 'Zone.eu', 'Local ISP', 'Self-hosted'],
+  'Baltic/EU':      ['Telia', 'TET', 'Zone.eu', 'Elkdata', 'Local ISP', 'Self-hosted'],
   'Unknown':        ['Unknown']
 };
 
@@ -393,7 +394,7 @@ async function loadData() {
   // Map pipeline provider names to display names
   const providerDisplayMap = {
     'microsoft': 'Microsoft', 'google': 'Google', 'aws': 'AWS',
-    'telia': 'Telia', 'tet': 'TET', 'zone': 'Zone.eu',
+    'telia': 'Telia', 'tet': 'TET', 'zone': 'Zone.eu', 'elkdata': 'Elkdata',
     'baltic-isp': 'Local ISP', 'independent': 'Self-hosted', 'unknown': 'Unknown',
   };
 
@@ -455,7 +456,7 @@ async function loadData() {
       '<div class="legend-content">' +
       '<strong>Email Provider</strong>' +
       legendGroupHtml('US-based', ['Microsoft', 'Google', 'AWS'], counts) +
-      legendGroupHtml('Baltic/EU', ['Telia', 'TET', 'Zone.eu', 'Local ISP', 'Self-hosted'], counts) +
+      legendGroupHtml('Baltic/EU', ['Telia', 'TET', 'Zone.eu', 'Elkdata', 'Local ISP', 'Self-hosted'], counts) +
       legendGroupHtml('', ['Unknown'], counts) +
       `<div style="margin-top:8px;font-size:11px;color:#999">${dnsData.stats?.total || 0} municipalities</div>` +
       '</div>';

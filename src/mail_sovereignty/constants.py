@@ -22,6 +22,7 @@ AWS_KEYWORDS = ["amazonaws", "amazonses", "awsdns"]
 ZONE_KEYWORDS = ["zone.eu", "zone.ee", "zoneit.eu", "zonemx.eu"]
 TELIA_KEYWORDS = ["telia.ee", "telia.lt", "telia.lv", "telia.com"]
 TET_KEYWORDS = ["tet.lv"]
+ELKDATA_KEYWORDS = ["elkdata.ee"]
 
 PROVIDER_KEYWORDS = {
     "microsoft": MICROSOFT_KEYWORDS,
@@ -30,6 +31,7 @@ PROVIDER_KEYWORDS = {
     "zone": ZONE_KEYWORDS,
     "telia": TELIA_KEYWORDS,
     "tet": TET_KEYWORDS,
+    "elkdata": ELKDATA_KEYWORDS,
 }
 
 FOREIGN_SENDER_KEYWORDS = {
@@ -137,5 +139,8 @@ SMTP_BANNER_KEYWORDS = {
     "aws": [
         "amazonaws",
         "amazonses",
+    ],
+    "elkdata": [
+        "elkdata.ee",
     ],
 }
