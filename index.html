@@ -195,6 +195,7 @@ const FLAGS = { EE: '\u{1F1EA}\u{1F1EA}', LV: '\u{1F1F1}\u{1F1FB}', LT: '\u{1F1F
 // --- State ---
 let dnsData = null;
 let geoLayer = null;
+let updateLegend = function () {};
 let activeCountries = new Set(['EE', 'LV', 'LT']);
 let muniByOsm = {};   // "relation/12345" -> municipality
 let muniByName = {};   // lowercase name -> municipality
@@ -373,6 +374,7 @@ document.querySelectorAll('.country-btn').forEach(function (btn) {
     if (activeCountries.has(country)) activeCountries.delete(country);
     else activeCountries.add(country);
     updateStyles();
+    updateLegend();
   });
 });
 
@@ -445,27 +447,39 @@ async function loadData() {
   }
 
   // Legend
-  const counts = dnsData.stats?.provider_counts || {};
   const isMobile = window.innerWidth <= 600;
   const legend = L.control({ position: isMobile ? 'topright' : 'bottomright' });
   legend.onAdd = function () {
     const div = L.DomUtil.create('div', 'legend');
     if (isMobile) div.classList.add('legend-collapsed');
-    div.innerHTML =
-      '<button class="legend-toggle" aria-label="Toggle legend" aria-expanded="' + (!isMobile) + '">' + (isMobile ? 'Legend \u25B8' : '') + '</button>' +
-      '<div class="legend-content">' +
-      '<strong>Email Provider</strong>' +
-      legendGroupHtml('US-based', ['Microsoft', 'Google', 'AWS'], counts) +
-      legendGroupHtml('Baltic/EU', ['Telia', 'TET', 'Zone.eu', 'Elkdata', 'Local ISP', 'Self-hosted'], counts) +
-      legendGroupHtml('', ['Unknown'], counts) +
-      `<div style="margin-top:8px;font-size:11px;color:#999">${dnsData.stats?.total || 0} municipalities</div>` +
-      '</div>';
+    div.innerHTML = '<button class="legend-toggle" aria-label="Toggle legend" aria-expanded="' + (!isMobile) + '">' + (isMobile ? 'Legend \u25B8' : '') + '</button><div class="legend-content"></div>';
     L.DomEvent.disableClickPropagation(div);
     return div;
   };
   legend.addTo(map);
   const toggleBtn = document.querySelector('.legend-toggle');
   if (toggleBtn) toggleBtn.addEventListener('click', toggleLegend);
+
+  updateLegend = function () {
+    const counts = {};
+    let total = 0;
+    for (const m of dnsData.municipalities) {
+      if (!activeCountries.has(m.country)) continue;
+      const p = m.classification.provider;
+      counts[p] = (counts[p] || 0) + 1;
+      total++;
+    }
+    const content = document.querySelector('.legend-content');
+    if (content) {
+      content.innerHTML =
+        '<strong>Email Provider</strong>' +
+        legendGroupHtml('US-based', ['Microsoft', 'Google', 'AWS'], counts) +
+        legendGroupHtml('Baltic/EU', ['Telia', 'TET', 'Zone.eu', 'Elkdata', 'Local ISP', 'Self-hosted'], counts) +
+        legendGroupHtml('', ['Unknown'], counts) +
+        `<div style="margin-top:8px;font-size:11px;color:#999">${total} municipalities</div>`;
+    }
+  };
+  updateLegend();
 
   // Render map
   renderMap(topo);
