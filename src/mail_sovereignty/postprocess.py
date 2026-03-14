@@ -236,6 +236,10 @@ MANUAL_OVERRIDES = {
     "DE-07338": {
         "domain": "rheinpfalzkreis.de",
     },
+    # Pölla: poella.gv.at has no MX, email is on poella.at
+    "AT-32520": {
+        "domain": "poella.at",
+    },
 }
 
 
