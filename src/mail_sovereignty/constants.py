@@ -61,6 +61,7 @@ SKIP_DOMAINS = {
     "example.lt",
     "example.no",
     "example.se",
+    "example.de",
     "kommune.no",
     "sentry.io",
     "w3.org",
@@ -82,6 +83,8 @@ SUBPAGES = [
     "/apie-mus",        # Lithuanian: "About us"
     "/struktuur",       # Estonian: "Structure"
     "/struktura",       # Lithuanian: "Structure"
+    "/impressum",       # German
+    "/service/kontakt", # German
 ]
 
 GATEWAY_KEYWORDS = {
@@ -103,6 +106,10 @@ GATEWAY_KEYWORDS = {
     "comendo": ["comendosystems.com"],
     "heimdal": ["heimdalsecurity.com"],
     "messagelabs": ["messagelabs.com"],
+    "nospamproxy": ["nospamproxy.de", "as-scan.de"],
+    "antispameurope": ["antispameurope.com"],
+    "retarus": ["retarus.com"],
+    "psmanaged": ["psmanaged.com"],
 }
 
 # Local ISP ASNs (replaces SWISS_ISP_ASNS)
@@ -166,6 +173,49 @@ LOCAL_ISP_ASNS: dict[int, str] = {
     25417: "Ljusnet (SE)",
     1257: "Tele2 (SE)",
     6782: "Bdnet (SE)",
+    # Germany
+    553: "BelWü (DE)",
+    680: "DFN (DE)",
+    3209: "Vodafone (DE)",
+    3320: "Deutsche Telekom (DE)",
+    6687: "communelink (DE)",
+    8560: "IONOS/1&1 (DE)",
+    8767: "M-net (DE)",
+    8881: "Versatel/1&1 (DE)",
+    9063: "Saarland IT (DE)",
+    9145: "EWE TEL (DE)",
+    9197: "ekom21 (DE)",
+    12693: "DIKOM Brandenburg (DE)",
+    13045: "KDO Niedersachsen (DE)",
+    13101: "TNG Stadtnetz (DE)",
+    16097: "TELEPORT (DE)",
+    20810: "ekom21 (DE)",
+    21473: "Pfalzkom (DE)",
+    24940: "Hetzner (DE)",
+    33846: "Dataport (DE)",
+    34011: "AKDB Bayern (DE)",
+    34928: "regio iT (DE)",
+    42652: "eCube/Saarland IT (DE)",
+    48049: "ITK Rheinland (DE)",
+    50964: "Komm.ONE (DE)",
+    61352: "KISA Sachsen (DE)",
+    198435: "DVZ-MV (DE)",
+    201318: "Südwestfalen IT (DE)",
+    210849: "ITK Rheinland (DE)",
+    24961: "nol-IS/myLoc (DE)",
+    202577: "KDVZ Frechen (DE)",
+    8351: "SIS Schwerin (DE)",
+    60123: "WTnet Wuppertal (DE)",
+    8422: "NetCologne (DE)",
+    16024: "GELSEN-NET (DE)",
+    12897: "ENTEGA (DE)",
+    8319: "KGRZ Fulda (DE)",
+    30238: "Trier-net (DE)",
+    29014: "IN-Ulm (DE)",
+    15598: "QSC/q.beyond (DE)",
+    15817: "WOBCOM (DE)",
+    34788: "NM-NET (DE)",
+    8820: "TAL.de (DE)",
 }
 
 CONCURRENCY = 20

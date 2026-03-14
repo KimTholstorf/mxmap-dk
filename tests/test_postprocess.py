@@ -176,6 +176,11 @@ class TestProcessUnknown:
                 new_callable=AsyncMock,
                 return_value={},
             ),
+            patch(
+                "mail_sovereignty.postprocess.resolve_mx_asns",
+                new_callable=AsyncMock,
+                return_value=set(),
+            ),
         ):
             result = await process_unknown(client, sem, m)
 

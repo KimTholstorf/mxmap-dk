@@ -1,0 +1,3202 @@
+[
+  {
+    "id": "DE-01001",
+    "name": "Flensburg",
+    "country": "DE",
+    "region": "Schleswig-Holstein",
+    "domain": "flensburg.de",
+    "osm_relation_id": 27020
+  },
+  {
+    "id": "DE-01002",
+    "name": "Kiel",
+    "country": "DE",
+    "region": "Schleswig-Holstein",
+    "domain": "kiel.de",
+    "osm_relation_id": 27021
+  },
+  {
+    "id": "DE-01003",
+    "name": "Lübeck",
+    "country": "DE",
+    "region": "Schleswig-Holstein",
+    "domain": "luebeck.de",
+    "osm_relation_id": 27027
+  },
+  {
+    "id": "DE-01004",
+    "name": "Neumünster",
+    "country": "DE",
+    "region": "Schleswig-Holstein",
+    "domain": "neumuenster.de",
+    "osm_relation_id": 62528
+  },
+  {
+    "id": "DE-01051",
+    "name": "Kreis Dithmarschen",
+    "country": "DE",
+    "region": "Schleswig-Holstein",
+    "domain": "dithmarschen.de",
+    "osm_relation_id": 27028
+  },
+  {
+    "id": "DE-01053",
+    "name": "Kreis Herzogtum Lauenburg",
+    "country": "DE",
+    "region": "Schleswig-Holstein",
+    "domain": "kreis-rz.de",
+    "osm_relation_id": 62703
+  },
+  {
+    "id": "DE-01054",
+    "name": "Kreis Nordfriesland",
+    "country": "DE",
+    "region": "Schleswig-Holstein",
+    "domain": "nordfriesland.de",
+    "osm_relation_id": 62351
+  },
+  {
+    "id": "DE-01055",
+    "name": "Kreis Ostholstein",
+    "country": "DE",
+    "region": "Schleswig-Holstein",
+    "domain": "kreis-oh.de",
+    "osm_relation_id": 62433
+  },
+  {
+    "id": "DE-01056",
+    "name": "Kreis Pinneberg",
+    "country": "DE",
+    "region": "Schleswig-Holstein",
+    "domain": "kreis-pinneberg.de",
+    "osm_relation_id": 69951
+  },
+  {
+    "id": "DE-01057",
+    "name": "Kreis Plön",
+    "country": "DE",
+    "region": "Schleswig-Holstein",
+    "domain": "kreis-ploen.de",
+    "osm_relation_id": 27026
+  },
+  {
+    "id": "DE-01058",
+    "name": "Kreis Rendsburg-Eckernförde",
+    "country": "DE",
+    "region": "Schleswig-Holstein",
+    "domain": "kreis-rendsburg-eckernfoerde.de",
+    "osm_relation_id": 27017
+  },
+  {
+    "id": "DE-01059",
+    "name": "Kreis Schleswig-Flensburg",
+    "country": "DE",
+    "region": "Schleswig-Holstein",
+    "domain": "schleswig-flensburg.de",
+    "osm_relation_id": 62501
+  },
+  {
+    "id": "DE-01060",
+    "name": "Kreis Segeberg",
+    "country": "DE",
+    "region": "Schleswig-Holstein",
+    "domain": "segeberg.de",
+    "osm_relation_id": 62733
+  },
+  {
+    "id": "DE-01061",
+    "name": "Kreis Steinburg",
+    "country": "DE",
+    "region": "Schleswig-Holstein",
+    "domain": "steinburg.de",
+    "osm_relation_id": 27016
+  },
+  {
+    "id": "DE-01062",
+    "name": "Kreis Stormarn",
+    "country": "DE",
+    "region": "Schleswig-Holstein",
+    "domain": "kreis-stormarn.de",
+    "osm_relation_id": 62546
+  },
+  {
+    "id": "DE-02000",
+    "name": "Hamburg",
+    "country": "DE",
+    "region": "Hamburg",
+    "domain": "hamburg.com",
+    "osm_relation_id": 62782
+  },
+  {
+    "id": "DE-03101",
+    "name": "Braunschweig",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "braunschweig.de",
+    "osm_relation_id": 62531
+  },
+  {
+    "id": "DE-03102",
+    "name": "Salzgitter",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "salzgitter.de",
+    "osm_relation_id": 62659
+  },
+  {
+    "id": "DE-03103",
+    "name": "Wolfsburg",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "wolfsburg.de",
+    "osm_relation_id": 62418
+  },
+  {
+    "id": "DE-03151",
+    "name": "Landkreis Gifhorn",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "landkreis-gifhorn.de",
+    "osm_relation_id": 62647
+  },
+  {
+    "id": "DE-03153",
+    "name": "Landkreis Goslar",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "landkreis-goslar.de",
+    "osm_relation_id": 62669
+  },
+  {
+    "id": "DE-03154",
+    "name": "Landkreis Helmstedt",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "landkreis-helmstedt.de",
+    "osm_relation_id": 62416
+  },
+  {
+    "id": "DE-03155",
+    "name": "Landkreis Northeim",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "landkreis-northeim.de",
+    "osm_relation_id": 62613
+  },
+  {
+    "id": "DE-03157",
+    "name": "Landkreis Peine",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "landkreis-peine.de",
+    "osm_relation_id": 62494
+  },
+  {
+    "id": "DE-03158",
+    "name": "Landkreis Wolfenbüttel",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "lkwf.de",
+    "osm_relation_id": 62558
+  },
+  {
+    "id": "DE-03159",
+    "name": "Landkreis Göttingen",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "landkreisgoettingen.de",
+    "osm_relation_id": 6679859
+  },
+  {
+    "id": "DE-03241",
+    "name": "Region Hannover",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "hannover.de",
+    "osm_relation_id": 62764
+  },
+  {
+    "id": "DE-03251",
+    "name": "Landkreis Diepholz",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "diepholz.de",
+    "osm_relation_id": 62426
+  },
+  {
+    "id": "DE-03252",
+    "name": "Landkreis Hameln-Pyrmont",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "hameln-pyrmont.de",
+    "osm_relation_id": 62766
+  },
+  {
+    "id": "DE-03254",
+    "name": "Landkreis Hildesheim",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "landkreishildesheim.de",
+    "osm_relation_id": 62742
+  },
+  {
+    "id": "DE-03255",
+    "name": "Landkreis Holzminden",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "landkreis-holzminden.de",
+    "osm_relation_id": 62510
+  },
+  {
+    "id": "DE-03256",
+    "name": "Landkreis Nienburg/Weser",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "lk-nienburg.de",
+    "osm_relation_id": 62728
+  },
+  {
+    "id": "DE-03257",
+    "name": "Landkreis Schaumburg",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "schaumburg.de",
+    "osm_relation_id": 62762
+  },
+  {
+    "id": "DE-03351",
+    "name": "Landkreis Celle",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "landkreis-celle.de",
+    "osm_relation_id": 62608
+  },
+  {
+    "id": "DE-03352",
+    "name": "Landkreis Cuxhaven",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "landkreis-cuxhaven.de",
+    "osm_relation_id": 2083535
+  },
+  {
+    "id": "DE-03353",
+    "name": "Landkreis Harburg",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "landkreis-harburg.de",
+    "osm_relation_id": 2083497
+  },
+  {
+    "id": "DE-03354",
+    "name": "Landkreis Lüchow-Dannenberg",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "luechow-dannenberg.de",
+    "osm_relation_id": 62662
+  },
+  {
+    "id": "DE-03355",
+    "name": "Landkreis Lüneburg",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "landkreis-lueneburg.de",
+    "osm_relation_id": 2084746
+  },
+  {
+    "id": "DE-03356",
+    "name": "Landkreis Osterholz",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "landkreis-osterholz.de",
+    "osm_relation_id": 62399
+  },
+  {
+    "id": "DE-03357",
+    "name": "Landkreis Rotenburg (Wümme)",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "lk-row.de",
+    "osm_relation_id": 62617
+  },
+  {
+    "id": "DE-03358",
+    "name": "Heidekreis",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "heidekreis.de",
+    "osm_relation_id": 62674
+  },
+  {
+    "id": "DE-03359",
+    "name": "Landkreis Stade",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "landkreis-stade.de",
+    "osm_relation_id": 62482
+  },
+  {
+    "id": "DE-03360",
+    "name": "Landkreis Uelzen",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "landkreis-uelzen.de",
+    "osm_relation_id": 62743
+  },
+  {
+    "id": "DE-03361",
+    "name": "Landkreis Verden",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "landkreis-verden.de",
+    "osm_relation_id": 62740
+  },
+  {
+    "id": "DE-03401",
+    "name": "Delmenhorst",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "delmenhorst.de",
+    "osm_relation_id": 62414
+  },
+  {
+    "id": "DE-03402",
+    "name": "Emden",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "emden.de",
+    "osm_relation_id": 62562
+  },
+  {
+    "id": "DE-03403",
+    "name": "Oldenburg",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "oldenburg.de",
+    "osm_relation_id": 62409
+  },
+  {
+    "id": "DE-03404",
+    "name": "Osnabrück",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "osnabrueck.de",
+    "osm_relation_id": 62631
+  },
+  {
+    "id": "DE-03405",
+    "name": "Wilhelmshaven",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "wilhelmshaven.de",
+    "osm_relation_id": 62444
+  },
+  {
+    "id": "DE-03451",
+    "name": "Landkreis Ammerland",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "ammerland.de",
+    "osm_relation_id": 62689
+  },
+  {
+    "id": "DE-03452",
+    "name": "Landkreis Aurich",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "landkreis-aurich.de",
+    "osm_relation_id": 62355
+  },
+  {
+    "id": "DE-03453",
+    "name": "Landkreis Cloppenburg",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "lkclp.de",
+    "osm_relation_id": 62597
+  },
+  {
+    "id": "DE-03454",
+    "name": "Landkreis Emsland",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "emsland.de",
+    "osm_relation_id": 62540
+  },
+  {
+    "id": "DE-03455",
+    "name": "Landkreis Friesland",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "friesland.de",
+    "osm_relation_id": 62773
+  },
+  {
+    "id": "DE-03456",
+    "name": "Landkreis Grafschaft Bentheim",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "grafschaft-bentheim.de",
+    "osm_relation_id": 62550
+  },
+  {
+    "id": "DE-03457",
+    "name": "Landkreis Leer",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "landkreis-leer.de",
+    "osm_relation_id": 62567
+  },
+  {
+    "id": "DE-03458",
+    "name": "Landkreis Oldenburg",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "oldenburg-kreis.de",
+    "osm_relation_id": 62648
+  },
+  {
+    "id": "DE-03459",
+    "name": "Landkreis Osnabrück",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "landkreis-osnabrueck.de",
+    "osm_relation_id": 62673
+  },
+  {
+    "id": "DE-03460",
+    "name": "Landkreis Vechta",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "landkreis-vechta.de",
+    "osm_relation_id": 62666
+  },
+  {
+    "id": "DE-03461",
+    "name": "Landkreis Wesermarsch",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "wesermarsch.de",
+    "osm_relation_id": 3853102
+  },
+  {
+    "id": "DE-03462",
+    "name": "Landkreis Wittmund",
+    "country": "DE",
+    "region": "Niedersachsen",
+    "domain": "landkreis-wittmund.de",
+    "osm_relation_id": 62397
+  },
+  {
+    "id": "DE-04011",
+    "name": "Bremen",
+    "country": "DE",
+    "region": "Bremen",
+    "domain": "bremen.de",
+    "osm_relation_id": 62559
+  },
+  {
+    "id": "DE-04012",
+    "name": "Bremerhaven",
+    "country": "DE",
+    "region": "Bremen",
+    "domain": "bremerhaven.de",
+    "osm_relation_id": 62658
+  },
+  {
+    "id": "DE-05111",
+    "name": "Düsseldorf",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "duesseldorf.de",
+    "osm_relation_id": 62539
+  },
+  {
+    "id": "DE-05112",
+    "name": "Duisburg",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "duisburg.de",
+    "osm_relation_id": 62456
+  },
+  {
+    "id": "DE-05113",
+    "name": "Essen",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "essen.de",
+    "osm_relation_id": 62713
+  },
+  {
+    "id": "DE-05114",
+    "name": "Krefeld",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "krefeld.de",
+    "osm_relation_id": 62748
+  },
+  {
+    "id": "DE-05116",
+    "name": "Mönchengladbach",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "moenchengladbach.de",
+    "osm_relation_id": 62410
+  },
+  {
+    "id": "DE-05117",
+    "name": "Mülheim an der Ruhr",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "muelheim-ruhr.de",
+    "osm_relation_id": 62385
+  },
+  {
+    "id": "DE-05119",
+    "name": "Oberhausen",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "oberhausen.de",
+    "osm_relation_id": 62734
+  },
+  {
+    "id": "DE-05120",
+    "name": "Remscheid",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "remscheid.de",
+    "osm_relation_id": 62455
+  },
+  {
+    "id": "DE-05122",
+    "name": "Solingen",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "solingen.de",
+    "osm_relation_id": 62699
+  },
+  {
+    "id": "DE-05124",
+    "name": "Wuppertal",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "wuppertal.de",
+    "osm_relation_id": 62478
+  },
+  {
+    "id": "DE-05154",
+    "name": "Kreis Kleve",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "kreis-kleve.de",
+    "osm_relation_id": 62476
+  },
+  {
+    "id": "DE-05158",
+    "name": "Kreis Mettmann",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "kreis-mettmann.de",
+    "osm_relation_id": 62423
+  },
+  {
+    "id": "DE-05162",
+    "name": "Rhein-Kreis Neuss",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "rhein-kreis-neuss.de",
+    "osm_relation_id": 62535
+  },
+  {
+    "id": "DE-05166",
+    "name": "Kreis Viersen",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "kreis-viersen.de",
+    "osm_relation_id": 62489
+  },
+  {
+    "id": "DE-05170",
+    "name": "Kreis Wesel",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "kreis-wesel.de",
+    "osm_relation_id": 58745
+  },
+  {
+    "id": "DE-05314",
+    "name": "Bonn",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "bonn.de",
+    "osm_relation_id": 62508
+  },
+  {
+    "id": "DE-05315",
+    "name": "Köln",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "stadt-koeln.de",
+    "osm_relation_id": 62578
+  },
+  {
+    "id": "DE-05316",
+    "name": "Leverkusen",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "leverkusen.de",
+    "osm_relation_id": 62449
+  },
+  {
+    "id": "DE-05334",
+    "name": "Städteregion Aachen",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "staedteregion-aachen.de",
+    "osm_relation_id": 62665
+  },
+  {
+    "id": "DE-05358",
+    "name": "Kreis Düren",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "kreis-dueren.de",
+    "osm_relation_id": 62452
+  },
+  {
+    "id": "DE-05362",
+    "name": "Rhein-Erft-Kreis",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "rhein-erft-kreis.de",
+    "osm_relation_id": 62661
+  },
+  {
+    "id": "DE-05366",
+    "name": "Kreis Euskirchen",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "kreis-euskirchen.de",
+    "osm_relation_id": 62555
+  },
+  {
+    "id": "DE-05370",
+    "name": "Kreis Heinsberg",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "kreis-heinsberg.de",
+    "osm_relation_id": 62767
+  },
+  {
+    "id": "DE-05374",
+    "name": "Oberbergischer Kreis",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "obk.de",
+    "osm_relation_id": 62373
+  },
+  {
+    "id": "DE-05378",
+    "name": "Rheinisch-Bergischer Kreis",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "rbk-direkt.de",
+    "osm_relation_id": 62343
+  },
+  {
+    "id": "DE-05382",
+    "name": "Rhein-Sieg-Kreis",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "rhein-sieg-kreis.de",
+    "osm_relation_id": 62544
+  },
+  {
+    "id": "DE-05512",
+    "name": "Bottrop",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "bottrop.de",
+    "osm_relation_id": 62634
+  },
+  {
+    "id": "DE-05513",
+    "name": "Gelsenkirchen",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "gelsenkirchen.de",
+    "osm_relation_id": 62522
+  },
+  {
+    "id": "DE-05515",
+    "name": "Münster",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "stadt-muenster.de",
+    "osm_relation_id": 62591
+  },
+  {
+    "id": "DE-05554",
+    "name": "Kreis Borken",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "kreis-borken.de",
+    "osm_relation_id": 62606
+  },
+  {
+    "id": "DE-05558",
+    "name": "Kreis Coesfeld",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "kreis-coesfeld.de",
+    "osm_relation_id": 62779
+  },
+  {
+    "id": "DE-05562",
+    "name": "Kreis Recklinghausen",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "kreis-re.de",
+    "osm_relation_id": 62770
+  },
+  {
+    "id": "DE-05566",
+    "name": "Kreis Steinfurt",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "kreis-steinfurt.de",
+    "osm_relation_id": 62442
+  },
+  {
+    "id": "DE-05570",
+    "name": "Kreis Warendorf",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "kreis-warendorf.de",
+    "osm_relation_id": 62706
+  },
+  {
+    "id": "DE-05711",
+    "name": "Bielefeld",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "bielefeld.de",
+    "osm_relation_id": 62646
+  },
+  {
+    "id": "DE-05754",
+    "name": "Kreis Gütersloh",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "kreis-guetersloh.de",
+    "osm_relation_id": 62379
+  },
+  {
+    "id": "DE-05758",
+    "name": "Kreis Herford",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "kreis-herford.de",
+    "osm_relation_id": 62480
+  },
+  {
+    "id": "DE-05762",
+    "name": "Kreis Höxter",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "kreis-hoexter.de",
+    "osm_relation_id": 62524
+  },
+  {
+    "id": "DE-05766",
+    "name": "Kreis Lippe",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "kreis-lippe.de",
+    "osm_relation_id": 62483
+  },
+  {
+    "id": "DE-05770",
+    "name": "Kreis Minden-Lübbecke",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "minden-luebbecke.de",
+    "osm_relation_id": 62358
+  },
+  {
+    "id": "DE-05774",
+    "name": "Kreis Paderborn",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "kreis-paderborn.de",
+    "osm_relation_id": 62417
+  },
+  {
+    "id": "DE-05911",
+    "name": "Bochum",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "bochum.de",
+    "osm_relation_id": 62644
+  },
+  {
+    "id": "DE-05913",
+    "name": "Dortmund",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "dortmund.de",
+    "osm_relation_id": 1829065
+  },
+  {
+    "id": "DE-05914",
+    "name": "Hagen",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "hagen.de",
+    "osm_relation_id": 1800297
+  },
+  {
+    "id": "DE-05915",
+    "name": "Hamm",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "hamm.de",
+    "osm_relation_id": 62499
+  },
+  {
+    "id": "DE-05916",
+    "name": "Herne",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "herne.de",
+    "osm_relation_id": 62396
+  },
+  {
+    "id": "DE-05954",
+    "name": "Ennepe-Ruhr-Kreis",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "enkreis.de",
+    "osm_relation_id": 1829066
+  },
+  {
+    "id": "DE-05958",
+    "name": "Hochsauerlandkreis",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "hochsauerlandkreis.de",
+    "osm_relation_id": 62402
+  },
+  {
+    "id": "DE-05962",
+    "name": "Märkischer Kreis",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "maerkischer-kreis.de",
+    "osm_relation_id": 1831015
+  },
+  {
+    "id": "DE-05966",
+    "name": "Kreis Olpe",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "kreis-olpe.de",
+    "osm_relation_id": 1891506
+  },
+  {
+    "id": "DE-05970",
+    "name": "Kreis Siegen-Wittgenstein",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "siegen-wittgenstein.de",
+    "osm_relation_id": 62437
+  },
+  {
+    "id": "DE-05974",
+    "name": "Kreis Soest",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "kreis-soest.de",
+    "osm_relation_id": 62440
+  },
+  {
+    "id": "DE-05978",
+    "name": "Kreis Unna",
+    "country": "DE",
+    "region": "Nordrhein-Westfalen",
+    "domain": "kreis-unna.de",
+    "osm_relation_id": 62420
+  },
+  {
+    "id": "DE-06411",
+    "name": "Darmstadt",
+    "country": "DE",
+    "region": "Hessen",
+    "domain": "darmstadt.de",
+    "osm_relation_id": 62581
+  },
+  {
+    "id": "DE-06412",
+    "name": "Frankfurt am Main",
+    "country": "DE",
+    "region": "Hessen",
+    "domain": "frankfurt.de",
+    "osm_relation_id": 62400
+  },
+  {
+    "id": "DE-06413",
+    "name": "Offenbach am Main",
+    "country": "DE",
+    "region": "Hessen",
+    "domain": "offenbach.de",
+    "osm_relation_id": 62695
+  },
+  {
+    "id": "DE-06414",
+    "name": "Wiesbaden",
+    "country": "DE",
+    "region": "Hessen",
+    "domain": "wiesbaden.de",
+    "osm_relation_id": 62496
+  },
+  {
+    "id": "DE-06431",
+    "name": "Landkreis Bergstraße",
+    "country": "DE",
+    "region": "Hessen",
+    "domain": "kreis-bergstrasse.de",
+    "osm_relation_id": 62730
+  },
+  {
+    "id": "DE-06432",
+    "name": "Landkreis Darmstadt-Dieburg",
+    "country": "DE",
+    "region": "Hessen",
+    "domain": "ladadi.de",
+    "osm_relation_id": 62704
+  },
+  {
+    "id": "DE-06433",
+    "name": "Landkreis Groß-Gerau",
+    "country": "DE",
+    "region": "Hessen",
+    "domain": "kreisgg.de",
+    "osm_relation_id": 62656
+  },
+  {
+    "id": "DE-06434",
+    "name": "Hochtaunuskreis",
+    "country": "DE",
+    "region": "Hessen",
+    "domain": "hochtaunuskreis.de",
+    "osm_relation_id": 62566
+  },
+  {
+    "id": "DE-06435",
+    "name": "Main-Kinzig-Kreis",
+    "country": "DE",
+    "region": "Hessen",
+    "domain": "mkk.de",
+    "osm_relation_id": 62694
+  },
+  {
+    "id": "DE-06436",
+    "name": "Main-Taunus-Kreis",
+    "country": "DE",
+    "region": "Hessen",
+    "domain": "mtk.org",
+    "osm_relation_id": 62382
+  },
+  {
+    "id": "DE-06437",
+    "name": "Odenwaldkreis",
+    "country": "DE",
+    "region": "Hessen",
+    "domain": "odenwaldkreis.de",
+    "osm_relation_id": 62596
+  },
+  {
+    "id": "DE-06438",
+    "name": "Landkreis Offenbach",
+    "country": "DE",
+    "region": "Hessen",
+    "domain": "kreis-offenbach.de",
+    "osm_relation_id": 62715
+  },
+  {
+    "id": "DE-06439",
+    "name": "Rheingau-Taunus-Kreis",
+    "country": "DE",
+    "region": "Hessen",
+    "domain": "rheingau-taunus.de",
+    "osm_relation_id": 62746
+  },
+  {
+    "id": "DE-06440",
+    "name": "Wetteraukreis",
+    "country": "DE",
+    "region": "Hessen",
+    "domain": "wetteraukreis.de",
+    "osm_relation_id": 62519
+  },
+  {
+    "id": "DE-06531",
+    "name": "Landkreis Gießen",
+    "country": "DE",
+    "region": "Hessen",
+    "domain": "lkgi.de",
+    "osm_relation_id": 62692
+  },
+  {
+    "id": "DE-06532",
+    "name": "Lahn-Dill-Kreis",
+    "country": "DE",
+    "region": "Hessen",
+    "domain": "lahn-dill-kreis.de",
+    "osm_relation_id": 62368
+  },
+  {
+    "id": "DE-06533",
+    "name": "Landkreis Limburg-Weilburg",
+    "country": "DE",
+    "region": "Hessen",
+    "domain": "landkreis-limburg-weilburg.de",
+    "osm_relation_id": 62585
+  },
+  {
+    "id": "DE-06534",
+    "name": "Landkreis Marburg-Biedenkopf",
+    "country": "DE",
+    "region": "Hessen",
+    "domain": "marburg-biedenkopf.de",
+    "osm_relation_id": 62643
+  },
+  {
+    "id": "DE-06535",
+    "name": "Vogelsbergkreis",
+    "country": "DE",
+    "region": "Hessen",
+    "domain": "vogelsbergkreis.de",
+    "osm_relation_id": 62543
+  },
+  {
+    "id": "DE-06611",
+    "name": "Kassel",
+    "country": "DE",
+    "region": "Hessen",
+    "domain": "kassel.de",
+    "osm_relation_id": 62598
+  },
+  {
+    "id": "DE-06631",
+    "name": "Landkreis Fulda",
+    "country": "DE",
+    "region": "Hessen",
+    "domain": "landkreis-fulda.de",
+    "osm_relation_id": 62700
+  },
+  {
+    "id": "DE-06632",
+    "name": "Landkreis Hersfeld-Rotenburg",
+    "country": "DE",
+    "region": "Hessen",
+    "domain": "hef-rof.de",
+    "osm_relation_id": 62637
+  },
+  {
+    "id": "DE-06633",
+    "name": "Landkreis Kassel",
+    "country": "DE",
+    "region": "Hessen",
+    "domain": "landkreiskassel.de",
+    "osm_relation_id": 62401
+  },
+  {
+    "id": "DE-06634",
+    "name": "Schwalm-Eder-Kreis",
+    "country": "DE",
+    "region": "Hessen",
+    "domain": "schwalm-eder-kreis.de",
+    "osm_relation_id": 62736
+  },
+  {
+    "id": "DE-06635",
+    "name": "Landkreis Waldeck-Frankenberg",
+    "country": "DE",
+    "region": "Hessen",
+    "domain": "landkreis-waldeck-frankenberg.de",
+    "osm_relation_id": 62563
+  },
+  {
+    "id": "DE-06636",
+    "name": "Werra-Meißner-Kreis",
+    "country": "DE",
+    "region": "Hessen",
+    "domain": "werra-meissner-kreis.de",
+    "osm_relation_id": 62586
+  },
+  {
+    "id": "DE-07111",
+    "name": "Koblenz",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "koblenz.de",
+    "osm_relation_id": 62512
+  },
+  {
+    "id": "DE-07131",
+    "name": "Landkreis Ahrweiler",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "kreis-ahrweiler.de",
+    "osm_relation_id": 62623
+  },
+  {
+    "id": "DE-07132",
+    "name": "Landkreis Altenkirchen",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "kreis-altenkirchen.de",
+    "osm_relation_id": 62357
+  },
+  {
+    "id": "DE-07133",
+    "name": "Landkreis Bad Kreuznach",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "kreis-badkreuznach.de",
+    "osm_relation_id": 62741
+  },
+  {
+    "id": "DE-07134",
+    "name": "Landkreis Birkenfeld",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "landkreis-birkenfeld.de",
+    "osm_relation_id": 62679
+  },
+  {
+    "id": "DE-07135",
+    "name": "Landkreis Cochem-Zell",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "cochem-zell.de",
+    "osm_relation_id": 62569
+  },
+  {
+    "id": "DE-07137",
+    "name": "Landkreis Mayen-Koblenz",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "mayen-koblenz.de",
+    "osm_relation_id": 62572
+  },
+  {
+    "id": "DE-07138",
+    "name": "Landkreis Neuwied",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "kreis-neuwied.de",
+    "osm_relation_id": 62348
+  },
+  {
+    "id": "DE-07140",
+    "name": "Rhein-Hunsrück-Kreis",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "kreis-sim.de",
+    "osm_relation_id": 62527
+  },
+  {
+    "id": "DE-07141",
+    "name": "Rhein-Lahn-Kreis",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "rhein-lahn-kreis.de",
+    "osm_relation_id": 62443
+  },
+  {
+    "id": "DE-07143",
+    "name": "Westerwaldkreis",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "westerwald-kreis.de",
+    "osm_relation_id": 62362
+  },
+  {
+    "id": "DE-07211",
+    "name": "Trier",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "trier.de",
+    "osm_relation_id": 172679
+  },
+  {
+    "id": "DE-07231",
+    "name": "Landkreis Bernkastel-Wittlich",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "bernkastel-wittlich.de",
+    "osm_relation_id": 62668
+  },
+  {
+    "id": "DE-07232",
+    "name": "Eifelkreis Bitburg-Prüm",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "bitburg-pruem.de",
+    "osm_relation_id": 62584
+  },
+  {
+    "id": "DE-07233",
+    "name": "Landkreis Vulkaneifel",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "vulkaneifel.de",
+    "osm_relation_id": 62615
+  },
+  {
+    "id": "DE-07235",
+    "name": "Landkreis Trier-Saarburg",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "trier-saarburg.de",
+    "osm_relation_id": 62361
+  },
+  {
+    "id": "DE-07311",
+    "name": "Frankenthal",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "frankenthal.de",
+    "osm_relation_id": 62573
+  },
+  {
+    "id": "DE-07312",
+    "name": "Kaiserslautern",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "kaiserslautern.de",
+    "osm_relation_id": 62652
+  },
+  {
+    "id": "DE-07313",
+    "name": "Landau in der Pfalz",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "landau.de",
+    "osm_relation_id": 62391
+  },
+  {
+    "id": "DE-07314",
+    "name": "Ludwigshafen am Rhein",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "ludwigshafen.de",
+    "osm_relation_id": 62347
+  },
+  {
+    "id": "DE-07315",
+    "name": "Mainz",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "mainz.de",
+    "osm_relation_id": 62630
+  },
+  {
+    "id": "DE-07316",
+    "name": "Neustadt an der Weinstraße",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "neustadt.eu",
+    "osm_relation_id": 62724
+  },
+  {
+    "id": "DE-07317",
+    "name": "Pirmasens",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "pirmasens.de",
+    "osm_relation_id": 62642
+  },
+  {
+    "id": "DE-07318",
+    "name": "Speyer",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "speyer.de",
+    "osm_relation_id": 62352
+  },
+  {
+    "id": "DE-07319",
+    "name": "Worms",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "worms.de",
+    "osm_relation_id": 62453
+  },
+  {
+    "id": "DE-07320",
+    "name": "Zweibrücken",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "zweibruecken.de",
+    "osm_relation_id": 62719
+  },
+  {
+    "id": "DE-07331",
+    "name": "Landkreis Alzey-Worms",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "kreis-alzey-worms.de",
+    "osm_relation_id": 62680
+  },
+  {
+    "id": "DE-07332",
+    "name": "Landkreis Bad Dürkheim",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "kreis-bad-duerkheim.de",
+    "osm_relation_id": 62454
+  },
+  {
+    "id": "DE-07333",
+    "name": "Donnersbergkreis",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "donnersberg.de",
+    "osm_relation_id": 62737
+  },
+  {
+    "id": "DE-07334",
+    "name": "Landkreis Germersheim",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "kreis-germersheim.de",
+    "osm_relation_id": 62698
+  },
+  {
+    "id": "DE-07335",
+    "name": "Landkreis Kaiserslautern",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "kaiserslautern-kreis.de",
+    "osm_relation_id": 62451
+  },
+  {
+    "id": "DE-07336",
+    "name": "Landkreis Kusel",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "landkreis-kusel.de",
+    "osm_relation_id": 62367
+  },
+  {
+    "id": "DE-07337",
+    "name": "Landkreis Südliche Weinstraße",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "suedliche-weinstrasse.de",
+    "osm_relation_id": 62653
+  },
+  {
+    "id": "DE-07338",
+    "name": "Rhein-Pfalz-Kreis",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "rhein-pfalz-kreis.de",
+    "osm_relation_id": 62610
+  },
+  {
+    "id": "DE-07339",
+    "name": "Landkreis Mainz-Bingen",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "mainz-bingen.de",
+    "osm_relation_id": 62632
+  },
+  {
+    "id": "DE-07340",
+    "name": "Landkreis Südwestpfalz",
+    "country": "DE",
+    "region": "Rheinland-Pfalz",
+    "domain": "lksuedwestpfalz.de",
+    "osm_relation_id": 62360
+  },
+  {
+    "id": "DE-08111",
+    "name": "Stuttgart",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "stuttgart.de",
+    "osm_relation_id": 2793104
+  },
+  {
+    "id": "DE-08115",
+    "name": "Landkreis Böblingen",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "lrabb.de",
+    "osm_relation_id": 62721
+  },
+  {
+    "id": "DE-08116",
+    "name": "Landkreis Esslingen",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "landkreis-esslingen.de",
+    "osm_relation_id": 2812851
+  },
+  {
+    "id": "DE-08117",
+    "name": "Landkreis Göppingen",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "landkreis-goeppingen.de",
+    "osm_relation_id": 2812852
+  },
+  {
+    "id": "DE-08118",
+    "name": "Landkreis Ludwigsburg",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "landkreis-ludwigsburg.de",
+    "osm_relation_id": 62536
+  },
+  {
+    "id": "DE-08119",
+    "name": "Rems-Murr-Kreis",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "rems-murr-kreis.de",
+    "osm_relation_id": 62412
+  },
+  {
+    "id": "DE-08121",
+    "name": "Heilbronn",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "heilbronn.de",
+    "osm_relation_id": 62751
+  },
+  {
+    "id": "DE-08125",
+    "name": "Landkreis Heilbronn",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "landkreis-heilbronn.de",
+    "osm_relation_id": 62750
+  },
+  {
+    "id": "DE-08126",
+    "name": "Hohenlohekreis",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "hohenlohekreis.de",
+    "osm_relation_id": 62394
+  },
+  {
+    "id": "DE-08127",
+    "name": "Landkreis Schwäbisch Hall",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "lrasha.de",
+    "osm_relation_id": 62582
+  },
+  {
+    "id": "DE-08128",
+    "name": "Main-Tauber-Kreis",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "main-tauber-kreis.de",
+    "osm_relation_id": 62542
+  },
+  {
+    "id": "DE-08135",
+    "name": "Landkreis Heidenheim",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "landkreis-heidenheim.de",
+    "osm_relation_id": 2812850
+  },
+  {
+    "id": "DE-08136",
+    "name": "Ostalbkreis",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "ostalbkreis.de",
+    "osm_relation_id": 62708
+  },
+  {
+    "id": "DE-08211",
+    "name": "Baden-Baden",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "baden-baden.de",
+    "osm_relation_id": 62340
+  },
+  {
+    "id": "DE-08212",
+    "name": "Karlsruhe",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "karlsruhe.de",
+    "osm_relation_id": 62518
+  },
+  {
+    "id": "DE-08215",
+    "name": "Landkreis Karlsruhe",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "landkreis-karlsruhe.de",
+    "osm_relation_id": 62393
+  },
+  {
+    "id": "DE-08216",
+    "name": "Landkreis Rastatt",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "landkreis-rastatt.de",
+    "osm_relation_id": 62388
+  },
+  {
+    "id": "DE-08221",
+    "name": "Heidelberg",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "heidelberg.de",
+    "osm_relation_id": 285864
+  },
+  {
+    "id": "DE-08222",
+    "name": "Mannheim",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "mannheim.de",
+    "osm_relation_id": 62691
+  },
+  {
+    "id": "DE-08225",
+    "name": "Neckar-Odenwald-Kreis",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "neckar-odenwald-kreis.de",
+    "osm_relation_id": 62626
+  },
+  {
+    "id": "DE-08226",
+    "name": "Rhein-Neckar-Kreis",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "rhein-neckar-kreis.de",
+    "osm_relation_id": 62577
+  },
+  {
+    "id": "DE-08231",
+    "name": "Pforzheim",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "pforzheim.de",
+    "osm_relation_id": 62471
+  },
+  {
+    "id": "DE-08235",
+    "name": "Landkreis Calw",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "kreis-calw.de",
+    "osm_relation_id": 62601
+  },
+  {
+    "id": "DE-08236",
+    "name": "Enzkreis",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "enzkreis.de",
+    "osm_relation_id": 62723
+  },
+  {
+    "id": "DE-08237",
+    "name": "Landkreis Freudenstadt",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "landkreis-freudenstadt.de",
+    "osm_relation_id": 62354
+  },
+  {
+    "id": "DE-08311",
+    "name": "Freiburg im Breisgau",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "freiburg.de",
+    "osm_relation_id": 62768
+  },
+  {
+    "id": "DE-08315",
+    "name": "Landkreis Breisgau-Hochschwarzwald",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "breisgau-hochschwarzwald.de",
+    "osm_relation_id": 1946367
+  },
+  {
+    "id": "DE-08316",
+    "name": "Landkreis Emmendingen",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "landkreis-emmendingen.de",
+    "osm_relation_id": 1946117
+  },
+  {
+    "id": "DE-08317",
+    "name": "Ortenaukreis",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "ortenaukreis.de",
+    "osm_relation_id": 62624
+  },
+  {
+    "id": "DE-08325",
+    "name": "Landkreis Rottweil",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "landkreis-rottweil.de",
+    "osm_relation_id": 62344
+  },
+  {
+    "id": "DE-08326",
+    "name": "Schwarzwald-Baar-Kreis",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "lrasbk.de",
+    "osm_relation_id": 62690
+  },
+  {
+    "id": "DE-08327",
+    "name": "Landkreis Tuttlingen",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "landkreis-tuttlingen.de",
+    "osm_relation_id": 62682
+  },
+  {
+    "id": "DE-08335",
+    "name": "Landkreis Konstanz",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "landkreis-konstanz.de",
+    "osm_relation_id": 62603
+  },
+  {
+    "id": "DE-08336",
+    "name": "Landkreis Lörrach",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "loerrach-landkreis.de",
+    "osm_relation_id": 62587
+  },
+  {
+    "id": "DE-08337",
+    "name": "Landkreis Waldshut",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "landkreis-waldshut.de",
+    "osm_relation_id": 62716
+  },
+  {
+    "id": "DE-08415",
+    "name": "Landkreis Reutlingen",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "kreis-reutlingen.de",
+    "osm_relation_id": 2796980
+  },
+  {
+    "id": "DE-08416",
+    "name": "Landkreis Tübingen",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "kreis-tuebingen.de",
+    "osm_relation_id": 2797036
+  },
+  {
+    "id": "DE-08417",
+    "name": "Zollernalbkreis",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "zollernalbkreis.de",
+    "osm_relation_id": 2797573
+  },
+  {
+    "id": "DE-08421",
+    "name": "Ulm",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "ulm.de",
+    "osm_relation_id": 62495
+  },
+  {
+    "id": "DE-08425",
+    "name": "Alb-Donau-Kreis",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "alb-donau-kreis.de",
+    "osm_relation_id": 2804078
+  },
+  {
+    "id": "DE-08426",
+    "name": "Landkreis Biberach",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "biberach.de",
+    "osm_relation_id": 2804156
+  },
+  {
+    "id": "DE-08435",
+    "name": "Bodenseekreis",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "bodenseekreis.de",
+    "osm_relation_id": 2806623
+  },
+  {
+    "id": "DE-08436",
+    "name": "Landkreis Ravensburg",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "rv.de",
+    "osm_relation_id": 2808774
+  },
+  {
+    "id": "DE-08437",
+    "name": "Landkreis Sigmaringen",
+    "country": "DE",
+    "region": "Baden-Württemberg",
+    "domain": "landkreis-sigmaringen.de",
+    "osm_relation_id": 2806390
+  },
+  {
+    "id": "DE-09161",
+    "name": "Ingolstadt",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "ingolstadt.de",
+    "osm_relation_id": 62381
+  },
+  {
+    "id": "DE-09162",
+    "name": "München",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "stadt.muenchen.de",
+    "osm_relation_id": 62428
+  },
+  {
+    "id": "DE-09163",
+    "name": "Rosenheim",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "rosenheim.de",
+    "osm_relation_id": 2168233
+  },
+  {
+    "id": "DE-09171",
+    "name": "Landkreis Altötting",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "lra-aoe.de",
+    "osm_relation_id": 62663
+  },
+  {
+    "id": "DE-09172",
+    "name": "Landkreis Berchtesgadener Land",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "lra-bgl.de",
+    "osm_relation_id": 62712
+  },
+  {
+    "id": "DE-09173",
+    "name": "Landkreis Bad Tölz-Wolfratshausen",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "lra-toelz.de",
+    "osm_relation_id": 62472
+  },
+  {
+    "id": "DE-09174",
+    "name": "Landkreis Dachau",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-dachau.de",
+    "osm_relation_id": 62556
+  },
+  {
+    "id": "DE-09175",
+    "name": "Landkreis Ebersberg",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "lra-ebe.de",
+    "osm_relation_id": 2168230
+  },
+  {
+    "id": "DE-09176",
+    "name": "Landkreis Eichstätt",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-eichstaett.de",
+    "osm_relation_id": 62684
+  },
+  {
+    "id": "DE-09177",
+    "name": "Landkreis Erding",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-erding.de",
+    "osm_relation_id": 62356
+  },
+  {
+    "id": "DE-09178",
+    "name": "Landkreis Freising",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-freising.de",
+    "osm_relation_id": 62633
+  },
+  {
+    "id": "DE-09179",
+    "name": "Landkreis Fürstenfeldbruck",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "lra-ffb.de",
+    "osm_relation_id": 62595
+  },
+  {
+    "id": "DE-09180",
+    "name": "Landkreis Garmisch-Partenkirchen",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-garmisch-partenkirchen.de",
+    "osm_relation_id": 62726
+  },
+  {
+    "id": "DE-09181",
+    "name": "Landkreis Landsberg am Lech",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "lra-landsberg.de",
+    "osm_relation_id": 62498
+  },
+  {
+    "id": "DE-09182",
+    "name": "Landkreis Miesbach",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-miesbach.de",
+    "osm_relation_id": 2168231
+  },
+  {
+    "id": "DE-09183",
+    "name": "Landkreis Mühldorf am Inn",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "lra-mue.de",
+    "osm_relation_id": 2168232
+  },
+  {
+    "id": "DE-09184",
+    "name": "Landkreis München",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-muenchen.de",
+    "osm_relation_id": 62580
+  },
+  {
+    "id": "DE-09185",
+    "name": "Landkreis Neuburg-Schrobenhausen",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "neuburg-schrobenhausen.de",
+    "osm_relation_id": 62655
+  },
+  {
+    "id": "DE-09186",
+    "name": "Landkreis Pfaffenhofen an der Ilm",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-pfaffenhofen.de",
+    "osm_relation_id": 62371
+  },
+  {
+    "id": "DE-09187",
+    "name": "Landkreis Rosenheim",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-rosenheim.de",
+    "osm_relation_id": 2156362
+  },
+  {
+    "id": "DE-09188",
+    "name": "Landkreis Starnberg",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-starnberg.de",
+    "osm_relation_id": 62458
+  },
+  {
+    "id": "DE-09189",
+    "name": "Landkreis Traunstein",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "traunstein.com",
+    "osm_relation_id": 2156363
+  },
+  {
+    "id": "DE-09190",
+    "name": "Landkreis Weilheim-Schongau",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "weilheim-schongau.de",
+    "osm_relation_id": 62600
+  },
+  {
+    "id": "DE-09261",
+    "name": "Landshut",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landshut.de",
+    "osm_relation_id": 62484
+  },
+  {
+    "id": "DE-09262",
+    "name": "Passau",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "passau.de",
+    "osm_relation_id": 62629
+  },
+  {
+    "id": "DE-09263",
+    "name": "Straubing",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "straubing.de",
+    "osm_relation_id": 62636
+  },
+  {
+    "id": "DE-09271",
+    "name": "Landkreis Deggendorf",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-deggendorf.de",
+    "osm_relation_id": 62711
+  },
+  {
+    "id": "DE-09272",
+    "name": "Landkreis Freyung-Grafenau",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "freyung-grafenau.de",
+    "osm_relation_id": 2083466
+  },
+  {
+    "id": "DE-09273",
+    "name": "Landkreis Kelheim",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-kelheim.de",
+    "osm_relation_id": 62614
+  },
+  {
+    "id": "DE-09274",
+    "name": "Landkreis Landshut",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-landshut.de",
+    "osm_relation_id": 62657
+  },
+  {
+    "id": "DE-09275",
+    "name": "Landkreis Passau",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-passau.de",
+    "osm_relation_id": 62541
+  },
+  {
+    "id": "DE-09276",
+    "name": "Landkreis Regen",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-regen.de",
+    "osm_relation_id": 62709
+  },
+  {
+    "id": "DE-09277",
+    "name": "Landkreis Rottal-Inn",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "rottal-inn.de",
+    "osm_relation_id": 62592
+  },
+  {
+    "id": "DE-09278",
+    "name": "Landkreis Straubing-Bogen",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "straubing-bogen.de",
+    "osm_relation_id": 62727
+  },
+  {
+    "id": "DE-09279",
+    "name": "Landkreis Dingolfing-Landau",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-dingolfing-landau.de",
+    "osm_relation_id": 62707
+  },
+  {
+    "id": "DE-09361",
+    "name": "Amberg",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "amberg.de",
+    "osm_relation_id": 62772
+  },
+  {
+    "id": "DE-09362",
+    "name": "Regensburg",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "regensburg.de",
+    "osm_relation_id": 62411
+  },
+  {
+    "id": "DE-09363",
+    "name": "Weiden in der Oberpfalz",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "weiden.de",
+    "osm_relation_id": 62554
+  },
+  {
+    "id": "DE-09371",
+    "name": "Landkreis Amberg-Sulzbach",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "kreis-as.de",
+    "osm_relation_id": 62765
+  },
+  {
+    "id": "DE-09372",
+    "name": "Landkreis Cham",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-cham.de",
+    "osm_relation_id": 62548
+  },
+  {
+    "id": "DE-09373",
+    "name": "Landkreis Neumarkt in der Oberpfalz",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-neumarkt.de",
+    "osm_relation_id": 62620
+  },
+  {
+    "id": "DE-09374",
+    "name": "Landkreis Neustadt an der Waldnaab",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "neustadt.de",
+    "osm_relation_id": 975339
+  },
+  {
+    "id": "DE-09375",
+    "name": "Landkreis Regensburg",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-regensburg.de",
+    "osm_relation_id": 62565
+  },
+  {
+    "id": "DE-09376",
+    "name": "Landkreis Schwandorf",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-schwandorf.de",
+    "osm_relation_id": 62686
+  },
+  {
+    "id": "DE-09377",
+    "name": "Landkreis Tirschenreuth",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "kreis-tir.de",
+    "osm_relation_id": 62575
+  },
+  {
+    "id": "DE-09461",
+    "name": "Bamberg",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "stadt.bamberg.de",
+    "osm_relation_id": 62525
+  },
+  {
+    "id": "DE-09462",
+    "name": "Bayreuth",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "bayreuth.de",
+    "osm_relation_id": 62640
+  },
+  {
+    "id": "DE-09463",
+    "name": "Coburg",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "coburg.de",
+    "osm_relation_id": 62717
+  },
+  {
+    "id": "DE-09464",
+    "name": "Hof",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "hof.de",
+    "osm_relation_id": 62589
+  },
+  {
+    "id": "DE-09471",
+    "name": "Landkreis Bamberg",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-bamberg.de",
+    "osm_relation_id": 62627
+  },
+  {
+    "id": "DE-09472",
+    "name": "Landkreis Bayreuth",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-bayreuth.de",
+    "osm_relation_id": 62378
+  },
+  {
+    "id": "DE-09473",
+    "name": "Landkreis Coburg",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-coburg.de",
+    "osm_relation_id": 62561
+  },
+  {
+    "id": "DE-09474",
+    "name": "Landkreis Forchheim",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-forchheim.de",
+    "osm_relation_id": 62687
+  },
+  {
+    "id": "DE-09475",
+    "name": "Landkreis Hof",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-hof.de",
+    "osm_relation_id": 2145179
+  },
+  {
+    "id": "DE-09476",
+    "name": "Landkreis Kronach",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-kronach.de",
+    "osm_relation_id": 62383
+  },
+  {
+    "id": "DE-09477",
+    "name": "Landkreis Kulmbach",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-kulmbach.de",
+    "osm_relation_id": 2145178
+  },
+  {
+    "id": "DE-09478",
+    "name": "Landkreis Lichtenfels",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-lichtenfels.de",
+    "osm_relation_id": 62515
+  },
+  {
+    "id": "DE-09479",
+    "name": "Landkreis Wunsiedel i. Fichtelgebirge",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-wunsiedel.de",
+    "osm_relation_id": 62491
+  },
+  {
+    "id": "DE-09561",
+    "name": "Ansbach",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "ansbach.de",
+    "osm_relation_id": 62654
+  },
+  {
+    "id": "DE-09562",
+    "name": "Erlangen",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "erlangen.de",
+    "osm_relation_id": 62403
+  },
+  {
+    "id": "DE-09563",
+    "name": "Fürth",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "fuerth.de",
+    "osm_relation_id": 62374
+  },
+  {
+    "id": "DE-09564",
+    "name": "Nürnberg",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "nuernberg.de",
+    "osm_relation_id": 62780
+  },
+  {
+    "id": "DE-09565",
+    "name": "Schwabach",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "schwabach.de",
+    "osm_relation_id": 62720
+  },
+  {
+    "id": "DE-09571",
+    "name": "Landkreis Ansbach",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-ansbach.de",
+    "osm_relation_id": 62609
+  },
+  {
+    "id": "DE-09572",
+    "name": "Landkreis Erlangen-Höchstadt",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "erlangen-hoechstadt.de",
+    "osm_relation_id": 62448
+  },
+  {
+    "id": "DE-09573",
+    "name": "Landkreis Fürth",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-fuerth.de",
+    "osm_relation_id": 62778
+  },
+  {
+    "id": "DE-09574",
+    "name": "Landkreis Nürnberger Land",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "nuernberger-land.de",
+    "osm_relation_id": 62744
+  },
+  {
+    "id": "DE-09575",
+    "name": "Landkreis Neustadt an der Aisch-Bad Windsheim",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-nea.de",
+    "osm_relation_id": 62514
+  },
+  {
+    "id": "DE-09576",
+    "name": "Landkreis Roth",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landratsamt-roth.de",
+    "osm_relation_id": 62431
+  },
+  {
+    "id": "DE-09577",
+    "name": "Landkreis Weißenburg-Gunzenhausen",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-wug.de",
+    "osm_relation_id": 62390
+  },
+  {
+    "id": "DE-09661",
+    "name": "Aschaffenburg",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "aschaffenburg.de",
+    "osm_relation_id": 62532
+  },
+  {
+    "id": "DE-09662",
+    "name": "Schweinfurt",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "schweinfurt.de",
+    "osm_relation_id": 62534
+  },
+  {
+    "id": "DE-09663",
+    "name": "Würzburg",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "wuerzburg.de",
+    "osm_relation_id": 62464
+  },
+  {
+    "id": "DE-09671",
+    "name": "Landkreis Aschaffenburg",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-aschaffenburg.de",
+    "osm_relation_id": 62497
+  },
+  {
+    "id": "DE-09672",
+    "name": "Landkreis Bad Kissingen",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-badkissingen.de",
+    "osm_relation_id": 62406
+  },
+  {
+    "id": "DE-09673",
+    "name": "Landkreis Rhön-Grabfeld",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "rhoen-grabfeld.de",
+    "osm_relation_id": 62739
+  },
+  {
+    "id": "DE-09674",
+    "name": "Landkreis Haßberge",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "hassberge.de",
+    "osm_relation_id": 62520
+  },
+  {
+    "id": "DE-09675",
+    "name": "Landkreis Kitzingen",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-kitzingen.de",
+    "osm_relation_id": 62457
+  },
+  {
+    "id": "DE-09676",
+    "name": "Landkreis Miltenberg",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-miltenberg.de",
+    "osm_relation_id": 62404
+  },
+  {
+    "id": "DE-09677",
+    "name": "Landkreis Main-Spessart",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "main-spessart.de",
+    "osm_relation_id": 62641
+  },
+  {
+    "id": "DE-09678",
+    "name": "Landkreis Schweinfurt",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-schweinfurt.de",
+    "osm_relation_id": 62530
+  },
+  {
+    "id": "DE-09679",
+    "name": "Landkreis Würzburg",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-wuerzburg.de",
+    "osm_relation_id": 62465
+  },
+  {
+    "id": "DE-09761",
+    "name": "Augsburg",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "augsburg.de",
+    "osm_relation_id": 62407
+  },
+  {
+    "id": "DE-09762",
+    "name": "Kaufbeuren",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "kaufbeuren.de",
+    "osm_relation_id": 62349
+  },
+  {
+    "id": "DE-09763",
+    "name": "Kempten (Allgäu)",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "kempten.de",
+    "osm_relation_id": 62701
+  },
+  {
+    "id": "DE-09764",
+    "name": "Memmingen",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "memmingen.de",
+    "osm_relation_id": 62590
+  },
+  {
+    "id": "DE-09771",
+    "name": "Landkreis Aichach-Friedberg",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "lra-aic-fdb.de",
+    "osm_relation_id": 62377
+  },
+  {
+    "id": "DE-09772",
+    "name": "Landkreis Augsburg",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-augsburg.de",
+    "osm_relation_id": 62622
+  },
+  {
+    "id": "DE-09773",
+    "name": "Landkreis Dillingen an der Donau",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-dillingen.de",
+    "osm_relation_id": 62521
+  },
+  {
+    "id": "DE-09774",
+    "name": "Landkreis Günzburg",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-guenzburg.de",
+    "osm_relation_id": 62664
+  },
+  {
+    "id": "DE-09775",
+    "name": "Landkreis Neu-Ulm",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-nu.de",
+    "osm_relation_id": 62469
+  },
+  {
+    "id": "DE-09776",
+    "name": "Landkreis Lindau",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "landkreis-lindau.de",
+    "osm_relation_id": 62672
+  },
+  {
+    "id": "DE-09777",
+    "name": "Landkreis Ostallgäu",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "ostallgaeu.de",
+    "osm_relation_id": 62533
+  },
+  {
+    "id": "DE-09778",
+    "name": "Landkreis Unterallgäu",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "unterallgaeu.de",
+    "osm_relation_id": 62398
+  },
+  {
+    "id": "DE-09779",
+    "name": "Landkreis Donau-Ries",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "donau-ries.de",
+    "osm_relation_id": 62389
+  },
+  {
+    "id": "DE-09780",
+    "name": "Landkreis Oberallgäu",
+    "country": "DE",
+    "region": "Bayern",
+    "domain": "oberallgaeu.de",
+    "osm_relation_id": 62415
+  },
+  {
+    "id": "DE-10041",
+    "name": "Regionalverband Saarbrücken",
+    "country": "DE",
+    "region": "Saarland",
+    "domain": "regionalverband-saarbruecken.de",
+    "osm_relation_id": 62651
+  },
+  {
+    "id": "DE-10042",
+    "name": "Landkreis Merzig-Wadern",
+    "country": "DE",
+    "region": "Saarland",
+    "domain": "merzig-wadern.de",
+    "osm_relation_id": 62387
+  },
+  {
+    "id": "DE-10043",
+    "name": "Landkreis Neunkirchen",
+    "country": "DE",
+    "region": "Saarland",
+    "domain": "landkreis-neunkirchen.de",
+    "osm_relation_id": 62474
+  },
+  {
+    "id": "DE-10044",
+    "name": "Landkreis Saarlouis",
+    "country": "DE",
+    "region": "Saarland",
+    "domain": "kreis-saarlouis.de",
+    "osm_relation_id": 62466
+  },
+  {
+    "id": "DE-10045",
+    "name": "Saarpfalz-Kreis",
+    "country": "DE",
+    "region": "Saarland",
+    "domain": "saarpfalz-kreis.de",
+    "osm_relation_id": 62579
+  },
+  {
+    "id": "DE-10046",
+    "name": "Landkreis St. Wendel",
+    "country": "DE",
+    "region": "Saarland",
+    "domain": "landkreis-st-wendel.de",
+    "osm_relation_id": 62346
+  },
+  {
+    "id": "DE-11000",
+    "name": "Berlin",
+    "country": "DE",
+    "region": "Berlin",
+    "domain": "berlin.de",
+    "osm_relation_id": 62422
+  },
+  {
+    "id": "DE-12051",
+    "name": "Brandenburg an der Havel",
+    "country": "DE",
+    "region": "Brandenburg",
+    "domain": "stadt-brandenburg.de",
+    "osm_relation_id": 62470
+  },
+  {
+    "id": "DE-12052",
+    "name": "Cottbus",
+    "country": "DE",
+    "region": "Brandenburg",
+    "domain": "cottbus.de",
+    "osm_relation_id": 62430
+  },
+  {
+    "id": "DE-12053",
+    "name": "Frankfurt (Oder)",
+    "country": "DE",
+    "region": "Brandenburg",
+    "domain": "frankfurt-oder.de",
+    "osm_relation_id": 62523
+  },
+  {
+    "id": "DE-12054",
+    "name": "Potsdam",
+    "country": "DE",
+    "region": "Brandenburg",
+    "domain": "potsdam.de",
+    "osm_relation_id": 62369
+  },
+  {
+    "id": "DE-12060",
+    "name": "Landkreis Barnim",
+    "country": "DE",
+    "region": "Brandenburg",
+    "domain": "barnim.de",
+    "osm_relation_id": 62553
+  },
+  {
+    "id": "DE-12061",
+    "name": "Landkreis Dahme-Spreewald",
+    "country": "DE",
+    "region": "Brandenburg",
+    "domain": "dahme-spreewald.info",
+    "osm_relation_id": 62376
+  },
+  {
+    "id": "DE-12062",
+    "name": "Landkreis Elbe-Elster",
+    "country": "DE",
+    "region": "Brandenburg",
+    "domain": "lkee.de",
+    "osm_relation_id": 62505
+  },
+  {
+    "id": "DE-12063",
+    "name": "Landkreis Havelland",
+    "country": "DE",
+    "region": "Brandenburg",
+    "domain": "havelland.de",
+    "osm_relation_id": 62413
+  },
+  {
+    "id": "DE-12064",
+    "name": "Landkreis Märkisch-Oderland",
+    "country": "DE",
+    "region": "Brandenburg",
+    "domain": "maerkisch-oderland.de",
+    "osm_relation_id": 318248
+  },
+  {
+    "id": "DE-12065",
+    "name": "Landkreis Oberhavel",
+    "country": "DE",
+    "region": "Brandenburg",
+    "domain": "oberhavel.de",
+    "osm_relation_id": 62488
+  },
+  {
+    "id": "DE-12066",
+    "name": "Landkreis Oberspreewald-Lausitz",
+    "country": "DE",
+    "region": "Brandenburg",
+    "domain": "osl-online.de",
+    "osm_relation_id": 62571
+  },
+  {
+    "id": "DE-12067",
+    "name": "Landkreis Oder-Spree",
+    "country": "DE",
+    "region": "Brandenburg",
+    "domain": "landkreis-oder-spree.de",
+    "osm_relation_id": 62628
+  },
+  {
+    "id": "DE-12068",
+    "name": "Landkreis Ostprignitz-Ruppin",
+    "country": "DE",
+    "region": "Brandenburg",
+    "domain": "ostprignitz-ruppin.de",
+    "osm_relation_id": 62574
+  },
+  {
+    "id": "DE-12069",
+    "name": "Landkreis Potsdam-Mittelmark",
+    "country": "DE",
+    "region": "Brandenburg",
+    "domain": "potsdam-mittelmark.de",
+    "osm_relation_id": 62353
+  },
+  {
+    "id": "DE-12070",
+    "name": "Landkreis Prignitz",
+    "country": "DE",
+    "region": "Brandenburg",
+    "domain": "landkreis-prignitz.de",
+    "osm_relation_id": 62738
+  },
+  {
+    "id": "DE-12071",
+    "name": "Landkreis Spree-Neiße",
+    "country": "DE",
+    "region": "Brandenburg",
+    "domain": "lkspn.de",
+    "osm_relation_id": 62683
+  },
+  {
+    "id": "DE-12072",
+    "name": "Landkreis Teltow-Fläming",
+    "country": "DE",
+    "region": "Brandenburg",
+    "domain": "teltow-flaeming.de",
+    "osm_relation_id": 62364
+  },
+  {
+    "id": "DE-12073",
+    "name": "Landkreis Uckermark",
+    "country": "DE",
+    "region": "Brandenburg",
+    "domain": "uckermark.de",
+    "osm_relation_id": 62537
+  },
+  {
+    "id": "DE-13003",
+    "name": "Rostock",
+    "country": "DE",
+    "region": "Mecklenburg-Vorpommern",
+    "domain": "rostock.de",
+    "osm_relation_id": 62405
+  },
+  {
+    "id": "DE-13004",
+    "name": "Schwerin",
+    "country": "DE",
+    "region": "Mecklenburg-Vorpommern",
+    "domain": "schwerin.de",
+    "osm_relation_id": 62685
+  },
+  {
+    "id": "DE-13071",
+    "name": "Landkreis Mecklenburgische Seenplatte",
+    "country": "DE",
+    "region": "Mecklenburg-Vorpommern",
+    "domain": "lk-mecklenburgische-seenplatte.de",
+    "osm_relation_id": 1739376
+  },
+  {
+    "id": "DE-13072",
+    "name": "Landkreis Rostock",
+    "country": "DE",
+    "region": "Mecklenburg-Vorpommern",
+    "domain": "landkreis-rostock.de",
+    "osm_relation_id": 1739377
+  },
+  {
+    "id": "DE-13073",
+    "name": "Landkreis Vorpommern-Rügen",
+    "country": "DE",
+    "region": "Mecklenburg-Vorpommern",
+    "domain": "lk-vr.de",
+    "osm_relation_id": 1739379
+  },
+  {
+    "id": "DE-13074",
+    "name": "Landkreis Nordwestmecklenburg",
+    "country": "DE",
+    "region": "Mecklenburg-Vorpommern",
+    "domain": "nordwestmecklenburg.de",
+    "osm_relation_id": 1739380
+  },
+  {
+    "id": "DE-13075",
+    "name": "Landkreis Vorpommern-Greifswald",
+    "country": "DE",
+    "region": "Mecklenburg-Vorpommern",
+    "domain": "kreis-vg.de",
+    "osm_relation_id": 3682691
+  },
+  {
+    "id": "DE-13076",
+    "name": "Landkreis Ludwigslust-Parchim",
+    "country": "DE",
+    "region": "Mecklenburg-Vorpommern",
+    "domain": "kreis-lup.de",
+    "osm_relation_id": 1739381
+  },
+  {
+    "id": "DE-14511",
+    "name": "Chemnitz",
+    "country": "DE",
+    "region": "Sachsen",
+    "domain": "chemnitz.de",
+    "osm_relation_id": 62594
+  },
+  {
+    "id": "DE-14521",
+    "name": "Erzgebirgskreis",
+    "country": "DE",
+    "region": "Sachsen",
+    "domain": "erzgebirgskreis.de",
+    "osm_relation_id": 62427
+  },
+  {
+    "id": "DE-14522",
+    "name": "Landkreis Mittelsachsen",
+    "country": "DE",
+    "region": "Sachsen",
+    "domain": "landkreis-mittelsachsen.de",
+    "osm_relation_id": 62350
+  },
+  {
+    "id": "DE-14523",
+    "name": "Vogtlandkreis",
+    "country": "DE",
+    "region": "Sachsen",
+    "domain": "vogtlandkreis.de",
+    "osm_relation_id": 62943
+  },
+  {
+    "id": "DE-14524",
+    "name": "Landkreis Zwickau",
+    "country": "DE",
+    "region": "Sachsen",
+    "domain": "landkreis-zwickau.de",
+    "osm_relation_id": 62785
+  },
+  {
+    "id": "DE-14612",
+    "name": "Dresden",
+    "country": "DE",
+    "region": "Sachsen",
+    "domain": "dresden.de",
+    "osm_relation_id": 191645
+  },
+  {
+    "id": "DE-14625",
+    "name": "Landkreis Bautzen",
+    "country": "DE",
+    "region": "Sachsen",
+    "domain": "landkreis-bautzen.de",
+    "osm_relation_id": 62384
+  },
+  {
+    "id": "DE-14626",
+    "name": "Landkreis Görlitz",
+    "country": "DE",
+    "region": "Sachsen",
+    "domain": "kreis-goerlitz.de",
+    "osm_relation_id": 62345
+  },
+  {
+    "id": "DE-14627",
+    "name": "Landkreis Meißen",
+    "country": "DE",
+    "region": "Sachsen",
+    "domain": "kreis-meissen.de",
+    "osm_relation_id": 62511
+  },
+  {
+    "id": "DE-14628",
+    "name": "Landkreis Sächsische Schweiz-Osterzgebirge",
+    "country": "DE",
+    "region": "Sachsen",
+    "domain": "landratsamt-pirna.de",
+    "osm_relation_id": 62485
+  },
+  {
+    "id": "DE-14713",
+    "name": "Leipzig",
+    "country": "DE",
+    "region": "Sachsen",
+    "domain": "leipzig.de",
+    "osm_relation_id": 62649
+  },
+  {
+    "id": "DE-14729",
+    "name": "Landkreis Leipzig",
+    "country": "DE",
+    "region": "Sachsen",
+    "domain": "landkreisleipzig.de",
+    "osm_relation_id": 62434
+  },
+  {
+    "id": "DE-14730",
+    "name": "Landkreis Nordsachsen",
+    "country": "DE",
+    "region": "Sachsen",
+    "domain": "landkreis-nordsachsen.de",
+    "osm_relation_id": 62547
+  },
+  {
+    "id": "DE-15001",
+    "name": "Dessau-Roßlau",
+    "country": "DE",
+    "region": "Sachsen-Anhalt",
+    "domain": "verwaltung.dessau-rosslau.de",
+    "osm_relation_id": 62526
+  },
+  {
+    "id": "DE-15002",
+    "name": "Halle (Saale)",
+    "country": "DE",
+    "region": "Sachsen-Anhalt",
+    "domain": "halle.de",
+    "osm_relation_id": 62638
+  },
+  {
+    "id": "DE-15003",
+    "name": "Magdeburg",
+    "country": "DE",
+    "region": "Sachsen-Anhalt",
+    "domain": "magdeburg.de",
+    "osm_relation_id": 62481
+  },
+  {
+    "id": "DE-15081",
+    "name": "Altmarkkreis Salzwedel",
+    "country": "DE",
+    "region": "Sachsen-Anhalt",
+    "domain": "altmarkkreis-salzwedel.de",
+    "osm_relation_id": 62602
+  },
+  {
+    "id": "DE-15082",
+    "name": "Landkreis Anhalt-Bitterfeld",
+    "country": "DE",
+    "region": "Sachsen-Anhalt",
+    "domain": "anhalt-bitterfeld.de",
+    "osm_relation_id": 62747
+  },
+  {
+    "id": "DE-15083",
+    "name": "Landkreis Börde",
+    "country": "DE",
+    "region": "Sachsen-Anhalt",
+    "domain": "landkreis-boerde.de",
+    "osm_relation_id": 62359
+  },
+  {
+    "id": "DE-15084",
+    "name": "Burgenlandkreis",
+    "country": "DE",
+    "region": "Sachsen-Anhalt",
+    "domain": "burgenlandkreis.de",
+    "osm_relation_id": 62639
+  },
+  {
+    "id": "DE-15085",
+    "name": "Landkreis Harz",
+    "country": "DE",
+    "region": "Sachsen-Anhalt",
+    "domain": "kreis-hz.de",
+    "osm_relation_id": 62429
+  },
+  {
+    "id": "DE-15086",
+    "name": "Landkreis Jerichower Land",
+    "country": "DE",
+    "region": "Sachsen-Anhalt",
+    "domain": "lkjl.de",
+    "osm_relation_id": 62477
+  },
+  {
+    "id": "DE-15087",
+    "name": "Landkreis Mansfeld-Südharz",
+    "country": "DE",
+    "region": "Sachsen-Anhalt",
+    "domain": "mansfeldsuedharz.de",
+    "osm_relation_id": 62681
+  },
+  {
+    "id": "DE-15088",
+    "name": "Saalekreis",
+    "country": "DE",
+    "region": "Sachsen-Anhalt",
+    "domain": "saalekreis.de",
+    "osm_relation_id": 62473
+  },
+  {
+    "id": "DE-15089",
+    "name": "Salzlandkreis",
+    "country": "DE",
+    "region": "Sachsen-Anhalt",
+    "domain": "salzlandkreis.de",
+    "osm_relation_id": 62502
+  },
+  {
+    "id": "DE-15090",
+    "name": "Landkreis Stendal",
+    "country": "DE",
+    "region": "Sachsen-Anhalt",
+    "domain": "landkreis-stendal.de",
+    "osm_relation_id": 62725
+  },
+  {
+    "id": "DE-15091",
+    "name": "Landkreis Wittenberg",
+    "country": "DE",
+    "region": "Sachsen-Anhalt",
+    "domain": "landkreis-wittenberg.de",
+    "osm_relation_id": 62425
+  },
+  {
+    "id": "DE-16051",
+    "name": "Erfurt",
+    "country": "DE",
+    "region": "Thüringen",
+    "domain": "erfurt.de",
+    "osm_relation_id": 62745
+  },
+  {
+    "id": "DE-16052",
+    "name": "Gera",
+    "country": "DE",
+    "region": "Thüringen",
+    "domain": "gera.de",
+    "osm_relation_id": 62671
+  },
+  {
+    "id": "DE-16053",
+    "name": "Jena",
+    "country": "DE",
+    "region": "Thüringen",
+    "domain": "jena.de",
+    "osm_relation_id": 62693
+  },
+  {
+    "id": "DE-16054",
+    "name": "Suhl",
+    "country": "DE",
+    "region": "Thüringen",
+    "domain": "suhl.eu",
+    "osm_relation_id": 62450
+  },
+  {
+    "id": "DE-16055",
+    "name": "Weimar",
+    "country": "DE",
+    "region": "Thüringen",
+    "domain": "weimar.de",
+    "osm_relation_id": 62493
+  },
+  {
+    "id": "DE-16061",
+    "name": "Landkreis Eichsfeld",
+    "country": "DE",
+    "region": "Thüringen",
+    "domain": "kreis-eic.de",
+    "osm_relation_id": 62500
+  },
+  {
+    "id": "DE-16062",
+    "name": "Landkreis Nordhausen",
+    "country": "DE",
+    "region": "Thüringen",
+    "domain": "landkreis-nordhausen.de",
+    "osm_relation_id": 62621
+  },
+  {
+    "id": "DE-16063",
+    "name": "Wartburgkreis",
+    "country": "DE",
+    "region": "Thüringen",
+    "domain": "wartburgkreis.de",
+    "osm_relation_id": 62616
+  },
+  {
+    "id": "DE-16064",
+    "name": "Unstrut-Hainich-Kreis",
+    "country": "DE",
+    "region": "Thüringen",
+    "domain": "unstrut-hainich-kreis.de",
+    "osm_relation_id": 62424
+  },
+  {
+    "id": "DE-16065",
+    "name": "Kyffhäuserkreis",
+    "country": "DE",
+    "region": "Thüringen",
+    "domain": "kyffhaeuser.de",
+    "osm_relation_id": 62604
+  },
+  {
+    "id": "DE-16066",
+    "name": "Landkreis Schmalkalden-Meiningen",
+    "country": "DE",
+    "region": "Thüringen",
+    "domain": "lra-sm.de",
+    "osm_relation_id": 62618
+  },
+  {
+    "id": "DE-16067",
+    "name": "Landkreis Gotha",
+    "country": "DE",
+    "region": "Thüringen",
+    "domain": "landkreis-gotha.de",
+    "osm_relation_id": 62468
+  },
+  {
+    "id": "DE-16068",
+    "name": "Landkreis Sömmerda",
+    "country": "DE",
+    "region": "Thüringen",
+    "domain": "lra-soemmerda.de",
+    "osm_relation_id": 62588
+  },
+  {
+    "id": "DE-16069",
+    "name": "Landkreis Hildburghausen",
+    "country": "DE",
+    "region": "Thüringen",
+    "domain": "landkreis-hildburghausen.de",
+    "osm_relation_id": 62365
+  },
+  {
+    "id": "DE-16070",
+    "name": "Ilm-Kreis",
+    "country": "DE",
+    "region": "Thüringen",
+    "domain": "ilm-kreis.de",
+    "osm_relation_id": 62419
+  },
+  {
+    "id": "DE-16071",
+    "name": "Landkreis Weimarer Land",
+    "country": "DE",
+    "region": "Thüringen",
+    "domain": "weimarerland.de",
+    "osm_relation_id": 62462
+  },
+  {
+    "id": "DE-16072",
+    "name": "Landkreis Sonneberg",
+    "country": "DE",
+    "region": "Thüringen",
+    "domain": "kreis-sonneberg.de",
+    "osm_relation_id": 62552
+  },
+  {
+    "id": "DE-16073",
+    "name": "Landkreis Saalfeld-Rudolstadt",
+    "country": "DE",
+    "region": "Thüringen",
+    "domain": "kreis-slf.de",
+    "osm_relation_id": 62447
+  },
+  {
+    "id": "DE-16074",
+    "name": "Saale-Holzland-Kreis",
+    "country": "DE",
+    "region": "Thüringen",
+    "domain": "saaleholzlandkreis.de",
+    "osm_relation_id": 62432
+  },
+  {
+    "id": "DE-16075",
+    "name": "Saale-Orla-Kreis",
+    "country": "DE",
+    "region": "Thüringen",
+    "domain": "saale-orla-kreis.de",
+    "osm_relation_id": 62339
+  },
+  {
+    "id": "DE-16076",
+    "name": "Landkreis Greiz",
+    "country": "DE",
+    "region": "Thüringen",
+    "domain": "landkreis-greiz.de",
+    "osm_relation_id": 62445
+  },
+  {
+    "id": "DE-16077",
+    "name": "Landkreis Altenburger Land",
+    "country": "DE",
+    "region": "Thüringen",
+    "domain": "altenburgerland.de",
+    "osm_relation_id": 62492
+  }
+]

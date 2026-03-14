@@ -1,9 +1,4604 @@
 {
-  "total": 1137,
-  "average_score": 90.3,
-  "high_confidence_pct": 91.6,
+  "total": 1537,
+  "average_score": 89.5,
+  "high_confidence_pct": 91.2,
   "quality_passed": true,
   "entries": {
+    "DE-01001": {
+      "name": "Flensburg",
+      "provider": "independent",
+      "domain": "flensburg.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-01002": {
+      "name": "Kiel",
+      "provider": "independent",
+      "domain": "kiel.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-01003": {
+      "name": "Lübeck",
+      "provider": "local-isp",
+      "domain": "luebeck.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-01004": {
+      "name": "Neumünster",
+      "provider": "local-isp",
+      "domain": "neumuenster.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-01051": {
+      "name": "Kreis Dithmarschen",
+      "provider": "local-isp",
+      "domain": "dithmarschen.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-01053": {
+      "name": "Kreis Herzogtum Lauenburg",
+      "provider": "local-isp",
+      "domain": "kreis-rz.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-01054": {
+      "name": "Kreis Nordfriesland",
+      "provider": "local-isp",
+      "domain": "nordfriesland.de",
+      "confidence": 83,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-01055": {
+      "name": "Kreis Ostholstein",
+      "provider": "local-isp",
+      "domain": "kreis-oh.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-01056": {
+      "name": "Kreis Pinneberg",
+      "provider": "local-isp",
+      "domain": "kreis-pinneberg.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-01057": {
+      "name": "Kreis Plön",
+      "provider": "local-isp",
+      "domain": "kreis-ploen.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-01058": {
+      "name": "Kreis Rendsburg-Eckernförde",
+      "provider": "local-isp",
+      "domain": "kreis-rendsburg-eckernfoerde.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-01059": {
+      "name": "Kreis Schleswig-Flensburg",
+      "provider": "local-isp",
+      "domain": "schleswig-flensburg.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-01060": {
+      "name": "Kreis Segeberg",
+      "provider": "local-isp",
+      "domain": "segeberg.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-01061": {
+      "name": "Kreis Steinburg",
+      "provider": "local-isp",
+      "domain": "steinburg.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-01062": {
+      "name": "Kreis Stormarn",
+      "provider": "local-isp",
+      "domain": "kreis-stormarn.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-02000": {
+      "name": "Hamburg",
+      "provider": "independent",
+      "domain": "hamburg.com",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
+      ]
+    },
+    "DE-03101": {
+      "name": "Braunschweig",
+      "provider": "local-isp",
+      "domain": "braunschweig.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03102": {
+      "name": "Salzgitter",
+      "provider": "independent",
+      "domain": "salzgitter.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03103": {
+      "name": "Wolfsburg",
+      "provider": "independent",
+      "domain": "wolfsburg.de",
+      "confidence": 85,
+      "flags": [
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03151": {
+      "name": "Landkreis Gifhorn",
+      "provider": "independent",
+      "domain": "landkreis-gifhorn.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03153": {
+      "name": "Landkreis Goslar",
+      "provider": "independent",
+      "domain": "landkreis-goslar.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03154": {
+      "name": "Landkreis Helmstedt",
+      "provider": "local-isp",
+      "domain": "landkreis-helmstedt.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03155": {
+      "name": "Landkreis Northeim",
+      "provider": "local-isp",
+      "domain": "landkreis-northeim.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03157": {
+      "name": "Landkreis Peine",
+      "provider": "local-isp",
+      "domain": "landkreis-peine.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03158": {
+      "name": "Landkreis Wolfenbüttel",
+      "provider": "local-isp",
+      "domain": "lkwf.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03159": {
+      "name": "Landkreis Göttingen",
+      "provider": "local-isp",
+      "domain": "landkreisgoettingen.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03241": {
+      "name": "Region Hannover",
+      "provider": "microsoft",
+      "domain": "hannover.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
+      ]
+    },
+    "DE-03251": {
+      "name": "Landkreis Diepholz",
+      "provider": "local-isp",
+      "domain": "diepholz.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03252": {
+      "name": "Landkreis Hameln-Pyrmont",
+      "provider": "local-isp",
+      "domain": "hameln-pyrmont.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03254": {
+      "name": "Landkreis Hildesheim",
+      "provider": "local-isp",
+      "domain": "landkreishildesheim.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03255": {
+      "name": "Landkreis Holzminden",
+      "provider": "local-isp",
+      "domain": "landkreis-holzminden.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03256": {
+      "name": "Landkreis Nienburg/Weser",
+      "provider": "local-isp",
+      "domain": "lk-nienburg.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03257": {
+      "name": "Landkreis Schaumburg",
+      "provider": "local-isp",
+      "domain": "schaumburg.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03351": {
+      "name": "Landkreis Celle",
+      "provider": "local-isp",
+      "domain": "landkreis-celle.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03352": {
+      "name": "Landkreis Cuxhaven",
+      "provider": "local-isp",
+      "domain": "landkreis-cuxhaven.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03353": {
+      "name": "Landkreis Harburg",
+      "provider": "local-isp",
+      "domain": "landkreis-harburg.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03354": {
+      "name": "Landkreis Lüchow-Dannenberg",
+      "provider": "independent",
+      "domain": "luechow-dannenberg.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03355": {
+      "name": "Landkreis Lüneburg",
+      "provider": "independent",
+      "domain": "landkreis-lueneburg.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03356": {
+      "name": "Landkreis Osterholz",
+      "provider": "independent",
+      "domain": "landkreis-osterholz.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03357": {
+      "name": "Landkreis Rotenburg (Wümme)",
+      "provider": "local-isp",
+      "domain": "lk-row.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03358": {
+      "name": "Heidekreis",
+      "provider": "local-isp",
+      "domain": "heidekreis.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03359": {
+      "name": "Landkreis Stade",
+      "provider": "independent",
+      "domain": "landkreis-stade.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03360": {
+      "name": "Landkreis Uelzen",
+      "provider": "local-isp",
+      "domain": "landkreis-uelzen.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03361": {
+      "name": "Landkreis Verden",
+      "provider": "local-isp",
+      "domain": "landkreis-verden.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03401": {
+      "name": "Delmenhorst",
+      "provider": "local-isp",
+      "domain": "delmenhorst.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03402": {
+      "name": "Emden",
+      "provider": "microsoft",
+      "domain": "emden.de",
+      "confidence": 80,
+      "flags": [
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-03403": {
+      "name": "Oldenburg",
+      "provider": "local-isp",
+      "domain": "oldenburg.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03404": {
+      "name": "Osnabrück",
+      "provider": "local-isp",
+      "domain": "osnabrueck.de",
+      "confidence": 85,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-03405": {
+      "name": "Wilhelmshaven",
+      "provider": "local-isp",
+      "domain": "wilhelmshaven.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03451": {
+      "name": "Landkreis Ammerland",
+      "provider": "local-isp",
+      "domain": "ammerland.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03452": {
+      "name": "Landkreis Aurich",
+      "provider": "independent",
+      "domain": "landkreis-aurich.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03453": {
+      "name": "Landkreis Cloppenburg",
+      "provider": "local-isp",
+      "domain": "lkclp.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03454": {
+      "name": "Landkreis Emsland",
+      "provider": "local-isp",
+      "domain": "emsland.de",
+      "confidence": 83,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-03455": {
+      "name": "Landkreis Friesland",
+      "provider": "local-isp",
+      "domain": "friesland.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03456": {
+      "name": "Landkreis Grafschaft Bentheim",
+      "provider": "independent",
+      "domain": "grafschaft-bentheim.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03457": {
+      "name": "Landkreis Leer",
+      "provider": "local-isp",
+      "domain": "landkreis-leer.de",
+      "confidence": 83,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-03458": {
+      "name": "Landkreis Oldenburg",
+      "provider": "local-isp",
+      "domain": "oldenburg-kreis.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03459": {
+      "name": "Landkreis Osnabrück",
+      "provider": "local-isp",
+      "domain": "landkreis-osnabrueck.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03460": {
+      "name": "Landkreis Vechta",
+      "provider": "local-isp",
+      "domain": "landkreis-vechta.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-03461": {
+      "name": "Landkreis Wesermarsch",
+      "provider": "local-isp",
+      "domain": "wesermarsch.de",
+      "confidence": 85,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-03462": {
+      "name": "Landkreis Wittmund",
+      "provider": "local-isp",
+      "domain": "landkreis-wittmund.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-04011": {
+      "name": "Bremen",
+      "provider": "independent",
+      "domain": "bremen.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-04012": {
+      "name": "Bremerhaven",
+      "provider": "independent",
+      "domain": "bremerhaven.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05111": {
+      "name": "Düsseldorf",
+      "provider": "local-isp",
+      "domain": "duesseldorf.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05112": {
+      "name": "Duisburg",
+      "provider": "independent",
+      "domain": "duisburg.de",
+      "confidence": 50,
+      "flags": [
+        "no_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-05113": {
+      "name": "Essen",
+      "provider": "independent",
+      "domain": "essen.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05114": {
+      "name": "Krefeld",
+      "provider": "independent",
+      "domain": "krefeld.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
+      ]
+    },
+    "DE-05116": {
+      "name": "Mönchengladbach",
+      "provider": "local-isp",
+      "domain": "moenchengladbach.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05117": {
+      "name": "Mülheim an der Ruhr",
+      "provider": "local-isp",
+      "domain": "muelheim-ruhr.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05119": {
+      "name": "Oberhausen",
+      "provider": "local-isp",
+      "domain": "oberhausen.de",
+      "confidence": 90,
+      "flags": [
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05120": {
+      "name": "Remscheid",
+      "provider": "local-isp",
+      "domain": "remscheid.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05122": {
+      "name": "Solingen",
+      "provider": "local-isp",
+      "domain": "solingen.de",
+      "confidence": 90,
+      "flags": [
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05124": {
+      "name": "Wuppertal",
+      "provider": "local-isp",
+      "domain": "wuppertal.de",
+      "confidence": 90,
+      "flags": [
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05154": {
+      "name": "Kreis Kleve",
+      "provider": "independent",
+      "domain": "kreis-kleve.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
+      ]
+    },
+    "DE-05158": {
+      "name": "Kreis Mettmann",
+      "provider": "google",
+      "domain": "kreis-mettmann.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
+      ]
+    },
+    "DE-05162": {
+      "name": "Rhein-Kreis Neuss",
+      "provider": "local-isp",
+      "domain": "rhein-kreis-neuss.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05166": {
+      "name": "Kreis Viersen",
+      "provider": "independent",
+      "domain": "kreis-viersen.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
+      ]
+    },
+    "DE-05170": {
+      "name": "Kreis Wesel",
+      "provider": "independent",
+      "domain": "kreis-wesel.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
+      ]
+    },
+    "DE-05314": {
+      "name": "Bonn",
+      "provider": "microsoft",
+      "domain": "bonn.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05315": {
+      "name": "Köln",
+      "provider": "local-isp",
+      "domain": "stadt-koeln.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05316": {
+      "name": "Leverkusen",
+      "provider": "independent",
+      "domain": "leverkusen.de",
+      "confidence": 50,
+      "flags": [
+        "no_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-05334": {
+      "name": "Städteregion Aachen",
+      "provider": "local-isp",
+      "domain": "staedteregion-aachen.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05358": {
+      "name": "Kreis Düren",
+      "provider": "local-isp",
+      "domain": "kreis-dueren.de",
+      "confidence": 85,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-05362": {
+      "name": "Rhein-Erft-Kreis",
+      "provider": "local-isp",
+      "domain": "rhein-erft-kreis.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05366": {
+      "name": "Kreis Euskirchen",
+      "provider": "local-isp",
+      "domain": "kreis-euskirchen.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05370": {
+      "name": "Kreis Heinsberg",
+      "provider": "microsoft",
+      "domain": "kreis-heinsberg.de",
+      "confidence": 90,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DE-05374": {
+      "name": "Oberbergischer Kreis",
+      "provider": "local-isp",
+      "domain": "obk.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05378": {
+      "name": "Rheinisch-Bergischer Kreis",
+      "provider": "local-isp",
+      "domain": "rbk-direkt.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05382": {
+      "name": "Rhein-Sieg-Kreis",
+      "provider": "local-isp",
+      "domain": "rhein-sieg-kreis.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05512": {
+      "name": "Bottrop",
+      "provider": "independent",
+      "domain": "bottrop.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
+      ]
+    },
+    "DE-05513": {
+      "name": "Gelsenkirchen",
+      "provider": "local-isp",
+      "domain": "gelsenkirchen.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05515": {
+      "name": "Münster",
+      "provider": "local-isp",
+      "domain": "stadt-muenster.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05554": {
+      "name": "Kreis Borken",
+      "provider": "microsoft",
+      "domain": "kreis-borken.de",
+      "confidence": 85,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-05558": {
+      "name": "Kreis Coesfeld",
+      "provider": "local-isp",
+      "domain": "kreis-coesfeld.de",
+      "confidence": 78,
+      "flags": [
+        "spf_softfail",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-05562": {
+      "name": "Kreis Recklinghausen",
+      "provider": "independent",
+      "domain": "kreis-re.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05566": {
+      "name": "Kreis Steinfurt",
+      "provider": "local-isp",
+      "domain": "kreis-steinfurt.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05570": {
+      "name": "Kreis Warendorf",
+      "provider": "local-isp",
+      "domain": "kreis-warendorf.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05711": {
+      "name": "Bielefeld",
+      "provider": "independent",
+      "domain": "bielefeld.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05754": {
+      "name": "Kreis Gütersloh",
+      "provider": "local-isp",
+      "domain": "kreis-guetersloh.de",
+      "confidence": 90,
+      "flags": [
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05758": {
+      "name": "Kreis Herford",
+      "provider": "local-isp",
+      "domain": "kreis-herford.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05762": {
+      "name": "Kreis Höxter",
+      "provider": "independent",
+      "domain": "kreis-hoexter.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05766": {
+      "name": "Kreis Lippe",
+      "provider": "local-isp",
+      "domain": "kreis-lippe.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05770": {
+      "name": "Kreis Minden-Lübbecke",
+      "provider": "local-isp",
+      "domain": "minden-luebbecke.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05774": {
+      "name": "Kreis Paderborn",
+      "provider": "local-isp",
+      "domain": "kreis-paderborn.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05911": {
+      "name": "Bochum",
+      "provider": "microsoft",
+      "domain": "bochum.de",
+      "confidence": 80,
+      "flags": [
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-05913": {
+      "name": "Dortmund",
+      "provider": "independent",
+      "domain": "dortmund.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05914": {
+      "name": "Hagen",
+      "provider": "local-isp",
+      "domain": "stadt-hagen.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05915": {
+      "name": "Hamm",
+      "provider": "local-isp",
+      "domain": "hamm.de",
+      "confidence": 50,
+      "flags": [
+        "no_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-05916": {
+      "name": "Herne",
+      "provider": "independent",
+      "domain": "herne.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05954": {
+      "name": "Ennepe-Ruhr-Kreis",
+      "provider": "local-isp",
+      "domain": "enkreis.de",
+      "confidence": 55,
+      "flags": [
+        "multiple_mx",
+        "no_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-05958": {
+      "name": "Hochsauerlandkreis",
+      "provider": "local-isp",
+      "domain": "hochsauerlandkreis.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05962": {
+      "name": "Märkischer Kreis",
+      "provider": "local-isp",
+      "domain": "maerkischer-kreis.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05966": {
+      "name": "Kreis Olpe",
+      "provider": "local-isp",
+      "domain": "kreis-olpe.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05970": {
+      "name": "Kreis Siegen-Wittgenstein",
+      "provider": "local-isp",
+      "domain": "siegen-wittgenstein.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05974": {
+      "name": "Kreis Soest",
+      "provider": "independent",
+      "domain": "kreis-soest.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-05978": {
+      "name": "Kreis Unna",
+      "provider": "independent",
+      "domain": "kreis-unna.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-06411": {
+      "name": "Darmstadt",
+      "provider": "independent",
+      "domain": "darmstadt.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-06412": {
+      "name": "Frankfurt am Main",
+      "provider": "independent",
+      "domain": "frankfurt.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-06413": {
+      "name": "Offenbach am Main",
+      "provider": "independent",
+      "domain": "offenbach.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-06414": {
+      "name": "Wiesbaden",
+      "provider": "independent",
+      "domain": "wiesbaden.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-06431": {
+      "name": "Landkreis Bergstraße",
+      "provider": "local-isp",
+      "domain": "kreis-bergstrasse.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-06432": {
+      "name": "Landkreis Darmstadt-Dieburg",
+      "provider": "independent",
+      "domain": "ladadi.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-06433": {
+      "name": "Landkreis Groß-Gerau",
+      "provider": "microsoft",
+      "domain": "kreisgg.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
+      ]
+    },
+    "DE-06434": {
+      "name": "Hochtaunuskreis",
+      "provider": "google",
+      "domain": "hochtaunuskreis.de",
+      "confidence": 68,
+      "flags": [
+        "spf_softfail",
+        "provider_classified"
+      ]
+    },
+    "DE-06435": {
+      "name": "Main-Kinzig-Kreis",
+      "provider": "local-isp",
+      "domain": "mkk.de",
+      "confidence": 85,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-06436": {
+      "name": "Main-Taunus-Kreis",
+      "provider": "local-isp",
+      "domain": "mtk.org",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-06437": {
+      "name": "Odenwaldkreis",
+      "provider": "local-isp",
+      "domain": "odenwaldkreis.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-06438": {
+      "name": "Landkreis Offenbach",
+      "provider": "microsoft",
+      "domain": "kreis-offenbach.de",
+      "confidence": 83,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "provider_via_gateway_spf"
+      ]
+    },
+    "DE-06439": {
+      "name": "Rheingau-Taunus-Kreis",
+      "provider": "local-isp",
+      "domain": "rheingau-taunus.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-06440": {
+      "name": "Wetteraukreis",
+      "provider": "local-isp",
+      "domain": "wetteraukreis.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-06531": {
+      "name": "Landkreis Gießen",
+      "provider": "local-isp",
+      "domain": "lkgi.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-06532": {
+      "name": "Lahn-Dill-Kreis",
+      "provider": "local-isp",
+      "domain": "lahn-dill-kreis.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-06533": {
+      "name": "Landkreis Limburg-Weilburg",
+      "provider": "local-isp",
+      "domain": "landkreis-limburg-weilburg.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-06534": {
+      "name": "Landkreis Marburg-Biedenkopf",
+      "provider": "local-isp",
+      "domain": "marburg-biedenkopf.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-06535": {
+      "name": "Vogelsbergkreis",
+      "provider": "local-isp",
+      "domain": "vogelsbergkreis.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-06611": {
+      "name": "Kassel",
+      "provider": "local-isp",
+      "domain": "kassel.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-06631": {
+      "name": "Landkreis Fulda",
+      "provider": "local-isp",
+      "domain": "landkreis-fulda.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-06632": {
+      "name": "Landkreis Hersfeld-Rotenburg",
+      "provider": "local-isp",
+      "domain": "hef-rof.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-06633": {
+      "name": "Landkreis Kassel",
+      "provider": "local-isp",
+      "domain": "landkreiskassel.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-06634": {
+      "name": "Schwalm-Eder-Kreis",
+      "provider": "local-isp",
+      "domain": "schwalm-eder-kreis.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-06635": {
+      "name": "Landkreis Waldeck-Frankenberg",
+      "provider": "local-isp",
+      "domain": "landkreis-waldeck-frankenberg.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-06636": {
+      "name": "Werra-Meißner-Kreis",
+      "provider": "local-isp",
+      "domain": "werra-meissner-kreis.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-07111": {
+      "name": "Koblenz",
+      "provider": "independent",
+      "domain": "koblenz.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-07131": {
+      "name": "Landkreis Ahrweiler",
+      "provider": "local-isp",
+      "domain": "kreis-ahrweiler.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-07132": {
+      "name": "Landkreis Altenkirchen",
+      "provider": "local-isp",
+      "domain": "kreis-altenkirchen.de",
+      "confidence": 50,
+      "flags": [
+        "no_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-07133": {
+      "name": "Landkreis Bad Kreuznach",
+      "provider": "local-isp",
+      "domain": "kreis-badkreuznach.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-07134": {
+      "name": "Landkreis Birkenfeld",
+      "provider": "local-isp",
+      "domain": "landkreis-birkenfeld.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-07135": {
+      "name": "Landkreis Cochem-Zell",
+      "provider": "local-isp",
+      "domain": "cochem-zell.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-07137": {
+      "name": "Landkreis Mayen-Koblenz",
+      "provider": "local-isp",
+      "domain": "mayen-koblenz.de",
+      "confidence": 55,
+      "flags": [
+        "multiple_mx",
+        "no_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-07138": {
+      "name": "Landkreis Neuwied",
+      "provider": "local-isp",
+      "domain": "kreis-neuwied.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-07140": {
+      "name": "Rhein-Hunsrück-Kreis",
+      "provider": "local-isp",
+      "domain": "kreis-sim.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-07141": {
+      "name": "Rhein-Lahn-Kreis",
+      "provider": "local-isp",
+      "domain": "rhein-lahn.rlp.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-07143": {
+      "name": "Westerwaldkreis",
+      "provider": "independent",
+      "domain": "westerwald-kreis.de",
+      "confidence": 85,
+      "flags": [
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-07211": {
+      "name": "Trier",
+      "provider": "local-isp",
+      "domain": "trier.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-07231": {
+      "name": "Landkreis Bernkastel-Wittlich",
+      "provider": "independent",
+      "domain": "bernkastel-wittlich.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
+      ]
+    },
+    "DE-07232": {
+      "name": "Eifelkreis Bitburg-Prüm",
+      "provider": "independent",
+      "domain": "bitburg-pruem.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
+      ]
+    },
+    "DE-07233": {
+      "name": "Landkreis Vulkaneifel",
+      "provider": "local-isp",
+      "domain": "vulkaneifel.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-07235": {
+      "name": "Landkreis Trier-Saarburg",
+      "provider": "local-isp",
+      "domain": "trier-saarburg.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-07311": {
+      "name": "Frankenthal",
+      "provider": "local-isp",
+      "domain": "frankenthal.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-07312": {
+      "name": "Kaiserslautern",
+      "provider": "local-isp",
+      "domain": "kaiserslautern.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-07313": {
+      "name": "Landau in der Pfalz",
+      "provider": "local-isp",
+      "domain": "landau.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-07314": {
+      "name": "Ludwigshafen am Rhein",
+      "provider": "independent",
+      "domain": "ludwigshafen.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-07315": {
+      "name": "Mainz",
+      "provider": "local-isp",
+      "domain": "mainz.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-07316": {
+      "name": "Neustadt an der Weinstraße",
+      "provider": "local-isp",
+      "domain": "neustadt.eu",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-07317": {
+      "name": "Pirmasens",
+      "provider": "local-isp",
+      "domain": "pirmasens.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-07318": {
+      "name": "Speyer",
+      "provider": "local-isp",
+      "domain": "speyer.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-07319": {
+      "name": "Worms",
+      "provider": "local-isp",
+      "domain": "worms.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-07320": {
+      "name": "Zweibrücken",
+      "provider": "local-isp",
+      "domain": "zweibruecken.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-07331": {
+      "name": "Landkreis Alzey-Worms",
+      "provider": "local-isp",
+      "domain": "kreis-alzey-worms.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-07332": {
+      "name": "Landkreis Bad Dürkheim",
+      "provider": "local-isp",
+      "domain": "kreis-bad-duerkheim.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-07333": {
+      "name": "Donnersbergkreis",
+      "provider": "local-isp",
+      "domain": "donnersberg.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-07334": {
+      "name": "Landkreis Germersheim",
+      "provider": "local-isp",
+      "domain": "kreis-germersheim.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-07335": {
+      "name": "Landkreis Kaiserslautern",
+      "provider": "local-isp",
+      "domain": "kaiserslautern-kreis.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-07336": {
+      "name": "Landkreis Kusel",
+      "provider": "independent",
+      "domain": "landkreis-kusel.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-07337": {
+      "name": "Landkreis Südliche Weinstraße",
+      "provider": "local-isp",
+      "domain": "suedliche-weinstrasse.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-07338": {
+      "name": "Rhein-Pfalz-Kreis",
+      "provider": "unknown",
+      "domain": "rhein-pfalz-kreis.de",
+      "confidence": 15,
+      "flags": [
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
+      ]
+    },
+    "DE-07339": {
+      "name": "Landkreis Mainz-Bingen",
+      "provider": "local-isp",
+      "domain": "mainz-bingen.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-07340": {
+      "name": "Landkreis Südwestpfalz",
+      "provider": "local-isp",
+      "domain": "lksuedwestpfalz.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-08111": {
+      "name": "Stuttgart",
+      "provider": "local-isp",
+      "domain": "stuttgart.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-08115": {
+      "name": "Landkreis Böblingen",
+      "provider": "local-isp",
+      "domain": "lrabb.de",
+      "confidence": 83,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-08116": {
+      "name": "Landkreis Esslingen",
+      "provider": "local-isp",
+      "domain": "landkreis-esslingen.de",
+      "confidence": 83,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-08117": {
+      "name": "Landkreis Göppingen",
+      "provider": "local-isp",
+      "domain": "landkreis-goeppingen.de",
+      "confidence": 90,
+      "flags": [
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-08118": {
+      "name": "Landkreis Ludwigsburg",
+      "provider": "local-isp",
+      "domain": "landkreis-ludwigsburg.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-08119": {
+      "name": "Rems-Murr-Kreis",
+      "provider": "local-isp",
+      "domain": "rems-murr-kreis.de",
+      "confidence": 83,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-08121": {
+      "name": "Heilbronn",
+      "provider": "local-isp",
+      "domain": "heilbronn.de",
+      "confidence": 85,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-08125": {
+      "name": "Landkreis Heilbronn",
+      "provider": "independent",
+      "domain": "landkreis-heilbronn.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-08126": {
+      "name": "Hohenlohekreis",
+      "provider": "local-isp",
+      "domain": "hohenlohekreis.de",
+      "confidence": 83,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-08127": {
+      "name": "Landkreis Schwäbisch Hall",
+      "provider": "independent",
+      "domain": "lrasha.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-08128": {
+      "name": "Main-Tauber-Kreis",
+      "provider": "independent",
+      "domain": "main-tauber-kreis.de",
+      "confidence": 85,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-08135": {
+      "name": "Landkreis Heidenheim",
+      "provider": "local-isp",
+      "domain": "landkreis-heidenheim.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-08136": {
+      "name": "Ostalbkreis",
+      "provider": "local-isp",
+      "domain": "ostalbkreis.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-08211": {
+      "name": "Baden-Baden",
+      "provider": "local-isp",
+      "domain": "baden-baden.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-08212": {
+      "name": "Karlsruhe",
+      "provider": "local-isp",
+      "domain": "karlsruhe.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-08215": {
+      "name": "Landkreis Karlsruhe",
+      "provider": "local-isp",
+      "domain": "landkreis-karlsruhe.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-08216": {
+      "name": "Landkreis Rastatt",
+      "provider": "independent",
+      "domain": "landkreis-rastatt.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
+      ]
+    },
+    "DE-08221": {
+      "name": "Heidelberg",
+      "provider": "microsoft",
+      "domain": "heidelberg.de",
+      "confidence": 85,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-08222": {
+      "name": "Mannheim",
+      "provider": "local-isp",
+      "domain": "mannheim.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-08225": {
+      "name": "Neckar-Odenwald-Kreis",
+      "provider": "local-isp",
+      "domain": "neckar-odenwald-kreis.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-08226": {
+      "name": "Rhein-Neckar-Kreis",
+      "provider": "local-isp",
+      "domain": "rhein-neckar-kreis.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-08231": {
+      "name": "Pforzheim",
+      "provider": "independent",
+      "domain": "pforzheim.de",
+      "confidence": 85,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-08235": {
+      "name": "Landkreis Calw",
+      "provider": "local-isp",
+      "domain": "kreis-calw.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-08236": {
+      "name": "Enzkreis",
+      "provider": "local-isp",
+      "domain": "enzkreis.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-08237": {
+      "name": "Landkreis Freudenstadt",
+      "provider": "local-isp",
+      "domain": "landkreis-freudenstadt.de",
+      "confidence": 55,
+      "flags": [
+        "multiple_mx",
+        "no_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-08311": {
+      "name": "Freiburg im Breisgau",
+      "provider": "local-isp",
+      "domain": "freiburg.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-08315": {
+      "name": "Landkreis Breisgau-Hochschwarzwald",
+      "provider": "local-isp",
+      "domain": "breisgau-hochschwarzwald.de",
+      "confidence": 55,
+      "flags": [
+        "multiple_mx",
+        "no_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-08316": {
+      "name": "Landkreis Emmendingen",
+      "provider": "local-isp",
+      "domain": "landkreis-emmendingen.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-08317": {
+      "name": "Ortenaukreis",
+      "provider": "local-isp",
+      "domain": "ortenaukreis.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-08325": {
+      "name": "Landkreis Rottweil",
+      "provider": "local-isp",
+      "domain": "landkreis-rottweil.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-08326": {
+      "name": "Schwarzwald-Baar-Kreis",
+      "provider": "local-isp",
+      "domain": "lrasbk.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-08327": {
+      "name": "Landkreis Tuttlingen",
+      "provider": "local-isp",
+      "domain": "landkreis-tuttlingen.de",
+      "confidence": 85,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-08335": {
+      "name": "Landkreis Konstanz",
+      "provider": "local-isp",
+      "domain": "landkreis-konstanz.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-08336": {
+      "name": "Landkreis Lörrach",
+      "provider": "local-isp",
+      "domain": "loerrach-landkreis.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-08337": {
+      "name": "Landkreis Waldshut",
+      "provider": "local-isp",
+      "domain": "landkreis-waldshut.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-08415": {
+      "name": "Landkreis Reutlingen",
+      "provider": "local-isp",
+      "domain": "kreis-reutlingen.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-08416": {
+      "name": "Landkreis Tübingen",
+      "provider": "local-isp",
+      "domain": "kreis-tuebingen.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-08417": {
+      "name": "Zollernalbkreis",
+      "provider": "local-isp",
+      "domain": "zollernalbkreis.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-08421": {
+      "name": "Ulm",
+      "provider": "local-isp",
+      "domain": "ulm.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-08425": {
+      "name": "Alb-Donau-Kreis",
+      "provider": "local-isp",
+      "domain": "alb-donau-kreis.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-08426": {
+      "name": "Landkreis Biberach",
+      "provider": "local-isp",
+      "domain": "biberach.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-08435": {
+      "name": "Bodenseekreis",
+      "provider": "local-isp",
+      "domain": "bodenseekreis.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-08436": {
+      "name": "Landkreis Ravensburg",
+      "provider": "local-isp",
+      "domain": "rv.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-08437": {
+      "name": "Landkreis Sigmaringen",
+      "provider": "independent",
+      "domain": "sigmaringen.de",
+      "confidence": 80,
+      "flags": [
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-09161": {
+      "name": "Ingolstadt",
+      "provider": "local-isp",
+      "domain": "ingolstadt.de",
+      "confidence": 80,
+      "flags": [
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-09162": {
+      "name": "München",
+      "provider": "independent",
+      "domain": "muenchen.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09163": {
+      "name": "Rosenheim",
+      "provider": "microsoft",
+      "domain": "rosenheim.de",
+      "confidence": 90,
+      "flags": [
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
+      ]
+    },
+    "DE-09171": {
+      "name": "Landkreis Altötting",
+      "provider": "local-isp",
+      "domain": "lra-aoe.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09172": {
+      "name": "Landkreis Berchtesgadener Land",
+      "provider": "local-isp",
+      "domain": "lra-bgl.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09173": {
+      "name": "Landkreis Bad Tölz-Wolfratshausen",
+      "provider": "local-isp",
+      "domain": "lra-toelz.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09174": {
+      "name": "Landkreis Dachau",
+      "provider": "independent",
+      "domain": "landkreis-dachau.de",
+      "confidence": 85,
+      "flags": [
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09175": {
+      "name": "Landkreis Ebersberg",
+      "provider": "local-isp",
+      "domain": "lra-ebe.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09176": {
+      "name": "Landkreis Eichstätt",
+      "provider": "local-isp",
+      "domain": "eichstaett.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09177": {
+      "name": "Landkreis Erding",
+      "provider": "local-isp",
+      "domain": "erding.de",
+      "confidence": 78,
+      "flags": [
+        "spf_softfail",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-09178": {
+      "name": "Landkreis Freising",
+      "provider": "local-isp",
+      "domain": "landkreis-freising.de",
+      "confidence": 50,
+      "flags": [
+        "no_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-09179": {
+      "name": "Landkreis Fürstenfeldbruck",
+      "provider": "local-isp",
+      "domain": "lra-ffb.de",
+      "confidence": 50,
+      "flags": [
+        "no_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-09180": {
+      "name": "Landkreis Garmisch-Partenkirchen",
+      "provider": "local-isp",
+      "domain": "landkreis-garmisch-partenkirchen.de",
+      "confidence": 55,
+      "flags": [
+        "multiple_mx",
+        "no_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-09181": {
+      "name": "Landkreis Landsberg am Lech",
+      "provider": "local-isp",
+      "domain": "lra-landsberg.de",
+      "confidence": 50,
+      "flags": [
+        "no_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-09182": {
+      "name": "Landkreis Miesbach",
+      "provider": "local-isp",
+      "domain": "landkreis-miesbach.de",
+      "confidence": 80,
+      "flags": [
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-09183": {
+      "name": "Landkreis Mühldorf am Inn",
+      "provider": "local-isp",
+      "domain": "lra-mue.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09184": {
+      "name": "Landkreis München",
+      "provider": "independent",
+      "domain": "landkreis-muenchen.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09185": {
+      "name": "Landkreis Neuburg-Schrobenhausen",
+      "provider": "local-isp",
+      "domain": "neuburg-schrobenhausen.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09186": {
+      "name": "Landkreis Pfaffenhofen an der Ilm",
+      "provider": "local-isp",
+      "domain": "landratsamt-paf.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09187": {
+      "name": "Landkreis Rosenheim",
+      "provider": "local-isp",
+      "domain": "landkreis-rosenheim.de",
+      "confidence": 50,
+      "flags": [
+        "no_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-09188": {
+      "name": "Landkreis Starnberg",
+      "provider": "local-isp",
+      "domain": "landkreis-starnberg.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09189": {
+      "name": "Landkreis Traunstein",
+      "provider": "local-isp",
+      "domain": "traunstein.com",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09190": {
+      "name": "Landkreis Weilheim-Schongau",
+      "provider": "local-isp",
+      "domain": "weilheim-schongau.de",
+      "confidence": 50,
+      "flags": [
+        "no_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-09261": {
+      "name": "Landshut",
+      "provider": "local-isp",
+      "domain": "landshut.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09262": {
+      "name": "Passau",
+      "provider": "independent",
+      "domain": "passau.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09263": {
+      "name": "Straubing",
+      "provider": "local-isp",
+      "domain": "straubing.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09271": {
+      "name": "Landkreis Deggendorf",
+      "provider": "local-isp",
+      "domain": "landkreis-deggendorf.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09272": {
+      "name": "Landkreis Freyung-Grafenau",
+      "provider": "local-isp",
+      "domain": "freyung-grafenau.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09273": {
+      "name": "Landkreis Kelheim",
+      "provider": "local-isp",
+      "domain": "landkreis-kelheim.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09274": {
+      "name": "Landkreis Landshut",
+      "provider": "local-isp",
+      "domain": "landkreis-landshut.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09275": {
+      "name": "Landkreis Passau",
+      "provider": "local-isp",
+      "domain": "landkreis-passau.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09276": {
+      "name": "Landkreis Regen",
+      "provider": "local-isp",
+      "domain": "landkreis-regen.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09277": {
+      "name": "Landkreis Rottal-Inn",
+      "provider": "local-isp",
+      "domain": "rottal-inn.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09278": {
+      "name": "Landkreis Straubing-Bogen",
+      "provider": "local-isp",
+      "domain": "straubing-bogen.de",
+      "confidence": 50,
+      "flags": [
+        "no_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-09279": {
+      "name": "Landkreis Dingolfing-Landau",
+      "provider": "local-isp",
+      "domain": "landkreis-dingolfing-landau.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09361": {
+      "name": "Amberg",
+      "provider": "microsoft",
+      "domain": "amberg.de",
+      "confidence": 85,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "provider_via_gateway_spf"
+      ]
+    },
+    "DE-09362": {
+      "name": "Regensburg",
+      "provider": "independent",
+      "domain": "regensburg.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09363": {
+      "name": "Weiden in der Oberpfalz",
+      "provider": "local-isp",
+      "domain": "weiden.de",
+      "confidence": 85,
+      "flags": [
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09371": {
+      "name": "Landkreis Amberg-Sulzbach",
+      "provider": "local-isp",
+      "domain": "kreis-as.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09372": {
+      "name": "Landkreis Cham",
+      "provider": "local-isp",
+      "domain": "landkreis-cham.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09373": {
+      "name": "Landkreis Neumarkt in der Oberpfalz",
+      "provider": "local-isp",
+      "domain": "landkreis-neumarkt.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09374": {
+      "name": "Landkreis Neustadt an der Waldnaab",
+      "provider": "local-isp",
+      "domain": "neustadt.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09375": {
+      "name": "Landkreis Regensburg",
+      "provider": "independent",
+      "domain": "landkreis-regensburg.de",
+      "confidence": 80,
+      "flags": [
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-09376": {
+      "name": "Landkreis Schwandorf",
+      "provider": "local-isp",
+      "domain": "landkreis-schwandorf.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09377": {
+      "name": "Landkreis Tirschenreuth",
+      "provider": "local-isp",
+      "domain": "kreis-tir.de",
+      "confidence": 55,
+      "flags": [
+        "multiple_mx",
+        "no_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-09461": {
+      "name": "Bamberg",
+      "provider": "local-isp",
+      "domain": "stadt.bamberg.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09462": {
+      "name": "Bayreuth",
+      "provider": "independent",
+      "domain": "bayreuth.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09463": {
+      "name": "Coburg",
+      "provider": "local-isp",
+      "domain": "coburg.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09464": {
+      "name": "Hof",
+      "provider": "local-isp",
+      "domain": "hof.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09471": {
+      "name": "Landkreis Bamberg",
+      "provider": "local-isp",
+      "domain": "bamberg.de",
+      "confidence": 50,
+      "flags": [
+        "no_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-09472": {
+      "name": "Landkreis Bayreuth",
+      "provider": "local-isp",
+      "domain": "landkreis-bayreuth.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09473": {
+      "name": "Landkreis Coburg",
+      "provider": "local-isp",
+      "domain": "landkreis-coburg.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09474": {
+      "name": "Landkreis Forchheim",
+      "provider": "independent",
+      "domain": "forchheim.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
+      ]
+    },
+    "DE-09475": {
+      "name": "Landkreis Hof",
+      "provider": "local-isp",
+      "domain": "landkreis-hof.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09476": {
+      "name": "Landkreis Kronach",
+      "provider": "local-isp",
+      "domain": "landkreis-kronach.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09477": {
+      "name": "Landkreis Kulmbach",
+      "provider": "microsoft",
+      "domain": "landkreis-kulmbach.de",
+      "confidence": 85,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "provider_via_gateway_spf"
+      ]
+    },
+    "DE-09478": {
+      "name": "Landkreis Lichtenfels",
+      "provider": "local-isp",
+      "domain": "landkreis-lichtenfels.de",
+      "confidence": 80,
+      "flags": [
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-09479": {
+      "name": "Landkreis Wunsiedel i. Fichtelgebirge",
+      "provider": "local-isp",
+      "domain": "landkreis-wunsiedel.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09561": {
+      "name": "Ansbach",
+      "provider": "local-isp",
+      "domain": "ansbach.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09562": {
+      "name": "Erlangen",
+      "provider": "microsoft",
+      "domain": "erlangen.de",
+      "confidence": 95,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DE-09563": {
+      "name": "Fürth",
+      "provider": "microsoft",
+      "domain": "fuerth.de",
+      "confidence": 95,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DE-09564": {
+      "name": "Nürnberg",
+      "provider": "independent",
+      "domain": "nuernberg.de",
+      "confidence": 85,
+      "flags": [
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09565": {
+      "name": "Schwabach",
+      "provider": "microsoft",
+      "domain": "schwabach.de",
+      "confidence": 95,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DE-09571": {
+      "name": "Landkreis Ansbach",
+      "provider": "local-isp",
+      "domain": "landkreis-ansbach.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09572": {
+      "name": "Landkreis Erlangen-Höchstadt",
+      "provider": "independent",
+      "domain": "erlangen-hoechstadt.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
+      ]
+    },
+    "DE-09573": {
+      "name": "Landkreis Fürth",
+      "provider": "local-isp",
+      "domain": "landkreis-fuerth.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09574": {
+      "name": "Landkreis Nürnberger Land",
+      "provider": "local-isp",
+      "domain": "nuernberger-land.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09575": {
+      "name": "Landkreis Neustadt an der Aisch-Bad Windsheim",
+      "provider": "local-isp",
+      "domain": "kreis-nea.de",
+      "confidence": 85,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-09576": {
+      "name": "Landkreis Roth",
+      "provider": "local-isp",
+      "domain": "landratsamt-roth.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09577": {
+      "name": "Landkreis Weißenburg-Gunzenhausen",
+      "provider": "local-isp",
+      "domain": "landkreis-wug.de",
+      "confidence": 80,
+      "flags": [
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-09661": {
+      "name": "Aschaffenburg",
+      "provider": "local-isp",
+      "domain": "aschaffenburg.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09662": {
+      "name": "Schweinfurt",
+      "provider": "local-isp",
+      "domain": "schweinfurt.de",
+      "confidence": 78,
+      "flags": [
+        "spf_softfail",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-09663": {
+      "name": "Würzburg",
+      "provider": "independent",
+      "domain": "wuerzburg.de",
+      "confidence": 68,
+      "flags": [
+        "spf_softfail",
+        "independent_mx_with_cloud_spf",
+        "multi_provider_spf:aws+google+mailjet",
+        "provider_classified"
+      ]
+    },
+    "DE-09671": {
+      "name": "Landkreis Aschaffenburg",
+      "provider": "local-isp",
+      "domain": "landkreis-aschaffenburg.de",
+      "confidence": 85,
+      "flags": [
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09672": {
+      "name": "Landkreis Bad Kissingen",
+      "provider": "local-isp",
+      "domain": "landkreis-badkissingen.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09673": {
+      "name": "Landkreis Rhön-Grabfeld",
+      "provider": "local-isp",
+      "domain": "rhoen-grabfeld.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09674": {
+      "name": "Landkreis Haßberge",
+      "provider": "independent",
+      "domain": "hassberge.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09675": {
+      "name": "Landkreis Kitzingen",
+      "provider": "local-isp",
+      "domain": "landkreis-kitzingen.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09676": {
+      "name": "Landkreis Miltenberg",
+      "provider": "local-isp",
+      "domain": "landkreis-miltenberg.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09677": {
+      "name": "Landkreis Main-Spessart",
+      "provider": "local-isp",
+      "domain": "main-spessart.de",
+      "confidence": 50,
+      "flags": [
+        "no_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-09678": {
+      "name": "Landkreis Schweinfurt",
+      "provider": "local-isp",
+      "domain": "landkreis-schweinfurt.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09679": {
+      "name": "Landkreis Würzburg",
+      "provider": "local-isp",
+      "domain": "landkreis-wuerzburg.de",
+      "confidence": 85,
+      "flags": [
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09761": {
+      "name": "Augsburg",
+      "provider": "independent",
+      "domain": "augsburg.de",
+      "confidence": 85,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-09762": {
+      "name": "Kaufbeuren",
+      "provider": "independent",
+      "domain": "kaufbeuren.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09763": {
+      "name": "Kempten (Allgäu)",
+      "provider": "local-isp",
+      "domain": "kempten.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09764": {
+      "name": "Memmingen",
+      "provider": "local-isp",
+      "domain": "memmingen.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09771": {
+      "name": "Landkreis Aichach-Friedberg",
+      "provider": "local-isp",
+      "domain": "lra-aic-fdb.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09772": {
+      "name": "Landkreis Augsburg",
+      "provider": "microsoft",
+      "domain": "landkreis-augsburg.de",
+      "confidence": 85,
+      "flags": [
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DE-09773": {
+      "name": "Landkreis Dillingen an der Donau",
+      "provider": "local-isp",
+      "domain": "landkreis-dillingen.de",
+      "confidence": 50,
+      "flags": [
+        "no_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-09774": {
+      "name": "Landkreis Günzburg",
+      "provider": "microsoft",
+      "domain": "landkreis-guenzburg.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09775": {
+      "name": "Landkreis Neu-Ulm",
+      "provider": "independent",
+      "domain": "landkreis-nu.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09776": {
+      "name": "Landkreis Lindau",
+      "provider": "local-isp",
+      "domain": "landkreis-lindau.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09777": {
+      "name": "Landkreis Ostallgäu",
+      "provider": "local-isp",
+      "domain": "ostallgaeu.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09778": {
+      "name": "Landkreis Unterallgäu",
+      "provider": "independent",
+      "domain": "unterallgaeu.de",
+      "confidence": 50,
+      "flags": [
+        "no_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-09779": {
+      "name": "Landkreis Donau-Ries",
+      "provider": "local-isp",
+      "domain": "donau-ries.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-09780": {
+      "name": "Landkreis Oberallgäu",
+      "provider": "independent",
+      "domain": "oberallgaeu.de",
+      "confidence": 90,
+      "flags": [
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-10041": {
+      "name": "Regionalverband Saarbrücken",
+      "provider": "local-isp",
+      "domain": "regionalverband-saarbruecken.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-10042": {
+      "name": "Landkreis Merzig-Wadern",
+      "provider": "local-isp",
+      "domain": "merzig-wadern.de",
+      "confidence": 78,
+      "flags": [
+        "spf_softfail",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-10043": {
+      "name": "Landkreis Neunkirchen",
+      "provider": "local-isp",
+      "domain": "landkreis-neunkirchen.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-10044": {
+      "name": "Landkreis Saarlouis",
+      "provider": "local-isp",
+      "domain": "kreis-saarlouis.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-10045": {
+      "name": "Saarpfalz-Kreis",
+      "provider": "local-isp",
+      "domain": "saarpfalz-kreis.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-10046": {
+      "name": "Landkreis St. Wendel",
+      "provider": "local-isp",
+      "domain": "landkreis-st-wendel.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-11000": {
+      "name": "Berlin",
+      "provider": "independent",
+      "domain": "berlin.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-12051": {
+      "name": "Brandenburg an der Havel",
+      "provider": "local-isp",
+      "domain": "stadt-brandenburg.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-12052": {
+      "name": "Cottbus",
+      "provider": "local-isp",
+      "domain": "cottbus.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-12053": {
+      "name": "Frankfurt (Oder)",
+      "provider": "local-isp",
+      "domain": "frankfurt-oder.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-12054": {
+      "name": "Potsdam",
+      "provider": "independent",
+      "domain": "potsdam.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-12060": {
+      "name": "Landkreis Barnim",
+      "provider": "independent",
+      "domain": "barnim.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-12061": {
+      "name": "Landkreis Dahme-Spreewald",
+      "provider": "local-isp",
+      "domain": "dahme-spreewald.info",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-12062": {
+      "name": "Landkreis Elbe-Elster",
+      "provider": "local-isp",
+      "domain": "lkee.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-12063": {
+      "name": "Landkreis Havelland",
+      "provider": "local-isp",
+      "domain": "havelland.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-12064": {
+      "name": "Landkreis Märkisch-Oderland",
+      "provider": "independent",
+      "domain": "maerkisch-oderland.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-12065": {
+      "name": "Landkreis Oberhavel",
+      "provider": "local-isp",
+      "domain": "oberhavel.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-12066": {
+      "name": "Landkreis Oberspreewald-Lausitz",
+      "provider": "independent",
+      "domain": "osl-online.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-12067": {
+      "name": "Landkreis Oder-Spree",
+      "provider": "independent",
+      "domain": "landkreis-oder-spree.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
+      ]
+    },
+    "DE-12068": {
+      "name": "Landkreis Ostprignitz-Ruppin",
+      "provider": "local-isp",
+      "domain": "ostprignitz-ruppin.de",
+      "confidence": 50,
+      "flags": [
+        "no_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-12069": {
+      "name": "Landkreis Potsdam-Mittelmark",
+      "provider": "local-isp",
+      "domain": "potsdam-mittelmark.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-12070": {
+      "name": "Landkreis Prignitz",
+      "provider": "independent",
+      "domain": "landkreis-prignitz.de",
+      "confidence": 55,
+      "flags": [
+        "multiple_mx",
+        "no_spf",
+        "provider_classified",
+        "provider_via_gateway_spf"
+      ]
+    },
+    "DE-12071": {
+      "name": "Landkreis Spree-Neiße",
+      "provider": "local-isp",
+      "domain": "lkspn.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-12072": {
+      "name": "Landkreis Teltow-Fläming",
+      "provider": "local-isp",
+      "domain": "teltow-flaeming.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-12073": {
+      "name": "Landkreis Uckermark",
+      "provider": "local-isp",
+      "domain": "uckermark.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-13003": {
+      "name": "Rostock",
+      "provider": "local-isp",
+      "domain": "rostock.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-13004": {
+      "name": "Schwerin",
+      "provider": "local-isp",
+      "domain": "schwerin.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-13071": {
+      "name": "Landkreis Mecklenburgische Seenplatte",
+      "provider": "local-isp",
+      "domain": "lk-mecklenburgische-seenplatte.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-13072": {
+      "name": "Landkreis Rostock",
+      "provider": "independent",
+      "domain": "landkreis-rostock.de",
+      "confidence": 50,
+      "flags": [
+        "no_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-13073": {
+      "name": "Landkreis Vorpommern-Rügen",
+      "provider": "local-isp",
+      "domain": "lk-vr.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-13074": {
+      "name": "Landkreis Nordwestmecklenburg",
+      "provider": "local-isp",
+      "domain": "nordwestmecklenburg.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-13075": {
+      "name": "Landkreis Vorpommern-Greifswald",
+      "provider": "local-isp",
+      "domain": "kreis-vg.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-13076": {
+      "name": "Landkreis Ludwigslust-Parchim",
+      "provider": "local-isp",
+      "domain": "kreis-lup.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-14511": {
+      "name": "Chemnitz",
+      "provider": "local-isp",
+      "domain": "chemnitz.de",
+      "confidence": 85,
+      "flags": [
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-14521": {
+      "name": "Erzgebirgskreis",
+      "provider": "local-isp",
+      "domain": "kreis-erz.de",
+      "confidence": 90,
+      "flags": [
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-14522": {
+      "name": "Landkreis Mittelsachsen",
+      "provider": "local-isp",
+      "domain": "landkreis-mittelsachsen.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-14523": {
+      "name": "Vogtlandkreis",
+      "provider": "local-isp",
+      "domain": "vogtlandkreis.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-14524": {
+      "name": "Landkreis Zwickau",
+      "provider": "local-isp",
+      "domain": "landkreis-zwickau.de",
+      "confidence": 90,
+      "flags": [
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-14612": {
+      "name": "Dresden",
+      "provider": "local-isp",
+      "domain": "dresden.de",
+      "confidence": 90,
+      "flags": [
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-14625": {
+      "name": "Landkreis Bautzen",
+      "provider": "local-isp",
+      "domain": "landkreis-bautzen.de",
+      "confidence": 50,
+      "flags": [
+        "no_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-14626": {
+      "name": "Landkreis Görlitz",
+      "provider": "local-isp",
+      "domain": "kreis-goerlitz.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-14627": {
+      "name": "Landkreis Meißen",
+      "provider": "local-isp",
+      "domain": "kreis-meissen.de",
+      "confidence": 90,
+      "flags": [
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-14628": {
+      "name": "Landkreis Sächsische Schweiz-Osterzgebirge",
+      "provider": "local-isp",
+      "domain": "landratsamt-pirna.de",
+      "confidence": 90,
+      "flags": [
+        "multiple_mx",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-14713": {
+      "name": "Leipzig",
+      "provider": "local-isp",
+      "domain": "leipzig.de",
+      "confidence": 80,
+      "flags": [
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-14729": {
+      "name": "Landkreis Leipzig",
+      "provider": "independent",
+      "domain": "landkreisleipzig.de",
+      "confidence": 50,
+      "flags": [
+        "no_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-14730": {
+      "name": "Landkreis Nordsachsen",
+      "provider": "local-isp",
+      "domain": "landkreis-nordsachsen.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-15001": {
+      "name": "Dessau-Roßlau",
+      "provider": "independent",
+      "domain": "dessau-rosslau.de",
+      "confidence": 50,
+      "flags": [
+        "no_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-15002": {
+      "name": "Halle (Saale)",
+      "provider": "independent",
+      "domain": "halle.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-15003": {
+      "name": "Magdeburg",
+      "provider": "local-isp",
+      "domain": "magdeburg.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-15081": {
+      "name": "Altmarkkreis Salzwedel",
+      "provider": "local-isp",
+      "domain": "altmarkkreis-salzwedel.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-15082": {
+      "name": "Landkreis Anhalt-Bitterfeld",
+      "provider": "microsoft",
+      "domain": "anhalt-bitterfeld.de",
+      "confidence": 100,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DE-15083": {
+      "name": "Landkreis Börde",
+      "provider": "local-isp",
+      "domain": "landkreis-boerde.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-15084": {
+      "name": "Burgenlandkreis",
+      "provider": "local-isp",
+      "domain": "burgenlandkreis.de",
+      "confidence": 55,
+      "flags": [
+        "multiple_mx",
+        "no_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-15085": {
+      "name": "Landkreis Harz",
+      "provider": "local-isp",
+      "domain": "kreis-hz.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-15086": {
+      "name": "Landkreis Jerichower Land",
+      "provider": "independent",
+      "domain": "lkjl.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-15087": {
+      "name": "Landkreis Mansfeld-Südharz",
+      "provider": "local-isp",
+      "domain": "mansfeldsuedharz.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-15088": {
+      "name": "Saalekreis",
+      "provider": "local-isp",
+      "domain": "saalekreis.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-15089": {
+      "name": "Salzlandkreis",
+      "provider": "unknown",
+      "domain": "salzlandkreis.de",
+      "confidence": 15,
+      "flags": [
+        "no_mx",
+        "no_spf",
+        "provider_unknown"
+      ]
+    },
+    "DE-15090": {
+      "name": "Landkreis Stendal",
+      "provider": "local-isp",
+      "domain": "landkreis-stendal.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-15091": {
+      "name": "Landkreis Wittenberg",
+      "provider": "independent",
+      "domain": "landkreis-wittenberg.de",
+      "confidence": 80,
+      "flags": [
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-16051": {
+      "name": "Erfurt",
+      "provider": "local-isp",
+      "domain": "erfurt.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-16052": {
+      "name": "Gera",
+      "provider": "local-isp",
+      "domain": "gera.de",
+      "confidence": 80,
+      "flags": [
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-16053": {
+      "name": "Jena",
+      "provider": "local-isp",
+      "domain": "jena.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-16054": {
+      "name": "Suhl",
+      "provider": "google",
+      "domain": "suhl.eu",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-16055": {
+      "name": "Weimar",
+      "provider": "microsoft",
+      "domain": "weimar.de",
+      "confidence": 100,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DE-16061": {
+      "name": "Landkreis Eichsfeld",
+      "provider": "local-isp",
+      "domain": "kreis-eic.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-16062": {
+      "name": "Landkreis Nordhausen",
+      "provider": "local-isp",
+      "domain": "landkreis-nordhausen.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-16063": {
+      "name": "Wartburgkreis",
+      "provider": "local-isp",
+      "domain": "wartburgkreis.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-16064": {
+      "name": "Unstrut-Hainich-Kreis",
+      "provider": "local-isp",
+      "domain": "unstrut-hainich-kreis.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-16065": {
+      "name": "Kyffhäuserkreis",
+      "provider": "local-isp",
+      "domain": "kyffhaeuser.de",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-16066": {
+      "name": "Landkreis Schmalkalden-Meiningen",
+      "provider": "local-isp",
+      "domain": "lra-sm.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-16067": {
+      "name": "Landkreis Gotha",
+      "provider": "local-isp",
+      "domain": "landkreis-gotha.de",
+      "confidence": 50,
+      "flags": [
+        "no_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-16068": {
+      "name": "Landkreis Sömmerda",
+      "provider": "independent",
+      "domain": "lra-soemmerda.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-16069": {
+      "name": "Landkreis Hildburghausen",
+      "provider": "local-isp",
+      "domain": "landkreis-hildburghausen.de",
+      "confidence": 50,
+      "flags": [
+        "no_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-16070": {
+      "name": "Ilm-Kreis",
+      "provider": "local-isp",
+      "domain": "ilm-kreis.de",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-16071": {
+      "name": "Landkreis Weimarer Land",
+      "provider": "independent",
+      "domain": "weimarerland.de",
+      "confidence": 80,
+      "flags": [
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-16072": {
+      "name": "Landkreis Sonneberg",
+      "provider": "local-isp",
+      "domain": "kreis-sonneberg.de",
+      "confidence": 50,
+      "flags": [
+        "no_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-16073": {
+      "name": "Landkreis Saalfeld-Rudolstadt",
+      "provider": "local-isp",
+      "domain": "kreis-slf.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-16074": {
+      "name": "Saale-Holzland-Kreis",
+      "provider": "local-isp",
+      "domain": "saaleholzlandkreis.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-16075": {
+      "name": "Saale-Orla-Kreis",
+      "provider": "local-isp",
+      "domain": "saale-orla-kreis.de",
+      "confidence": 50,
+      "flags": [
+        "no_spf",
+        "provider_classified"
+      ]
+    },
+    "DE-16076": {
+      "name": "Landkreis Greiz",
+      "provider": "local-isp",
+      "domain": "landkreis-greiz.de",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DE-16077": {
+      "name": "Landkreis Altenburger Land",
+      "provider": "independent",
+      "domain": "altenburgerland.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
     "EE-0130": {
       "name": "Alutaguse vald",
       "provider": "microsoft",
@@ -11732,7 +16327,7 @@
     },
     "SE-1315": {
       "name": "Hylte",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "hylte.se",
       "confidence": 85,
       "flags": [

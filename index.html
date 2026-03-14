@@ -59,10 +59,11 @@
   .stats-value { width: 70px; font-size: 12px; color: #666; flex-shrink: 0; }
   .stats-columns { display: flex; gap: 32px; flex-wrap: wrap; }
   .stats-column { flex: 1; min-width: 280px; }
-  .stats-countries { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px 24px; }
+  .stats-countries { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px 24px; }
   .stats-countries .stats-label { width: 75px; font-size: 12px; }
   .stats-countries .stats-value { width: 60px; }
   .stats-countries .stats-row { margin: 3px 0; }
+  @media (max-width: 1100px) { .stats-countries { grid-template-columns: repeat(3, 1fr); } }
   @media (max-width: 900px) { .stats-countries { grid-template-columns: repeat(2, 1fr); } }
   @media (max-width: 600px) { .stats-countries { grid-template-columns: 1fr; } }
 
@@ -151,7 +152,7 @@
   <div class="info-grid">
     <div class="info-card">
       <h3>What is this?</h3>
-      <p>A map of municipalities in Estonia, Latvia, Lithuania, Finland, Norway, and Sweden showing which provider handles their official email — grouped by jurisdiction — based on public DNS records.</p>
+      <p>A map of municipalities in Estonia, Latvia, Lithuania, Finland, Norway, Sweden, and Germany showing which provider handles their official email — grouped by jurisdiction — based on public DNS records.</p>
     </div>
     <div class="info-card">
       <h3>Digital sovereignty</h3>
@@ -190,6 +191,7 @@
     <button class="country-btn active" data-country="FI">FI</button>
     <button class="country-btn active" data-country="NO">NO</button>
     <button class="country-btn active" data-country="SE">SE</button>
+    <button class="country-btn active" data-country="DE">DE</button>
   </div>
 </main>
 
@@ -220,7 +222,7 @@ const TIERS = {
   'Unknown':        ['Unknown']
 };
 
-const FLAGS = { EE: '\u{1F1EA}\u{1F1EA}', LV: '\u{1F1F1}\u{1F1FB}', LT: '\u{1F1F1}\u{1F1F9}', FI: '\u{1F1EB}\u{1F1EE}', NO: '\u{1F1F3}\u{1F1F4}', SE: '\u{1F1F8}\u{1F1EA}' };
+const FLAGS = { EE: '\u{1F1EA}\u{1F1EA}', LV: '\u{1F1F1}\u{1F1FB}', LT: '\u{1F1F1}\u{1F1F9}', FI: '\u{1F1EB}\u{1F1EE}', NO: '\u{1F1F3}\u{1F1F4}', SE: '\u{1F1F8}\u{1F1EA}', DE: '\u{1F1E9}\u{1F1EA}' };
 
 const US_PROVIDERS = new Set(['Microsoft', 'Google', 'AWS']);
 function hasLocalGateway(m) {
@@ -232,14 +234,14 @@ let dnsData = null;
 let geoLayer = null;
 let gatewayMarkers = L.layerGroup();
 let updateLegend = function () {};
-let activeCountries = new Set(['EE', 'LV', 'LT', 'FI', 'NO', 'SE']);
+let activeCountries = new Set(['EE', 'LV', 'LT', 'FI', 'NO', 'SE', 'DE']);
 let muniByOsm = {};   // "relation/12345" -> municipality
 let muniByName = {};   // lowercase name -> municipality
 
 // --- Map ---
 const map = L.map('map', {
-  center: [63.0, 18.0],
-  zoom: 5,
+  center: [57.0, 15.0],
+  zoom: 4,
   minZoom: 4,
   maxZoom: 14,
   renderer: L.canvas()
@@ -370,7 +372,7 @@ function buildStats(muniList) {
       }
       const cc = m.mx_countries || [];
       if (cc.includes('US')) mxUs++;
-      if (cc.some(c => ['EE', 'LV', 'LT', 'FI', 'NO', 'SE'].includes(c))) mxLocal++;
+      if (cc.some(c => ['EE', 'LV', 'LT', 'FI', 'NO', 'SE', 'DE'].includes(c))) mxLocal++;
     }
     return { total: t, us, usLocalGw, sameCountry, otherEu, unk, providers, mxCountries, mxUs, mxLocal };
   }
@@ -425,8 +427,8 @@ function buildStats(muniList) {
   html += `<p style="font-size:12px;color:#777;margin-top:8px"><strong>${mxInUs}</strong> of ${withMx} municipalities with MX records route mail through servers registered in the US.</p>`;
 
   // Per-country breakdown — side by side
-  const countryNames = { EE: 'Estonia', LV: 'Latvia', LT: 'Lithuania', FI: 'Finland', NO: 'Norway', SE: 'Sweden' };
-  const activeList = ['EE', 'LV', 'LT', 'FI', 'NO', 'SE'].filter(cc => activeCountries.has(cc));
+  const countryNames = { EE: 'Estonia', LV: 'Latvia', LT: 'Lithuania', FI: 'Finland', NO: 'Norway', SE: 'Sweden', DE: 'Germany' };
+  const activeList = ['EE', 'LV', 'LT', 'FI', 'NO', 'SE', 'DE'].filter(cc => activeCountries.has(cc));
   const countryStats = {};
   for (const cc of activeList) {
     const list = filtered.filter(m => m.country === cc);
@@ -718,7 +720,7 @@ async function loadData() {
       content.innerHTML =
         '<strong>Email Provider</strong>' +
         legendGroupHtml('US-based', ['Microsoft', 'Google', 'AWS'], counts) +
-        legendGroupHtml('Nordic-Baltic/EU', ['Telia', 'TET', 'Zone.eu', 'Elkdata', 'Local ISP', 'Self-hosted'], counts) +
+        legendGroupHtml('European', ['Telia', 'TET', 'Zone.eu', 'Elkdata', 'Local ISP', 'Self-hosted'], counts) +
         legendGroupHtml('', ['Unknown'], counts) +
         (gwCount > 0 ? `<div style="margin-top:8px;font-size:11px;color:#795548">\u{1F6E1}\uFE0F = local gateway, US mailbox (${gwCount})</div>` : '') +
         `<div style="margin-top:4px;font-size:11px;color:#999">${total} municipalities</div>`;

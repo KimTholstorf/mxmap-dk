@@ -30,6 +30,7 @@ SEED_FILES = {
     "FI": "municipalities_fi.json",
     "NO": "municipalities_no.json",
     "SE": "municipalities_se.json",
+    "DE": "municipalities_de.json",
 }
 
 
@@ -49,6 +50,11 @@ def guess_domains(name: str, country: str = "") -> list[str]:
     raw = name.lower().strip()
     raw = re.sub(r"\s*\(.*?\)\s*", "", raw)
 
+    # Remove common prefixes in municipality names
+    for prefix in ["landkreis ", "kreis ", "stadt "]:
+        if raw.startswith(prefix):
+            raw = raw[len(prefix):]
+
     # Remove common suffixes in municipality names
     for suffix in [
         " vald", " linn",                             # Estonian
@@ -58,6 +64,7 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         " kaupunki", " kunta",                         # Finnish
         " kommune",                                     # Norwegian
         " kommun",                                      # Swedish
+        " (kreisfreie stadt)",                              # German
     ]:
         if raw.endswith(suffix):
             raw = raw[: -len(suffix)]
@@ -83,9 +90,19 @@ def guess_domains(name: str, country: str = "") -> list[str]:
 
     slugs = {slugify(clean), slugify(raw)} - {""}
 
+    # German umlaut expansion (ä→ae, ö→oe, ü→ue, ß→ss)
+    if country == "DE" or not country:
+        german_translits = [("ä", "ae"), ("ö", "oe"), ("ü", "ue"), ("ß", "ss")]
+        de_clean = raw
+        for a, b in german_translits:
+            de_clean = de_clean.replace(a, b)
+        de_slug = slugify(de_clean)
+        if de_slug:
+            slugs.add(de_slug)
+
     # Determine TLDs based on country
-    tld_map = {"EE": [".ee"], "LV": [".lv"], "LT": [".lt"], "FI": [".fi"], "NO": [".no", ".kommune.no"], "SE": [".se"]}
-    tlds = tld_map.get(country, [".ee", ".lv", ".lt", ".fi", ".no", ".se"])
+    tld_map = {"EE": [".ee"], "LV": [".lv"], "LT": [".lt"], "FI": [".fi"], "NO": [".no", ".kommune.no"], "SE": [".se"], "DE": [".de"]}
+    tlds = tld_map.get(country, [".ee", ".lv", ".lt", ".fi", ".no", ".se", ".de"])
 
     candidates = set()
     for slug in slugs:
