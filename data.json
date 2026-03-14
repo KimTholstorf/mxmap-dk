@@ -4,11 +4,11 @@
   "counts":{
     "elkdata":1,
     "google":22,
-    "independent":133,
+    "independent":134,
     "local-isp":412,
     "microsoft":953,
     "telia":3,
-    "unknown":2,
+    "unknown":1,
     "zone":11
   },
   "municipalities":{
@@ -54,7 +54,7 @@
       "mx_countries":[
         "DE"
       ],
-      "smtp_banner":"220 mail3.addix.net ESMTP Server Sat, 14 Mar 2026 10:09:48 +0100"
+      "smtp_banner":"220 mail3.addix.net ESMTP Server Sat, 14 Mar 2026 10:22:07 +0100"
     },
     "DE-01003":{
       "bfs":"DE-01003",
@@ -456,7 +456,7 @@
       "mx_countries":[
         "DE"
       ],
-      "smtp_banner":"220-mail-out-3.wobcom.de ESMTP Postfix"
+      "smtp_banner":"220-mail-out-1.wobcom.de ESMTP Postfix"
     },
     "DE-03151":{
       "bfs":"DE-03151",
@@ -877,7 +877,7 @@
       "mx_countries":[
         "DE"
       ],
-      "smtp_banner":"220 mailgate2.dw-services.net ESMTP Smtpd; Sat, 14 Mar 2026 10:09:57 +0100"
+      "smtp_banner":"220 mailgate2.dw-services.net ESMTP Smtpd; Sat, 14 Mar 2026 10:22:16 +0100"
     },
     "DE-03355":{
       "bfs":"DE-03355",
@@ -8812,12 +8812,21 @@
       "name":"Salzlandkreis",
       "canton":"Sachsen-Anhalt",
       "country":"DE",
-      "domain":"salzlandkreis.de",
-      "mx":[],
-      "spf":"",
-      "provider":"unknown",
-      "reason":"No MX records found",
-      "osm_relation_id":62502
+      "domain":"kreis-slk.de",
+      "mx":[
+        "asterix.kreis-slk.de",
+        "obelix.kreis-slk.de"
+      ],
+      "spf":"v=spf1 ip4:82.100.226.149 ip4:85.220.136.49 -all",
+      "provider":"independent",
+      "reason":"MX (asterix.kreis-slk.de, obelix.kreis-slk.de) is self-hosted",
+      "osm_relation_id":62502,
+      "mx_asns":[
+        25394
+      ],
+      "mx_countries":[
+        "DE"
+      ]
     },
     "DE-15090":{
       "bfs":"DE-15090",

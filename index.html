@@ -712,8 +712,7 @@ async function loadData() {
       content.innerHTML =
         '<strong>Email Provider</strong>' +
         legendGroupHtml('US-based', ['Microsoft', 'Google', 'AWS'], counts) +
-        legendGroupHtml('European', ['Local Provider', 'Self-hosted'], counts) +
-        legendGroupHtml('', ['Unknown'], counts) +
+        legendGroupHtml('European', ['Local Provider', 'Self-hosted', 'Unknown'], counts) +
         (gwCount > 0 ? `<div style="margin-top:8px;font-size:11px;color:#795548">\u{1F6E1}\uFE0F = local gateway, US mailbox (${gwCount})</div>` : '') +
         `<div style="margin-top:4px;font-size:11px;color:#999">${total} municipalities</div>`;
     }

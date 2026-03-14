@@ -1,7 +1,7 @@
 {
   "total": 1537,
-  "average_score": 89.5,
-  "high_confidence_pct": 91.2,
+  "average_score": 89.6,
+  "high_confidence_pct": 91.3,
   "quality_passed": true,
   "entries": {
     "DE-01001": {
@@ -4322,13 +4322,14 @@
     },
     "DE-15089": {
       "name": "Salzlandkreis",
-      "provider": "unknown",
-      "domain": "salzlandkreis.de",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "kreis-slk.de",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "DE-15090": {

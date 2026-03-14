@@ -1,6 +1,5 @@
 bfs,name,provider,domain,confidence,flags
 DE-07338,Rhein-Pfalz-Kreis,unknown,rhein-pfalz-kreis.de,15,no_mx; no_spf; provider_unknown
-DE-15089,Salzlandkreis,unknown,salzlandkreis.de,15,no_mx; no_spf; provider_unknown
 DE-15001,Dessau-Roßlau,independent,dessau-rosslau.de,50,no_spf; provider_classified
 DE-05112,Duisburg,independent,duisburg.de,50,no_spf; provider_classified
 DE-05915,Hamm,local-isp,hamm.de,50,no_spf; provider_classified
@@ -1333,6 +1332,7 @@ EE-0714,Saaremaa vald,microsoft,saaremaavald.ee,95,spf_strict; mx_spf_match; pro
 FI-729,Saarijärvi,microsoft,saarijarvi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 NO-5522,Salangen,microsoft,salangen.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 NO-1840,Saltdal,microsoft,saltdal.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DE-15089,Salzlandkreis,independent,kreis-slk.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 NO-1514,Sande,independent,sande-mr.kommune.no,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 NO-1108,Sandnes,microsoft,sandnes.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 NO-1135,Sauda,microsoft,sauda.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms

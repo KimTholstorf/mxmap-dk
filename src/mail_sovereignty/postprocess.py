@@ -228,6 +228,10 @@ MANUAL_OVERRIDES = {
     "FI-284": {
         "domain": "koski.fi",
     },
+    # Salzlandkreis: salzlandkreis.de has no MX, email is on kreis-slk.de
+    "DE-15089": {
+        "domain": "kreis-slk.de",
+    },
 }
 
 
