@@ -68,6 +68,7 @@ SKIP_DOMAINS = {
     "example.be",
     "example.at",
     "example.cz",
+    "example.is",
     "kommune.no",
     "sentry.io",
     "w3.org",
@@ -79,18 +80,20 @@ SKIP_DOMAINS = {
 SUBPAGES = [
     "/kontakt",
     "/contact",
-    "/kontaktid",       # Estonian
-    "/kontakti",        # Latvian
-    "/kontaktai",       # Lithuanian
+    "/kontaktid",  # Estonian
+    "/kontakti",  # Latvian
+    "/kontaktai",  # Lithuanian
     "/kontakt/",
     "/contact/",
-    "/meist",           # Estonian: "About us"
-    "/par-mums",        # Latvian: "About us"
-    "/apie-mus",        # Lithuanian: "About us"
-    "/struktuur",       # Estonian: "Structure"
-    "/struktura",       # Lithuanian: "Structure"
-    "/impressum",       # German
-    "/service/kontakt", # German
+    "/meist",  # Estonian: "About us"
+    "/par-mums",  # Latvian: "About us"
+    "/apie-mus",  # Lithuanian: "About us"
+    "/struktuur",  # Estonian: "Structure"
+    "/struktura",  # Lithuanian: "Structure"
+    "/impressum",  # German
+    "/service/kontakt",  # German
+    "/hafa-samband",  # Icelandic: "Contact"
+    "/um-sveitarfelagid",  # Icelandic: "About the municipality"
 ]
 
 GATEWAY_KEYWORDS = {
@@ -116,6 +119,9 @@ GATEWAY_KEYWORDS = {
     "antispameurope": ["antispameurope.com"],
     "retarus": ["retarus.com"],
     "psmanaged": ["psmanaged.com"],
+    "simnet": ["simnet.is"],
+    "skyggnir": ["skyggnir.is"],
+    "siminn": ["spamvorn.internet.is"],
 }
 
 # Local ISP ASNs (replaces SWISS_ISP_ASNS)
@@ -268,6 +274,11 @@ LOCAL_ISP_ASNS: dict[int, str] = {
     5577: "root.cz (CZ)",
     35592: "CZNIC/Coolhousing (CZ)",
     15685: "Casablanca INT (CZ)",
+    # Iceland
+    6677: "Simnet/Vist (IS)",
+    29689: "Skyggnir (IS)",
+    44925: "1984 Hosting (IS)",
+    12969: "Síminn (IS)",
 }
 
 CONCURRENCY = 20

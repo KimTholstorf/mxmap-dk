@@ -37,6 +37,7 @@ SEED_FILES = {
     "BE": "municipalities_be.json",
     "AT": "municipalities_at.json",
     "CZ": "municipalities_cz.json",
+    "IS": "municipalities_is.json",
 }
 
 
@@ -57,35 +58,71 @@ def guess_domains(name: str, country: str = "") -> list[str]:
     raw = re.sub(r"\s*\(.*?\)\s*", "", raw)
 
     # Remove common prefixes in municipality names
-    for prefix in ["landkreis ", "kreis ", "stadt "]:
+    for prefix in ["landkreis ", "kreis ", "stadt ", "sveitarfélagið "]:
         if raw.startswith(prefix):
-            raw = raw[len(prefix):]
+            raw = raw[len(prefix) :]
 
     # Remove common suffixes in municipality names
     for suffix in [
-        " vald", " linn",                             # Estonian
-        " novads", " pilsēta", " valstspilsēta",      # Latvian
-        " rajono savivaldybė", " miesto savivaldybė",  # Lithuanian
+        " vald",
+        " linn",  # Estonian
+        " novads",
+        " pilsēta",
+        " valstspilsēta",  # Latvian
+        " rajono savivaldybė",
+        " miesto savivaldybė",  # Lithuanian
         " savivaldybė",
-        " kaupunki", " kunta",                         # Finnish
-        " kommune",                                     # Norwegian
-        " kommun",                                      # Swedish
-        " (kreisfreie stadt)",                              # German
-        " (statutarstadt)", " (marktgemeinde)",               # Austrian
+        " kaupunki",
+        " kunta",  # Finnish
+        " kommune",  # Norwegian
+        " kommun",  # Swedish
+        " (kreisfreie stadt)",  # German
+        " (statutarstadt)",
+        " (marktgemeinde)",  # Austrian
+        "bær",
+        "hreppur",
+        "sveit",
+        "kaupstaður",  # Icelandic
     ]:
         if raw.endswith(suffix):
             raw = raw[: -len(suffix)]
 
     # Baltic diacritics transliteration
     translits = [
-        ("ä", "a"), ("ö", "o"), ("ü", "u"), ("õ", "o"),  # Estonian
-        ("š", "s"), ("ž", "z"), ("č", "c"), ("ř", "r"),      # Shared
-        ("ā", "a"), ("ē", "e"), ("ī", "i"), ("ū", "u"),  # Latvian
-        ("ķ", "k"), ("ļ", "l"), ("ņ", "n"), ("ģ", "g"),
-        ("ė", "e"), ("į", "i"), ("ų", "u"), ("ū", "u"),  # Lithuanian
-        ("å", "a"),                                          # Finnish/Nordic
-        ("ø", "o"), ("æ", "ae"),                                 # Norwegian/Danish
-        ("í", "i"), ("ý", "y"), ("ď", "d"), ("ť", "t"), ("ň", "n"),  # Czech
+        ("ä", "a"),
+        ("ö", "o"),
+        ("ü", "u"),
+        ("õ", "o"),  # Estonian
+        ("š", "s"),
+        ("ž", "z"),
+        ("č", "c"),
+        ("ř", "r"),  # Shared
+        ("ā", "a"),
+        ("ē", "e"),
+        ("ī", "i"),
+        ("ū", "u"),  # Latvian
+        ("ķ", "k"),
+        ("ļ", "l"),
+        ("ņ", "n"),
+        ("ģ", "g"),
+        ("ė", "e"),
+        ("į", "i"),
+        ("ų", "u"),
+        ("ū", "u"),  # Lithuanian
+        ("å", "a"),  # Finnish/Nordic
+        ("ø", "o"),
+        ("æ", "ae"),  # Norwegian/Danish
+        ("í", "i"),
+        ("ý", "y"),
+        ("ď", "d"),
+        ("ť", "t"),
+        ("ň", "n"),  # Czech
+        ("þ", "th"),
+        ("ð", "d"),  # Icelandic
+        ("á", "a"),
+        ("ú", "u"),
+        ("é", "e"),
+        ("ó", "o"),  # Icelandic accents
     ]
     clean = raw
     for a, b in translits:
@@ -119,8 +156,25 @@ def guess_domains(name: str, country: str = "") -> list[str]:
             slugs.add(de_slug)
 
     # Determine TLDs based on country
-    tld_map = {"EE": [".ee"], "LV": [".lv"], "LT": [".lt"], "FI": [".fi"], "NO": [".no", ".kommune.no"], "SE": [".se"], "DE": [".de"], "DK": [".dk"], "AD": [".ad"], "LU": [".lu"], "BE": [".be"], "AT": [".gv.at", ".at"], "CZ": [".cz"]}
-    tlds = tld_map.get(country, [".ee", ".lv", ".lt", ".fi", ".no", ".se", ".de", ".dk"])
+    tld_map = {
+        "EE": [".ee"],
+        "LV": [".lv"],
+        "LT": [".lt"],
+        "FI": [".fi"],
+        "NO": [".no", ".kommune.no"],
+        "SE": [".se"],
+        "DE": [".de"],
+        "DK": [".dk"],
+        "AD": [".ad"],
+        "LU": [".lu"],
+        "BE": [".be"],
+        "AT": [".gv.at", ".at"],
+        "CZ": [".cz"],
+        "IS": [".is"],
+    }
+    tlds = tld_map.get(
+        country, [".ee", ".lv", ".lt", ".fi", ".no", ".se", ".de", ".dk"]
+    )
 
     candidates = set()
     for slug in slugs:
@@ -239,7 +293,12 @@ async def scan_municipality(
                         entry["isp_name"] = LOCAL_ISP_ASNS[asn]
                         break
         # Named local providers also get isp_name for frontend grouping
-        isp_display = {"zone": "Zone.eu", "telia": "Telia", "elkdata": "Elkdata", "tet": "TET"}
+        isp_display = {
+            "zone": "Zone.eu",
+            "telia": "Telia",
+            "elkdata": "Elkdata",
+            "tet": "TET",
+        }
         if provider in isp_display:
             entry["isp_name"] = isp_display[provider]
         if mx_countries:

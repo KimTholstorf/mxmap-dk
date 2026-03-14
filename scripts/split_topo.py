@@ -31,6 +31,7 @@ COUNTRIES = [
     "LT",
     "FI",
     "NO",
+    "IS",
     "SE",
     "DE",
     "DK",
@@ -53,6 +54,7 @@ LEVEL_MAP = {
     },
     "FI": {"region": "region", "district": "region", "municipality": "municipality"},
     "NO": {"region": "region", "district": "region", "municipality": "municipality"},
+    "IS": {"region": "region", "district": "region", "municipality": "municipality"},
     "SE": {"region": "region", "district": "region", "municipality": "municipality"},
     "DK": {"region": "region", "district": "region", "municipality": "municipality"},
     "CZ": {

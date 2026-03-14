@@ -206,5 +206,21 @@
       "cz_region.topo.json": 63280,
       "cz_municipality.topo.json": 235323
     }
+  },
+  "IS": {
+    "levels": [
+      "region",
+      "district",
+      "municipality"
+    ],
+    "files": {
+      "region": "is_region.topo.json",
+      "district": "is_region.topo.json",
+      "municipality": "is_municipality.topo.json"
+    },
+    "sizes": {
+      "is_region.topo.json": 118631,
+      "is_municipality.topo.json": 297384
+    }
   }
 }

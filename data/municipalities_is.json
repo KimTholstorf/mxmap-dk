@@ -1,0 +1,498 @@
+[
+  {
+    "id": "IS-0001",
+    "name": "Akraneskaupstaður",
+    "country": "IS",
+    "region": "Vesturland",
+    "domain": "akranes.is",
+    "osm_relation_id": 8810762
+  },
+  {
+    "id": "IS-0002",
+    "name": "Akureyrarbær",
+    "country": "IS",
+    "region": "Norðurland eystra",
+    "domain": "akureyri.is",
+    "osm_relation_id": 56086
+  },
+  {
+    "id": "IS-0003",
+    "name": "Bláskógabyggð",
+    "country": "IS",
+    "region": "Suðurland",
+    "domain": "blaskogabyggd.is",
+    "osm_relation_id": 9177051
+  },
+  {
+    "id": "IS-0004",
+    "name": "Bolungarvíkurkaupstaður",
+    "country": "IS",
+    "region": "Vestfirðir",
+    "domain": "bolungarvik.is",
+    "osm_relation_id": 56180
+  },
+  {
+    "id": "IS-0005",
+    "name": "Borgarbyggð",
+    "country": "IS",
+    "region": "Vesturland",
+    "domain": "borgarbyggd.is",
+    "osm_relation_id": 8826397
+  },
+  {
+    "id": "IS-0006",
+    "name": "Dalabyggð",
+    "country": "IS",
+    "region": "Vesturland",
+    "domain": "dalir.is",
+    "osm_relation_id": 56196
+  },
+  {
+    "id": "IS-0007",
+    "name": "Dalvíkurbyggð",
+    "country": "IS",
+    "region": "Norðurland eystra",
+    "domain": "dalvikurbyggd.is",
+    "osm_relation_id": 55969
+  },
+  {
+    "id": "IS-0008",
+    "name": "Eyja- og Miklaholtshreppur",
+    "country": "IS",
+    "region": "Vesturland",
+    "domain": "emh.is",
+    "osm_relation_id": 56200
+  },
+  {
+    "id": "IS-0009",
+    "name": "Eyjafjarðarsveit",
+    "country": "IS",
+    "region": "Norðurland eystra",
+    "domain": "esveit.is",
+    "osm_relation_id": 56092
+  },
+  {
+    "id": "IS-0010",
+    "name": "Fjallabyggð",
+    "country": "IS",
+    "region": "Norðurland eystra",
+    "domain": "fjallabyggd.is",
+    "osm_relation_id": 55967
+  },
+  {
+    "id": "IS-0011",
+    "name": "Fjarðabyggð",
+    "country": "IS",
+    "region": "Austurland",
+    "domain": "fjardabyggd.is",
+    "osm_relation_id": 56135
+  },
+  {
+    "id": "IS-0012",
+    "name": "Fljótsdalshreppur",
+    "country": "IS",
+    "region": "Austurland",
+    "domain": "fljotsdal.is",
+    "osm_relation_id": 56120
+  },
+  {
+    "id": "IS-0013",
+    "name": "Flóahreppur",
+    "country": "IS",
+    "region": "Suðurland",
+    "domain": "floahreppur.is",
+    "osm_relation_id": 8810681
+  },
+  {
+    "id": "IS-0014",
+    "name": "Garðabær",
+    "country": "IS",
+    "region": "Höfuðborgarsvæðið",
+    "domain": "gardabaer.is",
+    "osm_relation_id": 2556726
+  },
+  {
+    "id": "IS-0015",
+    "name": "Grindavíkurbær",
+    "country": "IS",
+    "region": "Suðurnes",
+    "domain": "grindavik.is",
+    "osm_relation_id": 8485628
+  },
+  {
+    "id": "IS-0016",
+    "name": "Grundarfjarðarbær",
+    "country": "IS",
+    "region": "Vesturland",
+    "domain": "grundarfjordur.is",
+    "osm_relation_id": 56198
+  },
+  {
+    "id": "IS-0017",
+    "name": "Grímsnes- og Grafningshreppur",
+    "country": "IS",
+    "region": "Suðurland",
+    "domain": "gogg.is",
+    "osm_relation_id": 9176913
+  },
+  {
+    "id": "IS-0018",
+    "name": "Grýtubakkahreppur",
+    "country": "IS",
+    "region": "Norðurland eystra",
+    "domain": "grenivik.is",
+    "osm_relation_id": 56091
+  },
+  {
+    "id": "IS-0019",
+    "name": "Hafnarfjarðarkaupstaður",
+    "country": "IS",
+    "region": "Höfuðborgarsvæðið",
+    "domain": "hafnarfjordur.is",
+    "osm_relation_id": 2582273
+  },
+  {
+    "id": "IS-0020",
+    "name": "Hrunamannahreppur",
+    "country": "IS",
+    "region": "Suðurland",
+    "domain": "fludir.is",
+    "osm_relation_id": 8817618
+  },
+  {
+    "id": "IS-0021",
+    "name": "Hvalfjarðarsveit",
+    "country": "IS",
+    "region": "Vesturland",
+    "domain": "hvalfjordur.is",
+    "osm_relation_id": 8823263
+  },
+  {
+    "id": "IS-0022",
+    "name": "Hveragerðisbær",
+    "country": "IS",
+    "region": "Suðurland",
+    "domain": "hveragerdi.is",
+    "osm_relation_id": 8485632
+  },
+  {
+    "id": "IS-0023",
+    "name": "Hörgársveit",
+    "country": "IS",
+    "region": "Norðurland eystra",
+    "domain": "horgarsveit.is",
+    "osm_relation_id": 56084
+  },
+  {
+    "id": "IS-0024",
+    "name": "Húnabyggð",
+    "country": "IS",
+    "region": "Norðurland vestra",
+    "domain": "hunabyggd.is",
+    "osm_relation_id": 17899474
+  },
+  {
+    "id": "IS-0025",
+    "name": "Húnaþing vestra",
+    "country": "IS",
+    "region": "Norðurland vestra",
+    "domain": "hunathing.is",
+    "osm_relation_id": 56115
+  },
+  {
+    "id": "IS-0026",
+    "name": "Kaldrananeshreppur",
+    "country": "IS",
+    "region": "Vestfirðir",
+    "domain": "drangsnes.is",
+    "osm_relation_id": 56190
+  },
+  {
+    "id": "IS-0027",
+    "name": "Kjósarhreppur",
+    "country": "IS",
+    "region": "Höfuðborgarsvæðið",
+    "domain": "kjos.is",
+    "osm_relation_id": 8485922
+  },
+  {
+    "id": "IS-0028",
+    "name": "Kópavogsbær",
+    "country": "IS",
+    "region": "Höfuðborgarsvæðið",
+    "domain": "kopavogur.is",
+    "osm_relation_id": 2580603
+  },
+  {
+    "id": "IS-0029",
+    "name": "Langanesbyggð",
+    "country": "IS",
+    "region": "Norðurland eystra",
+    "domain": "langanesbyggd.is",
+    "osm_relation_id": 56146
+  },
+  {
+    "id": "IS-0030",
+    "name": "Mosfellsbær",
+    "country": "IS",
+    "region": "Höfuðborgarsvæðið",
+    "domain": "mos.is",
+    "osm_relation_id": 2580604
+  },
+  {
+    "id": "IS-0031",
+    "name": "Múlaþing",
+    "country": "IS",
+    "region": "Austurland",
+    "domain": "mulathing.is",
+    "osm_relation_id": 11759435
+  },
+  {
+    "id": "IS-0032",
+    "name": "Mýrdalshreppur",
+    "country": "IS",
+    "region": "Suðurland",
+    "domain": "vik.is",
+    "osm_relation_id": 56206
+  },
+  {
+    "id": "IS-0033",
+    "name": "Norðurþing",
+    "country": "IS",
+    "region": "Norðurland eystra",
+    "domain": "nordurthing.is",
+    "osm_relation_id": 56160
+  },
+  {
+    "id": "IS-0034",
+    "name": "Rangárþing eystra",
+    "country": "IS",
+    "region": "Suðurland",
+    "domain": "hvolsvollur.is",
+    "osm_relation_id": 8803280
+  },
+  {
+    "id": "IS-0035",
+    "name": "Rangárþing ytra",
+    "country": "IS",
+    "region": "Suðurland",
+    "domain": "ry.is",
+    "osm_relation_id": 8808785
+  },
+  {
+    "id": "IS-0036",
+    "name": "Reykhólahreppur",
+    "country": "IS",
+    "region": "Vestfirðir",
+    "domain": "reykholar.is",
+    "osm_relation_id": 56188
+  },
+  {
+    "id": "IS-0037",
+    "name": "Reykjanesbær",
+    "country": "IS",
+    "region": "Suðurnes",
+    "domain": "reykjanesbaer.is",
+    "osm_relation_id": 8467955
+  },
+  {
+    "id": "IS-0038",
+    "name": "Reykjavíkurborg",
+    "country": "IS",
+    "region": "Höfuðborgarsvæðið",
+    "domain": "reykjavik.is",
+    "osm_relation_id": 2580605
+  },
+  {
+    "id": "IS-0039",
+    "name": "Seltjarnarnesbær",
+    "country": "IS",
+    "region": "Höfuðborgarsvæðið",
+    "domain": "seltjarnarnes.is",
+    "osm_relation_id": 2580606
+  },
+  {
+    "id": "IS-0040",
+    "name": "Skaftárhreppur",
+    "country": "IS",
+    "region": "Suðurland",
+    "domain": "klaustur.is",
+    "osm_relation_id": 56208
+  },
+  {
+    "id": "IS-0041",
+    "name": "Skagafjörður",
+    "country": "IS",
+    "region": "Norðurland vestra",
+    "domain": "skagafjordur.is",
+    "osm_relation_id": 56103
+  },
+  {
+    "id": "IS-0042",
+    "name": "Skeiða- og Gnúpverjahreppur",
+    "country": "IS",
+    "region": "Suðurland",
+    "domain": "sogsveit.is",
+    "osm_relation_id": 8813115
+  },
+  {
+    "id": "IS-0043",
+    "name": "Skorradalshreppur",
+    "country": "IS",
+    "region": "Vesturland",
+    "domain": "skorradalshr.is",
+    "osm_relation_id": 8826192
+  },
+  {
+    "id": "IS-0044",
+    "name": "Snæfellsbær",
+    "country": "IS",
+    "region": "Vesturland",
+    "domain": "snb.is",
+    "osm_relation_id": 56197
+  },
+  {
+    "id": "IS-0045",
+    "name": "Strandabyggð",
+    "country": "IS",
+    "region": "Vestfirðir",
+    "domain": "strandabyggd.is",
+    "osm_relation_id": 56191
+  },
+  {
+    "id": "IS-0046",
+    "name": "Suðurnesjabær",
+    "country": "IS",
+    "region": "Suðurnes",
+    "domain": "sudurnesjabaer.is",
+    "osm_relation_id": 8467956
+  },
+  {
+    "id": "IS-0047",
+    "name": "Svalbarðsstrandarhreppur",
+    "country": "IS",
+    "region": "Norðurland eystra",
+    "domain": "svalbardsstrond.is",
+    "osm_relation_id": 56090
+  },
+  {
+    "id": "IS-0048",
+    "name": "Sveitarfélagið Hornafjörður",
+    "country": "IS",
+    "region": "Suðurland",
+    "domain": "hornafjordur.is",
+    "osm_relation_id": 55966
+  },
+  {
+    "id": "IS-0049",
+    "name": "Sveitarfélagið Skagaströnd",
+    "country": "IS",
+    "region": "Norðurland vestra",
+    "domain": "skagastrond.is",
+    "osm_relation_id": 56105
+  },
+  {
+    "id": "IS-0050",
+    "name": "Sveitarfélagið Stykkishólmur",
+    "country": "IS",
+    "region": "Vesturland",
+    "domain": "stykkisholmur.is",
+    "osm_relation_id": 8405089
+  },
+  {
+    "id": "IS-0051",
+    "name": "Sveitarfélagið Vogar",
+    "country": "IS",
+    "region": "Suðurnes",
+    "domain": "vogar.is",
+    "osm_relation_id": 8485229
+  },
+  {
+    "id": "IS-0052",
+    "name": "Sveitarfélagið Árborg",
+    "country": "IS",
+    "region": "Suðurland",
+    "domain": "arborg.is",
+    "osm_relation_id": 8811609
+  },
+  {
+    "id": "IS-0053",
+    "name": "Sveitarfélagið Ölfus",
+    "country": "IS",
+    "region": "Suðurland",
+    "domain": "olfus.is",
+    "osm_relation_id": 3822960
+  },
+  {
+    "id": "IS-0054",
+    "name": "Súðavíkurhreppur",
+    "country": "IS",
+    "region": "Vestfirðir",
+    "domain": "sudavik.is",
+    "osm_relation_id": 56184
+  },
+  {
+    "id": "IS-0055",
+    "name": "Tjörneshreppur",
+    "country": "IS",
+    "region": "Norðurland eystra",
+    "domain": "tjorneshreppur.is",
+    "osm_relation_id": 56153
+  },
+  {
+    "id": "IS-0056",
+    "name": "Vestmannaeyjabær",
+    "country": "IS",
+    "region": "Suðurland",
+    "domain": "vestmannaeyjar.is",
+    "osm_relation_id": 14433161
+  },
+  {
+    "id": "IS-0057",
+    "name": "Vesturbyggð",
+    "country": "IS",
+    "region": "Vestfirðir",
+    "domain": "vesturbyggd.is",
+    "osm_relation_id": 17699888
+  },
+  {
+    "id": "IS-0058",
+    "name": "Vopnafjarðarhreppur",
+    "country": "IS",
+    "region": "Austurland",
+    "domain": "vopnafjardarhreppur.is",
+    "osm_relation_id": 56147
+  },
+  {
+    "id": "IS-0059",
+    "name": "Árneshreppur",
+    "country": "IS",
+    "region": "Vestfirðir",
+    "domain": "arneshreppur.is",
+    "osm_relation_id": 56189
+  },
+  {
+    "id": "IS-0060",
+    "name": "Ásahreppur",
+    "country": "IS",
+    "region": "Suðurland",
+    "domain": "asahreppur.is",
+    "osm_relation_id": 8809518
+  },
+  {
+    "id": "IS-0061",
+    "name": "Ísafjarðarbær",
+    "country": "IS",
+    "region": "Vestfirðir",
+    "domain": "isafjordur.is",
+    "osm_relation_id": 56181
+  },
+  {
+    "id": "IS-0062",
+    "name": "Þingeyjarsveit",
+    "country": "IS",
+    "region": "Norðurland eystra",
+    "domain": "thingeyjarsveit.is",
+    "osm_relation_id": 56165
+  }
+]
