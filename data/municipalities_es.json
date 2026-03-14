@@ -414,5 +414,1637 @@
     "region": "Ciudad Autónoma de Melilla",
     "domain": "melilla.es",
     "osm_relation_id": 1154757
+  },
+  {
+    "id": "ES-04013",
+    "name": "Almería",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "almeria.es",
+    "osm_relation_id": 347796
+  },
+  {
+    "id": "ES-04902",
+    "name": "El Ejido",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "elejido.es",
+    "osm_relation_id": 345425
+  },
+  {
+    "id": "ES-04079",
+    "name": "Roquetas de Mar",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "roquetasdemar.es",
+    "osm_relation_id": 347557
+  },
+  {
+    "id": "ES-11012",
+    "name": "Cádiz",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "cadiz.es",
+    "osm_relation_id": 346956
+  },
+  {
+    "id": "ES-11020",
+    "name": "Jerez de la Frontera",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "jerez.es",
+    "osm_relation_id": 342097
+  },
+  {
+    "id": "ES-11004",
+    "name": "Algeciras",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "algeciras.es",
+    "osm_relation_id": 342446
+  },
+  {
+    "id": "ES-11027",
+    "name": "El Puerto de Santa María",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "elpuertosantamaria.es",
+    "osm_relation_id": 342093
+  },
+  {
+    "id": "ES-11015",
+    "name": "Chiclana de la Frontera",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "chiclana.es",
+    "osm_relation_id": 346951
+  },
+  {
+    "id": "ES-11033",
+    "name": "Sanlúcar de Barrameda",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "sanlucardebarrameda.es",
+    "osm_relation_id": 346649
+  },
+  {
+    "id": "ES-14021",
+    "name": "Córdoba",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "cordoba.es",
+    "osm_relation_id": 343207
+  },
+  {
+    "id": "ES-18087",
+    "name": "Granada",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "granada.org",
+    "osm_relation_id": 344685
+  },
+  {
+    "id": "ES-18127",
+    "name": "Motril",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "motril.es",
+    "osm_relation_id": 341939
+  },
+  {
+    "id": "ES-21041",
+    "name": "Huelva",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "huelva.es",
+    "osm_relation_id": 347727
+  },
+  {
+    "id": "ES-23050",
+    "name": "Jaén",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "aytojaen.es",
+    "osm_relation_id": 339631
+  },
+  {
+    "id": "ES-23055",
+    "name": "Linares",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "linares.es",
+    "osm_relation_id": 339626
+  },
+  {
+    "id": "ES-29067",
+    "name": "Málaga",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "malaga.eu",
+    "osm_relation_id": 5275848
+  },
+  {
+    "id": "ES-29069",
+    "name": "Marbella",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "marbella.es",
+    "osm_relation_id": 340756
+  },
+  {
+    "id": "ES-29070",
+    "name": "Mijas",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "mijas.es",
+    "osm_relation_id": 345097
+  },
+  {
+    "id": "ES-29025",
+    "name": "Benalmádena",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "benalmadena.es",
+    "osm_relation_id": 341440
+  },
+  {
+    "id": "ES-29032",
+    "name": "Estepona",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "estepona.es",
+    "osm_relation_id": 345409
+  },
+  {
+    "id": "ES-29038",
+    "name": "Fuengirola",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "fuengirola.org",
+    "osm_relation_id": 345414
+  },
+  {
+    "id": "ES-29090",
+    "name": "Torremolinos",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "torremolinos.es",
+    "osm_relation_id": 342268
+  },
+  {
+    "id": "ES-29094",
+    "name": "Vélez-Málaga",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "velezmalaga.es",
+    "osm_relation_id": 347397
+  },
+  {
+    "id": "ES-29012",
+    "name": "Antequera",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "antequera.es",
+    "osm_relation_id": 346011
+  },
+  {
+    "id": "ES-29084",
+    "name": "Ronda",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "ronda.es",
+    "osm_relation_id": 343088
+  },
+  {
+    "id": "ES-29008",
+    "name": "Alhaurín de la Torre",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "alhaurindetorre.es",
+    "osm_relation_id": 341769
+  },
+  {
+    "id": "ES-29079",
+    "name": "Rincón de la Victoria",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "rincondelavictoria.es",
+    "osm_relation_id": 343086
+  },
+  {
+    "id": "ES-41091",
+    "name": "Sevilla",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "sevilla.org",
+    "osm_relation_id": 342563
+  },
+  {
+    "id": "ES-41038",
+    "name": "Dos Hermanas",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "doshermanas.es",
+    "osm_relation_id": 341615
+  },
+  {
+    "id": "ES-41004",
+    "name": "Alcalá de Guadaíra",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "alcaladeguadaira.es",
+    "osm_relation_id": 345821
+  },
+  {
+    "id": "ES-41095",
+    "name": "Utrera",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "utrera.org",
+    "osm_relation_id": 342567
+  },
+  {
+    "id": "ES-41039",
+    "name": "Écija",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "ecija.es",
+    "osm_relation_id": 341614
+  },
+  {
+    "id": "ES-22125",
+    "name": "Huesca",
+    "country": "ES",
+    "region": "Aragón",
+    "domain": "huesca.es",
+    "osm_relation_id": 345769
+  },
+  {
+    "id": "ES-44216",
+    "name": "Teruel",
+    "country": "ES",
+    "region": "Aragón",
+    "domain": "teruel.es",
+    "osm_relation_id": 344962
+  },
+  {
+    "id": "ES-50297",
+    "name": "Zaragoza",
+    "country": "ES",
+    "region": "Aragón",
+    "domain": "zaragoza.es",
+    "osm_relation_id": 345740
+  },
+  {
+    "id": "ES-33024",
+    "name": "Gijón",
+    "country": "ES",
+    "region": "Principado de Asturias",
+    "domain": "gijon.es",
+    "osm_relation_id": 345576
+  },
+  {
+    "id": "ES-33044",
+    "name": "Oviedo",
+    "country": "ES",
+    "region": "Principado de Asturias",
+    "domain": "oviedo.es",
+    "osm_relation_id": 346397
+  },
+  {
+    "id": "ES-33004",
+    "name": "Avilés",
+    "country": "ES",
+    "region": "Principado de Asturias",
+    "domain": "aviles.es",
+    "osm_relation_id": 345851
+  },
+  {
+    "id": "ES-33037",
+    "name": "Mieres",
+    "country": "ES",
+    "region": "Principado de Asturias",
+    "domain": "mieres.es",
+    "osm_relation_id": 341144
+  },
+  {
+    "id": "ES-33031",
+    "name": "Langreo",
+    "country": "ES",
+    "region": "Principado de Asturias",
+    "domain": "langreo.es",
+    "osm_relation_id": 340702
+  },
+  {
+    "id": "ES-33066",
+    "name": "Siero",
+    "country": "ES",
+    "region": "Principado de Asturias",
+    "domain": "siero.es",
+    "osm_relation_id": 343626
+  },
+  {
+    "id": "ES-07040",
+    "name": "Palma",
+    "country": "ES",
+    "region": "Illes Balears",
+    "domain": "palma.cat",
+    "osm_relation_id": 341321
+  },
+  {
+    "id": "ES-07011",
+    "name": "Calvià",
+    "country": "ES",
+    "region": "Illes Balears",
+    "domain": "calvia.com",
+    "osm_relation_id": 342921
+  },
+  {
+    "id": "ES-07033",
+    "name": "Manacor",
+    "country": "ES",
+    "region": "Illes Balears",
+    "domain": "manacor.org",
+    "osm_relation_id": 342599
+  },
+  {
+    "id": "ES-07027",
+    "name": "Inca",
+    "country": "ES",
+    "region": "Illes Balears",
+    "domain": "ajinca.net",
+    "osm_relation_id": 347250
+  },
+  {
+    "id": "ES-07032",
+    "name": "Llucmajor",
+    "country": "ES",
+    "region": "Illes Balears",
+    "domain": "llucmajor.org",
+    "osm_relation_id": 342597
+  },
+  {
+    "id": "ES-07026",
+    "name": "Eivissa",
+    "country": "ES",
+    "region": "Illes Balears",
+    "domain": "eivissa.es",
+    "osm_relation_id": 347249
+  },
+  {
+    "id": "ES-07015",
+    "name": "Ciutadella de Menorca",
+    "country": "ES",
+    "region": "Illes Balears",
+    "domain": "ciutadella.es",
+    "osm_relation_id": 1809104
+  },
+  {
+    "id": "ES-07036",
+    "name": "Marratxí",
+    "country": "ES",
+    "region": "Illes Balears",
+    "domain": "marratxi.es",
+    "osm_relation_id": 342602
+  },
+  {
+    "id": "ES-35016",
+    "name": "Las Palmas de Gran Canaria",
+    "country": "ES",
+    "region": "Canarias",
+    "domain": "laspalmasgc.es",
+    "osm_relation_id": 340783
+  },
+  {
+    "id": "ES-35024",
+    "name": "Telde",
+    "country": "ES",
+    "region": "Canarias",
+    "domain": "telde.es",
+    "osm_relation_id": 345437
+  },
+  {
+    "id": "ES-35019",
+    "name": "Santa Lucía de Tirajana",
+    "country": "ES",
+    "region": "Canarias",
+    "domain": "santalucia.es",
+    "osm_relation_id": 345441
+  },
+  {
+    "id": "ES-38038",
+    "name": "Santa Cruz de Tenerife",
+    "country": "ES",
+    "region": "Canarias",
+    "domain": "santacruzdetenerife.es",
+    "osm_relation_id": 340727
+  },
+  {
+    "id": "ES-38023",
+    "name": "San Cristóbal de La Laguna",
+    "country": "ES",
+    "region": "Canarias",
+    "domain": "lalaguna.es",
+    "osm_relation_id": 345393
+  },
+  {
+    "id": "ES-38006",
+    "name": "Arona",
+    "country": "ES",
+    "region": "Canarias",
+    "domain": "arona.org",
+    "osm_relation_id": 345076
+  },
+  {
+    "id": "ES-35004",
+    "name": "Arrecife",
+    "country": "ES",
+    "region": "Canarias",
+    "domain": "arrecife.es",
+    "osm_relation_id": 345129
+  },
+  {
+    "id": "ES-39075",
+    "name": "Santander",
+    "country": "ES",
+    "region": "Cantabria",
+    "domain": "santander.es",
+    "osm_relation_id": 340797
+  },
+  {
+    "id": "ES-39087",
+    "name": "Torrelavega",
+    "country": "ES",
+    "region": "Cantabria",
+    "domain": "aytotorrelavega.es",
+    "osm_relation_id": 345456
+  },
+  {
+    "id": "ES-39020",
+    "name": "Castro-Urdiales",
+    "country": "ES",
+    "region": "Cantabria",
+    "domain": "castrourdiales.es",
+    "osm_relation_id": 344570
+  },
+  {
+    "id": "ES-02003",
+    "name": "Albacete",
+    "country": "ES",
+    "region": "Castilla-La Mancha",
+    "domain": "albacete.es",
+    "osm_relation_id": 346317
+  },
+  {
+    "id": "ES-13034",
+    "name": "Ciudad Real",
+    "country": "ES",
+    "region": "Castilla-La Mancha",
+    "domain": "ciudadreal.es",
+    "osm_relation_id": 348267
+  },
+  {
+    "id": "ES-13071",
+    "name": "Puertollano",
+    "country": "ES",
+    "region": "Castilla-La Mancha",
+    "domain": "puertollano.es",
+    "osm_relation_id": 339916
+  },
+  {
+    "id": "ES-16078",
+    "name": "Cuenca",
+    "country": "ES",
+    "region": "Castilla-La Mancha",
+    "domain": "cuenca.es",
+    "osm_relation_id": 344096
+  },
+  {
+    "id": "ES-19130",
+    "name": "Guadalajara",
+    "country": "ES",
+    "region": "Castilla-La Mancha",
+    "domain": "guadalajara.es",
+    "osm_relation_id": 342800
+  },
+  {
+    "id": "ES-45168",
+    "name": "Toledo",
+    "country": "ES",
+    "region": "Castilla-La Mancha",
+    "domain": "toledo.es",
+    "osm_relation_id": 342999
+  },
+  {
+    "id": "ES-45165",
+    "name": "Talavera de la Reina",
+    "country": "ES",
+    "region": "Castilla-La Mancha",
+    "domain": "talavera.org",
+    "osm_relation_id": 343000
+  },
+  {
+    "id": "ES-05019",
+    "name": "Ávila",
+    "country": "ES",
+    "region": "Castilla y León",
+    "domain": "avila.es",
+    "osm_relation_id": 348905
+  },
+  {
+    "id": "ES-09059",
+    "name": "Burgos",
+    "country": "ES",
+    "region": "Castilla y León",
+    "domain": "aytoburgos.es",
+    "osm_relation_id": 344165
+  },
+  {
+    "id": "ES-09018",
+    "name": "Aranda de Duero",
+    "country": "ES",
+    "region": "Castilla y León",
+    "domain": "arandadeduero.es",
+    "osm_relation_id": 343553
+  },
+  {
+    "id": "ES-09219",
+    "name": "Miranda de Ebro",
+    "country": "ES",
+    "region": "Castilla y León",
+    "domain": "mirandadeebro.es",
+    "osm_relation_id": 344449
+  },
+  {
+    "id": "ES-24089",
+    "name": "León",
+    "country": "ES",
+    "region": "Castilla y León",
+    "domain": "leon.es",
+    "osm_relation_id": 339984
+  },
+  {
+    "id": "ES-24115",
+    "name": "Ponferrada",
+    "country": "ES",
+    "region": "Castilla y León",
+    "domain": "ponferrada.org",
+    "osm_relation_id": 343993
+  },
+  {
+    "id": "ES-34120",
+    "name": "Palencia",
+    "country": "ES",
+    "region": "Castilla y León",
+    "domain": "aytopalencia.es",
+    "osm_relation_id": 347573
+  },
+  {
+    "id": "ES-37274",
+    "name": "Salamanca",
+    "country": "ES",
+    "region": "Castilla y León",
+    "domain": "aytosalamanca.es",
+    "osm_relation_id": 344342
+  },
+  {
+    "id": "ES-40194",
+    "name": "Segovia",
+    "country": "ES",
+    "region": "Castilla y León",
+    "domain": "segovia.es",
+    "osm_relation_id": 346134
+  },
+  {
+    "id": "ES-42173",
+    "name": "Soria",
+    "country": "ES",
+    "region": "Castilla y León",
+    "domain": "soria.es",
+    "osm_relation_id": 340050
+  },
+  {
+    "id": "ES-47186",
+    "name": "Valladolid",
+    "country": "ES",
+    "region": "Castilla y León",
+    "domain": "valladolid.es",
+    "osm_relation_id": 348849
+  },
+  {
+    "id": "ES-49275",
+    "name": "Zamora",
+    "country": "ES",
+    "region": "Castilla y León",
+    "domain": "zamora.es",
+    "osm_relation_id": 345042
+  },
+  {
+    "id": "ES-08019",
+    "name": "Barcelona",
+    "country": "ES",
+    "region": "Catalunya",
+    "domain": "barcelona.cat",
+    "osm_relation_id": 347950
+  },
+  {
+    "id": "ES-08015",
+    "name": "Badalona",
+    "country": "ES",
+    "region": "Catalunya",
+    "domain": "badalona.cat",
+    "osm_relation_id": 347954
+  },
+  {
+    "id": "ES-08101",
+    "name": "L'Hospitalet de Llobregat",
+    "country": "ES",
+    "region": "Catalunya",
+    "domain": "l-h.cat",
+    "osm_relation_id": 345401
+  },
+  {
+    "id": "ES-08245",
+    "name": "Terrassa",
+    "country": "ES",
+    "region": "Catalunya",
+    "domain": "terrassa.cat",
+    "osm_relation_id": 342210
+  },
+  {
+    "id": "ES-08187",
+    "name": "Sabadell",
+    "country": "ES",
+    "region": "Catalunya",
+    "domain": "sabadell.cat",
+    "osm_relation_id": 344202
+  },
+  {
+    "id": "ES-08121",
+    "name": "Mataró",
+    "country": "ES",
+    "region": "Catalunya",
+    "domain": "mataro.cat",
+    "osm_relation_id": 345587
+  },
+  {
+    "id": "ES-08205",
+    "name": "Santa Coloma de Gramenet",
+    "country": "ES",
+    "region": "Catalunya",
+    "domain": "gramenet.cat",
+    "osm_relation_id": 347480
+  },
+  {
+    "id": "ES-08184",
+    "name": "Rubí",
+    "country": "ES",
+    "region": "Catalunya",
+    "domain": "rubi.cat",
+    "osm_relation_id": 344200
+  },
+  {
+    "id": "ES-08073",
+    "name": "Cornellà de Llobregat",
+    "country": "ES",
+    "region": "Catalunya",
+    "domain": "cornellallobregat.cat",
+    "osm_relation_id": 339968
+  },
+  {
+    "id": "ES-08200",
+    "name": "Sant Cugat del Vallès",
+    "country": "ES",
+    "region": "Catalunya",
+    "domain": "santcugat.cat",
+    "osm_relation_id": 347540
+  },
+  {
+    "id": "ES-08266",
+    "name": "Viladecans",
+    "country": "ES",
+    "region": "Catalunya",
+    "domain": "viladecans.cat",
+    "osm_relation_id": 344522
+  },
+  {
+    "id": "ES-08114",
+    "name": "Manresa",
+    "country": "ES",
+    "region": "Catalunya",
+    "domain": "ajmanresa.cat",
+    "osm_relation_id": 346721
+  },
+  {
+    "id": "ES-08124",
+    "name": "Mollet del Vallès",
+    "country": "ES",
+    "region": "Catalunya",
+    "domain": "molletvalles.cat",
+    "osm_relation_id": 345553
+  },
+  {
+    "id": "ES-08096",
+    "name": "Granollers",
+    "country": "ES",
+    "region": "Catalunya",
+    "domain": "granollers.cat",
+    "osm_relation_id": 346608
+  },
+  {
+    "id": "ES-08056",
+    "name": "Castelldefels",
+    "country": "ES",
+    "region": "Catalunya",
+    "domain": "castelldefels.org",
+    "osm_relation_id": 339617
+  },
+  {
+    "id": "ES-08077",
+    "name": "Esplugues de Llobregat",
+    "country": "ES",
+    "region": "Catalunya",
+    "domain": "esplugues.cat",
+    "osm_relation_id": 339972
+  },
+  {
+    "id": "ES-08217",
+    "name": "Sant Feliu de Llobregat",
+    "country": "ES",
+    "region": "Catalunya",
+    "domain": "santfeliu.cat",
+    "osm_relation_id": 343436
+  },
+  {
+    "id": "ES-08307",
+    "name": "Vilanova i la Geltrú",
+    "country": "ES",
+    "region": "Catalunya",
+    "domain": "vilanova.cat",
+    "osm_relation_id": 344516
+  },
+  {
+    "id": "ES-08102",
+    "name": "Igualada",
+    "country": "ES",
+    "region": "Catalunya",
+    "domain": "igualada.cat",
+    "osm_relation_id": 345402
+  },
+  {
+    "id": "ES-08298",
+    "name": "Vic",
+    "country": "ES",
+    "region": "Catalunya",
+    "domain": "vic.cat",
+    "osm_relation_id": 341903
+  },
+  {
+    "id": "ES-08079",
+    "name": "Gavà",
+    "country": "ES",
+    "region": "Catalunya",
+    "domain": "gava.cat",
+    "osm_relation_id": 342072
+  },
+  {
+    "id": "ES-08072",
+    "name": "Cerdanyola del Vallès",
+    "country": "ES",
+    "region": "Catalunya",
+    "domain": "cerdanyola.cat",
+    "osm_relation_id": 346442
+  },
+  {
+    "id": "ES-08196",
+    "name": "Sant Boi de Llobregat",
+    "country": "ES",
+    "region": "Catalunya",
+    "domain": "santboi.cat",
+    "osm_relation_id": 347545
+  },
+  {
+    "id": "ES-08169",
+    "name": "El Prat de Llobregat",
+    "country": "ES",
+    "region": "Catalunya",
+    "domain": "elprat.cat",
+    "osm_relation_id": 345761
+  },
+  {
+    "id": "ES-17079",
+    "name": "Girona",
+    "country": "ES",
+    "region": "Catalunya",
+    "domain": "girona.cat",
+    "osm_relation_id": 343535
+  },
+  {
+    "id": "ES-25120",
+    "name": "Lleida",
+    "country": "ES",
+    "region": "Catalunya",
+    "domain": "paeria.cat",
+    "osm_relation_id": 346345
+  },
+  {
+    "id": "ES-43148",
+    "name": "Tarragona",
+    "country": "ES",
+    "region": "Catalunya",
+    "domain": "tarragona.cat",
+    "osm_relation_id": 339887
+  },
+  {
+    "id": "ES-43123",
+    "name": "Reus",
+    "country": "ES",
+    "region": "Catalunya",
+    "domain": "reus.cat",
+    "osm_relation_id": 340853
+  },
+  {
+    "id": "ES-28079",
+    "name": "Madrid",
+    "country": "ES",
+    "region": "Comunidad de Madrid",
+    "domain": "madrid.es",
+    "osm_relation_id": 5326784
+  },
+  {
+    "id": "ES-28092",
+    "name": "Móstoles",
+    "country": "ES",
+    "region": "Comunidad de Madrid",
+    "domain": "mostoles.es",
+    "osm_relation_id": 340288
+  },
+  {
+    "id": "ES-28005",
+    "name": "Alcalá de Henares",
+    "country": "ES",
+    "region": "Comunidad de Madrid",
+    "domain": "ayto-alcaladehenares.es",
+    "osm_relation_id": 345879
+  },
+  {
+    "id": "ES-28058",
+    "name": "Fuenlabrada",
+    "country": "ES",
+    "region": "Comunidad de Madrid",
+    "domain": "fuenlabrada.es",
+    "osm_relation_id": 340945
+  },
+  {
+    "id": "ES-28074",
+    "name": "Leganés",
+    "country": "ES",
+    "region": "Comunidad de Madrid",
+    "domain": "leganes.org",
+    "osm_relation_id": 342087
+  },
+  {
+    "id": "ES-28007",
+    "name": "Alcorcón",
+    "country": "ES",
+    "region": "Comunidad de Madrid",
+    "domain": "alcorcon.es",
+    "osm_relation_id": 345877
+  },
+  {
+    "id": "ES-28065",
+    "name": "Getafe",
+    "country": "ES",
+    "region": "Comunidad de Madrid",
+    "domain": "getafe.es",
+    "osm_relation_id": 345003
+  },
+  {
+    "id": "ES-28148",
+    "name": "Torrejón de Ardoz",
+    "country": "ES",
+    "region": "Comunidad de Madrid",
+    "domain": "torrejon.es",
+    "osm_relation_id": 343606
+  },
+  {
+    "id": "ES-28006",
+    "name": "Alcobendas",
+    "country": "ES",
+    "region": "Comunidad de Madrid",
+    "domain": "alcobendas.org",
+    "osm_relation_id": 345878
+  },
+  {
+    "id": "ES-28115",
+    "name": "Pozuelo de Alarcón",
+    "country": "ES",
+    "region": "Comunidad de Madrid",
+    "domain": "pozuelodealarcon.org",
+    "osm_relation_id": 347315
+  },
+  {
+    "id": "ES-28106",
+    "name": "Parla",
+    "country": "ES",
+    "region": "Comunidad de Madrid",
+    "domain": "parla.es",
+    "osm_relation_id": 342965
+  },
+  {
+    "id": "ES-28047",
+    "name": "Coslada",
+    "country": "ES",
+    "region": "Comunidad de Madrid",
+    "domain": "coslada.es",
+    "osm_relation_id": 345295
+  },
+  {
+    "id": "ES-28134",
+    "name": "San Sebastián de los Reyes",
+    "country": "ES",
+    "region": "Comunidad de Madrid",
+    "domain": "ssreyes.org",
+    "osm_relation_id": 347596
+  },
+  {
+    "id": "ES-28078",
+    "name": "Las Rozas de Madrid",
+    "country": "ES",
+    "region": "Comunidad de Madrid",
+    "domain": "lasrozas.es",
+    "osm_relation_id": 343285
+  },
+  {
+    "id": "ES-28090",
+    "name": "Majadahonda",
+    "country": "ES",
+    "region": "Comunidad de Madrid",
+    "domain": "majadahonda.org",
+    "osm_relation_id": 346958
+  },
+  {
+    "id": "ES-28158",
+    "name": "Tres Cantos",
+    "country": "ES",
+    "region": "Comunidad de Madrid",
+    "domain": "trescantos.es",
+    "osm_relation_id": 345419
+  },
+  {
+    "id": "ES-28161",
+    "name": "Valdemoro",
+    "country": "ES",
+    "region": "Comunidad de Madrid",
+    "domain": "valdemoro.es",
+    "osm_relation_id": 343923
+  },
+  {
+    "id": "ES-28113",
+    "name": "Pinto",
+    "country": "ES",
+    "region": "Comunidad de Madrid",
+    "domain": "ayto-pinto.es",
+    "osm_relation_id": 347321
+  },
+  {
+    "id": "ES-28013",
+    "name": "Aranjuez",
+    "country": "ES",
+    "region": "Comunidad de Madrid",
+    "domain": "aranjuez.es",
+    "osm_relation_id": 341634
+  },
+  {
+    "id": "ES-28029",
+    "name": "Collado Villalba",
+    "country": "ES",
+    "region": "Comunidad de Madrid",
+    "domain": "colladovillalba.es",
+    "osm_relation_id": 346306
+  },
+  {
+    "id": "ES-03014",
+    "name": "Alicante",
+    "country": "ES",
+    "region": "Comunitat Valenciana",
+    "domain": "alicante.es",
+    "osm_relation_id": 342792
+  },
+  {
+    "id": "ES-03065",
+    "name": "Elche",
+    "country": "ES",
+    "region": "Comunitat Valenciana",
+    "domain": "elche.es",
+    "osm_relation_id": 347684
+  },
+  {
+    "id": "ES-03133",
+    "name": "Torrevieja",
+    "country": "ES",
+    "region": "Comunitat Valenciana",
+    "domain": "torrevieja.es",
+    "osm_relation_id": 341237
+  },
+  {
+    "id": "ES-03031",
+    "name": "Benidorm",
+    "country": "ES",
+    "region": "Comunitat Valenciana",
+    "domain": "benidorm.org",
+    "osm_relation_id": 341148
+  },
+  {
+    "id": "ES-03099",
+    "name": "Orihuela",
+    "country": "ES",
+    "region": "Comunitat Valenciana",
+    "domain": "orihuela.es",
+    "osm_relation_id": 341472
+  },
+  {
+    "id": "ES-03066",
+    "name": "Elda",
+    "country": "ES",
+    "region": "Comunitat Valenciana",
+    "domain": "elda.es",
+    "osm_relation_id": 347681
+  },
+  {
+    "id": "ES-03063",
+    "name": "Dénia",
+    "country": "ES",
+    "region": "Comunitat Valenciana",
+    "domain": "denia.es",
+    "osm_relation_id": 347678
+  },
+  {
+    "id": "ES-03105",
+    "name": "Petrer",
+    "country": "ES",
+    "region": "Comunitat Valenciana",
+    "domain": "petrer.es",
+    "osm_relation_id": 345286
+  },
+  {
+    "id": "ES-03119",
+    "name": "Santa Pola",
+    "country": "ES",
+    "region": "Comunitat Valenciana",
+    "domain": "santapola.es",
+    "osm_relation_id": 345599
+  },
+  {
+    "id": "ES-12040",
+    "name": "Castellón de la Plana",
+    "country": "ES",
+    "region": "Comunitat Valenciana",
+    "domain": "castello.es",
+    "osm_relation_id": 344858
+  },
+  {
+    "id": "ES-12126",
+    "name": "Vila-real",
+    "country": "ES",
+    "region": "Comunitat Valenciana",
+    "domain": "vila-real.es",
+    "osm_relation_id": 346374
+  },
+  {
+    "id": "ES-46250",
+    "name": "Valencia",
+    "country": "ES",
+    "region": "Comunitat Valenciana",
+    "domain": "valencia.es",
+    "osm_relation_id": 344953
+  },
+  {
+    "id": "ES-46244",
+    "name": "Torrent",
+    "country": "ES",
+    "region": "Comunitat Valenciana",
+    "domain": "torrent.es",
+    "osm_relation_id": 340538
+  },
+  {
+    "id": "ES-46131",
+    "name": "Gandía",
+    "country": "ES",
+    "region": "Comunitat Valenciana",
+    "domain": "gandia.es",
+    "osm_relation_id": 339514
+  },
+  {
+    "id": "ES-46190",
+    "name": "Paterna",
+    "country": "ES",
+    "region": "Comunitat Valenciana",
+    "domain": "paterna.es",
+    "osm_relation_id": 346847
+  },
+  {
+    "id": "ES-46220",
+    "name": "Sagunto",
+    "country": "ES",
+    "region": "Comunitat Valenciana",
+    "domain": "sagunto.es",
+    "osm_relation_id": 348833
+  },
+  {
+    "id": "ES-46017",
+    "name": "Alzira",
+    "country": "ES",
+    "region": "Comunitat Valenciana",
+    "domain": "alzira.es",
+    "osm_relation_id": 345244
+  },
+  {
+    "id": "ES-46094",
+    "name": "Burjassot",
+    "country": "ES",
+    "region": "Comunitat Valenciana",
+    "domain": "burjassot.es",
+    "osm_relation_id": 346698
+  },
+  {
+    "id": "ES-46263",
+    "name": "Xàtiva",
+    "country": "ES",
+    "region": "Comunitat Valenciana",
+    "domain": "xativa.es",
+    "osm_relation_id": 343332
+  },
+  {
+    "id": "ES-46184",
+    "name": "Ontinyent",
+    "country": "ES",
+    "region": "Comunitat Valenciana",
+    "domain": "ontinyent.es",
+    "osm_relation_id": 342680
+  },
+  {
+    "id": "ES-46235",
+    "name": "Sueca",
+    "country": "ES",
+    "region": "Comunitat Valenciana",
+    "domain": "sueca.es",
+    "osm_relation_id": 340257
+  },
+  {
+    "id": "ES-01059",
+    "name": "Vitoria-Gasteiz",
+    "country": "ES",
+    "region": "Euskadi/País Vasco",
+    "domain": "vitoria-gasteiz.org",
+    "osm_relation_id": 344337
+  },
+  {
+    "id": "ES-48020",
+    "name": "Bilbao",
+    "country": "ES",
+    "region": "Euskadi/País Vasco",
+    "domain": "bilbao.eus",
+    "osm_relation_id": 339549
+  },
+  {
+    "id": "ES-48015",
+    "name": "Barakaldo",
+    "country": "ES",
+    "region": "Euskadi/País Vasco",
+    "domain": "barakaldo.eus",
+    "osm_relation_id": 340585
+  },
+  {
+    "id": "ES-48044",
+    "name": "Getxo",
+    "country": "ES",
+    "region": "Euskadi/País Vasco",
+    "domain": "getxo.eus",
+    "osm_relation_id": 344363
+  },
+  {
+    "id": "ES-48078",
+    "name": "Portugalete",
+    "country": "ES",
+    "region": "Euskadi/País Vasco",
+    "domain": "portugalete.org",
+    "osm_relation_id": 340243
+  },
+  {
+    "id": "ES-48082",
+    "name": "Sestao",
+    "country": "ES",
+    "region": "Euskadi/País Vasco",
+    "domain": "sestao.eus",
+    "osm_relation_id": 348929
+  },
+  {
+    "id": "ES-48016",
+    "name": "Basauri",
+    "country": "ES",
+    "region": "Euskadi/País Vasco",
+    "domain": "basauri.eus",
+    "osm_relation_id": 340591
+  },
+  {
+    "id": "ES-48036",
+    "name": "Galdakao",
+    "country": "ES",
+    "region": "Euskadi/País Vasco",
+    "domain": "galdakao.eus",
+    "osm_relation_id": 347735
+  },
+  {
+    "id": "ES-20069",
+    "name": "Donostia-San Sebastián",
+    "country": "ES",
+    "region": "Euskadi/País Vasco",
+    "domain": "donostia.eus",
+    "osm_relation_id": 346465
+  },
+  {
+    "id": "ES-20045",
+    "name": "Irun",
+    "country": "ES",
+    "region": "Euskadi/País Vasco",
+    "domain": "irun.org",
+    "osm_relation_id": 346782
+  },
+  {
+    "id": "ES-20030",
+    "name": "Eibar",
+    "country": "ES",
+    "region": "Euskadi/País Vasco",
+    "domain": "eibar.eus",
+    "osm_relation_id": 342896
+  },
+  {
+    "id": "ES-20079",
+    "name": "Zarautz",
+    "country": "ES",
+    "region": "Euskadi/País Vasco",
+    "domain": "zarautz.eus",
+    "osm_relation_id": 342241
+  },
+  {
+    "id": "ES-20063",
+    "name": "Errenteria",
+    "country": "ES",
+    "region": "Euskadi/País Vasco",
+    "domain": "errenteria.eus",
+    "osm_relation_id": 346459
+  },
+  {
+    "id": "ES-06015",
+    "name": "Badajoz",
+    "country": "ES",
+    "region": "Extremadura",
+    "domain": "aytobadajoz.es",
+    "osm_relation_id": 342316
+  },
+  {
+    "id": "ES-06083",
+    "name": "Mérida",
+    "country": "ES",
+    "region": "Extremadura",
+    "domain": "merida.es",
+    "osm_relation_id": 344700
+  },
+  {
+    "id": "ES-06044",
+    "name": "Don Benito",
+    "country": "ES",
+    "region": "Extremadura",
+    "domain": "donbenito.es",
+    "osm_relation_id": 345932
+  },
+  {
+    "id": "ES-06119",
+    "name": "Plasencia",
+    "country": "ES",
+    "region": "Extremadura",
+    "domain": "plasencia.es",
+    "osm_relation_id": 341866
+  },
+  {
+    "id": "ES-10037",
+    "name": "Cáceres",
+    "country": "ES",
+    "region": "Extremadura",
+    "domain": "caceres.es",
+    "osm_relation_id": 1899973
+  },
+  {
+    "id": "ES-15030",
+    "name": "A Coruña",
+    "country": "ES",
+    "region": "Galicia",
+    "domain": "coruna.gal",
+    "osm_relation_id": 346810
+  },
+  {
+    "id": "ES-15036",
+    "name": "Ferrol",
+    "country": "ES",
+    "region": "Galicia",
+    "domain": "ferrol.gal",
+    "osm_relation_id": 346812
+  },
+  {
+    "id": "ES-15059",
+    "name": "Oleiros",
+    "country": "ES",
+    "region": "Galicia",
+    "domain": "oleiros.gal",
+    "osm_relation_id": 346497
+  },
+  {
+    "id": "ES-15006",
+    "name": "Arteixo",
+    "country": "ES",
+    "region": "Galicia",
+    "domain": "arteixo.gal",
+    "osm_relation_id": 342626
+  },
+  {
+    "id": "ES-15031",
+    "name": "Culleredo",
+    "country": "ES",
+    "region": "Galicia",
+    "domain": "culleredo.gal",
+    "osm_relation_id": 346811
+  },
+  {
+    "id": "ES-15054",
+    "name": "Narón",
+    "country": "ES",
+    "region": "Galicia",
+    "domain": "naron.gal",
+    "osm_relation_id": 346499
+  },
+  {
+    "id": "ES-15078",
+    "name": "Santiago de Compostela",
+    "country": "ES",
+    "region": "Galicia",
+    "domain": "santiagodecompostela.gal",
+    "osm_relation_id": 346204
+  },
+  {
+    "id": "ES-15065",
+    "name": "Ribeira",
+    "country": "ES",
+    "region": "Galicia",
+    "domain": "ribeira.gal",
+    "osm_relation_id": 346201
+  },
+  {
+    "id": "ES-15019",
+    "name": "Carballo",
+    "country": "ES",
+    "region": "Galicia",
+    "domain": "carballo.gal",
+    "osm_relation_id": 347283
+  },
+  {
+    "id": "ES-27028",
+    "name": "Lugo",
+    "country": "ES",
+    "region": "Galicia",
+    "domain": "lugo.gal",
+    "osm_relation_id": 345264
+  },
+  {
+    "id": "ES-32054",
+    "name": "Ourense",
+    "country": "ES",
+    "region": "Galicia",
+    "domain": "ourense.gal",
+    "osm_relation_id": 343932
+  },
+  {
+    "id": "ES-36038",
+    "name": "Pontevedra",
+    "country": "ES",
+    "region": "Galicia",
+    "domain": "pontevedra.gal",
+    "osm_relation_id": 341736
+  },
+  {
+    "id": "ES-36057",
+    "name": "Vigo",
+    "country": "ES",
+    "region": "Galicia",
+    "domain": "vigo.org",
+    "osm_relation_id": 341381
+  },
+  {
+    "id": "ES-36060",
+    "name": "Vilagarcía de Arousa",
+    "country": "ES",
+    "region": "Galicia",
+    "domain": "vilagarcia.gal",
+    "osm_relation_id": 345680
+  },
+  {
+    "id": "ES-36043",
+    "name": "Redondela",
+    "country": "ES",
+    "region": "Galicia",
+    "domain": "redondela.gal",
+    "osm_relation_id": 345979
+  },
+  {
+    "id": "ES-36029",
+    "name": "Marín",
+    "country": "ES",
+    "region": "Galicia",
+    "domain": "marin.gal",
+    "osm_relation_id": 346272
+  },
+  {
+    "id": "ES-26089",
+    "name": "Logroño",
+    "country": "ES",
+    "region": "La Rioja",
+    "domain": "logrono.es",
+    "osm_relation_id": 340516
+  },
+  {
+    "id": "ES-31201",
+    "name": "Pamplona",
+    "country": "ES",
+    "region": "Comunidad Foral de Navarra",
+    "domain": "pamplona.es",
+    "osm_relation_id": 344401
+  },
+  {
+    "id": "ES-31232",
+    "name": "Tudela",
+    "country": "ES",
+    "region": "Comunidad Foral de Navarra",
+    "domain": "tudela.es",
+    "osm_relation_id": 339637
+  },
+  {
+    "id": "ES-30030",
+    "name": "Murcia",
+    "country": "ES",
+    "region": "Región de Murcia",
+    "domain": "murcia.es",
+    "osm_relation_id": 340611
+  },
+  {
+    "id": "ES-30016",
+    "name": "Cartagena",
+    "country": "ES",
+    "region": "Región de Murcia",
+    "domain": "ayto-cartagena.es",
+    "osm_relation_id": 344228
+  },
+  {
+    "id": "ES-30024",
+    "name": "Lorca",
+    "country": "ES",
+    "region": "Región de Murcia",
+    "domain": "lorca.es",
+    "osm_relation_id": 346913
+  },
+  {
+    "id": "ES-30027",
+    "name": "Molina de Segura",
+    "country": "ES",
+    "region": "Región de Murcia",
+    "domain": "molinadesegura.es",
+    "osm_relation_id": 346924
+  },
+  {
+    "id": "ES-30003",
+    "name": "Águilas",
+    "country": "ES",
+    "region": "Región de Murcia",
+    "domain": "aguilas.es",
+    "osm_relation_id": 344988
+  },
+  {
+    "id": "ES-30009",
+    "name": "Cieza",
+    "country": "ES",
+    "region": "Región de Murcia",
+    "domain": "cieza.es",
+    "osm_relation_id": 344569
+  },
+  {
+    "id": "ES-30042",
+    "name": "Yecla",
+    "country": "ES",
+    "region": "Región de Murcia",
+    "domain": "yecla.es",
+    "osm_relation_id": 345590
+  },
+  {
+    "id": "ES-30005",
+    "name": "Alcantarilla",
+    "country": "ES",
+    "region": "Región de Murcia",
+    "domain": "alcantarilla.es",
+    "osm_relation_id": 345087
+  },
+  {
+    "id": "ES-30035",
+    "name": "San Javier",
+    "country": "ES",
+    "region": "Región de Murcia",
+    "domain": "sanjavier.es",
+    "osm_relation_id": 340614
+  },
+  {
+    "id": "ES-30037",
+    "name": "Torre-Pacheco",
+    "country": "ES",
+    "region": "Región de Murcia",
+    "domain": "torrepacheco.es",
+    "osm_relation_id": 346019
+  },
+  {
+    "id": "ES-30025",
+    "name": "Mazarrón",
+    "country": "ES",
+    "region": "Región de Murcia",
+    "domain": "mazarron.es",
+    "osm_relation_id": 345277
+  },
+  {
+    "id": "ES-30015",
+    "name": "Caravaca de la Cruz",
+    "country": "ES",
+    "region": "Región de Murcia",
+    "domain": "caravacadelacruz.es",
+    "osm_relation_id": 344226
+  },
+  {
+    "id": "ES-11031",
+    "name": "San Fernando",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "sanfernando.es",
+    "osm_relation_id": 346652
+  },
+  {
+    "id": "ES-11022",
+    "name": "La Línea de la Concepción",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "lalinea.es",
+    "osm_relation_id": 342099
+  },
+  {
+    "id": "ES-29029",
+    "name": "Cártama",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "cartama.es",
+    "osm_relation_id": 345711
+  },
+  {
+    "id": "ES-38001",
+    "name": "Adeje",
+    "country": "ES",
+    "region": "Canarias",
+    "domain": "adeje.es",
+    "osm_relation_id": 345082
+  },
+  {
+    "id": "ES-38017",
+    "name": "Granadilla de Abona",
+    "country": "ES",
+    "region": "Canarias",
+    "domain": "granadilladeabona.org",
+    "osm_relation_id": 340395
+  },
+  {
+    "id": "ES-35002",
+    "name": "Arucas",
+    "country": "ES",
+    "region": "Canarias",
+    "domain": "arucas.org",
+    "osm_relation_id": 345131
+  },
+  {
+    "id": "ES-35017",
+    "name": "Puerto del Rosario",
+    "country": "ES",
+    "region": "Canarias",
+    "domain": "puertodelrosario.org",
+    "osm_relation_id": 340784
+  },
+  {
+    "id": "ES-35020",
+    "name": "San Bartolomé de Tirajana",
+    "country": "ES",
+    "region": "Canarias",
+    "domain": "sanbartolome.es",
+    "osm_relation_id": 340790
   }
 ]
