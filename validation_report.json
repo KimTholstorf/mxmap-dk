@@ -2041,13 +2041,14 @@
     },
     "DE-07338": {
       "name": "Rhein-Pfalz-Kreis",
-      "provider": "unknown",
-      "domain": "rhein-pfalz-kreis.de",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "rheinpfalzkreis.de",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "DE-07339": {

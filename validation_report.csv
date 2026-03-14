@@ -1,5 +1,4 @@
 bfs,name,provider,domain,confidence,flags
-DE-07338,Rhein-Pfalz-Kreis,unknown,rhein-pfalz-kreis.de,15,no_mx; no_spf; provider_unknown
 DE-15001,Dessau-Roßlau,independent,dessau-rosslau.de,50,no_spf; provider_classified
 DE-05112,Duisburg,independent,duisburg.de,50,no_spf; provider_classified
 DE-05915,Hamm,local-isp,hamm.de,50,no_spf; provider_classified
@@ -865,6 +864,7 @@ EE-0665,Rakvere vald,microsoft,rakverevald.ee,93,spf_softfail; mx_spf_match; pro
 EE-0668,Rapla vald,microsoft,rapla.ee,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 NO-3424,Rendalen,microsoft,rendalen.kommune.no,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
 DE-07141,Rhein-Lahn-Kreis,local-isp,rhein-lahn.rlp.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
+DE-07338,Rhein-Pfalz-Kreis,microsoft,rheinpfalzkreis.de,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 DE-05378,Rheinisch-Bergischer Kreis,local-isp,rbk-direkt.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 NO-3411,Ringsaker,microsoft,ringsaker.kommune.no,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
 FI-704,Rusko,microsoft,rusko.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms

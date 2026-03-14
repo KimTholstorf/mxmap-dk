@@ -232,6 +232,10 @@ MANUAL_OVERRIDES = {
     "DE-15089": {
         "domain": "kreis-slk.de",
     },
+    # Rhein-Pfalz-Kreis: rhein-pfalz-kreis.de has no MX, email on rheinpfalzkreis.de
+    "DE-07338": {
+        "domain": "rheinpfalzkreis.de",
+    },
 }
 
 

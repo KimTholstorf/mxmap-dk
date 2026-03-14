@@ -6,9 +6,8 @@
     "google":22,
     "independent":145,
     "local-isp":422,
-    "microsoft":1030,
+    "microsoft":1031,
     "telia":3,
-    "unknown":1,
     "zone":11
   },
   "municipalities":{
@@ -54,7 +53,7 @@
       "mx_countries":[
         "DE"
       ],
-      "smtp_banner":"220 mail3.addix.net ESMTP Server Sat, 14 Mar 2026 11:44:08 +0100"
+      "smtp_banner":"220 mail3.addix.net ESMTP Server Sat, 14 Mar 2026 11:58:20 +0100"
     },
     "DE-01003":{
       "bfs":"DE-01003",
@@ -877,7 +876,7 @@
       "mx_countries":[
         "DE"
       ],
-      "smtp_banner":"220 mailgate2.dw-services.net ESMTP Smtpd; Sat, 14 Mar 2026 11:44:17 +0100"
+      "smtp_banner":"220 mailgate2.dw-services.net ESMTP Smtpd; Sat, 14 Mar 2026 11:58:29 +0100"
     },
     "DE-03355":{
       "bfs":"DE-03355",
@@ -4152,12 +4151,28 @@
       "name":"Rhein-Pfalz-Kreis",
       "canton":"Rheinland-Pfalz",
       "country":"DE",
-      "domain":"rhein-pfalz-kreis.de",
-      "mx":[],
-      "spf":"",
-      "provider":"unknown",
-      "reason":"No MX records found",
-      "osm_relation_id":62610
+      "domain":"rheinpfalzkreis.de",
+      "mx":[
+        "rheinpfalzkreis-de.mail.protection.outlook.com"
+      ],
+      "spf":"v=spf1 include:spf.protection.outlook.com ~all",
+      "provider":"microsoft",
+      "reason":"MX record (rheinpfalzkreis-de.mail.protection.outlook.com) matches Microsoft",
+      "osm_relation_id":62610,
+      "spf_resolved":"v=spf1 include:spf.protection.outlook.com ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
+      "mx_asns":[
+        8075
+      ],
+      "mx_countries":[
+        "US"
+      ],
+      "autodiscover":{
+        "autodiscover_cname":"autodiscover.outlook.com"
+      },
+      "dkim":{
+        "selector1":"selector1-rheinpfalzkreis-de._domainkey.kreisverwaltungrheinpfalzkr.onmicrosoft.com",
+        "selector2":"selector2-rheinpfalzkreis-de._domainkey.kreisverwaltungrheinpfalzkr.onmicrosoft.com"
+      }
     },
     "DE-07339":{
       "bfs":"DE-07339",
