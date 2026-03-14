@@ -727,8 +727,8 @@ async function renderCountryLayer(cc) {
       if (isAggregated && groups) {
         const g = matchGroupFeature(feature, groups);
         if (g) {
-          const borderColor = g.second && g.dominance < 0.95 ? (COLORS[g.second] || '#666') : '#666';
-          const borderWeight = g.second && g.dominance < 0.95 ? 3 : 0.5;
+          const borderColor = g.second && g.dominance < 0.95 ? (COLORS[g.second] || '#999') : '#999';
+          const borderWeight = g.second && g.dominance < 0.95 ? 2 : 0.5;
           return { fillColor: COLORS[g.dominant] || COLORS['Unknown'], fillOpacity: 0.75, color: borderColor, weight: borderWeight };
         }
       } else {
@@ -797,13 +797,22 @@ function updateGatewayMarkers() {
 
 function updateDominanceMarkers() {
   dominanceMarkers.clearLayers();
-  // Only show at aggregated levels
+  // Only show at aggregated levels and when zoomed in enough
   if (currentLevel === 'municipality') return;
+  var zoom = map.getZoom();
+  var minZoom = currentLevel === 'region' ? 5 : 6;
+  if (zoom < minZoom) return;
   for (const [cc, layer] of countryLayers) {
     if (!activeCountries.has(cc)) continue;
     layer.eachLayer(function (sublayer) {
       const g = sublayer.feature ? sublayer.feature._matchedGroup : null;
       if (!g || g.dominance >= 0.95) return;
+      // Skip small polygons that would overlap
+      var bounds = sublayer.getBounds();
+      var size = map.latLngToLayerPoint(bounds.getNorthEast()).distanceTo(
+        map.latLngToLayerPoint(bounds.getSouthWest())
+      );
+      if (size < 40) return;
       const pct = Math.round(g.dominance * 100);
       const icon = L.divIcon({
         html: '<span style="font-size:10px;font-weight:700;color:#333;text-shadow:0 0 3px #fff,0 0 3px #fff,0 0 3px #fff">' + pct + '%</span>',
@@ -811,11 +820,13 @@ function updateDominanceMarkers() {
         iconSize: [30, 14],
         iconAnchor: [15, 7],
       });
-      const center = sublayer.getBounds().getCenter();
+      const center = bounds.getCenter();
       dominanceMarkers.addLayer(L.marker(center, { icon: icon, interactive: false }));
     });
   }
 }
+
+map.on('zoomend', function () { updateDominanceMarkers(); });
 
 function updateStyles() {
   for (const [cc, layer] of countryLayers) {
