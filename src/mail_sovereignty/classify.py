@@ -136,19 +136,36 @@ def classify(
     # 3. Known email gateway → look through to backend provider
     gateway = detect_gateway(mx_records) if mx_records else None
     if gateway:
-        # Only trust SPF if exactly one main provider is found;
-        # multiple providers in SPF is ambiguous (e.g., Microsoft for
-        # calendars + Google for transactional email)
-        spf_blob = ((spf_record or "") + " " + (resolved_spf or "")).lower()
+        # Only trust SPF if exactly one main provider is found in the
+        # DIRECT SPF record (not resolved). Resolved SPF follows transitive
+        # includes from third-party services (e.g., ekom21 → Microsoft)
+        # which don't prove the municipality itself uses that provider.
+        spf_blob = (spf_record or "").lower()
         spf_providers = set()
         for prov, keywords in PROVIDER_KEYWORDS.items():
             if any(k in spf_blob for k in keywords):
                 spf_providers.add(prov)
         if len(spf_providers) == 1:
             spf_provider = next(iter(spf_providers))
-            return spf_provider, (
-                f"MX is {gateway} gateway; SPF authorizes {spf_provider}"
-            )
+            # SPF behind a gateway is only trusted if corroborated by
+            # autodiscover or DKIM. SPF alone just means "authorized to send",
+            # not "hosts the mailbox" — many German municipalities include
+            # spf.protection.outlook.com for calendar sharing or hybrid use.
+            ad_provider = classify_from_autodiscover(autodiscover)
+            dkim_provider = classify_from_dkim(dkim)
+            if ad_provider == spf_provider or dkim_provider == spf_provider:
+                return spf_provider, (
+                    f"MX is {gateway} gateway; SPF+{'DKIM' if dkim_provider == spf_provider else 'autodiscover'} confirm {spf_provider}"
+                )
+            if ad_provider:
+                return ad_provider, (
+                    f"MX is {gateway} gateway; autodiscover points to {ad_provider}"
+                )
+            if dkim_provider:
+                return dkim_provider, (
+                    f"MX is {gateway} gateway; DKIM signs via {dkim_provider}"
+                )
+            # SPF-only behind gateway — not definitive, fall through
         ad_provider = classify_from_autodiscover(autodiscover)
         if ad_provider:
             return ad_provider, (

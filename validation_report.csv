@@ -142,17 +142,17 @@ SE-1272,Bromölla,microsoft,bromolla.se,80,spf_strict; independent_mx_with_cloud
 NO-3420,Elverum,microsoft,elverum.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
 DE-03402,Emden,microsoft,emden.de,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
 NO-1578,Fjord,microsoft,fjord.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
-NO-5626,Gamvik,microsoft,gamvik.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+NO-5626,Gamvik,independent,gamvik.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 DE-16052,Gera,local-isp,gera.de,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
 NO-1532,Giske,microsoft,giske.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
-NO-5045,Grong,microsoft,grong.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+NO-5045,Grong,independent,grong.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 NO-1580,Haram,microsoft,haram.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 NO-5056,Hitra,microsoft,hitra.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 SE-2104,Hofors,local-isp,hofors.se,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
 SE-2184,Hudiksvall,local-isp,hudiksvall.se,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
 SE-1266,Hörby,microsoft,horby.se,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
 SE-1267,Höör,microsoft,hoor.se,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
-NO-5046,Høylandet,microsoft,hoylandet.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+NO-5046,Høylandet,independent,hoylandet.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 DE-09161,Ingolstadt,local-isp,ingolstadt.de,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
 FI-261,Kittilä,microsoft,kittila.fi,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 SE-0330,Knivsta,microsoft,knivsta.se,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
@@ -167,17 +167,17 @@ DE-15091,Landkreis Wittenberg,independent,landkreis-wittenberg.de,80,spf_strict;
 DE-14713,Leipzig,local-isp,leipzig.de,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
 FI-416,Lemi,local-isp,lemi.fi,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
 NO-3312,Lier,microsoft,lier.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
-NO-5042,Lierne,microsoft,lierne.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+NO-5042,Lierne,independent,lierne.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 FI-444,Lohja,microsoft,lohja.fi,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
 FI-441,Luumäki,local-isp,luumaki.fi,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
 EE-0480,Mulgi vald,zone,mulgivald.ee,80,spf_strict; mx_spf_match; multi_provider_spf:microsoft+zone; provider_classified
 FI-499,Mustasaari,microsoft,mustasaari.fi,80,spf_strict; mx_spf_match; multi_provider_spf:google+mailgun+microsoft; provider_classified
-NO-5044,Namsskogan,microsoft,namsskogan.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+NO-5044,Namsskogan,independent,namsskogan.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 SE-2132,Nordanstig,local-isp,nordanstig.se,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
 SE-2121,Ovanåker,microsoft,ovanaker.se,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
 FI-580,Parikkala,local-isp,parikkala.fi,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
 LT-36,Prienų rajono savivaldybė,local-isp,prienai.lt,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
-NO-5043,Raarvihke - Røyrvik,microsoft,royrvik.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+NO-5043,Raarvihke - Røyrvik,independent,royrvik.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 SE-1081,Ronneby,local-isp,ronneby.se,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
 FI-700,Ruokolahti,local-isp,ruokolahti.fi,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
 LV-0848,Saldus novads,microsoft,saldus.lv,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
@@ -214,7 +214,7 @@ DE-08115,Landkreis Böblingen,local-isp,lrabb.de,83,multiple_mx; spf_softfail; i
 DE-03454,Landkreis Emsland,local-isp,emsland.de,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified
 DE-08116,Landkreis Esslingen,local-isp,landkreis-esslingen.de,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified
 DE-03457,Landkreis Leer,local-isp,landkreis-leer.de,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified
-DE-06438,Landkreis Offenbach,microsoft,kreis-offenbach.de,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+DE-06438,Landkreis Offenbach,independent,kreis-offenbach.de,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 FI-421,Lestijärvi,local-isp,lestijarvi.fi,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified
 FI-425,Liminka,local-isp,liminka.fi,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified
 FI-503,Mynämäki,microsoft,mynamaki.fi,83,spf_softfail; mx_spf_match; multi_provider_spf:google+microsoft; provider_classified; autodiscover_confirms
@@ -223,7 +223,7 @@ EE-0528,Nõo vald,zone,nvv.ee,83,spf_softfail; mx_spf_match; multi_provider_spf:
 SE-1421,Orust,microsoft,orust.se,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 EE-0615,Põhja-Sakala vald,microsoft,pohja-sakala.ee,83,spf_softfail; mx_spf_match; multi_provider_spf:mailgun+microsoft+zone; provider_classified; autodiscover_confirms
 EE-0651,Raasiku vald,microsoft,raasiku.ee,83,spf_softfail; mx_spf_match; multi_provider_spf:google+microsoft+zone; provider_classified; autodiscover_confirms
-NO-1833,Rana - Raane,microsoft,rana.kommune.no,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+NO-1833,Rana - Raane,independent,rana.kommune.no,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 DE-08119,Rems-Murr-Kreis,local-isp,rems-murr-kreis.de,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified
 EE-0712,Saarde vald,zone,saarde.ee,83,spf_softfail; mx_spf_match; multi_provider_spf:mailgun+microsoft+sendgrid+zone; provider_classified; autodiscover_confirms
 FI-734,Salo,microsoft,salo.fi,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified
@@ -235,11 +235,11 @@ LV-0027,Ventspils,independent,ventspils.lv,83,multiple_mx; spf_softfail; indepen
 FI-924,Veteli,local-isp,veteli.fi,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified
 SE-1407,Öckerö,microsoft,ockero.se,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 LT-01,Akmenės rajono savivaldybė,microsoft,akmene.lt,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; autodiscover_confirms
-DE-09361,Amberg,microsoft,amberg.de,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+DE-09361,Amberg,independent,amberg.de,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 NO-3203,Asker,microsoft,asker.kommune.no,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
 DE-09761,Augsburg,independent,augsburg.de,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
 NO-1839,Beiarn,microsoft,beiarn.kommune.no,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
-SE-2326,Berg,microsoft,berg.se,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+SE-2326,Berg,independent,berg.se,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 SE-2183,Bollnä,microsoft,bollnas.se,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
 SE-0127,Botkyrka,microsoft,botkyrka.se,85,spf_strict; mx_spf_match; multi_provider_spf:aws+microsoft; provider_classified; autodiscover_confirms
 DE-14511,Chemnitz,local-isp,chemnitz.de,85,mx_spf_match; provider_classified
@@ -247,7 +247,6 @@ SE-0162,Danderyd,microsoft,danderyd.se,85,spf_strict; mx_spf_match; multi_provid
 LT-07,Druskininkų savivaldybė,local-isp,druskininkai.lt,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
 SE-1382,Falkenberg,microsoft,falkenberg.se,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; autodiscover_confirms
 NO-1859,Flakstad,microsoft,flakstad.kommune.no,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
-SE-1763,Forshaga,telia,forshaga.se,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 FI-065,Geta,microsoft,geta.ax,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 SE-1380,Halmstad,microsoft,halmstad.se,85,spf_strict; mx_spf_match; multi_provider_spf:google+microsoft+sendgrid; provider_classified; autodiscover_confirms
 NO-5603,Hammerfest - Hámmerfeasta,microsoft,hammerfest.kommune.no,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
@@ -285,7 +284,7 @@ FI-305,Kuusamo,microsoft,kuusamo.fi,85,spf_strict; independent_mx_with_cloud_spf
 DE-09671,Landkreis Aschaffenburg,local-isp,landkreis-aschaffenburg.de,85,mx_spf_match; provider_classified
 DE-09772,Landkreis Augsburg,microsoft,landkreis-augsburg.de,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; autodiscover_confirms
 DE-09174,Landkreis Dachau,independent,landkreis-dachau.de,85,mx_spf_match; provider_classified
-DE-09477,Landkreis Kulmbach,microsoft,landkreis-kulmbach.de,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+DE-09477,Landkreis Kulmbach,independent,landkreis-kulmbach.de,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 DE-09575,Landkreis Neustadt an der Aisch-Bad Windsheim,local-isp,kreis-nea.de,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
 DE-08327,Landkreis Tuttlingen,local-isp,landkreis-tuttlingen.de,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
 DE-03461,Landkreis Wesermarsch,local-isp,wesermarsch.de,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
@@ -299,7 +298,7 @@ EE-0432,Luunja vald,microsoft,luunja.ee,85,spf_strict; mx_spf_match; multi_provi
 EE-0441,Lääne-Nigula vald,microsoft,laanenigula.ee,85,spf_strict; mx_spf_match; multi_provider_spf:elkdata+microsoft; provider_classified; autodiscover_confirms
 DE-06435,Main-Kinzig-Kreis,local-isp,mkk.de,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
 DE-08128,Main-Tauber-Kreis,independent,main-tauber-kreis.de,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
-SE-0586,Mjölby,microsoft,mjolby.se,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+SE-0586,Mjölby,independent,mjolby.se,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 NO-1874,Moskenes,microsoft,moskenes.kommune.no,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 SE-0583,Motala,microsoft,motala.se,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
 FI-494,Muhos,microsoft,muhos.fi,85,spf_strict; mx_spf_match; multi_provider_spf:google+microsoft+sendgrid; provider_classified; autodiscover_confirms
@@ -313,10 +312,10 @@ SE-0581,Norrköping,microsoft,norrkoping.se,85,spf_strict; mx_spf_match; multi_p
 SE-0188,Norrtälje,microsoft,norrtalje.se,85,spf_strict; mx_spf_match; multi_provider_spf:aws+microsoft; provider_classified; autodiscover_confirms
 FI-538,Nousiainen,microsoft,nousiainen.fi,85,spf_strict; mx_spf_match; multi_provider_spf:google+microsoft+sendgrid; provider_classified; autodiscover_confirms
 DE-09564,Nürnberg,independent,nuernberg.de,85,mx_spf_match; provider_classified
-SE-1060,Olofström,microsoft,olofstrom.se,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+SE-1060,Olofström,independent,olofstrom.se,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 NO-5021,Oppdal,microsoft,oppdal.kommune.no,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
 DE-03404,Osnabrück,local-isp,osnabrueck.de,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
-FI-581,Parkano,microsoft,parkano.fi,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+FI-581,Parkano,independent,parkano.fi,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 EE-0589,Peipsiääre vald,microsoft,peipsivald.ee,85,spf_strict; mx_spf_match; multi_provider_spf:microsoft+zone; provider_classified; autodiscover_confirms
 FI-583,Pelkosenniemi,microsoft,pelkosenniemi.fi,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
 DE-08231,Pforzheim,independent,pforzheim.de,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
@@ -455,6 +454,7 @@ SE-0862,Emmaboda,microsoft,emmaboda.se,90,spf_strict; mx_spf_match; provider_cla
 NO-3220,Enebakk,microsoft,enebakk.kommune.no,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; autodiscover_confirms
 SE-0381,Enköping,microsoft,enkoping.se,90,spf_strict; mx_spf_match; provider_classified
 DE-14521,Erzgebirgskreis,local-isp,kreis-erz.de,90,multiple_mx; mx_spf_match; provider_classified
+SE-1763,Forshaga,microsoft,forshaga.se,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
 NO-3214,Frogn,microsoft,frogn.kommune.no,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; autodiscover_confirms
 NO-4032,Fyresdal,independent,fyresdal.kommune.no,90,spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 NO-3441,Gausdal,microsoft,gausdal.kommune.no,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; autodiscover_confirms
@@ -599,7 +599,7 @@ DE-09362,Regensburg,independent,regensburg.de,90,spf_strict; mx_spf_match; provi
 DE-08226,Rhein-Neckar-Kreis,local-isp,rhein-neckar-kreis.de,90,spf_strict; mx_spf_match; provider_classified
 LT-39,Rietavo savivaldybė,local-isp,rietavas.lt,90,spf_strict; mx_spf_match; provider_classified
 LT-40,Rokiškio rajono savivaldybė,microsoft,rokiskis.lt,90,spf_strict; mx_spf_match; provider_classified
-DE-09163,Rosenheim,microsoft,rosenheim.de,90,multiple_mx; mx_spf_match; provider_classified; provider_via_gateway_spf
+DE-09163,Rosenheim,independent,rosenheim.de,90,multiple_mx; mx_spf_match; provider_classified; provider_via_gateway_spf
 NO-3224,Rælingen,microsoft,ralingen.kommune.no,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; autodiscover_confirms
 LV-0021,Rēzekne,local-isp,rezekne.lv,90,spf_strict; mx_spf_match; provider_classified
 LV-0001,Rīga,microsoft,riga.lv,90,spf_strict; mx_spf_match; provider_classified
@@ -665,7 +665,7 @@ NO-4220,Bygland,microsoft,bygland.kommune.no,93,spf_softfail; mx_spf_match; prov
 NO-1867,Bø,microsoft,boe.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 LV-0429,Cēsu novads,microsoft,cesis.lv,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 DE-06411,Darmstadt,independent,darmstadt.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
-LV-0468,Dobeles novads,independent,dobele.lv,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
+LV-0468,Dobeles novads,local-isp,dobele.lv,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-07333,Donnersbergkreis,local-isp,donnersberg.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-05111,Düsseldorf,local-isp,duesseldorf.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-07232,Eifelkreis Bitburg-Prüm,independent,bitburg-pruem.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
@@ -703,7 +703,7 @@ DE-16070,Ilm-Kreis,local-isp,ilm-kreis.de,93,multiple_mx; spf_softfail; mx_spf_m
 FI-151,Isojoki,microsoft,isojoki.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 FI-165,Janakkala,microsoft,janakkala.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 FI-171,Joroinen,microsoft,joroinen.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
-SE-0123,Järfälla,microsoft,jarfalla.se,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+SE-0123,Järfälla,independent,jarfalla.se,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
 SE-0680,Jönköping,microsoft,jonkoping.se,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 FI-202,Kaarina,microsoft,kaarina.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 DE-07312,Kaiserslautern,local-isp,kaiserslautern.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
@@ -868,7 +868,7 @@ SE-0428,Vingåker,microsoft,vingaker.se,93,spf_softfail; mx_spf_match; provider_
 FI-936,Virrat,microsoft,virrat.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 DE-06535,Vogelsbergkreis,local-isp,vogelsbergkreis.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-14523,Vogtlandkreis,local-isp,vogtlandkreis.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
-SE-0883,Västervik,microsoft,vastervik.se,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+SE-0883,Västervik,independent,vastervik.se,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
 DE-06414,Wiesbaden,independent,wiesbaden.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-07319,Worms,local-isp,worms.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 FI-981,Ypäjä,microsoft,ypaja.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
@@ -1095,7 +1095,7 @@ NO-4014,Kragerø,microsoft,kragero.kommune.no,95,spf_strict; mx_spf_match; provi
 DE-01051,Kreis Dithmarschen,local-isp,dithmarschen.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 DE-05366,Kreis Euskirchen,local-isp,kreis-euskirchen.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 DE-01053,Kreis Herzogtum Lauenburg,local-isp,kreis-rz.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
-DE-05158,Kreis Mettmann,google,kreis-mettmann.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+DE-05158,Kreis Mettmann,independent,kreis-mettmann.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 DE-01055,Kreis Ostholstein,local-isp,kreis-oh.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 DE-01056,Kreis Pinneberg,local-isp,kreis-pinneberg.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 DE-01057,Kreis Plön,local-isp,kreis-ploen.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
@@ -1139,7 +1139,7 @@ DE-09474,Landkreis Forchheim,independent,forchheim.de,95,multiple_mx; spf_strict
 DE-09573,Landkreis Fürth,local-isp,landkreis-fuerth.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 DE-06531,Landkreis Gießen,local-isp,lkgi.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 DE-16076,Landkreis Greiz,local-isp,landkreis-greiz.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
-DE-06433,Landkreis Groß-Gerau,microsoft,kreisgg.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+DE-06433,Landkreis Groß-Gerau,independent,kreisgg.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 DE-03159,Landkreis Göttingen,local-isp,landkreisgoettingen.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 DE-03252,Landkreis Hameln-Pyrmont,local-isp,hameln-pyrmont.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 DE-15085,Landkreis Harz,local-isp,kreis-hz.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
@@ -1302,7 +1302,7 @@ FI-681,Rantasalmi,microsoft,rantasalmi.fi,95,spf_strict; mx_spf_match; provider_
 FI-683,Ranua,microsoft,ranua.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 NO-1539,Rauma,microsoft,rauma.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 FI-686,Rautalampi,microsoft,rautalampi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
-DE-03241,Region Hannover,microsoft,hannover.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+DE-03241,Region Hannover,independent,hannover.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 DE-10041,Regionalverband Saarbrücken,local-isp,regionalverband-saarbruecken.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 FI-691,Reisjärvi,microsoft,reisjarvi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 DE-05120,Remscheid,local-isp,remscheid.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified

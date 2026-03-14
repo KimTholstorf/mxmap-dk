@@ -165,12 +165,21 @@ class TestClassify:
 
     # ── Gateway detection in classify() ──
 
-    def test_seppmail_gateway_with_microsoft_spf(self):
+    def test_seppmail_gateway_spf_plus_dkim_confirms_microsoft(self):
+        result = classify(
+            ["customer.seppmail.cloud"],
+            "v=spf1 include:spf.protection.outlook.com -all",
+            dkim={"selector1": "selector1-example._domainkey.tenant.onmicrosoft.com"},
+        )
+        assert provider(result) == "microsoft"
+
+    def test_seppmail_gateway_spf_only_stays_independent(self):
+        """SPF alone behind a gateway is not definitive."""
         result = classify(
             ["customer.seppmail.cloud"],
             "v=spf1 include:spf.protection.outlook.com -all",
         )
-        assert provider(result) == "microsoft"
+        assert provider(result) == "independent"
 
     def test_gateway_no_hyperscaler_spf_stays_independent(self):
         result = classify(
@@ -186,46 +195,54 @@ class TestClassify:
         )
         assert provider(result) == "independent"
 
-    def test_gateway_microsoft_in_resolved_spf(self):
+    def test_gateway_ignores_resolved_spf(self):
+        # Resolved SPF can contain transitive includes from third-party
+        # services (e.g., ekom21 → Microsoft) that don't prove the
+        # municipality uses that provider. Only direct SPF is checked.
         result = classify(
             ["mx01.hornetsecurity.com"],
             "v=spf1 include:custom.ee -all",
             resolved_spf="v=spf1 include:custom.ee -all v=spf1 include:spf.protection.outlook.com -all",
         )
-        assert provider(result) == "microsoft"
+        assert provider(result) == "independent"
 
-    def test_barracuda_gateway_with_microsoft_spf(self):
+    def test_barracuda_gateway_spf_plus_autodiscover(self):
         result = classify(
             ["mail.barracudanetworks.com"],
             "v=spf1 include:spf.protection.outlook.com -all",
+            autodiscover={"autodiscover_cname": "autodiscover.outlook.com"},
         )
         assert provider(result) == "microsoft"
 
-    def test_trendmicro_gateway_with_aws_spf(self):
+    def test_trendmicro_gateway_with_aws_spf_plus_dkim(self):
         result = classify(
             ["filter.tmes.trendmicro.eu"],
             "v=spf1 include:amazonses.com -all",
+            dkim={"selector1": "something.amazonses.com"},
         )
         assert provider(result) == "aws"
 
-    def test_hornetsecurity_gateway_with_microsoft_spf(self):
+    def test_hornetsecurity_gateway_spf_plus_dkim(self):
         result = classify(
             ["mx01.hornetsecurity.com"],
             "v=spf1 include:spf.protection.outlook.com -all",
+            dkim={"selector1": "selector1-x._domainkey.tenant.onmicrosoft.com"},
         )
         assert provider(result) == "microsoft"
 
-    def test_proofpoint_gateway_with_microsoft_spf(self):
+    def test_proofpoint_gateway_spf_plus_dkim(self):
         result = classify(
             ["mx1.ppe-hosted.com"],
             "v=spf1 include:spf.protection.outlook.com -all",
+            dkim={"selector1": "selector1-x._domainkey.tenant.onmicrosoft.com"},
         )
         assert provider(result) == "microsoft"
 
-    def test_sophos_gateway_with_microsoft_spf(self):
+    def test_sophos_gateway_spf_plus_dkim(self):
         result = classify(
             ["mx.hydra.sophos.com"],
             "v=spf1 include:spf.protection.outlook.com -all",
+            dkim={"selector1": "selector1-x._domainkey.tenant.onmicrosoft.com"},
         )
         assert provider(result) == "microsoft"
 
@@ -255,14 +272,15 @@ class TestClassify:
         )
         assert provider(result) == "google"
 
-    def test_gateway_spf_takes_precedence_over_autodiscover(self):
-        """If SPF already identifies a provider, autodiscover is not checked."""
+    def test_gateway_spf_uncorroborated_falls_to_autodiscover(self):
+        """SPF says Google but autodiscover says Microsoft — autodiscover wins
+        because SPF alone behind a gateway is not trusted."""
         result = classify(
             ["mx01.hornetsecurity.com"],
             "v=spf1 include:_spf.google.com -all",
             autodiscover={"autodiscover_cname": "autodiscover.outlook.com"},
         )
-        assert provider(result) == "google"
+        assert provider(result) == "microsoft"
 
     def test_non_gateway_independent_ignores_autodiscover(self):
         """Non-gateway independent MX stays independent regardless of autodiscover."""

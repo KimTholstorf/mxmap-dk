@@ -310,7 +310,7 @@
     },
     "DE-03241": {
       "name": "Region Hannover",
-      "provider": "microsoft",
+      "provider": "independent",
       "domain": "hannover.de",
       "confidence": 95,
       "flags": [
@@ -865,7 +865,7 @@
     },
     "DE-05158": {
       "name": "Kreis Mettmann",
-      "provider": "google",
+      "provider": "independent",
       "domain": "kreis-mettmann.de",
       "confidence": 95,
       "flags": [
@@ -1421,7 +1421,7 @@
     },
     "DE-06433": {
       "name": "Landkreis Groß-Gerau",
-      "provider": "microsoft",
+      "provider": "independent",
       "domain": "kreisgg.de",
       "confidence": 95,
       "flags": [
@@ -1479,7 +1479,7 @@
     },
     "DE-06438": {
       "name": "Landkreis Offenbach",
-      "provider": "microsoft",
+      "provider": "independent",
       "domain": "kreis-offenbach.de",
       "confidence": 83,
       "flags": [
@@ -2620,7 +2620,7 @@
     },
     "DE-09163": {
       "name": "Rosenheim",
-      "provider": "microsoft",
+      "provider": "independent",
       "domain": "rosenheim.de",
       "confidence": 90,
       "flags": [
@@ -2985,7 +2985,7 @@
     },
     "DE-09361": {
       "name": "Amberg",
-      "provider": "microsoft",
+      "provider": "independent",
       "domain": "amberg.de",
       "confidence": 85,
       "flags": [
@@ -3208,7 +3208,7 @@
     },
     "DE-09477": {
       "name": "Landkreis Kulmbach",
-      "provider": "microsoft",
+      "provider": "independent",
       "domain": "landkreis-kulmbach.de",
       "confidence": 85,
       "flags": [
@@ -7821,7 +7821,7 @@
     },
     "FI-581": {
       "name": "Parkano",
-      "provider": "microsoft",
+      "provider": "independent",
       "domain": "parkano.fi",
       "confidence": 85,
       "flags": [
@@ -10140,7 +10140,7 @@
     },
     "LV-0468": {
       "name": "Dobeles novads",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "dobele.lv",
       "confidence": 93,
       "flags": [
@@ -11290,7 +11290,7 @@
     },
     "NO-1833": {
       "name": "Rana - Raane",
-      "provider": "microsoft",
+      "provider": "independent",
       "domain": "rana.kommune.no",
       "confidence": 83,
       "flags": [
@@ -14133,7 +14133,7 @@
     },
     "NO-5042": {
       "name": "Lierne",
-      "provider": "microsoft",
+      "provider": "independent",
       "domain": "lierne.kommune.no",
       "confidence": 80,
       "flags": [
@@ -14145,7 +14145,7 @@
     },
     "NO-5043": {
       "name": "Raarvihke - Røyrvik",
-      "provider": "microsoft",
+      "provider": "independent",
       "domain": "royrvik.kommune.no",
       "confidence": 80,
       "flags": [
@@ -14157,7 +14157,7 @@
     },
     "NO-5044": {
       "name": "Namsskogan",
-      "provider": "microsoft",
+      "provider": "independent",
       "domain": "namsskogan.kommune.no",
       "confidence": 80,
       "flags": [
@@ -14169,7 +14169,7 @@
     },
     "NO-5045": {
       "name": "Grong",
-      "provider": "microsoft",
+      "provider": "independent",
       "domain": "grong.kommune.no",
       "confidence": 80,
       "flags": [
@@ -14181,7 +14181,7 @@
     },
     "NO-5046": {
       "name": "Høylandet",
-      "provider": "microsoft",
+      "provider": "independent",
       "domain": "hoylandet.kommune.no",
       "confidence": 80,
       "flags": [
@@ -14737,7 +14737,7 @@
     },
     "NO-5626": {
       "name": "Gamvik",
-      "provider": "microsoft",
+      "provider": "independent",
       "domain": "gamvik.kommune.no",
       "confidence": 80,
       "flags": [
@@ -14858,7 +14858,7 @@
     },
     "SE-0123": {
       "name": "Järfälla",
-      "provider": "microsoft",
+      "provider": "independent",
       "domain": "jarfalla.se",
       "confidence": 93,
       "flags": [
@@ -15464,7 +15464,7 @@
     },
     "SE-0586": {
       "name": "Mjölby",
-      "provider": "microsoft",
+      "provider": "independent",
       "domain": "mjolby.se",
       "confidence": 85,
       "flags": [
@@ -15826,7 +15826,7 @@
     },
     "SE-0883": {
       "name": "Västervik",
-      "provider": "microsoft",
+      "provider": "independent",
       "domain": "vastervik.se",
       "confidence": 93,
       "flags": [
@@ -15874,7 +15874,7 @@
     },
     "SE-1060": {
       "name": "Olofström",
-      "provider": "microsoft",
+      "provider": "independent",
       "domain": "olofstrom.se",
       "confidence": 85,
       "flags": [
@@ -17082,15 +17082,16 @@
     },
     "SE-1763": {
       "name": "Forshaga",
-      "provider": "telia",
+      "provider": "microsoft",
       "domain": "forshaga.se",
-      "confidence": 85,
+      "confidence": 90,
       "flags": [
         "multiple_mx",
         "spf_strict",
         "independent_mx_with_cloud_spf",
         "provider_classified",
-        "provider_via_gateway_spf"
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
       ]
     },
     "SE-1764": {
@@ -17905,7 +17906,7 @@
     },
     "SE-2326": {
       "name": "Berg",
-      "provider": "microsoft",
+      "provider": "independent",
       "domain": "berg.se",
       "confidence": 85,
       "flags": [
