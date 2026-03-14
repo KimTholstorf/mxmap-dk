@@ -88,9 +88,12 @@
     font-weight: 600; cursor: pointer; padding: 0; color: #333;
   }
 
-  .country-filters {
+  .map-controls {
     position: absolute; top: 10px; right: 10px; z-index: 1000;
-    display: flex; gap: 4px;
+    display: flex; flex-direction: column; align-items: flex-end; gap: 6px;
+  }
+  .country-filters {
+    display: flex; gap: 4px; flex-wrap: wrap; justify-content: flex-end;
   }
   .country-btn {
     background: white; border: 2px solid #ddd; border-radius: 5px;
@@ -99,6 +102,19 @@
   }
   .country-btn.active { border-color: #333; background: #333; color: white; }
   .country-btn:hover { border-color: #999; }
+
+  .level-toggle {
+    display: flex; background: white; border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1); overflow: hidden;
+  }
+  .level-btn {
+    background: white; border: none; border-right: 1px solid #e0e0e0;
+    padding: 6px 14px; cursor: pointer; font-size: 12px; font-weight: 600;
+    color: #666; transition: all 0.15s;
+  }
+  .level-btn:last-child { border-right: none; }
+  .level-btn.active { background: #333; color: white; }
+  .level-btn:hover:not(.active) { background: #f0f0f0; }
 
   .info-popup { font-size: 13px; line-height: 1.6; }
   .info-popup strong { font-size: 14px; }
@@ -122,6 +138,11 @@
     max-width: 260px; overflow: hidden; text-overflow: ellipsis;
   }
 
+  .provider-bar {
+    display: flex; height: 16px; border-radius: 3px; overflow: hidden; margin: 6px 0;
+  }
+  .provider-bar-seg { min-width: 2px; }
+
   @media (max-width: 600px) {
     .separator, .tagline { display: none; }
     .info-title { display: block; }
@@ -129,8 +150,9 @@
     .legend-toggle { display: block; }
     .legend.legend-collapsed .legend-content { display: none; }
     .legend.legend-collapsed { padding: 8px 12px; }
-    .country-filters { top: 6px; right: 6px; }
+    .map-controls { top: 6px; right: 6px; }
     .country-btn { padding: 3px 8px; font-size: 11px; }
+    .level-btn { padding: 4px 10px; font-size: 11px; }
   }
 </style>
 </head>
@@ -169,20 +191,27 @@
 </section>
 <main id="map" role="application" aria-label="Interactive map of Baltic municipality email providers">
   <div id="map-loading" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;z-index:1000;background:rgba(255,255,255,0.85);font-size:15px;color:#555;">Loading map data&hellip;</div>
-  <div class="country-filters">
-    <button class="country-btn active" data-country="EE">EE</button>
-    <button class="country-btn active" data-country="LV">LV</button>
-    <button class="country-btn active" data-country="LT">LT</button>
-    <button class="country-btn active" data-country="FI">FI</button>
-    <button class="country-btn active" data-country="NO">NO</button>
-    <button class="country-btn active" data-country="SE">SE</button>
-    <button class="country-btn active" data-country="DE">DE</button>
-    <button class="country-btn active" data-country="DK">DK</button>
-    <button class="country-btn active" data-country="AD">AD</button>
-    <button class="country-btn active" data-country="LU">LU</button>
-    <button class="country-btn active" data-country="BE">BE</button>
-    <button class="country-btn active" data-country="AT">AT</button>
-    <button class="country-btn active" data-country="CZ">CZ</button>
+  <div class="map-controls">
+    <div class="country-filters">
+      <button class="country-btn active" data-country="EE">EE</button>
+      <button class="country-btn active" data-country="LV">LV</button>
+      <button class="country-btn active" data-country="LT">LT</button>
+      <button class="country-btn active" data-country="FI">FI</button>
+      <button class="country-btn active" data-country="NO">NO</button>
+      <button class="country-btn active" data-country="SE">SE</button>
+      <button class="country-btn active" data-country="DE">DE</button>
+      <button class="country-btn active" data-country="DK">DK</button>
+      <button class="country-btn active" data-country="AD">AD</button>
+      <button class="country-btn active" data-country="LU">LU</button>
+      <button class="country-btn active" data-country="BE">BE</button>
+      <button class="country-btn active" data-country="AT">AT</button>
+      <button class="country-btn active" data-country="CZ">CZ</button>
+    </div>
+    <div class="level-toggle">
+      <button class="level-btn" data-level="region">Regions</button>
+      <button class="level-btn active" data-level="district">Districts</button>
+      <button class="level-btn" data-level="municipality">Municipalities</button>
+    </div>
   </div>
 </main>
 
@@ -211,17 +240,24 @@ const TIERS = {
 
 const FLAGS = { EE: '\u{1F1EA}\u{1F1EA}', LV: '\u{1F1F1}\u{1F1FB}', LT: '\u{1F1F1}\u{1F1F9}', FI: '\u{1F1EB}\u{1F1EE}', NO: '\u{1F1F3}\u{1F1F4}', SE: '\u{1F1F8}\u{1F1EA}', DE: '\u{1F1E9}\u{1F1EA}', DK: '\u{1F1E9}\u{1F1F0}', AD: '\u{1F1E6}\u{1F1E9}', LU: '\u{1F1F1}\u{1F1FA}', BE: '\u{1F1E7}\u{1F1EA}', AT: '\u{1F1E6}\u{1F1F9}', CZ: '\u{1F1E8}\u{1F1FF}' };
 
+const COUNTRY_LIST = ['EE', 'LV', 'LT', 'FI', 'NO', 'SE', 'DE', 'DK', 'AD', 'LU', 'BE', 'AT', 'CZ'];
+
 const US_PROVIDERS = new Set(['Microsoft', 'Google', 'AWS']);
 function hasLocalGateway(m) {
   return m.gateway && (m.mx_countries || []).includes(m.country) && US_PROVIDERS.has(m.classification.provider);
 }
 
+const INACTIVE_STYLE = { fillColor: '#f0f0f0', weight: 0.5, color: '#ccc', fillOpacity: 0.3 };
+
 // --- State ---
 let dnsData = null;
-let geoLayer = null;
+let manifest = null;
+let currentLevel = 'district';
+const topoCache = {};           // cacheKey -> parsed TopoJSON
+const countryLayers = new Map(); // "EE" -> L.geoJSON layer
 let gatewayMarkers = L.layerGroup();
 let updateLegend = function () {};
-let activeCountries = new Set(['EE', 'LV', 'LT', 'FI', 'NO', 'SE', 'DE', 'DK', 'AD', 'LU', 'BE', 'AT', 'CZ']);
+let activeCountries = new Set(COUNTRY_LIST);
 let muniByOsm = {};   // "relation/12345" -> municipality
 let muniByName = {};   // lowercase name -> municipality
 
@@ -311,7 +347,7 @@ function legendGroupHtml(label, keys, counts) {
   return `<div class="legend-group">${heading}${items}</div>`;
 }
 
-// --- Stats panel ---
+// --- Stats panel (always municipality-level) ---
 function buildStats(muniList) {
   const content = document.getElementById('stats-content');
   if (!content) return;
@@ -363,7 +399,7 @@ function buildStats(muniList) {
       }
       const cc = m.mx_countries || [];
       if (cc.includes('US')) mxUs++;
-      if (cc.some(c => ['EE', 'LV', 'LT', 'FI', 'NO', 'SE', 'DE', 'DK', 'AD', 'LU', 'BE', 'AT', 'CZ'].includes(c))) mxLocal++;
+      if (cc.some(c => COUNTRY_LIST.includes(c))) mxLocal++;
     }
     return { total: t, us, usLocalGw, sameCountry, otherEu, unk, providers, mxCountries, ispNames, mxUs, mxLocal };
   }
@@ -417,9 +453,9 @@ function buildStats(muniList) {
   const mxInUs = allStats.mxUs;
   html += `<p style="font-size:12px;color:#777;margin-top:8px"><strong>${mxInUs}</strong> of ${withMx} municipalities with MX records route mail through servers registered in the US.</p>`;
 
-  // Per-country breakdown — side by side
+  // Per-country breakdown
   const countryNames = { EE: 'Estonia', LV: 'Latvia', LT: 'Lithuania', FI: 'Finland', NO: 'Norway', SE: 'Sweden', DE: 'Germany', DK: 'Denmark', AD: 'Andorra', LU: 'Luxembourg', BE: 'Belgium', AT: 'Austria', CZ: 'Czechia' };
-  const activeList = ['EE', 'LV', 'LT', 'FI', 'NO', 'SE', 'DE', 'DK', 'AD', 'LU', 'BE', 'AT', 'CZ'].filter(cc => activeCountries.has(cc));
+  const activeList = COUNTRY_LIST.filter(cc => activeCountries.has(cc));
   const countryStats = {};
   for (const cc of activeList) {
     const list = filtered.filter(m => m.country === cc);
@@ -468,7 +504,6 @@ function matchFeature(feature) {
   const props = feature.properties || {};
   const osmId = feature.id || props.id || '';
   if (osmId && muniByOsm[osmId]) return muniByOsm[osmId];
-  // Try name match
   const name = (props.name || props.name_en || '').toLowerCase();
   if (name && muniByName[name]) return muniByName[name];
   return null;
@@ -478,6 +513,46 @@ function escapeHtml(str) {
   const el = document.createElement('span');
   el.textContent = str;
   return el.innerHTML;
+}
+
+// --- Aggregation ---
+function getGroupKey(m, fileLevelName) {
+  if (fileLevelName === 'region') return m.region || '';
+  if (fileLevelName === 'district') {
+    if (m.country === 'AT') return m.id.substring(0, 6);
+    if (m.country === 'BE') return m.id.substring(0, 5);
+    return m.region || '';
+  }
+  return m.id;
+}
+
+function computeAggregation(cc, fileLevelName) {
+  const munis = dnsData.municipalities.filter(m => m.country === cc);
+  const groups = {};
+  for (const m of munis) {
+    const key = getGroupKey(m, fileLevelName);
+    if (!groups[key]) groups[key] = { name: key, municipalities: [], providers: {} };
+    groups[key].municipalities.push(m);
+    const p = m.classification.provider;
+    groups[key].providers[p] = (groups[key].providers[p] || 0) + 1;
+  }
+  for (const g of Object.values(groups)) {
+    const entries = Object.entries(g.providers).sort((a, b) => b[1] - a[1]);
+    g.dominant = entries[0] ? entries[0][0] : 'Unknown';
+    g.count = g.municipalities.length;
+    g.hasGateway = g.municipalities.some(m => hasLocalGateway(m));
+  }
+  return groups;
+}
+
+function matchGroupFeature(feature, groups) {
+  const name = feature.properties ? feature.properties.name || '' : '';
+  if (groups[name]) return groups[name];
+  const lower = name.toLowerCase();
+  for (const [key, group] of Object.entries(groups)) {
+    if (key.toLowerCase() === lower) return group;
+  }
+  return null;
 }
 
 // --- Popup ---
@@ -546,33 +621,148 @@ function buildPopup(m) {
     `</div>`;
 }
 
-// --- Render ---
-function renderMap(topo) {
+function buildAggregatedPopup(group, feature, cc) {
+  const flag = FLAGS[cc] || '';
+  const name = feature.properties ? feature.properties.name || group.name : group.name;
+  const total = group.count;
+  const sortedProviders = Object.entries(group.providers).sort((a, b) => b[1] - a[1]);
+
+  const dominantColor = COLORS[group.dominant] || COLORS['Unknown'];
+  const textColor = DARK_TEXT.has(group.dominant) ? '#333' : '#fff';
+
+  // Stacked bar chart
+  let barChart = '<div class="provider-bar">';
+  for (const [provider, count] of sortedProviders) {
+    const pct = (count / total * 100).toFixed(1);
+    const color = COLORS[provider] || '#888';
+    barChart += `<div class="provider-bar-seg" style="width:${pct}%;background:${color}" title="${provider}: ${count} (${pct}%)"></div>`;
+  }
+  barChart += '</div>';
+
+  // Provider legend
+  let providerLegend = '<div style="font-size:11px;color:#666">';
+  for (const [provider, count] of sortedProviders) {
+    const color = COLORS[provider] || '#888';
+    const pct = (count / total * 100).toFixed(0);
+    providerLegend += `<span style="display:inline-block;width:10px;height:10px;background:${color};border-radius:2px;margin-right:4px;vertical-align:middle"></span>${escapeHtml(provider)}: ${count} (${pct}%)<br>`;
+  }
+  providerLegend += '</div>';
+
+  // Municipality list (scrollable)
+  const sorted = group.municipalities.slice().sort((a, b) => a.name.localeCompare(b.name));
+  let muniList = '<div class="popup-section"><div class="popup-section-title">Municipalities (' + total + ')</div>';
+  muniList += '<div style="max-height:200px;overflow-y:auto;font-size:11px">';
+  for (const m of sorted) {
+    const color = COLORS[m.classification.provider] || '#888';
+    muniList += `<div style="padding:1px 0"><span style="display:inline-block;width:8px;height:8px;background:${color};border-radius:2px;margin-right:4px;vertical-align:middle"></span>${escapeHtml(m.name)}</div>`;
+  }
+  muniList += '</div></div>';
+
+  return `<div class="info-popup">` +
+    `<strong>${flag} ${escapeHtml(name)}</strong>` +
+    ` <span class="provider-badge" style="background:${dominantColor};color:${textColor}">${escapeHtml(group.dominant)}</span>` +
+    `<br><span style="font-size:12px;color:#666">${total} municipalities</span>` +
+    barChart + providerLegend + muniList +
+    `</div>`;
+}
+
+// --- TopoJSON loading ---
+async function loadTopo(cc, level) {
+  if (!manifest || !manifest[cc]) return null;
+  const filename = manifest[cc].files[level];
+  if (!filename) return null;
+
+  const cacheKey = cc + ':' + filename;
+  if (topoCache[cacheKey]) return topoCache[cacheKey];
+
+  const res = await fetch('topo/' + filename);
+  if (!res.ok) return null;
+  const topo = await res.json();
+  topoCache[cacheKey] = topo;
+  return topo;
+}
+
+// --- Rendering ---
+function getFileLevelName(cc, level) {
+  if (!manifest || !manifest[cc]) return 'municipality';
+  const filename = manifest[cc].files[level] || '';
+  // "at_region.topo.json" -> "region"
+  const match = filename.match(/_([^.]+)\.topo\.json$/);
+  return match ? match[1] : 'municipality';
+}
+
+async function renderCountryLayer(cc) {
+  // Remove existing layer
+  if (countryLayers.has(cc)) {
+    map.removeLayer(countryLayers.get(cc));
+    countryLayers.delete(cc);
+  }
+
+  const topo = await loadTopo(cc, currentLevel);
+  if (!topo) return;
+
   const objectName = Object.keys(topo.objects)[0];
   const geojson = topojson.feature(topo, topo.objects[objectName]);
 
-  geoLayer = L.geoJSON(geojson, {
+  const fileLevelName = getFileLevelName(cc, currentLevel);
+  const muniFile = manifest[cc].files.municipality;
+  const currentFile = manifest[cc].files[currentLevel];
+  const isAggregated = currentFile !== muniFile;
+
+  let groups = null;
+  if (isAggregated) {
+    groups = computeAggregation(cc, fileLevelName);
+  }
+
+  const active = activeCountries.has(cc);
+
+  const layer = L.geoJSON(geojson, {
     style: function (feature) {
-      const m = matchFeature(feature);
-      if (!m || !activeCountries.has(m.country)) {
-        return { fillColor: '#f0f0f0', weight: 0.5, color: '#ccc', fillOpacity: 0.3 };
+      if (!active) return INACTIVE_STYLE;
+      if (isAggregated && groups) {
+        const g = matchGroupFeature(feature, groups);
+        if (g) {
+          return { fillColor: COLORS[g.dominant] || COLORS['Unknown'], fillOpacity: 0.75, color: '#666', weight: 0.5 };
+        }
+      } else {
+        const m = matchFeature(feature);
+        if (m) {
+          return { fillColor: COLORS[m.classification.provider] || COLORS['Unknown'], fillOpacity: 0.75, color: '#666', weight: 0.5 };
+        }
       }
-      const color = COLORS[m.classification.provider] || COLORS['Unknown'];
-      return { fillColor: color, fillOpacity: 0.75, color: '#666', weight: 0.5 };
+      return INACTIVE_STYLE;
     },
     onEachFeature: function (feature, layer) {
-      const m = matchFeature(feature);
-      if (!m) return;
-      layer.bindPopup(() => buildPopup(m), { maxWidth: 400 });
+      // Store match for updateStyles
+      if (isAggregated && groups) {
+        const g = matchGroupFeature(feature, groups);
+        feature._matchedGroup = g;
+        feature._matchedMuni = null;
+        if (g) {
+          layer.bindPopup(function () { return buildAggregatedPopup(g, feature, cc); }, { maxWidth: 400 });
+        }
+      } else {
+        const m = matchFeature(feature);
+        feature._matchedMuni = m;
+        feature._matchedGroup = null;
+        if (m) {
+          layer.bindPopup(function () { return buildPopup(m); }, { maxWidth: 400 });
+        }
+      }
+      feature._country = cc;
+
       layer.on('mouseover', function () {
-        if (activeCountries.has(m.country)) this.setStyle({ weight: 2, color: '#333' });
+        if (activeCountries.has(cc)) this.setStyle({ weight: 2, color: '#333' });
       });
       layer.on('mouseout', function () {
-        if (activeCountries.has(m.country)) this.setStyle({ weight: 0.5, color: '#666' });
+        if (activeCountries.has(cc)) this.setStyle({ weight: 0.5, color: '#666' });
         else this.setStyle({ weight: 0.5, color: '#ccc' });
       });
     }
-  }).addTo(map);
+  });
+
+  countryLayers.set(cc, layer);
+  layer.addTo(map);
 }
 
 const shieldIcon = L.divIcon({
@@ -584,29 +774,67 @@ const shieldIcon = L.divIcon({
 
 function updateGatewayMarkers() {
   gatewayMarkers.clearLayers();
-  if (!geoLayer) return;
-  geoLayer.eachLayer(function (layer) {
-    const m = matchFeature(layer.feature);
-    if (!m || !activeCountries.has(m.country) || !hasLocalGateway(m)) return;
-    const center = layer.getBounds().getCenter();
-    const marker = L.marker(center, { icon: shieldIcon, interactive: false });
-    gatewayMarkers.addLayer(marker);
-  });
+  // Only show gateway markers at municipality level
+  if (currentLevel !== 'municipality') return;
+  for (const [cc, layer] of countryLayers) {
+    if (!activeCountries.has(cc)) continue;
+    layer.eachLayer(function (sublayer) {
+      const m = sublayer.feature ? sublayer.feature._matchedMuni : null;
+      if (!m || !hasLocalGateway(m)) return;
+      const center = sublayer.getBounds().getCenter();
+      const marker = L.marker(center, { icon: shieldIcon, interactive: false });
+      gatewayMarkers.addLayer(marker);
+    });
+  }
 }
 
 function updateStyles() {
-  if (!geoLayer) return;
-  geoLayer.eachLayer(function (layer) {
-    const m = matchFeature(layer.feature);
-    if (!m || !activeCountries.has(m.country)) {
-      layer.setStyle({ fillColor: '#f0f0f0', weight: 0.5, color: '#ccc', fillOpacity: 0.3 });
-    } else {
-      const color = COLORS[m.classification.provider] || COLORS['Unknown'];
-      layer.setStyle({ fillColor: color, fillOpacity: 0.75, color: '#666', weight: 0.5 });
-    }
-  });
+  for (const [cc, layer] of countryLayers) {
+    const active = activeCountries.has(cc);
+    layer.eachLayer(function (sublayer) {
+      const feature = sublayer.feature;
+      if (!feature) return;
+      if (!active) {
+        sublayer.setStyle(INACTIVE_STYLE);
+        return;
+      }
+      const g = feature._matchedGroup;
+      const m = feature._matchedMuni;
+      if (g) {
+        sublayer.setStyle({ fillColor: COLORS[g.dominant] || COLORS['Unknown'], fillOpacity: 0.75, color: '#666', weight: 0.5 });
+      } else if (m) {
+        sublayer.setStyle({ fillColor: COLORS[m.classification.provider] || COLORS['Unknown'], fillOpacity: 0.75, color: '#666', weight: 0.5 });
+      } else {
+        sublayer.setStyle(INACTIVE_STYLE);
+      }
+    });
+  }
   updateGatewayMarkers();
 }
+
+// --- Level toggle ---
+async function setLevel(newLevel) {
+  currentLevel = newLevel;
+  document.querySelectorAll('.level-btn').forEach(function (btn) {
+    btn.classList.toggle('active', btn.dataset.level === newLevel);
+  });
+
+  // Show loading indicator briefly
+  const loading = document.getElementById('map-loading');
+  if (loading) loading.style.display = 'none';
+
+  await Promise.all(COUNTRY_LIST.map(function (cc) { return renderCountryLayer(cc); }));
+  gatewayMarkers.addTo(map);
+  updateGatewayMarkers();
+  updateLegend();
+}
+
+document.querySelectorAll('.level-btn').forEach(function (btn) {
+  btn.addEventListener('click', function () {
+    if (btn.dataset.level === currentLevel) return;
+    setLevel(btn.dataset.level);
+  });
+});
 
 // --- Country filters ---
 document.querySelectorAll('.country-btn').forEach(function (btn) {
@@ -623,13 +851,13 @@ document.querySelectorAll('.country-btn').forEach(function (btn) {
 
 // --- Load data ---
 async function loadData() {
-  const [topoRes, dataRes] = await Promise.all([
-    fetch('baltic-municipalities.topo.json'),
-    fetch('data.json')
+  const [dataRes, manifestRes] = await Promise.all([
+    fetch('data.json'),
+    fetch('topo/manifest.json')
   ]);
 
-  const topo = await topoRes.json();
   const raw = await dataRes.json();
+  manifest = await manifestRes.json();
 
   // Normalise pipeline output: municipalities may be a dict keyed by BFS
   const rawList = Array.isArray(raw.municipalities)
@@ -649,6 +877,7 @@ async function loadData() {
     const mxRecords = (m.mx || []).map((host, i) => ({ priority: (i + 1) * 10, host }));
     return {
       ...m,
+      id: m.bfs || '',
       region: m.canton || '',
       domain: m.domain || '',
       classification: {
@@ -728,8 +957,8 @@ async function loadData() {
   // Stats panel
   buildStats(dnsData.municipalities);
 
-  // Render map
-  renderMap(topo);
+  // Render all country layers at default level (district)
+  await Promise.all(COUNTRY_LIST.map(function (cc) { return renderCountryLayer(cc); }));
   gatewayMarkers.addTo(map);
   updateGatewayMarkers();
 

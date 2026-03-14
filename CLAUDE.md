@@ -17,6 +17,9 @@ uv run preprocess      # DNS lookups + classification (~30s)
 uv run postprocess     # Overrides, SMTP banners, scraping (~5 min)
 uv run validate        # Confidence scoring + quality gate
 
+# TopoJSON split (requires mapshaper: npm install -g mapshaper)
+python3 scripts/split_topo.py                    # Splits monolithic TopoJSON -> topo/
+
 # Tests
 uv run pytest                                    # All tests
 uv run pytest tests/test_classify.py             # Single file
@@ -73,7 +76,39 @@ All provider detection is keyword-based. To add a new provider:
 
 ### Frontend (`index.html`)
 
-Single-page app that fetches `data.json` + `baltic-municipalities.topo.json`. Normalizes pipeline output (dict keyed by BFS ID) into the shape the map expects. Features: country filters (EE/LV/LT/FI/NO) that update map styling, legend counts, and statistics; provider-colored choropleth; shield markers (🛡️) for municipalities with local gateways routing to US mailboxes; click popups with classification reason, MX server country, gateway warnings, autodiscover records, and DKIM records. Two mutually-exclusive collapsible panels: About (collapsed by default, with full classification algorithm) and Statistics (overall + per-country jurisdiction/provider/MX location breakdowns).
+Single-page app with three admin-level views (Region/District/Municipality) and per-country lazy-loaded TopoJSON.
+
+**Data loading:** Fetches `data.json` + `topo/manifest.json` on startup. The manifest maps each country × level to a TopoJSON file. Files are fetched on demand and cached in memory (`topoCache`). Default view is "Districts" (~760 features total).
+
+**Multi-level toggle:** Three-button segmented control (top-left) switches between Region, District, and Municipality views. Each level loads different TopoJSON files per country. For countries where two levels are identical (e.g., DE district=municipality), the manifest points both levels at the same file.
+
+**Per-country layers:** Each country has its own `L.geoJSON` layer stored in `countryLayers` Map. Country filter buttons add/remove layers and restyle them (active = provider-colored, inactive = gray).
+
+**Aggregation:** At Region/District levels, multiple municipalities map to one polygon. `computeAggregation()` groups municipalities by region name or district key (AT: first 3 digits of ID, BE: first 2 digits). Each group tracks dominant provider, provider breakdown, and municipality count. `matchGroupFeature()` matches dissolved TopoJSON features to groups by `name` property.
+
+**Popups:** Municipality level shows individual DNS data (MX, SPF, DKIM, autodiscover). Region/District level shows aggregated view: dominant provider badge, stacked provider bar chart, scrollable municipality list with provider dots.
+
+**Statistics panel:** Always shows municipality-level data — unaffected by the level toggle.
+
+**Gateway markers:** Shield icons (🛡️) only shown at municipality level.
+
+### TopoJSON Split (`scripts/split_topo.py`)
+
+Splits `baltic-municipalities.topo.json` (18 MB monolithic source) into per-country per-level files in `topo/`:
+
+```
+topo/
+  manifest.json                  # { CC: { levels, files, sizes } }
+  {cc}_municipality.topo.json    # Per-country municipality boundaries (simplified 15%)
+  {cc}_region.topo.json          # Dissolved by region field (11 countries)
+  {cc}_district.topo.json        # Dissolved by district key (AT, BE only)
+```
+
+**Process:** Converts monolithic TopoJSON → GeoJSON via mapshaper, matches features to seed data municipalities, annotates with country/region/district_key, then for each country: writes municipality TopoJSON, dissolves by region (using mapshaper `-dissolve`), dissolves by district_key for AT/BE. All files simplified 15% with `keep-shapes`.
+
+**Level aliasing:** When district=region or district=municipality for a country, `manifest.json` points both levels at the same file. Frontend detects this via `manifest[cc].files[level] === manifest[cc].files.municipality` to decide whether to aggregate.
+
+Run: `python3 scripts/split_topo.py` (requires mapshaper CLI).
 
 ### DNS Module (`dns.py`)
 
