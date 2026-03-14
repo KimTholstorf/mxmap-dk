@@ -41,6 +41,7 @@ COUNTRIES = [
     "AT",
     "CZ",
     "ES",
+    "FR",
 ]
 
 # Which conceptual level maps to which file level per country.
@@ -77,6 +78,11 @@ LEVEL_MAP = {
         "municipality": "municipality",
     },
     "ES": {
+        "region": "region",
+        "district": "municipality",
+        "municipality": "municipality",
+    },
+    "FR": {
         "region": "region",
         "district": "municipality",
         "municipality": "municipality",

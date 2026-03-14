@@ -70,6 +70,7 @@ SKIP_DOMAINS = {
     "example.cz",
     "example.is",
     "example.es",
+    "example.fr",
     "kommune.no",
     "sentry.io",
     "w3.org",
@@ -98,6 +99,9 @@ SUBPAGES = [
     "/contacto",  # Spanish
     "/contacta",  # Spanish (Catalan)
     "/sede-electronica",  # Spanish: "Electronic office"
+    "/nous-contacter",  # French: "Contact us"
+    "/contactez-nous",  # French: "Contact us"
+    "/mentions-legales",  # French: "Legal notice"
 ]
 
 GATEWAY_KEYWORDS = {
@@ -128,6 +132,11 @@ GATEWAY_KEYWORDS = {
     "siminn": ["spamvorn.internet.is"],
     "telefonica": ["correolimpio.telefonica.es"],
     "cdmon": ["cdmon.net", "cdmon.com"],
+    "vadesecure": ["vadesecure.com"],
+    "mailinblack": ["mailinblack.com"],
+    "mimecast": ["mimecast.com"],
+    "mailcontrol": ["mailcontrol.com"],
+    "security-mail": ["security-mail.net"],
 }
 
 # Local ISP ASNs (replaces SWISS_ISP_ASNS)
@@ -280,6 +289,14 @@ LOCAL_ISP_ASNS: dict[int, str] = {
     5577: "root.cz (CZ)",
     35592: "CZNIC/Coolhousing (CZ)",
     15685: "Casablanca INT (CZ)",
+    # France
+    16276: "OVH (FR)",
+    12876: "Online/Scaleway (FR)",
+    3215: "Orange (FR)",
+    15557: "LDCom/SFR (FR)",
+    5410: "Bouygues Telecom (FR)",
+    16347: "Inherent (FR)",
+    20756: "Nameshield (FR)",
     # Iceland
     6677: "Simnet/Vist (IS)",
     29689: "Skyggnir (IS)",

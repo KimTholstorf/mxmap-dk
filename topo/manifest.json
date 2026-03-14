@@ -238,5 +238,21 @@
       "es_region.topo.json": 272146,
       "es_municipality.topo.json": 911702
     }
+  },
+  "FR": {
+    "levels": [
+      "region",
+      "district",
+      "municipality"
+    ],
+    "files": {
+      "region": "fr_region.topo.json",
+      "district": "fr_municipality.topo.json",
+      "municipality": "fr_municipality.topo.json"
+    },
+    "sizes": {
+      "fr_region.topo.json": 16380,
+      "fr_municipality.topo.json": 78853
+    }
   }
 }
