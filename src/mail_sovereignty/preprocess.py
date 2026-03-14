@@ -9,7 +9,7 @@ from urllib.parse import urlparse
 import httpx
 
 from mail_sovereignty.classify import classify, detect_gateway
-from mail_sovereignty.constants import CONCURRENCY
+from mail_sovereignty.constants import CONCURRENCY, LOCAL_ISP_ASNS
 from mail_sovereignty.dns import (
     lookup_autodiscover,
     lookup_dkim,
@@ -214,6 +214,16 @@ async def scan_municipality(
             entry["mx_cnames"] = mx_cnames
         if mx_asns:
             entry["mx_asns"] = sorted(mx_asns)
+            # Resolve ISP name for local-isp entries
+            if provider == "local-isp":
+                for asn in mx_asns:
+                    if asn in LOCAL_ISP_ASNS:
+                        entry["isp_name"] = LOCAL_ISP_ASNS[asn]
+                        break
+        # Named local providers also get isp_name for frontend grouping
+        isp_display = {"zone": "Zone.eu", "telia": "Telia", "elkdata": "Elkdata", "tet": "TET"}
+        if provider in isp_display:
+            entry["isp_name"] = isp_display[provider]
         if mx_countries:
             entry["mx_countries"] = sorted(mx_countries)
         if autodiscover:

@@ -1,5 +1,5 @@
 {
-  "generated":"2026-03-14T08:52:34Z",
+  "generated":"2026-03-14T09:09:07Z",
   "total":1537,
   "counts":{
     "elkdata":1,
@@ -54,7 +54,7 @@
       "mx_countries":[
         "DE"
       ],
-      "smtp_banner":"220 mail3.addix.net ESMTP Server Sat, 14 Mar 2026 09:53:23 +0100"
+      "smtp_banner":"220 mail3.addix.net ESMTP Server Sat, 14 Mar 2026 10:09:48 +0100"
     },
     "DE-01003":{
       "bfs":"DE-01003",
@@ -75,6 +75,7 @@
       "mx_asns":[
         8881
       ],
+      "isp_name":"Versatel/1&1 (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -97,6 +98,7 @@
       "mx_asns":[
         8881
       ],
+      "isp_name":"Versatel/1&1 (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -119,6 +121,7 @@
       "mx_asns":[
         33846
       ],
+      "isp_name":"Dataport (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -141,6 +144,7 @@
       "mx_asns":[
         33846
       ],
+      "isp_name":"Dataport (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -163,6 +167,7 @@
       "mx_asns":[
         33846
       ],
+      "isp_name":"Dataport (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -189,6 +194,7 @@
         3209,
         62336
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -211,6 +217,7 @@
       "mx_asns":[
         33846
       ],
+      "isp_name":"Dataport (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -233,6 +240,7 @@
       "mx_asns":[
         33846
       ],
+      "isp_name":"Dataport (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -255,6 +263,7 @@
       "mx_asns":[
         33846
       ],
+      "isp_name":"Dataport (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -277,6 +286,7 @@
       "mx_asns":[
         33846
       ],
+      "isp_name":"Dataport (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -303,6 +313,7 @@
       "mx_asns":[
         33846
       ],
+      "isp_name":"Dataport (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -328,6 +339,7 @@
       "mx_asns":[
         33846
       ],
+      "isp_name":"Dataport (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -350,6 +362,7 @@
       "mx_asns":[
         33846
       ],
+      "isp_name":"Dataport (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -397,6 +410,7 @@
       "mx_asns":[
         9145
       ],
+      "isp_name":"EWE TEL (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -503,6 +517,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -524,6 +539,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -544,6 +560,7 @@
       "mx_asns":[
         13045
       ],
+      "isp_name":"KDO Niedersachsen (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -568,6 +585,7 @@
       "mx_asns":[
         13045
       ],
+      "isp_name":"KDO Niedersachsen (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -590,6 +608,7 @@
         3320,
         207592
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -642,6 +661,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -664,6 +684,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -685,6 +706,7 @@
       "mx_asns":[
         13045
       ],
+      "isp_name":"KDO Niedersachsen (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -711,6 +733,7 @@
       "mx_asns":[
         9145
       ],
+      "isp_name":"EWE TEL (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -733,6 +756,7 @@
       "mx_asns":[
         24961
       ],
+      "isp_name":"nol-IS/myLoc (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -758,6 +782,7 @@
       "mx_asns":[
         9145
       ],
+      "isp_name":"EWE TEL (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -779,6 +804,7 @@
       "mx_asns":[
         24940
       ],
+      "isp_name":"Hetzner (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -800,6 +826,7 @@
       "mx_asns":[
         9145
       ],
+      "isp_name":"EWE TEL (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -822,6 +849,7 @@
       "mx_asns":[
         24961
       ],
+      "isp_name":"nol-IS/myLoc (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -849,7 +877,7 @@
       "mx_countries":[
         "DE"
       ],
-      "smtp_banner":"220 mailgate2.dw-services.net ESMTP Smtpd; Sat, 14 Mar 2026 09:53:32 +0100"
+      "smtp_banner":"220 mailgate2.dw-services.net ESMTP Smtpd; Sat, 14 Mar 2026 10:09:57 +0100"
     },
     "DE-03355":{
       "bfs":"DE-03355",
@@ -912,6 +940,7 @@
       "mx_asns":[
         9145
       ],
+      "isp_name":"EWE TEL (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -933,6 +962,7 @@
       "mx_asns":[
         9145
       ],
+      "isp_name":"EWE TEL (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -975,6 +1005,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -998,6 +1029,7 @@
         9145,
         24679
       ],
+      "isp_name":"EWE TEL (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -1019,6 +1051,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -1065,6 +1098,7 @@
       "mx_asns":[
         9145
       ],
+      "isp_name":"EWE TEL (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -1087,6 +1121,7 @@
       "mx_asns":[
         9145
       ],
+      "isp_name":"EWE TEL (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -1112,6 +1147,7 @@
       "mx_asns":[
         9145
       ],
+      "isp_name":"EWE TEL (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -1134,6 +1170,7 @@
       "mx_asns":[
         6687
       ],
+      "isp_name":"communelink (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -1177,6 +1214,7 @@
       "mx_asns":[
         6687
       ],
+      "isp_name":"communelink (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -1202,6 +1240,7 @@
       "mx_asns":[
         9145
       ],
+      "isp_name":"EWE TEL (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -1224,6 +1263,7 @@
       "mx_asns":[
         6687
       ],
+      "isp_name":"communelink (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -1268,6 +1308,7 @@
       "mx_asns":[
         9145
       ],
+      "isp_name":"EWE TEL (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -1293,6 +1334,7 @@
       "mx_asns":[
         6687
       ],
+      "isp_name":"communelink (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -1315,6 +1357,7 @@
       "mx_asns":[
         9145
       ],
+      "isp_name":"EWE TEL (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -1337,6 +1380,7 @@
       "mx_asns":[
         9145
       ],
+      "isp_name":"EWE TEL (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -1359,6 +1403,7 @@
       "mx_asns":[
         6687
       ],
+      "isp_name":"communelink (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -1381,6 +1426,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -1445,6 +1491,7 @@
       "mx_asns":[
         210849
       ],
+      "isp_name":"ITK Rheinland (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -1533,6 +1580,7 @@
       "mx_asns":[
         210849
       ],
+      "isp_name":"ITK Rheinland (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -1556,6 +1604,7 @@
       "mx_asns":[
         8881
       ],
+      "isp_name":"Versatel/1&1 (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -1578,6 +1627,7 @@
       "mx_asns":[
         8881
       ],
+      "isp_name":"Versatel/1&1 (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -1594,12 +1644,14 @@
       ],
       "spf":"v=spf1 include:_spf.wuppertal.de include:spf.regioit.de -all",
       "provider":"local-isp",
-      "reason":"MX (mail1.wuppertal.de, mail2.wuppertal.de) hosted on Local ISP (TAL.de (DE))",
+      "reason":"MX (mail1.wuppertal.de, mail2.wuppertal.de) hosted on Local ISP (TAL.de (DE), WTnet Wuppertal (DE))",
       "osm_relation_id":62455,
       "spf_resolved":"v=spf1 include:_spf.wuppertal.de include:spf.regioit.de -all v=spf1 ip4:213.240.148.101 ip4:213.240.148.102 ip4:91.203.200.74 -all v=spf1 ip4:91.102.136.170 ip4:91.102.136.172 ip4:91.102.136.186 ip4:91.102.136.240 ip4:91.102.136.195 ip4:91.102.136.202 ip6:2a02:16f0::1:3 ip6:2a02:16f0::1:4 ip6:2a02:16f0::1:5 ip6:2a02:16f0::1:e ip6:2a02:16f0::1:f ?all",
       "mx_asns":[
-        8820
+        8820,
+        60123
       ],
+      "isp_name":"WTnet Wuppertal (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -1622,6 +1674,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -1645,6 +1698,7 @@
         8820,
         60123
       ],
+      "isp_name":"WTnet Wuppertal (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -1717,6 +1771,7 @@
       "mx_asns":[
         210849
       ],
+      "isp_name":"ITK Rheinland (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -1813,6 +1868,7 @@
       "mx_asns":[
         8422
       ],
+      "isp_name":"NetCologne (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -1856,6 +1912,7 @@
       "mx_asns":[
         34928
       ],
+      "isp_name":"regio iT (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -1879,6 +1936,7 @@
       "mx_asns":[
         34928
       ],
+      "isp_name":"regio iT (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -1904,6 +1962,7 @@
       "mx_asns":[
         202577
       ],
+      "isp_name":"KDVZ Frechen (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -1926,6 +1985,7 @@
       "mx_asns":[
         202577
       ],
+      "isp_name":"KDVZ Frechen (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -1978,6 +2038,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -2000,6 +2061,7 @@
       "mx_asns":[
         8422
       ],
+      "isp_name":"NetCologne (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -2022,6 +2084,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -2067,6 +2130,7 @@
       "mx_asns":[
         16024
       ],
+      "isp_name":"GELSEN-NET (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -2093,6 +2157,7 @@
       "mx_asns":[
         8881
       ],
+      "isp_name":"Versatel/1&1 (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -2143,6 +2208,7 @@
       "mx_asns":[
         8881
       ],
+      "isp_name":"Versatel/1&1 (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -2185,6 +2251,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -2205,6 +2272,7 @@
       "mx_asns":[
         8881
       ],
+      "isp_name":"Versatel/1&1 (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -2249,6 +2317,7 @@
       "mx_asns":[
         34928
       ],
+      "isp_name":"regio iT (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -2270,6 +2339,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -2312,6 +2382,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -2333,6 +2404,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -2357,6 +2429,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -2447,6 +2520,7 @@
       "mx_asns":[
         8881
       ],
+      "isp_name":"Versatel/1&1 (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -2488,6 +2562,7 @@
       "mx_asns":[
         201318
       ],
+      "isp_name":"Südwestfalen IT (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -2509,6 +2584,7 @@
       "mx_asns":[
         201318
       ],
+      "isp_name":"Südwestfalen IT (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -2530,6 +2606,7 @@
       "mx_asns":[
         201318
       ],
+      "isp_name":"Südwestfalen IT (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -2551,6 +2628,7 @@
       "mx_asns":[
         201318
       ],
+      "isp_name":"Südwestfalen IT (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -2575,6 +2653,7 @@
       "mx_asns":[
         201318
       ],
+      "isp_name":"Südwestfalen IT (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -2726,6 +2805,7 @@
       "mx_asns":[
         12897
       ],
+      "isp_name":"ENTEGA (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -2822,6 +2902,7 @@
       "mx_asns":[
         8767
       ],
+      "isp_name":"M-net (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -2852,6 +2933,7 @@
         9197,
         20810
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -2876,6 +2958,7 @@
       "mx_asns":[
         12897
       ],
+      "isp_name":"ENTEGA (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -2932,6 +3015,7 @@
         9197,
         20810
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -2958,6 +3042,7 @@
         9197,
         20810
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -2987,6 +3072,7 @@
         9197,
         20810
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -3012,6 +3098,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -3032,6 +3119,7 @@
       "mx_asns":[
         24940
       ],
+      "isp_name":"Hetzner (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -3056,6 +3144,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -3080,6 +3169,7 @@
         3320,
         197637
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -3105,6 +3195,7 @@
       "mx_asns":[
         20810
       ],
+      "isp_name":"ekom21 (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -3129,6 +3220,7 @@
       "mx_asns":[
         8319
       ],
+      "isp_name":"KGRZ Fulda (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -3150,6 +3242,7 @@
       "mx_asns":[
         8319
       ],
+      "isp_name":"KGRZ Fulda (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -3176,6 +3269,7 @@
         9197,
         20810
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -3205,6 +3299,7 @@
         9197,
         20810
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -3229,6 +3324,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -3250,6 +3346,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -3293,6 +3390,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -3313,6 +3411,7 @@
       "mx_asns":[
         13101
       ],
+      "isp_name":"TNG Stadtnetz (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -3336,6 +3435,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -3362,6 +3462,7 @@
         3320,
         42652
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -3386,6 +3487,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -3409,6 +3511,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -3432,6 +3535,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -3455,6 +3559,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -3519,6 +3624,7 @@
       "mx_asns":[
         9063
       ],
+      "isp_name":"Saarland IT (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -3598,6 +3704,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -3622,6 +3729,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -3646,6 +3754,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -3670,6 +3779,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -3693,6 +3803,7 @@
         3320,
         21473
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -3738,6 +3849,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -3759,6 +3871,7 @@
       "mx_asns":[
         21473
       ],
+      "isp_name":"Pfalzkom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -3783,6 +3896,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -3807,6 +3921,7 @@
       "mx_asns":[
         24940
       ],
+      "isp_name":"Hetzner (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -3831,6 +3946,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -3855,6 +3971,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -3878,6 +3995,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -3902,6 +4020,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -3926,6 +4045,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -3950,6 +4070,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -3973,6 +4094,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -4020,6 +4142,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -4056,6 +4179,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -4080,6 +4204,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -4102,6 +4227,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -4126,6 +4252,7 @@
       "mx_asns":[
         50964
       ],
+      "isp_name":"Komm.ONE (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -4150,6 +4277,7 @@
       "mx_asns":[
         50964
       ],
+      "isp_name":"Komm.ONE (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -4174,6 +4302,7 @@
       "mx_asns":[
         50964
       ],
+      "isp_name":"Komm.ONE (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -4198,6 +4327,7 @@
       "mx_asns":[
         50964
       ],
+      "isp_name":"Komm.ONE (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -4222,6 +4352,7 @@
       "mx_asns":[
         50964
       ],
+      "isp_name":"Komm.ONE (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -4247,6 +4378,7 @@
       "mx_asns":[
         553
       ],
+      "isp_name":"BelWü (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -4295,6 +4427,7 @@
       "mx_asns":[
         50964
       ],
+      "isp_name":"Komm.ONE (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -4369,6 +4502,7 @@
       "mx_asns":[
         50964
       ],
+      "isp_name":"Komm.ONE (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -4393,6 +4527,7 @@
       "mx_asns":[
         50964
       ],
+      "isp_name":"Komm.ONE (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -4417,6 +4552,7 @@
       "mx_asns":[
         50964
       ],
+      "isp_name":"Komm.ONE (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -4437,6 +4573,7 @@
       "mx_asns":[
         553
       ],
+      "isp_name":"BelWü (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -4458,6 +4595,7 @@
       "mx_asns":[
         13101
       ],
+      "isp_name":"TNG Stadtnetz (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -4531,6 +4669,7 @@
       "mx_asns":[
         21473
       ],
+      "isp_name":"Pfalzkom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -4555,6 +4694,7 @@
       "mx_asns":[
         50964
       ],
+      "isp_name":"Komm.ONE (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -4579,6 +4719,7 @@
       "mx_asns":[
         553
       ],
+      "isp_name":"BelWü (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -4630,6 +4771,7 @@
       "mx_asns":[
         50964
       ],
+      "isp_name":"Komm.ONE (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -4654,6 +4796,7 @@
       "mx_asns":[
         50964
       ],
+      "isp_name":"Komm.ONE (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -4677,6 +4820,7 @@
       "mx_asns":[
         50964
       ],
+      "isp_name":"Komm.ONE (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -4701,6 +4845,7 @@
       "mx_asns":[
         50964
       ],
+      "isp_name":"Komm.ONE (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -4727,6 +4872,7 @@
       "mx_asns":[
         50964
       ],
+      "isp_name":"Komm.ONE (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -4751,6 +4897,7 @@
       "mx_asns":[
         50964
       ],
+      "isp_name":"Komm.ONE (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -4775,6 +4922,7 @@
       "mx_asns":[
         50964
       ],
+      "isp_name":"Komm.ONE (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -4799,6 +4947,7 @@
       "mx_asns":[
         50964
       ],
+      "isp_name":"Komm.ONE (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -4823,6 +4972,7 @@
       "mx_asns":[
         50964
       ],
+      "isp_name":"Komm.ONE (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -4847,6 +4997,7 @@
       "mx_asns":[
         50964
       ],
+      "isp_name":"Komm.ONE (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -4871,6 +5022,7 @@
       "mx_asns":[
         50964
       ],
+      "isp_name":"Komm.ONE (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -4895,6 +5047,7 @@
       "mx_asns":[
         50964
       ],
+      "isp_name":"Komm.ONE (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -4919,6 +5072,7 @@
       "mx_asns":[
         50964
       ],
+      "isp_name":"Komm.ONE (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -4943,6 +5097,7 @@
       "mx_asns":[
         50964
       ],
+      "isp_name":"Komm.ONE (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -4967,6 +5122,7 @@
       "mx_asns":[
         50964
       ],
+      "isp_name":"Komm.ONE (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -4991,6 +5147,7 @@
       "mx_asns":[
         50964
       ],
+      "isp_name":"Komm.ONE (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -5015,6 +5172,7 @@
       "mx_asns":[
         50964
       ],
+      "isp_name":"Komm.ONE (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -5042,6 +5200,7 @@
       "mx_asns":[
         50964
       ],
+      "isp_name":"Komm.ONE (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -5066,6 +5225,7 @@
       "mx_asns":[
         50964
       ],
+      "isp_name":"Komm.ONE (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -5090,6 +5250,7 @@
       "mx_asns":[
         50964
       ],
+      "isp_name":"Komm.ONE (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -5114,6 +5275,7 @@
       "mx_asns":[
         50964
       ],
+      "isp_name":"Komm.ONE (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -5156,6 +5318,7 @@
       "mx_asns":[
         29014
       ],
+      "isp_name":"IN-Ulm (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -5228,6 +5391,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -5249,6 +5413,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -5269,6 +5434,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -5318,6 +5484,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -5339,6 +5506,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -5360,6 +5528,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -5383,6 +5552,7 @@
       "mx_asns":[
         34011
       ],
+      "isp_name":"AKDB Bayern (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -5403,6 +5573,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -5428,6 +5599,7 @@
         3209,
         12886
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -5448,6 +5620,7 @@
       "mx_asns":[
         34011
       ],
+      "isp_name":"AKDB Bayern (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -5469,6 +5642,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -5499,6 +5673,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -5526,7 +5701,7 @@
       "mx_countries":[
         "DE"
       ],
-      "smtp_banner":"220 gatekeeper3.space.net ESMTP"
+      "smtp_banner":"220 gatekeeper2.space.net ESMTP"
     },
     "DE-09185":{
       "bfs":"DE-09185",
@@ -5545,6 +5720,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -5586,6 +5762,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -5608,6 +5785,7 @@
       "mx_asns":[
         15598
       ],
+      "isp_name":"QSC/q.beyond (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -5630,6 +5808,7 @@
       "mx_asns":[
         8560
       ],
+      "isp_name":"IONOS/1&1 (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -5653,6 +5832,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -5674,6 +5854,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -5718,6 +5899,7 @@
       "mx_asns":[
         29014
       ],
+      "isp_name":"IN-Ulm (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -5745,6 +5927,7 @@
         3209,
         34011
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -5769,6 +5952,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -5790,6 +5974,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -5811,6 +5996,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -5833,6 +6019,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -5853,6 +6040,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -5874,6 +6062,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -5897,6 +6086,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -5917,6 +6107,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -5986,6 +6177,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -6007,6 +6199,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -6027,6 +6220,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -6048,6 +6242,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -6069,6 +6264,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -6111,6 +6307,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -6132,6 +6329,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -6153,6 +6351,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -6196,6 +6395,7 @@
         3209,
         28876
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -6217,6 +6417,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -6237,6 +6438,7 @@
       "mx_asns":[
         24940
       ],
+      "isp_name":"Hetzner (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -6257,6 +6459,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -6282,6 +6485,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -6326,6 +6530,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -6347,6 +6552,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -6391,6 +6597,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -6412,6 +6619,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -6433,6 +6641,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -6554,6 +6763,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -6601,6 +6811,7 @@
       "mx_asns":[
         15817
       ],
+      "isp_name":"WOBCOM (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -6622,6 +6833,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -6665,6 +6877,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -6689,6 +6902,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -6710,6 +6924,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -6731,6 +6946,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -6772,6 +6988,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -6793,6 +7010,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -6816,6 +7034,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -6865,6 +7084,7 @@
       "mx_asns":[
         15817
       ],
+      "isp_name":"WOBCOM (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -6886,6 +7106,7 @@
       "mx_asns":[
         34788
       ],
+      "isp_name":"NM-NET (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -6906,6 +7127,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -6927,6 +7149,7 @@
       "mx_asns":[
         24940
       ],
+      "isp_name":"Hetzner (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -6948,6 +7171,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -7021,6 +7245,7 @@
       "mx_asns":[
         8767
       ],
+      "isp_name":"M-net (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -7042,6 +7267,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -7064,6 +7290,7 @@
         3320,
         8767
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -7112,6 +7339,7 @@
       "mx_asns":[
         24940
       ],
+      "isp_name":"Hetzner (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -7184,6 +7412,7 @@
         3209,
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -7206,6 +7435,7 @@
       "mx_asns":[
         8560
       ],
+      "isp_name":"IONOS/1&1 (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -7244,6 +7474,7 @@
       "mx_asns":[
         3209
       ],
+      "isp_name":"Vodafone (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -7288,6 +7519,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -7310,6 +7542,7 @@
         8937,
         42652
       ],
+      "isp_name":"eCube/Saarland IT (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -7333,6 +7566,7 @@
         9063,
         203412
       ],
+      "isp_name":"Saarland IT (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -7357,6 +7591,7 @@
       "mx_asns":[
         42652
       ],
+      "isp_name":"eCube/Saarland IT (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -7377,6 +7612,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -7397,6 +7633,7 @@
       "mx_asns":[
         9063
       ],
+      "isp_name":"Saarland IT (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -7442,6 +7679,7 @@
       "mx_asns":[
         12693
       ],
+      "isp_name":"DIKOM Brandenburg (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -7462,6 +7700,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -7487,6 +7726,7 @@
       "mx_asns":[
         680
       ],
+      "isp_name":"DFN (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -7508,7 +7748,6 @@
       "osm_relation_id":62369,
       "mx_asns":[
         3257,
-        13246,
         24993
       ],
       "mx_countries":[
@@ -7552,6 +7791,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -7581,6 +7821,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -7601,6 +7842,7 @@
       "mx_asns":[
         12693
       ],
+      "isp_name":"DIKOM Brandenburg (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -7645,6 +7887,7 @@
       "mx_asns":[
         12693
       ],
+      "isp_name":"DIKOM Brandenburg (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -7713,6 +7956,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -7733,6 +7977,7 @@
       "mx_asns":[
         12693
       ],
+      "isp_name":"DIKOM Brandenburg (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -7780,6 +8025,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -7801,6 +8047,7 @@
       "mx_asns":[
         12693
       ],
+      "isp_name":"DIKOM Brandenburg (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -7822,6 +8069,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -7843,6 +8091,7 @@
       "mx_asns":[
         680
       ],
+      "isp_name":"DFN (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -7864,6 +8113,7 @@
       "mx_asns":[
         8351
       ],
+      "isp_name":"SIS Schwerin (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -7888,6 +8138,7 @@
       "mx_asns":[
         13101
       ],
+      "isp_name":"TNG Stadtnetz (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -7929,6 +8180,7 @@
       "mx_asns":[
         198435
       ],
+      "isp_name":"DVZ-MV (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -7951,6 +8203,7 @@
       "mx_asns":[
         198435
       ],
+      "isp_name":"DVZ-MV (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -7976,6 +8229,7 @@
       "mx_asns":[
         198435
       ],
+      "isp_name":"DVZ-MV (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -7997,6 +8251,7 @@
       "mx_asns":[
         8351
       ],
+      "isp_name":"SIS Schwerin (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -8017,6 +8272,7 @@
       "mx_asns":[
         16097
       ],
+      "isp_name":"TELEPORT (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -8061,6 +8317,7 @@
       "mx_asns":[
         61352
       ],
+      "isp_name":"KISA Sachsen (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -8083,6 +8340,7 @@
       "mx_asns":[
         61352
       ],
+      "isp_name":"KISA Sachsen (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -8105,6 +8363,7 @@
       "mx_asns":[
         61352
       ],
+      "isp_name":"KISA Sachsen (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -8127,6 +8386,7 @@
       "mx_asns":[
         61352
       ],
+      "isp_name":"KISA Sachsen (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -8147,6 +8407,7 @@
       "mx_asns":[
         24940
       ],
+      "isp_name":"Hetzner (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -8169,6 +8430,7 @@
       "mx_asns":[
         15598
       ],
+      "isp_name":"QSC/q.beyond (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -8191,6 +8453,7 @@
       "mx_asns":[
         61352
       ],
+      "isp_name":"KISA Sachsen (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -8213,6 +8476,7 @@
       "mx_asns":[
         61352
       ],
+      "isp_name":"KISA Sachsen (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -8234,6 +8498,7 @@
       "mx_asns":[
         16097
       ],
+      "isp_name":"TELEPORT (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -8272,6 +8537,7 @@
       "mx_asns":[
         34788
       ],
+      "isp_name":"NM-NET (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -8338,6 +8604,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -8359,6 +8626,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -8410,6 +8678,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -8432,9 +8701,10 @@
       "reason":"MX (mailer.burgenlandkreis.de, xmail.burgenlandkreis.de) hosted on Local ISP (AKDB Bayern (DE))",
       "osm_relation_id":62639,
       "mx_asns":[
-        3356,
-        34011
+        34011,
+        61157
       ],
+      "isp_name":"AKDB Bayern (DE)",
       "mx_countries":[
         "DE",
         "GB"
@@ -8458,6 +8728,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -8505,6 +8776,7 @@
         3320,
         206196
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -8530,6 +8802,7 @@
       "mx_asns":[
         16097
       ],
+      "isp_name":"TELEPORT (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -8562,6 +8835,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -8609,6 +8883,7 @@
       "mx_asns":[
         680
       ],
+      "isp_name":"DFN (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -8630,6 +8905,7 @@
       "mx_asns":[
         8881
       ],
+      "isp_name":"Versatel/1&1 (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -8650,6 +8926,7 @@
       "mx_asns":[
         680
       ],
+      "isp_name":"DFN (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -8720,6 +8997,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -8741,6 +9019,7 @@
       "mx_asns":[
         24940
       ],
+      "isp_name":"Hetzner (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -8766,6 +9045,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -8788,6 +9068,7 @@
       "mx_asns":[
         8560
       ],
+      "isp_name":"IONOS/1&1 (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -8811,6 +9092,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -8831,6 +9113,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -8851,6 +9134,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -8895,6 +9179,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -8917,6 +9202,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ],
@@ -8966,6 +9252,7 @@
       "mx_asns":[
         24940
       ],
+      "isp_name":"Hetzner (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -8987,6 +9274,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -9007,6 +9295,7 @@
       "mx_asns":[
         24940
       ],
+      "isp_name":"Hetzner (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -9027,6 +9316,7 @@
       "mx_asns":[
         3320
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -9049,6 +9339,7 @@
         3320,
         8881
       ],
+      "isp_name":"Deutsche Telekom (DE)",
       "mx_countries":[
         "DE"
       ]
@@ -9118,6 +9409,7 @@
       "mx_asns":[
         49604
       ],
+      "isp_name":"Zone.eu",
       "mx_countries":[
         "EE"
       ],
@@ -9694,6 +9986,7 @@
       "mx_asns":[
         49604
       ],
+      "isp_name":"Zone.eu",
       "mx_countries":[
         "EE"
       ]
@@ -9795,6 +10088,7 @@
       "mx_asns":[
         49604
       ],
+      "isp_name":"Zone.eu",
       "mx_countries":[
         "EE"
       ],
@@ -9960,6 +10254,7 @@
       "mx_asns":[
         3249
       ],
+      "isp_name":"Telia",
       "mx_countries":[
         "EE"
       ],
@@ -9988,6 +10283,7 @@
       "mx_asns":[
         216263
       ],
+      "isp_name":"Radicenter (EE)",
       "mx_countries":[
         "EE"
       ],
@@ -10012,6 +10308,7 @@
       "mx_asns":[
         49604
       ],
+      "isp_name":"Zone.eu",
       "mx_countries":[
         "EE"
       ],
@@ -10062,6 +10359,7 @@
         3249,
         8240
       ],
+      "isp_name":"Telia (EE/LT)",
       "mx_countries":[
         "EE"
       ]
@@ -10083,6 +10381,7 @@
       "mx_asns":[
         49604
       ],
+      "isp_name":"Zone.eu",
       "mx_countries":[
         "EE"
       ],
@@ -10135,6 +10434,7 @@
       "mx_asns":[
         49604
       ],
+      "isp_name":"Zone.eu",
       "mx_countries":[
         "EE"
       ],
@@ -10404,6 +10704,7 @@
       "mx_asns":[
         3249
       ],
+      "isp_name":"Telia",
       "mx_countries":[
         "EE"
       ]
@@ -10481,6 +10782,7 @@
       "mx_asns":[
         49604
       ],
+      "isp_name":"Zone.eu",
       "mx_countries":[
         "EE"
       ],
@@ -10554,6 +10856,7 @@
       "mx_asns":[
         49604
       ],
+      "isp_name":"Zone.eu",
       "mx_countries":[
         "EE"
       ],
@@ -10659,6 +10962,7 @@
       "mx_asns":[
         61189
       ],
+      "isp_name":"Elkdata",
       "mx_countries":[
         "EE"
       ]
@@ -10710,6 +11014,7 @@
       "mx_asns":[
         3249
       ],
+      "isp_name":"Telia (EE/LT)",
       "mx_countries":[
         "EE"
       ],
@@ -10815,6 +11120,7 @@
       "mx_asns":[
         49604
       ],
+      "isp_name":"Zone.eu",
       "mx_countries":[
         "EE"
       ],
@@ -10867,6 +11173,7 @@
       "mx_asns":[
         3249
       ],
+      "isp_name":"Telia",
       "mx_countries":[
         "EE"
       ],
@@ -11117,6 +11424,7 @@
       "mx_asns":[
         49604
       ],
+      "isp_name":"Zone.eu",
       "mx_countries":[
         "EE"
       ],
@@ -11634,6 +11942,7 @@
       "mx_asns":[
         3238
       ],
+      "isp_name":"Ålands Telekommunikation",
       "mx_countries":[
         "FI"
       ]
@@ -11766,6 +12075,7 @@
       "mx_asns":[
         199087
       ],
+      "isp_name":"Kase Oy",
       "mx_countries":[
         "FI"
       ],
@@ -12926,6 +13236,7 @@
       "mx_asns":[
         16086
       ],
+      "isp_name":"Ratkaisutalo",
       "mx_countries":[
         "FI"
       ],
@@ -13165,6 +13476,7 @@
       "mx_asns":[
         1759
       ],
+      "isp_name":"Cinia/SecMail",
       "mx_countries":[
         "FI"
       ],
@@ -13461,6 +13773,7 @@
       "mx_asns":[
         199087
       ],
+      "isp_name":"Kase Oy",
       "mx_countries":[
         "FI"
       ],
@@ -13868,6 +14181,7 @@
       "mx_asns":[
         719
       ],
+      "isp_name":"Elisa (FI)",
       "mx_countries":[
         "FI"
       ],
@@ -14216,6 +14530,7 @@
       "mx_asns":[
         198024
       ],
+      "isp_name":"Istekki",
       "mx_countries":[
         "FI"
       ],
@@ -14510,6 +14825,7 @@
       "mx_asns":[
         39699
       ],
+      "isp_name":"Lounea",
       "mx_countries":[
         "FI"
       ],
@@ -14753,6 +15069,7 @@
       "mx_asns":[
         719
       ],
+      "isp_name":"Elisa (FI)",
       "mx_countries":[
         "FI"
       ]
@@ -14774,6 +15091,7 @@
       "mx_asns":[
         1759
       ],
+      "isp_name":"Cinia/SecMail",
       "mx_countries":[
         "FI"
       ],
@@ -14889,6 +15207,7 @@
       "mx_asns":[
         199087
       ],
+      "isp_name":"Kase Oy",
       "mx_countries":[
         "FI"
       ],
@@ -14967,6 +15286,7 @@
       "mx_asns":[
         29240
       ],
+      "isp_name":"LanMail",
       "mx_countries":[
         "FI"
       ],
@@ -15210,6 +15530,7 @@
       "mx_asns":[
         1759
       ],
+      "isp_name":"Cinia/SecMail",
       "mx_countries":[
         "FI"
       ]
@@ -15745,6 +16066,7 @@
       "mx_asns":[
         16086
       ],
+      "isp_name":"Ratkaisutalo",
       "mx_countries":[
         "FI"
       ]
@@ -16089,6 +16411,7 @@
       "mx_asns":[
         198024
       ],
+      "isp_name":"Istekki",
       "mx_countries":[
         "FI"
       ],
@@ -16199,6 +16522,7 @@
       "mx_asns":[
         1759
       ],
+      "isp_name":"Cinia/SecMail",
       "mx_countries":[
         "FI"
       ],
@@ -17169,6 +17493,7 @@
       "mx_asns":[
         1759
       ],
+      "isp_name":"Cinia/SecMail",
       "mx_countries":[
         "FI"
       ]
@@ -17302,6 +17627,7 @@
       "mx_asns":[
         1759
       ],
+      "isp_name":"Cinia/SecMail",
       "mx_countries":[
         "FI"
       ]
@@ -17567,6 +17893,7 @@
       "mx_asns":[
         1759
       ],
+      "isp_name":"Cinia/SecMail",
       "mx_countries":[
         "FI"
       ],
@@ -17920,6 +18247,7 @@
         719,
         39699
       ],
+      "isp_name":"Lounea",
       "mx_countries":[
         "FI"
       ],
@@ -18273,6 +18601,7 @@
       "mx_asns":[
         1759
       ],
+      "isp_name":"Cinia/SecMail",
       "mx_countries":[
         "FI"
       ]
@@ -18516,6 +18845,7 @@
       "mx_asns":[
         199087
       ],
+      "isp_name":"Kase Oy",
       "mx_countries":[
         "FI"
       ],
@@ -18788,6 +19118,7 @@
       "mx_asns":[
         215722
       ],
+      "isp_name":"Lapit Oy",
       "mx_countries":[
         "FI"
       ],
@@ -19085,6 +19416,7 @@
       "mx_asns":[
         199087
       ],
+      "isp_name":"Kase Oy",
       "mx_countries":[
         "FI"
       ],
@@ -19534,6 +19866,7 @@
       "mx_asns":[
         6769
       ],
+      "isp_name":"LITNET",
       "mx_countries":[
         "LT"
       ],
@@ -19584,6 +19917,7 @@
       "mx_asns":[
         15419
       ],
+      "isp_name":"LRTC (LT)",
       "mx_countries":[
         "LT"
       ]
@@ -19654,6 +19988,7 @@
       "mx_asns":[
         15440
       ],
+      "isp_name":"Baltneta",
       "mx_countries":[
         "LT"
       ],
@@ -19792,6 +20127,7 @@
       "mx_asns":[
         15419
       ],
+      "isp_name":"LRTC (LT)",
       "mx_countries":[
         "LT"
       ]
@@ -19921,6 +20257,7 @@
       "mx_asns":[
         212531
       ],
+      "isp_name":"Interneto Vizija (LT)",
       "mx_countries":[
         "LT"
       ]
@@ -19942,6 +20279,7 @@
       "mx_asns":[
         15419
       ],
+      "isp_name":"LRTC (LT)",
       "mx_countries":[
         "LT"
       ],
@@ -19965,6 +20303,7 @@
       "mx_asns":[
         15419
       ],
+      "isp_name":"LRTC (LT)",
       "mx_countries":[
         "LT"
       ]
@@ -20041,6 +20380,7 @@
       "mx_asns":[
         6769
       ],
+      "isp_name":"LITNET",
       "mx_countries":[
         "LT"
       ]
@@ -20061,6 +20401,7 @@
       "mx_asns":[
         6769
       ],
+      "isp_name":"LITNET",
       "mx_countries":[
         "LT"
       ]
@@ -20133,6 +20474,7 @@
       "mx_asns":[
         15419
       ],
+      "isp_name":"LRTC (LT)",
       "mx_countries":[
         "LT"
       ]
@@ -20181,6 +20523,7 @@
       "mx_asns":[
         15419
       ],
+      "isp_name":"LRTC (LT)",
       "mx_countries":[
         "LT"
       ]
@@ -20202,6 +20545,7 @@
       "mx_asns":[
         43811
       ],
+      "isp_name":"Telia Lietuva",
       "mx_countries":[
         "LT"
       ]
@@ -20222,6 +20566,7 @@
       "mx_asns":[
         15419
       ],
+      "isp_name":"LRTC (LT)",
       "mx_countries":[
         "LT"
       ]
@@ -20270,6 +20615,7 @@
       "mx_asns":[
         6769
       ],
+      "isp_name":"LITNET",
       "mx_countries":[
         "LT"
       ]
@@ -20310,6 +20656,7 @@
       "mx_asns":[
         6769
       ],
+      "isp_name":"LITNET",
       "mx_countries":[
         "LT"
       ]
@@ -20330,6 +20677,7 @@
       "mx_asns":[
         6769
       ],
+      "isp_name":"LITNET",
       "mx_countries":[
         "LT"
       ]
@@ -20351,6 +20699,7 @@
       "mx_asns":[
         15419
       ],
+      "isp_name":"LRTC (LT)",
       "mx_countries":[
         "LT"
       ]
@@ -20395,6 +20744,7 @@
       "mx_asns":[
         15419
       ],
+      "isp_name":"LRTC (LT)",
       "mx_countries":[
         "LT"
       ]
@@ -20415,6 +20765,7 @@
       "mx_asns":[
         15419
       ],
+      "isp_name":"LRTC (LT)",
       "mx_countries":[
         "LT"
       ]
@@ -20456,6 +20807,7 @@
       "mx_asns":[
         6769
       ],
+      "isp_name":"LITNET",
       "mx_countries":[
         "LT"
       ]
@@ -20501,6 +20853,7 @@
       "mx_asns":[
         6769
       ],
+      "isp_name":"LITNET",
       "mx_countries":[
         "LT"
       ]
@@ -20521,6 +20874,7 @@
       "mx_asns":[
         15419
       ],
+      "isp_name":"LRTC (LT)",
       "mx_countries":[
         "LT"
       ]
@@ -20543,6 +20897,7 @@
       "mx_asns":[
         212531
       ],
+      "isp_name":"Interneto Vizija (LT)",
       "mx_countries":[
         "LT"
       ]
@@ -20563,6 +20918,7 @@
       "mx_asns":[
         15419
       ],
+      "isp_name":"LRTC (LT)",
       "mx_countries":[
         "LT"
       ]
@@ -20584,6 +20940,7 @@
       "mx_asns":[
         15419
       ],
+      "isp_name":"LRTC (LT)",
       "mx_countries":[
         "LT"
       ]
@@ -20604,6 +20961,7 @@
       "mx_asns":[
         15419
       ],
+      "isp_name":"LRTC (LT)",
       "mx_countries":[
         "LT"
       ]
@@ -20624,6 +20982,7 @@
       "mx_asns":[
         15419
       ],
+      "isp_name":"LRTC (LT)",
       "mx_countries":[
         "LT"
       ]
@@ -20672,6 +21031,7 @@
       "mx_asns":[
         15419
       ],
+      "isp_name":"LRTC (LT)",
       "mx_countries":[
         "LT"
       ]
@@ -20720,6 +21080,7 @@
       "mx_asns":[
         15419
       ],
+      "isp_name":"LRTC (LT)",
       "mx_countries":[
         "LT"
       ]
@@ -20771,6 +21132,7 @@
       "mx_asns":[
         15419
       ],
+      "isp_name":"LRTC (LT)",
       "mx_countries":[
         "LT"
       ]
@@ -20791,6 +21153,7 @@
       "mx_asns":[
         6769
       ],
+      "isp_name":"LITNET",
       "mx_countries":[
         "LT"
       ]
@@ -20868,6 +21231,7 @@
       "mx_asns":[
         212531
       ],
+      "isp_name":"Interneto Vizija (LT)",
       "mx_countries":[
         "LT"
       ]
@@ -20889,6 +21253,7 @@
       "mx_asns":[
         212531
       ],
+      "isp_name":"Interneto Vizija (LT)",
       "mx_countries":[
         "LT"
       ]
@@ -20935,6 +21300,7 @@
       "mx_asns":[
         5518
       ],
+      "isp_name":"TET (Lattelecom)",
       "mx_countries":[
         "LV"
       ]
@@ -20955,6 +21321,7 @@
       "mx_asns":[
         5518
       ],
+      "isp_name":"TET (Lattelecom)",
       "mx_countries":[
         "LV"
       ]
@@ -21004,6 +21371,7 @@
       "mx_asns":[
         12578
       ],
+      "isp_name":"Lattelecom",
       "mx_countries":[
         "LV"
       ]
@@ -21024,6 +21392,7 @@
       "mx_asns":[
         5518
       ],
+      "isp_name":"TET (Lattelecom)",
       "mx_countries":[
         "LV"
       ]
@@ -21071,6 +21440,7 @@
       "mx_asns":[
         12578
       ],
+      "isp_name":"Lattelecom",
       "mx_countries":[
         "LV"
       ],
@@ -21176,6 +21546,7 @@
       "mx_asns":[
         12578
       ],
+      "isp_name":"Lattelecom",
       "mx_countries":[
         "LV"
       ]
@@ -21198,6 +21569,7 @@
       "mx_asns":[
         5538
       ],
+      "isp_name":"SigmaNet (LV)",
       "mx_countries":[
         "LV"
       ]
@@ -21219,6 +21591,7 @@
       "mx_asns":[
         206111
       ],
+      "isp_name":"LINKIT (LV)",
       "mx_countries":[
         "LV"
       ]
@@ -21269,6 +21642,7 @@
         5518,
         16276
       ],
+      "isp_name":"TET (Lattelecom)",
       "mx_countries":[
         "FR",
         "LV"
@@ -21317,6 +21691,7 @@
       "mx_asns":[
         12578
       ],
+      "isp_name":"Lattelecom",
       "mx_countries":[
         "LV"
       ],
@@ -21369,6 +21744,7 @@
       "mx_asns":[
         29600
       ],
+      "isp_name":"Latvenergo/IVIKS (LV)",
       "mx_countries":[
         "LV"
       ]
@@ -21389,6 +21765,7 @@
       "mx_asns":[
         12578
       ],
+      "isp_name":"Lattelecom",
       "mx_countries":[
         "LV"
       ]
@@ -21409,6 +21786,7 @@
       "mx_asns":[
         12578
       ],
+      "isp_name":"Lattelecom",
       "mx_countries":[
         "LV"
       ]
@@ -21459,6 +21837,7 @@
       "mx_asns":[
         5538
       ],
+      "isp_name":"SigmaNet (LV)",
       "mx_countries":[
         "LV"
       ]
@@ -21479,6 +21858,7 @@
       "mx_asns":[
         12993
       ],
+      "isp_name":"LVRTC",
       "mx_countries":[
         "LV"
       ]
@@ -21521,6 +21901,7 @@
       "mx_asns":[
         2588
       ],
+      "isp_name":"Elisa",
       "mx_countries":[
         "LV"
       ]
@@ -21596,6 +21977,7 @@
       "mx_asns":[
         5538
       ],
+      "isp_name":"SigmaNet (LV)",
       "mx_countries":[
         "LV"
       ]
@@ -21646,6 +22028,7 @@
       "mx_asns":[
         5538
       ],
+      "isp_name":"SigmaNet (LV)",
       "mx_countries":[
         "LV"
       ]
@@ -21690,6 +22073,7 @@
       "mx_asns":[
         12578
       ],
+      "isp_name":"Lattelecom",
       "mx_countries":[
         "LV"
       ]
@@ -21793,6 +22177,7 @@
       "mx_asns":[
         12578
       ],
+      "isp_name":"Lattelecom",
       "mx_countries":[
         "LV"
       ]
@@ -21841,6 +22226,7 @@
       "mx_asns":[
         12578
       ],
+      "isp_name":"Lattelecom",
       "mx_countries":[
         "LV"
       ]
@@ -21881,6 +22267,7 @@
       "mx_asns":[
         12993
       ],
+      "isp_name":"LVRTC",
       "mx_countries":[
         "LV"
       ]
@@ -25638,7 +26025,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.outlook.com",
-        "autodiscover_srv":"autodiscover.hdnett.no"
+        "autodiscover_srv":"autodiscover.outlook.com"
       },
       "dkim":{
         "selector1":"selector1-flaa-kommune-no._domainkey.hdnett.onmicrosoft.com",
@@ -25917,6 +26304,7 @@
       "mx_asns":[
         29492
       ],
+      "isp_name":"Eidsiva/Hedmark IKT (NO)",
       "mx_countries":[
         "NO"
       ],
@@ -25943,6 +26331,7 @@
       "mx_asns":[
         29492
       ],
+      "isp_name":"Eidsiva/Hedmark IKT (NO)",
       "mx_countries":[
         "NO"
       ],
@@ -26057,6 +26446,7 @@
       "mx_asns":[
         29492
       ],
+      "isp_name":"Eidsiva/Hedmark IKT (NO)",
       "mx_countries":[
         "NO"
       ],
@@ -26083,6 +26473,7 @@
       "mx_asns":[
         29492
       ],
+      "isp_name":"Eidsiva/Hedmark IKT (NO)",
       "mx_countries":[
         "NO"
       ],
@@ -26109,6 +26500,7 @@
       "mx_asns":[
         29492
       ],
+      "isp_name":"Eidsiva/Hedmark IKT (NO)",
       "mx_countries":[
         "NO"
       ],
@@ -26135,6 +26527,7 @@
       "mx_asns":[
         29492
       ],
+      "isp_name":"Eidsiva/Hedmark IKT (NO)",
       "mx_countries":[
         "NO"
       ],
@@ -26189,6 +26582,7 @@
       "mx_asns":[
         29492
       ],
+      "isp_name":"Eidsiva/Hedmark IKT (NO)",
       "mx_countries":[
         "NO"
       ],
@@ -26215,6 +26609,7 @@
       "mx_asns":[
         29492
       ],
+      "isp_name":"Eidsiva/Hedmark IKT (NO)",
       "mx_countries":[
         "NO"
       ],
@@ -26380,7 +26775,7 @@
       "provider":"microsoft",
       "reason":"MX is mailanyone gateway; DKIM signs via microsoft",
       "osm_relation_id":412541,
-      "spf_resolved":"v=spf1 include:qhmhinj14p.powerspf.com ~all v=spf1 ip6:2a01:77c0:1180::/46 ip6:2a01:77c0:6::/47 ip6:2a01:77c0:7135::/48 ip6:2a01:77c0:1619::/48 ip6:2a01:111:f400::/48 ip6:2001:978:2a01::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:f000::/52 ip4:52.100.0.0/15 ip4:40.92.0.0/15 ip4:52.102.0.0/16 ip4:40.107.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip4:87.253.232.0/21 ip4:208.70.128.0/21 ip4:45.14.148.0/22 ip4:192.162.216.0/22 ip4:185.38.180.0/22 include:_s1.qhmhinj14p.powerspf.com ~all v=spf1 ip4:185.250.236.0/22 ip4:185.211.120.0/22 ip4:185.189.236.0/22 ip4:89.104.206.0/23 ip4:72.35.23.0/24 ip4:72.35.12.0/24 ip4:185.38.121.22/31 ip6:2a04:6fb0:121::23 ip6:2a04:6fb0:121::22 ip6:2a04:6fb0:121::21 ip6:2600:9000:265e:ee00:8:d0c4:6500:93a1 ip6:2600:9000:265e:bc00:8:d0c4:6500:93a1 ip6:2600:9000:265e:8000:8:d0c4:6500:93a1 ip6:2600:9000:265e:7400:8:d0c4:6500:93a1 ip6:2600:9000:265e:6e00:8:d0c4:6500:93a1 ip6:2600:9000:265e:6400:8:d0c4:6500:93a1 include:_s2.qhmhinj14p.powerspf.com ~all v=spf1 ip6:2600:9000:265e:3000:8:d0c4:6500:93a1 ip6:2600:9000:265e:1600:8:d0c4:6500:93a1 ip4:82.147.61.72 ip4:82.134.18.219 ip4:35.157.187.101 ip4:35.157.154.159 ip4:34.252.27.239 ip4:34.251.157.56 ip4:34.249.196.78 ip4:3.162.140.91 ip4:3.162.140.49 ip4:3.162.140.23 ip4:3.162.140.106 ip4:185.38.121.21 ~all",
+      "spf_resolved":"v=spf1 include:qhmhinj14p.powerspf.com ~all v=spf1 ip6:2a01:77c0:1180::/46 ip6:2a01:77c0:6::/47 ip6:2a01:77c0:7135::/48 ip6:2a01:77c0:1619::/48 ip6:2a01:111:f400::/48 ip6:2001:978:2a01::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:f000::/52 ip4:52.100.0.0/15 ip4:40.92.0.0/15 ip4:52.102.0.0/16 ip4:40.107.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip4:87.253.232.0/21 ip4:208.70.128.0/21 ip4:45.14.148.0/22 ip4:192.162.216.0/22 ip4:185.38.180.0/22 include:_s1.qhmhinj14p.powerspf.com ~all v=spf1 ip4:185.250.236.0/22 ip4:185.211.120.0/22 ip4:185.189.236.0/22 ip4:89.104.206.0/23 ip4:72.35.23.0/24 ip4:72.35.12.0/24 ip4:185.38.121.22/31 ip6:2a04:6fb0:121::23 ip6:2a04:6fb0:121::22 ip6:2a04:6fb0:121::21 ip6:2600:9000:265e:e200:8:d0c4:6500:93a1 ip6:2600:9000:265e:dc00:8:d0c4:6500:93a1 ip6:2600:9000:265e:d200:8:d0c4:6500:93a1 ip6:2600:9000:265e:8c00:8:d0c4:6500:93a1 ip6:2600:9000:265e:8200:8:d0c4:6500:93a1 ip6:2600:9000:265e:5800:8:d0c4:6500:93a1 include:_s2.qhmhinj14p.powerspf.com ~all v=spf1 ip6:2600:9000:265e:400:8:d0c4:6500:93a1 ip6:2600:9000:265e:2a00:8:d0c4:6500:93a1 ip4:82.147.61.72 ip4:82.134.18.219 ip4:35.157.187.101 ip4:35.157.154.159 ip4:34.252.27.239 ip4:34.251.157.56 ip4:34.249.196.78 ip4:3.162.140.91 ip4:3.162.140.49 ip4:3.162.140.23 ip4:3.162.140.106 ip4:185.38.121.21 ~all",
       "gateway":"mailanyone",
       "mx_asns":[
         16509
@@ -26441,7 +26836,7 @@
       "provider":"microsoft",
       "reason":"MX is mailanyone gateway; DKIM signs via microsoft",
       "osm_relation_id":412544,
-      "spf_resolved":"v=spf1 include:e85rhaq1iz.powerspf.com ~all v=spf1 ip6:2a01:77c0:1180::/46 ip6:2a01:77c0:6::/47 ip6:2a01:77c0:7135::/48 ip6:2a01:77c0:1619::/48 ip6:2a01:111:f400::/48 ip6:2001:978:2a01::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:f000::/52 ip4:52.100.0.0/15 ip4:40.92.0.0/15 ip4:52.102.0.0/16 ip4:40.107.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip4:87.253.232.0/21 ip4:208.70.128.0/21 ip4:45.14.148.0/22 ip4:192.162.216.0/22 ip4:185.38.180.0/22 include:_s1.e85rhaq1iz.powerspf.com ~all v=spf1 ip4:185.250.236.0/22 ip4:185.211.120.0/22 ip4:185.189.236.0/22 ip4:89.104.206.0/23 ip4:72.35.23.0/24 ip4:72.35.12.0/24 ip4:185.38.121.22/31 ip6:2a04:6fb0:121::23 ip6:2a04:6fb0:121::22 ip6:2a04:6fb0:121::21 ip6:2600:9000:265e:ee00:8:d0c4:6500:93a1 ip6:2600:9000:265e:bc00:8:d0c4:6500:93a1 ip6:2600:9000:265e:8000:8:d0c4:6500:93a1 ip6:2600:9000:265e:7400:8:d0c4:6500:93a1 ip6:2600:9000:265e:6e00:8:d0c4:6500:93a1 ip6:2600:9000:265e:6400:8:d0c4:6500:93a1 include:_s2.e85rhaq1iz.powerspf.com ~all v=spf1 ip6:2600:9000:265e:3000:8:d0c4:6500:93a1 ip6:2600:9000:265e:1600:8:d0c4:6500:93a1 ip4:82.147.61.72 ip4:82.134.18.219 ip4:35.157.187.101 ip4:35.157.154.159 ip4:34.252.27.239 ip4:34.251.157.56 ip4:34.249.196.78 ip4:3.162.140.91 ip4:3.162.140.49 ip4:3.162.140.23 ip4:3.162.140.106 ip4:185.38.121.21 ~all",
+      "spf_resolved":"v=spf1 include:e85rhaq1iz.powerspf.com ~all v=spf1 ip6:2a01:77c0:1180::/46 ip6:2a01:77c0:6::/47 ip6:2a01:77c0:7135::/48 ip6:2a01:77c0:1619::/48 ip6:2a01:111:f400::/48 ip6:2001:978:2a01::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:f000::/52 ip4:52.100.0.0/15 ip4:40.92.0.0/15 ip4:52.102.0.0/16 ip4:40.107.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip4:87.253.232.0/21 ip4:208.70.128.0/21 ip4:45.14.148.0/22 ip4:192.162.216.0/22 ip4:185.38.180.0/22 include:_s1.e85rhaq1iz.powerspf.com ~all v=spf1 ip4:185.250.236.0/22 ip4:185.211.120.0/22 ip4:185.189.236.0/22 ip4:89.104.206.0/23 ip4:72.35.23.0/24 ip4:72.35.12.0/24 ip4:185.38.121.22/31 ip6:2a04:6fb0:121::23 ip6:2a04:6fb0:121::22 ip6:2a04:6fb0:121::21 ip6:2600:9000:265e:e200:8:d0c4:6500:93a1 ip6:2600:9000:265e:dc00:8:d0c4:6500:93a1 ip6:2600:9000:265e:d200:8:d0c4:6500:93a1 ip6:2600:9000:265e:8c00:8:d0c4:6500:93a1 ip6:2600:9000:265e:8200:8:d0c4:6500:93a1 ip6:2600:9000:265e:5800:8:d0c4:6500:93a1 include:_s2.e85rhaq1iz.powerspf.com ~all v=spf1 ip6:2600:9000:265e:400:8:d0c4:6500:93a1 ip6:2600:9000:265e:2a00:8:d0c4:6500:93a1 ip4:82.147.61.72 ip4:82.134.18.219 ip4:35.157.187.101 ip4:35.157.154.159 ip4:34.252.27.239 ip4:34.251.157.56 ip4:34.249.196.78 ip4:3.162.140.91 ip4:3.162.140.49 ip4:3.162.140.23 ip4:3.162.140.106 ip4:185.38.121.21 ~all",
       "gateway":"mailanyone",
       "mx_asns":[
         16509
@@ -26505,7 +26900,7 @@
       "provider":"microsoft",
       "reason":"MX is mailanyone gateway; DKIM signs via microsoft",
       "osm_relation_id":412546,
-      "spf_resolved":"v=spf1 include:8k19avh9pg.powerspf.com ~all v=spf1 ip6:2a01:77c0:1180::/46 ip6:2a01:77c0:6::/47 ip6:2a01:77c0:7135::/48 ip6:2a01:77c0:1619::/48 ip6:2a01:111:f400::/48 ip6:2001:978:2a01::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:f000::/52 ip4:52.100.0.0/15 ip4:40.92.0.0/15 ip4:52.102.0.0/16 ip4:40.107.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip4:87.253.232.0/21 ip4:208.70.128.0/21 ip4:45.14.148.0/22 ip4:192.162.216.0/22 ip4:185.38.180.0/22 include:_s1.8k19avh9pg.powerspf.com ~all v=spf1 ip4:185.250.236.0/22 ip4:185.211.120.0/22 ip4:185.189.236.0/22 ip4:89.104.206.0/23 ip4:72.35.23.0/24 ip4:72.35.12.0/24 ip4:185.38.121.22/31 ip6:2a04:6fb0:121::23 ip6:2a04:6fb0:121::22 ip6:2a04:6fb0:121::21 ip6:2600:9000:265e:ee00:8:d0c4:6500:93a1 ip6:2600:9000:265e:bc00:8:d0c4:6500:93a1 ip6:2600:9000:265e:8000:8:d0c4:6500:93a1 ip6:2600:9000:265e:7400:8:d0c4:6500:93a1 ip6:2600:9000:265e:6e00:8:d0c4:6500:93a1 ip6:2600:9000:265e:6400:8:d0c4:6500:93a1 include:_s2.8k19avh9pg.powerspf.com ~all v=spf1 ip6:2600:9000:265e:3000:8:d0c4:6500:93a1 ip6:2600:9000:265e:1600:8:d0c4:6500:93a1 ip4:82.147.61.72 ip4:82.134.18.219 ip4:35.157.187.101 ip4:35.157.154.159 ip4:34.252.27.239 ip4:34.251.157.56 ip4:34.249.196.78 ip4:3.162.140.91 ip4:3.162.140.49 ip4:3.162.140.23 ip4:3.162.140.106 ip4:185.38.121.21 ~all",
+      "spf_resolved":"v=spf1 include:8k19avh9pg.powerspf.com ~all v=spf1 ip6:2a01:77c0:1180::/46 ip6:2a01:77c0:6::/47 ip6:2a01:77c0:7135::/48 ip6:2a01:77c0:1619::/48 ip6:2a01:111:f400::/48 ip6:2001:978:2a01::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:f000::/52 ip4:52.100.0.0/15 ip4:40.92.0.0/15 ip4:52.102.0.0/16 ip4:40.107.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip4:87.253.232.0/21 ip4:208.70.128.0/21 ip4:45.14.148.0/22 ip4:192.162.216.0/22 ip4:185.38.180.0/22 include:_s1.8k19avh9pg.powerspf.com ~all v=spf1 ip4:185.250.236.0/22 ip4:185.211.120.0/22 ip4:185.189.236.0/22 ip4:89.104.206.0/23 ip4:72.35.23.0/24 ip4:72.35.12.0/24 ip4:185.38.121.22/31 ip6:2a04:6fb0:121::23 ip6:2a04:6fb0:121::22 ip6:2a04:6fb0:121::21 ip6:2600:9000:265e:e200:8:d0c4:6500:93a1 ip6:2600:9000:265e:dc00:8:d0c4:6500:93a1 ip6:2600:9000:265e:d200:8:d0c4:6500:93a1 ip6:2600:9000:265e:8c00:8:d0c4:6500:93a1 ip6:2600:9000:265e:8200:8:d0c4:6500:93a1 ip6:2600:9000:265e:5800:8:d0c4:6500:93a1 include:_s2.8k19avh9pg.powerspf.com ~all v=spf1 ip6:2600:9000:265e:400:8:d0c4:6500:93a1 ip6:2600:9000:265e:2a00:8:d0c4:6500:93a1 ip4:82.147.61.72 ip4:82.134.18.219 ip4:35.157.187.101 ip4:35.157.154.159 ip4:34.252.27.239 ip4:34.251.157.56 ip4:34.249.196.78 ip4:3.162.140.91 ip4:3.162.140.49 ip4:3.162.140.23 ip4:3.162.140.106 ip4:185.38.121.21 ~all",
       "gateway":"mailanyone",
       "mx_asns":[
         16509
@@ -26537,7 +26932,7 @@
       "provider":"microsoft",
       "reason":"MX is mailanyone gateway; DKIM signs via microsoft",
       "osm_relation_id":412547,
-      "spf_resolved":"v=spf1 include:cwvxbgacjg.powerspf.com ~all v=spf1 ip6:2a01:77c0:1180::/46 ip6:2a01:77c0:6::/47 ip6:2a01:77c0:7135::/48 ip6:2a01:77c0:1619::/48 ip6:2a01:111:f400::/48 ip6:2001:978:2a01::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:f000::/52 ip4:52.100.0.0/15 ip4:40.92.0.0/15 ip4:52.102.0.0/16 ip4:40.107.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip4:87.253.232.0/21 ip4:208.70.128.0/21 ip4:45.14.148.0/22 ip4:192.162.216.0/22 ip4:185.38.180.0/22 include:_s1.cwvxbgacjg.powerspf.com ~all v=spf1 ip4:185.250.236.0/22 ip4:185.211.120.0/22 ip4:185.189.236.0/22 ip4:89.104.206.0/23 ip4:72.35.23.0/24 ip4:72.35.12.0/24 ip4:185.38.121.22/31 ip6:2a04:6fb0:121::23 ip6:2a04:6fb0:121::22 ip6:2a04:6fb0:121::21 ip6:2600:9000:265e:fe00:8:d0c4:6500:93a1 ip6:2600:9000:265e:dc00:8:d0c4:6500:93a1 ip6:2600:9000:265e:d600:8:d0c4:6500:93a1 ip6:2600:9000:265e:d000:8:d0c4:6500:93a1 ip6:2600:9000:265e:be00:8:d0c4:6500:93a1 ip6:2600:9000:265e:7000:8:d0c4:6500:93a1 include:_s2.cwvxbgacjg.powerspf.com ~all v=spf1 ip6:2600:9000:265e:1a00:8:d0c4:6500:93a1 ip6:2600:9000:265e:1800:8:d0c4:6500:93a1 ip4:82.147.61.72 ip4:82.134.18.219 ip4:35.157.187.101 ip4:35.157.154.159 ip4:34.252.27.239 ip4:34.251.157.56 ip4:34.249.196.78 ip4:3.162.140.91 ip4:3.162.140.49 ip4:3.162.140.23 ip4:3.162.140.106 ip4:185.38.121.21 ~all",
+      "spf_resolved":"v=spf1 include:cwvxbgacjg.powerspf.com ~all v=spf1 ip6:2a01:77c0:1180::/46 ip6:2a01:77c0:6::/47 ip6:2a01:77c0:7135::/48 ip6:2a01:77c0:1619::/48 ip6:2a01:111:f400::/48 ip6:2001:978:2a01::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:f000::/52 ip4:52.100.0.0/15 ip4:40.92.0.0/15 ip4:52.102.0.0/16 ip4:40.107.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip4:87.253.232.0/21 ip4:208.70.128.0/21 ip4:45.14.148.0/22 ip4:192.162.216.0/22 ip4:185.38.180.0/22 include:_s1.cwvxbgacjg.powerspf.com ~all v=spf1 ip4:185.250.236.0/22 ip4:185.211.120.0/22 ip4:185.189.236.0/22 ip4:89.104.206.0/23 ip4:72.35.23.0/24 ip4:72.35.12.0/24 ip4:185.38.121.22/31 ip6:2a04:6fb0:121::23 ip6:2a04:6fb0:121::22 ip6:2a04:6fb0:121::21 ip6:2600:9000:265e:e200:8:d0c4:6500:93a1 ip6:2600:9000:265e:dc00:8:d0c4:6500:93a1 ip6:2600:9000:265e:d200:8:d0c4:6500:93a1 ip6:2600:9000:265e:8c00:8:d0c4:6500:93a1 ip6:2600:9000:265e:8200:8:d0c4:6500:93a1 ip6:2600:9000:265e:5800:8:d0c4:6500:93a1 include:_s2.cwvxbgacjg.powerspf.com ~all v=spf1 ip6:2600:9000:265e:400:8:d0c4:6500:93a1 ip6:2600:9000:265e:2a00:8:d0c4:6500:93a1 ip4:82.147.61.72 ip4:82.134.18.219 ip4:35.157.187.101 ip4:35.157.154.159 ip4:34.252.27.239 ip4:34.251.157.56 ip4:34.249.196.78 ip4:3.162.140.91 ip4:3.162.140.49 ip4:3.162.140.23 ip4:3.162.140.106 ip4:185.38.121.21 ~all",
       "gateway":"mailanyone",
       "mx_asns":[
         16509
@@ -28638,6 +29033,7 @@
       "mx_asns":[
         8542
       ],
+      "isp_name":"Eviny (NO)",
       "mx_countries":[
         "NO"
       ]
@@ -31080,6 +31476,7 @@
         2116,
         199900
       ],
+      "isp_name":"BedSys (NO)",
       "mx_countries":[
         "NO"
       ],
@@ -31342,6 +31739,7 @@
       "mx_asns":[
         210615
       ],
+      "isp_name":"Alta Kommune (NO)",
       "mx_countries":[
         "NO"
       ]
@@ -31422,6 +31820,7 @@
       "mx_asns":[
         207464
       ],
+      "isp_name":"Varanger Kraft (NO)",
       "mx_countries":[
         "NO"
       ]
@@ -32086,6 +32485,7 @@
       "mx_asns":[
         3301
       ],
+      "isp_name":"Telia Sweden",
       "mx_countries":[
         "SE"
       ]
@@ -32223,6 +32623,7 @@
       "mx_asns":[
         12552
       ],
+      "isp_name":"GlobalConnect (SE)",
       "mx_countries":[
         "SE"
       ]
@@ -32245,6 +32646,7 @@
       "mx_asns":[
         29672
       ],
+      "isp_name":"Stockholm stad (SE)",
       "mx_countries":[
         "SE"
       ]
@@ -32452,6 +32854,7 @@
       "mx_asns":[
         3301
       ],
+      "isp_name":"Telia Sweden",
       "mx_countries":[
         "SE"
       ],
@@ -32692,6 +33095,7 @@
       "mx_asns":[
         198568
       ],
+      "isp_name":"Atea (SE)",
       "mx_countries":[
         "SE"
       ],
@@ -33091,6 +33495,7 @@
       "mx_asns":[
         202780
       ],
+      "isp_name":"Advania (SE)",
       "mx_countries":[
         "SE"
       ],
@@ -33116,6 +33521,7 @@
       "mx_asns":[
         3301
       ],
+      "isp_name":"Telia Sweden",
       "mx_countries":[
         "SE"
       ]
@@ -33191,6 +33597,7 @@
       "mx_asns":[
         3301
       ],
+      "isp_name":"Telia Sweden",
       "mx_countries":[
         "SE"
       ],
@@ -33374,6 +33781,7 @@
       "mx_asns":[
         60053
       ],
+      "isp_name":"Habo kommun (SE)",
       "mx_countries":[
         "SE"
       ],
@@ -34209,6 +34617,7 @@
       "mx_asns":[
         3301
       ],
+      "isp_name":"Telia Sweden",
       "mx_countries":[
         "SE"
       ]
@@ -34285,6 +34694,7 @@
       "mx_asns":[
         206387
       ],
+      "isp_name":"BLL (SE)",
       "mx_countries":[
         "SE"
       ],
@@ -35269,6 +35679,7 @@
       "mx_asns":[
         30238
       ],
+      "isp_name":"Trier-net (DE)",
       "mx_countries":[
         "US"
       ]
@@ -36505,6 +36916,7 @@
       "mx_asns":[
         3301
       ],
+      "isp_name":"Telia Sweden",
       "mx_countries":[
         "SE"
       ]
@@ -36527,6 +36939,7 @@
       "mx_asns":[
         205574
       ],
+      "isp_name":"Borås stad (SE)",
       "mx_countries":[
         "SE"
       ]
@@ -38294,6 +38707,7 @@
       "mx_asns":[
         206114
       ],
+      "isp_name":"Hofors kommun (SE)",
       "mx_countries":[
         "SE"
       ],
@@ -38346,6 +38760,7 @@
       "mx_asns":[
         28954
       ],
+      "isp_name":"Fiberstaden (SE)",
       "mx_countries":[
         "SE"
       ],
@@ -38371,6 +38786,7 @@
       "mx_asns":[
         25417
       ],
+      "isp_name":"Ljusnet (SE)",
       "mx_countries":[
         "SE"
       ],
@@ -38512,6 +38928,7 @@
       "mx_asns":[
         28954
       ],
+      "isp_name":"Fiberstaden (SE)",
       "mx_countries":[
         "SE"
       ],
@@ -38564,6 +38981,7 @@
         12552,
         202780
       ],
+      "isp_name":"GlobalConnect (SE)",
       "mx_countries":[
         "SE"
       ],
@@ -38588,6 +39006,7 @@
       "mx_asns":[
         1257
       ],
+      "isp_name":"Tele2 (SE)",
       "mx_countries":[
         "SE"
       ],
@@ -39404,6 +39823,7 @@
       "mx_asns":[
         6782
       ],
+      "isp_name":"Bdnet (SE)",
       "mx_countries":[
         "SE"
       ],

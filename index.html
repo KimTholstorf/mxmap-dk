@@ -41,14 +41,14 @@
     background: #f8f9fb; border-bottom: 1px solid #e2e4e8; overflow: hidden; flex-shrink: 0;
     max-height: 2000px; padding: 16px 20px;
   }
-  #stats-bar:not(.collapsed) { max-height: 50vh; overflow-y: auto; }
+  #stats-bar:not(.collapsed) { max-height: 80vh; overflow-y: auto; }
   #info-bar.collapsed, #stats-bar.collapsed { max-height: 0; padding-top: 0; padding-bottom: 0; }
   .info-grid {
-    display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 14px;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 10px;
   }
-  .info-card h3 { font-size: 14px; font-weight: 600; margin-bottom: 4px; color: #1a1a2e; }
-  .info-card p { font-size: 13px; color: #444; line-height: 1.5; margin: 0; }
+  .info-card h3 { font-size: 13px; font-weight: 600; margin-bottom: 2px; color: #1a1a2e; }
+  .info-card p { font-size: 12px; color: #444; line-height: 1.4; margin: 0; }
   .info-card a { color: #2563eb; text-decoration: none; }
   .info-card a:hover { text-decoration: underline; }
   .info-title { display: none; font-size: 16px; font-weight: 600; color: #1a1a2e; margin-bottom: 12px; }
@@ -152,30 +152,15 @@
   <div class="info-grid">
     <div class="info-card">
       <h3>What is this?</h3>
-      <p>A map of municipalities in Estonia, Latvia, Lithuania, Finland, Norway, Sweden, and Germany showing which provider handles their official email — grouped by jurisdiction — based on public DNS records.</p>
-    </div>
-    <div class="info-card">
-      <h3>Digital sovereignty</h3>
-      <p>US-based providers (Microsoft, Google, AWS) are subject to the <strong>US CLOUD Act</strong>, which allows US authorities to request stored data regardless of where it is hosted. This conflicts with <strong>GDPR</strong> and the <strong>Schrems II</strong> ruling. This map makes the provider landscape visible.</p>
+      <p>A map showing which provider handles official email for municipalities in Estonia, Latvia, Lithuania, Finland, Norway, Sweden, and Germany — based on public DNS records. US-based providers (Microsoft, Google, AWS) are subject to the <strong>US CLOUD Act</strong>, which allows US authorities to request stored data regardless of where it is hosted. This conflicts with <strong>GDPR</strong> and the <strong>Schrems II</strong> ruling.</p>
     </div>
     <div class="info-card">
       <h3>How does it work?</h3>
-      <p>For each municipality's domain, public DNS records are queried and the provider is classified in priority order:</p>
-      <ol style="font-size:12px;color:#444;line-height:1.7;margin:4px 0 0 16px;padding:0">
-        <li><strong>MX hostname</strong> — if the mail server name contains a known provider keyword (e.g. <code>outlook.com</code>), classify directly.</li>
-        <li><strong>MX CNAME</strong> — if the MX host's CNAME resolves to a known provider.</li>
-        <li><strong>Gateway look-through</strong> — if MX matches a known email gateway (FortiMail, Barracuda, TrendMicro, etc.), check SPF (if unambiguous), then autodiscover, then DKIM to identify the backend provider.</li>
-        <li><strong>Self-hosted gateway</strong> — MX doesn't match any known provider or gateway, but DKIM CNAMEs reveal the actual backend (e.g. <code>selector1._domainkey</code> → <code>*.onmicrosoft.com</code> = Microsoft).</li>
-        <li><strong>Local ISP</strong> — MX server's ASN matches a known Nordic-Baltic ISP.</li>
-        <li><strong>Self-hosted</strong> — MX exists but no known provider detected.</li>
-        <li><strong>Unknown</strong> — no MX records found.</li>
-      </ol>
-      <p style="font-size:12px;color:#777;margin-top:6px;">DKIM is the most reliable signal — a CNAME proving a provider signs mail for the domain is definitive proof of mail hosting. SPF only indicates send authorization, not hosting.</p>
+      <p>For each municipality domain, DNS records (MX, SPF, CNAME, DKIM, autodiscover) are queried and classified: <strong>MX hostname</strong> or <strong>CNAME</strong> matching a known provider; <strong>gateway look-through</strong> via DKIM/autodiscover when MX points to a security gateway (FortiMail, Barracuda, Hornetsecurity, etc.); <strong>local provider</strong> by matching MX server ASN to known European ISPs and municipal IT providers; or <strong>self-hosted</strong> if no known provider is detected. DKIM is the most reliable signal — a CNAME proving a provider signs mail for the domain is definitive proof of mail hosting.</p>
     </div>
     <div class="info-card">
       <h3>Open source &amp; open data</h3>
-      <p>Inspired by <a href="https://mxmap.ch" target="_blank">mxmap.ch</a> (Swiss municipalities).<br>
-      Code and data on <a href="https://github.com/livenson/mxmap" target="_blank">GitHub</a>.</p>
+      <p>Inspired by <a href="https://mxmap.ch" target="_blank">mxmap.ch</a> (Swiss municipalities). Code and data on <a href="https://github.com/livenson/mxmap" target="_blank">GitHub</a>.</p>
     </div>
   </div>
 </section>
@@ -202,23 +187,19 @@ if (!CSS.supports('height', '100dvh')) {
 }
 
 const COLORS = {
-  'Microsoft':   '#E83838',
-  'Google':      '#FFAB96',
-  'AWS':         '#FF7A5C',
-  'Telia':       '#2EDBA8',
-  'TET':         '#34D5A0',
-  'Zone.eu':     '#78FFD6',
-  'Elkdata':     '#56E8B0',
-  'Local ISP':   '#10B898',
-  'Self-hosted': '#0E9680',
-  'Unknown':     '#BFBFBF'
+  'Microsoft':      '#E83838',
+  'Google':         '#FFAB96',
+  'AWS':            '#FF7A5C',
+  'Local Provider': '#10B898',
+  'Self-hosted':    '#0E9680',
+  'Unknown':        '#BFBFBF'
 };
 
-const DARK_TEXT = new Set(['Google', 'AWS', 'Zone.eu', 'Unknown']);
+const DARK_TEXT = new Set(['Google', 'AWS', 'Unknown']);
 
 const TIERS = {
   'US (CLOUD Act)': ['Microsoft', 'Google', 'AWS'],
-  'Baltic/EU':      ['Telia', 'TET', 'Zone.eu', 'Elkdata', 'Local ISP', 'Self-hosted'],
+  'European':       ['Local Provider', 'Self-hosted'],
   'Unknown':        ['Unknown']
 };
 
@@ -353,10 +334,14 @@ function buildStats(muniList) {
     let us = 0, usLocalGw = 0, sameCountry = 0, otherEu = 0, unk = 0;
     const providers = {};
     const mxCountries = {};
+    const ispNames = {};
     let mxUs = 0, mxLocal = 0;
     for (const m of list) {
       const p = m.classification.provider;
       providers[p] = (providers[p] || 0) + 1;
+      if (m.isp_name && (p === 'Local Provider')) {
+        ispNames[m.isp_name] = (ispNames[m.isp_name] || 0) + 1;
+      }
       if (usProviders.has(p)) {
         us++;
         if (hasLocalGateway(m)) usLocalGw++;
@@ -374,7 +359,7 @@ function buildStats(muniList) {
       if (cc.includes('US')) mxUs++;
       if (cc.some(c => ['EE', 'LV', 'LT', 'FI', 'NO', 'SE', 'DE'].includes(c))) mxLocal++;
     }
-    return { total: t, us, usLocalGw, sameCountry, otherEu, unk, providers, mxCountries, mxUs, mxLocal };
+    return { total: t, us, usLocalGw, sameCountry, otherEu, unk, providers, mxCountries, ispNames, mxUs, mxLocal };
   }
 
   function jurisdictionHtml(stats, max) {
@@ -456,6 +441,13 @@ function buildStats(muniList) {
       html += `<div style="margin-top:12px;font-size:11px;color:#999;font-weight:600">MX SERVERS</div>`;
       for (const [loc, count] of topMx) {
         html += barHtml(loc, count, topMx[0][1], countryColors[loc] || '#888', stats.total);
+      }
+      const topIsps = Object.entries(stats.ispNames).sort((a, b) => b[1] - a[1]).slice(0, 4);
+      if (topIsps.length > 0) {
+        html += `<div style="margin-top:12px;font-size:11px;color:#999;font-weight:600">LOCAL PROVIDERS</div>`;
+        for (const [name, count] of topIsps) {
+          html += barHtml(name, count, topIsps[0][1], '#10B898', stats.total);
+        }
       }
       html += '</div>';
     }
@@ -641,8 +633,8 @@ async function loadData() {
   // Map pipeline provider names to display names
   const providerDisplayMap = {
     'microsoft': 'Microsoft', 'google': 'Google', 'aws': 'AWS',
-    'telia': 'Telia', 'tet': 'TET', 'zone': 'Zone.eu', 'elkdata': 'Elkdata',
-    'local-isp': 'Local ISP', 'independent': 'Self-hosted', 'unknown': 'Unknown',
+    'telia': 'Local Provider', 'tet': 'Local Provider', 'zone': 'Local Provider', 'elkdata': 'Local Provider',
+    'local-isp': 'Local Provider', 'independent': 'Self-hosted', 'unknown': 'Unknown',
   };
 
   // Transform flat pipeline entries into the shape the frontend expects
@@ -720,7 +712,7 @@ async function loadData() {
       content.innerHTML =
         '<strong>Email Provider</strong>' +
         legendGroupHtml('US-based', ['Microsoft', 'Google', 'AWS'], counts) +
-        legendGroupHtml('European', ['Telia', 'TET', 'Zone.eu', 'Elkdata', 'Local ISP', 'Self-hosted'], counts) +
+        legendGroupHtml('European', ['Local Provider', 'Self-hosted'], counts) +
         legendGroupHtml('', ['Unknown'], counts) +
         (gwCount > 0 ? `<div style="margin-top:8px;font-size:11px;color:#795548">\u{1F6E1}\uFE0F = local gateway, US mailbox (${gwCount})</div>` : '') +
         `<div style="margin-top:4px;font-size:11px;color:#999">${total} municipalities</div>`;
