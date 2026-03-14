@@ -1,1 +1,653 @@
-{}
+{
+  "AT-10314": {
+    "website": "schuetzen.at"
+  },
+  "AT-10413": {
+    "website": "sankt-michael.at"
+  },
+  "AT-10512": {
+    "website": "muehlgraben.at"
+  },
+  "AT-10721": {
+    "website": "wallern.at"
+  },
+  "AT-10926": {
+    "website": "weiden.at"
+  },
+  "AT-20302": {
+    "website": "dellach.at"
+  },
+  "AT-20307": {
+    "website": "koetschach-mauthen.at"
+  },
+  "AT-20424": {
+    "website": "poertschach.at"
+  },
+  "AT-20432": {
+    "website": "schiefling.at"
+  },
+  "AT-20632": {
+    "website": "rennweg.at"
+  },
+  "AT-20639": {
+    "website": "weissensee.at"
+  },
+  "AT-20707": {
+    "website": "feistritz.at"
+  },
+  "AT-20711": {
+    "website": "finkenstein.at"
+  },
+  "AT-20722": {
+    "website": "sankt-jakob.at"
+  },
+  "AT-20726": {
+    "website": "weissenstein.at"
+  },
+  "AT-20817": {
+    "website": "voelkermarkt.at"
+  },
+  "AT-31008": {
+    "website": "goellersdorf.gv.at"
+  },
+  "AT-31303": {
+    "website": "bergern.at"
+  },
+  "AT-31350": {
+    "website": "weinzierl.at"
+  },
+  "AT-31414": {
+    "website": "tuernitz.gv.at"
+  },
+  "AT-31528": {
+    "website": "noechling.gv.at"
+  },
+  "AT-31553": {
+    "website": "emmersdorf.at"
+  },
+  "AT-31605": {
+    "website": "bockfliess.gv.at"
+  },
+  "AT-31615": {
+    "website": "grossengersdorf.gv.at"
+  },
+  "AT-31653": {
+    "website": "wildenduernbach.gv.at"
+  },
+  "AT-31903": {
+    "website": "boeheimkirchen.gv.at"
+  },
+  "AT-31935": {
+    "website": "rabenstein.gv.at"
+  },
+  "AT-31948": {
+    "website": "woelbling.gv.at"
+  },
+  "AT-32139": {
+    "website": "wuermla.gv.at"
+  },
+  "AT-32209": {
+    "website": "karlstein.at"
+  },
+  "AT-32220": {
+    "website": "waidhofen.at"
+  },
+  "AT-32221": {
+    "website": "waidhofen-land.at"
+  },
+  "AT-32520": {
+    "website": "poella.at"
+  },
+  "AT-32523": {
+    "website": "schoenbach.gv.at"
+  },
+  "AT-40446": {
+    "website": "weng.at"
+  },
+  "AT-40615": {
+    "website": "rainbach.at"
+  },
+  "AT-41511": {
+    "website": "pfarrkirchen.at"
+  },
+  "AT-41623": {
+    "website": "sonnberg.ooe.gv.at"
+  },
+  "AT-41751": {
+    "website": "zell-moos.ooe.gv.at"
+  },
+  "AT-41813": {
+    "website": "neukirchen.at"
+  },
+  "AT-50212": {
+    "website": "scheffau.gv.at"
+  },
+  "AT-50314": {
+    "website": "groedig.salzburg.at"
+  },
+  "AT-50325": {
+    "website": "nussdorf.at"
+  },
+  "AT-50601": {
+    "website": "bramberg.at"
+  },
+  "AT-60323": {
+    "website": "poelfing-brunn.steiermark.at"
+  },
+  "AT-60608": {
+    "website": "feldkirchen.at"
+  },
+  "AT-61049": {
+    "website": "ehrenhausen.steiermark.at"
+  },
+  "AT-61106": {
+    "website": "kammern.at"
+  },
+  "AT-61266": {
+    "website": "soelk.gv.at"
+  },
+  "AT-61440": {
+    "website": "oberwoelz.gv.at"
+  },
+  "AT-61759": {
+    "website": "gersdorf.gv.at"
+  },
+  "AT-62026": {
+    "website": "sankt-georgen.at"
+  },
+  "AT-62245": {
+    "website": "sankt-lorenzen.at"
+  },
+  "AT-62279": {
+    "website": "waldbach-moenichwald.gv.at"
+  },
+  "AT-70201": {
+    "website": "arzl.at"
+  },
+  "AT-70207": {
+    "website": "karroesten.gv.at"
+  },
+  "AT-70208": {
+    "website": "laengenfeld.gv.at"
+  },
+  "AT-70220": {
+    "website": "soelden.gv.at"
+  },
+  "AT-70312": {
+    "website": "goetzens.gv.at"
+  },
+  "AT-70334": {
+    "website": "neustift.at"
+  },
+  "AT-70335": {
+    "website": "oberhofen.at"
+  },
+  "AT-70336": {
+    "website": "obernberg.at"
+  },
+  "AT-70350": {
+    "website": "schoenberg.gv.at"
+  },
+  "AT-70351": {
+    "website": "seefeld.at"
+  },
+  "AT-70355": {
+    "website": "steinach.gv.at"
+  },
+  "AT-70401": {
+    "website": "aurach.at"
+  },
+  "AT-70402": {
+    "website": "brixen.at"
+  },
+  "AT-70404": {
+    "website": "going.gv.at"
+  },
+  "AT-70406": {
+    "website": "hopfgarten.at"
+  },
+  "AT-70505": {
+    "website": "breitenbach.at"
+  },
+  "AT-70522": {
+    "website": "reith.at"
+  },
+  "AT-70530": {
+    "website": "wildschoenau.gv.at"
+  },
+  "AT-70604": {
+    "website": "fliess.gv.at"
+  },
+  "AT-70616": {
+    "website": "pettneu.gv.at"
+  },
+  "AT-70620": {
+    "website": "ried.at"
+  },
+  "AT-70622": {
+    "website": "schoenwies.gv.at"
+  },
+  "AT-70626": {
+    "website": "stanz.at"
+  },
+  "AT-70629": {
+    "website": "toesens.gv.at"
+  },
+  "AT-70717": {
+    "website": "matrei.at"
+  },
+  "AT-70813": {
+    "website": "haeselgehr.gv.at"
+  },
+  "AT-70824": {
+    "website": "nesselwaengle.gv.at"
+  },
+  "AT-70837": {
+    "website": "zoeblen.gv.at"
+  },
+  "AT-70902": {
+    "website": "aschau.at"
+  },
+  "AT-70907": {
+    "website": "eben.at"
+  },
+  "AT-70910": {
+    "website": "fuegenberg.gv.at"
+  },
+  "AT-70922": {
+    "website": "ramsau.gv.at"
+  },
+  "AT-70929": {
+    "website": "steinberg-rofan.gv.at"
+  },
+  "AT-20813": {
+    "website": "st-kanzian.at"
+  },
+  "AT-30645": {
+    "website": "weissenbach-triesting.at"
+  },
+  "AT-32011": {
+    "website": "st-anton-jessnitz.gv.at"
+  },
+  "AT-40411": {
+    "website": "haigermoos.ooe.gv.at"
+  },
+  "AT-40413": {
+    "website": "helpfau-uttendorf.ooe.gv.at"
+  },
+  "AT-40416": {
+    "website": "jeging.ooe.gv.at"
+  },
+  "AT-40418": {
+    "website": "lengau.ooe.gv.at"
+  },
+  "AT-40429": {
+    "website": "palting.ooe.gv.at"
+  },
+  "AT-40430": {
+    "website": "perwang.ooe.gv.at"
+  },
+  "AT-40442": {
+    "website": "schwand.ooe.gv.at"
+  },
+  "AT-40507": {
+    "website": "hinzenbach.ooe.gv.at"
+  },
+  "AT-40509": {
+    "website": "pupping.ooe.gv.at"
+  },
+  "AT-40512": {
+    "website": "stroheim.ooe.gv.at"
+  },
+  "AT-40602": {
+    "website": "gruenbach.ooe.gv.at"
+  },
+  "AT-40610": {
+    "website": "leopoldschlag.ooe.gv.at"
+  },
+  "AT-40623": {
+    "website": "waldburg.ooe.gv.at"
+  },
+  "AT-40624": {
+    "website": "wartberg-aist.ooe.gv.at"
+  },
+  "AT-40626": {
+    "website": "windhaag-freistadt.ooe.gv.at"
+  },
+  "AT-40627": {
+    "website": "bad-zell.ooe.gv.at"
+  },
+  "AT-40701": {
+    "website": "altmuenster.ooe.gv.at"
+  },
+  "AT-40708": {
+    "website": "gschwandt.ooe.gv.at"
+  },
+  "AT-40716": {
+    "website": "st-konrad.ooe.gv.at"
+  },
+  "AT-40718": {
+    "website": "traunkirchen.ooe.gv.at"
+  },
+  "AT-40720": {
+    "website": "vorchdorf.ooe.gv.at"
+  },
+  "AT-40813": {
+    "website": "kematen-innbach.ooe.gv.at"
+  },
+  "AT-40815": {
+    "website": "michaelnbach.ooe.gv.at"
+  },
+  "AT-40816": {
+    "website": "natternbach.ooe.gv.at"
+  },
+  "AT-40821": {
+    "website": "pollham.ooe.gv.at"
+  },
+  "AT-40825": {
+    "website": "st-georgen-grieskirchen.ooe.gv.at"
+  },
+  "AT-40828": {
+    "website": "steegen.ooe.gv.at"
+  },
+  "AT-40830": {
+    "website": "tollet.ooe.gv.at"
+  },
+  "AT-40901": {
+    "website": "edlbach.ooe.gv.at"
+  },
+  "AT-40910": {
+    "website": "nussbach.ooe.gv.at"
+  },
+  "AT-40912": {
+    "website": "pettenbach.ooe.gv.at"
+  },
+  "AT-40915": {
+    "website": "rossleithen.ooe.gv.at"
+  },
+  "AT-40922": {
+    "website": "wartberg-krems.ooe.gv.at"
+  },
+  "AT-40923": {
+    "website": "windischgarsten.ooe.gv.at"
+  },
+  "AT-41011": {
+    "website": "kronstorf.ooe.gv.at"
+  },
+  "AT-41013": {
+    "website": "st-florian.ooe.gv.at"
+  },
+  "AT-41016": {
+    "website": "oftering.ooe.gv.at"
+  },
+  "AT-41115": {
+    "website": "pabneukirchen.ooe.gv.at"
+  },
+  "AT-41118": {
+    "website": "ried-riedmark.ooe.gv.at"
+  },
+  "AT-41121": {
+    "website": "st-nikola-donau.ooe.gv.at"
+  },
+  "AT-41203": {
+    "website": "aurolzmuenster.ooe.gv.at"
+  },
+  "AT-41210": {
+    "website": "kirchdorf-inn.ooe.gv.at"
+  },
+  "AT-41215": {
+    "website": "mettmach.ooe.gv.at"
+  },
+  "AT-41217": {
+    "website": "muehlheim-inn.ooe.gv.at"
+  },
+  "AT-41224": {
+    "website": "reichersberg.ooe.gv.at"
+  },
+  "AT-41226": {
+    "website": "st-georgen-obernberg.ooe.gv.at"
+  },
+  "AT-41231": {
+    "website": "taiskirchen.ooe.gv.at"
+  },
+  "AT-41307": {
+    "website": "auberg.ooe.gv.at"
+  },
+  "AT-41309": {
+    "website": "haslach.ooe.gv.at"
+  },
+  "AT-41401": {
+    "website": "altschwendt.ooe.gv.at"
+  },
+  "AT-41402": {
+    "website": "andorf.ooe.gv.at"
+  },
+  "AT-41407": {
+    "website": "engelhartszell.ooe.gv.at"
+  },
+  "AT-41411": {
+    "website": "kopfing.ooe.gv.at"
+  },
+  "AT-41416": {
+    "website": "riedau.ooe.gv.at"
+  },
+  "AT-41428": {
+    "website": "waldkirchen.ooe.gv.at"
+  },
+  "AT-41501": {
+    "website": "adlwang.ooe.gv.at"
+  },
+  "AT-41505": {
+    "website": "gaflenz.ooe.gv.at"
+  },
+  "AT-41507": {
+    "website": "grossraming.ooe.gv.at"
+  },
+  "AT-41601": {
+    "website": "alberndorf.ooe.gv.at"
+  },
+  "AT-41608": {
+    "website": "goldwoerth.ooe.gv.at"
+  },
+  "AT-41611": {
+    "website": "hellmonsoedt.ooe.gv.at"
+  },
+  "AT-41612": {
+    "website": "herzogsdorf.ooe.gv.at"
+  },
+  "AT-41701": {
+    "website": "ampflwang.ooe.gv.at"
+  },
+  "AT-41721": {
+    "website": "oberwang.ooe.gv.at"
+  },
+  "AT-41730": {
+    "website": "redlham.ooe.gv.at"
+  },
+  "AT-41731": {
+    "website": "regau.ooe.gv.at"
+  },
+  "AT-41734": {
+    "website": "st-georgen-attergau.ooe.gv.at"
+  },
+  "AT-41735": {
+    "website": "st-lorenz.ooe.gv.at"
+  },
+  "AT-41749": {
+    "website": "weyregg.ooe.gv.at"
+  },
+  "AT-41819": {
+    "website": "sipbachzell.ooe.gv.at"
+  },
+  "AT-60348": {
+    "website": "st-stefan-stainz.gv.at"
+  },
+  "AT-61114": {
+    "website": "st-peter-freienstein.gv.at"
+  },
+  "AT-61115": {
+    "website": "st-stefan-leoben.steiermark.at"
+  },
+  "AT-62045": {
+    "website": "st-marein-feistritz.gv.at"
+  },
+  "AT-70409": {
+    "website": "kirchberg-tirol.gv.at"
+  },
+  "AT-70410": {
+    "website": "kirchdorf-tirol.gv.at"
+  },
+  "AT-10404": {
+    "website": "gerersdorf-sulz.bgld.gv.at"
+  },
+  "AT-10408": {
+    "website": "kukmirn.bgld.gv.at"
+  },
+  "AT-10424": {
+    "website": "heugraben.bgld.gv.at"
+  },
+  "AT-30621": {
+    "website": "mitterndorf-fischa.gv.at"
+  },
+  "AT-31830": {
+    "website": "stcorona.at"
+  },
+  "AT-41741": {
+    "website": "strass.ooe.gv.at"
+  },
+  "AT-70415": {
+    "website": "st-jakob-haus.gv.at"
+  },
+  "AT-80119": {
+    "website": "st-anton.at"
+  },
+  "AT-80120": {
+    "website": "stgallenkirch.at"
+  },
+  "AT-10411": {
+    "website": "olbendorf.bgld.gv.at"
+  },
+  "AT-10428": {
+    "website": "moschendorf.bgld.gv.at"
+  },
+  "AT-10608": {
+    "website": "poettelsdorf.bgld.gv.at"
+  },
+  "AT-10609": {
+    "website": "poettsching.bgld.gv.at"
+  },
+  "AT-10619": {
+    "website": "krensdorf.bgld.gv.at"
+  },
+  "AT-10826": {
+    "website": "unterrabnitz-schwendgraben.bgld.gv.at"
+  },
+  "AT-10827": {
+    "website": "weingraben.bgld.gv.at"
+  },
+  "AT-10907": {
+    "website": "kemeten.bgld.gv.at"
+  },
+  "AT-10920": {
+    "website": "riedlingsdorf.bgld.gv.at"
+  },
+  "AT-10923": {
+    "website": "stadtschlaining.bgld.gv.at"
+  },
+  "AT-20316": {
+    "website": "st-stefan-gailtal.ktn.gde.at"
+  },
+  "AT-20414": {
+    "website": "koettmannsdorf.ktn.gde.at"
+  },
+  "AT-20415": {
+    "website": "krumpendorf.ktn.gde.at"
+  },
+  "AT-20417": {
+    "website": "maria-rain.ktn.gde.at"
+  },
+  "AT-20501": {
+    "website": "althofen.ktn.gde.at"
+  },
+  "AT-20509": {
+    "website": "guttaring.ktn.gde.at"
+  },
+  "AT-20531": {
+    "website": "weitensfeld.ktn.gde.at"
+  },
+  "AT-20622": {
+    "website": "moertschach.ktn.gde.at"
+  },
+  "AT-20638": {
+    "website": "trebesing.ktn.gde.at"
+  },
+  "AT-20905": {
+    "website": "frantschach-stgertraud.ktn.gde.at"
+  },
+  "AT-21006": {
+    "website": "ossiach.ktn.gde.at"
+  },
+  "AT-10921": {
+    "website": "rotenturm-pinka.bgld.gv.at"
+  },
+  "AT-20602": {
+    "website": "baldramsdorf.ktn.gde.at"
+  },
+  "AT-30921": {
+    "website": "kirchbergamwalde.at"
+  },
+  "AT-32001": {
+    "website": "gaming.noe.at"
+  },
+  "AT-32141": {
+    "website": "zwentendorf-donau.gv.at"
+  },
+  "AT-50508": {
+    "website": "gde-st-margarethen.salzburg.at"
+  },
+  "AT-61257": {
+    "website": "irdning.at"
+  },
+  "AT-70210": {
+    "website": "mils-imst.gv.at"
+  },
+  "AT-70217": {
+    "website": "st-leonhard-pitztal.gv.at"
+  },
+  "AT-70313": {
+    "website": "gries-brenner.gv.at"
+  },
+  "AT-70314": {
+    "website": "gries-sellrain.gv.at"
+  },
+  "AT-70344": {
+    "website": "reith-seefeld.at"
+  },
+  "AT-70347": {
+    "website": "st-sigmund.gv.at"
+  },
+  "AT-70417": {
+    "website": "st-ulrich-pillersee.gv.at"
+  },
+  "AT-70726": {
+    "website": "st-veit-def.at"
+  },
+  "AT-70836": {
+    "website": "weissenbach-lech.gv.at"
+  },
+  "AT-70923": {
+    "website": "ried-zillertal.gv.at"
+  },
+  "AT-70930": {
+    "website": "strass-zillertal.gv.at"
+  },
+  "AT-70941": {
+    "website": "gemeinde-zellberg.at"
+  },
+  "AT-61205": {
+    "website": "altenmarkt-enns.at"
+  },
+  "LT-33": {
+    "website": "panrs.lt"
+  }
+}
