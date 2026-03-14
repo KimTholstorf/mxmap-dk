@@ -1,0 +1,4520 @@
+[
+  {
+    "id": "BE-11001",
+    "name": "Aartselaar",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "aartselaar.be",
+    "osm_relation_id": 58545
+  },
+  {
+    "id": "BE-11002",
+    "name": "Antwerpen",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "antwerpen.be",
+    "osm_relation_id": 59518
+  },
+  {
+    "id": "BE-11004",
+    "name": "Boechout",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "boechout.be",
+    "osm_relation_id": 76278
+  },
+  {
+    "id": "BE-11005",
+    "name": "Boom",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "boom.be",
+    "osm_relation_id": 58860
+  },
+  {
+    "id": "BE-11008",
+    "name": "Brasschaat",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "brasschaat.be",
+    "osm_relation_id": 408294
+  },
+  {
+    "id": "BE-11009",
+    "name": "Brecht",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "brecht.be",
+    "osm_relation_id": 1277957
+  },
+  {
+    "id": "BE-11013",
+    "name": "Edegem",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "edegem.be",
+    "osm_relation_id": 58565
+  },
+  {
+    "id": "BE-11016",
+    "name": "Essen",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "essen.be",
+    "osm_relation_id": 964003
+  },
+  {
+    "id": "BE-11018",
+    "name": "Hemiksem",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "hemiksem.be",
+    "osm_relation_id": 58376
+  },
+  {
+    "id": "BE-11021",
+    "name": "Hove",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "hove.be",
+    "osm_relation_id": 58642
+  },
+  {
+    "id": "BE-11022",
+    "name": "Kalmthout",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "kalmthout.be",
+    "osm_relation_id": 1284337
+  },
+  {
+    "id": "BE-11023",
+    "name": "Kapellen",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "kapellen.be",
+    "osm_relation_id": 61255
+  },
+  {
+    "id": "BE-11024",
+    "name": "Kontich",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "kontich.be",
+    "osm_relation_id": 58564
+  },
+  {
+    "id": "BE-11025",
+    "name": "Lint",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "lint.be",
+    "osm_relation_id": 58656
+  },
+  {
+    "id": "BE-11029",
+    "name": "Mortsel",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "mortsel.be",
+    "osm_relation_id": 58641
+  },
+  {
+    "id": "BE-11030",
+    "name": "Niel",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "niel.be",
+    "osm_relation_id": 58333
+  },
+  {
+    "id": "BE-11035",
+    "name": "Ranst",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "ranst.be",
+    "osm_relation_id": 1283355
+  },
+  {
+    "id": "BE-11037",
+    "name": "Rumst",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "rumst.be",
+    "osm_relation_id": 58824
+  },
+  {
+    "id": "BE-11038",
+    "name": "Schelle",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "schelle.be",
+    "osm_relation_id": 58364
+  },
+  {
+    "id": "BE-11039",
+    "name": "Schilde",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "schilde.be",
+    "osm_relation_id": 1283358
+  },
+  {
+    "id": "BE-11040",
+    "name": "Schoten",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "schoten.be",
+    "osm_relation_id": 408297
+  },
+  {
+    "id": "BE-11044",
+    "name": "Stabroek",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "stabroek.be",
+    "osm_relation_id": 60973
+  },
+  {
+    "id": "BE-11050",
+    "name": "Wijnegem",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "wijnegem.be",
+    "osm_relation_id": 310363
+  },
+  {
+    "id": "BE-11052",
+    "name": "Wommelgem",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "wommelgem.be",
+    "osm_relation_id": 310381
+  },
+  {
+    "id": "BE-11053",
+    "name": "Wuustwezel",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "wuustwezel.be",
+    "osm_relation_id": 1284088
+  },
+  {
+    "id": "BE-11054",
+    "name": "Zandhoven",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "zandhoven.be",
+    "osm_relation_id": 1277901
+  },
+  {
+    "id": "BE-11055",
+    "name": "Zoersel",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "zoersel.be",
+    "osm_relation_id": 1283354
+  },
+  {
+    "id": "BE-11057",
+    "name": "Malle",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "malle.be",
+    "osm_relation_id": 1277900
+  },
+  {
+    "id": "BE-12002",
+    "name": "Berlaar",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "berlaar.be",
+    "osm_relation_id": 1186624
+  },
+  {
+    "id": "BE-12005",
+    "name": "Bonheiden",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "bonheiden.be",
+    "osm_relation_id": 398062
+  },
+  {
+    "id": "BE-12007",
+    "name": "Bornem",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "bornem.be",
+    "osm_relation_id": 391113
+  },
+  {
+    "id": "BE-12009",
+    "name": "Duffel",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "duffel.be",
+    "osm_relation_id": 964195
+  },
+  {
+    "id": "BE-12014",
+    "name": "Heist-op-den-Berg",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "heist-op-den-berg.be",
+    "osm_relation_id": 1178384
+  },
+  {
+    "id": "BE-12021",
+    "name": "Lier",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "lier.be",
+    "osm_relation_id": 964259
+  },
+  {
+    "id": "BE-12025",
+    "name": "Mechelen",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "mechelen.be",
+    "osm_relation_id": 412864
+  },
+  {
+    "id": "BE-12026",
+    "name": "Nijlen",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "nijlen.be",
+    "osm_relation_id": 1283245
+  },
+  {
+    "id": "BE-12029",
+    "name": "Putte",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "putte.be",
+    "osm_relation_id": 398058
+  },
+  {
+    "id": "BE-12035",
+    "name": "Sint-Katelijne-Waver",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "sintkatelijnewaver.be",
+    "osm_relation_id": 414402
+  },
+  {
+    "id": "BE-12040",
+    "name": "Willebroek",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "willebroek.be",
+    "osm_relation_id": 414233
+  },
+  {
+    "id": "BE-12041",
+    "name": "Puurs-Sint-Amands",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "puurs-sint-amands.be",
+    "osm_relation_id": 391117
+  },
+  {
+    "id": "BE-13001",
+    "name": "Arendonk",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "arendonk.be",
+    "osm_relation_id": 1274223
+  },
+  {
+    "id": "BE-13002",
+    "name": "Baarle-Hertog",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "baarle-hertog.be",
+    "osm_relation_id": 53137
+  },
+  {
+    "id": "BE-13003",
+    "name": "Balen",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "balen.be",
+    "osm_relation_id": 1263915
+  },
+  {
+    "id": "BE-13004",
+    "name": "Beerse",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "beerse.be",
+    "osm_relation_id": 1283042
+  },
+  {
+    "id": "BE-13006",
+    "name": "Dessel",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "dessel.be",
+    "osm_relation_id": 1265121
+  },
+  {
+    "id": "BE-13008",
+    "name": "Geel",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "geel.be",
+    "osm_relation_id": 1263541
+  },
+  {
+    "id": "BE-13010",
+    "name": "Grobbendonk",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "grobbendonk.be",
+    "osm_relation_id": 1283235
+  },
+  {
+    "id": "BE-13011",
+    "name": "Herentals",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "herentals.be",
+    "osm_relation_id": 1275056
+  },
+  {
+    "id": "BE-13012",
+    "name": "Herenthout",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "herenthout.be",
+    "osm_relation_id": 1283244
+  },
+  {
+    "id": "BE-13013",
+    "name": "Herselt",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "herselt.be",
+    "osm_relation_id": 1282303
+  },
+  {
+    "id": "BE-13014",
+    "name": "Hoogstraten",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "hoogstraten.be",
+    "osm_relation_id": 1284064
+  },
+  {
+    "id": "BE-13016",
+    "name": "Hulshout",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "hulshout.be",
+    "osm_relation_id": 1282313
+  },
+  {
+    "id": "BE-13017",
+    "name": "Kasterlee",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "kasterlee.be",
+    "osm_relation_id": 1282971
+  },
+  {
+    "id": "BE-13019",
+    "name": "Lille",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "lille.be",
+    "osm_relation_id": 1282972
+  },
+  {
+    "id": "BE-13021",
+    "name": "Meerhout",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "meerhout.be",
+    "osm_relation_id": 1264080
+  },
+  {
+    "id": "BE-13023",
+    "name": "Merksplas",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "merksplas.be",
+    "osm_relation_id": 1284051
+  },
+  {
+    "id": "BE-13025",
+    "name": "Mol",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "gemeentemol.be",
+    "osm_relation_id": 1263864
+  },
+  {
+    "id": "BE-13029",
+    "name": "Olen",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "olen.be",
+    "osm_relation_id": 1282320
+  },
+  {
+    "id": "BE-13031",
+    "name": "Oud-Turnhout",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "oud-turnhout.be",
+    "osm_relation_id": 1274222
+  },
+  {
+    "id": "BE-13035",
+    "name": "Ravels",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "ravels.be",
+    "osm_relation_id": 1274221
+  },
+  {
+    "id": "BE-13036",
+    "name": "Retie",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "retie.be",
+    "osm_relation_id": 1265126
+  },
+  {
+    "id": "BE-13037",
+    "name": "Rijkevorsel",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "rijkevorsel.be",
+    "osm_relation_id": 1277952
+  },
+  {
+    "id": "BE-13040",
+    "name": "Turnhout",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "turnhout.be",
+    "osm_relation_id": 1274122
+  },
+  {
+    "id": "BE-13044",
+    "name": "Vorselaar",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "vorselaar.be",
+    "osm_relation_id": 1283231
+  },
+  {
+    "id": "BE-13046",
+    "name": "Vosselaar",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "vosselaar.be",
+    "osm_relation_id": 1283041
+  },
+  {
+    "id": "BE-13049",
+    "name": "Westerlo",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "westerlo.be",
+    "osm_relation_id": 1282302
+  },
+  {
+    "id": "BE-13053",
+    "name": "Laakdal",
+    "country": "BE",
+    "region": "Antwerpen",
+    "domain": "laakdal.be",
+    "osm_relation_id": 1264101
+  },
+  {
+    "id": "BE-21001",
+    "name": "Anderlecht",
+    "country": "BE",
+    "region": "Brussel",
+    "domain": "anderlecht.be",
+    "osm_relation_id": 58254
+  },
+  {
+    "id": "BE-21002",
+    "name": "Oudergem",
+    "country": "BE",
+    "region": "Brussel",
+    "domain": "oudergem.be",
+    "osm_relation_id": 58263
+  },
+  {
+    "id": "BE-21003",
+    "name": "Sint-Agatha-Berchem",
+    "country": "BE",
+    "region": "Brussel",
+    "domain": "berchem.brussels",
+    "osm_relation_id": 60140
+  },
+  {
+    "id": "BE-21004",
+    "name": "Brussel",
+    "country": "BE",
+    "region": "Brussel",
+    "domain": "brussel.be",
+    "osm_relation_id": 58274
+  },
+  {
+    "id": "BE-21005",
+    "name": "Etterbeek",
+    "country": "BE",
+    "region": "Brussel",
+    "domain": "etterbeek.brussels",
+    "osm_relation_id": 58252
+  },
+  {
+    "id": "BE-21006",
+    "name": "Evere",
+    "country": "BE",
+    "region": "Brussel",
+    "domain": "evere.brussels",
+    "osm_relation_id": 60144
+  },
+  {
+    "id": "BE-21007",
+    "name": "Vorst",
+    "country": "BE",
+    "region": "Brussel",
+    "domain": "vorst.brussels",
+    "osm_relation_id": 58249
+  },
+  {
+    "id": "BE-21008",
+    "name": "Ganshoren",
+    "country": "BE",
+    "region": "Brussel",
+    "domain": "ganshoren.be",
+    "osm_relation_id": 58257
+  },
+  {
+    "id": "BE-21009",
+    "name": "Elsene",
+    "country": "BE",
+    "region": "Brussel",
+    "domain": "ixelles.be",
+    "osm_relation_id": 58250
+  },
+  {
+    "id": "BE-21010",
+    "name": "Jette",
+    "country": "BE",
+    "region": "Brussel",
+    "domain": "jette.irisnet.be",
+    "osm_relation_id": 58258
+  },
+  {
+    "id": "BE-21011",
+    "name": "Koekelberg",
+    "country": "BE",
+    "region": "Brussel",
+    "domain": "koekelberg.be",
+    "osm_relation_id": 58256
+  },
+  {
+    "id": "BE-21012",
+    "name": "Sint-Jans-Molenbeek",
+    "country": "BE",
+    "region": "Brussel",
+    "domain": "molenbeek.irisnet.be",
+    "osm_relation_id": 58255
+  },
+  {
+    "id": "BE-21013",
+    "name": "Sint-Gillis",
+    "country": "BE",
+    "region": "Brussel",
+    "domain": "stgilles.brussels",
+    "osm_relation_id": 58248
+  },
+  {
+    "id": "BE-21014",
+    "name": "Sint-Joost-ten-Node",
+    "country": "BE",
+    "region": "Brussel",
+    "domain": "sjtn.brussels",
+    "osm_relation_id": 58262
+  },
+  {
+    "id": "BE-21015",
+    "name": "Schaarbeek",
+    "country": "BE",
+    "region": "Brussel",
+    "domain": "1030.be",
+    "osm_relation_id": 58260
+  },
+  {
+    "id": "BE-21016",
+    "name": "Ukkel",
+    "country": "BE",
+    "region": "Brussel",
+    "domain": "uccle.be",
+    "osm_relation_id": 58253
+  },
+  {
+    "id": "BE-21017",
+    "name": "Watermaal-Bosvoorde",
+    "country": "BE",
+    "region": "Brussel",
+    "domain": "watermael-boitsfort.be",
+    "osm_relation_id": 58264
+  },
+  {
+    "id": "BE-21018",
+    "name": "Sint-Lambrechts-Woluwe",
+    "country": "BE",
+    "region": "Brussel",
+    "domain": "woluwe1200.be",
+    "osm_relation_id": 60167
+  },
+  {
+    "id": "BE-21019",
+    "name": "Sint-Pieters-Woluwe",
+    "country": "BE",
+    "region": "Brussel",
+    "domain": "woluwe1150.be",
+    "osm_relation_id": 60168
+  },
+  {
+    "id": "BE-23002",
+    "name": "Asse",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "asse.be",
+    "osm_relation_id": 225173
+  },
+  {
+    "id": "BE-23003",
+    "name": "Beersel",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "beersel.be",
+    "osm_relation_id": 111613
+  },
+  {
+    "id": "BE-23009",
+    "name": "Bever",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "bever-bievene.be",
+    "osm_relation_id": 1204549
+  },
+  {
+    "id": "BE-23016",
+    "name": "Dilbeek",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "dilbeek.be",
+    "osm_relation_id": 225045
+  },
+  {
+    "id": "BE-23025",
+    "name": "Grimbergen",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "grimbergen.be",
+    "osm_relation_id": 112011
+  },
+  {
+    "id": "BE-23027",
+    "name": "Halle",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "halle.be",
+    "osm_relation_id": 206480
+  },
+  {
+    "id": "BE-23033",
+    "name": "Hoeilaart",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "hoeilaart.be",
+    "osm_relation_id": 191698
+  },
+  {
+    "id": "BE-23038",
+    "name": "Kampenhout",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "kampenhout.be",
+    "osm_relation_id": 414615
+  },
+  {
+    "id": "BE-23039",
+    "name": "Kapelle-op-den-Bos",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "kapelle-op-den-bos.be",
+    "osm_relation_id": 939421
+  },
+  {
+    "id": "BE-23044",
+    "name": "Liedekerke",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "liedekerke.be",
+    "osm_relation_id": 962589
+  },
+  {
+    "id": "BE-23045",
+    "name": "Londerzeel",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "londerzeel.be",
+    "osm_relation_id": 912292
+  },
+  {
+    "id": "BE-23047",
+    "name": "Machelen",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "machelen.be",
+    "osm_relation_id": 196185
+  },
+  {
+    "id": "BE-23050",
+    "name": "Meise",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "meise.be",
+    "osm_relation_id": 913885
+  },
+  {
+    "id": "BE-23052",
+    "name": "Merchtem",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "merchtem.be",
+    "osm_relation_id": 912314
+  },
+  {
+    "id": "BE-23060",
+    "name": "Opwijk",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "opwijk.be",
+    "osm_relation_id": 913906
+  },
+  {
+    "id": "BE-23062",
+    "name": "Overijse",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "overijse.be",
+    "osm_relation_id": 191699
+  },
+  {
+    "id": "BE-23064",
+    "name": "Pepingen",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "pepingen.be",
+    "osm_relation_id": 1225361
+  },
+  {
+    "id": "BE-23077",
+    "name": "Sint-Pieters-Leeuw",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "sint-pieters-leeuw.be",
+    "osm_relation_id": 199135
+  },
+  {
+    "id": "BE-23081",
+    "name": "Steenokkerzeel",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "steenokkerzeel.be",
+    "osm_relation_id": 414918
+  },
+  {
+    "id": "BE-23086",
+    "name": "Ternat",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "ternat.be",
+    "osm_relation_id": 1069836
+  },
+  {
+    "id": "BE-23088",
+    "name": "Vilvoorde",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "vilvoorde.be",
+    "osm_relation_id": 195697
+  },
+  {
+    "id": "BE-23094",
+    "name": "Zaventem",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "zaventem.be",
+    "osm_relation_id": 196184
+  },
+  {
+    "id": "BE-23096",
+    "name": "Zemst",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "zemst.be",
+    "osm_relation_id": 196175
+  },
+  {
+    "id": "BE-23097",
+    "name": "Roosdaal",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "roosdaal.be",
+    "osm_relation_id": 1069845
+  },
+  {
+    "id": "BE-23098",
+    "name": "Drogenbos",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "drogenbos.be",
+    "osm_relation_id": 78953
+  },
+  {
+    "id": "BE-23099",
+    "name": "Kraainem",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "kraainem.be",
+    "osm_relation_id": 78954
+  },
+  {
+    "id": "BE-23100",
+    "name": "Linkebeek",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "linkebeek.be",
+    "osm_relation_id": 78808
+  },
+  {
+    "id": "BE-23101",
+    "name": "Sint-Genesius-Rode",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "sint-genesius-rode.be",
+    "osm_relation_id": 78796
+  },
+  {
+    "id": "BE-23102",
+    "name": "Wemmel",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "wemmel.be",
+    "osm_relation_id": 77186
+  },
+  {
+    "id": "BE-23103",
+    "name": "Wezembeek-Oppem",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "wezembeek-oppem.be",
+    "osm_relation_id": 78958
+  },
+  {
+    "id": "BE-23104",
+    "name": "Lennik",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "lennik.be",
+    "osm_relation_id": 1145697
+  },
+  {
+    "id": "BE-23105",
+    "name": "Affligem",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "affligem.be",
+    "osm_relation_id": 1069815
+  },
+  {
+    "id": "BE-23106",
+    "name": "Pajottegem",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "pajottegem.be",
+    "osm_relation_id": 18491515
+  },
+  {
+    "id": "BE-24001",
+    "name": "Aarschot",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "aarschot.be",
+    "osm_relation_id": 929868
+  },
+  {
+    "id": "BE-24007",
+    "name": "Begijnendijk",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "begijnendijk.be",
+    "osm_relation_id": 958941
+  },
+  {
+    "id": "BE-24008",
+    "name": "Bekkevoort",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "bekkevoort.be",
+    "osm_relation_id": 1164871
+  },
+  {
+    "id": "BE-24009",
+    "name": "Bertem",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "bertem.be",
+    "osm_relation_id": 415817
+  },
+  {
+    "id": "BE-24011",
+    "name": "Bierbeek",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "bierbeek.be",
+    "osm_relation_id": 415952
+  },
+  {
+    "id": "BE-24014",
+    "name": "Boortmeerbeek",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "boortmeerbeek.be",
+    "osm_relation_id": 175138
+  },
+  {
+    "id": "BE-24016",
+    "name": "Boutersem",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "boutersem.be",
+    "osm_relation_id": 416478
+  },
+  {
+    "id": "BE-24020",
+    "name": "Diest",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "diest.be",
+    "osm_relation_id": 1172633
+  },
+  {
+    "id": "BE-24028",
+    "name": "Geetbets",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "geetbets.be",
+    "osm_relation_id": 1221158
+  },
+  {
+    "id": "BE-24033",
+    "name": "Haacht",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "haacht.be",
+    "osm_relation_id": 120261
+  },
+  {
+    "id": "BE-24038",
+    "name": "Herent",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "herent.be",
+    "osm_relation_id": 214461
+  },
+  {
+    "id": "BE-24041",
+    "name": "Hoegaarden",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "lokaalbestuurhoegaarden.be",
+    "osm_relation_id": 416479
+  },
+  {
+    "id": "BE-24043",
+    "name": "Holsbeek",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "holsbeek.be",
+    "osm_relation_id": 543500
+  },
+  {
+    "id": "BE-24045",
+    "name": "Huldenberg",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "huldenberg.be",
+    "osm_relation_id": 415851
+  },
+  {
+    "id": "BE-24048",
+    "name": "Keerbergen",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "keerbergen.be",
+    "osm_relation_id": 214464
+  },
+  {
+    "id": "BE-24054",
+    "name": "Kortenaken",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "kortenaken.be",
+    "osm_relation_id": 966721
+  },
+  {
+    "id": "BE-24055",
+    "name": "Kortenberg",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "kortenberg.be",
+    "osm_relation_id": 414919
+  },
+  {
+    "id": "BE-24059",
+    "name": "Landen",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "landen.be",
+    "osm_relation_id": 455293
+  },
+  {
+    "id": "BE-24062",
+    "name": "Leuven",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "leuven.be",
+    "osm_relation_id": 196311
+  },
+  {
+    "id": "BE-24066",
+    "name": "Lubbeek",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "lubbeek.be",
+    "osm_relation_id": 415955
+  },
+  {
+    "id": "BE-24086",
+    "name": "Oud-Heverlee",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "oud-heverlee.be",
+    "osm_relation_id": 196304
+  },
+  {
+    "id": "BE-24094",
+    "name": "Rotselaar",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "rotselaar.be",
+    "osm_relation_id": 214462
+  },
+  {
+    "id": "BE-24104",
+    "name": "Tervuren",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "tervuren.be",
+    "osm_relation_id": 207264
+  },
+  {
+    "id": "BE-24107",
+    "name": "Tienen",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "tienen.be",
+    "osm_relation_id": 454227
+  },
+  {
+    "id": "BE-24109",
+    "name": "Tremelo",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "tremelo.be",
+    "osm_relation_id": 408312
+  },
+  {
+    "id": "BE-24130",
+    "name": "Zoutleeuw",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "zoutleeuw.be",
+    "osm_relation_id": 1181075
+  },
+  {
+    "id": "BE-24133",
+    "name": "Linter",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "linter.be",
+    "osm_relation_id": 966731
+  },
+  {
+    "id": "BE-24134",
+    "name": "Scherpenheuvel-Zichem",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "scherpenheuvel-zichem.be",
+    "osm_relation_id": 1161890
+  },
+  {
+    "id": "BE-24135",
+    "name": "Tielt-Winge",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "tielt-winge.be",
+    "osm_relation_id": 1208449
+  },
+  {
+    "id": "BE-24137",
+    "name": "Glabbeek",
+    "country": "BE",
+    "region": "Vlaams-Brabant",
+    "domain": "glabbeek.be",
+    "osm_relation_id": 966718
+  },
+  {
+    "id": "BE-25005",
+    "name": "Bevekom",
+    "country": "BE",
+    "region": "Brabant wallon",
+    "domain": "beauvechain.be",
+    "osm_relation_id": 1384087
+  },
+  {
+    "id": "BE-25014",
+    "name": "Eigenbrakel",
+    "country": "BE",
+    "region": "Brabant wallon",
+    "domain": "braine-lalleud.be",
+    "osm_relation_id": 216218
+  },
+  {
+    "id": "BE-25015",
+    "name": "Kasteelbrakel",
+    "country": "BE",
+    "region": "Brabant wallon",
+    "domain": "braine-le-chateau.be",
+    "osm_relation_id": 388600
+  },
+  {
+    "id": "BE-25018",
+    "name": "Chaumont-Gistoux",
+    "country": "BE",
+    "region": "Brabant wallon",
+    "domain": "chaumont-gistoux.be",
+    "osm_relation_id": 2101225
+  },
+  {
+    "id": "BE-25023",
+    "name": "Court-Saint-Étienne",
+    "country": "BE",
+    "region": "Brabant wallon",
+    "domain": "court-st-etienne.be",
+    "osm_relation_id": 1150064
+  },
+  {
+    "id": "BE-25031",
+    "name": "Genepiën",
+    "country": "BE",
+    "region": "Brabant wallon",
+    "domain": "genappe.be",
+    "osm_relation_id": 1149708
+  },
+  {
+    "id": "BE-25037",
+    "name": "Graven",
+    "country": "BE",
+    "region": "Brabant wallon",
+    "domain": "grez-doiceau.be",
+    "osm_relation_id": 1940440
+  },
+  {
+    "id": "BE-25043",
+    "name": "Incourt",
+    "country": "BE",
+    "region": "Brabant wallon",
+    "domain": "incourt.be",
+    "osm_relation_id": 2102543
+  },
+  {
+    "id": "BE-25044",
+    "name": "Itter",
+    "country": "BE",
+    "region": "Brabant wallon",
+    "domain": "ittre.be",
+    "osm_relation_id": 1104553
+  },
+  {
+    "id": "BE-25048",
+    "name": "Geldenaken",
+    "country": "BE",
+    "region": "Brabant wallon",
+    "domain": "jodoigne.be",
+    "osm_relation_id": 1321606
+  },
+  {
+    "id": "BE-25050",
+    "name": "Terhulpen",
+    "country": "BE",
+    "region": "Brabant wallon",
+    "domain": "lahulpe.be",
+    "osm_relation_id": 191582
+  },
+  {
+    "id": "BE-25068",
+    "name": "Mont-Saint-Guibert",
+    "country": "BE",
+    "region": "Brabant wallon",
+    "domain": "mont-saint-guibert.be",
+    "osm_relation_id": 2105649
+  },
+  {
+    "id": "BE-25072",
+    "name": "Nijvel",
+    "country": "BE",
+    "region": "Brabant wallon",
+    "domain": "nivelles.be",
+    "osm_relation_id": 1149724
+  },
+  {
+    "id": "BE-25084",
+    "name": "Perwijs",
+    "country": "BE",
+    "region": "Brabant wallon",
+    "domain": "perwez.be",
+    "osm_relation_id": 2105643
+  },
+  {
+    "id": "BE-25091",
+    "name": "Rixensart",
+    "country": "BE",
+    "region": "Brabant wallon",
+    "domain": "rixensart.be",
+    "osm_relation_id": 193152
+  },
+  {
+    "id": "BE-25105",
+    "name": "Tubeke",
+    "country": "BE",
+    "region": "Brabant wallon",
+    "domain": "tubize.be",
+    "osm_relation_id": 386970
+  },
+  {
+    "id": "BE-25107",
+    "name": "Villers-la-Ville",
+    "country": "BE",
+    "region": "Brabant wallon",
+    "domain": "villers-la-ville.be",
+    "osm_relation_id": 1150063
+  },
+  {
+    "id": "BE-25110",
+    "name": "Waterloo",
+    "country": "BE",
+    "region": "Brabant wallon",
+    "domain": "waterloo.be",
+    "osm_relation_id": 191673
+  },
+  {
+    "id": "BE-25112",
+    "name": "Waver",
+    "country": "BE",
+    "region": "Brabant wallon",
+    "domain": "wavre.be",
+    "osm_relation_id": 224757
+  },
+  {
+    "id": "BE-25117",
+    "name": "Chastre",
+    "country": "BE",
+    "region": "Brabant wallon",
+    "domain": "chastre.be",
+    "osm_relation_id": 2106898
+  },
+  {
+    "id": "BE-25118",
+    "name": "Heilissem",
+    "country": "BE",
+    "region": "Brabant wallon",
+    "domain": "helecine.be",
+    "osm_relation_id": 2102788
+  },
+  {
+    "id": "BE-25119",
+    "name": "Lasne",
+    "country": "BE",
+    "region": "Brabant wallon",
+    "domain": "lasne.be",
+    "osm_relation_id": 193156
+  },
+  {
+    "id": "BE-25120",
+    "name": "Orp-Jauche",
+    "country": "BE",
+    "region": "Brabant wallon",
+    "domain": "orp-jauche.be",
+    "osm_relation_id": 2102839
+  },
+  {
+    "id": "BE-25121",
+    "name": "Ottignies-Louvain-la-Neuve",
+    "country": "BE",
+    "region": "Brabant wallon",
+    "domain": "olln.be",
+    "osm_relation_id": 222516
+  },
+  {
+    "id": "BE-25122",
+    "name": "Ramillies",
+    "country": "BE",
+    "region": "Brabant wallon",
+    "domain": "ramillies.be",
+    "osm_relation_id": 2102840
+  },
+  {
+    "id": "BE-25123",
+    "name": "Rebecq",
+    "country": "BE",
+    "region": "Brabant wallon",
+    "domain": "rebecq.be",
+    "osm_relation_id": 1157669
+  },
+  {
+    "id": "BE-25124",
+    "name": "Walhain",
+    "country": "BE",
+    "region": "Brabant wallon",
+    "domain": "walhain.be",
+    "osm_relation_id": 2105648
+  },
+  {
+    "id": "BE-31003",
+    "name": "Beernem",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "beernem.be",
+    "osm_relation_id": 1412080
+  },
+  {
+    "id": "BE-31004",
+    "name": "Blankenberge",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "blankenberge.be",
+    "osm_relation_id": 557875
+  },
+  {
+    "id": "BE-31005",
+    "name": "Brugge",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "brugge.be",
+    "osm_relation_id": 562654
+  },
+  {
+    "id": "BE-31006",
+    "name": "Damme",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "damme.be",
+    "osm_relation_id": 1310003
+  },
+  {
+    "id": "BE-31012",
+    "name": "Jabbeke",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "jabbeke.be",
+    "osm_relation_id": 1398840
+  },
+  {
+    "id": "BE-31022",
+    "name": "Oostkamp",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "oostkamp.be",
+    "osm_relation_id": 1388718
+  },
+  {
+    "id": "BE-31033",
+    "name": "Torhout",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "torhout.be",
+    "osm_relation_id": 1323975
+  },
+  {
+    "id": "BE-31040",
+    "name": "Zedelgem",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "zedelgem.be",
+    "osm_relation_id": 1399113
+  },
+  {
+    "id": "BE-31042",
+    "name": "Zuienkerke",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "mebosoft.be",
+    "osm_relation_id": 1379109
+  },
+  {
+    "id": "BE-31043",
+    "name": "Knokke-Heist",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "knokke-heist.be",
+    "osm_relation_id": 4569
+  },
+  {
+    "id": "BE-32003",
+    "name": "Diksmuide",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "diksmuide.be",
+    "osm_relation_id": 1292925
+  },
+  {
+    "id": "BE-32006",
+    "name": "Houthulst",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "houthulst.be",
+    "osm_relation_id": 1295835
+  },
+  {
+    "id": "BE-32010",
+    "name": "Koekelare",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "koekelare.be",
+    "osm_relation_id": 1269847
+  },
+  {
+    "id": "BE-32011",
+    "name": "Kortemark",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "kortemark.be",
+    "osm_relation_id": 1376932
+  },
+  {
+    "id": "BE-32030",
+    "name": "Lo-Reninge",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "lo-reninge.be",
+    "osm_relation_id": 1603706
+  },
+  {
+    "id": "BE-33011",
+    "name": "Ieper",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "ieper.be",
+    "osm_relation_id": 1169202
+  },
+  {
+    "id": "BE-33016",
+    "name": "Mesen",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "mesen.be",
+    "osm_relation_id": 405618
+  },
+  {
+    "id": "BE-33021",
+    "name": "Poperinge",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "poperinge.be",
+    "osm_relation_id": 1561101
+  },
+  {
+    "id": "BE-33029",
+    "name": "Wervik",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "wervik.be",
+    "osm_relation_id": 1274190
+  },
+  {
+    "id": "BE-33037",
+    "name": "Zonnebeke",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "zonnebeke.be",
+    "osm_relation_id": 901848
+  },
+  {
+    "id": "BE-33039",
+    "name": "Heuvelland",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "heuvelland.be",
+    "osm_relation_id": 1169203
+  },
+  {
+    "id": "BE-33040",
+    "name": "Langemark-Poelkapelle",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "langemark-poelkapelle.be",
+    "osm_relation_id": 902061
+  },
+  {
+    "id": "BE-33041",
+    "name": "Vleteren",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "vleteren.be",
+    "osm_relation_id": 1603697
+  },
+  {
+    "id": "BE-34002",
+    "name": "Anzegem",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "anzegem.be",
+    "osm_relation_id": 960944
+  },
+  {
+    "id": "BE-34003",
+    "name": "Avelgem",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "avelgem.be",
+    "osm_relation_id": 961013
+  },
+  {
+    "id": "BE-34009",
+    "name": "Deerlijk",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "deerlijk.be",
+    "osm_relation_id": 960131
+  },
+  {
+    "id": "BE-34013",
+    "name": "Harelbeke",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "harelbeke.be",
+    "osm_relation_id": 960123
+  },
+  {
+    "id": "BE-34022",
+    "name": "Kortrijk",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "kortrijk.be",
+    "osm_relation_id": 961284
+  },
+  {
+    "id": "BE-34023",
+    "name": "Kuurne",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "kuurne.be",
+    "osm_relation_id": 960211
+  },
+  {
+    "id": "BE-34025",
+    "name": "Lendelede",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "lendelede.be",
+    "osm_relation_id": 1336018
+  },
+  {
+    "id": "BE-34027",
+    "name": "Menen",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "menen.be",
+    "osm_relation_id": 1335275
+  },
+  {
+    "id": "BE-34040",
+    "name": "Waregem",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "waregem.be",
+    "osm_relation_id": 898562
+  },
+  {
+    "id": "BE-34041",
+    "name": "Wevelgem",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "wevelgem.be",
+    "osm_relation_id": 1334826
+  },
+  {
+    "id": "BE-34042",
+    "name": "Zwevegem",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "zwevegem.be",
+    "osm_relation_id": 960115
+  },
+  {
+    "id": "BE-34043",
+    "name": "Spiere-Helkijn",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "spiere-helkijn.be",
+    "osm_relation_id": 961207
+  },
+  {
+    "id": "BE-35002",
+    "name": "Bredene",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "bredene.be",
+    "osm_relation_id": 417103
+  },
+  {
+    "id": "BE-35005",
+    "name": "Ghistelles",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "gistel.be",
+    "osm_relation_id": 1083198
+  },
+  {
+    "id": "BE-35006",
+    "name": "Ichtegem",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "ichtegem.be",
+    "osm_relation_id": 1376902
+  },
+  {
+    "id": "BE-35011",
+    "name": "Middelkerke",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "middelkerke.be",
+    "osm_relation_id": 1292908
+  },
+  {
+    "id": "BE-35013",
+    "name": "Oostende",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "oostende.be",
+    "osm_relation_id": 1292909
+  },
+  {
+    "id": "BE-35014",
+    "name": "Oudenburg",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "oudenburg.be",
+    "osm_relation_id": 1398489
+  },
+  {
+    "id": "BE-35029",
+    "name": "De Haan",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "dehaan.be",
+    "osm_relation_id": 416127
+  },
+  {
+    "id": "BE-36006",
+    "name": "Hooglede",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "hooglede.be",
+    "osm_relation_id": 901841
+  },
+  {
+    "id": "BE-36007",
+    "name": "Ingelmunster",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "ingelmunster.be",
+    "osm_relation_id": 1151389
+  },
+  {
+    "id": "BE-36008",
+    "name": "Izegem",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "izegem.be",
+    "osm_relation_id": 1335369
+  },
+  {
+    "id": "BE-36010",
+    "name": "Ledegem",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "ledegem.be",
+    "osm_relation_id": 1334122
+  },
+  {
+    "id": "BE-36011",
+    "name": "Lichtervelde",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "lichtervelde.be",
+    "osm_relation_id": 1387976
+  },
+  {
+    "id": "BE-36012",
+    "name": "Moorslede",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "moorslede.be",
+    "osm_relation_id": 1285852
+  },
+  {
+    "id": "BE-36015",
+    "name": "Roeselare",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "roeselare.be",
+    "osm_relation_id": 901849
+  },
+  {
+    "id": "BE-36019",
+    "name": "Staden",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "staden.be",
+    "osm_relation_id": 901843
+  },
+  {
+    "id": "BE-37002",
+    "name": "Dentergem",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "dentergem.be",
+    "osm_relation_id": 1152143
+  },
+  {
+    "id": "BE-37010",
+    "name": "Oostrozebeke",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "oostrozebeke.be",
+    "osm_relation_id": 1151385
+  },
+  {
+    "id": "BE-37011",
+    "name": "Pittem",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "pittem.be",
+    "osm_relation_id": 1337501
+  },
+  {
+    "id": "BE-37017",
+    "name": "Wielsbeke",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "wielsbeke.be",
+    "osm_relation_id": 898561
+  },
+  {
+    "id": "BE-37020",
+    "name": "Ardooie",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "ardooie.be",
+    "osm_relation_id": 1337503
+  },
+  {
+    "id": "BE-37021",
+    "name": "Wingene",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "wingene.be",
+    "osm_relation_id": 1387970
+  },
+  {
+    "id": "BE-37022",
+    "name": "Tielt",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "tielt.be",
+    "osm_relation_id": 1322971
+  },
+  {
+    "id": "BE-38002",
+    "name": "Alveringem",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "alveringem.be",
+    "osm_relation_id": 1563989
+  },
+  {
+    "id": "BE-38008",
+    "name": "De Panne",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "depanne.be",
+    "osm_relation_id": 1516156
+  },
+  {
+    "id": "BE-38014",
+    "name": "Koksijde",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "koksijde.be",
+    "osm_relation_id": 1487782
+  },
+  {
+    "id": "BE-38016",
+    "name": "Nieuwpoort",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "nieuwpoort.be",
+    "osm_relation_id": 1292926
+  },
+  {
+    "id": "BE-38025",
+    "name": "Veurne",
+    "country": "BE",
+    "region": "West-Vlaanderen",
+    "domain": "veurne.be",
+    "osm_relation_id": 1516302
+  },
+  {
+    "id": "BE-41002",
+    "name": "Aalst",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "aalst.be",
+    "osm_relation_id": 912312
+  },
+  {
+    "id": "BE-41011",
+    "name": "Denderleeuw",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "denderleeuw.be",
+    "osm_relation_id": 1021359
+  },
+  {
+    "id": "BE-41018",
+    "name": "Geraardsbergen",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "geraardsbergen.be",
+    "osm_relation_id": 414561
+  },
+  {
+    "id": "BE-41024",
+    "name": "Haaltert",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "haaltert.be",
+    "osm_relation_id": 1021369
+  },
+  {
+    "id": "BE-41027",
+    "name": "Herzele",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "herzele.be",
+    "osm_relation_id": 408555
+  },
+  {
+    "id": "BE-41034",
+    "name": "Lede",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "lede.be",
+    "osm_relation_id": 1266491
+  },
+  {
+    "id": "BE-41048",
+    "name": "Ninove",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "ninove.be",
+    "osm_relation_id": 912035
+  },
+  {
+    "id": "BE-41063",
+    "name": "Sint-Lievens-Houtem",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "sint-lievens-houtem.be",
+    "osm_relation_id": 1184308
+  },
+  {
+    "id": "BE-41081",
+    "name": "Zottegem",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "zottegem.be",
+    "osm_relation_id": 414562
+  },
+  {
+    "id": "BE-41082",
+    "name": "Erpe-Mere",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "erpe-mere.be",
+    "osm_relation_id": 1197961
+  },
+  {
+    "id": "BE-42003",
+    "name": "Berlare",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "berlare.be",
+    "osm_relation_id": 1260082
+  },
+  {
+    "id": "BE-42004",
+    "name": "Buggenhout",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "buggenhout.be",
+    "osm_relation_id": 391146
+  },
+  {
+    "id": "BE-42006",
+    "name": "Dendermonde",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "dendermonde.be",
+    "osm_relation_id": 913765
+  },
+  {
+    "id": "BE-42008",
+    "name": "Hamme",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "hamme.be",
+    "osm_relation_id": 913860
+  },
+  {
+    "id": "BE-42010",
+    "name": "Laarne",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "laarne.be",
+    "osm_relation_id": 1341874
+  },
+  {
+    "id": "BE-42011",
+    "name": "Lebbeke",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "lebbeke.be",
+    "osm_relation_id": 913767
+  },
+  {
+    "id": "BE-42023",
+    "name": "Waasmunster",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "waasmunster.be",
+    "osm_relation_id": 913806
+  },
+  {
+    "id": "BE-42025",
+    "name": "Wetteren",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "wetteren.be",
+    "osm_relation_id": 1339015
+  },
+  {
+    "id": "BE-42026",
+    "name": "Wichelen",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "wichelen.be",
+    "osm_relation_id": 1260073
+  },
+  {
+    "id": "BE-42028",
+    "name": "Zele",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "zele.be",
+    "osm_relation_id": 1260083
+  },
+  {
+    "id": "BE-43002",
+    "name": "Assenede",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "assenede.be",
+    "osm_relation_id": 1260360
+  },
+  {
+    "id": "BE-43005",
+    "name": "Eeklo",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "eeklo.be",
+    "osm_relation_id": 544529
+  },
+  {
+    "id": "BE-43007",
+    "name": "Kaprijke",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "kaprijke.be",
+    "osm_relation_id": 1364591
+  },
+  {
+    "id": "BE-43010",
+    "name": "Maldegem",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "maldegem.be",
+    "osm_relation_id": 1318948
+  },
+  {
+    "id": "BE-43014",
+    "name": "Sint-Laureins",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "sint-laureins.be",
+    "osm_relation_id": 1367403
+  },
+  {
+    "id": "BE-43018",
+    "name": "Zelzate",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "zelzate.be",
+    "osm_relation_id": 973322
+  },
+  {
+    "id": "BE-44013",
+    "name": "Destelbergen",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "destelbergen.be",
+    "osm_relation_id": 1212060
+  },
+  {
+    "id": "BE-44019",
+    "name": "Evergem",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "evergem.be",
+    "osm_relation_id": 1373256
+  },
+  {
+    "id": "BE-44020",
+    "name": "Gavere",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "gavere.be",
+    "osm_relation_id": 812701
+  },
+  {
+    "id": "BE-44021",
+    "name": "Gent",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "stad.gent",
+    "osm_relation_id": 897671
+  },
+  {
+    "id": "BE-44052",
+    "name": "Oosterzele",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "oosterzele.be",
+    "osm_relation_id": 1066186
+  },
+  {
+    "id": "BE-44064",
+    "name": "Sint-Martens-Latem",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "sint-martens-latem.be",
+    "osm_relation_id": 571850
+  },
+  {
+    "id": "BE-44081",
+    "name": "Zulte",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "zulte.be",
+    "osm_relation_id": 570088
+  },
+  {
+    "id": "BE-44083",
+    "name": "Deinze",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "deinze.be",
+    "osm_relation_id": 611321
+  },
+  {
+    "id": "BE-44084",
+    "name": "Aalter",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "aalter.be",
+    "osm_relation_id": 721879
+  },
+  {
+    "id": "BE-44085",
+    "name": "Lievegem",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "lievegem.be",
+    "osm_relation_id": 1351605
+  },
+  {
+    "id": "BE-44086",
+    "name": "Nazareth-De Pinte",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "nazarethdepinte.be",
+    "osm_relation_id": 18493642
+  },
+  {
+    "id": "BE-44087",
+    "name": "Lochristi",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "lochristi.be",
+    "osm_relation_id": 1335100
+  },
+  {
+    "id": "BE-44088",
+    "name": "Merelbeke-Melle",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "merelbeke-melle.be",
+    "osm_relation_id": 18493670
+  },
+  {
+    "id": "BE-45035",
+    "name": "Oudenaarde",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "oudenaarde.be",
+    "osm_relation_id": 416207
+  },
+  {
+    "id": "BE-45041",
+    "name": "Ronse",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "ronse.be",
+    "osm_relation_id": 398192
+  },
+  {
+    "id": "BE-45059",
+    "name": "Brakel",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "brakel.be",
+    "osm_relation_id": 398167
+  },
+  {
+    "id": "BE-45060",
+    "name": "Kluisbergen",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "kluisbergen.be",
+    "osm_relation_id": 416454
+  },
+  {
+    "id": "BE-45061",
+    "name": "Wortegem-Petegem",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "wortegem-petegem.be",
+    "osm_relation_id": 912036
+  },
+  {
+    "id": "BE-45062",
+    "name": "Horebeke",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "horebeke.be",
+    "osm_relation_id": 398179
+  },
+  {
+    "id": "BE-45063",
+    "name": "Lierde",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "lierde.be",
+    "osm_relation_id": 398193
+  },
+  {
+    "id": "BE-45064",
+    "name": "Maarkedal",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "maarkedal.be",
+    "osm_relation_id": 398189
+  },
+  {
+    "id": "BE-45065",
+    "name": "Zwalm",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "zwalm.be",
+    "osm_relation_id": 416206
+  },
+  {
+    "id": "BE-45068",
+    "name": "Kruisem",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "kruisem.be",
+    "osm_relation_id": 906648
+  },
+  {
+    "id": "BE-46020",
+    "name": "Sint-Gillis-Waas",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "sint-gillis-waas.be",
+    "osm_relation_id": 913873
+  },
+  {
+    "id": "BE-46021",
+    "name": "Sint-Niklaas",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "sint-niklaas.be",
+    "osm_relation_id": 913866
+  },
+  {
+    "id": "BE-46024",
+    "name": "Stekene",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "stekene.be",
+    "osm_relation_id": 913874
+  },
+  {
+    "id": "BE-46025",
+    "name": "Temse",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "temse.be",
+    "osm_relation_id": 391217
+  },
+  {
+    "id": "BE-46029",
+    "name": "Lokeren",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "lokeren.be",
+    "osm_relation_id": 1325552
+  },
+  {
+    "id": "BE-46030",
+    "name": "Beveren-Kruibeke-Zwijndrecht",
+    "country": "BE",
+    "region": "Oost-Vlaanderen",
+    "domain": "gemeentebkz.be",
+    "osm_relation_id": 18493532
+  },
+  {
+    "id": "BE-51004",
+    "name": "Aat",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "ath.be",
+    "osm_relation_id": 2165493
+  },
+  {
+    "id": "BE-51008",
+    "name": "Belle",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "beloeil.be",
+    "osm_relation_id": 2166829
+  },
+  {
+    "id": "BE-51009",
+    "name": "Bernissart",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "bernissart.be",
+    "osm_relation_id": 2166830
+  },
+  {
+    "id": "BE-51012",
+    "name": "Brugelette",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "brugelette.be",
+    "osm_relation_id": 2170413
+  },
+  {
+    "id": "BE-51014",
+    "name": "Chièvres",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "chievres.be",
+    "osm_relation_id": 2170412
+  },
+  {
+    "id": "BE-51017",
+    "name": "Elzele",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "ellezelles.be",
+    "osm_relation_id": 1942908
+  },
+  {
+    "id": "BE-51019",
+    "name": "Vloesberg",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "flobecq.be",
+    "osm_relation_id": 1374657
+  },
+  {
+    "id": "BE-51065",
+    "name": "Frasnes-lez-Anvaing",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "frasnes-lez-anvaing.be",
+    "osm_relation_id": 2002464
+  },
+  {
+    "id": "BE-51067",
+    "name": "Edingen",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "enghien-edingen.be",
+    "osm_relation_id": 1412058
+  },
+  {
+    "id": "BE-51068",
+    "name": "Opzullik",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "silly.be",
+    "osm_relation_id": 1946207
+  },
+  {
+    "id": "BE-51069",
+    "name": "Lessen",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "lessines.be",
+    "osm_relation_id": 1924183
+  },
+  {
+    "id": "BE-52010",
+    "name": "Chapelle-lez-Herlaimont",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "chapelle-lez-herlaimont.be",
+    "osm_relation_id": 2153675
+  },
+  {
+    "id": "BE-52011",
+    "name": "Charleroi",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "charleroi.be",
+    "osm_relation_id": 2113725
+  },
+  {
+    "id": "BE-52012",
+    "name": "Châtelet",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "chatelet.be",
+    "osm_relation_id": 2147711
+  },
+  {
+    "id": "BE-52015",
+    "name": "Courcelles",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "courcelles.eu",
+    "osm_relation_id": 2153672
+  },
+  {
+    "id": "BE-52018",
+    "name": "Farciennes",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "farciennes.be",
+    "osm_relation_id": 2147710
+  },
+  {
+    "id": "BE-52021",
+    "name": "Fleurus",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "fleurus.be",
+    "osm_relation_id": 2132111
+  },
+  {
+    "id": "BE-52022",
+    "name": "Fontaine-l'Évêque",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "villedefontaine.be",
+    "osm_relation_id": 2036429
+  },
+  {
+    "id": "BE-52025",
+    "name": "Gerpinnes",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "gerpinnes.be",
+    "osm_relation_id": 2139840
+  },
+  {
+    "id": "BE-52048",
+    "name": "Montigny-le-Tilleul",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "montigny-le-tilleul.be",
+    "osm_relation_id": 2018746
+  },
+  {
+    "id": "BE-52055",
+    "name": "Pont-à-Celles",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "pontacelles.be",
+    "osm_relation_id": 2125248
+  },
+  {
+    "id": "BE-52074",
+    "name": "Aiseau-Presles",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "aiseau-presles.be",
+    "osm_relation_id": 2147712
+  },
+  {
+    "id": "BE-52075",
+    "name": "Les Bons Villers",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "les-bons-villers.be",
+    "osm_relation_id": 2132103
+  },
+  {
+    "id": "BE-53014",
+    "name": "Boussu",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "boussu.be",
+    "osm_relation_id": 2175522
+  },
+  {
+    "id": "BE-53020",
+    "name": "Dour",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "communedour.be",
+    "osm_relation_id": 2175517
+  },
+  {
+    "id": "BE-53028",
+    "name": "Frameries",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "frameries.be",
+    "osm_relation_id": 1903480
+  },
+  {
+    "id": "BE-53039",
+    "name": "Hensies",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "hensies.be",
+    "osm_relation_id": 2170571
+  },
+  {
+    "id": "BE-53044",
+    "name": "Jurbeke",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "jurbise.be",
+    "osm_relation_id": 2178169
+  },
+  {
+    "id": "BE-53046",
+    "name": "Lens",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "lens.be",
+    "osm_relation_id": 2180490
+  },
+  {
+    "id": "BE-53053",
+    "name": "Bergen",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "mons.be",
+    "osm_relation_id": 1949374
+  },
+  {
+    "id": "BE-53065",
+    "name": "Quaregnon",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "quaregnon.be",
+    "osm_relation_id": 2175157
+  },
+  {
+    "id": "BE-53068",
+    "name": "Quiévrain",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "quievrain.be",
+    "osm_relation_id": 2175156
+  },
+  {
+    "id": "BE-53070",
+    "name": "Saint-Ghislain",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "saint-ghislain.be",
+    "osm_relation_id": 2170568
+  },
+  {
+    "id": "BE-53082",
+    "name": "Colfontaine",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "colfontaine.be",
+    "osm_relation_id": 2175521
+  },
+  {
+    "id": "BE-53083",
+    "name": "Honnelles",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "honnelles.be",
+    "osm_relation_id": 1919117
+  },
+  {
+    "id": "BE-53084",
+    "name": "Quévy",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "quevy.be",
+    "osm_relation_id": 1904654
+  },
+  {
+    "id": "BE-55004",
+    "name": "'s-Gravenbrakel",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "braine-le-comte.be",
+    "osm_relation_id": 2160319
+  },
+  {
+    "id": "BE-55035",
+    "name": "Le Rœulx",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "leroeulx.be",
+    "osm_relation_id": 2160648
+  },
+  {
+    "id": "BE-55040",
+    "name": "Zinnik",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "soignies.be",
+    "osm_relation_id": 2180484
+  },
+  {
+    "id": "BE-55050",
+    "name": "Écaussinnes",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "ecaussinnes.be",
+    "osm_relation_id": 2160539
+  },
+  {
+    "id": "BE-55085",
+    "name": "Seneffe",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "seneffe.be",
+    "osm_relation_id": 2129466
+  },
+  {
+    "id": "BE-55086",
+    "name": "Manage",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "manage-commune.be",
+    "osm_relation_id": 2153703
+  },
+  {
+    "id": "BE-56001",
+    "name": "Anderlues",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "anderlues.be",
+    "osm_relation_id": 2075616
+  },
+  {
+    "id": "BE-56005",
+    "name": "Beaumont",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "beaumont.be",
+    "osm_relation_id": 1877567
+  },
+  {
+    "id": "BE-56016",
+    "name": "Chimay",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "ville-de-chimay.be",
+    "osm_relation_id": 1549983
+  },
+  {
+    "id": "BE-56022",
+    "name": "Erquelinnes",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "erquelinnes.be",
+    "osm_relation_id": 1881784
+  },
+  {
+    "id": "BE-56029",
+    "name": "Froidchapelle",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "froidchapelle.be",
+    "osm_relation_id": 1878349
+  },
+  {
+    "id": "BE-56044",
+    "name": "Lobbes",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "lobbes.be",
+    "osm_relation_id": 2075681
+  },
+  {
+    "id": "BE-56049",
+    "name": "Merbes-le-Château",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "merbeslechateau.be",
+    "osm_relation_id": 1880659
+  },
+  {
+    "id": "BE-56051",
+    "name": "Momignies",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "momignies.be",
+    "osm_relation_id": 1604416
+  },
+  {
+    "id": "BE-56078",
+    "name": "Thuin",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "thuin.be",
+    "osm_relation_id": 1998893
+  },
+  {
+    "id": "BE-56086",
+    "name": "Ham-sur-Heure-Nalinnes",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "ham-sur-heure-nalinnes.be",
+    "osm_relation_id": 2018722
+  },
+  {
+    "id": "BE-56088",
+    "name": "Sivry-Rance",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "sivry-rance.be",
+    "osm_relation_id": 1877704
+  },
+  {
+    "id": "BE-57003",
+    "name": "Antoing",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "antoing.net",
+    "osm_relation_id": 2163425
+  },
+  {
+    "id": "BE-57018",
+    "name": "Celles",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "celles.be",
+    "osm_relation_id": 2163690
+  },
+  {
+    "id": "BE-57027",
+    "name": "Estaimpuis",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "estaimpuis.be",
+    "osm_relation_id": 2163688
+  },
+  {
+    "id": "BE-57062",
+    "name": "Pecq",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "pecq.be",
+    "osm_relation_id": 2163689
+  },
+  {
+    "id": "BE-57064",
+    "name": "Péruwelz",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "peruwelz.be",
+    "osm_relation_id": 2163651
+  },
+  {
+    "id": "BE-57072",
+    "name": "Rumes",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "rumes-online.be",
+    "osm_relation_id": 2162968
+  },
+  {
+    "id": "BE-57081",
+    "name": "Doornik",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "tournai.be",
+    "osm_relation_id": 2162970
+  },
+  {
+    "id": "BE-57093",
+    "name": "Brunehaut",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "brunehaut.be",
+    "osm_relation_id": 2162969
+  },
+  {
+    "id": "BE-57094",
+    "name": "Leuze-en-Hainaut",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "leuze-en-hainaut.be",
+    "osm_relation_id": 2163682
+  },
+  {
+    "id": "BE-57095",
+    "name": "Mont-de-l'Enclus",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "montdelenclus.be",
+    "osm_relation_id": 2164171
+  },
+  {
+    "id": "BE-57096",
+    "name": "Moeskroen",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "mouscron.be",
+    "osm_relation_id": 1920616
+  },
+  {
+    "id": "BE-57097",
+    "name": "Komen-Waasten",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "villedecomines-warneton.be",
+    "osm_relation_id": 405621
+  },
+  {
+    "id": "BE-58001",
+    "name": "La Louvière",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "lalouviere.be",
+    "osm_relation_id": 2083031
+  },
+  {
+    "id": "BE-58002",
+    "name": "Binche",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "binche.be",
+    "osm_relation_id": 2077347
+  },
+  {
+    "id": "BE-58003",
+    "name": "Estinnes",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "estinnes.be",
+    "osm_relation_id": 1917247
+  },
+  {
+    "id": "BE-58004",
+    "name": "Morlanwelz",
+    "country": "BE",
+    "region": "Hainaut",
+    "domain": "morlanwelz.be",
+    "osm_relation_id": 2153704
+  },
+  {
+    "id": "BE-61003",
+    "name": "Amay",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "amay.be",
+    "osm_relation_id": 1997428
+  },
+  {
+    "id": "BE-61010",
+    "name": "Burdinne",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "burdinne.be",
+    "osm_relation_id": 2363329
+  },
+  {
+    "id": "BE-61012",
+    "name": "Clavier",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "clavier.be",
+    "osm_relation_id": 2377748
+  },
+  {
+    "id": "BE-61019",
+    "name": "Ferrières",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "ferrieres.be",
+    "osm_relation_id": 2377779
+  },
+  {
+    "id": "BE-61024",
+    "name": "Hamoir",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "hamoir.be",
+    "osm_relation_id": 2377780
+  },
+  {
+    "id": "BE-61028",
+    "name": "Héron",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "heron.be",
+    "osm_relation_id": 2367142
+  },
+  {
+    "id": "BE-61031",
+    "name": "Hoei",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "huy.be",
+    "osm_relation_id": 2002638
+  },
+  {
+    "id": "BE-61039",
+    "name": "Marchin",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "marchin.be",
+    "osm_relation_id": 2411680
+  },
+  {
+    "id": "BE-61041",
+    "name": "Modave",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "modave.be",
+    "osm_relation_id": 2033704
+  },
+  {
+    "id": "BE-61043",
+    "name": "Nandrin",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "nandrin.be",
+    "osm_relation_id": 2005240
+  },
+  {
+    "id": "BE-61048",
+    "name": "Ouffet",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "ouffet.be",
+    "osm_relation_id": 2377751
+  },
+  {
+    "id": "BE-61063",
+    "name": "Verlaine",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "verlaine.be",
+    "osm_relation_id": 1997464
+  },
+  {
+    "id": "BE-61068",
+    "name": "Villers-le-Bouillet",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "villers-le-bouillet.be",
+    "osm_relation_id": 2002539
+  },
+  {
+    "id": "BE-61072",
+    "name": "Wanze",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "wanze.be",
+    "osm_relation_id": 2002636
+  },
+  {
+    "id": "BE-61079",
+    "name": "Anthisnes",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "anthisnes.be",
+    "osm_relation_id": 2377747
+  },
+  {
+    "id": "BE-61080",
+    "name": "Engis",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "engis.be",
+    "osm_relation_id": 2002639
+  },
+  {
+    "id": "BE-61081",
+    "name": "Tinlot",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "tinlot.be",
+    "osm_relation_id": 2377752
+  },
+  {
+    "id": "BE-62003",
+    "name": "Ans",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "ans-ville.be",
+    "osm_relation_id": 2387590
+  },
+  {
+    "id": "BE-62006",
+    "name": "Awans",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "awans.be",
+    "osm_relation_id": 2374606
+  },
+  {
+    "id": "BE-62009",
+    "name": "Aywaille",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "aywaille.be",
+    "osm_relation_id": 2426389
+  },
+  {
+    "id": "BE-62011",
+    "name": "Bitsingen",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "bassenge.be",
+    "osm_relation_id": 2387623
+  },
+  {
+    "id": "BE-62015",
+    "name": "Beyne-Heusay",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "beyne-heusay.be",
+    "osm_relation_id": 2437273
+  },
+  {
+    "id": "BE-62022",
+    "name": "Chaudfontaine",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "chaudfontaine.be",
+    "osm_relation_id": 2435591
+  },
+  {
+    "id": "BE-62026",
+    "name": "Comblain-au-Pont",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "comblainaupont.be",
+    "osm_relation_id": 2426391
+  },
+  {
+    "id": "BE-62027",
+    "name": "Dalhem",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "dalhem.be",
+    "osm_relation_id": 2431869
+  },
+  {
+    "id": "BE-62032",
+    "name": "Esneux",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "esneux.be",
+    "osm_relation_id": 2417895
+  },
+  {
+    "id": "BE-62038",
+    "name": "Fléron",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "fleron.be",
+    "osm_relation_id": 2437275
+  },
+  {
+    "id": "BE-62051",
+    "name": "Herstal",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "herstal.be",
+    "osm_relation_id": 2399230
+  },
+  {
+    "id": "BE-62060",
+    "name": "Juprelle",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "juprelle.be",
+    "osm_relation_id": 2387591
+  },
+  {
+    "id": "BE-62063",
+    "name": "Luik",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "liege.be",
+    "osm_relation_id": 1681788
+  },
+  {
+    "id": "BE-62079",
+    "name": "Oupeye",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "oupeye.be",
+    "osm_relation_id": 2402053
+  },
+  {
+    "id": "BE-62093",
+    "name": "Montegnée",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "saint-nicolas.be",
+    "osm_relation_id": 2389229
+  },
+  {
+    "id": "BE-62096",
+    "name": "Seraing",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "seraing.be",
+    "osm_relation_id": 2435417
+  },
+  {
+    "id": "BE-62099",
+    "name": "Soumagne",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "soumagne.be",
+    "osm_relation_id": 2437277
+  },
+  {
+    "id": "BE-62100",
+    "name": "Sprimont",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "sprimont.be",
+    "osm_relation_id": 2413544
+  },
+  {
+    "id": "BE-62108",
+    "name": "Wezet",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "vise.be",
+    "osm_relation_id": 2402052
+  },
+  {
+    "id": "BE-62118",
+    "name": "Grâce-Hollogne",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "grace-hollogne.be",
+    "osm_relation_id": 2370577
+  },
+  {
+    "id": "BE-62119",
+    "name": "Blegny",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "blegny.be",
+    "osm_relation_id": 2431896
+  },
+  {
+    "id": "BE-62120",
+    "name": "Flémalle",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "flemalle.be",
+    "osm_relation_id": 2372449
+  },
+  {
+    "id": "BE-62121",
+    "name": "Neupré",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "neupre.be",
+    "osm_relation_id": 2437276
+  },
+  {
+    "id": "BE-62122",
+    "name": "Trooz",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "trooz.be",
+    "osm_relation_id": 2435520
+  },
+  {
+    "id": "BE-63001",
+    "name": "Amel",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "amel.be",
+    "osm_relation_id": 2433429
+  },
+  {
+    "id": "BE-63003",
+    "name": "Aubel",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "aubel.be",
+    "osm_relation_id": 2399277
+  },
+  {
+    "id": "BE-63004",
+    "name": "Baelen",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "baelen.be",
+    "osm_relation_id": 2400888
+  },
+  {
+    "id": "BE-63012",
+    "name": "Büllingen",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "buellingen.be",
+    "osm_relation_id": 2435409
+  },
+  {
+    "id": "BE-63013",
+    "name": "Bütgenbach",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "butgenbach.be",
+    "osm_relation_id": 2435381
+  },
+  {
+    "id": "BE-63020",
+    "name": "Dison",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "dison.be",
+    "osm_relation_id": 2396838
+  },
+  {
+    "id": "BE-63023",
+    "name": "Eupen",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "eupen.be",
+    "osm_relation_id": 2400207
+  },
+  {
+    "id": "BE-63035",
+    "name": "Herve",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "herve.be",
+    "osm_relation_id": 2396840
+  },
+  {
+    "id": "BE-63038",
+    "name": "Jalhay",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "jalhay.be",
+    "osm_relation_id": 2400889
+  },
+  {
+    "id": "BE-63040",
+    "name": "Kelmis",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "kelmis.be",
+    "osm_relation_id": 2400116
+  },
+  {
+    "id": "BE-63045",
+    "name": "Lierneux",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "lierneux.be",
+    "osm_relation_id": 2436183
+  },
+  {
+    "id": "BE-63046",
+    "name": "Limburg",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "ville-limbourg.be",
+    "osm_relation_id": 2396839
+  },
+  {
+    "id": "BE-63048",
+    "name": "Lontzen",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "lontzen.be",
+    "osm_relation_id": 2400114
+  },
+  {
+    "id": "BE-63049",
+    "name": "Malmedy",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "malmedy.be",
+    "osm_relation_id": 2409000
+  },
+  {
+    "id": "BE-63057",
+    "name": "Olne",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "olne.be",
+    "osm_relation_id": 2416075
+  },
+  {
+    "id": "BE-63058",
+    "name": "Pepinster",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "pepinster.be",
+    "osm_relation_id": 2436184
+  },
+  {
+    "id": "BE-63061",
+    "name": "Raeren",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "raeren.be",
+    "osm_relation_id": 2400181
+  },
+  {
+    "id": "BE-63067",
+    "name": "Sankt Vith",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "st.vith.be",
+    "osm_relation_id": 2433430
+  },
+  {
+    "id": "BE-63072",
+    "name": "Spa",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "villedespa.be",
+    "osm_relation_id": 2422528
+  },
+  {
+    "id": "BE-63073",
+    "name": "Stavelot",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "stavelot.be",
+    "osm_relation_id": 2409290
+  },
+  {
+    "id": "BE-63075",
+    "name": "Stoumont",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "stoumont.be",
+    "osm_relation_id": 2422527
+  },
+  {
+    "id": "BE-63076",
+    "name": "Theux",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "theux.be",
+    "osm_relation_id": 2416084
+  },
+  {
+    "id": "BE-63079",
+    "name": "Verviers",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "verviers.be",
+    "osm_relation_id": 2396836
+  },
+  {
+    "id": "BE-63080",
+    "name": "Weismes",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "waimes.be",
+    "osm_relation_id": 2402391
+  },
+  {
+    "id": "BE-63084",
+    "name": "Welkenraedt",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "welkenraedt.be",
+    "osm_relation_id": 2396837
+  },
+  {
+    "id": "BE-63086",
+    "name": "Trois-Ponts",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "troisponts.be",
+    "osm_relation_id": 2436185
+  },
+  {
+    "id": "BE-63087",
+    "name": "Burg-Reuland",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "burg-reuland.be",
+    "osm_relation_id": 2436182
+  },
+  {
+    "id": "BE-63088",
+    "name": "Plombières",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "plombieres.be",
+    "osm_relation_id": 2399367
+  },
+  {
+    "id": "BE-63089",
+    "name": "Thimister-Clermont",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "thimister-clermont.be",
+    "osm_relation_id": 2396841
+  },
+  {
+    "id": "BE-64008",
+    "name": "Berloz",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "berloz.be",
+    "osm_relation_id": 2374114
+  },
+  {
+    "id": "BE-64015",
+    "name": "Braives",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "braives.be",
+    "osm_relation_id": 2363375
+  },
+  {
+    "id": "BE-64021",
+    "name": "Crisnée",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "crisnee.be",
+    "osm_relation_id": 2369339
+  },
+  {
+    "id": "BE-64023",
+    "name": "Donceel",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "donceel.be",
+    "osm_relation_id": 2365412
+  },
+  {
+    "id": "BE-64025",
+    "name": "Fexhe-le-Haut-Clocher",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "fexhe-le-haut-clocher.be",
+    "osm_relation_id": 2369379
+  },
+  {
+    "id": "BE-64029",
+    "name": "Geer",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "geer.be",
+    "osm_relation_id": 2363376
+  },
+  {
+    "id": "BE-64034",
+    "name": "Hannuit",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "hannut.be",
+    "osm_relation_id": 2362038
+  },
+  {
+    "id": "BE-64047",
+    "name": "Lijsem",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "lincent.be",
+    "osm_relation_id": 2362039
+  },
+  {
+    "id": "BE-64056",
+    "name": "Oerle",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "oreye.be",
+    "osm_relation_id": 2369338
+  },
+  {
+    "id": "BE-64063",
+    "name": "Remicourt",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "remicourt.be",
+    "osm_relation_id": 2369347
+  },
+  {
+    "id": "BE-64065",
+    "name": "Saint-Georges-sur-Meuse",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "saint-georges-sur-meuse.be",
+    "osm_relation_id": 2002544
+  },
+  {
+    "id": "BE-64074",
+    "name": "Borgworm",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "waremme.be",
+    "osm_relation_id": 2375479
+  },
+  {
+    "id": "BE-64075",
+    "name": "Wasseiges",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "wasseiges.be",
+    "osm_relation_id": 2363330
+  },
+  {
+    "id": "BE-64076",
+    "name": "Faimes",
+    "country": "BE",
+    "region": "Liège",
+    "domain": "faimes.be",
+    "osm_relation_id": 2365413
+  },
+  {
+    "id": "BE-71002",
+    "name": "As",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "as.be",
+    "osm_relation_id": 1246147
+  },
+  {
+    "id": "BE-71004",
+    "name": "Beringen",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "beringen.be",
+    "osm_relation_id": 1229559
+  },
+  {
+    "id": "BE-71011",
+    "name": "Diepenbeek",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "diepenbeek.be",
+    "osm_relation_id": 1243777
+  },
+  {
+    "id": "BE-71016",
+    "name": "Genk",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "genk.be",
+    "osm_relation_id": 405711
+  },
+  {
+    "id": "BE-71017",
+    "name": "Gingelom",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "gingelom.be",
+    "osm_relation_id": 4720762
+  },
+  {
+    "id": "BE-71020",
+    "name": "Halen",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "halen.be",
+    "osm_relation_id": 1204552
+  },
+  {
+    "id": "BE-71024",
+    "name": "Herk-de-Stad",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "herk-de-stad.be",
+    "osm_relation_id": 1245632
+  },
+  {
+    "id": "BE-71034",
+    "name": "Leopoldsburg",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "leopoldsburg.be",
+    "osm_relation_id": 1229781
+  },
+  {
+    "id": "BE-71037",
+    "name": "Lummen",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "lummen.be",
+    "osm_relation_id": 1245870
+  },
+  {
+    "id": "BE-71045",
+    "name": "Nieuwerkerken",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "nieuwerkerken.be",
+    "osm_relation_id": 1245883
+  },
+  {
+    "id": "BE-71053",
+    "name": "Sint-Truiden",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "sint-truiden.be",
+    "osm_relation_id": 1245886
+  },
+  {
+    "id": "BE-71066",
+    "name": "Zonhoven",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "zonhoven.be",
+    "osm_relation_id": 1245637
+  },
+  {
+    "id": "BE-71067",
+    "name": "Zutendaal",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "zutendaal.be",
+    "osm_relation_id": 1246115
+  },
+  {
+    "id": "BE-71070",
+    "name": "Heusden-Zolder",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "heusden-zolder.be",
+    "osm_relation_id": 1245638
+  },
+  {
+    "id": "BE-71071",
+    "name": "Tessenderlo-Ham",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "tessenderlo-ham.be"
+  },
+  {
+    "id": "BE-71072",
+    "name": "Hasselt",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "hasselt.be",
+    "osm_relation_id": 1230716
+  },
+  {
+    "id": "BE-72003",
+    "name": "Bocholt",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "bocholt.be",
+    "osm_relation_id": 1246264
+  },
+  {
+    "id": "BE-72004",
+    "name": "Bree",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "bree.be",
+    "osm_relation_id": 1246296
+  },
+  {
+    "id": "BE-72018",
+    "name": "Kinrooi",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "kinrooi.be",
+    "osm_relation_id": 1246290
+  },
+  {
+    "id": "BE-72020",
+    "name": "Lommel",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "lommel.be",
+    "osm_relation_id": 1225860
+  },
+  {
+    "id": "BE-72021",
+    "name": "Maaseik",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "maaseik.be",
+    "osm_relation_id": 965575
+  },
+  {
+    "id": "BE-72030",
+    "name": "Peer",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "peer.be",
+    "osm_relation_id": 1225919
+  },
+  {
+    "id": "BE-72037",
+    "name": "Hamont-Achel",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "hamont-achel.be",
+    "osm_relation_id": 1247306
+  },
+  {
+    "id": "BE-72038",
+    "name": "Hechtel-Eksel",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "hechtel-eksel.be",
+    "osm_relation_id": 1225886
+  },
+  {
+    "id": "BE-72039",
+    "name": "Houthalen-Helchteren",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "houthalen-helchteren.be",
+    "osm_relation_id": 1245642
+  },
+  {
+    "id": "BE-72041",
+    "name": "Dilsen-Stokkem",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "dilsen-stokkem.be",
+    "osm_relation_id": 965583
+  },
+  {
+    "id": "BE-72042",
+    "name": "Oudsbergen",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "oudsbergen.be",
+    "osm_relation_id": 1246374
+  },
+  {
+    "id": "BE-72043",
+    "name": "Pelt",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "gemeentepelt.be",
+    "osm_relation_id": 1225888
+  },
+  {
+    "id": "BE-73001",
+    "name": "Alken",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "alken.be",
+    "osm_relation_id": 1245629
+  },
+  {
+    "id": "BE-73022",
+    "name": "Heers",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "heers.be",
+    "osm_relation_id": 1244997
+  },
+  {
+    "id": "BE-73028",
+    "name": "Herstappe",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "",
+    "osm_relation_id": 2129894
+  },
+  {
+    "id": "BE-73042",
+    "name": "Lanaken",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "lanaken.be",
+    "osm_relation_id": 1246116
+  },
+  {
+    "id": "BE-73066",
+    "name": "Riemst",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "riemst.be",
+    "osm_relation_id": 1245010
+  },
+  {
+    "id": "BE-73098",
+    "name": "Wellen",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "wellen.be",
+    "osm_relation_id": 1243514
+  },
+  {
+    "id": "BE-73107",
+    "name": "Maasmechelen",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "maasmechelen.be",
+    "osm_relation_id": 965489
+  },
+  {
+    "id": "BE-73109",
+    "name": "Voeren",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "voeren.be",
+    "osm_relation_id": 404525
+  },
+  {
+    "id": "BE-73110",
+    "name": "Bilzen-Hoeselt",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "bilzenhoeselt.be"
+  },
+  {
+    "id": "BE-73111",
+    "name": "Tongeren-Borgloon",
+    "country": "BE",
+    "region": "Limburg",
+    "domain": "tongeren-borgloon.be",
+    "osm_relation_id": 1244996
+  },
+  {
+    "id": "BE-81001",
+    "name": "Aarlen",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "arlon.be",
+    "osm_relation_id": 2431399
+  },
+  {
+    "id": "BE-81003",
+    "name": "Attert",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "attert.be",
+    "osm_relation_id": 2429929
+  },
+  {
+    "id": "BE-81004",
+    "name": "Aubange",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "aubange.be",
+    "osm_relation_id": 2337964
+  },
+  {
+    "id": "BE-81013",
+    "name": "Martelange",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "martelange.be",
+    "osm_relation_id": 2429916
+  },
+  {
+    "id": "BE-81015",
+    "name": "Messancy",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "messancy.be",
+    "osm_relation_id": 2347279
+  },
+  {
+    "id": "BE-82003",
+    "name": "Bastenaken",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "bastogne.be",
+    "osm_relation_id": 2426390
+  },
+  {
+    "id": "BE-82009",
+    "name": "Fauvillers",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "fauvillers.be",
+    "osm_relation_id": 2429932
+  },
+  {
+    "id": "BE-82014",
+    "name": "Houffalize",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "houffalize.be",
+    "osm_relation_id": 2453836
+  },
+  {
+    "id": "BE-82032",
+    "name": "Vielsalm",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "vielsalm.be",
+    "osm_relation_id": 2449235
+  },
+  {
+    "id": "BE-82036",
+    "name": "Vaux-sur-Sûre",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "vaux-sur-sure.be",
+    "osm_relation_id": 2453951
+  },
+  {
+    "id": "BE-82037",
+    "name": "Gouvy",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "gouvy.be",
+    "osm_relation_id": 2442852
+  },
+  {
+    "id": "BE-82038",
+    "name": "Sainte-Ode",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "sainte-ode.be",
+    "osm_relation_id": 2453837
+  },
+  {
+    "id": "BE-83012",
+    "name": "Durbuy",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "durbuy.be",
+    "osm_relation_id": 2450567
+  },
+  {
+    "id": "BE-83013",
+    "name": "Érezée",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "erezee.be",
+    "osm_relation_id": 2452846
+  },
+  {
+    "id": "BE-83028",
+    "name": "Hotton",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "hotton.be",
+    "osm_relation_id": 2450572
+  },
+  {
+    "id": "BE-83031",
+    "name": "La Roche-en-Ardenne",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "la-roche-en-ardenne.be",
+    "osm_relation_id": 2566321
+  },
+  {
+    "id": "BE-83034",
+    "name": "Marche-en-Famenne",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "marche.be",
+    "osm_relation_id": 2437396
+  },
+  {
+    "id": "BE-83040",
+    "name": "Nassogne",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "nassogne.be",
+    "osm_relation_id": 2450579
+  },
+  {
+    "id": "BE-83044",
+    "name": "Rendeux",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "rendeux.be",
+    "osm_relation_id": 2566322
+  },
+  {
+    "id": "BE-83049",
+    "name": "Tenneville",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "tenneville.be",
+    "osm_relation_id": 2566323
+  },
+  {
+    "id": "BE-83055",
+    "name": "Manhay",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "manhay.be",
+    "osm_relation_id": 2450509
+  },
+  {
+    "id": "BE-84009",
+    "name": "Bertrix",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "bertrix.be",
+    "osm_relation_id": 2440914
+  },
+  {
+    "id": "BE-84010",
+    "name": "Bouillon",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "bouillon.be",
+    "osm_relation_id": 2440951
+  },
+  {
+    "id": "BE-84016",
+    "name": "Daverdisse",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "daverdisse.be",
+    "osm_relation_id": 2248104
+  },
+  {
+    "id": "BE-84029",
+    "name": "Herbeumont",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "herbeumont.be",
+    "osm_relation_id": 2455017
+  },
+  {
+    "id": "BE-84033",
+    "name": "Léglise",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "communeleglise.be",
+    "osm_relation_id": 2429930
+  },
+  {
+    "id": "BE-84035",
+    "name": "Libin",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "libin.be",
+    "osm_relation_id": 2440902
+  },
+  {
+    "id": "BE-84043",
+    "name": "Neufchâteau",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "neufchateau.be",
+    "osm_relation_id": 2571206
+  },
+  {
+    "id": "BE-84050",
+    "name": "Paliseul",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "paliseul.be",
+    "osm_relation_id": 2248105
+  },
+  {
+    "id": "BE-84059",
+    "name": "Saint-Hubert",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "saint-hubert.be",
+    "osm_relation_id": 2455110
+  },
+  {
+    "id": "BE-84068",
+    "name": "Tellin",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "tellin.be",
+    "osm_relation_id": 2450770
+  },
+  {
+    "id": "BE-84075",
+    "name": "Wellin",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "wellin.be",
+    "osm_relation_id": 2448802
+  },
+  {
+    "id": "BE-84077",
+    "name": "Libramont-Chevigny",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "libramontchevigny.be",
+    "osm_relation_id": 2571205
+  },
+  {
+    "id": "BE-85007",
+    "name": "Chiny",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "chiny.be",
+    "osm_relation_id": 2437641
+  },
+  {
+    "id": "BE-85009",
+    "name": "Étalle",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "etalle.be",
+    "osm_relation_id": 2424516
+  },
+  {
+    "id": "BE-85011",
+    "name": "Florenville",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "florenville.be",
+    "osm_relation_id": 2437642
+  },
+  {
+    "id": "BE-85024",
+    "name": "Meix-devant-Virton",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "meix-devant-virton.be",
+    "osm_relation_id": 2422742
+  },
+  {
+    "id": "BE-85026",
+    "name": "Musson",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "musson.be",
+    "osm_relation_id": 2422706
+  },
+  {
+    "id": "BE-85034",
+    "name": "Saint-Léger",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "saint-leger.be",
+    "osm_relation_id": 2422707
+  },
+  {
+    "id": "BE-85039",
+    "name": "Tintigny",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "tintigny.be",
+    "osm_relation_id": 2437643
+  },
+  {
+    "id": "BE-85045",
+    "name": "Virton",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "virton.be",
+    "osm_relation_id": 2422739
+  },
+  {
+    "id": "BE-85046",
+    "name": "Habay",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "habay.be",
+    "osm_relation_id": 2429931
+  },
+  {
+    "id": "BE-85047",
+    "name": "Rouvroy",
+    "country": "BE",
+    "region": "Luxembourg",
+    "domain": "rouvroy.be",
+    "osm_relation_id": 2345341
+  },
+  {
+    "id": "BE-91005",
+    "name": "Anhée",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "anhee.be",
+    "osm_relation_id": 2238677
+  },
+  {
+    "id": "BE-91013",
+    "name": "Beauraing",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "beauraing.be",
+    "osm_relation_id": 2251076
+  },
+  {
+    "id": "BE-91015",
+    "name": "Bièvre",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "bievre.be",
+    "osm_relation_id": 2234387
+  },
+  {
+    "id": "BE-91030",
+    "name": "Ciney",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "ciney.be",
+    "osm_relation_id": 2255292
+  },
+  {
+    "id": "BE-91034",
+    "name": "Dinant",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "dinant.be",
+    "osm_relation_id": 2268360
+  },
+  {
+    "id": "BE-91054",
+    "name": "Gedinne",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "actugedinne.be",
+    "osm_relation_id": 2245275
+  },
+  {
+    "id": "BE-91059",
+    "name": "Hamois",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "hamois.be",
+    "osm_relation_id": 2320775
+  },
+  {
+    "id": "BE-91064",
+    "name": "Havelange",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "havelange.be",
+    "osm_relation_id": 2330186
+  },
+  {
+    "id": "BE-91072",
+    "name": "Houyet",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "houyet.be",
+    "osm_relation_id": 2261105
+  },
+  {
+    "id": "BE-91103",
+    "name": "Onhaye",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "onhaye.be",
+    "osm_relation_id": 2214226
+  },
+  {
+    "id": "BE-91114",
+    "name": "Rochefort",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "rochefort.be",
+    "osm_relation_id": 2252998
+  },
+  {
+    "id": "BE-91120",
+    "name": "Somme-Leuze",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "somme-leuze.be",
+    "osm_relation_id": 2255291
+  },
+  {
+    "id": "BE-91141",
+    "name": "Yvoir",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "yvoir.be",
+    "osm_relation_id": 2268384
+  },
+  {
+    "id": "BE-91142",
+    "name": "Hastière",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "hastiere.be",
+    "osm_relation_id": 2200565
+  },
+  {
+    "id": "BE-91143",
+    "name": "Vresse-sur-Semois",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "vresse-sur-semois.be",
+    "osm_relation_id": 2230461
+  },
+  {
+    "id": "BE-92003",
+    "name": "Andenne",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "andenne.be",
+    "osm_relation_id": 2305700
+  },
+  {
+    "id": "BE-92006",
+    "name": "Assesse",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "assesse.be",
+    "osm_relation_id": 2282880
+  },
+  {
+    "id": "BE-92035",
+    "name": "Éghezée",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "eghezee.be",
+    "osm_relation_id": 2304128
+  },
+  {
+    "id": "BE-92045",
+    "name": "Floreffe",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "floreffe.be",
+    "osm_relation_id": 2282987
+  },
+  {
+    "id": "BE-92048",
+    "name": "Fosses-la-Ville",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "fosses-la-ville.be",
+    "osm_relation_id": 2282988
+  },
+  {
+    "id": "BE-92054",
+    "name": "Gesves",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "gesves.be",
+    "osm_relation_id": 2282889
+  },
+  {
+    "id": "BE-92087",
+    "name": "Mettet",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "mettet.be",
+    "osm_relation_id": 2219471
+  },
+  {
+    "id": "BE-92094",
+    "name": "Namen",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "namur.be",
+    "osm_relation_id": 1405439
+  },
+  {
+    "id": "BE-92097",
+    "name": "Ohey",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "ohey.be",
+    "osm_relation_id": 2330165
+  },
+  {
+    "id": "BE-92101",
+    "name": "Profondeville",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "profondeville.be",
+    "osm_relation_id": 2223089
+  },
+  {
+    "id": "BE-92114",
+    "name": "Sombreffe",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "sombreffe.be",
+    "osm_relation_id": 2307330
+  },
+  {
+    "id": "BE-92137",
+    "name": "Sambreville",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "sambreville.be",
+    "osm_relation_id": 2282984
+  },
+  {
+    "id": "BE-92138",
+    "name": "Fernelmont",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "fernelmont.be",
+    "osm_relation_id": 2305699
+  },
+  {
+    "id": "BE-92140",
+    "name": "Jemeppe-sur-Sambre",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "jemeppe-sur-sambre.be",
+    "osm_relation_id": 2282985
+  },
+  {
+    "id": "BE-92141",
+    "name": "La Bruyère",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "labruyere.be",
+    "osm_relation_id": 2327768
+  },
+  {
+    "id": "BE-92142",
+    "name": "Gembloers",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "gembloux.be",
+    "osm_relation_id": 2313628
+  },
+  {
+    "id": "BE-93010",
+    "name": "Cerfontaine",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "cerfontaine.be",
+    "osm_relation_id": 1879664
+  },
+  {
+    "id": "BE-93014",
+    "name": "Couvin",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "couvin.be",
+    "osm_relation_id": 1502008
+  },
+  {
+    "id": "BE-93018",
+    "name": "Doische",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "doische.be",
+    "osm_relation_id": 1604184
+  },
+  {
+    "id": "BE-93022",
+    "name": "Florennes",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "florennes.be",
+    "osm_relation_id": 2048709
+  },
+  {
+    "id": "BE-93056",
+    "name": "Philippeville",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "philippeville.be",
+    "osm_relation_id": 1260359
+  },
+  {
+    "id": "BE-93088",
+    "name": "Walcourt",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "walcourt.be",
+    "osm_relation_id": 1894438
+  },
+  {
+    "id": "BE-93090",
+    "name": "Viroinval",
+    "country": "BE",
+    "region": "Namur",
+    "domain": "viroinval.be",
+    "osm_relation_id": 1604124
+  }
+]

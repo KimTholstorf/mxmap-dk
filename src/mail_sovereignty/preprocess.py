@@ -32,6 +32,11 @@ SEED_FILES = {
     "SE": "municipalities_se.json",
     "DE": "municipalities_de.json",
     "DK": "municipalities_dk.json",
+    "AD": "municipalities_ad.json",
+    "LU": "municipalities_lu.json",
+    "BE": "municipalities_be.json",
+    "AT": "municipalities_at.json",
+    "CZ": "municipalities_cz.json",
 }
 
 
@@ -66,6 +71,7 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         " kommune",                                     # Norwegian
         " kommun",                                      # Swedish
         " (kreisfreie stadt)",                              # German
+        " (statutarstadt)", " (marktgemeinde)",               # Austrian
     ]:
         if raw.endswith(suffix):
             raw = raw[: -len(suffix)]
@@ -73,12 +79,13 @@ def guess_domains(name: str, country: str = "") -> list[str]:
     # Baltic diacritics transliteration
     translits = [
         ("ä", "a"), ("ö", "o"), ("ü", "u"), ("õ", "o"),  # Estonian
-        ("š", "s"), ("ž", "z"), ("č", "c"),                # Shared
+        ("š", "s"), ("ž", "z"), ("č", "c"), ("ř", "r"),      # Shared
         ("ā", "a"), ("ē", "e"), ("ī", "i"), ("ū", "u"),  # Latvian
         ("ķ", "k"), ("ļ", "l"), ("ņ", "n"), ("ģ", "g"),
         ("ė", "e"), ("į", "i"), ("ų", "u"), ("ū", "u"),  # Lithuanian
         ("å", "a"),                                          # Finnish/Nordic
-        ("ø", "o"), ("æ", "ae"),                                 # Norwegian
+        ("ø", "o"), ("æ", "ae"),                                 # Norwegian/Danish
+        ("í", "i"), ("ý", "y"), ("ď", "d"), ("ť", "t"), ("ň", "n"),  # Czech
     ]
     clean = raw
     for a, b in translits:
@@ -112,7 +119,7 @@ def guess_domains(name: str, country: str = "") -> list[str]:
             slugs.add(de_slug)
 
     # Determine TLDs based on country
-    tld_map = {"EE": [".ee"], "LV": [".lv"], "LT": [".lt"], "FI": [".fi"], "NO": [".no", ".kommune.no"], "SE": [".se"], "DE": [".de"], "DK": [".dk"]}
+    tld_map = {"EE": [".ee"], "LV": [".lv"], "LT": [".lt"], "FI": [".fi"], "NO": [".no", ".kommune.no"], "SE": [".se"], "DE": [".de"], "DK": [".dk"], "AD": [".ad"], "LU": [".lu"], "BE": [".be"], "AT": [".gv.at", ".at"], "CZ": [".cz"]}
     tlds = tld_map.get(country, [".ee", ".lv", ".lt", ".fi", ".no", ".se", ".de", ".dk"])
 
     candidates = set()

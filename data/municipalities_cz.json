@@ -1,0 +1,1642 @@
+[
+  {
+    "id": "CZ-500496",
+    "name": "Olomouc",
+    "country": "CZ",
+    "region": "Olomoucký kraj",
+    "domain": "olomouc.eu",
+    "osm_relation_id": 437057
+  },
+  {
+    "id": "CZ-503444",
+    "name": "Litovel",
+    "country": "CZ",
+    "region": "Olomoucký kraj",
+    "domain": "litovel.eu",
+    "osm_relation_id": 438809
+  },
+  {
+    "id": "CZ-505188",
+    "name": "Šternberk",
+    "country": "CZ",
+    "region": "Olomoucký kraj",
+    "domain": "sternberk.eu",
+    "osm_relation_id": 438507
+  },
+  {
+    "id": "CZ-505587",
+    "name": "Uničov",
+    "country": "CZ",
+    "region": "Olomoucký kraj",
+    "domain": "unicov.cz",
+    "osm_relation_id": 438432
+  },
+  {
+    "id": "CZ-505927",
+    "name": "Opava",
+    "country": "CZ",
+    "region": "Moravskoslezský kraj",
+    "domain": "opava-city.cz",
+    "osm_relation_id": 437002
+  },
+  {
+    "id": "CZ-507016",
+    "name": "Hlučín",
+    "country": "CZ",
+    "region": "Moravskoslezský kraj",
+    "domain": "hlucin.cz",
+    "osm_relation_id": 437592
+  },
+  {
+    "id": "CZ-507580",
+    "name": "Kravaře",
+    "country": "CZ",
+    "region": "Moravskoslezský kraj",
+    "domain": "kravare.cz",
+    "osm_relation_id": 437005
+  },
+  {
+    "id": "CZ-511021",
+    "name": "Vítkov",
+    "country": "CZ",
+    "region": "Moravskoslezský kraj",
+    "domain": "vitkov.info",
+    "osm_relation_id": 437635
+  },
+  {
+    "id": "CZ-511382",
+    "name": "Přerov",
+    "country": "CZ",
+    "region": "Olomoucký kraj",
+    "domain": "prerov.eu",
+    "osm_relation_id": 438278
+  },
+  {
+    "id": "CZ-513750",
+    "name": "Hranice",
+    "country": "CZ",
+    "region": "Olomoucký kraj",
+    "domain": "mesto-hranice.cz",
+    "osm_relation_id": 438577
+  },
+  {
+    "id": "CZ-514705",
+    "name": "Lipník nad Bečvou",
+    "country": "CZ",
+    "region": "Olomoucký kraj",
+    "domain": "mesto-lipnik.cz",
+    "osm_relation_id": 438348
+  },
+  {
+    "id": "CZ-523704",
+    "name": "Šumperk",
+    "country": "CZ",
+    "region": "Olomoucký kraj",
+    "domain": "sumperk.cz",
+    "osm_relation_id": 438047
+  },
+  {
+    "id": "CZ-529303",
+    "name": "Benešov",
+    "country": "CZ",
+    "region": "Středočeský kraj",
+    "domain": "benesov-city.cz",
+    "osm_relation_id": 440764
+  },
+  {
+    "id": "CZ-530883",
+    "name": "Vlašim",
+    "country": "CZ",
+    "region": "Středočeský kraj",
+    "domain": "mesto-vlasim.cz",
+    "osm_relation_id": 441511
+  },
+  {
+    "id": "CZ-530905",
+    "name": "Votice",
+    "country": "CZ",
+    "region": "Středočeský kraj",
+    "domain": "mesto-votice.cz",
+    "osm_relation_id": 441514
+  },
+  {
+    "id": "CZ-531057",
+    "name": "Beroun",
+    "country": "CZ",
+    "region": "Středočeský kraj",
+    "domain": "mesto-beroun.cz",
+    "osm_relation_id": 442333
+  },
+  {
+    "id": "CZ-531189",
+    "name": "Hořovice",
+    "country": "CZ",
+    "region": "Středočeský kraj",
+    "domain": "mesto-horovice.eu",
+    "osm_relation_id": 442329
+  },
+  {
+    "id": "CZ-532053",
+    "name": "Kladno",
+    "country": "CZ",
+    "region": "Středočeský kraj",
+    "domain": "mestokladno.cz",
+    "osm_relation_id": 440979
+  },
+  {
+    "id": "CZ-532819",
+    "name": "Slaný",
+    "country": "CZ",
+    "region": "Středočeský kraj",
+    "domain": "meuslany.cz",
+    "osm_relation_id": 440956
+  },
+  {
+    "id": "CZ-533165",
+    "name": "Kolín",
+    "country": "CZ",
+    "region": "Středočeský kraj",
+    "domain": "mukolin.cz",
+    "osm_relation_id": 441253
+  },
+  {
+    "id": "CZ-533271",
+    "name": "Český Brod",
+    "country": "CZ",
+    "region": "Středočeský kraj",
+    "domain": "cesbrod.cz",
+    "osm_relation_id": 441303
+  },
+  {
+    "id": "CZ-533955",
+    "name": "Kutná Hora",
+    "country": "CZ",
+    "region": "Středočeský kraj",
+    "domain": "kutnahora.cz",
+    "osm_relation_id": 441804
+  },
+  {
+    "id": "CZ-534005",
+    "name": "Čáslav",
+    "country": "CZ",
+    "region": "Středočeský kraj",
+    "domain": "meucaslav.cz",
+    "osm_relation_id": 441800
+  },
+  {
+    "id": "CZ-534676",
+    "name": "Mělník",
+    "country": "CZ",
+    "region": "Středočeský kraj",
+    "domain": "melnik.cz",
+    "osm_relation_id": 437581
+  },
+  {
+    "id": "CZ-534951",
+    "name": "Kralupy nad Vltavou",
+    "country": "CZ",
+    "region": "Středočeský kraj",
+    "domain": "mestokralupy.cz",
+    "osm_relation_id": 437612
+  },
+  {
+    "id": "CZ-535087",
+    "name": "Neratovice",
+    "country": "CZ",
+    "region": "Středočeský kraj",
+    "domain": "neratovice.cz",
+    "osm_relation_id": 437598
+  },
+  {
+    "id": "CZ-535419",
+    "name": "Mladá Boleslav",
+    "country": "CZ",
+    "region": "Středočeský kraj",
+    "domain": "mb-net.cz",
+    "osm_relation_id": 437559
+  },
+  {
+    "id": "CZ-536326",
+    "name": "Mnichovo Hradiště",
+    "country": "CZ",
+    "region": "Středočeský kraj",
+    "domain": "mnhradiste.cz",
+    "osm_relation_id": 437717
+  },
+  {
+    "id": "CZ-536385",
+    "name": "Jeseník",
+    "country": "CZ",
+    "region": "Olomoucký kraj",
+    "domain": "jesenik.cz",
+    "osm_relation_id": 438766
+  },
+  {
+    "id": "CZ-537004",
+    "name": "Nymburk",
+    "country": "CZ",
+    "region": "Středočeský kraj",
+    "domain": "mesto-nymburk.cz",
+    "osm_relation_id": 441557
+  },
+  {
+    "id": "CZ-537454",
+    "name": "Lysá nad Labem",
+    "country": "CZ",
+    "region": "Středočeský kraj",
+    "domain": "mestolysa.cz",
+    "osm_relation_id": 441528
+  },
+  {
+    "id": "CZ-537683",
+    "name": "Poděbrady",
+    "country": "CZ",
+    "region": "Středočeský kraj",
+    "domain": "mesto-podebrady.cz",
+    "osm_relation_id": 437300
+  },
+  {
+    "id": "CZ-538094",
+    "name": "Brandýs nad Labem-Stará Boleslav",
+    "country": "CZ",
+    "region": "Středočeský kraj",
+    "domain": "brandysko.cz",
+    "osm_relation_id": 436110
+  },
+  {
+    "id": "CZ-538728",
+    "name": "Říčany",
+    "country": "CZ",
+    "region": "Středočeský kraj",
+    "domain": "ricany.cz",
+    "osm_relation_id": 436100
+  },
+  {
+    "id": "CZ-539139",
+    "name": "Černošice",
+    "country": "CZ",
+    "region": "Středočeský kraj",
+    "domain": "mestocernosice.cz",
+    "osm_relation_id": 442242
+  },
+  {
+    "id": "CZ-539911",
+    "name": "Příbram",
+    "country": "CZ",
+    "region": "Středočeský kraj",
+    "domain": "pribram.eu",
+    "osm_relation_id": 441396
+  },
+  {
+    "id": "CZ-540111",
+    "name": "Dobříš",
+    "country": "CZ",
+    "region": "Středočeský kraj",
+    "domain": "mestodobris.cz",
+    "osm_relation_id": 441424
+  },
+  {
+    "id": "CZ-540471",
+    "name": "Mohelnice",
+    "country": "CZ",
+    "region": "Olomoucký kraj",
+    "domain": "mohelnice.cz",
+    "osm_relation_id": 438316
+  },
+  {
+    "id": "CZ-541281",
+    "name": "Sedlčany",
+    "country": "CZ",
+    "region": "Středočeský kraj",
+    "domain": "mesto-sedlcany.cz",
+    "osm_relation_id": 441351
+  },
+  {
+    "id": "CZ-541354",
+    "name": "Zábřeh",
+    "country": "CZ",
+    "region": "Olomoucký kraj",
+    "domain": "zabreh.cz",
+    "osm_relation_id": 436966
+  },
+  {
+    "id": "CZ-541630",
+    "name": "Vsetín",
+    "country": "CZ",
+    "region": "Zlínský kraj",
+    "domain": "mestovsetin.cz",
+    "osm_relation_id": 437166
+  },
+  {
+    "id": "CZ-541656",
+    "name": "Rakovník",
+    "country": "CZ",
+    "region": "Středočeský kraj",
+    "domain": "mesto-rakovnik.cz",
+    "osm_relation_id": 442374
+  },
+  {
+    "id": "CZ-544256",
+    "name": "České Budějovice",
+    "country": "CZ",
+    "region": "Jihočeský kraj",
+    "domain": "c-budejovice.cz",
+    "osm_relation_id": 437861
+  },
+  {
+    "id": "CZ-544841",
+    "name": "Rožnov pod Radhoštěm",
+    "country": "CZ",
+    "region": "Zlínský kraj",
+    "domain": "roznov.cz",
+    "osm_relation_id": 442433
+  },
+  {
+    "id": "CZ-545058",
+    "name": "Valašské Meziříčí",
+    "country": "CZ",
+    "region": "Zlínský kraj",
+    "domain": "valasskemezirici.cz",
+    "osm_relation_id": 435549
+  },
+  {
+    "id": "CZ-545171",
+    "name": "Trhové Sviny",
+    "country": "CZ",
+    "region": "Jihočeský kraj",
+    "domain": "tsviny.cz",
+    "osm_relation_id": 437661
+  },
+  {
+    "id": "CZ-545201",
+    "name": "Týn nad Vltavou",
+    "country": "CZ",
+    "region": "Jihočeský kraj",
+    "domain": "tnv.cz",
+    "osm_relation_id": 437663
+  },
+  {
+    "id": "CZ-545392",
+    "name": "Český Krumlov",
+    "country": "CZ",
+    "region": "Jihočeský kraj",
+    "domain": "ckrumlov.cz",
+    "osm_relation_id": 438508
+  },
+  {
+    "id": "CZ-545562",
+    "name": "Kaplice",
+    "country": "CZ",
+    "region": "Jihočeský kraj",
+    "domain": "mestokaplice.cz",
+    "osm_relation_id": 438536
+  },
+  {
+    "id": "CZ-545881",
+    "name": "Jindřichův Hradec",
+    "country": "CZ",
+    "region": "Jihočeský kraj",
+    "domain": "jh.cz",
+    "osm_relation_id": 438489
+  },
+  {
+    "id": "CZ-546127",
+    "name": "Dačice",
+    "country": "CZ",
+    "region": "Jihočeský kraj",
+    "domain": "dacice.cz",
+    "osm_relation_id": 437440
+  },
+  {
+    "id": "CZ-547336",
+    "name": "Třeboň",
+    "country": "CZ",
+    "region": "Jihočeský kraj",
+    "domain": "mesto-trebon.cz",
+    "osm_relation_id": 437495
+  },
+  {
+    "id": "CZ-547492",
+    "name": "Pelhřimov",
+    "country": "CZ",
+    "region": "Kraj Vysočina",
+    "domain": "mestopelhrimov.cz",
+    "osm_relation_id": 441095
+  },
+  {
+    "id": "CZ-547999",
+    "name": "Humpolec",
+    "country": "CZ",
+    "region": "Kraj Vysočina",
+    "domain": "mesto-humpolec.cz",
+    "osm_relation_id": 441024
+  },
+  {
+    "id": "CZ-548511",
+    "name": "Pacov",
+    "country": "CZ",
+    "region": "Kraj Vysočina",
+    "domain": "mestopacov.cz",
+    "osm_relation_id": 441041
+  },
+  {
+    "id": "CZ-549240",
+    "name": "Písek",
+    "country": "CZ",
+    "region": "Jihočeský kraj",
+    "domain": "mesto-pisek.cz",
+    "osm_relation_id": 437521
+  },
+  {
+    "id": "CZ-549576",
+    "name": "Milevsko",
+    "country": "CZ",
+    "region": "Jihočeský kraj",
+    "domain": "milevsko-mesto.cz",
+    "osm_relation_id": 437377
+  },
+  {
+    "id": "CZ-550094",
+    "name": "Prachatice",
+    "country": "CZ",
+    "region": "Jihočeský kraj",
+    "domain": "prachatice.eu",
+    "osm_relation_id": 437239
+  },
+  {
+    "id": "CZ-550647",
+    "name": "Vimperk",
+    "country": "CZ",
+    "region": "Jihočeský kraj",
+    "domain": "vimperk.cz",
+    "osm_relation_id": 437974
+  },
+  {
+    "id": "CZ-550787",
+    "name": "Strakonice",
+    "country": "CZ",
+    "region": "Jihočeský kraj",
+    "domain": "strakonice.eu",
+    "osm_relation_id": 438853
+  },
+  {
+    "id": "CZ-550850",
+    "name": "Blatná",
+    "country": "CZ",
+    "region": "Jihočeský kraj",
+    "domain": "mesto-blatna.cz",
+    "osm_relation_id": 438799
+  },
+  {
+    "id": "CZ-551953",
+    "name": "Vodňany",
+    "country": "CZ",
+    "region": "Jihočeský kraj",
+    "domain": "vodnany.eu",
+    "osm_relation_id": 438012
+  },
+  {
+    "id": "CZ-552046",
+    "name": "Tábor",
+    "country": "CZ",
+    "region": "Jihočeský kraj",
+    "domain": "taborcz.eu",
+    "osm_relation_id": 438672
+  },
+  {
+    "id": "CZ-553131",
+    "name": "Soběslav",
+    "country": "CZ",
+    "region": "Jihočeský kraj",
+    "domain": "musobeslav.cz",
+    "osm_relation_id": 438740
+  },
+  {
+    "id": "CZ-553425",
+    "name": "Domažlice",
+    "country": "CZ",
+    "region": "Plzeňský kraj",
+    "domain": "domazlice.eu",
+    "osm_relation_id": 438629
+  },
+  {
+    "id": "CZ-553671",
+    "name": "Horšovský Týn",
+    "country": "CZ",
+    "region": "Plzeňský kraj",
+    "domain": "horsovskytyn.cz",
+    "osm_relation_id": 439172
+  },
+  {
+    "id": "CZ-554481",
+    "name": "Cheb",
+    "country": "CZ",
+    "region": "Karlovarský kraj",
+    "domain": "cheb.cz",
+    "osm_relation_id": 439454
+  },
+  {
+    "id": "CZ-554499",
+    "name": "Aš",
+    "country": "CZ",
+    "region": "Karlovarský kraj",
+    "domain": "muas.cz",
+    "osm_relation_id": 439457
+  },
+  {
+    "id": "CZ-554642",
+    "name": "Mariánské Lázně",
+    "country": "CZ",
+    "region": "Karlovarský kraj",
+    "domain": "muml.cz",
+    "osm_relation_id": 439458
+  },
+  {
+    "id": "CZ-554782",
+    "name": "Praha",
+    "country": "CZ",
+    "region": "Hlavní město Praha",
+    "domain": "praha.eu",
+    "osm_relation_id": 439840
+  },
+  {
+    "id": "CZ-554791",
+    "name": "Plzeň",
+    "country": "CZ",
+    "region": "Plzeňský kraj",
+    "domain": "plzen.eu",
+    "osm_relation_id": 438344
+  },
+  {
+    "id": "CZ-554804",
+    "name": "Ústí nad Labem",
+    "country": "CZ",
+    "region": "Ústecký kraj",
+    "domain": "usti-nad-labem.cz",
+    "osm_relation_id": 440166
+  },
+  {
+    "id": "CZ-554821",
+    "name": "Ostrava",
+    "country": "CZ",
+    "region": "Moravskoslezský kraj",
+    "domain": "ostrava.cz",
+    "osm_relation_id": 437354
+  },
+  {
+    "id": "CZ-554961",
+    "name": "Karlovy Vary",
+    "country": "CZ",
+    "region": "Karlovarský kraj",
+    "domain": "mmkv.cz",
+    "osm_relation_id": 439482
+  },
+  {
+    "id": "CZ-555088",
+    "name": "Havířov",
+    "country": "CZ",
+    "region": "Moravskoslezský kraj",
+    "domain": "havirov-city.cz",
+    "osm_relation_id": 436995
+  },
+  {
+    "id": "CZ-555134",
+    "name": "Pardubice",
+    "country": "CZ",
+    "region": "Pardubický kraj",
+    "domain": "mesto-pardubice.cz",
+    "osm_relation_id": 440145
+  },
+  {
+    "id": "CZ-555428",
+    "name": "Ostrov",
+    "country": "CZ",
+    "region": "Karlovarský kraj",
+    "domain": "ostrov.cz",
+    "osm_relation_id": 439481
+  },
+  {
+    "id": "CZ-555771",
+    "name": "Klatovy",
+    "country": "CZ",
+    "region": "Plzeňský kraj",
+    "domain": "klatovy.cz",
+    "osm_relation_id": 438363
+  },
+  {
+    "id": "CZ-556254",
+    "name": "Horažďovice",
+    "country": "CZ",
+    "region": "Plzeňský kraj",
+    "domain": "mesto-horazdovice.cz",
+    "osm_relation_id": 439218
+  },
+  {
+    "id": "CZ-557153",
+    "name": "Sušice",
+    "country": "CZ",
+    "region": "Plzeňský kraj",
+    "domain": "mestosusice.cz",
+    "osm_relation_id": 438289
+  },
+  {
+    "id": "CZ-557587",
+    "name": "Blovice",
+    "country": "CZ",
+    "region": "Plzeňský kraj",
+    "domain": "blovice-mesto.cz",
+    "osm_relation_id": 438161
+  },
+  {
+    "id": "CZ-558109",
+    "name": "Nepomuk",
+    "country": "CZ",
+    "region": "Plzeňský kraj",
+    "domain": "nepomuk.cz",
+    "osm_relation_id": 438247
+  },
+  {
+    "id": "CZ-558249",
+    "name": "Přeštice",
+    "country": "CZ",
+    "region": "Plzeňský kraj",
+    "domain": "prestice-mesto.cz",
+    "osm_relation_id": 439654
+  },
+  {
+    "id": "CZ-558389",
+    "name": "Stod",
+    "country": "CZ",
+    "region": "Plzeňský kraj",
+    "domain": "mestostod.cz",
+    "osm_relation_id": 439661
+  },
+  {
+    "id": "CZ-559075",
+    "name": "Kralovice",
+    "country": "CZ",
+    "region": "Plzeňský kraj",
+    "domain": "kralovice.cz",
+    "osm_relation_id": 439733
+  },
+  {
+    "id": "CZ-559300",
+    "name": "Nýřany",
+    "country": "CZ",
+    "region": "Plzeňský kraj",
+    "domain": "nyrany.cz",
+    "osm_relation_id": 439715
+  },
+  {
+    "id": "CZ-559717",
+    "name": "Rokycany",
+    "country": "CZ",
+    "region": "Plzeňský kraj",
+    "domain": "rokycany.cz",
+    "osm_relation_id": 439783
+  },
+  {
+    "id": "CZ-560286",
+    "name": "Sokolov",
+    "country": "CZ",
+    "region": "Karlovarský kraj",
+    "domain": "sokolov.cz",
+    "osm_relation_id": 439509
+  },
+  {
+    "id": "CZ-560472",
+    "name": "Kraslice",
+    "country": "CZ",
+    "region": "Karlovarský kraj",
+    "domain": "kraslice.cz",
+    "osm_relation_id": 439547
+  },
+  {
+    "id": "CZ-560715",
+    "name": "Tachov",
+    "country": "CZ",
+    "region": "Plzeňský kraj",
+    "domain": "tachov-mesto.cz",
+    "osm_relation_id": 438864
+  },
+  {
+    "id": "CZ-561215",
+    "name": "Stříbro",
+    "country": "CZ",
+    "region": "Plzeňský kraj",
+    "domain": "mustribro.cz",
+    "osm_relation_id": 438877
+  },
+  {
+    "id": "CZ-561380",
+    "name": "Česká Lípa",
+    "country": "CZ",
+    "region": "Liberecký kraj",
+    "domain": "mucl.cz",
+    "osm_relation_id": 440197
+  },
+  {
+    "id": "CZ-561860",
+    "name": "Nový Bor",
+    "country": "CZ",
+    "region": "Liberecký kraj",
+    "domain": "novy-bor.cz",
+    "osm_relation_id": 440188
+  },
+  {
+    "id": "CZ-562335",
+    "name": "Děčín",
+    "country": "CZ",
+    "region": "Ústecký kraj",
+    "domain": "mmdecin.cz",
+    "osm_relation_id": 439579
+  },
+  {
+    "id": "CZ-562777",
+    "name": "Rumburk",
+    "country": "CZ",
+    "region": "Ústecký kraj",
+    "domain": "rumburk.cz",
+    "osm_relation_id": 439570
+  },
+  {
+    "id": "CZ-562882",
+    "name": "Varnsdorf",
+    "country": "CZ",
+    "region": "Ústecký kraj",
+    "domain": "varnsdorf.cz",
+    "osm_relation_id": 439609
+  },
+  {
+    "id": "CZ-562971",
+    "name": "Chomutov",
+    "country": "CZ",
+    "region": "Ústecký kraj",
+    "domain": "chomutov.cz",
+    "osm_relation_id": 436939
+  },
+  {
+    "id": "CZ-563102",
+    "name": "Kadaň",
+    "country": "CZ",
+    "region": "Ústecký kraj",
+    "domain": "mesto-kadan.cz",
+    "osm_relation_id": 439593
+  },
+  {
+    "id": "CZ-563510",
+    "name": "Jablonec nad Nisou",
+    "country": "CZ",
+    "region": "Liberecký kraj",
+    "domain": "mestojablonec.cz",
+    "osm_relation_id": 438931
+  },
+  {
+    "id": "CZ-563820",
+    "name": "Tanvald",
+    "country": "CZ",
+    "region": "Liberecký kraj",
+    "domain": "tanvald.cz",
+    "osm_relation_id": 438925
+  },
+  {
+    "id": "CZ-563871",
+    "name": "Železný Brod",
+    "country": "CZ",
+    "region": "Liberecký kraj",
+    "domain": "zeleznybrod.cz",
+    "osm_relation_id": 438957
+  },
+  {
+    "id": "CZ-563889",
+    "name": "Liberec",
+    "country": "CZ",
+    "region": "Liberecký kraj",
+    "domain": "liberec.cz",
+    "osm_relation_id": 439073
+  },
+  {
+    "id": "CZ-564028",
+    "name": "Frýdlant",
+    "country": "CZ",
+    "region": "Liberecký kraj",
+    "domain": "mesto-frydlant.cz",
+    "osm_relation_id": 439060
+  },
+  {
+    "id": "CZ-564567",
+    "name": "Litoměřice",
+    "country": "CZ",
+    "region": "Ústecký kraj",
+    "domain": "litomerice.cz",
+    "osm_relation_id": 439670
+  },
+  {
+    "id": "CZ-565229",
+    "name": "Lovosice",
+    "country": "CZ",
+    "region": "Ústecký kraj",
+    "domain": "meulovo.cz",
+    "osm_relation_id": 439311
+  },
+  {
+    "id": "CZ-565555",
+    "name": "Roudnice nad Labem",
+    "country": "CZ",
+    "region": "Ústecký kraj",
+    "domain": "roudnicenl.cz",
+    "osm_relation_id": 439215
+  },
+  {
+    "id": "CZ-565971",
+    "name": "Louny",
+    "country": "CZ",
+    "region": "Ústecký kraj",
+    "domain": "mulouny.cz",
+    "osm_relation_id": 439344
+  },
+  {
+    "id": "CZ-566616",
+    "name": "Podbořany",
+    "country": "CZ",
+    "region": "Ústecký kraj",
+    "domain": "podborany.net",
+    "osm_relation_id": 439283
+  },
+  {
+    "id": "CZ-566985",
+    "name": "Žatec",
+    "country": "CZ",
+    "region": "Ústecký kraj",
+    "domain": "mesto-zatec.cz",
+    "osm_relation_id": 439319
+  },
+  {
+    "id": "CZ-567027",
+    "name": "Most",
+    "country": "CZ",
+    "region": "Ústecký kraj",
+    "domain": "mesto-most.cz",
+    "osm_relation_id": 436570
+  },
+  {
+    "id": "CZ-567256",
+    "name": "Litvínov",
+    "country": "CZ",
+    "region": "Ústecký kraj",
+    "domain": "mulitvinov.cz",
+    "osm_relation_id": 436574
+  },
+  {
+    "id": "CZ-567442",
+    "name": "Teplice",
+    "country": "CZ",
+    "region": "Ústecký kraj",
+    "domain": "teplice.cz",
+    "osm_relation_id": 439351
+  },
+  {
+    "id": "CZ-567451",
+    "name": "Bílina",
+    "country": "CZ",
+    "region": "Ústecký kraj",
+    "domain": "bilina.cz",
+    "osm_relation_id": 439352
+  },
+  {
+    "id": "CZ-568414",
+    "name": "Havlíčkův Brod",
+    "country": "CZ",
+    "region": "Kraj Vysočina",
+    "domain": "muhb.cz",
+    "osm_relation_id": 440699
+  },
+  {
+    "id": "CZ-568759",
+    "name": "Chotěboř",
+    "country": "CZ",
+    "region": "Kraj Vysočina",
+    "domain": "chotebor.cz",
+    "osm_relation_id": 440712
+  },
+  {
+    "id": "CZ-569569",
+    "name": "Světlá nad Sázavou",
+    "country": "CZ",
+    "region": "Kraj Vysočina",
+    "domain": "svetlans.cz",
+    "osm_relation_id": 440447
+  },
+  {
+    "id": "CZ-569810",
+    "name": "Hradec Králové",
+    "country": "CZ",
+    "region": "Královéhradecký kraj",
+    "domain": "hradeckralove.org",
+    "osm_relation_id": 439071
+  },
+  {
+    "id": "CZ-570508",
+    "name": "Nový Bydžov",
+    "country": "CZ",
+    "region": "Královéhradecký kraj",
+    "domain": "novybydzov.cz",
+    "osm_relation_id": 439104
+  },
+  {
+    "id": "CZ-571164",
+    "name": "Chrudim",
+    "country": "CZ",
+    "region": "Pardubický kraj",
+    "domain": "chrudim.eu",
+    "osm_relation_id": 439959
+  },
+  {
+    "id": "CZ-571393",
+    "name": "Hlinsko",
+    "country": "CZ",
+    "region": "Pardubický kraj",
+    "domain": "hlinsko.cz",
+    "osm_relation_id": 439995
+  },
+  {
+    "id": "CZ-572659",
+    "name": "Jičín",
+    "country": "CZ",
+    "region": "Královéhradecký kraj",
+    "domain": "mujicin.cz",
+    "osm_relation_id": 439917
+  },
+  {
+    "id": "CZ-572926",
+    "name": "Hořice",
+    "country": "CZ",
+    "region": "Královéhradecký kraj",
+    "domain": "horice.org",
+    "osm_relation_id": 440006
+  },
+  {
+    "id": "CZ-573248",
+    "name": "Nová Paka",
+    "country": "CZ",
+    "region": "Královéhradecký kraj",
+    "domain": "munovapaka.cz",
+    "osm_relation_id": 440014
+  },
+  {
+    "id": "CZ-573868",
+    "name": "Náchod",
+    "country": "CZ",
+    "region": "Královéhradecký kraj",
+    "domain": "mestonachod.cz",
+    "osm_relation_id": 440663
+  },
+  {
+    "id": "CZ-573922",
+    "name": "Broumov",
+    "country": "CZ",
+    "region": "Královéhradecký kraj",
+    "domain": "broumov-mesto.cz",
+    "osm_relation_id": 440653
+  },
+  {
+    "id": "CZ-574121",
+    "name": "Jaroměř",
+    "country": "CZ",
+    "region": "Královéhradecký kraj",
+    "domain": "jaromer-josefov.cz",
+    "osm_relation_id": 440640
+  },
+  {
+    "id": "CZ-574279",
+    "name": "Nové Město nad Metují",
+    "country": "CZ",
+    "region": "Královéhradecký kraj",
+    "domain": "novemestonm.cz",
+    "osm_relation_id": 440694
+  },
+  {
+    "id": "CZ-574988",
+    "name": "Holice",
+    "country": "CZ",
+    "region": "Pardubický kraj",
+    "domain": "mestoholice.cz",
+    "osm_relation_id": 436725
+  },
+  {
+    "id": "CZ-575500",
+    "name": "Přelouč",
+    "country": "CZ",
+    "region": "Pardubický kraj",
+    "domain": "mestoprelouc.cz",
+    "osm_relation_id": 440298
+  },
+  {
+    "id": "CZ-576069",
+    "name": "Rychnov nad Kněžnou",
+    "country": "CZ",
+    "region": "Královéhradecký kraj",
+    "domain": "rychnov-city.cz",
+    "osm_relation_id": 439901
+  },
+  {
+    "id": "CZ-576271",
+    "name": "Dobruška",
+    "country": "CZ",
+    "region": "Královéhradecký kraj",
+    "domain": "mestodobruska.cz",
+    "osm_relation_id": 440632
+  },
+  {
+    "id": "CZ-576361",
+    "name": "Kostelec nad Orlicí",
+    "country": "CZ",
+    "region": "Královéhradecký kraj",
+    "domain": "kostelecno.cz",
+    "osm_relation_id": 440630
+  },
+  {
+    "id": "CZ-576964",
+    "name": "Semily",
+    "country": "CZ",
+    "region": "Liberecký kraj",
+    "domain": "semily.cz",
+    "osm_relation_id": 438971
+  },
+  {
+    "id": "CZ-577197",
+    "name": "Jilemnice",
+    "country": "CZ",
+    "region": "Liberecký kraj",
+    "domain": "mestojilemnice.cz",
+    "osm_relation_id": 439145
+  },
+  {
+    "id": "CZ-577626",
+    "name": "Turnov",
+    "country": "CZ",
+    "region": "Liberecký kraj",
+    "domain": "turnov.cz",
+    "osm_relation_id": 439028
+  },
+  {
+    "id": "CZ-577731",
+    "name": "Svitavy",
+    "country": "CZ",
+    "region": "Pardubický kraj",
+    "domain": "svitavy.cz",
+    "osm_relation_id": 436703
+  },
+  {
+    "id": "CZ-578347",
+    "name": "Litomyšl",
+    "country": "CZ",
+    "region": "Pardubický kraj",
+    "domain": "litomysl.cz",
+    "osm_relation_id": 441896
+  },
+  {
+    "id": "CZ-578444",
+    "name": "Moravská Třebová",
+    "country": "CZ",
+    "region": "Pardubický kraj",
+    "domain": "moravskatrebova.cz",
+    "osm_relation_id": 441874
+  },
+  {
+    "id": "CZ-578576",
+    "name": "Polička",
+    "country": "CZ",
+    "region": "Pardubický kraj",
+    "domain": "policka.org",
+    "osm_relation_id": 441881
+  },
+  {
+    "id": "CZ-579025",
+    "name": "Trutnov",
+    "country": "CZ",
+    "region": "Královéhradecký kraj",
+    "domain": "trutnov.cz",
+    "osm_relation_id": 440154
+  },
+  {
+    "id": "CZ-579203",
+    "name": "Dvůr Králové nad Labem",
+    "country": "CZ",
+    "region": "Královéhradecký kraj",
+    "domain": "mudk.cz",
+    "osm_relation_id": 440162
+  },
+  {
+    "id": "CZ-579858",
+    "name": "Vrchlabí",
+    "country": "CZ",
+    "region": "Královéhradecký kraj",
+    "domain": "muvrchlabi.cz",
+    "osm_relation_id": 440100
+  },
+  {
+    "id": "CZ-579891",
+    "name": "Ústí nad Orlicí",
+    "country": "CZ",
+    "region": "Pardubický kraj",
+    "domain": "ustinadorlici.cz",
+    "osm_relation_id": 441208
+  },
+  {
+    "id": "CZ-580031",
+    "name": "Česká Třebová",
+    "country": "CZ",
+    "region": "Pardubický kraj",
+    "domain": "ceska-trebova.cz",
+    "osm_relation_id": 441216
+  },
+  {
+    "id": "CZ-580481",
+    "name": "Králíky",
+    "country": "CZ",
+    "region": "Pardubický kraj",
+    "domain": "kraliky.eu",
+    "osm_relation_id": 440386
+  },
+  {
+    "id": "CZ-580511",
+    "name": "Lanškroun",
+    "country": "CZ",
+    "region": "Pardubický kraj",
+    "domain": "lanskroun.eu",
+    "osm_relation_id": 440376
+  },
+  {
+    "id": "CZ-581186",
+    "name": "Vysoké Mýto",
+    "country": "CZ",
+    "region": "Pardubický kraj",
+    "domain": "vysoke-myto.cz",
+    "osm_relation_id": 440542
+  },
+  {
+    "id": "CZ-581259",
+    "name": "Žamberk",
+    "country": "CZ",
+    "region": "Pardubický kraj",
+    "domain": "zamberk.cz",
+    "osm_relation_id": 440506
+  },
+  {
+    "id": "CZ-581283",
+    "name": "Blansko",
+    "country": "CZ",
+    "region": "Jihomoravský kraj",
+    "domain": "blansko.cz",
+    "osm_relation_id": 441780
+  },
+  {
+    "id": "CZ-581372",
+    "name": "Boskovice",
+    "country": "CZ",
+    "region": "Jihomoravský kraj",
+    "domain": "boskovice.cz",
+    "osm_relation_id": 438114
+  },
+  {
+    "id": "CZ-582786",
+    "name": "Brno",
+    "country": "CZ",
+    "region": "Jihomoravský kraj",
+    "domain": "brno.cz",
+    "osm_relation_id": 438171
+  },
+  {
+    "id": "CZ-583120",
+    "name": "Ivančice",
+    "country": "CZ",
+    "region": "Jihomoravský kraj",
+    "domain": "ivancice.cz",
+    "osm_relation_id": 442061
+  },
+  {
+    "id": "CZ-583251",
+    "name": "Kuřim",
+    "country": "CZ",
+    "region": "Jihomoravský kraj",
+    "domain": "kurim.cz",
+    "osm_relation_id": 442051
+  },
+  {
+    "id": "CZ-583782",
+    "name": "Rosice",
+    "country": "CZ",
+    "region": "Jihomoravský kraj",
+    "domain": "rosice.cz",
+    "osm_relation_id": 436874
+  },
+  {
+    "id": "CZ-583952",
+    "name": "Šlapanice",
+    "country": "CZ",
+    "region": "Jihomoravský kraj",
+    "domain": "slapanice.cz",
+    "osm_relation_id": 436872
+  },
+  {
+    "id": "CZ-584002",
+    "name": "Tišnov",
+    "country": "CZ",
+    "region": "Jihomoravský kraj",
+    "domain": "tisnov.cz",
+    "osm_relation_id": 442005
+  },
+  {
+    "id": "CZ-584282",
+    "name": "Židlochovice",
+    "country": "CZ",
+    "region": "Jihomoravský kraj",
+    "domain": "zidlochovice.cz",
+    "osm_relation_id": 441227
+  },
+  {
+    "id": "CZ-584291",
+    "name": "Břeclav",
+    "country": "CZ",
+    "region": "Jihomoravský kraj",
+    "domain": "breclav.eu",
+    "osm_relation_id": 441590
+  },
+  {
+    "id": "CZ-584495",
+    "name": "Hustopeče",
+    "country": "CZ",
+    "region": "Jihomoravský kraj",
+    "domain": "hustopece.cz",
+    "osm_relation_id": 436876
+  },
+  {
+    "id": "CZ-584649",
+    "name": "Mikulov",
+    "country": "CZ",
+    "region": "Jihomoravský kraj",
+    "domain": "mikulov.cz",
+    "osm_relation_id": 442519
+  },
+  {
+    "id": "CZ-584801",
+    "name": "Pohořelice",
+    "country": "CZ",
+    "region": "Jihomoravský kraj",
+    "domain": "pohorelice.cz",
+    "osm_relation_id": 436886
+  },
+  {
+    "id": "CZ-585068",
+    "name": "Zlín",
+    "country": "CZ",
+    "region": "Zlínský kraj",
+    "domain": "zlin.eu",
+    "osm_relation_id": 440910
+  },
+  {
+    "id": "CZ-585459",
+    "name": "Luhačovice",
+    "country": "CZ",
+    "region": "Zlínský kraj",
+    "domain": "luhacovice.eu",
+    "osm_relation_id": 440860
+  },
+  {
+    "id": "CZ-585599",
+    "name": "Otrokovice",
+    "country": "CZ",
+    "region": "Zlínský kraj",
+    "domain": "otrokovice.cz",
+    "osm_relation_id": 440877
+  },
+  {
+    "id": "CZ-585891",
+    "name": "Valašské Klobouky",
+    "country": "CZ",
+    "region": "Zlínský kraj",
+    "domain": "valasskeklobouky.cz",
+    "osm_relation_id": 440920
+  },
+  {
+    "id": "CZ-585939",
+    "name": "Vizovice",
+    "country": "CZ",
+    "region": "Zlínský kraj",
+    "domain": "mestovizovice.cz",
+    "osm_relation_id": 440770
+  },
+  {
+    "id": "CZ-586021",
+    "name": "Hodonín",
+    "country": "CZ",
+    "region": "Jihomoravský kraj",
+    "domain": "hodonin.eu",
+    "osm_relation_id": 442526
+  },
+  {
+    "id": "CZ-586307",
+    "name": "Kyjov",
+    "country": "CZ",
+    "region": "Jihomoravský kraj",
+    "domain": "mestokyjov.cz",
+    "osm_relation_id": 442517
+  },
+  {
+    "id": "CZ-586722",
+    "name": "Veselí nad Moravou",
+    "country": "CZ",
+    "region": "Jihomoravský kraj",
+    "domain": "veseli-nad-moravou.cz",
+    "osm_relation_id": 441137
+  },
+  {
+    "id": "CZ-586846",
+    "name": "Jihlava",
+    "country": "CZ",
+    "region": "Kraj Vysočina",
+    "domain": "jihlava.cz",
+    "osm_relation_id": 440427
+  },
+  {
+    "id": "CZ-588024",
+    "name": "Telč",
+    "country": "CZ",
+    "region": "Kraj Vysočina",
+    "domain": "telc.eu",
+    "osm_relation_id": 441173
+  },
+  {
+    "id": "CZ-588296",
+    "name": "Kroměříž",
+    "country": "CZ",
+    "region": "Zlínský kraj",
+    "domain": "mesto-kromeriz.cz",
+    "osm_relation_id": 437751
+  },
+  {
+    "id": "CZ-588393",
+    "name": "Bystřice pod Hostýnem",
+    "country": "CZ",
+    "region": "Zlínský kraj",
+    "domain": "bystriceph.cz",
+    "osm_relation_id": 437702
+  },
+  {
+    "id": "CZ-588458",
+    "name": "Holešov",
+    "country": "CZ",
+    "region": "Zlínský kraj",
+    "domain": "holesov.cz",
+    "osm_relation_id": 437409
+  },
+  {
+    "id": "CZ-589250",
+    "name": "Prostějov",
+    "country": "CZ",
+    "region": "Olomoucký kraj",
+    "domain": "prostejov.eu",
+    "osm_relation_id": 438618
+  },
+  {
+    "id": "CZ-589624",
+    "name": "Konice",
+    "country": "CZ",
+    "region": "Olomoucký kraj",
+    "domain": "konice.cz",
+    "osm_relation_id": 438468
+  },
+  {
+    "id": "CZ-590266",
+    "name": "Třebíč",
+    "country": "CZ",
+    "region": "Kraj Vysočina",
+    "domain": "trebic.cz",
+    "osm_relation_id": 442133
+  },
+  {
+    "id": "CZ-591181",
+    "name": "Moravské Budějovice",
+    "country": "CZ",
+    "region": "Kraj Vysočina",
+    "domain": "mbudejovice.cz",
+    "osm_relation_id": 442155
+  },
+  {
+    "id": "CZ-591211",
+    "name": "Náměšť nad Oslavou",
+    "country": "CZ",
+    "region": "Kraj Vysočina",
+    "domain": "namestnosl.cz",
+    "osm_relation_id": 442152
+  },
+  {
+    "id": "CZ-592005",
+    "name": "Uherské Hradiště",
+    "country": "CZ",
+    "region": "Zlínský kraj",
+    "domain": "mesto-uh.cz",
+    "osm_relation_id": 437438
+  },
+  {
+    "id": "CZ-592731",
+    "name": "Uherský Brod",
+    "country": "CZ",
+    "region": "Zlínský kraj",
+    "domain": "ub.cz",
+    "osm_relation_id": 437482
+  },
+  {
+    "id": "CZ-592889",
+    "name": "Vyškov",
+    "country": "CZ",
+    "region": "Jihomoravský kraj",
+    "domain": "vyskov-mesto.cz",
+    "osm_relation_id": 442276
+  },
+  {
+    "id": "CZ-592943",
+    "name": "Bučovice",
+    "country": "CZ",
+    "region": "Jihomoravský kraj",
+    "domain": "bucovice.cz",
+    "osm_relation_id": 440734
+  },
+  {
+    "id": "CZ-593583",
+    "name": "Slavkov u Brna",
+    "country": "CZ",
+    "region": "Jihomoravský kraj",
+    "domain": "slavkov.cz",
+    "osm_relation_id": 440788
+  },
+  {
+    "id": "CZ-593711",
+    "name": "Znojmo",
+    "country": "CZ",
+    "region": "Jihomoravský kraj",
+    "domain": "znojmocity.cz",
+    "osm_relation_id": 437041
+  },
+  {
+    "id": "CZ-594482",
+    "name": "Moravský Krumlov",
+    "country": "CZ",
+    "region": "Jihomoravský kraj",
+    "domain": "mkrumlov.cz",
+    "osm_relation_id": 438657
+  },
+  {
+    "id": "CZ-595209",
+    "name": "Žďár nad Sázavou",
+    "country": "CZ",
+    "region": "Kraj Vysočina",
+    "domain": "zdarns.cz",
+    "osm_relation_id": 428066
+  },
+  {
+    "id": "CZ-595411",
+    "name": "Bystřice nad Pernštejnem",
+    "country": "CZ",
+    "region": "Kraj Vysočina",
+    "domain": "bystricenp.cz",
+    "osm_relation_id": 441693
+  },
+  {
+    "id": "CZ-596230",
+    "name": "Nové Město na Moravě",
+    "country": "CZ",
+    "region": "Kraj Vysočina",
+    "domain": "nmnm.cz",
+    "osm_relation_id": 441738
+  },
+  {
+    "id": "CZ-597007",
+    "name": "Velké Meziříčí",
+    "country": "CZ",
+    "region": "Kraj Vysočina",
+    "domain": "velkemezirici.cz",
+    "osm_relation_id": 441623
+  },
+  {
+    "id": "CZ-597180",
+    "name": "Bruntál",
+    "country": "CZ",
+    "region": "Moravskoslezský kraj",
+    "domain": "mubruntal.cz",
+    "osm_relation_id": 436977
+  },
+  {
+    "id": "CZ-597520",
+    "name": "Krnov",
+    "country": "CZ",
+    "region": "Moravskoslezský kraj",
+    "domain": "krnov.cz",
+    "osm_relation_id": 439377
+  },
+  {
+    "id": "CZ-597783",
+    "name": "Rýmařov",
+    "country": "CZ",
+    "region": "Moravskoslezský kraj",
+    "domain": "rymarov.cz",
+    "osm_relation_id": 437752
+  },
+  {
+    "id": "CZ-598003",
+    "name": "Frýdek-Místek",
+    "country": "CZ",
+    "region": "Moravskoslezský kraj",
+    "domain": "frydekmistek.cz",
+    "osm_relation_id": 436980
+  },
+  {
+    "id": "CZ-598143",
+    "name": "Frýdlant nad Ostravicí",
+    "country": "CZ",
+    "region": "Moravskoslezský kraj",
+    "domain": "frydlantno.cz",
+    "osm_relation_id": 437876
+  },
+  {
+    "id": "CZ-598259",
+    "name": "Jablunkov",
+    "country": "CZ",
+    "region": "Moravskoslezský kraj",
+    "domain": "jablunkov.cz",
+    "osm_relation_id": 437885
+  },
+  {
+    "id": "CZ-598810",
+    "name": "Třinec",
+    "country": "CZ",
+    "region": "Moravskoslezský kraj",
+    "domain": "trinecko.cz",
+    "osm_relation_id": 437909
+  },
+  {
+    "id": "CZ-598917",
+    "name": "Karviná",
+    "country": "CZ",
+    "region": "Moravskoslezský kraj",
+    "domain": "karvina.cz",
+    "osm_relation_id": 436994
+  },
+  {
+    "id": "CZ-599051",
+    "name": "Bohumín",
+    "country": "CZ",
+    "region": "Moravskoslezský kraj",
+    "domain": "bohumin.cz",
+    "osm_relation_id": 436990
+  },
+  {
+    "id": "CZ-599069",
+    "name": "Orlová",
+    "country": "CZ",
+    "region": "Moravskoslezský kraj",
+    "domain": "mesto-orlova.cz",
+    "osm_relation_id": 437932
+  },
+  {
+    "id": "CZ-599191",
+    "name": "Nový Jičín",
+    "country": "CZ",
+    "region": "Moravskoslezský kraj",
+    "domain": "novyjicin.cz",
+    "osm_relation_id": 436988
+  },
+  {
+    "id": "CZ-599247",
+    "name": "Bílovec",
+    "country": "CZ",
+    "region": "Moravskoslezský kraj",
+    "domain": "bilovec.cz",
+    "osm_relation_id": 436987
+  },
+  {
+    "id": "CZ-599344",
+    "name": "Frenštát pod Radhoštěm",
+    "country": "CZ",
+    "region": "Moravskoslezský kraj",
+    "domain": "mufrenstat.cz",
+    "osm_relation_id": 437537
+  },
+  {
+    "id": "CZ-599565",
+    "name": "Kopřivnice",
+    "country": "CZ",
+    "region": "Moravskoslezský kraj",
+    "domain": "koprivnice.cz",
+    "osm_relation_id": 437575
+  },
+  {
+    "id": "CZ-599701",
+    "name": "Odry",
+    "country": "CZ",
+    "region": "Moravskoslezský kraj",
+    "domain": "odry.cz",
+    "osm_relation_id": 437555
+  }
+]

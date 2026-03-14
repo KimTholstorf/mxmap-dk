@@ -1,0 +1,802 @@
+[
+  {
+    "id": "LU-0101",
+    "name": "Dippach",
+    "country": "LU",
+    "region": "Capellen",
+    "domain": "dippach.lu",
+    "osm_relation_id": 407895
+  },
+  {
+    "id": "LU-0102",
+    "name": "Garnich",
+    "country": "LU",
+    "region": "Capellen",
+    "domain": "garnich.lu",
+    "osm_relation_id": 407865
+  },
+  {
+    "id": "LU-0103",
+    "name": "Habscht",
+    "country": "LU",
+    "region": "Capellen",
+    "domain": "habscht.lu",
+    "osm_relation_id": 407841
+  },
+  {
+    "id": "LU-0104",
+    "name": "Käerjeng",
+    "country": "LU",
+    "region": "Capellen",
+    "domain": "kaerjeng.lu",
+    "osm_relation_id": 407885
+  },
+  {
+    "id": "LU-0105",
+    "name": "Kehlen",
+    "country": "LU",
+    "region": "Capellen",
+    "domain": "kehlen.lu",
+    "osm_relation_id": 407924
+  },
+  {
+    "id": "LU-0106",
+    "name": "Koerich",
+    "country": "LU",
+    "region": "Capellen",
+    "domain": "koerich.lu",
+    "osm_relation_id": 407858
+  },
+  {
+    "id": "LU-0107",
+    "name": "Kopstal",
+    "country": "LU",
+    "region": "Capellen",
+    "domain": "kopstal.lu",
+    "osm_relation_id": 407931
+  },
+  {
+    "id": "LU-0108",
+    "name": "Mamer",
+    "country": "LU",
+    "region": "Capellen",
+    "domain": "mamer.lu",
+    "osm_relation_id": 407937
+  },
+  {
+    "id": "LU-0110",
+    "name": "Steinfort",
+    "country": "LU",
+    "region": "Capellen",
+    "domain": "steinfort.lu",
+    "osm_relation_id": 407857
+  },
+  {
+    "id": "LU-0201",
+    "name": "Bettembourg",
+    "country": "LU",
+    "region": "Esch-sur-Alzette",
+    "domain": "bettembourg.lu",
+    "osm_relation_id": 407896
+  },
+  {
+    "id": "LU-0202",
+    "name": "Differdange",
+    "country": "LU",
+    "region": "Esch-sur-Alzette",
+    "domain": "differdange.lu",
+    "osm_relation_id": 407474
+  },
+  {
+    "id": "LU-0203",
+    "name": "Dudelange",
+    "country": "LU",
+    "region": "Esch-sur-Alzette",
+    "domain": "dudelange.lu",
+    "osm_relation_id": 407453
+  },
+  {
+    "id": "LU-0204",
+    "name": "Esch-sur-Alzette",
+    "country": "LU",
+    "region": "Esch-sur-Alzette",
+    "domain": "esch.lu",
+    "osm_relation_id": 407419
+  },
+  {
+    "id": "LU-0205",
+    "name": "Frisange",
+    "country": "LU",
+    "region": "Esch-sur-Alzette",
+    "domain": "frisange.lu",
+    "osm_relation_id": 407465
+  },
+  {
+    "id": "LU-0206",
+    "name": "Kayl",
+    "country": "LU",
+    "region": "Esch-sur-Alzette",
+    "domain": "kayl.lu",
+    "osm_relation_id": 407452
+  },
+  {
+    "id": "LU-0207",
+    "name": "Leudelange",
+    "country": "LU",
+    "region": "Esch-sur-Alzette",
+    "domain": "leudelange.lu",
+    "osm_relation_id": 407467
+  },
+  {
+    "id": "LU-0208",
+    "name": "Mondercange",
+    "country": "LU",
+    "region": "Esch-sur-Alzette",
+    "domain": "mondercange.lu",
+    "osm_relation_id": 407433
+  },
+  {
+    "id": "LU-0209",
+    "name": "Pétange",
+    "country": "LU",
+    "region": "Esch-sur-Alzette",
+    "domain": "petange.lu",
+    "osm_relation_id": 407475
+  },
+  {
+    "id": "LU-0210",
+    "name": "Reckange-sur-Mess",
+    "country": "LU",
+    "region": "Esch-sur-Alzette",
+    "domain": "reckange.lu",
+    "osm_relation_id": 407468
+  },
+  {
+    "id": "LU-0211",
+    "name": "Roeser",
+    "country": "LU",
+    "region": "Esch-sur-Alzette",
+    "domain": "roeser.lu",
+    "osm_relation_id": 407913
+  },
+  {
+    "id": "LU-0212",
+    "name": "Rumelange",
+    "country": "LU",
+    "region": "Esch-sur-Alzette",
+    "domain": "rumelange.lu",
+    "osm_relation_id": 407448
+  },
+  {
+    "id": "LU-0213",
+    "name": "Sanem",
+    "country": "LU",
+    "region": "Esch-sur-Alzette",
+    "domain": "sanem.lu",
+    "osm_relation_id": 407473
+  },
+  {
+    "id": "LU-0214",
+    "name": "Schifflange",
+    "country": "LU",
+    "region": "Esch-sur-Alzette",
+    "domain": "schifflange.lu",
+    "osm_relation_id": 407434
+  },
+  {
+    "id": "LU-0301",
+    "name": "Bertrange",
+    "country": "LU",
+    "region": "Luxembourg",
+    "domain": "bertrange.lu",
+    "osm_relation_id": 407950
+  },
+  {
+    "id": "LU-0302",
+    "name": "Contern",
+    "country": "LU",
+    "region": "Luxembourg",
+    "domain": "contern.lu",
+    "osm_relation_id": 411354
+  },
+  {
+    "id": "LU-0303",
+    "name": "Hesperange",
+    "country": "LU",
+    "region": "Luxembourg",
+    "domain": "hesperange.lu",
+    "osm_relation_id": 410953
+  },
+  {
+    "id": "LU-0304",
+    "name": "Luxembourg",
+    "country": "LU",
+    "region": "Luxembourg",
+    "domain": "vdl.lu",
+    "osm_relation_id": 407489
+  },
+  {
+    "id": "LU-0305",
+    "name": "Niederanven",
+    "country": "LU",
+    "region": "Luxembourg",
+    "domain": "niederanven.lu",
+    "osm_relation_id": 411375
+  },
+  {
+    "id": "LU-0306",
+    "name": "Sandweiler",
+    "country": "LU",
+    "region": "Luxembourg",
+    "domain": "sandweiler.lu",
+    "osm_relation_id": 411344
+  },
+  {
+    "id": "LU-0307",
+    "name": "Schuttrange",
+    "country": "LU",
+    "region": "Luxembourg",
+    "domain": "schuttrange.lu",
+    "osm_relation_id": 411374
+  },
+  {
+    "id": "LU-0308",
+    "name": "Steinsel",
+    "country": "LU",
+    "region": "Luxembourg",
+    "domain": "steinsel.lu",
+    "osm_relation_id": 411391
+  },
+  {
+    "id": "LU-0309",
+    "name": "Strassen",
+    "country": "LU",
+    "region": "Luxembourg",
+    "domain": "strassen.lu",
+    "osm_relation_id": 407944
+  },
+  {
+    "id": "LU-0310",
+    "name": "Walferdange",
+    "country": "LU",
+    "region": "Luxembourg",
+    "domain": "walferdange.lu",
+    "osm_relation_id": 411392
+  },
+  {
+    "id": "LU-0311",
+    "name": "Weiler-la-Tour",
+    "country": "LU",
+    "region": "Luxembourg",
+    "domain": "weiler-la-tour.lu",
+    "osm_relation_id": 410954
+  },
+  {
+    "id": "LU-0401",
+    "name": "Colmar-Berg",
+    "country": "LU",
+    "region": "Mersch",
+    "domain": "colmar-berg.lu",
+    "osm_relation_id": 1333116
+  },
+  {
+    "id": "LU-0402",
+    "name": "Bissen",
+    "country": "LU",
+    "region": "Mersch",
+    "domain": "bissen.lu",
+    "osm_relation_id": 1333114
+  },
+  {
+    "id": "LU-0403",
+    "name": "Helperknapp",
+    "country": "LU",
+    "region": "Mersch",
+    "domain": "helperknapp.lu",
+    "osm_relation_id": 1333122
+  },
+  {
+    "id": "LU-0404",
+    "name": "Fischbach",
+    "country": "LU",
+    "region": "Mersch",
+    "domain": "acfischbach.lu",
+    "osm_relation_id": 1333121
+  },
+  {
+    "id": "LU-0405",
+    "name": "Heffingen",
+    "country": "LU",
+    "region": "Mersch",
+    "domain": "heffingen.lu",
+    "osm_relation_id": 1333119
+  },
+  {
+    "id": "LU-0406",
+    "name": "Larochette",
+    "country": "LU",
+    "region": "Mersch",
+    "domain": "larochette.lu",
+    "osm_relation_id": 1333115
+  },
+  {
+    "id": "LU-0407",
+    "name": "Lintgen",
+    "country": "LU",
+    "region": "Mersch",
+    "domain": "lintgen.lu",
+    "osm_relation_id": 1333120
+  },
+  {
+    "id": "LU-0408",
+    "name": "Lorentzweiler",
+    "country": "LU",
+    "region": "Mersch",
+    "domain": "lorentzweiler.lu",
+    "osm_relation_id": 1333118
+  },
+  {
+    "id": "LU-0409",
+    "name": "Mersch",
+    "country": "LU",
+    "region": "Mersch",
+    "domain": "mersch.lu",
+    "osm_relation_id": 1333112
+  },
+  {
+    "id": "LU-0410",
+    "name": "Nommern",
+    "country": "LU",
+    "region": "Mersch",
+    "domain": "nommern.lu",
+    "osm_relation_id": 1333113
+  },
+  {
+    "id": "LU-0501",
+    "name": "Clervaux",
+    "country": "LU",
+    "region": "Clervaux",
+    "domain": "clervaux.lu",
+    "osm_relation_id": 1353121
+  },
+  {
+    "id": "LU-0502",
+    "name": "Wincrange",
+    "country": "LU",
+    "region": "Clervaux",
+    "domain": "wincrange.lu",
+    "osm_relation_id": 1353118
+  },
+  {
+    "id": "LU-0503",
+    "name": "Parc Hosingen",
+    "country": "LU",
+    "region": "Clervaux",
+    "domain": "hosingen.lu",
+    "osm_relation_id": 1342841
+  },
+  {
+    "id": "LU-0504",
+    "name": "Troisvierges",
+    "country": "LU",
+    "region": "Clervaux",
+    "domain": "troisvierges.lu",
+    "osm_relation_id": 1353102
+  },
+  {
+    "id": "LU-0505",
+    "name": "Weiswampach",
+    "country": "LU",
+    "region": "Clervaux",
+    "domain": "weiswampach.lu",
+    "osm_relation_id": 1353113
+  },
+  {
+    "id": "LU-0601",
+    "name": "Bettendorf",
+    "country": "LU",
+    "region": "Diekirch",
+    "domain": "bettendorf.lu",
+    "osm_relation_id": 1113664
+  },
+  {
+    "id": "LU-0602",
+    "name": "Bourscheid",
+    "country": "LU",
+    "region": "Diekirch",
+    "domain": "bourscheid.lu",
+    "osm_relation_id": 1113661
+  },
+  {
+    "id": "LU-0603",
+    "name": "Diekirch",
+    "country": "LU",
+    "region": "Diekirch",
+    "domain": "diekirch.lu",
+    "osm_relation_id": 1113658
+  },
+  {
+    "id": "LU-0604",
+    "name": "Erpeldange-sur-Sûre",
+    "country": "LU",
+    "region": "Diekirch",
+    "domain": "erpeldange.lu",
+    "osm_relation_id": 1113657
+  },
+  {
+    "id": "LU-0605",
+    "name": "Ettelbruck",
+    "country": "LU",
+    "region": "Diekirch",
+    "domain": "ettelbruck.lu",
+    "osm_relation_id": 1113662
+  },
+  {
+    "id": "LU-0606",
+    "name": "Feulen",
+    "country": "LU",
+    "region": "Diekirch",
+    "domain": "feulen.lu",
+    "osm_relation_id": 1113660
+  },
+  {
+    "id": "LU-0607",
+    "name": "Mertzig",
+    "country": "LU",
+    "region": "Diekirch",
+    "domain": "mertzig.lu",
+    "osm_relation_id": 1113659
+  },
+  {
+    "id": "LU-0608",
+    "name": "Reisdorf",
+    "country": "LU",
+    "region": "Diekirch",
+    "domain": "reisdorf.lu",
+    "osm_relation_id": 569738
+  },
+  {
+    "id": "LU-0609",
+    "name": "Schieren",
+    "country": "LU",
+    "region": "Diekirch",
+    "domain": "schieren.lu",
+    "osm_relation_id": 1113665
+  },
+  {
+    "id": "LU-0610",
+    "name": "Vallée de l'Ernz",
+    "country": "LU",
+    "region": "Diekirch",
+    "domain": "aerenzdall.lu",
+    "osm_relation_id": 1113599
+  },
+  {
+    "id": "LU-0701",
+    "name": "Beckerich",
+    "country": "LU",
+    "region": "Redange",
+    "domain": "beckerich.lu",
+    "osm_relation_id": 1355924
+  },
+  {
+    "id": "LU-0702",
+    "name": "Préizerdaul",
+    "country": "LU",
+    "region": "Redange",
+    "domain": "preizerdaul.lu",
+    "osm_relation_id": 1355222
+  },
+  {
+    "id": "LU-0703",
+    "name": "Ell",
+    "country": "LU",
+    "region": "Redange",
+    "domain": "ell.lu",
+    "osm_relation_id": 1355975
+  },
+  {
+    "id": "LU-0704",
+    "name": "Rambrouch",
+    "country": "LU",
+    "region": "Redange",
+    "domain": "rambrouch.lu",
+    "osm_relation_id": 1356679
+  },
+  {
+    "id": "LU-0706",
+    "name": "Redange-sur-Attert",
+    "country": "LU",
+    "region": "Redange",
+    "domain": "redange.lu",
+    "osm_relation_id": 1356683
+  },
+  {
+    "id": "LU-0707",
+    "name": "Saeul",
+    "country": "LU",
+    "region": "Redange",
+    "domain": "saeul.lu",
+    "osm_relation_id": 1355855
+  },
+  {
+    "id": "LU-0708",
+    "name": "Useldange",
+    "country": "LU",
+    "region": "Redange",
+    "domain": "useldeng.lu",
+    "osm_relation_id": 1355531
+  },
+  {
+    "id": "LU-0709",
+    "name": "Vichten",
+    "country": "LU",
+    "region": "Redange",
+    "domain": "vichten.lu",
+    "osm_relation_id": 1355348
+  },
+  {
+    "id": "LU-0711",
+    "name": "Groussbus-Wal",
+    "country": "LU",
+    "region": "Redange",
+    "domain": "g-w.lu",
+    "osm_relation_id": 1354531
+  },
+  {
+    "id": "LU-0801",
+    "name": "Boulaide",
+    "country": "LU",
+    "region": "Wiltz",
+    "domain": "boulaide.lu",
+    "osm_relation_id": 1356792
+  },
+  {
+    "id": "LU-0802",
+    "name": "Esch-sur-Sûre",
+    "country": "LU",
+    "region": "Wiltz",
+    "domain": "esch-sur-sure.lu",
+    "osm_relation_id": 1356772
+  },
+  {
+    "id": "LU-0804",
+    "name": "Goesdorf",
+    "country": "LU",
+    "region": "Wiltz",
+    "domain": "goesdorf.lu",
+    "osm_relation_id": 1356822
+  },
+  {
+    "id": "LU-0805",
+    "name": "Kiischpelt",
+    "country": "LU",
+    "region": "Wiltz",
+    "domain": "kiischpelt.lu",
+    "osm_relation_id": 1357619
+  },
+  {
+    "id": "LU-0806",
+    "name": "Lac de la Haute-Sûre",
+    "country": "LU",
+    "region": "Wiltz",
+    "domain": "lac-haute-sure.lu",
+    "osm_relation_id": 1357248
+  },
+  {
+    "id": "LU-0807",
+    "name": "Wiltz",
+    "country": "LU",
+    "region": "Wiltz",
+    "domain": "wiltz.lu",
+    "osm_relation_id": 1357531
+  },
+  {
+    "id": "LU-0808",
+    "name": "Winseler",
+    "country": "LU",
+    "region": "Wiltz",
+    "domain": "winseler.lu",
+    "osm_relation_id": 1357539
+  },
+  {
+    "id": "LU-0901",
+    "name": "Tandel",
+    "country": "LU",
+    "region": "Vianden",
+    "domain": "tandel.lu",
+    "osm_relation_id": 1337083
+  },
+  {
+    "id": "LU-0902",
+    "name": "Putscheid",
+    "country": "LU",
+    "region": "Vianden",
+    "domain": "putscheid.lu",
+    "osm_relation_id": 1337085
+  },
+  {
+    "id": "LU-0903",
+    "name": "Vianden",
+    "country": "LU",
+    "region": "Vianden",
+    "domain": "vianden.lu",
+    "osm_relation_id": 1337084
+  },
+  {
+    "id": "LU-1001",
+    "name": "Beaufort",
+    "country": "LU",
+    "region": "Echternach",
+    "domain": "beaufort.lu",
+    "osm_relation_id": 569734
+  },
+  {
+    "id": "LU-1002",
+    "name": "Bech",
+    "country": "LU",
+    "region": "Echternach",
+    "domain": "bech.lu",
+    "osm_relation_id": 569736
+  },
+  {
+    "id": "LU-1003",
+    "name": "Berdorf",
+    "country": "LU",
+    "region": "Echternach",
+    "domain": "berdorf.lu",
+    "osm_relation_id": 569737
+  },
+  {
+    "id": "LU-1004",
+    "name": "Consdorf",
+    "country": "LU",
+    "region": "Echternach",
+    "domain": "consdorf.lu",
+    "osm_relation_id": 569735
+  },
+  {
+    "id": "LU-1005",
+    "name": "Echternach",
+    "country": "LU",
+    "region": "Echternach",
+    "domain": "echternach.lu",
+    "osm_relation_id": 569741
+  },
+  {
+    "id": "LU-1006",
+    "name": "Rosport-Mompach",
+    "country": "LU",
+    "region": "Echternach",
+    "domain": "rosportmompach.lu",
+    "osm_relation_id": 569739
+  },
+  {
+    "id": "LU-1008",
+    "name": "Waldbillig",
+    "country": "LU",
+    "region": "Echternach",
+    "domain": "waldbillig.lu",
+    "osm_relation_id": 569742
+  },
+  {
+    "id": "LU-1101",
+    "name": "Betzdorf",
+    "country": "LU",
+    "region": "Grevenmacher",
+    "domain": "betzdorf.lu",
+    "osm_relation_id": 532142
+  },
+  {
+    "id": "LU-1102",
+    "name": "Biwer",
+    "country": "LU",
+    "region": "Grevenmacher",
+    "domain": "biwer.lu",
+    "osm_relation_id": 532144
+  },
+  {
+    "id": "LU-1103",
+    "name": "Flaxweiler",
+    "country": "LU",
+    "region": "Grevenmacher",
+    "domain": "flaxweiler.lu",
+    "osm_relation_id": 532140
+  },
+  {
+    "id": "LU-1104",
+    "name": "Grevenmacher",
+    "country": "LU",
+    "region": "Grevenmacher",
+    "domain": "grevenmacher.lu",
+    "osm_relation_id": 532141
+  },
+  {
+    "id": "LU-1105",
+    "name": "Junglinster",
+    "country": "LU",
+    "region": "Grevenmacher",
+    "domain": "junglinster.lu",
+    "osm_relation_id": 532143
+  },
+  {
+    "id": "LU-1106",
+    "name": "Manternach",
+    "country": "LU",
+    "region": "Grevenmacher",
+    "domain": "manternach.lu",
+    "osm_relation_id": 532177
+  },
+  {
+    "id": "LU-1107",
+    "name": "Mertert",
+    "country": "LU",
+    "region": "Grevenmacher",
+    "domain": "mertert.lu",
+    "osm_relation_id": 532178
+  },
+  {
+    "id": "LU-1108",
+    "name": "Wormeldange",
+    "country": "LU",
+    "region": "Grevenmacher",
+    "domain": "wormeldange.lu",
+    "osm_relation_id": 532139
+  },
+  {
+    "id": "LU-1202",
+    "name": "Dalheim",
+    "country": "LU",
+    "region": "Remich",
+    "domain": "dalheim.lu",
+    "osm_relation_id": 407499
+  },
+  {
+    "id": "LU-1203",
+    "name": "Lenningen",
+    "country": "LU",
+    "region": "Remich",
+    "domain": "lenningen.lu",
+    "osm_relation_id": 407778
+  },
+  {
+    "id": "LU-1204",
+    "name": "Mondorf-les-Bains",
+    "country": "LU",
+    "region": "Remich",
+    "domain": "mondorf-les-bains.lu",
+    "osm_relation_id": 407732
+  },
+  {
+    "id": "LU-1205",
+    "name": "Remich",
+    "country": "LU",
+    "region": "Remich",
+    "domain": "remich.lu",
+    "osm_relation_id": 407503
+  },
+  {
+    "id": "LU-1206",
+    "name": "Schengen",
+    "country": "LU",
+    "region": "Remich",
+    "domain": "schengen.lu",
+    "osm_relation_id": 407741
+  },
+  {
+    "id": "LU-1207",
+    "name": "Stadtbredimus",
+    "country": "LU",
+    "region": "Remich",
+    "domain": "stadtbredimus.lu",
+    "osm_relation_id": 407502
+  },
+  {
+    "id": "LU-1209",
+    "name": "Bous-Waldbredimus",
+    "country": "LU",
+    "region": "Remich",
+    "domain": "bouswaldbredimus.lu",
+    "osm_relation_id": 407500
+  }
+]
