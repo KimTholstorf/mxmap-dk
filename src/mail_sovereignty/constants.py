@@ -62,6 +62,7 @@ SKIP_DOMAINS = {
     "example.no",
     "example.se",
     "example.de",
+    "example.dk",
     "kommune.no",
     "sentry.io",
     "w3.org",
@@ -216,6 +217,9 @@ LOCAL_ISP_ASNS: dict[int, str] = {
     15817: "WOBCOM (DE)",
     34788: "NM-NET (DE)",
     8820: "TAL.de (DE)",
+    # Denmark
+    3292: "TDC/Nuuday (DK)",
+    3308: "TDC NET (DK)",
 }
 
 CONCURRENCY = 20

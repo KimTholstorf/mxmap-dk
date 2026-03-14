@@ -1,0 +1,786 @@
+[
+  {
+    "id": "DK-101",
+    "name": "København",
+    "country": "DK",
+    "region": "Hovedstaden",
+    "domain": "kk.dk",
+    "osm_relation_id": 2192363
+  },
+  {
+    "id": "DK-147",
+    "name": "Frederiksberg",
+    "country": "DK",
+    "region": "Hovedstaden",
+    "domain": "frederiksberg.dk",
+    "osm_relation_id": 2186660
+  },
+  {
+    "id": "DK-151",
+    "name": "Ballerup",
+    "country": "DK",
+    "region": "Hovedstaden",
+    "domain": "ballerup.dk",
+    "osm_relation_id": 2191541
+  },
+  {
+    "id": "DK-153",
+    "name": "Brøndby",
+    "country": "DK",
+    "region": "Hovedstaden",
+    "domain": "brondby.dk",
+    "osm_relation_id": 2192190
+  },
+  {
+    "id": "DK-155",
+    "name": "Dragør",
+    "country": "DK",
+    "region": "Hovedstaden",
+    "domain": "dragoer.dk",
+    "osm_relation_id": 2192257
+  },
+  {
+    "id": "DK-157",
+    "name": "Gentofte",
+    "country": "DK",
+    "region": "Hovedstaden",
+    "domain": "gentofte.dk",
+    "osm_relation_id": 2182231
+  },
+  {
+    "id": "DK-159",
+    "name": "Gladsaxe",
+    "country": "DK",
+    "region": "Hovedstaden",
+    "domain": "gladsaxe.dk",
+    "osm_relation_id": 2186643
+  },
+  {
+    "id": "DK-161",
+    "name": "Glostrup",
+    "country": "DK",
+    "region": "Hovedstaden",
+    "domain": "glostrup.dk",
+    "osm_relation_id": 2190423
+  },
+  {
+    "id": "DK-163",
+    "name": "Herlev",
+    "country": "DK",
+    "region": "Hovedstaden",
+    "domain": "herlev.dk",
+    "osm_relation_id": 2191207
+  },
+  {
+    "id": "DK-165",
+    "name": "Albertslund",
+    "country": "DK",
+    "region": "Hovedstaden",
+    "domain": "albertslund.dk",
+    "osm_relation_id": 2190242
+  },
+  {
+    "id": "DK-167",
+    "name": "Hvidovre",
+    "country": "DK",
+    "region": "Hovedstaden",
+    "domain": "hvidovre.dk",
+    "osm_relation_id": 2192198
+  },
+  {
+    "id": "DK-169",
+    "name": "Høje-Taastrup",
+    "country": "DK",
+    "region": "Hovedstaden",
+    "domain": "htk.dk",
+    "osm_relation_id": 2189104
+  },
+  {
+    "id": "DK-173",
+    "name": "Lyngby-Taarbæk",
+    "country": "DK",
+    "region": "Hovedstaden",
+    "domain": "ltk.dk",
+    "osm_relation_id": 2183062
+  },
+  {
+    "id": "DK-175",
+    "name": "Rødovre",
+    "country": "DK",
+    "region": "Hovedstaden",
+    "domain": "rk.dk",
+    "osm_relation_id": 2191218
+  },
+  {
+    "id": "DK-183",
+    "name": "Ishøj",
+    "country": "DK",
+    "region": "Hovedstaden",
+    "domain": "ishoj.dk",
+    "osm_relation_id": 2187055
+  },
+  {
+    "id": "DK-185",
+    "name": "Tårnby",
+    "country": "DK",
+    "region": "Hovedstaden",
+    "domain": "taarnby.dk",
+    "osm_relation_id": 2192292
+  },
+  {
+    "id": "DK-187",
+    "name": "Vallensbæk",
+    "country": "DK",
+    "region": "Hovedstaden",
+    "domain": "vallensbaek.dk",
+    "osm_relation_id": 2187129
+  },
+  {
+    "id": "DK-190",
+    "name": "Furesø",
+    "country": "DK",
+    "region": "Hovedstaden",
+    "domain": "furesoe.dk",
+    "osm_relation_id": 2191552
+  },
+  {
+    "id": "DK-201",
+    "name": "Allerød",
+    "country": "DK",
+    "region": "Hovedstaden",
+    "domain": "alleroed.dk",
+    "osm_relation_id": 2190809
+  },
+  {
+    "id": "DK-210",
+    "name": "Fredensborg",
+    "country": "DK",
+    "region": "Hovedstaden",
+    "domain": "fredensborg.dk",
+    "osm_relation_id": 2190810
+  },
+  {
+    "id": "DK-217",
+    "name": "Helsingør",
+    "country": "DK",
+    "region": "Hovedstaden",
+    "domain": "helsingor.dk",
+    "osm_relation_id": 2183329
+  },
+  {
+    "id": "DK-219",
+    "name": "Hillerød",
+    "country": "DK",
+    "region": "Hovedstaden",
+    "domain": "hillerod.dk",
+    "osm_relation_id": 2190536
+  },
+  {
+    "id": "DK-223",
+    "name": "Hørsholm",
+    "country": "DK",
+    "region": "Hovedstaden",
+    "domain": "horsholm.dk",
+    "osm_relation_id": 2190811
+  },
+  {
+    "id": "DK-230",
+    "name": "Rudersdal",
+    "country": "DK",
+    "region": "Hovedstaden",
+    "domain": "rudersdal.dk",
+    "osm_relation_id": 2191577
+  },
+  {
+    "id": "DK-240",
+    "name": "Egedal",
+    "country": "DK",
+    "region": "Hovedstaden",
+    "domain": "egedalkommune.dk",
+    "osm_relation_id": 2191512
+  },
+  {
+    "id": "DK-250",
+    "name": "Frederikssund",
+    "country": "DK",
+    "region": "Hovedstaden",
+    "domain": "frederikssund.dk",
+    "osm_relation_id": 2190432
+  },
+  {
+    "id": "DK-253",
+    "name": "Greve",
+    "country": "DK",
+    "region": "Sjælland",
+    "domain": "greve.dk",
+    "osm_relation_id": 2180074
+  },
+  {
+    "id": "DK-259",
+    "name": "Køge",
+    "country": "DK",
+    "region": "Sjælland",
+    "domain": "koege.dk",
+    "osm_relation_id": 2181308
+  },
+  {
+    "id": "DK-260",
+    "name": "Halsnæs",
+    "country": "DK",
+    "region": "Hovedstaden",
+    "domain": "halsnaes.dk",
+    "osm_relation_id": 2183213
+  },
+  {
+    "id": "DK-265",
+    "name": "Roskilde",
+    "country": "DK",
+    "region": "Sjælland",
+    "domain": "roskilde.dk",
+    "osm_relation_id": 2180326
+  },
+  {
+    "id": "DK-269",
+    "name": "Solrød",
+    "country": "DK",
+    "region": "Sjælland",
+    "domain": "solrod.dk",
+    "osm_relation_id": 2180143
+  },
+  {
+    "id": "DK-270",
+    "name": "Gribskov",
+    "country": "DK",
+    "region": "Hovedstaden",
+    "domain": "gribskov.dk",
+    "osm_relation_id": 2186270
+  },
+  {
+    "id": "DK-306",
+    "name": "Odsherred",
+    "country": "DK",
+    "region": "Sjælland",
+    "domain": "odsherred.dk",
+    "osm_relation_id": 2180212
+  },
+  {
+    "id": "DK-316",
+    "name": "Holbæk",
+    "country": "DK",
+    "region": "Sjælland",
+    "domain": "holbaek.dk",
+    "osm_relation_id": 2181932
+  },
+  {
+    "id": "DK-320",
+    "name": "Faxe",
+    "country": "DK",
+    "region": "Sjælland",
+    "domain": "faxekommune.dk",
+    "osm_relation_id": 2181377
+  },
+  {
+    "id": "DK-326",
+    "name": "Kalundborg",
+    "country": "DK",
+    "region": "Sjælland",
+    "domain": "kalundborg.dk",
+    "osm_relation_id": 2182002
+  },
+  {
+    "id": "DK-329",
+    "name": "Ringsted",
+    "country": "DK",
+    "region": "Sjælland",
+    "domain": "ringsted.dk",
+    "osm_relation_id": 2181892
+  },
+  {
+    "id": "DK-330",
+    "name": "Slagelse",
+    "country": "DK",
+    "region": "Sjælland",
+    "domain": "slagelse.dk",
+    "osm_relation_id": 2181847
+  },
+  {
+    "id": "DK-336",
+    "name": "Stevns",
+    "country": "DK",
+    "region": "Sjælland",
+    "domain": "stevns.dk",
+    "osm_relation_id": 2077580
+  },
+  {
+    "id": "DK-340",
+    "name": "Sorø",
+    "country": "DK",
+    "region": "Sjælland",
+    "domain": "soroe.dk",
+    "osm_relation_id": 2181974
+  },
+  {
+    "id": "DK-350",
+    "name": "Lejre",
+    "country": "DK",
+    "region": "Sjælland",
+    "domain": "lejre.dk",
+    "osm_relation_id": 2181225
+  },
+  {
+    "id": "DK-360",
+    "name": "Lolland",
+    "country": "DK",
+    "region": "Sjælland",
+    "domain": "lolland.dk",
+    "osm_relation_id": 2171050
+  },
+  {
+    "id": "DK-370",
+    "name": "Næstved",
+    "country": "DK",
+    "region": "Sjælland",
+    "domain": "naestved.dk",
+    "osm_relation_id": 2181494
+  },
+  {
+    "id": "DK-376",
+    "name": "Guldborgsund",
+    "country": "DK",
+    "region": "Sjælland",
+    "domain": "guldborgsund.dk",
+    "osm_relation_id": 2171069
+  },
+  {
+    "id": "DK-390",
+    "name": "Vordingborg",
+    "country": "DK",
+    "region": "Sjælland",
+    "domain": "vordingborg.dk",
+    "osm_relation_id": 2171256
+  },
+  {
+    "id": "DK-400",
+    "name": "Bornholm",
+    "country": "DK",
+    "region": "Hovedstaden",
+    "domain": "brk.dk",
+    "osm_relation_id": 2922374
+  },
+  {
+    "id": "DK-410",
+    "name": "Middelfart",
+    "country": "DK",
+    "region": "Syddanmark",
+    "domain": "middelfart.dk",
+    "osm_relation_id": 2178063
+  },
+  {
+    "id": "DK-420",
+    "name": "Assens",
+    "country": "DK",
+    "region": "Syddanmark",
+    "domain": "assens.dk",
+    "osm_relation_id": 2178091
+  },
+  {
+    "id": "DK-430",
+    "name": "Faaborg-Midtfyn",
+    "country": "DK",
+    "region": "Syddanmark",
+    "domain": "fmk.dk",
+    "osm_relation_id": 2052179
+  },
+  {
+    "id": "DK-440",
+    "name": "Kerteminde",
+    "country": "DK",
+    "region": "Syddanmark",
+    "domain": "kerteminde.dk",
+    "osm_relation_id": 2171010
+  },
+  {
+    "id": "DK-450",
+    "name": "Nyborg",
+    "country": "DK",
+    "region": "Syddanmark",
+    "domain": "nyborg.dk",
+    "osm_relation_id": 2077936
+  },
+  {
+    "id": "DK-461",
+    "name": "Odense",
+    "country": "DK",
+    "region": "Syddanmark",
+    "domain": "odense.dk",
+    "osm_relation_id": 2178124
+  },
+  {
+    "id": "DK-479",
+    "name": "Svendborg",
+    "country": "DK",
+    "region": "Syddanmark",
+    "domain": "svendborg.dk",
+    "osm_relation_id": 2069804
+  },
+  {
+    "id": "DK-480",
+    "name": "Nordfyns",
+    "country": "DK",
+    "region": "Syddanmark",
+    "domain": "nordfynskommune.dk",
+    "osm_relation_id": 2178137
+  },
+  {
+    "id": "DK-482",
+    "name": "Langeland",
+    "country": "DK",
+    "region": "Syddanmark",
+    "domain": "langelandkommune.dk",
+    "osm_relation_id": 2096607
+  },
+  {
+    "id": "DK-492",
+    "name": "Ærø",
+    "country": "DK",
+    "region": "Syddanmark",
+    "domain": "aeroekommune.dk",
+    "osm_relation_id": 2096457
+  },
+  {
+    "id": "DK-510",
+    "name": "Haderslev",
+    "country": "DK",
+    "region": "Syddanmark",
+    "domain": "haderslev.dk",
+    "osm_relation_id": 1927271
+  },
+  {
+    "id": "DK-530",
+    "name": "Billund",
+    "country": "DK",
+    "region": "Syddanmark",
+    "domain": "billund.dk",
+    "osm_relation_id": 1801753
+  },
+  {
+    "id": "DK-540",
+    "name": "Sønderborg",
+    "country": "DK",
+    "region": "Syddanmark",
+    "domain": "sonderborgkommune.dk",
+    "osm_relation_id": 1928254
+  },
+  {
+    "id": "DK-550",
+    "name": "Tønder",
+    "country": "DK",
+    "region": "Syddanmark",
+    "domain": "toender.dk",
+    "osm_relation_id": 1928515
+  },
+  {
+    "id": "DK-561",
+    "name": "Esbjerg",
+    "country": "DK",
+    "region": "Syddanmark",
+    "domain": "esbjerg.dk",
+    "osm_relation_id": 1927177
+  },
+  {
+    "id": "DK-563",
+    "name": "Fanø",
+    "country": "DK",
+    "region": "Syddanmark",
+    "domain": "fanoe.dk",
+    "osm_relation_id": 1926825
+  },
+  {
+    "id": "DK-573",
+    "name": "Varde",
+    "country": "DK",
+    "region": "Syddanmark",
+    "domain": "vardekommune.dk",
+    "osm_relation_id": 1926826
+  },
+  {
+    "id": "DK-575",
+    "name": "Vejen",
+    "country": "DK",
+    "region": "Syddanmark",
+    "domain": "vejen.dk",
+    "osm_relation_id": 1927241
+  },
+  {
+    "id": "DK-580",
+    "name": "Aabenraa",
+    "country": "DK",
+    "region": "Syddanmark",
+    "domain": "aabenraa.dk",
+    "osm_relation_id": 1928466
+  },
+  {
+    "id": "DK-607",
+    "name": "Fredericia",
+    "country": "DK",
+    "region": "Syddanmark",
+    "domain": "fredericia.dk",
+    "osm_relation_id": 1799261
+  },
+  {
+    "id": "DK-615",
+    "name": "Horsens",
+    "country": "DK",
+    "region": "Midtjylland",
+    "domain": "horsens.dk",
+    "osm_relation_id": 153358
+  },
+  {
+    "id": "DK-621",
+    "name": "Kolding",
+    "country": "DK",
+    "region": "Syddanmark",
+    "domain": "kolding.dk",
+    "osm_relation_id": 1819983
+  },
+  {
+    "id": "DK-630",
+    "name": "Vejle",
+    "country": "DK",
+    "region": "Syddanmark",
+    "domain": "vejle.dk",
+    "osm_relation_id": 1618492
+  },
+  {
+    "id": "DK-657",
+    "name": "Herning",
+    "country": "DK",
+    "region": "Midtjylland",
+    "domain": "herning.dk",
+    "osm_relation_id": 1927508
+  },
+  {
+    "id": "DK-661",
+    "name": "Holstebro",
+    "country": "DK",
+    "region": "Midtjylland",
+    "domain": "holstebro.dk",
+    "osm_relation_id": 1927494
+  },
+  {
+    "id": "DK-665",
+    "name": "Lemvig",
+    "country": "DK",
+    "region": "Midtjylland",
+    "domain": "lemvig.dk",
+    "osm_relation_id": 1927043
+  },
+  {
+    "id": "DK-671",
+    "name": "Struer",
+    "country": "DK",
+    "region": "Midtjylland",
+    "domain": "struer.dk",
+    "osm_relation_id": 1927247
+  },
+  {
+    "id": "DK-706",
+    "name": "Syddjurs",
+    "country": "DK",
+    "region": "Midtjylland",
+    "domain": "syddjurs.dk",
+    "osm_relation_id": 1926255
+  },
+  {
+    "id": "DK-707",
+    "name": "Norddjurs",
+    "country": "DK",
+    "region": "Midtjylland",
+    "domain": "norddjurs.dk",
+    "osm_relation_id": 1926320
+  },
+  {
+    "id": "DK-710",
+    "name": "Favrskov",
+    "country": "DK",
+    "region": "Midtjylland",
+    "domain": "favrskov.dk",
+    "osm_relation_id": 1926217
+  },
+  {
+    "id": "DK-727",
+    "name": "Odder",
+    "country": "DK",
+    "region": "Midtjylland",
+    "domain": "odder.dk",
+    "osm_relation_id": 1614622
+  },
+  {
+    "id": "DK-730",
+    "name": "Randers",
+    "country": "DK",
+    "region": "Midtjylland",
+    "domain": "randers.dk",
+    "osm_relation_id": 1926381
+  },
+  {
+    "id": "DK-740",
+    "name": "Silkeborg",
+    "country": "DK",
+    "region": "Midtjylland",
+    "domain": "silkeborg.dk",
+    "osm_relation_id": 1926837
+  },
+  {
+    "id": "DK-741",
+    "name": "Samsø",
+    "country": "DK",
+    "region": "Midtjylland",
+    "domain": "samsoe.dk",
+    "osm_relation_id": 1933205
+  },
+  {
+    "id": "DK-746",
+    "name": "Skanderborg",
+    "country": "DK",
+    "region": "Midtjylland",
+    "domain": "skanderborg.dk",
+    "osm_relation_id": 1784660
+  },
+  {
+    "id": "DK-751",
+    "name": "Aarhus",
+    "country": "DK",
+    "region": "Midtjylland",
+    "domain": "aarhus.dk",
+    "osm_relation_id": 1784663
+  },
+  {
+    "id": "DK-756",
+    "name": "Ikast-Brande",
+    "country": "DK",
+    "region": "Midtjylland",
+    "domain": "ikast-brande.dk",
+    "osm_relation_id": 1805401
+  },
+  {
+    "id": "DK-760",
+    "name": "Ringkøbing-Skjern",
+    "country": "DK",
+    "region": "Midtjylland",
+    "domain": "rksk.dk",
+    "osm_relation_id": 1927503
+  },
+  {
+    "id": "DK-766",
+    "name": "Hedensted",
+    "country": "DK",
+    "region": "Midtjylland",
+    "domain": "hedensted.dk",
+    "osm_relation_id": 1614531
+  },
+  {
+    "id": "DK-773",
+    "name": "Morsø",
+    "country": "DK",
+    "region": "Nordjylland",
+    "domain": "morsoe.dk",
+    "osm_relation_id": 2095234
+  },
+  {
+    "id": "DK-779",
+    "name": "Skive",
+    "country": "DK",
+    "region": "Midtjylland",
+    "domain": "skive.dk",
+    "osm_relation_id": 1926905
+  },
+  {
+    "id": "DK-787",
+    "name": "Thisted",
+    "country": "DK",
+    "region": "Nordjylland",
+    "domain": "thisted.dk",
+    "osm_relation_id": 2930285
+  },
+  {
+    "id": "DK-791",
+    "name": "Viborg",
+    "country": "DK",
+    "region": "Midtjylland",
+    "domain": "viborg.dk",
+    "osm_relation_id": 1926898
+  },
+  {
+    "id": "DK-810",
+    "name": "Brønderslev",
+    "country": "DK",
+    "region": "Nordjylland",
+    "domain": "bronderslev.dk",
+    "osm_relation_id": 2099125
+  },
+  {
+    "id": "DK-813",
+    "name": "Frederikshavn",
+    "country": "DK",
+    "region": "Nordjylland",
+    "domain": "frederikshavn.dk",
+    "osm_relation_id": 2077615
+  },
+  {
+    "id": "DK-820",
+    "name": "Vesthimmerland",
+    "country": "DK",
+    "region": "Nordjylland",
+    "domain": "vesthimmerland.dk",
+    "osm_relation_id": 2099325
+  },
+  {
+    "id": "DK-825",
+    "name": "Læsø",
+    "country": "DK",
+    "region": "Nordjylland",
+    "domain": "laesoe.dk",
+    "osm_relation_id": 2097968
+  },
+  {
+    "id": "DK-840",
+    "name": "Rebild",
+    "country": "DK",
+    "region": "Nordjylland",
+    "domain": "rebild.dk",
+    "osm_relation_id": 2099375
+  },
+  {
+    "id": "DK-846",
+    "name": "Mariagerfjord",
+    "country": "DK",
+    "region": "Nordjylland",
+    "domain": "mariagerfjord.dk",
+    "osm_relation_id": 2099390
+  },
+  {
+    "id": "DK-849",
+    "name": "Jammerbugt",
+    "country": "DK",
+    "region": "Nordjylland",
+    "domain": "jammerbugt.dk",
+    "osm_relation_id": 2098963
+  },
+  {
+    "id": "DK-851",
+    "name": "Aalborg",
+    "country": "DK",
+    "region": "Nordjylland",
+    "domain": "aalborg.dk",
+    "osm_relation_id": 2099194
+  },
+  {
+    "id": "DK-860",
+    "name": "Hjørring",
+    "country": "DK",
+    "region": "Nordjylland",
+    "domain": "hjoerring.dk",
+    "osm_relation_id": 2098067
+  }
+]

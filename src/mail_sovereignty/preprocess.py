@@ -31,6 +31,7 @@ SEED_FILES = {
     "NO": "municipalities_no.json",
     "SE": "municipalities_se.json",
     "DE": "municipalities_de.json",
+    "DK": "municipalities_dk.json",
 }
 
 
@@ -90,6 +91,16 @@ def guess_domains(name: str, country: str = "") -> list[str]:
 
     slugs = {slugify(clean), slugify(raw)} - {""}
 
+    # Danish convention: å→aa, ø→oe (e.g., Aabenraa, Aalborg)
+    if country == "DK" or not country:
+        danish_translits = [("å", "aa"), ("ø", "oe")]
+        dk_clean = raw
+        for a, b in danish_translits:
+            dk_clean = dk_clean.replace(a, b)
+        dk_slug = slugify(dk_clean)
+        if dk_slug:
+            slugs.add(dk_slug)
+
     # German umlaut expansion (ä→ae, ö→oe, ü→ue, ß→ss)
     if country == "DE" or not country:
         german_translits = [("ä", "ae"), ("ö", "oe"), ("ü", "ue"), ("ß", "ss")]
@@ -101,8 +112,8 @@ def guess_domains(name: str, country: str = "") -> list[str]:
             slugs.add(de_slug)
 
     # Determine TLDs based on country
-    tld_map = {"EE": [".ee"], "LV": [".lv"], "LT": [".lt"], "FI": [".fi"], "NO": [".no", ".kommune.no"], "SE": [".se"], "DE": [".de"]}
-    tlds = tld_map.get(country, [".ee", ".lv", ".lt", ".fi", ".no", ".se", ".de"])
+    tld_map = {"EE": [".ee"], "LV": [".lv"], "LT": [".lt"], "FI": [".fi"], "NO": [".no", ".kommune.no"], "SE": [".se"], "DE": [".de"], "DK": [".dk"]}
+    tlds = tld_map.get(country, [".ee", ".lv", ".lt", ".fi", ".no", ".se", ".de", ".dk"])
 
     candidates = set()
     for slug in slugs:

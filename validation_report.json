@@ -1,7 +1,7 @@
 {
-  "total": 1537,
+  "total": 1635,
   "average_score": 89.6,
-  "high_confidence_pct": 91.3,
+  "high_confidence_pct": 90.9,
   "quality_passed": true,
   "entries": {
     "DE-01001": {
@@ -4593,6 +4593,1193 @@
       "name": "Landkreis Altenburger Land",
       "provider": "independent",
       "domain": "altenburgerland.de",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DK-101": {
+      "name": "København",
+      "provider": "microsoft",
+      "domain": "kk.dk",
+      "confidence": 95,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-147": {
+      "name": "Frederiksberg",
+      "provider": "microsoft",
+      "domain": "frederiksberg.dk",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DK-151": {
+      "name": "Ballerup",
+      "provider": "microsoft",
+      "domain": "balk.dk",
+      "confidence": 70,
+      "flags": [
+        "spf_strict",
+        "provider_classified"
+      ]
+    },
+    "DK-153": {
+      "name": "Brøndby",
+      "provider": "microsoft",
+      "domain": "brondby.dk",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DK-155": {
+      "name": "Dragør",
+      "provider": "local-isp",
+      "domain": "dragoer.dk",
+      "confidence": 85,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DK-157": {
+      "name": "Gentofte",
+      "provider": "independent",
+      "domain": "gentofte.dk",
+      "confidence": 83,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "provider_via_gateway_spf"
+      ]
+    },
+    "DK-159": {
+      "name": "Gladsaxe",
+      "provider": "microsoft",
+      "domain": "gladsaxe.dk",
+      "confidence": 100,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-161": {
+      "name": "Glostrup",
+      "provider": "microsoft",
+      "domain": "glostrup.dk",
+      "confidence": 100,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-163": {
+      "name": "Herlev",
+      "provider": "microsoft",
+      "domain": "herlev.dk",
+      "confidence": 88,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DK-165": {
+      "name": "Albertslund",
+      "provider": "microsoft",
+      "domain": "albertslund.dk",
+      "confidence": 95,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-167": {
+      "name": "Hvidovre",
+      "provider": "microsoft",
+      "domain": "hvidovre.dk",
+      "confidence": 100,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-169": {
+      "name": "Høje-Taastrup",
+      "provider": "microsoft",
+      "domain": "htk.dk",
+      "confidence": 85,
+      "flags": [
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-173": {
+      "name": "Lyngby-Taarbæk",
+      "provider": "microsoft",
+      "domain": "ltk.dk",
+      "confidence": 95,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-175": {
+      "name": "Rødovre",
+      "provider": "microsoft",
+      "domain": "rk.dk",
+      "confidence": 100,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-183": {
+      "name": "Ishøj",
+      "provider": "local-isp",
+      "domain": "ishoj.dk",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DK-185": {
+      "name": "Tårnby",
+      "provider": "microsoft",
+      "domain": "taarnby.dk",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DK-187": {
+      "name": "Vallensbæk",
+      "provider": "microsoft",
+      "domain": "vallensbaek.dk",
+      "confidence": 90,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-190": {
+      "name": "Furesø",
+      "provider": "microsoft",
+      "domain": "furesoe.dk",
+      "confidence": 70,
+      "flags": [
+        "spf_strict",
+        "provider_classified"
+      ]
+    },
+    "DK-201": {
+      "name": "Allerød",
+      "provider": "microsoft",
+      "domain": "alleroed.dk",
+      "confidence": 70,
+      "flags": [
+        "spf_strict",
+        "provider_classified"
+      ]
+    },
+    "DK-210": {
+      "name": "Fredensborg",
+      "provider": "microsoft",
+      "domain": "fredensborg.dk",
+      "confidence": 75,
+      "flags": [
+        "spf_strict",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-217": {
+      "name": "Helsingør",
+      "provider": "microsoft",
+      "domain": "helsingor.dk",
+      "confidence": 85,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DK-219": {
+      "name": "Hillerød",
+      "provider": "microsoft",
+      "domain": "hillerod.dk",
+      "confidence": 95,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-223": {
+      "name": "Hørsholm",
+      "provider": "microsoft",
+      "domain": "horsholm.dk",
+      "confidence": 95,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-230": {
+      "name": "Rudersdal",
+      "provider": "microsoft",
+      "domain": "rudersdal.dk",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
+      ]
+    },
+    "DK-240": {
+      "name": "Egedal",
+      "provider": "independent",
+      "domain": "egedalkommune.dk",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
+      ]
+    },
+    "DK-250": {
+      "name": "Frederikssund",
+      "provider": "microsoft",
+      "domain": "frederikssund.dk",
+      "confidence": 85,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DK-253": {
+      "name": "Greve",
+      "provider": "microsoft",
+      "domain": "greve.dk",
+      "confidence": 95,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-259": {
+      "name": "Køge",
+      "provider": "microsoft",
+      "domain": "koege.dk",
+      "confidence": 95,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-260": {
+      "name": "Halsnæs",
+      "provider": "independent",
+      "domain": "halsnaes.dk",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
+      ]
+    },
+    "DK-265": {
+      "name": "Roskilde",
+      "provider": "local-isp",
+      "domain": "roskilde.dk",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DK-269": {
+      "name": "Solrød",
+      "provider": "microsoft",
+      "domain": "solrod.dk",
+      "confidence": 95,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-270": {
+      "name": "Gribskov",
+      "provider": "microsoft",
+      "domain": "gribskov.dk",
+      "confidence": 90,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-306": {
+      "name": "Odsherred",
+      "provider": "microsoft",
+      "domain": "odsherred.dk",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DK-316": {
+      "name": "Holbæk",
+      "provider": "independent",
+      "domain": "holbaek.dk",
+      "confidence": 50,
+      "flags": [
+        "no_spf",
+        "provider_classified"
+      ]
+    },
+    "DK-320": {
+      "name": "Faxe",
+      "provider": "local-isp",
+      "domain": "faxekommune.dk",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DK-326": {
+      "name": "Kalundborg",
+      "provider": "microsoft",
+      "domain": "kalundborg.dk",
+      "confidence": 75,
+      "flags": [
+        "spf_strict",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-329": {
+      "name": "Ringsted",
+      "provider": "independent",
+      "domain": "ringsted.dk",
+      "confidence": 80,
+      "flags": [
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DK-330": {
+      "name": "Slagelse",
+      "provider": "local-isp",
+      "domain": "slagelse.dk",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DK-336": {
+      "name": "Stevns",
+      "provider": "microsoft",
+      "domain": "stevns.dk",
+      "confidence": 90,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-340": {
+      "name": "Sorø",
+      "provider": "microsoft",
+      "domain": "soroe.dk",
+      "confidence": 100,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-350": {
+      "name": "Lejre",
+      "provider": "microsoft",
+      "domain": "lejre.dk",
+      "confidence": 100,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-360": {
+      "name": "Lolland",
+      "provider": "microsoft",
+      "domain": "lolland.dk",
+      "confidence": 75,
+      "flags": [
+        "spf_strict",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-370": {
+      "name": "Næstved",
+      "provider": "microsoft",
+      "domain": "naestved.dk",
+      "confidence": 95,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-376": {
+      "name": "Guldborgsund",
+      "provider": "microsoft",
+      "domain": "guldborgsund.dk",
+      "confidence": 95,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-390": {
+      "name": "Vordingborg",
+      "provider": "microsoft",
+      "domain": "vordingborg.dk",
+      "confidence": 100,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-400": {
+      "name": "Bornholm",
+      "provider": "microsoft",
+      "domain": "brk.dk",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DK-410": {
+      "name": "Middelfart",
+      "provider": "microsoft",
+      "domain": "middelfart.dk",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DK-420": {
+      "name": "Assens",
+      "provider": "local-isp",
+      "domain": "assens.dk",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DK-430": {
+      "name": "Faaborg-Midtfyn",
+      "provider": "microsoft",
+      "domain": "fmk.dk",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DK-440": {
+      "name": "Kerteminde",
+      "provider": "microsoft",
+      "domain": "kerteminde.dk",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DK-450": {
+      "name": "Nyborg",
+      "provider": "microsoft",
+      "domain": "nyborg.dk",
+      "confidence": 100,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-461": {
+      "name": "Odense",
+      "provider": "microsoft",
+      "domain": "odense.dk",
+      "confidence": 95,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-479": {
+      "name": "Svendborg",
+      "provider": "microsoft",
+      "domain": "svendborg.dk",
+      "confidence": 100,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-480": {
+      "name": "Nordfyns",
+      "provider": "local-isp",
+      "domain": "nordfynskommune.dk",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DK-482": {
+      "name": "Langeland",
+      "provider": "microsoft",
+      "domain": "langelandkommune.dk",
+      "confidence": 90,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DK-492": {
+      "name": "Ærø",
+      "provider": "microsoft",
+      "domain": "aeroekommune.dk",
+      "confidence": 70,
+      "flags": [
+        "spf_strict",
+        "provider_classified"
+      ]
+    },
+    "DK-510": {
+      "name": "Haderslev",
+      "provider": "microsoft",
+      "domain": "haderslev.dk",
+      "confidence": 95,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-530": {
+      "name": "Billund",
+      "provider": "microsoft",
+      "domain": "billund.dk",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DK-540": {
+      "name": "Sønderborg",
+      "provider": "local-isp",
+      "domain": "soenderborg.dk",
+      "confidence": 80,
+      "flags": [
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DK-550": {
+      "name": "Tønder",
+      "provider": "local-isp",
+      "domain": "toender.dk",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DK-561": {
+      "name": "Esbjerg",
+      "provider": "microsoft",
+      "domain": "esbjerg.dk",
+      "confidence": 80,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-563": {
+      "name": "Fanø",
+      "provider": "microsoft",
+      "domain": "fanoe.dk",
+      "confidence": 90,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-573": {
+      "name": "Varde",
+      "provider": "microsoft",
+      "domain": "vardekommune.dk",
+      "confidence": 95,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-575": {
+      "name": "Vejen",
+      "provider": "microsoft",
+      "domain": "vejen.dk",
+      "confidence": 75,
+      "flags": [
+        "spf_strict",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-580": {
+      "name": "Aabenraa",
+      "provider": "microsoft",
+      "domain": "aabenraa.dk",
+      "confidence": 90,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-607": {
+      "name": "Fredericia",
+      "provider": "microsoft",
+      "domain": "fredericia.dk",
+      "confidence": 75,
+      "flags": [
+        "spf_strict",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-615": {
+      "name": "Horsens",
+      "provider": "microsoft",
+      "domain": "horsens.dk",
+      "confidence": 100,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-621": {
+      "name": "Kolding",
+      "provider": "independent",
+      "domain": "kolding.dk",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
+      ]
+    },
+    "DK-630": {
+      "name": "Vejle",
+      "provider": "microsoft",
+      "domain": "vejle.dk",
+      "confidence": 88,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-657": {
+      "name": "Herning",
+      "provider": "microsoft",
+      "domain": "herning.dk",
+      "confidence": 88,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-661": {
+      "name": "Holstebro",
+      "provider": "independent",
+      "domain": "holstebro.dk",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DK-665": {
+      "name": "Lemvig",
+      "provider": "independent",
+      "domain": "lemvig.dk",
+      "confidence": 93,
+      "flags": [
+        "multiple_mx",
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
+      ]
+    },
+    "DK-671": {
+      "name": "Struer",
+      "provider": "microsoft",
+      "domain": "struer.dk",
+      "confidence": 90,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-706": {
+      "name": "Syddjurs",
+      "provider": "microsoft",
+      "domain": "syddjurs.dk",
+      "confidence": 75,
+      "flags": [
+        "spf_strict",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-707": {
+      "name": "Norddjurs",
+      "provider": "local-isp",
+      "domain": "norddjurs.dk",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DK-710": {
+      "name": "Favrskov",
+      "provider": "microsoft",
+      "domain": "favrskov.dk",
+      "confidence": 95,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-727": {
+      "name": "Odder",
+      "provider": "local-isp",
+      "domain": "odder.dk",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DK-730": {
+      "name": "Randers",
+      "provider": "microsoft",
+      "domain": "randers.dk",
+      "confidence": 85,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "provider_via_gateway_spf"
+      ]
+    },
+    "DK-740": {
+      "name": "Silkeborg",
+      "provider": "microsoft",
+      "domain": "silkeborg.dk",
+      "confidence": 95,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-741": {
+      "name": "Samsø",
+      "provider": "microsoft",
+      "domain": "samsoe.dk",
+      "confidence": 100,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-746": {
+      "name": "Skanderborg",
+      "provider": "microsoft",
+      "domain": "skanderborg.dk",
+      "confidence": 90,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-751": {
+      "name": "Aarhus",
+      "provider": "microsoft",
+      "domain": "aarhus.dk",
+      "confidence": 85,
+      "flags": [
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-756": {
+      "name": "Ikast-Brande",
+      "provider": "independent",
+      "domain": "ikast-brande.dk",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DK-760": {
+      "name": "Ringkøbing-Skjern",
+      "provider": "microsoft",
+      "domain": "rksk.dk",
+      "confidence": 85,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified"
+      ]
+    },
+    "DK-766": {
+      "name": "Hedensted",
+      "provider": "microsoft",
+      "domain": "hedensted.dk",
+      "confidence": 95,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-773": {
+      "name": "Morsø",
+      "provider": "microsoft",
+      "domain": "morsoe.dk",
+      "confidence": 93,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-779": {
+      "name": "Skive",
+      "provider": "microsoft",
+      "domain": "skive.dk",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
+      ]
+    },
+    "DK-787": {
+      "name": "Thisted",
+      "provider": "microsoft",
+      "domain": "thisted.dk",
+      "confidence": 93,
+      "flags": [
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-791": {
+      "name": "Viborg",
+      "provider": "microsoft",
+      "domain": "viborg.dk",
+      "confidence": 90,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-810": {
+      "name": "Brønderslev",
+      "provider": "microsoft",
+      "domain": "99454545.dk",
+      "confidence": 75,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "multi_provider_spf:aws+microsoft",
+        "provider_classified",
+        "provider_via_gateway_spf"
+      ]
+    },
+    "DK-813": {
+      "name": "Frederikshavn",
+      "provider": "independent",
+      "domain": "frederikshavn.dk",
+      "confidence": 85,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "provider_via_gateway_spf"
+      ]
+    },
+    "DK-820": {
+      "name": "Vesthimmerland",
+      "provider": "independent",
+      "domain": "vesthimmerland.dk",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
+      ]
+    },
+    "DK-825": {
+      "name": "Læsø",
+      "provider": "microsoft",
+      "domain": "laesoe.dk",
+      "confidence": 70,
+      "flags": [
+        "spf_strict",
+        "provider_classified"
+      ]
+    },
+    "DK-840": {
+      "name": "Rebild",
+      "provider": "microsoft",
+      "domain": "rebild.dk",
+      "confidence": 75,
+      "flags": [
+        "spf_strict",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-846": {
+      "name": "Mariagerfjord",
+      "provider": "microsoft",
+      "domain": "mariagerfjord.dk",
+      "confidence": 95,
+      "flags": [
+        "multiple_mx",
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
+      ]
+    },
+    "DK-849": {
+      "name": "Jammerbugt",
+      "provider": "microsoft",
+      "domain": "jammerbugt.dk",
+      "confidence": 75,
+      "flags": [
+        "spf_strict",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-851": {
+      "name": "Aalborg",
+      "provider": "microsoft",
+      "domain": "aalborg.dk",
+      "confidence": 95,
+      "flags": [
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
+      ]
+    },
+    "DK-860": {
+      "name": "Hjørring",
+      "provider": "microsoft",
+      "domain": "hjoerring.dk",
       "confidence": 90,
       "flags": [
         "spf_strict",
@@ -10141,7 +11328,7 @@
     },
     "LV-0468": {
       "name": "Dobeles novads",
-      "provider": "local-isp",
+      "provider": "independent",
       "domain": "dobele.lv",
       "confidence": 93,
       "flags": [
@@ -17882,7 +19069,7 @@
     },
     "SE-2313": {
       "name": "Strömsund",
-      "provider": "independent",
+      "provider": "microsoft",
       "domain": "stromsund.se",
       "confidence": 95,
       "flags": [
