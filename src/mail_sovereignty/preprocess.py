@@ -38,6 +38,7 @@ SEED_FILES = {
     "AT": "municipalities_at.json",
     "CZ": "municipalities_cz.json",
     "IS": "municipalities_is.json",
+    "ES": "municipalities_es.json",
 }
 
 
@@ -58,7 +59,15 @@ def guess_domains(name: str, country: str = "") -> list[str]:
     raw = re.sub(r"\s*\(.*?\)\s*", "", raw)
 
     # Remove common prefixes in municipality names
-    for prefix in ["landkreis ", "kreis ", "stadt ", "sveitarfélagið "]:
+    for prefix in [
+        "landkreis ",
+        "kreis ",
+        "stadt ",
+        "sveitarfélagið ",
+        "diputación de ",
+        "diputación provincial de ",
+        "diputación foral de ",
+    ]:
         if raw.startswith(prefix):
             raw = raw[len(prefix) :]
 
@@ -123,6 +132,7 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         ("ú", "u"),
         ("é", "e"),
         ("ó", "o"),  # Icelandic accents
+        ("ñ", "n"),  # Spanish
     ]
     clean = raw
     for a, b in translits:
@@ -171,6 +181,7 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         "AT": [".gv.at", ".at"],
         "CZ": [".cz"],
         "IS": [".is"],
+        "ES": [".es", ".gob.es", ".cat", ".eus", ".gal"],
     }
     tlds = tld_map.get(
         country, [".ee", ".lv", ".lt", ".fi", ".no", ".se", ".de", ".dk"]

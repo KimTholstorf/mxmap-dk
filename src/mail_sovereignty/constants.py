@@ -69,6 +69,7 @@ SKIP_DOMAINS = {
     "example.at",
     "example.cz",
     "example.is",
+    "example.es",
     "kommune.no",
     "sentry.io",
     "w3.org",
@@ -94,6 +95,9 @@ SUBPAGES = [
     "/service/kontakt",  # German
     "/hafa-samband",  # Icelandic: "Contact"
     "/um-sveitarfelagid",  # Icelandic: "About the municipality"
+    "/contacto",  # Spanish
+    "/contacta",  # Spanish (Catalan)
+    "/sede-electronica",  # Spanish: "Electronic office"
 ]
 
 GATEWAY_KEYWORDS = {
@@ -101,7 +105,7 @@ GATEWAY_KEYWORDS = {
     "barracuda": ["barracudanetworks.com", "barracuda.com"],
     "trendmicro": ["tmes.trendmicro.eu", "tmes.trendmicro.com"],
     "hornetsecurity": ["hornetsecurity.com"],
-    "proofpoint": ["ppe-hosted.com"],
+    "proofpoint": ["ppe-hosted.com", "pphosted.com"],
     "sophos": ["hydra.sophos.com"],
     "fortimail": ["fortimail", "fortimailcloud.com"],
     "secmail": ["secmail.com"],
@@ -122,6 +126,8 @@ GATEWAY_KEYWORDS = {
     "simnet": ["simnet.is"],
     "skyggnir": ["skyggnir.is"],
     "siminn": ["spamvorn.internet.is"],
+    "telefonica": ["correolimpio.telefonica.es"],
+    "cdmon": ["cdmon.net", "cdmon.com"],
 }
 
 # Local ISP ASNs (replaces SWISS_ISP_ASNS)

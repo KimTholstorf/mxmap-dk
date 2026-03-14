@@ -1,0 +1,418 @@
+[
+  {
+    "id": "ES-01",
+    "name": "Álava",
+    "country": "ES",
+    "region": "Euskadi/País Vasco",
+    "domain": "araba.eus",
+    "osm_relation_id": 349011
+  },
+  {
+    "id": "ES-02",
+    "name": "Albacete",
+    "country": "ES",
+    "region": "Castilla-La Mancha",
+    "domain": "dipualba.es",
+    "osm_relation_id": 348989
+  },
+  {
+    "id": "ES-03",
+    "name": "Alicante",
+    "country": "ES",
+    "region": "Comunitat Valenciana",
+    "domain": "dip-alicante.es",
+    "osm_relation_id": 349012
+  },
+  {
+    "id": "ES-04",
+    "name": "Almería",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "dipalme.org",
+    "osm_relation_id": 348997
+  },
+  {
+    "id": "ES-05",
+    "name": "Ávila",
+    "country": "ES",
+    "region": "Castilla y León",
+    "domain": "diputacionavila.es",
+    "osm_relation_id": 349009
+  },
+  {
+    "id": "ES-06",
+    "name": "Badajoz",
+    "country": "ES",
+    "region": "Extremadura",
+    "domain": "dip-badajoz.es",
+    "osm_relation_id": 348994
+  },
+  {
+    "id": "ES-07",
+    "name": "Illes Balears",
+    "country": "ES",
+    "region": "Illes Balears",
+    "domain": "caib.es",
+    "osm_relation_id": 6426656
+  },
+  {
+    "id": "ES-08",
+    "name": "Barcelona",
+    "country": "ES",
+    "region": "Catalunya",
+    "domain": "diba.cat",
+    "osm_relation_id": 349035
+  },
+  {
+    "id": "ES-09",
+    "name": "Burgos",
+    "country": "ES",
+    "region": "Castilla y León",
+    "domain": "diputaciondeburgos.es",
+    "osm_relation_id": 349004
+  },
+  {
+    "id": "ES-10",
+    "name": "Cáceres",
+    "country": "ES",
+    "region": "Extremadura",
+    "domain": "dip-caceres.es",
+    "osm_relation_id": 1863380
+  },
+  {
+    "id": "ES-11",
+    "name": "Cádiz",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "dipucadiz.es",
+    "osm_relation_id": 349017
+  },
+  {
+    "id": "ES-12",
+    "name": "Castellón",
+    "country": "ES",
+    "region": "Comunitat Valenciana",
+    "domain": "dipcas.es",
+    "osm_relation_id": 349020
+  },
+  {
+    "id": "ES-13",
+    "name": "Ciudad Real",
+    "country": "ES",
+    "region": "Castilla-La Mancha",
+    "domain": "dipucr.es",
+    "osm_relation_id": 349019
+  },
+  {
+    "id": "ES-14",
+    "name": "Córdoba",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "dipucordoba.es",
+    "osm_relation_id": 349016
+  },
+  {
+    "id": "ES-15",
+    "name": "A Coruña",
+    "country": "ES",
+    "region": "Galicia",
+    "domain": "dacoruna.gal",
+    "osm_relation_id": 349021
+  },
+  {
+    "id": "ES-16",
+    "name": "Cuenca",
+    "country": "ES",
+    "region": "Castilla-La Mancha",
+    "domain": "dipucuenca.es",
+    "osm_relation_id": 349024
+  },
+  {
+    "id": "ES-17",
+    "name": "Girona",
+    "country": "ES",
+    "region": "Catalunya",
+    "domain": "ddgi.cat",
+    "osm_relation_id": 349023
+  },
+  {
+    "id": "ES-18",
+    "name": "Granada",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "dipgra.es",
+    "osm_relation_id": 349026
+  },
+  {
+    "id": "ES-19",
+    "name": "Guadalajara",
+    "country": "ES",
+    "region": "Castilla-La Mancha",
+    "domain": "dguadalajara.es",
+    "osm_relation_id": 349025
+  },
+  {
+    "id": "ES-20",
+    "name": "Gipuzkoa",
+    "country": "ES",
+    "region": "Euskadi/País Vasco",
+    "domain": "gipuzkoa.eus",
+    "osm_relation_id": 349015
+  },
+  {
+    "id": "ES-21",
+    "name": "Huelva",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "diphuelva.es",
+    "osm_relation_id": 348995
+  },
+  {
+    "id": "ES-22",
+    "name": "Huesca",
+    "country": "ES",
+    "region": "Aragón",
+    "domain": "dphuesca.es",
+    "osm_relation_id": 349022
+  },
+  {
+    "id": "ES-23",
+    "name": "Jaén",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "dipujaen.es",
+    "osm_relation_id": 348998
+  },
+  {
+    "id": "ES-24",
+    "name": "León",
+    "country": "ES",
+    "region": "Castilla y León",
+    "domain": "dipuleon.es",
+    "osm_relation_id": 349010
+  },
+  {
+    "id": "ES-25",
+    "name": "Lleida",
+    "country": "ES",
+    "region": "Catalunya",
+    "domain": "diputaciolleida.cat",
+    "osm_relation_id": 348990
+  },
+  {
+    "id": "ES-26",
+    "name": "La Rioja",
+    "country": "ES",
+    "region": "La Rioja",
+    "domain": "larioja.org",
+    "osm_relation_id": 6426654
+  },
+  {
+    "id": "ES-27",
+    "name": "Lugo",
+    "country": "ES",
+    "region": "Galicia",
+    "domain": "deputacionlugo.gal",
+    "osm_relation_id": 348992
+  },
+  {
+    "id": "ES-28",
+    "name": "Madrid",
+    "country": "ES",
+    "region": "Comunidad de Madrid",
+    "domain": "comunidad.madrid",
+    "osm_relation_id": 6426653
+  },
+  {
+    "id": "ES-29",
+    "name": "Málaga",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "malaga.es",
+    "osm_relation_id": 5275848
+  },
+  {
+    "id": "ES-30",
+    "name": "Murcia",
+    "country": "ES",
+    "region": "Región de Murcia",
+    "domain": "carm.es",
+    "osm_relation_id": 6427907
+  },
+  {
+    "id": "ES-31",
+    "name": "Navarra",
+    "country": "ES",
+    "region": "Comunidad Foral de Navarra",
+    "domain": "navarra.es",
+    "osm_relation_id": 6429242
+  },
+  {
+    "id": "ES-32",
+    "name": "Ourense",
+    "country": "ES",
+    "region": "Galicia",
+    "domain": "depourense.gal",
+    "osm_relation_id": 348988
+  },
+  {
+    "id": "ES-33",
+    "name": "Asturias",
+    "country": "ES",
+    "region": "Principado de Asturias",
+    "domain": "asturias.es",
+    "osm_relation_id": 6428094
+  },
+  {
+    "id": "ES-34",
+    "name": "Palencia",
+    "country": "ES",
+    "region": "Castilla y León",
+    "domain": "diputaciondepalencia.es",
+    "osm_relation_id": 349032
+  },
+  {
+    "id": "ES-35",
+    "name": "Las Palmas",
+    "country": "ES",
+    "region": "Canarias",
+    "domain": "grancanaria.com",
+    "osm_relation_id": 349031
+  },
+  {
+    "id": "ES-36",
+    "name": "Pontevedra",
+    "country": "ES",
+    "region": "Galicia",
+    "domain": "depo.gal",
+    "osm_relation_id": 348986
+  },
+  {
+    "id": "ES-37",
+    "name": "Salamanca",
+    "country": "ES",
+    "region": "Castilla y León",
+    "domain": "lasalina.es",
+    "osm_relation_id": 349029
+  },
+  {
+    "id": "ES-38",
+    "name": "Santa Cruz de Tenerife",
+    "country": "ES",
+    "region": "Canarias",
+    "domain": "tenerife.es",
+    "osm_relation_id": 349014
+  },
+  {
+    "id": "ES-39",
+    "name": "Cantabria",
+    "country": "ES",
+    "region": "Cantabria",
+    "domain": "cantabria.es",
+    "osm_relation_id": 6426101
+  },
+  {
+    "id": "ES-40",
+    "name": "Segovia",
+    "country": "ES",
+    "region": "Castilla y León",
+    "domain": "dipsegovia.es",
+    "osm_relation_id": 349007
+  },
+  {
+    "id": "ES-41",
+    "name": "Sevilla",
+    "country": "ES",
+    "region": "Andalucía",
+    "domain": "dipusevilla.es",
+    "osm_relation_id": 349008
+  },
+  {
+    "id": "ES-42",
+    "name": "Soria",
+    "country": "ES",
+    "region": "Castilla y León",
+    "domain": "dipsoria.es",
+    "osm_relation_id": 349005
+  },
+  {
+    "id": "ES-43",
+    "name": "Tarragona",
+    "country": "ES",
+    "region": "Catalunya",
+    "domain": "dipta.cat",
+    "osm_relation_id": 348985
+  },
+  {
+    "id": "ES-44",
+    "name": "Teruel",
+    "country": "ES",
+    "region": "Aragón",
+    "domain": "dpteruel.es",
+    "osm_relation_id": 349002
+  },
+  {
+    "id": "ES-45",
+    "name": "Toledo",
+    "country": "ES",
+    "region": "Castilla-La Mancha",
+    "domain": "diputoledo.es",
+    "osm_relation_id": 348982
+  },
+  {
+    "id": "ES-46",
+    "name": "Valencia",
+    "country": "ES",
+    "region": "Comunitat Valenciana",
+    "domain": "dival.es",
+    "osm_relation_id": 349000
+  },
+  {
+    "id": "ES-47",
+    "name": "Valladolid",
+    "country": "ES",
+    "region": "Castilla y León",
+    "domain": "dipvalladolid.es",
+    "osm_relation_id": 349001
+  },
+  {
+    "id": "ES-48",
+    "name": "Bizkaia",
+    "country": "ES",
+    "region": "Euskadi/País Vasco",
+    "domain": "bizkaia.eus",
+    "osm_relation_id": 349034
+  },
+  {
+    "id": "ES-49",
+    "name": "Zamora",
+    "country": "ES",
+    "region": "Castilla y León",
+    "domain": "diputaciondezamora.es",
+    "osm_relation_id": 348987
+  },
+  {
+    "id": "ES-50",
+    "name": "Zaragoza",
+    "country": "ES",
+    "region": "Aragón",
+    "domain": "dpz.es",
+    "osm_relation_id": 349030
+  },
+  {
+    "id": "ES-51",
+    "name": "Ceuta",
+    "country": "ES",
+    "region": "Ciudad Autónoma de Ceuta",
+    "domain": "ceuta.es",
+    "osm_relation_id": 1154756
+  },
+  {
+    "id": "ES-52",
+    "name": "Melilla",
+    "country": "ES",
+    "region": "Ciudad Autónoma de Melilla",
+    "domain": "melilla.es",
+    "osm_relation_id": 1154757
+  }
+]
