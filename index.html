@@ -36,6 +36,7 @@
   }
   .toggle-info:hover { background: rgba(255,255,255,0.25); color: #fff; }
   .gateway-icon { background: none !important; border: none !important; }
+  .dominance-label { background: none !important; border: none !important; text-align: center; }
 
   #info-bar, #stats-bar {
     background: #f8f9fb; border-bottom: 1px solid #e2e4e8; overflow: hidden; flex-shrink: 0;
@@ -257,6 +258,7 @@ let currentLevel = 'district';
 const topoCache = {};           // cacheKey -> parsed TopoJSON
 const countryLayers = new Map(); // "EE" -> L.geoJSON layer
 let gatewayMarkers = L.layerGroup();
+let dominanceMarkers = L.layerGroup();
 let updateLegend = function () {};
 let activeCountries = new Set(COUNTRY_LIST);
 let muniByOsm = {};   // "relation/12345" -> municipality
@@ -541,6 +543,7 @@ function computeAggregation(cc, fileLevelName) {
     const entries = Object.entries(g.providers).sort((a, b) => b[1] - a[1]);
     g.dominant = entries[0] ? entries[0][0] : 'Unknown';
     g.dominance = entries[0] ? entries[0][1] / g.municipalities.length : 0;
+    g.second = entries[1] ? entries[1][0] : null;
     g.count = g.municipalities.length;
     g.hasGateway = g.municipalities.some(m => hasLocalGateway(m));
   }
@@ -724,8 +727,9 @@ async function renderCountryLayer(cc) {
       if (isAggregated && groups) {
         const g = matchGroupFeature(feature, groups);
         if (g) {
-          const opacity = 0.4 + 0.5 * g.dominance;
-          return { fillColor: COLORS[g.dominant] || COLORS['Unknown'], fillOpacity: opacity, color: '#666', weight: 0.5 };
+          const borderColor = g.second && g.dominance < 0.95 ? (COLORS[g.second] || '#666') : '#666';
+          const borderWeight = g.second && g.dominance < 0.95 ? 3 : 0.5;
+          return { fillColor: COLORS[g.dominant] || COLORS['Unknown'], fillOpacity: 0.75, color: borderColor, weight: borderWeight };
         }
       } else {
         const m = matchFeature(feature);
@@ -791,6 +795,28 @@ function updateGatewayMarkers() {
   }
 }
 
+function updateDominanceMarkers() {
+  dominanceMarkers.clearLayers();
+  // Only show at aggregated levels
+  if (currentLevel === 'municipality') return;
+  for (const [cc, layer] of countryLayers) {
+    if (!activeCountries.has(cc)) continue;
+    layer.eachLayer(function (sublayer) {
+      const g = sublayer.feature ? sublayer.feature._matchedGroup : null;
+      if (!g || g.dominance >= 0.95) return;
+      const pct = Math.round(g.dominance * 100);
+      const icon = L.divIcon({
+        html: '<span style="font-size:10px;font-weight:700;color:#333;text-shadow:0 0 3px #fff,0 0 3px #fff,0 0 3px #fff">' + pct + '%</span>',
+        className: 'dominance-label',
+        iconSize: [30, 14],
+        iconAnchor: [15, 7],
+      });
+      const center = sublayer.getBounds().getCenter();
+      dominanceMarkers.addLayer(L.marker(center, { icon: icon, interactive: false }));
+    });
+  }
+}
+
 function updateStyles() {
   for (const [cc, layer] of countryLayers) {
     const active = activeCountries.has(cc);
@@ -804,8 +830,9 @@ function updateStyles() {
       const g = feature._matchedGroup;
       const m = feature._matchedMuni;
       if (g) {
-        const opacity = 0.4 + 0.5 * g.dominance;
-        sublayer.setStyle({ fillColor: COLORS[g.dominant] || COLORS['Unknown'], fillOpacity: opacity, color: '#666', weight: 0.5 });
+        const borderColor = g.second && g.dominance < 0.95 ? (COLORS[g.second] || '#666') : '#666';
+        const borderWeight = g.second && g.dominance < 0.95 ? 3 : 0.5;
+        sublayer.setStyle({ fillColor: COLORS[g.dominant] || COLORS['Unknown'], fillOpacity: 0.75, color: borderColor, weight: borderWeight });
       } else if (m) {
         sublayer.setStyle({ fillColor: COLORS[m.classification.provider] || COLORS['Unknown'], fillOpacity: 0.75, color: '#666', weight: 0.5 });
       } else {
@@ -814,6 +841,7 @@ function updateStyles() {
     });
   }
   updateGatewayMarkers();
+  updateDominanceMarkers();
 }
 
 // --- Level toggle ---
@@ -829,7 +857,9 @@ async function setLevel(newLevel) {
 
   await Promise.all(COUNTRY_LIST.map(function (cc) { return renderCountryLayer(cc); }));
   gatewayMarkers.addTo(map);
+  dominanceMarkers.addTo(map);
   updateGatewayMarkers();
+  updateDominanceMarkers();
   updateLegend();
 }
 
@@ -968,7 +998,9 @@ async function loadData() {
   // Render all country layers at default level (district)
   await Promise.all(COUNTRY_LIST.map(function (cc) { return renderCountryLayer(cc); }));
   gatewayMarkers.addTo(map);
+  dominanceMarkers.addTo(map);
   updateGatewayMarkers();
+  updateDominanceMarkers();
 
   // Remove loading
   const loading = document.getElementById('map-loading');
