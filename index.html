@@ -178,7 +178,7 @@
     </div>
     <div class="info-card">
       <h3>How does it work?</h3>
-      <p>For each municipality domain, DNS records (MX, SPF, CNAME, DKIM, autodiscover) are queried and classified: <strong>MX hostname</strong> or <strong>CNAME</strong> matching a known provider; <strong>gateway look-through</strong> via DKIM/autodiscover when MX points to a security gateway (FortiMail, Barracuda, Hornetsecurity, etc.); <strong>local provider</strong> by matching MX server ASN to known European ISPs and municipal IT providers; or <strong>self-hosted</strong> if no known provider is detected. DKIM is the most reliable signal — a CNAME proving a provider signs mail for the domain is definitive proof of mail hosting.</p>
+      <p>For each municipality domain, DNS records (MX, SPF, CNAME, DKIM, autodiscover) are queried and classified in priority order: <strong>MX hostname</strong> or <strong>CNAME</strong> matching a known provider; <strong>gateway look-through</strong> via SPF, autodiscover, and DKIM when MX points to a security gateway (FortiMail, Barracuda, Hornetsecurity, etc.) — SPF is only trusted when exactly one backend provider is found; <strong>DKIM check</strong> for unrecognized MX hosts to detect hidden backends (e.g., self-hosted MX with Microsoft 365 DKIM); <strong>local provider</strong> by matching MX server ASN to known European ISPs and municipal IT cooperatives; or <strong>self-hosted</strong> if no known provider or ISP is detected. DKIM is the most reliable signal — a CNAME proving a provider signs mail for the domain is definitive proof of mail hosting.</p>
     </div>
     <div class="info-card">
       <h3>Open source &amp; open data</h3>
