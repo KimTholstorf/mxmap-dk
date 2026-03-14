@@ -1,7 +1,7 @@
 {
   "total": 4590,
-  "average_score": 85.6,
-  "high_confidence_pct": 85.8,
+  "average_score": 86.4,
+  "high_confidence_pct": 86.9,
   "quality_passed": true,
   "entries": {
     "AD-02": {
@@ -9961,13 +9961,14 @@
     },
     "AT-32520": {
       "name": "Pölla",
-      "provider": "unknown",
-      "domain": "poella.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "poella.at",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "AT-32521": {
@@ -19684,13 +19685,13 @@
     },
     "AT-62279": {
       "name": "Waldbach-Mönichwald",
-      "provider": "unknown",
-      "domain": "waldbach.riskommunal.net",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "waldbach-moenichwald.gv.at",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "AT-62280": {
@@ -20011,13 +20012,16 @@
     },
     "AT-70201": {
       "name": "Arzl im Pitztal",
-      "provider": "unknown",
-      "domain": "arzl-pitztal.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "arzl-pitztal.gv.at",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
       ]
     },
     "AT-70202": {
@@ -20081,24 +20085,30 @@
     },
     "AT-70207": {
       "name": "Karrösten",
-      "provider": "unknown",
-      "domain": "karroesten.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "karroesten.gv.at",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
       ]
     },
     "AT-70208": {
       "name": "Längenfeld",
-      "provider": "unknown",
-      "domain": "laengenfeld.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "laengenfeld.gv.at",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
       ]
     },
     "AT-70209": {
@@ -20117,13 +20127,16 @@
     },
     "AT-70210": {
       "name": "Mils bei Imst",
-      "provider": "unknown",
-      "domain": "mils-bei-imst.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "mils-imst.gv.at",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
       ]
     },
     "AT-70211": {
@@ -20199,13 +20212,16 @@
     },
     "AT-70217": {
       "name": "St. Leonhard im Pitztal",
-      "provider": "unknown",
-      "domain": "www2.riskommunal.net",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "st-leonhard-pitztal.gv.at",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
       ]
     },
     "AT-70218": {
@@ -20236,13 +20252,16 @@
     },
     "AT-70220": {
       "name": "Sölden",
-      "provider": "unknown",
-      "domain": "soelden.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "soelden.gv.at",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
       ]
     },
     "AT-70221": {
@@ -20433,35 +20452,40 @@
     },
     "AT-70312": {
       "name": "Götzens",
-      "provider": "unknown",
-      "domain": "goetzens.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "goetzens.gv.at",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "AT-70313": {
       "name": "Gries am Brenner",
-      "provider": "unknown",
-      "domain": "griesambrenner.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "gries-brenner.gv.at",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
       ]
     },
     "AT-70314": {
       "name": "Gries im Sellrain",
-      "provider": "unknown",
-      "domain": "gries-im-sellrain.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "gries-sellrain.gv.at",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "AT-70315": {
@@ -20624,35 +20648,38 @@
     },
     "AT-70334": {
       "name": "Neustift im Stubaital",
-      "provider": "unknown",
-      "domain": "neustift.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "neustift-stubaital.gv.at",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "AT-70335": {
       "name": "Oberhofen im Inntal",
-      "provider": "unknown",
-      "domain": "oberhofen.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "oberhofen-inntal.gv.at",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "AT-70336": {
       "name": "Obernberg am Brenner",
-      "provider": "unknown",
-      "domain": "obernberg.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "obernberg-brenner.gv.at",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "AT-70337": {
@@ -20728,13 +20755,16 @@
     },
     "AT-70344": {
       "name": "Reith bei Seefeld",
-      "provider": "unknown",
-      "domain": "reith-bei-seefeld.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "reith-seefeld.at",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
       ]
     },
     "AT-70345": {
@@ -20763,13 +20793,16 @@
     },
     "AT-70347": {
       "name": "St. Sigmund im Sellrain",
-      "provider": "unknown",
-      "domain": "stsigmund.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "st-sigmund.gv.at",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
       ]
     },
     "AT-70348": {
@@ -20796,13 +20829,14 @@
     },
     "AT-70350": {
       "name": "Schönberg im Stubaital",
-      "provider": "unknown",
-      "domain": "schoenberg.tirol.gv.at",
-      "confidence": 15,
+      "provider": "independent",
+      "domain": "schoenberg.gv.at",
+      "confidence": 88,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified",
+        "provider_via_gateway_spf"
       ]
     },
     "AT-70351": {
@@ -20853,13 +20887,14 @@
     },
     "AT-70355": {
       "name": "Steinach am Brenner",
-      "provider": "unknown",
-      "domain": "steinach.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "steinach.gv.at",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "AT-70356": {
@@ -21037,24 +21072,28 @@
     },
     "AT-70401": {
       "name": "Aurach bei Kitzbühel",
-      "provider": "unknown",
-      "domain": "aurach.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "aurach-kitzbuehel.gv.at",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "AT-70402": {
       "name": "Brixen im Thale",
-      "provider": "unknown",
-      "domain": "brixen.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "brixen-thale.gv.at",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
       ]
     },
     "AT-70403": {
@@ -21071,13 +21110,16 @@
     },
     "AT-70404": {
       "name": "Going am Wilden Kaiser",
-      "provider": "unknown",
-      "domain": "going.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "going.gv.at",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
       ]
     },
     "AT-70405": {
@@ -21093,13 +21135,14 @@
     },
     "AT-70406": {
       "name": "Hopfgarten im Brixental",
-      "provider": "unknown",
-      "domain": "hopfgarten.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "hopfgarten-brixental.gv.at",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "AT-70407": {
@@ -21128,24 +21171,26 @@
     },
     "AT-70409": {
       "name": "Kirchberg in Tirol",
-      "provider": "unknown",
-      "domain": "kirchberg.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "kirchberg-tirol.gv.at",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "AT-70410": {
       "name": "Kirchdorf in Tirol",
-      "provider": "unknown",
-      "domain": "kirchdorf.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "kirchdorf-tirol.gv.at",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "AT-70411": {
@@ -21201,13 +21246,16 @@
     },
     "AT-70415": {
       "name": "St. Jakob in Haus",
-      "provider": "unknown",
-      "domain": "st-jakob-haus.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "st-jakob-haus.gv.at",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
       ]
     },
     "AT-70416": {
@@ -21226,13 +21274,16 @@
     },
     "AT-70417": {
       "name": "St. Ulrich am Pillersee",
-      "provider": "unknown",
-      "domain": "st.ulrich.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "st-ulrich-pillersee.gv.at",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
       ]
     },
     "AT-70418": {
@@ -21319,13 +21370,14 @@
     },
     "AT-70505": {
       "name": "Breitenbach am Inn",
-      "provider": "unknown",
-      "domain": "breitenbach.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "breitenbach-inn.gv.at",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "AT-70506": {
@@ -21511,13 +21563,13 @@
     },
     "AT-70522": {
       "name": "Reith im Alpbachtal",
-      "provider": "unknown",
-      "domain": "reithimalpbachtal.tirol.gv.at",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "reithimalpbachtal.at",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "AT-70523": {
@@ -21604,13 +21656,14 @@
     },
     "AT-70530": {
       "name": "Wildschönau",
-      "provider": "unknown",
-      "domain": "wildschoenau.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "wildschoenau.gv.at",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "AT-70531": {
@@ -21658,13 +21711,14 @@
     },
     "AT-70604": {
       "name": "Fließ",
-      "provider": "unknown",
-      "domain": "fliess.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "fliess.gv.at",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "AT-70605": {
@@ -21803,13 +21857,14 @@
     },
     "AT-70616": {
       "name": "Pettneu am Arlberg",
-      "provider": "unknown",
-      "domain": "pettneu.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "pettneu.gv.at",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "AT-70617": {
@@ -21846,13 +21901,14 @@
     },
     "AT-70620": {
       "name": "Ried im Oberinntal",
-      "provider": "unknown",
-      "domain": "www2.riskommunal.net",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "ried-oberinntal.gv.at",
+      "confidence": 93,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_softfail",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "AT-70621": {
@@ -21868,13 +21924,14 @@
     },
     "AT-70622": {
       "name": "Schönwies",
-      "provider": "unknown",
-      "domain": "schoenwies.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "schoenwies.gv.at",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "AT-70623": {
@@ -21914,13 +21971,14 @@
     },
     "AT-70626": {
       "name": "Stanz bei Landeck",
-      "provider": "unknown",
-      "domain": "stanz.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "stanz-landeck.gv.at",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "AT-70627": {
@@ -21950,13 +22008,16 @@
     },
     "AT-70629": {
       "name": "Tösens",
-      "provider": "unknown",
-      "domain": "toesens.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "toesens.gv.at",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
       ]
     },
     "AT-70630": {
@@ -22159,13 +22220,14 @@
     },
     "AT-70717": {
       "name": "Matrei in Osttirol",
-      "provider": "unknown",
-      "domain": "matrei-ost.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "matrei-osttirol.gv.at",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "AT-70718": {
@@ -22494,13 +22556,14 @@
     },
     "AT-70813": {
       "name": "Häselgehr",
-      "provider": "unknown",
-      "domain": "haeselgehr.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "haeselgehr.gv.at",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "AT-70814": {
@@ -22631,13 +22694,16 @@
     },
     "AT-70824": {
       "name": "Nesselwängle",
-      "provider": "unknown",
-      "domain": "nesselwaengle.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "nesselwaengle.gv.at",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
       ]
     },
     "AT-70825": {
@@ -22771,24 +22837,26 @@
     },
     "AT-70836": {
       "name": "Weißenbach am Lech",
-      "provider": "unknown",
-      "domain": "weissenbach.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "weissenbach-lech.gv.at",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "AT-70837": {
       "name": "Zöblen",
-      "provider": "unknown",
-      "domain": "www2.riskommunal.net",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "zoeblen.gv.at",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "AT-70901": {
@@ -22803,13 +22871,16 @@
     },
     "AT-70902": {
       "name": "Aschau im Zillertal",
-      "provider": "unknown",
-      "domain": "aschauimzillertal.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "aschau-zillertal.gv.at",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
       ]
     },
     "AT-70903": {
@@ -22846,13 +22917,14 @@
     },
     "AT-70907": {
       "name": "Eben am Achensee",
-      "provider": "unknown",
-      "domain": "eben.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "eben-achensee.gv.at",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "AT-70908": {
@@ -22880,13 +22952,16 @@
     },
     "AT-70910": {
       "name": "Fügenberg",
-      "provider": "unknown",
-      "domain": "fuegenberg.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "fuegenberg.gv.at",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
       ]
     },
     "AT-70911": {
@@ -23007,24 +23082,26 @@
     },
     "AT-70922": {
       "name": "Ramsau im Zillertal",
-      "provider": "unknown",
-      "domain": "ramsau.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "ramsau-zillertal.gv.at",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "AT-70923": {
       "name": "Ried im Zillertal",
-      "provider": "unknown",
-      "domain": "www2.riskommunal.net",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "ried-zillertal.gv.at",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "AT-70924": {
@@ -23084,24 +23161,28 @@
     },
     "AT-70929": {
       "name": "Steinberg am Rofan",
-      "provider": "unknown",
-      "domain": "steinberg.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "steinberg-rofan.gv.at",
+      "confidence": 90,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "multiple_mx",
+        "spf_strict",
+        "independent_mx_with_cloud_spf",
+        "provider_classified",
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
       ]
     },
     "AT-70930": {
       "name": "Strass im Zillertal",
-      "provider": "unknown",
-      "domain": "strass.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "strass-zillertal.gv.at",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "AT-70931": {
@@ -23225,13 +23306,14 @@
     },
     "AT-70941": {
       "name": "Zellberg",
-      "provider": "unknown",
-      "domain": "zellberg.tirol.gv.at",
-      "confidence": 15,
+      "provider": "microsoft",
+      "domain": "gemeinde-zellberg.at",
+      "confidence": 95,
       "flags": [
-        "no_mx",
-        "no_spf",
-        "provider_unknown"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "AT-80101": {
