@@ -1,7 +1,7 @@
 {
   "total": 4590,
   "average_score": 86.4,
-  "high_confidence_pct": 86.9,
+  "high_confidence_pct": 86.8,
   "quality_passed": true,
   "entries": {
     "AD-02": {
@@ -3052,12 +3052,11 @@
     },
     "AT-20727": {
       "name": "Wernberg",
-      "provider": "independent",
-      "domain": "wernberg.at",
-      "confidence": 90,
+      "provider": "local-isp",
+      "domain": "wernberg.gv.at",
+      "confidence": 50,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
+        "no_spf",
         "provider_classified"
       ]
     },
@@ -4271,7 +4270,7 @@
     },
     "AT-30710": {
       "name": "Hainburg an der Donau",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "hainburg.at",
       "confidence": 88,
       "flags": [
@@ -10959,13 +10958,12 @@
     },
     "AT-40615": {
       "name": "Rainbach im Mühlkreis",
-      "provider": "unknown",
-      "domain": "rainbach-mkr.at",
-      "confidence": 15,
+      "provider": "local-isp",
+      "domain": "gemeinde-rainbach.at",
+      "confidence": 50,
       "flags": [
-        "no_mx",
         "no_spf",
-        "provider_unknown"
+        "provider_classified"
       ]
     },
     "AT-40616": {
@@ -28910,10 +28908,9 @@
       "name": "Verlaine",
       "provider": "microsoft",
       "domain": "verlaine.be",
-      "confidence": 93,
+      "confidence": 55,
       "flags": [
-        "spf_softfail",
-        "mx_spf_match",
+        "no_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]

@@ -36,7 +36,6 @@ AT-20424,Pörtschach am Wörther See,unknown,poertschach.net,15,no_mx; no_spf; p
 AT-10608,Pöttelsdorf,unknown,gemeindepoettelsdorf.at,15,no_mx; no_spf; provider_unknown
 AT-10609,Pöttsching,unknown,poettsching.info,15,no_mx; no_spf; provider_unknown
 AT-31935,Rabenstein an der Pielach,unknown,rabenstein.cc,15,no_mx; no_spf; provider_unknown
-AT-40615,Rainbach im Mühlkreis,unknown,rainbach-mkr.at,15,no_mx; no_spf; provider_unknown
 AT-41224,Reichersberg,unknown,www2.land-oberoesterreich.gv.at,15,no_mx; no_spf; provider_unknown
 AT-20813,Sankt Kanzian am Klopeiner See,unknown,st.kanzian.at,15,no_mx; no_spf; provider_unknown
 AT-62245,Sankt Lorenzen am Wechsel,unknown,st-lorenzen-wechsel.steiermark.at,15,no_mx; no_spf; provider_unknown
@@ -273,6 +272,7 @@ AT-61740,Puch bei Weiz,local-isp,puch-weiz.at,50,no_spf; provider_classified
 AT-62235,Pöllauberg,local-isp,poellauberg.at,50,no_spf; provider_classified
 AT-62043,Pöls-Oberkurzheim,independent,poels.at,50,no_spf; provider_classified
 AT-60667,Raaba-Grambach,local-isp,neu.raaba-grambach.at,50,no_spf; provider_classified
+AT-40615,Rainbach im Mühlkreis,local-isp,gemeinde-rainbach.at,50,no_spf; provider_classified
 EE-0663,Rakvere linn,telia,rakvere.ee,50,spf_strict; mx_spf_mismatch; provider_classified
 AT-20912,Reichenfels,local-isp,marktgemeinde-reichenfels.at,50,no_spf; provider_classified
 AT-61743,Rettenegg,independent,rettenegg.at,50,no_spf; provider_classified
@@ -338,6 +338,7 @@ AT-50626,Wald im Pinzgau,local-isp,wald.salzburg.at,50,no_spf; provider_classifi
 AT-32334,Weikersdorf am Steinfelde,local-isp,weikersdorf.at,50,no_spf; provider_classified
 AT-41235,Weilbach,local-isp,weilbach.at,50,no_spf; provider_classified
 AT-41824,Weißkirchen an der Traun,local-isp,weisskirchen.at,50,no_spf; provider_classified
+AT-20727,Wernberg,local-isp,wernberg.gv.at,50,no_spf; provider_classified
 AT-41429,Wernstein am Inn,independent,wernstein.at,50,no_spf; provider_classified
 AT-41522,Weyer,independent,weyer.at,50,no_spf; provider_classified
 AT-32335,Wiesmath,local-isp,wiesmath.at,50,no_spf; provider_classified
@@ -414,6 +415,7 @@ AT-70935,Uderns,local-isp,uderns.at,55,multiple_mx; no_spf; provider_classified
 AT-10924,Unterkohlstätten,local-isp,unterkohlstaetten.at,55,multiple_mx; no_spf; provider_classified
 AT-50624,Uttendorf,microsoft,uttendorf.at,55,no_spf; provider_classified; autodiscover_confirms
 CZ-545058,Valašské Meziříčí,local-isp,valasskemezirici.cz,55,multiple_mx; no_spf; provider_classified
+BE-61063,Verlaine,microsoft,verlaine.be,55,no_spf; provider_classified; autodiscover_confirms
 CZ-551953,Vodňany,independent,vodnany.eu,55,multiple_mx; no_spf; provider_classified
 AT-70529,Walchsee,local-isp,walchsee.at,55,multiple_mx; no_spf; provider_classified
 AT-10823,Weppersdorf,local-isp,weppersdorf.at,55,multiple_mx; no_spf; provider_classified
@@ -1348,7 +1350,7 @@ AT-30817,Gänserndorf,microsoft,gaenserndorf.at,88,spf_softfail; mx_spf_match; p
 AT-30708,Göttlesbrunn-Arbesthal,microsoft,goettlesbrunn-arbesthal.gv.at,88,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
 AT-30709,Götzendorf an der Leitha,microsoft,goetzendorf.at,88,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
 AT-10405,Güssing,local-isp,gussing.at,88,spf_softfail; mx_spf_match; provider_classified
-AT-30710,Hainburg an der Donau,independent,hainburg.at,88,spf_softfail; mx_spf_match; provider_classified
+AT-30710,Hainburg an der Donau,local-isp,hainburg.at,88,spf_softfail; mx_spf_match; provider_classified
 AT-31403,Hainfeld,local-isp,hainfeld.at,88,spf_softfail; mx_spf_match; provider_classified
 BE-61024,Hamoir,independent,hamoir.be,88,spf_softfail; mx_spf_match; provider_classified
 SE-2583,Haparanda,microsoft,haparanda.se,88,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
@@ -2313,7 +2315,6 @@ AT-70938,Weerberg,microsoft,weerberg.at,90,multiple_mx; spf_strict; independent_
 AT-30865,Weiden an der March,local-isp,weiden-march.at,90,spf_strict; mx_spf_match; provider_classified
 AT-10926,Weiden bei Rechnitz,local-isp,weiden-rechnitz.bgld.gv.at,90,spf_strict; mx_spf_match; provider_classified
 AT-70224,Wenns,local-isp,wenns.at,90,multiple_mx; mx_spf_match; provider_classified
-AT-20727,Wernberg,independent,wernberg.at,90,spf_strict; mx_spf_match; provider_classified
 AT-60655,Werndorf,local-isp,werndorf.gv.at,90,spf_strict; mx_spf_match; provider_classified
 DE-06636,Werra-Meißner-Kreis,local-isp,werra-meissner-kreis.de,90,spf_strict; mx_spf_match; provider_classified
 AT-70420,Westendorf,microsoft,westendorf.at,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; autodiscover_confirms
@@ -2808,7 +2809,6 @@ SE-0563,Valdemarsvik,local-isp,valdemarsvik.se,93,multiple_mx; spf_softfail; mx_
 EE-0855,Valga vald,microsoft,valga.ee,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 SE-0115,Vallentuna,microsoft,vallentuna.se,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 NO-3454,Vang,microsoft,vang.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
-BE-61063,Verlaine,microsoft,verlaine.be,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 NO-3452,Vestre Slidre,microsoft,vestre-slidre.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 AT-50625,Viehhofen,microsoft,viehhofen.at,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 FI-931,Viitasaari,microsoft,viitasaari.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms

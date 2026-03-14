@@ -240,6 +240,10 @@ MANUAL_OVERRIDES = {
     "AT-32520": {
         "domain": "poella.at",
     },
+    # Rainbach im Mühlkreis: website is rainbach.at, email on gemeinde-rainbach.at
+    "AT-40615": {
+        "domain": "gemeinde-rainbach.at",
+    },
     # Austrian Tirol municipalities: email on name.gv.at, not name.tirol.gv.at
     "AT-62279": {"domain": "waldbach-moenichwald.gv.at"},
     "AT-70201": {"domain": "arzl-pitztal.gv.at"},
