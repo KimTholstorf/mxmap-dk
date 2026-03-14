@@ -62,9 +62,9 @@ LEVEL_MAP = {
     },
     "EE": {"region": "region", "district": "region", "municipality": "municipality"},
     "LT": {"region": "region", "district": "region", "municipality": "municipality"},
-    "LV": {"region": None, "district": "municipality", "municipality": "municipality"},
+    "LV": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     "LU": {"region": "region", "district": "region", "municipality": "municipality"},
-    "AD": {"region": None, "district": "municipality", "municipality": "municipality"},
+    "AD": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
 }
 
 

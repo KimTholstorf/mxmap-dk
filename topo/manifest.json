@@ -17,10 +17,12 @@
   },
   "LV": {
     "levels": [
+      "region",
       "district",
       "municipality"
     ],
     "files": {
+      "region": "lv_municipality.topo.json",
       "district": "lv_municipality.topo.json",
       "municipality": "lv_municipality.topo.json"
     },
@@ -126,10 +128,12 @@
   },
   "AD": {
     "levels": [
+      "region",
       "district",
       "municipality"
     ],
     "files": {
+      "region": "ad_municipality.topo.json",
       "district": "ad_municipality.topo.json",
       "municipality": "ad_municipality.topo.json"
     },
