@@ -355,7 +355,7 @@ function buildStats(muniList) {
   const filtered = muniList.filter(m => activeCountries.has(m.country));
   const total = filtered.length;
   if (total === 0) { content.innerHTML = '<p style="color:#999">No municipalities selected.</p>'; return; }
-  const withMx = filtered.filter(m => (m.mx || []).length > 0).length;
+  const withMx = filtered.filter(m => m.has_mx || (m.mx || []).length > 0).length;
 
   const usProviders = new Set(['Microsoft', 'Google', 'AWS']);
   const countryColors = { US: '#E83838', EE: '#2EDBA8', LV: '#34D5A0', LT: '#78FFD6', DE: '#6BA3D6', DK: '#4FC3D6', NL: '#6BA3D6', FI: '#6BA3D6', SE: '#56E8B0', IE: '#6BA3D6', NO: '#10B898', AD: '#56C8B0', LU: '#4DB8A8', BE: '#3DA898', AT: '#5DBCA0', CZ: '#4EB8A8' };
@@ -850,13 +850,38 @@ document.querySelectorAll('.country-btn').forEach(function (btn) {
 });
 
 // --- Load data ---
+const providerDisplayMap = {
+  'microsoft': 'Microsoft', 'google': 'Google', 'aws': 'AWS',
+  'telia': 'Local Provider', 'tet': 'Local Provider', 'zone': 'Local Provider', 'elkdata': 'Local Provider',
+  'local-isp': 'Local Provider', 'independent': 'Self-hosted', 'unknown': 'Unknown',
+};
+
+function transformMuni(m) {
+  const displayProvider = providerDisplayMap[m.provider] || m.provider;
+  const mxRecords = (m.mx || []).map(function (host, i) { return { priority: (i + 1) * 10, host: host }; });
+  return {
+    ...m,
+    id: m.bfs || '',
+    region: m.canton || '',
+    domain: m.domain || '',
+    classification: {
+      provider: displayProvider,
+      mx_records: mxRecords,
+      spf: m.spf || '',
+      reason: m.reason || '',
+      confidence: 80,
+    },
+  };
+}
+
 async function loadData() {
-  const [dataRes, manifestRes] = await Promise.all([
-    fetch('data.json'),
+  // Load summary (small, fast) + manifest in parallel
+  const [summaryRes, manifestRes] = await Promise.all([
+    fetch('data-summary.json'),
     fetch('topo/manifest.json')
   ]);
 
-  const raw = await dataRes.json();
+  const raw = await summaryRes.json();
   manifest = await manifestRes.json();
 
   // Normalise pipeline output: municipalities may be a dict keyed by BFS
@@ -864,31 +889,8 @@ async function loadData() {
     ? raw.municipalities
     : Object.values(raw.municipalities || {});
 
-  // Map pipeline provider names to display names
-  const providerDisplayMap = {
-    'microsoft': 'Microsoft', 'google': 'Google', 'aws': 'AWS',
-    'telia': 'Local Provider', 'tet': 'Local Provider', 'zone': 'Local Provider', 'elkdata': 'Local Provider',
-    'local-isp': 'Local Provider', 'independent': 'Self-hosted', 'unknown': 'Unknown',
-  };
-
-  // Transform flat pipeline entries into the shape the frontend expects
-  const muniList = rawList.map(m => {
-    const displayProvider = providerDisplayMap[m.provider] || m.provider;
-    const mxRecords = (m.mx || []).map((host, i) => ({ priority: (i + 1) * 10, host }));
-    return {
-      ...m,
-      id: m.bfs || '',
-      region: m.canton || '',
-      domain: m.domain || '',
-      classification: {
-        provider: displayProvider,
-        mx_records: mxRecords,
-        spf: m.spf || '',
-        reason: m.reason || '',
-        confidence: 80,
-      },
-    };
-  });
+  // Transform summary entries (no mx/spf/dkim yet — loaded in background)
+  const muniList = rawList.map(transformMuni);
 
   const providerCounts = {};
   for (const m of muniList) {
@@ -903,12 +905,14 @@ async function loadData() {
   };
 
   // Build lookups
+  const muniByBfs = {};
   for (const m of dnsData.municipalities) {
     if (m.osm_relation_id) {
       muniByOsm['relation/' + m.osm_relation_id] = m;
     }
     muniByName[m.name.toLowerCase()] = m;
     if (m.name_en) muniByName[m.name_en.toLowerCase()] = m;
+    if (m.bfs) muniByBfs[m.bfs] = m;
   }
 
   // Show date
@@ -966,6 +970,23 @@ async function loadData() {
   const loading = document.getElementById('map-loading');
   if (loading) loading.remove();
   map.invalidateSize({ animate: false });
+
+  // Background-load detail data (popup fields: mx, spf, dkim, etc.)
+  fetch('data-detail.json').then(function (res) { return res.json(); }).then(function (detail) {
+    for (const bfs of Object.keys(detail)) {
+      const m = muniByBfs[bfs];
+      if (!m) continue;
+      const d = detail[bfs];
+      m.mx = d.mx || [];
+      m.dkim = d.dkim || null;
+      m.autodiscover = d.autodiscover || null;
+      m.classification.mx_records = (d.mx || []).map(function (host, i) {
+        return { priority: (i + 1) * 10, host: host };
+      });
+      m.classification.spf = d.spf || '';
+      m.classification.reason = d.reason || '';
+    }
+  }).catch(function (err) { console.warn('Detail data load failed:', err); });
 }
 
 loadData().catch(function (err) {

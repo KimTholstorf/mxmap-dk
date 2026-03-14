@@ -62,9 +62,17 @@ LEVEL_MAP = {
     },
     "EE": {"region": "region", "district": "region", "municipality": "municipality"},
     "LT": {"region": "region", "district": "region", "municipality": "municipality"},
-    "LV": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "LV": {
+        "region": "municipality",
+        "district": "municipality",
+        "municipality": "municipality",
+    },
     "LU": {"region": "region", "district": "region", "municipality": "municipality"},
-    "AD": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "AD": {
+        "region": "municipality",
+        "district": "municipality",
+        "municipality": "municipality",
+    },
 }
 
 
@@ -99,7 +107,7 @@ def run_mapshaper(args):
     return result
 
 
-def write_topojson(geojson, output_path, simplify="15%"):
+def write_topojson(geojson, output_path, simplify="15%", quantization=10000):
     """Write GeoJSON FeatureCollection to TopoJSON via mapshaper."""
     with tempfile.NamedTemporaryFile(suffix=".geojson", mode="w", delete=False) as tmp:
         json.dump(geojson, tmp)
@@ -116,13 +124,21 @@ def write_topojson(geojson, output_path, simplify="15%"):
         ]
         if simplify:
             cmd.extend(["-simplify", simplify, "keep-shapes"])
-        cmd.extend(["-o", str(output_path), "format=topojson", "id-field=osm_id"])
+        cmd.extend(
+            [
+                "-o",
+                str(output_path),
+                "format=topojson",
+                "id-field=osm_id",
+                f"quantization={quantization}",
+            ]
+        )
         run_mapshaper(cmd)
     finally:
         os.unlink(tmp_path)
 
 
-def dissolve_topojson(geojson, field, output_path, simplify="15%"):
+def dissolve_topojson(geojson, field, output_path, simplify="15%", quantization=10000):
     """Dissolve GeoJSON by field and write as TopoJSON."""
     with tempfile.NamedTemporaryFile(suffix=".geojson", mode="w", delete=False) as tmp:
         json.dump(geojson, tmp)
@@ -144,7 +160,9 @@ def dissolve_topojson(geojson, field, output_path, simplify="15%"):
         ]
         if simplify:
             cmd.extend(["-simplify", simplify, "keep-shapes"])
-        cmd.extend(["-o", str(output_path), "format=topojson"])
+        cmd.extend(
+            ["-o", str(output_path), "format=topojson", f"quantization={quantization}"]
+        )
         run_mapshaper(cmd)
     finally:
         os.unlink(tmp_path)
@@ -260,17 +278,19 @@ def main():
         level_map = LEVEL_MAP[cc]
         fc = {"type": "FeatureCollection", "features": features}
 
-        # Municipality level
+        # Municipality level (15% simplification, full quantization)
         muni_out = TOPO_DIR / f"{cc.lower()}_municipality.topo.json"
         print(f"  {cc}: {len(features)} municipalities -> {muni_out.name}")
-        write_topojson(fc, muni_out, simplify="15%")
+        write_topojson(fc, muni_out, simplify="15%", quantization=10000)
 
-        # Region level (dissolved)
+        # Region level (dissolved, 8% simplification, lower quantization)
         if level_map["region"] == "region":
             region_out = TOPO_DIR / f"{cc.lower()}_region.topo.json"
             n_regions = len(set(f["properties"]["region"] for f in features))
             print(f"  {cc}: {n_regions} regions -> {region_out.name}")
-            dissolve_topojson(fc, "region", region_out, simplify="15%")
+            dissolve_topojson(
+                fc, "region", region_out, simplify="8%", quantization=5000
+            )
 
         # District level (dissolved, only AT/BE)
         if level_map["district"] == "district":
