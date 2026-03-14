@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-MX Map is a DNS-based email provider classifier for Nordic-Baltic municipalities (Estonia, Latvia, Lithuania, Finland, Norway — ~847 total). It runs a 3-stage async pipeline that produces `data.json`, which powers an interactive Leaflet.js map showing where municipalities host their official email. Forked from [mxmap.ch](https://mxmap.ch) (Swiss municipalities).
+MX Map is a DNS-based email provider classifier for European municipalities (14 countries, ~4,650 total). It runs a 3-stage async pipeline that produces `data.json`, which powers an interactive Leaflet.js map showing where municipalities host their official email. Forked from [mxmap.ch](https://mxmap.ch) (Swiss municipalities). Countries: Estonia, Latvia, Lithuania, Finland, Norway, Iceland, Sweden, Germany, Denmark, Andorra, Luxembourg, Belgium, Austria, Czechia.
 
 ## Commands
 
@@ -40,7 +40,7 @@ python -m http.server
 
 All three stages operate on `data.json` at the repo root:
 
-1. **Preprocess** (`preprocess.py`) — Loads municipalities from `data/municipalities_{ee,lv,lt,fi,no}.json` seed files + `data/overrides.json`. For each municipality: extracts domain (or guesses from name with diacritics transliteration), performs async MX/SPF/CNAME/ASN/autodiscover/DKIM DNS lookups via 3 resolvers (system, Google, Cloudflare), classifies provider, detects gateways. Concurrency: 20.
+1. **Preprocess** (`preprocess.py`) — Loads municipalities from `data/municipalities_{cc}.json` seed files (14 countries) + `data/overrides.json`. For each municipality: extracts domain (or guesses from name with diacritics transliteration), performs async MX/SPF/CNAME/ASN/autodiscover/DKIM DNS lookups via 3 resolvers (system, Google, Cloudflare), classifies provider, detects gateways. Concurrency: 20.
 
 2. **Postprocess** (`postprocess.py`) — Four sub-steps: (a) apply `MANUAL_OVERRIDES` dict with DNS re-lookup for domain-only overrides, (b) retry DNS for unknowns that have a domain, (c) SMTP banner check on primary MX of independent/unknown entries (deduplicated, concurrency 5), (d) scrape municipality websites for email addresses on remaining unknowns (concurrency 10). Includes TYPO3 Caesar cipher decryption for obfuscated mailto: links.
 
@@ -94,21 +94,32 @@ Single-page app with three admin-level views (Region/District/Municipality) and 
 
 ### TopoJSON Split (`scripts/split_topo.py`)
 
-Splits `baltic-municipalities.topo.json` (18 MB monolithic source) into per-country per-level files in `topo/`:
+Splits `baltic-municipalities.topo.json` (monolithic source) into per-country per-level files in `topo/`. Iceland boundaries are generated separately (not in the monolithic file) — see "Adding a New Country" below.
 
 ```
 topo/
   manifest.json                  # { CC: { levels, files, sizes } }
   {cc}_municipality.topo.json    # Per-country municipality boundaries (simplified 15%)
-  {cc}_region.topo.json          # Dissolved by region field (11 countries)
+  {cc}_region.topo.json          # Dissolved by region field (simplified 8%, quantization 5k)
   {cc}_district.topo.json        # Dissolved by district key (AT, BE only)
 ```
 
-**Process:** Converts monolithic TopoJSON → GeoJSON via mapshaper, matches features to seed data municipalities, annotates with country/region/district_key, then for each country: writes municipality TopoJSON, dissolves by region (using mapshaper `-dissolve`), dissolves by district_key for AT/BE. All files simplified 15% with `keep-shapes`.
+**Process:** Converts monolithic TopoJSON → GeoJSON via mapshaper, matches features to seed data municipalities, annotates with country/region/district_key, then for each country: writes municipality TopoJSON, dissolves by region (using mapshaper `-dissolve`), dissolves by district_key for AT/BE.
 
 **Level aliasing:** When district=region or district=municipality for a country, `manifest.json` points both levels at the same file. Frontend detects this via `manifest[cc].files[level] === manifest[cc].files.municipality` to decide whether to aggregate.
 
 Run: `python3 scripts/split_topo.py` (requires mapshaper CLI).
+
+### Frontend Data Split (`scripts/build_frontend.py`)
+
+Splits `data.json` (6 MB) into two files for faster initial page load:
+
+- **`data-summary.json`** (~120 KB gzipped) — Loaded immediately. Contains fields needed for map rendering, legend, and stats: `bfs`, `name`, `canton`, `country`, `domain`, `provider`, `osm_relation_id`, `mx_countries`, `gateway`, `isp_name`, `has_mx`.
+- **`data-detail.json`** (~190 KB gzipped) — Loaded in background after map renders. Contains popup-only fields: `mx`, `spf`, `reason`, `autodiscover`, `dkim`.
+
+Strips unused fields (`spf_resolved` = 60% of data.json, `mx_asns`, `smtp_banner`, `mx_cnames`).
+
+Run: `python3 scripts/build_frontend.py`
 
 ### DNS Module (`dns.py`)
 
@@ -140,21 +151,32 @@ Sources: national statistics office API for official list, Wikidata SPARQL for O
 
 ### 3. TopoJSON boundaries
 
-- Find the OSM `admin_level` for municipalities in that country (varies: EE=7, LV=6, LT=5, FI=8, NO=7)
-- Download boundaries via Overpass API or find an existing TopoJSON/GeoJSON source (GitHub repos like GeoHarrier/norway-kommuner-geojson are good sources)
-- Feature IDs must be `relation/XXXXX` matching `osm_relation_id` in seed data
-- **OSM relation IDs may differ** between Wikidata and current GeoJSON sources for municipalities that underwent mergers. Match by municipality number (`ref` field) to resolve mismatches, then update seed data with the current OSM IDs.
-- Merge into `baltic-municipalities.topo.json` using the Python `topojson` library: decode existing TopoJSON arcs manually (delta encoding + transform), combine with new GeoJSON features, re-encode with `toposimplify=False`
-- **Preserve `name` and `name_en` properties** on all features — EE/LV features rely on name-based matching (their OSM IDs differ from seed data). Dropping properties breaks the map.
-- **Handle degenerate rings**: island municipalities (Saaremaa, Hiiumaa, Kihnu, etc.) have MultiPolygon features where some tiny island rings collapse to < 4 coordinates during quantization. Filter out degenerate rings (< 4 coords) within polygons rather than dropping the entire feature.
+Two approaches depending on whether the country is in the monolithic TopoJSON or standalone:
+
+**Approach A: Add to monolithic file** (existing countries)
+- Find the OSM `admin_level` for municipalities (varies: EE=7, LV=6, LT=5, FI=8, NO=7, IS=6, SE=7, DE=6, DK=7, AT=8, BE=8, CZ=7, LU=8, AD=7)
+- Merge into `baltic-municipalities.topo.json`, then re-run `scripts/split_topo.py`
+
+**Approach B: Standalone TopoJSON** (new countries like Iceland)
+- Fetch boundaries from Overpass API: `relation["boundary"="administrative"]["admin_level"="N"]`
+- Convert to GeoJSON with `osmtogeojson` (npm)
+- Annotate features with `region`, `country`, `osm_id` properties
+- Convert to TopoJSON via mapshaper with simplification + quantization
+- Create dissolved region file if applicable
+- Update `topo/manifest.json`
+
+Feature IDs must be `relation/XXXXX` matching `osm_relation_id` in seed data. **Preserve `name` and `name_en` properties** — EE/LV features rely on name-based matching.
 
 ### 4. Frontend (`index.html`)
 
-- Add country filter button with flag emoji in the filter bar
-- Add country code to `activeCountries` default set
-- Add country flag to `countryFlags` map
-- Add country section in `computeStats()` and per-country stats rendering
-- Adjust map center/zoom if needed
+- Add country code to `COUNTRY_LIST` and `FLAGS` map
+- Add country button in `.country-filters` div
+- Add country name to `countryNames` and color to `countryColors` in stats
+
+### 4b. Build scripts
+
+- Add country to `COUNTRIES` and `LEVEL_MAP` in `scripts/split_topo.py`
+- Re-run `python3 scripts/build_frontend.py` to rebuild data-summary.json and data-detail.json
 
 ### 5. Tests
 
