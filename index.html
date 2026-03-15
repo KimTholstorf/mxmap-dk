@@ -210,6 +210,7 @@
       <button class="country-btn active" data-country="CZ">CZ</button>
       <button class="country-btn active" data-country="ES">ES</button>
       <button class="country-btn active" data-country="FR">FR</button>
+      <button class="country-btn active" data-country="PL">PL</button>
     </div>
     <div class="level-toggle">
       <button class="level-btn" data-level="region">Regions</button>
@@ -242,9 +243,9 @@ const TIERS = {
   'Unknown':        ['Unknown']
 };
 
-const FLAGS = { EE: '\u{1F1EA}\u{1F1EA}', LV: '\u{1F1F1}\u{1F1FB}', LT: '\u{1F1F1}\u{1F1F9}', FI: '\u{1F1EB}\u{1F1EE}', NO: '\u{1F1F3}\u{1F1F4}', IS: '\u{1F1EE}\u{1F1F8}', SE: '\u{1F1F8}\u{1F1EA}', DE: '\u{1F1E9}\u{1F1EA}', DK: '\u{1F1E9}\u{1F1F0}', AD: '\u{1F1E6}\u{1F1E9}', LU: '\u{1F1F1}\u{1F1FA}', BE: '\u{1F1E7}\u{1F1EA}', AT: '\u{1F1E6}\u{1F1F9}', CZ: '\u{1F1E8}\u{1F1FF}', ES: '\u{1F1EA}\u{1F1F8}', FR: '\u{1F1EB}\u{1F1F7}' };
+const FLAGS = { EE: '\u{1F1EA}\u{1F1EA}', LV: '\u{1F1F1}\u{1F1FB}', LT: '\u{1F1F1}\u{1F1F9}', FI: '\u{1F1EB}\u{1F1EE}', NO: '\u{1F1F3}\u{1F1F4}', IS: '\u{1F1EE}\u{1F1F8}', SE: '\u{1F1F8}\u{1F1EA}', DE: '\u{1F1E9}\u{1F1EA}', DK: '\u{1F1E9}\u{1F1F0}', AD: '\u{1F1E6}\u{1F1E9}', LU: '\u{1F1F1}\u{1F1FA}', BE: '\u{1F1E7}\u{1F1EA}', AT: '\u{1F1E6}\u{1F1F9}', CZ: '\u{1F1E8}\u{1F1FF}', ES: '\u{1F1EA}\u{1F1F8}', FR: '\u{1F1EB}\u{1F1F7}', PL: '\u{1F1F5}\u{1F1F1}' };
 
-const COUNTRY_LIST = ['EE', 'LV', 'LT', 'FI', 'NO', 'IS', 'SE', 'DE', 'DK', 'AD', 'LU', 'BE', 'AT', 'CZ', 'ES', 'FR'];
+const COUNTRY_LIST = ['EE', 'LV', 'LT', 'FI', 'NO', 'IS', 'SE', 'DE', 'DK', 'AD', 'LU', 'BE', 'AT', 'CZ', 'ES', 'FR', 'PL'];
 
 const US_PROVIDERS = new Set(['Microsoft', 'Google', 'AWS']);
 function hasLocalGateway(m) {
@@ -459,7 +460,7 @@ function buildStats(muniList) {
   html += `<p style="font-size:12px;color:#777;margin-top:8px"><strong>${mxInUs}</strong> of ${withMx} municipalities with MX records route mail through servers registered in the US.</p>`;
 
   // Per-country breakdown
-  const countryNames = { EE: 'Estonia', LV: 'Latvia', LT: 'Lithuania', FI: 'Finland', NO: 'Norway', IS: 'Iceland', SE: 'Sweden', DE: 'Germany', DK: 'Denmark', AD: 'Andorra', LU: 'Luxembourg', BE: 'Belgium', AT: 'Austria', CZ: 'Czechia', ES: 'Spain', FR: 'France' };
+  const countryNames = { EE: 'Estonia', LV: 'Latvia', LT: 'Lithuania', FI: 'Finland', NO: 'Norway', IS: 'Iceland', SE: 'Sweden', DE: 'Germany', DK: 'Denmark', AD: 'Andorra', LU: 'Luxembourg', BE: 'Belgium', AT: 'Austria', CZ: 'Czechia', ES: 'Spain', FR: 'France', PL: 'Poland' };
   const activeList = COUNTRY_LIST.filter(cc => activeCountries.has(cc));
   const countryStats = {};
   for (const cc of activeList) {
@@ -761,11 +762,17 @@ async function renderCountryLayer(cc) {
       feature._country = cc;
 
       layer.on('mouseover', function () {
-        if (activeCountries.has(cc)) this.setStyle({ weight: 2, color: '#333' });
+        if (!activeCountries.has(cc)) return;
+        var g = this.feature._matchedGroup;
+        var hoverColor = (g && g.second && g.dominance < 0.95) ? (COLORS[g.second] || '#333') : '#333';
+        this.setStyle({ weight: 3, color: hoverColor });
       });
       layer.on('mouseout', function () {
-        if (activeCountries.has(cc)) this.setStyle({ weight: 0.5, color: '#666' });
-        else this.setStyle({ weight: 0.5, color: '#ccc' });
+        if (!activeCountries.has(cc)) { this.setStyle({ weight: 0.5, color: '#ccc' }); return; }
+        var g = this.feature._matchedGroup;
+        var borderColor = (g && g.second && g.dominance < 0.95) ? (COLORS[g.second] || '#999') : '#999';
+        var borderWeight = (g && g.second && g.dominance < 0.95) ? 2 : 0.5;
+        this.setStyle({ weight: borderWeight, color: borderColor });
       });
     }
   });
