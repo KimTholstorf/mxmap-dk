@@ -185,7 +185,6 @@ GATEWAY_KEYWORDS = {
     "mpssec": ["mpssec.net"],
     "spambusters": ["spambusters.email"],
     "mxthunder": ["mxthunder.net"],
-    "host-bg": ["host.bg"],
     "mx-hub": ["mx-hub.cz", "mx-hub.sk", "mx-hub.net", "mx-hub.eu"],
     "dsidata": ["dsidata.sk"],
 }
