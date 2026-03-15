@@ -189,7 +189,7 @@
     </div>
     <div class="info-card">
       <h3>How does it work?</h3>
-      <p>For each municipality domain, DNS records (MX, SPF, CNAME, DKIM, autodiscover) are queried and classified in priority order: <strong>MX hostname</strong> or <strong>CNAME</strong> matching a known provider; <strong>gateway look-through</strong> via SPF, autodiscover, and DKIM when MX points to a security gateway (FortiMail, Barracuda, Hornetsecurity, etc.) — SPF is only trusted when exactly one backend provider is found; <strong>DKIM check</strong> for unrecognized MX hosts to detect hidden backends (e.g., self-hosted MX with Microsoft 365 DKIM); <strong>local provider</strong> by matching MX server ASN to known European ISPs and municipal IT cooperatives; or <strong>self-hosted</strong> if no known provider or ISP is detected. DKIM is the most reliable signal — a CNAME proving a provider signs mail for the domain is definitive proof of mail hosting.</p>
+      <p>For each municipality domain, DNS records (MX, SPF, CNAME, DKIM, autodiscover, TXT) are queried and classified in priority order: <strong>MX hostname</strong> or <strong>CNAME</strong> matching a known provider; <strong>gateway look-through</strong> via SPF, autodiscover, DKIM, and TXT verification tokens when MX points to a security gateway (FortiMail, Barracuda, Hornetsecurity, etc.) — SPF is only trusted when exactly one backend provider is found; <strong>DKIM check</strong> for unrecognized MX hosts to detect hidden backends (e.g., self-hosted MX with Microsoft 365 DKIM); <strong>TXT domain verification</strong> tokens (e.g., <code>MS=ms77422356</code> proves a Microsoft 365 tenant, <code>google-site-verification=</code> proves Google Workspace) as a tiebreaker when DKIM/autodiscover are absent; <strong>local provider</strong> by matching MX server ASN to known European ISPs and municipal IT cooperatives; or <strong>self-hosted</strong> if no known provider or ISP is detected. DKIM is the most reliable signal — a CNAME proving a provider signs mail for the domain is definitive proof of mail hosting.</p>
     </div>
     <div class="info-card">
       <h3>Open source &amp; open data</h3>
@@ -667,6 +667,15 @@ function buildPopup(m) {
     }
   }
 
+  let txtVerifSection = '';
+  if (m.txt_verifications) {
+    const entries = Object.entries(m.txt_verifications);
+    if (entries.length > 0) {
+      const rows = entries.map(([k, v]) => `<tr><td class="pri">${escapeHtml(k)}</td><td class="host" title="${escapeHtml(v)}">${escapeHtml(v.length > 40 ? v.substring(0, 37) + '...' : v)}</td></tr>`).join('');
+      txtVerifSection = `<div class="popup-section"><div class="popup-section-title">Domain Verification <span class="popup-section-hint">(TXT)</span></div><table class="dns-table">${rows}</table></div>`;
+    }
+  }
+
   let gatewayNote = '';
   if (hasLocalGateway(m)) {
     gatewayNote = `<div style="margin-top:6px;padding:5px 8px;background:#fff3e0;border-left:3px solid #ff9800;font-size:11px;color:#795548">` +
@@ -680,7 +689,7 @@ function buildPopup(m) {
     (hasLocalGateway(m) ? ' <span title="Local gateway" style="font-size:13px">\u{1F6E1}\uFE0F</span>' : '') +
     `<br><span style="font-size:11px;color:#888">${m.region ? escapeHtml(m.region) + ' \u00b7 ' : ''}${m.country}</span>` +
     (cls.reason ? `<div style="margin-top:4px;font-size:11px;color:#666;font-style:italic">${escapeHtml(cls.reason)}</div>` : '') +
-    gatewayNote + mxSection + spfSection + autodiscoverSection + dkimSection +
+    gatewayNote + mxSection + spfSection + autodiscoverSection + dkimSection + txtVerifSection +
     `</div>`;
 }
 
@@ -1106,6 +1115,7 @@ async function loadData() {
       m.mx = d.mx || [];
       m.dkim = d.dkim || null;
       m.autodiscover = d.autodiscover || null;
+      m.txt_verifications = d.txt_verifications || null;
       m.classification.mx_records = (d.mx || []).map(function (host, i) {
         return { priority: (i + 1) * 10, host: host };
       });

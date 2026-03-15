@@ -39,6 +39,7 @@ DETAIL_FIELDS = {
     "reason",
     "autodiscover",
     "dkim",
+    "txt_verifications",
 }
 
 # Fields intentionally dropped (not used by frontend)

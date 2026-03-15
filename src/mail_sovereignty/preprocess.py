@@ -6,15 +6,13 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import urlparse
 
-import httpx
-
 from mail_sovereignty.classify import classify, detect_gateway
 from mail_sovereignty.constants import CONCURRENCY, LOCAL_ISP_ASNS
 from mail_sovereignty.dns import (
     lookup_autodiscover,
     lookup_dkim,
     lookup_mx,
-    lookup_spf,
+    lookup_txt,
     resolve_mx_asns,
     resolve_mx_countries,
     resolve_mx_cnames,
@@ -321,12 +319,14 @@ async def scan_municipality(
     async with semaphore:
         domain = url_to_domain(m.get("website", ""))
         mx, spf = [], ""
+        txt_verifications: dict[str, str] = {}
 
         # Check DNS cache first
         cached = dns_cache.get_domain(domain) if dns_cache and domain else None
         if cached:
             mx = cached.get("mx", [])
             spf = cached.get("spf", "")
+            txt_verifications = cached.get("txt_verifications", {})
             if not mx:
                 # Cache says no MX for this domain — still try guessing
                 cached = None
@@ -335,7 +335,7 @@ async def scan_municipality(
             if domain:
                 mx = await lookup_mx(domain)
                 if mx:
-                    spf = await lookup_spf(domain)
+                    spf, txt_verifications = await lookup_txt(domain)
 
             if not mx:
                 country = m.get("country", "")
@@ -349,13 +349,14 @@ async def scan_municipality(
                     if gcached and gcached.get("mx"):
                         mx = gcached["mx"]
                         spf = gcached.get("spf", "")
+                        txt_verifications = gcached.get("txt_verifications", {})
                         domain = guess
                         cached = gcached
                         break
                     mx = await lookup_mx(guess)
                     if mx:
                         domain = guess
-                        spf = await lookup_spf(guess)
+                        spf, txt_verifications = await lookup_txt(guess)
                         break
 
         if cached and mx:
@@ -366,6 +367,13 @@ async def scan_municipality(
             mx_countries = set(cached.get("mx_countries", []))
             autodiscover = cached.get("autodiscover", {})
             dkim = cached.get("dkim", {})
+            txt_verifications = cached.get("txt_verifications", txt_verifications)
+
+            # Backfill txt_verifications if missing from old cache
+            if not txt_verifications and domain:
+                _, txt_verifications = await lookup_txt(domain)
+                if txt_verifications:
+                    cached["txt_verifications"] = txt_verifications
         else:
             # Fresh DNS lookups
             spf_resolved = await resolve_spf_includes(spf) if spf else ""
@@ -385,6 +393,7 @@ async def scan_municipality(
                     "mx_countries": sorted(mx_countries) if mx_countries else [],
                     "autodiscover": autodiscover,
                     "dkim": dkim,
+                    "txt_verifications": txt_verifications,
                 })
         provider, reason = classify(
             mx,
@@ -394,6 +403,7 @@ async def scan_municipality(
             resolved_spf=spf_resolved or None,
             autodiscover=autodiscover or None,
             dkim=dkim or None,
+            txt_verifications=txt_verifications or None,
         )
         gateway = detect_gateway(mx) if mx else None
 
@@ -439,6 +449,8 @@ async def scan_municipality(
             entry["autodiscover"] = autodiscover
         if dkim:
             entry["dkim"] = dkim
+        if txt_verifications:
+            entry["txt_verifications"] = txt_verifications
         return entry
 
 

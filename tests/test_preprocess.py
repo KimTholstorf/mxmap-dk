@@ -188,9 +188,9 @@ class TestScanMunicipality:
                 return_value=["tallinn-ee.mail.protection.outlook.com"],
             ),
             patch(
-                "mail_sovereignty.preprocess.lookup_spf",
+                "mail_sovereignty.preprocess.lookup_txt",
                 new_callable=AsyncMock,
-                return_value="v=spf1 include:spf.protection.outlook.com -all",
+                return_value=("v=spf1 include:spf.protection.outlook.com -all", {}),
             ),
             patch(
                 "mail_sovereignty.preprocess.resolve_spf_includes",
@@ -225,9 +225,9 @@ class TestScanMunicipality:
                 return_value=[],
             ),
             patch(
-                "mail_sovereignty.preprocess.lookup_spf",
+                "mail_sovereignty.preprocess.lookup_txt",
                 new_callable=AsyncMock,
-                return_value="",
+                return_value=("", {}),
             ),
         ):
             result = await scan_municipality(m, sem)
@@ -259,9 +259,9 @@ class TestPreprocessRun:
                 return_value=["mx.tallinn.ee"],
             ),
             patch(
-                "mail_sovereignty.preprocess.lookup_spf",
+                "mail_sovereignty.preprocess.lookup_txt",
                 new_callable=AsyncMock,
-                return_value="",
+                return_value=("", {}),
             ),
             patch(
                 "mail_sovereignty.preprocess.resolve_spf_includes",

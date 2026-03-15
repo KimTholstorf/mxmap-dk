@@ -54,32 +54,62 @@ async def lookup_mx(domain: str) -> list[str]:
     return []
 
 
-async def lookup_spf(domain: str) -> str:
-    """Return the SPF TXT record if found."""
+_VERIFICATION_PREFIXES: dict[str, str] = {
+    "ms=": "microsoft",
+    "google-site-verification=": "google",
+    "apple-domain-verification=": "apple",
+    "atlassian-domain-verification=": "atlassian",
+    "facebook-domain-verification=": "facebook",
+    "docusign=": "docusign",
+}
+
+
+async def lookup_txt(domain: str) -> tuple[str, dict[str, str]]:
+    """Return (SPF record, verification tokens) from TXT records.
+
+    Parses all TXT records in a single query: extracts the SPF record and
+    domain verification tokens (MS=, google-site-verification=, etc.).
+    """
     resolvers = get_resolvers()
     for i, resolver in enumerate(resolvers):
         try:
             answers = await resolver.resolve(domain, "TXT")
             spf_records = []
+            verifications: dict[str, str] = {}
             for r in answers:
                 txt = b"".join(r.strings).decode("utf-8", errors="ignore")
-                if txt.lower().startswith("v=spf1"):
+                txt_lower = txt.lower()
+                if txt_lower.startswith("v=spf1"):
                     spf_records.append(txt)
-            if spf_records:
-                return sorted(spf_records)[0]
-            return ""
+                else:
+                    for prefix, provider in _VERIFICATION_PREFIXES.items():
+                        if txt_lower.startswith(prefix):
+                            # Store the value after the prefix
+                            verifications[provider] = txt[len(prefix):]
+                            break
+            spf = sorted(spf_records)[0] if spf_records else ""
+            return spf, verifications
         except dns.resolver.NXDOMAIN:
-            return ""
+            return "", {}
         except _RETRYABLE as e:
             logger.debug(
-                "SPF %s: %s on resolver %d, retrying", domain, type(e).__name__, i
+                "TXT %s: %s on resolver %d, retrying", domain, type(e).__name__, i
             )
             await asyncio.sleep(0.5)
             continue
         except Exception:
             continue
-    logger.info("SPF %s: all resolvers failed", domain)
-    return ""
+    logger.info("TXT %s: all resolvers failed", domain)
+    return "", {}
+
+
+async def lookup_spf(domain: str) -> str:
+    """Return the SPF TXT record if found.
+
+    Convenience wrapper around lookup_txt() for callers that only need SPF.
+    """
+    spf, _ = await lookup_txt(domain)
+    return spf
 
 
 _SPF_INCLUDE_RE = re.compile(r"\binclude:(\S+)", re.IGNORECASE)

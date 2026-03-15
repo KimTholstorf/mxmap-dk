@@ -81,6 +81,24 @@ def _check_spf_all(
     return provider
 
 
+def classify_from_txt_verifications(
+    txt_verifications: dict[str, str] | None,
+) -> str | None:
+    """Classify provider from TXT domain verification tokens.
+
+    Only considers mail-hosting providers (microsoft, google).
+    """
+    if not txt_verifications:
+        return None
+    # MS= token proves a Microsoft 365 tenant exists
+    if "microsoft" in txt_verifications:
+        return "microsoft"
+    # google-site-verification= proves Google Workspace
+    if "google" in txt_verifications:
+        return "google"
+    return None
+
+
 def classify(
     mx_records: list[str],
     spf_record: str | None,
@@ -89,6 +107,7 @@ def classify(
     resolved_spf: str | None = None,
     autodiscover: dict[str, str] | None = None,
     dkim: dict[str, str] | None = None,
+    txt_verifications: dict[str, str] | None = None,
 ) -> tuple[str, str]:
     """Classify email provider based on MX, CNAME targets, SPF, autodiscover, and DKIM.
 
@@ -176,6 +195,12 @@ def classify(
             return dkim_provider, (
                 f"MX is {gateway} gateway; DKIM signs via {dkim_provider}"
             )
+        # TXT verification tokens as last resort for gateways
+        txt_provider = classify_from_txt_verifications(txt_verifications)
+        if txt_provider:
+            return txt_provider, (
+                f"MX is {gateway} gateway; TXT verification proves {txt_provider} tenant"
+            )
         # Gateway relays to unknown backend
         return "independent", (
             f"MX is {gateway} gateway; backend provider unknown"
@@ -196,6 +221,14 @@ def classify(
                     f"MX ({mx_display}) is local gateway; "
                     f"DKIM reveals {dkim_provider} backend"
                 )
+
+        # TXT verification tokens for unrecognized MX hosts
+        txt_provider = classify_from_txt_verifications(txt_verifications)
+        if txt_provider:
+            return txt_provider, (
+                f"MX ({mx_display}) is local gateway; "
+                f"TXT verification proves {txt_provider} tenant"
+            )
 
         is_local_isp = bool(mx_asns and mx_asns & LOCAL_ISP_ASNS.keys())
 

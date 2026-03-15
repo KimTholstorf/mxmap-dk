@@ -4,6 +4,7 @@ from mail_sovereignty.classify import (
     classify_from_mx,
     classify_from_smtp_banner,
     classify_from_spf,
+    classify_from_txt_verifications,
     detect_gateway,
     spf_mentions_providers,
 )
@@ -565,3 +566,113 @@ class TestClassifyFromSmtpBanner:
             )
             == "microsoft"
         )
+
+
+# ── classify_from_txt_verifications() ──────────────────────────────
+
+
+class TestClassifyFromTxtVerifications:
+    def test_none_returns_none(self):
+        assert classify_from_txt_verifications(None) is None
+
+    def test_empty_returns_none(self):
+        assert classify_from_txt_verifications({}) is None
+
+    def test_microsoft_token(self):
+        assert classify_from_txt_verifications({"microsoft": "ms77422356"}) == "microsoft"
+
+    def test_google_token(self):
+        assert classify_from_txt_verifications({"google": "R9vBEx8..."}) == "google"
+
+    def test_non_mail_provider_returns_none(self):
+        """Tokens like apple, atlassian, facebook don't identify mail hosting."""
+        assert classify_from_txt_verifications({"apple": "abc123"}) is None
+
+    def test_microsoft_takes_precedence_over_google(self):
+        """When both exist, microsoft wins (checked first)."""
+        assert classify_from_txt_verifications(
+            {"microsoft": "ms123", "google": "gv123"}
+        ) == "microsoft"
+
+
+# ── TXT verification in classify() ────────────────────────────────
+
+
+class TestClassifyTxtVerification:
+    def test_gateway_txt_microsoft_when_dkim_absent(self):
+        """Gateway with no DKIM/autodiscover but MS= token → microsoft."""
+        result = classify(
+            ["filter.seppmail.cloud"],
+            "",
+            txt_verifications={"microsoft": "ms77422356"},
+        )
+        assert provider(result) == "microsoft"
+        assert "TXT verification" in reason(result)
+
+    def test_gateway_txt_google_when_dkim_absent(self):
+        """Gateway with google-site-verification → google."""
+        result = classify(
+            ["filter.seppmail.cloud"],
+            "",
+            txt_verifications={"google": "R9vBEx8abcdef"},
+        )
+        assert provider(result) == "google"
+
+    def test_gateway_dkim_takes_precedence_over_txt(self):
+        """DKIM is more reliable than TXT tokens — DKIM wins."""
+        result = classify(
+            ["filter.seppmail.cloud"],
+            "",
+            dkim={"selector1": "selector1-x._domainkey.tenant.onmicrosoft.com"},
+            txt_verifications={"google": "gv123"},
+        )
+        assert provider(result) == "microsoft"
+        assert "DKIM" in reason(result)
+
+    def test_self_hosted_txt_microsoft(self):
+        """Unrecognized MX with no DKIM but MS= token → microsoft."""
+        result = classify(
+            ["mail.example.ee"],
+            "",
+            txt_verifications={"microsoft": "ms12345"},
+        )
+        assert provider(result) == "microsoft"
+        assert "TXT verification" in reason(result)
+
+    def test_self_hosted_dkim_takes_precedence_over_txt(self):
+        """DKIM beats TXT tokens for self-hosted MX."""
+        result = classify(
+            ["mail.example.ee"],
+            "",
+            dkim={"google": "google._domainkey.googlemail.com"},
+            txt_verifications={"microsoft": "ms12345"},
+        )
+        assert provider(result) == "google"
+        assert "DKIM" in reason(result)
+
+    def test_self_hosted_no_txt_stays_independent(self):
+        """Without TXT tokens, self-hosted MX stays independent."""
+        result = classify(
+            ["mail.example.ee"],
+            "",
+            txt_verifications={},
+        )
+        assert provider(result) == "independent"
+
+    def test_direct_mx_not_overridden_by_txt(self):
+        """Direct MX match takes precedence over TXT tokens."""
+        result = classify(
+            ["mail.protection.outlook.com"],
+            "",
+            txt_verifications={"google": "gv123"},
+        )
+        assert provider(result) == "microsoft"
+
+    def test_gateway_non_mail_txt_stays_independent(self):
+        """Non-mail TXT tokens (apple, facebook) don't classify."""
+        result = classify(
+            ["filter.seppmail.cloud"],
+            "",
+            txt_verifications={"apple": "abc123", "facebook": "def456"},
+        )
+        assert provider(result) == "independent"
