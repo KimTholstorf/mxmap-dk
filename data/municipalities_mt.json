@@ -3,476 +3,544 @@
     "id": "MT-01",
     "name": "Attard",
     "country": "MT",
-    "region": "Central",
-    "domain": ""
+    "region": "Northern Region",
+    "domain": "hattardlc.gov.mt",
+    "osm_relation_id": 7510551
   },
   {
     "id": "MT-02",
     "name": "Balzan",
     "country": "MT",
-    "region": "Central",
-    "domain": ""
+    "region": "Northern Region",
+    "domain": "balzanlc.gov.mt",
+    "osm_relation_id": 7510550
   },
   {
     "id": "MT-03",
-    "name": "Birkirkara",
+    "name": "Birgu",
     "country": "MT",
-    "region": "Central",
-    "domain": ""
+    "region": "Port Region",
+    "domain": "birgulc.gov.mt",
+    "osm_relation_id": 6172198
   },
   {
     "id": "MT-04",
-    "name": "Gżira",
+    "name": "Birkirkara",
     "country": "MT",
-    "region": "Central",
-    "domain": ""
+    "region": "Eastern Region",
+    "domain": "birkirkaralc.gov.mt",
+    "osm_relation_id": 7510585
   },
   {
     "id": "MT-05",
-    "name": "Iklin",
+    "name": "Birżebbuġa",
     "country": "MT",
-    "region": "Central",
-    "domain": "iklin.gov.mt"
+    "region": "Southern Region",
+    "domain": "birzebbugalc.gov.mt",
+    "osm_relation_id": 7510570
   },
   {
     "id": "MT-06",
-    "name": "Lija",
+    "name": "Bormla",
     "country": "MT",
-    "region": "Central",
-    "domain": ""
+    "region": "Port Region",
+    "domain": "bormlalc.gov.mt",
+    "osm_relation_id": 7510576
   },
   {
     "id": "MT-07",
-    "name": "Msida",
+    "name": "Dingli",
     "country": "MT",
-    "region": "Central",
-    "domain": ""
+    "region": "Western Region",
+    "domain": "dinglilc.gov.mt",
+    "osm_relation_id": 7510566
   },
   {
     "id": "MT-08",
-    "name": "Pietà",
+    "name": "Fgura",
     "country": "MT",
-    "region": "Central",
-    "domain": ""
+    "region": "Port Region",
+    "domain": "fguralc.gov.mt",
+    "osm_relation_id": 7510560
   },
   {
     "id": "MT-09",
-    "name": "San Ġiljan",
+    "name": "Floriana",
     "country": "MT",
-    "region": "Central",
-    "domain": ""
+    "region": "Port Region",
+    "domain": "florianalc.gov.mt",
+    "osm_relation_id": 7510581
   },
   {
     "id": "MT-10",
-    "name": "San Ġwann",
+    "name": "Fontana",
     "country": "MT",
-    "region": "Central",
-    "domain": ""
+    "region": "Gozo Region",
+    "domain": "fontanalc.gov.mt",
+    "osm_relation_id": 7508578
   },
   {
     "id": "MT-11",
-    "name": "Santa Venera",
+    "name": "Gudja",
     "country": "MT",
-    "region": "Central",
-    "domain": ""
+    "region": "Southern Region",
+    "domain": "gudjalc.gov.mt",
+    "osm_relation_id": 7510557
   },
   {
     "id": "MT-12",
-    "name": "Sliema",
+    "name": "Għajnsielem",
     "country": "MT",
-    "region": "Central",
-    "domain": ""
+    "region": "Gozo Region",
+    "domain": "ghajnsielemlc.gov.mt",
+    "osm_relation_id": 6311965
   },
   {
     "id": "MT-13",
-    "name": "Ta' Xbiex",
+    "name": "Għarb",
     "country": "MT",
-    "region": "Central",
-    "domain": ""
+    "region": "Gozo Region",
+    "domain": "gharblc.gov.mt",
+    "osm_relation_id": 7508581
   },
   {
     "id": "MT-14",
-    "name": "Fontana",
+    "name": "Għargħur",
     "country": "MT",
-    "region": "Gozo",
-    "domain": "lc.gov.mt"
+    "region": "Eastern Region",
+    "domain": "gharghurlc.gov.mt",
+    "osm_relation_id": 7510592
   },
   {
     "id": "MT-15",
-    "name": "Għajnsielem",
+    "name": "Għasri",
     "country": "MT",
-    "region": "Gozo",
-    "domain": ""
+    "region": "Gozo Region",
+    "domain": "ghasrilc.gov.mt",
+    "osm_relation_id": 7508582
   },
   {
     "id": "MT-16",
-    "name": "Għarb",
+    "name": "Għaxaq",
     "country": "MT",
-    "region": "Gozo",
-    "domain": ""
+    "region": "Southern Region",
+    "domain": "ghaxaqlc.gov.mt",
+    "osm_relation_id": 7510562
   },
   {
     "id": "MT-17",
-    "name": "Għasri",
+    "name": "Gżira",
     "country": "MT",
-    "region": "Gozo",
-    "domain": "ghasri.com"
+    "region": "Eastern Region",
+    "domain": "gziralc.gov.mt",
+    "osm_relation_id": 7510588
   },
   {
     "id": "MT-18",
-    "name": "Kerċem",
+    "name": "Ħamrun",
     "country": "MT",
-    "region": "Gozo",
-    "domain": ""
+    "region": "Southern Region",
+    "domain": "hamrunlc.gov.mt",
+    "osm_relation_id": 7510547
   },
   {
     "id": "MT-19",
-    "name": "Munxar",
+    "name": "Iklin",
     "country": "MT",
-    "region": "Gozo",
-    "domain": "munxar.com"
+    "region": "Eastern Region",
+    "domain": "iklinlc.gov.mt",
+    "osm_relation_id": 7510586
   },
   {
     "id": "MT-20",
-    "name": "Nadur",
+    "name": "Kalkara",
     "country": "MT",
-    "region": "Gozo",
-    "domain": "nadur.gov.mt"
+    "region": "Port Region",
+    "domain": "kalkaralc.gov.mt",
+    "osm_relation_id": 7510575
   },
   {
     "id": "MT-21",
-    "name": "Qala",
+    "name": "Kerċem",
     "country": "MT",
-    "region": "Gozo",
-    "domain": "qala.org.mt"
+    "region": "Gozo Region",
+    "domain": "kercemlc.gov.mt",
+    "osm_relation_id": 7508579
   },
   {
     "id": "MT-22",
-    "name": "San Lawrenz",
+    "name": "Kirkop",
     "country": "MT",
-    "region": "Gozo",
-    "domain": "sanlawrenz.com"
+    "region": "Western Region",
+    "domain": "kirkoplc.gov.mt",
+    "osm_relation_id": 7510554
   },
   {
     "id": "MT-23",
-    "name": "Sannat",
+    "name": "Lija",
     "country": "MT",
-    "region": "Gozo",
-    "domain": "sannat.org"
+    "region": "Eastern Region",
+    "domain": "lijalc.gov.mt",
+    "osm_relation_id": 7510593
   },
   {
     "id": "MT-24",
-    "name": "Victoria",
+    "name": "Luqa",
     "country": "MT",
-    "region": "Gozo",
-    "domain": ""
+    "region": "Southern Region",
+    "domain": "luqalc.gov.mt",
+    "osm_relation_id": 7510563
   },
   {
     "id": "MT-25",
-    "name": "Xagħra",
+    "name": "Marsa",
     "country": "MT",
-    "region": "Gozo",
-    "domain": "xaghra.com"
+    "region": "Southern Region",
+    "domain": "marsalc.gov.mt",
+    "osm_relation_id": 7510579
   },
   {
     "id": "MT-26",
-    "name": "Xewkija",
+    "name": "Marsaskala",
     "country": "MT",
-    "region": "Gozo",
-    "domain": "xewkija.com"
+    "region": "Southern Region",
+    "domain": "marsaskalalc.gov.mt",
+    "osm_relation_id": 7510572
   },
   {
     "id": "MT-27",
-    "name": "Żebbuġ",
+    "name": "Marsaxlokk",
     "country": "MT",
-    "region": "Gozo",
-    "domain": ""
+    "region": "Southern Region",
+    "domain": "marsaxlokklc.gov.mt",
+    "osm_relation_id": 7510571
   },
   {
     "id": "MT-28",
-    "name": "Dingli",
+    "name": "Mdina",
     "country": "MT",
-    "region": "Northern",
-    "domain": ""
+    "region": "Western Region",
+    "domain": "imdinalc.gov.mt",
+    "osm_relation_id": 7510549
   },
   {
     "id": "MT-29",
-    "name": "Għargħur",
+    "name": "Mellieħa",
     "country": "MT",
-    "region": "Northern",
-    "domain": ""
+    "region": "Northern Region",
+    "domain": "melliehalc.gov.mt",
+    "osm_relation_id": 6181422
   },
   {
     "id": "MT-30",
-    "name": "Mdina",
+    "name": "Mġarr",
     "country": "MT",
-    "region": "Northern",
-    "domain": ""
+    "region": "Northern Region",
+    "domain": "mgarrlc.gov.mt",
+    "osm_relation_id": 6172218
   },
   {
     "id": "MT-31",
-    "name": "Mellieħa",
+    "name": "Mosta",
     "country": "MT",
-    "region": "Northern",
-    "domain": ""
+    "region": "Northern Region",
+    "domain": "mostalc.gov.mt",
+    "osm_relation_id": 7510594
   },
   {
     "id": "MT-32",
-    "name": "Mosta",
+    "name": "Mqabba",
     "country": "MT",
-    "region": "Northern",
-    "domain": ""
+    "region": "Western Region",
+    "domain": "mqabbalc.gov.mt",
+    "osm_relation_id": 7510555
   },
   {
     "id": "MT-33",
-    "name": "Mtarfa",
+    "name": "Msida",
     "country": "MT",
-    "region": "Northern",
-    "domain": "mtarfalc.gov.mt"
+    "region": "Eastern Region",
+    "domain": "msidalc.gov.mt",
+    "osm_relation_id": 7510584
   },
   {
     "id": "MT-34",
-    "name": "Mġarr",
+    "name": "Mtarfa",
     "country": "MT",
-    "region": "Northern",
-    "domain": ""
+    "region": "Northern Region",
+    "domain": "mtarfalc.gov.mt",
+    "osm_relation_id": 7510564
   },
   {
     "id": "MT-35",
-    "name": "Naxxar",
+    "name": "Munxar",
     "country": "MT",
-    "region": "Northern",
-    "domain": ""
+    "region": "Gozo Region",
+    "domain": "munxarlc.gov.mt",
+    "osm_relation_id": 7508589
   },
   {
     "id": "MT-36",
-    "name": "Pembroke",
+    "name": "Nadur",
     "country": "MT",
-    "region": "Northern",
-    "domain": "pembroke.gov.mt"
+    "region": "Gozo Region",
+    "domain": "nadurlc.gov.mt",
+    "osm_relation_id": 7508587
   },
   {
     "id": "MT-37",
-    "name": "Rabat",
+    "name": "Naxxar",
     "country": "MT",
-    "region": "Northern",
-    "domain": ""
+    "region": "Northern Region",
+    "domain": "naxxarlc.gov.mt",
+    "osm_relation_id": 7510595
   },
   {
     "id": "MT-38",
-    "name": "San Pawl il-Baħar",
+    "name": "Paola",
     "country": "MT",
-    "region": "Northern",
-    "domain": ""
+    "region": "Port Region",
+    "domain": "paolalc.gov.mt",
+    "osm_relation_id": 7510577
   },
   {
     "id": "MT-39",
-    "name": "Swieqi",
+    "name": "Pembroke",
     "country": "MT",
-    "region": "Northern",
-    "domain": "swieqi.gov.mt"
+    "region": "Eastern Region",
+    "domain": "pembrokelc.gov.mt",
+    "osm_relation_id": 7510590
   },
   {
     "id": "MT-40",
-    "name": "Birgu",
+    "name": "Pietà",
     "country": "MT",
-    "region": "South Eastern",
-    "domain": ""
+    "region": "Eastern Region",
+    "domain": "pietalc.gov.mt",
+    "osm_relation_id": 7510582
   },
   {
     "id": "MT-41",
-    "name": "Bormla",
+    "name": "Qala",
     "country": "MT",
-    "region": "South Eastern",
-    "domain": ""
+    "region": "Gozo Region",
+    "domain": "qalalc.gov.mt",
+    "osm_relation_id": 7508586
   },
   {
     "id": "MT-42",
-    "name": "Fgura",
+    "name": "Qormi",
     "country": "MT",
-    "region": "South Eastern",
-    "domain": ""
+    "region": "Southern Region",
+    "domain": "qormilc.gov.mt",
+    "osm_relation_id": 7510556
   },
   {
     "id": "MT-43",
-    "name": "Floriana",
+    "name": "Qrendi",
     "country": "MT",
-    "region": "South Eastern",
-    "domain": ""
+    "region": "Western Region",
+    "domain": "qrendilc.gov.mt",
+    "osm_relation_id": 7510568
   },
   {
     "id": "MT-44",
-    "name": "Isla",
+    "name": "Rabat",
     "country": "MT",
-    "region": "South Eastern",
-    "domain": ""
+    "region": "Western Region",
+    "domain": "rabatmaltalc.gov.mt",
+    "osm_relation_id": 7510565
   },
   {
     "id": "MT-45",
-    "name": "Kalkara",
+    "name": "Safi",
     "country": "MT",
-    "region": "South Eastern",
-    "domain": ""
+    "region": "Western Region",
+    "domain": "safilc.gov.mt",
+    "osm_relation_id": 7510553
   },
   {
     "id": "MT-46",
-    "name": "Marsa",
+    "name": "San Ġiljan",
     "country": "MT",
-    "region": "South Eastern",
-    "domain": ""
+    "region": "Eastern Region",
+    "domain": "sangiljanlc.gov.mt",
+    "osm_relation_id": 7510589
   },
   {
     "id": "MT-47",
-    "name": "Marsaskala",
+    "name": "San Ġwann",
     "country": "MT",
-    "region": "South Eastern",
-    "domain": ""
+    "region": "Northern Region",
+    "domain": "sangwannlc.gov.mt",
+    "osm_relation_id": 7510587
   },
   {
     "id": "MT-48",
-    "name": "Marsaxlokk",
+    "name": "San Lawrenz",
     "country": "MT",
-    "region": "South Eastern",
-    "domain": ""
+    "region": "Gozo Region",
+    "domain": "sanlawrenzlc.gov.mt",
+    "osm_relation_id": 7508580
   },
   {
     "id": "MT-49",
-    "name": "Paola",
+    "name": "San Pawl il-Baħar",
     "country": "MT",
-    "region": "South Eastern",
-    "domain": ""
+    "region": "Northern Region",
+    "domain": "sanpawlilbaharlc.gov.mt",
+    "osm_relation_id": 7510596
   },
   {
     "id": "MT-50",
-    "name": "Tarxien",
+    "name": "Sannat",
     "country": "MT",
-    "region": "South Eastern",
-    "domain": ""
+    "region": "Gozo Region",
+    "domain": "sannatlc.gov.mt",
+    "osm_relation_id": 7508590
   },
   {
     "id": "MT-51",
-    "name": "Valletta",
+    "name": "Santa Luċija",
     "country": "MT",
-    "region": "South Eastern",
-    "domain": ""
+    "region": "Southern Region",
+    "domain": "santalucijalc.gov.mt",
+    "osm_relation_id": 7510558
   },
   {
     "id": "MT-52",
-    "name": "Xgħajra",
+    "name": "Santa Venera",
     "country": "MT",
-    "region": "South Eastern",
-    "domain": ""
+    "region": "Southern Region",
+    "domain": "santaveneralc.gov.mt",
+    "osm_relation_id": 7510548
   },
   {
     "id": "MT-53",
-    "name": "Żabbar",
+    "name": "Senglea",
     "country": "MT",
-    "region": "South Eastern",
-    "domain": ""
+    "region": "Port Region",
+    "domain": "islalc.gov.mt",
+    "osm_relation_id": 7510578
   },
   {
     "id": "MT-54",
-    "name": "Żejtun",
+    "name": "Siġġiewi",
     "country": "MT",
-    "region": "South Eastern",
-    "domain": ""
+    "region": "Western Region",
+    "domain": "siggiewilc.gov.mt",
+    "osm_relation_id": 7510567
   },
   {
     "id": "MT-55",
-    "name": "Birżebbuġa",
+    "name": "Sliema",
     "country": "MT",
-    "region": "Southern",
-    "domain": ""
+    "region": "Eastern Region",
+    "domain": "sliemalc.gov.mt",
+    "osm_relation_id": 6172199
   },
   {
     "id": "MT-56",
-    "name": "Gudja",
+    "name": "Swieqi",
     "country": "MT",
-    "region": "Southern",
-    "domain": ""
+    "region": "Eastern Region",
+    "domain": "swieqilc.gov.mt",
+    "osm_relation_id": 7510591
   },
   {
     "id": "MT-57",
-    "name": "Għaxaq",
+    "name": "Ta' Xbiex",
     "country": "MT",
-    "region": "Southern",
-    "domain": ""
+    "region": "Eastern Region",
+    "domain": "taxbiexlc.gov.mt",
+    "osm_relation_id": 7510583
   },
   {
     "id": "MT-58",
-    "name": "Kirkop",
+    "name": "Tarxien",
     "country": "MT",
-    "region": "Southern",
-    "domain": ""
+    "region": "Port Region",
+    "domain": "tarxienlc.gov.mt",
+    "osm_relation_id": 7510559
   },
   {
     "id": "MT-59",
-    "name": "Luqa",
+    "name": "Valletta",
     "country": "MT",
-    "region": "Southern",
-    "domain": ""
+    "region": "Port Region",
+    "domain": "beltvallettalc.gov.mt",
+    "osm_relation_id": 7510580
   },
   {
     "id": "MT-60",
-    "name": "Mqabba",
+    "name": "Victoria",
     "country": "MT",
-    "region": "Southern",
-    "domain": ""
+    "region": "Gozo Region",
+    "domain": "rabatgozolc.gov.mt",
+    "osm_relation_id": 7508583
   },
   {
     "id": "MT-61",
-    "name": "Qormi",
+    "name": "Xagħra",
     "country": "MT",
-    "region": "Southern",
-    "domain": ""
+    "region": "Gozo Region",
+    "domain": "xaghralc.gov.mt",
+    "osm_relation_id": 7508585
   },
   {
     "id": "MT-62",
-    "name": "Qrendi",
+    "name": "Xewkija",
     "country": "MT",
-    "region": "Southern",
-    "domain": ""
+    "region": "Gozo Region",
+    "domain": "xewkijalc.gov.mt",
+    "osm_relation_id": 7508588
   },
   {
     "id": "MT-63",
-    "name": "Safi",
+    "name": "Xgħajra",
     "country": "MT",
-    "region": "Southern",
-    "domain": ""
+    "region": "Port Region",
+    "domain": "xghajralc.gov.mt",
+    "osm_relation_id": 7510574
   },
   {
     "id": "MT-64",
-    "name": "Santa Luċija",
+    "name": "Żabbar",
     "country": "MT",
-    "region": "Southern",
-    "domain": ""
+    "region": "Port Region",
+    "domain": "zabbarlc.gov.mt",
+    "osm_relation_id": 7510573
   },
   {
     "id": "MT-65",
-    "name": "Siġġiewi",
+    "name": "Żebbuġ",
     "country": "MT",
-    "region": "Southern",
-    "domain": ""
+    "region": "Western Region",
+    "domain": "zebbugmaltalc.gov.mt",
+    "osm_relation_id": 7510552
   },
   {
     "id": "MT-66",
-    "name": "Ħamrun",
+    "name": "Żebbuġ (Gozo)",
     "country": "MT",
-    "region": "Southern",
-    "domain": ""
+    "region": "Gozo Region",
+    "domain": "zebbuggozolc.gov.mt",
+    "osm_relation_id": 7508584
   },
   {
     "id": "MT-67",
-    "name": "Żebbuġ",
+    "name": "Żejtun",
     "country": "MT",
-    "region": "Southern",
-    "domain": ""
+    "region": "Southern Region",
+    "domain": "zejtunlc.gov.mt",
+    "osm_relation_id": 7510561
   },
   {
     "id": "MT-68",
     "name": "Żurrieq",
     "country": "MT",
-    "region": "Southern",
-    "domain": ""
+    "region": "Western Region",
+    "domain": "zurrieqlc.gov.mt",
+    "osm_relation_id": 7510569
   }
 ]

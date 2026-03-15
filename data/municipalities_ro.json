@@ -1,327 +1,335 @@
 [
   {
-    "id": "RO-001",
-    "name": "Alba County",
+    "id": "RO-01",
+    "name": "Alba",
     "country": "RO",
     "region": "Romania",
     "domain": "cjalba.ro",
     "osm_relation_id": 194271
   },
   {
-    "id": "RO-002",
-    "name": "Arad County",
+    "id": "RO-02",
+    "name": "Arad",
     "country": "RO",
     "region": "Romania",
     "domain": "cjarad.ro",
     "osm_relation_id": 2248721
   },
   {
-    "id": "RO-003",
-    "name": "Argeș County",
+    "id": "RO-03",
+    "name": "Argeș",
     "country": "RO",
     "region": "Romania",
     "domain": "cjarges.ro",
     "osm_relation_id": 2261315
   },
   {
-    "id": "RO-004",
-    "name": "Bacău County",
+    "id": "RO-04",
+    "name": "Bacău",
     "country": "RO",
     "region": "Romania",
     "domain": "csjbacau.ro",
     "osm_relation_id": 2248681
   },
   {
-    "id": "RO-005",
-    "name": "Bihor County",
+    "id": "RO-05",
+    "name": "Bihor",
     "country": "RO",
     "region": "Romania",
     "domain": "cjbihor.ro",
     "osm_relation_id": 91731
   },
   {
-    "id": "RO-006",
-    "name": "Bistrița-Năsăud County",
+    "id": "RO-06",
+    "name": "Bistrița-Năsăud",
     "country": "RO",
     "region": "Romania",
     "domain": "portalbn.ro",
     "osm_relation_id": 55466
   },
   {
-    "id": "RO-007",
-    "name": "Botoșani County",
+    "id": "RO-07",
+    "name": "Botoșani",
     "country": "RO",
     "region": "Romania",
     "domain": "cjbotosani.ro",
     "osm_relation_id": 2256729
   },
   {
-    "id": "RO-008",
-    "name": "Brașov County",
+    "id": "RO-08",
+    "name": "Brașov",
     "country": "RO",
     "region": "Romania",
     "domain": "judbrasov.ro",
     "osm_relation_id": 2248612
   },
   {
-    "id": "RO-009",
-    "name": "Brăila County",
+    "id": "RO-09",
+    "name": "Brăila",
     "country": "RO",
     "region": "Romania",
     "domain": "cjbraila.ro",
     "osm_relation_id": 2355512
   },
   {
-    "id": "RO-010",
-    "name": "Buzău County",
+    "id": "RO-10",
+    "name": "București",
+    "country": "RO",
+    "region": "București-Ilfov",
+    "domain": "pmb.ro",
+    "osm_relation_id": 377733
+  },
+  {
+    "id": "RO-11",
+    "name": "Buzău",
     "country": "RO",
     "region": "Romania",
     "domain": "cjbuzau.ro",
     "osm_relation_id": 2355511
   },
   {
-    "id": "RO-011",
-    "name": "Caraș-Severin County",
+    "id": "RO-12",
+    "name": "Caraș-Severin",
     "country": "RO",
     "region": "Romania",
     "domain": "cjcs.ro",
     "osm_relation_id": 2366873
   },
   {
-    "id": "RO-012",
-    "name": "Cluj County",
+    "id": "RO-13",
+    "name": "Cluj",
     "country": "RO",
     "region": "Romania",
     "domain": "prefecturacluj.ro",
     "osm_relation_id": 91733
   },
   {
-    "id": "RO-013",
-    "name": "Constanța County",
+    "id": "RO-14",
+    "name": "Constanța",
     "country": "RO",
     "region": "Romania",
     "domain": "cjc.ro",
     "osm_relation_id": 2367022
   },
   {
-    "id": "RO-014",
-    "name": "Covasna County",
+    "id": "RO-15",
+    "name": "Covasna",
     "country": "RO",
     "region": "Romania",
     "domain": "covasna.info.ro",
     "osm_relation_id": 2248621
   },
   {
-    "id": "RO-015",
-    "name": "Călărași County",
+    "id": "RO-16",
+    "name": "Călărași",
     "country": "RO",
     "region": "Romania",
     "domain": "calarasi.ro",
     "osm_relation_id": 2367015
   },
   {
-    "id": "RO-016",
-    "name": "Dolj County",
+    "id": "RO-17",
+    "name": "Dolj",
     "country": "RO",
     "region": "Romania",
     "domain": "cjdolj.ro",
     "osm_relation_id": 2366970
   },
   {
-    "id": "RO-017",
-    "name": "Dâmbovița County",
+    "id": "RO-18",
+    "name": "Dâmbovița",
     "country": "RO",
     "region": "Romania",
     "domain": "cjd.ro",
     "osm_relation_id": 2355471
   },
   {
-    "id": "RO-018",
-    "name": "Galați County",
+    "id": "RO-19",
+    "name": "Galați",
     "country": "RO",
     "region": "Romania",
     "domain": "cjgalati.ro",
     "osm_relation_id": 2260192
   },
   {
-    "id": "RO-019",
-    "name": "Giurgiu County",
+    "id": "RO-20",
+    "name": "Giurgiu",
     "country": "RO",
     "region": "Romania",
     "domain": "cjgiurgiu.ro",
     "osm_relation_id": 2366987
   },
   {
-    "id": "RO-020",
-    "name": "Gorj County",
+    "id": "RO-21",
+    "name": "Gorj",
     "country": "RO",
     "region": "Romania",
     "domain": "cjgorj.ro",
     "osm_relation_id": 2261275
   },
   {
-    "id": "RO-021",
-    "name": "Harghita County",
+    "id": "RO-22",
+    "name": "Harghita",
     "country": "RO",
     "region": "Romania",
     "domain": "harghitacounty.ro",
     "osm_relation_id": 2248660
   },
   {
-    "id": "RO-022",
-    "name": "Hunedoara County",
+    "id": "RO-23",
+    "name": "Hunedoara",
     "country": "RO",
     "region": "Romania",
     "domain": "prefecturahunedoara.ro",
     "osm_relation_id": 2248737
   },
   {
-    "id": "RO-023",
-    "name": "Ialomița County",
+    "id": "RO-24",
+    "name": "Ialomița",
     "country": "RO",
     "region": "Romania",
     "domain": "prefecturaialomita.ro",
     "osm_relation_id": 2355517
   },
   {
-    "id": "RO-024",
-    "name": "Iași County",
+    "id": "RO-25",
+    "name": "Iași",
     "country": "RO",
     "region": "Romania",
     "domain": "is.prefectura.mai.gov.ro",
     "osm_relation_id": 2256747
   },
   {
-    "id": "RO-025",
-    "name": "Ilfov County",
+    "id": "RO-26",
+    "name": "Ilfov",
     "country": "RO",
     "region": "Romania",
     "domain": "prefecturailfov.ro",
     "osm_relation_id": 2366996
   },
   {
-    "id": "RO-026",
-    "name": "Maramureș County",
+    "id": "RO-27",
+    "name": "Maramureș",
     "country": "RO",
     "region": "Romania",
     "domain": "mm.prefectura.mai.gov.ro",
     "osm_relation_id": 72481
   },
   {
-    "id": "RO-027",
-    "name": "Mehedinți County",
+    "id": "RO-28",
+    "name": "Mehedinți",
     "country": "RO",
     "region": "Romania",
     "domain": "prefecturamehedinti.ro",
     "osm_relation_id": 2366962
   },
   {
-    "id": "RO-028",
-    "name": "Mureș County",
+    "id": "RO-29",
+    "name": "Mureș",
     "country": "RO",
     "region": "Romania",
     "domain": "prefecturams.ro",
     "osm_relation_id": 2248573
   },
   {
-    "id": "RO-029",
-    "name": "Neamț County",
+    "id": "RO-30",
+    "name": "Neamț",
     "country": "RO",
     "region": "Romania",
     "domain": "prefecturaneamt.ro",
     "osm_relation_id": 2248675
   },
   {
-    "id": "RO-030",
-    "name": "Olt County",
+    "id": "RO-31",
+    "name": "Olt",
     "country": "RO",
     "region": "Romania",
     "domain": "prefecturaolt.ro",
     "osm_relation_id": 2366978
   },
   {
-    "id": "RO-031",
-    "name": "Prahova County",
+    "id": "RO-32",
+    "name": "Prahova",
     "country": "RO",
     "region": "Romania",
     "domain": "cjph.ro",
     "osm_relation_id": 2355507
   },
   {
-    "id": "RO-032",
-    "name": "Satu Mare County",
+    "id": "RO-33",
+    "name": "Satu Mare",
     "country": "RO",
     "region": "Romania",
     "domain": "prefecturasatumare.ro",
     "osm_relation_id": 72482
   },
   {
-    "id": "RO-033",
-    "name": "Sibiu County",
+    "id": "RO-34",
+    "name": "Sibiu",
     "country": "RO",
     "region": "Romania",
     "domain": "prefecturasibiu.ro",
     "osm_relation_id": 2248586
   },
   {
-    "id": "RO-034",
-    "name": "Suceava County",
+    "id": "RO-35",
+    "name": "Suceava",
     "country": "RO",
     "region": "Romania",
     "domain": "prefecturasuceava.ro",
     "osm_relation_id": 2077868
   },
   {
-    "id": "RO-035",
-    "name": "Sălaj County",
+    "id": "RO-36",
+    "name": "Sălaj",
     "country": "RO",
     "region": "Romania",
     "domain": "prefecturasalaj.ro",
     "osm_relation_id": 91685
   },
   {
-    "id": "RO-036",
-    "name": "Teleorman County",
+    "id": "RO-37",
+    "name": "Teleorman",
     "country": "RO",
     "region": "Romania",
     "domain": "prefecturateleorman.ro",
     "osm_relation_id": 2366986
   },
   {
-    "id": "RO-037",
-    "name": "Timiș County",
+    "id": "RO-38",
+    "name": "Timiș",
     "country": "RO",
     "region": "Romania",
     "domain": "cjtimis.ro",
     "osm_relation_id": 2366863
   },
   {
-    "id": "RO-038",
-    "name": "Tulcea County",
+    "id": "RO-39",
+    "name": "Tulcea",
     "country": "RO",
     "region": "Romania",
     "domain": "prefecturatulcea.ro",
     "osm_relation_id": 2367044
   },
   {
-    "id": "RO-039",
-    "name": "Vaslui County",
+    "id": "RO-40",
+    "name": "Vaslui",
     "country": "RO",
     "region": "Romania",
     "domain": "prefectura.vaslui.ro",
     "osm_relation_id": 2256753
   },
   {
-    "id": "RO-040",
-    "name": "Vrancea County",
+    "id": "RO-41",
+    "name": "Vrancea",
     "country": "RO",
     "region": "Romania",
     "domain": "prefecturavrancea.ro",
     "osm_relation_id": 2260187
   },
   {
-    "id": "RO-041",
-    "name": "Vâlcea County",
+    "id": "RO-42",
+    "name": "Vâlcea",
     "country": "RO",
     "region": "Romania",
     "domain": "prefecturavalcea.ro",
