@@ -191,6 +191,7 @@ def simple_merge(cc: str, patch_geojson: str):
             [
                 "mapshaper",
                 merged_geo,
+                "-snap",
                 "-simplify",
                 "15%",
                 "keep-shapes",

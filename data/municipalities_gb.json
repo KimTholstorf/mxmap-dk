@@ -2806,5 +2806,13 @@
     "region": "Wales",
     "domain": "merthyr.gov.uk",
     "osm_relation_id": 2750939
+  },
+  {
+    "id": "GB-IM",
+    "name": "Isle of Man",
+    "country": "GB",
+    "region": "Crown Dependencies",
+    "domain": "gov.im",
+    "osm_relation_id": 62269
   }
 ]
