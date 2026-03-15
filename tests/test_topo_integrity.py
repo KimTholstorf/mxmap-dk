@@ -22,7 +22,7 @@ MONOLITHIC_COUNTRIES = {"EE", "LV", "LT", "FI", "NO", "SE", "DE", "DK", "AD", "L
 STANDALONE_COUNTRIES = {"IS", "ES", "FR", "PL", "PT", "NL", "IT", "IE"}
 
 # Countries that use name-based matching (OSM IDs differ between seed data and TopoJSON)
-NAME_MATCHED_COUNTRIES = {"EE", "LV"}
+NAME_MATCHED_COUNTRIES = set()  # All countries now use ID matching
 
 ALL_COUNTRIES = MONOLITHIC_COUNTRIES | STANDALONE_COUNTRIES
 

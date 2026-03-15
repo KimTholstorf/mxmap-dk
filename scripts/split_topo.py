@@ -290,8 +290,11 @@ def main():
 
         if m:
             cc = m["country"]
-            # Preserve feature ID as property (mapshaper's -filter-fields strips id)
-            feature["properties"]["osm_id"] = feature.get("id", "")
+            # Use seed data's OSM relation ID (monolithic file has integer IDs)
+            osm_rel_id = m.get("osm_relation_id")
+            feature["properties"]["osm_id"] = (
+                f"relation/{osm_rel_id}" if osm_rel_id else feature.get("id", "")
+            )
             feature["properties"]["country"] = cc
             feature["properties"]["region"] = m.get("region", "")
             feature["properties"]["muni_id"] = m.get("id", "")
