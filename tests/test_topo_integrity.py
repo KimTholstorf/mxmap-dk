@@ -19,7 +19,7 @@ DATA_PATH = ROOT / "data.json"
 MONOLITHIC_COUNTRIES = {"EE", "LV", "LT", "FI", "NO", "SE", "DE", "DK", "AD", "LU", "BE", "AT", "CZ", "GB"}
 
 # Countries with standalone TopoJSON files
-STANDALONE_COUNTRIES = {"IS", "ES", "FR", "PL", "PT", "NL", "IT", "IE", "SI", "BG", "SK"}
+STANDALONE_COUNTRIES = {"IS", "ES", "FR", "PL", "PT", "NL", "IT", "IE", "SI", "BG", "SK", "HR", "CY", "GR", "HU", "MT", "RO"}
 
 # Countries that use name-based matching (OSM IDs differ between seed data and TopoJSON)
 NAME_MATCHED_COUNTRIES = set()  # All countries now use ID matching
@@ -32,6 +32,7 @@ MIN_FEATURES = {
     "DE": 395, "DK": 95, "AD": 7, "LU": 95, "BE": 560, "AT": 2070, "CZ": 75,
     "IS": 60, "ES": 50, "FR": 90, "PL": 370, "PT": 300, "NL": 330,
     "IT": 100, "IE": 25, "SI": 200, "BG": 25, "SK": 70, "GB": 280,
+    "HR": 530, "CY": 15, "GR": 320, "HU": 170, "MT": 60, "RO": 40,
 }
 
 
@@ -174,6 +175,59 @@ class TestTopoDataMatching:
             f"({match_pct:.0f}%) match topo features. "
             f"Map polygons will appear gray."
         )
+
+
+class TestZeroGaps:
+    """Ensure every data entry with an OSM ID has a matching TopoJSON polygon.
+
+    This is the definitive test for map coverage — any entry failing this
+    test will appear as a white gap on the map.
+    """
+
+    def test_no_gaps_across_all_countries(self, manifest, data_json):
+        """Every municipality with an OSM ID must have a TopoJSON polygon."""
+        gaps = {}
+
+        for cc in sorted(ALL_COUNTRIES):
+            if cc not in manifest:
+                continue
+
+            entries = [
+                m for m in data_json["municipalities"].values()
+                if m.get("country") == cc and m.get("osm_relation_id")
+            ]
+            if not entries:
+                continue
+
+            filename = manifest[cc]["files"]["municipality"]
+            topo_path = TOPO_DIR / filename
+            if not topo_path.exists():
+                gaps[cc] = [m["name"] for m in entries]
+                continue
+
+            with open(topo_path) as f:
+                topo = json.load(f)
+            obj = list(topo["objects"].keys())[0]
+            geoms = topo["objects"][obj]["geometries"]
+            topo_ids = {g["id"] for g in geoms if g.get("id")}
+
+            missing = [
+                m["name"]
+                for m in entries
+                if f"relation/{m['osm_relation_id']}" not in topo_ids
+            ]
+            if missing:
+                gaps[cc] = missing
+
+        if gaps:
+            total = sum(len(v) for v in gaps.values())
+            details = "; ".join(
+                f"{cc}: {len(names)} ({', '.join(names[:3])}{'...' if len(names) > 3 else ''})"
+                for cc, names in sorted(gaps.items())
+            )
+            pytest.fail(
+                f"{total} municipalities have no map polygon: {details}"
+            )
 
 
 class TestRegionFiles:
