@@ -1146,5 +1146,13 @@
     "region": "Federation of Bosnia and Herzegovina",
     "domain": "opcina-zepce.com",
     "osm_relation_id": 2528294
+  },
+  {
+    "id": "BA-145",
+    "name": "Brčko",
+    "country": "BA",
+    "region": "Brčko District",
+    "domain": "bdcentral.net",
+    "osm_relation_id": 2528143
   }
 ]
