@@ -313,35 +313,79 @@ def load_seed_data() -> dict[str, dict[str, str]]:
 
 
 async def scan_municipality(
-    m: dict[str, str], semaphore: asyncio.Semaphore
+    m: dict[str, str],
+    semaphore: asyncio.Semaphore,
+    dns_cache=None,
 ) -> dict[str, Any]:
     """Scan a single municipality for email provider info."""
     async with semaphore:
         domain = url_to_domain(m.get("website", ""))
         mx, spf = [], ""
 
-        if domain:
-            mx = await lookup_mx(domain)
-            if mx:
-                spf = await lookup_spf(domain)
+        # Check DNS cache first
+        cached = dns_cache.get_domain(domain) if dns_cache and domain else None
+        if cached:
+            mx = cached.get("mx", [])
+            spf = cached.get("spf", "")
+            if not mx:
+                # Cache says no MX for this domain — still try guessing
+                cached = None
 
-        if not mx:
-            country = m.get("country", "")
-            for guess in guess_domains(m["name"], country):
-                if guess == domain:
-                    continue
-                mx = await lookup_mx(guess)
+        if not cached:
+            if domain:
+                mx = await lookup_mx(domain)
                 if mx:
-                    domain = guess
-                    spf = await lookup_spf(guess)
-                    break
+                    spf = await lookup_spf(domain)
 
-        spf_resolved = await resolve_spf_includes(spf) if spf else ""
-        mx_cnames = await resolve_mx_cnames(mx) if mx else {}
-        mx_asns = await resolve_mx_asns(mx) if mx else set()
-        mx_countries = await resolve_mx_countries(mx) if mx else set()
-        autodiscover = await lookup_autodiscover(domain) if domain else {}
-        dkim = await lookup_dkim(domain) if domain else {}
+            if not mx:
+                country = m.get("country", "")
+                for guess in guess_domains(m["name"], country):
+                    if guess == domain:
+                        continue
+                    # Check cache for guessed domain too
+                    gcached = (
+                        dns_cache.get_domain(guess) if dns_cache else None
+                    )
+                    if gcached and gcached.get("mx"):
+                        mx = gcached["mx"]
+                        spf = gcached.get("spf", "")
+                        domain = guess
+                        cached = gcached
+                        break
+                    mx = await lookup_mx(guess)
+                    if mx:
+                        domain = guess
+                        spf = await lookup_spf(guess)
+                        break
+
+        if cached and mx:
+            # Use cached derived data
+            spf_resolved = cached.get("spf_resolved", "")
+            mx_cnames = cached.get("mx_cnames", {})
+            mx_asns = set(cached.get("mx_asns", []))
+            mx_countries = set(cached.get("mx_countries", []))
+            autodiscover = cached.get("autodiscover", {})
+            dkim = cached.get("dkim", {})
+        else:
+            # Fresh DNS lookups
+            spf_resolved = await resolve_spf_includes(spf) if spf else ""
+            mx_cnames = await resolve_mx_cnames(mx) if mx else {}
+            mx_asns = await resolve_mx_asns(mx) if mx else set()
+            mx_countries = await resolve_mx_countries(mx) if mx else set()
+            autodiscover = await lookup_autodiscover(domain) if domain else {}
+            dkim = await lookup_dkim(domain) if domain else {}
+
+            # Store in cache
+            if dns_cache and domain:
+                dns_cache.set_domain(domain, {
+                    "mx": mx, "spf": spf,
+                    "spf_resolved": spf_resolved,
+                    "mx_cnames": mx_cnames,
+                    "mx_asns": sorted(mx_asns) if mx_asns else [],
+                    "mx_countries": sorted(mx_countries) if mx_countries else [],
+                    "autodiscover": autodiscover,
+                    "dkim": dkim,
+                })
         provider, reason = classify(
             mx,
             spf,
@@ -416,8 +460,22 @@ async def run(output_path: Path, countries: list[str] | None = None) -> None:
     print(f"\nScanning {total} municipalities for MX/SPF records...")
     print("(This takes a few minutes with async lookups)\n")
 
+    # Initialize per-country DNS caches
+    from mail_sovereignty.dns_cache import DnsCache
+
+    active_countries = countries or sorted(
+        {m.get("country", "") for m in municipalities.values()}
+    )
+    caches = {cc: DnsCache(cc) for cc in active_countries}
+
+    def get_cache(m):
+        return caches.get(m.get("country", ""))
+
     semaphore = asyncio.Semaphore(CONCURRENCY)
-    tasks = [scan_municipality(m, semaphore) for m in municipalities.values()]
+    tasks = [
+        scan_municipality(m, semaphore, dns_cache=get_cache(m))
+        for m in municipalities.values()
+    ]
 
     results = {}
     done = 0
@@ -441,6 +499,10 @@ async def run(output_path: Path, countries: list[str] | None = None) -> None:
                 f"Indep={counts.get('independent', 0)}  "
                 f"?={counts.get('unknown', 0)}"
             )
+
+    # Save DNS caches
+    for cache in caches.values():
+        cache.save()
 
     counts = {}
     for r in results.values():
