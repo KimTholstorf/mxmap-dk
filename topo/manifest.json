@@ -11,8 +11,8 @@
       "municipality": "ee_municipality.topo.json"
     },
     "sizes": {
-      "ee_region.topo.json": 10407,
-      "ee_municipality.topo.json": 35405
+      "ee_region.topo.json": 40303,
+      "ee_municipality.topo.json": 113657
     }
   },
   "LV": {
@@ -27,7 +27,7 @@
       "municipality": "lv_municipality.topo.json"
     },
     "sizes": {
-      "lv_municipality.topo.json": 19044
+      "lv_municipality.topo.json": 44888
     }
   },
   "LT": {
@@ -42,8 +42,8 @@
       "municipality": "lt_municipality.topo.json"
     },
     "sizes": {
-      "lt_region.topo.json": 5935,
-      "lt_municipality.topo.json": 26267
+      "lt_region.topo.json": 12049,
+      "lt_municipality.topo.json": 48482
     }
   },
   "FI": {
@@ -58,8 +58,8 @@
       "municipality": "fi_municipality.topo.json"
     },
     "sizes": {
-      "fi_region.topo.json": 8212,
-      "fi_municipality.topo.json": 76602
+      "fi_region.topo.json": 8173,
+      "fi_municipality.topo.json": 76731
     }
   },
   "NO": {
@@ -74,8 +74,8 @@
       "municipality": "no_municipality.topo.json"
     },
     "sizes": {
-      "no_region.topo.json": 9291,
-      "no_municipality.topo.json": 114039
+      "no_region.topo.json": 23656,
+      "no_municipality.topo.json": 240941
     }
   },
   "IS": {
@@ -106,8 +106,8 @@
       "municipality": "se_municipality.topo.json"
     },
     "sizes": {
-      "se_region.topo.json": 8426,
-      "se_municipality.topo.json": 71184
+      "se_region.topo.json": 8483,
+      "se_municipality.topo.json": 71501
     }
   },
   "DE": {
@@ -122,8 +122,8 @@
       "municipality": "de_municipality.topo.json"
     },
     "sizes": {
-      "de_region.topo.json": 19446,
-      "de_municipality.topo.json": 144429
+      "de_region.topo.json": 110288,
+      "de_municipality.topo.json": 737444
     }
   },
   "DK": {
@@ -138,8 +138,8 @@
       "municipality": "dk_municipality.topo.json"
     },
     "sizes": {
-      "dk_region.topo.json": 19545,
-      "dk_municipality.topo.json": 53614
+      "dk_region.topo.json": 34345,
+      "dk_municipality.topo.json": 89273
     }
   },
   "AD": {
@@ -154,7 +154,7 @@
       "municipality": "ad_municipality.topo.json"
     },
     "sizes": {
-      "ad_municipality.topo.json": 1661
+      "ad_municipality.topo.json": 3643
     }
   },
   "LU": {
@@ -169,8 +169,8 @@
       "municipality": "lu_municipality.topo.json"
     },
     "sizes": {
-      "lu_region.topo.json": 4076,
-      "lu_municipality.topo.json": 20800
+      "lu_region.topo.json": 15321,
+      "lu_municipality.topo.json": 68251
     }
   },
   "BE": {
@@ -185,9 +185,9 @@
       "municipality": "be_municipality.topo.json"
     },
     "sizes": {
-      "be_region.topo.json": 10411,
-      "be_district.topo.json": 22869,
-      "be_municipality.topo.json": 110336
+      "be_region.topo.json": 33016,
+      "be_district.topo.json": 92254,
+      "be_municipality.topo.json": 322114
     }
   },
   "AT": {
@@ -202,9 +202,9 @@
       "municipality": "at_municipality.topo.json"
     },
     "sizes": {
-      "at_region.topo.json": 19412,
-      "at_district.topo.json": 54621,
-      "at_municipality.topo.json": 435250
+      "at_region.topo.json": 54045,
+      "at_district.topo.json": 209489,
+      "at_municipality.topo.json": 1052997
     }
   },
   "CZ": {
@@ -219,8 +219,8 @@
       "municipality": "cz_municipality.topo.json"
     },
     "sizes": {
-      "cz_region.topo.json": 478,
-      "cz_municipality.topo.json": 643
+      "cz_region.topo.json": 63280,
+      "cz_municipality.topo.json": 235323
     }
   },
   "ES": {
@@ -251,8 +251,8 @@
       "municipality": "fr_municipality.topo.json"
     },
     "sizes": {
-      "fr_region.topo.json": 13679,
-      "fr_municipality.topo.json": 73911
+      "fr_municipality.topo.json": 73911,
+      "fr_region.topo.json": 13679
     }
   },
   "PL": {
@@ -267,8 +267,8 @@
       "municipality": "pl_municipality.topo.json"
     },
     "sizes": {
-      "pl_region.topo.json": 92956,
-      "pl_municipality.topo.json": 768689
+      "pl_municipality.topo.json": 768689,
+      "pl_region.topo.json": 92956
     }
   },
   "PT": {
@@ -283,8 +283,8 @@
       "municipality": "pt_municipality.topo.json"
     },
     "sizes": {
-      "pt_region.topo.json": 78675,
-      "pt_municipality.topo.json": 406581
+      "pt_municipality.topo.json": 406581,
+      "pt_region.topo.json": 78675
     }
   },
   "NL": {
@@ -299,8 +299,8 @@
       "municipality": "nl_municipality.topo.json"
     },
     "sizes": {
-      "nl_region.topo.json": 48449,
-      "nl_municipality.topo.json": 399555
+      "nl_municipality.topo.json": 399555,
+      "nl_region.topo.json": 48449
     }
   },
   "IT": {
@@ -331,8 +331,8 @@
       "municipality": "ie_municipality.topo.json"
     },
     "sizes": {
-      "ie_region.topo.json": 198815,
-      "ie_municipality.topo.json": 478415
+      "ie_municipality.topo.json": 478415,
+      "ie_region.topo.json": 198815
     }
   }
 }
