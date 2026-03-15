@@ -40,6 +40,8 @@ SEED_FILES = {
     "IS": "municipalities_is.json",
     "ES": "municipalities_es.json",
     "FR": "municipalities_fr.json",
+    "PL": "municipalities_pl.json",
+    "PT": "municipalities_pt.json",
 }
 
 
@@ -72,6 +74,13 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         "conseil départemental de ",
         "conseil départemental du ",
         "conseil départemental des ",
+        "powiat ",
+        "município de ",
+        "município do ",
+        "município da ",
+        "câmara municipal de ",
+        "câmara municipal do ",
+        "câmara municipal da ",
     ]:
         if raw.startswith(prefix):
             raw = raw[len(prefix) :]
@@ -138,6 +147,15 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         ("é", "e"),
         ("ó", "o"),  # Icelandic accents
         ("ñ", "n"),  # Spanish
+        ("ã", "a"),  # Portuguese
+        ("ą", "a"),
+        ("ć", "c"),
+        ("ę", "e"),
+        ("ł", "l"),
+        ("ń", "n"),
+        ("ś", "s"),
+        ("ź", "z"),
+        ("ż", "z"),  # Polish
         ("è", "e"),
         ("ê", "e"),
         ("ë", "e"),
@@ -200,6 +218,8 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         "IS": [".is"],
         "ES": [".es", ".gob.es", ".cat", ".eus", ".gal"],
         "FR": [".fr", ".gouv.fr"],
+        "PL": [".pl", ".gov.pl"],
+        "PT": [".pt"],
     }
     tlds = tld_map.get(
         country, [".ee", ".lv", ".lt", ".fi", ".no", ".se", ".de", ".dk"]
@@ -209,6 +229,9 @@ def guess_domains(name: str, country: str = "") -> list[str]:
     for slug in slugs:
         for tld in tlds:
             candidates.add(f"{slug}{tld}")
+        # Portuguese municipalities commonly use cm-name.pt
+        if country == "PT" or not country:
+            candidates.add(f"cm-{slug}.pt")
     return sorted(candidates)
 
 

@@ -1,0 +1,3042 @@
+[
+  {
+    "id": "PL-0001",
+    "name": "Jelenia Góra",
+    "country": "PL",
+    "region": "Dolnośląskie",
+    "domain": "jeleniagora.pl",
+    "osm_relation_id": 451269
+  },
+  {
+    "id": "PL-0002",
+    "name": "Legnica",
+    "country": "PL",
+    "region": "Dolnośląskie",
+    "domain": "portal.legnica.eu",
+    "osm_relation_id": 451305
+  },
+  {
+    "id": "PL-0003",
+    "name": "Powiat Bolesławiecki",
+    "country": "PL",
+    "region": "Dolnośląskie",
+    "domain": "powiatboleslawiecki.pl",
+    "osm_relation_id": 451266
+  },
+  {
+    "id": "PL-0004",
+    "name": "Powiat Dzierżoniowski",
+    "country": "PL",
+    "region": "Dolnośląskie",
+    "domain": "pow.dzierzoniow.pl",
+    "osm_relation_id": 451512
+  },
+  {
+    "id": "PL-0005",
+    "name": "Powiat Górowski",
+    "country": "PL",
+    "region": "Dolnośląskie",
+    "domain": "powiatgora.pl",
+    "osm_relation_id": 451318
+  },
+  {
+    "id": "PL-0006",
+    "name": "Powiat Głogowski",
+    "country": "PL",
+    "region": "Dolnośląskie",
+    "domain": "powiat.glogow.pl",
+    "osm_relation_id": 451316
+  },
+  {
+    "id": "PL-0007",
+    "name": "Powiat Jaworski",
+    "country": "PL",
+    "region": "Dolnośląskie",
+    "domain": "powiat-jawor.org.pl",
+    "osm_relation_id": 451358
+  },
+  {
+    "id": "PL-0008",
+    "name": "Powiat Kamiennogórski",
+    "country": "PL",
+    "region": "Dolnośląskie",
+    "domain": "kamienna-gora.pl",
+    "osm_relation_id": 451270
+  },
+  {
+    "id": "PL-0009",
+    "name": "Powiat Karkonoski",
+    "country": "PL",
+    "region": "Dolnośląskie",
+    "domain": "powiatkarkonoski.eu",
+    "osm_relation_id": 451268
+  },
+  {
+    "id": "PL-0010",
+    "name": "Powiat Kłodzki",
+    "country": "PL",
+    "region": "Dolnośląskie",
+    "domain": "powiat.klodzko.pl",
+    "osm_relation_id": 451361
+  },
+  {
+    "id": "PL-0011",
+    "name": "Powiat Legnicki",
+    "country": "PL",
+    "region": "Dolnośląskie",
+    "domain": "powiat-legnicki.eu",
+    "osm_relation_id": 451304
+  },
+  {
+    "id": "PL-0012",
+    "name": "Powiat Lubański",
+    "country": "PL",
+    "region": "Dolnośląskie",
+    "domain": "powiatluban.pl",
+    "osm_relation_id": 451265
+  },
+  {
+    "id": "PL-0013",
+    "name": "Powiat Lubiński",
+    "country": "PL",
+    "region": "Dolnośląskie",
+    "domain": "powiat-lubin.pl",
+    "osm_relation_id": 451317
+  },
+  {
+    "id": "PL-0014",
+    "name": "Powiat Lwówecki",
+    "country": "PL",
+    "region": "Dolnośląskie",
+    "domain": "powiatlwowecki.pl",
+    "osm_relation_id": 451267
+  },
+  {
+    "id": "PL-0015",
+    "name": "Powiat Milicki",
+    "country": "PL",
+    "region": "Dolnośląskie",
+    "domain": "milicz-powiat.pl",
+    "osm_relation_id": 451527
+  },
+  {
+    "id": "PL-0016",
+    "name": "Powiat Oleśnicki",
+    "country": "PL",
+    "region": "Dolnośląskie",
+    "domain": "powiat-olesnicki.pl",
+    "osm_relation_id": 451525
+  },
+  {
+    "id": "PL-0017",
+    "name": "Powiat Oławski",
+    "country": "PL",
+    "region": "Dolnośląskie",
+    "domain": "starostwo.olawa.pl",
+    "osm_relation_id": 451515
+  },
+  {
+    "id": "PL-0018",
+    "name": "Powiat Polkowicki",
+    "country": "PL",
+    "region": "Dolnośląskie",
+    "domain": "powiatpolkowicki.pl",
+    "osm_relation_id": 451315
+  },
+  {
+    "id": "PL-0019",
+    "name": "Powiat Strzeliński",
+    "country": "PL",
+    "region": "Dolnośląskie",
+    "domain": "powiatstrzelinski.pl",
+    "osm_relation_id": 451514
+  },
+  {
+    "id": "PL-0020",
+    "name": "Powiat Trzebnicki",
+    "country": "PL",
+    "region": "Dolnośląskie",
+    "domain": "powiat.trzebnica.net",
+    "osm_relation_id": 451526
+  },
+  {
+    "id": "PL-0021",
+    "name": "Powiat Wałbrzyski",
+    "country": "PL",
+    "region": "Dolnośląskie",
+    "domain": "powiat.walbrzych.pl",
+    "osm_relation_id": 451359
+  },
+  {
+    "id": "PL-0022",
+    "name": "Powiat Wołowski",
+    "country": "PL",
+    "region": "Dolnośląskie",
+    "domain": "powiatwolowski.pl",
+    "osm_relation_id": 451510
+  },
+  {
+    "id": "PL-0023",
+    "name": "Powiat Wrocławski",
+    "country": "PL",
+    "region": "Dolnośląskie",
+    "domain": "powiatwroclawski.pl",
+    "osm_relation_id": 451517
+  },
+  {
+    "id": "PL-0024",
+    "name": "Powiat Zgorzelecki",
+    "country": "PL",
+    "region": "Dolnośląskie",
+    "domain": "powiat.zgorzelec.pl",
+    "osm_relation_id": 451224
+  },
+  {
+    "id": "PL-0025",
+    "name": "Powiat Ząbkowicki",
+    "country": "PL",
+    "region": "Dolnośląskie",
+    "domain": "zabkowice-powiat.pl",
+    "osm_relation_id": 451513
+  },
+  {
+    "id": "PL-0026",
+    "name": "Powiat Złotoryjski",
+    "country": "PL",
+    "region": "Dolnośląskie",
+    "domain": "powiat-zlotoryja.pl",
+    "osm_relation_id": 451303
+  },
+  {
+    "id": "PL-0027",
+    "name": "Powiat Średzki",
+    "country": "PL",
+    "region": "Dolnośląskie",
+    "domain": "powiat-sredzki.pl",
+    "osm_relation_id": 451511
+  },
+  {
+    "id": "PL-0028",
+    "name": "Powiat Świdnicki",
+    "country": "PL",
+    "region": "Dolnośląskie",
+    "domain": "swidnica.pl",
+    "osm_relation_id": 451360
+  },
+  {
+    "id": "PL-0029",
+    "name": "Wałbrzych",
+    "country": "PL",
+    "region": "Dolnośląskie",
+    "domain": "um.walbrzych.pl",
+    "osm_relation_id": 2773118
+  },
+  {
+    "id": "PL-0030",
+    "name": "Wrocław",
+    "country": "PL",
+    "region": "Dolnośląskie",
+    "domain": "wroclaw.pl",
+    "osm_relation_id": 451516
+  },
+  {
+    "id": "PL-0031",
+    "name": "Bydgoszcz",
+    "country": "PL",
+    "region": "Kujawsko-Pomorskie",
+    "domain": "bydgoszcz.pl",
+    "osm_relation_id": 358688
+  },
+  {
+    "id": "PL-0032",
+    "name": "Grudziądz",
+    "country": "PL",
+    "region": "Kujawsko-Pomorskie",
+    "domain": "grudziadz.pl",
+    "osm_relation_id": 2106281
+  },
+  {
+    "id": "PL-0033",
+    "name": "Powiat Aleksandrowski",
+    "country": "PL",
+    "region": "Kujawsko-Pomorskie",
+    "domain": "aleksandrow.pl",
+    "osm_relation_id": 2615964
+  },
+  {
+    "id": "PL-0034",
+    "name": "Powiat Brodnicki",
+    "country": "PL",
+    "region": "Kujawsko-Pomorskie",
+    "domain": "brodnica.com.pl",
+    "osm_relation_id": 2615923
+  },
+  {
+    "id": "PL-0035",
+    "name": "Powiat Bydgoski",
+    "country": "PL",
+    "region": "Kujawsko-Pomorskie",
+    "domain": "powiat.bydgoski.pl",
+    "osm_relation_id": 1277908
+  },
+  {
+    "id": "PL-0036",
+    "name": "Powiat Chełmiński",
+    "country": "PL",
+    "region": "Kujawsko-Pomorskie",
+    "domain": "powiat-chelmno.pl",
+    "osm_relation_id": 2615799
+  },
+  {
+    "id": "PL-0037",
+    "name": "Powiat Golubsko-dobrzyński",
+    "country": "PL",
+    "region": "Kujawsko-Pomorskie",
+    "domain": "golub-dobrzyn.com.pl",
+    "osm_relation_id": 2615932
+  },
+  {
+    "id": "PL-0038",
+    "name": "Powiat Grudziądzki",
+    "country": "PL",
+    "region": "Kujawsko-Pomorskie",
+    "domain": "powiatgrudziadzki.pl",
+    "osm_relation_id": 2570170
+  },
+  {
+    "id": "PL-0039",
+    "name": "Powiat Inowrocławski",
+    "country": "PL",
+    "region": "Kujawsko-Pomorskie",
+    "domain": "inowroclaw.powiat.pl",
+    "osm_relation_id": 1286782
+  },
+  {
+    "id": "PL-0040",
+    "name": "Powiat Lipnowski",
+    "country": "PL",
+    "region": "Kujawsko-Pomorskie",
+    "domain": "lipnowski.powiat.pl",
+    "osm_relation_id": 2616247
+  },
+  {
+    "id": "PL-0041",
+    "name": "Powiat Mogileński",
+    "country": "PL",
+    "region": "Kujawsko-Pomorskie",
+    "domain": "powiat.mogilno.pl",
+    "osm_relation_id": 1385334
+  },
+  {
+    "id": "PL-0042",
+    "name": "Powiat Nakielski",
+    "country": "PL",
+    "region": "Kujawsko-Pomorskie",
+    "domain": "powiat-nakielski.pl",
+    "osm_relation_id": 1286542
+  },
+  {
+    "id": "PL-0043",
+    "name": "Powiat Radziejowski",
+    "country": "PL",
+    "region": "Kujawsko-Pomorskie",
+    "domain": "radziejow.pl",
+    "osm_relation_id": 2616210
+  },
+  {
+    "id": "PL-0044",
+    "name": "Powiat Rypiński",
+    "country": "PL",
+    "region": "Kujawsko-Pomorskie",
+    "domain": "powiat.rypinski.lo.pl",
+    "osm_relation_id": 2616008
+  },
+  {
+    "id": "PL-0045",
+    "name": "Powiat Sępoleński",
+    "country": "PL",
+    "region": "Kujawsko-Pomorskie",
+    "domain": "powiat-sepolno.pl",
+    "osm_relation_id": 1284692
+  },
+  {
+    "id": "PL-0046",
+    "name": "Powiat Toruński",
+    "country": "PL",
+    "region": "Kujawsko-Pomorskie",
+    "domain": "powiattorunski.pl",
+    "osm_relation_id": 1686775
+  },
+  {
+    "id": "PL-0047",
+    "name": "Powiat Tucholski",
+    "country": "PL",
+    "region": "Kujawsko-Pomorskie",
+    "domain": "powiat.tuchola.pl",
+    "osm_relation_id": 1283562
+  },
+  {
+    "id": "PL-0048",
+    "name": "Powiat Wąbrzeski",
+    "country": "PL",
+    "region": "Kujawsko-Pomorskie",
+    "domain": "wabrzezno.pl",
+    "osm_relation_id": 2615887
+  },
+  {
+    "id": "PL-0049",
+    "name": "Powiat Włocławski",
+    "country": "PL",
+    "region": "Kujawsko-Pomorskie",
+    "domain": "powiat.wloclawski.pl",
+    "osm_relation_id": 2616205
+  },
+  {
+    "id": "PL-0050",
+    "name": "Powiat Świecki",
+    "country": "PL",
+    "region": "Kujawsko-Pomorskie",
+    "domain": "powiat.swiecki.lo.pl",
+    "osm_relation_id": 1277982
+  },
+  {
+    "id": "PL-0051",
+    "name": "Powiat Żniński",
+    "country": "PL",
+    "region": "Kujawsko-Pomorskie",
+    "domain": "znin.pl",
+    "osm_relation_id": 1286781
+  },
+  {
+    "id": "PL-0052",
+    "name": "Toruń",
+    "country": "PL",
+    "region": "Kujawsko-Pomorskie",
+    "domain": "torun.pl",
+    "osm_relation_id": 1937072
+  },
+  {
+    "id": "PL-0053",
+    "name": "Włocławek",
+    "country": "PL",
+    "region": "Kujawsko-Pomorskie",
+    "domain": "wloclawek.pl",
+    "osm_relation_id": 2615984
+  },
+  {
+    "id": "PL-0054",
+    "name": "Biała Podlaska",
+    "country": "PL",
+    "region": "Lubelskie",
+    "domain": "bialapodlaska.pl",
+    "osm_relation_id": 1692832
+  },
+  {
+    "id": "PL-0055",
+    "name": "Chełm",
+    "country": "PL",
+    "region": "Lubelskie",
+    "domain": "chelm.pl",
+    "osm_relation_id": 2659115
+  },
+  {
+    "id": "PL-0056",
+    "name": "Lublin",
+    "country": "PL",
+    "region": "Lubelskie",
+    "domain": "lublintravel.pl",
+    "osm_relation_id": 2206549
+  },
+  {
+    "id": "PL-0057",
+    "name": "Powiat Bialski",
+    "country": "PL",
+    "region": "Lubelskie",
+    "domain": "powiatbialski.lubelskie.pl",
+    "osm_relation_id": 2706319
+  },
+  {
+    "id": "PL-0058",
+    "name": "Powiat Biłgorajski",
+    "country": "PL",
+    "region": "Lubelskie",
+    "domain": "bilgorajski.pl",
+    "osm_relation_id": 2006234
+  },
+  {
+    "id": "PL-0059",
+    "name": "Powiat Chełmski",
+    "country": "PL",
+    "region": "Lubelskie",
+    "domain": "powiatchelmski.pl",
+    "osm_relation_id": 2668478
+  },
+  {
+    "id": "PL-0060",
+    "name": "Powiat Hrubieszowski",
+    "country": "PL",
+    "region": "Lubelskie",
+    "domain": "hrubieszow.pl",
+    "osm_relation_id": 2690987
+  },
+  {
+    "id": "PL-0061",
+    "name": "Powiat Janowski",
+    "country": "PL",
+    "region": "Lubelskie",
+    "domain": "powiatjanowski.pl",
+    "osm_relation_id": 2680097
+  },
+  {
+    "id": "PL-0062",
+    "name": "Powiat Krasnostawski",
+    "country": "PL",
+    "region": "Lubelskie",
+    "domain": "krasnystaw-powiat.pl",
+    "osm_relation_id": 2680095
+  },
+  {
+    "id": "PL-0063",
+    "name": "Powiat Kraśnicki",
+    "country": "PL",
+    "region": "Lubelskie",
+    "domain": "powiatkrasnicki.pl",
+    "osm_relation_id": 2799859
+  },
+  {
+    "id": "PL-0064",
+    "name": "Powiat Lubartowski",
+    "country": "PL",
+    "region": "Lubelskie",
+    "domain": "powiatlubartowski.pl",
+    "osm_relation_id": 2799860
+  },
+  {
+    "id": "PL-0065",
+    "name": "Powiat Lubelski",
+    "country": "PL",
+    "region": "Lubelskie",
+    "domain": "powiat.lublin.pl",
+    "osm_relation_id": 2265872
+  },
+  {
+    "id": "PL-0066",
+    "name": "Powiat Opolski",
+    "country": "PL",
+    "region": "Lubelskie",
+    "domain": "opole.lublin.pl",
+    "osm_relation_id": 2692420
+  },
+  {
+    "id": "PL-0067",
+    "name": "Powiat Parczewski",
+    "country": "PL",
+    "region": "Lubelskie",
+    "domain": "parczew.pl",
+    "osm_relation_id": 2799913
+  },
+  {
+    "id": "PL-0068",
+    "name": "Powiat Puławski",
+    "country": "PL",
+    "region": "Lubelskie",
+    "domain": "pulawy.powiat.pl",
+    "osm_relation_id": 2692530
+  },
+  {
+    "id": "PL-0069",
+    "name": "Powiat Radzyński",
+    "country": "PL",
+    "region": "Lubelskie",
+    "domain": "powiatradzynski.pl",
+    "osm_relation_id": 2799914
+  },
+  {
+    "id": "PL-0070",
+    "name": "Powiat Rycki",
+    "country": "PL",
+    "region": "Lubelskie",
+    "domain": "ryki.powiat.pl",
+    "osm_relation_id": 2617226
+  },
+  {
+    "id": "PL-0071",
+    "name": "Powiat Tomaszowski",
+    "country": "PL",
+    "region": "Lubelskie",
+    "domain": "powiat-tomaszowski.com.pl",
+    "osm_relation_id": 2713078
+  },
+  {
+    "id": "PL-0072",
+    "name": "Powiat Włodawski",
+    "country": "PL",
+    "region": "Lubelskie",
+    "domain": "powiat.wlodawa.pl",
+    "osm_relation_id": 2792592
+  },
+  {
+    "id": "PL-0073",
+    "name": "Powiat Zamojski",
+    "country": "PL",
+    "region": "Lubelskie",
+    "domain": "starostwo.zamosc.pl",
+    "osm_relation_id": 2664538
+  },
+  {
+    "id": "PL-0074",
+    "name": "Powiat Łukowski",
+    "country": "PL",
+    "region": "Lubelskie",
+    "domain": "powiatlukowski.pl",
+    "osm_relation_id": 2696345
+  },
+  {
+    "id": "PL-0075",
+    "name": "Powiat Łęczyński",
+    "country": "PL",
+    "region": "Lubelskie",
+    "domain": "powiatleczynski.pl",
+    "osm_relation_id": 2799895
+  },
+  {
+    "id": "PL-0076",
+    "name": "Powiat Świdnicki",
+    "country": "PL",
+    "region": "Lubelskie",
+    "domain": "powiatswidnik.pl",
+    "osm_relation_id": 2799896
+  },
+  {
+    "id": "PL-0077",
+    "name": "Zamość",
+    "country": "PL",
+    "region": "Lubelskie",
+    "domain": "zamosc.pl",
+    "osm_relation_id": 1973109
+  },
+  {
+    "id": "PL-0078",
+    "name": "Gorzów Wielkopolski",
+    "country": "PL",
+    "region": "Lubuskie",
+    "domain": "um.gorzow.pl",
+    "osm_relation_id": 2533323
+  },
+  {
+    "id": "PL-0079",
+    "name": "Powiat Gorzowski",
+    "country": "PL",
+    "region": "Lubuskie",
+    "domain": "powiatgorzowski.pl",
+    "osm_relation_id": 2663937
+  },
+  {
+    "id": "PL-0080",
+    "name": "Powiat Krośnieński",
+    "country": "PL",
+    "region": "Lubuskie",
+    "domain": "pow.krosno-odrz.pl",
+    "osm_relation_id": 2663855
+  },
+  {
+    "id": "PL-0081",
+    "name": "Powiat Międzyrzecki",
+    "country": "PL",
+    "region": "Lubuskie",
+    "domain": "powiat-miedzyrzecki.pl",
+    "osm_relation_id": 2663893
+  },
+  {
+    "id": "PL-0082",
+    "name": "Powiat Nowosolski",
+    "country": "PL",
+    "region": "Lubuskie",
+    "domain": "powiat-nowosolski.pl",
+    "osm_relation_id": 2663868
+  },
+  {
+    "id": "PL-0083",
+    "name": "Powiat Strzelecko-drezdenecki",
+    "country": "PL",
+    "region": "Lubuskie",
+    "domain": "powiat.fsd.pl",
+    "osm_relation_id": 2663925
+  },
+  {
+    "id": "PL-0084",
+    "name": "Powiat Sulęciński",
+    "country": "PL",
+    "region": "Lubuskie",
+    "domain": "powiatsulecinski.pl",
+    "osm_relation_id": 2663875
+  },
+  {
+    "id": "PL-0085",
+    "name": "Powiat Słubicki",
+    "country": "PL",
+    "region": "Lubuskie",
+    "domain": "powiatslubicki.pl",
+    "osm_relation_id": 2534518
+  },
+  {
+    "id": "PL-0086",
+    "name": "Powiat Wschowski",
+    "country": "PL",
+    "region": "Lubuskie",
+    "domain": "wschowa.info",
+    "osm_relation_id": 2663872
+  },
+  {
+    "id": "PL-0087",
+    "name": "Powiat Zielonogórski",
+    "country": "PL",
+    "region": "Lubuskie",
+    "domain": "powiat-zielonogorski.pl",
+    "osm_relation_id": 2417503
+  },
+  {
+    "id": "PL-0088",
+    "name": "Powiat Świebodziński",
+    "country": "PL",
+    "region": "Lubuskie",
+    "domain": "swiebodzin.pl",
+    "osm_relation_id": 2417506
+  },
+  {
+    "id": "PL-0089",
+    "name": "Powiat Żagański",
+    "country": "PL",
+    "region": "Lubuskie",
+    "domain": "powiatzaganski.pl",
+    "osm_relation_id": 2663865
+  },
+  {
+    "id": "PL-0090",
+    "name": "Powiat Żarski",
+    "country": "PL",
+    "region": "Lubuskie",
+    "domain": "powiatzary.pl",
+    "osm_relation_id": 2663860
+  },
+  {
+    "id": "PL-0091",
+    "name": "Zielona Góra",
+    "country": "PL",
+    "region": "Lubuskie",
+    "domain": "zielona-gora.pl",
+    "osm_relation_id": 2132418
+  },
+  {
+    "id": "PL-0092",
+    "name": "Ostrołęka",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "ostroleka.pl",
+    "osm_relation_id": 2024340
+  },
+  {
+    "id": "PL-0093",
+    "name": "Powiat Białobrzeski",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "bialobrzegipowiat.pl",
+    "osm_relation_id": 2420063
+  },
+  {
+    "id": "PL-0094",
+    "name": "Powiat Ciechanowski",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "ciechanow.powiat.pl",
+    "osm_relation_id": 2703337
+  },
+  {
+    "id": "PL-0095",
+    "name": "Powiat Garwoliński",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "garwolin-starostwo.pl",
+    "osm_relation_id": 2694458
+  },
+  {
+    "id": "PL-0096",
+    "name": "Powiat Gostyniński",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "gostynin.powiat.pl",
+    "osm_relation_id": 295880
+  },
+  {
+    "id": "PL-0097",
+    "name": "Powiat Grodziski",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "powiat-grodziski.pl",
+    "osm_relation_id": 336621
+  },
+  {
+    "id": "PL-0098",
+    "name": "Powiat Grójecki",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "grojec.pl",
+    "osm_relation_id": 2420501
+  },
+  {
+    "id": "PL-0099",
+    "name": "Powiat Kozienicki",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "kozienicepowiat.pl",
+    "osm_relation_id": 2414747
+  },
+  {
+    "id": "PL-0100",
+    "name": "Powiat Legionowski",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "powiat-legionowski.pl",
+    "osm_relation_id": 1753834
+  },
+  {
+    "id": "PL-0101",
+    "name": "Powiat Lipski",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "powiat-lipsko.pl",
+    "osm_relation_id": 2420280
+  },
+  {
+    "id": "PL-0102",
+    "name": "Powiat Makowski",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "powiat-makowski.pl",
+    "osm_relation_id": 2676719
+  },
+  {
+    "id": "PL-0103",
+    "name": "Powiat Miński",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "powiatminski.pl",
+    "osm_relation_id": 2695490
+  },
+  {
+    "id": "PL-0104",
+    "name": "Powiat Mławski",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "powiatmlawski.pl",
+    "osm_relation_id": 2702535
+  },
+  {
+    "id": "PL-0105",
+    "name": "Powiat Nowodworski",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "regioset.pl",
+    "osm_relation_id": 2598346
+  },
+  {
+    "id": "PL-0106",
+    "name": "Powiat Ostrowski",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "powiatostrowmaz.pl",
+    "osm_relation_id": 2704689
+  },
+  {
+    "id": "PL-0107",
+    "name": "Powiat Ostrołęcki",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "powiat.ostroleka.pl",
+    "osm_relation_id": 2704641
+  },
+  {
+    "id": "PL-0108",
+    "name": "Powiat Otwocki",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "powiat-otwocki.pl",
+    "osm_relation_id": 2694646
+  },
+  {
+    "id": "PL-0109",
+    "name": "Powiat Piaseczyński",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "piaseczno.pl",
+    "osm_relation_id": 2413644
+  },
+  {
+    "id": "PL-0110",
+    "name": "Powiat Pruszkowski",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "powiat.pruszkow.pl",
+    "osm_relation_id": 2419885
+  },
+  {
+    "id": "PL-0111",
+    "name": "Powiat Przasnyski",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "powiat-przasnysz.pl",
+    "osm_relation_id": 2703338
+  },
+  {
+    "id": "PL-0112",
+    "name": "Powiat Przysuski",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "przysucha.pl",
+    "osm_relation_id": 2420502
+  },
+  {
+    "id": "PL-0113",
+    "name": "Powiat Pułtuski",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "starostwopultusk.org.pl",
+    "osm_relation_id": 2705185
+  },
+  {
+    "id": "PL-0114",
+    "name": "Powiat Płocki",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "powiat.plock.pl",
+    "osm_relation_id": 295853
+  },
+  {
+    "id": "PL-0115",
+    "name": "Powiat Płoński",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "powiat-plonski.pl",
+    "osm_relation_id": 295873
+  },
+  {
+    "id": "PL-0116",
+    "name": "Powiat Radomski",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "radompowiat.pl",
+    "osm_relation_id": 2414748
+  },
+  {
+    "id": "PL-0117",
+    "name": "Powiat Siedlecki",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "powiatsiedlecki.pl",
+    "osm_relation_id": 1386760
+  },
+  {
+    "id": "PL-0118",
+    "name": "Powiat Sierpecki",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "powiat.sierpc.pl",
+    "osm_relation_id": 2702732
+  },
+  {
+    "id": "PL-0119",
+    "name": "Powiat Sochaczewski",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "starostwo-soch.home.pl",
+    "osm_relation_id": 295890
+  },
+  {
+    "id": "PL-0120",
+    "name": "Powiat Sokołowski",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "powiat-sokolowski.pl",
+    "osm_relation_id": 2705938
+  },
+  {
+    "id": "PL-0121",
+    "name": "Powiat Szydłowiecki",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "szydlowiecpowiat.pl",
+    "osm_relation_id": 2420439
+  },
+  {
+    "id": "PL-0122",
+    "name": "Powiat Warszawski zachodni",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "pwz.pl",
+    "osm_relation_id": 336314
+  },
+  {
+    "id": "PL-0123",
+    "name": "Powiat Wołomiński",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "powiat-wolominski.pl",
+    "osm_relation_id": 1994181
+  },
+  {
+    "id": "PL-0124",
+    "name": "Powiat Wyszkowski",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "powiat-wyszkowski.pl",
+    "osm_relation_id": 2705413
+  },
+  {
+    "id": "PL-0125",
+    "name": "Powiat Węgrowski",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "powiatwegrowski.pl",
+    "osm_relation_id": 2703676
+  },
+  {
+    "id": "PL-0126",
+    "name": "Powiat Zwoleński",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "zwolenpowiat.pl",
+    "osm_relation_id": 2415478
+  },
+  {
+    "id": "PL-0127",
+    "name": "Powiat Łosicki",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "losice.pl",
+    "osm_relation_id": 2517728
+  },
+  {
+    "id": "PL-0128",
+    "name": "Powiat Żuromiński",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "zuromin-powiat.pl",
+    "osm_relation_id": 2702483
+  },
+  {
+    "id": "PL-0129",
+    "name": "Powiat Żyrardowski",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "powiat-zyrardowski.pl",
+    "osm_relation_id": 337029
+  },
+  {
+    "id": "PL-0130",
+    "name": "Płock",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "nowybip.plock.eu",
+    "osm_relation_id": 337131
+  },
+  {
+    "id": "PL-0131",
+    "name": "Radom",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "radom.pl",
+    "osm_relation_id": 2420076
+  },
+  {
+    "id": "PL-0132",
+    "name": "Siedlce",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "siedlce.pl",
+    "osm_relation_id": 1386747
+  },
+  {
+    "id": "PL-0133",
+    "name": "Warszawa",
+    "country": "PL",
+    "region": "Mazowieckie",
+    "domain": "um.warszawa.pl",
+    "osm_relation_id": 336075
+  },
+  {
+    "id": "PL-0134",
+    "name": "Kraków",
+    "country": "PL",
+    "region": "Małopolskie",
+    "domain": "krakow.pl",
+    "osm_relation_id": 449696
+  },
+  {
+    "id": "PL-0135",
+    "name": "Nowy Sącz",
+    "country": "PL",
+    "region": "Małopolskie",
+    "domain": "nowysacz.pl",
+    "osm_relation_id": 2668662
+  },
+  {
+    "id": "PL-0136",
+    "name": "Powiat Bocheński",
+    "country": "PL",
+    "region": "Małopolskie",
+    "domain": "bochnia.starostwo.gov.pl",
+    "osm_relation_id": 2656132
+  },
+  {
+    "id": "PL-0137",
+    "name": "Powiat Brzeski",
+    "country": "PL",
+    "region": "Małopolskie",
+    "domain": "powiatbrzeski.com.pl",
+    "osm_relation_id": 2666169
+  },
+  {
+    "id": "PL-0138",
+    "name": "Powiat Chrzanowski",
+    "country": "PL",
+    "region": "Małopolskie",
+    "domain": "powiat-chrzanowski.pl",
+    "osm_relation_id": 2327849
+  },
+  {
+    "id": "PL-0139",
+    "name": "Powiat Dąbrowski",
+    "country": "PL",
+    "region": "Małopolskie",
+    "domain": "powiatdabrowski.pl",
+    "osm_relation_id": 2669013
+  },
+  {
+    "id": "PL-0140",
+    "name": "Powiat Gorlicki",
+    "country": "PL",
+    "region": "Małopolskie",
+    "domain": "powiat.gorlice.pl",
+    "osm_relation_id": 2668409
+  },
+  {
+    "id": "PL-0141",
+    "name": "Powiat Krakowski",
+    "country": "PL",
+    "region": "Małopolskie",
+    "domain": "powiat.krakow.pl",
+    "osm_relation_id": 2654452
+  },
+  {
+    "id": "PL-0142",
+    "name": "Powiat Limanowski",
+    "country": "PL",
+    "region": "Małopolskie",
+    "domain": "limanowa.pl",
+    "osm_relation_id": 2665025
+  },
+  {
+    "id": "PL-0143",
+    "name": "Powiat Miechowski",
+    "country": "PL",
+    "region": "Małopolskie",
+    "domain": "miechow.pl",
+    "osm_relation_id": 2664316
+  },
+  {
+    "id": "PL-0144",
+    "name": "Powiat Myślenicki",
+    "country": "PL",
+    "region": "Małopolskie",
+    "domain": "powiat-myslenice.pl",
+    "osm_relation_id": 1733458
+  },
+  {
+    "id": "PL-0145",
+    "name": "Powiat Nowosądecki",
+    "country": "PL",
+    "region": "Małopolskie",
+    "domain": "sacz.pl",
+    "osm_relation_id": 2665337
+  },
+  {
+    "id": "PL-0146",
+    "name": "Powiat Nowotarski",
+    "country": "PL",
+    "region": "Małopolskie",
+    "domain": "nowotarski.pl",
+    "osm_relation_id": 2431737
+  },
+  {
+    "id": "PL-0147",
+    "name": "Powiat Olkuski",
+    "country": "PL",
+    "region": "Małopolskie",
+    "domain": "sp.olkusz.pl",
+    "osm_relation_id": 2595535
+  },
+  {
+    "id": "PL-0148",
+    "name": "Powiat Oświęcimski",
+    "country": "PL",
+    "region": "Małopolskie",
+    "domain": "powiat.oswiecim.pl",
+    "osm_relation_id": 2662564
+  },
+  {
+    "id": "PL-0149",
+    "name": "Powiat Proszowicki",
+    "country": "PL",
+    "region": "Małopolskie",
+    "domain": "proszowice.upow.gov.pl",
+    "osm_relation_id": 2660242
+  },
+  {
+    "id": "PL-0150",
+    "name": "Powiat Suski",
+    "country": "PL",
+    "region": "Małopolskie",
+    "domain": "powiatsuski.pl",
+    "osm_relation_id": 2431738
+  },
+  {
+    "id": "PL-0151",
+    "name": "Powiat Tarnowski",
+    "country": "PL",
+    "region": "Małopolskie",
+    "domain": "powiat.tarnow.pl",
+    "osm_relation_id": 2666939
+  },
+  {
+    "id": "PL-0152",
+    "name": "Powiat Tatrzański",
+    "country": "PL",
+    "region": "Małopolskie",
+    "domain": "powiat.tatry.pl",
+    "osm_relation_id": 2431739
+  },
+  {
+    "id": "PL-0153",
+    "name": "Powiat Wadowicki",
+    "country": "PL",
+    "region": "Małopolskie",
+    "domain": "starostwo.wadowice.pl",
+    "osm_relation_id": 2432814
+  },
+  {
+    "id": "PL-0154",
+    "name": "Powiat Wielicki",
+    "country": "PL",
+    "region": "Małopolskie",
+    "domain": "wieliczka.pl",
+    "osm_relation_id": 2654454
+  },
+  {
+    "id": "PL-0155",
+    "name": "Tarnów",
+    "country": "PL",
+    "region": "Małopolskie",
+    "domain": "tarnow.pl",
+    "osm_relation_id": 2668633
+  },
+  {
+    "id": "PL-0156",
+    "name": "Opole",
+    "country": "PL",
+    "region": "Opolskie",
+    "domain": "opole.pl",
+    "osm_relation_id": 2661906
+  },
+  {
+    "id": "PL-0157",
+    "name": "Powiat Brzeski",
+    "country": "PL",
+    "region": "Opolskie",
+    "domain": "powiat-brzeg.pl",
+    "osm_relation_id": 2671091
+  },
+  {
+    "id": "PL-0158",
+    "name": "Powiat Głubczycki",
+    "country": "PL",
+    "region": "Opolskie",
+    "domain": "powiatglubczycki.pl",
+    "osm_relation_id": 2662779
+  },
+  {
+    "id": "PL-0159",
+    "name": "Powiat Kluczborski",
+    "country": "PL",
+    "region": "Opolskie",
+    "domain": "powiatkluczborski.pl",
+    "osm_relation_id": 2415571
+  },
+  {
+    "id": "PL-0160",
+    "name": "Powiat Krapkowicki",
+    "country": "PL",
+    "region": "Opolskie",
+    "domain": "powiatkrapkowicki.pl",
+    "osm_relation_id": 2661907
+  },
+  {
+    "id": "PL-0161",
+    "name": "Powiat Kędzierzyńsko-kozielski",
+    "country": "PL",
+    "region": "Opolskie",
+    "domain": "powiat.kedzierzyn-kozle.pl",
+    "osm_relation_id": 2662768
+  },
+  {
+    "id": "PL-0162",
+    "name": "Powiat Namysłowski",
+    "country": "PL",
+    "region": "Opolskie",
+    "domain": "namyslow.pl",
+    "osm_relation_id": 2587440
+  },
+  {
+    "id": "PL-0163",
+    "name": "Powiat Nyski",
+    "country": "PL",
+    "region": "Opolskie",
+    "domain": "powiat.nysa.pl",
+    "osm_relation_id": 2661908
+  },
+  {
+    "id": "PL-0164",
+    "name": "Powiat Oleski",
+    "country": "PL",
+    "region": "Opolskie",
+    "domain": "powiatoleski.pl",
+    "osm_relation_id": 2135330
+  },
+  {
+    "id": "PL-0165",
+    "name": "Powiat Opolski",
+    "country": "PL",
+    "region": "Opolskie",
+    "domain": "powiatopolski.pl",
+    "osm_relation_id": 2661909
+  },
+  {
+    "id": "PL-0166",
+    "name": "Powiat Prudnicki",
+    "country": "PL",
+    "region": "Opolskie",
+    "domain": "powiatprudnicki.pl",
+    "osm_relation_id": 2661910
+  },
+  {
+    "id": "PL-0167",
+    "name": "Powiat Strzelecki",
+    "country": "PL",
+    "region": "Opolskie",
+    "domain": "powiatstrzelecki.pl",
+    "osm_relation_id": 2662769
+  },
+  {
+    "id": "PL-0168",
+    "name": "Krosno",
+    "country": "PL",
+    "region": "Podkarpackie",
+    "domain": "krosno.pl",
+    "osm_relation_id": 2632584
+  },
+  {
+    "id": "PL-0169",
+    "name": "Powiat Bieszczadzki",
+    "country": "PL",
+    "region": "Podkarpackie",
+    "domain": "bieszczadzki.pl",
+    "osm_relation_id": 1748183
+  },
+  {
+    "id": "PL-0170",
+    "name": "Powiat Brzozowski",
+    "country": "PL",
+    "region": "Podkarpackie",
+    "domain": "powiatbrzozow.pl",
+    "osm_relation_id": 2658685
+  },
+  {
+    "id": "PL-0171",
+    "name": "Powiat Dębicki",
+    "country": "PL",
+    "region": "Podkarpackie",
+    "domain": "tel.debica.pl",
+    "osm_relation_id": 2635620
+  },
+  {
+    "id": "PL-0172",
+    "name": "Powiat Jarosławski",
+    "country": "PL",
+    "region": "Podkarpackie",
+    "domain": "starostwo.jaroslaw.pl",
+    "osm_relation_id": 2647747
+  },
+  {
+    "id": "PL-0173",
+    "name": "Powiat Jasielski",
+    "country": "PL",
+    "region": "Podkarpackie",
+    "domain": "powiat.jaslo.pl",
+    "osm_relation_id": 2635621
+  },
+  {
+    "id": "PL-0174",
+    "name": "Powiat Kolbuszowski",
+    "country": "PL",
+    "region": "Podkarpackie",
+    "domain": "powiat.kolbuszowski.pl",
+    "osm_relation_id": 2658572
+  },
+  {
+    "id": "PL-0175",
+    "name": "Powiat Krośnieński",
+    "country": "PL",
+    "region": "Podkarpackie",
+    "domain": "powiat.krosno.pl",
+    "osm_relation_id": 2635657
+  },
+  {
+    "id": "PL-0176",
+    "name": "Powiat Leski",
+    "country": "PL",
+    "region": "Podkarpackie",
+    "domain": "powiat-leski.pl",
+    "osm_relation_id": 1906237
+  },
+  {
+    "id": "PL-0177",
+    "name": "Powiat Leżajski",
+    "country": "PL",
+    "region": "Podkarpackie",
+    "domain": "starostwo.lezajsk.pl",
+    "osm_relation_id": 449368
+  },
+  {
+    "id": "PL-0178",
+    "name": "Powiat Lubaczowski",
+    "country": "PL",
+    "region": "Podkarpackie",
+    "domain": "powiatlubaczowski.pl",
+    "osm_relation_id": 2004578
+  },
+  {
+    "id": "PL-0179",
+    "name": "Powiat Mielecki",
+    "country": "PL",
+    "region": "Podkarpackie",
+    "domain": "powiat-mielecki.pl",
+    "osm_relation_id": 2635622
+  },
+  {
+    "id": "PL-0180",
+    "name": "Powiat Niżański",
+    "country": "PL",
+    "region": "Podkarpackie",
+    "domain": "powiat-nisko.pl",
+    "osm_relation_id": 1472852
+  },
+  {
+    "id": "PL-0181",
+    "name": "Powiat Przemyski",
+    "country": "PL",
+    "region": "Podkarpackie",
+    "domain": "powiat.przemysl.pl",
+    "osm_relation_id": 2658686
+  },
+  {
+    "id": "PL-0182",
+    "name": "Powiat Przeworski",
+    "country": "PL",
+    "region": "Podkarpackie",
+    "domain": "powiat.przeworsk.pl",
+    "osm_relation_id": 2004573
+  },
+  {
+    "id": "PL-0183",
+    "name": "Powiat Ropczycko-sędziszowski",
+    "country": "PL",
+    "region": "Podkarpackie",
+    "domain": "powiat.ropczyce.rze.pl",
+    "osm_relation_id": 2658204
+  },
+  {
+    "id": "PL-0184",
+    "name": "Powiat Rzeszowski",
+    "country": "PL",
+    "region": "Podkarpackie",
+    "domain": "powiat.rzeszow.pl",
+    "osm_relation_id": 2658573
+  },
+  {
+    "id": "PL-0185",
+    "name": "Powiat Sanocki",
+    "country": "PL",
+    "region": "Podkarpackie",
+    "domain": "powiat-sanok.pl",
+    "osm_relation_id": 2658687
+  },
+  {
+    "id": "PL-0186",
+    "name": "Powiat Stalowowolski",
+    "country": "PL",
+    "region": "Podkarpackie",
+    "domain": "stalowowolski.pl",
+    "osm_relation_id": 1472853
+  },
+  {
+    "id": "PL-0187",
+    "name": "Powiat Strzyżowski",
+    "country": "PL",
+    "region": "Podkarpackie",
+    "domain": "strzyzow.com.pl",
+    "osm_relation_id": 2658688
+  },
+  {
+    "id": "PL-0188",
+    "name": "Powiat Tarnobrzeski",
+    "country": "PL",
+    "region": "Podkarpackie",
+    "domain": "powiat-tarnobrzeski.qs.pl",
+    "osm_relation_id": 2575334
+  },
+  {
+    "id": "PL-0189",
+    "name": "Powiat Łańcucki",
+    "country": "PL",
+    "region": "Podkarpackie",
+    "domain": "powiat-lancut.com.pl",
+    "osm_relation_id": 2658708
+  },
+  {
+    "id": "PL-0190",
+    "name": "Przemyśl",
+    "country": "PL",
+    "region": "Podkarpackie",
+    "domain": "przemysl.pl",
+    "osm_relation_id": 2632581
+  },
+  {
+    "id": "PL-0191",
+    "name": "Rzeszów",
+    "country": "PL",
+    "region": "Podkarpackie",
+    "domain": "erzeszow.pl",
+    "osm_relation_id": 2632573
+  },
+  {
+    "id": "PL-0192",
+    "name": "Tarnobrzeg",
+    "country": "PL",
+    "region": "Podkarpackie",
+    "domain": "um.tarnobrzeg.pl",
+    "osm_relation_id": 1475698
+  },
+  {
+    "id": "PL-0193",
+    "name": "Białystok",
+    "country": "PL",
+    "region": "Podlaskie",
+    "domain": "bialystok.pl",
+    "osm_relation_id": 1429268
+  },
+  {
+    "id": "PL-0194",
+    "name": "Powiat Augustowski",
+    "country": "PL",
+    "region": "Podlaskie",
+    "domain": "augustowski.home.pl",
+    "osm_relation_id": 2803333
+  },
+  {
+    "id": "PL-0195",
+    "name": "Powiat Białostocki",
+    "country": "PL",
+    "region": "Podlaskie",
+    "domain": "powiatbialostocki.pl",
+    "osm_relation_id": 2803334
+  },
+  {
+    "id": "PL-0196",
+    "name": "Powiat Bielski",
+    "country": "PL",
+    "region": "Podlaskie",
+    "domain": "powiatbielski.pl",
+    "osm_relation_id": 2803335
+  },
+  {
+    "id": "PL-0197",
+    "name": "Powiat Grajewski",
+    "country": "PL",
+    "region": "Podlaskie",
+    "domain": "sp-grajewo.pbip.pl",
+    "osm_relation_id": 2803336
+  },
+  {
+    "id": "PL-0198",
+    "name": "Powiat Hajnowski",
+    "country": "PL",
+    "region": "Podlaskie",
+    "domain": "powiat.hajnowka.pl",
+    "osm_relation_id": 2803337
+  },
+  {
+    "id": "PL-0199",
+    "name": "Powiat Kolneński",
+    "country": "PL",
+    "region": "Podlaskie",
+    "domain": "powiatkolno.pl",
+    "osm_relation_id": 2707289
+  },
+  {
+    "id": "PL-0200",
+    "name": "Powiat Moniecki",
+    "country": "PL",
+    "region": "Podlaskie",
+    "domain": "monki.pl",
+    "osm_relation_id": 2803338
+  },
+  {
+    "id": "PL-0201",
+    "name": "Powiat Sejneński",
+    "country": "PL",
+    "region": "Podlaskie",
+    "domain": "powiat.sejny.pl",
+    "osm_relation_id": 2803339
+  },
+  {
+    "id": "PL-0202",
+    "name": "Powiat Siemiatycki",
+    "country": "PL",
+    "region": "Podlaskie",
+    "domain": "siemiatycze.pl",
+    "osm_relation_id": 2705937
+  },
+  {
+    "id": "PL-0203",
+    "name": "Powiat Sokólski",
+    "country": "PL",
+    "region": "Podlaskie",
+    "domain": "sokolka-powiat.pl",
+    "osm_relation_id": 2803340
+  },
+  {
+    "id": "PL-0204",
+    "name": "Powiat Suwalski",
+    "country": "PL",
+    "region": "Podlaskie",
+    "domain": "powiat.suwalski.pl",
+    "osm_relation_id": 2589431
+  },
+  {
+    "id": "PL-0205",
+    "name": "Powiat Wysokomazowiecki",
+    "country": "PL",
+    "region": "Podlaskie",
+    "domain": "wysokomazowiecki.pl",
+    "osm_relation_id": 2706011
+  },
+  {
+    "id": "PL-0206",
+    "name": "Powiat Zambrowski",
+    "country": "PL",
+    "region": "Podlaskie",
+    "domain": "powiatzambrowski.com",
+    "osm_relation_id": 2704834
+  },
+  {
+    "id": "PL-0207",
+    "name": "Powiat Łomżyński",
+    "country": "PL",
+    "region": "Podlaskie",
+    "domain": "powiatlomzynski.pl",
+    "osm_relation_id": 2704647
+  },
+  {
+    "id": "PL-0208",
+    "name": "Suwałki",
+    "country": "PL",
+    "region": "Podlaskie",
+    "domain": "um.suwalki.pl",
+    "osm_relation_id": 3891982
+  },
+  {
+    "id": "PL-0209",
+    "name": "Łomża",
+    "country": "PL",
+    "region": "Podlaskie",
+    "domain": "lomza.pl",
+    "osm_relation_id": 2670362
+  },
+  {
+    "id": "PL-0210",
+    "name": "Gdańsk",
+    "country": "PL",
+    "region": "Pomorskie",
+    "domain": "gdansk.pl",
+    "osm_relation_id": 1553098
+  },
+  {
+    "id": "PL-0211",
+    "name": "Gdynia",
+    "country": "PL",
+    "region": "Pomorskie",
+    "domain": "gdynia.pl",
+    "osm_relation_id": 2603248
+  },
+  {
+    "id": "PL-0212",
+    "name": "Powiat Bytowski",
+    "country": "PL",
+    "region": "Pomorskie",
+    "domain": "powiatbytowski.pl",
+    "osm_relation_id": 1551434
+  },
+  {
+    "id": "PL-0213",
+    "name": "Powiat Chojnicki",
+    "country": "PL",
+    "region": "Pomorskie",
+    "domain": "powiat.chojnice.pl",
+    "osm_relation_id": 1514728
+  },
+  {
+    "id": "PL-0214",
+    "name": "Powiat Człuchowski",
+    "country": "PL",
+    "region": "Pomorskie",
+    "domain": "starostwo.czluchow.org.pl",
+    "osm_relation_id": 1550049
+  },
+  {
+    "id": "PL-0215",
+    "name": "Powiat Gdański",
+    "country": "PL",
+    "region": "Pomorskie",
+    "domain": "powiat-gdanski.pl",
+    "osm_relation_id": 1552801
+  },
+  {
+    "id": "PL-0216",
+    "name": "Powiat Kartuski",
+    "country": "PL",
+    "region": "Pomorskie",
+    "domain": "kartuskipowiat.com.pl",
+    "osm_relation_id": 1552932
+  },
+  {
+    "id": "PL-0217",
+    "name": "Powiat Kościerski",
+    "country": "PL",
+    "region": "Pomorskie",
+    "domain": "powiatkoscierski.pl",
+    "osm_relation_id": 1514933
+  },
+  {
+    "id": "PL-0218",
+    "name": "Powiat Kwidzyński",
+    "country": "PL",
+    "region": "Pomorskie",
+    "domain": "powiatkwidzynski.pl",
+    "osm_relation_id": 1551638
+  },
+  {
+    "id": "PL-0219",
+    "name": "Powiat Lęborski",
+    "country": "PL",
+    "region": "Pomorskie",
+    "domain": "powiat-lebork.com",
+    "osm_relation_id": 1552947
+  },
+  {
+    "id": "PL-0220",
+    "name": "Powiat Malborski",
+    "country": "PL",
+    "region": "Pomorskie",
+    "domain": "powiat.malbork.pl",
+    "osm_relation_id": 1552789
+  },
+  {
+    "id": "PL-0221",
+    "name": "Powiat Nowodworski",
+    "country": "PL",
+    "region": "Pomorskie",
+    "domain": "nowydworgdanski.pl",
+    "osm_relation_id": 1553086
+  },
+  {
+    "id": "PL-0222",
+    "name": "Powiat Pucki",
+    "country": "PL",
+    "region": "Pomorskie",
+    "domain": "starostwo.puck.pl",
+    "osm_relation_id": 1553058
+  },
+  {
+    "id": "PL-0223",
+    "name": "Powiat Starogardzki",
+    "country": "PL",
+    "region": "Pomorskie",
+    "domain": "powiatstarogard.pl",
+    "osm_relation_id": 1514927
+  },
+  {
+    "id": "PL-0224",
+    "name": "Powiat Sztumski",
+    "country": "PL",
+    "region": "Pomorskie",
+    "domain": "powiatsztumski.pl",
+    "osm_relation_id": 1552758
+  },
+  {
+    "id": "PL-0225",
+    "name": "Powiat Słupski",
+    "country": "PL",
+    "region": "Pomorskie",
+    "domain": "powiat.slupsk.pl",
+    "osm_relation_id": 1551520
+  },
+  {
+    "id": "PL-0226",
+    "name": "Powiat Tczewski",
+    "country": "PL",
+    "region": "Pomorskie",
+    "domain": "powiat.tczew.pl",
+    "osm_relation_id": 1551609
+  },
+  {
+    "id": "PL-0227",
+    "name": "Powiat Wejherowski",
+    "country": "PL",
+    "region": "Pomorskie",
+    "domain": "powiatwejherowski.pl",
+    "osm_relation_id": 1553004
+  },
+  {
+    "id": "PL-0228",
+    "name": "Sopot",
+    "country": "PL",
+    "region": "Pomorskie",
+    "domain": "sopot.pl",
+    "osm_relation_id": 1553144
+  },
+  {
+    "id": "PL-0229",
+    "name": "Słupsk",
+    "country": "PL",
+    "region": "Pomorskie",
+    "domain": "slupsk.pl",
+    "osm_relation_id": 1553160
+  },
+  {
+    "id": "PL-0230",
+    "name": "Elbląg",
+    "country": "PL",
+    "region": "Warmińsko-Mazurskie",
+    "domain": "umelblag.pl",
+    "osm_relation_id": 1600068
+  },
+  {
+    "id": "PL-0231",
+    "name": "Olsztyn",
+    "country": "PL",
+    "region": "Warmińsko-Mazurskie",
+    "domain": "olsztyn.eu",
+    "osm_relation_id": 1416560
+  },
+  {
+    "id": "PL-0232",
+    "name": "Powiat Bartoszycki",
+    "country": "PL",
+    "region": "Warmińsko-Mazurskie",
+    "domain": "powiatbartoszyce.republika.pl",
+    "osm_relation_id": 2675551
+  },
+  {
+    "id": "PL-0233",
+    "name": "Powiat Braniewski",
+    "country": "PL",
+    "region": "Warmińsko-Mazurskie",
+    "domain": "powiat-braniewo.pl",
+    "osm_relation_id": 2675544
+  },
+  {
+    "id": "PL-0234",
+    "name": "Powiat Działdowski",
+    "country": "PL",
+    "region": "Warmińsko-Mazurskie",
+    "domain": "powiatdzialdowski.pl",
+    "osm_relation_id": 2675456
+  },
+  {
+    "id": "PL-0235",
+    "name": "Powiat Elbląski",
+    "country": "PL",
+    "region": "Warmińsko-Mazurskie",
+    "domain": "powiat.elblag.pl",
+    "osm_relation_id": 2675409
+  },
+  {
+    "id": "PL-0236",
+    "name": "Powiat Ełcki",
+    "country": "PL",
+    "region": "Warmińsko-Mazurskie",
+    "domain": "powiat.elk.pl",
+    "osm_relation_id": 2675560
+  },
+  {
+    "id": "PL-0237",
+    "name": "Powiat Giżycki",
+    "country": "PL",
+    "region": "Warmińsko-Mazurskie",
+    "domain": "gizycko.starostwo.gov.pl",
+    "osm_relation_id": 2675566
+  },
+  {
+    "id": "PL-0238",
+    "name": "Powiat Gołdapski",
+    "country": "PL",
+    "region": "Warmińsko-Mazurskie",
+    "domain": "powiatgoldap.home.pl",
+    "osm_relation_id": 2675562
+  },
+  {
+    "id": "PL-0239",
+    "name": "Powiat Iławski",
+    "country": "PL",
+    "region": "Warmińsko-Mazurskie",
+    "domain": "powiat-ilawski.pl",
+    "osm_relation_id": 2675417
+  },
+  {
+    "id": "PL-0240",
+    "name": "Powiat Kętrzyński",
+    "country": "PL",
+    "region": "Warmińsko-Mazurskie",
+    "domain": "starostwo.ketrzyn.pl",
+    "osm_relation_id": 2675556
+  },
+  {
+    "id": "PL-0241",
+    "name": "Powiat Lidzbarski",
+    "country": "PL",
+    "region": "Warmińsko-Mazurskie",
+    "domain": "powiatlidzbarski.pl",
+    "osm_relation_id": 2675535
+  },
+  {
+    "id": "PL-0242",
+    "name": "Powiat Mrągowski",
+    "country": "PL",
+    "region": "Warmińsko-Mazurskie",
+    "domain": "powiat.mragowo.pl",
+    "osm_relation_id": 2675509
+  },
+  {
+    "id": "PL-0243",
+    "name": "Powiat Nidzicki",
+    "country": "PL",
+    "region": "Warmińsko-Mazurskie",
+    "domain": "powiatnidzicki.pl",
+    "osm_relation_id": 2675473
+  },
+  {
+    "id": "PL-0244",
+    "name": "Powiat Nowomiejski",
+    "country": "PL",
+    "region": "Warmińsko-Mazurskie",
+    "domain": "powiat-nowomiejski.pl",
+    "osm_relation_id": 2675469
+  },
+  {
+    "id": "PL-0245",
+    "name": "Powiat Olecki",
+    "country": "PL",
+    "region": "Warmińsko-Mazurskie",
+    "domain": "powiat.olecko.pl",
+    "osm_relation_id": 2675565
+  },
+  {
+    "id": "PL-0246",
+    "name": "Powiat Olsztyński",
+    "country": "PL",
+    "region": "Warmińsko-Mazurskie",
+    "domain": "powiat-olsztynski.pl",
+    "osm_relation_id": 2675525
+  },
+  {
+    "id": "PL-0247",
+    "name": "Powiat Ostródzki",
+    "country": "PL",
+    "region": "Warmińsko-Mazurskie",
+    "domain": "powiat.ostroda.pl",
+    "osm_relation_id": 2675470
+  },
+  {
+    "id": "PL-0248",
+    "name": "Powiat Piski",
+    "country": "PL",
+    "region": "Warmińsko-Mazurskie",
+    "domain": "powiat.pisz.pl",
+    "osm_relation_id": 2675559
+  },
+  {
+    "id": "PL-0249",
+    "name": "Powiat Szczycieński",
+    "country": "PL",
+    "region": "Warmińsko-Mazurskie",
+    "domain": "powiat.szczytno.pl",
+    "osm_relation_id": 2675505
+  },
+  {
+    "id": "PL-0250",
+    "name": "Powiat Węgorzewski",
+    "country": "PL",
+    "region": "Warmińsko-Mazurskie",
+    "domain": "powiatwegorzewski.pl",
+    "osm_relation_id": 2675563
+  },
+  {
+    "id": "PL-0251",
+    "name": "Kalisz",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "kalisz.pl",
+    "osm_relation_id": 2106876
+  },
+  {
+    "id": "PL-0252",
+    "name": "Konin",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "konin.pl",
+    "osm_relation_id": 2132412
+  },
+  {
+    "id": "PL-0253",
+    "name": "Leszno",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "leszno.pl",
+    "osm_relation_id": 1122507
+  },
+  {
+    "id": "PL-0254",
+    "name": "Powiat Chodzieski",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "powiat-chodzieski.pl",
+    "osm_relation_id": 2696427
+  },
+  {
+    "id": "PL-0255",
+    "name": "Powiat Czarnkowsko-trzcianecki",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "czarnkowsko-trzcianecki.pl",
+    "osm_relation_id": 2696428
+  },
+  {
+    "id": "PL-0256",
+    "name": "Powiat Gnieźnieński",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "powiat-gniezno.pl",
+    "osm_relation_id": 2408992
+  },
+  {
+    "id": "PL-0257",
+    "name": "Powiat Gostyński",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "powiat.gostyn.pl",
+    "osm_relation_id": 2690166
+  },
+  {
+    "id": "PL-0258",
+    "name": "Powiat Grodziski",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "powiat.gostyn.pl",
+    "osm_relation_id": 2692538
+  },
+  {
+    "id": "PL-0259",
+    "name": "Powiat Jarociński",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "powiat-jarocinski.pl",
+    "osm_relation_id": 2614806
+  },
+  {
+    "id": "PL-0260",
+    "name": "Powiat Kaliski",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "powiat.kalisz.pl",
+    "osm_relation_id": 2684049
+  },
+  {
+    "id": "PL-0261",
+    "name": "Powiat Kolski",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "starostwokolskie.pl",
+    "osm_relation_id": 2683128
+  },
+  {
+    "id": "PL-0262",
+    "name": "Powiat Koniński",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "powiat.konin.pl",
+    "osm_relation_id": 2666238
+  },
+  {
+    "id": "PL-0263",
+    "name": "Powiat Kościański",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "powiatkoscian.pl",
+    "osm_relation_id": 2690735
+  },
+  {
+    "id": "PL-0264",
+    "name": "Powiat Krotoszyński",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "starostwo.krotoszyn.pl",
+    "osm_relation_id": 2688598
+  },
+  {
+    "id": "PL-0265",
+    "name": "Powiat Kępiński",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "kepno.com.pl",
+    "osm_relation_id": 2684226
+  },
+  {
+    "id": "PL-0266",
+    "name": "Powiat Leszczyński",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "powiat-leszczynski.pl",
+    "osm_relation_id": 1138647
+  },
+  {
+    "id": "PL-0267",
+    "name": "Powiat Międzychodzki",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "powiat-miedzychodzki.pl",
+    "osm_relation_id": 2694292
+  },
+  {
+    "id": "PL-0268",
+    "name": "Powiat Nowotomyski",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "nowytomysl.com.pl",
+    "osm_relation_id": 2694252
+  },
+  {
+    "id": "PL-0269",
+    "name": "Powiat Obornicki",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "oborniki.starostwo.gov.pl",
+    "osm_relation_id": 2611092
+  },
+  {
+    "id": "PL-0270",
+    "name": "Powiat Ostrowski",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "powiat-ostrowski.pl",
+    "osm_relation_id": 2684494
+  },
+  {
+    "id": "PL-0271",
+    "name": "Powiat Ostrzeszowski",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "powiatostrzeszowski.pl",
+    "osm_relation_id": 2684365
+  },
+  {
+    "id": "PL-0272",
+    "name": "Powiat Pilski",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "powiat.pila.pl",
+    "osm_relation_id": 2696429
+  },
+  {
+    "id": "PL-0273",
+    "name": "Powiat Pleszewski",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "powiatpleszewski.pl",
+    "osm_relation_id": 2614807
+  },
+  {
+    "id": "PL-0274",
+    "name": "Powiat Poznański",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "powiat.poznan.pl",
+    "osm_relation_id": 2406440
+  },
+  {
+    "id": "PL-0275",
+    "name": "Powiat Rawicki",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "powiatrawicki.home.pl",
+    "osm_relation_id": 2690046
+  },
+  {
+    "id": "PL-0276",
+    "name": "Powiat Szamotulski",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "powiat-szamotuly.pl",
+    "osm_relation_id": 2611093
+  },
+  {
+    "id": "PL-0277",
+    "name": "Powiat Słupecki",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "powiat-slupca.pl",
+    "osm_relation_id": 2633932
+  },
+  {
+    "id": "PL-0278",
+    "name": "Powiat Turecki",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "powiat.turek.pl",
+    "osm_relation_id": 2683879
+  },
+  {
+    "id": "PL-0279",
+    "name": "Powiat Wolsztyński",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "powiatwolsztyn.pl",
+    "osm_relation_id": 2692501
+  },
+  {
+    "id": "PL-0280",
+    "name": "Powiat Wrzesiński",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "wrzesnia.powiat.pl",
+    "osm_relation_id": 2614808
+  },
+  {
+    "id": "PL-0281",
+    "name": "Powiat Wągrowiecki",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "wagrowiec.pl",
+    "osm_relation_id": 2694547
+  },
+  {
+    "id": "PL-0282",
+    "name": "Powiat Złotowski",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "zlotow-powiat.pl",
+    "osm_relation_id": 2613328
+  },
+  {
+    "id": "PL-0283",
+    "name": "Powiat Średzki",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "powiatsredzki.pl",
+    "osm_relation_id": 2563093
+  },
+  {
+    "id": "PL-0284",
+    "name": "Powiat Śremski",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "powiat-srem.pl",
+    "osm_relation_id": 2611094
+  },
+  {
+    "id": "PL-0285",
+    "name": "Poznań",
+    "country": "PL",
+    "region": "Wielkopolskie",
+    "domain": "poznan.pl",
+    "osm_relation_id": 2456294
+  },
+  {
+    "id": "PL-0286",
+    "name": "Koszalin",
+    "country": "PL",
+    "region": "Zachodniopomorskie",
+    "domain": "koszalin.pl",
+    "osm_relation_id": 2106899
+  },
+  {
+    "id": "PL-0287",
+    "name": "Powiat Białogardzki",
+    "country": "PL",
+    "region": "Zachodniopomorskie",
+    "domain": "powiat-bialogard.pl",
+    "osm_relation_id": 2613265
+  },
+  {
+    "id": "PL-0288",
+    "name": "Powiat Choszczeński",
+    "country": "PL",
+    "region": "Zachodniopomorskie",
+    "domain": "powiatchoszczno.pl",
+    "osm_relation_id": 2642274
+  },
+  {
+    "id": "PL-0289",
+    "name": "Powiat Drawski",
+    "country": "PL",
+    "region": "Zachodniopomorskie",
+    "domain": "powiatdrawski.pl",
+    "osm_relation_id": 2613317
+  },
+  {
+    "id": "PL-0290",
+    "name": "Powiat Goleniowski",
+    "country": "PL",
+    "region": "Zachodniopomorskie",
+    "domain": "powiat-goleniowski.pl",
+    "osm_relation_id": 2777166
+  },
+  {
+    "id": "PL-0291",
+    "name": "Powiat Gryficki",
+    "country": "PL",
+    "region": "Zachodniopomorskie",
+    "domain": "gryfice.pl",
+    "osm_relation_id": 2777167
+  },
+  {
+    "id": "PL-0292",
+    "name": "Powiat Gryfiński",
+    "country": "PL",
+    "region": "Zachodniopomorskie",
+    "domain": "gryfino.powiat.pl",
+    "osm_relation_id": 2773298
+  },
+  {
+    "id": "PL-0293",
+    "name": "Powiat Kamieński",
+    "country": "PL",
+    "region": "Zachodniopomorskie",
+    "domain": "kamienpomorski.powiat.pl",
+    "osm_relation_id": 2777168
+  },
+  {
+    "id": "PL-0294",
+    "name": "Powiat Koszaliński",
+    "country": "PL",
+    "region": "Zachodniopomorskie",
+    "domain": "powiat.koszalin.pl",
+    "osm_relation_id": 2613236
+  },
+  {
+    "id": "PL-0295",
+    "name": "Powiat Kołobrzeski",
+    "country": "PL",
+    "region": "Zachodniopomorskie",
+    "domain": "powiat.kolobrzeg.pl",
+    "osm_relation_id": 2777169
+  },
+  {
+    "id": "PL-0296",
+    "name": "Powiat Myśliborski",
+    "country": "PL",
+    "region": "Zachodniopomorskie",
+    "domain": "powiatmysliborski.pl",
+    "osm_relation_id": 2662786
+  },
+  {
+    "id": "PL-0297",
+    "name": "Powiat Policki",
+    "country": "PL",
+    "region": "Zachodniopomorskie",
+    "domain": "powiat.policki.pl",
+    "osm_relation_id": 343814
+  },
+  {
+    "id": "PL-0298",
+    "name": "Powiat Pyrzycki",
+    "country": "PL",
+    "region": "Zachodniopomorskie",
+    "domain": "pyrzyce.pl",
+    "osm_relation_id": 2662787
+  },
+  {
+    "id": "PL-0299",
+    "name": "Powiat Stargardzki",
+    "country": "PL",
+    "region": "Zachodniopomorskie",
+    "domain": "powiatstargardzki.eu",
+    "osm_relation_id": 2662788
+  },
+  {
+    "id": "PL-0300",
+    "name": "Powiat Szczecinecki",
+    "country": "PL",
+    "region": "Zachodniopomorskie",
+    "domain": "powiat.szczecinek.pl",
+    "osm_relation_id": 2613075
+  },
+  {
+    "id": "PL-0301",
+    "name": "Powiat Sławieński",
+    "country": "PL",
+    "region": "Zachodniopomorskie",
+    "domain": "powiatslawno.pl",
+    "osm_relation_id": 2615877
+  },
+  {
+    "id": "PL-0302",
+    "name": "Powiat Wałecki",
+    "country": "PL",
+    "region": "Zachodniopomorskie",
+    "domain": "powiatwalecki.pl",
+    "osm_relation_id": 2652908
+  },
+  {
+    "id": "PL-0303",
+    "name": "Powiat Łobeski",
+    "country": "PL",
+    "region": "Zachodniopomorskie",
+    "domain": "powiatlobeski.pl",
+    "osm_relation_id": 2662789
+  },
+  {
+    "id": "PL-0304",
+    "name": "Powiat Świdwiński",
+    "country": "PL",
+    "region": "Zachodniopomorskie",
+    "domain": "powiatswidwinski.pl",
+    "osm_relation_id": 2613274
+  },
+  {
+    "id": "PL-0305",
+    "name": "Szczecin",
+    "country": "PL",
+    "region": "Zachodniopomorskie",
+    "domain": "szczecin.eu",
+    "osm_relation_id": 404940
+  },
+  {
+    "id": "PL-0306",
+    "name": "Świnoujście",
+    "country": "PL",
+    "region": "Zachodniopomorskie",
+    "domain": "swinoujscie.pl",
+    "osm_relation_id": 2670477
+  },
+  {
+    "id": "PL-0307",
+    "name": "Piotrków Trybunalski",
+    "country": "PL",
+    "region": "Łódzkie",
+    "domain": "piotrkow.pl",
+    "osm_relation_id": 2414866
+  },
+  {
+    "id": "PL-0308",
+    "name": "Powiat Bełchatowski",
+    "country": "PL",
+    "region": "Łódzkie",
+    "domain": "powiat-belchatowski.pl",
+    "osm_relation_id": 2717089
+  },
+  {
+    "id": "PL-0309",
+    "name": "Powiat Brzeziński",
+    "country": "PL",
+    "region": "Łódzkie",
+    "domain": "powiat-brzeziny.wici.pl",
+    "osm_relation_id": 2805371
+  },
+  {
+    "id": "PL-0310",
+    "name": "Powiat Kutnowski",
+    "country": "PL",
+    "region": "Łódzkie",
+    "domain": "kutno.pl",
+    "osm_relation_id": 2218244
+  },
+  {
+    "id": "PL-0311",
+    "name": "Powiat Opoczyński",
+    "country": "PL",
+    "region": "Łódzkie",
+    "domain": "opocznopowiat.pl",
+    "osm_relation_id": 2689631
+  },
+  {
+    "id": "PL-0312",
+    "name": "Powiat Pabianicki",
+    "country": "PL",
+    "region": "Łódzkie",
+    "domain": "powiat.pabianice.pl",
+    "osm_relation_id": 2798623
+  },
+  {
+    "id": "PL-0313",
+    "name": "Powiat Pajęczański",
+    "country": "PL",
+    "region": "Łódzkie",
+    "domain": "powiatpajeczno.pl",
+    "osm_relation_id": 2717090
+  },
+  {
+    "id": "PL-0314",
+    "name": "Powiat Piotrkowski",
+    "country": "PL",
+    "region": "Łódzkie",
+    "domain": "powiat-piotrkowski.pl",
+    "osm_relation_id": 2805372
+  },
+  {
+    "id": "PL-0315",
+    "name": "Powiat Poddębicki",
+    "country": "PL",
+    "region": "Łódzkie",
+    "domain": "powiat.poddebice.pl",
+    "osm_relation_id": 2218245
+  },
+  {
+    "id": "PL-0316",
+    "name": "Powiat Radomszczański",
+    "country": "PL",
+    "region": "Łódzkie",
+    "domain": "powiat.radomszczanski.pl",
+    "osm_relation_id": 2453261
+  },
+  {
+    "id": "PL-0317",
+    "name": "Powiat Rawski",
+    "country": "PL",
+    "region": "Łódzkie",
+    "domain": "powiatrawski.pl",
+    "osm_relation_id": 2598269
+  },
+  {
+    "id": "PL-0318",
+    "name": "Powiat Sieradzki",
+    "country": "PL",
+    "region": "Łódzkie",
+    "domain": "powiat-sieradz.pl",
+    "osm_relation_id": 2717091
+  },
+  {
+    "id": "PL-0319",
+    "name": "Powiat Skierniewicki",
+    "country": "PL",
+    "region": "Łódzkie",
+    "domain": "powiat.skierniewice.pl",
+    "osm_relation_id": 2013485
+  },
+  {
+    "id": "PL-0320",
+    "name": "Powiat Tomaszowski",
+    "country": "PL",
+    "region": "Łódzkie",
+    "domain": "powiat-tomaszowski.pl",
+    "osm_relation_id": 2689622
+  },
+  {
+    "id": "PL-0321",
+    "name": "Powiat Wieluński",
+    "country": "PL",
+    "region": "Łódzkie",
+    "domain": "powiat.wielun.pl",
+    "osm_relation_id": 2717092
+  },
+  {
+    "id": "PL-0322",
+    "name": "Powiat Wieruszowski",
+    "country": "PL",
+    "region": "Łódzkie",
+    "domain": "powiat-wieruszowski.pl",
+    "osm_relation_id": 2717093
+  },
+  {
+    "id": "PL-0323",
+    "name": "Powiat Zduńskowolski",
+    "country": "PL",
+    "region": "Łódzkie",
+    "domain": "powiatzdunskowolski.pl",
+    "osm_relation_id": 2777495
+  },
+  {
+    "id": "PL-0324",
+    "name": "Powiat Zgierski",
+    "country": "PL",
+    "region": "Łódzkie",
+    "domain": "powiat.zgierz.pl",
+    "osm_relation_id": 2218246
+  },
+  {
+    "id": "PL-0325",
+    "name": "Powiat Łaski",
+    "country": "PL",
+    "region": "Łódzkie",
+    "domain": "lask.com.pl",
+    "osm_relation_id": 2717094
+  },
+  {
+    "id": "PL-0326",
+    "name": "Powiat Łowicki",
+    "country": "PL",
+    "region": "Łódzkie",
+    "domain": "powiat.lowicz.pl",
+    "osm_relation_id": 1403468
+  },
+  {
+    "id": "PL-0327",
+    "name": "Powiat Łódzki wschodni",
+    "country": "PL",
+    "region": "Łódzkie",
+    "domain": "lodzkiwschodni.pl",
+    "osm_relation_id": 2805373
+  },
+  {
+    "id": "PL-0328",
+    "name": "Powiat Łęczycki",
+    "country": "PL",
+    "region": "Łódzkie",
+    "domain": "leczyca.pl",
+    "osm_relation_id": 2429557
+  },
+  {
+    "id": "PL-0329",
+    "name": "Skierniewice",
+    "country": "PL",
+    "region": "Łódzkie",
+    "domain": "skierniewice.eu",
+    "osm_relation_id": 2414842
+  },
+  {
+    "id": "PL-0330",
+    "name": "Łódź",
+    "country": "PL",
+    "region": "Łódzkie",
+    "domain": "uml.lodz.pl",
+    "osm_relation_id": 2413295
+  },
+  {
+    "id": "PL-0331",
+    "name": "Bielsko-Biała",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "bielsko-biala.pl",
+    "osm_relation_id": 545474
+  },
+  {
+    "id": "PL-0332",
+    "name": "Bytom",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "bytom.pl",
+    "osm_relation_id": 334927
+  },
+  {
+    "id": "PL-0333",
+    "name": "Chorzów",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "chorzow.um.gov.pl",
+    "osm_relation_id": 332346
+  },
+  {
+    "id": "PL-0334",
+    "name": "Częstochowa",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "czestochowa.pl",
+    "osm_relation_id": 2132438
+  },
+  {
+    "id": "PL-0335",
+    "name": "Dąbrowa Górnicza",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "dabrowa-gornicza.pl",
+    "osm_relation_id": 2251893
+  },
+  {
+    "id": "PL-0336",
+    "name": "Gliwice",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "gliwice.eu",
+    "osm_relation_id": 2103532
+  },
+  {
+    "id": "PL-0337",
+    "name": "Jastrzębie-Zdrój",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "jastrzebie.pl",
+    "osm_relation_id": 2415561
+  },
+  {
+    "id": "PL-0338",
+    "name": "Jaworzno",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "jaworzno.pl",
+    "osm_relation_id": 2003804
+  },
+  {
+    "id": "PL-0339",
+    "name": "Katowice",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "katowice.eu",
+    "osm_relation_id": 332321
+  },
+  {
+    "id": "PL-0340",
+    "name": "Mysłowice",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "myslowice.pl",
+    "osm_relation_id": 449442
+  },
+  {
+    "id": "PL-0341",
+    "name": "Piekary Śląskie",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "piekary.pl",
+    "osm_relation_id": 369439
+  },
+  {
+    "id": "PL-0342",
+    "name": "Powiat Bielski",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "powiat.bielsko.pl",
+    "osm_relation_id": 2415787
+  },
+  {
+    "id": "PL-0343",
+    "name": "Powiat Bieruńsko-lędziński",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "powiatbl.pl",
+    "osm_relation_id": 2416769
+  },
+  {
+    "id": "PL-0344",
+    "name": "Powiat Będziński",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "starostwo.bedzin.pl",
+    "osm_relation_id": 2251894
+  },
+  {
+    "id": "PL-0345",
+    "name": "Powiat Cieszyński",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "powiat.cieszyn.pl",
+    "osm_relation_id": 2073312
+  },
+  {
+    "id": "PL-0346",
+    "name": "Powiat Częstochowski",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "czestochowa.powiat.pl",
+    "osm_relation_id": 2418666
+  },
+  {
+    "id": "PL-0347",
+    "name": "Powiat Gliwicki",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "powiatgliwicki.pl",
+    "osm_relation_id": 2123217
+  },
+  {
+    "id": "PL-0348",
+    "name": "Powiat Kłobucki",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "powiatklobucki.pl",
+    "osm_relation_id": 2425762
+  },
+  {
+    "id": "PL-0349",
+    "name": "Powiat Lubliniecki",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "lubliniec.starostwo.gov.pl",
+    "osm_relation_id": 2422080
+  },
+  {
+    "id": "PL-0350",
+    "name": "Powiat Mikołowski",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "powiat.mikolow.pl",
+    "osm_relation_id": 2143718
+  },
+  {
+    "id": "PL-0351",
+    "name": "Powiat Myszkowski",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "powiatmyszkowski.pl",
+    "osm_relation_id": 2418667
+  },
+  {
+    "id": "PL-0352",
+    "name": "Powiat Pszczyński",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "powiat.pszczyna.pl",
+    "osm_relation_id": 2416388
+  },
+  {
+    "id": "PL-0353",
+    "name": "Powiat Raciborski",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "powiatraciborski.pl",
+    "osm_relation_id": 2417246
+  },
+  {
+    "id": "PL-0354",
+    "name": "Powiat Rybnicki",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "starostwo.rybnik.pl",
+    "osm_relation_id": 2416791
+  },
+  {
+    "id": "PL-0355",
+    "name": "Powiat Tarnogórski",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "powiat.tarnogorski.pl",
+    "osm_relation_id": 2123218
+  },
+  {
+    "id": "PL-0356",
+    "name": "Powiat Wodzisławski",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "wodzislaw.upow.gov.pl",
+    "osm_relation_id": 2416350
+  },
+  {
+    "id": "PL-0357",
+    "name": "Powiat Zawierciański",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "zawiercie.powiat.pl",
+    "osm_relation_id": 2418668
+  },
+  {
+    "id": "PL-0358",
+    "name": "Powiat Żywiecki",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "starostwo.zywiec.pl",
+    "osm_relation_id": 2402226
+  },
+  {
+    "id": "PL-0359",
+    "name": "Ruda Śląska",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "rudaslaska.pl",
+    "osm_relation_id": 383221
+  },
+  {
+    "id": "PL-0360",
+    "name": "Rybnik",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "rybnik.pl",
+    "osm_relation_id": 2416790
+  },
+  {
+    "id": "PL-0361",
+    "name": "Siemianowice Śląskie",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "um.siemianowice.pl",
+    "osm_relation_id": 332334
+  },
+  {
+    "id": "PL-0362",
+    "name": "Sosnowiec",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "sosnowiec.pl",
+    "osm_relation_id": 2003806
+  },
+  {
+    "id": "PL-0363",
+    "name": "Tychy",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "umtychy.pl",
+    "osm_relation_id": 9867838
+  },
+  {
+    "id": "PL-0364",
+    "name": "Zabrze",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "miastozabrze.pl",
+    "osm_relation_id": 1774264
+  },
+  {
+    "id": "PL-0365",
+    "name": "Świętochłowice",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "swietochlowice.pl",
+    "osm_relation_id": 334926
+  },
+  {
+    "id": "PL-0366",
+    "name": "Żory",
+    "country": "PL",
+    "region": "Śląskie",
+    "domain": "zory.pl",
+    "osm_relation_id": 2414718
+  },
+  {
+    "id": "PL-0367",
+    "name": "Kielce",
+    "country": "PL",
+    "region": "Świętokrzyskie",
+    "domain": "um.kielce.pl",
+    "osm_relation_id": 1627497
+  },
+  {
+    "id": "PL-0368",
+    "name": "Powiat Buski",
+    "country": "PL",
+    "region": "Świętokrzyskie",
+    "domain": "powiat.busko.pl",
+    "osm_relation_id": 2416858
+  },
+  {
+    "id": "PL-0369",
+    "name": "Powiat Jędrzejowski",
+    "country": "PL",
+    "region": "Świętokrzyskie",
+    "domain": "jedrzejow.pl",
+    "osm_relation_id": 2416881
+  },
+  {
+    "id": "PL-0370",
+    "name": "Powiat Kazimierski",
+    "country": "PL",
+    "region": "Świętokrzyskie",
+    "domain": "powiat.kazimierzaw.pl",
+    "osm_relation_id": 2416896
+  },
+  {
+    "id": "PL-0371",
+    "name": "Powiat Kielecki",
+    "country": "PL",
+    "region": "Świętokrzyskie",
+    "domain": "powiat.kielce.pl",
+    "osm_relation_id": 2425720
+  },
+  {
+    "id": "PL-0372",
+    "name": "Powiat Konecki",
+    "country": "PL",
+    "region": "Świętokrzyskie",
+    "domain": "powiat.konskie.pl",
+    "osm_relation_id": 2425745
+  },
+  {
+    "id": "PL-0373",
+    "name": "Powiat Opatowski",
+    "country": "PL",
+    "region": "Świętokrzyskie",
+    "domain": "opatow.pl",
+    "osm_relation_id": 2635571
+  },
+  {
+    "id": "PL-0374",
+    "name": "Powiat Ostrowiecki",
+    "country": "PL",
+    "region": "Świętokrzyskie",
+    "domain": "ostrowiec.starostwo.gov.pl",
+    "osm_relation_id": 2635572
+  },
+  {
+    "id": "PL-0375",
+    "name": "Powiat Pińczowski",
+    "country": "PL",
+    "region": "Świętokrzyskie",
+    "domain": "pinczow.pl",
+    "osm_relation_id": 2595962
+  },
+  {
+    "id": "PL-0376",
+    "name": "Powiat Sandomierski",
+    "country": "PL",
+    "region": "Świętokrzyskie",
+    "domain": "powiat.sandomierz.pl",
+    "osm_relation_id": 2635573
+  },
+  {
+    "id": "PL-0377",
+    "name": "Powiat Skarżyski",
+    "country": "PL",
+    "region": "Świętokrzyskie",
+    "domain": "skarzysko.powiat.pl",
+    "osm_relation_id": 2427127
+  },
+  {
+    "id": "PL-0378",
+    "name": "Powiat Starachowicki",
+    "country": "PL",
+    "region": "Świętokrzyskie",
+    "domain": "powiat.starachowice.pl",
+    "osm_relation_id": 2421728
+  },
+  {
+    "id": "PL-0379",
+    "name": "Powiat Staszowski",
+    "country": "PL",
+    "region": "Świętokrzyskie",
+    "domain": "staszow.upow.gov.pl",
+    "osm_relation_id": 2635574
+  },
+  {
+    "id": "PL-0380",
+    "name": "Powiat Włoszczowski",
+    "country": "PL",
+    "region": "Świętokrzyskie",
+    "domain": "powiat-wloszczowa.pl",
+    "osm_relation_id": 2425742
+  }
+]

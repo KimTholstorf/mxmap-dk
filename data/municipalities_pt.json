@@ -1,0 +1,2466 @@
+[
+  {
+    "id": "PT-0001",
+    "name": "Albergaria-a-Velha",
+    "country": "PT",
+    "region": "Aveiro",
+    "domain": "cm-albergaria.pt",
+    "osm_relation_id": 5321484
+  },
+  {
+    "id": "PT-0002",
+    "name": "Anadia",
+    "country": "PT",
+    "region": "Aveiro",
+    "domain": "cm-anadia.pt",
+    "osm_relation_id": 5325844
+  },
+  {
+    "id": "PT-0003",
+    "name": "Arouca",
+    "country": "PT",
+    "region": "Aveiro",
+    "domain": "cm-arouca.pt",
+    "osm_relation_id": 3920278
+  },
+  {
+    "id": "PT-0004",
+    "name": "Aveiro",
+    "country": "PT",
+    "region": "Aveiro",
+    "domain": "cm-aveiro.pt",
+    "osm_relation_id": 5325138
+  },
+  {
+    "id": "PT-0005",
+    "name": "Castelo de Paiva",
+    "country": "PT",
+    "region": "Aveiro",
+    "domain": "cm-castelo-paiva.pt",
+    "osm_relation_id": 3603032
+  },
+  {
+    "id": "PT-0006",
+    "name": "Espinho",
+    "country": "PT",
+    "region": "Aveiro",
+    "domain": "portal.cm-espinho.pt",
+    "osm_relation_id": 5312120
+  },
+  {
+    "id": "PT-0007",
+    "name": "Estarreja",
+    "country": "PT",
+    "region": "Aveiro",
+    "domain": "cm-estarreja.pt",
+    "osm_relation_id": 5321485
+  },
+  {
+    "id": "PT-0008",
+    "name": "Mealhada",
+    "country": "PT",
+    "region": "Aveiro",
+    "domain": "cm-mealhada.pt",
+    "osm_relation_id": 5325845
+  },
+  {
+    "id": "PT-0009",
+    "name": "Murtosa",
+    "country": "PT",
+    "region": "Aveiro",
+    "domain": "cm-murtosa.pt",
+    "osm_relation_id": 5321486
+  },
+  {
+    "id": "PT-0010",
+    "name": "Oliveira de Azeméis",
+    "country": "PT",
+    "region": "Aveiro",
+    "domain": "cm-oaz.pt",
+    "osm_relation_id": 5321369
+  },
+  {
+    "id": "PT-0011",
+    "name": "Oliveira do Bairro",
+    "country": "PT",
+    "region": "Aveiro",
+    "domain": "cm-olb.pt",
+    "osm_relation_id": 5325846
+  },
+  {
+    "id": "PT-0012",
+    "name": "Ovar",
+    "country": "PT",
+    "region": "Aveiro",
+    "domain": "cm-ovar.pt",
+    "osm_relation_id": 5320066
+  },
+  {
+    "id": "PT-0013",
+    "name": "Santa Maria da Feira",
+    "country": "PT",
+    "region": "Aveiro",
+    "domain": "cm-feira.pt",
+    "osm_relation_id": 5312121
+  },
+  {
+    "id": "PT-0014",
+    "name": "Sever do Vouga",
+    "country": "PT",
+    "region": "Aveiro",
+    "domain": "cm-sever.pt",
+    "osm_relation_id": 5321487
+  },
+  {
+    "id": "PT-0015",
+    "name": "São João da Madeira",
+    "country": "PT",
+    "region": "Aveiro",
+    "domain": "cm-sjm.pt",
+    "osm_relation_id": 5320067
+  },
+  {
+    "id": "PT-0016",
+    "name": "Vagos",
+    "country": "PT",
+    "region": "Aveiro",
+    "domain": "cm-vagos.pt",
+    "osm_relation_id": 5325847
+  },
+  {
+    "id": "PT-0017",
+    "name": "Vale de Cambra",
+    "country": "PT",
+    "region": "Aveiro",
+    "domain": "cm-valedecambra.pt",
+    "osm_relation_id": 5321370
+  },
+  {
+    "id": "PT-0018",
+    "name": "Águeda",
+    "country": "PT",
+    "region": "Aveiro",
+    "domain": "cm-agueda.pt",
+    "osm_relation_id": 5325139
+  },
+  {
+    "id": "PT-0019",
+    "name": "Ílhavo",
+    "country": "PT",
+    "region": "Aveiro",
+    "domain": "cm-ilhavo.pt",
+    "osm_relation_id": 5325848
+  },
+  {
+    "id": "PT-0020",
+    "name": "Angra do Heroísmo",
+    "country": "PT",
+    "region": "Açores",
+    "domain": "angradoheroismo.pt",
+    "osm_relation_id": 7448382
+  },
+  {
+    "id": "PT-0021",
+    "name": "Calheta",
+    "country": "PT",
+    "region": "Açores",
+    "domain": "cm-calheta.pt",
+    "osm_relation_id": 7430843
+  },
+  {
+    "id": "PT-0022",
+    "name": "Corvo",
+    "country": "PT",
+    "region": "Açores",
+    "domain": "cm-corvo.pt",
+    "osm_relation_id": 7397626
+  },
+  {
+    "id": "PT-0023",
+    "name": "Horta",
+    "country": "PT",
+    "region": "Açores",
+    "domain": "cmhorta.pt",
+    "osm_relation_id": 6938714
+  },
+  {
+    "id": "PT-0024",
+    "name": "Lagoa",
+    "country": "PT",
+    "region": "Açores",
+    "domain": "lagoa-acores.pt",
+    "osm_relation_id": 7540360
+  },
+  {
+    "id": "PT-0025",
+    "name": "Lajes das Flores",
+    "country": "PT",
+    "region": "Açores",
+    "domain": "",
+    "osm_relation_id": 7397638
+  },
+  {
+    "id": "PT-0026",
+    "name": "Lajes do Pico",
+    "country": "PT",
+    "region": "Açores",
+    "domain": "cm-lajesdopico.pt",
+    "osm_relation_id": 7389067
+  },
+  {
+    "id": "PT-0027",
+    "name": "Madalena",
+    "country": "PT",
+    "region": "Açores",
+    "domain": "cm-madalena.pt",
+    "osm_relation_id": 7382438
+  },
+  {
+    "id": "PT-0028",
+    "name": "Nordeste",
+    "country": "PT",
+    "region": "Açores",
+    "domain": "cmnordeste.pt",
+    "osm_relation_id": 7540359
+  },
+  {
+    "id": "PT-0029",
+    "name": "Ponta Delgada",
+    "country": "PT",
+    "region": "Açores",
+    "domain": "cm-pontadelgada.pt",
+    "osm_relation_id": 7540361
+  },
+  {
+    "id": "PT-0030",
+    "name": "Povoação",
+    "country": "PT",
+    "region": "Açores",
+    "domain": "cm-povoacao.pt",
+    "osm_relation_id": 7540358
+  },
+  {
+    "id": "PT-0031",
+    "name": "Praia da Vitória",
+    "country": "PT",
+    "region": "Açores",
+    "domain": "cmpv.pt",
+    "osm_relation_id": 7448362
+  },
+  {
+    "id": "PT-0032",
+    "name": "Ribeira Grande",
+    "country": "PT",
+    "region": "Açores",
+    "domain": "cm-ribeiragrande.pt",
+    "osm_relation_id": 7540357
+  },
+  {
+    "id": "PT-0033",
+    "name": "Santa Cruz da Graciosa",
+    "country": "PT",
+    "region": "Açores",
+    "domain": "cm-graciosa.pt",
+    "osm_relation_id": 7433665
+  },
+  {
+    "id": "PT-0034",
+    "name": "Santa Cruz das Flores",
+    "country": "PT",
+    "region": "Açores",
+    "domain": "cmscflores.pt",
+    "osm_relation_id": 7397639
+  },
+  {
+    "id": "PT-0035",
+    "name": "São Roque do Pico",
+    "country": "PT",
+    "region": "Açores",
+    "domain": "cm-saoroquedopico.pt",
+    "osm_relation_id": 7391635
+  },
+  {
+    "id": "PT-0036",
+    "name": "Velas",
+    "country": "PT",
+    "region": "Açores",
+    "domain": "cmvelas.pt",
+    "osm_relation_id": 7430844
+  },
+  {
+    "id": "PT-0037",
+    "name": "Vila Franca do Campo",
+    "country": "PT",
+    "region": "Açores",
+    "domain": "cmvfc.pt",
+    "osm_relation_id": 7540356
+  },
+  {
+    "id": "PT-0038",
+    "name": "Vila do Porto",
+    "country": "PT",
+    "region": "Açores",
+    "domain": "cm-viladoporto.pt",
+    "osm_relation_id": 7540288
+  },
+  {
+    "id": "PT-0039",
+    "name": "Aljustrel",
+    "country": "PT",
+    "region": "Beja",
+    "domain": "mun-aljustrel.pt",
+    "osm_relation_id": 5403265
+  },
+  {
+    "id": "PT-0040",
+    "name": "Almodôvar",
+    "country": "PT",
+    "region": "Beja",
+    "domain": "cm-almodovar.pt",
+    "osm_relation_id": 5403266
+  },
+  {
+    "id": "PT-0041",
+    "name": "Alvito",
+    "country": "PT",
+    "region": "Beja",
+    "domain": "cm-alvito.pt",
+    "osm_relation_id": 5403267
+  },
+  {
+    "id": "PT-0042",
+    "name": "Barrancos",
+    "country": "PT",
+    "region": "Beja",
+    "domain": "cm-barrancos.pt",
+    "osm_relation_id": 5403214
+  },
+  {
+    "id": "PT-0043",
+    "name": "Beja",
+    "country": "PT",
+    "region": "Beja",
+    "domain": "cm-beja.pt",
+    "osm_relation_id": 5403215
+  },
+  {
+    "id": "PT-0044",
+    "name": "Castro Verde",
+    "country": "PT",
+    "region": "Beja",
+    "domain": "cm-castroverde.pt",
+    "osm_relation_id": 5403268
+  },
+  {
+    "id": "PT-0045",
+    "name": "Cuba",
+    "country": "PT",
+    "region": "Beja",
+    "domain": "cm-cuba.pt",
+    "osm_relation_id": 5403216
+  },
+  {
+    "id": "PT-0046",
+    "name": "Ferreira do Alentejo",
+    "country": "PT",
+    "region": "Beja",
+    "domain": "ferreiradoalentejo.pt",
+    "osm_relation_id": 5403269
+  },
+  {
+    "id": "PT-0047",
+    "name": "Moura",
+    "country": "PT",
+    "region": "Beja",
+    "domain": "cm-moura.pt",
+    "osm_relation_id": 5403217
+  },
+  {
+    "id": "PT-0048",
+    "name": "Mértola",
+    "country": "PT",
+    "region": "Beja",
+    "domain": "cm-mertola.pt",
+    "osm_relation_id": 5403218
+  },
+  {
+    "id": "PT-0049",
+    "name": "Odemira",
+    "country": "PT",
+    "region": "Beja",
+    "domain": "cm-odemira.pt",
+    "osm_relation_id": 5403270
+  },
+  {
+    "id": "PT-0050",
+    "name": "Ourique",
+    "country": "PT",
+    "region": "Beja",
+    "domain": "cm-ourique.pt",
+    "osm_relation_id": 5403271
+  },
+  {
+    "id": "PT-0051",
+    "name": "Serpa",
+    "country": "PT",
+    "region": "Beja",
+    "domain": "cm-serpa.pt",
+    "osm_relation_id": 5403219
+  },
+  {
+    "id": "PT-0052",
+    "name": "Vidigueira",
+    "country": "PT",
+    "region": "Beja",
+    "domain": "cm-vidigueira.pt",
+    "osm_relation_id": 5403220
+  },
+  {
+    "id": "PT-0053",
+    "name": "Amares",
+    "country": "PT",
+    "region": "Braga",
+    "domain": "amares.pt",
+    "osm_relation_id": 4168911
+  },
+  {
+    "id": "PT-0054",
+    "name": "Barcelos",
+    "country": "PT",
+    "region": "Braga",
+    "domain": "cm-barcelos.pt",
+    "osm_relation_id": 3737586
+  },
+  {
+    "id": "PT-0055",
+    "name": "Braga",
+    "country": "PT",
+    "region": "Braga",
+    "domain": "cm-braga.pt",
+    "osm_relation_id": 4115866
+  },
+  {
+    "id": "PT-0056",
+    "name": "Cabeceiras de Basto",
+    "country": "PT",
+    "region": "Braga",
+    "domain": "cabeceirasdebasto.pt",
+    "osm_relation_id": 4021970
+  },
+  {
+    "id": "PT-0057",
+    "name": "Celorico de Basto",
+    "country": "PT",
+    "region": "Braga",
+    "domain": "mun-celoricodebasto.pt",
+    "osm_relation_id": 4175471
+  },
+  {
+    "id": "PT-0058",
+    "name": "Esposende",
+    "country": "PT",
+    "region": "Braga",
+    "domain": "cm-esposende.pt",
+    "osm_relation_id": 3741420
+  },
+  {
+    "id": "PT-0059",
+    "name": "Fafe",
+    "country": "PT",
+    "region": "Braga",
+    "domain": "cm-fafe.pt",
+    "osm_relation_id": 4172448
+  },
+  {
+    "id": "PT-0060",
+    "name": "Guimarães",
+    "country": "PT",
+    "region": "Braga",
+    "domain": "cm-guimaraes.pt",
+    "osm_relation_id": 3924938
+  },
+  {
+    "id": "PT-0061",
+    "name": "Póvoa de Lanhoso",
+    "country": "PT",
+    "region": "Braga",
+    "domain": "cm-povoadelanhoso.pt",
+    "osm_relation_id": 4169617
+  },
+  {
+    "id": "PT-0062",
+    "name": "Terras de Bouro",
+    "country": "PT",
+    "region": "Braga",
+    "domain": "cm-terrasdebouro.pt",
+    "osm_relation_id": 3872426
+  },
+  {
+    "id": "PT-0063",
+    "name": "Vieira do Minho",
+    "country": "PT",
+    "region": "Braga",
+    "domain": "cm-vminho.pt",
+    "osm_relation_id": 4021936
+  },
+  {
+    "id": "PT-0064",
+    "name": "Vila Nova de Famalicão",
+    "country": "PT",
+    "region": "Braga",
+    "domain": "famalicao.pt",
+    "osm_relation_id": 4032838
+  },
+  {
+    "id": "PT-0065",
+    "name": "Vila Verde",
+    "country": "PT",
+    "region": "Braga",
+    "domain": "cm-vilaverde.pt",
+    "osm_relation_id": 3864604
+  },
+  {
+    "id": "PT-0066",
+    "name": "Vizela",
+    "country": "PT",
+    "region": "Braga",
+    "domain": "cm-vizela.pt",
+    "osm_relation_id": 3924925
+  },
+  {
+    "id": "PT-0067",
+    "name": "Alfândega da Fé",
+    "country": "PT",
+    "region": "Bragança",
+    "domain": "cm-alfandegadafe.pt",
+    "osm_relation_id": 5246326
+  },
+  {
+    "id": "PT-0068",
+    "name": "Bragança",
+    "country": "PT",
+    "region": "Bragança",
+    "domain": "cm-braganca.pt",
+    "osm_relation_id": 5245345
+  },
+  {
+    "id": "PT-0069",
+    "name": "Carrazeda de Ansiães",
+    "country": "PT",
+    "region": "Bragança",
+    "domain": "cm-carrazedadeansiaes.pt",
+    "osm_relation_id": 5248377
+  },
+  {
+    "id": "PT-0070",
+    "name": "Freixo de Espada à Cinta",
+    "country": "PT",
+    "region": "Bragança",
+    "domain": "cm-freixoespadacinta.pt",
+    "osm_relation_id": 3363909
+  },
+  {
+    "id": "PT-0071",
+    "name": "Macedo de Cavaleiros",
+    "country": "PT",
+    "region": "Bragança",
+    "domain": "cm-macedodecavaleiros.pt",
+    "osm_relation_id": 5246327
+  },
+  {
+    "id": "PT-0072",
+    "name": "Miranda do Douro",
+    "country": "PT",
+    "region": "Bragança",
+    "domain": "cm-mdouro.pt",
+    "osm_relation_id": 5245346
+  },
+  {
+    "id": "PT-0073",
+    "name": "Mirandela",
+    "country": "PT",
+    "region": "Bragança",
+    "domain": "cm-mirandela.pt",
+    "osm_relation_id": 5248378
+  },
+  {
+    "id": "PT-0074",
+    "name": "Mogadouro",
+    "country": "PT",
+    "region": "Bragança",
+    "domain": "mogadouro.pt",
+    "osm_relation_id": 3360572
+  },
+  {
+    "id": "PT-0075",
+    "name": "Torre de Moncorvo",
+    "country": "PT",
+    "region": "Bragança",
+    "domain": "cm-moncorvo.pt",
+    "osm_relation_id": 3359993
+  },
+  {
+    "id": "PT-0076",
+    "name": "Vila Flor",
+    "country": "PT",
+    "region": "Bragança",
+    "domain": "cm-vilaflor.pt",
+    "osm_relation_id": 5248379
+  },
+  {
+    "id": "PT-0077",
+    "name": "Vimioso",
+    "country": "PT",
+    "region": "Bragança",
+    "domain": "cm-vimioso.pt",
+    "osm_relation_id": 5245347
+  },
+  {
+    "id": "PT-0078",
+    "name": "Vinhais",
+    "country": "PT",
+    "region": "Bragança",
+    "domain": "cm-vinhais.pt",
+    "osm_relation_id": 5245348
+  },
+  {
+    "id": "PT-0079",
+    "name": "Belmonte",
+    "country": "PT",
+    "region": "Castelo Branco",
+    "domain": "cm-belmonte.pt",
+    "osm_relation_id": 5380921
+  },
+  {
+    "id": "PT-0080",
+    "name": "Castelo Branco",
+    "country": "PT",
+    "region": "Castelo Branco",
+    "domain": "cm-castelobranco.pt",
+    "osm_relation_id": 5396187
+  },
+  {
+    "id": "PT-0081",
+    "name": "Covilhã",
+    "country": "PT",
+    "region": "Castelo Branco",
+    "domain": "cm-covilha.pt",
+    "osm_relation_id": 5384331
+  },
+  {
+    "id": "PT-0082",
+    "name": "Fundão",
+    "country": "PT",
+    "region": "Castelo Branco",
+    "domain": "cm-fundao.pt",
+    "osm_relation_id": 5240988
+  },
+  {
+    "id": "PT-0083",
+    "name": "Idanha-a-Nova",
+    "country": "PT",
+    "region": "Castelo Branco",
+    "domain": "cm-idanhanova.pt",
+    "osm_relation_id": 5395738
+  },
+  {
+    "id": "PT-0084",
+    "name": "Oleiros",
+    "country": "PT",
+    "region": "Castelo Branco",
+    "domain": "cm-oleiros.pt",
+    "osm_relation_id": 5396188
+  },
+  {
+    "id": "PT-0085",
+    "name": "Penamacor",
+    "country": "PT",
+    "region": "Castelo Branco",
+    "domain": "cm-penamacor.pt",
+    "osm_relation_id": 5395739
+  },
+  {
+    "id": "PT-0086",
+    "name": "Proença-a-Nova",
+    "country": "PT",
+    "region": "Castelo Branco",
+    "domain": "cm-proencanova.pt",
+    "osm_relation_id": 5396189
+  },
+  {
+    "id": "PT-0087",
+    "name": "Sertã",
+    "country": "PT",
+    "region": "Castelo Branco",
+    "domain": "cm-serta.pt",
+    "osm_relation_id": 5396190
+  },
+  {
+    "id": "PT-0088",
+    "name": "Vila Velha de Ródão",
+    "country": "PT",
+    "region": "Castelo Branco",
+    "domain": "cm-vvrodao.pt",
+    "osm_relation_id": 5396191
+  },
+  {
+    "id": "PT-0089",
+    "name": "Vila de Rei",
+    "country": "PT",
+    "region": "Castelo Branco",
+    "domain": "cm-viladerei.pt",
+    "osm_relation_id": 5396192
+  },
+  {
+    "id": "PT-0090",
+    "name": "Arganil",
+    "country": "PT",
+    "region": "Coimbra",
+    "domain": "cm-arganil.pt",
+    "osm_relation_id": 5395069
+  },
+  {
+    "id": "PT-0091",
+    "name": "Cantanhede",
+    "country": "PT",
+    "region": "Coimbra",
+    "domain": "cm-cantanhede.pt",
+    "osm_relation_id": 5377896
+  },
+  {
+    "id": "PT-0092",
+    "name": "Coimbra",
+    "country": "PT",
+    "region": "Coimbra",
+    "domain": "cm-coimbra.pt",
+    "osm_relation_id": 5379538
+  },
+  {
+    "id": "PT-0093",
+    "name": "Condeixa-a-Nova",
+    "country": "PT",
+    "region": "Coimbra",
+    "domain": "cm-condeixa.pt",
+    "osm_relation_id": 5379539
+  },
+  {
+    "id": "PT-0094",
+    "name": "Figueira da Foz",
+    "country": "PT",
+    "region": "Coimbra",
+    "domain": "cm-figfoz.pt",
+    "osm_relation_id": 5378424
+  },
+  {
+    "id": "PT-0095",
+    "name": "Góis",
+    "country": "PT",
+    "region": "Coimbra",
+    "domain": "cm-gois.pt",
+    "osm_relation_id": 5395070
+  },
+  {
+    "id": "PT-0096",
+    "name": "Lousã",
+    "country": "PT",
+    "region": "Coimbra",
+    "domain": "cm-lousa.pt",
+    "osm_relation_id": 5379540
+  },
+  {
+    "id": "PT-0097",
+    "name": "Mira",
+    "country": "PT",
+    "region": "Coimbra",
+    "domain": "cm-mira.pt",
+    "osm_relation_id": 5377897
+  },
+  {
+    "id": "PT-0098",
+    "name": "Miranda do Corvo",
+    "country": "PT",
+    "region": "Coimbra",
+    "domain": "cm-mirandadocorvo.pt",
+    "osm_relation_id": 5379541
+  },
+  {
+    "id": "PT-0099",
+    "name": "Montemor-o-Velho",
+    "country": "PT",
+    "region": "Coimbra",
+    "domain": "cm-montemorvelho.pt",
+    "osm_relation_id": 5378425
+  },
+  {
+    "id": "PT-0100",
+    "name": "Oliveira do Hospital",
+    "country": "PT",
+    "region": "Coimbra",
+    "domain": "cm-oliveiradohospital.pt",
+    "osm_relation_id": 5395071
+  },
+  {
+    "id": "PT-0101",
+    "name": "Pampilhosa da Serra",
+    "country": "PT",
+    "region": "Coimbra",
+    "domain": "cm-pampilhosadaserra.pt",
+    "osm_relation_id": 5395072
+  },
+  {
+    "id": "PT-0102",
+    "name": "Penacova",
+    "country": "PT",
+    "region": "Coimbra",
+    "domain": "cm-penacova.pt",
+    "osm_relation_id": 5379542
+  },
+  {
+    "id": "PT-0103",
+    "name": "Penela",
+    "country": "PT",
+    "region": "Coimbra",
+    "domain": "cm-penela.pt",
+    "osm_relation_id": 5379543
+  },
+  {
+    "id": "PT-0104",
+    "name": "Soure",
+    "country": "PT",
+    "region": "Coimbra",
+    "domain": "cm-soure.pt",
+    "osm_relation_id": 5378426
+  },
+  {
+    "id": "PT-0105",
+    "name": "Tábua",
+    "country": "PT",
+    "region": "Coimbra",
+    "domain": "cm-tabua.pt",
+    "osm_relation_id": 5395073
+  },
+  {
+    "id": "PT-0106",
+    "name": "Vila Nova de Poiares",
+    "country": "PT",
+    "region": "Coimbra",
+    "domain": "cm-vilanovadepoiares.pt",
+    "osm_relation_id": 5379544
+  },
+  {
+    "id": "PT-0107",
+    "name": "Albufeira",
+    "country": "PT",
+    "region": "Faro",
+    "domain": "cm-albufeira.pt",
+    "osm_relation_id": 5404101
+  },
+  {
+    "id": "PT-0108",
+    "name": "Alcoutim",
+    "country": "PT",
+    "region": "Faro",
+    "domain": "cm-alcoutim.pt",
+    "osm_relation_id": 5404218
+  },
+  {
+    "id": "PT-0109",
+    "name": "Aljezur",
+    "country": "PT",
+    "region": "Faro",
+    "domain": "cm-aljezur.pt",
+    "osm_relation_id": 5404102
+  },
+  {
+    "id": "PT-0110",
+    "name": "Castro Marim",
+    "country": "PT",
+    "region": "Faro",
+    "domain": "cm-castromarim.pt",
+    "osm_relation_id": 5404219
+  },
+  {
+    "id": "PT-0111",
+    "name": "Faro",
+    "country": "PT",
+    "region": "Faro",
+    "domain": "cm-faro.pt",
+    "osm_relation_id": 5404220
+  },
+  {
+    "id": "PT-0112",
+    "name": "Lagoa",
+    "country": "PT",
+    "region": "Faro",
+    "domain": "cm-lagoa.pt",
+    "osm_relation_id": 5404103
+  },
+  {
+    "id": "PT-0113",
+    "name": "Lagos",
+    "country": "PT",
+    "region": "Faro",
+    "domain": "cm-lagos.pt",
+    "osm_relation_id": 5404104
+  },
+  {
+    "id": "PT-0114",
+    "name": "Loulé",
+    "country": "PT",
+    "region": "Faro",
+    "domain": "cm-loule.pt",
+    "osm_relation_id": 5404221
+  },
+  {
+    "id": "PT-0115",
+    "name": "Monchique",
+    "country": "PT",
+    "region": "Faro",
+    "domain": "cm-monchique.pt",
+    "osm_relation_id": 5404105
+  },
+  {
+    "id": "PT-0116",
+    "name": "Olhão",
+    "country": "PT",
+    "region": "Faro",
+    "domain": "cm-olhao.pt",
+    "osm_relation_id": 5404222
+  },
+  {
+    "id": "PT-0117",
+    "name": "Portimão",
+    "country": "PT",
+    "region": "Faro",
+    "domain": "cm-portimao.pt",
+    "osm_relation_id": 5404106
+  },
+  {
+    "id": "PT-0118",
+    "name": "Silves",
+    "country": "PT",
+    "region": "Faro",
+    "domain": "cm-silves.pt",
+    "osm_relation_id": 5404107
+  },
+  {
+    "id": "PT-0119",
+    "name": "São Brás de Alportel",
+    "country": "PT",
+    "region": "Faro",
+    "domain": "cm-sbras.pt",
+    "osm_relation_id": 5404223
+  },
+  {
+    "id": "PT-0120",
+    "name": "Tavira",
+    "country": "PT",
+    "region": "Faro",
+    "domain": "cm-tavira.pt",
+    "osm_relation_id": 5404224
+  },
+  {
+    "id": "PT-0121",
+    "name": "Vila Real de Santo António",
+    "country": "PT",
+    "region": "Faro",
+    "domain": "cm-vrsa.pt",
+    "osm_relation_id": 5404225
+  },
+  {
+    "id": "PT-0122",
+    "name": "Vila do Bispo",
+    "country": "PT",
+    "region": "Faro",
+    "domain": "cm-viladobispo.pt",
+    "osm_relation_id": 5404108
+  },
+  {
+    "id": "PT-0123",
+    "name": "Aguiar da Beira",
+    "country": "PT",
+    "region": "Guarda",
+    "domain": "cm-aguiardabeira.pt",
+    "osm_relation_id": 5331731
+  },
+  {
+    "id": "PT-0124",
+    "name": "Almeida",
+    "country": "PT",
+    "region": "Guarda",
+    "domain": "cm-almeida.pt",
+    "osm_relation_id": 4127531
+  },
+  {
+    "id": "PT-0125",
+    "name": "Celorico da Beira",
+    "country": "PT",
+    "region": "Guarda",
+    "domain": "cm-celoricodabeira.pt",
+    "osm_relation_id": 5331732
+  },
+  {
+    "id": "PT-0126",
+    "name": "Figueira de Castelo Rodrigo",
+    "country": "PT",
+    "region": "Guarda",
+    "domain": "cm-fcr.pt",
+    "osm_relation_id": 3905934
+  },
+  {
+    "id": "PT-0127",
+    "name": "Fornos de Algodres",
+    "country": "PT",
+    "region": "Guarda",
+    "domain": "cm-fornosdealgodres.pt",
+    "osm_relation_id": 5331733
+  },
+  {
+    "id": "PT-0128",
+    "name": "Gouveia",
+    "country": "PT",
+    "region": "Guarda",
+    "domain": "cm-gouveia.pt",
+    "osm_relation_id": 5332864
+  },
+  {
+    "id": "PT-0129",
+    "name": "Guarda",
+    "country": "PT",
+    "region": "Guarda",
+    "domain": "mun-guarda.pt",
+    "osm_relation_id": 2403607
+  },
+  {
+    "id": "PT-0130",
+    "name": "Manteigas",
+    "country": "PT",
+    "region": "Guarda",
+    "domain": "cm-manteigas.pt",
+    "osm_relation_id": 5332865
+  },
+  {
+    "id": "PT-0131",
+    "name": "Mêda",
+    "country": "PT",
+    "region": "Guarda",
+    "domain": "cm-meda.pt",
+    "osm_relation_id": 5331734
+  },
+  {
+    "id": "PT-0132",
+    "name": "Pinhel",
+    "country": "PT",
+    "region": "Guarda",
+    "domain": "cm-pinhel.pt",
+    "osm_relation_id": 5332866
+  },
+  {
+    "id": "PT-0133",
+    "name": "Sabugal",
+    "country": "PT",
+    "region": "Guarda",
+    "domain": "cm-sabugal.pt",
+    "osm_relation_id": 4104645
+  },
+  {
+    "id": "PT-0134",
+    "name": "Seia",
+    "country": "PT",
+    "region": "Guarda",
+    "domain": "cm-seia.pt",
+    "osm_relation_id": 5332867
+  },
+  {
+    "id": "PT-0135",
+    "name": "Trancoso",
+    "country": "PT",
+    "region": "Guarda",
+    "domain": "cm-trancoso.pt",
+    "osm_relation_id": 3981773
+  },
+  {
+    "id": "PT-0136",
+    "name": "Vila Nova de Foz Côa",
+    "country": "PT",
+    "region": "Guarda",
+    "domain": "cm-fozcoa.pt",
+    "osm_relation_id": 3984652
+  },
+  {
+    "id": "PT-0137",
+    "name": "Alcobaça",
+    "country": "PT",
+    "region": "Leiria",
+    "domain": "cm-alcobaca.pt",
+    "osm_relation_id": 5399253
+  },
+  {
+    "id": "PT-0138",
+    "name": "Alvaiázere",
+    "country": "PT",
+    "region": "Leiria",
+    "domain": "cm-alvaiazere.pt",
+    "osm_relation_id": 5399197
+  },
+  {
+    "id": "PT-0139",
+    "name": "Ansião",
+    "country": "PT",
+    "region": "Leiria",
+    "domain": "cm-ansiao.pt",
+    "osm_relation_id": 5399198
+  },
+  {
+    "id": "PT-0140",
+    "name": "Batalha",
+    "country": "PT",
+    "region": "Leiria",
+    "domain": "cm-batalha.pt",
+    "osm_relation_id": 5399199
+  },
+  {
+    "id": "PT-0141",
+    "name": "Bombarral",
+    "country": "PT",
+    "region": "Leiria",
+    "domain": "cm-bombarral.pt",
+    "osm_relation_id": 5399254
+  },
+  {
+    "id": "PT-0142",
+    "name": "Caldas da Rainha",
+    "country": "PT",
+    "region": "Leiria",
+    "domain": "mcr.pt",
+    "osm_relation_id": 3992954
+  },
+  {
+    "id": "PT-0143",
+    "name": "Castanheira de Pera",
+    "country": "PT",
+    "region": "Leiria",
+    "domain": "cm-castanheiradepera.pt",
+    "osm_relation_id": 5399200
+  },
+  {
+    "id": "PT-0144",
+    "name": "Figueiró dos Vinhos",
+    "country": "PT",
+    "region": "Leiria",
+    "domain": "cm-figueirodosvinhos.pt",
+    "osm_relation_id": 5399201
+  },
+  {
+    "id": "PT-0145",
+    "name": "Leiria",
+    "country": "PT",
+    "region": "Leiria",
+    "domain": "cm-leiria.pt",
+    "osm_relation_id": 5399202
+  },
+  {
+    "id": "PT-0146",
+    "name": "Marinha Grande",
+    "country": "PT",
+    "region": "Leiria",
+    "domain": "cm-mgrande.pt",
+    "osm_relation_id": 5399203
+  },
+  {
+    "id": "PT-0147",
+    "name": "Nazaré",
+    "country": "PT",
+    "region": "Leiria",
+    "domain": "cm-nazare.pt",
+    "osm_relation_id": 5399255
+  },
+  {
+    "id": "PT-0148",
+    "name": "Pedrógão Grande",
+    "country": "PT",
+    "region": "Leiria",
+    "domain": "cm-pedrogaogrande.pt",
+    "osm_relation_id": 5399204
+  },
+  {
+    "id": "PT-0149",
+    "name": "Peniche",
+    "country": "PT",
+    "region": "Leiria",
+    "domain": "cm-peniche.pt",
+    "osm_relation_id": 3991125
+  },
+  {
+    "id": "PT-0150",
+    "name": "Pombal",
+    "country": "PT",
+    "region": "Leiria",
+    "domain": "cm-pombal.pt",
+    "osm_relation_id": 5399205
+  },
+  {
+    "id": "PT-0151",
+    "name": "Porto de Mós",
+    "country": "PT",
+    "region": "Leiria",
+    "domain": "municipio-portodemos.pt",
+    "osm_relation_id": 5399206
+  },
+  {
+    "id": "PT-0152",
+    "name": "Óbidos",
+    "country": "PT",
+    "region": "Leiria",
+    "domain": "cm-obidos.pt",
+    "osm_relation_id": 3991130
+  },
+  {
+    "id": "PT-0153",
+    "name": "Alenquer",
+    "country": "PT",
+    "region": "Lisboa",
+    "domain": "cm-alenquer.pt",
+    "osm_relation_id": 5400756
+  },
+  {
+    "id": "PT-0154",
+    "name": "Amadora",
+    "country": "PT",
+    "region": "Lisboa",
+    "domain": "cm-amadora.pt",
+    "osm_relation_id": 5400888
+  },
+  {
+    "id": "PT-0155",
+    "name": "Arruda dos Vinhos",
+    "country": "PT",
+    "region": "Lisboa",
+    "domain": "cm-arruda.pt",
+    "osm_relation_id": 5400842
+  },
+  {
+    "id": "PT-0156",
+    "name": "Azambuja",
+    "country": "PT",
+    "region": "Lisboa",
+    "domain": "cm-azambuja.pt",
+    "osm_relation_id": 5400757
+  },
+  {
+    "id": "PT-0157",
+    "name": "Cadaval",
+    "country": "PT",
+    "region": "Lisboa",
+    "domain": "cm-cadaval.pt",
+    "osm_relation_id": 2898704
+  },
+  {
+    "id": "PT-0158",
+    "name": "Cascais",
+    "country": "PT",
+    "region": "Lisboa",
+    "domain": "cascais.pt",
+    "osm_relation_id": 5400889
+  },
+  {
+    "id": "PT-0159",
+    "name": "Lisboa",
+    "country": "PT",
+    "region": "Lisboa",
+    "domain": "",
+    "osm_relation_id": 5400890
+  },
+  {
+    "id": "PT-0160",
+    "name": "Loures",
+    "country": "PT",
+    "region": "Lisboa",
+    "domain": "cm-loures.pt",
+    "osm_relation_id": 5400843
+  },
+  {
+    "id": "PT-0161",
+    "name": "Lourinhã",
+    "country": "PT",
+    "region": "Lisboa",
+    "domain": "cm-lourinha.pt",
+    "osm_relation_id": 2898723
+  },
+  {
+    "id": "PT-0162",
+    "name": "Mafra",
+    "country": "PT",
+    "region": "Lisboa",
+    "domain": "cm-mafra.pt",
+    "osm_relation_id": 5400844
+  },
+  {
+    "id": "PT-0163",
+    "name": "Odivelas",
+    "country": "PT",
+    "region": "Lisboa",
+    "domain": "cm-odivelas.pt",
+    "osm_relation_id": 5400891
+  },
+  {
+    "id": "PT-0164",
+    "name": "Oeiras",
+    "country": "PT",
+    "region": "Lisboa",
+    "domain": "oeiras.pt",
+    "osm_relation_id": 5400892
+  },
+  {
+    "id": "PT-0165",
+    "name": "Sintra",
+    "country": "PT",
+    "region": "Lisboa",
+    "domain": "cm-sintra.pt",
+    "osm_relation_id": 5400893
+  },
+  {
+    "id": "PT-0166",
+    "name": "Sobral de Monte Agraço",
+    "country": "PT",
+    "region": "Lisboa",
+    "domain": "cm-sobral-monte-agraco.pt",
+    "osm_relation_id": 5400845
+  },
+  {
+    "id": "PT-0167",
+    "name": "Torres Vedras",
+    "country": "PT",
+    "region": "Lisboa",
+    "domain": "cm-tvedras.pt",
+    "osm_relation_id": 2897146
+  },
+  {
+    "id": "PT-0168",
+    "name": "Vila Franca de Xira",
+    "country": "PT",
+    "region": "Lisboa",
+    "domain": "cm-vfxira.pt",
+    "osm_relation_id": 5400846
+  },
+  {
+    "id": "PT-0169",
+    "name": "Calheta",
+    "country": "PT",
+    "region": "Madeira",
+    "domain": "cmcalheta.pt",
+    "osm_relation_id": 8421420
+  },
+  {
+    "id": "PT-0170",
+    "name": "Câmara de Lobos",
+    "country": "PT",
+    "region": "Madeira",
+    "domain": "cm-camaradelobos.pt",
+    "osm_relation_id": 8421414
+  },
+  {
+    "id": "PT-0171",
+    "name": "Funchal",
+    "country": "PT",
+    "region": "Madeira",
+    "domain": "funchal.pt",
+    "osm_relation_id": 8421413
+  },
+  {
+    "id": "PT-0172",
+    "name": "Machico",
+    "country": "PT",
+    "region": "Madeira",
+    "domain": "cm-machico.pt",
+    "osm_relation_id": 8421411
+  },
+  {
+    "id": "PT-0173",
+    "name": "Ponta do Sol",
+    "country": "PT",
+    "region": "Madeira",
+    "domain": "cm-pontadosol.pt",
+    "osm_relation_id": 8421416
+  },
+  {
+    "id": "PT-0174",
+    "name": "Porto Moniz",
+    "country": "PT",
+    "region": "Madeira",
+    "domain": "portomoniz.pt",
+    "osm_relation_id": 8421419
+  },
+  {
+    "id": "PT-0175",
+    "name": "Porto Santo",
+    "country": "PT",
+    "region": "Madeira",
+    "domain": "cm-portosanto.pt",
+    "osm_relation_id": 8435154
+  },
+  {
+    "id": "PT-0176",
+    "name": "Ribeira Brava",
+    "country": "PT",
+    "region": "Madeira",
+    "domain": "cm-ribeirabrava.pt",
+    "osm_relation_id": 8421415
+  },
+  {
+    "id": "PT-0177",
+    "name": "Santa Cruz",
+    "country": "PT",
+    "region": "Madeira",
+    "domain": "cm-santacruz.pt",
+    "osm_relation_id": 8421412
+  },
+  {
+    "id": "PT-0178",
+    "name": "Santana",
+    "country": "PT",
+    "region": "Madeira",
+    "domain": "cm-santana.com",
+    "osm_relation_id": 8421417
+  },
+  {
+    "id": "PT-0179",
+    "name": "São Vicente",
+    "country": "PT",
+    "region": "Madeira",
+    "domain": "cm-saovicente.pt",
+    "osm_relation_id": 8421418
+  },
+  {
+    "id": "PT-0180",
+    "name": "Alter do Chão",
+    "country": "PT",
+    "region": "Portalegre",
+    "domain": "cm-alter-chao.pt",
+    "osm_relation_id": 5397419
+  },
+  {
+    "id": "PT-0181",
+    "name": "Arronches",
+    "country": "PT",
+    "region": "Portalegre",
+    "domain": "cm-arronches.pt",
+    "osm_relation_id": 5397420
+  },
+  {
+    "id": "PT-0182",
+    "name": "Avis",
+    "country": "PT",
+    "region": "Portalegre",
+    "domain": "cm-avis.pt",
+    "osm_relation_id": 5397421
+  },
+  {
+    "id": "PT-0183",
+    "name": "Campo Maior",
+    "country": "PT",
+    "region": "Portalegre",
+    "domain": "cm-campo-maior.pt",
+    "osm_relation_id": 5397422
+  },
+  {
+    "id": "PT-0184",
+    "name": "Castelo de Vide",
+    "country": "PT",
+    "region": "Portalegre",
+    "domain": "cm-castelo-vide.pt",
+    "osm_relation_id": 5397064
+  },
+  {
+    "id": "PT-0185",
+    "name": "Crato",
+    "country": "PT",
+    "region": "Portalegre",
+    "domain": "cm-crato.pt",
+    "osm_relation_id": 5397065
+  },
+  {
+    "id": "PT-0186",
+    "name": "Elvas",
+    "country": "PT",
+    "region": "Portalegre",
+    "domain": "cm-elvas.pt",
+    "osm_relation_id": 5397423
+  },
+  {
+    "id": "PT-0187",
+    "name": "Fronteira",
+    "country": "PT",
+    "region": "Portalegre",
+    "domain": "cm-fronteira.pt",
+    "osm_relation_id": 5397424
+  },
+  {
+    "id": "PT-0188",
+    "name": "Gavião",
+    "country": "PT",
+    "region": "Portalegre",
+    "domain": "cm-gaviao.pt",
+    "osm_relation_id": 5397066
+  },
+  {
+    "id": "PT-0189",
+    "name": "Marvão",
+    "country": "PT",
+    "region": "Portalegre",
+    "domain": "cm-marvao.pt",
+    "osm_relation_id": 5397067
+  },
+  {
+    "id": "PT-0190",
+    "name": "Monforte",
+    "country": "PT",
+    "region": "Portalegre",
+    "domain": "cm-monforte.pt",
+    "osm_relation_id": 5397425
+  },
+  {
+    "id": "PT-0191",
+    "name": "Nisa",
+    "country": "PT",
+    "region": "Portalegre",
+    "domain": "cm-nisa.pt",
+    "osm_relation_id": 5397068
+  },
+  {
+    "id": "PT-0192",
+    "name": "Ponte de Sor",
+    "country": "PT",
+    "region": "Portalegre",
+    "domain": "cm-pontedesor.pt",
+    "osm_relation_id": 5397426
+  },
+  {
+    "id": "PT-0193",
+    "name": "Portalegre",
+    "country": "PT",
+    "region": "Portalegre",
+    "domain": "cm-portalegre.pt",
+    "osm_relation_id": 5397069
+  },
+  {
+    "id": "PT-0194",
+    "name": "Sousel",
+    "country": "PT",
+    "region": "Portalegre",
+    "domain": "cm-sousel.pt",
+    "osm_relation_id": 5397427
+  },
+  {
+    "id": "PT-0195",
+    "name": "Amarante",
+    "country": "PT",
+    "region": "Porto",
+    "domain": "cm-amarante.pt",
+    "osm_relation_id": 5268485
+  },
+  {
+    "id": "PT-0196",
+    "name": "Baião",
+    "country": "PT",
+    "region": "Porto",
+    "domain": "cm-baiao.pt",
+    "osm_relation_id": 3966517
+  },
+  {
+    "id": "PT-0197",
+    "name": "Felgueiras",
+    "country": "PT",
+    "region": "Porto",
+    "domain": "cm-felgueiras.pt",
+    "osm_relation_id": 3973097
+  },
+  {
+    "id": "PT-0198",
+    "name": "Gondomar",
+    "country": "PT",
+    "region": "Porto",
+    "domain": "cm-gondomar.pt",
+    "osm_relation_id": 3383115
+  },
+  {
+    "id": "PT-0199",
+    "name": "Lousada",
+    "country": "PT",
+    "region": "Porto",
+    "domain": "cm-lousada.pt",
+    "osm_relation_id": 5268486
+  },
+  {
+    "id": "PT-0200",
+    "name": "Maia",
+    "country": "PT",
+    "region": "Porto",
+    "domain": "cm-maia.pt",
+    "osm_relation_id": 3384812
+  },
+  {
+    "id": "PT-0201",
+    "name": "Marco de Canaveses",
+    "country": "PT",
+    "region": "Porto",
+    "domain": "cm-marco-canaveses.pt",
+    "osm_relation_id": 3920309
+  },
+  {
+    "id": "PT-0202",
+    "name": "Matosinhos",
+    "country": "PT",
+    "region": "Porto",
+    "domain": "cm-matosinhos.pt",
+    "osm_relation_id": 3372460
+  },
+  {
+    "id": "PT-0203",
+    "name": "Paredes",
+    "country": "PT",
+    "region": "Porto",
+    "domain": "cm-paredes.pt",
+    "osm_relation_id": 5268095
+  },
+  {
+    "id": "PT-0204",
+    "name": "Paços de Ferreira",
+    "country": "PT",
+    "region": "Porto",
+    "domain": "cm-pacosdeferreira.pt",
+    "osm_relation_id": 3658971
+  },
+  {
+    "id": "PT-0205",
+    "name": "Penafiel",
+    "country": "PT",
+    "region": "Porto",
+    "domain": "cm-penafiel.pt",
+    "osm_relation_id": 3920250
+  },
+  {
+    "id": "PT-0206",
+    "name": "Porto",
+    "country": "PT",
+    "region": "Porto",
+    "domain": "cm-porto.pt",
+    "osm_relation_id": 3372453
+  },
+  {
+    "id": "PT-0207",
+    "name": "Póvoa de Varzim",
+    "country": "PT",
+    "region": "Porto",
+    "domain": "cm-pvarzim.pt",
+    "osm_relation_id": 3892763
+  },
+  {
+    "id": "PT-0208",
+    "name": "Santo Tirso",
+    "country": "PT",
+    "region": "Porto",
+    "domain": "cm-stirso.pt",
+    "osm_relation_id": 3973149
+  },
+  {
+    "id": "PT-0209",
+    "name": "Trofa",
+    "country": "PT",
+    "region": "Porto",
+    "domain": "mun-trofa.pt",
+    "osm_relation_id": 5261566
+  },
+  {
+    "id": "PT-0210",
+    "name": "Valongo",
+    "country": "PT",
+    "region": "Porto",
+    "domain": "cm-valongo.pt",
+    "osm_relation_id": 5268096
+  },
+  {
+    "id": "PT-0211",
+    "name": "Vila Nova de Gaia",
+    "country": "PT",
+    "region": "Porto",
+    "domain": "cm-gaia.pt",
+    "osm_relation_id": 3382115
+  },
+  {
+    "id": "PT-0212",
+    "name": "Vila do Conde",
+    "country": "PT",
+    "region": "Porto",
+    "domain": "cm-viladoconde.pt",
+    "osm_relation_id": 3892769
+  },
+  {
+    "id": "PT-0213",
+    "name": "Abrantes",
+    "country": "PT",
+    "region": "Santarém",
+    "domain": "cm-abrantes.pt",
+    "osm_relation_id": 5400339
+  },
+  {
+    "id": "PT-0214",
+    "name": "Alcanena",
+    "country": "PT",
+    "region": "Santarém",
+    "domain": "cm-alcanena.pt",
+    "osm_relation_id": 5400340
+  },
+  {
+    "id": "PT-0215",
+    "name": "Almeirim",
+    "country": "PT",
+    "region": "Santarém",
+    "domain": "cm-almeirim.pt",
+    "osm_relation_id": 5400564
+  },
+  {
+    "id": "PT-0216",
+    "name": "Alpiarça",
+    "country": "PT",
+    "region": "Santarém",
+    "domain": "cm-alpiarca.pt",
+    "osm_relation_id": 5400565
+  },
+  {
+    "id": "PT-0217",
+    "name": "Benavente",
+    "country": "PT",
+    "region": "Santarém",
+    "domain": "cm-benavente.pt",
+    "osm_relation_id": 5400566
+  },
+  {
+    "id": "PT-0218",
+    "name": "Cartaxo",
+    "country": "PT",
+    "region": "Santarém",
+    "domain": "cm-cartaxo.pt",
+    "osm_relation_id": 5400567
+  },
+  {
+    "id": "PT-0219",
+    "name": "Chamusca",
+    "country": "PT",
+    "region": "Santarém",
+    "domain": "cm-chamusca.pt",
+    "osm_relation_id": 5400569
+  },
+  {
+    "id": "PT-0220",
+    "name": "Constância",
+    "country": "PT",
+    "region": "Santarém",
+    "domain": "cm-constancia.pt",
+    "osm_relation_id": 5400341
+  },
+  {
+    "id": "PT-0221",
+    "name": "Coruche",
+    "country": "PT",
+    "region": "Santarém",
+    "domain": "cm-coruche.pt",
+    "osm_relation_id": 5400570
+  },
+  {
+    "id": "PT-0222",
+    "name": "Entroncamento",
+    "country": "PT",
+    "region": "Santarém",
+    "domain": "cm-entroncamento.pt",
+    "osm_relation_id": 5400342
+  },
+  {
+    "id": "PT-0223",
+    "name": "Ferreira do Zêzere",
+    "country": "PT",
+    "region": "Santarém",
+    "domain": "cm-ferreiradozezere.pt",
+    "osm_relation_id": 5400343
+  },
+  {
+    "id": "PT-0224",
+    "name": "Golegã",
+    "country": "PT",
+    "region": "Santarém",
+    "domain": "cm-golega.pt",
+    "osm_relation_id": 5400344
+  },
+  {
+    "id": "PT-0225",
+    "name": "Mação",
+    "country": "PT",
+    "region": "Santarém",
+    "domain": "cm-macao.pt",
+    "osm_relation_id": 5399551
+  },
+  {
+    "id": "PT-0226",
+    "name": "Ourém",
+    "country": "PT",
+    "region": "Santarém",
+    "domain": "ourem.pt",
+    "osm_relation_id": 5400345
+  },
+  {
+    "id": "PT-0227",
+    "name": "Rio Maior",
+    "country": "PT",
+    "region": "Santarém",
+    "domain": "cm-riomaior.pt",
+    "osm_relation_id": 5400571
+  },
+  {
+    "id": "PT-0228",
+    "name": "Salvaterra de Magos",
+    "country": "PT",
+    "region": "Santarém",
+    "domain": "cm-salvaterrademagos.pt",
+    "osm_relation_id": 5400572
+  },
+  {
+    "id": "PT-0229",
+    "name": "Santarém",
+    "country": "PT",
+    "region": "Santarém",
+    "domain": "cm-santarem.pt",
+    "osm_relation_id": 5400573
+  },
+  {
+    "id": "PT-0230",
+    "name": "Sardoal",
+    "country": "PT",
+    "region": "Santarém",
+    "domain": "cm-sardoal.pt",
+    "osm_relation_id": 5399552
+  },
+  {
+    "id": "PT-0231",
+    "name": "Tomar",
+    "country": "PT",
+    "region": "Santarém",
+    "domain": "cm-tomar.pt",
+    "osm_relation_id": 5400346
+  },
+  {
+    "id": "PT-0232",
+    "name": "Torres Novas",
+    "country": "PT",
+    "region": "Santarém",
+    "domain": "cm-torresnovas.pt",
+    "osm_relation_id": 5400347
+  },
+  {
+    "id": "PT-0233",
+    "name": "Vila Nova da Barquinha",
+    "country": "PT",
+    "region": "Santarém",
+    "domain": "cm-vnbarquinha.pt",
+    "osm_relation_id": 5400348
+  },
+  {
+    "id": "PT-0234",
+    "name": "Alcochete",
+    "country": "PT",
+    "region": "Setúbal",
+    "domain": "cm-alcochete.pt",
+    "osm_relation_id": 5401733
+  },
+  {
+    "id": "PT-0235",
+    "name": "Alcácer do Sal",
+    "country": "PT",
+    "region": "Setúbal",
+    "domain": "cm-alcacerdosal.pt",
+    "osm_relation_id": 5401847
+  },
+  {
+    "id": "PT-0236",
+    "name": "Almada",
+    "country": "PT",
+    "region": "Setúbal",
+    "domain": "cm-almada.pt",
+    "osm_relation_id": 5401734
+  },
+  {
+    "id": "PT-0237",
+    "name": "Barreiro",
+    "country": "PT",
+    "region": "Setúbal",
+    "domain": "cm-barreiro.pt",
+    "osm_relation_id": 5401735
+  },
+  {
+    "id": "PT-0238",
+    "name": "Grândola",
+    "country": "PT",
+    "region": "Setúbal",
+    "domain": "cm-grandola.pt",
+    "osm_relation_id": 5401848
+  },
+  {
+    "id": "PT-0239",
+    "name": "Moita",
+    "country": "PT",
+    "region": "Setúbal",
+    "domain": "cm-moita.pt",
+    "osm_relation_id": 5401736
+  },
+  {
+    "id": "PT-0240",
+    "name": "Montijo",
+    "country": "PT",
+    "region": "Setúbal",
+    "domain": "mun-montijo.pt",
+    "osm_relation_id": 5401737
+  },
+  {
+    "id": "PT-0241",
+    "name": "Palmela",
+    "country": "PT",
+    "region": "Setúbal",
+    "domain": "cm-palmela.pt",
+    "osm_relation_id": 5401738
+  },
+  {
+    "id": "PT-0242",
+    "name": "Santiago do Cacém",
+    "country": "PT",
+    "region": "Setúbal",
+    "domain": "cm-santiagocacem.pt",
+    "osm_relation_id": 5401849
+  },
+  {
+    "id": "PT-0243",
+    "name": "Seixal",
+    "country": "PT",
+    "region": "Setúbal",
+    "domain": "cm-seixal.pt",
+    "osm_relation_id": 5401739
+  },
+  {
+    "id": "PT-0244",
+    "name": "Sesimbra",
+    "country": "PT",
+    "region": "Setúbal",
+    "domain": "sesimbra.pt",
+    "osm_relation_id": 5401850
+  },
+  {
+    "id": "PT-0245",
+    "name": "Setúbal",
+    "country": "PT",
+    "region": "Setúbal",
+    "domain": "mun-setubal.pt",
+    "osm_relation_id": 5401851
+  },
+  {
+    "id": "PT-0246",
+    "name": "Sines",
+    "country": "PT",
+    "region": "Setúbal",
+    "domain": "sines.pt",
+    "osm_relation_id": 5401852
+  },
+  {
+    "id": "PT-0247",
+    "name": "Arcos de Valdevez",
+    "country": "PT",
+    "region": "Viana do Castelo",
+    "domain": "cmav.pt",
+    "osm_relation_id": 4648435
+  },
+  {
+    "id": "PT-0248",
+    "name": "Caminha",
+    "country": "PT",
+    "region": "Viana do Castelo",
+    "domain": "cm-caminha.pt",
+    "osm_relation_id": 3911964
+  },
+  {
+    "id": "PT-0249",
+    "name": "Melgaço",
+    "country": "PT",
+    "region": "Viana do Castelo",
+    "domain": "cm-melgaco.pt",
+    "osm_relation_id": 4648436
+  },
+  {
+    "id": "PT-0250",
+    "name": "Monção",
+    "country": "PT",
+    "region": "Viana do Castelo",
+    "domain": "cm-moncao.pt",
+    "osm_relation_id": 4640190
+  },
+  {
+    "id": "PT-0251",
+    "name": "Paredes de Coura",
+    "country": "PT",
+    "region": "Viana do Castelo",
+    "domain": "paredesdecoura.pt",
+    "osm_relation_id": 5195993
+  },
+  {
+    "id": "PT-0252",
+    "name": "Ponte da Barca",
+    "country": "PT",
+    "region": "Viana do Castelo",
+    "domain": "cmpb.pt",
+    "osm_relation_id": 3904625
+  },
+  {
+    "id": "PT-0253",
+    "name": "Ponte de Lima",
+    "country": "PT",
+    "region": "Viana do Castelo",
+    "domain": "cm-pontedelima.pt",
+    "osm_relation_id": 3808753
+  },
+  {
+    "id": "PT-0254",
+    "name": "Valença",
+    "country": "PT",
+    "region": "Viana do Castelo",
+    "domain": "cm-valenca.pt",
+    "osm_relation_id": 4640264
+  },
+  {
+    "id": "PT-0255",
+    "name": "Viana do Castelo",
+    "country": "PT",
+    "region": "Viana do Castelo",
+    "domain": "cm-viana-castelo.pt",
+    "osm_relation_id": 3808752
+  },
+  {
+    "id": "PT-0256",
+    "name": "Vila Nova de Cerveira",
+    "country": "PT",
+    "region": "Viana do Castelo",
+    "domain": "cm-vncerveira.pt",
+    "osm_relation_id": 5195994
+  },
+  {
+    "id": "PT-0257",
+    "name": "Alijó",
+    "country": "PT",
+    "region": "Vila Real",
+    "domain": "cm-alijo.pt",
+    "osm_relation_id": 4204550
+  },
+  {
+    "id": "PT-0258",
+    "name": "Boticas",
+    "country": "PT",
+    "region": "Vila Real",
+    "domain": "cm-boticas.pt",
+    "osm_relation_id": 4022984
+  },
+  {
+    "id": "PT-0259",
+    "name": "Chaves",
+    "country": "PT",
+    "region": "Vila Real",
+    "domain": "chaves.pt",
+    "osm_relation_id": 4022982
+  },
+  {
+    "id": "PT-0260",
+    "name": "Mesão Frio",
+    "country": "PT",
+    "region": "Vila Real",
+    "domain": "cm-mesaofrio.pt",
+    "osm_relation_id": 4203577
+  },
+  {
+    "id": "PT-0261",
+    "name": "Mondim de Basto",
+    "country": "PT",
+    "region": "Vila Real",
+    "domain": "cm-mondimdebasto.pt",
+    "osm_relation_id": 4193257
+  },
+  {
+    "id": "PT-0262",
+    "name": "Montalegre",
+    "country": "PT",
+    "region": "Vila Real",
+    "domain": "cm-montalegre.pt",
+    "osm_relation_id": 2383830
+  },
+  {
+    "id": "PT-0263",
+    "name": "Murça",
+    "country": "PT",
+    "region": "Vila Real",
+    "domain": "cm-murca.pt",
+    "osm_relation_id": 4201836
+  },
+  {
+    "id": "PT-0264",
+    "name": "Peso da Régua",
+    "country": "PT",
+    "region": "Vila Real",
+    "domain": "cm-pesoregua.pt",
+    "osm_relation_id": 4203811
+  },
+  {
+    "id": "PT-0265",
+    "name": "Ribeira de Pena",
+    "country": "PT",
+    "region": "Vila Real",
+    "domain": "cm-rpena.pt",
+    "osm_relation_id": 4192930
+  },
+  {
+    "id": "PT-0266",
+    "name": "Sabrosa",
+    "country": "PT",
+    "region": "Vila Real",
+    "domain": "sabrosa.pt",
+    "osm_relation_id": 4203956
+  },
+  {
+    "id": "PT-0267",
+    "name": "Santa Marta de Penaguião",
+    "country": "PT",
+    "region": "Vila Real",
+    "domain": "cm-smpenaguiao.pt",
+    "osm_relation_id": 4203514
+  },
+  {
+    "id": "PT-0268",
+    "name": "Valpaços",
+    "country": "PT",
+    "region": "Vila Real",
+    "domain": "valpacos.pt",
+    "osm_relation_id": 4197882
+  },
+  {
+    "id": "PT-0269",
+    "name": "Vila Pouca de Aguiar",
+    "country": "PT",
+    "region": "Vila Real",
+    "domain": "cm-vpaguiar.pt",
+    "osm_relation_id": 4195186
+  },
+  {
+    "id": "PT-0270",
+    "name": "Vila Real",
+    "country": "PT",
+    "region": "Vila Real",
+    "domain": "cm-vilareal.pt",
+    "osm_relation_id": 4202166
+  },
+  {
+    "id": "PT-0271",
+    "name": "Armamar",
+    "country": "PT",
+    "region": "Viseu",
+    "domain": "cm-armamar.pt",
+    "osm_relation_id": 5328699
+  },
+  {
+    "id": "PT-0272",
+    "name": "Carregal do Sal",
+    "country": "PT",
+    "region": "Viseu",
+    "domain": "cm-carregal.pt",
+    "osm_relation_id": 5331546
+  },
+  {
+    "id": "PT-0273",
+    "name": "Castro Daire",
+    "country": "PT",
+    "region": "Viseu",
+    "domain": "cm-castrodaire.pt",
+    "osm_relation_id": 5329283
+  },
+  {
+    "id": "PT-0274",
+    "name": "Cinfães",
+    "country": "PT",
+    "region": "Viseu",
+    "domain": "cm-cinfaes.pt",
+    "osm_relation_id": 3920286
+  },
+  {
+    "id": "PT-0275",
+    "name": "Lamego",
+    "country": "PT",
+    "region": "Viseu",
+    "domain": "cm-lamego.pt",
+    "osm_relation_id": 5328700
+  },
+  {
+    "id": "PT-0276",
+    "name": "Mangualde",
+    "country": "PT",
+    "region": "Viseu",
+    "domain": "cmmangualde.pt",
+    "osm_relation_id": 5331547
+  },
+  {
+    "id": "PT-0277",
+    "name": "Moimenta da Beira",
+    "country": "PT",
+    "region": "Viseu",
+    "domain": "cm-moimenta.pt",
+    "osm_relation_id": 5329284
+  },
+  {
+    "id": "PT-0278",
+    "name": "Mortágua",
+    "country": "PT",
+    "region": "Viseu",
+    "domain": "cm-mortagua.pt",
+    "osm_relation_id": 5331548
+  },
+  {
+    "id": "PT-0279",
+    "name": "Nelas",
+    "country": "PT",
+    "region": "Viseu",
+    "domain": "cm-nelas.pt",
+    "osm_relation_id": 5331549
+  },
+  {
+    "id": "PT-0280",
+    "name": "Oliveira de Frades",
+    "country": "PT",
+    "region": "Viseu",
+    "domain": "cm-ofrades.com",
+    "osm_relation_id": 5330330
+  },
+  {
+    "id": "PT-0281",
+    "name": "Penalva do Castelo",
+    "country": "PT",
+    "region": "Viseu",
+    "domain": "cm-penalvadocastelo.pt",
+    "osm_relation_id": 5330117
+  },
+  {
+    "id": "PT-0282",
+    "name": "Penedono",
+    "country": "PT",
+    "region": "Viseu",
+    "domain": "cm-penedono.pt",
+    "osm_relation_id": 3981771
+  },
+  {
+    "id": "PT-0283",
+    "name": "Resende",
+    "country": "PT",
+    "region": "Viseu",
+    "domain": "cm-resende.pt",
+    "osm_relation_id": 5328701
+  },
+  {
+    "id": "PT-0284",
+    "name": "Santa Comba Dão",
+    "country": "PT",
+    "region": "Viseu",
+    "domain": "cm-santacombadao.pt",
+    "osm_relation_id": 5331550
+  },
+  {
+    "id": "PT-0285",
+    "name": "Sernancelhe",
+    "country": "PT",
+    "region": "Viseu",
+    "domain": "cm-sernancelhe.pt",
+    "osm_relation_id": 5330118
+  },
+  {
+    "id": "PT-0286",
+    "name": "Sátão",
+    "country": "PT",
+    "region": "Viseu",
+    "domain": "cm-satao.pt",
+    "osm_relation_id": 5330119
+  },
+  {
+    "id": "PT-0287",
+    "name": "São João da Pesqueira",
+    "country": "PT",
+    "region": "Viseu",
+    "domain": "sjpesqueira.pt",
+    "osm_relation_id": 5328702
+  },
+  {
+    "id": "PT-0288",
+    "name": "São Pedro do Sul",
+    "country": "PT",
+    "region": "Viseu",
+    "domain": "cm-spsul.pt",
+    "osm_relation_id": 5330331
+  },
+  {
+    "id": "PT-0289",
+    "name": "Tabuaço",
+    "country": "PT",
+    "region": "Viseu",
+    "domain": "cm-tabuaco.pt",
+    "osm_relation_id": 5328703
+  },
+  {
+    "id": "PT-0290",
+    "name": "Tarouca",
+    "country": "PT",
+    "region": "Viseu",
+    "domain": "cm-tarouca.pt",
+    "osm_relation_id": 5329285
+  },
+  {
+    "id": "PT-0291",
+    "name": "Tondela",
+    "country": "PT",
+    "region": "Viseu",
+    "domain": "cm-tondela.pt",
+    "osm_relation_id": 5331551
+  },
+  {
+    "id": "PT-0292",
+    "name": "Vila Nova de Paiva",
+    "country": "PT",
+    "region": "Viseu",
+    "domain": "cm-vnpaiva.pt",
+    "osm_relation_id": 5329286
+  },
+  {
+    "id": "PT-0293",
+    "name": "Viseu",
+    "country": "PT",
+    "region": "Viseu",
+    "domain": "cm-viseu.pt",
+    "osm_relation_id": 5330332
+  },
+  {
+    "id": "PT-0294",
+    "name": "Vouzela",
+    "country": "PT",
+    "region": "Viseu",
+    "domain": "cm-vouzela.pt",
+    "osm_relation_id": 5330333
+  },
+  {
+    "id": "PT-0295",
+    "name": "Alandroal",
+    "country": "PT",
+    "region": "Évora",
+    "domain": "cm-alandroal.pt",
+    "osm_relation_id": 5402657
+  },
+  {
+    "id": "PT-0296",
+    "name": "Arraiolos",
+    "country": "PT",
+    "region": "Évora",
+    "domain": "cm-arraiolos.pt",
+    "osm_relation_id": 5402583
+  },
+  {
+    "id": "PT-0297",
+    "name": "Borba",
+    "country": "PT",
+    "region": "Évora",
+    "domain": "cm-borba.pt",
+    "osm_relation_id": 5402658
+  },
+  {
+    "id": "PT-0298",
+    "name": "Estremoz",
+    "country": "PT",
+    "region": "Évora",
+    "domain": "cm-estremoz.pt",
+    "osm_relation_id": 5402659
+  },
+  {
+    "id": "PT-0299",
+    "name": "Montemor-o-Novo",
+    "country": "PT",
+    "region": "Évora",
+    "domain": "cm-montemornovo.pt",
+    "osm_relation_id": 5402584
+  },
+  {
+    "id": "PT-0300",
+    "name": "Mora",
+    "country": "PT",
+    "region": "Évora",
+    "domain": "cm-mora.pt",
+    "osm_relation_id": 5402585
+  },
+  {
+    "id": "PT-0301",
+    "name": "Mourão",
+    "country": "PT",
+    "region": "Évora",
+    "domain": "cm-mourao.pt",
+    "osm_relation_id": 5402660
+  },
+  {
+    "id": "PT-0302",
+    "name": "Portel",
+    "country": "PT",
+    "region": "Évora",
+    "domain": "cm-portel.pt",
+    "osm_relation_id": 5402586
+  },
+  {
+    "id": "PT-0303",
+    "name": "Redondo",
+    "country": "PT",
+    "region": "Évora",
+    "domain": "cm-redondo.pt",
+    "osm_relation_id": 5402661
+  },
+  {
+    "id": "PT-0304",
+    "name": "Reguengos de Monsaraz",
+    "country": "PT",
+    "region": "Évora",
+    "domain": "cm-reguengos-monsaraz.pt",
+    "osm_relation_id": 5402662
+  },
+  {
+    "id": "PT-0305",
+    "name": "Vendas Novas",
+    "country": "PT",
+    "region": "Évora",
+    "domain": "cm-vendasnovas.pt",
+    "osm_relation_id": 5402587
+  },
+  {
+    "id": "PT-0306",
+    "name": "Viana do Alentejo",
+    "country": "PT",
+    "region": "Évora",
+    "domain": "cm-vianadoalentejo.pt",
+    "osm_relation_id": 5402588
+  },
+  {
+    "id": "PT-0307",
+    "name": "Vila Viçosa",
+    "country": "PT",
+    "region": "Évora",
+    "domain": "cm-vilavicosa.pt",
+    "osm_relation_id": 5402663
+  },
+  {
+    "id": "PT-0308",
+    "name": "Évora",
+    "country": "PT",
+    "region": "Évora",
+    "domain": "cm-evora.pt",
+    "osm_relation_id": 5402589
+  }
+]

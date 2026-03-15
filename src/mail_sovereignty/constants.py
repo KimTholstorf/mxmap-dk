@@ -71,6 +71,8 @@ SKIP_DOMAINS = {
     "example.is",
     "example.es",
     "example.fr",
+    "example.pl",
+    "example.pt",
     "kommune.no",
     "sentry.io",
     "w3.org",
@@ -102,6 +104,11 @@ SUBPAGES = [
     "/nous-contacter",  # French: "Contact us"
     "/contactez-nous",  # French: "Contact us"
     "/mentions-legales",  # French: "Legal notice"
+    "/kontakt",  # Polish: "Contact" (same as German)
+    "/bip",  # Polish: "Public Information Bulletin"
+    "/contactos",  # Portuguese: "Contacts"
+    "/contacte-nos",  # Portuguese: "Contact us"
+    "/municipio",  # Portuguese: "Municipality"
 ]
 
 GATEWAY_KEYWORDS = {
@@ -297,6 +304,32 @@ LOCAL_ISP_ASNS: dict[int, str] = {
     5410: "Bouygues Telecom (FR)",
     16347: "Inherent (FR)",
     20756: "Nameshield (FR)",
+    # Poland
+    5617: "Orange Polska (PL)",
+    12741: "Netia (PL)",
+    8308: "NASK (PL)",
+    197226: "NASK (PL)",
+    21021: "Multimedia Polska (PL)",
+    6714: "OPL/TP SA (PL)",
+    15694: "Atman (PL)",
+    29522: "Nazwa.pl (PL)",
+    16138: "Interia.pl (PL)",
+    50840: "home.pl (PL)",
+    48850: "Zenbox (PL)",
+    43939: "PERN (PL)",
+    20804: "Exatel (PL)",
+    61141: "AZ.pl (PL)",
+    201053: "EPSI (PL)",
+    # Portugal
+    3243: "MEO/Altice (PT)",
+    2860: "NOS (PT)",
+    12353: "Vodafone PT",
+    8657: "PT Comunicações (PT)",
+    15525: "MEO (PT)",
+    39729: "Claranet PT",
+    47787: "Ar Telecom (PT)",
+    60729: "Nowo Communications (PT)",
+    25291: "Adclick (PT)",
     # Iceland
     6677: "Simnet/Vist (IS)",
     29689: "Skyggnir (IS)",
