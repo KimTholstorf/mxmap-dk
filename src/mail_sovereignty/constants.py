@@ -76,6 +76,11 @@ SKIP_DOMAINS = {
     "example.it",
     "example.nl",
     "example.ie",
+    "example.bg",
+    "example.sk",
+    "example.si",
+    "example.uk",
+    "gov.uk",
     "kommune.no",
     "sentry.io",
     "w3.org",
@@ -118,6 +123,13 @@ SUBPAGES = [
     "/over-de-gemeente",  # Dutch: "About the municipality"
     "/contact-us",  # Irish English
     "/your-council",  # Irish: council info
+    "/kontakti",  # Bulgarian: "Contacts"
+    "/za-nas",  # Bulgarian: "About us"
+    "/kontakt",  # Slovenian: "Contact" (same as German/Polish)
+    "/o-obcini",  # Slovenian: "About the municipality"
+    "/obcina",  # Slovenian: "Municipality"
+    "/contact-us",  # UK English
+    "/about-the-council",  # UK council info
 ]
 
 GATEWAY_KEYWORDS = {
@@ -155,6 +167,15 @@ GATEWAY_KEYWORDS = {
     "security-mail": ["security-mail.net"],
     "topsec": ["topsec.com"],
     "tstechnology": ["tstechnology.net"],
+    "mailchannels": ["mailchannels.net"],
+    "spamexperts": ["spamexperts.eu", "spamexperts.net", "spamexperts.com"],
+    "mpssec": ["mpssec.net"],
+    "cleanmx": ["cleanmx.pt"],
+    "spambusters": ["spambusters.email"],
+    "mxthunder": ["mxthunder.net"],
+    "host-bg": ["host.bg"],
+    "mx-hub": ["mx-hub.cz", "mx-hub.sk", "mx-hub.net", "mx-hub.eu"],
+    "dsidata": ["dsidata.sk"],
 }
 
 # Local ISP ASNs (replaces SWISS_ISP_ASNS)
@@ -403,11 +424,74 @@ LOCAL_ISP_ASNS: dict[int, str] = {
     25441: "Eir/eircom (IE)",
     35272: "Eir/eircom (IE)",
     60800: "GTI (IE)",
+    # Bulgaria
+    8717: "Spectra Net (BG)",
+    42293: "Web Host Ltd (BG)",
+    47453: "TerraHost (BG)",
+    43205: "Bulsatcom (BG)",
+    59466: "SZ IT (BG)",
+    201200: "Hosting.bg (BG)",
+    25374: "Netissat (BG)",
+    44586: "SEGA.bg/e-Gov (BG)",
+    42086: "RO-NI (BG)",
+    34841: "Orbitel (BG)",
+    8866: "BTC/Vivacom (BG)",
     # Iceland
     6677: "Simnet/Vist (IS)",
     29689: "Skyggnir (IS)",
     44925: "1984 Hosting (IS)",
     12969: "Síminn (IS)",
+    # Slovakia
+    6855: "Slovak Telekom (SK)",
+    5578: "Orange Slovensko (SK)",
+    29405: "SWAN (SK)",
+    47232: "Websupport (SK)",
+    51306: "Websupport (SK)",
+    15962: "SANET (SK)",
+    20940: "Akamai/SK",
+    31588: "GTS Slovakia (SK)",
+    196621: "EpixTechnology (SK)",
+    43413: "MX-HUB (SK)",
+    2607: "SANET (SK)",
+    8290: "Slovanet (SK)",
+    8778: "Slovanet (SK)",
+    31117: "Energotel (SK)",
+    35328: "DSI DATA (SK)",
+    43451: "Slovanet Radiolan (SK)",
+    44631: "CondorNet (SK)",
+    49115: "E-MAX (SK)",
+    51013: "Websupport (SK)",
+    51653: "PresNet (SK)",
+    57606: "Proxis (SK)",
+    60895: "Lekos (SK)",
+    208668: "Netspace (SK)",
+    # United Kingdom
+    20860: "IOMART (GB)",
+    35425: "Bytemark (GB)",
+    8468: "Entanet (GB)",
+    20712: "ANS Group (GB)",
+    24916: "Claranet UK (GB)",
+    8683: "Fasthosts (GB)",
+    34931: "UKFast/ANS (GB)",
+    35662: "Heart Internet (GB)",
+    21396: "NetSumo (GB)",
+    5089: "Virgin Media (GB)",
+    2856: "BT (GB)",
+    6871: "Plusnet (GB)",
+    13285: "TalkTalk (GB)",
+    12576: "EE/Orange (GB)",
+    60294: "JISC (GB)",
+    786: "JANET (GB)",
+    # Slovenia
+    5603: "Telekom Slovenije (SI)",
+    34779: "T-2 (SI)",
+    21283: "A1 Slovenija (SI)",
+    3212: "ARNES (SI)",
+    47610: "Mega M (SI)",
+    34803: "Telemach (SI)",
+    12644: "AMIS (SI)",
+    9119: "Softnet (SI)",
+    198644: "Prenos podatkov (SI)",
 }
 
 CONCURRENCY = 20
