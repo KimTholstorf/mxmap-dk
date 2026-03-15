@@ -139,82 +139,68 @@ def merge_into_topo(cc: str, patch_geojson: str):
 
 
 def simple_merge(cc: str, patch_geojson: str):
-    """Simpler merge: convert patch to topo, then combine JSON objects."""
+    """Merge new GeoJSON features into existing TopoJSON via mapshaper.
+
+    Converts existing TopoJSON back to GeoJSON, concatenates features,
+    then re-creates TopoJSON. This avoids coordinate transform mismatches
+    that occur when manually merging arcs from different TopoJSON files.
+    """
     manifest = json.load(open(TOPO_DIR / "manifest.json"))
     topo_path = TOPO_DIR / manifest[cc]["files"]["municipality"]
 
     with tempfile.TemporaryDirectory() as tmpdir:
-        # Convert patch geojson to topojson
-        patch_topo = f"{tmpdir}/patch.topo.json"
+        # Convert existing topo to geojson
+        # mapshaper may output multiple files for multi-layer topos
+        subprocess.run(
+            ["mapshaper", str(topo_path), "-o", f"{tmpdir}/layer.geojson", "format=geojson"],
+            check=True,
+            capture_output=True,
+        )
+
+        # Find the polygon layer (largest file, or check geometry type)
+        import glob
+        geo_files = sorted(glob.glob(f"{tmpdir}/layer*.geojson"),
+                           key=lambda p: -Path(p).stat().st_size)
+
+        # Merge all polygon features from all layers
+        all_features = []
+        for gf in geo_files:
+            with open(gf) as f:
+                layer = json.load(f)
+            for feat in layer.get("features", []):
+                geom = feat.get("geometry")
+                if not geom:
+                    continue
+                gtype = geom.get("type", "")
+                if "Polygon" in gtype:
+                    all_features.append(feat)
+
+        existing = {"type": "FeatureCollection", "features": all_features}
+
+        with open(patch_geojson) as f:
+            patch = json.load(f)
+
+        existing["features"].extend(patch["features"])
+
+        merged_geo = f"{tmpdir}/merged.geojson"
+        with open(merged_geo, "w") as f:
+            json.dump(existing, f)
+
+        # Convert back to topojson with simplification
         subprocess.run(
             [
                 "mapshaper",
-                patch_geojson,
+                merged_geo,
                 "-simplify",
                 "15%",
                 "keep-shapes",
                 "-o",
-                patch_topo,
+                str(topo_path),
                 "format=topojson",
             ],
             check=True,
             capture_output=True,
         )
-
-        # Load both
-        with open(topo_path) as f:
-            existing = json.load(f)
-        with open(patch_topo) as f:
-            patch = json.load(f)
-
-        # Get the object name (first key in objects)
-        existing_key = list(existing["objects"].keys())[0]
-        patch_key = list(patch["objects"].keys())[0]
-
-        # Merge arcs: offset patch arc indices
-        arc_offset = len(existing["arcs"])
-        existing["arcs"].extend(patch["arcs"])
-
-        # Offset arc references in patch geometries
-        def offset_arcs(geom):
-            if "arcs" in geom:
-                geom["arcs"] = offset_arcs_recursive(geom["arcs"], arc_offset)
-            return geom
-
-        def offset_arcs_recursive(arcs, offset):
-            result = []
-            for item in arcs:
-                if isinstance(item, list):
-                    result.append(offset_arcs_recursive(item, offset))
-                else:
-                    # Negative arc indices (reversed) need special handling
-                    if item < 0:
-                        result.append(item - offset)
-                    else:
-                        result.append(item + offset)
-            return result
-
-        # Add patch geometries to existing
-        patch_geoms = patch["objects"][patch_key]["geometries"]
-        for geom in patch_geoms:
-            offset_arcs(geom)
-
-        existing["objects"][existing_key]["geometries"].extend(patch_geoms)
-
-        # Update bbox if present
-        if "bbox" in existing and "bbox" in patch:
-            eb = existing["bbox"]
-            pb = patch["bbox"]
-            existing["bbox"] = [
-                min(eb[0], pb[0]),
-                min(eb[1], pb[1]),
-                max(eb[2], pb[2]),
-                max(eb[3], pb[3]),
-            ]
-
-        # Write merged result
-        with open(topo_path, "w") as f:
-            json.dump(existing, f, separators=(",", ":"))
 
 
 def main():
