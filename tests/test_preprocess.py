@@ -145,6 +145,34 @@ class TestGuessDomains:
         domains = guess_domains("City of Westminster", "GB")
         assert "westminster.gov.uk" in domains
 
+    def test_croatian_diacritics(self):
+        domains = guess_domains("Đakovo", "HR")
+        assert "djakovo.hr" in domains
+
+    def test_hungarian_diacritics(self):
+        domains = guess_domains("Győr", "HU")
+        assert "gyor.hu" in domains
+
+    def test_romanian_diacritics(self):
+        domains = guess_domains("Timișoara", "RO")
+        assert "timisoara.ro" in domains
+
+    def test_romanian_prefix_pattern(self):
+        domains = guess_domains("Cluj", "RO")
+        assert "primaria-cluj.ro" in domains
+
+    def test_maltese_diacritics(self):
+        domains = guess_domains("Ħamrun", "MT")
+        assert any("hamrun" in d for d in domains)
+
+    def test_greek_romanized(self):
+        domains = guess_domains("Thessaloniki", "GR")
+        assert "thessaloniki.gr" in domains
+
+    def test_cypriot_tld(self):
+        domains = guess_domains("Limassol", "CY")
+        assert any(d.endswith(".org.cy") or d.endswith(".com.cy") for d in domains)
+
 
 # ── load_seed_data() ─────────────────────────────────────────────────
 
@@ -153,7 +181,7 @@ class TestLoadSeedData:
     def test_loads_all_countries(self):
         data = load_seed_data()
         countries = {m.get("country") for m in data.values()}
-        assert countries >= {"EE", "LV", "LT", "FI", "NO", "SE", "DE", "DK", "IE", "NL", "SK", "GB", "BG"}
+        assert countries >= {"EE", "LV", "LT", "FI", "NO", "SE", "DE", "DK", "IE", "NL", "SK", "GB", "BG", "HR", "CY", "GR", "HU", "MT", "RO"}
 
     def test_minimum_count(self):
         data = load_seed_data()

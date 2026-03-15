@@ -1,0 +1,280 @@
+[
+  {
+    "id": "CY-001",
+    "name": "Agia Napa",
+    "country": "CY",
+    "region": "Famagusta District",
+    "domain": "agianapa.org.cy"
+  },
+  {
+    "id": "CY-002",
+    "name": "Agios Dometios",
+    "country": "CY",
+    "region": "Nicosia District",
+    "domain": "dad.org.cy",
+    "osm_relation_id": 2628523
+  },
+  {
+    "id": "CY-003",
+    "name": "Aglantzia",
+    "country": "CY",
+    "region": "Nicosia District",
+    "domain": "aglantzia.org.cy"
+  },
+  {
+    "id": "CY-004",
+    "name": "Akanthou",
+    "country": "CY",
+    "region": "Famagusta District",
+    "domain": "akanthou.org.cy"
+  },
+  {
+    "id": "CY-005",
+    "name": "Aradhippou",
+    "country": "CY",
+    "region": "Larnaca District",
+    "domain": "aradippou.org.cy"
+  },
+  {
+    "id": "CY-006",
+    "name": "Athienou",
+    "country": "CY",
+    "region": "Larnaca District",
+    "domain": "athienou.org.cy"
+  },
+  {
+    "id": "CY-007",
+    "name": "Ayios Athanasios",
+    "country": "CY",
+    "region": "Limassol District",
+    "domain": "agiosathanasios.org.cy",
+    "osm_relation_id": 8425327
+  },
+  {
+    "id": "CY-008",
+    "name": "Dali",
+    "country": "CY",
+    "region": "Nicosia District",
+    "domain": "dali.org.cy"
+  },
+  {
+    "id": "CY-009",
+    "name": "Deryneia",
+    "country": "CY",
+    "region": "Famagusta District",
+    "domain": "deryneia.org.cy"
+  },
+  {
+    "id": "CY-010",
+    "name": "Dromolaxia–Meneou Municipality",
+    "country": "CY",
+    "region": "Larnaca District",
+    "domain": "dromolaxia-meneou.com.cy",
+    "osm_relation_id": 13730302
+  },
+  {
+    "id": "CY-011",
+    "name": "Egkomi Lefkosias",
+    "country": "CY",
+    "region": "Nicosia District",
+    "domain": "engomi.org",
+    "osm_relation_id": 2628524
+  },
+  {
+    "id": "CY-012",
+    "name": "Famagusta Municipality",
+    "country": "CY",
+    "region": "Famagusta District",
+    "domain": "famagusta.org.cy"
+  },
+  {
+    "id": "CY-013",
+    "name": "Geri",
+    "country": "CY",
+    "region": "Nicosia District",
+    "domain": "yeri.org.cy"
+  },
+  {
+    "id": "CY-014",
+    "name": "Germasogeia",
+    "country": "CY",
+    "region": "Limassol District",
+    "domain": "yermasoyia.org"
+  },
+  {
+    "id": "CY-015",
+    "name": "Geroskipou",
+    "country": "CY",
+    "region": "Paphos District",
+    "domain": "geroskipou-municipality.com"
+  },
+  {
+    "id": "CY-016",
+    "name": "Karavas",
+    "country": "CY",
+    "region": "Kyrenia District",
+    "domain": "karavas.org.cy"
+  },
+  {
+    "id": "CY-017",
+    "name": "Kato Polemidia",
+    "country": "CY",
+    "region": "Limassol District",
+    "domain": "polemidiamunicipal.com.cy"
+  },
+  {
+    "id": "CY-018",
+    "name": "Kyrenia Municipality",
+    "country": "CY",
+    "region": "Kyrenia District",
+    "domain": "kyreniamunicipality.com"
+  },
+  {
+    "id": "CY-019",
+    "name": "Kythrea",
+    "country": "CY",
+    "region": "Nicosia District",
+    "domain": "kythrea.com"
+  },
+  {
+    "id": "CY-020",
+    "name": "Lakatamia",
+    "country": "CY",
+    "region": "Nicosia District",
+    "domain": "lakatamia.org.cy"
+  },
+  {
+    "id": "CY-021",
+    "name": "Lapithos",
+    "country": "CY",
+    "region": "Kyrenia District",
+    "domain": "lapithos.org.cy"
+  },
+  {
+    "id": "CY-022",
+    "name": "Larnaca Municipality",
+    "country": "CY",
+    "region": "Larnaca District",
+    "domain": "larnaka.org.cy"
+  },
+  {
+    "id": "CY-023",
+    "name": "Latsia",
+    "country": "CY",
+    "region": "Nicosia District",
+    "domain": "latsia.org.cy"
+  },
+  {
+    "id": "CY-024",
+    "name": "Lefkoniko",
+    "country": "CY",
+    "region": "Famagusta District",
+    "domain": "dimoslefkonikou.org"
+  },
+  {
+    "id": "CY-025",
+    "name": "Limassol Municipality",
+    "country": "CY",
+    "region": "Limassol District",
+    "domain": "limassolmunicipal.com.cy",
+    "osm_relation_id": 3263730
+  },
+  {
+    "id": "CY-026",
+    "name": "Livadia",
+    "country": "CY",
+    "region": "Larnaca District",
+    "domain": "livadia.org.cy"
+  },
+  {
+    "id": "CY-027",
+    "name": "Lysi",
+    "country": "CY",
+    "region": "Famagusta District",
+    "domain": "demoslysis.com"
+  },
+  {
+    "id": "CY-028",
+    "name": "Mesa Geitonia",
+    "country": "CY",
+    "region": "Limassol District",
+    "domain": "mesayitonia.com.cy"
+  },
+  {
+    "id": "CY-029",
+    "name": "Morphou",
+    "country": "CY",
+    "region": "Nicosia District",
+    "domain": "morphou.org.cy"
+  },
+  {
+    "id": "CY-030",
+    "name": "Nicosia Municipality",
+    "country": "CY",
+    "region": "Nicosia District",
+    "domain": "nicosia.org.cy"
+  },
+  {
+    "id": "CY-031",
+    "name": "Pano Lefkara",
+    "country": "CY",
+    "region": "Larnaca District",
+    "domain": "lefkara.org.cy"
+  },
+  {
+    "id": "CY-032",
+    "name": "Paphos Municipality",
+    "country": "CY",
+    "region": "Paphos District",
+    "domain": "pafos.org.cy"
+  },
+  {
+    "id": "CY-033",
+    "name": "Paralimni",
+    "country": "CY",
+    "region": "Famagusta District",
+    "domain": "paralimni.org.cy"
+  },
+  {
+    "id": "CY-034",
+    "name": "Pegeia",
+    "country": "CY",
+    "region": "Paphos District",
+    "domain": "pegeiamunicipality.com"
+  },
+  {
+    "id": "CY-035",
+    "name": "Polis",
+    "country": "CY",
+    "region": "Paphos District",
+    "domain": "polis.org.cy"
+  },
+  {
+    "id": "CY-036",
+    "name": "Sotira",
+    "country": "CY",
+    "region": "Famagusta District",
+    "domain": "sotira.org.cy"
+  },
+  {
+    "id": "CY-037",
+    "name": "Strovolos",
+    "country": "CY",
+    "region": "Nicosia District",
+    "domain": "strovolos.org.cy"
+  },
+  {
+    "id": "CY-038",
+    "name": "Tseri",
+    "country": "CY",
+    "region": "Nicosia District",
+    "domain": "tseri.org.cy"
+  },
+  {
+    "id": "CY-039",
+    "name": "Ypsonas",
+    "country": "CY",
+    "region": "Limassol District",
+    "domain": "ipsonas.org"
+  }
+]

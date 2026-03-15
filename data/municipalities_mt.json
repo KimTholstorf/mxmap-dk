@@ -1,0 +1,478 @@
+[
+  {
+    "id": "MT-01",
+    "name": "Attard",
+    "country": "MT",
+    "region": "Central",
+    "domain": ""
+  },
+  {
+    "id": "MT-02",
+    "name": "Balzan",
+    "country": "MT",
+    "region": "Central",
+    "domain": ""
+  },
+  {
+    "id": "MT-03",
+    "name": "Birkirkara",
+    "country": "MT",
+    "region": "Central",
+    "domain": ""
+  },
+  {
+    "id": "MT-04",
+    "name": "Gżira",
+    "country": "MT",
+    "region": "Central",
+    "domain": ""
+  },
+  {
+    "id": "MT-05",
+    "name": "Iklin",
+    "country": "MT",
+    "region": "Central",
+    "domain": "iklin.gov.mt"
+  },
+  {
+    "id": "MT-06",
+    "name": "Lija",
+    "country": "MT",
+    "region": "Central",
+    "domain": ""
+  },
+  {
+    "id": "MT-07",
+    "name": "Msida",
+    "country": "MT",
+    "region": "Central",
+    "domain": ""
+  },
+  {
+    "id": "MT-08",
+    "name": "Pietà",
+    "country": "MT",
+    "region": "Central",
+    "domain": ""
+  },
+  {
+    "id": "MT-09",
+    "name": "San Ġiljan",
+    "country": "MT",
+    "region": "Central",
+    "domain": ""
+  },
+  {
+    "id": "MT-10",
+    "name": "San Ġwann",
+    "country": "MT",
+    "region": "Central",
+    "domain": ""
+  },
+  {
+    "id": "MT-11",
+    "name": "Santa Venera",
+    "country": "MT",
+    "region": "Central",
+    "domain": ""
+  },
+  {
+    "id": "MT-12",
+    "name": "Sliema",
+    "country": "MT",
+    "region": "Central",
+    "domain": ""
+  },
+  {
+    "id": "MT-13",
+    "name": "Ta' Xbiex",
+    "country": "MT",
+    "region": "Central",
+    "domain": ""
+  },
+  {
+    "id": "MT-14",
+    "name": "Fontana",
+    "country": "MT",
+    "region": "Gozo",
+    "domain": "lc.gov.mt"
+  },
+  {
+    "id": "MT-15",
+    "name": "Għajnsielem",
+    "country": "MT",
+    "region": "Gozo",
+    "domain": ""
+  },
+  {
+    "id": "MT-16",
+    "name": "Għarb",
+    "country": "MT",
+    "region": "Gozo",
+    "domain": ""
+  },
+  {
+    "id": "MT-17",
+    "name": "Għasri",
+    "country": "MT",
+    "region": "Gozo",
+    "domain": "ghasri.com"
+  },
+  {
+    "id": "MT-18",
+    "name": "Kerċem",
+    "country": "MT",
+    "region": "Gozo",
+    "domain": ""
+  },
+  {
+    "id": "MT-19",
+    "name": "Munxar",
+    "country": "MT",
+    "region": "Gozo",
+    "domain": "munxar.com"
+  },
+  {
+    "id": "MT-20",
+    "name": "Nadur",
+    "country": "MT",
+    "region": "Gozo",
+    "domain": "nadur.gov.mt"
+  },
+  {
+    "id": "MT-21",
+    "name": "Qala",
+    "country": "MT",
+    "region": "Gozo",
+    "domain": "qala.org.mt"
+  },
+  {
+    "id": "MT-22",
+    "name": "San Lawrenz",
+    "country": "MT",
+    "region": "Gozo",
+    "domain": "sanlawrenz.com"
+  },
+  {
+    "id": "MT-23",
+    "name": "Sannat",
+    "country": "MT",
+    "region": "Gozo",
+    "domain": "sannat.org"
+  },
+  {
+    "id": "MT-24",
+    "name": "Victoria",
+    "country": "MT",
+    "region": "Gozo",
+    "domain": ""
+  },
+  {
+    "id": "MT-25",
+    "name": "Xagħra",
+    "country": "MT",
+    "region": "Gozo",
+    "domain": "xaghra.com"
+  },
+  {
+    "id": "MT-26",
+    "name": "Xewkija",
+    "country": "MT",
+    "region": "Gozo",
+    "domain": "xewkija.com"
+  },
+  {
+    "id": "MT-27",
+    "name": "Żebbuġ",
+    "country": "MT",
+    "region": "Gozo",
+    "domain": ""
+  },
+  {
+    "id": "MT-28",
+    "name": "Dingli",
+    "country": "MT",
+    "region": "Northern",
+    "domain": ""
+  },
+  {
+    "id": "MT-29",
+    "name": "Għargħur",
+    "country": "MT",
+    "region": "Northern",
+    "domain": ""
+  },
+  {
+    "id": "MT-30",
+    "name": "Mdina",
+    "country": "MT",
+    "region": "Northern",
+    "domain": ""
+  },
+  {
+    "id": "MT-31",
+    "name": "Mellieħa",
+    "country": "MT",
+    "region": "Northern",
+    "domain": ""
+  },
+  {
+    "id": "MT-32",
+    "name": "Mosta",
+    "country": "MT",
+    "region": "Northern",
+    "domain": ""
+  },
+  {
+    "id": "MT-33",
+    "name": "Mtarfa",
+    "country": "MT",
+    "region": "Northern",
+    "domain": "mtarfalc.gov.mt"
+  },
+  {
+    "id": "MT-34",
+    "name": "Mġarr",
+    "country": "MT",
+    "region": "Northern",
+    "domain": ""
+  },
+  {
+    "id": "MT-35",
+    "name": "Naxxar",
+    "country": "MT",
+    "region": "Northern",
+    "domain": ""
+  },
+  {
+    "id": "MT-36",
+    "name": "Pembroke",
+    "country": "MT",
+    "region": "Northern",
+    "domain": "pembroke.gov.mt"
+  },
+  {
+    "id": "MT-37",
+    "name": "Rabat",
+    "country": "MT",
+    "region": "Northern",
+    "domain": ""
+  },
+  {
+    "id": "MT-38",
+    "name": "San Pawl il-Baħar",
+    "country": "MT",
+    "region": "Northern",
+    "domain": ""
+  },
+  {
+    "id": "MT-39",
+    "name": "Swieqi",
+    "country": "MT",
+    "region": "Northern",
+    "domain": "swieqi.gov.mt"
+  },
+  {
+    "id": "MT-40",
+    "name": "Birgu",
+    "country": "MT",
+    "region": "South Eastern",
+    "domain": ""
+  },
+  {
+    "id": "MT-41",
+    "name": "Bormla",
+    "country": "MT",
+    "region": "South Eastern",
+    "domain": ""
+  },
+  {
+    "id": "MT-42",
+    "name": "Fgura",
+    "country": "MT",
+    "region": "South Eastern",
+    "domain": ""
+  },
+  {
+    "id": "MT-43",
+    "name": "Floriana",
+    "country": "MT",
+    "region": "South Eastern",
+    "domain": ""
+  },
+  {
+    "id": "MT-44",
+    "name": "Isla",
+    "country": "MT",
+    "region": "South Eastern",
+    "domain": ""
+  },
+  {
+    "id": "MT-45",
+    "name": "Kalkara",
+    "country": "MT",
+    "region": "South Eastern",
+    "domain": ""
+  },
+  {
+    "id": "MT-46",
+    "name": "Marsa",
+    "country": "MT",
+    "region": "South Eastern",
+    "domain": ""
+  },
+  {
+    "id": "MT-47",
+    "name": "Marsaskala",
+    "country": "MT",
+    "region": "South Eastern",
+    "domain": ""
+  },
+  {
+    "id": "MT-48",
+    "name": "Marsaxlokk",
+    "country": "MT",
+    "region": "South Eastern",
+    "domain": ""
+  },
+  {
+    "id": "MT-49",
+    "name": "Paola",
+    "country": "MT",
+    "region": "South Eastern",
+    "domain": ""
+  },
+  {
+    "id": "MT-50",
+    "name": "Tarxien",
+    "country": "MT",
+    "region": "South Eastern",
+    "domain": ""
+  },
+  {
+    "id": "MT-51",
+    "name": "Valletta",
+    "country": "MT",
+    "region": "South Eastern",
+    "domain": ""
+  },
+  {
+    "id": "MT-52",
+    "name": "Xgħajra",
+    "country": "MT",
+    "region": "South Eastern",
+    "domain": ""
+  },
+  {
+    "id": "MT-53",
+    "name": "Żabbar",
+    "country": "MT",
+    "region": "South Eastern",
+    "domain": ""
+  },
+  {
+    "id": "MT-54",
+    "name": "Żejtun",
+    "country": "MT",
+    "region": "South Eastern",
+    "domain": ""
+  },
+  {
+    "id": "MT-55",
+    "name": "Birżebbuġa",
+    "country": "MT",
+    "region": "Southern",
+    "domain": ""
+  },
+  {
+    "id": "MT-56",
+    "name": "Gudja",
+    "country": "MT",
+    "region": "Southern",
+    "domain": ""
+  },
+  {
+    "id": "MT-57",
+    "name": "Għaxaq",
+    "country": "MT",
+    "region": "Southern",
+    "domain": ""
+  },
+  {
+    "id": "MT-58",
+    "name": "Kirkop",
+    "country": "MT",
+    "region": "Southern",
+    "domain": ""
+  },
+  {
+    "id": "MT-59",
+    "name": "Luqa",
+    "country": "MT",
+    "region": "Southern",
+    "domain": ""
+  },
+  {
+    "id": "MT-60",
+    "name": "Mqabba",
+    "country": "MT",
+    "region": "Southern",
+    "domain": ""
+  },
+  {
+    "id": "MT-61",
+    "name": "Qormi",
+    "country": "MT",
+    "region": "Southern",
+    "domain": ""
+  },
+  {
+    "id": "MT-62",
+    "name": "Qrendi",
+    "country": "MT",
+    "region": "Southern",
+    "domain": ""
+  },
+  {
+    "id": "MT-63",
+    "name": "Safi",
+    "country": "MT",
+    "region": "Southern",
+    "domain": ""
+  },
+  {
+    "id": "MT-64",
+    "name": "Santa Luċija",
+    "country": "MT",
+    "region": "Southern",
+    "domain": ""
+  },
+  {
+    "id": "MT-65",
+    "name": "Siġġiewi",
+    "country": "MT",
+    "region": "Southern",
+    "domain": ""
+  },
+  {
+    "id": "MT-66",
+    "name": "Ħamrun",
+    "country": "MT",
+    "region": "Southern",
+    "domain": ""
+  },
+  {
+    "id": "MT-67",
+    "name": "Żebbuġ",
+    "country": "MT",
+    "region": "Southern",
+    "domain": ""
+  },
+  {
+    "id": "MT-68",
+    "name": "Żurrieq",
+    "country": "MT",
+    "region": "Southern",
+    "domain": ""
+  }
+]

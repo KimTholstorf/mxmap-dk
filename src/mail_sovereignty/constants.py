@@ -80,6 +80,12 @@ SKIP_DOMAINS = {
     "example.sk",
     "example.si",
     "example.uk",
+    "example.hr",
+    "example.cy",
+    "example.gr",
+    "example.hu",
+    "example.mt",
+    "example.ro",
     "gov.uk",
     "kommune.no",
     "sentry.io",
@@ -130,6 +136,13 @@ SUBPAGES = [
     "/obcina",  # Slovenian: "Municipality"
     "/contact-us",  # UK English
     "/about-the-council",  # UK council info
+    "/kontakt",  # Croatian: "Contact" (same as German)
+    "/o-nama",  # Croatian: "About us"
+    "/epikoinonia",  # Greek: "Contact"
+    "/kapcsolat",  # Hungarian: "Contact"
+    "/elerhetosegek",  # Hungarian: "Contact details"
+    "/contact",  # Romanian/Maltese/Cypriot (already present but explicit)
+    "/despre-noi",  # Romanian: "About us"
 ]
 
 GATEWAY_KEYWORDS = {
@@ -492,6 +505,35 @@ LOCAL_ISP_ASNS: dict[int, str] = {
     12644: "AMIS (SI)",
     9119: "Softnet (SI)",
     198644: "Prenos podatkov (SI)",
+    # Croatia
+    5391: "Hrvatski Telekom (HR)",
+    13046: "A1 Croatia (HR)",
+    34594: "Optima Telekom (HR)",
+    15994: "Iskon (HR)",
+    2108: "CARNET (HR)",
+    31012: "Metronet (HR)",
+    # Cyprus
+    6866: "CYTA (CY)",
+    35432: "PrimeTel (CY)",
+    # Greece
+    6799: "OTE (GR)",
+    1241: "Forthnet (GR)",
+    5408: "GRNET (GR)",
+    3329: "Vodafone GR (GR)",
+    25472: "Wind Hellas (GR)",
+    # Hungary
+    5483: "Magyar Telekom (HU)",
+    20845: "DIGI (HU)",
+    12301: "Invitel (HU)",
+    2547: "KIFU/NIIF (HU)",
+    # Malta
+    15735: "GO p.l.c. (MT)",
+    12709: "Melita (MT)",
+    # Romania
+    8708: "RCS & RDS (RO)",
+    9050: "Romtelecom (RO)",
+    2614: "ROEDUNET (RO)",
+    12302: "Vodafone RO (RO)",
 }
 
 CONCURRENCY = 20

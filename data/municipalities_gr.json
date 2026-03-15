@@ -1,0 +1,2672 @@
+[
+  {
+    "id": "GR-001",
+    "name": "Δήμος Παραμυθιάς",
+    "country": "GR",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "GR-002",
+    "name": "Acharnes Municipality",
+    "country": "GR",
+    "region": "East Attica Regional Unit",
+    "domain": "acharnes.gr",
+    "osm_relation_id": 2075979
+  },
+  {
+    "id": "GR-003",
+    "name": "Aegaleo Municipality",
+    "country": "GR",
+    "region": "West Athens Regional Unit",
+    "domain": "aigaleo.gr",
+    "osm_relation_id": 1394279
+  },
+  {
+    "id": "GR-004",
+    "name": "Aegina Municipality",
+    "country": "GR",
+    "region": "Islands Regional Unit",
+    "domain": "aegina.gr",
+    "osm_relation_id": 4487486
+  },
+  {
+    "id": "GR-005",
+    "name": "Agia Municipality",
+    "country": "GR",
+    "region": "Larissa Regional Unit",
+    "domain": "dimosagias.gr",
+    "osm_relation_id": 2246175
+  },
+  {
+    "id": "GR-006",
+    "name": "Agia Paraskevi Municipality",
+    "country": "GR",
+    "region": "North Athens Regional Unit",
+    "domain": "agiaparaskevi.gr",
+    "osm_relation_id": 1400708
+  },
+  {
+    "id": "GR-007",
+    "name": "Agia Varvara Municipality",
+    "country": "GR",
+    "region": "West Athens Regional Unit",
+    "domain": "agiavarvara.gr",
+    "osm_relation_id": 1392864
+  },
+  {
+    "id": "GR-008",
+    "name": "Agioi Anargyroi-Kamatero Municipality",
+    "country": "GR",
+    "region": "West Athens Regional Unit",
+    "domain": "agan.gov.gr",
+    "osm_relation_id": 2965467
+  },
+  {
+    "id": "GR-009",
+    "name": "Agios Dimitrios Municipality",
+    "country": "GR",
+    "region": "South Athens Regional Unit",
+    "domain": "dad.gr",
+    "osm_relation_id": 1397547
+  },
+  {
+    "id": "GR-010",
+    "name": "Agios Efstratios Municipality",
+    "country": "GR",
+    "region": "Lemnos Regional Unit",
+    "domain": "agios-efstratios.gov.gr",
+    "osm_relation_id": 5305732
+  },
+  {
+    "id": "GR-011",
+    "name": "Agios Nikolaos Municipality",
+    "country": "GR",
+    "region": "Lasithi Regional Unit",
+    "domain": "agiosnikolaos.gr",
+    "osm_relation_id": 2187432
+  },
+  {
+    "id": "GR-012",
+    "name": "Agios Vasileios municipality",
+    "country": "GR",
+    "region": "Rethymno Regional Unit",
+    "domain": "agios-vasilios.gr",
+    "osm_relation_id": 2187332
+  },
+  {
+    "id": "GR-013",
+    "name": "Agrafa Municipality",
+    "country": "GR",
+    "region": "Evritania Regional Unit",
+    "domain": "agrafa.gr",
+    "osm_relation_id": 1514296
+  },
+  {
+    "id": "GR-014",
+    "name": "Agrinio municipality",
+    "country": "GR",
+    "region": "Aetolia-Acarnania Regional Unit",
+    "domain": "agrinio.gov.gr",
+    "osm_relation_id": 1462963
+  },
+  {
+    "id": "GR-015",
+    "name": "Aigialeia Municipality",
+    "country": "GR",
+    "region": "Achaea Regional Unit",
+    "domain": "aigialeia.eu",
+    "osm_relation_id": 2182847
+  },
+  {
+    "id": "GR-016",
+    "name": "Aktio-Vonitsa Municipality",
+    "country": "GR",
+    "region": "Aetolia-Acarnania Regional Unit",
+    "domain": "aktiovonitsa.gov.gr",
+    "osm_relation_id": 1462957
+  },
+  {
+    "id": "GR-017",
+    "name": "Alexandreia Municipality",
+    "country": "GR",
+    "region": "Imathia Regional Unit",
+    "domain": "alexandria.gr",
+    "osm_relation_id": 2249522
+  },
+  {
+    "id": "GR-018",
+    "name": "Alexandroupolis Municipality",
+    "country": "GR",
+    "region": "Evros Regional Unit",
+    "domain": "alexpolis.gr",
+    "osm_relation_id": 2345112
+  },
+  {
+    "id": "GR-019",
+    "name": "Aliartos-Thespies Municipality",
+    "country": "GR",
+    "region": "Boeotia Regional Unit",
+    "domain": "aliartos.gov.gr",
+    "osm_relation_id": 1936525
+  },
+  {
+    "id": "GR-020",
+    "name": "Alimos Municipality",
+    "country": "GR",
+    "region": "South Athens Regional Unit",
+    "domain": "alimos.gov.gr",
+    "osm_relation_id": 1385659
+  },
+  {
+    "id": "GR-021",
+    "name": "Almopia Municipality",
+    "country": "GR",
+    "region": "Pella Regional Unit",
+    "domain": "dimosalmopias.gov.gr",
+    "osm_relation_id": 2250819
+  },
+  {
+    "id": "GR-022",
+    "name": "Almyros Municipality",
+    "country": "GR",
+    "region": "Magnesia Regional Unit",
+    "domain": "almyros-city.gr",
+    "osm_relation_id": 2242282
+  },
+  {
+    "id": "GR-023",
+    "name": "Alonnisos Municipality",
+    "country": "GR",
+    "region": "Sporades Regional Unit",
+    "domain": "alonissos.gov.gr",
+    "osm_relation_id": 2363108
+  },
+  {
+    "id": "GR-024",
+    "name": "Amari Municipality",
+    "country": "GR",
+    "region": "Rethymno Regional Unit",
+    "domain": "amari.gr",
+    "osm_relation_id": 2187333
+  },
+  {
+    "id": "GR-025",
+    "name": "Amarusio Municipality",
+    "country": "GR",
+    "region": "North Athens Regional Unit",
+    "domain": "maroussi.gr",
+    "osm_relation_id": 1385823
+  },
+  {
+    "id": "GR-026",
+    "name": "Amfikleia-Elateia Municipality",
+    "country": "GR",
+    "region": "Phthiotis Regional Unit",
+    "domain": "dimos-amfiklias-elatias.gr",
+    "osm_relation_id": 1901664
+  },
+  {
+    "id": "GR-027",
+    "name": "Amorgos Municipality",
+    "country": "GR",
+    "region": "Naxos Regional Unit",
+    "domain": "dimos.amorgos.gr",
+    "osm_relation_id": 5318802
+  },
+  {
+    "id": "GR-028",
+    "name": "Ampelokipoi-Menemeni Municipality",
+    "country": "GR",
+    "region": "Thessaloniki Regional Unit",
+    "domain": "ampelokipi-menemeni.gr",
+    "osm_relation_id": 2348441
+  },
+  {
+    "id": "GR-029",
+    "name": "Amphilochia Municipality",
+    "country": "GR",
+    "region": "Aetolia-Acarnania Regional Unit",
+    "domain": "dimosamfilochias.gr",
+    "osm_relation_id": 1462946
+  },
+  {
+    "id": "GR-030",
+    "name": "Amphipolis Municipality",
+    "country": "GR",
+    "region": "Serres Regional Unit",
+    "domain": "dimos-amfipolis.gr",
+    "osm_relation_id": 2346618
+  },
+  {
+    "id": "GR-031",
+    "name": "Amyndeo Municipality",
+    "country": "GR",
+    "region": "Florina Regional Unit",
+    "domain": "amyntaio.gr",
+    "osm_relation_id": 2249448
+  },
+  {
+    "id": "GR-032",
+    "name": "Anafi Municipality",
+    "country": "GR",
+    "region": "Thira Regional Unit",
+    "domain": "anafi.gr",
+    "osm_relation_id": 5318808
+  },
+  {
+    "id": "GR-033",
+    "name": "Ancient Olympia Municipality",
+    "country": "GR",
+    "region": "Elis Regional Unit",
+    "domain": "arxaiaolympia.gov.gr",
+    "osm_relation_id": 2178176
+  },
+  {
+    "id": "GR-034",
+    "name": "Andravida-Kyllini Municipality",
+    "country": "GR",
+    "region": "Elis Regional Unit",
+    "domain": "andravida-killini.gr",
+    "osm_relation_id": 2178175
+  },
+  {
+    "id": "GR-035",
+    "name": "Andritsaina-Krestena Municipality",
+    "country": "GR",
+    "region": "Elis Regional Unit",
+    "domain": "andritsainas-krestenon.gov.gr",
+    "osm_relation_id": 2178174
+  },
+  {
+    "id": "GR-036",
+    "name": "Andros Municipality",
+    "country": "GR",
+    "region": "Andros Regional Unit",
+    "domain": "andros.gr",
+    "osm_relation_id": 5308847
+  },
+  {
+    "id": "GR-037",
+    "name": "Angistri Municipality",
+    "country": "GR",
+    "region": "Islands Regional Unit",
+    "domain": "agistri-island.gr",
+    "osm_relation_id": 4487487
+  },
+  {
+    "id": "GR-038",
+    "name": "Anogeia Municipality",
+    "country": "GR",
+    "region": "Rethymno Regional Unit",
+    "domain": "anogeia.gr",
+    "osm_relation_id": 2187334
+  },
+  {
+    "id": "GR-039",
+    "name": "Antiparos Municipality",
+    "country": "GR",
+    "region": "Paros Regional Unit",
+    "domain": "antiparos.gr",
+    "osm_relation_id": 5318822
+  },
+  {
+    "id": "GR-040",
+    "name": "Apokoronas Municipality",
+    "country": "GR",
+    "region": "Chania Regional Unit",
+    "domain": "apokoronas.gov.gr",
+    "osm_relation_id": 2187315
+  },
+  {
+    "id": "GR-041",
+    "name": "Archanes-Asterousia Municipality",
+    "country": "GR",
+    "region": "Heraklion Regional Unit",
+    "domain": "archanes-asterousia.gr",
+    "osm_relation_id": 2187390
+  },
+  {
+    "id": "GR-042",
+    "name": "Argithea Municipality",
+    "country": "GR",
+    "region": "Karditsa Regional Unit",
+    "domain": "argithea.gov.gr",
+    "osm_relation_id": 2220936
+  },
+  {
+    "id": "GR-043",
+    "name": "Argos Orestiko Municipality",
+    "country": "GR",
+    "region": "Kastoria Regional Unit",
+    "domain": "argosorestiko.gr",
+    "osm_relation_id": 2249330
+  },
+  {
+    "id": "GR-044",
+    "name": "Argos-Mykines Municipality",
+    "country": "GR",
+    "region": "Argolida Regional Unit",
+    "domain": "argos.gov.gr",
+    "osm_relation_id": 2185766
+  },
+  {
+    "id": "GR-045",
+    "name": "Argostoli Municipality",
+    "country": "GR",
+    "region": "Kefalonia Regional Unit",
+    "domain": "kefallonia.gov.gr",
+    "osm_relation_id": 13234674
+  },
+  {
+    "id": "GR-046",
+    "name": "Aristotelis Municipality",
+    "country": "GR",
+    "region": "Chalkidiki Regional Unit",
+    "domain": "dimosaristoteli.gr",
+    "osm_relation_id": 2346741
+  },
+  {
+    "id": "GR-047",
+    "name": "Arriana Municipality",
+    "country": "GR",
+    "region": "Rhodope Regional Unit",
+    "domain": "arriana.gr",
+    "osm_relation_id": 2345167
+  },
+  {
+    "id": "GR-048",
+    "name": "Artaion Municipality",
+    "country": "GR",
+    "region": "Arta Regional Unit",
+    "domain": "arta.gr",
+    "osm_relation_id": 2222971
+  },
+  {
+    "id": "GR-049",
+    "name": "Aspropyrgos Municipality",
+    "country": "GR",
+    "region": "West Attica Regional Unit",
+    "domain": "dimosaspropyrgou.gr",
+    "osm_relation_id": 2077504
+  },
+  {
+    "id": "GR-050",
+    "name": "Astypalaia Municipality",
+    "country": "GR",
+    "region": "Kalymnos Regional Unit",
+    "domain": "astypalaia.gr",
+    "osm_relation_id": 5318839
+  },
+  {
+    "id": "GR-051",
+    "name": "Athens Municipality",
+    "country": "GR",
+    "region": "Central Athens Regional Unit",
+    "domain": "cityofathens.gr",
+    "osm_relation_id": 1370736
+  },
+  {
+    "id": "GR-052",
+    "name": "Avdira Municipality",
+    "country": "GR",
+    "region": "Xanthi Regional Unit",
+    "domain": "avdera.gov.gr",
+    "osm_relation_id": 2345376
+  },
+  {
+    "id": "GR-053",
+    "name": "Central Tzoumerka Municipality",
+    "country": "GR",
+    "region": "Arta Regional Unit",
+    "domain": "dhmosktzoumerkwn.gr",
+    "osm_relation_id": 2222973
+  },
+  {
+    "id": "GR-054",
+    "name": "Chaidari Municipality",
+    "country": "GR",
+    "region": "West Athens Regional Unit",
+    "domain": "haidari.gr",
+    "osm_relation_id": 1395480
+  },
+  {
+    "id": "GR-055",
+    "name": "Chalandri Municipality",
+    "country": "GR",
+    "region": "North Athens Regional Unit",
+    "domain": "chalandri.gr",
+    "osm_relation_id": 1391619
+  },
+  {
+    "id": "GR-056",
+    "name": "Chalki Municipality",
+    "country": "GR",
+    "region": "Rhodes Regional Unit",
+    "domain": "dimoschalkis.gr",
+    "osm_relation_id": 5321667
+  },
+  {
+    "id": "GR-057",
+    "name": "Chalkideon Municipality",
+    "country": "GR",
+    "region": "Euboea regional unit",
+    "domain": "dimoschalkideon.gr",
+    "osm_relation_id": 2215273
+  },
+  {
+    "id": "GR-058",
+    "name": "Chalkidona Municipality",
+    "country": "GR",
+    "region": "Thessaloniki Regional Unit",
+    "domain": "dimoschalkidonos.gr",
+    "osm_relation_id": 2348452
+  },
+  {
+    "id": "GR-059",
+    "name": "Chania Municipality",
+    "country": "GR",
+    "region": "Chania Regional Unit",
+    "domain": "opencouncil.chania.gr",
+    "osm_relation_id": 2187320
+  },
+  {
+    "id": "GR-060",
+    "name": "Chios Municipality",
+    "country": "GR",
+    "region": "Chios Regional Unit",
+    "domain": "chios.gov.gr",
+    "osm_relation_id": 5305858
+  },
+  {
+    "id": "GR-061",
+    "name": "Corinth Municipality",
+    "country": "GR",
+    "region": "Corinthia Regional Unit",
+    "domain": "korinthos.gr",
+    "osm_relation_id": 2186725
+  },
+  {
+    "id": "GR-062",
+    "name": "Dafni-Ymittos Municipality",
+    "country": "GR",
+    "region": "Central Athens Regional Unit",
+    "domain": "dafni-ymittos.gov.gr",
+    "osm_relation_id": 2682709
+  },
+  {
+    "id": "GR-063",
+    "name": "Delfi Municipality",
+    "country": "GR",
+    "region": "Phocis Regional Unit",
+    "domain": "dimosdelfon.gr",
+    "osm_relation_id": 1936526
+  },
+  {
+    "id": "GR-064",
+    "name": "Delta Municipality",
+    "country": "GR",
+    "region": "Thessaloniki Regional Unit",
+    "domain": "dimosdelta.gr",
+    "osm_relation_id": 2348447
+  },
+  {
+    "id": "GR-065",
+    "name": "Deskati Municipality",
+    "country": "GR",
+    "region": "Grevena Regional Unit",
+    "domain": "dimos-deskatis.gr",
+    "osm_relation_id": 2249034
+  },
+  {
+    "id": "GR-066",
+    "name": "Didymoteicho Municipality",
+    "country": "GR",
+    "region": "Evros Regional Unit",
+    "domain": "didymoteicho.gr",
+    "osm_relation_id": 2345113
+  },
+  {
+    "id": "GR-067",
+    "name": "Dion-Olympos Municipality",
+    "country": "GR",
+    "region": "Pieria Regional Unit",
+    "domain": "dion-olympos.gr",
+    "osm_relation_id": 2249507
+  },
+  {
+    "id": "GR-068",
+    "name": "Dionisos Municipality",
+    "country": "GR",
+    "region": "East Attica Regional Unit",
+    "domain": "dionysos.gr",
+    "osm_relation_id": 2081621
+  },
+  {
+    "id": "GR-069",
+    "name": "Dirfys-Messapia Municipality",
+    "country": "GR",
+    "region": "Euboea regional unit",
+    "domain": "ddm.gov.gr",
+    "osm_relation_id": 2215266
+  },
+  {
+    "id": "GR-070",
+    "name": "Distomo-Arachova-Antikyra Municipality",
+    "country": "GR",
+    "region": "Boeotia Regional Unit",
+    "domain": "daa.gov.gr",
+    "osm_relation_id": 1936527
+  },
+  {
+    "id": "GR-071",
+    "name": "Dodoni Municipality",
+    "country": "GR",
+    "region": "Ioannina Regional Unit",
+    "domain": "dodoni.gr",
+    "osm_relation_id": 2235942
+  },
+  {
+    "id": "GR-072",
+    "name": "Doirani municipality",
+    "country": "GR",
+    "region": "Kilkis Regional Unit",
+    "domain": ""
+  },
+  {
+    "id": "GR-073",
+    "name": "Domokos Municipality",
+    "country": "GR",
+    "region": "Phthiotis Regional Unit",
+    "domain": "domokos.gr",
+    "osm_relation_id": 1901747
+  },
+  {
+    "id": "GR-074",
+    "name": "Dorida Municipality",
+    "country": "GR",
+    "region": "Phocis Regional Unit",
+    "domain": "dorida.gr",
+    "osm_relation_id": 1862083
+  },
+  {
+    "id": "GR-075",
+    "name": "Doxato Municipality",
+    "country": "GR",
+    "region": "Drama Regional Unit",
+    "domain": "doxato.gr",
+    "osm_relation_id": 2346527
+  },
+  {
+    "id": "GR-076",
+    "name": "Drama Municipality",
+    "country": "GR",
+    "region": "Drama Regional Unit",
+    "domain": "dimos-dramas.gr",
+    "osm_relation_id": 2346528
+  },
+  {
+    "id": "GR-077",
+    "name": "East Mani municipality",
+    "country": "GR",
+    "region": "Laconia Regional Unit",
+    "domain": "anatolikimani.gov.gr",
+    "osm_relation_id": 2179049
+  },
+  {
+    "id": "GR-078",
+    "name": "East Samos Municipality",
+    "country": "GR",
+    "region": "Samos Regional Unit",
+    "domain": "islandofsamos.gr",
+    "osm_relation_id": 11814884
+  },
+  {
+    "id": "GR-079",
+    "name": "Edessa Municipality",
+    "country": "GR",
+    "region": "Pella Regional Unit",
+    "domain": "dimosedessas.gov.gr",
+    "osm_relation_id": 2250818
+  },
+  {
+    "id": "GR-080",
+    "name": "Elafonisos Municipality",
+    "country": "GR",
+    "region": "Laconia Regional Unit",
+    "domain": "elafonisos.gov.gr",
+    "osm_relation_id": 2179050
+  },
+  {
+    "id": "GR-081",
+    "name": "Elassona Municipality",
+    "country": "GR",
+    "region": "Larissa Regional Unit",
+    "domain": "dimoselassonas.gr",
+    "osm_relation_id": 2246176
+  },
+  {
+    "id": "GR-082",
+    "name": "Elefsina Municipality",
+    "country": "GR",
+    "region": "West Attica Regional Unit",
+    "domain": "elefsina.gr",
+    "osm_relation_id": 2079232
+  },
+  {
+    "id": "GR-083",
+    "name": "Elliniko-Argyroupoli Municipality",
+    "country": "GR",
+    "region": "South Athens Regional Unit",
+    "domain": "elliniko-argyroupoli.gr",
+    "osm_relation_id": 1413793
+  },
+  {
+    "id": "GR-084",
+    "name": "Emmanouil Pappas Municipality",
+    "country": "GR",
+    "region": "Serres Regional Unit",
+    "domain": "edemocracy-empapas.gr",
+    "osm_relation_id": 2346620
+  },
+  {
+    "id": "GR-085",
+    "name": "Eordaia Municipality",
+    "country": "GR",
+    "region": "Kozani Regional Unit",
+    "domain": "eordaia.gov.gr",
+    "osm_relation_id": 2249485
+  },
+  {
+    "id": "GR-086",
+    "name": "Epidavros Municipality",
+    "country": "GR",
+    "region": "Argolida Regional Unit",
+    "domain": "epidavros.gr",
+    "osm_relation_id": 2185767
+  },
+  {
+    "id": "GR-087",
+    "name": "Eretria Municipality",
+    "country": "GR",
+    "region": "Euboea regional unit",
+    "domain": "eretria.gr",
+    "osm_relation_id": 2215267
+  },
+  {
+    "id": "GR-088",
+    "name": "Ermionida Municipality",
+    "country": "GR",
+    "region": "Argolida Regional Unit",
+    "domain": "ermionida.gr",
+    "osm_relation_id": 2185768
+  },
+  {
+    "id": "GR-089",
+    "name": "Erymanthos Municipality",
+    "country": "GR",
+    "region": "Achaea Regional Unit",
+    "domain": "erymanthou.gov.gr",
+    "osm_relation_id": 2182849
+  },
+  {
+    "id": "GR-090",
+    "name": "Evrotas Municipality",
+    "country": "GR",
+    "region": "Laconia Regional Unit",
+    "domain": "evrotas.gov.gr",
+    "osm_relation_id": 2179051
+  },
+  {
+    "id": "GR-091",
+    "name": "Faistos Municipality",
+    "country": "GR",
+    "region": "Heraklion Regional Unit",
+    "domain": "dimosfestou.gr",
+    "osm_relation_id": 2187396
+  },
+  {
+    "id": "GR-092",
+    "name": "Farkadona Municipality",
+    "country": "GR",
+    "region": "Trikala Regional Unit",
+    "domain": "farkadona.gr",
+    "osm_relation_id": 2238563
+  },
+  {
+    "id": "GR-093",
+    "name": "Farsala Municipality",
+    "country": "GR",
+    "region": "Larissa Regional Unit",
+    "domain": "farsala.gr",
+    "osm_relation_id": 2246181
+  },
+  {
+    "id": "GR-094",
+    "name": "Filiates Municipality",
+    "country": "GR",
+    "region": "Thesprotia Regional Unit",
+    "domain": "filiates.gr",
+    "osm_relation_id": 2227644
+  },
+  {
+    "id": "GR-095",
+    "name": "Filothei-Psychiko Municipality",
+    "country": "GR",
+    "region": "North Athens Regional Unit",
+    "domain": "philothei-psychiko.gov.gr",
+    "osm_relation_id": 2334891
+  },
+  {
+    "id": "GR-096",
+    "name": "Florina Municipality",
+    "country": "GR",
+    "region": "Florina Regional Unit",
+    "domain": "cityoflorina.gr",
+    "osm_relation_id": 2249451
+  },
+  {
+    "id": "GR-097",
+    "name": "Folegandros Municipality",
+    "country": "GR",
+    "region": "Thira Regional Unit",
+    "domain": "folegandros.gov.gr",
+    "osm_relation_id": 5321388
+  },
+  {
+    "id": "GR-098",
+    "name": "Fourni Korseon Municipality",
+    "country": "GR",
+    "region": "Ikaria Regional Unit",
+    "domain": "fournoikorseon.gr",
+    "osm_relation_id": 5305913
+  },
+  {
+    "id": "GR-099",
+    "name": "Fyli Municipality",
+    "country": "GR",
+    "region": "West Attica Regional Unit",
+    "domain": "fyli.gr",
+    "osm_relation_id": 2077371
+  },
+  {
+    "id": "GR-100",
+    "name": "Galatsi Municipality",
+    "country": "GR",
+    "region": "Central Athens Regional Unit",
+    "domain": "galatsi.gov.gr",
+    "osm_relation_id": 1401607
+  },
+  {
+    "id": "GR-101",
+    "name": "Gavdos Municipality",
+    "country": "GR",
+    "region": "Chania Regional Unit",
+    "domain": "gavdos.gr",
+    "osm_relation_id": 3755838
+  },
+  {
+    "id": "GR-102",
+    "name": "Georgios Karaiskakis Municipality",
+    "country": "GR",
+    "region": "Arta Regional Unit",
+    "domain": "gkaraiskakis.gr",
+    "osm_relation_id": 2222972
+  },
+  {
+    "id": "GR-103",
+    "name": "Glyfada Municipality",
+    "country": "GR",
+    "region": "South Athens Regional Unit",
+    "domain": "glyfada.gr",
+    "osm_relation_id": 1400080
+  },
+  {
+    "id": "GR-104",
+    "name": "Gortyn Municipality",
+    "country": "GR",
+    "region": "Heraklion Regional Unit",
+    "domain": "gortyna.gov.gr",
+    "osm_relation_id": 2187392
+  },
+  {
+    "id": "GR-105",
+    "name": "Gortynia Municipality",
+    "country": "GR",
+    "region": "Arcadia Regional Unit",
+    "domain": "gortynia.gov.gr",
+    "osm_relation_id": 2174026
+  },
+  {
+    "id": "GR-106",
+    "name": "Grevena Municipality",
+    "country": "GR",
+    "region": "Grevena Regional Unit",
+    "domain": "dimosgrevenon.gr",
+    "osm_relation_id": 2249033
+  },
+  {
+    "id": "GR-107",
+    "name": "Heraklion Municipality",
+    "country": "GR",
+    "region": "Heraklion Regional Unit",
+    "domain": "heraklion.gr",
+    "osm_relation_id": 2187393
+  },
+  {
+    "id": "GR-108",
+    "name": "Heraklion Municipality",
+    "country": "GR",
+    "region": "North Athens Regional Unit",
+    "domain": "iraklio.gr",
+    "osm_relation_id": 2075040
+  },
+  {
+    "id": "GR-109",
+    "name": "Hersonissos Municipality",
+    "country": "GR",
+    "region": "Heraklion Regional Unit",
+    "domain": "hersonissos.gr",
+    "osm_relation_id": 2187397
+  },
+  {
+    "id": "GR-110",
+    "name": "Hydra municipality",
+    "country": "GR",
+    "region": "Islands Regional Unit",
+    "domain": "ydra.gov.gr",
+    "osm_relation_id": 4487810
+  },
+  {
+    "id": "GR-111",
+    "name": "Iasmos Municipality",
+    "country": "GR",
+    "region": "Rhodope Regional Unit",
+    "domain": "iasmos.gr",
+    "osm_relation_id": 2345168
+  },
+  {
+    "id": "GR-112",
+    "name": "Ierapetra Municipality",
+    "country": "GR",
+    "region": "Lasithi Regional Unit",
+    "domain": "dimos-ierapetras.gr",
+    "osm_relation_id": 2187433
+  },
+  {
+    "id": "GR-113",
+    "name": "Igoumenitsa Municipality",
+    "country": "GR",
+    "region": "Thesprotia Regional Unit",
+    "domain": "igoumenitsa.gr",
+    "osm_relation_id": 2227642
+  },
+  {
+    "id": "GR-114",
+    "name": "Ikaria municipality",
+    "country": "GR",
+    "region": "Ikaria Regional Unit",
+    "domain": "ikaria.gov.gr",
+    "osm_relation_id": 5305903
+  },
+  {
+    "id": "GR-115",
+    "name": "Ilida Municipality",
+    "country": "GR",
+    "region": "Elis Regional Unit",
+    "domain": "dimosilidas.gr",
+    "osm_relation_id": 2178172
+  },
+  {
+    "id": "GR-116",
+    "name": "Ilion Municipality",
+    "country": "GR",
+    "region": "West Athens Regional Unit",
+    "domain": "ilion.gr",
+    "osm_relation_id": 1844465
+  },
+  {
+    "id": "GR-117",
+    "name": "Ilioupoli Municipality",
+    "country": "GR",
+    "region": "Central Athens Regional Unit",
+    "domain": "ilioupoli.gr",
+    "osm_relation_id": 1400220
+  },
+  {
+    "id": "GR-118",
+    "name": "Ioannina Municipality",
+    "country": "GR",
+    "region": "Ioannina Regional Unit",
+    "domain": "ioannina.gr",
+    "osm_relation_id": 2235945
+  },
+  {
+    "id": "GR-119",
+    "name": "Ios Municipality",
+    "country": "GR",
+    "region": "Thira Regional Unit",
+    "domain": "ios.gr",
+    "osm_relation_id": 5318907
+  },
+  {
+    "id": "GR-120",
+    "name": "Irakleia Municipality",
+    "country": "GR",
+    "region": "Serres Regional Unit",
+    "domain": "dimosiraklias.gr",
+    "osm_relation_id": 2346621
+  },
+  {
+    "id": "GR-121",
+    "name": "Istiaia-Aidipsos Municipality",
+    "country": "GR",
+    "region": "Euboea regional unit",
+    "domain": "dimosistiaiasaidipsou.gr",
+    "osm_relation_id": 2215268
+  },
+  {
+    "id": "GR-122",
+    "name": "Ithaca Municipality",
+    "country": "GR",
+    "region": "Ithaca Regional Unit",
+    "domain": "ithaki.gr",
+    "osm_relation_id": 2211896
+  },
+  {
+    "id": "GR-123",
+    "name": "Kaisariani Municipality",
+    "country": "GR",
+    "region": "Central Athens Regional Unit",
+    "domain": "kaisariani.gr",
+    "osm_relation_id": 1400434
+  },
+  {
+    "id": "GR-124",
+    "name": "Kalamaria Municipality",
+    "country": "GR",
+    "region": "Thessaloniki Regional Unit",
+    "domain": "kalamaria.gr",
+    "osm_relation_id": 2348442
+  },
+  {
+    "id": "GR-125",
+    "name": "Kalamata Municipality",
+    "country": "GR",
+    "region": "Messenia Regional Unit",
+    "domain": "kalamata.gr",
+    "osm_relation_id": 2171629
+  },
+  {
+    "id": "GR-126",
+    "name": "Kalavryta Municipality",
+    "country": "GR",
+    "region": "Achaea Regional Unit",
+    "domain": "kalavrita.gr",
+    "osm_relation_id": 2182850
+  },
+  {
+    "id": "GR-127",
+    "name": "Kallithea Municipality",
+    "country": "GR",
+    "region": "South Athens Regional Unit",
+    "domain": "kallithea.gr",
+    "osm_relation_id": 1391435
+  },
+  {
+    "id": "GR-128",
+    "name": "Kalymnos municipality",
+    "country": "GR",
+    "region": "Kalymnos Regional Unit",
+    "domain": "kalymnos.gov.gr",
+    "osm_relation_id": 5318918
+  },
+  {
+    "id": "GR-129",
+    "name": "Kamena Vourla Municipality",
+    "country": "GR",
+    "region": "Phthiotis Regional Unit",
+    "domain": "dimos-kamenon-vourlon.gr",
+    "osm_relation_id": 1901661
+  },
+  {
+    "id": "GR-130",
+    "name": "Kantanos-Selino Municipality",
+    "country": "GR",
+    "region": "Chania Regional Unit",
+    "domain": "kantanouselinou.gr",
+    "osm_relation_id": 2187316
+  },
+  {
+    "id": "GR-131",
+    "name": "Karditsa Municipality",
+    "country": "GR",
+    "region": "Karditsa Regional Unit",
+    "domain": "dimoskarditsas.gov.gr",
+    "osm_relation_id": 2220937
+  },
+  {
+    "id": "GR-132",
+    "name": "Karpathos Municipality",
+    "country": "GR",
+    "region": "Karpathos-Kasos Regional Unit",
+    "domain": "karpathos.gr",
+    "osm_relation_id": 5318962
+  },
+  {
+    "id": "GR-133",
+    "name": "Karpenisi Municipality",
+    "country": "GR",
+    "region": "Evritania Regional Unit",
+    "domain": "karpenissi.gr",
+    "osm_relation_id": 1514290
+  },
+  {
+    "id": "GR-134",
+    "name": "Karystos Municipality",
+    "country": "GR",
+    "region": "Euboea regional unit",
+    "domain": "dimoskarystou.gr",
+    "osm_relation_id": 2215269
+  },
+  {
+    "id": "GR-135",
+    "name": "Kasos Municipality",
+    "country": "GR",
+    "region": "Karpathos-Kasos Regional Unit",
+    "domain": "kasos.gr",
+    "osm_relation_id": 5318989
+  },
+  {
+    "id": "GR-136",
+    "name": "Kassandra Municipality",
+    "country": "GR",
+    "region": "Chalkidiki Regional Unit",
+    "domain": "kassandra.gr",
+    "osm_relation_id": 2346742
+  },
+  {
+    "id": "GR-137",
+    "name": "Kastoria Municipality",
+    "country": "GR",
+    "region": "Kastoria Regional Unit",
+    "domain": "kastoria.gov.gr",
+    "osm_relation_id": 2249328
+  },
+  {
+    "id": "GR-138",
+    "name": "Katerini Municipality",
+    "country": "GR",
+    "region": "Pieria Regional Unit",
+    "domain": "katerini.gr",
+    "osm_relation_id": 2249508
+  },
+  {
+    "id": "GR-139",
+    "name": "Kato Nevrokopi Municipality",
+    "country": "GR",
+    "region": "Drama Regional Unit",
+    "domain": "nevrokopi.gr",
+    "osm_relation_id": 2346529
+  },
+  {
+    "id": "GR-140",
+    "name": "Kavala Municipality",
+    "country": "GR",
+    "region": "Kavala Regional Unit",
+    "domain": "kavala.gov.gr",
+    "osm_relation_id": 2346651
+  },
+  {
+    "id": "GR-141",
+    "name": "Kea Municipality",
+    "country": "GR",
+    "region": "Kea-Kythnos Regional Unit",
+    "domain": "kea.gr",
+    "osm_relation_id": 5318993
+  },
+  {
+    "id": "GR-142",
+    "name": "Keratsini-Drapetsona Municipality",
+    "country": "GR",
+    "region": "Piraeus Regional Unit",
+    "domain": "keratsini-drapetsona.gr",
+    "osm_relation_id": 2334807
+  },
+  {
+    "id": "GR-143",
+    "name": "Kifisia Municipality",
+    "country": "GR",
+    "region": "North Athens Regional Unit",
+    "domain": "kifissia.gr",
+    "osm_relation_id": 2080716
+  },
+  {
+    "id": "GR-144",
+    "name": "Kileler Municipality",
+    "country": "GR",
+    "region": "Larissa Regional Unit",
+    "domain": "kileler.gov.gr",
+    "osm_relation_id": 2246177
+  },
+  {
+    "id": "GR-145",
+    "name": "Kilkis Municipality",
+    "country": "GR",
+    "region": "Kilkis Regional Unit",
+    "domain": "e-kilkis.gr",
+    "osm_relation_id": 2251079
+  },
+  {
+    "id": "GR-146",
+    "name": "Kimolos Municipality",
+    "country": "GR",
+    "region": "Milos Regional Unit",
+    "domain": "kimolos.gr",
+    "osm_relation_id": 5287271
+  },
+  {
+    "id": "GR-147",
+    "name": "Kissamos Municipality",
+    "country": "GR",
+    "region": "Chania Regional Unit",
+    "domain": "kissamos.gr",
+    "osm_relation_id": 2187317
+  },
+  {
+    "id": "GR-148",
+    "name": "Kithnos Municipality",
+    "country": "GR",
+    "region": "Kea-Kythnos Regional Unit",
+    "domain": "kythnos.gr",
+    "osm_relation_id": 5319056
+  },
+  {
+    "id": "GR-149",
+    "name": "Komotini Municipality",
+    "country": "GR",
+    "region": "Rhodope Regional Unit",
+    "domain": "komotini.gr",
+    "osm_relation_id": 2345169
+  },
+  {
+    "id": "GR-150",
+    "name": "Konitsa Municipality",
+    "country": "GR",
+    "region": "Ioannina Regional Unit",
+    "domain": "konitsa.gr",
+    "osm_relation_id": 2235946
+  },
+  {
+    "id": "GR-151",
+    "name": "Kordelio-Evosmos Municipality",
+    "country": "GR",
+    "region": "Thessaloniki Regional Unit",
+    "domain": "kordelio-evosmos.gr",
+    "osm_relation_id": 2348443
+  },
+  {
+    "id": "GR-152",
+    "name": "Korydallos Municipality",
+    "country": "GR",
+    "region": "Piraeus Regional Unit",
+    "domain": "korydallos.gr",
+    "osm_relation_id": 1392797
+  },
+  {
+    "id": "GR-153",
+    "name": "Kos Municipality",
+    "country": "GR",
+    "region": "Kos regional unit",
+    "domain": "kos.gov.gr",
+    "osm_relation_id": 5319060
+  },
+  {
+    "id": "GR-154",
+    "name": "Kozani Municipality",
+    "country": "GR",
+    "region": "Kozani Regional Unit",
+    "domain": "cityofkozani.gov.gr",
+    "osm_relation_id": 2249486
+  },
+  {
+    "id": "GR-155",
+    "name": "Kropia Municipality",
+    "country": "GR",
+    "region": "East Attica Regional Unit",
+    "domain": "koropi.gr",
+    "osm_relation_id": 2079654
+  },
+  {
+    "id": "GR-156",
+    "name": "Kymi-Aliveri Municipality",
+    "country": "GR",
+    "region": "Euboea regional unit",
+    "domain": "kimis-aliveriou.gr",
+    "osm_relation_id": 2215270
+  },
+  {
+    "id": "GR-157",
+    "name": "Kythira Municipality",
+    "country": "GR",
+    "region": "Islands Regional Unit",
+    "domain": "kythira.gr",
+    "osm_relation_id": 4487488
+  },
+  {
+    "id": "GR-158",
+    "name": "Lagkadas Municipality",
+    "country": "GR",
+    "region": "Thessaloniki Regional Unit",
+    "domain": "lagadas.gr",
+    "osm_relation_id": 2348450
+  },
+  {
+    "id": "GR-159",
+    "name": "Lake Plastiras Municipality",
+    "country": "GR",
+    "region": "Karditsa Regional Unit",
+    "domain": "plastiras-ota.gr",
+    "osm_relation_id": 2220938
+  },
+  {
+    "id": "GR-160",
+    "name": "Lamia Municipality",
+    "country": "GR",
+    "region": "Phthiotis Regional Unit",
+    "domain": "lamia.gr",
+    "osm_relation_id": 1901727
+  },
+  {
+    "id": "GR-161",
+    "name": "Larissa Municipality",
+    "country": "GR",
+    "region": "Larissa Regional Unit",
+    "domain": "larissa-dimos.gr",
+    "osm_relation_id": 2246178
+  },
+  {
+    "id": "GR-162",
+    "name": "Lavreotiki Municipality",
+    "country": "GR",
+    "region": "East Attica Regional Unit",
+    "domain": "lavreotiki.gr",
+    "osm_relation_id": 2079873
+  },
+  {
+    "id": "GR-163",
+    "name": "Lefkada Municipality",
+    "country": "GR",
+    "region": "Lefkada Regional Unit",
+    "domain": "lefkada.gov.gr",
+    "osm_relation_id": 5225334
+  },
+  {
+    "id": "GR-164",
+    "name": "Leipsoi Municipality",
+    "country": "GR",
+    "region": "Kalymnos Regional Unit",
+    "domain": "lipsi.gov.gr",
+    "osm_relation_id": 5319081
+  },
+  {
+    "id": "GR-165",
+    "name": "Leros Municipality",
+    "country": "GR",
+    "region": "Kalymnos Regional Unit",
+    "domain": "leros.gr",
+    "osm_relation_id": 5321392
+  },
+  {
+    "id": "GR-166",
+    "name": "Limnos Municipality",
+    "country": "GR",
+    "region": "Lemnos Regional Unit",
+    "domain": "limnos.gov.gr",
+    "osm_relation_id": 5305716
+  },
+  {
+    "id": "GR-167",
+    "name": "Livadia Municipality",
+    "country": "GR",
+    "region": "Boeotia Regional Unit",
+    "domain": "dimoslevadeon.gr",
+    "osm_relation_id": 1936529
+  },
+  {
+    "id": "GR-168",
+    "name": "Lixouri Municipality",
+    "country": "GR",
+    "region": "Kefalonia Regional Unit",
+    "domain": "dimos-lixouriou.gr",
+    "osm_relation_id": 13234311
+  },
+  {
+    "id": "GR-169",
+    "name": "Lokroi Municipality",
+    "country": "GR",
+    "region": "Phthiotis Regional Unit",
+    "domain": "dimos-lokron.gov.gr",
+    "osm_relation_id": 1901643
+  },
+  {
+    "id": "GR-170",
+    "name": "Loutraki-Perachora-Agioi Theodoroi Municipality",
+    "country": "GR",
+    "region": "Corinthia Regional Unit",
+    "domain": "loutraki.gov.gr",
+    "osm_relation_id": 2186726
+  },
+  {
+    "id": "GR-171",
+    "name": "Lykovrysi-Pefki Municipality",
+    "country": "GR",
+    "region": "North Athens Regional Unit",
+    "domain": "likovrisipefki.gr",
+    "osm_relation_id": 2075881
+  },
+  {
+    "id": "GR-172",
+    "name": "Makrakomi Municipality",
+    "country": "GR",
+    "region": "Phthiotis Regional Unit",
+    "domain": "dimosmakrakomis.gov.gr",
+    "osm_relation_id": 1901736
+  },
+  {
+    "id": "GR-173",
+    "name": "Malevizi Municipality",
+    "country": "GR",
+    "region": "Heraklion Regional Unit",
+    "domain": "gazi.gov.gr",
+    "osm_relation_id": 2187394
+  },
+  {
+    "id": "GR-174",
+    "name": "Mandra-Eidyllia Municipality",
+    "country": "GR",
+    "region": "West Attica Regional Unit",
+    "domain": "mandras-eidyllias.gr",
+    "osm_relation_id": 2083698
+  },
+  {
+    "id": "GR-175",
+    "name": "Mantoudi-Limni-Agia Anna Municipality",
+    "country": "GR",
+    "region": "Euboea regional unit",
+    "domain": "malian.gov.gr",
+    "osm_relation_id": 2215271
+  },
+  {
+    "id": "GR-176",
+    "name": "Marathonas Municipality",
+    "country": "GR",
+    "region": "East Attica Regional Unit",
+    "domain": "marathon.gr",
+    "osm_relation_id": 2081639
+  },
+  {
+    "id": "GR-177",
+    "name": "Markopoulo Mesogaias Municipality",
+    "country": "GR",
+    "region": "East Attica Regional Unit",
+    "domain": "markopoulo.gr",
+    "osm_relation_id": 2079955
+  },
+  {
+    "id": "GR-178",
+    "name": "Maroneia-Sapes Municipality",
+    "country": "GR",
+    "region": "Rhodope Regional Unit",
+    "domain": "maroneiasapes.gov.gr",
+    "osm_relation_id": 2345170
+  },
+  {
+    "id": "GR-179",
+    "name": "Megalopoli Municipality",
+    "country": "GR",
+    "region": "Arcadia Regional Unit",
+    "domain": "megalopoli.gov.gr",
+    "osm_relation_id": 2174027
+  },
+  {
+    "id": "GR-180",
+    "name": "Meganisi Municipality",
+    "country": "GR",
+    "region": "Lefkada Regional Unit",
+    "domain": "meganisi.gov.gr",
+    "osm_relation_id": 5225335
+  },
+  {
+    "id": "GR-181",
+    "name": "Megara Municipality",
+    "country": "GR",
+    "region": "West Attica Regional Unit",
+    "domain": "megara.gr",
+    "osm_relation_id": 2083711
+  },
+  {
+    "id": "GR-182",
+    "name": "Megisti Municipality",
+    "country": "GR",
+    "region": "Rhodes Regional Unit",
+    "domain": "kastellorizo.online",
+    "osm_relation_id": 5321397
+  },
+  {
+    "id": "GR-183",
+    "name": "Metamorfosis Municipality",
+    "country": "GR",
+    "region": "North Athens Regional Unit",
+    "domain": "metamorfossi.gov.gr",
+    "osm_relation_id": 2075665
+  },
+  {
+    "id": "GR-184",
+    "name": "Meteora Municipality",
+    "country": "GR",
+    "region": "Trikala Regional Unit",
+    "domain": "dimosmeteoron.com",
+    "osm_relation_id": 2238560
+  },
+  {
+    "id": "GR-185",
+    "name": "Metsovo Municipality",
+    "country": "GR",
+    "region": "Ioannina Regional Unit",
+    "domain": "dimosmetsovou.gr",
+    "osm_relation_id": 2235947
+  },
+  {
+    "id": "GR-186",
+    "name": "Milos Municipality",
+    "country": "GR",
+    "region": "Milos Regional Unit",
+    "domain": "milos.gr",
+    "osm_relation_id": 5285404
+  },
+  {
+    "id": "GR-187",
+    "name": "Minoa Pediada Municipality",
+    "country": "GR",
+    "region": "Heraklion Regional Unit",
+    "domain": "minoapediadas.gr",
+    "osm_relation_id": 2187395
+  },
+  {
+    "id": "GR-188",
+    "name": "Missolonghi Municipality",
+    "country": "GR",
+    "region": "Aetolia-Acarnania Regional Unit",
+    "domain": "messolonghi.gov.gr",
+    "osm_relation_id": 1462720
+  },
+  {
+    "id": "GR-189",
+    "name": "Monemvasia Municipality",
+    "country": "GR",
+    "region": "Laconia Regional Unit",
+    "domain": "monemvasia.gov.gr",
+    "osm_relation_id": 2179052
+  },
+  {
+    "id": "GR-190",
+    "name": "Moschato-Tavros Municipality",
+    "country": "GR",
+    "region": "South Athens Regional Unit",
+    "domain": "dimosmoschatou-tavrou.gr",
+    "osm_relation_id": 4478076
+  },
+  {
+    "id": "GR-191",
+    "name": "Mouzaki Municipality",
+    "country": "GR",
+    "region": "Karditsa Regional Unit",
+    "domain": "mouzaki.gr",
+    "osm_relation_id": 2220939
+  },
+  {
+    "id": "GR-192",
+    "name": "Municipality of Agathonisi",
+    "country": "GR",
+    "region": "Kalymnos Regional Unit",
+    "domain": "agathonisi.gr",
+    "osm_relation_id": 4868191
+  },
+  {
+    "id": "GR-193",
+    "name": "Municipality of Central Corfu and Diapontia Islands",
+    "country": "GR",
+    "region": "Corfu Regional Unit",
+    "domain": "corfu.gr",
+    "osm_relation_id": 13234094
+  },
+  {
+    "id": "GR-194",
+    "name": "Municipality of Messene",
+    "country": "GR",
+    "region": "Messenia Regional Unit",
+    "domain": "messini.gr",
+    "osm_relation_id": 2171630
+  },
+  {
+    "id": "GR-195",
+    "name": "Municipality of Patras",
+    "country": "GR",
+    "region": "Achaea Regional Unit",
+    "domain": "e-patras.gr",
+    "osm_relation_id": 2182851
+  },
+  {
+    "id": "GR-196",
+    "name": "Municipality of Peristeri",
+    "country": "GR",
+    "region": "West Athens Regional Unit",
+    "domain": "peristeri.gr",
+    "osm_relation_id": 1389824
+  },
+  {
+    "id": "GR-197",
+    "name": "Municipality of Pylos-Nestor",
+    "country": "GR",
+    "region": "Messenia Regional Unit",
+    "domain": "pylos-nestor.gr",
+    "osm_relation_id": 2171632
+  },
+  {
+    "id": "GR-198",
+    "name": "Municipality of Sami",
+    "country": "GR",
+    "region": "Kefalonia Regional Unit",
+    "domain": "sami.gov.gr",
+    "osm_relation_id": 13234625
+  },
+  {
+    "id": "GR-199",
+    "name": "Municipality of Stylida",
+    "country": "GR",
+    "region": "Phthiotis Regional Unit",
+    "domain": "stylida.gr",
+    "osm_relation_id": 1901750
+  },
+  {
+    "id": "GR-200",
+    "name": "Myki Municipality",
+    "country": "GR",
+    "region": "Xanthi Regional Unit",
+    "domain": "dimosmykis.gr",
+    "osm_relation_id": 2345377
+  },
+  {
+    "id": "GR-201",
+    "name": "Mykonos Municipality",
+    "country": "GR",
+    "region": "Mykonos Regional Unit",
+    "domain": "mykonos.gr",
+    "osm_relation_id": 5222783
+  },
+  {
+    "id": "GR-202",
+    "name": "Mylopotamos Municipality",
+    "country": "GR",
+    "region": "Rethymno Regional Unit",
+    "domain": "dimosmylopotamou.gr",
+    "osm_relation_id": 2187335
+  },
+  {
+    "id": "GR-203",
+    "name": "Mytilene Municipality",
+    "country": "GR",
+    "region": "Lesbos Regional Unit",
+    "domain": "mytilene.gr",
+    "osm_relation_id": 11893672
+  },
+  {
+    "id": "GR-204",
+    "name": "Nafpaktia Municipality",
+    "country": "GR",
+    "region": "Aetolia-Acarnania Regional Unit",
+    "domain": "nafpaktos.gr",
+    "osm_relation_id": 1462739
+  },
+  {
+    "id": "GR-205",
+    "name": "Nafplio Municipality",
+    "country": "GR",
+    "region": "Argolida Regional Unit",
+    "domain": "nafplio.gr",
+    "osm_relation_id": 2185769
+  },
+  {
+    "id": "GR-206",
+    "name": "Naousa Municipality",
+    "country": "GR",
+    "region": "Imathia Regional Unit",
+    "domain": "naoussa.gr",
+    "osm_relation_id": 2249524
+  },
+  {
+    "id": "GR-207",
+    "name": "Naxos and Lesser Cyclades Municipality",
+    "country": "GR",
+    "region": "Naxos Regional Unit",
+    "domain": "e-naxos.eu",
+    "osm_relation_id": 5321396
+  },
+  {
+    "id": "GR-208",
+    "name": "Nea Filadelfeia-Nea Chalkidona Municipality",
+    "country": "GR",
+    "region": "Central Athens Regional Unit",
+    "domain": "dimosfx.gr",
+    "osm_relation_id": 2190342
+  },
+  {
+    "id": "GR-209",
+    "name": "Nea Ionia Municipality",
+    "country": "GR",
+    "region": "North Athens Regional Unit",
+    "domain": "neaionia.gr",
+    "osm_relation_id": 1386318
+  },
+  {
+    "id": "GR-210",
+    "name": "Nea Propontida Municipality",
+    "country": "GR",
+    "region": "Chalkidiki Regional Unit",
+    "domain": "nea-propontida.gr",
+    "osm_relation_id": 2346743
+  },
+  {
+    "id": "GR-211",
+    "name": "Nea Smyrni Municipality",
+    "country": "GR",
+    "region": "South Athens Regional Unit",
+    "domain": "neasmyrni.gr",
+    "osm_relation_id": 1391564
+  },
+  {
+    "id": "GR-212",
+    "name": "Nea Zichni Municipality",
+    "country": "GR",
+    "region": "Serres Regional Unit",
+    "domain": "dimos-neaszixnis.gr",
+    "osm_relation_id": 2346622
+  },
+  {
+    "id": "GR-213",
+    "name": "Neapoli-Sykies Municipality",
+    "country": "GR",
+    "region": "Thessaloniki Regional Unit",
+    "domain": "dimosneapolis-sykeon.gr",
+    "osm_relation_id": 2348444
+  },
+  {
+    "id": "GR-214",
+    "name": "Nemea Municipality",
+    "country": "GR",
+    "region": "Corinthia Regional Unit",
+    "domain": "nemea.gr",
+    "osm_relation_id": 2186727
+  },
+  {
+    "id": "GR-215",
+    "name": "Nestorio Municipality",
+    "country": "GR",
+    "region": "Kastoria Regional Unit",
+    "domain": "nestorio.gr",
+    "osm_relation_id": 2249329
+  },
+  {
+    "id": "GR-216",
+    "name": "Nestos Municipality",
+    "country": "GR",
+    "region": "Kavala Regional Unit",
+    "domain": "dimosnestou.gov.gr",
+    "osm_relation_id": 2346652
+  },
+  {
+    "id": "GR-217",
+    "name": "Nikaia-Agios Ioannis Renti Municipality",
+    "country": "GR",
+    "region": "Piraeus Regional Unit",
+    "domain": "nikaia-rentis.gov.gr",
+    "osm_relation_id": 2333893
+  },
+  {
+    "id": "GR-218",
+    "name": "Nikolaos Skoufas Municipality",
+    "country": "GR",
+    "region": "Arta Regional Unit",
+    "domain": "nskoufas.gr",
+    "osm_relation_id": 2222974
+  },
+  {
+    "id": "GR-219",
+    "name": "Nisyros Municipality",
+    "country": "GR",
+    "region": "Kos regional unit",
+    "domain": "nisyros.gr",
+    "osm_relation_id": 5316405
+  },
+  {
+    "id": "GR-220",
+    "name": "North Kynouria Municipality",
+    "country": "GR",
+    "region": "Arcadia Regional Unit",
+    "domain": "voreiakynouria.gov.gr",
+    "osm_relation_id": 2174025
+  },
+  {
+    "id": "GR-221",
+    "name": "North Tzoumerka Municipality",
+    "country": "GR",
+    "region": "Ioannina Regional Unit",
+    "domain": "voreiatzoumerka.gr",
+    "osm_relation_id": 2235941
+  },
+  {
+    "id": "GR-222",
+    "name": "Northern Corfu Municipality",
+    "country": "GR",
+    "region": "Corfu Regional Unit",
+    "domain": "mncnorthcorfu.gr",
+    "osm_relation_id": 13234062
+  },
+  {
+    "id": "GR-223",
+    "name": "Oichalia Municipality",
+    "country": "GR",
+    "region": "Messenia Regional Unit",
+    "domain": "oichalia.gov.gr",
+    "osm_relation_id": 2171631
+  },
+  {
+    "id": "GR-224",
+    "name": "Oinousses Municipality",
+    "country": "GR",
+    "region": "Chios Regional Unit",
+    "domain": "oinousses-municipality.gr",
+    "osm_relation_id": 5305850
+  },
+  {
+    "id": "GR-225",
+    "name": "Orchomenos Municipality",
+    "country": "GR",
+    "region": "Boeotia Regional Unit",
+    "domain": "orchomenos.gr",
+    "osm_relation_id": 1936530
+  },
+  {
+    "id": "GR-226",
+    "name": "Oreokastro Municipality",
+    "country": "GR",
+    "region": "Thessaloniki Regional Unit",
+    "domain": "oraiokastro.gr",
+    "osm_relation_id": 2348453
+  },
+  {
+    "id": "GR-227",
+    "name": "Orestiada Municipality",
+    "country": "GR",
+    "region": "Evros Regional Unit",
+    "domain": "orestiada.gr",
+    "osm_relation_id": 2345114
+  },
+  {
+    "id": "GR-228",
+    "name": "Oropos Municipality",
+    "country": "GR",
+    "region": "East Attica Regional Unit",
+    "domain": "oropos.gov.gr",
+    "osm_relation_id": 2081958
+  },
+  {
+    "id": "GR-229",
+    "name": "Orοpedio Lasithi Municipality",
+    "country": "GR",
+    "region": "Lasithi Regional Unit",
+    "domain": "lasithi.gov.gr",
+    "osm_relation_id": 2187434
+  },
+  {
+    "id": "GR-230",
+    "name": "Paionia Municipality",
+    "country": "GR",
+    "region": "Kilkis Regional Unit",
+    "domain": "paionia.gov.gr",
+    "osm_relation_id": 2251080
+  },
+  {
+    "id": "GR-231",
+    "name": "Palaio Faliro Municipality",
+    "country": "GR",
+    "region": "South Athens Regional Unit",
+    "domain": "palaiofaliro.gr",
+    "osm_relation_id": 1400008
+  },
+  {
+    "id": "GR-232",
+    "name": "Palamas Municipality",
+    "country": "GR",
+    "region": "Karditsa Regional Unit",
+    "domain": "palamas.gr",
+    "osm_relation_id": 2220940
+  },
+  {
+    "id": "GR-233",
+    "name": "Pallini Municipality",
+    "country": "GR",
+    "region": "East Attica Regional Unit",
+    "domain": "pallini.gr",
+    "osm_relation_id": 2080400
+  },
+  {
+    "id": "GR-234",
+    "name": "Pangaio Municipality",
+    "country": "GR",
+    "region": "Kavala Regional Unit",
+    "domain": "dimospaggaiou.gr",
+    "osm_relation_id": 2346653
+  },
+  {
+    "id": "GR-235",
+    "name": "Papagou-Cholargos Municipality",
+    "country": "GR",
+    "region": "North Athens Regional Unit",
+    "domain": "dpapxol.gov.gr",
+    "osm_relation_id": 1394354
+  },
+  {
+    "id": "GR-236",
+    "name": "Paranesti Municipality",
+    "country": "GR",
+    "region": "Drama Regional Unit",
+    "domain": "paranesti.gr",
+    "osm_relation_id": 2346530
+  },
+  {
+    "id": "GR-237",
+    "name": "Parga Municipality",
+    "country": "GR",
+    "region": "Preveza Regional Unit",
+    "domain": "dimospargas.gr",
+    "osm_relation_id": 2225507
+  },
+  {
+    "id": "GR-238",
+    "name": "Paros Municipality",
+    "country": "GR",
+    "region": "Paros Regional Unit",
+    "domain": "dimos.paros.gr",
+    "osm_relation_id": 5321416
+  },
+  {
+    "id": "GR-239",
+    "name": "Patmos Municipality",
+    "country": "GR",
+    "region": "Kalymnos Regional Unit",
+    "domain": "patmos.gov.gr",
+    "osm_relation_id": 5321568
+  },
+  {
+    "id": "GR-240",
+    "name": "Pavlos Melas Municipality",
+    "country": "GR",
+    "region": "Thessaloniki Regional Unit",
+    "domain": "pavlosmelas.gr",
+    "osm_relation_id": 2348445
+  },
+  {
+    "id": "GR-241",
+    "name": "Paxi Municipality",
+    "country": "GR",
+    "region": "Corfu Regional Unit",
+    "domain": "paxi.gr",
+    "osm_relation_id": 5287181
+  },
+  {
+    "id": "GR-242",
+    "name": "Peania Municipality",
+    "country": "GR",
+    "region": "East Attica Regional Unit",
+    "domain": "paiania.gov.gr",
+    "osm_relation_id": 2079559
+  },
+  {
+    "id": "GR-243",
+    "name": "Pella Municipality",
+    "country": "GR",
+    "region": "Pella Regional Unit",
+    "domain": "giannitsa.gr",
+    "osm_relation_id": 2250820
+  },
+  {
+    "id": "GR-244",
+    "name": "Penteli Municipality",
+    "country": "GR",
+    "region": "North Athens Regional Unit",
+    "domain": "penteli.gov.gr",
+    "osm_relation_id": 2081340
+  },
+  {
+    "id": "GR-245",
+    "name": "Perama Municipality",
+    "country": "GR",
+    "region": "Piraeus Regional Unit",
+    "domain": "perama.gr",
+    "osm_relation_id": 1398461
+  },
+  {
+    "id": "GR-246",
+    "name": "Petroupolis Municipality",
+    "country": "GR",
+    "region": "West Athens Regional Unit",
+    "domain": "petroupoli.gov.gr",
+    "osm_relation_id": 1372548
+  },
+  {
+    "id": "GR-247",
+    "name": "Pineios Municipality",
+    "country": "GR",
+    "region": "Elis Regional Unit",
+    "domain": "dimos-pineiou.gr",
+    "osm_relation_id": 2178178
+  },
+  {
+    "id": "GR-248",
+    "name": "Piraeus Municipality",
+    "country": "GR",
+    "region": "Piraeus Regional Unit",
+    "domain": "piraeus.gov.gr",
+    "osm_relation_id": 1398530
+  },
+  {
+    "id": "GR-249",
+    "name": "Platanias Municipality",
+    "country": "GR",
+    "region": "Chania Regional Unit",
+    "domain": "platanias.gr",
+    "osm_relation_id": 2187318
+  },
+  {
+    "id": "GR-250",
+    "name": "Pogoni Municipality",
+    "country": "GR",
+    "region": "Ioannina Regional Unit",
+    "domain": "pogoni.gr",
+    "osm_relation_id": 2235948
+  },
+  {
+    "id": "GR-251",
+    "name": "Polygyros Municipality",
+    "country": "GR",
+    "region": "Chalkidiki Regional Unit",
+    "domain": "polygyros.gr",
+    "osm_relation_id": 2346744
+  },
+  {
+    "id": "GR-252",
+    "name": "Poros Municipality",
+    "country": "GR",
+    "region": "Islands Regional Unit",
+    "domain": "poros.gr",
+    "osm_relation_id": 11184599
+  },
+  {
+    "id": "GR-253",
+    "name": "Prespes Municipality",
+    "country": "GR",
+    "region": "Florina Regional Unit",
+    "domain": "prespes.gr",
+    "osm_relation_id": 2249449
+  },
+  {
+    "id": "GR-254",
+    "name": "Preveza municipality",
+    "country": "GR",
+    "region": "Preveza Regional Unit",
+    "domain": "dimosprevezas.gr",
+    "osm_relation_id": 2225508
+  },
+  {
+    "id": "GR-255",
+    "name": "Prosotsani Municipality",
+    "country": "GR",
+    "region": "Drama Regional Unit",
+    "domain": "prosotsani.gr",
+    "osm_relation_id": 2346531
+  },
+  {
+    "id": "GR-256",
+    "name": "Psara Municipality",
+    "country": "GR",
+    "region": "Chios Regional Unit",
+    "domain": "dimospsaron.gr",
+    "osm_relation_id": 5305840
+  },
+  {
+    "id": "GR-257",
+    "name": "Pydna-Kolindros Municipality",
+    "country": "GR",
+    "region": "Pieria Regional Unit",
+    "domain": "pydnaskolindrou.gr",
+    "osm_relation_id": 2249509
+  },
+  {
+    "id": "GR-258",
+    "name": "Pylaia-Chortiatis Municipality",
+    "country": "GR",
+    "region": "Thessaloniki Regional Unit",
+    "domain": "pilea-hortiatis.gr",
+    "osm_relation_id": 2348451
+  },
+  {
+    "id": "GR-259",
+    "name": "Pyli Municipality",
+    "country": "GR",
+    "region": "Trikala Regional Unit",
+    "domain": "dimospylis.gr",
+    "osm_relation_id": 2238561
+  },
+  {
+    "id": "GR-260",
+    "name": "Pyrgos Municipality",
+    "country": "GR",
+    "region": "Elis Regional Unit",
+    "domain": "dimospirgou.gr",
+    "osm_relation_id": 2178179
+  },
+  {
+    "id": "GR-261",
+    "name": "Rafina-Pikermi Municipality",
+    "country": "GR",
+    "region": "East Attica Regional Unit",
+    "domain": "rafina-pikermi.gr",
+    "osm_relation_id": 2080567
+  },
+  {
+    "id": "GR-262",
+    "name": "Rethymno Municipality",
+    "country": "GR",
+    "region": "Rethymno Regional Unit",
+    "domain": "rethymno.gr",
+    "osm_relation_id": 2187336
+  },
+  {
+    "id": "GR-263",
+    "name": "Rigas Feraios Municipality",
+    "country": "GR",
+    "region": "Magnesia Regional Unit",
+    "domain": "rigas-feraios.gr",
+    "osm_relation_id": 2242286
+  },
+  {
+    "id": "GR-264",
+    "name": "Rodos Municipality",
+    "country": "GR",
+    "region": "Rhodes Regional Unit",
+    "domain": "rhodes.gr",
+    "osm_relation_id": 5321592
+  },
+  {
+    "id": "GR-265",
+    "name": "Salamina Municipality",
+    "country": "GR",
+    "region": "Islands Regional Unit",
+    "domain": "salamina.gr",
+    "osm_relation_id": 4487779
+  },
+  {
+    "id": "GR-266",
+    "name": "Samothraki Municipality",
+    "country": "GR",
+    "region": "Evros Regional Unit",
+    "domain": "samothraki.gr",
+    "osm_relation_id": 5222497
+  },
+  {
+    "id": "GR-267",
+    "name": "Saronikos Municipality",
+    "country": "GR",
+    "region": "East Attica Regional Unit",
+    "domain": "saronikoscity.gr",
+    "osm_relation_id": 2079759
+  },
+  {
+    "id": "GR-268",
+    "name": "Serifos Municipality",
+    "country": "GR",
+    "region": "Milos Regional Unit",
+    "domain": "serifos.gr",
+    "osm_relation_id": 5305695
+  },
+  {
+    "id": "GR-269",
+    "name": "Serres Municipality",
+    "country": "GR",
+    "region": "Serres Regional Unit",
+    "domain": "serres.gr",
+    "osm_relation_id": 2346623
+  },
+  {
+    "id": "GR-270",
+    "name": "Servia Municipality",
+    "country": "GR",
+    "region": "Kozani Regional Unit",
+    "domain": "dservion.gr",
+    "osm_relation_id": 2249487
+  },
+  {
+    "id": "GR-271",
+    "name": "Sfakia Municipality",
+    "country": "GR",
+    "region": "Chania Regional Unit",
+    "domain": "sfakia.gov.gr",
+    "osm_relation_id": 2187319
+  },
+  {
+    "id": "GR-272",
+    "name": "Sifnos Municipality",
+    "country": "GR",
+    "region": "Milos Regional Unit",
+    "domain": "dimos.sifnos.gr",
+    "osm_relation_id": 5305696
+  },
+  {
+    "id": "GR-273",
+    "name": "Sikinos Municipality",
+    "country": "GR",
+    "region": "Thira Regional Unit",
+    "domain": "sikinos.gr",
+    "osm_relation_id": 5321387
+  },
+  {
+    "id": "GR-274",
+    "name": "Sikyona Municipality",
+    "country": "GR",
+    "region": "Corinthia Regional Unit",
+    "domain": "kiato.gov.gr",
+    "osm_relation_id": 2186729
+  },
+  {
+    "id": "GR-275",
+    "name": "Sintiki Municipality",
+    "country": "GR",
+    "region": "Serres Regional Unit",
+    "domain": "sintiki.gov.gr",
+    "osm_relation_id": 2346624
+  },
+  {
+    "id": "GR-276",
+    "name": "Sithonia Municipality",
+    "country": "GR",
+    "region": "Chalkidiki Regional Unit",
+    "domain": "dimossithonias.gr",
+    "osm_relation_id": 2346745
+  },
+  {
+    "id": "GR-277",
+    "name": "Sitia Municipality",
+    "country": "GR",
+    "region": "Lasithi Regional Unit",
+    "domain": "sitia.gr",
+    "osm_relation_id": 2187435
+  },
+  {
+    "id": "GR-278",
+    "name": "Skiathos Municipality",
+    "country": "GR",
+    "region": "Sporades Regional Unit",
+    "domain": "n-skiathos.gr",
+    "osm_relation_id": 2363109
+  },
+  {
+    "id": "GR-279",
+    "name": "Skopelos Municipality",
+    "country": "GR",
+    "region": "Sporades Regional Unit",
+    "domain": "skopelos.gov.gr",
+    "osm_relation_id": 2363110
+  },
+  {
+    "id": "GR-280",
+    "name": "Skydra Municipality",
+    "country": "GR",
+    "region": "Pella Regional Unit",
+    "domain": "skydra.gr",
+    "osm_relation_id": 2250821
+  },
+  {
+    "id": "GR-281",
+    "name": "Skyros Municipality",
+    "country": "GR",
+    "region": "Euboea regional unit",
+    "domain": "skyros.gr",
+    "osm_relation_id": 2215272
+  },
+  {
+    "id": "GR-282",
+    "name": "Sofades Municipality",
+    "country": "GR",
+    "region": "Karditsa Regional Unit",
+    "domain": "sofades.gr",
+    "osm_relation_id": 2220941
+  },
+  {
+    "id": "GR-283",
+    "name": "Soufli Municipality",
+    "country": "GR",
+    "region": "Evros Regional Unit",
+    "domain": "soufli.gr",
+    "osm_relation_id": 2345115
+  },
+  {
+    "id": "GR-284",
+    "name": "Souli Municipality",
+    "country": "GR",
+    "region": "Thesprotia Regional Unit",
+    "domain": "dimossouliou.gov.gr",
+    "osm_relation_id": 2227643
+  },
+  {
+    "id": "GR-285",
+    "name": "South Kynouria Municipality",
+    "country": "GR",
+    "region": "Arcadia Regional Unit",
+    "domain": "notiakynouria.gov.gr",
+    "osm_relation_id": 2174028
+  },
+  {
+    "id": "GR-286",
+    "name": "Southern Corfu Municipality",
+    "country": "GR",
+    "region": "Corfu Regional Unit",
+    "domain": "southcorfu.gov.gr",
+    "osm_relation_id": 13088246
+  },
+  {
+    "id": "GR-287",
+    "name": "Southern Pelion Municipality",
+    "country": "GR",
+    "region": "Magnesia Regional Unit",
+    "domain": "dnpiliou.gov.gr",
+    "osm_relation_id": 2242285
+  },
+  {
+    "id": "GR-288",
+    "name": "Sparta Municipality",
+    "country": "GR",
+    "region": "Laconia Regional Unit",
+    "domain": "sparti.gov.gr",
+    "osm_relation_id": 2179053
+  },
+  {
+    "id": "GR-289",
+    "name": "Spata-Artemida Municipality",
+    "country": "GR",
+    "region": "East Attica Regional Unit",
+    "domain": "spata-artemis.gr",
+    "osm_relation_id": 2080006
+  },
+  {
+    "id": "GR-290",
+    "name": "Spetses Municipality",
+    "country": "GR",
+    "region": "Islands Regional Unit",
+    "domain": "spetses.gov.gr",
+    "osm_relation_id": 4487802
+  },
+  {
+    "id": "GR-291",
+    "name": "Symi Municipality",
+    "country": "GR",
+    "region": "Rhodes Regional Unit",
+    "domain": "symi.gr",
+    "osm_relation_id": 5316476
+  },
+  {
+    "id": "GR-292",
+    "name": "Syros-Ermoupoli Municipality",
+    "country": "GR",
+    "region": "Syros Regional Unit",
+    "domain": "syros-ermoupolis.gr",
+    "osm_relation_id": 5321636
+  },
+  {
+    "id": "GR-293",
+    "name": "Tanagra Municipality",
+    "country": "GR",
+    "region": "Boeotia Regional Unit",
+    "domain": "tanagra.gr",
+    "osm_relation_id": 1936531
+  },
+  {
+    "id": "GR-294",
+    "name": "Tempi Municipality",
+    "country": "GR",
+    "region": "Larissa Regional Unit",
+    "domain": "dimostempon.gr",
+    "osm_relation_id": 2246179
+  },
+  {
+    "id": "GR-295",
+    "name": "Thasos Municipality",
+    "country": "GR",
+    "region": "Thasos Regional Unit",
+    "domain": "thassos.gr",
+    "osm_relation_id": 2346655
+  },
+  {
+    "id": "GR-296",
+    "name": "Thermaikos Municipality",
+    "country": "GR",
+    "region": "Thessaloniki Regional Unit",
+    "domain": "thermaikos.gr",
+    "osm_relation_id": 2348449
+  },
+  {
+    "id": "GR-297",
+    "name": "Thermi Municipality",
+    "country": "GR",
+    "region": "Thessaloniki Regional Unit",
+    "domain": "thermi.gov.gr",
+    "osm_relation_id": 2348448
+  },
+  {
+    "id": "GR-298",
+    "name": "Thermo Municipality",
+    "country": "GR",
+    "region": "Aetolia-Acarnania Regional Unit",
+    "domain": "dimos-thermou.gr",
+    "osm_relation_id": 1462915
+  },
+  {
+    "id": "GR-299",
+    "name": "Thessaloniki Municipality",
+    "country": "GR",
+    "region": "Central Macedonia Region",
+    "domain": "thessaloniki.gr",
+    "osm_relation_id": 1770680
+  },
+  {
+    "id": "GR-300",
+    "name": "Thira Municipality",
+    "country": "GR",
+    "region": "Thira Regional Unit",
+    "domain": "thira.gov.gr",
+    "osm_relation_id": 5318852
+  },
+  {
+    "id": "GR-301",
+    "name": "Thiva Municipality",
+    "country": "GR",
+    "region": "Boeotia Regional Unit",
+    "domain": "thiva.gr",
+    "osm_relation_id": 1936528
+  },
+  {
+    "id": "GR-302",
+    "name": "Tilos Municipality",
+    "country": "GR",
+    "region": "Rhodes Regional Unit",
+    "domain": "tilos.gr",
+    "osm_relation_id": 5321643
+  },
+  {
+    "id": "GR-303",
+    "name": "Tinos Municipality",
+    "country": "GR",
+    "region": "Tinos Regional Unit",
+    "domain": "dimostinou.eu",
+    "osm_relation_id": 5222784
+  },
+  {
+    "id": "GR-304",
+    "name": "Topeiros Municipality",
+    "country": "GR",
+    "region": "Xanthi Regional Unit",
+    "domain": "topeiros.gr",
+    "osm_relation_id": 2345380
+  },
+  {
+    "id": "GR-305",
+    "name": "Trifylia Municipality",
+    "country": "GR",
+    "region": "Messenia Regional Unit",
+    "domain": "dimostrifylias.gr",
+    "osm_relation_id": 2171633
+  },
+  {
+    "id": "GR-306",
+    "name": "Trikkaion Municipality",
+    "country": "GR",
+    "region": "Trikala Regional Unit",
+    "domain": "trikalacity.gr",
+    "osm_relation_id": 2238562
+  },
+  {
+    "id": "GR-307",
+    "name": "Tripoli Municipality",
+    "country": "GR",
+    "region": "Arcadia Regional Unit",
+    "domain": "tripolis.gr",
+    "osm_relation_id": 2174029
+  },
+  {
+    "id": "GR-308",
+    "name": "Troizinia-Methana Municipality",
+    "country": "GR",
+    "region": "Islands Regional Unit",
+    "domain": "dimostroizinias-methanon.gr",
+    "osm_relation_id": 5277394
+  },
+  {
+    "id": "GR-309",
+    "name": "Tyrnavos Municipality",
+    "country": "GR",
+    "region": "Larissa Regional Unit",
+    "domain": "tirnavos.gr",
+    "osm_relation_id": 2246180
+  },
+  {
+    "id": "GR-310",
+    "name": "Vari-Voula-Vouliagmeni Municipality",
+    "country": "GR",
+    "region": "East Attica Regional Unit",
+    "domain": "vvv.gov.gr",
+    "osm_relation_id": 2080695
+  },
+  {
+    "id": "GR-311",
+    "name": "Velo-Vocha Municipality",
+    "country": "GR",
+    "region": "Corinthia Regional Unit",
+    "domain": "velovocha.gr",
+    "osm_relation_id": 2186724
+  },
+  {
+    "id": "GR-312",
+    "name": "Velventos Municipality",
+    "country": "GR",
+    "region": "Kozani Regional Unit",
+    "domain": "velventos.gr",
+    "osm_relation_id": 11893740
+  },
+  {
+    "id": "GR-313",
+    "name": "Veria Municipality",
+    "country": "GR",
+    "region": "Imathia Regional Unit",
+    "domain": "veria.gr",
+    "osm_relation_id": 2249523
+  },
+  {
+    "id": "GR-314",
+    "name": "Viannos Municipality",
+    "country": "GR",
+    "region": "Heraklion Regional Unit",
+    "domain": "viannos.gov.gr",
+    "osm_relation_id": 2187391
+  },
+  {
+    "id": "GR-315",
+    "name": "Visaltia Municipality",
+    "country": "GR",
+    "region": "Serres Regional Unit",
+    "domain": "dimosvisaltias.gr",
+    "osm_relation_id": 2346619
+  },
+  {
+    "id": "GR-316",
+    "name": "Voio Municipality",
+    "country": "GR",
+    "region": "Kozani Regional Unit",
+    "domain": "voio.gr",
+    "osm_relation_id": 2249484
+  },
+  {
+    "id": "GR-317",
+    "name": "Volos Municipality",
+    "country": "GR",
+    "region": "Magnesia Regional Unit",
+    "domain": "dimosvolos.gr",
+    "osm_relation_id": 2242283
+  },
+  {
+    "id": "GR-318",
+    "name": "Volvi Municipality",
+    "country": "GR",
+    "region": "Thessaloniki Regional Unit",
+    "domain": "dimosvolvis.gr",
+    "osm_relation_id": 2348446
+  },
+  {
+    "id": "GR-319",
+    "name": "Vrilissia Municipality",
+    "country": "GR",
+    "region": "North Athens Regional Unit",
+    "domain": "vrilissia.gr",
+    "osm_relation_id": 1404550
+  },
+  {
+    "id": "GR-320",
+    "name": "Vyron Municipality",
+    "country": "GR",
+    "region": "Central Athens Regional Unit",
+    "domain": "dimosbyrona.gr",
+    "osm_relation_id": 1400416
+  },
+  {
+    "id": "GR-321",
+    "name": "West Achaea Municipality",
+    "country": "GR",
+    "region": "Achaea Regional Unit",
+    "domain": "ddachaias.gr",
+    "osm_relation_id": 2182848
+  },
+  {
+    "id": "GR-322",
+    "name": "West Lesvos Municipality",
+    "country": "GR",
+    "region": "Lesbos Regional Unit",
+    "domain": "mwlesvos.gr",
+    "osm_relation_id": 11893673
+  },
+  {
+    "id": "GR-323",
+    "name": "West Mani Municipality",
+    "country": "GR",
+    "region": "Messenia Regional Unit",
+    "domain": "dimosdytikismanis.gr",
+    "osm_relation_id": 2171628
+  },
+  {
+    "id": "GR-324",
+    "name": "West Samos Municipality",
+    "country": "GR",
+    "region": "Samos Regional Unit",
+    "domain": "dsamos.gr",
+    "osm_relation_id": 11814883
+  },
+  {
+    "id": "GR-325",
+    "name": "Xanthi Municipality",
+    "country": "GR",
+    "region": "Xanthi Regional Unit",
+    "domain": "cityofxanthi.gr",
+    "osm_relation_id": 2345383
+  },
+  {
+    "id": "GR-326",
+    "name": "Xiromero Municipality",
+    "country": "GR",
+    "region": "Aetolia-Acarnania Regional Unit",
+    "domain": "dimosxiromerou.gr",
+    "osm_relation_id": 1462142
+  },
+  {
+    "id": "GR-327",
+    "name": "Xylokastro-Evrostina Municipality",
+    "country": "GR",
+    "region": "Corinthia Regional Unit",
+    "domain": "xylokastro-evrostini.gov.gr",
+    "osm_relation_id": 2186728
+  },
+  {
+    "id": "GR-328",
+    "name": "Zagora-Mouresi Municipality",
+    "country": "GR",
+    "region": "Magnesia Regional Unit",
+    "domain": "dimos-zagoras-mouresiou.gr",
+    "osm_relation_id": 2242284
+  },
+  {
+    "id": "GR-329",
+    "name": "Zagori Municipality",
+    "country": "GR",
+    "region": "Ioannina Regional Unit",
+    "domain": "zagori.gov.gr",
+    "osm_relation_id": 2235944
+  },
+  {
+    "id": "GR-330",
+    "name": "Zaharo Municipality",
+    "country": "GR",
+    "region": "Elis Regional Unit",
+    "domain": "zacharo.gr",
+    "osm_relation_id": 2178177
+  },
+  {
+    "id": "GR-331",
+    "name": "Zakynthos Municipality",
+    "country": "GR",
+    "region": "Zakynthos Regional Unit",
+    "domain": "zakynthos.gov.gr",
+    "osm_relation_id": 2211850
+  },
+  {
+    "id": "GR-332",
+    "name": "Ziros Municipality",
+    "country": "GR",
+    "region": "Preveza Regional Unit",
+    "domain": "dimoszirou.gr",
+    "osm_relation_id": 2225506
+  },
+  {
+    "id": "GR-333",
+    "name": "Zitsa Municipality",
+    "country": "GR",
+    "region": "Ioannina Regional Unit",
+    "domain": "zitsa.gov.gr",
+    "osm_relation_id": 2235943
+  },
+  {
+    "id": "GR-334",
+    "name": "Zografou Municipality",
+    "country": "GR",
+    "region": "Central Athens Regional Unit",
+    "domain": "zografou.gov.gr",
+    "osm_relation_id": 1392944
+  }
+]

@@ -1,0 +1,4704 @@
+[
+  {
+    "id": "HR-001",
+    "name": "Andrijaševci",
+    "country": "HR",
+    "region": "Vukovar-Srijem County",
+    "domain": "andrijasevci.hr",
+    "osm_relation_id": 8828242
+  },
+  {
+    "id": "HR-002",
+    "name": "Antunovac",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "opcina-antunovac.hr",
+    "osm_relation_id": 8796113
+  },
+  {
+    "id": "HR-003",
+    "name": "Babina Greda",
+    "country": "HR",
+    "region": "Vukovar-Srijem County",
+    "domain": "babinagreda.hr",
+    "osm_relation_id": 8829131
+  },
+  {
+    "id": "HR-004",
+    "name": "Bakar",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "bakar.hr"
+  },
+  {
+    "id": "HR-005",
+    "name": "Bale",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "opcina.bale-valle.hr",
+    "osm_relation_id": 2277598
+  },
+  {
+    "id": "HR-006",
+    "name": "Barban",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "barban.hr",
+    "osm_relation_id": 2277599
+  },
+  {
+    "id": "HR-007",
+    "name": "Barilović",
+    "country": "HR",
+    "region": "Karlovac County",
+    "domain": "opcina-barilovic.hr",
+    "osm_relation_id": 8779271
+  },
+  {
+    "id": "HR-008",
+    "name": "Baška",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "baska.hr",
+    "osm_relation_id": 12733253
+  },
+  {
+    "id": "HR-009",
+    "name": "Baška Voda",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "opcinabaskavoda.hr",
+    "osm_relation_id": 8778046
+  },
+  {
+    "id": "HR-010",
+    "name": "Bebrina",
+    "country": "HR",
+    "region": "Brod-Posavina County",
+    "domain": "bebrina.hr",
+    "osm_relation_id": 12889816
+  },
+  {
+    "id": "HR-011",
+    "name": "Bedekovčina",
+    "country": "HR",
+    "region": "Krapina-Zagorje County",
+    "domain": "bedekovcina.hr",
+    "osm_relation_id": 8382644
+  },
+  {
+    "id": "HR-012",
+    "name": "Bedenica",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "bedenica.hr",
+    "osm_relation_id": 12095025
+  },
+  {
+    "id": "HR-013",
+    "name": "Bednja",
+    "country": "HR",
+    "region": "Varaždin County",
+    "domain": "bednja.hr",
+    "osm_relation_id": 8824705
+  },
+  {
+    "id": "HR-014",
+    "name": "Beli Manastir",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "beli-manastir.hr",
+    "osm_relation_id": 9037884
+  },
+  {
+    "id": "HR-015",
+    "name": "Belica, Međimurje County",
+    "country": "HR",
+    "region": "Međimurje County",
+    "domain": "belica.hr",
+    "osm_relation_id": 8804937
+  },
+  {
+    "id": "HR-016",
+    "name": "Belišće",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "belisce.hr",
+    "osm_relation_id": 8747013
+  },
+  {
+    "id": "HR-017",
+    "name": "Benkovac",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "benkovac.hr",
+    "osm_relation_id": 8800009
+  },
+  {
+    "id": "HR-018",
+    "name": "Berek",
+    "country": "HR",
+    "region": "Bjelovar-Bilogora County",
+    "domain": "berek.hr",
+    "osm_relation_id": 8766765
+  },
+  {
+    "id": "HR-019",
+    "name": "Beretinec",
+    "country": "HR",
+    "region": "Varaždin County",
+    "domain": "beretinec.hr",
+    "osm_relation_id": 8427890
+  },
+  {
+    "id": "HR-020",
+    "name": "Bibinje",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "bibinje.hr",
+    "osm_relation_id": 6969309
+  },
+  {
+    "id": "HR-021",
+    "name": "Bilice, Šibenik-Knin County",
+    "country": "HR",
+    "region": "Šibenik-Knin County",
+    "domain": "opcina-bilice.hr",
+    "osm_relation_id": 8820953
+  },
+  {
+    "id": "HR-022",
+    "name": "Bilje",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "bilje.hr",
+    "osm_relation_id": 8811408
+  },
+  {
+    "id": "HR-023",
+    "name": "Biograd na Moru",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "biogradnamoru.hr",
+    "osm_relation_id": 7480948
+  },
+  {
+    "id": "HR-024",
+    "name": "Biskupija Municipality",
+    "country": "HR",
+    "region": "Šibenik-Knin County",
+    "domain": "biskupija.hr",
+    "osm_relation_id": 8820949
+  },
+  {
+    "id": "HR-025",
+    "name": "Bistra",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "bistra.hr",
+    "osm_relation_id": 8309513
+  },
+  {
+    "id": "HR-026",
+    "name": "Bizovac",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "opcina-bizovac.hr",
+    "osm_relation_id": 8756995
+  },
+  {
+    "id": "HR-027",
+    "name": "Bjelovar",
+    "country": "HR",
+    "region": "Bjelovar-Bilogora County",
+    "domain": "bjelovar.hr",
+    "osm_relation_id": 8447842
+  },
+  {
+    "id": "HR-028",
+    "name": "Blato, Korčula",
+    "country": "HR",
+    "region": "Dubrovnik-Neretva County",
+    "domain": "blato.hr",
+    "osm_relation_id": 8796476
+  },
+  {
+    "id": "HR-029",
+    "name": "Bogdanovci",
+    "country": "HR",
+    "region": "Vukovar-Srijem County",
+    "domain": "opcina-bogdanovci.hr",
+    "osm_relation_id": 8800244
+  },
+  {
+    "id": "HR-030",
+    "name": "Bol",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "bol.hr",
+    "osm_relation_id": 8777993
+  },
+  {
+    "id": "HR-031",
+    "name": "Borovo",
+    "country": "HR",
+    "region": "Vukovar-Srijem County",
+    "domain": "opcina-borovo.hr",
+    "osm_relation_id": 8800249
+  },
+  {
+    "id": "HR-032",
+    "name": "Bosiljevo",
+    "country": "HR",
+    "region": "Karlovac County",
+    "domain": "bosiljevo.hr",
+    "osm_relation_id": 11522968
+  },
+  {
+    "id": "HR-033",
+    "name": "Bošnjaci",
+    "country": "HR",
+    "region": "Vukovar-Srijem County",
+    "domain": "bošnjaci.hr",
+    "osm_relation_id": 8827946
+  },
+  {
+    "id": "HR-034",
+    "name": "Brckovljani",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "brckovljani.hr",
+    "osm_relation_id": 8428064
+  },
+  {
+    "id": "HR-035",
+    "name": "Brdovec",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "brdovec.hr",
+    "osm_relation_id": 8269691
+  },
+  {
+    "id": "HR-036",
+    "name": "Brela",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "opcina-brela.hr",
+    "osm_relation_id": 8778047
+  },
+  {
+    "id": "HR-037",
+    "name": "Brestovac",
+    "country": "HR",
+    "region": "Požega-Slavonia County",
+    "domain": "brestovac.hr",
+    "osm_relation_id": 8801753
+  },
+  {
+    "id": "HR-038",
+    "name": "Breznica",
+    "country": "HR",
+    "region": "Varaždin County",
+    "domain": "breznica.hr",
+    "osm_relation_id": 8428003
+  },
+  {
+    "id": "HR-039",
+    "name": "Breznički Hum",
+    "country": "HR",
+    "region": "Varaždin County",
+    "domain": "breznicki-hum.hr",
+    "osm_relation_id": 8428005
+  },
+  {
+    "id": "HR-040",
+    "name": "Brinje",
+    "country": "HR",
+    "region": "Lika-Senj County",
+    "domain": "brinje.hr",
+    "osm_relation_id": 8779153
+  },
+  {
+    "id": "HR-041",
+    "name": "Brod Moravice",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "brodmoravice.hr",
+    "osm_relation_id": 8820568
+  },
+  {
+    "id": "HR-042",
+    "name": "Brodski Stupnik",
+    "country": "HR",
+    "region": "Brod-Posavina County",
+    "domain": "brodski-stupnik.hr",
+    "osm_relation_id": 8792689
+  },
+  {
+    "id": "HR-043",
+    "name": "Brtonigla",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "brtonigla-verteneglio.hr",
+    "osm_relation_id": 6466287
+  },
+  {
+    "id": "HR-044",
+    "name": "Budinščina",
+    "country": "HR",
+    "region": "Krapina-Zagorje County",
+    "domain": "budinscina.hr",
+    "osm_relation_id": 8426635
+  },
+  {
+    "id": "HR-045",
+    "name": "Buje",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "buje.hr",
+    "osm_relation_id": 6466285
+  },
+  {
+    "id": "HR-046",
+    "name": "Bukovlje",
+    "country": "HR",
+    "region": "Brod-Posavina County",
+    "domain": "bukovlje.hr",
+    "osm_relation_id": 8792692
+  },
+  {
+    "id": "HR-047",
+    "name": "Buzet",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "buzet.hr",
+    "osm_relation_id": 2269939
+  },
+  {
+    "id": "HR-048",
+    "name": "Cerna",
+    "country": "HR",
+    "region": "Vukovar-Srijem County",
+    "domain": "cerna.hr",
+    "osm_relation_id": 8829252
+  },
+  {
+    "id": "HR-049",
+    "name": "Cernik",
+    "country": "HR",
+    "region": "Brod-Posavina County",
+    "domain": "cernik.hr",
+    "osm_relation_id": 8781207
+  },
+  {
+    "id": "HR-050",
+    "name": "Cerovlje",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "cerovlje.hr",
+    "osm_relation_id": 2264366
+  },
+  {
+    "id": "HR-051",
+    "name": "Cestica",
+    "country": "HR",
+    "region": "Varaždin County",
+    "domain": "cestica.hr",
+    "osm_relation_id": 8824701
+  },
+  {
+    "id": "HR-052",
+    "name": "Cetingrad",
+    "country": "HR",
+    "region": "Karlovac County",
+    "domain": "cetingrad.hr",
+    "osm_relation_id": 8766857
+  },
+  {
+    "id": "HR-053",
+    "name": "Cista Provo",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "opcina-cista-provo.hr",
+    "osm_relation_id": 8775203
+  },
+  {
+    "id": "HR-054",
+    "name": "City of Drniš",
+    "country": "HR",
+    "region": "Šibenik-Knin County",
+    "domain": "",
+    "osm_relation_id": 8774950
+  },
+  {
+    "id": "HR-055",
+    "name": "City of Omiš",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": ""
+  },
+  {
+    "id": "HR-056",
+    "name": "City of Skradin",
+    "country": "HR",
+    "region": "Šibenik-Knin County",
+    "domain": "",
+    "osm_relation_id": 8820768
+  },
+  {
+    "id": "HR-057",
+    "name": "City of Sveta Nedelja",
+    "country": "HR",
+    "region": "",
+    "domain": "",
+    "osm_relation_id": 8281993
+  },
+  {
+    "id": "HR-058",
+    "name": "Civljane",
+    "country": "HR",
+    "region": "Šibenik-Knin County",
+    "domain": "civljane.hr",
+    "osm_relation_id": 8774951
+  },
+  {
+    "id": "HR-059",
+    "name": "Cres",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "cres.hr",
+    "osm_relation_id": 12889960
+  },
+  {
+    "id": "HR-060",
+    "name": "Crikvenica",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "crikvenica.hr",
+    "osm_relation_id": 8774578
+  },
+  {
+    "id": "HR-061",
+    "name": "Crnac, Virovitica-Podravina County",
+    "country": "HR",
+    "region": "Virovitica-Podravina County",
+    "domain": "opcina-crnac.hr",
+    "osm_relation_id": 9024757
+  },
+  {
+    "id": "HR-062",
+    "name": "Darda",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "darda.hr",
+    "osm_relation_id": 8756699
+  },
+  {
+    "id": "HR-063",
+    "name": "Daruvar",
+    "country": "HR",
+    "region": "Bjelovar-Bilogora County",
+    "domain": "daruvar.hr",
+    "osm_relation_id": 8766632
+  },
+  {
+    "id": "HR-064",
+    "name": "Davor",
+    "country": "HR",
+    "region": "Brod-Posavina County",
+    "domain": "davor.hr",
+    "osm_relation_id": 8792698
+  },
+  {
+    "id": "HR-065",
+    "name": "Dekanovec",
+    "country": "HR",
+    "region": "Međimurje County",
+    "domain": "dekanovec.hr",
+    "osm_relation_id": 8804936
+  },
+  {
+    "id": "HR-066",
+    "name": "Delnice",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "delnice.hr",
+    "osm_relation_id": 8774583
+  },
+  {
+    "id": "HR-067",
+    "name": "Desinić",
+    "country": "HR",
+    "region": "Krapina-Zagorje County",
+    "domain": "desinic.hr",
+    "osm_relation_id": 8399265
+  },
+  {
+    "id": "HR-068",
+    "name": "Dežanovac",
+    "country": "HR",
+    "region": "Bjelovar-Bilogora County",
+    "domain": "dezanovac.hr",
+    "osm_relation_id": 8766633
+  },
+  {
+    "id": "HR-069",
+    "name": "Dicmo",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "dicmo.hr",
+    "osm_relation_id": 8775086
+  },
+  {
+    "id": "HR-070",
+    "name": "Dobrinj",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "dobrinj.hr",
+    "osm_relation_id": 12728965
+  },
+  {
+    "id": "HR-071",
+    "name": "Domašinec",
+    "country": "HR",
+    "region": "Međimurje County",
+    "domain": "domasinec.hr",
+    "osm_relation_id": 8804938
+  },
+  {
+    "id": "HR-072",
+    "name": "Donja Dubrava, Međimurje County",
+    "country": "HR",
+    "region": "Međimurje County",
+    "domain": "donjadubrava.hr",
+    "osm_relation_id": 8804943
+  },
+  {
+    "id": "HR-073",
+    "name": "Donja Motičina",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "donja-moticina.hr",
+    "osm_relation_id": 8896282
+  },
+  {
+    "id": "HR-074",
+    "name": "Donja Stubica",
+    "country": "HR",
+    "region": "Krapina-Zagorje County",
+    "domain": "donjastubica.hr"
+  },
+  {
+    "id": "HR-075",
+    "name": "Donja Voća",
+    "country": "HR",
+    "region": "Varaždin County",
+    "domain": "voca.hr",
+    "osm_relation_id": 8825379
+  },
+  {
+    "id": "HR-076",
+    "name": "Donji Andrijevci",
+    "country": "HR",
+    "region": "Brod-Posavina County",
+    "domain": "donjiandrijevci.hr",
+    "osm_relation_id": 8797198
+  },
+  {
+    "id": "HR-077",
+    "name": "Donji Kraljevec",
+    "country": "HR",
+    "region": "Međimurje County",
+    "domain": "donjikraljevec.hr",
+    "osm_relation_id": 8804939
+  },
+  {
+    "id": "HR-078",
+    "name": "Donji Kukuruzari",
+    "country": "HR",
+    "region": "Sisak-Moslavina County",
+    "domain": "donji-kukuruzari.hr",
+    "osm_relation_id": 8778887
+  },
+  {
+    "id": "HR-079",
+    "name": "Donji Lapac",
+    "country": "HR",
+    "region": "Lika-Senj County",
+    "domain": "donjilapac.hr",
+    "osm_relation_id": 8779538
+  },
+  {
+    "id": "HR-080",
+    "name": "Donji Miholjac",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "donjimiholjac.hr",
+    "osm_relation_id": 8769794
+  },
+  {
+    "id": "HR-081",
+    "name": "Donji Vidovec",
+    "country": "HR",
+    "region": "Međimurje County",
+    "domain": "donjividovec.hr",
+    "osm_relation_id": 8804944
+  },
+  {
+    "id": "HR-082",
+    "name": "Dragalić",
+    "country": "HR",
+    "region": "Brod-Posavina County",
+    "domain": "dragalic.hr",
+    "osm_relation_id": 8781203
+  },
+  {
+    "id": "HR-083",
+    "name": "Draganić",
+    "country": "HR",
+    "region": "Karlovac County",
+    "domain": "draganic.hr",
+    "osm_relation_id": 7609758
+  },
+  {
+    "id": "HR-084",
+    "name": "Draž",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "draz.hr",
+    "osm_relation_id": 9100303
+  },
+  {
+    "id": "HR-085",
+    "name": "Drenje",
+    "country": "HR",
+    "region": "Trnava",
+    "domain": "drenje.hr",
+    "osm_relation_id": 8794609
+  },
+  {
+    "id": "HR-086",
+    "name": "Drenovci",
+    "country": "HR",
+    "region": "Vukovar-Srijem County",
+    "domain": "opcina-drenovci.hr",
+    "osm_relation_id": 8827891
+  },
+  {
+    "id": "HR-087",
+    "name": "Drniš",
+    "country": "HR",
+    "region": "City of Drniš",
+    "domain": "drnis.hr",
+    "osm_relation_id": 19167582
+  },
+  {
+    "id": "HR-088",
+    "name": "Drnje",
+    "country": "HR",
+    "region": "Koprivnica-Križevci County",
+    "domain": "drnje.hr",
+    "osm_relation_id": 8806305
+  },
+  {
+    "id": "HR-089",
+    "name": "Dubrava",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "opcina-dubrava.hr",
+    "osm_relation_id": 8463465
+  },
+  {
+    "id": "HR-090",
+    "name": "Dubravica",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "dubravica.hr",
+    "osm_relation_id": 8309471
+  },
+  {
+    "id": "HR-091",
+    "name": "Dubrovačko Primorje",
+    "country": "HR",
+    "region": "Dubrovnik-Neretva County",
+    "domain": "opcinadubrovackoprimorje.hr",
+    "osm_relation_id": 8796467
+  },
+  {
+    "id": "HR-092",
+    "name": "Dubrovnik",
+    "country": "HR",
+    "region": "Dubrovnik-Neretva County",
+    "domain": "dubrovnik.hr",
+    "osm_relation_id": 8796464
+  },
+  {
+    "id": "HR-093",
+    "name": "Duga Resa",
+    "country": "HR",
+    "region": "Karlovac County",
+    "domain": "dugaresa.hr",
+    "osm_relation_id": 8779272
+  },
+  {
+    "id": "HR-094",
+    "name": "Dugi Rat",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "dugirat.hr",
+    "osm_relation_id": 8774958
+  },
+  {
+    "id": "HR-095",
+    "name": "Dugo Selo",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "dugoselo.hr",
+    "osm_relation_id": 1143145
+  },
+  {
+    "id": "HR-096",
+    "name": "Dugopolje",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "dugopolje.hr",
+    "osm_relation_id": 2815035
+  },
+  {
+    "id": "HR-097",
+    "name": "Dvor",
+    "country": "HR",
+    "region": "Sisak-Moslavina County",
+    "domain": "dvor.hr",
+    "osm_relation_id": 8778262
+  },
+  {
+    "id": "HR-098",
+    "name": "Erdut",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "opcina-erdut.hr",
+    "osm_relation_id": 8384254
+  },
+  {
+    "id": "HR-099",
+    "name": "Ernestinovo",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "ernestinovo.hr",
+    "osm_relation_id": 8807640
+  },
+  {
+    "id": "HR-100",
+    "name": "Ervenik",
+    "country": "HR",
+    "region": "Šibenik-Knin County",
+    "domain": "ervenik.hr",
+    "osm_relation_id": 8820952
+  },
+  {
+    "id": "HR-101",
+    "name": "Farkaševac",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "opcina-farkasevac.hr",
+    "osm_relation_id": 12091441
+  },
+  {
+    "id": "HR-102",
+    "name": "Fažana",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "fazana.hr",
+    "osm_relation_id": 2277600
+  },
+  {
+    "id": "HR-103",
+    "name": "Ferdinandovac",
+    "country": "HR",
+    "region": "Koprivnica-Križevci County",
+    "domain": "ferdinandovac.hr",
+    "osm_relation_id": 8815115
+  },
+  {
+    "id": "HR-104",
+    "name": "Feričanci",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "opcina-fericanci.hr",
+    "osm_relation_id": 8896281
+  },
+  {
+    "id": "HR-105",
+    "name": "Funtana",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "funtana.hr",
+    "osm_relation_id": 5419457
+  },
+  {
+    "id": "HR-106",
+    "name": "Fužine",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "fuzine.hr",
+    "osm_relation_id": 8774585
+  },
+  {
+    "id": "HR-107",
+    "name": "Galovac",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "galovac.hr",
+    "osm_relation_id": 6970772
+  },
+  {
+    "id": "HR-108",
+    "name": "Garešnica",
+    "country": "HR",
+    "region": "Bjelovar-Bilogora County",
+    "domain": "garesnica.eu",
+    "osm_relation_id": 8766635
+  },
+  {
+    "id": "HR-109",
+    "name": "Garčin",
+    "country": "HR",
+    "region": "Brod-Posavina County",
+    "domain": "opcina-garcin.hr",
+    "osm_relation_id": 8797200
+  },
+  {
+    "id": "HR-110",
+    "name": "Generalski Stol",
+    "country": "HR",
+    "region": "Karlovac County",
+    "domain": "generalski-stol.hr",
+    "osm_relation_id": 8779273
+  },
+  {
+    "id": "HR-111",
+    "name": "Glina",
+    "country": "HR",
+    "region": "Sisak-Moslavina County",
+    "domain": "grad-glina.hr",
+    "osm_relation_id": 7896726
+  },
+  {
+    "id": "HR-112",
+    "name": "Gola, Koprivnica-Križevci County",
+    "country": "HR",
+    "region": "Koprivnica-Križevci County",
+    "domain": "gola.hr",
+    "osm_relation_id": 8448025
+  },
+  {
+    "id": "HR-113",
+    "name": "Goričan",
+    "country": "HR",
+    "region": "Međimurje County",
+    "domain": "gorican.hr",
+    "osm_relation_id": 8756976
+  },
+  {
+    "id": "HR-114",
+    "name": "Gorjani",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "gorjani.hr",
+    "osm_relation_id": 8793106
+  },
+  {
+    "id": "HR-115",
+    "name": "Gornja Rijeka",
+    "country": "HR",
+    "region": "Koprivnica-Križevci County",
+    "domain": "gornja-rijeka.hr",
+    "osm_relation_id": 8448032
+  },
+  {
+    "id": "HR-116",
+    "name": "Gornja Stubica",
+    "country": "HR",
+    "region": "Krapina-Zagorje County",
+    "domain": "gornjastubica.hr",
+    "osm_relation_id": 8382666
+  },
+  {
+    "id": "HR-117",
+    "name": "Gornja Vrba",
+    "country": "HR",
+    "region": "Brod-Posavina County",
+    "domain": "gornjavrba.hr",
+    "osm_relation_id": 8792693
+  },
+  {
+    "id": "HR-118",
+    "name": "Gornji Bogićevci",
+    "country": "HR",
+    "region": "Brod-Posavina County",
+    "domain": "opcinagornjibogicevci.hr",
+    "osm_relation_id": 8781202
+  },
+  {
+    "id": "HR-119",
+    "name": "Gornji Kneginec",
+    "country": "HR",
+    "region": "Varaždin County",
+    "domain": "kneginec.hr",
+    "osm_relation_id": 8428249
+  },
+  {
+    "id": "HR-120",
+    "name": "Gornji Mihaljevec",
+    "country": "HR",
+    "region": "Međimurje County",
+    "domain": "gornjimihaljevec.hr",
+    "osm_relation_id": 8593771
+  },
+  {
+    "id": "HR-121",
+    "name": "Gospić",
+    "country": "HR",
+    "region": "Lika-Senj County",
+    "domain": "gospic.hr",
+    "osm_relation_id": 2260026
+  },
+  {
+    "id": "HR-122",
+    "name": "Grad Beli Manastir",
+    "country": "HR",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "HR-123",
+    "name": "Grad Biograd na Moru",
+    "country": "HR",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "HR-124",
+    "name": "Grad Bjelovar",
+    "country": "HR",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "HR-125",
+    "name": "Grad Buje",
+    "country": "HR",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "HR-126",
+    "name": "Grad Buzet",
+    "country": "HR",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "HR-127",
+    "name": "Grad Crikvenica",
+    "country": "HR",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "HR-128",
+    "name": "Grad Daruvar",
+    "country": "HR",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "HR-129",
+    "name": "Grad Delnice",
+    "country": "HR",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "HR-130",
+    "name": "Grad Donja Stubica",
+    "country": "HR",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "HR-131",
+    "name": "Grad Donji Miholjac",
+    "country": "HR",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "HR-132",
+    "name": "Grad Duga Resa",
+    "country": "HR",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "HR-133",
+    "name": "Grad Dugo Selo",
+    "country": "HR",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "HR-134",
+    "name": "Grad Glina",
+    "country": "HR",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "HR-135",
+    "name": "Grad Hrvatska Kostajnica",
+    "country": "HR",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "HR-136",
+    "name": "Grad Hvar",
+    "country": "HR",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "HR-137",
+    "name": "Grad Imotski",
+    "country": "HR",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "HR-138",
+    "name": "Grad Jastrebarsko",
+    "country": "HR",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "HR-139",
+    "name": "Grad Karlovac",
+    "country": "HR",
+    "region": "Karlovac County",
+    "domain": "",
+    "osm_relation_id": 7311200
+  },
+  {
+    "id": "HR-140",
+    "name": "Grad Klanjec",
+    "country": "HR",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "HR-141",
+    "name": "Grad Koprivnica",
+    "country": "HR",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "HR-142",
+    "name": "Grad Krk",
+    "country": "HR",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "HR-143",
+    "name": "Grad Labin",
+    "country": "HR",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "HR-144",
+    "name": "Grad Pazin",
+    "country": "HR",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "HR-145",
+    "name": "Grad Pula",
+    "country": "HR",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "HR-146",
+    "name": "Grad Rovinj",
+    "country": "HR",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "HR-147",
+    "name": "Grad Sinj",
+    "country": "HR",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "HR-148",
+    "name": "Grad Supetar",
+    "country": "HR",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "HR-149",
+    "name": "Grad Sveti Ivan Zelina",
+    "country": "HR",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "HR-150",
+    "name": "Gradac",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "opcinagradac.hr",
+    "osm_relation_id": 8778036
+  },
+  {
+    "id": "HR-151",
+    "name": "Gradec",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "gradec.hr",
+    "osm_relation_id": 8463464
+  },
+  {
+    "id": "HR-152",
+    "name": "Gradina, Virovitica-Podravina County",
+    "country": "HR",
+    "region": "Virovitica-Podravina County",
+    "domain": "gradina.hr",
+    "osm_relation_id": 8918387
+  },
+  {
+    "id": "HR-153",
+    "name": "Gradište",
+    "country": "HR",
+    "region": "Vukovar-Srijem County",
+    "domain": "gradiste.hr",
+    "osm_relation_id": 8829251
+  },
+  {
+    "id": "HR-154",
+    "name": "Gračac",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "gracac.hr",
+    "osm_relation_id": 8843446
+  },
+  {
+    "id": "HR-155",
+    "name": "Gračišće",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "gracisce.hr",
+    "osm_relation_id": 2269940
+  },
+  {
+    "id": "HR-156",
+    "name": "Grožnjan",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "groznjan-grisignana.hr",
+    "osm_relation_id": 6466288
+  },
+  {
+    "id": "HR-157",
+    "name": "Grubišno Polje",
+    "country": "HR",
+    "region": "Bjelovar-Bilogora County",
+    "domain": "grubisnopolje.hr",
+    "osm_relation_id": 8766762
+  },
+  {
+    "id": "HR-158",
+    "name": "Gundinci",
+    "country": "HR",
+    "region": "Brod-Posavina County",
+    "domain": "gundinci.hr",
+    "osm_relation_id": 8797195
+  },
+  {
+    "id": "HR-159",
+    "name": "Gunja",
+    "country": "HR",
+    "region": "Vukovar-Srijem County",
+    "domain": "gunja.hr",
+    "osm_relation_id": 8843412
+  },
+  {
+    "id": "HR-160",
+    "name": "Gvozd",
+    "country": "HR",
+    "region": "Sisak-Moslavina County",
+    "domain": "gvozd.hr",
+    "osm_relation_id": 7902050
+  },
+  {
+    "id": "HR-161",
+    "name": "Hercegovac",
+    "country": "HR",
+    "region": "Bjelovar-Bilogora County",
+    "domain": "opcinahercegovac.hr",
+    "osm_relation_id": 8766763
+  },
+  {
+    "id": "HR-162",
+    "name": "Hlebine",
+    "country": "HR",
+    "region": "Koprivnica-Križevci County",
+    "domain": "hlebine.hr",
+    "osm_relation_id": 8447840
+  },
+  {
+    "id": "HR-163",
+    "name": "Hrašćina",
+    "country": "HR",
+    "region": "Krapina-Zagorje County",
+    "domain": "opcina-hrascina.hr",
+    "osm_relation_id": 8426670
+  },
+  {
+    "id": "HR-164",
+    "name": "Hrvace",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "opcina-hrvace.hr",
+    "osm_relation_id": 8774955
+  },
+  {
+    "id": "HR-165",
+    "name": "Hrvatska Dubica",
+    "country": "HR",
+    "region": "Sisak-Moslavina County",
+    "domain": "hrvatska-dubica.hr",
+    "osm_relation_id": 12773459
+  },
+  {
+    "id": "HR-166",
+    "name": "Hrvatska Kostajnica",
+    "country": "HR",
+    "region": "Sisak-Moslavina County",
+    "domain": "hrvatska-kostajnica.hr",
+    "osm_relation_id": 8778888
+  },
+  {
+    "id": "HR-167",
+    "name": "Hum na Sutli",
+    "country": "HR",
+    "region": "Krapina-Zagorje County",
+    "domain": "humnasutli.hr",
+    "osm_relation_id": 8399292
+  },
+  {
+    "id": "HR-168",
+    "name": "Hvar",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "hvar.hr",
+    "osm_relation_id": 11102711
+  },
+  {
+    "id": "HR-169",
+    "name": "Ilok",
+    "country": "HR",
+    "region": "Vukovar-Srijem County",
+    "domain": "ilok.hr"
+  },
+  {
+    "id": "HR-170",
+    "name": "Imotski",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "imotski.hr",
+    "osm_relation_id": 9905319
+  },
+  {
+    "id": "HR-171",
+    "name": "Ivanec",
+    "country": "HR",
+    "region": "Varaždin County",
+    "domain": "ivanec.hr",
+    "osm_relation_id": 7930975
+  },
+  {
+    "id": "HR-172",
+    "name": "Ivanić-Grad",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "ivanic-grad.hr",
+    "osm_relation_id": 8325171
+  },
+  {
+    "id": "HR-173",
+    "name": "Ivankovo",
+    "country": "HR",
+    "region": "Vukovar-Srijem County",
+    "domain": "opcina-ivankovo.hr",
+    "osm_relation_id": 8828261
+  },
+  {
+    "id": "HR-174",
+    "name": "Ivanska",
+    "country": "HR",
+    "region": "Bjelovar-Bilogora County",
+    "domain": "ivanska.hr",
+    "osm_relation_id": 14063057
+  },
+  {
+    "id": "HR-175",
+    "name": "Jagodnjak",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "jagodnjak.hr",
+    "osm_relation_id": 8747010
+  },
+  {
+    "id": "HR-176",
+    "name": "Jakovlje",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "jakovlje.hr",
+    "osm_relation_id": 8309487
+  },
+  {
+    "id": "HR-177",
+    "name": "Jakšić",
+    "country": "HR",
+    "region": "Požega-Slavonia County",
+    "domain": "jaksic.hr",
+    "osm_relation_id": 8801756
+  },
+  {
+    "id": "HR-178",
+    "name": "Jalžabet",
+    "country": "HR",
+    "region": "Varaždin County",
+    "domain": "jalzabet.hr",
+    "osm_relation_id": 8432943
+  },
+  {
+    "id": "HR-179",
+    "name": "Janjina",
+    "country": "HR",
+    "region": "Dubrovnik-Neretva County",
+    "domain": "janjina.hr",
+    "osm_relation_id": 8796470
+  },
+  {
+    "id": "HR-180",
+    "name": "Jarmina",
+    "country": "HR",
+    "region": "Vukovar-Srijem County",
+    "domain": "jarmina.hr",
+    "osm_relation_id": 8827950
+  },
+  {
+    "id": "HR-181",
+    "name": "Jasenice",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "jasenice.hr",
+    "osm_relation_id": 8843447
+  },
+  {
+    "id": "HR-182",
+    "name": "Jasenovac, Sisak-Moslavina County",
+    "country": "HR",
+    "region": "Sisak-Moslavina County",
+    "domain": "opcina-jasenovac.hr",
+    "osm_relation_id": 8778892
+  },
+  {
+    "id": "HR-183",
+    "name": "Jastrebarsko",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "jastrebarsko.hr",
+    "osm_relation_id": 8309186
+  },
+  {
+    "id": "HR-184",
+    "name": "Jelenje",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "jelenje.hr",
+    "osm_relation_id": 8774590
+  },
+  {
+    "id": "HR-185",
+    "name": "Jelsa",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "jelsa.hr",
+    "osm_relation_id": 11112262
+  },
+  {
+    "id": "HR-186",
+    "name": "Jesenje",
+    "country": "HR",
+    "region": "Krapina-Zagorje County",
+    "domain": "jesenje.hr",
+    "osm_relation_id": 8426585
+  },
+  {
+    "id": "HR-187",
+    "name": "Josipdol",
+    "country": "HR",
+    "region": "Karlovac County",
+    "domain": "josipdol.hr",
+    "osm_relation_id": 8820570
+  },
+  {
+    "id": "HR-188",
+    "name": "Kali",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "opcina-kali.hr",
+    "osm_relation_id": 7437726
+  },
+  {
+    "id": "HR-189",
+    "name": "Kalinovac",
+    "country": "HR",
+    "region": "Koprivnica-Križevci County",
+    "domain": "kalinovac.hr",
+    "osm_relation_id": 8898821
+  },
+  {
+    "id": "HR-190",
+    "name": "Kalnik",
+    "country": "HR",
+    "region": "Koprivnica-Križevci County",
+    "domain": "kalnik.hr",
+    "osm_relation_id": 8447844
+  },
+  {
+    "id": "HR-191",
+    "name": "Kamanje",
+    "country": "HR",
+    "region": "Karlovac County",
+    "domain": "kamanje.hr",
+    "osm_relation_id": 8779365
+  },
+  {
+    "id": "HR-192",
+    "name": "Kanfanar",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "kanfanar.hr",
+    "osm_relation_id": 6449282
+  },
+  {
+    "id": "HR-193",
+    "name": "Kapela",
+    "country": "HR",
+    "region": "Bjelovar-Bilogora County",
+    "domain": "opcina-kapela.hr",
+    "osm_relation_id": 8448015
+  },
+  {
+    "id": "HR-194",
+    "name": "Kaptol, Požega-Slavonia County",
+    "country": "HR",
+    "region": "Požega-Slavonia County",
+    "domain": "opcina-kaptol.com",
+    "osm_relation_id": 8801755
+  },
+  {
+    "id": "HR-195",
+    "name": "Karlobag",
+    "country": "HR",
+    "region": "Lika-Senj County",
+    "domain": "karlobag.hr",
+    "osm_relation_id": 8778206
+  },
+  {
+    "id": "HR-196",
+    "name": "Karlovac",
+    "country": "HR",
+    "region": "Karlovac County",
+    "domain": "karlovac.hr",
+    "osm_relation_id": 11227312
+  },
+  {
+    "id": "HR-197",
+    "name": "Karojba",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "karojba.hr",
+    "osm_relation_id": 6466223
+  },
+  {
+    "id": "HR-198",
+    "name": "Kastav",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "kastav.hr",
+    "osm_relation_id": 4830914
+  },
+  {
+    "id": "HR-199",
+    "name": "Kaštela",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "kastela.hr",
+    "osm_relation_id": 2828427
+  },
+  {
+    "id": "HR-200",
+    "name": "Kaštelir-Labinci",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "kastelir-labinci.hr",
+    "osm_relation_id": 6466272
+  },
+  {
+    "id": "HR-201",
+    "name": "Kijevo",
+    "country": "HR",
+    "region": "Šibenik-Knin County",
+    "domain": "kijevo.hr",
+    "osm_relation_id": 8820948
+  },
+  {
+    "id": "HR-202",
+    "name": "Kistanje",
+    "country": "HR",
+    "region": "Šibenik-Knin County",
+    "domain": "kistanje.hr",
+    "osm_relation_id": 8820791
+  },
+  {
+    "id": "HR-203",
+    "name": "Klakar",
+    "country": "HR",
+    "region": "Brod-Posavina County",
+    "domain": "opcinaklakar.hr",
+    "osm_relation_id": 8792694
+  },
+  {
+    "id": "HR-204",
+    "name": "Klana",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "klana.hr",
+    "osm_relation_id": 8774587
+  },
+  {
+    "id": "HR-205",
+    "name": "Klanjec",
+    "country": "HR",
+    "region": "Krapina-Zagorje County",
+    "domain": "klanjec.hr",
+    "osm_relation_id": 8391752
+  },
+  {
+    "id": "HR-206",
+    "name": "Klenovnik",
+    "country": "HR",
+    "region": "Varaždin County",
+    "domain": "klenovnik.hr",
+    "osm_relation_id": 8824704
+  },
+  {
+    "id": "HR-207",
+    "name": "Klinča Sela",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "klinca-sela.hr",
+    "osm_relation_id": 8341166
+  },
+  {
+    "id": "HR-208",
+    "name": "Klis",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "klis.hr",
+    "osm_relation_id": 2814582
+  },
+  {
+    "id": "HR-209",
+    "name": "Kloštar Ivanić",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "klostar-ivanic.hr",
+    "osm_relation_id": 8462071
+  },
+  {
+    "id": "HR-210",
+    "name": "Kloštar Podravski",
+    "country": "HR",
+    "region": "Koprivnica-Križevci County",
+    "domain": "klostarpodravski.hr",
+    "osm_relation_id": 8898819
+  },
+  {
+    "id": "HR-211",
+    "name": "Kneževi Vinogradi",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "knezevi-vinogradi.hr",
+    "osm_relation_id": 9037885
+  },
+  {
+    "id": "HR-212",
+    "name": "Knin",
+    "country": "HR",
+    "region": "Šibenik-Knin County",
+    "domain": "knin.hr",
+    "osm_relation_id": 8820950
+  },
+  {
+    "id": "HR-213",
+    "name": "Kolan",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "kolan.hr",
+    "osm_relation_id": 7466116
+  },
+  {
+    "id": "HR-214",
+    "name": "Komiža",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "komiza.hr",
+    "osm_relation_id": 8796488
+  },
+  {
+    "id": "HR-215",
+    "name": "Konavle",
+    "country": "HR",
+    "region": "Dubrovnik-Neretva County",
+    "domain": "opcinakonavle.hr",
+    "osm_relation_id": 8796466
+  },
+  {
+    "id": "HR-216",
+    "name": "Konjščina",
+    "country": "HR",
+    "region": "Krapina-Zagorje County",
+    "domain": "konjscina.hr",
+    "osm_relation_id": 8383580
+  },
+  {
+    "id": "HR-217",
+    "name": "Končanica",
+    "country": "HR",
+    "region": "Bjelovar-Bilogora County",
+    "domain": "koncanica.hr",
+    "osm_relation_id": 8766634
+  },
+  {
+    "id": "HR-218",
+    "name": "Koprivnica",
+    "country": "HR",
+    "region": "Koprivnica-Križevci County",
+    "domain": "koprivnica.hr",
+    "osm_relation_id": 8448027
+  },
+  {
+    "id": "HR-219",
+    "name": "Koprivnički Bregi",
+    "country": "HR",
+    "region": "Koprivnica-Križevci County",
+    "domain": "koprivnicki-bregi.hr",
+    "osm_relation_id": 8447841
+  },
+  {
+    "id": "HR-220",
+    "name": "Koprivnički Ivanec",
+    "country": "HR",
+    "region": "Koprivnica-Križevci County",
+    "domain": "koprivnicki-ivanec.hr",
+    "osm_relation_id": 8448028
+  },
+  {
+    "id": "HR-221",
+    "name": "Korčula",
+    "country": "HR",
+    "region": "Dubrovnik-Neretva County",
+    "domain": "korcula.hr",
+    "osm_relation_id": 8796473
+  },
+  {
+    "id": "HR-222",
+    "name": "Kostrena",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "kostrena.hr",
+    "osm_relation_id": 9072034
+  },
+  {
+    "id": "HR-223",
+    "name": "Kotoriba",
+    "country": "HR",
+    "region": "Međimurje County",
+    "domain": "kotoriba.hr",
+    "osm_relation_id": 8804942
+  },
+  {
+    "id": "HR-224",
+    "name": "Koška",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "koska.hr",
+    "osm_relation_id": 8759143
+  },
+  {
+    "id": "HR-225",
+    "name": "Kraljevec na Sutli",
+    "country": "HR",
+    "region": "Krapina-Zagorje County",
+    "domain": "kraljevecnasutli.hr",
+    "osm_relation_id": 8391753
+  },
+  {
+    "id": "HR-226",
+    "name": "Kraljevica",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "kraljevica.hr",
+    "osm_relation_id": 8774577
+  },
+  {
+    "id": "HR-227",
+    "name": "Krapina",
+    "country": "HR",
+    "region": "Krapina-Zagorje County",
+    "domain": "krapina.hr",
+    "osm_relation_id": 8382636
+  },
+  {
+    "id": "HR-228",
+    "name": "Krapinske Toplice",
+    "country": "HR",
+    "region": "Krapina-Zagorje County",
+    "domain": "krapinske-toplice.hr",
+    "osm_relation_id": 8382634
+  },
+  {
+    "id": "HR-229",
+    "name": "Kravarsko",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "kravarsko.hr",
+    "osm_relation_id": 5518652
+  },
+  {
+    "id": "HR-230",
+    "name": "Krašić",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "krasic.hr",
+    "osm_relation_id": 8309200
+  },
+  {
+    "id": "HR-231",
+    "name": "Križ",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "opcina-kriz.hr",
+    "osm_relation_id": 8325172
+  },
+  {
+    "id": "HR-232",
+    "name": "Križevci",
+    "country": "HR",
+    "region": "Koprivnica-Križevci County",
+    "domain": "krizevci.hr",
+    "osm_relation_id": 8448030
+  },
+  {
+    "id": "HR-233",
+    "name": "Krk",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "grad-krk.hr",
+    "osm_relation_id": 12733252
+  },
+  {
+    "id": "HR-234",
+    "name": "Krnjak",
+    "country": "HR",
+    "region": "Karlovac County",
+    "domain": "krnjak.hr",
+    "osm_relation_id": 8744908
+  },
+  {
+    "id": "HR-235",
+    "name": "Kršan",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "krsan.hr",
+    "osm_relation_id": 2136014
+  },
+  {
+    "id": "HR-236",
+    "name": "Kukljica",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "opcina-kukljica.hr",
+    "osm_relation_id": 7437725
+  },
+  {
+    "id": "HR-237",
+    "name": "Kula Norinska",
+    "country": "HR",
+    "region": "Dubrovnik-Neretva County",
+    "domain": "kulanorinska.hr",
+    "osm_relation_id": 8796593
+  },
+  {
+    "id": "HR-238",
+    "name": "Kumrovec",
+    "country": "HR",
+    "region": "Krapina-Zagorje County",
+    "domain": "kumrovec.hr",
+    "osm_relation_id": 8395241
+  },
+  {
+    "id": "HR-239",
+    "name": "Kutina",
+    "country": "HR",
+    "region": "Sisak-Moslavina County",
+    "domain": "kutina.hr",
+    "osm_relation_id": 8778890
+  },
+  {
+    "id": "HR-240",
+    "name": "Kutjevo",
+    "country": "HR",
+    "region": "Požega-Slavonia County",
+    "domain": "kutjevo.hr",
+    "osm_relation_id": 8801752
+  },
+  {
+    "id": "HR-241",
+    "name": "Labin",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "labin.hr",
+    "osm_relation_id": 2136013
+  },
+  {
+    "id": "HR-242",
+    "name": "Lanišće",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "opcinalanisce.com",
+    "osm_relation_id": 2136015
+  },
+  {
+    "id": "HR-243",
+    "name": "Lasinja",
+    "country": "HR",
+    "region": "Karlovac County",
+    "domain": "lasinja.hr",
+    "osm_relation_id": 7314479
+  },
+  {
+    "id": "HR-244",
+    "name": "Lastovo",
+    "country": "HR",
+    "region": "Dubrovnik-Neretva County",
+    "domain": "lastovo.hr",
+    "osm_relation_id": 10521402
+  },
+  {
+    "id": "HR-245",
+    "name": "Legrad",
+    "country": "HR",
+    "region": "Koprivnica-Križevci County",
+    "domain": "opcinalegrad.hr",
+    "osm_relation_id": 8756807
+  },
+  {
+    "id": "HR-246",
+    "name": "Lekenik",
+    "country": "HR",
+    "region": "Sisak-Moslavina County",
+    "domain": "lekenik.hr",
+    "osm_relation_id": 5518675
+  },
+  {
+    "id": "HR-247",
+    "name": "Lepoglava",
+    "country": "HR",
+    "region": "Varaždin County",
+    "domain": "lepoglava.hr",
+    "osm_relation_id": 8824706
+  },
+  {
+    "id": "HR-248",
+    "name": "Levanjska Varoš",
+    "country": "HR",
+    "region": "Trnava",
+    "domain": "opcina-levanjska-varos.hr",
+    "osm_relation_id": 8796121
+  },
+  {
+    "id": "HR-249",
+    "name": "Lećevica",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "lecevica.hr",
+    "osm_relation_id": 2815038
+  },
+  {
+    "id": "HR-250",
+    "name": "Lipik",
+    "country": "HR",
+    "region": "Požega-Slavonia County",
+    "domain": "lipik.hr",
+    "osm_relation_id": 9100419
+  },
+  {
+    "id": "HR-251",
+    "name": "Lipovljani",
+    "country": "HR",
+    "region": "Sisak-Moslavina County",
+    "domain": "lipovljani.hr",
+    "osm_relation_id": 8778894
+  },
+  {
+    "id": "HR-252",
+    "name": "Lišane Ostrovičke",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "lisane-ostrovicke.hr",
+    "osm_relation_id": 12700572
+  },
+  {
+    "id": "HR-253",
+    "name": "Ližnjan",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "liznjan.hr",
+    "osm_relation_id": 2277601
+  },
+  {
+    "id": "HR-254",
+    "name": "Ljubešćica",
+    "country": "HR",
+    "region": "Varaždin County",
+    "domain": "ljubescica.hr",
+    "osm_relation_id": 14062999
+  },
+  {
+    "id": "HR-255",
+    "name": "Lobor",
+    "country": "HR",
+    "region": "Krapina-Zagorje County",
+    "domain": "lobor.hr",
+    "osm_relation_id": 8426636
+  },
+  {
+    "id": "HR-256",
+    "name": "Lokve",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "lokve.hr",
+    "osm_relation_id": 8774582
+  },
+  {
+    "id": "HR-257",
+    "name": "Lokvičići",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "lokvicici.hr",
+    "osm_relation_id": 8778042
+  },
+  {
+    "id": "HR-258",
+    "name": "Lopar",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "opcina-lopar.hr",
+    "osm_relation_id": 7465817
+  },
+  {
+    "id": "HR-259",
+    "name": "Lovas",
+    "country": "HR",
+    "region": "Vukovar-Srijem County",
+    "domain": "lovas.hr",
+    "osm_relation_id": 8800247
+  },
+  {
+    "id": "HR-260",
+    "name": "Lovinac",
+    "country": "HR",
+    "region": "Lika-Senj County",
+    "domain": "lovinac.hr",
+    "osm_relation_id": 8778202
+  },
+  {
+    "id": "HR-261",
+    "name": "Lovran",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "lovran.hr",
+    "osm_relation_id": 2162165
+  },
+  {
+    "id": "HR-262",
+    "name": "Lovreć",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "lovrec.hr",
+    "osm_relation_id": 8778049
+  },
+  {
+    "id": "HR-263",
+    "name": "Ludbreg",
+    "country": "HR",
+    "region": "Varaždin County",
+    "domain": "ludbreg.hr",
+    "osm_relation_id": 8434152
+  },
+  {
+    "id": "HR-264",
+    "name": "Luka",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "opcina-luka.hr",
+    "osm_relation_id": 8323376
+  },
+  {
+    "id": "HR-265",
+    "name": "Lukač",
+    "country": "HR",
+    "region": "Virovitica-Podravina County",
+    "domain": "opcina-lukac.hr",
+    "osm_relation_id": 8918388
+  },
+  {
+    "id": "HR-266",
+    "name": "Lumbarda",
+    "country": "HR",
+    "region": "Dubrovnik-Neretva County",
+    "domain": "lumbarda.hr",
+    "osm_relation_id": 8796474
+  },
+  {
+    "id": "HR-267",
+    "name": "Lupoglav",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "lupoglav.hr",
+    "osm_relation_id": 2052589
+  },
+  {
+    "id": "HR-268",
+    "name": "Magadenovac",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "magadenovac.hr",
+    "osm_relation_id": 8820185
+  },
+  {
+    "id": "HR-269",
+    "name": "Majur, Sisak-Moslavina County",
+    "country": "HR",
+    "region": "Sisak-Moslavina County",
+    "domain": "opcina-majur.hr",
+    "osm_relation_id": 8778889
+  },
+  {
+    "id": "HR-270",
+    "name": "Makarska",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "makarska.hr",
+    "osm_relation_id": 15666353
+  },
+  {
+    "id": "HR-271",
+    "name": "Mala Subotica",
+    "country": "HR",
+    "region": "Međimurje County",
+    "domain": "opcina-mala-subotica.hr",
+    "osm_relation_id": 8756977
+  },
+  {
+    "id": "HR-272",
+    "name": "Mali Bukovec",
+    "country": "HR",
+    "region": "Varaždin County",
+    "domain": "mali-bukovec.hr",
+    "osm_relation_id": 8434151
+  },
+  {
+    "id": "HR-273",
+    "name": "Mali Lošinj",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "mali-losinj.hr",
+    "osm_relation_id": 15967677
+  },
+  {
+    "id": "HR-274",
+    "name": "Malinska – Dubašnica",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "malinska.hr",
+    "osm_relation_id": 10025163
+  },
+  {
+    "id": "HR-275",
+    "name": "Marija Bistrica",
+    "country": "HR",
+    "region": "Krapina-Zagorje County",
+    "domain": "marija-bistrica.hr",
+    "osm_relation_id": 8383574
+  },
+  {
+    "id": "HR-276",
+    "name": "Marija Gorica",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "marija-gorica.hr",
+    "osm_relation_id": 8308956
+  },
+  {
+    "id": "HR-277",
+    "name": "Marijanci",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "marijanci.hr",
+    "osm_relation_id": 8769795
+  },
+  {
+    "id": "HR-278",
+    "name": "Marina",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "marina.hr",
+    "osm_relation_id": 12093375
+  },
+  {
+    "id": "HR-279",
+    "name": "Markušica",
+    "country": "HR",
+    "region": "Vukovar-Srijem County",
+    "domain": "markusica.hr",
+    "osm_relation_id": 8800240
+  },
+  {
+    "id": "HR-280",
+    "name": "Martijanec",
+    "country": "HR",
+    "region": "Varaždin County",
+    "domain": "opcina-martijanec.hr",
+    "osm_relation_id": 8432955
+  },
+  {
+    "id": "HR-281",
+    "name": "Martinska Ves",
+    "country": "HR",
+    "region": "Sisak-Moslavina County",
+    "domain": "martinskaves.hr",
+    "osm_relation_id": 5518519
+  },
+  {
+    "id": "HR-282",
+    "name": "Maruševec",
+    "country": "HR",
+    "region": "Varaždin County",
+    "domain": "marusevec.hr",
+    "osm_relation_id": 8427839
+  },
+  {
+    "id": "HR-283",
+    "name": "Marčana",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "marcana.hr",
+    "osm_relation_id": 2277602
+  },
+  {
+    "id": "HR-284",
+    "name": "Matulji",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "matulji.hr",
+    "osm_relation_id": 8476954
+  },
+  {
+    "id": "HR-285",
+    "name": "Mače",
+    "country": "HR",
+    "region": "Krapina-Zagorje County",
+    "domain": "opcina-mace.hr",
+    "osm_relation_id": 8383541
+  },
+  {
+    "id": "HR-286",
+    "name": "Medulin",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "medulin.hr",
+    "osm_relation_id": 2277603
+  },
+  {
+    "id": "HR-287",
+    "name": "Metković",
+    "country": "HR",
+    "region": "Dubrovnik-Neretva County",
+    "domain": "grad-metkovic.hr",
+    "osm_relation_id": 8796592
+  },
+  {
+    "id": "HR-288",
+    "name": "Mihovljan, Krapina-Zagorje County",
+    "country": "HR",
+    "region": "Krapina-Zagorje County",
+    "domain": "mihovljan.hr",
+    "osm_relation_id": 8426638
+  },
+  {
+    "id": "HR-289",
+    "name": "Mikleuš",
+    "country": "HR",
+    "region": "Virovitica-Podravina County",
+    "domain": "mikleus.hr",
+    "osm_relation_id": 9024760
+  },
+  {
+    "id": "HR-290",
+    "name": "Milna",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "opcinamilna.hr",
+    "osm_relation_id": 8777997
+  },
+  {
+    "id": "HR-291",
+    "name": "Mljet",
+    "country": "HR",
+    "region": "Dubrovnik-Neretva County",
+    "domain": "opcinamljet.com.hr",
+    "osm_relation_id": 10206061
+  },
+  {
+    "id": "HR-292",
+    "name": "Molve",
+    "country": "HR",
+    "region": "Koprivnica-Križevci County",
+    "domain": "molve.hr",
+    "osm_relation_id": 8448024
+  },
+  {
+    "id": "HR-293",
+    "name": "Motovun",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "motovun.hr",
+    "osm_relation_id": 6466229
+  },
+  {
+    "id": "HR-294",
+    "name": "Mošćenička Draga",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "moscenicka-draga.hr",
+    "osm_relation_id": 2162166
+  },
+  {
+    "id": "HR-295",
+    "name": "Mrkopalj",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "mrkopalj.hr",
+    "osm_relation_id": 8774581
+  },
+  {
+    "id": "HR-296",
+    "name": "Mursko Središće",
+    "country": "HR",
+    "region": "Međimurje County",
+    "domain": "mursko-sredisce.hr",
+    "osm_relation_id": 8806169
+  },
+  {
+    "id": "HR-297",
+    "name": "Murter-Kornati",
+    "country": "HR",
+    "region": "Šibenik-Knin County",
+    "domain": "murter.hr",
+    "osm_relation_id": 12700045
+  },
+  {
+    "id": "HR-298",
+    "name": "Muć",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "muc.hr",
+    "osm_relation_id": 8774954
+  },
+  {
+    "id": "HR-299",
+    "name": "Našice",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "nasice.hr",
+    "osm_relation_id": 8793070
+  },
+  {
+    "id": "HR-300",
+    "name": "Nedelišće",
+    "country": "HR",
+    "region": "Međimurje County",
+    "domain": "nedelisce.hr",
+    "osm_relation_id": 8593780
+  },
+  {
+    "id": "HR-301",
+    "name": "Negoslavci",
+    "country": "HR",
+    "region": "Vukovar-Srijem County",
+    "domain": "opcina-negoslavci.hr",
+    "osm_relation_id": 8800242
+  },
+  {
+    "id": "HR-302",
+    "name": "Nerežišća",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "nerezisca.hr",
+    "osm_relation_id": 8777996
+  },
+  {
+    "id": "HR-303",
+    "name": "Netretić",
+    "country": "HR",
+    "region": "Karlovac County",
+    "domain": "netretic.hr",
+    "osm_relation_id": 8779269
+  },
+  {
+    "id": "HR-304",
+    "name": "Nijemci",
+    "country": "HR",
+    "region": "Vukovar-Srijem County",
+    "domain": "nijemci.hr",
+    "osm_relation_id": 8827893
+  },
+  {
+    "id": "HR-305",
+    "name": "Nin",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "grad-nin.hr",
+    "osm_relation_id": 8832799
+  },
+  {
+    "id": "HR-306",
+    "name": "Nin Town",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "",
+    "osm_relation_id": 5539644
+  },
+  {
+    "id": "HR-307",
+    "name": "Nova Bukovica",
+    "country": "HR",
+    "region": "Virovitica-Podravina County",
+    "domain": "novabukovica.hr",
+    "osm_relation_id": 8926114
+  },
+  {
+    "id": "HR-308",
+    "name": "Nova Gradiška",
+    "country": "HR",
+    "region": "Brod-Posavina County",
+    "domain": "novagradiska.hr"
+  },
+  {
+    "id": "HR-309",
+    "name": "Nova Kapela, Brod-Posavina County",
+    "country": "HR",
+    "region": "Brod-Posavina County",
+    "domain": "novakapela.hr",
+    "osm_relation_id": 8792696
+  },
+  {
+    "id": "HR-310",
+    "name": "Nova Rača",
+    "country": "HR",
+    "region": "Bjelovar-Bilogora County",
+    "domain": "nova-raca.hr",
+    "osm_relation_id": 8448020
+  },
+  {
+    "id": "HR-311",
+    "name": "Novalja",
+    "country": "HR",
+    "region": "Lika-Senj County",
+    "domain": "novalja.hr",
+    "osm_relation_id": 12712466
+  },
+  {
+    "id": "HR-312",
+    "name": "Novi Golubovec",
+    "country": "HR",
+    "region": "Krapina-Zagorje County",
+    "domain": "novi-golubovec.hr",
+    "osm_relation_id": 8426637
+  },
+  {
+    "id": "HR-313",
+    "name": "Novi Marof",
+    "country": "HR",
+    "region": "Varaždin County",
+    "domain": "novi-marof.hr"
+  },
+  {
+    "id": "HR-314",
+    "name": "Novi Vinodolski",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "novi-vinodolski.hr",
+    "osm_relation_id": 8774580
+  },
+  {
+    "id": "HR-315",
+    "name": "Novigrad",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "opcina-novigrad.hr",
+    "osm_relation_id": 6974617
+  },
+  {
+    "id": "HR-316",
+    "name": "Novigrad",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "novigrad.hr",
+    "osm_relation_id": 6466286
+  },
+  {
+    "id": "HR-317",
+    "name": "Novigrad Podravski",
+    "country": "HR",
+    "region": "Koprivnica-Križevci County",
+    "domain": "novigrad-podravski.hr",
+    "osm_relation_id": 8448023
+  },
+  {
+    "id": "HR-318",
+    "name": "Novo Virje",
+    "country": "HR",
+    "region": "Koprivnica-Križevci County",
+    "domain": "novo-virje.hr",
+    "osm_relation_id": 8815116
+  },
+  {
+    "id": "HR-319",
+    "name": "Novska",
+    "country": "HR",
+    "region": "Sisak-Moslavina County",
+    "domain": "novska.hr",
+    "osm_relation_id": 8778891
+  },
+  {
+    "id": "HR-320",
+    "name": "Nuštar",
+    "country": "HR",
+    "region": "Vukovar-Srijem County",
+    "domain": "nustar.hr",
+    "osm_relation_id": 8800243
+  },
+  {
+    "id": "HR-321",
+    "name": "Obrovac",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "obrovac.hr",
+    "osm_relation_id": 8799918
+  },
+  {
+    "id": "HR-322",
+    "name": "Ogulin",
+    "country": "HR",
+    "region": "Karlovac County",
+    "domain": "ogulin.hr",
+    "osm_relation_id": 8779274
+  },
+  {
+    "id": "HR-323",
+    "name": "Okrug",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "okrug.hr",
+    "osm_relation_id": 11184497
+  },
+  {
+    "id": "HR-324",
+    "name": "Okučani",
+    "country": "HR",
+    "region": "Brod-Posavina County",
+    "domain": "okucani.hr",
+    "osm_relation_id": 8781206
+  },
+  {
+    "id": "HR-325",
+    "name": "Omišalj",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "omisalj.hr",
+    "osm_relation_id": 10024603
+  },
+  {
+    "id": "HR-326",
+    "name": "Opatija",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "opatija.hr",
+    "osm_relation_id": 2162164
+  },
+  {
+    "id": "HR-327",
+    "name": "Oprisavci",
+    "country": "HR",
+    "region": "Brod-Posavina County",
+    "domain": "opcina-oprisavci.hr",
+    "osm_relation_id": 8797199
+  },
+  {
+    "id": "HR-328",
+    "name": "Oprtalj",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "oprtalj.hr",
+    "osm_relation_id": 6466230
+  },
+  {
+    "id": "HR-329",
+    "name": "Opuzen",
+    "country": "HR",
+    "region": "Dubrovnik-Neretva County",
+    "domain": "opuzen.hr",
+    "osm_relation_id": 8796589
+  },
+  {
+    "id": "HR-330",
+    "name": "Orahovica",
+    "country": "HR",
+    "region": "Virovitica-Podravina County",
+    "domain": "orahovica.hr",
+    "osm_relation_id": 9024759
+  },
+  {
+    "id": "HR-331",
+    "name": "Orebić",
+    "country": "HR",
+    "region": "Dubrovnik-Neretva County",
+    "domain": "orebic.hr",
+    "osm_relation_id": 15897363
+  },
+  {
+    "id": "HR-332",
+    "name": "Orehovica",
+    "country": "HR",
+    "region": "Međimurje County",
+    "domain": "orehovica.hr",
+    "osm_relation_id": 8756978
+  },
+  {
+    "id": "HR-333",
+    "name": "Oriovac",
+    "country": "HR",
+    "region": "Brod-Posavina County",
+    "domain": "oriovac.hr",
+    "osm_relation_id": 8792688
+  },
+  {
+    "id": "HR-334",
+    "name": "Orle",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "opcina-orle.hr",
+    "osm_relation_id": 5518636
+  },
+  {
+    "id": "HR-335",
+    "name": "Oroslavje",
+    "country": "HR",
+    "region": "Krapina-Zagorje County",
+    "domain": "oroslavje.hr",
+    "osm_relation_id": 10592442
+  },
+  {
+    "id": "HR-336",
+    "name": "Osijek",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "osijek.hr",
+    "osm_relation_id": 8436035
+  },
+  {
+    "id": "HR-337",
+    "name": "Otok",
+    "country": "HR",
+    "region": "Vukovar-Srijem County",
+    "domain": "otok.hr",
+    "osm_relation_id": 8827947
+  },
+  {
+    "id": "HR-338",
+    "name": "Otok, Split-Dalmatia County",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "opcina-otok.hr",
+    "osm_relation_id": 8774956
+  },
+  {
+    "id": "HR-339",
+    "name": "Otočac",
+    "country": "HR",
+    "region": "Lika-Senj County",
+    "domain": "otocac.hr",
+    "osm_relation_id": 8779154
+  },
+  {
+    "id": "HR-340",
+    "name": "Ozalj",
+    "country": "HR",
+    "region": "Karlovac County",
+    "domain": "ozalj.hr",
+    "osm_relation_id": 8780964
+  },
+  {
+    "id": "HR-341",
+    "name": "Pag",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "pag.hr",
+    "osm_relation_id": 7466187
+  },
+  {
+    "id": "HR-342",
+    "name": "Pakoštane",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "opcina-pakostane.hr",
+    "osm_relation_id": 7480946
+  },
+  {
+    "id": "HR-343",
+    "name": "Pakrac",
+    "country": "HR",
+    "region": "Požega-Slavonia County",
+    "domain": "pakrac.hr",
+    "osm_relation_id": 9100418
+  },
+  {
+    "id": "HR-344",
+    "name": "Pazin",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "pazin.hr",
+    "osm_relation_id": 2260027
+  },
+  {
+    "id": "HR-345",
+    "name": "Pašman",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "opcinapasman.hr",
+    "osm_relation_id": 7480951
+  },
+  {
+    "id": "HR-346",
+    "name": "Perušić",
+    "country": "HR",
+    "region": "Lika-Senj County",
+    "domain": "perusic.hr",
+    "osm_relation_id": 8778205
+  },
+  {
+    "id": "HR-347",
+    "name": "Peteranec",
+    "country": "HR",
+    "region": "Koprivnica-Križevci County",
+    "domain": "peteranec.hr",
+    "osm_relation_id": 8448026
+  },
+  {
+    "id": "HR-348",
+    "name": "Petlovac",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "petlovac.hr",
+    "osm_relation_id": 8747012
+  },
+  {
+    "id": "HR-349",
+    "name": "Petrijanec",
+    "country": "HR",
+    "region": "Varaždin County",
+    "domain": "petrijanec.hr",
+    "osm_relation_id": 8427841
+  },
+  {
+    "id": "HR-350",
+    "name": "Petrijevci",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "petrijevci.hr",
+    "osm_relation_id": 8747009
+  },
+  {
+    "id": "HR-351",
+    "name": "Petrinja",
+    "country": "HR",
+    "region": "Sisak-Moslavina County",
+    "domain": "petrinja.hr",
+    "osm_relation_id": 8076890
+  },
+  {
+    "id": "HR-352",
+    "name": "Petrovsko",
+    "country": "HR",
+    "region": "Krapina-Zagorje County",
+    "domain": "petrovsko.hr",
+    "osm_relation_id": 8403137
+  },
+  {
+    "id": "HR-353",
+    "name": "Pirovac",
+    "country": "HR",
+    "region": "Šibenik-Knin County",
+    "domain": "pirovac.hr",
+    "osm_relation_id": 12623070
+  },
+  {
+    "id": "HR-354",
+    "name": "Pisarovina",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "pisarovina.hr",
+    "osm_relation_id": 5521103
+  },
+  {
+    "id": "HR-355",
+    "name": "Pitomača",
+    "country": "HR",
+    "region": "Virovitica-Podravina County",
+    "domain": "pitomaca.hr",
+    "osm_relation_id": 8927861
+  },
+  {
+    "id": "HR-356",
+    "name": "Pićan",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "pican.hr",
+    "osm_relation_id": 2269941
+  },
+  {
+    "id": "HR-357",
+    "name": "Plaški",
+    "country": "HR",
+    "region": "Karlovac County",
+    "domain": "plaski.hr",
+    "osm_relation_id": 8820571
+  },
+  {
+    "id": "HR-358",
+    "name": "Pleternica",
+    "country": "HR",
+    "region": "Požega-Slavonia County",
+    "domain": "pleternica.hr",
+    "osm_relation_id": 8801757
+  },
+  {
+    "id": "HR-359",
+    "name": "Plitvička Jezera Municipality",
+    "country": "HR",
+    "region": "Lika-Senj County",
+    "domain": "plitvicka-jezera.hr",
+    "osm_relation_id": 8820631
+  },
+  {
+    "id": "HR-360",
+    "name": "Ploče",
+    "country": "HR",
+    "region": "Dubrovnik-Neretva County",
+    "domain": "ploce.hr",
+    "osm_relation_id": 8796595
+  },
+  {
+    "id": "HR-361",
+    "name": "Podbablje",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "podbablje.hr",
+    "osm_relation_id": 8778040
+  },
+  {
+    "id": "HR-362",
+    "name": "Podcrkavlje",
+    "country": "HR",
+    "region": "Brod-Posavina County",
+    "domain": "podcrkavlje.hr",
+    "osm_relation_id": 8792691
+  },
+  {
+    "id": "HR-363",
+    "name": "Podgora, Split-Dalmatia County",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "podgora.hr",
+    "osm_relation_id": 8778037
+  },
+  {
+    "id": "HR-364",
+    "name": "Podgorač",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "podgorac.hr",
+    "osm_relation_id": 8759142
+  },
+  {
+    "id": "HR-365",
+    "name": "Podravska Moslavina",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "podravskamoslavina.hr",
+    "osm_relation_id": 9035427
+  },
+  {
+    "id": "HR-366",
+    "name": "Podravske Sesvete",
+    "country": "HR",
+    "region": "Koprivnica-Križevci County",
+    "domain": "podravske-sesvete.hr",
+    "osm_relation_id": 8898820
+  },
+  {
+    "id": "HR-367",
+    "name": "Podstrana",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "podstrana.hr",
+    "osm_relation_id": 7727966
+  },
+  {
+    "id": "HR-368",
+    "name": "Podturen",
+    "country": "HR",
+    "region": "Međimurje County",
+    "domain": "opcina-podturen.hr",
+    "osm_relation_id": 8804935
+  },
+  {
+    "id": "HR-369",
+    "name": "Pojezerje",
+    "country": "HR",
+    "region": "Dubrovnik-Neretva County",
+    "domain": "pojezerje.hr",
+    "osm_relation_id": 8796594
+  },
+  {
+    "id": "HR-370",
+    "name": "Pokupsko",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "pokupsko.hr",
+    "osm_relation_id": 5518653
+  },
+  {
+    "id": "HR-371",
+    "name": "Polača",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "opcina-polaca.hr",
+    "osm_relation_id": 8800008
+  },
+  {
+    "id": "HR-372",
+    "name": "Poličnik",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "opcina-policnik.hr",
+    "osm_relation_id": 5539939
+  },
+  {
+    "id": "HR-373",
+    "name": "Popovac",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "popovac.hr",
+    "osm_relation_id": 9100304
+  },
+  {
+    "id": "HR-374",
+    "name": "Popovača",
+    "country": "HR",
+    "region": "Sisak-Moslavina County",
+    "domain": "popovaca.hr",
+    "osm_relation_id": 8820148
+  },
+  {
+    "id": "HR-375",
+    "name": "Poreč",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "porec.hr"
+  },
+  {
+    "id": "HR-376",
+    "name": "Posedarje",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "opcina-posedarje.hr",
+    "osm_relation_id": 6974557
+  },
+  {
+    "id": "HR-377",
+    "name": "Postira",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "opcina-postira.hr",
+    "osm_relation_id": 8777994
+  },
+  {
+    "id": "HR-378",
+    "name": "Povljana",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "povljana.hr",
+    "osm_relation_id": 7466197
+  },
+  {
+    "id": "HR-379",
+    "name": "Požega",
+    "country": "HR",
+    "region": "Požega-Slavonia County",
+    "domain": "pozega.hr",
+    "osm_relation_id": 8801758
+  },
+  {
+    "id": "HR-380",
+    "name": "Pregrada",
+    "country": "HR",
+    "region": "Krapina-Zagorje County",
+    "domain": "pregrada.hr"
+  },
+  {
+    "id": "HR-381",
+    "name": "Preko",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "opcina-preko.hr",
+    "osm_relation_id": 7437727
+  },
+  {
+    "id": "HR-382",
+    "name": "Prelog",
+    "country": "HR",
+    "region": "Međimurje County",
+    "domain": "prelog.hr",
+    "osm_relation_id": 8804940
+  },
+  {
+    "id": "HR-383",
+    "name": "Preseka",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "opcina-preseka.hr",
+    "osm_relation_id": 8428000
+  },
+  {
+    "id": "HR-384",
+    "name": "Prgomet",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "opcina-prgomet.hr",
+    "osm_relation_id": 2828515
+  },
+  {
+    "id": "HR-385",
+    "name": "Pribislavec",
+    "country": "HR",
+    "region": "Međimurje County",
+    "domain": "pribislavec.hr",
+    "osm_relation_id": 9649642
+  },
+  {
+    "id": "HR-386",
+    "name": "Primorski Dolac",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "primorskidolac.hr",
+    "osm_relation_id": 2828447
+  },
+  {
+    "id": "HR-387",
+    "name": "Primošten",
+    "country": "HR",
+    "region": "Šibenik-Knin County",
+    "domain": "primosten.hr",
+    "osm_relation_id": 8820790
+  },
+  {
+    "id": "HR-388",
+    "name": "Privlaka",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "privlaka.hr",
+    "osm_relation_id": 6969059
+  },
+  {
+    "id": "HR-389",
+    "name": "Privlaka",
+    "country": "HR",
+    "region": "Vukovar-Srijem County",
+    "domain": "opcina-privlaka.hr",
+    "osm_relation_id": 8829868
+  },
+  {
+    "id": "HR-390",
+    "name": "Proložac",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "prolozac.hr",
+    "osm_relation_id": 8778041
+  },
+  {
+    "id": "HR-391",
+    "name": "Promina",
+    "country": "HR",
+    "region": "Šibenik-Knin County",
+    "domain": "promina.hr",
+    "osm_relation_id": 8820951
+  },
+  {
+    "id": "HR-392",
+    "name": "Pula",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "pula.hr",
+    "osm_relation_id": 2259875
+  },
+  {
+    "id": "HR-393",
+    "name": "Punat",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "punat.hr",
+    "osm_relation_id": 12647198
+  },
+  {
+    "id": "HR-394",
+    "name": "Punitovci",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "punitovci.hr",
+    "osm_relation_id": 8793069
+  },
+  {
+    "id": "HR-395",
+    "name": "Pučišća",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "pucisca.hr",
+    "osm_relation_id": 8777992
+  },
+  {
+    "id": "HR-396",
+    "name": "Pučišća",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "pucisca.hr"
+  },
+  {
+    "id": "HR-397",
+    "name": "Pušća",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "pusca.hr",
+    "osm_relation_id": 8308870
+  },
+  {
+    "id": "HR-398",
+    "name": "Rab",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "rab.hr",
+    "osm_relation_id": 7465896
+  },
+  {
+    "id": "HR-399",
+    "name": "Radoboj",
+    "country": "HR",
+    "region": "Krapina-Zagorje County",
+    "domain": "radoboj.hr",
+    "osm_relation_id": 8426584
+  },
+  {
+    "id": "HR-400",
+    "name": "Rakovec",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "rakovec.hr",
+    "osm_relation_id": 8428001
+  },
+  {
+    "id": "HR-401",
+    "name": "Rakovica",
+    "country": "HR",
+    "region": "Karlovac County",
+    "domain": "rakovica.hr",
+    "osm_relation_id": 8820612
+  },
+  {
+    "id": "HR-402",
+    "name": "Rasinja",
+    "country": "HR",
+    "region": "Koprivnica-Križevci County",
+    "domain": "rasinja.hr",
+    "osm_relation_id": 8756808
+  },
+  {
+    "id": "HR-403",
+    "name": "Ravna Gora",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "ravnagora.hr",
+    "osm_relation_id": 8820566
+  },
+  {
+    "id": "HR-404",
+    "name": "Raša",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "rasa.hr",
+    "osm_relation_id": 2136016
+  },
+  {
+    "id": "HR-405",
+    "name": "Ražanac",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "opcina-razanac.hr",
+    "osm_relation_id": 6974446
+  },
+  {
+    "id": "HR-406",
+    "name": "Rešetari",
+    "country": "HR",
+    "region": "Brod-Posavina County",
+    "domain": "resetari.hr",
+    "osm_relation_id": 8792699
+  },
+  {
+    "id": "HR-407",
+    "name": "Ribnik",
+    "country": "HR",
+    "region": "Karlovac County",
+    "domain": "ribnik.hr",
+    "osm_relation_id": 8779367
+  },
+  {
+    "id": "HR-408",
+    "name": "Rijeka",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "rijeka.hr",
+    "osm_relation_id": 2260028
+  },
+  {
+    "id": "HR-409",
+    "name": "Rogoznica",
+    "country": "HR",
+    "region": "Šibenik-Knin County",
+    "domain": "rogoznica.hr",
+    "osm_relation_id": 11223753
+  },
+  {
+    "id": "HR-410",
+    "name": "Rovinj",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "rovinj-rovigno.hr",
+    "osm_relation_id": 2277596
+  },
+  {
+    "id": "HR-411",
+    "name": "Rovišće",
+    "country": "HR",
+    "region": "Bjelovar-Bilogora County",
+    "domain": "opcina-rovisce.hr",
+    "osm_relation_id": 8448016
+  },
+  {
+    "id": "HR-412",
+    "name": "Rugvica",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "rugvica.hr",
+    "osm_relation_id": 5518845
+  },
+  {
+    "id": "HR-413",
+    "name": "Runovići",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "runovici.hr",
+    "osm_relation_id": 8778038
+  },
+  {
+    "id": "HR-414",
+    "name": "Ružić",
+    "country": "HR",
+    "region": "Šibenik-Knin County",
+    "domain": "opcina-ruzic.hr",
+    "osm_relation_id": 8820976
+  },
+  {
+    "id": "HR-415",
+    "name": "Saborsko",
+    "country": "HR",
+    "region": "Karlovac County",
+    "domain": "saborsko.hr",
+    "osm_relation_id": 8820572
+  },
+  {
+    "id": "HR-416",
+    "name": "Sali",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "opcina-sali.hr",
+    "osm_relation_id": 7480952
+  },
+  {
+    "id": "HR-417",
+    "name": "Samobor",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "samobor.hr",
+    "osm_relation_id": 8308716
+  },
+  {
+    "id": "HR-418",
+    "name": "Satnica Đakovačka",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "satnica-djakovacka.hr",
+    "osm_relation_id": 8796118
+  },
+  {
+    "id": "HR-419",
+    "name": "Seget",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "opcinaseget.hr",
+    "osm_relation_id": 12093047
+  },
+  {
+    "id": "HR-420",
+    "name": "Selca",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "selca.hr",
+    "osm_relation_id": 8777991
+  },
+  {
+    "id": "HR-421",
+    "name": "Selnica, Međimurje County",
+    "country": "HR",
+    "region": "Međimurje County",
+    "domain": "selnica.hr",
+    "osm_relation_id": 8806166
+  },
+  {
+    "id": "HR-422",
+    "name": "Semeljci",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "semeljci.hr",
+    "osm_relation_id": 8796116
+  },
+  {
+    "id": "HR-423",
+    "name": "Senj",
+    "country": "HR",
+    "region": "Lika-Senj County",
+    "domain": "senj.hr",
+    "osm_relation_id": 8778207
+  },
+  {
+    "id": "HR-424",
+    "name": "Severin",
+    "country": "HR",
+    "region": "Bjelovar-Bilogora County",
+    "domain": "severin.hr",
+    "osm_relation_id": 8448019
+  },
+  {
+    "id": "HR-425",
+    "name": "Sibinj",
+    "country": "HR",
+    "region": "Brod-Posavina County",
+    "domain": "sibinj.hr",
+    "osm_relation_id": 8792690
+  },
+  {
+    "id": "HR-426",
+    "name": "Sikirevci",
+    "country": "HR",
+    "region": "Brod-Posavina County",
+    "domain": "opcina-sikirevci.hr",
+    "osm_relation_id": 8797196
+  },
+  {
+    "id": "HR-427",
+    "name": "Sinj",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "sinj.hr",
+    "osm_relation_id": 8774953
+  },
+  {
+    "id": "HR-428",
+    "name": "Sirač",
+    "country": "HR",
+    "region": "Bjelovar-Bilogora County",
+    "domain": "sirac.hr",
+    "osm_relation_id": 8766631
+  },
+  {
+    "id": "HR-429",
+    "name": "Sisak",
+    "country": "HR",
+    "region": "Sisak-Moslavina County",
+    "domain": "sisak.hr",
+    "osm_relation_id": 8778895
+  },
+  {
+    "id": "HR-430",
+    "name": "Skrad",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "ww.skrad.hr",
+    "osm_relation_id": 8820567
+  },
+  {
+    "id": "HR-431",
+    "name": "Skradin",
+    "country": "HR",
+    "region": "City of Skradin",
+    "domain": "grad-skradin.hr",
+    "osm_relation_id": 19060150
+  },
+  {
+    "id": "HR-432",
+    "name": "Slatina",
+    "country": "HR",
+    "region": "Virovitica-Podravina County",
+    "domain": "slatina.hr",
+    "osm_relation_id": 8926113
+  },
+  {
+    "id": "HR-433",
+    "name": "Slavonski Brod",
+    "country": "HR",
+    "region": "Brod-Posavina County",
+    "domain": "slavonski-brod.hr"
+  },
+  {
+    "id": "HR-434",
+    "name": "Slavonski Šamac",
+    "country": "HR",
+    "region": "Brod-Posavina County",
+    "domain": "slavonski-samac.hr",
+    "osm_relation_id": 8797194
+  },
+  {
+    "id": "HR-435",
+    "name": "Slivno",
+    "country": "HR",
+    "region": "Dubrovnik-Neretva County",
+    "domain": "opcina-slivno.hr",
+    "osm_relation_id": 8796590
+  },
+  {
+    "id": "HR-436",
+    "name": "Slunj",
+    "country": "HR",
+    "region": "Karlovac County",
+    "domain": "slunj.hr",
+    "osm_relation_id": 8820603
+  },
+  {
+    "id": "HR-437",
+    "name": "Smokvica",
+    "country": "HR",
+    "region": "Dubrovnik-Neretva County",
+    "domain": "smokvica.hr",
+    "osm_relation_id": 8796475
+  },
+  {
+    "id": "HR-438",
+    "name": "Sokolovac",
+    "country": "HR",
+    "region": "Koprivnica-Križevci County",
+    "domain": "sokolovac.hr",
+    "osm_relation_id": 8448029
+  },
+  {
+    "id": "HR-439",
+    "name": "Solin",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "solin.hr",
+    "osm_relation_id": 2826937
+  },
+  {
+    "id": "HR-440",
+    "name": "Sopje",
+    "country": "HR",
+    "region": "Virovitica-Podravina County",
+    "domain": "sopje.hr",
+    "osm_relation_id": 8923164
+  },
+  {
+    "id": "HR-441",
+    "name": "Split",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "split.hr",
+    "osm_relation_id": 2826807
+  },
+  {
+    "id": "HR-442",
+    "name": "Sračinec",
+    "country": "HR",
+    "region": "Varaždin County",
+    "domain": "sracinec.hr",
+    "osm_relation_id": 8427840
+  },
+  {
+    "id": "HR-443",
+    "name": "Stankovci",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "stankovci.hr",
+    "osm_relation_id": 12700516
+  },
+  {
+    "id": "HR-444",
+    "name": "Stara Gradiška",
+    "country": "HR",
+    "region": "Brod-Posavina County",
+    "domain": "staragradiska.com",
+    "osm_relation_id": 8781205
+  },
+  {
+    "id": "HR-445",
+    "name": "Stari Grad",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "stari-grad.hr",
+    "osm_relation_id": 11112261
+  },
+  {
+    "id": "HR-446",
+    "name": "Stari Jankovci",
+    "country": "HR",
+    "region": "Vukovar-Srijem County",
+    "domain": "o-jankovci.hr",
+    "osm_relation_id": 8827948
+  },
+  {
+    "id": "HR-447",
+    "name": "Stari Mikanovci",
+    "country": "HR",
+    "region": "Vukovar-Srijem County",
+    "domain": "mikanovci.hr",
+    "osm_relation_id": 11667441
+  },
+  {
+    "id": "HR-448",
+    "name": "Starigrad",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "opcina-starigrad.hr",
+    "osm_relation_id": 12104426
+  },
+  {
+    "id": "HR-449",
+    "name": "Staro Petrovo Selo",
+    "country": "HR",
+    "region": "Brod-Posavina County",
+    "domain": "staropetrovoselo.hr",
+    "osm_relation_id": 8792697
+  },
+  {
+    "id": "HR-450",
+    "name": "Ston Municipality",
+    "country": "HR",
+    "region": "Dubrovnik-Neretva County",
+    "domain": "opcinaston.hr",
+    "osm_relation_id": 8796468
+  },
+  {
+    "id": "HR-451",
+    "name": "Strahoninec",
+    "country": "HR",
+    "region": "Međimurje County",
+    "domain": "strahoninec.hr",
+    "osm_relation_id": 8593766
+  },
+  {
+    "id": "HR-452",
+    "name": "Strizivojna",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "strizivojna.hr",
+    "osm_relation_id": 9709096
+  },
+  {
+    "id": "HR-453",
+    "name": "Stubičke Toplice",
+    "country": "HR",
+    "region": "Krapina-Zagorje County",
+    "domain": "stubicketoplice.hr",
+    "osm_relation_id": 8382470
+  },
+  {
+    "id": "HR-454",
+    "name": "Stupnik",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "stupnik.hr",
+    "osm_relation_id": 8296545
+  },
+  {
+    "id": "HR-455",
+    "name": "Suhopolje",
+    "country": "HR",
+    "region": "Virovitica-Podravina County",
+    "domain": "suhopolje.hr",
+    "osm_relation_id": 8920389
+  },
+  {
+    "id": "HR-456",
+    "name": "Sukošan",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "opcina-sukosan.hr",
+    "osm_relation_id": 6969558
+  },
+  {
+    "id": "HR-457",
+    "name": "Sunja, Sisak-Moslavina County",
+    "country": "HR",
+    "region": "Sisak-Moslavina County",
+    "domain": "sunja.hr",
+    "osm_relation_id": 8778893
+  },
+  {
+    "id": "HR-458",
+    "name": "Supetar",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "gradsupetar.hr",
+    "osm_relation_id": 8777995
+  },
+  {
+    "id": "HR-459",
+    "name": "Sutivan",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "sutivan.hr",
+    "osm_relation_id": 8777998
+  },
+  {
+    "id": "HR-460",
+    "name": "Sućuraj",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "sucuraj.hr",
+    "osm_relation_id": 11102712
+  },
+  {
+    "id": "HR-461",
+    "name": "Sveta Marija",
+    "country": "HR",
+    "region": "Međimurje County",
+    "domain": "svetamarija.hr",
+    "osm_relation_id": 8804941
+  },
+  {
+    "id": "HR-462",
+    "name": "Sveta Nedelja",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "sv-nedelja.hr",
+    "osm_relation_id": 2136017
+  },
+  {
+    "id": "HR-463",
+    "name": "Sveta Nedelja",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "grad-svetanedelja.hr",
+    "osm_relation_id": 10900564
+  },
+  {
+    "id": "HR-464",
+    "name": "Sveti Filip i Jakov",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "opcina-svfilipjakov.hr",
+    "osm_relation_id": 7480949
+  },
+  {
+    "id": "HR-465",
+    "name": "Sveti Ilija",
+    "country": "HR",
+    "region": "Varaždin County",
+    "domain": "opcina-sveti-ilija.hr",
+    "osm_relation_id": 8427889
+  },
+  {
+    "id": "HR-466",
+    "name": "Sveti Ivan Zelina",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "zelina.hr",
+    "osm_relation_id": 8428002
+  },
+  {
+    "id": "HR-467",
+    "name": "Sveti Ivan Žabno",
+    "country": "HR",
+    "region": "Koprivnica-Križevci County",
+    "domain": "osiz.hr",
+    "osm_relation_id": 8447843
+  },
+  {
+    "id": "HR-468",
+    "name": "Sveti Juraj na Bregu",
+    "country": "HR",
+    "region": "Međimurje County",
+    "domain": "svetijurajnabregu.hr",
+    "osm_relation_id": 8593808
+  },
+  {
+    "id": "HR-469",
+    "name": "Sveti Križ Začretje",
+    "country": "HR",
+    "region": "Krapina-Zagorje County",
+    "domain": "sveti-kriz-zacretje.hr",
+    "osm_relation_id": 8382489
+  },
+  {
+    "id": "HR-470",
+    "name": "Sveti Lovreč",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "sveti-lovrec.hr",
+    "osm_relation_id": 6466224
+  },
+  {
+    "id": "HR-471",
+    "name": "Sveti Martin na Muri",
+    "country": "HR",
+    "region": "Međimurje County",
+    "domain": "svetimartin.hr",
+    "osm_relation_id": 8806168
+  },
+  {
+    "id": "HR-472",
+    "name": "Sveti Petar Orehovec",
+    "country": "HR",
+    "region": "Koprivnica-Križevci County",
+    "domain": "svetipetarorehovec.hr",
+    "osm_relation_id": 8448031
+  },
+  {
+    "id": "HR-473",
+    "name": "Sveti Petar u Šumi",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "svpetarusumi.hr",
+    "osm_relation_id": 2269942
+  },
+  {
+    "id": "HR-474",
+    "name": "Sveti Đurđ",
+    "country": "HR",
+    "region": "Varaždin County",
+    "domain": "sveti-djurdj.hr",
+    "osm_relation_id": 8434149
+  },
+  {
+    "id": "HR-475",
+    "name": "Svetvinčenat",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "svetvincenat.hr",
+    "osm_relation_id": 2277605
+  },
+  {
+    "id": "HR-476",
+    "name": "Tar-Vabriga",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "tar-vabriga.hr",
+    "osm_relation_id": 6466273
+  },
+  {
+    "id": "HR-477",
+    "name": "Tinjan",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "tinjan.hr",
+    "osm_relation_id": 6466225
+  },
+  {
+    "id": "HR-478",
+    "name": "Tisno",
+    "country": "HR",
+    "region": "Šibenik-Knin County",
+    "domain": "tisno.hr",
+    "osm_relation_id": 12700351
+  },
+  {
+    "id": "HR-479",
+    "name": "Tkon",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "tkon.hr",
+    "osm_relation_id": 7480950
+  },
+  {
+    "id": "HR-480",
+    "name": "Tompojevci",
+    "country": "HR",
+    "region": "Vukovar-Srijem County",
+    "domain": "opcina-tompojevci.hr",
+    "osm_relation_id": 8800245
+  },
+  {
+    "id": "HR-481",
+    "name": "Topusko",
+    "country": "HR",
+    "region": "Sisak-Moslavina County",
+    "domain": "topusko.hr",
+    "osm_relation_id": 7902049
+  },
+  {
+    "id": "HR-482",
+    "name": "Tordinci",
+    "country": "HR",
+    "region": "Vukovar-Srijem County",
+    "domain": "tordinci.com",
+    "osm_relation_id": 8800241
+  },
+  {
+    "id": "HR-483",
+    "name": "Tounj",
+    "country": "HR",
+    "region": "Karlovac County",
+    "domain": "tounj.hr",
+    "osm_relation_id": 8820569
+  },
+  {
+    "id": "HR-484",
+    "name": "Tovarnik",
+    "country": "HR",
+    "region": "Vukovar-Srijem County",
+    "domain": "opcina-tovarnik.hr",
+    "osm_relation_id": 8800246
+  },
+  {
+    "id": "HR-485",
+    "name": "Town of Đurđevac",
+    "country": "HR",
+    "region": "Koprivnica-Križevci County",
+    "domain": "djurdjevac.hr",
+    "osm_relation_id": 8448021
+  },
+  {
+    "id": "HR-486",
+    "name": "Tribunj",
+    "country": "HR",
+    "region": "Šibenik-Knin County",
+    "domain": "tribunj.hr",
+    "osm_relation_id": 12534774
+  },
+  {
+    "id": "HR-487",
+    "name": "Trilj",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "trilj.hr",
+    "osm_relation_id": 8774957
+  },
+  {
+    "id": "HR-488",
+    "name": "Trnava",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "opcina-trnava.hr",
+    "osm_relation_id": 8796120
+  },
+  {
+    "id": "HR-489",
+    "name": "Trnovec Bartolovečki",
+    "country": "HR",
+    "region": "Varaždin County",
+    "domain": "trnovec-bartolovecki.hr",
+    "osm_relation_id": 8432942
+  },
+  {
+    "id": "HR-490",
+    "name": "Trogir",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "trogir.hr",
+    "osm_relation_id": 10479832
+  },
+  {
+    "id": "HR-491",
+    "name": "Trpanj",
+    "country": "HR",
+    "region": "Dubrovnik-Neretva County",
+    "domain": "trpanj.hr",
+    "osm_relation_id": 8796471
+  },
+  {
+    "id": "HR-492",
+    "name": "Trpinja",
+    "country": "HR",
+    "region": "Vukovar-Srijem County",
+    "domain": "opcinatrpinja.hr",
+    "osm_relation_id": 8800251
+  },
+  {
+    "id": "HR-493",
+    "name": "Tuhelj",
+    "country": "HR",
+    "region": "Krapina-Zagorje County",
+    "domain": "tuhelj.hr",
+    "osm_relation_id": 8403016
+  },
+  {
+    "id": "HR-494",
+    "name": "Tučepi",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "tucepi.hr",
+    "osm_relation_id": 8778044
+  },
+  {
+    "id": "HR-495",
+    "name": "Udbina",
+    "country": "HR",
+    "region": "Lika-Senj County",
+    "domain": "udbina.hr",
+    "osm_relation_id": 8778203
+  },
+  {
+    "id": "HR-496",
+    "name": "Umag",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "umag.hr",
+    "osm_relation_id": 16084976
+  },
+  {
+    "id": "HR-497",
+    "name": "Unešić",
+    "country": "HR",
+    "region": "Šibenik-Knin County",
+    "domain": "unesic.hr",
+    "osm_relation_id": 8820977
+  },
+  {
+    "id": "HR-498",
+    "name": "Valpovo",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "valpovo.hr"
+  },
+  {
+    "id": "HR-499",
+    "name": "Varaždin",
+    "country": "HR",
+    "region": "Varaždin County",
+    "domain": "varazdin.hr"
+  },
+  {
+    "id": "HR-500",
+    "name": "Varaždinske Toplice",
+    "country": "HR",
+    "region": "Varaždin County",
+    "domain": "varazdinske-toplice.hr",
+    "osm_relation_id": 8428248
+  },
+  {
+    "id": "HR-501",
+    "name": "Vela Luka",
+    "country": "HR",
+    "region": "Dubrovnik-Neretva County",
+    "domain": "velaluka.hr",
+    "osm_relation_id": 8796477
+  },
+  {
+    "id": "HR-502",
+    "name": "Velika",
+    "country": "HR",
+    "region": "Požega-Slavonia County",
+    "domain": "opcina-velika.hr",
+    "osm_relation_id": 8801754
+  },
+  {
+    "id": "HR-503",
+    "name": "Velika Gorica",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "gorica.hr",
+    "osm_relation_id": 5518651
+  },
+  {
+    "id": "HR-504",
+    "name": "Velika Gorica",
+    "country": "HR",
+    "region": "Velika Gorica",
+    "domain": "",
+    "osm_relation_id": 2345396
+  },
+  {
+    "id": "HR-505",
+    "name": "Velika Kopanica",
+    "country": "HR",
+    "region": "Brod-Posavina County",
+    "domain": "velikakopanica.hr",
+    "osm_relation_id": 8797197
+  },
+  {
+    "id": "HR-506",
+    "name": "Velika Ludina",
+    "country": "HR",
+    "region": "Sisak-Moslavina County",
+    "domain": "opcina-vludina.hr",
+    "osm_relation_id": 8820147
+  },
+  {
+    "id": "HR-507",
+    "name": "Velika Pisanica",
+    "country": "HR",
+    "region": "Bjelovar-Bilogora County",
+    "domain": "velika-pisanica.hr",
+    "osm_relation_id": 8896853
+  },
+  {
+    "id": "HR-508",
+    "name": "Velika Trnovitica",
+    "country": "HR",
+    "region": "Bjelovar-Bilogora County",
+    "domain": "velika-trnovitica.hr",
+    "osm_relation_id": 8766636
+  },
+  {
+    "id": "HR-509",
+    "name": "Veliki Bukovec",
+    "country": "HR",
+    "region": "Varaždin County",
+    "domain": "velikibukovec.hr",
+    "osm_relation_id": 8434148
+  },
+  {
+    "id": "HR-510",
+    "name": "Veliki Grđevac Municipality",
+    "country": "HR",
+    "region": "Bjelovar-Bilogora County",
+    "domain": "",
+    "osm_relation_id": 8766764
+  },
+  {
+    "id": "HR-511",
+    "name": "Veliko Trgovišće",
+    "country": "HR",
+    "region": "Krapina-Zagorje County",
+    "domain": "veliko-trgovisce.hr",
+    "osm_relation_id": 8403096
+  },
+  {
+    "id": "HR-512",
+    "name": "Veliko Trojstvo",
+    "country": "HR",
+    "region": "Bjelovar-Bilogora County",
+    "domain": "veliko-trojstvo.hr",
+    "osm_relation_id": 8448018
+  },
+  {
+    "id": "HR-513",
+    "name": "Vidovec",
+    "country": "HR",
+    "region": "Varaždin County",
+    "domain": "vidovec.hr",
+    "osm_relation_id": 8427891
+  },
+  {
+    "id": "HR-514",
+    "name": "Viljevo",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "viljevo.hr",
+    "osm_relation_id": 9035428
+  },
+  {
+    "id": "HR-515",
+    "name": "Vinica, Varaždin County",
+    "country": "HR",
+    "region": "Varaždin County",
+    "domain": "vinica.hr",
+    "osm_relation_id": 8824702
+  },
+  {
+    "id": "HR-516",
+    "name": "Vinkovci",
+    "country": "HR",
+    "region": "Vukovar-Srijem County",
+    "domain": "grad-vinkovci.hr",
+    "osm_relation_id": 8827949
+  },
+  {
+    "id": "HR-517",
+    "name": "Vinodol",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "vinodol.hr",
+    "osm_relation_id": 8774579
+  },
+  {
+    "id": "HR-518",
+    "name": "Vir",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "vir.hr",
+    "osm_relation_id": 7480956
+  },
+  {
+    "id": "HR-519",
+    "name": "Virje",
+    "country": "HR",
+    "region": "Koprivnica-Križevci County",
+    "domain": "virje.hr",
+    "osm_relation_id": 8448022
+  },
+  {
+    "id": "HR-520",
+    "name": "Virovitica",
+    "country": "HR",
+    "region": "Virovitica-Podravina County",
+    "domain": "virovitica.hr",
+    "osm_relation_id": 8918389
+  },
+  {
+    "id": "HR-521",
+    "name": "Vis",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "gradvis.hr",
+    "osm_relation_id": 8796487
+  },
+  {
+    "id": "HR-522",
+    "name": "Visoko",
+    "country": "HR",
+    "region": "Varaždin County",
+    "domain": "visoko.hr",
+    "osm_relation_id": 8428004
+  },
+  {
+    "id": "HR-523",
+    "name": "Viškovci",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "viskovci.hr",
+    "osm_relation_id": 8796117
+  },
+  {
+    "id": "HR-524",
+    "name": "Viškovo",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "opcina-viskovo.hr",
+    "osm_relation_id": 17094533
+  },
+  {
+    "id": "HR-525",
+    "name": "Viškovo Municipality",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "",
+    "osm_relation_id": 8774588
+  },
+  {
+    "id": "HR-526",
+    "name": "Višnjan",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "visnjan.hr",
+    "osm_relation_id": 6466256
+  },
+  {
+    "id": "HR-527",
+    "name": "Vižinada",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "vizinada.hr",
+    "osm_relation_id": 6466257
+  },
+  {
+    "id": "HR-528",
+    "name": "Vladislavci",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "opcina-vladislavci.hr",
+    "osm_relation_id": 8796115
+  },
+  {
+    "id": "HR-529",
+    "name": "Vodice",
+    "country": "HR",
+    "region": "Šibenik-Knin County",
+    "domain": "grad-vodice.hr",
+    "osm_relation_id": 8820769
+  },
+  {
+    "id": "HR-530",
+    "name": "Vodnjan",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "vodnjan.hr",
+    "osm_relation_id": 2277597
+  },
+  {
+    "id": "HR-531",
+    "name": "Vojnić",
+    "country": "HR",
+    "region": "Karlovac County",
+    "domain": "vojnic.hr",
+    "osm_relation_id": 8744869
+  },
+  {
+    "id": "HR-532",
+    "name": "Voćin",
+    "country": "HR",
+    "region": "Virovitica-Podravina County",
+    "domain": "vocin.hr",
+    "osm_relation_id": 9024764
+  },
+  {
+    "id": "HR-533",
+    "name": "Vođinci",
+    "country": "HR",
+    "region": "Vukovar-Srijem County",
+    "domain": "vodjinci.hr",
+    "osm_relation_id": 9971874
+  },
+  {
+    "id": "HR-534",
+    "name": "Vratišinec",
+    "country": "HR",
+    "region": "Međimurje County",
+    "domain": "vratisinec.hr",
+    "osm_relation_id": 8806170
+  },
+  {
+    "id": "HR-535",
+    "name": "Vrbanja",
+    "country": "HR",
+    "region": "Vukovar-Srijem County",
+    "domain": "opcina-vrbanja.hr",
+    "osm_relation_id": 8827892
+  },
+  {
+    "id": "HR-536",
+    "name": "Vrbje",
+    "country": "HR",
+    "region": "Brod-Posavina County",
+    "domain": "vrbje.hr",
+    "osm_relation_id": 8781204
+  },
+  {
+    "id": "HR-537",
+    "name": "Vrbnik",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "opcina-vrbnik.hr",
+    "osm_relation_id": 12733121
+  },
+  {
+    "id": "HR-538",
+    "name": "Vrbovec",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "vrbovec.hr",
+    "osm_relation_id": 8428065
+  },
+  {
+    "id": "HR-539",
+    "name": "Vrbovsko",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "vrbovsko.hr",
+    "osm_relation_id": 8820582
+  },
+  {
+    "id": "HR-540",
+    "name": "Vrgorac",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "vrgorac.hr",
+    "osm_relation_id": 8778035
+  },
+  {
+    "id": "HR-541",
+    "name": "Vrhovine",
+    "country": "HR",
+    "region": "Lika-Senj County",
+    "domain": "vrhovine.hr",
+    "osm_relation_id": 8820573
+  },
+  {
+    "id": "HR-542",
+    "name": "Vrlika",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "vrlika.hr",
+    "osm_relation_id": 8774952
+  },
+  {
+    "id": "HR-543",
+    "name": "Vrpolje",
+    "country": "HR",
+    "region": "Brod-Posavina County",
+    "domain": "vrpolje.hr",
+    "osm_relation_id": 12889850
+  },
+  {
+    "id": "HR-544",
+    "name": "Vrsar",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "vrsar.hr",
+    "osm_relation_id": 6449310
+  },
+  {
+    "id": "HR-545",
+    "name": "Vrsi",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "vrsi.hr",
+    "osm_relation_id": 7437724
+  },
+  {
+    "id": "HR-546",
+    "name": "Vuka, Osijek-Baranja County",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "opcina-vuka.hr",
+    "osm_relation_id": 8793107
+  },
+  {
+    "id": "HR-547",
+    "name": "Vukovar",
+    "country": "HR",
+    "region": "Vukovar-Srijem County",
+    "domain": "vukovar.hr",
+    "osm_relation_id": 8800250
+  },
+  {
+    "id": "HR-548",
+    "name": "Zabok",
+    "country": "HR",
+    "region": "Krapina-Zagorje County",
+    "domain": "zabok.hr",
+    "osm_relation_id": 8382622
+  },
+  {
+    "id": "HR-549",
+    "name": "Zadar",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "grad-zadar.hr",
+    "osm_relation_id": 5404230
+  },
+  {
+    "id": "HR-550",
+    "name": "Zadvarje",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "zadvarje.hr",
+    "osm_relation_id": 8775201
+  },
+  {
+    "id": "HR-551",
+    "name": "Zagorska Sela",
+    "country": "HR",
+    "region": "Krapina-Zagorje County",
+    "domain": "zagorska-sela.hr",
+    "osm_relation_id": 8399214
+  },
+  {
+    "id": "HR-552",
+    "name": "Zagreb",
+    "country": "HR",
+    "region": "Croatia",
+    "domain": "zagreb.hr",
+    "osm_relation_id": 226224
+  },
+  {
+    "id": "HR-553",
+    "name": "Zagvozd",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "zagvozd.hr",
+    "osm_relation_id": 8778043
+  },
+  {
+    "id": "HR-554",
+    "name": "Zaprešić",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "zapresic.hr"
+  },
+  {
+    "id": "HR-555",
+    "name": "Zažablje",
+    "country": "HR",
+    "region": "Dubrovnik-Neretva County",
+    "domain": "opcina-zazablje.hr",
+    "osm_relation_id": 8796591
+  },
+  {
+    "id": "HR-556",
+    "name": "Zdenci",
+    "country": "HR",
+    "region": "Virovitica-Podravina County",
+    "domain": "opcina-zdenci.hr",
+    "osm_relation_id": 9024758
+  },
+  {
+    "id": "HR-557",
+    "name": "Zemunik Donji",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "zemunik.hr",
+    "osm_relation_id": 6970726
+  },
+  {
+    "id": "HR-558",
+    "name": "Zlatar",
+    "country": "HR",
+    "region": "Krapina-Zagorje County",
+    "domain": "zlatar.hr",
+    "osm_relation_id": 8383531
+  },
+  {
+    "id": "HR-559",
+    "name": "Zlatar Bistrica",
+    "country": "HR",
+    "region": "Krapina-Zagorje County",
+    "domain": "zlatar-bistrica.hr",
+    "osm_relation_id": 8383502
+  },
+  {
+    "id": "HR-560",
+    "name": "Zmijavci",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "zmijavci.hr",
+    "osm_relation_id": 15869318
+  },
+  {
+    "id": "HR-561",
+    "name": "Zrinski Topolovac",
+    "country": "HR",
+    "region": "Bjelovar-Bilogora County",
+    "domain": "zrtopolovac.hr",
+    "osm_relation_id": 12472709
+  },
+  {
+    "id": "HR-562",
+    "name": "Čabar",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "cabar.hr",
+    "osm_relation_id": 8774584
+  },
+  {
+    "id": "HR-563",
+    "name": "Čaglin",
+    "country": "HR",
+    "region": "Požega-Slavonia County",
+    "domain": "opcina-caglin.hr",
+    "osm_relation_id": 10647998
+  },
+  {
+    "id": "HR-564",
+    "name": "Čakovec",
+    "country": "HR",
+    "region": "Međimurje County",
+    "domain": "cakovec.hr",
+    "osm_relation_id": 8593806
+  },
+  {
+    "id": "HR-565",
+    "name": "Čavle",
+    "country": "HR",
+    "region": "Primorje-Gorski Kotar County",
+    "domain": "cavle.hr",
+    "osm_relation_id": 8774589
+  },
+  {
+    "id": "HR-566",
+    "name": "Čazma",
+    "country": "HR",
+    "region": "Bjelovar-Bilogora County",
+    "domain": "cazma.hr",
+    "osm_relation_id": 8766637
+  },
+  {
+    "id": "HR-567",
+    "name": "Čačinci",
+    "country": "HR",
+    "region": "Virovitica-Podravina County",
+    "domain": "cacinci.hr",
+    "osm_relation_id": 9024763
+  },
+  {
+    "id": "HR-568",
+    "name": "Čađavica",
+    "country": "HR",
+    "region": "Virovitica-Podravina County",
+    "domain": "opcina-cadjavica.hr",
+    "osm_relation_id": 8926115
+  },
+  {
+    "id": "HR-569",
+    "name": "Čeminac",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "ceminac.hr",
+    "osm_relation_id": 9037886
+  },
+  {
+    "id": "HR-570",
+    "name": "Čepin",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "cepin.hr",
+    "osm_relation_id": 8759141
+  },
+  {
+    "id": "HR-571",
+    "name": "Đakovo",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "djakovo.hr",
+    "osm_relation_id": 8796119
+  },
+  {
+    "id": "HR-572",
+    "name": "Đelekovec",
+    "country": "HR",
+    "region": "Koprivnica-Križevci County",
+    "domain": "delekovec.hr",
+    "osm_relation_id": 8756460
+  },
+  {
+    "id": "HR-573",
+    "name": "Đulovac",
+    "country": "HR",
+    "region": "Bjelovar-Bilogora County",
+    "domain": "djulovac.hr",
+    "osm_relation_id": 8766630
+  },
+  {
+    "id": "HR-574",
+    "name": "Đurmanec",
+    "country": "HR",
+    "region": "Krapina-Zagorje County",
+    "domain": "djurmanec.hr",
+    "osm_relation_id": 8403120
+  },
+  {
+    "id": "HR-575",
+    "name": "Đurđenovac",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "djurdjenovac.hr",
+    "osm_relation_id": 8820186
+  },
+  {
+    "id": "HR-576",
+    "name": "Šandrovac",
+    "country": "HR",
+    "region": "Bjelovar-Bilogora County",
+    "domain": "sandrovac.hr",
+    "osm_relation_id": 8448017
+  },
+  {
+    "id": "HR-577",
+    "name": "Šenkovec",
+    "country": "HR",
+    "region": "Međimurje County",
+    "domain": "senkovec.hr",
+    "osm_relation_id": 8593807
+  },
+  {
+    "id": "HR-578",
+    "name": "Šestanovac",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "opcina-sestanovac.hr",
+    "osm_relation_id": 8778048
+  },
+  {
+    "id": "HR-579",
+    "name": "Šibenik",
+    "country": "HR",
+    "region": "Šibenik-Knin County",
+    "domain": "sibenik.hr",
+    "osm_relation_id": 8820767
+  },
+  {
+    "id": "HR-580",
+    "name": "Škabrnja",
+    "country": "HR",
+    "region": "Zadar County",
+    "domain": "opcina-skabrnja.hr",
+    "osm_relation_id": 6970773
+  },
+  {
+    "id": "HR-581",
+    "name": "Šodolovci",
+    "country": "HR",
+    "region": "Osijek-Baranja County",
+    "domain": "sodolovci.hr",
+    "osm_relation_id": 8796114
+  },
+  {
+    "id": "HR-582",
+    "name": "Šolta",
+    "country": "HR",
+    "region": "Split-Dalmatia County",
+    "domain": "solta.hr",
+    "osm_relation_id": 11153029
+  },
+  {
+    "id": "HR-583",
+    "name": "Špišić Bukovica",
+    "country": "HR",
+    "region": "Virovitica-Podravina County",
+    "domain": "općinaspisicbukovica.hr",
+    "osm_relation_id": 8920475
+  },
+  {
+    "id": "HR-584",
+    "name": "Štefanje",
+    "country": "HR",
+    "region": "Bjelovar-Bilogora County",
+    "domain": "stefanje.hr",
+    "osm_relation_id": 8448037
+  },
+  {
+    "id": "HR-585",
+    "name": "Štitar",
+    "country": "HR",
+    "region": "Vukovar-Srijem County",
+    "domain": "opcina-stitar.hr",
+    "osm_relation_id": 8829078
+  },
+  {
+    "id": "HR-586",
+    "name": "Štrigova",
+    "country": "HR",
+    "region": "Međimurje County",
+    "domain": "opcinastrigova.hr",
+    "osm_relation_id": 8806167
+  },
+  {
+    "id": "HR-587",
+    "name": "Žakanje",
+    "country": "HR",
+    "region": "Karlovac County",
+    "domain": "opcina-zakanje.hr",
+    "osm_relation_id": 8779366
+  },
+  {
+    "id": "HR-588",
+    "name": "Žminj",
+    "country": "HR",
+    "region": "Istria County",
+    "domain": "zminj.hr",
+    "osm_relation_id": 2277607
+  },
+  {
+    "id": "HR-589",
+    "name": "Žumberak",
+    "country": "HR",
+    "region": "Zagreb County",
+    "domain": "zumberak.hr",
+    "osm_relation_id": 8309099
+  },
+  {
+    "id": "HR-590",
+    "name": "Župa dubrovačka",
+    "country": "HR",
+    "region": "Dubrovnik-Neretva County",
+    "domain": "zupa-dubrovacka.hr",
+    "osm_relation_id": 8796465
+  },
+  {
+    "id": "HR-591",
+    "name": "Županja",
+    "country": "HR",
+    "region": "Vukovar-Srijem County",
+    "domain": "zupanja.hr",
+    "osm_relation_id": 8829047
+  },
+  {
+    "id": "HR-592",
+    "name": "Zaprešić",
+    "country": "HR",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "HR-593",
+    "name": "Čakovec",
+    "country": "HR",
+    "region": "",
+    "domain": ""
+  }
+]

@@ -47,6 +47,12 @@ SEED_FILES = {
     "SK": "municipalities_sk.json",
     "SI": "municipalities_si.json",
     "GB": "municipalities_gb.json",
+    "HR": "municipalities_hr.json",
+    "CY": "municipalities_cy.json",
+    "GR": "municipalities_gr.json",
+    "HU": "municipalities_hu.json",
+    "MT": "municipalities_mt.json",
+    "RO": "municipalities_ro.json",
 }
 
 
@@ -96,6 +102,14 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         "borough of ",  # UK
         "london borough of ",  # UK
         "metropolitan borough of ",  # UK
+        "općina ",  # Croatian: municipality
+        "grad ",  # Croatian: city
+        "δήμος ",  # Greek: municipality
+        "dimos ",  # Greek: municipality (romanized)
+        "municipality of ",  # Generic (GR/CY/MT)
+        "județul ",  # Romanian: county
+        "consiliul județean ",  # Romanian: county council
+        "primăria ",  # Romanian: city hall
     ]:
         if raw.startswith(prefix):
             raw = raw[len(prefix) :]
@@ -127,6 +141,11 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         " borough council",
         " district council",
         " council",  # UK
+        " municipality",  # GR/CY/MT
+        " district",  # HU
+        " county",  # RO/HU
+        " járás",  # Hungarian: district
+        " megye",  # Hungarian: county
     ]:
         if raw.endswith(suffix):
             raw = raw[: -len(suffix)]
@@ -195,6 +214,15 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         ("ì", "i"),
         ("ò", "o"),  # Italian grave accents
         ("ъ", "a"),  # Bulgarian Cyrillic
+        ("đ", "dj"),  # Croatian
+        ("ő", "o"),
+        ("ű", "u"),  # Hungarian double-acute
+        ("ț", "t"),
+        ("ș", "s"),
+        ("ă", "a"),  # Romanian
+        ("ħ", "h"),
+        ("ġ", "g"),
+        ("ċ", "c"),  # Maltese
     ]
     clean = raw
     for a, b in translits:
@@ -254,6 +282,12 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         "SK": [".sk"],
         "SI": [".si"],
         "GB": [".gov.uk", ".uk"],
+        "HR": [".hr"],
+        "CY": [".org.cy", ".com.cy", ".cy"],
+        "GR": [".gr", ".gov.gr"],
+        "HU": [".hu"],
+        "MT": [".gov.mt", ".org.mt", ".com.mt", ".mt"],
+        "RO": [".ro"],
     }
     tlds = tld_map.get(
         country, [".ee", ".lv", ".lt", ".fi", ".no", ".se", ".de", ".dk"]
@@ -266,6 +300,13 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         # Portuguese municipalities commonly use cm-name.pt
         if country == "PT" or not country:
             candidates.add(f"cm-{slug}.pt")
+        # Romanian municipalities commonly use primaria-name.ro
+        if country == "RO" or not country:
+            candidates.add(f"primaria-{slug}.ro")
+        # Croatian municipalities use opcina-name.hr or grad-name.hr
+        if country == "HR" or not country:
+            candidates.add(f"opcina-{slug}.hr")
+            candidates.add(f"grad-{slug}.hr")
     return sorted(candidates)
 
 

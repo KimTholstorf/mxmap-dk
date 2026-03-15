@@ -2,9 +2,9 @@
 
 [![Nightly](https://github.com/livenson/mxmap/actions/workflows/nightly.yml/badge.svg)](https://github.com/livenson/mxmap/actions/workflows/nightly.yml)
 
-An interactive map showing where ~7,100 municipalities across 25 European countries host their official email — whether with US hyperscalers (Microsoft, Google, AWS), local/EU providers, or self-hosted solutions.
+An interactive map showing where ~8,300 municipalities across 31 European countries host their official email — whether with US hyperscalers (Microsoft, Google, AWS), local/EU providers, or self-hosted solutions.
 
-Countries: Estonia, Latvia, Lithuania, Finland, Norway, Iceland, Sweden, Denmark, Germany, Austria, Czechia, Slovakia, Slovenia, Bulgaria, Luxembourg, Andorra, Belgium, Spain, France, Poland, Portugal, Italy, Netherlands, Ireland, United Kingdom.
+All 27 EU member states plus Norway, Iceland, Andorra, and the United Kingdom.
 
 **[View the live map](https://livenson.github.io/mxmap/)**
 
@@ -14,7 +14,7 @@ Countries: Estonia, Latvia, Lithuania, Finland, Norway, Iceland, Sweden, Denmark
 
 The data pipeline has three steps:
 
-1. **Preprocess** — Loads ~7,100 municipalities from curated seed data across 25 countries, performs MX, SPF, CNAME, DKIM, autodiscover, and TXT DNS lookups on their official domains (with domain guessing for missing entries), detects email security gateways (SeppMail, Barracuda, Hornetsecurity, etc.), and classifies each municipality's email provider. TXT domain verification tokens (e.g., `MS=` for Microsoft 365, `google-site-verification=` for Google Workspace) serve as tiebreakers when other signals are ambiguous.
+1. **Preprocess** — Loads ~8,300 municipalities from curated seed data across 31 countries, performs MX, SPF, CNAME, DKIM, autodiscover, and TXT DNS lookups on their official domains (with domain guessing for missing entries), detects email security gateways (SeppMail, Barracuda, Hornetsecurity, etc.), and classifies each municipality's email provider. TXT domain verification tokens (e.g., `MS=` for Microsoft 365, `google-site-verification=` for Google Workspace) serve as tiebreakers when other signals are ambiguous.
 2. **Postprocess** — Applies manual overrides for edge cases, retries DNS for unresolved domains, checks SMTP banners of independent MX hosts for hidden providers, then scrapes websites of still-unclassified municipalities for email addresses.
 3. **Validate** — Cross-validates MX and SPF records, assigns a confidence score (0–100) to each entry, and generates a validation report.
 
@@ -23,7 +23,7 @@ flowchart TD
     trigger["Nightly trigger"] --> seed
 
     subgraph pre ["1 · Preprocess"]
-        seed[/"Seed data (25 countries)"/] --> fetch["Load ~7,100 municipalities"]
+        seed[/"Seed data (31 countries)"/] --> fetch["Load ~8,300 municipalities"]
         fetch --> domains["Extract domains +<br/>guess candidates"]
         domains --> dns["MX + TXT lookups<br/>(3 resolvers)"]
         dns --> spf_resolve["Resolve SPF includes<br/>& redirects"]
@@ -93,7 +93,7 @@ uv run ruff format src tests
 
 ## Attribution
 
-This project is a fork of [mxmap.ch](https://mxmap.ch) by [David Huser](https://github.com/davidhuser/mxmap), which maps email providers of Swiss municipalities. Adapted for 25 European countries with region-specific provider detection (Telia, TET, Zone.eu, local ISPs), gateway look-through (SeppMail, Barracuda, Hornetsecurity, etc.), DKIM/TXT verification-based classification, curated seed data, and per-country TopoJSON geodata.
+This project is a fork of [mxmap.ch](https://mxmap.ch) by [David Huser](https://github.com/davidhuser/mxmap), which maps email providers of Swiss municipalities. Adapted for 31 European countries (all 27 EU member states + 4 non-EU) with region-specific provider detection (Telia, TET, Zone.eu, local ISPs), gateway look-through (SeppMail, Barracuda, Hornetsecurity, etc.), DKIM/TXT verification-based classification, curated seed data, and per-country TopoJSON geodata.
 
 ## Related work
 
