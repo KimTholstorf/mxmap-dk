@@ -258,6 +258,27 @@ function hasLocalGateway(m) {
 
 const INACTIVE_STYLE = { fillColor: '#f0f0f0', weight: 0.5, color: '#ccc', fillOpacity: 0.3 };
 
+function hexToRgb(hex) {
+  var n = parseInt(hex.slice(1), 16);
+  return [(n >> 16) & 255, (n >> 8) & 255, n & 255];
+}
+function rgbToHex(r, g, b) {
+  return '#' + ((1 << 24) + (Math.round(r) << 16) + (Math.round(g) << 8) + Math.round(b)).toString(16).slice(1);
+}
+function blendProviderColors(providers, total) {
+  // Weighted blend of all provider colors by their share
+  var r = 0, g = 0, b = 0;
+  for (var p in providers) {
+    var color = COLORS[p] || COLORS['Unknown'];
+    var rgb = hexToRgb(color);
+    var weight = providers[p] / total;
+    r += rgb[0] * weight;
+    g += rgb[1] * weight;
+    b += rgb[2] * weight;
+  }
+  return rgbToHex(r, g, b);
+}
+
 // --- State ---
 let dnsData = null;
 let manifest = null;
@@ -551,6 +572,7 @@ function computeAggregation(cc, fileLevelName) {
     g.dominant = entries[0] ? entries[0][0] : 'Unknown';
     g.dominance = entries[0] ? entries[0][1] / g.municipalities.length : 0;
     g.second = entries[1] ? entries[1][0] : null;
+    g.blendedColor = blendProviderColors(g.providers, g.municipalities.length);
     g.count = g.municipalities.length;
     g.hasGateway = g.municipalities.some(m => hasLocalGateway(m));
   }
@@ -734,9 +756,7 @@ async function renderCountryLayer(cc) {
       if (isAggregated && groups) {
         const g = matchGroupFeature(feature, groups);
         if (g) {
-          const borderColor = g.second && g.dominance < 0.95 ? (COLORS[g.second] || '#999') : '#999';
-          const borderWeight = g.second && g.dominance < 0.95 ? 2 : 0.5;
-          return { fillColor: COLORS[g.dominant] || COLORS['Unknown'], fillOpacity: 0.75, color: borderColor, weight: borderWeight };
+          return { fillColor: g.blendedColor, fillOpacity: 0.75, color: '#999', weight: 0.5 };
         }
       } else {
         const m = matchFeature(feature);
@@ -766,17 +786,11 @@ async function renderCountryLayer(cc) {
       feature._country = cc;
 
       layer.on('mouseover', function () {
-        if (!activeCountries.has(cc)) return;
-        var g = this.feature._matchedGroup;
-        var hoverColor = (g && g.second && g.dominance < 0.95) ? (COLORS[g.second] || '#333') : '#333';
-        this.setStyle({ weight: 3, color: hoverColor });
+        if (activeCountries.has(cc)) this.setStyle({ weight: 2, color: '#333' });
       });
       layer.on('mouseout', function () {
-        if (!activeCountries.has(cc)) { this.setStyle({ weight: 0.5, color: '#ccc' }); return; }
-        var g = this.feature._matchedGroup;
-        var borderColor = (g && g.second && g.dominance < 0.95) ? (COLORS[g.second] || '#999') : '#999';
-        var borderWeight = (g && g.second && g.dominance < 0.95) ? 2 : 0.5;
-        this.setStyle({ weight: borderWeight, color: borderColor });
+        if (activeCountries.has(cc)) this.setStyle({ weight: 0.5, color: '#999' });
+        else this.setStyle({ weight: 0.5, color: '#ccc' });
       });
     }
   });
