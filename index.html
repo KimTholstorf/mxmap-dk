@@ -94,12 +94,21 @@
     display: flex; flex-direction: column; align-items: flex-end; gap: 6px;
   }
   .country-filters {
-    display: flex; gap: 4px; flex-wrap: wrap; justify-content: flex-end;
+    display: flex; flex-direction: column; align-items: flex-end; gap: 2px;
   }
+  .region-group {
+    display: flex; align-items: center; gap: 3px;
+  }
+  .region-label {
+    font-size: 10px; color: #888; font-weight: 600; text-transform: uppercase;
+    letter-spacing: 0.3px; margin-right: 2px; cursor: pointer; user-select: none;
+    background: none; border: none; padding: 2px 4px;
+  }
+  .region-label:hover { color: #333; }
   .country-btn {
-    background: white; border: 2px solid #ddd; border-radius: 5px;
-    padding: 4px 12px; cursor: pointer; font-size: 12px; font-weight: 600;
-    transition: all 0.15s; box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    background: white; border: 2px solid #ddd; border-radius: 4px;
+    padding: 2px 8px; cursor: pointer; font-size: 11px; font-weight: 600;
+    transition: all 0.15s; box-shadow: 0 1px 3px rgba(0,0,0,0.08);
   }
   .country-btn.active { border-color: #333; background: #333; color: white; }
   .country-btn:hover { border-color: #999; }
@@ -152,7 +161,8 @@
     .legend.legend-collapsed .legend-content { display: none; }
     .legend.legend-collapsed { padding: 8px 12px; }
     .map-controls { top: 6px; right: 6px; }
-    .country-btn { padding: 3px 8px; font-size: 11px; }
+    .country-btn { padding: 2px 6px; font-size: 10px; }
+    .region-label { font-size: 9px; }
     .level-btn { padding: 4px 10px; font-size: 11px; }
   }
 </style>
@@ -194,27 +204,42 @@
   <div id="map-loading" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;z-index:1000;background:rgba(255,255,255,0.85);font-size:15px;color:#555;">Loading map data&hellip;</div>
   <div class="map-controls">
     <div class="country-filters">
-      <button class="country-btn active" data-country="EE">EE</button>
-      <button class="country-btn active" data-country="LV">LV</button>
-      <button class="country-btn active" data-country="LT">LT</button>
-      <button class="country-btn active" data-country="FI">FI</button>
-      <button class="country-btn active" data-country="NO">NO</button>
-      <button class="country-btn active" data-country="IS">IS</button>
-      <button class="country-btn active" data-country="SE">SE</button>
-      <button class="country-btn active" data-country="DE">DE</button>
-      <button class="country-btn active" data-country="DK">DK</button>
-      <button class="country-btn active" data-country="AD">AD</button>
-      <button class="country-btn active" data-country="LU">LU</button>
-      <button class="country-btn active" data-country="BE">BE</button>
-      <button class="country-btn active" data-country="AT">AT</button>
-      <button class="country-btn active" data-country="CZ">CZ</button>
-      <button class="country-btn active" data-country="ES">ES</button>
-      <button class="country-btn active" data-country="FR">FR</button>
-      <button class="country-btn active" data-country="PL">PL</button>
-      <button class="country-btn active" data-country="PT">PT</button>
-      <button class="country-btn active" data-country="IT">IT</button>
-      <button class="country-btn active" data-country="IE">IE</button>
-      <button class="country-btn active" data-country="NL">NL</button>
+      <div class="region-group">
+        <button class="region-label" data-region="nordic">Nordic</button>
+        <button class="country-btn active" data-country="FI">FI</button>
+        <button class="country-btn active" data-country="SE">SE</button>
+        <button class="country-btn active" data-country="NO">NO</button>
+        <button class="country-btn active" data-country="DK">DK</button>
+        <button class="country-btn active" data-country="IS">IS</button>
+      </div>
+      <div class="region-group">
+        <button class="region-label" data-region="baltic">Baltic</button>
+        <button class="country-btn active" data-country="EE">EE</button>
+        <button class="country-btn active" data-country="LV">LV</button>
+        <button class="country-btn active" data-country="LT">LT</button>
+      </div>
+      <div class="region-group">
+        <button class="region-label" data-region="western">Western</button>
+        <button class="country-btn active" data-country="NL">NL</button>
+        <button class="country-btn active" data-country="BE">BE</button>
+        <button class="country-btn active" data-country="LU">LU</button>
+        <button class="country-btn active" data-country="FR">FR</button>
+        <button class="country-btn active" data-country="IE">IE</button>
+      </div>
+      <div class="region-group">
+        <button class="region-label" data-region="central">Central</button>
+        <button class="country-btn active" data-country="DE">DE</button>
+        <button class="country-btn active" data-country="AT">AT</button>
+        <button class="country-btn active" data-country="CZ">CZ</button>
+        <button class="country-btn active" data-country="PL">PL</button>
+      </div>
+      <div class="region-group">
+        <button class="region-label" data-region="southern">Southern</button>
+        <button class="country-btn active" data-country="ES">ES</button>
+        <button class="country-btn active" data-country="PT">PT</button>
+        <button class="country-btn active" data-country="IT">IT</button>
+        <button class="country-btn active" data-country="AD">AD</button>
+      </div>
     </div>
     <div class="level-toggle">
       <button class="level-btn" data-level="region">Regions</button>
@@ -915,6 +940,29 @@ document.querySelectorAll('.country-btn').forEach(function (btn) {
     btn.classList.toggle('active');
     if (activeCountries.has(country)) activeCountries.delete(country);
     else activeCountries.add(country);
+    updateStyles();
+    updateLegend();
+    if (dnsData) buildStats(dnsData.municipalities);
+  });
+});
+
+// Region label toggles all countries in the group
+document.querySelectorAll('.region-label').forEach(function (btn) {
+  btn.addEventListener('click', function () {
+    const group = btn.closest('.region-group');
+    const countryBtns = group.querySelectorAll('.country-btn');
+    // If any active, deactivate all; otherwise activate all
+    const anyActive = Array.from(countryBtns).some(function (b) { return b.classList.contains('active'); });
+    countryBtns.forEach(function (b) {
+      const cc = b.dataset.country;
+      if (anyActive) {
+        b.classList.remove('active');
+        activeCountries.delete(cc);
+      } else {
+        b.classList.add('active');
+        activeCountries.add(cc);
+      }
+    });
     updateStyles();
     updateLegend();
     if (dnsData) buildStats(dnsData.municipalities);
