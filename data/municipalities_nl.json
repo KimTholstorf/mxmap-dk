@@ -1,0 +1,2738 @@
+[
+  {
+    "id": "NL-0014",
+    "name": "Groningen",
+    "country": "NL",
+    "region": "Groningen",
+    "domain": "gemeente.groningen.nl",
+    "osm_relation_id": 409862
+  },
+  {
+    "id": "NL-0034",
+    "name": "Almere",
+    "country": "NL",
+    "region": "Flevoland",
+    "domain": "almere.nl",
+    "osm_relation_id": 409764
+  },
+  {
+    "id": "NL-0037",
+    "name": "Stadskanaal",
+    "country": "NL",
+    "region": "Groningen",
+    "domain": "stadskanaal.nl",
+    "osm_relation_id": 413261
+  },
+  {
+    "id": "NL-0047",
+    "name": "Veendam",
+    "country": "NL",
+    "region": "Groningen",
+    "domain": "veendam.nl",
+    "osm_relation_id": 412404
+  },
+  {
+    "id": "NL-0050",
+    "name": "Zeewolde",
+    "country": "NL",
+    "region": "Flevoland",
+    "domain": "zeewolde.nl",
+    "osm_relation_id": 409828
+  },
+  {
+    "id": "NL-0059",
+    "name": "Achtkarspelen",
+    "country": "NL",
+    "region": "Friesland",
+    "domain": "achtkarspelen.nl",
+    "osm_relation_id": 385153
+  },
+  {
+    "id": "NL-0060",
+    "name": "Ameland",
+    "country": "NL",
+    "region": "Friesland",
+    "domain": "ameland.nl",
+    "osm_relation_id": 319055
+  },
+  {
+    "id": "NL-0072",
+    "name": "Harlingen",
+    "country": "NL",
+    "region": "Friesland",
+    "domain": "harlingen.nl",
+    "osm_relation_id": 47823
+  },
+  {
+    "id": "NL-0074",
+    "name": "Heerenveen",
+    "country": "NL",
+    "region": "Friesland",
+    "domain": "heerenveen.nl",
+    "osm_relation_id": 403072
+  },
+  {
+    "id": "NL-0080",
+    "name": "Leeuwarden",
+    "country": "NL",
+    "region": "Friesland",
+    "domain": "leeuwarden.nl",
+    "osm_relation_id": 162074
+  },
+  {
+    "id": "NL-0085",
+    "name": "Ooststellingwerf",
+    "country": "NL",
+    "region": "Friesland",
+    "domain": "ooststellingwerf.nl",
+    "osm_relation_id": 47439
+  },
+  {
+    "id": "NL-0086",
+    "name": "Opsterland",
+    "country": "NL",
+    "region": "Friesland",
+    "domain": "opsterland.nl",
+    "osm_relation_id": 158293
+  },
+  {
+    "id": "NL-0088",
+    "name": "Schiermonnikoog",
+    "country": "NL",
+    "region": "Friesland",
+    "domain": "schiermonnikoog.nl",
+    "osm_relation_id": 384538
+  },
+  {
+    "id": "NL-0090",
+    "name": "Smallingerland",
+    "country": "NL",
+    "region": "Friesland",
+    "domain": "smallingerland.nl",
+    "osm_relation_id": 400954
+  },
+  {
+    "id": "NL-0093",
+    "name": "Terschelling",
+    "country": "NL",
+    "region": "Friesland",
+    "domain": "terschelling.nl",
+    "osm_relation_id": 47531
+  },
+  {
+    "id": "NL-0096",
+    "name": "Vlieland",
+    "country": "NL",
+    "region": "Friesland",
+    "domain": "vlieland.nl",
+    "osm_relation_id": 47609
+  },
+  {
+    "id": "NL-0098",
+    "name": "Weststellingwerf",
+    "country": "NL",
+    "region": "Friesland",
+    "domain": "weststellingwerf.nl",
+    "osm_relation_id": 47669
+  },
+  {
+    "id": "NL-0106",
+    "name": "Assen",
+    "country": "NL",
+    "region": "Drenthe",
+    "domain": "assen.nl",
+    "osm_relation_id": 412268
+  },
+  {
+    "id": "NL-0109",
+    "name": "Coevorden",
+    "country": "NL",
+    "region": "Drenthe",
+    "domain": "coevorden.nl",
+    "osm_relation_id": 413775
+  },
+  {
+    "id": "NL-0114",
+    "name": "Emmen",
+    "country": "NL",
+    "region": "Drenthe",
+    "domain": "gemeente.emmen.nl",
+    "osm_relation_id": 413536
+  },
+  {
+    "id": "NL-0118",
+    "name": "Hoogeveen",
+    "country": "NL",
+    "region": "Drenthe",
+    "domain": "hoogeveen.nl",
+    "osm_relation_id": 377216
+  },
+  {
+    "id": "NL-0119",
+    "name": "Meppel",
+    "country": "NL",
+    "region": "Drenthe",
+    "domain": "meppel.nl",
+    "osm_relation_id": 414157
+  },
+  {
+    "id": "NL-0141",
+    "name": "Almelo",
+    "country": "NL",
+    "region": "Overijssel",
+    "domain": "almelo.nl",
+    "osm_relation_id": 386411
+  },
+  {
+    "id": "NL-0147",
+    "name": "Borne",
+    "country": "NL",
+    "region": "Overijssel",
+    "domain": "borne.nl",
+    "osm_relation_id": 415526
+  },
+  {
+    "id": "NL-0148",
+    "name": "Dalfsen",
+    "country": "NL",
+    "region": "Overijssel",
+    "domain": "dalfsen.nl",
+    "osm_relation_id": 414684
+  },
+  {
+    "id": "NL-0150",
+    "name": "Deventer",
+    "country": "NL",
+    "region": "Overijssel",
+    "domain": "deventer.nl",
+    "osm_relation_id": 1002142
+  },
+  {
+    "id": "NL-0153",
+    "name": "Enschede",
+    "country": "NL",
+    "region": "Overijssel",
+    "domain": "enschede.nl",
+    "osm_relation_id": 415473
+  },
+  {
+    "id": "NL-0158",
+    "name": "Haaksbergen",
+    "country": "NL",
+    "region": "Overijssel",
+    "domain": "haaksbergen.nl",
+    "osm_relation_id": 415533
+  },
+  {
+    "id": "NL-0160",
+    "name": "Hardenberg",
+    "country": "NL",
+    "region": "Overijssel",
+    "domain": "hardenberg.nl",
+    "osm_relation_id": 414710
+  },
+  {
+    "id": "NL-0163",
+    "name": "Hellendoorn",
+    "country": "NL",
+    "region": "Overijssel",
+    "domain": "hellendoorn.nl",
+    "osm_relation_id": 160999
+  },
+  {
+    "id": "NL-0164",
+    "name": "Hengelo",
+    "country": "NL",
+    "region": "Overijssel",
+    "domain": "hengelo.nl",
+    "osm_relation_id": 404388
+  },
+  {
+    "id": "NL-0166",
+    "name": "Kampen",
+    "country": "NL",
+    "region": "Overijssel",
+    "domain": "kampen.nl",
+    "osm_relation_id": 408101
+  },
+  {
+    "id": "NL-0168",
+    "name": "Losser",
+    "country": "NL",
+    "region": "Overijssel",
+    "domain": "losser.nl",
+    "osm_relation_id": 377702
+  },
+  {
+    "id": "NL-0171",
+    "name": "Noordoostpolder",
+    "country": "NL",
+    "region": "Flevoland",
+    "domain": "noordoostpolder.nl",
+    "osm_relation_id": 47436
+  },
+  {
+    "id": "NL-0173",
+    "name": "Oldenzaal",
+    "country": "NL",
+    "region": "Overijssel",
+    "domain": "oldenzaal.nl",
+    "osm_relation_id": 415447
+  },
+  {
+    "id": "NL-0175",
+    "name": "Ommen",
+    "country": "NL",
+    "region": "Overijssel",
+    "domain": "ommen.nl",
+    "osm_relation_id": 414962
+  },
+  {
+    "id": "NL-0177",
+    "name": "Raalte",
+    "country": "NL",
+    "region": "Overijssel",
+    "domain": "raalte.nl",
+    "osm_relation_id": 416053
+  },
+  {
+    "id": "NL-0180",
+    "name": "Staphorst",
+    "country": "NL",
+    "region": "Overijssel",
+    "domain": "staphorst.nl",
+    "osm_relation_id": 414674
+  },
+  {
+    "id": "NL-0183",
+    "name": "Tubbergen",
+    "country": "NL",
+    "region": "Overijssel",
+    "domain": "tubbergen.nl",
+    "osm_relation_id": 414738
+  },
+  {
+    "id": "NL-0184",
+    "name": "Urk",
+    "country": "NL",
+    "region": "Flevoland",
+    "domain": "urk.nl",
+    "osm_relation_id": 408115
+  },
+  {
+    "id": "NL-0189",
+    "name": "Wierden",
+    "country": "NL",
+    "region": "Overijssel",
+    "domain": "wierden.nl",
+    "osm_relation_id": 415538
+  },
+  {
+    "id": "NL-0193",
+    "name": "Zwolle",
+    "country": "NL",
+    "region": "Overijssel",
+    "domain": "zwolle.nl",
+    "osm_relation_id": 414720
+  },
+  {
+    "id": "NL-0197",
+    "name": "Aalten",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "aalten.nl",
+    "osm_relation_id": 416892
+  },
+  {
+    "id": "NL-0200",
+    "name": "Apeldoorn",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "apeldoorn.nl",
+    "osm_relation_id": 417457
+  },
+  {
+    "id": "NL-0202",
+    "name": "Arnhem",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "arnhem.nl",
+    "osm_relation_id": 418700
+  },
+  {
+    "id": "NL-0203",
+    "name": "Barneveld",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "barneveld.nl",
+    "osm_relation_id": 47671
+  },
+  {
+    "id": "NL-0209",
+    "name": "Beuningen",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "beuningen.nl",
+    "osm_relation_id": 418421
+  },
+  {
+    "id": "NL-0213",
+    "name": "Brummen",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "brummen.nl",
+    "osm_relation_id": 416858
+  },
+  {
+    "id": "NL-0214",
+    "name": "Buren",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "buren.nl",
+    "osm_relation_id": 418901
+  },
+  {
+    "id": "NL-0216",
+    "name": "Culemborg",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "culemborg.nl",
+    "osm_relation_id": 407308
+  },
+  {
+    "id": "NL-0221",
+    "name": "Doesburg",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "doesburg.nl",
+    "osm_relation_id": 417595
+  },
+  {
+    "id": "NL-0222",
+    "name": "Doetinchem",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "doetinchem.nl",
+    "osm_relation_id": 417679
+  },
+  {
+    "id": "NL-0225",
+    "name": "Druten",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "druten.nl",
+    "osm_relation_id": 418690
+  },
+  {
+    "id": "NL-0226",
+    "name": "Duiven",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "duiven.nl",
+    "osm_relation_id": 418389
+  },
+  {
+    "id": "NL-0228",
+    "name": "Ede",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "ede.nl",
+    "osm_relation_id": 418760
+  },
+  {
+    "id": "NL-0230",
+    "name": "Elburg",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "elburg.nl",
+    "osm_relation_id": 409681
+  },
+  {
+    "id": "NL-0232",
+    "name": "Epe",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "epe.nl",
+    "osm_relation_id": 416711
+  },
+  {
+    "id": "NL-0233",
+    "name": "Ermelo",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "ermelo.nl",
+    "osm_relation_id": 409719
+  },
+  {
+    "id": "NL-0243",
+    "name": "Harderwijk",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "harderwijk.nl",
+    "osm_relation_id": 409727
+  },
+  {
+    "id": "NL-0244",
+    "name": "Hattem",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "hattem.nl",
+    "osm_relation_id": 408104
+  },
+  {
+    "id": "NL-0246",
+    "name": "Heerde",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "heerde.nl",
+    "osm_relation_id": 416306
+  },
+  {
+    "id": "NL-0252",
+    "name": "Heumen",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "heumen.nl",
+    "osm_relation_id": 409476
+  },
+  {
+    "id": "NL-0262",
+    "name": "Lochem",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "lochem.nl",
+    "osm_relation_id": 416833
+  },
+  {
+    "id": "NL-0263",
+    "name": "Maasdriel",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "maasdriel.nl",
+    "osm_relation_id": 407353
+  },
+  {
+    "id": "NL-0267",
+    "name": "Nijkerk",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "nijkerk.eu",
+    "osm_relation_id": 419142
+  },
+  {
+    "id": "NL-0268",
+    "name": "Nijmegen",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "nijmegen.nl",
+    "osm_relation_id": 1201020
+  },
+  {
+    "id": "NL-0269",
+    "name": "Oldebroek",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "oldebroek.nl",
+    "osm_relation_id": 408108
+  },
+  {
+    "id": "NL-0273",
+    "name": "Putten",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "putten.nl",
+    "osm_relation_id": 419136
+  },
+  {
+    "id": "NL-0274",
+    "name": "Renkum",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "renkum.nl",
+    "osm_relation_id": 418742
+  },
+  {
+    "id": "NL-0275",
+    "name": "Rheden",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "rheden.nl",
+    "osm_relation_id": 418412
+  },
+  {
+    "id": "NL-0277",
+    "name": "Rozendaal",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "rozendaal.nl",
+    "osm_relation_id": 418417
+  },
+  {
+    "id": "NL-0279",
+    "name": "Scherpenzeel",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "scherpenzeel.nl",
+    "osm_relation_id": 419028
+  },
+  {
+    "id": "NL-0281",
+    "name": "Tiel",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "tiel.nl",
+    "osm_relation_id": 416044
+  },
+  {
+    "id": "NL-0285",
+    "name": "Voorst",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "voorst.nl",
+    "osm_relation_id": 416844
+  },
+  {
+    "id": "NL-0289",
+    "name": "Wageningen",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "wageningen.nl",
+    "osm_relation_id": 418758
+  },
+  {
+    "id": "NL-0293",
+    "name": "Westervoort",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "westervoort.nl",
+    "osm_relation_id": 418393
+  },
+  {
+    "id": "NL-0294",
+    "name": "Winterswijk",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "winterswijk.nl",
+    "osm_relation_id": 416742
+  },
+  {
+    "id": "NL-0296",
+    "name": "Wijchen",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "wijchen.nl",
+    "osm_relation_id": 418420
+  },
+  {
+    "id": "NL-0297",
+    "name": "Zaltbommel",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "zaltbommel.nl",
+    "osm_relation_id": 416009
+  },
+  {
+    "id": "NL-0299",
+    "name": "Zevenaar",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "zevenaar.nl",
+    "osm_relation_id": 417702
+  },
+  {
+    "id": "NL-0301",
+    "name": "Zutphen",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "zutphen.nl",
+    "osm_relation_id": 416840
+  },
+  {
+    "id": "NL-0302",
+    "name": "Nunspeet",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "nunspeet.nl",
+    "osm_relation_id": 409694
+  },
+  {
+    "id": "NL-0303",
+    "name": "Dronten",
+    "country": "NL",
+    "region": "Flevoland",
+    "domain": "dronten.nl",
+    "osm_relation_id": 408114
+  },
+  {
+    "id": "NL-0307",
+    "name": "Amersfoort",
+    "country": "NL",
+    "region": "Utrecht",
+    "domain": "amersfoort.nl",
+    "osm_relation_id": 419152
+  },
+  {
+    "id": "NL-0308",
+    "name": "Baarn",
+    "country": "NL",
+    "region": "Utrecht",
+    "domain": "baarn.nl",
+    "osm_relation_id": 158708
+  },
+  {
+    "id": "NL-0310",
+    "name": "De Bilt",
+    "country": "NL",
+    "region": "Utrecht",
+    "domain": "debilt.nl",
+    "osm_relation_id": 419201
+  },
+  {
+    "id": "NL-0312",
+    "name": "Bunnik",
+    "country": "NL",
+    "region": "Utrecht",
+    "domain": "bunnik.nl",
+    "osm_relation_id": 419208
+  },
+  {
+    "id": "NL-0313",
+    "name": "Bunschoten",
+    "country": "NL",
+    "region": "Utrecht",
+    "domain": "bunschoten.nl",
+    "osm_relation_id": 163548
+  },
+  {
+    "id": "NL-0317",
+    "name": "Eemnes",
+    "country": "NL",
+    "region": "Utrecht",
+    "domain": "eemnes.nl",
+    "osm_relation_id": 419185
+  },
+  {
+    "id": "NL-0321",
+    "name": "Houten",
+    "country": "NL",
+    "region": "Utrecht",
+    "domain": "houten.nl",
+    "osm_relation_id": 419211
+  },
+  {
+    "id": "NL-0327",
+    "name": "Leusden",
+    "country": "NL",
+    "region": "Utrecht",
+    "domain": "leusden.nl",
+    "osm_relation_id": 310005
+  },
+  {
+    "id": "NL-0331",
+    "name": "Lopik",
+    "country": "NL",
+    "region": "Utrecht",
+    "domain": "lopik.nl",
+    "osm_relation_id": 158945
+  },
+  {
+    "id": "NL-0335",
+    "name": "Montfoort",
+    "country": "NL",
+    "region": "Utrecht",
+    "domain": "montfoort.nl",
+    "osm_relation_id": 158935
+  },
+  {
+    "id": "NL-0339",
+    "name": "Renswoude",
+    "country": "NL",
+    "region": "Utrecht",
+    "domain": "renswoude.nl",
+    "osm_relation_id": 418964
+  },
+  {
+    "id": "NL-0340",
+    "name": "Rhenen",
+    "country": "NL",
+    "region": "Utrecht",
+    "domain": "rhenen.nl",
+    "osm_relation_id": 418958
+  },
+  {
+    "id": "NL-0342",
+    "name": "Soest",
+    "country": "NL",
+    "region": "Utrecht",
+    "domain": "soest.nl",
+    "osm_relation_id": 419157
+  },
+  {
+    "id": "NL-0344",
+    "name": "Utrecht",
+    "country": "NL",
+    "region": "Utrecht",
+    "domain": "utrecht.nl",
+    "osm_relation_id": 419203
+  },
+  {
+    "id": "NL-0345",
+    "name": "Veenendaal",
+    "country": "NL",
+    "region": "Utrecht",
+    "domain": "veenendaal.nl",
+    "osm_relation_id": 418793
+  },
+  {
+    "id": "NL-0351",
+    "name": "Woudenberg",
+    "country": "NL",
+    "region": "Utrecht",
+    "domain": "woudenberg.nl",
+    "osm_relation_id": 419036
+  },
+  {
+    "id": "NL-0352",
+    "name": "Wijk bij Duurstede",
+    "country": "NL",
+    "region": "Utrecht",
+    "domain": "wijkbijduurstede.nl",
+    "osm_relation_id": 419180
+  },
+  {
+    "id": "NL-0353",
+    "name": "IJsselstein",
+    "country": "NL",
+    "region": "Utrecht",
+    "domain": "ijsselstein.nl",
+    "osm_relation_id": 310049
+  },
+  {
+    "id": "NL-0355",
+    "name": "Zeist",
+    "country": "NL",
+    "region": "Utrecht",
+    "domain": "zeist.nl",
+    "osm_relation_id": 419197
+  },
+  {
+    "id": "NL-0356",
+    "name": "Nieuwegein",
+    "country": "NL",
+    "region": "Utrecht",
+    "domain": "nieuwegein.nl",
+    "osm_relation_id": 419212
+  },
+  {
+    "id": "NL-0358",
+    "name": "Aalsmeer",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "aalsmeer.nl",
+    "osm_relation_id": 443905
+  },
+  {
+    "id": "NL-0361",
+    "name": "Alkmaar",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "alkmaar.nl",
+    "osm_relation_id": 337391
+  },
+  {
+    "id": "NL-0362",
+    "name": "Amstelveen",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "amstelveen.nl",
+    "osm_relation_id": 157955
+  },
+  {
+    "id": "NL-0363",
+    "name": "Amsterdam",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "amsterdam.nl",
+    "osm_relation_id": 47811
+  },
+  {
+    "id": "NL-0373",
+    "name": "Bergen",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "bergen-nh.nl",
+    "osm_relation_id": 297089
+  },
+  {
+    "id": "NL-0375",
+    "name": "Beverwijk",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "beverwijk.nl",
+    "osm_relation_id": 47577
+  },
+  {
+    "id": "NL-0376",
+    "name": "Blaricum",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "blaricum.nl",
+    "osm_relation_id": 419186
+  },
+  {
+    "id": "NL-0377",
+    "name": "Bloemendaal",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "bloemendaal.nl",
+    "osm_relation_id": 47542
+  },
+  {
+    "id": "NL-0383",
+    "name": "Castricum",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "castricum.nl",
+    "osm_relation_id": 47815
+  },
+  {
+    "id": "NL-0384",
+    "name": "Diemen",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "diemen.nl",
+    "osm_relation_id": 158839
+  },
+  {
+    "id": "NL-0385",
+    "name": "Edam-Volendam",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "edam-volendam.nl",
+    "osm_relation_id": 289463
+  },
+  {
+    "id": "NL-0388",
+    "name": "Enkhuizen",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "enkhuizen.nl",
+    "osm_relation_id": 296469
+  },
+  {
+    "id": "NL-0392",
+    "name": "Haarlem",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "haarlem.nl",
+    "osm_relation_id": 47534
+  },
+  {
+    "id": "NL-0394",
+    "name": "Haarlemmermeer",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "haarlemmermeergemeente.nl",
+    "osm_relation_id": 443890
+  },
+  {
+    "id": "NL-0396",
+    "name": "Heemskerk",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "heemskerk.nl",
+    "osm_relation_id": 47404
+  },
+  {
+    "id": "NL-0397",
+    "name": "Heemstede",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "heemstede.nl",
+    "osm_relation_id": 47394
+  },
+  {
+    "id": "NL-0399",
+    "name": "Heiloo",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "heiloo.nl",
+    "osm_relation_id": 47479
+  },
+  {
+    "id": "NL-0400",
+    "name": "Den Helder",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "denhelder.nl",
+    "osm_relation_id": 297066
+  },
+  {
+    "id": "NL-0402",
+    "name": "Hilversum",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "hilversum.nl",
+    "osm_relation_id": 419190
+  },
+  {
+    "id": "NL-0405",
+    "name": "Hoorn",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "hoorn.nl",
+    "osm_relation_id": 291667
+  },
+  {
+    "id": "NL-0406",
+    "name": "Huizen",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "huizen.nl",
+    "osm_relation_id": 158165
+  },
+  {
+    "id": "NL-0415",
+    "name": "Landsmeer",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "landsmeer.nl",
+    "osm_relation_id": 299486
+  },
+  {
+    "id": "NL-0417",
+    "name": "Laren",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "laren.nl",
+    "osm_relation_id": 419187
+  },
+  {
+    "id": "NL-0420",
+    "name": "Medemblik",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "medemblik.nl",
+    "osm_relation_id": 296462
+  },
+  {
+    "id": "NL-0431",
+    "name": "Oostzaan",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "oostzaan.nl",
+    "osm_relation_id": 289498
+  },
+  {
+    "id": "NL-0432",
+    "name": "Opmeer",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "opmeer.nl",
+    "osm_relation_id": 373618
+  },
+  {
+    "id": "NL-0437",
+    "name": "Ouder-Amstel",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "ouder-amstel.nl",
+    "osm_relation_id": 291718
+  },
+  {
+    "id": "NL-0439",
+    "name": "Purmerend",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "purmerend.nl",
+    "osm_relation_id": 289103
+  },
+  {
+    "id": "NL-0441",
+    "name": "Schagen",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "schagen.nl",
+    "osm_relation_id": 2672878
+  },
+  {
+    "id": "NL-0448",
+    "name": "Texel",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "texel.nl",
+    "osm_relation_id": 296984
+  },
+  {
+    "id": "NL-0450",
+    "name": "Uitgeest",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "uitgeest.nl",
+    "osm_relation_id": 290108
+  },
+  {
+    "id": "NL-0451",
+    "name": "Uithoorn",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "uithoorn.nl",
+    "osm_relation_id": 376289
+  },
+  {
+    "id": "NL-0453",
+    "name": "Velsen",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "velsen.nl",
+    "osm_relation_id": 337638
+  },
+  {
+    "id": "NL-0473",
+    "name": "Zandvoort",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "zandvoort.nl",
+    "osm_relation_id": 47762
+  },
+  {
+    "id": "NL-0479",
+    "name": "Zaanstad",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "zaanstad.nl",
+    "osm_relation_id": 337720
+  },
+  {
+    "id": "NL-0482",
+    "name": "Alblasserdam",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "alblasserdam.nl",
+    "osm_relation_id": 308733
+  },
+  {
+    "id": "NL-0484",
+    "name": "Alphen aan den Rijn",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "alphenaandenrijn.nl",
+    "osm_relation_id": 443831
+  },
+  {
+    "id": "NL-0489",
+    "name": "Barendrecht",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "barendrecht.nl",
+    "osm_relation_id": 308721
+  },
+  {
+    "id": "NL-0498",
+    "name": "Drechterland",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "drechterland.nl",
+    "osm_relation_id": 158748
+  },
+  {
+    "id": "NL-0502",
+    "name": "Capelle aan den IJssel",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "capelleaandenijssel.nl",
+    "osm_relation_id": 301625
+  },
+  {
+    "id": "NL-0503",
+    "name": "Delft",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "delft.nl",
+    "osm_relation_id": 324269
+  },
+  {
+    "id": "NL-0505",
+    "name": "Dordrecht",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "cms.dordrecht.nl",
+    "osm_relation_id": 309478
+  },
+  {
+    "id": "NL-0512",
+    "name": "Gorinchem",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "gorinchem.nl",
+    "osm_relation_id": 309613
+  },
+  {
+    "id": "NL-0513",
+    "name": "Gouda",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "gouda.nl",
+    "osm_relation_id": 300795
+  },
+  {
+    "id": "NL-0518",
+    "name": "Den Haag",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "denhaag.nl",
+    "osm_relation_id": 192736
+  },
+  {
+    "id": "NL-0523",
+    "name": "Hardinxveld-Giessendam",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "hardinxveld-giessendam.nl",
+    "osm_relation_id": 309487
+  },
+  {
+    "id": "NL-0531",
+    "name": "Hendrik-Ido-Ambacht",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "h-i-ambacht.nl",
+    "osm_relation_id": 308728
+  },
+  {
+    "id": "NL-0532",
+    "name": "Stede Broec",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "stedebroec.nl",
+    "osm_relation_id": 296473
+  },
+  {
+    "id": "NL-0534",
+    "name": "Hillegom",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "hillegom.nl",
+    "osm_relation_id": 443916
+  },
+  {
+    "id": "NL-0537",
+    "name": "Katwijk",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "katwijk.nl",
+    "osm_relation_id": 161624
+  },
+  {
+    "id": "NL-0542",
+    "name": "Krimpen aan den IJssel",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "krimpenaandenijssel.nl",
+    "osm_relation_id": 301639
+  },
+  {
+    "id": "NL-0546",
+    "name": "Leiden",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "gemeente.leiden.nl",
+    "osm_relation_id": 444400
+  },
+  {
+    "id": "NL-0547",
+    "name": "Leiderdorp",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "leiderdorp.nl",
+    "osm_relation_id": 161633
+  },
+  {
+    "id": "NL-0553",
+    "name": "Lisse",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "lisse.nl",
+    "osm_relation_id": 443915
+  },
+  {
+    "id": "NL-0556",
+    "name": "Maassluis",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "maassluis.nl",
+    "osm_relation_id": 324400
+  },
+  {
+    "id": "NL-0569",
+    "name": "Nieuwkoop",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "nieuwkoop.nl",
+    "osm_relation_id": 443837
+  },
+  {
+    "id": "NL-0575",
+    "name": "Noordwijk",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "noordwijk.nl",
+    "osm_relation_id": 443912
+  },
+  {
+    "id": "NL-0579",
+    "name": "Oegstgeest",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "oegstgeest.nl",
+    "osm_relation_id": 444068
+  },
+  {
+    "id": "NL-0589",
+    "name": "Oudewater",
+    "country": "NL",
+    "region": "Utrecht",
+    "domain": "oudewater.nl",
+    "osm_relation_id": 158942
+  },
+  {
+    "id": "NL-0590",
+    "name": "Papendrecht",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "papendrecht.nl",
+    "osm_relation_id": 309441
+  },
+  {
+    "id": "NL-0597",
+    "name": "Ridderkerk",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "ridderkerk.nl",
+    "osm_relation_id": 191893
+  },
+  {
+    "id": "NL-0599",
+    "name": "Rotterdam",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "rotterdam.nl",
+    "osm_relation_id": 324431
+  },
+  {
+    "id": "NL-0603",
+    "name": "Rijswijk",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "rijswijk.nl",
+    "osm_relation_id": 311979
+  },
+  {
+    "id": "NL-0606",
+    "name": "Schiedam",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "schiedam.nl",
+    "osm_relation_id": 324296
+  },
+  {
+    "id": "NL-0610",
+    "name": "Sliedrecht",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "sliedrecht.nl",
+    "osm_relation_id": 309444
+  },
+  {
+    "id": "NL-0613",
+    "name": "Albrandswaard",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "albrandswaard.nl",
+    "osm_relation_id": 308718
+  },
+  {
+    "id": "NL-0622",
+    "name": "Vlaardingen",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "vlaardingen.nl",
+    "osm_relation_id": 300902
+  },
+  {
+    "id": "NL-0626",
+    "name": "Voorschoten",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "voorschoten.nl",
+    "osm_relation_id": 444433
+  },
+  {
+    "id": "NL-0627",
+    "name": "Waddinxveen",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "waddinxveen.nl",
+    "osm_relation_id": 443776
+  },
+  {
+    "id": "NL-0629",
+    "name": "Wassenaar",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "en.wassenaar.nl",
+    "osm_relation_id": 444432
+  },
+  {
+    "id": "NL-0632",
+    "name": "Woerden",
+    "country": "NL",
+    "region": "Utrecht",
+    "domain": "woerden.nl",
+    "osm_relation_id": 158549
+  },
+  {
+    "id": "NL-0637",
+    "name": "Zoetermeer",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "zoetermeer.nl",
+    "osm_relation_id": 444099
+  },
+  {
+    "id": "NL-0638",
+    "name": "Zoeterwoude",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "zoeterwoude.nl",
+    "osm_relation_id": 444347
+  },
+  {
+    "id": "NL-0642",
+    "name": "Zwijndrecht",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "zwijndrecht.nl",
+    "osm_relation_id": 308722
+  },
+  {
+    "id": "NL-0654",
+    "name": "Borsele",
+    "country": "NL",
+    "region": "Zeeland",
+    "domain": "borsele.nl",
+    "osm_relation_id": 296229
+  },
+  {
+    "id": "NL-0664",
+    "name": "Goes",
+    "country": "NL",
+    "region": "Zeeland",
+    "domain": "goes.nl",
+    "osm_relation_id": 296413
+  },
+  {
+    "id": "NL-0668",
+    "name": "West Maas en Waal",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "westmaasenwaal.nl",
+    "osm_relation_id": 418425
+  },
+  {
+    "id": "NL-0677",
+    "name": "Hulst",
+    "country": "NL",
+    "region": "Zeeland",
+    "domain": "gemeentehulst.nl",
+    "osm_relation_id": 296119
+  },
+  {
+    "id": "NL-0678",
+    "name": "Kapelle",
+    "country": "NL",
+    "region": "Zeeland",
+    "domain": "kapelle.nl",
+    "osm_relation_id": 296438
+  },
+  {
+    "id": "NL-0687",
+    "name": "Middelburg",
+    "country": "NL",
+    "region": "Zeeland",
+    "domain": "middelburg.nl",
+    "osm_relation_id": 162417
+  },
+  {
+    "id": "NL-0703",
+    "name": "Reimerswaal",
+    "country": "NL",
+    "region": "Zeeland",
+    "domain": "reimerswaal.nl",
+    "osm_relation_id": 296471
+  },
+  {
+    "id": "NL-0715",
+    "name": "Terneuzen",
+    "country": "NL",
+    "region": "Zeeland",
+    "domain": "terneuzen.nl",
+    "osm_relation_id": 47619
+  },
+  {
+    "id": "NL-0716",
+    "name": "Tholen",
+    "country": "NL",
+    "region": "Zeeland",
+    "domain": "tholen.nl",
+    "osm_relation_id": 296482
+  },
+  {
+    "id": "NL-0717",
+    "name": "Veere",
+    "country": "NL",
+    "region": "Zeeland",
+    "domain": "veere.nl",
+    "osm_relation_id": 296241
+  },
+  {
+    "id": "NL-0718",
+    "name": "Vlissingen",
+    "country": "NL",
+    "region": "Zeeland",
+    "domain": "vlissingen.nl",
+    "osm_relation_id": 161150
+  },
+  {
+    "id": "NL-0736",
+    "name": "De Ronde Venen",
+    "country": "NL",
+    "region": "Utrecht",
+    "domain": "derondevenen.nl",
+    "osm_relation_id": 419691
+  },
+  {
+    "id": "NL-0737",
+    "name": "Tytsjerksteradiel",
+    "country": "NL",
+    "region": "Friesland",
+    "domain": "t-diel.nl",
+    "osm_relation_id": 385149
+  },
+  {
+    "id": "NL-0743",
+    "name": "Asten",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "asten.nl",
+    "osm_relation_id": 303197
+  },
+  {
+    "id": "NL-0744",
+    "name": "Baarle-Nassau",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "baarle-nassau.nl",
+    "osm_relation_id": 47798
+  },
+  {
+    "id": "NL-0748",
+    "name": "Bergen op Zoom",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "bergenopzoom.nl",
+    "osm_relation_id": 296882
+  },
+  {
+    "id": "NL-0753",
+    "name": "Best",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "gemeentebest.nl",
+    "osm_relation_id": 164225
+  },
+  {
+    "id": "NL-0755",
+    "name": "Boekel",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "boekel.nl",
+    "osm_relation_id": 300674
+  },
+  {
+    "id": "NL-0757",
+    "name": "Boxtel",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "boxtel.nl",
+    "osm_relation_id": 299989
+  },
+  {
+    "id": "NL-0758",
+    "name": "Breda",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "breda.nl",
+    "osm_relation_id": 297129
+  },
+  {
+    "id": "NL-0762",
+    "name": "Deurne",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "deurne.nl",
+    "osm_relation_id": 303143
+  },
+  {
+    "id": "NL-0765",
+    "name": "Pekela",
+    "country": "NL",
+    "region": "Groningen",
+    "domain": "pekela.nl",
+    "osm_relation_id": 413206
+  },
+  {
+    "id": "NL-0766",
+    "name": "Dongen",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "dongen.nl",
+    "osm_relation_id": 299227
+  },
+  {
+    "id": "NL-0770",
+    "name": "Eersel",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "eersel.nl",
+    "osm_relation_id": 192511
+  },
+  {
+    "id": "NL-0772",
+    "name": "Eindhoven",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "eindhoven.nl",
+    "osm_relation_id": 47504
+  },
+  {
+    "id": "NL-0777",
+    "name": "Etten-Leur",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "etten-leur.nl",
+    "osm_relation_id": 297048
+  },
+  {
+    "id": "NL-0779",
+    "name": "Geertruidenberg",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "geertruidenberg.nl",
+    "osm_relation_id": 299091
+  },
+  {
+    "id": "NL-0784",
+    "name": "Gilze en Rijen",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "gilzerijen.nl",
+    "osm_relation_id": 162703
+  },
+  {
+    "id": "NL-0785",
+    "name": "Goirle",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "goirle.nl",
+    "osm_relation_id": 299322
+  },
+  {
+    "id": "NL-0794",
+    "name": "Helmond",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "helmond.nl",
+    "osm_relation_id": 299983
+  },
+  {
+    "id": "NL-0796",
+    "name": "'s-Hertogenbosch",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "s-hertogenbosch.nl",
+    "osm_relation_id": 162800
+  },
+  {
+    "id": "NL-0797",
+    "name": "Heusden",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "heusden.nl",
+    "osm_relation_id": 299218
+  },
+  {
+    "id": "NL-0798",
+    "name": "Hilvarenbeek",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "hilvarenbeek.nl",
+    "osm_relation_id": 2078297
+  },
+  {
+    "id": "NL-0809",
+    "name": "Loon op Zand",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "loonopzand.nl",
+    "osm_relation_id": 299224
+  },
+  {
+    "id": "NL-0820",
+    "name": "Nuenen c.a.",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "nuenen.nl",
+    "osm_relation_id": 192879
+  },
+  {
+    "id": "NL-0823",
+    "name": "Oirschot",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "oirschot.nl",
+    "osm_relation_id": 299714
+  },
+  {
+    "id": "NL-0824",
+    "name": "Oisterwijk",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "oisterwijk.nl",
+    "osm_relation_id": 299343
+  },
+  {
+    "id": "NL-0826",
+    "name": "Oosterhout",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "oosterhout.nl",
+    "osm_relation_id": 299046
+  },
+  {
+    "id": "NL-0828",
+    "name": "Oss",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "oss.nl",
+    "osm_relation_id": 300631
+  },
+  {
+    "id": "NL-0840",
+    "name": "Rucphen",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "rucphen.nl",
+    "osm_relation_id": 2078299
+  },
+  {
+    "id": "NL-0845",
+    "name": "Sint-Michielsgestel",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "sint-michielsgestel.nl",
+    "osm_relation_id": 299991
+  },
+  {
+    "id": "NL-0847",
+    "name": "Someren",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "someren.nl",
+    "osm_relation_id": 299979
+  },
+  {
+    "id": "NL-0848",
+    "name": "Son en Breugel",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "sonenbreugel.nl",
+    "osm_relation_id": 192878
+  },
+  {
+    "id": "NL-0851",
+    "name": "Steenbergen",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "gemeente-steenbergen.nl",
+    "osm_relation_id": 296914
+  },
+  {
+    "id": "NL-0852",
+    "name": "Waterland",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "waterland.nl",
+    "osm_relation_id": 289288
+  },
+  {
+    "id": "NL-0855",
+    "name": "Tilburg",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "tilburg.nl",
+    "osm_relation_id": 299231
+  },
+  {
+    "id": "NL-0858",
+    "name": "Valkenswaard",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "valkenswaard.nl",
+    "osm_relation_id": 2078313
+  },
+  {
+    "id": "NL-0861",
+    "name": "Veldhoven",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "veldhoven.nl",
+    "osm_relation_id": 299585
+  },
+  {
+    "id": "NL-0865",
+    "name": "Vught",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "vught.nl",
+    "osm_relation_id": 299554
+  },
+  {
+    "id": "NL-0866",
+    "name": "Waalre",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "waalre.nl",
+    "osm_relation_id": 299723
+  },
+  {
+    "id": "NL-0867",
+    "name": "Waalwijk",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "waalwijk.nl",
+    "osm_relation_id": 161404
+  },
+  {
+    "id": "NL-0873",
+    "name": "Woensdrecht",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "woensdrecht.nl",
+    "osm_relation_id": 2078304
+  },
+  {
+    "id": "NL-0879",
+    "name": "Zundert",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "zundert.nl",
+    "osm_relation_id": 2078298
+  },
+  {
+    "id": "NL-0880",
+    "name": "Wormerland",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "wormerland.nl",
+    "osm_relation_id": 47812
+  },
+  {
+    "id": "NL-0882",
+    "name": "Landgraaf",
+    "country": "NL",
+    "region": "Limburg",
+    "domain": "landgraaf.nl",
+    "osm_relation_id": 406384
+  },
+  {
+    "id": "NL-0888",
+    "name": "Beek",
+    "country": "NL",
+    "region": "Limburg",
+    "domain": "gemeentebeek.nl",
+    "osm_relation_id": 305751
+  },
+  {
+    "id": "NL-0889",
+    "name": "Beesel",
+    "country": "NL",
+    "region": "Limburg",
+    "domain": "beesel.nl",
+    "osm_relation_id": 405004
+  },
+  {
+    "id": "NL-0893",
+    "name": "Bergen",
+    "country": "NL",
+    "region": "Limburg",
+    "domain": "bergen.nl",
+    "osm_relation_id": 405107
+  },
+  {
+    "id": "NL-0899",
+    "name": "Brunssum",
+    "country": "NL",
+    "region": "Limburg",
+    "domain": "brunssum.nl",
+    "osm_relation_id": 406068
+  },
+  {
+    "id": "NL-0907",
+    "name": "Gennep",
+    "country": "NL",
+    "region": "Limburg",
+    "domain": "gennep.nl",
+    "osm_relation_id": 406614
+  },
+  {
+    "id": "NL-0917",
+    "name": "Heerlen",
+    "country": "NL",
+    "region": "Limburg",
+    "domain": "heerlen.nl",
+    "osm_relation_id": 406105
+  },
+  {
+    "id": "NL-0928",
+    "name": "Kerkrade",
+    "country": "NL",
+    "region": "Limburg",
+    "domain": "kerkrade.nl",
+    "osm_relation_id": 406420
+  },
+  {
+    "id": "NL-0935",
+    "name": "Maastricht",
+    "country": "NL",
+    "region": "Limburg",
+    "domain": "gemeentemaastricht.nl",
+    "osm_relation_id": 2078291
+  },
+  {
+    "id": "NL-0938",
+    "name": "Meerssen",
+    "country": "NL",
+    "region": "Limburg",
+    "domain": "meerssen.nl",
+    "osm_relation_id": 2078290
+  },
+  {
+    "id": "NL-0944",
+    "name": "Mook en Middelaar",
+    "country": "NL",
+    "region": "Limburg",
+    "domain": "mookenmiddelaar.nl",
+    "osm_relation_id": 304569
+  },
+  {
+    "id": "NL-0946",
+    "name": "Nederweert",
+    "country": "NL",
+    "region": "Limburg",
+    "domain": "nederweert.nl",
+    "osm_relation_id": 304125
+  },
+  {
+    "id": "NL-0957",
+    "name": "Roermond",
+    "country": "NL",
+    "region": "Limburg",
+    "domain": "roermond.nl",
+    "osm_relation_id": 405146
+  },
+  {
+    "id": "NL-0965",
+    "name": "Simpelveld",
+    "country": "NL",
+    "region": "Limburg",
+    "domain": "simpelveld.nl",
+    "osm_relation_id": 406428
+  },
+  {
+    "id": "NL-0971",
+    "name": "Stein",
+    "country": "NL",
+    "region": "Limburg",
+    "domain": "gemeentestein.nl",
+    "osm_relation_id": 2078288
+  },
+  {
+    "id": "NL-0981",
+    "name": "Vaals",
+    "country": "NL",
+    "region": "Limburg",
+    "domain": "vaals.nl",
+    "osm_relation_id": 406607
+  },
+  {
+    "id": "NL-0983",
+    "name": "Venlo",
+    "country": "NL",
+    "region": "Limburg",
+    "domain": "venlo.nl",
+    "osm_relation_id": 405106
+  },
+  {
+    "id": "NL-0984",
+    "name": "Venray",
+    "country": "NL",
+    "region": "Limburg",
+    "domain": "venray.nl",
+    "osm_relation_id": 298932
+  },
+  {
+    "id": "NL-0986",
+    "name": "Voerendaal",
+    "country": "NL",
+    "region": "Limburg",
+    "domain": "voerendaal.nl",
+    "osm_relation_id": 305705
+  },
+  {
+    "id": "NL-0988",
+    "name": "Weert",
+    "country": "NL",
+    "region": "Limburg",
+    "domain": "weert.nl",
+    "osm_relation_id": 2078294
+  },
+  {
+    "id": "NL-0994",
+    "name": "Valkenburg aan de Geul",
+    "country": "NL",
+    "region": "Limburg",
+    "domain": "valkenburg.nl",
+    "osm_relation_id": 305364
+  },
+  {
+    "id": "NL-0995",
+    "name": "Lelystad",
+    "country": "NL",
+    "region": "Flevoland",
+    "domain": "lelystad.nl",
+    "osm_relation_id": 409806
+  },
+  {
+    "id": "NL-1507",
+    "name": "Horst aan de Maas",
+    "country": "NL",
+    "region": "Limburg",
+    "domain": "horstaandemaas.nl",
+    "osm_relation_id": 298931
+  },
+  {
+    "id": "NL-1509",
+    "name": "Oude IJsselstreek",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "oude-ijsselstreek.nl",
+    "osm_relation_id": 417140
+  },
+  {
+    "id": "NL-1525",
+    "name": "Teylingen",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "teylingen.nl",
+    "osm_relation_id": 444071
+  },
+  {
+    "id": "NL-1581",
+    "name": "Utrechtse Heuvelrug",
+    "country": "NL",
+    "region": "Utrecht",
+    "domain": "heuvelrug.nl",
+    "osm_relation_id": 419184
+  },
+  {
+    "id": "NL-1586",
+    "name": "Oost Gelre",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "oostgelre.nl",
+    "osm_relation_id": 416729
+  },
+  {
+    "id": "NL-1598",
+    "name": "Koggenland",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "koggenland.nl",
+    "osm_relation_id": 161930
+  },
+  {
+    "id": "NL-1621",
+    "name": "Lansingerland",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "lansingerland.nl",
+    "osm_relation_id": 311913
+  },
+  {
+    "id": "NL-1640",
+    "name": "Leudal",
+    "country": "NL",
+    "region": "Limburg",
+    "domain": "leudal.nl",
+    "osm_relation_id": 304007
+  },
+  {
+    "id": "NL-1641",
+    "name": "Maasgouw",
+    "country": "NL",
+    "region": "Limburg",
+    "domain": "gemeentemaasgouw.nl",
+    "osm_relation_id": 2078293
+  },
+  {
+    "id": "NL-1652",
+    "name": "Gemert-Bakel",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "gemert-bakel.nl",
+    "osm_relation_id": 303056
+  },
+  {
+    "id": "NL-1655",
+    "name": "Halderberge",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "halderberge.nl",
+    "osm_relation_id": 296956
+  },
+  {
+    "id": "NL-1658",
+    "name": "Heeze-Leende",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "heeze-leende.nl",
+    "osm_relation_id": 2078296
+  },
+  {
+    "id": "NL-1659",
+    "name": "Laarbeek",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "laarbeek.nl",
+    "osm_relation_id": 300673
+  },
+  {
+    "id": "NL-1667",
+    "name": "Reusel-De Mierden",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "reuseldemierden.nl",
+    "osm_relation_id": 299560
+  },
+  {
+    "id": "NL-1669",
+    "name": "Roerdalen",
+    "country": "NL",
+    "region": "Limburg",
+    "domain": "roerdalen.nl",
+    "osm_relation_id": 405207
+  },
+  {
+    "id": "NL-1674",
+    "name": "Roosendaal",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "roosendaal.nl",
+    "osm_relation_id": 2078302
+  },
+  {
+    "id": "NL-1676",
+    "name": "Schouwen-Duiveland",
+    "country": "NL",
+    "region": "Zeeland",
+    "domain": "schouwen-duiveland.nl",
+    "osm_relation_id": 296493
+  },
+  {
+    "id": "NL-1680",
+    "name": "Aa en Hunze",
+    "country": "NL",
+    "region": "Drenthe",
+    "domain": "aaenhunze.nl",
+    "osm_relation_id": 413319
+  },
+  {
+    "id": "NL-1681",
+    "name": "Borger-Odoorn",
+    "country": "NL",
+    "region": "Drenthe",
+    "domain": "borger-odoorn.nl",
+    "osm_relation_id": 413426
+  },
+  {
+    "id": "NL-1690",
+    "name": "De Wolden",
+    "country": "NL",
+    "region": "Drenthe",
+    "domain": "dewolden.nl",
+    "osm_relation_id": 414136
+  },
+  {
+    "id": "NL-1695",
+    "name": "Noord-Beveland",
+    "country": "NL",
+    "region": "Zeeland",
+    "domain": "noord-beveland.nl",
+    "osm_relation_id": 296359
+  },
+  {
+    "id": "NL-1696",
+    "name": "Wijdemeren",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "wijdemeren.nl",
+    "osm_relation_id": 419534
+  },
+  {
+    "id": "NL-1699",
+    "name": "Noordenveld",
+    "country": "NL",
+    "region": "Drenthe",
+    "domain": "noordenveld.nl",
+    "osm_relation_id": 410552
+  },
+  {
+    "id": "NL-1700",
+    "name": "Twenterand",
+    "country": "NL",
+    "region": "Overijssel",
+    "domain": "twenterand.nl",
+    "osm_relation_id": 414728
+  },
+  {
+    "id": "NL-1701",
+    "name": "Westerveld",
+    "country": "NL",
+    "region": "Drenthe",
+    "domain": "gemeentewesterveld.nl",
+    "osm_relation_id": 413783
+  },
+  {
+    "id": "NL-1705",
+    "name": "Lingewaard",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "lingewaard.nl",
+    "osm_relation_id": 417804
+  },
+  {
+    "id": "NL-1706",
+    "name": "Cranendonck",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "cranendonck.nl",
+    "osm_relation_id": 2078295
+  },
+  {
+    "id": "NL-1708",
+    "name": "Steenwijkerland",
+    "country": "NL",
+    "region": "Overijssel",
+    "domain": "steenwijkerland.nl",
+    "osm_relation_id": 414654
+  },
+  {
+    "id": "NL-1709",
+    "name": "Moerdijk",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "moerdijk.nl",
+    "osm_relation_id": 297074
+  },
+  {
+    "id": "NL-1711",
+    "name": "Echt-Susteren",
+    "country": "NL",
+    "region": "Limburg",
+    "domain": "echt-susteren.nl",
+    "osm_relation_id": 2078286
+  },
+  {
+    "id": "NL-1714",
+    "name": "Sluis",
+    "country": "NL",
+    "region": "Zeeland",
+    "domain": "gemeentesluis.nl",
+    "osm_relation_id": 295460
+  },
+  {
+    "id": "NL-1719",
+    "name": "Drimmelen",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "drimmelen.nl",
+    "osm_relation_id": 297464
+  },
+  {
+    "id": "NL-1721",
+    "name": "Bernheze",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "bernheze.org",
+    "osm_relation_id": 2728416
+  },
+  {
+    "id": "NL-1723",
+    "name": "Alphen-Chaam",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "alphen-chaam.nl",
+    "osm_relation_id": 297220
+  },
+  {
+    "id": "NL-1724",
+    "name": "Bergeijk",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "bergeijk.nl",
+    "osm_relation_id": 299577
+  },
+  {
+    "id": "NL-1728",
+    "name": "Bladel",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "bladel.nl",
+    "osm_relation_id": 299565
+  },
+  {
+    "id": "NL-1729",
+    "name": "Gulpen-Wittem",
+    "country": "NL",
+    "region": "Limburg",
+    "domain": "gulpen-wittem.nl",
+    "osm_relation_id": 2078283
+  },
+  {
+    "id": "NL-1730",
+    "name": "Tynaarlo",
+    "country": "NL",
+    "region": "Drenthe",
+    "domain": "tynaarlo.nl",
+    "osm_relation_id": 411985
+  },
+  {
+    "id": "NL-1731",
+    "name": "Midden-Drenthe",
+    "country": "NL",
+    "region": "Drenthe",
+    "domain": "middendrenthe.nl",
+    "osm_relation_id": 377545
+  },
+  {
+    "id": "NL-1734",
+    "name": "Overbetuwe",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "overbetuwe.nl",
+    "osm_relation_id": 418687
+  },
+  {
+    "id": "NL-1735",
+    "name": "Hof van Twente",
+    "country": "NL",
+    "region": "Overijssel",
+    "domain": "hofvantwente.nl",
+    "osm_relation_id": 416052
+  },
+  {
+    "id": "NL-1740",
+    "name": "Neder-Betuwe",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "nederbetuwe.nl",
+    "osm_relation_id": 418695
+  },
+  {
+    "id": "NL-1742",
+    "name": "Rijssen-Holten",
+    "country": "NL",
+    "region": "Overijssel",
+    "domain": "rijssen-holten.nl",
+    "osm_relation_id": 415541
+  },
+  {
+    "id": "NL-1771",
+    "name": "Geldrop-Mierlo",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "en.geldrop-mierlo.nl",
+    "osm_relation_id": 162911
+  },
+  {
+    "id": "NL-1773",
+    "name": "Olst-Wijhe",
+    "country": "NL",
+    "region": "Overijssel",
+    "domain": "olst-wijhe.nl",
+    "osm_relation_id": 533782
+  },
+  {
+    "id": "NL-1774",
+    "name": "Dinkelland",
+    "country": "NL",
+    "region": "Overijssel",
+    "domain": "dinkelland.nl",
+    "osm_relation_id": 414748
+  },
+  {
+    "id": "NL-1783",
+    "name": "Westland",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "gemeentewestland.nl",
+    "osm_relation_id": 324389
+  },
+  {
+    "id": "NL-1842",
+    "name": "Midden-Delfland",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "middendelfland.nl",
+    "osm_relation_id": 324270
+  },
+  {
+    "id": "NL-1859",
+    "name": "Berkelland",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "gemeenteberkelland.nl",
+    "osm_relation_id": 416728
+  },
+  {
+    "id": "NL-1876",
+    "name": "Bronckhorst",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "bronckhorst.nl",
+    "osm_relation_id": 417454
+  },
+  {
+    "id": "NL-1883",
+    "name": "Sittard-Geleen",
+    "country": "NL",
+    "region": "Limburg",
+    "domain": "sittard-geleen.nl",
+    "osm_relation_id": 405681
+  },
+  {
+    "id": "NL-1884",
+    "name": "Kaag en Braassem",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "kaagenbraassem.nl",
+    "osm_relation_id": 444054
+  },
+  {
+    "id": "NL-1891",
+    "name": "Dantumadiel",
+    "country": "NL",
+    "region": "Friesland",
+    "domain": "dantumadiel.frl",
+    "osm_relation_id": 384840
+  },
+  {
+    "id": "NL-1892",
+    "name": "Zuidplas",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "zuidplas.nl",
+    "osm_relation_id": 298919
+  },
+  {
+    "id": "NL-1894",
+    "name": "Peel en Maas",
+    "country": "NL",
+    "region": "Limburg",
+    "domain": "peelenmaas.nl",
+    "osm_relation_id": 188858
+  },
+  {
+    "id": "NL-1895",
+    "name": "Oldambt",
+    "country": "NL",
+    "region": "Groningen",
+    "domain": "gemeente-oldambt.nl",
+    "osm_relation_id": 412348
+  },
+  {
+    "id": "NL-1896",
+    "name": "Zwartewaterland",
+    "country": "NL",
+    "region": "Overijssel",
+    "domain": "zwartewaterland.nl",
+    "osm_relation_id": 414656
+  },
+  {
+    "id": "NL-1900",
+    "name": "Súdwest-Fryslân",
+    "country": "NL",
+    "region": "Friesland",
+    "domain": "sudwestfryslan.nl",
+    "osm_relation_id": 1357943
+  },
+  {
+    "id": "NL-1901",
+    "name": "Bodegraven-Reeuwijk",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "bodegraven-reeuwijk.nl",
+    "osm_relation_id": 1357938
+  },
+  {
+    "id": "NL-1903",
+    "name": "Eijsden-Margraten",
+    "country": "NL",
+    "region": "Limburg",
+    "domain": "eijsden-margraten.nl",
+    "osm_relation_id": 305282
+  },
+  {
+    "id": "NL-1904",
+    "name": "Stichtse Vecht",
+    "country": "NL",
+    "region": "Utrecht",
+    "domain": "stichtsevecht.nl",
+    "osm_relation_id": 1357924
+  },
+  {
+    "id": "NL-1911",
+    "name": "Hollands Kroon",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "hollandskroon.nl",
+    "osm_relation_id": 1946377
+  },
+  {
+    "id": "NL-1916",
+    "name": "Leidschendam-Voorburg",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "lv.nl",
+    "osm_relation_id": 444355
+  },
+  {
+    "id": "NL-1924",
+    "name": "Goeree-Overflakkee",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "goeree-overflakkee.nl",
+    "osm_relation_id": 2672880
+  },
+  {
+    "id": "NL-1926",
+    "name": "Pijnacker-Nootdorp",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "pijnacker-nootdorp.nl",
+    "osm_relation_id": 162257
+  },
+  {
+    "id": "NL-1930",
+    "name": "Nissewaard",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "nissewaard.nl",
+    "osm_relation_id": 4446174
+  },
+  {
+    "id": "NL-1931",
+    "name": "Krimpenerwaard",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "krimpenerwaard.nl",
+    "osm_relation_id": 4446173
+  },
+  {
+    "id": "NL-1940",
+    "name": "De Fryske Marren",
+    "country": "NL",
+    "region": "Friesland",
+    "domain": "defryskemarren.nl",
+    "osm_relation_id": 3410689
+  },
+  {
+    "id": "NL-1942",
+    "name": "Gooise Meren",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "gooisemeren.nl",
+    "osm_relation_id": 5816820
+  },
+  {
+    "id": "NL-1945",
+    "name": "Berg en Dal",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "bergendal.nl",
+    "osm_relation_id": 417811
+  },
+  {
+    "id": "NL-1948",
+    "name": "Meierijstad",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "meierijstad.nl",
+    "osm_relation_id": 6838008
+  },
+  {
+    "id": "NL-1949",
+    "name": "Waadhoeke",
+    "country": "NL",
+    "region": "Friesland",
+    "domain": "waadhoeke.nl",
+    "osm_relation_id": 7857977
+  },
+  {
+    "id": "NL-1950",
+    "name": "Westerwolde",
+    "country": "NL",
+    "region": "Groningen",
+    "domain": "westerwolde.nl",
+    "osm_relation_id": 7857979
+  },
+  {
+    "id": "NL-1952",
+    "name": "Midden-Groningen",
+    "country": "NL",
+    "region": "Groningen",
+    "domain": "midden-groningen.nl",
+    "osm_relation_id": 7857978
+  },
+  {
+    "id": "NL-1954",
+    "name": "Beekdaelen",
+    "country": "NL",
+    "region": "Limburg",
+    "domain": "beekdaelen.nl",
+    "osm_relation_id": 9172180
+  },
+  {
+    "id": "NL-1955",
+    "name": "Montferland",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "montferland.info",
+    "osm_relation_id": 417701
+  },
+  {
+    "id": "NL-1959",
+    "name": "Altena",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "gemeentealtena.nl",
+    "osm_relation_id": 9172181
+  },
+  {
+    "id": "NL-1960",
+    "name": "West Betuwe",
+    "country": "NL",
+    "region": "Gelderland",
+    "domain": "westbetuwe.nl",
+    "osm_relation_id": 9172185
+  },
+  {
+    "id": "NL-1961",
+    "name": "Vijfheerenlanden",
+    "country": "NL",
+    "region": "Utrecht",
+    "domain": "vijfheerenlanden.nl",
+    "osm_relation_id": 9172184
+  },
+  {
+    "id": "NL-1963",
+    "name": "Hoeksche Waard",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "gemeentehw.nl",
+    "osm_relation_id": 9172183
+  },
+  {
+    "id": "NL-1966",
+    "name": "Het Hogeland",
+    "country": "NL",
+    "region": "Groningen",
+    "domain": "hethogeland.nl",
+    "osm_relation_id": 9172188
+  },
+  {
+    "id": "NL-1969",
+    "name": "Westerkwartier",
+    "country": "NL",
+    "region": "Groningen",
+    "domain": "westerkwartier.nl",
+    "osm_relation_id": 9172187
+  },
+  {
+    "id": "NL-1970",
+    "name": "Noardeast-Fryslân",
+    "country": "NL",
+    "region": "Friesland",
+    "domain": "noardeast-fryslan.nl",
+    "osm_relation_id": 9172186
+  },
+  {
+    "id": "NL-1978",
+    "name": "Molenlanden",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "molenlanden.nl",
+    "osm_relation_id": 9172182
+  },
+  {
+    "id": "NL-1979",
+    "name": "Eemsdelta",
+    "country": "NL",
+    "region": "Groningen",
+    "domain": "eemsdelta.nl",
+    "osm_relation_id": 12118634
+  },
+  {
+    "id": "NL-1980",
+    "name": "Dijk en Waard",
+    "country": "NL",
+    "region": "Noord-Holland",
+    "domain": "dijkenwaard.nl",
+    "osm_relation_id": 13621788
+  },
+  {
+    "id": "NL-1982",
+    "name": "Land van Cuijk",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "gemeentelandvancuijk.nl",
+    "osm_relation_id": 13621786
+  },
+  {
+    "id": "NL-1991",
+    "name": "Maashorst",
+    "country": "NL",
+    "region": "Noord-Brabant",
+    "domain": "gemeentemaashorst.nl",
+    "osm_relation_id": 13621787
+  },
+  {
+    "id": "NL-1992",
+    "name": "Voorne aan Zee",
+    "country": "NL",
+    "region": "Zuid-Holland",
+    "domain": "voorneaanzee.nl",
+    "osm_relation_id": 15070820
+  }
+]

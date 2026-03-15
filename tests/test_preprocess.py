@@ -109,6 +109,14 @@ class TestGuessDomains:
         domains = guess_domains("Powiat Krakowski", "PL")
         assert "krakowski.pl" in domains or "krakowski.gov.pl" in domains
 
+    def test_irish_fada(self):
+        domains = guess_domains("Dún Laoghaire–Rathdown County Council", "IE")
+        assert any("dun-laoghaire" in d for d in domains)
+
+    def test_irish_suffix_strip(self):
+        domains = guess_domains("Kerry County Council", "IE")
+        assert "kerry.ie" in domains
+
 
 # ── load_seed_data() ─────────────────────────────────────────────────
 
@@ -117,7 +125,7 @@ class TestLoadSeedData:
     def test_loads_all_countries(self):
         data = load_seed_data()
         countries = {m.get("country") for m in data.values()}
-        assert countries >= {"EE", "LV", "LT", "FI", "NO", "SE", "DE", "DK"}
+        assert countries >= {"EE", "LV", "LT", "FI", "NO", "SE", "DE", "DK", "IE"}
 
     def test_minimum_count(self):
         data = load_seed_data()

@@ -42,6 +42,9 @@ SEED_FILES = {
     "FR": "municipalities_fr.json",
     "PL": "municipalities_pl.json",
     "PT": "municipalities_pt.json",
+    "IT": "municipalities_it.json",
+    "NL": "municipalities_nl.json",
+    "IE": "municipalities_ie.json",
 }
 
 
@@ -81,6 +84,11 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         "câmara municipal de ",
         "câmara municipal do ",
         "câmara municipal da ",
+        "provincia di ",
+        "provincia del ",
+        "provincia della ",
+        "città metropolitana di ",
+        "gemeente ",  # Dutch
     ]:
         if raw.startswith(prefix):
             raw = raw[len(prefix) :]
@@ -106,6 +114,9 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         "hreppur",
         "sveit",
         "kaupstaður",  # Icelandic
+        " county council",
+        " city council",
+        " city and county council",  # Irish
     ]:
         if raw.endswith(suffix):
             raw = raw[: -len(suffix)]
@@ -220,6 +231,9 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         "FR": [".fr", ".gouv.fr"],
         "PL": [".pl", ".gov.pl"],
         "PT": [".pt"],
+        "IT": [".it", ".gov.it"],
+        "NL": [".nl"],
+        "IE": [".ie"],
     }
     tlds = tld_map.get(
         country, [".ee", ".lv", ".lt", ".fi", ".no", ".se", ".de", ".dk"]
@@ -362,10 +376,21 @@ async def scan_municipality(
         return entry
 
 
-async def run(output_path: Path) -> None:
-    municipalities = load_seed_data()
-    total = len(municipalities)
+async def run(output_path: Path, countries: list[str] | None = None) -> None:
+    all_municipalities = load_seed_data()
 
+    # Filter by country if specified
+    if countries:
+        municipalities = {
+            k: v
+            for k, v in all_municipalities.items()
+            if v.get("country", "") in countries
+        }
+        print(f"\nFiltering to countries: {', '.join(countries)}")
+    else:
+        municipalities = all_municipalities
+
+    total = len(municipalities)
     print(f"\nScanning {total} municipalities for MX/SPF records...")
     print("(This takes a few minutes with async lookups)\n")
 
@@ -412,7 +437,26 @@ async def run(output_path: Path) -> None:
     print(f"  Unknown/No MX   : {counts.get('unknown', 0):>5}")
     print(f"{'=' * 50}")
 
-    sorted_counts = dict(sorted(counts.items()))
+    # Merge with existing data.json when filtering by country
+    if countries and output_path.exists():
+        with open(output_path, encoding="utf-8") as f:
+            existing = json.load(f)
+        existing_munis = existing.get("municipalities", {})
+        # Remove old entries for the filtered countries, keep the rest
+        merged = {
+            k: v
+            for k, v in existing_munis.items()
+            if v.get("country", "") not in countries
+        }
+        merged.update(results)
+        results = merged
+        print(f"  Merged with existing data: {len(results)} total")
+
+    sorted_counts = {}
+    for r in results.values():
+        p = r.get("provider", "unknown")
+        sorted_counts[p] = sorted_counts.get(p, 0) + 1
+    sorted_counts = dict(sorted(sorted_counts.items()))
     sorted_munis = dict(sorted(results.items()))
 
     output = {

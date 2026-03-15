@@ -1,0 +1,1410 @@
+[
+  {
+    "id": "IT-TO",
+    "name": "Torino",
+    "country": "IT",
+    "region": "Piemonte",
+    "domain": "cittametropolitana.torino.it",
+    "osm_relation_id": 44874
+  },
+  {
+    "id": "IT-VC",
+    "name": "Vercelli",
+    "country": "IT",
+    "region": "Piemonte",
+    "domain": "provincia.vercelli.it",
+    "osm_relation_id": 44872
+  },
+  {
+    "id": "IT-NO",
+    "name": "Novara",
+    "country": "IT",
+    "region": "Piemonte",
+    "domain": "provincia.novara.it",
+    "osm_relation_id": 44878
+  },
+  {
+    "id": "IT-CN",
+    "name": "Cuneo",
+    "country": "IT",
+    "region": "Piemonte",
+    "domain": "provincia.cuneo.it",
+    "osm_relation_id": 44880
+  },
+  {
+    "id": "IT-AT",
+    "name": "Asti",
+    "country": "IT",
+    "region": "Piemonte",
+    "domain": "provincia.asti.it",
+    "osm_relation_id": 44876
+  },
+  {
+    "id": "IT-AL",
+    "name": "Alessandria",
+    "country": "IT",
+    "region": "Piemonte",
+    "domain": "provincia.alessandria.it",
+    "osm_relation_id": 44873
+  },
+  {
+    "id": "IT-BI",
+    "name": "Biella",
+    "country": "IT",
+    "region": "Piemonte",
+    "domain": "provincia.biella.it",
+    "osm_relation_id": 44877
+  },
+  {
+    "id": "IT-VB",
+    "name": "Verbano-Cusio-Ossola",
+    "country": "IT",
+    "region": "Piemonte",
+    "domain": "provincia.verbano-cusio-ossola.it",
+    "osm_relation_id": 44879
+  },
+  {
+    "id": "IT-AO",
+    "name": "Aosta",
+    "country": "IT",
+    "region": "Valle d'Aosta",
+    "domain": "regione.vda.it",
+    "osm_relation_id": 44884
+  },
+  {
+    "id": "IT-MI",
+    "name": "Milano",
+    "country": "IT",
+    "region": "Lombardia",
+    "domain": "cittametropolitana.mi.it",
+    "osm_relation_id": 44886
+  },
+  {
+    "id": "IT-VA",
+    "name": "Varese",
+    "country": "IT",
+    "region": "Lombardia",
+    "domain": "provincia.va.it",
+    "osm_relation_id": 44888
+  },
+  {
+    "id": "IT-CO",
+    "name": "Como",
+    "country": "IT",
+    "region": "Lombardia",
+    "domain": "provincia.como.it",
+    "osm_relation_id": 44889
+  },
+  {
+    "id": "IT-SO",
+    "name": "Sondrio",
+    "country": "IT",
+    "region": "Lombardia",
+    "domain": "provincia.sondrio.it",
+    "osm_relation_id": 44891
+  },
+  {
+    "id": "IT-BG",
+    "name": "Bergamo",
+    "country": "IT",
+    "region": "Lombardia",
+    "domain": "provincia.bergamo.it",
+    "osm_relation_id": 44892
+  },
+  {
+    "id": "IT-BS",
+    "name": "Brescia",
+    "country": "IT",
+    "region": "Lombardia",
+    "domain": "provincia.brescia.it",
+    "osm_relation_id": 44893
+  },
+  {
+    "id": "IT-PV",
+    "name": "Pavia",
+    "country": "IT",
+    "region": "Lombardia",
+    "domain": "provincia.pv.it",
+    "osm_relation_id": 44885
+  },
+  {
+    "id": "IT-CR",
+    "name": "Cremona",
+    "country": "IT",
+    "region": "Lombardia",
+    "domain": "provincia.cremona.it",
+    "osm_relation_id": 44894
+  },
+  {
+    "id": "IT-MN",
+    "name": "Mantova",
+    "country": "IT",
+    "region": "Lombardia",
+    "domain": "provincia.mantova.it",
+    "osm_relation_id": 44895
+  },
+  {
+    "id": "IT-LC",
+    "name": "Lecco",
+    "country": "IT",
+    "region": "Lombardia",
+    "domain": "provincia.lecco.it",
+    "osm_relation_id": 44890
+  },
+  {
+    "id": "IT-LO",
+    "name": "Lodi",
+    "country": "IT",
+    "region": "Lombardia",
+    "domain": "provincia.lodi.it",
+    "osm_relation_id": 44896
+  },
+  {
+    "id": "IT-MB",
+    "name": "Monza e della Brianza",
+    "country": "IT",
+    "region": "Lombardia",
+    "domain": "provincia.mb.it",
+    "osm_relation_id": 44887
+  },
+  {
+    "id": "IT-BZ",
+    "name": "Bolzano",
+    "country": "IT",
+    "region": "Trentino-Alto Adige",
+    "domain": "provincia.bz.it",
+    "osm_relation_id": 45757
+  },
+  {
+    "id": "IT-TN",
+    "name": "Trento",
+    "country": "IT",
+    "region": "Trentino-Alto Adige",
+    "domain": "provincia.tn.it",
+    "osm_relation_id": 45759
+  },
+  {
+    "id": "IT-VE",
+    "name": "Venezia",
+    "country": "IT",
+    "region": "Veneto",
+    "domain": "cittametropolitana.ve.it",
+    "osm_relation_id": 44898
+  },
+  {
+    "id": "IT-VR",
+    "name": "Verona",
+    "country": "IT",
+    "region": "Veneto",
+    "domain": "provincia.vr.it",
+    "osm_relation_id": 44900
+  },
+  {
+    "id": "IT-VI",
+    "name": "Vicenza",
+    "country": "IT",
+    "region": "Veneto",
+    "domain": "provincia.vicenza.it",
+    "osm_relation_id": 44899
+  },
+  {
+    "id": "IT-BL",
+    "name": "Belluno",
+    "country": "IT",
+    "region": "Veneto",
+    "domain": "provincia.belluno.it",
+    "osm_relation_id": 44901
+  },
+  {
+    "id": "IT-TV",
+    "name": "Treviso",
+    "country": "IT",
+    "region": "Veneto",
+    "domain": "provincia.treviso.it",
+    "osm_relation_id": 44897
+  },
+  {
+    "id": "IT-PD",
+    "name": "Padova",
+    "country": "IT",
+    "region": "Veneto",
+    "domain": "provincia.pd.it",
+    "osm_relation_id": 44902
+  },
+  {
+    "id": "IT-RO",
+    "name": "Rovigo",
+    "country": "IT",
+    "region": "Veneto",
+    "domain": "provincia.rovigo.it",
+    "osm_relation_id": 44903
+  },
+  {
+    "id": "IT-UD",
+    "name": "Udine",
+    "country": "IT",
+    "region": "Friuli Venezia Giulia",
+    "domain": "provincia.udine.it",
+    "osm_relation_id": 179293
+  },
+  {
+    "id": "IT-GO",
+    "name": "Gorizia",
+    "country": "IT",
+    "region": "Friuli Venezia Giulia",
+    "domain": "provincia.gorizia.it",
+    "osm_relation_id": 179296
+  },
+  {
+    "id": "IT-TS",
+    "name": "Trieste",
+    "country": "IT",
+    "region": "Friuli Venezia Giulia",
+    "domain": "provincia.trieste.it",
+    "osm_relation_id": 179297
+  },
+  {
+    "id": "IT-PN",
+    "name": "Pordenone",
+    "country": "IT",
+    "region": "Friuli Venezia Giulia",
+    "domain": "provincia.pordenone.it",
+    "osm_relation_id": 179294
+  },
+  {
+    "id": "IT-GE",
+    "name": "Genova",
+    "country": "IT",
+    "region": "Liguria",
+    "domain": "cittametropolitana.genova.it",
+    "osm_relation_id": 301482
+  },
+  {
+    "id": "IT-IM",
+    "name": "Imperia",
+    "country": "IT",
+    "region": "Liguria",
+    "domain": "provincia.imperia.it",
+    "osm_relation_id": 301472
+  },
+  {
+    "id": "IT-SV",
+    "name": "Savona",
+    "country": "IT",
+    "region": "Liguria",
+    "domain": "provincia.savona.it",
+    "osm_relation_id": 301477
+  },
+  {
+    "id": "IT-SP",
+    "name": "La Spezia",
+    "country": "IT",
+    "region": "Liguria",
+    "domain": "provincia.sp.it",
+    "osm_relation_id": 301487
+  },
+  {
+    "id": "IT-BO",
+    "name": "Bologna",
+    "country": "IT",
+    "region": "Emilia-Romagna",
+    "domain": "cittametropolitana.bo.it",
+    "osm_relation_id": 42837
+  },
+  {
+    "id": "IT-PC",
+    "name": "Piacenza",
+    "country": "IT",
+    "region": "Emilia-Romagna",
+    "domain": "provincia.pc.it",
+    "osm_relation_id": 42831
+  },
+  {
+    "id": "IT-PR",
+    "name": "Parma",
+    "country": "IT",
+    "region": "Emilia-Romagna",
+    "domain": "provincia.parma.it",
+    "osm_relation_id": 42832
+  },
+  {
+    "id": "IT-RE",
+    "name": "Reggio Emilia",
+    "country": "IT",
+    "region": "Emilia-Romagna",
+    "domain": "provincia.re.it",
+    "osm_relation_id": 42833
+  },
+  {
+    "id": "IT-MO",
+    "name": "Modena",
+    "country": "IT",
+    "region": "Emilia-Romagna",
+    "domain": "provincia.modena.it",
+    "osm_relation_id": 42835
+  },
+  {
+    "id": "IT-FE",
+    "name": "Ferrara",
+    "country": "IT",
+    "region": "Emilia-Romagna",
+    "domain": "provincia.fe.it",
+    "osm_relation_id": 42838
+  },
+  {
+    "id": "IT-RA",
+    "name": "Ravenna",
+    "country": "IT",
+    "region": "Emilia-Romagna",
+    "domain": "provincia.ra.it",
+    "osm_relation_id": 42839
+  },
+  {
+    "id": "IT-FC",
+    "name": "Forlì-Cesena",
+    "country": "IT",
+    "region": "Emilia-Romagna",
+    "domain": "provincia.fc.it",
+    "osm_relation_id": 42840
+  },
+  {
+    "id": "IT-RN",
+    "name": "Rimini",
+    "country": "IT",
+    "region": "Emilia-Romagna",
+    "domain": "provincia.rimini.it",
+    "osm_relation_id": 42841
+  },
+  {
+    "id": "IT-FI",
+    "name": "Firenze",
+    "country": "IT",
+    "region": "Toscana",
+    "domain": "cittametropolitana.fi.it",
+    "osm_relation_id": 41977
+  },
+  {
+    "id": "IT-LU",
+    "name": "Lucca",
+    "country": "IT",
+    "region": "Toscana",
+    "domain": "provincia.lucca.it",
+    "osm_relation_id": 41976
+  },
+  {
+    "id": "IT-MS",
+    "name": "Massa-Carrara",
+    "country": "IT",
+    "region": "Toscana",
+    "domain": "provincia.ms.it",
+    "osm_relation_id": 41975
+  },
+  {
+    "id": "IT-PT",
+    "name": "Pistoia",
+    "country": "IT",
+    "region": "Toscana",
+    "domain": "provincia.pistoia.it",
+    "osm_relation_id": 41978
+  },
+  {
+    "id": "IT-LI",
+    "name": "Livorno",
+    "country": "IT",
+    "region": "Toscana",
+    "domain": "provincia.livorno.it",
+    "osm_relation_id": 41981
+  },
+  {
+    "id": "IT-PI",
+    "name": "Pisa",
+    "country": "IT",
+    "region": "Toscana",
+    "domain": "provincia.pisa.it",
+    "osm_relation_id": 41979
+  },
+  {
+    "id": "IT-AR",
+    "name": "Arezzo",
+    "country": "IT",
+    "region": "Toscana",
+    "domain": "provincia.arezzo.it",
+    "osm_relation_id": 41982
+  },
+  {
+    "id": "IT-SI",
+    "name": "Siena",
+    "country": "IT",
+    "region": "Toscana",
+    "domain": "provincia.siena.it",
+    "osm_relation_id": 41980
+  },
+  {
+    "id": "IT-GR",
+    "name": "Grosseto",
+    "country": "IT",
+    "region": "Toscana",
+    "domain": "provincia.grosseto.it",
+    "osm_relation_id": 41983
+  },
+  {
+    "id": "IT-PO",
+    "name": "Prato",
+    "country": "IT",
+    "region": "Toscana",
+    "domain": "provincia.prato.it",
+    "osm_relation_id": 41984
+  },
+  {
+    "id": "IT-PG",
+    "name": "Perugia",
+    "country": "IT",
+    "region": "Umbria",
+    "domain": "provincia.perugia.it",
+    "osm_relation_id": 42004
+  },
+  {
+    "id": "IT-TR",
+    "name": "Terni",
+    "country": "IT",
+    "region": "Umbria",
+    "domain": "provincia.terni.it",
+    "osm_relation_id": 42005
+  },
+  {
+    "id": "IT-PU",
+    "name": "Pesaro e Urbino",
+    "country": "IT",
+    "region": "Marche",
+    "domain": "provincia.pu.it",
+    "osm_relation_id": 42025
+  },
+  {
+    "id": "IT-AN",
+    "name": "Ancona",
+    "country": "IT",
+    "region": "Marche",
+    "domain": "provincia.ancona.it",
+    "osm_relation_id": 42026
+  },
+  {
+    "id": "IT-MC",
+    "name": "Macerata",
+    "country": "IT",
+    "region": "Marche",
+    "domain": "provincia.mc.it",
+    "osm_relation_id": 42027
+  },
+  {
+    "id": "IT-AP",
+    "name": "Ascoli Piceno",
+    "country": "IT",
+    "region": "Marche",
+    "domain": "provincia.ap.it",
+    "osm_relation_id": 42028
+  },
+  {
+    "id": "IT-FM",
+    "name": "Fermo",
+    "country": "IT",
+    "region": "Marche",
+    "domain": "provincia.fermo.it",
+    "osm_relation_id": 42029
+  },
+  {
+    "id": "IT-RM",
+    "name": "Roma",
+    "country": "IT",
+    "region": "Lazio",
+    "domain": "cittametropolitana.roma.it",
+    "osm_relation_id": 41485
+  },
+  {
+    "id": "IT-VT",
+    "name": "Viterbo",
+    "country": "IT",
+    "region": "Lazio",
+    "domain": "provincia.viterbo.it",
+    "osm_relation_id": 41484
+  },
+  {
+    "id": "IT-RI",
+    "name": "Rieti",
+    "country": "IT",
+    "region": "Lazio",
+    "domain": "provincia.rieti.it",
+    "osm_relation_id": 41486
+  },
+  {
+    "id": "IT-LT",
+    "name": "Latina",
+    "country": "IT",
+    "region": "Lazio",
+    "domain": "provincia.latina.it",
+    "osm_relation_id": 41487
+  },
+  {
+    "id": "IT-FR",
+    "name": "Frosinone",
+    "country": "IT",
+    "region": "Lazio",
+    "domain": "provincia.fr.it",
+    "osm_relation_id": 41488
+  },
+  {
+    "id": "IT-AQ",
+    "name": "L'Aquila",
+    "country": "IT",
+    "region": "Abruzzo",
+    "domain": "provincia.laquila.it",
+    "osm_relation_id": 41691
+  },
+  {
+    "id": "IT-TE",
+    "name": "Teramo",
+    "country": "IT",
+    "region": "Abruzzo",
+    "domain": "provincia.teramo.it",
+    "osm_relation_id": 41689
+  },
+  {
+    "id": "IT-PE",
+    "name": "Pescara",
+    "country": "IT",
+    "region": "Abruzzo",
+    "domain": "provincia.pescara.it",
+    "osm_relation_id": 41690
+  },
+  {
+    "id": "IT-CH",
+    "name": "Chieti",
+    "country": "IT",
+    "region": "Abruzzo",
+    "domain": "provincia.chieti.it",
+    "osm_relation_id": 41692
+  },
+  {
+    "id": "IT-CB",
+    "name": "Campobasso",
+    "country": "IT",
+    "region": "Molise",
+    "domain": "provincia.campobasso.it",
+    "osm_relation_id": 41698
+  },
+  {
+    "id": "IT-IS",
+    "name": "Isernia",
+    "country": "IT",
+    "region": "Molise",
+    "domain": "provincia.isernia.it",
+    "osm_relation_id": 41699
+  },
+  {
+    "id": "IT-NA",
+    "name": "Napoli",
+    "country": "IT",
+    "region": "Campania",
+    "domain": "cittametropolitana.na.it",
+    "osm_relation_id": 40218
+  },
+  {
+    "id": "IT-CE",
+    "name": "Caserta",
+    "country": "IT",
+    "region": "Campania",
+    "domain": "provincia.caserta.it",
+    "osm_relation_id": 40216
+  },
+  {
+    "id": "IT-BN",
+    "name": "Benevento",
+    "country": "IT",
+    "region": "Campania",
+    "domain": "provincia.benevento.it",
+    "osm_relation_id": 40217
+  },
+  {
+    "id": "IT-AV",
+    "name": "Avellino",
+    "country": "IT",
+    "region": "Campania",
+    "domain": "provincia.avellino.it",
+    "osm_relation_id": 40219
+  },
+  {
+    "id": "IT-SA",
+    "name": "Salerno",
+    "country": "IT",
+    "region": "Campania",
+    "domain": "provincia.salerno.it",
+    "osm_relation_id": 40220
+  },
+  {
+    "id": "IT-BA",
+    "name": "Bari",
+    "country": "IT",
+    "region": "Puglia",
+    "domain": "cittametropolitana.ba.it",
+    "osm_relation_id": 40095
+  },
+  {
+    "id": "IT-FG",
+    "name": "Foggia",
+    "country": "IT",
+    "region": "Puglia",
+    "domain": "provincia.foggia.it",
+    "osm_relation_id": 40093
+  },
+  {
+    "id": "IT-BT",
+    "name": "Barletta-Andria-Trani",
+    "country": "IT",
+    "region": "Puglia",
+    "domain": "provincia.bat.it",
+    "osm_relation_id": 40094
+  },
+  {
+    "id": "IT-TA",
+    "name": "Taranto",
+    "country": "IT",
+    "region": "Puglia",
+    "domain": "provincia.taranto.it",
+    "osm_relation_id": 40096
+  },
+  {
+    "id": "IT-BR",
+    "name": "Brindisi",
+    "country": "IT",
+    "region": "Puglia",
+    "domain": "provincia.brindisi.it",
+    "osm_relation_id": 40097
+  },
+  {
+    "id": "IT-LE",
+    "name": "Lecce",
+    "country": "IT",
+    "region": "Puglia",
+    "domain": "provincia.le.it",
+    "osm_relation_id": 40098
+  },
+  {
+    "id": "IT-PZ",
+    "name": "Potenza",
+    "country": "IT",
+    "region": "Basilicata",
+    "domain": "provincia.potenza.it",
+    "osm_relation_id": 40137
+  },
+  {
+    "id": "IT-MT",
+    "name": "Matera",
+    "country": "IT",
+    "region": "Basilicata",
+    "domain": "provincia.matera.it",
+    "osm_relation_id": 40138
+  },
+  {
+    "id": "IT-CS",
+    "name": "Cosenza",
+    "country": "IT",
+    "region": "Calabria",
+    "domain": "provincia.cs.it",
+    "osm_relation_id": 1783864
+  },
+  {
+    "id": "IT-CZ",
+    "name": "Catanzaro",
+    "country": "IT",
+    "region": "Calabria",
+    "domain": "provincia.catanzaro.it",
+    "osm_relation_id": 1783862
+  },
+  {
+    "id": "IT-RC",
+    "name": "Reggio Calabria",
+    "country": "IT",
+    "region": "Calabria",
+    "domain": "cittametropolitana.rc.it",
+    "osm_relation_id": 1783858
+  },
+  {
+    "id": "IT-KR",
+    "name": "Crotone",
+    "country": "IT",
+    "region": "Calabria",
+    "domain": "provincia.crotone.it",
+    "osm_relation_id": 1783863
+  },
+  {
+    "id": "IT-VV",
+    "name": "Vibo Valentia",
+    "country": "IT",
+    "region": "Calabria",
+    "domain": "provincia.vibovalentia.it",
+    "osm_relation_id": 1783860
+  },
+  {
+    "id": "IT-PA",
+    "name": "Palermo",
+    "country": "IT",
+    "region": "Sicilia",
+    "domain": "cittametropolitana.pa.it",
+    "osm_relation_id": 40526
+  },
+  {
+    "id": "IT-TP",
+    "name": "Trapani",
+    "country": "IT",
+    "region": "Sicilia",
+    "domain": "provincia.trapani.it",
+    "osm_relation_id": 40527
+  },
+  {
+    "id": "IT-ME",
+    "name": "Messina",
+    "country": "IT",
+    "region": "Sicilia",
+    "domain": "cittametropolitana.me.it",
+    "osm_relation_id": 40531
+  },
+  {
+    "id": "IT-AG",
+    "name": "Agrigento",
+    "country": "IT",
+    "region": "Sicilia",
+    "domain": "provincia.agrigento.it",
+    "osm_relation_id": 40528
+  },
+  {
+    "id": "IT-CL",
+    "name": "Caltanissetta",
+    "country": "IT",
+    "region": "Sicilia",
+    "domain": "provincia.caltanissetta.it",
+    "osm_relation_id": 40530
+  },
+  {
+    "id": "IT-EN",
+    "name": "Enna",
+    "country": "IT",
+    "region": "Sicilia",
+    "domain": "provincia.enna.it",
+    "osm_relation_id": 40529
+  },
+  {
+    "id": "IT-CT",
+    "name": "Catania",
+    "country": "IT",
+    "region": "Sicilia",
+    "domain": "cittametropolitana.ct.it",
+    "osm_relation_id": 40533
+  },
+  {
+    "id": "IT-RG",
+    "name": "Ragusa",
+    "country": "IT",
+    "region": "Sicilia",
+    "domain": "provincia.ragusa.it",
+    "osm_relation_id": 40535
+  },
+  {
+    "id": "IT-SR",
+    "name": "Siracusa",
+    "country": "IT",
+    "region": "Sicilia",
+    "domain": "provincia.siracusa.it",
+    "osm_relation_id": 40534
+  },
+  {
+    "id": "IT-CA",
+    "name": "Cagliari",
+    "country": "IT",
+    "region": "Sardegna",
+    "domain": "cittametropolitana.cagliari.it",
+    "osm_relation_id": 7361997
+  },
+  {
+    "id": "IT-SS",
+    "name": "Sassari",
+    "country": "IT",
+    "region": "Sardegna",
+    "domain": "provincia.sassari.it",
+    "osm_relation_id": 7362050
+  },
+  {
+    "id": "IT-NU",
+    "name": "Nuoro",
+    "country": "IT",
+    "region": "Sardegna",
+    "domain": "provincia.nuoro.it",
+    "osm_relation_id": 7362044
+  },
+  {
+    "id": "IT-OR",
+    "name": "Oristano",
+    "country": "IT",
+    "region": "Sardegna",
+    "domain": "provincia.or.it",
+    "osm_relation_id": 7362046
+  },
+  {
+    "id": "IT-SU",
+    "name": "Sud Sardegna",
+    "country": "IT",
+    "region": "Sardegna",
+    "domain": "provincia.sudsardegna.it",
+    "osm_relation_id": 7362056
+  },
+  {
+    "id": "IT-001272",
+    "name": "Torino",
+    "country": "IT",
+    "region": "Piemonte",
+    "domain": "comune.torino.it",
+    "osm_relation_id": 43992
+  },
+  {
+    "id": "IT-003106",
+    "name": "Novara",
+    "country": "IT",
+    "region": "Piemonte",
+    "domain": "comune.novara.it",
+    "osm_relation_id": 1552704
+  },
+  {
+    "id": "IT-006003",
+    "name": "Alessandria",
+    "country": "IT",
+    "region": "Piemonte",
+    "domain": "comune.alessandria.it",
+    "osm_relation_id": 43199
+  },
+  {
+    "id": "IT-007003",
+    "name": "Aosta",
+    "country": "IT",
+    "region": "Valle d'Aosta",
+    "domain": "comune.aosta.it",
+    "osm_relation_id": 45916
+  },
+  {
+    "id": "IT-015146",
+    "name": "Milano",
+    "country": "IT",
+    "region": "Lombardia",
+    "domain": "comune.milano.it",
+    "osm_relation_id": 44915
+  },
+  {
+    "id": "IT-016024",
+    "name": "Bergamo",
+    "country": "IT",
+    "region": "Lombardia",
+    "domain": "comune.bergamo.it",
+    "osm_relation_id": 44996
+  },
+  {
+    "id": "IT-017029",
+    "name": "Brescia",
+    "country": "IT",
+    "region": "Lombardia",
+    "domain": "comune.brescia.it",
+    "osm_relation_id": 44882
+  },
+  {
+    "id": "IT-013200",
+    "name": "Monza",
+    "country": "IT",
+    "region": "Lombardia",
+    "domain": "comune.monza.it",
+    "osm_relation_id": 251419
+  },
+  {
+    "id": "IT-012101",
+    "name": "Varese",
+    "country": "IT",
+    "region": "Lombardia",
+    "domain": "comune.varese.it",
+    "osm_relation_id": 45347
+  },
+  {
+    "id": "IT-013065",
+    "name": "Como",
+    "country": "IT",
+    "region": "Lombardia",
+    "domain": "comune.como.it",
+    "osm_relation_id": 45614
+  },
+  {
+    "id": "IT-018087",
+    "name": "Pavia",
+    "country": "IT",
+    "region": "Lombardia",
+    "domain": "comune.pv.it",
+    "osm_relation_id": 43483
+  },
+  {
+    "id": "IT-019036",
+    "name": "Cremona",
+    "country": "IT",
+    "region": "Lombardia",
+    "domain": "comune.cremona.it",
+    "osm_relation_id": 43893
+  },
+  {
+    "id": "IT-021008",
+    "name": "Bolzano",
+    "country": "IT",
+    "region": "Trentino-Alto Adige",
+    "domain": "comune.bolzano.it",
+    "osm_relation_id": 47046
+  },
+  {
+    "id": "IT-022205",
+    "name": "Trento",
+    "country": "IT",
+    "region": "Trentino-Alto Adige",
+    "domain": "comune.trento.it",
+    "osm_relation_id": 46663
+  },
+  {
+    "id": "IT-027042",
+    "name": "Venezia",
+    "country": "IT",
+    "region": "Veneto",
+    "domain": "comune.venezia.it",
+    "osm_relation_id": 44741
+  },
+  {
+    "id": "IT-023091",
+    "name": "Verona",
+    "country": "IT",
+    "region": "Veneto",
+    "domain": "comune.verona.it",
+    "osm_relation_id": 44107
+  },
+  {
+    "id": "IT-024116",
+    "name": "Vicenza",
+    "country": "IT",
+    "region": "Veneto",
+    "domain": "comune.vicenza.it",
+    "osm_relation_id": 44580
+  },
+  {
+    "id": "IT-028060",
+    "name": "Padova",
+    "country": "IT",
+    "region": "Veneto",
+    "domain": "comune.padova.it",
+    "osm_relation_id": 44217
+  },
+  {
+    "id": "IT-026086",
+    "name": "Treviso",
+    "country": "IT",
+    "region": "Veneto",
+    "domain": "comune.treviso.it",
+    "osm_relation_id": 45300
+  },
+  {
+    "id": "IT-030129",
+    "name": "Udine",
+    "country": "IT",
+    "region": "Friuli Venezia Giulia",
+    "domain": "comune.udine.it",
+    "osm_relation_id": 179272
+  },
+  {
+    "id": "IT-032006",
+    "name": "Trieste",
+    "country": "IT",
+    "region": "Friuli Venezia Giulia",
+    "domain": "comune.trieste.it",
+    "osm_relation_id": 179180
+  },
+  {
+    "id": "IT-010025",
+    "name": "Genova",
+    "country": "IT",
+    "region": "Liguria",
+    "domain": "comune.genova.it",
+    "osm_relation_id": 44875
+  },
+  {
+    "id": "IT-011015",
+    "name": "La Spezia",
+    "country": "IT",
+    "region": "Liguria",
+    "domain": "comune.laspezia.it",
+    "osm_relation_id": 49131
+  },
+  {
+    "id": "IT-037006",
+    "name": "Bologna",
+    "country": "IT",
+    "region": "Emilia-Romagna",
+    "domain": "comune.bologna.it",
+    "osm_relation_id": 43172
+  },
+  {
+    "id": "IT-034027",
+    "name": "Parma",
+    "country": "IT",
+    "region": "Emilia-Romagna",
+    "domain": "comune.parma.it",
+    "osm_relation_id": 43080
+  },
+  {
+    "id": "IT-036023",
+    "name": "Modena",
+    "country": "IT",
+    "region": "Emilia-Romagna",
+    "domain": "comune.modena.it",
+    "osm_relation_id": 42884
+  },
+  {
+    "id": "IT-035033",
+    "name": "Reggio Emilia",
+    "country": "IT",
+    "region": "Emilia-Romagna",
+    "domain": "comune.re.it",
+    "osm_relation_id": 42965
+  },
+  {
+    "id": "IT-099014",
+    "name": "Rimini",
+    "country": "IT",
+    "region": "Emilia-Romagna",
+    "domain": "comune.rimini.it",
+    "osm_relation_id": 42661
+  },
+  {
+    "id": "IT-038008",
+    "name": "Ferrara",
+    "country": "IT",
+    "region": "Emilia-Romagna",
+    "domain": "comune.fe.it",
+    "osm_relation_id": 43292
+  },
+  {
+    "id": "IT-039014",
+    "name": "Ravenna",
+    "country": "IT",
+    "region": "Emilia-Romagna",
+    "domain": "comune.ra.it",
+    "osm_relation_id": 42889
+  },
+  {
+    "id": "IT-033032",
+    "name": "Piacenza",
+    "country": "IT",
+    "region": "Emilia-Romagna",
+    "domain": "comune.piacenza.it",
+    "osm_relation_id": 43332
+  },
+  {
+    "id": "IT-048017",
+    "name": "Firenze",
+    "country": "IT",
+    "region": "Toscana",
+    "domain": "comune.fi.it",
+    "osm_relation_id": 42602
+  },
+  {
+    "id": "IT-046017",
+    "name": "Pisa",
+    "country": "IT",
+    "region": "Toscana",
+    "domain": "comune.pisa.it",
+    "osm_relation_id": 42338
+  },
+  {
+    "id": "IT-049014",
+    "name": "Livorno",
+    "country": "IT",
+    "region": "Toscana",
+    "domain": "comune.livorno.it",
+    "osm_relation_id": 42147
+  },
+  {
+    "id": "IT-100005",
+    "name": "Prato",
+    "country": "IT",
+    "region": "Toscana",
+    "domain": "comune.prato.it",
+    "osm_relation_id": 42619
+  },
+  {
+    "id": "IT-045012",
+    "name": "Lucca",
+    "country": "IT",
+    "region": "Toscana",
+    "domain": "comune.lucca.it",
+    "osm_relation_id": 42614
+  },
+  {
+    "id": "IT-051002",
+    "name": "Arezzo",
+    "country": "IT",
+    "region": "Toscana",
+    "domain": "comune.arezzo.it",
+    "osm_relation_id": 42366
+  },
+  {
+    "id": "IT-054039",
+    "name": "Perugia",
+    "country": "IT",
+    "region": "Umbria",
+    "domain": "comune.perugia.it",
+    "osm_relation_id": 42106
+  },
+  {
+    "id": "IT-055032",
+    "name": "Terni",
+    "country": "IT",
+    "region": "Umbria",
+    "domain": "comune.terni.it",
+    "osm_relation_id": 42003
+  },
+  {
+    "id": "IT-042002",
+    "name": "Ancona",
+    "country": "IT",
+    "region": "Marche",
+    "domain": "comune.ancona.it",
+    "osm_relation_id": 53059
+  },
+  {
+    "id": "IT-041044",
+    "name": "Pesaro",
+    "country": "IT",
+    "region": "Marche",
+    "domain": "comune.pesaro.it",
+    "osm_relation_id": 42672
+  },
+  {
+    "id": "IT-058091",
+    "name": "Roma",
+    "country": "IT",
+    "region": "Lazio",
+    "domain": "comune.roma.it",
+    "osm_relation_id": 41485
+  },
+  {
+    "id": "IT-060038",
+    "name": "Latina",
+    "country": "IT",
+    "region": "Lazio",
+    "domain": "comune.latina.it",
+    "osm_relation_id": 40783
+  },
+  {
+    "id": "IT-066049",
+    "name": "L'Aquila",
+    "country": "IT",
+    "region": "Abruzzo",
+    "domain": "comune.laquila.it",
+    "osm_relation_id": 167044
+  },
+  {
+    "id": "IT-068028",
+    "name": "Pescara",
+    "country": "IT",
+    "region": "Abruzzo",
+    "domain": "comune.pescara.it",
+    "osm_relation_id": 41778
+  },
+  {
+    "id": "IT-070006",
+    "name": "Campobasso",
+    "country": "IT",
+    "region": "Molise",
+    "domain": "comune.campobasso.it",
+    "osm_relation_id": 41255
+  },
+  {
+    "id": "IT-063049",
+    "name": "Napoli",
+    "country": "IT",
+    "region": "Campania",
+    "domain": "comune.napoli.it",
+    "osm_relation_id": 40767
+  },
+  {
+    "id": "IT-065143",
+    "name": "Salerno",
+    "country": "IT",
+    "region": "Campania",
+    "domain": "comune.salerno.it",
+    "osm_relation_id": 40217
+  },
+  {
+    "id": "IT-061022",
+    "name": "Caserta",
+    "country": "IT",
+    "region": "Campania",
+    "domain": "comune.caserta.it",
+    "osm_relation_id": 40940
+  },
+  {
+    "id": "IT-063029",
+    "name": "Giugliano in Campania",
+    "country": "IT",
+    "region": "Campania",
+    "domain": "comune.giugliano.na.it",
+    "osm_relation_id": 40849
+  },
+  {
+    "id": "IT-063084",
+    "name": "Torre del Greco",
+    "country": "IT",
+    "region": "Campania",
+    "domain": "comune.torredelgreco.na.it",
+    "osm_relation_id": 40755
+  },
+  {
+    "id": "IT-072006",
+    "name": "Bari",
+    "country": "IT",
+    "region": "Puglia",
+    "domain": "comune.bari.it",
+    "osm_relation_id": 41038
+  },
+  {
+    "id": "IT-073027",
+    "name": "Taranto",
+    "country": "IT",
+    "region": "Puglia",
+    "domain": "comune.taranto.it",
+    "osm_relation_id": 40423
+  },
+  {
+    "id": "IT-071024",
+    "name": "Foggia",
+    "country": "IT",
+    "region": "Puglia",
+    "domain": "comune.foggia.it",
+    "osm_relation_id": 41093
+  },
+  {
+    "id": "IT-110001",
+    "name": "Andria",
+    "country": "IT",
+    "region": "Puglia",
+    "domain": "comune.andria.bt.it",
+    "osm_relation_id": 41034
+  },
+  {
+    "id": "IT-075035",
+    "name": "Lecce",
+    "country": "IT",
+    "region": "Puglia",
+    "domain": "comune.lecce.it",
+    "osm_relation_id": 40094
+  },
+  {
+    "id": "IT-074001",
+    "name": "Brindisi",
+    "country": "IT",
+    "region": "Puglia",
+    "domain": "comune.brindisi.it",
+    "osm_relation_id": 40485
+  },
+  {
+    "id": "IT-076063",
+    "name": "Potenza",
+    "country": "IT",
+    "region": "Basilicata",
+    "domain": "comune.potenza.it",
+    "osm_relation_id": 40136
+  },
+  {
+    "id": "IT-077014",
+    "name": "Matera",
+    "country": "IT",
+    "region": "Basilicata",
+    "domain": "comune.matera.it",
+    "osm_relation_id": 40259
+  },
+  {
+    "id": "IT-079023",
+    "name": "Catanzaro",
+    "country": "IT",
+    "region": "Calabria",
+    "domain": "comune.catanzaro.it",
+    "osm_relation_id": 39637
+  },
+  {
+    "id": "IT-078034",
+    "name": "Cosenza",
+    "country": "IT",
+    "region": "Calabria",
+    "domain": "comune.cosenza.it",
+    "osm_relation_id": 39788
+  },
+  {
+    "id": "IT-080063",
+    "name": "Reggio Calabria",
+    "country": "IT",
+    "region": "Calabria",
+    "domain": "comune.reggiocalabria.it",
+    "osm_relation_id": 39503
+  },
+  {
+    "id": "IT-082053",
+    "name": "Palermo",
+    "country": "IT",
+    "region": "Sicilia",
+    "domain": "comune.palermo.it",
+    "osm_relation_id": 39513
+  },
+  {
+    "id": "IT-087015",
+    "name": "Catania",
+    "country": "IT",
+    "region": "Sicilia",
+    "domain": "comune.catania.it",
+    "osm_relation_id": 39230
+  },
+  {
+    "id": "IT-083048",
+    "name": "Messina",
+    "country": "IT",
+    "region": "Sicilia",
+    "domain": "comune.messina.it",
+    "osm_relation_id": 39514
+  },
+  {
+    "id": "IT-088012",
+    "name": "Siracusa",
+    "country": "IT",
+    "region": "Sicilia",
+    "domain": "comune.siracusa.it",
+    "osm_relation_id": 39169
+  },
+  {
+    "id": "IT-084033",
+    "name": "Ragusa",
+    "country": "IT",
+    "region": "Sicilia",
+    "domain": "comune.ragusa.it",
+    "osm_relation_id": 39162
+  },
+  {
+    "id": "IT-092009",
+    "name": "Cagliari",
+    "country": "IT",
+    "region": "Sardegna",
+    "domain": "comune.cagliari.it",
+    "osm_relation_id": 39837
+  },
+  {
+    "id": "IT-090064",
+    "name": "Sassari",
+    "country": "IT",
+    "region": "Sardegna",
+    "domain": "comune.sassari.it",
+    "osm_relation_id": 40683
+  }
+]

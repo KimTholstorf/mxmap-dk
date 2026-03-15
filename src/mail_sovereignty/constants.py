@@ -73,6 +73,9 @@ SKIP_DOMAINS = {
     "example.fr",
     "example.pl",
     "example.pt",
+    "example.it",
+    "example.nl",
+    "example.ie",
     "kommune.no",
     "sentry.io",
     "w3.org",
@@ -109,6 +112,12 @@ SUBPAGES = [
     "/contactos",  # Portuguese: "Contacts"
     "/contacte-nos",  # Portuguese: "Contact us"
     "/municipio",  # Portuguese: "Municipality"
+    "/contatti",  # Italian: "Contacts"
+    "/amministrazione-trasparente",  # Italian: "Transparent administration"
+    "/amministrazione",  # Italian: "Administration"
+    "/over-de-gemeente",  # Dutch: "About the municipality"
+    "/contact-us",  # Irish English
+    "/your-council",  # Irish: council info
 ]
 
 GATEWAY_KEYWORDS = {
@@ -144,6 +153,8 @@ GATEWAY_KEYWORDS = {
     "mimecast": ["mimecast.com"],
     "mailcontrol": ["mailcontrol.com"],
     "security-mail": ["security-mail.net"],
+    "topsec": ["topsec.com"],
+    "tstechnology": ["tstechnology.net"],
 }
 
 # Local ISP ASNs (replaces SWISS_ISP_ASNS)
@@ -344,6 +355,54 @@ LOCAL_ISP_ASNS: dict[int, str] = {
     47787: "Ar Telecom (PT)",
     60729: "Nowo Communications (PT)",
     25291: "Adclick (PT)",
+    # Italy
+    12874: "Fastweb (IT)",
+    3269: "Telecom Italia/TIM (IT)",
+    6762: "Telecom Italia Sparkle (IT)",
+    12637: "Aruba.it (IT)",
+    31034: "Aruba.it (IT)",
+    5602: "Kyndryl Italia (IT)",
+    8968: "BT Italia (IT)",
+    6734: "INFN (IT)",
+    137: "GARR (IT)",
+    28716: "Retelit (IT)",
+    20811: "Brennercom (IT)",
+    8612: "Tiscali (IT)",
+    29286: "Netsons (IT)",
+    35574: "Lottomatica (IT)",
+    30722: "Vodafone Italia (IT)",
+    12779: "IT.Gate (IT)",
+    34695: "E4A (IT)",
+    49367: "Seeweb (IT)",
+    44160: "SINet/Almaviva (IT)",
+    15589: "Clouditalia (IT)",
+    # Netherlands
+    20857: "TransIP (NL)",
+    15879: "i3D.net (NL)",
+    49981: "WorldStream (NL)",
+    25596: "Antagonist (NL)",
+    43350: "NForce (NL)",
+    20847: "Previder (NL)",
+    286: "KPN (NL)",
+    1136: "KPN (NL)",
+    3265: "XS4ALL/KPN (NL)",
+    33915: "Ziggo (NL)",
+    15435: "CAIW (NL)",
+    60781: "LeaseWeb (NL)",
+    47541: "VK Hosting (NL)",
+    12859: "BIT (NL)",
+    39309: "Signet (NL)",
+    # Ireland
+    2128: "Hosting Ireland (IE)",
+    39122: "Blacknight (IE)",
+    31641: "Blacknight (IE)",
+    34245: "Magnet Networks (IE)",
+    13280: "Enet/Viatel (IE)",
+    15502: "Vodafone Ireland (IE)",
+    6830: "Virgin Media Ireland (IE)",
+    25441: "Eir/eircom (IE)",
+    35272: "Eir/eircom (IE)",
+    60800: "GTI (IE)",
     # Iceland
     6677: "Simnet/Vist (IS)",
     29689: "Skyggnir (IS)",

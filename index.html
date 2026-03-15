@@ -212,6 +212,9 @@
       <button class="country-btn active" data-country="FR">FR</button>
       <button class="country-btn active" data-country="PL">PL</button>
       <button class="country-btn active" data-country="PT">PT</button>
+      <button class="country-btn active" data-country="IT">IT</button>
+      <button class="country-btn active" data-country="IE">IE</button>
+      <button class="country-btn active" data-country="NL">NL</button>
     </div>
     <div class="level-toggle">
       <button class="level-btn" data-level="region">Regions</button>
@@ -244,9 +247,9 @@ const TIERS = {
   'Unknown':        ['Unknown']
 };
 
-const FLAGS = { EE: '\u{1F1EA}\u{1F1EA}', LV: '\u{1F1F1}\u{1F1FB}', LT: '\u{1F1F1}\u{1F1F9}', FI: '\u{1F1EB}\u{1F1EE}', NO: '\u{1F1F3}\u{1F1F4}', IS: '\u{1F1EE}\u{1F1F8}', SE: '\u{1F1F8}\u{1F1EA}', DE: '\u{1F1E9}\u{1F1EA}', DK: '\u{1F1E9}\u{1F1F0}', AD: '\u{1F1E6}\u{1F1E9}', LU: '\u{1F1F1}\u{1F1FA}', BE: '\u{1F1E7}\u{1F1EA}', AT: '\u{1F1E6}\u{1F1F9}', CZ: '\u{1F1E8}\u{1F1FF}', ES: '\u{1F1EA}\u{1F1F8}', FR: '\u{1F1EB}\u{1F1F7}', PL: '\u{1F1F5}\u{1F1F1}', PT: '\u{1F1F5}\u{1F1F9}' };
+const FLAGS = { EE: '\u{1F1EA}\u{1F1EA}', LV: '\u{1F1F1}\u{1F1FB}', LT: '\u{1F1F1}\u{1F1F9}', FI: '\u{1F1EB}\u{1F1EE}', NO: '\u{1F1F3}\u{1F1F4}', IS: '\u{1F1EE}\u{1F1F8}', SE: '\u{1F1F8}\u{1F1EA}', DE: '\u{1F1E9}\u{1F1EA}', DK: '\u{1F1E9}\u{1F1F0}', AD: '\u{1F1E6}\u{1F1E9}', LU: '\u{1F1F1}\u{1F1FA}', BE: '\u{1F1E7}\u{1F1EA}', AT: '\u{1F1E6}\u{1F1F9}', CZ: '\u{1F1E8}\u{1F1FF}', ES: '\u{1F1EA}\u{1F1F8}', FR: '\u{1F1EB}\u{1F1F7}', PL: '\u{1F1F5}\u{1F1F1}', PT: '\u{1F1F5}\u{1F1F9}', IT: '\u{1F1EE}\u{1F1F9}', IE: '\u{1F1EE}\u{1F1EA}', NL: '\u{1F1F3}\u{1F1F1}' };
 
-const COUNTRY_LIST = ['EE', 'LV', 'LT', 'FI', 'NO', 'IS', 'SE', 'DE', 'DK', 'AD', 'LU', 'BE', 'AT', 'CZ', 'ES', 'FR', 'PL', 'PT'];
+const COUNTRY_LIST = ['EE', 'LV', 'LT', 'FI', 'NO', 'IS', 'SE', 'DE', 'DK', 'AD', 'LU', 'BE', 'AT', 'CZ', 'ES', 'FR', 'PL', 'PT', 'IT', 'IE', 'NL'];
 
 const US_PROVIDERS = new Set(['Microsoft', 'Google', 'AWS']);
 function hasLocalGateway(m) {
@@ -365,7 +368,7 @@ function buildStats(muniList) {
   const withMx = filtered.filter(m => m.has_mx || (m.mx || []).length > 0).length;
 
   const usProviders = new Set(['Microsoft', 'Google', 'AWS']);
-  const countryColors = { US: '#E83838', EE: '#2EDBA8', LV: '#34D5A0', LT: '#78FFD6', DE: '#6BA3D6', DK: '#4FC3D6', NL: '#6BA3D6', FI: '#6BA3D6', SE: '#56E8B0', IE: '#6BA3D6', NO: '#10B898', IS: '#20C8A0', AD: '#56C8B0', LU: '#4DB8A8', BE: '#3DA898', AT: '#5DBCA0', CZ: '#4EB8A8', ES: '#E8A040', FR: '#4088E8', PT: '#40A8E8' };
+  const countryColors = { US: '#E83838', EE: '#2EDBA8', LV: '#34D5A0', LT: '#78FFD6', DE: '#6BA3D6', DK: '#4FC3D6', NL: '#6BA3D6', FI: '#6BA3D6', SE: '#56E8B0', IE: '#6BA3D6', NO: '#10B898', IS: '#20C8A0', AD: '#56C8B0', LU: '#4DB8A8', BE: '#3DA898', AT: '#5DBCA0', CZ: '#4EB8A8', ES: '#E8A040', FR: '#4088E8', PT: '#40A8E8', IT: '#50B868' };
   const sectionTitle = '<div style="font-size:12px;color:#777;text-transform:uppercase;letter-spacing:0.3px;font-weight:600;margin-bottom:4px">';
 
   function barHtml(label, value, max, color, base) {
@@ -461,7 +464,7 @@ function buildStats(muniList) {
   html += `<p style="font-size:12px;color:#777;margin-top:8px"><strong>${mxInUs}</strong> of ${withMx} municipalities with MX records route mail through servers registered in the US.</p>`;
 
   // Per-country breakdown
-  const countryNames = { EE: 'Estonia', LV: 'Latvia', LT: 'Lithuania', FI: 'Finland', NO: 'Norway', IS: 'Iceland', SE: 'Sweden', DE: 'Germany', DK: 'Denmark', AD: 'Andorra', LU: 'Luxembourg', BE: 'Belgium', AT: 'Austria', CZ: 'Czechia', ES: 'Spain', FR: 'France', PL: 'Poland', PT: 'Portugal' };
+  const countryNames = { EE: 'Estonia', LV: 'Latvia', LT: 'Lithuania', FI: 'Finland', NO: 'Norway', IS: 'Iceland', SE: 'Sweden', DE: 'Germany', DK: 'Denmark', AD: 'Andorra', LU: 'Luxembourg', BE: 'Belgium', AT: 'Austria', CZ: 'Czechia', ES: 'Spain', FR: 'France', PL: 'Poland', PT: 'Portugal', IT: 'Italy', IE: 'Ireland', NL: 'Netherlands' };
   const activeList = COUNTRY_LIST.filter(cc => activeCountries.has(cc));
   const countryStats = {};
   for (const cc of activeList) {

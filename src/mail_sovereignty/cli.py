@@ -1,11 +1,14 @@
 import asyncio
+import sys
 from pathlib import Path
 
 
 def preprocess() -> None:
     from mail_sovereignty.preprocess import run
 
-    asyncio.run(run(Path("data.json")))
+    # Optional country filter: `uv run preprocess IT IE NL`
+    countries = [a.upper() for a in sys.argv[1:]] or None
+    asyncio.run(run(Path("data.json"), countries=countries))
 
 
 def postprocess() -> None:
