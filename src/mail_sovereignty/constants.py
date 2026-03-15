@@ -321,6 +321,8 @@ LOCAL_ISP_ASNS: dict[int, str] = {
     29081: "OpenBusiness (AT)",
     1853: "ACOnet/ACONET (AT)",
     12762: "SPARDAT (AT)",
+    25255: "Netway (AT)",
+    51468: "one.com (AT/DK)",
     31543: "myNet (AT)",
     42572: "Nessus (AT)",
     47692: "Nessus (AT)",
@@ -425,6 +427,8 @@ LOCAL_ISP_ASNS: dict[int, str] = {
     47541: "VK Hosting (NL)",
     12859: "BIT (NL)",
     39309: "Signet (NL)",
+    57626: "Ezorg (NL)",  # Dutch municipal IT cooperative
+    38915: "TransIP/Team.blue (NL)",
     # Ireland
     2128: "Hosting Ireland (IE)",
     39122: "Blacknight (IE)",
@@ -504,6 +508,7 @@ LOCAL_ISP_ASNS: dict[int, str] = {
     12644: "AMIS (SI)",
     9119: "Softnet (SI)",
     198644: "Prenos podatkov (SI)",
+    58046: "gov.si (SI)",  # Slovenian government shared mail
     # Croatia
     5391: "Hrvatski Telekom (HR)",
     13046: "A1 Croatia (HR)",
@@ -511,6 +516,7 @@ LOCAL_ISP_ASNS: dict[int, str] = {
     15994: "Iskon (HR)",
     2108: "CARNET (HR)",
     31012: "Metronet (HR)",
+    41336: "CDU/gov.hr (HR)",  # Croatian government shared mail
     # Cyprus
     6866: "CYTA (CY)",
     35432: "PrimeTel (CY)",
@@ -520,6 +526,8 @@ LOCAL_ISP_ASNS: dict[int, str] = {
     5408: "GRNET (GR)",
     3329: "Vodafone GR (GR)",
     25472: "Wind Hellas (GR)",
+    35506: "GRNET/gov.gr (GR)",  # Greek government mail
+    34762: "GRNET (GR)",
     # Hungary
     5483: "Magyar Telekom (HU)",
     20845: "DIGI (HU)",
@@ -533,6 +541,7 @@ LOCAL_ISP_ASNS: dict[int, str] = {
     9050: "Romtelecom (RO)",
     2614: "ROEDUNET (RO)",
     12302: "Vodafone RO (RO)",
+    31313: "STS/gov.ro (RO)",  # Romanian government STS mail
 }
 
 CONCURRENCY = 20

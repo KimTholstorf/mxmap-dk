@@ -629,35 +629,25 @@ class TestClassifyTxtVerification:
         assert provider(result) == "microsoft"
         assert "DKIM" in reason(result)
 
-    def test_self_hosted_txt_microsoft(self):
-        """Unrecognized MX with no DKIM but MS= token → microsoft."""
+    def test_self_hosted_txt_stays_independent(self):
+        """TXT verification alone does NOT classify self-hosted MX.
+        google-site-verification just means domain was verified, not mail hosted."""
         result = classify(
             ["mail.example.ee"],
             "",
             txt_verifications={"microsoft": "ms12345"},
         )
-        assert provider(result) == "microsoft"
-        assert "TXT verification" in reason(result)
+        assert provider(result) == "independent"
 
-    def test_self_hosted_dkim_takes_precedence_over_txt(self):
-        """DKIM beats TXT tokens for self-hosted MX."""
+    def test_self_hosted_dkim_still_works(self):
+        """DKIM still works for self-hosted MX (only TXT was removed)."""
         result = classify(
             ["mail.example.ee"],
             "",
             dkim={"google": "google._domainkey.googlemail.com"},
-            txt_verifications={"microsoft": "ms12345"},
         )
         assert provider(result) == "google"
         assert "DKIM" in reason(result)
-
-    def test_self_hosted_no_txt_stays_independent(self):
-        """Without TXT tokens, self-hosted MX stays independent."""
-        result = classify(
-            ["mail.example.ee"],
-            "",
-            txt_verifications={},
-        )
-        assert provider(result) == "independent"
 
     def test_direct_mx_not_overridden_by_txt(self):
         """Direct MX match takes precedence over TXT tokens."""

@@ -222,14 +222,6 @@ def classify(
                     f"DKIM reveals {dkim_provider} backend"
                 )
 
-        # TXT verification tokens for unrecognized MX hosts
-        txt_provider = classify_from_txt_verifications(txt_verifications)
-        if txt_provider:
-            return txt_provider, (
-                f"MX ({mx_display}) is local gateway; "
-                f"TXT verification proves {txt_provider} tenant"
-            )
-
         is_local_isp = bool(mx_asns and mx_asns & LOCAL_ISP_ASNS.keys())
 
         if is_local_isp:
