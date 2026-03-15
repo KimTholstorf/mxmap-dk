@@ -170,7 +170,6 @@ GATEWAY_KEYWORDS = {
     "mailchannels": ["mailchannels.net"],
     "spamexperts": ["spamexperts.eu", "spamexperts.net", "spamexperts.com"],
     "mpssec": ["mpssec.net"],
-    "cleanmx": ["cleanmx.pt"],
     "spambusters": ["spambusters.email"],
     "mxthunder": ["mxthunder.net"],
     "host-bg": ["host.bg"],
@@ -376,6 +375,7 @@ LOCAL_ISP_ASNS: dict[int, str] = {
     47787: "Ar Telecom (PT)",
     60729: "Nowo Communications (PT)",
     25291: "Adclick (PT)",
+    24768: "CleanMX (PT)",
     # Italy
     12874: "Fastweb (IT)",
     3269: "Telecom Italia/TIM (IT)",

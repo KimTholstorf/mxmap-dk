@@ -40,6 +40,7 @@ COUNTRIES = [
     "BE",
     "AT",
     "CZ",
+    "SK",
     "ES",
     "FR",
     "PL",
@@ -47,6 +48,9 @@ COUNTRIES = [
     "NL",
     "IT",
     "IE",
+    "BG",
+    "SI",
+    "GB",
 ]
 
 # Which conceptual level maps to which file level per country.
@@ -109,6 +113,18 @@ LEVEL_MAP = {
         "municipality": "municipality",
     },
     "IE": {"region": "region", "district": "municipality", "municipality": "municipality"},
+    "BG": {
+        "region": "municipality",
+        "district": "municipality",
+        "municipality": "municipality",
+    },
+    "SK": {
+        "region": "region",
+        "district": "municipality",
+        "municipality": "municipality",
+    },
+    "SI": {"region": "region", "district": "region", "municipality": "municipality"},
+    "GB": {"region": "region", "district": "municipality", "municipality": "municipality"},
 }
 
 
@@ -296,6 +312,8 @@ def main():
                 f"relation/{osm_rel_id}" if osm_rel_id else feature.get("id", "")
             )
             feature["properties"]["country"] = cc
+            if "name_en" not in feature["properties"]:
+                feature["properties"]["name_en"] = ""
             feature["properties"]["region"] = m.get("region", "")
             feature["properties"]["muni_id"] = m.get("id", "")
             dk = get_district_key(cc, m.get("id", ""))

@@ -1,0 +1,634 @@
+[
+  {
+    "id": "SK-0101",
+    "name": "Bratislava I",
+    "country": "SK",
+    "region": "Bratislavský kraj",
+    "domain": "bratislava.sk",
+    "osm_relation_id": 388234
+  },
+  {
+    "id": "SK-0102",
+    "name": "Bratislava II",
+    "country": "SK",
+    "region": "Bratislavský kraj",
+    "domain": "bratislava.sk",
+    "osm_relation_id": 388239
+  },
+  {
+    "id": "SK-0103",
+    "name": "Bratislava III",
+    "country": "SK",
+    "region": "Bratislavský kraj",
+    "domain": "bratislava.sk",
+    "osm_relation_id": 388242
+  },
+  {
+    "id": "SK-0104",
+    "name": "Bratislava IV",
+    "country": "SK",
+    "region": "Bratislavský kraj",
+    "domain": "bratislava.sk",
+    "osm_relation_id": 388245
+  },
+  {
+    "id": "SK-0105",
+    "name": "Bratislava V",
+    "country": "SK",
+    "region": "Bratislavský kraj",
+    "domain": "bratislava.sk",
+    "osm_relation_id": 388210
+  },
+  {
+    "id": "SK-0106",
+    "name": "Malacky",
+    "country": "SK",
+    "region": "Bratislavský kraj",
+    "domain": "malacky.sk",
+    "osm_relation_id": 388219
+  },
+  {
+    "id": "SK-0107",
+    "name": "Pezinok",
+    "country": "SK",
+    "region": "Bratislavský kraj",
+    "domain": "pezinok.sk",
+    "osm_relation_id": 388211
+  },
+  {
+    "id": "SK-0108",
+    "name": "Senec",
+    "country": "SK",
+    "region": "Bratislavský kraj",
+    "domain": "senec.sk",
+    "osm_relation_id": 388223
+  },
+  {
+    "id": "SK-0211",
+    "name": "Dunajská Streda",
+    "country": "SK",
+    "region": "Trnavský kraj",
+    "domain": "dunstreda.sk",
+    "osm_relation_id": 388225
+  },
+  {
+    "id": "SK-0212",
+    "name": "Galanta",
+    "country": "SK",
+    "region": "Trnavský kraj",
+    "domain": "galanta.sk",
+    "osm_relation_id": 388188
+  },
+  {
+    "id": "SK-0213",
+    "name": "Hlohovec",
+    "country": "SK",
+    "region": "Trnavský kraj",
+    "domain": "hlohovec.sk",
+    "osm_relation_id": 388194
+  },
+  {
+    "id": "SK-0214",
+    "name": "Piešťany",
+    "country": "SK",
+    "region": "Trnavský kraj",
+    "domain": "piestany.sk",
+    "osm_relation_id": 388190
+  },
+  {
+    "id": "SK-0215",
+    "name": "Senica",
+    "country": "SK",
+    "region": "Trnavský kraj",
+    "domain": "senica.sk",
+    "osm_relation_id": 388200
+  },
+  {
+    "id": "SK-0216",
+    "name": "Skalica",
+    "country": "SK",
+    "region": "Trnavský kraj",
+    "domain": "skalica.sk",
+    "osm_relation_id": 388206
+  },
+  {
+    "id": "SK-0217",
+    "name": "Trnava",
+    "country": "SK",
+    "region": "Trnavský kraj",
+    "domain": "trnava.sk",
+    "osm_relation_id": 388202
+  },
+  {
+    "id": "SK-0221",
+    "name": "Bánovce nad Bebravou",
+    "country": "SK",
+    "region": "Trenčiansky kraj",
+    "domain": "banovce.sk",
+    "osm_relation_id": 388251
+  },
+  {
+    "id": "SK-0222",
+    "name": "Ilava",
+    "country": "SK",
+    "region": "Trenčiansky kraj",
+    "domain": "ilava.sk",
+    "osm_relation_id": 388253
+  },
+  {
+    "id": "SK-0223",
+    "name": "Myjava",
+    "country": "SK",
+    "region": "Trenčiansky kraj",
+    "domain": "myjava.sk",
+    "osm_relation_id": 388257
+  },
+  {
+    "id": "SK-0224",
+    "name": "Nové Mesto nad Váhom",
+    "country": "SK",
+    "region": "Trenčiansky kraj",
+    "domain": "nove-mesto.sk",
+    "osm_relation_id": 388258
+  },
+  {
+    "id": "SK-0225",
+    "name": "Partizánske",
+    "country": "SK",
+    "region": "Trenčiansky kraj",
+    "domain": "partizanske.sk",
+    "osm_relation_id": 388261
+  },
+  {
+    "id": "SK-0226",
+    "name": "Považská Bystrica",
+    "country": "SK",
+    "region": "Trenčiansky kraj",
+    "domain": "povazska-bystrica.sk",
+    "osm_relation_id": 388229
+  },
+  {
+    "id": "SK-0227",
+    "name": "Prievidza",
+    "country": "SK",
+    "region": "Trenčiansky kraj",
+    "domain": "prievidza.sk",
+    "osm_relation_id": 388235
+  },
+  {
+    "id": "SK-0228",
+    "name": "Púchov",
+    "country": "SK",
+    "region": "Trenčiansky kraj",
+    "domain": "puchov.sk",
+    "osm_relation_id": 388248
+  },
+  {
+    "id": "SK-0229",
+    "name": "Trenčín",
+    "country": "SK",
+    "region": "Trenčiansky kraj",
+    "domain": "trencin.sk",
+    "osm_relation_id": 388247
+  },
+  {
+    "id": "SK-0231",
+    "name": "Komárno",
+    "country": "SK",
+    "region": "Nitriansky kraj",
+    "domain": "komarno.sk",
+    "osm_relation_id": 388233
+  },
+  {
+    "id": "SK-0232",
+    "name": "Levice",
+    "country": "SK",
+    "region": "Nitriansky kraj",
+    "domain": "levice.sk",
+    "osm_relation_id": 388243
+  },
+  {
+    "id": "SK-0233",
+    "name": "Nitra",
+    "country": "SK",
+    "region": "Nitriansky kraj",
+    "domain": "nitra.sk",
+    "osm_relation_id": 388212
+  },
+  {
+    "id": "SK-0234",
+    "name": "Nové Zámky",
+    "country": "SK",
+    "region": "Nitriansky kraj",
+    "domain": "novezamky.sk",
+    "osm_relation_id": 388208
+  },
+  {
+    "id": "SK-0235",
+    "name": "Šaľa",
+    "country": "SK",
+    "region": "Nitriansky kraj",
+    "domain": "sala.sk",
+    "osm_relation_id": 388222
+  },
+  {
+    "id": "SK-0236",
+    "name": "Topoľčany",
+    "country": "SK",
+    "region": "Nitriansky kraj",
+    "domain": "topolcany.sk",
+    "osm_relation_id": 388224
+  },
+  {
+    "id": "SK-0237",
+    "name": "Zlaté Moravce",
+    "country": "SK",
+    "region": "Nitriansky kraj",
+    "domain": "zlatemoravce.sk",
+    "osm_relation_id": 388217
+  },
+  {
+    "id": "SK-0311",
+    "name": "Bytča",
+    "country": "SK",
+    "region": "Žilinský kraj",
+    "domain": "bytca.sk",
+    "osm_relation_id": 388195
+  },
+  {
+    "id": "SK-0312",
+    "name": "Čadca",
+    "country": "SK",
+    "region": "Žilinský kraj",
+    "domain": "mestocadca.sk",
+    "osm_relation_id": 388191
+  },
+  {
+    "id": "SK-0313",
+    "name": "Dolný Kubín",
+    "country": "SK",
+    "region": "Žilinský kraj",
+    "domain": "dolnykubin.sk",
+    "osm_relation_id": 388186
+  },
+  {
+    "id": "SK-0314",
+    "name": "Kysucké Nové Mesto",
+    "country": "SK",
+    "region": "Žilinský kraj",
+    "domain": "kysuckenovemesto.sk",
+    "osm_relation_id": 388204
+  },
+  {
+    "id": "SK-0315",
+    "name": "Liptovský Mikuláš",
+    "country": "SK",
+    "region": "Žilinský kraj",
+    "domain": "mikulas.sk",
+    "osm_relation_id": 388199
+  },
+  {
+    "id": "SK-0316",
+    "name": "Martin",
+    "country": "SK",
+    "region": "Žilinský kraj",
+    "domain": "martin.sk",
+    "osm_relation_id": 388197
+  },
+  {
+    "id": "SK-0317",
+    "name": "Námestovo",
+    "country": "SK",
+    "region": "Žilinský kraj",
+    "domain": "namestovo.sk",
+    "osm_relation_id": 388260
+  },
+  {
+    "id": "SK-0318",
+    "name": "Ružomberok",
+    "country": "SK",
+    "region": "Žilinský kraj",
+    "domain": "ruzomberok.sk",
+    "osm_relation_id": 388262
+  },
+  {
+    "id": "SK-0319",
+    "name": "Turčianske Teplice",
+    "country": "SK",
+    "region": "Žilinský kraj",
+    "domain": "turciansketeplice.sk",
+    "osm_relation_id": 388259
+  },
+  {
+    "id": "SK-031A",
+    "name": "Tvrdošín",
+    "country": "SK",
+    "region": "Žilinský kraj",
+    "domain": "tvrdosin.sk",
+    "osm_relation_id": 388254
+  },
+  {
+    "id": "SK-031B",
+    "name": "Žilina",
+    "country": "SK",
+    "region": "Žilinský kraj",
+    "domain": "zilina.sk",
+    "osm_relation_id": 388256
+  },
+  {
+    "id": "SK-0321",
+    "name": "Banská Bystrica",
+    "country": "SK",
+    "region": "Banskobystrický kraj",
+    "domain": "banskabystrica.sk",
+    "osm_relation_id": 388240
+  },
+  {
+    "id": "SK-0322",
+    "name": "Banská Štiavnica",
+    "country": "SK",
+    "region": "Banskobystrický kraj",
+    "domain": "banskastiavnica.sk",
+    "osm_relation_id": 388237
+  },
+  {
+    "id": "SK-0323",
+    "name": "Brezno",
+    "country": "SK",
+    "region": "Banskobystrický kraj",
+    "domain": "brezno.sk",
+    "osm_relation_id": 388241
+  },
+  {
+    "id": "SK-0324",
+    "name": "Detva",
+    "country": "SK",
+    "region": "Banskobystrický kraj",
+    "domain": "detva.sk",
+    "osm_relation_id": 388231
+  },
+  {
+    "id": "SK-0325",
+    "name": "Krupina",
+    "country": "SK",
+    "region": "Banskobystrický kraj",
+    "domain": "krupina.sk",
+    "osm_relation_id": 388232
+  },
+  {
+    "id": "SK-0326",
+    "name": "Lučenec",
+    "country": "SK",
+    "region": "Banskobystrický kraj",
+    "domain": "lucenec.sk",
+    "osm_relation_id": 388230
+  },
+  {
+    "id": "SK-0327",
+    "name": "Poltár",
+    "country": "SK",
+    "region": "Banskobystrický kraj",
+    "domain": "poltar.sk",
+    "osm_relation_id": 388218
+  },
+  {
+    "id": "SK-0328",
+    "name": "Revúca",
+    "country": "SK",
+    "region": "Banskobystrický kraj",
+    "domain": "revuca.sk",
+    "osm_relation_id": 388228
+  },
+  {
+    "id": "SK-0329",
+    "name": "Rimavská Sobota",
+    "country": "SK",
+    "region": "Banskobystrický kraj",
+    "domain": "rimavskasobota.sk",
+    "osm_relation_id": 388207
+  },
+  {
+    "id": "SK-032A",
+    "name": "Veľký Krtíš",
+    "country": "SK",
+    "region": "Banskobystrický kraj",
+    "domain": "velkykrtis.sk",
+    "osm_relation_id": 388213
+  },
+  {
+    "id": "SK-032B",
+    "name": "Zvolen",
+    "country": "SK",
+    "region": "Banskobystrický kraj",
+    "domain": "zvolen.sk",
+    "osm_relation_id": 388198
+  },
+  {
+    "id": "SK-032C",
+    "name": "Žarnovica",
+    "country": "SK",
+    "region": "Banskobystrický kraj",
+    "domain": "zarnovica.sk",
+    "osm_relation_id": 388203
+  },
+  {
+    "id": "SK-032D",
+    "name": "Žiar nad Hronom",
+    "country": "SK",
+    "region": "Banskobystrický kraj",
+    "domain": "ziar.sk",
+    "osm_relation_id": 388189
+  },
+  {
+    "id": "SK-0411",
+    "name": "Bardejov",
+    "country": "SK",
+    "region": "Prešovský kraj",
+    "domain": "bardejov.sk",
+    "osm_relation_id": 388185
+  },
+  {
+    "id": "SK-0412",
+    "name": "Humenné",
+    "country": "SK",
+    "region": "Prešovský kraj",
+    "domain": "humenne.sk",
+    "osm_relation_id": 388192
+  },
+  {
+    "id": "SK-0413",
+    "name": "Kežmarok",
+    "country": "SK",
+    "region": "Prešovský kraj",
+    "domain": "kezmarok.sk",
+    "osm_relation_id": 388263
+  },
+  {
+    "id": "SK-0414",
+    "name": "Levoča",
+    "country": "SK",
+    "region": "Prešovský kraj",
+    "domain": "levoca.sk",
+    "osm_relation_id": 388252
+  },
+  {
+    "id": "SK-0415",
+    "name": "Medzilaborce",
+    "country": "SK",
+    "region": "Prešovský kraj",
+    "domain": "medzilaborce.sk",
+    "osm_relation_id": 388249
+  },
+  {
+    "id": "SK-0416",
+    "name": "Poprad",
+    "country": "SK",
+    "region": "Prešovský kraj",
+    "domain": "poprad.sk",
+    "osm_relation_id": 388250
+  },
+  {
+    "id": "SK-0417",
+    "name": "Prešov",
+    "country": "SK",
+    "region": "Prešovský kraj",
+    "domain": "presov.sk",
+    "osm_relation_id": 388255
+  },
+  {
+    "id": "SK-0418",
+    "name": "Sabinov",
+    "country": "SK",
+    "region": "Prešovský kraj",
+    "domain": "sabinov.sk",
+    "osm_relation_id": 388246
+  },
+  {
+    "id": "SK-0419",
+    "name": "Snina",
+    "country": "SK",
+    "region": "Prešovský kraj",
+    "domain": "snina.sk",
+    "osm_relation_id": 388244
+  },
+  {
+    "id": "SK-041A",
+    "name": "Stará Ľubovňa",
+    "country": "SK",
+    "region": "Prešovský kraj",
+    "domain": "staralubovna.sk",
+    "osm_relation_id": 388238
+  },
+  {
+    "id": "SK-041B",
+    "name": "Stropkov",
+    "country": "SK",
+    "region": "Prešovský kraj",
+    "domain": "stropkov.sk",
+    "osm_relation_id": 388236
+  },
+  {
+    "id": "SK-041C",
+    "name": "Svidník",
+    "country": "SK",
+    "region": "Prešovský kraj",
+    "domain": "svidnik.sk",
+    "osm_relation_id": 388226
+  },
+  {
+    "id": "SK-041D",
+    "name": "Vranov nad Topľou",
+    "country": "SK",
+    "region": "Prešovský kraj",
+    "domain": "vranov.sk",
+    "osm_relation_id": 388227
+  },
+  {
+    "id": "SK-0421",
+    "name": "Gelnica",
+    "country": "SK",
+    "region": "Košický kraj",
+    "domain": "gelnica.sk",
+    "osm_relation_id": 388221
+  },
+  {
+    "id": "SK-0422",
+    "name": "Košice I",
+    "country": "SK",
+    "region": "Košický kraj",
+    "domain": "kosice.sk",
+    "osm_relation_id": 388220
+  },
+  {
+    "id": "SK-0423",
+    "name": "Košice II",
+    "country": "SK",
+    "region": "Košický kraj",
+    "domain": "kosice.sk",
+    "osm_relation_id": 388216
+  },
+  {
+    "id": "SK-0424",
+    "name": "Košice III",
+    "country": "SK",
+    "region": "Košický kraj",
+    "domain": "kosice.sk",
+    "osm_relation_id": 388215
+  },
+  {
+    "id": "SK-0425",
+    "name": "Košice IV",
+    "country": "SK",
+    "region": "Košický kraj",
+    "domain": "kosice.sk",
+    "osm_relation_id": 388214
+  },
+  {
+    "id": "SK-0426",
+    "name": "Košice - okolie",
+    "country": "SK",
+    "region": "Košický kraj",
+    "domain": "kosiceokolie.sk",
+    "osm_relation_id": 388209
+  },
+  {
+    "id": "SK-0427",
+    "name": "Michalovce",
+    "country": "SK",
+    "region": "Košický kraj",
+    "domain": "michalovce.sk",
+    "osm_relation_id": 388205
+  },
+  {
+    "id": "SK-0428",
+    "name": "Rožňava",
+    "country": "SK",
+    "region": "Košický kraj",
+    "domain": "roznava.sk",
+    "osm_relation_id": 388201
+  },
+  {
+    "id": "SK-0429",
+    "name": "Sobrance",
+    "country": "SK",
+    "region": "Košický kraj",
+    "domain": "sobrance.sk",
+    "osm_relation_id": 388196
+  },
+  {
+    "id": "SK-042A",
+    "name": "Spišská Nová Ves",
+    "country": "SK",
+    "region": "Košický kraj",
+    "domain": "spisskanovaves.sk",
+    "osm_relation_id": 388193
+  },
+  {
+    "id": "SK-042B",
+    "name": "Trebišov",
+    "country": "SK",
+    "region": "Košický kraj",
+    "domain": "trebisov.sk",
+    "osm_relation_id": 388187
+  }
+]

@@ -16,10 +16,10 @@ MANIFEST_PATH = TOPO_DIR / "manifest.json"
 DATA_PATH = ROOT / "data.json"
 
 # Countries that use the monolithic TopoJSON (split via split_topo.py)
-MONOLITHIC_COUNTRIES = {"EE", "LV", "LT", "FI", "NO", "SE", "DE", "DK", "AD", "LU", "BE", "AT", "CZ"}
+MONOLITHIC_COUNTRIES = {"EE", "LV", "LT", "FI", "NO", "SE", "DE", "DK", "AD", "LU", "BE", "AT", "CZ", "BG", "GB"}
 
 # Countries with standalone TopoJSON files
-STANDALONE_COUNTRIES = {"IS", "ES", "FR", "PL", "PT", "NL", "IT", "IE"}
+STANDALONE_COUNTRIES = {"IS", "ES", "FR", "PL", "PT", "NL", "IT", "IE", "SI"}
 
 # Countries that use name-based matching (OSM IDs differ between seed data and TopoJSON)
 NAME_MATCHED_COUNTRIES = set()  # All countries now use ID matching
@@ -31,7 +31,7 @@ MIN_FEATURES = {
     "EE": 70, "LV": 40, "LT": 55, "FI": 300, "NO": 350, "SE": 280,
     "DE": 395, "DK": 95, "AD": 7, "LU": 95, "BE": 560, "AT": 2070, "CZ": 75,
     "IS": 60, "ES": 50, "FR": 90, "PL": 370, "PT": 300, "NL": 330,
-    "IT": 100, "IE": 25,
+    "IT": 100, "IE": 25, "SI": 200, "BG": 25, "GB": 280,
 }
 
 
