@@ -101,6 +101,14 @@ class TestGuessDomains:
         domains = guess_domains("Třebíč", "CZ")
         assert "trebic.cz" in domains
 
+    def test_polish_diacritics(self):
+        domains = guess_domains("Łódź", "PL")
+        assert "lodz.pl" in domains or "lodz.gov.pl" in domains
+
+    def test_polish_prefix_strip(self):
+        domains = guess_domains("Powiat Krakowski", "PL")
+        assert "krakowski.pl" in domains or "krakowski.gov.pl" in domains
+
 
 # ── load_seed_data() ─────────────────────────────────────────────────
 
