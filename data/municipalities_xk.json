@@ -1,0 +1,302 @@
+[
+  {
+    "id": "XK-001",
+    "name": "Deçan Municipality",
+    "country": "XK",
+    "region": "Gjakova District",
+    "domain": "decan.rks-gov.net",
+    "osm_relation_id": 1332170
+  },
+  {
+    "id": "XK-002",
+    "name": "Dragash Municipality",
+    "country": "XK",
+    "region": "Prizren District",
+    "domain": "dragash.rks-gov.net",
+    "osm_relation_id": 1332198
+  },
+  {
+    "id": "XK-003",
+    "name": "Drenas Municipality",
+    "country": "XK",
+    "region": "Prishtina District",
+    "domain": "kk.rks-gov.net"
+  },
+  {
+    "id": "XK-004",
+    "name": "Elez Han Municipality",
+    "country": "XK",
+    "region": "Ferizaj District",
+    "domain": "haniielezit.rks-gov.net",
+    "osm_relation_id": 1332197
+  },
+  {
+    "id": "XK-005",
+    "name": "Ferizaj Municipality",
+    "country": "XK",
+    "region": "Ferizaj District",
+    "domain": "ferizaj.rks-gov.net"
+  },
+  {
+    "id": "XK-006",
+    "name": "Fushë Kosovë Municipality",
+    "country": "XK",
+    "region": "Prishtina District",
+    "domain": "kk.rks-gov.net",
+    "osm_relation_id": 1332190
+  },
+  {
+    "id": "XK-007",
+    "name": "Gjakova Municipality",
+    "country": "XK",
+    "region": "Gjakova District",
+    "domain": "gjakova.rks-gov.net",
+    "osm_relation_id": 1332169
+  },
+  {
+    "id": "XK-008",
+    "name": "Gjilan Municipality",
+    "country": "XK",
+    "region": "Kosovo-Pomoravlje District",
+    "domain": "gjilan.rks-gov.net",
+    "osm_relation_id": 1332172
+  },
+  {
+    "id": "XK-009",
+    "name": "Gračanica Municipality",
+    "country": "XK",
+    "region": "Prishtina District",
+    "domain": "kk.rks-gov.net",
+    "osm_relation_id": 6901830
+  },
+  {
+    "id": "XK-010",
+    "name": "Istog Municipality",
+    "country": "XK",
+    "region": "Peja District",
+    "domain": "istog.rks-gov.net",
+    "osm_relation_id": 1332163
+  },
+  {
+    "id": "XK-011",
+    "name": "Junik Municipality",
+    "country": "XK",
+    "region": "Gjakova District",
+    "domain": "kk.rks-gov.net",
+    "osm_relation_id": 1332191
+  },
+  {
+    "id": "XK-012",
+    "name": "Kamenica Municipality",
+    "country": "XK",
+    "region": "Kosovo-Pomoravlje District",
+    "domain": "kamenice.rks-gov.net",
+    "osm_relation_id": 1332162
+  },
+  {
+    "id": "XK-013",
+    "name": "Kaçanik Municipality",
+    "country": "XK",
+    "region": "Ferizaj District",
+    "domain": "kacanik.rks-gov.net",
+    "osm_relation_id": 1332180
+  },
+  {
+    "id": "XK-014",
+    "name": "Klina Municipality",
+    "country": "XK",
+    "region": "Peja District",
+    "domain": "kline.rks-gov.net",
+    "osm_relation_id": 1332179
+  },
+  {
+    "id": "XK-015",
+    "name": "Kllokot Municipality",
+    "country": "XK",
+    "region": "Gjilan District",
+    "domain": "",
+    "osm_relation_id": 6901841
+  },
+  {
+    "id": "XK-016",
+    "name": "Leposavić Municipality",
+    "country": "XK",
+    "region": "Mitrovica District",
+    "domain": "leposaviq.rks-gov.net",
+    "osm_relation_id": 1332176
+  },
+  {
+    "id": "XK-017",
+    "name": "Lipjan Municipality",
+    "country": "XK",
+    "region": "Prishtina District",
+    "domain": "",
+    "osm_relation_id": 1332188
+  },
+  {
+    "id": "XK-018",
+    "name": "Malishevë Municipality",
+    "country": "XK",
+    "region": "Prizren District",
+    "domain": "malisheve.rks-gov.net",
+    "osm_relation_id": 1332165
+  },
+  {
+    "id": "XK-019",
+    "name": "Mamusha Municipality",
+    "country": "XK",
+    "region": "Prizren District",
+    "domain": "mamushe.rks-gov.net",
+    "osm_relation_id": 1332174
+  },
+  {
+    "id": "XK-020",
+    "name": "North Mitrovica Municipality",
+    "country": "XK",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "XK-021",
+    "name": "Novo Brdo Municipality",
+    "country": "XK",
+    "region": "Kosovo-Pomoravlje District",
+    "domain": "kk.rks-gov.net",
+    "osm_relation_id": 1332177
+  },
+  {
+    "id": "XK-022",
+    "name": "Obiliq Municipality",
+    "country": "XK",
+    "region": "Prishtina District",
+    "domain": "obiliq.rks-gov.net",
+    "osm_relation_id": 1332178
+  },
+  {
+    "id": "XK-023",
+    "name": "Parteš Municipality",
+    "country": "XK",
+    "region": "Gjilan District",
+    "domain": "",
+    "osm_relation_id": 6901844
+  },
+  {
+    "id": "XK-024",
+    "name": "Peja Municipality",
+    "country": "XK",
+    "region": "Peja District",
+    "domain": "peja.rks-gov.net",
+    "osm_relation_id": 1332187
+  },
+  {
+    "id": "XK-025",
+    "name": "Podujeva Municipality",
+    "country": "XK",
+    "region": "Prishtina District",
+    "domain": "kk.rks-gov.net",
+    "osm_relation_id": 1332182
+  },
+  {
+    "id": "XK-026",
+    "name": "Prishtina Municipality",
+    "country": "XK",
+    "region": "Prishtina District",
+    "domain": "prishtinaonline.com",
+    "osm_relation_id": 1332181
+  },
+  {
+    "id": "XK-027",
+    "name": "Prizren Municipality",
+    "country": "XK",
+    "region": "Prizren District (Serbia)",
+    "domain": "prizren.rks-gov.net",
+    "osm_relation_id": 1332193
+  },
+  {
+    "id": "XK-028",
+    "name": "Rahovec Municipality",
+    "country": "XK",
+    "region": "Prizren District (Serbia)",
+    "domain": "rahovec.rks-gov.net",
+    "osm_relation_id": 1332196
+  },
+  {
+    "id": "XK-029",
+    "name": "Ranilug Municipality",
+    "country": "XK",
+    "region": "Gjilan District",
+    "domain": "",
+    "osm_relation_id": 6903238
+  },
+  {
+    "id": "XK-030",
+    "name": "Shtime Municipality",
+    "country": "XK",
+    "region": "Ferizaj District",
+    "domain": "kk.rks-gov.net",
+    "osm_relation_id": 1332175
+  },
+  {
+    "id": "XK-031",
+    "name": "Skenderaj Municipality",
+    "country": "XK",
+    "region": "Mitrovica District",
+    "domain": "kk.rks-gov.net",
+    "osm_relation_id": 1332183
+  },
+  {
+    "id": "XK-032",
+    "name": "South Mitrovica",
+    "country": "XK",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "XK-033",
+    "name": "Suhareka Municipality",
+    "country": "XK",
+    "region": "Prizren District (Serbia)",
+    "domain": "kk.rks-gov.net",
+    "osm_relation_id": 1332166
+  },
+  {
+    "id": "XK-034",
+    "name": "Viti Municipality",
+    "country": "XK",
+    "region": "Kosovo and Metohija",
+    "domain": "viti.rks-gov.net",
+    "osm_relation_id": 1332194
+  },
+  {
+    "id": "XK-035",
+    "name": "Vushtrri Municipality",
+    "country": "XK",
+    "region": "Mitrovica District",
+    "domain": "vushtrri.rks-gov.net",
+    "osm_relation_id": 1332164
+  },
+  {
+    "id": "XK-036",
+    "name": "Zubin Potok Municipality",
+    "country": "XK",
+    "region": "Mitrovica District",
+    "domain": "zubinpotok.rks-gov.net",
+    "osm_relation_id": 1332173
+  },
+  {
+    "id": "XK-037",
+    "name": "Zvečan Municipality",
+    "country": "XK",
+    "region": "Mitrovica District",
+    "domain": "",
+    "osm_relation_id": 1332195
+  },
+  {
+    "id": "XK-038",
+    "name": "Štrpce Municipality",
+    "country": "XK",
+    "region": "Ferizaj District",
+    "domain": "shterpce.rks-gov.net",
+    "osm_relation_id": 1332171
+  }
+]

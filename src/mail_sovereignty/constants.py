@@ -86,6 +86,9 @@ SKIP_DOMAINS = {
     "example.hu",
     "example.mt",
     "example.ro",
+    "example.al",
+    "example.me",
+    "example.ba",
     "gov.uk",
     "kommune.no",
     "sentry.io",
@@ -143,6 +146,8 @@ SUBPAGES = [
     "/elerhetosegek",  # Hungarian: "Contact details"
     "/contact",  # Romanian/Maltese/Cypriot (already present but explicit)
     "/despre-noi",  # Romanian: "About us"
+    "/kontakt",  # Bosnian/Montenegrin: "Contact" (same as Croatian)
+    "/kontakti",  # Albanian: "Contacts"
 ]
 
 GATEWAY_KEYWORDS = {
@@ -542,6 +547,19 @@ LOCAL_ISP_ASNS: dict[int, str] = {
     2614: "ROEDUNET (RO)",
     12302: "Vodafone RO (RO)",
     31313: "STS/gov.ro (RO)",  # Romanian government STS mail
+    # Albania
+    42313: "AKEP (AL)",
+    29614: "Abissnet (AL)",
+    # Kosovo
+    21246: "IPKO (XK)",
+    20773: "Kujtesa (XK)",
+    # Montenegro
+    8585: "Crnogorski Telekom (ME)",
+    42159: "M-Tel (ME)",
+    # Bosnia and Herzegovina
+    9146: "BH Telecom (BA)",
+    5564: "HT Eronet (BA)",
+    31549: "Telekom Srpske (BA)",
 }
 
 CONCURRENCY = 20

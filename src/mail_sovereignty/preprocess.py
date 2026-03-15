@@ -53,6 +53,10 @@ SEED_FILES = {
     "HU": "municipalities_hu.json",
     "MT": "municipalities_mt.json",
     "RO": "municipalities_ro.json",
+    "AL": "municipalities_al.json",
+    "XK": "municipalities_xk.json",
+    "ME": "municipalities_me.json",
+    "BA": "municipalities_ba.json",
 }
 
 
@@ -110,6 +114,10 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         "județul ",  # Romanian: county
         "consiliul județean ",  # Romanian: county council
         "primăria ",  # Romanian: city hall
+        "bashkia ",  # Albanian: municipality
+        "komuna e ",  # Albanian/Kosovo: municipality
+        "opština ",  # Serbian/Montenegrin: municipality
+        "općina ",  # Bosnian: municipality (same as Croatian)
     ]:
         if raw.startswith(prefix):
             raw = raw[len(prefix) :]
@@ -288,6 +296,10 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         "HU": [".hu"],
         "MT": [".gov.mt", ".org.mt", ".com.mt", ".mt"],
         "RO": [".ro"],
+        "AL": [".al", ".gov.al"],
+        "XK": [".rks-gov.net", ".com"],
+        "ME": [".me"],
+        "BA": [".ba", ".gov.ba"],
     }
     tlds = tld_map.get(
         country, [".ee", ".lv", ".lt", ".fi", ".no", ".se", ".de", ".dk"]

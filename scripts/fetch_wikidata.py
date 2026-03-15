@@ -84,6 +84,57 @@ SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
 }
 ORDER BY ?itemLabel
 """,
+    # Albania: Q1781058 (bashkia) = 61 post-2015 municipalities
+    "AL": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q1781058 .
+  ?item wdt:P17 wd:Q222 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,sq" }
+}
+ORDER BY ?itemLabel
+""",
+    # Kosovo: Q2989682 (municipality of Kosovo) = 35-38
+    "XK": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q2989682 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,sq,sr" }
+}
+ORDER BY ?itemLabel
+""",
+    # Montenegro: Q838549 (municipality of Montenegro) = 25
+    "ME": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q838549 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,sr,cnr" }
+}
+ORDER BY ?itemLabel
+""",
+    # Bosnia: Q17268368 (FBiH municipality) + Q57315116 (RS municipality) + Q102104752 (city)
+    "BA": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  VALUES ?type { wd:Q17268368 wd:Q57315116 wd:Q102104752 }
+  ?item wdt:P31 ?type .
+  ?item wdt:P17 wd:Q225 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,bs,sr,hr" }
+}
+ORDER BY ?itemLabel
+""",
     # Romania: Q1776764 (county of Romania) = 41 counties + Bucharest
     "RO": """
 SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {

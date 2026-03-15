@@ -1,0 +1,1150 @@
+[
+  {
+    "id": "BA-001",
+    "name": "Banja Luka",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "banjaluka.rs.ba"
+  },
+  {
+    "id": "BA-002",
+    "name": "Banovići Municipality",
+    "country": "BA",
+    "region": "Tuzla Canton",
+    "domain": "",
+    "osm_relation_id": 2528157
+  },
+  {
+    "id": "BA-003",
+    "name": "Berkovići Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528158
+  },
+  {
+    "id": "BA-004",
+    "name": "Bileća Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528161
+  },
+  {
+    "id": "BA-005",
+    "name": "Bosanska Krupa City",
+    "country": "BA",
+    "region": "Una-Sana Canton",
+    "domain": "",
+    "osm_relation_id": 2528164
+  },
+  {
+    "id": "BA-006",
+    "name": "Bosanski Petrovac Municipality",
+    "country": "BA",
+    "region": "Una-Sana Canton",
+    "domain": "",
+    "osm_relation_id": 2528168
+  },
+  {
+    "id": "BA-007",
+    "name": "Bosansko Grahovo Municipality",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": "bosanskograhovo.ba",
+    "osm_relation_id": 2528170
+  },
+  {
+    "id": "BA-008",
+    "name": "Bratunac Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "bratunacopstina.com",
+    "osm_relation_id": 2530647
+  },
+  {
+    "id": "BA-009",
+    "name": "Breza Municipality",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": "",
+    "osm_relation_id": 2528171
+  },
+  {
+    "id": "BA-010",
+    "name": "Brod Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "opstina-brod.net",
+    "osm_relation_id": 2528166
+  },
+  {
+    "id": "BA-011",
+    "name": "Bugojno Municipality",
+    "country": "BA",
+    "region": "Central Bosnia Canton",
+    "domain": "",
+    "osm_relation_id": 2528172
+  },
+  {
+    "id": "BA-012",
+    "name": "Busovača Municipality",
+    "country": "BA",
+    "region": "Central Bosnia Canton",
+    "domain": "",
+    "osm_relation_id": 2528173
+  },
+  {
+    "id": "BA-013",
+    "name": "Bužim Municipality",
+    "country": "BA",
+    "region": "Una-Sana Canton",
+    "domain": "",
+    "osm_relation_id": 2528174
+  },
+  {
+    "id": "BA-014",
+    "name": "Centar Municipality",
+    "country": "BA",
+    "region": "Sarajevo Canton",
+    "domain": "centar.ba",
+    "osm_relation_id": 2528180
+  },
+  {
+    "id": "BA-015",
+    "name": "City of Banja Luka",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "banjaluka.rs.ba",
+    "osm_relation_id": 2528156
+  },
+  {
+    "id": "BA-016",
+    "name": "City of Bihać",
+    "country": "BA",
+    "region": "Una-Sana Canton",
+    "domain": "bihac.org",
+    "osm_relation_id": 2528159
+  },
+  {
+    "id": "BA-017",
+    "name": "City of Bijeljina",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "gradbijeljina.org",
+    "osm_relation_id": 2528160
+  },
+  {
+    "id": "BA-018",
+    "name": "City of Cazin",
+    "country": "BA",
+    "region": "Una-Sana Canton",
+    "domain": "",
+    "osm_relation_id": 2528177
+  },
+  {
+    "id": "BA-019",
+    "name": "City of Derventa",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "derventa.ba",
+    "osm_relation_id": 2528182
+  },
+  {
+    "id": "BA-020",
+    "name": "City of Doboj",
+    "country": "BA",
+    "region": "",
+    "domain": "doboj.gov.ba"
+  },
+  {
+    "id": "BA-021",
+    "name": "City of Goražde",
+    "country": "BA",
+    "region": "Bosnian Podrinje Canton",
+    "domain": "",
+    "osm_relation_id": 2528200
+  },
+  {
+    "id": "BA-022",
+    "name": "City of Gradačac",
+    "country": "BA",
+    "region": "Tuzla Canton",
+    "domain": "",
+    "osm_relation_id": 2528203
+  },
+  {
+    "id": "BA-023",
+    "name": "City of Gradiška",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528162
+  },
+  {
+    "id": "BA-024",
+    "name": "City of Gračanica",
+    "country": "BA",
+    "region": "Tuzla Canton",
+    "domain": "",
+    "osm_relation_id": 2528202
+  },
+  {
+    "id": "BA-025",
+    "name": "City of Konjic",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": "",
+    "osm_relation_id": 2528219
+  },
+  {
+    "id": "BA-026",
+    "name": "City of Livno",
+    "country": "BA",
+    "region": "Canton 10",
+    "domain": "",
+    "osm_relation_id": 2528226
+  },
+  {
+    "id": "BA-027",
+    "name": "City of Ljubuški",
+    "country": "BA",
+    "region": "West Herzegovina Canton",
+    "domain": "",
+    "osm_relation_id": 2528228
+  },
+  {
+    "id": "BA-028",
+    "name": "City of Lukavac",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": "",
+    "osm_relation_id": 2528230
+  },
+  {
+    "id": "BA-029",
+    "name": "City of Mostar",
+    "country": "BA",
+    "region": "Herzegovina-Neretva Canton",
+    "domain": "",
+    "osm_relation_id": 2528234
+  },
+  {
+    "id": "BA-030",
+    "name": "City of Orašje",
+    "country": "BA",
+    "region": "Posavina Canton",
+    "domain": "",
+    "osm_relation_id": 2528245
+  },
+  {
+    "id": "BA-031",
+    "name": "City of Prijedor",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 5729592
+  },
+  {
+    "id": "BA-032",
+    "name": "City of Srebrenik",
+    "country": "BA",
+    "region": "Tuzla Canton",
+    "domain": "",
+    "osm_relation_id": 2528270
+  },
+  {
+    "id": "BA-033",
+    "name": "City of Stolac",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": "",
+    "osm_relation_id": 2528271
+  },
+  {
+    "id": "BA-034",
+    "name": "City of Trebinje",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528277
+  },
+  {
+    "id": "BA-035",
+    "name": "City of Tuzla",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": ""
+  },
+  {
+    "id": "BA-036",
+    "name": "City of Visoko",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": "visoko.gov.ba",
+    "osm_relation_id": 2528288
+  },
+  {
+    "id": "BA-037",
+    "name": "City of Zavidovići",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": "zavidovici.ba",
+    "osm_relation_id": 2528292
+  },
+  {
+    "id": "BA-038",
+    "name": "City of Zenica",
+    "country": "BA",
+    "region": "Zenica-Doboj Canton",
+    "domain": "zenica.ba",
+    "osm_relation_id": 2528293
+  },
+  {
+    "id": "BA-039",
+    "name": "City of Zvornik",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528296
+  },
+  {
+    "id": "BA-040",
+    "name": "City of Čapljina",
+    "country": "BA",
+    "region": "Herzegovina-Neretva Canton",
+    "domain": "",
+    "osm_relation_id": 2528176
+  },
+  {
+    "id": "BA-041",
+    "name": "City of Široki Brijeg",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": "",
+    "osm_relation_id": 2528265
+  },
+  {
+    "id": "BA-042",
+    "name": "City of Živinice",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": "opcinazivinice.org",
+    "osm_relation_id": 2528295
+  },
+  {
+    "id": "BA-043",
+    "name": "Doboj East",
+    "country": "BA",
+    "region": "Tuzla Canton",
+    "domain": "dobojistok.org",
+    "osm_relation_id": 2528183
+  },
+  {
+    "id": "BA-044",
+    "name": "Doboj South Municipality",
+    "country": "BA",
+    "region": "Zenica-Doboj Canton",
+    "domain": "dobojjug.ba",
+    "osm_relation_id": 2528184
+  },
+  {
+    "id": "BA-045",
+    "name": "Dobretići Municipality",
+    "country": "BA",
+    "region": "Central Bosnia Canton",
+    "domain": "",
+    "osm_relation_id": 2528186
+  },
+  {
+    "id": "BA-046",
+    "name": "Domaljevac-Šamac",
+    "country": "BA",
+    "region": "Posavina Canton",
+    "domain": "domaljevac.ba",
+    "osm_relation_id": 2528187
+  },
+  {
+    "id": "BA-047",
+    "name": "Donji Vakuf Municipality",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": "donji-vakuf.ba",
+    "osm_relation_id": 2528188
+  },
+  {
+    "id": "BA-048",
+    "name": "Donji Žabar Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528189
+  },
+  {
+    "id": "BA-049",
+    "name": "Drvar Municipality",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": "opstinadrvar.net",
+    "osm_relation_id": 2528190
+  },
+  {
+    "id": "BA-050",
+    "name": "Fojnica Municipality",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": "",
+    "osm_relation_id": 2528197
+  },
+  {
+    "id": "BA-051",
+    "name": "Foča Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528196
+  },
+  {
+    "id": "BA-052",
+    "name": "Foča-Ustikolina",
+    "country": "BA",
+    "region": "Bosnian Podrinje Canton",
+    "domain": "foca-ustikolina.ba",
+    "osm_relation_id": 2528284
+  },
+  {
+    "id": "BA-053",
+    "name": "Gacko Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528198
+  },
+  {
+    "id": "BA-054",
+    "name": "Gornji Vakuf-Uskoplje Municipality",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": "",
+    "osm_relation_id": 2528201
+  },
+  {
+    "id": "BA-055",
+    "name": "Grude Municipality",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": "",
+    "osm_relation_id": 2528204
+  },
+  {
+    "id": "BA-056",
+    "name": "Hadžići Municipality",
+    "country": "BA",
+    "region": "Sarajevo Canton",
+    "domain": "",
+    "osm_relation_id": 2528205
+  },
+  {
+    "id": "BA-057",
+    "name": "Han Pijesak Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528206
+  },
+  {
+    "id": "BA-058",
+    "name": "Ilidža Municipality",
+    "country": "BA",
+    "region": "Sarajevo Canton",
+    "domain": "",
+    "osm_relation_id": 2528207
+  },
+  {
+    "id": "BA-059",
+    "name": "Ilijaš Municipality",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": "ilijas.ba",
+    "osm_relation_id": 2528208
+  },
+  {
+    "id": "BA-060",
+    "name": "Istočna Ilidža",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "istocnailidza.net",
+    "osm_relation_id": 2528192
+  },
+  {
+    "id": "BA-061",
+    "name": "Istočni Drvar",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528191
+  },
+  {
+    "id": "BA-062",
+    "name": "Istočni Mostar Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528193
+  },
+  {
+    "id": "BA-063",
+    "name": "Istočni Stari Grad",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528195
+  },
+  {
+    "id": "BA-064",
+    "name": "Istočno Novo Sarajevo",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "opistinasns.net",
+    "osm_relation_id": 2528194
+  },
+  {
+    "id": "BA-065",
+    "name": "Istočno Sarajevo",
+    "country": "BA",
+    "region": "Bosnia and Herzegovina",
+    "domain": "gradistocnosarajevo.net",
+    "osm_relation_id": 2567396
+  },
+  {
+    "id": "BA-066",
+    "name": "Jablanica Municipality",
+    "country": "BA",
+    "region": "Herzegovina-Neretva Canton",
+    "domain": "",
+    "osm_relation_id": 2528209
+  },
+  {
+    "id": "BA-067",
+    "name": "Jajce Municipality",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": "",
+    "osm_relation_id": 2528210
+  },
+  {
+    "id": "BA-068",
+    "name": "Jezero Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528212
+  },
+  {
+    "id": "BA-069",
+    "name": "Kakanj Municipality",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": "",
+    "osm_relation_id": 2528213
+  },
+  {
+    "id": "BA-070",
+    "name": "Kalesija Municipality",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": "",
+    "osm_relation_id": 2528214
+  },
+  {
+    "id": "BA-071",
+    "name": "Kalinovik Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528215
+  },
+  {
+    "id": "BA-072",
+    "name": "Kiseljak Municipality",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": "",
+    "osm_relation_id": 2528216
+  },
+  {
+    "id": "BA-073",
+    "name": "Kladanj Municipality",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": "",
+    "osm_relation_id": 2528217
+  },
+  {
+    "id": "BA-074",
+    "name": "Ključ Municipality",
+    "country": "BA",
+    "region": "Una-Sana Canton",
+    "domain": "",
+    "osm_relation_id": 2528218
+  },
+  {
+    "id": "BA-075",
+    "name": "Kneževo Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528266
+  },
+  {
+    "id": "BA-076",
+    "name": "Kostajnica Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528163
+  },
+  {
+    "id": "BA-077",
+    "name": "Kotor Varoš Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528220
+  },
+  {
+    "id": "BA-078",
+    "name": "Kozarska Dubica Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528165
+  },
+  {
+    "id": "BA-079",
+    "name": "Kreševo Municipality",
+    "country": "BA",
+    "region": "Central Bosnia Canton",
+    "domain": "",
+    "osm_relation_id": 2528221
+  },
+  {
+    "id": "BA-080",
+    "name": "Krupa na Uni",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "opstinakrupanauni.rs.ba",
+    "osm_relation_id": 2528222
+  },
+  {
+    "id": "BA-081",
+    "name": "Kupres Municipality",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": "",
+    "osm_relation_id": 2528224
+  },
+  {
+    "id": "BA-082",
+    "name": "Kupres Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "srpskikupres.com",
+    "osm_relation_id": 2528223
+  },
+  {
+    "id": "BA-083",
+    "name": "Laktaši Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528225
+  },
+  {
+    "id": "BA-084",
+    "name": "Ljubinje Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528227
+  },
+  {
+    "id": "BA-085",
+    "name": "Lopare Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528229
+  },
+  {
+    "id": "BA-086",
+    "name": "Maglaj Municipality",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": "",
+    "osm_relation_id": 2528231
+  },
+  {
+    "id": "BA-087",
+    "name": "Milići Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528232
+  },
+  {
+    "id": "BA-088",
+    "name": "Mrkonjić Grad Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528235
+  },
+  {
+    "id": "BA-089",
+    "name": "Municipality of Glamoč",
+    "country": "BA",
+    "region": "Canton 10",
+    "domain": "opstinaglamoc.ba",
+    "osm_relation_id": 2528199
+  },
+  {
+    "id": "BA-090",
+    "name": "Neum Municipality",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": "neum.ba",
+    "osm_relation_id": 2528236
+  },
+  {
+    "id": "BA-091",
+    "name": "Nevesinje Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528237
+  },
+  {
+    "id": "BA-092",
+    "name": "Novi Grad Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528167
+  },
+  {
+    "id": "BA-093",
+    "name": "Novi Grad, Sarajevo",
+    "country": "BA",
+    "region": "Sarajevo",
+    "domain": "novigradsarajevo.ba",
+    "osm_relation_id": 2528240
+  },
+  {
+    "id": "BA-094",
+    "name": "Novo Goražde",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "novogorazde.rs.ba",
+    "osm_relation_id": 2528238
+  },
+  {
+    "id": "BA-095",
+    "name": "Novo Sarajevo",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": "novosarajevo.ba",
+    "osm_relation_id": 2528239
+  },
+  {
+    "id": "BA-096",
+    "name": "Odžak Municipality",
+    "country": "BA",
+    "region": "Posavina Canton",
+    "domain": "",
+    "osm_relation_id": 2528242
+  },
+  {
+    "id": "BA-097",
+    "name": "Olovo Municipality",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": "",
+    "osm_relation_id": 2528244
+  },
+  {
+    "id": "BA-098",
+    "name": "Osmaci Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528246
+  },
+  {
+    "id": "BA-099",
+    "name": "Oštra Luka",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "opstinaostraluka.rs.ba",
+    "osm_relation_id": 2528247
+  },
+  {
+    "id": "BA-100",
+    "name": "Pale Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528248
+  },
+  {
+    "id": "BA-101",
+    "name": "Pale-Prača",
+    "country": "BA",
+    "region": "Bosnian Podrinje Canton",
+    "domain": "praca.com.ba",
+    "osm_relation_id": 2528249
+  },
+  {
+    "id": "BA-102",
+    "name": "Pelagićevo Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "pelagicevo.gov.ba",
+    "osm_relation_id": 2528250
+  },
+  {
+    "id": "BA-103",
+    "name": "Petrovac",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "drinic.rs.ba",
+    "osm_relation_id": 2528251
+  },
+  {
+    "id": "BA-104",
+    "name": "Petrovo Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528252
+  },
+  {
+    "id": "BA-105",
+    "name": "Posušje Municipality",
+    "country": "BA",
+    "region": "West Herzegovina Canton",
+    "domain": "",
+    "osm_relation_id": 2528253
+  },
+  {
+    "id": "BA-106",
+    "name": "Prnjavor Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528255
+  },
+  {
+    "id": "BA-107",
+    "name": "Prozor-Rama",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": "prozor-rama.org",
+    "osm_relation_id": 2528256
+  },
+  {
+    "id": "BA-108",
+    "name": "Ravno Municipality",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": "",
+    "osm_relation_id": 2528257
+  },
+  {
+    "id": "BA-109",
+    "name": "Ribnik",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "opstinaribnik.org",
+    "osm_relation_id": 2528258
+  },
+  {
+    "id": "BA-110",
+    "name": "Rogatica Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528259
+  },
+  {
+    "id": "BA-111",
+    "name": "Rudo Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528260
+  },
+  {
+    "id": "BA-112",
+    "name": "Sanski Most Municipality",
+    "country": "BA",
+    "region": "Una-Sana Canton",
+    "domain": "sanskimost.gov.ba",
+    "osm_relation_id": 2528261
+  },
+  {
+    "id": "BA-113",
+    "name": "Sapna Municipality",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": "",
+    "osm_relation_id": 2528262
+  },
+  {
+    "id": "BA-114",
+    "name": "Sarajevo",
+    "country": "BA",
+    "region": "Sarajevo Canton",
+    "domain": "sarajevo.ba",
+    "osm_relation_id": 2567380
+  },
+  {
+    "id": "BA-115",
+    "name": "Sokolac Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528267
+  },
+  {
+    "id": "BA-116",
+    "name": "Srbac Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528268
+  },
+  {
+    "id": "BA-117",
+    "name": "Srebrenica Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "srebrenica.gov.ba",
+    "osm_relation_id": 2528269
+  },
+  {
+    "id": "BA-118",
+    "name": "Stanari Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "opstinastanari.com"
+  },
+  {
+    "id": "BA-119",
+    "name": "Stari Grad",
+    "country": "BA",
+    "region": "Sarajevo Canton",
+    "domain": "starigrad.ba",
+    "osm_relation_id": 2528243
+  },
+  {
+    "id": "BA-120",
+    "name": "Teočak Municipality",
+    "country": "BA",
+    "region": "Tuzla Canton",
+    "domain": "",
+    "osm_relation_id": 2528272
+  },
+  {
+    "id": "BA-121",
+    "name": "Teslić Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528274
+  },
+  {
+    "id": "BA-122",
+    "name": "Tešanj Municipality",
+    "country": "BA",
+    "region": "Zenica-Doboj Canton",
+    "domain": "",
+    "osm_relation_id": 2528273
+  },
+  {
+    "id": "BA-123",
+    "name": "Tomislavgrad Municipality",
+    "country": "BA",
+    "region": "Canton 10",
+    "domain": "",
+    "osm_relation_id": 2528275
+  },
+  {
+    "id": "BA-124",
+    "name": "Town of Novi Travnik",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": "",
+    "osm_relation_id": 2528241
+  },
+  {
+    "id": "BA-125",
+    "name": "Travnik Municipality",
+    "country": "BA",
+    "region": "Central Bosnia Canton",
+    "domain": "",
+    "osm_relation_id": 2528276
+  },
+  {
+    "id": "BA-126",
+    "name": "Trnovo Municipality",
+    "country": "BA",
+    "region": "Sarajevo Canton",
+    "domain": "trnovo.ba",
+    "osm_relation_id": 2528280
+  },
+  {
+    "id": "BA-127",
+    "name": "Trnovo Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2568824
+  },
+  {
+    "id": "BA-128",
+    "name": "Ugljevik Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528282
+  },
+  {
+    "id": "BA-129",
+    "name": "Usora Municipality",
+    "country": "BA",
+    "region": "Zenica-Doboj Canton",
+    "domain": "opcina-usora.com",
+    "osm_relation_id": 2528283
+  },
+  {
+    "id": "BA-130",
+    "name": "Vareš Municipality",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": "",
+    "osm_relation_id": 2528285
+  },
+  {
+    "id": "BA-131",
+    "name": "Velika Kladuša Municipality",
+    "country": "BA",
+    "region": "Una-Sana Canton",
+    "domain": "",
+    "osm_relation_id": 2528286
+  },
+  {
+    "id": "BA-132",
+    "name": "Vitez Municipality",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": "",
+    "osm_relation_id": 2528289
+  },
+  {
+    "id": "BA-133",
+    "name": "Višegrad Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528287
+  },
+  {
+    "id": "BA-134",
+    "name": "Vlasenica Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528290
+  },
+  {
+    "id": "BA-135",
+    "name": "Vogošća Municipality",
+    "country": "BA",
+    "region": "Sarajevo Canton",
+    "domain": "",
+    "osm_relation_id": 2528291
+  },
+  {
+    "id": "BA-136",
+    "name": "Vukosavlje Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2531450
+  },
+  {
+    "id": "BA-137",
+    "name": "Čajniče Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528175
+  },
+  {
+    "id": "BA-138",
+    "name": "Čelinac",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528179
+  },
+  {
+    "id": "BA-139",
+    "name": "Čelić Municipality",
+    "country": "BA",
+    "region": "Tuzla Canton",
+    "domain": "",
+    "osm_relation_id": 2528178
+  },
+  {
+    "id": "BA-140",
+    "name": "Čitluk Municipality",
+    "country": "BA",
+    "region": "Herzegovina-Neretva Canton",
+    "domain": "",
+    "osm_relation_id": 2528181
+  },
+  {
+    "id": "BA-141",
+    "name": "Šamac Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528169
+  },
+  {
+    "id": "BA-142",
+    "name": "Šekovići Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528263
+  },
+  {
+    "id": "BA-143",
+    "name": "Šipovo Municipality",
+    "country": "BA",
+    "region": "Republika Srpska",
+    "domain": "",
+    "osm_relation_id": 2528264
+  },
+  {
+    "id": "BA-144",
+    "name": "Žepče Municipality",
+    "country": "BA",
+    "region": "Federation of Bosnia and Herzegovina",
+    "domain": "opcina-zepce.com",
+    "osm_relation_id": 2528294
+  }
+]

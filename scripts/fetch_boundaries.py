@@ -36,6 +36,10 @@ COUNTRY_CONFIG = {
     "FR": {"admin_level": 6, "iso": "FR", "name": "France"},
     "ES": {"admin_level": 6, "iso": "ES", "name": "Spain"},
     "EE": {"admin_level": 7, "iso": "EE", "name": "Estonia"},
+    "AL": {"admin_level": 7, "iso": "AL", "name": "Albania"},
+    "XK": {"admin_level": 7, "iso": "XK", "name": "Kosovo"},
+    "ME": {"admin_level": 6, "iso": "ME", "name": "Montenegro"},
+    "BA": {"admin_level": 7, "iso": "BA", "name": "Bosnia and Herzegovina"},
 }
 
 
