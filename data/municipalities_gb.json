@@ -284,7 +284,8 @@
     "name": "Reading",
     "country": "GB",
     "region": "England",
-    "domain": "reading.gov.uk"
+    "domain": "reading.gov.uk",
+    "osm_relation_id": 115074
   },
   {
     "id": "GB-E06000039",
@@ -331,14 +332,16 @@
     "name": "City of Portsmouth",
     "country": "GB",
     "region": "England",
-    "domain": "portsmouth.gov.uk"
+    "domain": "portsmouth.gov.uk",
+    "osm_relation_id": 127167
   },
   {
     "id": "GB-E06000045",
     "name": "City of Southampton",
     "country": "GB",
     "region": "England",
-    "domain": "southampton.gov.uk"
+    "domain": "southampton.gov.uk",
+    "osm_relation_id": 127864
   },
   {
     "id": "GB-E06000046",
@@ -473,7 +476,8 @@
     "name": "Cumberland",
     "country": "GB",
     "region": "England",
-    "domain": "cumberland.gov.uk"
+    "domain": "cumberland.gov.uk",
+    "osm_relation_id": 15684264
   },
   {
     "id": "GB-E06000064",
