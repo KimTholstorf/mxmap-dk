@@ -261,7 +261,7 @@
     "country": "IT",
     "region": "Friuli Venezia Giulia",
     "domain": "provincia.trieste.it",
-    "osm_relation_id": 179297
+    "osm_relation_id": 179292
   },
   {
     "id": "IT-PN",
@@ -709,7 +709,7 @@
     "country": "IT",
     "region": "Calabria",
     "domain": "provincia.cs.it",
-    "osm_relation_id": 1783864
+    "osm_relation_id": 39788
   },
   {
     "id": "IT-CZ",
@@ -717,7 +717,7 @@
     "country": "IT",
     "region": "Calabria",
     "domain": "provincia.catanzaro.it",
-    "osm_relation_id": 1783862
+    "osm_relation_id": 39637
   },
   {
     "id": "IT-RC",
@@ -725,7 +725,7 @@
     "country": "IT",
     "region": "Calabria",
     "domain": "cittametropolitana.rc.it",
-    "osm_relation_id": 1783858
+    "osm_relation_id": 44862
   },
   {
     "id": "IT-KR",
@@ -733,7 +733,7 @@
     "country": "IT",
     "region": "Calabria",
     "domain": "provincia.crotone.it",
-    "osm_relation_id": 1783863
+    "osm_relation_id": 39748
   },
   {
     "id": "IT-VV",
@@ -741,7 +741,7 @@
     "country": "IT",
     "region": "Calabria",
     "domain": "provincia.vibovalentia.it",
-    "osm_relation_id": 1783860
+    "osm_relation_id": 44866
   },
   {
     "id": "IT-PA",
@@ -813,7 +813,7 @@
     "country": "IT",
     "region": "Sicilia",
     "domain": "provincia.siracusa.it",
-    "osm_relation_id": 40534
+    "osm_relation_id": 39155
   },
   {
     "id": "IT-CA",
@@ -837,7 +837,7 @@
     "country": "IT",
     "region": "Sardegna",
     "domain": "provincia.nuoro.it",
-    "osm_relation_id": 7362044
+    "osm_relation_id": 39979
   },
   {
     "id": "IT-OR",
@@ -845,15 +845,14 @@
     "country": "IT",
     "region": "Sardegna",
     "domain": "provincia.or.it",
-    "osm_relation_id": 7362046
+    "osm_relation_id": 40021
   },
   {
     "id": "IT-SU",
     "name": "Sud Sardegna",
     "country": "IT",
     "region": "Sardegna",
-    "domain": "provincia.sudsardegna.it",
-    "osm_relation_id": 7362056
+    "domain": "provincia.sudsardegna.it"
   },
   {
     "id": "IT-001272",
