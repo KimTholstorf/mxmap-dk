@@ -45,6 +45,10 @@ SEED_FILES = {
     "IT": "municipalities_it.json",
     "NL": "municipalities_nl.json",
     "IE": "municipalities_ie.json",
+    "BG": "municipalities_bg.json",
+    "SK": "municipalities_sk.json",
+    "SI": "municipalities_si.json",
+    "GB": "municipalities_gb.json",
 }
 
 
@@ -89,6 +93,11 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         "provincia della ",
         "città metropolitana di ",
         "gemeente ",  # Dutch
+        "city of ",  # UK
+        "royal borough of ",  # UK
+        "borough of ",  # UK
+        "london borough of ",  # UK
+        "metropolitan borough of ",  # UK
     ]:
         if raw.startswith(prefix):
             raw = raw[len(prefix) :]
@@ -117,6 +126,9 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         " county council",
         " city council",
         " city and county council",  # Irish
+        " borough council",
+        " district council",
+        " council",  # UK
     ]:
         if raw.endswith(suffix):
             raw = raw[: -len(suffix)]
@@ -150,7 +162,10 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         ("ý", "y"),
         ("ď", "d"),
         ("ť", "t"),
-        ("ň", "n"),  # Czech
+        ("ň", "n"),  # Czech/Slovak
+        ("ľ", "l"),
+        ("ĺ", "l"),
+        ("ŕ", "r"),  # Slovak
         ("þ", "th"),
         ("ð", "d"),  # Icelandic
         ("á", "a"),
@@ -181,6 +196,7 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         ("œ", "oe"),  # French
         ("ì", "i"),
         ("ò", "o"),  # Italian grave accents
+        ("ъ", "a"),  # Bulgarian Cyrillic
     ]
     clean = raw
     for a, b in translits:
@@ -236,6 +252,10 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         "IT": [".it", ".gov.it"],
         "NL": [".nl"],
         "IE": [".ie"],
+        "BG": [".bg"],
+        "SK": [".sk"],
+        "SI": [".si"],
+        "GB": [".gov.uk", ".uk"],
     }
     tlds = tld_map.get(
         country, [".ee", ".lv", ".lt", ".fi", ".no", ".se", ".de", ".dk"]

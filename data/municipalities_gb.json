@@ -1,0 +1,2806 @@
+[
+  {
+    "id": "GB-E06000001",
+    "name": "Hartlepool",
+    "country": "GB",
+    "region": "England",
+    "domain": "hartlepool.gov.uk",
+    "osm_relation_id": 153375
+  },
+  {
+    "id": "GB-E06000002",
+    "name": "Middlesbrough",
+    "country": "GB",
+    "region": "England",
+    "domain": "middlesbrough.gov.uk",
+    "osm_relation_id": 150988
+  },
+  {
+    "id": "GB-E06000003",
+    "name": "Redcar and Cleveland",
+    "country": "GB",
+    "region": "England",
+    "domain": "redcar-cleveland.gov.uk",
+    "osm_relation_id": 150989
+  },
+  {
+    "id": "GB-E06000004",
+    "name": "Stockton-on-Tees",
+    "country": "GB",
+    "region": "England",
+    "domain": "stockton.gov.uk",
+    "osm_relation_id": 150994
+  },
+  {
+    "id": "GB-E06000005",
+    "name": "Darlington",
+    "country": "GB",
+    "region": "England",
+    "domain": "darlington.gov.uk",
+    "osm_relation_id": 153377
+  },
+  {
+    "id": "GB-E06000006",
+    "name": "Halton",
+    "country": "GB",
+    "region": "England",
+    "domain": "halton.gov.uk",
+    "osm_relation_id": 147284
+  },
+  {
+    "id": "GB-E06000007",
+    "name": "Warrington",
+    "country": "GB",
+    "region": "England",
+    "domain": "warrington.gov.uk",
+    "osm_relation_id": 147278
+  },
+  {
+    "id": "GB-E06000008",
+    "name": "Blackburn with Darwen",
+    "country": "GB",
+    "region": "England",
+    "domain": "blackburn.gov.uk",
+    "osm_relation_id": 148780
+  },
+  {
+    "id": "GB-E06000009",
+    "name": "Blackpool",
+    "country": "GB",
+    "region": "England",
+    "domain": "blackpool.gov.uk",
+    "osm_relation_id": 148603
+  },
+  {
+    "id": "GB-E06000010",
+    "name": "City of Kingston upon Hull",
+    "country": "GB",
+    "region": "England",
+    "domain": "hullcc.gov.uk",
+    "osm_relation_id": 60148
+  },
+  {
+    "id": "GB-E06000011",
+    "name": "East Riding of Yorkshire",
+    "country": "GB",
+    "region": "England",
+    "domain": "eastriding.gov.uk",
+    "osm_relation_id": 88083
+  },
+  {
+    "id": "GB-E06000012",
+    "name": "North East Lincolnshire",
+    "country": "GB",
+    "region": "England",
+    "domain": "nelincs.gov.uk",
+    "osm_relation_id": 69361
+  },
+  {
+    "id": "GB-E06000013",
+    "name": "North Lincolnshire",
+    "country": "GB",
+    "region": "England",
+    "domain": "northlincs.gov.uk",
+    "osm_relation_id": 107240
+  },
+  {
+    "id": "GB-E06000014",
+    "name": "City of York",
+    "country": "GB",
+    "region": "England",
+    "domain": "york.gov.uk",
+    "osm_relation_id": 134353
+  },
+  {
+    "id": "GB-E06000015",
+    "name": "City of Derby",
+    "country": "GB",
+    "region": "England",
+    "domain": "derby.gov.uk",
+    "osm_relation_id": 142308
+  },
+  {
+    "id": "GB-E06000016",
+    "name": "City of Leicester",
+    "country": "GB",
+    "region": "England",
+    "domain": "leicester.gov.uk",
+    "osm_relation_id": 162353
+  },
+  {
+    "id": "GB-E06000017",
+    "name": "Rutland",
+    "country": "GB",
+    "region": "England",
+    "domain": "rutland.gov.uk",
+    "osm_relation_id": 57398
+  },
+  {
+    "id": "GB-E06000018",
+    "name": "City of Nottingham",
+    "country": "GB",
+    "region": "England",
+    "domain": "nottinghamcity.gov.uk",
+    "osm_relation_id": 123292
+  },
+  {
+    "id": "GB-E06000019",
+    "name": "Herefordshire",
+    "country": "GB",
+    "region": "England",
+    "domain": "herefordshire.gov.uk",
+    "osm_relation_id": 10187
+  },
+  {
+    "id": "GB-E06000020",
+    "name": "Telford and Wrekin",
+    "country": "GB",
+    "region": "England",
+    "domain": "telford.gov.uk",
+    "osm_relation_id": 167058
+  },
+  {
+    "id": "GB-E06000021",
+    "name": "City of Stoke-on-Trent",
+    "country": "GB",
+    "region": "England",
+    "domain": "stoke.gov.uk",
+    "osm_relation_id": 163183
+  },
+  {
+    "id": "GB-E06000022",
+    "name": "Bath and North East Somerset",
+    "country": "GB",
+    "region": "England",
+    "domain": "bathnes.gov.uk",
+    "osm_relation_id": 81941
+  },
+  {
+    "id": "GB-E06000023",
+    "name": "City of Bristol",
+    "country": "GB",
+    "region": "England",
+    "domain": "bristol.gov.uk",
+    "osm_relation_id": 57539
+  },
+  {
+    "id": "GB-E06000024",
+    "name": "North Somerset",
+    "country": "GB",
+    "region": "England",
+    "domain": "n-somerset.gov.uk",
+    "osm_relation_id": 80277
+  },
+  {
+    "id": "GB-E06000025",
+    "name": "South Gloucestershire",
+    "country": "GB",
+    "region": "England",
+    "domain": "southglos.gov.uk",
+    "osm_relation_id": 82631
+  },
+  {
+    "id": "GB-E06000026",
+    "name": "City of Plymouth",
+    "country": "GB",
+    "region": "England",
+    "domain": "plymouth.gov.uk",
+    "osm_relation_id": 189924
+  },
+  {
+    "id": "GB-E06000027",
+    "name": "Torbay",
+    "country": "GB",
+    "region": "England",
+    "domain": "torbay.gov.uk",
+    "osm_relation_id": 161649
+  },
+  {
+    "id": "GB-E06000030",
+    "name": "Swindon",
+    "country": "GB",
+    "region": "England",
+    "domain": "swindon.gov.uk",
+    "osm_relation_id": 110212
+  },
+  {
+    "id": "GB-E06000031",
+    "name": "City of Peterborough",
+    "country": "GB",
+    "region": "England",
+    "domain": "peterborough.gov.uk",
+    "osm_relation_id": 161640
+  },
+  {
+    "id": "GB-E06000032",
+    "name": "Luton",
+    "country": "GB",
+    "region": "England",
+    "domain": "luton.gov.uk",
+    "osm_relation_id": 158392
+  },
+  {
+    "id": "GB-E06000033",
+    "name": "Southend-on-Sea",
+    "country": "GB",
+    "region": "England",
+    "domain": "southend.gov.uk",
+    "osm_relation_id": 76489
+  },
+  {
+    "id": "GB-E06000034",
+    "name": "Thurrock",
+    "country": "GB",
+    "region": "England",
+    "domain": "thurrock.gov.uk",
+    "osm_relation_id": 76521
+  },
+  {
+    "id": "GB-E06000035",
+    "name": "Medway",
+    "country": "GB",
+    "region": "England",
+    "domain": "medway.gov.uk",
+    "osm_relation_id": 158019
+  },
+  {
+    "id": "GB-E06000036",
+    "name": "Bracknell Forest",
+    "country": "GB",
+    "region": "England",
+    "domain": "bracknell-forest.gov.uk",
+    "osm_relation_id": 113682
+  },
+  {
+    "id": "GB-E06000037",
+    "name": "West Berkshire",
+    "country": "GB",
+    "region": "England",
+    "domain": "westberks.gov.uk",
+    "osm_relation_id": 116938
+  },
+  {
+    "id": "GB-E06000038",
+    "name": "Reading",
+    "country": "GB",
+    "region": "England",
+    "domain": "reading.gov.uk"
+  },
+  {
+    "id": "GB-E06000039",
+    "name": "Slough",
+    "country": "GB",
+    "region": "England",
+    "domain": "slough.gov.uk",
+    "osm_relation_id": 117097
+  },
+  {
+    "id": "GB-E06000040",
+    "name": "Windsor and Maidenhead",
+    "country": "GB",
+    "region": "England",
+    "domain": "rbwm.gov.uk",
+    "osm_relation_id": 111014
+  },
+  {
+    "id": "GB-E06000041",
+    "name": "Wokingham",
+    "country": "GB",
+    "region": "England",
+    "domain": "wokingham.gov.uk",
+    "osm_relation_id": 114311
+  },
+  {
+    "id": "GB-E06000042",
+    "name": "City of Milton Keynes",
+    "country": "GB",
+    "region": "England",
+    "domain": "miltonkeynes.gov.uk",
+    "osm_relation_id": 172504
+  },
+  {
+    "id": "GB-E06000043",
+    "name": "Brighton and Hove",
+    "country": "GB",
+    "region": "England",
+    "domain": "brighton-hove.gov.uk",
+    "osm_relation_id": 114085
+  },
+  {
+    "id": "GB-E06000044",
+    "name": "City of Portsmouth",
+    "country": "GB",
+    "region": "England",
+    "domain": "portsmouth.gov.uk"
+  },
+  {
+    "id": "GB-E06000045",
+    "name": "City of Southampton",
+    "country": "GB",
+    "region": "England",
+    "domain": "southampton.gov.uk"
+  },
+  {
+    "id": "GB-E06000046",
+    "name": "Isle of Wight",
+    "country": "GB",
+    "region": "England",
+    "domain": "iwight.com",
+    "osm_relation_id": 154350
+  },
+  {
+    "id": "GB-E06000047",
+    "name": "County Durham",
+    "country": "GB",
+    "region": "England",
+    "domain": "durham.gov.uk",
+    "osm_relation_id": 88067
+  },
+  {
+    "id": "GB-E06000049",
+    "name": "Cheshire East",
+    "country": "GB",
+    "region": "England",
+    "domain": "cheshireeast.gov.uk",
+    "osm_relation_id": 153487
+  },
+  {
+    "id": "GB-E06000050",
+    "name": "Cheshire West and Chester",
+    "country": "GB",
+    "region": "England",
+    "domain": "cheshirewestandchester.gov.uk",
+    "osm_relation_id": 153488
+  },
+  {
+    "id": "GB-E06000051",
+    "name": "Shropshire",
+    "country": "GB",
+    "region": "England",
+    "domain": "shropshire.gov.uk",
+    "osm_relation_id": 167060
+  },
+  {
+    "id": "GB-E06000052",
+    "name": "Cornwall",
+    "country": "GB",
+    "region": "England",
+    "domain": "cornwall.gov.uk",
+    "osm_relation_id": 57537
+  },
+  {
+    "id": "GB-E06000053",
+    "name": "Isles of Scilly",
+    "country": "GB",
+    "region": "England",
+    "domain": "scilly.gov.uk",
+    "osm_relation_id": 158039
+  },
+  {
+    "id": "GB-E06000054",
+    "name": "Wiltshire",
+    "country": "GB",
+    "region": "England",
+    "domain": "wiltshire.gov.uk",
+    "osm_relation_id": 57533
+  },
+  {
+    "id": "GB-E06000055",
+    "name": "Bedford",
+    "country": "GB",
+    "region": "England",
+    "domain": "bedford.gov.uk",
+    "osm_relation_id": 158396
+  },
+  {
+    "id": "GB-E06000056",
+    "name": "Central Bedfordshire",
+    "country": "GB",
+    "region": "England",
+    "domain": "centralbedfordshire.gov.uk",
+    "osm_relation_id": 161643
+  },
+  {
+    "id": "GB-E06000057",
+    "name": "Northumberland",
+    "country": "GB",
+    "region": "England",
+    "domain": "northumberland.gov.uk",
+    "osm_relation_id": 88066
+  },
+  {
+    "id": "GB-E06000058",
+    "name": "Bournemouth, Christchurch and Poole",
+    "country": "GB",
+    "region": "England",
+    "domain": "bcpcouncil.gov.uk",
+    "osm_relation_id": 9448448
+  },
+  {
+    "id": "GB-E06000059",
+    "name": "Dorset",
+    "country": "GB",
+    "region": "England",
+    "domain": "dorsetcouncil.gov.uk",
+    "osm_relation_id": 9448449
+  },
+  {
+    "id": "GB-E06000060",
+    "name": "Buckinghamshire",
+    "country": "GB",
+    "region": "England",
+    "domain": "buckinghamshire.gov.uk",
+    "osm_relation_id": 172710
+  },
+  {
+    "id": "GB-E06000061",
+    "name": "North Northamptonshire",
+    "country": "GB",
+    "region": "England",
+    "domain": "northnorthants.gov.uk",
+    "osm_relation_id": 10792352
+  },
+  {
+    "id": "GB-E06000062",
+    "name": "West Northamptonshire",
+    "country": "GB",
+    "region": "England",
+    "domain": "westnorthants.gov.uk",
+    "osm_relation_id": 10792351
+  },
+  {
+    "id": "GB-E06000063",
+    "name": "Cumberland",
+    "country": "GB",
+    "region": "England",
+    "domain": "cumberland.gov.uk"
+  },
+  {
+    "id": "GB-E06000064",
+    "name": "Westmorland and Furness",
+    "country": "GB",
+    "region": "England",
+    "domain": "westmorlandandfurness.gov.uk",
+    "osm_relation_id": 15684265
+  },
+  {
+    "id": "GB-E06000065",
+    "name": "North Yorkshire",
+    "country": "GB",
+    "region": "England",
+    "domain": "northyorks.gov.uk",
+    "osm_relation_id": 88068
+  },
+  {
+    "id": "GB-E06000066",
+    "name": "Somerset",
+    "country": "GB",
+    "region": "England",
+    "domain": "somerset.gov.uk",
+    "osm_relation_id": 72894
+  },
+  {
+    "id": "GB-E07000008",
+    "name": "Cambridge",
+    "country": "GB",
+    "region": "England",
+    "domain": "cambridge.gov.uk",
+    "osm_relation_id": 295355
+  },
+  {
+    "id": "GB-E07000009",
+    "name": "East Cambridgeshire",
+    "country": "GB",
+    "region": "England",
+    "domain": "eastcambs.gov.uk",
+    "osm_relation_id": 295352
+  },
+  {
+    "id": "GB-E07000010",
+    "name": "Fenland District",
+    "country": "GB",
+    "region": "England",
+    "domain": "fenland.gov.uk",
+    "osm_relation_id": 295349
+  },
+  {
+    "id": "GB-E07000011",
+    "name": "Huntingdonshire",
+    "country": "GB",
+    "region": "England",
+    "domain": "huntingdonshire.gov.uk",
+    "osm_relation_id": 295351
+  },
+  {
+    "id": "GB-E07000012",
+    "name": "South Cambridgeshire",
+    "country": "GB",
+    "region": "England",
+    "domain": "southcambridgeshire.gov.uk",
+    "osm_relation_id": 295353
+  },
+  {
+    "id": "GB-E07000032",
+    "name": "Amber Valley",
+    "country": "GB",
+    "region": "England",
+    "domain": "ambervalley.gov.uk",
+    "osm_relation_id": 141905
+  },
+  {
+    "id": "GB-E07000033",
+    "name": "Bolsover",
+    "country": "GB",
+    "region": "England",
+    "domain": "bolsover.gov.uk",
+    "osm_relation_id": 108323
+  },
+  {
+    "id": "GB-E07000034",
+    "name": "Chesterfield",
+    "country": "GB",
+    "region": "England",
+    "domain": "chesterfield.gov.uk",
+    "osm_relation_id": 138738
+  },
+  {
+    "id": "GB-E07000035",
+    "name": "Derbyshire Dales",
+    "country": "GB",
+    "region": "England",
+    "domain": "derbyshiredales.gov.uk",
+    "osm_relation_id": 108100
+  },
+  {
+    "id": "GB-E07000036",
+    "name": "Erewash",
+    "country": "GB",
+    "region": "England",
+    "domain": "erewash.gov.uk",
+    "osm_relation_id": 142306
+  },
+  {
+    "id": "GB-E07000037",
+    "name": "High Peak",
+    "country": "GB",
+    "region": "England",
+    "domain": "highpeak.gov.uk",
+    "osm_relation_id": 108092
+  },
+  {
+    "id": "GB-E07000038",
+    "name": "North East Derbyshire",
+    "country": "GB",
+    "region": "England",
+    "domain": "northeastderbyshire.gov.uk",
+    "osm_relation_id": 108320
+  },
+  {
+    "id": "GB-E07000039",
+    "name": "South Derbyshire",
+    "country": "GB",
+    "region": "England",
+    "domain": "southderbyshire.gov.uk",
+    "osm_relation_id": 142627
+  },
+  {
+    "id": "GB-E07000040",
+    "name": "East Devon",
+    "country": "GB",
+    "region": "England",
+    "domain": "eastdevon.gov.uk",
+    "osm_relation_id": 2114883
+  },
+  {
+    "id": "GB-E07000041",
+    "name": "Exeter",
+    "country": "GB",
+    "region": "England",
+    "domain": "exeter.gov.uk",
+    "osm_relation_id": 2154556
+  },
+  {
+    "id": "GB-E07000042",
+    "name": "Mid Devon",
+    "country": "GB",
+    "region": "England",
+    "domain": "middevon.gov.uk",
+    "osm_relation_id": 2183131
+  },
+  {
+    "id": "GB-E07000043",
+    "name": "North Devon",
+    "country": "GB",
+    "region": "England",
+    "domain": "northdevon.gov.uk",
+    "osm_relation_id": 2189992
+  },
+  {
+    "id": "GB-E07000044",
+    "name": "South Hams",
+    "country": "GB",
+    "region": "England",
+    "domain": "southhams.gov.uk",
+    "osm_relation_id": 2118151
+  },
+  {
+    "id": "GB-E07000045",
+    "name": "Teignbridge",
+    "country": "GB",
+    "region": "England",
+    "domain": "teignbridge.gov.uk",
+    "osm_relation_id": 2124339
+  },
+  {
+    "id": "GB-E07000046",
+    "name": "Torridge District",
+    "country": "GB",
+    "region": "England",
+    "domain": "torridge.gov.uk",
+    "osm_relation_id": 2197541
+  },
+  {
+    "id": "GB-E07000047",
+    "name": "West Devon",
+    "country": "GB",
+    "region": "England",
+    "domain": "westdevon.gov.uk",
+    "osm_relation_id": 2198344
+  },
+  {
+    "id": "GB-E07000061",
+    "name": "Eastbourne",
+    "country": "GB",
+    "region": "England",
+    "domain": "eastbourne.gov.uk",
+    "osm_relation_id": 131194
+  },
+  {
+    "id": "GB-E07000062",
+    "name": "Hastings",
+    "country": "GB",
+    "region": "England",
+    "domain": "hastings.gov.uk",
+    "osm_relation_id": 131199
+  },
+  {
+    "id": "GB-E07000063",
+    "name": "Lewes",
+    "country": "GB",
+    "region": "England",
+    "domain": "lewes.gov.uk",
+    "osm_relation_id": 131295
+  },
+  {
+    "id": "GB-E07000064",
+    "name": "Rother",
+    "country": "GB",
+    "region": "England",
+    "domain": "rother.gov.uk",
+    "osm_relation_id": 134053
+  },
+  {
+    "id": "GB-E07000065",
+    "name": "Wealden",
+    "country": "GB",
+    "region": "England",
+    "domain": "wealden.gov.uk",
+    "osm_relation_id": 131298
+  },
+  {
+    "id": "GB-E07000066",
+    "name": "Basildon",
+    "country": "GB",
+    "region": "England",
+    "domain": "basildon.gov.uk",
+    "osm_relation_id": 76516
+  },
+  {
+    "id": "GB-E07000067",
+    "name": "Braintree",
+    "country": "GB",
+    "region": "England",
+    "domain": "braintree.gov.uk",
+    "osm_relation_id": 52187
+  },
+  {
+    "id": "GB-E07000068",
+    "name": "Brentwood",
+    "country": "GB",
+    "region": "England",
+    "domain": "brentwood.gov.uk",
+    "osm_relation_id": 76515
+  },
+  {
+    "id": "GB-E07000069",
+    "name": "Castle Point",
+    "country": "GB",
+    "region": "England",
+    "domain": "castlepoint.gov.uk",
+    "osm_relation_id": 76488
+  },
+  {
+    "id": "GB-E07000070",
+    "name": "Chelmsford",
+    "country": "GB",
+    "region": "England",
+    "domain": "chelmsford.gov.uk",
+    "osm_relation_id": 52189
+  },
+  {
+    "id": "GB-E07000071",
+    "name": "Colchester",
+    "country": "GB",
+    "region": "England",
+    "domain": "colchester.gov.uk",
+    "osm_relation_id": 76493
+  },
+  {
+    "id": "GB-E07000072",
+    "name": "Epping Forest",
+    "country": "GB",
+    "region": "England",
+    "domain": "eppingforestdc.gov.uk",
+    "osm_relation_id": 76512
+  },
+  {
+    "id": "GB-E07000073",
+    "name": "Harlow",
+    "country": "GB",
+    "region": "England",
+    "domain": "harlow.gov.uk",
+    "osm_relation_id": 76615
+  },
+  {
+    "id": "GB-E07000074",
+    "name": "Maldon",
+    "country": "GB",
+    "region": "England",
+    "domain": "maldon.gov.uk",
+    "osm_relation_id": 1551151
+  },
+  {
+    "id": "GB-E07000075",
+    "name": "Rochford",
+    "country": "GB",
+    "region": "England",
+    "domain": "rochford.gov.uk",
+    "osm_relation_id": 76490
+  },
+  {
+    "id": "GB-E07000076",
+    "name": "Tendring",
+    "country": "GB",
+    "region": "England",
+    "domain": "tendringdc.gov.uk",
+    "osm_relation_id": 76494
+  },
+  {
+    "id": "GB-E07000077",
+    "name": "Uttlesford",
+    "country": "GB",
+    "region": "England",
+    "domain": "uttlesford.gov.uk",
+    "osm_relation_id": 76508
+  },
+  {
+    "id": "GB-E07000078",
+    "name": "Cheltenham",
+    "country": "GB",
+    "region": "England",
+    "domain": "cheltenham.gov.uk",
+    "osm_relation_id": 184094
+  },
+  {
+    "id": "GB-E07000079",
+    "name": "Cotswold District",
+    "country": "GB",
+    "region": "England",
+    "domain": "cotswold.gov.uk",
+    "osm_relation_id": 2682252
+  },
+  {
+    "id": "GB-E07000080",
+    "name": "Forest of Dean",
+    "country": "GB",
+    "region": "England",
+    "domain": "fdean.gov.uk",
+    "osm_relation_id": 417631
+  },
+  {
+    "id": "GB-E07000081",
+    "name": "Gloucester",
+    "country": "GB",
+    "region": "England",
+    "domain": "gloucester.gov.uk",
+    "osm_relation_id": 181362
+  },
+  {
+    "id": "GB-E07000082",
+    "name": "Stroud",
+    "country": "GB",
+    "region": "England",
+    "domain": "stroud.gov.uk",
+    "osm_relation_id": 2657473
+  },
+  {
+    "id": "GB-E07000083",
+    "name": "Tewkesbury",
+    "country": "GB",
+    "region": "England",
+    "domain": "tewkesbury.gov.uk",
+    "osm_relation_id": 417658
+  },
+  {
+    "id": "GB-E07000084",
+    "name": "Basingstoke and Deane",
+    "country": "GB",
+    "region": "England",
+    "domain": "basingstoke.gov.uk",
+    "osm_relation_id": 127249
+  },
+  {
+    "id": "GB-E07000085",
+    "name": "East Hampshire",
+    "country": "GB",
+    "region": "England",
+    "domain": "easthants.gov.uk",
+    "osm_relation_id": 127161
+  },
+  {
+    "id": "GB-E07000086",
+    "name": "Eastleigh",
+    "country": "GB",
+    "region": "England",
+    "domain": "eastleigh.gov.uk",
+    "osm_relation_id": 127815
+  },
+  {
+    "id": "GB-E07000087",
+    "name": "Fareham",
+    "country": "GB",
+    "region": "England",
+    "domain": "fareham.gov.uk",
+    "osm_relation_id": 127232
+  },
+  {
+    "id": "GB-E07000088",
+    "name": "Gosport",
+    "country": "GB",
+    "region": "England",
+    "domain": "gosport.gov.uk",
+    "osm_relation_id": 127211
+  },
+  {
+    "id": "GB-E07000089",
+    "name": "Hart",
+    "country": "GB",
+    "region": "England",
+    "domain": "hart.gov.uk",
+    "osm_relation_id": 127197
+  },
+  {
+    "id": "GB-E07000090",
+    "name": "Havant",
+    "country": "GB",
+    "region": "England",
+    "domain": "havant.gov.uk",
+    "osm_relation_id": 127165
+  },
+  {
+    "id": "GB-E07000091",
+    "name": "New Forest",
+    "country": "GB",
+    "region": "England",
+    "domain": "newforest.gov.uk",
+    "osm_relation_id": 129306
+  },
+  {
+    "id": "GB-E07000092",
+    "name": "Rushmoor",
+    "country": "GB",
+    "region": "England",
+    "domain": "rushmoor.gov.uk",
+    "osm_relation_id": 127187
+  },
+  {
+    "id": "GB-E07000093",
+    "name": "Test Valley",
+    "country": "GB",
+    "region": "England",
+    "domain": "testvalley.gov.uk",
+    "osm_relation_id": 127642
+  },
+  {
+    "id": "GB-E07000094",
+    "name": "Winchester",
+    "country": "GB",
+    "region": "England",
+    "domain": "winchester.gov.uk",
+    "osm_relation_id": 127238
+  },
+  {
+    "id": "GB-E07000095",
+    "name": "Broxbourne",
+    "country": "GB",
+    "region": "England",
+    "domain": "broxbourne.gov.uk",
+    "osm_relation_id": 2677978
+  },
+  {
+    "id": "GB-E07000096",
+    "name": "Dacorum",
+    "country": "GB",
+    "region": "England",
+    "domain": "dacorum.gov.uk",
+    "osm_relation_id": 2683586
+  },
+  {
+    "id": "GB-E07000098",
+    "name": "Hertsmere",
+    "country": "GB",
+    "region": "England",
+    "domain": "hertsmere.gov.uk",
+    "osm_relation_id": 2682847
+  },
+  {
+    "id": "GB-E07000099",
+    "name": "North Hertfordshire",
+    "country": "GB",
+    "region": "England",
+    "domain": "north-herts.gov.uk",
+    "osm_relation_id": 2684089
+  },
+  {
+    "id": "GB-E07000102",
+    "name": "Three Rivers",
+    "country": "GB",
+    "region": "England",
+    "domain": "threerivers.gov.uk",
+    "osm_relation_id": 2683120
+  },
+  {
+    "id": "GB-E07000103",
+    "name": "Watford",
+    "country": "GB",
+    "region": "England",
+    "domain": "watford.gov.uk",
+    "osm_relation_id": 2683176
+  },
+  {
+    "id": "GB-E07000105",
+    "name": "Ashford",
+    "country": "GB",
+    "region": "England",
+    "domain": "ashford.gov.uk",
+    "osm_relation_id": 2068847
+  },
+  {
+    "id": "GB-E07000106",
+    "name": "Canterbury",
+    "country": "GB",
+    "region": "England",
+    "domain": "canterbury.gov.uk",
+    "osm_relation_id": 448590
+  },
+  {
+    "id": "GB-E07000107",
+    "name": "Dartford",
+    "country": "GB",
+    "region": "England",
+    "domain": "dartford.gov.uk",
+    "osm_relation_id": 2210488
+  },
+  {
+    "id": "GB-E07000108",
+    "name": "Dover",
+    "country": "GB",
+    "region": "England",
+    "domain": "dover.gov.uk",
+    "osm_relation_id": 1481934
+  },
+  {
+    "id": "GB-E07000109",
+    "name": "Gravesham",
+    "country": "GB",
+    "region": "England",
+    "domain": "gravesham.gov.uk",
+    "osm_relation_id": 1475656
+  },
+  {
+    "id": "GB-E07000110",
+    "name": "Maidstone",
+    "country": "GB",
+    "region": "England",
+    "domain": "maidstone.gov.uk",
+    "osm_relation_id": 2208739
+  },
+  {
+    "id": "GB-E07000111",
+    "name": "Sevenoaks",
+    "country": "GB",
+    "region": "England",
+    "domain": "sevenoaks.gov.uk",
+    "osm_relation_id": 2204490
+  },
+  {
+    "id": "GB-E07000112",
+    "name": "Folkestone and Hythe District",
+    "country": "GB",
+    "region": "England",
+    "domain": "folkestone-hythe.gov.uk",
+    "osm_relation_id": 2208689
+  },
+  {
+    "id": "GB-E07000113",
+    "name": "Borough of Swale",
+    "country": "GB",
+    "region": "England",
+    "domain": "swale.gov.uk",
+    "osm_relation_id": 2068848
+  },
+  {
+    "id": "GB-E07000114",
+    "name": "Thanet",
+    "country": "GB",
+    "region": "England",
+    "domain": "thanet.gov.uk",
+    "osm_relation_id": 1605596
+  },
+  {
+    "id": "GB-E07000115",
+    "name": "Tonbridge and Malling",
+    "country": "GB",
+    "region": "England",
+    "domain": "tmbc.gov.uk",
+    "osm_relation_id": 2209932
+  },
+  {
+    "id": "GB-E07000116",
+    "name": "Tunbridge Wells",
+    "country": "GB",
+    "region": "England",
+    "domain": "tunbridgewells.gov.uk",
+    "osm_relation_id": 2212730
+  },
+  {
+    "id": "GB-E07000117",
+    "name": "Burnley",
+    "country": "GB",
+    "region": "England",
+    "domain": "burnley.gov.uk",
+    "osm_relation_id": 149101
+  },
+  {
+    "id": "GB-E07000118",
+    "name": "Chorley",
+    "country": "GB",
+    "region": "England",
+    "domain": "chorley.gov.uk",
+    "osm_relation_id": 148744
+  },
+  {
+    "id": "GB-E07000119",
+    "name": "Borough of Fylde",
+    "country": "GB",
+    "region": "England",
+    "domain": "fylde.gov.uk",
+    "osm_relation_id": 148600
+  },
+  {
+    "id": "GB-E07000120",
+    "name": "Hyndburn",
+    "country": "GB",
+    "region": "England",
+    "domain": "hyndburnbc.gov.uk",
+    "osm_relation_id": 149074
+  },
+  {
+    "id": "GB-E07000121",
+    "name": "Lancaster",
+    "country": "GB",
+    "region": "England",
+    "domain": "lancaster.gov.uk",
+    "osm_relation_id": 148608
+  },
+  {
+    "id": "GB-E07000122",
+    "name": "Borough of Pendle",
+    "country": "GB",
+    "region": "England",
+    "domain": "pendle.gov.uk",
+    "osm_relation_id": 149122
+  },
+  {
+    "id": "GB-E07000123",
+    "name": "Preston",
+    "country": "GB",
+    "region": "England",
+    "domain": "preston.gov.uk",
+    "osm_relation_id": 148606
+  },
+  {
+    "id": "GB-E07000124",
+    "name": "Ribble Valley",
+    "country": "GB",
+    "region": "England",
+    "domain": "ribblevalley.gov.uk",
+    "osm_relation_id": 148609
+  },
+  {
+    "id": "GB-E07000125",
+    "name": "Borough of Rossendale",
+    "country": "GB",
+    "region": "England",
+    "domain": "rossendale.gov.uk",
+    "osm_relation_id": 149077
+  },
+  {
+    "id": "GB-E07000126",
+    "name": "South Ribble",
+    "country": "GB",
+    "region": "England",
+    "domain": "southribble.gov.uk",
+    "osm_relation_id": 148745
+  },
+  {
+    "id": "GB-E07000127",
+    "name": "West Lancashire",
+    "country": "GB",
+    "region": "England",
+    "domain": "westlancs.gov.uk",
+    "osm_relation_id": 148586
+  },
+  {
+    "id": "GB-E07000128",
+    "name": "Borough of Wyre",
+    "country": "GB",
+    "region": "England",
+    "domain": "wyre.gov.uk",
+    "osm_relation_id": 148604
+  },
+  {
+    "id": "GB-E07000129",
+    "name": "Blaby",
+    "country": "GB",
+    "region": "England",
+    "domain": "blaby.gov.uk",
+    "osm_relation_id": 162357
+  },
+  {
+    "id": "GB-E07000130",
+    "name": "Charnwood",
+    "country": "GB",
+    "region": "England",
+    "domain": "charnwood.gov.uk",
+    "osm_relation_id": 172008
+  },
+  {
+    "id": "GB-E07000131",
+    "name": "Harborough",
+    "country": "GB",
+    "region": "England",
+    "domain": "harborough.gov.uk",
+    "osm_relation_id": 162361
+  },
+  {
+    "id": "GB-E07000132",
+    "name": "Hinckley and Bosworth",
+    "country": "GB",
+    "region": "England",
+    "domain": "hinckleyandbosworth.gov.uk",
+    "osm_relation_id": 171999
+  },
+  {
+    "id": "GB-E07000133",
+    "name": "Melton",
+    "country": "GB",
+    "region": "England",
+    "domain": "melton.gov.uk",
+    "osm_relation_id": 172470
+  },
+  {
+    "id": "GB-E07000134",
+    "name": "North West Leicestershire",
+    "country": "GB",
+    "region": "England",
+    "domain": "northwestleicestershire.gov.uk",
+    "osm_relation_id": 172000
+  },
+  {
+    "id": "GB-E07000135",
+    "name": "Oadby and Wigston",
+    "country": "GB",
+    "region": "England",
+    "domain": "oadby-wigston.gov.uk",
+    "osm_relation_id": 162358
+  },
+  {
+    "id": "GB-E07000136",
+    "name": "Boston",
+    "country": "GB",
+    "region": "England",
+    "domain": "boston.gov.uk",
+    "osm_relation_id": 58553
+  },
+  {
+    "id": "GB-E07000137",
+    "name": "East Lindsey",
+    "country": "GB",
+    "region": "England",
+    "domain": "eastlindsey.gov.uk",
+    "osm_relation_id": 59828
+  },
+  {
+    "id": "GB-E07000138",
+    "name": "Lincoln",
+    "country": "GB",
+    "region": "England",
+    "domain": "lincoln.gov.uk",
+    "osm_relation_id": 69144
+  },
+  {
+    "id": "GB-E07000139",
+    "name": "North Kesteven",
+    "country": "GB",
+    "region": "England",
+    "domain": "northkesteven.gov.uk",
+    "osm_relation_id": 59829
+  },
+  {
+    "id": "GB-E07000140",
+    "name": "South Holland",
+    "country": "GB",
+    "region": "England",
+    "domain": "southholland.gov.uk",
+    "osm_relation_id": 59831
+  },
+  {
+    "id": "GB-E07000141",
+    "name": "South Kesteven",
+    "country": "GB",
+    "region": "England",
+    "domain": "southkesteven.gov.uk",
+    "osm_relation_id": 59830
+  },
+  {
+    "id": "GB-E07000142",
+    "name": "West Lindsey",
+    "country": "GB",
+    "region": "England",
+    "domain": "westlindsey.gov.uk",
+    "osm_relation_id": 69331
+  },
+  {
+    "id": "GB-E07000143",
+    "name": "Breckland District",
+    "country": "GB",
+    "region": "England",
+    "domain": "breckland.gov.uk",
+    "osm_relation_id": 1168814
+  },
+  {
+    "id": "GB-E07000144",
+    "name": "Broadland",
+    "country": "GB",
+    "region": "England",
+    "domain": "broadland.gov.uk",
+    "osm_relation_id": 1168615
+  },
+  {
+    "id": "GB-E07000145",
+    "name": "Great Yarmouth",
+    "country": "GB",
+    "region": "England",
+    "domain": "greatyarmouth.gov.uk",
+    "osm_relation_id": 1168547
+  },
+  {
+    "id": "GB-E07000146",
+    "name": "King's Lynn and West Norfolk",
+    "country": "GB",
+    "region": "England",
+    "domain": "kingslynnandwestnorfolk.gov.uk",
+    "osm_relation_id": 1170907
+  },
+  {
+    "id": "GB-E07000147",
+    "name": "North Norfolk",
+    "country": "GB",
+    "region": "England",
+    "domain": "northnorfolk.gov.uk",
+    "osm_relation_id": 1174635
+  },
+  {
+    "id": "GB-E07000148",
+    "name": "Norwich",
+    "country": "GB",
+    "region": "England",
+    "domain": "norwich.gov.uk",
+    "osm_relation_id": 172506
+  },
+  {
+    "id": "GB-E07000149",
+    "name": "South Norfolk",
+    "country": "GB",
+    "region": "England",
+    "domain": "southnorfolk.gov.uk",
+    "osm_relation_id": 1164570
+  },
+  {
+    "id": "GB-E07000170",
+    "name": "Ashfield",
+    "country": "GB",
+    "region": "England",
+    "domain": "ashfield.gov.uk",
+    "osm_relation_id": 154043
+  },
+  {
+    "id": "GB-E07000171",
+    "name": "Bassetlaw",
+    "country": "GB",
+    "region": "England",
+    "domain": "bassetlaw.gov.uk",
+    "osm_relation_id": 77270
+  },
+  {
+    "id": "GB-E07000172",
+    "name": "Broxtowe",
+    "country": "GB",
+    "region": "England",
+    "domain": "broxtowe.gov.uk",
+    "osm_relation_id": 154058
+  },
+  {
+    "id": "GB-E07000173",
+    "name": "Gedling",
+    "country": "GB",
+    "region": "England",
+    "domain": "gedling.gov.uk",
+    "osm_relation_id": 155494
+  },
+  {
+    "id": "GB-E07000174",
+    "name": "Mansfield",
+    "country": "GB",
+    "region": "England",
+    "domain": "mansfield.gov.uk",
+    "osm_relation_id": 154006
+  },
+  {
+    "id": "GB-E07000175",
+    "name": "Newark and Sherwood",
+    "country": "GB",
+    "region": "England",
+    "domain": "newarkandsherwood.gov.uk",
+    "osm_relation_id": 77271
+  },
+  {
+    "id": "GB-E07000176",
+    "name": "Rushcliffe",
+    "country": "GB",
+    "region": "England",
+    "domain": "rushcliffe.gov.uk",
+    "osm_relation_id": 77311
+  },
+  {
+    "id": "GB-E07000177",
+    "name": "Cherwell District",
+    "country": "GB",
+    "region": "England",
+    "domain": "cherwell.gov.uk",
+    "osm_relation_id": 394565
+  },
+  {
+    "id": "GB-E07000178",
+    "name": "Oxford",
+    "country": "GB",
+    "region": "England",
+    "domain": "oxford.gov.uk",
+    "osm_relation_id": 394037
+  },
+  {
+    "id": "GB-E07000179",
+    "name": "South Oxfordshire",
+    "country": "GB",
+    "region": "England",
+    "domain": "southoxon.gov.uk",
+    "osm_relation_id": 299097
+  },
+  {
+    "id": "GB-E07000180",
+    "name": "Vale of White Horse",
+    "country": "GB",
+    "region": "England",
+    "domain": "whitehorsedc.gov.uk",
+    "osm_relation_id": 299092
+  },
+  {
+    "id": "GB-E07000181",
+    "name": "West Oxfordshire",
+    "country": "GB",
+    "region": "England",
+    "domain": "westoxon.gov.uk",
+    "osm_relation_id": 394036
+  },
+  {
+    "id": "GB-E07000192",
+    "name": "Cannock Chase",
+    "country": "GB",
+    "region": "England",
+    "domain": "cannockchase.gov.uk",
+    "osm_relation_id": 168500
+  },
+  {
+    "id": "GB-E07000195",
+    "name": "Newcastle-under-Lyme",
+    "country": "GB",
+    "region": "England",
+    "domain": "newcastleunderlyme.gov.uk",
+    "osm_relation_id": 163551
+  },
+  {
+    "id": "GB-E07000196",
+    "name": "South Staffordshire",
+    "country": "GB",
+    "region": "England",
+    "domain": "southstaffordshire.gov.uk",
+    "osm_relation_id": 165853
+  },
+  {
+    "id": "GB-E07000200",
+    "name": "Babergh",
+    "country": "GB",
+    "region": "England",
+    "domain": "babergh.gov.uk",
+    "osm_relation_id": 53322
+  },
+  {
+    "id": "GB-E07000202",
+    "name": "Ipswich",
+    "country": "GB",
+    "region": "England",
+    "domain": "ipswich.gov.uk",
+    "osm_relation_id": 53324
+  },
+  {
+    "id": "GB-E07000203",
+    "name": "Mid Suffolk",
+    "country": "GB",
+    "region": "England",
+    "domain": "midsuffolk.gov.uk",
+    "osm_relation_id": 53332
+  },
+  {
+    "id": "GB-E07000207",
+    "name": "Elmbridge",
+    "country": "GB",
+    "region": "England",
+    "domain": "elmbridge.gov.uk",
+    "osm_relation_id": 109611
+  },
+  {
+    "id": "GB-E07000208",
+    "name": "Epsom and Ewell",
+    "country": "GB",
+    "region": "England",
+    "domain": "epsom-ewell.gov.uk",
+    "osm_relation_id": 109944
+  },
+  {
+    "id": "GB-E07000209",
+    "name": "Guildford",
+    "country": "GB",
+    "region": "England",
+    "domain": "guildford.gov.uk",
+    "osm_relation_id": 108787
+  },
+  {
+    "id": "GB-E07000210",
+    "name": "Mole Valley",
+    "country": "GB",
+    "region": "England",
+    "domain": "molevalley.gov.uk",
+    "osm_relation_id": 108792
+  },
+  {
+    "id": "GB-E07000211",
+    "name": "Reigate and Banstead",
+    "country": "GB",
+    "region": "England",
+    "domain": "reigate-banstead.gov.uk",
+    "osm_relation_id": 109949
+  },
+  {
+    "id": "GB-E07000212",
+    "name": "Borough of Runnymede",
+    "country": "GB",
+    "region": "England",
+    "domain": "runnymede.gov.uk",
+    "osm_relation_id": 109219
+  },
+  {
+    "id": "GB-E07000213",
+    "name": "Borough of Spelthorne",
+    "country": "GB",
+    "region": "England",
+    "domain": "spelthorne.gov.uk",
+    "osm_relation_id": 114741
+  },
+  {
+    "id": "GB-E07000214",
+    "name": "Surrey Heath",
+    "country": "GB",
+    "region": "England",
+    "domain": "surreyheath.gov.uk",
+    "osm_relation_id": 109211
+  },
+  {
+    "id": "GB-E07000215",
+    "name": "Tandridge",
+    "country": "GB",
+    "region": "England",
+    "domain": "tandridge.gov.uk",
+    "osm_relation_id": 113753
+  },
+  {
+    "id": "GB-E07000216",
+    "name": "Waverley",
+    "country": "GB",
+    "region": "England",
+    "domain": "waverley.gov.uk",
+    "osm_relation_id": 108786
+  },
+  {
+    "id": "GB-E07000217",
+    "name": "Woking",
+    "country": "GB",
+    "region": "England",
+    "domain": "woking.gov.uk",
+    "osm_relation_id": 109202
+  },
+  {
+    "id": "GB-E07000221",
+    "name": "Stratford-on-Avon",
+    "country": "GB",
+    "region": "England",
+    "domain": "stratfordonavon.gov.uk",
+    "osm_relation_id": 176449
+  },
+  {
+    "id": "GB-E07000223",
+    "name": "Adur",
+    "country": "GB",
+    "region": "England",
+    "domain": "adur-worthing.gov.uk",
+    "osm_relation_id": 114656
+  },
+  {
+    "id": "GB-E07000224",
+    "name": "Arun",
+    "country": "GB",
+    "region": "England",
+    "domain": "arun.gov.uk",
+    "osm_relation_id": 114663
+  },
+  {
+    "id": "GB-E07000225",
+    "name": "Chichester",
+    "country": "GB",
+    "region": "England",
+    "domain": "chichester.gov.uk",
+    "osm_relation_id": 114677
+  },
+  {
+    "id": "GB-E07000226",
+    "name": "Crawley",
+    "country": "GB",
+    "region": "England",
+    "domain": "crawley.gov.uk",
+    "osm_relation_id": 114858
+  },
+  {
+    "id": "GB-E07000227",
+    "name": "Horsham",
+    "country": "GB",
+    "region": "England",
+    "domain": "horsham.gov.uk",
+    "osm_relation_id": 114662
+  },
+  {
+    "id": "GB-E07000228",
+    "name": "Mid Sussex",
+    "country": "GB",
+    "region": "England",
+    "domain": "midsussex.gov.uk",
+    "osm_relation_id": 2778993
+  },
+  {
+    "id": "GB-E07000229",
+    "name": "Worthing",
+    "country": "GB",
+    "region": "England",
+    "domain": "adur-worthing.gov.uk",
+    "osm_relation_id": 117548
+  },
+  {
+    "id": "GB-E07000234",
+    "name": "Bromsgrove",
+    "country": "GB",
+    "region": "England",
+    "domain": "bromsgrove.gov.uk",
+    "osm_relation_id": 1875338
+  },
+  {
+    "id": "GB-E07000235",
+    "name": "Malvern Hills",
+    "country": "GB",
+    "region": "England",
+    "domain": "malvernhills.gov.uk",
+    "osm_relation_id": 1875339
+  },
+  {
+    "id": "GB-E07000236",
+    "name": "Redditch",
+    "country": "GB",
+    "region": "England",
+    "domain": "redditchbc.gov.uk",
+    "osm_relation_id": 1875340
+  },
+  {
+    "id": "GB-E07000237",
+    "name": "Worcester",
+    "country": "GB",
+    "region": "England",
+    "domain": "worcester.gov.uk",
+    "osm_relation_id": 1875341
+  },
+  {
+    "id": "GB-E07000238",
+    "name": "Wychavon",
+    "country": "GB",
+    "region": "England",
+    "domain": "wychavon.gov.uk",
+    "osm_relation_id": 1875342
+  },
+  {
+    "id": "GB-E07000239",
+    "name": "Wyre Forest",
+    "country": "GB",
+    "region": "England",
+    "domain": "wyreforestdc.gov.uk",
+    "osm_relation_id": 1875343
+  },
+  {
+    "id": "GB-E07000240",
+    "name": "St Albans",
+    "country": "GB",
+    "region": "England",
+    "domain": "stalbans.gov.uk",
+    "osm_relation_id": 2683265
+  },
+  {
+    "id": "GB-E07000241",
+    "name": "Welwyn Hatfield",
+    "country": "GB",
+    "region": "England",
+    "domain": "welhat.gov.uk",
+    "osm_relation_id": 2679796
+  },
+  {
+    "id": "GB-E07000242",
+    "name": "East Hertfordshire",
+    "country": "GB",
+    "region": "England",
+    "domain": "eastherts.gov.uk",
+    "osm_relation_id": 2678149
+  },
+  {
+    "id": "GB-E07000243",
+    "name": "Stevenage",
+    "country": "GB",
+    "region": "England",
+    "domain": "stevenage.gov.uk",
+    "osm_relation_id": 2684172
+  },
+  {
+    "id": "GB-E07000244",
+    "name": "East Suffolk",
+    "country": "GB",
+    "region": "England",
+    "domain": "eastsuffolk.gov.uk",
+    "osm_relation_id": 9456323
+  },
+  {
+    "id": "GB-E07000245",
+    "name": "West Suffolk",
+    "country": "GB",
+    "region": "England",
+    "domain": "westsuffolk.gov.uk",
+    "osm_relation_id": 9448531
+  },
+  {
+    "id": "GB-E08000001",
+    "name": "Bolton",
+    "country": "GB",
+    "region": "England",
+    "domain": "bolton.gov.uk",
+    "osm_relation_id": 146937
+  },
+  {
+    "id": "GB-E08000002",
+    "name": "Bury",
+    "country": "GB",
+    "region": "England",
+    "domain": "bury.gov.uk",
+    "osm_relation_id": 146927
+  },
+  {
+    "id": "GB-E08000003",
+    "name": "Manchester",
+    "country": "GB",
+    "region": "England",
+    "domain": "manchester.gov.uk",
+    "osm_relation_id": 146656
+  },
+  {
+    "id": "GB-E08000004",
+    "name": "Oldham",
+    "country": "GB",
+    "region": "England",
+    "domain": "oldham.gov.uk",
+    "osm_relation_id": 146925
+  },
+  {
+    "id": "GB-E08000005",
+    "name": "Rochdale",
+    "country": "GB",
+    "region": "England",
+    "domain": "rochdale.gov.uk",
+    "osm_relation_id": 146926
+  },
+  {
+    "id": "GB-E08000006",
+    "name": "Salford",
+    "country": "GB",
+    "region": "England",
+    "domain": "salford.gov.uk",
+    "osm_relation_id": 146657
+  },
+  {
+    "id": "GB-E08000007",
+    "name": "Stockport",
+    "country": "GB",
+    "region": "England",
+    "domain": "stockport.gov.uk",
+    "osm_relation_id": 146658
+  },
+  {
+    "id": "GB-E08000008",
+    "name": "Tameside",
+    "country": "GB",
+    "region": "England",
+    "domain": "tameside.gov.uk",
+    "osm_relation_id": 146655
+  },
+  {
+    "id": "GB-E08000009",
+    "name": "Trafford",
+    "country": "GB",
+    "region": "England",
+    "domain": "trafford.gov.uk",
+    "osm_relation_id": 146675
+  },
+  {
+    "id": "GB-E08000010",
+    "name": "Wigan",
+    "country": "GB",
+    "region": "England",
+    "domain": "wigan.gov.uk",
+    "osm_relation_id": 146938
+  },
+  {
+    "id": "GB-E08000011",
+    "name": "Knowsley",
+    "country": "GB",
+    "region": "England",
+    "domain": "knowsley.gov.uk",
+    "osm_relation_id": 173025
+  },
+  {
+    "id": "GB-E08000012",
+    "name": "Liverpool",
+    "country": "GB",
+    "region": "England",
+    "domain": "liverpool.gov.uk",
+    "osm_relation_id": 172987
+  },
+  {
+    "id": "GB-E08000013",
+    "name": "St Helens",
+    "country": "GB",
+    "region": "England",
+    "domain": "sthelens.gov.uk",
+    "osm_relation_id": 173478
+  },
+  {
+    "id": "GB-E08000014",
+    "name": "Sefton",
+    "country": "GB",
+    "region": "England",
+    "domain": "sefton.gov.uk",
+    "osm_relation_id": 173023
+  },
+  {
+    "id": "GB-E08000015",
+    "name": "Wirral",
+    "country": "GB",
+    "region": "England",
+    "domain": "wirral.gov.uk",
+    "osm_relation_id": 162456
+  },
+  {
+    "id": "GB-E08000017",
+    "name": "Doncaster",
+    "country": "GB",
+    "region": "England",
+    "domain": "doncaster.gov.uk",
+    "osm_relation_id": 106961
+  },
+  {
+    "id": "GB-E08000018",
+    "name": "Rotherham",
+    "country": "GB",
+    "region": "England",
+    "domain": "rotherham.gov.uk",
+    "osm_relation_id": 106960
+  },
+  {
+    "id": "GB-E08000021",
+    "name": "Newcastle upon Tyne",
+    "country": "GB",
+    "region": "England",
+    "domain": "newcastle.gov.uk",
+    "osm_relation_id": 142282
+  },
+  {
+    "id": "GB-E08000022",
+    "name": "North Tyneside",
+    "country": "GB",
+    "region": "England",
+    "domain": "northtyneside.gov.uk",
+    "osm_relation_id": 142245
+  },
+  {
+    "id": "GB-E08000023",
+    "name": "South Tyneside",
+    "country": "GB",
+    "region": "England",
+    "domain": "southtyneside.gov.uk",
+    "osm_relation_id": 140390
+  },
+  {
+    "id": "GB-E08000024",
+    "name": "Sunderland",
+    "country": "GB",
+    "region": "England",
+    "domain": "sunderland.gov.uk",
+    "osm_relation_id": 116279
+  },
+  {
+    "id": "GB-E08000025",
+    "name": "Birmingham",
+    "country": "GB",
+    "region": "England",
+    "domain": "birmingham.gov.uk",
+    "osm_relation_id": 162378
+  },
+  {
+    "id": "GB-E08000026",
+    "name": "Coventry",
+    "country": "GB",
+    "region": "England",
+    "domain": "coventry.gov.uk",
+    "osm_relation_id": 162370
+  },
+  {
+    "id": "GB-E08000027",
+    "name": "Dudley",
+    "country": "GB",
+    "region": "England",
+    "domain": "dudley.gov.uk",
+    "osm_relation_id": 162488
+  },
+  {
+    "id": "GB-E08000028",
+    "name": "Sandwell",
+    "country": "GB",
+    "region": "England",
+    "domain": "sandwell.gov.uk",
+    "osm_relation_id": 162485
+  },
+  {
+    "id": "GB-E08000029",
+    "name": "Metropolitan Borough of Solihull",
+    "country": "GB",
+    "region": "England",
+    "domain": "solihull.gov.uk",
+    "osm_relation_id": 162373
+  },
+  {
+    "id": "GB-E08000030",
+    "name": "Walsall",
+    "country": "GB",
+    "region": "England",
+    "domain": "walsall.gov.uk",
+    "osm_relation_id": 162486
+  },
+  {
+    "id": "GB-E08000031",
+    "name": "Wolverhampton",
+    "country": "GB",
+    "region": "England",
+    "domain": "wolverhampton.gov.uk",
+    "osm_relation_id": 173722
+  },
+  {
+    "id": "GB-E08000032",
+    "name": "Bradford",
+    "country": "GB",
+    "region": "England",
+    "domain": "bradford.gov.uk",
+    "osm_relation_id": 118323
+  },
+  {
+    "id": "GB-E08000033",
+    "name": "Calderdale",
+    "country": "GB",
+    "region": "England",
+    "domain": "calderdale.gov.uk",
+    "osm_relation_id": 118327
+  },
+  {
+    "id": "GB-E08000034",
+    "name": "Kirklees",
+    "country": "GB",
+    "region": "England",
+    "domain": "kirklees.gov.uk",
+    "osm_relation_id": 109954
+  },
+  {
+    "id": "GB-E08000035",
+    "name": "Leeds",
+    "country": "GB",
+    "region": "England",
+    "domain": "leeds.gov.uk",
+    "osm_relation_id": 118362
+  },
+  {
+    "id": "GB-E08000036",
+    "name": "Wakefield",
+    "country": "GB",
+    "region": "England",
+    "domain": "wakefield.gov.uk",
+    "osm_relation_id": 109960
+  },
+  {
+    "id": "GB-E08000037",
+    "name": "Gateshead",
+    "country": "GB",
+    "region": "England",
+    "domain": "gateshead.gov.uk",
+    "osm_relation_id": 140462
+  },
+  {
+    "id": "GB-E08000038",
+    "name": "Barnsley",
+    "country": "GB",
+    "region": "England",
+    "domain": "barnsley.gov.uk",
+    "osm_relation_id": 106964
+  },
+  {
+    "id": "GB-E08000039",
+    "name": "Sheffield",
+    "country": "GB",
+    "region": "England",
+    "domain": "sheffield.gov.uk",
+    "osm_relation_id": 106956
+  },
+  {
+    "id": "GB-E09000002",
+    "name": "London Borough of Barking and Dagenham",
+    "country": "GB",
+    "region": "England",
+    "domain": "barkinganddagenham.gov.uk",
+    "osm_relation_id": 185483
+  },
+  {
+    "id": "GB-E09000003",
+    "name": "London Borough of Barnet",
+    "country": "GB",
+    "region": "England",
+    "domain": "barnet.gov.uk",
+    "osm_relation_id": 51831
+  },
+  {
+    "id": "GB-E09000004",
+    "name": "London Borough of Bexley",
+    "country": "GB",
+    "region": "England",
+    "domain": "bexley.gov.uk",
+    "osm_relation_id": 51903
+  },
+  {
+    "id": "GB-E09000005",
+    "name": "London Borough of Brent",
+    "country": "GB",
+    "region": "England",
+    "domain": "brent.gov.uk",
+    "osm_relation_id": 75767
+  },
+  {
+    "id": "GB-E09000006",
+    "name": "London Borough of Bromley",
+    "country": "GB",
+    "region": "England",
+    "domain": "bromley.gov.uk",
+    "osm_relation_id": 152126
+  },
+  {
+    "id": "GB-E09000007",
+    "name": "London Borough of Camden",
+    "country": "GB",
+    "region": "England",
+    "domain": "camden.gov.uk",
+    "osm_relation_id": 51827
+  },
+  {
+    "id": "GB-E09000008",
+    "name": "London Borough of Croydon",
+    "country": "GB",
+    "region": "England",
+    "domain": "croydon.gov.uk",
+    "osm_relation_id": 51907
+  },
+  {
+    "id": "GB-E09000009",
+    "name": "London Borough of Ealing",
+    "country": "GB",
+    "region": "England",
+    "domain": "ealing.gov.uk",
+    "osm_relation_id": 181321
+  },
+  {
+    "id": "GB-E09000010",
+    "name": "London Borough of Enfield",
+    "country": "GB",
+    "region": "England",
+    "domain": "enfield.gov.uk",
+    "osm_relation_id": 51841
+  },
+  {
+    "id": "GB-E09000011",
+    "name": "Royal Borough of Greenwich",
+    "country": "GB",
+    "region": "England",
+    "domain": "royalgreenwich.gov.uk",
+    "osm_relation_id": 51902
+  },
+  {
+    "id": "GB-E09000012",
+    "name": "London Borough of Hackney",
+    "country": "GB",
+    "region": "England",
+    "domain": "hackney.gov.uk",
+    "osm_relation_id": 51806
+  },
+  {
+    "id": "GB-E09000013",
+    "name": "London Borough of Hammersmith and Fulham",
+    "country": "GB",
+    "region": "England",
+    "domain": "lbhf.gov.uk",
+    "osm_relation_id": 184484
+  },
+  {
+    "id": "GB-E09000014",
+    "name": "London Borough of Haringey",
+    "country": "GB",
+    "region": "England",
+    "domain": "haringey.gov.uk",
+    "osm_relation_id": 51814
+  },
+  {
+    "id": "GB-E09000015",
+    "name": "London Borough of Harrow",
+    "country": "GB",
+    "region": "England",
+    "domain": "harrow.gov.uk",
+    "osm_relation_id": 181292
+  },
+  {
+    "id": "GB-E09000016",
+    "name": "London Borough of Havering",
+    "country": "GB",
+    "region": "England",
+    "domain": "havering.gov.uk",
+    "osm_relation_id": 185478
+  },
+  {
+    "id": "GB-E09000017",
+    "name": "London Borough of Hillingdon",
+    "country": "GB",
+    "region": "England",
+    "domain": "hillingdon.gov.uk",
+    "osm_relation_id": 183779
+  },
+  {
+    "id": "GB-E09000018",
+    "name": "London Borough of Hounslow",
+    "country": "GB",
+    "region": "England",
+    "domain": "hounslow.gov.uk",
+    "osm_relation_id": 51848
+  },
+  {
+    "id": "GB-E09000019",
+    "name": "London Borough of Islington",
+    "country": "GB",
+    "region": "England",
+    "domain": "islington.gov.uk",
+    "osm_relation_id": 51821
+  },
+  {
+    "id": "GB-E09000020",
+    "name": "Royal Borough of Kensington and Chelsea",
+    "country": "GB",
+    "region": "England",
+    "domain": "rbkc.gov.uk",
+    "osm_relation_id": 51793
+  },
+  {
+    "id": "GB-E09000021",
+    "name": "Royal Borough of Kingston upon Thames",
+    "country": "GB",
+    "region": "England",
+    "domain": "kingston.gov.uk",
+    "osm_relation_id": 51909
+  },
+  {
+    "id": "GB-E09000022",
+    "name": "London Borough of Lambeth",
+    "country": "GB",
+    "region": "England",
+    "domain": "lambeth.gov.uk",
+    "osm_relation_id": 184710
+  },
+  {
+    "id": "GB-E09000023",
+    "name": "London Borough of Lewisham",
+    "country": "GB",
+    "region": "England",
+    "domain": "lewisham.gov.uk",
+    "osm_relation_id": 184724
+  },
+  {
+    "id": "GB-E09000024",
+    "name": "London Borough of Merton",
+    "country": "GB",
+    "region": "England",
+    "domain": "merton.gov.uk",
+    "osm_relation_id": 51905
+  },
+  {
+    "id": "GB-E09000025",
+    "name": "London Borough of Newham",
+    "country": "GB",
+    "region": "England",
+    "domain": "newham.gov.uk",
+    "osm_relation_id": 185505
+  },
+  {
+    "id": "GB-E09000026",
+    "name": "London Borough of Redbridge",
+    "country": "GB",
+    "region": "England",
+    "domain": "redbridge.gov.uk",
+    "osm_relation_id": 65598
+  },
+  {
+    "id": "GB-E09000027",
+    "name": "London Borough of Richmond upon Thames",
+    "country": "GB",
+    "region": "England",
+    "domain": "richmond.gov.uk",
+    "osm_relation_id": 151795
+  },
+  {
+    "id": "GB-E09000028",
+    "name": "London Borough of Southwark",
+    "country": "GB",
+    "region": "England",
+    "domain": "southwark.gov.uk",
+    "osm_relation_id": 8450265
+  },
+  {
+    "id": "GB-E09000029",
+    "name": "London Borough of Sutton",
+    "country": "GB",
+    "region": "England",
+    "domain": "sutton.gov.uk",
+    "osm_relation_id": 17529
+  },
+  {
+    "id": "GB-E09000030",
+    "name": "London Borough of Tower Hamlets",
+    "country": "GB",
+    "region": "England",
+    "domain": "towerhamlets.gov.uk",
+    "osm_relation_id": 51805
+  },
+  {
+    "id": "GB-E09000031",
+    "name": "London Borough of Waltham Forest",
+    "country": "GB",
+    "region": "England",
+    "domain": "walthamforest.gov.uk",
+    "osm_relation_id": 65595
+  },
+  {
+    "id": "GB-E09000032",
+    "name": "London Borough of Wandsworth",
+    "country": "GB",
+    "region": "England",
+    "domain": "wandsworth.gov.uk",
+    "osm_relation_id": 51906
+  },
+  {
+    "id": "GB-E09000033",
+    "name": "City of Westminster",
+    "country": "GB",
+    "region": "England",
+    "domain": "westminster.gov.uk",
+    "osm_relation_id": 51781
+  },
+  {
+    "id": "GB-N09000001",
+    "name": "Antrim and Newtownabbey",
+    "country": "GB",
+    "region": "Northern Ireland",
+    "domain": "antrimandnewtownabbey.gov.uk",
+    "osm_relation_id": 6459889
+  },
+  {
+    "id": "GB-N09000002",
+    "name": "Armagh City, Banbridge and Craigavon",
+    "country": "GB",
+    "region": "Northern Ireland",
+    "domain": "armaghbanbridgecraigavon.gov.uk",
+    "osm_relation_id": 6459890
+  },
+  {
+    "id": "GB-N09000003",
+    "name": "Belfast",
+    "country": "GB",
+    "region": "Northern Ireland",
+    "domain": "belfastcity.gov.uk",
+    "osm_relation_id": 6459891
+  },
+  {
+    "id": "GB-N09000004",
+    "name": "Causeway Coast and Glens",
+    "country": "GB",
+    "region": "Northern Ireland",
+    "domain": "causewaycoastandglens.gov.uk",
+    "osm_relation_id": 6459892
+  },
+  {
+    "id": "GB-N09000005",
+    "name": "Derry City and Strabane",
+    "country": "GB",
+    "region": "Northern Ireland",
+    "domain": "derrystrabane.com",
+    "osm_relation_id": 6459893
+  },
+  {
+    "id": "GB-N09000006",
+    "name": "Fermanagh and Omagh",
+    "country": "GB",
+    "region": "Northern Ireland",
+    "domain": "fermanaghomagh.com",
+    "osm_relation_id": 6459894
+  },
+  {
+    "id": "GB-N09000007",
+    "name": "Lisburn and Castlereagh",
+    "country": "GB",
+    "region": "Northern Ireland",
+    "domain": "lisburncastlereagh.gov.uk",
+    "osm_relation_id": 6459895
+  },
+  {
+    "id": "GB-N09000008",
+    "name": "Mid and East Antrim",
+    "country": "GB",
+    "region": "Northern Ireland",
+    "domain": "midandeastantrim.gov.uk",
+    "osm_relation_id": 6459896
+  },
+  {
+    "id": "GB-N09000009",
+    "name": "Mid Ulster",
+    "country": "GB",
+    "region": "Northern Ireland",
+    "domain": "midulstercouncil.org",
+    "osm_relation_id": 6459897
+  },
+  {
+    "id": "GB-N09000010",
+    "name": "Newry, Mourne and Down",
+    "country": "GB",
+    "region": "Northern Ireland",
+    "domain": "newrymournedown.org",
+    "osm_relation_id": 6459898
+  },
+  {
+    "id": "GB-N09000011",
+    "name": "Ards and North Down",
+    "country": "GB",
+    "region": "Northern Ireland",
+    "domain": "ardsandnorthdown.gov.uk",
+    "osm_relation_id": 6459899
+  },
+  {
+    "id": "GB-S12000005",
+    "name": "Clackmannanshire",
+    "country": "GB",
+    "region": "Scotland",
+    "domain": "clacks.gov.uk",
+    "osm_relation_id": 1920841
+  },
+  {
+    "id": "GB-S12000006",
+    "name": "Dumfries and Galloway",
+    "country": "GB",
+    "region": "Scotland",
+    "domain": "dumgal.gov.uk",
+    "osm_relation_id": 1877232
+  },
+  {
+    "id": "GB-S12000008",
+    "name": "East Ayrshire",
+    "country": "GB",
+    "region": "Scotland",
+    "domain": "east-ayrshire.gov.uk",
+    "osm_relation_id": 1920348
+  },
+  {
+    "id": "GB-S12000010",
+    "name": "East Lothian",
+    "country": "GB",
+    "region": "Scotland",
+    "domain": "eastlothian.gov.uk",
+    "osm_relation_id": 1920902
+  },
+  {
+    "id": "GB-S12000011",
+    "name": "East Renfrewshire",
+    "country": "GB",
+    "region": "Scotland",
+    "domain": "eastrenfrewshire.gov.uk",
+    "osm_relation_id": 1921238
+  },
+  {
+    "id": "GB-S12000013",
+    "name": "Western Isles",
+    "country": "GB",
+    "region": "Scotland",
+    "domain": "cne-siar.gov.uk",
+    "osm_relation_id": 1959008
+  },
+  {
+    "id": "GB-S12000014",
+    "name": "Falkirk",
+    "country": "GB",
+    "region": "Scotland",
+    "domain": "falkirk.gov.uk",
+    "osm_relation_id": 1920842
+  },
+  {
+    "id": "GB-S12000017",
+    "name": "Highland",
+    "country": "GB",
+    "region": "Scotland",
+    "domain": "highland.gov.uk",
+    "osm_relation_id": 1433249
+  },
+  {
+    "id": "GB-S12000018",
+    "name": "Inverclyde",
+    "country": "GB",
+    "region": "Scotland",
+    "domain": "inverclyde.gov.uk",
+    "osm_relation_id": 1921239
+  },
+  {
+    "id": "GB-S12000019",
+    "name": "Midlothian",
+    "country": "GB",
+    "region": "Scotland",
+    "domain": "midlothian.gov.uk",
+    "osm_relation_id": 1920903
+  },
+  {
+    "id": "GB-S12000020",
+    "name": "Moray",
+    "country": "GB",
+    "region": "Scotland",
+    "domain": "moray.gov.uk",
+    "osm_relation_id": 1775792
+  },
+  {
+    "id": "GB-S12000021",
+    "name": "North Ayrshire",
+    "country": "GB",
+    "region": "Scotland",
+    "domain": "north-ayrshire.gov.uk",
+    "osm_relation_id": 1910014
+  },
+  {
+    "id": "GB-S12000023",
+    "name": "Orkney Islands",
+    "country": "GB",
+    "region": "Scotland",
+    "domain": "orkney.gov.uk",
+    "osm_relation_id": 375982
+  },
+  {
+    "id": "GB-S12000026",
+    "name": "Scottish Borders",
+    "country": "GB",
+    "region": "Scotland",
+    "domain": "scotborders.gov.uk",
+    "osm_relation_id": 1919950
+  },
+  {
+    "id": "GB-S12000027",
+    "name": "Shetland",
+    "country": "GB",
+    "region": "Scotland",
+    "domain": "shetland.gov.uk",
+    "osm_relation_id": 2235077
+  },
+  {
+    "id": "GB-S12000028",
+    "name": "South Ayrshire",
+    "country": "GB",
+    "region": "Scotland",
+    "domain": "south-ayrshire.gov.uk",
+    "osm_relation_id": 1920349
+  },
+  {
+    "id": "GB-S12000029",
+    "name": "South Lanarkshire",
+    "country": "GB",
+    "region": "Scotland",
+    "domain": "southlanarkshire.gov.uk",
+    "osm_relation_id": 1921241
+  },
+  {
+    "id": "GB-S12000030",
+    "name": "Stirling",
+    "country": "GB",
+    "region": "Scotland",
+    "domain": "stirling.gov.uk",
+    "osm_relation_id": 1905258
+  },
+  {
+    "id": "GB-S12000033",
+    "name": "Aberdeen City",
+    "country": "GB",
+    "region": "Scotland",
+    "domain": "aberdeencity.gov.uk",
+    "osm_relation_id": 1900654
+  },
+  {
+    "id": "GB-S12000034",
+    "name": "Aberdeenshire",
+    "country": "GB",
+    "region": "Scotland",
+    "domain": "aberdeenshire.gov.uk",
+    "osm_relation_id": 1900655
+  },
+  {
+    "id": "GB-S12000035",
+    "name": "Argyll and Bute",
+    "country": "GB",
+    "region": "Scotland",
+    "domain": "argyll-bute.gov.uk",
+    "osm_relation_id": 1775685
+  },
+  {
+    "id": "GB-S12000036",
+    "name": "City of Edinburgh",
+    "country": "GB",
+    "region": "Scotland",
+    "domain": "edinburgh.gov.uk",
+    "osm_relation_id": 1920901
+  },
+  {
+    "id": "GB-S12000038",
+    "name": "Renfrewshire",
+    "country": "GB",
+    "region": "Scotland",
+    "domain": "renfrewshire.gov.uk",
+    "osm_relation_id": 1921240
+  },
+  {
+    "id": "GB-S12000039",
+    "name": "West Dunbartonshire",
+    "country": "GB",
+    "region": "Scotland",
+    "domain": "west-dunbarton.gov.uk",
+    "osm_relation_id": 1920242
+  },
+  {
+    "id": "GB-S12000040",
+    "name": "West Lothian",
+    "country": "GB",
+    "region": "Scotland",
+    "domain": "westlothian.gov.uk",
+    "osm_relation_id": 1910704
+  },
+  {
+    "id": "GB-S12000041",
+    "name": "Angus",
+    "country": "GB",
+    "region": "Scotland",
+    "domain": "angus.gov.uk",
+    "osm_relation_id": 1921172
+  },
+  {
+    "id": "GB-S12000042",
+    "name": "Dundee City",
+    "country": "GB",
+    "region": "Scotland",
+    "domain": "dundee.gov.uk",
+    "osm_relation_id": 1921173
+  },
+  {
+    "id": "GB-S12000045",
+    "name": "East Dunbartonshire",
+    "country": "GB",
+    "region": "Scotland",
+    "domain": "eastdunbarton.gov.uk",
+    "osm_relation_id": 1920660
+  },
+  {
+    "id": "GB-S12000047",
+    "name": "Fife",
+    "country": "GB",
+    "region": "Scotland",
+    "domain": "fifedirect.org.uk",
+    "osm_relation_id": 1905841
+  },
+  {
+    "id": "GB-S12000048",
+    "name": "Perth and Kinross",
+    "country": "GB",
+    "region": "Scotland",
+    "domain": "pkc.gov.uk",
+    "osm_relation_id": 1915429
+  },
+  {
+    "id": "GB-S12000049",
+    "name": "Glasgow City",
+    "country": "GB",
+    "region": "Scotland",
+    "domain": "glasgow.gov.uk",
+    "osm_relation_id": 1906767
+  },
+  {
+    "id": "GB-S12000050",
+    "name": "North Lanarkshire",
+    "country": "GB",
+    "region": "Scotland",
+    "domain": "northlanarkshire.gov.uk",
+    "osm_relation_id": 1920584
+  },
+  {
+    "id": "GB-W06000001",
+    "name": "Isle of Anglesey",
+    "country": "GB",
+    "region": "Wales",
+    "domain": "anglesey.gov.uk",
+    "osm_relation_id": 298793
+  },
+  {
+    "id": "GB-W06000002",
+    "name": "Gwynedd",
+    "country": "GB",
+    "region": "Wales",
+    "domain": "gwynedd.llyw.cymru",
+    "osm_relation_id": 297286
+  },
+  {
+    "id": "GB-W06000003",
+    "name": "Conwy",
+    "country": "GB",
+    "region": "Wales",
+    "domain": "conwy.gov.uk",
+    "osm_relation_id": 297287
+  },
+  {
+    "id": "GB-W06000004",
+    "name": "Denbighshire",
+    "country": "GB",
+    "region": "Wales",
+    "domain": "denbighshire.gov.uk",
+    "osm_relation_id": 192442
+  },
+  {
+    "id": "GB-W06000005",
+    "name": "Flintshire",
+    "country": "GB",
+    "region": "Wales",
+    "domain": "flintshire.gov.uk",
+    "osm_relation_id": 198566
+  },
+  {
+    "id": "GB-W06000006",
+    "name": "Wrexham",
+    "country": "GB",
+    "region": "Wales",
+    "domain": "wrexham.gov.uk",
+    "osm_relation_id": 137981
+  },
+  {
+    "id": "GB-W06000008",
+    "name": "Ceredigion",
+    "country": "GB",
+    "region": "Wales",
+    "domain": "ceredigion.gov.uk",
+    "osm_relation_id": 77904
+  },
+  {
+    "id": "GB-W06000009",
+    "name": "Pembrokeshire",
+    "country": "GB",
+    "region": "Wales",
+    "domain": "pembrokeshire.gov.uk",
+    "osm_relation_id": 57535
+  },
+  {
+    "id": "GB-W06000010",
+    "name": "Carmarthenshire",
+    "country": "GB",
+    "region": "Wales",
+    "domain": "carmarthenshire.gov.uk",
+    "osm_relation_id": 57534
+  },
+  {
+    "id": "GB-W06000011",
+    "name": "Swansea",
+    "country": "GB",
+    "region": "Wales",
+    "domain": "swansea.gov.uk",
+    "osm_relation_id": 87944
+  },
+  {
+    "id": "GB-W06000012",
+    "name": "Neath Port Talbot",
+    "country": "GB",
+    "region": "Wales",
+    "domain": "neath-porttalbot.gov.uk",
+    "osm_relation_id": 89846
+  },
+  {
+    "id": "GB-W06000013",
+    "name": "Bridgend County Borough",
+    "country": "GB",
+    "region": "Wales",
+    "domain": "bridgend.gov.uk",
+    "osm_relation_id": 99774
+  },
+  {
+    "id": "GB-W06000014",
+    "name": "Vale of Glamorgan",
+    "country": "GB",
+    "region": "Wales",
+    "domain": "valeofglamorgan.gov.uk",
+    "osm_relation_id": 103776
+  },
+  {
+    "id": "GB-W06000015",
+    "name": "Cardiff",
+    "country": "GB",
+    "region": "Wales",
+    "domain": "cardiff.gov.uk",
+    "osm_relation_id": 1625787
+  },
+  {
+    "id": "GB-W06000016",
+    "name": "Rhondda Cynon Taf",
+    "country": "GB",
+    "region": "Wales",
+    "domain": "rctcbc.gov.uk",
+    "osm_relation_id": 2751428
+  },
+  {
+    "id": "GB-W06000018",
+    "name": "Caerphilly County Borough",
+    "country": "GB",
+    "region": "Wales",
+    "domain": "caerphilly.gov.uk",
+    "osm_relation_id": 2750677
+  },
+  {
+    "id": "GB-W06000019",
+    "name": "Blaenau Gwent",
+    "country": "GB",
+    "region": "Wales",
+    "domain": "blaenau-gwent.gov.uk",
+    "osm_relation_id": 2750598
+  },
+  {
+    "id": "GB-W06000020",
+    "name": "Torfaen",
+    "country": "GB",
+    "region": "Wales",
+    "domain": "torfaen.gov.uk",
+    "osm_relation_id": 2750460
+  },
+  {
+    "id": "GB-W06000021",
+    "name": "Monmouthshire",
+    "country": "GB",
+    "region": "Wales",
+    "domain": "monmouthshire.gov.uk",
+    "osm_relation_id": 358021
+  },
+  {
+    "id": "GB-W06000022",
+    "name": "Newport",
+    "country": "GB",
+    "region": "Wales",
+    "domain": "newport.gov.uk",
+    "osm_relation_id": 335184
+  },
+  {
+    "id": "GB-W06000023",
+    "name": "Powys",
+    "country": "GB",
+    "region": "Wales",
+    "domain": "powys.gov.uk",
+    "osm_relation_id": 134324
+  },
+  {
+    "id": "GB-W06000024",
+    "name": "Merthyr Tydfil County Borough",
+    "country": "GB",
+    "region": "Wales",
+    "domain": "merthyr.gov.uk",
+    "osm_relation_id": 2750939
+  }
+]

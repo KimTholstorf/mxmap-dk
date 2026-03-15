@@ -334,5 +334,36 @@
       "ie_region.topo.json": 198815,
       "ie_municipality.topo.json": 478415
     }
+  },
+  "BG": {
+    "levels": [
+      "region",
+      "district",
+      "municipality"
+    ],
+    "files": {
+      "region": "bg_municipality.topo.json",
+      "district": "bg_municipality.topo.json",
+      "municipality": "bg_municipality.topo.json"
+    },
+    "sizes": {
+      "bg_municipality.topo.json": 219636
+    }
+  },
+  "SK": {
+    "levels": [
+      "region",
+      "district",
+      "municipality"
+    ],
+    "files": {
+      "region": "sk_region.topo.json",
+      "district": "sk_municipality.topo.json",
+      "municipality": "sk_municipality.topo.json"
+    },
+    "sizes": {
+      "sk_region.topo.json": 2434,
+      "sk_municipality.topo.json": 17917
+    }
   }
 }
