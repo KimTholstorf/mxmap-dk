@@ -6,6 +6,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 MX Map is a DNS-based email provider classifier for European municipalities (14 countries, ~4,650 total). It runs a 3-stage async pipeline that produces `data.json`, which powers an interactive Leaflet.js map showing where municipalities host their official email. Forked from [mxmap.ch](https://mxmap.ch) (Swiss municipalities). Countries: Estonia, Latvia, Lithuania, Finland, Norway, Iceland, Sweden, Germany, Denmark, Andorra, Luxembourg, Belgium, Austria, Czechia.
 
+## Important: Always use `uv run`
+
+**Never use system `python3` directly.** Always use `uv run python3` or `uv run` for all Python commands. The system Python may be an older version (e.g., 3.9) that doesn't support the type annotations and features used in this codebase.
+
 ## Commands
 
 ```bash
@@ -18,7 +22,7 @@ uv run postprocess     # Overrides, SMTP banners, scraping (~5 min)
 uv run validate        # Confidence scoring + quality gate
 
 # TopoJSON split (requires mapshaper: npm install -g mapshaper)
-python3 scripts/split_topo.py                    # Splits monolithic TopoJSON -> topo/
+uv run python3 scripts/split_topo.py             # Splits monolithic TopoJSON -> topo/
 
 # Tests
 uv run pytest                                    # All tests
@@ -108,7 +112,7 @@ topo/
 
 **Level aliasing:** When district=region or district=municipality for a country, `manifest.json` points both levels at the same file. Frontend detects this via `manifest[cc].files[level] === manifest[cc].files.municipality` to decide whether to aggregate.
 
-Run: `python3 scripts/split_topo.py` (requires mapshaper CLI).
+Run: `uv run python3 scripts/split_topo.py` (requires mapshaper CLI).
 
 ### Frontend Data Split (`scripts/build_frontend.py`)
 
@@ -119,7 +123,7 @@ Splits `data.json` (6 MB) into two files for faster initial page load:
 
 Strips unused fields (`spf_resolved` = 60% of data.json, `mx_asns`, `smtp_banner`, `mx_cnames`).
 
-Run: `python3 scripts/build_frontend.py`
+Run: `uv run python3 scripts/build_frontend.py`
 
 ### DNS Module (`dns.py`)
 
@@ -176,7 +180,7 @@ Feature IDs must be `relation/XXXXX` matching `osm_relation_id` in seed data. **
 ### 4b. Build scripts
 
 - Add country to `COUNTRIES` and `LEVEL_MAP` in `scripts/split_topo.py`
-- Re-run `python3 scripts/build_frontend.py` to rebuild data-summary.json and data-detail.json
+- Re-run `uv run python3 scripts/build_frontend.py` to rebuild data-summary.json and data-detail.json
 
 ### 5. Tests
 
