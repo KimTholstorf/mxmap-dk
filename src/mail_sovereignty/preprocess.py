@@ -179,6 +179,8 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         ("ï", "i"),
         ("ç", "c"),
         ("œ", "oe"),  # French
+        ("ì", "i"),
+        ("ò", "o"),  # Italian grave accents
     ]
     clean = raw
     for a, b in translits:
