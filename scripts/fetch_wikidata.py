@@ -156,7 +156,7 @@ def sparql_query(query: str) -> list[dict]:
     params = urllib.parse.urlencode({"query": query, "format": "json"})
     url = f"{SPARQL_URL}?{params}"
     req = urllib.request.Request(url, headers={"User-Agent": "MXMap/1.0 (municipality email mapper)"})
-    with urllib.request.urlopen(req, timeout=120) as resp:
+    with urllib.request.urlopen(req, timeout=300) as resp:
         data = json.loads(resp.read())
     return data["results"]["bindings"]
 
@@ -232,19 +232,21 @@ DE_STATES = {
 }
 
 
-def de_gemeinde_query(state_qid: str) -> str:
+def de_gemeinde_query(state_code: str) -> str:
     """SPARQL query for DE Gemeinden in a Bundesland.
 
     Uses Q262166 (Gemeinde in Germany) and P439 (AGS code).
+    Filters by AGS prefix (2-digit state code) instead of P131+ traversal
+    to avoid Wikidata timeouts.
     """
     return f"""
 SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?ags WHERE {{
   ?item wdt:P31/wdt:P279* wd:Q262166 .
-  ?item wdt:P131+ wd:{state_qid} .
+  ?item wdt:P439 ?ags .
+  FILTER(STRSTARTS(?ags, "{state_code}"))
+  FILTER NOT EXISTS {{ ?item wdt:P576 ?dissolved }}
   OPTIONAL {{ ?item wdt:P856 ?website }}
   OPTIONAL {{ ?item wdt:P402 ?osmId }}
-  OPTIONAL {{ ?item wdt:P439 ?ags }}
-  FILTER NOT EXISTS {{ ?item wdt:P576 ?dissolved }}
   SERVICE wikibase:label {{ bd:serviceParam wikibase:language "de,en" }}
 }}
 ORDER BY ?ags
@@ -256,7 +258,7 @@ def fetch_de_gemeinden():
     all_entries = []
     for state_code, (qid, state_name) in sorted(DE_STATES.items()):
         print(f"\n  Fetching {state_name} ({state_code})...")
-        query = de_gemeinde_query(qid)
+        query = de_gemeinde_query(state_code)
         try:
             results = sparql_query(query)
             print(f"    Got {len(results)} raw results")
