@@ -177,7 +177,7 @@
     ],
     "files": {
       "region": "de_region.topo.json",
-      "district": "de_municipality.topo.json",
+      "district": "de_district.topo.json",
       "municipality": {
         "de_municipality_01.topo.json": [
           7.87,
@@ -295,7 +295,8 @@
       "de_municipality_15.topo.json": 159646,
       "de_municipality_16.topo.json": 240108,
       "de_region.topo.json": 110288,
-      "de_municipality.topo.json": 737444
+      "de_municipality.topo.json": 737444,
+      "de_district.topo.json": 536494
     }
   },
   "DK": {
