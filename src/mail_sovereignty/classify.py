@@ -124,6 +124,7 @@ def classify(
     mx_display = ", ".join(mx_records[:2])
 
     # 1. Direct MX hostname match
+    local_providers = {"zone", "telia", "tet", "elkdata"}
     for provider, keywords, label in [
         ("microsoft", MICROSOFT_KEYWORDS, "Microsoft"),
         ("google", GOOGLE_KEYWORDS, "Google"),
@@ -134,6 +135,15 @@ def classify(
         ("elkdata", ELKDATA_KEYWORDS, "Elkdata"),
     ]:
         if any(k in mx_blob for k in keywords):
+            # For local providers, DKIM may reveal a cloud backend
+            # (e.g., Telia MX relaying to Microsoft 365)
+            if provider in local_providers:
+                dkim_provider = classify_from_dkim(dkim)
+                if dkim_provider and dkim_provider not in local_providers:
+                    return dkim_provider, (
+                        f"MX ({mx_display}) via {label}; "
+                        f"DKIM reveals {dkim_provider} backend"
+                    )
             return provider, f"MX record ({mx_display}) matches {label}"
 
     # 2. CNAME resolution of MX hosts

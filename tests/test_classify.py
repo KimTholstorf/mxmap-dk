@@ -658,6 +658,25 @@ class TestClassifyTxtVerification:
         )
         assert provider(result) == "microsoft"
 
+    def test_local_provider_dkim_reveals_cloud_backend(self):
+        """Local provider MX with DKIM revealing cloud backend → cloud wins."""
+        result = classify(
+            ["cmx.telia.ee"],
+            "",
+            dkim={"selector1": "selector1-torva-ee._domainkey.torvavv.onmicrosoft.com"},
+        )
+        assert provider(result) == "microsoft"
+        assert "DKIM" in reason(result)
+        assert "Telia" in reason(result)
+
+    def test_local_provider_no_dkim_stays_local(self):
+        """Local provider MX without DKIM stays as-is."""
+        result = classify(
+            ["cmx.telia.ee"],
+            "",
+        )
+        assert provider(result) == "telia"
+
     def test_gateway_non_mail_txt_stays_independent(self):
         """Non-mail TXT tokens (apple, facebook) don't classify."""
         result = classify(
