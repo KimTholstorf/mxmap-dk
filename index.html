@@ -586,8 +586,10 @@ function matchFeature(feature) {
   const props = feature.properties || {};
   const osmId = feature.id || props.id || '';
   if (osmId && muniByOsm[osmId]) return muniByOsm[osmId];
-  const name = (props.name || props.name_en || '').toLowerCase();
-  if (name && muniByName[name]) return muniByName[name];
+  for (const key of ['name', 'name_en', 'name:en']) {
+    const name = (props[key] || '').toLowerCase();
+    if (name && muniByName[name]) return muniByName[name];
+  }
   return null;
 }
 
@@ -632,11 +634,15 @@ function computeAggregation(cc, fileLevelName) {
 }
 
 function matchGroupFeature(feature, groups) {
-  const name = feature.properties ? feature.properties.name || '' : '';
-  if (groups[name]) return groups[name];
-  const lower = name.toLowerCase();
-  for (const [key, group] of Object.entries(groups)) {
-    if (key.toLowerCase() === lower) return group;
+  const props = feature.properties || {};
+  const names = [props.name || '', props.name_en || '', props['name:en'] || ''];
+  for (const name of names) {
+    if (!name) continue;
+    if (groups[name]) return groups[name];
+    const lower = name.toLowerCase();
+    for (const [key, group] of Object.entries(groups)) {
+      if (key.toLowerCase() === lower) return group;
+    }
   }
   return null;
 }
