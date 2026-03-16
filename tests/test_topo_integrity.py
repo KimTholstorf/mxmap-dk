@@ -30,6 +30,7 @@ PARTIAL_TOPO_COUNTRIES = {
     "AM",  # 14 of 46 municipalities have boundaries
     "AZ",  # Only 1 feature fetched (Overpass returned incomplete data)
     "BA",  # Brčko District boundary missing
+    "DE",  # ~425 Gemeinden missing (Overpass didn't return all admin_level=8)
     "GE",  # Gali, Ochamchire (occupied Abkhazia) boundaries missing
     "TR",  # Nevşehir Province boundary missing
     "UA",  # Topo has oblasts (admin_level=4), seed has raions (admin_level=6)

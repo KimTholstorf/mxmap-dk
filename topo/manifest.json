@@ -178,9 +178,122 @@
     "files": {
       "region": "de_region.topo.json",
       "district": "de_municipality.topo.json",
-      "municipality": "de_municipality.topo.json"
+      "municipality": {
+        "de_municipality_01.topo.json": [
+          7.87,
+          53.36,
+          11.31,
+          55.06
+        ],
+        "de_municipality_02.topo.json": [
+          8.1,
+          53.4,
+          10.33,
+          54.03
+        ],
+        "de_municipality_03.topo.json": [
+          6.65,
+          51.26,
+          11.69,
+          53.89
+        ],
+        "de_municipality_04.topo.json": [
+          8.48,
+          53.01,
+          8.99,
+          53.6
+        ],
+        "de_municipality_05.topo.json": [
+          5.87,
+          50.32,
+          9.46,
+          52.53
+        ],
+        "de_municipality_06.topo.json": [
+          7.77,
+          49.4,
+          10.24,
+          51.66
+        ],
+        "de_municipality_07.topo.json": [
+          6.11,
+          48.97,
+          8.51,
+          50.94
+        ],
+        "de_municipality_08.topo.json": [
+          7.51,
+          47.53,
+          10.5,
+          49.79
+        ],
+        "de_municipality_09.topo.json": [
+          8.98,
+          47.27,
+          13.84,
+          50.56
+        ],
+        "de_municipality_10.topo.json": [
+          6.36,
+          49.11,
+          7.4,
+          49.64
+        ],
+        "de_municipality_11.topo.json": [
+          13.09,
+          52.34,
+          13.76,
+          52.68
+        ],
+        "de_municipality_12.topo.json": [
+          11.27,
+          51.36,
+          14.77,
+          53.56
+        ],
+        "de_municipality_13.topo.json": [
+          10.59,
+          53.11,
+          14.41,
+          54.88
+        ],
+        "de_municipality_14.topo.json": [
+          11.87,
+          50.17,
+          15.04,
+          51.69
+        ],
+        "de_municipality_15.topo.json": [
+          10.56,
+          50.94,
+          13.19,
+          53.04
+        ],
+        "de_municipality_16.topo.json": [
+          9.88,
+          50.2,
+          12.65,
+          51.65
+        ]
+      }
     },
     "sizes": {
+      "de_municipality_01.topo.json": 409511,
+      "de_municipality_02.topo.json": 4956,
+      "de_municipality_03.topo.json": 762377,
+      "de_municipality_04.topo.json": 4047,
+      "de_municipality_05.topo.json": 365517,
+      "de_municipality_06.topo.json": 380453,
+      "de_municipality_07.topo.json": 741626,
+      "de_municipality_08.topo.json": 715902,
+      "de_municipality_09.topo.json": 1861961,
+      "de_municipality_10.topo.json": 31160,
+      "de_municipality_11.topo.json": 14829,
+      "de_municipality_12.topo.json": 277410,
+      "de_municipality_13.topo.json": 431683,
+      "de_municipality_14.topo.json": 258449,
+      "de_municipality_15.topo.json": 159646,
+      "de_municipality_16.topo.json": 240108,
       "de_region.topo.json": 110288,
       "de_municipality.topo.json": 737444
     }

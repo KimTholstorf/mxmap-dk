@@ -167,7 +167,7 @@ def convert_osm_to_geojson_simple(osm_data: dict) -> dict:
             "properties": {
                 "name": name,
                 "name_en": tags.get("name:en", ""),
-                "osm_id": el["id"],
+                "osm_id": f"relation/{el['id']}",
                 "country": tags.get("ISO3166-1", tags.get("is_in:country_code", "")),
             },
             "geometry": geometry,
@@ -348,7 +348,12 @@ DE_STATES_OSM = {
 
 
 def fetch_de_boundaries_per_state():
-    """Fetch DE admin_level=8 boundaries per Bundesland to avoid timeouts."""
+    """Fetch DE Gemeinde boundaries per Bundesland.
+
+    Most states use admin_level=8 for Gemeinden, but city-states
+    (Berlin=11, Hamburg=02, Bremen=04) use admin_level=6 or the
+    state boundary itself. We try 8 first, then fall back to 6.
+    """
     TOPO_DIR.mkdir(exist_ok=True)
 
     # Load seed data for annotation
@@ -357,72 +362,115 @@ def fetch_de_boundaries_per_state():
         seed_data = json.load(f)
 
     osm_to_entry = {}
+    state_counts = {}
     for e in seed_data:
         if e.get("osm_relation_id"):
             osm_to_entry[e["osm_relation_id"]] = e
+        sc = e["id"][3:5]
+        state_counts[sc] = state_counts.get(sc, 0) + 1
 
     for state_code, state_osm_id in sorted(DE_STATES_OSM.items()):
         out_path = TOPO_DIR / f"de_municipality_{state_code}.topo.json"
-        print(f"\n  Processing DE state {state_code} (OSM {state_osm_id})...")
+        expected = state_counts.get(state_code, 0)
+        print(f"\n  Processing DE state {state_code} (OSM {state_osm_id}, "
+              f"expect ~{expected} Gemeinden)...")
 
-        query = f"""
+        area_id = 3600000000 + state_osm_id
+        # Try admin_level 8 first, fall back to 6 for city-states
+        admin_levels = ["8", "6"] if expected <= 5 else ["8"]
+        osm_data = None
+        relations = []
+        for level in admin_levels:
+            query = f"""
 [out:json][timeout:300];
-area(3600{state_osm_id})->.state;
+area({area_id})->.state;
 (
-  relation["boundary"="administrative"]["admin_level"="8"](area.state);
+  relation["boundary"="administrative"]["admin_level"="{level}"](area.state);
 );
 out body;
 >;
 out skel qt;
 """
-        try:
-            osm_data = overpass_query(query)
-        except Exception as e:
-            print(f"    ERROR: {e}")
+            for attempt in range(3):
+                try:
+                    if attempt > 0:
+                        print(f"    Retry {attempt}...")
+                    else:
+                        print(f"    Trying admin_level={level}...")
+                    osm_data = overpass_query(query)
+                    relations = [e for e in osm_data.get("elements", [])
+                                 if e["type"] == "relation"]
+                    print(f"    Got {len(relations)} relations")
+                    break
+                except Exception as e:
+                    print(f"    ERROR: {e}")
+                    if "429" in str(e):
+                        print("    Rate limited, waiting 90s...")
+                        time.sleep(90)
+                    elif "504" in str(e) or "timeout" in str(e).lower():
+                        print("    Timeout, waiting 30s...")
+                        time.sleep(30)
+                    else:
+                        time.sleep(15)
+            if relations:
+                break
+            time.sleep(10)
+
+        if not osm_data or not relations:
+            print("    Skipping (no relations at any admin level)")
             time.sleep(10)
             continue
 
-        relations = [e for e in osm_data.get("elements", []) if e["type"] == "relation"]
-        print(f"    Got {relations.__len__()} relations")
-
         with tempfile.TemporaryDirectory() as tmpdir:
-            geo_path = osm_to_geojson(osm_data, tmpdir)
-            with open(geo_path) as f:
-                geo = json.load(f)
+            # Use Python converter (osmtogeojson strips properties)
+            geo = convert_osm_to_geojson_simple(osm_data)
+            print(f"    Converted to {len(geo.get('features', []))} GeoJSON features")
 
-            # Annotate with country + region
+            if not geo.get("features"):
+                print("    Skipping (no features after conversion)")
+                time.sleep(5)
+                continue
+
+            # Annotate with country + region + osm_id
             for feature in geo.get("features", []):
                 props = feature.get("properties", {})
                 props["country"] = "DE"
                 fid = feature.get("id", "")
                 if fid.startswith("relation/"):
-                    osm_id = int(fid.split("/")[1])
-                    entry = osm_to_entry.get(osm_id)
+                    osm_id_int = int(fid.split("/")[1])
+                    entry = osm_to_entry.get(osm_id_int)
                     if entry:
                         props["region"] = entry.get("region", "")
+                # Ensure osm_id property exists for mapshaper id-field
+                if not props.get("osm_id"):
+                    props["osm_id"] = fid
 
             annotated_path = f"{tmpdir}/annotated.geojson"
-            with open(annotated_path, "w") as f:
-                json.dump(geo, f)
+            with open(annotated_path, "w") as fw:
+                json.dump(geo, fw)
 
             # Create per-state TopoJSON
             layer_name = f"de_municipality_{state_code}"
-            subprocess.run(
-                [
-                    "mapshaper", annotated_path,
-                    "-filter-fields", "name,name_en,osm_id",
-                    "-rename-layers", layer_name,
-                    "-simplify", "15%", "keep-shapes",
-                    "-o", str(out_path), "format=topojson",
-                    "id-field=osm_id", "quantization=10000",
-                ],
-                check=True, capture_output=True,
-            )
-            size = out_path.stat().st_size
-            n_features = len(geo.get("features", []))
-            print(f"    → {out_path.name} ({n_features} features, {size:,} bytes)")
+            try:
+                # Only keep fields that exist; name_en may not be present
+                subprocess.run(
+                    [
+                        "mapshaper", annotated_path,
+                        "-filter-fields", "name,osm_id",
+                        "-rename-layers", layer_name,
+                        "-simplify", "15%", "keep-shapes",
+                        "-o", str(out_path), "format=topojson",
+                        "id-field=osm_id", "quantization=10000",
+                    ],
+                    check=True, capture_output=True, text=True,
+                )
+                size = out_path.stat().st_size
+                n_features = len(geo.get("features", []))
+                print(f"    → {out_path.name} ({n_features} features, {size:,} bytes)")
+            except subprocess.CalledProcessError as e:
+                print(f"    mapshaper FAILED: {e.stderr[:200]}")
 
-        time.sleep(5)  # Rate limit Overpass
+        time.sleep(10)  # Rate limit Overpass
 
 
 def main():
