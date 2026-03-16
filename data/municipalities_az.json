@@ -1,0 +1,519 @@
+[
+  {
+    "id": "AZ-001",
+    "name": "Absheron District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "absheron.az",
+    "osm_relation_id": 3764533
+  },
+  {
+    "id": "AZ-002",
+    "name": "Aghdam District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "agdam-ih.gov.az",
+    "osm_relation_id": 3795445
+  },
+  {
+    "id": "AZ-003",
+    "name": "Aghdara District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "",
+    "osm_relation_id": 17092684
+  },
+  {
+    "id": "AZ-004",
+    "name": "Aghdash District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "agdash-ih.gov.az",
+    "osm_relation_id": 3764538
+  },
+  {
+    "id": "AZ-005",
+    "name": "Aghjabadi District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "agcabedi-ih.gov.az",
+    "osm_relation_id": 3764536
+  },
+  {
+    "id": "AZ-006",
+    "name": "Aghstafa District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "agstafa-ih.gov.az",
+    "osm_relation_id": 3764539
+  },
+  {
+    "id": "AZ-007",
+    "name": "Agsu District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "agsu-ih.gov.az",
+    "osm_relation_id": 3764540
+  },
+  {
+    "id": "AZ-008",
+    "name": "Astara District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "astara-ih.gov.az",
+    "osm_relation_id": 3764535
+  },
+  {
+    "id": "AZ-009",
+    "name": "Babek District",
+    "country": "AZ",
+    "region": "Nakhchivan Autonomous Republic",
+    "domain": "babek-ih.nakhchivan.az",
+    "osm_relation_id": 3789855
+  },
+  {
+    "id": "AZ-010",
+    "name": "Balakan District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "balaken-ih.gov.az",
+    "osm_relation_id": 3764542
+  },
+  {
+    "id": "AZ-011",
+    "name": "Barda District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "berde-ih.gov.az",
+    "osm_relation_id": 3764546
+  },
+  {
+    "id": "AZ-012",
+    "name": "Beylagan District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "beyleqan-ih.gov.az",
+    "osm_relation_id": 3764543
+  },
+  {
+    "id": "AZ-013",
+    "name": "Bilasuvar District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "bilesuvar-ih.gov.az",
+    "osm_relation_id": 3764545
+  },
+  {
+    "id": "AZ-014",
+    "name": "Dashkasan District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "dashkesen-ih.gov.az",
+    "osm_relation_id": 3795448
+  },
+  {
+    "id": "AZ-015",
+    "name": "Fuzuli District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "fuzuli-ih.gov.az",
+    "osm_relation_id": 3795450
+  },
+  {
+    "id": "AZ-016",
+    "name": "Gadabay District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "gedebey-ih.gov.az",
+    "osm_relation_id": 3764555
+  },
+  {
+    "id": "AZ-017",
+    "name": "Gazakh District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "qazax-ih.gov.az",
+    "osm_relation_id": 3963560
+  },
+  {
+    "id": "AZ-018",
+    "name": "Gobustan District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "qobustan-ih.gov.az",
+    "osm_relation_id": 3764568
+  },
+  {
+    "id": "AZ-019",
+    "name": "Goranboy District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "goranboy-ih.gov.az",
+    "osm_relation_id": 3795446
+  },
+  {
+    "id": "AZ-020",
+    "name": "Goychay District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "goychay-ih.gov.az",
+    "osm_relation_id": 3764553
+  },
+  {
+    "id": "AZ-021",
+    "name": "Goygol District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "goygol-ih.gov.az",
+    "osm_relation_id": 3795447
+  },
+  {
+    "id": "AZ-022",
+    "name": "Guba District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "quba-ih.gov.az",
+    "osm_relation_id": 3764570
+  },
+  {
+    "id": "AZ-023",
+    "name": "Gubadly District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "qubadli-ih.gov.az",
+    "osm_relation_id": 11871223
+  },
+  {
+    "id": "AZ-024",
+    "name": "Hajigabul District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "haciqabul-ih.gov.az",
+    "osm_relation_id": 3764557
+  },
+  {
+    "id": "AZ-025",
+    "name": "Imishli District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "imishli.com",
+    "osm_relation_id": 3764590
+  },
+  {
+    "id": "AZ-026",
+    "name": "Ismayilli District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "ismayilli-ih.gov.az"
+  },
+  {
+    "id": "AZ-027",
+    "name": "Jabrayil District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "cabrail-ih.gov.az",
+    "osm_relation_id": 7861847
+  },
+  {
+    "id": "AZ-028",
+    "name": "Jalilabad District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "celilabad-ih.gov.az",
+    "osm_relation_id": 3764547
+  },
+  {
+    "id": "AZ-029",
+    "name": "Julfa District",
+    "country": "AZ",
+    "region": "Nakhchivan Autonomous Republic",
+    "domain": "culfa-ih.nakhchivan.az",
+    "osm_relation_id": 3789856
+  },
+  {
+    "id": "AZ-030",
+    "name": "Kalbajar District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "kelbecer-ih.gov.az",
+    "osm_relation_id": 11821490
+  },
+  {
+    "id": "AZ-031",
+    "name": "Kangarli District",
+    "country": "AZ",
+    "region": "Nakhchivan Autonomous Republic",
+    "domain": "",
+    "osm_relation_id": 3789860
+  },
+  {
+    "id": "AZ-032",
+    "name": "Khachmaz District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "xachmaz-ih.gov.az"
+  },
+  {
+    "id": "AZ-033",
+    "name": "Khizi District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "khizi-ih.gov.az",
+    "osm_relation_id": 3764585
+  },
+  {
+    "id": "AZ-034",
+    "name": "Khojaly District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "xocali-ih.gov.az",
+    "osm_relation_id": 11871221
+  },
+  {
+    "id": "AZ-035",
+    "name": "Khojavend District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "xocavend-ih.gov.az",
+    "osm_relation_id": 11822487
+  },
+  {
+    "id": "AZ-036",
+    "name": "Kurdamir District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "kurdemir-ih.gov.az",
+    "osm_relation_id": 3764559
+  },
+  {
+    "id": "AZ-037",
+    "name": "Lachin District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "lachin-ih.gov.az",
+    "osm_relation_id": 11871224
+  },
+  {
+    "id": "AZ-038",
+    "name": "Lankaran District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "lenkeran-ih.gov.az",
+    "osm_relation_id": 3772758
+  },
+  {
+    "id": "AZ-039",
+    "name": "Lankaran Sahari",
+    "country": "AZ",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "AZ-040",
+    "name": "Lerik District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "lerik-ih.gov.az",
+    "osm_relation_id": 3764560
+  },
+  {
+    "id": "AZ-041",
+    "name": "Masally District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "masalli-ih.gov.az",
+    "osm_relation_id": 3764562
+  },
+  {
+    "id": "AZ-042",
+    "name": "Neftchala District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "neftchala-ih.gov.az",
+    "osm_relation_id": 3772759
+  },
+  {
+    "id": "AZ-043",
+    "name": "Oghuz District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "oguz-ih.gov.az",
+    "osm_relation_id": 3764564
+  },
+  {
+    "id": "AZ-044",
+    "name": "Ordubad District",
+    "country": "AZ",
+    "region": "Erivan Governorate",
+    "domain": "ordubad-ih.nakhchivan.az",
+    "osm_relation_id": 3789858
+  },
+  {
+    "id": "AZ-045",
+    "name": "Saatly District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "saatli-ih.gov.az",
+    "osm_relation_id": 3764573
+  },
+  {
+    "id": "AZ-046",
+    "name": "Sabirabad District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "sabirabad-ih.gov.az",
+    "osm_relation_id": 3764574
+  },
+  {
+    "id": "AZ-047",
+    "name": "Sadarak District",
+    "country": "AZ",
+    "region": "Nakhchivan Autonomous Republic",
+    "domain": "sederek-ih.nakhchivan.az",
+    "osm_relation_id": 3789859
+  },
+  {
+    "id": "AZ-048",
+    "name": "Salyan District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "salyan-ih.gov.az",
+    "osm_relation_id": 3764575
+  },
+  {
+    "id": "AZ-049",
+    "name": "Samukh District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "samux-ih.gov.az",
+    "osm_relation_id": 3764577
+  },
+  {
+    "id": "AZ-050",
+    "name": "Shabran District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "shabran-ih.gov.az",
+    "osm_relation_id": 3764592
+  },
+  {
+    "id": "AZ-051",
+    "name": "Shahbuz District",
+    "country": "AZ",
+    "region": "Nakhchivan Autonomous Republic",
+    "domain": "",
+    "osm_relation_id": 2379535
+  },
+  {
+    "id": "AZ-052",
+    "name": "Shaki District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "sheki-ih.gov.az",
+    "osm_relation_id": 3912205
+  },
+  {
+    "id": "AZ-053",
+    "name": "Shamakhi District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "shamaxi-ih.gov.az",
+    "osm_relation_id": 3764593
+  },
+  {
+    "id": "AZ-054",
+    "name": "Shamkir District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "shamkir-ih.gov.az",
+    "osm_relation_id": 3764597
+  },
+  {
+    "id": "AZ-055",
+    "name": "Sharur District",
+    "country": "AZ",
+    "region": "Nakhchivan Autonomous Republic",
+    "domain": "",
+    "osm_relation_id": 3789857
+  },
+  {
+    "id": "AZ-056",
+    "name": "Shusha District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "shusha-ih.gov.az",
+    "osm_relation_id": 11905733
+  },
+  {
+    "id": "AZ-057",
+    "name": "Siyazan District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "siyezen-ih.gov.az",
+    "osm_relation_id": 3764578
+  },
+  {
+    "id": "AZ-058",
+    "name": "Tartar District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "terter-ih.gov.az",
+    "osm_relation_id": 11822485
+  },
+  {
+    "id": "AZ-059",
+    "name": "Tovuz District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "tovuz-ih.gov.az",
+    "osm_relation_id": 3764580
+  },
+  {
+    "id": "AZ-060",
+    "name": "Ujar District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "ucar-ih.gov.az",
+    "osm_relation_id": 3764582
+  },
+  {
+    "id": "AZ-061",
+    "name": "Yardimli District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "yardimli-ih.gov.az",
+    "osm_relation_id": 3764586
+  },
+  {
+    "id": "AZ-062",
+    "name": "Yevlakh District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "yevlax-ih.gov.az",
+    "osm_relation_id": 3764587
+  },
+  {
+    "id": "AZ-063",
+    "name": "Zangilan District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "zengilan-ih.gov.az",
+    "osm_relation_id": 11871222
+  },
+  {
+    "id": "AZ-064",
+    "name": "Zaqatala District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "zaqatala-ih.gov.az",
+    "osm_relation_id": 3764588
+  },
+  {
+    "id": "AZ-065",
+    "name": "Zardab District",
+    "country": "AZ",
+    "region": "Azerbaijan",
+    "domain": "zerdab-ih.gov.az",
+    "osm_relation_id": 3764589
+  }
+]

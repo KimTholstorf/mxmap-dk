@@ -1,0 +1,946 @@
+[
+  {
+    "id": "BY-001",
+    "name": "Akciabrski District",
+    "country": "BY",
+    "region": "Gomel Region",
+    "domain": "oktiabrskiy.gov.by",
+    "osm_relation_id": 59755
+  },
+  {
+    "id": "BY-002",
+    "name": "Asipovičy District",
+    "country": "BY",
+    "region": "Mogilev region",
+    "domain": "osipovichi.gov.by",
+    "osm_relation_id": 59753
+  },
+  {
+    "id": "BY-003",
+    "name": "Astraviec District",
+    "country": "BY",
+    "region": "Grodno Region",
+    "domain": "ostrovets.grodno-region.by",
+    "osm_relation_id": 70721
+  },
+  {
+    "id": "BY-004",
+    "name": "Ašmiany District",
+    "country": "BY",
+    "region": "Grodno Region",
+    "domain": "",
+    "osm_relation_id": 70728
+  },
+  {
+    "id": "BY-005",
+    "name": "Babrujsk District",
+    "country": "BY",
+    "region": "Mogilev region",
+    "domain": "bobruisk-rik.gov.by",
+    "osm_relation_id": 59148
+  },
+  {
+    "id": "BY-006",
+    "name": "Baranavichy District",
+    "country": "BY",
+    "region": "Brest Region",
+    "domain": "baranovichi.brest-region.gov.by",
+    "osm_relation_id": 71116
+  },
+  {
+    "id": "BY-007",
+    "name": "Barysaŭ District",
+    "country": "BY",
+    "region": "Minsk Region",
+    "domain": "",
+    "osm_relation_id": 70569
+  },
+  {
+    "id": "BY-008",
+    "name": "Bialyničy District",
+    "country": "BY",
+    "region": "Mogilev region",
+    "domain": "belynichi.gov.by",
+    "osm_relation_id": 70637
+  },
+  {
+    "id": "BY-009",
+    "name": "Biaroza District",
+    "country": "BY",
+    "region": "Brest Region",
+    "domain": "bereza.brest-region.gov.by",
+    "osm_relation_id": 71107
+  },
+  {
+    "id": "BY-010",
+    "name": "Bierastavica District",
+    "country": "BY",
+    "region": "Grodno Region",
+    "domain": "berestovitsa.grodno-region.by",
+    "osm_relation_id": 70790
+  },
+  {
+    "id": "BY-011",
+    "name": "Bierazino District",
+    "country": "BY",
+    "region": "Minsk Region",
+    "domain": "berezino.minsk-region.gov.by",
+    "osm_relation_id": 70575
+  },
+  {
+    "id": "BY-012",
+    "name": "Biešankovičy District",
+    "country": "BY",
+    "region": "Vitebsk Region",
+    "domain": "beshenkovichi.vitebsk-region.gov.by",
+    "osm_relation_id": 70668
+  },
+  {
+    "id": "BY-013",
+    "name": "Brahin district",
+    "country": "BY",
+    "region": "Gomel Region",
+    "domain": "bragin.gov.by",
+    "osm_relation_id": 70801
+  },
+  {
+    "id": "BY-014",
+    "name": "Braslaŭ District",
+    "country": "BY",
+    "region": "Vitebsk Region",
+    "domain": "braslav.vitebsk-region.gov.by",
+    "osm_relation_id": 70691
+  },
+  {
+    "id": "BY-015",
+    "name": "Brest district",
+    "country": "BY",
+    "region": "Brest Region",
+    "domain": "",
+    "osm_relation_id": 59188
+  },
+  {
+    "id": "BY-016",
+    "name": "Buda-Kašaliova District",
+    "country": "BY",
+    "region": "Gomel Region",
+    "domain": "buda-koshelevo.gov.by",
+    "osm_relation_id": 59175
+  },
+  {
+    "id": "BY-017",
+    "name": "Bychaŭ District",
+    "country": "BY",
+    "region": "Mogilev region",
+    "domain": "bykhov.gov.by",
+    "osm_relation_id": 70586
+  },
+  {
+    "id": "BY-018",
+    "name": "Chavusy District",
+    "country": "BY",
+    "region": "Mogilev region",
+    "domain": "chausy.gov.by",
+    "osm_relation_id": 70591
+  },
+  {
+    "id": "BY-019",
+    "name": "Chocimsk District",
+    "country": "BY",
+    "region": "Mogilev region",
+    "domain": "khotimsk.gov.by",
+    "osm_relation_id": 70605
+  },
+  {
+    "id": "BY-020",
+    "name": "Chojniki District",
+    "country": "BY",
+    "region": "Gomel Region",
+    "domain": "hoiniki.gov.by",
+    "osm_relation_id": 70802
+  },
+  {
+    "id": "BY-021",
+    "name": "Dobruš District",
+    "country": "BY",
+    "region": "Gomel Region",
+    "domain": "",
+    "osm_relation_id": 59092
+  },
+  {
+    "id": "BY-022",
+    "name": "Dokšycy District",
+    "country": "BY",
+    "region": "Vitebsk Region",
+    "domain": "dokshitsy.vitebsk-region.gov.by",
+    "osm_relation_id": 70716
+  },
+  {
+    "id": "BY-023",
+    "name": "Drahičyn District",
+    "country": "BY",
+    "region": "Brest Region",
+    "domain": "drogichin.brest-region.gov.by",
+    "osm_relation_id": 71105
+  },
+  {
+    "id": "BY-024",
+    "name": "Drybin district",
+    "country": "BY",
+    "region": "Mogilev region",
+    "domain": "dribin.gov.by",
+    "osm_relation_id": 70618
+  },
+  {
+    "id": "BY-025",
+    "name": "Dubroŭna District",
+    "country": "BY",
+    "region": "Vitebsk Region",
+    "domain": "dubrovno.vitebsk-region.gov.by",
+    "osm_relation_id": 70656
+  },
+  {
+    "id": "BY-026",
+    "name": "Dziaržynsk District",
+    "country": "BY",
+    "region": "Minsk Region",
+    "domain": "dzerzhinsk.gov.by",
+    "osm_relation_id": 70563
+  },
+  {
+    "id": "BY-027",
+    "name": "Dziatlava District",
+    "country": "BY",
+    "region": "Grodno Region",
+    "domain": "dyatlovo.grodno-region.by",
+    "osm_relation_id": 70768
+  },
+  {
+    "id": "BY-028",
+    "name": "Gomel District",
+    "country": "BY",
+    "region": "Gomel Region",
+    "domain": "gomelisp.gov.by",
+    "osm_relation_id": 1469691
+  },
+  {
+    "id": "BY-029",
+    "name": "Grodno District",
+    "country": "BY",
+    "region": "Grodno Region",
+    "domain": "grodnorik.gov.by",
+    "osm_relation_id": 59273
+  },
+  {
+    "id": "BY-030",
+    "name": "Hantsavichy district",
+    "country": "BY",
+    "region": "Brest Region",
+    "domain": "gantsevichi.brest-region.by",
+    "osm_relation_id": 71121
+  },
+  {
+    "id": "BY-031",
+    "name": "Haradok district",
+    "country": "BY",
+    "region": "Vitebsk Region",
+    "domain": "gorodok.vitebsk-region.gov.by",
+    "osm_relation_id": 70676
+  },
+  {
+    "id": "BY-032",
+    "name": "Hlusk district",
+    "country": "BY",
+    "region": "Mogilev region",
+    "domain": "glusk.gov.by",
+    "osm_relation_id": 71138
+  },
+  {
+    "id": "BY-033",
+    "name": "Hlybokaje District",
+    "country": "BY",
+    "region": "Vitebsk Region",
+    "domain": "glubokoe.vitebsk-region.gov.by",
+    "osm_relation_id": 70703
+  },
+  {
+    "id": "BY-034",
+    "name": "Horki district",
+    "country": "BY",
+    "region": "Mogilev region",
+    "domain": "gorki.gov.by",
+    "osm_relation_id": 70620
+  },
+  {
+    "id": "BY-035",
+    "name": "Ivacevičy District",
+    "country": "BY",
+    "region": "Brest Region",
+    "domain": "ivacevichi.brest-region.gov.by",
+    "osm_relation_id": 71112
+  },
+  {
+    "id": "BY-036",
+    "name": "Ivanava district",
+    "country": "BY",
+    "region": "Brest Region",
+    "domain": "ivanovo.brest-region.gov.by",
+    "osm_relation_id": 71118
+  },
+  {
+    "id": "BY-037",
+    "name": "Iŭje District",
+    "country": "BY",
+    "region": "Grodno Region",
+    "domain": "ivje.gov.by",
+    "osm_relation_id": 70732
+  },
+  {
+    "id": "BY-038",
+    "name": "Jeĺsk District",
+    "country": "BY",
+    "region": "Gomel Region",
+    "domain": "yelsk.gov.by",
+    "osm_relation_id": 70810
+  },
+  {
+    "id": "BY-039",
+    "name": "Kalinkavichy District",
+    "country": "BY",
+    "region": "Gomel Region",
+    "domain": "kalinkovichi.gov.by",
+    "osm_relation_id": 70814
+  },
+  {
+    "id": "BY-040",
+    "name": "Kamieniec District",
+    "country": "BY",
+    "region": "Brest Region",
+    "domain": "kamenec.brest-region.by",
+    "osm_relation_id": 71097
+  },
+  {
+    "id": "BY-041",
+    "name": "Kapyĺ District",
+    "country": "BY",
+    "region": "Minsk Region",
+    "domain": "kopyl.gov.by",
+    "osm_relation_id": 71132
+  },
+  {
+    "id": "BY-042",
+    "name": "Kareličy District",
+    "country": "BY",
+    "region": "Grodno Region",
+    "domain": "korelichi.gov.by",
+    "osm_relation_id": 70751
+  },
+  {
+    "id": "BY-043",
+    "name": "Karma district",
+    "country": "BY",
+    "region": "Gomel Region",
+    "domain": "",
+    "osm_relation_id": 59149
+  },
+  {
+    "id": "BY-044",
+    "name": "Kasciukovičy District",
+    "country": "BY",
+    "region": "Mogilev region",
+    "domain": "kostukovichi.gov.by",
+    "osm_relation_id": 70604
+  },
+  {
+    "id": "BY-045",
+    "name": "Kiraŭsk District",
+    "country": "BY",
+    "region": "Mogilev region",
+    "domain": "kirovsk.gov.by",
+    "osm_relation_id": 70580
+  },
+  {
+    "id": "BY-046",
+    "name": "Klieck District",
+    "country": "BY",
+    "region": "Minsk Region",
+    "domain": "kletsk.gov.by",
+    "osm_relation_id": 71130
+  },
+  {
+    "id": "BY-047",
+    "name": "Klimavichy district",
+    "country": "BY",
+    "region": "Mogilev region",
+    "domain": "klimovichi.gov.by",
+    "osm_relation_id": 70610
+  },
+  {
+    "id": "BY-048",
+    "name": "Kličaŭ District",
+    "country": "BY",
+    "region": "Mogilev region",
+    "domain": "klichev.gov.by",
+    "osm_relation_id": 70577
+  },
+  {
+    "id": "BY-049",
+    "name": "Kobryn district",
+    "country": "BY",
+    "region": "Brest Region",
+    "domain": "kobrin.brest-region.gov.by",
+    "osm_relation_id": 71101
+  },
+  {
+    "id": "BY-050",
+    "name": "Krasnapollie District",
+    "country": "BY",
+    "region": "Mogilev region",
+    "domain": "krasnopolie.gov.by",
+    "osm_relation_id": 70602
+  },
+  {
+    "id": "BY-051",
+    "name": "Kruhlaje District",
+    "country": "BY",
+    "region": "Mogilev region",
+    "domain": "krugloe.mogilev-region.by",
+    "osm_relation_id": 70638
+  },
+  {
+    "id": "BY-052",
+    "name": "Krupki District",
+    "country": "BY",
+    "region": "Minsk Region",
+    "domain": "krupki.gov.by",
+    "osm_relation_id": 70639
+  },
+  {
+    "id": "BY-053",
+    "name": "Kryčaŭ District",
+    "country": "BY",
+    "region": "Mogilev region",
+    "domain": "krichev.gov.by",
+    "osm_relation_id": 70614
+  },
+  {
+    "id": "BY-054",
+    "name": "Lahojsk District",
+    "country": "BY",
+    "region": "Minsk Region",
+    "domain": "logoysk.gov.by",
+    "osm_relation_id": 70542
+  },
+  {
+    "id": "BY-055",
+    "name": "Lelchytsy District",
+    "country": "BY",
+    "region": "Gomel Region",
+    "domain": "lelchitsy.gov.by",
+    "osm_relation_id": 71147
+  },
+  {
+    "id": "BY-056",
+    "name": "Liachavičy District",
+    "country": "BY",
+    "region": "Brest Region",
+    "domain": "liahovichi.brest-region.by",
+    "osm_relation_id": 71117
+  },
+  {
+    "id": "BY-057",
+    "name": "Lida district",
+    "country": "BY",
+    "region": "Grodno Region",
+    "domain": "lida.gov.by",
+    "osm_relation_id": 70747
+  },
+  {
+    "id": "BY-058",
+    "name": "Liepieĺ District",
+    "country": "BY",
+    "region": "Vitebsk Region",
+    "domain": "lepel.vitebsk-region.gov.by",
+    "osm_relation_id": 70679
+  },
+  {
+    "id": "BY-059",
+    "name": "Liozna District",
+    "country": "BY",
+    "region": "Vitebsk Region",
+    "domain": "liozno.vitebsk-region.gov.by",
+    "osm_relation_id": 70665
+  },
+  {
+    "id": "BY-060",
+    "name": "Lojeŭ District",
+    "country": "BY",
+    "region": "Gomel Region",
+    "domain": "loev.gov.by",
+    "osm_relation_id": 70799
+  },
+  {
+    "id": "BY-061",
+    "name": "Luniniec District",
+    "country": "BY",
+    "region": "Brest Region",
+    "domain": "luninets.brest-region.by",
+    "osm_relation_id": 71124
+  },
+  {
+    "id": "BY-062",
+    "name": "Lyuban district",
+    "country": "BY",
+    "region": "Minsk Region",
+    "domain": "lyuban.gov.by",
+    "osm_relation_id": 71140
+  },
+  {
+    "id": "BY-063",
+    "name": "Mahilow District",
+    "country": "BY",
+    "region": "Mogilev region",
+    "domain": "mogilev-rik.gov.by",
+    "osm_relation_id": 62147
+  },
+  {
+    "id": "BY-064",
+    "name": "Maladziečna District",
+    "country": "BY",
+    "region": "Minsk Region",
+    "domain": "",
+    "osm_relation_id": 70566
+  },
+  {
+    "id": "BY-065",
+    "name": "Malaryta district",
+    "country": "BY",
+    "region": "Brest Region",
+    "domain": "malorita.brest-region.gov.by",
+    "osm_relation_id": 71100
+  },
+  {
+    "id": "BY-066",
+    "name": "Masty district",
+    "country": "BY",
+    "region": "Grodno Region",
+    "domain": "mosty.grodno-region.by",
+    "osm_relation_id": 70754
+  },
+  {
+    "id": "BY-067",
+    "name": "Mazyr district",
+    "country": "BY",
+    "region": "Gomel Region",
+    "domain": "mozyrisp.gov.by",
+    "osm_relation_id": 70815
+  },
+  {
+    "id": "BY-068",
+    "name": "Miadziel District",
+    "country": "BY",
+    "region": "Minsk Region",
+    "domain": "",
+    "osm_relation_id": 70719
+  },
+  {
+    "id": "BY-069",
+    "name": "Minsk District",
+    "country": "BY",
+    "region": "Minsk Region",
+    "domain": "mrik.gov.by",
+    "osm_relation_id": 59190
+  },
+  {
+    "id": "BY-070",
+    "name": "Miory district",
+    "country": "BY",
+    "region": "Vitebsk Region",
+    "domain": "miory.vitebsk-region.gov.by",
+    "osm_relation_id": 70690
+  },
+  {
+    "id": "BY-071",
+    "name": "Mstsislaw District",
+    "country": "BY",
+    "region": "Mogilev region",
+    "domain": "mstislavl.gov.by",
+    "osm_relation_id": 70616
+  },
+  {
+    "id": "BY-072",
+    "name": "Naroŭlia District",
+    "country": "BY",
+    "region": "Gomel Region",
+    "domain": "narovlya.gov.by",
+    "osm_relation_id": 70809
+  },
+  {
+    "id": "BY-073",
+    "name": "Navahrudak District",
+    "country": "BY",
+    "region": "Grodno Region",
+    "domain": "novogrudok.gov.by",
+    "osm_relation_id": 70749
+  },
+  {
+    "id": "BY-074",
+    "name": "Niasviž District",
+    "country": "BY",
+    "region": "Minsk Region",
+    "domain": "",
+    "osm_relation_id": 71128
+  },
+  {
+    "id": "BY-075",
+    "name": "Orsha District",
+    "country": "BY",
+    "region": "Vitebsk Region",
+    "domain": "orsha.vitebsk-region.gov.by",
+    "osm_relation_id": 70660
+  },
+  {
+    "id": "BY-076",
+    "name": "Pastavy district",
+    "country": "BY",
+    "region": "Vitebsk Region",
+    "domain": "postavy.vitebsk-region.gov.by",
+    "osm_relation_id": 70707
+  },
+  {
+    "id": "BY-077",
+    "name": "Pietrykaŭ District",
+    "country": "BY",
+    "region": "Gomel Region",
+    "domain": "petrikov.gov.by",
+    "osm_relation_id": 71145
+  },
+  {
+    "id": "BY-078",
+    "name": "Pinsk district",
+    "country": "BY",
+    "region": "Brest Region",
+    "domain": "",
+    "osm_relation_id": 71119
+  },
+  {
+    "id": "BY-079",
+    "name": "Polotsk District",
+    "country": "BY",
+    "region": "Vitebsk Region",
+    "domain": "polotsk.vitebsk-region.gov.by",
+    "osm_relation_id": 70671
+  },
+  {
+    "id": "BY-080",
+    "name": "Pružany District",
+    "country": "BY",
+    "region": "Brest Region",
+    "domain": "pruzhany.brest-region.gov.by",
+    "osm_relation_id": 71094
+  },
+  {
+    "id": "BY-081",
+    "name": "Puchavičy District",
+    "country": "BY",
+    "region": "Minsk Region",
+    "domain": "",
+    "osm_relation_id": 70549
+  },
+  {
+    "id": "BY-082",
+    "name": "Rahachow district",
+    "country": "BY",
+    "region": "Gomel Region",
+    "domain": "rogachev.gov.by",
+    "osm_relation_id": 59174
+  },
+  {
+    "id": "BY-083",
+    "name": "Rasony district",
+    "country": "BY",
+    "region": "Vitebsk Region",
+    "domain": "rossony.vitebsk-region.gov.by",
+    "osm_relation_id": 70680
+  },
+  {
+    "id": "BY-084",
+    "name": "Rečyca District",
+    "country": "BY",
+    "region": "Gomel Region",
+    "domain": "rechitsa.by",
+    "osm_relation_id": 70812
+  },
+  {
+    "id": "BY-085",
+    "name": "Salihorsk district",
+    "country": "BY",
+    "region": "Minsk Region",
+    "domain": "soligorsk.gov.by",
+    "osm_relation_id": 71133
+  },
+  {
+    "id": "BY-086",
+    "name": "Shchuchyn district",
+    "country": "BY",
+    "region": "Grodno Region",
+    "domain": "schuchin.gov.by",
+    "osm_relation_id": 70748
+  },
+  {
+    "id": "BY-087",
+    "name": "Slaŭharad District",
+    "country": "BY",
+    "region": "Mogilev region",
+    "domain": "slavgorod.gov.by",
+    "osm_relation_id": 70589
+  },
+  {
+    "id": "BY-088",
+    "name": "Slonim district",
+    "country": "BY",
+    "region": "Grodno Region",
+    "domain": "slonim.gov.by",
+    "osm_relation_id": 71114
+  },
+  {
+    "id": "BY-089",
+    "name": "Sluck District",
+    "country": "BY",
+    "region": "Minsk Region",
+    "domain": "slutsk.gov.by",
+    "osm_relation_id": 71134
+  },
+  {
+    "id": "BY-090",
+    "name": "Smaliavičy District",
+    "country": "BY",
+    "region": "Minsk Region",
+    "domain": "smolevichi.gov.by",
+    "osm_relation_id": 69554
+  },
+  {
+    "id": "BY-091",
+    "name": "Smarhoń District",
+    "country": "BY",
+    "region": "Grodno Region",
+    "domain": "smorgon.grodno-region.by",
+    "osm_relation_id": 70725
+  },
+  {
+    "id": "BY-092",
+    "name": "Staryja Darohi District",
+    "country": "BY",
+    "region": "Minsk Region",
+    "domain": "",
+    "osm_relation_id": 71135
+  },
+  {
+    "id": "BY-093",
+    "name": "Stolin district",
+    "country": "BY",
+    "region": "Brest Region",
+    "domain": "stolin.brest-region.gov.by",
+    "osm_relation_id": 71125
+  },
+  {
+    "id": "BY-094",
+    "name": "Stoŭbcy District",
+    "country": "BY",
+    "region": "Minsk Region",
+    "domain": "stolbtsy.gov.by",
+    "osm_relation_id": 70752
+  },
+  {
+    "id": "BY-095",
+    "name": "Svietlahorsk District",
+    "country": "BY",
+    "region": "Gomel Region",
+    "domain": "svetlogorsk.by",
+    "osm_relation_id": 59137
+  },
+  {
+    "id": "BY-096",
+    "name": "Svislač District",
+    "country": "BY",
+    "region": "Grodno Region",
+    "domain": "svisloch.grodno-region.by",
+    "osm_relation_id": 71093
+  },
+  {
+    "id": "BY-097",
+    "name": "Syanno District",
+    "country": "BY",
+    "region": "Vitebsk Region",
+    "domain": "senno.vitebsk-region.gov.by",
+    "osm_relation_id": 70662
+  },
+  {
+    "id": "BY-098",
+    "name": "Talačyn District",
+    "country": "BY",
+    "region": "Vitebsk Region",
+    "domain": "tolochin.vitebsk-region.gov.by",
+    "osm_relation_id": 70649
+  },
+  {
+    "id": "BY-099",
+    "name": "Uzda district",
+    "country": "BY",
+    "region": "Minsk Region",
+    "domain": "uzda.gov.by",
+    "osm_relation_id": 70561
+  },
+  {
+    "id": "BY-100",
+    "name": "Ušačy District",
+    "country": "BY",
+    "region": "Vitebsk Region",
+    "domain": "ushachi.vitebsk-region.gov.by",
+    "osm_relation_id": 70669
+  },
+  {
+    "id": "BY-101",
+    "name": "Valožyn District",
+    "country": "BY",
+    "region": "Minsk Region",
+    "domain": "volozhin.gov.by",
+    "osm_relation_id": 70565
+  },
+  {
+    "id": "BY-102",
+    "name": "Vaŭkavysk District",
+    "country": "BY",
+    "region": "Grodno Region",
+    "domain": "volkovysk.grodno-region.by",
+    "osm_relation_id": 70771
+  },
+  {
+    "id": "BY-103",
+    "name": "Vierchniadzvinsk District",
+    "country": "BY",
+    "region": "Vitebsk Region",
+    "domain": "verkhnedvinsk.vitebsk-region.gov.by",
+    "osm_relation_id": 70684
+  },
+  {
+    "id": "BY-104",
+    "name": "Vietka District",
+    "country": "BY",
+    "region": "Gomel Region",
+    "domain": "",
+    "osm_relation_id": 70795
+  },
+  {
+    "id": "BY-105",
+    "name": "Vileyka District",
+    "country": "BY",
+    "region": "Minsk Region",
+    "domain": "vileyka.gov.by",
+    "osm_relation_id": 70568
+  },
+  {
+    "id": "BY-106",
+    "name": "Vitebsk District",
+    "country": "BY",
+    "region": "Vitebsk Region",
+    "domain": "vitebsk.vitebsk-region.gov.by",
+    "osm_relation_id": 59504
+  },
+  {
+    "id": "BY-107",
+    "name": "Voranava district",
+    "country": "BY",
+    "region": "Grodno Region",
+    "domain": "voronovo.grodno-region.by",
+    "osm_relation_id": 70737
+  },
+  {
+    "id": "BY-108",
+    "name": "Zeĺva District",
+    "country": "BY",
+    "region": "Grodno Region",
+    "domain": "zelva.gov.by",
+    "osm_relation_id": 70772
+  },
+  {
+    "id": "BY-109",
+    "name": "Čačersk District",
+    "country": "BY",
+    "region": "Gomel Region",
+    "domain": "chechersk.gov.by",
+    "osm_relation_id": 59178
+  },
+  {
+    "id": "BY-110",
+    "name": "Čašniki District",
+    "country": "BY",
+    "region": "Vitebsk Region",
+    "domain": "chashniki.vitebsk-region.gov.by",
+    "osm_relation_id": 70746
+  },
+  {
+    "id": "BY-111",
+    "name": "Červień District",
+    "country": "BY",
+    "region": "Minsk Region",
+    "domain": "cherven.gov.by",
+    "osm_relation_id": 59751
+  },
+  {
+    "id": "BY-112",
+    "name": "Čerykaŭ District",
+    "country": "BY",
+    "region": "Mogilev region",
+    "domain": "cherikov.gov.by",
+    "osm_relation_id": 70595
+  },
+  {
+    "id": "BY-113",
+    "name": "Šarkaŭščyna District",
+    "country": "BY",
+    "region": "Vitebsk Region",
+    "domain": "sharkovshchina.vitebsk-region.gov.by",
+    "osm_relation_id": 70701
+  },
+  {
+    "id": "BY-114",
+    "name": "Škłow District",
+    "country": "BY",
+    "region": "Mogilev region",
+    "domain": "shklov.gov.by",
+    "osm_relation_id": 70626
+  },
+  {
+    "id": "BY-115",
+    "name": "Šumilina District",
+    "country": "BY",
+    "region": "Vitebsk Region",
+    "domain": "shumilino.vitebsk-region.gov.by",
+    "osm_relation_id": 70677
+  },
+  {
+    "id": "BY-116",
+    "name": "Žabinka District",
+    "country": "BY",
+    "region": "Brest Region",
+    "domain": "zhabinka.brest-region.by",
+    "osm_relation_id": 71099
+  },
+  {
+    "id": "BY-117",
+    "name": "Žlobin District",
+    "country": "BY",
+    "region": "Gomel Region",
+    "domain": "",
+    "osm_relation_id": 59167
+  },
+  {
+    "id": "BY-118",
+    "name": "Žytkavičy District",
+    "country": "BY",
+    "region": "Gomel Region",
+    "domain": "",
+    "osm_relation_id": 71149
+  }
+]

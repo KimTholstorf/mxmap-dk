@@ -1,0 +1,1283 @@
+[
+  {
+    "id": "UA-001",
+    "name": "Alchevsk Raion",
+    "country": "UA",
+    "region": "Luhansk Oblast",
+    "domain": "",
+    "osm_relation_id": 17938128
+  },
+  {
+    "id": "UA-002",
+    "name": "Bakhchysarai Raion",
+    "country": "UA",
+    "region": "Autonomous Republic of Crimea",
+    "domain": "bahchisaray.rk.gov.ru",
+    "osm_relation_id": 19261230
+  },
+  {
+    "id": "UA-003",
+    "name": "Bakhchysarai Raion",
+    "country": "UA",
+    "region": "Autonomous Republic of Crimea",
+    "domain": "",
+    "osm_relation_id": 1574582
+  },
+  {
+    "id": "UA-004",
+    "name": "Bakhmut Raion",
+    "country": "UA",
+    "region": "Donetsk Oblast",
+    "domain": "bahmut-rayrada.gov.ua",
+    "osm_relation_id": 11970387
+  },
+  {
+    "id": "UA-005",
+    "name": "Bashtanka Raion",
+    "country": "UA",
+    "region": "Mykolaiv Oblast",
+    "domain": "",
+    "osm_relation_id": 1738966
+  },
+  {
+    "id": "UA-006",
+    "name": "Berdiansk Raion",
+    "country": "UA",
+    "region": "Zaporizhzhia Oblast",
+    "domain": "",
+    "osm_relation_id": 11857351
+  },
+  {
+    "id": "UA-007",
+    "name": "Berdychiv Raion",
+    "country": "UA",
+    "region": "Zhytomyr Oblast",
+    "domain": "",
+    "osm_relation_id": 11952329
+  },
+  {
+    "id": "UA-008",
+    "name": "Berehove Raion",
+    "country": "UA",
+    "region": "Zakarpattia Oblast",
+    "domain": "",
+    "osm_relation_id": 11848195
+  },
+  {
+    "id": "UA-009",
+    "name": "Berezivka Raion",
+    "country": "UA",
+    "region": "Odesa Oblast",
+    "domain": "berezivka-rda.od.gov.ua",
+    "osm_relation_id": 11885531
+  },
+  {
+    "id": "UA-010",
+    "name": "Beryslav Raion",
+    "country": "UA",
+    "region": "Kherson Oblast",
+    "domain": "rdaberyslav.gov.ua",
+    "osm_relation_id": 11874322
+  },
+  {
+    "id": "UA-011",
+    "name": "Bila Tserkva Raion",
+    "country": "UA",
+    "region": "Kyiv Oblast",
+    "domain": "",
+    "osm_relation_id": 11913383
+  },
+  {
+    "id": "UA-012",
+    "name": "Bilhorod-Dnistrovskyi Raion",
+    "country": "UA",
+    "region": "Odesa Oblast",
+    "domain": "bd-rda.od.gov.ua",
+    "osm_relation_id": 11883401
+  },
+  {
+    "id": "UA-013",
+    "name": "Bilohirsk Raion",
+    "country": "UA",
+    "region": "Autonomous Republic of Crimea",
+    "domain": "",
+    "osm_relation_id": 19161849
+  },
+  {
+    "id": "UA-014",
+    "name": "Bilohirsk Raion (1921—2023)",
+    "country": "UA",
+    "region": "Autonomous Republic of Crimea",
+    "domain": "belogorskiy.rk.gov.ru",
+    "osm_relation_id": 1754552
+  },
+  {
+    "id": "UA-015",
+    "name": "Bohodukhiv Raion",
+    "country": "UA",
+    "region": "Kharkiv Oblast",
+    "domain": "",
+    "osm_relation_id": 11803996
+  },
+  {
+    "id": "UA-016",
+    "name": "Bohorodchany Raion",
+    "country": "UA",
+    "region": "Ivano-Frankivsk Oblast",
+    "domain": "bogorda.if.gov.ua",
+    "osm_relation_id": 1741637
+  },
+  {
+    "id": "UA-017",
+    "name": "Bolhrad Raion",
+    "country": "UA",
+    "region": "Odesa Oblast",
+    "domain": "bolgrad-rda.od.gov.ua",
+    "osm_relation_id": 11884966
+  },
+  {
+    "id": "UA-018",
+    "name": "Boryspil Raion",
+    "country": "UA",
+    "region": "Kyiv Oblast",
+    "domain": "",
+    "osm_relation_id": 11900985
+  },
+  {
+    "id": "UA-019",
+    "name": "Brovary Raion",
+    "country": "UA",
+    "region": "Kyiv Oblast",
+    "domain": "",
+    "osm_relation_id": 11900969
+  },
+  {
+    "id": "UA-020",
+    "name": "Bucha Raion",
+    "country": "UA",
+    "region": "Kyiv Oblast",
+    "domain": "bucha-rr.gov.ua",
+    "osm_relation_id": 11913603
+  },
+  {
+    "id": "UA-021",
+    "name": "Chechelivskyi District",
+    "country": "UA",
+    "region": "Dnipro",
+    "domain": "chechdp.gov.ua"
+  },
+  {
+    "id": "UA-022",
+    "name": "Cherkasy Raion",
+    "country": "UA",
+    "region": "Cherkasy Oblast",
+    "domain": "",
+    "osm_relation_id": 11920395
+  },
+  {
+    "id": "UA-023",
+    "name": "Chernihiv Raion",
+    "country": "UA",
+    "region": "Chernihiv Oblast",
+    "domain": "chadm.cg.gov.ua",
+    "osm_relation_id": 11807410
+  },
+  {
+    "id": "UA-024",
+    "name": "Chernivtsi Raion",
+    "country": "UA",
+    "region": "Chernivtsi Oblast",
+    "domain": "",
+    "osm_relation_id": 11905202
+  },
+  {
+    "id": "UA-025",
+    "name": "Chornomorske Raion",
+    "country": "UA",
+    "region": "Autonomous Republic of Crimea",
+    "domain": "",
+    "osm_relation_id": 1590251
+  },
+  {
+    "id": "UA-026",
+    "name": "Chortkiv Raion",
+    "country": "UA",
+    "region": "Ternopil Oblast",
+    "domain": "",
+    "osm_relation_id": 11919403
+  },
+  {
+    "id": "UA-027",
+    "name": "Chuhuiv Raion",
+    "country": "UA",
+    "region": "Kharkiv Oblast",
+    "domain": "",
+    "osm_relation_id": 11803999
+  },
+  {
+    "id": "UA-028",
+    "name": "Dnipro Raion",
+    "country": "UA",
+    "region": "Dnipropetrovsk Oblast",
+    "domain": "dnipr.dp.gov.ua",
+    "osm_relation_id": 1738025
+  },
+  {
+    "id": "UA-029",
+    "name": "Dnistrovskyi Raion",
+    "country": "UA",
+    "region": "Chernivtsi Oblast",
+    "domain": "",
+    "osm_relation_id": 11905201
+  },
+  {
+    "id": "UA-030",
+    "name": "Donetsk Raion",
+    "country": "UA",
+    "region": "Donetsk Oblast",
+    "domain": "",
+    "osm_relation_id": 17937787
+  },
+  {
+    "id": "UA-031",
+    "name": "Dovzhansk Raion",
+    "country": "UA",
+    "region": "Luhansk Oblast",
+    "domain": "",
+    "osm_relation_id": 17938099
+  },
+  {
+    "id": "UA-032",
+    "name": "Drohobych Raion",
+    "country": "UA",
+    "region": "Lviv Oblast",
+    "domain": "",
+    "osm_relation_id": 11926073
+  },
+  {
+    "id": "UA-033",
+    "name": "Dubno Raion",
+    "country": "UA",
+    "region": "Rivne Oblast",
+    "domain": "",
+    "osm_relation_id": 11831110
+  },
+  {
+    "id": "UA-034",
+    "name": "Dzhankoi Raion",
+    "country": "UA",
+    "region": "Autonomous Republic of Crimea",
+    "domain": "",
+    "osm_relation_id": 19161871
+  },
+  {
+    "id": "UA-035",
+    "name": "Fastiv Raion",
+    "country": "UA",
+    "region": "Kyiv Oblast",
+    "domain": "",
+    "osm_relation_id": 11913464
+  },
+  {
+    "id": "UA-036",
+    "name": "Feodosia Raion",
+    "country": "UA",
+    "region": "Autonomous Republic of Crimea",
+    "domain": "",
+    "osm_relation_id": 19162115
+  },
+  {
+    "id": "UA-037",
+    "name": "Haisyn Raion",
+    "country": "UA",
+    "region": "Vinnytsia Oblast",
+    "domain": "",
+    "osm_relation_id": 11928916
+  },
+  {
+    "id": "UA-038",
+    "name": "Halych Raion",
+    "country": "UA",
+    "region": "Ivano-Frankivsk Oblast",
+    "domain": "ww2.gov.if.ua"
+  },
+  {
+    "id": "UA-039",
+    "name": "Henichesk Raion",
+    "country": "UA",
+    "region": "Kherson Oblast",
+    "domain": "genichesk-rda.gov.ua",
+    "osm_relation_id": 11795653
+  },
+  {
+    "id": "UA-040",
+    "name": "Hertsa Raion",
+    "country": "UA",
+    "region": "Chernivtsi Oblast",
+    "domain": "hertza.bukoda.gov.ua",
+    "osm_relation_id": 1740866
+  },
+  {
+    "id": "UA-041",
+    "name": "Holovanivsk Raion",
+    "country": "UA",
+    "region": "Kirovohrad Oblast",
+    "domain": "",
+    "osm_relation_id": 11851465
+  },
+  {
+    "id": "UA-042",
+    "name": "Horlivka Raion",
+    "country": "UA",
+    "region": "Donetsk Oblast",
+    "domain": "",
+    "osm_relation_id": 17937670
+  },
+  {
+    "id": "UA-043",
+    "name": "Ivano-Frankivsk Raion",
+    "country": "UA",
+    "region": "Ivano-Frankivsk Oblast",
+    "domain": "",
+    "osm_relation_id": 11805641
+  },
+  {
+    "id": "UA-044",
+    "name": "Ivanychi Raion",
+    "country": "UA",
+    "region": "Volyn Oblast",
+    "domain": "ivaadm.gov.ua"
+  },
+  {
+    "id": "UA-045",
+    "name": "Izium Raion",
+    "country": "UA",
+    "region": "Kharkiv Oblast",
+    "domain": "",
+    "osm_relation_id": 11804002
+  },
+  {
+    "id": "UA-046",
+    "name": "Izmail Raion",
+    "country": "UA",
+    "region": "Odesa Oblast",
+    "domain": "izmail-rda.od.gov.ua",
+    "osm_relation_id": 11821462
+  },
+  {
+    "id": "UA-047",
+    "name": "Kakhovka Raion",
+    "country": "UA",
+    "region": "Kherson Oblast",
+    "domain": "kakhovka-rayrada.gov.ua",
+    "osm_relation_id": 11874151
+  },
+  {
+    "id": "UA-048",
+    "name": "Kalmiuske Raion",
+    "country": "UA",
+    "region": "Donetsk Oblast",
+    "domain": "",
+    "osm_relation_id": 17937854
+  },
+  {
+    "id": "UA-049",
+    "name": "Kalush Raion",
+    "country": "UA",
+    "region": "Ivano-Frankivsk Oblast",
+    "domain": "",
+    "osm_relation_id": 11797162
+  },
+  {
+    "id": "UA-050",
+    "name": "Kamianets-Podilskyi Raion",
+    "country": "UA",
+    "region": "Khmelnytskyi Oblast",
+    "domain": "",
+    "osm_relation_id": 11921664
+  },
+  {
+    "id": "UA-051",
+    "name": "Kamianske Raion",
+    "country": "UA",
+    "region": "Dnipropetrovsk Oblast",
+    "domain": "",
+    "osm_relation_id": 11945945
+  },
+  {
+    "id": "UA-052",
+    "name": "Kamin-Kashyrskyi Raion",
+    "country": "UA",
+    "region": "Volyn Oblast",
+    "domain": "",
+    "osm_relation_id": 11921855
+  },
+  {
+    "id": "UA-053",
+    "name": "Karlivka Raion",
+    "country": "UA",
+    "region": "Poltava Oblast",
+    "domain": "karlivka.adm-pl.gov.ua"
+  },
+  {
+    "id": "UA-054",
+    "name": "Kharkiv Raion",
+    "country": "UA",
+    "region": "Kharkiv Oblast",
+    "domain": "",
+    "osm_relation_id": 11803997
+  },
+  {
+    "id": "UA-055",
+    "name": "Kherson Raion",
+    "country": "UA",
+    "region": "Kherson Oblast",
+    "domain": "",
+    "osm_relation_id": 11874245
+  },
+  {
+    "id": "UA-056",
+    "name": "Khmelnytskyi Raion",
+    "country": "UA",
+    "region": "Ukrainian Soviet Socialist Republic",
+    "domain": "rayrada.km.ua"
+  },
+  {
+    "id": "UA-057",
+    "name": "Khmelnytskyi Raion",
+    "country": "UA",
+    "region": "Khmelnytskyi Oblast",
+    "domain": "",
+    "osm_relation_id": 11921572
+  },
+  {
+    "id": "UA-058",
+    "name": "Khmilnyk Raion",
+    "country": "UA",
+    "region": "Vinnytsia Oblast",
+    "domain": "",
+    "osm_relation_id": 11914609
+  },
+  {
+    "id": "UA-059",
+    "name": "Khust Raion",
+    "country": "UA",
+    "region": "Zakarpattia Oblast",
+    "domain": "khust-rda.gov.ua",
+    "osm_relation_id": 11852433
+  },
+  {
+    "id": "UA-060",
+    "name": "Kirovske Raion",
+    "country": "UA",
+    "region": "Autonomous Republic of Crimea",
+    "domain": "",
+    "osm_relation_id": 1754556
+  },
+  {
+    "id": "UA-061",
+    "name": "Kolomyia Raion",
+    "country": "UA",
+    "region": "Ivano-Frankivsk Oblast",
+    "domain": "",
+    "osm_relation_id": 11806207
+  },
+  {
+    "id": "UA-062",
+    "name": "Konotop Raion",
+    "country": "UA",
+    "region": "Sumy Oblast",
+    "domain": "",
+    "osm_relation_id": 11798645
+  },
+  {
+    "id": "UA-063",
+    "name": "Koriukivka Raion",
+    "country": "UA",
+    "region": "Chernihiv Oblast",
+    "domain": "",
+    "osm_relation_id": 11809868
+  },
+  {
+    "id": "UA-064",
+    "name": "Korosten Raion",
+    "country": "UA",
+    "region": "Zhytomyr Oblast",
+    "domain": "",
+    "osm_relation_id": 11809205
+  },
+  {
+    "id": "UA-065",
+    "name": "Kosiv Raion",
+    "country": "UA",
+    "region": "Ivano-Frankivsk Oblast",
+    "domain": "rda.kosiv.info",
+    "osm_relation_id": 11806248
+  },
+  {
+    "id": "UA-066",
+    "name": "Kovel Raion",
+    "country": "UA",
+    "region": "Volyn Oblast",
+    "domain": "",
+    "osm_relation_id": 11921908
+  },
+  {
+    "id": "UA-067",
+    "name": "Kramatorsk Raion",
+    "country": "UA",
+    "region": "Donetsk Oblast",
+    "domain": "",
+    "osm_relation_id": 11978037
+  },
+  {
+    "id": "UA-068",
+    "name": "Krasnohrad Raion",
+    "country": "UA",
+    "region": "Kharkiv Oblast",
+    "domain": "",
+    "osm_relation_id": 11803998
+  },
+  {
+    "id": "UA-069",
+    "name": "Krasnohvardiiske Raion",
+    "country": "UA",
+    "region": "Autonomous Republic of Crimea",
+    "domain": "",
+    "osm_relation_id": 1754554
+  },
+  {
+    "id": "UA-070",
+    "name": "Krasnoperekopsk Raion",
+    "country": "UA",
+    "region": "Autonomous Republic of Crimea",
+    "domain": "rajonperekop.com.ua",
+    "osm_relation_id": 1754555
+  },
+  {
+    "id": "UA-071",
+    "name": "Kremenchuk Raion",
+    "country": "UA",
+    "region": "Poltava Oblast",
+    "domain": "kremenchuk.adm-pl.gov.ua",
+    "osm_relation_id": 11823799
+  },
+  {
+    "id": "UA-072",
+    "name": "Kremenets Raion",
+    "country": "UA",
+    "region": "Ternopil Oblast",
+    "domain": "",
+    "osm_relation_id": 11918336
+  },
+  {
+    "id": "UA-073",
+    "name": "Kropyvnytskyi Raion",
+    "country": "UA",
+    "region": "Kirovohrad Oblast",
+    "domain": "kirrda.kr-admin.gov.ua"
+  },
+  {
+    "id": "UA-074",
+    "name": "Kropyvnytskyi Raion",
+    "country": "UA",
+    "region": "Kirovohrad Oblast",
+    "domain": "",
+    "osm_relation_id": 11851422
+  },
+  {
+    "id": "UA-075",
+    "name": "Kryvyi Rih Raion",
+    "country": "UA",
+    "region": "Dnipropetrovsk Oblast",
+    "domain": "krrda.dp.gov.ua",
+    "osm_relation_id": 1738028
+  },
+  {
+    "id": "UA-076",
+    "name": "Kupiansk Raion",
+    "country": "UA",
+    "region": "Kharkiv Oblast",
+    "domain": "kupyansk-rayon.osp-ua.info",
+    "osm_relation_id": 11804001
+  },
+  {
+    "id": "UA-077",
+    "name": "Lenine Raion of Crimea",
+    "country": "UA",
+    "region": "Autonomous Republic of Crimea",
+    "domain": "lenino.rk.gov.ru",
+    "osm_relation_id": 1754557
+  },
+  {
+    "id": "UA-078",
+    "name": "Lozova Raion",
+    "country": "UA",
+    "region": "Kharkiv Oblast",
+    "domain": "",
+    "osm_relation_id": 11804000
+  },
+  {
+    "id": "UA-079",
+    "name": "Lubny Raion",
+    "country": "UA",
+    "region": "Poltava Oblast",
+    "domain": "",
+    "osm_relation_id": 11835233
+  },
+  {
+    "id": "UA-080",
+    "name": "Luhansk Raion",
+    "country": "UA",
+    "region": "Luhansk Oblast",
+    "domain": "",
+    "osm_relation_id": 17938126
+  },
+  {
+    "id": "UA-081",
+    "name": "Lutsk Raion",
+    "country": "UA",
+    "region": "Volyn Oblast",
+    "domain": "",
+    "osm_relation_id": 11921831
+  },
+  {
+    "id": "UA-082",
+    "name": "Lviv Raion",
+    "country": "UA",
+    "region": "Lviv Oblast",
+    "domain": "lvivskaray-rada.gov.ua",
+    "osm_relation_id": 11925687
+  },
+  {
+    "id": "UA-083",
+    "name": "Mariupol Raion",
+    "country": "UA",
+    "region": "Donetsk Oblast",
+    "domain": "",
+    "osm_relation_id": 11958110
+  },
+  {
+    "id": "UA-084",
+    "name": "Melitopol Raion",
+    "country": "UA",
+    "region": "Zaporizhzhia Oblast",
+    "domain": "",
+    "osm_relation_id": 11872881
+  },
+  {
+    "id": "UA-085",
+    "name": "Mohyliv-Podilskyi Raion",
+    "country": "UA",
+    "region": "Vinnytsia Oblast",
+    "domain": "",
+    "osm_relation_id": 11951882
+  },
+  {
+    "id": "UA-086",
+    "name": "Mukachevo Raion",
+    "country": "UA",
+    "region": "Zakarpattia Oblast",
+    "domain": "",
+    "osm_relation_id": 11852023
+  },
+  {
+    "id": "UA-087",
+    "name": "Mykolaiv Raion",
+    "country": "UA",
+    "region": "Mykolaiv Oblast",
+    "domain": "mk.gov.ua",
+    "osm_relation_id": 1738977
+  },
+  {
+    "id": "UA-088",
+    "name": "Myrhorod Raion",
+    "country": "UA",
+    "region": "Poltava Oblast",
+    "domain": "",
+    "osm_relation_id": 11839126
+  },
+  {
+    "id": "UA-089",
+    "name": "Nadvirna Raion",
+    "country": "UA",
+    "region": "Ivano-Frankivsk Oblast",
+    "domain": "",
+    "osm_relation_id": 11806259
+  },
+  {
+    "id": "UA-090",
+    "name": "Nikopol Raion",
+    "country": "UA",
+    "region": "Dnipropetrovsk Oblast",
+    "domain": "nikopol-rn.dp.gov.ua",
+    "osm_relation_id": 1738037
+  },
+  {
+    "id": "UA-091",
+    "name": "Nizhyn Raion",
+    "country": "UA",
+    "region": "Chernihiv Oblast",
+    "domain": "",
+    "osm_relation_id": 11822411
+  },
+  {
+    "id": "UA-092",
+    "name": "Novhorod-Siverskyi Raion",
+    "country": "UA",
+    "region": "Chernihiv Oblast",
+    "domain": "",
+    "osm_relation_id": 11822257
+  },
+  {
+    "id": "UA-093",
+    "name": "Novoselytsia Raion",
+    "country": "UA",
+    "region": "Chernivtsi Oblast",
+    "domain": "novoselica-rda.cv.ua"
+  },
+  {
+    "id": "UA-094",
+    "name": "Novoukrainka Raion",
+    "country": "UA",
+    "region": "Kirovohrad Oblast",
+    "domain": "",
+    "osm_relation_id": 11851449
+  },
+  {
+    "id": "UA-095",
+    "name": "Obukhiv Raion",
+    "country": "UA",
+    "region": "Kyiv Oblast",
+    "domain": "",
+    "osm_relation_id": 11909246
+  },
+  {
+    "id": "UA-096",
+    "name": "Odesa Raion",
+    "country": "UA",
+    "region": "Odesa Oblast",
+    "domain": "odrda.od.gov.ua",
+    "osm_relation_id": 11883402
+  },
+  {
+    "id": "UA-097",
+    "name": "Okhtyrka Raion",
+    "country": "UA",
+    "region": "Sumy Oblast",
+    "domain": "",
+    "osm_relation_id": 11795830
+  },
+  {
+    "id": "UA-098",
+    "name": "Oleksandriia Raion",
+    "country": "UA",
+    "region": "Kirovohrad Oblast",
+    "domain": "alex.gov.ua",
+    "osm_relation_id": 11839919
+  },
+  {
+    "id": "UA-099",
+    "name": "Pavlohrad Raion",
+    "country": "UA",
+    "region": "Dnipropetrovsk Oblast",
+    "domain": "pavl.dp.gov.ua",
+    "osm_relation_id": 1738040
+  },
+  {
+    "id": "UA-100",
+    "name": "Perekop Raion",
+    "country": "UA",
+    "region": "Autonomous Republic of Crimea",
+    "domain": "",
+    "osm_relation_id": 19162067
+  },
+  {
+    "id": "UA-101",
+    "name": "Pervomaisk Raion",
+    "country": "UA",
+    "region": "Mykolaiv Oblast",
+    "domain": "",
+    "osm_relation_id": 1738981
+  },
+  {
+    "id": "UA-102",
+    "name": "Pervomaiske Raion",
+    "country": "UA",
+    "region": "Autonomous Republic of Crimea",
+    "domain": "pervmo.rk.gov.ru",
+    "osm_relation_id": 1754559
+  },
+  {
+    "id": "UA-103",
+    "name": "Podilsk Raion",
+    "country": "UA",
+    "region": "Odesa Oblast",
+    "domain": "",
+    "osm_relation_id": 11886169
+  },
+  {
+    "id": "UA-104",
+    "name": "Pokrovsk Raion",
+    "country": "UA",
+    "region": "Donetsk Oblast",
+    "domain": "pokrovsk-rda.gov.ua",
+    "osm_relation_id": 11984324
+  },
+  {
+    "id": "UA-105",
+    "name": "Polohy Raion",
+    "country": "UA",
+    "region": "Zaporizhzhia Oblast",
+    "domain": "",
+    "osm_relation_id": 11857109
+  },
+  {
+    "id": "UA-106",
+    "name": "Poltava Raion",
+    "country": "UA",
+    "region": "Poltava Oblast",
+    "domain": "",
+    "osm_relation_id": 11823489
+  },
+  {
+    "id": "UA-107",
+    "name": "Pryluky Raion",
+    "country": "UA",
+    "region": "Chernihiv Oblast",
+    "domain": "",
+    "osm_relation_id": 11822577
+  },
+  {
+    "id": "UA-108",
+    "name": "Rakhiv Raion",
+    "country": "UA",
+    "region": "Zakarpattia Oblast",
+    "domain": "",
+    "osm_relation_id": 11841038
+  },
+  {
+    "id": "UA-109",
+    "name": "Rivne Raion",
+    "country": "UA",
+    "region": "Rivne Oblast",
+    "domain": "",
+    "osm_relation_id": 11833149
+  },
+  {
+    "id": "UA-110",
+    "name": "Rohatyn Raion",
+    "country": "UA",
+    "region": "Ivano-Frankivsk Oblast",
+    "domain": ""
+  },
+  {
+    "id": "UA-111",
+    "name": "Romny Raion",
+    "country": "UA",
+    "region": "Sumy Oblast",
+    "domain": "",
+    "osm_relation_id": 11798623
+  },
+  {
+    "id": "UA-112",
+    "name": "Rovenky Raion",
+    "country": "UA",
+    "region": "Luhansk Oblast",
+    "domain": "",
+    "osm_relation_id": 17938112
+  },
+  {
+    "id": "UA-113",
+    "name": "Rozdilna Raion",
+    "country": "UA",
+    "region": "Odesa Oblast",
+    "domain": "rozdilna-rda.od.gov.ua",
+    "osm_relation_id": 11885532
+  },
+  {
+    "id": "UA-114",
+    "name": "Rozdolne Raion",
+    "country": "UA",
+    "region": "Autonomous Republic of Crimea",
+    "domain": "razdolnoe-rga.gov.ua",
+    "osm_relation_id": 1754560
+  },
+  {
+    "id": "UA-115",
+    "name": "Saky Raion",
+    "country": "UA",
+    "region": "Autonomous Republic of Crimea",
+    "domain": "sakimo.rk.gov.ru",
+    "osm_relation_id": 1754561
+  },
+  {
+    "id": "UA-116",
+    "name": "Samar Raion",
+    "country": "UA",
+    "region": "Dnipropetrovsk Oblast",
+    "domain": "",
+    "osm_relation_id": 1738036
+  },
+  {
+    "id": "UA-117",
+    "name": "Sambir Raion",
+    "country": "UA",
+    "region": "Lviv Oblast",
+    "domain": "",
+    "osm_relation_id": 11925970
+  },
+  {
+    "id": "UA-118",
+    "name": "Sarny Raion",
+    "country": "UA",
+    "region": "Rivne Oblast",
+    "domain": "",
+    "osm_relation_id": 11833150
+  },
+  {
+    "id": "UA-119",
+    "name": "Shchastya Raion",
+    "country": "UA",
+    "region": "Luhansk Oblast",
+    "domain": "",
+    "osm_relation_id": 11957819
+  },
+  {
+    "id": "UA-120",
+    "name": "Shepetivka Raion",
+    "country": "UA",
+    "region": "Khmelnytskyi Oblast",
+    "domain": "",
+    "osm_relation_id": 11920243
+  },
+  {
+    "id": "UA-121",
+    "name": "Sheptytskyi Raion",
+    "country": "UA",
+    "region": "Lviv Oblast",
+    "domain": "gromada.info",
+    "osm_relation_id": 11923012
+  },
+  {
+    "id": "UA-122",
+    "name": "Shostka Raion",
+    "country": "UA",
+    "region": "Sumy Oblast",
+    "domain": "",
+    "osm_relation_id": 11798712
+  },
+  {
+    "id": "UA-123",
+    "name": "Simferopol Raion",
+    "country": "UA",
+    "region": "Autonomous Republic of Crimea",
+    "domain": "simfmo.rk.gov.ru",
+    "osm_relation_id": 1754564
+  },
+  {
+    "id": "UA-124",
+    "name": "Simferopol Raion",
+    "country": "UA",
+    "region": "Autonomous Republic of Crimea",
+    "domain": "",
+    "osm_relation_id": 19162084
+  },
+  {
+    "id": "UA-125",
+    "name": "Siverskodonetsk Raion",
+    "country": "UA",
+    "region": "Luhansk Oblast",
+    "domain": "",
+    "osm_relation_id": 11968100
+  },
+  {
+    "id": "UA-126",
+    "name": "Skadovsk Raion",
+    "country": "UA",
+    "region": "Kherson Oblast",
+    "domain": "skadovsk-gromada.gov.ua",
+    "osm_relation_id": 11874246
+  },
+  {
+    "id": "UA-127",
+    "name": "Sokyriany Raion",
+    "country": "UA",
+    "region": "Chernivtsi Oblast",
+    "domain": "sokyriany.bukoda.gov.ua"
+  },
+  {
+    "id": "UA-128",
+    "name": "Starobilsk Raion",
+    "country": "UA",
+    "region": "Luhansk Oblast",
+    "domain": "",
+    "osm_relation_id": 11955188
+  },
+  {
+    "id": "UA-129",
+    "name": "Storozhynets Raion",
+    "country": "UA",
+    "region": "Chernivtsi Oblast",
+    "domain": "storozhynets.org.ua"
+  },
+  {
+    "id": "UA-130",
+    "name": "Stryi Raion",
+    "country": "UA",
+    "region": "Lviv Oblast",
+    "domain": "",
+    "osm_relation_id": 11926090
+  },
+  {
+    "id": "UA-131",
+    "name": "Sumy Raion",
+    "country": "UA",
+    "region": "Sumy Oblast",
+    "domain": "",
+    "osm_relation_id": 11795528
+  },
+  {
+    "id": "UA-132",
+    "name": "Svatove Raion",
+    "country": "UA",
+    "region": "Luhansk Oblast",
+    "domain": "",
+    "osm_relation_id": 11956581
+  },
+  {
+    "id": "UA-133",
+    "name": "Synelnykove Raion",
+    "country": "UA",
+    "region": "Dnipropetrovsk Oblast",
+    "domain": "",
+    "osm_relation_id": 1738047
+  },
+  {
+    "id": "UA-134",
+    "name": "Ternopil Raion",
+    "country": "UA",
+    "region": "Ternopil Oblast",
+    "domain": "",
+    "osm_relation_id": 11919556
+  },
+  {
+    "id": "UA-135",
+    "name": "Tiachiv Raion",
+    "country": "UA",
+    "region": "Zakarpattia Oblast",
+    "domain": "",
+    "osm_relation_id": 11841037
+  },
+  {
+    "id": "UA-136",
+    "name": "Tulchyn Raion",
+    "country": "UA",
+    "region": "Vinnytsia Oblast",
+    "domain": "",
+    "osm_relation_id": 11951843
+  },
+  {
+    "id": "UA-137",
+    "name": "Tysmenytsia Raion",
+    "country": "UA",
+    "region": "Ivano-Frankivsk Oblast",
+    "domain": ""
+  },
+  {
+    "id": "UA-138",
+    "name": "Uman Raion",
+    "country": "UA",
+    "region": "Cherkasy Oblast",
+    "domain": "",
+    "osm_relation_id": 11954138
+  },
+  {
+    "id": "UA-139",
+    "name": "Uzhhorod Raion",
+    "country": "UA",
+    "region": "Zakarpattia Oblast",
+    "domain": "",
+    "osm_relation_id": 11841375
+  },
+  {
+    "id": "UA-140",
+    "name": "Varash Raion",
+    "country": "UA",
+    "region": "Rivne Oblast",
+    "domain": "",
+    "osm_relation_id": 11832213
+  },
+  {
+    "id": "UA-141",
+    "name": "Vasylivka Raion",
+    "country": "UA",
+    "region": "Zaporizhzhia Oblast",
+    "domain": "",
+    "osm_relation_id": 11872898
+  },
+  {
+    "id": "UA-142",
+    "name": "Verkhovyna Raion",
+    "country": "UA",
+    "region": "Ivano-Frankivsk Oblast",
+    "domain": "",
+    "osm_relation_id": 1741638
+  },
+  {
+    "id": "UA-143",
+    "name": "Vinnytsia Raion",
+    "country": "UA",
+    "region": "Vinnytsia Oblast",
+    "domain": "",
+    "osm_relation_id": 11914591
+  },
+  {
+    "id": "UA-144",
+    "name": "Volnovakha Raion",
+    "country": "UA",
+    "region": "Donetsk Oblast",
+    "domain": "volnovrda.gov.ua",
+    "osm_relation_id": 11984354
+  },
+  {
+    "id": "UA-145",
+    "name": "Volodymyr Raion",
+    "country": "UA",
+    "region": "Volyn Oblast",
+    "domain": "volodymyr-rada.gov.ua",
+    "osm_relation_id": 11921894
+  },
+  {
+    "id": "UA-146",
+    "name": "Volodymyr-Volynskyi Raion",
+    "country": "UA",
+    "region": "Volyn Oblast",
+    "domain": "vvadm.gov.ua"
+  },
+  {
+    "id": "UA-147",
+    "name": "Volodymyrets Raion",
+    "country": "UA",
+    "region": "Rivne Oblast",
+    "domain": "rv.gov.ua"
+  },
+  {
+    "id": "UA-148",
+    "name": "Voznesensk Raion",
+    "country": "UA",
+    "region": "Mykolaiv Oblast",
+    "domain": "",
+    "osm_relation_id": 1738971
+  },
+  {
+    "id": "UA-149",
+    "name": "Vyshhorod Raion",
+    "country": "UA",
+    "region": "Kyiv Oblast",
+    "domain": "vysh.gov.ua",
+    "osm_relation_id": 11892210
+  },
+  {
+    "id": "UA-150",
+    "name": "Vyzhnytsia Raion",
+    "country": "UA",
+    "region": "Chernivtsi Oblast",
+    "domain": "",
+    "osm_relation_id": 11905203
+  },
+  {
+    "id": "UA-151",
+    "name": "Yalta Raion",
+    "country": "UA",
+    "region": "Autonomous Republic of Crimea",
+    "domain": "",
+    "osm_relation_id": 19162129
+  },
+  {
+    "id": "UA-152",
+    "name": "Yavoriv Raion",
+    "country": "UA",
+    "region": "Lviv Oblast",
+    "domain": "",
+    "osm_relation_id": 11925828
+  },
+  {
+    "id": "UA-153",
+    "name": "Yevpatoria Raion",
+    "country": "UA",
+    "region": "Autonomous Republic of Crimea",
+    "domain": "",
+    "osm_relation_id": 19161924
+  },
+  {
+    "id": "UA-154",
+    "name": "Zaporizhzhia Raion",
+    "country": "UA",
+    "region": "Zaporizhzhia Oblast",
+    "domain": "",
+    "osm_relation_id": 11857100
+  },
+  {
+    "id": "UA-155",
+    "name": "Zarichne Raion",
+    "country": "UA",
+    "region": "Rivne Oblast",
+    "domain": "rv.gov.ua"
+  },
+  {
+    "id": "UA-156",
+    "name": "Zastavna Raion",
+    "country": "UA",
+    "region": "Chernivtsi Oblast",
+    "domain": "zastavna.bukoda.gov.ua"
+  },
+  {
+    "id": "UA-157",
+    "name": "Zhmerynka Raion",
+    "country": "UA",
+    "region": "Vinnytsia Oblast",
+    "domain": "",
+    "osm_relation_id": 11951881
+  },
+  {
+    "id": "UA-158",
+    "name": "Zhytomyr Raion",
+    "country": "UA",
+    "region": "Zhytomyr Oblast",
+    "domain": "",
+    "osm_relation_id": 11812881
+  },
+  {
+    "id": "UA-159",
+    "name": "Zolochiv Raion",
+    "country": "UA",
+    "region": "Lviv Oblast",
+    "domain": "zolochiv-rda.gov.ua",
+    "osm_relation_id": 11923087
+  },
+  {
+    "id": "UA-160",
+    "name": "Zolotonosha Raion",
+    "country": "UA",
+    "region": "Cherkasy Oblast",
+    "domain": "",
+    "osm_relation_id": 1739132
+  },
+  {
+    "id": "UA-161",
+    "name": "Zvenyhorodka Raion",
+    "country": "UA",
+    "region": "Cherkasy Oblast",
+    "domain": "",
+    "osm_relation_id": 11954459
+  },
+  {
+    "id": "UA-162",
+    "name": "Zviahel Raion",
+    "country": "UA",
+    "region": "Zhytomyr Oblast",
+    "domain": "",
+    "osm_relation_id": 11952373
+  }
+]

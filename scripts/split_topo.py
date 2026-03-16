@@ -61,6 +61,17 @@ COUNTRIES = [
     "XK",
     "ME",
     "BA",
+    "RS",
+    "MK",
+    "UA",
+    "MD",
+    "LI",
+    "SM",
+    "GE",
+    "AM",
+    "AZ",
+    "BY",
+    "TR",
 ]
 
 # Which conceptual level maps to which file level per country.
@@ -145,6 +156,17 @@ LEVEL_MAP = {
     "XK": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     "ME": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     "BA": {"region": "region", "district": "municipality", "municipality": "municipality"},
+    "RS": {"region": "region", "district": "municipality", "municipality": "municipality"},
+    "MK": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "UA": {"region": "region", "district": "municipality", "municipality": "municipality"},
+    "MD": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "LI": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "SM": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "GE": {"region": "region", "district": "municipality", "municipality": "municipality"},
+    "AM": {"region": "region", "district": "municipality", "municipality": "municipality"},
+    "AZ": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "BY": {"region": "region", "district": "municipality", "municipality": "municipality"},
+    "TR": {"region": "region", "district": "municipality", "municipality": "municipality"},
 }
 
 

@@ -40,6 +40,17 @@ COUNTRY_CONFIG = {
     "XK": {"admin_level": 7, "iso": "XK", "name": "Kosovo"},
     "ME": {"admin_level": 6, "iso": "ME", "name": "Montenegro"},
     "BA": {"admin_level": 7, "iso": "BA", "name": "Bosnia and Herzegovina"},
+    "RS": {"admin_level": 7, "iso": "RS", "name": "Serbia"},
+    "MK": {"admin_level": 7, "iso": "MK", "name": "North Macedonia"},
+    "UA": {"admin_level": 4, "iso": "UA", "name": "Ukraine"},
+    "MD": {"admin_level": 4, "iso": "MD", "name": "Moldova"},
+    "LI": {"admin_level": 8, "iso": "LI", "name": "Liechtenstein"},
+    "SM": {"admin_level": 8, "iso": "SM", "name": "San Marino"},
+    "GE": {"admin_level": 6, "iso": "GE", "name": "Georgia"},
+    "AM": {"admin_level": 6, "iso": "AM", "name": "Armenia"},
+    "AZ": {"admin_level": 6, "iso": "AZ", "name": "Azerbaijan"},
+    "BY": {"admin_level": 6, "iso": "BY", "name": "Belarus"},
+    "TR": {"admin_level": 4, "iso": "TR", "name": "Turkey"},
 }
 
 

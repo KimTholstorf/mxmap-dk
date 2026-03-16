@@ -19,7 +19,7 @@ DATA_PATH = ROOT / "data.json"
 MONOLITHIC_COUNTRIES = {"EE", "LV", "LT", "FI", "NO", "SE", "DE", "DK", "AD", "LU", "BE", "AT", "CZ", "GB"}
 
 # Countries with standalone TopoJSON files
-STANDALONE_COUNTRIES = {"IS", "ES", "FR", "PL", "PT", "NL", "IT", "IE", "SI", "BG", "SK", "HR", "CY", "GR", "HU", "MT", "RO", "AL", "XK", "ME", "BA"}
+STANDALONE_COUNTRIES = {"IS", "ES", "FR", "PL", "PT", "NL", "IT", "IE", "SI", "BG", "SK", "HR", "CY", "GR", "HU", "MT", "RO", "AL", "XK", "ME", "BA", "RS", "MK", "UA", "MD", "LI", "SM", "GE", "AM", "AZ", "BY", "TR"}
 
 # Countries that use name-based matching (OSM IDs differ between seed data and TopoJSON)
 NAME_MATCHED_COUNTRIES = set()  # All countries now use ID matching
@@ -34,6 +34,8 @@ MIN_FEATURES = {
     "IT": 100, "IE": 25, "SI": 200, "BG": 25, "SK": 70, "GB": 280,
     "HR": 530, "CY": 15, "GR": 320, "HU": 170, "MT": 60, "RO": 40,
     "AL": 55, "XK": 30, "ME": 20, "BA": 100,
+    "RS": 30, "MK": 70, "UA": 20, "MD": 30, "LI": 10, "SM": 8,
+    "GE": 60, "AM": 10, "AZ": 1, "BY": 110, "TR": 75,
 }
 
 

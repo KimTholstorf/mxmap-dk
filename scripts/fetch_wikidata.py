@@ -253,5 +253,135 @@ def main():
     print("\nDone!")
 
 
+# Additional countries
+QUERIES.update({
+    "RS": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q783930 .
+  ?item wdt:P17 wd:Q403 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,sr" }
+}
+ORDER BY ?itemLabel
+""",
+    "MK": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q646793 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,mk" }
+}
+ORDER BY ?itemLabel
+""",
+    "UA": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q1267632 .
+  ?item wdt:P17 wd:Q212 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,uk" }
+}
+ORDER BY ?itemLabel
+""",
+    "MD": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q15068450 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,ro,ru" }
+}
+ORDER BY ?itemLabel
+""",
+    "LI": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q203300 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,de" }
+}
+ORDER BY ?itemLabel
+""",
+    "SM": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P17 wd:Q238 .
+  ?item wdt:P31/wdt:P279* wd:Q15284 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,it" }
+}
+ORDER BY ?itemLabel
+""",
+    "GE": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q2655841 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,ka" }
+}
+ORDER BY ?itemLabel
+""",
+    "AM": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q20724701 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,hy" }
+}
+ORDER BY ?itemLabel
+""",
+    "AZ": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q13417250 .
+  ?item wdt:P17 wd:Q227 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,az" }
+}
+ORDER BY ?itemLabel
+""",
+    "BY": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q2043199 .
+  ?item wdt:P17 wd:Q184 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,be,ru" }
+}
+ORDER BY ?itemLabel
+""",
+    "TR": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q48336 .
+  ?item wdt:P17 wd:Q43 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,tr" }
+}
+ORDER BY ?itemLabel
+""",
+})
+
+
 if __name__ == "__main__":
     main()

@@ -57,6 +57,17 @@ SEED_FILES = {
     "XK": "municipalities_xk.json",
     "ME": "municipalities_me.json",
     "BA": "municipalities_ba.json",
+    "RS": "municipalities_rs.json",
+    "MK": "municipalities_mk.json",
+    "UA": "municipalities_ua.json",
+    "MD": "municipalities_md.json",
+    "LI": "municipalities_li.json",
+    "SM": "municipalities_sm.json",
+    "GE": "municipalities_ge.json",
+    "AM": "municipalities_am.json",
+    "AZ": "municipalities_az.json",
+    "BY": "municipalities_by.json",
+    "TR": "municipalities_tr.json",
 }
 
 
@@ -300,6 +311,17 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         "XK": [".rks-gov.net", ".com"],
         "ME": [".me"],
         "BA": [".ba", ".gov.ba"],
+        "RS": [".rs", ".org.rs"],
+        "MK": [".mk", ".gov.mk"],
+        "UA": [".ua", ".gov.ua"],
+        "MD": [".md"],
+        "LI": [".li"],
+        "SM": [".sm", ".org"],
+        "GE": [".ge", ".gov.ge"],
+        "AM": [".am"],
+        "AZ": [".az", ".gov.az"],
+        "BY": [".by", ".gov.by"],
+        "TR": [".gov.tr", ".bel.tr", ".tr"],
     }
     tlds = tld_map.get(
         country, [".ee", ".lv", ".lt", ".fi", ".no", ".se", ".de", ".dk"]

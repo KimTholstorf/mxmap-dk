@@ -1,0 +1,650 @@
+[
+  {
+    "id": "TR-001",
+    "name": "Adana Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "adana.gov.tr",
+    "osm_relation_id": 167216
+  },
+  {
+    "id": "TR-002",
+    "name": "Adıyaman Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "adiyaman.gov.tr",
+    "osm_relation_id": 223141
+  },
+  {
+    "id": "TR-003",
+    "name": "Afyonkarahisar Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "afyonkarahisar.gov.tr",
+    "osm_relation_id": 223171
+  },
+  {
+    "id": "TR-004",
+    "name": "Aksaray Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "aksaray.gov.tr",
+    "osm_relation_id": 154454
+  },
+  {
+    "id": "TR-005",
+    "name": "Amasya Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "amasya.gov.tr",
+    "osm_relation_id": 223452
+  },
+  {
+    "id": "TR-006",
+    "name": "Ankara Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "ankara.gov.tr",
+    "osm_relation_id": 223422
+  },
+  {
+    "id": "TR-007",
+    "name": "Antalya Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "antalya.gov.tr",
+    "osm_relation_id": 223132
+  },
+  {
+    "id": "TR-008",
+    "name": "Ardahan Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "ardahan.gov.tr",
+    "osm_relation_id": 1251450
+  },
+  {
+    "id": "TR-009",
+    "name": "Artvin Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "artvin.gov.tr",
+    "osm_relation_id": 223448
+  },
+  {
+    "id": "TR-010",
+    "name": "Aydın Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "aydin.gov.tr",
+    "osm_relation_id": 223166
+  },
+  {
+    "id": "TR-011",
+    "name": "Ağrı Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "agri.gov.tr",
+    "osm_relation_id": 186433
+  },
+  {
+    "id": "TR-012",
+    "name": "Balıkesir Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "balikesir.bel.tr",
+    "osm_relation_id": 223464
+  },
+  {
+    "id": "TR-013",
+    "name": "Bartın Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "bartin.gov.tr",
+    "osm_relation_id": 223458
+  },
+  {
+    "id": "TR-014",
+    "name": "Batman Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "batman.gov.tr",
+    "osm_relation_id": 223437
+  },
+  {
+    "id": "TR-015",
+    "name": "Bayburt Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "bayburt.gov.tr",
+    "osm_relation_id": 223446
+  },
+  {
+    "id": "TR-016",
+    "name": "Bilecik Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "bilecik.bel.tr",
+    "osm_relation_id": 223420
+  },
+  {
+    "id": "TR-017",
+    "name": "Bingöl Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "bingol.gov.tr",
+    "osm_relation_id": 223444
+  },
+  {
+    "id": "TR-018",
+    "name": "Bitlis Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "bitlis.gov.tr",
+    "osm_relation_id": 223441
+  },
+  {
+    "id": "TR-019",
+    "name": "Bolu Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "bolu.gov.tr",
+    "osm_relation_id": 223461
+  },
+  {
+    "id": "TR-020",
+    "name": "Burdur Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "burdur.gov.tr",
+    "osm_relation_id": 2319368
+  },
+  {
+    "id": "TR-021",
+    "name": "Bursa Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "bursa.gov.tr",
+    "osm_relation_id": 223463
+  },
+  {
+    "id": "TR-022",
+    "name": "Denizli Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "denizli.gov.tr",
+    "osm_relation_id": 223169
+  },
+  {
+    "id": "TR-023",
+    "name": "Diyarbakır Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "",
+    "osm_relation_id": 223435
+  },
+  {
+    "id": "TR-024",
+    "name": "Düzce Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "duzce.gov.tr",
+    "osm_relation_id": 223460
+  },
+  {
+    "id": "TR-025",
+    "name": "Edirne Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "edirne.bel.tr",
+    "osm_relation_id": 223465
+  },
+  {
+    "id": "TR-026",
+    "name": "Elazığ Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "elazig.gov.tr",
+    "osm_relation_id": 223443
+  },
+  {
+    "id": "TR-027",
+    "name": "Erzincan Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "erzincan.gov.tr",
+    "osm_relation_id": 223445
+  },
+  {
+    "id": "TR-028",
+    "name": "Erzurum Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "erzurum.gov.tr",
+    "osm_relation_id": 186432
+  },
+  {
+    "id": "TR-029",
+    "name": "Eskişehir Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "eskisehir.gov.tr",
+    "osm_relation_id": 223421
+  },
+  {
+    "id": "TR-030",
+    "name": "Gaziantep Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "gaziantep.gov.tr",
+    "osm_relation_id": 223139
+  },
+  {
+    "id": "TR-031",
+    "name": "Giresun Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "giresun.gov.tr",
+    "osm_relation_id": 223449
+  },
+  {
+    "id": "TR-032",
+    "name": "Gümüşhane Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "gumushane.bel.tr",
+    "osm_relation_id": 223541
+  },
+  {
+    "id": "TR-033",
+    "name": "Hakkâri Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "hakkari.gov.tr",
+    "osm_relation_id": 174742
+  },
+  {
+    "id": "TR-034",
+    "name": "Hatay Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "hatay.gov.tr",
+    "osm_relation_id": 223122
+  },
+  {
+    "id": "TR-035",
+    "name": "Isparta Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "isparta.gov.tr",
+    "osm_relation_id": 223134
+  },
+  {
+    "id": "TR-036",
+    "name": "Istanbul Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "istanbul.gov.tr",
+    "osm_relation_id": 223474
+  },
+  {
+    "id": "TR-037",
+    "name": "Iğdır Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "igdir.gov.tr",
+    "osm_relation_id": 186434
+  },
+  {
+    "id": "TR-038",
+    "name": "Kahramanmaraş Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "kahramanmaras.gov.tr",
+    "osm_relation_id": 223138
+  },
+  {
+    "id": "TR-039",
+    "name": "Karabük Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "karabuk.gov.tr",
+    "osm_relation_id": 223455
+  },
+  {
+    "id": "TR-040",
+    "name": "Karaman Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "karaman.gov.tr",
+    "osm_relation_id": 223137
+  },
+  {
+    "id": "TR-041",
+    "name": "Kars Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "kars.gov.tr",
+    "osm_relation_id": 186431
+  },
+  {
+    "id": "TR-042",
+    "name": "Kastamonu Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "kastamonu.gov.tr",
+    "osm_relation_id": 223456
+  },
+  {
+    "id": "TR-043",
+    "name": "Kayseri Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "kayseri.gov.tr",
+    "osm_relation_id": 154451
+  },
+  {
+    "id": "TR-044",
+    "name": "Kilis Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "",
+    "osm_relation_id": 223140
+  },
+  {
+    "id": "TR-045",
+    "name": "Kocaeli Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "kocaeli.gov.tr",
+    "osm_relation_id": 223473
+  },
+  {
+    "id": "TR-046",
+    "name": "Konya Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "konya.gov.tr",
+    "osm_relation_id": 223133
+  },
+  {
+    "id": "TR-047",
+    "name": "Kütahya Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "kutahya.gov.tr",
+    "osm_relation_id": 223172
+  },
+  {
+    "id": "TR-048",
+    "name": "Kırklareli Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "kirklareli.gov.tr",
+    "osm_relation_id": 223469
+  },
+  {
+    "id": "TR-049",
+    "name": "Kırıkkale Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "kirikkale.gov.tr",
+    "osm_relation_id": 223423
+  },
+  {
+    "id": "TR-050",
+    "name": "Kırşehir Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "kirsehir.gov.tr",
+    "osm_relation_id": 154452
+  },
+  {
+    "id": "TR-051",
+    "name": "Malatya Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "malatya.gov.tr",
+    "osm_relation_id": 223426
+  },
+  {
+    "id": "TR-052",
+    "name": "Manisa Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "manisa.gov.tr",
+    "osm_relation_id": 223168
+  },
+  {
+    "id": "TR-053",
+    "name": "Mardin Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "mardin.bel.tr",
+    "osm_relation_id": 223436
+  },
+  {
+    "id": "TR-054",
+    "name": "Mersin Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "mersin.gov.tr",
+    "osm_relation_id": 223131
+  },
+  {
+    "id": "TR-055",
+    "name": "Muğla Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "mugla.gov.tr",
+    "osm_relation_id": 223136
+  },
+  {
+    "id": "TR-056",
+    "name": "Muş Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "mus.gov.tr",
+    "osm_relation_id": 223440
+  },
+  {
+    "id": "TR-057",
+    "name": "Nevşehir Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "nevsehir.gov.tr",
+    "osm_relation_id": 282342
+  },
+  {
+    "id": "TR-058",
+    "name": "Niğde Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "nigde.gov.tr",
+    "osm_relation_id": 154456
+  },
+  {
+    "id": "TR-059",
+    "name": "Ordu Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "ordu.gov.tr",
+    "osm_relation_id": 223450
+  },
+  {
+    "id": "TR-060",
+    "name": "Osmaniye Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "osmaniye.gov.tr",
+    "osm_relation_id": 167232
+  },
+  {
+    "id": "TR-061",
+    "name": "Rize Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "rize.gov.tr",
+    "osm_relation_id": 223542
+  },
+  {
+    "id": "TR-062",
+    "name": "Sakarya Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "sakarya.gov.tr",
+    "osm_relation_id": 223462
+  },
+  {
+    "id": "TR-063",
+    "name": "Samsun Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "samsun.gov.tr",
+    "osm_relation_id": 223451
+  },
+  {
+    "id": "TR-064",
+    "name": "Siirt Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "siirt.gov.tr",
+    "osm_relation_id": 223543
+  },
+  {
+    "id": "TR-065",
+    "name": "Sinop Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "sinop.gov.tr",
+    "osm_relation_id": 223457
+  },
+  {
+    "id": "TR-066",
+    "name": "Sivas Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "sivas.gov.tr",
+    "osm_relation_id": 223425
+  },
+  {
+    "id": "TR-067",
+    "name": "Tekirdağ Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "tekirdag.gov.tr",
+    "osm_relation_id": 223470
+  },
+  {
+    "id": "TR-068",
+    "name": "Tokat Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "tokat.gov.tr",
+    "osm_relation_id": 223424
+  },
+  {
+    "id": "TR-069",
+    "name": "Trabzon Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "trabzon.gov.tr",
+    "osm_relation_id": 223447
+  },
+  {
+    "id": "TR-070",
+    "name": "Tunceli Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "tunceli.gov.tr",
+    "osm_relation_id": 223537
+  },
+  {
+    "id": "TR-071",
+    "name": "Uşak Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "usak.gov.tr",
+    "osm_relation_id": 223170
+  },
+  {
+    "id": "TR-072",
+    "name": "Van Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "van.gov.tr",
+    "osm_relation_id": 223442
+  },
+  {
+    "id": "TR-073",
+    "name": "Yalova Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "yalova.gov.tr",
+    "osm_relation_id": 223472
+  },
+  {
+    "id": "TR-074",
+    "name": "Yozgat Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "yozgat.gov.tr",
+    "osm_relation_id": 154450
+  },
+  {
+    "id": "TR-075",
+    "name": "Zonguldak Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "zonguldak.gov.tr",
+    "osm_relation_id": 223459
+  },
+  {
+    "id": "TR-076",
+    "name": "Çanakkale Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "canakkale.gov.tr",
+    "osm_relation_id": 223471
+  },
+  {
+    "id": "TR-077",
+    "name": "Çankırı Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "cankiri.gov.tr",
+    "osm_relation_id": 223454
+  },
+  {
+    "id": "TR-078",
+    "name": "Çorum Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "corum.gov.tr",
+    "osm_relation_id": 223453
+  },
+  {
+    "id": "TR-079",
+    "name": "İzmir Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "izmir.gov.tr",
+    "osm_relation_id": 223167
+  },
+  {
+    "id": "TR-080",
+    "name": "Şanlıurfa Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "sanliurfa.gov.tr",
+    "osm_relation_id": 223434
+  },
+  {
+    "id": "TR-081",
+    "name": "Şırnak Province",
+    "country": "TR",
+    "region": "Turkey",
+    "domain": "sirnak.gov.tr",
+    "osm_relation_id": 223438
+  }
+]

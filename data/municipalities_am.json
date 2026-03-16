@@ -1,0 +1,335 @@
+[
+  {
+    "id": "AM-001",
+    "name": "Abovyan",
+    "country": "AM",
+    "region": "Kotayk Province",
+    "domain": "abovyan.am",
+    "osm_relation_id": 7846009
+  },
+  {
+    "id": "AM-002",
+    "name": "Akhtala",
+    "country": "AM",
+    "region": "Alaverdi",
+    "domain": "akhtala.am"
+  },
+  {
+    "id": "AM-003",
+    "name": "Alaverdi",
+    "country": "AM",
+    "region": "Alaverdi",
+    "domain": "caa.am"
+  },
+  {
+    "id": "AM-004",
+    "name": "Aparan",
+    "country": "AM",
+    "region": "Aparan",
+    "domain": ""
+  },
+  {
+    "id": "AM-005",
+    "name": "Ararat",
+    "country": "AM",
+    "region": "Ararat Province",
+    "domain": "araratcity.am"
+  },
+  {
+    "id": "AM-006",
+    "name": "Armavir",
+    "country": "AM",
+    "region": "Erivan Governorate",
+    "domain": "armavircity.am"
+  },
+  {
+    "id": "AM-007",
+    "name": "Artashat",
+    "country": "AM",
+    "region": "Ararat Province",
+    "domain": "artashat.am"
+  },
+  {
+    "id": "AM-008",
+    "name": "Artik",
+    "country": "AM",
+    "region": "Shirak Province",
+    "domain": "artik.am"
+  },
+  {
+    "id": "AM-009",
+    "name": "Ashtarak",
+    "country": "AM",
+    "region": "Aragatsotn Province",
+    "domain": "ashtarak.am"
+  },
+  {
+    "id": "AM-010",
+    "name": "Ayrum",
+    "country": "AM",
+    "region": "Tavush Province",
+    "domain": ""
+  },
+  {
+    "id": "AM-011",
+    "name": "Berd",
+    "country": "AM",
+    "region": "Tavush Province",
+    "domain": ""
+  },
+  {
+    "id": "AM-012",
+    "name": "Byureghavan",
+    "country": "AM",
+    "region": "Kotayk Province",
+    "domain": "byureghavan.am"
+  },
+  {
+    "id": "AM-013",
+    "name": "Chambarak",
+    "country": "AM",
+    "region": "Chambarak",
+    "domain": "chambarak.am"
+  },
+  {
+    "id": "AM-014",
+    "name": "Charentsavan",
+    "country": "AM",
+    "region": "Kotayk Province",
+    "domain": ""
+  },
+  {
+    "id": "AM-015",
+    "name": "Dastakert",
+    "country": "AM",
+    "region": "Syunik Province",
+    "domain": ""
+  },
+  {
+    "id": "AM-016",
+    "name": "Dilijan",
+    "country": "AM",
+    "region": "Tavush Province",
+    "domain": "dilijan.am"
+  },
+  {
+    "id": "AM-017",
+    "name": "Gavar",
+    "country": "AM",
+    "region": "Gegharkunik Province",
+    "domain": "",
+    "osm_relation_id": 8896914
+  },
+  {
+    "id": "AM-018",
+    "name": "Goris",
+    "country": "AM",
+    "region": "Syunik Province",
+    "domain": "goriscity.am",
+    "osm_relation_id": 10248346
+  },
+  {
+    "id": "AM-019",
+    "name": "Gyumri",
+    "country": "AM",
+    "region": "Shirak Province",
+    "domain": "gyumricity.am",
+    "osm_relation_id": 7814501
+  },
+  {
+    "id": "AM-020",
+    "name": "Ijevan",
+    "country": "AM",
+    "region": "Tavush Province",
+    "domain": "ijevancity.am"
+  },
+  {
+    "id": "AM-021",
+    "name": "Jermuk",
+    "country": "AM",
+    "region": "Vayots Dzor Province",
+    "domain": "jermuk.am"
+  },
+  {
+    "id": "AM-022",
+    "name": "Kapan",
+    "country": "AM",
+    "region": "Syunik Province",
+    "domain": "kapan.am",
+    "osm_relation_id": 7745403
+  },
+  {
+    "id": "AM-023",
+    "name": "Maralik",
+    "country": "AM",
+    "region": "Shirak Province",
+    "domain": ""
+  },
+  {
+    "id": "AM-024",
+    "name": "Martuni",
+    "country": "AM",
+    "region": "Gegharkunik Province",
+    "domain": "",
+    "osm_relation_id": 7868352
+  },
+  {
+    "id": "AM-025",
+    "name": "Masis",
+    "country": "AM",
+    "region": "Armenian Oblast",
+    "domain": "masiscity.am"
+  },
+  {
+    "id": "AM-026",
+    "name": "Meghri",
+    "country": "AM",
+    "region": "Syunik Province",
+    "domain": "meghri.am"
+  },
+  {
+    "id": "AM-027",
+    "name": "Metsamor",
+    "country": "AM",
+    "region": "Armavir Province",
+    "domain": ""
+  },
+  {
+    "id": "AM-028",
+    "name": "Nor Hachn",
+    "country": "AM",
+    "region": "Kotayk Province",
+    "domain": "municipality.hachn.am"
+  },
+  {
+    "id": "AM-029",
+    "name": "Noyemberyan",
+    "country": "AM",
+    "region": "Tavush Province",
+    "domain": "noyemberyan.am"
+  },
+  {
+    "id": "AM-030",
+    "name": "Sevan",
+    "country": "AM",
+    "region": "Gegharkunik Province",
+    "domain": "sevancity.am"
+  },
+  {
+    "id": "AM-031",
+    "name": "Shamlugh",
+    "country": "AM",
+    "region": "Lori Province",
+    "domain": ""
+  },
+  {
+    "id": "AM-032",
+    "name": "Sisian",
+    "country": "AM",
+    "region": "Syunik Province",
+    "domain": "sisian.am"
+  },
+  {
+    "id": "AM-033",
+    "name": "Spitak",
+    "country": "AM",
+    "region": "Lori Province",
+    "domain": "spitak.am"
+  },
+  {
+    "id": "AM-034",
+    "name": "Stepanavan",
+    "country": "AM",
+    "region": "Lori Province",
+    "domain": "stepanavan.am"
+  },
+  {
+    "id": "AM-035",
+    "name": "Talin",
+    "country": "AM",
+    "region": "Aragatsotn Province",
+    "domain": "talin.am"
+  },
+  {
+    "id": "AM-036",
+    "name": "Tashir",
+    "country": "AM",
+    "region": "Lori Province",
+    "domain": ""
+  },
+  {
+    "id": "AM-037",
+    "name": "Tsaghkadzor",
+    "country": "AM",
+    "region": "Kotayk Province",
+    "domain": "tsakhkadzor.am"
+  },
+  {
+    "id": "AM-038",
+    "name": "Tumanyan",
+    "country": "AM",
+    "region": "Lori Province",
+    "domain": "tumanyancity.am"
+  },
+  {
+    "id": "AM-039",
+    "name": "Vagharshapat",
+    "country": "AM",
+    "region": "Armavir Province",
+    "domain": "ejmiatsin.am",
+    "osm_relation_id": 7772201
+  },
+  {
+    "id": "AM-040",
+    "name": "Vanadzor",
+    "country": "AM",
+    "region": "Vanadzor",
+    "domain": "vanadzor.am",
+    "osm_relation_id": 7825883
+  },
+  {
+    "id": "AM-041",
+    "name": "Vardenis",
+    "country": "AM",
+    "region": "Vardenis",
+    "domain": ""
+  },
+  {
+    "id": "AM-042",
+    "name": "Vayk",
+    "country": "AM",
+    "region": "Vayots Dzor Province",
+    "domain": "vayk.am",
+    "osm_relation_id": 10255503
+  },
+  {
+    "id": "AM-043",
+    "name": "Vedi",
+    "country": "AM",
+    "region": "Ararat Province",
+    "domain": "vedicity.am"
+  },
+  {
+    "id": "AM-044",
+    "name": "Yeghegnadzor",
+    "country": "AM",
+    "region": "Vayots Dzor Province",
+    "domain": "yeghegnadzor.am",
+    "osm_relation_id": 10255555
+  },
+  {
+    "id": "AM-045",
+    "name": "Yeghvard",
+    "country": "AM",
+    "region": "Kotayk Province",
+    "domain": "yeghvard.am"
+  },
+  {
+    "id": "AM-046",
+    "name": "Yerevan",
+    "country": "AM",
+    "region": "Armenia",
+    "domain": "yerevan.am",
+    "osm_relation_id": 364087
+  }
+]
