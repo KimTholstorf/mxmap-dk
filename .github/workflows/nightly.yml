@@ -24,7 +24,23 @@ jobs:
       - uses: astral-sh/setup-uv@v7
       - run: uv python install 3.13
       - run: uv sync
-      - run: uv run preprocess
+      - name: Preprocess (all countries except DE)
+        run: |
+          ALL_EXCEPT_DE=$(uv run python3 -c "
+          from mail_sovereignty.preprocess import SEED_FILES
+          print(' '.join(cc for cc in SEED_FILES if cc != 'DE'))
+          ")
+          uv run preprocess $ALL_EXCEPT_DE
+      - name: Preprocess DE (rotating 3 states per night)
+        run: |
+          DAY=$(date +%j)
+          IDX=$(( DAY % 6 ))
+          GROUPS=("01,02,03" "04,05,06" "07,08,09" "10,11,12" "13,14,15" "16")
+          IFS=',' read -ra STATES <<< "${GROUPS[$IDX]}"
+          echo "Day $DAY → group $IDX: states ${STATES[*]}"
+          for S in "${STATES[@]}"; do
+            uv run preprocess "DE:$S"
+          done
       - run: uv run postprocess
       - name: Validate data quality
         id: validate

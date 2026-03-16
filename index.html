@@ -603,6 +603,7 @@ function getGroupKey(m, fileLevelName) {
   if (fileLevelName === 'district') {
     if (m.country === 'AT') return m.id.substring(0, 6);
     if (m.country === 'BE') return m.id.substring(0, 5);
+    if (m.country === 'DE') return m.id.substring(0, 8); // "DE-01001" (5-digit Kreis)
     return m.region || '';
   }
   return m.id;
@@ -763,25 +764,83 @@ function buildAggregatedPopup(group, feature, cc) {
 // --- TopoJSON loading ---
 async function loadTopo(cc, level) {
   if (!manifest || !manifest[cc]) return null;
-  const filename = manifest[cc].files[level];
-  if (!filename) return null;
+  const fileEntry = manifest[cc].files[level];
+  if (!fileEntry) return null;
 
-  const cacheKey = cc + ':' + filename;
-  if (topoCache[cacheKey]) return topoCache[cacheKey];
+  // String value: single file (standard path)
+  if (typeof fileEntry === 'string') {
+    const cacheKey = cc + ':' + fileEntry;
+    if (topoCache[cacheKey]) return topoCache[cacheKey];
 
-  const res = await fetch('topo/' + filename);
-  if (!res.ok) return null;
-  const topo = await res.json();
-  topoCache[cacheKey] = topo;
-  return topo;
+    const res = await fetch('topo/' + fileEntry);
+    if (!res.ok) return null;
+    const topo = await res.json();
+    topoCache[cacheKey] = topo;
+    return topo;
+  }
+
+  // Object value: per-state files with bboxes {filename: [w,s,e,n], ...}
+  // Load files whose bboxes intersect the current map viewport
+  return loadTopoMulti(cc, level, fileEntry);
+}
+
+async function loadTopoMulti(cc, level, fileMap) {
+  const bounds = map.getBounds();
+  const vw = bounds.getWest(), vs = bounds.getSouth();
+  const ve = bounds.getEast(), vn = bounds.getNorth();
+
+  const toLoad = [];
+  for (const [filename, bbox] of Object.entries(fileMap)) {
+    if (!bbox) { toLoad.push(filename); continue; }
+    const [fw, fs, fe, fn] = bbox;
+    // Check bbox intersection
+    if (fw <= ve && fe >= vw && fs <= vn && fn >= vs) {
+      toLoad.push(filename);
+    }
+  }
+
+  if (toLoad.length === 0) return null;
+
+  // Fetch all visible state files in parallel
+  const fetches = toLoad.map(async function (filename) {
+    const cacheKey = cc + ':' + filename;
+    if (topoCache[cacheKey]) return topoCache[cacheKey];
+    const res = await fetch('topo/' + filename);
+    if (!res.ok) return null;
+    const topo = await res.json();
+    topoCache[cacheKey] = topo;
+    return topo;
+  });
+  const topos = (await Promise.all(fetches)).filter(Boolean);
+  if (topos.length === 0) return null;
+
+  // Merge all TopoJSON objects into a single merged GeoJSON-like structure
+  // We return a synthetic topo object with a merged geometry collection
+  const allGeometries = [];
+  let mergedArcs = [];
+  let mergedTransform = null;
+  // Since each file may have different transforms, convert to GeoJSON and merge
+  const allFeatures = [];
+  for (const topo of topos) {
+    const objName = Object.keys(topo.objects)[0];
+    const fc = topojson.feature(topo, topo.objects[objName]);
+    allFeatures.push(...fc.features);
+  }
+
+  // Return a synthetic object that renderCountryLayer can consume
+  // We use a special _mergedGeoJSON flag
+  return { _mergedGeoJSON: { type: 'FeatureCollection', features: allFeatures } };
 }
 
 // --- Rendering ---
 function getFileLevelName(cc, level) {
   if (!manifest || !manifest[cc]) return 'municipality';
-  const filename = manifest[cc].files[level] || '';
-  // "at_region.topo.json" -> "region"
-  const match = filename.match(/_([^.]+)\.topo\.json$/);
+  const fileEntry = manifest[cc].files[level];
+  if (!fileEntry) return 'municipality';
+  // Object value (multi-file): level name is the level itself
+  if (typeof fileEntry === 'object') return level;
+  // String value: "at_region.topo.json" -> "region"
+  const match = fileEntry.match(/_([^.]+)\.topo\.json$/);
   return match ? match[1] : 'municipality';
 }
 
@@ -795,13 +854,22 @@ async function renderCountryLayer(cc) {
   const topo = await loadTopo(cc, currentLevel);
   if (!topo) return;
 
-  const objectName = Object.keys(topo.objects)[0];
-  const geojson = topojson.feature(topo, topo.objects[objectName]);
+  // Handle merged GeoJSON from multi-file loading
+  let geojson;
+  if (topo._mergedGeoJSON) {
+    geojson = topo._mergedGeoJSON;
+  } else {
+    const objectName = Object.keys(topo.objects)[0];
+    geojson = topojson.feature(topo, topo.objects[objectName]);
+  }
 
   const fileLevelName = getFileLevelName(cc, currentLevel);
   const muniFile = manifest[cc].files.municipality;
   const currentFile = manifest[cc].files[currentLevel];
-  const isAggregated = currentFile !== muniFile;
+  // Aggregated if different level files, or if current is a string and muni is object (or vice versa)
+  const isAggregated = (typeof currentFile === 'string' && typeof muniFile === 'string')
+    ? currentFile !== muniFile
+    : (typeof currentFile !== typeof muniFile || currentLevel !== 'municipality');
 
   let groups = null;
   if (isAggregated) {
@@ -914,6 +982,23 @@ function updateDominanceMarkers() {
 }
 
 map.on('zoomend', function () { updateDominanceMarkers(); });
+
+// Viewport-based loading: reload countries with multi-file municipality topo on pan/zoom
+let viewportLoadTimeout = null;
+map.on('moveend', function () {
+  if (currentLevel !== 'municipality') return;
+  if (viewportLoadTimeout) clearTimeout(viewportLoadTimeout);
+  viewportLoadTimeout = setTimeout(function () {
+    if (!manifest) return;
+    for (const cc of COUNTRY_LIST) {
+      if (!activeCountries.has(cc)) continue;
+      const muniFile = manifest[cc] && manifest[cc].files.municipality;
+      if (typeof muniFile === 'object' && muniFile !== null) {
+        renderCountryLayer(cc);
+      }
+    }
+  }, 300);
+});
 
 function updateStyles() {
   for (const [cc, layer] of countryLayers) {

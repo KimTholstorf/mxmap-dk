@@ -443,11 +443,12 @@
       "municipality"
     ],
     "files": {
-      "region": "lv_municipality.topo.json",
-      "district": "lv_municipality.topo.json",
+      "region": "lv_region.topo.json",
+      "district": "lv_region.topo.json",
       "municipality": "lv_municipality.topo.json"
     },
     "sizes": {
+      "lv_region.topo.json": 10626,
       "lv_municipality.topo.json": 44876
     }
   },

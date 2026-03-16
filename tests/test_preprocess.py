@@ -1,6 +1,7 @@
 import json
 from unittest.mock import AsyncMock, patch
 
+from mail_sovereignty.cli import _parse_country_args
 from mail_sovereignty.preprocess import (
     guess_domains,
     load_seed_data,
@@ -309,3 +310,96 @@ class TestPreprocessRun:
         data = json.loads(output.read_text())
         assert data["total"] == 1
         assert "EE-0784" in data["municipalities"]
+
+
+# ── _parse_country_args() ─────────────────────────────────────────
+
+
+class TestParseCountryArgs:
+    def test_empty_args(self):
+        countries, state_filters = _parse_country_args([])
+        assert countries is None
+        assert state_filters == {}
+
+    def test_simple_country(self):
+        countries, state_filters = _parse_country_args(["IT"])
+        assert countries == ["IT"]
+        assert state_filters == {}
+
+    def test_de_state_abbreviation(self):
+        countries, state_filters = _parse_country_args(["DE:BY"])
+        assert countries == ["DE"]
+        assert state_filters == {"DE": ["09"]}
+
+    def test_de_state_code(self):
+        countries, state_filters = _parse_country_args(["DE:09"])
+        assert countries == ["DE"]
+        assert state_filters == {"DE": ["09"]}
+
+    def test_de_multiple_states(self):
+        countries, state_filters = _parse_country_args(["DE:BY,NW"])
+        assert countries == ["DE"]
+        assert "09" in state_filters["DE"]
+        assert "05" in state_filters["DE"]
+
+    def test_mixed_args(self):
+        countries, state_filters = _parse_country_args(["DE:BY", "IT"])
+        assert set(countries) == {"DE", "IT"}
+        assert state_filters == {"DE": ["09"]}
+
+    def test_case_insensitive(self):
+        countries, state_filters = _parse_country_args(["de:by"])
+        assert countries == ["DE"]
+        assert state_filters == {"DE": ["09"]}
+
+
+# ── State filter in run() ────────────────────────────────────────
+
+
+class TestPreprocessStateFilter:
+    async def test_state_filter_reduces_municipalities(self, tmp_path):
+        seed_data = {
+            "DE-09001": {
+                "bfs": "DE-09001", "name": "München", "canton": "Bayern",
+                "country": "DE", "website": "muenchen.de",
+            },
+            "DE-01001": {
+                "bfs": "DE-01001", "name": "Flensburg", "canton": "Schleswig-Holstein",
+                "country": "DE", "website": "flensburg.de",
+            },
+        }
+        with (
+            patch("mail_sovereignty.preprocess.load_seed_data", return_value=seed_data),
+            patch(
+                "mail_sovereignty.preprocess.lookup_mx",
+                new_callable=AsyncMock,
+                return_value=["mx.test.de"],
+            ),
+            patch(
+                "mail_sovereignty.preprocess.lookup_txt",
+                new_callable=AsyncMock,
+                return_value=("", {}),
+            ),
+            patch(
+                "mail_sovereignty.preprocess.resolve_spf_includes",
+                new_callable=AsyncMock,
+                return_value="",
+            ),
+            patch(
+                "mail_sovereignty.preprocess.lookup_autodiscover",
+                new_callable=AsyncMock,
+                return_value={},
+            ),
+        ):
+            output = tmp_path / "data.json"
+            await run(
+                output,
+                countries=["DE"],
+                state_filters={"DE": ["09"]},
+            )
+
+        data = json.loads(output.read_text())
+        # Only Bayern (09) should be scanned
+        assert data["total"] == 1
+        assert "DE-09001" in data["municipalities"]
+        assert "DE-01001" not in data["municipalities"]

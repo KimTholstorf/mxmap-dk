@@ -339,6 +339,92 @@ def update_manifest(cc: str, has_region: bool):
         json.dump(sorted_manifest, f, indent=2)
 
 
+DE_STATES_OSM = {
+    "01": 51529, "02": 62782, "03": 454192, "04": 62559,
+    "05": 62761, "06": 62650, "07": 62341, "08": 62611,
+    "09": 2145268, "10": 62372, "11": 62422, "12": 454311,
+    "13": 28322, "14": 62467, "15": 62607, "16": 62366,
+}
+
+
+def fetch_de_boundaries_per_state():
+    """Fetch DE admin_level=8 boundaries per Bundesland to avoid timeouts."""
+    TOPO_DIR.mkdir(exist_ok=True)
+
+    # Load seed data for annotation
+    seed_path = DATA_DIR / "municipalities_de.json"
+    with open(seed_path) as f:
+        seed_data = json.load(f)
+
+    osm_to_entry = {}
+    for e in seed_data:
+        if e.get("osm_relation_id"):
+            osm_to_entry[e["osm_relation_id"]] = e
+
+    for state_code, state_osm_id in sorted(DE_STATES_OSM.items()):
+        out_path = TOPO_DIR / f"de_municipality_{state_code}.topo.json"
+        print(f"\n  Processing DE state {state_code} (OSM {state_osm_id})...")
+
+        query = f"""
+[out:json][timeout:300];
+area(3600{state_osm_id})->.state;
+(
+  relation["boundary"="administrative"]["admin_level"="8"](area.state);
+);
+out body;
+>;
+out skel qt;
+"""
+        try:
+            osm_data = overpass_query(query)
+        except Exception as e:
+            print(f"    ERROR: {e}")
+            time.sleep(10)
+            continue
+
+        relations = [e for e in osm_data.get("elements", []) if e["type"] == "relation"]
+        print(f"    Got {relations.__len__()} relations")
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            geo_path = osm_to_geojson(osm_data, tmpdir)
+            with open(geo_path) as f:
+                geo = json.load(f)
+
+            # Annotate with country + region
+            for feature in geo.get("features", []):
+                props = feature.get("properties", {})
+                props["country"] = "DE"
+                fid = feature.get("id", "")
+                if fid.startswith("relation/"):
+                    osm_id = int(fid.split("/")[1])
+                    entry = osm_to_entry.get(osm_id)
+                    if entry:
+                        props["region"] = entry.get("region", "")
+
+            annotated_path = f"{tmpdir}/annotated.geojson"
+            with open(annotated_path, "w") as f:
+                json.dump(geo, f)
+
+            # Create per-state TopoJSON
+            layer_name = f"de_municipality_{state_code}"
+            subprocess.run(
+                [
+                    "mapshaper", annotated_path,
+                    "-filter-fields", "name,name_en,osm_id",
+                    "-rename-layers", layer_name,
+                    "-simplify", "15%", "keep-shapes",
+                    "-o", str(out_path), "format=topojson",
+                    "id-field=osm_id", "quantization=10000",
+                ],
+                check=True, capture_output=True,
+            )
+            size = out_path.stat().st_size
+            n_features = len(geo.get("features", []))
+            print(f"    → {out_path.name} ({n_features} features, {size:,} bytes)")
+
+        time.sleep(5)  # Rate limit Overpass
+
+
 def main():
     countries = sys.argv[1:] if len(sys.argv) > 1 else list(COUNTRY_CONFIG.keys())
 
@@ -346,6 +432,14 @@ def main():
 
     for cc in countries:
         cc = cc.upper()
+
+        # Special handling for DE (per-state boundary fetching)
+        if cc == "DE":
+            print(f"\n{'='*50}")
+            print("Processing Germany (DE) per-Bundesland...")
+            fetch_de_boundaries_per_state()
+            continue
+
         if cc not in COUNTRY_CONFIG:
             print(f"Unknown country: {cc}")
             continue

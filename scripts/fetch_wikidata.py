@@ -212,11 +212,121 @@ def process_results(results: list[dict], cc: str) -> list[dict]:
     return entries
 
 
+DE_STATES = {
+    "01": ("Q1194", "Schleswig-Holstein"),
+    "02": ("Q1055", "Hamburg"),
+    "03": ("Q1197", "Niedersachsen"),
+    "04": ("Q24879", "Bremen"),
+    "05": ("Q1198", "Nordrhein-Westfalen"),
+    "06": ("Q1199", "Hessen"),
+    "07": ("Q1200", "Rheinland-Pfalz"),
+    "08": ("Q985", "Baden-Württemberg"),
+    "09": ("Q980", "Bayern"),
+    "10": ("Q1201", "Saarland"),
+    "11": ("Q64", "Berlin"),
+    "12": ("Q1208", "Brandenburg"),
+    "13": ("Q1196", "Mecklenburg-Vorpommern"),
+    "14": ("Q1202", "Sachsen"),
+    "15": ("Q1206", "Sachsen-Anhalt"),
+    "16": ("Q1205", "Thüringen"),
+}
+
+
+def de_gemeinde_query(state_qid: str) -> str:
+    """SPARQL query for DE Gemeinden in a Bundesland.
+
+    Uses Q262166 (Gemeinde in Germany) and P439 (AGS code).
+    """
+    return f"""
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?ags WHERE {{
+  ?item wdt:P31/wdt:P279* wd:Q262166 .
+  ?item wdt:P131+ wd:{state_qid} .
+  OPTIONAL {{ ?item wdt:P856 ?website }}
+  OPTIONAL {{ ?item wdt:P402 ?osmId }}
+  OPTIONAL {{ ?item wdt:P439 ?ags }}
+  FILTER NOT EXISTS {{ ?item wdt:P576 ?dissolved }}
+  SERVICE wikibase:label {{ bd:serviceParam wikibase:language "de,en" }}
+}}
+ORDER BY ?ags
+"""
+
+
+def fetch_de_gemeinden():
+    """Fetch all DE Gemeinden per Bundesland."""
+    all_entries = []
+    for state_code, (qid, state_name) in sorted(DE_STATES.items()):
+        print(f"\n  Fetching {state_name} ({state_code})...")
+        query = de_gemeinde_query(qid)
+        try:
+            results = sparql_query(query)
+            print(f"    Got {len(results)} raw results")
+        except Exception as e:
+            print(f"    ERROR: {e}")
+            time.sleep(10)
+            continue
+
+        seen = set()
+        for r in results:
+            qid_item = r["item"]["value"].split("/")[-1]
+            if qid_item in seen:
+                continue
+            seen.add(qid_item)
+
+            name = r.get("itemLabel", {}).get("value", "")
+            if not name or name.startswith("Q"):
+                continue
+
+            ags = r.get("ags", {}).get("value", "")
+            website = r.get("website", {}).get("value", "")
+            osm_id = r.get("osmId", {}).get("value", "")
+
+            # AGS is 8-digit code; ID format: DE-XXXXXXXX
+            muni_id = f"DE-{ags}" if ags else f"DE-{state_code}Q{qid_item}"
+
+            entry = {
+                "id": muni_id,
+                "name": name,
+                "country": "DE",
+                "region": state_name,
+                "domain": extract_domain(website),
+            }
+            if osm_id:
+                try:
+                    entry["osm_relation_id"] = int(osm_id)
+                except ValueError:
+                    pass
+
+            all_entries.append(entry)
+
+        print(f"    {len(seen)} unique Gemeinden")
+        time.sleep(5)  # Rate limit
+
+    # Sort by ID
+    all_entries.sort(key=lambda e: e["id"])
+    return all_entries
+
+
 def main():
     countries = sys.argv[1:] if len(sys.argv) > 1 else list(QUERIES.keys())
 
     for cc in countries:
         cc = cc.upper()
+
+        # Special handling for DE (per-state fetching)
+        if cc == "DE":
+            print(f"\n{'='*50}")
+            print(f"Fetching DE Gemeinden (per Bundesland)...")
+            entries = fetch_de_gemeinden()
+            print(f"\n  Total: {len(entries)} DE Gemeinden")
+            with_domain = sum(1 for e in entries if e["domain"])
+            with_osm = sum(1 for e in entries if e.get("osm_relation_id"))
+            print(f"  {with_domain} with domains, {with_osm} with OSM IDs")
+            path = DATA / "municipalities_de.json"
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump(entries, f, ensure_ascii=False, indent=2)
+            print(f"  Written to {path}")
+            continue
+
         if cc not in QUERIES:
             print(f"Unknown country: {cc}")
             continue

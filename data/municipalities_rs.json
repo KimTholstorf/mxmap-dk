@@ -202,7 +202,7 @@
     "country": "RS",
     "region": "Serbia",
     "domain": "beograd.org.rs",
-    "osm_relation_id": 1677007
+    "osm_relation_id": 13022323
   },
   {
     "id": "RS-030",
@@ -217,14 +217,6 @@
     "country": "RS",
     "region": "Pomoravlje District",
     "domain": "despotovac.rs"
-  },
-  {
-    "id": "RS-032",
-    "name": "Deçan Municipality",
-    "country": "RS",
-    "region": "Gjakova District",
-    "domain": "decan.rks-gov.net",
-    "osm_relation_id": 1332170
   },
   {
     "id": "RS-033",
@@ -255,35 +247,11 @@
     "domain": "ferizaj.rks-gov.net"
   },
   {
-    "id": "RS-037",
-    "name": "Fushë Kosovë Municipality",
-    "country": "RS",
-    "region": "Prishtina District",
-    "domain": "kk.rks-gov.net",
-    "osm_relation_id": 1332190
-  },
-  {
     "id": "RS-038",
     "name": "Gadžin Han Municipality",
     "country": "RS",
     "region": "Nišava District",
     "domain": "gadzinhan.rs"
-  },
-  {
-    "id": "RS-039",
-    "name": "Gjakova Municipality",
-    "country": "RS",
-    "region": "Gjakova District",
-    "domain": "gjakova.rks-gov.net",
-    "osm_relation_id": 1332169
-  },
-  {
-    "id": "RS-040",
-    "name": "Gjilan Municipality",
-    "country": "RS",
-    "region": "Kosovo-Pomoravlje District",
-    "domain": "gjilan.rks-gov.net",
-    "osm_relation_id": 1332172
   },
   {
     "id": "RS-041",
@@ -328,14 +296,6 @@
     "domain": "irig.rs"
   },
   {
-    "id": "RS-047",
-    "name": "Istog Municipality",
-    "country": "RS",
-    "region": "Peja District",
-    "domain": "istog.rks-gov.net",
-    "osm_relation_id": 1332163
-  },
-  {
     "id": "RS-048",
     "name": "Ivanjica Municipality",
     "country": "RS",
@@ -347,15 +307,8 @@
     "name": "Jagodina City",
     "country": "RS",
     "region": "Pomoravlje District",
-    "domain": "jagodina.org.rs"
-  },
-  {
-    "id": "RS-050",
-    "name": "Kamenica Municipality",
-    "country": "RS",
-    "region": "Kosovo-Pomoravlje District",
-    "domain": "kamenice.rks-gov.net",
-    "osm_relation_id": 1332162
+    "domain": "jagodina.org.rs",
+    "osm_relation_id": 2869333
   },
   {
     "id": "RS-051",
@@ -363,14 +316,6 @@
     "country": "RS",
     "region": "North Banat District",
     "domain": "kanjiza.rs"
-  },
-  {
-    "id": "RS-052",
-    "name": "Kaçanik Municipality",
-    "country": "RS",
-    "region": "Ferizaj District",
-    "domain": "kacanik.rks-gov.net",
-    "osm_relation_id": 1332180
   },
   {
     "id": "RS-053",
@@ -385,14 +330,6 @@
     "country": "RS",
     "region": "Bor District",
     "domain": "kladovo.org.rs"
-  },
-  {
-    "id": "RS-055",
-    "name": "Klina Municipality",
-    "country": "RS",
-    "region": "Peja District",
-    "domain": "kline.rks-gov.net",
-    "osm_relation_id": 1332179
   },
   {
     "id": "RS-056",
@@ -448,14 +385,16 @@
     "name": "Kragujevac City",
     "country": "RS",
     "region": "Šumadija District",
-    "domain": "kragujevac.rs"
+    "domain": "kragujevac.rs",
+    "osm_relation_id": 2870900
   },
   {
     "id": "RS-064",
     "name": "Kraljevo City",
     "country": "RS",
     "region": "Raška District",
-    "domain": "kraljevo.rs"
+    "domain": "kraljevo.rs",
+    "osm_relation_id": 2867382
   },
   {
     "id": "RS-065",
@@ -521,27 +460,12 @@
     "domain": "lebane.org.rs"
   },
   {
-    "id": "RS-074",
-    "name": "Leposavić Municipality",
-    "country": "RS",
-    "region": "Mitrovica District",
-    "domain": "leposaviq.rks-gov.net",
-    "osm_relation_id": 1332176
-  },
-  {
     "id": "RS-075",
     "name": "Leskovac City",
     "country": "RS",
     "region": "Jablanica District",
-    "domain": "gradleskovac.org"
-  },
-  {
-    "id": "RS-076",
-    "name": "Lipjan Municipality",
-    "country": "RS",
-    "region": "Prishtina District",
-    "domain": "",
-    "osm_relation_id": 1332188
+    "domain": "gradleskovac.org",
+    "osm_relation_id": 2860164
   },
   {
     "id": "RS-077",
@@ -562,7 +486,8 @@
     "name": "Loznica City",
     "country": "RS",
     "region": "Mačva District",
-    "domain": "loznica.rs"
+    "domain": "loznica.rs",
+    "osm_relation_id": 1762291
   },
   {
     "id": "RS-080",
@@ -646,7 +571,8 @@
     "name": "Nis City",
     "country": "RS",
     "region": "Nišava District",
-    "domain": ""
+    "domain": "",
+    "osm_relation_id": 2867621
   },
   {
     "id": "RS-092",
@@ -688,30 +614,16 @@
     "name": "Novi Pazar City",
     "country": "RS",
     "region": "Raška District",
-    "domain": "novipazar.rs"
+    "domain": "novipazar.rs",
+    "osm_relation_id": 2867383
   },
   {
     "id": "RS-098",
     "name": "Novi Sad City",
     "country": "RS",
     "region": "South Bačka District",
-    "domain": "novisad.rs"
-  },
-  {
-    "id": "RS-099",
-    "name": "Novo Brdo Municipality",
-    "country": "RS",
-    "region": "Kosovo-Pomoravlje District",
-    "domain": "kk.rks-gov.net",
-    "osm_relation_id": 1332177
-  },
-  {
-    "id": "RS-100",
-    "name": "Obiliq Municipality",
-    "country": "RS",
-    "region": "Prishtina District",
-    "domain": "obiliq.rks-gov.net",
-    "osm_relation_id": 1332178
+    "domain": "novisad.rs",
+    "osm_relation_id": 1649672
   },
   {
     "id": "RS-101",
@@ -771,14 +683,6 @@
     "domain": "paracin.rs"
   },
   {
-    "id": "RS-109",
-    "name": "Peja Municipality",
-    "country": "RS",
-    "region": "Peja District",
-    "domain": "peja.rks-gov.net",
-    "osm_relation_id": 1332187
-  },
-  {
     "id": "RS-110",
     "name": "Petrovac na Mlavi Municipality",
     "country": "RS",
@@ -797,7 +701,8 @@
     "name": "Pirot City",
     "country": "RS",
     "region": "Pirot District",
-    "domain": "pirot.rs"
+    "domain": "pirot.rs",
+    "osm_relation_id": 2860575
   },
   {
     "id": "RS-113",
@@ -805,14 +710,6 @@
     "country": "RS",
     "region": "South Banat District",
     "domain": "plandiste-opstina.rs"
-  },
-  {
-    "id": "RS-114",
-    "name": "Podujeva Municipality",
-    "country": "RS",
-    "region": "Prishtina District",
-    "domain": "kk.rks-gov.net",
-    "osm_relation_id": 1332182
   },
   {
     "id": "RS-115",
@@ -857,35 +754,12 @@
     "domain": "opstinaprijepolje.rs"
   },
   {
-    "id": "RS-121",
-    "name": "Prishtina Municipality",
-    "country": "RS",
-    "region": "Prishtina District",
-    "domain": "prishtinaonline.com",
-    "osm_relation_id": 1332181
-  },
-  {
-    "id": "RS-122",
-    "name": "Prizren Municipality",
-    "country": "RS",
-    "region": "Prizren District (Serbia)",
-    "domain": "prizren.rks-gov.net",
-    "osm_relation_id": 1332193
-  },
-  {
     "id": "RS-123",
     "name": "Prokuplje City",
     "country": "RS",
     "region": "Toplica District",
-    "domain": "prokuplje.org.rs"
-  },
-  {
-    "id": "RS-124",
-    "name": "Rahovec Municipality",
-    "country": "RS",
-    "region": "Prizren District (Serbia)",
-    "domain": "rahovec.rks-gov.net",
-    "osm_relation_id": 1332196
+    "domain": "prokuplje.org.rs",
+    "osm_relation_id": 2863769
   },
   {
     "id": "RS-125",
@@ -965,14 +839,6 @@
     "domain": "secanj.rs"
   },
   {
-    "id": "RS-136",
-    "name": "Shtime Municipality",
-    "country": "RS",
-    "region": "Ferizaj District",
-    "domain": "kk.rks-gov.net",
-    "osm_relation_id": 1332175
-  },
-  {
     "id": "RS-137",
     "name": "Sjenica Municipality",
     "country": "RS",
@@ -980,19 +846,12 @@
     "domain": "sjenica.rs"
   },
   {
-    "id": "RS-138",
-    "name": "Skenderaj Municipality",
-    "country": "RS",
-    "region": "Mitrovica District",
-    "domain": "kk.rks-gov.net",
-    "osm_relation_id": 1332183
-  },
-  {
     "id": "RS-139",
     "name": "Smederevo City",
     "country": "RS",
     "region": "Podunavlje District",
-    "domain": "smederevo.org.rs"
+    "domain": "smederevo.org.rs",
+    "osm_relation_id": 2869908
   },
   {
     "id": "RS-140",
@@ -1013,7 +872,8 @@
     "name": "Sombor City",
     "country": "RS",
     "region": "West Bačka District",
-    "domain": "sombor.rs"
+    "domain": "sombor.rs",
+    "osm_relation_id": 1279958
   },
   {
     "id": "RS-143",
@@ -1034,7 +894,8 @@
     "name": "Sremska Mitrovica City",
     "country": "RS",
     "region": "Srem District",
-    "domain": "sremskamitrovica.rs"
+    "domain": "sremskamitrovica.rs",
+    "osm_relation_id": 1639313
   },
   {
     "id": "RS-146",
@@ -1062,15 +923,8 @@
     "name": "Subotica City",
     "country": "RS",
     "region": "North Bačka District",
-    "domain": "subotica.rs"
-  },
-  {
-    "id": "RS-150",
-    "name": "Suhareka Municipality",
-    "country": "RS",
-    "region": "Prizren District (Serbia)",
-    "domain": "kk.rks-gov.net",
-    "osm_relation_id": 1332166
+    "domain": "subotica.rs",
+    "osm_relation_id": 1279957
   },
   {
     "id": "RS-151",
@@ -1169,7 +1023,8 @@
     "name": "Valjevo City",
     "country": "RS",
     "region": "Kolubara District",
-    "domain": "valjevo.rs"
+    "domain": "valjevo.rs",
+    "osm_relation_id": 2871513
   },
   {
     "id": "RS-165",
@@ -1191,14 +1046,6 @@
     "country": "RS",
     "region": "Braničevo District",
     "domain": "velikogradiste.rs"
-  },
-  {
-    "id": "RS-168",
-    "name": "Viti Municipality",
-    "country": "RS",
-    "region": "Kosovo and Metohija",
-    "domain": "viti.rks-gov.net",
-    "osm_relation_id": 1332194
   },
   {
     "id": "RS-169",
@@ -1233,7 +1080,8 @@
     "name": "Vranje City",
     "country": "RS",
     "region": "Pčinja District",
-    "domain": "vranje.org.rs"
+    "domain": "vranje.org.rs",
+    "osm_relation_id": 2190516
   },
   {
     "id": "RS-174",
@@ -1271,14 +1119,6 @@
     "domain": "vrsac.com"
   },
   {
-    "id": "RS-179",
-    "name": "Vushtrri Municipality",
-    "country": "RS",
-    "region": "Mitrovica District",
-    "domain": "vushtrri.rks-gov.net",
-    "osm_relation_id": 1332164
-  },
-  {
     "id": "RS-180",
     "name": "Zaječar City",
     "country": "RS",
@@ -1302,27 +1142,11 @@
     "osm_relation_id": 1639826
   },
   {
-    "id": "RS-183",
-    "name": "Zubin Potok Municipality",
-    "country": "RS",
-    "region": "Mitrovica District",
-    "domain": "zubinpotok.rks-gov.net",
-    "osm_relation_id": 1332173
-  },
-  {
     "id": "RS-184",
     "name": "Zvezdara City Municipality",
     "country": "RS",
     "region": "City of Belgrade",
     "domain": "zvezdara.rs"
-  },
-  {
-    "id": "RS-185",
-    "name": "Zvečan Municipality",
-    "country": "RS",
-    "region": "Mitrovica District",
-    "domain": "",
-    "osm_relation_id": 1332195
   },
   {
     "id": "RS-186",
@@ -1379,14 +1203,6 @@
     "country": "RS",
     "region": "Srem District",
     "domain": "opstinasid.org"
-  },
-  {
-    "id": "RS-194",
-    "name": "Štrpce Municipality",
-    "country": "RS",
-    "region": "Ferizaj District",
-    "domain": "shterpce.rks-gov.net",
-    "osm_relation_id": 1332171
   },
   {
     "id": "RS-195",

@@ -81,7 +81,7 @@ LEVEL_MAP = {
     "BE": {"region": "region", "district": "district", "municipality": "municipality"},
     "DE": {
         "region": "region",
-        "district": "municipality",
+        "district": "municipality",  # becomes "district" after Gemeinde expansion
         "municipality": "municipality",
     },
     "FI": {"region": "region", "district": "region", "municipality": "municipality"},
@@ -97,8 +97,8 @@ LEVEL_MAP = {
     "EE": {"region": "region", "district": "region", "municipality": "municipality"},
     "LT": {"region": "region", "district": "region", "municipality": "municipality"},
     "LV": {
-        "region": "municipality",
-        "district": "municipality",
+        "region": "region",
+        "district": "region",
         "municipality": "municipality",
     },
     "LU": {"region": "region", "district": "region", "municipality": "municipality"},
@@ -176,6 +176,8 @@ def get_district_key(cc, muni_id):
         return muni_id[:6]  # "AT-101"
     if cc == "BE":
         return muni_id[:5]  # "BE-11"
+    if cc == "DE":
+        return muni_id[:8]  # "DE-01001" (5-digit Kreis prefix)
     return None
 
 
@@ -262,6 +264,38 @@ def dissolve_topojson(geojson, field, output_path, simplify="15%", quantization=
         os.unlink(tmp_path)
 
 
+def compute_bbox(topo_path):
+    """Compute bounding box [west, south, east, north] from TopoJSON file."""
+    with open(topo_path) as f:
+        topo = json.load(f)
+    # Use the transform + arcs to compute approximate bbox, or use bbox if present
+    if "bbox" in topo:
+        return topo["bbox"][:4]
+    # Fallback: read quantization transform
+    t = topo.get("transform")
+    if t:
+        sx, sy = t["scale"]
+        tx, ty = t["translate"]
+        # Find max arc coordinates
+        max_x, max_y = 0, 0
+        for arc in topo.get("arcs", []):
+            x, y = 0, 0
+            for dx, dy in arc:
+                x += dx
+                y += dy
+                max_x = max(max_x, x)
+                max_y = max(max_y, y)
+        return [
+            round(tx, 2), round(ty, 2),
+            round(tx + max_x * sx, 2), round(ty + max_y * sy, 2),
+        ]
+    return None
+
+
+# State codes for per-state DE municipality files
+DE_STATE_CODES = [f"{i:02d}" for i in range(1, 17)]
+
+
 def generate_manifest():
     """Generate manifest.json with file metadata."""
     manifest = {}
@@ -269,15 +303,37 @@ def generate_manifest():
         level_map = LEVEL_MAP[cc]
         files = {}
         sizes = {}
+
         for level in ["region", "district", "municipality"]:
             actual = level_map.get(level)
             if actual is None:
                 continue
-            filename = f"{cc.lower()}_{actual}.topo.json"
-            files[level] = filename
-            filepath = TOPO_DIR / filename
-            if filepath.exists() and filename not in sizes:
-                sizes[filename] = filepath.stat().st_size
+
+            # DE municipality level: check for per-state files
+            if cc == "DE" and level == "municipality":
+                state_files = {}
+                for sc in DE_STATE_CODES:
+                    fname = f"de_municipality_{sc}.topo.json"
+                    fpath = TOPO_DIR / fname
+                    if fpath.exists():
+                        sizes[fname] = fpath.stat().st_size
+                        bbox = compute_bbox(fpath)
+                        state_files[fname] = bbox
+                if state_files:
+                    files[level] = state_files
+                    continue
+                # Fall back to single file if per-state files don't exist
+                filename = f"{cc.lower()}_{actual}.topo.json"
+                files[level] = filename
+                filepath = TOPO_DIR / filename
+                if filepath.exists() and filename not in sizes:
+                    sizes[filename] = filepath.stat().st_size
+            else:
+                filename = f"{cc.lower()}_{actual}.topo.json"
+                files[level] = filename
+                filepath = TOPO_DIR / filename
+                if filepath.exists() and filename not in sizes:
+                    sizes[filename] = filepath.stat().st_size
 
         available_levels = [
             lvl
@@ -391,7 +447,7 @@ def main():
                 fc, "region", region_out, simplify="8%", quantization=5000
             )
 
-        # District level (dissolved, only AT/BE)
+        # District level (dissolved, AT/BE/DE)
         if level_map["district"] == "district":
             district_out = TOPO_DIR / f"{cc.lower()}_district.topo.json"
             n_districts = len(set(f["properties"]["district_key"] for f in features))

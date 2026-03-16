@@ -7,7 +7,7 @@ from typing import Any
 from urllib.parse import urlparse
 
 from mail_sovereignty.classify import classify, detect_gateway
-from mail_sovereignty.constants import CONCURRENCY, LOCAL_ISP_ASNS
+from mail_sovereignty.constants import CONCURRENCY, LOCAL_ISP_ASNS, PARTITIONED_COUNTRIES
 from mail_sovereignty.dns import (
     lookup_autodiscover,
     lookup_dkim,
@@ -531,7 +531,12 @@ async def scan_municipality(
         return entry
 
 
-async def run(output_path: Path, countries: list[str] | None = None) -> None:
+async def run(
+    output_path: Path,
+    countries: list[str] | None = None,
+    state_filters: dict[str, list[str]] | None = None,
+) -> None:
+    state_filters = state_filters or {}
     all_municipalities = load_seed_data()
 
     # Filter by country if specified
@@ -545,20 +550,59 @@ async def run(output_path: Path, countries: list[str] | None = None) -> None:
     else:
         municipalities = all_municipalities
 
+    # Apply sub-country state filters
+    if state_filters:
+        filtered = {}
+        for k, v in municipalities.items():
+            cc = v.get("country", "")
+            if cc in state_filters:
+                extract = PARTITIONED_COUNTRIES.get(cc)
+                if extract:
+                    partition = extract(k)
+                    if partition in state_filters[cc]:
+                        filtered[k] = v
+            else:
+                filtered[k] = v
+        from mail_sovereignty.constants import DE_STATE_CODES
+        filter_labels = []
+        for cc, codes in state_filters.items():
+            abbrevs = [DE_STATE_CODES.get(c, c) for c in codes] if cc == "DE" else codes
+            filter_labels.append(f"{cc}:{','.join(abbrevs)}")
+        print(f"  State filter: {', '.join(filter_labels)} "
+              f"({len(filtered)}/{len(municipalities)} municipalities)")
+        municipalities = filtered
+
     total = len(municipalities)
     print(f"\nScanning {total} municipalities for MX/SPF records...")
     print("(This takes a few minutes with async lookups)\n")
 
-    # Initialize per-country DNS caches
+    # Initialize per-country DNS caches (partitioned for large countries)
     from mail_sovereignty.dns_cache import DnsCache
 
     active_countries = countries or sorted(
         {m.get("country", "") for m in municipalities.values()}
     )
-    caches = {cc: DnsCache(cc) for cc in active_countries}
+    caches: dict[str, DnsCache] = {}
+    for cc in active_countries:
+        if cc in PARTITIONED_COUNTRIES:
+            # Create one cache per partition (state)
+            extract = PARTITIONED_COUNTRIES[cc]
+            partitions = sorted({
+                extract(k) for k, v in municipalities.items()
+                if v.get("country", "") == cc
+            })
+            for part in partitions:
+                caches[f"{cc}:{part}"] = DnsCache(cc, partition=part)
+        else:
+            caches[cc] = DnsCache(cc)
 
     def get_cache(m):
-        return caches.get(m.get("country", ""))
+        cc = m.get("country", "")
+        if cc in PARTITIONED_COUNTRIES:
+            extract = PARTITIONED_COUNTRIES[cc]
+            partition = extract(m["bfs"])
+            return caches.get(f"{cc}:{partition}")
+        return caches.get(cc)
 
     semaphore = asyncio.Semaphore(CONCURRENCY)
     tasks = [
@@ -610,17 +654,34 @@ async def run(output_path: Path, countries: list[str] | None = None) -> None:
     print(f"  Unknown/No MX   : {counts.get('unknown', 0):>5}")
     print(f"{'=' * 50}")
 
-    # Merge with existing data.json when filtering by country
+    # Merge with existing data.json when filtering by country or state
     if countries and output_path.exists():
         with open(output_path, encoding="utf-8") as f:
             existing = json.load(f)
         existing_munis = existing.get("municipalities", {})
-        # Remove old entries for the filtered countries, keep the rest
-        merged = {
-            k: v
-            for k, v in existing_munis.items()
-            if v.get("country", "") not in countries
-        }
+
+        if state_filters:
+            # Sub-country merge: only replace entries matching filtered partitions
+            def should_replace(k, v):
+                cc = v.get("country", "")
+                if cc not in state_filters:
+                    return cc in countries  # full-country replacement
+                extract = PARTITIONED_COUNTRIES.get(cc)
+                if extract:
+                    return extract(k) in state_filters[cc]
+                return True
+
+            merged = {
+                k: v for k, v in existing_munis.items()
+                if not should_replace(k, v)
+            }
+        else:
+            # Remove old entries for the filtered countries, keep the rest
+            merged = {
+                k: v
+                for k, v in existing_munis.items()
+                if v.get("country", "") not in countries
+            }
         merged.update(results)
         results = merged
         print(f"  Merged with existing data: {len(results)} total")

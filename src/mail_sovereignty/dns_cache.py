@@ -42,11 +42,19 @@ class DnsCache:
         "ts": 1710500000
       }
     }
+
+    Supports optional partitioning for large countries:
+        DnsCache("DE", partition="09")  → data/dns_cache/de_09.json
+        DnsCache("EE")                  → data/dns_cache/ee.json
     """
 
-    def __init__(self, country_code: str):
+    def __init__(self, country_code: str, partition: str | None = None):
         self.cc = country_code.upper()
-        self.path = CACHE_DIR / f"{self.cc.lower()}.json"
+        self.partition = partition
+        if partition:
+            self.path = CACHE_DIR / f"{self.cc.lower()}_{partition}.json"
+        else:
+            self.path = CACHE_DIR / f"{self.cc.lower()}.json"
         self.data: dict[str, dict] = {}
         self.hits = 0
         self.misses = 0
@@ -89,8 +97,9 @@ class DnsCache:
         total = self.hits + self.misses
         if total > 0:
             pct = self.hits * 100 // total
+            label = f"{self.cc}:{self.partition}" if self.partition else self.cc
             print(
-                f"  DNS cache ({self.cc}): {self.hits} hits, "
+                f"  DNS cache ({label}): {self.hits} hits, "
                 f"{self.misses} misses ({pct}% hit rate), "
                 f"{len(self.data)} entries"
             )

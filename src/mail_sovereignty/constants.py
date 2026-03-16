@@ -562,6 +562,19 @@ LOCAL_ISP_ASNS: dict[int, str] = {
     31549: "Telekom Srpske (BA)",
 }
 
+DE_STATES = {
+    "SH": "01", "HH": "02", "NI": "03", "HB": "04",
+    "NW": "05", "HE": "06", "RP": "07", "BW": "08",
+    "BY": "09", "SL": "10", "BE": "11", "BB": "12",
+    "MV": "13", "SN": "14", "ST": "15", "TH": "16",
+}
+
+# Reverse mapping: state code → abbreviation (for display)
+DE_STATE_CODES = {v: k for k, v in DE_STATES.items()}
+
+# Countries that use partitioned DNS caches (keyed by state prefix in ID)
+PARTITIONED_COUNTRIES = {"DE": lambda muni_id: muni_id[3:5]}
+
 CONCURRENCY = 20
 CONCURRENCY_POSTPROCESS = 10
 CONCURRENCY_SMTP = 5
