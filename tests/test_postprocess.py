@@ -465,7 +465,7 @@ class TestSmtpBannerStep:
 
 class TestPostprocessRun:
     async def test_manual_overrides_empty(self, tmp_path):
-        """MANUAL_OVERRIDES is empty for Baltic — verify no overrides applied."""
+        """MANUAL_OVERRIDES is empty — verify no overrides applied."""
         data = {
             "generated": "2025-01-01",
             "total": 1,

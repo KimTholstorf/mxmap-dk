@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-MX Map is a DNS-based email provider classifier for European municipalities (14 countries, ~4,650 total). It runs a 3-stage async pipeline that produces `data.json`, which powers an interactive Leaflet.js map showing where municipalities host their official email. Forked from [mxmap.ch](https://mxmap.ch) (Swiss municipalities). Countries: Estonia, Latvia, Lithuania, Finland, Norway, Iceland, Sweden, Germany, Denmark, Andorra, Luxembourg, Belgium, Austria, Czechia.
+MX Map is a DNS-based email provider classifier for European municipalities (47 countries, ~20,000 municipalities). It runs a 3-stage async pipeline that produces `data.json`, which powers an interactive Leaflet.js map showing where municipalities host their official email. Forked from [mxmap.ch](https://mxmap.ch) (Swiss municipalities). Covers all 27 EU member states plus 20 non-EU European countries.
 
 ## Important: Always use `uv run`
 
@@ -17,12 +17,18 @@ uv sync                # Install dependencies
 uv sync --group dev    # Install with dev dependencies
 
 # Pipeline (run in order, each reads/writes data.json)
-uv run preprocess      # DNS lookups + classification (~30s)
+uv run preprocess      # DNS lookups + classification (~30s for small countries)
+uv run preprocess DE   # Single country
+uv run preprocess DE:BY  # Single Bundesland (Bavaria)
 uv run postprocess     # Overrides, SMTP banners, scraping (~5 min)
 uv run validate        # Confidence scoring + quality gate
 
 # TopoJSON split (requires mapshaper: npm install -g mapshaper)
 uv run python3 scripts/split_topo.py             # Splits monolithic TopoJSON -> topo/
+
+# Seed data fetching
+uv run python3 scripts/fetch_wikidata.py DE      # Fetch Gemeinden from Wikidata
+uv run python3 scripts/fetch_boundaries.py DE    # Fetch boundaries from Overpass
 
 # Tests
 uv run pytest                                    # All tests
@@ -44,7 +50,7 @@ python -m http.server
 
 All three stages operate on `data.json` at the repo root:
 
-1. **Preprocess** (`preprocess.py`) — Loads municipalities from `data/municipalities_{cc}.json` seed files (14 countries) + `data/overrides.json`. For each municipality: extracts domain (or guesses from name with diacritics transliteration), performs async MX/SPF/CNAME/ASN/autodiscover/DKIM DNS lookups via 3 resolvers (system, Google, Cloudflare), classifies provider, detects gateways. Concurrency: 20.
+1. **Preprocess** (`preprocess.py`) — Loads municipalities from `data/municipalities_{cc}.json` seed files (47 countries) + `data/overrides.json`. For each municipality: extracts domain (or guesses from name with diacritics transliteration), performs async MX/SPF/CNAME/ASN/autodiscover/DKIM DNS lookups via 3 resolvers (system, Google, Cloudflare), classifies provider, detects gateways. Concurrency: 20. Supports sub-country filtering (`DE:BY` scans only Bavaria).
 
 2. **Postprocess** (`postprocess.py`) — Four sub-steps: (a) apply `MANUAL_OVERRIDES` dict with DNS re-lookup for domain-only overrides, (b) retry DNS for unknowns that have a domain, (c) SMTP banner check on primary MX of independent/unknown entries (deduplicated, concurrency 5), (d) scrape municipality websites for email addresses on remaining unknowns (concurrency 10). Includes TYPO3 Caesar cipher decryption for obfuscated mailto: links.
 
@@ -59,7 +65,7 @@ Priority order:
 2. **CNAME resolution** — MX host's CNAME target matches a provider
 3. **Known gateway look-through** — MX matches a `GATEWAY_KEYWORDS` entry (SeppMail, Barracuda, FortiMail, SecMail, D-Fence, Cisco IronPort, MailAnyone, Comendo, Heimdal, StaySecure, edelkey, ippnet, garmtech, etc.) → check SPF (only if exactly one main provider found) → autodiscover → DKIM for the actual backend provider. If no backend identified, returns "independent" with reason mentioning the gateway.
 4. **Self-hosted gateway detection** — MX exists but doesn't match any provider or gateway → check DKIM for a hidden backend provider (e.g., `mail.muhu.ee` on Radicenter but DKIM → `*.onmicrosoft.com` = Microsoft)
-5. **Local ISP** — MX ASN matches known Nordic-Baltic ISP ASNs (`LOCAL_ISP_ASNS` in constants.py)
+5. **Local ISP** — MX ASN matches known ISP ASNs (`LOCAL_ISP_ASNS` in constants.py)
 6. **Independent** — MX exists but doesn't match any known provider and no DKIM backend found
 7. **Unknown** — No MX records found
 
@@ -78,50 +84,76 @@ All provider detection is keyword-based. To add a new provider:
 4. Add to the two provider-matching loops in `classify()` (steps 1 and 2)
 5. Add display name mapping + color in `index.html`
 
+### DNS Cache (`dns_cache.py`)
+
+Per-country file-based DNS cache in `data/dns_cache/`. Domain-scoped: all DNS queries for a domain stored together. TTL: 7 days.
+
+**Partitioned caches** for large countries: `DnsCache("DE", partition="09")` → `de_09.json`. Configured via `PARTITIONED_COUNTRIES` in `constants.py`. Currently only Germany is partitioned (16 files, one per Bundesland).
+
+### Sub-Country Filtering
+
+The preprocess CLI supports `CC:STATE` syntax for scanning subsets of large countries:
+
+```bash
+uv run preprocess DE:BY      # Bavaria only (abbreviation)
+uv run preprocess DE:09      # Bavaria only (state code)
+uv run preprocess DE:BY,NW   # Bavaria + Nordrhein-Westfalen
+uv run preprocess DE:BY IT   # Bavaria + all of Italy
+```
+
+State codes are in `DE_STATES` dict in `constants.py`. When filtering, only the scanned entries are replaced in data.json — other states/countries are preserved.
+
 ### Frontend (`index.html`)
 
 Single-page app with three admin-level views (Region/District/Municipality) and per-country lazy-loaded TopoJSON.
 
-**Data loading:** Fetches `data.json` + `topo/manifest.json` on startup. The manifest maps each country × level to a TopoJSON file. Files are fetched on demand and cached in memory (`topoCache`). Default view is "Districts" (~760 features total).
+**Data loading:** Fetches `data-summary.json` + `topo/manifest.json` on startup. `data-detail.json` loaded in background. The manifest maps each country × level to a TopoJSON file (or an object of per-state files with bboxes for viewport loading). Files are fetched on demand and cached in memory (`topoCache`). Default view is "Districts".
 
-**Multi-level toggle:** Three-button segmented control (top-left) switches between Region, District, and Municipality views. Each level loads different TopoJSON files per country. For countries where two levels are identical (e.g., DE district=municipality), the manifest points both levels at the same file.
+**Multi-level toggle:** Three-button segmented control (top-left) switches between Region, District, and Municipality views. Each level loads different TopoJSON files per country.
+
+**Viewport-based loading:** For countries with many municipalities (currently DE), the manifest municipality entry is an object mapping filenames to bboxes. Only files whose bbox intersects the visible viewport are fetched. On `moveend`, new files are loaded as needed.
 
 **Per-country layers:** Each country has its own `L.geoJSON` layer stored in `countryLayers` Map. Country filter buttons add/remove layers and restyle them (active = provider-colored, inactive = gray).
 
-**Aggregation:** At Region/District levels, multiple municipalities map to one polygon. `computeAggregation()` groups municipalities by region name or district key (AT: first 3 digits of ID, BE: first 2 digits). Each group tracks dominant provider, provider breakdown, and municipality count. `matchGroupFeature()` matches dissolved TopoJSON features to groups by `name` property.
+**Aggregation:** At Region/District levels, multiple municipalities map to one polygon. `computeAggregation()` groups municipalities by region name or district key (AT: first 6 chars of ID, BE: first 5, DE: first 8). `matchGroupFeature()` matches dissolved TopoJSON features to groups by `name`, `name_en`, or `name:en` property.
 
 **Popups:** Municipality level shows individual DNS data (MX, SPF, DKIM, autodiscover). Region/District level shows aggregated view: dominant provider badge, stacked provider bar chart, scrollable municipality list with provider dots.
 
 **Statistics panel:** Always shows municipality-level data — unaffected by the level toggle.
 
-**Gateway markers:** Shield icons (🛡️) only shown at municipality level.
+**Gateway markers:** Shield icons only shown at municipality level.
 
 ### TopoJSON Split (`scripts/split_topo.py`)
 
-Splits `baltic-municipalities.topo.json` (monolithic source) into per-country per-level files in `topo/`. Iceland boundaries are generated separately (not in the monolithic file) — see "Adding a New Country" below.
+Splits `baltic-municipalities.topo.json` (monolithic source) into per-country per-level files in `topo/`. Some countries have standalone TopoJSON files generated by `scripts/fetch_boundaries.py`.
 
 ```
 topo/
   manifest.json                  # { CC: { levels, files, sizes } }
   {cc}_municipality.topo.json    # Per-country municipality boundaries (simplified 15%)
   {cc}_region.topo.json          # Dissolved by region field (simplified 8%, quantization 5k)
-  {cc}_district.topo.json        # Dissolved by district key (AT, BE only)
+  {cc}_district.topo.json        # Dissolved by district key (AT, BE, DE)
+  de_municipality_XX.topo.json   # Per-Bundesland DE files (16 files, viewport-loaded)
 ```
 
-**Process:** Converts monolithic TopoJSON → GeoJSON via mapshaper, matches features to seed data municipalities, annotates with country/region/district_key, then for each country: writes municipality TopoJSON, dissolves by region (using mapshaper `-dissolve`), dissolves by district_key for AT/BE.
+**Manifest format:** For most countries, `files.municipality` is a string filename. For DE, it's an object mapping filenames to bounding boxes:
+```json
+"municipality": {
+  "de_municipality_01.topo.json": [8.3, 53.3, 11.3, 55.0],
+  "de_municipality_09.topo.json": [8.9, 47.3, 13.8, 50.6]
+}
+```
 
-**Level aliasing:** When district=region or district=municipality for a country, `manifest.json` points both levels at the same file. Frontend detects this via `manifest[cc].files[level] === manifest[cc].files.municipality` to decide whether to aggregate.
+**District key extraction:** AT → first 6 chars of ID (`AT-101`), BE → first 5 (`BE-11`), DE → first 8 (`DE-01001`).
 
 Run: `uv run python3 scripts/split_topo.py` (requires mapshaper CLI).
 
 ### Frontend Data Split (`scripts/build_frontend.py`)
 
-Splits `data.json` (6 MB) into two files for faster initial page load:
+Splits `data.json` into two files for faster initial page load:
 
-- **`data-summary.json`** (~120 KB gzipped) — Loaded immediately. Contains fields needed for map rendering, legend, and stats: `bfs`, `name`, `canton`, `country`, `domain`, `provider`, `osm_relation_id`, `mx_countries`, `gateway`, `isp_name`, `has_mx`.
-- **`data-detail.json`** (~190 KB gzipped) — Loaded in background after map renders. Contains popup-only fields: `mx`, `spf`, `reason`, `autodiscover`, `dkim`.
-
-Strips unused fields (`spf_resolved` = 60% of data.json, `mx_asns`, `smtp_banner`, `mx_cnames`).
+- **`data-summary.json`** — Loaded immediately. Contains fields needed for map rendering, legend, and stats.
+- **`data-detail.json`** — Loaded in background after map renders. Contains popup-only fields: `mx`, `spf`, `reason`, `autodiscover`, `dkim`.
 
 Run: `uv run python3 scripts/build_frontend.py`
 
@@ -136,6 +168,8 @@ Tests use `pytest-asyncio` (auto mode) and `respx` for HTTP mocking. DNS is mock
 ## Deployment
 
 GitHub Actions nightly workflow (`.github/workflows/nightly.yml`) runs preprocess → postprocess → validate → commit data.json → deploy to GitHub Pages. Quality gate failure creates a GitHub issue. Default branch is `baltic`.
+
+**DE nightly rotation:** Germany's 11K Gemeinden are too many to scan every night. The workflow rotates 3 Bundesländer per night (6-day cycle), while all other countries are scanned every night.
 
 ## Adding a New Country
 
@@ -155,21 +189,13 @@ Sources: national statistics office API for official list, Wikidata SPARQL for O
 
 ### 3. TopoJSON boundaries
 
-Two approaches depending on whether the country is in the monolithic TopoJSON or standalone:
+**Preferred: `scripts/fetch_boundaries.py`** — Fetches from Overpass API, converts via Python GeoJSON converter, annotates with region/country, creates TopoJSON via mapshaper.
+- Add country to `COUNTRY_CONFIG` with admin_level and ISO code
+- Run: `uv run python3 scripts/fetch_boundaries.py XX`
 
-**Approach A: Add to monolithic file** (existing countries)
-- Find the OSM `admin_level` for municipalities (varies: EE=7, LV=6, LT=5, FI=8, NO=7, IS=6, SE=7, DE=6, DK=7, AT=8, BE=8, CZ=7, LU=8, AD=7)
-- Merge into `baltic-municipalities.topo.json`, then re-run `scripts/split_topo.py`
+**Alternative: monolithic file** — For countries in `baltic-municipalities.topo.json`, run `scripts/split_topo.py`.
 
-**Approach B: Standalone TopoJSON** (new countries like Iceland)
-- Fetch boundaries from Overpass API: `relation["boundary"="administrative"]["admin_level"="N"]`
-- Convert to GeoJSON with `osmtogeojson` (npm)
-- Annotate features with `region`, `country`, `osm_id` properties
-- Convert to TopoJSON via mapshaper with simplification + quantization
-- Create dissolved region file if applicable
-- Update `topo/manifest.json`
-
-Feature IDs must be `relation/XXXXX` matching `osm_relation_id` in seed data. **Preserve `name` and `name_en` properties** — EE/LV features rely on name-based matching.
+Feature IDs must be `relation/XXXXX` matching `osm_relation_id` in seed data.
 
 ### 4. Frontend (`index.html`)
 
@@ -191,6 +217,26 @@ Feature IDs must be `relation/XXXXX` matching `osm_relation_id` in seed data. **
 ### 6. Verify
 
 Run preprocess → check "independent" municipalities → look up their MX ASNs → add missing local ISPs to `LOCAL_ISP_ASNS` → re-run. Typical pattern: first run has too many "independent", iteratively adding ISP ASNs and gateway keywords brings it down to a handful of genuinely self-hosted servers. Also check for gateway patterns in MX hostnames (e.g., `iphmx.com` = Cisco IronPort, `comendosystems.com` = Comendo) and add to `GATEWAY_KEYWORDS`.
+
+## Scaling to Large Countries
+
+For countries with >2,000 municipalities (currently DE with ~11K):
+
+1. **Partitioned DNS cache** — Add to `PARTITIONED_COUNTRIES` in `constants.py` with a lambda extracting the partition key from the municipality ID.
+2. **Sub-country filtering** — `uv run preprocess CC:STATE` to scan subsets.
+3. **Per-state TopoJSON** — Manifest uses object format `{filename: [bbox]}` for viewport-based loading.
+4. **Nightly rotation** — Scan N states per night instead of all at once.
+5. **Dissolved district topo** — Generate `{cc}_district.topo.json` by dissolving municipality features by district key prefix.
+
+### Overpass API Pitfalls
+
+When fetching boundaries from Overpass:
+- **Area ID format**: `3600000000 + relation_id` (not string concatenation `3600{id}`)
+- **Rate limiting**: Overpass returns 429 after rapid queries. Use 10-15s delays between states, 90s backoff on 429.
+- **Timeouts (504)**: Large states may timeout. Retry up to 3 times with 30s waits.
+- **City-states**: Berlin, Hamburg, Bremen use different admin levels (4/6/9 instead of 8). Try multiple levels for states with ≤5 expected municipalities.
+- **osmtogeojson strips properties**: The npm `osmtogeojson` tool doesn't preserve OSM tags as flat GeoJSON properties. Use the Python `convert_osm_to_geojson_simple()` fallback for boundary fetching.
+- **osm_id format**: Feature IDs must be `relation/XXXXX` (with prefix), not bare integers. The `convert_osm_to_geojson_simple` function sets this correctly, but verify after mapshaper processing.
 
 ## Common Domain Pitfalls
 
@@ -228,3 +274,7 @@ Small local IT companies can also act as gateways (e.g., `edelkey.net` for Helsi
 **DKIM is the most reliable signal** for identifying the backend provider. A CNAME at `selector1._domainkey.domain` pointing to `*.onmicrosoft.com` is definitive proof of Microsoft 365, even when MX and SPF point elsewhere.
 
 **Norwegian IKT cooperatives:** Many Norwegian municipalities share IT infrastructure via regional IKT companies (Hedmark IKT, Lofoten IKT, IKT Sunnmøre, etc.). These appear as shared MX hosts or DKIM tenants (e.g., `lofotenikt.onmicrosoft.com`). They typically relay to Microsoft 365.
+
+## Country-Specific Notes
+
+Per-country implementation guides are in `docs/countries/`. These were used during initial setup and may be outdated, but contain useful context about domain pitfalls, ISP discovery, and admin level choices.

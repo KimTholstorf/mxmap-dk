@@ -18,7 +18,7 @@ GOOGLE_KEYWORDS = [
 ]
 AWS_KEYWORDS = ["amazonaws", "amazonses", "awsdns"]
 
-# Baltic-specific providers (replaces Infomaniak for Swiss)
+# Regional providers
 ZONE_KEYWORDS = ["zone.eu", "zone.ee", "zoneit.eu", "zonemx.eu"]
 TELIA_KEYWORDS = ["telia.ee", "telia.lt", "telia.lv", "telia.com"]
 TET_KEYWORDS = ["tet.lv"]
@@ -49,7 +49,7 @@ FOREIGN_SENDER_KEYWORDS = {
 }
 
 SPARQL_URL = "https://query.wikidata.org/sparql"
-# Not used — Baltic municipalities are loaded from seed JSON files
+# Not used — municipalities are loaded from seed JSON files
 SPARQL_QUERY = ""
 
 EMAIL_RE = re.compile(r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}")

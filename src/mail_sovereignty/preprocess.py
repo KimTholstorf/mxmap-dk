@@ -84,7 +84,7 @@ def url_to_domain(url: str | None) -> str | None:
 
 
 def guess_domains(name: str, country: str = "") -> list[str]:
-    """Generate a small set of plausible domain guesses for a Baltic municipality."""
+    """Generate plausible domain guesses for a municipality."""
     raw = name.lower().strip()
     raw = re.sub(r"\s*\(.*?\)\s*", "", raw)
 
@@ -170,7 +170,7 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         if raw.endswith(suffix):
             raw = raw[: -len(suffix)]
 
-    # Baltic diacritics transliteration
+    # Diacritics transliteration
     translits = [
         ("ä", "a"),
         ("ö", "o"),
@@ -347,8 +347,8 @@ def guess_domains(name: str, country: str = "") -> list[str]:
 
 
 def load_seed_data() -> dict[str, dict[str, str]]:
-    """Load Baltic municipalities from curated seed JSON files."""
-    print("Loading Baltic municipalities from seed data...")
+    """Load municipalities from curated seed JSON files."""
+    print("Loading municipalities from seed data...")
     municipalities = {}
 
     for country_code, filename in SEED_FILES.items():

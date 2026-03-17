@@ -205,4 +205,5 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
-NORWAY.md
+# Country-specific implementation prompts (working docs, not code)
+docs/countries/
