@@ -8160,6 +8160,7 @@ IT-100,Catania,independent,cittametropolitana.ct.it,90,spf_strict; mx_spf_match;
 IE-CN,Cavan County Council,microsoft,cavancoco.ie,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
 HU-021,Celldömölk District,independent,celldomolk.hu,90,spf_strict; mx_spf_match; provider_classified
 BA-014,Centar Municipality,microsoft,centar.ba,90,spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+MK-010,Centar Municipality,independent,centar.gov.mk,90,spf_strict; mx_spf_match; provider_classified
 GB-W06000008,Ceredigion,microsoft,ceredigion.gov.uk,90,spf_strict; mx_spf_match; provider_classified
 HR-118,Cetingrad,independent,cetingrad.hr,90,spf_strict; mx_spf_match; provider_classified
 DE-09372117,Chamerau,local-isp,chamerau.de,90,spf_strict; mx_spf_match; provider_classified
@@ -15968,7 +15969,6 @@ DE-03351006,Celle,local-isp,celle.de,95,multiple_mx; spf_strict; mx_spf_match; p
 BE-57018,Celles,microsoft,celles.be,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 PT-0125,Celorico da Beira,local-isp,cm-celoricodabeira.pt,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 PT-0057,Celorico de Basto,independent,mun-celoricodebasto.pt,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
-MK-010,Centar Municipality,microsoft,centar.gov.mk,95,spf_strict; mx_spf_match; provider_classified; smtp_confirms
 GR-053,Central Corfu and Diapontia Islands,local-isp,corfu.gr,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 GR-054,Central Tzoumerka,independent,dhmosktzoumerkwn.gr,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 FR-95127,Cergy,microsoft,cergy.fr,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
