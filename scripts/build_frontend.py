@@ -23,6 +23,7 @@ SUMMARY_FIELDS = {
     "name",
     "name_en",
     "canton",
+    "district",
     "country",
     "domain",
     "provider",
@@ -40,6 +41,7 @@ DETAIL_FIELDS = {
     "autodiscover",
     "dkim",
     "txt_verifications",
+    "smtp_software",
 }
 
 # Fields intentionally dropped (not used by frontend)

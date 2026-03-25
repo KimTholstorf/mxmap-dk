@@ -365,6 +365,7 @@ def load_seed_data() -> dict[str, dict[str, str]]:
                 "bfs": muni_id,  # reuse "bfs" field as generic municipality ID
                 "name": entry["name"],
                 "canton": entry.get("region", ""),  # reuse "canton" field for region
+                "district": entry.get("district", ""),
                 "country": entry.get("country", country_code),
                 "website": entry.get("domain", ""),
                 "osm_relation_id": entry.get("osm_relation_id"),
@@ -488,6 +489,7 @@ async def scan_municipality(
             "bfs": m["bfs"],
             "name": m["name"],
             "canton": m.get("canton", ""),
+            "district": m.get("district", ""),
             "country": m.get("country", ""),
             "domain": domain or "",
             "mx": mx,

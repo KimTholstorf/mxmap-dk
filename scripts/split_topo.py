@@ -145,7 +145,7 @@ LEVEL_MAP = {
         "municipality": "municipality",
     },
     "SI": {"region": "region", "district": "region", "municipality": "municipality"},
-    "GB": {"region": "region", "district": "municipality", "municipality": "municipality"},
+    "GB": {"region": "region", "district": "district", "municipality": "municipality"},
     "HR": {"region": "region", "district": "municipality", "municipality": "municipality"},
     "CY": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     "GR": {"region": "region", "district": "municipality", "municipality": "municipality"},

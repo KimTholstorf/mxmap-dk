@@ -606,6 +606,7 @@ function getGroupKey(m, fileLevelName) {
     if (m.country === 'AT') return m.id.substring(0, 6);
     if (m.country === 'BE') return m.id.substring(0, 5);
     if (m.country === 'DE') return m.id.substring(0, 8); // "DE-01001" (5-digit Kreis)
+    if (m.country === 'GB') return m.district || m.name;
     return m.region || '';
   }
   return m.id;
@@ -712,13 +713,20 @@ function buildPopup(m) {
       `but mailboxes hosted by <strong>${escapeHtml(cls.provider)}</strong> (US)</div>`;
   }
 
+  let smtpSoftwareNote = '';
+  if (m.smtp_software) {
+    const swName = {'microsoft': 'Microsoft Exchange', 'google': 'Google', 'zone': 'Zone'}[m.smtp_software] || m.smtp_software;
+    smtpSoftwareNote = `<div style="margin-top:6px;padding:5px 8px;background:#e3f2fd;border-left:3px solid #1976d2;font-size:11px;color:#37474f">` +
+      `Self-hosted using <strong>${escapeHtml(swName)}</strong> software</div>`;
+  }
+
   return `<div class="info-popup">` +
     `<strong>${flag} ${eName}</strong><br>` +
     `${eDomain} <span class="provider-badge" style="background:${color};color:${textColor}">${escapeHtml(cls.provider)}</span>` +
     (hasLocalGateway(m) ? ' <span title="Local gateway" style="font-size:13px">\u{1F6E1}\uFE0F</span>' : '') +
     `<br><span style="font-size:11px;color:#888">${m.region ? escapeHtml(m.region) + ' \u00b7 ' : ''}${m.country}</span>` +
     (cls.reason ? `<div style="margin-top:4px;font-size:11px;color:#666;font-style:italic">${escapeHtml(cls.reason)}</div>` : '') +
-    gatewayNote + mxSection + spfSection + autodiscoverSection + dkimSection + txtVerifSection +
+    gatewayNote + smtpSoftwareNote + mxSection + spfSection + autodiscoverSection + dkimSection + txtVerifSection +
     `</div>`;
 }
 
@@ -1109,6 +1117,7 @@ function transformMuni(m) {
     ...m,
     id: m.bfs || '',
     region: m.canton || '',
+    district: m.district || '',
     domain: m.domain || '',
     classification: {
       provider: displayProvider,
@@ -1229,6 +1238,7 @@ async function loadData() {
       m.dkim = d.dkim || null;
       m.autodiscover = d.autodiscover || null;
       m.txt_verifications = d.txt_verifications || null;
+      m.smtp_software = d.smtp_software || null;
       m.classification.mx_records = (d.mx || []).map(function (host, i) {
         return { priority: (i + 1) * 10, host: host };
       });

@@ -387,12 +387,13 @@
     ],
     "files": {
       "region": "gb_region.topo.json",
-      "district": "gb_municipality.topo.json",
+      "district": "gb_district.topo.json",
       "municipality": "gb_municipality.topo.json"
     },
     "sizes": {
       "gb_region.topo.json": 81615,
-      "gb_municipality.topo.json": 299451
+      "gb_district.topo.json": 30758,
+      "gb_municipality.topo.json": 127413
     }
   },
   "GE": {
@@ -805,11 +806,12 @@
       "municipality"
     ],
     "files": {
-      "region": "ua_municipality.topo.json",
+      "region": "ua_region.topo.json",
       "district": "ua_municipality.topo.json",
       "municipality": "ua_municipality.topo.json"
     },
     "sizes": {
+      "ua_region.topo.json": 92759,
       "ua_municipality.topo.json": 303916
     }
   },

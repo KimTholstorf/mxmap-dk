@@ -2,7 +2,10 @@ import re
 
 MICROSOFT_KEYWORDS = [
     "mail.protection.outlook.com",
+    "mail.protection.outlook.de",
     "outlook.com",
+    "outlook.de",
+    "hotmail.com",
     "microsoft",
     "office365",
     "onmicrosoft",

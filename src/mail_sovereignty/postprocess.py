@@ -15,6 +15,7 @@ from mail_sovereignty.constants import (
     CONCURRENCY_POSTPROCESS,
     CONCURRENCY_SMTP,
     EMAIL_RE,
+    PROVIDER_KEYWORDS,
     SKIP_DOMAINS,
     SUBPAGES,
     TYPO3_RE,
@@ -497,16 +498,36 @@ async def run(data_path: Path) -> None:
             if not banner:
                 continue
             provider = classify_from_smtp_banner(banner, ehlo)
+            # Check if the banner hostname itself belongs to a cloud
+            # provider (e.g. "220 xxx.mail.protection.outlook.com ...").
+            # If so, the municipality truly uses that provider's cloud
+            # even though the MX hostname looked self-hosted.
+            banner_host_is_cloud = provider and any(
+                kw in banner.lower().split()[1]
+                for kw in PROVIDER_KEYWORDS.get(provider, [])
+                if "." in kw  # only domain-like keywords
+            ) if len(banner.split()) > 1 else False
             for bfs in mx_host_to_bfs[mx_host]:
                 muni[bfs]["smtp_banner"] = banner
                 if provider and muni[bfs]["provider"] in ("independent", "unknown"):
                     old = muni[bfs]["provider"]
-                    muni[bfs]["provider"] = provider
-                    smtp_reclassified += 1
-                    print(
-                        f"  SMTP     {bfs:>5} {muni[bfs]['name']:<30} "
-                        f"{old} -> {provider} ({mx_host})"
-                    )
+                    if old == "independent" and not banner_host_is_cloud:
+                        # Self-hosted server running commercial software
+                        # (e.g. on-premise Exchange).  Keep as
+                        # "independent" but record the software so the
+                        # frontend can show it.
+                        muni[bfs]["smtp_software"] = provider
+                        print(
+                            f"  SMTP     {bfs:>5} {muni[bfs]['name']:<30} "
+                            f"independent (runs {provider}) ({mx_host})"
+                        )
+                    else:
+                        muni[bfs]["provider"] = provider
+                        smtp_reclassified += 1
+                        print(
+                            f"  SMTP     {bfs:>5} {muni[bfs]['name']:<30} "
+                            f"{old} -> {provider} ({mx_host})"
+                        )
 
         print(f"  SMTP reclassified: {smtp_reclassified}")
 
