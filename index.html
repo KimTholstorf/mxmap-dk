@@ -855,7 +855,12 @@ function getFileLevelName(cc, level) {
   if (typeof fileEntry === 'object') return level;
   // String value: "at_region.topo.json" -> "region"
   const match = fileEntry.match(/_([^.]+)\.topo\.json$/);
-  return match ? match[1] : 'municipality';
+  const fileLevel = match ? match[1] : 'municipality';
+  // If the requested level differs from the file level (e.g. district view
+  // reusing the municipality topo), use the requested level so aggregation
+  // groups correctly (by region/district, not individual municipality).
+  if (level !== 'municipality' && fileLevel === 'municipality') return level;
+  return fileLevel;
 }
 
 async function renderCountryLayer(cc) {
@@ -880,10 +885,12 @@ async function renderCountryLayer(cc) {
   const fileLevelName = getFileLevelName(cc, currentLevel);
   const muniFile = manifest[cc].files.municipality;
   const currentFile = manifest[cc].files[currentLevel];
-  // Aggregated if different level files, or if current is a string and muni is object (or vice versa)
-  const isAggregated = (typeof currentFile === 'string' && typeof muniFile === 'string')
-    ? currentFile !== muniFile
-    : (typeof currentFile !== typeof muniFile || currentLevel !== 'municipality');
+  // Aggregated if viewing region/district level, or if file differs from municipality file
+  const isAggregated = currentLevel !== 'municipality' || (
+    (typeof currentFile === 'string' && typeof muniFile === 'string')
+      ? currentFile !== muniFile
+      : typeof currentFile !== typeof muniFile
+  );
 
   let groups = null;
   if (isAggregated) {
