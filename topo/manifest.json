@@ -807,7 +807,7 @@
     ],
     "files": {
       "region": "ua_region.topo.json",
-      "district": "ua_municipality.topo.json",
+      "district": "ua_region.topo.json",
       "municipality": "ua_municipality.topo.json"
     },
     "sizes": {
