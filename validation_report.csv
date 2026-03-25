@@ -271,7 +271,6 @@ MT-02,Balzan,unknown,balzanlc.gov.mt,15,no_mx; no_spf; provider_unknown
 AL-05,Bashkia Devoll,unknown,bashkiadevoll.al,15,no_mx; no_spf; provider_unknown
 AL-07,Bashkia Divjakë,unknown,bashkiadivjake.com,15,no_mx; no_spf; provider_unknown
 AL-08,Bashkia Dropull,unknown,bashkiadropull.com,15,no_mx; no_spf; provider_unknown
-AL-10,Bashkia Fier,unknown,bashkiafier.gov.al,15,no_mx; no_spf; provider_unknown
 AL-46,Bashkia Selenicë,unknown,bashkiaselenice.org,15,no_mx; no_spf; provider_unknown
 AL-50,Bashkia Ura Vajgurore,unknown,uravajgurore.gov.al,15,no_mx; no_spf; provider_unknown
 HR-395,Beretinec,unknown,beretinec.hr,15,no_mx; no_spf; provider_unknown
@@ -314,7 +313,6 @@ GB-E07000137,East Lindsey,unknown,eastlindsey.gov.uk,15,no_mx; no_spf; provider_
 DE-07336018,Ehweiler,unknown,vg.kusel.de,15,no_mx; no_spf; provider_unknown
 ES-11027,El Puerto de Santa María,unknown,elpuertosantamaria.es,15,no_mx; no_spf; provider_unknown
 DE-07143221,Ewighausen,unknown,vg-selters.de,15,no_mx; no_spf; provider_unknown
-DE-03251017,Eydelstedt,unknown,eydelstedt.de,15,no_mx; no_spf; provider_unknown
 MT-08,Fgura,unknown,fguralc.gov.mt,15,no_mx; no_spf; provider_unknown
 IS-0012,Fljótsdalshreppur,unknown,fljotsdal.is,15,no_mx; no_spf; provider_unknown
 MT-09,Floriana,unknown,florianalc.gov.mt,15,no_mx; no_spf; provider_unknown
@@ -346,7 +344,6 @@ GB-E07000132,Hinckley and Bosworth,unknown,hinckleyandbosworth.gov.uk,15,no_mx; 
 DE-14628180,Höckendorf,unknown,gemeinde-hoeckendorf.info,15,no_mx; no_spf; provider_unknown
 DE-16066033,Hümpfershausen,unknown,cms.vg-wasungen.de,15,no_mx; no_spf; provider_unknown
 MT-19,Iklin,unknown,iklinlc.gov.mt,15,no_mx; no_spf; provider_unknown
-AZ-025,Imishli District,unknown,imishli.com,15,no_mx; no_spf; provider_unknown
 GR-119,Ios,unknown,ios.gr,15,no_mx; no_spf; provider_unknown
 BA-064,Istočno Novo Sarajevo,unknown,opistinasns.net,15,no_mx; no_spf; provider_unknown
 UA-044,Ivanychi Raion,unknown,ivaadm.gov.ua,15,no_mx; no_spf; provider_unknown
@@ -389,6 +386,7 @@ GB-E09000002,London Borough of Barking and Dagenham,unknown,barkinganddagenham.g
 FR-39300,Lons-le-Saunier,unknown,lfranche-comte.fr,15,no_mx; no_spf; provider_unknown
 BY-061,Luniniec District,unknown,luninets.brest-region.by,15,no_mx; no_spf; provider_unknown
 MT-24,Luqa,unknown,luqalc.gov.mt,15,no_mx; no_spf; provider_unknown
+BY-063,Mahilow District,unknown,mogilev-rik.gov.by,15,no_mx; no_spf; provider_unknown
 MT-25,Marsa,unknown,marsalc.gov.mt,15,no_mx; no_spf; provider_unknown
 MT-26,Marsaskala,unknown,marsaskalalc.gov.mt,15,no_mx; no_spf; provider_unknown
 MT-27,Marsaxlokk,unknown,marsaxlokklc.gov.mt,15,no_mx; no_spf; provider_unknown
@@ -408,7 +406,6 @@ MT-35,Munxar,unknown,munxarlc.gov.mt,15,no_mx; no_spf; provider_unknown
 MT-30,Mġarr,unknown,mgarrlc.gov.mt,15,no_mx; no_spf; provider_unknown
 MT-36,Nadur,unknown,nadurlc.gov.mt,15,no_mx; no_spf; provider_unknown
 DE-16069059,Nahetal-Waldau,unknown,nahetal-waldau.de,15,no_mx; no_spf; provider_unknown
-FR-92050,Nanterre,unknown,nanterre.fr,15,no_mx; no_spf; provider_unknown
 FR-44109,Nantes,unknown,nantes.fr,15,no_mx; no_spf; provider_unknown
 DE-14627160,Nauwalde,unknown,nauwalde.de,15,no_mx; no_spf; provider_unknown
 DE-07336065,Nerzweiler,unknown,nerzweiler.de,15,no_mx; no_spf; provider_unknown
@@ -4075,6 +4072,7 @@ DE-07137077,Münk,local-isp,muenk-eifel.de,85,mx_spf_match; provider_classified
 DE-09774160,Münsterhausen,microsoft,muensterhausen.de,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 FI-529,Naantali,microsoft,naantali.fi,85,spf_strict; mx_spf_match; multi_provider_spf:mailjet+microsoft+telia; provider_classified; autodiscover_confirms
 NO-5007,Namsos - Nåavmesjenjaelmie,microsoft,namsos.kommune.no,85,spf_strict; mx_spf_match; multi_provider_spf:aws+mailjet+microsoft+sendgrid; provider_classified; autodiscover_confirms
+FR-92050,Nanterre,independent,nanterre.fr,85,mx_spf_match; provider_classified
 IT-076,Napoli,independent,cittametropolitana.na.it,85,mx_spf_match; provider_classified
 DE-14730210,Naundorf,local-isp,naundorf-sachsen.de,85,mx_spf_match; provider_classified
 NL-1740,Neder-Betuwe,microsoft,nederbetuwe.nl,85,spf_strict; mx_spf_match; multi_provider_spf:google+microsoft; provider_classified; autodiscover_confirms
@@ -6508,7 +6506,6 @@ DE-13075109,Polzow,local-isp,amt-uecker-randow-tal.de,88,spf_softfail; mx_spf_ma
 ES-36,Pontevedra,independent,depo.gal,88,spf_softfail; mx_spf_match; provider_classified
 HR-334,Popovača,independent,popovaca.hr,88,spf_softfail; mx_spf_match; provider_classified
 DE-13072081,Poppendorf,local-isp,amtcarbaek.de,88,spf_softfail; mx_spf_match; provider_classified
-HR-100,Poreč,independent,porec.hr,88,spf_softfail; mx_spf_match; provider_classified
 DE-05770032,Porta Westfalica,local-isp,portawestfalica.de,88,spf_softfail; mx_spf_match; provider_classified
 PT-0302,Portel,local-isp,cm-portel.pt,88,spf_softfail; mx_spf_match; provider_classified
 HR-487,Posedarje,independent,opcina-posedarje.hr,88,spf_softfail; mx_spf_match; provider_classified
@@ -8160,7 +8157,6 @@ IT-100,Catania,independent,cittametropolitana.ct.it,90,spf_strict; mx_spf_match;
 IE-CN,Cavan County Council,microsoft,cavancoco.ie,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
 HU-021,Celldömölk District,independent,celldomolk.hu,90,spf_strict; mx_spf_match; provider_classified
 BA-014,Centar Municipality,microsoft,centar.ba,90,spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
-MK-010,Centar Municipality,independent,centar.gov.mk,90,spf_strict; mx_spf_match; provider_classified
 GB-W06000008,Ceredigion,microsoft,ceredigion.gov.uk,90,spf_strict; mx_spf_match; provider_classified
 HR-118,Cetingrad,independent,cetingrad.hr,90,spf_strict; mx_spf_match; provider_classified
 DE-09372117,Chamerau,local-isp,chamerau.de,90,spf_strict; mx_spf_match; provider_classified
@@ -8427,6 +8423,7 @@ DE-05366016,Euskirchen,independent,euskirchen.de,90,spf_strict; mx_spf_match; pr
 DE-09677127,Eußenheim,local-isp,eussenheim.de,90,spf_strict; mx_spf_match; provider_classified
 DE-05570024,Everswinkel,local-isp,everswinkel.de,90,spf_strict; mx_spf_match; provider_classified
 DE-05766028,Extertal,local-isp,extertal.de,90,spf_strict; mx_spf_match; provider_classified
+DE-03251017,Eydelstedt,independent,eydelstedt.de,90,spf_strict; mx_spf_match; provider_classified
 DK-430,Faaborg-Midtfyn,microsoft,fmk.dk,90,spf_strict; mx_spf_match; provider_classified
 SM-06,Faetano,independent,faetano.org,90,multiple_mx; mx_spf_match; provider_classified
 DE-01057018,Fahren,local-isp,amt-probstei.de,90,spf_strict; mx_spf_match; provider_classified
@@ -10000,7 +9997,6 @@ PL-0050,Powiat Świecki,local-isp,swiecki.pl,90,spf_strict; mx_spf_match; provid
 PL-0089,Powiat Żagański,local-isp,powiatzaganski.pl,90,spf_strict; mx_spf_match; provider_classified
 DE-09276135,Prackenbach,local-isp,prackenbach.de,90,spf_strict; mx_spf_match; provider_classified
 PT-0031,Praia da Vitória,local-isp,cmpv.pt,90,multiple_mx; mx_spf_match; provider_classified
-AT-60324,Preding,independent,preding.eu,90,spf_strict; mx_spf_match; provider_classified
 AT-20911,Preitenegg,independent,preitenegg.at,90,spf_strict; mx_spf_match; provider_classified
 HR-489,Preko,independent,opcina-preko.hr,90,spf_strict; mx_spf_match; provider_classified
 AT-60670,Premstätten,local-isp,unterpremstaetten.at,90,spf_strict; mx_spf_match; provider_classified
@@ -10667,7 +10663,6 @@ BA-127,Trnovo Municipality,local-isp,trnovo.ba,90,spf_strict; mx_spf_match; prov
 DE-09475182,Trogen,local-isp,trogen.de,90,spf_strict; mx_spf_match; provider_classified
 BE-63086,Trois-Ponts,google,troisponts.be,90,spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 DE-14730320,Trossin,local-isp,gemeinde-trossin.de,90,multiple_mx; mx_spf_match; provider_classified
-DE-09189157,Trostberg,independent,trostberg.de,90,spf_strict; mx_spf_match; provider_classified
 SI-186,Trzin,independent,trzin.si,90,spf_strict; mx_spf_match; provider_classified
 AM-037,Tsaghkadzor,independent,tsakhkadzor.am,90,spf_strict; mx_spf_match; provider_classified
 GE-061,Tsalenjikha Municipality,independent,tsalenjikha.gov.ge,90,spf_strict; mx_spf_match; provider_classified
@@ -13364,7 +13359,6 @@ DE-07335024,Mackenbach,local-isp,weilerbach.de,93,multiple_mx; spf_softfail; mx_
 DE-07134052,Mackenrodt,local-isp,mackenrodt.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-16071053,Magdala,local-isp,stadt-magdala.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-08115029,Magstadt,local-isp,magstadt.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
-BY-063,Mahilow District,independent,mogrik.gov.by,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-08317073,Mahlberg,local-isp,mahlberg.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-08327033,Mahlstetten,local-isp,mahlstetten.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-09671140,Mainaschaff,microsoft,mainaschaff.de,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
@@ -14044,6 +14038,7 @@ DE-09190142,Polling,independent,polling.de,93,multiple_mx; spf_softfail; mx_spf_
 BY-079,Polotsk District,independent,polotsk.vitebsk-region.gov.by,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-07131065,Pomster,local-isp,adenau.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 ES-24115,Ponferrada,microsoft,ponferrada.org,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+HR-100,Poreč,microsoft,porec.hr,93,spf_softfail; mx_spf_match; provider_classified; smtp_confirms
 NO-4001,Porsgrunn,microsoft,porsgrunn.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 DE-13073065,Poseritz,local-isp,poseritz.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-16077041,Posterstein,local-isp,posterstein.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
@@ -15635,6 +15630,7 @@ DE-03251006,Barver,local-isp,rehden.de,95,multiple_mx; spf_strict; mx_spf_match;
 FR-67,Bas-Rhin,microsoft,bas-rhin.fr,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 AL-06,Bashkia Dibër,microsoft,dibra.gov.al,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 AL-09,Bashkia Durrës,microsoft,durres.gov.al,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+AL-10,Bashkia Fier,microsoft,bashkiafier.gov.al,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 AL-13,Bashkia Gjirokastër,microsoft,bashkiagjirokaster.gov.al,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 AL-14,Bashkia Gramsh,microsoft,bashkiagramsh.gov.al,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 AL-16,Bashkia Himarë,microsoft,himara.gov.al,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
@@ -15969,6 +15965,7 @@ DE-03351006,Celle,local-isp,celle.de,95,multiple_mx; spf_strict; mx_spf_match; p
 BE-57018,Celles,microsoft,celles.be,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 PT-0125,Celorico da Beira,local-isp,cm-celoricodabeira.pt,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 PT-0057,Celorico de Basto,independent,mun-celoricodebasto.pt,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
+MK-010,Centar Municipality,microsoft,centar.gov.mk,95,spf_strict; mx_spf_match; provider_classified; smtp_confirms
 GR-053,Central Corfu and Diapontia Islands,local-isp,corfu.gr,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 GR-054,Central Tzoumerka,independent,dhmosktzoumerkwn.gr,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 FR-95127,Cergy,microsoft,cergy.fr,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
@@ -17064,6 +17061,7 @@ FI-145,Ilmajoki,microsoft,ilmajoki.fi,95,spf_strict; mx_spf_match; provider_clas
 DE-16070029,Ilmenau,local-isp,ilmenau.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 DE-16071101,Ilmtal-Weinstraße,microsoft,ilmtal-weinstrasse.de,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 FI-146,Ilomantsi,microsoft,ilomantsi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+AZ-025,Imishli District,independent,imishli.com,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 DE-06633014,Immenhausen,local-isp,immenhausen.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 DE-09771141,Inchenhofen,microsoft,inchenhofen.de,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 BE-25043,Incourt,microsoft,incourt.be,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
@@ -18446,6 +18444,7 @@ DE-13071117,Pragsdorf,microsoft,burg-stargard.de,95,spf_strict; mx_spf_match; pr
 AT-40508,Prambachkirchen,microsoft,prambachkirchen.at,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 DE-07141112,Prath,local-isp,vg-loreley.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 SI-095,Preddvor,microsoft,preddvor.si,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+AT-60324,Preding,microsoft,preding.eu,95,spf_strict; mx_spf_match; provider_classified; smtp_confirms
 DE-01057062,Preetz,local-isp,preetz.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 DE-13073066,Preetz,microsoft,altenpleen.de,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 DE-07232107,Preist,local-isp,vg-speicher.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
@@ -19321,6 +19320,7 @@ DE-01062082,Trittau,local-isp,trittau.de,95,multiple_mx; spf_strict; mx_spf_matc
 DE-05382068,Troisdorf,local-isp,troisdorf.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 DE-13071145,Trollenhagen,local-isp,amtneverin.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 BE-62122,Trooz,microsoft,trooz.be,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DE-09189157,Trostberg,microsoft,trostberg.de,95,spf_strict; mx_spf_match; provider_classified; smtp_confirms
 FR-10387,Troyes,local-isp,troyes.fr,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 DE-09778202,Trunkelsberg,microsoft,trunkelsberg.de,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 NO-3421,Trysil,microsoft,trysil.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
