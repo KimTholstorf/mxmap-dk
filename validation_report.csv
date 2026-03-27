@@ -6511,7 +6511,7 @@ DE-13075109,Polzow,local-isp,amt-uecker-randow-tal.de,88,spf_softfail; mx_spf_ma
 ES-36,Pontevedra,independent,depo.gal,88,spf_softfail; mx_spf_match; provider_classified
 HR-334,Popovača,independent,popovaca.hr,88,spf_softfail; mx_spf_match; provider_classified
 DE-13072081,Poppendorf,local-isp,amtcarbaek.de,88,spf_softfail; mx_spf_match; provider_classified
-HR-100,Poreč,independent,porec.hr,88,spf_softfail; mx_spf_match; provider_classified
+HR-100,Poreč,independent,porec.hr,88,spf_softfail; mx_spf_match; provider_classified; smtp_suggests:microsoft
 DE-05770032,Porta Westfalica,local-isp,portawestfalica.de,88,spf_softfail; mx_spf_match; provider_classified
 PT-0302,Portel,local-isp,cm-portel.pt,88,spf_softfail; mx_spf_match; provider_classified
 HR-487,Posedarje,independent,opcina-posedarje.hr,88,spf_softfail; mx_spf_match; provider_classified
@@ -10029,7 +10029,7 @@ PL-0050,Powiat Świecki,local-isp,swiecki.pl,90,spf_strict; mx_spf_match; provid
 PL-0089,Powiat Żagański,local-isp,powiatzaganski.pl,90,spf_strict; mx_spf_match; provider_classified
 DE-09276135,Prackenbach,local-isp,prackenbach.de,90,spf_strict; mx_spf_match; provider_classified
 PT-0031,Praia da Vitória,local-isp,cmpv.pt,90,multiple_mx; mx_spf_match; provider_classified
-AT-60324,Preding,independent,preding.eu,90,spf_strict; mx_spf_match; provider_classified
+AT-60324,Preding,independent,preding.eu,90,spf_strict; mx_spf_match; provider_classified; smtp_suggests:microsoft
 AT-20911,Preitenegg,independent,preitenegg.at,90,spf_strict; mx_spf_match; provider_classified
 HR-489,Preko,independent,opcina-preko.hr,90,spf_strict; mx_spf_match; provider_classified
 AT-60670,Premstätten,local-isp,unterpremstaetten.at,90,spf_strict; mx_spf_match; provider_classified
