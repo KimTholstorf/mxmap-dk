@@ -3,6 +3,7 @@ import re
 MICROSOFT_KEYWORDS = [
     "mail.protection.outlook.com",
     "mail.protection.outlook.de",
+    "mx.microsoft",
     "outlook.com",
     "outlook.de",
     "hotmail.com",
@@ -587,6 +588,7 @@ SMTP_BANNER_KEYWORDS = {
         "microsoft esmtp mail service",
         "outlook.com",
         "protection.outlook.com",
+        "mx.microsoft",
     ],
     "google": [
         "mx.google.com",

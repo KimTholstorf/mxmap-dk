@@ -167,9 +167,9 @@ class TestProcessUnknown:
                 return_value=["mail.test.ee"],
             ),
             patch(
-                "mail_sovereignty.postprocess.lookup_spf",
+                "mail_sovereignty.postprocess.lookup_txt",
                 new_callable=AsyncMock,
-                return_value="",
+                return_value=("", {}),
             ),
             patch(
                 "mail_sovereignty.postprocess.lookup_autodiscover",
@@ -249,9 +249,9 @@ class TestDnsRetryStep:
                 return_value=["testlinn-ee.mail.protection.outlook.com"],
             ),
             patch(
-                "mail_sovereignty.postprocess.lookup_spf",
+                "mail_sovereignty.postprocess.lookup_txt",
                 new_callable=AsyncMock,
-                return_value="v=spf1 include:spf.protection.outlook.com -all",
+                return_value=("v=spf1 include:spf.protection.outlook.com -all", {}),
             ),
             patch(
                 "mail_sovereignty.postprocess.lookup_autodiscover",

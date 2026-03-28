@@ -685,3 +685,70 @@ class TestClassifyTxtVerification:
             txt_verifications={"apple": "abc123", "facebook": "def456"},
         )
         assert provider(result) == "independent"
+
+
+# ── mx.microsoft MX pattern ─────────────────────────────────────────
+
+
+class TestMxMicrosoft:
+    def test_mx_microsoft_detected(self):
+        result = classify(["mx.microsoft"], "")
+        assert provider(result) == "microsoft"
+
+    def test_mx_microsoft_subdomain(self):
+        result = classify(["something.mx.microsoft"], "")
+        assert provider(result) == "microsoft"
+
+
+# ── MS365 tenant detection in classify() ─────────────────────────────
+
+
+class TestTenantDetection:
+    def test_gateway_tenant_managed(self):
+        """Gateway with no other backend signals but MS365 tenant → microsoft."""
+        result = classify(
+            ["filter.seppmail.cloud"],
+            "",
+            tenant="Managed",
+        )
+        assert provider(result) == "microsoft"
+        assert "MS365 tenant" in reason(result)
+
+    def test_gateway_tenant_federated(self):
+        """Gateway with Federated tenant → microsoft."""
+        result = classify(
+            ["filter.seppmail.cloud"],
+            "",
+            tenant="Federated",
+        )
+        assert provider(result) == "microsoft"
+        assert "MS365 tenant" in reason(result)
+
+    def test_gateway_dkim_takes_precedence_over_tenant(self):
+        """DKIM is more reliable than tenant check — DKIM wins."""
+        result = classify(
+            ["filter.seppmail.cloud"],
+            "",
+            dkim={"google": "google._domainkey.googlemail.com"},
+            tenant="Managed",
+        )
+        assert provider(result) == "google"
+        assert "DKIM" in reason(result)
+
+    def test_self_hosted_tenant_stays_independent(self):
+        """Tenant alone does NOT classify self-hosted MX (no gateway)."""
+        result = classify(
+            ["mail.example.ee"],
+            "",
+            tenant="Managed",
+        )
+        assert provider(result) == "independent"
+
+    def test_no_tenant_gateway_stays_independent(self):
+        """Gateway with no tenant and no backend signals → independent."""
+        result = classify(
+            ["filter.seppmail.cloud"],
+            "",
+            tenant=None,
+        )
+        assert provider(result) == "independent"

@@ -5,16 +5,16 @@ import re
 import dns.asyncresolver
 import dns.exception
 import dns.resolver
+import httpx
 
 logger = logging.getLogger(__name__)
 
 _resolvers = None
 
-_RETRYABLE = (dns.exception.Timeout, dns.resolver.NoAnswer, dns.resolver.NoNameservers)
-
 
 def make_resolvers() -> list[dns.asyncresolver.Resolver]:
     """Create a list of async resolvers pointing to different DNS servers."""
+    cache = dns.resolver.Cache()
     resolvers = []
     for nameservers in [None, ["8.8.8.8", "8.8.4.4"], ["1.1.1.1", "1.0.0.1"]]:
         r = dns.asyncresolver.Resolver()
@@ -22,6 +22,7 @@ def make_resolvers() -> list[dns.asyncresolver.Resolver]:
             r.nameservers = nameservers
         r.timeout = 10
         r.lifetime = 15
+        r.cache = cache
         resolvers.append(r)
     return resolvers
 
@@ -33,25 +34,43 @@ def get_resolvers() -> list[dns.asyncresolver.Resolver]:
     return _resolvers
 
 
-async def lookup_mx(domain: str) -> list[str]:
-    """Return list of MX exchange hostnames."""
+async def resolve_robust(qname: str, rdtype: str) -> dns.resolver.Answer | None:
+    """Universal DNS query with multi-resolver fallback.
+
+    Iterates system → Google → Cloudflare resolvers.
+    NXDOMAIN is terminal (returns None immediately).
+    NoAnswer/NoNameservers/Timeout retry on next resolver.
+    """
     resolvers = get_resolvers()
     for i, resolver in enumerate(resolvers):
         try:
-            answers = await resolver.resolve(domain, "MX")
-            return sorted(str(r.exchange).rstrip(".").lower() for r in answers)
+            return await resolver.resolve(qname, rdtype)
         except dns.resolver.NXDOMAIN:
-            return []
-        except _RETRYABLE as e:
+            return None
+        except dns.exception.Timeout:
             logger.debug(
-                "MX %s: %s on resolver %d, retrying", domain, type(e).__name__, i
+                "%s %s: Timeout on resolver %d, retrying", rdtype, qname, i
             )
             await asyncio.sleep(0.5)
             continue
+        except (dns.resolver.NoAnswer, dns.resolver.NoNameservers):
+            logger.debug(
+                "%s %s: NoAnswer/NoNameservers on resolver %d, retrying",
+                rdtype, qname, i,
+            )
+            continue
         except Exception:
             continue
-    logger.info("MX %s: all resolvers failed", domain)
-    return []
+    logger.info("%s %s: all resolvers failed", rdtype, qname)
+    return None
+
+
+async def lookup_mx(domain: str) -> list[str]:
+    """Return list of MX exchange hostnames."""
+    answers = await resolve_robust(domain, "MX")
+    if answers is None:
+        return []
+    return sorted(str(r.exchange).rstrip(".").lower() for r in answers)
 
 
 _VERIFICATION_PREFIXES: dict[str, str] = {
@@ -70,37 +89,23 @@ async def lookup_txt(domain: str) -> tuple[str, dict[str, str]]:
     Parses all TXT records in a single query: extracts the SPF record and
     domain verification tokens (MS=, google-site-verification=, etc.).
     """
-    resolvers = get_resolvers()
-    for i, resolver in enumerate(resolvers):
-        try:
-            answers = await resolver.resolve(domain, "TXT")
-            spf_records = []
-            verifications: dict[str, str] = {}
-            for r in answers:
-                txt = b"".join(r.strings).decode("utf-8", errors="ignore")
-                txt_lower = txt.lower()
-                if txt_lower.startswith("v=spf1"):
-                    spf_records.append(txt)
-                else:
-                    for prefix, provider in _VERIFICATION_PREFIXES.items():
-                        if txt_lower.startswith(prefix):
-                            # Store the value after the prefix
-                            verifications[provider] = txt[len(prefix):]
-                            break
-            spf = sorted(spf_records)[0] if spf_records else ""
-            return spf, verifications
-        except dns.resolver.NXDOMAIN:
-            return "", {}
-        except _RETRYABLE as e:
-            logger.debug(
-                "TXT %s: %s on resolver %d, retrying", domain, type(e).__name__, i
-            )
-            await asyncio.sleep(0.5)
-            continue
-        except Exception:
-            continue
-    logger.info("TXT %s: all resolvers failed", domain)
-    return "", {}
+    answers = await resolve_robust(domain, "TXT")
+    if answers is None:
+        return "", {}
+    spf_records = []
+    verifications: dict[str, str] = {}
+    for r in answers:
+        txt = b"".join(r.strings).decode("utf-8", errors="ignore")
+        txt_lower = txt.lower()
+        if txt_lower.startswith("v=spf1"):
+            spf_records.append(txt)
+        else:
+            for prefix, provider in _VERIFICATION_PREFIXES.items():
+                if txt_lower.startswith(prefix):
+                    verifications[provider] = txt[len(prefix):]
+                    break
+    spf = sorted(spf_records)[0] if spf_records else ""
+    return spf, verifications
 
 
 async def lookup_spf(domain: str) -> str:
@@ -156,35 +161,16 @@ async def resolve_spf_includes(spf_record: str, max_lookups: int = 10) -> str:
 
 async def lookup_cname_chain(hostname: str, max_hops: int = 10) -> list[str]:
     """Follow CNAME chain for hostname. Return list of targets (empty if no CNAME)."""
-    resolvers = get_resolvers()
     chain = []
     current = hostname
 
     for _ in range(max_hops):
-        resolved = False
-        for i, resolver in enumerate(resolvers):
-            try:
-                answers = await resolver.resolve(current, "CNAME")
-                target = str(list(answers)[0].target).rstrip(".").lower()
-                chain.append(target)
-                current = target
-                resolved = True
-                break
-            except (dns.resolver.NXDOMAIN, dns.resolver.NoAnswer):
-                break
-            except _RETRYABLE as e:
-                logger.debug(
-                    "CNAME %s: %s on resolver %d, retrying",
-                    current,
-                    type(e).__name__,
-                    i,
-                )
-                await asyncio.sleep(0.5)
-                continue
-            except Exception:
-                continue
-        if not resolved:
+        answers = await resolve_robust(current, "CNAME")
+        if answers is None:
             break
+        target = str(list(answers)[0].target).rstrip(".").lower()
+        chain.append(target)
+        current = target
 
     return chain
 
@@ -201,23 +187,10 @@ async def resolve_mx_cnames(mx_hosts: list[str]) -> dict[str, str]:
 
 async def lookup_a(hostname: str) -> list[str]:
     """Resolve hostname to IPv4 addresses via A record query."""
-    resolvers = get_resolvers()
-    for i, resolver in enumerate(resolvers):
-        try:
-            answers = await resolver.resolve(hostname, "A")
-            return [str(r) for r in answers]
-        except dns.resolver.NXDOMAIN:
-            return []
-        except _RETRYABLE as e:
-            logger.debug(
-                "A %s: %s on resolver %d, retrying", hostname, type(e).__name__, i
-            )
-            await asyncio.sleep(0.5)
-            continue
-        except Exception:
-            continue
-    logger.info("A %s: all resolvers failed", hostname)
-    return []
+    answers = await resolve_robust(hostname, "A")
+    if answers is None:
+        return []
+    return [str(r) for r in answers]
 
 
 async def lookup_asn_cymru(ip: str) -> int | None:
@@ -233,48 +206,28 @@ async def lookup_asn_country_cymru(ip: str) -> tuple[int, str] | None:
     """
     reversed_ip = ".".join(reversed(ip.split(".")))
     query = f"{reversed_ip}.origin.asn.cymru.com"
-    resolvers = get_resolvers()
-    for i, resolver in enumerate(resolvers):
+    answers = await resolve_robust(query, "TXT")
+    if answers is None:
+        return None
+    for r in answers:
+        txt = b"".join(r.strings).decode("utf-8", errors="ignore")
+        # Format: "3303 | 193.135.252.0/24 | CH | ripencc | ..."
+        parts = txt.split("|")
         try:
-            answers = await resolver.resolve(query, "TXT")
-            for r in answers:
-                txt = b"".join(r.strings).decode("utf-8", errors="ignore")
-                # Format: "3303 | 193.135.252.0/24 | CH | ripencc | ..."
-                parts = txt.split("|")
-                asn = int(parts[0].strip())
-                cc = parts[2].strip().upper() if len(parts) > 2 else ""
-                return asn, cc
-        except dns.resolver.NXDOMAIN:
-            return None
-        except _RETRYABLE as e:
-            logger.debug("ASN %s: %s on resolver %d, retrying", ip, type(e).__name__, i)
-            await asyncio.sleep(0.5)
+            asn = int(parts[0].strip())
+        except (ValueError, IndexError):
             continue
-        except Exception:
-            continue
-    logger.info("ASN %s: all resolvers failed", ip)
+        cc = parts[2].strip().upper() if len(parts) > 2 else ""
+        return asn, cc
     return None
 
 
 async def lookup_srv(name: str) -> list[tuple[str, int]]:
     """Return list of (target, port) from SRV records."""
-    resolvers = get_resolvers()
-    for i, resolver in enumerate(resolvers):
-        try:
-            answers = await resolver.resolve(name, "SRV")
-            return [(str(r.target).rstrip(".").lower(), r.port) for r in answers]
-        except dns.resolver.NXDOMAIN:
-            return []
-        except _RETRYABLE as e:
-            logger.debug(
-                "SRV %s: %s on resolver %d, retrying", name, type(e).__name__, i
-            )
-            await asyncio.sleep(0.5)
-            continue
-        except Exception:
-            continue
-    logger.info("SRV %s: all resolvers failed", name)
-    return []
+    answers = await resolve_robust(name, "SRV")
+    if answers is None:
+        return []
+    return [(str(r.target).rstrip(".").lower(), r.port) for r in answers]
 
 
 async def lookup_autodiscover(domain: str) -> dict[str, str]:
@@ -330,3 +283,24 @@ async def resolve_mx_countries(mx_hosts: list[str]) -> set[str]:
             if result and result[1]:
                 countries.add(result[1])
     return countries
+
+
+async def lookup_tenant(domain: str) -> str | None:
+    """Query Microsoft's getuserrealm.srf to detect MS365 tenant.
+
+    Returns 'Managed' or 'Federated' if an MS365 tenant is detected,
+    None otherwise.
+    """
+    url = "https://login.microsoftonline.com/getuserrealm.srf"
+    params = {"login": f"user@{domain}", "json": "1"}
+    try:
+        async with httpx.AsyncClient() as client:
+            r = await client.get(url, params=params, timeout=10)
+            r.raise_for_status()
+            data = r.json()
+            ns_type = data.get("NameSpaceType")
+            if ns_type in ("Managed", "Federated"):
+                return ns_type
+    except Exception as e:
+        logger.debug("Tenant check failed for %s: %s", domain, e)
+    return None

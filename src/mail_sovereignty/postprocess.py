@@ -1,5 +1,6 @@
 import asyncio
 import json
+import ssl
 from pathlib import Path
 from typing import Any
 from urllib.parse import urlparse
@@ -24,7 +25,8 @@ from mail_sovereignty.dns import (
     lookup_autodiscover,
     lookup_dkim,
     lookup_mx,
-    lookup_spf,
+    lookup_tenant,
+    lookup_txt,
     resolve_mx_asns,
     resolve_mx_countries,
     resolve_mx_cnames,
@@ -123,6 +125,18 @@ async def scrape_email_domains(client: httpx.AsyncClient, domain: str) -> set[st
             all_domains |= domains
             if all_domains:
                 return all_domains
+        except ssl.SSLCertVerificationError:
+            # Retry without SSL verification for expired/invalid certs
+            try:
+                async with httpx.AsyncClient(verify=False) as insecure:
+                    r = await insecure.get(url, follow_redirects=True, timeout=15)
+                    if r.status_code == 200:
+                        domains = extract_email_domains(r.text)
+                        all_domains |= domains
+                        if all_domains:
+                            return all_domains
+            except Exception:
+                continue
         except Exception:
             continue
 
@@ -147,13 +161,14 @@ async def process_unknown(
         for email_domain in sorted(email_domains):
             mx = await lookup_mx(email_domain)
             if mx:
-                spf = await lookup_spf(email_domain)
+                spf, txt_verifications = await lookup_txt(email_domain)
                 spf_resolved = await resolve_spf_includes(spf) if spf else ""
                 mx_cnames = await resolve_mx_cnames(mx)
                 mx_asns = await resolve_mx_asns(mx)
                 mx_countries = await resolve_mx_countries(mx)
                 autodiscover = await lookup_autodiscover(email_domain)
                 dkim = await lookup_dkim(email_domain)
+                tenant = await lookup_tenant(email_domain)
                 provider, reason = classify(
                     mx,
                     spf,
@@ -162,6 +177,8 @@ async def process_unknown(
                     resolved_spf=spf_resolved or None,
                     autodiscover=autodiscover or None,
                     dkim=dkim or None,
+                    txt_verifications=txt_verifications or None,
+                    tenant=tenant,
                 )
                 gateway = detect_gateway(mx)
                 print(
@@ -187,6 +204,10 @@ async def process_unknown(
                     m["autodiscover"] = autodiscover
                 if dkim:
                     m["dkim"] = dkim
+                if txt_verifications:
+                    m["txt_verifications"] = txt_verifications
+                if tenant:
+                    m["tenant"] = tenant
                 return m
 
         print(
@@ -350,13 +371,14 @@ async def run(data_path: Path) -> None:
 
         async def _relookup(bfs, domain):
             mx = await lookup_mx(domain)
-            spf = await lookup_spf(domain)
+            spf, txt_verifications = await lookup_txt(domain)
             spf_resolved = await resolve_spf_includes(spf) if spf else ""
             mx_cnames = await resolve_mx_cnames(mx) if mx else {}
             mx_asns = await resolve_mx_asns(mx) if mx else set()
             mx_countries = await resolve_mx_countries(mx) if mx else set()
             autodiscover = await lookup_autodiscover(domain)
             dkim = await lookup_dkim(domain)
+            tenant = await lookup_tenant(domain)
             provider, reason = classify(
                 mx,
                 spf,
@@ -365,6 +387,8 @@ async def run(data_path: Path) -> None:
                 resolved_spf=spf_resolved or None,
                 autodiscover=autodiscover or None,
                 dkim=dkim or None,
+                txt_verifications=txt_verifications or None,
+                tenant=tenant,
             )
             gateway = detect_gateway(mx) if mx else None
             return (
@@ -380,6 +404,8 @@ async def run(data_path: Path) -> None:
                 gateway,
                 autodiscover,
                 dkim,
+                txt_verifications,
+                tenant,
             )
 
         results = await asyncio.gather(*[_relookup(b, d) for b, d in dns_relookup])
@@ -396,6 +422,8 @@ async def run(data_path: Path) -> None:
             gateway,
             autodiscover,
             dkim,
+            txt_verifications,
+            tenant,
         ) in results:
             muni[bfs]["mx"] = mx
             muni[bfs]["spf"] = spf
@@ -415,6 +443,10 @@ async def run(data_path: Path) -> None:
                 muni[bfs]["autodiscover"] = autodiscover
             if dkim:
                 muni[bfs]["dkim"] = dkim
+            if txt_verifications:
+                muni[bfs]["txt_verifications"] = txt_verifications
+            if tenant:
+                muni[bfs]["tenant"] = tenant
             print(f"  {bfs:>5} {muni[bfs]['name']:<30} -> {provider} (DNS re-lookup)")
 
     # Step 2: Retry DNS for unknowns that have a domain
@@ -426,13 +458,14 @@ async def run(data_path: Path) -> None:
         for m in dns_retry_candidates:
             mx = await lookup_mx(m["domain"])
             if mx:
-                spf = await lookup_spf(m["domain"])
+                spf, txt_verifications = await lookup_txt(m["domain"])
                 spf_resolved = await resolve_spf_includes(spf) if spf else ""
                 mx_cnames = await resolve_mx_cnames(mx)
                 mx_asns = await resolve_mx_asns(mx)
                 mx_countries = await resolve_mx_countries(mx)
                 autodiscover = await lookup_autodiscover(m["domain"])
                 dkim = await lookup_dkim(m["domain"])
+                tenant = await lookup_tenant(m["domain"])
                 provider, reason = classify(
                     mx,
                     spf,
@@ -441,6 +474,8 @@ async def run(data_path: Path) -> None:
                     resolved_spf=spf_resolved or None,
                     autodiscover=autodiscover or None,
                     dkim=dkim or None,
+                    txt_verifications=txt_verifications or None,
+                    tenant=tenant,
                 )
                 gateway = detect_gateway(mx)
                 m["mx"] = mx
@@ -461,6 +496,10 @@ async def run(data_path: Path) -> None:
                     m["autodiscover"] = autodiscover
                 if dkim:
                     m["dkim"] = dkim
+                if txt_verifications:
+                    m["txt_verifications"] = txt_verifications
+                if tenant:
+                    m["tenant"] = tenant
                 print(f"  RECOVERED {m['bfs']:>5} {m['name']:<30} -> {provider}")
 
     # Step 2.5: SMTP banner check for independent/unknown with MX records

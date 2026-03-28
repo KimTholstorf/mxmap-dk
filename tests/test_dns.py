@@ -13,9 +13,11 @@ from mail_sovereignty.dns import (
     lookup_mx,
     lookup_spf,
     lookup_srv,
+    lookup_tenant,
     make_resolvers,
     resolve_mx_asns,
     resolve_mx_cnames,
+    resolve_robust,
     resolve_spf_includes,
 )
 
@@ -790,3 +792,127 @@ class TestLookupAutodiscover:
         ):
             result = await lookup_autodiscover("example.ch")
         assert result == {}
+
+
+class TestResolveRobust:
+    async def test_success(self):
+        mock_resolver = AsyncMock()
+        mock_resolver.resolve = AsyncMock(return_value=["answer"])
+
+        with patch("mail_sovereignty.dns.get_resolvers", return_value=[mock_resolver]):
+            result = await resolve_robust("example.ch", "MX")
+        assert result == ["answer"]
+
+    async def test_nxdomain_returns_none(self):
+        mock_resolver1 = AsyncMock()
+        mock_resolver1.resolve = AsyncMock(side_effect=dns.resolver.NXDOMAIN())
+        mock_resolver2 = AsyncMock()
+
+        with patch(
+            "mail_sovereignty.dns.get_resolvers",
+            return_value=[mock_resolver1, mock_resolver2],
+        ):
+            result = await resolve_robust("nonexistent.ch", "A")
+        assert result is None
+        # NXDOMAIN is terminal
+        mock_resolver2.resolve.assert_not_called()
+
+    async def test_timeout_retries_next_resolver(self):
+        mock_resolver1 = AsyncMock()
+        mock_resolver1.resolve = AsyncMock(side_effect=dns.exception.Timeout())
+        mock_resolver2 = AsyncMock()
+        mock_resolver2.resolve = AsyncMock(return_value=["answer"])
+
+        with patch(
+            "mail_sovereignty.dns.get_resolvers",
+            return_value=[mock_resolver1, mock_resolver2],
+        ):
+            with patch("asyncio.sleep", new_callable=AsyncMock):
+                result = await resolve_robust("example.ch", "TXT")
+        assert result == ["answer"]
+
+    async def test_noanswer_retries(self):
+        mock_resolver1 = AsyncMock()
+        mock_resolver1.resolve = AsyncMock(side_effect=dns.resolver.NoAnswer())
+        mock_resolver2 = AsyncMock()
+        mock_resolver2.resolve = AsyncMock(return_value=["answer"])
+
+        with patch(
+            "mail_sovereignty.dns.get_resolvers",
+            return_value=[mock_resolver1, mock_resolver2],
+        ):
+            result = await resolve_robust("example.ch", "CNAME")
+        assert result == ["answer"]
+
+    async def test_all_fail_returns_none(self):
+        resolvers = []
+        for _ in range(3):
+            r = AsyncMock()
+            r.resolve = AsyncMock(side_effect=dns.exception.Timeout())
+            resolvers.append(r)
+
+        with patch("mail_sovereignty.dns.get_resolvers", return_value=resolvers):
+            with patch("asyncio.sleep", new_callable=AsyncMock):
+                result = await resolve_robust("example.ch", "MX")
+        assert result is None
+
+
+class TestMakeResolversSharedCache:
+    def test_all_resolvers_share_cache(self):
+        resolvers = make_resolvers()
+        assert resolvers[0].cache is resolvers[1].cache
+        assert resolvers[1].cache is resolvers[2].cache
+
+
+class TestLookupTenant:
+    async def test_managed_tenant(self):
+        mock_response = MagicMock()
+        mock_response.json.return_value = {"NameSpaceType": "Managed"}
+        mock_response.raise_for_status = MagicMock()
+
+        mock_client = AsyncMock()
+        mock_client.get = AsyncMock(return_value=mock_response)
+        mock_client.__aenter__ = AsyncMock(return_value=mock_client)
+        mock_client.__aexit__ = AsyncMock(return_value=False)
+
+        with patch("mail_sovereignty.dns.httpx.AsyncClient", return_value=mock_client):
+            result = await lookup_tenant("tallinn.ee")
+        assert result == "Managed"
+
+    async def test_federated_tenant(self):
+        mock_response = MagicMock()
+        mock_response.json.return_value = {"NameSpaceType": "Federated"}
+        mock_response.raise_for_status = MagicMock()
+
+        mock_client = AsyncMock()
+        mock_client.get = AsyncMock(return_value=mock_response)
+        mock_client.__aenter__ = AsyncMock(return_value=mock_client)
+        mock_client.__aexit__ = AsyncMock(return_value=False)
+
+        with patch("mail_sovereignty.dns.httpx.AsyncClient", return_value=mock_client):
+            result = await lookup_tenant("example.de")
+        assert result == "Federated"
+
+    async def test_unknown_namespace_returns_none(self):
+        mock_response = MagicMock()
+        mock_response.json.return_value = {"NameSpaceType": "Unknown"}
+        mock_response.raise_for_status = MagicMock()
+
+        mock_client = AsyncMock()
+        mock_client.get = AsyncMock(return_value=mock_response)
+        mock_client.__aenter__ = AsyncMock(return_value=mock_client)
+        mock_client.__aexit__ = AsyncMock(return_value=False)
+
+        with patch("mail_sovereignty.dns.httpx.AsyncClient", return_value=mock_client):
+            result = await lookup_tenant("example.com")
+        assert result is None
+
+    async def test_http_error_returns_none(self):
+        mock_client = AsyncMock()
+        mock_client.get = AsyncMock(side_effect=Exception("connection error"))
+        mock_client.__aenter__ = AsyncMock(return_value=mock_client)
+        mock_client.__aexit__ = AsyncMock(return_value=False)
+
+        with patch("mail_sovereignty.dns.httpx.AsyncClient", return_value=mock_client):
+            result = await lookup_tenant("offline.ee")
+        assert result is None

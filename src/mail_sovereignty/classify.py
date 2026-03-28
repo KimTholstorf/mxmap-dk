@@ -108,6 +108,7 @@ def classify(
     autodiscover: dict[str, str] | None = None,
     dkim: dict[str, str] | None = None,
     txt_verifications: dict[str, str] | None = None,
+    tenant: str | None = None,
 ) -> tuple[str, str]:
     """Classify email provider based on MX, CNAME targets, SPF, autodiscover, and DKIM.
 
@@ -210,6 +211,11 @@ def classify(
         if txt_provider:
             return txt_provider, (
                 f"MX is {gateway} gateway; TXT verification proves {txt_provider} tenant"
+            )
+        # MS365 tenant detection via getuserrealm.srf
+        if tenant:
+            return "microsoft", (
+                f"MX is {gateway} gateway; MS365 tenant detected ({tenant})"
             )
         # Gateway relays to unknown backend
         return "independent", (

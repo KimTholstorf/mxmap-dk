@@ -12,6 +12,7 @@ from mail_sovereignty.dns import (
     lookup_autodiscover,
     lookup_dkim,
     lookup_mx,
+    lookup_tenant,
     lookup_txt,
     resolve_mx_asns,
     resolve_mx_countries,
@@ -437,6 +438,7 @@ async def scan_municipality(
                         spf, txt_verifications = await lookup_txt(guess)
                         break
 
+        tenant: str | None = None
         if cached and mx:
             # Use cached derived data
             spf_resolved = cached.get("spf_resolved", "")
@@ -446,12 +448,19 @@ async def scan_municipality(
             autodiscover = cached.get("autodiscover", {})
             dkim = cached.get("dkim", {})
             txt_verifications = cached.get("txt_verifications", txt_verifications)
+            tenant = cached.get("tenant")
 
             # Backfill txt_verifications if missing from old cache
             if not txt_verifications and domain:
                 _, txt_verifications = await lookup_txt(domain)
                 if txt_verifications:
                     cached["txt_verifications"] = txt_verifications
+
+            # Backfill tenant if missing from old cache
+            if tenant is None and domain:
+                tenant = await lookup_tenant(domain)
+                if tenant:
+                    cached["tenant"] = tenant
         else:
             # Fresh DNS lookups
             spf_resolved = await resolve_spf_includes(spf) if spf else ""
@@ -460,10 +469,11 @@ async def scan_municipality(
             mx_countries = await resolve_mx_countries(mx) if mx else set()
             autodiscover = await lookup_autodiscover(domain) if domain else {}
             dkim = await lookup_dkim(domain) if domain else {}
+            tenant = await lookup_tenant(domain) if domain else None
 
             # Store in cache
             if dns_cache and domain:
-                dns_cache.set_domain(domain, {
+                cache_data = {
                     "mx": mx, "spf": spf,
                     "spf_resolved": spf_resolved,
                     "mx_cnames": mx_cnames,
@@ -472,7 +482,10 @@ async def scan_municipality(
                     "autodiscover": autodiscover,
                     "dkim": dkim,
                     "txt_verifications": txt_verifications,
-                })
+                }
+                if tenant:
+                    cache_data["tenant"] = tenant
+                dns_cache.set_domain(domain, cache_data)
         provider, reason = classify(
             mx,
             spf,
@@ -482,6 +495,7 @@ async def scan_municipality(
             autodiscover=autodiscover or None,
             dkim=dkim or None,
             txt_verifications=txt_verifications or None,
+            tenant=tenant,
         )
         gateway = detect_gateway(mx) if mx else None
 
@@ -530,6 +544,8 @@ async def scan_municipality(
             entry["dkim"] = dkim
         if txt_verifications:
             entry["txt_verifications"] = txt_verifications
+        if tenant:
+            entry["tenant"] = tenant
         return entry
 
 
