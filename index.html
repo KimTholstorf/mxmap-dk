@@ -894,7 +894,16 @@ function getFileLevelName(cc, level) {
   return match ? match[1] : 'municipality';
 }
 
+const renderedFiles = new Map(); // cc -> {file, level}
+
 async function renderCountryLayer(cc) {
+  // Skip re-render if same topo file and same level (just restyle)
+  const newFile = manifest[cc] && manifest[cc].files[currentLevel];
+  const prev = renderedFiles.get(cc);
+  if (prev && prev.file === newFile && prev.level === currentLevel && countryLayers.has(cc)) {
+    return; // Same file + level, no need to re-render
+  }
+
   // Remove existing layer
   if (countryLayers.has(cc)) {
     map.removeLayer(countryLayers.get(cc));
@@ -934,13 +943,18 @@ async function renderCountryLayer(cc) {
   const layer = L.geoJSON(geojson, {
     style: function (feature) {
       if (!active) return INACTIVE_STYLE;
+      // Match once in style(), reuse in onEachFeature()
       if (isAggregated && groups) {
         const g = matchGroupFeature(feature, groups);
+        feature._matchedGroup = g;
+        feature._matchedMuni = null;
         if (g) {
           return { fillColor: g.blendedColor, fillOpacity: 0.75, color: '#999', weight: 0.5 };
         }
       } else {
         const m = matchFeature(feature);
+        feature._matchedMuni = m;
+        feature._matchedGroup = null;
         if (m) {
           return { fillColor: COLORS[m.classification.provider] || COLORS['Unknown'], fillOpacity: 0.75, color: '#666', weight: 0.5 };
         }
@@ -948,21 +962,13 @@ async function renderCountryLayer(cc) {
       return INACTIVE_STYLE;
     },
     onEachFeature: function (feature, layer) {
-      // Store match for updateStyles
-      if (isAggregated && groups) {
-        const g = matchGroupFeature(feature, groups);
-        feature._matchedGroup = g;
-        feature._matchedMuni = null;
-        if (g) {
-          layer.bindPopup(function () { return buildAggregatedPopup(g, feature, cc); }, { maxWidth: 400 });
-        }
-      } else {
-        const m = matchFeature(feature);
-        feature._matchedMuni = m;
-        feature._matchedGroup = null;
-        if (m) {
-          layer.bindPopup(function () { return buildPopup(m); }, { maxWidth: 400 });
-        }
+      // Reuse match from style()
+      const g = feature._matchedGroup;
+      const m = feature._matchedMuni;
+      if (isAggregated && g) {
+        layer.bindPopup(function () { return buildAggregatedPopup(g, feature, cc); }, { maxWidth: 400 });
+      } else if (m) {
+        layer.bindPopup(function () { return buildPopup(m); }, { maxWidth: 400 });
       }
       feature._country = cc;
 
@@ -977,6 +983,7 @@ async function renderCountryLayer(cc) {
   });
 
   countryLayers.set(cc, layer);
+  renderedFiles.set(cc, { file: newFile, level: currentLevel });
   layer.addTo(map);
 }
 

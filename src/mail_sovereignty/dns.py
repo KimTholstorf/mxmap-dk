@@ -20,8 +20,8 @@ def make_resolvers() -> list[dns.asyncresolver.Resolver]:
         r = dns.asyncresolver.Resolver()
         if nameservers:
             r.nameservers = nameservers
-        r.timeout = 10
-        r.lifetime = 15
+        r.timeout = 5
+        r.lifetime = 8
         r.cache = cache
         resolvers.append(r)
     return resolvers
@@ -261,25 +261,35 @@ async def lookup_dkim(domain: str) -> dict[str, str]:
     return result
 
 
+async def _resolve_host_asn_country(host: str) -> list[tuple[int, str] | None]:
+    """Resolve a single MX host to IPs and look up ASN+country for each IP in parallel."""
+    ips = await lookup_a(host)
+    if not ips:
+        return []
+    return await asyncio.gather(*[lookup_asn_country_cymru(ip) for ip in ips])
+
+
 async def resolve_mx_asns(mx_hosts: list[str]) -> set[int]:
     """Resolve all MX hosts to IPs, look up ASNs, return set of unique ASNs."""
+    if not mx_hosts:
+        return set()
+    host_results = await asyncio.gather(*[_resolve_host_asn_country(h) for h in mx_hosts])
     asns = set()
-    for host in mx_hosts:
-        ips = await lookup_a(host)
-        for ip in ips:
-            asn = await lookup_asn_cymru(ip)
-            if asn is not None:
-                asns.add(asn)
+    for results in host_results:
+        for result in results:
+            if result and result[0] is not None:
+                asns.add(result[0])
     return asns
 
 
 async def resolve_mx_countries(mx_hosts: list[str]) -> set[str]:
     """Resolve all MX hosts to IPs, look up countries, return set of country codes."""
+    if not mx_hosts:
+        return set()
+    host_results = await asyncio.gather(*[_resolve_host_asn_country(h) for h in mx_hosts])
     countries = set()
-    for host in mx_hosts:
-        ips = await lookup_a(host)
-        for ip in ips:
-            result = await lookup_asn_country_cymru(ip)
+    for results in host_results:
+        for result in results:
             if result and result[1]:
                 countries.add(result[1])
     return countries

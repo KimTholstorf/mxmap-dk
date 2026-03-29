@@ -628,11 +628,11 @@ class TestResolveMxAsns:
         with (
             patch("mail_sovereignty.dns.lookup_a", new_callable=AsyncMock) as mock_a,
             patch(
-                "mail_sovereignty.dns.lookup_asn_cymru", new_callable=AsyncMock
+                "mail_sovereignty.dns.lookup_asn_country_cymru", new_callable=AsyncMock
             ) as mock_asn,
         ):
             mock_a.return_value = ["193.135.252.10"]
-            mock_asn.return_value = 3303
+            mock_asn.return_value = (3303, "CH")
 
             result = await resolve_mx_asns(["mail1.rzobt.ch"])
         assert result == {3303}
@@ -641,11 +641,11 @@ class TestResolveMxAsns:
         with (
             patch("mail_sovereignty.dns.lookup_a", new_callable=AsyncMock) as mock_a,
             patch(
-                "mail_sovereignty.dns.lookup_asn_cymru", new_callable=AsyncMock
+                "mail_sovereignty.dns.lookup_asn_country_cymru", new_callable=AsyncMock
             ) as mock_asn,
         ):
             mock_a.return_value = ["193.135.252.10"]
-            mock_asn.return_value = 3303
+            mock_asn.return_value = (3303, "CH")
 
             result = await resolve_mx_asns(["mail1.rzobt.ch", "mail2.rzobt.ch"])
         assert result == {3303}
@@ -661,7 +661,7 @@ class TestResolveMxAsns:
         with (
             patch("mail_sovereignty.dns.lookup_a", new_callable=AsyncMock) as mock_a,
             patch(
-                "mail_sovereignty.dns.lookup_asn_cymru", new_callable=AsyncMock
+                "mail_sovereignty.dns.lookup_asn_country_cymru", new_callable=AsyncMock
             ) as mock_asn,
         ):
             mock_a.return_value = ["1.2.3.4"]

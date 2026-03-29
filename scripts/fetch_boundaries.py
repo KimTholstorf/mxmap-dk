@@ -407,6 +407,12 @@ def fetch_boundaries_per_state(cc: str):
         if e.get("osm_relation_id"):
             osm_to_entry[e["osm_relation_id"]] = e
 
+    # Skip if output already exists
+    out_path = TOPO_DIR / f"{cc_lower}_municipality.topo.json"
+    if out_path.exists():
+        print(f"  Skipping {cc} — {out_path.name} already exists ({out_path.stat().st_size:,} bytes)")
+        return
+
     all_features = []
     for state_code, state_osm_id in sorted(states.items()):
         print(f"\n  State {state_code} (OSM {state_osm_id})...")
@@ -437,8 +443,8 @@ out skel qt;
                     print("    Rate limited, waiting 90s...")
                     time.sleep(90)
                 elif "504" in str(e) or "timeout" in str(e).lower():
-                    print("    Timeout, waiting 30s...")
-                    time.sleep(30)
+                    print("    Timeout, waiting 45s...")
+                    time.sleep(45)
                 else:
                     time.sleep(15)
 
@@ -462,7 +468,7 @@ out skel qt;
 
         all_features.extend(geo.get("features", []))
         print(f"    Total features so far: {len(all_features)}")
-        time.sleep(15)
+        time.sleep(10)  # 10s between successful fetches (was 15)
 
     if not all_features:
         print(f"  No features collected for {cc}")
@@ -650,6 +656,12 @@ def main():
         config = COUNTRY_CONFIG[cc]
         print(f"\n{'='*50}")
         print(f"Processing {config['name']} ({cc})...")
+
+        # Skip if output already exists
+        out_path = TOPO_DIR / f"{cc.lower()}_municipality.topo.json"
+        if out_path.exists():
+            print(f"  Skipping — {out_path.name} already exists ({out_path.stat().st_size:,} bytes)")
+            continue
 
         # Load seed data for region annotation
         seed_path = DATA_DIR / f"municipalities_{cc.lower()}.json"
