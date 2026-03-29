@@ -736,6 +736,21 @@
       "nz_municipality.topo.json": 646666
     }
   },
+  "PG": {
+    "levels": [
+      "region",
+      "district",
+      "municipality"
+    ],
+    "files": {
+      "region": "pg_municipality.topo.json",
+      "district": "pg_municipality.topo.json",
+      "municipality": "pg_municipality.topo.json"
+    },
+    "sizes": {
+      "pg_municipality.topo.json": 42603
+    }
+  },
   "PH": {
     "levels": [
       "region",
