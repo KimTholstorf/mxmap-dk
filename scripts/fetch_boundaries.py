@@ -356,6 +356,130 @@ DE_STATES_OSM = {
     "13": 28322, "14": 62467, "15": 62607, "16": 62366,
 }
 
+# Large countries that need per-state boundary fetching
+# Maps state_code -> OSM relation ID
+LARGE_COUNTRY_STATES = {
+    "AU": {
+        "ACT": 2354197, "NSW": 2316593, "NT": 2316594, "QLD": 2316595,
+        "SA": 2316596, "TAS": 2369652, "VIC": 2316741, "WA": 2316598,
+    },
+}
+
+
+def fetch_boundaries_per_state(cc: str):
+    """Fetch boundaries per state for large countries.
+
+    Uses LARGE_COUNTRY_STATES config to fetch each state separately,
+    then combines into a single TopoJSON file per country.
+    """
+    if cc not in LARGE_COUNTRY_STATES:
+        print(f"  {cc} not configured for per-state fetching")
+        return
+
+    config = COUNTRY_CONFIG[cc]
+    admin_level = config["admin_level"]
+    states = LARGE_COUNTRY_STATES[cc]
+    cc_lower = cc.lower()
+
+    TOPO_DIR.mkdir(exist_ok=True)
+
+    # Load seed data
+    seed_path = DATA_DIR / f"municipalities_{cc_lower}.json"
+    with open(seed_path) as f:
+        seed_data = json.load(f)
+
+    osm_to_entry = {}
+    for e in seed_data:
+        if e.get("osm_relation_id"):
+            osm_to_entry[e["osm_relation_id"]] = e
+
+    all_features = []
+    for state_code, state_osm_id in sorted(states.items()):
+        print(f"\n  State {state_code} (OSM {state_osm_id})...")
+        area_id = 3600000000 + state_osm_id
+
+        query = f"""
+[out:json][timeout:300];
+area({area_id})->.state;
+(
+  relation["boundary"="administrative"]["admin_level"="{admin_level}"](area.state);
+);
+out body;
+>;
+out skel qt;
+"""
+        osm_data = None
+        for attempt in range(3):
+            try:
+                if attempt > 0:
+                    print(f"    Retry {attempt}...")
+                osm_data = overpass_query(query)
+                relations = [e for e in osm_data.get("elements", []) if e["type"] == "relation"]
+                print(f"    Got {len(relations)} relations")
+                break
+            except Exception as e:
+                print(f"    ERROR: {e}")
+                if "429" in str(e):
+                    print("    Rate limited, waiting 90s...")
+                    time.sleep(90)
+                elif "504" in str(e) or "timeout" in str(e).lower():
+                    print("    Timeout, waiting 30s...")
+                    time.sleep(30)
+                else:
+                    time.sleep(15)
+
+        if not osm_data:
+            time.sleep(10)
+            continue
+
+        geo = convert_osm_to_geojson_simple(osm_data)
+        for feature in geo.get("features", []):
+            props = feature.get("properties", {})
+            props["country"] = cc
+            props["state"] = state_code
+            fid = feature.get("id", "")
+            if fid.startswith("relation/"):
+                osm_id_int = int(fid.split("/")[1])
+                entry = osm_to_entry.get(osm_id_int)
+                if entry:
+                    props["region"] = entry.get("region", "")
+            if not props.get("osm_id"):
+                props["osm_id"] = fid
+
+        all_features.extend(geo.get("features", []))
+        print(f"    Total features so far: {len(all_features)}")
+        time.sleep(15)
+
+    if not all_features:
+        print(f"  No features collected for {cc}")
+        return
+
+    # Write combined GeoJSON and create TopoJSON
+    with tempfile.TemporaryDirectory() as tmpdir:
+        combined_path = f"{tmpdir}/combined.geojson"
+        with open(combined_path, "w") as f:
+            json.dump({"type": "FeatureCollection", "features": all_features}, f)
+
+        print(f"\n  Combined {len(all_features)} features for {cc}")
+
+        # Create municipality TopoJSON
+        muni_topo = create_topojson(combined_path, cc, "municipality")
+        muni_size = Path(muni_topo).stat().st_size
+        print(f"  Municipality TopoJSON: {muni_size:,} bytes")
+
+        # Create region TopoJSON
+        has_region = False
+        regions = set(f.get("properties", {}).get("region", "") for f in all_features if f.get("properties", {}).get("region"))
+        if len(regions) > 1:
+            region_topo = create_region_topojson(combined_path, cc)
+            if region_topo:
+                region_size = Path(region_topo).stat().st_size
+                print(f"  Region TopoJSON: {region_size:,} bytes")
+                has_region = True
+
+        update_manifest(cc, has_region)
+        print(f"  Updated manifest.json")
+
 
 def fetch_de_boundaries_per_state():
     """Fetch DE Gemeinde boundaries per Bundesland.
@@ -496,6 +620,13 @@ def main():
             print(f"\n{'='*50}")
             print("Processing Germany (DE) per-Bundesland...")
             fetch_de_boundaries_per_state()
+            continue
+
+        # Per-state fetching for other large countries
+        if cc in LARGE_COUNTRY_STATES:
+            print(f"\n{'='*50}")
+            print(f"Processing {COUNTRY_CONFIG[cc]['name']} ({cc}) per-state...")
+            fetch_boundaries_per_state(cc)
             continue
 
         if cc not in COUNTRY_CONFIG:
