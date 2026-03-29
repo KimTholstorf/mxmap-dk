@@ -1,0 +1,4157 @@
+[
+  {
+    "id": "ID-001",
+    "name": "Aceh Jaya",
+    "country": "ID",
+    "region": "Aceh",
+    "domain": "acehjayakab.go.id",
+    "osm_relation_id": 8912351
+  },
+  {
+    "id": "ID-002",
+    "name": "Aceh Singkil",
+    "country": "ID",
+    "region": "Aceh",
+    "domain": "acehsingkilkab.go.id",
+    "osm_relation_id": 8922305
+  },
+  {
+    "id": "ID-003",
+    "name": "Aceh Tamiang",
+    "country": "ID",
+    "region": "Aceh",
+    "domain": "acehtamiangkab.go.id",
+    "osm_relation_id": 8922310
+  },
+  {
+    "id": "ID-004",
+    "name": "Agam",
+    "country": "ID",
+    "region": "West Sumatra",
+    "domain": "agamkab.go.id",
+    "osm_relation_id": 2648098
+  },
+  {
+    "id": "ID-005",
+    "name": "Alor",
+    "country": "ID",
+    "region": "East Nusa Tenggara",
+    "domain": "alorkab.go.id",
+    "osm_relation_id": 11225319
+  },
+  {
+    "id": "ID-006",
+    "name": "Ambon",
+    "country": "ID",
+    "region": "Maluku",
+    "domain": "ambon.go.id",
+    "osm_relation_id": 13262351
+  },
+  {
+    "id": "ID-007",
+    "name": "Anambas Islands",
+    "country": "ID",
+    "region": "Riau Islands",
+    "domain": "anambaskab.go.id",
+    "osm_relation_id": 10660358
+  },
+  {
+    "id": "ID-008",
+    "name": "Aru Islands",
+    "country": "ID",
+    "region": "Maluku",
+    "domain": "",
+    "osm_relation_id": 11774714
+  },
+  {
+    "id": "ID-009",
+    "name": "Asahan",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "asahankab.go.id",
+    "osm_relation_id": 8483356
+  },
+  {
+    "id": "ID-010",
+    "name": "Asmat",
+    "country": "ID",
+    "region": "South Papua",
+    "domain": "asmatkab.go.id",
+    "osm_relation_id": 7754473
+  },
+  {
+    "id": "ID-011",
+    "name": "Badung",
+    "country": "ID",
+    "region": "Bali",
+    "domain": "badungkab.go.id",
+    "osm_relation_id": 14613953
+  },
+  {
+    "id": "ID-012",
+    "name": "Balangan",
+    "country": "ID",
+    "region": "South Kalimantan",
+    "domain": "balangankab.go.id",
+    "osm_relation_id": 12989888
+  },
+  {
+    "id": "ID-013",
+    "name": "Balikpapan",
+    "country": "ID",
+    "region": "East Kalimantan",
+    "domain": "balikpapan.go.id",
+    "osm_relation_id": 14921096
+  },
+  {
+    "id": "ID-014",
+    "name": "Banda Aceh",
+    "country": "ID",
+    "region": "Aceh",
+    "domain": "bandaacehkota.go.id",
+    "osm_relation_id": 5978331
+  },
+  {
+    "id": "ID-015",
+    "name": "Bandar Lampung",
+    "country": "ID",
+    "region": "Lampung",
+    "domain": "bandarlampungkota.go.id",
+    "osm_relation_id": 11007414
+  },
+  {
+    "id": "ID-016",
+    "name": "Bandung",
+    "country": "ID",
+    "region": "West Java",
+    "domain": "bandungkab.go.id",
+    "osm_relation_id": 14935959
+  },
+  {
+    "id": "ID-017",
+    "name": "Bandung",
+    "country": "ID",
+    "region": "West Java",
+    "domain": "bandung.go.id",
+    "osm_relation_id": 13290062
+  },
+  {
+    "id": "ID-018",
+    "name": "Banggai",
+    "country": "ID",
+    "region": "Central Sulawesi",
+    "domain": "banggaikab.go.id",
+    "osm_relation_id": 4269707
+  },
+  {
+    "id": "ID-019",
+    "name": "Banggai Islands",
+    "country": "ID",
+    "region": "Central Sulawesi",
+    "domain": "",
+    "osm_relation_id": 4269807
+  },
+  {
+    "id": "ID-020",
+    "name": "Banggai Laut",
+    "country": "ID",
+    "region": "Central Sulawesi",
+    "domain": "",
+    "osm_relation_id": 4270013
+  },
+  {
+    "id": "ID-021",
+    "name": "Bangka",
+    "country": "ID",
+    "region": "Bangka Belitung Islands",
+    "domain": "bangka.go.id",
+    "osm_relation_id": 11018586
+  },
+  {
+    "id": "ID-022",
+    "name": "Bangkalan",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "",
+    "osm_relation_id": 9674056
+  },
+  {
+    "id": "ID-023",
+    "name": "Bangli",
+    "country": "ID",
+    "region": "Bali",
+    "domain": "banglikab.go.id",
+    "osm_relation_id": 14322004
+  },
+  {
+    "id": "ID-024",
+    "name": "Banjar",
+    "country": "ID",
+    "region": "West Java",
+    "domain": "banjarkota.go.id",
+    "osm_relation_id": 14925430
+  },
+  {
+    "id": "ID-025",
+    "name": "Banjar",
+    "country": "ID",
+    "region": "South Kalimantan",
+    "domain": "banjarkab.go.id",
+    "osm_relation_id": 12989890
+  },
+  {
+    "id": "ID-026",
+    "name": "Banjarbaru",
+    "country": "ID",
+    "region": "South Kalimantan",
+    "domain": "en.banjarbarukota.go.id",
+    "osm_relation_id": 12989893
+  },
+  {
+    "id": "ID-027",
+    "name": "Banjarmasin",
+    "country": "ID",
+    "region": "South Kalimantan",
+    "domain": "banjarmasinkota.go.id",
+    "osm_relation_id": 12354003
+  },
+  {
+    "id": "ID-028",
+    "name": "Banjarnegara",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "banjarnegarakab.go.id",
+    "osm_relation_id": 9686816
+  },
+  {
+    "id": "ID-029",
+    "name": "Bantaeng",
+    "country": "ID",
+    "region": "South Sulawesi",
+    "domain": "bantaeng.go.id",
+    "osm_relation_id": 12573476
+  },
+  {
+    "id": "ID-030",
+    "name": "Bantul",
+    "country": "ID",
+    "region": "Yogyakarta",
+    "domain": "bantulkab.go.id",
+    "osm_relation_id": 5615253
+  },
+  {
+    "id": "ID-031",
+    "name": "Banyuasin",
+    "country": "ID",
+    "region": "South Sumatra",
+    "domain": "banyuasinkab.go.id",
+    "osm_relation_id": 10003084
+  },
+  {
+    "id": "ID-032",
+    "name": "Banyumas",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "banyumaskab.go.id",
+    "osm_relation_id": 9686820
+  },
+  {
+    "id": "ID-033",
+    "name": "Banyuwangi",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "banyuwangikab.go.id",
+    "osm_relation_id": 9674156
+  },
+  {
+    "id": "ID-034",
+    "name": "Barito Kuala",
+    "country": "ID",
+    "region": "South Kalimantan",
+    "domain": "baritokualakab.go.id",
+    "osm_relation_id": 12989892
+  },
+  {
+    "id": "ID-035",
+    "name": "Barru",
+    "country": "ID",
+    "region": "South Sulawesi",
+    "domain": "barrukab.go.id",
+    "osm_relation_id": 13246110
+  },
+  {
+    "id": "ID-036",
+    "name": "Batam",
+    "country": "ID",
+    "region": "Riau Islands",
+    "domain": "bpbatam.go.id",
+    "osm_relation_id": 10660353
+  },
+  {
+    "id": "ID-037",
+    "name": "Batang",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "batangkab.go.id",
+    "osm_relation_id": 9686825
+  },
+  {
+    "id": "ID-038",
+    "name": "Batang Hari",
+    "country": "ID",
+    "region": "Jambi",
+    "domain": "batangharikab.go.id",
+    "osm_relation_id": 14940953
+  },
+  {
+    "id": "ID-039",
+    "name": "Batu",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "batukota.go.id",
+    "osm_relation_id": 9674153
+  },
+  {
+    "id": "ID-040",
+    "name": "Batu Bara",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "batubarakab.go.id",
+    "osm_relation_id": 8483355
+  },
+  {
+    "id": "ID-041",
+    "name": "Bau Bau",
+    "country": "ID",
+    "region": "Southeast Sulawesi",
+    "domain": "baubaukota.go.id",
+    "osm_relation_id": 14910173
+  },
+  {
+    "id": "ID-042",
+    "name": "Bekasi",
+    "country": "ID",
+    "region": "West Java",
+    "domain": "bekasikab.go.id",
+    "osm_relation_id": 14765575
+  },
+  {
+    "id": "ID-043",
+    "name": "Bekasi",
+    "country": "ID",
+    "region": "West Java",
+    "domain": "bekasikota.go.id",
+    "osm_relation_id": 14509733
+  },
+  {
+    "id": "ID-044",
+    "name": "Belitung",
+    "country": "ID",
+    "region": "Bangka Belitung Islands",
+    "domain": "belitungkab.go.id",
+    "osm_relation_id": 11018582
+  },
+  {
+    "id": "ID-045",
+    "name": "Belu",
+    "country": "ID",
+    "region": "East Nusa Tenggara",
+    "domain": "",
+    "osm_relation_id": 11226929
+  },
+  {
+    "id": "ID-046",
+    "name": "Bener Meriah",
+    "country": "ID",
+    "region": "Aceh",
+    "domain": "benermeriahkab.go.id",
+    "osm_relation_id": 8931139
+  },
+  {
+    "id": "ID-047",
+    "name": "Bengkalis",
+    "country": "ID",
+    "region": "Riau",
+    "domain": "bengkalis.go.id",
+    "osm_relation_id": 7834374
+  },
+  {
+    "id": "ID-048",
+    "name": "Bengkayang",
+    "country": "ID",
+    "region": "West Kalimantan",
+    "domain": "",
+    "osm_relation_id": 10621498
+  },
+  {
+    "id": "ID-049",
+    "name": "Bengkulu",
+    "country": "ID",
+    "region": "Bengkulu",
+    "domain": "bengkulukota.go.id",
+    "osm_relation_id": 16196019
+  },
+  {
+    "id": "ID-050",
+    "name": "Berau",
+    "country": "ID",
+    "region": "East Kalimantan",
+    "domain": "beraukab.go.id",
+    "osm_relation_id": 14921090
+  },
+  {
+    "id": "ID-051",
+    "name": "Biak Numfor",
+    "country": "ID",
+    "region": "Papua",
+    "domain": "biakkab.go.id",
+    "osm_relation_id": 7754459
+  },
+  {
+    "id": "ID-052",
+    "name": "Bima",
+    "country": "ID",
+    "region": "West Nusa Tenggara",
+    "domain": "bimakab.go.id",
+    "osm_relation_id": 13263886
+  },
+  {
+    "id": "ID-053",
+    "name": "Bima",
+    "country": "ID",
+    "region": "West Nusa Tenggara",
+    "domain": "bimakota.go.id",
+    "osm_relation_id": 13263887
+  },
+  {
+    "id": "ID-054",
+    "name": "Binjai",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "binjaikota.go.id",
+    "osm_relation_id": 8484617
+  },
+  {
+    "id": "ID-055",
+    "name": "Bintan",
+    "country": "ID",
+    "region": "Riau Islands",
+    "domain": "bintankab.go.id",
+    "osm_relation_id": 10660356
+  },
+  {
+    "id": "ID-056",
+    "name": "Bireuen",
+    "country": "ID",
+    "region": "Aceh",
+    "domain": "bireuenkab.go.id",
+    "osm_relation_id": 14734667
+  },
+  {
+    "id": "ID-057",
+    "name": "Bitung",
+    "country": "ID",
+    "region": "North Sulawesi",
+    "domain": "bitungkota.go.id",
+    "osm_relation_id": 14907635
+  },
+  {
+    "id": "ID-058",
+    "name": "Blitar",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "blitarkab.go.id",
+    "osm_relation_id": 9676377
+  },
+  {
+    "id": "ID-059",
+    "name": "Blitar",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "blitarkota.go.id",
+    "osm_relation_id": 9676376
+  },
+  {
+    "id": "ID-060",
+    "name": "Blora",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "pemkabblora.go.id",
+    "osm_relation_id": 9687050
+  },
+  {
+    "id": "ID-061",
+    "name": "Boalemo",
+    "country": "ID",
+    "region": "Gorontalo",
+    "domain": "boalemokab.go.id",
+    "osm_relation_id": 14909130
+  },
+  {
+    "id": "ID-062",
+    "name": "Bogor",
+    "country": "ID",
+    "region": "West Java",
+    "domain": "bogorkab.go.id",
+    "osm_relation_id": 14762112
+  },
+  {
+    "id": "ID-063",
+    "name": "Bogor",
+    "country": "ID",
+    "region": "West Java",
+    "domain": "kotabogor.go.id",
+    "osm_relation_id": 14745927
+  },
+  {
+    "id": "ID-064",
+    "name": "Bojonegoro",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "bojonegorokab.go.id",
+    "osm_relation_id": 9676650
+  },
+  {
+    "id": "ID-065",
+    "name": "Bolaang Mongondow",
+    "country": "ID",
+    "region": "North Sulawesi",
+    "domain": "",
+    "osm_relation_id": 14907630
+  },
+  {
+    "id": "ID-066",
+    "name": "Bombana",
+    "country": "ID",
+    "region": "Southeast Sulawesi",
+    "domain": "",
+    "osm_relation_id": 16197256
+  },
+  {
+    "id": "ID-067",
+    "name": "Bondowoso",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "bondowosokab.go.id",
+    "osm_relation_id": 9674159
+  },
+  {
+    "id": "ID-068",
+    "name": "Bone",
+    "country": "ID",
+    "region": "South Sulawesi",
+    "domain": "",
+    "osm_relation_id": 14751783
+  },
+  {
+    "id": "ID-069",
+    "name": "Bone Bolango",
+    "country": "ID",
+    "region": "Gorontalo",
+    "domain": "bonebolangokab.go.id",
+    "osm_relation_id": 14909127
+  },
+  {
+    "id": "ID-070",
+    "name": "Bontang",
+    "country": "ID",
+    "region": "East Kalimantan",
+    "domain": "bontangkota.go.id",
+    "osm_relation_id": 14921093
+  },
+  {
+    "id": "ID-071",
+    "name": "Boven Digoel",
+    "country": "ID",
+    "region": "South Papua",
+    "domain": "bovendigoelkab.go.id",
+    "osm_relation_id": 7754474
+  },
+  {
+    "id": "ID-072",
+    "name": "Boyolali",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "boyolalikab.go.id",
+    "osm_relation_id": 9687052
+  },
+  {
+    "id": "ID-073",
+    "name": "Brebes",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "brebeskab.go.id",
+    "osm_relation_id": 9686821
+  },
+  {
+    "id": "ID-074",
+    "name": "Bukittinggi",
+    "country": "ID",
+    "region": "West Sumatra",
+    "domain": "bukittinggikota.go.id",
+    "osm_relation_id": 14954677
+  },
+  {
+    "id": "ID-075",
+    "name": "Buleleng",
+    "country": "ID",
+    "region": "Bali",
+    "domain": "bulelengkab.go.id",
+    "osm_relation_id": 14322007
+  },
+  {
+    "id": "ID-076",
+    "name": "Bulukumba",
+    "country": "ID",
+    "region": "South Sulawesi",
+    "domain": "",
+    "osm_relation_id": 13219216
+  },
+  {
+    "id": "ID-077",
+    "name": "Bulungan",
+    "country": "ID",
+    "region": "North Kalimantan",
+    "domain": "bulungan.go.id",
+    "osm_relation_id": 9884462
+  },
+  {
+    "id": "ID-078",
+    "name": "Bungo",
+    "country": "ID",
+    "region": "Jambi",
+    "domain": "bungokab.go.id",
+    "osm_relation_id": 14940951
+  },
+  {
+    "id": "ID-079",
+    "name": "Buol",
+    "country": "ID",
+    "region": "Central Sulawesi",
+    "domain": "",
+    "osm_relation_id": 4273893
+  },
+  {
+    "id": "ID-080",
+    "name": "Buru",
+    "country": "ID",
+    "region": "Maluku",
+    "domain": "",
+    "osm_relation_id": 13262347
+  },
+  {
+    "id": "ID-081",
+    "name": "Buton",
+    "country": "ID",
+    "region": "Southeast Sulawesi",
+    "domain": "",
+    "osm_relation_id": 14910166
+  },
+  {
+    "id": "ID-082",
+    "name": "Central Aceh",
+    "country": "ID",
+    "region": "Aceh",
+    "domain": "acehtengahkab.go.id",
+    "osm_relation_id": 8931154
+  },
+  {
+    "id": "ID-083",
+    "name": "Central Bangka",
+    "country": "ID",
+    "region": "Bangka Belitung Islands",
+    "domain": "bangkatengahkab.go.id",
+    "osm_relation_id": 11018584
+  },
+  {
+    "id": "ID-084",
+    "name": "Central Bengkulu",
+    "country": "ID",
+    "region": "Bengkulu",
+    "domain": "bengkulutengahkab.go.id",
+    "osm_relation_id": 16196020
+  },
+  {
+    "id": "ID-085",
+    "name": "Central Buton",
+    "country": "ID",
+    "region": "Southeast Sulawesi",
+    "domain": "butontengahkab.go.id",
+    "osm_relation_id": 14910172
+  },
+  {
+    "id": "ID-086",
+    "name": "Central Halmahera",
+    "country": "ID",
+    "region": "North Maluku",
+    "domain": "",
+    "osm_relation_id": 13263673
+  },
+  {
+    "id": "ID-087",
+    "name": "Central Hulu Sungai",
+    "country": "ID",
+    "region": "South Kalimantan",
+    "domain": "hulusungaitengahkab.go.id",
+    "osm_relation_id": 12989886
+  },
+  {
+    "id": "ID-088",
+    "name": "Central Lampung",
+    "country": "ID",
+    "region": "Lampung",
+    "domain": "",
+    "osm_relation_id": 11007424
+  },
+  {
+    "id": "ID-089",
+    "name": "Central Lombok",
+    "country": "ID",
+    "region": "West Nusa Tenggara",
+    "domain": "lomboktengahkab.go.id",
+    "osm_relation_id": 3815241
+  },
+  {
+    "id": "ID-090",
+    "name": "Central Maluku",
+    "country": "ID",
+    "region": "Maluku",
+    "domain": "",
+    "osm_relation_id": 13262350
+  },
+  {
+    "id": "ID-091",
+    "name": "Central Mamberamo",
+    "country": "ID",
+    "region": "Highland Papua",
+    "domain": "",
+    "osm_relation_id": 7754456
+  },
+  {
+    "id": "ID-092",
+    "name": "Central Mamuju",
+    "country": "ID",
+    "region": "West Sulawesi",
+    "domain": "",
+    "osm_relation_id": 14956266
+  },
+  {
+    "id": "ID-093",
+    "name": "Central Sumba",
+    "country": "ID",
+    "region": "East Nusa Tenggara",
+    "domain": "",
+    "osm_relation_id": 11225332
+  },
+  {
+    "id": "ID-094",
+    "name": "Central Tapanuli",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "tapteng.go.id",
+    "osm_relation_id": 8483345
+  },
+  {
+    "id": "ID-095",
+    "name": "Ciamis",
+    "country": "ID",
+    "region": "West Java",
+    "domain": "ciamiskab.go.id",
+    "osm_relation_id": 14925426
+  },
+  {
+    "id": "ID-096",
+    "name": "Cianjur",
+    "country": "ID",
+    "region": "West Java",
+    "domain": "cianjurkab.go.id",
+    "osm_relation_id": 14918117
+  },
+  {
+    "id": "ID-097",
+    "name": "Cilacap",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "cilacapkab.go.id",
+    "osm_relation_id": 9686822
+  },
+  {
+    "id": "ID-098",
+    "name": "Cilegon",
+    "country": "ID",
+    "region": "Banten",
+    "domain": "cilegon.go.id",
+    "osm_relation_id": 7641589
+  },
+  {
+    "id": "ID-099",
+    "name": "Cimahi",
+    "country": "ID",
+    "region": "West Java",
+    "domain": "cimahikota.go.id",
+    "osm_relation_id": 14935961
+  },
+  {
+    "id": "ID-100",
+    "name": "Cirebon",
+    "country": "ID",
+    "region": "West Java",
+    "domain": "cirebonkab.go.id",
+    "osm_relation_id": 16999941
+  },
+  {
+    "id": "ID-101",
+    "name": "Cirebon",
+    "country": "ID",
+    "region": "West Java",
+    "domain": "cirebonkota.go.id",
+    "osm_relation_id": 16991199
+  },
+  {
+    "id": "ID-102",
+    "name": "Dairi",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "batubarakab.go.id",
+    "osm_relation_id": 8483349
+  },
+  {
+    "id": "ID-103",
+    "name": "Deiyai",
+    "country": "ID",
+    "region": "Central Papua",
+    "domain": "",
+    "osm_relation_id": 7754462
+  },
+  {
+    "id": "ID-104",
+    "name": "Deli Serdang",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "deliserdang.go.id",
+    "osm_relation_id": 8483353
+  },
+  {
+    "id": "ID-105",
+    "name": "Demak",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "demakkab.go.id",
+    "osm_relation_id": 17241173
+  },
+  {
+    "id": "ID-106",
+    "name": "Denpasar",
+    "country": "ID",
+    "region": "Bali",
+    "domain": "denpasarkota.go.id",
+    "osm_relation_id": 7789828
+  },
+  {
+    "id": "ID-107",
+    "name": "Depok",
+    "country": "ID",
+    "region": "West Java",
+    "domain": "depok.go.id",
+    "osm_relation_id": 14525364
+  },
+  {
+    "id": "ID-108",
+    "name": "Dharmasraya",
+    "country": "ID",
+    "region": "West Sumatra",
+    "domain": "dharmasrayakab.go.id",
+    "osm_relation_id": 14954674
+  },
+  {
+    "id": "ID-109",
+    "name": "Dogiyai",
+    "country": "ID",
+    "region": "Central Papua",
+    "domain": "",
+    "osm_relation_id": 7754463
+  },
+  {
+    "id": "ID-110",
+    "name": "Dompu",
+    "country": "ID",
+    "region": "West Nusa Tenggara",
+    "domain": "dompukab.go.id",
+    "osm_relation_id": 13263885
+  },
+  {
+    "id": "ID-111",
+    "name": "Donggala",
+    "country": "ID",
+    "region": "Central Sulawesi",
+    "domain": "",
+    "osm_relation_id": 8758430
+  },
+  {
+    "id": "ID-112",
+    "name": "Dumai",
+    "country": "ID",
+    "region": "Riau",
+    "domain": "dumaikota.go.id",
+    "osm_relation_id": 7830590
+  },
+  {
+    "id": "ID-113",
+    "name": "East Aceh",
+    "country": "ID",
+    "region": "Aceh",
+    "domain": "acehtimurkab.go.id",
+    "osm_relation_id": 8931988
+  },
+  {
+    "id": "ID-114",
+    "name": "East Barito",
+    "country": "ID",
+    "region": "Central Kalimantan",
+    "domain": "baritotimurkab.go.id",
+    "osm_relation_id": 16179703
+  },
+  {
+    "id": "ID-115",
+    "name": "East Belitung",
+    "country": "ID",
+    "region": "Bangka Belitung Islands",
+    "domain": "belitungtimurkab.go.id",
+    "osm_relation_id": 11018581
+  },
+  {
+    "id": "ID-116",
+    "name": "East Bolaang Mongondow",
+    "country": "ID",
+    "region": "North Sulawesi",
+    "domain": "",
+    "osm_relation_id": 14907632
+  },
+  {
+    "id": "ID-117",
+    "name": "East Flores",
+    "country": "ID",
+    "region": "East Nusa Tenggara",
+    "domain": "florestimurkab.go.id",
+    "osm_relation_id": 11228386
+  },
+  {
+    "id": "ID-118",
+    "name": "East Halmahera",
+    "country": "ID",
+    "region": "North Maluku",
+    "domain": "",
+    "osm_relation_id": 13263674
+  },
+  {
+    "id": "ID-119",
+    "name": "East Kolaka",
+    "country": "ID",
+    "region": "Southeast Sulawesi",
+    "domain": "kolakatimurkab.go.id",
+    "osm_relation_id": 16197257
+  },
+  {
+    "id": "ID-120",
+    "name": "East Kotawaringin",
+    "country": "ID",
+    "region": "Central Kalimantan",
+    "domain": "",
+    "osm_relation_id": 16179712
+  },
+  {
+    "id": "ID-121",
+    "name": "East Kutai",
+    "country": "ID",
+    "region": "East Kalimantan",
+    "domain": "kutaitimur.go.id",
+    "osm_relation_id": 14921091
+  },
+  {
+    "id": "ID-122",
+    "name": "East Lampung",
+    "country": "ID",
+    "region": "Lampung",
+    "domain": "",
+    "osm_relation_id": 11007409
+  },
+  {
+    "id": "ID-123",
+    "name": "East Lombok",
+    "country": "ID",
+    "region": "West Nusa Tenggara",
+    "domain": "lomboktimurkab.go.id",
+    "osm_relation_id": 14315480
+  },
+  {
+    "id": "ID-124",
+    "name": "East Luwu",
+    "country": "ID",
+    "region": "South Sulawesi",
+    "domain": "luwutimurkab.go.id",
+    "osm_relation_id": 14757149
+  },
+  {
+    "id": "ID-125",
+    "name": "East Manggarai",
+    "country": "ID",
+    "region": "East Nusa Tenggara",
+    "domain": "",
+    "osm_relation_id": 11228383
+  },
+  {
+    "id": "ID-126",
+    "name": "East Ogan Komering Ulu",
+    "country": "ID",
+    "region": "South Sumatra",
+    "domain": "",
+    "osm_relation_id": 2657933
+  },
+  {
+    "id": "ID-127",
+    "name": "East Sumba",
+    "country": "ID",
+    "region": "East Nusa Tenggara",
+    "domain": "",
+    "osm_relation_id": 7239089
+  },
+  {
+    "id": "ID-128",
+    "name": "East Tanjung Jabung",
+    "country": "ID",
+    "region": "Jambi",
+    "domain": "tanjabtimkab.go.id",
+    "osm_relation_id": 14940954
+  },
+  {
+    "id": "ID-129",
+    "name": "Eastern Seram",
+    "country": "ID",
+    "region": "Maluku",
+    "domain": "",
+    "osm_relation_id": 13262352
+  },
+  {
+    "id": "ID-130",
+    "name": "Empat Lawang",
+    "country": "ID",
+    "region": "South Sumatra",
+    "domain": "empatlawangkab.go.id",
+    "osm_relation_id": 10005019
+  },
+  {
+    "id": "ID-131",
+    "name": "Ende",
+    "country": "ID",
+    "region": "East Nusa Tenggara",
+    "domain": "endekab.go.id",
+    "osm_relation_id": 11228379
+  },
+  {
+    "id": "ID-132",
+    "name": "Enrekang",
+    "country": "ID",
+    "region": "South Sulawesi",
+    "domain": "",
+    "osm_relation_id": 14752066
+  },
+  {
+    "id": "ID-133",
+    "name": "Fak Fak",
+    "country": "ID",
+    "region": "West Papua",
+    "domain": "",
+    "osm_relation_id": 14954918
+  },
+  {
+    "id": "ID-134",
+    "name": "Garut",
+    "country": "ID",
+    "region": "West Java",
+    "domain": "garutkab.go.id",
+    "osm_relation_id": 14925429
+  },
+  {
+    "id": "ID-135",
+    "name": "Gayo Lues",
+    "country": "ID",
+    "region": "Aceh",
+    "domain": "gayolueskab.go.id",
+    "osm_relation_id": 8922309
+  },
+  {
+    "id": "ID-136",
+    "name": "Gianyar",
+    "country": "ID",
+    "region": "Bali",
+    "domain": "gianyarkab.go.id",
+    "osm_relation_id": 14613952
+  },
+  {
+    "id": "ID-137",
+    "name": "Gorontalo",
+    "country": "ID",
+    "region": "Gorontalo",
+    "domain": "gorontalokab.go.id",
+    "osm_relation_id": 14909129
+  },
+  {
+    "id": "ID-138",
+    "name": "Gorontalo",
+    "country": "ID",
+    "region": "Gorontalo",
+    "domain": "gorontalokota.go.id",
+    "osm_relation_id": 14909128
+  },
+  {
+    "id": "ID-139",
+    "name": "Gowa",
+    "country": "ID",
+    "region": "South Sulawesi",
+    "domain": "gowakab.go.id",
+    "osm_relation_id": 12534407
+  },
+  {
+    "id": "ID-140",
+    "name": "Great Aceh",
+    "country": "ID",
+    "region": "Aceh",
+    "domain": "acehbesarkab.go.id",
+    "osm_relation_id": 8930394
+  },
+  {
+    "id": "ID-141",
+    "name": "Gresik",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "gresikkab.go.id",
+    "osm_relation_id": 9677344
+  },
+  {
+    "id": "ID-142",
+    "name": "Grobogan",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "grobogan.go.id",
+    "osm_relation_id": 9687051
+  },
+  {
+    "id": "ID-143",
+    "name": "Gunung Mas",
+    "country": "ID",
+    "region": "Central Kalimantan",
+    "domain": "gunungmaskab.go.id",
+    "osm_relation_id": 16179708
+  },
+  {
+    "id": "ID-144",
+    "name": "Gunungkidul",
+    "country": "ID",
+    "region": "Yogyakarta",
+    "domain": "gunungkidulkab.go.id",
+    "osm_relation_id": 5615251
+  },
+  {
+    "id": "ID-145",
+    "name": "Gunungsitoli",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "",
+    "osm_relation_id": 8484716
+  },
+  {
+    "id": "ID-146",
+    "name": "Humbang Hasundutan",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "humbanghasundutankab.go.id",
+    "osm_relation_id": 8483346
+  },
+  {
+    "id": "ID-147",
+    "name": "Indragiri Hilir",
+    "country": "ID",
+    "region": "Riau",
+    "domain": "inhilkab.go.id",
+    "osm_relation_id": 7830704
+  },
+  {
+    "id": "ID-148",
+    "name": "Indragiri Hulu",
+    "country": "ID",
+    "region": "Riau",
+    "domain": "inhu.go.id",
+    "osm_relation_id": 7830589
+  },
+  {
+    "id": "ID-149",
+    "name": "Indramayu",
+    "country": "ID",
+    "region": "West Java",
+    "domain": "indramayukab.go.id",
+    "osm_relation_id": 10751558
+  },
+  {
+    "id": "ID-150",
+    "name": "Intan Jaya",
+    "country": "ID",
+    "region": "Central Papua",
+    "domain": "",
+    "osm_relation_id": 7754465
+  },
+  {
+    "id": "ID-151",
+    "name": "Jambi",
+    "country": "ID",
+    "region": "Jambi",
+    "domain": "jambikota.go.id",
+    "osm_relation_id": 14940955
+  },
+  {
+    "id": "ID-152",
+    "name": "Jayapura",
+    "country": "ID",
+    "region": "Papua",
+    "domain": "jayapurakab.go.id",
+    "osm_relation_id": 7754449
+  },
+  {
+    "id": "ID-153",
+    "name": "Jayapura",
+    "country": "ID",
+    "region": "Papua",
+    "domain": "jayapurakota.go.id",
+    "osm_relation_id": 7754451
+  },
+  {
+    "id": "ID-154",
+    "name": "Jayawijaya",
+    "country": "ID",
+    "region": "Highland Papua",
+    "domain": "jayawijayakab.go.id",
+    "osm_relation_id": 7754470
+  },
+  {
+    "id": "ID-155",
+    "name": "Jember",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "pemkabjember.go.id",
+    "osm_relation_id": 9674158
+  },
+  {
+    "id": "ID-156",
+    "name": "Jembrana",
+    "country": "ID",
+    "region": "Bali",
+    "domain": "jembranakab.go.id",
+    "osm_relation_id": 14322006
+  },
+  {
+    "id": "ID-157",
+    "name": "Jeneponto",
+    "country": "ID",
+    "region": "South Sulawesi",
+    "domain": "",
+    "osm_relation_id": 12537099
+  },
+  {
+    "id": "ID-158",
+    "name": "Jepara",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "jeparakab.go.id",
+    "osm_relation_id": 9687056
+  },
+  {
+    "id": "ID-159",
+    "name": "Jombang",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "jombangkab.go.id",
+    "osm_relation_id": 13851137
+  },
+  {
+    "id": "ID-160",
+    "name": "Kaimana",
+    "country": "ID",
+    "region": "West Papua",
+    "domain": "kaimanakab.go.id",
+    "osm_relation_id": 14954917
+  },
+  {
+    "id": "ID-161",
+    "name": "Kampar",
+    "country": "ID",
+    "region": "Riau",
+    "domain": "kamparkab.go.id",
+    "osm_relation_id": 7830592
+  },
+  {
+    "id": "ID-162",
+    "name": "Kapuas",
+    "country": "ID",
+    "region": "Central Kalimantan",
+    "domain": "",
+    "osm_relation_id": 16179704
+  },
+  {
+    "id": "ID-163",
+    "name": "Kapuas Hulu",
+    "country": "ID",
+    "region": "West Kalimantan",
+    "domain": "kapuashulukab.go.id",
+    "osm_relation_id": 10621500
+  },
+  {
+    "id": "ID-164",
+    "name": "Karanganyar",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "karanganyar.go.id",
+    "osm_relation_id": 9687053
+  },
+  {
+    "id": "ID-165",
+    "name": "Karangasem",
+    "country": "ID",
+    "region": "Bali",
+    "domain": "karangasemkab.go.id",
+    "osm_relation_id": 14264457
+  },
+  {
+    "id": "ID-166",
+    "name": "Karawang",
+    "country": "ID",
+    "region": "West Java",
+    "domain": "karawangkab.go.id",
+    "osm_relation_id": 16368384
+  },
+  {
+    "id": "ID-167",
+    "name": "Karimun",
+    "country": "ID",
+    "region": "Riau Islands",
+    "domain": "kab-karimun.go.id",
+    "osm_relation_id": 10660354
+  },
+  {
+    "id": "ID-168",
+    "name": "Karo",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "karokab.go.id",
+    "osm_relation_id": 8483350
+  },
+  {
+    "id": "ID-169",
+    "name": "Katingan",
+    "country": "ID",
+    "region": "Central Kalimantan",
+    "domain": "",
+    "osm_relation_id": 16179709
+  },
+  {
+    "id": "ID-170",
+    "name": "Kaur",
+    "country": "ID",
+    "region": "Bengkulu",
+    "domain": "kaurkab.go.id",
+    "osm_relation_id": 16196024
+  },
+  {
+    "id": "ID-171",
+    "name": "Kebumen",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "kebumenkab.go.id",
+    "osm_relation_id": 9686815
+  },
+  {
+    "id": "ID-172",
+    "name": "Kediri",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "kedirikab.go.id",
+    "osm_relation_id": 9676374
+  },
+  {
+    "id": "ID-173",
+    "name": "Kediri",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "kotakediri.go.id",
+    "osm_relation_id": 9676375
+  },
+  {
+    "id": "ID-174",
+    "name": "Keerom",
+    "country": "ID",
+    "region": "Papua",
+    "domain": "",
+    "osm_relation_id": 7754450
+  },
+  {
+    "id": "ID-175",
+    "name": "Kendal",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "kendal.go.id",
+    "osm_relation_id": 9686810
+  },
+  {
+    "id": "ID-176",
+    "name": "Kendari",
+    "country": "ID",
+    "region": "Southeast Sulawesi",
+    "domain": ""
+  },
+  {
+    "id": "ID-177",
+    "name": "Kendari",
+    "country": "ID",
+    "region": "Southeast Sulawesi",
+    "domain": "kendarikota.go.id",
+    "osm_relation_id": 1795267
+  },
+  {
+    "id": "ID-178",
+    "name": "Kepahiang",
+    "country": "ID",
+    "region": "Bengkulu",
+    "domain": "",
+    "osm_relation_id": 16196027
+  },
+  {
+    "id": "ID-179",
+    "name": "Kerinci",
+    "country": "ID",
+    "region": "Jambi",
+    "domain": "kerincikab.go.id",
+    "osm_relation_id": 13757876
+  },
+  {
+    "id": "ID-180",
+    "name": "Ketapang",
+    "country": "ID",
+    "region": "West Kalimantan",
+    "domain": "",
+    "osm_relation_id": 10617337
+  },
+  {
+    "id": "ID-181",
+    "name": "Klaten",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "klatenkab.go.id",
+    "osm_relation_id": 9687060
+  },
+  {
+    "id": "ID-182",
+    "name": "Klungkung",
+    "country": "ID",
+    "region": "Bali",
+    "domain": "klungkung.go.id",
+    "osm_relation_id": 3250691
+  },
+  {
+    "id": "ID-183",
+    "name": "Kolaka",
+    "country": "ID",
+    "region": "Southeast Sulawesi",
+    "domain": "",
+    "osm_relation_id": 16197255
+  },
+  {
+    "id": "ID-184",
+    "name": "Konawe",
+    "country": "ID",
+    "region": "Southeast Sulawesi",
+    "domain": "",
+    "osm_relation_id": 16197251
+  },
+  {
+    "id": "ID-185",
+    "name": "Konawe Islands",
+    "country": "ID",
+    "region": "Southeast Sulawesi",
+    "domain": "",
+    "osm_relation_id": 14910162
+  },
+  {
+    "id": "ID-186",
+    "name": "Kotabaru",
+    "country": "ID",
+    "region": "South Kalimantan",
+    "domain": "kotabarukab.go.id",
+    "osm_relation_id": 12989882
+  },
+  {
+    "id": "ID-187",
+    "name": "Kotamobagu",
+    "country": "ID",
+    "region": "North Sulawesi",
+    "domain": "kotamobagukota.go.id",
+    "osm_relation_id": 14907636
+  },
+  {
+    "id": "ID-188",
+    "name": "Kuantan Singingi",
+    "country": "ID",
+    "region": "Riau",
+    "domain": "kuansing.go.id",
+    "osm_relation_id": 7830593
+  },
+  {
+    "id": "ID-189",
+    "name": "Kubu Raya",
+    "country": "ID",
+    "region": "West Kalimantan",
+    "domain": "kuburaya.go.id",
+    "osm_relation_id": 10617334
+  },
+  {
+    "id": "ID-190",
+    "name": "Kudus",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "kuduskab.go.id",
+    "osm_relation_id": 9687057
+  },
+  {
+    "id": "ID-191",
+    "name": "Kulon Progo",
+    "country": "ID",
+    "region": "Yogyakarta",
+    "domain": "kulonprogokab.go.id",
+    "osm_relation_id": 5615252
+  },
+  {
+    "id": "ID-192",
+    "name": "Kuningan",
+    "country": "ID",
+    "region": "West Java",
+    "domain": "kuningankab.go.id",
+    "osm_relation_id": 16999883
+  },
+  {
+    "id": "ID-193",
+    "name": "Kupang",
+    "country": "ID",
+    "region": "East Nusa Tenggara",
+    "domain": "kab-kupang.go.id",
+    "osm_relation_id": 11226927
+  },
+  {
+    "id": "ID-194",
+    "name": "Kupang",
+    "country": "ID",
+    "region": "East Nusa Tenggara",
+    "domain": "kupangkota.go.id",
+    "osm_relation_id": 11226931
+  },
+  {
+    "id": "ID-195",
+    "name": "Kutai Kartanegara",
+    "country": "ID",
+    "region": "East Kalimantan",
+    "domain": "kukarkab.go.id",
+    "osm_relation_id": 14921092
+  },
+  {
+    "id": "ID-196",
+    "name": "Labuhanbatu",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "labuhanbatukab.go.id",
+    "osm_relation_id": 8483358
+  },
+  {
+    "id": "ID-197",
+    "name": "Lahat",
+    "country": "ID",
+    "region": "South Sumatra",
+    "domain": "lahatkab.go.id",
+    "osm_relation_id": 10005018
+  },
+  {
+    "id": "ID-198",
+    "name": "Lamandau",
+    "country": "ID",
+    "region": "Central Kalimantan",
+    "domain": "",
+    "osm_relation_id": 16179706
+  },
+  {
+    "id": "ID-199",
+    "name": "Lamongan",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "lamongankab.go.id",
+    "osm_relation_id": 9676366
+  },
+  {
+    "id": "ID-200",
+    "name": "Landak",
+    "country": "ID",
+    "region": "West Kalimantan",
+    "domain": "",
+    "osm_relation_id": 10617333
+  },
+  {
+    "id": "ID-201",
+    "name": "Langkat",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "langkatkab.go.id",
+    "osm_relation_id": 8483352
+  },
+  {
+    "id": "ID-202",
+    "name": "Langsa",
+    "country": "ID",
+    "region": "Aceh",
+    "domain": "langsakota.go.id",
+    "osm_relation_id": 8922311
+  },
+  {
+    "id": "ID-203",
+    "name": "Lanny Jaya",
+    "country": "ID",
+    "region": "Highland Papua",
+    "domain": "",
+    "osm_relation_id": 7754469
+  },
+  {
+    "id": "ID-204",
+    "name": "Lebak",
+    "country": "ID",
+    "region": "Banten",
+    "domain": "lebak.go.id",
+    "osm_relation_id": 7641586
+  },
+  {
+    "id": "ID-205",
+    "name": "Lebong",
+    "country": "ID",
+    "region": "Bengkulu",
+    "domain": "",
+    "osm_relation_id": 16196029
+  },
+  {
+    "id": "ID-206",
+    "name": "Lembata",
+    "country": "ID",
+    "region": "East Nusa Tenggara",
+    "domain": "lembatakab.go.id",
+    "osm_relation_id": 11225318
+  },
+  {
+    "id": "ID-207",
+    "name": "Lhokseumawe",
+    "country": "ID",
+    "region": "Aceh",
+    "domain": "lhokseumawekota.go.id",
+    "osm_relation_id": 4126220
+  },
+  {
+    "id": "ID-208",
+    "name": "Lima Puluh Kota",
+    "country": "ID",
+    "region": "West Sumatra",
+    "domain": "limapuluhkota.go.id",
+    "osm_relation_id": 2648047
+  },
+  {
+    "id": "ID-209",
+    "name": "Lingga",
+    "country": "ID",
+    "region": "Riau Islands",
+    "domain": "linggakab.go.id",
+    "osm_relation_id": 10660355
+  },
+  {
+    "id": "ID-210",
+    "name": "Lubuk Linggau",
+    "country": "ID",
+    "region": "South Sumatra",
+    "domain": "lubuklinggau.go.id",
+    "osm_relation_id": 10004781
+  },
+  {
+    "id": "ID-211",
+    "name": "Lumajang",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "lumajang.in",
+    "osm_relation_id": 9674157
+  },
+  {
+    "id": "ID-212",
+    "name": "Luwu",
+    "country": "ID",
+    "region": "South Sulawesi",
+    "domain": "luwukab.go.id",
+    "osm_relation_id": 14752266
+  },
+  {
+    "id": "ID-213",
+    "name": "Madiun",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "madiunkab.go.id",
+    "osm_relation_id": 9676371
+  },
+  {
+    "id": "ID-214",
+    "name": "Madiun",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "madiunkota.go.id",
+    "osm_relation_id": 9676370
+  },
+  {
+    "id": "ID-215",
+    "name": "Magelang",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "",
+    "osm_relation_id": 9686814
+  },
+  {
+    "id": "ID-216",
+    "name": "Magelang",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "magelangkota.go.id",
+    "osm_relation_id": 9686811
+  },
+  {
+    "id": "ID-217",
+    "name": "Magetan",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "magetan.go.id",
+    "osm_relation_id": 9676652
+  },
+  {
+    "id": "ID-218",
+    "name": "Mahakam Ulu",
+    "country": "ID",
+    "region": "East Kalimantan",
+    "domain": "",
+    "osm_relation_id": 14921098
+  },
+  {
+    "id": "ID-219",
+    "name": "Majalengka",
+    "country": "ID",
+    "region": "West Java",
+    "domain": "majalengkakab.go.id",
+    "osm_relation_id": 8468327
+  },
+  {
+    "id": "ID-220",
+    "name": "Majene",
+    "country": "ID",
+    "region": "West Sulawesi",
+    "domain": "majenekab.go.id",
+    "osm_relation_id": 14956263
+  },
+  {
+    "id": "ID-221",
+    "name": "Makassar",
+    "country": "ID",
+    "region": "South Sulawesi",
+    "domain": "makassarkota.go.id",
+    "osm_relation_id": 11243159
+  },
+  {
+    "id": "ID-222",
+    "name": "Malaka",
+    "country": "ID",
+    "region": "East Nusa Tenggara",
+    "domain": "",
+    "osm_relation_id": 11226930
+  },
+  {
+    "id": "ID-223",
+    "name": "Malang",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "",
+    "osm_relation_id": 9674152
+  },
+  {
+    "id": "ID-224",
+    "name": "Malang",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "malangkota.go.id",
+    "osm_relation_id": 9674151
+  },
+  {
+    "id": "ID-225",
+    "name": "Malinau",
+    "country": "ID",
+    "region": "North Kalimantan",
+    "domain": "",
+    "osm_relation_id": 9884463
+  },
+  {
+    "id": "ID-226",
+    "name": "Mamasa",
+    "country": "ID",
+    "region": "West Sulawesi",
+    "domain": "",
+    "osm_relation_id": 14956261
+  },
+  {
+    "id": "ID-227",
+    "name": "Mamberamo Raya",
+    "country": "ID",
+    "region": "Papua",
+    "domain": "mamberamorayakab.go.id",
+    "osm_relation_id": 7754447
+  },
+  {
+    "id": "ID-228",
+    "name": "Mamuju",
+    "country": "ID",
+    "region": "West Sulawesi",
+    "domain": "mamujukab.go.id",
+    "osm_relation_id": 14956264
+  },
+  {
+    "id": "ID-229",
+    "name": "Manado",
+    "country": "ID",
+    "region": "North Sulawesi",
+    "domain": "kotamanado.go.id",
+    "osm_relation_id": 14907638
+  },
+  {
+    "id": "ID-230",
+    "name": "Mandailing Natal",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "madina.go.id",
+    "osm_relation_id": 8484429
+  },
+  {
+    "id": "ID-231",
+    "name": "Manggarai",
+    "country": "ID",
+    "region": "East Nusa Tenggara",
+    "domain": "",
+    "osm_relation_id": 11228382
+  },
+  {
+    "id": "ID-232",
+    "name": "Manokwari",
+    "country": "ID",
+    "region": "West Papua",
+    "domain": "manokwarikab.go.id",
+    "osm_relation_id": 14905731
+  },
+  {
+    "id": "ID-233",
+    "name": "Mappi",
+    "country": "ID",
+    "region": "South Papua",
+    "domain": "mappikab.go.id",
+    "osm_relation_id": 7754472
+  },
+  {
+    "id": "ID-234",
+    "name": "Maros",
+    "country": "ID",
+    "region": "South Sulawesi",
+    "domain": "maroskab.go.id",
+    "osm_relation_id": 12350745
+  },
+  {
+    "id": "ID-235",
+    "name": "Mataram",
+    "country": "ID",
+    "region": "West Nusa Tenggara",
+    "domain": "mataramkota.go.id",
+    "osm_relation_id": 14315479
+  },
+  {
+    "id": "ID-236",
+    "name": "Maybrat",
+    "country": "ID",
+    "region": "Southwest Papua",
+    "domain": "",
+    "osm_relation_id": 14905624
+  },
+  {
+    "id": "ID-237",
+    "name": "Medan",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "portal.medan.go.id",
+    "osm_relation_id": 8484616
+  },
+  {
+    "id": "ID-238",
+    "name": "Melawi",
+    "country": "ID",
+    "region": "West Kalimantan",
+    "domain": "",
+    "osm_relation_id": 10613837
+  },
+  {
+    "id": "ID-239",
+    "name": "Mempawah",
+    "country": "ID",
+    "region": "West Kalimantan",
+    "domain": "mempawahkab.go.id",
+    "osm_relation_id": 10617335
+  },
+  {
+    "id": "ID-240",
+    "name": "Mentawai Islands",
+    "country": "ID",
+    "region": "West Sumatra",
+    "domain": "mentawaikab.go.id",
+    "osm_relation_id": 14925535
+  },
+  {
+    "id": "ID-241",
+    "name": "Merangin",
+    "country": "ID",
+    "region": "Jambi",
+    "domain": "meranginkab.go.id",
+    "osm_relation_id": 13758060
+  },
+  {
+    "id": "ID-242",
+    "name": "Meranti Islands",
+    "country": "ID",
+    "region": "Riau",
+    "domain": "merantikab.go.id",
+    "osm_relation_id": 7833398
+  },
+  {
+    "id": "ID-243",
+    "name": "Merauke",
+    "country": "ID",
+    "region": "South Papua",
+    "domain": "merauke.go.id",
+    "osm_relation_id": 7754475
+  },
+  {
+    "id": "ID-244",
+    "name": "Mesuji",
+    "country": "ID",
+    "region": "Lampung",
+    "domain": "",
+    "osm_relation_id": 11007411
+  },
+  {
+    "id": "ID-245",
+    "name": "Metro",
+    "country": "ID",
+    "region": "Lampung",
+    "domain": "metrokota.go.id",
+    "osm_relation_id": 11007423
+  },
+  {
+    "id": "ID-246",
+    "name": "Mimika",
+    "country": "ID",
+    "region": "Central Papua",
+    "domain": "mimikakab.go.id",
+    "osm_relation_id": 7754461
+  },
+  {
+    "id": "ID-247",
+    "name": "Minahasa",
+    "country": "ID",
+    "region": "North Sulawesi",
+    "domain": "minahasa.go.id",
+    "osm_relation_id": 14907628
+  },
+  {
+    "id": "ID-248",
+    "name": "Mojokerto",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "",
+    "osm_relation_id": 9676367
+  },
+  {
+    "id": "ID-249",
+    "name": "Mojokerto",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "mojokertokota.go.id",
+    "osm_relation_id": 12553602
+  },
+  {
+    "id": "ID-250",
+    "name": "Morotai Island",
+    "country": "ID",
+    "region": "North Maluku",
+    "domain": "",
+    "osm_relation_id": 13263678
+  },
+  {
+    "id": "ID-251",
+    "name": "Morowali",
+    "country": "ID",
+    "region": "Central Sulawesi",
+    "domain": "",
+    "osm_relation_id": 10611265
+  },
+  {
+    "id": "ID-252",
+    "name": "Muara Enim",
+    "country": "ID",
+    "region": "South Sumatra",
+    "domain": "muaraenimkab.go.id",
+    "osm_relation_id": 10713042
+  },
+  {
+    "id": "ID-253",
+    "name": "Muaro Jambi",
+    "country": "ID",
+    "region": "Jambi",
+    "domain": "muarojambi.go.id",
+    "osm_relation_id": 14940956
+  },
+  {
+    "id": "ID-254",
+    "name": "Mukomuko",
+    "country": "ID",
+    "region": "Bengkulu",
+    "domain": "",
+    "osm_relation_id": 16196031
+  },
+  {
+    "id": "ID-255",
+    "name": "Muna",
+    "country": "ID",
+    "region": "Southeast Sulawesi",
+    "domain": "",
+    "osm_relation_id": 14910165
+  },
+  {
+    "id": "ID-256",
+    "name": "Murung Raya",
+    "country": "ID",
+    "region": "Central Kalimantan",
+    "domain": "murungrayakab.go.id",
+    "osm_relation_id": 16179707
+  },
+  {
+    "id": "ID-257",
+    "name": "Musi Banyuasin",
+    "country": "ID",
+    "region": "South Sumatra",
+    "domain": "mubakab.go.id",
+    "osm_relation_id": 10003083
+  },
+  {
+    "id": "ID-258",
+    "name": "Musi Rawas",
+    "country": "ID",
+    "region": "South Sumatra",
+    "domain": "musi-rawas.go.id",
+    "osm_relation_id": 10004782
+  },
+  {
+    "id": "ID-259",
+    "name": "Nabire",
+    "country": "ID",
+    "region": "Central Papua",
+    "domain": "",
+    "osm_relation_id": 7754457
+  },
+  {
+    "id": "ID-260",
+    "name": "Nagan Raya",
+    "country": "ID",
+    "region": "Aceh",
+    "domain": "naganrayakab.go.id",
+    "osm_relation_id": 8912353
+  },
+  {
+    "id": "ID-261",
+    "name": "Nagekeo",
+    "country": "ID",
+    "region": "East Nusa Tenggara",
+    "domain": "",
+    "osm_relation_id": 11228385
+  },
+  {
+    "id": "ID-262",
+    "name": "Natuna",
+    "country": "ID",
+    "region": "Riau Islands",
+    "domain": "",
+    "osm_relation_id": 10660357
+  },
+  {
+    "id": "ID-263",
+    "name": "Nduga",
+    "country": "ID",
+    "region": "Highland Papua",
+    "domain": "",
+    "osm_relation_id": 7754471
+  },
+  {
+    "id": "ID-264",
+    "name": "Ngada",
+    "country": "ID",
+    "region": "East Nusa Tenggara",
+    "domain": "",
+    "osm_relation_id": 11228384
+  },
+  {
+    "id": "ID-265",
+    "name": "Nganjuk",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "nganjuk.go.id",
+    "osm_relation_id": 9676372
+  },
+  {
+    "id": "ID-266",
+    "name": "Ngawi",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "ngawikab.go.id",
+    "osm_relation_id": 9676651
+  },
+  {
+    "id": "ID-267",
+    "name": "Nias",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "niaskab.go.id",
+    "osm_relation_id": 8484717
+  },
+  {
+    "id": "ID-268",
+    "name": "North Aceh",
+    "country": "ID",
+    "region": "Aceh",
+    "domain": "acehutara.go.id",
+    "osm_relation_id": 4559902
+  },
+  {
+    "id": "ID-269",
+    "name": "North Barito",
+    "country": "ID",
+    "region": "Central Kalimantan",
+    "domain": "",
+    "osm_relation_id": 16179701
+  },
+  {
+    "id": "ID-270",
+    "name": "North Bengkulu",
+    "country": "ID",
+    "region": "Bengkulu",
+    "domain": "bengkuluutarakab.go.id",
+    "osm_relation_id": 16196030
+  },
+  {
+    "id": "ID-271",
+    "name": "North Bolaang Mongondow",
+    "country": "ID",
+    "region": "North Sulawesi",
+    "domain": "",
+    "osm_relation_id": 14907634
+  },
+  {
+    "id": "ID-272",
+    "name": "North Buton",
+    "country": "ID",
+    "region": "Southeast Sulawesi",
+    "domain": "",
+    "osm_relation_id": 14910163
+  },
+  {
+    "id": "ID-273",
+    "name": "North Central Timor",
+    "country": "ID",
+    "region": "East Nusa Tenggara",
+    "domain": "",
+    "osm_relation_id": 11226928
+  },
+  {
+    "id": "ID-274",
+    "name": "North Gorontalo",
+    "country": "ID",
+    "region": "Gorontalo",
+    "domain": "",
+    "osm_relation_id": 14909125
+  },
+  {
+    "id": "ID-275",
+    "name": "North Halmahera",
+    "country": "ID",
+    "region": "North Maluku",
+    "domain": "halmaherautarakab.go.id",
+    "osm_relation_id": 13263672
+  },
+  {
+    "id": "ID-276",
+    "name": "North Hulu Sungai",
+    "country": "ID",
+    "region": "South Kalimantan",
+    "domain": "hsu.go.id",
+    "osm_relation_id": 12989887
+  },
+  {
+    "id": "ID-277",
+    "name": "North Kayong",
+    "country": "ID",
+    "region": "West Kalimantan",
+    "domain": "kayongutarakab.go.id",
+    "osm_relation_id": 10617338
+  },
+  {
+    "id": "ID-278",
+    "name": "North Kolaka",
+    "country": "ID",
+    "region": "Southeast Sulawesi",
+    "domain": "",
+    "osm_relation_id": 16197252
+  },
+  {
+    "id": "ID-279",
+    "name": "North Konawe",
+    "country": "ID",
+    "region": "Southeast Sulawesi",
+    "domain": "",
+    "osm_relation_id": 16197253
+  },
+  {
+    "id": "ID-280",
+    "name": "North Labuhanbatu",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "labuhanbatuutarakab.go.id",
+    "osm_relation_id": 8483357
+  },
+  {
+    "id": "ID-281",
+    "name": "North Lampung",
+    "country": "ID",
+    "region": "Lampung",
+    "domain": "",
+    "osm_relation_id": 11007421
+  },
+  {
+    "id": "ID-282",
+    "name": "North Lombok",
+    "country": "ID",
+    "region": "West Nusa Tenggara",
+    "domain": "",
+    "osm_relation_id": 14315483
+  },
+  {
+    "id": "ID-283",
+    "name": "North Luwu",
+    "country": "ID",
+    "region": "South Sulawesi",
+    "domain": "luwuutarakab.go.id",
+    "osm_relation_id": 14757140
+  },
+  {
+    "id": "ID-284",
+    "name": "North Minahasa",
+    "country": "ID",
+    "region": "North Sulawesi",
+    "domain": "minutkab.go.id",
+    "osm_relation_id": 9722949
+  },
+  {
+    "id": "ID-285",
+    "name": "North Morowali",
+    "country": "ID",
+    "region": "Central Sulawesi",
+    "domain": "",
+    "osm_relation_id": 10617647
+  },
+  {
+    "id": "ID-286",
+    "name": "North Musi Rawas",
+    "country": "ID",
+    "region": "South Sumatra",
+    "domain": "muratarakab.go.id",
+    "osm_relation_id": 10004783
+  },
+  {
+    "id": "ID-287",
+    "name": "North Nias",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "niasutarakab.go.id",
+    "osm_relation_id": 8484718
+  },
+  {
+    "id": "ID-288",
+    "name": "North Padang Lawas",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "",
+    "osm_relation_id": 8484427
+  },
+  {
+    "id": "ID-289",
+    "name": "North Paser of Penajam",
+    "country": "ID",
+    "region": "East Kalimantan",
+    "domain": "penajamkab.go.id",
+    "osm_relation_id": 14921095
+  },
+  {
+    "id": "ID-290",
+    "name": "North Tapanuli",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "taputkab.go.id",
+    "osm_relation_id": 8483344
+  },
+  {
+    "id": "ID-291",
+    "name": "North Toraja",
+    "country": "ID",
+    "region": "South Sulawesi",
+    "domain": "torajautarakab.go.id",
+    "osm_relation_id": 14757120
+  },
+  {
+    "id": "ID-292",
+    "name": "Nunukan",
+    "country": "ID",
+    "region": "North Kalimantan",
+    "domain": "malinau.go.id",
+    "osm_relation_id": 9884464
+  },
+  {
+    "id": "ID-293",
+    "name": "Ogan Ilir",
+    "country": "ID",
+    "region": "South Sumatra",
+    "domain": "oganilirkab.go.id",
+    "osm_relation_id": 10713041
+  },
+  {
+    "id": "ID-294",
+    "name": "Ogan Komering Ilir",
+    "country": "ID",
+    "region": "South Sumatra",
+    "domain": "go.kaboki.go.id",
+    "osm_relation_id": 9997288
+  },
+  {
+    "id": "ID-295",
+    "name": "Ogan Komering Ulu",
+    "country": "ID",
+    "region": "South Sumatra",
+    "domain": "okukab.go.id",
+    "osm_relation_id": 2657934
+  },
+  {
+    "id": "ID-296",
+    "name": "Pacitan",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "pacitankab.go.id",
+    "osm_relation_id": 9676654
+  },
+  {
+    "id": "ID-297",
+    "name": "Padang",
+    "country": "ID",
+    "region": "West Sumatra",
+    "domain": "padang.go.id",
+    "osm_relation_id": 14954680
+  },
+  {
+    "id": "ID-298",
+    "name": "Padang Lawas",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "",
+    "osm_relation_id": 8484428
+  },
+  {
+    "id": "ID-299",
+    "name": "Padang Panjang",
+    "country": "ID",
+    "region": "West Sumatra",
+    "domain": "padangpanjangkota.go.id",
+    "osm_relation_id": 14954678
+  },
+  {
+    "id": "ID-300",
+    "name": "Padang Pariaman",
+    "country": "ID",
+    "region": "West Sumatra",
+    "domain": "padangpariamankab.go.id",
+    "osm_relation_id": 14954671
+  },
+  {
+    "id": "ID-301",
+    "name": "Padangsidimpuan",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "",
+    "osm_relation_id": 8484622
+  },
+  {
+    "id": "ID-302",
+    "name": "Pagar Alam",
+    "country": "ID",
+    "region": "South Sumatra",
+    "domain": "pagaralam.go.id",
+    "osm_relation_id": 10005020
+  },
+  {
+    "id": "ID-303",
+    "name": "Pakpak Bharat",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "pakpakbharatkab.go.id",
+    "osm_relation_id": 8483348
+  },
+  {
+    "id": "ID-304",
+    "name": "Palangka Raya",
+    "country": "ID",
+    "region": "Central Kalimantan",
+    "domain": "palangkaraya.go.id",
+    "osm_relation_id": 16179713
+  },
+  {
+    "id": "ID-305",
+    "name": "Palembang",
+    "country": "ID",
+    "region": "South Sumatra",
+    "domain": "palembang.go.id",
+    "osm_relation_id": 10713145
+  },
+  {
+    "id": "ID-306",
+    "name": "Palopo",
+    "country": "ID",
+    "region": "South Sulawesi",
+    "domain": "palopokota.go.id",
+    "osm_relation_id": 14752329
+  },
+  {
+    "id": "ID-307",
+    "name": "Palu",
+    "country": "ID",
+    "region": "Central Sulawesi",
+    "domain": "palukota.go.id",
+    "osm_relation_id": 4277707
+  },
+  {
+    "id": "ID-308",
+    "name": "Pamekasan",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "pamekasankab.go.id",
+    "osm_relation_id": 9674058
+  },
+  {
+    "id": "ID-309",
+    "name": "Pandeglang",
+    "country": "ID",
+    "region": "Banten",
+    "domain": "pandeglangkab.go.id",
+    "osm_relation_id": 7641585
+  },
+  {
+    "id": "ID-310",
+    "name": "Pangandaran",
+    "country": "ID",
+    "region": "West Java",
+    "domain": "pangandarankab.go.id",
+    "osm_relation_id": 14925427
+  },
+  {
+    "id": "ID-311",
+    "name": "Pangkajene and Islands",
+    "country": "ID",
+    "region": "South Sulawesi",
+    "domain": "",
+    "osm_relation_id": 13246111
+  },
+  {
+    "id": "ID-312",
+    "name": "Pangkal Pinang",
+    "country": "ID",
+    "region": "Bangka Belitung Islands",
+    "domain": "pangkalpinang.go.id",
+    "osm_relation_id": 11018585
+  },
+  {
+    "id": "ID-313",
+    "name": "Paniai",
+    "country": "ID",
+    "region": "Central Papua",
+    "domain": "",
+    "osm_relation_id": 7754464
+  },
+  {
+    "id": "ID-314",
+    "name": "Parepare",
+    "country": "ID",
+    "region": "South Sulawesi",
+    "domain": "pareparekota.go.id",
+    "osm_relation_id": 13246109
+  },
+  {
+    "id": "ID-315",
+    "name": "Pariaman",
+    "country": "ID",
+    "region": "West Sumatra",
+    "domain": "kotapariaman.go.id",
+    "osm_relation_id": 14954679
+  },
+  {
+    "id": "ID-316",
+    "name": "Parigi Moutong",
+    "country": "ID",
+    "region": "Central Sulawesi",
+    "domain": "parigimoutongkab.go.id",
+    "osm_relation_id": 8758629
+  },
+  {
+    "id": "ID-317",
+    "name": "Pasaman",
+    "country": "ID",
+    "region": "West Sumatra",
+    "domain": "pasamankab.go.id",
+    "osm_relation_id": 2648099
+  },
+  {
+    "id": "ID-318",
+    "name": "Pasangkayu",
+    "country": "ID",
+    "region": "West Sulawesi",
+    "domain": "",
+    "osm_relation_id": 14956265
+  },
+  {
+    "id": "ID-319",
+    "name": "Paser",
+    "country": "ID",
+    "region": "East Kalimantan",
+    "domain": "",
+    "osm_relation_id": 14921094
+  },
+  {
+    "id": "ID-320",
+    "name": "Pasuruan",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "pasuruankab.go.id",
+    "osm_relation_id": 9674154
+  },
+  {
+    "id": "ID-321",
+    "name": "Pasuruan",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "pasuruankota.go.id",
+    "osm_relation_id": 9674155
+  },
+  {
+    "id": "ID-322",
+    "name": "Pati",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "patikab.go.id",
+    "osm_relation_id": 9687058
+  },
+  {
+    "id": "ID-323",
+    "name": "Payakumbuh",
+    "country": "ID",
+    "region": "West Sumatra",
+    "domain": "payakumbuhkota.go.id",
+    "osm_relation_id": 14954676
+  },
+  {
+    "id": "ID-324",
+    "name": "Pegunungan Arfak",
+    "country": "ID",
+    "region": "West Papua",
+    "domain": "",
+    "osm_relation_id": 14905733
+  },
+  {
+    "id": "ID-325",
+    "name": "Pegunungan Bintang",
+    "country": "ID",
+    "region": "Highland Papua",
+    "domain": "pegbintangkab.go.id",
+    "osm_relation_id": 7754452
+  },
+  {
+    "id": "ID-326",
+    "name": "Pekalongan",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "",
+    "osm_relation_id": 9686827
+  },
+  {
+    "id": "ID-327",
+    "name": "Pekalongan",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "pekalongankota.go.id",
+    "osm_relation_id": 9686826
+  },
+  {
+    "id": "ID-328",
+    "name": "Pekanbaru",
+    "country": "ID",
+    "region": "Riau",
+    "domain": "pekanbaru.go.id",
+    "osm_relation_id": 16563796
+  },
+  {
+    "id": "ID-329",
+    "name": "Pelalawan",
+    "country": "ID",
+    "region": "Riau",
+    "domain": "pelalawankab.go.id",
+    "osm_relation_id": 7833465
+  },
+  {
+    "id": "ID-330",
+    "name": "Pemalang",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "pemalangkab.go.id",
+    "osm_relation_id": 9686818
+  },
+  {
+    "id": "ID-331",
+    "name": "Pematangsiantar",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "pematangsiantar.go.id",
+    "osm_relation_id": 8484618
+  },
+  {
+    "id": "ID-332",
+    "name": "Penukal Abab Lematang Ilir",
+    "country": "ID",
+    "region": "South Sumatra",
+    "domain": "palikab.go.id",
+    "osm_relation_id": 10004780
+  },
+  {
+    "id": "ID-333",
+    "name": "Pesawaran",
+    "country": "ID",
+    "region": "Lampung",
+    "domain": "pesawarankab.go.id",
+    "osm_relation_id": 11007413
+  },
+  {
+    "id": "ID-334",
+    "name": "Pesisir Barat",
+    "country": "ID",
+    "region": "Lampung",
+    "domain": "",
+    "osm_relation_id": 11007416
+  },
+  {
+    "id": "ID-335",
+    "name": "Pidie",
+    "country": "ID",
+    "region": "Aceh",
+    "domain": "pidie.go.id",
+    "osm_relation_id": 8931187
+  },
+  {
+    "id": "ID-336",
+    "name": "Pidie Jaya",
+    "country": "ID",
+    "region": "Aceh",
+    "domain": "pidiejayakab.go.id",
+    "osm_relation_id": 8931186
+  },
+  {
+    "id": "ID-337",
+    "name": "Pinrang",
+    "country": "ID",
+    "region": "South Sulawesi",
+    "domain": "pinrangkab.go.id",
+    "osm_relation_id": 14752096
+  },
+  {
+    "id": "ID-338",
+    "name": "Pohuwato",
+    "country": "ID",
+    "region": "Gorontalo",
+    "domain": "pohuwatokab.go.id",
+    "osm_relation_id": 14909126
+  },
+  {
+    "id": "ID-339",
+    "name": "Polewali Mandar",
+    "country": "ID",
+    "region": "West Sulawesi",
+    "domain": "polmankab.go.id",
+    "osm_relation_id": 14956262
+  },
+  {
+    "id": "ID-340",
+    "name": "Ponorogo",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "ponorogo.go.id",
+    "osm_relation_id": 9676653
+  },
+  {
+    "id": "ID-341",
+    "name": "Pontianak",
+    "country": "ID",
+    "region": "West Kalimantan",
+    "domain": "pontianakkota.go.id",
+    "osm_relation_id": 10617336
+  },
+  {
+    "id": "ID-342",
+    "name": "Poso",
+    "country": "ID",
+    "region": "Central Sulawesi",
+    "domain": "",
+    "osm_relation_id": 8760548
+  },
+  {
+    "id": "ID-343",
+    "name": "Prabumulih",
+    "country": "ID",
+    "region": "South Sumatra",
+    "domain": "kotaprabumulih.go.id",
+    "osm_relation_id": 10713043
+  },
+  {
+    "id": "ID-344",
+    "name": "Pringsewu",
+    "country": "ID",
+    "region": "Lampung",
+    "domain": "",
+    "osm_relation_id": 11007422
+  },
+  {
+    "id": "ID-345",
+    "name": "Probolinggo",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "probolinggokab.go.id",
+    "osm_relation_id": 9674162
+  },
+  {
+    "id": "ID-346",
+    "name": "Probolinggo",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "probolinggokota.go.id",
+    "osm_relation_id": 9674161
+  },
+  {
+    "id": "ID-347",
+    "name": "Pulang Pisau",
+    "country": "ID",
+    "region": "Central Kalimantan",
+    "domain": "pulangpisaukab.go.id",
+    "osm_relation_id": 16179714
+  },
+  {
+    "id": "ID-348",
+    "name": "Puncak",
+    "country": "ID",
+    "region": "Central Papua",
+    "domain": "",
+    "osm_relation_id": 7754466
+  },
+  {
+    "id": "ID-349",
+    "name": "Puncak Jaya",
+    "country": "ID",
+    "region": "Central Papua",
+    "domain": "",
+    "osm_relation_id": 7754468
+  },
+  {
+    "id": "ID-350",
+    "name": "Purbalingga",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "purbalinggakab.go.id",
+    "osm_relation_id": 9686819
+  },
+  {
+    "id": "ID-351",
+    "name": "Purwakarta",
+    "country": "ID",
+    "region": "West Java",
+    "domain": "purwakartakab.go.id",
+    "osm_relation_id": 16999796
+  },
+  {
+    "id": "ID-352",
+    "name": "Purworejo",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "purworejokab.go.id",
+    "osm_relation_id": 9686809
+  },
+  {
+    "id": "ID-353",
+    "name": "Raja Ampat",
+    "country": "ID",
+    "region": "Southwest Papua",
+    "domain": "rajaampatkab.go.id",
+    "osm_relation_id": 14954983
+  },
+  {
+    "id": "ID-354",
+    "name": "Rejang Lebong",
+    "country": "ID",
+    "region": "Bengkulu",
+    "domain": "rejanglebongkab.go.id",
+    "osm_relation_id": 16196028
+  },
+  {
+    "id": "ID-355",
+    "name": "Rembang",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "rembangkab.go.id",
+    "osm_relation_id": 9687055
+  },
+  {
+    "id": "ID-356",
+    "name": "Rokan Hilir",
+    "country": "ID",
+    "region": "Riau",
+    "domain": "rokanhilir.go.id",
+    "osm_relation_id": 7830591
+  },
+  {
+    "id": "ID-357",
+    "name": "Rokan Hulu",
+    "country": "ID",
+    "region": "Riau",
+    "domain": "rokanhulukab.go.id",
+    "osm_relation_id": 7830594
+  },
+  {
+    "id": "ID-358",
+    "name": "Rote Ndao",
+    "country": "ID",
+    "region": "East Nusa Tenggara",
+    "domain": "rotendaokab.go.id",
+    "osm_relation_id": 11225324
+  },
+  {
+    "id": "ID-359",
+    "name": "Sabang",
+    "country": "ID",
+    "region": "Aceh",
+    "domain": "sabangkota.go.id",
+    "osm_relation_id": 9020791
+  },
+  {
+    "id": "ID-360",
+    "name": "Sabu Raijua",
+    "country": "ID",
+    "region": "East Nusa Tenggara",
+    "domain": "saburaijuakab.go.id",
+    "osm_relation_id": 11225325
+  },
+  {
+    "id": "ID-361",
+    "name": "Salatiga",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "salatiga.go.id",
+    "osm_relation_id": 9686812
+  },
+  {
+    "id": "ID-362",
+    "name": "Samarinda",
+    "country": "ID",
+    "region": "East Kalimantan",
+    "domain": "samarindakota.go.id",
+    "osm_relation_id": 14921097
+  },
+  {
+    "id": "ID-363",
+    "name": "Sambas",
+    "country": "ID",
+    "region": "West Kalimantan",
+    "domain": "sambas.go.id",
+    "osm_relation_id": 10621497
+  },
+  {
+    "id": "ID-364",
+    "name": "Samosir",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "samosirkab.go.id",
+    "osm_relation_id": 8483347
+  },
+  {
+    "id": "ID-365",
+    "name": "Sampang",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "sampangkab.go.id",
+    "osm_relation_id": 9674057
+  },
+  {
+    "id": "ID-366",
+    "name": "Sanggau",
+    "country": "ID",
+    "region": "West Kalimantan",
+    "domain": "",
+    "osm_relation_id": 10621499
+  },
+  {
+    "id": "ID-367",
+    "name": "Sangihe Islands",
+    "country": "ID",
+    "region": "North Sulawesi",
+    "domain": "",
+    "osm_relation_id": 9718592
+  },
+  {
+    "id": "ID-368",
+    "name": "Sarmi",
+    "country": "ID",
+    "region": "Papua",
+    "domain": "sarmikab.go.id",
+    "osm_relation_id": 7754453
+  },
+  {
+    "id": "ID-369",
+    "name": "Sarolangun",
+    "country": "ID",
+    "region": "Jambi",
+    "domain": "",
+    "osm_relation_id": 13757970
+  },
+  {
+    "id": "ID-370",
+    "name": "Sawahlunto",
+    "country": "ID",
+    "region": "West Sumatra",
+    "domain": "sawahluntokota.go.id",
+    "osm_relation_id": 14954681
+  },
+  {
+    "id": "ID-371",
+    "name": "Sekadau",
+    "country": "ID",
+    "region": "West Kalimantan",
+    "domain": "",
+    "osm_relation_id": 10617339
+  },
+  {
+    "id": "ID-372",
+    "name": "Selayar Islands",
+    "country": "ID",
+    "region": "South Sulawesi",
+    "domain": "kepulauanselayarkab.go.id",
+    "osm_relation_id": 12574566
+  },
+  {
+    "id": "ID-373",
+    "name": "Seluma",
+    "country": "ID",
+    "region": "Bengkulu",
+    "domain": "selumakab.go.id",
+    "osm_relation_id": 16196026
+  },
+  {
+    "id": "ID-374",
+    "name": "Semarang",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "semarangkab.go.id",
+    "osm_relation_id": 9686813
+  },
+  {
+    "id": "ID-375",
+    "name": "Semarang",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "semarang.go.id",
+    "osm_relation_id": 8409116
+  },
+  {
+    "id": "ID-376",
+    "name": "Serang",
+    "country": "ID",
+    "region": "Banten",
+    "domain": "serangkota.go.id",
+    "osm_relation_id": 7641588
+  },
+  {
+    "id": "ID-377",
+    "name": "Serang",
+    "country": "ID",
+    "region": "Banten",
+    "domain": "serangkab.go.id",
+    "osm_relation_id": 7641587
+  },
+  {
+    "id": "ID-378",
+    "name": "Serdang Bedagai",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "serdangbedagaikab.go.id",
+    "osm_relation_id": 8483354
+  },
+  {
+    "id": "ID-379",
+    "name": "Seruyan",
+    "country": "ID",
+    "region": "Central Kalimantan",
+    "domain": "seruyankab.go.id",
+    "osm_relation_id": 16179710
+  },
+  {
+    "id": "ID-380",
+    "name": "Siak",
+    "country": "ID",
+    "region": "Riau",
+    "domain": "siakkab.go.id",
+    "osm_relation_id": 7833359
+  },
+  {
+    "id": "ID-381",
+    "name": "Siau Tagulandang Biaro Islands",
+    "country": "ID",
+    "region": "North Sulawesi",
+    "domain": "",
+    "osm_relation_id": 14907627
+  },
+  {
+    "id": "ID-382",
+    "name": "Sibolga",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "",
+    "osm_relation_id": 8484621
+  },
+  {
+    "id": "ID-383",
+    "name": "Sidenreng Rappang",
+    "country": "ID",
+    "region": "South Sulawesi",
+    "domain": "",
+    "osm_relation_id": 14752162
+  },
+  {
+    "id": "ID-384",
+    "name": "Sidoarjo",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "sidoarjokab.go.id",
+    "osm_relation_id": 9677345
+  },
+  {
+    "id": "ID-385",
+    "name": "Sigi",
+    "country": "ID",
+    "region": "Central Sulawesi",
+    "domain": "",
+    "osm_relation_id": 8758189
+  },
+  {
+    "id": "ID-386",
+    "name": "Sijunjung",
+    "country": "ID",
+    "region": "West Sumatra",
+    "domain": "infopublik.sijunjung.go.id",
+    "osm_relation_id": 14954673
+  },
+  {
+    "id": "ID-387",
+    "name": "Sikka",
+    "country": "ID",
+    "region": "East Nusa Tenggara",
+    "domain": "sikkakab.go.id",
+    "osm_relation_id": 11228380
+  },
+  {
+    "id": "ID-388",
+    "name": "Simalungun",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "simalungunkab.go.id",
+    "osm_relation_id": 8483351
+  },
+  {
+    "id": "ID-389",
+    "name": "Simeulue",
+    "country": "ID",
+    "region": "Aceh",
+    "domain": "",
+    "osm_relation_id": 8932307
+  },
+  {
+    "id": "ID-390",
+    "name": "Singkawang",
+    "country": "ID",
+    "region": "West Kalimantan",
+    "domain": "singkawangkota.go.id",
+    "osm_relation_id": 10616895
+  },
+  {
+    "id": "ID-391",
+    "name": "Sinjai",
+    "country": "ID",
+    "region": "South Sulawesi",
+    "domain": "",
+    "osm_relation_id": 13219266
+  },
+  {
+    "id": "ID-392",
+    "name": "Sintang",
+    "country": "ID",
+    "region": "West Kalimantan",
+    "domain": "",
+    "osm_relation_id": 10621501
+  },
+  {
+    "id": "ID-393",
+    "name": "Situbondo",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "",
+    "osm_relation_id": 9674160
+  },
+  {
+    "id": "ID-394",
+    "name": "Sleman",
+    "country": "ID",
+    "region": "Yogyakarta",
+    "domain": "slemankab.go.id",
+    "osm_relation_id": 5615254
+  },
+  {
+    "id": "ID-395",
+    "name": "Solok",
+    "country": "ID",
+    "region": "West Sumatra",
+    "domain": "solok.go.id",
+    "osm_relation_id": 14954682
+  },
+  {
+    "id": "ID-396",
+    "name": "Solok",
+    "country": "ID",
+    "region": "West Sumatra",
+    "domain": "solokkota.go.id",
+    "osm_relation_id": 14954683
+  },
+  {
+    "id": "ID-397",
+    "name": "Soppeng",
+    "country": "ID",
+    "region": "South Sulawesi",
+    "domain": "soppengkab.go.id",
+    "osm_relation_id": 14751866
+  },
+  {
+    "id": "ID-398",
+    "name": "Sorong",
+    "country": "ID",
+    "region": "Southwest Papua",
+    "domain": "sorongkab.go.id",
+    "osm_relation_id": 14954913
+  },
+  {
+    "id": "ID-399",
+    "name": "Sorong",
+    "country": "ID",
+    "region": "Southwest Papua",
+    "domain": "sorongkota.go.id",
+    "osm_relation_id": 14905729
+  },
+  {
+    "id": "ID-400",
+    "name": "South Aceh",
+    "country": "ID",
+    "region": "Aceh",
+    "domain": "acehselatankab.go.id",
+    "osm_relation_id": 8922306
+  },
+  {
+    "id": "ID-401",
+    "name": "South Bangka",
+    "country": "ID",
+    "region": "Bangka Belitung Islands",
+    "domain": "bangkaselatankab.go.id",
+    "osm_relation_id": 11018583
+  },
+  {
+    "id": "ID-402",
+    "name": "South Barito",
+    "country": "ID",
+    "region": "Central Kalimantan",
+    "domain": "baritoselatankab.go.id",
+    "osm_relation_id": 16179702
+  },
+  {
+    "id": "ID-403",
+    "name": "South Bengkulu",
+    "country": "ID",
+    "region": "Bengkulu",
+    "domain": "bengkuluselatankab.go.id",
+    "osm_relation_id": 16196025
+  },
+  {
+    "id": "ID-404",
+    "name": "South Bolaang Mongondow",
+    "country": "ID",
+    "region": "North Sulawesi",
+    "domain": "",
+    "osm_relation_id": 14907633
+  },
+  {
+    "id": "ID-405",
+    "name": "South Buru",
+    "country": "ID",
+    "region": "Maluku",
+    "domain": "",
+    "osm_relation_id": 13262348
+  },
+  {
+    "id": "ID-406",
+    "name": "South Buton",
+    "country": "ID",
+    "region": "Southeast Sulawesi",
+    "domain": "butonselatankab.go.id",
+    "osm_relation_id": 14910174
+  },
+  {
+    "id": "ID-407",
+    "name": "South Central Timor",
+    "country": "ID",
+    "region": "East Nusa Tenggara",
+    "domain": "",
+    "osm_relation_id": 11226932
+  },
+  {
+    "id": "ID-408",
+    "name": "South Halmahera",
+    "country": "ID",
+    "region": "North Maluku",
+    "domain": "",
+    "osm_relation_id": 13263671
+  },
+  {
+    "id": "ID-409",
+    "name": "South Hulu Sungai",
+    "country": "ID",
+    "region": "South Kalimantan",
+    "domain": "hulusungaiselatan.go.id",
+    "osm_relation_id": 12989885
+  },
+  {
+    "id": "ID-410",
+    "name": "South Konawe",
+    "country": "ID",
+    "region": "Southeast Sulawesi",
+    "domain": "",
+    "osm_relation_id": 16197254
+  },
+  {
+    "id": "ID-411",
+    "name": "South Labuhanbatu",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "labuhanbatuselatankab.go.id",
+    "osm_relation_id": 8484426
+  },
+  {
+    "id": "ID-412",
+    "name": "South Lampung",
+    "country": "ID",
+    "region": "Lampung",
+    "domain": "",
+    "osm_relation_id": 11007415
+  },
+  {
+    "id": "ID-413",
+    "name": "South Manokwari",
+    "country": "ID",
+    "region": "West Papua",
+    "domain": "",
+    "osm_relation_id": 14905732
+  },
+  {
+    "id": "ID-414",
+    "name": "South Minahasa",
+    "country": "ID",
+    "region": "North Sulawesi",
+    "domain": "",
+    "osm_relation_id": 14907631
+  },
+  {
+    "id": "ID-415",
+    "name": "South Nias",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "niasselatankab.go.id",
+    "osm_relation_id": 8484720
+  },
+  {
+    "id": "ID-416",
+    "name": "South Ogan Komering Ulu",
+    "country": "ID",
+    "region": "South Sumatra",
+    "domain": "",
+    "osm_relation_id": 2657935
+  },
+  {
+    "id": "ID-417",
+    "name": "South Pesisir",
+    "country": "ID",
+    "region": "West Sumatra",
+    "domain": "berita.pesisirselatankab.go.id",
+    "osm_relation_id": 14954684
+  },
+  {
+    "id": "ID-418",
+    "name": "South Solok",
+    "country": "ID",
+    "region": "West Sumatra",
+    "domain": "solselkab.go.id",
+    "osm_relation_id": 14954675
+  },
+  {
+    "id": "ID-419",
+    "name": "South Sorong",
+    "country": "ID",
+    "region": "Southwest Papua",
+    "domain": "sorongselatankab.go.id",
+    "osm_relation_id": 14954914
+  },
+  {
+    "id": "ID-420",
+    "name": "South Tangerang",
+    "country": "ID",
+    "region": "Banten",
+    "domain": "tangerangselatankota.go.id",
+    "osm_relation_id": 7641582
+  },
+  {
+    "id": "ID-421",
+    "name": "South Tapanuli",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "tapselkab.go.id",
+    "osm_relation_id": 8484430
+  },
+  {
+    "id": "ID-422",
+    "name": "Southeast Aceh",
+    "country": "ID",
+    "region": "Aceh",
+    "domain": "",
+    "osm_relation_id": 8922308
+  },
+  {
+    "id": "ID-423",
+    "name": "Southeast Maluku",
+    "country": "ID",
+    "region": "Maluku",
+    "domain": "malukutenggarakab.go.id",
+    "osm_relation_id": 13262354
+  },
+  {
+    "id": "ID-424",
+    "name": "Southeast Minahasa",
+    "country": "ID",
+    "region": "North Sulawesi",
+    "domain": "mitrakab.go.id",
+    "osm_relation_id": 14907629
+  },
+  {
+    "id": "ID-425",
+    "name": "Southwest Aceh",
+    "country": "ID",
+    "region": "Aceh",
+    "domain": "abdya.nad.go.id",
+    "osm_relation_id": 8912352
+  },
+  {
+    "id": "ID-426",
+    "name": "Southwest Maluku",
+    "country": "ID",
+    "region": "Maluku",
+    "domain": "malukubaratdayakab.go.id",
+    "osm_relation_id": 13262355
+  },
+  {
+    "id": "ID-427",
+    "name": "Southwest Sumba",
+    "country": "ID",
+    "region": "East Nusa Tenggara",
+    "domain": "",
+    "osm_relation_id": 11225333
+  },
+  {
+    "id": "ID-428",
+    "name": "Sragen",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "",
+    "osm_relation_id": 6444214
+  },
+  {
+    "id": "ID-429",
+    "name": "Subang",
+    "country": "ID",
+    "region": "West Java",
+    "domain": "subang.go.id",
+    "osm_relation_id": 16999805
+  },
+  {
+    "id": "ID-430",
+    "name": "Subulussalam",
+    "country": "ID",
+    "region": "Aceh",
+    "domain": "",
+    "osm_relation_id": 8922307
+  },
+  {
+    "id": "ID-431",
+    "name": "Sukabumi",
+    "country": "ID",
+    "region": "West Java",
+    "domain": "kabupatensukabumi.go.id",
+    "osm_relation_id": 14918118
+  },
+  {
+    "id": "ID-432",
+    "name": "Sukabumi",
+    "country": "ID",
+    "region": "West Java",
+    "domain": "sukabumikota.go.id",
+    "osm_relation_id": 14918119
+  },
+  {
+    "id": "ID-433",
+    "name": "Sukamara",
+    "country": "ID",
+    "region": "Central Kalimantan",
+    "domain": "sukamarakab.go.id",
+    "osm_relation_id": 16179705
+  },
+  {
+    "id": "ID-434",
+    "name": "Sukoharjo",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "",
+    "osm_relation_id": 9687061
+  },
+  {
+    "id": "ID-435",
+    "name": "Sula Islands",
+    "country": "ID",
+    "region": "North Maluku",
+    "domain": "",
+    "osm_relation_id": 4286275
+  },
+  {
+    "id": "ID-436",
+    "name": "Sumbawa",
+    "country": "ID",
+    "region": "West Nusa Tenggara",
+    "domain": "sumbawakab.go.id",
+    "osm_relation_id": 13263883
+  },
+  {
+    "id": "ID-437",
+    "name": "Sumedang",
+    "country": "ID",
+    "region": "West Java",
+    "domain": "sumedangkab.go.id",
+    "osm_relation_id": 14935958
+  },
+  {
+    "id": "ID-438",
+    "name": "Sumenep",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "sumenepkab.go.id",
+    "osm_relation_id": 9674059
+  },
+  {
+    "id": "ID-439",
+    "name": "Sungai Penuh",
+    "country": "ID",
+    "region": "Jambi",
+    "domain": "sungaipenuhkota.go.id",
+    "osm_relation_id": 13754726
+  },
+  {
+    "id": "ID-440",
+    "name": "Supiori",
+    "country": "ID",
+    "region": "Papua",
+    "domain": "supiorikab.go.id",
+    "osm_relation_id": 7754460
+  },
+  {
+    "id": "ID-441",
+    "name": "Surabaya",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "surabaya.go.id",
+    "osm_relation_id": 8225862
+  },
+  {
+    "id": "ID-442",
+    "name": "Surakarta",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "surakarta.go.id",
+    "osm_relation_id": 9687063
+  },
+  {
+    "id": "ID-443",
+    "name": "Tabalong",
+    "country": "ID",
+    "region": "South Kalimantan",
+    "domain": "tabalongkab.go.id",
+    "osm_relation_id": 12989891
+  },
+  {
+    "id": "ID-444",
+    "name": "Tabanan",
+    "country": "ID",
+    "region": "Bali",
+    "domain": "tabanankab.go.id",
+    "osm_relation_id": 14322005
+  },
+  {
+    "id": "ID-445",
+    "name": "Takalar",
+    "country": "ID",
+    "region": "South Sulawesi",
+    "domain": "takalarkab.go.id",
+    "osm_relation_id": 12534408
+  },
+  {
+    "id": "ID-446",
+    "name": "Talaud Islands",
+    "country": "ID",
+    "region": "North Sulawesi",
+    "domain": "",
+    "osm_relation_id": 4283367
+  },
+  {
+    "id": "ID-447",
+    "name": "Taliabu Island",
+    "country": "ID",
+    "region": "North Maluku",
+    "domain": "",
+    "osm_relation_id": 7220471
+  },
+  {
+    "id": "ID-448",
+    "name": "Tambrauw",
+    "country": "ID",
+    "region": "Southwest Papua",
+    "domain": "tambrauwkab.go.id",
+    "osm_relation_id": 14905730
+  },
+  {
+    "id": "ID-449",
+    "name": "Tana Tidung",
+    "country": "ID",
+    "region": "North Kalimantan",
+    "domain": "tanatidung.com",
+    "osm_relation_id": 9884461
+  },
+  {
+    "id": "ID-450",
+    "name": "Tana Toraja",
+    "country": "ID",
+    "region": "South Sulawesi",
+    "domain": "tanatorajakab.go.id",
+    "osm_relation_id": 8765341
+  },
+  {
+    "id": "ID-451",
+    "name": "Tanah Bumbu",
+    "country": "ID",
+    "region": "South Kalimantan",
+    "domain": "tanahbumbukab.go.id",
+    "osm_relation_id": 12989883
+  },
+  {
+    "id": "ID-452",
+    "name": "Tanah Datar",
+    "country": "ID",
+    "region": "West Sumatra",
+    "domain": "tanahdatar.go.id",
+    "osm_relation_id": 14954672
+  },
+  {
+    "id": "ID-453",
+    "name": "Tanah Laut",
+    "country": "ID",
+    "region": "South Kalimantan",
+    "domain": "tanahlautkab.go.id",
+    "osm_relation_id": 12989884
+  },
+  {
+    "id": "ID-454",
+    "name": "Tangerang",
+    "country": "ID",
+    "region": "Banten",
+    "domain": "tangerangkota.go.id",
+    "osm_relation_id": 7641583
+  },
+  {
+    "id": "ID-455",
+    "name": "Tangerang",
+    "country": "ID",
+    "region": "Banten",
+    "domain": "tangerangkab.go.id",
+    "osm_relation_id": 7641584
+  },
+  {
+    "id": "ID-456",
+    "name": "Tanggamus",
+    "country": "ID",
+    "region": "Lampung",
+    "domain": "",
+    "osm_relation_id": 11007412
+  },
+  {
+    "id": "ID-457",
+    "name": "Tanimbar Islands",
+    "country": "ID",
+    "region": "Maluku",
+    "domain": "tanimbar.go.id",
+    "osm_relation_id": 13262356
+  },
+  {
+    "id": "ID-458",
+    "name": "Tanjungbalai",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "portal.tanjungbalaikota.go.id",
+    "osm_relation_id": 8484620
+  },
+  {
+    "id": "ID-459",
+    "name": "Tanjungpinang",
+    "country": "ID",
+    "region": "Riau Islands",
+    "domain": "tanjungpinangkota.go.id",
+    "osm_relation_id": 10660352
+  },
+  {
+    "id": "ID-460",
+    "name": "Tapin",
+    "country": "ID",
+    "region": "South Kalimantan",
+    "domain": "tapinkab.go.id",
+    "osm_relation_id": 12989889
+  },
+  {
+    "id": "ID-461",
+    "name": "Tarakan",
+    "country": "ID",
+    "region": "North Kalimantan",
+    "domain": "tarakankota.go.id",
+    "osm_relation_id": 9884460
+  },
+  {
+    "id": "ID-462",
+    "name": "Tasikmalaya",
+    "country": "ID",
+    "region": "West Java",
+    "domain": "tasikmalayakab.go.id",
+    "osm_relation_id": 14925427
+  },
+  {
+    "id": "ID-463",
+    "name": "Tasikmalaya",
+    "country": "ID",
+    "region": "West Java",
+    "domain": "tasikmalayakota.go.id",
+    "osm_relation_id": 14925431
+  },
+  {
+    "id": "ID-464",
+    "name": "Tebing Tinggi",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "",
+    "osm_relation_id": 8484619
+  },
+  {
+    "id": "ID-465",
+    "name": "Tebo",
+    "country": "ID",
+    "region": "Jambi",
+    "domain": "tebo.go.id",
+    "osm_relation_id": 14940950
+  },
+  {
+    "id": "ID-466",
+    "name": "Tegal",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "tegalkab.go.id",
+    "osm_relation_id": 9686817
+  },
+  {
+    "id": "ID-467",
+    "name": "Tegal",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "tegalkota.go.id",
+    "osm_relation_id": 9686828
+  },
+  {
+    "id": "ID-468",
+    "name": "Teluk Bintuni",
+    "country": "ID",
+    "region": "West Papua",
+    "domain": "telukbintunikab.go.id",
+    "osm_relation_id": 14954916
+  },
+  {
+    "id": "ID-469",
+    "name": "Teluk Wondama",
+    "country": "ID",
+    "region": "West Papua",
+    "domain": "wondamakab.go.id",
+    "osm_relation_id": 14954915
+  },
+  {
+    "id": "ID-470",
+    "name": "Temanggung",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "temanggungkab.go.id",
+    "osm_relation_id": 9686823
+  },
+  {
+    "id": "ID-471",
+    "name": "Ternate",
+    "country": "ID",
+    "region": "North Maluku",
+    "domain": "ternatekota.go.id",
+    "osm_relation_id": 13263676
+  },
+  {
+    "id": "ID-472",
+    "name": "Tidore Islands",
+    "country": "ID",
+    "region": "North Maluku",
+    "domain": "tidorekota.go.id",
+    "osm_relation_id": 13263677
+  },
+  {
+    "id": "ID-473",
+    "name": "Toba",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "tobasamosirkab.go.id",
+    "osm_relation_id": 8483343
+  },
+  {
+    "id": "ID-474",
+    "name": "Tojo Una-Una",
+    "country": "ID",
+    "region": "Central Sulawesi",
+    "domain": "",
+    "osm_relation_id": 8765404
+  },
+  {
+    "id": "ID-475",
+    "name": "Toli-Toli",
+    "country": "ID",
+    "region": "Central Sulawesi",
+    "domain": "",
+    "osm_relation_id": 4274144
+  },
+  {
+    "id": "ID-476",
+    "name": "Tolikara",
+    "country": "ID",
+    "region": "Highland Papua",
+    "domain": "",
+    "osm_relation_id": 7754467
+  },
+  {
+    "id": "ID-477",
+    "name": "Tomohon",
+    "country": "ID",
+    "region": "North Sulawesi",
+    "domain": "tomohon.go.id",
+    "osm_relation_id": 14907637
+  },
+  {
+    "id": "ID-478",
+    "name": "Trenggalek",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "trenggalekkab.go.id",
+    "osm_relation_id": 9676368
+  },
+  {
+    "id": "ID-479",
+    "name": "Tual",
+    "country": "ID",
+    "region": "Maluku",
+    "domain": "tualkota.go.id",
+    "osm_relation_id": 13262353
+  },
+  {
+    "id": "ID-480",
+    "name": "Tuban",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "tubankab.go.id",
+    "osm_relation_id": 9676649
+  },
+  {
+    "id": "ID-481",
+    "name": "Tulang Bawang",
+    "country": "ID",
+    "region": "Lampung",
+    "domain": "tulangbawangkab.go.id",
+    "osm_relation_id": 11007410
+  },
+  {
+    "id": "ID-482",
+    "name": "Tulungagung",
+    "country": "ID",
+    "region": "East Java",
+    "domain": "tulungagung.go.id",
+    "osm_relation_id": 9676369
+  },
+  {
+    "id": "ID-483",
+    "name": "Wajo",
+    "country": "ID",
+    "region": "South Sulawesi",
+    "domain": "",
+    "osm_relation_id": 14751874
+  },
+  {
+    "id": "ID-484",
+    "name": "Wakatobi",
+    "country": "ID",
+    "region": "Southeast Sulawesi",
+    "domain": "wakatobikab.go.id",
+    "osm_relation_id": 14910171
+  },
+  {
+    "id": "ID-485",
+    "name": "Waropen",
+    "country": "ID",
+    "region": "Papua",
+    "domain": "",
+    "osm_relation_id": 7754448
+  },
+  {
+    "id": "ID-486",
+    "name": "Way Kanan",
+    "country": "ID",
+    "region": "Lampung",
+    "domain": "",
+    "osm_relation_id": 11007417
+  },
+  {
+    "id": "ID-487",
+    "name": "West Aceh",
+    "country": "ID",
+    "region": "Aceh",
+    "domain": "acehbaratkab.go.id",
+    "osm_relation_id": 8912350
+  },
+  {
+    "id": "ID-488",
+    "name": "West Bandung",
+    "country": "ID",
+    "region": "West Java",
+    "domain": "bandungbaratkab.go.id",
+    "osm_relation_id": 14935960
+  },
+  {
+    "id": "ID-489",
+    "name": "West Bangka",
+    "country": "ID",
+    "region": "Bangka Belitung Islands",
+    "domain": "bangkabaratkab.go.id",
+    "osm_relation_id": 11018587
+  },
+  {
+    "id": "ID-490",
+    "name": "West Halmahera",
+    "country": "ID",
+    "region": "North Maluku",
+    "domain": "",
+    "osm_relation_id": 13263675
+  },
+  {
+    "id": "ID-491",
+    "name": "West Kotawaringin",
+    "country": "ID",
+    "region": "Central Kalimantan",
+    "domain": "",
+    "osm_relation_id": 16179711
+  },
+  {
+    "id": "ID-492",
+    "name": "West Kutai",
+    "country": "ID",
+    "region": "East Kalimantan",
+    "domain": "kubarkab.go.id",
+    "osm_relation_id": 14921099
+  },
+  {
+    "id": "ID-493",
+    "name": "West Lampung",
+    "country": "ID",
+    "region": "Lampung",
+    "domain": "lampungbarat.go.id",
+    "osm_relation_id": 11007420
+  },
+  {
+    "id": "ID-494",
+    "name": "West Lombok",
+    "country": "ID",
+    "region": "West Nusa Tenggara",
+    "domain": "lombokbaratkab.go.id",
+    "osm_relation_id": 14315482
+  },
+  {
+    "id": "ID-495",
+    "name": "West Manggarai",
+    "country": "ID",
+    "region": "East Nusa Tenggara",
+    "domain": "",
+    "osm_relation_id": 11228381
+  },
+  {
+    "id": "ID-496",
+    "name": "West Muna",
+    "country": "ID",
+    "region": "Southeast Sulawesi",
+    "domain": "",
+    "osm_relation_id": 14910164
+  },
+  {
+    "id": "ID-497",
+    "name": "West Nias",
+    "country": "ID",
+    "region": "North Sumatra",
+    "domain": "",
+    "osm_relation_id": 8484719
+  },
+  {
+    "id": "ID-498",
+    "name": "West Pasaman",
+    "country": "ID",
+    "region": "West Sumatra",
+    "domain": "pasbarkab.go.id",
+    "osm_relation_id": 2648100
+  },
+  {
+    "id": "ID-499",
+    "name": "West Sumba",
+    "country": "ID",
+    "region": "East Nusa Tenggara",
+    "domain": "sumbabaratkab.go.id",
+    "osm_relation_id": 11225334
+  },
+  {
+    "id": "ID-500",
+    "name": "West Sumbawa",
+    "country": "ID",
+    "region": "West Nusa Tenggara",
+    "domain": "sumbawabaratkab.go.id",
+    "osm_relation_id": 13263884
+  },
+  {
+    "id": "ID-501",
+    "name": "West Tanjung Jabung",
+    "country": "ID",
+    "region": "Jambi",
+    "domain": "tanjabbarkab.go.id",
+    "osm_relation_id": 14940952
+  },
+  {
+    "id": "ID-502",
+    "name": "West Tulang Bawang",
+    "country": "ID",
+    "region": "Lampung",
+    "domain": "tulangbawangkab.go.id",
+    "osm_relation_id": 11007418
+  },
+  {
+    "id": "ID-503",
+    "name": "Western Seram",
+    "country": "ID",
+    "region": "Maluku",
+    "domain": "",
+    "osm_relation_id": 13262349
+  },
+  {
+    "id": "ID-504",
+    "name": "Wonogiri",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "wonogirikab.go.id",
+    "osm_relation_id": 9687059
+  },
+  {
+    "id": "ID-505",
+    "name": "Wonosobo",
+    "country": "ID",
+    "region": "Central Java",
+    "domain": "",
+    "osm_relation_id": 9686824
+  },
+  {
+    "id": "ID-506",
+    "name": "Yahukimo",
+    "country": "ID",
+    "region": "Highland Papua",
+    "domain": "",
+    "osm_relation_id": 7754454
+  },
+  {
+    "id": "ID-507",
+    "name": "Yalimo",
+    "country": "ID",
+    "region": "Highland Papua",
+    "domain": "",
+    "osm_relation_id": 7754455
+  },
+  {
+    "id": "ID-508",
+    "name": "Yapen Islands",
+    "country": "ID",
+    "region": "Papua",
+    "domain": "kepyapenkab.go.id",
+    "osm_relation_id": 7754458
+  },
+  {
+    "id": "ID-509",
+    "name": "Yapen Waropen",
+    "country": "ID",
+    "region": "Papua",
+    "domain": ""
+  },
+  {
+    "id": "ID-510",
+    "name": "Yogyakarta",
+    "country": "ID",
+    "region": "Yogyakarta",
+    "domain": "jogjakota.go.id",
+    "osm_relation_id": 5615250
+  },
+  {
+    "id": "ID-511",
+    "name": "Aileu",
+    "country": "ID",
+    "region": "Timor Timur",
+    "domain": ""
+  },
+  {
+    "id": "ID-512",
+    "name": "Ainaro",
+    "country": "ID",
+    "region": "Timor Timur",
+    "domain": ""
+  },
+  {
+    "id": "ID-513",
+    "name": "Ambeno",
+    "country": "ID",
+    "region": "Timor Timur",
+    "domain": ""
+  },
+  {
+    "id": "ID-514",
+    "name": "Baucau",
+    "country": "ID",
+    "region": "Timor Timur",
+    "domain": ""
+  },
+  {
+    "id": "ID-515",
+    "name": "Bobonaro",
+    "country": "ID",
+    "region": "Timor Timur",
+    "domain": ""
+  },
+  {
+    "id": "ID-516",
+    "name": "Ermera",
+    "country": "ID",
+    "region": "Timor Timur",
+    "domain": ""
+  },
+  {
+    "id": "ID-517",
+    "name": "Lautém",
+    "country": "ID",
+    "region": "Timor Timur",
+    "domain": ""
+  },
+  {
+    "id": "ID-518",
+    "name": "Liquiça",
+    "country": "ID",
+    "region": "Timor Timur",
+    "domain": ""
+  },
+  {
+    "id": "ID-519",
+    "name": "Manatuto",
+    "country": "ID",
+    "region": "Timor Timur",
+    "domain": ""
+  },
+  {
+    "id": "ID-520",
+    "name": "Manufahi",
+    "country": "ID",
+    "region": "Timor Timur",
+    "domain": ""
+  },
+  {
+    "id": "ID-521",
+    "name": "Viqueque",
+    "country": "ID",
+    "region": "Timor Timur",
+    "domain": ""
+  }
+]

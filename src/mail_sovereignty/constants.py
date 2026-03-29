@@ -102,6 +102,12 @@ SKIP_DOMAINS = {
     "gov.uk",
     "gov.au",
     "govt.nz",
+    "go.id",
+    "gov.pg",
+    "gov.my",
+    "go.th",
+    "gov.kh",
+    "gov.ph",
     "kommune.no",
     "sentry.io",
     "w3.org",
@@ -598,6 +604,11 @@ LOCAL_ISP_ASNS: dict[int, str] = {
     9290: "GoHosting (AU)",
     # New Zealand
     4648: "Spark NZ (NZ)",
+    # Indonesia
+    132634: "KOMINFO e-Gov (ID)",  # Government shared mail (mail.go.id)
+    45313: "Pemda NAD (ID)",  # Aceh provincial government
+    # Thailand
+    4618: "Internet Thailand (TH)",
     # Germany — municipal IT cooperatives and regional ISPs
     12337: "Noris Network (DE)",  # rechennetz.de
     39835: "Goetel (DE)",  # kdgoe.de

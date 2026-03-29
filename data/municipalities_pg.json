@@ -1,0 +1,787 @@
+[
+  {
+    "id": "PG-001",
+    "name": "Abau District",
+    "country": "PG",
+    "region": "Central Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-002",
+    "name": "Aitape-Lumi District",
+    "country": "PG",
+    "region": "Sandaun Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-003",
+    "name": "Alotau District",
+    "country": "PG",
+    "region": "Milne Bay Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-004",
+    "name": "Ambunti-Dreikikir District",
+    "country": "PG",
+    "region": "East Sepik Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-005",
+    "name": "Anglimp-South Waghi District",
+    "country": "PG",
+    "region": "Jiwaka Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-006",
+    "name": "Angoram District",
+    "country": "PG",
+    "region": "East Sepik Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-007",
+    "name": "Bogia District",
+    "country": "PG",
+    "region": "Madang Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-008",
+    "name": "Bulolo District",
+    "country": "PG",
+    "region": "Morobe Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-009",
+    "name": "Central Bougainville District",
+    "country": "PG",
+    "region": "Autonomous Region of Bougainville",
+    "domain": ""
+  },
+  {
+    "id": "PG-010",
+    "name": "Central Province",
+    "country": "PG",
+    "region": "Southern Region",
+    "domain": ""
+  },
+  {
+    "id": "PG-011",
+    "name": "Chimbu Province",
+    "country": "PG",
+    "region": "Papua New Guinea",
+    "domain": ""
+  },
+  {
+    "id": "PG-012",
+    "name": "Chuave District",
+    "country": "PG",
+    "region": "Chimbu Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-013",
+    "name": "Daulo District",
+    "country": "PG",
+    "region": "Eastern Highlands Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-014",
+    "name": "Dei District",
+    "country": "PG",
+    "region": "Western Highlands Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-015",
+    "name": "East New Britain Province",
+    "country": "PG",
+    "region": "Islands Region",
+    "domain": "enb.gov.pg"
+  },
+  {
+    "id": "PG-016",
+    "name": "East Sepik Province",
+    "country": "PG",
+    "region": "Papua New Guinea",
+    "domain": ""
+  },
+  {
+    "id": "PG-017",
+    "name": "Eastern Highlands Province",
+    "country": "PG",
+    "region": "Papua New Guinea",
+    "domain": "easternhighlands.com.pg"
+  },
+  {
+    "id": "PG-018",
+    "name": "Enga Province",
+    "country": "PG",
+    "region": "Papua New Guinea",
+    "domain": ""
+  },
+  {
+    "id": "PG-019",
+    "name": "Esa'ala District",
+    "country": "PG",
+    "region": "Milne Bay Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-020",
+    "name": "Finschhafen District",
+    "country": "PG",
+    "region": "Morobe Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-021",
+    "name": "Gazelle District",
+    "country": "PG",
+    "region": "East New Britain Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-022",
+    "name": "Goilala District",
+    "country": "PG",
+    "region": "Central Province",
+    "domain": "goilala.com"
+  },
+  {
+    "id": "PG-023",
+    "name": "Goroka District",
+    "country": "PG",
+    "region": "Eastern Highlands Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-024",
+    "name": "Gulf Province",
+    "country": "PG",
+    "region": "Southern Region",
+    "domain": ""
+  },
+  {
+    "id": "PG-025",
+    "name": "Gumine District",
+    "country": "PG",
+    "region": "Chimbu Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-026",
+    "name": "Hela Province",
+    "country": "PG",
+    "region": "Papua New Guinea",
+    "domain": ""
+  },
+  {
+    "id": "PG-027",
+    "name": "Henganofi District",
+    "country": "PG",
+    "region": "Eastern Highlands Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-028",
+    "name": "Huon District",
+    "country": "PG",
+    "region": "Morobe Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-029",
+    "name": "Ialibu-Pangia District",
+    "country": "PG",
+    "region": "Southern Highlands Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-030",
+    "name": "Ijivitari District",
+    "country": "PG",
+    "region": "Oro Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-031",
+    "name": "Imbonggu District",
+    "country": "PG",
+    "region": "Southern Highlands Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-032",
+    "name": "Jimi District",
+    "country": "PG",
+    "region": "Jiwaka Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-033",
+    "name": "Jiwaka Province",
+    "country": "PG",
+    "region": "Papua New Guinea",
+    "domain": ""
+  },
+  {
+    "id": "PG-034",
+    "name": "Kabwum District",
+    "country": "PG",
+    "region": "Morobe Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-035",
+    "name": "Kagua-Erave District",
+    "country": "PG",
+    "region": "Southern Highlands Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-036",
+    "name": "Kainantu District",
+    "country": "PG",
+    "region": "Eastern Highlands Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-037",
+    "name": "Kairuku-Hiri District",
+    "country": "PG",
+    "region": "Central Province",
+    "domain": "kairukuhiri.gov.pg"
+  },
+  {
+    "id": "PG-038",
+    "name": "Kandep District",
+    "country": "PG",
+    "region": "Enga Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-039",
+    "name": "Kandrian-Gloucester District",
+    "country": "PG",
+    "region": "West New Britain Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-040",
+    "name": "Karimui-Nomane District",
+    "country": "PG",
+    "region": "Chimbu Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-041",
+    "name": "Kavieng District",
+    "country": "PG",
+    "region": "New Ireland Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-042",
+    "name": "Kerema District",
+    "country": "PG",
+    "region": "Gulf Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-043",
+    "name": "Kerowagi District",
+    "country": "PG",
+    "region": "Chimbu Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-044",
+    "name": "Kikori District",
+    "country": "PG",
+    "region": "Gulf Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-045",
+    "name": "Kiriwina-Goodenough District",
+    "country": "PG",
+    "region": "Milne Bay Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-046",
+    "name": "Kokopo District",
+    "country": "PG",
+    "region": "East New Britain Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-047",
+    "name": "Komo-Magarima District",
+    "country": "PG",
+    "region": "Hela Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-048",
+    "name": "Kompiam District",
+    "country": "PG",
+    "region": "Enga Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-049",
+    "name": "Koroba-Kopiago District",
+    "country": "PG",
+    "region": "Hela Province",
+    "domain": "",
+    "osm_relation_id": 4793635
+  },
+  {
+    "id": "PG-050",
+    "name": "Kundiawa-Gembogl District",
+    "country": "PG",
+    "region": "Chimbu Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-051",
+    "name": "Lae District",
+    "country": "PG",
+    "region": "Morobe Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-052",
+    "name": "Lagaip District",
+    "country": "PG",
+    "region": "Enga Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-053",
+    "name": "Lagaip-Porgera District",
+    "country": "PG",
+    "region": "Enga Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-054",
+    "name": "Lufa District",
+    "country": "PG",
+    "region": "Eastern Highlands Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-055",
+    "name": "Madang District",
+    "country": "PG",
+    "region": "Madang Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-056",
+    "name": "Madang Province",
+    "country": "PG",
+    "region": "Papua New Guinea",
+    "domain": ""
+  },
+  {
+    "id": "PG-057",
+    "name": "Maklay Coast",
+    "country": "PG",
+    "region": "Madang Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-058",
+    "name": "Manus District",
+    "country": "PG",
+    "region": "Manus Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-059",
+    "name": "Manus Province",
+    "country": "PG",
+    "region": "Papua New Guinea",
+    "domain": ""
+  },
+  {
+    "id": "PG-060",
+    "name": "Maprik District",
+    "country": "PG",
+    "region": "East Sepik Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-061",
+    "name": "Markham District",
+    "country": "PG",
+    "region": "Morobe Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-062",
+    "name": "Mendi-Munihu District",
+    "country": "PG",
+    "region": "Southern Highlands Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-063",
+    "name": "Menyamya District",
+    "country": "PG",
+    "region": "Morobe Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-064",
+    "name": "Middle Fly District",
+    "country": "PG",
+    "region": "Western Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-065",
+    "name": "Middle Ramu District",
+    "country": "PG",
+    "region": "Madang Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-066",
+    "name": "Milne Bay Province",
+    "country": "PG",
+    "region": "Papua New Guinea",
+    "domain": ""
+  },
+  {
+    "id": "PG-067",
+    "name": "Moresby North East",
+    "country": "PG",
+    "region": "National Capital District",
+    "domain": ""
+  },
+  {
+    "id": "PG-068",
+    "name": "Moresby North West",
+    "country": "PG",
+    "region": "National Capital District",
+    "domain": ""
+  },
+  {
+    "id": "PG-069",
+    "name": "Moresby South",
+    "country": "PG",
+    "region": "National Capital District",
+    "domain": ""
+  },
+  {
+    "id": "PG-070",
+    "name": "Morobe Province",
+    "country": "PG",
+    "region": "Papua New Guinea",
+    "domain": ""
+  },
+  {
+    "id": "PG-071",
+    "name": "Mount Hagen District",
+    "country": "PG",
+    "region": "Western Highlands Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-072",
+    "name": "Mul-Baiyer District",
+    "country": "PG",
+    "region": "Western Highlands Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-073",
+    "name": "Namatanai District",
+    "country": "PG",
+    "region": "New Ireland Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-074",
+    "name": "National Capital District",
+    "country": "PG",
+    "region": "National Capital District",
+    "domain": ""
+  },
+  {
+    "id": "PG-075",
+    "name": "National Capital District",
+    "country": "PG",
+    "region": "Papua New Guinea",
+    "domain": ""
+  },
+  {
+    "id": "PG-076",
+    "name": "Nawae District",
+    "country": "PG",
+    "region": "Morobe Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-077",
+    "name": "New Ireland Province",
+    "country": "PG",
+    "region": "Papua New Guinea",
+    "domain": ""
+  },
+  {
+    "id": "PG-078",
+    "name": "Nipa-Kutubu District",
+    "country": "PG",
+    "region": "Southern Highlands Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-079",
+    "name": "North Bougainville District",
+    "country": "PG",
+    "region": "Autonomous Region of Bougainville",
+    "domain": ""
+  },
+  {
+    "id": "PG-080",
+    "name": "North Fly District",
+    "country": "PG",
+    "region": "Western Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-081",
+    "name": "North Waghi District",
+    "country": "PG",
+    "region": "Jiwaka Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-082",
+    "name": "Nuku District",
+    "country": "PG",
+    "region": "Sandaun Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-083",
+    "name": "Obura-Wonenara District",
+    "country": "PG",
+    "region": "Eastern Highlands Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-084",
+    "name": "Okapa District",
+    "country": "PG",
+    "region": "Eastern Highlands Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-085",
+    "name": "Oro Province",
+    "country": "PG",
+    "region": "Southern Region",
+    "domain": ""
+  },
+  {
+    "id": "PG-086",
+    "name": "Pomio District",
+    "country": "PG",
+    "region": "East New Britain Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-087",
+    "name": "Rabaul District",
+    "country": "PG",
+    "region": "East New Britain Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-088",
+    "name": "Rigo District",
+    "country": "PG",
+    "region": "Central Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-089",
+    "name": "Samarai-Murua District",
+    "country": "PG",
+    "region": "Milne Bay Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-090",
+    "name": "Sandaun Province",
+    "country": "PG",
+    "region": "Papua New Guinea",
+    "domain": ""
+  },
+  {
+    "id": "PG-091",
+    "name": "Sina Sina-Yonggomugl District",
+    "country": "PG",
+    "region": "Chimbu Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-092",
+    "name": "Sohe District",
+    "country": "PG",
+    "region": "Oro Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-093",
+    "name": "South Bougainville District",
+    "country": "PG",
+    "region": "Autonomous Region of Bougainville",
+    "domain": ""
+  },
+  {
+    "id": "PG-094",
+    "name": "South Fly District",
+    "country": "PG",
+    "region": "Western Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-095",
+    "name": "Southern Highlands Province",
+    "country": "PG",
+    "region": "Papua New Guinea",
+    "domain": ""
+  },
+  {
+    "id": "PG-096",
+    "name": "Sumkar District",
+    "country": "PG",
+    "region": "Madang Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-097",
+    "name": "Talasea District",
+    "country": "PG",
+    "region": "West New Britain Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-098",
+    "name": "Tambul-Nebilyer District",
+    "country": "PG",
+    "region": "Western Highlands Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-099",
+    "name": "Tari-Pori District",
+    "country": "PG",
+    "region": "Hela Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-100",
+    "name": "Telefomin District",
+    "country": "PG",
+    "region": "Sandaun Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-101",
+    "name": "Tewae-Siassi District",
+    "country": "PG",
+    "region": "Morobe Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-102",
+    "name": "Unggai-Bena District",
+    "country": "PG",
+    "region": "Eastern Highlands Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-103",
+    "name": "Usino Bundi District",
+    "country": "PG",
+    "region": "Madang Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-104",
+    "name": "Vanimo-Green River District",
+    "country": "PG",
+    "region": "Sandaun Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-105",
+    "name": "Wabag District",
+    "country": "PG",
+    "region": "Enga Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-106",
+    "name": "Wapenamanda District",
+    "country": "PG",
+    "region": "Enga Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-107",
+    "name": "West New Britain Province",
+    "country": "PG",
+    "region": "Papua New Guinea",
+    "domain": "wnb.gov.pg"
+  },
+  {
+    "id": "PG-108",
+    "name": "Western Highlands Province",
+    "country": "PG",
+    "region": "Papua New Guinea",
+    "domain": ""
+  },
+  {
+    "id": "PG-109",
+    "name": "Western Province",
+    "country": "PG",
+    "region": "Papua New Guinea",
+    "domain": ""
+  },
+  {
+    "id": "PG-110",
+    "name": "Wewak District",
+    "country": "PG",
+    "region": "East Sepik Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-111",
+    "name": "Wosera-Gawi District",
+    "country": "PG",
+    "region": "East Sepik Province",
+    "domain": ""
+  },
+  {
+    "id": "PG-112",
+    "name": "Yangoru-Saussia District",
+    "country": "PG",
+    "region": "East Sepik Province",
+    "domain": ""
+  }
+]

@@ -1,0 +1,1266 @@
+[
+  {
+    "id": "MY-001",
+    "name": "Alor Gajah",
+    "country": "MY",
+    "region": "Malacca",
+    "domain": "",
+    "osm_relation_id": 4463193
+  },
+  {
+    "id": "MY-002",
+    "name": "Asajaya",
+    "country": "MY",
+    "region": "Samarahan",
+    "domain": "",
+    "osm_relation_id": 15971407
+  },
+  {
+    "id": "MY-003",
+    "name": "Bachok",
+    "country": "MY",
+    "region": "Kelantan",
+    "domain": "",
+    "osm_relation_id": 4443634
+  },
+  {
+    "id": "MY-004",
+    "name": "Bagan Datuk District",
+    "country": "MY",
+    "region": "Perak",
+    "domain": "",
+    "osm_relation_id": 12424581
+  },
+  {
+    "id": "MY-005",
+    "name": "Baling",
+    "country": "MY",
+    "region": "Kedah",
+    "domain": "",
+    "osm_relation_id": 6166148
+  },
+  {
+    "id": "MY-006",
+    "name": "Bandar Baharu",
+    "country": "MY",
+    "region": "Kedah",
+    "domain": "",
+    "osm_relation_id": 6166149
+  },
+  {
+    "id": "MY-007",
+    "name": "Batang Padang",
+    "country": "MY",
+    "region": "Perak",
+    "domain": "",
+    "osm_relation_id": 12499932
+  },
+  {
+    "id": "MY-008",
+    "name": "Batu Pahat District",
+    "country": "MY",
+    "region": "Johor",
+    "domain": "johordt.gov.my",
+    "osm_relation_id": 12306081
+  },
+  {
+    "id": "MY-009",
+    "name": "Bau",
+    "country": "MY",
+    "region": "Kuching",
+    "domain": ""
+  },
+  {
+    "id": "MY-010",
+    "name": "Beaufort",
+    "country": "MY",
+    "region": "Interior Division",
+    "domain": "",
+    "osm_relation_id": 15974721
+  },
+  {
+    "id": "MY-011",
+    "name": "Belaga district",
+    "country": "MY",
+    "region": "Kapit",
+    "domain": "",
+    "osm_relation_id": 15974645
+  },
+  {
+    "id": "MY-012",
+    "name": "Beluran District",
+    "country": "MY",
+    "region": "Sandakan Division",
+    "domain": "",
+    "osm_relation_id": 15977922
+  },
+  {
+    "id": "MY-013",
+    "name": "Beluru District",
+    "country": "MY",
+    "region": "Miri",
+    "domain": "",
+    "osm_relation_id": 15974640
+  },
+  {
+    "id": "MY-014",
+    "name": "Bentong District",
+    "country": "MY",
+    "region": "Pahang",
+    "domain": "",
+    "osm_relation_id": 10744362
+  },
+  {
+    "id": "MY-015",
+    "name": "Bera",
+    "country": "MY",
+    "region": "Pahang",
+    "domain": "",
+    "osm_relation_id": 10744366
+  },
+  {
+    "id": "MY-016",
+    "name": "Besut",
+    "country": "MY",
+    "region": "Terengganu",
+    "domain": "",
+    "osm_relation_id": 6663543
+  },
+  {
+    "id": "MY-017",
+    "name": "Betong District",
+    "country": "MY",
+    "region": "Betong",
+    "domain": "",
+    "osm_relation_id": 15971400
+  },
+  {
+    "id": "MY-018",
+    "name": "Bintulu District",
+    "country": "MY",
+    "region": "Bintulu",
+    "domain": ""
+  },
+  {
+    "id": "MY-019",
+    "name": "Bukit Mabong District",
+    "country": "MY",
+    "region": "Kapit",
+    "domain": "",
+    "osm_relation_id": 15974646
+  },
+  {
+    "id": "MY-020",
+    "name": "Cameron Highlands District",
+    "country": "MY",
+    "region": "Pahang",
+    "domain": "cameronhighlands.com",
+    "osm_relation_id": 10744325
+  },
+  {
+    "id": "MY-021",
+    "name": "Central Seberang Perai",
+    "country": "MY",
+    "region": "Penang",
+    "domain": "",
+    "osm_relation_id": 9383947
+  },
+  {
+    "id": "MY-022",
+    "name": "Dalat District",
+    "country": "MY",
+    "region": "Mukah Division",
+    "domain": "",
+    "osm_relation_id": 15974652
+  },
+  {
+    "id": "MY-023",
+    "name": "Daro District",
+    "country": "MY",
+    "region": "Mukah Division",
+    "domain": "",
+    "osm_relation_id": 15974659
+  },
+  {
+    "id": "MY-024",
+    "name": "Dungun",
+    "country": "MY",
+    "region": "Terengganu",
+    "domain": "",
+    "osm_relation_id": 12583173
+  },
+  {
+    "id": "MY-025",
+    "name": "Gedong",
+    "country": "MY",
+    "region": "Samarahan",
+    "domain": ""
+  },
+  {
+    "id": "MY-026",
+    "name": "Gombak",
+    "country": "MY",
+    "region": "Selangor",
+    "domain": "",
+    "osm_relation_id": 12438352
+  },
+  {
+    "id": "MY-027",
+    "name": "Gua Musang",
+    "country": "MY",
+    "region": "Kelantan",
+    "domain": "",
+    "osm_relation_id": 4443635
+  },
+  {
+    "id": "MY-028",
+    "name": "Hilir Perak",
+    "country": "MY",
+    "region": "Perak",
+    "domain": "",
+    "osm_relation_id": 12424582
+  },
+  {
+    "id": "MY-029",
+    "name": "Hulu Langat",
+    "country": "MY",
+    "region": "Selangor",
+    "domain": "",
+    "osm_relation_id": 12438351
+  },
+  {
+    "id": "MY-030",
+    "name": "Hulu Perak",
+    "country": "MY",
+    "region": "Perak",
+    "domain": "",
+    "osm_relation_id": 10411526
+  },
+  {
+    "id": "MY-031",
+    "name": "Hulu Selangor",
+    "country": "MY",
+    "region": "Selangor",
+    "domain": "",
+    "osm_relation_id": 10714199
+  },
+  {
+    "id": "MY-032",
+    "name": "Hulu Terengganu",
+    "country": "MY",
+    "region": "Terengganu",
+    "domain": "",
+    "osm_relation_id": 6663545
+  },
+  {
+    "id": "MY-033",
+    "name": "Jasin District",
+    "country": "MY",
+    "region": "Malacca",
+    "domain": "",
+    "osm_relation_id": 4463195
+  },
+  {
+    "id": "MY-034",
+    "name": "Jelebu District",
+    "country": "MY",
+    "region": "Negeri Sembilan",
+    "domain": "",
+    "osm_relation_id": 10976229
+  },
+  {
+    "id": "MY-035",
+    "name": "Jeli",
+    "country": "MY",
+    "region": "Kelantan",
+    "domain": "",
+    "osm_relation_id": 4443636
+  },
+  {
+    "id": "MY-036",
+    "name": "Jempol District",
+    "country": "MY",
+    "region": "Negeri Sembilan",
+    "domain": "",
+    "osm_relation_id": 10976230
+  },
+  {
+    "id": "MY-037",
+    "name": "Jerantut",
+    "country": "MY",
+    "region": "Malaysia",
+    "domain": "",
+    "osm_relation_id": 10744335
+  },
+  {
+    "id": "MY-038",
+    "name": "Johor Bahru District",
+    "country": "MY",
+    "region": "Johor",
+    "domain": "pdnj.johor.gov.my",
+    "osm_relation_id": 12306920
+  },
+  {
+    "id": "MY-039",
+    "name": "Julau District",
+    "country": "MY",
+    "region": "Sarikei",
+    "domain": "",
+    "osm_relation_id": 15974658
+  },
+  {
+    "id": "MY-040",
+    "name": "Kabong District",
+    "country": "MY",
+    "region": "Betong",
+    "domain": "",
+    "osm_relation_id": 15971398
+  },
+  {
+    "id": "MY-041",
+    "name": "Kalabakan",
+    "country": "MY",
+    "region": "Tawau Division",
+    "domain": ""
+  },
+  {
+    "id": "MY-042",
+    "name": "Kampar District",
+    "country": "MY",
+    "region": "Perak",
+    "domain": "",
+    "osm_relation_id": 12513725
+  },
+  {
+    "id": "MY-043",
+    "name": "Kanowit District",
+    "country": "MY",
+    "region": "Sibu",
+    "domain": "",
+    "osm_relation_id": 15974655
+  },
+  {
+    "id": "MY-044",
+    "name": "Kapit",
+    "country": "MY",
+    "region": "Kapit",
+    "domain": ""
+  },
+  {
+    "id": "MY-045",
+    "name": "Kemaman",
+    "country": "MY",
+    "region": "Terengganu",
+    "domain": "",
+    "osm_relation_id": 6663537
+  },
+  {
+    "id": "MY-046",
+    "name": "Keningau District",
+    "country": "MY",
+    "region": "Interior Division",
+    "domain": "",
+    "osm_relation_id": 15974723
+  },
+  {
+    "id": "MY-047",
+    "name": "Kerian",
+    "country": "MY",
+    "region": "Perak",
+    "domain": "",
+    "osm_relation_id": 12220076
+  },
+  {
+    "id": "MY-048",
+    "name": "Kinabatangan",
+    "country": "MY",
+    "region": "Sandakan Division",
+    "domain": "",
+    "osm_relation_id": 15974771
+  },
+  {
+    "id": "MY-049",
+    "name": "Kinta District",
+    "country": "MY",
+    "region": "Perak",
+    "domain": "",
+    "osm_relation_id": 12513726
+  },
+  {
+    "id": "MY-050",
+    "name": "Klang District",
+    "country": "MY",
+    "region": "Selangor",
+    "domain": "",
+    "osm_relation_id": 12391135
+  },
+  {
+    "id": "MY-051",
+    "name": "Kluang District",
+    "country": "MY",
+    "region": "Johor",
+    "domain": "",
+    "osm_relation_id": 12306916
+  },
+  {
+    "id": "MY-052",
+    "name": "Kota Belud",
+    "country": "MY",
+    "region": "West Coast",
+    "domain": "",
+    "osm_relation_id": 15975846
+  },
+  {
+    "id": "MY-053",
+    "name": "Kota Bharu District",
+    "country": "MY",
+    "region": "Kelantan",
+    "domain": "",
+    "osm_relation_id": 6311590
+  },
+  {
+    "id": "MY-054",
+    "name": "Kota Kinabalu District",
+    "country": "MY",
+    "region": "West Coast",
+    "domain": "",
+    "osm_relation_id": 15975929
+  },
+  {
+    "id": "MY-055",
+    "name": "Kota Marudu District",
+    "country": "MY",
+    "region": "Kudat Division",
+    "domain": "",
+    "osm_relation_id": 15975847
+  },
+  {
+    "id": "MY-056",
+    "name": "Kota Setar",
+    "country": "MY",
+    "region": "Kedah",
+    "domain": "",
+    "osm_relation_id": 7132273
+  },
+  {
+    "id": "MY-057",
+    "name": "Kota Tinggi District",
+    "country": "MY",
+    "region": "Johor",
+    "domain": "",
+    "osm_relation_id": 12306921
+  },
+  {
+    "id": "MY-058",
+    "name": "Kuala Kangsar District",
+    "country": "MY",
+    "region": "Perak",
+    "domain": ""
+  },
+  {
+    "id": "MY-059",
+    "name": "Kuala Krai District",
+    "country": "MY",
+    "region": "Kelantan",
+    "domain": ""
+  },
+  {
+    "id": "MY-060",
+    "name": "Kuala Langat",
+    "country": "MY",
+    "region": "Selangor",
+    "domain": "",
+    "osm_relation_id": 10743362
+  },
+  {
+    "id": "MY-061",
+    "name": "Kuala Muda District",
+    "country": "MY",
+    "region": "Kedah",
+    "domain": "",
+    "osm_relation_id": 5341460
+  },
+  {
+    "id": "MY-062",
+    "name": "Kuala Nerus",
+    "country": "MY",
+    "region": "Terengganu",
+    "domain": "pdtknerus.terengganu.gov.my",
+    "osm_relation_id": 12573879
+  },
+  {
+    "id": "MY-063",
+    "name": "Kuala Penyu District",
+    "country": "MY",
+    "region": "Interior Division",
+    "domain": "",
+    "osm_relation_id": 15974722
+  },
+  {
+    "id": "MY-064",
+    "name": "Kuala Pilah District",
+    "country": "MY",
+    "region": "Negeri Sembilan",
+    "domain": "",
+    "osm_relation_id": 10976220
+  },
+  {
+    "id": "MY-065",
+    "name": "Kuala Selangor District",
+    "country": "MY",
+    "region": "Selangor",
+    "domain": "",
+    "osm_relation_id": 10714137
+  },
+  {
+    "id": "MY-066",
+    "name": "Kuala Terengganu District",
+    "country": "MY",
+    "region": "Terengganu",
+    "domain": "",
+    "osm_relation_id": 12570056
+  },
+  {
+    "id": "MY-067",
+    "name": "Kuantan District",
+    "country": "MY",
+    "region": "Pahang",
+    "domain": "",
+    "osm_relation_id": 10744343
+  },
+  {
+    "id": "MY-068",
+    "name": "Kubang Pasu District",
+    "country": "MY",
+    "region": "Kedah",
+    "domain": ""
+  },
+  {
+    "id": "MY-069",
+    "name": "Kuching",
+    "country": "MY",
+    "region": "Kuching",
+    "domain": "",
+    "osm_relation_id": 15971408
+  },
+  {
+    "id": "MY-070",
+    "name": "Kudat District",
+    "country": "MY",
+    "region": "Kudat Division",
+    "domain": "",
+    "osm_relation_id": 15977039
+  },
+  {
+    "id": "MY-071",
+    "name": "Kulai District",
+    "country": "MY",
+    "region": "Johor",
+    "domain": "",
+    "osm_relation_id": 12306919
+  },
+  {
+    "id": "MY-072",
+    "name": "Kulim",
+    "country": "MY",
+    "region": "Kedah",
+    "domain": ""
+  },
+  {
+    "id": "MY-073",
+    "name": "Kunak District",
+    "country": "MY",
+    "region": "Tawau Division",
+    "domain": "",
+    "osm_relation_id": 15974769
+  },
+  {
+    "id": "MY-074",
+    "name": "Lahad Datu District",
+    "country": "MY",
+    "region": "Tawau Division",
+    "domain": "",
+    "osm_relation_id": 15974770
+  },
+  {
+    "id": "MY-075",
+    "name": "Langkawi District",
+    "country": "MY",
+    "region": "Kedah",
+    "domain": ""
+  },
+  {
+    "id": "MY-076",
+    "name": "Larut, Matang and Selama",
+    "country": "MY",
+    "region": "Perak",
+    "domain": "",
+    "osm_relation_id": 12456501
+  },
+  {
+    "id": "MY-077",
+    "name": "Lawas District",
+    "country": "MY",
+    "region": "Limbang",
+    "domain": "lawasdc.sarawak.gov.my",
+    "osm_relation_id": 15974637
+  },
+  {
+    "id": "MY-078",
+    "name": "Limbang District",
+    "country": "MY",
+    "region": "Limbang",
+    "domain": "",
+    "osm_relation_id": 15974638
+  },
+  {
+    "id": "MY-079",
+    "name": "Lingga",
+    "country": "MY",
+    "region": "Sri Aman",
+    "domain": ""
+  },
+  {
+    "id": "MY-080",
+    "name": "Lipis District",
+    "country": "MY",
+    "region": "Pahang",
+    "domain": "",
+    "osm_relation_id": 10744331
+  },
+  {
+    "id": "MY-081",
+    "name": "Lojing",
+    "country": "MY",
+    "region": "Gua Musang",
+    "domain": ""
+  },
+  {
+    "id": "MY-082",
+    "name": "Lubok Antu",
+    "country": "MY",
+    "region": "Sri Aman",
+    "domain": "archive.is",
+    "osm_relation_id": 15971401
+  },
+  {
+    "id": "MY-083",
+    "name": "Lundu District",
+    "country": "MY",
+    "region": "Kuching",
+    "domain": "",
+    "osm_relation_id": 15971410
+  },
+  {
+    "id": "MY-084",
+    "name": "Machang District",
+    "country": "MY",
+    "region": "Kelantan",
+    "domain": "",
+    "osm_relation_id": 4443638
+  },
+  {
+    "id": "MY-085",
+    "name": "Manjung",
+    "country": "MY",
+    "region": "Perak",
+    "domain": "",
+    "osm_relation_id": 12406442
+  },
+  {
+    "id": "MY-086",
+    "name": "Maran District",
+    "country": "MY",
+    "region": "Pahang",
+    "domain": "",
+    "osm_relation_id": 10744369
+  },
+  {
+    "id": "MY-087",
+    "name": "Marang",
+    "country": "MY",
+    "region": "Terengganu",
+    "domain": "",
+    "osm_relation_id": 12583174
+  },
+  {
+    "id": "MY-088",
+    "name": "Marudi District",
+    "country": "MY",
+    "region": "Miri",
+    "domain": ""
+  },
+  {
+    "id": "MY-089",
+    "name": "Matu District",
+    "country": "MY",
+    "region": "Mukah Division",
+    "domain": "",
+    "osm_relation_id": 15974653
+  },
+  {
+    "id": "MY-090",
+    "name": "Melaka Tengah District",
+    "country": "MY",
+    "region": "Malacca",
+    "domain": ""
+  },
+  {
+    "id": "MY-091",
+    "name": "Meradong",
+    "country": "MY",
+    "region": "Sarikei",
+    "domain": "",
+    "osm_relation_id": 15974657
+  },
+  {
+    "id": "MY-092",
+    "name": "Mersing District",
+    "country": "MY",
+    "region": "Johor",
+    "domain": "",
+    "osm_relation_id": 12306917
+  },
+  {
+    "id": "MY-093",
+    "name": "Miri District",
+    "country": "MY",
+    "region": "Miri",
+    "domain": "miri.sarawak.gov.my",
+    "osm_relation_id": 15974642
+  },
+  {
+    "id": "MY-094",
+    "name": "Muallim",
+    "country": "MY",
+    "region": "Perak",
+    "domain": "",
+    "osm_relation_id": 12499933
+  },
+  {
+    "id": "MY-095",
+    "name": "Muar District",
+    "country": "MY",
+    "region": "Johor",
+    "domain": "",
+    "osm_relation_id": 12306080
+  },
+  {
+    "id": "MY-096",
+    "name": "Mukah District",
+    "country": "MY",
+    "region": "Mukah Division",
+    "domain": "",
+    "osm_relation_id": 15974651
+  },
+  {
+    "id": "MY-097",
+    "name": "Nabawan District",
+    "country": "MY",
+    "region": "Interior Division",
+    "domain": "",
+    "osm_relation_id": 15974724
+  },
+  {
+    "id": "MY-098",
+    "name": "North Seberang Perai District",
+    "country": "MY",
+    "region": "Penang",
+    "domain": "",
+    "osm_relation_id": 9383946
+  },
+  {
+    "id": "MY-099",
+    "name": "North-East Penang Island",
+    "country": "MY",
+    "region": "Penang",
+    "domain": "",
+    "osm_relation_id": 9383945
+  },
+  {
+    "id": "MY-100",
+    "name": "Padang Terap",
+    "country": "MY",
+    "region": "Kedah",
+    "domain": "",
+    "osm_relation_id": 5245240
+  },
+  {
+    "id": "MY-101",
+    "name": "Pakan District",
+    "country": "MY",
+    "region": "Sarikei",
+    "domain": "",
+    "osm_relation_id": 15971396
+  },
+  {
+    "id": "MY-102",
+    "name": "Papar District",
+    "country": "MY",
+    "region": "West Coast",
+    "domain": "",
+    "osm_relation_id": 15974720
+  },
+  {
+    "id": "MY-103",
+    "name": "Pasir Mas District",
+    "country": "MY",
+    "region": "Kelantan",
+    "domain": "",
+    "osm_relation_id": 6900420
+  },
+  {
+    "id": "MY-104",
+    "name": "Pasir Puteh District",
+    "country": "MY",
+    "region": "Kelantan",
+    "domain": "",
+    "osm_relation_id": 4443639
+  },
+  {
+    "id": "MY-105",
+    "name": "Pekan District",
+    "country": "MY",
+    "region": "Pahang",
+    "domain": "mdpekan.gov.my",
+    "osm_relation_id": 10744375
+  },
+  {
+    "id": "MY-106",
+    "name": "Penampang District",
+    "country": "MY",
+    "region": "West Coast",
+    "domain": "",
+    "osm_relation_id": 15975850
+  },
+  {
+    "id": "MY-107",
+    "name": "Pendang",
+    "country": "MY",
+    "region": "Kedah",
+    "domain": "",
+    "osm_relation_id": 9377820
+  },
+  {
+    "id": "MY-108",
+    "name": "Perak Tengah",
+    "country": "MY",
+    "region": "Perak",
+    "domain": "",
+    "osm_relation_id": 12489669
+  },
+  {
+    "id": "MY-109",
+    "name": "Petaling District",
+    "country": "MY",
+    "region": "Selangor",
+    "domain": "",
+    "osm_relation_id": 12391134
+  },
+  {
+    "id": "MY-110",
+    "name": "Pitas District",
+    "country": "MY",
+    "region": "Kudat Division",
+    "domain": "",
+    "osm_relation_id": 15977077
+  },
+  {
+    "id": "MY-111",
+    "name": "Pokok Sena",
+    "country": "MY",
+    "region": "Kedah",
+    "domain": "",
+    "osm_relation_id": 9377821
+  },
+  {
+    "id": "MY-112",
+    "name": "Pontian District",
+    "country": "MY",
+    "region": "Johor",
+    "domain": "",
+    "osm_relation_id": 12306918
+  },
+  {
+    "id": "MY-113",
+    "name": "Port Dickson District",
+    "country": "MY",
+    "region": "Negeri Sembilan",
+    "domain": "",
+    "osm_relation_id": 10976196
+  },
+  {
+    "id": "MY-114",
+    "name": "Pusa District",
+    "country": "MY",
+    "region": "Betong",
+    "domain": "",
+    "osm_relation_id": 15971399
+  },
+  {
+    "id": "MY-115",
+    "name": "Putatan District",
+    "country": "MY",
+    "region": "West Coast",
+    "domain": "",
+    "osm_relation_id": 15975849
+  },
+  {
+    "id": "MY-116",
+    "name": "Ranau District",
+    "country": "MY",
+    "region": "West Coast",
+    "domain": "",
+    "osm_relation_id": 15975848
+  },
+  {
+    "id": "MY-117",
+    "name": "Raub District",
+    "country": "MY",
+    "region": "Pahang",
+    "domain": "",
+    "osm_relation_id": 10744349
+  },
+  {
+    "id": "MY-118",
+    "name": "Rembau District",
+    "country": "MY",
+    "region": "Negeri Sembilan",
+    "domain": "",
+    "osm_relation_id": 10976197
+  },
+  {
+    "id": "MY-119",
+    "name": "Rompin District",
+    "country": "MY",
+    "region": "Pahang",
+    "domain": "",
+    "osm_relation_id": 10744374
+  },
+  {
+    "id": "MY-120",
+    "name": "Sabak Bernam",
+    "country": "MY",
+    "region": "Selangor",
+    "domain": "",
+    "osm_relation_id": 10714136
+  },
+  {
+    "id": "MY-121",
+    "name": "Samarahan District",
+    "country": "MY",
+    "region": "Samarahan",
+    "domain": "",
+    "osm_relation_id": 15971406
+  },
+  {
+    "id": "MY-122",
+    "name": "Sandakan District",
+    "country": "MY",
+    "region": "Sandakan Division",
+    "domain": ""
+  },
+  {
+    "id": "MY-123",
+    "name": "Saratok District",
+    "country": "MY",
+    "region": "Betong",
+    "domain": "",
+    "osm_relation_id": 15971397
+  },
+  {
+    "id": "MY-124",
+    "name": "Sarikei District",
+    "country": "MY",
+    "region": "Sarikei",
+    "domain": "",
+    "osm_relation_id": 15974661
+  },
+  {
+    "id": "MY-125",
+    "name": "Sebauh",
+    "country": "MY",
+    "region": "Bintulu",
+    "domain": ""
+  },
+  {
+    "id": "MY-126",
+    "name": "Sebuyau District",
+    "country": "MY",
+    "region": "Samarahan",
+    "domain": ""
+  },
+  {
+    "id": "MY-127",
+    "name": "Segamat",
+    "country": "MY",
+    "region": "Johor",
+    "domain": ""
+  },
+  {
+    "id": "MY-128",
+    "name": "Selama",
+    "country": "MY",
+    "region": "Perak",
+    "domain": ""
+  },
+  {
+    "id": "MY-129",
+    "name": "Selangau District",
+    "country": "MY",
+    "region": "Sibu",
+    "domain": "",
+    "osm_relation_id": 15974650
+  },
+  {
+    "id": "MY-130",
+    "name": "Semporna District",
+    "country": "MY",
+    "region": "Tawau Division",
+    "domain": "",
+    "osm_relation_id": 15974767
+  },
+  {
+    "id": "MY-131",
+    "name": "Sepang District",
+    "country": "MY",
+    "region": "Selangor",
+    "domain": "mpsepang.gov.my",
+    "osm_relation_id": 10743315
+  },
+  {
+    "id": "MY-132",
+    "name": "Seremban District",
+    "country": "MY",
+    "region": "Negeri Sembilan",
+    "domain": "",
+    "osm_relation_id": 10976198
+  },
+  {
+    "id": "MY-133",
+    "name": "Serian District",
+    "country": "MY",
+    "region": "Serian Division",
+    "domain": "",
+    "osm_relation_id": 15971404
+  },
+  {
+    "id": "MY-134",
+    "name": "Setiu",
+    "country": "MY",
+    "region": "Terengganu",
+    "domain": "",
+    "osm_relation_id": 12573897
+  },
+  {
+    "id": "MY-135",
+    "name": "Sibu District",
+    "country": "MY",
+    "region": "Sibu",
+    "domain": "sibudo.sarawak.gov.my",
+    "osm_relation_id": 15974654
+  },
+  {
+    "id": "MY-136",
+    "name": "Siburan District",
+    "country": "MY",
+    "region": "Serian Division",
+    "domain": ""
+  },
+  {
+    "id": "MY-137",
+    "name": "Sik District",
+    "country": "MY",
+    "region": "Kedah",
+    "domain": "",
+    "osm_relation_id": 6166151
+  },
+  {
+    "id": "MY-138",
+    "name": "Simunjan",
+    "country": "MY",
+    "region": "Samarahan",
+    "domain": "",
+    "osm_relation_id": 15971405
+  },
+  {
+    "id": "MY-139",
+    "name": "Sipitang District",
+    "country": "MY",
+    "region": "Interior Division",
+    "domain": "",
+    "osm_relation_id": 15974636
+  },
+  {
+    "id": "MY-140",
+    "name": "Song District",
+    "country": "MY",
+    "region": "Kapit",
+    "domain": "",
+    "osm_relation_id": 15974656
+  },
+  {
+    "id": "MY-141",
+    "name": "South Seberang Perai",
+    "country": "MY",
+    "region": "Penang",
+    "domain": "",
+    "osm_relation_id": 7374838
+  },
+  {
+    "id": "MY-142",
+    "name": "South-West Penang Island",
+    "country": "MY",
+    "region": "Penang",
+    "domain": "",
+    "osm_relation_id": 9383944
+  },
+  {
+    "id": "MY-143",
+    "name": "Sri Aman District",
+    "country": "MY",
+    "region": "Sri Aman",
+    "domain": "",
+    "osm_relation_id": 15971402
+  },
+  {
+    "id": "MY-144",
+    "name": "Subis District",
+    "country": "MY",
+    "region": "Miri",
+    "domain": "",
+    "osm_relation_id": 15974643
+  },
+  {
+    "id": "MY-145",
+    "name": "Tambunan District",
+    "country": "MY",
+    "region": "Interior Division",
+    "domain": "",
+    "osm_relation_id": 15975851
+  },
+  {
+    "id": "MY-146",
+    "name": "Tampin District",
+    "country": "MY",
+    "region": "Negeri Sembilan",
+    "domain": "",
+    "osm_relation_id": 10976221
+  },
+  {
+    "id": "MY-147",
+    "name": "Tanah Merah",
+    "country": "MY",
+    "region": "Kelantan",
+    "domain": "",
+    "osm_relation_id": 6900418
+  },
+  {
+    "id": "MY-148",
+    "name": "Tangkak District",
+    "country": "MY",
+    "region": "Johor",
+    "domain": "johordt.gov.my"
+  },
+  {
+    "id": "MY-149",
+    "name": "Tanjung Manis District",
+    "country": "MY",
+    "region": "Mukah Division",
+    "domain": "",
+    "osm_relation_id": 15974660
+  },
+  {
+    "id": "MY-150",
+    "name": "Tatau District",
+    "country": "MY",
+    "region": "Bintulu",
+    "domain": "",
+    "osm_relation_id": 15974649
+  },
+  {
+    "id": "MY-151",
+    "name": "Tawau",
+    "country": "MY",
+    "region": "Tawau Division",
+    "domain": "",
+    "osm_relation_id": 15974768
+  },
+  {
+    "id": "MY-152",
+    "name": "Tebedu District",
+    "country": "MY",
+    "region": "Serian Division",
+    "domain": "",
+    "osm_relation_id": 15971403
+  },
+  {
+    "id": "MY-153",
+    "name": "Telang Usan District",
+    "country": "MY",
+    "region": "Miri",
+    "domain": "",
+    "osm_relation_id": 15974639
+  },
+  {
+    "id": "MY-154",
+    "name": "Telupid District",
+    "country": "MY",
+    "region": "Sandakan Division",
+    "domain": "",
+    "osm_relation_id": 15974766
+  },
+  {
+    "id": "MY-155",
+    "name": "Temerloh",
+    "country": "MY",
+    "region": "Malaysia",
+    "domain": ""
+  },
+  {
+    "id": "MY-156",
+    "name": "Tenom District",
+    "country": "MY",
+    "region": "Interior Division",
+    "domain": "mdtenom.sabah.gov.my",
+    "osm_relation_id": 15974725
+  },
+  {
+    "id": "MY-157",
+    "name": "Tongod District",
+    "country": "MY",
+    "region": "Sandakan Division",
+    "domain": "",
+    "osm_relation_id": 15974719
+  },
+  {
+    "id": "MY-158",
+    "name": "Tuaran District",
+    "country": "MY",
+    "region": "West Coast",
+    "domain": "",
+    "osm_relation_id": 15975845
+  },
+  {
+    "id": "MY-159",
+    "name": "Tumpat",
+    "country": "MY",
+    "region": "Kelantan",
+    "domain": ""
+  },
+  {
+    "id": "MY-160",
+    "name": "Yan",
+    "country": "MY",
+    "region": "Kedah",
+    "domain": "",
+    "osm_relation_id": 5331713
+  },
+  {
+    "id": "MY-161",
+    "name": "Pantu",
+    "country": "MY",
+    "region": "Simanggang",
+    "domain": ""
+  }
+]

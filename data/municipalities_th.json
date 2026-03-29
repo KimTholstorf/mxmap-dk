@@ -1,0 +1,631 @@
+[
+  {
+    "id": "TH-001",
+    "name": "Amnat Charoen",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "amnatcharoen.go.th",
+    "osm_relation_id": 2746948
+  },
+  {
+    "id": "TH-002",
+    "name": "Ang Thong",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "angthong.go.th",
+    "osm_relation_id": 1908765
+  },
+  {
+    "id": "TH-003",
+    "name": "Bueng Kan",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "buengkhan.go.th",
+    "osm_relation_id": 2934602
+  },
+  {
+    "id": "TH-004",
+    "name": "Buri Ram",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "buriram.go.th",
+    "osm_relation_id": 1908766
+  },
+  {
+    "id": "TH-005",
+    "name": "Chachoengsao",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "chachoengsao.go.th",
+    "osm_relation_id": 1908767
+  },
+  {
+    "id": "TH-006",
+    "name": "Chai Nat",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "chainat.go.th",
+    "osm_relation_id": 1908768
+  },
+  {
+    "id": "TH-007",
+    "name": "Chaiyaphum",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "chaiyaphum.go.th",
+    "osm_relation_id": 1908769
+  },
+  {
+    "id": "TH-008",
+    "name": "Chanthaburi",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "chanthaburi.go.th",
+    "osm_relation_id": 1908770
+  },
+  {
+    "id": "TH-009",
+    "name": "Chiang Mai",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "chiangmai.go.th",
+    "osm_relation_id": 1908771
+  },
+  {
+    "id": "TH-010",
+    "name": "Chiang Rai",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "chiangrai.go.th",
+    "osm_relation_id": 1908772
+  },
+  {
+    "id": "TH-011",
+    "name": "Chon Buri",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "ww2.chonburi.go.th",
+    "osm_relation_id": 1908773
+  },
+  {
+    "id": "TH-012",
+    "name": "Chumphon",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "chumphon.go.th",
+    "osm_relation_id": 1908774
+  },
+  {
+    "id": "TH-013",
+    "name": "Kalasin",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "kalasin.go.th",
+    "osm_relation_id": 1908775
+  },
+  {
+    "id": "TH-014",
+    "name": "Kamphaeng Phet",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "kamphaengphet.go.th",
+    "osm_relation_id": 1908776
+  },
+  {
+    "id": "TH-015",
+    "name": "Kanchanaburi",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "kanchanaburi.go.th",
+    "osm_relation_id": 1908777
+  },
+  {
+    "id": "TH-016",
+    "name": "Khon Kaen",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "khonkaen.go.th",
+    "osm_relation_id": 1908778
+  },
+  {
+    "id": "TH-017",
+    "name": "Khu Khan",
+    "country": "TH",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "TH-018",
+    "name": "Krabi",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "wwww.krabi.go.th",
+    "osm_relation_id": 1908779
+  },
+  {
+    "id": "TH-019",
+    "name": "Lampang",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "lampang.go.th",
+    "osm_relation_id": 1908781
+  },
+  {
+    "id": "TH-020",
+    "name": "Lamphun",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "lamphun.go.th",
+    "osm_relation_id": 1908782
+  },
+  {
+    "id": "TH-021",
+    "name": "Loei province",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "loei.go.th",
+    "osm_relation_id": 1908783
+  },
+  {
+    "id": "TH-022",
+    "name": "Lopburi",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "lopburi.go.th",
+    "osm_relation_id": 1908784
+  },
+  {
+    "id": "TH-023",
+    "name": "Mae Hong Son",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "maehongson.go.th",
+    "osm_relation_id": 1908785
+  },
+  {
+    "id": "TH-024",
+    "name": "Maha Sarakham",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "mahasarakham.go.th",
+    "osm_relation_id": 1908786
+  },
+  {
+    "id": "TH-025",
+    "name": "Mukdahan",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "mukdahan.go.th",
+    "osm_relation_id": 2934603
+  },
+  {
+    "id": "TH-026",
+    "name": "Nakhon Nayok",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "nakhonnayok.go.th",
+    "osm_relation_id": 1908787
+  },
+  {
+    "id": "TH-027",
+    "name": "Nakhon Pathom",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "nakhonpathom.go.th",
+    "osm_relation_id": 1908788
+  },
+  {
+    "id": "TH-028",
+    "name": "Nakhon Phanom",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "nakhonphanom.go.th",
+    "osm_relation_id": 1908789
+  },
+  {
+    "id": "TH-029",
+    "name": "Nakhon Ratchasima",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "nakhonratchasima.go.th",
+    "osm_relation_id": 1908790
+  },
+  {
+    "id": "TH-030",
+    "name": "Nakhon Sawan",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "nakhonsawan.go.th",
+    "osm_relation_id": 1908791
+  },
+  {
+    "id": "TH-031",
+    "name": "Nakhon Si Thammarat",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "nakhonsithammarat.go.th",
+    "osm_relation_id": 1908792
+  },
+  {
+    "id": "TH-032",
+    "name": "Nan",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "nan.go.th",
+    "osm_relation_id": 1908793
+  },
+  {
+    "id": "TH-033",
+    "name": "Narathiwat",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "narathiwat.go.th",
+    "osm_relation_id": 1908794
+  },
+  {
+    "id": "TH-034",
+    "name": "Nong Bua Lamphu",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "nongbualamphu.go.th",
+    "osm_relation_id": 1925819
+  },
+  {
+    "id": "TH-035",
+    "name": "Nong Khai",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "nongkhai.go.th",
+    "osm_relation_id": 1908795
+  },
+  {
+    "id": "TH-036",
+    "name": "Nonthaburi",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "nonthaburi.go.th",
+    "osm_relation_id": 1908796
+  },
+  {
+    "id": "TH-037",
+    "name": "Pathum Thani",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "pathumthani.go.th",
+    "osm_relation_id": 1908797
+  },
+  {
+    "id": "TH-038",
+    "name": "Pattani",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "pattani.go.th",
+    "osm_relation_id": 1908798
+  },
+  {
+    "id": "TH-039",
+    "name": "Phang Nga",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "phangnga.go.th",
+    "osm_relation_id": 1908799
+  },
+  {
+    "id": "TH-040",
+    "name": "Phatthalung",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "phatthalung.go.th",
+    "osm_relation_id": 1908800
+  },
+  {
+    "id": "TH-041",
+    "name": "Phayao",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "phayao.go.th",
+    "osm_relation_id": 1908801
+  },
+  {
+    "id": "TH-042",
+    "name": "Phetchabun",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "phetchabun.go.th",
+    "osm_relation_id": 1908802
+  },
+  {
+    "id": "TH-043",
+    "name": "Phetchaburi",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "phetchaburi.go.th",
+    "osm_relation_id": 1908803
+  },
+  {
+    "id": "TH-044",
+    "name": "Phichit",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "phichit.go.th",
+    "osm_relation_id": 1908804
+  },
+  {
+    "id": "TH-045",
+    "name": "Phitsanulok",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "phitsanulok.go.th",
+    "osm_relation_id": 1908805
+  },
+  {
+    "id": "TH-046",
+    "name": "Phra Nakhon Si Ayutthaya",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "ayutthaya.go.th",
+    "osm_relation_id": 1908806
+  },
+  {
+    "id": "TH-047",
+    "name": "Phrae",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "phrae.go.th",
+    "osm_relation_id": 1908807
+  },
+  {
+    "id": "TH-048",
+    "name": "Phuket",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "phuket.go.th",
+    "osm_relation_id": 2934604
+  },
+  {
+    "id": "TH-049",
+    "name": "Prachin Buri",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "prachinburi.go.th",
+    "osm_relation_id": 1908808
+  },
+  {
+    "id": "TH-050",
+    "name": "Prachuap Khiri Khan",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "prachuapkhirikhan.go.th",
+    "osm_relation_id": 1908809
+  },
+  {
+    "id": "TH-051",
+    "name": "Ranong province",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "ranong.go.th",
+    "osm_relation_id": 1908810
+  },
+  {
+    "id": "TH-052",
+    "name": "Ratchaburi",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "ratchaburi.go.th",
+    "osm_relation_id": 1908811
+  },
+  {
+    "id": "TH-053",
+    "name": "Rayong",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "rayong.go.th",
+    "osm_relation_id": 1908812
+  },
+  {
+    "id": "TH-054",
+    "name": "Roi Et",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "roiet.go.th",
+    "osm_relation_id": 1908813
+  },
+  {
+    "id": "TH-055",
+    "name": "Sa Kaeo",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "sakaeo.go.th",
+    "osm_relation_id": 2934605
+  },
+  {
+    "id": "TH-056",
+    "name": "Sakon Nakhon",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "sakonnakhon.go.th",
+    "osm_relation_id": 1908814
+  },
+  {
+    "id": "TH-057",
+    "name": "Samut Prakan",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "samutprakan.go.th",
+    "osm_relation_id": 1908815
+  },
+  {
+    "id": "TH-058",
+    "name": "Samut Sakhon",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "samutsakhon.go.th",
+    "osm_relation_id": 1908816
+  },
+  {
+    "id": "TH-059",
+    "name": "Samut Songkhram",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "samutsongkhram.go.th",
+    "osm_relation_id": 1908817
+  },
+  {
+    "id": "TH-060",
+    "name": "Saraburi",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "saraburi.go.th",
+    "osm_relation_id": 1908818
+  },
+  {
+    "id": "TH-061",
+    "name": "Satun",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "satun.go.th",
+    "osm_relation_id": 1908819
+  },
+  {
+    "id": "TH-062",
+    "name": "Sawankhalok",
+    "country": "TH",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "TH-063",
+    "name": "Si Sa Ket",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "sisaket.go.th",
+    "osm_relation_id": 1908821
+  },
+  {
+    "id": "TH-064",
+    "name": "Sing Buri",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "singburi.go.th",
+    "osm_relation_id": 1908820
+  },
+  {
+    "id": "TH-065",
+    "name": "Sisophon Province",
+    "country": "TH",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "TH-066",
+    "name": "Songkhla",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "songkhla.go.th",
+    "osm_relation_id": 1908822
+  },
+  {
+    "id": "TH-067",
+    "name": "Sukhothai",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "sukhothai.go.th",
+    "osm_relation_id": 1908823
+  },
+  {
+    "id": "TH-068",
+    "name": "Suphan Buri",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "suphanburi.go.th",
+    "osm_relation_id": 1908824
+  },
+  {
+    "id": "TH-069",
+    "name": "Surat Thani",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "suratthani.go.th",
+    "osm_relation_id": 1908825
+  },
+  {
+    "id": "TH-070",
+    "name": "Surin",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "surin.go.th",
+    "osm_relation_id": 1908826
+  },
+  {
+    "id": "TH-071",
+    "name": "Tak",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "tak.go.th",
+    "osm_relation_id": 1908827
+  },
+  {
+    "id": "TH-072",
+    "name": "Trang",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "trang.go.th",
+    "osm_relation_id": 1908828
+  },
+  {
+    "id": "TH-073",
+    "name": "Trat",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "trat.go.th",
+    "osm_relation_id": 1908829
+  },
+  {
+    "id": "TH-074",
+    "name": "Ubon Ratchathani",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "ubonratchathani.go.th",
+    "osm_relation_id": 1908830
+  },
+  {
+    "id": "TH-075",
+    "name": "Udon Thani",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "udonthani.go.th",
+    "osm_relation_id": 1908831
+  },
+  {
+    "id": "TH-076",
+    "name": "Uthai Thani",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "uthaithani.go.th",
+    "osm_relation_id": 2934606
+  },
+  {
+    "id": "TH-077",
+    "name": "Uttaradit",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "uttaradit.go.th",
+    "osm_relation_id": 1908832
+  },
+  {
+    "id": "TH-078",
+    "name": "Yala",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "yala.go.th",
+    "osm_relation_id": 1908872
+  },
+  {
+    "id": "TH-079",
+    "name": "Yasothon",
+    "country": "TH",
+    "region": "Thailand",
+    "domain": "yasothon.go.th",
+    "osm_relation_id": 1908873
+  }
+]

@@ -518,6 +518,88 @@ SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
 }
 ORDER BY ?itemLabel
 """,
+    # Indonesia: Q3191695 (regency) + Q3199141 (city) — ~521 kabupaten/kota
+    "ID": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  VALUES ?type { wd:Q3191695 wd:Q3199141 }
+  ?item wdt:P31 ?type .
+  ?item wdt:P17 wd:Q252 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,id" }
+}
+ORDER BY ?itemLabel
+""",
+    # Papua New Guinea: Q1053630 (province) + Q14942893 (district) — ~112
+    "PG": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  VALUES ?type { wd:Q1053630 wd:Q14942893 }
+  ?item wdt:P31 ?type .
+  ?item wdt:P17 wd:Q691 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?itemLabel
+""",
+    # Malaysia: Q1994931 (district) — ~161 districts
+    "MY": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q1994931 .
+  ?item wdt:P17 wd:Q833 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,ms" }
+}
+ORDER BY ?itemLabel
+""",
+    # Thailand: Q50198 (province) — 76 provinces + Bangkok
+    "TH": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q50198 .
+  ?item wdt:P17 wd:Q869 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,th" }
+}
+ORDER BY ?itemLabel
+""",
+    # Cambodia: Q7252589 (province) — 25 provinces
+    "KH": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q7252589 .
+  ?item wdt:P17 wd:Q424 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,km" }
+}
+ORDER BY ?itemLabel
+""",
+    # Philippines: Q24764 (municipality) + Q29946056 (highly urbanized city)
+    #   + Q106078286 (component city) — ~1637 total
+    "PH": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  VALUES ?type { wd:Q24764 wd:Q29946056 wd:Q106078286 }
+  ?item wdt:P31 ?type .
+  ?item wdt:P17 wd:Q928 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,tl" }
+}
+ORDER BY ?itemLabel
+""",
 })
 
 
