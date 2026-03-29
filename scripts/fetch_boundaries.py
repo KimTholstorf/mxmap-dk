@@ -70,6 +70,8 @@ COUNTRY_CONFIG = {
     "PH": {"admin_level": 4, "iso": "PH", "name": "Philippines"},
     "VN": {"admin_level": 4, "iso": "VN", "name": "Vietnam"},
     "MM": {"admin_level": 4, "iso": "MM", "name": "Myanmar"},
+    # East Asia
+    "JP": {"admin_level": 4, "iso": "JP", "name": "Japan"},
     # Middle East
     "OM": {"admin_level": 4, "iso": "OM", "name": "Oman"},
     "AE": {"admin_level": 4, "iso": "AE", "name": "UAE"},

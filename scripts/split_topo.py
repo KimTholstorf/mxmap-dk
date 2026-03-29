@@ -91,6 +91,8 @@ COUNTRIES = [
     "PH",
     "VN",
     "MM",
+    # East Asia
+    "JP",
     # Middle East
     "OM",
     "AE",
@@ -210,6 +212,8 @@ LEVEL_MAP = {
     "PH": {"region": "region", "district": "municipality", "municipality": "municipality"},
     "VN": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     "MM": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    # East Asia
+    "JP": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     # Middle East
     "OM": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     "AE": {"region": "municipality", "district": "municipality", "municipality": "municipality"},

@@ -89,6 +89,8 @@ SEED_FILES = {
     "PH": "municipalities_ph.json",
     "VN": "municipalities_vn.json",
     "MM": "municipalities_mm.json",
+    # East Asia
+    "JP": "municipalities_jp.json",
     # Middle East
     "OM": "municipalities_om.json",
     "AE": "municipalities_ae.json",
@@ -371,6 +373,8 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         "PH": [".gov.ph", ".ph"],
         "VN": [".gov.vn", ".vn"],
         "MM": [".gov.mm", ".mm"],
+        # East Asia
+        "JP": [".lg.jp", ".jp"],
         # Middle East
         "OM": [".gov.om", ".om"],
         "AE": [".gov.ae", ".ae"],
