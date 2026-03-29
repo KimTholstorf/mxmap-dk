@@ -277,4 +277,4 @@ Small local IT companies can also act as gateways (e.g., `edelkey.net` for Helsi
 
 ## Country-Specific Notes
 
-Per-country implementation guides are in `docs/countries/`. These were used during initial setup and may be outdated, but contain useful context about domain pitfalls, ISP discovery, and admin level choices.
+Per-country implementation guides are in `docs/countries/`. These were used during initial setup and may be outdated, but contain useful context about domain pitfalls, ISP discovery, and admin level choices. Available: Andorra, Austria, Belgium, Czechia, Denmark, Germany, Luxembourg, Norway, Sweden. Use these as examples when adding new countries.
