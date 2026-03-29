@@ -1,0 +1,58 @@
+[
+  {
+    "id": "AE-001",
+    "name": "Emirate of Abu Dhabi",
+    "country": "AE",
+    "region": "United Arab Emirates",
+    "domain": "tamm.abudhabi",
+    "osm_relation_id": 3766481
+  },
+  {
+    "id": "AE-002",
+    "name": "Emirate of Ajman",
+    "country": "AE",
+    "region": "United Arab Emirates",
+    "domain": "ajman.ae",
+    "osm_relation_id": 3766482
+  },
+  {
+    "id": "AE-003",
+    "name": "Emirate of Dubai",
+    "country": "AE",
+    "region": "United Arab Emirates",
+    "domain": "dubai.ae",
+    "osm_relation_id": 3766483
+  },
+  {
+    "id": "AE-004",
+    "name": "Emirate of Fujairah",
+    "country": "AE",
+    "region": "United Arab Emirates",
+    "domain": "fujairah.ae",
+    "osm_relation_id": 3766484
+  },
+  {
+    "id": "AE-005",
+    "name": "Emirate of Ras Al Khaimah",
+    "country": "AE",
+    "region": "United Arab Emirates",
+    "domain": "rak.ae",
+    "osm_relation_id": 3766485
+  },
+  {
+    "id": "AE-006",
+    "name": "Emirate of Sharjah",
+    "country": "AE",
+    "region": "United Arab Emirates",
+    "domain": "sharjah.ae",
+    "osm_relation_id": 3766486
+  },
+  {
+    "id": "AE-007",
+    "name": "Emirate of Umm Al Quwain",
+    "country": "AE",
+    "region": "United Arab Emirates",
+    "domain": "",
+    "osm_relation_id": 3766487
+  }
+]

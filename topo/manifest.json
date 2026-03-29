@@ -14,6 +14,21 @@
       "ad_municipality.topo.json": 3721
     }
   },
+  "AE": {
+    "levels": [
+      "region",
+      "district",
+      "municipality"
+    ],
+    "files": {
+      "region": "ae_municipality.topo.json",
+      "district": "ae_municipality.topo.json",
+      "municipality": "ae_municipality.topo.json"
+    },
+    "sizes": {
+      "ae_municipality.topo.json": 26268
+    }
+  },
   "AL": {
     "levels": [
       "region",
@@ -764,6 +779,21 @@
     },
     "sizes": {
       "nz_municipality.topo.json": 646666
+    }
+  },
+  "OM": {
+    "levels": [
+      "region",
+      "district",
+      "municipality"
+    ],
+    "files": {
+      "region": "om_municipality.topo.json",
+      "district": "om_municipality.topo.json",
+      "municipality": "om_municipality.topo.json"
+    },
+    "sizes": {
+      "om_municipality.topo.json": 216268
     }
   },
   "PG": {

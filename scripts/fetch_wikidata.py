@@ -628,6 +628,57 @@ SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
 }
 ORDER BY ?itemLabel
 """,
+    # Oman: Q641078 (governorate) — 11 governorates
+    "OM": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q641078 .
+  ?item wdt:P17 wd:Q842 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,ar" }
+}
+ORDER BY ?itemLabel
+""",
+    # UAE: Q19833031 (emirate) — 7 emirates
+    "AE": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q19833031 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,ar" }
+}
+ORDER BY ?itemLabel
+""",
+    # Qatar: Q685320 (municipality) — 8 municipalities
+    "QA": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q685320 .
+  ?item wdt:P17 wd:Q846 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,ar" }
+}
+ORDER BY ?itemLabel
+""",
+    # Bahrain: Q867606 (governorate) — 4 governorates
+    "BH": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q867606 .
+  ?item wdt:P17 wd:Q398 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,ar" }
+}
+ORDER BY ?itemLabel
+""",
 })
 
 

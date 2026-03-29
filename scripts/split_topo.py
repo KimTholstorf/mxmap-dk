@@ -85,6 +85,11 @@ COUNTRIES = [
     "PH",
     "VN",
     "MM",
+    # Middle East
+    "OM",
+    "AE",
+    "QA",
+    "BH",
 ]
 
 # Which conceptual level maps to which file level per country.
@@ -193,6 +198,11 @@ LEVEL_MAP = {
     "PH": {"region": "region", "district": "municipality", "municipality": "municipality"},
     "VN": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     "MM": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    # Middle East
+    "OM": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "AE": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "QA": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "BH": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
 }
 
 
