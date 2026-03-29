@@ -8,8 +8,8 @@
 <link rel="preconnect" href="https://b.basemaps.cartocdn.com" crossorigin>
 <link rel="preconnect" href="https://c.basemaps.cartocdn.com" crossorigin>
 <link rel="preconnect" href="https://d.basemaps.cartocdn.com" crossorigin>
-<title>MX Map — Email Providers of European Municipalities</title>
-<meta name="description" content="Interactive map showing the email providers of ~20,000 municipalities across 47 European countries, based on DNS analysis of MX, SPF, and DKIM records.">
+<title>MX Map — Email Sovereignty Map</title>
+<meta name="description" content="Interactive map showing where ~23,000 municipalities across 55 countries host their official email, based on DNS analysis of MX, SPF, and DKIM records.">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='2' y='7' width='28' height='18' rx='2' fill='%231a1a2e'/%3E%3Cpath d='M2 9l14 9 14-9' fill='none' stroke='%2316a34a' stroke-width='2'/%3E%3C/svg%3E">
 <link rel="preload" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"></noscript>
@@ -185,7 +185,7 @@
   <div class="header-left">
     <h1 class="brand">MX Map</h1>
     <span class="separator">|</span>
-    <span class="tagline">Email Providers of European Municipalities</span>
+    <span class="tagline">Email Sovereignty Map</span>
   </div>
   <div class="header-right">
     <span class="updated" id="generated"></span>
@@ -194,26 +194,26 @@
   </div>
 </header>
 <section id="info-bar" class="collapsed" aria-label="About this project">
-  <h2 class="info-title">Email Providers of European Municipalities</h2>
+  <h2 class="info-title">Email Sovereignty Map</h2>
   <div class="info-grid">
     <div class="info-card">
       <h3>What is this?</h3>
-      <p>A map showing which provider handles official email for municipalities across Europe — based on public DNS records. US-based providers (Microsoft, Google, AWS) are subject to the <strong>US CLOUD Act</strong>, which allows US authorities to request stored data regardless of where it is hosted. This conflicts with <strong>GDPR</strong> and the <strong>Schrems II</strong> ruling.</p>
+      <p>A map showing which provider handles official email for municipalities worldwide — based on public DNS records. US-based providers (Microsoft, Google, AWS) are subject to the <strong>US CLOUD Act</strong>, which allows US authorities to request stored data regardless of where it is hosted. This raises data sovereignty concerns across jurisdictions.</p>
     </div>
     <div class="info-card">
       <h3>How does it work?</h3>
-      <p>For each municipality domain, DNS records (MX, SPF, CNAME, DKIM, autodiscover, TXT) are queried and classified in priority order: <strong>MX hostname</strong> or <strong>CNAME</strong> matching a known provider; <strong>gateway look-through</strong> via SPF, autodiscover, DKIM, and TXT verification tokens when MX points to a security gateway (FortiMail, Barracuda, Hornetsecurity, etc.) — SPF is only trusted when exactly one backend provider is found, and TXT tokens (e.g., <code>MS=</code>, <code>google-site-verification=</code>) are only used as a last resort behind gateways; <strong>DKIM check</strong> for unrecognized MX hosts to detect hidden backends (e.g., self-hosted MX with Microsoft 365 DKIM); <strong>local provider</strong> by matching MX server ASN to known European ISPs, government mail infrastructure, and municipal IT cooperatives; or <strong>self-hosted</strong> if no known provider or ISP is detected. DKIM is the most reliable signal — a CNAME proving a provider signs mail for the domain is definitive proof of mail hosting.</p>
+      <p>For each municipality domain, DNS records (MX, SPF, CNAME, DKIM, autodiscover, TXT) are queried and classified in priority order: <strong>MX hostname</strong> or <strong>CNAME</strong> matching a known provider; <strong>gateway look-through</strong> via SPF, autodiscover, DKIM, and TXT verification tokens when MX points to a security gateway (FortiMail, Barracuda, Hornetsecurity, etc.) — SPF is only trusted when exactly one backend provider is found, and TXT tokens (e.g., <code>MS=</code>, <code>google-site-verification=</code>) are only used as a last resort behind gateways; <strong>DKIM check</strong> for unrecognized MX hosts to detect hidden backends (e.g., self-hosted MX with Microsoft 365 DKIM); <strong>local provider</strong> by matching MX server ASN to known local ISPs, government mail infrastructure, and municipal IT cooperatives; or <strong>self-hosted</strong> if no known provider or ISP is detected. DKIM is the most reliable signal — a CNAME proving a provider signs mail for the domain is definitive proof of mail hosting.</p>
     </div>
     <div class="info-card">
       <h3>Open source &amp; open data</h3>
-      <p>Inspired by <a href="https://mxmap.ch" target="_blank">mxmap.ch</a> (Swiss municipalities). Code and data on <a href="https://github.com/livenson/mxmap" target="_blank">GitHub</a>.</p>
+      <p>Inspired by <a href="https://mxmap.ch" target="_blank">mxmap.ch</a>. Code and data on <a href="https://github.com/livenson/mxmap" target="_blank">GitHub</a>.</p>
     </div>
   </div>
 </section>
 <section id="stats-bar" class="collapsed" aria-label="Statistics">
   <div id="stats-content"></div>
 </section>
-<main id="map" role="application" aria-label="Interactive map of European municipality email providers">
+<main id="map" role="application" aria-label="Interactive map of municipal email providers">
   <div id="map-loading" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;z-index:1000;background:rgba(255,255,255,0.85);font-size:15px;color:#555;">Loading map data&hellip;</div>
   <div class="map-controls">
     <button class="country-toggle" id="country-toggle">Countries &#9662;</button>
@@ -320,7 +320,7 @@ const DARK_TEXT = new Set(['Google', 'AWS', 'Unknown']);
 
 const TIERS = {
   'US (CLOUD Act)': ['Microsoft', 'Google', 'AWS'],
-  'European':       ['Local Provider', 'Self-hosted'],
+  'Local':       ['Local Provider', 'Self-hosted'],
   'Unknown':        ['Unknown']
 };
 
@@ -482,7 +482,7 @@ function buildStats(muniList) {
 
   function computeStats(list) {
     const t = list.length;
-    let us = 0, usLocalGw = 0, sameCountry = 0, otherEu = 0, unk = 0;
+    let us = 0, usLocalGw = 0, sameCountry = 0, otherRegion = 0, unk = 0;
     const providers = {};
     const mxCountries = {};
     const ispNames = {};
@@ -501,7 +501,7 @@ function buildStats(muniList) {
       else {
         const cc = m.mx_countries || [];
         if (cc.includes(m.country)) sameCountry++;
-        else otherEu++;
+        else otherRegion++;
       }
       for (const cc of (m.mx_countries || [])) {
         mxCountries[cc] = (mxCountries[cc] || 0) + 1;
@@ -510,7 +510,7 @@ function buildStats(muniList) {
       if (cc.includes('US')) mxUs++;
       if (cc.some(c => COUNTRY_LIST.includes(c))) mxLocal++;
     }
-    return { total: t, us, usLocalGw, sameCountry, otherEu, unk, providers, mxCountries, ispNames, mxUs, mxLocal };
+    return { total: t, us, usLocalGw, sameCountry, otherRegion, unk, providers, mxCountries, ispNames, mxUs, mxLocal };
   }
 
   function jurisdictionHtml(stats, max) {
@@ -520,7 +520,7 @@ function buildStats(muniList) {
       h += `<div style="margin:-2px 0 4px 100px;font-size:11px;color:#795548">\u{1F6E1}\uFE0F ${stats.usLocalGw} via local gateway</div>`;
     }
     h += barHtml('Same country', stats.sameCountry, max, '#0E9680', stats.total);
-    if (stats.otherEu > 0) h += barHtml('Other EU', stats.otherEu, max, '#2EDBA8', stats.total);
+    if (stats.otherRegion > 0) h += barHtml('Other region', stats.otherRegion, max, '#2EDBA8', stats.total);
     if (stats.unk > 0) h += barHtml('Unknown', stats.unk, max, '#BFBFBF', stats.total);
     return h;
   }
@@ -584,7 +584,7 @@ function buildStats(muniList) {
       html += `<div style="font-size:13px;font-weight:600;color:#444;margin-bottom:8px">${FLAGS[cc] || ''} ${countryNames[cc]} (${stats.total})</div>`;
       html += barHtml('US-based', stats.us, stats.total, '#E83838', stats.total);
       html += barHtml('Same country', stats.sameCountry, stats.total, '#0E9680', stats.total);
-      if (stats.otherEu > 0) html += barHtml('Other EU', stats.otherEu, stats.total, '#2EDBA8', stats.total);
+      if (stats.otherRegion > 0) html += barHtml('Other region', stats.otherRegion, stats.total, '#2EDBA8', stats.total);
       html += `<div style="margin-top:12px;font-size:11px;color:#999;font-weight:600">TOP PROVIDERS</div>`;
       for (const [p, count] of topProviders) {
         html += barHtml(p, count, topProviders[0][1], COLORS[p] || '#888', stats.total);
@@ -1246,7 +1246,7 @@ async function loadData() {
       content.innerHTML =
         '<strong>Email Provider</strong>' +
         legendGroupHtml('US-based', ['Microsoft', 'Google', 'AWS'], counts) +
-        legendGroupHtml('European', ['Local Provider', 'Self-hosted', 'Unknown'], counts) +
+        legendGroupHtml('Local', ['Local Provider', 'Self-hosted', 'Unknown'], counts) +
         (gwCount > 0 ? `<div style="margin-top:8px;font-size:11px;color:#795548">\u{1F6E1}\uFE0F = local gateway, US mailbox (${gwCount})</div>` : '') +
         `<div style="margin-top:4px;font-size:11px;color:#999">${total} municipalities</div>`;
     }
