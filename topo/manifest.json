@@ -61,6 +61,22 @@
       "at_municipality.topo.json": 1079786
     }
   },
+  "AU": {
+    "levels": [
+      "region",
+      "district",
+      "municipality"
+    ],
+    "files": {
+      "region": "au_region.topo.json",
+      "district": "au_municipality.topo.json",
+      "municipality": "au_municipality.topo.json"
+    },
+    "sizes": {
+      "au_municipality.topo.json": 2157872,
+      "au_region.topo.json": 512884
+    }
+  },
   "AZ": {
     "levels": [
       "region",
@@ -454,6 +470,21 @@
     },
     "sizes": {
       "hu_municipality.topo.json": 209642
+    }
+  },
+  "ID": {
+    "levels": [
+      "region",
+      "district",
+      "municipality"
+    ],
+    "files": {
+      "region": "id_municipality.topo.json",
+      "district": "id_municipality.topo.json",
+      "municipality": "id_municipality.topo.json"
+    },
+    "sizes": {
+      "id_municipality.topo.json": 4130572
     }
   },
   "IE": {
