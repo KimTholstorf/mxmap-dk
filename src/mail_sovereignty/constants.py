@@ -564,6 +564,13 @@ LOCAL_ISP_ASNS: dict[int, str] = {
     9146: "BH Telecom (BA)",
     5564: "HT Eronet (BA)",
     31549: "Telekom Srpske (BA)",
+    # Georgia
+    49628: "SKYTEL/MRDI gov.ge (GE)",  # Government shared mail (edge.mrdi.gov.ge)
+    47810: "ProService (GE)",
+    57814: "Cloud9 (GE)",
+    20545: "GRENA (GE)",
+    35076: "NameService (GE)",
+    35805: "Silknet (GE)",
 }
 
 DE_STATES = {
