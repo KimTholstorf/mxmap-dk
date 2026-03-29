@@ -93,12 +93,19 @@
     position: absolute; top: 10px; right: 10px; z-index: 1000;
     display: flex; flex-direction: column; align-items: flex-end; gap: 6px;
   }
-  .country-filters {
-    display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 2px;
-    max-width: 520px;
-    background: rgba(255,255,255,0.92); border-radius: 6px;
-    padding: 4px 6px; box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  .country-toggle {
+    background: rgba(255,255,255,0.92); border: 1.5px solid #ccc; border-radius: 4px;
+    padding: 4px 12px; cursor: pointer; font-size: 11px; font-weight: 600;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1); white-space: nowrap;
   }
+  .country-toggle:hover { border-color: #999; }
+  .country-filters {
+    display: none; flex-wrap: wrap; justify-content: flex-end; gap: 2px;
+    max-width: 520px;
+    background: rgba(255,255,255,0.95); border-radius: 6px;
+    padding: 6px 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  }
+  .country-filters.expanded { display: flex; }
   .region-group {
     display: flex; align-items: center; gap: 2px;
   }
@@ -165,9 +172,10 @@
     .legend.legend-collapsed .legend-content { display: none; }
     .legend.legend-collapsed { padding: 8px 12px; }
     .map-controls { top: 6px; right: 6px; }
-    .country-filters { max-width: 300px; }
+    .country-filters { max-width: 280px; }
     .country-btn { padding: 1px 4px; font-size: 9px; }
     .region-label { font-size: 8px; }
+    .country-toggle { font-size: 10px; padding: 3px 8px; }
     .level-btn { padding: 4px 10px; font-size: 11px; }
   }
 </style>
@@ -208,7 +216,8 @@
 <main id="map" role="application" aria-label="Interactive map of European municipality email providers">
   <div id="map-loading" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;z-index:1000;background:rgba(255,255,255,0.85);font-size:15px;color:#555;">Loading map data&hellip;</div>
   <div class="map-controls">
-    <div class="country-filters">
+    <button class="country-toggle" id="country-toggle">Countries &#9662;</button>
+    <div class="country-filters" id="country-filters">
       <div class="region-group">
         <button class="region-label" data-region="nordic">Nordic</button>
         <button class="country-btn active" data-country="FI">FI</button>
@@ -1091,7 +1100,14 @@ document.querySelectorAll('.level-btn').forEach(function (btn) {
   });
 });
 
-// --- Country filters ---
+// --- Country filters toggle ---
+document.getElementById('country-toggle').addEventListener('click', function () {
+  const panel = document.getElementById('country-filters');
+  const btn = document.getElementById('country-toggle');
+  const expanded = panel.classList.toggle('expanded');
+  btn.innerHTML = expanded ? 'Countries \u25b4' : 'Countries \u25be';
+});
+
 document.querySelectorAll('.country-btn').forEach(function (btn) {
   btn.addEventListener('click', function () {
     const country = btn.dataset.country;
