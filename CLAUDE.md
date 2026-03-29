@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-MX Map is a DNS-based email provider classifier for European municipalities (47 countries, ~20,000 municipalities). It runs a 3-stage async pipeline that produces `data.json`, which powers an interactive Leaflet.js map showing where municipalities host their official email. Forked from [mxmap.ch](https://mxmap.ch) (Swiss municipalities). Covers all 27 EU member states plus 20 non-EU European countries.
+MX Map is a DNS-based email provider classifier for European municipalities (49 countries, ~20,000 municipalities). It runs a 3-stage async pipeline that produces `data.json`, which powers an interactive Leaflet.js map showing where municipalities host their official email. Forked from [mxmap.ch](https://mxmap.ch) (Swiss municipalities). Covers all 27 EU member states plus 20 non-EU European countries.
 
 ## Important: Always use `uv run`
 
@@ -50,7 +50,7 @@ python -m http.server
 
 All three stages operate on `data.json` at the repo root:
 
-1. **Preprocess** (`preprocess.py`) — Loads municipalities from `data/municipalities_{cc}.json` seed files (47 countries) + `data/overrides.json`. For each municipality: extracts domain (or guesses from name with diacritics transliteration), performs async MX/SPF/CNAME/ASN/autodiscover/DKIM/TXT-verification/tenant DNS lookups via 3 resolvers (system, Google, Cloudflare) with shared cache, classifies provider, detects gateways. Concurrency: 20. Supports sub-country filtering (`DE:BY` scans only Bavaria).
+1. **Preprocess** (`preprocess.py`) — Loads municipalities from `data/municipalities_{cc}.json` seed files (49 countries) + `data/overrides.json`. For each municipality: extracts domain (or guesses from name with diacritics transliteration), performs async MX/SPF/CNAME/ASN/autodiscover/DKIM/TXT-verification/tenant DNS lookups via 3 resolvers (system, Google, Cloudflare) with shared cache, classifies provider, detects gateways. Concurrency: 20. Supports sub-country filtering (`DE:BY` scans only Bavaria).
 
 2. **Postprocess** (`postprocess.py`) — Four sub-steps: (a) apply `MANUAL_OVERRIDES` dict with DNS re-lookup for domain-only overrides, (b) retry DNS for unknowns that have a domain, (c) SMTP banner check on primary MX of independent/unknown entries (deduplicated, concurrency 5), (d) scrape municipality websites for email addresses on remaining unknowns (concurrency 10). Includes TYPO3 Caesar cipher decryption for obfuscated mailto: links.
 
@@ -279,4 +279,4 @@ Small local IT companies can also act as gateways (e.g., `edelkey.net` for Helsi
 
 ## Country-Specific Notes
 
-Per-country implementation guides are in `docs/countries/`. These were used during initial setup and may be outdated, but contain useful context about domain pitfalls, ISP discovery, and admin level choices. Available: Andorra, Austria, Belgium, Czechia, Denmark, Germany, Luxembourg, Norway, Sweden. Use these as examples when adding new countries.
+Per-country implementation guides are in `docs/countries/`. These were used during initial setup and may be outdated, but contain useful context about domain pitfalls, ISP discovery, and admin level choices. Available: Andorra, Australia, Austria, Belgium, Czechia, Denmark, Germany, Luxembourg, New Zealand, Norway, Sweden. Use these as examples when adding new countries.

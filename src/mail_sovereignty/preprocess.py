@@ -70,6 +70,9 @@ SEED_FILES = {
     "BY": "municipalities_by.json",
     "TR": "municipalities_tr.json",
     "MC": "municipalities_mc.json",
+    # Oceania
+    "AU": "municipalities_au.json",
+    "NZ": "municipalities_nz.json",
 }
 
 
@@ -167,6 +170,9 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         " county",  # RO/HU
         " járás",  # Hungarian: district
         " megye",  # Hungarian: county
+        " regional council",  # AU/NZ
+        " shire council",
+        " shire",  # AU
     ]:
         if raw.endswith(suffix):
             raw = raw[: -len(suffix)]
@@ -325,6 +331,9 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         "BY": [".by", ".gov.by"],
         "TR": [".gov.tr", ".bel.tr", ".tr"],
         "MC": [".mc", ".gouv.mc"],
+        # Oceania
+        "AU": [".gov.au", ".com.au", ".au"],
+        "NZ": [".govt.nz", ".co.nz", ".nz"],
     }
     tlds = tld_map.get(
         country, [".ee", ".lv", ".lt", ".fi", ".no", ".se", ".de", ".dk"]

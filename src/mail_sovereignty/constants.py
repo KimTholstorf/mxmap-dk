@@ -93,7 +93,15 @@ SKIP_DOMAINS = {
     "example.al",
     "example.me",
     "example.ba",
+    "example.au",
+    "example.com.au",
+    "example.gov.au",
+    "example.nz",
+    "example.govt.nz",
+    "example.co.nz",
     "gov.uk",
+    "gov.au",
+    "govt.nz",
     "kommune.no",
     "sentry.io",
     "w3.org",
@@ -176,6 +184,8 @@ GATEWAY_KEYWORDS = {
     "nospamproxy": ["nospamproxy.de", "nospamproxy.com", "as-scan.de"],
     "secumail": ["secumail.de"],
     "mailspamprotection": ["mailspamprotection.com"],
+    "mailguard": ["mailguard.com.au"],
+    "mimecast": ["mimecast.com"],
     "antispameurope": ["antispameurope.com"],
     "retarus": ["retarus.com"],
     "psmanaged": ["psmanaged.com"],
@@ -584,6 +594,10 @@ LOCAL_ISP_ASNS: dict[int, str] = {
     8400: "Telekom Srbija (RS)",
     # Moldova
     28990: "Molddata (MD)",  # mx0.spamcloud.md
+    # Australia
+    9290: "GoHosting (AU)",
+    # New Zealand
+    4648: "Spark NZ (NZ)",
     # Germany — municipal IT cooperatives and regional ISPs
     12337: "Noris Network (DE)",  # rechennetz.de
     39835: "Goetel (DE)",  # kdgoe.de

@@ -492,6 +492,32 @@ SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
 }
 ORDER BY ?itemLabel
 """,
+    # Australia: Q1867183 (local government area of Australia) — ~537 LGAs
+    "AU": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q1867183 .
+  ?item wdt:P17 wd:Q408 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?itemLabel
+""",
+    # New Zealand: Q941036 (territorial authority of NZ) — 67 councils
+    "NZ": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q941036 .
+  ?item wdt:P17 wd:Q664 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,mi" }
+}
+ORDER BY ?itemLabel
+""",
 })
 
 

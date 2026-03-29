@@ -265,6 +265,10 @@
         <button class="country-btn active" data-country="AZ">AZ</button>
         <button class="country-btn active" data-country="LI">LI</button>
         <button class="country-btn active" data-country="MC">MC</button>
+
+        <button class="region-label" data-region="oceania">Oceania</button>
+        <button class="country-btn active" data-country="AU">AU</button>
+        <button class="country-btn active" data-country="NZ">NZ</button>
       </div>
     </div>
     <div class="level-toggle">
@@ -298,9 +302,9 @@ const TIERS = {
   'Unknown':        ['Unknown']
 };
 
-const FLAGS = { EE: '\u{1F1EA}\u{1F1EA}', LV: '\u{1F1F1}\u{1F1FB}', LT: '\u{1F1F1}\u{1F1F9}', FI: '\u{1F1EB}\u{1F1EE}', NO: '\u{1F1F3}\u{1F1F4}', IS: '\u{1F1EE}\u{1F1F8}', SE: '\u{1F1F8}\u{1F1EA}', DE: '\u{1F1E9}\u{1F1EA}', DK: '\u{1F1E9}\u{1F1F0}', AD: '\u{1F1E6}\u{1F1E9}', LU: '\u{1F1F1}\u{1F1FA}', BE: '\u{1F1E7}\u{1F1EA}', AT: '\u{1F1E6}\u{1F1F9}', CZ: '\u{1F1E8}\u{1F1FF}', SK: '\u{1F1F8}\u{1F1F0}', SI: '\u{1F1F8}\u{1F1EE}', ES: '\u{1F1EA}\u{1F1F8}', FR: '\u{1F1EB}\u{1F1F7}', PL: '\u{1F1F5}\u{1F1F1}', PT: '\u{1F1F5}\u{1F1F9}', IT: '\u{1F1EE}\u{1F1F9}', IE: '\u{1F1EE}\u{1F1EA}', NL: '\u{1F1F3}\u{1F1F1}', BG: '\u{1F1E7}\u{1F1EC}', GB: '\u{1F1EC}\u{1F1E7}', HR: '\u{1F1ED}\u{1F1F7}', CY: '\u{1F1E8}\u{1F1FE}', GR: '\u{1F1EC}\u{1F1F7}', HU: '\u{1F1ED}\u{1F1FA}', MT: '\u{1F1F2}\u{1F1F9}', RO: '\u{1F1F7}\u{1F1F4}', AL: '\u{1F1E6}\u{1F1F1}', XK: '\u{1F1FD}\u{1F1F0}', ME: '\u{1F1F2}\u{1F1EA}', BA: '\u{1F1E7}\u{1F1E6}', RS: '\u{1F1F7}\u{1F1F8}', MK: '\u{1F1F2}\u{1F1F0}', UA: '\u{1F1FA}\u{1F1E6}', MD: '\u{1F1F2}\u{1F1E9}', LI: '\u{1F1F1}\u{1F1EE}', SM: '\u{1F1F8}\u{1F1F2}', GE: '\u{1F1EC}\u{1F1EA}', AM: '\u{1F1E6}\u{1F1F2}', AZ: '\u{1F1E6}\u{1F1FF}', BY: '\u{1F1E7}\u{1F1FE}', TR: '\u{1F1F9}\u{1F1F7}', MC: '\u{1F1F2}\u{1F1E8}' };
+const FLAGS = { EE: '\u{1F1EA}\u{1F1EA}', LV: '\u{1F1F1}\u{1F1FB}', LT: '\u{1F1F1}\u{1F1F9}', FI: '\u{1F1EB}\u{1F1EE}', NO: '\u{1F1F3}\u{1F1F4}', IS: '\u{1F1EE}\u{1F1F8}', SE: '\u{1F1F8}\u{1F1EA}', DE: '\u{1F1E9}\u{1F1EA}', DK: '\u{1F1E9}\u{1F1F0}', AD: '\u{1F1E6}\u{1F1E9}', LU: '\u{1F1F1}\u{1F1FA}', BE: '\u{1F1E7}\u{1F1EA}', AT: '\u{1F1E6}\u{1F1F9}', CZ: '\u{1F1E8}\u{1F1FF}', SK: '\u{1F1F8}\u{1F1F0}', SI: '\u{1F1F8}\u{1F1EE}', ES: '\u{1F1EA}\u{1F1F8}', FR: '\u{1F1EB}\u{1F1F7}', PL: '\u{1F1F5}\u{1F1F1}', PT: '\u{1F1F5}\u{1F1F9}', IT: '\u{1F1EE}\u{1F1F9}', IE: '\u{1F1EE}\u{1F1EA}', NL: '\u{1F1F3}\u{1F1F1}', BG: '\u{1F1E7}\u{1F1EC}', GB: '\u{1F1EC}\u{1F1E7}', HR: '\u{1F1ED}\u{1F1F7}', CY: '\u{1F1E8}\u{1F1FE}', GR: '\u{1F1EC}\u{1F1F7}', HU: '\u{1F1ED}\u{1F1FA}', MT: '\u{1F1F2}\u{1F1F9}', RO: '\u{1F1F7}\u{1F1F4}', AL: '\u{1F1E6}\u{1F1F1}', XK: '\u{1F1FD}\u{1F1F0}', ME: '\u{1F1F2}\u{1F1EA}', BA: '\u{1F1E7}\u{1F1E6}', RS: '\u{1F1F7}\u{1F1F8}', MK: '\u{1F1F2}\u{1F1F0}', UA: '\u{1F1FA}\u{1F1E6}', MD: '\u{1F1F2}\u{1F1E9}', LI: '\u{1F1F1}\u{1F1EE}', SM: '\u{1F1F8}\u{1F1F2}', GE: '\u{1F1EC}\u{1F1EA}', AM: '\u{1F1E6}\u{1F1F2}', AZ: '\u{1F1E6}\u{1F1FF}', BY: '\u{1F1E7}\u{1F1FE}', TR: '\u{1F1F9}\u{1F1F7}', MC: '\u{1F1F2}\u{1F1E8}', AU: '\u{1F1E6}\u{1F1FA}', NZ: '\u{1F1F3}\u{1F1FF}' };
 
-const COUNTRY_LIST = ['EE', 'LV', 'LT', 'FI', 'NO', 'IS', 'SE', 'DE', 'DK', 'AD', 'LU', 'BE', 'AT', 'CZ', 'SK', 'SI', 'ES', 'FR', 'PL', 'PT', 'IT', 'IE', 'NL', 'BG', 'GB', 'HR', 'CY', 'GR', 'HU', 'MT', 'RO', 'AL', 'XK', 'ME', 'BA', 'RS', 'MK', 'UA', 'MD', 'LI', 'SM', 'GE', 'AM', 'AZ', 'BY', 'TR', 'MC'];
+const COUNTRY_LIST = ['EE', 'LV', 'LT', 'FI', 'NO', 'IS', 'SE', 'DE', 'DK', 'AD', 'LU', 'BE', 'AT', 'CZ', 'SK', 'SI', 'ES', 'FR', 'PL', 'PT', 'IT', 'IE', 'NL', 'BG', 'GB', 'HR', 'CY', 'GR', 'HU', 'MT', 'RO', 'AL', 'XK', 'ME', 'BA', 'RS', 'MK', 'UA', 'MD', 'LI', 'SM', 'GE', 'AM', 'AZ', 'BY', 'TR', 'MC', 'AU', 'NZ'];
 
 const US_PROVIDERS = new Set(['Microsoft', 'Google', 'AWS']);
 function hasLocalGateway(m) {
@@ -440,7 +444,7 @@ function buildStats(muniList) {
   const withMx = filtered.filter(m => m.has_mx || (m.mx || []).length > 0).length;
 
   const usProviders = new Set(['Microsoft', 'Google', 'AWS']);
-  const countryColors = { US: '#E83838', EE: '#2EDBA8', LV: '#34D5A0', LT: '#78FFD6', DE: '#6BA3D6', DK: '#4FC3D6', NL: '#6BA3D6', FI: '#6BA3D6', SE: '#56E8B0', IE: '#6BA3D6', NO: '#10B898', IS: '#20C8A0', AD: '#56C8B0', LU: '#4DB8A8', BE: '#3DA898', AT: '#5DBCA0', CZ: '#4EB8A8', SK: '#45B0A0', SI: '#52C498', ES: '#E8A040', FR: '#4088E8', PT: '#40A8E8', IT: '#50B868', BG: '#58A878', GB: '#4090D0', HR: '#48B890', CY: '#60C870', GR: '#3880D0', HU: '#55A8B0', MT: '#68C890', RO: '#4898C0', AL: '#50B0A0', XK: '#58B8A8', ME: '#45A898', BA: '#4CA0A0', RS: '#52A8A0', MK: '#48B0A8', UA: '#3090D8', MD: '#4898B0', LI: '#60C0A0', SM: '#58B890', GE: '#40A0C0', AM: '#5098B0', AZ: '#48A8B8', BY: '#3888C0', TR: '#D88040', MC: '#60B8A0' };
+  const countryColors = { US: '#E83838', EE: '#2EDBA8', LV: '#34D5A0', LT: '#78FFD6', DE: '#6BA3D6', DK: '#4FC3D6', NL: '#6BA3D6', FI: '#6BA3D6', SE: '#56E8B0', IE: '#6BA3D6', NO: '#10B898', IS: '#20C8A0', AD: '#56C8B0', LU: '#4DB8A8', BE: '#3DA898', AT: '#5DBCA0', CZ: '#4EB8A8', SK: '#45B0A0', SI: '#52C498', ES: '#E8A040', FR: '#4088E8', PT: '#40A8E8', IT: '#50B868', BG: '#58A878', GB: '#4090D0', HR: '#48B890', CY: '#60C870', GR: '#3880D0', HU: '#55A8B0', MT: '#68C890', RO: '#4898C0', AL: '#50B0A0', XK: '#58B8A8', ME: '#45A898', BA: '#4CA0A0', RS: '#52A8A0', MK: '#48B0A8', UA: '#3090D8', MD: '#4898B0', LI: '#60C0A0', SM: '#58B890', GE: '#40A0C0', AM: '#5098B0', AZ: '#48A8B8', BY: '#3888C0', TR: '#D88040', MC: '#60B8A0', AU: '#E8C840', NZ: '#48D898' };
   const sectionTitle = '<div style="font-size:12px;color:#777;text-transform:uppercase;letter-spacing:0.3px;font-weight:600;margin-bottom:4px">';
 
   function barHtml(label, value, max, color, base) {
@@ -536,7 +540,7 @@ function buildStats(muniList) {
   html += `<p style="font-size:12px;color:#777;margin-top:8px"><strong>${mxInUs}</strong> of ${withMx} municipalities with MX records route mail through servers registered in the US.</p>`;
 
   // Per-country breakdown
-  const countryNames = { EE: 'Estonia', LV: 'Latvia', LT: 'Lithuania', FI: 'Finland', NO: 'Norway', IS: 'Iceland', SE: 'Sweden', DE: 'Germany', DK: 'Denmark', AD: 'Andorra', LU: 'Luxembourg', BE: 'Belgium', AT: 'Austria', CZ: 'Czechia', SK: 'Slovakia', SI: 'Slovenia', ES: 'Spain', FR: 'France', PL: 'Poland', PT: 'Portugal', IT: 'Italy', IE: 'Ireland', NL: 'Netherlands', BG: 'Bulgaria', GB: 'United Kingdom', HR: 'Croatia', CY: 'Cyprus', GR: 'Greece', HU: 'Hungary', MT: 'Malta', RO: 'Romania', AL: 'Albania', XK: 'Kosovo', ME: 'Montenegro', BA: 'Bosnia and Herzegovina', RS: 'Serbia', MK: 'North Macedonia', UA: 'Ukraine', MD: 'Moldova', LI: 'Liechtenstein', SM: 'San Marino', GE: 'Georgia', AM: 'Armenia', AZ: 'Azerbaijan', BY: 'Belarus', TR: 'Turkey', MC: 'Monaco' };
+  const countryNames = { EE: 'Estonia', LV: 'Latvia', LT: 'Lithuania', FI: 'Finland', NO: 'Norway', IS: 'Iceland', SE: 'Sweden', DE: 'Germany', DK: 'Denmark', AD: 'Andorra', LU: 'Luxembourg', BE: 'Belgium', AT: 'Austria', CZ: 'Czechia', SK: 'Slovakia', SI: 'Slovenia', ES: 'Spain', FR: 'France', PL: 'Poland', PT: 'Portugal', IT: 'Italy', IE: 'Ireland', NL: 'Netherlands', BG: 'Bulgaria', GB: 'United Kingdom', HR: 'Croatia', CY: 'Cyprus', GR: 'Greece', HU: 'Hungary', MT: 'Malta', RO: 'Romania', AL: 'Albania', XK: 'Kosovo', ME: 'Montenegro', BA: 'Bosnia and Herzegovina', RS: 'Serbia', MK: 'North Macedonia', UA: 'Ukraine', MD: 'Moldova', LI: 'Liechtenstein', SM: 'San Marino', GE: 'Georgia', AM: 'Armenia', AZ: 'Azerbaijan', BY: 'Belarus', TR: 'Turkey', MC: 'Monaco', AU: 'Australia', NZ: 'New Zealand' };
   const activeList = COUNTRY_LIST.filter(cc => activeCountries.has(cc));
   const countryStats = {};
   for (const cc of activeList) {

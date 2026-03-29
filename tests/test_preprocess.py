@@ -182,7 +182,7 @@ class TestLoadSeedData:
     def test_loads_all_countries(self):
         data = load_seed_data()
         countries = {m.get("country") for m in data.values()}
-        assert countries >= {"EE", "LV", "LT", "FI", "NO", "SE", "DE", "DK", "IE", "NL", "SK", "GB", "BG", "HR", "CY", "GR", "HU", "MT", "RO", "AL", "XK", "ME", "BA", "RS", "MK", "UA", "MD", "LI", "SM", "GE", "AM", "AZ", "BY", "TR"}
+        assert countries >= {"EE", "LV", "LT", "FI", "NO", "SE", "DE", "DK", "IE", "NL", "SK", "GB", "BG", "HR", "CY", "GR", "HU", "MT", "RO", "AL", "XK", "ME", "BA", "RS", "MK", "UA", "MD", "LI", "SM", "GE", "AM", "AZ", "BY", "TR", "AU", "NZ"}
 
     def test_minimum_count(self):
         data = load_seed_data()

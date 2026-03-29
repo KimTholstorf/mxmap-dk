@@ -1,0 +1,464 @@
+[
+  {
+    "id": "NZ-001",
+    "name": "Ashburton District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "ashburtondc.govt.nz"
+  },
+  {
+    "id": "NZ-002",
+    "name": "Auckland Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "aucklandcouncil.govt.nz"
+  },
+  {
+    "id": "NZ-003",
+    "name": "Buller District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "bullerdc.govt.nz"
+  },
+  {
+    "id": "NZ-004",
+    "name": "Carterton District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "cdc.govt.nz"
+  },
+  {
+    "id": "NZ-005",
+    "name": "Central Hawke's Bay District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "chbdc.govt.nz"
+  },
+  {
+    "id": "NZ-006",
+    "name": "Central Otago District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "codc.govt.nz"
+  },
+  {
+    "id": "NZ-007",
+    "name": "Chatham Islands Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "cic.govt.nz"
+  },
+  {
+    "id": "NZ-008",
+    "name": "Christchurch City Council",
+    "country": "NZ",
+    "region": "Christchurch City",
+    "domain": "ccc.govt.nz"
+  },
+  {
+    "id": "NZ-009",
+    "name": "Clutha District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "cluthadc.govt.nz"
+  },
+  {
+    "id": "NZ-010",
+    "name": "Dunedin City Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "dunedin.govt.nz"
+  },
+  {
+    "id": "NZ-011",
+    "name": "Far North District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "fndc.govt.nz"
+  },
+  {
+    "id": "NZ-012",
+    "name": "Gisborne District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "gdc.govt.nz"
+  },
+  {
+    "id": "NZ-013",
+    "name": "Gore District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "goredc.govt.nz"
+  },
+  {
+    "id": "NZ-014",
+    "name": "Grey District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "greydc.govt.nz"
+  },
+  {
+    "id": "NZ-015",
+    "name": "Hamilton City Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "hamilton.govt.nz"
+  },
+  {
+    "id": "NZ-016",
+    "name": "Hastings District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "hastingsdc.govt.nz"
+  },
+  {
+    "id": "NZ-017",
+    "name": "Hauraki District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "hauraki-dc.govt.nz"
+  },
+  {
+    "id": "NZ-018",
+    "name": "Horowhenua District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "horowhenua.govt.nz"
+  },
+  {
+    "id": "NZ-019",
+    "name": "Hurunui District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "hurunui.govt.nz"
+  },
+  {
+    "id": "NZ-020",
+    "name": "Hutt City Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "huttcity.govt.nz"
+  },
+  {
+    "id": "NZ-021",
+    "name": "Invercargill City Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "icc.govt.nz"
+  },
+  {
+    "id": "NZ-022",
+    "name": "Kaikōura District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "kaikoura.govt.nz"
+  },
+  {
+    "id": "NZ-023",
+    "name": "Kaipara District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "kaipara.govt.nz"
+  },
+  {
+    "id": "NZ-024",
+    "name": "Kawerau District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "kaweraudc.govt.nz"
+  },
+  {
+    "id": "NZ-025",
+    "name": "Kāpiti Coast District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "kapiticoast.govt.nz"
+  },
+  {
+    "id": "NZ-026",
+    "name": "Mackenzie District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "mackenzie.govt.nz"
+  },
+  {
+    "id": "NZ-027",
+    "name": "Manawatū District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "mdc.govt.nz"
+  },
+  {
+    "id": "NZ-028",
+    "name": "Marlborough District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "marlborough.govt.nz"
+  },
+  {
+    "id": "NZ-029",
+    "name": "Masterton District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "mstn.govt.nz"
+  },
+  {
+    "id": "NZ-030",
+    "name": "Matamata-Piako District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "mpdc.govt.nz"
+  },
+  {
+    "id": "NZ-031",
+    "name": "Napier City Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "napier.govt.nz"
+  },
+  {
+    "id": "NZ-032",
+    "name": "Nelson City Council",
+    "country": "NZ",
+    "region": "Nelson City",
+    "domain": "nelson.govt.nz"
+  },
+  {
+    "id": "NZ-033",
+    "name": "New Plymouth District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "newplymouthnz.com"
+  },
+  {
+    "id": "NZ-034",
+    "name": "Palmerston North City Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "pncc.govt.nz"
+  },
+  {
+    "id": "NZ-035",
+    "name": "Porirua City Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "poriruacity.govt.nz"
+  },
+  {
+    "id": "NZ-036",
+    "name": "Rangitīkei District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "rangitikei.govt.nz"
+  },
+  {
+    "id": "NZ-037",
+    "name": "Rotorua Lakes Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "rotorualakescouncil.nz"
+  },
+  {
+    "id": "NZ-038",
+    "name": "Ruapehu District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "ruapehudc.govt.nz"
+  },
+  {
+    "id": "NZ-039",
+    "name": "Selwyn District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "selwyn.govt.nz"
+  },
+  {
+    "id": "NZ-040",
+    "name": "South Taranaki District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "southtaranaki.com"
+  },
+  {
+    "id": "NZ-041",
+    "name": "South Waikato District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "southwaikato.govt.nz"
+  },
+  {
+    "id": "NZ-042",
+    "name": "South Wairarapa District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "swdc.govt.nz"
+  },
+  {
+    "id": "NZ-043",
+    "name": "Southland District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "southlanddc.govt.nz"
+  },
+  {
+    "id": "NZ-044",
+    "name": "Stratford District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "stratford.govt.nz"
+  },
+  {
+    "id": "NZ-045",
+    "name": "Tararua District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "tararuadc.govt.nz"
+  },
+  {
+    "id": "NZ-046",
+    "name": "Tasman District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "tasman.govt.nz"
+  },
+  {
+    "id": "NZ-047",
+    "name": "Taupō District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "taupodc.govt.nz"
+  },
+  {
+    "id": "NZ-048",
+    "name": "Tauranga City Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "tauranga.govt.nz"
+  },
+  {
+    "id": "NZ-049",
+    "name": "Thames-Coromandel District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "tcdc.govt.nz"
+  },
+  {
+    "id": "NZ-050",
+    "name": "Timaru District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "timaru.govt.nz"
+  },
+  {
+    "id": "NZ-051",
+    "name": "Upper Hutt City Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "upperhuttcity.com"
+  },
+  {
+    "id": "NZ-052",
+    "name": "Waikato District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "waikatodistrict.govt.nz"
+  },
+  {
+    "id": "NZ-053",
+    "name": "Waimakariri District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "waimakariri.govt.nz"
+  },
+  {
+    "id": "NZ-054",
+    "name": "Waimate District Council",
+    "country": "NZ",
+    "region": "Waimate District",
+    "domain": "waimatedc.govt.nz"
+  },
+  {
+    "id": "NZ-055",
+    "name": "Waipa District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "waipadc.govt.nz"
+  },
+  {
+    "id": "NZ-056",
+    "name": "Wairoa District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "wairoadc.govt.nz"
+  },
+  {
+    "id": "NZ-057",
+    "name": "Waitaki District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "waitaki.govt.nz"
+  },
+  {
+    "id": "NZ-058",
+    "name": "Waitomo District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "waitomo.govt.nz"
+  },
+  {
+    "id": "NZ-059",
+    "name": "Wellington City Council",
+    "country": "NZ",
+    "region": "Wellington Region",
+    "domain": "wellington.govt.nz"
+  },
+  {
+    "id": "NZ-060",
+    "name": "Western Bay of Plenty District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "westernbay.govt.nz"
+  },
+  {
+    "id": "NZ-061",
+    "name": "Westland District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "westlanddc.govt.nz"
+  },
+  {
+    "id": "NZ-062",
+    "name": "Whakatāne District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "whakatane.govt.nz"
+  },
+  {
+    "id": "NZ-063",
+    "name": "Whanganui District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "whanganui.govt.nz"
+  },
+  {
+    "id": "NZ-064",
+    "name": "Whangarei District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "wdc.govt.nz"
+  },
+  {
+    "id": "NZ-065",
+    "name": "Ōpōtiki District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "odc.govt.nz"
+  },
+  {
+    "id": "NZ-066",
+    "name": "Ōtorohanga District Council",
+    "country": "NZ",
+    "region": "",
+    "domain": "otodc.govt.nz"
+  }
+]

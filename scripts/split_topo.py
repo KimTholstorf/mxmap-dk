@@ -72,6 +72,9 @@ COUNTRIES = [
     "AZ",
     "BY",
     "TR",
+    # Oceania
+    "AU",
+    "NZ",
 ]
 
 # Which conceptual level maps to which file level per country.
@@ -167,6 +170,9 @@ LEVEL_MAP = {
     "AZ": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     "BY": {"region": "region", "district": "municipality", "municipality": "municipality"},
     "TR": {"region": "region", "district": "municipality", "municipality": "municipality"},
+    # Oceania
+    "AU": {"region": "region", "district": "municipality", "municipality": "municipality"},
+    "NZ": {"region": "region", "district": "municipality", "municipality": "municipality"},
 }
 
 
