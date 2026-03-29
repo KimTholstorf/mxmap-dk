@@ -157,7 +157,7 @@ SUBPAGES = [
 GATEWAY_KEYWORDS = {
     "seppmail": ["seppmail.cloud", "seppmail.com"],
     "barracuda": ["barracudanetworks.com", "barracuda.com"],
-    "trendmicro": ["tmes.trendmicro.eu", "tmes.trendmicro.com"],
+    "trendmicro": ["tmes.trendmicro.eu", "tmes.trendmicro.com", "trendmicro.eu"],
     "hornetsecurity": ["hornetsecurity.com"],
     "proofpoint": ["ppe-hosted.com", "pphosted.com"],
     "sophos": ["hydra.sophos.com"],
@@ -173,7 +173,9 @@ GATEWAY_KEYWORDS = {
     "comendo": ["comendosystems.com"],
     "heimdal": ["heimdalsecurity.com"],
     "messagelabs": ["messagelabs.com"],
-    "nospamproxy": ["nospamproxy.de", "as-scan.de"],
+    "nospamproxy": ["nospamproxy.de", "nospamproxy.com", "as-scan.de"],
+    "secumail": ["secumail.de"],
+    "mailspamprotection": ["mailspamprotection.com"],
     "antispameurope": ["antispameurope.com"],
     "retarus": ["retarus.com"],
     "psmanaged": ["psmanaged.com"],
@@ -571,6 +573,35 @@ LOCAL_ISP_ASNS: dict[int, str] = {
     20545: "GRENA (GE)",
     35076: "NameService (GE)",
     35805: "Silknet (GE)",
+    # Turkey
+    209171: "ICISLERI/muhtar.gov.tr (TR)",  # Government shared mail (posta.muhtar.gov.tr)
+    # Azerbaijan
+    206977: "AZSTATENET/mail.gov.az (AZ)",  # Government shared mail (mmx.mail.gov.az)
+    # Belarus
+    60330: "BCT/g-cloud.by (BY)",  # Government cloud (mg.g-cloud.by)
+    6697: "Belpak (BY)",
+    # Serbia
+    8400: "Telekom Srbija (RS)",
+    # Moldova
+    28990: "Molddata (MD)",  # mx0.spamcloud.md
+    # Germany — municipal IT cooperatives and regional ISPs
+    12337: "Noris Network (DE)",  # rechennetz.de
+    39835: "Goetel (DE)",  # kdgoe.de
+    12611: "R-KOM Regensburg (DE)",
+    28748: "AlphaCron (DE)",  # cm-system.de
+    12360: "KTK/KEVAG (DE)",
+    12923: "Wizard (DE)",  # brv.net, wizard.de
+    203536: "FNOH (DE)",  # itv-gifhorn.de
+    202680: "neu-itec (DE)",
+    44973: "RZ Hassfurt (DE)",
+    201035: "Lünecom (DE)",
+    8937: "Salink (DE)",  # kirchberg-hunsrueck.de
+    212587: "GKD-RE (DE)",
+    12813: "Wornet (DE)",  # secumail.de
+    51978: "Wemacom (DE)",
+    199284: "Encoline (DE)",
+    41955: "SerNet (DE)",
+    25394: "MK-Netzdienste (DE)",
 }
 
 DE_STATES = {
