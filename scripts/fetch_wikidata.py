@@ -600,6 +600,34 @@ SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
 }
 ORDER BY ?itemLabel
 """,
+    # Vietnam: Q2824648 (province) + Q1381899 (centrally-controlled city) — ~63
+    "VN": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  VALUES ?type { wd:Q2824648 wd:Q1381899 }
+  ?item wdt:P31 ?type .
+  ?item wdt:P17 wd:Q881 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,vi" }
+}
+ORDER BY ?itemLabel
+""",
+    # Myanmar: Q17315624 (state) + Q15072454 (region) — 14 states/regions + Naypyidaw
+    "MM": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  VALUES ?type { wd:Q17315624 wd:Q15072454 wd:Q15971681 }
+  ?item wdt:P31 ?type .
+  ?item wdt:P17 wd:Q836 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,my" }
+}
+ORDER BY ?itemLabel
+""",
 })
 
 

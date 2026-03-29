@@ -83,6 +83,8 @@ COUNTRIES = [
     "TH",
     "KH",
     "PH",
+    "VN",
+    "MM",
 ]
 
 # Which conceptual level maps to which file level per country.
@@ -189,6 +191,8 @@ LEVEL_MAP = {
     "TH": {"region": "region", "district": "municipality", "municipality": "municipality"},
     "KH": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     "PH": {"region": "region", "district": "municipality", "municipality": "municipality"},
+    "VN": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "MM": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
 }
 
 

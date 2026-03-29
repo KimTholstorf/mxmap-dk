@@ -81,6 +81,8 @@ SEED_FILES = {
     "TH": "municipalities_th.json",
     "KH": "municipalities_kh.json",
     "PH": "municipalities_ph.json",
+    "VN": "municipalities_vn.json",
+    "MM": "municipalities_mm.json",
 }
 
 
@@ -350,6 +352,8 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         "TH": [".go.th", ".or.th", ".th"],
         "KH": [".gov.kh", ".kh"],
         "PH": [".gov.ph", ".ph"],
+        "VN": [".gov.vn", ".vn"],
+        "MM": [".gov.mm", ".mm"],
     }
     tlds = tld_map.get(
         country, [".ee", ".lv", ".lt", ".fi", ".no", ".se", ".de", ".dk"]

@@ -62,6 +62,8 @@ COUNTRY_CONFIG = {
     "TH": {"admin_level": 4, "iso": "TH", "name": "Thailand"},
     "KH": {"admin_level": 4, "iso": "KH", "name": "Cambodia"},
     "PH": {"admin_level": 4, "iso": "PH", "name": "Philippines"},
+    "VN": {"admin_level": 4, "iso": "VN", "name": "Vietnam"},
+    "MM": {"admin_level": 4, "iso": "MM", "name": "Myanmar"},
 }
 
 
