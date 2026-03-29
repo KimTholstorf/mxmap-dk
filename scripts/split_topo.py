@@ -182,7 +182,7 @@ LEVEL_MAP = {
     "NZ": {"region": "region", "district": "municipality", "municipality": "municipality"},
     # Southeast Asia
     "ID": {"region": "region", "district": "municipality", "municipality": "municipality"},
-    "PG": {"region": "region", "district": "municipality", "municipality": "municipality"},
+    "PG": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     "MY": {"region": "region", "district": "municipality", "municipality": "municipality"},
     "TH": {"region": "region", "district": "municipality", "municipality": "municipality"},
     "KH": {"region": "municipality", "district": "municipality", "municipality": "municipality"},

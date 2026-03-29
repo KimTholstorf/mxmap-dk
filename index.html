@@ -636,6 +636,8 @@ function getGroupKey(m, fileLevelName) {
     if (m.country === 'GB') return m.district || m.name;
     return m.region || '';
   }
+  // Countries with province-only topo: always group by region
+  if (['PG', 'KH'].includes(m.country)) return m.region || '';
   return m.id;
 }
 
@@ -914,9 +916,12 @@ async function renderCountryLayer(cc) {
   const muniFile = manifest[cc].files.municipality;
   const currentFile = manifest[cc].files[currentLevel];
   // Aggregated if different level files, or if current is a string and muni is object (or vice versa)
-  const isAggregated = (typeof currentFile === 'string' && typeof muniFile === 'string')
-    ? currentFile !== muniFile
-    : (typeof currentFile !== typeof muniFile || currentLevel !== 'municipality');
+  // Also aggregate when topo has fewer features than data (province-only topo for district-level data)
+  const ALWAYS_AGGREGATE = ['PG', 'KH'];
+  const isAggregated = ALWAYS_AGGREGATE.includes(cc)
+    || ((typeof currentFile === 'string' && typeof muniFile === 'string')
+      ? currentFile !== muniFile
+      : (typeof currentFile !== typeof muniFile || currentLevel !== 'municipality'));
 
   let groups = null;
   if (isAggregated) {
