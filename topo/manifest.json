@@ -427,6 +427,21 @@
       "ge_municipality.topo.json": 166946
     }
   },
+  "GL": {
+    "levels": [
+      "region",
+      "district",
+      "municipality"
+    ],
+    "files": {
+      "region": "gl_municipality.topo.json",
+      "district": "gl_municipality.topo.json",
+      "municipality": "gl_municipality.topo.json"
+    },
+    "sizes": {
+      "gl_municipality.topo.json": 7198
+    }
+  },
   "GR": {
     "levels": [
       "region",
