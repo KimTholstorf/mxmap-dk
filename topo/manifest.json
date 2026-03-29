@@ -1042,6 +1042,21 @@
       "vn_municipality.topo.json": 338487
     }
   },
+  "WS": {
+    "levels": [
+      "region",
+      "district",
+      "municipality"
+    ],
+    "files": {
+      "region": "ws_municipality.topo.json",
+      "district": "ws_municipality.topo.json",
+      "municipality": "ws_municipality.topo.json"
+    },
+    "sizes": {
+      "ws_municipality.topo.json": 32089
+    }
+  },
   "XK": {
     "levels": [
       "region",
