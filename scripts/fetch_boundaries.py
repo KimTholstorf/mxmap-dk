@@ -55,6 +55,12 @@ COUNTRY_CONFIG = {
     # Oceania
     "AU": {"admin_level": 6, "iso": "AU", "name": "Australia"},
     "NZ": {"admin_level": 6, "iso": "NZ", "name": "New Zealand"},
+    "FJ": {"admin_level": 6, "iso": "FJ", "name": "Fiji"},
+    "WS": {"admin_level": 4, "iso": "WS", "name": "Samoa"},
+    "VU": {"admin_level": 4, "iso": "VU", "name": "Vanuatu"},
+    "TO": {"admin_level": 4, "iso": "TO", "name": "Tonga"},
+    "NR": {"admin_level": 4, "iso": "NR", "name": "Nauru"},
+    "PW": {"admin_level": 4, "iso": "PW", "name": "Palau"},
     # Southeast Asia
     "ID": {"admin_level": 5, "iso": "ID", "name": "Indonesia"},
     "PG": {"admin_level": 4, "iso": "PG", "name": "Papua New Guinea"},

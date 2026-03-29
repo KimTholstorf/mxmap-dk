@@ -76,6 +76,12 @@ COUNTRIES = [
     # Oceania
     "AU",
     "NZ",
+    "FJ",
+    "WS",
+    "VU",
+    "TO",
+    "NR",
+    "PW",
     # Southeast Asia
     "ID",
     "PG",
@@ -189,6 +195,12 @@ LEVEL_MAP = {
     # Oceania
     "AU": {"region": "region", "district": "municipality", "municipality": "municipality"},
     "NZ": {"region": "region", "district": "municipality", "municipality": "municipality"},
+    "FJ": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "WS": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "VU": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "TO": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "NR": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "PW": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     # Southeast Asia
     "ID": {"region": "region", "district": "municipality", "municipality": "municipality"},
     "PG": {"region": "municipality", "district": "municipality", "municipality": "municipality"},

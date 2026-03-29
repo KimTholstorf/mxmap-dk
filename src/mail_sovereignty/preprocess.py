@@ -74,6 +74,12 @@ SEED_FILES = {
     # Oceania
     "AU": "municipalities_au.json",
     "NZ": "municipalities_nz.json",
+    "FJ": "municipalities_fj.json",
+    "WS": "municipalities_ws.json",
+    "VU": "municipalities_vu.json",
+    "TO": "municipalities_to.json",
+    "NR": "municipalities_nr.json",
+    "PW": "municipalities_pw.json",
     # Southeast Asia
     "ID": "municipalities_id.json",
     "PG": "municipalities_pg.json",
@@ -350,6 +356,12 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         # Oceania
         "AU": [".gov.au", ".com.au", ".au"],
         "NZ": [".govt.nz", ".co.nz", ".nz"],
+        "FJ": [".gov.fj", ".fj"],
+        "WS": [".gov.ws", ".ws"],
+        "VU": [".gov.vu", ".vu"],
+        "TO": [".gov.to", ".to"],
+        "NR": [".gov.nr", ".nr"],
+        "PW": [".gov.pw", ".pw"],
         # Southeast Asia
         "ID": [".go.id", ".id"],
         "PG": [".gov.pg", ".pg"],
