@@ -56,7 +56,7 @@ COUNTRY_CONFIG = {
     "NZ": {"admin_level": 6, "iso": "NZ", "name": "New Zealand"},
     # Southeast Asia
     "ID": {"admin_level": 5, "iso": "ID", "name": "Indonesia"},
-    "PG": {"admin_level": 5, "iso": "PG", "name": "Papua New Guinea"},
+    "PG": {"admin_level": 4, "iso": "PG", "name": "Papua New Guinea"},
     "MY": {"admin_level": 6, "iso": "MY", "name": "Malaysia"},
     "TH": {"admin_level": 4, "iso": "TH", "name": "Thailand"},
     "KH": {"admin_level": 4, "iso": "KH", "name": "Cambodia"},
