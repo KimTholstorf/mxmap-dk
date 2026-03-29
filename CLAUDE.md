@@ -50,7 +50,7 @@ python -m http.server
 
 All three stages operate on `data.json` at the repo root:
 
-1. **Preprocess** (`preprocess.py`) — Loads municipalities from `data/municipalities_{cc}.json` seed files (47 countries) + `data/overrides.json`. For each municipality: extracts domain (or guesses from name with diacritics transliteration), performs async MX/SPF/CNAME/ASN/autodiscover/DKIM DNS lookups via 3 resolvers (system, Google, Cloudflare), classifies provider, detects gateways. Concurrency: 20. Supports sub-country filtering (`DE:BY` scans only Bavaria).
+1. **Preprocess** (`preprocess.py`) — Loads municipalities from `data/municipalities_{cc}.json` seed files (47 countries) + `data/overrides.json`. For each municipality: extracts domain (or guesses from name with diacritics transliteration), performs async MX/SPF/CNAME/ASN/autodiscover/DKIM/TXT-verification/tenant DNS lookups via 3 resolvers (system, Google, Cloudflare) with shared cache, classifies provider, detects gateways. Concurrency: 20. Supports sub-country filtering (`DE:BY` scans only Bavaria).
 
 2. **Postprocess** (`postprocess.py`) — Four sub-steps: (a) apply `MANUAL_OVERRIDES` dict with DNS re-lookup for domain-only overrides, (b) retry DNS for unknowns that have a domain, (c) SMTP banner check on primary MX of independent/unknown entries (deduplicated, concurrency 5), (d) scrape municipality websites for email addresses on remaining unknowns (concurrency 10). Includes TYPO3 Caesar cipher decryption for obfuscated mailto: links.
 
@@ -63,7 +63,7 @@ All three stages operate on `data.json` at the repo root:
 Priority order:
 1. **Direct MX match** — MX hostname contains provider keyword
 2. **CNAME resolution** — MX host's CNAME target matches a provider
-3. **Known gateway look-through** — MX matches a `GATEWAY_KEYWORDS` entry (SeppMail, Barracuda, FortiMail, SecMail, D-Fence, Cisco IronPort, MailAnyone, Comendo, Heimdal, StaySecure, edelkey, ippnet, garmtech, etc.) → check SPF (only if exactly one main provider found) → autodiscover → DKIM for the actual backend provider. If no backend identified, returns "independent" with reason mentioning the gateway.
+3. **Known gateway look-through** — MX matches a `GATEWAY_KEYWORDS` entry (SeppMail, Barracuda, FortiMail, SecMail, D-Fence, Cisco IronPort, MailAnyone, Comendo, Heimdal, StaySecure, edelkey, ippnet, garmtech, etc.) → check SPF (only if exactly one main provider found) → autodiscover → DKIM → TXT verification → MS365 tenant (via `getuserrealm.srf`) for the actual backend provider. If no backend identified, returns "independent" with reason mentioning the gateway.
 4. **Self-hosted gateway detection** — MX exists but doesn't match any provider or gateway → check DKIM for a hidden backend provider (e.g., `mail.muhu.ee` on Radicenter but DKIM → `*.onmicrosoft.com` = Microsoft)
 5. **Local ISP** — MX ASN matches known ISP ASNs (`LOCAL_ISP_ASNS` in constants.py)
 6. **Independent** — MX exists but doesn't match any known provider and no DKIM backend found
@@ -117,7 +117,7 @@ Single-page app with three admin-level views (Region/District/Municipality) and 
 
 **Aggregation:** At Region/District levels, multiple municipalities map to one polygon. `computeAggregation()` groups municipalities by region name or district key (AT: first 6 chars of ID, BE: first 5, DE: first 8). `matchGroupFeature()` matches dissolved TopoJSON features to groups by `name`, `name_en`, or `name:en` property.
 
-**Popups:** Municipality level shows individual DNS data (MX, SPF, DKIM, autodiscover). Region/District level shows aggregated view: dominant provider badge, stacked provider bar chart, scrollable municipality list with provider dots.
+**Popups:** Municipality level shows individual DNS data (MX, SPF, DKIM, autodiscover, TXT verifications, MS365 tenant status). Region/District level shows aggregated view: dominant provider badge, stacked provider bar chart, scrollable municipality list with provider dots.
 
 **Statistics panel:** Always shows municipality-level data — unaffected by the level toggle.
 
@@ -153,13 +153,13 @@ Run: `uv run python3 scripts/split_topo.py` (requires mapshaper CLI).
 Splits `data.json` into two files for faster initial page load:
 
 - **`data-summary.json`** — Loaded immediately. Contains fields needed for map rendering, legend, and stats.
-- **`data-detail.json`** — Loaded in background after map renders. Contains popup-only fields: `mx`, `spf`, `reason`, `autodiscover`, `dkim`.
+- **`data-detail.json`** — Loaded in background after map renders. Contains popup-only fields: `mx`, `spf`, `reason`, `autodiscover`, `dkim`, `txt_verifications`, `tenant`, `smtp_software`.
 
 Run: `uv run python3 scripts/build_frontend.py`
 
 ### DNS Module (`dns.py`)
 
-All lookups use 3 independent resolvers with retry logic. Key functions: `lookup_mx()`, `lookup_spf()`, `resolve_spf_includes()` (recursive BFS with loop detection), `resolve_mx_cnames()`, `resolve_mx_asns()`, `resolve_mx_countries()` (both via Team Cymru DNS — ASN + country code from same query), `lookup_autodiscover()`, `lookup_dkim()` (checks `selector1/selector2/google._domainkey` CNAMEs — definitive proof of mail hosting, e.g. CNAME to `*.onmicrosoft.com` = Microsoft 365).
+All lookups use 3 resolvers (system, Google, Cloudflare) sharing a single `dns.resolver.Cache` to avoid redundant queries. The core function `resolve_robust(qname, rdtype)` provides universal multi-resolver fallback — all higher-level functions delegate to it. Key functions: `lookup_mx()`, `lookup_txt()` (returns SPF + TXT verification tokens in one query), `lookup_spf()`, `resolve_spf_includes()` (recursive BFS with loop detection), `resolve_mx_cnames()`, `resolve_mx_asns()`, `resolve_mx_countries()` (both via Team Cymru DNS — ASN + country code from same query), `lookup_autodiscover()`, `lookup_dkim()` (checks `selector1/selector2/google._domainkey` CNAMEs — definitive proof of mail hosting, e.g. CNAME to `*.onmicrosoft.com` = Microsoft 365), `lookup_tenant()` (queries Microsoft's `getuserrealm.srf` endpoint to detect MS365 tenants — returns `Managed` or `Federated`).
 
 ## Testing
 
@@ -269,7 +269,9 @@ Municipalities often use local email security gateways (FortiMail, SecMail, D-Fe
 
 Small local IT companies can also act as gateways (e.g., `edelkey.net` for Helsinki, `ippnet.fi` for Parkano, `garmtech.com` for Saulkrasti). Add these to `GATEWAY_KEYWORDS` when discovered — otherwise they get classified as "independent" instead of the actual backend provider.
 
-**Gateway SPF ambiguity:** When looking through a gateway, SPF is only trusted if exactly one main provider keyword is found. Many municipalities have multiple providers in SPF (e.g., Microsoft for mailboxes + Google for transactional email), making SPF ambiguous. In those cases, the pipeline falls through to autodiscover and DKIM for a definitive answer. If none of SPF/autodiscover/DKIM identifies a backend, the municipality is classified as "independent" with a reason mentioning the gateway name.
+**Gateway SPF ambiguity:** When looking through a gateway, SPF is only trusted if exactly one main provider keyword is found. Many municipalities have multiple providers in SPF (e.g., Microsoft for mailboxes + Google for transactional email), making SPF ambiguous. In those cases, the pipeline falls through to autodiscover, DKIM, TXT verification, and MS365 tenant detection for a definitive answer. If none identify a backend, the municipality is classified as "independent" with a reason mentioning the gateway name.
+
+**MS365 tenant detection:** `lookup_tenant()` queries Microsoft's `login.microsoftonline.com/getuserrealm.srf` endpoint. A `Managed` or `Federated` response proves an MS365 tenant exists for that domain. Used as a last-resort signal in gateway look-through (after DKIM and TXT verification) — not used for self-hosted MX since having a tenant doesn't prove mailboxes are hosted there.
 
 **DKIM is the most reliable signal** for identifying the backend provider. A CNAME at `selector1._domainkey.domain` pointing to `*.onmicrosoft.com` is definitive proof of Microsoft 365, even when MX and SPF point elsewhere.
 
