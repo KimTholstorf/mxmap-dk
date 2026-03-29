@@ -673,6 +673,22 @@
       "mt_municipality.topo.json": 66563
     }
   },
+  "MY": {
+    "levels": [
+      "region",
+      "district",
+      "municipality"
+    ],
+    "files": {
+      "region": "my_region.topo.json",
+      "district": "my_municipality.topo.json",
+      "municipality": "my_municipality.topo.json"
+    },
+    "sizes": {
+      "my_municipality.topo.json": 264216,
+      "my_region.topo.json": 99601
+    }
+  },
   "NL": {
     "levels": [
       "region",
