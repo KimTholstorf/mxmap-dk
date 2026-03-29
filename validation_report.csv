@@ -2633,12 +2633,12 @@ NO-5033,Tydal,microsoft,tydal.kommune.no,73,spf_softfail; provider_classified; a
 SE-0380,Uppsala,microsoft,uppsala.se,73,spf_softfail; provider_classified; autodiscover_confirms
 HR-264,Valpovo,microsoft,valpovo.hr,73,spf_softfail; provider_classified; autodiscover_confirms
 MK-071,Vinica Municipality,google,opstinavinica.gov.mk,73,multiple_mx; spf_softfail; provider_classified
-PT-0294,Vouzela,independent,cm-vouzela.pt,73,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; multi_provider_spf:google+microsoft; provider_classified; provider_via_gateway_spf
+PT-0294,Vouzela,microsoft,cm-vouzela.pt,73,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; multi_provider_spf:google+microsoft; provider_classified; provider_via_gateway_spf
 GB-E06000007,Warrington,independent,warrington.gov.uk,73,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; multi_provider_spf:aws+mailchimp+microsoft; provider_classified
 AT-41749,Weyregg am Attersee,microsoft,weyregg.ooe.gv.at,73,spf_softfail; independent_mx_with_cloud_spf; multi_provider_spf:aws+microsoft; provider_classified; provider_via_gateway_spf; autodiscover_confirms
 NL-0351,Woudenberg,microsoft,woudenberg.nl,73,spf_softfail; provider_classified; autodiscover_confirms
 ES-05019,Ávila,google,avila.es,73,multiple_mx; spf_softfail; provider_classified
-SE-1765,Årjäng,independent,arjang.se,73,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; multi_provider_spf:hornetsecurity+microsoft+telia; provider_classified; provider_via_gateway_spf
+SE-1765,Årjäng,microsoft,arjang.se,73,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; multi_provider_spf:hornetsecurity+microsoft+telia; provider_classified; provider_via_gateway_spf
 SE-0117,Österåker,microsoft,osteraker.se,73,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; multi_provider_spf:google+microsoft; provider_classified; provider_via_gateway_spf
 BE-41002,Aalst,microsoft,aalst.be,75,spf_strict; provider_classified; autodiscover_confirms
 NL-0059,Achtkarspelen,microsoft,achtkarspelen.nl,75,spf_strict; provider_classified; autodiscover_confirms
@@ -2734,7 +2734,7 @@ DE-07141124,Scheidt,microsoft,ortsgemeinde-scheidt.de,75,spf_strict; provider_cl
 NL-0279,Scherpenzeel,microsoft,scherpenzeel.nl,75,spf_strict; provider_classified; autodiscover_confirms
 DE-07133090,Schmittweiler,microsoft,meisenheim.de,75,spf_strict; provider_classified; autodiscover_confirms
 DE-09172132,Schönau am Königssee,microsoft,schoenau-koenigssee.com,75,spf_strict; provider_classified; autodiscover_confirms
-PT-0134,Seia,independent,cm-seia.pt,75,multiple_mx; spf_strict; independent_mx_with_cloud_spf; multi_provider_spf:google+microsoft; provider_classified; provider_via_gateway_spf
+PT-0134,Seia,microsoft,cm-seia.pt,75,multiple_mx; spf_strict; independent_mx_with_cloud_spf; multi_provider_spf:google+microsoft; provider_classified; provider_via_gateway_spf
 NL-1883,Sittard-Geleen,independent,sittard-geleen.nl,75,multiple_mx; spf_strict; independent_mx_with_cloud_spf; multi_provider_spf:google+microsoft; provider_classified
 NO-4636,Solund,microsoft,solund.kommune.no,75,spf_strict; provider_classified; autodiscover_confirms
 DE-03251035,Staffhorst,microsoft,staffhorst.eu,75,spf_strict; provider_classified; autodiscover_confirms
@@ -3220,7 +3220,7 @@ FR-41018,Blois,local-isp,blois.fr,83,multiple_mx; spf_softfail; independent_mx_w
 IT-119,Bolzano,microsoft,comune.bolzano.it,83,spf_softfail; mx_spf_match; multi_provider_spf:aws+microsoft; provider_classified; autodiscover_confirms
 GB-E07000213,Borough of Spelthorne,microsoft,spelthorne.gov.uk,83,spf_softfail; mx_spf_match; multi_provider_spf:aws+microsoft; provider_classified; autodiscover_confirms
 NL-0654,Borsele,microsoft,borsele.nl,83,spf_softfail; mx_spf_match; multi_provider_spf:google+microsoft; provider_classified; autodiscover_confirms
-FR-01053,Bourg-en-Bresse,independent,bourgenbresse.fr,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+FR-01053,Bourg-en-Bresse,microsoft,bourgenbresse.fr,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 GB-E07000143,Breckland District,microsoft,breckland.gov.uk,83,multiple_mx; spf_softfail; mx_spf_match; multi_provider_spf:aws+mailchimp+microsoft; provider_classified; provider_via_gateway_spf
 GB-E07000095,Broxbourne,microsoft,broxbourne.gov.uk,83,spf_softfail; mx_spf_match; multi_provider_spf:aws+mailchimp+mailgun+microsoft; provider_classified; autodiscover_confirms
 DE-06435006,Bruchköbel,local-isp,bruchkoebel.de,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified
@@ -3273,7 +3273,7 @@ AT-61213,Gröbming,microsoft,groebming.at,83,spf_softfail; independent_mx_with_c
 AT-40602,Grünbach,microsoft,gruenbach.ooe.gv.at,83,spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
 DE-06531006,Grünberg,local-isp,gruenberg.de,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified
 AT-40708,Gschwandt,microsoft,gschwandt.ooe.gv.at,83,spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
-AT-31910,Hafnerbach,independent,hafnerbach.gv.at,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+AT-31910,Hafnerbach,microsoft,hafnerbach.gv.at,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 AT-40604,Hagenberg im Mühlkreis,microsoft,hagenberg.ooe.gv.at,83,spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
 AT-41610,Haibach im Mühlkreis,microsoft,haibach.at,83,spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
 AT-40411,Haigermoos,microsoft,haigermoos.ooe.gv.at,83,spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
@@ -3358,7 +3358,7 @@ ES-28,Madrid,microsoft,comunidad.madrid,83,multiple_mx; spf_softfail; independen
 ES-28079,Madrid,microsoft,madrid.es,83,spf_softfail; mx_spf_match; multi_provider_spf:aws+mailchimp+mailjet+microsoft; provider_classified; autodiscover_confirms
 HU-086,Makó District,microsoft,mak.hu,83,spf_softfail; mx_spf_match; multi_provider_spf:google+mailchimp+microsoft; provider_classified; autodiscover_confirms
 AT-41714,Manning,microsoft,manning.ooe.gv.at,83,spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
-ES-08114,Manresa,independent,ajmanresa.cat,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+ES-08114,Manresa,microsoft,ajmanresa.cat,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 AT-41812,Marchtrenk,microsoft,marchtrenk.gv.at,83,spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
 AT-40422,Mauerkirchen,microsoft,mauerkirchen.ooe.gv.at,83,spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
 AT-41111,Mauthausen,microsoft,mauthausen.at,83,spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
@@ -3439,7 +3439,7 @@ AT-41728,Pühret,microsoft,puehret.ooe.gv.at,83,spf_softfail; independent_mx_wit
 AT-40703,Q250984,microsoft,bad-ischl.ooe.gv.at,83,spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
 EE-0651,Raasiku vald,microsoft,raasiku.ee,83,spf_softfail; mx_spf_match; multi_provider_spf:google+microsoft+zone; provider_classified; autodiscover_confirms
 AT-41415,Rainbach im Innkreis,microsoft,rainbach-innkreis.ooe.gv.at,83,spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
-NO-1833,Rana - Raane,independent,rana.kommune.no,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+NO-1833,Rana - Raane,microsoft,rana.kommune.no,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 DE-14628310,Rathen,local-isp,kurort-rathen.de,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified
 DE-09187165,Raubling,microsoft,raubling.de,83,spf_softfail; independent_mx_with_cloud_spf; provider_classified; autodiscover_confirms
 AT-41117,Rechberg,microsoft,rechberg.at,83,spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
@@ -3771,7 +3771,7 @@ FR-75,Département de Paris,microsoft,paris.fr,85,multiple_mx; spf_strict; indep
 AT-80402,Düns,microsoft,duens.at,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; autodiscover_confirms
 DE-09774127,Dürrlauingen,local-isp,duerrlauingen.de,85,mx_spf_match; provider_classified
 GB-E07000040,East Devon,microsoft,eastdevon.gov.uk,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
-GB-E07000242,East Hertfordshire,independent,eastherts.gov.uk,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+GB-E07000242,East Hertfordshire,microsoft,eastherts.gov.uk,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 GB-E07000086,Eastleigh,microsoft,eastleigh.gov.uk,85,spf_strict; mx_spf_match; multi_provider_spf:aws+microsoft+sendgrid; provider_classified; autodiscover_confirms
 NL-0770,Eersel,local-isp,eersel.nl,85,mx_spf_match; provider_classified
 DE-14521160,Ehrenfriedersdorf,independent,stadt-ehrenfriedersdorf.de,85,mx_spf_match; provider_classified
@@ -3788,7 +3788,7 @@ DE-06436002,Eppstein,local-isp,eppstein.de,85,mx_spf_match; provider_classified
 DE-07231030,Erden,independent,erden.de,85,mx_spf_match; provider_classified
 DE-07135027,Ernst,independent,ernst-mosel.de,85,mx_spf_match; provider_classified
 DE-07138019,Erpel,local-isp,erpel.net,85,mx_spf_match; provider_classified
-ES-20063,Errenteria,independent,errenteria.eus,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+ES-20063,Errenteria,microsoft,errenteria.eus,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 GR-089,Erymanthos,independent,erymanthou.gov.gr,85,mx_spf_match; provider_classified
 DE-09374117,Eschenbach in der Oberpfalz,local-isp,eschenbach-opf.de,85,mx_spf_match; provider_classified
 DE-09374118,Eslarn,local-isp,eslarn.de,85,mx_spf_match; provider_classified
@@ -4126,7 +4126,7 @@ GR-223,Paionia,local-isp,paionia.gov.gr,85,mx_spf_match; provider_classified
 ES-31201,Pamplona,microsoft,pamplona.es,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 FR-75056,Paris,microsoft,paris.fr,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 FI-581,Parkano,microsoft,parkano.fi,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
-FR-64445,Pau,independent,pau.fr,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+FR-64445,Pau,microsoft,pau.fr,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 PT-0204,Paços de Ferreira,microsoft,cm-pacosdeferreira.pt,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; autodiscover_confirms
 NL-1894,Peel en Maas,microsoft,peelenmaas.nl,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
 DE-13075106,Peenemünde,local-isp,amtusedomnord.de,85,mx_spf_match; provider_classified
@@ -4385,7 +4385,7 @@ NO-1865,Vågan,microsoft,vagan.kommune.no,85,multiple_mx; spf_strict; independen
 NO-3419,Våler (Innlandet),microsoft,vaaler-he.kommune.no,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
 FI-941,Vårdö,microsoft,vardo.ax,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 NO-1857,Værøy,microsoft,varoy.kommune.no,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
-ES-29094,Vélez-Málaga,independent,velezmalaga.es,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+ES-29094,Vélez-Málaga,microsoft,velezmalaga.es,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 EE-0917,Võru linn,independent,voru.ee,85,mx_spf_match; provider_classified
 AT-41746,Vöcklabruck,microsoft,voecklabruck.at,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
 DE-03159035,Waake,local-isp,waake.de,85,mx_spf_match; provider_classified
@@ -4519,7 +4519,7 @@ DE-09187113,Amerang,independent,amerang.de,88,spf_softfail; mx_spf_match; provid
 DE-09573111,Ammerndorf,local-isp,ammerndorf.de,88,spf_softfail; mx_spf_match; provider_classified
 GR-029,Amphilochia,local-isp,dimosamfilochias.gr,88,spf_softfail; mx_spf_match; provider_classified
 DE-16065088,An der Schmücke,local-isp,stadtanderschmuecke.de,88,spf_softfail; mx_spf_match; provider_classified
-PT-0002,Anadia,independent,cm-anadia.pt,88,spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+PT-0002,Anadia,microsoft,cm-anadia.pt,88,spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
 DE-16068002,Andisleben,local-isp,andisleben.de,88,spf_softfail; mx_spf_match; provider_classified
 IT-161,Andria,local-isp,comune.andria.bt.it,88,spf_softfail; mx_spf_match; provider_classified
 HR-438,Andrijaševci,independent,andrijasevci.hr,88,spf_softfail; mx_spf_match; provider_classified
@@ -6452,7 +6452,7 @@ BG-10019,Pernik City,local-isp,pernik.bg,88,spf_softfail; mx_spf_match; provider
 DE-07140116,Perscheid,independent,perscheid.info,88,spf_softfail; mx_spf_match; provider_classified
 AT-31946,Perschling,local-isp,weissenkirchen-perschling.at,88,spf_softfail; mx_spf_match; provider_classified
 HR-202,Perušić,independent,perusic.hr,88,spf_softfail; mx_spf_match; provider_classified
-IT-072,Pescara,independent,provincia.pescara.it,88,spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+IT-072,Pescara,microsoft,provincia.pescara.it,88,spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
 DE-12063240,Pessin,local-isp,amt-friesack.de,88,spf_softfail; mx_spf_match; provider_classified
 HR-155,Peteranec,independent,peteranec.hr,88,spf_softfail; mx_spf_match; provider_classified
 DE-07132089,Peterslahr,local-isp,peterslahr.de,88,spf_softfail; mx_spf_match; provider_classified
@@ -6922,7 +6922,7 @@ DE-09277144,Schönau,local-isp,gemeinde-schoenau.de,88,spf_softfail; mx_spf_matc
 DE-14626510,Schönbach,local-isp,gemeinde-schoenbach.de,88,spf_softfail; mx_spf_match; provider_classified
 DE-14524270,Schönberg,local-isp,schönberg-sachsen.de,88,spf_softfail; mx_spf_match; provider_classified
 AT-31355,Schönberg am Kamp,microsoft,schoenberg.gv.at,88,spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
-AT-70350,Schönberg im Stubaital,independent,schoenberg.gv.at,88,spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+AT-70350,Schönberg im Stubaital,microsoft,schoenberg.gv.at,88,spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
 DE-12062453,Schönborn,local-isp,elsterland.de,88,spf_softfail; mx_spf_match; provider_classified
 DE-09471186,Schönbrunn im Steigerwald,microsoft,vg-burgebrach.de,88,spf_softfail; mx_spf_match; provider_classified
 DE-15084445,Schönburg,local-isp,vgem-wethautal.de,88,spf_softfail; mx_spf_match; provider_classified
@@ -7053,7 +7053,7 @@ AT-61744,St. Kathrein am Hauenstein,local-isp,st-kathrein-hauenstein.at,88,spf_s
 AT-40617,St. Leonhard bei Freistadt,local-isp,stleonhard.at,88,spf_softfail; mx_spf_match; provider_classified
 AT-41227,St. Marienkirchen am Hausruck,local-isp,st-marienkirchen-hausruck.at,88,spf_softfail; mx_spf_match; provider_classified
 AT-41419,St. Marienkirchen bei Schärding,local-isp,st-marienkirchen.at,88,spf_softfail; mx_spf_match; provider_classified
-AT-41332,St. Martin im Mühlkreis,independent,sankt-martin.at,88,spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+AT-41332,St. Martin im Mühlkreis,microsoft,sankt-martin.at,88,spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
 DE-08315094,St. Märgen,local-isp,sankt-maergen.de,88,spf_softfail; mx_spf_match; provider_classified
 AT-61425,St. Peter am Kammersberg,local-isp,st-peter-kammersberg.at,88,spf_softfail; mx_spf_match; provider_classified
 AT-30201,St. Pölten,microsoft,st-poelten.gv.at,88,spf_softfail; mx_spf_match; provider_classified
@@ -8179,9 +8179,9 @@ GB-W06000008,Ceredigion,microsoft,ceredigion.gov.uk,90,spf_strict; mx_spf_match;
 HR-118,Cetingrad,independent,cetingrad.hr,90,spf_strict; mx_spf_match; provider_classified
 DE-09372117,Chamerau,local-isp,chamerau.de,90,spf_strict; mx_spf_match; provider_classified
 AM-014,Charentsavan,independent,charentsavan.am,90,spf_strict; mx_spf_match; provider_classified
-FR-08105,Charleville-Mézières,google,gmail.com,90,multiple_mx; mx_spf_match; provider_classified
+FR-08105,Charleville-Mézières,local-isp,mairie-charlevillemezieres.fr,90,spf_strict; mx_spf_match; provider_classified
 GB-E07000130,Charnwood,microsoft,charnwood.gov.uk,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
-FR-52121,Chaumont,independent,ville-chaumont.fr,90,spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+FR-52121,Chaumont,microsoft,ville-chaumont.fr,90,spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 GB-E06000049,Cheshire East,microsoft,cheshireeast.gov.uk,90,spf_strict; mx_spf_match; provider_classified
 GE-012,Chiatura Municipality,independent,chiatura.gov.ge,90,spf_strict; mx_spf_match; provider_classified; smtp_suggests:microsoft
 GE-013,Chkhorotsqu Municipality,independent,chkhorotsku.gov.ge,90,spf_strict; mx_spf_match; provider_classified; smtp_suggests:microsoft
@@ -8519,7 +8519,7 @@ DE-01058056,Friedrichsholm,local-isp,gemeinde-friedrichsholm.de,90,spf_strict; m
 NO-3214,Frogn,microsoft,frogn.kommune.no,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
 PT-0187,Fronteira,independent,cm-fronteira.pt,90,spf_strict; mx_spf_match; provider_classified
 DE-09279115,Frontenhausen,local-isp,frontenhausen.de,90,spf_strict; mx_spf_match; provider_classified
-IT-069,Frosinone,independent,provincia.fr.it,90,multiple_mx; mx_spf_match; provider_classified; provider_via_gateway_spf
+IT-069,Frosinone,microsoft,provincia.fr.it,90,multiple_mx; mx_spf_match; provider_classified; provider_via_gateway_spf
 DE-06437007,Fränkisch-Crumbach,local-isp,fraenkisch-crumbach.de,90,multiple_mx; mx_spf_match; provider_classified
 FR-83061,Fréjus,microsoft,ville-frejus.fr,90,multiple_mx; mx_spf_match; provider_classified; provider_via_gateway_spf
 DE-06633008,Fuldabrück,local-isp,fuldabrueck.de,90,multiple_mx; mx_spf_match; provider_classified
@@ -8745,7 +8745,7 @@ AT-50205,Hallein,independent,hallein.gv.at,90,spf_strict; mx_spf_match; provider
 DE-05958020,Hallenberg,local-isp,stadt-hallenberg.de,90,spf_strict; mx_spf_match; provider_classified
 DE-09471140,Hallstadt,local-isp,hallstadt.de,90,spf_strict; mx_spf_match; provider_classified
 DE-14522240,Halsbrücke,local-isp,halsbruecke.de,90,multiple_mx; mx_spf_match; provider_classified
-DK-260,Halsnæs,independent,halsnaes.dk,90,spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+DK-260,Halsnæs,microsoft,halsnaes.dk,90,spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 UA-038,Halych Raion,local-isp,ww2.gov.if.ua,90,spf_strict; mx_spf_match; provider_classified
 DE-03356003,Hambergen,independent,hambergen.de,90,spf_strict; mx_spf_match; provider_classified
 FI-078,Hanko,microsoft,hanko.fi,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
@@ -8847,7 +8847,7 @@ DE-07137036,Hirten,local-isp,vordereifel.de,90,spf_strict; mx_spf_match; provide
 DE-06440011,Hirzenhain,local-isp,hirzenhain.de,90,multiple_mx; mx_spf_match; provider_classified
 SE-1497,Hjo,microsoft,hjo.se,90,spf_strict; mx_spf_match; provider_classified
 DK-860,Hjørring,microsoft,hjoerring.dk,90,spf_strict; mx_spf_match; provider_classified
-CZ-507016,Hlučín,independent,hlucin.cz,90,multiple_mx; mx_spf_match; provider_classified; provider_via_gateway_spf
+CZ-507016,Hlučín,microsoft,hlucin.cz,90,multiple_mx; mx_spf_match; provider_classified; provider_via_gateway_spf
 DE-14625230,Hochkirch,local-isp,hochkirch.de,90,multiple_mx; mx_spf_match; provider_classified
 DE-09478127,Hochstadt am Main,independent,hochstadt-main.de,90,spf_strict; mx_spf_match; provider_classified
 SI-161,Hodoš,independent,hodos.si,90,spf_strict; mx_spf_match; provider_classified
@@ -9784,7 +9784,7 @@ DE-13073062,Papenhagen,local-isp,amt-franzburg-richtenberg.de,90,spf_strict; mx_
 PT-0203,Paredes,local-isp,cm-paredes.pt,90,spf_strict; mx_spf_match; provider_classified
 DE-09374144,Parkstein,microsoft,parkstein.de,90,spf_strict; mx_spf_match; provider_classified
 DE-09278170,Parkstetten,local-isp,parkstetten.de,90,spf_strict; mx_spf_match; provider_classified
-IT-041,Parma,independent,provincia.parma.it,90,multiple_mx; mx_spf_match; provider_classified; provider_via_gateway_spf
+IT-041,Parma,microsoft,provincia.parma.it,90,multiple_mx; mx_spf_match; provider_classified; provider_via_gateway_spf
 GR-231,Paros,local-isp,paros.gr,90,spf_strict; mx_spf_match; provider_classified
 XK-023,Parteš Municipality,independent,partes.com,90,spf_strict; mx_spf_match; provider_classified
 DE-07235105,Paschel,independent,gemeinde-paschel.de,90,spf_strict; mx_spf_match; provider_classified
@@ -10502,7 +10502,7 @@ DE-16075106,Stanau,independent,neustadtanderorla.de,90,spf_strict; mx_spf_match;
 DE-01059163,Stangheck,local-isp,stangheck.de,90,spf_strict; mx_spf_match; provider_classified
 AT-70928,Stans,independent,stans.at,90,spf_strict; mx_spf_match; provider_classified
 AT-70830,Stanzach,microsoft,stanzach.gv.at,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
-SK-041A,Stará Ľubovňa,independent,staralubovna.sk,90,spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+SK-041A,Stará Ľubovňa,microsoft,staralubovna.sk,90,spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 DE-03159034,Staufenberg,independent,staufenberg-nds.de,90,spf_strict; mx_spf_match; provider_classified
 DE-07138069,Stebach,local-isp,vg-dierdorf.de,90,spf_strict; mx_spf_match; provider_classified
 DE-13072099,Steffenshagen,local-isp,doberan-land.de,90,spf_strict; mx_spf_match; provider_classified
@@ -11127,7 +11127,7 @@ CZ-584282,Židlochovice,local-isp,zidlochovice.cz,90,spf_strict; mx_spf_match; p
 RS-198,Žitište Municipality,local-isp,zitiste.rs,90,spf_strict; mx_spf_match; provider_classified
 BE-55004,'s-Gravenbrakel,local-isp,braine-le-comte.be,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-07134001,Abentheuer,local-isp,abentheuer.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
-GB-S12000033,Aberdeen City,independent,aberdeencity.gov.uk,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+GB-S12000033,Aberdeen City,microsoft,aberdeencity.gov.uk,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
 DE-08125001,Abstatt,local-isp,abstatt.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-08136002,Abtsgmünd,local-isp,abtsgmuend.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-09675111,Abtswind,local-isp,abtswind.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
@@ -11424,7 +11424,7 @@ AM-011,Berd,independent,berd.am,93,multiple_mx; spf_softfail; mx_spf_match; prov
 DE-07131011,Berg,local-isp,berg-aw.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-07141009,Berg,independent,vgnastaetten.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 AT-20603,Berg im Drautal,local-isp,bergimdrautal.at,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
-IT-014,Bergamo,independent,provincia.bergamo.it,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+IT-014,Bergamo,microsoft,provincia.bergamo.it,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
 IT-112,Bergamo,google,comune.bergamo.it,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-03459009,Berge,local-isp,fuerstenau.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-07134006,Bergen,local-isp,bergen-bei-kirn.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
@@ -12645,7 +12645,7 @@ DE-07132050,Herdorf,local-isp,herdorf.de,93,multiple_mx; spf_softfail; mx_spf_ma
 DE-08437124,Herdwangen-Schönach,local-isp,herdwangen-schoenach.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-07133044,Hergenfeld,local-isp,hergenfeld.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-07337037,Hergersweiler,local-isp,hergersweiler.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
-AT-20305,Hermagor-Pressegger See,independent,hermagor.at,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+AT-20305,Hermagor-Pressegger See,microsoft,hermagor.at,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
 DE-12066124,Hermsdorf,local-isp,amt-ruhland.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-16064023,Heroldishausen,local-isp,lg-unstrut-hainich.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-09572131,Heroldsberg,local-isp,heroldsberg.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
@@ -13230,7 +13230,7 @@ DE-08117061,Lauterstein,local-isp,lauterstein.de,93,multiple_mx; spf_softfail; m
 DE-09473141,Lautertal,microsoft,gemeindelautertal.de,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 DE-07143255,Lautzenbrücken,local-isp,bad-marienberg.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 AT-70714,Lavant,local-isp,gemeindelavant.at,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
-FR-93007,Le Blanc-Mesnil,independent,blancmesnil.fr,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+FR-93007,Le Blanc-Mesnil,microsoft,blancmesnil.fr,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
 DE-10044112,Lebach,local-isp,lebach.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 BE-42011,Lebbeke,microsoft,lebbeke.be,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 DE-01057045,Lebrade,local-isp,lebrade.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
@@ -13541,7 +13541,7 @@ DE-09179137,Mittelstetten,local-isp,mittelstetten.de,93,multiple_mx; spf_softfai
 DE-09180123,Mittenwald,local-isp,mittenwald.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-09377141,Mitterteich,local-isp,mitterteich.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 NO-4629,Modalen,microsoft,modalen.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
-BE-61041,Modave,independent,modave.be,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+BE-61041,Modave,microsoft,modave.be,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
 IT-043,Modena,microsoft,provincia.modena.it,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 NO-3316,Modum,microsoft,modum.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 DE-05170024,Moers,google,moers.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
@@ -13647,7 +13647,7 @@ GR-197,Nafpaktia,local-isp,nafpaktos.gr,93,multiple_mx; spf_softfail; mx_spf_mat
 DE-08235046,Nagold,local-isp,nagold.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-01060058,Nahe,microsoft,gemeinde-nahe.de,93,spf_softfail; mx_spf_match; provider_classified; smtp_confirms
 DE-10046113,Namborn,local-isp,namborn.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
-FR-54395,Nancy,independent,nancy.fr,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+FR-54395,Nancy,microsoft,nancy.fr,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
 EE-0511,Narva linn,local-isp,narva.ee,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 NO-1806,Narvik,google,narvik.kommune.no,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-07232085,Nasingen,local-isp,vg-suedeifel.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
@@ -13933,7 +13933,7 @@ DE-16068038,Olbersleben,local-isp,lg-buttstaedt.de,93,multiple_mx; spf_softfail;
 DE-01058119,Oldenbüttel,local-isp,oldenbuettel.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-03355027,Oldendorf (Luhe),local-isp,amelinghausen.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-01058120,Oldenhütten,local-isp,oldenhuetten.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
-PT-0084,Oleiros,independent,cm-oleiros.pt,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+PT-0084,Oleiros,microsoft,cm-oleiros.pt,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
 BE-13029,Olen,microsoft,olen.be,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 PT-0010,Oliveira de Azeméis,microsoft,cm-oaz.pt,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 DE-07232287,Olmscheid,local-isp,olmscheid.net,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
@@ -13986,11 +13986,11 @@ BE-24086,Oud-Heverlee,microsoft,oud-heverlee.be,93,spf_softfail; mx_spf_match; p
 BE-45035,Oudenaarde,microsoft,oudenaarde.be,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 NL-0437,Ouder-Amstel,microsoft,ouder-amstel.nl,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 NL-0589,Oudewater,microsoft,oudewater.nl,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
-PT-0050,Ourique,independent,cm-ourique.pt,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+PT-0050,Ourique,microsoft,cm-ourique.pt,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
 DE-08116054,Owen,local-isp,owen.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-08435047,Owingen,local-isp,owingen.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-01058127,Owschlag,local-isp,owschlag.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
-SE-0481,Oxelösund,independent,oxelosund.se,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+SE-0481,Oxelösund,microsoft,oxelosund.se,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
 CZ-548511,Pacov,microsoft,mestopacov.cz,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 DE-01051088,Pahlen,local-isp,amteider.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 GR-224,Palaio Faliro,local-isp,palaiofaliro.gr,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
@@ -14024,7 +14024,7 @@ GR-240,Peristeri,independent,peristeri.gr,93,multiple_mx; spf_softfail; mx_spf_m
 DE-12070296,Perleberg,local-isp,stadt-perleberg.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 SE-1275,Perstorp,microsoft,perstorp.se,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 GB-S12000048,Perth and Kinross,microsoft,pkc.gov.uk,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
-IT-151,Pescara,independent,comune.pescara.it,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+IT-151,Pescara,microsoft,comune.pescara.it,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
 DE-07340037,Petersberg,local-isp,vgtw.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-16074067,Petersberg,local-isp,stadt-eisenberg.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-07133078,Pfaffen-Schwabenheim,local-isp,vgvkh.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
@@ -14155,7 +14155,7 @@ DE-08226065,Rauenberg,local-isp,rauenberg.de,93,multiple_mx; spf_softfail; mx_sp
 DE-06433010,Raunheim,local-isp,raunheim.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-16074073,Rauschwitz,local-isp,stadt-eisenberg.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 IT-045,Ravenna,microsoft,provincia.ra.it,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
-IT-136,Ravenna,independent,comune.ra.it,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+IT-136,Ravenna,microsoft,comune.ra.it,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
 DE-08225114,Ravenstein,local-isp,ravenstein.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 HR-311,Ravna Gora,independent,ravnagora.hr,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 BG-14,Razgrad,local-isp,razgrad.bg,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
@@ -14352,7 +14352,7 @@ DE-07137096,Saffig,local-isp,saffig.de,93,multiple_mx; spf_softfail; mx_spf_matc
 DE-01053106,Sahms,local-isp,sahms.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 BE-53070,Saint-Ghislain,microsoft,saint-ghislain.be,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 FR-97415,Saint-Paul,local-isp,mairie-saintpaul.re,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
-FR-97416,Saint-Pierre,independent,saintpierre.re,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+FR-97416,Saint-Pierre,microsoft,saintpierre.re,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
 SE-1981,Sala,microsoft,sala.se,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 DE-08117042,Salach,local-isp,salach.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-08435052,Salem,local-isp,salem-baden.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
@@ -14631,7 +14631,7 @@ DE-08119069,Spiegelberg,local-isp,gemeinde-spiegelberg.de,93,multiple_mx; spf_so
 BE-34043,Spiere-Helkijn,microsoft,spiere-helkijn.be,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 DE-10043117,Spiesen-Elversberg,local-isp,spiesen-elversberg.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-07340049,Spirkelbach,local-isp,spirkelbach.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
-AT-20635,Spittal an der Drau,independent,spittal-drau.at,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+AT-20635,Spittal an der Drau,microsoft,spittal-drau.at,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
 DE-07133101,Sponheim,independent,sponheim.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-01054124,Sprakebüll,independent,sprakebuell.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-12071372,Spremberg,local-isp,spremberg.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
@@ -14788,7 +14788,7 @@ GR-291,Tanagra,local-isp,tanagra.gr,93,multiple_mx; spf_softfail; mx_spf_match; 
 GB-E07000215,Tandridge,microsoft,tandridge.gov.uk,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 FR-65440,Tarbes,local-isp,tarbes.fr,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-13072104,Tarnow,local-isp,tarnow.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
-PT-0290,Tarouca,independent,cm-tarouca.pt,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+PT-0290,Tarouca,microsoft,cm-tarouca.pt,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
 EE-0793,Tartu linn,microsoft,tartu.ee,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 DE-09679192,Tauberrettersheim,local-isp,tauberrettersheim.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 DE-12067493,Tauche,local-isp,gemeinde-tauche.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
@@ -14838,7 +14838,7 @@ EE-0803,Toila vald,zone,toila.ee,93,spf_softfail; mx_spf_match; provider_classif
 HU-159,Tokaj District,independent,tokaj.hu,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 NO-3426,Tolga,microsoft,tolga.kommune.no,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
 EE-0809,Tori vald,microsoft,torivald.ee,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
-ES-30037,Torre-Pacheco,independent,torrepacheco.es,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+ES-30037,Torre-Pacheco,microsoft,torrepacheco.es,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
 DE-03353035,Tostedt,local-isp,tostedt.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 FR-31555,Toulouse,microsoft,toulouse.fr,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
 DE-07133105,Traisen,local-isp,traisen.de,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
@@ -14972,7 +14972,7 @@ BE-61063,Verlaine,microsoft,verlaine.be,93,spf_softfail; mx_spf_match; provider_
 IT-025,Verona,microsoft,provincia.vr.it,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
 NO-3452,Vestre Slidre,microsoft,vestre-slidre.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
 IT-123,Vicenza,local-isp,comune.vicenza.it,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
-PT-0052,Vidigueira,independent,cm-vidigueira.pt,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+PT-0052,Vidigueira,microsoft,cm-vidigueira.pt,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
 BG-25,Vidin,local-isp,vidin.bg,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 BG-10014,Vidin City,local-isp,vidin.bg,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
 AT-50625,Viehhofen,microsoft,viehhofen.at,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
@@ -15442,7 +15442,7 @@ ES-11004,Algeciras,independent,algeciras.es,95,multiple_mx; spf_strict; mx_spf_m
 DE-03254003,Algermissen,local-isp,algermissen.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 DE-06632001,Alheim,local-isp,alheim.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 PT-0257,Alijó,microsoft,cm-alijo.pt,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
-PT-0039,Aljustrel,independent,mun-aljustrel.pt,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+PT-0039,Aljustrel,microsoft,mun-aljustrel.pt,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 DE-01054005,Alkersum,independent,alkersum.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 NL-0361,Alkmaar,microsoft,alkmaar.nl,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 DE-06635001,Allendorf (Eder),microsoft,allendorf-eder.de,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
@@ -15519,7 +15519,7 @@ FR-06004,Antibes,local-isp,antibes-juanlespins.com,95,multiple_mx; spf_strict; m
 FR-92002,Antony,microsoft,ville-antony.fr,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 EE-0132,Antsla vald,zone,antsla.ee,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 AT-32502,Arbesbach,microsoft,arbesbach.at,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
-PT-0247,Arcos de Valdevez,independent,cmav.pt,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+PT-0247,Arcos de Valdevez,microsoft,cmav.pt,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 AT-30503,Ardagger,microsoft,ardagger.gv.at,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 BE-37020,Ardooie,microsoft,ardooie.be,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 GB-N09000011,Ards and North Down,microsoft,ardsandnorthdown.gov.uk,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
@@ -15644,7 +15644,7 @@ NO-4012,Bamble,microsoft,bamble.kommune.no,95,spf_strict; mx_spf_match; provider
 DE-13075006,Bandelin,local-isp,amt-zuessow.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 BA-001,Banja Luka,independent,banjaluka.rs.ba,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 SK-0321,Banská Bystrica,microsoft,banskabystrica.sk,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
-SK-0322,Banská Štiavnica,independent,banskastiavnica.sk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+SK-0322,Banská Štiavnica,microsoft,banskastiavnica.sk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 NO-5520,Bardu,microsoft,bardu.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 DE-03251004,Barenburg,local-isp,kirchdorf.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 DE-01062006,Bargteheide,local-isp,bargteheide.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
@@ -15760,7 +15760,7 @@ DE-13072014,Biendorf,local-isp,neubukow-salzhaff.de,95,multiple_mx; spf_strict; 
 DE-03360004,Bienenbüttel,local-isp,bienenbuettel.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 BE-24011,Bierbeek,microsoft,bierbeek.be,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 DE-07232015,Biersdorf am See,local-isp,bitburgerland.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
-ES-48020,Bilbao,independent,bilbao.eus,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+ES-48020,Bilbao,microsoft,bilbao.eus,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 DK-530,Billund,microsoft,billund.dk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 UA-014,Bilohirsk Raion (1921—2023),independent,belogorskiy.rk.gov.ru,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 NO-1811,Bindal,microsoft,bindal.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
@@ -16012,7 +16012,7 @@ BE-62022,Chaudfontaine,local-isp,chaudfontaine.be,95,multiple_mx; spf_strict; mx
 BE-25018,Chaumont-Gistoux,microsoft,chaumont-gistoux.be,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 PT-0259,Chaves,google,chaves.pt,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 BY-018,Chavusy District,independent,chausy.gov.by,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
-FR-77108,Chelles,independent,chelles.fr,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+FR-77108,Chelles,microsoft,chelles.fr,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 GB-E07000070,Chelmsford,microsoft,chelmsford.gov.uk,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 GB-E07000078,Cheltenham,microsoft,cheltenham.gov.uk,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 GB-E07000177,Cherwell District,microsoft,cherwell.uk,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
@@ -16038,7 +16038,7 @@ BE-53082,Colfontaine,microsoft,colfontaine.be,95,spf_strict; mx_spf_match; provi
 FR-68066,Colmar,microsoft,colmar.fr,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 IT-012,Como,microsoft,provincia.como.it,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 IT-116,Como,microsoft,comune.como.it,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
-LU-1004,Consdorf,independent,consdorf.lu,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+LU-1004,Consdorf,microsoft,consdorf.lu,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 PT-0220,Constância,microsoft,cm-constancia.pt,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 GB-W06000003,Conwy,microsoft,conwy.gov.uk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 FR-91174,Corbeil-Essonnes,local-isp,corbeil-essonnes.fr,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
@@ -16156,7 +16156,7 @@ GB-E06000059,Dorset,microsoft,dorsetcouncil.gov.uk,95,spf_strict; mx_spf_match; 
 BE-53020,Dour,microsoft,communedour.be,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 GB-E07000108,Dover,microsoft,dover.gov.uk,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 NO-3431,Dovre,microsoft,dovre.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
-XK-002,Dragash Municipality,independent,rks-gov.net,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+XK-002,Dragash Municipality,microsoft,rks-gov.net,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 DE-01061024,Drage,local-isp,amt-itzehoe-land.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 GR-076,Drama,local-isp,drama.gr,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 NO-3301,Drammen,microsoft,drammen.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
@@ -16371,7 +16371,7 @@ DE-12071074,Felixsee,microsoft,amt-doebern-land.de,95,spf_strict; mx_spf_match; 
 DE-08119020,Fellbach,local-isp,fellbach.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 DE-06634003,Felsberg,local-isp,felsberg.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 DE-09376125,Fensterbach,microsoft,fensterbach.de,95,spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf; autodiscover_confirms
-RS-036,Ferizaj Municipality,independent,rks-gov.net,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+RS-036,Ferizaj Municipality,microsoft,rks-gov.net,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 DE-06531004,Fernwald,local-isp,fernwald.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 AT-30512,Ferschnitz,microsoft,ferschnitz.gv.at,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 DE-09571145,Feuchtwangen,local-isp,feuchtwangen.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
@@ -16550,10 +16550,10 @@ DE-07232043,Gindorf,local-isp,bitburgerland.de,95,multiple_mx; spf_strict; mx_sp
 BE-71017,Gingelom,microsoft,gingelom.be,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 SE-0662,Gislaved,microsoft,gislaved.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 RO-20,Giurgiu,independent,cjgiurgiu.ro,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
-XK-007,Gjakova Municipality,independent,rks-gov.net,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+XK-007,Gjakova Municipality,microsoft,rks-gov.net,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 NO-1557,Gjemnes,microsoft,gjemnes.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 NO-4211,Gjerstad,microsoft,gjerstad.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
-XK-008,Gjilan Municipality,independent,rks-gov.net,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+XK-008,Gjilan Municipality,microsoft,rks-gov.net,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 NO-3407,Gjøvik,microsoft,gjovik.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 BE-24137,Glabbeek,microsoft,glabbeek.be,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 DE-06534010,Gladenbach,local-isp,gladenbach.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
@@ -16813,7 +16813,7 @@ AT-31208,Hausleiten,microsoft,hausleiten.gv.at,95,spf_strict; mx_spf_match; prov
 DE-16064021,Haussömmern,independent,badtennstedt.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 FR-68,Haut-Rhin,microsoft,haut-rhin.fr,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 FR-43,Haute-Loire,microsoft,hauteloire.fr,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
-FR-87,Haute-Vienne,independent,haute-vienne.fr,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+FR-87,Haute-Vienne,microsoft,haute-vienne.fr,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 FR-05,Hautes-Alpes,microsoft,hautes-alpes.fr,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 DE-09275126,Hauzenberg,local-isp,hauzenberg.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 GB-E07000090,Havant,microsoft,havant.gov.uk,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
@@ -17160,7 +17160,7 @@ BY-039,Kalinkavichy District,independent,kalinkovichi.gov.by,95,multiple_mx; spf
 PL-0251,Kalisz,local-isp,schronisko.kalisz.pl,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 SE-2514,Kalix,microsoft,kalix.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 DE-05366024,Kall,local-isp,kall.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
-GR-127,Kallithea,independent,kallithea.gr,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+GR-127,Kallithea,microsoft,kallithea.gr,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 DE-07332028,Kallstadt,local-isp,kallstadt.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 AT-70712,Kals am Großglockner,microsoft,kals.at,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 AT-31713,Kaltenleutgeben,microsoft,kaltenleutgeben.gv.at,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
@@ -17220,7 +17220,7 @@ FI-233,Kauhava,microsoft,kauhava.fi,95,spf_strict; mx_spf_match; provider_classi
 FI-235,Kauniainen,microsoft,kauniainen.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 LT-15,Kauno miesto savivaldybė,microsoft,kaunas.lt,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 LT-16,Kauno rajono savivaldybė,microsoft,krs.lt,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
-XK-013,Kaçanik Municipality,independent,rks-gov.net,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+XK-013,Kaçanik Municipality,microsoft,rks-gov.net,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 HR-087,Kaštelir-Labinci,microsoft,kastelir-labinci.hr,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 BE-24048,Keerbergen,microsoft,keerbergen.be,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 DE-06440013,Kefenrod,local-isp,gemeinde-kefenrod.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
@@ -17447,7 +17447,7 @@ DE-08128064,Külsheim,local-isp,kuelsheim.de,95,multiple_mx; spf_strict; mx_spf_
 DE-12070222,Kümmernitztal,local-isp,amtmeyenburg.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 DE-06631017,Künzell,local-isp,kuenzell.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 DE-09271128,Künzing,microsoft,kuenzing.de,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
-IT-070,L'Aquila,independent,provincia.laquila.it,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+IT-070,L'Aquila,microsoft,provincia.laquila.it,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 BE-92141,La Bruyère,microsoft,labruyere.be,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 ES-11022,La Línea de la Concepción,google,lalinea.es,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 AD-04,La Massana,microsoft,lamassana.ad,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
@@ -17562,7 +17562,7 @@ AT-30735,Leopoldsdorf,microsoft,leopoldsdorf.gv.at,95,spf_strict; mx_spf_match; 
 AT-30831,Leopoldsdorf im Marchfeld,microsoft,leopoldsdorf.net,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 FI-420,Leppävirta,microsoft,leppavirta.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 SE-1441,Lerum,microsoft,lerum.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
-FR-97101,Les Abymes,independent,abymes.fr,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+FR-97101,Les Abymes,microsoft,abymes.fr,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 AT-20321,Lesachtal,local-isp,lesachtal.com,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 NO-3432,Lesja,microsoft,lesja.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 RS-075,Leskovac City,independent,gradleskovac.org,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
@@ -17690,7 +17690,7 @@ AT-61727,Ludersdorf-Wilfersdorf,microsoft,lu-wi.at,95,spf_strict; mx_spf_match; 
 DE-13076090,Ludwigslust,local-isp,stadtludwigslust.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 LV-0684,Ludzas novads,local-isp,ludza.lv,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 AT-41110,Luftenberg an der Donau,microsoft,luftenberg.at,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
-ES-27028,Lugo,independent,lugo.gal,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+ES-27028,Lugo,microsoft,lugo.gal,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 DE-01058101,Luhnstedt,local-isp,amt-jevenstedt.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 BE-62063,Luik,microsoft,liege.be,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 SI-068,Lukovica,microsoft,lukovica.si,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
@@ -17916,7 +17916,7 @@ BE-25068,Mont-Saint-Guibert,microsoft,mont-saint-guibert.be,95,spf_strict; mx_sp
 FR-40192,Mont-de-Marsan,independent,montdemarsan.fr,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 PT-0262,Montalegre,microsoft,cm-montalegre.pt,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 PT-0299,Montemor-o-Novo,local-isp,cm-montemornovo.pt,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
-PT-0099,Montemor-o-Velho,independent,cm-montemorvelho.pt,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+PT-0099,Montemor-o-Velho,microsoft,cm-montemorvelho.pt,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 BE-52048,Montigny-le-Tilleul,microsoft,montigny-le-tilleul.be,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 PT-0240,Montijo,microsoft,mun-montijo.pt,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 IT-114,Monza,microsoft,comune.monza.it,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
@@ -18467,7 +18467,7 @@ DE-09474161,Pretzfeld,microsoft,pretzfeld.de,95,spf_strict; mx_spf_match; provid
 DE-03354020,Prezelle,independent,gartow.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 RS-118,Preševo Municipality,independent,presevo.rs,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 AT-31825,Prigglitz,microsoft,prigglitz.at,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
-MK-052,Prilep Municipality,independent,prilep.gov.mk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+MK-052,Prilep Municipality,microsoft,prilep.gov.mk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 DE-01056040,Prisdorf,local-isp,amt-pinnau.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 XK-026,Prishtina Municipality,google,prishtina.com,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 DE-13076115,Prislich,local-isp,grabow.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
@@ -19106,7 +19106,7 @@ DE-01053123,Sterley,local-isp,amt-lauenburgische-seen.de,95,multiple_mx; spf_str
 DE-08236061,Sternenfels,local-isp,sternenfels.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 AT-31228,Stetteldorf am Wagram,microsoft,stetteldorf-wagram.gv.at,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 AT-31229,Stetten,microsoft,stetten.gv.at,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
-GB-E07000243,Stevenage,independent,stevenage.gov.uk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+GB-E07000243,Stevenage,microsoft,stevenage.gov.uk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 DE-03256030,Steyerberg,microsoft,steyerberg.de,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 NL-1904,Stichtse Vecht,microsoft,stichtsevecht.nl,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 DE-07232124,Stockem,local-isp,bitburgerland.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
@@ -19345,7 +19345,7 @@ DE-09188141,Tutzing,independent,tutzing.de,95,multiple_mx; spf_strict; mx_spf_ma
 FI-857,Tuusniemi,microsoft,tuusniemi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 FI-858,Tuusula,microsoft,tuusula.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 NO-4213,Tvedestrand,microsoft,tvedestrand.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
-SK-031A,Tvrdošín,independent,tvrdosin.sk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+SK-031A,Tvrdošín,microsoft,tvrdosin.sk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 DE-01059097,Twedt,local-isp,amt-suedangeln.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 NL-1700,Twenterand,microsoft,twenterand.nl,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 DE-06635018,Twistetal,local-isp,gemeinde-twistetal.de,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
@@ -19444,7 +19444,7 @@ DE-05754044,Verl,local-isp,verl.de,95,multiple_mx; spf_strict; mx_spf_match; pro
 FR-78646,Versailles,microsoft,versailles.fr,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 BE-63079,Verviers,microsoft,verviers.be,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 FI-921,Vesanto,microsoft,vesanto.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
-DK-820,Vesthimmerland,independent,vesthimmerland.dk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+DK-820,Vesthimmerland,microsoft,vesthimmerland.dk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 IS-0056,Vestmannaeyjabær,microsoft,vestmannaeyjar.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 NO-1535,Vestnes,microsoft,vestnes.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 NO-3443,Vestre Toten,microsoft,vestre-toten.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
@@ -19526,7 +19526,7 @@ GR-317,Vrilissia,local-isp,vrilissia.gr,95,multiple_mx; spf_strict; mx_spf_match
 HR-114,Vrsar,microsoft,vrsar.hr,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 HR-499,Vrsi,microsoft,vrsi.hr,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 NL-0865,Vught,microsoft,vught.nl,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
-XK-035,Vushtrri Municipality,independent,rks-gov.net,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+XK-035,Vushtrri Municipality,microsoft,rks-gov.net,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 SI-141,Vuzenica,microsoft,vuzenica.si,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 EE-0903,Väike-Maarja vald,microsoft,v-maarja.ee,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 SE-1487,Vänersborg,microsoft,vanersborg.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
@@ -19781,7 +19781,7 @@ AT-30544,Zeillern,microsoft,zeillern.gv.at,95,spf_strict; mx_spf_match; provider
 AT-32140,Zeiselmauer-Wolfpassing,independent,zeiselmauer-wolfpassing.at,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 NL-0355,Zeist,microsoft,zeist.nl,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 AT-31550,Zelking-Matzleinsdorf,independent,zelking-matzleinsdorf.gv.at,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
-AT-50628,Zell am See,independent,zellamsee.eu,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+AT-50628,Zell am See,microsoft,zellamsee.eu,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 AT-70941,Zellberg,microsoft,gemeinde-zellberg.at,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 AT-31052,Zellerndorf,microsoft,zellerndorf.gv.at,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 DE-07231136,Zeltingen-Rachtig,microsoft,zeltingen-rachtig.de,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
