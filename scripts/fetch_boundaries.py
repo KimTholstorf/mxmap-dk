@@ -67,7 +67,7 @@ COUNTRY_CONFIG = {
     # Middle East
     "OM": {"admin_level": 4, "iso": "OM", "name": "Oman"},
     "AE": {"admin_level": 4, "iso": "AE", "name": "UAE"},
-    "QA": {"admin_level": 5, "iso": "QA", "name": "Qatar"},
+    "QA": {"admin_level": 4, "iso": "QA", "name": "Qatar"},
     "BH": {"admin_level": 4, "iso": "BH", "name": "Bahrain"},
 }
 

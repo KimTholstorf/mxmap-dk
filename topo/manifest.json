@@ -154,6 +154,21 @@
       "bg_municipality.topo.json": 219636
     }
   },
+  "BH": {
+    "levels": [
+      "region",
+      "district",
+      "municipality"
+    ],
+    "files": {
+      "region": "bh_municipality.topo.json",
+      "district": "bh_municipality.topo.json",
+      "municipality": "bh_municipality.topo.json"
+    },
+    "sizes": {
+      "bh_municipality.topo.json": 7460
+    }
+  },
   "BY": {
     "levels": [
       "region",
@@ -856,6 +871,21 @@
     "sizes": {
       "pt_region.topo.json": 78675,
       "pt_municipality.topo.json": 406581
+    }
+  },
+  "QA": {
+    "levels": [
+      "region",
+      "district",
+      "municipality"
+    ],
+    "files": {
+      "region": "qa_municipality.topo.json",
+      "district": "qa_municipality.topo.json",
+      "municipality": "qa_municipality.topo.json"
+    },
+    "sizes": {
+      "qa_municipality.topo.json": 61314
     }
   },
   "RO": {
