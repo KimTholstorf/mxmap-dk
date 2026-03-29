@@ -1,0 +1,113 @@
+[
+  {
+    "id": "SA-001",
+    "name": "Al-Baha Province",
+    "country": "SA",
+    "region": "Saudi Arabia",
+    "domain": "albaha.gov.sa",
+    "osm_relation_id": 3679888
+  },
+  {
+    "id": "SA-002",
+    "name": "Al-Jowf Province",
+    "country": "SA",
+    "region": "Saudi Arabia",
+    "domain": "",
+    "osm_relation_id": 3842543
+  },
+  {
+    "id": "SA-003",
+    "name": "Al-Qassim",
+    "country": "SA",
+    "region": "Saudi Arabia",
+    "domain": "",
+    "osm_relation_id": 3679872
+  },
+  {
+    "id": "SA-004",
+    "name": "Al-Qurayyat (province)",
+    "country": "SA",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "SA-005",
+    "name": "Asir Province",
+    "country": "SA",
+    "region": "Saudi Arabia",
+    "domain": "",
+    "osm_relation_id": 3678598
+  },
+  {
+    "id": "SA-006",
+    "name": "Eastern Province",
+    "country": "SA",
+    "region": "Saudi Arabia",
+    "domain": "easternemara.gov.sa",
+    "osm_relation_id": 3667294
+  },
+  {
+    "id": "SA-007",
+    "name": "Jazan Province",
+    "country": "SA",
+    "region": "Saudi Arabia",
+    "domain": "jazan.sa",
+    "osm_relation_id": 3679903
+  },
+  {
+    "id": "SA-008",
+    "name": "Mecca Province",
+    "country": "SA",
+    "region": "Saudi Arabia",
+    "domain": "",
+    "osm_relation_id": 3678639
+  },
+  {
+    "id": "SA-009",
+    "name": "Medina Province",
+    "country": "SA",
+    "region": "Saudi Arabia",
+    "domain": "",
+    "osm_relation_id": 3679869
+  },
+  {
+    "id": "SA-010",
+    "name": "Najran Province",
+    "country": "SA",
+    "region": "Saudi Arabia",
+    "domain": "najran.gov.sa",
+    "osm_relation_id": 3667317
+  },
+  {
+    "id": "SA-011",
+    "name": "Northern Borders Province",
+    "country": "SA",
+    "region": "Saudi Arabia",
+    "domain": "",
+    "osm_relation_id": 3673927
+  },
+  {
+    "id": "SA-012",
+    "name": "Riyadh Province",
+    "country": "SA",
+    "region": "Saudi Arabia",
+    "domain": "riyadh.gov.sa",
+    "osm_relation_id": 3678409
+  },
+  {
+    "id": "SA-013",
+    "name": "Tabuk Province",
+    "country": "SA",
+    "region": "Saudi Arabia",
+    "domain": "",
+    "osm_relation_id": 3679867
+  },
+  {
+    "id": "SA-014",
+    "name": "Ḥaʼil Province",
+    "country": "SA",
+    "region": "Saudi Arabia",
+    "domain": "spaceref.com",
+    "osm_relation_id": 3676707
+  }
+]

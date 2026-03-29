@@ -70,13 +70,38 @@ COUNTRY_CONFIG = {
     "PH": {"admin_level": 4, "iso": "PH", "name": "Philippines"},
     "VN": {"admin_level": 4, "iso": "VN", "name": "Vietnam"},
     "MM": {"admin_level": 4, "iso": "MM", "name": "Myanmar"},
+    "LA": {"admin_level": 4, "iso": "LA", "name": "Laos"},
+    "BN": {"admin_level": 6, "iso": "BN", "name": "Brunei"},
+    "TL": {"admin_level": 5, "iso": "TL", "name": "Timor-Leste"},
     # East Asia
     "JP": {"admin_level": 4, "iso": "JP", "name": "Japan"},
+    "TW": {"admin_level": 4, "iso": "TW", "name": "Taiwan"},
+    "KR": {"admin_level": 6, "iso": "KR", "name": "South Korea"},
+    "KP": {"admin_level": 4, "iso": "KP", "name": "North Korea"},
+    "CN": {"admin_level": 4, "iso": "CN", "name": "China"},
+    "MN": {"admin_level": 4, "iso": "MN", "name": "Mongolia"},
+    # South Asia
+    "IN": {"admin_level": 4, "iso": "IN", "name": "India"},
+    "BD": {"admin_level": 4, "iso": "BD", "name": "Bangladesh"},
+    "PK": {"admin_level": 4, "iso": "PK", "name": "Pakistan"},
+    "LK": {"admin_level": 5, "iso": "LK", "name": "Sri Lanka"},
+    "NP": {"admin_level": 5, "iso": "NP", "name": "Nepal"},
+    # Central Asia
+    "KZ": {"admin_level": 4, "iso": "KZ", "name": "Kazakhstan"},
+    "UZ": {"admin_level": 4, "iso": "UZ", "name": "Uzbekistan"},
+    "KG": {"admin_level": 4, "iso": "KG", "name": "Kyrgyzstan"},
     # Middle East
     "OM": {"admin_level": 4, "iso": "OM", "name": "Oman"},
     "AE": {"admin_level": 4, "iso": "AE", "name": "UAE"},
     "QA": {"admin_level": 4, "iso": "QA", "name": "Qatar"},
     "BH": {"admin_level": 4, "iso": "BH", "name": "Bahrain"},
+    "SA": {"admin_level": 4, "iso": "SA", "name": "Saudi Arabia"},
+    "IQ": {"admin_level": 4, "iso": "IQ", "name": "Iraq"},
+    "JO": {"admin_level": 4, "iso": "JO", "name": "Jordan"},
+    "LB": {"admin_level": 4, "iso": "LB", "name": "Lebanon"},
+    "KW": {"admin_level": 4, "iso": "KW", "name": "Kuwait"},
+    "IR": {"admin_level": 4, "iso": "IR", "name": "Iran"},
+    "IL": {"admin_level": 6, "iso": "IL", "name": "Israel"},
 }
 
 

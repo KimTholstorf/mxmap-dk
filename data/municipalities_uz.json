@@ -1,0 +1,90 @@
+[
+  {
+    "id": "UZ-001",
+    "name": "Andijan Region",
+    "country": "UZ",
+    "region": "Uzbekistan",
+    "domain": "andijan.uz",
+    "osm_relation_id": 178016
+  },
+  {
+    "id": "UZ-002",
+    "name": "Bukhara Region",
+    "country": "UZ",
+    "region": "Uzbekistan",
+    "domain": "buxoro.uz",
+    "osm_relation_id": 1670973
+  },
+  {
+    "id": "UZ-003",
+    "name": "Fergana Region",
+    "country": "UZ",
+    "region": "Uzbekistan",
+    "domain": "en.ferghana.uz",
+    "osm_relation_id": 178018
+  },
+  {
+    "id": "UZ-004",
+    "name": "Jizzakh Region",
+    "country": "UZ",
+    "region": "Uzbekistan",
+    "domain": "jizzax.gov.uz",
+    "osm_relation_id": 196254
+  },
+  {
+    "id": "UZ-005",
+    "name": "Namangan Region",
+    "country": "UZ",
+    "region": "Uzbekistan",
+    "domain": "namangan.uz",
+    "osm_relation_id": 178017
+  },
+  {
+    "id": "UZ-006",
+    "name": "Navoiy Region",
+    "country": "UZ",
+    "region": "Uzbekistan",
+    "domain": "navoi.uz",
+    "osm_relation_id": 196246
+  },
+  {
+    "id": "UZ-007",
+    "name": "Samarqand Region",
+    "country": "UZ",
+    "region": "Uzbekistan",
+    "domain": "samarkand.uz",
+    "osm_relation_id": 196249
+  },
+  {
+    "id": "UZ-008",
+    "name": "Sirdaryo Region",
+    "country": "UZ",
+    "region": "Uzbekistan",
+    "domain": "sirdaryo.uz",
+    "osm_relation_id": 196253
+  },
+  {
+    "id": "UZ-009",
+    "name": "Surxondaryo Region",
+    "country": "UZ",
+    "region": "Uzbekistan",
+    "domain": "surxon.gov.uz",
+    "osm_relation_id": 196248
+  },
+  {
+    "id": "UZ-010",
+    "name": "Tashkent Region",
+    "country": "UZ",
+    "region": "Uzbekistan",
+    "domain": "tashvil.gov.uz",
+    "osm_relation_id": 196251
+  },
+  {
+    "id": "UZ-011",
+    "name": "Xorazm Region",
+    "country": "UZ",
+    "region": "Uzbekistan",
+    "domain": "xorazm.uz",
+    "osm_relation_id": 196242
+  }
+]

@@ -89,13 +89,39 @@ SEED_FILES = {
     "PH": "municipalities_ph.json",
     "VN": "municipalities_vn.json",
     "MM": "municipalities_mm.json",
+    # Remaining SE Asia
+    "LA": "municipalities_la.json",
+    "BN": "municipalities_bn.json",
+    "TL": "municipalities_tl.json",
     # East Asia
     "JP": "municipalities_jp.json",
+    "TW": "municipalities_tw.json",
+    "KR": "municipalities_kr.json",
+    "KP": "municipalities_kp.json",
+    "CN": "municipalities_cn.json",
+    "MN": "municipalities_mn.json",
+    # South Asia
+    "IN": "municipalities_in.json",
+    "BD": "municipalities_bd.json",
+    "PK": "municipalities_pk.json",
+    "LK": "municipalities_lk.json",
+    "NP": "municipalities_np.json",
+    # Central Asia
+    "KZ": "municipalities_kz.json",
+    "UZ": "municipalities_uz.json",
+    "KG": "municipalities_kg.json",
     # Middle East
     "OM": "municipalities_om.json",
     "AE": "municipalities_ae.json",
     "QA": "municipalities_qa.json",
     "BH": "municipalities_bh.json",
+    "SA": "municipalities_sa.json",
+    "IQ": "municipalities_iq.json",
+    "JO": "municipalities_jo.json",
+    "LB": "municipalities_lb.json",
+    "KW": "municipalities_kw.json",
+    "IR": "municipalities_ir.json",
+    "IL": "municipalities_il.json",
 }
 
 
@@ -373,13 +399,39 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         "PH": [".gov.ph", ".ph"],
         "VN": [".gov.vn", ".vn"],
         "MM": [".gov.mm", ".mm"],
+        # Remaining SE Asia
+        "LA": [".gov.la", ".la"],
+        "BN": [".gov.bn", ".bn"],
+        "TL": [".gov.tl", ".tl"],
         # East Asia
         "JP": [".lg.jp", ".jp"],
+        "TW": [".gov.tw", ".tw"],
+        "KR": [".go.kr", ".or.kr", ".kr"],
+        "KP": [".kp"],
+        "CN": [".gov.cn", ".cn"],
+        "MN": [".gov.mn", ".mn"],
+        # South Asia
+        "IN": [".gov.in", ".nic.in", ".in"],
+        "BD": [".gov.bd", ".bd"],
+        "PK": [".gov.pk", ".pk"],
+        "LK": [".gov.lk", ".lk"],
+        "NP": [".gov.np", ".np"],
+        # Central Asia
+        "KZ": [".gov.kz", ".kz"],
+        "UZ": [".gov.uz", ".uz"],
+        "KG": [".gov.kg", ".kg"],
         # Middle East
         "OM": [".gov.om", ".om"],
         "AE": [".gov.ae", ".ae"],
         "QA": [".gov.qa", ".qa"],
         "BH": [".gov.bh", ".bh"],
+        "SA": [".gov.sa", ".sa"],
+        "IQ": [".gov.iq", ".iq"],
+        "JO": [".gov.jo", ".jo"],
+        "LB": [".gov.lb", ".lb"],
+        "KW": [".gov.kw", ".kw"],
+        "IR": [".gov.ir", ".ir"],
+        "IL": [".gov.il", ".muni.il", ".il"],
     }
     tlds = tld_map.get(
         country, [".ee", ".lv", ".lt", ".fi", ".no", ".se", ".de", ".dk"]

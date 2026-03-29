@@ -1,0 +1,58 @@
+[
+  {
+    "id": "KG-001",
+    "name": "Batken Region",
+    "country": "KG",
+    "region": "Kyrgyzstan",
+    "domain": "",
+    "osm_relation_id": 178019
+  },
+  {
+    "id": "KG-002",
+    "name": "Chuy Region",
+    "country": "KG",
+    "region": "Kyrgyzstan",
+    "domain": "chuy.in.kg",
+    "osm_relation_id": 178026
+  },
+  {
+    "id": "KG-003",
+    "name": "Issyk-Kul Region",
+    "country": "KG",
+    "region": "Kyrgyzstan",
+    "domain": "",
+    "osm_relation_id": 178025
+  },
+  {
+    "id": "KG-004",
+    "name": "Jalal-Abad Region",
+    "country": "KG",
+    "region": "Kyrgyzstan",
+    "domain": "",
+    "osm_relation_id": 178024
+  },
+  {
+    "id": "KG-005",
+    "name": "Naryn Region",
+    "country": "KG",
+    "region": "Kyrgyzstan",
+    "domain": "naryn.gov.kg",
+    "osm_relation_id": 1251542
+  },
+  {
+    "id": "KG-006",
+    "name": "Osh Region",
+    "country": "KG",
+    "region": "Kyrgyzstan",
+    "domain": "osh.gov.kg",
+    "osm_relation_id": 178020
+  },
+  {
+    "id": "KG-007",
+    "name": "Talas Region",
+    "country": "KG",
+    "region": "Kyrgyzstan",
+    "domain": "",
+    "osm_relation_id": 178023
+  }
+]

@@ -27,11 +27,13 @@ ZONE_KEYWORDS = ["zone.eu", "zone.ee", "zoneit.eu", "zonemx.eu"]
 TELIA_KEYWORDS = ["telia.ee", "telia.lt", "telia.lv", "telia.com"]
 TET_KEYWORDS = ["tet.lv"]
 ELKDATA_KEYWORDS = ["elkdata.ee"]
+ZOHO_KEYWORDS = ["zoho.com", "zoho.eu", "zoho.in", "zohocorp.com"]
 
 PROVIDER_KEYWORDS = {
     "microsoft": MICROSOFT_KEYWORDS,
     "google": GOOGLE_KEYWORDS,
     "aws": AWS_KEYWORDS,
+    "zoho": ZOHO_KEYWORDS,
     "zone": ZONE_KEYWORDS,
     "telia": TELIA_KEYWORDS,
     "tet": TET_KEYWORDS,
@@ -682,5 +684,9 @@ SMTP_BANNER_KEYWORDS = {
     ],
     "elkdata": [
         "elkdata.ee",
+    ],
+    "zoho": [
+        "zoho.com",
+        "zoho.eu",
     ],
 }

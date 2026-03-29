@@ -1,0 +1,66 @@
+[
+  {
+    "id": "BD-001",
+    "name": "Barisal Division",
+    "country": "BD",
+    "region": "Bangladesh",
+    "domain": "barisaldiv.gov.bd",
+    "osm_relation_id": 3921298
+  },
+  {
+    "id": "BD-002",
+    "name": "Chattogram Division",
+    "country": "BD",
+    "region": "Bangladesh",
+    "domain": "chittagongdiv.gov.bd",
+    "osm_relation_id": 3824588
+  },
+  {
+    "id": "BD-003",
+    "name": "Dhaka Division",
+    "country": "BD",
+    "region": "Bangladesh",
+    "domain": "dhakadiv.gov.bd",
+    "osm_relation_id": 3921322
+  },
+  {
+    "id": "BD-004",
+    "name": "Khulna Division",
+    "country": "BD",
+    "region": "Bangladesh",
+    "domain": "khulnadiv.gov.bd",
+    "osm_relation_id": 3825003
+  },
+  {
+    "id": "BD-005",
+    "name": "Mymensingh Division",
+    "country": "BD",
+    "region": "Bangladesh",
+    "domain": "mymensinghdiv.gov.bd",
+    "osm_relation_id": 7318343
+  },
+  {
+    "id": "BD-006",
+    "name": "Rajshahi Division",
+    "country": "BD",
+    "region": "Bangladesh",
+    "domain": "rajshahidiv.gov.bd",
+    "osm_relation_id": 3859335
+  },
+  {
+    "id": "BD-007",
+    "name": "Rangpur Division",
+    "country": "BD",
+    "region": "Bangladesh",
+    "domain": "rangpurdiv.gov.bd",
+    "osm_relation_id": 3921211
+  },
+  {
+    "id": "BD-008",
+    "name": "Sylhet Division",
+    "country": "BD",
+    "region": "Bangladesh",
+    "domain": "sylhetdiv.gov.bd",
+    "osm_relation_id": 3921222
+  }
+]

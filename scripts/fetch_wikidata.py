@@ -764,6 +764,309 @@ SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
 }
 ORDER BY ?itemLabel
 """,
+    # Taiwan: Q706447 (county/city) — ~21
+    "TW": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  VALUES ?type { wd:Q706447 wd:Q1867507 }
+  ?item wdt:P31 ?type .
+  ?item wdt:P17 wd:Q865 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,zh" }
+}
+ORDER BY ?itemLabel
+""",
+    # South Korea: Q29045252 (city) + Q17143371 (county) + Q15901936 (district) — ~160
+    "KR": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  VALUES ?type { wd:Q29045252 wd:Q17143371 wd:Q15901936 wd:Q4925355 }
+  ?item wdt:P31 ?type .
+  ?item wdt:P17 wd:Q884 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,ko" }
+}
+ORDER BY ?itemLabel
+""",
+    # North Korea: Q15620174 (province) — 9 provinces
+    "KP": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q15620174 .
+  ?item wdt:P17 wd:Q423 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,ko" }
+}
+ORDER BY ?itemLabel
+""",
+    # China: Q1615742 (province-level division) — ~34
+    "CN": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q1615742 .
+  ?item wdt:P17 wd:Q148 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,zh" }
+}
+ORDER BY ?itemLabel
+""",
+    # Mongolia: Q50399 (province) — 21 aimags
+    "MN": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q50399 .
+  ?item wdt:P17 wd:Q711 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,mn" }
+}
+ORDER BY ?itemLabel
+""",
+    # India: Q12443800 (state/UT) — ~36
+    "IN": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  VALUES ?type { wd:Q12443800 wd:Q467745 }
+  ?item wdt:P31 ?type .
+  ?item wdt:P17 wd:Q668 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,hi" }
+}
+ORDER BY ?itemLabel
+""",
+    # Bangladesh: Q878040 (division) — 8 divisions
+    "BD": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q878040 .
+  ?item wdt:P17 wd:Q902 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,bn" }
+}
+ORDER BY ?itemLabel
+""",
+    # Pakistan: Q15058985 (province) — ~8
+    "PK": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  VALUES ?type { wd:Q15058985 wd:Q1440957 }
+  ?item wdt:P31 ?type .
+  ?item wdt:P17 wd:Q843 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,ur" }
+}
+ORDER BY ?itemLabel
+""",
+    # Sri Lanka: Q1230110 (district) — 25 districts
+    "LK": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q1230110 .
+  ?item wdt:P17 wd:Q854 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,si,ta" }
+}
+ORDER BY ?itemLabel
+""",
+    # Nepal: Q2537537 (district) — 77 districts
+    "NP": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q2537537 .
+  ?item wdt:P17 wd:Q837 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,ne" }
+}
+ORDER BY ?itemLabel
+""",
+    # Laos: Q15673297 (province) — 17 provinces
+    "LA": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q15673297 .
+  ?item wdt:P17 wd:Q819 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,lo" }
+}
+ORDER BY ?itemLabel
+""",
+    # Brunei: Q60047 (mukim) — ~40
+    "BN": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q60047 .
+  ?item wdt:P17 wd:Q921 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,ms" }
+}
+ORDER BY ?itemLabel
+""",
+    # East Timor: Q741821 (municipality) — 14
+    "TL": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q741821 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,pt,tet" }
+}
+ORDER BY ?itemLabel
+""",
+    # Kazakhstan: Q836672 (region) — 17 regions
+    "KZ": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q836672 .
+  ?item wdt:P17 wd:Q232 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,kk,ru" }
+}
+ORDER BY ?itemLabel
+""",
+    # Uzbekistan: Q842420 (region) — 12 regions
+    "UZ": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q842420 .
+  ?item wdt:P17 wd:Q265 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,uz,ru" }
+}
+ORDER BY ?itemLabel
+""",
+    # Kyrgyzstan: Q693039 (region) — 7 regions
+    "KG": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q693039 .
+  ?item wdt:P17 wd:Q813 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,ky,ru" }
+}
+ORDER BY ?itemLabel
+""",
+    # Saudi Arabia: Q15728204 (province) — 13 provinces
+    "SA": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q15728204 .
+  ?item wdt:P17 wd:Q851 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,ar" }
+}
+ORDER BY ?itemLabel
+""",
+    # Iraq: Q841753 (governorate) — 19
+    "IQ": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q841753 .
+  ?item wdt:P17 wd:Q796 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,ar,ku" }
+}
+ORDER BY ?itemLabel
+""",
+    # Jordan: Q867567 (governorate) — 12
+    "JO": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q867567 .
+  ?item wdt:P17 wd:Q810 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,ar" }
+}
+ORDER BY ?itemLabel
+""",
+    # Lebanon: Q844713 (governorate) — 9
+    "LB": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q844713 .
+  ?item wdt:P17 wd:Q822 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,ar" }
+}
+ORDER BY ?itemLabel
+""",
+    # Kuwait: Q842876 (governorate) — 6
+    "KW": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q842876 .
+  ?item wdt:P17 wd:Q817 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,ar" }
+}
+ORDER BY ?itemLabel
+""",
+    # Iran: Q1344695 (province) — 31
+    "IR": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q1344695 .
+  ?item wdt:P17 wd:Q794 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fa" }
+}
+ORDER BY ?itemLabel
+""",
+    # Israel: Q193560 (district) + Q1022469 (regional council) — ~60
+    "IL": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  VALUES ?type { wd:Q193560 wd:Q1022469 }
+  ?item wdt:P31 ?type .
+  ?item wdt:P17 wd:Q801 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,he,ar" }
+}
+ORDER BY ?itemLabel
+""",
 })
 
 

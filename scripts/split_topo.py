@@ -91,13 +91,39 @@ COUNTRIES = [
     "PH",
     "VN",
     "MM",
+    # Remaining SE Asia
+    "LA",
+    "BN",
+    "TL",
     # East Asia
     "JP",
+    "TW",
+    "KR",
+    "KP",
+    "CN",
+    "MN",
+    # South Asia
+    "IN",
+    "BD",
+    "PK",
+    "LK",
+    "NP",
+    # Central Asia
+    "KZ",
+    "UZ",
+    "KG",
     # Middle East
     "OM",
     "AE",
     "QA",
     "BH",
+    "SA",
+    "IQ",
+    "JO",
+    "LB",
+    "KW",
+    "IR",
+    "IL",
 ]
 
 # Which conceptual level maps to which file level per country.
@@ -212,13 +238,38 @@ LEVEL_MAP = {
     "PH": {"region": "region", "district": "municipality", "municipality": "municipality"},
     "VN": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     "MM": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "LA": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "BN": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "TL": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     # East Asia
     "JP": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "TW": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "KR": {"region": "region", "district": "municipality", "municipality": "municipality"},
+    "KP": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "CN": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "MN": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    # South Asia
+    "IN": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "BD": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "PK": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "LK": {"region": "region", "district": "municipality", "municipality": "municipality"},
+    "NP": {"region": "region", "district": "municipality", "municipality": "municipality"},
+    # Central Asia
+    "KZ": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "UZ": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "KG": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     # Middle East
     "OM": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     "AE": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     "QA": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     "BH": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "SA": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "IQ": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "JO": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "LB": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "KW": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "IR": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "IL": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
 }
 
 

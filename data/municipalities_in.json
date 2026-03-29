@@ -1,0 +1,289 @@
+[
+  {
+    "id": "IN-001",
+    "name": "Andaman and Nicobar Islands",
+    "country": "IN",
+    "region": "India",
+    "domain": "andaman.gov.in",
+    "osm_relation_id": 2025855
+  },
+  {
+    "id": "IN-002",
+    "name": "Andhra Pradesh",
+    "country": "IN",
+    "region": "India",
+    "domain": "ap.gov.in",
+    "osm_relation_id": 2022095
+  },
+  {
+    "id": "IN-003",
+    "name": "Arunachal Pradesh",
+    "country": "IN",
+    "region": "India",
+    "domain": "arunachalpradesh.gov.in",
+    "osm_relation_id": 2027346
+  },
+  {
+    "id": "IN-004",
+    "name": "Assam",
+    "country": "IN",
+    "region": "India",
+    "domain": "assam.gov.in",
+    "osm_relation_id": 2025886
+  },
+  {
+    "id": "IN-005",
+    "name": "Bihar",
+    "country": "IN",
+    "region": "India",
+    "domain": "bihar.gov.in",
+    "osm_relation_id": 1958982
+  },
+  {
+    "id": "IN-006",
+    "name": "Chandigarh",
+    "country": "IN",
+    "region": "India",
+    "domain": "",
+    "osm_relation_id": 1942809
+  },
+  {
+    "id": "IN-007",
+    "name": "Chhattisgarh",
+    "country": "IN",
+    "region": "India",
+    "domain": "chhattisgarh.nic.in",
+    "osm_relation_id": 1972004
+  },
+  {
+    "id": "IN-008",
+    "name": "Dadra and Nagar Haveli and Daman and Diu",
+    "country": "IN",
+    "region": "India",
+    "domain": "ddd.gov.in",
+    "osm_relation_id": 1952530
+  },
+  {
+    "id": "IN-009",
+    "name": "Goa",
+    "country": "IN",
+    "region": "India",
+    "domain": "goa.gov.in",
+    "osm_relation_id": 11251493
+  },
+  {
+    "id": "IN-010",
+    "name": "Gujarat",
+    "country": "IN",
+    "region": "India",
+    "domain": "gujaratindia.com",
+    "osm_relation_id": 1949080
+  },
+  {
+    "id": "IN-011",
+    "name": "Haryana",
+    "country": "IN",
+    "region": "India",
+    "domain": "haryana.gov.in",
+    "osm_relation_id": 1942601
+  },
+  {
+    "id": "IN-012",
+    "name": "Himachal Pradesh",
+    "country": "IN",
+    "region": "India",
+    "domain": "himachal.nic.in",
+    "osm_relation_id": 364186
+  },
+  {
+    "id": "IN-013",
+    "name": "Jammu and Kashmir",
+    "country": "IN",
+    "region": "India",
+    "domain": "jammukashmir.nic.in",
+    "osm_relation_id": 1943188
+  },
+  {
+    "id": "IN-014",
+    "name": "Jharkhand",
+    "country": "IN",
+    "region": "India",
+    "domain": "jharkhand.gov.in",
+    "osm_relation_id": 1960191
+  },
+  {
+    "id": "IN-015",
+    "name": "Karnataka",
+    "country": "IN",
+    "region": "India",
+    "domain": "karnataka.gov.in",
+    "osm_relation_id": 2019939
+  },
+  {
+    "id": "IN-016",
+    "name": "Kerala",
+    "country": "IN",
+    "region": "India",
+    "domain": "kerala.gov.in",
+    "osm_relation_id": 2018151
+  },
+  {
+    "id": "IN-017",
+    "name": "Ladakh",
+    "country": "IN",
+    "region": "India",
+    "domain": "ladakh.nic.in",
+    "osm_relation_id": 5515045
+  },
+  {
+    "id": "IN-018",
+    "name": "Lakshadweep",
+    "country": "IN",
+    "region": "India",
+    "domain": "lakshadweep.gov.in",
+    "osm_relation_id": 2027460
+  },
+  {
+    "id": "IN-019",
+    "name": "Madhya Pradesh",
+    "country": "IN",
+    "region": "India",
+    "domain": "mp.gov.in",
+    "osm_relation_id": 1950071
+  },
+  {
+    "id": "IN-020",
+    "name": "Maharashtra",
+    "country": "IN",
+    "region": "India",
+    "domain": "maharashtra.gov.in",
+    "osm_relation_id": 1950884
+  },
+  {
+    "id": "IN-021",
+    "name": "Manipur",
+    "country": "IN",
+    "region": "India",
+    "domain": "manipur.gov.in",
+    "osm_relation_id": 2027869
+  },
+  {
+    "id": "IN-022",
+    "name": "Meghalaya",
+    "country": "IN",
+    "region": "India",
+    "domain": "meghalaya.gov.in",
+    "osm_relation_id": 2027521
+  },
+  {
+    "id": "IN-023",
+    "name": "Mizoram",
+    "country": "IN",
+    "region": "India",
+    "domain": "mizoram.nic.in",
+    "osm_relation_id": 2029046
+  },
+  {
+    "id": "IN-024",
+    "name": "Nagaland",
+    "country": "IN",
+    "region": "India",
+    "domain": "nagaland.nic.in",
+    "osm_relation_id": 2027973
+  },
+  {
+    "id": "IN-025",
+    "name": "National Capital Territory of Delhi",
+    "country": "IN",
+    "region": "India",
+    "domain": "delhi.gov.in"
+  },
+  {
+    "id": "IN-026",
+    "name": "Odisha",
+    "country": "IN",
+    "region": "India",
+    "domain": "odisha.gov.in",
+    "osm_relation_id": 1984022
+  },
+  {
+    "id": "IN-027",
+    "name": "Puducherry",
+    "country": "IN",
+    "region": "India",
+    "domain": "py.gov.in",
+    "osm_relation_id": 107001
+  },
+  {
+    "id": "IN-028",
+    "name": "Punjab",
+    "country": "IN",
+    "region": "India",
+    "domain": "punjab.gov.in",
+    "osm_relation_id": 1942686
+  },
+  {
+    "id": "IN-029",
+    "name": "Rajasthan",
+    "country": "IN",
+    "region": "India",
+    "domain": "rajasthan.gov.in",
+    "osm_relation_id": 1942920
+  },
+  {
+    "id": "IN-030",
+    "name": "Sikkim",
+    "country": "IN",
+    "region": "India",
+    "domain": "sikkim.gov.in",
+    "osm_relation_id": 1791324
+  },
+  {
+    "id": "IN-031",
+    "name": "Tamil Nadu",
+    "country": "IN",
+    "region": "",
+    "domain": "tn.gov.in",
+    "osm_relation_id": 96905
+  },
+  {
+    "id": "IN-032",
+    "name": "Telangana",
+    "country": "IN",
+    "region": "India",
+    "domain": "telangana.gov.in",
+    "osm_relation_id": 3250963
+  },
+  {
+    "id": "IN-033",
+    "name": "Tripura",
+    "country": "IN",
+    "region": "India",
+    "domain": "tripura.gov.in",
+    "osm_relation_id": 2026458
+  },
+  {
+    "id": "IN-034",
+    "name": "Uttar Pradesh",
+    "country": "IN",
+    "region": "India",
+    "domain": "up.gov.in",
+    "osm_relation_id": 1942587
+  },
+  {
+    "id": "IN-035",
+    "name": "Uttarakhand",
+    "country": "IN",
+    "region": "India",
+    "domain": "uk.gov.in",
+    "osm_relation_id": 9987086
+  },
+  {
+    "id": "IN-036",
+    "name": "West Bengal",
+    "country": "IN",
+    "region": "India",
+    "domain": "wb.gov.in",
+    "osm_relation_id": 1960177
+  }
+]

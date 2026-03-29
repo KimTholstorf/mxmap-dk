@@ -7,6 +7,7 @@ from mail_sovereignty.constants import (
     TELIA_KEYWORDS,
     TET_KEYWORDS,
     ZONE_KEYWORDS,
+    ZOHO_KEYWORDS,
     MICROSOFT_KEYWORDS,
     PROVIDER_KEYWORDS,
     SMTP_BANNER_KEYWORDS,
@@ -133,6 +134,7 @@ def classify(
         ("telia", TELIA_KEYWORDS, "Telia"),
         ("tet", TET_KEYWORDS, "TET"),
         ("aws", AWS_KEYWORDS, "AWS"),
+        ("zoho", ZOHO_KEYWORDS, "Zoho"),
         ("elkdata", ELKDATA_KEYWORDS, "Elkdata"),
     ]:
         if any(k in mx_blob for k in keywords):

@@ -1,0 +1,615 @@
+[
+  {
+    "id": "NP-001",
+    "name": "Achham District",
+    "country": "NP",
+    "region": "Sudurpashchim Province",
+    "domain": "ddcachham.gov.np",
+    "osm_relation_id": 4586285
+  },
+  {
+    "id": "NP-002",
+    "name": "Arghakhanchi District",
+    "country": "NP",
+    "region": "Lumbini Province",
+    "domain": "ddcarghakhanchi.gov.np",
+    "osm_relation_id": 4589557
+  },
+  {
+    "id": "NP-003",
+    "name": "Baglung District",
+    "country": "NP",
+    "region": "Gandaki Province",
+    "domain": "ddcbaglung.gov.np",
+    "osm_relation_id": 4588144
+  },
+  {
+    "id": "NP-004",
+    "name": "Baitadi District",
+    "country": "NP",
+    "region": "Sudurpashchim Province",
+    "domain": "ddcbaitadi.gov.np",
+    "osm_relation_id": 4586293
+  },
+  {
+    "id": "NP-005",
+    "name": "Bajhang District",
+    "country": "NP",
+    "region": "Sudurpashchim Province",
+    "domain": "ddcbajhang.gov.np",
+    "osm_relation_id": 4586291
+  },
+  {
+    "id": "NP-006",
+    "name": "Bajura District",
+    "country": "NP",
+    "region": "Sudurpashchim Province",
+    "domain": "ddcbajura.gov.np",
+    "osm_relation_id": 4586292
+  },
+  {
+    "id": "NP-007",
+    "name": "Banke District",
+    "country": "NP",
+    "region": "Lumbini Province",
+    "domain": "ddcbanke.gov.np",
+    "osm_relation_id": 4586364
+  },
+  {
+    "id": "NP-008",
+    "name": "Bara District",
+    "country": "NP",
+    "region": "Madhesh Province",
+    "domain": "ddcbara.gov.np",
+    "osm_relation_id": 4589414
+  },
+  {
+    "id": "NP-009",
+    "name": "Bardiya District",
+    "country": "NP",
+    "region": "Lumbini Province",
+    "domain": "ddcbardiya.gov.np",
+    "osm_relation_id": 4586363
+  },
+  {
+    "id": "NP-010",
+    "name": "Bhaktapur District",
+    "country": "NP",
+    "region": "Bagmati Province",
+    "domain": "ddcbhaktapur.gov.np",
+    "osm_relation_id": 4583251
+  },
+  {
+    "id": "NP-011",
+    "name": "Bhojpur District",
+    "country": "NP",
+    "region": "Koshi Province",
+    "domain": "ddcbhojpur.gov.np",
+    "osm_relation_id": 4589467
+  },
+  {
+    "id": "NP-012",
+    "name": "Chitwan District",
+    "country": "NP",
+    "region": "Bagmati Province",
+    "domain": "ddcchitwan.gov.np",
+    "osm_relation_id": 4589410
+  },
+  {
+    "id": "NP-013",
+    "name": "Dadeldhura District",
+    "country": "NP",
+    "region": "Sudurpashchim Province",
+    "domain": "ddcdadeldhura.gov.np",
+    "osm_relation_id": 4586288
+  },
+  {
+    "id": "NP-014",
+    "name": "Dailekh District",
+    "country": "NP",
+    "region": "Karnali Province",
+    "domain": "ddcdailekh.gov.np",
+    "osm_relation_id": 12228031
+  },
+  {
+    "id": "NP-015",
+    "name": "Dang District",
+    "country": "NP",
+    "region": "Lumbini Province",
+    "domain": "ddcdang.gov.np",
+    "osm_relation_id": 4586360
+  },
+  {
+    "id": "NP-016",
+    "name": "Darchula District",
+    "country": "NP",
+    "region": "Sudurpashchim Province",
+    "domain": "ddcdarchula.gov.np",
+    "osm_relation_id": 4586290
+  },
+  {
+    "id": "NP-017",
+    "name": "Dhading District",
+    "country": "NP",
+    "region": "Bagmati Province",
+    "domain": "ddcdhading.gov.np",
+    "osm_relation_id": 4583249
+  },
+  {
+    "id": "NP-018",
+    "name": "Dhankuta District",
+    "country": "NP",
+    "region": "Koshi Province",
+    "domain": "ddcdhankuta.gov.np",
+    "osm_relation_id": 4589466
+  },
+  {
+    "id": "NP-019",
+    "name": "Dhanusha District",
+    "country": "NP",
+    "region": "Madhesh Province",
+    "domain": "ddcdhanusha.gov.np",
+    "osm_relation_id": 4589412
+  },
+  {
+    "id": "NP-020",
+    "name": "Dolakha District",
+    "country": "NP",
+    "region": "Bagmati Province",
+    "domain": "ddcdolakha.gov.np"
+  },
+  {
+    "id": "NP-021",
+    "name": "Dolpa District",
+    "country": "NP",
+    "region": "Karnali Province",
+    "domain": "ddcdolpa.gov.np",
+    "osm_relation_id": 4586359
+  },
+  {
+    "id": "NP-022",
+    "name": "Doti District",
+    "country": "NP",
+    "region": "Sudurpashchim Province",
+    "domain": "ddcdoti.gov.np",
+    "osm_relation_id": 4586289
+  },
+  {
+    "id": "NP-023",
+    "name": "Eastern Rukum District",
+    "country": "NP",
+    "region": "Lumbini Province",
+    "domain": ""
+  },
+  {
+    "id": "NP-024",
+    "name": "Gorkha District",
+    "country": "NP",
+    "region": "Gandaki Province",
+    "domain": "ddcgorkha.gov.np",
+    "osm_relation_id": 4588150
+  },
+  {
+    "id": "NP-025",
+    "name": "Gulmi District",
+    "country": "NP",
+    "region": "Lumbini Province",
+    "domain": "ddcgulmi.gov.np",
+    "osm_relation_id": 4589559
+  },
+  {
+    "id": "NP-026",
+    "name": "Humla District",
+    "country": "NP",
+    "region": "Karnali Province",
+    "domain": "ddchumla.gov.np",
+    "osm_relation_id": 4586370
+  },
+  {
+    "id": "NP-027",
+    "name": "Ilam District",
+    "country": "NP",
+    "region": "Koshi Province",
+    "domain": "ddcilam.gov.np",
+    "osm_relation_id": 4589476
+  },
+  {
+    "id": "NP-028",
+    "name": "Jajarkot District",
+    "country": "NP",
+    "region": "Karnali Province",
+    "domain": "ddcjajarkot.gov.np",
+    "osm_relation_id": 4586357
+  },
+  {
+    "id": "NP-029",
+    "name": "Jhapa District",
+    "country": "NP",
+    "region": "Koshi Province",
+    "domain": "ddcjhapa.gov.np",
+    "osm_relation_id": 7522458
+  },
+  {
+    "id": "NP-030",
+    "name": "Jumla District",
+    "country": "NP",
+    "region": "Karnali Province",
+    "domain": "ddcjumla.gov.np",
+    "osm_relation_id": 15588737
+  },
+  {
+    "id": "NP-031",
+    "name": "Kailali District",
+    "country": "NP",
+    "region": "Sudurpashchim Province",
+    "domain": "ddckailali.gov.np",
+    "osm_relation_id": 4586287
+  },
+  {
+    "id": "NP-032",
+    "name": "Kalikot District",
+    "country": "NP",
+    "region": "Karnali Province",
+    "domain": "ddckalikot.gov.np",
+    "osm_relation_id": 4586361
+  },
+  {
+    "id": "NP-033",
+    "name": "Kanchanpur District",
+    "country": "NP",
+    "region": "Sudurpashchim Province",
+    "domain": "ddckanchanpur.gov.np",
+    "osm_relation_id": 4586286
+  },
+  {
+    "id": "NP-034",
+    "name": "Kapilvastu District",
+    "country": "NP",
+    "region": "Lumbini Province",
+    "domain": "ddckapilvastu.gov.np",
+    "osm_relation_id": 4589558
+  },
+  {
+    "id": "NP-035",
+    "name": "Kaski District",
+    "country": "NP",
+    "region": "Gandaki Province",
+    "domain": "ddckaski.gov.np",
+    "osm_relation_id": 4588149
+  },
+  {
+    "id": "NP-036",
+    "name": "Kathmandu District",
+    "country": "NP",
+    "region": "Bagmati Province",
+    "domain": "ddcktm.gov.np",
+    "osm_relation_id": 4583247
+  },
+  {
+    "id": "NP-037",
+    "name": "Kavrepalanchok District",
+    "country": "NP",
+    "region": "Bagmati Province",
+    "domain": "",
+    "osm_relation_id": 4583248
+  },
+  {
+    "id": "NP-038",
+    "name": "Khotang District",
+    "country": "NP",
+    "region": "Koshi Province",
+    "domain": "ddckhotang.gov.np",
+    "osm_relation_id": 4589464
+  },
+  {
+    "id": "NP-039",
+    "name": "Lalitpur District",
+    "country": "NP",
+    "region": "Bagmati Province",
+    "domain": "",
+    "osm_relation_id": 4583253
+  },
+  {
+    "id": "NP-040",
+    "name": "Lamjung District",
+    "country": "NP",
+    "region": "Gandaki Province",
+    "domain": "ddclamjung.gov.np",
+    "osm_relation_id": 4588153
+  },
+  {
+    "id": "NP-041",
+    "name": "Mahottari District",
+    "country": "NP",
+    "region": "Madhesh Province",
+    "domain": "ddcmahottari.gov.np",
+    "osm_relation_id": 4589416
+  },
+  {
+    "id": "NP-042",
+    "name": "Makwanpur District",
+    "country": "NP",
+    "region": "Bagmati Province",
+    "domain": "ddcmakwanpur.gov.np",
+    "osm_relation_id": 4589415
+  },
+  {
+    "id": "NP-043",
+    "name": "Manang District",
+    "country": "NP",
+    "region": "Gandaki Province",
+    "domain": "ddcmanang.gov.np",
+    "osm_relation_id": 4588152
+  },
+  {
+    "id": "NP-044",
+    "name": "Morang District",
+    "country": "NP",
+    "region": "Koshi Province",
+    "domain": "",
+    "osm_relation_id": 4589468
+  },
+  {
+    "id": "NP-045",
+    "name": "Mugu District",
+    "country": "NP",
+    "region": "Karnali Province",
+    "domain": "ddcmugu.gov.np",
+    "osm_relation_id": 4586365
+  },
+  {
+    "id": "NP-046",
+    "name": "Mustang District",
+    "country": "NP",
+    "region": "Gandaki Zone",
+    "domain": "ddcmustang.gov.np",
+    "osm_relation_id": 4588145
+  },
+  {
+    "id": "NP-047",
+    "name": "Myagdi District",
+    "country": "NP",
+    "region": "Gandaki Province",
+    "domain": "ddcmyagdi.gov.np",
+    "osm_relation_id": 4588146
+  },
+  {
+    "id": "NP-048",
+    "name": "Nawalpur District",
+    "country": "NP",
+    "region": "Gandaki Province",
+    "domain": "",
+    "osm_relation_id": 10489606
+  },
+  {
+    "id": "NP-049",
+    "name": "Nuwakot District",
+    "country": "NP",
+    "region": "Bagmati Province",
+    "domain": "ddcnuwakot.gov.np",
+    "osm_relation_id": 4583250
+  },
+  {
+    "id": "NP-050",
+    "name": "Okhaldhunga District",
+    "country": "NP",
+    "region": "Koshi Province",
+    "domain": "ddcokhaldhunga.gov.np",
+    "osm_relation_id": 4589463
+  },
+  {
+    "id": "NP-051",
+    "name": "Palpa District",
+    "country": "NP",
+    "region": "Lumbini Province",
+    "domain": "ddcpalpa.gov.np",
+    "osm_relation_id": 4589561
+  },
+  {
+    "id": "NP-052",
+    "name": "Panchthar District",
+    "country": "NP",
+    "region": "Koshi Province",
+    "domain": "ddcpanchthar.gov.np",
+    "osm_relation_id": 4589479
+  },
+  {
+    "id": "NP-053",
+    "name": "Parasi District",
+    "country": "NP",
+    "region": "Lumbini Province",
+    "domain": ""
+  },
+  {
+    "id": "NP-054",
+    "name": "Parbat District",
+    "country": "NP",
+    "region": "Gandaki Province",
+    "domain": "ddcparbat.gov.np",
+    "osm_relation_id": 4588143
+  },
+  {
+    "id": "NP-055",
+    "name": "Parsa District",
+    "country": "NP",
+    "region": "Madhesh Province",
+    "domain": "ddcparsa.gov.np",
+    "osm_relation_id": 4589413
+  },
+  {
+    "id": "NP-056",
+    "name": "Pyuthan District",
+    "country": "NP",
+    "region": "Lumbini Province",
+    "domain": "ddcpyuthan.gov.np",
+    "osm_relation_id": 4586362
+  },
+  {
+    "id": "NP-057",
+    "name": "Ramechhap District",
+    "country": "NP",
+    "region": "Bagmati Province",
+    "domain": "ddcramechhap.gov.np",
+    "osm_relation_id": 4589417
+  },
+  {
+    "id": "NP-058",
+    "name": "Rasuwa District",
+    "country": "NP",
+    "region": "Bagmati Province",
+    "domain": "ddcrasuwa.gov.np",
+    "osm_relation_id": 4583252
+  },
+  {
+    "id": "NP-059",
+    "name": "Rautahat District",
+    "country": "NP",
+    "region": "Madhesh Province",
+    "domain": "ddcrautahat.gov.np",
+    "osm_relation_id": 4589418
+  },
+  {
+    "id": "NP-060",
+    "name": "Rolpa District",
+    "country": "NP",
+    "region": "Lumbini Province",
+    "domain": "ddcrolpa.gov.np",
+    "osm_relation_id": 4586367
+  },
+  {
+    "id": "NP-061",
+    "name": "Rupandehi District",
+    "country": "NP",
+    "region": "Lumbini Province",
+    "domain": "ddcrupandehi.gov.np",
+    "osm_relation_id": 4586049
+  },
+  {
+    "id": "NP-062",
+    "name": "Salyan District",
+    "country": "NP",
+    "region": "Karnali Province",
+    "domain": "ddcsalyan.gov.np",
+    "osm_relation_id": 4586368
+  },
+  {
+    "id": "NP-063",
+    "name": "Sankhuwasabha District",
+    "country": "NP",
+    "region": "Koshi Province",
+    "domain": "ddcsankhuwasabha.gov.np",
+    "osm_relation_id": 4589469
+  },
+  {
+    "id": "NP-064",
+    "name": "Saptari District",
+    "country": "NP",
+    "region": "Madhesh Province",
+    "domain": "ddcsaptari.gov.np",
+    "osm_relation_id": 4589470
+  },
+  {
+    "id": "NP-065",
+    "name": "Sarlahi District",
+    "country": "NP",
+    "region": "Madhesh Province",
+    "domain": "ddcsarlahi.gov.np",
+    "osm_relation_id": 4589419
+  },
+  {
+    "id": "NP-066",
+    "name": "Sindhuli District",
+    "country": "NP",
+    "region": "Bagmati Province",
+    "domain": "ddcsindhuli.gov.np",
+    "osm_relation_id": 4589420
+  },
+  {
+    "id": "NP-067",
+    "name": "Sindhupalchowk District",
+    "country": "NP",
+    "region": "Bagmati Province",
+    "domain": "ddcsindhupalchowk.gov.np",
+    "osm_relation_id": 4583254
+  },
+  {
+    "id": "NP-068",
+    "name": "Siraha District",
+    "country": "NP",
+    "region": "Madhesh Province",
+    "domain": "ddcsiraha.gov.np",
+    "osm_relation_id": 4589471
+  },
+  {
+    "id": "NP-069",
+    "name": "Solukhumbu District",
+    "country": "NP",
+    "region": "Koshi Province",
+    "domain": "ddcsolukhumbu.gov.np",
+    "osm_relation_id": 4589473
+  },
+  {
+    "id": "NP-070",
+    "name": "Sunsari District",
+    "country": "NP",
+    "region": "Koshi Province",
+    "domain": "ddcsunsari.gov.np",
+    "osm_relation_id": 4589472
+  },
+  {
+    "id": "NP-071",
+    "name": "Surkhet District",
+    "country": "NP",
+    "region": "Karnali Province",
+    "domain": "",
+    "osm_relation_id": 4586369
+  },
+  {
+    "id": "NP-072",
+    "name": "Syangja District",
+    "country": "NP",
+    "region": "Gandaki Province",
+    "domain": "ddcsyangja.gov.np",
+    "osm_relation_id": 5691338
+  },
+  {
+    "id": "NP-073",
+    "name": "Tanahun District",
+    "country": "NP",
+    "region": "Gandaki Province",
+    "domain": "ddctanahun.gov.np",
+    "osm_relation_id": 4588151
+  },
+  {
+    "id": "NP-074",
+    "name": "Taplejung District",
+    "country": "NP",
+    "region": "Koshi Province",
+    "domain": "ddctaplejung.gov.np",
+    "osm_relation_id": 4589478
+  },
+  {
+    "id": "NP-075",
+    "name": "Tehrathum District",
+    "country": "NP",
+    "region": "Koshi Province",
+    "domain": "dcctehrathum.gov.np",
+    "osm_relation_id": 4589465
+  },
+  {
+    "id": "NP-076",
+    "name": "Udayapur District",
+    "country": "NP",
+    "region": "Koshi Province",
+    "domain": "ddcudayapur.gov.np",
+    "osm_relation_id": 4589462
+  },
+  {
+    "id": "NP-077",
+    "name": "Western Rukum District",
+    "country": "NP",
+    "region": "Karnali Province",
+    "domain": "",
+    "osm_relation_id": 10493724
+  }
+]

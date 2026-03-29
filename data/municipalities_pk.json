@@ -1,0 +1,34 @@
+[
+  {
+    "id": "PK-001",
+    "name": "Balochistan",
+    "country": "PK",
+    "region": "Pakistan",
+    "domain": "balochistan.gov.pk",
+    "osm_relation_id": 357968
+  },
+  {
+    "id": "PK-002",
+    "name": "Khyber Pakhtunkhwa",
+    "country": "PK",
+    "region": "Pakistan",
+    "domain": "kp.gov.pk",
+    "osm_relation_id": 3780131
+  },
+  {
+    "id": "PK-003",
+    "name": "Punjab",
+    "country": "PK",
+    "region": "Pakistan",
+    "domain": "punjab.gov.pk",
+    "osm_relation_id": 357988
+  },
+  {
+    "id": "PK-004",
+    "name": "Sindh",
+    "country": "PK",
+    "region": "Pakistan",
+    "domain": "sindh.gov.pk",
+    "osm_relation_id": 357981
+  }
+]
