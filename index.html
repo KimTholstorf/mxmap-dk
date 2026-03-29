@@ -713,6 +713,12 @@ function buildPopup(m) {
       `but mailboxes hosted by <strong>${escapeHtml(cls.provider)}</strong> (US)</div>`;
   }
 
+  let tenantNote = '';
+  if (m.tenant) {
+    tenantNote = `<div style="margin-top:6px;padding:5px 8px;background:#ede7f6;border-left:3px solid #7e57c2;font-size:11px;color:#4a148c">` +
+      `MS365 tenant: <strong>${escapeHtml(m.tenant)}</strong></div>`;
+  }
+
   let smtpSoftwareNote = '';
   if (m.smtp_software) {
     const swName = {'microsoft': 'Microsoft Exchange', 'google': 'Google', 'zone': 'Zone'}[m.smtp_software] || m.smtp_software;
@@ -726,7 +732,7 @@ function buildPopup(m) {
     (hasLocalGateway(m) ? ' <span title="Local gateway" style="font-size:13px">\u{1F6E1}\uFE0F</span>' : '') +
     `<br><span style="font-size:11px;color:#888">${m.region ? escapeHtml(m.region) + ' \u00b7 ' : ''}${m.country}</span>` +
     (cls.reason ? `<div style="margin-top:4px;font-size:11px;color:#666;font-style:italic">${escapeHtml(cls.reason)}</div>` : '') +
-    gatewayNote + smtpSoftwareNote + mxSection + spfSection + autodiscoverSection + dkimSection + txtVerifSection +
+    gatewayNote + tenantNote + smtpSoftwareNote + mxSection + spfSection + autodiscoverSection + dkimSection + txtVerifSection +
     `</div>`;
 }
 
@@ -1238,6 +1244,7 @@ async function loadData() {
       m.dkim = d.dkim || null;
       m.autodiscover = d.autodiscover || null;
       m.txt_verifications = d.txt_verifications || null;
+      m.tenant = d.tenant || null;
       m.smtp_software = d.smtp_software || null;
       m.classification.mx_records = (d.mx || []).map(function (host, i) {
         return { priority: (i + 1) * 10, host: host };

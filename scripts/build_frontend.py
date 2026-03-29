@@ -41,6 +41,7 @@ DETAIL_FIELDS = {
     "autodiscover",
     "dkim",
     "txt_verifications",
+    "tenant",
     "smtp_software",
 }
 
