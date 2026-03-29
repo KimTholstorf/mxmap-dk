@@ -94,21 +94,25 @@
     display: flex; flex-direction: column; align-items: flex-end; gap: 6px;
   }
   .country-filters {
-    display: flex; flex-direction: column; align-items: flex-end; gap: 2px;
+    display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 2px;
+    max-width: 520px;
+    background: rgba(255,255,255,0.92); border-radius: 6px;
+    padding: 4px 6px; box-shadow: 0 1px 4px rgba(0,0,0,0.1);
   }
   .region-group {
-    display: flex; align-items: center; gap: 3px;
+    display: flex; align-items: center; gap: 2px;
   }
   .region-label {
-    font-size: 10px; color: #888; font-weight: 600; text-transform: uppercase;
-    letter-spacing: 0.3px; margin-right: 2px; cursor: pointer; user-select: none;
-    background: none; border: none; padding: 2px 4px;
+    font-size: 9px; color: #888; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.3px; cursor: pointer; user-select: none;
+    background: none; border: none; padding: 1px 3px;
+    white-space: nowrap;
   }
   .region-label:hover { color: #333; }
   .country-btn {
-    background: white; border: 2px solid #ddd; border-radius: 4px;
-    padding: 2px 8px; cursor: pointer; font-size: 11px; font-weight: 600;
-    transition: all 0.15s; box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    background: white; border: 1.5px solid #ccc; border-radius: 3px;
+    padding: 1px 5px; cursor: pointer; font-size: 10px; font-weight: 600;
+    transition: all 0.15s; line-height: 1.4;
   }
   .country-btn.active { border-color: #333; background: #333; color: white; }
   .country-btn:hover { border-color: #999; }
@@ -161,8 +165,9 @@
     .legend.legend-collapsed .legend-content { display: none; }
     .legend.legend-collapsed { padding: 8px 12px; }
     .map-controls { top: 6px; right: 6px; }
-    .country-btn { padding: 2px 6px; font-size: 10px; }
-    .region-label { font-size: 9px; }
+    .country-filters { max-width: 300px; }
+    .country-btn { padding: 1px 4px; font-size: 9px; }
+    .region-label { font-size: 8px; }
     .level-btn { padding: 4px 10px; font-size: 11px; }
   }
 </style>
