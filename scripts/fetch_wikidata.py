@@ -628,10 +628,10 @@ SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
 }
 ORDER BY ?itemLabel
 """,
-    # Oman: Q641078 (governorate) — 11 governorates
+    # Oman: Q3250615 (wilayat) — ~63 wilayats
     "OM": """
 SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
-  ?item wdt:P31 wd:Q641078 .
+  ?item wdt:P31 wd:Q3250615 .
   ?item wdt:P17 wd:Q842 .
   OPTIONAL { ?item wdt:P856 ?website }
   OPTIONAL { ?item wdt:P402 ?osmId }
