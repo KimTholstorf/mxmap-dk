@@ -409,6 +409,21 @@
       "fi_municipality.topo.json": 76731
     }
   },
+  "FJ": {
+    "levels": [
+      "region",
+      "district",
+      "municipality"
+    ],
+    "files": {
+      "region": "fj_municipality.topo.json",
+      "district": "fj_municipality.topo.json",
+      "municipality": "fj_municipality.topo.json"
+    },
+    "sizes": {
+      "fj_municipality.topo.json": 26329
+    }
+  },
   "FR": {
     "levels": [
       "region",
@@ -871,6 +886,21 @@
     "sizes": {
       "pt_region.topo.json": 78675,
       "pt_municipality.topo.json": 406581
+    }
+  },
+  "PW": {
+    "levels": [
+      "region",
+      "district",
+      "municipality"
+    ],
+    "files": {
+      "region": "pw_municipality.topo.json",
+      "district": "pw_municipality.topo.json",
+      "municipality": "pw_municipality.topo.json"
+    },
+    "sizes": {
+      "pw_municipality.topo.json": 9225
     }
   },
   "QA": {
