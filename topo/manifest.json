@@ -673,6 +673,21 @@
       "mk_municipality.topo.json": 131090
     }
   },
+  "MM": {
+    "levels": [
+      "region",
+      "district",
+      "municipality"
+    ],
+    "files": {
+      "region": "mm_municipality.topo.json",
+      "district": "mm_municipality.topo.json",
+      "municipality": "mm_municipality.topo.json"
+    },
+    "sizes": {
+      "mm_municipality.topo.json": 209260
+    }
+  },
   "MT": {
     "levels": [
       "region",
@@ -950,6 +965,21 @@
     "sizes": {
       "ua_region.topo.json": 92759,
       "ua_municipality.topo.json": 303916
+    }
+  },
+  "VN": {
+    "levels": [
+      "region",
+      "district",
+      "municipality"
+    ],
+    "files": {
+      "region": "vn_municipality.topo.json",
+      "district": "vn_municipality.topo.json",
+      "municipality": "vn_municipality.topo.json"
+    },
+    "sizes": {
+      "vn_municipality.topo.json": 338487
     }
   },
   "XK": {
