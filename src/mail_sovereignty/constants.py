@@ -171,7 +171,7 @@ SUBPAGES = [
 GATEWAY_KEYWORDS = {
     "seppmail": ["seppmail.cloud", "seppmail.com"],
     "barracuda": ["barracudanetworks.com", "barracuda.com"],
-    "trendmicro": ["tmes.trendmicro.eu", "tmes.trendmicro.com", "trendmicro.eu"],
+    "trendmicro": ["tmes.trendmicro.eu", "tmes.trendmicro.com", "trendmicro.eu", "trendmicro.com"],
     "hornetsecurity": ["hornetsecurity.com"],
     "proofpoint": ["ppe-hosted.com", "pphosted.com"],
     "sophos": ["hydra.sophos.com"],
@@ -192,6 +192,9 @@ GATEWAY_KEYWORDS = {
     "mailspamprotection": ["mailspamprotection.com"],
     "mailguard": ["mailguard.com.au"],
     "mimecast": ["mimecast.com"],
+    "smxemail": ["smxemail.com"],
+    "securemx": ["securemx.biz"],
+    "cloudflare-email": ["mx.cloudflare.net"],
     "antispameurope": ["antispameurope.com"],
     "retarus": ["retarus.com"],
     "psmanaged": ["psmanaged.com"],
@@ -601,9 +604,17 @@ LOCAL_ISP_ASNS: dict[int, str] = {
     # Moldova
     28990: "Molddata (MD)",  # mx0.spamcloud.md
     # Australia
+    1221: "Telstra (AU)",
     9290: "GoHosting (AU)",
+    132321: "NT Government (AU)",
+    10080: "Interconnect Networks (AU)",
+    4764: "Aussie Broadband (AU)",
     # New Zealand
     4648: "Spark NZ (NZ)",
+    2570: "Spark NZ (NZ)",
+    9790: "Two Degrees (NZ)",
+    # Pacific
+    2764: "AAPT/PeaceSat (Pacific)",
     # Indonesia
     132634: "KOMINFO e-Gov (ID)",  # Government shared mail (mail.go.id)
     45313: "Pemda NAD (ID)",  # Aceh provincial government
