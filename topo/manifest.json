@@ -229,6 +229,22 @@
       "bo_municipality.topo.json": 325223
     }
   },
+  "BR": {
+    "levels": [
+      "region",
+      "district",
+      "municipality"
+    ],
+    "files": {
+      "region": "br_region.topo.json",
+      "district": "br_municipality.topo.json",
+      "municipality": "br_municipality.topo.json"
+    },
+    "sizes": {
+      "br_municipality.topo.json": 7845609,
+      "br_region.topo.json": 513691
+    }
+  },
   "BY": {
     "files": {
       "district": "by_municipality.topo.json",
@@ -1183,7 +1199,7 @@
       "municipality": "pe_municipality.topo.json"
     },
     "sizes": {
-      "pe_municipality.topo.json": 558689
+      "pe_municipality.topo.json": 595251
     }
   },
   "PG": {
