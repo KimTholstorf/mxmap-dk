@@ -148,6 +148,162 @@ SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
 }
 ORDER BY ?itemLabel
 """,
+    # Argentina: Q15284 (municipality) filtered to AR — ~1,554
+    "AR": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q15284 .
+  ?item wdt:P17 wd:Q414 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,es" }
+}
+ORDER BY ?itemLabel
+""",
+    # Bolivia: Q1062710 (municipality of Bolivia) — ~340
+    "BO": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q1062710 .
+  ?item wdt:P17 wd:Q750 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,es" }
+}
+ORDER BY ?itemLabel
+""",
+    # Brazil: Q3184121 (municipality of Brazil) — ~5,570
+    "BR": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q3184121 .
+  ?item wdt:P17 wd:Q155 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,pt" }
+}
+ORDER BY ?itemLabel
+""",
+    # Chile: Q1840161 (commune of Chile) — ~346
+    "CL": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q1840161 .
+  ?item wdt:P17 wd:Q298 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,es" }
+}
+ORDER BY ?itemLabel
+""",
+    # Colombia: Q2555896 (municipality of Colombia) — ~1,100
+    "CO": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q2555896 .
+  ?item wdt:P17 wd:Q739 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,es" }
+}
+ORDER BY ?itemLabel
+""",
+    # Ecuador: Q1724017 (canton of Ecuador) — ~222
+    "EC": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q1724017 .
+  ?item wdt:P17 wd:Q736 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,es" }
+}
+ORDER BY ?itemLabel
+""",
+    # Guyana: Q2087773 (region of Guyana) — ~10
+    "GY": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q2087773 .
+  ?item wdt:P17 wd:Q734 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?itemLabel
+""",
+    # Peru: Q2179958 (district of Peru) — ~1,892
+    "PE": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q2179958 .
+  ?item wdt:P17 wd:Q419 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,es" }
+}
+ORDER BY ?itemLabel
+""",
+    # Paraguay: Q917092 (municipality of Paraguay) — ~267
+    "PY": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q917092 .
+  ?item wdt:P17 wd:Q733 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,es" }
+}
+ORDER BY ?itemLabel
+""",
+    # Suriname: Q1539014 (ressort of Suriname) — ~64
+    "SR": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q1539014 .
+  ?item wdt:P17 wd:Q730 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,nl" }
+}
+ORDER BY ?itemLabel
+""",
+    # Uruguay: Q56059 (department of Uruguay) — ~19
+    "UY": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q56059 .
+  ?item wdt:P17 wd:Q77 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,es" }
+}
+ORDER BY ?itemLabel
+""",
+    # Venezuela: Q3327920 (municipality of Venezuela) — ~352
+    "VE": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q3327920 .
+  ?item wdt:P17 wd:Q717 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,es" }
+}
+ORDER BY ?itemLabel
+""",
 }
 
 

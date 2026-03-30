@@ -1,0 +1,1710 @@
+[
+  {
+    "id": "EC-001",
+    "name": "Aguarico Canton",
+    "country": "EC",
+    "region": "Orellana Province",
+    "domain": "aguarico.gob.ec",
+    "osm_relation_id": 114241
+  },
+  {
+    "id": "EC-002",
+    "name": "Alausí Canton",
+    "country": "EC",
+    "region": "Chimborazo Province",
+    "domain": "alausi.gob.ec",
+    "osm_relation_id": 108862
+  },
+  {
+    "id": "EC-003",
+    "name": "Alfredo Baquerizo Moreno Canton",
+    "country": "EC",
+    "region": "Guayas Province",
+    "domain": "gadmunicipaljujan.gob.ec",
+    "osm_relation_id": 109459
+  },
+  {
+    "id": "EC-004",
+    "name": "Ambato Canton",
+    "country": "EC",
+    "region": "Tungurahua Province",
+    "domain": "ambato.gob.ec",
+    "osm_relation_id": 113433
+  },
+  {
+    "id": "EC-005",
+    "name": "Antonio Ante Canton",
+    "country": "EC",
+    "region": "Imbabura Province",
+    "domain": "antonioante.gob.ec",
+    "osm_relation_id": 113985
+  },
+  {
+    "id": "EC-006",
+    "name": "Arajuno Canton",
+    "country": "EC",
+    "region": "Pastaza Province",
+    "domain": "arajuno.gob.ec",
+    "osm_relation_id": 113867
+  },
+  {
+    "id": "EC-007",
+    "name": "Archidona Canton",
+    "country": "EC",
+    "region": "Napo Province",
+    "domain": "archidona.gob.ec",
+    "osm_relation_id": 114273
+  },
+  {
+    "id": "EC-008",
+    "name": "Arenillas Canton",
+    "country": "EC",
+    "region": "El Oro Province",
+    "domain": "",
+    "osm_relation_id": 108015
+  },
+  {
+    "id": "EC-009",
+    "name": "Atacames Canton",
+    "country": "EC",
+    "region": "Esmeraldas Province",
+    "domain": "municipiodeatacames.gob.ec",
+    "osm_relation_id": 113238
+  },
+  {
+    "id": "EC-010",
+    "name": "Atahualpa Cantón",
+    "country": "EC",
+    "region": "El Oro Province",
+    "domain": ""
+  },
+  {
+    "id": "EC-011",
+    "name": "Azogues Canton",
+    "country": "EC",
+    "region": "Cañar Province",
+    "domain": "",
+    "osm_relation_id": 108718
+  },
+  {
+    "id": "EC-012",
+    "name": "Baba Canton",
+    "country": "EC",
+    "region": "Los Ríos Province",
+    "domain": "gadmunicipalbaba.gob.ec",
+    "osm_relation_id": 109251
+  },
+  {
+    "id": "EC-013",
+    "name": "Babahoyo Canton",
+    "country": "EC",
+    "region": "Los Ríos Province",
+    "domain": "babahoyo.gob.ec",
+    "osm_relation_id": 109250
+  },
+  {
+    "id": "EC-014",
+    "name": "Balao Canton",
+    "country": "EC",
+    "region": "Guayas Province",
+    "domain": "municipiodebalao.gob.ec",
+    "osm_relation_id": 109445
+  },
+  {
+    "id": "EC-015",
+    "name": "Balsas Canton",
+    "country": "EC",
+    "region": "El Oro Province",
+    "domain": "",
+    "osm_relation_id": 108042
+  },
+  {
+    "id": "EC-016",
+    "name": "Balzar Canton",
+    "country": "EC",
+    "region": "Guayas Province",
+    "domain": "gadmbalzar.gob.ec",
+    "osm_relation_id": 109449
+  },
+  {
+    "id": "EC-017",
+    "name": "Baños Canton",
+    "country": "EC",
+    "region": "Tungurahua Province",
+    "domain": "municipiobanos.gob.ec",
+    "osm_relation_id": 3824006
+  },
+  {
+    "id": "EC-018",
+    "name": "Biblián Canton",
+    "country": "EC",
+    "region": "Cañar Province",
+    "domain": "",
+    "osm_relation_id": 108716
+  },
+  {
+    "id": "EC-019",
+    "name": "Bolívar Canton",
+    "country": "EC",
+    "region": "Manabí Province",
+    "domain": "gadbolivar.gob.ec",
+    "osm_relation_id": 112900
+  },
+  {
+    "id": "EC-020",
+    "name": "Bolívar Canton",
+    "country": "EC",
+    "region": "Carchi Province",
+    "domain": "municipiobolivar.gob.ec",
+    "osm_relation_id": 114042
+  },
+  {
+    "id": "EC-021",
+    "name": "Buena Fé Canton",
+    "country": "EC",
+    "region": "Los Ríos Province",
+    "domain": "buenafe.gob.ec",
+    "osm_relation_id": 3747811
+  },
+  {
+    "id": "EC-022",
+    "name": "Calvas Canton",
+    "country": "EC",
+    "region": "Loja Province",
+    "domain": "",
+    "osm_relation_id": 108119
+  },
+  {
+    "id": "EC-023",
+    "name": "Camilo Ponce Enríquez Canton",
+    "country": "EC",
+    "region": "Azuay Province",
+    "domain": "",
+    "osm_relation_id": 2674970
+  },
+  {
+    "id": "EC-024",
+    "name": "Canton Caluma",
+    "country": "EC",
+    "region": "Bolívar Province",
+    "domain": "caluma.gob.ec",
+    "osm_relation_id": 108903
+  },
+  {
+    "id": "EC-025",
+    "name": "Canton Echeandia",
+    "country": "EC",
+    "region": "Bolívar Province",
+    "domain": "echeandia.gob.ec",
+    "osm_relation_id": 108904
+  },
+  {
+    "id": "EC-026",
+    "name": "Canton Las Naves",
+    "country": "EC",
+    "region": "Bolívar Province",
+    "domain": "lasnaves.gob.ec",
+    "osm_relation_id": 108905
+  },
+  {
+    "id": "EC-027",
+    "name": "Cantón Limón Indanza",
+    "country": "EC",
+    "region": "Morona-Santiago Province",
+    "domain": "",
+    "osm_relation_id": 108524
+  },
+  {
+    "id": "EC-028",
+    "name": "Carlos Julio Arosemena Tola Canton",
+    "country": "EC",
+    "region": "Napo Province",
+    "domain": "gadarosemenatola.gob.ec",
+    "osm_relation_id": 114271
+  },
+  {
+    "id": "EC-029",
+    "name": "Cascales Canton",
+    "country": "EC",
+    "region": "Sucumbíos Province",
+    "domain": "cascales.gob.ec",
+    "osm_relation_id": 114563
+  },
+  {
+    "id": "EC-030",
+    "name": "Catamayo Canton",
+    "country": "EC",
+    "region": "Loja Province",
+    "domain": "gadmunicipaldecatamayo.gob.ec",
+    "osm_relation_id": 108271
+  },
+  {
+    "id": "EC-031",
+    "name": "Cayambe Canton",
+    "country": "EC",
+    "region": "Pichincha Province",
+    "domain": "municipiocayambe.gob.ec",
+    "osm_relation_id": 113716
+  },
+  {
+    "id": "EC-032",
+    "name": "Cañar Canton",
+    "country": "EC",
+    "region": "Cañar Province",
+    "domain": "canar.gob.ec",
+    "osm_relation_id": 919715
+  },
+  {
+    "id": "EC-033",
+    "name": "Celica Canton",
+    "country": "EC",
+    "region": "Loja Province",
+    "domain": "",
+    "osm_relation_id": 108103
+  },
+  {
+    "id": "EC-034",
+    "name": "Centinela del Cóndor Canton",
+    "country": "EC",
+    "region": "Zamora Chinchipe",
+    "domain": "",
+    "osm_relation_id": 108331
+  },
+  {
+    "id": "EC-035",
+    "name": "Cevallos Canton",
+    "country": "EC",
+    "region": "Tungurahua Province",
+    "domain": "cevallos.gob.ec"
+  },
+  {
+    "id": "EC-036",
+    "name": "Chaguarpamba Canton",
+    "country": "EC",
+    "region": "Loja Province",
+    "domain": "",
+    "osm_relation_id": 108205
+  },
+  {
+    "id": "EC-037",
+    "name": "Chambo Canton",
+    "country": "EC",
+    "region": "Chimborazo Province",
+    "domain": "gobiernodechambo.gob.ec",
+    "osm_relation_id": 108866
+  },
+  {
+    "id": "EC-038",
+    "name": "Chilla Canton",
+    "country": "EC",
+    "region": "El Oro Province",
+    "domain": "",
+    "osm_relation_id": 107890
+  },
+  {
+    "id": "EC-039",
+    "name": "Chillanes Canton",
+    "country": "EC",
+    "region": "Bolívar Province",
+    "domain": "chillanes.gob.ec",
+    "osm_relation_id": 108900
+  },
+  {
+    "id": "EC-040",
+    "name": "Chimbo Canton",
+    "country": "EC",
+    "region": "Bolívar Province",
+    "domain": "gadchimbo.gob.ec",
+    "osm_relation_id": 3728204
+  },
+  {
+    "id": "EC-041",
+    "name": "Chinchipe Canton",
+    "country": "EC",
+    "region": "Zamora Chinchipe",
+    "domain": "",
+    "osm_relation_id": 108327
+  },
+  {
+    "id": "EC-042",
+    "name": "Chone Canton",
+    "country": "EC",
+    "region": "Manabí Province",
+    "domain": "chone.gob.ec",
+    "osm_relation_id": 112904
+  },
+  {
+    "id": "EC-043",
+    "name": "Chordeleg Canton",
+    "country": "EC",
+    "region": "Azuay Province",
+    "domain": "chordeleg.gob.ec",
+    "osm_relation_id": 107291
+  },
+  {
+    "id": "EC-044",
+    "name": "Chunchi Canton",
+    "country": "EC",
+    "region": "Chimborazo Province",
+    "domain": "",
+    "osm_relation_id": 108859
+  },
+  {
+    "id": "EC-045",
+    "name": "Colimes Canton",
+    "country": "EC",
+    "region": "Guayas Province",
+    "domain": "gadcolimes.gob.ec",
+    "osm_relation_id": 109464
+  },
+  {
+    "id": "EC-046",
+    "name": "Colta Canton",
+    "country": "EC",
+    "region": "Chimborazo Province",
+    "domain": "gadcolta.gob.ec",
+    "osm_relation_id": 108865
+  },
+  {
+    "id": "EC-047",
+    "name": "Coronel Marcelino Maridueña Canton",
+    "country": "EC",
+    "region": "Guayas Province",
+    "domain": "municipiommariduena.gob.ec",
+    "osm_relation_id": 109456
+  },
+  {
+    "id": "EC-048",
+    "name": "Cotacachi Canton",
+    "country": "EC",
+    "region": "Imbabura Province",
+    "domain": "cotacachi.gob.ec",
+    "osm_relation_id": 1779682
+  },
+  {
+    "id": "EC-049",
+    "name": "Cuenca Canton",
+    "country": "EC",
+    "region": "Azuay Province",
+    "domain": "cuenca.gob.ec",
+    "osm_relation_id": 107724
+  },
+  {
+    "id": "EC-050",
+    "name": "Cumandá Canton",
+    "country": "EC",
+    "region": "Chimborazo Province",
+    "domain": "",
+    "osm_relation_id": 108861
+  },
+  {
+    "id": "EC-051",
+    "name": "Cuyabeno Canton",
+    "country": "EC",
+    "region": "Sucumbíos Province",
+    "domain": "cuyabeno.gob.ec",
+    "osm_relation_id": 114567
+  },
+  {
+    "id": "EC-052",
+    "name": "Daule Canton",
+    "country": "EC",
+    "region": "Guayas Province",
+    "domain": "daule.gob.ec",
+    "osm_relation_id": 109447
+  },
+  {
+    "id": "EC-053",
+    "name": "Durán Canton",
+    "country": "EC",
+    "region": "Guayas Province",
+    "domain": "duran.gob.ec",
+    "osm_relation_id": 109455
+  },
+  {
+    "id": "EC-054",
+    "name": "Déleg Canton",
+    "country": "EC",
+    "region": "Cañar Province",
+    "domain": "",
+    "osm_relation_id": 108717
+  },
+  {
+    "id": "EC-055",
+    "name": "El Carmen Cantón",
+    "country": "EC",
+    "region": "Manabí Province",
+    "domain": "elcarmen.gob.ec",
+    "osm_relation_id": 112906
+  },
+  {
+    "id": "EC-056",
+    "name": "El Chaco Canton",
+    "country": "EC",
+    "region": "Napo Province",
+    "domain": "gadmunicipalelchaco.gob.ec",
+    "osm_relation_id": 114275
+  },
+  {
+    "id": "EC-057",
+    "name": "El Empalme Canton",
+    "country": "EC",
+    "region": "Guayas Province",
+    "domain": "",
+    "osm_relation_id": 109453
+  },
+  {
+    "id": "EC-058",
+    "name": "El Guabo Canton",
+    "country": "EC",
+    "region": "El Oro Province",
+    "domain": "elguabo.gob.ec",
+    "osm_relation_id": 107888
+  },
+  {
+    "id": "EC-059",
+    "name": "El Pan Canton",
+    "country": "EC",
+    "region": "Azuay Province",
+    "domain": "",
+    "osm_relation_id": 107286
+  },
+  {
+    "id": "EC-060",
+    "name": "El Pangui Canton",
+    "country": "EC",
+    "region": "Zamora Chinchipe",
+    "domain": "",
+    "osm_relation_id": 108336
+  },
+  {
+    "id": "EC-061",
+    "name": "El Tambo Canton",
+    "country": "EC",
+    "region": "Cañar Province",
+    "domain": "",
+    "osm_relation_id": 108715
+  },
+  {
+    "id": "EC-062",
+    "name": "El Triunfo",
+    "country": "EC",
+    "region": "Guayas Province",
+    "domain": "el-triunfo.gob.ec",
+    "osm_relation_id": 285105
+  },
+  {
+    "id": "EC-063",
+    "name": "Eloy Alfaro Canton",
+    "country": "EC",
+    "region": "Esmeraldas Province",
+    "domain": "alcaldiaeloyalfaro.gob.ec",
+    "osm_relation_id": 2675277
+  },
+  {
+    "id": "EC-064",
+    "name": "Esmeraldas Canton",
+    "country": "EC",
+    "region": "Esmeraldas Province",
+    "domain": "esmeraldas.gob.ec"
+  },
+  {
+    "id": "EC-065",
+    "name": "Espejo Canton",
+    "country": "EC",
+    "region": "Carchi Province",
+    "domain": "gadme.gob.ec",
+    "osm_relation_id": 114047
+  },
+  {
+    "id": "EC-066",
+    "name": "Espíndola Canton",
+    "country": "EC",
+    "region": "Loja Province",
+    "domain": "",
+    "osm_relation_id": 108120
+  },
+  {
+    "id": "EC-067",
+    "name": "Flavio Alfaro Canton",
+    "country": "EC",
+    "region": "Manabí Province",
+    "domain": "flavioalfaro.gob.ec",
+    "osm_relation_id": 112909
+  },
+  {
+    "id": "EC-068",
+    "name": "Francisco de Orellana Canton",
+    "country": "EC",
+    "region": "Orellana Province",
+    "domain": "orellana.gob.ec",
+    "osm_relation_id": 114242
+  },
+  {
+    "id": "EC-069",
+    "name": "General Antonio Elizalde Canton",
+    "country": "EC",
+    "region": "Guayas Province",
+    "domain": "municipiobucay.gob.ec",
+    "osm_relation_id": 109457
+  },
+  {
+    "id": "EC-070",
+    "name": "Girón Canton",
+    "country": "EC",
+    "region": "Azuay Province",
+    "domain": "",
+    "osm_relation_id": 107303
+  },
+  {
+    "id": "EC-071",
+    "name": "Gonzalo Pizarro Canton",
+    "country": "EC",
+    "region": "Sucumbíos Province",
+    "domain": "gonzalopizarro.gob.ec",
+    "osm_relation_id": 114562
+  },
+  {
+    "id": "EC-072",
+    "name": "Gonzanamá Canton",
+    "country": "EC",
+    "region": "Loja Province",
+    "domain": "gonzanama.gob.ec",
+    "osm_relation_id": 108296
+  },
+  {
+    "id": "EC-073",
+    "name": "Guachapala Canton",
+    "country": "EC",
+    "region": "Azuay Province",
+    "domain": "",
+    "osm_relation_id": 107287
+  },
+  {
+    "id": "EC-074",
+    "name": "Gualaceo Canton",
+    "country": "EC",
+    "region": "Azuay Province",
+    "domain": "gualaceo.gob.ec",
+    "osm_relation_id": 107289
+  },
+  {
+    "id": "EC-075",
+    "name": "Gualaquiza Canton",
+    "country": "EC",
+    "region": "Morona-Santiago Province",
+    "domain": "",
+    "osm_relation_id": 108522
+  },
+  {
+    "id": "EC-076",
+    "name": "Guamote Canton",
+    "country": "EC",
+    "region": "Chimborazo Province",
+    "domain": "municipiodeguamote.gob.ec",
+    "osm_relation_id": 108864
+  },
+  {
+    "id": "EC-077",
+    "name": "Guano Canton",
+    "country": "EC",
+    "region": "Chimborazo Province",
+    "domain": "",
+    "osm_relation_id": 108868
+  },
+  {
+    "id": "EC-078",
+    "name": "Guaranda Canton",
+    "country": "EC",
+    "region": "Bolívar Province",
+    "domain": "guaranda.gob.ec",
+    "osm_relation_id": 108906
+  },
+  {
+    "id": "EC-079",
+    "name": "Guayaquil",
+    "country": "EC",
+    "region": "Guayas Province",
+    "domain": "guayaquil.gob.ec",
+    "osm_relation_id": 109443
+  },
+  {
+    "id": "EC-080",
+    "name": "Huamboya Canton",
+    "country": "EC",
+    "region": "Morona-Santiago Province",
+    "domain": ""
+  },
+  {
+    "id": "EC-081",
+    "name": "Huaquillas Canton",
+    "country": "EC",
+    "region": "El Oro Province",
+    "domain": "",
+    "osm_relation_id": 107900
+  },
+  {
+    "id": "EC-082",
+    "name": "Ibarra Canton",
+    "country": "EC",
+    "region": "Imbabura Province",
+    "domain": "ibarra.gob.ec",
+    "osm_relation_id": 113983
+  },
+  {
+    "id": "EC-083",
+    "name": "Isabela Canton",
+    "country": "EC",
+    "region": "Galápagos Province",
+    "domain": ""
+  },
+  {
+    "id": "EC-084",
+    "name": "Isidro Ayora Canton",
+    "country": "EC",
+    "region": "Guayas Province",
+    "domain": "isidroayora.gob.ec",
+    "osm_relation_id": 1768491
+  },
+  {
+    "id": "EC-085",
+    "name": "Jama Canton",
+    "country": "EC",
+    "region": "Manabí Province",
+    "domain": "jama.gob.ec",
+    "osm_relation_id": 286820
+  },
+  {
+    "id": "EC-086",
+    "name": "Jaramijó Canton",
+    "country": "EC",
+    "region": "Manabí Province",
+    "domain": "",
+    "osm_relation_id": 286801
+  },
+  {
+    "id": "EC-087",
+    "name": "Jipijapa Canton",
+    "country": "EC",
+    "region": "Manabí Province",
+    "domain": "jipijapa.gob.ec",
+    "osm_relation_id": 281843
+  },
+  {
+    "id": "EC-088",
+    "name": "Junín Canton",
+    "country": "EC",
+    "region": "Manabí Province",
+    "domain": "junin.gob.ec",
+    "osm_relation_id": 112899
+  },
+  {
+    "id": "EC-089",
+    "name": "La Concordia Canton",
+    "country": "EC",
+    "region": "Santo Domingo de los Tsáchilas Province",
+    "domain": "laconcordia.gob.ec",
+    "osm_relation_id": 288325
+  },
+  {
+    "id": "EC-090",
+    "name": "La Joya de los Sachas Canton",
+    "country": "EC",
+    "region": "Orellana Province",
+    "domain": "gadjoyasachas.gob.ec",
+    "osm_relation_id": 114243
+  },
+  {
+    "id": "EC-091",
+    "name": "La Libertad Canton",
+    "country": "EC",
+    "region": "Santa Elena Province",
+    "domain": "lalibertad.gob.ec"
+  },
+  {
+    "id": "EC-092",
+    "name": "La Maná Canton",
+    "country": "EC",
+    "region": "Cotopaxi Province",
+    "domain": "lamana.gob.ec",
+    "osm_relation_id": 113403
+  },
+  {
+    "id": "EC-093",
+    "name": "La Troncal Canton",
+    "country": "EC",
+    "region": "Cañar Province",
+    "domain": "",
+    "osm_relation_id": 108713
+  },
+  {
+    "id": "EC-094",
+    "name": "Lago Agrio Canton",
+    "country": "EC",
+    "region": "Sucumbíos Province",
+    "domain": "lagoagrio.gob.ec",
+    "osm_relation_id": 114564
+  },
+  {
+    "id": "EC-095",
+    "name": "Las Lajas Canton",
+    "country": "EC",
+    "region": "El Oro Province",
+    "domain": "",
+    "osm_relation_id": 108044
+  },
+  {
+    "id": "EC-096",
+    "name": "Latacunga Canton",
+    "country": "EC",
+    "region": "Cotopaxi Province",
+    "domain": "latacunga.gob.ec",
+    "osm_relation_id": 113400
+  },
+  {
+    "id": "EC-097",
+    "name": "Logroño Canton",
+    "country": "EC",
+    "region": "Morona-Santiago Province",
+    "domain": "",
+    "osm_relation_id": 108528
+  },
+  {
+    "id": "EC-098",
+    "name": "Loja Canton",
+    "country": "EC",
+    "region": "Loja Province",
+    "domain": "",
+    "osm_relation_id": 108289
+  },
+  {
+    "id": "EC-099",
+    "name": "Lomas de Sargentillo Canton",
+    "country": "EC",
+    "region": "Guayas Province",
+    "domain": "lomasdesargentillo.gob.ec",
+    "osm_relation_id": 109461
+  },
+  {
+    "id": "EC-100",
+    "name": "Loreto Canton",
+    "country": "EC",
+    "region": "Orellana Province",
+    "domain": "loreto.gob.ec",
+    "osm_relation_id": 114244
+  },
+  {
+    "id": "EC-101",
+    "name": "Los Bancos Canton",
+    "country": "EC",
+    "region": "Pichincha Province",
+    "domain": "gadmsmb.gob.ec",
+    "osm_relation_id": 113717
+  },
+  {
+    "id": "EC-102",
+    "name": "Macará Canton",
+    "country": "EC",
+    "region": "Loja Province",
+    "domain": "",
+    "osm_relation_id": 108104
+  },
+  {
+    "id": "EC-103",
+    "name": "Machala Canton",
+    "country": "EC",
+    "region": "El Oro Province",
+    "domain": "machala.gob.ec",
+    "osm_relation_id": 107889
+  },
+  {
+    "id": "EC-104",
+    "name": "Manta Canton",
+    "country": "EC",
+    "region": "Manabí Province",
+    "domain": "manta.gob.ec",
+    "osm_relation_id": 112895
+  },
+  {
+    "id": "EC-105",
+    "name": "Marcabelí Canton",
+    "country": "EC",
+    "region": "El Oro Province",
+    "domain": "",
+    "osm_relation_id": 108043
+  },
+  {
+    "id": "EC-106",
+    "name": "Mejía Canton",
+    "country": "EC",
+    "region": "Pichincha Province",
+    "domain": "municipiodemejia.gob.ec"
+  },
+  {
+    "id": "EC-107",
+    "name": "Mera Canton",
+    "country": "EC",
+    "region": "Pastaza Province",
+    "domain": "municipiomera.gob.ec",
+    "osm_relation_id": 113865
+  },
+  {
+    "id": "EC-108",
+    "name": "Milagro Canton",
+    "country": "EC",
+    "region": "Guayas Province",
+    "domain": "milagro.gob.ec",
+    "osm_relation_id": 109450
+  },
+  {
+    "id": "EC-109",
+    "name": "Mira Canton",
+    "country": "EC",
+    "region": "Carchi Province",
+    "domain": "mira.gob.ec",
+    "osm_relation_id": 114046
+  },
+  {
+    "id": "EC-110",
+    "name": "Mocache Canton",
+    "country": "EC",
+    "region": "Los Ríos Province",
+    "domain": "mocache.gob.ec",
+    "osm_relation_id": 109256
+  },
+  {
+    "id": "EC-111",
+    "name": "Mocha Canton",
+    "country": "EC",
+    "region": "Tungurahua Province",
+    "domain": "municipiomocha.gob.ec",
+    "osm_relation_id": 2676918
+  },
+  {
+    "id": "EC-112",
+    "name": "Montalvo Canton",
+    "country": "EC",
+    "region": "Los Ríos Province",
+    "domain": "montalvo.gob.ec",
+    "osm_relation_id": 109249
+  },
+  {
+    "id": "EC-113",
+    "name": "Montecristi Canton",
+    "country": "EC",
+    "region": "Manabí Province",
+    "domain": "montecristi.gob.ec",
+    "osm_relation_id": 112894
+  },
+  {
+    "id": "EC-114",
+    "name": "Montúfar Canton",
+    "country": "EC",
+    "region": "Carchi Province",
+    "domain": "gadmontufar.gob.ec",
+    "osm_relation_id": 114043
+  },
+  {
+    "id": "EC-115",
+    "name": "Morona Canton",
+    "country": "EC",
+    "region": "Morona-Santiago Province",
+    "domain": "",
+    "osm_relation_id": 108529
+  },
+  {
+    "id": "EC-116",
+    "name": "Muisne Canton",
+    "country": "EC",
+    "region": "Esmeraldas Province",
+    "domain": "gadmuisne.gob.ec",
+    "osm_relation_id": 113236
+  },
+  {
+    "id": "EC-117",
+    "name": "Nabón Canton",
+    "country": "EC",
+    "region": "Azuay Province",
+    "domain": "nabon.gob.ec",
+    "osm_relation_id": 107296
+  },
+  {
+    "id": "EC-118",
+    "name": "Nangaritza Canton",
+    "country": "EC",
+    "region": "Zamora Chinchipe",
+    "domain": "nangaritza.gob.ec",
+    "osm_relation_id": 108329
+  },
+  {
+    "id": "EC-119",
+    "name": "Naranjal Canton",
+    "country": "EC",
+    "region": "Guayas Province",
+    "domain": "naranjal.gob.ec",
+    "osm_relation_id": 965884
+  },
+  {
+    "id": "EC-120",
+    "name": "Naranjito Canton",
+    "country": "EC",
+    "region": "Guayas Province",
+    "domain": "naranjito.gob.ec",
+    "osm_relation_id": 109454
+  },
+  {
+    "id": "EC-121",
+    "name": "Nobol Canton",
+    "country": "EC",
+    "region": "Guayas Province",
+    "domain": "nobol.gob.ec",
+    "osm_relation_id": 109460
+  },
+  {
+    "id": "EC-122",
+    "name": "Olmedo Canton",
+    "country": "EC",
+    "region": "Manabí Province",
+    "domain": "olmedo.gob.ec",
+    "osm_relation_id": 286794
+  },
+  {
+    "id": "EC-123",
+    "name": "Olmedo Canton",
+    "country": "EC",
+    "region": "Loja Province",
+    "domain": "",
+    "osm_relation_id": 108265
+  },
+  {
+    "id": "EC-124",
+    "name": "Otavalo Canton",
+    "country": "EC",
+    "region": "Imbabura Province",
+    "domain": "otavalo.gob.ec",
+    "osm_relation_id": 113981
+  },
+  {
+    "id": "EC-125",
+    "name": "Oña Canton",
+    "country": "EC",
+    "region": "Azuay Province",
+    "domain": "",
+    "osm_relation_id": 107299
+  },
+  {
+    "id": "EC-126",
+    "name": "Pablo Sexto Canton",
+    "country": "EC",
+    "region": "Morona-Santiago Province",
+    "domain": ""
+  },
+  {
+    "id": "EC-127",
+    "name": "Paján Canton",
+    "country": "EC",
+    "region": "Manabí Province",
+    "domain": "pajan.gob.ec",
+    "osm_relation_id": 112890
+  },
+  {
+    "id": "EC-128",
+    "name": "Palanda Canton",
+    "country": "EC",
+    "region": "Zamora Chinchipe",
+    "domain": "",
+    "osm_relation_id": 108328
+  },
+  {
+    "id": "EC-129",
+    "name": "Palenque Canton",
+    "country": "EC",
+    "region": "Los Ríos Province",
+    "domain": "palenque.gob.ec",
+    "osm_relation_id": 109254
+  },
+  {
+    "id": "EC-130",
+    "name": "Palestina Canton",
+    "country": "EC",
+    "region": "Guayas Province",
+    "domain": "",
+    "osm_relation_id": 109465
+  },
+  {
+    "id": "EC-131",
+    "name": "Pallatanga Canton",
+    "country": "EC",
+    "region": "Chimborazo Province",
+    "domain": "",
+    "osm_relation_id": 108863
+  },
+  {
+    "id": "EC-132",
+    "name": "Palora Canton",
+    "country": "EC",
+    "region": "Morona-Santiago Province",
+    "domain": "",
+    "osm_relation_id": 108531
+  },
+  {
+    "id": "EC-133",
+    "name": "Paltas Canton",
+    "country": "EC",
+    "region": "Loja Province",
+    "domain": "",
+    "osm_relation_id": 108209
+  },
+  {
+    "id": "EC-134",
+    "name": "Pangua Canton",
+    "country": "EC",
+    "region": "Cotopaxi Province",
+    "domain": "pangua.gob.ec",
+    "osm_relation_id": 113397
+  },
+  {
+    "id": "EC-135",
+    "name": "Paquisha Canton",
+    "country": "EC",
+    "region": "Zamora Chinchipe",
+    "domain": "",
+    "osm_relation_id": 108332
+  },
+  {
+    "id": "EC-136",
+    "name": "Pasaje Canton",
+    "country": "EC",
+    "region": "El Oro Province",
+    "domain": "",
+    "osm_relation_id": 107885
+  },
+  {
+    "id": "EC-137",
+    "name": "Pastaza Canton",
+    "country": "EC",
+    "region": "Pastaza Province",
+    "domain": "puyo.gob.ec"
+  },
+  {
+    "id": "EC-138",
+    "name": "Patate Canton",
+    "country": "EC",
+    "region": "Tungurahua Province",
+    "domain": "patate.gob.ec",
+    "osm_relation_id": 113439
+  },
+  {
+    "id": "EC-139",
+    "name": "Paute Canton",
+    "country": "EC",
+    "region": "Azuay Province",
+    "domain": "",
+    "osm_relation_id": 107288
+  },
+  {
+    "id": "EC-140",
+    "name": "Pedernales Canton",
+    "country": "EC",
+    "region": "Manabí Province",
+    "domain": "pedernales.gob.ec",
+    "osm_relation_id": 112908
+  },
+  {
+    "id": "EC-141",
+    "name": "Pedro Carbo Canton",
+    "country": "EC",
+    "region": "Guayas Province",
+    "domain": "",
+    "osm_relation_id": 109463
+  },
+  {
+    "id": "EC-142",
+    "name": "Pedro Moncayo Canton",
+    "country": "EC",
+    "region": "Pichincha Province",
+    "domain": "pedromoncayo.gob.ec",
+    "osm_relation_id": 113715
+  },
+  {
+    "id": "EC-143",
+    "name": "Pedro Vicente Maldonado Canton",
+    "country": "EC",
+    "region": "Pichincha Province",
+    "domain": "pedrovicentemaldonado.gob.ec",
+    "osm_relation_id": 113718
+  },
+  {
+    "id": "EC-144",
+    "name": "Pelileo Canton",
+    "country": "EC",
+    "region": "Tungurahua Province",
+    "domain": "pelileo.gob.ec",
+    "osm_relation_id": 113438
+  },
+  {
+    "id": "EC-145",
+    "name": "Penipe Canton",
+    "country": "EC",
+    "region": "Chimborazo Province",
+    "domain": "",
+    "osm_relation_id": 2675164
+  },
+  {
+    "id": "EC-146",
+    "name": "Pichincha Canton",
+    "country": "EC",
+    "region": "Manabí Province",
+    "domain": "municipiopichincha.gob.ec",
+    "osm_relation_id": 112901
+  },
+  {
+    "id": "EC-147",
+    "name": "Pimampiro Canton",
+    "country": "EC",
+    "region": "Imbabura Province",
+    "domain": "pimampiro.gob.ec",
+    "osm_relation_id": 113984
+  },
+  {
+    "id": "EC-148",
+    "name": "Pindal Canton",
+    "country": "EC",
+    "region": "Loja Province",
+    "domain": "",
+    "osm_relation_id": 108105
+  },
+  {
+    "id": "EC-149",
+    "name": "Piñas Canton",
+    "country": "EC",
+    "region": "El Oro Province",
+    "domain": "",
+    "osm_relation_id": 108041
+  },
+  {
+    "id": "EC-150",
+    "name": "Playas Canton",
+    "country": "EC",
+    "region": "Guayas Province",
+    "domain": "municipioplayas.gob.ec",
+    "osm_relation_id": 109442
+  },
+  {
+    "id": "EC-151",
+    "name": "Portovelo Canton",
+    "country": "EC",
+    "region": "El Oro Province",
+    "domain": "",
+    "osm_relation_id": 108009
+  },
+  {
+    "id": "EC-152",
+    "name": "Portoviejo Canton",
+    "country": "EC",
+    "region": "Manabí Province",
+    "domain": "portoviejo.gob.ec",
+    "osm_relation_id": 112897
+  },
+  {
+    "id": "EC-153",
+    "name": "Pucará Canton",
+    "country": "EC",
+    "region": "Azuay Province",
+    "domain": "gadmpucara.gob.ec",
+    "osm_relation_id": 107362
+  },
+  {
+    "id": "EC-154",
+    "name": "Puebloviejo Cantón",
+    "country": "EC",
+    "region": "Los Ríos Province",
+    "domain": "gadpuebloviejo.gob.ec",
+    "osm_relation_id": 109253
+  },
+  {
+    "id": "EC-155",
+    "name": "Puerto López Canton",
+    "country": "EC",
+    "region": "Manabí Province",
+    "domain": "puertolopez.gob.ec",
+    "osm_relation_id": 112888
+  },
+  {
+    "id": "EC-156",
+    "name": "Puerto Quito Canton",
+    "country": "EC",
+    "region": "Pichincha Province",
+    "domain": "puertoquito.gob.ec",
+    "osm_relation_id": 113719
+  },
+  {
+    "id": "EC-157",
+    "name": "Pujilí Canton",
+    "country": "EC",
+    "region": "Cotopaxi Province",
+    "domain": "municipiopujili.gob.ec",
+    "osm_relation_id": 113398
+  },
+  {
+    "id": "EC-158",
+    "name": "Putumayo Canton",
+    "country": "EC",
+    "region": "Sucumbíos Province",
+    "domain": "putumayo.gob.ec",
+    "osm_relation_id": 114566
+  },
+  {
+    "id": "EC-159",
+    "name": "Puyango Canton",
+    "country": "EC",
+    "region": "Loja Province",
+    "domain": "",
+    "osm_relation_id": 108075
+  },
+  {
+    "id": "EC-160",
+    "name": "Píllaro Canton",
+    "country": "EC",
+    "region": "Tungurahua Province",
+    "domain": "pillaro.gob.ec"
+  },
+  {
+    "id": "EC-161",
+    "name": "Riobamba Canton",
+    "country": "EC",
+    "region": "Chimborazo Province",
+    "domain": "gadmriobamba.gob.ec",
+    "osm_relation_id": 108867
+  },
+  {
+    "id": "EC-162",
+    "name": "Rioverde Canton",
+    "country": "EC",
+    "region": "Esmeraldas Province",
+    "domain": "rioverde.gob.ec",
+    "osm_relation_id": 113241
+  },
+  {
+    "id": "EC-163",
+    "name": "Rocafuerte Canton",
+    "country": "EC",
+    "region": "Manabí Province",
+    "domain": "",
+    "osm_relation_id": 112898
+  },
+  {
+    "id": "EC-164",
+    "name": "Rumiñahui Canton",
+    "country": "EC",
+    "region": "Pichincha Province",
+    "domain": "ruminahui.gob.ec"
+  },
+  {
+    "id": "EC-165",
+    "name": "Salcedo Canton",
+    "country": "EC",
+    "region": "Cotopaxi Province",
+    "domain": "salcedo.gob.ec",
+    "osm_relation_id": 113399
+  },
+  {
+    "id": "EC-166",
+    "name": "Salinas Canton",
+    "country": "EC",
+    "region": "Santa Elena Province",
+    "domain": "salinas.gob.ec",
+    "osm_relation_id": 109438
+  },
+  {
+    "id": "EC-167",
+    "name": "Salitre Canton",
+    "country": "EC",
+    "region": "Guayas Province",
+    "domain": "salitre.gob.ec",
+    "osm_relation_id": 109452
+  },
+  {
+    "id": "EC-168",
+    "name": "Samborondón Canton",
+    "country": "EC",
+    "region": "Guayas Province",
+    "domain": "",
+    "osm_relation_id": 109451
+  },
+  {
+    "id": "EC-169",
+    "name": "San Cristóbal Canton",
+    "country": "EC",
+    "region": "Galápagos Province",
+    "domain": "",
+    "osm_relation_id": 2677049
+  },
+  {
+    "id": "EC-170",
+    "name": "San Fernando Canton",
+    "country": "EC",
+    "region": "Azuay Province",
+    "domain": "sanfernando.gob.ec",
+    "osm_relation_id": 107347
+  },
+  {
+    "id": "EC-171",
+    "name": "San Juan Bosco Canton",
+    "country": "EC",
+    "region": "Morona-Santiago Province",
+    "domain": "",
+    "osm_relation_id": 108523
+  },
+  {
+    "id": "EC-172",
+    "name": "San Lorenzo Canton",
+    "country": "EC",
+    "region": "Esmeraldas Province",
+    "domain": "municipiosanlorenzo.gob.ec",
+    "osm_relation_id": 2675459
+  },
+  {
+    "id": "EC-173",
+    "name": "San Miguel Canton",
+    "country": "EC",
+    "region": "Bolívar Province",
+    "domain": "sanmigueldebolivar.gob.ec",
+    "osm_relation_id": 108901
+  },
+  {
+    "id": "EC-174",
+    "name": "San Pedro de Huaca Canton",
+    "country": "EC",
+    "region": "Carchi Province",
+    "domain": "huaca.gob.ec",
+    "osm_relation_id": 114044
+  },
+  {
+    "id": "EC-175",
+    "name": "San Vicente Canton",
+    "country": "EC",
+    "region": "Manabí Province",
+    "domain": "sanvicente.gob.ec",
+    "osm_relation_id": 112905
+  },
+  {
+    "id": "EC-176",
+    "name": "Santa Ana Canton",
+    "country": "EC",
+    "region": "Manabí Province",
+    "domain": "santaana.gob.ec",
+    "osm_relation_id": 112893
+  },
+  {
+    "id": "EC-177",
+    "name": "Santa Clara Canton",
+    "country": "EC",
+    "region": "Pastaza Province",
+    "domain": "",
+    "osm_relation_id": 113866
+  },
+  {
+    "id": "EC-178",
+    "name": "Santa Cruz Canton",
+    "country": "EC",
+    "region": "Galápagos Province",
+    "domain": "",
+    "osm_relation_id": 2677050
+  },
+  {
+    "id": "EC-179",
+    "name": "Santa Elena Canton",
+    "country": "EC",
+    "region": "Santa Elena Province",
+    "domain": "gadse.gob.ec",
+    "osm_relation_id": 109440
+  },
+  {
+    "id": "EC-180",
+    "name": "Santa Isabel Canton",
+    "country": "EC",
+    "region": "Azuay Province",
+    "domain": "",
+    "osm_relation_id": 107343
+  },
+  {
+    "id": "EC-181",
+    "name": "Santa Lucía Canton",
+    "country": "EC",
+    "region": "Guayas Province",
+    "domain": "",
+    "osm_relation_id": 109466
+  },
+  {
+    "id": "EC-182",
+    "name": "Santa Rosa Canton",
+    "country": "EC",
+    "region": "El Oro Province",
+    "domain": "",
+    "osm_relation_id": 107901
+  },
+  {
+    "id": "EC-183",
+    "name": "Santiago de Méndez Canton",
+    "country": "EC",
+    "region": "Morona-Santiago Province",
+    "domain": ""
+  },
+  {
+    "id": "EC-184",
+    "name": "Santo Domingo Canton",
+    "country": "EC",
+    "region": "Santo Domingo de los Tsáchilas Province",
+    "domain": "santodomingo.gob.ec",
+    "osm_relation_id": 8009485
+  },
+  {
+    "id": "EC-185",
+    "name": "Saquisilí Canton",
+    "country": "EC",
+    "region": "Cotopaxi Province",
+    "domain": "saquisili.gob.ec",
+    "osm_relation_id": 562970
+  },
+  {
+    "id": "EC-186",
+    "name": "Saraguro Canton",
+    "country": "EC",
+    "region": "Loja Province",
+    "domain": "saraguro.gob.ec",
+    "osm_relation_id": 108298
+  },
+  {
+    "id": "EC-187",
+    "name": "Sevilla Don Bosco Canton",
+    "country": "EC",
+    "region": "Morona-Santiago Province",
+    "domain": "",
+    "osm_relation_id": 3722571
+  },
+  {
+    "id": "EC-188",
+    "name": "Sevilla de Oro Canton",
+    "country": "EC",
+    "region": "Azuay Province",
+    "domain": "",
+    "osm_relation_id": 107275
+  },
+  {
+    "id": "EC-189",
+    "name": "Shushufindi Canton",
+    "country": "EC",
+    "region": "Sucumbíos Province",
+    "domain": "shushufindi.gob.ec",
+    "osm_relation_id": 114565
+  },
+  {
+    "id": "EC-190",
+    "name": "Sigchos Canton",
+    "country": "EC",
+    "region": "Cotopaxi Province",
+    "domain": "gadmsigchos.gob.ec",
+    "osm_relation_id": 113402
+  },
+  {
+    "id": "EC-191",
+    "name": "Simón Bolívar Canton",
+    "country": "EC",
+    "region": "Guayas Province",
+    "domain": "",
+    "osm_relation_id": 109458
+  },
+  {
+    "id": "EC-192",
+    "name": "Sozoranga Canton",
+    "country": "EC",
+    "region": "Loja Province",
+    "domain": "sozoranga.gob.ec",
+    "osm_relation_id": 108118
+  },
+  {
+    "id": "EC-193",
+    "name": "Sucre Canton",
+    "country": "EC",
+    "region": "Manabí Province",
+    "domain": "sucre.gob.ec",
+    "osm_relation_id": 112902
+  },
+  {
+    "id": "EC-194",
+    "name": "Sucumbíos Canton",
+    "country": "EC",
+    "region": "Sucumbíos Province",
+    "domain": "gadmsucumbios.gob.ec",
+    "osm_relation_id": 114561
+  },
+  {
+    "id": "EC-195",
+    "name": "Sucúa Canton",
+    "country": "EC",
+    "region": "Morona-Santiago Province",
+    "domain": "",
+    "osm_relation_id": 108527
+  },
+  {
+    "id": "EC-196",
+    "name": "Suscal Canton",
+    "country": "EC",
+    "region": "Cañar Province",
+    "domain": "",
+    "osm_relation_id": 108714
+  },
+  {
+    "id": "EC-197",
+    "name": "Sígsig Canton",
+    "country": "EC",
+    "region": "Azuay Province",
+    "domain": "sigsig.gob.ec",
+    "osm_relation_id": 107292
+  },
+  {
+    "id": "EC-198",
+    "name": "Taisha Canton",
+    "country": "EC",
+    "region": "Morona-Santiago Province",
+    "domain": "",
+    "osm_relation_id": 3718294
+  },
+  {
+    "id": "EC-199",
+    "name": "Tena Canton",
+    "country": "EC",
+    "region": "Napo Province",
+    "domain": "tena.gob.ec",
+    "osm_relation_id": 114272
+  },
+  {
+    "id": "EC-200",
+    "name": "Tisaleo Canton",
+    "country": "EC",
+    "region": "Tungurahua Province",
+    "domain": "tisaleo.gob.ec",
+    "osm_relation_id": 113434
+  },
+  {
+    "id": "EC-201",
+    "name": "Tiwintza Canton",
+    "country": "EC",
+    "region": "Morona-Santiago Province",
+    "domain": "",
+    "osm_relation_id": 108525
+  },
+  {
+    "id": "EC-202",
+    "name": "Tosagua Canton",
+    "country": "EC",
+    "region": "Manabí Province",
+    "domain": "tosagua.gob.ec",
+    "osm_relation_id": 112903
+  },
+  {
+    "id": "EC-203",
+    "name": "Tulcán Canton",
+    "country": "EC",
+    "region": "Carchi Province",
+    "domain": "gmtulcan.gob.ec",
+    "osm_relation_id": 114045
+  },
+  {
+    "id": "EC-204",
+    "name": "Urcuqui Canton",
+    "country": "EC",
+    "region": "Imbabura Province",
+    "domain": "",
+    "osm_relation_id": 113986
+  },
+  {
+    "id": "EC-205",
+    "name": "Urdaneta Canton",
+    "country": "EC",
+    "region": "Los Ríos Province",
+    "domain": "urdaneta.gob.ec",
+    "osm_relation_id": 3747812
+  },
+  {
+    "id": "EC-206",
+    "name": "Valencia Canton",
+    "country": "EC",
+    "region": "Los Ríos Province",
+    "domain": "valencia.gob.ec",
+    "osm_relation_id": 109259
+  },
+  {
+    "id": "EC-207",
+    "name": "Veinticuatro de Mayo Canton",
+    "country": "EC",
+    "region": "Manabí Province",
+    "domain": "24demayo.gob.ec",
+    "osm_relation_id": 112892
+  },
+  {
+    "id": "EC-208",
+    "name": "Ventanas Canton",
+    "country": "EC",
+    "region": "Los Ríos Province",
+    "domain": "ventanas.gob.ec",
+    "osm_relation_id": 109258
+  },
+  {
+    "id": "EC-209",
+    "name": "Vinces Canton",
+    "country": "EC",
+    "region": "Los Ríos Province",
+    "domain": "vinces.gob.ec",
+    "osm_relation_id": 109255
+  },
+  {
+    "id": "EC-210",
+    "name": "Yacuambi Canton",
+    "country": "EC",
+    "region": "Zamora Chinchipe",
+    "domain": "",
+    "osm_relation_id": 108334
+  },
+  {
+    "id": "EC-211",
+    "name": "Yaguachi Canton",
+    "country": "EC",
+    "region": "Guayas Province",
+    "domain": "municipiodeyaguachi.gob.ec",
+    "osm_relation_id": 109448
+  },
+  {
+    "id": "EC-212",
+    "name": "Yantzaza Canton",
+    "country": "EC",
+    "region": "Zamora Chinchipe",
+    "domain": "",
+    "osm_relation_id": 108335
+  },
+  {
+    "id": "EC-213",
+    "name": "Zamora Canton",
+    "country": "EC",
+    "region": "Zamora Chinchipe",
+    "domain": "",
+    "osm_relation_id": 108330
+  },
+  {
+    "id": "EC-214",
+    "name": "Zapotillo Canton",
+    "country": "EC",
+    "region": "Loja Province",
+    "domain": "",
+    "osm_relation_id": 108087
+  },
+  {
+    "id": "EC-215",
+    "name": "Zaruma Canton",
+    "country": "EC",
+    "region": "El Oro Province",
+    "domain": "",
+    "osm_relation_id": 108003
+  }
+]

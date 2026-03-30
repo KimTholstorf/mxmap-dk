@@ -102,6 +102,19 @@ COUNTRY_CONFIG = {
     "KW": {"admin_level": 4, "iso": "KW", "name": "Kuwait"},
     "IR": {"admin_level": 4, "iso": "IR", "name": "Iran"},
     "IL": {"admin_level": 4, "iso": "IL", "name": "Israel"},
+    # South America
+    "AR": {"admin_level": 6, "iso": "AR", "name": "Argentina"},
+    "BO": {"admin_level": 6, "iso": "BO", "name": "Bolivia"},
+    "BR": {"admin_level": 8, "iso": "BR", "name": "Brazil"},
+    "CL": {"admin_level": 8, "iso": "CL", "name": "Chile"},
+    "CO": {"admin_level": 6, "iso": "CO", "name": "Colombia"},
+    "EC": {"admin_level": 6, "iso": "EC", "name": "Ecuador"},
+    "GY": {"admin_level": 4, "iso": "GY", "name": "Guyana"},
+    "PE": {"admin_level": 6, "iso": "PE", "name": "Peru"},
+    "PY": {"admin_level": 6, "iso": "PY", "name": "Paraguay"},
+    "SR": {"admin_level": 4, "iso": "SR", "name": "Suriname"},
+    "UY": {"admin_level": 4, "iso": "UY", "name": "Uruguay"},
+    "VE": {"admin_level": 6, "iso": "VE", "name": "Venezuela"},
 }
 
 
@@ -416,6 +429,32 @@ LARGE_COUNTRY_STATES = {
         "09": 3777290, "10": 3873457, "11": 3936842, "12": 3851570,
         "13": 3870502, "15": 1552190, "40": 1552120, "41": 1552261,
         "BARMM": 3821409,
+    },
+    "AR": {
+        "A": 2405230, "B": 1632167, "C": 1224652, "D": 153538,
+        "E": 153551, "F": 153536, "G": 153544, "H": 153554,
+        "J": 153539, "K": 153545, "L": 153541, "M": 153540,
+        "N": 153553, "P": 2849847, "Q": 1606727, "R": 153547,
+        "S": 153543, "T": 153558, "U": 153548, "V": 153550,
+        "W": 153552, "X": 3592494, "Y": 153556, "Z": 153549,
+    },
+    "BR": {
+        "AC": 326266, "AL": 303781, "AM": 332476, "AP": 331463,
+        "BA": 362413, "CE": 302635, "DF": 421151, "ES": 54882,
+        "GO": 334443, "MA": 332924, "MG": 315173, "MS": 334051,
+        "MT": 333597, "PA": 185579, "PB": 301464, "PE": 303702,
+        "PI": 302819, "PR": 297640, "RJ": 57963, "RN": 301079,
+        "RO": 325866, "RR": 326287, "RS": 242620, "SC": 296584,
+        "SE": 303940, "SP": 298204, "TO": 336819,
+    },
+    "PE": {
+        "AMA": 1973462, "ANC": 1953170, "APU": 1929522, "ARE": 1879287,
+        "AYA": 1930901, "CAJ": 1896111, "CAL": 1944657, "CUS": 1923695,
+        "HUC": 1954493, "HUV": 1933551, "ICA": 1899013, "JUN": 1948258,
+        "LAL": 1967959, "LAM": 1969722, "LIM": 1944659, "LMA": 1944670,
+        "LOR": 1994077, "MDD": 1891287, "MOQ": 1875889, "PAS": 1948452,
+        "PIU": 1986151, "PUN": 1907899, "SAM": 1971661, "TAC": 1874307,
+        "TUM": 1986974, "UCA": 1921996,
     },
 }
 

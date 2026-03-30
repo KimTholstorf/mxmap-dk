@@ -111,6 +111,28 @@ SKIP_DOMAINS = {
     "gov.kh",
     "gov.ph",
     "kommune.no",
+    # South America
+    "example.ar",
+    "example.bo",
+    "example.br",
+    "example.cl",
+    "example.co",
+    "example.ec",
+    "example.gy",
+    "example.pe",
+    "example.py",
+    "example.sr",
+    "example.uy",
+    "example.ve",
+    "gob.ar",
+    "gov.br",
+    "gob.cl",
+    "gov.co",
+    "gob.ec",
+    "gob.pe",
+    "gov.py",
+    "gub.uy",
+    "gob.ve",
     "sentry.io",
     "w3.org",
     "gstatic.com",
@@ -168,6 +190,12 @@ SUBPAGES = [
     "/despre-noi",  # Romanian: "About us"
     "/kontakt",  # Bosnian/Montenegrin: "Contact" (same as Croatian)
     "/kontakti",  # Albanian: "Contacts"
+    # South America (Spanish/Portuguese)
+    "/contactenos",  # Spanish: "Contact us"
+    "/contato",  # Brazilian Portuguese: "Contact"
+    "/fale-conosco",  # Brazilian Portuguese: "Talk to us"
+    "/alcaldia",  # Spanish: "Mayor's office"
+    "/transparencia",  # Spanish/Portuguese: "Transparency"
 ]
 
 GATEWAY_KEYWORDS = {

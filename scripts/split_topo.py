@@ -124,6 +124,19 @@ COUNTRIES = [
     "KW",
     "IR",
     "IL",
+    # South America
+    "AR",
+    "BO",
+    "BR",
+    "CL",
+    "CO",
+    "EC",
+    "GY",
+    "PE",
+    "PY",
+    "SR",
+    "UY",
+    "VE",
 ]
 
 # Which conceptual level maps to which file level per country.
@@ -270,6 +283,19 @@ LEVEL_MAP = {
     "KW": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     "IR": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     "IL": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    # South America
+    "AR": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "BO": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "BR": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "CL": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "CO": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "EC": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "GY": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "PE": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "PY": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "SR": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "UY": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "VE": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
 }
 
 

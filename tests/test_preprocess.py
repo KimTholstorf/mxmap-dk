@@ -182,7 +182,7 @@ class TestLoadSeedData:
     def test_loads_all_countries(self):
         data = load_seed_data()
         countries = {m.get("country") for m in data.values()}
-        assert countries >= {"EE", "LV", "LT", "FI", "NO", "SE", "DE", "DK", "IE", "NL", "SK", "GB", "BG", "HR", "CY", "GR", "HU", "MT", "RO", "AL", "XK", "ME", "BA", "RS", "MK", "UA", "MD", "LI", "SM", "GE", "AM", "AZ", "BY", "TR", "AU", "NZ", "ID", "PG", "MY", "TH", "KH", "PH", "VN", "MM", "OM", "AE", "QA", "BH", "FJ", "WS", "VU", "TO", "NR", "PW", "JP", "TW", "KR", "KP", "CN", "MN", "IN", "BD", "PK", "LK", "NP", "LA", "BN", "TL", "KZ", "UZ", "KG", "SA", "IQ", "JO", "LB", "KW", "IR", "IL"}
+        assert countries >= {"EE", "LV", "LT", "FI", "NO", "SE", "DE", "DK", "IE", "NL", "SK", "GB", "BG", "HR", "CY", "GR", "HU", "MT", "RO", "AL", "XK", "ME", "BA", "RS", "MK", "UA", "MD", "LI", "SM", "GE", "AM", "AZ", "BY", "TR", "AU", "NZ", "ID", "PG", "MY", "TH", "KH", "PH", "VN", "MM", "OM", "AE", "QA", "BH", "FJ", "WS", "VU", "TO", "NR", "PW", "JP", "TW", "KR", "KP", "CN", "MN", "IN", "BD", "PK", "LK", "NP", "LA", "BN", "TL", "KZ", "UZ", "KG", "SA", "IQ", "JO", "LB", "KW", "IR", "IL", "AR", "BO", "BR", "CL", "CO", "EC", "GY", "PE", "PY", "SR", "UY", "VE"}
 
     def test_minimum_count(self):
         data = load_seed_data()

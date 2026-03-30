@@ -1,0 +1,2617 @@
+[
+  {
+    "id": "BO-001",
+    "name": "Acasio",
+    "country": "BO",
+    "region": "Potosí Department",
+    "domain": "",
+    "osm_relation_id": 4123549
+  },
+  {
+    "id": "BO-002",
+    "name": "Achacachi Municipality",
+    "country": "BO",
+    "region": "Omasuyos Province",
+    "domain": "achacachi.gob.bo",
+    "osm_relation_id": 4500356
+  },
+  {
+    "id": "BO-003",
+    "name": "Achocalla Municipality",
+    "country": "BO",
+    "region": "Murillo Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-004",
+    "name": "Aiquile Municipality",
+    "country": "BO",
+    "region": "Narciso Campero Province",
+    "domain": "",
+    "osm_relation_id": 4506120
+  },
+  {
+    "id": "BO-005",
+    "name": "Alalay Municipality",
+    "country": "BO",
+    "region": "Mizque Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-006",
+    "name": "Alto Beni Municipality",
+    "country": "BO",
+    "region": "Caranavi Province",
+    "domain": "",
+    "osm_relation_id": 4499791
+  },
+  {
+    "id": "BO-007",
+    "name": "Ancoraimes Municipality",
+    "country": "BO",
+    "region": "Omasuyos Province",
+    "domain": "",
+    "osm_relation_id": 4500357
+  },
+  {
+    "id": "BO-008",
+    "name": "Andamarca",
+    "country": "BO",
+    "region": "Sud Carangas Province",
+    "domain": "",
+    "osm_relation_id": 4495027
+  },
+  {
+    "id": "BO-009",
+    "name": "Antequera",
+    "country": "BO",
+    "region": "Poopó Province",
+    "domain": "",
+    "osm_relation_id": 4495077
+  },
+  {
+    "id": "BO-010",
+    "name": "Anzaldo Municipality",
+    "country": "BO",
+    "region": "Esteban Arce Province",
+    "domain": "",
+    "osm_relation_id": 4505759
+  },
+  {
+    "id": "BO-011",
+    "name": "Apolo Municipality",
+    "country": "BO",
+    "region": "Franz Tamayo Province",
+    "domain": "",
+    "osm_relation_id": 4499594
+  },
+  {
+    "id": "BO-012",
+    "name": "Arampampa",
+    "country": "BO",
+    "region": "Potosí Department",
+    "domain": "",
+    "osm_relation_id": 4123465
+  },
+  {
+    "id": "BO-013",
+    "name": "Arani Municipality",
+    "country": "BO",
+    "region": "Arani Province",
+    "domain": "",
+    "osm_relation_id": 4505812
+  },
+  {
+    "id": "BO-014",
+    "name": "Arbieto Municipality",
+    "country": "BO",
+    "region": "Esteban Arce Province",
+    "domain": "",
+    "osm_relation_id": 4505763
+  },
+  {
+    "id": "BO-015",
+    "name": "Arque Municipality",
+    "country": "BO",
+    "region": "Arque Province",
+    "domain": "",
+    "osm_relation_id": 4505715
+  },
+  {
+    "id": "BO-016",
+    "name": "Ascencion de Guarayos Municipality",
+    "country": "BO",
+    "region": "Guarayos Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-017",
+    "name": "Atocha Municipality",
+    "country": "BO",
+    "region": "Sud Chichas Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-018",
+    "name": "Aucapata Municipality",
+    "country": "BO",
+    "region": "La Paz Department",
+    "domain": "",
+    "osm_relation_id": 4499718
+  },
+  {
+    "id": "BO-019",
+    "name": "Ayata Municipality",
+    "country": "BO",
+    "region": "Muñecas Province",
+    "domain": "",
+    "osm_relation_id": 4499719
+  },
+  {
+    "id": "BO-020",
+    "name": "Ayo Ayo Municipality",
+    "country": "BO",
+    "region": "Aroma Province",
+    "domain": "",
+    "osm_relation_id": 4500834
+  },
+  {
+    "id": "BO-021",
+    "name": "Ayopaya Municipality",
+    "country": "BO",
+    "region": "Ayopaya Province",
+    "domain": "",
+    "osm_relation_id": 4505604
+  },
+  {
+    "id": "BO-022",
+    "name": "Batallas Municipality",
+    "country": "BO",
+    "region": "La Paz Department",
+    "domain": "",
+    "osm_relation_id": 4500399
+  },
+  {
+    "id": "BO-023",
+    "name": "Baures Municipality",
+    "country": "BO",
+    "region": "Iténez Province",
+    "domain": "",
+    "osm_relation_id": 4056838
+  },
+  {
+    "id": "BO-024",
+    "name": "Bella Flor",
+    "country": "BO",
+    "region": "Nicolás Suárez Province",
+    "domain": "",
+    "osm_relation_id": 4050084
+  },
+  {
+    "id": "BO-025",
+    "name": "Belén de Andamarca",
+    "country": "BO",
+    "region": "Oruro Department",
+    "domain": "",
+    "osm_relation_id": 4495026
+  },
+  {
+    "id": "BO-026",
+    "name": "Bermejo",
+    "country": "BO",
+    "region": "Aniceto Arce Province",
+    "domain": "",
+    "osm_relation_id": 4509723
+  },
+  {
+    "id": "BO-027",
+    "name": "Betanzos Municipality",
+    "country": "BO",
+    "region": "Cornelio Saavedra Province",
+    "domain": "",
+    "osm_relation_id": 4128143
+  },
+  {
+    "id": "BO-028",
+    "name": "Bolpebra Municipality",
+    "country": "BO",
+    "region": "Nicolás Suárez Province",
+    "domain": "",
+    "osm_relation_id": 4050264
+  },
+  {
+    "id": "BO-029",
+    "name": "Bolívar Municipality",
+    "country": "BO",
+    "region": "Bolívar Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-030",
+    "name": "Boyuibe",
+    "country": "BO",
+    "region": "Cordillera Province",
+    "domain": "",
+    "osm_relation_id": 4511356
+  },
+  {
+    "id": "BO-031",
+    "name": "Buena Vista",
+    "country": "BO",
+    "region": "Santa Cruz Department",
+    "domain": ""
+  },
+  {
+    "id": "BO-032",
+    "name": "Cabezas",
+    "country": "BO",
+    "region": "Cordillera Province",
+    "domain": "",
+    "osm_relation_id": 4511357
+  },
+  {
+    "id": "BO-033",
+    "name": "Cairoma Municipality",
+    "country": "BO",
+    "region": "Loayza Province",
+    "domain": "",
+    "osm_relation_id": 4502103
+  },
+  {
+    "id": "BO-034",
+    "name": "Caiza D",
+    "country": "BO",
+    "region": "José María Linares Province",
+    "domain": "",
+    "osm_relation_id": 4128593
+  },
+  {
+    "id": "BO-035",
+    "name": "Cajuata Municipality",
+    "country": "BO",
+    "region": "Inquisivi Province",
+    "domain": "",
+    "osm_relation_id": 4502179
+  },
+  {
+    "id": "BO-036",
+    "name": "Calacoto Municipality",
+    "country": "BO",
+    "region": "Pacajes Province",
+    "domain": "",
+    "osm_relation_id": 4500783
+  },
+  {
+    "id": "BO-037",
+    "name": "Calamarca Municipality",
+    "country": "BO",
+    "region": "Aroma Province",
+    "domain": "",
+    "osm_relation_id": 4500831
+  },
+  {
+    "id": "BO-038",
+    "name": "Camargo Municipality",
+    "country": "BO",
+    "region": "Nor Cinti Province",
+    "domain": "",
+    "osm_relation_id": 4509376
+  },
+  {
+    "id": "BO-039",
+    "name": "Camiri",
+    "country": "BO",
+    "region": "Cordillera Province",
+    "domain": "",
+    "osm_relation_id": 4511358
+  },
+  {
+    "id": "BO-040",
+    "name": "Capinota Municipality",
+    "country": "BO",
+    "region": "Capinota Province",
+    "domain": "",
+    "osm_relation_id": 4505765
+  },
+  {
+    "id": "BO-041",
+    "name": "Caquiaviri",
+    "country": "BO",
+    "region": "Pacajes Province",
+    "domain": "",
+    "osm_relation_id": 4500784
+  },
+  {
+    "id": "BO-042",
+    "name": "Caracollo Municipality",
+    "country": "BO",
+    "region": "Cercado Province (Oruro)",
+    "domain": ""
+  },
+  {
+    "id": "BO-043",
+    "name": "Carangas",
+    "country": "BO",
+    "region": "Oruro Department",
+    "domain": "",
+    "osm_relation_id": 4494972
+  },
+  {
+    "id": "BO-044",
+    "name": "Caraparí",
+    "country": "BO",
+    "region": "Gran Chaco Province",
+    "domain": "",
+    "osm_relation_id": 4509724
+  },
+  {
+    "id": "BO-045",
+    "name": "Caripuyo",
+    "country": "BO",
+    "region": "Potosí Department",
+    "domain": "",
+    "osm_relation_id": 4123740
+  },
+  {
+    "id": "BO-046",
+    "name": "Catacora Municipality",
+    "country": "BO",
+    "region": "José Manuel Pando Province",
+    "domain": "",
+    "osm_relation_id": 4500609
+  },
+  {
+    "id": "BO-047",
+    "name": "Chacarilla Municipality",
+    "country": "BO",
+    "region": "Gualberto Villarroel Province",
+    "domain": "",
+    "osm_relation_id": 4502215
+  },
+  {
+    "id": "BO-048",
+    "name": "Challapata Municipality",
+    "country": "BO",
+    "region": "Eduardo Abaroa Province",
+    "domain": "",
+    "osm_relation_id": 4495088
+  },
+  {
+    "id": "BO-049",
+    "name": "Chaqui",
+    "country": "BO",
+    "region": "Cornelio Saavedra Province",
+    "domain": "",
+    "osm_relation_id": 4128144
+  },
+  {
+    "id": "BO-050",
+    "name": "Charagua Municipality",
+    "country": "BO",
+    "region": "Cordillera Province",
+    "domain": "charagua.gob.bo"
+  },
+  {
+    "id": "BO-051",
+    "name": "Charaña Municipality",
+    "country": "BO",
+    "region": "Pacajes Province",
+    "domain": "",
+    "osm_relation_id": 4500785
+  },
+  {
+    "id": "BO-052",
+    "name": "Chayanta Municipality",
+    "country": "BO",
+    "region": "Rafael Bustillo Province",
+    "domain": "",
+    "osm_relation_id": 4126927
+  },
+  {
+    "id": "BO-053",
+    "name": "Chimoré Municipality",
+    "country": "BO",
+    "region": "Carrasco Province",
+    "domain": "",
+    "osm_relation_id": 4505885
+  },
+  {
+    "id": "BO-054",
+    "name": "Choquecota",
+    "country": "BO",
+    "region": "Carangas Province",
+    "domain": "",
+    "osm_relation_id": 4494773
+  },
+  {
+    "id": "BO-055",
+    "name": "Chua Cocani",
+    "country": "BO",
+    "region": "Omasuyos Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-056",
+    "name": "Chulumani Municipality",
+    "country": "BO",
+    "region": "Sud Yungas Province",
+    "domain": "",
+    "osm_relation_id": 4499811
+  },
+  {
+    "id": "BO-057",
+    "name": "Chuma Municipality",
+    "country": "BO",
+    "region": "Muñecas Province",
+    "domain": "",
+    "osm_relation_id": 4499720
+  },
+  {
+    "id": "BO-058",
+    "name": "Chuquihuta Municipality",
+    "country": "BO",
+    "region": "Rafael Bustillo Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-059",
+    "name": "Ckochas",
+    "country": "BO",
+    "region": "José María Linares Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-060",
+    "name": "Cliza Municipality",
+    "country": "BO",
+    "region": "Germán Jordán Province",
+    "domain": "",
+    "osm_relation_id": 4505781
+  },
+  {
+    "id": "BO-061",
+    "name": "Cobija Municipality",
+    "country": "BO",
+    "region": "Nicolás Suárez Province",
+    "domain": "",
+    "osm_relation_id": 4050223
+  },
+  {
+    "id": "BO-062",
+    "name": "Cocapata Municipality",
+    "country": "BO",
+    "region": "Ayopaya Province",
+    "domain": "",
+    "osm_relation_id": 4505603
+  },
+  {
+    "id": "BO-063",
+    "name": "Cochabamba Municipality",
+    "country": "BO",
+    "region": "Cercado Province (Cochabamba)",
+    "domain": "",
+    "osm_relation_id": 4503297
+  },
+  {
+    "id": "BO-064",
+    "name": "Coipasa",
+    "country": "BO",
+    "region": "Sabaya Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-065",
+    "name": "Colcapirhua Municipality",
+    "country": "BO",
+    "region": "",
+    "domain": "colcapirhua.gob.bo",
+    "osm_relation_id": 4505696
+  },
+  {
+    "id": "BO-066",
+    "name": "Colcha \"K\" Municipality",
+    "country": "BO",
+    "region": "Nor Lípez Province",
+    "domain": "",
+    "osm_relation_id": 4137592
+  },
+  {
+    "id": "BO-067",
+    "name": "Collana Municipality",
+    "country": "BO",
+    "region": "Aroma Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-068",
+    "name": "Colomi Municipality",
+    "country": "BO",
+    "region": "Chapare Province",
+    "domain": "",
+    "osm_relation_id": 4505642
+  },
+  {
+    "id": "BO-069",
+    "name": "Colpa Bélgica",
+    "country": "BO",
+    "region": "Santa Cruz Department",
+    "domain": "",
+    "osm_relation_id": 4511496
+  },
+  {
+    "id": "BO-070",
+    "name": "Colquechaca Municipality",
+    "country": "BO",
+    "region": "Chayanta Province",
+    "domain": "",
+    "osm_relation_id": 4126993
+  },
+  {
+    "id": "BO-071",
+    "name": "Colquencha Municipality",
+    "country": "BO",
+    "region": "Aroma Province",
+    "domain": "",
+    "osm_relation_id": 4500833
+  },
+  {
+    "id": "BO-072",
+    "name": "Colquiri Municipality",
+    "country": "BO",
+    "region": "Inquisivi Province",
+    "domain": "",
+    "osm_relation_id": 4502180
+  },
+  {
+    "id": "BO-073",
+    "name": "Comanche Municipality",
+    "country": "BO",
+    "region": "Pacajes Province",
+    "domain": "",
+    "osm_relation_id": 4500786
+  },
+  {
+    "id": "BO-074",
+    "name": "Comarapa",
+    "country": "BO",
+    "region": "Santa Cruz Department",
+    "domain": "",
+    "osm_relation_id": 4511408
+  },
+  {
+    "id": "BO-075",
+    "name": "Combaya Municipality",
+    "country": "BO",
+    "region": "Larecaja Province",
+    "domain": "",
+    "osm_relation_id": 4499780
+  },
+  {
+    "id": "BO-076",
+    "name": "Concepción Municipality",
+    "country": "BO",
+    "region": "Ñuflo de Chaves Province",
+    "domain": "",
+    "osm_relation_id": 4511254
+  },
+  {
+    "id": "BO-077",
+    "name": "Copacabana Municipality",
+    "country": "BO",
+    "region": "La Paz Department",
+    "domain": ""
+  },
+  {
+    "id": "BO-078",
+    "name": "Coripata Municipality",
+    "country": "BO",
+    "region": "Nor Yungas Province",
+    "domain": "",
+    "osm_relation_id": 4499823
+  },
+  {
+    "id": "BO-079",
+    "name": "Coro Coro",
+    "country": "BO",
+    "region": "Pacajes Province",
+    "domain": "",
+    "osm_relation_id": 4500787
+  },
+  {
+    "id": "BO-080",
+    "name": "Coroico Municipality",
+    "country": "BO",
+    "region": "Nor Yungas Province",
+    "domain": "",
+    "osm_relation_id": 4499824
+  },
+  {
+    "id": "BO-081",
+    "name": "Corque",
+    "country": "BO",
+    "region": "Carangas Province",
+    "domain": "",
+    "osm_relation_id": 4494774
+  },
+  {
+    "id": "BO-082",
+    "name": "Cotagaita Municipality",
+    "country": "BO",
+    "region": "Nor Chichas Province",
+    "domain": "",
+    "osm_relation_id": 4137628
+  },
+  {
+    "id": "BO-083",
+    "name": "Cotoca",
+    "country": "BO",
+    "region": "Andrés Ibáñez Province",
+    "domain": "",
+    "osm_relation_id": 4511523
+  },
+  {
+    "id": "BO-084",
+    "name": "Cruz De Machacamarca",
+    "country": "BO",
+    "region": "Litoral de Atacama Province",
+    "domain": "",
+    "osm_relation_id": 4494820
+  },
+  {
+    "id": "BO-085",
+    "name": "Cuatro Cañadas",
+    "country": "BO",
+    "region": "Ñuflo de Chaves Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-086",
+    "name": "Cuchumuela Municipality",
+    "country": "BO",
+    "region": "Punata Province",
+    "domain": "",
+    "osm_relation_id": 4505799
+  },
+  {
+    "id": "BO-087",
+    "name": "Cuevo Municipality",
+    "country": "BO",
+    "region": "Cordillera Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-088",
+    "name": "Curahuara de Carangas",
+    "country": "BO",
+    "region": "Sajama Province",
+    "domain": "",
+    "osm_relation_id": 4482219
+  },
+  {
+    "id": "BO-089",
+    "name": "Curva Municipality",
+    "country": "BO",
+    "region": "Bautista Saavedra Province",
+    "domain": "",
+    "osm_relation_id": 4499611
+  },
+  {
+    "id": "BO-090",
+    "name": "Desaguadero Municipality",
+    "country": "BO",
+    "region": "Ingavi Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-091",
+    "name": "El Alto Municipality",
+    "country": "BO",
+    "region": "Murillo Province",
+    "domain": "",
+    "osm_relation_id": 4499832
+  },
+  {
+    "id": "BO-092",
+    "name": "El Choro",
+    "country": "BO",
+    "region": "Cercado Province (Oruro)",
+    "domain": "",
+    "osm_relation_id": 4494716
+  },
+  {
+    "id": "BO-093",
+    "name": "El Puente",
+    "country": "BO",
+    "region": "Eustaquio Méndez Province",
+    "domain": "",
+    "osm_relation_id": 4509728
+  },
+  {
+    "id": "BO-094",
+    "name": "El Puente Municipality",
+    "country": "BO",
+    "region": "Guarayos Province",
+    "domain": "",
+    "osm_relation_id": 4511240
+  },
+  {
+    "id": "BO-095",
+    "name": "El Puente Municipality",
+    "country": "BO",
+    "region": "Guarayos Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-096",
+    "name": "El Torno",
+    "country": "BO",
+    "region": "Andrés Ibáñez Province",
+    "domain": "eltorno.gob.bo"
+  },
+  {
+    "id": "BO-097",
+    "name": "El Villar",
+    "country": "BO",
+    "region": "Tomina Province",
+    "domain": "",
+    "osm_relation_id": 4507932
+  },
+  {
+    "id": "BO-098",
+    "name": "Entre Rios Municipality",
+    "country": "BO",
+    "region": "Burdett O'Connor Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-099",
+    "name": "Entre Ríos Municipality",
+    "country": "BO",
+    "region": "Carrasco Province",
+    "domain": "",
+    "osm_relation_id": 4505884
+  },
+  {
+    "id": "BO-100",
+    "name": "Escara Municipality",
+    "country": "BO",
+    "region": "Litoral de Atacama Province",
+    "domain": "",
+    "osm_relation_id": 4494821
+  },
+  {
+    "id": "BO-101",
+    "name": "Escoma Municipality",
+    "country": "BO",
+    "region": "Eliodoro Camacho Province",
+    "domain": "",
+    "osm_relation_id": 4499651
+  },
+  {
+    "id": "BO-102",
+    "name": "Esmeralda",
+    "country": "BO",
+    "region": "Litoral de Atacama Province",
+    "domain": "",
+    "osm_relation_id": 4494822
+  },
+  {
+    "id": "BO-103",
+    "name": "Eucaliptus Municipality",
+    "country": "BO",
+    "region": "Tomas Barrón Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-104",
+    "name": "Exaltación Municipality",
+    "country": "BO",
+    "region": "Yacuma Province",
+    "domain": "",
+    "osm_relation_id": 3365948
+  },
+  {
+    "id": "BO-105",
+    "name": "General Juan José Pérez Municipality",
+    "country": "BO",
+    "region": "Bautista Saavedra Province",
+    "domain": "",
+    "osm_relation_id": 4499610
+  },
+  {
+    "id": "BO-106",
+    "name": "General Saavedra",
+    "country": "BO",
+    "region": "Santa Cruz Department",
+    "domain": ""
+  },
+  {
+    "id": "BO-107",
+    "name": "Guanay Municipality",
+    "country": "BO",
+    "region": "La Paz Department",
+    "domain": "",
+    "osm_relation_id": 4499781
+  },
+  {
+    "id": "BO-108",
+    "name": "Guaqui Municipality",
+    "country": "BO",
+    "region": "Ingavi Province",
+    "domain": "",
+    "osm_relation_id": 4500575
+  },
+  {
+    "id": "BO-109",
+    "name": "Guayaramerín Municipality",
+    "country": "BO",
+    "region": "Vaca Díez Province",
+    "domain": "",
+    "osm_relation_id": 4054846
+  },
+  {
+    "id": "BO-110",
+    "name": "Gutiérrez Municipality",
+    "country": "BO",
+    "region": "Santa Cruz Department",
+    "domain": "",
+    "osm_relation_id": 4511361
+  },
+  {
+    "id": "BO-111",
+    "name": "Huacaraje Municipality",
+    "country": "BO",
+    "region": "Iténez Province",
+    "domain": "",
+    "osm_relation_id": 4056859
+  },
+  {
+    "id": "BO-112",
+    "name": "Huacareta",
+    "country": "BO",
+    "region": "Chuquisaca Department",
+    "domain": "",
+    "osm_relation_id": 4509409
+  },
+  {
+    "id": "BO-113",
+    "name": "Huacaya",
+    "country": "BO",
+    "region": "Luis Calvo Province",
+    "domain": "",
+    "osm_relation_id": 4509405
+  },
+  {
+    "id": "BO-114",
+    "name": "Huachacalla",
+    "country": "BO",
+    "region": "Litoral de Atacama Province",
+    "domain": "",
+    "osm_relation_id": 4494823
+  },
+  {
+    "id": "BO-115",
+    "name": "Huanuni Municipality",
+    "country": "BO",
+    "region": "Pantaleón Dalence Province",
+    "domain": "",
+    "osm_relation_id": 4495052
+  },
+  {
+    "id": "BO-116",
+    "name": "Huari",
+    "country": "BO",
+    "region": "Sebastián Pagador Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-117",
+    "name": "Huatajata Municipality",
+    "country": "BO",
+    "region": "Omasuyos Province",
+    "domain": "",
+    "osm_relation_id": 4500360
+  },
+  {
+    "id": "BO-118",
+    "name": "Huayllamarca",
+    "country": "BO",
+    "region": "Nor Carangas Province",
+    "domain": "",
+    "osm_relation_id": 4494599
+  },
+  {
+    "id": "BO-119",
+    "name": "Ichoca Municipality",
+    "country": "BO",
+    "region": "Inquisivi Province",
+    "domain": "",
+    "osm_relation_id": 4502181
+  },
+  {
+    "id": "BO-120",
+    "name": "Icla",
+    "country": "BO",
+    "region": "Chuquisaca Department",
+    "domain": "",
+    "osm_relation_id": 4507906
+  },
+  {
+    "id": "BO-121",
+    "name": "Incahuasi",
+    "country": "BO",
+    "region": "Chuquisaca Department",
+    "domain": "",
+    "osm_relation_id": 4509377
+  },
+  {
+    "id": "BO-122",
+    "name": "Inquisivi Municipality",
+    "country": "BO",
+    "region": "Inquisivi Province",
+    "domain": "inquisivi.com",
+    "osm_relation_id": 4502182
+  },
+  {
+    "id": "BO-123",
+    "name": "Irupana Municipality",
+    "country": "BO",
+    "region": "Sud Yungas Province",
+    "domain": "",
+    "osm_relation_id": 4499812
+  },
+  {
+    "id": "BO-124",
+    "name": "Ixiamas Municipality",
+    "country": "BO",
+    "region": "Abel Iturralde Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-125",
+    "name": "Jesús de Machaca Municipality",
+    "country": "BO",
+    "region": "Ingavi Province",
+    "domain": "",
+    "osm_relation_id": 4500576
+  },
+  {
+    "id": "BO-126",
+    "name": "La Asunta Municipality",
+    "country": "BO",
+    "region": "Sud Yungas Province",
+    "domain": "",
+    "osm_relation_id": 4499813
+  },
+  {
+    "id": "BO-127",
+    "name": "La Guardia",
+    "country": "BO",
+    "region": "Andrés Ibáñez Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-128",
+    "name": "La Paz",
+    "country": "BO",
+    "region": "Murillo Province",
+    "domain": "lapaz.bo"
+  },
+  {
+    "id": "BO-129",
+    "name": "La Rivera Municipality",
+    "country": "BO",
+    "region": "Puerto de Mejillones Province",
+    "domain": "",
+    "osm_relation_id": 4494973
+  },
+  {
+    "id": "BO-130",
+    "name": "Lagunillas Municipality",
+    "country": "BO",
+    "region": "Cordillera Province",
+    "domain": "",
+    "osm_relation_id": 4511362
+  },
+  {
+    "id": "BO-131",
+    "name": "Laja Municipality",
+    "country": "BO",
+    "region": "Los Andes Province",
+    "domain": "",
+    "osm_relation_id": 4500400
+  },
+  {
+    "id": "BO-132",
+    "name": "Licoma Pampa Municipality",
+    "country": "BO",
+    "region": "Inquisivi Province",
+    "domain": "",
+    "osm_relation_id": 4502183
+  },
+  {
+    "id": "BO-133",
+    "name": "Llallagua Municipality",
+    "country": "BO",
+    "region": "Rafael Bustillo Province",
+    "domain": "",
+    "osm_relation_id": 4126928
+  },
+  {
+    "id": "BO-134",
+    "name": "Llica Municipality",
+    "country": "BO",
+    "region": "Daniel Campos Province",
+    "domain": "",
+    "osm_relation_id": 4134806
+  },
+  {
+    "id": "BO-135",
+    "name": "Loreto Municipality",
+    "country": "BO",
+    "region": "Marbán Province",
+    "domain": "",
+    "osm_relation_id": 4059665
+  },
+  {
+    "id": "BO-136",
+    "name": "Luribay Municipality",
+    "country": "BO",
+    "region": "Loayza Province",
+    "domain": "",
+    "osm_relation_id": 4502104
+  },
+  {
+    "id": "BO-137",
+    "name": "Machacamarca",
+    "country": "BO",
+    "region": "Pantaleón Dalence Province",
+    "domain": "",
+    "osm_relation_id": 4495051
+  },
+  {
+    "id": "BO-138",
+    "name": "Macharetí",
+    "country": "BO",
+    "region": "Luis Calvo Province",
+    "domain": "",
+    "osm_relation_id": 4509407
+  },
+  {
+    "id": "BO-139",
+    "name": "Magdalena Municipality",
+    "country": "BO",
+    "region": "Iténez Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-140",
+    "name": "Mairana",
+    "country": "BO",
+    "region": "Florida Province",
+    "domain": "",
+    "osm_relation_id": 4511437
+  },
+  {
+    "id": "BO-141",
+    "name": "Malla Municipality",
+    "country": "BO",
+    "region": "Loayza Province",
+    "domain": "",
+    "osm_relation_id": 4502105
+  },
+  {
+    "id": "BO-142",
+    "name": "Mapiri Municipality",
+    "country": "BO",
+    "region": "Larecaja Province",
+    "domain": "",
+    "osm_relation_id": 4499756
+  },
+  {
+    "id": "BO-143",
+    "name": "Mecapaca Municipality",
+    "country": "BO",
+    "region": "Murillo Province",
+    "domain": "",
+    "osm_relation_id": 4499869
+  },
+  {
+    "id": "BO-144",
+    "name": "Mineros Municipality",
+    "country": "BO",
+    "region": "Obispo Santistevan Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-145",
+    "name": "Mizque Municipality",
+    "country": "BO",
+    "region": "Mizque Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-146",
+    "name": "Mocomoco Municipality",
+    "country": "BO",
+    "region": "Eliodoro Camacho Province",
+    "domain": "",
+    "osm_relation_id": 4499653
+  },
+  {
+    "id": "BO-147",
+    "name": "Mojinete Municipality",
+    "country": "BO",
+    "region": "Sur Lípez Province",
+    "domain": "",
+    "osm_relation_id": 4137593
+  },
+  {
+    "id": "BO-148",
+    "name": "Mojocoya",
+    "country": "BO",
+    "region": "Jaime Zudáñez Province",
+    "domain": "",
+    "osm_relation_id": 4507908
+  },
+  {
+    "id": "BO-149",
+    "name": "Monteagudo Municipality",
+    "country": "BO",
+    "region": "Hernando Siles Province",
+    "domain": "",
+    "osm_relation_id": 4509408
+  },
+  {
+    "id": "BO-150",
+    "name": "Montero municipality",
+    "country": "BO",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "BO-151",
+    "name": "Moro Moro",
+    "country": "BO",
+    "region": "Vallegrande Province (Santa Cruz)",
+    "domain": "",
+    "osm_relation_id": 4511477
+  },
+  {
+    "id": "BO-152",
+    "name": "Morochata Municipality",
+    "country": "BO",
+    "region": "Ayopaya Province",
+    "domain": "",
+    "osm_relation_id": 4505605
+  },
+  {
+    "id": "BO-153",
+    "name": "Municipality of Las Carreras",
+    "country": "BO",
+    "region": "Sud Cinti Province",
+    "domain": "",
+    "osm_relation_id": 4509406
+  },
+  {
+    "id": "BO-154",
+    "name": "Municipio El Carmen Rivero Tórrez",
+    "country": "BO",
+    "region": "Germán Busch Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-155",
+    "name": "Municipio Huarina",
+    "country": "BO",
+    "region": "Omasuyos Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-156",
+    "name": "Municipio de Caranavi",
+    "country": "BO",
+    "region": "Caranavi Province",
+    "domain": "",
+    "osm_relation_id": 4499792
+  },
+  {
+    "id": "BO-157",
+    "name": "Municipio de Filadelfia",
+    "country": "BO",
+    "region": "Pando Department",
+    "domain": "",
+    "osm_relation_id": 4050224
+  },
+  {
+    "id": "BO-158",
+    "name": "Municipio de Ingavi",
+    "country": "BO",
+    "region": "Abuná Province",
+    "domain": "",
+    "osm_relation_id": 3369824
+  },
+  {
+    "id": "BO-159",
+    "name": "Municipio de Nueva Esperanza",
+    "country": "BO",
+    "region": "Federico Román Province",
+    "domain": "",
+    "osm_relation_id": 3368691
+  },
+  {
+    "id": "BO-160",
+    "name": "Municipio de Puerto Gonzalo Moreno",
+    "country": "BO",
+    "region": "Madre de Dios Province",
+    "domain": "",
+    "osm_relation_id": 4051384
+  },
+  {
+    "id": "BO-161",
+    "name": "Municipio de Puerto Rico",
+    "country": "BO",
+    "region": "Manuripi Province",
+    "domain": "",
+    "osm_relation_id": 4051293
+  },
+  {
+    "id": "BO-162",
+    "name": "Municipio de Santa Rosa del Abuná",
+    "country": "BO",
+    "region": "Abuná Province",
+    "domain": "",
+    "osm_relation_id": 4049843
+  },
+  {
+    "id": "BO-163",
+    "name": "Municipio de Santos Mercado",
+    "country": "BO",
+    "region": "Pando Department",
+    "domain": "",
+    "osm_relation_id": 3369463
+  },
+  {
+    "id": "BO-164",
+    "name": "Municipio de Sena",
+    "country": "BO",
+    "region": "Madre de Dios Province",
+    "domain": "",
+    "osm_relation_id": 4051386
+  },
+  {
+    "id": "BO-165",
+    "name": "Municipio de Villa Nueva",
+    "country": "BO",
+    "region": "Pando Department",
+    "domain": "",
+    "osm_relation_id": 3369464
+  },
+  {
+    "id": "BO-166",
+    "name": "Nazacara de Pacajes Municipality",
+    "country": "BO",
+    "region": "Pacajes Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-167",
+    "name": "Ocurí Municipality",
+    "country": "BO",
+    "region": "Potosí Department",
+    "domain": "",
+    "osm_relation_id": 4126994
+  },
+  {
+    "id": "BO-168",
+    "name": "Okinawa Uno",
+    "country": "BO",
+    "region": "Warnes Province",
+    "domain": "",
+    "osm_relation_id": 4511520
+  },
+  {
+    "id": "BO-169",
+    "name": "Omereque Municipality",
+    "country": "BO",
+    "region": "Narciso Campero Province",
+    "domain": "",
+    "osm_relation_id": 4506121
+  },
+  {
+    "id": "BO-170",
+    "name": "Oruro municipality",
+    "country": "BO",
+    "region": "Cercado Province (Oruro)",
+    "domain": "",
+    "osm_relation_id": 4494717
+  },
+  {
+    "id": "BO-171",
+    "name": "Padcaya",
+    "country": "BO",
+    "region": "Aniceto Arce Province",
+    "domain": "",
+    "osm_relation_id": 4509726
+  },
+  {
+    "id": "BO-172",
+    "name": "Padilla Municipality",
+    "country": "BO",
+    "region": "Tomina Province",
+    "domain": "",
+    "osm_relation_id": 4507933
+  },
+  {
+    "id": "BO-173",
+    "name": "Pailon Municipality",
+    "country": "BO",
+    "region": "Chiquitos Province",
+    "domain": "",
+    "osm_relation_id": 4511315
+  },
+  {
+    "id": "BO-174",
+    "name": "Palca Municipality",
+    "country": "BO",
+    "region": "Murillo Province",
+    "domain": "",
+    "osm_relation_id": 4499871
+  },
+  {
+    "id": "BO-175",
+    "name": "Palos Blancos Municipality",
+    "country": "BO",
+    "region": "Sud Yungas Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-176",
+    "name": "Pampa Aullagas",
+    "country": "BO",
+    "region": "Ladislao Cabrera Province",
+    "domain": "",
+    "osm_relation_id": 4495038
+  },
+  {
+    "id": "BO-177",
+    "name": "Pampa Grande Municipality",
+    "country": "BO",
+    "region": "Florida Province",
+    "domain": "",
+    "osm_relation_id": 4511438
+  },
+  {
+    "id": "BO-178",
+    "name": "Papel Pampa Municipality",
+    "country": "BO",
+    "region": "Gualberto Villarroel Province",
+    "domain": "",
+    "osm_relation_id": 4502216
+  },
+  {
+    "id": "BO-179",
+    "name": "Pasorapa Municipality",
+    "country": "BO",
+    "region": "Narciso Campero Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-180",
+    "name": "Patacamaya Municipality",
+    "country": "BO",
+    "region": "Aroma Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-181",
+    "name": "Pazña Municipality",
+    "country": "BO",
+    "region": "Poopó Province",
+    "domain": "",
+    "osm_relation_id": 4495078
+  },
+  {
+    "id": "BO-182",
+    "name": "Pelechuco",
+    "country": "BO",
+    "region": "Franz Tamayo Province",
+    "domain": "",
+    "osm_relation_id": 4499595
+  },
+  {
+    "id": "BO-183",
+    "name": "Pocoata",
+    "country": "BO",
+    "region": "Chayanta Province",
+    "domain": "",
+    "osm_relation_id": 4126995
+  },
+  {
+    "id": "BO-184",
+    "name": "Pocona Municipality",
+    "country": "BO",
+    "region": "Carrasco Province",
+    "domain": "",
+    "osm_relation_id": 4505886
+  },
+  {
+    "id": "BO-185",
+    "name": "Pojo Municipality",
+    "country": "BO",
+    "region": "Carrasco Province",
+    "domain": "",
+    "osm_relation_id": 4505887
+  },
+  {
+    "id": "BO-186",
+    "name": "Poopó Municipality",
+    "country": "BO",
+    "region": "Poopó Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-187",
+    "name": "Porco Municipality",
+    "country": "BO",
+    "region": "Antonio Quijarro Province",
+    "domain": "",
+    "osm_relation_id": 4137629
+  },
+  {
+    "id": "BO-188",
+    "name": "Poroma",
+    "country": "BO",
+    "region": "Chuquisaca Department",
+    "domain": "",
+    "osm_relation_id": 4507877
+  },
+  {
+    "id": "BO-189",
+    "name": "Porongo",
+    "country": "BO",
+    "region": "Santa Cruz Department",
+    "domain": "gamporongo.gob.bo",
+    "osm_relation_id": 4511526
+  },
+  {
+    "id": "BO-190",
+    "name": "Portachuelo Municipality",
+    "country": "BO",
+    "region": "Santa Cruz Department",
+    "domain": ""
+  },
+  {
+    "id": "BO-191",
+    "name": "Porvenir",
+    "country": "BO",
+    "region": "Nicolás Suárez Province",
+    "domain": "",
+    "osm_relation_id": 4050225
+  },
+  {
+    "id": "BO-192",
+    "name": "Postrer Valle",
+    "country": "BO",
+    "region": "Vallegrande Province (Santa Cruz)",
+    "domain": "",
+    "osm_relation_id": 4511478
+  },
+  {
+    "id": "BO-193",
+    "name": "Potosí Municipality",
+    "country": "BO",
+    "region": "Tomás Frías Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-194",
+    "name": "Presto",
+    "country": "BO",
+    "region": "Chuquisaca Department",
+    "domain": "",
+    "osm_relation_id": 4507907
+  },
+  {
+    "id": "BO-195",
+    "name": "Pucarani Municipality",
+    "country": "BO",
+    "region": "Los Andes Province",
+    "domain": "",
+    "osm_relation_id": 4500401
+  },
+  {
+    "id": "BO-196",
+    "name": "Pucará",
+    "country": "BO",
+    "region": "Vallegrande Province (Santa Cruz)",
+    "domain": "",
+    "osm_relation_id": 4511479
+  },
+  {
+    "id": "BO-197",
+    "name": "Puerto Acosta Municipality",
+    "country": "BO",
+    "region": "Eliodoro Camacho Province",
+    "domain": "",
+    "osm_relation_id": 4499654
+  },
+  {
+    "id": "BO-198",
+    "name": "Puerto Carabuco Municipality",
+    "country": "BO",
+    "region": "Eliodoro Camacho Province",
+    "domain": "",
+    "osm_relation_id": 4499655
+  },
+  {
+    "id": "BO-199",
+    "name": "Puerto Fernández Alonso",
+    "country": "BO",
+    "region": "Obispo Santistevan Province",
+    "domain": "",
+    "osm_relation_id": 4511508
+  },
+  {
+    "id": "BO-200",
+    "name": "Puerto Pérez Municipality",
+    "country": "BO",
+    "region": "La Paz Department",
+    "domain": "",
+    "osm_relation_id": 4500402
+  },
+  {
+    "id": "BO-201",
+    "name": "Puerto Quijarro Municipality",
+    "country": "BO",
+    "region": "Germán Busch Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-202",
+    "name": "Puerto Siles Municipality",
+    "country": "BO",
+    "region": "Mamoré Province",
+    "domain": "",
+    "osm_relation_id": 4055848
+  },
+  {
+    "id": "BO-203",
+    "name": "Puerto Suarez Municipality",
+    "country": "BO",
+    "region": "Germán Busch Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-204",
+    "name": "Puerto Villarroel Municipality",
+    "country": "BO",
+    "region": "Carrasco Province",
+    "domain": "",
+    "osm_relation_id": 4505888
+  },
+  {
+    "id": "BO-205",
+    "name": "Puna",
+    "country": "BO",
+    "region": "José María Linares Province",
+    "domain": "",
+    "osm_relation_id": 4128594
+  },
+  {
+    "id": "BO-206",
+    "name": "Punata Municipality",
+    "country": "BO",
+    "region": "Punata Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-207",
+    "name": "Ravelo",
+    "country": "BO",
+    "region": "Chayanta Province",
+    "domain": "",
+    "osm_relation_id": 4126996
+  },
+  {
+    "id": "BO-208",
+    "name": "Reyes Municipality",
+    "country": "BO",
+    "region": "José Ballivián Province",
+    "domain": "",
+    "osm_relation_id": 4055250
+  },
+  {
+    "id": "BO-209",
+    "name": "Riberalta Municipality",
+    "country": "BO",
+    "region": "Vaca Díez Province",
+    "domain": "",
+    "osm_relation_id": 4054847
+  },
+  {
+    "id": "BO-210",
+    "name": "Roboré Municipality",
+    "country": "BO",
+    "region": "Chiquitos Province",
+    "domain": "",
+    "osm_relation_id": 4511316
+  },
+  {
+    "id": "BO-211",
+    "name": "Rurrenabaque Municipality",
+    "country": "BO",
+    "region": "José Ballivián Province",
+    "domain": "",
+    "osm_relation_id": 4055186
+  },
+  {
+    "id": "BO-212",
+    "name": "Sabaya",
+    "country": "BO",
+    "region": "Sabaya Province",
+    "domain": "",
+    "osm_relation_id": 4494866
+  },
+  {
+    "id": "BO-213",
+    "name": "Sacaba Municipality",
+    "country": "BO",
+    "region": "Chapare Province",
+    "domain": "",
+    "osm_relation_id": 4505643
+  },
+  {
+    "id": "BO-214",
+    "name": "Sacabamba Municipality",
+    "country": "BO",
+    "region": "Esteban Arce Province",
+    "domain": "",
+    "osm_relation_id": 4505813
+  },
+  {
+    "id": "BO-215",
+    "name": "Sacaca Municipality",
+    "country": "BO",
+    "region": "Alonso de Ibáñez Province",
+    "domain": "",
+    "osm_relation_id": 4123687
+  },
+  {
+    "id": "BO-216",
+    "name": "Saipina",
+    "country": "BO",
+    "region": "Manuel María Caballero Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-217",
+    "name": "Samaipata Municipality",
+    "country": "BO",
+    "region": "Florida Province",
+    "domain": "",
+    "osm_relation_id": 4511440
+  },
+  {
+    "id": "BO-218",
+    "name": "San Agustín Municipality",
+    "country": "BO",
+    "region": "Enrique Baldivieso Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-219",
+    "name": "San Andrés Municipality",
+    "country": "BO",
+    "region": "Marbán Province",
+    "domain": "",
+    "osm_relation_id": 4059613
+  },
+  {
+    "id": "BO-220",
+    "name": "San Andrés de Machaca Municipality",
+    "country": "BO",
+    "region": "Ingavi Province",
+    "domain": "",
+    "osm_relation_id": 4500577
+  },
+  {
+    "id": "BO-221",
+    "name": "San Antonio de Esmoruco Municipality",
+    "country": "BO",
+    "region": "Sur Lípez Province",
+    "domain": "",
+    "osm_relation_id": 4137594
+  },
+  {
+    "id": "BO-222",
+    "name": "San Antonio de Lomerío",
+    "country": "BO",
+    "region": "Ñuflo de Chaves Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-223",
+    "name": "San Benito Municipality",
+    "country": "BO",
+    "region": "Punata Province",
+    "domain": "",
+    "osm_relation_id": 4505801
+  },
+  {
+    "id": "BO-224",
+    "name": "San Borja Municipality",
+    "country": "BO",
+    "region": "José Ballivián Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-225",
+    "name": "San Buenaventura Municipality",
+    "country": "BO",
+    "region": "La Paz Department",
+    "domain": ""
+  },
+  {
+    "id": "BO-226",
+    "name": "San Carlos Municipality",
+    "country": "BO",
+    "region": "Ichilo Province",
+    "domain": "",
+    "osm_relation_id": 4511393
+  },
+  {
+    "id": "BO-227",
+    "name": "San Ignacio de Moxos Municipality",
+    "country": "BO",
+    "region": "Moxos Province",
+    "domain": "",
+    "osm_relation_id": 4058468
+  },
+  {
+    "id": "BO-228",
+    "name": "San Ignacio de Velasco Municipality",
+    "country": "BO",
+    "region": "Santa Cruz Department",
+    "domain": "",
+    "osm_relation_id": 4511303
+  },
+  {
+    "id": "BO-229",
+    "name": "San Javier Municipality",
+    "country": "BO",
+    "region": "Santa Cruz Department",
+    "domain": ""
+  },
+  {
+    "id": "BO-230",
+    "name": "San Javier Municipality",
+    "country": "BO",
+    "region": "Cercado Province (Beni)",
+    "domain": "",
+    "osm_relation_id": 4057054
+  },
+  {
+    "id": "BO-231",
+    "name": "San Joaquín Municipality",
+    "country": "BO",
+    "region": "Mamoré Province",
+    "domain": "",
+    "osm_relation_id": 4055849
+  },
+  {
+    "id": "BO-232",
+    "name": "San José de Chiquitos municipality",
+    "country": "BO",
+    "region": "Chiquitos Province",
+    "domain": "",
+    "osm_relation_id": 4511317
+  },
+  {
+    "id": "BO-233",
+    "name": "San Juan de Yapacaní Municipality",
+    "country": "BO",
+    "region": "Ichilo Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-234",
+    "name": "San Julián Municipality",
+    "country": "BO",
+    "region": "Santa Cruz Department",
+    "domain": "",
+    "osm_relation_id": 4511275
+  },
+  {
+    "id": "BO-235",
+    "name": "San Lorenzo",
+    "country": "BO",
+    "region": "Madre de Dios Province",
+    "domain": "",
+    "osm_relation_id": 4051385
+  },
+  {
+    "id": "BO-236",
+    "name": "San Lucas",
+    "country": "BO",
+    "region": "Chuquisaca Department",
+    "domain": "",
+    "osm_relation_id": 4509375
+  },
+  {
+    "id": "BO-237",
+    "name": "San Matias Municipality",
+    "country": "BO",
+    "region": "Ángel Sandoval Province",
+    "domain": "",
+    "osm_relation_id": 4511329
+  },
+  {
+    "id": "BO-238",
+    "name": "San Miguel de Velasco",
+    "country": "BO",
+    "region": "Santa Cruz Department",
+    "domain": ""
+  },
+  {
+    "id": "BO-239",
+    "name": "San Pablo Municipality",
+    "country": "BO",
+    "region": "Pando Department",
+    "domain": "",
+    "osm_relation_id": 4051294
+  },
+  {
+    "id": "BO-240",
+    "name": "San Pablo de Lípez Municipality",
+    "country": "BO",
+    "region": "Sur Lípez Province",
+    "domain": "",
+    "osm_relation_id": 4137595
+  },
+  {
+    "id": "BO-241",
+    "name": "San Pedro de Buena Vista",
+    "country": "BO",
+    "region": "Charcas Province",
+    "domain": "",
+    "osm_relation_id": 4126936
+  },
+  {
+    "id": "BO-242",
+    "name": "San Pedro de Curahuara Municipality",
+    "country": "BO",
+    "region": "Gualberto Villarroel Province",
+    "domain": "",
+    "osm_relation_id": 4502217
+  },
+  {
+    "id": "BO-243",
+    "name": "San Pedro de Macha Municipality",
+    "country": "BO",
+    "region": "Chayanta Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-244",
+    "name": "San Pedro de Quemes Municipality",
+    "country": "BO",
+    "region": "Nor Lípez Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-245",
+    "name": "San Pedro de Tiquina Municipality",
+    "country": "BO",
+    "region": "Manco Kapac Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-246",
+    "name": "San Pedro de Totora Municipality",
+    "country": "BO",
+    "region": "San Pedro de Totora Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-247",
+    "name": "San Rafael Municipality",
+    "country": "BO",
+    "region": "José Miguel de Velasco Province",
+    "domain": "",
+    "osm_relation_id": 4511305
+  },
+  {
+    "id": "BO-248",
+    "name": "San Ramón",
+    "country": "BO",
+    "region": "Ñuflo de Chaves Province",
+    "domain": "",
+    "osm_relation_id": 4511276
+  },
+  {
+    "id": "BO-249",
+    "name": "San Ramón Municipality",
+    "country": "BO",
+    "region": "Mamoré Province",
+    "domain": "",
+    "osm_relation_id": 4055850
+  },
+  {
+    "id": "BO-250",
+    "name": "Santa Ana del Yacuma Municipality",
+    "country": "BO",
+    "region": "Yacuma Province",
+    "domain": "santaanabeni.gob.bo"
+  },
+  {
+    "id": "BO-251",
+    "name": "Santa Cruz de la Sierra Municipality",
+    "country": "BO",
+    "region": "Andrés Ibáñez Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-252",
+    "name": "Santa Rosa Municipality",
+    "country": "BO",
+    "region": "José Ballivián Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-253",
+    "name": "Santa Rosa del Sara Municipality",
+    "country": "BO",
+    "region": "Sara Province",
+    "domain": "",
+    "osm_relation_id": 4511498
+  },
+  {
+    "id": "BO-254",
+    "name": "Santiago de Callapa Municipality",
+    "country": "BO",
+    "region": "Pacajes Province",
+    "domain": "",
+    "osm_relation_id": 4500788
+  },
+  {
+    "id": "BO-255",
+    "name": "Santiago de Huata Municipality",
+    "country": "BO",
+    "region": "La Paz Department",
+    "domain": "",
+    "osm_relation_id": 4500361
+  },
+  {
+    "id": "BO-256",
+    "name": "Santiago de Machaca Municipality",
+    "country": "BO",
+    "region": "José Manuel Pando Province",
+    "domain": "",
+    "osm_relation_id": 4500610
+  },
+  {
+    "id": "BO-257",
+    "name": "Santiváñez Municipality",
+    "country": "BO",
+    "region": "Capinota Province",
+    "domain": "",
+    "osm_relation_id": 4505766
+  },
+  {
+    "id": "BO-258",
+    "name": "Santuario de Quillacas",
+    "country": "BO",
+    "region": "Eduardo Abaroa Province",
+    "domain": "",
+    "osm_relation_id": 4495089
+  },
+  {
+    "id": "BO-259",
+    "name": "Sapahaqui Municipality",
+    "country": "BO",
+    "region": "Loayza Province",
+    "domain": "",
+    "osm_relation_id": 4502106
+  },
+  {
+    "id": "BO-260",
+    "name": "Shinahota Municipality",
+    "country": "BO",
+    "region": "Tiraque Province",
+    "domain": "",
+    "osm_relation_id": 4505816
+  },
+  {
+    "id": "BO-261",
+    "name": "Sica Sica Municipality",
+    "country": "BO",
+    "region": "Aroma Province",
+    "domain": "",
+    "osm_relation_id": 4500836
+  },
+  {
+    "id": "BO-262",
+    "name": "Sicaya Municipality",
+    "country": "BO",
+    "region": "Capinota Province",
+    "domain": "",
+    "osm_relation_id": 4505767
+  },
+  {
+    "id": "BO-263",
+    "name": "Sipe Sipe Municipality",
+    "country": "BO",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "BO-264",
+    "name": "Soracachi",
+    "country": "BO",
+    "region": "Cercado Province (Oruro)",
+    "domain": "",
+    "osm_relation_id": 4494711
+  },
+  {
+    "id": "BO-265",
+    "name": "Sorata Municipality",
+    "country": "BO",
+    "region": "Larecaja Province",
+    "domain": "",
+    "osm_relation_id": 4499783
+  },
+  {
+    "id": "BO-266",
+    "name": "Sucre Municipality",
+    "country": "BO",
+    "region": "Oropeza Province",
+    "domain": "",
+    "osm_relation_id": 4507878
+  },
+  {
+    "id": "BO-267",
+    "name": "Supachuy",
+    "country": "BO",
+    "region": "Tomina Province",
+    "domain": "",
+    "osm_relation_id": 4507934
+  },
+  {
+    "id": "BO-268",
+    "name": "Tacachi Municipality",
+    "country": "BO",
+    "region": "Punata Province",
+    "domain": "",
+    "osm_relation_id": 4505802
+  },
+  {
+    "id": "BO-269",
+    "name": "Tacacoma Municipality",
+    "country": "BO",
+    "region": "Larecaja Province",
+    "domain": "",
+    "osm_relation_id": 4499721
+  },
+  {
+    "id": "BO-270",
+    "name": "Tacobamba",
+    "country": "BO",
+    "region": "Cornelio Saavedra Province",
+    "domain": "",
+    "osm_relation_id": 4128145
+  },
+  {
+    "id": "BO-271",
+    "name": "Tacopaya Municipality",
+    "country": "BO",
+    "region": "Arque Province",
+    "domain": "",
+    "osm_relation_id": 4505717
+  },
+  {
+    "id": "BO-272",
+    "name": "Tahua Municipality",
+    "country": "BO",
+    "region": "Daniel Campos Province",
+    "domain": "",
+    "osm_relation_id": 4135011
+  },
+  {
+    "id": "BO-273",
+    "name": "Tapacarí",
+    "country": "BO",
+    "region": "Tapacarí Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-274",
+    "name": "Tarabuco Municipality",
+    "country": "BO",
+    "region": "Yamparáez Province",
+    "domain": "",
+    "osm_relation_id": 4507914
+  },
+  {
+    "id": "BO-275",
+    "name": "Taraco Municipality",
+    "country": "BO",
+    "region": "Ingavi Province",
+    "domain": "",
+    "osm_relation_id": 4500578
+  },
+  {
+    "id": "BO-276",
+    "name": "Tarata Municipality",
+    "country": "BO",
+    "region": "Esteban Arce Province",
+    "domain": "",
+    "osm_relation_id": 4505768
+  },
+  {
+    "id": "BO-277",
+    "name": "Tarija Municipality",
+    "country": "BO",
+    "region": "Cercado Province (Tarija)",
+    "domain": "",
+    "osm_relation_id": 4509727
+  },
+  {
+    "id": "BO-278",
+    "name": "Tarvita",
+    "country": "BO",
+    "region": "Chuquisaca Department",
+    "domain": "",
+    "osm_relation_id": 4509410
+  },
+  {
+    "id": "BO-279",
+    "name": "Teoponte Municipality",
+    "country": "BO",
+    "region": "Larecaja Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-280",
+    "name": "Tinguipaya Municipality",
+    "country": "BO",
+    "region": "Tomás Frías Province",
+    "domain": "",
+    "osm_relation_id": 4127119
+  },
+  {
+    "id": "BO-281",
+    "name": "Tipuani Municipality",
+    "country": "BO",
+    "region": "Larecaja Province",
+    "domain": "",
+    "osm_relation_id": 4499785
+  },
+  {
+    "id": "BO-282",
+    "name": "Tiquipaya Municipality",
+    "country": "BO",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "BO-283",
+    "name": "Tiraque Municipality",
+    "country": "BO",
+    "region": "Tiraque Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-284",
+    "name": "Tito Yupanqui Municipality",
+    "country": "BO",
+    "region": "Manco Kapac Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-285",
+    "name": "Tiwanaku Municipality",
+    "country": "BO",
+    "region": "Ingavi Province",
+    "domain": "",
+    "osm_relation_id": 4500579
+  },
+  {
+    "id": "BO-286",
+    "name": "Toco Municipality",
+    "country": "BO",
+    "region": "Germán Jordán Province",
+    "domain": "",
+    "osm_relation_id": 4505782
+  },
+  {
+    "id": "BO-287",
+    "name": "Todos Santos",
+    "country": "BO",
+    "region": "Puerto de Mejillones Province",
+    "domain": "",
+    "osm_relation_id": 4494971
+  },
+  {
+    "id": "BO-288",
+    "name": "Tolata Municipality",
+    "country": "BO",
+    "region": "Germán Jordán Province",
+    "domain": "",
+    "osm_relation_id": 4505783
+  },
+  {
+    "id": "BO-289",
+    "name": "Toledo Municipality",
+    "country": "BO",
+    "region": "Saucarí Province",
+    "domain": "",
+    "osm_relation_id": 4494747
+  },
+  {
+    "id": "BO-290",
+    "name": "Tomave Municipality",
+    "country": "BO",
+    "region": "Antonio Quijarro Province",
+    "domain": "",
+    "osm_relation_id": 4137631
+  },
+  {
+    "id": "BO-291",
+    "name": "Tomina",
+    "country": "BO",
+    "region": "Chuquisaca Department",
+    "domain": "",
+    "osm_relation_id": 4507935
+  },
+  {
+    "id": "BO-292",
+    "name": "Torotoro",
+    "country": "BO",
+    "region": "Charcas Province",
+    "domain": "",
+    "osm_relation_id": 4126937
+  },
+  {
+    "id": "BO-293",
+    "name": "Totora Municipality",
+    "country": "BO",
+    "region": "Carrasco Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-294",
+    "name": "Trigal",
+    "country": "BO",
+    "region": "Vallegrande Province (Santa Cruz)",
+    "domain": "",
+    "osm_relation_id": 4511480
+  },
+  {
+    "id": "BO-295",
+    "name": "Trinidad Municipality",
+    "country": "BO",
+    "region": "Cercado Province (Beni)",
+    "domain": "",
+    "osm_relation_id": 4058397
+  },
+  {
+    "id": "BO-296",
+    "name": "Tupiza Municipality",
+    "country": "BO",
+    "region": "Sud Chichas Province",
+    "domain": "",
+    "osm_relation_id": 4137632
+  },
+  {
+    "id": "BO-297",
+    "name": "Turco Municipality",
+    "country": "BO",
+    "region": "Sajama Province",
+    "domain": "",
+    "osm_relation_id": 4482220
+  },
+  {
+    "id": "BO-298",
+    "name": "Umala Municipality",
+    "country": "BO",
+    "region": "Aroma Province",
+    "domain": "",
+    "osm_relation_id": 4500837
+  },
+  {
+    "id": "BO-299",
+    "name": "Umanata Municipality",
+    "country": "BO",
+    "region": "Eliodoro Camacho Province",
+    "domain": "",
+    "osm_relation_id": 4499652
+  },
+  {
+    "id": "BO-300",
+    "name": "Uncía Municipality",
+    "country": "BO",
+    "region": "Rafael Bustillo Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-301",
+    "name": "Uriondo Municipality",
+    "country": "BO",
+    "region": "José María Avilés Province",
+    "domain": "",
+    "osm_relation_id": 4509729
+  },
+  {
+    "id": "BO-302",
+    "name": "Urmiri",
+    "country": "BO",
+    "region": "Tomás Frías Province",
+    "domain": "",
+    "osm_relation_id": 4127120
+  },
+  {
+    "id": "BO-303",
+    "name": "Uru Chipaya",
+    "country": "BO",
+    "region": "Oruro Department",
+    "domain": "",
+    "osm_relation_id": 4494864
+  },
+  {
+    "id": "BO-304",
+    "name": "Urubichá",
+    "country": "BO",
+    "region": "Santa Cruz Department",
+    "domain": ""
+  },
+  {
+    "id": "BO-305",
+    "name": "Uyuni Municipality",
+    "country": "BO",
+    "region": "Antonio Quijarro Province",
+    "domain": "enlared.org.bo",
+    "osm_relation_id": 4137633
+  },
+  {
+    "id": "BO-306",
+    "name": "Vacas Municipality",
+    "country": "BO",
+    "region": "",
+    "domain": "",
+    "osm_relation_id": 4505814
+  },
+  {
+    "id": "BO-307",
+    "name": "Vallegrande",
+    "country": "BO",
+    "region": "Vallegrande Province (Santa Cruz)",
+    "domain": "vallegrande.org",
+    "osm_relation_id": 4511481
+  },
+  {
+    "id": "BO-308",
+    "name": "Viacha Municipality",
+    "country": "BO",
+    "region": "Ingavi Province",
+    "domain": "",
+    "osm_relation_id": 4500580
+  },
+  {
+    "id": "BO-309",
+    "name": "Vila Vila Municipality",
+    "country": "BO",
+    "region": "Mizque Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-310",
+    "name": "Villa Abecia Municipality",
+    "country": "BO",
+    "region": "Sud Cinti Province",
+    "domain": "",
+    "osm_relation_id": 4509411
+  },
+  {
+    "id": "BO-311",
+    "name": "Villa Alcalá",
+    "country": "BO",
+    "region": "Chuquisaca Department",
+    "domain": "",
+    "osm_relation_id": 4507936
+  },
+  {
+    "id": "BO-312",
+    "name": "Villa Azurduy Municipality",
+    "country": "BO",
+    "region": "Juana Azurduy de Padilla Province",
+    "domain": "",
+    "osm_relation_id": 4509412
+  },
+  {
+    "id": "BO-313",
+    "name": "Villa Charcas Municipality",
+    "country": "BO",
+    "region": "Nor Cinti Province",
+    "domain": "",
+    "osm_relation_id": 4509378
+  },
+  {
+    "id": "BO-314",
+    "name": "Villa Montes",
+    "country": "BO",
+    "region": "Tarija Department",
+    "domain": "",
+    "osm_relation_id": 4509731
+  },
+  {
+    "id": "BO-315",
+    "name": "Villa Rivero Municipality",
+    "country": "BO",
+    "region": "Punata Province",
+    "domain": "",
+    "osm_relation_id": 4505803
+  },
+  {
+    "id": "BO-316",
+    "name": "Villa San Lorenzo",
+    "country": "BO",
+    "region": "Eustaquio Méndez Province",
+    "domain": "",
+    "osm_relation_id": 4509730
+  },
+  {
+    "id": "BO-317",
+    "name": "Villa Serrano",
+    "country": "BO",
+    "region": "Belisario Boeto Province",
+    "domain": "",
+    "osm_relation_id": 4507937
+  },
+  {
+    "id": "BO-318",
+    "name": "Villa Tunari Municipality",
+    "country": "BO",
+    "region": "Chapare Province",
+    "domain": "",
+    "osm_relation_id": 4505644
+  },
+  {
+    "id": "BO-319",
+    "name": "Villa Vaca Guzmán Municipality",
+    "country": "BO",
+    "region": "Luis Calvo Province",
+    "domain": "",
+    "osm_relation_id": 4509413
+  },
+  {
+    "id": "BO-320",
+    "name": "Vinto Municipality",
+    "country": "BO",
+    "region": "",
+    "domain": "",
+    "osm_relation_id": 4505700
+  },
+  {
+    "id": "BO-321",
+    "name": "Vitichi Municipality",
+    "country": "BO",
+    "region": "Nor Chichas Province",
+    "domain": "",
+    "osm_relation_id": 4137634
+  },
+  {
+    "id": "BO-322",
+    "name": "Waldo Ballivián Municipality",
+    "country": "BO",
+    "region": "Pacajes Province",
+    "domain": "",
+    "osm_relation_id": 4500789
+  },
+  {
+    "id": "BO-323",
+    "name": "Warnes Municipality",
+    "country": "BO",
+    "region": "Warnes Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-324",
+    "name": "Yaco Municipality",
+    "country": "BO",
+    "region": "Loayza Province",
+    "domain": "",
+    "osm_relation_id": 4502107
+  },
+  {
+    "id": "BO-325",
+    "name": "Yacuíba",
+    "country": "BO",
+    "region": "Gran Chaco Province",
+    "domain": "",
+    "osm_relation_id": 4509732
+  },
+  {
+    "id": "BO-326",
+    "name": "Yamparáez",
+    "country": "BO",
+    "region": "Chuquisaca Department",
+    "domain": ""
+  },
+  {
+    "id": "BO-327",
+    "name": "Yanacachi Municipality",
+    "country": "BO",
+    "region": "Sud Yungas Province",
+    "domain": "",
+    "osm_relation_id": 4500325
+  },
+  {
+    "id": "BO-328",
+    "name": "Yapacani",
+    "country": "BO",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "BO-329",
+    "name": "Yocalla Municipality",
+    "country": "BO",
+    "region": "Tomás Frías Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-330",
+    "name": "Yotala",
+    "country": "BO",
+    "region": "Oropeza Province",
+    "domain": "",
+    "osm_relation_id": 4507879
+  },
+  {
+    "id": "BO-331",
+    "name": "Yunchará",
+    "country": "BO",
+    "region": "José María Avilés Province",
+    "domain": "",
+    "osm_relation_id": 4509733
+  },
+  {
+    "id": "BO-332",
+    "name": "Yunguyo del Litoral",
+    "country": "BO",
+    "region": "Litoral de Atacama Province",
+    "domain": "",
+    "osm_relation_id": 4494824
+  },
+  {
+    "id": "BO-333",
+    "name": "Zudáñez Municipality",
+    "country": "BO",
+    "region": "Jaime Zudáñez Province",
+    "domain": "",
+    "osm_relation_id": 4507909
+  },
+  {
+    "id": "BO-334",
+    "name": "Culpina",
+    "country": "BO",
+    "region": "Sud Cinti Province",
+    "domain": "",
+    "osm_relation_id": 4509404
+  },
+  {
+    "id": "BO-335",
+    "name": "Salinas de Garcí Mendoza",
+    "country": "BO",
+    "region": "Ladislao Cabrera Province",
+    "domain": ""
+  },
+  {
+    "id": "BO-336",
+    "name": "San Pedro",
+    "country": "BO",
+    "region": "Ñuflo de Chaves Province",
+    "domain": ""
+  }
+]

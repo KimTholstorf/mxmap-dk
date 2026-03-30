@@ -122,6 +122,19 @@ SEED_FILES = {
     "KW": "municipalities_kw.json",
     "IR": "municipalities_ir.json",
     "IL": "municipalities_il.json",
+    # South America
+    "AR": "municipalities_ar.json",
+    "BO": "municipalities_bo.json",
+    "BR": "municipalities_br.json",
+    "CL": "municipalities_cl.json",
+    "CO": "municipalities_co.json",
+    "EC": "municipalities_ec.json",
+    "GY": "municipalities_gy.json",
+    "PE": "municipalities_pe.json",
+    "PY": "municipalities_py.json",
+    "SR": "municipalities_sr.json",
+    "UY": "municipalities_uy.json",
+    "VE": "municipalities_ve.json",
 }
 
 
@@ -222,6 +235,16 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         " regional council",  # AU/NZ
         " shire council",
         " shire",  # AU
+        " canton",
+        " cantón",  # Ecuador
+        " municipio",  # South America (ES)
+        " município",  # Brazil (PT)
+        " distrito",  # Peru
+        " departamento",  # Argentina/Uruguay
+        " provincia",  # Peru
+        " comuna",  # Chile
+        " partido",  # Argentina (Buenos Aires)
+        " ressort",  # Suriname
     ]:
         if raw.endswith(suffix):
             raw = raw[: -len(suffix)]
@@ -432,6 +455,19 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         "KW": [".gov.kw", ".kw"],
         "IR": [".gov.ir", ".ir"],
         "IL": [".gov.il", ".muni.il", ".il"],
+        # South America
+        "AR": [".gob.ar", ".gov.ar", ".ar"],
+        "BO": [".gob.bo", ".bo"],
+        "BR": [".gov.br", ".com.br", ".br"],
+        "CL": [".gob.cl", ".cl"],
+        "CO": [".gov.co", ".co"],
+        "EC": [".gob.ec", ".ec"],
+        "GY": [".gov.gy", ".gy"],
+        "PE": [".gob.pe", ".pe"],
+        "PY": [".gov.py", ".py"],
+        "SR": [".gov.sr", ".sr"],
+        "UY": [".gub.uy", ".uy"],
+        "VE": [".gob.ve", ".ve"],
     }
     tlds = tld_map.get(
         country, [".ee", ".lv", ".lt", ".fi", ".no", ".se", ".de", ".dk"]
