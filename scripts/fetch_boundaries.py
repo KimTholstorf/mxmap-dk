@@ -85,7 +85,7 @@ COUNTRY_CONFIG = {
     "BD": {"admin_level": 4, "iso": "BD", "name": "Bangladesh"},
     "PK": {"admin_level": 4, "iso": "PK", "name": "Pakistan"},
     "LK": {"admin_level": 5, "iso": "LK", "name": "Sri Lanka"},
-    "NP": {"admin_level": 5, "iso": "NP", "name": "Nepal"},
+    "NP": {"admin_level": 6, "iso": "NP", "name": "Nepal"},
     # Central Asia
     "KZ": {"admin_level": 4, "iso": "KZ", "name": "Kazakhstan"},
     "UZ": {"admin_level": 4, "iso": "UZ", "name": "Uzbekistan"},

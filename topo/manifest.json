@@ -745,6 +745,21 @@
       "kp_municipality.topo.json": 67287
     }
   },
+  "KR": {
+    "levels": [
+      "region",
+      "district",
+      "municipality"
+    ],
+    "files": {
+      "region": "kr_municipality.topo.json",
+      "district": "kr_municipality.topo.json",
+      "municipality": "kr_municipality.topo.json"
+    },
+    "sizes": {
+      "kr_municipality.topo.json": 332233
+    }
+  },
   "KW": {
     "levels": [
       "region",
@@ -1004,6 +1019,21 @@
     "sizes": {
       "no_region.topo.json": 23656,
       "no_municipality.topo.json": 240941
+    }
+  },
+  "NP": {
+    "levels": [
+      "region",
+      "district",
+      "municipality"
+    ],
+    "files": {
+      "region": "np_municipality.topo.json",
+      "district": "np_municipality.topo.json",
+      "municipality": "np_municipality.topo.json"
+    },
+    "sizes": {
+      "np_municipality.topo.json": 147149
     }
   },
   "NZ": {
