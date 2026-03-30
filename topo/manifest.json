@@ -623,6 +623,21 @@
       "in_municipality.topo.json": 922696
     }
   },
+  "IQ": {
+    "levels": [
+      "region",
+      "district",
+      "municipality"
+    ],
+    "files": {
+      "region": "iq_municipality.topo.json",
+      "district": "iq_municipality.topo.json",
+      "municipality": "iq_municipality.topo.json"
+    },
+    "sizes": {
+      "iq_municipality.topo.json": 104418
+    }
+  },
   "IS": {
     "levels": [
       "region",
@@ -713,6 +728,36 @@
     },
     "sizes": {
       "kp_municipality.topo.json": 67287
+    }
+  },
+  "LA": {
+    "levels": [
+      "region",
+      "district",
+      "municipality"
+    ],
+    "files": {
+      "region": "la_municipality.topo.json",
+      "district": "la_municipality.topo.json",
+      "municipality": "la_municipality.topo.json"
+    },
+    "sizes": {
+      "la_municipality.topo.json": 106721
+    }
+  },
+  "LB": {
+    "levels": [
+      "region",
+      "district",
+      "municipality"
+    ],
+    "files": {
+      "region": "lb_municipality.topo.json",
+      "district": "lb_municipality.topo.json",
+      "municipality": "lb_municipality.topo.json"
+    },
+    "sizes": {
+      "lb_municipality.topo.json": 45186
     }
   },
   "LI": {
@@ -1098,6 +1143,21 @@
       "rs_municipality.topo.json": 342779
     }
   },
+  "SA": {
+    "levels": [
+      "region",
+      "district",
+      "municipality"
+    ],
+    "files": {
+      "region": "sa_municipality.topo.json",
+      "district": "sa_municipality.topo.json",
+      "municipality": "sa_municipality.topo.json"
+    },
+    "sizes": {
+      "sa_municipality.topo.json": 257321
+    }
+  },
   "SE": {
     "levels": [
       "region",
@@ -1174,6 +1234,21 @@
     },
     "sizes": {
       "th_municipality.topo.json": 1284852
+    }
+  },
+  "TL": {
+    "levels": [
+      "region",
+      "district",
+      "municipality"
+    ],
+    "files": {
+      "region": "tl_municipality.topo.json",
+      "district": "tl_municipality.topo.json",
+      "municipality": "tl_municipality.topo.json"
+    },
+    "sizes": {
+      "tl_municipality.topo.json": 101544
     }
   },
   "TO": {
