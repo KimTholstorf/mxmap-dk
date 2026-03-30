@@ -101,7 +101,7 @@ COUNTRY_CONFIG = {
     "LB": {"admin_level": 4, "iso": "LB", "name": "Lebanon"},
     "KW": {"admin_level": 4, "iso": "KW", "name": "Kuwait"},
     "IR": {"admin_level": 4, "iso": "IR", "name": "Iran"},
-    "IL": {"admin_level": 6, "iso": "IL", "name": "Israel"},
+    "IL": {"admin_level": 4, "iso": "IL", "name": "Israel"},
 }
 
 
