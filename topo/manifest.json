@@ -1171,6 +1171,21 @@
       "om_municipality.topo.json": 216126
     }
   },
+  "PE": {
+    "levels": [
+      "region",
+      "district",
+      "municipality"
+    ],
+    "files": {
+      "region": "pe_municipality.topo.json",
+      "district": "pe_municipality.topo.json",
+      "municipality": "pe_municipality.topo.json"
+    },
+    "sizes": {
+      "pe_municipality.topo.json": 558689
+    }
+  },
   "PG": {
     "files": {
       "district": "pg_municipality.topo.json",
