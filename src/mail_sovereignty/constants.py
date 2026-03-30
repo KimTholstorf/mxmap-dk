@@ -411,6 +411,8 @@ LOCAL_ISP_ASNS: dict[int, str] = {
     48707: "Aftermarket.pl (PL)",
     41079: "CF Gdańsk (PL)",
     13110: "INEA (PL)",
+    28978: "webserwer.pl/COIG (PL)",
+    41508: "webh.email/IWACOM (PL)",
     # Portugal
     3243: "MEO/Altice (PT)",
     2860: "NOS (PT)",
@@ -601,6 +603,7 @@ LOCAL_ISP_ASNS: dict[int, str] = {
     # Belarus
     60330: "BCT/g-cloud.by (BY)",  # Government cloud (mg.g-cloud.by)
     6697: "Belpak (BY)",
+    25513: "nomessage.ru (RU)",  # Russian mail provider used by BY municipalities
     # Serbia
     8400: "Telekom Srbija (RS)",
     # Moldova
