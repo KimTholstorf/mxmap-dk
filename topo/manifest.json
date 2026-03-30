@@ -638,6 +638,21 @@
       "iq_municipality.topo.json": 104418
     }
   },
+  "IR": {
+    "levels": [
+      "region",
+      "district",
+      "municipality"
+    ],
+    "files": {
+      "region": "ir_municipality.topo.json",
+      "district": "ir_municipality.topo.json",
+      "municipality": "ir_municipality.topo.json"
+    },
+    "sizes": {
+      "ir_municipality.topo.json": 237559
+    }
+  },
   "IS": {
     "levels": [
       "region",
@@ -728,6 +743,21 @@
     },
     "sizes": {
       "kp_municipality.topo.json": 67287
+    }
+  },
+  "KW": {
+    "levels": [
+      "region",
+      "district",
+      "municipality"
+    ],
+    "files": {
+      "region": "kw_municipality.topo.json",
+      "district": "kw_municipality.topo.json",
+      "municipality": "kw_municipality.topo.json"
+    },
+    "sizes": {
+      "kw_municipality.topo.json": 13444
     }
   },
   "LA": {
