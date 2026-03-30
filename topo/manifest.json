@@ -59,6 +59,21 @@
       "am_municipality.topo.json": 14052
     }
   },
+  "AR": {
+    "levels": [
+      "region",
+      "district",
+      "municipality"
+    ],
+    "files": {
+      "region": "ar_municipality.topo.json",
+      "district": "ar_municipality.topo.json",
+      "municipality": "ar_municipality.topo.json"
+    },
+    "sizes": {
+      "ar_municipality.topo.json": 765473
+    }
+  },
   "AT": {
     "files": {
       "district": "at_district.topo.json",
