@@ -715,6 +715,21 @@
       "jp_municipality.topo.json": 483415
     }
   },
+  "KG": {
+    "levels": [
+      "region",
+      "district",
+      "municipality"
+    ],
+    "files": {
+      "region": "kg_municipality.topo.json",
+      "district": "kg_municipality.topo.json",
+      "municipality": "kg_municipality.topo.json"
+    },
+    "sizes": {
+      "kg_municipality.topo.json": 66811
+    }
+  },
   "KH": {
     "levels": [
       "region",
