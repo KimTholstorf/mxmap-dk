@@ -21,7 +21,12 @@ ROOT = Path(__file__).resolve().parent.parent
 TOPO_DIR = ROOT / "topo"
 DATA_DIR = ROOT / "data"
 
-OVERPASS_URL = "https://overpass-api.de/api/interpreter"
+OVERPASS_URLS = [
+    "https://overpass-api.de/api/interpreter",
+    "https://overpass.kumi.systems/api/interpreter",
+    "https://overpass.private.coffee/api/interpreter",
+]
+_overpass_idx = 0
 
 # OSM admin_level per country + ISO 3166-1 alpha-2 codes for area filter
 COUNTRY_CONFIG = {
@@ -119,10 +124,13 @@ COUNTRY_CONFIG = {
 
 
 def overpass_query(query: str) -> dict:
-    """Execute Overpass API query and return JSON."""
+    """Execute Overpass API query and return JSON. Rotates between servers."""
+    global _overpass_idx
+    url = OVERPASS_URLS[_overpass_idx % len(OVERPASS_URLS)]
+    _overpass_idx += 1
     data = urllib.parse.urlencode({"data": query}).encode()
     req = urllib.request.Request(
-        OVERPASS_URL,
+        url,
         data=data,
         headers={"User-Agent": "MXMap/1.0"},
     )
