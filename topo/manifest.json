@@ -215,18 +215,18 @@
     }
   },
   "BO": {
-    "files": {
-      "district": "bo_municipality.topo.json",
-      "municipality": "bo_municipality.topo.json",
-      "region": "bo_municipality.topo.json"
-    },
     "levels": [
       "region",
       "district",
       "municipality"
     ],
+    "files": {
+      "region": "bo_municipality.topo.json",
+      "district": "bo_municipality.topo.json",
+      "municipality": "bo_municipality.topo.json"
+    },
     "sizes": {
-      "bo_municipality.topo.json": 325223
+      "bo_municipality.topo.json": 569504
     }
   },
   "BR": {
@@ -1295,18 +1295,18 @@
     }
   },
   "PY": {
-    "files": {
-      "district": "py_municipality.topo.json",
-      "municipality": "py_municipality.topo.json",
-      "region": "py_municipality.topo.json"
-    },
     "levels": [
       "region",
       "district",
       "municipality"
     ],
+    "files": {
+      "region": "py_municipality.topo.json",
+      "district": "py_municipality.topo.json",
+      "municipality": "py_municipality.topo.json"
+    },
     "sizes": {
-      "py_municipality.topo.json": 35309
+      "py_municipality.topo.json": 373293
     }
   },
   "QA": {
