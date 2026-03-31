@@ -66,12 +66,13 @@
       "municipality"
     ],
     "files": {
-      "region": "ar_municipality.topo.json",
+      "region": "ar_region.topo.json",
       "district": "ar_municipality.topo.json",
       "municipality": "ar_municipality.topo.json"
     },
     "sizes": {
-      "ar_municipality.topo.json": 765473
+      "ar_municipality.topo.json": 714448,
+      "ar_region.topo.json": 210197
     }
   },
   "AT": {
