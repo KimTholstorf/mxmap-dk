@@ -1,0 +1,127 @@
+[
+  {
+    "id": "SL-001",
+    "name": "Bo District",
+    "country": "SL",
+    "region": "Southern Province",
+    "domain": "",
+    "osm_relation_id": 3228959
+  },
+  {
+    "id": "SL-002",
+    "name": "Bombali District",
+    "country": "SL",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 3230900
+  },
+  {
+    "id": "SL-003",
+    "name": "Bonthe District",
+    "country": "SL",
+    "region": "Southern Province",
+    "domain": "bonthedc.net",
+    "osm_relation_id": 2655937
+  },
+  {
+    "id": "SL-004",
+    "name": "Falaba District",
+    "country": "SL",
+    "region": "Northern Province",
+    "domain": ""
+  },
+  {
+    "id": "SL-005",
+    "name": "Kailahun District",
+    "country": "SL",
+    "region": "Eastern Province",
+    "domain": "",
+    "osm_relation_id": 3230901
+  },
+  {
+    "id": "SL-006",
+    "name": "Kambia District",
+    "country": "SL",
+    "region": "North West Province",
+    "domain": "",
+    "osm_relation_id": 3228942
+  },
+  {
+    "id": "SL-007",
+    "name": "Karene District",
+    "country": "SL",
+    "region": "North West Province",
+    "domain": "",
+    "osm_relation_id": 9641203
+  },
+  {
+    "id": "SL-008",
+    "name": "Kenema District",
+    "country": "SL",
+    "region": "Eastern Province",
+    "domain": "",
+    "osm_relation_id": 3230902
+  },
+  {
+    "id": "SL-009",
+    "name": "Koinadugu District",
+    "country": "SL",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 3230906
+  },
+  {
+    "id": "SL-010",
+    "name": "Kono District",
+    "country": "SL",
+    "region": "Eastern Province",
+    "domain": "",
+    "osm_relation_id": 3230907
+  },
+  {
+    "id": "SL-011",
+    "name": "Moyamba District",
+    "country": "SL",
+    "region": "Southern Province",
+    "domain": "",
+    "osm_relation_id": 2541142
+  },
+  {
+    "id": "SL-012",
+    "name": "Port Loko District",
+    "country": "SL",
+    "region": "North West Province",
+    "domain": "",
+    "osm_relation_id": 2541143
+  },
+  {
+    "id": "SL-013",
+    "name": "Pujehun District",
+    "country": "SL",
+    "region": "Southern Province",
+    "domain": "",
+    "osm_relation_id": 2607579
+  },
+  {
+    "id": "SL-014",
+    "name": "Tonkolili District",
+    "country": "SL",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 2610026
+  },
+  {
+    "id": "SL-015",
+    "name": "Western Area Rural District",
+    "country": "SL",
+    "region": "Western Area",
+    "domain": ""
+  },
+  {
+    "id": "SL-016",
+    "name": "Western Area Urban District",
+    "country": "SL",
+    "region": "Western Area",
+    "domain": ""
+  }
+]

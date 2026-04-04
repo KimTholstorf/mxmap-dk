@@ -1,0 +1,1473 @@
+[
+  {
+    "id": "SD-001",
+    "name": "#N/A District",
+    "country": "SD",
+    "region": "South Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-002",
+    "name": "Abassiya District",
+    "country": "SD",
+    "region": "South Kordofan",
+    "domain": ""
+  },
+  {
+    "id": "SD-003",
+    "name": "Abu Hamad District",
+    "country": "SD",
+    "region": "River Nile",
+    "domain": "",
+    "osm_relation_id": 3924783
+  },
+  {
+    "id": "SD-004",
+    "name": "Abu Hujar District",
+    "country": "SD",
+    "region": "Sennar",
+    "domain": ""
+  },
+  {
+    "id": "SD-005",
+    "name": "Abu Jabrah District",
+    "country": "SD",
+    "region": "East Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-006",
+    "name": "Abu Jubaiyah District",
+    "country": "SD",
+    "region": "South Kordofan",
+    "domain": "",
+    "osm_relation_id": 8539345
+  },
+  {
+    "id": "SD-007",
+    "name": "Abu Karinka District",
+    "country": "SD",
+    "region": "East Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-008",
+    "name": "Abu Zabad District",
+    "country": "SD",
+    "region": "West Kordofan",
+    "domain": ""
+  },
+  {
+    "id": "SD-009",
+    "name": "Abyei District",
+    "country": "SD",
+    "region": "South Kordofan",
+    "domain": "",
+    "osm_relation_id": 8539343
+  },
+  {
+    "id": "SD-010",
+    "name": "Ad Damazin District",
+    "country": "SD",
+    "region": "Blue Nile State",
+    "domain": "",
+    "osm_relation_id": 4680124
+  },
+  {
+    "id": "SD-011",
+    "name": "Ad Damer District",
+    "country": "SD",
+    "region": "River Nile",
+    "domain": "",
+    "osm_relation_id": 4664616
+  },
+  {
+    "id": "SD-012",
+    "name": "Ad Dinder District",
+    "country": "SD",
+    "region": "Sennar",
+    "domain": "",
+    "osm_relation_id": 4719434
+  },
+  {
+    "id": "SD-013",
+    "name": "Ad Douiem District",
+    "country": "SD",
+    "region": "White Nile",
+    "domain": "",
+    "osm_relation_id": 8539320
+  },
+  {
+    "id": "SD-014",
+    "name": "Adayala District",
+    "country": "SD",
+    "region": "South Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-015",
+    "name": "Addabah District",
+    "country": "SD",
+    "region": "Northern State",
+    "domain": ""
+  },
+  {
+    "id": "SD-016",
+    "name": "Addali District",
+    "country": "SD",
+    "region": "Sennar",
+    "domain": ""
+  },
+  {
+    "id": "SD-017",
+    "name": "Adila District",
+    "country": "SD",
+    "region": "East Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-018",
+    "name": "Agig District",
+    "country": "SD",
+    "region": "Red Sea",
+    "domain": ""
+  },
+  {
+    "id": "SD-019",
+    "name": "Al Buhaira District",
+    "country": "SD",
+    "region": "River Nile",
+    "domain": ""
+  },
+  {
+    "id": "SD-020",
+    "name": "Al Buram District",
+    "country": "SD",
+    "region": "South Kordofan",
+    "domain": ""
+  },
+  {
+    "id": "SD-021",
+    "name": "Al Burgaig District",
+    "country": "SD",
+    "region": "Northern State",
+    "domain": ""
+  },
+  {
+    "id": "SD-022",
+    "name": "Al Butanah District",
+    "country": "SD",
+    "region": "Al Qadarif",
+    "domain": ""
+  },
+  {
+    "id": "SD-023",
+    "name": "Al Deain District",
+    "country": "SD",
+    "region": "South Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-024",
+    "name": "Al Dibab District",
+    "country": "SD",
+    "region": "West Kordofan",
+    "domain": ""
+  },
+  {
+    "id": "SD-025",
+    "name": "Al Fasher District",
+    "country": "SD",
+    "region": "North Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-026",
+    "name": "Al Fasher District (old)",
+    "country": "SD",
+    "region": "North Darfur",
+    "domain": "",
+    "osm_relation_id": 8539323
+  },
+  {
+    "id": "SD-027",
+    "name": "Al Faw District",
+    "country": "SD",
+    "region": "Al Qadarif",
+    "domain": ""
+  },
+  {
+    "id": "SD-028",
+    "name": "Al Firdous District",
+    "country": "SD",
+    "region": "East Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-029",
+    "name": "Al Fushqa District",
+    "country": "SD",
+    "region": "Al Qadarif",
+    "domain": "",
+    "osm_relation_id": 19713755
+  },
+  {
+    "id": "SD-030",
+    "name": "Al Gadaref District",
+    "country": "SD",
+    "region": "Al Qadarif",
+    "domain": ""
+  },
+  {
+    "id": "SD-031",
+    "name": "Al Galabat Al Gharbyah District",
+    "country": "SD",
+    "region": "Al Qadarif",
+    "domain": ""
+  },
+  {
+    "id": "SD-032",
+    "name": "Al Galabat District",
+    "country": "SD",
+    "region": "Al Qadarif",
+    "domain": "",
+    "osm_relation_id": 4677252
+  },
+  {
+    "id": "SD-033",
+    "name": "Al Ganab District",
+    "country": "SD",
+    "region": "Red Sea",
+    "domain": ""
+  },
+  {
+    "id": "SD-034",
+    "name": "Al Gash District",
+    "country": "SD",
+    "region": "Kassala",
+    "domain": "",
+    "osm_relation_id": 4669951
+  },
+  {
+    "id": "SD-035",
+    "name": "Al Geneina District",
+    "country": "SD",
+    "region": "West Darfur",
+    "domain": "",
+    "osm_relation_id": 15803605
+  },
+  {
+    "id": "SD-036",
+    "name": "Al Golid District",
+    "country": "SD",
+    "region": "Northern State",
+    "domain": ""
+  },
+  {
+    "id": "SD-037",
+    "name": "Al Gutaina District",
+    "country": "SD",
+    "region": "White Nile",
+    "domain": "",
+    "osm_relation_id": 8539321
+  },
+  {
+    "id": "SD-038",
+    "name": "Al Hasaheisa",
+    "country": "SD",
+    "region": "Gezira",
+    "domain": ""
+  },
+  {
+    "id": "SD-039",
+    "name": "Al Idia District",
+    "country": "SD",
+    "region": "West Kordofan",
+    "domain": ""
+  },
+  {
+    "id": "SD-040",
+    "name": "Al Jabalian District",
+    "country": "SD",
+    "region": "White Nile",
+    "domain": "",
+    "osm_relation_id": 8539318
+  },
+  {
+    "id": "SD-041",
+    "name": "Al Kamlin District",
+    "country": "SD",
+    "region": "Gezira",
+    "domain": ""
+  },
+  {
+    "id": "SD-042",
+    "name": "Al Khiwai District",
+    "country": "SD",
+    "region": "West Kordofan",
+    "domain": ""
+  },
+  {
+    "id": "SD-043",
+    "name": "Al Koma District",
+    "country": "SD",
+    "region": "North Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-044",
+    "name": "Al Kurumik District",
+    "country": "SD",
+    "region": "Blue Nile State",
+    "domain": "",
+    "osm_relation_id": 4677316
+  },
+  {
+    "id": "SD-045",
+    "name": "Al Lait District",
+    "country": "SD",
+    "region": "North Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-046",
+    "name": "Al Leri District",
+    "country": "SD",
+    "region": "South Kordofan",
+    "domain": ""
+  },
+  {
+    "id": "SD-047",
+    "name": "Al Mafaza District",
+    "country": "SD",
+    "region": "Al Qadarif",
+    "domain": ""
+  },
+  {
+    "id": "SD-048",
+    "name": "Al Malha District",
+    "country": "SD",
+    "region": "North Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-049",
+    "name": "Al Matammah District",
+    "country": "SD",
+    "region": "River Nile",
+    "domain": "",
+    "osm_relation_id": 4668059
+  },
+  {
+    "id": "SD-050",
+    "name": "Al Meiram District",
+    "country": "SD",
+    "region": "West Kordofan",
+    "domain": ""
+  },
+  {
+    "id": "SD-051",
+    "name": "Al Qadarif District",
+    "country": "SD",
+    "region": "Al Qadarif",
+    "domain": ""
+  },
+  {
+    "id": "SD-052",
+    "name": "Al Quoz District",
+    "country": "SD",
+    "region": "South Kordofan",
+    "domain": ""
+  },
+  {
+    "id": "SD-053",
+    "name": "Al Qureisha District",
+    "country": "SD",
+    "region": "Al Qadarif",
+    "domain": ""
+  },
+  {
+    "id": "SD-054",
+    "name": "Al Radoum District",
+    "country": "SD",
+    "region": "South Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-055",
+    "name": "Al Rahd District",
+    "country": "SD",
+    "region": "Al Qadarif",
+    "domain": ""
+  },
+  {
+    "id": "SD-056",
+    "name": "Al Roseires District",
+    "country": "SD",
+    "region": "Blue Nile State",
+    "domain": "",
+    "osm_relation_id": 4680123
+  },
+  {
+    "id": "SD-057",
+    "name": "Al Waha District",
+    "country": "SD",
+    "region": "North Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-058",
+    "name": "Al Wihda District",
+    "country": "SD",
+    "region": "South Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-059",
+    "name": "Annuhud District",
+    "country": "SD",
+    "region": "West Kordofan",
+    "domain": ""
+  },
+  {
+    "id": "SD-060",
+    "name": "Arrahad District",
+    "country": "SD",
+    "region": "North Kordofan",
+    "domain": ""
+  },
+  {
+    "id": "SD-061",
+    "name": "Arreif Ashargi District",
+    "country": "SD",
+    "region": "South Kordofan",
+    "domain": ""
+  },
+  {
+    "id": "SD-062",
+    "name": "As Salam District",
+    "country": "SD",
+    "region": "South Kordofan",
+    "domain": "",
+    "osm_relation_id": 8539341
+  },
+  {
+    "id": "SD-063",
+    "name": "Assalam District",
+    "country": "SD",
+    "region": "White Nile",
+    "domain": ""
+  },
+  {
+    "id": "SD-064",
+    "name": "Assalam District",
+    "country": "SD",
+    "region": "West Kordofan",
+    "domain": ""
+  },
+  {
+    "id": "SD-065",
+    "name": "Assalam District",
+    "country": "SD",
+    "region": "South Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-066",
+    "name": "Assalaya District",
+    "country": "SD",
+    "region": "East Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-067",
+    "name": "Asserief District",
+    "country": "SD",
+    "region": "North Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-068",
+    "name": "Assuki District",
+    "country": "SD",
+    "region": "Sennar",
+    "domain": ""
+  },
+  {
+    "id": "SD-069",
+    "name": "Assunta District",
+    "country": "SD",
+    "region": "South Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-070",
+    "name": "Assunut District",
+    "country": "SD",
+    "region": "West Kordofan",
+    "domain": ""
+  },
+  {
+    "id": "SD-071",
+    "name": "At Tina District",
+    "country": "SD",
+    "region": "North Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-072",
+    "name": "Atbara District",
+    "country": "SD",
+    "region": "River Nile",
+    "domain": "",
+    "osm_relation_id": 4667777
+  },
+  {
+    "id": "SD-073",
+    "name": "Attadamon District",
+    "country": "SD",
+    "region": "South Kordofan",
+    "domain": ""
+  },
+  {
+    "id": "SD-074",
+    "name": "Attadamon District",
+    "country": "SD",
+    "region": "Blue Nile State",
+    "domain": ""
+  },
+  {
+    "id": "SD-075",
+    "name": "Azum District",
+    "country": "SD",
+    "region": "West Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-076",
+    "name": "Azum District",
+    "country": "SD",
+    "region": "Central Darfur",
+    "domain": "",
+    "osm_relation_id": 18380203
+  },
+  {
+    "id": "SD-077",
+    "name": "Babanusa District",
+    "country": "SD",
+    "region": "West Kordofan",
+    "domain": ""
+  },
+  {
+    "id": "SD-078",
+    "name": "Bahr Al Arab District",
+    "country": "SD",
+    "region": "East Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-079",
+    "name": "Bara District",
+    "country": "SD",
+    "region": "North Kordofan",
+    "domain": "",
+    "osm_relation_id": 8539338
+  },
+  {
+    "id": "SD-080",
+    "name": "Basundah District",
+    "country": "SD",
+    "region": "Al Qadarif",
+    "domain": ""
+  },
+  {
+    "id": "SD-081",
+    "name": "Baw District",
+    "country": "SD",
+    "region": "Blue Nile State",
+    "domain": "",
+    "osm_relation_id": 4679967
+  },
+  {
+    "id": "SD-082",
+    "name": "Beida District",
+    "country": "SD",
+    "region": "West Darfur",
+    "domain": "",
+    "osm_relation_id": 15807078
+  },
+  {
+    "id": "SD-083",
+    "name": "Beliel District",
+    "country": "SD",
+    "region": "South Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-084",
+    "name": "Bendasi District",
+    "country": "SD",
+    "region": "Central Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-085",
+    "name": "Berber District",
+    "country": "SD",
+    "region": "River Nile",
+    "domain": ""
+  },
+  {
+    "id": "SD-086",
+    "name": "Buram District",
+    "country": "SD",
+    "region": "South Darfur",
+    "domain": "",
+    "osm_relation_id": 8539333
+  },
+  {
+    "id": "SD-087",
+    "name": "Damso District",
+    "country": "SD",
+    "region": "South Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-088",
+    "name": "Dar Assalam District",
+    "country": "SD",
+    "region": "North Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-089",
+    "name": "Delami District",
+    "country": "SD",
+    "region": "South Kordofan",
+    "domain": ""
+  },
+  {
+    "id": "SD-090",
+    "name": "Delgo District",
+    "country": "SD",
+    "region": "Northern State",
+    "domain": ""
+  },
+  {
+    "id": "SD-091",
+    "name": "Dilling District",
+    "country": "SD",
+    "region": "South Kordofan",
+    "domain": "",
+    "osm_relation_id": 8539346
+  },
+  {
+    "id": "SD-092",
+    "name": "Dongola District",
+    "country": "SD",
+    "region": "Northern State",
+    "domain": ""
+  },
+  {
+    "id": "SD-093",
+    "name": "Dordieb District",
+    "country": "SD",
+    "region": "Red Sea",
+    "domain": ""
+  },
+  {
+    "id": "SD-094",
+    "name": "East al Gazera District",
+    "country": "SD",
+    "region": "Gezira",
+    "domain": ""
+  },
+  {
+    "id": "SD-095",
+    "name": "Edd al Fursan District",
+    "country": "SD",
+    "region": "South Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-096",
+    "name": "El Manaqil District",
+    "country": "SD",
+    "region": "Gezira",
+    "domain": ""
+  },
+  {
+    "id": "SD-097",
+    "name": "En Nuhud District",
+    "country": "SD",
+    "region": "North Kordofan",
+    "domain": "",
+    "osm_relation_id": 8539339
+  },
+  {
+    "id": "SD-098",
+    "name": "Forbranga District",
+    "country": "SD",
+    "region": "West Darfur",
+    "domain": "",
+    "osm_relation_id": 15803230
+  },
+  {
+    "id": "SD-099",
+    "name": "Gala'a Annahal District",
+    "country": "SD",
+    "region": "Al Qadarif",
+    "domain": ""
+  },
+  {
+    "id": "SD-100",
+    "name": "Galabat Ashargiah District",
+    "country": "SD",
+    "region": "Al Qadarif",
+    "domain": ""
+  },
+  {
+    "id": "SD-101",
+    "name": "Geissan District",
+    "country": "SD",
+    "region": "Blue Nile State",
+    "domain": "",
+    "osm_relation_id": 4677354
+  },
+  {
+    "id": "SD-102",
+    "name": "Gereida District",
+    "country": "SD",
+    "region": "South Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-103",
+    "name": "Ghadeer District",
+    "country": "SD",
+    "region": "South Kordofan",
+    "domain": ""
+  },
+  {
+    "id": "SD-104",
+    "name": "Gharb Bara District",
+    "country": "SD",
+    "region": "North Kordofan",
+    "domain": ""
+  },
+  {
+    "id": "SD-105",
+    "name": "Gharb Kassala District",
+    "country": "SD",
+    "region": "Kassala",
+    "domain": ""
+  },
+  {
+    "id": "SD-106",
+    "name": "Ghebeish District",
+    "country": "SD",
+    "region": "North Kordofan",
+    "domain": ""
+  },
+  {
+    "id": "SD-107",
+    "name": "Ghubaish District",
+    "country": "SD",
+    "region": "West Kordofan",
+    "domain": ""
+  },
+  {
+    "id": "SD-108",
+    "name": "Habillah District",
+    "country": "SD",
+    "region": "South Kordofan",
+    "domain": ""
+  },
+  {
+    "id": "SD-109",
+    "name": "Habillah District",
+    "country": "SD",
+    "region": "West Darfur",
+    "domain": "",
+    "osm_relation_id": 15807100
+  },
+  {
+    "id": "SD-110",
+    "name": "Halayeb District",
+    "country": "SD",
+    "region": "Red Sea",
+    "domain": "",
+    "osm_relation_id": 3922875
+  },
+  {
+    "id": "SD-111",
+    "name": "Halfa Aljadeedah District",
+    "country": "SD",
+    "region": "Kassala",
+    "domain": ""
+  },
+  {
+    "id": "SD-112",
+    "name": "Hamashkorieb District",
+    "country": "SD",
+    "region": "Kassala",
+    "domain": "",
+    "osm_relation_id": 4669807
+  },
+  {
+    "id": "SD-113",
+    "name": "Haya District",
+    "country": "SD",
+    "region": "Red Sea",
+    "domain": ""
+  },
+  {
+    "id": "SD-114",
+    "name": "Heiban District",
+    "country": "SD",
+    "region": "South Kordofan",
+    "domain": ""
+  },
+  {
+    "id": "SD-115",
+    "name": "Janub Addelta District",
+    "country": "SD",
+    "region": "Kassala",
+    "domain": ""
+  },
+  {
+    "id": "SD-116",
+    "name": "Jebel Awlia District",
+    "country": "SD",
+    "region": "Khartoum",
+    "domain": ""
+  },
+  {
+    "id": "SD-117",
+    "name": "Jebel Marra District",
+    "country": "SD",
+    "region": "West Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-118",
+    "name": "Jebel Mun",
+    "country": "SD",
+    "region": "West Darfur",
+    "domain": "",
+    "osm_relation_id": 15807049
+  },
+  {
+    "id": "SD-119",
+    "name": "Jebrat al Sheikh District",
+    "country": "SD",
+    "region": "North Kordofan",
+    "domain": "",
+    "osm_relation_id": 8539335
+  },
+  {
+    "id": "SD-120",
+    "name": "Jubayt Elma'aadin District",
+    "country": "SD",
+    "region": "Red Sea",
+    "domain": ""
+  },
+  {
+    "id": "SD-121",
+    "name": "Kadugli District",
+    "country": "SD",
+    "region": "South Kordofan",
+    "domain": "",
+    "osm_relation_id": 8539347
+  },
+  {
+    "id": "SD-122",
+    "name": "Karary District",
+    "country": "SD",
+    "region": "Khartoum",
+    "domain": ""
+  },
+  {
+    "id": "SD-123",
+    "name": "Kas District",
+    "country": "SD",
+    "region": "South Darfur",
+    "domain": "",
+    "osm_relation_id": 8539329
+  },
+  {
+    "id": "SD-124",
+    "name": "Kassala District",
+    "country": "SD",
+    "region": "Kassala",
+    "domain": ""
+  },
+  {
+    "id": "SD-125",
+    "name": "Kateila District",
+    "country": "SD",
+    "region": "South Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-126",
+    "name": "Kebkabiya District",
+    "country": "SD",
+    "region": "North Darfur",
+    "domain": "",
+    "osm_relation_id": 8539326
+  },
+  {
+    "id": "SD-127",
+    "name": "Keilak District",
+    "country": "SD",
+    "region": "West Kordofan",
+    "domain": ""
+  },
+  {
+    "id": "SD-128",
+    "name": "Kelemando District",
+    "country": "SD",
+    "region": "North Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-129",
+    "name": "Kereneik District",
+    "country": "SD",
+    "region": "West Darfur",
+    "domain": "",
+    "osm_relation_id": 15807102
+  },
+  {
+    "id": "SD-130",
+    "name": "Kernoi District",
+    "country": "SD",
+    "region": "North Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-131",
+    "name": "Khartoum Bahri District",
+    "country": "SD",
+    "region": "Khartoum",
+    "domain": ""
+  },
+  {
+    "id": "SD-132",
+    "name": "Khartoum District",
+    "country": "SD",
+    "region": "Khartoum",
+    "domain": ""
+  },
+  {
+    "id": "SD-133",
+    "name": "Kosti District",
+    "country": "SD",
+    "region": "White Nile",
+    "domain": "",
+    "osm_relation_id": 8539319
+  },
+  {
+    "id": "SD-134",
+    "name": "Kubum District",
+    "country": "SD",
+    "region": "South Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-135",
+    "name": "Kulbus District",
+    "country": "SD",
+    "region": "West Darfur",
+    "domain": "",
+    "osm_relation_id": 15803747
+  },
+  {
+    "id": "SD-136",
+    "name": "Kutum District",
+    "country": "SD",
+    "region": "North Darfur",
+    "domain": "",
+    "osm_relation_id": 8539325
+  },
+  {
+    "id": "SD-137",
+    "name": "Lagawa District",
+    "country": "SD",
+    "region": "West Kordofan",
+    "domain": "",
+    "osm_relation_id": 8539342
+  },
+  {
+    "id": "SD-138",
+    "name": "Medani Alkubra District",
+    "country": "SD",
+    "region": "Gezira",
+    "domain": ""
+  },
+  {
+    "id": "SD-139",
+    "name": "Mellit District",
+    "country": "SD",
+    "region": "North Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-140",
+    "name": "Merawi District",
+    "country": "SD",
+    "region": "Northern State",
+    "domain": ""
+  },
+  {
+    "id": "SD-141",
+    "name": "Mershing District",
+    "country": "SD",
+    "region": "South Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-142",
+    "name": "Mukjar District",
+    "country": "SD",
+    "region": "Central Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-143",
+    "name": "Mukjar District",
+    "country": "SD",
+    "region": "Central Darfur",
+    "domain": "",
+    "osm_relation_id": 19671504
+  },
+  {
+    "id": "SD-144",
+    "name": "Nahr Atbara District",
+    "country": "SD",
+    "region": "Kassala",
+    "domain": "",
+    "osm_relation_id": 4669991
+  },
+  {
+    "id": "SD-145",
+    "name": "Nertiti District",
+    "country": "SD",
+    "region": "West Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-146",
+    "name": "Nertiti District",
+    "country": "SD",
+    "region": "Central Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-147",
+    "name": "Nitega District",
+    "country": "SD",
+    "region": "South Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-148",
+    "name": "North al Gazera District",
+    "country": "SD",
+    "region": "Gezira",
+    "domain": ""
+  },
+  {
+    "id": "SD-149",
+    "name": "Nyala District",
+    "country": "SD",
+    "region": "South Darfur",
+    "domain": "",
+    "osm_relation_id": 8539330
+  },
+  {
+    "id": "SD-150",
+    "name": "Nyala Shimal District",
+    "country": "SD",
+    "region": "South Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-151",
+    "name": "Omdurman District",
+    "country": "SD",
+    "region": "Khartoum",
+    "domain": ""
+  },
+  {
+    "id": "SD-152",
+    "name": "Port Sudan District",
+    "country": "SD",
+    "region": "Red Sea",
+    "domain": "",
+    "osm_relation_id": 3922829
+  },
+  {
+    "id": "SD-153",
+    "name": "Rabak District",
+    "country": "SD",
+    "region": "White Nile",
+    "domain": ""
+  },
+  {
+    "id": "SD-154",
+    "name": "Rashad District",
+    "country": "SD",
+    "region": "South Kordofan",
+    "domain": "",
+    "osm_relation_id": 8539344
+  },
+  {
+    "id": "SD-155",
+    "name": "Rehed al Birdi District",
+    "country": "SD",
+    "region": "South Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-156",
+    "name": "Reifi Elgirba District",
+    "country": "SD",
+    "region": "Kassala",
+    "domain": ""
+  },
+  {
+    "id": "SD-157",
+    "name": "Reifi Kassla District",
+    "country": "SD",
+    "region": "Kassala",
+    "domain": ""
+  },
+  {
+    "id": "SD-158",
+    "name": "Rokirro District",
+    "country": "SD",
+    "region": "Central Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-159",
+    "name": "Saraf Omra District",
+    "country": "SD",
+    "region": "North Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-160",
+    "name": "Sawakin District",
+    "country": "SD",
+    "region": "Red Sea",
+    "domain": ""
+  },
+  {
+    "id": "SD-161",
+    "name": "Sennar District",
+    "country": "SD",
+    "region": "Sennar",
+    "domain": ""
+  },
+  {
+    "id": "SD-162",
+    "name": "Seteet District",
+    "country": "SD",
+    "region": "Kassala",
+    "domain": ""
+  },
+  {
+    "id": "SD-163",
+    "name": "Shamal Addelta District",
+    "country": "SD",
+    "region": "Kassala",
+    "domain": ""
+  },
+  {
+    "id": "SD-164",
+    "name": "Sharg En Nile District",
+    "country": "SD",
+    "region": "Khartoum",
+    "domain": ""
+  },
+  {
+    "id": "SD-165",
+    "name": "Sharg Sennar District",
+    "country": "SD",
+    "region": "Sennar",
+    "domain": ""
+  },
+  {
+    "id": "SD-166",
+    "name": "Shattaya District",
+    "country": "SD",
+    "region": "South Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-167",
+    "name": "Shearia District",
+    "country": "SD",
+    "region": "South Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-168",
+    "name": "Sheikan District",
+    "country": "SD",
+    "region": "North Kordofan",
+    "domain": ""
+  },
+  {
+    "id": "SD-169",
+    "name": "Shendi District",
+    "country": "SD",
+    "region": "River Nile",
+    "domain": "",
+    "osm_relation_id": 4667997
+  },
+  {
+    "id": "SD-170",
+    "name": "Shia'ria District",
+    "country": "SD",
+    "region": "East Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-171",
+    "name": "Singa District",
+    "country": "SD",
+    "region": "Sennar",
+    "domain": ""
+  },
+  {
+    "id": "SD-172",
+    "name": "Sinkat District",
+    "country": "SD",
+    "region": "Red Sea",
+    "domain": "",
+    "osm_relation_id": 3922866
+  },
+  {
+    "id": "SD-173",
+    "name": "Sirba District",
+    "country": "SD",
+    "region": "West Darfur",
+    "domain": "",
+    "osm_relation_id": 15807113
+  },
+  {
+    "id": "SD-174",
+    "name": "South Khartoum District",
+    "country": "SD",
+    "region": "Khartoum",
+    "domain": ""
+  },
+  {
+    "id": "SD-175",
+    "name": "South al Gazera District",
+    "country": "SD",
+    "region": "Gezira",
+    "domain": ""
+  },
+  {
+    "id": "SD-176",
+    "name": "Sowdari District",
+    "country": "SD",
+    "region": "North Kordofan",
+    "domain": "",
+    "osm_relation_id": 8539334
+  },
+  {
+    "id": "SD-177",
+    "name": "Talodi District",
+    "country": "SD",
+    "region": "South Kordofan",
+    "domain": "",
+    "osm_relation_id": 8539348
+  },
+  {
+    "id": "SD-178",
+    "name": "Tawilla District",
+    "country": "SD",
+    "region": "North Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-179",
+    "name": "Tawisha District",
+    "country": "SD",
+    "region": "North Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-180",
+    "name": "Telkok District",
+    "country": "SD",
+    "region": "Kassala",
+    "domain": ""
+  },
+  {
+    "id": "SD-181",
+    "name": "Tendalti District",
+    "country": "SD",
+    "region": "White Nile",
+    "domain": ""
+  },
+  {
+    "id": "SD-182",
+    "name": "Tokar District",
+    "country": "SD",
+    "region": "Red Sea",
+    "domain": "",
+    "osm_relation_id": 3922867
+  },
+  {
+    "id": "SD-183",
+    "name": "Tulus District",
+    "country": "SD",
+    "region": "South Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-184",
+    "name": "Um Al Gura District",
+    "country": "SD",
+    "region": "Gezira",
+    "domain": ""
+  },
+  {
+    "id": "SD-185",
+    "name": "Um Badda District",
+    "country": "SD",
+    "region": "Khartoum",
+    "domain": ""
+  },
+  {
+    "id": "SD-186",
+    "name": "Um Baru District",
+    "country": "SD",
+    "region": "North Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-187",
+    "name": "Um Dafoug District",
+    "country": "SD",
+    "region": "South Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-188",
+    "name": "Um Dam Haj Ahmed District",
+    "country": "SD",
+    "region": "North Kordofan",
+    "domain": ""
+  },
+  {
+    "id": "SD-189",
+    "name": "Um Dukhun District",
+    "country": "SD",
+    "region": "West Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-190",
+    "name": "Um Dukhun District",
+    "country": "SD",
+    "region": "Central Darfur",
+    "domain": "",
+    "osm_relation_id": 19730408
+  },
+  {
+    "id": "SD-191",
+    "name": "Um Durein District",
+    "country": "SD",
+    "region": "South Kordofan",
+    "domain": ""
+  },
+  {
+    "id": "SD-192",
+    "name": "Um Kadada District",
+    "country": "SD",
+    "region": "North Darfur",
+    "domain": "",
+    "osm_relation_id": 8539322
+  },
+  {
+    "id": "SD-193",
+    "name": "Um Rawaba District",
+    "country": "SD",
+    "region": "North Kordofan",
+    "domain": "",
+    "osm_relation_id": 8539337
+  },
+  {
+    "id": "SD-194",
+    "name": "Um Rimta District",
+    "country": "SD",
+    "region": "White Nile",
+    "domain": ""
+  },
+  {
+    "id": "SD-195",
+    "name": "Wad Bandah District",
+    "country": "SD",
+    "region": "West Kordofan",
+    "domain": ""
+  },
+  {
+    "id": "SD-196",
+    "name": "Wad Elhilaiw District",
+    "country": "SD",
+    "region": "Kassala",
+    "domain": ""
+  },
+  {
+    "id": "SD-197",
+    "name": "Wadi Halfa District",
+    "country": "SD",
+    "region": "Northern State",
+    "domain": ""
+  },
+  {
+    "id": "SD-198",
+    "name": "Wadi Salih District",
+    "country": "SD",
+    "region": "West Darfur",
+    "domain": "",
+    "osm_relation_id": 18380201
+  },
+  {
+    "id": "SD-199",
+    "name": "Wasat Algedaref District",
+    "country": "SD",
+    "region": "Al Qadarif",
+    "domain": ""
+  },
+  {
+    "id": "SD-200",
+    "name": "Yassin District",
+    "country": "SD",
+    "region": "East Darfur",
+    "domain": ""
+  },
+  {
+    "id": "SD-201",
+    "name": "Zallingi District",
+    "country": "SD",
+    "region": "Central Darfur",
+    "domain": "",
+    "osm_relation_id": 8539327
+  },
+  {
+    "id": "SD-202",
+    "name": "شرق الجبل (السودان)",
+    "country": "SD",
+    "region": "South Darfur",
+    "domain": ""
+  }
+]

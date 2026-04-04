@@ -1,0 +1,3124 @@
+[
+  {
+    "id": "RW-001",
+    "name": "Base",
+    "country": "RW",
+    "region": "Rulindo District",
+    "domain": "",
+    "osm_relation_id": 1793060
+  },
+  {
+    "id": "RW-002",
+    "name": "Bigogwe Sector",
+    "country": "RW",
+    "region": "Western Province",
+    "domain": ""
+  },
+  {
+    "id": "RW-003",
+    "name": "Boneza",
+    "country": "RW",
+    "region": "Rutsiro District",
+    "domain": ""
+  },
+  {
+    "id": "RW-004",
+    "name": "Bugarama Sector",
+    "country": "RW",
+    "region": "Rusizi District",
+    "domain": ""
+  },
+  {
+    "id": "RW-005",
+    "name": "Bugeshi",
+    "country": "RW",
+    "region": "Rubavu District",
+    "domain": "",
+    "osm_relation_id": 2281187
+  },
+  {
+    "id": "RW-006",
+    "name": "Bukure",
+    "country": "RW",
+    "region": "Gicumbi District",
+    "domain": "",
+    "osm_relation_id": 1793993
+  },
+  {
+    "id": "RW-007",
+    "name": "Bumbogo",
+    "country": "RW",
+    "region": "Gasabo District",
+    "domain": ""
+  },
+  {
+    "id": "RW-008",
+    "name": "Bungwe",
+    "country": "RW",
+    "region": "Burera District",
+    "domain": "",
+    "osm_relation_id": 1738770
+  },
+  {
+    "id": "RW-009",
+    "name": "Busanze",
+    "country": "RW",
+    "region": "Nyaruguru District",
+    "domain": ""
+  },
+  {
+    "id": "RW-010",
+    "name": "Busasamana",
+    "country": "RW",
+    "region": "Rubavu District",
+    "domain": "",
+    "osm_relation_id": 2281188
+  },
+  {
+    "id": "RW-011",
+    "name": "Busasamana Sector, Nyanza",
+    "country": "RW",
+    "region": "Nyanza District",
+    "domain": "",
+    "osm_relation_id": 1730872
+  },
+  {
+    "id": "RW-012",
+    "name": "Busengo",
+    "country": "RW",
+    "region": "Gakenke District",
+    "domain": "",
+    "osm_relation_id": 1755774
+  },
+  {
+    "id": "RW-013",
+    "name": "Bushekeri",
+    "country": "RW",
+    "region": "Nyamasheke District",
+    "domain": ""
+  },
+  {
+    "id": "RW-014",
+    "name": "Bushenge",
+    "country": "RW",
+    "region": "Nyamasheke District",
+    "domain": ""
+  },
+  {
+    "id": "RW-015",
+    "name": "Bushoki",
+    "country": "RW",
+    "region": "Rulindo District",
+    "domain": "",
+    "osm_relation_id": 1793061
+  },
+  {
+    "id": "RW-016",
+    "name": "Busogo Sector",
+    "country": "RW",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 1756034
+  },
+  {
+    "id": "RW-017",
+    "name": "Busoro",
+    "country": "RW",
+    "region": "Nyanza District",
+    "domain": "",
+    "osm_relation_id": 1730891
+  },
+  {
+    "id": "RW-018",
+    "name": "Butare",
+    "country": "RW",
+    "region": "Western Province",
+    "domain": "",
+    "osm_relation_id": 1746349
+  },
+  {
+    "id": "RW-019",
+    "name": "Butaro",
+    "country": "RW",
+    "region": "Burera District",
+    "domain": ""
+  },
+  {
+    "id": "RW-020",
+    "name": "Buyoga",
+    "country": "RW",
+    "region": "Rulindo District",
+    "domain": "",
+    "osm_relation_id": 1793062
+  },
+  {
+    "id": "RW-021",
+    "name": "Bweramana",
+    "country": "RW",
+    "region": "Ruhango District",
+    "domain": "",
+    "osm_relation_id": 3952424
+  },
+  {
+    "id": "RW-022",
+    "name": "Bweyeye",
+    "country": "RW",
+    "region": "Rusizi District",
+    "domain": "",
+    "osm_relation_id": 1746350
+  },
+  {
+    "id": "RW-023",
+    "name": "Bwira",
+    "country": "RW",
+    "region": "Ngororero District",
+    "domain": "",
+    "osm_relation_id": 2852702
+  },
+  {
+    "id": "RW-024",
+    "name": "Bwishyura",
+    "country": "RW",
+    "region": "Karongi district",
+    "domain": "",
+    "osm_relation_id": 1820429
+  },
+  {
+    "id": "RW-025",
+    "name": "Bwisige",
+    "country": "RW",
+    "region": "Gicumbi District",
+    "domain": "",
+    "osm_relation_id": 1796128
+  },
+  {
+    "id": "RW-026",
+    "name": "Byimana",
+    "country": "RW",
+    "region": "Ruhango District",
+    "domain": ""
+  },
+  {
+    "id": "RW-027",
+    "name": "Byumba Sector",
+    "country": "RW",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 1796174
+  },
+  {
+    "id": "RW-028",
+    "name": "Coko",
+    "country": "RW",
+    "region": "Gakenke District",
+    "domain": "",
+    "osm_relation_id": 1755733
+  },
+  {
+    "id": "RW-029",
+    "name": "Cyabakamyi",
+    "country": "RW",
+    "region": "Nyanza District",
+    "domain": "",
+    "osm_relation_id": 1730873
+  },
+  {
+    "id": "RW-030",
+    "name": "Cyabingo",
+    "country": "RW",
+    "region": "Gakenke District",
+    "domain": "",
+    "osm_relation_id": 1755775
+  },
+  {
+    "id": "RW-031",
+    "name": "Cyahinda",
+    "country": "RW",
+    "region": "Nyaruguru District",
+    "domain": ""
+  },
+  {
+    "id": "RW-032",
+    "name": "Cyanika",
+    "country": "RW",
+    "region": "Burera District",
+    "domain": "",
+    "osm_relation_id": 1714332
+  },
+  {
+    "id": "RW-033",
+    "name": "Cyanika",
+    "country": "RW",
+    "region": "Nyamagabe District",
+    "domain": ""
+  },
+  {
+    "id": "RW-034",
+    "name": "Cyanzarwe",
+    "country": "RW",
+    "region": "Rubavu District",
+    "domain": "",
+    "osm_relation_id": 2281152
+  },
+  {
+    "id": "RW-035",
+    "name": "Cyato",
+    "country": "RW",
+    "region": "Nyamasheke District",
+    "domain": "",
+    "osm_relation_id": 3972682
+  },
+  {
+    "id": "RW-036",
+    "name": "Cyeru",
+    "country": "RW",
+    "region": "Burera District",
+    "domain": "",
+    "osm_relation_id": 1736854
+  },
+  {
+    "id": "RW-037",
+    "name": "Cyeza",
+    "country": "RW",
+    "region": "Muhanga District",
+    "domain": "",
+    "osm_relation_id": 3952364
+  },
+  {
+    "id": "RW-038",
+    "name": "Cyinzuzi",
+    "country": "RW",
+    "region": "Rulindo District",
+    "domain": "",
+    "osm_relation_id": 1793020
+  },
+  {
+    "id": "RW-039",
+    "name": "Cyumba",
+    "country": "RW",
+    "region": "Gicumbi District",
+    "domain": "",
+    "osm_relation_id": 1796175
+  },
+  {
+    "id": "RW-040",
+    "name": "Cyungo",
+    "country": "RW",
+    "region": "Rulindo District",
+    "domain": "",
+    "osm_relation_id": 1793072
+  },
+  {
+    "id": "RW-041",
+    "name": "Cyuve",
+    "country": "RW",
+    "region": "Musanze District",
+    "domain": ""
+  },
+  {
+    "id": "RW-042",
+    "name": "Fumbwe",
+    "country": "RW",
+    "region": "Rwamagana district",
+    "domain": "",
+    "osm_relation_id": 1729742
+  },
+  {
+    "id": "RW-043",
+    "name": "Gacaca",
+    "country": "RW",
+    "region": "Musanze District",
+    "domain": "",
+    "osm_relation_id": 1756500
+  },
+  {
+    "id": "RW-044",
+    "name": "Gacurabwenge",
+    "country": "RW",
+    "region": "Kamonyi District",
+    "domain": "",
+    "osm_relation_id": 3954985
+  },
+  {
+    "id": "RW-045",
+    "name": "Gahanga",
+    "country": "RW",
+    "region": "Kicukiro District",
+    "domain": ""
+  },
+  {
+    "id": "RW-046",
+    "name": "Gahara",
+    "country": "RW",
+    "region": "Kirehe District",
+    "domain": "",
+    "osm_relation_id": 1716713
+  },
+  {
+    "id": "RW-047",
+    "name": "Gahengeri",
+    "country": "RW",
+    "region": "Rwamagana district",
+    "domain": "",
+    "osm_relation_id": 1729754
+  },
+  {
+    "id": "RW-048",
+    "name": "Gahini",
+    "country": "RW",
+    "region": "Kayonza District",
+    "domain": ""
+  },
+  {
+    "id": "RW-049",
+    "name": "Gahunga",
+    "country": "RW",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 1737412
+  },
+  {
+    "id": "RW-050",
+    "name": "Gakenke",
+    "country": "RW",
+    "region": "Gakenke District",
+    "domain": "",
+    "osm_relation_id": 1755869
+  },
+  {
+    "id": "RW-051",
+    "name": "Gasaka",
+    "country": "RW",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 3966063
+  },
+  {
+    "id": "RW-052",
+    "name": "Gasange",
+    "country": "RW",
+    "region": "Gatsibo District",
+    "domain": "",
+    "osm_relation_id": 1730280
+  },
+  {
+    "id": "RW-053",
+    "name": "Gashaki",
+    "country": "RW",
+    "region": "Musanze District",
+    "domain": "",
+    "osm_relation_id": 1756501
+  },
+  {
+    "id": "RW-054",
+    "name": "Gashanda",
+    "country": "RW",
+    "region": "Eastern Province",
+    "domain": "",
+    "osm_relation_id": 1727496
+  },
+  {
+    "id": "RW-055",
+    "name": "Gashenyi",
+    "country": "RW",
+    "region": "Gakenke District",
+    "domain": "",
+    "osm_relation_id": 1755870
+  },
+  {
+    "id": "RW-056",
+    "name": "Gashonga",
+    "country": "RW",
+    "region": "Rusizi District",
+    "domain": ""
+  },
+  {
+    "id": "RW-057",
+    "name": "Gashora",
+    "country": "RW",
+    "region": "Bugesera District",
+    "domain": "",
+    "osm_relation_id": 1727940
+  },
+  {
+    "id": "RW-058",
+    "name": "Gataraga",
+    "country": "RW",
+    "region": "Musanze District",
+    "domain": "",
+    "osm_relation_id": 1756036
+  },
+  {
+    "id": "RW-059",
+    "name": "Gatare",
+    "country": "RW",
+    "region": "Nyamagabe District",
+    "domain": "",
+    "osm_relation_id": 3966132
+  },
+  {
+    "id": "RW-060",
+    "name": "Gatebe",
+    "country": "RW",
+    "region": "Burera District",
+    "domain": "",
+    "osm_relation_id": 1738771
+  },
+  {
+    "id": "RW-061",
+    "name": "Gatenga",
+    "country": "RW",
+    "region": "Kicukiro District",
+    "domain": ""
+  },
+  {
+    "id": "RW-062",
+    "name": "Gatore",
+    "country": "RW",
+    "region": "Kirehe District",
+    "domain": "",
+    "osm_relation_id": 1716714
+  },
+  {
+    "id": "RW-063",
+    "name": "Gatsata",
+    "country": "RW",
+    "region": "Gasabo District",
+    "domain": ""
+  },
+  {
+    "id": "RW-064",
+    "name": "Gatsibo",
+    "country": "RW",
+    "region": "Gatsibo District",
+    "domain": "",
+    "osm_relation_id": 1730302
+  },
+  {
+    "id": "RW-065",
+    "name": "Gatumba",
+    "country": "RW",
+    "region": "Western Province",
+    "domain": "",
+    "osm_relation_id": 2852670
+  },
+  {
+    "id": "RW-066",
+    "name": "Gatunda",
+    "country": "RW",
+    "region": "Nyagatare District",
+    "domain": "",
+    "osm_relation_id": 1718810
+  },
+  {
+    "id": "RW-067",
+    "name": "Gihango",
+    "country": "RW",
+    "region": "Rutsiro District",
+    "domain": ""
+  },
+  {
+    "id": "RW-068",
+    "name": "Giheke",
+    "country": "RW",
+    "region": "Rusizi District",
+    "domain": ""
+  },
+  {
+    "id": "RW-069",
+    "name": "Gihombo",
+    "country": "RW",
+    "region": "Nyamasheke District",
+    "domain": ""
+  },
+  {
+    "id": "RW-070",
+    "name": "Gihundwe Sector",
+    "country": "RW",
+    "region": "Western Province",
+    "domain": "",
+    "osm_relation_id": 1744249
+  },
+  {
+    "id": "RW-071",
+    "name": "Gikomero",
+    "country": "RW",
+    "region": "Gasabo District",
+    "domain": ""
+  },
+  {
+    "id": "RW-072",
+    "name": "Gikondo",
+    "country": "RW",
+    "region": "Kicukiro District",
+    "domain": ""
+  },
+  {
+    "id": "RW-073",
+    "name": "Gikonko",
+    "country": "RW",
+    "region": "Gisagara District",
+    "domain": "",
+    "osm_relation_id": 1729997
+  },
+  {
+    "id": "RW-074",
+    "name": "Gikundamvura",
+    "country": "RW",
+    "region": "Rusizi District",
+    "domain": ""
+  },
+  {
+    "id": "RW-075",
+    "name": "Gisenyi Sector",
+    "country": "RW",
+    "region": "Rubavu District",
+    "domain": "",
+    "osm_relation_id": 16361593
+  },
+  {
+    "id": "RW-076",
+    "name": "Gishali",
+    "country": "RW",
+    "region": "Rwamagana district",
+    "domain": "",
+    "osm_relation_id": 1729765
+  },
+  {
+    "id": "RW-077",
+    "name": "Gishamvu",
+    "country": "RW",
+    "region": "Huye District",
+    "domain": "",
+    "osm_relation_id": 3952118
+  },
+  {
+    "id": "RW-078",
+    "name": "Gishari",
+    "country": "RW",
+    "region": "Karongi district",
+    "domain": ""
+  },
+  {
+    "id": "RW-079",
+    "name": "Gishubi",
+    "country": "RW",
+    "region": "Gisagara District",
+    "domain": "",
+    "osm_relation_id": 1729958
+  },
+  {
+    "id": "RW-080",
+    "name": "Gishyita",
+    "country": "RW",
+    "region": "Karongi district",
+    "domain": "",
+    "osm_relation_id": 1820430
+  },
+  {
+    "id": "RW-081",
+    "name": "Gisozi",
+    "country": "RW",
+    "region": "Gasabo District",
+    "domain": ""
+  },
+  {
+    "id": "RW-082",
+    "name": "Gitambi",
+    "country": "RW",
+    "region": "Rusizi District",
+    "domain": ""
+  },
+  {
+    "id": "RW-083",
+    "name": "Gitega Sector",
+    "country": "RW",
+    "region": "Kigali",
+    "domain": ""
+  },
+  {
+    "id": "RW-084",
+    "name": "Gitesi",
+    "country": "RW",
+    "region": "Karongi district",
+    "domain": "",
+    "osm_relation_id": 1820461
+  },
+  {
+    "id": "RW-085",
+    "name": "Giti",
+    "country": "RW",
+    "region": "Gicumbi District",
+    "domain": "",
+    "osm_relation_id": 1793994
+  },
+  {
+    "id": "RW-086",
+    "name": "Gitoki",
+    "country": "RW",
+    "region": "Gatsibo District",
+    "domain": "",
+    "osm_relation_id": 1730309
+  },
+  {
+    "id": "RW-087",
+    "name": "Gitovu",
+    "country": "RW",
+    "region": "Burera District",
+    "domain": "",
+    "osm_relation_id": 1738772
+  },
+  {
+    "id": "RW-088",
+    "name": "Hindiro",
+    "country": "RW",
+    "region": "Ngororero District",
+    "domain": "",
+    "osm_relation_id": 2853860
+  },
+  {
+    "id": "RW-089",
+    "name": "Huye",
+    "country": "RW",
+    "region": "Huye District",
+    "domain": "",
+    "osm_relation_id": 3952124
+  },
+  {
+    "id": "RW-090",
+    "name": "Jabana",
+    "country": "RW",
+    "region": "Gasabo District",
+    "domain": ""
+  },
+  {
+    "id": "RW-091",
+    "name": "Jali",
+    "country": "RW",
+    "region": "Gasabo District",
+    "domain": ""
+  },
+  {
+    "id": "RW-092",
+    "name": "Janja",
+    "country": "RW",
+    "region": "Gakenke District",
+    "domain": "",
+    "osm_relation_id": 1755763
+  },
+  {
+    "id": "RW-093",
+    "name": "Jarama",
+    "country": "RW",
+    "region": "Eastern Province",
+    "domain": "",
+    "osm_relation_id": 1716800
+  },
+  {
+    "id": "RW-094",
+    "name": "Jenda Sector",
+    "country": "RW",
+    "region": "Western Province",
+    "domain": "",
+    "osm_relation_id": 3972565
+  },
+  {
+    "id": "RW-095",
+    "name": "Jomba",
+    "country": "RW",
+    "region": "Nyabihu District",
+    "domain": "",
+    "osm_relation_id": 3972580
+  },
+  {
+    "id": "RW-096",
+    "name": "Juru",
+    "country": "RW",
+    "region": "Bugesera District",
+    "domain": "",
+    "osm_relation_id": 1727716
+  },
+  {
+    "id": "RW-097",
+    "name": "Kabacuzi",
+    "country": "RW",
+    "region": "Muhanga District",
+    "domain": "",
+    "osm_relation_id": 3952365
+  },
+  {
+    "id": "RW-098",
+    "name": "Kabagali",
+    "country": "RW",
+    "region": "Ruhango District",
+    "domain": "",
+    "osm_relation_id": 1741189
+  },
+  {
+    "id": "RW-099",
+    "name": "Kabare",
+    "country": "RW",
+    "region": "Kayonza District",
+    "domain": "",
+    "osm_relation_id": 1715255
+  },
+  {
+    "id": "RW-100",
+    "name": "Kabarondo",
+    "country": "RW",
+    "region": "Kayonza District",
+    "domain": "",
+    "osm_relation_id": 1715270
+  },
+  {
+    "id": "RW-101",
+    "name": "Kabatwa",
+    "country": "RW",
+    "region": "Nyabihu District",
+    "domain": "",
+    "osm_relation_id": 3972566
+  },
+  {
+    "id": "RW-102",
+    "name": "Kabaya",
+    "country": "RW",
+    "region": "Ngororero District",
+    "domain": ""
+  },
+  {
+    "id": "RW-103",
+    "name": "Kacyiru",
+    "country": "RW",
+    "region": "Gasabo District",
+    "domain": ""
+  },
+  {
+    "id": "RW-104",
+    "name": "Kaduha",
+    "country": "RW",
+    "region": "Nyamagabe District",
+    "domain": "",
+    "osm_relation_id": 3966161
+  },
+  {
+    "id": "RW-105",
+    "name": "Kagano",
+    "country": "RW",
+    "region": "Nyamasheke District",
+    "domain": "",
+    "osm_relation_id": 3973070
+  },
+  {
+    "id": "RW-106",
+    "name": "Kageyo",
+    "country": "RW",
+    "region": "Ngororero District",
+    "domain": ""
+  },
+  {
+    "id": "RW-107",
+    "name": "Kageyo",
+    "country": "RW",
+    "region": "Gatsibo District",
+    "domain": "",
+    "osm_relation_id": 1730303
+  },
+  {
+    "id": "RW-108",
+    "name": "Kageyo sector",
+    "country": "RW",
+    "region": "Gicumbi District",
+    "domain": "",
+    "osm_relation_id": 1796129
+  },
+  {
+    "id": "RW-109",
+    "name": "Kagogo",
+    "country": "RW",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 1736839
+  },
+  {
+    "id": "RW-110",
+    "name": "Kamabuye",
+    "country": "RW",
+    "region": "Bugesera District",
+    "domain": "",
+    "osm_relation_id": 1728616
+  },
+  {
+    "id": "RW-111",
+    "name": "Kamegeri",
+    "country": "RW",
+    "region": "Nyamagabe District",
+    "domain": ""
+  },
+  {
+    "id": "RW-112",
+    "name": "Kamembe Sector",
+    "country": "RW",
+    "region": "Western Province",
+    "domain": "",
+    "osm_relation_id": 1744268
+  },
+  {
+    "id": "RW-113",
+    "name": "Kamubuga",
+    "country": "RW",
+    "region": "Gakenke District",
+    "domain": "",
+    "osm_relation_id": 1755871
+  },
+  {
+    "id": "RW-114",
+    "name": "Kanama",
+    "country": "RW",
+    "region": "Rubavu District",
+    "domain": "",
+    "osm_relation_id": 2281189
+  },
+  {
+    "id": "RW-115",
+    "name": "Kaniga",
+    "country": "RW",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 1796176
+  },
+  {
+    "id": "RW-116",
+    "name": "Kanjongo",
+    "country": "RW",
+    "region": "Nyamasheke District",
+    "domain": ""
+  },
+  {
+    "id": "RW-117",
+    "name": "Kanombe",
+    "country": "RW",
+    "region": "Kicukiro District",
+    "domain": ""
+  },
+  {
+    "id": "RW-118",
+    "name": "Kansi",
+    "country": "RW",
+    "region": "Gisagara District",
+    "domain": "",
+    "osm_relation_id": 1729923
+  },
+  {
+    "id": "RW-119",
+    "name": "Kanyinya Sector",
+    "country": "RW",
+    "region": "Nyarugenge District",
+    "domain": ""
+  },
+  {
+    "id": "RW-120",
+    "name": "Kanzenze",
+    "country": "RW",
+    "region": "Rubavu District",
+    "domain": "",
+    "osm_relation_id": 2281190
+  },
+  {
+    "id": "RW-121",
+    "name": "Karago Sector",
+    "country": "RW",
+    "region": "Nyabihu District",
+    "domain": ""
+  },
+  {
+    "id": "RW-122",
+    "name": "Karama",
+    "country": "RW",
+    "region": "Huye District",
+    "domain": "",
+    "osm_relation_id": 3952122
+  },
+  {
+    "id": "RW-123",
+    "name": "Karama",
+    "country": "RW",
+    "region": "Kamonyi District",
+    "domain": "",
+    "osm_relation_id": 3954861
+  },
+  {
+    "id": "RW-124",
+    "name": "Karama",
+    "country": "RW",
+    "region": "Nyagatare District",
+    "domain": "",
+    "osm_relation_id": 1718811
+  },
+  {
+    "id": "RW-125",
+    "name": "Karambi",
+    "country": "RW",
+    "region": "Nyamasheke District",
+    "domain": ""
+  },
+  {
+    "id": "RW-126",
+    "name": "Karambo",
+    "country": "RW",
+    "region": "Gakenke District",
+    "domain": "",
+    "osm_relation_id": 1755872
+  },
+  {
+    "id": "RW-127",
+    "name": "Karangazi",
+    "country": "RW",
+    "region": "Nyagatare District",
+    "domain": "",
+    "osm_relation_id": 1718812
+  },
+  {
+    "id": "RW-128",
+    "name": "Karembo",
+    "country": "RW",
+    "region": "Eastern Province",
+    "domain": "",
+    "osm_relation_id": 1717052
+  },
+  {
+    "id": "RW-129",
+    "name": "Karenge",
+    "country": "RW",
+    "region": "Rwamagana district",
+    "domain": ""
+  },
+  {
+    "id": "RW-130",
+    "name": "Karengera",
+    "country": "RW",
+    "region": "Nyamasheke District",
+    "domain": ""
+  },
+  {
+    "id": "RW-131",
+    "name": "Katabagemu",
+    "country": "RW",
+    "region": "Nyagatare District",
+    "domain": "",
+    "osm_relation_id": 1718814
+  },
+  {
+    "id": "RW-132",
+    "name": "Kavumu",
+    "country": "RW",
+    "region": "Ngororero District",
+    "domain": "",
+    "osm_relation_id": 2853863
+  },
+  {
+    "id": "RW-133",
+    "name": "Kayenzi",
+    "country": "RW",
+    "region": "Kamonyi District",
+    "domain": "",
+    "osm_relation_id": 3954862
+  },
+  {
+    "id": "RW-134",
+    "name": "Kayumbu",
+    "country": "RW",
+    "region": "Kamonyi District",
+    "domain": "",
+    "osm_relation_id": 3954863
+  },
+  {
+    "id": "RW-135",
+    "name": "Kazo",
+    "country": "RW",
+    "region": "Eastern Province",
+    "domain": "",
+    "osm_relation_id": 1727478
+  },
+  {
+    "id": "RW-136",
+    "name": "Kibangu",
+    "country": "RW",
+    "region": "Muhanga District",
+    "domain": ""
+  },
+  {
+    "id": "RW-137",
+    "name": "Kibeho Sector",
+    "country": "RW",
+    "region": "Nyaruguru District",
+    "domain": ""
+  },
+  {
+    "id": "RW-138",
+    "name": "Kibirizi",
+    "country": "RW",
+    "region": "Gisagara District",
+    "domain": "",
+    "osm_relation_id": 1729959
+  },
+  {
+    "id": "RW-139",
+    "name": "Kibirizi",
+    "country": "RW",
+    "region": "Rwanda",
+    "domain": ""
+  },
+  {
+    "id": "RW-140",
+    "name": "Kibirizi",
+    "country": "RW",
+    "region": "Nyanza District",
+    "domain": "",
+    "osm_relation_id": 1730892
+  },
+  {
+    "id": "RW-141",
+    "name": "Kibumbwe",
+    "country": "RW",
+    "region": "Nyamagabe District",
+    "domain": ""
+  },
+  {
+    "id": "RW-142",
+    "name": "Kibungo Sector",
+    "country": "RW",
+    "region": "Eastern Province",
+    "domain": "",
+    "osm_relation_id": 1719026
+  },
+  {
+    "id": "RW-143",
+    "name": "Kicukiro",
+    "country": "RW",
+    "region": "Kicukiro District",
+    "domain": ""
+  },
+  {
+    "id": "RW-144",
+    "name": "Kigabiro",
+    "country": "RW",
+    "region": "Eastern Province",
+    "domain": "",
+    "osm_relation_id": 1729773
+  },
+  {
+    "id": "RW-145",
+    "name": "Kigali (sector)",
+    "country": "RW",
+    "region": "Nyarugenge District",
+    "domain": ""
+  },
+  {
+    "id": "RW-146",
+    "name": "Kigarama",
+    "country": "RW",
+    "region": "Kirehe District",
+    "domain": ""
+  },
+  {
+    "id": "RW-147",
+    "name": "Kigarama",
+    "country": "RW",
+    "region": "Kicukiro District",
+    "domain": ""
+  },
+  {
+    "id": "RW-148",
+    "name": "Kigembe",
+    "country": "RW",
+    "region": "Gisagara District",
+    "domain": "",
+    "osm_relation_id": 1729864
+  },
+  {
+    "id": "RW-149",
+    "name": "Kigeyo",
+    "country": "RW",
+    "region": "Rutsiro District",
+    "domain": ""
+  },
+  {
+    "id": "RW-150",
+    "name": "Kigina",
+    "country": "RW",
+    "region": "Kirehe District",
+    "domain": "",
+    "osm_relation_id": 1716781
+  },
+  {
+    "id": "RW-151",
+    "name": "Kigoma",
+    "country": "RW",
+    "region": "Huye District",
+    "domain": "",
+    "osm_relation_id": 3952147
+  },
+  {
+    "id": "RW-152",
+    "name": "Kigoma",
+    "country": "RW",
+    "region": "Nyanza District",
+    "domain": "",
+    "osm_relation_id": 1730893
+  },
+  {
+    "id": "RW-153",
+    "name": "Kimihurura",
+    "country": "RW",
+    "region": "Gasabo District",
+    "domain": ""
+  },
+  {
+    "id": "RW-154",
+    "name": "Kimiromko",
+    "country": "RW",
+    "region": "Gasabo District",
+    "domain": ""
+  },
+  {
+    "id": "RW-155",
+    "name": "Kimisagara",
+    "country": "RW",
+    "region": "Nyarugenge District",
+    "domain": "",
+    "osm_relation_id": 16068485
+  },
+  {
+    "id": "RW-156",
+    "name": "Kimonyi",
+    "country": "RW",
+    "region": "Musanze District",
+    "domain": "",
+    "osm_relation_id": 1756509
+  },
+  {
+    "id": "RW-157",
+    "name": "Kinazi",
+    "country": "RW",
+    "region": "Huye District",
+    "domain": "",
+    "osm_relation_id": 3952162
+  },
+  {
+    "id": "RW-158",
+    "name": "Kinazi",
+    "country": "RW",
+    "region": "Ruhango District",
+    "domain": ""
+  },
+  {
+    "id": "RW-159",
+    "name": "Kinigi Sector",
+    "country": "RW",
+    "region": "Northern Province",
+    "domain": ""
+  },
+  {
+    "id": "RW-160",
+    "name": "Kinihira",
+    "country": "RW",
+    "region": "Ruhango District",
+    "domain": ""
+  },
+  {
+    "id": "RW-161",
+    "name": "Kinihira",
+    "country": "RW",
+    "region": "Rulindo District",
+    "domain": "",
+    "osm_relation_id": 1793073
+  },
+  {
+    "id": "RW-162",
+    "name": "Kinoni",
+    "country": "RW",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 1737413
+  },
+  {
+    "id": "RW-163",
+    "name": "Kintobo",
+    "country": "RW",
+    "region": "Nyabihu District",
+    "domain": "",
+    "osm_relation_id": 3972582
+  },
+  {
+    "id": "RW-164",
+    "name": "Kinyababa",
+    "country": "RW",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 1736840
+  },
+  {
+    "id": "RW-165",
+    "name": "Kinyinya",
+    "country": "RW",
+    "region": "Gasabo District",
+    "domain": ""
+  },
+  {
+    "id": "RW-166",
+    "name": "Kiramuruzi",
+    "country": "RW",
+    "region": "Gatsibo District",
+    "domain": "",
+    "osm_relation_id": 1730284
+  },
+  {
+    "id": "RW-167",
+    "name": "Kirehe",
+    "country": "RW",
+    "region": "Kirehe District",
+    "domain": ""
+  },
+  {
+    "id": "RW-168",
+    "name": "Kirimbi",
+    "country": "RW",
+    "region": "Nyamasheke District",
+    "domain": "",
+    "osm_relation_id": 3973096
+  },
+  {
+    "id": "RW-169",
+    "name": "Kisaro",
+    "country": "RW",
+    "region": "Rulindo District",
+    "domain": "",
+    "osm_relation_id": 1793063
+  },
+  {
+    "id": "RW-170",
+    "name": "Kitabi",
+    "country": "RW",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 1727317
+  },
+  {
+    "id": "RW-171",
+    "name": "Kivu",
+    "country": "RW",
+    "region": "Nyaruguru District",
+    "domain": ""
+  },
+  {
+    "id": "RW-172",
+    "name": "Kivumu",
+    "country": "RW",
+    "region": "Rutsiro District",
+    "domain": ""
+  },
+  {
+    "id": "RW-173",
+    "name": "Kivuruga",
+    "country": "RW",
+    "region": "Gakenke District",
+    "domain": "",
+    "osm_relation_id": 1755776
+  },
+  {
+    "id": "RW-174",
+    "name": "Kivuye",
+    "country": "RW",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 1738774
+  },
+  {
+    "id": "RW-175",
+    "name": "Kiyombe",
+    "country": "RW",
+    "region": "Nyagatare District",
+    "domain": "",
+    "osm_relation_id": 1718817
+  },
+  {
+    "id": "RW-176",
+    "name": "Kiyumba",
+    "country": "RW",
+    "region": "Muhanga District",
+    "domain": "",
+    "osm_relation_id": 3952342
+  },
+  {
+    "id": "RW-177",
+    "name": "Kiziguro",
+    "country": "RW",
+    "region": "Gatsibo District",
+    "domain": "",
+    "osm_relation_id": 1730290
+  },
+  {
+    "id": "RW-178",
+    "name": "Macuba",
+    "country": "RW",
+    "region": "Nyamasheke District",
+    "domain": "",
+    "osm_relation_id": 3973100
+  },
+  {
+    "id": "RW-179",
+    "name": "Mageragere Sector",
+    "country": "RW",
+    "region": "Nyarugenge District",
+    "domain": ""
+  },
+  {
+    "id": "RW-180",
+    "name": "Mahama",
+    "country": "RW",
+    "region": "Kirehe District",
+    "domain": ""
+  },
+  {
+    "id": "RW-181",
+    "name": "Mahembe",
+    "country": "RW",
+    "region": "Nyamasheke District",
+    "domain": "",
+    "osm_relation_id": 3973101
+  },
+  {
+    "id": "RW-182",
+    "name": "Mamba",
+    "country": "RW",
+    "region": "Gisagara District",
+    "domain": "",
+    "osm_relation_id": 1729998
+  },
+  {
+    "id": "RW-183",
+    "name": "Manihira",
+    "country": "RW",
+    "region": "Rutsiro District",
+    "domain": ""
+  },
+  {
+    "id": "RW-184",
+    "name": "Manyagiro",
+    "country": "RW",
+    "region": "Gicumbi District",
+    "domain": "",
+    "osm_relation_id": 1796177
+  },
+  {
+    "id": "RW-185",
+    "name": "Maraba",
+    "country": "RW",
+    "region": "Huye District",
+    "domain": ""
+  },
+  {
+    "id": "RW-186",
+    "name": "Mareba",
+    "country": "RW",
+    "region": "Bugesera District",
+    "domain": ""
+  },
+  {
+    "id": "RW-187",
+    "name": "Masaka Sector",
+    "country": "RW",
+    "region": "Kigali",
+    "domain": ""
+  },
+  {
+    "id": "RW-188",
+    "name": "Mata",
+    "country": "RW",
+    "region": "Nyaruguru District",
+    "domain": ""
+  },
+  {
+    "id": "RW-189",
+    "name": "Mataba",
+    "country": "RW",
+    "region": "Gakenke District",
+    "domain": "",
+    "osm_relation_id": 1755741
+  },
+  {
+    "id": "RW-190",
+    "name": "Matimba",
+    "country": "RW",
+    "region": "Eastern Province",
+    "domain": "",
+    "osm_relation_id": 1718823
+  },
+  {
+    "id": "RW-191",
+    "name": "Matyazo",
+    "country": "RW",
+    "region": "Ngororero District",
+    "domain": "",
+    "osm_relation_id": 2853864
+  },
+  {
+    "id": "RW-192",
+    "name": "Mayange",
+    "country": "RW",
+    "region": "Bugesera District",
+    "domain": "",
+    "osm_relation_id": 1728624
+  },
+  {
+    "id": "RW-193",
+    "name": "Mbazi",
+    "country": "RW",
+    "region": "Huye District",
+    "domain": "",
+    "osm_relation_id": 3952148
+  },
+  {
+    "id": "RW-194",
+    "name": "Mbazi",
+    "country": "RW",
+    "region": "Nyamagabe District",
+    "domain": "",
+    "osm_relation_id": 3966164
+  },
+  {
+    "id": "RW-195",
+    "name": "Mbuye",
+    "country": "RW",
+    "region": "Ruhango District",
+    "domain": ""
+  },
+  {
+    "id": "RW-196",
+    "name": "Mimuri",
+    "country": "RW",
+    "region": "Nyagatare District",
+    "domain": "",
+    "osm_relation_id": 1718826
+  },
+  {
+    "id": "RW-197",
+    "name": "Minazi",
+    "country": "RW",
+    "region": "Gakenke District",
+    "domain": "",
+    "osm_relation_id": 1755734
+  },
+  {
+    "id": "RW-198",
+    "name": "Miyove",
+    "country": "RW",
+    "region": "Gicumbi District",
+    "domain": "",
+    "osm_relation_id": 1796178
+  },
+  {
+    "id": "RW-199",
+    "name": "Mpanga",
+    "country": "RW",
+    "region": "Kirehe District",
+    "domain": ""
+  },
+  {
+    "id": "RW-200",
+    "name": "Mubuga",
+    "country": "RW",
+    "region": "Karongi district",
+    "domain": ""
+  },
+  {
+    "id": "RW-201",
+    "name": "Mudende",
+    "country": "RW",
+    "region": "Rubavu District",
+    "domain": "",
+    "osm_relation_id": 2281191
+  },
+  {
+    "id": "RW-202",
+    "name": "Mugano",
+    "country": "RW",
+    "region": "Nyamagabe District",
+    "domain": ""
+  },
+  {
+    "id": "RW-203",
+    "name": "Muganza",
+    "country": "RW",
+    "region": "Gisagara District",
+    "domain": "",
+    "osm_relation_id": 1729927
+  },
+  {
+    "id": "RW-204",
+    "name": "Muganza",
+    "country": "RW",
+    "region": "Nyaruguru District",
+    "domain": ""
+  },
+  {
+    "id": "RW-205",
+    "name": "Muganza",
+    "country": "RW",
+    "region": "Western Province",
+    "domain": ""
+  },
+  {
+    "id": "RW-206",
+    "name": "Mugesera",
+    "country": "RW",
+    "region": "Eastern Province",
+    "domain": "",
+    "osm_relation_id": 1717053
+  },
+  {
+    "id": "RW-207",
+    "name": "Mugina Sector",
+    "country": "RW",
+    "region": "Kamonyi District",
+    "domain": "",
+    "osm_relation_id": 3952434
+  },
+  {
+    "id": "RW-208",
+    "name": "Mugombwa",
+    "country": "RW",
+    "region": "Gisagara District",
+    "domain": "",
+    "osm_relation_id": 1729924
+  },
+  {
+    "id": "RW-209",
+    "name": "Mugunga",
+    "country": "RW",
+    "region": "Gakenke District",
+    "domain": "",
+    "osm_relation_id": 1755762
+  },
+  {
+    "id": "RW-210",
+    "name": "Muhanda",
+    "country": "RW",
+    "region": "Western Province",
+    "domain": ""
+  },
+  {
+    "id": "RW-211",
+    "name": "Muhanga",
+    "country": "RW",
+    "region": "Ruanda-Urundi",
+    "domain": ""
+  },
+  {
+    "id": "RW-212",
+    "name": "Muhazi",
+    "country": "RW",
+    "region": "Rwamagana district",
+    "domain": "",
+    "osm_relation_id": 1729768
+  },
+  {
+    "id": "RW-213",
+    "name": "Muhima",
+    "country": "RW",
+    "region": "Nyarugenge District",
+    "domain": ""
+  },
+  {
+    "id": "RW-214",
+    "name": "Muhondo",
+    "country": "RW",
+    "region": "Gakenke District",
+    "domain": "",
+    "osm_relation_id": 1751828
+  },
+  {
+    "id": "RW-215",
+    "name": "Muhororo",
+    "country": "RW",
+    "region": "Ngororero District",
+    "domain": "",
+    "osm_relation_id": 2852712
+  },
+  {
+    "id": "RW-216",
+    "name": "Muhoza",
+    "country": "RW",
+    "region": "Musanze District",
+    "domain": "",
+    "osm_relation_id": 1756510
+  },
+  {
+    "id": "RW-217",
+    "name": "Muhura",
+    "country": "RW",
+    "region": "Gatsibo District",
+    "domain": "",
+    "osm_relation_id": 1730295
+  },
+  {
+    "id": "RW-218",
+    "name": "Mukama",
+    "country": "RW",
+    "region": "Nyagatare District",
+    "domain": "",
+    "osm_relation_id": 1718829
+  },
+  {
+    "id": "RW-219",
+    "name": "Mukamira",
+    "country": "RW",
+    "region": "Nyabihu District",
+    "domain": "",
+    "osm_relation_id": 3972608
+  },
+  {
+    "id": "RW-220",
+    "name": "Mukarange",
+    "country": "RW",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 1796179
+  },
+  {
+    "id": "RW-221",
+    "name": "Mukarange",
+    "country": "RW",
+    "region": "Kayonza District",
+    "domain": "",
+    "osm_relation_id": 1729790
+  },
+  {
+    "id": "RW-222",
+    "name": "Mukindo",
+    "country": "RW",
+    "region": "Gisagara District",
+    "domain": "",
+    "osm_relation_id": 1729928
+  },
+  {
+    "id": "RW-223",
+    "name": "Mukingo",
+    "country": "RW",
+    "region": "Nyanza District",
+    "domain": "",
+    "osm_relation_id": 1730874
+  },
+  {
+    "id": "RW-224",
+    "name": "Muko",
+    "country": "RW",
+    "region": "Gicumbi District",
+    "domain": "",
+    "osm_relation_id": 1796184
+  },
+  {
+    "id": "RW-225",
+    "name": "Muko",
+    "country": "RW",
+    "region": "Musanze District",
+    "domain": "",
+    "osm_relation_id": 1756502
+  },
+  {
+    "id": "RW-226",
+    "name": "Mukura",
+    "country": "RW",
+    "region": "Huye District",
+    "domain": "",
+    "osm_relation_id": 3952119
+  },
+  {
+    "id": "RW-227",
+    "name": "Mukura",
+    "country": "RW",
+    "region": "Rutsiro District",
+    "domain": ""
+  },
+  {
+    "id": "RW-228",
+    "name": "Munini",
+    "country": "RW",
+    "region": "Nyaruguru District",
+    "domain": ""
+  },
+  {
+    "id": "RW-229",
+    "name": "Munyaga",
+    "country": "RW",
+    "region": "Rwamagana district",
+    "domain": "",
+    "osm_relation_id": 1729117
+  },
+  {
+    "id": "RW-230",
+    "name": "Munyiginya",
+    "country": "RW",
+    "region": "Rwamagana district",
+    "domain": ""
+  },
+  {
+    "id": "RW-231",
+    "name": "Murama",
+    "country": "RW",
+    "region": "Kayonza District",
+    "domain": "",
+    "osm_relation_id": 1715256
+  },
+  {
+    "id": "RW-232",
+    "name": "Murama",
+    "country": "RW",
+    "region": "Eastern Province",
+    "domain": "",
+    "osm_relation_id": 1719035
+  },
+  {
+    "id": "RW-233",
+    "name": "Murambi",
+    "country": "RW",
+    "region": "Karongi district",
+    "domain": ""
+  },
+  {
+    "id": "RW-234",
+    "name": "Murambi",
+    "country": "RW",
+    "region": "Gatsibo District",
+    "domain": "",
+    "osm_relation_id": 1730283
+  },
+  {
+    "id": "RW-235",
+    "name": "Muringa",
+    "country": "RW",
+    "region": "Nyabihu District",
+    "domain": "",
+    "osm_relation_id": 3972609
+  },
+  {
+    "id": "RW-236",
+    "name": "Murunda",
+    "country": "RW",
+    "region": "Rutsiro District",
+    "domain": "",
+    "osm_relation_id": 3969670
+  },
+  {
+    "id": "RW-237",
+    "name": "Murundi",
+    "country": "RW",
+    "region": "Karongi district",
+    "domain": "",
+    "osm_relation_id": 1820471
+  },
+  {
+    "id": "RW-238",
+    "name": "Murundi",
+    "country": "RW",
+    "region": "Kayonza District",
+    "domain": "",
+    "osm_relation_id": 1729798
+  },
+  {
+    "id": "RW-239",
+    "name": "Mururu",
+    "country": "RW",
+    "region": "Rusizi District",
+    "domain": ""
+  },
+  {
+    "id": "RW-240",
+    "name": "Musambira",
+    "country": "RW",
+    "region": "Kamonyi District",
+    "domain": "",
+    "osm_relation_id": 3953742
+  },
+  {
+    "id": "RW-241",
+    "name": "Musange",
+    "country": "RW",
+    "region": "Nyamagabe District",
+    "domain": "",
+    "osm_relation_id": 3966064
+  },
+  {
+    "id": "RW-242",
+    "name": "Musanze Sector",
+    "country": "RW",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 1756511
+  },
+  {
+    "id": "RW-243",
+    "name": "Musasa",
+    "country": "RW",
+    "region": "Rutsiro District",
+    "domain": ""
+  },
+  {
+    "id": "RW-244",
+    "name": "Musaza",
+    "country": "RW",
+    "region": "Kirehe District",
+    "domain": ""
+  },
+  {
+    "id": "RW-245",
+    "name": "Musebeya",
+    "country": "RW",
+    "region": "Nyamagabe District",
+    "domain": "",
+    "osm_relation_id": 3966133
+  },
+  {
+    "id": "RW-246",
+    "name": "Musenyi",
+    "country": "RW",
+    "region": "Bugesera District",
+    "domain": "",
+    "osm_relation_id": 1728625
+  },
+  {
+    "id": "RW-247",
+    "name": "Musha",
+    "country": "RW",
+    "region": "Gisagara District",
+    "domain": "",
+    "osm_relation_id": 1729993
+  },
+  {
+    "id": "RW-248",
+    "name": "Musha",
+    "country": "RW",
+    "region": "Rwamagana district",
+    "domain": "",
+    "osm_relation_id": 1729748
+  },
+  {
+    "id": "RW-249",
+    "name": "Musheri",
+    "country": "RW",
+    "region": "Nyagatare District",
+    "domain": "",
+    "osm_relation_id": 1718833
+  },
+  {
+    "id": "RW-250",
+    "name": "Mushikiri",
+    "country": "RW",
+    "region": "Kirehe District",
+    "domain": "",
+    "osm_relation_id": 1727581
+  },
+  {
+    "id": "RW-251",
+    "name": "Mushishiro",
+    "country": "RW",
+    "region": "Muhanga District",
+    "domain": "",
+    "osm_relation_id": 3952367
+  },
+  {
+    "id": "RW-252",
+    "name": "Mushonyi",
+    "country": "RW",
+    "region": "Rutsiro District",
+    "domain": "",
+    "osm_relation_id": 3966210
+  },
+  {
+    "id": "RW-253",
+    "name": "Mushubati",
+    "country": "RW",
+    "region": "Rutsiro District",
+    "domain": "",
+    "osm_relation_id": 3969657
+  },
+  {
+    "id": "RW-254",
+    "name": "Mushubi",
+    "country": "RW",
+    "region": "Nyamagabe District",
+    "domain": "",
+    "osm_relation_id": 3966120
+  },
+  {
+    "id": "RW-255",
+    "name": "Mutenderi",
+    "country": "RW",
+    "region": "Eastern Province",
+    "domain": "",
+    "osm_relation_id": 1716801
+  },
+  {
+    "id": "RW-256",
+    "name": "Mutete sector",
+    "country": "RW",
+    "region": "Gicumbi District",
+    "domain": "",
+    "osm_relation_id": 1793995
+  },
+  {
+    "id": "RW-257",
+    "name": "Mutuntu",
+    "country": "RW",
+    "region": "Karongi district",
+    "domain": "",
+    "osm_relation_id": 1820433
+  },
+  {
+    "id": "RW-258",
+    "name": "Muyira",
+    "country": "RW",
+    "region": "Nyanza District",
+    "domain": "",
+    "osm_relation_id": 1730894
+  },
+  {
+    "id": "RW-259",
+    "name": "Muyongwe",
+    "country": "RW",
+    "region": "Gakenke District",
+    "domain": "",
+    "osm_relation_id": 1755873
+  },
+  {
+    "id": "RW-260",
+    "name": "Muyumbu",
+    "country": "RW",
+    "region": "Rwamagana district",
+    "domain": "",
+    "osm_relation_id": 1729778
+  },
+  {
+    "id": "RW-261",
+    "name": "Muzo",
+    "country": "RW",
+    "region": "Gakenke District",
+    "domain": "",
+    "osm_relation_id": 1755764
+  },
+  {
+    "id": "RW-262",
+    "name": "Mwendo",
+    "country": "RW",
+    "region": "Ruhango District",
+    "domain": ""
+  },
+  {
+    "id": "RW-263",
+    "name": "Mwiri",
+    "country": "RW",
+    "region": "Kayonza District",
+    "domain": "",
+    "osm_relation_id": 1729800
+  },
+  {
+    "id": "RW-264",
+    "name": "Mwogo",
+    "country": "RW",
+    "region": "Bugesera District",
+    "domain": ""
+  },
+  {
+    "id": "RW-265",
+    "name": "Mwulire",
+    "country": "RW",
+    "region": "Rwamagana district",
+    "domain": "",
+    "osm_relation_id": 1729785
+  },
+  {
+    "id": "RW-266",
+    "name": "Nasho",
+    "country": "RW",
+    "region": "Kirehe District",
+    "domain": "",
+    "osm_relation_id": 1727585
+  },
+  {
+    "id": "RW-267",
+    "name": "Ndaro",
+    "country": "RW",
+    "region": "Ngororero District",
+    "domain": "",
+    "osm_relation_id": 2852703
+  },
+  {
+    "id": "RW-268",
+    "name": "Ndego",
+    "country": "RW",
+    "region": "Kayonza District",
+    "domain": "",
+    "osm_relation_id": 1715240
+  },
+  {
+    "id": "RW-269",
+    "name": "Ndera",
+    "country": "RW",
+    "region": "Gasabo District",
+    "domain": ""
+  },
+  {
+    "id": "RW-270",
+    "name": "Nduba",
+    "country": "RW",
+    "region": "Gasabo District",
+    "domain": ""
+  },
+  {
+    "id": "RW-271",
+    "name": "Nemba",
+    "country": "RW",
+    "region": "Bugesera District",
+    "domain": ""
+  },
+  {
+    "id": "RW-272",
+    "name": "Nemba",
+    "country": "RW",
+    "region": "Gakenke District",
+    "domain": "",
+    "osm_relation_id": 1755874
+  },
+  {
+    "id": "RW-273",
+    "name": "Nemba",
+    "country": "RW",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 1738773
+  },
+  {
+    "id": "RW-274",
+    "name": "Ngamba",
+    "country": "RW",
+    "region": "Kamonyi District",
+    "domain": ""
+  },
+  {
+    "id": "RW-275",
+    "name": "Ngarama",
+    "country": "RW",
+    "region": "Gatsibo District",
+    "domain": "",
+    "osm_relation_id": 1729834
+  },
+  {
+    "id": "RW-276",
+    "name": "Ngera",
+    "country": "RW",
+    "region": "Nyaruguru District",
+    "domain": ""
+  },
+  {
+    "id": "RW-277",
+    "name": "Ngeruka",
+    "country": "RW",
+    "region": "Bugesera District",
+    "domain": ""
+  },
+  {
+    "id": "RW-278",
+    "name": "Ngoma",
+    "country": "RW",
+    "region": "Huye District",
+    "domain": "",
+    "osm_relation_id": 3952123
+  },
+  {
+    "id": "RW-279",
+    "name": "Ngoma",
+    "country": "RW",
+    "region": "Nyaruguru District",
+    "domain": ""
+  },
+  {
+    "id": "RW-280",
+    "name": "Ngoma",
+    "country": "RW",
+    "region": "Rulindo District",
+    "domain": "",
+    "osm_relation_id": 1792997
+  },
+  {
+    "id": "RW-281",
+    "name": "Niboye",
+    "country": "RW",
+    "region": "Kicukiro District",
+    "domain": ""
+  },
+  {
+    "id": "RW-282",
+    "name": "Nkanka",
+    "country": "RW",
+    "region": "Rusizi District",
+    "domain": ""
+  },
+  {
+    "id": "RW-283",
+    "name": "Nkomane",
+    "country": "RW",
+    "region": "Nyamagabe District",
+    "domain": ""
+  },
+  {
+    "id": "RW-284",
+    "name": "Nkombo",
+    "country": "RW",
+    "region": "Rusizi District",
+    "domain": ""
+  },
+  {
+    "id": "RW-285",
+    "name": "Nkotsi",
+    "country": "RW",
+    "region": "Musanze District",
+    "domain": ""
+  },
+  {
+    "id": "RW-286",
+    "name": "Nkungu",
+    "country": "RW",
+    "region": "Rusizi District",
+    "domain": ""
+  },
+  {
+    "id": "RW-287",
+    "name": "Ntarama",
+    "country": "RW",
+    "region": "Eastern Province",
+    "domain": "",
+    "osm_relation_id": 1727935
+  },
+  {
+    "id": "RW-288",
+    "name": "Ntongwe",
+    "country": "RW",
+    "region": "Ruhango District",
+    "domain": ""
+  },
+  {
+    "id": "RW-289",
+    "name": "Ntyazo",
+    "country": "RW",
+    "region": "Nyanza District",
+    "domain": "",
+    "osm_relation_id": 1730895
+  },
+  {
+    "id": "RW-290",
+    "name": "Nyabimata",
+    "country": "RW",
+    "region": "Nyaruguru District",
+    "domain": ""
+  },
+  {
+    "id": "RW-291",
+    "name": "Nyabinoni",
+    "country": "RW",
+    "region": "Muhanga District",
+    "domain": "",
+    "osm_relation_id": 3952178
+  },
+  {
+    "id": "RW-292",
+    "name": "Nyabirasi",
+    "country": "RW",
+    "region": "Rutsiro District",
+    "domain": "",
+    "osm_relation_id": 3969633
+  },
+  {
+    "id": "RW-293",
+    "name": "Nyabitekeri",
+    "country": "RW",
+    "region": "Nyamasheke District",
+    "domain": "",
+    "osm_relation_id": 3973102
+  },
+  {
+    "id": "RW-294",
+    "name": "Nyagatare Sector",
+    "country": "RW",
+    "region": "Eastern Province",
+    "domain": "",
+    "osm_relation_id": 1718836
+  },
+  {
+    "id": "RW-295",
+    "name": "Nyagihanga",
+    "country": "RW",
+    "region": "Eastern Province",
+    "domain": "",
+    "osm_relation_id": 1729832
+  },
+  {
+    "id": "RW-296",
+    "name": "Nyagisozi",
+    "country": "RW",
+    "region": "Nyanza District",
+    "domain": "",
+    "osm_relation_id": 1741178
+  },
+  {
+    "id": "RW-297",
+    "name": "Nyagisozi",
+    "country": "RW",
+    "region": "Nyaruguru District",
+    "domain": "",
+    "osm_relation_id": 3963661
+  },
+  {
+    "id": "RW-298",
+    "name": "Nyakabanda",
+    "country": "RW",
+    "region": "Nyarugenge District",
+    "domain": ""
+  },
+  {
+    "id": "RW-299",
+    "name": "Nyakabuye",
+    "country": "RW",
+    "region": "Rusizi District",
+    "domain": ""
+  },
+  {
+    "id": "RW-300",
+    "name": "Nyakaliro",
+    "country": "RW",
+    "region": "Rwamagana district",
+    "domain": "",
+    "osm_relation_id": 1728634
+  },
+  {
+    "id": "RW-301",
+    "name": "Nyakarenzo",
+    "country": "RW",
+    "region": "Rusizi District",
+    "domain": ""
+  },
+  {
+    "id": "RW-302",
+    "name": "Nyakiriba",
+    "country": "RW",
+    "region": "Rubavu District",
+    "domain": "",
+    "osm_relation_id": 2281192
+  },
+  {
+    "id": "RW-303",
+    "name": "Nyamabuye",
+    "country": "RW",
+    "region": "Muhanga District",
+    "domain": ""
+  },
+  {
+    "id": "RW-304",
+    "name": "Nyamata Sector",
+    "country": "RW",
+    "region": "Eastern Province",
+    "domain": "",
+    "osm_relation_id": 3952506
+  },
+  {
+    "id": "RW-305",
+    "name": "Nyamirama",
+    "country": "RW",
+    "region": "Kayonza District",
+    "domain": ""
+  },
+  {
+    "id": "RW-306",
+    "name": "Nyamirambo",
+    "country": "RW",
+    "region": "Nyarugenge District",
+    "domain": ""
+  },
+  {
+    "id": "RW-307",
+    "name": "Nyamiyaga",
+    "country": "RW",
+    "region": "Kamonyi District",
+    "domain": ""
+  },
+  {
+    "id": "RW-308",
+    "name": "Nyamiyaga",
+    "country": "RW",
+    "region": "Gicumbi District",
+    "domain": "",
+    "osm_relation_id": 1796185
+  },
+  {
+    "id": "RW-309",
+    "name": "Nyamugari",
+    "country": "RW",
+    "region": "Kirehe District",
+    "domain": "",
+    "osm_relation_id": 1714379
+  },
+  {
+    "id": "RW-310",
+    "name": "Nyamyumba",
+    "country": "RW",
+    "region": "Rubavu District",
+    "domain": "",
+    "osm_relation_id": 2281193
+  },
+  {
+    "id": "RW-311",
+    "name": "Nyange",
+    "country": "RW",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 1756038
+  },
+  {
+    "id": "RW-312",
+    "name": "Nyange",
+    "country": "RW",
+    "region": "Western Province",
+    "domain": "",
+    "osm_relation_id": 2852671
+  },
+  {
+    "id": "RW-313",
+    "name": "Nyankenke",
+    "country": "RW",
+    "region": "Gicumbi District",
+    "domain": "",
+    "osm_relation_id": 1796180
+  },
+  {
+    "id": "RW-314",
+    "name": "Nyanza",
+    "country": "RW",
+    "region": "Gisagara District",
+    "domain": "",
+    "osm_relation_id": 1729865
+  },
+  {
+    "id": "RW-315",
+    "name": "Nyarubaka",
+    "country": "RW",
+    "region": "Kamonyi District",
+    "domain": "",
+    "osm_relation_id": 3953744
+  },
+  {
+    "id": "RW-316",
+    "name": "Nyarubuye",
+    "country": "RW",
+    "region": "Kirehe District",
+    "domain": "",
+    "osm_relation_id": 1714360
+  },
+  {
+    "id": "RW-317",
+    "name": "Nyarugenge Sector",
+    "country": "RW",
+    "region": "Bugesera District",
+    "domain": "",
+    "osm_relation_id": 1727980
+  },
+  {
+    "id": "RW-318",
+    "name": "Nyarugenge Sector, Nyarugenge",
+    "country": "RW",
+    "region": "Nyarugenge District",
+    "domain": ""
+  },
+  {
+    "id": "RW-319",
+    "name": "Nyarugunga",
+    "country": "RW",
+    "region": "Kicukiro District",
+    "domain": ""
+  },
+  {
+    "id": "RW-320",
+    "name": "Nyarusange",
+    "country": "RW",
+    "region": "Muhanga District",
+    "domain": ""
+  },
+  {
+    "id": "RW-321",
+    "name": "Nzahaha",
+    "country": "RW",
+    "region": "Rusizi District",
+    "domain": ""
+  },
+  {
+    "id": "RW-322",
+    "name": "Nzige",
+    "country": "RW",
+    "region": "Rwamagana district",
+    "domain": "",
+    "osm_relation_id": 1729119
+  },
+  {
+    "id": "RW-323",
+    "name": "Rambura",
+    "country": "RW",
+    "region": "Western Province",
+    "domain": "",
+    "osm_relation_id": 3972610
+  },
+  {
+    "id": "RW-324",
+    "name": "Rangiro",
+    "country": "RW",
+    "region": "Nyamasheke District",
+    "domain": "",
+    "osm_relation_id": 3973124
+  },
+  {
+    "id": "RW-325",
+    "name": "Remera",
+    "country": "RW",
+    "region": "Gasabo District",
+    "domain": ""
+  },
+  {
+    "id": "RW-326",
+    "name": "Remera",
+    "country": "RW",
+    "region": "Musanze District",
+    "domain": "",
+    "osm_relation_id": 1756504
+  },
+  {
+    "id": "RW-327",
+    "name": "Remera",
+    "country": "RW",
+    "region": "Gatsibo District",
+    "domain": "",
+    "osm_relation_id": 1730296
+  },
+  {
+    "id": "RW-328",
+    "name": "Remera",
+    "country": "RW",
+    "region": "Ngoma District",
+    "domain": "",
+    "osm_relation_id": 1719024
+  },
+  {
+    "id": "RW-329",
+    "name": "Rilima",
+    "country": "RW",
+    "region": "Bugesera District",
+    "domain": "",
+    "osm_relation_id": 1727703
+  },
+  {
+    "id": "RW-330",
+    "name": "Rongi",
+    "country": "RW",
+    "region": "Muhanga District",
+    "domain": "",
+    "osm_relation_id": 3952179
+  },
+  {
+    "id": "RW-331",
+    "name": "Rubavu",
+    "country": "RW",
+    "region": "Rubavu District",
+    "domain": "",
+    "osm_relation_id": 2281155
+  },
+  {
+    "id": "RW-332",
+    "name": "Rubaya",
+    "country": "RW",
+    "region": "Gicumbi District",
+    "domain": "",
+    "osm_relation_id": 1796181
+  },
+  {
+    "id": "RW-333",
+    "name": "Rubengera Sector",
+    "country": "RW",
+    "region": "Karongi district",
+    "domain": "",
+    "osm_relation_id": 1820419
+  },
+  {
+    "id": "RW-334",
+    "name": "Rubona",
+    "country": "RW",
+    "region": "Rwamagana district",
+    "domain": "",
+    "osm_relation_id": 1729118
+  },
+  {
+    "id": "RW-335",
+    "name": "Rugabano",
+    "country": "RW",
+    "region": "Karongi district",
+    "domain": "",
+    "osm_relation_id": 1820472
+  },
+  {
+    "id": "RW-336",
+    "name": "Ruganda",
+    "country": "RW",
+    "region": "Karongi district",
+    "domain": "",
+    "osm_relation_id": 1820467
+  },
+  {
+    "id": "RW-337",
+    "name": "Rugarama",
+    "country": "RW",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 1737414
+  },
+  {
+    "id": "RW-338",
+    "name": "Rugarama",
+    "country": "RW",
+    "region": "Gatsibo District",
+    "domain": "",
+    "osm_relation_id": 1730291
+  },
+  {
+    "id": "RW-339",
+    "name": "Rugarika",
+    "country": "RW",
+    "region": "Kamonyi District",
+    "domain": ""
+  },
+  {
+    "id": "RW-340",
+    "name": "Rugendabari",
+    "country": "RW",
+    "region": "Muhanga District",
+    "domain": "",
+    "osm_relation_id": 3952170
+  },
+  {
+    "id": "RW-341",
+    "name": "Rugengabari",
+    "country": "RW",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 1738766
+  },
+  {
+    "id": "RW-342",
+    "name": "Rugera",
+    "country": "RW",
+    "region": "Nyabihu District",
+    "domain": "",
+    "osm_relation_id": 3972630
+  },
+  {
+    "id": "RW-343",
+    "name": "Rugerero",
+    "country": "RW",
+    "region": "Rubavu District",
+    "domain": "",
+    "osm_relation_id": 2281156
+  },
+  {
+    "id": "RW-344",
+    "name": "Ruhango Sector",
+    "country": "RW",
+    "region": "Rutsiro District",
+    "domain": ""
+  },
+  {
+    "id": "RW-345",
+    "name": "Ruhango Sector (Ruhango)",
+    "country": "RW",
+    "region": "Ruhango District",
+    "domain": ""
+  },
+  {
+    "id": "RW-346",
+    "name": "Ruharambuga",
+    "country": "RW",
+    "region": "Nyamasheke District",
+    "domain": "",
+    "osm_relation_id": 3973125
+  },
+  {
+    "id": "RW-347",
+    "name": "Ruhashya",
+    "country": "RW",
+    "region": "Huye District",
+    "domain": "",
+    "osm_relation_id": 3952156
+  },
+  {
+    "id": "RW-348",
+    "name": "Ruheru",
+    "country": "RW",
+    "region": "Nyaruguru District",
+    "domain": ""
+  },
+  {
+    "id": "RW-349",
+    "name": "Ruhuha",
+    "country": "RW",
+    "region": "Bugesera District",
+    "domain": ""
+  },
+  {
+    "id": "RW-350",
+    "name": "Ruhunde",
+    "country": "RW",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 1738781
+  },
+  {
+    "id": "RW-351",
+    "name": "Rukara",
+    "country": "RW",
+    "region": "Kayonza District",
+    "domain": "",
+    "osm_relation_id": 4095223
+  },
+  {
+    "id": "RW-352",
+    "name": "Rukira",
+    "country": "RW",
+    "region": "Eastern Province",
+    "domain": "",
+    "osm_relation_id": 1727480
+  },
+  {
+    "id": "RW-353",
+    "name": "Rukoma",
+    "country": "RW",
+    "region": "Kamonyi District",
+    "domain": "",
+    "osm_relation_id": 3954975
+  },
+  {
+    "id": "RW-354",
+    "name": "Rukomo",
+    "country": "RW",
+    "region": "Nyagatare District",
+    "domain": ""
+  },
+  {
+    "id": "RW-355",
+    "name": "Rukomo",
+    "country": "RW",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 1796130
+  },
+  {
+    "id": "RW-356",
+    "name": "Rukumberi",
+    "country": "RW",
+    "region": "Eastern Province",
+    "domain": "",
+    "osm_relation_id": 1717054
+  },
+  {
+    "id": "RW-357",
+    "name": "Ruli",
+    "country": "RW",
+    "region": "Gakenke District",
+    "domain": "",
+    "osm_relation_id": 1755735
+  },
+  {
+    "id": "RW-358",
+    "name": "Runda Sector",
+    "country": "RW",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 3954976
+  },
+  {
+    "id": "RW-359",
+    "name": "Ruramba",
+    "country": "RW",
+    "region": "Nyaruguru District",
+    "domain": ""
+  },
+  {
+    "id": "RW-360",
+    "name": "Ruramira",
+    "country": "RW",
+    "region": "Kayonza District",
+    "domain": ""
+  },
+  {
+    "id": "RW-361",
+    "name": "Rurembo",
+    "country": "RW",
+    "region": "Nyabihu District",
+    "domain": ""
+  },
+  {
+    "id": "RW-362",
+    "name": "Rurenge",
+    "country": "RW",
+    "region": "Eastern Province",
+    "domain": "",
+    "osm_relation_id": 1719025
+  },
+  {
+    "id": "RW-363",
+    "name": "Rusarabuye",
+    "country": "RW",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 1738767
+  },
+  {
+    "id": "RW-364",
+    "name": "Rusasa",
+    "country": "RW",
+    "region": "Gakenke District",
+    "domain": "",
+    "osm_relation_id": 1755765
+  },
+  {
+    "id": "RW-365",
+    "name": "Rusatira",
+    "country": "RW",
+    "region": "Huye District",
+    "domain": "",
+    "osm_relation_id": 3952163
+  },
+  {
+    "id": "RW-366",
+    "name": "Rusebeya",
+    "country": "RW",
+    "region": "Rutsiro District",
+    "domain": "",
+    "osm_relation_id": 3969671
+  },
+  {
+    "id": "RW-367",
+    "name": "Rusenge",
+    "country": "RW",
+    "region": "Nyaruguru District",
+    "domain": ""
+  },
+  {
+    "id": "RW-368",
+    "name": "Rushaki",
+    "country": "RW",
+    "region": "Gicumbi District",
+    "domain": "",
+    "osm_relation_id": 1796131
+  },
+  {
+    "id": "RW-369",
+    "name": "Rushashi",
+    "country": "RW",
+    "region": "Gakenke District",
+    "domain": "",
+    "osm_relation_id": 1755875
+  },
+  {
+    "id": "RW-370",
+    "name": "Rusiga",
+    "country": "RW",
+    "region": "Rulindo District",
+    "domain": "",
+    "osm_relation_id": 1792251
+  },
+  {
+    "id": "RW-371",
+    "name": "Rusororo Sector",
+    "country": "RW",
+    "region": "Gasabo District",
+    "domain": ""
+  },
+  {
+    "id": "RW-372",
+    "name": "Rutare",
+    "country": "RW",
+    "region": "Gicumbi District",
+    "domain": "",
+    "osm_relation_id": 1793996
+  },
+  {
+    "id": "RW-373",
+    "name": "Rutunga Sector",
+    "country": "RW",
+    "region": "Gasabo District",
+    "domain": ""
+  },
+  {
+    "id": "RW-374",
+    "name": "Ruvune",
+    "country": "RW",
+    "region": "Gicumbi District",
+    "domain": "",
+    "osm_relation_id": 1796186
+  },
+  {
+    "id": "RW-375",
+    "name": "Rwabicuma",
+    "country": "RW",
+    "region": "Nyanza District",
+    "domain": "",
+    "osm_relation_id": 1730875
+  },
+  {
+    "id": "RW-376",
+    "name": "Rwamiko",
+    "country": "RW",
+    "region": "Gicumbi District",
+    "domain": "",
+    "osm_relation_id": 1793997
+  },
+  {
+    "id": "RW-377",
+    "name": "Rwaniro",
+    "country": "RW",
+    "region": "Huye District",
+    "domain": "",
+    "osm_relation_id": 3952157
+  },
+  {
+    "id": "RW-378",
+    "name": "Rwankuba",
+    "country": "RW",
+    "region": "Karongi district",
+    "domain": ""
+  },
+  {
+    "id": "RW-379",
+    "name": "Rwaza",
+    "country": "RW",
+    "region": "Musanze District",
+    "domain": "",
+    "osm_relation_id": 1756505
+  },
+  {
+    "id": "RW-380",
+    "name": "Rwempasha",
+    "country": "RW",
+    "region": "Nyagatare District",
+    "domain": "",
+    "osm_relation_id": 1718844
+  },
+  {
+    "id": "RW-381",
+    "name": "Rwerere",
+    "country": "RW",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 1738782
+  },
+  {
+    "id": "RW-382",
+    "name": "Rweru",
+    "country": "RW",
+    "region": "Bugesera District",
+    "domain": ""
+  },
+  {
+    "id": "RW-383",
+    "name": "Rwezamenyo",
+    "country": "RW",
+    "region": "Nyarugenge District",
+    "domain": ""
+  },
+  {
+    "id": "RW-384",
+    "name": "Rwimbogo",
+    "country": "RW",
+    "region": "Rusizi District",
+    "domain": ""
+  },
+  {
+    "id": "RW-385",
+    "name": "Rwimbogo",
+    "country": "RW",
+    "region": "Gatsibo District",
+    "domain": "",
+    "osm_relation_id": 10311009
+  },
+  {
+    "id": "RW-386",
+    "name": "Rwimiyaga Sector",
+    "country": "RW",
+    "region": "Eastern Province",
+    "domain": "",
+    "osm_relation_id": 1718847
+  },
+  {
+    "id": "RW-387",
+    "name": "Rwinkwavu",
+    "country": "RW",
+    "region": "Kayonza District",
+    "domain": "",
+    "osm_relation_id": 1715257
+  },
+  {
+    "id": "RW-388",
+    "name": "Sake",
+    "country": "RW",
+    "region": "Eastern Province",
+    "domain": "",
+    "osm_relation_id": 1716820
+  },
+  {
+    "id": "RW-389",
+    "name": "Save",
+    "country": "RW",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 1729985
+  },
+  {
+    "id": "RW-390",
+    "name": "Shangasha",
+    "country": "RW",
+    "region": "Gicumbi District",
+    "domain": "",
+    "osm_relation_id": 1796132
+  },
+  {
+    "id": "RW-391",
+    "name": "Shangi",
+    "country": "RW",
+    "region": "Nyamasheke District",
+    "domain": "",
+    "osm_relation_id": 3973126
+  },
+  {
+    "id": "RW-392",
+    "name": "Shingiro",
+    "country": "RW",
+    "region": "Musanze District",
+    "domain": "",
+    "osm_relation_id": 1756039
+  },
+  {
+    "id": "RW-393",
+    "name": "Shyara",
+    "country": "RW",
+    "region": "Bugesera District",
+    "domain": "",
+    "osm_relation_id": 1728583
+  },
+  {
+    "id": "RW-394",
+    "name": "Shyira",
+    "country": "RW",
+    "region": "Nyabihu District",
+    "domain": "",
+    "osm_relation_id": 3972632
+  },
+  {
+    "id": "RW-395",
+    "name": "Shyogwe",
+    "country": "RW",
+    "region": "Muhanga District",
+    "domain": "",
+    "osm_relation_id": 3952383
+  },
+  {
+    "id": "RW-396",
+    "name": "Simbi",
+    "country": "RW",
+    "region": "Huye District",
+    "domain": "",
+    "osm_relation_id": 3952158
+  },
+  {
+    "id": "RW-397",
+    "name": "Sovu",
+    "country": "RW",
+    "region": "Ngororero District",
+    "domain": "",
+    "osm_relation_id": 2852704
+  },
+  {
+    "id": "RW-398",
+    "name": "Tabagwe",
+    "country": "RW",
+    "region": "Eastern Province",
+    "domain": "",
+    "osm_relation_id": 1718848
+  },
+  {
+    "id": "RW-399",
+    "name": "Tare",
+    "country": "RW",
+    "region": "Nyamagabe District",
+    "domain": "",
+    "osm_relation_id": 3963895
+  },
+  {
+    "id": "RW-400",
+    "name": "Tumba",
+    "country": "RW",
+    "region": "Huye District",
+    "domain": "",
+    "osm_relation_id": 3952120
+  },
+  {
+    "id": "RW-401",
+    "name": "Tumba",
+    "country": "RW",
+    "region": "Rulindo District",
+    "domain": "",
+    "osm_relation_id": 1793064
+  },
+  {
+    "id": "RW-402",
+    "name": "Twumba",
+    "country": "RW",
+    "region": "Karongi district",
+    "domain": "",
+    "osm_relation_id": 1820432
+  },
+  {
+    "id": "RW-403",
+    "name": "Uwinkingi",
+    "country": "RW",
+    "region": "Nyamagabe District",
+    "domain": "",
+    "osm_relation_id": 3963896
+  },
+  {
+    "id": "RW-404",
+    "name": "Zaza",
+    "country": "RW",
+    "region": "Ngoma District",
+    "domain": "",
+    "osm_relation_id": 1717055
+  },
+  {
+    "id": "RW-405",
+    "name": "Umurenge wa Buruhukiro",
+    "country": "RW",
+    "region": "Nyamagabe District",
+    "domain": "",
+    "osm_relation_id": 3966131
+  },
+  {
+    "id": "RW-406",
+    "name": "Umurenge wa Nyundo",
+    "country": "RW",
+    "region": "Rubavu District",
+    "domain": "",
+    "osm_relation_id": 2281154
+  }
+]

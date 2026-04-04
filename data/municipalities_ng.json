@@ -1,0 +1,6465 @@
+[
+  {
+    "id": "NG-001",
+    "name": "Aba North",
+    "country": "NG",
+    "region": "Abia State",
+    "domain": "",
+    "osm_relation_id": 3713502
+  },
+  {
+    "id": "NG-002",
+    "name": "Aba South",
+    "country": "NG",
+    "region": "Abia State",
+    "domain": "",
+    "osm_relation_id": 3713503
+  },
+  {
+    "id": "NG-003",
+    "name": "Abadam",
+    "country": "NG",
+    "region": "Borno State",
+    "domain": "",
+    "osm_relation_id": 3721168
+  },
+  {
+    "id": "NG-004",
+    "name": "Abaji",
+    "country": "NG",
+    "region": "Federal Capital Territory",
+    "domain": "",
+    "osm_relation_id": 3717260
+  },
+  {
+    "id": "NG-005",
+    "name": "Abak",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": "",
+    "osm_relation_id": 3715360
+  },
+  {
+    "id": "NG-006",
+    "name": "Abakaliki",
+    "country": "NG",
+    "region": "Ebonyi State",
+    "domain": "",
+    "osm_relation_id": 3717072
+  },
+  {
+    "id": "NG-007",
+    "name": "Abakaliki",
+    "country": "NG",
+    "region": "Ebonyi State",
+    "domain": "",
+    "osm_relation_id": 3717072
+  },
+  {
+    "id": "NG-008",
+    "name": "Abeokuta North",
+    "country": "NG",
+    "region": "Ogun State",
+    "domain": "",
+    "osm_relation_id": 3718464
+  },
+  {
+    "id": "NG-009",
+    "name": "Abeokuta South",
+    "country": "NG",
+    "region": "Ogun State",
+    "domain": "",
+    "osm_relation_id": 3718465
+  },
+  {
+    "id": "NG-010",
+    "name": "Abi",
+    "country": "NG",
+    "region": "Cross River State",
+    "domain": "",
+    "osm_relation_id": 3716251
+  },
+  {
+    "id": "NG-011",
+    "name": "Aboh-Mbaise",
+    "country": "NG",
+    "region": "Imo State",
+    "domain": "",
+    "osm_relation_id": 3717826
+  },
+  {
+    "id": "NG-012",
+    "name": "Abua/Odual",
+    "country": "NG",
+    "region": "Rivers State",
+    "domain": "",
+    "osm_relation_id": 3720744
+  },
+  {
+    "id": "NG-013",
+    "name": "Abuja Municipal",
+    "country": "NG",
+    "region": "Federal Capital Territory",
+    "domain": "",
+    "osm_relation_id": 3717265
+  },
+  {
+    "id": "NG-014",
+    "name": "Adavi",
+    "country": "NG",
+    "region": "Kogi State",
+    "domain": "",
+    "osm_relation_id": 3717972
+  },
+  {
+    "id": "NG-015",
+    "name": "Ado",
+    "country": "NG",
+    "region": "Benue State",
+    "domain": "",
+    "osm_relation_id": 3716078
+  },
+  {
+    "id": "NG-016",
+    "name": "Ado-Ekiti",
+    "country": "NG",
+    "region": "Ekiti State",
+    "domain": "",
+    "osm_relation_id": 3717155
+  },
+  {
+    "id": "NG-017",
+    "name": "Ado-Odo/Ota",
+    "country": "NG",
+    "region": "Ogun State",
+    "domain": "",
+    "osm_relation_id": 3718466
+  },
+  {
+    "id": "NG-018",
+    "name": "Afijio",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "oyostate.gov.ng",
+    "osm_relation_id": 3720555
+  },
+  {
+    "id": "NG-019",
+    "name": "Afikpo",
+    "country": "NG",
+    "region": "Abia State",
+    "domain": "",
+    "osm_relation_id": 501493222
+  },
+  {
+    "id": "NG-020",
+    "name": "Afikpo North",
+    "country": "NG",
+    "region": "Ebonyi State",
+    "domain": "",
+    "osm_relation_id": 3717073
+  },
+  {
+    "id": "NG-021",
+    "name": "Afikpo South",
+    "country": "NG",
+    "region": "Ebonyi State",
+    "domain": "",
+    "osm_relation_id": 3717074
+  },
+  {
+    "id": "NG-022",
+    "name": "Afikpo South",
+    "country": "NG",
+    "region": "Abia State",
+    "domain": "",
+    "osm_relation_id": 3717074
+  },
+  {
+    "id": "NG-023",
+    "name": "Agaie",
+    "country": "NG",
+    "region": "Niger State",
+    "domain": "",
+    "osm_relation_id": 3718385
+  },
+  {
+    "id": "NG-024",
+    "name": "Agatu",
+    "country": "NG",
+    "region": "Benue State",
+    "domain": "",
+    "osm_relation_id": 3716079
+  },
+  {
+    "id": "NG-025",
+    "name": "Agege",
+    "country": "NG",
+    "region": "Lagos State",
+    "domain": "",
+    "osm_relation_id": 3718183
+  },
+  {
+    "id": "NG-026",
+    "name": "Aguata",
+    "country": "NG",
+    "region": "Anambra State",
+    "domain": "anambrastate.gov.ng",
+    "osm_relation_id": 3715506
+  },
+  {
+    "id": "NG-027",
+    "name": "Agwara",
+    "country": "NG",
+    "region": "Niger State",
+    "domain": "",
+    "osm_relation_id": 3718386
+  },
+  {
+    "id": "NG-028",
+    "name": "Ahiazu Mbaise",
+    "country": "NG",
+    "region": "Imo State",
+    "domain": "",
+    "osm_relation_id": 3717827
+  },
+  {
+    "id": "NG-029",
+    "name": "Ahoada East",
+    "country": "NG",
+    "region": "Rivers State",
+    "domain": "",
+    "osm_relation_id": 3720745
+  },
+  {
+    "id": "NG-030",
+    "name": "Ahoada West",
+    "country": "NG",
+    "region": "Rivers State",
+    "domain": "",
+    "osm_relation_id": 3720746
+  },
+  {
+    "id": "NG-031",
+    "name": "Aiyedaade",
+    "country": "NG",
+    "region": "Osun State",
+    "domain": "",
+    "osm_relation_id": 3718721
+  },
+  {
+    "id": "NG-032",
+    "name": "Aiyedire",
+    "country": "NG",
+    "region": "Osun State",
+    "domain": "",
+    "osm_relation_id": 3718722
+  },
+  {
+    "id": "NG-033",
+    "name": "Ajaokuta",
+    "country": "NG",
+    "region": "Kogi State",
+    "domain": "",
+    "osm_relation_id": 3717973
+  },
+  {
+    "id": "NG-034",
+    "name": "Ajeromi-Ifelodun",
+    "country": "NG",
+    "region": "Lagos State",
+    "domain": "",
+    "osm_relation_id": 3718184
+  },
+  {
+    "id": "NG-035",
+    "name": "Ajingi",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710303
+  },
+  {
+    "id": "NG-036",
+    "name": "Akamkpa",
+    "country": "NG",
+    "region": "Cross River State",
+    "domain": "",
+    "osm_relation_id": 3716252
+  },
+  {
+    "id": "NG-037",
+    "name": "Akinyele",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720556
+  },
+  {
+    "id": "NG-038",
+    "name": "Akko",
+    "country": "NG",
+    "region": "Gombe State",
+    "domain": "",
+    "osm_relation_id": 3720423
+  },
+  {
+    "id": "NG-039",
+    "name": "Akoko Edo",
+    "country": "NG",
+    "region": "Edo State",
+    "domain": "",
+    "osm_relation_id": 3717120
+  },
+  {
+    "id": "NG-040",
+    "name": "Akoko North-East",
+    "country": "NG",
+    "region": "Ondo State",
+    "domain": "",
+    "osm_relation_id": 3718610
+  },
+  {
+    "id": "NG-041",
+    "name": "Akoko North-West",
+    "country": "NG",
+    "region": "Ondo State",
+    "domain": "",
+    "osm_relation_id": 3718612
+  },
+  {
+    "id": "NG-042",
+    "name": "Akoko South-East",
+    "country": "NG",
+    "region": "Ondo State",
+    "domain": "",
+    "osm_relation_id": 3718614
+  },
+  {
+    "id": "NG-043",
+    "name": "Akoko South-West",
+    "country": "NG",
+    "region": "Ondo State",
+    "domain": "",
+    "osm_relation_id": 3718615
+  },
+  {
+    "id": "NG-044",
+    "name": "Akpabuyo",
+    "country": "NG",
+    "region": "Cross River State",
+    "domain": "",
+    "osm_relation_id": 3716253
+  },
+  {
+    "id": "NG-045",
+    "name": "Akuku-Toru",
+    "country": "NG",
+    "region": "Rivers State",
+    "domain": "",
+    "osm_relation_id": 3720747
+  },
+  {
+    "id": "NG-046",
+    "name": "Akure North",
+    "country": "NG",
+    "region": "Ondo State",
+    "domain": "",
+    "osm_relation_id": 3718617
+  },
+  {
+    "id": "NG-047",
+    "name": "Akure South",
+    "country": "NG",
+    "region": "Ondo State",
+    "domain": "",
+    "osm_relation_id": 3718619
+  },
+  {
+    "id": "NG-048",
+    "name": "Akwanga",
+    "country": "NG",
+    "region": "Nasarawa State",
+    "domain": "",
+    "osm_relation_id": 3720496
+  },
+  {
+    "id": "NG-049",
+    "name": "Albasu",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710304
+  },
+  {
+    "id": "NG-050",
+    "name": "Aleiro",
+    "country": "NG",
+    "region": "Kebbi State",
+    "domain": "",
+    "osm_relation_id": 3707934
+  },
+  {
+    "id": "NG-051",
+    "name": "Alimosho",
+    "country": "NG",
+    "region": "Lagos State",
+    "domain": "lagosstate.gov.ng",
+    "osm_relation_id": 3718185
+  },
+  {
+    "id": "NG-052",
+    "name": "Alkaleri",
+    "country": "NG",
+    "region": "Bauchi State",
+    "domain": "",
+    "osm_relation_id": 3722234
+  },
+  {
+    "id": "NG-053",
+    "name": "Amuwo-Odofin",
+    "country": "NG",
+    "region": "Lagos State",
+    "domain": "",
+    "osm_relation_id": 3718186
+  },
+  {
+    "id": "NG-054",
+    "name": "Anambra East",
+    "country": "NG",
+    "region": "Anambra State",
+    "domain": "",
+    "osm_relation_id": 3715507
+  },
+  {
+    "id": "NG-055",
+    "name": "Anambra West",
+    "country": "NG",
+    "region": "Anambra State",
+    "domain": "",
+    "osm_relation_id": 3715508
+  },
+  {
+    "id": "NG-056",
+    "name": "Anaocha",
+    "country": "NG",
+    "region": "Anambra State",
+    "domain": "",
+    "osm_relation_id": 3715509
+  },
+  {
+    "id": "NG-057",
+    "name": "Andoni",
+    "country": "NG",
+    "region": "Rivers State",
+    "domain": "",
+    "osm_relation_id": 3720748
+  },
+  {
+    "id": "NG-058",
+    "name": "Aninri",
+    "country": "NG",
+    "region": "Enugu State",
+    "domain": "",
+    "osm_relation_id": 3717213
+  },
+  {
+    "id": "NG-059",
+    "name": "Aniocha",
+    "country": "NG",
+    "region": "Anambra State",
+    "domain": "",
+    "osm_relation_id": 3716951
+  },
+  {
+    "id": "NG-060",
+    "name": "Aniocha North",
+    "country": "NG",
+    "region": "Delta State",
+    "domain": "",
+    "osm_relation_id": 3716951
+  },
+  {
+    "id": "NG-061",
+    "name": "Aniocha South",
+    "country": "NG",
+    "region": "Delta State",
+    "domain": "",
+    "osm_relation_id": 3716952
+  },
+  {
+    "id": "NG-062",
+    "name": "Anka",
+    "country": "NG",
+    "region": "Zamfara State",
+    "domain": "",
+    "osm_relation_id": 3706957
+  },
+  {
+    "id": "NG-063",
+    "name": "Ankpa",
+    "country": "NG",
+    "region": "Kogi State",
+    "domain": "",
+    "osm_relation_id": 3717974
+  },
+  {
+    "id": "NG-064",
+    "name": "Apa",
+    "country": "NG",
+    "region": "Benue State",
+    "domain": "",
+    "osm_relation_id": 3716080
+  },
+  {
+    "id": "NG-065",
+    "name": "Apapa",
+    "country": "NG",
+    "region": "Lagos State",
+    "domain": "",
+    "osm_relation_id": 3718187
+  },
+  {
+    "id": "NG-066",
+    "name": "Ardo Kola",
+    "country": "NG",
+    "region": "Taraba State",
+    "domain": "",
+    "osm_relation_id": 3720851
+  },
+  {
+    "id": "NG-067",
+    "name": "Arewa Dandi",
+    "country": "NG",
+    "region": "Kebbi State",
+    "domain": "",
+    "osm_relation_id": 3707935
+  },
+  {
+    "id": "NG-068",
+    "name": "Argungu",
+    "country": "NG",
+    "region": "Kebbi State",
+    "domain": "",
+    "osm_relation_id": 3707936
+  },
+  {
+    "id": "NG-069",
+    "name": "Arochukwu",
+    "country": "NG",
+    "region": "Abia State",
+    "domain": "",
+    "osm_relation_id": 3713504
+  },
+  {
+    "id": "NG-070",
+    "name": "Asa",
+    "country": "NG",
+    "region": "Kwara State",
+    "domain": "",
+    "osm_relation_id": 3718091
+  },
+  {
+    "id": "NG-071",
+    "name": "Asari-Toru",
+    "country": "NG",
+    "region": "Rivers State",
+    "domain": "",
+    "osm_relation_id": 3720749
+  },
+  {
+    "id": "NG-072",
+    "name": "Askira/Uba",
+    "country": "NG",
+    "region": "Borno State",
+    "domain": "",
+    "osm_relation_id": 3721169
+  },
+  {
+    "id": "NG-073",
+    "name": "Atakunmosa East",
+    "country": "NG",
+    "region": "Osun State",
+    "domain": "",
+    "osm_relation_id": 3718723
+  },
+  {
+    "id": "NG-074",
+    "name": "Atakunmosa West",
+    "country": "NG",
+    "region": "Osun State",
+    "domain": "",
+    "osm_relation_id": 3718724
+  },
+  {
+    "id": "NG-075",
+    "name": "Atiba",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720557
+  },
+  {
+    "id": "NG-076",
+    "name": "Atisbo",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720558
+  },
+  {
+    "id": "NG-077",
+    "name": "Augie",
+    "country": "NG",
+    "region": "Kebbi State",
+    "domain": "",
+    "osm_relation_id": 3707937
+  },
+  {
+    "id": "NG-078",
+    "name": "Auyo",
+    "country": "NG",
+    "region": "Jigawa State",
+    "domain": "",
+    "osm_relation_id": 3703237
+  },
+  {
+    "id": "NG-079",
+    "name": "Awe",
+    "country": "NG",
+    "region": "Nasarawa State",
+    "domain": "",
+    "osm_relation_id": 3720497
+  },
+  {
+    "id": "NG-080",
+    "name": "Awe",
+    "country": "NG",
+    "region": "Nasarawa State",
+    "domain": "",
+    "osm_relation_id": 3720497
+  },
+  {
+    "id": "NG-081",
+    "name": "Awgu",
+    "country": "NG",
+    "region": "Enugu State",
+    "domain": "",
+    "osm_relation_id": 3717214
+  },
+  {
+    "id": "NG-082",
+    "name": "Awka North",
+    "country": "NG",
+    "region": "Anambra State",
+    "domain": "",
+    "osm_relation_id": 3715510
+  },
+  {
+    "id": "NG-083",
+    "name": "Awka South",
+    "country": "NG",
+    "region": "Anambra State",
+    "domain": "",
+    "osm_relation_id": 3715511
+  },
+  {
+    "id": "NG-084",
+    "name": "Ayamelum",
+    "country": "NG",
+    "region": "Anambra State",
+    "domain": "",
+    "osm_relation_id": 3715512
+  },
+  {
+    "id": "NG-085",
+    "name": "Babura",
+    "country": "NG",
+    "region": "Jigawa State",
+    "domain": "",
+    "osm_relation_id": 3703238
+  },
+  {
+    "id": "NG-086",
+    "name": "Badagry",
+    "country": "NG",
+    "region": "Lagos State",
+    "domain": "",
+    "osm_relation_id": 3718188
+  },
+  {
+    "id": "NG-087",
+    "name": "Bade",
+    "country": "NG",
+    "region": "Yobe State",
+    "domain": "",
+    "osm_relation_id": 3698565
+  },
+  {
+    "id": "NG-088",
+    "name": "Bagudo",
+    "country": "NG",
+    "region": "Kebbi State",
+    "domain": "",
+    "osm_relation_id": 3707938
+  },
+  {
+    "id": "NG-089",
+    "name": "Bagwai",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710305
+  },
+  {
+    "id": "NG-090",
+    "name": "Bakassi",
+    "country": "NG",
+    "region": "Cross River State",
+    "domain": ""
+  },
+  {
+    "id": "NG-091",
+    "name": "Bakori",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711482
+  },
+  {
+    "id": "NG-092",
+    "name": "Bakura",
+    "country": "NG",
+    "region": "Zamfara State",
+    "domain": "",
+    "osm_relation_id": 3706958
+  },
+  {
+    "id": "NG-093",
+    "name": "Balanga",
+    "country": "NG",
+    "region": "Gombe State",
+    "domain": "",
+    "osm_relation_id": 3720424
+  },
+  {
+    "id": "NG-094",
+    "name": "Bali",
+    "country": "NG",
+    "region": "Taraba State",
+    "domain": "",
+    "osm_relation_id": 3720852
+  },
+  {
+    "id": "NG-095",
+    "name": "Bama",
+    "country": "NG",
+    "region": "Borno State",
+    "domain": "",
+    "osm_relation_id": 3721170
+  },
+  {
+    "id": "NG-096",
+    "name": "Barkin Ladi",
+    "country": "NG",
+    "region": "Plateau State",
+    "domain": "",
+    "osm_relation_id": 3720612
+  },
+  {
+    "id": "NG-097",
+    "name": "Baruten",
+    "country": "NG",
+    "region": "Kwara State",
+    "domain": "",
+    "osm_relation_id": 3718092
+  },
+  {
+    "id": "NG-098",
+    "name": "Bassa",
+    "country": "NG",
+    "region": "Kogi State",
+    "domain": "",
+    "osm_relation_id": 3717975
+  },
+  {
+    "id": "NG-099",
+    "name": "Bassa",
+    "country": "NG",
+    "region": "Plateau State",
+    "domain": "",
+    "osm_relation_id": 3720613
+  },
+  {
+    "id": "NG-100",
+    "name": "Basse",
+    "country": "NG",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "NG-101",
+    "name": "Batagarawa",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711483
+  },
+  {
+    "id": "NG-102",
+    "name": "Batsari",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711484
+  },
+  {
+    "id": "NG-103",
+    "name": "Bauchi",
+    "country": "NG",
+    "region": "Bauchi State",
+    "domain": "",
+    "osm_relation_id": 3722233
+  },
+  {
+    "id": "NG-104",
+    "name": "Baure",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711485
+  },
+  {
+    "id": "NG-105",
+    "name": "Bayo",
+    "country": "NG",
+    "region": "Borno State",
+    "domain": "",
+    "osm_relation_id": 3721171
+  },
+  {
+    "id": "NG-106",
+    "name": "Bebeji",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710306
+  },
+  {
+    "id": "NG-107",
+    "name": "Bekwarra",
+    "country": "NG",
+    "region": "Cross River State",
+    "domain": "",
+    "osm_relation_id": 3716255
+  },
+  {
+    "id": "NG-108",
+    "name": "Biase",
+    "country": "NG",
+    "region": "Cross River State",
+    "domain": "",
+    "osm_relation_id": 3716256
+  },
+  {
+    "id": "NG-109",
+    "name": "Bichi",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710307
+  },
+  {
+    "id": "NG-110",
+    "name": "Bida",
+    "country": "NG",
+    "region": "Niger State",
+    "domain": "",
+    "osm_relation_id": 3718387
+  },
+  {
+    "id": "NG-111",
+    "name": "Billiri",
+    "country": "NG",
+    "region": "Gombe State",
+    "domain": "",
+    "osm_relation_id": 3720425
+  },
+  {
+    "id": "NG-112",
+    "name": "Bindawa",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711486
+  },
+  {
+    "id": "NG-113",
+    "name": "Binji",
+    "country": "NG",
+    "region": "Sokoto State",
+    "domain": "",
+    "osm_relation_id": 3707369
+  },
+  {
+    "id": "NG-114",
+    "name": "Biriniwa",
+    "country": "NG",
+    "region": "Jigawa State",
+    "domain": "",
+    "osm_relation_id": 3703239
+  },
+  {
+    "id": "NG-115",
+    "name": "Birnin Gwari",
+    "country": "NG",
+    "region": "Kaduna State",
+    "domain": "",
+    "osm_relation_id": 3709354
+  },
+  {
+    "id": "NG-116",
+    "name": "Birnin Kebbi",
+    "country": "NG",
+    "region": "Kebbi State",
+    "domain": "",
+    "osm_relation_id": 3707939
+  },
+  {
+    "id": "NG-117",
+    "name": "Birnin Kudu",
+    "country": "NG",
+    "region": "Jigawa State",
+    "domain": "",
+    "osm_relation_id": 3703240
+  },
+  {
+    "id": "NG-118",
+    "name": "Birnin Magaji/Kiyaw",
+    "country": "NG",
+    "region": "Zamfara State",
+    "domain": "",
+    "osm_relation_id": 3706959
+  },
+  {
+    "id": "NG-119",
+    "name": "Biu",
+    "country": "NG",
+    "region": "Borno State",
+    "domain": "",
+    "osm_relation_id": 3721172
+  },
+  {
+    "id": "NG-120",
+    "name": "Bodinga",
+    "country": "NG",
+    "region": "Sokoto State",
+    "domain": "",
+    "osm_relation_id": 3707370
+  },
+  {
+    "id": "NG-121",
+    "name": "Bogoro",
+    "country": "NG",
+    "region": "Bauchi State",
+    "domain": "",
+    "osm_relation_id": 3722236
+  },
+  {
+    "id": "NG-122",
+    "name": "Boki",
+    "country": "NG",
+    "region": "Cross River State",
+    "domain": "",
+    "osm_relation_id": 3716257
+  },
+  {
+    "id": "NG-123",
+    "name": "Bokkos",
+    "country": "NG",
+    "region": "Plateau State",
+    "domain": "",
+    "osm_relation_id": 3720614
+  },
+  {
+    "id": "NG-124",
+    "name": "Boluwaduro",
+    "country": "NG",
+    "region": "Osun State",
+    "domain": "",
+    "osm_relation_id": 3718725
+  },
+  {
+    "id": "NG-125",
+    "name": "Bomadi",
+    "country": "NG",
+    "region": "Delta State",
+    "domain": "",
+    "osm_relation_id": 3716953
+  },
+  {
+    "id": "NG-126",
+    "name": "Bonny",
+    "country": "NG",
+    "region": "Rivers State",
+    "domain": "",
+    "osm_relation_id": 3720750
+  },
+  {
+    "id": "NG-127",
+    "name": "Borgu",
+    "country": "NG",
+    "region": "Niger State",
+    "domain": "",
+    "osm_relation_id": 3718388
+  },
+  {
+    "id": "NG-128",
+    "name": "Boripe",
+    "country": "NG",
+    "region": "Osun State",
+    "domain": "",
+    "osm_relation_id": 3718726
+  },
+  {
+    "id": "NG-129",
+    "name": "Bosso",
+    "country": "NG",
+    "region": "Niger State",
+    "domain": "",
+    "osm_relation_id": 3718389
+  },
+  {
+    "id": "NG-130",
+    "name": "Brass",
+    "country": "NG",
+    "region": "Bayelsa State",
+    "domain": "",
+    "osm_relation_id": 3715845
+  },
+  {
+    "id": "NG-131",
+    "name": "Buji",
+    "country": "NG",
+    "region": "Jigawa State",
+    "domain": "",
+    "osm_relation_id": 3703241
+  },
+  {
+    "id": "NG-132",
+    "name": "Bukkuyum",
+    "country": "NG",
+    "region": "Zamfara State",
+    "domain": "",
+    "osm_relation_id": 3706960
+  },
+  {
+    "id": "NG-133",
+    "name": "Bungudu",
+    "country": "NG",
+    "region": "Zamfara State",
+    "domain": "",
+    "osm_relation_id": 3706961
+  },
+  {
+    "id": "NG-134",
+    "name": "Bunkure",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710308
+  },
+  {
+    "id": "NG-135",
+    "name": "Bunza",
+    "country": "NG",
+    "region": "Kebbi State",
+    "domain": "",
+    "osm_relation_id": 3707940
+  },
+  {
+    "id": "NG-136",
+    "name": "Bursari",
+    "country": "NG",
+    "region": "Yobe State",
+    "domain": "",
+    "osm_relation_id": 3698566
+  },
+  {
+    "id": "NG-137",
+    "name": "Buruku",
+    "country": "NG",
+    "region": "Benue State",
+    "domain": "",
+    "osm_relation_id": 3716081
+  },
+  {
+    "id": "NG-138",
+    "name": "Burutu",
+    "country": "NG",
+    "region": "Delta State",
+    "domain": "",
+    "osm_relation_id": 3716954
+  },
+  {
+    "id": "NG-139",
+    "name": "Bwari",
+    "country": "NG",
+    "region": "Federal Capital Territory",
+    "domain": "",
+    "osm_relation_id": 3717261
+  },
+  {
+    "id": "NG-140",
+    "name": "Calabar Municipal",
+    "country": "NG",
+    "region": "Cross River State",
+    "domain": "",
+    "osm_relation_id": 3716258
+  },
+  {
+    "id": "NG-141",
+    "name": "Calabar South",
+    "country": "NG",
+    "region": "Cross River State",
+    "domain": "",
+    "osm_relation_id": 3716259
+  },
+  {
+    "id": "NG-142",
+    "name": "Chanchaga",
+    "country": "NG",
+    "region": "Niger State",
+    "domain": "",
+    "osm_relation_id": 3718390
+  },
+  {
+    "id": "NG-143",
+    "name": "Charanchi",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711487
+  },
+  {
+    "id": "NG-144",
+    "name": "Chibok",
+    "country": "NG",
+    "region": "Borno State",
+    "domain": "",
+    "osm_relation_id": 3721173
+  },
+  {
+    "id": "NG-145",
+    "name": "Chikun",
+    "country": "NG",
+    "region": "Kaduna State",
+    "domain": "",
+    "osm_relation_id": 3709355
+  },
+  {
+    "id": "NG-146",
+    "name": "Dala",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710309
+  },
+  {
+    "id": "NG-147",
+    "name": "Damaturu",
+    "country": "NG",
+    "region": "Yobe State",
+    "domain": "",
+    "osm_relation_id": 3698618
+  },
+  {
+    "id": "NG-148",
+    "name": "Damban",
+    "country": "NG",
+    "region": "Bauchi State",
+    "domain": "",
+    "osm_relation_id": 3722237
+  },
+  {
+    "id": "NG-149",
+    "name": "Dambatta",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710310
+  },
+  {
+    "id": "NG-150",
+    "name": "Damboa",
+    "country": "NG",
+    "region": "Borno State",
+    "domain": "",
+    "osm_relation_id": 3721174
+  },
+  {
+    "id": "NG-151",
+    "name": "Dan Musa",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711488
+  },
+  {
+    "id": "NG-152",
+    "name": "Dandi",
+    "country": "NG",
+    "region": "Kebbi State",
+    "domain": "",
+    "osm_relation_id": 3707941
+  },
+  {
+    "id": "NG-153",
+    "name": "Dandume",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711489
+  },
+  {
+    "id": "NG-154",
+    "name": "Dange Shuni",
+    "country": "NG",
+    "region": "Sokoto State",
+    "domain": "",
+    "osm_relation_id": 3707371
+  },
+  {
+    "id": "NG-155",
+    "name": "Danja",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711490
+  },
+  {
+    "id": "NG-156",
+    "name": "Darazo",
+    "country": "NG",
+    "region": "Bauchi State",
+    "domain": "",
+    "osm_relation_id": 3722238
+  },
+  {
+    "id": "NG-157",
+    "name": "Dass",
+    "country": "NG",
+    "region": "Bauchi State",
+    "domain": "",
+    "osm_relation_id": 3722239
+  },
+  {
+    "id": "NG-158",
+    "name": "Daura",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711491
+  },
+  {
+    "id": "NG-159",
+    "name": "Dawakin Kudu",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710311
+  },
+  {
+    "id": "NG-160",
+    "name": "Dawakin Tofa",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710312
+  },
+  {
+    "id": "NG-161",
+    "name": "Degema",
+    "country": "NG",
+    "region": "Rivers State",
+    "domain": "",
+    "osm_relation_id": 3720751
+  },
+  {
+    "id": "NG-162",
+    "name": "Dekina",
+    "country": "NG",
+    "region": "Kogi State",
+    "domain": "",
+    "osm_relation_id": 3717976
+  },
+  {
+    "id": "NG-163",
+    "name": "Dikwa",
+    "country": "NG",
+    "region": "Borno State",
+    "domain": "",
+    "osm_relation_id": 3721175
+  },
+  {
+    "id": "NG-164",
+    "name": "Doguwa",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710313
+  },
+  {
+    "id": "NG-165",
+    "name": "Doma",
+    "country": "NG",
+    "region": "Nasarawa State",
+    "domain": "",
+    "osm_relation_id": 3720498
+  },
+  {
+    "id": "NG-166",
+    "name": "Donga",
+    "country": "NG",
+    "region": "Taraba State",
+    "domain": "",
+    "osm_relation_id": 3720853
+  },
+  {
+    "id": "NG-167",
+    "name": "Dukku",
+    "country": "NG",
+    "region": "Gombe State",
+    "domain": "",
+    "osm_relation_id": 3720426
+  },
+  {
+    "id": "NG-168",
+    "name": "Dunukofia",
+    "country": "NG",
+    "region": "Anambra State",
+    "domain": "",
+    "osm_relation_id": 3715513
+  },
+  {
+    "id": "NG-169",
+    "name": "Dutse",
+    "country": "NG",
+    "region": "Jigawa State",
+    "domain": "",
+    "osm_relation_id": 3703242
+  },
+  {
+    "id": "NG-170",
+    "name": "Dutsi",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711492
+  },
+  {
+    "id": "NG-171",
+    "name": "Dutsin-Ma",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711493
+  },
+  {
+    "id": "NG-172",
+    "name": "Eastern Obolo",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": "",
+    "osm_relation_id": 3715361
+  },
+  {
+    "id": "NG-173",
+    "name": "Ebonyi",
+    "country": "NG",
+    "region": "Ebonyi State",
+    "domain": "",
+    "osm_relation_id": 3717075
+  },
+  {
+    "id": "NG-174",
+    "name": "Edati",
+    "country": "NG",
+    "region": "Niger State",
+    "domain": "",
+    "osm_relation_id": 3718391
+  },
+  {
+    "id": "NG-175",
+    "name": "Ede North",
+    "country": "NG",
+    "region": "Osun State",
+    "domain": "",
+    "osm_relation_id": 3718727
+  },
+  {
+    "id": "NG-176",
+    "name": "Ede South",
+    "country": "NG",
+    "region": "Osun State",
+    "domain": "",
+    "osm_relation_id": 3718728
+  },
+  {
+    "id": "NG-177",
+    "name": "Edu",
+    "country": "NG",
+    "region": "Kwara State",
+    "domain": "",
+    "osm_relation_id": 3718093
+  },
+  {
+    "id": "NG-178",
+    "name": "Efon",
+    "country": "NG",
+    "region": "Ekiti State",
+    "domain": "",
+    "osm_relation_id": 3717156
+  },
+  {
+    "id": "NG-179",
+    "name": "Egbado North/Imeko-Afon",
+    "country": "NG",
+    "region": "Ogun State",
+    "domain": "",
+    "osm_relation_id": 3718476
+  },
+  {
+    "id": "NG-180",
+    "name": "Egbeda",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720559
+  },
+  {
+    "id": "NG-181",
+    "name": "Egbedore",
+    "country": "NG",
+    "region": "Osun State",
+    "domain": "",
+    "osm_relation_id": 3718729
+  },
+  {
+    "id": "NG-182",
+    "name": "Egor",
+    "country": "NG",
+    "region": "Edo State",
+    "domain": "",
+    "osm_relation_id": 3717121
+  },
+  {
+    "id": "NG-183",
+    "name": "Ehime mbano",
+    "country": "NG",
+    "region": "Imo State",
+    "domain": "",
+    "osm_relation_id": 3717828
+  },
+  {
+    "id": "NG-184",
+    "name": "Ejigbo",
+    "country": "NG",
+    "region": "Osun State",
+    "domain": "",
+    "osm_relation_id": 3718730
+  },
+  {
+    "id": "NG-185",
+    "name": "Ekeremor",
+    "country": "NG",
+    "region": "Bayelsa State",
+    "domain": "",
+    "osm_relation_id": 3715846
+  },
+  {
+    "id": "NG-186",
+    "name": "Eket",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": "",
+    "osm_relation_id": 3715362
+  },
+  {
+    "id": "NG-187",
+    "name": "Ekiti",
+    "country": "NG",
+    "region": "Kwara State",
+    "domain": "",
+    "osm_relation_id": 3718094
+  },
+  {
+    "id": "NG-188",
+    "name": "Ekiti East",
+    "country": "NG",
+    "region": "Ekiti State",
+    "domain": "",
+    "osm_relation_id": 3717157
+  },
+  {
+    "id": "NG-189",
+    "name": "Ekiti South-West",
+    "country": "NG",
+    "region": "Ekiti State",
+    "domain": "",
+    "osm_relation_id": 3717158
+  },
+  {
+    "id": "NG-190",
+    "name": "Ekiti West",
+    "country": "NG",
+    "region": "Ekiti State",
+    "domain": "",
+    "osm_relation_id": 3717159
+  },
+  {
+    "id": "NG-191",
+    "name": "Ekwusigo",
+    "country": "NG",
+    "region": "Anambra State",
+    "domain": "",
+    "osm_relation_id": 3715514
+  },
+  {
+    "id": "NG-192",
+    "name": "Eleme",
+    "country": "NG",
+    "region": "Rivers State",
+    "domain": "",
+    "osm_relation_id": 3720752
+  },
+  {
+    "id": "NG-193",
+    "name": "Emohua",
+    "country": "NG",
+    "region": "Rivers State",
+    "domain": "",
+    "osm_relation_id": 3720753
+  },
+  {
+    "id": "NG-194",
+    "name": "Emure",
+    "country": "NG",
+    "region": "Ekiti State",
+    "domain": "",
+    "osm_relation_id": 3717160
+  },
+  {
+    "id": "NG-195",
+    "name": "Enugu East",
+    "country": "NG",
+    "region": "Enugu State",
+    "domain": "",
+    "osm_relation_id": 14306408
+  },
+  {
+    "id": "NG-196",
+    "name": "Enugu North",
+    "country": "NG",
+    "region": "Enugu State",
+    "domain": "",
+    "osm_relation_id": 14306407
+  },
+  {
+    "id": "NG-197",
+    "name": "Enugu South",
+    "country": "NG",
+    "region": "Enugu State",
+    "domain": "",
+    "osm_relation_id": 3717217
+  },
+  {
+    "id": "NG-198",
+    "name": "Epe",
+    "country": "NG",
+    "region": "Lagos State",
+    "domain": "",
+    "osm_relation_id": 3718189
+  },
+  {
+    "id": "NG-199",
+    "name": "Esan Central",
+    "country": "NG",
+    "region": "Edo State",
+    "domain": "",
+    "osm_relation_id": 3717124
+  },
+  {
+    "id": "NG-200",
+    "name": "Esan North-East",
+    "country": "NG",
+    "region": "Edo State",
+    "domain": "",
+    "osm_relation_id": 3717123
+  },
+  {
+    "id": "NG-201",
+    "name": "Esan South-East",
+    "country": "NG",
+    "region": "Edo State",
+    "domain": "",
+    "osm_relation_id": 3717125
+  },
+  {
+    "id": "NG-202",
+    "name": "Esan West",
+    "country": "NG",
+    "region": "Edo State",
+    "domain": "",
+    "osm_relation_id": 3717126
+  },
+  {
+    "id": "NG-203",
+    "name": "Ese Odo",
+    "country": "NG",
+    "region": "Ondo State",
+    "domain": "",
+    "osm_relation_id": 3718621
+  },
+  {
+    "id": "NG-204",
+    "name": "Esit Eket",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": "",
+    "osm_relation_id": 3715363
+  },
+  {
+    "id": "NG-205",
+    "name": "Essien Udim",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": "",
+    "osm_relation_id": 3715364
+  },
+  {
+    "id": "NG-206",
+    "name": "Etche",
+    "country": "NG",
+    "region": "Rivers State",
+    "domain": "",
+    "osm_relation_id": 3720754
+  },
+  {
+    "id": "NG-207",
+    "name": "Ethiope East",
+    "country": "NG",
+    "region": "Delta State",
+    "domain": "",
+    "osm_relation_id": 3716955
+  },
+  {
+    "id": "NG-208",
+    "name": "Ethiope West",
+    "country": "NG",
+    "region": "Delta State",
+    "domain": "",
+    "osm_relation_id": 3716956
+  },
+  {
+    "id": "NG-209",
+    "name": "Eti-Osa",
+    "country": "NG",
+    "region": "Lagos State",
+    "domain": "",
+    "osm_relation_id": 3718190
+  },
+  {
+    "id": "NG-210",
+    "name": "Eti-Osa East",
+    "country": "NG",
+    "region": "Lagos State",
+    "domain": "",
+    "osm_relation_id": 3718190
+  },
+  {
+    "id": "NG-211",
+    "name": "Etim Ekpo",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": "",
+    "osm_relation_id": 3715365
+  },
+  {
+    "id": "NG-212",
+    "name": "Etinan",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": "",
+    "osm_relation_id": 3715366
+  },
+  {
+    "id": "NG-213",
+    "name": "Etsako Central",
+    "country": "NG",
+    "region": "Edo State",
+    "domain": "",
+    "osm_relation_id": 3717127
+  },
+  {
+    "id": "NG-214",
+    "name": "Etsako East",
+    "country": "NG",
+    "region": "Edo State",
+    "domain": "",
+    "osm_relation_id": 3717128
+  },
+  {
+    "id": "NG-215",
+    "name": "Etsako West",
+    "country": "NG",
+    "region": "Edo State",
+    "domain": "",
+    "osm_relation_id": 3717129
+  },
+  {
+    "id": "NG-216",
+    "name": "Etung",
+    "country": "NG",
+    "region": "Cross River State",
+    "domain": "",
+    "osm_relation_id": 3716260
+  },
+  {
+    "id": "NG-217",
+    "name": "Ewekoro",
+    "country": "NG",
+    "region": "Ogun State",
+    "domain": "",
+    "osm_relation_id": 3718469
+  },
+  {
+    "id": "NG-218",
+    "name": "Ezeagu",
+    "country": "NG",
+    "region": "Enugu State",
+    "domain": "",
+    "osm_relation_id": 3717218
+  },
+  {
+    "id": "NG-219",
+    "name": "Ezinihitte-Mbaise",
+    "country": "NG",
+    "region": "Imo State",
+    "domain": "",
+    "osm_relation_id": 3717829
+  },
+  {
+    "id": "NG-220",
+    "name": "Ezza North",
+    "country": "NG",
+    "region": "Ebonyi State",
+    "domain": "",
+    "osm_relation_id": 3717076
+  },
+  {
+    "id": "NG-221",
+    "name": "Ezza South",
+    "country": "NG",
+    "region": "Ebonyi State",
+    "domain": "",
+    "osm_relation_id": 3717077
+  },
+  {
+    "id": "NG-222",
+    "name": "Fagge",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710314
+  },
+  {
+    "id": "NG-223",
+    "name": "Fakai",
+    "country": "NG",
+    "region": "Kebbi State",
+    "domain": "",
+    "osm_relation_id": 3707942
+  },
+  {
+    "id": "NG-224",
+    "name": "Faskari",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711494
+  },
+  {
+    "id": "NG-225",
+    "name": "Fika",
+    "country": "NG",
+    "region": "Yobe State",
+    "domain": "",
+    "osm_relation_id": 3698568
+  },
+  {
+    "id": "NG-226",
+    "name": "Fufore",
+    "country": "NG",
+    "region": "Adamawa State",
+    "domain": "",
+    "osm_relation_id": 3720360
+  },
+  {
+    "id": "NG-227",
+    "name": "Funakaye",
+    "country": "NG",
+    "region": "Gombe State",
+    "domain": "",
+    "osm_relation_id": 3720427
+  },
+  {
+    "id": "NG-228",
+    "name": "Fune",
+    "country": "NG",
+    "region": "Yobe State",
+    "domain": "",
+    "osm_relation_id": 3698569
+  },
+  {
+    "id": "NG-229",
+    "name": "Funtua",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711495
+  },
+  {
+    "id": "NG-230",
+    "name": "Gabasawa",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710315
+  },
+  {
+    "id": "NG-231",
+    "name": "Gada",
+    "country": "NG",
+    "region": "Sokoto State",
+    "domain": "",
+    "osm_relation_id": 3707372
+  },
+  {
+    "id": "NG-232",
+    "name": "Gagarawa",
+    "country": "NG",
+    "region": "Jigawa State",
+    "domain": "",
+    "osm_relation_id": 3703243
+  },
+  {
+    "id": "NG-233",
+    "name": "Gamawa",
+    "country": "NG",
+    "region": "Bauchi State",
+    "domain": "",
+    "osm_relation_id": 3722240
+  },
+  {
+    "id": "NG-234",
+    "name": "Ganjuwa",
+    "country": "NG",
+    "region": "Bauchi State",
+    "domain": "",
+    "osm_relation_id": 3722241
+  },
+  {
+    "id": "NG-235",
+    "name": "Ganye",
+    "country": "NG",
+    "region": "Adamawa State",
+    "domain": "",
+    "osm_relation_id": 3720361
+  },
+  {
+    "id": "NG-236",
+    "name": "Garki",
+    "country": "NG",
+    "region": "Jigawa State",
+    "domain": "",
+    "osm_relation_id": 3703244
+  },
+  {
+    "id": "NG-237",
+    "name": "Garko",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710316
+  },
+  {
+    "id": "NG-238",
+    "name": "Garun Malam",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710317
+  },
+  {
+    "id": "NG-239",
+    "name": "Gashaka",
+    "country": "NG",
+    "region": "Taraba State",
+    "domain": "",
+    "osm_relation_id": 3720854
+  },
+  {
+    "id": "NG-240",
+    "name": "Gassol",
+    "country": "NG",
+    "region": "Taraba State",
+    "domain": "",
+    "osm_relation_id": 3720855
+  },
+  {
+    "id": "NG-241",
+    "name": "Gaya",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710318
+  },
+  {
+    "id": "NG-242",
+    "name": "Gbako",
+    "country": "NG",
+    "region": "Niger State",
+    "domain": "",
+    "osm_relation_id": 3718392
+  },
+  {
+    "id": "NG-243",
+    "name": "Gbatse",
+    "country": "NG",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "NG-244",
+    "name": "Gboko",
+    "country": "NG",
+    "region": "Benue State",
+    "domain": "",
+    "osm_relation_id": 3716082
+  },
+  {
+    "id": "NG-245",
+    "name": "Gbonyin",
+    "country": "NG",
+    "region": "Ekiti State",
+    "domain": "",
+    "osm_relation_id": 3717161
+  },
+  {
+    "id": "NG-246",
+    "name": "Geidam",
+    "country": "NG",
+    "region": "Yobe State",
+    "domain": "",
+    "osm_relation_id": 3698571
+  },
+  {
+    "id": "NG-247",
+    "name": "Gezawa",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710319
+  },
+  {
+    "id": "NG-248",
+    "name": "Giade",
+    "country": "NG",
+    "region": "Bauchi State",
+    "domain": "",
+    "osm_relation_id": 3722242
+  },
+  {
+    "id": "NG-249",
+    "name": "Girei",
+    "country": "NG",
+    "region": "Adamawa State",
+    "domain": "",
+    "osm_relation_id": 3720362
+  },
+  {
+    "id": "NG-250",
+    "name": "Giwa",
+    "country": "NG",
+    "region": "Kaduna State",
+    "domain": "",
+    "osm_relation_id": 3709356
+  },
+  {
+    "id": "NG-251",
+    "name": "Gokana",
+    "country": "NG",
+    "region": "Rivers State",
+    "domain": "",
+    "osm_relation_id": 3720755
+  },
+  {
+    "id": "NG-252",
+    "name": "Gombe",
+    "country": "NG",
+    "region": "Gombe State",
+    "domain": "",
+    "osm_relation_id": 3720428
+  },
+  {
+    "id": "NG-253",
+    "name": "Gombi",
+    "country": "NG",
+    "region": "Adamawa State",
+    "domain": "",
+    "osm_relation_id": 3720363
+  },
+  {
+    "id": "NG-254",
+    "name": "Goronyo",
+    "country": "NG",
+    "region": "Sokoto State",
+    "domain": "",
+    "osm_relation_id": 3707373
+  },
+  {
+    "id": "NG-255",
+    "name": "Gubio",
+    "country": "NG",
+    "region": "Borno State",
+    "domain": "",
+    "osm_relation_id": 3721176
+  },
+  {
+    "id": "NG-256",
+    "name": "Gudu",
+    "country": "NG",
+    "region": "Sokoto State",
+    "domain": "",
+    "osm_relation_id": 3707374
+  },
+  {
+    "id": "NG-257",
+    "name": "Gujba",
+    "country": "NG",
+    "region": "Yobe State",
+    "domain": "",
+    "osm_relation_id": 3698572
+  },
+  {
+    "id": "NG-258",
+    "name": "Gulani",
+    "country": "NG",
+    "region": "Yobe State",
+    "domain": "",
+    "osm_relation_id": 3698573
+  },
+  {
+    "id": "NG-259",
+    "name": "Guma",
+    "country": "NG",
+    "region": "Benue State",
+    "domain": "",
+    "osm_relation_id": 3716083
+  },
+  {
+    "id": "NG-260",
+    "name": "Gumel",
+    "country": "NG",
+    "region": "Jigawa State",
+    "domain": "",
+    "osm_relation_id": 3703245
+  },
+  {
+    "id": "NG-261",
+    "name": "Gummi",
+    "country": "NG",
+    "region": "Zamfara State",
+    "domain": "",
+    "osm_relation_id": 3706962
+  },
+  {
+    "id": "NG-262",
+    "name": "Gurara",
+    "country": "NG",
+    "region": "Niger State",
+    "domain": "",
+    "osm_relation_id": 3718393
+  },
+  {
+    "id": "NG-263",
+    "name": "Guri",
+    "country": "NG",
+    "region": "Jigawa State",
+    "domain": "",
+    "osm_relation_id": 3703246
+  },
+  {
+    "id": "NG-264",
+    "name": "Gusau",
+    "country": "NG",
+    "region": "Zamfara State",
+    "domain": "",
+    "osm_relation_id": 3706963
+  },
+  {
+    "id": "NG-265",
+    "name": "Guyuk",
+    "country": "NG",
+    "region": "Adamawa State",
+    "domain": "",
+    "osm_relation_id": 3720364
+  },
+  {
+    "id": "NG-266",
+    "name": "Guzamala",
+    "country": "NG",
+    "region": "Borno State",
+    "domain": "",
+    "osm_relation_id": 3721177
+  },
+  {
+    "id": "NG-267",
+    "name": "Gwadabawa",
+    "country": "NG",
+    "region": "Sokoto State",
+    "domain": "",
+    "osm_relation_id": 3707375
+  },
+  {
+    "id": "NG-268",
+    "name": "Gwagwalada",
+    "country": "NG",
+    "region": "Federal Capital Territory",
+    "domain": "fctacss.org.ng",
+    "osm_relation_id": 3717262
+  },
+  {
+    "id": "NG-269",
+    "name": "Gwale",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710320
+  },
+  {
+    "id": "NG-270",
+    "name": "Gwandu",
+    "country": "NG",
+    "region": "Kebbi State",
+    "domain": "",
+    "osm_relation_id": 3707943
+  },
+  {
+    "id": "NG-271",
+    "name": "Gwaram",
+    "country": "NG",
+    "region": "Jigawa State",
+    "domain": "",
+    "osm_relation_id": 3703247
+  },
+  {
+    "id": "NG-272",
+    "name": "Gwarzo",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710321
+  },
+  {
+    "id": "NG-273",
+    "name": "Gwer East",
+    "country": "NG",
+    "region": "Benue State",
+    "domain": "",
+    "osm_relation_id": 3716084
+  },
+  {
+    "id": "NG-274",
+    "name": "Gwer West",
+    "country": "NG",
+    "region": "Benue State",
+    "domain": "",
+    "osm_relation_id": 3716085
+  },
+  {
+    "id": "NG-275",
+    "name": "Gwiwa",
+    "country": "NG",
+    "region": "Jigawa State",
+    "domain": "",
+    "osm_relation_id": 3703248
+  },
+  {
+    "id": "NG-276",
+    "name": "Gwoza",
+    "country": "NG",
+    "region": "Borno State",
+    "domain": "",
+    "osm_relation_id": 3721178
+  },
+  {
+    "id": "NG-277",
+    "name": "Hadejia",
+    "country": "NG",
+    "region": "Jigawa State",
+    "domain": "",
+    "osm_relation_id": 3703249
+  },
+  {
+    "id": "NG-278",
+    "name": "Hawul",
+    "country": "NG",
+    "region": "Borno State",
+    "domain": "",
+    "osm_relation_id": 3721179
+  },
+  {
+    "id": "NG-279",
+    "name": "Hong",
+    "country": "NG",
+    "region": "Adamawa State",
+    "domain": "",
+    "osm_relation_id": 3720365
+  },
+  {
+    "id": "NG-280",
+    "name": "Ibadan North",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720562
+  },
+  {
+    "id": "NG-281",
+    "name": "Ibadan North-East",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720560
+  },
+  {
+    "id": "NG-282",
+    "name": "Ibadan North-West",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720561
+  },
+  {
+    "id": "NG-283",
+    "name": "Ibadan South-East",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720563
+  },
+  {
+    "id": "NG-284",
+    "name": "Ibadan South-West",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720564
+  },
+  {
+    "id": "NG-285",
+    "name": "Ibaji",
+    "country": "NG",
+    "region": "Kogi State",
+    "domain": "",
+    "osm_relation_id": 3717977
+  },
+  {
+    "id": "NG-286",
+    "name": "Ibarapa Central",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720565
+  },
+  {
+    "id": "NG-287",
+    "name": "Ibarapa East",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720566
+  },
+  {
+    "id": "NG-288",
+    "name": "Ibarapa North",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720567
+  },
+  {
+    "id": "NG-289",
+    "name": "Ibeju-Lekki",
+    "country": "NG",
+    "region": "Lagos State",
+    "domain": "ibejulekki.lg.gov.ng",
+    "osm_relation_id": 3718191
+  },
+  {
+    "id": "NG-290",
+    "name": "Ibeno",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": "",
+    "osm_relation_id": 3715367
+  },
+  {
+    "id": "NG-291",
+    "name": "Ibesikpo Asutan",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": "",
+    "osm_relation_id": 3715368
+  },
+  {
+    "id": "NG-292",
+    "name": "Ibi",
+    "country": "NG",
+    "region": "Taraba State",
+    "domain": "",
+    "osm_relation_id": 3720856
+  },
+  {
+    "id": "NG-293",
+    "name": "Ibiono-Ibom",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": "",
+    "osm_relation_id": 3715369
+  },
+  {
+    "id": "NG-294",
+    "name": "Idah",
+    "country": "NG",
+    "region": "Kogi State",
+    "domain": "",
+    "osm_relation_id": 3717978
+  },
+  {
+    "id": "NG-295",
+    "name": "Idanre",
+    "country": "NG",
+    "region": "Ondo State",
+    "domain": "",
+    "osm_relation_id": 3718622
+  },
+  {
+    "id": "NG-296",
+    "name": "Ideato North",
+    "country": "NG",
+    "region": "Imo State",
+    "domain": "",
+    "osm_relation_id": 3717830
+  },
+  {
+    "id": "NG-297",
+    "name": "Ideato South",
+    "country": "NG",
+    "region": "Imo State",
+    "domain": "",
+    "osm_relation_id": 3717831
+  },
+  {
+    "id": "NG-298",
+    "name": "Idemili North",
+    "country": "NG",
+    "region": "Anambra State",
+    "domain": "",
+    "osm_relation_id": 3715515
+  },
+  {
+    "id": "NG-299",
+    "name": "Idemili South",
+    "country": "NG",
+    "region": "Anambra State",
+    "domain": "idemilisouthlg.com.ng",
+    "osm_relation_id": 3715516
+  },
+  {
+    "id": "NG-300",
+    "name": "Idemmili South",
+    "country": "NG",
+    "region": "Anambra State",
+    "domain": ""
+  },
+  {
+    "id": "NG-301",
+    "name": "Ido",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720568
+  },
+  {
+    "id": "NG-302",
+    "name": "Ido-Osi",
+    "country": "NG",
+    "region": "Ekiti State",
+    "domain": "",
+    "osm_relation_id": 3717162
+  },
+  {
+    "id": "NG-303",
+    "name": "Ifako-Ijaiye",
+    "country": "NG",
+    "region": "Lagos State",
+    "domain": "",
+    "osm_relation_id": 3718192
+  },
+  {
+    "id": "NG-304",
+    "name": "Ife Central",
+    "country": "NG",
+    "region": "Osun State",
+    "domain": "",
+    "osm_relation_id": 3718731
+  },
+  {
+    "id": "NG-305",
+    "name": "Ife East",
+    "country": "NG",
+    "region": "Osun State",
+    "domain": "",
+    "osm_relation_id": 3718732
+  },
+  {
+    "id": "NG-306",
+    "name": "Ife North",
+    "country": "NG",
+    "region": "Osun State",
+    "domain": "",
+    "osm_relation_id": 3718733
+  },
+  {
+    "id": "NG-307",
+    "name": "Ife South",
+    "country": "NG",
+    "region": "Osun State",
+    "domain": "",
+    "osm_relation_id": 3718734
+  },
+  {
+    "id": "NG-308",
+    "name": "Ifedayo",
+    "country": "NG",
+    "region": "Osun State",
+    "domain": "",
+    "osm_relation_id": 3718735
+  },
+  {
+    "id": "NG-309",
+    "name": "Ifedore",
+    "country": "NG",
+    "region": "Ondo State",
+    "domain": "",
+    "osm_relation_id": 3718623
+  },
+  {
+    "id": "NG-310",
+    "name": "Ifelodun",
+    "country": "NG",
+    "region": "Kwara State",
+    "domain": "ifelodunkwara.org.ng",
+    "osm_relation_id": 3718095
+  },
+  {
+    "id": "NG-311",
+    "name": "Ifelodun",
+    "country": "NG",
+    "region": "Osun State",
+    "domain": "",
+    "osm_relation_id": 3718736
+  },
+  {
+    "id": "NG-312",
+    "name": "Ifo",
+    "country": "NG",
+    "region": "Ogun State",
+    "domain": "",
+    "osm_relation_id": 3718470
+  },
+  {
+    "id": "NG-313",
+    "name": "Ifo Local Goverment Area",
+    "country": "NG",
+    "region": "Ogun State",
+    "domain": "",
+    "osm_relation_id": 3718470
+  },
+  {
+    "id": "NG-314",
+    "name": "Igabi",
+    "country": "NG",
+    "region": "Kaduna State",
+    "domain": "",
+    "osm_relation_id": 3709357
+  },
+  {
+    "id": "NG-315",
+    "name": "Igalamela-Odolu",
+    "country": "NG",
+    "region": "Kogi State",
+    "domain": "",
+    "osm_relation_id": 3717979
+  },
+  {
+    "id": "NG-316",
+    "name": "Igbo Etiti",
+    "country": "NG",
+    "region": "Enugu State",
+    "domain": "",
+    "osm_relation_id": 3717219
+  },
+  {
+    "id": "NG-317",
+    "name": "Igbo Eze North",
+    "country": "NG",
+    "region": "Enugu State",
+    "domain": "",
+    "osm_relation_id": 3717220
+  },
+  {
+    "id": "NG-318",
+    "name": "Igbo Eze South",
+    "country": "NG",
+    "region": "Enugu State",
+    "domain": "",
+    "osm_relation_id": 3717221
+  },
+  {
+    "id": "NG-319",
+    "name": "Igueben",
+    "country": "NG",
+    "region": "Edo State",
+    "domain": "",
+    "osm_relation_id": 3717130
+  },
+  {
+    "id": "NG-320",
+    "name": "Ihiala",
+    "country": "NG",
+    "region": "Anambra State",
+    "domain": "",
+    "osm_relation_id": 3715517
+  },
+  {
+    "id": "NG-321",
+    "name": "Ihitte/Uboma",
+    "country": "NG",
+    "region": "Imo State",
+    "domain": "",
+    "osm_relation_id": 3717832
+  },
+  {
+    "id": "NG-322",
+    "name": "Ijebu East",
+    "country": "NG",
+    "region": "Ogun State",
+    "domain": "",
+    "osm_relation_id": 3718471
+  },
+  {
+    "id": "NG-323",
+    "name": "Ijebu North",
+    "country": "NG",
+    "region": "Ogun State",
+    "domain": "",
+    "osm_relation_id": 3718473
+  },
+  {
+    "id": "NG-324",
+    "name": "Ijebu North East",
+    "country": "NG",
+    "region": "Ogun State",
+    "domain": "",
+    "osm_relation_id": 3718472
+  },
+  {
+    "id": "NG-325",
+    "name": "Ijebu Ode",
+    "country": "NG",
+    "region": "Ogun State",
+    "domain": "",
+    "osm_relation_id": 3718474
+  },
+  {
+    "id": "NG-326",
+    "name": "Ijede",
+    "country": "NG",
+    "region": "",
+    "domain": "",
+    "osm_relation_id": 501463454
+  },
+  {
+    "id": "NG-327",
+    "name": "Ijero",
+    "country": "NG",
+    "region": "Ekiti State",
+    "domain": "ijeroekiti.org",
+    "osm_relation_id": 3717163
+  },
+  {
+    "id": "NG-328",
+    "name": "Ijumu",
+    "country": "NG",
+    "region": "Kogi State",
+    "domain": "",
+    "osm_relation_id": 3717980
+  },
+  {
+    "id": "NG-329",
+    "name": "Ika",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": "",
+    "osm_relation_id": 3715370
+  },
+  {
+    "id": "NG-330",
+    "name": "Ika North East",
+    "country": "NG",
+    "region": "Delta State",
+    "domain": "",
+    "osm_relation_id": 3716957
+  },
+  {
+    "id": "NG-331",
+    "name": "Ika South",
+    "country": "NG",
+    "region": "Delta State",
+    "domain": "",
+    "osm_relation_id": 3716958
+  },
+  {
+    "id": "NG-332",
+    "name": "Ikara",
+    "country": "NG",
+    "region": "Kaduna State",
+    "domain": "",
+    "osm_relation_id": 3709358
+  },
+  {
+    "id": "NG-333",
+    "name": "Ikeduru",
+    "country": "NG",
+    "region": "Imo State",
+    "domain": "",
+    "osm_relation_id": 3717833
+  },
+  {
+    "id": "NG-334",
+    "name": "Ikeja",
+    "country": "NG",
+    "region": "Lagos State",
+    "domain": "ikeja.lg.gov.ng",
+    "osm_relation_id": 3718193
+  },
+  {
+    "id": "NG-335",
+    "name": "Ikenne",
+    "country": "NG",
+    "region": "Ogun State",
+    "domain": "",
+    "osm_relation_id": 3718475
+  },
+  {
+    "id": "NG-336",
+    "name": "Ikere",
+    "country": "NG",
+    "region": "Ekiti State",
+    "domain": "",
+    "osm_relation_id": 3717164
+  },
+  {
+    "id": "NG-337",
+    "name": "Ikole",
+    "country": "NG",
+    "region": "Ekiti State",
+    "domain": "",
+    "osm_relation_id": 3717165
+  },
+  {
+    "id": "NG-338",
+    "name": "Ikom",
+    "country": "NG",
+    "region": "Cross River State",
+    "domain": "",
+    "osm_relation_id": 3716261
+  },
+  {
+    "id": "NG-339",
+    "name": "Ikono",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": "",
+    "osm_relation_id": 3715371
+  },
+  {
+    "id": "NG-340",
+    "name": "Ikorodu",
+    "country": "NG",
+    "region": "Lagos State",
+    "domain": "",
+    "osm_relation_id": 3718194
+  },
+  {
+    "id": "NG-341",
+    "name": "Ikorodu",
+    "country": "NG",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "NG-342",
+    "name": "Ikorodu local Government",
+    "country": "NG",
+    "region": "Lagos State",
+    "domain": "",
+    "osm_relation_id": 3718194
+  },
+  {
+    "id": "NG-343",
+    "name": "Ikot Abasi",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": "aksgonline.com",
+    "osm_relation_id": 3715372
+  },
+  {
+    "id": "NG-344",
+    "name": "Ikot Ekpene",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": "",
+    "osm_relation_id": 3715373
+  },
+  {
+    "id": "NG-345",
+    "name": "Ikpoba Okha",
+    "country": "NG",
+    "region": "Edo State",
+    "domain": "",
+    "osm_relation_id": 3717131
+  },
+  {
+    "id": "NG-346",
+    "name": "Ikwerre",
+    "country": "NG",
+    "region": "Rivers State",
+    "domain": "",
+    "osm_relation_id": 3720756
+  },
+  {
+    "id": "NG-347",
+    "name": "Ikwo",
+    "country": "NG",
+    "region": "Ebonyi State",
+    "domain": "",
+    "osm_relation_id": 3717078
+  },
+  {
+    "id": "NG-348",
+    "name": "Ikwuano",
+    "country": "NG",
+    "region": "Abia State",
+    "domain": "",
+    "osm_relation_id": 3713506
+  },
+  {
+    "id": "NG-349",
+    "name": "Ila",
+    "country": "NG",
+    "region": "Osun State",
+    "domain": "",
+    "osm_relation_id": 3718737
+  },
+  {
+    "id": "NG-350",
+    "name": "Ilaje",
+    "country": "NG",
+    "region": "Ondo State",
+    "domain": "",
+    "osm_relation_id": 3718624
+  },
+  {
+    "id": "NG-351",
+    "name": "Ilara-Ogudo Yewa",
+    "country": "NG",
+    "region": "Ogun State",
+    "domain": ""
+  },
+  {
+    "id": "NG-352",
+    "name": "Ile Oluji/Okeigbo",
+    "country": "NG",
+    "region": "Ondo State",
+    "domain": "",
+    "osm_relation_id": 3718625
+  },
+  {
+    "id": "NG-353",
+    "name": "Ilejemeje",
+    "country": "NG",
+    "region": "Ekiti State",
+    "domain": "",
+    "osm_relation_id": 3717166
+  },
+  {
+    "id": "NG-354",
+    "name": "Ilesa East",
+    "country": "NG",
+    "region": "Osun State",
+    "domain": "",
+    "osm_relation_id": 3718738
+  },
+  {
+    "id": "NG-355",
+    "name": "Ilesa West",
+    "country": "NG",
+    "region": "Osun State",
+    "domain": "",
+    "osm_relation_id": 3718739
+  },
+  {
+    "id": "NG-356",
+    "name": "Illela",
+    "country": "NG",
+    "region": "Sokoto State",
+    "domain": "",
+    "osm_relation_id": 3707376
+  },
+  {
+    "id": "NG-357",
+    "name": "Ilorin-East",
+    "country": "NG",
+    "region": "Kwara State",
+    "domain": "kwarastate.gov.ng",
+    "osm_relation_id": 3718096
+  },
+  {
+    "id": "NG-358",
+    "name": "Ilorin-South",
+    "country": "NG",
+    "region": "Kwara State",
+    "domain": "",
+    "osm_relation_id": 3718097
+  },
+  {
+    "id": "NG-359",
+    "name": "Ilorin-West",
+    "country": "NG",
+    "region": "Kwara State",
+    "domain": "",
+    "osm_relation_id": 3718098
+  },
+  {
+    "id": "NG-360",
+    "name": "Imeko Afon",
+    "country": "NG",
+    "region": "Ogun State",
+    "domain": "",
+    "osm_relation_id": 3718476
+  },
+  {
+    "id": "NG-361",
+    "name": "Ingawa",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711496
+  },
+  {
+    "id": "NG-362",
+    "name": "Ini",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": "",
+    "osm_relation_id": 3715374
+  },
+  {
+    "id": "NG-363",
+    "name": "Ipokia",
+    "country": "NG",
+    "region": "Ogun State",
+    "domain": "",
+    "osm_relation_id": 3718477
+  },
+  {
+    "id": "NG-364",
+    "name": "Irele",
+    "country": "NG",
+    "region": "Ondo State",
+    "domain": "",
+    "osm_relation_id": 3718626
+  },
+  {
+    "id": "NG-365",
+    "name": "Irepo",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720569
+  },
+  {
+    "id": "NG-366",
+    "name": "Irepodun",
+    "country": "NG",
+    "region": "Osun State",
+    "domain": "",
+    "osm_relation_id": 3718740
+  },
+  {
+    "id": "NG-367",
+    "name": "Irepodun",
+    "country": "NG",
+    "region": "Kwara State",
+    "domain": "kwarastate.gov.ng",
+    "osm_relation_id": 3718099
+  },
+  {
+    "id": "NG-368",
+    "name": "Irepodun/Ifelodun",
+    "country": "NG",
+    "region": "Ekiti State",
+    "domain": "",
+    "osm_relation_id": 3717167
+  },
+  {
+    "id": "NG-369",
+    "name": "Irewole",
+    "country": "NG",
+    "region": "Osun State",
+    "domain": "",
+    "osm_relation_id": 3718741
+  },
+  {
+    "id": "NG-370",
+    "name": "Isa",
+    "country": "NG",
+    "region": "Sokoto State",
+    "domain": "",
+    "osm_relation_id": 3707377
+  },
+  {
+    "id": "NG-371",
+    "name": "Ise/Orun",
+    "country": "NG",
+    "region": "Ekiti State",
+    "domain": "",
+    "osm_relation_id": 3717168
+  },
+  {
+    "id": "NG-372",
+    "name": "Iseyin",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720570
+  },
+  {
+    "id": "NG-373",
+    "name": "Iseyin Local Government Area",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720570
+  },
+  {
+    "id": "NG-374",
+    "name": "Ishielu",
+    "country": "NG",
+    "region": "Ebonyi State",
+    "domain": "",
+    "osm_relation_id": 3717079
+  },
+  {
+    "id": "NG-375",
+    "name": "Isi Uzo",
+    "country": "NG",
+    "region": "Enugu State",
+    "domain": "",
+    "osm_relation_id": 3717222
+  },
+  {
+    "id": "NG-376",
+    "name": "Isiala Mbano",
+    "country": "NG",
+    "region": "Imo State",
+    "domain": "",
+    "osm_relation_id": 3717834
+  },
+  {
+    "id": "NG-377",
+    "name": "Isiala-Ngwa North",
+    "country": "NG",
+    "region": "Abia State",
+    "domain": "",
+    "osm_relation_id": 3713507
+  },
+  {
+    "id": "NG-378",
+    "name": "Isiala-Ngwa South",
+    "country": "NG",
+    "region": "Abia State",
+    "domain": "abiastate.gov",
+    "osm_relation_id": 3713508
+  },
+  {
+    "id": "NG-379",
+    "name": "Isin",
+    "country": "NG",
+    "region": "Kwara State",
+    "domain": "",
+    "osm_relation_id": 3718100
+  },
+  {
+    "id": "NG-380",
+    "name": "Isokan",
+    "country": "NG",
+    "region": "Osun State",
+    "domain": "",
+    "osm_relation_id": 3718742
+  },
+  {
+    "id": "NG-381",
+    "name": "Isoko North",
+    "country": "NG",
+    "region": "Delta State",
+    "domain": "",
+    "osm_relation_id": 3716959
+  },
+  {
+    "id": "NG-382",
+    "name": "Isoko South",
+    "country": "NG",
+    "region": "Delta State",
+    "domain": "",
+    "osm_relation_id": 3716960
+  },
+  {
+    "id": "NG-383",
+    "name": "Isu",
+    "country": "NG",
+    "region": "Imo State",
+    "domain": "isu.gov.ng",
+    "osm_relation_id": 3717835
+  },
+  {
+    "id": "NG-384",
+    "name": "Isuikwuato",
+    "country": "NG",
+    "region": "Abia State",
+    "domain": "",
+    "osm_relation_id": 3713509
+  },
+  {
+    "id": "NG-385",
+    "name": "Itas/Gadau",
+    "country": "NG",
+    "region": "Bauchi State",
+    "domain": "",
+    "osm_relation_id": 3722243
+  },
+  {
+    "id": "NG-386",
+    "name": "Itesiwaju",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720571
+  },
+  {
+    "id": "NG-387",
+    "name": "Itu",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": "",
+    "osm_relation_id": 3715375
+  },
+  {
+    "id": "NG-388",
+    "name": "Ivo",
+    "country": "NG",
+    "region": "Ebonyi State",
+    "domain": "",
+    "osm_relation_id": 3717080
+  },
+  {
+    "id": "NG-389",
+    "name": "Iwajowa",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720572
+  },
+  {
+    "id": "NG-390",
+    "name": "Iwo",
+    "country": "NG",
+    "region": "Osun State",
+    "domain": "",
+    "osm_relation_id": 3718743
+  },
+  {
+    "id": "NG-391",
+    "name": "Izzi",
+    "country": "NG",
+    "region": "Ebonyi State",
+    "domain": "",
+    "osm_relation_id": 3717081
+  },
+  {
+    "id": "NG-392",
+    "name": "Jaba",
+    "country": "NG",
+    "region": "Kaduna State",
+    "domain": "",
+    "osm_relation_id": 3709359
+  },
+  {
+    "id": "NG-393",
+    "name": "Jada",
+    "country": "NG",
+    "region": "Adamawa State",
+    "domain": "",
+    "osm_relation_id": 3720366
+  },
+  {
+    "id": "NG-394",
+    "name": "Jahun",
+    "country": "NG",
+    "region": "Jigawa State",
+    "domain": "",
+    "osm_relation_id": 3703250
+  },
+  {
+    "id": "NG-395",
+    "name": "Jakusko",
+    "country": "NG",
+    "region": "Yobe State",
+    "domain": "",
+    "osm_relation_id": 3698574
+  },
+  {
+    "id": "NG-396",
+    "name": "Jalingo",
+    "country": "NG",
+    "region": "Taraba State",
+    "domain": "",
+    "osm_relation_id": 3720857
+  },
+  {
+    "id": "NG-397",
+    "name": "Jama'are",
+    "country": "NG",
+    "region": "Bauchi State",
+    "domain": "",
+    "osm_relation_id": 3722244
+  },
+  {
+    "id": "NG-398",
+    "name": "Jega",
+    "country": "NG",
+    "region": "Kebbi State",
+    "domain": "",
+    "osm_relation_id": 3707944
+  },
+  {
+    "id": "NG-399",
+    "name": "Jema'a",
+    "country": "NG",
+    "region": "Kaduna State",
+    "domain": "",
+    "osm_relation_id": 3709360
+  },
+  {
+    "id": "NG-400",
+    "name": "Jere",
+    "country": "NG",
+    "region": "Borno State",
+    "domain": "",
+    "osm_relation_id": 3721180
+  },
+  {
+    "id": "NG-401",
+    "name": "Jibia",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711497
+  },
+  {
+    "id": "NG-402",
+    "name": "Jos East",
+    "country": "NG",
+    "region": "Plateau State",
+    "domain": "",
+    "osm_relation_id": 3720615
+  },
+  {
+    "id": "NG-403",
+    "name": "Jos North",
+    "country": "NG",
+    "region": "Plateau State",
+    "domain": "",
+    "osm_relation_id": 3720616
+  },
+  {
+    "id": "NG-404",
+    "name": "Jos South",
+    "country": "NG",
+    "region": "Plateau State",
+    "domain": "",
+    "osm_relation_id": 3720617
+  },
+  {
+    "id": "NG-405",
+    "name": "Kabba/Bunu",
+    "country": "NG",
+    "region": "Kogi State",
+    "domain": "",
+    "osm_relation_id": 3717981
+  },
+  {
+    "id": "NG-406",
+    "name": "Kabo",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710322
+  },
+  {
+    "id": "NG-407",
+    "name": "Kachia",
+    "country": "NG",
+    "region": "Kaduna State",
+    "domain": "",
+    "osm_relation_id": 3709361
+  },
+  {
+    "id": "NG-408",
+    "name": "Kaduna North",
+    "country": "NG",
+    "region": "Kaduna State",
+    "domain": "",
+    "osm_relation_id": 3709362
+  },
+  {
+    "id": "NG-409",
+    "name": "Kaduna South",
+    "country": "NG",
+    "region": "Kaduna State",
+    "domain": "",
+    "osm_relation_id": 3709363
+  },
+  {
+    "id": "NG-410",
+    "name": "Kafin Hausa",
+    "country": "NG",
+    "region": "Jigawa State",
+    "domain": "",
+    "osm_relation_id": 3703251
+  },
+  {
+    "id": "NG-411",
+    "name": "Kafur",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711498
+  },
+  {
+    "id": "NG-412",
+    "name": "Kaga",
+    "country": "NG",
+    "region": "Borno State",
+    "domain": "",
+    "osm_relation_id": 3721181
+  },
+  {
+    "id": "NG-413",
+    "name": "Kagarko",
+    "country": "NG",
+    "region": "Kaduna State",
+    "domain": "",
+    "osm_relation_id": 3709364
+  },
+  {
+    "id": "NG-414",
+    "name": "Kaiama",
+    "country": "NG",
+    "region": "Kwara State",
+    "domain": "",
+    "osm_relation_id": 3718101
+  },
+  {
+    "id": "NG-415",
+    "name": "Kaita",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711499
+  },
+  {
+    "id": "NG-416",
+    "name": "Kajola",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720573
+  },
+  {
+    "id": "NG-417",
+    "name": "Kajuru",
+    "country": "NG",
+    "region": "Kaduna State",
+    "domain": "",
+    "osm_relation_id": 3709365
+  },
+  {
+    "id": "NG-418",
+    "name": "Kala/Balge",
+    "country": "NG",
+    "region": "Borno State",
+    "domain": "",
+    "osm_relation_id": 3721182
+  },
+  {
+    "id": "NG-419",
+    "name": "Kalgo",
+    "country": "NG",
+    "region": "Kebbi State",
+    "domain": "",
+    "osm_relation_id": 3707945
+  },
+  {
+    "id": "NG-420",
+    "name": "Kaltungo",
+    "country": "NG",
+    "region": "Gombe State",
+    "domain": "",
+    "osm_relation_id": 3720429
+  },
+  {
+    "id": "NG-421",
+    "name": "Kanam",
+    "country": "NG",
+    "region": "Plateau State",
+    "domain": "",
+    "osm_relation_id": 3720618
+  },
+  {
+    "id": "NG-422",
+    "name": "Kankara",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711500
+  },
+  {
+    "id": "NG-423",
+    "name": "Kanke",
+    "country": "NG",
+    "region": "Plateau State",
+    "domain": "",
+    "osm_relation_id": 3720619
+  },
+  {
+    "id": "NG-424",
+    "name": "Kankia",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711501
+  },
+  {
+    "id": "NG-425",
+    "name": "Kano Municipal",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710323
+  },
+  {
+    "id": "NG-426",
+    "name": "Karasuwa",
+    "country": "NG",
+    "region": "Yobe State",
+    "domain": "",
+    "osm_relation_id": 3698575
+  },
+  {
+    "id": "NG-427",
+    "name": "Karaye",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710324
+  },
+  {
+    "id": "NG-428",
+    "name": "Karim Lamido",
+    "country": "NG",
+    "region": "Taraba State",
+    "domain": "",
+    "osm_relation_id": 3720858
+  },
+  {
+    "id": "NG-429",
+    "name": "Karu",
+    "country": "NG",
+    "region": "Nasarawa State",
+    "domain": "",
+    "osm_relation_id": 3720499
+  },
+  {
+    "id": "NG-430",
+    "name": "Katagum",
+    "country": "NG",
+    "region": "Bauchi State",
+    "domain": "",
+    "osm_relation_id": 3722245
+  },
+  {
+    "id": "NG-431",
+    "name": "Katcha",
+    "country": "NG",
+    "region": "Niger State",
+    "domain": "",
+    "osm_relation_id": 3718394
+  },
+  {
+    "id": "NG-432",
+    "name": "Katsina",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711502
+  },
+  {
+    "id": "NG-433",
+    "name": "Katsina-Ala",
+    "country": "NG",
+    "region": "Benue State",
+    "domain": "",
+    "osm_relation_id": 3716086
+  },
+  {
+    "id": "NG-434",
+    "name": "Kaugama",
+    "country": "NG",
+    "region": "Jigawa State",
+    "domain": "",
+    "osm_relation_id": 3703252
+  },
+  {
+    "id": "NG-435",
+    "name": "Kaura",
+    "country": "NG",
+    "region": "Kaduna State",
+    "domain": "",
+    "osm_relation_id": 3709366
+  },
+  {
+    "id": "NG-436",
+    "name": "Kaura Namoda",
+    "country": "NG",
+    "region": "Zamfara State",
+    "domain": "",
+    "osm_relation_id": 3706964
+  },
+  {
+    "id": "NG-437",
+    "name": "Kauru",
+    "country": "NG",
+    "region": "Kaduna State",
+    "domain": "",
+    "osm_relation_id": 3709367
+  },
+  {
+    "id": "NG-438",
+    "name": "Kazaure",
+    "country": "NG",
+    "region": "Jigawa State",
+    "domain": "kazaure.net",
+    "osm_relation_id": 3703253
+  },
+  {
+    "id": "NG-439",
+    "name": "Keana",
+    "country": "NG",
+    "region": "Nasarawa State",
+    "domain": "",
+    "osm_relation_id": 3720500
+  },
+  {
+    "id": "NG-440",
+    "name": "Kebbe",
+    "country": "NG",
+    "region": "Sokoto State",
+    "domain": "",
+    "osm_relation_id": 3707378
+  },
+  {
+    "id": "NG-441",
+    "name": "Keffi",
+    "country": "NG",
+    "region": "Nasarawa State",
+    "domain": "",
+    "osm_relation_id": 3720501
+  },
+  {
+    "id": "NG-442",
+    "name": "Khana",
+    "country": "NG",
+    "region": "Rivers State",
+    "domain": "",
+    "osm_relation_id": 3720757
+  },
+  {
+    "id": "NG-443",
+    "name": "Kibiya",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710325
+  },
+  {
+    "id": "NG-444",
+    "name": "Kirfi",
+    "country": "NG",
+    "region": "Bauchi State",
+    "domain": "",
+    "osm_relation_id": 3722246
+  },
+  {
+    "id": "NG-445",
+    "name": "Kiri Kasama",
+    "country": "NG",
+    "region": "Jigawa State",
+    "domain": "",
+    "osm_relation_id": 3703254
+  },
+  {
+    "id": "NG-446",
+    "name": "Kiri Kasamma",
+    "country": "NG",
+    "region": "Jigawa State",
+    "domain": "",
+    "osm_relation_id": 3703423
+  },
+  {
+    "id": "NG-447",
+    "name": "Kiru",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710326
+  },
+  {
+    "id": "NG-448",
+    "name": "Kiyawa",
+    "country": "NG",
+    "region": "Jigawa State",
+    "domain": "",
+    "osm_relation_id": 3703255
+  },
+  {
+    "id": "NG-449",
+    "name": "Kogi",
+    "country": "NG",
+    "region": "Kogi State",
+    "domain": "",
+    "osm_relation_id": 3717982
+  },
+  {
+    "id": "NG-450",
+    "name": "Koko/Besse",
+    "country": "NG",
+    "region": "Kebbi State",
+    "domain": "",
+    "osm_relation_id": 3707946
+  },
+  {
+    "id": "NG-451",
+    "name": "Kokona",
+    "country": "NG",
+    "region": "Nasarawa State",
+    "domain": "",
+    "osm_relation_id": 3720502
+  },
+  {
+    "id": "NG-452",
+    "name": "Kolokuma/Opokuma",
+    "country": "NG",
+    "region": "Bayelsa State",
+    "domain": "",
+    "osm_relation_id": 3715847
+  },
+  {
+    "id": "NG-453",
+    "name": "Konduga",
+    "country": "NG",
+    "region": "Borno State",
+    "domain": "",
+    "osm_relation_id": 3721183
+  },
+  {
+    "id": "NG-454",
+    "name": "Kondunga",
+    "country": "NG",
+    "region": "Borno State",
+    "domain": ""
+  },
+  {
+    "id": "NG-455",
+    "name": "Konshisha",
+    "country": "NG",
+    "region": "Benue State",
+    "domain": "",
+    "osm_relation_id": 3716087
+  },
+  {
+    "id": "NG-456",
+    "name": "Kontagora",
+    "country": "NG",
+    "region": "Niger State",
+    "domain": "",
+    "osm_relation_id": 3718395
+  },
+  {
+    "id": "NG-457",
+    "name": "Kosofe",
+    "country": "NG",
+    "region": "Lagos State",
+    "domain": "",
+    "osm_relation_id": 3718195
+  },
+  {
+    "id": "NG-458",
+    "name": "Kubau",
+    "country": "NG",
+    "region": "Kaduna State",
+    "domain": "",
+    "osm_relation_id": 3709368
+  },
+  {
+    "id": "NG-459",
+    "name": "Kudan",
+    "country": "NG",
+    "region": "Kaduna State",
+    "domain": "",
+    "osm_relation_id": 3709369
+  },
+  {
+    "id": "NG-460",
+    "name": "Kuje",
+    "country": "NG",
+    "region": "Federal Capital Territory",
+    "domain": "",
+    "osm_relation_id": 3717263
+  },
+  {
+    "id": "NG-461",
+    "name": "Kukawa",
+    "country": "NG",
+    "region": "Borno State",
+    "domain": "",
+    "osm_relation_id": 3721184
+  },
+  {
+    "id": "NG-462",
+    "name": "Kumbotso",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710327
+  },
+  {
+    "id": "NG-463",
+    "name": "Kunchi",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710328
+  },
+  {
+    "id": "NG-464",
+    "name": "Kura",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710329
+  },
+  {
+    "id": "NG-465",
+    "name": "Kurfi",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711503
+  },
+  {
+    "id": "NG-466",
+    "name": "Kurmi",
+    "country": "NG",
+    "region": "Taraba State",
+    "domain": "",
+    "osm_relation_id": 3720859
+  },
+  {
+    "id": "NG-467",
+    "name": "Kusada",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711504
+  },
+  {
+    "id": "NG-468",
+    "name": "Kwali",
+    "country": "NG",
+    "region": "Federal Capital Territory",
+    "domain": "",
+    "osm_relation_id": 3717264
+  },
+  {
+    "id": "NG-469",
+    "name": "Kwami",
+    "country": "NG",
+    "region": "Gombe State",
+    "domain": "",
+    "osm_relation_id": 3720430
+  },
+  {
+    "id": "NG-470",
+    "name": "Kwande",
+    "country": "NG",
+    "region": "Benue State",
+    "domain": "",
+    "osm_relation_id": 3716088
+  },
+  {
+    "id": "NG-471",
+    "name": "Kware",
+    "country": "NG",
+    "region": "Sokoto State",
+    "domain": "",
+    "osm_relation_id": 3707379
+  },
+  {
+    "id": "NG-472",
+    "name": "Kwaya Kusar",
+    "country": "NG",
+    "region": "Borno State",
+    "domain": "",
+    "osm_relation_id": 3721185
+  },
+  {
+    "id": "NG-473",
+    "name": "Lafia",
+    "country": "NG",
+    "region": "Nasarawa State",
+    "domain": "",
+    "osm_relation_id": 3720503
+  },
+  {
+    "id": "NG-474",
+    "name": "Lagelu",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720574
+  },
+  {
+    "id": "NG-475",
+    "name": "Lagos Island",
+    "country": "NG",
+    "region": "Lagos State",
+    "domain": "",
+    "osm_relation_id": 5404351
+  },
+  {
+    "id": "NG-476",
+    "name": "Lagos Mainland",
+    "country": "NG",
+    "region": "Lagos State",
+    "domain": "",
+    "osm_relation_id": 5403871
+  },
+  {
+    "id": "NG-477",
+    "name": "Lamurde",
+    "country": "NG",
+    "region": "Adamawa State",
+    "domain": "",
+    "osm_relation_id": 3720367
+  },
+  {
+    "id": "NG-478",
+    "name": "Langtang North",
+    "country": "NG",
+    "region": "Plateau State",
+    "domain": "",
+    "osm_relation_id": 3720620
+  },
+  {
+    "id": "NG-479",
+    "name": "Langtang South",
+    "country": "NG",
+    "region": "Plateau State",
+    "domain": "",
+    "osm_relation_id": 3720621
+  },
+  {
+    "id": "NG-480",
+    "name": "Lapai",
+    "country": "NG",
+    "region": "Niger State",
+    "domain": "",
+    "osm_relation_id": 3718396
+  },
+  {
+    "id": "NG-481",
+    "name": "Lau",
+    "country": "NG",
+    "region": "Taraba State",
+    "domain": "",
+    "osm_relation_id": 3720860
+  },
+  {
+    "id": "NG-482",
+    "name": "Lautang north",
+    "country": "NG",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "NG-483",
+    "name": "Lavun",
+    "country": "NG",
+    "region": "Niger State",
+    "domain": "",
+    "osm_relation_id": 3718397
+  },
+  {
+    "id": "NG-484",
+    "name": "Lere",
+    "country": "NG",
+    "region": "Kaduna State",
+    "domain": "",
+    "osm_relation_id": 3709370
+  },
+  {
+    "id": "NG-485",
+    "name": "Logo",
+    "country": "NG",
+    "region": "Benue State",
+    "domain": "",
+    "osm_relation_id": 3716089
+  },
+  {
+    "id": "NG-486",
+    "name": "Lokoja",
+    "country": "NG",
+    "region": "Kogi State",
+    "domain": "",
+    "osm_relation_id": 3717983
+  },
+  {
+    "id": "NG-487",
+    "name": "Machina",
+    "country": "NG",
+    "region": "Yobe State",
+    "domain": "",
+    "osm_relation_id": 3698576
+  },
+  {
+    "id": "NG-488",
+    "name": "Madagali",
+    "country": "NG",
+    "region": "Adamawa State",
+    "domain": "",
+    "osm_relation_id": 3720368
+  },
+  {
+    "id": "NG-489",
+    "name": "Madobi",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710330
+  },
+  {
+    "id": "NG-490",
+    "name": "Mafa",
+    "country": "NG",
+    "region": "Borno State",
+    "domain": "",
+    "osm_relation_id": 3721186
+  },
+  {
+    "id": "NG-491",
+    "name": "Magama",
+    "country": "NG",
+    "region": "Niger State",
+    "domain": "",
+    "osm_relation_id": 3718398
+  },
+  {
+    "id": "NG-492",
+    "name": "Magumeri",
+    "country": "NG",
+    "region": "Borno State",
+    "domain": "",
+    "osm_relation_id": 3721187
+  },
+  {
+    "id": "NG-493",
+    "name": "Mai'Adua",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711505
+  },
+  {
+    "id": "NG-494",
+    "name": "Maiduguri",
+    "country": "NG",
+    "region": "Borno State",
+    "domain": "",
+    "osm_relation_id": 3721188
+  },
+  {
+    "id": "NG-495",
+    "name": "Maigatari",
+    "country": "NG",
+    "region": "Jigawa State",
+    "domain": "",
+    "osm_relation_id": 3703256
+  },
+  {
+    "id": "NG-496",
+    "name": "Maiha",
+    "country": "NG",
+    "region": "Adamawa State",
+    "domain": "",
+    "osm_relation_id": 3720369
+  },
+  {
+    "id": "NG-497",
+    "name": "Maiyama",
+    "country": "NG",
+    "region": "Kebbi State",
+    "domain": "",
+    "osm_relation_id": 3707947
+  },
+  {
+    "id": "NG-498",
+    "name": "Makarfi",
+    "country": "NG",
+    "region": "Kaduna State",
+    "domain": "",
+    "osm_relation_id": 3709371
+  },
+  {
+    "id": "NG-499",
+    "name": "Makoda",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710331
+  },
+  {
+    "id": "NG-500",
+    "name": "Makurdi",
+    "country": "NG",
+    "region": "Benue State",
+    "domain": "",
+    "osm_relation_id": 3716090
+  },
+  {
+    "id": "NG-501",
+    "name": "Malam Madori",
+    "country": "NG",
+    "region": "Jigawa State",
+    "domain": "",
+    "osm_relation_id": 3703467
+  },
+  {
+    "id": "NG-502",
+    "name": "Malam Maduri",
+    "country": "NG",
+    "region": "Jigawa State",
+    "domain": "",
+    "osm_relation_id": 3703257
+  },
+  {
+    "id": "NG-503",
+    "name": "Malumfashi",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711506
+  },
+  {
+    "id": "NG-504",
+    "name": "Mangu",
+    "country": "NG",
+    "region": "Plateau State",
+    "domain": "",
+    "osm_relation_id": 3720622
+  },
+  {
+    "id": "NG-505",
+    "name": "Mani",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711507
+  },
+  {
+    "id": "NG-506",
+    "name": "Maradun",
+    "country": "NG",
+    "region": "Zamfara State",
+    "domain": "",
+    "osm_relation_id": 3706965
+  },
+  {
+    "id": "NG-507",
+    "name": "Mariga",
+    "country": "NG",
+    "region": "Niger State",
+    "domain": "",
+    "osm_relation_id": 3718399
+  },
+  {
+    "id": "NG-508",
+    "name": "Marte",
+    "country": "NG",
+    "region": "Borno State",
+    "domain": "",
+    "osm_relation_id": 3721189
+  },
+  {
+    "id": "NG-509",
+    "name": "Maru",
+    "country": "NG",
+    "region": "Zamfara State",
+    "domain": "",
+    "osm_relation_id": 3706966
+  },
+  {
+    "id": "NG-510",
+    "name": "Mashegu",
+    "country": "NG",
+    "region": "Niger State",
+    "domain": "",
+    "osm_relation_id": 3718400
+  },
+  {
+    "id": "NG-511",
+    "name": "Mashi",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711508
+  },
+  {
+    "id": "NG-512",
+    "name": "Matazu",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711509
+  },
+  {
+    "id": "NG-513",
+    "name": "Mayo Belwa",
+    "country": "NG",
+    "region": "Adamawa State",
+    "domain": "",
+    "osm_relation_id": 3720370
+  },
+  {
+    "id": "NG-514",
+    "name": "Mbaitoli",
+    "country": "NG",
+    "region": "Imo State",
+    "domain": "",
+    "osm_relation_id": 3717836
+  },
+  {
+    "id": "NG-515",
+    "name": "Mbo",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": "",
+    "osm_relation_id": 3715376
+  },
+  {
+    "id": "NG-516",
+    "name": "Michika",
+    "country": "NG",
+    "region": "Adamawa State",
+    "domain": "",
+    "osm_relation_id": 3720371
+  },
+  {
+    "id": "NG-517",
+    "name": "Miga",
+    "country": "NG",
+    "region": "Jigawa State",
+    "domain": "",
+    "osm_relation_id": 3703258
+  },
+  {
+    "id": "NG-518",
+    "name": "Mikang",
+    "country": "NG",
+    "region": "Plateau State",
+    "domain": "",
+    "osm_relation_id": 3720623
+  },
+  {
+    "id": "NG-519",
+    "name": "Minjibir",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710332
+  },
+  {
+    "id": "NG-520",
+    "name": "Misau",
+    "country": "NG",
+    "region": "Bauchi State",
+    "domain": "",
+    "osm_relation_id": 3722247
+  },
+  {
+    "id": "NG-521",
+    "name": "Mkpat-Enin",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": "",
+    "osm_relation_id": 3715377
+  },
+  {
+    "id": "NG-522",
+    "name": "Moba",
+    "country": "NG",
+    "region": "Ekiti State",
+    "domain": "",
+    "osm_relation_id": 3717169
+  },
+  {
+    "id": "NG-523",
+    "name": "Mobbar",
+    "country": "NG",
+    "region": "Borno State",
+    "domain": "",
+    "osm_relation_id": 3721190
+  },
+  {
+    "id": "NG-524",
+    "name": "Mokwa",
+    "country": "NG",
+    "region": "Niger State",
+    "domain": "",
+    "osm_relation_id": 3718401
+  },
+  {
+    "id": "NG-525",
+    "name": "Monguno",
+    "country": "NG",
+    "region": "Borno State",
+    "domain": "",
+    "osm_relation_id": 3721191
+  },
+  {
+    "id": "NG-526",
+    "name": "Mopa-Muro",
+    "country": "NG",
+    "region": "Kogi State",
+    "domain": "",
+    "osm_relation_id": 3717984
+  },
+  {
+    "id": "NG-527",
+    "name": "Moro",
+    "country": "NG",
+    "region": "Kwara State",
+    "domain": "",
+    "osm_relation_id": 3718102
+  },
+  {
+    "id": "NG-528",
+    "name": "Mosan-Okunola",
+    "country": "NG",
+    "region": "Lagos State",
+    "domain": ""
+  },
+  {
+    "id": "NG-529",
+    "name": "Mubi North",
+    "country": "NG",
+    "region": "Adamawa State",
+    "domain": "",
+    "osm_relation_id": 3720372
+  },
+  {
+    "id": "NG-530",
+    "name": "Mubi South",
+    "country": "NG",
+    "region": "Adamawa State",
+    "domain": "",
+    "osm_relation_id": 3720373
+  },
+  {
+    "id": "NG-531",
+    "name": "Munya",
+    "country": "NG",
+    "region": "Niger State",
+    "domain": "",
+    "osm_relation_id": 3718402
+  },
+  {
+    "id": "NG-532",
+    "name": "Musawa",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711510
+  },
+  {
+    "id": "NG-533",
+    "name": "Mushi",
+    "country": "NG",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "NG-534",
+    "name": "Mushin",
+    "country": "NG",
+    "region": "Lagos State",
+    "domain": "",
+    "osm_relation_id": 3718196
+  },
+  {
+    "id": "NG-535",
+    "name": "Muya",
+    "country": "NG",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "NG-536",
+    "name": "Nafada",
+    "country": "NG",
+    "region": "Gombe State",
+    "domain": "",
+    "osm_relation_id": 3720431
+  },
+  {
+    "id": "NG-537",
+    "name": "Nangere",
+    "country": "NG",
+    "region": "Yobe State",
+    "domain": "",
+    "osm_relation_id": 3698577
+  },
+  {
+    "id": "NG-538",
+    "name": "Nasarawa",
+    "country": "NG",
+    "region": "Nasarawa State",
+    "domain": "",
+    "osm_relation_id": 3720505
+  },
+  {
+    "id": "NG-539",
+    "name": "Nasarawa",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710333
+  },
+  {
+    "id": "NG-540",
+    "name": "Nasarawa Egon",
+    "country": "NG",
+    "region": "Nasarawa State",
+    "domain": "",
+    "osm_relation_id": 3720504
+  },
+  {
+    "id": "NG-541",
+    "name": "Ndokwa East",
+    "country": "NG",
+    "region": "Delta State",
+    "domain": "",
+    "osm_relation_id": 3716961
+  },
+  {
+    "id": "NG-542",
+    "name": "Ndokwa West",
+    "country": "NG",
+    "region": "Delta State",
+    "domain": "",
+    "osm_relation_id": 3716962
+  },
+  {
+    "id": "NG-543",
+    "name": "Nembe",
+    "country": "NG",
+    "region": "Bayelsa State",
+    "domain": "",
+    "osm_relation_id": 3715848
+  },
+  {
+    "id": "NG-544",
+    "name": "Ngala",
+    "country": "NG",
+    "region": "Borno State",
+    "domain": "",
+    "osm_relation_id": 3721192
+  },
+  {
+    "id": "NG-545",
+    "name": "Nganzai",
+    "country": "NG",
+    "region": "Borno State",
+    "domain": "",
+    "osm_relation_id": 3721193
+  },
+  {
+    "id": "NG-546",
+    "name": "Ngaski",
+    "country": "NG",
+    "region": "Kebbi State",
+    "domain": "",
+    "osm_relation_id": 3707948
+  },
+  {
+    "id": "NG-547",
+    "name": "Ngor Okpala",
+    "country": "NG",
+    "region": "Imo State",
+    "domain": "",
+    "osm_relation_id": 3717837
+  },
+  {
+    "id": "NG-548",
+    "name": "Nguru",
+    "country": "NG",
+    "region": "Yobe State",
+    "domain": "",
+    "osm_relation_id": 3698578
+  },
+  {
+    "id": "NG-549",
+    "name": "Ningi",
+    "country": "NG",
+    "region": "Bauchi State",
+    "domain": "",
+    "osm_relation_id": 3722248
+  },
+  {
+    "id": "NG-550",
+    "name": "Njaba",
+    "country": "NG",
+    "region": "Imo State",
+    "domain": "",
+    "osm_relation_id": 3717838
+  },
+  {
+    "id": "NG-551",
+    "name": "Njikoka",
+    "country": "NG",
+    "region": "Anambra State",
+    "domain": "",
+    "osm_relation_id": 3715518
+  },
+  {
+    "id": "NG-552",
+    "name": "Nkanu East",
+    "country": "NG",
+    "region": "Enugu State",
+    "domain": "",
+    "osm_relation_id": 3717223
+  },
+  {
+    "id": "NG-553",
+    "name": "Nkanu West",
+    "country": "NG",
+    "region": "Enugu State",
+    "domain": "",
+    "osm_relation_id": 3717224
+  },
+  {
+    "id": "NG-554",
+    "name": "Nkwerre",
+    "country": "NG",
+    "region": "Imo State",
+    "domain": "",
+    "osm_relation_id": 3717839
+  },
+  {
+    "id": "NG-555",
+    "name": "Nnewi North",
+    "country": "NG",
+    "region": "Anambra State",
+    "domain": "",
+    "osm_relation_id": 3715519
+  },
+  {
+    "id": "NG-556",
+    "name": "Nnewi South",
+    "country": "NG",
+    "region": "Anambra State",
+    "domain": "",
+    "osm_relation_id": 3715520
+  },
+  {
+    "id": "NG-557",
+    "name": "Nsit Ekpo",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": ""
+  },
+  {
+    "id": "NG-558",
+    "name": "Nsit-Atai",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": "",
+    "osm_relation_id": 3715378
+  },
+  {
+    "id": "NG-559",
+    "name": "Nsit-Ibom",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": "",
+    "osm_relation_id": 3715379
+  },
+  {
+    "id": "NG-560",
+    "name": "Nsit-Ubium",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": "",
+    "osm_relation_id": 3715380
+  },
+  {
+    "id": "NG-561",
+    "name": "Nsukka",
+    "country": "NG",
+    "region": "Enugu State",
+    "domain": "",
+    "osm_relation_id": 3717225
+  },
+  {
+    "id": "NG-562",
+    "name": "Numan",
+    "country": "NG",
+    "region": "Adamawa State",
+    "domain": "",
+    "osm_relation_id": 3720374
+  },
+  {
+    "id": "NG-563",
+    "name": "Obafemi Owode",
+    "country": "NG",
+    "region": "Ogun State",
+    "domain": "",
+    "osm_relation_id": 3718478
+  },
+  {
+    "id": "NG-564",
+    "name": "Obanliku",
+    "country": "NG",
+    "region": "Cross River State",
+    "domain": "",
+    "osm_relation_id": 3716262
+  },
+  {
+    "id": "NG-565",
+    "name": "Obi",
+    "country": "NG",
+    "region": "Benue State",
+    "domain": "",
+    "osm_relation_id": 3716091
+  },
+  {
+    "id": "NG-566",
+    "name": "Obi",
+    "country": "NG",
+    "region": "Nasarawa State",
+    "domain": "",
+    "osm_relation_id": 3720506
+  },
+  {
+    "id": "NG-567",
+    "name": "Obi Ngwa",
+    "country": "NG",
+    "region": "Abia State",
+    "domain": "",
+    "osm_relation_id": 3713510
+  },
+  {
+    "id": "NG-568",
+    "name": "Obia/Akpor",
+    "country": "NG",
+    "region": "Rivers State",
+    "domain": "",
+    "osm_relation_id": 3720758
+  },
+  {
+    "id": "NG-569",
+    "name": "Obioma-Ngwa",
+    "country": "NG",
+    "region": "Abia State",
+    "domain": "",
+    "osm_relation_id": 3713510
+  },
+  {
+    "id": "NG-570",
+    "name": "Obokun",
+    "country": "NG",
+    "region": "Osun State",
+    "domain": "",
+    "osm_relation_id": 3718744
+  },
+  {
+    "id": "NG-571",
+    "name": "Obot Akara",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": "",
+    "osm_relation_id": 3715381
+  },
+  {
+    "id": "NG-572",
+    "name": "Obowo",
+    "country": "NG",
+    "region": "Imo State",
+    "domain": "",
+    "osm_relation_id": 3717841
+  },
+  {
+    "id": "NG-573",
+    "name": "Obubra",
+    "country": "NG",
+    "region": "Cross River State",
+    "domain": "",
+    "osm_relation_id": 3716263
+  },
+  {
+    "id": "NG-574",
+    "name": "Obudu",
+    "country": "NG",
+    "region": "Cross River State",
+    "domain": "",
+    "osm_relation_id": 3716264
+  },
+  {
+    "id": "NG-575",
+    "name": "Odeda",
+    "country": "NG",
+    "region": "Ogun State",
+    "domain": "",
+    "osm_relation_id": 3718479
+  },
+  {
+    "id": "NG-576",
+    "name": "Odi-Olowo/Ojuwoye",
+    "country": "NG",
+    "region": "Lagos State",
+    "domain": ""
+  },
+  {
+    "id": "NG-577",
+    "name": "Odigbo",
+    "country": "NG",
+    "region": "Ondo State",
+    "domain": "",
+    "osm_relation_id": 3718627
+  },
+  {
+    "id": "NG-578",
+    "name": "Odo Otin",
+    "country": "NG",
+    "region": "Osun State",
+    "domain": "",
+    "osm_relation_id": 3718745
+  },
+  {
+    "id": "NG-579",
+    "name": "Odogbolu",
+    "country": "NG",
+    "region": "Ogun State",
+    "domain": "",
+    "osm_relation_id": 3718480
+  },
+  {
+    "id": "NG-580",
+    "name": "Odukpani",
+    "country": "NG",
+    "region": "Cross River State",
+    "domain": "",
+    "osm_relation_id": 3716265
+  },
+  {
+    "id": "NG-581",
+    "name": "Offa",
+    "country": "NG",
+    "region": "Kwara State",
+    "domain": "",
+    "osm_relation_id": 3718103
+  },
+  {
+    "id": "NG-582",
+    "name": "Offa",
+    "country": "NG",
+    "region": "Kwara State",
+    "domain": "",
+    "osm_relation_id": 3718103
+  },
+  {
+    "id": "NG-583",
+    "name": "Ofu",
+    "country": "NG",
+    "region": "Kogi State",
+    "domain": "",
+    "osm_relation_id": 3717985
+  },
+  {
+    "id": "NG-584",
+    "name": "Ogba/Egbema/Ndoni",
+    "country": "NG",
+    "region": "Rivers State",
+    "domain": "",
+    "osm_relation_id": 3720759
+  },
+  {
+    "id": "NG-585",
+    "name": "Ogbadibo",
+    "country": "NG",
+    "region": "Benue State",
+    "domain": "",
+    "osm_relation_id": 3716092
+  },
+  {
+    "id": "NG-586",
+    "name": "Ogbaru",
+    "country": "NG",
+    "region": "Anambra State",
+    "domain": "",
+    "osm_relation_id": 3715521
+  },
+  {
+    "id": "NG-587",
+    "name": "Ogbia",
+    "country": "NG",
+    "region": "Bayelsa State",
+    "domain": "",
+    "osm_relation_id": 3715849
+  },
+  {
+    "id": "NG-588",
+    "name": "Ogbomosho North",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720575
+  },
+  {
+    "id": "NG-589",
+    "name": "Ogbomosho South",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720576
+  },
+  {
+    "id": "NG-590",
+    "name": "Ogo Oluwa",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720577
+  },
+  {
+    "id": "NG-591",
+    "name": "Ogoja",
+    "country": "NG",
+    "region": "Cross River State",
+    "domain": "",
+    "osm_relation_id": 3716266
+  },
+  {
+    "id": "NG-592",
+    "name": "Ogori/Magongo",
+    "country": "NG",
+    "region": "Kogi State",
+    "domain": "",
+    "osm_relation_id": 3717986
+  },
+  {
+    "id": "NG-593",
+    "name": "Ogu/Bolo",
+    "country": "NG",
+    "region": "Rivers State",
+    "domain": "",
+    "osm_relation_id": 3720760
+  },
+  {
+    "id": "NG-594",
+    "name": "Ogun Waterside",
+    "country": "NG",
+    "region": "Ogun State",
+    "domain": "",
+    "osm_relation_id": 3718481
+  },
+  {
+    "id": "NG-595",
+    "name": "Oguta",
+    "country": "NG",
+    "region": "Imo State",
+    "domain": "",
+    "osm_relation_id": 3717842
+  },
+  {
+    "id": "NG-596",
+    "name": "Ohafia",
+    "country": "NG",
+    "region": "Abia State",
+    "domain": "",
+    "osm_relation_id": 3713511
+  },
+  {
+    "id": "NG-597",
+    "name": "Ohaji/Egbema",
+    "country": "NG",
+    "region": "Imo State",
+    "domain": "",
+    "osm_relation_id": 3717843
+  },
+  {
+    "id": "NG-598",
+    "name": "Ohaozara",
+    "country": "NG",
+    "region": "Ebonyi State",
+    "domain": "",
+    "osm_relation_id": 3717082
+  },
+  {
+    "id": "NG-599",
+    "name": "Ohaukwu",
+    "country": "NG",
+    "region": "Ebonyi State",
+    "domain": "",
+    "osm_relation_id": 3717083
+  },
+  {
+    "id": "NG-600",
+    "name": "Ohimini",
+    "country": "NG",
+    "region": "Benue State",
+    "domain": "",
+    "osm_relation_id": 3716093
+  },
+  {
+    "id": "NG-601",
+    "name": "Oji River",
+    "country": "NG",
+    "region": "Enugu State",
+    "domain": "",
+    "osm_relation_id": 3717226
+  },
+  {
+    "id": "NG-602",
+    "name": "Ojo",
+    "country": "NG",
+    "region": "Lagos State",
+    "domain": "",
+    "osm_relation_id": 3718197
+  },
+  {
+    "id": "NG-603",
+    "name": "Oju",
+    "country": "NG",
+    "region": "Benue State",
+    "domain": "",
+    "osm_relation_id": 3716094
+  },
+  {
+    "id": "NG-604",
+    "name": "Oka Akoko",
+    "country": "NG",
+    "region": "Akoko South-West",
+    "domain": "",
+    "osm_relation_id": 501522187
+  },
+  {
+    "id": "NG-605",
+    "name": "Oke Ero",
+    "country": "NG",
+    "region": "Kwara State",
+    "domain": "",
+    "osm_relation_id": 3718104
+  },
+  {
+    "id": "NG-606",
+    "name": "Oke Ikpe",
+    "country": "NG",
+    "region": "Abia State",
+    "domain": ""
+  },
+  {
+    "id": "NG-607",
+    "name": "Okechi",
+    "country": "NG",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "NG-608",
+    "name": "Okehi",
+    "country": "NG",
+    "region": "Kogi State",
+    "domain": "",
+    "osm_relation_id": 3717987
+  },
+  {
+    "id": "NG-609",
+    "name": "Okene",
+    "country": "NG",
+    "region": "Kogi State",
+    "domain": "",
+    "osm_relation_id": 3717988
+  },
+  {
+    "id": "NG-610",
+    "name": "Okigwe",
+    "country": "NG",
+    "region": "Imo State",
+    "domain": "",
+    "osm_relation_id": 3717844
+  },
+  {
+    "id": "NG-611",
+    "name": "Okitipupa",
+    "country": "NG",
+    "region": "Ondo State",
+    "domain": "",
+    "osm_relation_id": 3718628
+  },
+  {
+    "id": "NG-612",
+    "name": "Okobo",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": "",
+    "osm_relation_id": 3715382
+  },
+  {
+    "id": "NG-613",
+    "name": "Okpe",
+    "country": "NG",
+    "region": "Delta State",
+    "domain": "",
+    "osm_relation_id": 3716963
+  },
+  {
+    "id": "NG-614",
+    "name": "Okpokwu",
+    "country": "NG",
+    "region": "Benue State",
+    "domain": "",
+    "osm_relation_id": 3716095
+  },
+  {
+    "id": "NG-615",
+    "name": "Okrika",
+    "country": "NG",
+    "region": "Rivers State",
+    "domain": "",
+    "osm_relation_id": 3720761
+  },
+  {
+    "id": "NG-616",
+    "name": "Ola Oluwa",
+    "country": "NG",
+    "region": "Osun State",
+    "domain": "",
+    "osm_relation_id": 3718746
+  },
+  {
+    "id": "NG-617",
+    "name": "Olamaboro",
+    "country": "NG",
+    "region": "Kogi State",
+    "domain": "",
+    "osm_relation_id": 3717989
+  },
+  {
+    "id": "NG-618",
+    "name": "Olorunda",
+    "country": "NG",
+    "region": "Osun State",
+    "domain": "",
+    "osm_relation_id": 3718747
+  },
+  {
+    "id": "NG-619",
+    "name": "Olorunsogo",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720578
+  },
+  {
+    "id": "NG-620",
+    "name": "Oluyole",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720579
+  },
+  {
+    "id": "NG-621",
+    "name": "Omala",
+    "country": "NG",
+    "region": "Kogi State",
+    "domain": "",
+    "osm_relation_id": 3717990
+  },
+  {
+    "id": "NG-622",
+    "name": "Omuma",
+    "country": "NG",
+    "region": "Rivers State",
+    "domain": "",
+    "osm_relation_id": 3720762
+  },
+  {
+    "id": "NG-623",
+    "name": "Ona Ara",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720580
+  },
+  {
+    "id": "NG-624",
+    "name": "Ondo East",
+    "country": "NG",
+    "region": "Ondo State",
+    "domain": "",
+    "osm_relation_id": 3718629
+  },
+  {
+    "id": "NG-625",
+    "name": "Ondo West",
+    "country": "NG",
+    "region": "Ondo State",
+    "domain": "",
+    "osm_relation_id": 3718630
+  },
+  {
+    "id": "NG-626",
+    "name": "Onicha",
+    "country": "NG",
+    "region": "Ebonyi State",
+    "domain": "",
+    "osm_relation_id": 3717084
+  },
+  {
+    "id": "NG-627",
+    "name": "Onitsha North",
+    "country": "NG",
+    "region": "Anambra State",
+    "domain": "",
+    "osm_relation_id": 3715522
+  },
+  {
+    "id": "NG-628",
+    "name": "Onitsha South",
+    "country": "NG",
+    "region": "Anambra State",
+    "domain": "",
+    "osm_relation_id": 3715523
+  },
+  {
+    "id": "NG-629",
+    "name": "Onna",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": "",
+    "osm_relation_id": 3715383
+  },
+  {
+    "id": "NG-630",
+    "name": "Onuimo",
+    "country": "NG",
+    "region": "Imo State",
+    "domain": "",
+    "osm_relation_id": 3717852
+  },
+  {
+    "id": "NG-631",
+    "name": "Opobo/Nkoro",
+    "country": "NG",
+    "region": "Rivers State",
+    "domain": "",
+    "osm_relation_id": 3720763
+  },
+  {
+    "id": "NG-632",
+    "name": "Oredo",
+    "country": "NG",
+    "region": "Edo State",
+    "domain": "",
+    "osm_relation_id": 3717132
+  },
+  {
+    "id": "NG-633",
+    "name": "Orelope",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720581
+  },
+  {
+    "id": "NG-634",
+    "name": "Orhionmwon",
+    "country": "NG",
+    "region": "Edo State",
+    "domain": "",
+    "osm_relation_id": 3717133
+  },
+  {
+    "id": "NG-635",
+    "name": "Ori Ire",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720582
+  },
+  {
+    "id": "NG-636",
+    "name": "Oriade",
+    "country": "NG",
+    "region": "Osun State",
+    "domain": "",
+    "osm_relation_id": 3718748
+  },
+  {
+    "id": "NG-637",
+    "name": "Oriade",
+    "country": "NG",
+    "region": "Lagos State",
+    "domain": ""
+  },
+  {
+    "id": "NG-638",
+    "name": "Orlu",
+    "country": "NG",
+    "region": "Imo State",
+    "domain": "",
+    "osm_relation_id": 3717845
+  },
+  {
+    "id": "NG-639",
+    "name": "Orolu",
+    "country": "NG",
+    "region": "Osun State",
+    "domain": "",
+    "osm_relation_id": 3718749
+  },
+  {
+    "id": "NG-640",
+    "name": "Oron",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": "",
+    "osm_relation_id": 3715384
+  },
+  {
+    "id": "NG-641",
+    "name": "Orsu",
+    "country": "NG",
+    "region": "Imo State",
+    "domain": "",
+    "osm_relation_id": 3717846
+  },
+  {
+    "id": "NG-642",
+    "name": "Oru East",
+    "country": "NG",
+    "region": "Imo State",
+    "domain": "",
+    "osm_relation_id": 3717847
+  },
+  {
+    "id": "NG-643",
+    "name": "Oru West",
+    "country": "NG",
+    "region": "Imo State",
+    "domain": "",
+    "osm_relation_id": 3717848
+  },
+  {
+    "id": "NG-644",
+    "name": "Oruk Anam",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": "",
+    "osm_relation_id": 3715385
+  },
+  {
+    "id": "NG-645",
+    "name": "Orumba North",
+    "country": "NG",
+    "region": "Anambra State",
+    "domain": "",
+    "osm_relation_id": 3715524
+  },
+  {
+    "id": "NG-646",
+    "name": "Ose",
+    "country": "NG",
+    "region": "Ondo State",
+    "domain": "",
+    "osm_relation_id": 3718631
+  },
+  {
+    "id": "NG-647",
+    "name": "Oshimili North",
+    "country": "NG",
+    "region": "Delta State",
+    "domain": "",
+    "osm_relation_id": 3716964
+  },
+  {
+    "id": "NG-648",
+    "name": "Oshimili South",
+    "country": "NG",
+    "region": "Delta State",
+    "domain": "",
+    "osm_relation_id": 3716965
+  },
+  {
+    "id": "NG-649",
+    "name": "Oshodi-Isolo",
+    "country": "NG",
+    "region": "Lagos State",
+    "domain": "",
+    "osm_relation_id": 3718198
+  },
+  {
+    "id": "NG-650",
+    "name": "Osisioma",
+    "country": "NG",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "NG-651",
+    "name": "Osisioma Ngwa",
+    "country": "NG",
+    "region": "Abia State",
+    "domain": "",
+    "osm_relation_id": 3713512
+  },
+  {
+    "id": "NG-652",
+    "name": "Osogbo",
+    "country": "NG",
+    "region": "Osun State",
+    "domain": "",
+    "osm_relation_id": 3718750
+  },
+  {
+    "id": "NG-653",
+    "name": "Otukpo",
+    "country": "NG",
+    "region": "Benue State",
+    "domain": "",
+    "osm_relation_id": 3716096
+  },
+  {
+    "id": "NG-654",
+    "name": "Ovia North-East",
+    "country": "NG",
+    "region": "Edo State",
+    "domain": "",
+    "osm_relation_id": 3717134
+  },
+  {
+    "id": "NG-655",
+    "name": "Ovia South-West",
+    "country": "NG",
+    "region": "Edo State",
+    "domain": "",
+    "osm_relation_id": 3717135
+  },
+  {
+    "id": "NG-656",
+    "name": "Owan East",
+    "country": "NG",
+    "region": "Edo State",
+    "domain": "",
+    "osm_relation_id": 3717136
+  },
+  {
+    "id": "NG-657",
+    "name": "Owan West",
+    "country": "NG",
+    "region": "Edo State",
+    "domain": "",
+    "osm_relation_id": 3717137
+  },
+  {
+    "id": "NG-658",
+    "name": "Owerri Municipal",
+    "country": "NG",
+    "region": "Imo State",
+    "domain": "",
+    "osm_relation_id": 3717849
+  },
+  {
+    "id": "NG-659",
+    "name": "Owerri North",
+    "country": "NG",
+    "region": "Imo State",
+    "domain": "",
+    "osm_relation_id": 3717850
+  },
+  {
+    "id": "NG-660",
+    "name": "Owerri West",
+    "country": "NG",
+    "region": "Imo State",
+    "domain": "",
+    "osm_relation_id": 3717851
+  },
+  {
+    "id": "NG-661",
+    "name": "Owo",
+    "country": "NG",
+    "region": "Ondo State",
+    "domain": "",
+    "osm_relation_id": 3718632
+  },
+  {
+    "id": "NG-662",
+    "name": "Oye",
+    "country": "NG",
+    "region": "Ekiti State",
+    "domain": "ekitistate.gov.ng",
+    "osm_relation_id": 3717170
+  },
+  {
+    "id": "NG-663",
+    "name": "Oyi",
+    "country": "NG",
+    "region": "Anambra State",
+    "domain": "",
+    "osm_relation_id": 3715526
+  },
+  {
+    "id": "NG-664",
+    "name": "Oyigbo",
+    "country": "NG",
+    "region": "Rivers State",
+    "domain": "",
+    "osm_relation_id": 3720764
+  },
+  {
+    "id": "NG-665",
+    "name": "Oyo East",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720583
+  },
+  {
+    "id": "NG-666",
+    "name": "Oyo West",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720584
+  },
+  {
+    "id": "NG-667",
+    "name": "Oyun",
+    "country": "NG",
+    "region": "Kwara State",
+    "domain": "",
+    "osm_relation_id": 3718105
+  },
+  {
+    "id": "NG-668",
+    "name": "Ozoro",
+    "country": "NG",
+    "region": "Delta State",
+    "domain": "",
+    "osm_relation_id": 501495049
+  },
+  {
+    "id": "NG-669",
+    "name": "Paikoro",
+    "country": "NG",
+    "region": "Niger State",
+    "domain": "",
+    "osm_relation_id": 3718403
+  },
+  {
+    "id": "NG-670",
+    "name": "Pankshin",
+    "country": "NG",
+    "region": "Plateau State",
+    "domain": "",
+    "osm_relation_id": 3720624
+  },
+  {
+    "id": "NG-671",
+    "name": "Patani",
+    "country": "NG",
+    "region": "Delta State",
+    "domain": "",
+    "osm_relation_id": 3716966
+  },
+  {
+    "id": "NG-672",
+    "name": "Patigi",
+    "country": "NG",
+    "region": "Kwara State",
+    "domain": "",
+    "osm_relation_id": 3718106
+  },
+  {
+    "id": "NG-673",
+    "name": "Port Harcourt",
+    "country": "NG",
+    "region": "Rivers State",
+    "domain": "",
+    "osm_relation_id": 3720765
+  },
+  {
+    "id": "NG-674",
+    "name": "Potiskum",
+    "country": "NG",
+    "region": "Yobe State",
+    "domain": "",
+    "osm_relation_id": 3698579
+  },
+  {
+    "id": "NG-675",
+    "name": "Rabah",
+    "country": "NG",
+    "region": "Sokoto State",
+    "domain": "",
+    "osm_relation_id": 3707380
+  },
+  {
+    "id": "NG-676",
+    "name": "Rafi",
+    "country": "NG",
+    "region": "Niger State",
+    "domain": "",
+    "osm_relation_id": 3718404
+  },
+  {
+    "id": "NG-677",
+    "name": "Rano",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710334
+  },
+  {
+    "id": "NG-678",
+    "name": "Remo North",
+    "country": "NG",
+    "region": "Ogun State",
+    "domain": "",
+    "osm_relation_id": 3718482
+  },
+  {
+    "id": "NG-679",
+    "name": "Rijau",
+    "country": "NG",
+    "region": "Niger State",
+    "domain": "",
+    "osm_relation_id": 3718405
+  },
+  {
+    "id": "NG-680",
+    "name": "Rimi",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711511
+  },
+  {
+    "id": "NG-681",
+    "name": "Rimin Gado",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710335
+  },
+  {
+    "id": "NG-682",
+    "name": "Ringim",
+    "country": "NG",
+    "region": "Jigawa State",
+    "domain": "",
+    "osm_relation_id": 3703259
+  },
+  {
+    "id": "NG-683",
+    "name": "Riyom",
+    "country": "NG",
+    "region": "Plateau State",
+    "domain": "",
+    "osm_relation_id": 3720626
+  },
+  {
+    "id": "NG-684",
+    "name": "Rogo",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710336
+  },
+  {
+    "id": "NG-685",
+    "name": "Roni",
+    "country": "NG",
+    "region": "Jigawa State",
+    "domain": "",
+    "osm_relation_id": 3703260
+  },
+  {
+    "id": "NG-686",
+    "name": "Sabon Birni",
+    "country": "NG",
+    "region": "Sokoto State",
+    "domain": "",
+    "osm_relation_id": 3707381
+  },
+  {
+    "id": "NG-687",
+    "name": "Sabon Gari",
+    "country": "NG",
+    "region": "Kaduna State",
+    "domain": "",
+    "osm_relation_id": 3709372
+  },
+  {
+    "id": "NG-688",
+    "name": "Sabuwa",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711512
+  },
+  {
+    "id": "NG-689",
+    "name": "Safana",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711513
+  },
+  {
+    "id": "NG-690",
+    "name": "Sagamu",
+    "country": "NG",
+    "region": "Ogun State",
+    "domain": "",
+    "osm_relation_id": 3718483
+  },
+  {
+    "id": "NG-691",
+    "name": "Sagbama",
+    "country": "NG",
+    "region": "Bayelsa State",
+    "domain": "",
+    "osm_relation_id": 3715850
+  },
+  {
+    "id": "NG-692",
+    "name": "Sakaba",
+    "country": "NG",
+    "region": "Kebbi State",
+    "domain": "",
+    "osm_relation_id": 3707949
+  },
+  {
+    "id": "NG-693",
+    "name": "Saki East",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720585
+  },
+  {
+    "id": "NG-694",
+    "name": "Saki West",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720586
+  },
+  {
+    "id": "NG-695",
+    "name": "Sandamu",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711514
+  },
+  {
+    "id": "NG-696",
+    "name": "Sanga",
+    "country": "NG",
+    "region": "Kaduna State",
+    "domain": "",
+    "osm_relation_id": 3709373
+  },
+  {
+    "id": "NG-697",
+    "name": "Sapele",
+    "country": "NG",
+    "region": "Delta State",
+    "domain": "",
+    "osm_relation_id": 3716967
+  },
+  {
+    "id": "NG-698",
+    "name": "Sardauna",
+    "country": "NG",
+    "region": "Taraba State",
+    "domain": "",
+    "osm_relation_id": 3720861
+  },
+  {
+    "id": "NG-699",
+    "name": "Shagari",
+    "country": "NG",
+    "region": "Sokoto State",
+    "domain": "",
+    "osm_relation_id": 3707382
+  },
+  {
+    "id": "NG-700",
+    "name": "Shanga",
+    "country": "NG",
+    "region": "Kebbi State",
+    "domain": "",
+    "osm_relation_id": 3707950
+  },
+  {
+    "id": "NG-701",
+    "name": "Shani",
+    "country": "NG",
+    "region": "Borno State",
+    "domain": "",
+    "osm_relation_id": 3721194
+  },
+  {
+    "id": "NG-702",
+    "name": "Shanono",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710337
+  },
+  {
+    "id": "NG-703",
+    "name": "Shelleng",
+    "country": "NG",
+    "region": "Adamawa State",
+    "domain": "",
+    "osm_relation_id": 3720375
+  },
+  {
+    "id": "NG-704",
+    "name": "Shendam",
+    "country": "NG",
+    "region": "Plateau State",
+    "domain": "",
+    "osm_relation_id": 3720627
+  },
+  {
+    "id": "NG-705",
+    "name": "Shinkafi",
+    "country": "NG",
+    "region": "Zamfara State",
+    "domain": "",
+    "osm_relation_id": 3706967
+  },
+  {
+    "id": "NG-706",
+    "name": "Shira",
+    "country": "NG",
+    "region": "Bauchi State",
+    "domain": "",
+    "osm_relation_id": 3722249
+  },
+  {
+    "id": "NG-707",
+    "name": "Shiroro",
+    "country": "NG",
+    "region": "Niger State",
+    "domain": "",
+    "osm_relation_id": 3718406
+  },
+  {
+    "id": "NG-708",
+    "name": "Shomolu",
+    "country": "NG",
+    "region": "Lagos State",
+    "domain": "",
+    "osm_relation_id": 3718199
+  },
+  {
+    "id": "NG-709",
+    "name": "Shongom",
+    "country": "NG",
+    "region": "Gombe State",
+    "domain": "",
+    "osm_relation_id": 3720432
+  },
+  {
+    "id": "NG-710",
+    "name": "Silame",
+    "country": "NG",
+    "region": "Sokoto State",
+    "domain": "",
+    "osm_relation_id": 3707383
+  },
+  {
+    "id": "NG-711",
+    "name": "Soba",
+    "country": "NG",
+    "region": "Kaduna State",
+    "domain": "",
+    "osm_relation_id": 3709374
+  },
+  {
+    "id": "NG-712",
+    "name": "Sokoto North",
+    "country": "NG",
+    "region": "Sokoto State",
+    "domain": "",
+    "osm_relation_id": 3707384
+  },
+  {
+    "id": "NG-713",
+    "name": "Sokoto South",
+    "country": "NG",
+    "region": "Sokoto State",
+    "domain": "",
+    "osm_relation_id": 3707385
+  },
+  {
+    "id": "NG-714",
+    "name": "Song",
+    "country": "NG",
+    "region": "Adamawa State",
+    "domain": "",
+    "osm_relation_id": 3720376
+  },
+  {
+    "id": "NG-715",
+    "name": "Southern Ijaw",
+    "country": "NG",
+    "region": "Bayelsa State",
+    "domain": "",
+    "osm_relation_id": 3715851
+  },
+  {
+    "id": "NG-716",
+    "name": "Sule Tankarkar",
+    "country": "NG",
+    "region": "Jigawa State",
+    "domain": "",
+    "osm_relation_id": 3703261
+  },
+  {
+    "id": "NG-717",
+    "name": "Suleja",
+    "country": "NG",
+    "region": "Niger State",
+    "domain": "",
+    "osm_relation_id": 3718407
+  },
+  {
+    "id": "NG-718",
+    "name": "Sumaila",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710338
+  },
+  {
+    "id": "NG-719",
+    "name": "Suru",
+    "country": "NG",
+    "region": "Kebbi State",
+    "domain": "",
+    "osm_relation_id": 3707951
+  },
+  {
+    "id": "NG-720",
+    "name": "Surulere",
+    "country": "NG",
+    "region": "Lagos State",
+    "domain": "",
+    "osm_relation_id": 3718200
+  },
+  {
+    "id": "NG-721",
+    "name": "Surulere",
+    "country": "NG",
+    "region": "Oyo State",
+    "domain": "",
+    "osm_relation_id": 3720587
+  },
+  {
+    "id": "NG-722",
+    "name": "Tafa",
+    "country": "NG",
+    "region": "Niger State",
+    "domain": "",
+    "osm_relation_id": 3718408
+  },
+  {
+    "id": "NG-723",
+    "name": "Tafawa Balewa",
+    "country": "NG",
+    "region": "Bauchi State",
+    "domain": "",
+    "osm_relation_id": 3722250
+  },
+  {
+    "id": "NG-724",
+    "name": "Tai",
+    "country": "NG",
+    "region": "Rivers State",
+    "domain": "",
+    "osm_relation_id": 3720766
+  },
+  {
+    "id": "NG-725",
+    "name": "Takai",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710339
+  },
+  {
+    "id": "NG-726",
+    "name": "Takum",
+    "country": "NG",
+    "region": "Taraba State",
+    "domain": "",
+    "osm_relation_id": 3720862
+  },
+  {
+    "id": "NG-727",
+    "name": "Talata Mafara",
+    "country": "NG",
+    "region": "Zamfara State",
+    "domain": "",
+    "osm_relation_id": 3706968
+  },
+  {
+    "id": "NG-728",
+    "name": "Tambuwal",
+    "country": "NG",
+    "region": "Sokoto State",
+    "domain": "",
+    "osm_relation_id": 3707386
+  },
+  {
+    "id": "NG-729",
+    "name": "Tangaza",
+    "country": "NG",
+    "region": "Sokoto State",
+    "domain": "",
+    "osm_relation_id": 3707387
+  },
+  {
+    "id": "NG-730",
+    "name": "Tarauni",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710341
+  },
+  {
+    "id": "NG-731",
+    "name": "Tarka",
+    "country": "NG",
+    "region": "Benue State",
+    "domain": "",
+    "osm_relation_id": 3716097
+  },
+  {
+    "id": "NG-732",
+    "name": "Tarmuwa",
+    "country": "NG",
+    "region": "Yobe State",
+    "domain": "",
+    "osm_relation_id": 3698580
+  },
+  {
+    "id": "NG-733",
+    "name": "Taura",
+    "country": "NG",
+    "region": "Jigawa State",
+    "domain": "",
+    "osm_relation_id": 3703262
+  },
+  {
+    "id": "NG-734",
+    "name": "Tipchi",
+    "country": "NG",
+    "region": "Ningi",
+    "domain": ""
+  },
+  {
+    "id": "NG-735",
+    "name": "Tofa",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710342
+  },
+  {
+    "id": "NG-736",
+    "name": "Toro",
+    "country": "NG",
+    "region": "Bauchi State",
+    "domain": "",
+    "osm_relation_id": 3722251
+  },
+  {
+    "id": "NG-737",
+    "name": "Toto",
+    "country": "NG",
+    "region": "Nasarawa State",
+    "domain": "",
+    "osm_relation_id": 3720507
+  },
+  {
+    "id": "NG-738",
+    "name": "Toungo",
+    "country": "NG",
+    "region": "Adamawa State",
+    "domain": "",
+    "osm_relation_id": 3720377
+  },
+  {
+    "id": "NG-739",
+    "name": "Tsafe",
+    "country": "NG",
+    "region": "Zamfara State",
+    "domain": "",
+    "osm_relation_id": 3706969
+  },
+  {
+    "id": "NG-740",
+    "name": "Tsanyawa",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710343
+  },
+  {
+    "id": "NG-741",
+    "name": "Tudun Wada",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710344
+  },
+  {
+    "id": "NG-742",
+    "name": "Tudun Wada",
+    "country": "NG",
+    "region": "Kaduna State",
+    "domain": "",
+    "osm_relation_id": 3710344
+  },
+  {
+    "id": "NG-743",
+    "name": "Tureta",
+    "country": "NG",
+    "region": "Sokoto State",
+    "domain": "",
+    "osm_relation_id": 3707388
+  },
+  {
+    "id": "NG-744",
+    "name": "Udenu",
+    "country": "NG",
+    "region": "Enugu State",
+    "domain": "",
+    "osm_relation_id": 3717227
+  },
+  {
+    "id": "NG-745",
+    "name": "Udi",
+    "country": "NG",
+    "region": "Enugu State",
+    "domain": "",
+    "osm_relation_id": 3717228
+  },
+  {
+    "id": "NG-746",
+    "name": "Udu",
+    "country": "NG",
+    "region": "Delta State",
+    "domain": "",
+    "osm_relation_id": 3716968
+  },
+  {
+    "id": "NG-747",
+    "name": "Udung-Uko",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": "",
+    "osm_relation_id": 3715386
+  },
+  {
+    "id": "NG-748",
+    "name": "Ugep North",
+    "country": "NG",
+    "region": "Cross River State",
+    "domain": ""
+  },
+  {
+    "id": "NG-749",
+    "name": "Ughelli North",
+    "country": "NG",
+    "region": "Delta State",
+    "domain": "",
+    "osm_relation_id": 3716969
+  },
+  {
+    "id": "NG-750",
+    "name": "Ughelli South",
+    "country": "NG",
+    "region": "Delta State",
+    "domain": "",
+    "osm_relation_id": 3716970
+  },
+  {
+    "id": "NG-751",
+    "name": "Ugwueke",
+    "country": "NG",
+    "region": "Abia State",
+    "domain": ""
+  },
+  {
+    "id": "NG-752",
+    "name": "Ugwunagbo",
+    "country": "NG",
+    "region": "Abia State",
+    "domain": "",
+    "osm_relation_id": 3713513
+  },
+  {
+    "id": "NG-753",
+    "name": "Uhunmwonde",
+    "country": "NG",
+    "region": "Edo State",
+    "domain": "",
+    "osm_relation_id": 3717138
+  },
+  {
+    "id": "NG-754",
+    "name": "Ukanafun",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": "",
+    "osm_relation_id": 3715387
+  },
+  {
+    "id": "NG-755",
+    "name": "Ukum",
+    "country": "NG",
+    "region": "Benue State",
+    "domain": "",
+    "osm_relation_id": 3716098
+  },
+  {
+    "id": "NG-756",
+    "name": "Ukwa East",
+    "country": "NG",
+    "region": "Abia State",
+    "domain": "",
+    "osm_relation_id": 3713514
+  },
+  {
+    "id": "NG-757",
+    "name": "Ukwa West",
+    "country": "NG",
+    "region": "Abia State",
+    "domain": "",
+    "osm_relation_id": 3713515
+  },
+  {
+    "id": "NG-758",
+    "name": "Ukwuani",
+    "country": "NG",
+    "region": "Delta State",
+    "domain": "",
+    "osm_relation_id": 3716971
+  },
+  {
+    "id": "NG-759",
+    "name": "Umuahia North",
+    "country": "NG",
+    "region": "Abia State",
+    "domain": "",
+    "osm_relation_id": 3713517
+  },
+  {
+    "id": "NG-760",
+    "name": "Umuahia South",
+    "country": "NG",
+    "region": "Abia State",
+    "domain": "",
+    "osm_relation_id": 3713518
+  },
+  {
+    "id": "NG-761",
+    "name": "Umuekene",
+    "country": "NG",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "NG-762",
+    "name": "Umunneochi",
+    "country": "NG",
+    "region": "Abia State",
+    "domain": "",
+    "osm_relation_id": 3713516
+  },
+  {
+    "id": "NG-763",
+    "name": "Ungogo",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710345
+  },
+  {
+    "id": "NG-764",
+    "name": "Uquo-Ibeno",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": ""
+  },
+  {
+    "id": "NG-765",
+    "name": "Uruan",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": "",
+    "osm_relation_id": 3715388
+  },
+  {
+    "id": "NG-766",
+    "name": "Urue Ofong/Oruko",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": ""
+  },
+  {
+    "id": "NG-767",
+    "name": "Urue-Offong/Oruko",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": "",
+    "osm_relation_id": 3715389
+  },
+  {
+    "id": "NG-768",
+    "name": "Ushongo",
+    "country": "NG",
+    "region": "Benue State",
+    "domain": "",
+    "osm_relation_id": 3716099
+  },
+  {
+    "id": "NG-769",
+    "name": "Ussa",
+    "country": "NG",
+    "region": "Taraba State",
+    "domain": "",
+    "osm_relation_id": 3720863
+  },
+  {
+    "id": "NG-770",
+    "name": "Uvwie",
+    "country": "NG",
+    "region": "Delta State",
+    "domain": "",
+    "osm_relation_id": 14306406
+  },
+  {
+    "id": "NG-771",
+    "name": "Uyo",
+    "country": "NG",
+    "region": "Akwa Ibom State",
+    "domain": "",
+    "osm_relation_id": 3715390
+  },
+  {
+    "id": "NG-772",
+    "name": "Uzo Uwani",
+    "country": "NG",
+    "region": "Enugu State",
+    "domain": "",
+    "osm_relation_id": 3717229
+  },
+  {
+    "id": "NG-773",
+    "name": "Vandeikya",
+    "country": "NG",
+    "region": "Benue State",
+    "domain": "",
+    "osm_relation_id": 3716100
+  },
+  {
+    "id": "NG-774",
+    "name": "Wamako",
+    "country": "NG",
+    "region": "Sokoto State",
+    "domain": "",
+    "osm_relation_id": 3707389
+  },
+  {
+    "id": "NG-775",
+    "name": "Wamba",
+    "country": "NG",
+    "region": "Nasarawa State",
+    "domain": "",
+    "osm_relation_id": 3720508
+  },
+  {
+    "id": "NG-776",
+    "name": "Warawa",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710346
+  },
+  {
+    "id": "NG-777",
+    "name": "Warji",
+    "country": "NG",
+    "region": "Bauchi State",
+    "domain": "",
+    "osm_relation_id": 3722252
+  },
+  {
+    "id": "NG-778",
+    "name": "Warri North",
+    "country": "NG",
+    "region": "Delta State",
+    "domain": "",
+    "osm_relation_id": 3716973
+  },
+  {
+    "id": "NG-779",
+    "name": "Warri South",
+    "country": "NG",
+    "region": "Delta State",
+    "domain": "",
+    "osm_relation_id": 3716974
+  },
+  {
+    "id": "NG-780",
+    "name": "Warri South West",
+    "country": "NG",
+    "region": "Delta State",
+    "domain": "",
+    "osm_relation_id": 3716975
+  },
+  {
+    "id": "NG-781",
+    "name": "Wasagu/Danko",
+    "country": "NG",
+    "region": "Kebbi State",
+    "domain": "",
+    "osm_relation_id": 3707952
+  },
+  {
+    "id": "NG-782",
+    "name": "Wase",
+    "country": "NG",
+    "region": "Plateau State",
+    "domain": "",
+    "osm_relation_id": 3720628
+  },
+  {
+    "id": "NG-783",
+    "name": "Wudil",
+    "country": "NG",
+    "region": "Kano State",
+    "domain": "",
+    "osm_relation_id": 3710347
+  },
+  {
+    "id": "NG-784",
+    "name": "Wukari",
+    "country": "NG",
+    "region": "Taraba State",
+    "domain": "",
+    "osm_relation_id": 3720864
+  },
+  {
+    "id": "NG-785",
+    "name": "Wurno",
+    "country": "NG",
+    "region": "Sokoto State",
+    "domain": "",
+    "osm_relation_id": 3707390
+  },
+  {
+    "id": "NG-786",
+    "name": "Wushishi",
+    "country": "NG",
+    "region": "Niger State",
+    "domain": "",
+    "osm_relation_id": 3718409
+  },
+  {
+    "id": "NG-787",
+    "name": "Yabo",
+    "country": "NG",
+    "region": "Sokoto State",
+    "domain": "",
+    "osm_relation_id": 3707391
+  },
+  {
+    "id": "NG-788",
+    "name": "Yagba East",
+    "country": "NG",
+    "region": "Kogi State",
+    "domain": "",
+    "osm_relation_id": 3717991
+  },
+  {
+    "id": "NG-789",
+    "name": "Yagba West",
+    "country": "NG",
+    "region": "Kogi State",
+    "domain": "",
+    "osm_relation_id": 3717992
+  },
+  {
+    "id": "NG-790",
+    "name": "Yakurr",
+    "country": "NG",
+    "region": "Cross River State",
+    "domain": "",
+    "osm_relation_id": 3716267
+  },
+  {
+    "id": "NG-791",
+    "name": "Yala",
+    "country": "NG",
+    "region": "Cross River State",
+    "domain": "",
+    "osm_relation_id": 3716268
+  },
+  {
+    "id": "NG-792",
+    "name": "Yamaltu/Deba",
+    "country": "NG",
+    "region": "Gombe State",
+    "domain": "",
+    "osm_relation_id": 3720433
+  },
+  {
+    "id": "NG-793",
+    "name": "Yankwashi",
+    "country": "NG",
+    "region": "Jigawa State",
+    "domain": "",
+    "osm_relation_id": 3703263
+  },
+  {
+    "id": "NG-794",
+    "name": "Yauri",
+    "country": "NG",
+    "region": "Kebbi State",
+    "domain": "",
+    "osm_relation_id": 3707953
+  },
+  {
+    "id": "NG-795",
+    "name": "Yenegoa",
+    "country": "NG",
+    "region": "Bayelsa State",
+    "domain": "",
+    "osm_relation_id": 3715852
+  },
+  {
+    "id": "NG-796",
+    "name": "Yewa North",
+    "country": "NG",
+    "region": "Ogun State",
+    "domain": "",
+    "osm_relation_id": 3718467
+  },
+  {
+    "id": "NG-797",
+    "name": "Yewa South",
+    "country": "NG",
+    "region": "Ogun State",
+    "domain": "",
+    "osm_relation_id": 3718468
+  },
+  {
+    "id": "NG-798",
+    "name": "Yola North",
+    "country": "NG",
+    "region": "Adamawa State",
+    "domain": "",
+    "osm_relation_id": 3720378
+  },
+  {
+    "id": "NG-799",
+    "name": "Yola South",
+    "country": "NG",
+    "region": "Adamawa State",
+    "domain": "",
+    "osm_relation_id": 3720379
+  },
+  {
+    "id": "NG-800",
+    "name": "Yorro",
+    "country": "NG",
+    "region": "Taraba State",
+    "domain": "",
+    "osm_relation_id": 3720865
+  },
+  {
+    "id": "NG-801",
+    "name": "Yunusari",
+    "country": "NG",
+    "region": "Yobe State",
+    "domain": "",
+    "osm_relation_id": 3698581
+  },
+  {
+    "id": "NG-802",
+    "name": "Yusufari",
+    "country": "NG",
+    "region": "Yobe State",
+    "domain": "",
+    "osm_relation_id": 3698582
+  },
+  {
+    "id": "NG-803",
+    "name": "Zaki",
+    "country": "NG",
+    "region": "Bauchi State",
+    "domain": "",
+    "osm_relation_id": 3722253
+  },
+  {
+    "id": "NG-804",
+    "name": "Zango",
+    "country": "NG",
+    "region": "Katsina State",
+    "domain": "",
+    "osm_relation_id": 3711515
+  },
+  {
+    "id": "NG-805",
+    "name": "Zangon Kataf",
+    "country": "NG",
+    "region": "Kaduna State",
+    "domain": "",
+    "osm_relation_id": 3709375
+  },
+  {
+    "id": "NG-806",
+    "name": "Zaria",
+    "country": "NG",
+    "region": "Kaduna State",
+    "domain": "",
+    "osm_relation_id": 3709376
+  },
+  {
+    "id": "NG-807",
+    "name": "Zing",
+    "country": "NG",
+    "region": "Taraba State",
+    "domain": "",
+    "osm_relation_id": 3720866
+  },
+  {
+    "id": "NG-808",
+    "name": "Zurmi",
+    "country": "NG",
+    "region": "Zamfara State",
+    "domain": "",
+    "osm_relation_id": 3706970
+  },
+  {
+    "id": "NG-809",
+    "name": "Zuru",
+    "country": "NG",
+    "region": "Kebbi State",
+    "domain": "",
+    "osm_relation_id": 3707954
+  },
+  {
+    "id": "NG-810",
+    "name": "Ìlú Ìbàsà Ìjegun Ẹgbà",
+    "country": "NG",
+    "region": "Lagos State",
+    "domain": ""
+  },
+  {
+    "id": "NG-811",
+    "name": "Òkè Ata",
+    "country": "NG",
+    "region": "Ogun State",
+    "domain": ""
+  }
+]

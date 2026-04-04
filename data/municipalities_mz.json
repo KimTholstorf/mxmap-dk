@@ -1,0 +1,1264 @@
+[
+  {
+    "id": "MZ-001",
+    "name": "Alto Molocue District",
+    "country": "MZ",
+    "region": "Zambezia Province",
+    "domain": "",
+    "osm_relation_id": 11623571
+  },
+  {
+    "id": "MZ-002",
+    "name": "Ancuabe District",
+    "country": "MZ",
+    "region": "Cabo Delgado Province",
+    "domain": "",
+    "osm_relation_id": 11976433
+  },
+  {
+    "id": "MZ-003",
+    "name": "Angoche District",
+    "country": "MZ",
+    "region": "Nampula Province",
+    "domain": "",
+    "osm_relation_id": 11981792
+  },
+  {
+    "id": "MZ-004",
+    "name": "Angónia District",
+    "country": "MZ",
+    "region": "Tete Province",
+    "domain": "",
+    "osm_relation_id": 11587076
+  },
+  {
+    "id": "MZ-005",
+    "name": "Balama District",
+    "country": "MZ",
+    "region": "Cabo Delgado Province",
+    "domain": "",
+    "osm_relation_id": 11976442
+  },
+  {
+    "id": "MZ-006",
+    "name": "Beira District",
+    "country": "MZ",
+    "region": "Sofala",
+    "domain": "",
+    "osm_relation_id": 11623600
+  },
+  {
+    "id": "MZ-007",
+    "name": "Bilene Macia District",
+    "country": "MZ",
+    "region": "Gaza Province",
+    "domain": "",
+    "osm_relation_id": 11678641
+  },
+  {
+    "id": "MZ-008",
+    "name": "Boane District",
+    "country": "MZ",
+    "region": "Maputo Province",
+    "domain": "pmaputo.gov.mz",
+    "osm_relation_id": 12494681
+  },
+  {
+    "id": "MZ-009",
+    "name": "Buzi District",
+    "country": "MZ",
+    "region": "Sofala",
+    "domain": "",
+    "osm_relation_id": 11623604
+  },
+  {
+    "id": "MZ-010",
+    "name": "Báruè District",
+    "country": "MZ",
+    "region": "Manica Province",
+    "domain": "",
+    "osm_relation_id": 11587302
+  },
+  {
+    "id": "MZ-011",
+    "name": "Cahora-Bassa District",
+    "country": "MZ",
+    "region": "Tete Province",
+    "domain": "",
+    "osm_relation_id": 11587069
+  },
+  {
+    "id": "MZ-012",
+    "name": "Caia District",
+    "country": "MZ",
+    "region": "Sofala",
+    "domain": "",
+    "osm_relation_id": 11623590
+  },
+  {
+    "id": "MZ-013",
+    "name": "Changara District",
+    "country": "MZ",
+    "region": "Tete Province",
+    "domain": ""
+  },
+  {
+    "id": "MZ-014",
+    "name": "Chemba District",
+    "country": "MZ",
+    "region": "Sofala",
+    "domain": "",
+    "osm_relation_id": 11623589
+  },
+  {
+    "id": "MZ-015",
+    "name": "Cheringoma District",
+    "country": "MZ",
+    "region": "Sofala",
+    "domain": "",
+    "osm_relation_id": 11623597
+  },
+  {
+    "id": "MZ-016",
+    "name": "Chibabava District",
+    "country": "MZ",
+    "region": "Sofala",
+    "domain": "",
+    "osm_relation_id": 11623603
+  },
+  {
+    "id": "MZ-017",
+    "name": "Chibuto District",
+    "country": "MZ",
+    "region": "Gaza Province",
+    "domain": "",
+    "osm_relation_id": 11589179
+  },
+  {
+    "id": "MZ-018",
+    "name": "Chicualacuala District",
+    "country": "MZ",
+    "region": "Gaza Province",
+    "domain": "",
+    "osm_relation_id": 11589187
+  },
+  {
+    "id": "MZ-019",
+    "name": "Chifunde District",
+    "country": "MZ",
+    "region": "Tete Province",
+    "domain": "",
+    "osm_relation_id": 11587074
+  },
+  {
+    "id": "MZ-020",
+    "name": "Chigubo District",
+    "country": "MZ",
+    "region": "Gaza Province",
+    "domain": "",
+    "osm_relation_id": 11589184
+  },
+  {
+    "id": "MZ-021",
+    "name": "Chimbonila District",
+    "country": "MZ",
+    "region": "Niassa Province",
+    "domain": "",
+    "osm_relation_id": 11982980
+  },
+  {
+    "id": "MZ-022",
+    "name": "Chimoio",
+    "country": "MZ",
+    "region": "Manica Province",
+    "domain": ""
+  },
+  {
+    "id": "MZ-023",
+    "name": "Chinde District",
+    "country": "MZ",
+    "region": "Zambezia Province",
+    "domain": "",
+    "osm_relation_id": 11623593
+  },
+  {
+    "id": "MZ-024",
+    "name": "Chiuta District",
+    "country": "MZ",
+    "region": "Tete Province",
+    "domain": "",
+    "osm_relation_id": 11587073
+  },
+  {
+    "id": "MZ-025",
+    "name": "Chiúre District",
+    "country": "MZ",
+    "region": "Cabo Delgado Province",
+    "domain": "",
+    "osm_relation_id": 11976440
+  },
+  {
+    "id": "MZ-026",
+    "name": "Chongoene District",
+    "country": "MZ",
+    "region": "Gaza Province",
+    "domain": "",
+    "osm_relation_id": 11623620
+  },
+  {
+    "id": "MZ-027",
+    "name": "Chókwè District",
+    "country": "MZ",
+    "region": "Gaza Province",
+    "domain": "",
+    "osm_relation_id": 11589181
+  },
+  {
+    "id": "MZ-028",
+    "name": "Cuamba District",
+    "country": "MZ",
+    "region": "Niassa Province",
+    "domain": "",
+    "osm_relation_id": 11982970
+  },
+  {
+    "id": "MZ-029",
+    "name": "Derre District",
+    "country": "MZ",
+    "region": "Zambezia Province",
+    "domain": "",
+    "osm_relation_id": 11623585
+  },
+  {
+    "id": "MZ-030",
+    "name": "Distrito Urbano de KaMaxaqueni",
+    "country": "MZ",
+    "region": "Maputo",
+    "domain": ""
+  },
+  {
+    "id": "MZ-031",
+    "name": "Distrito Urbano de Nlhamankulu",
+    "country": "MZ",
+    "region": "Maputo",
+    "domain": "",
+    "osm_relation_id": 3348589
+  },
+  {
+    "id": "MZ-032",
+    "name": "Dondo District",
+    "country": "MZ",
+    "region": "Sofala",
+    "domain": "",
+    "osm_relation_id": 11623601
+  },
+  {
+    "id": "MZ-033",
+    "name": "Dôa district",
+    "country": "MZ",
+    "region": "Tete Province",
+    "domain": "",
+    "osm_relation_id": 11587080
+  },
+  {
+    "id": "MZ-034",
+    "name": "Eráti District",
+    "country": "MZ",
+    "region": "Nampula Province",
+    "domain": "",
+    "osm_relation_id": 11982964
+  },
+  {
+    "id": "MZ-035",
+    "name": "Funhalouro District",
+    "country": "MZ",
+    "region": "Inhambane Province",
+    "domain": "",
+    "osm_relation_id": 11623609
+  },
+  {
+    "id": "MZ-036",
+    "name": "Gilé District",
+    "country": "MZ",
+    "region": "Zambezia Province",
+    "domain": ""
+  },
+  {
+    "id": "MZ-037",
+    "name": "Gondola District",
+    "country": "MZ",
+    "region": "Manica Province",
+    "domain": "",
+    "osm_relation_id": 11587298
+  },
+  {
+    "id": "MZ-038",
+    "name": "Gorongosa District",
+    "country": "MZ",
+    "region": "Sofala",
+    "domain": "",
+    "osm_relation_id": 11623588
+  },
+  {
+    "id": "MZ-039",
+    "name": "Govuro District",
+    "country": "MZ",
+    "region": "Inhambane Province",
+    "domain": "",
+    "osm_relation_id": 11623606
+  },
+  {
+    "id": "MZ-040",
+    "name": "Guijá District",
+    "country": "MZ",
+    "region": "Gaza Province",
+    "domain": "",
+    "osm_relation_id": 11589182
+  },
+  {
+    "id": "MZ-041",
+    "name": "Guro District",
+    "country": "MZ",
+    "region": "Manica Province",
+    "domain": "",
+    "osm_relation_id": 11587303
+  },
+  {
+    "id": "MZ-042",
+    "name": "Gurué District",
+    "country": "MZ",
+    "region": "Zambezia Province",
+    "domain": "",
+    "osm_relation_id": 11623570
+  },
+  {
+    "id": "MZ-043",
+    "name": "Homoine District",
+    "country": "MZ",
+    "region": "Inhambane Province",
+    "domain": "",
+    "osm_relation_id": 11623613
+  },
+  {
+    "id": "MZ-044",
+    "name": "Ibo District",
+    "country": "MZ",
+    "region": "Cabo Delgado Province",
+    "domain": "",
+    "osm_relation_id": 11976435
+  },
+  {
+    "id": "MZ-045",
+    "name": "Ile District",
+    "country": "MZ",
+    "region": "Zambezia Province",
+    "domain": "",
+    "osm_relation_id": 11623576
+  },
+  {
+    "id": "MZ-046",
+    "name": "Ilha de Moçambique District",
+    "country": "MZ",
+    "region": "Nampula Province",
+    "domain": "",
+    "osm_relation_id": 11981801
+  },
+  {
+    "id": "MZ-047",
+    "name": "Inhambane",
+    "country": "MZ",
+    "region": "Inhambane Province",
+    "domain": ""
+  },
+  {
+    "id": "MZ-048",
+    "name": "Inharrime District",
+    "country": "MZ",
+    "region": "Inhambane Province",
+    "domain": "",
+    "osm_relation_id": 11623617
+  },
+  {
+    "id": "MZ-049",
+    "name": "Inhassoro District",
+    "country": "MZ",
+    "region": "Inhambane Province",
+    "domain": "",
+    "osm_relation_id": 11623607
+  },
+  {
+    "id": "MZ-050",
+    "name": "Inhassunge District",
+    "country": "MZ",
+    "region": "Zambezia Province",
+    "domain": "",
+    "osm_relation_id": 11623592
+  },
+  {
+    "id": "MZ-051",
+    "name": "Jangamo District",
+    "country": "MZ",
+    "region": "Inhambane Province",
+    "domain": "",
+    "osm_relation_id": 11623599
+  },
+  {
+    "id": "MZ-052",
+    "name": "KaMavota",
+    "country": "MZ",
+    "region": "Maputo",
+    "domain": "",
+    "osm_relation_id": 3348585
+  },
+  {
+    "id": "MZ-053",
+    "name": "KaMpfumo district",
+    "country": "MZ",
+    "region": "Maputo",
+    "domain": "",
+    "osm_relation_id": 3348587
+  },
+  {
+    "id": "MZ-054",
+    "name": "KaMubukwana",
+    "country": "MZ",
+    "region": "Maputo",
+    "domain": "",
+    "osm_relation_id": 3348588
+  },
+  {
+    "id": "MZ-055",
+    "name": "KaNyaka",
+    "country": "MZ",
+    "region": "Maputo",
+    "domain": "",
+    "osm_relation_id": 3348583
+  },
+  {
+    "id": "MZ-056",
+    "name": "KaTembe",
+    "country": "MZ",
+    "region": "Maputo",
+    "domain": "",
+    "osm_relation_id": 3348584
+  },
+  {
+    "id": "MZ-057",
+    "name": "Lago District",
+    "country": "MZ",
+    "region": "Niassa Province",
+    "domain": "",
+    "osm_relation_id": 11982978
+  },
+  {
+    "id": "MZ-058",
+    "name": "Lalaua District",
+    "country": "MZ",
+    "region": "Nampula Province",
+    "domain": "",
+    "osm_relation_id": 11981811
+  },
+  {
+    "id": "MZ-059",
+    "name": "Larde District",
+    "country": "MZ",
+    "region": "Nampula Province",
+    "domain": "",
+    "osm_relation_id": 11981793
+  },
+  {
+    "id": "MZ-060",
+    "name": "Lichinga District",
+    "country": "MZ",
+    "region": "Niassa Province",
+    "domain": "",
+    "osm_relation_id": 11982979
+  },
+  {
+    "id": "MZ-061",
+    "name": "Limpopo District",
+    "country": "MZ",
+    "region": "Gaza Province",
+    "domain": "",
+    "osm_relation_id": 11589180
+  },
+  {
+    "id": "MZ-062",
+    "name": "Liúpo District",
+    "country": "MZ",
+    "region": "Nampula Province",
+    "domain": "",
+    "osm_relation_id": 11981804
+  },
+  {
+    "id": "MZ-063",
+    "name": "Luabo District",
+    "country": "MZ",
+    "region": "Zambezia Province",
+    "domain": "",
+    "osm_relation_id": 11623594
+  },
+  {
+    "id": "MZ-064",
+    "name": "Lugela District",
+    "country": "MZ",
+    "region": "Zambezia Province",
+    "domain": ""
+  },
+  {
+    "id": "MZ-065",
+    "name": "Mabalane District",
+    "country": "MZ",
+    "region": "Gaza Province",
+    "domain": "",
+    "osm_relation_id": 11589183
+  },
+  {
+    "id": "MZ-066",
+    "name": "Mabote District",
+    "country": "MZ",
+    "region": "Inhambane Province",
+    "domain": "",
+    "osm_relation_id": 11623608
+  },
+  {
+    "id": "MZ-067",
+    "name": "Macanga District",
+    "country": "MZ",
+    "region": "Tete Province",
+    "domain": "",
+    "osm_relation_id": 11587075
+  },
+  {
+    "id": "MZ-068",
+    "name": "Macate District",
+    "country": "MZ",
+    "region": "Manica Province",
+    "domain": "",
+    "osm_relation_id": 11587297
+  },
+  {
+    "id": "MZ-069",
+    "name": "Machanga District",
+    "country": "MZ",
+    "region": "Sofala",
+    "domain": "",
+    "osm_relation_id": 11623605
+  },
+  {
+    "id": "MZ-070",
+    "name": "Machaze District",
+    "country": "MZ",
+    "region": "Manica Province",
+    "domain": "",
+    "osm_relation_id": 11587295
+  },
+  {
+    "id": "MZ-071",
+    "name": "Macomia District",
+    "country": "MZ",
+    "region": "Cabo Delgado Province",
+    "domain": "",
+    "osm_relation_id": 11976434
+  },
+  {
+    "id": "MZ-072",
+    "name": "Macossa District",
+    "country": "MZ",
+    "region": "Manica Province",
+    "domain": "",
+    "osm_relation_id": 11587301
+  },
+  {
+    "id": "MZ-073",
+    "name": "Maganja da Costa District",
+    "country": "MZ",
+    "region": "Zambezia Province",
+    "domain": "",
+    "osm_relation_id": 11623582
+  },
+  {
+    "id": "MZ-074",
+    "name": "Magoé District",
+    "country": "MZ",
+    "region": "Tete Province",
+    "domain": "",
+    "osm_relation_id": 11587070
+  },
+  {
+    "id": "MZ-075",
+    "name": "Magude District",
+    "country": "MZ",
+    "region": "Maputo Province",
+    "domain": "",
+    "osm_relation_id": 12494684
+  },
+  {
+    "id": "MZ-076",
+    "name": "Majune District",
+    "country": "MZ",
+    "region": "Niassa Province",
+    "domain": "",
+    "osm_relation_id": 11982966
+  },
+  {
+    "id": "MZ-077",
+    "name": "Malema District",
+    "country": "MZ",
+    "region": "Nampula Province",
+    "domain": "",
+    "osm_relation_id": 11981812
+  },
+  {
+    "id": "MZ-078",
+    "name": "Mandimba District",
+    "country": "MZ",
+    "region": "Niassa Province",
+    "domain": "",
+    "osm_relation_id": 11982973
+  },
+  {
+    "id": "MZ-079",
+    "name": "Manhiça District",
+    "country": "MZ",
+    "region": "Maputo Province",
+    "domain": "",
+    "osm_relation_id": 12494682
+  },
+  {
+    "id": "MZ-080",
+    "name": "Manica District",
+    "country": "MZ",
+    "region": "Manica Province",
+    "domain": "",
+    "osm_relation_id": 11587300
+  },
+  {
+    "id": "MZ-081",
+    "name": "Manjacaze District",
+    "country": "MZ",
+    "region": "Gaza Province",
+    "domain": "",
+    "osm_relation_id": 11623619
+  },
+  {
+    "id": "MZ-082",
+    "name": "Mapai district",
+    "country": "MZ",
+    "region": "Gaza Province",
+    "domain": "",
+    "osm_relation_id": 11589185
+  },
+  {
+    "id": "MZ-083",
+    "name": "Marara district",
+    "country": "MZ",
+    "region": "Tete Province",
+    "domain": "",
+    "osm_relation_id": 11587067
+  },
+  {
+    "id": "MZ-084",
+    "name": "Maringué District",
+    "country": "MZ",
+    "region": "Sofala",
+    "domain": "",
+    "osm_relation_id": 11623596
+  },
+  {
+    "id": "MZ-085",
+    "name": "Marracuene District",
+    "country": "MZ",
+    "region": "Maputo Province",
+    "domain": "",
+    "osm_relation_id": 11319964
+  },
+  {
+    "id": "MZ-086",
+    "name": "Marromeu District",
+    "country": "MZ",
+    "region": "Sofala",
+    "domain": "",
+    "osm_relation_id": 11623595
+  },
+  {
+    "id": "MZ-087",
+    "name": "Marrupa District",
+    "country": "MZ",
+    "region": "Niassa Province",
+    "domain": "",
+    "osm_relation_id": 11982967
+  },
+  {
+    "id": "MZ-088",
+    "name": "Marávia District",
+    "country": "MZ",
+    "region": "Tete Province",
+    "domain": "",
+    "osm_relation_id": 11587072
+  },
+  {
+    "id": "MZ-089",
+    "name": "Massangena District",
+    "country": "MZ",
+    "region": "Gaza Province",
+    "domain": "",
+    "osm_relation_id": 11589188
+  },
+  {
+    "id": "MZ-090",
+    "name": "Massinga District",
+    "country": "MZ",
+    "region": "Inhambane Province",
+    "domain": "",
+    "osm_relation_id": 11623610
+  },
+  {
+    "id": "MZ-091",
+    "name": "Massingir District",
+    "country": "MZ",
+    "region": "Gaza Province",
+    "domain": "",
+    "osm_relation_id": 11589186
+  },
+  {
+    "id": "MZ-092",
+    "name": "Matola",
+    "country": "MZ",
+    "region": "Maputo Province",
+    "domain": "pmaputo.gov.mz"
+  },
+  {
+    "id": "MZ-093",
+    "name": "Matutuíne District",
+    "country": "MZ",
+    "region": "Maputo Province",
+    "domain": "",
+    "osm_relation_id": 3406086
+  },
+  {
+    "id": "MZ-094",
+    "name": "Mavago District",
+    "country": "MZ",
+    "region": "Niassa Province",
+    "domain": "",
+    "osm_relation_id": 11982982
+  },
+  {
+    "id": "MZ-095",
+    "name": "Maxixe District",
+    "country": "MZ",
+    "region": "Inhambane Province",
+    "domain": "",
+    "osm_relation_id": 11623615
+  },
+  {
+    "id": "MZ-096",
+    "name": "Maúa District",
+    "country": "MZ",
+    "region": "Niassa Province",
+    "domain": "",
+    "osm_relation_id": 11982969
+  },
+  {
+    "id": "MZ-097",
+    "name": "Mecanhelas District",
+    "country": "MZ",
+    "region": "Niassa Province",
+    "domain": "",
+    "osm_relation_id": 11982972
+  },
+  {
+    "id": "MZ-098",
+    "name": "Meconta District",
+    "country": "MZ",
+    "region": "Nampula Province",
+    "domain": "",
+    "osm_relation_id": 11981805
+  },
+  {
+    "id": "MZ-099",
+    "name": "Mecubúri District",
+    "country": "MZ",
+    "region": "Nampula Province",
+    "domain": "",
+    "osm_relation_id": 11981810
+  },
+  {
+    "id": "MZ-100",
+    "name": "Mecula District",
+    "country": "MZ",
+    "region": "Niassa Province",
+    "domain": "",
+    "osm_relation_id": 11982983
+  },
+  {
+    "id": "MZ-101",
+    "name": "Mecúfi District",
+    "country": "MZ",
+    "region": "Cabo Delgado Province",
+    "domain": "",
+    "osm_relation_id": 11976439
+  },
+  {
+    "id": "MZ-102",
+    "name": "Meluco District",
+    "country": "MZ",
+    "region": "Cabo Delgado Province",
+    "domain": "",
+    "osm_relation_id": 11976432
+  },
+  {
+    "id": "MZ-103",
+    "name": "Memba District",
+    "country": "MZ",
+    "region": "Nampula Province",
+    "domain": "",
+    "osm_relation_id": 11981809
+  },
+  {
+    "id": "MZ-104",
+    "name": "Metarica District",
+    "country": "MZ",
+    "region": "Niassa Province",
+    "domain": "",
+    "osm_relation_id": 11982971
+  },
+  {
+    "id": "MZ-105",
+    "name": "Metuge District",
+    "country": "MZ",
+    "region": "Cabo Delgado Province",
+    "domain": ""
+  },
+  {
+    "id": "MZ-106",
+    "name": "Milange District",
+    "country": "MZ",
+    "region": "Zambezia Province",
+    "domain": "",
+    "osm_relation_id": 11623580
+  },
+  {
+    "id": "MZ-107",
+    "name": "Moamba District",
+    "country": "MZ",
+    "region": "Maputo Province",
+    "domain": "",
+    "osm_relation_id": 12494683
+  },
+  {
+    "id": "MZ-108",
+    "name": "Moatize District",
+    "country": "MZ",
+    "region": "Tete Province",
+    "domain": "",
+    "osm_relation_id": 11587078
+  },
+  {
+    "id": "MZ-109",
+    "name": "Mocuba District",
+    "country": "MZ",
+    "region": "Zambezia Province",
+    "domain": "",
+    "osm_relation_id": 11623581
+  },
+  {
+    "id": "MZ-110",
+    "name": "Mocublela District",
+    "country": "MZ",
+    "region": "Zambezia Province",
+    "domain": "",
+    "osm_relation_id": 11623574
+  },
+  {
+    "id": "MZ-111",
+    "name": "Mocímboa da Praia District",
+    "country": "MZ",
+    "region": "Cabo Delgado Province",
+    "domain": "",
+    "osm_relation_id": 11976448
+  },
+  {
+    "id": "MZ-112",
+    "name": "Mogincual District",
+    "country": "MZ",
+    "region": "Nampula Province",
+    "domain": "",
+    "osm_relation_id": 11981803
+  },
+  {
+    "id": "MZ-113",
+    "name": "Mogovolas District",
+    "country": "MZ",
+    "region": "Nampula Province",
+    "domain": "",
+    "osm_relation_id": 11981795
+  },
+  {
+    "id": "MZ-114",
+    "name": "Molumbo District",
+    "country": "MZ",
+    "region": "Zambezia Province",
+    "domain": "",
+    "osm_relation_id": 11623578
+  },
+  {
+    "id": "MZ-115",
+    "name": "Moma District",
+    "country": "MZ",
+    "region": "Nampula Province",
+    "domain": "",
+    "osm_relation_id": 11981794
+  },
+  {
+    "id": "MZ-116",
+    "name": "Monapo District",
+    "country": "MZ",
+    "region": "Nampula Province",
+    "domain": "",
+    "osm_relation_id": 11981798
+  },
+  {
+    "id": "MZ-117",
+    "name": "Montepuez District",
+    "country": "MZ",
+    "region": "Cabo Delgado Province",
+    "domain": "",
+    "osm_relation_id": 11976443
+  },
+  {
+    "id": "MZ-118",
+    "name": "Mopeia District",
+    "country": "MZ",
+    "region": "Zambezia Province",
+    "domain": "",
+    "osm_relation_id": 11623591
+  },
+  {
+    "id": "MZ-119",
+    "name": "Morrumbala District",
+    "country": "MZ",
+    "region": "Zambezia Province",
+    "domain": "",
+    "osm_relation_id": 11623584
+  },
+  {
+    "id": "MZ-120",
+    "name": "Morrumbene District",
+    "country": "MZ",
+    "region": "Inhambane Province",
+    "domain": "",
+    "osm_relation_id": 11623614
+  },
+  {
+    "id": "MZ-121",
+    "name": "Mossuril District",
+    "country": "MZ",
+    "region": "Nampula Province",
+    "domain": "",
+    "osm_relation_id": 11981802
+  },
+  {
+    "id": "MZ-122",
+    "name": "Mossurize District",
+    "country": "MZ",
+    "region": "Manica Province",
+    "domain": "",
+    "osm_relation_id": 11587294
+  },
+  {
+    "id": "MZ-123",
+    "name": "Muanza District",
+    "country": "MZ",
+    "region": "Sofala",
+    "domain": "",
+    "osm_relation_id": 11623598
+  },
+  {
+    "id": "MZ-124",
+    "name": "Muecate District",
+    "country": "MZ",
+    "region": "Nampula Province",
+    "domain": "",
+    "osm_relation_id": 11981797
+  },
+  {
+    "id": "MZ-125",
+    "name": "Mueda District",
+    "country": "MZ",
+    "region": "Cabo Delgado Province",
+    "domain": "",
+    "osm_relation_id": 11976444
+  },
+  {
+    "id": "MZ-126",
+    "name": "Muembe District",
+    "country": "MZ",
+    "region": "Niassa Province",
+    "domain": "",
+    "osm_relation_id": 11982965
+  },
+  {
+    "id": "MZ-127",
+    "name": "Muidumbe District",
+    "country": "MZ",
+    "region": "Cabo Delgado Province",
+    "domain": "",
+    "osm_relation_id": 11976445
+  },
+  {
+    "id": "MZ-128",
+    "name": "Mulevala District",
+    "country": "MZ",
+    "region": "Zambezia Province",
+    "domain": "",
+    "osm_relation_id": 11623575
+  },
+  {
+    "id": "MZ-129",
+    "name": "Murrupula District",
+    "country": "MZ",
+    "region": "Nampula Province",
+    "domain": "",
+    "osm_relation_id": 11981796
+  },
+  {
+    "id": "MZ-130",
+    "name": "Mutarara District",
+    "country": "MZ",
+    "region": "Tete Province",
+    "domain": "",
+    "osm_relation_id": 11587079
+  },
+  {
+    "id": "MZ-131",
+    "name": "N'gauma District",
+    "country": "MZ",
+    "region": "Niassa Province",
+    "domain": "",
+    "osm_relation_id": 11982974
+  },
+  {
+    "id": "MZ-132",
+    "name": "Nacala",
+    "country": "MZ",
+    "region": "Nampula Province",
+    "domain": "",
+    "osm_relation_id": 11981800
+  },
+  {
+    "id": "MZ-133",
+    "name": "Nacala-a-Velha District",
+    "country": "MZ",
+    "region": "Nampula Province",
+    "domain": "",
+    "osm_relation_id": 11981799
+  },
+  {
+    "id": "MZ-134",
+    "name": "Nacarôa District",
+    "country": "MZ",
+    "region": "Nampula Province",
+    "domain": "",
+    "osm_relation_id": 11981808
+  },
+  {
+    "id": "MZ-135",
+    "name": "Namaacha District",
+    "country": "MZ",
+    "region": "Maputo Province",
+    "domain": ""
+  },
+  {
+    "id": "MZ-136",
+    "name": "Namacurra District",
+    "country": "MZ",
+    "region": "Zambezia Province",
+    "domain": "",
+    "osm_relation_id": 11623583
+  },
+  {
+    "id": "MZ-137",
+    "name": "Namarrói District",
+    "country": "MZ",
+    "region": "Zambezia Province",
+    "domain": "",
+    "osm_relation_id": 11623577
+  },
+  {
+    "id": "MZ-138",
+    "name": "Nampula District",
+    "country": "MZ",
+    "region": "Nampula Province",
+    "domain": "",
+    "osm_relation_id": 11981806
+  },
+  {
+    "id": "MZ-139",
+    "name": "Namuno District",
+    "country": "MZ",
+    "region": "Cabo Delgado Province",
+    "domain": "",
+    "osm_relation_id": 11976441
+  },
+  {
+    "id": "MZ-140",
+    "name": "Nangade District",
+    "country": "MZ",
+    "region": "Cabo Delgado Province",
+    "domain": "",
+    "osm_relation_id": 11976446
+  },
+  {
+    "id": "MZ-141",
+    "name": "Nhamatanda District",
+    "country": "MZ",
+    "region": "Sofala",
+    "domain": "",
+    "osm_relation_id": 11623602
+  },
+  {
+    "id": "MZ-142",
+    "name": "Nicoadala District",
+    "country": "MZ",
+    "region": "Zambezia Province",
+    "domain": "",
+    "osm_relation_id": 11623586
+  },
+  {
+    "id": "MZ-143",
+    "name": "Nipepe District",
+    "country": "MZ",
+    "region": "Niassa Province",
+    "domain": "",
+    "osm_relation_id": 11982968
+  },
+  {
+    "id": "MZ-144",
+    "name": "Palma District",
+    "country": "MZ",
+    "region": "Cabo Delgado Province",
+    "domain": "",
+    "osm_relation_id": 11976447
+  },
+  {
+    "id": "MZ-145",
+    "name": "Panda District",
+    "country": "MZ",
+    "region": "Inhambane Province",
+    "domain": "",
+    "osm_relation_id": 11623612
+  },
+  {
+    "id": "MZ-146",
+    "name": "Pebane District",
+    "country": "MZ",
+    "region": "Zambezia Province",
+    "domain": "",
+    "osm_relation_id": 11623573
+  },
+  {
+    "id": "MZ-147",
+    "name": "Pemba District",
+    "country": "MZ",
+    "region": "Cabo Delgado Province",
+    "domain": "",
+    "osm_relation_id": 11976438
+  },
+  {
+    "id": "MZ-148",
+    "name": "Rapale District",
+    "country": "MZ",
+    "region": "Nampula Province",
+    "domain": "",
+    "osm_relation_id": 11981807
+  },
+  {
+    "id": "MZ-149",
+    "name": "Ribáuè District",
+    "country": "MZ",
+    "region": "Nampula Province",
+    "domain": "",
+    "osm_relation_id": 11982963
+  },
+  {
+    "id": "MZ-150",
+    "name": "Sanga District",
+    "country": "MZ",
+    "region": "Niassa Province",
+    "domain": "",
+    "osm_relation_id": 11982981
+  },
+  {
+    "id": "MZ-151",
+    "name": "Sussundenga District",
+    "country": "MZ",
+    "region": "Manica Province",
+    "domain": "",
+    "osm_relation_id": 11587296
+  },
+  {
+    "id": "MZ-152",
+    "name": "Tambara District",
+    "country": "MZ",
+    "region": "Manica Province",
+    "domain": "",
+    "osm_relation_id": 11587304
+  },
+  {
+    "id": "MZ-153",
+    "name": "Tete District",
+    "country": "MZ",
+    "region": "Tete Province",
+    "domain": "",
+    "osm_relation_id": 11589177
+  },
+  {
+    "id": "MZ-154",
+    "name": "Tsangano District",
+    "country": "MZ",
+    "region": "Tete Province",
+    "domain": "",
+    "osm_relation_id": 11587077
+  },
+  {
+    "id": "MZ-155",
+    "name": "Vanduzi District",
+    "country": "MZ",
+    "region": "Manica Province",
+    "domain": "",
+    "osm_relation_id": 11587299
+  },
+  {
+    "id": "MZ-156",
+    "name": "Vilanculos District",
+    "country": "MZ",
+    "region": "Inhambane Province",
+    "domain": "",
+    "osm_relation_id": 11623611
+  },
+  {
+    "id": "MZ-157",
+    "name": "Xai-Xai District",
+    "country": "MZ",
+    "region": "Gaza Province",
+    "domain": "",
+    "osm_relation_id": 11589178
+  },
+  {
+    "id": "MZ-158",
+    "name": "Zavala District",
+    "country": "MZ",
+    "region": "Inhambane Province",
+    "domain": "",
+    "osm_relation_id": 11623618
+  },
+  {
+    "id": "MZ-159",
+    "name": "Zumbo District",
+    "country": "MZ",
+    "region": "Tete Province",
+    "domain": ""
+  }
+]

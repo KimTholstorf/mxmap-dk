@@ -1,0 +1,901 @@
+[
+  {
+    "id": "BI-001",
+    "name": "Bugenyuzi Commune",
+    "country": "BI",
+    "region": "Gitega Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-002",
+    "name": "Buhinyuza Commune",
+    "country": "BI",
+    "region": "Buhumuza",
+    "domain": "",
+    "osm_relation_id": 2985566
+  },
+  {
+    "id": "BI-003",
+    "name": "Bururi Commune",
+    "country": "BI",
+    "region": "Burunga",
+    "domain": ""
+  },
+  {
+    "id": "BI-004",
+    "name": "Butihinda Commune",
+    "country": "BI",
+    "region": "Buhumuza",
+    "domain": "",
+    "osm_relation_id": 2985567
+  },
+  {
+    "id": "BI-005",
+    "name": "Commune Kanyosha",
+    "country": "BI",
+    "region": "Bujumbura Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-006",
+    "name": "Commune Mukike",
+    "country": "BI",
+    "region": "Bujumbura Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-007",
+    "name": "Commune Mutambu",
+    "country": "BI",
+    "region": "Bujumbura Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-008",
+    "name": "Commune Mutimbuzi",
+    "country": "BI",
+    "region": "Bujumbura Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-009",
+    "name": "Commune Mwakiro",
+    "country": "BI",
+    "region": "Buhumuza",
+    "domain": "",
+    "osm_relation_id": 2985570
+  },
+  {
+    "id": "BI-010",
+    "name": "Commune Ntahangwa",
+    "country": "BI",
+    "region": "Bujumbura Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-011",
+    "name": "Commune Nyabiraba",
+    "country": "BI",
+    "region": "Bujumbura Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-012",
+    "name": "Commune of Bisoro",
+    "country": "BI",
+    "region": "Gitega Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-013",
+    "name": "Commune of Bubanza",
+    "country": "BI",
+    "region": "Bujumbura Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-014",
+    "name": "Commune of Bugabira",
+    "country": "BI",
+    "region": "Butanyerera",
+    "domain": "",
+    "osm_relation_id": 2985684
+  },
+  {
+    "id": "BI-015",
+    "name": "Commune of Buganda",
+    "country": "BI",
+    "region": "Bujumbura Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-016",
+    "name": "Commune of Bugarama",
+    "country": "BI",
+    "region": "Bujumbura Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-017",
+    "name": "Commune of Bugendana",
+    "country": "BI",
+    "region": "Gitega Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-018",
+    "name": "Commune of Buhiga",
+    "country": "BI",
+    "region": "Gitega Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-019",
+    "name": "Commune of Bukemba",
+    "country": "BI",
+    "region": "Burunga",
+    "domain": ""
+  },
+  {
+    "id": "BI-020",
+    "name": "Commune of Bukeye",
+    "country": "BI",
+    "region": "Burunga",
+    "domain": ""
+  },
+  {
+    "id": "BI-021",
+    "name": "Commune of Bukinanyana",
+    "country": "BI",
+    "region": "Bujumbura Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-022",
+    "name": "Commune of Bukirasazi",
+    "country": "BI",
+    "region": "Gitega Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-023",
+    "name": "Commune of Burambi",
+    "country": "BI",
+    "region": "Burunga",
+    "domain": ""
+  },
+  {
+    "id": "BI-024",
+    "name": "Commune of Buraza",
+    "country": "BI",
+    "region": "Gitega Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-025",
+    "name": "Commune of Busiga",
+    "country": "BI",
+    "region": "Butanyerera",
+    "domain": "",
+    "osm_relation_id": 2985863
+  },
+  {
+    "id": "BI-026",
+    "name": "Commune of Busoni",
+    "country": "BI",
+    "region": "Butanyerera",
+    "domain": "",
+    "osm_relation_id": 2985685
+  },
+  {
+    "id": "BI-027",
+    "name": "Commune of Butaganzwa",
+    "country": "BI",
+    "region": "Buhumuza",
+    "domain": ""
+  },
+  {
+    "id": "BI-028",
+    "name": "Commune of Butaganzwa",
+    "country": "BI",
+    "region": "Butanyerera",
+    "domain": ""
+  },
+  {
+    "id": "BI-029",
+    "name": "Commune of Butezi",
+    "country": "BI",
+    "region": "Buhumuza",
+    "domain": ""
+  },
+  {
+    "id": "BI-030",
+    "name": "Commune of Buyengero",
+    "country": "BI",
+    "region": "Burunga",
+    "domain": ""
+  },
+  {
+    "id": "BI-031",
+    "name": "Commune of Bwambarangwe",
+    "country": "BI",
+    "region": "Butanyerera",
+    "domain": "",
+    "osm_relation_id": 2985686
+  },
+  {
+    "id": "BI-032",
+    "name": "Commune of Bweru",
+    "country": "BI",
+    "region": "Buhumuza",
+    "domain": ""
+  },
+  {
+    "id": "BI-033",
+    "name": "Commune of Cankuzo",
+    "country": "BI",
+    "region": "Buhumuza",
+    "domain": ""
+  },
+  {
+    "id": "BI-034",
+    "name": "Commune of Cendajuru",
+    "country": "BI",
+    "region": "Buhumuza",
+    "domain": "",
+    "osm_relation_id": 2985727
+  },
+  {
+    "id": "BI-035",
+    "name": "Commune of Cibitoke",
+    "country": "BI",
+    "region": "Bujumbura Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-036",
+    "name": "Commune of Gahombo",
+    "country": "BI",
+    "region": "Butanyerera",
+    "domain": ""
+  },
+  {
+    "id": "BI-037",
+    "name": "Commune of Gashoho",
+    "country": "BI",
+    "region": "Buhumuza",
+    "domain": "",
+    "osm_relation_id": 2985568
+  },
+  {
+    "id": "BI-038",
+    "name": "Commune of Gatara",
+    "country": "BI",
+    "region": "Butanyerera",
+    "domain": ""
+  },
+  {
+    "id": "BI-039",
+    "name": "Commune of Gihanga",
+    "country": "BI",
+    "region": "Bujumbura Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-040",
+    "name": "Commune of Giharo",
+    "country": "BI",
+    "region": "Burunga",
+    "domain": ""
+  },
+  {
+    "id": "BI-041",
+    "name": "Commune of Giheta",
+    "country": "BI",
+    "region": "Gitega Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-042",
+    "name": "Commune of Gihogazi",
+    "country": "BI",
+    "region": "Gitega Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-043",
+    "name": "Commune of Gisagara",
+    "country": "BI",
+    "region": "Buhumuza",
+    "domain": ""
+  },
+  {
+    "id": "BI-044",
+    "name": "Commune of Gishubi",
+    "country": "BI",
+    "region": "Gitega Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-045",
+    "name": "Commune of Gisozi",
+    "country": "BI",
+    "region": "Gitega Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-046",
+    "name": "Commune of Gisuru",
+    "country": "BI",
+    "region": "Buhumuza",
+    "domain": ""
+  },
+  {
+    "id": "BI-047",
+    "name": "Commune of Gitanga",
+    "country": "BI",
+    "region": "Burunga",
+    "domain": ""
+  },
+  {
+    "id": "BI-048",
+    "name": "Commune of Gitaramuka",
+    "country": "BI",
+    "region": "Gitega Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-049",
+    "name": "Commune of Gitega",
+    "country": "BI",
+    "region": "Gitega Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-050",
+    "name": "Commune of Gitobe",
+    "country": "BI",
+    "region": "Butanyerera",
+    "domain": "",
+    "osm_relation_id": 2985687
+  },
+  {
+    "id": "BI-051",
+    "name": "Commune of Isale",
+    "country": "BI",
+    "region": "Bujumbura Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-052",
+    "name": "Commune of Itaba",
+    "country": "BI",
+    "region": "Gitega Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-053",
+    "name": "Commune of Kabarore",
+    "country": "BI",
+    "region": "Butanyerera",
+    "domain": ""
+  },
+  {
+    "id": "BI-054",
+    "name": "Commune of Kabezi",
+    "country": "BI",
+    "region": "Bujumbura Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-055",
+    "name": "Commune of Kayanza",
+    "country": "BI",
+    "region": "Butanyerera",
+    "domain": ""
+  },
+  {
+    "id": "BI-056",
+    "name": "Commune of Kayogoro",
+    "country": "BI",
+    "region": "Burunga",
+    "domain": ""
+  },
+  {
+    "id": "BI-057",
+    "name": "Commune of Kayokwe",
+    "country": "BI",
+    "region": "Gitega Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-058",
+    "name": "Commune of Kibago",
+    "country": "BI",
+    "region": "Burunga",
+    "domain": ""
+  },
+  {
+    "id": "BI-059",
+    "name": "Commune of Kigamba",
+    "country": "BI",
+    "region": "Buhumuza",
+    "domain": "",
+    "osm_relation_id": 2985729
+  },
+  {
+    "id": "BI-060",
+    "name": "Commune of Kiganda",
+    "country": "BI",
+    "region": "Gitega Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-061",
+    "name": "Commune of Kinyinya",
+    "country": "BI",
+    "region": "Buhumuza",
+    "domain": ""
+  },
+  {
+    "id": "BI-062",
+    "name": "Commune of Kiremba",
+    "country": "BI",
+    "region": "Butanyerera",
+    "domain": "",
+    "osm_relation_id": 2985865
+  },
+  {
+    "id": "BI-063",
+    "name": "Commune of Kirundo",
+    "country": "BI",
+    "region": "Butanyerera",
+    "domain": ""
+  },
+  {
+    "id": "BI-064",
+    "name": "Commune of Mabanda",
+    "country": "BI",
+    "region": "Burunga",
+    "domain": ""
+  },
+  {
+    "id": "BI-065",
+    "name": "Commune of Mabayi",
+    "country": "BI",
+    "region": "Bujumbura Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-066",
+    "name": "Commune of Makamba",
+    "country": "BI",
+    "region": "Burunga",
+    "domain": ""
+  },
+  {
+    "id": "BI-067",
+    "name": "Commune of Makebuko",
+    "country": "BI",
+    "region": "Gitega Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-068",
+    "name": "Commune of Marangara",
+    "country": "BI",
+    "region": "Butanyerera",
+    "domain": "",
+    "osm_relation_id": 2985866
+  },
+  {
+    "id": "BI-069",
+    "name": "Commune of Matongo",
+    "country": "BI",
+    "region": "Butanyerera",
+    "domain": ""
+  },
+  {
+    "id": "BI-070",
+    "name": "Commune of Mbuye",
+    "country": "BI",
+    "region": "Gitega Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-071",
+    "name": "Commune of Mishiha",
+    "country": "BI",
+    "region": "Buhumuza",
+    "domain": "",
+    "osm_relation_id": 2985730
+  },
+  {
+    "id": "BI-072",
+    "name": "Commune of Mpanda",
+    "country": "BI",
+    "region": "Bujumbura Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-073",
+    "name": "Commune of Mpinga-Kavoye",
+    "country": "BI",
+    "region": "Burunga",
+    "domain": ""
+  },
+  {
+    "id": "BI-074",
+    "name": "Commune of Mugina",
+    "country": "BI",
+    "region": "Bujumbura Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-075",
+    "name": "Commune of Muha",
+    "country": "BI",
+    "region": "Bujumbura Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-076",
+    "name": "Commune of Muhanga",
+    "country": "BI",
+    "region": "Butanyerera",
+    "domain": ""
+  },
+  {
+    "id": "BI-077",
+    "name": "Commune of Muramvya",
+    "country": "BI",
+    "region": "Gitega Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-078",
+    "name": "Commune of Muruta",
+    "country": "BI",
+    "region": "Butanyerera",
+    "domain": ""
+  },
+  {
+    "id": "BI-079",
+    "name": "Commune of Murwi",
+    "country": "BI",
+    "region": "Bujumbura Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-080",
+    "name": "Commune of Musigati",
+    "country": "BI",
+    "region": "Bubanza Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-081",
+    "name": "Commune of Musongati",
+    "country": "BI",
+    "region": "Burunga",
+    "domain": ""
+  },
+  {
+    "id": "BI-082",
+    "name": "Commune of Mutaho",
+    "country": "BI",
+    "region": "Gitega Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-083",
+    "name": "Commune of Mutumba",
+    "country": "BI",
+    "region": "Gitega Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-084",
+    "name": "Commune of Mwumba",
+    "country": "BI",
+    "region": "Butanyerera",
+    "domain": "",
+    "osm_relation_id": 2985867
+  },
+  {
+    "id": "BI-085",
+    "name": "Commune of Ndava",
+    "country": "BI",
+    "region": "Gitega Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-086",
+    "name": "Commune of Ngozi",
+    "country": "BI",
+    "region": "Butanyerera",
+    "domain": "",
+    "osm_relation_id": 2985868
+  },
+  {
+    "id": "BI-087",
+    "name": "Commune of Ntega",
+    "country": "BI",
+    "region": "Butanyerera",
+    "domain": "",
+    "osm_relation_id": 2985689
+  },
+  {
+    "id": "BI-088",
+    "name": "Commune of Nyabihanga",
+    "country": "BI",
+    "region": "Gitega Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-089",
+    "name": "Commune of Nyabikere",
+    "country": "BI",
+    "region": "Gitega Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-090",
+    "name": "Commune of Nyabitsinda",
+    "country": "BI",
+    "region": "Buhumuza",
+    "domain": ""
+  },
+  {
+    "id": "BI-091",
+    "name": "Commune of Nyamurenza",
+    "country": "BI",
+    "region": "Butanyerera",
+    "domain": "",
+    "osm_relation_id": 2985869
+  },
+  {
+    "id": "BI-092",
+    "name": "Commune of Nyanrusange",
+    "country": "BI",
+    "region": "Gitega Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-093",
+    "name": "Commune of Nyanza-Lac",
+    "country": "BI",
+    "region": "Burunga",
+    "domain": ""
+  },
+  {
+    "id": "BI-094",
+    "name": "Commune of Rango",
+    "country": "BI",
+    "region": "Butanyerera",
+    "domain": ""
+  },
+  {
+    "id": "BI-095",
+    "name": "Commune of Rugazi",
+    "country": "BI",
+    "region": "Bujumbura Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-096",
+    "name": "Commune of Rugombo",
+    "country": "BI",
+    "region": "Bujumbura Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-097",
+    "name": "Commune of Ruhororo",
+    "country": "BI",
+    "region": "Butanyerera",
+    "domain": "",
+    "osm_relation_id": 2985870
+  },
+  {
+    "id": "BI-098",
+    "name": "Commune of Rumonge",
+    "country": "BI",
+    "region": "Burunga",
+    "domain": ""
+  },
+  {
+    "id": "BI-099",
+    "name": "Commune of Rusaka",
+    "country": "BI",
+    "region": "Gitega Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-100",
+    "name": "Commune of Rutana",
+    "country": "BI",
+    "region": "Burunga",
+    "domain": ""
+  },
+  {
+    "id": "BI-101",
+    "name": "Commune of Rutegama",
+    "country": "BI",
+    "region": "Gitega Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-102",
+    "name": "Commune of Ruyigi",
+    "country": "BI",
+    "region": "Buhumuza",
+    "domain": ""
+  },
+  {
+    "id": "BI-103",
+    "name": "Commune of Ryansoro",
+    "country": "BI",
+    "region": "Gitega Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-104",
+    "name": "Commune of Tangara",
+    "country": "BI",
+    "region": "Butanyerera",
+    "domain": "",
+    "osm_relation_id": 2985871
+  },
+  {
+    "id": "BI-105",
+    "name": "Commune of Vugizo",
+    "country": "BI",
+    "region": "Burunga",
+    "domain": ""
+  },
+  {
+    "id": "BI-106",
+    "name": "Commune of Vumbi",
+    "country": "BI",
+    "region": "Butanyerera",
+    "domain": "",
+    "osm_relation_id": 2985690
+  },
+  {
+    "id": "BI-107",
+    "name": "Gashikanwa Commune",
+    "country": "BI",
+    "region": "Butanyerera",
+    "domain": "",
+    "osm_relation_id": 2985864
+  },
+  {
+    "id": "BI-108",
+    "name": "Gasorwe Commune",
+    "country": "BI",
+    "region": "Buhumuza",
+    "domain": "",
+    "osm_relation_id": 2985569
+  },
+  {
+    "id": "BI-109",
+    "name": "Giteranyi Commune",
+    "country": "BI",
+    "region": "Buhumuza",
+    "domain": "",
+    "osm_relation_id": 2985427
+  },
+  {
+    "id": "BI-110",
+    "name": "Matana Commune",
+    "country": "BI",
+    "region": "Burunga",
+    "domain": ""
+  },
+  {
+    "id": "BI-111",
+    "name": "Mubimbi Commune",
+    "country": "BI",
+    "region": "Bujumbura Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-112",
+    "name": "Mugamba Commune",
+    "country": "BI",
+    "region": "Burunga",
+    "domain": ""
+  },
+  {
+    "id": "BI-113",
+    "name": "Mugongomanga Commune",
+    "country": "BI",
+    "region": "Bujumbura Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-114",
+    "name": "Muhuta",
+    "country": "BI",
+    "region": "Bujumbura Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-115",
+    "name": "Mukaza",
+    "country": "BI",
+    "region": "Bujumbura Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-116",
+    "name": "Muyinga Commune",
+    "country": "BI",
+    "region": "Buhumuza",
+    "domain": ""
+  },
+  {
+    "id": "BI-117",
+    "name": "Mwaro",
+    "country": "BI",
+    "region": "Gitega Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-118",
+    "name": "Rohero zone",
+    "country": "BI",
+    "region": "Bujumbura Mairie",
+    "domain": ""
+  },
+  {
+    "id": "BI-119",
+    "name": "Rutovu Commune",
+    "country": "BI",
+    "region": "Burunga",
+    "domain": ""
+  },
+  {
+    "id": "BI-120",
+    "name": "Rwibaga",
+    "country": "BI",
+    "region": "Bujumbura Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-121",
+    "name": "Shombo",
+    "country": "BI",
+    "region": "Gitega Province",
+    "domain": ""
+  },
+  {
+    "id": "BI-122",
+    "name": "Songa Commune",
+    "country": "BI",
+    "region": "Burunga",
+    "domain": ""
+  },
+  {
+    "id": "BI-123",
+    "name": "Vyanda Commune",
+    "country": "BI",
+    "region": "Burunga",
+    "domain": ""
+  },
+  {
+    "id": "BI-124",
+    "name": "Zone of Kanyosha",
+    "country": "BI",
+    "region": "Bujumbura Mairie",
+    "domain": ""
+  },
+  {
+    "id": "BI-125",
+    "name": "Rango",
+    "country": "BI",
+    "region": "Kayanza Province",
+    "domain": ""
+  }
+]

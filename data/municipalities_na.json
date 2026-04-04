@@ -1,0 +1,114 @@
+[
+  {
+    "id": "NA-001",
+    "name": "Erongo Region",
+    "country": "NA",
+    "region": "Namibia",
+    "domain": "erc.com.na",
+    "osm_relation_id": 2279555
+  },
+  {
+    "id": "NA-002",
+    "name": "Hardap Region",
+    "country": "NA",
+    "region": "Namibia",
+    "domain": "arc.org.na",
+    "osm_relation_id": 2279556
+  },
+  {
+    "id": "NA-003",
+    "name": "Karas Region",
+    "country": "NA",
+    "region": "Namibia",
+    "domain": "karasrc.gov.na",
+    "osm_relation_id": 2279557
+  },
+  {
+    "id": "NA-004",
+    "name": "Kavango East Region",
+    "country": "NA",
+    "region": "Namibia",
+    "domain": "",
+    "osm_relation_id": 3995170
+  },
+  {
+    "id": "NA-005",
+    "name": "Kavango West Region",
+    "country": "NA",
+    "region": "Namibia",
+    "domain": "",
+    "osm_relation_id": 3995171
+  },
+  {
+    "id": "NA-006",
+    "name": "Khomas Region",
+    "country": "NA",
+    "region": "Namibia",
+    "domain": "khomasrc.gov.na",
+    "osm_relation_id": 2279585
+  },
+  {
+    "id": "NA-007",
+    "name": "Kunene Region",
+    "country": "NA",
+    "region": "Namibia",
+    "domain": "arc.org.na",
+    "osm_relation_id": 2279589
+  },
+  {
+    "id": "NA-008",
+    "name": "Ohangwena Region",
+    "country": "NA",
+    "region": "Namibia",
+    "domain": "arc.org.na",
+    "osm_relation_id": 2279597
+  },
+  {
+    "id": "NA-009",
+    "name": "Omaheke Region",
+    "country": "NA",
+    "region": "Namibia",
+    "domain": "arc.org.na",
+    "osm_relation_id": 2279601
+  },
+  {
+    "id": "NA-010",
+    "name": "Omusati Region",
+    "country": "NA",
+    "region": "Namibia",
+    "domain": "omusatirc.gov.na",
+    "osm_relation_id": 2279621
+  },
+  {
+    "id": "NA-011",
+    "name": "Oshana Region",
+    "country": "NA",
+    "region": "Namibia",
+    "domain": "oshanarc.com.na",
+    "osm_relation_id": 2279623
+  },
+  {
+    "id": "NA-012",
+    "name": "Oshikoto Region",
+    "country": "NA",
+    "region": "Namibia",
+    "domain": "oshikoto-rc.org",
+    "osm_relation_id": 2279627
+  },
+  {
+    "id": "NA-013",
+    "name": "Otjozondjupa Region",
+    "country": "NA",
+    "region": "Namibia",
+    "domain": "otjozondjuparc.gov.na",
+    "osm_relation_id": 2279628
+  },
+  {
+    "id": "NA-014",
+    "name": "Zambezi Region",
+    "country": "NA",
+    "region": "Namibia",
+    "domain": "arc.org.na",
+    "osm_relation_id": 2279554
+  }
+]

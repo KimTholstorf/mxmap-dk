@@ -1,0 +1,559 @@
+[
+  {
+    "id": "ML-001",
+    "name": "Abeïbara Cercle",
+    "country": "ML",
+    "region": "Kidal Region",
+    "domain": "",
+    "osm_relation_id": 3078991
+  },
+  {
+    "id": "ML-002",
+    "name": "Almoustrat Cercle",
+    "country": "ML",
+    "region": "Gao Region",
+    "domain": ""
+  },
+  {
+    "id": "ML-003",
+    "name": "Ansongo Cercle",
+    "country": "ML",
+    "region": "Gao Region",
+    "domain": "",
+    "osm_relation_id": 3079150
+  },
+  {
+    "id": "ML-004",
+    "name": "Bafoulabé Cercle",
+    "country": "ML",
+    "region": "Kayes Region",
+    "domain": "",
+    "osm_relation_id": 3083704
+  },
+  {
+    "id": "ML-005",
+    "name": "Bamako",
+    "country": "ML",
+    "region": "Bamako Capital District",
+    "domain": ""
+  },
+  {
+    "id": "ML-006",
+    "name": "Banamba Cercle",
+    "country": "ML",
+    "region": "Koulikoro Region",
+    "domain": "",
+    "osm_relation_id": 3083889
+  },
+  {
+    "id": "ML-007",
+    "name": "Bandiagara Cercle",
+    "country": "ML",
+    "region": "Mopti Region",
+    "domain": "",
+    "osm_relation_id": 3084278
+  },
+  {
+    "id": "ML-008",
+    "name": "Bankass Cercle",
+    "country": "ML",
+    "region": "Bankass",
+    "domain": "",
+    "osm_relation_id": 3084279
+  },
+  {
+    "id": "ML-009",
+    "name": "Barouéli Cercle",
+    "country": "ML",
+    "region": "Ségou Region",
+    "domain": ""
+  },
+  {
+    "id": "ML-010",
+    "name": "Bla Cercle",
+    "country": "ML",
+    "region": "Ségou Region",
+    "domain": "",
+    "osm_relation_id": 3085045
+  },
+  {
+    "id": "ML-011",
+    "name": "Bougouni Cercle",
+    "country": "ML",
+    "region": "Sikasso",
+    "domain": "",
+    "osm_relation_id": 3083940
+  },
+  {
+    "id": "ML-012",
+    "name": "Bourem Cercle",
+    "country": "ML",
+    "region": "Gao Region",
+    "domain": "",
+    "osm_relation_id": 3079151
+  },
+  {
+    "id": "ML-013",
+    "name": "Dioïla Cercle",
+    "country": "ML",
+    "region": "Koulikoro Region",
+    "domain": "",
+    "osm_relation_id": 3083890
+  },
+  {
+    "id": "ML-014",
+    "name": "Diré Cercle",
+    "country": "ML",
+    "region": "Diré",
+    "domain": "",
+    "osm_relation_id": 3079410
+  },
+  {
+    "id": "ML-015",
+    "name": "Diéma Cercle",
+    "country": "ML",
+    "region": "Kayes Region",
+    "domain": "",
+    "osm_relation_id": 3083705
+  },
+  {
+    "id": "ML-016",
+    "name": "Djebock Cercle",
+    "country": "ML",
+    "region": "Gao Region",
+    "domain": ""
+  },
+  {
+    "id": "ML-017",
+    "name": "Djenné Cercle",
+    "country": "ML",
+    "region": "Djenné",
+    "domain": "",
+    "osm_relation_id": 3084281
+  },
+  {
+    "id": "ML-018",
+    "name": "Douentza Cercle",
+    "country": "ML",
+    "region": "Mopti Region",
+    "domain": "",
+    "osm_relation_id": 3084280
+  },
+  {
+    "id": "ML-019",
+    "name": "Farako cercle",
+    "country": "ML",
+    "region": "Ségou Region",
+    "domain": ""
+  },
+  {
+    "id": "ML-020",
+    "name": "Gao Cercle",
+    "country": "ML",
+    "region": "Gao Region",
+    "domain": "",
+    "osm_relation_id": 3079152
+  },
+  {
+    "id": "ML-021",
+    "name": "Goundam Cercle",
+    "country": "ML",
+    "region": "Timbuktu Region",
+    "domain": "",
+    "osm_relation_id": 3079411
+  },
+  {
+    "id": "ML-022",
+    "name": "Gourma-Rharous Cercle",
+    "country": "ML",
+    "region": "Timbuktu Region",
+    "domain": "",
+    "osm_relation_id": 3079414
+  },
+  {
+    "id": "ML-023",
+    "name": "Kadiolo Cercle",
+    "country": "ML",
+    "region": "Sikasso",
+    "domain": "",
+    "osm_relation_id": 3083941
+  },
+  {
+    "id": "ML-024",
+    "name": "Kangaba Cercle",
+    "country": "ML",
+    "region": "Koulikoro Region",
+    "domain": "",
+    "osm_relation_id": 3083891
+  },
+  {
+    "id": "ML-025",
+    "name": "Kassambere Cercle",
+    "country": "ML",
+    "region": "Gao Region",
+    "domain": ""
+  },
+  {
+    "id": "ML-026",
+    "name": "Kati Cercle",
+    "country": "ML",
+    "region": "Koulikoro Region",
+    "domain": "",
+    "osm_relation_id": 3083892
+  },
+  {
+    "id": "ML-027",
+    "name": "Kayes Cercle",
+    "country": "ML",
+    "region": "Kayes Region",
+    "domain": "",
+    "osm_relation_id": 3083706
+  },
+  {
+    "id": "ML-028",
+    "name": "Kidal Cercle",
+    "country": "ML",
+    "region": "Kidal Region",
+    "domain": "",
+    "osm_relation_id": 3078992
+  },
+  {
+    "id": "ML-029",
+    "name": "Kita Cercle",
+    "country": "ML",
+    "region": "Kayes Region",
+    "domain": "",
+    "osm_relation_id": 3083707
+  },
+  {
+    "id": "ML-030",
+    "name": "Kolokani Cercle",
+    "country": "ML",
+    "region": "Koulikoro Region",
+    "domain": "",
+    "osm_relation_id": 3083893
+  },
+  {
+    "id": "ML-031",
+    "name": "Kolondieba Cercle",
+    "country": "ML",
+    "region": "Sikasso",
+    "domain": "",
+    "osm_relation_id": 3083942
+  },
+  {
+    "id": "ML-032",
+    "name": "Koro Cercle",
+    "country": "ML",
+    "region": "Koro",
+    "domain": "",
+    "osm_relation_id": 3084282
+  },
+  {
+    "id": "ML-033",
+    "name": "Koulikoro Cercle",
+    "country": "ML",
+    "region": "Koulikoro Region",
+    "domain": "",
+    "osm_relation_id": 3083894
+  },
+  {
+    "id": "ML-034",
+    "name": "Koutiala Cercle",
+    "country": "ML",
+    "region": "Koutiala",
+    "domain": "",
+    "osm_relation_id": 3083943
+  },
+  {
+    "id": "ML-035",
+    "name": "Kéniéba Cercle",
+    "country": "ML",
+    "region": "Kayes Region",
+    "domain": "",
+    "osm_relation_id": 3083708
+  },
+  {
+    "id": "ML-036",
+    "name": "Macina Cercle",
+    "country": "ML",
+    "region": "Ségou Region",
+    "domain": "",
+    "osm_relation_id": 3085046
+  },
+  {
+    "id": "ML-037",
+    "name": "Mopti Cercle",
+    "country": "ML",
+    "region": "Mopti Region",
+    "domain": "",
+    "osm_relation_id": 3084283
+  },
+  {
+    "id": "ML-038",
+    "name": "Ménaka Cercle",
+    "country": "ML",
+    "region": "Ménaka Region",
+    "domain": ""
+  },
+  {
+    "id": "ML-039",
+    "name": "Nara Cercle",
+    "country": "ML",
+    "region": "Koulikoro Region",
+    "domain": "",
+    "osm_relation_id": 3083895
+  },
+  {
+    "id": "ML-040",
+    "name": "Niafunké Cercle",
+    "country": "ML",
+    "region": "Timbuktu Region",
+    "domain": ""
+  },
+  {
+    "id": "ML-041",
+    "name": "Niono Cercle",
+    "country": "ML",
+    "region": "Ségou Region",
+    "domain": "",
+    "osm_relation_id": 3085047
+  },
+  {
+    "id": "ML-042",
+    "name": "Nioro Cercle",
+    "country": "ML",
+    "region": "Kayes Region",
+    "domain": "",
+    "osm_relation_id": 3083709
+  },
+  {
+    "id": "ML-043",
+    "name": "Ouattagouna Cercle",
+    "country": "ML",
+    "region": "Gao Region",
+    "domain": ""
+  },
+  {
+    "id": "ML-044",
+    "name": "San Cercle",
+    "country": "ML",
+    "region": "Ségou Region",
+    "domain": "",
+    "osm_relation_id": 3085048
+  },
+  {
+    "id": "ML-045",
+    "name": "Sikasso Cercle",
+    "country": "ML",
+    "region": "Sikasso",
+    "domain": "",
+    "osm_relation_id": 3083944
+  },
+  {
+    "id": "ML-046",
+    "name": "Ségou Cercle",
+    "country": "ML",
+    "region": "Ségou Region",
+    "domain": "",
+    "osm_relation_id": 3085049
+  },
+  {
+    "id": "ML-047",
+    "name": "Tessalit Cercle",
+    "country": "ML",
+    "region": "Kidal Region",
+    "domain": "",
+    "osm_relation_id": 3078993
+  },
+  {
+    "id": "ML-048",
+    "name": "Timbuktu Cercle",
+    "country": "ML",
+    "region": "Timbuktu Region",
+    "domain": "",
+    "osm_relation_id": 3079413
+  },
+  {
+    "id": "ML-049",
+    "name": "Tin-Essako Cercle",
+    "country": "ML",
+    "region": "Kidal Region",
+    "domain": "",
+    "osm_relation_id": 3078994
+  },
+  {
+    "id": "ML-050",
+    "name": "Tominian Cercle",
+    "country": "ML",
+    "region": "Ségou Region",
+    "domain": "",
+    "osm_relation_id": 3085050
+  },
+  {
+    "id": "ML-051",
+    "name": "Ténenkou Cercle",
+    "country": "ML",
+    "region": "Mopti Region",
+    "domain": "",
+    "osm_relation_id": 3084284
+  },
+  {
+    "id": "ML-052",
+    "name": "Yanfolila Cercle",
+    "country": "ML",
+    "region": "Sikasso",
+    "domain": "",
+    "osm_relation_id": 3083945
+  },
+  {
+    "id": "ML-053",
+    "name": "Yorosso Cercle",
+    "country": "ML",
+    "region": "Sikasso",
+    "domain": "",
+    "osm_relation_id": 3083946
+  },
+  {
+    "id": "ML-054",
+    "name": "Youwarou Cercle",
+    "country": "ML",
+    "region": "Mopti Region",
+    "domain": "",
+    "osm_relation_id": 3084285
+  },
+  {
+    "id": "ML-055",
+    "name": "Yélimané Cercle",
+    "country": "ML",
+    "region": "Kayes Region",
+    "domain": "",
+    "osm_relation_id": 3083710
+  },
+  {
+    "id": "ML-056",
+    "name": "Cercle de Achibogho",
+    "country": "ML",
+    "region": "Kidal Region",
+    "domain": ""
+  },
+  {
+    "id": "ML-057",
+    "name": "Cercle de Aguel-Hoc",
+    "country": "ML",
+    "region": "Kidal Region",
+    "domain": ""
+  },
+  {
+    "id": "ML-058",
+    "name": "Cercle de Anéfif",
+    "country": "ML",
+    "region": "Kidal Region",
+    "domain": ""
+  },
+  {
+    "id": "ML-059",
+    "name": "Cercle de Nyamina",
+    "country": "ML",
+    "region": "Koulikoro Region",
+    "domain": ""
+  },
+  {
+    "id": "ML-060",
+    "name": "Cercle de Oussoubidiagna",
+    "country": "ML",
+    "region": "Kayes Region",
+    "domain": ""
+  },
+  {
+    "id": "ML-061",
+    "name": "Cercle de Sagabari",
+    "country": "ML",
+    "region": "Kita",
+    "domain": ""
+  },
+  {
+    "id": "ML-062",
+    "name": "Cercle de Siby",
+    "country": "ML",
+    "region": "Koulikoro Region",
+    "domain": ""
+  },
+  {
+    "id": "ML-063",
+    "name": "Cercle de Takalote",
+    "country": "ML",
+    "region": "Kidal Region",
+    "domain": ""
+  },
+  {
+    "id": "ML-064",
+    "name": "Cercle de Timétrine",
+    "country": "ML",
+    "region": "Kidal Region",
+    "domain": ""
+  },
+  {
+    "id": "ML-065",
+    "name": "Cercle de Tonka",
+    "country": "ML",
+    "region": "Timbuktu Region",
+    "domain": ""
+  },
+  {
+    "id": "ML-066",
+    "name": "cercle de Ambidédi",
+    "country": "ML",
+    "region": "Kayes Region",
+    "domain": ""
+  },
+  {
+    "id": "ML-067",
+    "name": "cercle de Aourou",
+    "country": "ML",
+    "region": "Kayes Region",
+    "domain": ""
+  },
+  {
+    "id": "ML-068",
+    "name": "cercle de Diamou",
+    "country": "ML",
+    "region": "Kayes Region",
+    "domain": ""
+  },
+  {
+    "id": "ML-069",
+    "name": "cercle de Konna",
+    "country": "ML",
+    "region": "Mopti Region",
+    "domain": ""
+  },
+  {
+    "id": "ML-070",
+    "name": "cercle de Néguéla",
+    "country": "ML",
+    "region": "Koulikoro Region",
+    "domain": ""
+  },
+  {
+    "id": "ML-071",
+    "name": "cercle de Sadiola",
+    "country": "ML",
+    "region": "Kayes Region",
+    "domain": ""
+  },
+  {
+    "id": "ML-072",
+    "name": "cercle de Ségala",
+    "country": "ML",
+    "region": "Kayes Region",
+    "domain": ""
+  },
+  {
+    "id": "ML-073",
+    "name": "cercle de Toukoto",
+    "country": "ML",
+    "region": "Kita",
+    "domain": ""
+  }
+]

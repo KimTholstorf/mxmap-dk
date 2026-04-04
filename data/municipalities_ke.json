@@ -1,0 +1,377 @@
+[
+  {
+    "id": "KE-001",
+    "name": "Baringo County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "baringo.go.ke",
+    "osm_relation_id": 3495537
+  },
+  {
+    "id": "KE-002",
+    "name": "Bomet County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "bomet.go.ke",
+    "osm_relation_id": 14649074
+  },
+  {
+    "id": "KE-003",
+    "name": "Bungoma County",
+    "country": "KE",
+    "region": "Bungoma",
+    "domain": "bungoma.go.ke",
+    "osm_relation_id": 3495538
+  },
+  {
+    "id": "KE-004",
+    "name": "Busia County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "busiacounty.go.ke",
+    "osm_relation_id": 3486321
+  },
+  {
+    "id": "KE-005",
+    "name": "Elgeyo-Marakwet County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "elgeyomarakwet.go.ke",
+    "osm_relation_id": 11981582
+  },
+  {
+    "id": "KE-006",
+    "name": "Embu County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "embu.go.ke",
+    "osm_relation_id": 3495540
+  },
+  {
+    "id": "KE-007",
+    "name": "Garissa County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "garissa.go.ke",
+    "osm_relation_id": 3495541
+  },
+  {
+    "id": "KE-008",
+    "name": "Homa Bay County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "homabay.go.ke",
+    "osm_relation_id": 3486017
+  },
+  {
+    "id": "KE-009",
+    "name": "Isiolo County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "isiolocounty.go.ke",
+    "osm_relation_id": 3495542
+  },
+  {
+    "id": "KE-010",
+    "name": "Kajiado County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "kajiado.go.ke",
+    "osm_relation_id": 3486020
+  },
+  {
+    "id": "KE-011",
+    "name": "Kakamega County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "kakamega.go.ke",
+    "osm_relation_id": 3495543
+  },
+  {
+    "id": "KE-012",
+    "name": "Kericho County",
+    "country": "KE",
+    "region": "Kericho",
+    "domain": "kericho.go.ke",
+    "osm_relation_id": 3486288
+  },
+  {
+    "id": "KE-013",
+    "name": "Kiambu County",
+    "country": "KE",
+    "region": "Central Province",
+    "domain": "kiambu.go.ke",
+    "osm_relation_id": 3495544
+  },
+  {
+    "id": "KE-014",
+    "name": "Kilifi County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "kilifi.go.ke",
+    "osm_relation_id": 3495545
+  },
+  {
+    "id": "KE-015",
+    "name": "Kirinyaga County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "kirinyagacounty.or.ke",
+    "osm_relation_id": 3495546
+  },
+  {
+    "id": "KE-016",
+    "name": "Kisii County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "kisii.go.ke",
+    "osm_relation_id": 3338140
+  },
+  {
+    "id": "KE-017",
+    "name": "Kisumu County",
+    "country": "KE",
+    "region": "Nyanza Province",
+    "domain": "kisumu.go.ke",
+    "osm_relation_id": 3486289
+  },
+  {
+    "id": "KE-018",
+    "name": "Kitui County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "kitui.go.ke",
+    "osm_relation_id": 3495547
+  },
+  {
+    "id": "KE-019",
+    "name": "Kwale County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "kwalecountygov.com",
+    "osm_relation_id": 3495548
+  },
+  {
+    "id": "KE-020",
+    "name": "Laikipia County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "laikipia.go.ke",
+    "osm_relation_id": 3495549
+  },
+  {
+    "id": "KE-021",
+    "name": "Lamu County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "lamu.go.ke",
+    "osm_relation_id": 3495550
+  },
+  {
+    "id": "KE-022",
+    "name": "Machakos County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "machakosgovernment.com",
+    "osm_relation_id": 3492707
+  },
+  {
+    "id": "KE-023",
+    "name": "Makueni County",
+    "country": "KE",
+    "region": "Eastern Province",
+    "domain": "makueni.go.ke",
+    "osm_relation_id": 3492708
+  },
+  {
+    "id": "KE-024",
+    "name": "Mandera County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "mandera.go.ke",
+    "osm_relation_id": 3495551
+  },
+  {
+    "id": "KE-025",
+    "name": "Marsabit County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "marsabit.go.ke",
+    "osm_relation_id": 3495552
+  },
+  {
+    "id": "KE-026",
+    "name": "Meru County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "meru.go.ke",
+    "osm_relation_id": 3495553
+  },
+  {
+    "id": "KE-027",
+    "name": "Migori County",
+    "country": "KE",
+    "region": "Migori",
+    "domain": "migori.go.ke",
+    "osm_relation_id": 3486018
+  },
+  {
+    "id": "KE-028",
+    "name": "Mombasa County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "mombasa.go.ke",
+    "osm_relation_id": 3495554
+  },
+  {
+    "id": "KE-029",
+    "name": "Muranga County",
+    "country": "KE",
+    "region": "Central Province",
+    "domain": "muranga.go.ke",
+    "osm_relation_id": 3977580
+  },
+  {
+    "id": "KE-030",
+    "name": "Nairobi City County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "nairobi.go.ke",
+    "osm_relation_id": 9721587
+  },
+  {
+    "id": "KE-031",
+    "name": "Nakuru County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "nakuru.go.ke"
+  },
+  {
+    "id": "KE-032",
+    "name": "Nandi County",
+    "country": "KE",
+    "region": "Rift Valley Province",
+    "domain": "nandi.go.ke",
+    "osm_relation_id": 3495556
+  },
+  {
+    "id": "KE-033",
+    "name": "Narok County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "narok.go.ke",
+    "osm_relation_id": 3338145
+  },
+  {
+    "id": "KE-034",
+    "name": "Nyamira county",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "nyamira.go.ke",
+    "osm_relation_id": 3486290
+  },
+  {
+    "id": "KE-035",
+    "name": "Nyandarua County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "nyandarua.go.ke",
+    "osm_relation_id": 3495557
+  },
+  {
+    "id": "KE-036",
+    "name": "Nyeri County",
+    "country": "KE",
+    "region": "Central Province",
+    "domain": "nyeri.go.ke",
+    "osm_relation_id": 3495558
+  },
+  {
+    "id": "KE-037",
+    "name": "Samburu County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "samburu.go.ke",
+    "osm_relation_id": 3495559
+  },
+  {
+    "id": "KE-038",
+    "name": "Siaya County",
+    "country": "KE",
+    "region": "Nyanza Province",
+    "domain": "siaya.go.ke",
+    "osm_relation_id": 3486291
+  },
+  {
+    "id": "KE-039",
+    "name": "Taita–Taveta County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "taitataveta.go.ke",
+    "osm_relation_id": 3495560
+  },
+  {
+    "id": "KE-040",
+    "name": "Tana River County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "tanariver.go.ke",
+    "osm_relation_id": 3495561
+  },
+  {
+    "id": "KE-041",
+    "name": "Tharaka Nithi County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "tharakanithi.go.ke",
+    "osm_relation_id": 3495562
+  },
+  {
+    "id": "KE-042",
+    "name": "Trans-Nzoia county",
+    "country": "KE",
+    "region": "Kitale",
+    "domain": "transnzoia.go.ke",
+    "osm_relation_id": 3495563
+  },
+  {
+    "id": "KE-043",
+    "name": "Turkana County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "turkana.go.ke",
+    "osm_relation_id": 3495564
+  },
+  {
+    "id": "KE-044",
+    "name": "Uasin Gishu County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "uasingishu.go.ke",
+    "osm_relation_id": 3495565
+  },
+  {
+    "id": "KE-045",
+    "name": "Vihiga County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "vihiga.go.ke",
+    "osm_relation_id": 3486322
+  },
+  {
+    "id": "KE-046",
+    "name": "Wajir County",
+    "country": "KE",
+    "region": "Kenya",
+    "domain": "wajir.go.ke",
+    "osm_relation_id": 3495566
+  },
+  {
+    "id": "KE-047",
+    "name": "West Pokot County",
+    "country": "KE",
+    "region": "Rift Valley Province",
+    "domain": "westpokot.go.ke",
+    "osm_relation_id": 11981571
+  }
+]

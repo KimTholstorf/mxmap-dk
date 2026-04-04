@@ -1,0 +1,608 @@
+[
+  {
+    "id": "SS-001",
+    "name": "Abiemnom County",
+    "country": "SS",
+    "region": "Ruweng Administrative Area",
+    "domain": "",
+    "osm_relation_id": 13530329
+  },
+  {
+    "id": "SS-002",
+    "name": "Akobo County",
+    "country": "SS",
+    "region": "Jonglei",
+    "domain": ""
+  },
+  {
+    "id": "SS-003",
+    "name": "Aweil Center County",
+    "country": "SS",
+    "region": "Northern Bahr el Ghazal",
+    "domain": "",
+    "osm_relation_id": 13501244
+  },
+  {
+    "id": "SS-004",
+    "name": "Aweil East County",
+    "country": "SS",
+    "region": "Northern Bahr el Ghazal",
+    "domain": "",
+    "osm_relation_id": 13501045
+  },
+  {
+    "id": "SS-005",
+    "name": "Aweil North County",
+    "country": "SS",
+    "region": "Northern Bahr el Ghazal",
+    "domain": "",
+    "osm_relation_id": 13500966
+  },
+  {
+    "id": "SS-006",
+    "name": "Aweil South County",
+    "country": "SS",
+    "region": "Northern Bahr el Ghazal",
+    "domain": "",
+    "osm_relation_id": 13501083
+  },
+  {
+    "id": "SS-007",
+    "name": "Aweil West County",
+    "country": "SS",
+    "region": "Northern Bahr el Ghazal",
+    "domain": "",
+    "osm_relation_id": 13501089
+  },
+  {
+    "id": "SS-008",
+    "name": "Awerial County",
+    "country": "SS",
+    "region": "Lakes",
+    "domain": "",
+    "osm_relation_id": 4460604
+  },
+  {
+    "id": "SS-009",
+    "name": "Ayod County",
+    "country": "SS",
+    "region": "Jonglei",
+    "domain": ""
+  },
+  {
+    "id": "SS-010",
+    "name": "Baliet County",
+    "country": "SS",
+    "region": "Upper Nile",
+    "domain": "",
+    "osm_relation_id": 13526592
+  },
+  {
+    "id": "SS-011",
+    "name": "Bor County",
+    "country": "SS",
+    "region": "Jonglei",
+    "domain": ""
+  },
+  {
+    "id": "SS-012",
+    "name": "Budi County",
+    "country": "SS",
+    "region": "Eastern Equatoria",
+    "domain": "",
+    "osm_relation_id": 13518326
+  },
+  {
+    "id": "SS-013",
+    "name": "Cueibet County",
+    "country": "SS",
+    "region": "Lakes",
+    "domain": "",
+    "osm_relation_id": 4460509
+  },
+  {
+    "id": "SS-014",
+    "name": "Duk County",
+    "country": "SS",
+    "region": "Jonglei",
+    "domain": ""
+  },
+  {
+    "id": "SS-015",
+    "name": "Ezo County",
+    "country": "SS",
+    "region": "Western Equatoria",
+    "domain": ""
+  },
+  {
+    "id": "SS-016",
+    "name": "Fangak County",
+    "country": "SS",
+    "region": "Jonglei",
+    "domain": "",
+    "osm_relation_id": 13533418
+  },
+  {
+    "id": "SS-017",
+    "name": "Fashoda County",
+    "country": "SS",
+    "region": "Upper Nile",
+    "domain": ""
+  },
+  {
+    "id": "SS-018",
+    "name": "Gogrial East County",
+    "country": "SS",
+    "region": "Warrap",
+    "domain": "",
+    "osm_relation_id": 13507490
+  },
+  {
+    "id": "SS-019",
+    "name": "Gogrial West County",
+    "country": "SS",
+    "region": "Warrap",
+    "domain": "",
+    "osm_relation_id": 13507522
+  },
+  {
+    "id": "SS-020",
+    "name": "Guit County",
+    "country": "SS",
+    "region": "Unity",
+    "domain": "",
+    "osm_relation_id": 13530261
+  },
+  {
+    "id": "SS-021",
+    "name": "Ibba County",
+    "country": "SS",
+    "region": "Western Equatoria",
+    "domain": ""
+  },
+  {
+    "id": "SS-022",
+    "name": "Ikotos County",
+    "country": "SS",
+    "region": "Eastern Equatoria",
+    "domain": "",
+    "osm_relation_id": 13518827
+  },
+  {
+    "id": "SS-023",
+    "name": "Juba County",
+    "country": "SS",
+    "region": "Central Equatoria",
+    "domain": ""
+  },
+  {
+    "id": "SS-024",
+    "name": "Jur River County",
+    "country": "SS",
+    "region": "Western Bahr el Ghazal",
+    "domain": "",
+    "osm_relation_id": 13500878
+  },
+  {
+    "id": "SS-025",
+    "name": "Kajo Keji County",
+    "country": "SS",
+    "region": "Central Equatoria",
+    "domain": ""
+  },
+  {
+    "id": "SS-026",
+    "name": "Kapoeta East County",
+    "country": "SS",
+    "region": "Eastern Equatoria",
+    "domain": "",
+    "osm_relation_id": 13518111
+  },
+  {
+    "id": "SS-027",
+    "name": "Kapoeta North County",
+    "country": "SS",
+    "region": "Eastern Equatoria",
+    "domain": "",
+    "osm_relation_id": 13518145
+  },
+  {
+    "id": "SS-028",
+    "name": "Kapoeta South County",
+    "country": "SS",
+    "region": "Eastern Equatoria",
+    "domain": "",
+    "osm_relation_id": 13518142
+  },
+  {
+    "id": "SS-029",
+    "name": "Khorfulus County",
+    "country": "SS",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "SS-030",
+    "name": "Kimotong",
+    "country": "SS",
+    "region": "Kapoeta State",
+    "domain": ""
+  },
+  {
+    "id": "SS-031",
+    "name": "Koch County",
+    "country": "SS",
+    "region": "Unity",
+    "domain": ""
+  },
+  {
+    "id": "SS-032",
+    "name": "Lafon County",
+    "country": "SS",
+    "region": "Eastern Equatoria",
+    "domain": "",
+    "osm_relation_id": 13518325
+  },
+  {
+    "id": "SS-033",
+    "name": "Lainya County",
+    "country": "SS",
+    "region": "Central Equatoria",
+    "domain": ""
+  },
+  {
+    "id": "SS-034",
+    "name": "Leer County",
+    "country": "SS",
+    "region": "Unity",
+    "domain": ""
+  },
+  {
+    "id": "SS-035",
+    "name": "Longechuk County",
+    "country": "SS",
+    "region": "Upper Nile",
+    "domain": "",
+    "osm_relation_id": 13526176
+  },
+  {
+    "id": "SS-036",
+    "name": "Maban County",
+    "country": "SS",
+    "region": "Upper Nile",
+    "domain": "",
+    "osm_relation_id": 3138529
+  },
+  {
+    "id": "SS-037",
+    "name": "Magwi County",
+    "country": "SS",
+    "region": "Eastern Equatoria",
+    "domain": "",
+    "osm_relation_id": 13518888
+  },
+  {
+    "id": "SS-038",
+    "name": "Maiwut County",
+    "country": "SS",
+    "region": "Upper Nile",
+    "domain": "",
+    "osm_relation_id": 13526395
+  },
+  {
+    "id": "SS-039",
+    "name": "Malakal County",
+    "country": "SS",
+    "region": "Upper Nile",
+    "domain": "",
+    "osm_relation_id": 13518922
+  },
+  {
+    "id": "SS-040",
+    "name": "Manyo County",
+    "country": "SS",
+    "region": "Upper Nile",
+    "domain": ""
+  },
+  {
+    "id": "SS-041",
+    "name": "Maridi County",
+    "country": "SS",
+    "region": "Western Equatoria",
+    "domain": ""
+  },
+  {
+    "id": "SS-042",
+    "name": "Mayiandit County",
+    "country": "SS",
+    "region": "Unity",
+    "domain": ""
+  },
+  {
+    "id": "SS-043",
+    "name": "Mayom County",
+    "country": "SS",
+    "region": "Unity",
+    "domain": ""
+  },
+  {
+    "id": "SS-044",
+    "name": "Melut County",
+    "country": "SS",
+    "region": "Upper Nile",
+    "domain": ""
+  },
+  {
+    "id": "SS-045",
+    "name": "Morobo County",
+    "country": "SS",
+    "region": "Central Equatoria",
+    "domain": ""
+  },
+  {
+    "id": "SS-046",
+    "name": "Mundri East County",
+    "country": "SS",
+    "region": "Western Equatoria",
+    "domain": ""
+  },
+  {
+    "id": "SS-047",
+    "name": "Mundri West County",
+    "country": "SS",
+    "region": "Western Equatoria",
+    "domain": ""
+  },
+  {
+    "id": "SS-048",
+    "name": "Mvolo County",
+    "country": "SS",
+    "region": "Western Equatoria",
+    "domain": ""
+  },
+  {
+    "id": "SS-049",
+    "name": "Nagero County",
+    "country": "SS",
+    "region": "Western Equatoria",
+    "domain": ""
+  },
+  {
+    "id": "SS-050",
+    "name": "Nasir County",
+    "country": "SS",
+    "region": "Upper Nile",
+    "domain": "",
+    "osm_relation_id": 13526954
+  },
+  {
+    "id": "SS-051",
+    "name": "Nyirol County",
+    "country": "SS",
+    "region": "Jonglei",
+    "domain": "",
+    "osm_relation_id": 4665050
+  },
+  {
+    "id": "SS-052",
+    "name": "Nzara County",
+    "country": "SS",
+    "region": "Western Equatoria",
+    "domain": ""
+  },
+  {
+    "id": "SS-053",
+    "name": "Panriang County",
+    "country": "SS",
+    "region": "Ruweng Administrative Area",
+    "domain": "",
+    "osm_relation_id": 13530352
+  },
+  {
+    "id": "SS-054",
+    "name": "Panyijar County",
+    "country": "SS",
+    "region": "Unity",
+    "domain": ""
+  },
+  {
+    "id": "SS-055",
+    "name": "Panykang County",
+    "country": "SS",
+    "region": "Upper Nile",
+    "domain": "",
+    "osm_relation_id": 13527143
+  },
+  {
+    "id": "SS-056",
+    "name": "Pibor County",
+    "country": "SS",
+    "region": "Pibor Administrative Area",
+    "domain": "",
+    "osm_relation_id": 13530726
+  },
+  {
+    "id": "SS-057",
+    "name": "Pigi County",
+    "country": "SS",
+    "region": "Jonglei",
+    "domain": "",
+    "osm_relation_id": 13533893
+  },
+  {
+    "id": "SS-058",
+    "name": "Pochalla County",
+    "country": "SS",
+    "region": "Pibor Administrative Area",
+    "domain": "",
+    "osm_relation_id": 13530748
+  },
+  {
+    "id": "SS-059",
+    "name": "Raga County",
+    "country": "SS",
+    "region": "Western Bahr el Ghazal",
+    "domain": "",
+    "osm_relation_id": 13500667
+  },
+  {
+    "id": "SS-060",
+    "name": "Raja County",
+    "country": "SS",
+    "region": "Western Bahr el Ghazal",
+    "domain": ""
+  },
+  {
+    "id": "SS-061",
+    "name": "Renk County",
+    "country": "SS",
+    "region": "Upper Nile",
+    "domain": ""
+  },
+  {
+    "id": "SS-062",
+    "name": "Rubkona County",
+    "country": "SS",
+    "region": "Unity",
+    "domain": ""
+  },
+  {
+    "id": "SS-063",
+    "name": "Rumbek Center County",
+    "country": "SS",
+    "region": "Lakes",
+    "domain": "",
+    "osm_relation_id": 4460503
+  },
+  {
+    "id": "SS-064",
+    "name": "Rumbek East County",
+    "country": "SS",
+    "region": "Lakes",
+    "domain": "",
+    "osm_relation_id": 4460605
+  },
+  {
+    "id": "SS-065",
+    "name": "Rumbek North County",
+    "country": "SS",
+    "region": "Lakes",
+    "domain": "",
+    "osm_relation_id": 4470502
+  },
+  {
+    "id": "SS-066",
+    "name": "Tambura County",
+    "country": "SS",
+    "region": "Western Equatoria",
+    "domain": ""
+  },
+  {
+    "id": "SS-067",
+    "name": "Terekeka County",
+    "country": "SS",
+    "region": "Central Equatoria",
+    "domain": ""
+  },
+  {
+    "id": "SS-068",
+    "name": "Tonj East County",
+    "country": "SS",
+    "region": "Warrap",
+    "domain": "",
+    "osm_relation_id": 13507349
+  },
+  {
+    "id": "SS-069",
+    "name": "Tonj North County",
+    "country": "SS",
+    "region": "Warrap",
+    "domain": "",
+    "osm_relation_id": 13507428
+  },
+  {
+    "id": "SS-070",
+    "name": "Tonj South County",
+    "country": "SS",
+    "region": "Warrap",
+    "domain": "",
+    "osm_relation_id": 13507242
+  },
+  {
+    "id": "SS-071",
+    "name": "Torit County",
+    "country": "SS",
+    "region": "Eastern Equatoria",
+    "domain": "",
+    "osm_relation_id": 13518852
+  },
+  {
+    "id": "SS-072",
+    "name": "Twic County",
+    "country": "SS",
+    "region": "Warrap",
+    "domain": "",
+    "osm_relation_id": 13507221
+  },
+  {
+    "id": "SS-073",
+    "name": "Ulang County",
+    "country": "SS",
+    "region": "Upper Nile",
+    "domain": "",
+    "osm_relation_id": 13527014
+  },
+  {
+    "id": "SS-074",
+    "name": "Uror County",
+    "country": "SS",
+    "region": "Jonglei",
+    "domain": ""
+  },
+  {
+    "id": "SS-075",
+    "name": "Wau County",
+    "country": "SS",
+    "region": "Western Bahr el Ghazal",
+    "domain": "",
+    "osm_relation_id": 13500775
+  },
+  {
+    "id": "SS-076",
+    "name": "Wulu County",
+    "country": "SS",
+    "region": "Lakes",
+    "domain": "",
+    "osm_relation_id": 4460606
+  },
+  {
+    "id": "SS-077",
+    "name": "Yambio County",
+    "country": "SS",
+    "region": "Western Equatoria",
+    "domain": ""
+  },
+  {
+    "id": "SS-078",
+    "name": "Yei County",
+    "country": "SS",
+    "region": "Central Equatoria",
+    "domain": ""
+  },
+  {
+    "id": "SS-079",
+    "name": "Yirol East County",
+    "country": "SS",
+    "region": "Lakes",
+    "domain": "",
+    "osm_relation_id": 4460607
+  },
+  {
+    "id": "SS-080",
+    "name": "Yirol West County",
+    "country": "SS",
+    "region": "Lakes",
+    "domain": "",
+    "osm_relation_id": 4460608
+  }
+]

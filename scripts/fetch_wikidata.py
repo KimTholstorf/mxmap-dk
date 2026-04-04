@@ -304,6 +304,714 @@ SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
 }
 ORDER BY ?itemLabel
 """,
+    # ── Africa — North ──────────────────────────────────────────────
+    # Algeria: Q2989398 (commune of Algeria) — ~569
+    "DZ": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q2989398 .
+  ?item wdt:P17 wd:Q262 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr,ar" }
+}
+ORDER BY ?itemLabel
+""",
+    # Egypt: Q204910 (governorate of Egypt) — ~27
+    "EG": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q204910 .
+  ?item wdt:P17 wd:Q79 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,ar" }
+}
+ORDER BY ?itemLabel
+""",
+    # Libya: Q16124843 (municipality of Libya) — ~70
+    "LY": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q16124843 .
+  ?item wdt:P17 wd:Q1016 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,ar" }
+}
+ORDER BY ?itemLabel
+""",
+    # Morocco: Q17318027 (rural commune) + Q5765944 (urban commune) — ~539+
+    "MA": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  VALUES ?type { wd:Q17318027 wd:Q5765944 }
+  ?item wdt:P31/wdt:P279* ?type .
+  ?item wdt:P17 wd:Q1028 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr,ar" }
+}
+ORDER BY ?itemLabel
+""",
+    # Tunisia: Q1184072 (delegation of Tunisia) — ~258
+    "TN": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q1184072 .
+  ?item wdt:P17 wd:Q948 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr,ar" }
+}
+ORDER BY ?itemLabel
+""",
+    # Sudan: Q505830 (district of Sudan) — ~57
+    "SD": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q505830 .
+  ?item wdt:P17 wd:Q1049 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,ar" }
+}
+ORDER BY ?itemLabel
+""",
+    # ── Africa — West ───────────────────────────────────────────────
+    # Benin: Q1780506 (commune of Benin) — ~67
+    "BJ": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q1780506 .
+  ?item wdt:P17 wd:Q962 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr" }
+}
+ORDER BY ?itemLabel
+""",
+    # Burkina Faso: Q2566190 (department of Burkina Faso) — ~202
+    "BF": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q2566190 .
+  ?item wdt:P17 wd:Q965 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr" }
+}
+ORDER BY ?itemLabel
+""",
+    # Cape Verde: Q12712989 (concelho of Cape Verde) — ~22
+    "CV": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q12712989 .
+  ?item wdt:P17 wd:Q1011 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,pt" }
+}
+ORDER BY ?itemLabel
+""",
+    # Côte d'Ivoire: Q851830 (region of Côte d'Ivoire) — ~26
+    "CI": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q851830 .
+  ?item wdt:P17 wd:Q1008 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr" }
+}
+ORDER BY ?itemLabel
+""",
+    # Gambia: Q1504917 (district of Gambia) — ~19
+    "GM": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q1504917 .
+  ?item wdt:P17 wd:Q1005 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?itemLabel
+""",
+    # Ghana: Q545769 (district of Ghana) — ~259
+    "GH": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q545769 .
+  ?item wdt:P17 wd:Q117 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?itemLabel
+""",
+    # Guinea: Q1394653 (prefecture of Guinea) — ~17
+    "GN": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q1394653 .
+  ?item wdt:P17 wd:Q1006 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr" }
+}
+ORDER BY ?itemLabel
+""",
+    # Guinea-Bissau: Q7444736 (sector of Guinea-Bissau) — ~20
+    "GW": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q7444736 .
+  ?item wdt:P17 wd:Q1007 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,pt" }
+}
+ORDER BY ?itemLabel
+""",
+    # Liberia: Q2421044 (district of Liberia) — ~85
+    "LR": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q2421044 .
+  ?item wdt:P17 wd:Q1014 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?itemLabel
+""",
+    # Mali: Q2115792 (cercle of Mali) — ~46
+    "ML": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q2115792 .
+  ?item wdt:P17 wd:Q912 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr" }
+}
+ORDER BY ?itemLabel
+""",
+    # Mauritania: Q846327 (region of Mauritania) — ~13
+    "MR": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q846327 .
+  ?item wdt:P17 wd:Q1025 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr,ar" }
+}
+ORDER BY ?itemLabel
+""",
+    # Niger: Q2914501 (department of Niger) — ~36
+    "NE": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q2914501 .
+  ?item wdt:P17 wd:Q1032 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr" }
+}
+ORDER BY ?itemLabel
+""",
+    # Nigeria: Q1639634 (local government area of Nigeria) — ~787
+    "NG": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q1639634 .
+  ?item wdt:P17 wd:Q1033 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?itemLabel
+""",
+    # Senegal: Q2989649 (commune of Senegal) — ~164
+    "SN": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q2989649 .
+  ?item wdt:P17 wd:Q1041 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr" }
+}
+ORDER BY ?itemLabel
+""",
+    # Sierra Leone: Q1298632 (district of Sierra Leone) — ~13
+    "SL": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q1298632 .
+  ?item wdt:P17 wd:Q1044 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?itemLabel
+""",
+    # Togo: Q828485 (prefecture of Togo) — ~15
+    "TG": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q828485 .
+  ?item wdt:P17 wd:Q945 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr" }
+}
+ORDER BY ?itemLabel
+""",
+    # ── Africa — Central ────────────────────────────────────────────
+    # Cameroon: Q3076994 (commune of Cameroon) — ~147
+    "CM": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q3076994 .
+  ?item wdt:P17 wd:Q1009 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr" }
+}
+ORDER BY ?itemLabel
+""",
+    # Central African Republic: Q17176508 (commune of CAR) — ~109
+    "CF": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q17176508 .
+  ?item wdt:P17 wd:Q929 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr" }
+}
+ORDER BY ?itemLabel
+""",
+    # Chad: Q640262 (province of Chad) — ~21
+    "TD": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q640262 .
+  ?item wdt:P17 wd:Q657 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr,ar" }
+}
+ORDER BY ?itemLabel
+""",
+    # Congo (Brazzaville): Q1958165 (district of Congo) — ~93
+    "CG": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q1958165 .
+  ?item wdt:P17 wd:Q971 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr" }
+}
+ORDER BY ?itemLabel
+""",
+    # DR Congo: Q7703797 (territory of DR Congo) — ~146
+    "CD": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q7703797 .
+  ?item wdt:P17 wd:Q974 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr" }
+}
+ORDER BY ?itemLabel
+""",
+    # Equatorial Guinea: Q867597 (province of Equatorial Guinea) — ~7
+    "GQ": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q867597 .
+  ?item wdt:P17 wd:Q983 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,es,fr" }
+}
+ORDER BY ?itemLabel
+""",
+    # Gabon: Q653596 (province of Gabon) — ~9
+    "GA": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q653596 .
+  ?item wdt:P17 wd:Q1000 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr" }
+}
+ORDER BY ?itemLabel
+""",
+    # São Tomé and Príncipe: Q911736 (district of STP) — ~7
+    "ST": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q911736 .
+  ?item wdt:P17 wd:Q1039 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,pt" }
+}
+ORDER BY ?itemLabel
+""",
+    # ── Africa — East ───────────────────────────────────────────────
+    # Burundi: Q1577513 (commune of Burundi) — ~24
+    "BI": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q1577513 .
+  ?item wdt:P17 wd:Q967 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr" }
+}
+ORDER BY ?itemLabel
+""",
+    # Comoros: Q20732232 (autonomous island of the Comoros) — ~4
+    "KM": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q20732232 .
+  ?item wdt:P17 wd:Q970 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr,ar" }
+}
+ORDER BY ?itemLabel
+""",
+    # Djibouti: Q1202812 (region of Djibouti) — ~4
+    "DJ": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q1202812 .
+  ?item wdt:P17 wd:Q977 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr,ar" }
+}
+ORDER BY ?itemLabel
+""",
+    # Eritrea: Q874223 (region of Eritrea) — ~6
+    "ER": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q874223 .
+  ?item wdt:P17 wd:Q986 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,ti" }
+}
+ORDER BY ?itemLabel
+""",
+    # Ethiopia: Q219875 (zone of Ethiopia) — ~68
+    "ET": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q219875 .
+  ?item wdt:P17 wd:Q115 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,am" }
+}
+ORDER BY ?itemLabel
+""",
+    # Kenya: Q269218 (county of Kenya) — ~46
+    "KE": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q269218 .
+  ?item wdt:P17 wd:Q114 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,sw" }
+}
+ORDER BY ?itemLabel
+""",
+    # Madagascar: Q971831 (region of Madagascar) — ~21
+    "MG": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q971831 .
+  ?item wdt:P17 wd:Q1019 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr,mg" }
+}
+ORDER BY ?itemLabel
+""",
+    # Malawi: Q1058387 (district of Malawi) — ~27
+    "MW": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q1058387 .
+  ?item wdt:P17 wd:Q1020 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?itemLabel
+""",
+    # Mauritius: Q2387050 (district of Mauritius) — ~9
+    "MU": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q2387050 .
+  ?item wdt:P17 wd:Q1027 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr" }
+}
+ORDER BY ?itemLabel
+""",
+    # Mozambique: Q2068214 (district of Mozambique) — ~151
+    "MZ": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q2068214 .
+  ?item wdt:P17 wd:Q1029 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,pt" }
+}
+ORDER BY ?itemLabel
+""",
+    # Rwanda: Q3058029 (sector of Rwanda) — ~285
+    "RW": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q3058029 .
+  ?item wdt:P17 wd:Q1037 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr,rw" }
+}
+ORDER BY ?itemLabel
+""",
+    # Seychelles: Q1149621 (district of Seychelles) — ~24
+    "SC": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q1149621 .
+  ?item wdt:P17 wd:Q1042 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr" }
+}
+ORDER BY ?itemLabel
+""",
+    # Somalia: Q18555638 (district of Somalia) — ~116
+    "SO": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q18555638 .
+  ?item wdt:P17 wd:Q1045 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,so,ar" }
+}
+ORDER BY ?itemLabel
+""",
+    # South Sudan: Q279479 (county of South Sudan) — ~46
+    "SS": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q279479 .
+  ?item wdt:P17 wd:Q958 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,ar" }
+}
+ORDER BY ?itemLabel
+""",
+    # Tanzania: Q2409750 (district of Tanzania) — ~186
+    "TZ": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q2409750 .
+  ?item wdt:P17 wd:Q924 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,sw" }
+}
+ORDER BY ?itemLabel
+""",
+    # Uganda: Q3539870 (district of Uganda) — ~133
+    "UG": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q3539870 .
+  ?item wdt:P17 wd:Q1036 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,sw" }
+}
+ORDER BY ?itemLabel
+""",
+    # ── Africa — Southern ───────────────────────────────────────────
+    # Angola: Q378508 (municipality of Angola) — ~22
+    "AO": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q378508 .
+  ?item wdt:P17 wd:Q916 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,pt" }
+}
+ORDER BY ?itemLabel
+""",
+    # Botswana: Q57368 (district of Botswana) — ~10
+    "BW": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q57368 .
+  ?item wdt:P17 wd:Q963 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?itemLabel
+""",
+    # Eswatini: Q2280192 (inkhundla) — ~37
+    "SZ": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q2280192 .
+  ?item wdt:P17 wd:Q1050 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?itemLabel
+""",
+    # Lesotho: Q844531 (district of Lesotho) — ~10
+    "LS": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q844531 .
+  ?item wdt:P17 wd:Q1013 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?itemLabel
+""",
+    # Namibia: Q608843 (region of Namibia) — ~14
+    "NA": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q608843 .
+  ?item wdt:P17 wd:Q1030 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?itemLabel
+""",
+    # South Africa: Q1500352 (local municipality of South Africa) — ~215
+    "ZA": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q1500352 .
+  ?item wdt:P17 wd:Q258 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?itemLabel
+""",
+    # Zambia: Q2744064 (district of Zambia) — ~96
+    "ZM": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q2744064 .
+  ?item wdt:P17 wd:Q953 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?itemLabel
+""",
+    # Zimbabwe: Q5283558 (district of Zimbabwe) — ~42
+    "ZW": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q5283558 .
+  ?item wdt:P17 wd:Q954 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?itemLabel
+""",
 }
 
 

@@ -1,0 +1,209 @@
+[
+  {
+    "id": "EG-001",
+    "name": "Alexandria Governorate",
+    "country": "EG",
+    "region": "Egypt",
+    "domain": "alexandria.gov.eg",
+    "osm_relation_id": 3061846
+  },
+  {
+    "id": "EG-002",
+    "name": "Aswan Governorate",
+    "country": "EG",
+    "region": "Egypt",
+    "domain": "aswan.gov.eg",
+    "osm_relation_id": 3061757
+  },
+  {
+    "id": "EG-003",
+    "name": "Asyut Governorate",
+    "country": "EG",
+    "region": "Egypt",
+    "domain": "assiut.gov.eg",
+    "osm_relation_id": 3726184
+  },
+  {
+    "id": "EG-004",
+    "name": "Beheira Governorate",
+    "country": "EG",
+    "region": "Egypt",
+    "domain": "",
+    "osm_relation_id": 3824513
+  },
+  {
+    "id": "EG-005",
+    "name": "Beni Suef Governorate",
+    "country": "EG",
+    "region": "Egypt",
+    "domain": "benisuef.gov.eg",
+    "osm_relation_id": 3726170
+  },
+  {
+    "id": "EG-006",
+    "name": "Cairo Governorate",
+    "country": "EG",
+    "region": "Egypt",
+    "domain": "cairo.gov.eg",
+    "osm_relation_id": 4103336
+  },
+  {
+    "id": "EG-007",
+    "name": "Dakahlia Governorate",
+    "country": "EG",
+    "region": "Khedivate of Egypt",
+    "domain": "dakahliya.gov.eg",
+    "osm_relation_id": 4103403
+  },
+  {
+    "id": "EG-008",
+    "name": "Damietta Governorate",
+    "country": "EG",
+    "region": "Egypt",
+    "domain": "domyat.gov.eg",
+    "osm_relation_id": 4103404
+  },
+  {
+    "id": "EG-009",
+    "name": "Faiyum Governorate",
+    "country": "EG",
+    "region": "Egypt",
+    "domain": "fayoum.gov.eg",
+    "osm_relation_id": 3726124
+  },
+  {
+    "id": "EG-010",
+    "name": "Gharbia Governorate",
+    "country": "EG",
+    "region": "Egypt",
+    "domain": "gharbeia.gov.eg",
+    "osm_relation_id": 3584607
+  },
+  {
+    "id": "EG-011",
+    "name": "Giza Governorate",
+    "country": "EG",
+    "region": "Egypt",
+    "domain": "giza.gov.eg",
+    "osm_relation_id": 3824206
+  },
+  {
+    "id": "EG-012",
+    "name": "Ismailia Governorate",
+    "country": "EG",
+    "region": "Egypt",
+    "domain": "ismailia.gov.eg",
+    "osm_relation_id": 3062184
+  },
+  {
+    "id": "EG-013",
+    "name": "Kafr el-Sheikh Governorate",
+    "country": "EG",
+    "region": "Egypt",
+    "domain": "kafrelsheikh.gov.eg",
+    "osm_relation_id": 4103405
+  },
+  {
+    "id": "EG-014",
+    "name": "Luxor Governorate",
+    "country": "EG",
+    "region": "Egypt",
+    "domain": "luxor.gov.eg",
+    "osm_relation_id": 3726211
+  },
+  {
+    "id": "EG-015",
+    "name": "Matruh Governorate",
+    "country": "EG",
+    "region": "Egypt",
+    "domain": "matrouh.gov.eg",
+    "osm_relation_id": 3061826
+  },
+  {
+    "id": "EG-016",
+    "name": "Minya Governorate",
+    "country": "EG",
+    "region": "Egypt",
+    "domain": "minia.gov.eg",
+    "osm_relation_id": 3726175
+  },
+  {
+    "id": "EG-017",
+    "name": "Monufia Governorate",
+    "country": "EG",
+    "region": "Egypt",
+    "domain": "monofeya.gov.eg",
+    "osm_relation_id": 3824207
+  },
+  {
+    "id": "EG-018",
+    "name": "New Valley Governorate",
+    "country": "EG",
+    "region": "Egypt",
+    "domain": "newvalley.gov.eg",
+    "osm_relation_id": 3061827
+  },
+  {
+    "id": "EG-019",
+    "name": "North Sinai Governorate",
+    "country": "EG",
+    "region": "Egypt",
+    "domain": "northsinai.gov.eg",
+    "osm_relation_id": 3060792
+  },
+  {
+    "id": "EG-020",
+    "name": "Port Said Governorate",
+    "country": "EG",
+    "region": "Egypt",
+    "domain": "portsaid.gov.eg",
+    "osm_relation_id": 4103406
+  },
+  {
+    "id": "EG-021",
+    "name": "Red Sea Governorate",
+    "country": "EG",
+    "region": "Egypt",
+    "domain": "redsea.gov.eg",
+    "osm_relation_id": 3061758
+  },
+  {
+    "id": "EG-022",
+    "name": "Sharqia Governorate",
+    "country": "EG",
+    "region": "Egypt",
+    "domain": "sharkia.gov.eg",
+    "osm_relation_id": 4103407
+  },
+  {
+    "id": "EG-023",
+    "name": "Sinai",
+    "country": "EG",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "EG-024",
+    "name": "Sohag Governorate",
+    "country": "EG",
+    "region": "Egypt",
+    "domain": "sohag.gov.eg",
+    "osm_relation_id": 3726186
+  },
+  {
+    "id": "EG-025",
+    "name": "South Sinai Governorate",
+    "country": "EG",
+    "region": "Egypt",
+    "domain": "southsinai.gov.eg",
+    "osm_relation_id": 3060793
+  },
+  {
+    "id": "EG-026",
+    "name": "Suez Governorate",
+    "country": "EG",
+    "region": "Egypt",
+    "domain": "suez.gov.eg",
+    "osm_relation_id": 3062185
+  }
+]

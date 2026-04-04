@@ -1,0 +1,1581 @@
+[
+  {
+    "id": "TZ-001",
+    "name": "Arumeru District",
+    "country": "TZ",
+    "region": "Arusha Region",
+    "domain": ""
+  },
+  {
+    "id": "TZ-002",
+    "name": "Arusha Rural District",
+    "country": "TZ",
+    "region": "Arusha Region",
+    "domain": ""
+  },
+  {
+    "id": "TZ-003",
+    "name": "Arusha Urban District",
+    "country": "TZ",
+    "region": "Arusha Region",
+    "domain": "",
+    "osm_relation_id": 13015762
+  },
+  {
+    "id": "TZ-004",
+    "name": "Babati District",
+    "country": "TZ",
+    "region": "Manyara Region",
+    "domain": "",
+    "osm_relation_id": 1243798
+  },
+  {
+    "id": "TZ-005",
+    "name": "Babati Town District",
+    "country": "TZ",
+    "region": "Manyara Region",
+    "domain": "",
+    "osm_relation_id": 13015695
+  },
+  {
+    "id": "TZ-006",
+    "name": "Bagamoyo District",
+    "country": "TZ",
+    "region": "Pwani Region",
+    "domain": "",
+    "osm_relation_id": 1600834
+  },
+  {
+    "id": "TZ-007",
+    "name": "Bahi District",
+    "country": "TZ",
+    "region": "Dodoma Region",
+    "domain": "",
+    "osm_relation_id": 13015752
+  },
+  {
+    "id": "TZ-008",
+    "name": "Bariadi District",
+    "country": "TZ",
+    "region": "Simiyu Region",
+    "domain": "",
+    "osm_relation_id": 1600761
+  },
+  {
+    "id": "TZ-009",
+    "name": "Bariadi Town District",
+    "country": "TZ",
+    "region": "Simiyu Region",
+    "domain": "",
+    "osm_relation_id": 13015693
+  },
+  {
+    "id": "TZ-010",
+    "name": "Biharamulo District",
+    "country": "TZ",
+    "region": "Kagera Region",
+    "domain": "",
+    "osm_relation_id": 1600822
+  },
+  {
+    "id": "TZ-011",
+    "name": "Buchosa District",
+    "country": "TZ",
+    "region": "Mwanza Region",
+    "domain": "",
+    "osm_relation_id": 13015757
+  },
+  {
+    "id": "TZ-012",
+    "name": "Buhigwe District",
+    "country": "TZ",
+    "region": "Kigoma Region",
+    "domain": "",
+    "osm_relation_id": 13015720
+  },
+  {
+    "id": "TZ-013",
+    "name": "Bukoba District",
+    "country": "TZ",
+    "region": "Kagera Region",
+    "domain": "",
+    "osm_relation_id": 1600784
+  },
+  {
+    "id": "TZ-014",
+    "name": "Bukoba Municipal District",
+    "country": "TZ",
+    "region": "Kagera Region",
+    "domain": "",
+    "osm_relation_id": 13015756
+  },
+  {
+    "id": "TZ-015",
+    "name": "Bukombe District",
+    "country": "TZ",
+    "region": "Geita Region",
+    "domain": "",
+    "osm_relation_id": 1600773
+  },
+  {
+    "id": "TZ-016",
+    "name": "Bumbuli District",
+    "country": "TZ",
+    "region": "Tanga Region",
+    "domain": "",
+    "osm_relation_id": 12991108
+  },
+  {
+    "id": "TZ-017",
+    "name": "Bunda District",
+    "country": "TZ",
+    "region": "Mara Region",
+    "domain": "",
+    "osm_relation_id": 1243799
+  },
+  {
+    "id": "TZ-018",
+    "name": "Bunda Town District",
+    "country": "TZ",
+    "region": "Mara Region",
+    "domain": "",
+    "osm_relation_id": 13015711
+  },
+  {
+    "id": "TZ-019",
+    "name": "Busega District",
+    "country": "TZ",
+    "region": "Simiyu Region",
+    "domain": "",
+    "osm_relation_id": 13015700
+  },
+  {
+    "id": "TZ-020",
+    "name": "Busokelo District",
+    "country": "TZ",
+    "region": "Mbeya Region",
+    "domain": "",
+    "osm_relation_id": 13015712
+  },
+  {
+    "id": "TZ-021",
+    "name": "Butiama District",
+    "country": "TZ",
+    "region": "Mara Region",
+    "domain": "",
+    "osm_relation_id": 13015714
+  },
+  {
+    "id": "TZ-022",
+    "name": "Chake Chake District",
+    "country": "TZ",
+    "region": "South Pemba Region",
+    "domain": "",
+    "osm_relation_id": 1614025
+  },
+  {
+    "id": "TZ-023",
+    "name": "Chalinze District",
+    "country": "TZ",
+    "region": "Pwani Region",
+    "domain": "",
+    "osm_relation_id": 13015763
+  },
+  {
+    "id": "TZ-024",
+    "name": "Chamwino District",
+    "country": "TZ",
+    "region": "Dodoma Region",
+    "domain": "",
+    "osm_relation_id": 13015751
+  },
+  {
+    "id": "TZ-025",
+    "name": "Chato District",
+    "country": "TZ",
+    "region": "Geita Region",
+    "domain": "",
+    "osm_relation_id": 13015769
+  },
+  {
+    "id": "TZ-026",
+    "name": "Chemba District",
+    "country": "TZ",
+    "region": "Dodoma Region",
+    "domain": "",
+    "osm_relation_id": 13015748
+  },
+  {
+    "id": "TZ-027",
+    "name": "Chunya District",
+    "country": "TZ",
+    "region": "Mbeya Region",
+    "domain": "",
+    "osm_relation_id": 1600789
+  },
+  {
+    "id": "TZ-028",
+    "name": "Dodoma City District",
+    "country": "TZ",
+    "region": "Dodoma Region",
+    "domain": ""
+  },
+  {
+    "id": "TZ-029",
+    "name": "Gairo District",
+    "country": "TZ",
+    "region": "Morogoro Region",
+    "domain": "",
+    "osm_relation_id": 13015707
+  },
+  {
+    "id": "TZ-030",
+    "name": "Geita District",
+    "country": "TZ",
+    "region": "Geita Region",
+    "domain": ""
+  },
+  {
+    "id": "TZ-031",
+    "name": "Geita Town District",
+    "country": "TZ",
+    "region": "Geita Region",
+    "domain": "",
+    "osm_relation_id": 13015710
+  },
+  {
+    "id": "TZ-032",
+    "name": "Hai District",
+    "country": "TZ",
+    "region": "Kilimanjaro Region",
+    "domain": "",
+    "osm_relation_id": 1243794
+  },
+  {
+    "id": "TZ-033",
+    "name": "Hanang District",
+    "country": "TZ",
+    "region": "Manyara Region",
+    "domain": "",
+    "osm_relation_id": 1243803
+  },
+  {
+    "id": "TZ-034",
+    "name": "Handeni District",
+    "country": "TZ",
+    "region": "Tanga Region",
+    "domain": "",
+    "osm_relation_id": 1600820
+  },
+  {
+    "id": "TZ-035",
+    "name": "Handeni Town District",
+    "country": "TZ",
+    "region": "Tanga Region",
+    "domain": "",
+    "osm_relation_id": 12991107
+  },
+  {
+    "id": "TZ-036",
+    "name": "Ifakara Town District",
+    "country": "TZ",
+    "region": "Morogoro Region",
+    "domain": "",
+    "osm_relation_id": 13015709
+  },
+  {
+    "id": "TZ-037",
+    "name": "Igunga District",
+    "country": "TZ",
+    "region": "Tabora Region",
+    "domain": "",
+    "osm_relation_id": 1600811
+  },
+  {
+    "id": "TZ-038",
+    "name": "Ikungi District",
+    "country": "TZ",
+    "region": "Singida Region",
+    "domain": "",
+    "osm_relation_id": 13015733
+  },
+  {
+    "id": "TZ-039",
+    "name": "Ilala District",
+    "country": "TZ",
+    "region": "Dar es Salaam Region",
+    "domain": "",
+    "osm_relation_id": 13015760
+  },
+  {
+    "id": "TZ-040",
+    "name": "Ileje District",
+    "country": "TZ",
+    "region": "Songwe Region",
+    "domain": "",
+    "osm_relation_id": 1600772
+  },
+  {
+    "id": "TZ-041",
+    "name": "Ilemela District",
+    "country": "TZ",
+    "region": "Mwanza Region",
+    "domain": "",
+    "osm_relation_id": 12698855
+  },
+  {
+    "id": "TZ-042",
+    "name": "Iramba District",
+    "country": "TZ",
+    "region": "Singida Region",
+    "domain": "",
+    "osm_relation_id": 1600795
+  },
+  {
+    "id": "TZ-043",
+    "name": "Iringa District",
+    "country": "TZ",
+    "region": "Iringa Region",
+    "domain": "",
+    "osm_relation_id": 1600845
+  },
+  {
+    "id": "TZ-044",
+    "name": "Iringa Municipal District",
+    "country": "TZ",
+    "region": "Iringa Region",
+    "domain": ""
+  },
+  {
+    "id": "TZ-045",
+    "name": "Itigi District",
+    "country": "TZ",
+    "region": "Singida Region",
+    "domain": "",
+    "osm_relation_id": 13015704
+  },
+  {
+    "id": "TZ-046",
+    "name": "Itilima District",
+    "country": "TZ",
+    "region": "Simiyu Region",
+    "domain": "",
+    "osm_relation_id": 13015734
+  },
+  {
+    "id": "TZ-047",
+    "name": "Kahama Municipal District",
+    "country": "TZ",
+    "region": "Shinyanga Region",
+    "domain": "",
+    "osm_relation_id": 5741777
+  },
+  {
+    "id": "TZ-048",
+    "name": "Kakonko District",
+    "country": "TZ",
+    "region": "Kigoma Region",
+    "domain": "",
+    "osm_relation_id": 13015718
+  },
+  {
+    "id": "TZ-049",
+    "name": "Kalambo District",
+    "country": "TZ",
+    "region": "Rukwa Region",
+    "domain": "",
+    "osm_relation_id": 13015744
+  },
+  {
+    "id": "TZ-050",
+    "name": "Kaliua District",
+    "country": "TZ",
+    "region": "Tabora Region",
+    "domain": "",
+    "osm_relation_id": 13015731
+  },
+  {
+    "id": "TZ-051",
+    "name": "Karagwe District",
+    "country": "TZ",
+    "region": "Kagera Region",
+    "domain": "",
+    "osm_relation_id": 1600801
+  },
+  {
+    "id": "TZ-052",
+    "name": "Karatu District",
+    "country": "TZ",
+    "region": "Arusha Region",
+    "domain": "",
+    "osm_relation_id": 1243792
+  },
+  {
+    "id": "TZ-053",
+    "name": "Kaskazini A District",
+    "country": "TZ",
+    "region": "Unguja North Region",
+    "domain": "",
+    "osm_relation_id": 12991001
+  },
+  {
+    "id": "TZ-054",
+    "name": "Kaskazini B District",
+    "country": "TZ",
+    "region": "Unguja North Region",
+    "domain": "",
+    "osm_relation_id": 12991000
+  },
+  {
+    "id": "TZ-055",
+    "name": "Kasulu District",
+    "country": "TZ",
+    "region": "Kigoma Region",
+    "domain": "",
+    "osm_relation_id": 1600764
+  },
+  {
+    "id": "TZ-056",
+    "name": "Kasulu Town District",
+    "country": "TZ",
+    "region": "Kigoma Region",
+    "domain": "",
+    "osm_relation_id": 13015713
+  },
+  {
+    "id": "TZ-057",
+    "name": "Kati District",
+    "country": "TZ",
+    "region": "Unguja South Region",
+    "domain": "",
+    "osm_relation_id": 12990999
+  },
+  {
+    "id": "TZ-058",
+    "name": "Kibaha District",
+    "country": "TZ",
+    "region": "Pwani Region",
+    "domain": "",
+    "osm_relation_id": 1600805
+  },
+  {
+    "id": "TZ-059",
+    "name": "Kibaha Town District",
+    "country": "TZ",
+    "region": "Pwani Region",
+    "domain": "",
+    "osm_relation_id": 13015747
+  },
+  {
+    "id": "TZ-060",
+    "name": "Kibiti District",
+    "country": "TZ",
+    "region": "Pwani Region",
+    "domain": "",
+    "osm_relation_id": 13015765
+  },
+  {
+    "id": "TZ-061",
+    "name": "Kibondo District",
+    "country": "TZ",
+    "region": "Kigoma Region",
+    "domain": "",
+    "osm_relation_id": 1600782
+  },
+  {
+    "id": "TZ-062",
+    "name": "Kigamboni District",
+    "country": "TZ",
+    "region": "Dar es Salaam Region",
+    "domain": "",
+    "osm_relation_id": 6054330
+  },
+  {
+    "id": "TZ-063",
+    "name": "Kigoma District",
+    "country": "TZ",
+    "region": "Kigoma Region",
+    "domain": "",
+    "osm_relation_id": 1600838
+  },
+  {
+    "id": "TZ-064",
+    "name": "Kigoma Municipal District",
+    "country": "TZ",
+    "region": "Kigoma Region",
+    "domain": "",
+    "osm_relation_id": 1600819
+  },
+  {
+    "id": "TZ-065",
+    "name": "Kilindi District",
+    "country": "TZ",
+    "region": "Tanga Region",
+    "domain": "",
+    "osm_relation_id": 1600841
+  },
+  {
+    "id": "TZ-066",
+    "name": "Kilolo District",
+    "country": "TZ",
+    "region": "Iringa Region",
+    "domain": "",
+    "osm_relation_id": 13015759
+  },
+  {
+    "id": "TZ-067",
+    "name": "Kilombero District",
+    "country": "TZ",
+    "region": "Morogoro Region",
+    "domain": "",
+    "osm_relation_id": 1600788
+  },
+  {
+    "id": "TZ-068",
+    "name": "Kilosa District",
+    "country": "TZ",
+    "region": "Morogoro Region",
+    "domain": "",
+    "osm_relation_id": 1600823
+  },
+  {
+    "id": "TZ-069",
+    "name": "Kilwa District",
+    "country": "TZ",
+    "region": "Lindi Region",
+    "domain": "",
+    "osm_relation_id": 1600790
+  },
+  {
+    "id": "TZ-070",
+    "name": "Kinondoni District",
+    "country": "TZ",
+    "region": "Dar es Salaam Region",
+    "domain": "",
+    "osm_relation_id": 13015764
+  },
+  {
+    "id": "TZ-071",
+    "name": "Kisarawe District",
+    "country": "TZ",
+    "region": "Pwani Region",
+    "domain": "",
+    "osm_relation_id": 1600840
+  },
+  {
+    "id": "TZ-072",
+    "name": "Kishapu District",
+    "country": "TZ",
+    "region": "Shinyanga Region",
+    "domain": "",
+    "osm_relation_id": 5713063
+  },
+  {
+    "id": "TZ-073",
+    "name": "Kiteto District",
+    "country": "TZ",
+    "region": "Manyara Region",
+    "domain": "",
+    "osm_relation_id": 1243793
+  },
+  {
+    "id": "TZ-074",
+    "name": "Kondoa District",
+    "country": "TZ",
+    "region": "Dodoma Region",
+    "domain": ""
+  },
+  {
+    "id": "TZ-075",
+    "name": "Kondoa Town District",
+    "country": "TZ",
+    "region": "Dodoma Region",
+    "domain": "",
+    "osm_relation_id": 13015727
+  },
+  {
+    "id": "TZ-076",
+    "name": "Kongwa District",
+    "country": "TZ",
+    "region": "Dodoma Region",
+    "domain": "",
+    "osm_relation_id": 13015746
+  },
+  {
+    "id": "TZ-077",
+    "name": "Korogwe District",
+    "country": "TZ",
+    "region": "Tanga Region",
+    "domain": "",
+    "osm_relation_id": 1600826
+  },
+  {
+    "id": "TZ-078",
+    "name": "Korogwe Town District",
+    "country": "TZ",
+    "region": "Tanga Region",
+    "domain": "",
+    "osm_relation_id": 12991106
+  },
+  {
+    "id": "TZ-079",
+    "name": "Kusini District",
+    "country": "TZ",
+    "region": "Unguja South Region",
+    "domain": "",
+    "osm_relation_id": 12990998
+  },
+  {
+    "id": "TZ-080",
+    "name": "Kwimba District",
+    "country": "TZ",
+    "region": "Mwanza Region",
+    "domain": "",
+    "osm_relation_id": 5712708
+  },
+  {
+    "id": "TZ-081",
+    "name": "Kyela District",
+    "country": "TZ",
+    "region": "Mbeya Region",
+    "domain": "",
+    "osm_relation_id": 1600791
+  },
+  {
+    "id": "TZ-082",
+    "name": "Kyerwa District",
+    "country": "TZ",
+    "region": "Kagera Region",
+    "domain": "",
+    "osm_relation_id": 13015768
+  },
+  {
+    "id": "TZ-083",
+    "name": "Lindi Municipal District",
+    "country": "TZ",
+    "region": "Lindi Region",
+    "domain": ""
+  },
+  {
+    "id": "TZ-084",
+    "name": "Lindi Urban District",
+    "country": "TZ",
+    "region": "Lindi Region",
+    "domain": ""
+  },
+  {
+    "id": "TZ-085",
+    "name": "Liwale District",
+    "country": "TZ",
+    "region": "Lindi Region",
+    "domain": "",
+    "osm_relation_id": 1600818
+  },
+  {
+    "id": "TZ-086",
+    "name": "Longido District",
+    "country": "TZ",
+    "region": "Arusha Region",
+    "domain": "",
+    "osm_relation_id": 13015761
+  },
+  {
+    "id": "TZ-087",
+    "name": "Ludewa District",
+    "country": "TZ",
+    "region": "Njombe Region",
+    "domain": "",
+    "osm_relation_id": 1600785
+  },
+  {
+    "id": "TZ-088",
+    "name": "Lushoto District",
+    "country": "TZ",
+    "region": "Tanga Region",
+    "domain": "",
+    "osm_relation_id": 1600763
+  },
+  {
+    "id": "TZ-089",
+    "name": "Madaba District",
+    "country": "TZ",
+    "region": "Ruvuma Region",
+    "domain": "",
+    "osm_relation_id": 13015726
+  },
+  {
+    "id": "TZ-090",
+    "name": "Mafia District",
+    "country": "TZ",
+    "region": "Pwani Region",
+    "domain": "",
+    "osm_relation_id": 6502523
+  },
+  {
+    "id": "TZ-091",
+    "name": "Mafinga Town District",
+    "country": "TZ",
+    "region": "Iringa Region",
+    "domain": "",
+    "osm_relation_id": 13015741
+  },
+  {
+    "id": "TZ-092",
+    "name": "Magharibi A District",
+    "country": "TZ",
+    "region": "Mjini Magharibi Region",
+    "domain": "",
+    "osm_relation_id": 12990996
+  },
+  {
+    "id": "TZ-093",
+    "name": "Magharibi B District",
+    "country": "TZ",
+    "region": "Mjini Magharibi Region",
+    "domain": "",
+    "osm_relation_id": 12990997
+  },
+  {
+    "id": "TZ-094",
+    "name": "Magu District",
+    "country": "TZ",
+    "region": "Mwanza Region",
+    "domain": "",
+    "osm_relation_id": 1600853
+  },
+  {
+    "id": "TZ-095",
+    "name": "Makambako Town District",
+    "country": "TZ",
+    "region": "Njombe Region",
+    "domain": "",
+    "osm_relation_id": 13015749
+  },
+  {
+    "id": "TZ-096",
+    "name": "Makete District",
+    "country": "TZ",
+    "region": "Njombe Region",
+    "domain": "",
+    "osm_relation_id": 1600768
+  },
+  {
+    "id": "TZ-097",
+    "name": "Malinyi District",
+    "country": "TZ",
+    "region": "Morogoro Region",
+    "domain": "",
+    "osm_relation_id": 13015724
+  },
+  {
+    "id": "TZ-098",
+    "name": "Manyoni District",
+    "country": "TZ",
+    "region": "Singida Region",
+    "domain": "",
+    "osm_relation_id": 1600793
+  },
+  {
+    "id": "TZ-099",
+    "name": "Masasi District",
+    "country": "TZ",
+    "region": "Mtwara Region",
+    "domain": "",
+    "osm_relation_id": 1600792
+  },
+  {
+    "id": "TZ-100",
+    "name": "Masasi Town District",
+    "country": "TZ",
+    "region": "Mtwara Region",
+    "domain": "",
+    "osm_relation_id": 13015696
+  },
+  {
+    "id": "TZ-101",
+    "name": "Maswa District",
+    "country": "TZ",
+    "region": "Simiyu Region",
+    "domain": "",
+    "osm_relation_id": 5713062
+  },
+  {
+    "id": "TZ-102",
+    "name": "Mbarali District",
+    "country": "TZ",
+    "region": "Mbeya Region",
+    "domain": "",
+    "osm_relation_id": 13015708
+  },
+  {
+    "id": "TZ-103",
+    "name": "Mbeya City District",
+    "country": "TZ",
+    "region": "Mbeya",
+    "domain": "",
+    "osm_relation_id": 13015701
+  },
+  {
+    "id": "TZ-104",
+    "name": "Mbeya District",
+    "country": "TZ",
+    "region": "Mbeya Region",
+    "domain": "",
+    "osm_relation_id": 1600808
+  },
+  {
+    "id": "TZ-105",
+    "name": "Mbinga District",
+    "country": "TZ",
+    "region": "Ruvuma Region",
+    "domain": "",
+    "osm_relation_id": 1600850
+  },
+  {
+    "id": "TZ-106",
+    "name": "Mbinga Town District",
+    "country": "TZ",
+    "region": "Ruvuma Region",
+    "domain": "",
+    "osm_relation_id": 13015766
+  },
+  {
+    "id": "TZ-107",
+    "name": "Mbogwe District",
+    "country": "TZ",
+    "region": "Geita Region",
+    "domain": "",
+    "osm_relation_id": 13015743
+  },
+  {
+    "id": "TZ-108",
+    "name": "Mbozi District",
+    "country": "TZ",
+    "region": "Songwe Region",
+    "domain": "",
+    "osm_relation_id": 1600806
+  },
+  {
+    "id": "TZ-109",
+    "name": "Mbulu District",
+    "country": "TZ",
+    "region": "Manyara Region",
+    "domain": ""
+  },
+  {
+    "id": "TZ-110",
+    "name": "Mbulu Town District",
+    "country": "TZ",
+    "region": "Manyara Region",
+    "domain": "",
+    "osm_relation_id": 13015721
+  },
+  {
+    "id": "TZ-111",
+    "name": "Meatu District",
+    "country": "TZ",
+    "region": "Simiyu Region",
+    "domain": "",
+    "osm_relation_id": 1600780
+  },
+  {
+    "id": "TZ-112",
+    "name": "Meru District",
+    "country": "TZ",
+    "region": "Arusha Region",
+    "domain": "",
+    "osm_relation_id": 13015771
+  },
+  {
+    "id": "TZ-113",
+    "name": "Micheweni District",
+    "country": "TZ",
+    "region": "North Pemba Region",
+    "domain": "",
+    "osm_relation_id": 1614027
+  },
+  {
+    "id": "TZ-114",
+    "name": "Missenyi District",
+    "country": "TZ",
+    "region": "Kagera Region",
+    "domain": "",
+    "osm_relation_id": 13015736
+  },
+  {
+    "id": "TZ-115",
+    "name": "Misungwi District",
+    "country": "TZ",
+    "region": "Mwanza Region",
+    "domain": "",
+    "osm_relation_id": 5712717
+  },
+  {
+    "id": "TZ-116",
+    "name": "Mjini District",
+    "country": "TZ",
+    "region": "Mjini Magharibi Region",
+    "domain": "",
+    "osm_relation_id": 12990995
+  },
+  {
+    "id": "TZ-117",
+    "name": "Mkalama District",
+    "country": "TZ",
+    "region": "Singida Region",
+    "domain": "",
+    "osm_relation_id": 13015732
+  },
+  {
+    "id": "TZ-118",
+    "name": "Mkinga District",
+    "country": "TZ",
+    "region": "Tanga Region",
+    "domain": "",
+    "osm_relation_id": 12991109
+  },
+  {
+    "id": "TZ-119",
+    "name": "Mkoani District",
+    "country": "TZ",
+    "region": "South Pemba Region",
+    "domain": "",
+    "osm_relation_id": 12991002
+  },
+  {
+    "id": "TZ-120",
+    "name": "Mkuranga District",
+    "country": "TZ",
+    "region": "Pwani Region",
+    "domain": "",
+    "osm_relation_id": 1600777
+  },
+  {
+    "id": "TZ-121",
+    "name": "Mlele District",
+    "country": "TZ",
+    "region": "Katavi Region",
+    "domain": "",
+    "osm_relation_id": 13015723
+  },
+  {
+    "id": "TZ-122",
+    "name": "Mlimba District",
+    "country": "TZ",
+    "region": "Morogoro Region",
+    "domain": ""
+  },
+  {
+    "id": "TZ-123",
+    "name": "Momba District",
+    "country": "TZ",
+    "region": "Songwe Region",
+    "domain": "",
+    "osm_relation_id": 13015702
+  },
+  {
+    "id": "TZ-124",
+    "name": "Monduli District",
+    "country": "TZ",
+    "region": "Arusha Region",
+    "domain": "",
+    "osm_relation_id": 1243801
+  },
+  {
+    "id": "TZ-125",
+    "name": "Morogoro District",
+    "country": "TZ",
+    "region": "Morogoro Region",
+    "domain": "",
+    "osm_relation_id": 1600804
+  },
+  {
+    "id": "TZ-126",
+    "name": "Morogoro Municipal District",
+    "country": "TZ",
+    "region": "Morogoro Region",
+    "domain": "",
+    "osm_relation_id": 13015699
+  },
+  {
+    "id": "TZ-127",
+    "name": "Moshi District",
+    "country": "TZ",
+    "region": "Kilimanjaro Region",
+    "domain": "",
+    "osm_relation_id": 1243809
+  },
+  {
+    "id": "TZ-128",
+    "name": "Moshi Municipal District",
+    "country": "TZ",
+    "region": "Kilimanjaro Region",
+    "domain": "",
+    "osm_relation_id": 1243813
+  },
+  {
+    "id": "TZ-129",
+    "name": "Mpanda Municipal District",
+    "country": "TZ",
+    "region": "Katavi Region",
+    "domain": "",
+    "osm_relation_id": 13015691
+  },
+  {
+    "id": "TZ-130",
+    "name": "Mpimbwe District",
+    "country": "TZ",
+    "region": "Katavi Region",
+    "domain": "",
+    "osm_relation_id": 13015692
+  },
+  {
+    "id": "TZ-131",
+    "name": "Mpwapwa District",
+    "country": "TZ",
+    "region": "Dodoma Region",
+    "domain": "",
+    "osm_relation_id": 1600849
+  },
+  {
+    "id": "TZ-132",
+    "name": "Msalala District",
+    "country": "TZ",
+    "region": "Shinyanga Region",
+    "domain": "",
+    "osm_relation_id": 13015737
+  },
+  {
+    "id": "TZ-133",
+    "name": "Mtama District",
+    "country": "TZ",
+    "region": "Lindi Region",
+    "domain": "",
+    "osm_relation_id": 1600815
+  },
+  {
+    "id": "TZ-134",
+    "name": "Mtwara District",
+    "country": "TZ",
+    "region": "Mtwara Region",
+    "domain": "",
+    "osm_relation_id": 1600810
+  },
+  {
+    "id": "TZ-135",
+    "name": "Mtwara Municipal District",
+    "country": "TZ",
+    "region": "Mtwara Region",
+    "domain": "",
+    "osm_relation_id": 13015694
+  },
+  {
+    "id": "TZ-136",
+    "name": "Mufindi District",
+    "country": "TZ",
+    "region": "Iringa Region",
+    "domain": "",
+    "osm_relation_id": 1600770
+  },
+  {
+    "id": "TZ-137",
+    "name": "Muheza District",
+    "country": "TZ",
+    "region": "Tanga Region",
+    "domain": "",
+    "osm_relation_id": 1600830
+  },
+  {
+    "id": "TZ-138",
+    "name": "Muleba District",
+    "country": "TZ",
+    "region": "Kagera Region",
+    "domain": "",
+    "osm_relation_id": 1600787
+  },
+  {
+    "id": "TZ-139",
+    "name": "Musoma District",
+    "country": "TZ",
+    "region": "Mara Region",
+    "domain": "",
+    "osm_relation_id": 1243796
+  },
+  {
+    "id": "TZ-140",
+    "name": "Musoma Municipal District",
+    "country": "TZ",
+    "region": "Mara Region",
+    "domain": "",
+    "osm_relation_id": 13015755
+  },
+  {
+    "id": "TZ-141",
+    "name": "Mvomero District",
+    "country": "TZ",
+    "region": "Morogoro Region",
+    "domain": "",
+    "osm_relation_id": 13015697
+  },
+  {
+    "id": "TZ-142",
+    "name": "Mwanga District",
+    "country": "TZ",
+    "region": "Kilimanjaro Region",
+    "domain": "",
+    "osm_relation_id": 1243811
+  },
+  {
+    "id": "TZ-143",
+    "name": "Nachingwea District",
+    "country": "TZ",
+    "region": "Lindi Region",
+    "domain": "",
+    "osm_relation_id": 1600778
+  },
+  {
+    "id": "TZ-144",
+    "name": "Namtumbo District",
+    "country": "TZ",
+    "region": "Ruvuma Region",
+    "domain": "",
+    "osm_relation_id": 13015739
+  },
+  {
+    "id": "TZ-145",
+    "name": "Nanyamba Town District",
+    "country": "TZ",
+    "region": "Mtwara Region",
+    "domain": "",
+    "osm_relation_id": 13015722
+  },
+  {
+    "id": "TZ-146",
+    "name": "Nanyumbu District",
+    "country": "TZ",
+    "region": "Mtwara Region",
+    "domain": "",
+    "osm_relation_id": 13015706
+  },
+  {
+    "id": "TZ-147",
+    "name": "Newala District",
+    "country": "TZ",
+    "region": "Mtwara Region",
+    "domain": "",
+    "osm_relation_id": 1600766
+  },
+  {
+    "id": "TZ-148",
+    "name": "Newala Town District",
+    "country": "TZ",
+    "region": "Mtwara Region",
+    "domain": "",
+    "osm_relation_id": 13015716
+  },
+  {
+    "id": "TZ-149",
+    "name": "Ngara District",
+    "country": "TZ",
+    "region": "Kagera Region",
+    "domain": "",
+    "osm_relation_id": 1600821
+  },
+  {
+    "id": "TZ-150",
+    "name": "Ngorongoro District",
+    "country": "TZ",
+    "region": "Arusha Region",
+    "domain": "",
+    "osm_relation_id": 1243814
+  },
+  {
+    "id": "TZ-151",
+    "name": "Njombe District",
+    "country": "TZ",
+    "region": "Njombe Region",
+    "domain": ""
+  },
+  {
+    "id": "TZ-152",
+    "name": "Njombe Town District",
+    "country": "TZ",
+    "region": "Njombe Region",
+    "domain": ""
+  },
+  {
+    "id": "TZ-153",
+    "name": "Njombe Urban District",
+    "country": "TZ",
+    "region": "Njombe Region",
+    "domain": "",
+    "osm_relation_id": 13015750
+  },
+  {
+    "id": "TZ-154",
+    "name": "Nkasi District",
+    "country": "TZ",
+    "region": "Rukwa Region",
+    "domain": "",
+    "osm_relation_id": 1600783
+  },
+  {
+    "id": "TZ-155",
+    "name": "Nsimbo District",
+    "country": "TZ",
+    "region": "Katavi Region",
+    "domain": "",
+    "osm_relation_id": 13015715
+  },
+  {
+    "id": "TZ-156",
+    "name": "Nyamagana District",
+    "country": "TZ",
+    "region": "Mwanza Region",
+    "domain": "",
+    "osm_relation_id": 1600816
+  },
+  {
+    "id": "TZ-157",
+    "name": "Nyang'hwale District",
+    "country": "TZ",
+    "region": "Geita Region",
+    "domain": ""
+  },
+  {
+    "id": "TZ-158",
+    "name": "Nyasa District",
+    "country": "TZ",
+    "region": "Ruvuma Region",
+    "domain": "",
+    "osm_relation_id": 13015738
+  },
+  {
+    "id": "TZ-159",
+    "name": "Nzega District",
+    "country": "TZ",
+    "region": "Tabora Region",
+    "domain": "",
+    "osm_relation_id": 1600847
+  },
+  {
+    "id": "TZ-160",
+    "name": "Nzega Town District",
+    "country": "TZ",
+    "region": "Tabora Region",
+    "domain": "",
+    "osm_relation_id": 13015719
+  },
+  {
+    "id": "TZ-161",
+    "name": "Pangani District",
+    "country": "TZ",
+    "region": "Tanga Region",
+    "domain": "",
+    "osm_relation_id": 1600832
+  },
+  {
+    "id": "TZ-162",
+    "name": "Rombo District",
+    "country": "TZ",
+    "region": "Kilimanjaro Region",
+    "domain": "",
+    "osm_relation_id": 1243815
+  },
+  {
+    "id": "TZ-163",
+    "name": "Rorya District",
+    "country": "TZ",
+    "region": "Mara Region",
+    "domain": "",
+    "osm_relation_id": 13015758
+  },
+  {
+    "id": "TZ-164",
+    "name": "Ruangwa District",
+    "country": "TZ",
+    "region": "Lindi Region",
+    "domain": "",
+    "osm_relation_id": 13015698
+  },
+  {
+    "id": "TZ-165",
+    "name": "Rufiji District",
+    "country": "TZ",
+    "region": "Pwani Region",
+    "domain": "",
+    "osm_relation_id": 1600786
+  },
+  {
+    "id": "TZ-166",
+    "name": "Rungwe District",
+    "country": "TZ",
+    "region": "Mbeya Region",
+    "domain": "",
+    "osm_relation_id": 1600827
+  },
+  {
+    "id": "TZ-167",
+    "name": "Same District",
+    "country": "TZ",
+    "region": "Kilimanjaro Region",
+    "domain": "",
+    "osm_relation_id": 1243807
+  },
+  {
+    "id": "TZ-168",
+    "name": "Sengerema District",
+    "country": "TZ",
+    "region": "Mwanza Region",
+    "domain": "",
+    "osm_relation_id": 5713261
+  },
+  {
+    "id": "TZ-169",
+    "name": "Serengeti District",
+    "country": "TZ",
+    "region": "Mara Region",
+    "domain": "serengetidc.go.tz",
+    "osm_relation_id": 1243797
+  },
+  {
+    "id": "TZ-170",
+    "name": "Shinyanga District",
+    "country": "TZ",
+    "region": "Shinyanga Region",
+    "domain": "",
+    "osm_relation_id": 5712718
+  },
+  {
+    "id": "TZ-171",
+    "name": "Shinyanga Municipal District",
+    "country": "TZ",
+    "region": "Shinyanga Region",
+    "domain": "",
+    "osm_relation_id": 5741682
+  },
+  {
+    "id": "TZ-172",
+    "name": "Siha District",
+    "country": "TZ",
+    "region": "Kilimanjaro Region",
+    "domain": "",
+    "osm_relation_id": 13015703
+  },
+  {
+    "id": "TZ-173",
+    "name": "Sikonge District",
+    "country": "TZ",
+    "region": "Tabora Region",
+    "domain": "",
+    "osm_relation_id": 13015729
+  },
+  {
+    "id": "TZ-174",
+    "name": "Simanjiro District",
+    "country": "TZ",
+    "region": "Manyara Region",
+    "domain": "",
+    "osm_relation_id": 1243805
+  },
+  {
+    "id": "TZ-175",
+    "name": "Singida District",
+    "country": "TZ",
+    "region": "Singida Region",
+    "domain": "",
+    "osm_relation_id": 1600812
+  },
+  {
+    "id": "TZ-176",
+    "name": "Singida Municipal District",
+    "country": "TZ",
+    "region": "Singida Region",
+    "domain": "",
+    "osm_relation_id": 13015730
+  },
+  {
+    "id": "TZ-177",
+    "name": "Songea District",
+    "country": "TZ",
+    "region": "Ruvuma Region",
+    "domain": "",
+    "osm_relation_id": 1600762
+  },
+  {
+    "id": "TZ-178",
+    "name": "Songea Municipal District",
+    "country": "TZ",
+    "region": "Ruvuma Region",
+    "domain": "",
+    "osm_relation_id": 13015735
+  },
+  {
+    "id": "TZ-179",
+    "name": "Songwe District",
+    "country": "TZ",
+    "region": "Songwe Region",
+    "domain": "",
+    "osm_relation_id": 13015717
+  },
+  {
+    "id": "TZ-180",
+    "name": "Sumbawanga District",
+    "country": "TZ",
+    "region": "Rukwa Region",
+    "domain": "",
+    "osm_relation_id": 1600765
+  },
+  {
+    "id": "TZ-181",
+    "name": "Sumbawanga Municipal District",
+    "country": "TZ",
+    "region": "Rukwa Region",
+    "domain": "",
+    "osm_relation_id": 1600846
+  },
+  {
+    "id": "TZ-182",
+    "name": "Tabora Municipal District",
+    "country": "TZ",
+    "region": "Singida Region",
+    "domain": "",
+    "osm_relation_id": 1600829
+  },
+  {
+    "id": "TZ-183",
+    "name": "Tandahimba District",
+    "country": "TZ",
+    "region": "Mtwara Region",
+    "domain": "",
+    "osm_relation_id": 13015705
+  },
+  {
+    "id": "TZ-184",
+    "name": "Tanga District",
+    "country": "TZ",
+    "region": "Tanga Region",
+    "domain": "",
+    "osm_relation_id": 1600813
+  },
+  {
+    "id": "TZ-185",
+    "name": "Tanganyika District",
+    "country": "TZ",
+    "region": "Katavi Region",
+    "domain": "",
+    "osm_relation_id": 1600800
+  },
+  {
+    "id": "TZ-186",
+    "name": "Tarime District",
+    "country": "TZ",
+    "region": "Mara Region",
+    "domain": "",
+    "osm_relation_id": 1243800
+  },
+  {
+    "id": "TZ-187",
+    "name": "Tarime Town District",
+    "country": "TZ",
+    "region": "Mara Region",
+    "domain": "",
+    "osm_relation_id": 13015690
+  },
+  {
+    "id": "TZ-188",
+    "name": "Temeke District",
+    "country": "TZ",
+    "region": "Dar es Salaam Region",
+    "domain": "",
+    "osm_relation_id": 5661995
+  },
+  {
+    "id": "TZ-189",
+    "name": "Tunduma District",
+    "country": "TZ",
+    "region": "Songwe Region",
+    "domain": "",
+    "osm_relation_id": 13015754
+  },
+  {
+    "id": "TZ-190",
+    "name": "Tunduru District",
+    "country": "TZ",
+    "region": "Ruvuma Region",
+    "domain": "",
+    "osm_relation_id": 1600781
+  },
+  {
+    "id": "TZ-191",
+    "name": "Ubungo District",
+    "country": "TZ",
+    "region": "Dar es Salaam Region",
+    "domain": "",
+    "osm_relation_id": 13015689
+  },
+  {
+    "id": "TZ-192",
+    "name": "Ukerewe District",
+    "country": "TZ",
+    "region": "Mwanza Region",
+    "domain": "",
+    "osm_relation_id": 1600851
+  },
+  {
+    "id": "TZ-193",
+    "name": "Ulanga District",
+    "country": "TZ",
+    "region": "Morogoro Region",
+    "domain": "",
+    "osm_relation_id": 1600769
+  },
+  {
+    "id": "TZ-194",
+    "name": "Urambo District",
+    "country": "TZ",
+    "region": "Tabora Region",
+    "domain": "",
+    "osm_relation_id": 1600828
+  },
+  {
+    "id": "TZ-195",
+    "name": "Ushetu District",
+    "country": "TZ",
+    "region": "Shinyanga Region",
+    "domain": "",
+    "osm_relation_id": 13015767
+  },
+  {
+    "id": "TZ-196",
+    "name": "Uvinza District",
+    "country": "TZ",
+    "region": "Kigoma Region",
+    "domain": "",
+    "osm_relation_id": 13015688
+  },
+  {
+    "id": "TZ-197",
+    "name": "Uyui District",
+    "country": "TZ",
+    "region": "Tabora Region",
+    "domain": "",
+    "osm_relation_id": 13015728
+  },
+  {
+    "id": "TZ-198",
+    "name": "Wanging'ombe District",
+    "country": "TZ",
+    "region": "Njombe Region",
+    "domain": "",
+    "osm_relation_id": 13015745
+  },
+  {
+    "id": "TZ-199",
+    "name": "Wete District",
+    "country": "TZ",
+    "region": "North Pemba Region",
+    "domain": "",
+    "osm_relation_id": 1614029
+  }
+]

@@ -1,0 +1,889 @@
+[
+  {
+    "id": "ZM-001",
+    "name": "Chadiza District",
+    "country": "ZM",
+    "region": "Eastern Province",
+    "domain": "",
+    "osm_relation_id": 10686573
+  },
+  {
+    "id": "ZM-002",
+    "name": "Chama District",
+    "country": "ZM",
+    "region": "Muchinga Province",
+    "domain": "",
+    "osm_relation_id": 10695029
+  },
+  {
+    "id": "ZM-003",
+    "name": "Chavuma District",
+    "country": "ZM",
+    "region": "Northwestern Province",
+    "domain": "",
+    "osm_relation_id": 10667407
+  },
+  {
+    "id": "ZM-004",
+    "name": "Chembe District",
+    "country": "ZM",
+    "region": "Luapula Province",
+    "domain": "",
+    "osm_relation_id": 10698278
+  },
+  {
+    "id": "ZM-005",
+    "name": "Chibombo District",
+    "country": "ZM",
+    "region": "Central Province",
+    "domain": "",
+    "osm_relation_id": 10663281
+  },
+  {
+    "id": "ZM-006",
+    "name": "Chiengi District",
+    "country": "ZM",
+    "region": "Luapula Province",
+    "domain": "",
+    "osm_relation_id": 10685642
+  },
+  {
+    "id": "ZM-007",
+    "name": "Chikankata District",
+    "country": "ZM",
+    "region": "Southern Province",
+    "domain": "",
+    "osm_relation_id": 10663725
+  },
+  {
+    "id": "ZM-008",
+    "name": "Chilanga District",
+    "country": "ZM",
+    "region": "Lusaka Province",
+    "domain": ""
+  },
+  {
+    "id": "ZM-009",
+    "name": "Chililabombwe District",
+    "country": "ZM",
+    "region": "Copperbelt Province",
+    "domain": "",
+    "osm_relation_id": 10685750
+  },
+  {
+    "id": "ZM-010",
+    "name": "Chilinda District",
+    "country": "ZM",
+    "region": "Muchinga Province",
+    "domain": ""
+  },
+  {
+    "id": "ZM-011",
+    "name": "Chilubi District",
+    "country": "ZM",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 10698455
+  },
+  {
+    "id": "ZM-012",
+    "name": "Chingola District",
+    "country": "ZM",
+    "region": "Copperbelt Province",
+    "domain": "",
+    "osm_relation_id": 10678296
+  },
+  {
+    "id": "ZM-013",
+    "name": "Chinsali District",
+    "country": "ZM",
+    "region": "Muchinga Province",
+    "domain": "",
+    "osm_relation_id": 10696636
+  },
+  {
+    "id": "ZM-014",
+    "name": "Chipata District",
+    "country": "ZM",
+    "region": "Eastern Province",
+    "domain": "",
+    "osm_relation_id": 10686740
+  },
+  {
+    "id": "ZM-015",
+    "name": "Chipili District",
+    "country": "ZM",
+    "region": "Luapula Province",
+    "domain": "",
+    "osm_relation_id": 10698102
+  },
+  {
+    "id": "ZM-016",
+    "name": "Chirundu District",
+    "country": "ZM",
+    "region": "Southern Province",
+    "domain": "",
+    "osm_relation_id": 10663095
+  },
+  {
+    "id": "ZM-017",
+    "name": "Chisamba District",
+    "country": "ZM",
+    "region": "Central Province",
+    "domain": "",
+    "osm_relation_id": 10676290
+  },
+  {
+    "id": "ZM-018",
+    "name": "Chitambo District",
+    "country": "ZM",
+    "region": "Central Province",
+    "domain": "",
+    "osm_relation_id": 10676858
+  },
+  {
+    "id": "ZM-019",
+    "name": "Choma District",
+    "country": "ZM",
+    "region": "Southern Province",
+    "domain": "",
+    "osm_relation_id": 10663019
+  },
+  {
+    "id": "ZM-020",
+    "name": "Chongwe District",
+    "country": "ZM",
+    "region": "Lusaka Province",
+    "domain": "",
+    "osm_relation_id": 10663343
+  },
+  {
+    "id": "ZM-021",
+    "name": "Gwembe District",
+    "country": "ZM",
+    "region": "Southern Province",
+    "domain": "",
+    "osm_relation_id": 10663063
+  },
+  {
+    "id": "ZM-022",
+    "name": "Ikelenge District",
+    "country": "ZM",
+    "region": "Northwestern Province",
+    "domain": "",
+    "osm_relation_id": 10666781
+  },
+  {
+    "id": "ZM-023",
+    "name": "Isoka District",
+    "country": "ZM",
+    "region": "Muchinga Province",
+    "domain": "",
+    "osm_relation_id": 10695331
+  },
+  {
+    "id": "ZM-024",
+    "name": "Itezhi-Tezhi District",
+    "country": "ZM",
+    "region": "Central Province",
+    "domain": "",
+    "osm_relation_id": 10663957
+  },
+  {
+    "id": "ZM-025",
+    "name": "Kabompo District",
+    "country": "ZM",
+    "region": "Northwestern Province",
+    "domain": "",
+    "osm_relation_id": 10667224
+  },
+  {
+    "id": "ZM-026",
+    "name": "Kabwe District",
+    "country": "ZM",
+    "region": "Central Province",
+    "domain": "",
+    "osm_relation_id": 10676417
+  },
+  {
+    "id": "ZM-027",
+    "name": "Kafue District",
+    "country": "ZM",
+    "region": "Lusaka Province",
+    "domain": "",
+    "osm_relation_id": 10663244
+  },
+  {
+    "id": "ZM-028",
+    "name": "Kalabo District",
+    "country": "ZM",
+    "region": "Western Province",
+    "domain": "",
+    "osm_relation_id": 10669691
+  },
+  {
+    "id": "ZM-029",
+    "name": "Kalomo District",
+    "country": "ZM",
+    "region": "Southern Province",
+    "domain": "",
+    "osm_relation_id": 10662979
+  },
+  {
+    "id": "ZM-030",
+    "name": "Kalulushi District",
+    "country": "ZM",
+    "region": "Copperbelt Province",
+    "domain": "",
+    "osm_relation_id": 10685788
+  },
+  {
+    "id": "ZM-031",
+    "name": "Kalumbila District",
+    "country": "ZM",
+    "region": "Northwestern Province",
+    "domain": ""
+  },
+  {
+    "id": "ZM-032",
+    "name": "Kalumbila District",
+    "country": "ZM",
+    "region": "Northwestern Province",
+    "domain": "",
+    "osm_relation_id": 13634830
+  },
+  {
+    "id": "ZM-033",
+    "name": "Kanchibiya District",
+    "country": "ZM",
+    "region": "Muchinga Province",
+    "domain": "",
+    "osm_relation_id": 14473488
+  },
+  {
+    "id": "ZM-034",
+    "name": "Kaoma District",
+    "country": "ZM",
+    "region": "Western Province",
+    "domain": "",
+    "osm_relation_id": 10670380
+  },
+  {
+    "id": "ZM-035",
+    "name": "Kapiri Mposhi District",
+    "country": "ZM",
+    "region": "Central Province",
+    "domain": "",
+    "osm_relation_id": 10676444
+  },
+  {
+    "id": "ZM-036",
+    "name": "Kaputa District",
+    "country": "ZM",
+    "region": "Northern Province",
+    "domain": ""
+  },
+  {
+    "id": "ZM-037",
+    "name": "Kasama District",
+    "country": "ZM",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 10697953
+  },
+  {
+    "id": "ZM-038",
+    "name": "Kasempa District",
+    "country": "ZM",
+    "region": "Northwestern Province",
+    "domain": "",
+    "osm_relation_id": 10665441
+  },
+  {
+    "id": "ZM-039",
+    "name": "Katete District",
+    "country": "ZM",
+    "region": "Eastern Province",
+    "domain": "",
+    "osm_relation_id": 10686543
+  },
+  {
+    "id": "ZM-040",
+    "name": "Kawambwa District",
+    "country": "ZM",
+    "region": "Luapula Province",
+    "domain": "",
+    "osm_relation_id": 10697820
+  },
+  {
+    "id": "ZM-041",
+    "name": "Kazungula District",
+    "country": "ZM",
+    "region": "Southern Province",
+    "domain": "",
+    "osm_relation_id": 10662764
+  },
+  {
+    "id": "ZM-042",
+    "name": "Kitwe District",
+    "country": "ZM",
+    "region": "Copperbelt Province",
+    "domain": "",
+    "osm_relation_id": 10685942
+  },
+  {
+    "id": "ZM-043",
+    "name": "Lavushimanda District",
+    "country": "ZM",
+    "region": "Muchinga Province",
+    "domain": "",
+    "osm_relation_id": 14473552
+  },
+  {
+    "id": "ZM-044",
+    "name": "Limulunga District",
+    "country": "ZM",
+    "region": "Western Province",
+    "domain": "",
+    "osm_relation_id": 10670081
+  },
+  {
+    "id": "ZM-045",
+    "name": "Livingstone District",
+    "country": "ZM",
+    "region": "Southern Province",
+    "domain": "",
+    "osm_relation_id": 10662712
+  },
+  {
+    "id": "ZM-046",
+    "name": "Luampa District",
+    "country": "ZM",
+    "region": "Western Province",
+    "domain": "",
+    "osm_relation_id": 10670449
+  },
+  {
+    "id": "ZM-047",
+    "name": "Luangwa District",
+    "country": "ZM",
+    "region": "Lusaka Province",
+    "domain": "",
+    "osm_relation_id": 10663106
+  },
+  {
+    "id": "ZM-048",
+    "name": "Luano District",
+    "country": "ZM",
+    "region": "Central Province",
+    "domain": "",
+    "osm_relation_id": 10676586
+  },
+  {
+    "id": "ZM-049",
+    "name": "Luanshya District",
+    "country": "ZM",
+    "region": "Copperbelt Province",
+    "domain": "",
+    "osm_relation_id": 10685798
+  },
+  {
+    "id": "ZM-050",
+    "name": "Lufwanyama District",
+    "country": "ZM",
+    "region": "Copperbelt Province",
+    "domain": "",
+    "osm_relation_id": 10678251
+  },
+  {
+    "id": "ZM-051",
+    "name": "Lukulu District",
+    "country": "ZM",
+    "region": "Western Province",
+    "domain": "",
+    "osm_relation_id": 10669863
+  },
+  {
+    "id": "ZM-052",
+    "name": "Lundazi District",
+    "country": "ZM",
+    "region": "Eastern Province",
+    "domain": "",
+    "osm_relation_id": 10694164
+  },
+  {
+    "id": "ZM-053",
+    "name": "Lunga District",
+    "country": "ZM",
+    "region": "Luapula Province",
+    "domain": "",
+    "osm_relation_id": 10698471
+  },
+  {
+    "id": "ZM-054",
+    "name": "Lunte District",
+    "country": "ZM",
+    "region": "Northern Province",
+    "domain": ""
+  },
+  {
+    "id": "ZM-055",
+    "name": "Lusaka District",
+    "country": "ZM",
+    "region": "Lusaka Province",
+    "domain": ""
+  },
+  {
+    "id": "ZM-056",
+    "name": "Luwingu District",
+    "country": "ZM",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 10698161
+  },
+  {
+    "id": "ZM-057",
+    "name": "Mafinga District",
+    "country": "ZM",
+    "region": "Muchinga Province",
+    "domain": "",
+    "osm_relation_id": 10695234
+  },
+  {
+    "id": "ZM-058",
+    "name": "Mambwe District",
+    "country": "ZM",
+    "region": "Eastern Province",
+    "domain": "",
+    "osm_relation_id": 10686850
+  },
+  {
+    "id": "ZM-059",
+    "name": "Mansa District",
+    "country": "ZM",
+    "region": "Luapula Province",
+    "domain": "",
+    "osm_relation_id": 10698236
+  },
+  {
+    "id": "ZM-060",
+    "name": "Manyinga District",
+    "country": "ZM",
+    "region": "Northwestern Province",
+    "domain": "",
+    "osm_relation_id": 10667167
+  },
+  {
+    "id": "ZM-061",
+    "name": "Masaiti District",
+    "country": "ZM",
+    "region": "Copperbelt Province",
+    "domain": "",
+    "osm_relation_id": 10676867
+  },
+  {
+    "id": "ZM-062",
+    "name": "Mazabuka District",
+    "country": "ZM",
+    "region": "Southern Province",
+    "domain": "",
+    "osm_relation_id": 10663784
+  },
+  {
+    "id": "ZM-063",
+    "name": "Mbala District",
+    "country": "ZM",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 10697076
+  },
+  {
+    "id": "ZM-064",
+    "name": "Milenge District",
+    "country": "ZM",
+    "region": "Luapula Province",
+    "domain": "",
+    "osm_relation_id": 10698335
+  },
+  {
+    "id": "ZM-065",
+    "name": "Mitete District",
+    "country": "ZM",
+    "region": "Western Province",
+    "domain": "",
+    "osm_relation_id": 10669638
+  },
+  {
+    "id": "ZM-066",
+    "name": "Mkushi District",
+    "country": "ZM",
+    "region": "Central Province",
+    "domain": "",
+    "osm_relation_id": 10676616
+  },
+  {
+    "id": "ZM-067",
+    "name": "Mongu District",
+    "country": "ZM",
+    "region": "Western Province",
+    "domain": "",
+    "osm_relation_id": 10670482
+  },
+  {
+    "id": "ZM-068",
+    "name": "Monze District",
+    "country": "ZM",
+    "region": "Southern Province",
+    "domain": "",
+    "osm_relation_id": 10663762
+  },
+  {
+    "id": "ZM-069",
+    "name": "Mpika District",
+    "country": "ZM",
+    "region": "Muchinga Province",
+    "domain": "",
+    "osm_relation_id": 10677069
+  },
+  {
+    "id": "ZM-070",
+    "name": "Mpongwe District",
+    "country": "ZM",
+    "region": "Copperbelt Province",
+    "domain": "",
+    "osm_relation_id": 10677621
+  },
+  {
+    "id": "ZM-071",
+    "name": "Mporokoso District",
+    "country": "ZM",
+    "region": "Northern Province",
+    "domain": ""
+  },
+  {
+    "id": "ZM-072",
+    "name": "Mpulungu District",
+    "country": "ZM",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 10697131
+  },
+  {
+    "id": "ZM-073",
+    "name": "Mufulira District",
+    "country": "ZM",
+    "region": "Copperbelt Province",
+    "domain": "",
+    "osm_relation_id": 10685964
+  },
+  {
+    "id": "ZM-074",
+    "name": "Mufumbwe District",
+    "country": "ZM",
+    "region": "Northwestern Province",
+    "domain": "",
+    "osm_relation_id": 10667057
+  },
+  {
+    "id": "ZM-075",
+    "name": "Mulobezi District",
+    "country": "ZM",
+    "region": "Western Province",
+    "domain": "",
+    "osm_relation_id": 10672172
+  },
+  {
+    "id": "ZM-076",
+    "name": "Mumbwa District",
+    "country": "ZM",
+    "region": "Central Province",
+    "domain": "",
+    "osm_relation_id": 10665383
+  },
+  {
+    "id": "ZM-077",
+    "name": "Mungwi District",
+    "country": "ZM",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 10696959
+  },
+  {
+    "id": "ZM-078",
+    "name": "Mushindano District",
+    "country": "ZM",
+    "region": "Northwestern Province",
+    "domain": ""
+  },
+  {
+    "id": "ZM-079",
+    "name": "Mwandi District",
+    "country": "ZM",
+    "region": "Western Province",
+    "domain": "",
+    "osm_relation_id": 10672339
+  },
+  {
+    "id": "ZM-080",
+    "name": "Mwansabombwe District",
+    "country": "ZM",
+    "region": "Luapula Province",
+    "domain": "",
+    "osm_relation_id": 10697867
+  },
+  {
+    "id": "ZM-081",
+    "name": "Mwense District",
+    "country": "ZM",
+    "region": "Luapula Province",
+    "domain": ""
+  },
+  {
+    "id": "ZM-082",
+    "name": "Mwinilunga District",
+    "country": "ZM",
+    "region": "Northwestern Province",
+    "domain": "",
+    "osm_relation_id": 10666891
+  },
+  {
+    "id": "ZM-083",
+    "name": "Nakonde District",
+    "country": "ZM",
+    "region": "Muchinga Province",
+    "domain": "",
+    "osm_relation_id": 10696889
+  },
+  {
+    "id": "ZM-084",
+    "name": "Nalolo District",
+    "country": "ZM",
+    "region": "Western Province",
+    "domain": "",
+    "osm_relation_id": 10670509
+  },
+  {
+    "id": "ZM-085",
+    "name": "Namwala District",
+    "country": "ZM",
+    "region": "Southern Province",
+    "domain": "",
+    "osm_relation_id": 10663877
+  },
+  {
+    "id": "ZM-086",
+    "name": "Nchelenge District",
+    "country": "ZM",
+    "region": "Luapula Province",
+    "domain": ""
+  },
+  {
+    "id": "ZM-087",
+    "name": "Ndola District",
+    "country": "ZM",
+    "region": "Copperbelt Province",
+    "domain": "",
+    "osm_relation_id": 10685903
+  },
+  {
+    "id": "ZM-088",
+    "name": "Ngabwe District",
+    "country": "ZM",
+    "region": "Central Province",
+    "domain": "",
+    "osm_relation_id": 10676460
+  },
+  {
+    "id": "ZM-089",
+    "name": "Nkeyema District",
+    "country": "ZM",
+    "region": "Western Province",
+    "domain": "",
+    "osm_relation_id": 10670411
+  },
+  {
+    "id": "ZM-090",
+    "name": "Nsama District",
+    "country": "ZM",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 10697169
+  },
+  {
+    "id": "ZM-091",
+    "name": "Nyimba District",
+    "country": "ZM",
+    "region": "Eastern Province",
+    "domain": ""
+  },
+  {
+    "id": "ZM-092",
+    "name": "Pemba District",
+    "country": "ZM",
+    "region": "Southern Province",
+    "domain": "",
+    "osm_relation_id": 10663050
+  },
+  {
+    "id": "ZM-093",
+    "name": "Petauke District",
+    "country": "ZM",
+    "region": "Eastern Province",
+    "domain": "",
+    "osm_relation_id": 10686387
+  },
+  {
+    "id": "ZM-094",
+    "name": "Rufunsa District",
+    "country": "ZM",
+    "region": "Lusaka Province",
+    "domain": "",
+    "osm_relation_id": 10663931
+  },
+  {
+    "id": "ZM-095",
+    "name": "Samfya District",
+    "country": "ZM",
+    "region": "Luapula Province",
+    "domain": ""
+  },
+  {
+    "id": "ZM-096",
+    "name": "Senanga District",
+    "country": "ZM",
+    "region": "Western Province",
+    "domain": "",
+    "osm_relation_id": 10670519
+  },
+  {
+    "id": "ZM-097",
+    "name": "Senga District",
+    "country": "ZM",
+    "region": "Northern Province",
+    "domain": "",
+    "osm_relation_id": 14477489
+  },
+  {
+    "id": "ZM-098",
+    "name": "Serenje District",
+    "country": "ZM",
+    "region": "Central Province",
+    "domain": ""
+  },
+  {
+    "id": "ZM-099",
+    "name": "Sesheke District",
+    "country": "ZM",
+    "region": "Western Province",
+    "domain": "",
+    "osm_relation_id": 10672373
+  },
+  {
+    "id": "ZM-100",
+    "name": "Shangombo District",
+    "country": "ZM",
+    "region": "Western Province",
+    "domain": ""
+  },
+  {
+    "id": "ZM-101",
+    "name": "Shibuyunji District",
+    "country": "ZM",
+    "region": "Central Province",
+    "domain": "",
+    "osm_relation_id": 10663809
+  },
+  {
+    "id": "ZM-102",
+    "name": "Shiwang'andu District",
+    "country": "ZM",
+    "region": "Muchinga Province",
+    "domain": ""
+  },
+  {
+    "id": "ZM-103",
+    "name": "Shiwangándu District",
+    "country": "ZM",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "ZM-104",
+    "name": "Siavonga District",
+    "country": "ZM",
+    "region": "Southern Province",
+    "domain": "",
+    "osm_relation_id": 10663083
+  },
+  {
+    "id": "ZM-105",
+    "name": "Sikongo District",
+    "country": "ZM",
+    "region": "Western Province",
+    "domain": "",
+    "osm_relation_id": 10670050
+  },
+  {
+    "id": "ZM-106",
+    "name": "Sinazongwe District",
+    "country": "ZM",
+    "region": "Southern Province",
+    "domain": "",
+    "osm_relation_id": 10663027
+  },
+  {
+    "id": "ZM-107",
+    "name": "Sinda District",
+    "country": "ZM",
+    "region": "",
+    "domain": "",
+    "osm_relation_id": 10686516
+  },
+  {
+    "id": "ZM-108",
+    "name": "Sinda District",
+    "country": "ZM",
+    "region": "Eastern Province",
+    "domain": ""
+  },
+  {
+    "id": "ZM-109",
+    "name": "Sioma District",
+    "country": "ZM",
+    "region": "Western Province",
+    "domain": "",
+    "osm_relation_id": 10670597
+  },
+  {
+    "id": "ZM-110",
+    "name": "Solwezi District",
+    "country": "ZM",
+    "region": "Northwestern Province",
+    "domain": "",
+    "osm_relation_id": 10665487
+  },
+  {
+    "id": "ZM-111",
+    "name": "Vubwi District",
+    "country": "ZM",
+    "region": "Eastern Province",
+    "domain": "",
+    "osm_relation_id": 10686636
+  },
+  {
+    "id": "ZM-112",
+    "name": "Zambezi District",
+    "country": "ZM",
+    "region": "Northwestern Province",
+    "domain": "",
+    "osm_relation_id": 10667393
+  },
+  {
+    "id": "ZM-113",
+    "name": "Zimba District",
+    "country": "ZM",
+    "region": "Southern Province",
+    "domain": "",
+    "osm_relation_id": 10662796
+  }
+]
