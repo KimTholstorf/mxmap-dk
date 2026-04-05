@@ -5,7 +5,8 @@
     "country": "EE",
     "region": "Harju maakond",
     "domain": "tallinn.ee",
-    "osm_relation_id": 2580784
+    "osm_relation_id": 2580784,
+    "population": 457572
   },
   {
     "id": "EE-0141",
@@ -13,7 +14,8 @@
     "country": "EE",
     "region": "Harju maakond",
     "domain": "anija.ee",
-    "osm_relation_id": 2631369
+    "osm_relation_id": 2631369,
+    "population": 6478
   },
   {
     "id": "EE-0198",
@@ -21,7 +23,8 @@
     "country": "EE",
     "region": "Harju maakond",
     "domain": "harku.ee",
-    "osm_relation_id": 2631430
+    "osm_relation_id": 2631430,
+    "population": 18176
   },
   {
     "id": "EE-0245",
@@ -29,7 +32,8 @@
     "country": "EE",
     "region": "Harju maakond",
     "domain": "joelahtme.ee",
-    "osm_relation_id": 2631502
+    "osm_relation_id": 2631502,
+    "population": 7552
   },
   {
     "id": "EE-0279",
@@ -37,7 +41,8 @@
     "country": "EE",
     "region": "Harju maakond",
     "domain": "keila.ee",
-    "osm_relation_id": 2631537
+    "osm_relation_id": 2631537,
+    "population": 10964
   },
   {
     "id": "EE-0296",
@@ -45,7 +50,8 @@
     "country": "EE",
     "region": "Harju maakond",
     "domain": "kiilivald.ee",
-    "osm_relation_id": 2631555
+    "osm_relation_id": 2631555,
+    "population": 6709
   },
   {
     "id": "EE-0338",
@@ -53,7 +59,8 @@
     "country": "EE",
     "region": "Harju maakond",
     "domain": "kosevald.ee",
-    "osm_relation_id": 2631566
+    "osm_relation_id": 2631566,
+    "population": 7839
   },
   {
     "id": "EE-0353",
@@ -61,7 +68,8 @@
     "country": "EE",
     "region": "Harju maakond",
     "domain": "kuusalu.ee",
-    "osm_relation_id": 2631575
+    "osm_relation_id": 2631575,
+    "population": 6459
   },
   {
     "id": "EE-0424",
@@ -69,7 +77,8 @@
     "country": "EE",
     "region": "Harju maakond",
     "domain": "loksa.ee",
-    "osm_relation_id": 2631580
+    "osm_relation_id": 2631580,
+    "population": 2536
   },
   {
     "id": "EE-0431",
@@ -77,7 +86,8 @@
     "country": "EE",
     "region": "Harju maakond",
     "domain": "laaneharju.ee",
-    "osm_relation_id": 9622893
+    "osm_relation_id": 9622893,
+    "population": 13837
   },
   {
     "id": "EE-0446",
@@ -85,7 +95,8 @@
     "country": "EE",
     "region": "Harju maakond",
     "domain": "maardu.ee",
-    "osm_relation_id": 2631624
+    "osm_relation_id": 2631624,
+    "population": 17017
   },
   {
     "id": "EE-0651",
@@ -93,7 +104,8 @@
     "country": "EE",
     "region": "Harju maakond",
     "domain": "raasiku.ee",
-    "osm_relation_id": 2631635
+    "osm_relation_id": 2631635,
+    "population": 5345
   },
   {
     "id": "EE-0653",
@@ -101,7 +113,8 @@
     "country": "EE",
     "region": "Harju maakond",
     "domain": "rae.ee",
-    "osm_relation_id": 2631644
+    "osm_relation_id": 2631644,
+    "population": 24902
   },
   {
     "id": "EE-0718",
@@ -109,7 +122,8 @@
     "country": "EE",
     "region": "Harju maakond",
     "domain": "sakuvald.ee",
-    "osm_relation_id": 2631660
+    "osm_relation_id": 2631660,
+    "population": 11832
   },
   {
     "id": "EE-0726",
@@ -117,7 +131,8 @@
     "country": "EE",
     "region": "Harju maakond",
     "domain": "sauevald.ee",
-    "osm_relation_id": 8414542
+    "osm_relation_id": 8414542,
+    "population": 26079
   },
   {
     "id": "EE-0890",
@@ -125,7 +140,8 @@
     "country": "EE",
     "region": "Harju maakond",
     "domain": "viimsi.ee",
-    "osm_relation_id": 2631700
+    "osm_relation_id": 2631700,
+    "population": 23018
   },
   {
     "id": "EE-0205",
@@ -133,7 +149,8 @@
     "country": "EE",
     "region": "Hiiu maakond",
     "domain": "hiiumaa.ee",
-    "osm_relation_id": 9702498
+    "osm_relation_id": 9702498,
+    "population": 8995
   },
   {
     "id": "EE-0130",
@@ -141,7 +158,8 @@
     "country": "EE",
     "region": "Ida-Viru maakond",
     "domain": "alutagusevald.ee",
-    "osm_relation_id": 9622858
+    "osm_relation_id": 9622858,
+    "population": 4176
   },
   {
     "id": "EE-0251",
@@ -149,7 +167,8 @@
     "country": "EE",
     "region": "Ida-Viru maakond",
     "domain": "johvi.ee",
-    "osm_relation_id": 2625849
+    "osm_relation_id": 2625849,
+    "population": 12391
   },
   {
     "id": "EE-0321",
@@ -157,7 +176,8 @@
     "country": "EE",
     "region": "Ida-Viru maakond",
     "domain": "kohtla-jarve.ee",
-    "osm_relation_id": 2625875
+    "osm_relation_id": 2625875,
+    "population": 33434
   },
   {
     "id": "EE-0428",
@@ -165,7 +185,8 @@
     "country": "EE",
     "region": "Ida-Viru maakond",
     "domain": "lyganuse.ee",
-    "osm_relation_id": 8414579
+    "osm_relation_id": 8414579,
+    "population": 8250
   },
   {
     "id": "EE-0511",
@@ -173,7 +194,8 @@
     "country": "EE",
     "region": "Ida-Viru maakond",
     "domain": "narva.ee",
-    "osm_relation_id": 1900592
+    "osm_relation_id": 1900592,
+    "population": 53360
   },
   {
     "id": "EE-0514",
@@ -181,7 +203,8 @@
     "country": "EE",
     "region": "Ida-Viru maakond",
     "domain": "narva-joesuu.ee",
-    "osm_relation_id": 2625901
+    "osm_relation_id": 2625901,
+    "population": 4269
   },
   {
     "id": "EE-0735",
@@ -189,7 +212,8 @@
     "country": "EE",
     "region": "Ida-Viru maakond",
     "domain": "sillamae.ee",
-    "osm_relation_id": 1753498
+    "osm_relation_id": 1753498,
+    "population": 12352
   },
   {
     "id": "EE-0803",
@@ -197,7 +221,8 @@
     "country": "EE",
     "region": "Ida-Viru maakond",
     "domain": "toila.ee",
-    "osm_relation_id": 8414613
+    "osm_relation_id": 8414613,
+    "population": 4268
   },
   {
     "id": "EE-0255",
@@ -205,7 +230,8 @@
     "country": "EE",
     "region": "Jõgeva maakond",
     "domain": "jogeva.ee",
-    "osm_relation_id": 8414569
+    "osm_relation_id": 8414569,
+    "population": 13122
   },
   {
     "id": "EE-0486",
@@ -213,7 +239,8 @@
     "country": "EE",
     "region": "Jõgeva maakond",
     "domain": "mustvee.ee",
-    "osm_relation_id": 9622882
+    "osm_relation_id": 9622882,
+    "population": 4952
   },
   {
     "id": "EE-0622",
@@ -221,7 +248,8 @@
     "country": "EE",
     "region": "Jõgeva maakond",
     "domain": "poltsamaa.ee",
-    "osm_relation_id": 8414596
+    "osm_relation_id": 8414596,
+    "population": 9665
   },
   {
     "id": "EE-0247",
@@ -229,7 +257,8 @@
     "country": "EE",
     "region": "Järva maakond",
     "domain": "jarvavald.ee",
-    "osm_relation_id": 9622870
+    "osm_relation_id": 9622870,
+    "population": 8725
   },
   {
     "id": "EE-0586",
@@ -237,7 +266,8 @@
     "country": "EE",
     "region": "Järva maakond",
     "domain": "paide.ee",
-    "osm_relation_id": 8414588
+    "osm_relation_id": 8414588,
+    "population": 10664
   },
   {
     "id": "EE-0834",
@@ -245,7 +275,8 @@
     "country": "EE",
     "region": "Järva maakond",
     "domain": "tyri.ee",
-    "osm_relation_id": 8414622
+    "osm_relation_id": 8414622,
+    "population": 10683
   },
   {
     "id": "EE-0191",
@@ -253,7 +284,8 @@
     "country": "EE",
     "region": "Lääne-Viru maakond",
     "domain": "haljala.ee",
-    "osm_relation_id": 8414551
+    "osm_relation_id": 8414551,
+    "population": 4072
   },
   {
     "id": "EE-0261",
@@ -261,7 +293,8 @@
     "country": "EE",
     "region": "Lääne-Viru maakond",
     "domain": "kadrina.ee",
-    "osm_relation_id": 2638049
+    "osm_relation_id": 2638049,
+    "population": 4799
   },
   {
     "id": "EE-0663",
@@ -269,7 +302,8 @@
     "country": "EE",
     "region": "Lääne-Viru maakond",
     "domain": "rakvere.ee",
-    "osm_relation_id": 2638225
+    "osm_relation_id": 2638225,
+    "population": 15695
   },
   {
     "id": "EE-0665",
@@ -277,7 +311,8 @@
     "country": "EE",
     "region": "Lääne-Viru maakond",
     "domain": "rakverevald.ee",
-    "osm_relation_id": 2638231
+    "osm_relation_id": 2638231,
+    "population": 15695
   },
   {
     "id": "EE-0792",
@@ -285,7 +320,8 @@
     "country": "EE",
     "region": "Lääne-Viru maakond",
     "domain": "tapa.ee",
-    "osm_relation_id": 8414609
+    "osm_relation_id": 8414609,
+    "population": 11082
   },
   {
     "id": "EE-0862",
@@ -293,7 +329,8 @@
     "country": "EE",
     "region": "Lääne-Viru maakond",
     "domain": "vinnivald.ee",
-    "osm_relation_id": 8414628
+    "osm_relation_id": 8414628,
+    "population": 6716
   },
   {
     "id": "EE-0870",
@@ -301,7 +338,8 @@
     "country": "EE",
     "region": "Lääne-Viru maakond",
     "domain": "viru-nigula.ee",
-    "osm_relation_id": 9622897
+    "osm_relation_id": 9622897,
+    "population": 5813
   },
   {
     "id": "EE-0903",
@@ -309,7 +347,8 @@
     "country": "EE",
     "region": "Lääne-Viru maakond",
     "domain": "v-maarja.ee",
-    "osm_relation_id": 2638647
+    "osm_relation_id": 2638647,
+    "population": 5653
   },
   {
     "id": "EE-0184",
@@ -317,7 +356,8 @@
     "country": "EE",
     "region": "Lääne maakond",
     "domain": "haapsalu.ee",
-    "osm_relation_id": 8414556
+    "osm_relation_id": 8414556,
+    "population": 13379
   },
   {
     "id": "EE-0441",
@@ -325,7 +365,8 @@
     "country": "EE",
     "region": "Lääne maakond",
     "domain": "laanenigula.ee",
-    "osm_relation_id": 9622876
+    "osm_relation_id": 9622876,
+    "population": 6974
   },
   {
     "id": "EE-0907",
@@ -333,7 +374,8 @@
     "country": "EE",
     "region": "Lääne maakond",
     "domain": "vormsi.ee",
-    "osm_relation_id": 2637563
+    "osm_relation_id": 2637563,
+    "population": 411
   },
   {
     "id": "EE-0214",
@@ -341,7 +383,8 @@
     "country": "EE",
     "region": "Pärnu maakond",
     "domain": "haademeeste.ee",
-    "osm_relation_id": 2637535
+    "osm_relation_id": 2637535,
+    "population": 4677
   },
   {
     "id": "EE-0284",
@@ -349,7 +392,8 @@
     "country": "EE",
     "region": "Pärnu maakond",
     "domain": "kihnu.ee",
-    "osm_relation_id": 2637548
+    "osm_relation_id": 2637548,
+    "population": 686
   },
   {
     "id": "EE-0430",
@@ -357,7 +401,8 @@
     "country": "EE",
     "region": "Pärnu maakond",
     "domain": "laanerannavald.ee",
-    "osm_relation_id": 9622878
+    "osm_relation_id": 9622878,
+    "population": 5092
   },
   {
     "id": "EE-0624",
@@ -365,7 +410,8 @@
     "country": "EE",
     "region": "Pärnu maakond",
     "domain": "parnu.ee",
-    "osm_relation_id": 2637573
+    "osm_relation_id": 2637573,
+    "population": 52362
   },
   {
     "id": "EE-0638",
@@ -373,7 +419,8 @@
     "country": "EE",
     "region": "Pärnu maakond",
     "domain": "pparnumaa.ee",
-    "osm_relation_id": 9622887
+    "osm_relation_id": 9622887,
+    "population": 8088
   },
   {
     "id": "EE-0712",
@@ -381,7 +428,8 @@
     "country": "EE",
     "region": "Pärnu maakond",
     "domain": "saarde.ee",
-    "osm_relation_id": 8414600
+    "osm_relation_id": 8414600,
+    "population": 4393
   },
   {
     "id": "EE-0809",
@@ -389,7 +437,8 @@
     "country": "EE",
     "region": "Pärnu maakond",
     "domain": "torivald.ee",
-    "osm_relation_id": 9622895
+    "osm_relation_id": 9622895,
+    "population": 12277
   },
   {
     "id": "EE-0283",
@@ -397,7 +446,8 @@
     "country": "EE",
     "region": "Põlva maakond",
     "domain": "kanepi.ee",
-    "osm_relation_id": 8414573
+    "osm_relation_id": 8414573,
+    "population": 4453
   },
   {
     "id": "EE-0625",
@@ -405,7 +455,8 @@
     "country": "EE",
     "region": "Põlva maakond",
     "domain": "polva.ee",
-    "osm_relation_id": 8414594
+    "osm_relation_id": 8414594,
+    "population": 13534
   },
   {
     "id": "EE-0708",
@@ -413,7 +464,8 @@
     "country": "EE",
     "region": "Põlva maakond",
     "domain": "rapina.ee",
-    "osm_relation_id": 8414602
+    "osm_relation_id": 8414602,
+    "population": 6049
   },
   {
     "id": "EE-0293",
@@ -421,7 +473,8 @@
     "country": "EE",
     "region": "Rapla maakond",
     "domain": "kehtna.ee",
-    "osm_relation_id": 2637974
+    "osm_relation_id": 2637974,
+    "population": 5454
   },
   {
     "id": "EE-0304",
@@ -429,7 +482,8 @@
     "country": "EE",
     "region": "Rapla maakond",
     "domain": "kohila.ee",
-    "osm_relation_id": 2638000
+    "osm_relation_id": 2638000,
+    "population": 7819
   },
   {
     "id": "EE-0468",
@@ -437,7 +491,8 @@
     "country": "EE",
     "region": "Rapla maakond",
     "domain": "marjamaa.ee",
-    "osm_relation_id": 8414582
+    "osm_relation_id": 8414582,
+    "population": 7405
   },
   {
     "id": "EE-0668",
@@ -445,7 +500,8 @@
     "country": "EE",
     "region": "Rapla maakond",
     "domain": "rapla.ee",
-    "osm_relation_id": 8414595
+    "osm_relation_id": 8414595,
+    "population": 13453
   },
   {
     "id": "EE-0478",
@@ -453,7 +509,8 @@
     "country": "EE",
     "region": "Saare maakond",
     "domain": "muhu.ee",
-    "osm_relation_id": 2625899
+    "osm_relation_id": 2625899,
+    "population": 1627
   },
   {
     "id": "EE-0698",
@@ -461,7 +518,8 @@
     "country": "EE",
     "region": "Saare maakond",
     "domain": "ruhnu.ee",
-    "osm_relation_id": 2637558
+    "osm_relation_id": 2637558,
+    "population": 127
   },
   {
     "id": "EE-0714",
@@ -469,7 +527,8 @@
     "country": "EE",
     "region": "Saare maakond",
     "domain": "saaremaavald.ee",
-    "osm_relation_id": 9622890
+    "osm_relation_id": 9622890,
+    "population": 30304
   },
   {
     "id": "EE-0142",
@@ -477,7 +536,8 @@
     "country": "EE",
     "region": "Tartu maakond",
     "domain": "elva.ee",
-    "osm_relation_id": 8414543
+    "osm_relation_id": 8414543,
+    "population": 14863
   },
   {
     "id": "EE-0271",
@@ -485,7 +545,8 @@
     "country": "EE",
     "region": "Tartu maakond",
     "domain": "kambja.ee",
-    "osm_relation_id": 8414571
+    "osm_relation_id": 8414571,
+    "population": 13705
   },
   {
     "id": "EE-0291",
@@ -493,7 +554,8 @@
     "country": "EE",
     "region": "Tartu maakond",
     "domain": "kastre.ee",
-    "osm_relation_id": 9622871
+    "osm_relation_id": 9622871,
+    "population": 6148
   },
   {
     "id": "EE-0432",
@@ -501,7 +563,8 @@
     "country": "EE",
     "region": "Tartu maakond",
     "domain": "luunja.ee",
-    "osm_relation_id": 2628556
+    "osm_relation_id": 2628556,
+    "population": 5612
   },
   {
     "id": "EE-0528",
@@ -509,7 +572,8 @@
     "country": "EE",
     "region": "Tartu maakond",
     "domain": "nvald.ee",
-    "osm_relation_id": 2628580
+    "osm_relation_id": 2628580,
+    "population": 4289
   },
   {
     "id": "EE-0589",
@@ -517,7 +581,8 @@
     "country": "EE",
     "region": "Tartu maakond",
     "domain": "peipsiaare.ee",
-    "osm_relation_id": 9622885
+    "osm_relation_id": 9622885,
+    "population": 5059
   },
   {
     "id": "EE-0793",
@@ -525,7 +590,8 @@
     "country": "EE",
     "region": "Tartu maakond",
     "domain": "tartu.ee",
-    "osm_relation_id": 2628601
+    "osm_relation_id": 2628601,
+    "population": 101032
   },
   {
     "id": "EE-0796",
@@ -533,7 +599,8 @@
     "country": "EE",
     "region": "Tartu maakond",
     "domain": "tartuvald.ee",
-    "osm_relation_id": 8414611
+    "osm_relation_id": 8414611,
+    "population": 101032
   },
   {
     "id": "EE-0557",
@@ -541,7 +608,8 @@
     "country": "EE",
     "region": "Valga maakond",
     "domain": "otepaa.ee",
-    "osm_relation_id": 8414586
+    "osm_relation_id": 8414586,
+    "population": 6342
   },
   {
     "id": "EE-0824",
@@ -549,7 +617,8 @@
     "country": "EE",
     "region": "Valga maakond",
     "domain": "torva.ee",
-    "osm_relation_id": 9622896
+    "osm_relation_id": 9622896,
+    "population": 5889
   },
   {
     "id": "EE-0855",
@@ -557,7 +626,8 @@
     "country": "EE",
     "region": "Valga maakond",
     "domain": "valga.ee",
-    "osm_relation_id": 8414624
+    "osm_relation_id": 8414624,
+    "population": 15693
   },
   {
     "id": "EE-0480",
@@ -565,7 +635,8 @@
     "country": "EE",
     "region": "Viljandi maakond",
     "domain": "mulgivald.ee",
-    "osm_relation_id": 9622880
+    "osm_relation_id": 9622880,
+    "population": 7086
   },
   {
     "id": "EE-0615",
@@ -573,7 +644,8 @@
     "country": "EE",
     "region": "Viljandi maakond",
     "domain": "pohja-sakala.ee",
-    "osm_relation_id": 9622889
+    "osm_relation_id": 9622889,
+    "population": 7748
   },
   {
     "id": "EE-0843",
@@ -581,7 +653,8 @@
     "country": "EE",
     "region": "Viljandi maakond",
     "domain": "viljandi.ee",
-    "osm_relation_id": 2638610
+    "osm_relation_id": 2638610,
+    "population": 17255
   },
   {
     "id": "EE-0847",
@@ -589,7 +662,8 @@
     "country": "EE",
     "region": "Viljandi maakond",
     "domain": "viljandivald.ee",
-    "osm_relation_id": 8414626
+    "osm_relation_id": 8414626,
+    "population": 17255
   },
   {
     "id": "EE-0132",
@@ -597,7 +671,8 @@
     "country": "EE",
     "region": "Võru maakond",
     "domain": "antsla.ee",
-    "osm_relation_id": 2638317
+    "osm_relation_id": 2638317,
+    "population": 4095
   },
   {
     "id": "EE-0699",
@@ -605,7 +680,8 @@
     "country": "EE",
     "region": "Võru maakond",
     "domain": "rougevald.ee",
-    "osm_relation_id": 8414598
+    "osm_relation_id": 8414598,
+    "population": 4748
   },
   {
     "id": "EE-0732",
@@ -613,7 +689,8 @@
     "country": "EE",
     "region": "Võru maakond",
     "domain": "setomaa.ee",
-    "osm_relation_id": 9622891
+    "osm_relation_id": 9622891,
+    "population": 2784
   },
   {
     "id": "EE-0917",
@@ -621,7 +698,8 @@
     "country": "EE",
     "region": "Võru maakond",
     "domain": "voru.ee",
-    "osm_relation_id": 2638662
+    "osm_relation_id": 2638662,
+    "population": 12112
   },
   {
     "id": "EE-0919",
@@ -629,6 +707,7 @@
     "country": "EE",
     "region": "Võru maakond",
     "domain": "voruvald.ee",
-    "osm_relation_id": 8414632
+    "osm_relation_id": 8414632,
+    "population": 12112
   }
 ]
