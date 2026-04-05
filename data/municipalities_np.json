@@ -5,7 +5,8 @@
     "country": "NP",
     "region": "Sudurpashchim Province",
     "domain": "ddcachham.gov.np",
-    "osm_relation_id": 4586285
+    "osm_relation_id": 4586285,
+    "population": 257477
   },
   {
     "id": "NP-002",
@@ -13,7 +14,8 @@
     "country": "NP",
     "region": "Lumbini Province",
     "domain": "ddcarghakhanchi.gov.np",
-    "osm_relation_id": 4589557
+    "osm_relation_id": 4589557,
+    "population": 197632
   },
   {
     "id": "NP-003",
@@ -21,7 +23,8 @@
     "country": "NP",
     "region": "Gandaki Province",
     "domain": "ddcbaglung.gov.np",
-    "osm_relation_id": 4588144
+    "osm_relation_id": 4588144,
+    "population": 268613
   },
   {
     "id": "NP-004",
@@ -29,7 +32,8 @@
     "country": "NP",
     "region": "Sudurpashchim Province",
     "domain": "ddcbaitadi.gov.np",
-    "osm_relation_id": 4586293
+    "osm_relation_id": 4586293,
+    "population": 250898
   },
   {
     "id": "NP-005",
@@ -37,7 +41,8 @@
     "country": "NP",
     "region": "Sudurpashchim Province",
     "domain": "ddcbajhang.gov.np",
-    "osm_relation_id": 4586291
+    "osm_relation_id": 4586291,
+    "population": 195159
   },
   {
     "id": "NP-006",
@@ -45,7 +50,8 @@
     "country": "NP",
     "region": "Sudurpashchim Province",
     "domain": "ddcbajura.gov.np",
-    "osm_relation_id": 4586292
+    "osm_relation_id": 4586292,
+    "population": 138523
   },
   {
     "id": "NP-007",
@@ -53,7 +59,8 @@
     "country": "NP",
     "region": "Lumbini Province",
     "domain": "ddcbanke.gov.np",
-    "osm_relation_id": 4586364
+    "osm_relation_id": 4586364,
+    "population": 603194
   },
   {
     "id": "NP-008",
@@ -61,7 +68,8 @@
     "country": "NP",
     "region": "Madhesh Province",
     "domain": "ddcbara.gov.np",
-    "osm_relation_id": 4589414
+    "osm_relation_id": 4589414,
+    "population": 763137
   },
   {
     "id": "NP-009",
@@ -69,7 +77,8 @@
     "country": "NP",
     "region": "Lumbini Province",
     "domain": "ddcbardiya.gov.np",
-    "osm_relation_id": 4586363
+    "osm_relation_id": 4586363,
+    "population": 459900
   },
   {
     "id": "NP-010",
@@ -77,7 +86,8 @@
     "country": "NP",
     "region": "Bagmati Province",
     "domain": "ddcbhaktapur.gov.np",
-    "osm_relation_id": 4583251
+    "osm_relation_id": 4583251,
+    "population": 432132
   },
   {
     "id": "NP-011",
@@ -85,7 +95,8 @@
     "country": "NP",
     "region": "Koshi Province",
     "domain": "ddcbhojpur.gov.np",
-    "osm_relation_id": 4589467
+    "osm_relation_id": 4589467,
+    "population": 182459
   },
   {
     "id": "NP-012",
@@ -93,7 +104,8 @@
     "country": "NP",
     "region": "Bagmati Province",
     "domain": "ddcchitwan.gov.np",
-    "osm_relation_id": 4589410
+    "osm_relation_id": 4589410,
+    "population": 719859
   },
   {
     "id": "NP-013",
@@ -101,7 +113,8 @@
     "country": "NP",
     "region": "Sudurpashchim Province",
     "domain": "ddcdadeldhura.gov.np",
-    "osm_relation_id": 4586288
+    "osm_relation_id": 4586288,
+    "population": 142094
   },
   {
     "id": "NP-014",
@@ -109,7 +122,8 @@
     "country": "NP",
     "region": "Karnali Province",
     "domain": "ddcdailekh.gov.np",
-    "osm_relation_id": 12228031
+    "osm_relation_id": 12228031,
+    "population": 261770
   },
   {
     "id": "NP-015",
@@ -117,7 +131,8 @@
     "country": "NP",
     "region": "Lumbini Province",
     "domain": "ddcdang.gov.np",
-    "osm_relation_id": 4586360
+    "osm_relation_id": 4586360,
+    "population": 674993
   },
   {
     "id": "NP-016",
@@ -125,7 +140,8 @@
     "country": "NP",
     "region": "Sudurpashchim Province",
     "domain": "ddcdarchula.gov.np",
-    "osm_relation_id": 4586290
+    "osm_relation_id": 4586290,
+    "population": 133310
   },
   {
     "id": "NP-017",
@@ -133,7 +149,8 @@
     "country": "NP",
     "region": "Bagmati Province",
     "domain": "ddcdhading.gov.np",
-    "osm_relation_id": 4583249
+    "osm_relation_id": 4583249,
+    "population": 336067
   },
   {
     "id": "NP-018",
@@ -141,7 +158,8 @@
     "country": "NP",
     "region": "Koshi Province",
     "domain": "ddcdhankuta.gov.np",
-    "osm_relation_id": 4589466
+    "osm_relation_id": 4589466,
+    "population": 163412
   },
   {
     "id": "NP-019",
@@ -149,14 +167,16 @@
     "country": "NP",
     "region": "Madhesh Province",
     "domain": "ddcdhanusha.gov.np",
-    "osm_relation_id": 4589412
+    "osm_relation_id": 4589412,
+    "population": 867747
   },
   {
     "id": "NP-020",
     "name": "Dolakha District",
     "country": "NP",
     "region": "Bagmati Province",
-    "domain": "ddcdolakha.gov.np"
+    "domain": "ddcdolakha.gov.np",
+    "population": 186557
   },
   {
     "id": "NP-021",
@@ -164,7 +184,8 @@
     "country": "NP",
     "region": "Karnali Province",
     "domain": "ddcdolpa.gov.np",
-    "osm_relation_id": 4586359
+    "osm_relation_id": 4586359,
+    "population": 42774
   },
   {
     "id": "NP-022",
@@ -172,14 +193,16 @@
     "country": "NP",
     "region": "Sudurpashchim Province",
     "domain": "ddcdoti.gov.np",
-    "osm_relation_id": 4586289
+    "osm_relation_id": 4586289,
+    "population": 211746
   },
   {
     "id": "NP-023",
     "name": "Eastern Rukum District",
     "country": "NP",
     "region": "Lumbini Province",
-    "domain": ""
+    "domain": "",
+    "population": 56786
   },
   {
     "id": "NP-024",
@@ -187,7 +210,8 @@
     "country": "NP",
     "region": "Gandaki Province",
     "domain": "ddcgorkha.gov.np",
-    "osm_relation_id": 4588150
+    "osm_relation_id": 4588150,
+    "population": 271061
   },
   {
     "id": "NP-025",
@@ -195,7 +219,8 @@
     "country": "NP",
     "region": "Lumbini Province",
     "domain": "ddcgulmi.gov.np",
-    "osm_relation_id": 4589559
+    "osm_relation_id": 4589559,
+    "population": 280160
   },
   {
     "id": "NP-026",
@@ -203,7 +228,8 @@
     "country": "NP",
     "region": "Karnali Province",
     "domain": "ddchumla.gov.np",
-    "osm_relation_id": 4586370
+    "osm_relation_id": 4586370,
+    "population": 55394
   },
   {
     "id": "NP-027",
@@ -211,7 +237,8 @@
     "country": "NP",
     "region": "Koshi Province",
     "domain": "ddcilam.gov.np",
-    "osm_relation_id": 4589476
+    "osm_relation_id": 4589476,
+    "population": 290254
   },
   {
     "id": "NP-028",
@@ -219,7 +246,8 @@
     "country": "NP",
     "region": "Karnali Province",
     "domain": "ddcjajarkot.gov.np",
-    "osm_relation_id": 4586357
+    "osm_relation_id": 4586357,
+    "population": 189360
   },
   {
     "id": "NP-029",
@@ -227,7 +255,8 @@
     "country": "NP",
     "region": "Koshi Province",
     "domain": "ddcjhapa.gov.np",
-    "osm_relation_id": 7522458
+    "osm_relation_id": 7522458,
+    "population": 998054
   },
   {
     "id": "NP-030",
@@ -235,7 +264,8 @@
     "country": "NP",
     "region": "Karnali Province",
     "domain": "ddcjumla.gov.np",
-    "osm_relation_id": 15588737
+    "osm_relation_id": 15588737,
+    "population": 118349
   },
   {
     "id": "NP-031",
@@ -243,7 +273,8 @@
     "country": "NP",
     "region": "Sudurpashchim Province",
     "domain": "ddckailali.gov.np",
-    "osm_relation_id": 4586287
+    "osm_relation_id": 4586287,
+    "population": 904666
   },
   {
     "id": "NP-032",
@@ -251,7 +282,8 @@
     "country": "NP",
     "region": "Karnali Province",
     "domain": "ddckalikot.gov.np",
-    "osm_relation_id": 4586361
+    "osm_relation_id": 4586361,
+    "population": 145292
   },
   {
     "id": "NP-033",
@@ -259,7 +291,8 @@
     "country": "NP",
     "region": "Sudurpashchim Province",
     "domain": "ddckanchanpur.gov.np",
-    "osm_relation_id": 4586286
+    "osm_relation_id": 4586286,
+    "population": 513757
   },
   {
     "id": "NP-034",
@@ -267,7 +300,8 @@
     "country": "NP",
     "region": "Lumbini Province",
     "domain": "ddckapilvastu.gov.np",
-    "osm_relation_id": 4589558
+    "osm_relation_id": 4589558,
+    "population": 682961
   },
   {
     "id": "NP-035",
@@ -275,7 +309,8 @@
     "country": "NP",
     "region": "Gandaki Province",
     "domain": "ddckaski.gov.np",
-    "osm_relation_id": 4588149
+    "osm_relation_id": 4588149,
+    "population": 600051
   },
   {
     "id": "NP-036",
@@ -283,7 +318,8 @@
     "country": "NP",
     "region": "Bagmati Province",
     "domain": "ddcktm.gov.np",
-    "osm_relation_id": 4583247
+    "osm_relation_id": 4583247,
+    "population": 2041587
   },
   {
     "id": "NP-037",
@@ -291,7 +327,8 @@
     "country": "NP",
     "region": "Bagmati Province",
     "domain": "",
-    "osm_relation_id": 4583248
+    "osm_relation_id": 4583248,
+    "population": 381937
   },
   {
     "id": "NP-038",
@@ -299,7 +336,8 @@
     "country": "NP",
     "region": "Koshi Province",
     "domain": "ddckhotang.gov.np",
-    "osm_relation_id": 4589464
+    "osm_relation_id": 4589464,
+    "population": 206312
   },
   {
     "id": "NP-039",
@@ -307,7 +345,8 @@
     "country": "NP",
     "region": "Bagmati Province",
     "domain": "",
-    "osm_relation_id": 4583253
+    "osm_relation_id": 4583253,
+    "population": 551667
   },
   {
     "id": "NP-040",
@@ -315,7 +354,8 @@
     "country": "NP",
     "region": "Gandaki Province",
     "domain": "ddclamjung.gov.np",
-    "osm_relation_id": 4588153
+    "osm_relation_id": 4588153,
+    "population": 167724
   },
   {
     "id": "NP-041",
@@ -323,7 +363,8 @@
     "country": "NP",
     "region": "Madhesh Province",
     "domain": "ddcmahottari.gov.np",
-    "osm_relation_id": 4589416
+    "osm_relation_id": 4589416,
+    "population": 706994
   },
   {
     "id": "NP-042",
@@ -331,7 +372,8 @@
     "country": "NP",
     "region": "Bagmati Province",
     "domain": "ddcmakwanpur.gov.np",
-    "osm_relation_id": 4589415
+    "osm_relation_id": 4589415,
+    "population": 466073
   },
   {
     "id": "NP-043",
@@ -339,7 +381,8 @@
     "country": "NP",
     "region": "Gandaki Province",
     "domain": "ddcmanang.gov.np",
-    "osm_relation_id": 4588152
+    "osm_relation_id": 4588152,
+    "population": 6538
   },
   {
     "id": "NP-044",
@@ -347,7 +390,8 @@
     "country": "NP",
     "region": "Koshi Province",
     "domain": "",
-    "osm_relation_id": 4589468
+    "osm_relation_id": 4589468,
+    "population": 1148156
   },
   {
     "id": "NP-045",
@@ -355,7 +399,8 @@
     "country": "NP",
     "region": "Karnali Province",
     "domain": "ddcmugu.gov.np",
-    "osm_relation_id": 4586365
+    "osm_relation_id": 4586365,
+    "population": 64549
   },
   {
     "id": "NP-046",
@@ -363,7 +408,8 @@
     "country": "NP",
     "region": "Gandaki Zone",
     "domain": "ddcmustang.gov.np",
-    "osm_relation_id": 4588145
+    "osm_relation_id": 4588145,
+    "population": 14452
   },
   {
     "id": "NP-047",
@@ -371,7 +417,8 @@
     "country": "NP",
     "region": "Gandaki Province",
     "domain": "ddcmyagdi.gov.np",
-    "osm_relation_id": 4588146
+    "osm_relation_id": 4588146,
+    "population": 113641
   },
   {
     "id": "NP-048",
@@ -379,7 +426,8 @@
     "country": "NP",
     "region": "Gandaki Province",
     "domain": "",
-    "osm_relation_id": 10489606
+    "osm_relation_id": 10489606,
+    "population": 378079
   },
   {
     "id": "NP-049",
@@ -387,7 +435,8 @@
     "country": "NP",
     "region": "Bagmati Province",
     "domain": "ddcnuwakot.gov.np",
-    "osm_relation_id": 4583250
+    "osm_relation_id": 4583250,
+    "population": 277471
   },
   {
     "id": "NP-050",
@@ -395,7 +444,8 @@
     "country": "NP",
     "region": "Koshi Province",
     "domain": "ddcokhaldhunga.gov.np",
-    "osm_relation_id": 4589463
+    "osm_relation_id": 4589463,
+    "population": 147984
   },
   {
     "id": "NP-051",
@@ -403,7 +453,8 @@
     "country": "NP",
     "region": "Lumbini Province",
     "domain": "ddcpalpa.gov.np",
-    "osm_relation_id": 4589561
+    "osm_relation_id": 4589561,
+    "population": 261180
   },
   {
     "id": "NP-052",
@@ -411,14 +462,16 @@
     "country": "NP",
     "region": "Koshi Province",
     "domain": "ddcpanchthar.gov.np",
-    "osm_relation_id": 4589479
+    "osm_relation_id": 4589479,
+    "population": 191817
   },
   {
     "id": "NP-053",
     "name": "Parasi District",
     "country": "NP",
     "region": "Lumbini Province",
-    "domain": ""
+    "domain": "",
+    "population": 386868
   },
   {
     "id": "NP-054",
@@ -426,7 +479,8 @@
     "country": "NP",
     "region": "Gandaki Province",
     "domain": "ddcparbat.gov.np",
-    "osm_relation_id": 4588143
+    "osm_relation_id": 4588143,
+    "population": 146590
   },
   {
     "id": "NP-055",
@@ -434,7 +488,8 @@
     "country": "NP",
     "region": "Madhesh Province",
     "domain": "ddcparsa.gov.np",
-    "osm_relation_id": 4589413
+    "osm_relation_id": 4589413,
+    "population": 654471
   },
   {
     "id": "NP-056",
@@ -442,7 +497,8 @@
     "country": "NP",
     "region": "Lumbini Province",
     "domain": "ddcpyuthan.gov.np",
-    "osm_relation_id": 4586362
+    "osm_relation_id": 4586362,
+    "population": 232019
   },
   {
     "id": "NP-057",
@@ -450,7 +506,8 @@
     "country": "NP",
     "region": "Bagmati Province",
     "domain": "ddcramechhap.gov.np",
-    "osm_relation_id": 4589417
+    "osm_relation_id": 4589417,
+    "population": 202646
   },
   {
     "id": "NP-058",
@@ -458,7 +515,8 @@
     "country": "NP",
     "region": "Bagmati Province",
     "domain": "ddcrasuwa.gov.np",
-    "osm_relation_id": 4583252
+    "osm_relation_id": 4583252,
+    "population": 45554
   },
   {
     "id": "NP-059",
@@ -466,7 +524,8 @@
     "country": "NP",
     "region": "Madhesh Province",
     "domain": "ddcrautahat.gov.np",
-    "osm_relation_id": 4589418
+    "osm_relation_id": 4589418,
+    "population": 813573
   },
   {
     "id": "NP-060",
@@ -474,7 +533,8 @@
     "country": "NP",
     "region": "Lumbini Province",
     "domain": "ddcrolpa.gov.np",
-    "osm_relation_id": 4586367
+    "osm_relation_id": 4586367,
+    "population": 234793
   },
   {
     "id": "NP-061",
@@ -482,7 +542,8 @@
     "country": "NP",
     "region": "Lumbini Province",
     "domain": "ddcrupandehi.gov.np",
-    "osm_relation_id": 4586049
+    "osm_relation_id": 4586049,
+    "population": 1121957
   },
   {
     "id": "NP-062",
@@ -490,7 +551,8 @@
     "country": "NP",
     "region": "Karnali Province",
     "domain": "ddcsalyan.gov.np",
-    "osm_relation_id": 4586368
+    "osm_relation_id": 4586368,
+    "population": 242444
   },
   {
     "id": "NP-063",
@@ -498,7 +560,8 @@
     "country": "NP",
     "region": "Koshi Province",
     "domain": "ddcsankhuwasabha.gov.np",
-    "osm_relation_id": 4589469
+    "osm_relation_id": 4589469,
+    "population": 158742
   },
   {
     "id": "NP-064",
@@ -506,7 +569,8 @@
     "country": "NP",
     "region": "Madhesh Province",
     "domain": "ddcsaptari.gov.np",
-    "osm_relation_id": 4589470
+    "osm_relation_id": 4589470,
+    "population": 706255
   },
   {
     "id": "NP-065",
@@ -514,7 +578,8 @@
     "country": "NP",
     "region": "Madhesh Province",
     "domain": "ddcsarlahi.gov.np",
-    "osm_relation_id": 4589419
+    "osm_relation_id": 4589419,
+    "population": 862470
   },
   {
     "id": "NP-066",
@@ -522,7 +587,8 @@
     "country": "NP",
     "region": "Bagmati Province",
     "domain": "ddcsindhuli.gov.np",
-    "osm_relation_id": 4589420
+    "osm_relation_id": 4589420,
+    "population": 300026
   },
   {
     "id": "NP-067",
@@ -530,7 +596,8 @@
     "country": "NP",
     "region": "Bagmati Province",
     "domain": "ddcsindhupalchowk.gov.np",
-    "osm_relation_id": 4583254
+    "osm_relation_id": 4583254,
+    "population": 287798
   },
   {
     "id": "NP-068",
@@ -538,7 +605,8 @@
     "country": "NP",
     "region": "Madhesh Province",
     "domain": "ddcsiraha.gov.np",
-    "osm_relation_id": 4589471
+    "osm_relation_id": 4589471,
+    "population": 739953
   },
   {
     "id": "NP-069",
@@ -546,7 +614,8 @@
     "country": "NP",
     "region": "Koshi Province",
     "domain": "ddcsolukhumbu.gov.np",
-    "osm_relation_id": 4589473
+    "osm_relation_id": 4589473,
+    "population": 105886
   },
   {
     "id": "NP-070",
@@ -554,7 +623,8 @@
     "country": "NP",
     "region": "Koshi Province",
     "domain": "ddcsunsari.gov.np",
-    "osm_relation_id": 4589472
+    "osm_relation_id": 4589472,
+    "population": 926962
   },
   {
     "id": "NP-071",
@@ -562,7 +632,8 @@
     "country": "NP",
     "region": "Karnali Province",
     "domain": "",
-    "osm_relation_id": 4586369
+    "osm_relation_id": 4586369,
+    "population": 415126
   },
   {
     "id": "NP-072",
@@ -570,7 +641,8 @@
     "country": "NP",
     "region": "Gandaki Province",
     "domain": "ddcsyangja.gov.np",
-    "osm_relation_id": 5691338
+    "osm_relation_id": 5691338,
+    "population": 289148
   },
   {
     "id": "NP-073",
@@ -578,7 +650,8 @@
     "country": "NP",
     "region": "Gandaki Province",
     "domain": "ddctanahun.gov.np",
-    "osm_relation_id": 4588151
+    "osm_relation_id": 4588151,
+    "population": 323288
   },
   {
     "id": "NP-074",
@@ -586,7 +659,8 @@
     "country": "NP",
     "region": "Koshi Province",
     "domain": "ddctaplejung.gov.np",
-    "osm_relation_id": 4589478
+    "osm_relation_id": 4589478,
+    "population": 127461
   },
   {
     "id": "NP-075",
@@ -594,7 +668,8 @@
     "country": "NP",
     "region": "Koshi Province",
     "domain": "dcctehrathum.gov.np",
-    "osm_relation_id": 4589465
+    "osm_relation_id": 4589465,
+    "population": 101577
   },
   {
     "id": "NP-076",
@@ -602,7 +677,8 @@
     "country": "NP",
     "region": "Koshi Province",
     "domain": "ddcudayapur.gov.np",
-    "osm_relation_id": 4589462
+    "osm_relation_id": 4589462,
+    "population": 340721
   },
   {
     "id": "NP-077",
@@ -610,6 +686,7 @@
     "country": "NP",
     "region": "Karnali Province",
     "domain": "",
-    "osm_relation_id": 10493724
+    "osm_relation_id": 10493724,
+    "population": 166740
   }
 ]

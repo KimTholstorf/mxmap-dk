@@ -5,7 +5,8 @@
     "country": "SA",
     "region": "Saudi Arabia",
     "domain": "albaha.gov.sa",
-    "osm_relation_id": 3679888
+    "osm_relation_id": 3679888,
+    "population": 476172
   },
   {
     "id": "SA-002",
@@ -13,7 +14,8 @@
     "country": "SA",
     "region": "Saudi Arabia",
     "domain": "",
-    "osm_relation_id": 3842543
+    "osm_relation_id": 3842543,
+    "population": 508475
   },
   {
     "id": "SA-003",
@@ -21,7 +23,8 @@
     "country": "SA",
     "region": "Saudi Arabia",
     "domain": "",
-    "osm_relation_id": 3679872
+    "osm_relation_id": 3679872,
+    "population": 1215858
   },
   {
     "id": "SA-004",
@@ -36,7 +39,8 @@
     "country": "SA",
     "region": "Saudi Arabia",
     "domain": "",
-    "osm_relation_id": 3678598
+    "osm_relation_id": 3678598,
+    "population": 2211875
   },
   {
     "id": "SA-006",
@@ -44,7 +48,8 @@
     "country": "SA",
     "region": "Saudi Arabia",
     "domain": "easternemara.gov.sa",
-    "osm_relation_id": 3667294
+    "osm_relation_id": 3667294,
+    "population": 4105780
   },
   {
     "id": "SA-007",
@@ -52,7 +57,8 @@
     "country": "SA",
     "region": "Saudi Arabia",
     "domain": "jazan.sa",
-    "osm_relation_id": 3679903
+    "osm_relation_id": 3679903,
+    "population": 1567547
   },
   {
     "id": "SA-008",
@@ -60,7 +66,8 @@
     "country": "SA",
     "region": "Saudi Arabia",
     "domain": "",
-    "osm_relation_id": 3678639
+    "osm_relation_id": 3678639,
+    "population": 6915006
   },
   {
     "id": "SA-009",
@@ -68,7 +75,8 @@
     "country": "SA",
     "region": "Saudi Arabia",
     "domain": "",
-    "osm_relation_id": 3679869
+    "osm_relation_id": 3679869,
+    "population": 2132679
   },
   {
     "id": "SA-010",
@@ -76,7 +84,8 @@
     "country": "SA",
     "region": "Saudi Arabia",
     "domain": "najran.gov.sa",
-    "osm_relation_id": 3667317
+    "osm_relation_id": 3667317,
+    "population": 505652
   },
   {
     "id": "SA-011",
@@ -84,7 +93,8 @@
     "country": "SA",
     "region": "Saudi Arabia",
     "domain": "",
-    "osm_relation_id": 3673927
+    "osm_relation_id": 3673927,
+    "population": 375310
   },
   {
     "id": "SA-012",
@@ -92,7 +102,8 @@
     "country": "SA",
     "region": "Saudi Arabia",
     "domain": "riyadh.gov.sa",
-    "osm_relation_id": 3678409
+    "osm_relation_id": 3678409,
+    "population": 6777146
   },
   {
     "id": "SA-013",
@@ -100,7 +111,8 @@
     "country": "SA",
     "region": "Saudi Arabia",
     "domain": "",
-    "osm_relation_id": 3679867
+    "osm_relation_id": 3679867,
+    "population": 791535
   },
   {
     "id": "SA-014",
@@ -108,6 +120,7 @@
     "country": "SA",
     "region": "Saudi Arabia",
     "domain": "spaceref.com",
-    "osm_relation_id": 3676707
+    "osm_relation_id": 3676707,
+    "population": 597144
   }
 ]

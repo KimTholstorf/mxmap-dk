@@ -4,21 +4,24 @@
     "name": "Aafir",
     "country": "DZ",
     "region": "Boumerdès Province",
-    "domain": ""
+    "domain": "",
+    "population": 13223
   },
   {
     "id": "DZ-002",
     "name": "Abadla",
     "country": "DZ",
     "region": "Abadla District",
-    "domain": ""
+    "domain": "",
+    "population": 13636
   },
   {
     "id": "DZ-003",
     "name": "Abalessa",
     "country": "DZ",
     "region": "Abalessa District",
-    "domain": ""
+    "domain": "",
+    "population": 9163
   },
   {
     "id": "DZ-004",
@@ -33,7 +36,8 @@
     "name": "Abi Youcef",
     "country": "DZ",
     "region": "Aïn El Hammam District",
-    "domain": ""
+    "domain": "",
+    "population": 7693
   },
   {
     "id": "DZ-006",
@@ -54,7 +58,8 @@
     "name": "Adrar",
     "country": "DZ",
     "region": "Adrar District",
-    "domain": ""
+    "domain": "",
+    "population": 68276
   },
   {
     "id": "DZ-009",
@@ -76,7 +81,8 @@
     "country": "DZ",
     "region": "Bouira Province",
     "domain": "",
-    "osm_relation_id": 3397589
+    "osm_relation_id": 3397589,
+    "population": 19517
   },
   {
     "id": "DZ-012",
@@ -84,21 +90,24 @@
     "country": "DZ",
     "region": "Aïn Kihel District",
     "domain": "",
-    "osm_relation_id": 6535195
+    "osm_relation_id": 6535195,
+    "population": 6899
   },
   {
     "id": "DZ-013",
     "name": "Aghrib",
     "country": "DZ",
     "region": "Azeffoun District",
-    "domain": ""
+    "domain": "",
+    "population": 12474
   },
   {
     "id": "DZ-014",
     "name": "Agouni Gueghrane",
     "country": "DZ",
     "region": "Ouadhia District",
-    "domain": ""
+    "domain": "",
+    "population": 9692
   },
   {
     "id": "DZ-015",
@@ -128,7 +137,8 @@
     "name": "Ahnif",
     "country": "DZ",
     "region": "M'Chedellah District",
-    "domain": ""
+    "domain": "",
+    "population": 9685
   },
   {
     "id": "DZ-019",
@@ -226,7 +236,8 @@
     "country": "DZ",
     "region": "Bouïra District",
     "domain": "",
-    "osm_relation_id": 3416156
+    "osm_relation_id": 3416156,
+    "population": 14430
   },
   {
     "id": "DZ-032",
@@ -249,7 +260,8 @@
     "name": "Akabli",
     "country": "DZ",
     "region": "Aoulef District",
-    "domain": ""
+    "domain": "",
+    "population": 10171
   },
   {
     "id": "DZ-035",
@@ -257,14 +269,16 @@
     "country": "DZ",
     "region": "Aïn El Hammam District",
     "domain": "",
-    "osm_relation_id": 4288635
+    "osm_relation_id": 4288635,
+    "population": 8898
   },
   {
     "id": "DZ-036",
     "name": "Akbou",
     "country": "DZ",
     "region": "Akbou District",
-    "domain": ""
+    "domain": "",
+    "population": 52282
   },
   {
     "id": "DZ-037",
@@ -272,7 +286,8 @@
     "country": "DZ",
     "region": "Azeffoun District",
     "domain": "",
-    "osm_relation_id": 4285411
+    "osm_relation_id": 4285411,
+    "population": 4660
   },
   {
     "id": "DZ-038",
@@ -301,7 +316,8 @@
     "name": "Amalou",
     "country": "DZ",
     "region": "Seddouk District",
-    "domain": ""
+    "domain": "",
+    "population": 8602
   },
   {
     "id": "DZ-042",
@@ -346,7 +362,8 @@
     "name": "Ammal",
     "country": "DZ",
     "region": "Thénia District",
-    "domain": ""
+    "domain": "",
+    "population": 8505
   },
   {
     "id": "DZ-048",
@@ -369,7 +386,8 @@
     "country": "DZ",
     "region": "Amoucha District",
     "domain": "",
-    "osm_relation_id": 1625324
+    "osm_relation_id": 1625324,
+    "population": 22767
   },
   {
     "id": "DZ-051",
@@ -384,7 +402,8 @@
     "name": "Annaba",
     "country": "DZ",
     "region": "Annaba District",
-    "domain": ""
+    "domain": "",
+    "population": 257359
   },
   {
     "id": "DZ-053",
@@ -398,7 +417,8 @@
     "name": "Aomar",
     "country": "DZ",
     "region": "Kadiria District",
-    "domain": ""
+    "domain": "",
+    "population": 20532
   },
   {
     "id": "DZ-055",
@@ -421,14 +441,16 @@
     "name": "Aougrout",
     "country": "DZ",
     "region": "Aougrout District",
-    "domain": ""
+    "domain": "",
+    "population": 11784
   },
   {
     "id": "DZ-058",
     "name": "Aoulef",
     "country": "DZ",
     "region": "Aoulef District",
-    "domain": ""
+    "domain": "",
+    "population": 21723
   },
   {
     "id": "DZ-059",
@@ -487,7 +509,8 @@
     "name": "Assi Youcef",
     "country": "DZ",
     "region": "Boghni District",
-    "domain": ""
+    "domain": "",
+    "population": 14789
   },
   {
     "id": "DZ-067",
@@ -495,7 +518,8 @@
     "country": "DZ",
     "region": "Ouaguenoun District",
     "domain": "",
-    "osm_relation_id": 3080944
+    "osm_relation_id": 3080944,
+    "population": 20268
   },
   {
     "id": "DZ-068",
@@ -524,14 +548,16 @@
     "name": "Azazga",
     "country": "DZ",
     "region": "Azazga District",
-    "domain": ""
+    "domain": "",
+    "population": 34683
   },
   {
     "id": "DZ-072",
     "name": "Azeffoun",
     "country": "DZ",
     "region": "Azeffoun District",
-    "domain": ""
+    "domain": "",
+    "population": 16847
   },
   {
     "id": "DZ-073",
@@ -545,14 +571,16 @@
     "name": "Azzaba",
     "country": "DZ",
     "region": "Azzaba District",
-    "domain": ""
+    "domain": "",
+    "population": 56922
   },
   {
     "id": "DZ-075",
     "name": "Aïn Abessa",
     "country": "DZ",
     "region": "Aïn Arnat District",
-    "domain": ""
+    "domain": "",
+    "population": 16770
   },
   {
     "id": "DZ-076",
@@ -574,7 +602,8 @@
     "name": "Aïn Arnat",
     "country": "DZ",
     "region": "Aïn Arnat District",
-    "domain": ""
+    "domain": "",
+    "population": 43551
   },
   {
     "id": "DZ-079",
@@ -582,7 +611,8 @@
     "country": "DZ",
     "region": "Aïn Azel District",
     "domain": "",
-    "osm_relation_id": 4298137
+    "osm_relation_id": 4298137,
+    "population": 48487
   },
   {
     "id": "DZ-080",
@@ -635,7 +665,8 @@
     "name": "Aïn Beïda",
     "country": "DZ",
     "region": "Aïn Beïda District",
-    "domain": ""
+    "domain": "",
+    "population": 116064
   },
   {
     "id": "DZ-087",
@@ -748,7 +779,8 @@
     "name": "Aïn El Arbaa",
     "country": "DZ",
     "region": "Aïn Larbaâ District",
-    "domain": ""
+    "domain": "",
+    "population": 15140
   },
   {
     "id": "DZ-102",
@@ -784,7 +816,8 @@
     "name": "Aïn El Hammam",
     "country": "DZ",
     "region": "Tizi Ouzou Province",
-    "domain": ""
+    "domain": "",
+    "population": 20401
   },
   {
     "id": "DZ-107",
@@ -981,7 +1014,8 @@
     "country": "DZ",
     "region": "Aïn Kihel District",
     "domain": "",
-    "osm_relation_id": 6535197
+    "osm_relation_id": 6535197,
+    "population": 3477
   },
   {
     "id": "DZ-133",
@@ -1019,7 +1053,8 @@
     "name": "Aïn M'lila",
     "country": "DZ",
     "region": "Aïn M'Lila District",
-    "domain": ""
+    "domain": "",
+    "population": 88441
   },
   {
     "id": "DZ-138",
@@ -1093,7 +1128,8 @@
     "name": "Aïn Oussera",
     "country": "DZ",
     "region": "Aïn Oussera District",
-    "domain": ""
+    "domain": "",
+    "population": 101239
   },
   {
     "id": "DZ-148",
@@ -1122,7 +1158,8 @@
     "name": "Aïn Roua",
     "country": "DZ",
     "region": "Bougaâ District",
-    "domain": ""
+    "domain": "",
+    "population": 11499
   },
   {
     "id": "DZ-152",
@@ -1137,7 +1174,8 @@
     "country": "DZ",
     "region": "Béni Aziz District",
     "domain": "",
-    "osm_relation_id": 1618549
+    "osm_relation_id": 1618549,
+    "population": 14798
   },
   {
     "id": "DZ-154",
@@ -1244,7 +1282,8 @@
     "country": "DZ",
     "region": "Aïn Kihel District",
     "domain": "",
-    "osm_relation_id": 6535199
+    "osm_relation_id": 6535199,
+    "population": 12485
   },
   {
     "id": "DZ-168",
@@ -1273,7 +1312,8 @@
     "name": "Aïn Turk",
     "country": "DZ",
     "region": "Bouïra District",
-    "domain": ""
+    "domain": "",
+    "population": 7849
   },
   {
     "id": "DZ-172",
@@ -1287,7 +1327,8 @@
     "name": "Aïn Témouchent",
     "country": "DZ",
     "region": "Aïn Témouchent District",
-    "domain": ""
+    "domain": "",
+    "population": 75558
   },
   {
     "id": "DZ-174",
@@ -1310,7 +1351,8 @@
     "country": "DZ",
     "region": "Draâ El Mizan District",
     "domain": "",
-    "osm_relation_id": 4293792
+    "osm_relation_id": 4293792,
+    "population": 17320
   },
   {
     "id": "DZ-177",
@@ -1347,7 +1389,8 @@
     "name": "Aït Aggouacha",
     "country": "DZ",
     "region": "Larbaâ Nath Irathen District",
-    "domain": ""
+    "domain": "",
+    "population": 4306
   },
   {
     "id": "DZ-182",
@@ -1355,14 +1398,16 @@
     "country": "DZ",
     "region": "Ouadhia District",
     "domain": "",
-    "osm_relation_id": 4292593
+    "osm_relation_id": 4292593,
+    "population": 14435
   },
   {
     "id": "DZ-183",
     "name": "Aït Boumahdi",
     "country": "DZ",
     "region": "Ouacif District",
-    "domain": ""
+    "domain": "",
+    "population": 6113
   },
   {
     "id": "DZ-184",
@@ -1370,7 +1415,8 @@
     "country": "DZ",
     "region": "Azeffoun District",
     "domain": "",
-    "osm_relation_id": 4285400
+    "osm_relation_id": 4285400,
+    "population": 3775
   },
   {
     "id": "DZ-185",
@@ -1386,7 +1432,8 @@
     "country": "DZ",
     "region": "Tazmalt District",
     "domain": "",
-    "osm_relation_id": 2170758
+    "osm_relation_id": 2170758,
+    "population": 8497
   },
   {
     "id": "DZ-187",
@@ -1394,7 +1441,8 @@
     "country": "DZ",
     "region": "Tizi Rached District",
     "domain": "",
-    "osm_relation_id": 4285835
+    "osm_relation_id": 4285835,
+    "population": 8790
   },
   {
     "id": "DZ-188",
@@ -1416,7 +1464,8 @@
     "name": "Aït Toudert",
     "country": "DZ",
     "region": "Ouacif District",
-    "domain": ""
+    "domain": "",
+    "population": 8521
   },
   {
     "id": "DZ-191",
@@ -1424,21 +1473,24 @@
     "country": "DZ",
     "region": "Aïn El Hammam District",
     "domain": "",
-    "osm_relation_id": 2175824
+    "osm_relation_id": 2175824,
+    "population": 14439
   },
   {
     "id": "DZ-192",
     "name": "Aït Yahia Moussa",
     "country": "DZ",
     "region": "Draâ El Mizan District",
-    "domain": ""
+    "domain": "",
+    "population": 20426
   },
   {
     "id": "DZ-193",
     "name": "Aït Yenni",
     "country": "DZ",
     "region": "Beni Yenni District",
-    "domain": ""
+    "domain": "",
+    "population": 5737
   },
   {
     "id": "DZ-194",
@@ -1446,7 +1498,8 @@
     "country": "DZ",
     "region": "Mekla District",
     "domain": "",
-    "osm_relation_id": 4285690
+    "osm_relation_id": 4285690,
+    "population": 11627
   },
   {
     "id": "DZ-195",
@@ -1467,7 +1520,8 @@
     "name": "Bab El Oued",
     "country": "DZ",
     "region": "Bab El Oued District",
-    "domain": ""
+    "domain": "",
+    "population": 64732
   },
   {
     "id": "DZ-198",
@@ -1584,7 +1638,8 @@
     "country": "DZ",
     "region": "Batna District",
     "domain": "",
-    "osm_relation_id": 4224144
+    "osm_relation_id": 4224144,
+    "population": 290645
   },
   {
     "id": "DZ-214",
@@ -1605,7 +1660,8 @@
     "name": "Bechloul",
     "country": "DZ",
     "region": "Bechloul District",
-    "domain": ""
+    "domain": "",
+    "population": 11775
   },
   {
     "id": "DZ-217",
@@ -1748,7 +1804,8 @@
     "name": "Ben Choud",
     "country": "DZ",
     "region": "Boumerdès Province",
-    "domain": ""
+    "domain": "",
+    "population": 9985
   },
   {
     "id": "DZ-236",
@@ -1824,7 +1881,8 @@
     "name": "Benaceur",
     "country": "DZ",
     "region": "Taïbet District",
-    "domain": ""
+    "domain": "",
+    "population": 10330
   },
   {
     "id": "DZ-246",
@@ -1875,14 +1933,16 @@
     "country": "DZ",
     "region": "Beni Douala District",
     "domain": "",
-    "osm_relation_id": 4291589
+    "osm_relation_id": 4291589,
+    "population": 7628
   },
   {
     "id": "DZ-253",
     "name": "Beni Amrane",
     "country": "DZ",
     "region": "Thénia District",
-    "domain": ""
+    "domain": "",
+    "population": 23621
   },
   {
     "id": "DZ-254",
@@ -1890,7 +1950,8 @@
     "country": "DZ",
     "region": "Béni Aziz District",
     "domain": "",
-    "osm_relation_id": 1618551
+    "osm_relation_id": 1618551,
+    "population": 19383
   },
   {
     "id": "DZ-255",
@@ -1956,7 +2017,8 @@
     "name": "Beni Douala",
     "country": "DZ",
     "region": "Beni Douala District",
-    "domain": ""
+    "domain": "",
+    "population": 21551
   },
   {
     "id": "DZ-264",
@@ -1964,7 +2026,8 @@
     "country": "DZ",
     "region": "Djémila District",
     "domain": "",
-    "osm_relation_id": 1618261
+    "osm_relation_id": 1618261,
+    "population": 17667
   },
   {
     "id": "DZ-265",
@@ -2002,7 +2065,8 @@
     "name": "Beni Ksila",
     "country": "DZ",
     "region": "Adekar District",
-    "domain": ""
+    "domain": "",
+    "population": 4385
   },
   {
     "id": "DZ-270",
@@ -2018,7 +2082,8 @@
     "country": "DZ",
     "region": "Béni Maouche District",
     "domain": "",
-    "osm_relation_id": 4070138
+    "osm_relation_id": 4070138,
+    "population": 13412
   },
   {
     "id": "DZ-272",
@@ -2147,7 +2212,8 @@
     "name": "Beni-Zekki",
     "country": "DZ",
     "region": "Bouzguen District",
-    "domain": ""
+    "domain": "",
+    "population": 3381
   },
   {
     "id": "DZ-289",
@@ -2229,7 +2295,8 @@
     "name": "Berrouaghia",
     "country": "DZ",
     "region": "Berrouaghia District",
-    "domain": ""
+    "domain": "",
+    "population": 118678
   },
   {
     "id": "DZ-300",
@@ -2243,7 +2310,8 @@
     "name": "Bethioua",
     "country": "DZ",
     "region": "Bethioua District",
-    "domain": ""
+    "domain": "",
+    "population": 18215
   },
   {
     "id": "DZ-302",
@@ -2324,7 +2392,8 @@
     "name": "Bir Ghbalou",
     "country": "DZ",
     "region": "Bir Ghbalou District",
-    "domain": ""
+    "domain": "",
+    "population": 11016
   },
   {
     "id": "DZ-313",
@@ -2391,7 +2460,8 @@
     "country": "DZ",
     "region": "Biskra District",
     "domain": "",
-    "osm_relation_id": 4120759
+    "osm_relation_id": 4120759,
+    "population": 204661
   },
   {
     "id": "DZ-322",
@@ -2405,7 +2475,8 @@
     "name": "Blida",
     "country": "DZ",
     "region": "Blida District",
-    "domain": ""
+    "domain": "",
+    "population": 191000
   },
   {
     "id": "DZ-324",
@@ -2419,7 +2490,8 @@
     "name": "Boghni",
     "country": "DZ",
     "region": "Boghni District",
-    "domain": ""
+    "domain": "",
+    "population": 31263
   },
   {
     "id": "DZ-326",
@@ -2434,7 +2506,8 @@
     "country": "DZ",
     "region": "Bordj Badji Mokhtar District",
     "domain": "",
-    "osm_relation_id": 4171606
+    "osm_relation_id": 4171606,
+    "population": 16437
   },
   {
     "id": "DZ-328",
@@ -2448,7 +2521,8 @@
     "name": "Bordj Bou Arreridj",
     "country": "DZ",
     "region": "Bordj Bou Arreridj District",
-    "domain": ""
+    "domain": "",
+    "population": 168346
   },
   {
     "id": "DZ-330",
@@ -2513,7 +2587,8 @@
     "name": "Bordj Menaïel",
     "country": "DZ",
     "region": "Bordj Ménaïl District",
-    "domain": ""
+    "domain": "",
+    "population": 64820
   },
   {
     "id": "DZ-339",
@@ -2521,7 +2596,8 @@
     "country": "DZ",
     "region": "Bordj Okhriss District",
     "domain": "",
-    "osm_relation_id": 3399110
+    "osm_relation_id": 3399110,
+    "population": 10467
   },
   {
     "id": "DZ-340",
@@ -2600,14 +2676,16 @@
     "name": "Bou Saada",
     "country": "DZ",
     "region": "Bou Saâda District",
-    "domain": ""
+    "domain": "",
+    "population": 250
   },
   {
     "id": "DZ-351",
     "name": "Bou Zedjar",
     "country": "DZ",
     "region": "El Amria District",
-    "domain": ""
+    "domain": "",
+    "population": 4387
   },
   {
     "id": "DZ-352",
@@ -2629,7 +2707,8 @@
     "country": "DZ",
     "region": "Bouandas District",
     "domain": "",
-    "osm_relation_id": 2449042
+    "osm_relation_id": 2449042,
+    "population": 16966
   },
   {
     "id": "DZ-355",
@@ -2689,14 +2768,16 @@
     "name": "Bouda",
     "country": "DZ",
     "region": "Adrar District",
-    "domain": ""
+    "domain": "",
+    "population": 9938
   },
   {
     "id": "DZ-363",
     "name": "Bouderbala",
     "country": "DZ",
     "region": "Lakhdaria District",
-    "domain": ""
+    "domain": "",
+    "population": 17589
   },
   {
     "id": "DZ-364",
@@ -2718,7 +2799,8 @@
     "country": "DZ",
     "region": "Makouda district",
     "domain": "",
-    "osm_relation_id": 3274166
+    "osm_relation_id": 3274166,
+    "population": 15628
   },
   {
     "id": "DZ-367",
@@ -2747,7 +2829,8 @@
     "name": "Boufarik",
     "country": "DZ",
     "region": "Boufarik District",
-    "domain": ""
+    "domain": "",
+    "population": 57162
   },
   {
     "id": "DZ-371",
@@ -2914,7 +2997,8 @@
     "country": "DZ",
     "region": "Tichy District",
     "domain": "",
-    "osm_relation_id": 4112950
+    "osm_relation_id": 4112950,
+    "population": 8766
   },
   {
     "id": "DZ-394",
@@ -2973,7 +3057,8 @@
     "country": "DZ",
     "region": "Boghni District",
     "domain": "",
-    "osm_relation_id": 4293695
+    "osm_relation_id": 4293695,
+    "population": 9731
   },
   {
     "id": "DZ-402",
@@ -3084,14 +3169,16 @@
     "name": "Bouzeguene",
     "country": "DZ",
     "region": "Bouzguen District",
-    "domain": ""
+    "domain": "",
+    "population": 24311
   },
   {
     "id": "DZ-417",
     "name": "Bouzegza Keddara",
     "country": "DZ",
     "region": "Boudouaou District",
-    "domain": ""
+    "domain": "",
+    "population": 8511
   },
   {
     "id": "DZ-418",
@@ -3114,7 +3201,8 @@
     "country": "DZ",
     "region": "Bouira Province",
     "domain": "",
-    "osm_relation_id": 3416774
+    "osm_relation_id": 3416774,
+    "population": 68545
   },
   {
     "id": "DZ-421",
@@ -3151,7 +3239,8 @@
     "name": "Béchar",
     "country": "DZ",
     "region": "Béchar District",
-    "domain": ""
+    "domain": "",
+    "population": 165627
   },
   {
     "id": "DZ-426",
@@ -3159,14 +3248,16 @@
     "country": "DZ",
     "region": "Béjaïa District",
     "domain": "wilaya-bejaia.dz",
-    "osm_relation_id": 2094122
+    "osm_relation_id": 2094122,
+    "population": 176139
   },
   {
     "id": "DZ-427",
     "name": "Béni Abbès",
     "country": "DZ",
     "region": "Béni Abbès District",
-    "domain": ""
+    "domain": "",
+    "population": 10885
   },
   {
     "id": "DZ-428",
@@ -3209,7 +3300,8 @@
     "name": "Béni-Zmenzer",
     "country": "DZ",
     "region": "Beni Douala District",
-    "domain": ""
+    "domain": "",
+    "population": 12117
   },
   {
     "id": "DZ-434",
@@ -3283,7 +3375,8 @@
     "country": "DZ",
     "region": "Charouine District",
     "domain": "",
-    "osm_relation_id": 4171610
+    "osm_relation_id": 4171610,
+    "population": 11347
   },
   {
     "id": "DZ-444",
@@ -3342,7 +3435,8 @@
     "country": "DZ",
     "region": "Mila Province",
     "domain": "",
-    "osm_relation_id": 2195009
+    "osm_relation_id": 2195009,
+    "population": 82560
   },
   {
     "id": "DZ-452",
@@ -3467,7 +3561,8 @@
     "name": "Chigara",
     "country": "DZ",
     "region": "Sidi Merouane District",
-    "domain": ""
+    "domain": "",
+    "population": 17669
   },
   {
     "id": "DZ-469",
@@ -3489,14 +3584,16 @@
     "name": "Chlef",
     "country": "DZ",
     "region": "Department of Algiers",
-    "domain": "chlef.mta.gov.dz"
+    "domain": "chlef.mta.gov.dz",
+    "population": 155134
   },
   {
     "id": "DZ-472",
     "name": "Chorfa",
     "country": "DZ",
     "region": "Sig District",
-    "domain": ""
+    "domain": "",
+    "population": 16173
   },
   {
     "id": "DZ-473",
@@ -3504,14 +3601,16 @@
     "country": "DZ",
     "region": "Aïn El Berda District",
     "domain": "",
-    "osm_relation_id": 1616091
+    "osm_relation_id": 1616091,
+    "population": 16173
   },
   {
     "id": "DZ-474",
     "name": "Chorfa",
     "country": "DZ",
     "region": "Bouira Province",
-    "domain": ""
+    "domain": "",
+    "population": 16173
   },
   {
     "id": "DZ-475",
@@ -3555,7 +3654,8 @@
     "name": "Constantine",
     "country": "DZ",
     "region": "Daïra of Constantine",
-    "domain": "wilaya-constantine.dz"
+    "domain": "wilaya-constantine.dz",
+    "population": 465138
   },
   {
     "id": "DZ-481",
@@ -3585,7 +3685,8 @@
     "country": "DZ",
     "region": "Guelma Province",
     "domain": "",
-    "osm_relation_id": 6537633
+    "osm_relation_id": 6537633,
+    "population": 7886
   },
   {
     "id": "DZ-485",
@@ -3627,7 +3728,8 @@
     "name": "Dar El Beïda",
     "country": "DZ",
     "region": "Dar El Beïda District",
-    "domain": ""
+    "domain": "",
+    "population": 81509
   },
   {
     "id": "DZ-491",
@@ -3693,7 +3795,8 @@
     "name": "Deldoul",
     "country": "DZ",
     "region": "Aougrout District",
-    "domain": ""
+    "domain": "",
+    "population": 8647
   },
   {
     "id": "DZ-500",
@@ -3701,14 +3804,16 @@
     "country": "DZ",
     "region": "Djelfa Province",
     "domain": "",
-    "osm_relation_id": 6533509
+    "osm_relation_id": 6533509,
+    "population": 8647
   },
   {
     "id": "DZ-501",
     "name": "Dellys",
     "country": "DZ",
     "region": "Dellys District",
-    "domain": "communedellys.dz"
+    "domain": "communedellys.dz",
+    "population": 32954
   },
   {
     "id": "DZ-502",
@@ -3744,7 +3849,8 @@
     "name": "Didouche Mourad",
     "country": "DZ",
     "region": "Hamma Bouziane District",
-    "domain": ""
+    "domain": "",
+    "population": 33266
   },
   {
     "id": "DZ-507",
@@ -3775,7 +3881,8 @@
     "country": "DZ",
     "region": "Djanet District",
     "domain": "",
-    "osm_relation_id": 4174333
+    "osm_relation_id": 4174333,
+    "population": 14655
   },
   {
     "id": "DZ-511",
@@ -3827,7 +3934,8 @@
     "name": "Djelfa",
     "country": "DZ",
     "region": "Djelfa District",
-    "domain": ""
+    "domain": "",
+    "population": 265833
   },
   {
     "id": "DZ-518",
@@ -3924,14 +4032,16 @@
     "country": "DZ",
     "region": "Djimla District",
     "domain": "",
-    "osm_relation_id": 6024221
+    "osm_relation_id": 6024221,
+    "population": 17373
   },
   {
     "id": "DZ-531",
     "name": "Djinet",
     "country": "DZ",
     "region": "Bordj Ménaïl District",
-    "domain": ""
+    "domain": "",
+    "population": 21966
   },
   {
     "id": "DZ-532",
@@ -3997,7 +4107,8 @@
     "country": "DZ",
     "region": "Hammam Guergour District",
     "domain": "",
-    "osm_relation_id": 1625410
+    "osm_relation_id": 1625410,
+    "population": 14492
   },
   {
     "id": "DZ-541",
@@ -4019,14 +4130,16 @@
     "name": "Draâ Ben Khedda",
     "country": "DZ",
     "region": "Draâ Ben Khedda District",
-    "domain": ""
+    "domain": "",
+    "population": 31382
   },
   {
     "id": "DZ-544",
     "name": "Draâ El Mizan",
     "country": "DZ",
     "region": "Draâ El Mizan District",
-    "domain": ""
+    "domain": "",
+    "population": 38886
   },
   {
     "id": "DZ-545",
@@ -4049,7 +4162,8 @@
     "name": "Dréan",
     "country": "DZ",
     "region": "Dréan District",
-    "domain": ""
+    "domain": "",
+    "population": 37686
   },
   {
     "id": "DZ-548",
@@ -4112,7 +4226,8 @@
     "name": "El Adjiba",
     "country": "DZ",
     "region": "Bechloul District",
-    "domain": ""
+    "domain": "",
+    "population": 12486
   },
   {
     "id": "DZ-557",
@@ -4170,7 +4285,8 @@
     "name": "El Ançor",
     "country": "DZ",
     "region": "Aïn El Turk District",
-    "domain": ""
+    "domain": "",
+    "population": 11469
   },
   {
     "id": "DZ-565",
@@ -4191,7 +4307,8 @@
     "name": "El Asnam",
     "country": "DZ",
     "region": "Bechloul District",
-    "domain": ""
+    "domain": "",
+    "population": 13213
   },
   {
     "id": "DZ-568",
@@ -4235,7 +4352,8 @@
     "name": "El Bayadh",
     "country": "DZ",
     "region": "El Bayadh District",
-    "domain": ""
+    "domain": "",
+    "population": 85577
   },
   {
     "id": "DZ-574",
@@ -4323,7 +4441,8 @@
     "name": "El Eulma",
     "country": "DZ",
     "region": "El Eulma District",
-    "domain": ""
+    "domain": "",
+    "population": 155038
   },
   {
     "id": "DZ-586",
@@ -4826,7 +4945,8 @@
     "name": "El Menia",
     "country": "DZ",
     "region": "El Ménia District",
-    "domain": ""
+    "domain": "",
+    "population": 40195
   },
   {
     "id": "DZ-654",
@@ -4855,7 +4975,8 @@
     "name": "El Milia",
     "country": "DZ",
     "region": "El Milia District",
-    "domain": ""
+    "domain": "",
+    "population": 83931
   },
   {
     "id": "DZ-658",
@@ -4863,7 +4984,8 @@
     "country": "DZ",
     "region": "Souk El Khemis District",
     "domain": "",
-    "osm_relation_id": 3435135
+    "osm_relation_id": 3435135,
+    "population": 3961
   },
   {
     "id": "DZ-659",
@@ -4913,7 +5035,8 @@
     "name": "El Oued",
     "country": "DZ",
     "region": "El Oued District",
-    "domain": ""
+    "domain": "",
+    "population": 134699
   },
   {
     "id": "DZ-666",
@@ -4965,7 +5088,8 @@
     "country": "DZ",
     "region": "El Taref District",
     "domain": "",
-    "osm_relation_id": 1614578
+    "osm_relation_id": 1614578,
+    "population": 25594
   },
   {
     "id": "DZ-673",
@@ -4987,7 +5111,8 @@
     "country": "DZ",
     "region": "El Kseur District",
     "domain": "apc-elkseur.com",
-    "osm_relation_id": 4067937
+    "osm_relation_id": 4067937,
+    "population": 29842
   },
   {
     "id": "DZ-676",
@@ -4995,7 +5120,8 @@
     "country": "DZ",
     "region": "Djaâfra District",
     "domain": "",
-    "osm_relation_id": 4421437
+    "osm_relation_id": 4421437,
+    "population": 6238
   },
   {
     "id": "DZ-677",
@@ -5045,7 +5171,8 @@
     "name": "Es Senia",
     "country": "DZ",
     "region": "Es Sénia District",
-    "domain": ""
+    "domain": "",
+    "population": 96928
   },
   {
     "id": "DZ-684",
@@ -5090,7 +5217,8 @@
     "name": "Fenoughil",
     "country": "DZ",
     "region": "Fenoughil District",
-    "domain": ""
+    "domain": "",
+    "population": 11793
   },
   {
     "id": "DZ-690",
@@ -5182,7 +5310,8 @@
     "name": "Freha",
     "country": "DZ",
     "region": "Azazga District",
-    "domain": ""
+    "domain": "",
+    "population": 24228
   },
   {
     "id": "DZ-703",
@@ -5196,7 +5325,8 @@
     "name": "Frikat",
     "country": "DZ",
     "region": "Draâ El Mizan District",
-    "domain": ""
+    "domain": "",
+    "population": 12791
   },
   {
     "id": "DZ-705",
@@ -5218,7 +5348,8 @@
     "name": "Ghardaia",
     "country": "DZ",
     "region": "Ghardaïa Province",
-    "domain": ""
+    "domain": "",
+    "population": 120000
   },
   {
     "id": "DZ-708",
@@ -5314,7 +5445,8 @@
     "name": "Guelma",
     "country": "DZ",
     "region": "Guelma District",
-    "domain": ""
+    "domain": "",
+    "population": 120004
   },
   {
     "id": "DZ-721",
@@ -5506,7 +5638,8 @@
     "name": "Haizer",
     "country": "DZ",
     "region": "Haïzer District",
-    "domain": ""
+    "domain": "",
+    "population": 17719
   },
   {
     "id": "DZ-747",
@@ -5730,7 +5863,8 @@
     "name": "Hassi Bahbah",
     "country": "DZ",
     "region": "Hassi Bahbah District",
-    "domain": ""
+    "domain": "",
+    "population": 86421
   },
   {
     "id": "DZ-778",
@@ -5738,7 +5872,8 @@
     "country": "DZ",
     "region": "Sidi Khouïled District",
     "domain": "",
-    "osm_relation_id": 5129428
+    "osm_relation_id": 5129428,
+    "population": 4950
   },
   {
     "id": "DZ-779",
@@ -5831,7 +5966,8 @@
     "name": "Hassi Messaoud",
     "country": "DZ",
     "region": "Hassi Messaoud District",
-    "domain": ""
+    "domain": "",
+    "population": 45147
   },
   {
     "id": "DZ-792",
@@ -5926,7 +6062,8 @@
     "country": "DZ",
     "region": "Beni Yenni District",
     "domain": "",
-    "osm_relation_id": 4288710
+    "osm_relation_id": 4288710,
+    "population": 5398
   },
   {
     "id": "DZ-805",
@@ -5941,7 +6078,8 @@
     "country": "DZ",
     "region": "Bouzguen District",
     "domain": "",
-    "osm_relation_id": 2177075
+    "osm_relation_id": 2177075,
+    "population": 10301
   },
   {
     "id": "DZ-807",
@@ -5964,21 +6102,24 @@
     "country": "DZ",
     "region": "Iferhounene District",
     "domain": "",
-    "osm_relation_id": 2170762
+    "osm_relation_id": 2170762,
+    "population": 12460
   },
   {
     "id": "DZ-810",
     "name": "Ifigha",
     "country": "DZ",
     "region": "Azazga District",
-    "domain": ""
+    "domain": "",
+    "population": 9160
   },
   {
     "id": "DZ-811",
     "name": "Iflissen",
     "country": "DZ",
     "region": "Tigzirt District",
-    "domain": ""
+    "domain": "",
+    "population": 14311
   },
   {
     "id": "DZ-812",
@@ -6006,14 +6147,16 @@
     "name": "Illilten",
     "country": "DZ",
     "region": "Iferhounene District",
-    "domain": ""
+    "domain": "",
+    "population": 24965
   },
   {
     "id": "DZ-816",
     "name": "Illizi",
     "country": "DZ",
     "region": "Illizi District",
-    "domain": ""
+    "domain": "",
+    "population": 17252
   },
   {
     "id": "DZ-817",
@@ -6021,7 +6164,8 @@
     "country": "DZ",
     "region": "Bouzguen District",
     "domain": "",
-    "osm_relation_id": 2170761
+    "osm_relation_id": 2170761,
+    "population": 12952
   },
   {
     "id": "DZ-818",
@@ -6029,14 +6173,16 @@
     "country": "DZ",
     "region": "Iferhounene District",
     "domain": "",
-    "osm_relation_id": 2175823
+    "osm_relation_id": 2175823,
+    "population": 6565
   },
   {
     "id": "DZ-819",
     "name": "In Amenas",
     "country": "DZ",
     "region": "In Amenas District",
-    "domain": ""
+    "domain": "",
+    "population": 9225
   },
   {
     "id": "DZ-820",
@@ -6057,21 +6203,24 @@
     "name": "In Guezzam",
     "country": "DZ",
     "region": "In Guezzam District",
-    "domain": ""
+    "domain": "",
+    "population": 7045
   },
   {
     "id": "DZ-823",
     "name": "In Salah",
     "country": "DZ",
     "region": "In Salah District",
-    "domain": ""
+    "domain": "",
+    "population": 32518
   },
   {
     "id": "DZ-824",
     "name": "In Zghmir",
     "country": "DZ",
     "region": "Zaouiet Kounta District",
-    "domain": ""
+    "domain": "",
+    "population": 16185
   },
   {
     "id": "DZ-825",
@@ -6086,7 +6235,8 @@
     "country": "DZ",
     "region": "Larbaâ Nath Irathen District",
     "domain": "",
-    "osm_relation_id": 4285909
+    "osm_relation_id": 4285909,
+    "population": 13149
   },
   {
     "id": "DZ-827",
@@ -6094,14 +6244,16 @@
     "country": "DZ",
     "region": "Boumerdès Province",
     "domain": "",
-    "osm_relation_id": 4273316
+    "osm_relation_id": 4273316,
+    "population": 32580
   },
   {
     "id": "DZ-828",
     "name": "Jijel",
     "country": "DZ",
     "region": "Jijel District",
-    "domain": "wilaya-jijel.dz"
+    "domain": "wilaya-jijel.dz",
+    "population": 131513
   },
   {
     "id": "DZ-829",
@@ -6109,7 +6261,8 @@
     "country": "DZ",
     "region": "Kadiria District",
     "domain": "",
-    "osm_relation_id": 3459499
+    "osm_relation_id": 3459499,
+    "population": 22327
   },
   {
     "id": "DZ-830",
@@ -6145,7 +6298,8 @@
     "name": "Kaïs",
     "country": "DZ",
     "region": "Khenchela Province",
-    "domain": ""
+    "domain": "",
+    "population": 28724
   },
   {
     "id": "DZ-835",
@@ -6235,14 +6389,16 @@
     "name": "Khemis El-Khechna",
     "country": "DZ",
     "region": "Khemis El Khechna District",
-    "domain": ""
+    "domain": "",
+    "population": 76474
   },
   {
     "id": "DZ-847",
     "name": "Khemis Miliana",
     "country": "DZ",
     "region": "Khemis Miliana District",
-    "domain": ""
+    "domain": "",
+    "population": 84574
   },
   {
     "id": "DZ-848",
@@ -6272,7 +6428,8 @@
     "name": "Khenchela",
     "country": "DZ",
     "region": "Khenchela District",
-    "domain": ""
+    "domain": "",
+    "population": 108580
   },
   {
     "id": "DZ-852",
@@ -6447,7 +6604,8 @@
     "name": "Ksar Kaddour",
     "country": "DZ",
     "region": "Tinerkouk District",
-    "domain": ""
+    "domain": "",
+    "population": 4742
   },
   {
     "id": "DZ-876",
@@ -6499,7 +6657,8 @@
     "name": "Laghouat",
     "country": "DZ",
     "region": "Laghouat District",
-    "domain": ""
+    "domain": "",
+    "population": 134372
   },
   {
     "id": "DZ-883",
@@ -6529,7 +6688,8 @@
     "name": "Lakhdaria",
     "country": "DZ",
     "region": "Lakhdaria District",
-    "domain": ""
+    "domain": "",
+    "population": 59746
   },
   {
     "id": "DZ-887",
@@ -6572,7 +6732,8 @@
     "name": "Larbaâ Nath Irathen",
     "country": "DZ",
     "region": "Larbaâ Nath Irathen District",
-    "domain": ""
+    "domain": "",
+    "population": 29376
   },
   {
     "id": "DZ-893",
@@ -6609,7 +6770,8 @@
     "country": "DZ",
     "region": "Bordj Ménaïl District",
     "domain": "",
-    "osm_relation_id": 4273218
+    "osm_relation_id": 4273218,
+    "population": 13692
   },
   {
     "id": "DZ-898",
@@ -6683,7 +6845,8 @@
     "country": "DZ",
     "region": "Tizi Gheniff District",
     "domain": "",
-    "osm_relation_id": 4293722
+    "osm_relation_id": 4293722,
+    "population": 17690
   },
   {
     "id": "DZ-908",
@@ -6719,7 +6882,8 @@
     "name": "M'Sila",
     "country": "DZ",
     "region": "M'Sila District",
-    "domain": ""
+    "domain": "",
+    "population": 132975
   },
   {
     "id": "DZ-913",
@@ -6815,7 +6979,8 @@
     "country": "DZ",
     "region": "El Azizia District",
     "domain": "",
-    "osm_relation_id": 2930390
+    "osm_relation_id": 2930390,
+    "population": 5647
   },
   {
     "id": "DZ-925",
@@ -6866,7 +7031,8 @@
     "country": "DZ",
     "region": "Makouda district",
     "domain": "",
-    "osm_relation_id": 3499472
+    "osm_relation_id": 3499472,
+    "population": 23388
   },
   {
     "id": "DZ-932",
@@ -6940,7 +7106,8 @@
     "name": "Mascara",
     "country": "DZ",
     "region": "Mascara District",
-    "domain": ""
+    "domain": "",
+    "population": 108587
   },
   {
     "id": "DZ-942",
@@ -6997,7 +7164,8 @@
     "name": "Mechtras",
     "country": "DZ",
     "region": "Boghni District",
-    "domain": ""
+    "domain": "",
+    "population": 12683
   },
   {
     "id": "DZ-950",
@@ -7122,7 +7290,8 @@
     "name": "Mekla",
     "country": "DZ",
     "region": "Mekla District",
-    "domain": ""
+    "domain": "",
+    "population": 24237
   },
   {
     "id": "DZ-967",
@@ -7246,7 +7415,8 @@
     "name": "Messaâd",
     "country": "DZ",
     "region": "Messaâd District",
-    "domain": ""
+    "domain": "",
+    "population": 102453
   },
   {
     "id": "DZ-984",
@@ -7260,7 +7430,8 @@
     "name": "Metarfa",
     "country": "DZ",
     "region": "Aougrout District",
-    "domain": ""
+    "domain": "",
+    "population": 8438
   },
   {
     "id": "DZ-986",
@@ -7325,7 +7496,8 @@
     "country": "DZ",
     "region": "El Azizia District",
     "domain": "",
-    "osm_relation_id": 2938025
+    "osm_relation_id": 2938025,
+    "population": 12191
   },
   {
     "id": "DZ-995",
@@ -7362,7 +7534,8 @@
     "country": "DZ",
     "region": "Tigzirt District",
     "domain": "",
-    "osm_relation_id": 4285550
+    "osm_relation_id": 4285550,
+    "population": 9469
   },
   {
     "id": "DZ-1000",
@@ -7419,7 +7592,8 @@
     "name": "Mostaganem",
     "country": "DZ",
     "region": "Mostaganem District",
-    "domain": "mostaganem.mta.gov.dz"
+    "domain": "mostaganem.mta.gov.dz",
+    "population": 145696
   },
   {
     "id": "DZ-1008",
@@ -7434,7 +7608,8 @@
     "country": "DZ",
     "region": "Aïn El Ibil District",
     "domain": "",
-    "osm_relation_id": 6533524
+    "osm_relation_id": 6533524,
+    "population": 14052
   },
   {
     "id": "DZ-1010",
@@ -7488,14 +7663,16 @@
     "name": "Mâatkas",
     "country": "DZ",
     "region": "Mâatkas District",
-    "domain": ""
+    "domain": "",
+    "population": 32121
   },
   {
     "id": "DZ-1017",
     "name": "Mécheria",
     "country": "DZ",
     "region": "Mécheria District",
-    "domain": ""
+    "domain": "",
+    "population": 65043
   },
   {
     "id": "DZ-1018",
@@ -7517,7 +7694,8 @@
     "country": "DZ",
     "region": "N'Gaous District",
     "domain": "",
-    "osm_relation_id": 5149366
+    "osm_relation_id": 5149366,
+    "population": 29504
   },
   {
     "id": "DZ-1021",
@@ -7532,7 +7710,8 @@
     "name": "Naciria",
     "country": "DZ",
     "region": "Naciria District",
-    "domain": ""
+    "domain": "",
+    "population": 22431
   },
   {
     "id": "DZ-1023",
@@ -7569,7 +7748,8 @@
     "name": "Naâma",
     "country": "DZ",
     "region": "Naama district",
-    "domain": ""
+    "domain": "",
+    "population": 16251
   },
   {
     "id": "DZ-1028",
@@ -7627,21 +7807,24 @@
     "country": "DZ",
     "region": "Oran District",
     "domain": "oran-dz.com",
-    "osm_relation_id": 1259562
+    "osm_relation_id": 1259562,
+    "population": 803329
   },
   {
     "id": "DZ-1036",
     "name": "Ouacifs",
     "country": "DZ",
     "region": "Ouacif District",
-    "domain": ""
+    "domain": "",
+    "population": 10313
   },
   {
     "id": "DZ-1037",
     "name": "Ouadhia",
     "country": "DZ",
     "region": "Ouadhia District",
-    "domain": ""
+    "domain": "",
+    "population": 15771
   },
   {
     "id": "DZ-1038",
@@ -7657,7 +7840,8 @@
     "country": "DZ",
     "region": "Ouaguenoun District",
     "domain": "",
-    "osm_relation_id": 3080287
+    "osm_relation_id": 3080287,
+    "population": 17425
   },
   {
     "id": "DZ-1040",
@@ -7679,7 +7863,8 @@
     "name": "Ouargla",
     "country": "DZ",
     "region": "Ouargla District",
-    "domain": ""
+    "domain": "",
+    "population": 133024
   },
   {
     "id": "DZ-1043",
@@ -8050,14 +8235,16 @@
     "name": "Ouled Addouane",
     "country": "DZ",
     "region": "Aïn El Kébira District",
-    "domain": ""
+    "domain": "",
+    "population": 9613
   },
   {
     "id": "DZ-1093",
     "name": "Ouled Ahmed Timmi",
     "country": "DZ",
     "region": "Adrar District",
-    "domain": ""
+    "domain": "",
+    "population": 13547
   },
   {
     "id": "DZ-1094",
@@ -8072,7 +8259,8 @@
     "country": "DZ",
     "region": "Charouine District",
     "domain": "",
-    "osm_relation_id": 4171615
+    "osm_relation_id": 4171615,
+    "population": 7034
   },
   {
     "id": "DZ-1096",
@@ -8080,7 +8268,8 @@
     "country": "DZ",
     "region": "Naciria District",
     "domain": "",
-    "osm_relation_id": 4274599
+    "osm_relation_id": 4274599,
+    "population": 7685
   },
   {
     "id": "DZ-1097",
@@ -8293,7 +8482,8 @@
     "country": "DZ",
     "region": "Boudouaou District",
     "domain": "",
-    "osm_relation_id": 4272376
+    "osm_relation_id": 4272376,
+    "population": 30573
   },
   {
     "id": "DZ-1126",
@@ -8381,7 +8571,8 @@
     "name": "Ouled Moussa",
     "country": "DZ",
     "region": "Khemis El Khechna District",
-    "domain": ""
+    "domain": "",
+    "population": 45770
   },
   {
     "id": "DZ-1138",
@@ -8397,7 +8588,8 @@
     "country": "DZ",
     "region": "Bechloul District",
     "domain": "",
-    "osm_relation_id": 3398839
+    "osm_relation_id": 3398839,
+    "population": 9311
   },
   {
     "id": "DZ-1140",
@@ -8433,7 +8625,8 @@
     "name": "Ouled Said",
     "country": "DZ",
     "region": "Timimoun District",
-    "domain": ""
+    "domain": "",
+    "population": 8219
   },
   {
     "id": "DZ-1145",
@@ -8650,7 +8843,8 @@
     "country": "DZ",
     "region": "Ifri-Ouzellaguen District",
     "domain": "",
-    "osm_relation_id": 4069556
+    "osm_relation_id": 4069556,
+    "population": 22719
   },
   {
     "id": "DZ-1174",
@@ -8764,7 +8958,8 @@
     "country": "DZ",
     "region": "Ras El Ma District",
     "domain": "",
-    "osm_relation_id": 6661998
+    "osm_relation_id": 6661998,
+    "population": 8193
   },
   {
     "id": "DZ-1189",
@@ -8815,7 +9010,8 @@
     "name": "Reggane",
     "country": "DZ",
     "region": "Reggane District",
-    "domain": ""
+    "domain": "",
+    "population": 20402
   },
   {
     "id": "DZ-1196",
@@ -8829,7 +9025,8 @@
     "name": "Relizane",
     "country": "DZ",
     "region": "Relizane District",
-    "domain": ""
+    "domain": "",
+    "population": 130094
   },
   {
     "id": "DZ-1198",
@@ -8887,7 +9084,8 @@
     "country": "DZ",
     "region": "Rouïba District",
     "domain": "",
-    "osm_relation_id": 157480
+    "osm_relation_id": 157480,
+    "population": 61984
   },
   {
     "id": "DZ-1206",
@@ -8945,14 +9143,16 @@
     "name": "Saharidj",
     "country": "DZ",
     "region": "M'Chedellah District",
-    "domain": ""
+    "domain": "",
+    "population": 8522
   },
   {
     "id": "DZ-1214",
     "name": "Saida",
     "country": "DZ",
     "region": "Saïda District",
-    "domain": ""
+    "domain": "",
+    "population": 128413
   },
   {
     "id": "DZ-1215",
@@ -8981,7 +9181,8 @@
     "name": "Sali",
     "country": "DZ",
     "region": "Reggane District",
-    "domain": ""
+    "domain": "",
+    "population": 13138
   },
   {
     "id": "DZ-1219",
@@ -9009,7 +9210,8 @@
     "name": "Sebaa",
     "country": "DZ",
     "region": "Tsabit District",
-    "domain": ""
+    "domain": "",
+    "population": 2312
   },
   {
     "id": "DZ-1223",
@@ -9123,7 +9325,8 @@
     "name": "Sehaîlia",
     "country": "DZ",
     "region": "Tighenif District",
-    "domain": ""
+    "domain": "",
+    "population": 10218
   },
   {
     "id": "DZ-1239",
@@ -9168,7 +9371,8 @@
     "name": "Serdj El Ghoul",
     "country": "DZ",
     "region": "Babor District",
-    "domain": ""
+    "domain": "",
+    "population": 9311
   },
   {
     "id": "DZ-1245",
@@ -9221,7 +9425,8 @@
     "country": "DZ",
     "region": "Isser District",
     "domain": "",
-    "osm_relation_id": 4272821
+    "osm_relation_id": 4272821,
+    "population": 12087
   },
   {
     "id": "DZ-1252",
@@ -9410,7 +9615,8 @@
     "name": "Sidi Bel Abbès",
     "country": "DZ",
     "region": "Sidi Bel Abbès District",
-    "domain": ""
+    "domain": "",
+    "population": 212935
   },
   {
     "id": "DZ-1277",
@@ -9509,7 +9715,8 @@
     "name": "Sidi Daoud",
     "country": "DZ",
     "region": "Baghlia District",
-    "domain": ""
+    "domain": "",
+    "population": 16900
   },
   {
     "id": "DZ-1290",
@@ -9759,7 +9966,8 @@
     "name": "Sidi Nâamane",
     "country": "DZ",
     "region": "Draâ Ben Khedda District",
-    "domain": ""
+    "domain": "",
+    "population": 10688
   },
   {
     "id": "DZ-1324",
@@ -9890,7 +10098,8 @@
     "country": "DZ",
     "region": "Skikda District",
     "domain": "",
-    "osm_relation_id": 2514757
+    "osm_relation_id": 2514757,
+    "population": 163318
   },
   {
     "id": "DZ-1342",
@@ -9942,7 +10151,8 @@
     "name": "Souamâa",
     "country": "DZ",
     "region": "Mekla District",
-    "domain": ""
+    "domain": "",
+    "population": 9954
   },
   {
     "id": "DZ-1349",
@@ -9992,7 +10202,8 @@
     "country": "DZ",
     "region": "Souk Ahras District",
     "domain": "",
-    "osm_relation_id": 6663208
+    "osm_relation_id": 6663208,
+    "population": 155259
   },
   {
     "id": "DZ-1356",
@@ -10000,14 +10211,16 @@
     "country": "DZ",
     "region": "Thénia District",
     "domain": "",
-    "osm_relation_id": 4273075
+    "osm_relation_id": 4273075,
+    "population": 6693
   },
   {
     "id": "DZ-1357",
     "name": "Souk El Had",
     "country": "DZ",
     "region": "Ramka District",
-    "domain": ""
+    "domain": "",
+    "population": 6693
   },
   {
     "id": "DZ-1358",
@@ -10021,7 +10234,8 @@
     "name": "Souk El Thenine",
     "country": "DZ",
     "region": "Mâatkas District",
-    "domain": ""
+    "domain": "",
+    "population": 14660
   },
   {
     "id": "DZ-1360",
@@ -10050,14 +10264,16 @@
     "country": "DZ",
     "region": "Chemini District",
     "domain": "",
-    "osm_relation_id": 4069543
+    "osm_relation_id": 4069543,
+    "population": 8931
   },
   {
     "id": "DZ-1364",
     "name": "Soumaâ",
     "country": "DZ",
     "region": "Blida Province",
-    "domain": ""
+    "domain": "",
+    "population": 37461
   },
   {
     "id": "DZ-1365",
@@ -10114,7 +10330,8 @@
     "name": "Sétif",
     "country": "DZ",
     "region": "Sétif District",
-    "domain": ""
+    "domain": "",
+    "population": 288461
   },
   {
     "id": "DZ-1373",
@@ -10202,7 +10419,8 @@
     "name": "Tadmaït",
     "country": "DZ",
     "region": "Draâ Ben Khedda District",
-    "domain": ""
+    "domain": "",
+    "population": 22838
   },
   {
     "id": "DZ-1385",
@@ -10261,14 +10479,16 @@
     "name": "Taghzout",
     "country": "DZ",
     "region": "Haïzer District",
-    "domain": ""
+    "domain": "",
+    "population": 13203
   },
   {
     "id": "DZ-1393",
     "name": "Taghzout",
     "country": "DZ",
     "region": "Guemar District",
-    "domain": ""
+    "domain": "",
+    "population": 13203
   },
   {
     "id": "DZ-1394",
@@ -10282,7 +10502,8 @@
     "name": "Taguedit",
     "country": "DZ",
     "region": "Bordj Okhriss District",
-    "domain": ""
+    "domain": "",
+    "population": 10562
   },
   {
     "id": "DZ-1396",
@@ -10317,7 +10538,8 @@
     "name": "Talaifacene",
     "country": "DZ",
     "region": "Maoklane District",
-    "domain": ""
+    "domain": "",
+    "population": 20337
   },
   {
     "id": "DZ-1401",
@@ -10345,7 +10567,8 @@
     "name": "Talmine",
     "country": "DZ",
     "region": "Charouine District",
-    "domain": ""
+    "domain": "",
+    "population": 12768
   },
   {
     "id": "DZ-1405",
@@ -10375,14 +10598,16 @@
     "country": "DZ",
     "region": "Tamanrasset District",
     "domain": "tamanrasset.net",
-    "osm_relation_id": 4175374
+    "osm_relation_id": 4175374,
+    "population": 92635
   },
   {
     "id": "DZ-1409",
     "name": "Tamentit",
     "country": "DZ",
     "region": "Fenoughil District",
-    "domain": ""
+    "domain": "",
+    "population": 9481
   },
   {
     "id": "DZ-1410",
@@ -10396,7 +10621,8 @@
     "name": "Tamest",
     "country": "DZ",
     "region": "Fenoughil District",
-    "domain": ""
+    "domain": "",
+    "population": 8266
   },
   {
     "id": "DZ-1412",
@@ -10485,7 +10711,8 @@
     "name": "Taourga",
     "country": "DZ",
     "region": "Baghlia District",
-    "domain": ""
+    "domain": "",
+    "population": 7882
   },
   {
     "id": "DZ-1424",
@@ -10499,7 +10726,8 @@
     "name": "Taouzient",
     "country": "DZ",
     "region": "Khenchela Province",
-    "domain": ""
+    "domain": "",
+    "population": 12000
   },
   {
     "id": "DZ-1426",
@@ -10537,7 +10765,8 @@
     "country": "DZ",
     "region": "Bordj Zemmoura District",
     "domain": "",
-    "osm_relation_id": 4424736
+    "osm_relation_id": 4424736,
+    "population": 5269
   },
   {
     "id": "DZ-1431",
@@ -10719,14 +10948,16 @@
     "name": "Thénia",
     "country": "DZ",
     "region": "Thénia District",
-    "domain": "thenia.net"
+    "domain": "thenia.net",
+    "population": 21439
   },
   {
     "id": "DZ-1456",
     "name": "Tiaret",
     "country": "DZ",
     "region": "Tiaret District",
-    "domain": ""
+    "domain": "",
+    "population": 178915
   },
   {
     "id": "DZ-1457",
@@ -10757,7 +10988,8 @@
     "name": "Tichy",
     "country": "DZ",
     "region": "Tichy District",
-    "domain": ""
+    "domain": "",
+    "population": 16546
   },
   {
     "id": "DZ-1461",
@@ -10794,7 +11026,8 @@
     "name": "Tifra",
     "country": "DZ",
     "region": "Sidi Aïch District",
-    "domain": ""
+    "domain": "",
+    "population": 8547
   },
   {
     "id": "DZ-1466",
@@ -10809,7 +11042,8 @@
     "name": "Tighennif",
     "country": "DZ",
     "region": "Tighenif District",
-    "domain": ""
+    "domain": "",
+    "population": 62210
   },
   {
     "id": "DZ-1468",
@@ -10825,7 +11059,8 @@
     "country": "DZ",
     "region": "Tigzirt District",
     "domain": "",
-    "osm_relation_id": 4285531
+    "osm_relation_id": 4285531,
+    "population": 11962
   },
   {
     "id": "DZ-1470",
@@ -10848,14 +11083,16 @@
     "country": "DZ",
     "region": "Timezrit District",
     "domain": "",
-    "osm_relation_id": 4070118
+    "osm_relation_id": 4070118,
+    "population": 25853
   },
   {
     "id": "DZ-1473",
     "name": "Timezrit",
     "country": "DZ",
     "region": "Isser District",
-    "domain": ""
+    "domain": "",
+    "population": 25853
   },
   {
     "id": "DZ-1474",
@@ -10876,21 +11113,24 @@
     "name": "Timiaouine",
     "country": "DZ",
     "region": "Bordj Badji Mokhtar District",
-    "domain": ""
+    "domain": "",
+    "population": 4493
   },
   {
     "id": "DZ-1477",
     "name": "Timimoun",
     "country": "DZ",
     "region": "Timimoun District",
-    "domain": ""
+    "domain": "",
+    "population": 33060
   },
   {
     "id": "DZ-1478",
     "name": "Timizart",
     "country": "DZ",
     "region": "Ouaguenoun District",
-    "domain": ""
+    "domain": "",
+    "population": 28996
   },
   {
     "id": "DZ-1479",
@@ -10898,7 +11138,8 @@
     "country": "DZ",
     "region": "Aoulef District",
     "domain": "",
-    "osm_relation_id": 4171628
+    "osm_relation_id": 4171628,
+    "population": 18598
   },
   {
     "id": "DZ-1480",
@@ -10912,7 +11153,8 @@
     "name": "Tin Zaouatine",
     "country": "DZ",
     "region": "Tin Zaouatine District",
-    "domain": ""
+    "domain": "",
+    "population": 4157
   },
   {
     "id": "DZ-1482",
@@ -10927,7 +11169,8 @@
     "country": "DZ",
     "region": "Tindouf District",
     "domain": "",
-    "osm_relation_id": 4101596
+    "osm_relation_id": 4101596,
+    "population": 45610
   },
   {
     "id": "DZ-1484",
@@ -10935,7 +11178,8 @@
     "country": "DZ",
     "region": "Tinerkouk District",
     "domain": "",
-    "osm_relation_id": 4171625
+    "osm_relation_id": 4171625,
+    "population": 15980
   },
   {
     "id": "DZ-1485",
@@ -10949,7 +11193,8 @@
     "name": "Tipaza",
     "country": "DZ",
     "region": "Tipaza District",
-    "domain": ""
+    "domain": "",
+    "population": 25225
   },
   {
     "id": "DZ-1487",
@@ -10971,7 +11216,8 @@
     "name": "Tirmitine",
     "country": "DZ",
     "region": "Draâ Ben Khedda District",
-    "domain": ""
+    "domain": "",
+    "population": 19027
   },
   {
     "id": "DZ-1490",
@@ -10979,14 +11225,16 @@
     "country": "DZ",
     "region": "Tissemsilt District",
     "domain": "",
-    "osm_relation_id": 6534595
+    "osm_relation_id": 6534595,
+    "population": 75197
   },
   {
     "id": "DZ-1491",
     "name": "Tit",
     "country": "DZ",
     "region": "Aoulef District",
-    "domain": ""
+    "domain": "",
+    "population": 4417
   },
   {
     "id": "DZ-1492",
@@ -11008,7 +11256,8 @@
     "name": "Tizi Ghenif",
     "country": "DZ",
     "region": "Tizi Gheniff District",
-    "domain": ""
+    "domain": "",
+    "population": 29409
   },
   {
     "id": "DZ-1495",
@@ -11022,35 +11271,40 @@
     "name": "Tizi N'Bechar",
     "country": "DZ",
     "region": "Amoucha District",
-    "domain": ""
+    "domain": "",
+    "population": 21086
   },
   {
     "id": "DZ-1497",
     "name": "Tizi N'Berber",
     "country": "DZ",
     "region": "Aokas District",
-    "domain": ""
+    "domain": "",
+    "population": 12624
   },
   {
     "id": "DZ-1498",
     "name": "Tizi N'Tleta",
     "country": "DZ",
     "region": "Tizi Ouzou Province",
-    "domain": ""
+    "domain": "",
+    "population": 15479
   },
   {
     "id": "DZ-1499",
     "name": "Tizi Ouzou",
     "country": "DZ",
     "region": "Tizi Ouzou District",
-    "domain": ""
+    "domain": "",
+    "population": 156775
   },
   {
     "id": "DZ-1500",
     "name": "Tizi Rached",
     "country": "DZ",
     "region": "Tizi Rached District",
-    "domain": ""
+    "domain": "",
+    "population": 17161
   },
   {
     "id": "DZ-1501",
@@ -11093,14 +11347,16 @@
     "name": "Toudja",
     "country": "DZ",
     "region": "El Kseur District",
-    "domain": ""
+    "domain": "",
+    "population": 9827
   },
   {
     "id": "DZ-1507",
     "name": "Touggourt",
     "country": "DZ",
     "region": "Touggourt District",
-    "domain": ""
+    "domain": "",
+    "population": 143270
   },
   {
     "id": "DZ-1508",
@@ -11138,21 +11394,24 @@
     "name": "Tsabit",
     "country": "DZ",
     "region": "Tsabit District",
-    "domain": ""
+    "domain": "",
+    "population": 14895
   },
   {
     "id": "DZ-1513",
     "name": "Tébessa",
     "country": "DZ",
     "region": "Tébessa District",
-    "domain": ""
+    "domain": "",
+    "population": 194461
   },
   {
     "id": "DZ-1514",
     "name": "Ténès",
     "country": "DZ",
     "region": "Ténès District",
-    "domain": ""
+    "domain": "",
+    "population": 35459
   },
   {
     "id": "DZ-1515",
@@ -11173,14 +11432,16 @@
     "name": "Yakouren",
     "country": "DZ",
     "region": "Azazga District",
-    "domain": ""
+    "domain": "",
+    "population": 12203
   },
   {
     "id": "DZ-1518",
     "name": "Yattafène",
     "country": "DZ",
     "region": "Beni Yenni District",
-    "domain": ""
+    "domain": "",
+    "population": 4016
   },
   {
     "id": "DZ-1519",
@@ -11253,7 +11514,8 @@
     "name": "Zaouiet Kounta",
     "country": "DZ",
     "region": "Zaouiet Kounta District",
-    "domain": ""
+    "domain": "",
+    "population": 17116
   },
   {
     "id": "DZ-1529",
@@ -11268,7 +11530,8 @@
     "country": "DZ",
     "region": "Lakhdaria District",
     "domain": "",
-    "osm_relation_id": 3441846
+    "osm_relation_id": 3441846,
+    "population": 3768
   },
   {
     "id": "DZ-1531",
@@ -11298,7 +11561,8 @@
     "name": "Zekri",
     "country": "DZ",
     "region": "Azazga District",
-    "domain": ""
+    "domain": "",
+    "population": 3286
   },
   {
     "id": "DZ-1535",
@@ -11327,7 +11591,8 @@
     "name": "Zemmouri",
     "country": "DZ",
     "region": "Bordj Ménaïl District",
-    "domain": ""
+    "domain": "",
+    "population": 26408
   },
   {
     "id": "DZ-1539",

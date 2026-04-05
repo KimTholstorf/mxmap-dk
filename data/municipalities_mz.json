@@ -45,7 +45,8 @@
     "country": "MZ",
     "region": "Sofala",
     "domain": "",
-    "osm_relation_id": 11623600
+    "osm_relation_id": 11623600,
+    "population": 530604
   },
   {
     "id": "MZ-007",
@@ -61,7 +62,8 @@
     "country": "MZ",
     "region": "Maputo Province",
     "domain": "pmaputo.gov.mz",
-    "osm_relation_id": 12494681
+    "osm_relation_id": 12494681,
+    "population": 263601
   },
   {
     "id": "MZ-009",
@@ -132,7 +134,8 @@
     "country": "MZ",
     "region": "Gaza Province",
     "domain": "",
-    "osm_relation_id": 11589179
+    "osm_relation_id": 11589179,
+    "population": 58012
   },
   {
     "id": "MZ-018",
@@ -171,7 +174,8 @@
     "name": "Chimoio",
     "country": "MZ",
     "region": "Manica Province",
-    "domain": ""
+    "domain": "",
+    "population": 238976
   },
   {
     "id": "MZ-023",
@@ -179,7 +183,8 @@
     "country": "MZ",
     "region": "Zambezia Province",
     "domain": "",
-    "osm_relation_id": 11623593
+    "osm_relation_id": 11623593,
+    "population": 16500
   },
   {
     "id": "MZ-024",
@@ -195,7 +200,8 @@
     "country": "MZ",
     "region": "Cabo Delgado Province",
     "domain": "",
-    "osm_relation_id": 11976440
+    "osm_relation_id": 11976440,
+    "population": 238000
   },
   {
     "id": "MZ-026",
@@ -368,7 +374,8 @@
     "name": "Inhambane",
     "country": "MZ",
     "region": "Inhambane Province",
-    "domain": "inhambane.gov.mz"
+    "domain": "inhambane.gov.mz",
+    "population": 82119
   },
   {
     "id": "MZ-048",
@@ -440,7 +447,8 @@
     "country": "MZ",
     "region": "Maputo",
     "domain": "",
-    "osm_relation_id": 3348584
+    "osm_relation_id": 3348584,
+    "population": 21569
   },
   {
     "id": "MZ-057",
@@ -472,7 +480,8 @@
     "country": "MZ",
     "region": "Niassa Province",
     "domain": "",
-    "osm_relation_id": 11982979
+    "osm_relation_id": 11982979,
+    "population": 142253
   },
   {
     "id": "MZ-061",
@@ -591,7 +600,8 @@
     "country": "MZ",
     "region": "Maputo Province",
     "domain": "",
-    "osm_relation_id": 12494684
+    "osm_relation_id": 12494684,
+    "population": 62434
   },
   {
     "id": "MZ-076",
@@ -615,7 +625,8 @@
     "country": "MZ",
     "region": "Niassa Province",
     "domain": "",
-    "osm_relation_id": 11982973
+    "osm_relation_id": 11982973,
+    "population": 118922
   },
   {
     "id": "MZ-079",
@@ -623,7 +634,8 @@
     "country": "MZ",
     "region": "Maputo Province",
     "domain": "",
-    "osm_relation_id": 12494682
+    "osm_relation_id": 12494682,
+    "population": 192638
   },
   {
     "id": "MZ-080",
@@ -647,7 +659,8 @@
     "country": "MZ",
     "region": "Gaza Province",
     "domain": "",
-    "osm_relation_id": 11589185
+    "osm_relation_id": 11589185,
+    "population": 19932
   },
   {
     "id": "MZ-083",
@@ -671,7 +684,8 @@
     "country": "MZ",
     "region": "Maputo Province",
     "domain": "",
-    "osm_relation_id": 11319964
+    "osm_relation_id": 11319964,
+    "population": 60471
   },
   {
     "id": "MZ-086",
@@ -726,7 +740,8 @@
     "name": "Matola",
     "country": "MZ",
     "region": "Maputo Province",
-    "domain": "pmaputo.gov.mz"
+    "domain": "pmaputo.gov.mz",
+    "population": 1032197
   },
   {
     "id": "MZ-093",
@@ -734,7 +749,8 @@
     "country": "MZ",
     "region": "Maputo Province",
     "domain": "",
-    "osm_relation_id": 3406086
+    "osm_relation_id": 3406086,
+    "population": 52703
   },
   {
     "id": "MZ-094",
@@ -750,7 +766,8 @@
     "country": "MZ",
     "region": "Inhambane Province",
     "domain": "",
-    "osm_relation_id": 11623615
+    "osm_relation_id": 11623615,
+    "population": 155521
   },
   {
     "id": "MZ-096",
@@ -837,7 +854,8 @@
     "country": "MZ",
     "region": "Zambezia Province",
     "domain": "",
-    "osm_relation_id": 11623580
+    "osm_relation_id": 11623580,
+    "population": 17123
   },
   {
     "id": "MZ-107",
@@ -845,7 +863,8 @@
     "country": "MZ",
     "region": "Maputo Province",
     "domain": "moamba.gov.mz",
-    "osm_relation_id": 12494683
+    "osm_relation_id": 12494683,
+    "population": 62392
   },
   {
     "id": "MZ-108",
@@ -861,7 +880,8 @@
     "country": "MZ",
     "region": "Zambezia Province",
     "domain": "",
-    "osm_relation_id": 11623581
+    "osm_relation_id": 11623581,
+    "population": 69045
   },
   {
     "id": "MZ-110",
@@ -877,7 +897,8 @@
     "country": "MZ",
     "region": "Cabo Delgado Province",
     "domain": "",
-    "osm_relation_id": 11976448
+    "osm_relation_id": 11976448,
+    "population": 30950
   },
   {
     "id": "MZ-112",
@@ -1045,7 +1066,8 @@
     "country": "MZ",
     "region": "Nampula Province",
     "domain": "",
-    "osm_relation_id": 11981800
+    "osm_relation_id": 11981800,
+    "population": 206449
   },
   {
     "id": "MZ-133",
@@ -1068,7 +1090,8 @@
     "name": "Namaacha District",
     "country": "MZ",
     "region": "Maputo Province",
-    "domain": ""
+    "domain": "",
+    "population": 41954
   },
   {
     "id": "MZ-136",
@@ -1092,7 +1115,8 @@
     "country": "MZ",
     "region": "Nampula Province",
     "domain": "nampula.gov.mz",
-    "osm_relation_id": 11981806
+    "osm_relation_id": 11981806,
+    "population": 743000
   },
   {
     "id": "MZ-139",
@@ -1116,7 +1140,8 @@
     "country": "MZ",
     "region": "Sofala",
     "domain": "",
-    "osm_relation_id": 11623602
+    "osm_relation_id": 11623602,
+    "population": 317538
   },
   {
     "id": "MZ-142",
@@ -1140,7 +1165,8 @@
     "country": "MZ",
     "region": "Cabo Delgado Province",
     "domain": "",
-    "osm_relation_id": 11976447
+    "osm_relation_id": 11976447,
+    "population": 75000
   },
   {
     "id": "MZ-145",
@@ -1164,7 +1190,8 @@
     "country": "MZ",
     "region": "Cabo Delgado Province",
     "domain": "",
-    "osm_relation_id": 11976438
+    "osm_relation_id": 11976438,
+    "population": 141316
   },
   {
     "id": "MZ-148",
@@ -1212,7 +1239,8 @@
     "country": "MZ",
     "region": "Tete Province",
     "domain": "tete.gov.mz",
-    "osm_relation_id": 11589177
+    "osm_relation_id": 11589177,
+    "population": 152909
   },
   {
     "id": "MZ-154",
@@ -1244,7 +1272,8 @@
     "country": "MZ",
     "region": "Gaza Province",
     "domain": "",
-    "osm_relation_id": 11589178
+    "osm_relation_id": 11589178,
+    "population": 116343
   },
   {
     "id": "MZ-158",
@@ -1252,7 +1281,8 @@
     "country": "MZ",
     "region": "Inhambane Province",
     "domain": "",
-    "osm_relation_id": 11623618
+    "osm_relation_id": 11623618,
+    "population": 10391
   },
   {
     "id": "MZ-159",

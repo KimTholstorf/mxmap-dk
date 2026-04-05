@@ -19,20 +19,23 @@
     "name": "Tongatapu",
     "country": "TO",
     "region": "Tonga",
-    "domain": ""
+    "domain": "",
+    "population": 71260
   },
   {
     "id": "TO-004",
     "name": "Vava‘u",
     "country": "TO",
     "region": "Tonga",
-    "domain": "vavau.to"
+    "domain": "vavau.to",
+    "population": 14922
   },
   {
     "id": "TO-005",
     "name": "ʻEua district",
     "country": "TO",
     "region": "Tonga",
-    "domain": ""
+    "domain": "",
+    "population": 4950
   }
 ]

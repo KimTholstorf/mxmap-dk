@@ -5,7 +5,8 @@
     "country": "GE",
     "region": "Samegrelo-Zemo Svaneti",
     "domain": "abasha.gov.ge",
-    "osm_relation_id": 2016164
+    "osm_relation_id": 2016164,
+    "population": 22341
   },
   {
     "id": "GE-002",
@@ -13,14 +14,16 @@
     "country": "GE",
     "region": "Samtskhe–Javakheti",
     "domain": "adigeni.ge",
-    "osm_relation_id": 2013747
+    "osm_relation_id": 2013747,
+    "population": 16305
   },
   {
     "id": "GE-003",
     "name": "Akhalgori Municipality",
     "country": "GE",
     "region": "South Ossetia",
-    "domain": "akhalgori.org.ge"
+    "domain": "akhalgori.org.ge",
+    "population": 2457
   },
   {
     "id": "GE-004",
@@ -28,7 +31,8 @@
     "country": "GE",
     "region": "Georgia",
     "domain": "akhalkalaki.gov.ge",
-    "osm_relation_id": 2013750
+    "osm_relation_id": 2013750,
+    "population": 45070
   },
   {
     "id": "GE-005",
@@ -36,7 +40,8 @@
     "country": "GE",
     "region": "Samtskhe–Javakheti",
     "domain": "akhaltsikhe.gov.ge",
-    "osm_relation_id": 2013748
+    "osm_relation_id": 2013748,
+    "population": 20992
   },
   {
     "id": "GE-006",
@@ -44,7 +49,8 @@
     "country": "GE",
     "region": "Georgia",
     "domain": "",
-    "osm_relation_id": 2027328
+    "osm_relation_id": 2027328,
+    "population": 31461
   },
   {
     "id": "GE-007",
@@ -52,7 +58,8 @@
     "country": "GE",
     "region": "Racha-Lechkhumi and Kvemo Svaneti",
     "domain": "ambrolauri.gov.ge",
-    "osm_relation_id": 1997287
+    "osm_relation_id": 1997287,
+    "population": 9139
   },
   {
     "id": "GE-008",
@@ -60,7 +67,8 @@
     "country": "GE",
     "region": "Samtskhe–Javakheti",
     "domain": "aspindza.ge",
-    "osm_relation_id": 2013749
+    "osm_relation_id": 2013749,
+    "population": 10372
   },
   {
     "id": "GE-009",
@@ -68,7 +76,8 @@
     "country": "GE",
     "region": "Imereti",
     "domain": "baghdati.gov.ge",
-    "osm_relation_id": 2024539
+    "osm_relation_id": 2024539,
+    "population": 21582
   },
   {
     "id": "GE-010",
@@ -76,7 +85,8 @@
     "country": "GE",
     "region": "Kvemo Kartli",
     "domain": "bolnisi.gov.ge",
-    "osm_relation_id": 2014300
+    "osm_relation_id": 2014300,
+    "population": 53590
   },
   {
     "id": "GE-011",
@@ -84,7 +94,8 @@
     "country": "GE",
     "region": "Samtskhe–Javakheti",
     "domain": "borjomi.gov.ge",
-    "osm_relation_id": 2013752
+    "osm_relation_id": 2013752,
+    "population": 25214
   },
   {
     "id": "GE-012",
@@ -92,7 +103,8 @@
     "country": "GE",
     "region": "Imereti",
     "domain": "chiatura.gov.ge",
-    "osm_relation_id": 2024543
+    "osm_relation_id": 2024543,
+    "population": 39884
   },
   {
     "id": "GE-013",
@@ -100,7 +112,8 @@
     "country": "GE",
     "region": "Samegrelo-Zemo Svaneti",
     "domain": "chkhorotsku.gov.ge",
-    "osm_relation_id": 2016166
+    "osm_relation_id": 2016166,
+    "population": 22309
   },
   {
     "id": "GE-014",
@@ -108,7 +121,8 @@
     "country": "GE",
     "region": "Guria",
     "domain": "chokhatauri.gov.ge",
-    "osm_relation_id": 1995969
+    "osm_relation_id": 1995969,
+    "population": 19001
   },
   {
     "id": "GE-015",
@@ -116,7 +130,8 @@
     "country": "GE",
     "region": "Georgian Soviet Socialist Republic",
     "domain": "dedoplistskaro.gov.ge",
-    "osm_relation_id": 2027334
+    "osm_relation_id": 2027334,
+    "population": 21221
   },
   {
     "id": "GE-016",
@@ -124,7 +139,8 @@
     "country": "GE",
     "region": "Kvemo Kartli",
     "domain": "dmanisi.gov.ge",
-    "osm_relation_id": 2014299
+    "osm_relation_id": 2014299,
+    "population": 19141
   },
   {
     "id": "GE-017",
@@ -132,7 +148,8 @@
     "country": "GE",
     "region": "Mtskheta-Mtianeti",
     "domain": "dusheti.gov.ge",
-    "osm_relation_id": 2025552
+    "osm_relation_id": 2025552,
+    "population": 25659
   },
   {
     "id": "GE-018",
@@ -147,7 +164,8 @@
     "country": "GE",
     "region": "Autonomous Republic of Abkhazia",
     "domain": "",
-    "osm_relation_id": 2027327
+    "osm_relation_id": 2027327,
+    "population": 7449
   },
   {
     "id": "GE-020",
@@ -155,7 +173,8 @@
     "country": "GE",
     "region": "Georgian Soviet Socialist Republic",
     "domain": "gardabani.gov.ge",
-    "osm_relation_id": 2014334
+    "osm_relation_id": 2014334,
+    "population": 99700
   },
   {
     "id": "GE-021",
@@ -163,21 +182,24 @@
     "country": "GE",
     "region": "Georgian Soviet Socialist Republic",
     "domain": "gori.gov.ge",
-    "osm_relation_id": 2025548
+    "osm_relation_id": 2025548,
+    "population": 125692
   },
   {
     "id": "GE-022",
     "name": "Gudauta Municipality",
     "country": "GE",
     "region": "Autonomous Republic of Abkhazia",
-    "domain": ""
+    "domain": "",
+    "population": 8820
   },
   {
     "id": "GE-023",
     "name": "Gulripshi Municipality",
     "country": "GE",
     "region": "Autonomous Republic of Abkhazia",
-    "domain": ""
+    "domain": "",
+    "population": 3910
   },
   {
     "id": "GE-024",
@@ -185,14 +207,16 @@
     "country": "GE",
     "region": "Kakheti",
     "domain": "",
-    "osm_relation_id": 2027330
+    "osm_relation_id": 2027330,
+    "population": 54337
   },
   {
     "id": "GE-025",
     "name": "Java Municipality",
     "country": "GE",
     "region": "Shida Kartli",
-    "domain": ""
+    "domain": "",
+    "population": 1524
   },
   {
     "id": "GE-026",
@@ -200,7 +224,8 @@
     "country": "GE",
     "region": "Shida Kartli",
     "domain": "kareli.gov.ge",
-    "osm_relation_id": 2025547
+    "osm_relation_id": 2025547,
+    "population": 41316
   },
   {
     "id": "GE-027",
@@ -208,7 +233,8 @@
     "country": "GE",
     "region": "Shida Kartli",
     "domain": "kaspi.gov.ge",
-    "osm_relation_id": 2025549
+    "osm_relation_id": 2025549,
+    "population": 42753
   },
   {
     "id": "GE-028",
@@ -216,7 +242,8 @@
     "country": "GE",
     "region": "Mtskheta-Mtianeti",
     "domain": "kazbegi.gov.ge",
-    "osm_relation_id": 2025553
+    "osm_relation_id": 2025553,
+    "population": 3795
   },
   {
     "id": "GE-029",
@@ -224,7 +251,8 @@
     "country": "GE",
     "region": "Adjara",
     "domain": "keda.gov.ge",
-    "osm_relation_id": 2009240
+    "osm_relation_id": 2009240,
+    "population": 24800
   },
   {
     "id": "GE-030",
@@ -232,7 +260,8 @@
     "country": "GE",
     "region": "Imereti",
     "domain": "kharagauli.gov.ge",
-    "osm_relation_id": 2024540
+    "osm_relation_id": 2024540,
+    "population": 19473
   },
   {
     "id": "GE-031",
@@ -240,7 +269,8 @@
     "country": "GE",
     "region": "Shida Kartli",
     "domain": "khashuri.gov.ge",
-    "osm_relation_id": 2025546
+    "osm_relation_id": 2025546,
+    "population": 52120
   },
   {
     "id": "GE-032",
@@ -248,7 +278,8 @@
     "country": "GE",
     "region": "Adjara",
     "domain": "khelvachauri.ge",
-    "osm_relation_id": 2009238
+    "osm_relation_id": 2009238,
+    "population": 51189
   },
   {
     "id": "GE-033",
@@ -256,7 +287,8 @@
     "country": "GE",
     "region": "Samegrelo-Zemo Svaneti",
     "domain": "khobi.ge",
-    "osm_relation_id": 2016162
+    "osm_relation_id": 2016162,
+    "population": 30548
   },
   {
     "id": "GE-034",
@@ -264,7 +296,8 @@
     "country": "GE",
     "region": "Imereti",
     "domain": "khoni.gov.ge",
-    "osm_relation_id": 2024536
+    "osm_relation_id": 2024536,
+    "population": 23570
   },
   {
     "id": "GE-035",
@@ -272,7 +305,8 @@
     "country": "GE",
     "region": "Adjara",
     "domain": "khulo.gov.ge",
-    "osm_relation_id": 2009242
+    "osm_relation_id": 2009242,
+    "population": 36800
   },
   {
     "id": "GE-036",
@@ -280,7 +314,8 @@
     "country": "GE",
     "region": "Adjara",
     "domain": "kobuleti.gov.ge",
-    "osm_relation_id": 2009239
+    "osm_relation_id": 2009239,
+    "population": 99800
   },
   {
     "id": "GE-037",
@@ -288,7 +323,8 @@
     "country": "GE",
     "region": "Kakheti",
     "domain": "",
-    "osm_relation_id": 2027332
+    "osm_relation_id": 2027332,
+    "population": 41678
   },
   {
     "id": "GE-038",
@@ -296,7 +332,8 @@
     "country": "GE",
     "region": "Guria",
     "domain": "lanchkhuti.gov.ge",
-    "osm_relation_id": 1995783
+    "osm_relation_id": 1995783,
+    "population": 30804
   },
   {
     "id": "GE-039",
@@ -304,7 +341,8 @@
     "country": "GE",
     "region": "Racha-Lechkhumi and Kvemo Svaneti",
     "domain": "lentekhi.gov.ge",
-    "osm_relation_id": 1997285
+    "osm_relation_id": 1997285,
+    "population": 4386
   },
   {
     "id": "GE-040",
@@ -312,7 +350,8 @@
     "country": "GE",
     "region": "Kvemo Kartli",
     "domain": "marneuli.gov.ge",
-    "osm_relation_id": 1997312
+    "osm_relation_id": 1997312,
+    "population": 105300
   },
   {
     "id": "GE-041",
@@ -320,7 +359,8 @@
     "country": "GE",
     "region": "Samegrelo-Zemo Svaneti",
     "domain": "martvili.gov.ge",
-    "osm_relation_id": 2016165
+    "osm_relation_id": 2016165,
+    "population": 33463
   },
   {
     "id": "GE-042",
@@ -328,7 +368,8 @@
     "country": "GE",
     "region": "Samegrelo-Zemo Svaneti",
     "domain": "mestia.gov.ge",
-    "osm_relation_id": 2016168
+    "osm_relation_id": 2016168,
+    "population": 9316
   },
   {
     "id": "GE-043",
@@ -336,7 +377,8 @@
     "country": "GE",
     "region": "Mtskheta-Mtianeti",
     "domain": "mtskheta.gov.ge",
-    "osm_relation_id": 2025550
+    "osm_relation_id": 2025550,
+    "population": 53944
   },
   {
     "id": "GE-044",
@@ -344,7 +386,8 @@
     "country": "GE",
     "region": "Samtskhe–Javakheti",
     "domain": "ninotsminda.gov.ge",
-    "osm_relation_id": 2013751
+    "osm_relation_id": 2013751,
+    "population": 24491
   },
   {
     "id": "GE-045",
@@ -352,7 +395,8 @@
     "country": "GE",
     "region": "Autonomous Republic of Abkhazia",
     "domain": "",
-    "osm_relation_id": 2027326
+    "osm_relation_id": 2027326,
+    "population": 5280
   },
   {
     "id": "GE-046",
@@ -360,7 +404,8 @@
     "country": "GE",
     "region": "Racha-Lechkhumi and Kvemo Svaneti",
     "domain": "oni.gov.ge",
-    "osm_relation_id": 1997288
+    "osm_relation_id": 1997288,
+    "population": 6130
   },
   {
     "id": "GE-047",
@@ -368,7 +413,8 @@
     "country": "GE",
     "region": "Guria",
     "domain": "ozurgeti.mun.gov.ge",
-    "osm_relation_id": 1995403
+    "osm_relation_id": 1995403,
+    "population": 61305
   },
   {
     "id": "GE-048",
@@ -376,7 +422,8 @@
     "country": "GE",
     "region": "Imereti",
     "domain": "sachkhere.gov.ge",
-    "osm_relation_id": 2024545
+    "osm_relation_id": 2024545,
+    "population": 37775
   },
   {
     "id": "GE-049",
@@ -384,7 +431,8 @@
     "country": "GE",
     "region": "Kakheti",
     "domain": "sagarejo.gov.ge",
-    "osm_relation_id": 2027335
+    "osm_relation_id": 2027335,
+    "population": 51761
   },
   {
     "id": "GE-050",
@@ -392,7 +440,8 @@
     "country": "GE",
     "region": "Imereti",
     "domain": "samtredia.gov.ge",
-    "osm_relation_id": 2024537
+    "osm_relation_id": 2024537,
+    "population": 48562
   },
   {
     "id": "GE-051",
@@ -400,7 +449,8 @@
     "country": "GE",
     "region": "Samegrelo-Zemo Svaneti",
     "domain": "senaki.gov.ge",
-    "osm_relation_id": 2016163
+    "osm_relation_id": 2016163,
+    "population": 39500
   },
   {
     "id": "GE-052",
@@ -408,7 +458,8 @@
     "country": "GE",
     "region": "Adjara",
     "domain": "shuakhevi.gov.ge",
-    "osm_relation_id": 2009241
+    "osm_relation_id": 2009241,
+    "population": 20700
   },
   {
     "id": "GE-053",
@@ -416,7 +467,8 @@
     "country": "GE",
     "region": "Kakheti",
     "domain": "signagi.gov.ge",
-    "osm_relation_id": 2027333
+    "osm_relation_id": 2027333,
+    "population": 29948
   },
   {
     "id": "GE-054",
@@ -431,7 +483,8 @@
     "country": "GE",
     "region": "Kakheti",
     "domain": "telavi.gov.ge",
-    "osm_relation_id": 2027329
+    "osm_relation_id": 2027329,
+    "population": 38721
   },
   {
     "id": "GE-056",
@@ -439,7 +492,8 @@
     "country": "GE",
     "region": "Imereti",
     "domain": "terjola.gov.ge",
-    "osm_relation_id": 2024542
+    "osm_relation_id": 2024542,
+    "population": 35563
   },
   {
     "id": "GE-057",
@@ -447,7 +501,8 @@
     "country": "GE",
     "region": "Kvemo Kartli",
     "domain": "tetritskaro.gov.ge",
-    "osm_relation_id": 2014301
+    "osm_relation_id": 2014301,
+    "population": 21000
   },
   {
     "id": "GE-058",
@@ -455,7 +510,8 @@
     "country": "GE",
     "region": "Mtskheta-Mtianeti",
     "domain": "tianeti.gov.ge",
-    "osm_relation_id": 2025551
+    "osm_relation_id": 2025551,
+    "population": 9468
   },
   {
     "id": "GE-059",
@@ -463,7 +519,8 @@
     "country": "GE",
     "region": "Imereti",
     "domain": "tkibuli.gov.ge",
-    "osm_relation_id": 2024546
+    "osm_relation_id": 2024546,
+    "population": 19348
   },
   {
     "id": "GE-060",
@@ -471,7 +528,8 @@
     "country": "GE",
     "region": "Racha-Lechkhumi and Kvemo Svaneti",
     "domain": "tsageri.gov.ge",
-    "osm_relation_id": 1997286
+    "osm_relation_id": 1997286,
+    "population": 10387
   },
   {
     "id": "GE-061",
@@ -479,7 +537,8 @@
     "country": "GE",
     "region": "Georgian Soviet Socialist Republic",
     "domain": "tsalenjikha.gov.ge",
-    "osm_relation_id": 2016167
+    "osm_relation_id": 2016167,
+    "population": 26158
   },
   {
     "id": "GE-062",
@@ -487,7 +546,8 @@
     "country": "GE",
     "region": "Kvemo Kartli",
     "domain": "tsalka.gov.ge",
-    "osm_relation_id": 2014298
+    "osm_relation_id": 2014298,
+    "population": 18900
   },
   {
     "id": "GE-063",
@@ -495,7 +555,8 @@
     "country": "GE",
     "region": "South Ossetia",
     "domain": "tskhinval.ru",
-    "osm_relation_id": 2027318
+    "osm_relation_id": 2027318,
+    "population": 32699
   },
   {
     "id": "GE-064",
@@ -503,7 +564,8 @@
     "country": "GE",
     "region": "Imereti",
     "domain": "tskaltubo.gov.ge",
-    "osm_relation_id": 2024548
+    "osm_relation_id": 2024548,
+    "population": 51425
   },
   {
     "id": "GE-065",
@@ -511,7 +573,8 @@
     "country": "GE",
     "region": "Imereti",
     "domain": "vani.gov.ge",
-    "osm_relation_id": 2024538
+    "osm_relation_id": 2024538,
+    "population": 22790
   },
   {
     "id": "GE-066",
@@ -519,7 +582,8 @@
     "country": "GE",
     "region": "Georgian Soviet Socialist Republic",
     "domain": "zestafoni.gov.ge",
-    "osm_relation_id": 2024541
+    "osm_relation_id": 2024541,
+    "population": 56532
   },
   {
     "id": "GE-067",
@@ -527,6 +591,7 @@
     "country": "GE",
     "region": "Samegrelo-Zemo Svaneti",
     "domain": "zugdidi.gov.ge",
-    "osm_relation_id": 2016161
+    "osm_relation_id": 2016161,
+    "population": 105509
   }
 ]

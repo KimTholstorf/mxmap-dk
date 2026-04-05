@@ -21,7 +21,8 @@
     "country": "LB",
     "region": "Lebanon",
     "domain": "",
-    "osm_relation_id": 316552
+    "osm_relation_id": 316552,
+    "population": 433249
   },
   {
     "id": "LB-004",
@@ -29,7 +30,8 @@
     "country": "LB",
     "region": "Lebanon",
     "domain": "",
-    "osm_relation_id": 318174
+    "osm_relation_id": 318174,
+    "population": 489900
   },
   {
     "id": "LB-005",
@@ -45,7 +47,8 @@
     "country": "LB",
     "region": "Lebanon",
     "domain": "",
-    "osm_relation_id": 318194
+    "osm_relation_id": 318194,
+    "population": 1520016
   },
   {
     "id": "LB-007",
@@ -53,7 +56,8 @@
     "country": "LB",
     "region": "Lebanon",
     "domain": "",
-    "osm_relation_id": 318309
+    "osm_relation_id": 318309,
+    "population": 345500
   },
   {
     "id": "LB-008",
@@ -69,6 +73,7 @@
     "country": "LB",
     "region": "Lebanon",
     "domain": "",
-    "osm_relation_id": 318236
+    "osm_relation_id": 318236,
+    "population": 542639
   }
 ]

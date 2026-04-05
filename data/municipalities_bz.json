@@ -5,7 +5,8 @@
     "country": "BZ",
     "region": "Belize",
     "domain": "belizedistrict.com",
-    "osm_relation_id": 962354
+    "osm_relation_id": 962354,
+    "population": 131363
   },
   {
     "id": "BZ-002",
@@ -13,7 +14,8 @@
     "country": "BZ",
     "region": "Belize",
     "domain": "",
-    "osm_relation_id": 962357
+    "osm_relation_id": 962357,
+    "population": 99105
   },
   {
     "id": "BZ-003",
@@ -21,7 +23,8 @@
     "country": "BZ",
     "region": "Belize",
     "domain": "corozal.com",
-    "osm_relation_id": 962356
+    "osm_relation_id": 962356,
+    "population": 45310
   },
   {
     "id": "BZ-004",
@@ -29,7 +32,8 @@
     "country": "BZ",
     "region": "Belize",
     "domain": "",
-    "osm_relation_id": 962355
+    "osm_relation_id": 962355,
+    "population": 54152
   },
   {
     "id": "BZ-005",
@@ -37,7 +41,8 @@
     "country": "BZ",
     "region": "Belize",
     "domain": "belizedistrict.com",
-    "osm_relation_id": 962353
+    "osm_relation_id": 962353,
+    "population": 46342
   },
   {
     "id": "BZ-006",
@@ -45,6 +50,7 @@
     "country": "BZ",
     "region": "Belize",
     "domain": "",
-    "osm_relation_id": 962358
+    "osm_relation_id": 962358,
+    "population": 38944
   }
 ]

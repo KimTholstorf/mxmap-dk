@@ -5,7 +5,8 @@
     "country": "GY",
     "region": "Guyana",
     "domain": "",
-    "osm_relation_id": 7105826
+    "osm_relation_id": 7105826,
+    "population": 38956
   },
   {
     "id": "GY-002",
@@ -13,7 +14,8 @@
     "country": "GY",
     "region": "Guyana",
     "domain": "rdc2.gov.gy",
-    "osm_relation_id": 7105874
+    "osm_relation_id": 7105874,
+    "population": 56469
   },
   {
     "id": "GY-003",
@@ -21,7 +23,8 @@
     "country": "GY",
     "region": "Guyana",
     "domain": "",
-    "osm_relation_id": 7105894
+    "osm_relation_id": 7105894,
+    "population": 143884
   },
   {
     "id": "GY-004",
@@ -29,7 +32,8 @@
     "country": "GY",
     "region": "Guyana",
     "domain": "",
-    "osm_relation_id": 7105917
+    "osm_relation_id": 7105917,
+    "population": 347759
   },
   {
     "id": "GY-005",
@@ -37,7 +41,8 @@
     "country": "GY",
     "region": "Guyana",
     "domain": "",
-    "osm_relation_id": 7108958
+    "osm_relation_id": 7108958,
+    "population": 57667
   },
   {
     "id": "GY-006",
@@ -45,7 +50,8 @@
     "country": "GY",
     "region": "Guyana",
     "domain": "",
-    "osm_relation_id": 7109048
+    "osm_relation_id": 7109048,
+    "population": 114574
   },
   {
     "id": "GY-007",
@@ -53,7 +59,8 @@
     "country": "GY",
     "region": "Guyana",
     "domain": "",
-    "osm_relation_id": 7108866
+    "osm_relation_id": 7108866,
+    "population": 30324
   },
   {
     "id": "GY-008",
@@ -61,7 +68,8 @@
     "country": "GY",
     "region": "Guyana",
     "domain": "rdc8.gov.gy",
-    "osm_relation_id": 7108941
+    "osm_relation_id": 7108941,
+    "population": 10190
   },
   {
     "id": "GY-009",
@@ -69,7 +77,8 @@
     "country": "GY",
     "region": "Guyana",
     "domain": "rdc9.gov.gy",
-    "osm_relation_id": 7108944
+    "osm_relation_id": 7108944,
+    "population": 29944
   },
   {
     "id": "GY-010",
@@ -77,6 +86,7 @@
     "country": "GY",
     "region": "Guyana",
     "domain": "",
-    "osm_relation_id": 7109155
+    "osm_relation_id": 7109155,
+    "population": 45499
   }
 ]

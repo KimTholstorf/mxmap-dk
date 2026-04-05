@@ -5,7 +5,8 @@
     "country": "SM",
     "region": "",
     "domain": "pa-acquaviva.org",
-    "osm_relation_id": 3012938
+    "osm_relation_id": 3012938,
+    "population": 2118
   },
   {
     "id": "SM-02",
@@ -13,7 +14,8 @@
     "country": "SM",
     "region": "",
     "domain": "borgomaggiore.org",
-    "osm_relation_id": 3012939
+    "osm_relation_id": 3012939,
+    "population": 6962
   },
   {
     "id": "SM-03",
@@ -21,7 +23,8 @@
     "country": "SM",
     "region": "",
     "domain": "pa-chiesanuova.org",
-    "osm_relation_id": 3012940
+    "osm_relation_id": 3012940,
+    "population": 1097
   },
   {
     "id": "SM-04",
@@ -37,7 +40,8 @@
     "country": "SM",
     "region": "",
     "domain": "domagnano.org",
-    "osm_relation_id": 3012941
+    "osm_relation_id": 3012941,
+    "population": 3319
   },
   {
     "id": "SM-06",
@@ -45,7 +49,8 @@
     "country": "SM",
     "region": "",
     "domain": "pa-faetano.org",
-    "osm_relation_id": 3012942
+    "osm_relation_id": 3012942,
+    "population": 1212
   },
   {
     "id": "SM-07",
@@ -53,7 +58,8 @@
     "country": "SM",
     "region": "",
     "domain": "fiorentino.sm",
-    "osm_relation_id": 3012943
+    "osm_relation_id": 3012943,
+    "population": 2526
   },
   {
     "id": "SM-08",
@@ -61,7 +67,8 @@
     "country": "SM",
     "region": "",
     "domain": "montegiardino.org",
-    "osm_relation_id": 3012944
+    "osm_relation_id": 3012944,
+    "population": 910
   },
   {
     "id": "SM-09",
@@ -69,6 +76,7 @@
     "country": "SM",
     "region": "",
     "domain": "serravalle.sm",
-    "osm_relation_id": 3012946
+    "osm_relation_id": 3012946,
+    "population": 10591
   }
 ]

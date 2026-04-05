@@ -5,7 +5,8 @@
     "country": "BY",
     "region": "Gomel Region",
     "domain": "oktiabrskiy.gov.by",
-    "osm_relation_id": 59755
+    "osm_relation_id": 59755,
+    "population": 12666
   },
   {
     "id": "BY-002",
@@ -13,7 +14,8 @@
     "country": "BY",
     "region": "Mogilev region",
     "domain": "osipovichi.gov.by",
-    "osm_relation_id": 59753
+    "osm_relation_id": 59753,
+    "population": 42663
   },
   {
     "id": "BY-003",
@@ -21,7 +23,8 @@
     "country": "BY",
     "region": "Grodno Region",
     "domain": "ostrovets.grodno-region.by",
-    "osm_relation_id": 70721
+    "osm_relation_id": 70721,
+    "population": 28500
   },
   {
     "id": "BY-004",
@@ -29,7 +32,8 @@
     "country": "BY",
     "region": "Grodno Region",
     "domain": "",
-    "osm_relation_id": 70728
+    "osm_relation_id": 70728,
+    "population": 28771
   },
   {
     "id": "BY-005",
@@ -37,7 +41,8 @@
     "country": "BY",
     "region": "Mogilev region",
     "domain": "bobruisk-rik.gov.by",
-    "osm_relation_id": 59148
+    "osm_relation_id": 59148,
+    "population": 16204
   },
   {
     "id": "BY-006",
@@ -45,7 +50,8 @@
     "country": "BY",
     "region": "Brest Region",
     "domain": "baranovichi.brest-region.gov.by",
-    "osm_relation_id": 71116
+    "osm_relation_id": 71116,
+    "population": 26029
   },
   {
     "id": "BY-007",
@@ -53,7 +59,8 @@
     "country": "BY",
     "region": "Minsk Region",
     "domain": "",
-    "osm_relation_id": 70569
+    "osm_relation_id": 70569,
+    "population": 167032
   },
   {
     "id": "BY-008",
@@ -61,7 +68,8 @@
     "country": "BY",
     "region": "Mogilev region",
     "domain": "belynichi.gov.by",
-    "osm_relation_id": 70637
+    "osm_relation_id": 70637,
+    "population": 17194
   },
   {
     "id": "BY-009",
@@ -69,7 +77,8 @@
     "country": "BY",
     "region": "Brest Region",
     "domain": "bereza.brest-region.gov.by",
-    "osm_relation_id": 71107
+    "osm_relation_id": 71107,
+    "population": 56182
   },
   {
     "id": "BY-010",
@@ -77,7 +86,8 @@
     "country": "BY",
     "region": "Grodno Region",
     "domain": "berestovitsa.grodno-region.by",
-    "osm_relation_id": 70790
+    "osm_relation_id": 70790,
+    "population": 14175
   },
   {
     "id": "BY-011",
@@ -85,7 +95,8 @@
     "country": "BY",
     "region": "Minsk Region",
     "domain": "berezino.minsk-region.gov.by",
-    "osm_relation_id": 70575
+    "osm_relation_id": 70575,
+    "population": 21156
   },
   {
     "id": "BY-012",
@@ -93,7 +104,8 @@
     "country": "BY",
     "region": "Vitebsk Region",
     "domain": "beshenkovichi.vitebsk-region.gov.by",
-    "osm_relation_id": 70668
+    "osm_relation_id": 70668,
+    "population": 12842
   },
   {
     "id": "BY-013",
@@ -101,7 +113,8 @@
     "country": "BY",
     "region": "Gomel Region",
     "domain": "bragin.gov.by",
-    "osm_relation_id": 70801
+    "osm_relation_id": 70801,
+    "population": 11435
   },
   {
     "id": "BY-014",
@@ -109,7 +122,8 @@
     "country": "BY",
     "region": "Vitebsk Region",
     "domain": "braslav.vitebsk-region.gov.by",
-    "osm_relation_id": 70691
+    "osm_relation_id": 70691,
+    "population": 22349
   },
   {
     "id": "BY-015",
@@ -117,7 +131,8 @@
     "country": "BY",
     "region": "Brest Region",
     "domain": "",
-    "osm_relation_id": 59188
+    "osm_relation_id": 59188,
+    "population": 45874
   },
   {
     "id": "BY-016",
@@ -125,7 +140,8 @@
     "country": "BY",
     "region": "Gomel Region",
     "domain": "buda-koshelevo.gov.by",
-    "osm_relation_id": 59175
+    "osm_relation_id": 59175,
+    "population": 28408
   },
   {
     "id": "BY-017",
@@ -133,7 +149,8 @@
     "country": "BY",
     "region": "Mogilev region",
     "domain": "bykhov.gov.by",
-    "osm_relation_id": 70586
+    "osm_relation_id": 70586,
+    "population": 27582
   },
   {
     "id": "BY-018",
@@ -141,7 +158,8 @@
     "country": "BY",
     "region": "Mogilev region",
     "domain": "chausy.gov.by",
-    "osm_relation_id": 70591
+    "osm_relation_id": 70591,
+    "population": 16291
   },
   {
     "id": "BY-019",
@@ -149,7 +167,8 @@
     "country": "BY",
     "region": "Mogilev region",
     "domain": "khotimsk.gov.by",
-    "osm_relation_id": 70605
+    "osm_relation_id": 70605,
+    "population": 9425
   },
   {
     "id": "BY-020",
@@ -157,7 +176,8 @@
     "country": "BY",
     "region": "Gomel Region",
     "domain": "hoiniki.gov.by",
-    "osm_relation_id": 70802
+    "osm_relation_id": 70802,
+    "population": 18054
   },
   {
     "id": "BY-021",
@@ -165,7 +185,8 @@
     "country": "BY",
     "region": "Gomel Region",
     "domain": "",
-    "osm_relation_id": 59092
+    "osm_relation_id": 59092,
+    "population": 34215
   },
   {
     "id": "BY-022",
@@ -173,7 +194,8 @@
     "country": "BY",
     "region": "Vitebsk Region",
     "domain": "dokshitsy.vitebsk-region.gov.by",
-    "osm_relation_id": 70716
+    "osm_relation_id": 70716,
+    "population": 19630
   },
   {
     "id": "BY-023",
@@ -181,7 +203,8 @@
     "country": "BY",
     "region": "Brest Region",
     "domain": "drogichin.brest-region.gov.by",
-    "osm_relation_id": 71105
+    "osm_relation_id": 71105,
+    "population": 32343
   },
   {
     "id": "BY-024",
@@ -189,7 +212,8 @@
     "country": "BY",
     "region": "Mogilev region",
     "domain": "dribin.gov.by",
-    "osm_relation_id": 70618
+    "osm_relation_id": 70618,
+    "population": 9190
   },
   {
     "id": "BY-025",
@@ -197,7 +221,8 @@
     "country": "BY",
     "region": "Vitebsk Region",
     "domain": "dubrovno.vitebsk-region.gov.by",
-    "osm_relation_id": 70656
+    "osm_relation_id": 70656,
+    "population": 12770
   },
   {
     "id": "BY-026",
@@ -205,7 +230,8 @@
     "country": "BY",
     "region": "Minsk Region",
     "domain": "dzerzhinsk.gov.by",
-    "osm_relation_id": 70563
+    "osm_relation_id": 70563,
+    "population": 70702
   },
   {
     "id": "BY-027",
@@ -213,7 +239,8 @@
     "country": "BY",
     "region": "Grodno Region",
     "domain": "dyatlovo.grodno-region.by",
-    "osm_relation_id": 70768
+    "osm_relation_id": 70768,
+    "population": 21949
   },
   {
     "id": "BY-028",
@@ -221,7 +248,8 @@
     "country": "BY",
     "region": "Gomel Region",
     "domain": "gomelisp.gov.by",
-    "osm_relation_id": 1469691
+    "osm_relation_id": 1469691,
+    "population": 68559
   },
   {
     "id": "BY-029",
@@ -229,7 +257,8 @@
     "country": "BY",
     "region": "Grodno Region",
     "domain": "grodnorik.gov.by",
-    "osm_relation_id": 59273
+    "osm_relation_id": 59273,
+    "population": 48199
   },
   {
     "id": "BY-030",
@@ -237,7 +266,8 @@
     "country": "BY",
     "region": "Brest Region",
     "domain": "gantsevichi.brest-region.by",
-    "osm_relation_id": 71121
+    "osm_relation_id": 71121,
+    "population": 23441
   },
   {
     "id": "BY-031",
@@ -245,7 +275,8 @@
     "country": "BY",
     "region": "Vitebsk Region",
     "domain": "gorodok.vitebsk-region.gov.by",
-    "osm_relation_id": 70676
+    "osm_relation_id": 70676,
+    "population": 19609
   },
   {
     "id": "BY-032",
@@ -253,7 +284,8 @@
     "country": "BY",
     "region": "Mogilev region",
     "domain": "glusk.gov.by",
-    "osm_relation_id": 71138
+    "osm_relation_id": 71138,
+    "population": 11803
   },
   {
     "id": "BY-033",
@@ -261,7 +293,8 @@
     "country": "BY",
     "region": "Vitebsk Region",
     "domain": "glubokoe.vitebsk-region.gov.by",
-    "osm_relation_id": 70703
+    "osm_relation_id": 70703,
+    "population": 32383
   },
   {
     "id": "BY-034",
@@ -269,7 +302,8 @@
     "country": "BY",
     "region": "Mogilev region",
     "domain": "gorki.gov.by",
-    "osm_relation_id": 70620
+    "osm_relation_id": 70620,
+    "population": 37106
   },
   {
     "id": "BY-035",
@@ -277,7 +311,8 @@
     "country": "BY",
     "region": "Brest Region",
     "domain": "ivacevichi.brest-region.gov.by",
-    "osm_relation_id": 71112
+    "osm_relation_id": 71112,
+    "population": 48662
   },
   {
     "id": "BY-036",
@@ -285,7 +320,8 @@
     "country": "BY",
     "region": "Brest Region",
     "domain": "ivanovo.brest-region.gov.by",
-    "osm_relation_id": 71118
+    "osm_relation_id": 71118,
+    "population": 33772
   },
   {
     "id": "BY-037",
@@ -293,7 +329,8 @@
     "country": "BY",
     "region": "Grodno Region",
     "domain": "ivje.gov.by",
-    "osm_relation_id": 70732
+    "osm_relation_id": 70732,
+    "population": 18919
   },
   {
     "id": "BY-038",
@@ -301,7 +338,8 @@
     "country": "BY",
     "region": "Gomel Region",
     "domain": "yelsk.gov.by",
-    "osm_relation_id": 70810
+    "osm_relation_id": 70810,
+    "population": 13674
   },
   {
     "id": "BY-039",
@@ -309,7 +347,8 @@
     "country": "BY",
     "region": "Gomel Region",
     "domain": "kalinkovichi.gov.by",
-    "osm_relation_id": 70814
+    "osm_relation_id": 70814,
+    "population": 53947
   },
   {
     "id": "BY-040",
@@ -317,7 +356,8 @@
     "country": "BY",
     "region": "Brest Region",
     "domain": "kamenec.brest-region.by",
-    "osm_relation_id": 71097
+    "osm_relation_id": 71097,
+    "population": 30162
   },
   {
     "id": "BY-041",
@@ -325,7 +365,8 @@
     "country": "BY",
     "region": "Minsk Region",
     "domain": "kopyl.gov.by",
-    "osm_relation_id": 71132
+    "osm_relation_id": 71132,
+    "population": 26067
   },
   {
     "id": "BY-042",
@@ -333,7 +374,8 @@
     "country": "BY",
     "region": "Grodno Region",
     "domain": "korelichi.gov.by",
-    "osm_relation_id": 70751
+    "osm_relation_id": 70751,
+    "population": 17668
   },
   {
     "id": "BY-043",
@@ -341,7 +383,8 @@
     "country": "BY",
     "region": "Gomel Region",
     "domain": "",
-    "osm_relation_id": 59149
+    "osm_relation_id": 59149,
+    "population": 12856
   },
   {
     "id": "BY-044",
@@ -349,7 +392,8 @@
     "country": "BY",
     "region": "Mogilev region",
     "domain": "kostukovichi.gov.by",
-    "osm_relation_id": 70604
+    "osm_relation_id": 70604,
+    "population": 20904
   },
   {
     "id": "BY-045",
@@ -357,7 +401,8 @@
     "country": "BY",
     "region": "Mogilev region",
     "domain": "kirovsk.gov.by",
-    "osm_relation_id": 70580
+    "osm_relation_id": 70580,
+    "population": 16666
   },
   {
     "id": "BY-046",
@@ -365,7 +410,8 @@
     "country": "BY",
     "region": "Minsk Region",
     "domain": "kletsk.gov.by",
-    "osm_relation_id": 71130
+    "osm_relation_id": 71130,
+    "population": 25180
   },
   {
     "id": "BY-047",
@@ -373,7 +419,8 @@
     "country": "BY",
     "region": "Mogilev region",
     "domain": "klimovichi.gov.by",
-    "osm_relation_id": 70610
+    "osm_relation_id": 70610,
+    "population": 21605
   },
   {
     "id": "BY-048",
@@ -381,7 +428,8 @@
     "country": "BY",
     "region": "Mogilev region",
     "domain": "klichev.gov.by",
-    "osm_relation_id": 70577
+    "osm_relation_id": 70577,
+    "population": 13324
   },
   {
     "id": "BY-049",
@@ -389,7 +437,8 @@
     "country": "BY",
     "region": "Brest Region",
     "domain": "kobrin.brest-region.gov.by",
-    "osm_relation_id": 71101
+    "osm_relation_id": 71101,
+    "population": 80557
   },
   {
     "id": "BY-050",
@@ -397,7 +446,8 @@
     "country": "BY",
     "region": "Mogilev region",
     "domain": "krasnopolie.gov.by",
-    "osm_relation_id": 70602
+    "osm_relation_id": 70602,
+    "population": 8526
   },
   {
     "id": "BY-051",
@@ -405,7 +455,8 @@
     "country": "BY",
     "region": "Mogilev region",
     "domain": "krugloe.mogilev-region.by",
-    "osm_relation_id": 70638
+    "osm_relation_id": 70638,
+    "population": 12247
   },
   {
     "id": "BY-052",
@@ -413,7 +464,8 @@
     "country": "BY",
     "region": "Minsk Region",
     "domain": "krupki.gov.by",
-    "osm_relation_id": 70639
+    "osm_relation_id": 70639,
+    "population": 21346
   },
   {
     "id": "BY-053",
@@ -421,7 +473,8 @@
     "country": "BY",
     "region": "Mogilev region",
     "domain": "krichev.gov.by",
-    "osm_relation_id": 70614
+    "osm_relation_id": 70614,
+    "population": 27335
   },
   {
     "id": "BY-054",
@@ -429,7 +482,8 @@
     "country": "BY",
     "region": "Minsk Region",
     "domain": "logoysk.gov.by",
-    "osm_relation_id": 70542
+    "osm_relation_id": 70542,
+    "population": 38384
   },
   {
     "id": "BY-055",
@@ -437,7 +491,8 @@
     "country": "BY",
     "region": "Gomel Region",
     "domain": "lelchitsy.gov.by",
-    "osm_relation_id": 71147
+    "osm_relation_id": 71147,
+    "population": 23134
   },
   {
     "id": "BY-056",
@@ -445,7 +500,8 @@
     "country": "BY",
     "region": "Brest Region",
     "domain": "liahovichi.brest-region.by",
-    "osm_relation_id": 71117
+    "osm_relation_id": 71117,
+    "population": 21059
   },
   {
     "id": "BY-057",
@@ -453,7 +509,8 @@
     "country": "BY",
     "region": "Grodno Region",
     "domain": "lida.gov.by",
-    "osm_relation_id": 70747
+    "osm_relation_id": 70747,
+    "population": 131597
   },
   {
     "id": "BY-058",
@@ -461,7 +518,8 @@
     "country": "BY",
     "region": "Vitebsk Region",
     "domain": "lepel.vitebsk-region.gov.by",
-    "osm_relation_id": 70679
+    "osm_relation_id": 70679,
+    "population": 29427
   },
   {
     "id": "BY-059",
@@ -469,7 +527,8 @@
     "country": "BY",
     "region": "Vitebsk Region",
     "domain": "liozno.vitebsk-region.gov.by",
-    "osm_relation_id": 70665
+    "osm_relation_id": 70665,
+    "population": 14218
   },
   {
     "id": "BY-060",
@@ -477,7 +536,8 @@
     "country": "BY",
     "region": "Gomel Region",
     "domain": "loev.gov.by",
-    "osm_relation_id": 70799
+    "osm_relation_id": 70799,
+    "population": 10557
   },
   {
     "id": "BY-061",
@@ -485,7 +545,8 @@
     "country": "BY",
     "region": "Brest Region",
     "domain": "luninets.brest-region.by",
-    "osm_relation_id": 71124
+    "osm_relation_id": 71124,
+    "population": 59463
   },
   {
     "id": "BY-062",
@@ -493,7 +554,8 @@
     "country": "BY",
     "region": "Minsk Region",
     "domain": "lyuban.gov.by",
-    "osm_relation_id": 71140
+    "osm_relation_id": 71140,
+    "population": 27987
   },
   {
     "id": "BY-063",
@@ -501,7 +563,8 @@
     "country": "BY",
     "region": "Mogilev region",
     "domain": "mogilev-rik.gov.by",
-    "osm_relation_id": 62147
+    "osm_relation_id": 62147,
+    "population": 39163
   },
   {
     "id": "BY-064",
@@ -509,7 +572,8 @@
     "country": "BY",
     "region": "Minsk Region",
     "domain": "",
-    "osm_relation_id": 70566
+    "osm_relation_id": 70566,
+    "population": 127622
   },
   {
     "id": "BY-065",
@@ -517,7 +581,8 @@
     "country": "BY",
     "region": "Brest Region",
     "domain": "malorita.brest-region.gov.by",
-    "osm_relation_id": 71100
+    "osm_relation_id": 71100,
+    "population": 22006
   },
   {
     "id": "BY-066",
@@ -525,7 +590,8 @@
     "country": "BY",
     "region": "Grodno Region",
     "domain": "mosty.grodno-region.by",
-    "osm_relation_id": 70754
+    "osm_relation_id": 70754,
+    "population": 24653
   },
   {
     "id": "BY-067",
@@ -533,7 +599,8 @@
     "country": "BY",
     "region": "Gomel Region",
     "domain": "mozyrisp.gov.by",
-    "osm_relation_id": 70815
+    "osm_relation_id": 70815,
+    "population": 125821
   },
   {
     "id": "BY-068",
@@ -541,7 +608,8 @@
     "country": "BY",
     "region": "Minsk Region",
     "domain": "",
-    "osm_relation_id": 70719
+    "osm_relation_id": 70719,
+    "population": 23825
   },
   {
     "id": "BY-069",
@@ -549,7 +617,8 @@
     "country": "BY",
     "region": "Minsk Region",
     "domain": "mrik.gov.by",
-    "osm_relation_id": 59190
+    "osm_relation_id": 59190,
+    "population": 279989
   },
   {
     "id": "BY-070",
@@ -557,7 +626,8 @@
     "country": "BY",
     "region": "Vitebsk Region",
     "domain": "miory.vitebsk-region.gov.by",
-    "osm_relation_id": 70690
+    "osm_relation_id": 70690,
+    "population": 16640
   },
   {
     "id": "BY-071",
@@ -565,7 +635,8 @@
     "country": "BY",
     "region": "Mogilev region",
     "domain": "mstislavl.gov.by",
-    "osm_relation_id": 70616
+    "osm_relation_id": 70616,
+    "population": 17910
   },
   {
     "id": "BY-072",
@@ -573,7 +644,8 @@
     "country": "BY",
     "region": "Gomel Region",
     "domain": "narovlya.gov.by",
-    "osm_relation_id": 70809
+    "osm_relation_id": 70809,
+    "population": 10355
   },
   {
     "id": "BY-073",
@@ -581,7 +653,8 @@
     "country": "BY",
     "region": "Grodno Region",
     "domain": "novogrudok.gov.by",
-    "osm_relation_id": 70749
+    "osm_relation_id": 70749,
+    "population": 40088
   },
   {
     "id": "BY-074",
@@ -589,7 +662,8 @@
     "country": "BY",
     "region": "Minsk Region",
     "domain": "",
-    "osm_relation_id": 71128
+    "osm_relation_id": 71128,
+    "population": 38350
   },
   {
     "id": "BY-075",
@@ -597,7 +671,8 @@
     "country": "BY",
     "region": "Vitebsk Region",
     "domain": "orsha.vitebsk-region.gov.by",
-    "osm_relation_id": 70660
+    "osm_relation_id": 70660,
+    "population": 137772
   },
   {
     "id": "BY-076",
@@ -605,7 +680,8 @@
     "country": "BY",
     "region": "Vitebsk Region",
     "domain": "postavy.vitebsk-region.gov.by",
-    "osm_relation_id": 70707
+    "osm_relation_id": 70707,
+    "population": 30360
   },
   {
     "id": "BY-077",
@@ -613,7 +689,8 @@
     "country": "BY",
     "region": "Gomel Region",
     "domain": "petrikov.gov.by",
-    "osm_relation_id": 71145
+    "osm_relation_id": 71145,
+    "population": 24807
   },
   {
     "id": "BY-078",
@@ -621,7 +698,8 @@
     "country": "BY",
     "region": "Brest Region",
     "domain": "",
-    "osm_relation_id": 71119
+    "osm_relation_id": 71119,
+    "population": 39592
   },
   {
     "id": "BY-079",
@@ -629,7 +707,8 @@
     "country": "BY",
     "region": "Vitebsk Region",
     "domain": "polotsk.vitebsk-region.gov.by",
-    "osm_relation_id": 70671
+    "osm_relation_id": 70671,
+    "population": 98497
   },
   {
     "id": "BY-080",
@@ -637,7 +716,8 @@
     "country": "BY",
     "region": "Brest Region",
     "domain": "pruzhany.brest-region.gov.by",
-    "osm_relation_id": 71094
+    "osm_relation_id": 71094,
+    "population": 39913
   },
   {
     "id": "BY-081",
@@ -645,7 +725,8 @@
     "country": "BY",
     "region": "Minsk Region",
     "domain": "",
-    "osm_relation_id": 70549
+    "osm_relation_id": 70549,
+    "population": 67081
   },
   {
     "id": "BY-082",
@@ -653,7 +734,8 @@
     "country": "BY",
     "region": "Gomel Region",
     "domain": "rogachev.gov.by",
-    "osm_relation_id": 59174
+    "osm_relation_id": 59174,
+    "population": 49697
   },
   {
     "id": "BY-083",
@@ -661,7 +743,8 @@
     "country": "BY",
     "region": "Vitebsk Region",
     "domain": "rossony.vitebsk-region.gov.by",
-    "osm_relation_id": 70680
+    "osm_relation_id": 70680,
+    "population": 7888
   },
   {
     "id": "BY-084",
@@ -669,7 +752,8 @@
     "country": "BY",
     "region": "Gomel Region",
     "domain": "rechitsa.by",
-    "osm_relation_id": 70812
+    "osm_relation_id": 70812,
+    "population": 93639
   },
   {
     "id": "BY-085",
@@ -677,7 +761,8 @@
     "country": "BY",
     "region": "Minsk Region",
     "domain": "soligorsk.gov.by",
-    "osm_relation_id": 71133
+    "osm_relation_id": 71133,
+    "population": 125406
   },
   {
     "id": "BY-086",
@@ -685,7 +770,8 @@
     "country": "BY",
     "region": "Grodno Region",
     "domain": "schuchin.gov.by",
-    "osm_relation_id": 70748
+    "osm_relation_id": 70748,
+    "population": 30824
   },
   {
     "id": "BY-087",
@@ -693,7 +779,8 @@
     "country": "BY",
     "region": "Mogilev region",
     "domain": "slavgorod.gov.by",
-    "osm_relation_id": 70589
+    "osm_relation_id": 70589,
+    "population": 11904
   },
   {
     "id": "BY-088",
@@ -701,7 +788,8 @@
     "country": "BY",
     "region": "Grodno Region",
     "domain": "slonim.gov.by",
-    "osm_relation_id": 71114
+    "osm_relation_id": 71114,
+    "population": 59900
   },
   {
     "id": "BY-089",
@@ -709,7 +797,8 @@
     "country": "BY",
     "region": "Minsk Region",
     "domain": "slutsk.gov.by",
-    "osm_relation_id": 71134
+    "osm_relation_id": 71134,
+    "population": 84548
   },
   {
     "id": "BY-090",
@@ -717,7 +806,8 @@
     "country": "BY",
     "region": "Minsk Region",
     "domain": "smolevichi.gov.by",
-    "osm_relation_id": 69554
+    "osm_relation_id": 69554,
+    "population": 56657
   },
   {
     "id": "BY-091",
@@ -725,7 +815,8 @@
     "country": "BY",
     "region": "Grodno Region",
     "domain": "smorgon.grodno-region.by",
-    "osm_relation_id": 70725
+    "osm_relation_id": 70725,
+    "population": 47776
   },
   {
     "id": "BY-092",
@@ -733,7 +824,8 @@
     "country": "BY",
     "region": "Minsk Region",
     "domain": "",
-    "osm_relation_id": 71135
+    "osm_relation_id": 71135,
+    "population": 18783
   },
   {
     "id": "BY-093",
@@ -741,7 +833,8 @@
     "country": "BY",
     "region": "Brest Region",
     "domain": "stolin.brest-region.gov.by",
-    "osm_relation_id": 71125
+    "osm_relation_id": 71125,
+    "population": 66836
   },
   {
     "id": "BY-094",
@@ -749,7 +842,8 @@
     "country": "BY",
     "region": "Minsk Region",
     "domain": "stolbtsy.gov.by",
-    "osm_relation_id": 70752
+    "osm_relation_id": 70752,
+    "population": 37185
   },
   {
     "id": "BY-095",
@@ -757,7 +851,8 @@
     "country": "BY",
     "region": "Gomel Region",
     "domain": "svetlogorsk.by",
-    "osm_relation_id": 59137
+    "osm_relation_id": 59137,
+    "population": 74708
   },
   {
     "id": "BY-096",
@@ -765,7 +860,8 @@
     "country": "BY",
     "region": "Grodno Region",
     "domain": "svisloch.grodno-region.by",
-    "osm_relation_id": 71093
+    "osm_relation_id": 71093,
+    "population": 12230
   },
   {
     "id": "BY-097",
@@ -773,7 +869,8 @@
     "country": "BY",
     "region": "Vitebsk Region",
     "domain": "senno.vitebsk-region.gov.by",
-    "osm_relation_id": 70662
+    "osm_relation_id": 70662,
+    "population": 17677
   },
   {
     "id": "BY-098",
@@ -781,7 +878,8 @@
     "country": "BY",
     "region": "Vitebsk Region",
     "domain": "tolochin.vitebsk-region.gov.by",
-    "osm_relation_id": 70649
+    "osm_relation_id": 70649,
+    "population": 21292
   },
   {
     "id": "BY-099",
@@ -789,7 +887,8 @@
     "country": "BY",
     "region": "Minsk Region",
     "domain": "uzda.gov.by",
-    "osm_relation_id": 70561
+    "osm_relation_id": 70561,
+    "population": 23627
   },
   {
     "id": "BY-100",
@@ -797,7 +896,8 @@
     "country": "BY",
     "region": "Vitebsk Region",
     "domain": "ushachi.vitebsk-region.gov.by",
-    "osm_relation_id": 70669
+    "osm_relation_id": 70669,
+    "population": 11283
   },
   {
     "id": "BY-101",
@@ -805,7 +905,8 @@
     "country": "BY",
     "region": "Minsk Region",
     "domain": "volozhin.gov.by",
-    "osm_relation_id": 70565
+    "osm_relation_id": 70565,
+    "population": 33270
   },
   {
     "id": "BY-102",
@@ -813,7 +914,8 @@
     "country": "BY",
     "region": "Grodno Region",
     "domain": "volkovysk.grodno-region.by",
-    "osm_relation_id": 70771
+    "osm_relation_id": 70771,
+    "population": 62960
   },
   {
     "id": "BY-103",
@@ -821,7 +923,8 @@
     "country": "BY",
     "region": "Vitebsk Region",
     "domain": "verkhnedvinsk.vitebsk-region.gov.by",
-    "osm_relation_id": 70684
+    "osm_relation_id": 70684,
+    "population": 17875
   },
   {
     "id": "BY-104",
@@ -829,7 +932,8 @@
     "country": "BY",
     "region": "Gomel Region",
     "domain": "",
-    "osm_relation_id": 70795
+    "osm_relation_id": 70795,
+    "population": 16962
   },
   {
     "id": "BY-105",
@@ -837,7 +941,8 @@
     "country": "BY",
     "region": "Minsk Region",
     "domain": "vileyka.gov.by",
-    "osm_relation_id": 70568
+    "osm_relation_id": 70568,
+    "population": 45481
   },
   {
     "id": "BY-106",
@@ -845,7 +950,8 @@
     "country": "BY",
     "region": "Vitebsk Region",
     "domain": "vitebsk.vitebsk-region.gov.by",
-    "osm_relation_id": 59504
+    "osm_relation_id": 59504,
+    "population": 33501
   },
   {
     "id": "BY-107",
@@ -853,7 +959,8 @@
     "country": "BY",
     "region": "Grodno Region",
     "domain": "voronovo.grodno-region.by",
-    "osm_relation_id": 70737
+    "osm_relation_id": 70737,
+    "population": 20479
   },
   {
     "id": "BY-108",
@@ -861,7 +968,8 @@
     "country": "BY",
     "region": "Grodno Region",
     "domain": "zelva.gov.by",
-    "osm_relation_id": 70772
+    "osm_relation_id": 70772,
+    "population": 12474
   },
   {
     "id": "BY-109",
@@ -869,7 +977,8 @@
     "country": "BY",
     "region": "Gomel Region",
     "domain": "chechersk.gov.by",
-    "osm_relation_id": 59178
+    "osm_relation_id": 59178,
+    "population": 14101
   },
   {
     "id": "BY-110",
@@ -877,7 +986,8 @@
     "country": "BY",
     "region": "Vitebsk Region",
     "domain": "chashniki.vitebsk-region.gov.by",
-    "osm_relation_id": 70746
+    "osm_relation_id": 70746,
+    "population": 25810
   },
   {
     "id": "BY-111",
@@ -885,7 +995,8 @@
     "country": "BY",
     "region": "Minsk Region",
     "domain": "cherven.gov.by",
-    "osm_relation_id": 59751
+    "osm_relation_id": 59751,
+    "population": 33325
   },
   {
     "id": "BY-112",
@@ -893,7 +1004,8 @@
     "country": "BY",
     "region": "Mogilev region",
     "domain": "cherikov.gov.by",
-    "osm_relation_id": 70595
+    "osm_relation_id": 70595,
+    "population": 12164
   },
   {
     "id": "BY-113",
@@ -901,7 +1013,8 @@
     "country": "BY",
     "region": "Vitebsk Region",
     "domain": "sharkovshchina.vitebsk-region.gov.by",
-    "osm_relation_id": 70701
+    "osm_relation_id": 70701,
+    "population": 12653
   },
   {
     "id": "BY-114",
@@ -909,7 +1022,8 @@
     "country": "BY",
     "region": "Mogilev region",
     "domain": "shklov.gov.by",
-    "osm_relation_id": 70626
+    "osm_relation_id": 70626,
+    "population": 23761
   },
   {
     "id": "BY-115",
@@ -917,7 +1031,8 @@
     "country": "BY",
     "region": "Vitebsk Region",
     "domain": "shumilino.vitebsk-region.gov.by",
-    "osm_relation_id": 70677
+    "osm_relation_id": 70677,
+    "population": 15774
   },
   {
     "id": "BY-116",
@@ -925,7 +1040,8 @@
     "country": "BY",
     "region": "Brest Region",
     "domain": "zhabinka.brest-region.by",
-    "osm_relation_id": 71099
+    "osm_relation_id": 71099,
+    "population": 24277
   },
   {
     "id": "BY-117",
@@ -933,7 +1049,8 @@
     "country": "BY",
     "region": "Gomel Region",
     "domain": "",
-    "osm_relation_id": 59167
+    "osm_relation_id": 59167,
+    "population": 97108
   },
   {
     "id": "BY-118",
@@ -941,6 +1058,7 @@
     "country": "BY",
     "region": "Gomel Region",
     "domain": "",
-    "osm_relation_id": 71149
+    "osm_relation_id": 71149,
+    "population": 32077
   }
 ]

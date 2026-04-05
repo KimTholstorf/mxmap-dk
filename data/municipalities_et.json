@@ -4,7 +4,8 @@
     "name": "Adama",
     "country": "ET",
     "region": "Oromia Region",
-    "domain": ""
+    "domain": "",
+    "population": 324000
   },
   {
     "id": "ET-002",
@@ -12,7 +13,8 @@
     "country": "ET",
     "region": "Addis Ababa",
     "domain": "",
-    "osm_relation_id": 11589481
+    "osm_relation_id": 11589481,
+    "population": 271644
   },
   {
     "id": "ET-003",
@@ -20,7 +22,8 @@
     "country": "ET",
     "region": "Somali Region",
     "domain": "",
-    "osm_relation_id": 13422222
+    "osm_relation_id": 13422222,
+    "population": 570629
   },
   {
     "id": "ET-004",
@@ -28,14 +31,16 @@
     "country": "ET",
     "region": "Amhara Region",
     "domain": "",
-    "osm_relation_id": 3306143
+    "osm_relation_id": 3306143,
+    "population": 982942
   },
   {
     "id": "ET-005",
     "name": "Akaky Kaliti",
     "country": "ET",
     "region": "Addis Ababa",
-    "domain": ""
+    "domain": "",
+    "population": 195273
   },
   {
     "id": "ET-006",
@@ -88,7 +93,8 @@
     "name": "Bahir Dar",
     "country": "ET",
     "region": "Amhara Region",
-    "domain": "bahirdar.gov.et"
+    "domain": "bahirdar.gov.et",
+    "population": 243300
   },
   {
     "id": "ET-013",
@@ -96,7 +102,8 @@
     "country": "ET",
     "region": "Oromia Region",
     "domain": "",
-    "osm_relation_id": 3306201
+    "osm_relation_id": 3306201,
+    "population": 1402492
   },
   {
     "id": "ET-014",
@@ -104,7 +111,8 @@
     "country": "ET",
     "region": "Southern Nations, Nationalities, and Peoples' Region",
     "domain": "",
-    "osm_relation_id": 3306761
+    "osm_relation_id": 3306761,
+    "population": 56689
   },
   {
     "id": "ET-015",
@@ -165,7 +173,8 @@
     "country": "ET",
     "region": "Oromia Region",
     "domain": "",
-    "osm_relation_id": 13422224
+    "osm_relation_id": 13422224,
+    "population": 1101129
   },
   {
     "id": "ET-023",
@@ -263,7 +272,8 @@
     "country": "ET",
     "region": "Somali Region",
     "domain": "",
-    "osm_relation_id": 3293963
+    "osm_relation_id": 3293963,
+    "population": 967652
   },
   {
     "id": "ET-036",
@@ -279,7 +289,8 @@
     "country": "ET",
     "region": "Afar Region",
     "domain": "",
-    "osm_relation_id": 3293602
+    "osm_relation_id": 3293602,
+    "population": 198751
   },
   {
     "id": "ET-038",
@@ -326,7 +337,8 @@
     "country": "ET",
     "region": "Southern Nations, Nationalities, and Peoples' Region",
     "domain": "",
-    "osm_relation_id": 3306768
+    "osm_relation_id": 3306768,
+    "population": 1279646
   },
   {
     "id": "ET-044",
@@ -334,7 +346,8 @@
     "country": "ET",
     "region": "Southern Nations, Nationalities, and Peoples' Region",
     "domain": "",
-    "osm_relation_id": 3306769
+    "osm_relation_id": 3306769,
+    "population": 1231196
   },
   {
     "id": "ET-045",
@@ -342,7 +355,8 @@
     "country": "ET",
     "region": "Central Ethiopia Regional State",
     "domain": "",
-    "osm_relation_id": 13422217
+    "osm_relation_id": 13422217,
+    "population": 232325
   },
   {
     "id": "ET-046",
@@ -358,7 +372,8 @@
     "country": "ET",
     "region": "Oromia Region",
     "domain": "",
-    "osm_relation_id": 13422234
+    "osm_relation_id": 13422234,
+    "population": 570040
   },
   {
     "id": "ET-048",
@@ -374,7 +389,8 @@
     "country": "ET",
     "region": "Somali Region",
     "domain": "",
-    "osm_relation_id": 3293962
+    "osm_relation_id": 3293962,
+    "population": 478168
   },
   {
     "id": "ET-050",
@@ -398,14 +414,16 @@
     "country": "ET",
     "region": "Southern Nations, Nationalities, and Peoples' Region",
     "domain": "",
-    "osm_relation_id": 3306770
+    "osm_relation_id": 3306770,
+    "population": 874716
   },
   {
     "id": "ET-053",
     "name": "Kelem Welega Zone",
     "country": "ET",
     "region": "Oromia Region",
-    "domain": ""
+    "domain": "",
+    "population": 797666
   },
   {
     "id": "ET-054",
@@ -421,7 +439,8 @@
     "country": "ET",
     "region": "Afar Region",
     "domain": "",
-    "osm_relation_id": 3293601
+    "osm_relation_id": 3293601,
+    "population": 350111
   },
   {
     "id": "ET-056",
@@ -437,7 +456,8 @@
     "country": "ET",
     "region": "Southern Nations, Nationalities, and Peoples' Region",
     "domain": "",
-    "osm_relation_id": 3306773
+    "osm_relation_id": 3306773,
+    "population": 90846
   },
   {
     "id": "ET-058",
@@ -445,7 +465,8 @@
     "country": "ET",
     "region": "Somali Region",
     "domain": "",
-    "osm_relation_id": 13422230
+    "osm_relation_id": 13422230,
+    "population": 312713
   },
   {
     "id": "ET-059",
@@ -453,7 +474,8 @@
     "country": "ET",
     "region": "Somali Region",
     "domain": "",
-    "osm_relation_id": 3726850
+    "osm_relation_id": 3726850,
+    "population": 539821
   },
   {
     "id": "ET-060",
@@ -501,7 +523,8 @@
     "country": "ET",
     "region": "Oromia Region",
     "domain": "",
-    "osm_relation_id": 3306211
+    "osm_relation_id": 3306211,
+    "population": 1350415
   },
   {
     "id": "ET-066",
@@ -517,7 +540,8 @@
     "country": "ET",
     "region": "Oromia Region",
     "domain": "",
-    "osm_relation_id": 3306203
+    "osm_relation_id": 3306203,
+    "population": 2723850
   },
   {
     "id": "ET-068",
@@ -525,7 +549,8 @@
     "country": "ET",
     "region": "Oromia Region",
     "domain": "",
-    "osm_relation_id": 3306204
+    "osm_relation_id": 3306204,
+    "population": 1356342
   },
   {
     "id": "ET-069",
@@ -533,7 +558,8 @@
     "country": "ET",
     "region": "Oromia Region",
     "domain": "",
-    "osm_relation_id": 3306205
+    "osm_relation_id": 3306205,
+    "population": 1213503
   },
   {
     "id": "ET-070",
@@ -541,7 +567,8 @@
     "country": "ET",
     "region": "Somali Region",
     "domain": "",
-    "osm_relation_id": 3293966
+    "osm_relation_id": 3293966,
+    "population": 348409
   },
   {
     "id": "ET-071",
@@ -617,7 +644,8 @@
     "country": "ET",
     "region": "Somali Region",
     "domain": "",
-    "osm_relation_id": 13422226
+    "osm_relation_id": 13422226,
+    "population": 464253
   },
   {
     "id": "ET-081",
@@ -633,14 +661,16 @@
     "country": "ET",
     "region": "Oromia Region",
     "domain": "",
-    "osm_relation_id": 3306208
+    "osm_relation_id": 3306208,
+    "population": 1431305
   },
   {
     "id": "ET-083",
     "name": "Silt'e Zone",
     "country": "ET",
     "region": "Southern Nations, Nationalities, and Peoples' Region",
-    "domain": ""
+    "domain": "",
+    "population": 750398
   },
   {
     "id": "ET-084",
@@ -648,7 +678,8 @@
     "country": "ET",
     "region": "Somali Region",
     "domain": "",
-    "osm_relation_id": 3293965
+    "osm_relation_id": 3293965,
+    "population": 457086
   },
   {
     "id": "ET-085",
@@ -700,7 +731,8 @@
     "country": "ET",
     "region": "Oromia Region",
     "domain": "",
-    "osm_relation_id": 10666726
+    "osm_relation_id": 10666726,
+    "population": 2058676
   },
   {
     "id": "ET-092",
@@ -714,7 +746,8 @@
     "name": "Wolaita Sodo",
     "country": "ET",
     "region": "Wolayita Zone",
-    "domain": ""
+    "domain": "",
+    "population": 512498
   },
   {
     "id": "ET-094",
@@ -722,7 +755,8 @@
     "country": "ET",
     "region": "Southern Nations, Nationalities, and Peoples' Region",
     "domain": "snnprswolaitazone.gov.et",
-    "osm_relation_id": 3306777
+    "osm_relation_id": 3306777,
+    "population": 6142063
   },
   {
     "id": "ET-095",
@@ -730,6 +764,7 @@
     "country": "ET",
     "region": "Central Ethiopia Regional State",
     "domain": "",
-    "osm_relation_id": 3306778
+    "osm_relation_id": 3306778,
+    "population": 80687
   }
 ]

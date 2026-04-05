@@ -13,14 +13,16 @@
     "country": "BO",
     "region": "Omasuyos Province",
     "domain": "achacachi.gob.bo",
-    "osm_relation_id": 4500356
+    "osm_relation_id": 4500356,
+    "population": 8857
   },
   {
     "id": "BO-003",
     "name": "Achocalla Municipality",
     "country": "BO",
     "region": "Murillo Province",
-    "domain": ""
+    "domain": "",
+    "population": 10369
   },
   {
     "id": "BO-004",
@@ -28,14 +30,16 @@
     "country": "BO",
     "region": "Narciso Campero Province",
     "domain": "",
-    "osm_relation_id": 4506120
+    "osm_relation_id": 4506120,
+    "population": 7381
   },
   {
     "id": "BO-005",
     "name": "Alalay Municipality",
     "country": "BO",
     "region": "Mizque Province",
-    "domain": ""
+    "domain": "",
+    "population": 854
   },
   {
     "id": "BO-006",
@@ -75,7 +79,8 @@
     "country": "BO",
     "region": "Esteban Arce Province",
     "domain": "",
-    "osm_relation_id": 4505759
+    "osm_relation_id": 4505759,
+    "population": 1576
   },
   {
     "id": "BO-011",
@@ -83,7 +88,8 @@
     "country": "BO",
     "region": "Franz Tamayo Province",
     "domain": "",
-    "osm_relation_id": 4499594
+    "osm_relation_id": 4499594,
+    "population": 2123
   },
   {
     "id": "BO-012",
@@ -99,7 +105,8 @@
     "country": "BO",
     "region": "Arani Province",
     "domain": "",
-    "osm_relation_id": 4505812
+    "osm_relation_id": 4505812,
+    "population": 3512
   },
   {
     "id": "BO-014",
@@ -115,7 +122,8 @@
     "country": "BO",
     "region": "Arque Province",
     "domain": "",
-    "osm_relation_id": 4505715
+    "osm_relation_id": 4505715,
+    "population": 487
   },
   {
     "id": "BO-016",
@@ -201,7 +209,8 @@
     "country": "BO",
     "region": "Aniceto Arce Province",
     "domain": "",
-    "osm_relation_id": 4509723
+    "osm_relation_id": 4509723,
+    "population": 28285
   },
   {
     "id": "BO-027",
@@ -209,7 +218,8 @@
     "country": "BO",
     "region": "Cornelio Saavedra Province",
     "domain": "",
-    "osm_relation_id": 4128143
+    "osm_relation_id": 4128143,
+    "population": 5021
   },
   {
     "id": "BO-028",
@@ -224,7 +234,8 @@
     "name": "Bolívar Municipality",
     "country": "BO",
     "region": "Bolívar Province",
-    "domain": ""
+    "domain": "",
+    "population": 467
   },
   {
     "id": "BO-030",
@@ -295,7 +306,8 @@
     "country": "BO",
     "region": "Nor Cinti Province",
     "domain": "",
-    "osm_relation_id": 4509376
+    "osm_relation_id": 4509376,
+    "population": 4502
   },
   {
     "id": "BO-039",
@@ -303,7 +315,8 @@
     "country": "BO",
     "region": "Cordillera Province",
     "domain": "",
-    "osm_relation_id": 4511358
+    "osm_relation_id": 4511358,
+    "population": 33838
   },
   {
     "id": "BO-040",
@@ -311,7 +324,8 @@
     "country": "BO",
     "region": "Capinota Province",
     "domain": "",
-    "osm_relation_id": 4505765
+    "osm_relation_id": 4505765,
+    "population": 19477
   },
   {
     "id": "BO-041",
@@ -389,7 +403,8 @@
     "name": "Charagua Municipality",
     "country": "BO",
     "region": "Cordillera Province",
-    "domain": "charagua.gob.bo"
+    "domain": "charagua.gob.bo",
+    "population": 6780
   },
   {
     "id": "BO-051",
@@ -397,7 +412,8 @@
     "country": "BO",
     "region": "Pacajes Province",
     "domain": "",
-    "osm_relation_id": 4500785
+    "osm_relation_id": 4500785,
+    "population": 817
   },
   {
     "id": "BO-052",
@@ -413,7 +429,8 @@
     "country": "BO",
     "region": "Carrasco Province",
     "domain": "",
-    "osm_relation_id": 4505885
+    "osm_relation_id": 4505885,
+    "population": 21736
   },
   {
     "id": "BO-054",
@@ -436,7 +453,8 @@
     "country": "BO",
     "region": "Sud Yungas Province",
     "domain": "",
-    "osm_relation_id": 4499811
+    "osm_relation_id": 4499811,
+    "population": 13204
   },
   {
     "id": "BO-057",
@@ -444,7 +462,8 @@
     "country": "BO",
     "region": "Muñecas Province",
     "domain": "",
-    "osm_relation_id": 4499720
+    "osm_relation_id": 4499720,
+    "population": 392
   },
   {
     "id": "BO-058",
@@ -466,7 +485,8 @@
     "country": "BO",
     "region": "Germán Jordán Province",
     "domain": "",
-    "osm_relation_id": 4505781
+    "osm_relation_id": 4505781,
+    "population": 6534
   },
   {
     "id": "BO-061",
@@ -474,7 +494,8 @@
     "country": "BO",
     "region": "Nicolás Suárez Province",
     "domain": "",
-    "osm_relation_id": 4050223
+    "osm_relation_id": 4050223,
+    "population": 46267
   },
   {
     "id": "BO-062",
@@ -490,14 +511,16 @@
     "country": "BO",
     "region": "Cercado Province (Cochabamba)",
     "domain": "",
-    "osm_relation_id": 4503297
+    "osm_relation_id": 4503297,
+    "population": 632013
   },
   {
     "id": "BO-064",
     "name": "Coipasa",
     "country": "BO",
     "region": "Sabaya Province",
-    "domain": ""
+    "domain": "",
+    "population": 742
   },
   {
     "id": "BO-065",
@@ -544,7 +567,8 @@
     "country": "BO",
     "region": "Chayanta Province",
     "domain": "",
-    "osm_relation_id": 4126993
+    "osm_relation_id": 4126993,
+    "population": 1816
   },
   {
     "id": "BO-071",
@@ -560,7 +584,8 @@
     "country": "BO",
     "region": "Inquisivi Province",
     "domain": "",
-    "osm_relation_id": 4502180
+    "osm_relation_id": 4502180,
+    "population": 6610
   },
   {
     "id": "BO-073",
@@ -576,7 +601,8 @@
     "country": "BO",
     "region": "Santa Cruz Department",
     "domain": "",
-    "osm_relation_id": 4511408
+    "osm_relation_id": 4511408,
+    "population": 15919
   },
   {
     "id": "BO-075",
@@ -584,7 +610,8 @@
     "country": "BO",
     "region": "Larecaja Province",
     "domain": "",
-    "osm_relation_id": 4499780
+    "osm_relation_id": 4499780,
+    "population": 424
   },
   {
     "id": "BO-076",
@@ -592,7 +619,8 @@
     "country": "BO",
     "region": "Ñuflo de Chaves Province",
     "domain": "",
-    "osm_relation_id": 4511254
+    "osm_relation_id": 4511254,
+    "population": 5586
   },
   {
     "id": "BO-077",
@@ -615,7 +643,8 @@
     "country": "BO",
     "region": "Pacajes Province",
     "domain": "",
-    "osm_relation_id": 4500787
+    "osm_relation_id": 4500787,
+    "population": 10647
   },
   {
     "id": "BO-080",
@@ -623,7 +652,8 @@
     "country": "BO",
     "region": "Nor Yungas Province",
     "domain": "",
-    "osm_relation_id": 4499824
+    "osm_relation_id": 4499824,
+    "population": 2319
   },
   {
     "id": "BO-081",
@@ -670,14 +700,16 @@
     "country": "BO",
     "region": "Punata Province",
     "domain": "",
-    "osm_relation_id": 4505799
+    "osm_relation_id": 4505799,
+    "population": 627
   },
   {
     "id": "BO-087",
     "name": "Cuevo Municipality",
     "country": "BO",
     "region": "Cordillera Province",
-    "domain": ""
+    "domain": "",
+    "population": 1637
   },
   {
     "id": "BO-088",
@@ -708,7 +740,8 @@
     "country": "BO",
     "region": "Murillo Province",
     "domain": "",
-    "osm_relation_id": 4499832
+    "osm_relation_id": 4499832,
+    "population": 842378
   },
   {
     "id": "BO-092",
@@ -769,7 +802,8 @@
     "country": "BO",
     "region": "Carrasco Province",
     "domain": "",
-    "osm_relation_id": 4505884
+    "osm_relation_id": 4505884,
+    "population": 3796
   },
   {
     "id": "BO-100",
@@ -808,7 +842,8 @@
     "country": "BO",
     "region": "Yacuma Province",
     "domain": "",
-    "osm_relation_id": 3365948
+    "osm_relation_id": 3365948,
+    "population": 6618
   },
   {
     "id": "BO-105",
@@ -831,7 +866,8 @@
     "country": "BO",
     "region": "La Paz Department",
     "domain": "",
-    "osm_relation_id": 4499781
+    "osm_relation_id": 4499781,
+    "population": 3890
   },
   {
     "id": "BO-108",
@@ -847,7 +883,8 @@
     "country": "BO",
     "region": "Vaca Díez Province",
     "domain": "",
-    "osm_relation_id": 4054846
+    "osm_relation_id": 4054846,
+    "population": 36008
   },
   {
     "id": "BO-110",
@@ -950,7 +987,8 @@
     "country": "BO",
     "region": "Inquisivi Province",
     "domain": "inquisivi.com",
-    "osm_relation_id": 4502182
+    "osm_relation_id": 4502182,
+    "population": 581
   },
   {
     "id": "BO-123",
@@ -965,7 +1003,8 @@
     "name": "Ixiamas Municipality",
     "country": "BO",
     "region": "Abel Iturralde Province",
-    "domain": ""
+    "domain": "",
+    "population": 1733
   },
   {
     "id": "BO-125",
@@ -995,7 +1034,8 @@
     "name": "La Paz",
     "country": "BO",
     "region": "Murillo Province",
-    "domain": "lapaz.bo"
+    "domain": "lapaz.bo",
+    "population": 755732
   },
   {
     "id": "BO-129",
@@ -1003,7 +1043,8 @@
     "country": "BO",
     "region": "Puerto de Mejillones Province",
     "domain": "",
-    "osm_relation_id": 4494973
+    "osm_relation_id": 4494973,
+    "population": 189
   },
   {
     "id": "BO-130",
@@ -1043,7 +1084,8 @@
     "country": "BO",
     "region": "Daniel Campos Province",
     "domain": "",
-    "osm_relation_id": 4134806
+    "osm_relation_id": 4134806,
+    "population": 553
   },
   {
     "id": "BO-135",
@@ -1051,7 +1093,8 @@
     "country": "BO",
     "region": "Marbán Province",
     "domain": "",
-    "osm_relation_id": 4059665
+    "osm_relation_id": 4059665,
+    "population": 3828
   },
   {
     "id": "BO-136",
@@ -1059,7 +1102,8 @@
     "country": "BO",
     "region": "Loayza Province",
     "domain": "",
-    "osm_relation_id": 4502104
+    "osm_relation_id": 4502104,
+    "population": 434
   },
   {
     "id": "BO-137",
@@ -1106,7 +1150,8 @@
     "country": "BO",
     "region": "Larecaja Province",
     "domain": "",
-    "osm_relation_id": 4499756
+    "osm_relation_id": 4499756,
+    "population": 16520
   },
   {
     "id": "BO-143",
@@ -1167,7 +1212,8 @@
     "name": "Montero municipality",
     "country": "BO",
     "region": "",
-    "domain": ""
+    "domain": "",
+    "population": 126886
   },
   {
     "id": "BO-151",
@@ -1205,7 +1251,8 @@
     "name": "Municipio Huarina",
     "country": "BO",
     "region": "Omasuyos Province",
-    "domain": ""
+    "domain": "",
+    "population": 8375
   },
   {
     "id": "BO-156",
@@ -1300,7 +1347,8 @@
     "country": "BO",
     "region": "Potosí Department",
     "domain": "",
-    "osm_relation_id": 4126994
+    "osm_relation_id": 4126994,
+    "population": 2200
   },
   {
     "id": "BO-168",
@@ -1324,7 +1372,8 @@
     "country": "BO",
     "region": "Cercado Province (Oruro)",
     "domain": "",
-    "osm_relation_id": 4494717
+    "osm_relation_id": 4494717,
+    "population": 264683
   },
   {
     "id": "BO-171",
@@ -1356,7 +1405,8 @@
     "country": "BO",
     "region": "Murillo Province",
     "domain": "",
-    "osm_relation_id": 4499871
+    "osm_relation_id": 4499871,
+    "population": 1180
   },
   {
     "id": "BO-175",
@@ -1401,7 +1451,8 @@
     "name": "Patacamaya Municipality",
     "country": "BO",
     "region": "Aroma Province",
-    "domain": ""
+    "domain": "",
+    "population": 22858
   },
   {
     "id": "BO-181",
@@ -1417,7 +1468,8 @@
     "country": "BO",
     "region": "Franz Tamayo Province",
     "domain": "",
-    "osm_relation_id": 4499595
+    "osm_relation_id": 4499595,
+    "population": 936
   },
   {
     "id": "BO-183",
@@ -1441,7 +1493,8 @@
     "country": "BO",
     "region": "Carrasco Province",
     "domain": "",
-    "osm_relation_id": 4505887
+    "osm_relation_id": 4505887,
+    "population": 945
   },
   {
     "id": "BO-186",
@@ -1456,7 +1509,8 @@
     "country": "BO",
     "region": "Antonio Quijarro Province",
     "domain": "",
-    "osm_relation_id": 4137629
+    "osm_relation_id": 4137629,
+    "population": 10763
   },
   {
     "id": "BO-188",
@@ -1479,7 +1533,8 @@
     "name": "Portachuelo Municipality",
     "country": "BO",
     "region": "Santa Cruz Department",
-    "domain": ""
+    "domain": "",
+    "population": 16408
   },
   {
     "id": "BO-191",
@@ -1502,7 +1557,8 @@
     "name": "Potosí Municipality",
     "country": "BO",
     "region": "Tomás Frías Province",
-    "domain": ""
+    "domain": "",
+    "population": 189652
   },
   {
     "id": "BO-194",
@@ -1518,7 +1574,8 @@
     "country": "BO",
     "region": "Los Andes Province",
     "domain": "",
-    "osm_relation_id": 4500401
+    "osm_relation_id": 4500401,
+    "population": 918
   },
   {
     "id": "BO-196",
@@ -1526,7 +1583,8 @@
     "country": "BO",
     "region": "Vallegrande Province (Santa Cruz)",
     "domain": "",
-    "osm_relation_id": 4511479
+    "osm_relation_id": 4511479,
+    "population": 2076
   },
   {
     "id": "BO-197",
@@ -1534,7 +1592,8 @@
     "country": "BO",
     "region": "Eliodoro Camacho Province",
     "domain": "",
-    "osm_relation_id": 4499654
+    "osm_relation_id": 4499654,
+    "population": 1123
   },
   {
     "id": "BO-198",
@@ -1565,7 +1624,8 @@
     "name": "Puerto Quijarro Municipality",
     "country": "BO",
     "region": "Germán Busch Province",
-    "domain": ""
+    "domain": "",
+    "population": 16659
   },
   {
     "id": "BO-202",
@@ -1588,7 +1648,8 @@
     "country": "BO",
     "region": "Carrasco Province",
     "domain": "",
-    "osm_relation_id": 4505888
+    "osm_relation_id": 4505888,
+    "population": 46627
   },
   {
     "id": "BO-205",
@@ -1603,7 +1664,8 @@
     "name": "Punata Municipality",
     "country": "BO",
     "region": "Punata Province",
-    "domain": ""
+    "domain": "",
+    "population": 14742
   },
   {
     "id": "BO-207",
@@ -1627,7 +1689,8 @@
     "country": "BO",
     "region": "Vaca Díez Province",
     "domain": "",
-    "osm_relation_id": 4054847
+    "osm_relation_id": 4054847,
+    "population": 78100
   },
   {
     "id": "BO-210",
@@ -1659,7 +1722,8 @@
     "country": "BO",
     "region": "Chapare Province",
     "domain": "",
-    "osm_relation_id": 4505643
+    "osm_relation_id": 4505643,
+    "population": 172466
   },
   {
     "id": "BO-214",
@@ -1736,21 +1800,24 @@
     "country": "BO",
     "region": "Punata Province",
     "domain": "",
-    "osm_relation_id": 4505801
+    "osm_relation_id": 4505801,
+    "population": 13562
   },
   {
     "id": "BO-224",
     "name": "San Borja Municipality",
     "country": "BO",
     "region": "José Ballivián Province",
-    "domain": ""
+    "domain": "",
+    "population": 24610
   },
   {
     "id": "BO-225",
     "name": "San Buenaventura Municipality",
     "country": "BO",
     "region": "La Paz Department",
-    "domain": ""
+    "domain": "",
+    "population": 8036
   },
   {
     "id": "BO-226",
@@ -1774,14 +1841,16 @@
     "country": "BO",
     "region": "Santa Cruz Department",
     "domain": "",
-    "osm_relation_id": 4511303
+    "osm_relation_id": 4511303,
+    "population": 23569
   },
   {
     "id": "BO-229",
     "name": "San Javier Municipality",
     "country": "BO",
     "region": "Santa Cruz Department",
-    "domain": ""
+    "domain": "",
+    "population": 6048
   },
   {
     "id": "BO-230",
@@ -1789,7 +1858,8 @@
     "country": "BO",
     "region": "Cercado Province (Beni)",
     "domain": "",
-    "osm_relation_id": 4057054
+    "osm_relation_id": 4057054,
+    "population": 6048
   },
   {
     "id": "BO-231",
@@ -1805,7 +1875,8 @@
     "country": "BO",
     "region": "Chiquitos Province",
     "domain": "",
-    "osm_relation_id": 4511317
+    "osm_relation_id": 4511317,
+    "population": 16942
   },
   {
     "id": "BO-233",
@@ -1828,7 +1899,8 @@
     "country": "BO",
     "region": "Madre de Dios Province",
     "domain": "",
-    "osm_relation_id": 4051385
+    "osm_relation_id": 4051385,
+    "population": 3401
   },
   {
     "id": "BO-236",
@@ -1851,7 +1923,8 @@
     "name": "San Miguel de Velasco",
     "country": "BO",
     "region": "Santa Cruz Department",
-    "domain": ""
+    "domain": "",
+    "population": 4484
   },
   {
     "id": "BO-239",
@@ -1875,7 +1948,8 @@
     "country": "BO",
     "region": "Charcas Province",
     "domain": "",
-    "osm_relation_id": 4126936
+    "osm_relation_id": 4126936,
+    "population": 1100
   },
   {
     "id": "BO-242",
@@ -1904,7 +1978,8 @@
     "name": "San Pedro de Tiquina Municipality",
     "country": "BO",
     "region": "Manco Kapac Province",
-    "domain": ""
+    "domain": "",
+    "population": 839
   },
   {
     "id": "BO-246",
@@ -1942,14 +2017,16 @@
     "name": "Santa Ana del Yacuma Municipality",
     "country": "BO",
     "region": "Yacuma Province",
-    "domain": "santaanabeni.gob.bo"
+    "domain": "santaanabeni.gob.bo",
+    "population": 12783
   },
   {
     "id": "BO-251",
     "name": "Santa Cruz de la Sierra Municipality",
     "country": "BO",
     "region": "Andrés Ibáñez Province",
-    "domain": ""
+    "domain": "",
+    "population": 3151676
   },
   {
     "id": "BO-252",
@@ -1988,7 +2065,8 @@
     "country": "BO",
     "region": "José Manuel Pando Province",
     "domain": "",
-    "osm_relation_id": 4500610
+    "osm_relation_id": 4500610,
+    "population": 4593
   },
   {
     "id": "BO-257",
@@ -1996,7 +2074,8 @@
     "country": "BO",
     "region": "Capinota Province",
     "domain": "",
-    "osm_relation_id": 4505766
+    "osm_relation_id": 4505766,
+    "population": 1400
   },
   {
     "id": "BO-258",
@@ -2004,7 +2083,8 @@
     "country": "BO",
     "region": "Eduardo Abaroa Province",
     "domain": "",
-    "osm_relation_id": 4495089
+    "osm_relation_id": 4495089,
+    "population": 3983
   },
   {
     "id": "BO-259",
@@ -2020,7 +2100,8 @@
     "country": "BO",
     "region": "Tiraque Province",
     "domain": "",
-    "osm_relation_id": 4505816
+    "osm_relation_id": 4505816,
+    "population": 20841
   },
   {
     "id": "BO-261",
@@ -2028,7 +2109,8 @@
     "country": "BO",
     "region": "Aroma Province",
     "domain": "",
-    "osm_relation_id": 4500836
+    "osm_relation_id": 4500836,
+    "population": 3831
   },
   {
     "id": "BO-262",
@@ -2059,7 +2141,8 @@
     "country": "BO",
     "region": "Larecaja Province",
     "domain": "",
-    "osm_relation_id": 4499783
+    "osm_relation_id": 4499783,
+    "population": 2217
   },
   {
     "id": "BO-266",
@@ -2067,7 +2150,8 @@
     "country": "BO",
     "region": "Oropeza Province",
     "domain": "",
-    "osm_relation_id": 4507878
+    "osm_relation_id": 4507878,
+    "population": 360544
   },
   {
     "id": "BO-267",
@@ -2083,7 +2167,8 @@
     "country": "BO",
     "region": "Punata Province",
     "domain": "",
-    "osm_relation_id": 4505802
+    "osm_relation_id": 4505802,
+    "population": 1198
   },
   {
     "id": "BO-269",
@@ -2091,7 +2176,8 @@
     "country": "BO",
     "region": "Larecaja Province",
     "domain": "",
-    "osm_relation_id": 4499721
+    "osm_relation_id": 4499721,
+    "population": 684
   },
   {
     "id": "BO-270",
@@ -2107,7 +2193,8 @@
     "country": "BO",
     "region": "Arque Province",
     "domain": "",
-    "osm_relation_id": 4505717
+    "osm_relation_id": 4505717,
+    "population": 137
   },
   {
     "id": "BO-272",
@@ -2146,7 +2233,8 @@
     "country": "BO",
     "region": "Esteban Arce Province",
     "domain": "",
-    "osm_relation_id": 4505768
+    "osm_relation_id": 4505768,
+    "population": 3323
   },
   {
     "id": "BO-277",
@@ -2154,7 +2242,8 @@
     "country": "BO",
     "region": "Cercado Province (Tarija)",
     "domain": "",
-    "osm_relation_id": 4509727
+    "osm_relation_id": 4509727,
+    "population": 179528
   },
   {
     "id": "BO-278",
@@ -2169,7 +2258,8 @@
     "name": "Teoponte Municipality",
     "country": "BO",
     "region": "Larecaja Province",
-    "domain": ""
+    "domain": "",
+    "population": 1421
   },
   {
     "id": "BO-280",
@@ -2185,14 +2275,16 @@
     "country": "BO",
     "region": "Larecaja Province",
     "domain": "",
-    "osm_relation_id": 4499785
+    "osm_relation_id": 4499785,
+    "population": 2563
   },
   {
     "id": "BO-282",
     "name": "Tiquipaya Municipality",
     "country": "BO",
     "region": "",
-    "domain": ""
+    "domain": "",
+    "population": 31264
   },
   {
     "id": "BO-283",
@@ -2206,7 +2298,8 @@
     "name": "Tito Yupanqui Municipality",
     "country": "BO",
     "region": "Manco Kapac Province",
-    "domain": ""
+    "domain": "",
+    "population": 773
   },
   {
     "id": "BO-285",
@@ -2238,7 +2331,8 @@
     "country": "BO",
     "region": "Germán Jordán Province",
     "domain": "",
-    "osm_relation_id": 4505783
+    "osm_relation_id": 4505783,
+    "population": 2207
   },
   {
     "id": "BO-289",
@@ -2270,14 +2364,16 @@
     "country": "BO",
     "region": "Charcas Province",
     "domain": "",
-    "osm_relation_id": 4126937
+    "osm_relation_id": 4126937,
+    "population": 10535
   },
   {
     "id": "BO-293",
     "name": "Totora Municipality",
     "country": "BO",
     "region": "Carrasco Province",
-    "domain": ""
+    "domain": "",
+    "population": 1597
   },
   {
     "id": "BO-294",
@@ -2293,7 +2389,8 @@
     "country": "BO",
     "region": "Cercado Province (Beni)",
     "domain": "",
-    "osm_relation_id": 4058397
+    "osm_relation_id": 4058397,
+    "population": 124357
   },
   {
     "id": "BO-296",
@@ -2301,7 +2398,8 @@
     "country": "BO",
     "region": "Sud Chichas Province",
     "domain": "",
-    "osm_relation_id": 4137632
+    "osm_relation_id": 4137632,
+    "population": 23100
   },
   {
     "id": "BO-297",
@@ -2332,7 +2430,8 @@
     "name": "Uncía Municipality",
     "country": "BO",
     "region": "Rafael Bustillo Province",
-    "domain": ""
+    "domain": "",
+    "population": 5709
   },
   {
     "id": "BO-301",
@@ -2371,7 +2470,8 @@
     "country": "BO",
     "region": "Antonio Quijarro Province",
     "domain": "enlared.org.bo",
-    "osm_relation_id": 4137633
+    "osm_relation_id": 4137633,
+    "population": 26958
   },
   {
     "id": "BO-306",
@@ -2387,7 +2487,8 @@
     "country": "BO",
     "region": "Vallegrande Province (Santa Cruz)",
     "domain": "vallegrande.org",
-    "osm_relation_id": 4511481
+    "osm_relation_id": 4511481,
+    "population": 16837
   },
   {
     "id": "BO-308",
@@ -2395,7 +2496,8 @@
     "country": "BO",
     "region": "Ingavi Province",
     "domain": "",
-    "osm_relation_id": 4500580
+    "osm_relation_id": 4500580,
+    "population": 29108
   },
   {
     "id": "BO-309",
@@ -2450,7 +2552,8 @@
     "country": "BO",
     "region": "Punata Province",
     "domain": "",
-    "osm_relation_id": 4505803
+    "osm_relation_id": 4505803,
+    "population": 671
   },
   {
     "id": "BO-316",
@@ -2474,7 +2577,8 @@
     "country": "BO",
     "region": "Chapare Province",
     "domain": "",
-    "osm_relation_id": 4505644
+    "osm_relation_id": 4505644,
+    "population": 71386
   },
   {
     "id": "BO-319",
@@ -2490,7 +2594,8 @@
     "country": "BO",
     "region": "",
     "domain": "",
-    "osm_relation_id": 4505700
+    "osm_relation_id": 4505700,
+    "population": 14180
   },
   {
     "id": "BO-321",
@@ -2498,7 +2603,8 @@
     "country": "BO",
     "region": "Nor Chichas Province",
     "domain": "",
-    "osm_relation_id": 4137634
+    "osm_relation_id": 4137634,
+    "population": 789
   },
   {
     "id": "BO-322",
@@ -2513,7 +2619,8 @@
     "name": "Warnes Municipality",
     "country": "BO",
     "region": "Warnes Province",
-    "domain": ""
+    "domain": "",
+    "population": 214216
   },
   {
     "id": "BO-324",

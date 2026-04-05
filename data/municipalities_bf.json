@@ -90,7 +90,8 @@
     "country": "BF",
     "region": "Comoé Province",
     "domain": "",
-    "osm_relation_id": 5671515
+    "osm_relation_id": 5671515,
+    "population": 117200
   },
   {
     "id": "BF-013",
@@ -142,7 +143,8 @@
     "name": "Barsalogho Department",
     "country": "BF",
     "region": "Sanmatenga Province",
-    "domain": ""
+    "domain": "",
+    "population": 113691
   },
   {
     "id": "BF-020",
@@ -256,7 +258,8 @@
     "name": "Bobo-Dioulasso Department",
     "country": "BF",
     "region": "Houet Province",
-    "domain": ""
+    "domain": "",
+    "population": 903887
   },
   {
     "id": "BF-035",
@@ -627,7 +630,8 @@
     "name": "Djibo",
     "country": "BF",
     "region": "Soum Province",
-    "domain": ""
+    "domain": "",
+    "population": 61456
   },
   {
     "id": "BF-084",
@@ -665,7 +669,8 @@
     "country": "BF",
     "region": "Séno Province",
     "domain": "",
-    "osm_relation_id": 6193952
+    "osm_relation_id": 6193952,
+    "population": 46521
   },
   {
     "id": "BF-089",
@@ -710,7 +715,8 @@
     "name": "Dédougou Department",
     "country": "BF",
     "region": "Mouhoun",
-    "domain": ""
+    "domain": "",
+    "population": 63617
   },
   {
     "id": "BF-095",
@@ -785,7 +791,8 @@
     "name": "Gaoua Department",
     "country": "BF",
     "region": "Poni Province",
-    "domain": ""
+    "domain": "",
+    "population": 45189
   },
   {
     "id": "BF-105",
@@ -793,7 +800,8 @@
     "country": "BF",
     "region": "Boulgou",
     "domain": "",
-    "osm_relation_id": 5256099
+    "osm_relation_id": 5256099,
+    "population": 45150
   },
   {
     "id": "BF-106",
@@ -824,7 +832,8 @@
     "name": "Godyr Department",
     "country": "BF",
     "region": "Sanguié Province",
-    "domain": ""
+    "domain": "",
+    "population": 2962
   },
   {
     "id": "BF-110",
@@ -894,7 +903,8 @@
     "name": "Gourcy Department",
     "country": "BF",
     "region": "Zondoma Province",
-    "domain": ""
+    "domain": "",
+    "population": 40144
   },
   {
     "id": "BF-119",
@@ -932,7 +942,8 @@
     "country": "BF",
     "region": "Tuy Province",
     "domain": "",
-    "osm_relation_id": 6128653
+    "osm_relation_id": 6128653,
+    "population": 87154
   },
   {
     "id": "BF-124",
@@ -1036,7 +1047,8 @@
     "name": "Kaya",
     "country": "BF",
     "region": "Sanmatenga Province",
-    "domain": ""
+    "domain": "",
+    "population": 122949
   },
   {
     "id": "BF-138",
@@ -1173,7 +1185,8 @@
     "name": "Kongoussi Department",
     "country": "BF",
     "region": "Bam Province",
-    "domain": ""
+    "domain": "",
+    "population": 53641
   },
   {
     "id": "BF-156",
@@ -1226,7 +1239,8 @@
     "country": "BF",
     "region": "Boulkiemdé Province",
     "domain": "",
-    "osm_relation_id": 5256767
+    "osm_relation_id": 5256767,
+    "population": 160207
   },
   {
     "id": "BF-163",
@@ -1270,7 +1284,8 @@
     "name": "Koupéla Department",
     "country": "BF",
     "region": "Kouritenga Province",
-    "domain": ""
+    "domain": "",
+    "population": 45900
   },
   {
     "id": "BF-169",
@@ -1316,7 +1331,8 @@
     "country": "BF",
     "region": "Koulpélogo Province",
     "domain": "",
-    "osm_relation_id": 5676307
+    "osm_relation_id": 5676307,
+    "population": 4172
   },
   {
     "id": "BF-175",
@@ -1410,7 +1426,8 @@
     "country": "BF",
     "region": "Sissili Province",
     "domain": "",
-    "osm_relation_id": 5705428
+    "osm_relation_id": 5705428,
+    "population": 51746
   },
   {
     "id": "BF-187",
@@ -1447,7 +1464,8 @@
     "name": "Manga Department",
     "country": "BF",
     "region": "Zoundwéogo Province",
-    "domain": ""
+    "domain": "",
+    "population": 28612
   },
   {
     "id": "BF-192",
@@ -1628,7 +1646,8 @@
     "country": "BF",
     "region": "Comoé Province",
     "domain": "",
-    "osm_relation_id": 5671519
+    "osm_relation_id": 5671519,
+    "population": 33500
   },
   {
     "id": "BF-216",
@@ -1697,14 +1716,16 @@
     "country": "BF",
     "region": "Kadiogo Province",
     "domain": "",
-    "osm_relation_id": 5675756
+    "osm_relation_id": 5675756,
+    "population": 2453496
   },
   {
     "id": "BF-225",
     "name": "Ouahigouya Department",
     "country": "BF",
     "region": "Yatenga Province",
-    "domain": ""
+    "domain": "",
+    "population": 124580
   },
   {
     "id": "BF-226",
@@ -1912,7 +1933,8 @@
     "name": "Pouytenga",
     "country": "BF",
     "region": "Kouritenga Province",
-    "domain": ""
+    "domain": "",
+    "population": 99950
   },
   {
     "id": "BF-254",
@@ -1965,7 +1987,8 @@
     "country": "BF",
     "region": "Sanguié Province",
     "domain": "",
-    "osm_relation_id": 5705226
+    "osm_relation_id": 5705226,
+    "population": 33893
   },
   {
     "id": "BF-261",
@@ -2062,7 +2085,8 @@
     "country": "BF",
     "region": "Bazèga Province",
     "domain": "",
-    "osm_relation_id": 5707926
+    "osm_relation_id": 5707926,
+    "population": 50541
   },
   {
     "id": "BF-274",
@@ -2283,7 +2307,8 @@
     "country": "BF",
     "region": "Boulgou",
     "domain": "",
-    "osm_relation_id": 5256106
+    "osm_relation_id": 5256106,
+    "population": 58600
   },
   {
     "id": "BF-303",
@@ -2357,7 +2382,8 @@
     "name": "Titao Department",
     "country": "BF",
     "region": "Loroum Province",
-    "domain": ""
+    "domain": "",
+    "population": 48242
   },
   {
     "id": "BF-313",
@@ -2482,7 +2508,8 @@
     "country": "BF",
     "region": "Passoré Province",
     "domain": "",
-    "osm_relation_id": 5259238
+    "osm_relation_id": 5259238,
+    "population": 38689
   },
   {
     "id": "BF-329",
@@ -2649,7 +2676,8 @@
     "name": "Zorgho Department",
     "country": "BF",
     "region": "Ganzourgou Province",
-    "domain": ""
+    "domain": "",
+    "population": 35406
   },
   {
     "id": "BF-351",

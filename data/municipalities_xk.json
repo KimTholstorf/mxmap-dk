@@ -5,7 +5,8 @@
     "country": "XK",
     "region": "Gjakova District",
     "domain": "decan.rks-gov.net",
-    "osm_relation_id": 1332170
+    "osm_relation_id": 1332170,
+    "population": 27758
   },
   {
     "id": "XK-002",
@@ -13,14 +14,16 @@
     "country": "XK",
     "region": "Prizren District",
     "domain": "dragash.rks-gov.net",
-    "osm_relation_id": 1332198
+    "osm_relation_id": 1332198,
+    "population": 28908
   },
   {
     "id": "XK-003",
     "name": "Drenas Municipality",
     "country": "XK",
     "region": "Prishtina District",
-    "domain": "kk.rks-gov.net"
+    "domain": "kk.rks-gov.net",
+    "population": 48054
   },
   {
     "id": "XK-004",
@@ -28,14 +31,16 @@
     "country": "XK",
     "region": "Ferizaj District",
     "domain": "haniielezit.rks-gov.net",
-    "osm_relation_id": 1332197
+    "osm_relation_id": 1332197,
+    "population": 8600
   },
   {
     "id": "XK-005",
     "name": "Ferizaj Municipality",
     "country": "XK",
     "region": "Ferizaj District",
-    "domain": "ferizaj.rks-gov.net"
+    "domain": "ferizaj.rks-gov.net",
+    "population": 109345
   },
   {
     "id": "XK-006",
@@ -43,7 +48,8 @@
     "country": "XK",
     "region": "Prishtina District",
     "domain": "kk.rks-gov.net",
-    "osm_relation_id": 1332190
+    "osm_relation_id": 1332190,
+    "population": 64078
   },
   {
     "id": "XK-007",
@@ -51,7 +57,8 @@
     "country": "XK",
     "region": "Gjakova District",
     "domain": "gjakova.rks-gov.net",
-    "osm_relation_id": 1332169
+    "osm_relation_id": 1332169,
+    "population": 78824
   },
   {
     "id": "XK-008",
@@ -59,7 +66,8 @@
     "country": "XK",
     "region": "Kosovo-Pomoravlje District",
     "domain": "gjilan.rks-gov.net",
-    "osm_relation_id": 1332172
+    "osm_relation_id": 1332172,
+    "population": 82901
   },
   {
     "id": "XK-009",
@@ -67,7 +75,8 @@
     "country": "XK",
     "region": "Prishtina District",
     "domain": "kk.rks-gov.net",
-    "osm_relation_id": 6901830
+    "osm_relation_id": 6901830,
+    "population": 19371
   },
   {
     "id": "XK-010",
@@ -75,7 +84,8 @@
     "country": "XK",
     "region": "Peja District",
     "domain": "istog.rks-gov.net",
-    "osm_relation_id": 1332163
+    "osm_relation_id": 1332163,
+    "population": 33066
   },
   {
     "id": "XK-011",
@@ -83,7 +93,8 @@
     "country": "XK",
     "region": "Gjakova District",
     "domain": "kk.rks-gov.net",
-    "osm_relation_id": 1332191
+    "osm_relation_id": 1332191,
+    "population": 3952
   },
   {
     "id": "XK-012",
@@ -91,7 +102,8 @@
     "country": "XK",
     "region": "Kosovo-Pomoravlje District",
     "domain": "kamenice.rks-gov.net",
-    "osm_relation_id": 1332162
+    "osm_relation_id": 1332162,
+    "population": 22898
   },
   {
     "id": "XK-013",
@@ -99,7 +111,8 @@
     "country": "XK",
     "region": "Ferizaj District",
     "domain": "kacanik.rks-gov.net",
-    "osm_relation_id": 1332180
+    "osm_relation_id": 1332180,
+    "population": 27742
   },
   {
     "id": "XK-014",
@@ -107,7 +120,8 @@
     "country": "XK",
     "region": "Peja District",
     "domain": "kline.rks-gov.net",
-    "osm_relation_id": 1332179
+    "osm_relation_id": 1332179,
+    "population": 30574
   },
   {
     "id": "XK-015",
@@ -115,7 +129,8 @@
     "country": "XK",
     "region": "Gjilan District",
     "domain": "",
-    "osm_relation_id": 6901841
+    "osm_relation_id": 6901841,
+    "population": 3045
   },
   {
     "id": "XK-016",
@@ -123,7 +138,8 @@
     "country": "XK",
     "region": "Mitrovica District",
     "domain": "leposaviq.rks-gov.net",
-    "osm_relation_id": 1332176
+    "osm_relation_id": 1332176,
+    "population": 18500
   },
   {
     "id": "XK-017",
@@ -131,7 +147,8 @@
     "country": "XK",
     "region": "Prishtina District",
     "domain": "",
-    "osm_relation_id": 1332188
+    "osm_relation_id": 1332188,
+    "population": 54974
   },
   {
     "id": "XK-018",
@@ -139,7 +156,8 @@
     "country": "XK",
     "region": "Prizren District",
     "domain": "malisheve.rks-gov.net",
-    "osm_relation_id": 1332165
+    "osm_relation_id": 1332165,
+    "population": 43871
   },
   {
     "id": "XK-019",
@@ -147,7 +165,8 @@
     "country": "XK",
     "region": "Prizren District",
     "domain": "mamushe.rks-gov.net",
-    "osm_relation_id": 1332174
+    "osm_relation_id": 1332174,
+    "population": 5615
   },
   {
     "id": "XK-020",
@@ -170,7 +189,8 @@
     "country": "XK",
     "region": "Prishtina District",
     "domain": "obiliq.rks-gov.net",
-    "osm_relation_id": 1332178
+    "osm_relation_id": 1332178,
+    "population": 22794
   },
   {
     "id": "XK-023",
@@ -186,7 +206,8 @@
     "country": "XK",
     "region": "Peja District",
     "domain": "peja.rks-gov.net",
-    "osm_relation_id": 1332187
+    "osm_relation_id": 1332187,
+    "population": 82661
   },
   {
     "id": "XK-025",
@@ -194,7 +215,8 @@
     "country": "XK",
     "region": "Prishtina District",
     "domain": "kk.rks-gov.net",
-    "osm_relation_id": 1332182
+    "osm_relation_id": 1332182,
+    "population": 88499
   },
   {
     "id": "XK-026",
@@ -202,7 +224,8 @@
     "country": "XK",
     "region": "Prishtina District",
     "domain": "prishtinaonline.com",
-    "osm_relation_id": 1332181
+    "osm_relation_id": 1332181,
+    "population": 227154
   },
   {
     "id": "XK-027",
@@ -210,7 +233,8 @@
     "country": "XK",
     "region": "Prizren District (Serbia)",
     "domain": "prizren.rks-gov.net",
-    "osm_relation_id": 1332193
+    "osm_relation_id": 1332193,
+    "population": 147428
   },
   {
     "id": "XK-028",
@@ -218,7 +242,8 @@
     "country": "XK",
     "region": "Prizren District (Serbia)",
     "domain": "rahovec.rks-gov.net",
-    "osm_relation_id": 1332196
+    "osm_relation_id": 1332196,
+    "population": 41777
   },
   {
     "id": "XK-029",
@@ -226,7 +251,8 @@
     "country": "XK",
     "region": "Gjilan District",
     "domain": "",
-    "osm_relation_id": 6903238
+    "osm_relation_id": 6903238,
+    "population": 2482
   },
   {
     "id": "XK-030",
@@ -234,7 +260,8 @@
     "country": "XK",
     "region": "Ferizaj District",
     "domain": "kk.rks-gov.net",
-    "osm_relation_id": 1332175
+    "osm_relation_id": 1332175,
+    "population": 24320
   },
   {
     "id": "XK-031",
@@ -242,7 +269,8 @@
     "country": "XK",
     "region": "Mitrovica District",
     "domain": "kk.rks-gov.net",
-    "osm_relation_id": 1332183
+    "osm_relation_id": 1332183,
+    "population": 40632
   },
   {
     "id": "XK-032",
@@ -257,7 +285,8 @@
     "country": "XK",
     "region": "Prizren District (Serbia)",
     "domain": "kk.rks-gov.net",
-    "osm_relation_id": 1332166
+    "osm_relation_id": 1332166,
+    "population": 45713
   },
   {
     "id": "XK-034",
@@ -265,7 +294,8 @@
     "country": "XK",
     "region": "Kosovo and Metohija",
     "domain": "viti.rks-gov.net",
-    "osm_relation_id": 1332194
+    "osm_relation_id": 1332194,
+    "population": 59810
   },
   {
     "id": "XK-035",
@@ -273,7 +303,8 @@
     "country": "XK",
     "region": "Mitrovica District",
     "domain": "vushtrri.rks-gov.net",
-    "osm_relation_id": 1332164
+    "osm_relation_id": 1332164,
+    "population": 61493
   },
   {
     "id": "XK-036",
@@ -281,7 +312,8 @@
     "country": "XK",
     "region": "Mitrovica District",
     "domain": "zubinpotok.rks-gov.net",
-    "osm_relation_id": 1332173
+    "osm_relation_id": 1332173,
+    "population": 14900
   },
   {
     "id": "XK-037",
@@ -297,6 +329,7 @@
     "country": "XK",
     "region": "Ferizaj District",
     "domain": "shterpce.rks-gov.net",
-    "osm_relation_id": 1332171
+    "osm_relation_id": 1332171,
+    "population": 10890
   }
 ]

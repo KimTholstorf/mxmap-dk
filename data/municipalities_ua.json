@@ -5,7 +5,8 @@
     "country": "UA",
     "region": "Luhansk Oblast",
     "domain": "",
-    "osm_relation_id": 17938128
+    "osm_relation_id": 17938128,
+    "population": 442800
   },
   {
     "id": "UA-002",
@@ -13,7 +14,8 @@
     "country": "UA",
     "region": "Autonomous Republic of Crimea",
     "domain": "bahchisaray.rk.gov.ru",
-    "osm_relation_id": 19261230
+    "osm_relation_id": 19261230,
+    "population": 94462
   },
   {
     "id": "UA-003",
@@ -29,7 +31,8 @@
     "country": "UA",
     "region": "Donetsk Oblast",
     "domain": "bahmut-rayrada.gov.ua",
-    "osm_relation_id": 11970387
+    "osm_relation_id": 11970387,
+    "population": 211400
   },
   {
     "id": "UA-005",
@@ -37,7 +40,8 @@
     "country": "UA",
     "region": "Mykolaiv Oblast",
     "domain": "",
-    "osm_relation_id": 1738966
+    "osm_relation_id": 1738966,
+    "population": 140500
   },
   {
     "id": "UA-006",
@@ -45,7 +49,8 @@
     "country": "UA",
     "region": "Zaporizhzhia Oblast",
     "domain": "",
-    "osm_relation_id": 11857351
+    "osm_relation_id": 11857351,
+    "population": 176046
   },
   {
     "id": "UA-007",
@@ -53,7 +58,8 @@
     "country": "UA",
     "region": "Zhytomyr Oblast",
     "domain": "",
-    "osm_relation_id": 11952329
+    "osm_relation_id": 11952329,
+    "population": 156419
   },
   {
     "id": "UA-008",
@@ -61,7 +67,8 @@
     "country": "UA",
     "region": "Zakarpattia Oblast",
     "domain": "",
-    "osm_relation_id": 11848195
+    "osm_relation_id": 11848195,
+    "population": 206696
   },
   {
     "id": "UA-009",
@@ -69,7 +76,8 @@
     "country": "UA",
     "region": "Odesa Oblast",
     "domain": "berezivka-rda.od.gov.ua",
-    "osm_relation_id": 11885531
+    "osm_relation_id": 11885531,
+    "population": 109400
   },
   {
     "id": "UA-010",
@@ -77,7 +85,8 @@
     "country": "UA",
     "region": "Kherson Oblast",
     "domain": "rdaberyslav.gov.ua",
-    "osm_relation_id": 11874322
+    "osm_relation_id": 11874322,
+    "population": 99100
   },
   {
     "id": "UA-011",
@@ -85,7 +94,8 @@
     "country": "UA",
     "region": "Kyiv Oblast",
     "domain": "bcrda.gov.ua",
-    "osm_relation_id": 11913383
+    "osm_relation_id": 11913383,
+    "population": 443400
   },
   {
     "id": "UA-012",
@@ -93,7 +103,8 @@
     "country": "UA",
     "region": "Odesa Oblast",
     "domain": "bd-rda.od.gov.ua",
-    "osm_relation_id": 11883401
+    "osm_relation_id": 11883401,
+    "population": 201400
   },
   {
     "id": "UA-013",
@@ -109,7 +120,8 @@
     "country": "UA",
     "region": "Autonomous Republic of Crimea",
     "domain": "belogorskiy.rk.gov.ru",
-    "osm_relation_id": 1754552
+    "osm_relation_id": 1754552,
+    "population": 66396
   },
   {
     "id": "UA-015",
@@ -117,7 +129,8 @@
     "country": "UA",
     "region": "Kharkiv Oblast",
     "domain": "",
-    "osm_relation_id": 11803996
+    "osm_relation_id": 11803996,
+    "population": 128400
   },
   {
     "id": "UA-016",
@@ -125,7 +138,8 @@
     "country": "UA",
     "region": "Ivano-Frankivsk Oblast",
     "domain": "bogorda.if.gov.ua",
-    "osm_relation_id": 1741637
+    "osm_relation_id": 1741637,
+    "population": 69378
   },
   {
     "id": "UA-017",
@@ -133,7 +147,8 @@
     "country": "UA",
     "region": "Odesa Oblast",
     "domain": "bolgrad-rda.od.gov.ua",
-    "osm_relation_id": 11884966
+    "osm_relation_id": 11884966,
+    "population": 154500
   },
   {
     "id": "UA-018",
@@ -141,7 +156,8 @@
     "country": "UA",
     "region": "Kyiv Oblast",
     "domain": "raybori.gov.ua",
-    "osm_relation_id": 11900985
+    "osm_relation_id": 11900985,
+    "population": 203700
   },
   {
     "id": "UA-019",
@@ -149,7 +165,8 @@
     "country": "UA",
     "region": "Kyiv Oblast",
     "domain": "brovary-rda.gov.ua",
-    "osm_relation_id": 11900969
+    "osm_relation_id": 11900969,
+    "population": 240700
   },
   {
     "id": "UA-020",
@@ -157,7 +174,8 @@
     "country": "UA",
     "region": "Kyiv Oblast",
     "domain": "bucha-rr.gov.ua",
-    "osm_relation_id": 11913603
+    "osm_relation_id": 11913603,
+    "population": 375536
   },
   {
     "id": "UA-021",
@@ -172,7 +190,8 @@
     "country": "UA",
     "region": "Cherkasy Oblast",
     "domain": "",
-    "osm_relation_id": 11920395
+    "osm_relation_id": 11920395,
+    "population": 602600
   },
   {
     "id": "UA-023",
@@ -180,7 +199,8 @@
     "country": "UA",
     "region": "Chernihiv Oblast",
     "domain": "chadm.cg.gov.ua",
-    "osm_relation_id": 11807410
+    "osm_relation_id": 11807410,
+    "population": 460800
   },
   {
     "id": "UA-024",
@@ -188,7 +208,8 @@
     "country": "UA",
     "region": "Chernivtsi Oblast",
     "domain": "",
-    "osm_relation_id": 11905202
+    "osm_relation_id": 11905202,
+    "population": 655600
   },
   {
     "id": "UA-025",
@@ -196,7 +217,8 @@
     "country": "UA",
     "region": "Autonomous Republic of Crimea",
     "domain": "",
-    "osm_relation_id": 1590251
+    "osm_relation_id": 1590251,
+    "population": 34269
   },
   {
     "id": "UA-026",
@@ -204,7 +226,8 @@
     "country": "UA",
     "region": "Ternopil Oblast",
     "domain": "",
-    "osm_relation_id": 11919403
+    "osm_relation_id": 11919403,
+    "population": 334200
   },
   {
     "id": "UA-027",
@@ -212,7 +235,8 @@
     "country": "UA",
     "region": "Kharkiv Oblast",
     "domain": "",
-    "osm_relation_id": 11803999
+    "osm_relation_id": 11803999,
+    "population": 202200
   },
   {
     "id": "UA-028",
@@ -220,7 +244,8 @@
     "country": "UA",
     "region": "Dnipropetrovsk Oblast",
     "domain": "dnipr.dp.gov.ua",
-    "osm_relation_id": 1738025
+    "osm_relation_id": 1738025,
+    "population": 1145065
   },
   {
     "id": "UA-029",
@@ -228,7 +253,8 @@
     "country": "UA",
     "region": "Chernivtsi Oblast",
     "domain": "",
-    "osm_relation_id": 11905201
+    "osm_relation_id": 11905201,
+    "population": 157800
   },
   {
     "id": "UA-030",
@@ -236,7 +262,8 @@
     "country": "UA",
     "region": "Donetsk Oblast",
     "domain": "",
-    "osm_relation_id": 17937787
+    "osm_relation_id": 17937787,
+    "population": 1503400
   },
   {
     "id": "UA-031",
@@ -244,7 +271,8 @@
     "country": "UA",
     "region": "Luhansk Oblast",
     "domain": "",
-    "osm_relation_id": 17938099
+    "osm_relation_id": 17938099,
+    "population": 207700
   },
   {
     "id": "UA-032",
@@ -252,7 +280,8 @@
     "country": "UA",
     "region": "Lviv Oblast",
     "domain": "drohobych-rda.gov.ua",
-    "osm_relation_id": 11926073
+    "osm_relation_id": 11926073,
+    "population": 235405
   },
   {
     "id": "UA-033",
@@ -260,7 +289,8 @@
     "country": "UA",
     "region": "Rivne Oblast",
     "domain": "",
-    "osm_relation_id": 11831110
+    "osm_relation_id": 11831110,
+    "population": 170400
   },
   {
     "id": "UA-034",
@@ -276,7 +306,8 @@
     "country": "UA",
     "region": "Kyiv Oblast",
     "domain": "",
-    "osm_relation_id": 11913464
+    "osm_relation_id": 11913464,
+    "population": 180900
   },
   {
     "id": "UA-036",
@@ -292,14 +323,16 @@
     "country": "UA",
     "region": "Vinnytsia Oblast",
     "domain": "",
-    "osm_relation_id": 11928916
+    "osm_relation_id": 11928916,
+    "population": 232647
   },
   {
     "id": "UA-038",
     "name": "Halych Raion",
     "country": "UA",
     "region": "Ivano-Frankivsk Oblast",
-    "domain": "ww2.gov.if.ua"
+    "domain": "ww2.gov.if.ua",
+    "population": 42539
   },
   {
     "id": "UA-039",
@@ -307,7 +340,8 @@
     "country": "UA",
     "region": "Kherson Oblast",
     "domain": "genichesk-rda.gov.ua",
-    "osm_relation_id": 11795653
+    "osm_relation_id": 11795653,
+    "population": 122400
   },
   {
     "id": "UA-040",
@@ -315,7 +349,8 @@
     "country": "UA",
     "region": "Chernivtsi Oblast",
     "domain": "hertza.bukoda.gov.ua",
-    "osm_relation_id": 1740866
+    "osm_relation_id": 1740866,
+    "population": 33025
   },
   {
     "id": "UA-041",
@@ -323,7 +358,8 @@
     "country": "UA",
     "region": "Kirovohrad Oblast",
     "domain": "",
-    "osm_relation_id": 11851465
+    "osm_relation_id": 11851465,
+    "population": 124900
   },
   {
     "id": "UA-042",
@@ -331,7 +367,8 @@
     "country": "UA",
     "region": "Donetsk Oblast",
     "domain": "",
-    "osm_relation_id": 17937670
+    "osm_relation_id": 17937670,
+    "population": 690600
   },
   {
     "id": "UA-043",
@@ -339,7 +376,8 @@
     "country": "UA",
     "region": "Ivano-Frankivsk Oblast",
     "domain": "ifrada.gov.ua",
-    "osm_relation_id": 11805641
+    "osm_relation_id": 11805641,
+    "population": 560100
   },
   {
     "id": "UA-044",
@@ -354,7 +392,8 @@
     "country": "UA",
     "region": "Kharkiv Oblast",
     "domain": "",
-    "osm_relation_id": 11804002
+    "osm_relation_id": 11804002,
+    "population": 181600
   },
   {
     "id": "UA-046",
@@ -362,7 +401,8 @@
     "country": "UA",
     "region": "Odesa Oblast",
     "domain": "izmail-rda.od.gov.ua",
-    "osm_relation_id": 11821462
+    "osm_relation_id": 11821462,
+    "population": 207333
   },
   {
     "id": "UA-047",
@@ -370,7 +410,8 @@
     "country": "UA",
     "region": "Kherson Oblast",
     "domain": "kakhovka-rayrada.gov.ua",
-    "osm_relation_id": 11874151
+    "osm_relation_id": 11874151,
+    "population": 224700
   },
   {
     "id": "UA-048",
@@ -378,7 +419,8 @@
     "country": "UA",
     "region": "Donetsk Oblast",
     "domain": "",
-    "osm_relation_id": 17937854
+    "osm_relation_id": 17937854,
+    "population": 122600
   },
   {
     "id": "UA-049",
@@ -386,7 +428,8 @@
     "country": "UA",
     "region": "Ivano-Frankivsk Oblast",
     "domain": "",
-    "osm_relation_id": 11797162
+    "osm_relation_id": 11797162,
+    "population": 286500
   },
   {
     "id": "UA-050",
@@ -394,7 +437,8 @@
     "country": "UA",
     "region": "Khmelnytskyi Oblast",
     "domain": "",
-    "osm_relation_id": 11921664
+    "osm_relation_id": 11921664,
+    "population": 291100
   },
   {
     "id": "UA-051",
@@ -402,7 +446,8 @@
     "country": "UA",
     "region": "Dnipropetrovsk Oblast",
     "domain": "",
-    "osm_relation_id": 11945945
+    "osm_relation_id": 11945945,
+    "population": 423433
   },
   {
     "id": "UA-052",
@@ -410,7 +455,8 @@
     "country": "UA",
     "region": "Volyn Oblast",
     "domain": "",
-    "osm_relation_id": 11921855
+    "osm_relation_id": 11921855,
+    "population": 130382
   },
   {
     "id": "UA-053",
@@ -425,7 +471,8 @@
     "country": "UA",
     "region": "Kharkiv Oblast",
     "domain": "kharkivrada.gov.ua",
-    "osm_relation_id": 11803997
+    "osm_relation_id": 11803997,
+    "population": 1762800
   },
   {
     "id": "UA-055",
@@ -433,14 +480,16 @@
     "country": "UA",
     "region": "Kherson Oblast",
     "domain": "kherson-rada.gov.ua",
-    "osm_relation_id": 11874245
+    "osm_relation_id": 11874245,
+    "population": 464400
   },
   {
     "id": "UA-056",
     "name": "Khmelnytskyi Raion",
     "country": "UA",
     "region": "Ukrainian Soviet Socialist Republic",
-    "domain": "rayrada.km.ua"
+    "domain": "rayrada.km.ua",
+    "population": 53236
   },
   {
     "id": "UA-057",
@@ -448,7 +497,8 @@
     "country": "UA",
     "region": "Khmelnytskyi Oblast",
     "domain": "",
-    "osm_relation_id": 11921572
+    "osm_relation_id": 11921572,
+    "population": 687000
   },
   {
     "id": "UA-058",
@@ -456,7 +506,8 @@
     "country": "UA",
     "region": "Vinnytsia Oblast",
     "domain": "",
-    "osm_relation_id": 11914609
+    "osm_relation_id": 11914609,
+    "population": 180732
   },
   {
     "id": "UA-059",
@@ -464,7 +515,8 @@
     "country": "UA",
     "region": "Zakarpattia Oblast",
     "domain": "khust-rda.gov.ua",
-    "osm_relation_id": 11852433
+    "osm_relation_id": 11852433,
+    "population": 265845
   },
   {
     "id": "UA-060",
@@ -472,7 +524,8 @@
     "country": "UA",
     "region": "Autonomous Republic of Crimea",
     "domain": "",
-    "osm_relation_id": 1754556
+    "osm_relation_id": 1754556,
+    "population": 57686
   },
   {
     "id": "UA-061",
@@ -480,7 +533,8 @@
     "country": "UA",
     "region": "Ivano-Frankivsk Oblast",
     "domain": "",
-    "osm_relation_id": 11806207
+    "osm_relation_id": 11806207,
+    "population": 279800
   },
   {
     "id": "UA-062",
@@ -488,7 +542,8 @@
     "country": "UA",
     "region": "Sumy Oblast",
     "domain": "",
-    "osm_relation_id": 11798645
+    "osm_relation_id": 11798645,
+    "population": 204200
   },
   {
     "id": "UA-063",
@@ -496,7 +551,8 @@
     "country": "UA",
     "region": "Chernihiv Oblast",
     "domain": "",
-    "osm_relation_id": 11809868
+    "osm_relation_id": 11809868,
+    "population": 91700
   },
   {
     "id": "UA-064",
@@ -504,7 +560,8 @@
     "country": "UA",
     "region": "Zhytomyr Oblast",
     "domain": "korosten-rda.gov.ua",
-    "osm_relation_id": 11809205
+    "osm_relation_id": 11809205,
+    "population": 251208
   },
   {
     "id": "UA-065",
@@ -512,7 +569,8 @@
     "country": "UA",
     "region": "Ivano-Frankivsk Oblast",
     "domain": "rda.kosiv.info",
-    "osm_relation_id": 11806248
+    "osm_relation_id": 11806248,
+    "population": 87223
   },
   {
     "id": "UA-066",
@@ -520,7 +578,8 @@
     "country": "UA",
     "region": "Volyn Oblast",
     "domain": "",
-    "osm_relation_id": 11921908
+    "osm_relation_id": 11921908,
+    "population": 266304
   },
   {
     "id": "UA-067",
@@ -528,7 +587,8 @@
     "country": "UA",
     "region": "Donetsk Oblast",
     "domain": "",
-    "osm_relation_id": 11978037
+    "osm_relation_id": 11978037,
+    "population": 568000
   },
   {
     "id": "UA-068",
@@ -536,7 +596,8 @@
     "country": "UA",
     "region": "Kharkiv Oblast",
     "domain": "",
-    "osm_relation_id": 11803998
+    "osm_relation_id": 11803998,
+    "population": 108900
   },
   {
     "id": "UA-069",
@@ -544,7 +605,8 @@
     "country": "UA",
     "region": "Autonomous Republic of Crimea",
     "domain": "",
-    "osm_relation_id": 1754554
+    "osm_relation_id": 1754554,
+    "population": 93686
   },
   {
     "id": "UA-070",
@@ -552,7 +614,8 @@
     "country": "UA",
     "region": "Autonomous Republic of Crimea",
     "domain": "rajonperekop.com.ua",
-    "osm_relation_id": 1754555
+    "osm_relation_id": 1754555,
+    "population": 54044
   },
   {
     "id": "UA-071",
@@ -560,7 +623,8 @@
     "country": "UA",
     "region": "Poltava Oblast",
     "domain": "kremenchuk.adm-pl.gov.ua",
-    "osm_relation_id": 11823799
+    "osm_relation_id": 11823799,
+    "population": 399400
   },
   {
     "id": "UA-072",
@@ -568,7 +632,8 @@
     "country": "UA",
     "region": "Ternopil Oblast",
     "domain": "",
-    "osm_relation_id": 11918336
+    "osm_relation_id": 11918336,
+    "population": 143191
   },
   {
     "id": "UA-073",
@@ -583,7 +648,8 @@
     "country": "UA",
     "region": "Kirovohrad Oblast",
     "domain": "",
-    "osm_relation_id": 11851422
+    "osm_relation_id": 11851422,
+    "population": 448100
   },
   {
     "id": "UA-075",
@@ -591,7 +657,8 @@
     "country": "UA",
     "region": "Dnipropetrovsk Oblast",
     "domain": "krrda.dp.gov.ua",
-    "osm_relation_id": 1738028
+    "osm_relation_id": 1738028,
+    "population": 743934
   },
   {
     "id": "UA-076",
@@ -599,7 +666,8 @@
     "country": "UA",
     "region": "Kharkiv Oblast",
     "domain": "kupyansk-rayon.osp-ua.info",
-    "osm_relation_id": 11804001
+    "osm_relation_id": 11804001,
+    "population": 137200
   },
   {
     "id": "UA-077",
@@ -607,7 +675,8 @@
     "country": "UA",
     "region": "Autonomous Republic of Crimea",
     "domain": "lenino.rk.gov.ru",
-    "osm_relation_id": 1754557
+    "osm_relation_id": 1754557,
+    "population": 77335
   },
   {
     "id": "UA-078",
@@ -615,7 +684,8 @@
     "country": "UA",
     "region": "Kharkiv Oblast",
     "domain": "",
-    "osm_relation_id": 11804000
+    "osm_relation_id": 11804000,
+    "population": 154600
   },
   {
     "id": "UA-079",
@@ -623,7 +693,8 @@
     "country": "UA",
     "region": "Poltava Oblast",
     "domain": "",
-    "osm_relation_id": 11835233
+    "osm_relation_id": 11835233,
+    "population": 192600
   },
   {
     "id": "UA-080",
@@ -631,7 +702,8 @@
     "country": "UA",
     "region": "Luhansk Oblast",
     "domain": "",
-    "osm_relation_id": 17938126
+    "osm_relation_id": 17938126,
+    "population": 535200
   },
   {
     "id": "UA-081",
@@ -639,7 +711,8 @@
     "country": "UA",
     "region": "Volyn Oblast",
     "domain": "lutskrada.gov.ua",
-    "osm_relation_id": 11921831
+    "osm_relation_id": 11921831,
+    "population": 455439
   },
   {
     "id": "UA-082",
@@ -647,7 +720,8 @@
     "country": "UA",
     "region": "Lviv Oblast",
     "domain": "lvivskaray-rada.gov.ua",
-    "osm_relation_id": 11925687
+    "osm_relation_id": 11925687,
+    "population": 1146538
   },
   {
     "id": "UA-083",
@@ -655,7 +729,8 @@
     "country": "UA",
     "region": "Donetsk Oblast",
     "domain": "",
-    "osm_relation_id": 11958110
+    "osm_relation_id": 11958110,
+    "population": 521100
   },
   {
     "id": "UA-084",
@@ -663,7 +738,8 @@
     "country": "UA",
     "region": "Zaporizhzhia Oblast",
     "domain": "",
-    "osm_relation_id": 11872881
+    "osm_relation_id": 11872881,
+    "population": 276638
   },
   {
     "id": "UA-085",
@@ -671,7 +747,8 @@
     "country": "UA",
     "region": "Vinnytsia Oblast",
     "domain": "",
-    "osm_relation_id": 11951882
+    "osm_relation_id": 11951882,
+    "population": 139828
   },
   {
     "id": "UA-086",
@@ -679,7 +756,8 @@
     "country": "UA",
     "region": "Zakarpattia Oblast",
     "domain": "mukachevo-rada.gov.ua",
-    "osm_relation_id": 11852023
+    "osm_relation_id": 11852023,
+    "population": 251145
   },
   {
     "id": "UA-087",
@@ -687,7 +765,8 @@
     "country": "UA",
     "region": "Mykolaiv Oblast",
     "domain": "mk.gov.ua",
-    "osm_relation_id": 1738977
+    "osm_relation_id": 1738977,
+    "population": 656300
   },
   {
     "id": "UA-088",
@@ -695,7 +774,8 @@
     "country": "UA",
     "region": "Poltava Oblast",
     "domain": "",
-    "osm_relation_id": 11839126
+    "osm_relation_id": 11839126,
+    "population": 207900
   },
   {
     "id": "UA-089",
@@ -703,7 +783,8 @@
     "country": "UA",
     "region": "Ivano-Frankivsk Oblast",
     "domain": "",
-    "osm_relation_id": 11806259
+    "osm_relation_id": 11806259,
+    "population": 130600
   },
   {
     "id": "UA-090",
@@ -711,7 +792,8 @@
     "country": "UA",
     "region": "Dnipropetrovsk Oblast",
     "domain": "nikopol-rn.dp.gov.ua",
-    "osm_relation_id": 1738037
+    "osm_relation_id": 1738037,
+    "population": 250746
   },
   {
     "id": "UA-091",
@@ -719,7 +801,8 @@
     "country": "UA",
     "region": "Chernihiv Oblast",
     "domain": "nizhynrada.gov.ua",
-    "osm_relation_id": 11822411
+    "osm_relation_id": 11822411,
+    "population": 228700
   },
   {
     "id": "UA-092",
@@ -727,14 +810,16 @@
     "country": "UA",
     "region": "Chernihiv Oblast",
     "domain": "",
-    "osm_relation_id": 11822257
+    "osm_relation_id": 11822257,
+    "population": 66400
   },
   {
     "id": "UA-093",
     "name": "Novoselytsia Raion",
     "country": "UA",
     "region": "Chernivtsi Oblast",
-    "domain": "novoselica-rda.cv.ua"
+    "domain": "novoselica-rda.cv.ua",
+    "population": 77772
   },
   {
     "id": "UA-094",
@@ -742,7 +827,8 @@
     "country": "UA",
     "region": "Kirovohrad Oblast",
     "domain": "",
-    "osm_relation_id": 11851449
+    "osm_relation_id": 11851449,
+    "population": 142700
   },
   {
     "id": "UA-095",
@@ -750,7 +836,8 @@
     "country": "UA",
     "region": "Kyiv Oblast",
     "domain": "",
-    "osm_relation_id": 11909246
+    "osm_relation_id": 11909246,
+    "population": 229800
   },
   {
     "id": "UA-096",
@@ -758,7 +845,8 @@
     "country": "UA",
     "region": "Odesa Oblast",
     "domain": "odrda.od.gov.ua",
-    "osm_relation_id": 11883402
+    "osm_relation_id": 11883402,
+    "population": 1382541
   },
   {
     "id": "UA-097",
@@ -766,7 +854,8 @@
     "country": "UA",
     "region": "Sumy Oblast",
     "domain": "",
-    "osm_relation_id": 11795830
+    "osm_relation_id": 11795830,
+    "population": 125600
   },
   {
     "id": "UA-098",
@@ -774,7 +863,8 @@
     "country": "UA",
     "region": "Kirovohrad Oblast",
     "domain": "alex.gov.ua",
-    "osm_relation_id": 11839919
+    "osm_relation_id": 11839919,
+    "population": 229800
   },
   {
     "id": "UA-099",
@@ -782,7 +872,8 @@
     "country": "UA",
     "region": "Dnipropetrovsk Oblast",
     "domain": "pavl.dp.gov.ua",
-    "osm_relation_id": 1738040
+    "osm_relation_id": 1738040,
+    "population": 173300
   },
   {
     "id": "UA-100",
@@ -798,7 +889,8 @@
     "country": "UA",
     "region": "Mykolaiv Oblast",
     "domain": "",
-    "osm_relation_id": 1738981
+    "osm_relation_id": 1738981,
+    "population": 151800
   },
   {
     "id": "UA-102",
@@ -806,7 +898,8 @@
     "country": "UA",
     "region": "Autonomous Republic of Crimea",
     "domain": "pervmo.rk.gov.ru",
-    "osm_relation_id": 1754559
+    "osm_relation_id": 1754559,
+    "population": 40349
   },
   {
     "id": "UA-103",
@@ -814,7 +907,8 @@
     "country": "UA",
     "region": "Odesa Oblast",
     "domain": "",
-    "osm_relation_id": 11886169
+    "osm_relation_id": 11886169,
+    "population": 229900
   },
   {
     "id": "UA-104",
@@ -822,7 +916,8 @@
     "country": "UA",
     "region": "Donetsk Oblast",
     "domain": "pokrovsk-rda.gov.ua",
-    "osm_relation_id": 11984324
+    "osm_relation_id": 11984324,
+    "population": 402700
   },
   {
     "id": "UA-105",
@@ -830,7 +925,8 @@
     "country": "UA",
     "region": "Zaporizhzhia Oblast",
     "domain": "",
-    "osm_relation_id": 11857109
+    "osm_relation_id": 11857109,
+    "population": 163641
   },
   {
     "id": "UA-106",
@@ -838,7 +934,8 @@
     "country": "UA",
     "region": "Poltava Oblast",
     "domain": "poltava-rda.gov.ua",
-    "osm_relation_id": 11823489
+    "osm_relation_id": 11823489,
+    "population": 600500
   },
   {
     "id": "UA-107",
@@ -846,7 +943,8 @@
     "country": "UA",
     "region": "Chernihiv Oblast",
     "domain": "",
-    "osm_relation_id": 11822577
+    "osm_relation_id": 11822577,
+    "population": 158200
   },
   {
     "id": "UA-108",
@@ -854,7 +952,8 @@
     "country": "UA",
     "region": "Zakarpattia Oblast",
     "domain": "",
-    "osm_relation_id": 11841038
+    "osm_relation_id": 11841038,
+    "population": 82034
   },
   {
     "id": "UA-109",
@@ -862,14 +961,16 @@
     "country": "UA",
     "region": "Rivne Oblast",
     "domain": "rivnerada.gov.ua",
-    "osm_relation_id": 11833149
+    "osm_relation_id": 11833149,
+    "population": 634900
   },
   {
     "id": "UA-110",
     "name": "Rohatyn Raion",
     "country": "UA",
     "region": "Ivano-Frankivsk Oblast",
-    "domain": ""
+    "domain": "",
+    "population": 39364
   },
   {
     "id": "UA-111",
@@ -877,7 +978,8 @@
     "country": "UA",
     "region": "Sumy Oblast",
     "domain": "",
-    "osm_relation_id": 11798623
+    "osm_relation_id": 11798623,
+    "population": 113700
   },
   {
     "id": "UA-112",
@@ -885,7 +987,8 @@
     "country": "UA",
     "region": "Luhansk Oblast",
     "domain": "",
-    "osm_relation_id": 17938112
+    "osm_relation_id": 17938112,
+    "population": 296800
   },
   {
     "id": "UA-113",
@@ -893,7 +996,8 @@
     "country": "UA",
     "region": "Odesa Oblast",
     "domain": "rozdilna-rda.od.gov.ua",
-    "osm_relation_id": 11885532
+    "osm_relation_id": 11885532,
+    "population": 104200
   },
   {
     "id": "UA-114",
@@ -901,7 +1005,8 @@
     "country": "UA",
     "region": "Autonomous Republic of Crimea",
     "domain": "razdolnoe-rga.gov.ua",
-    "osm_relation_id": 1754560
+    "osm_relation_id": 1754560,
+    "population": 37384
   },
   {
     "id": "UA-115",
@@ -909,7 +1014,8 @@
     "country": "UA",
     "region": "Autonomous Republic of Crimea",
     "domain": "sakimo.rk.gov.ru",
-    "osm_relation_id": 1754561
+    "osm_relation_id": 1754561,
+    "population": 98336
   },
   {
     "id": "UA-116",
@@ -917,7 +1023,8 @@
     "country": "UA",
     "region": "Dnipropetrovsk Oblast",
     "domain": "",
-    "osm_relation_id": 1738036
+    "osm_relation_id": 1738036,
+    "population": 167526
   },
   {
     "id": "UA-117",
@@ -925,7 +1032,8 @@
     "country": "UA",
     "region": "Lviv Oblast",
     "domain": "",
-    "osm_relation_id": 11925970
+    "osm_relation_id": 11925970,
+    "population": 224126
   },
   {
     "id": "UA-118",
@@ -933,7 +1041,8 @@
     "country": "UA",
     "region": "Rivne Oblast",
     "domain": "",
-    "osm_relation_id": 11833150
+    "osm_relation_id": 11833150,
+    "population": 213000
   },
   {
     "id": "UA-119",
@@ -941,7 +1050,8 @@
     "country": "UA",
     "region": "Luhansk Oblast",
     "domain": "",
-    "osm_relation_id": 11957819
+    "osm_relation_id": 11957819,
+    "population": 81200
   },
   {
     "id": "UA-120",
@@ -949,7 +1059,8 @@
     "country": "UA",
     "region": "Khmelnytskyi Oblast",
     "domain": "shepetivka-rada.gov.ua",
-    "osm_relation_id": 11920243
+    "osm_relation_id": 11920243,
+    "population": 286500
   },
   {
     "id": "UA-121",
@@ -957,7 +1068,8 @@
     "country": "UA",
     "region": "Lviv Oblast",
     "domain": "gromada.info",
-    "osm_relation_id": 11923012
+    "osm_relation_id": 11923012,
+    "population": 233000
   },
   {
     "id": "UA-122",
@@ -965,7 +1077,8 @@
     "country": "UA",
     "region": "Sumy Oblast",
     "domain": "",
-    "osm_relation_id": 11798712
+    "osm_relation_id": 11798712,
+    "population": 188500
   },
   {
     "id": "UA-123",
@@ -973,7 +1086,8 @@
     "country": "UA",
     "region": "Autonomous Republic of Crimea",
     "domain": "simfmo.rk.gov.ru",
-    "osm_relation_id": 1754564
+    "osm_relation_id": 1754564,
+    "population": 168161
   },
   {
     "id": "UA-124",
@@ -981,7 +1095,8 @@
     "country": "UA",
     "region": "Autonomous Republic of Crimea",
     "domain": "",
-    "osm_relation_id": 19162084
+    "osm_relation_id": 19162084,
+    "population": 168161
   },
   {
     "id": "UA-125",
@@ -989,7 +1104,8 @@
     "country": "UA",
     "region": "Luhansk Oblast",
     "domain": "",
-    "osm_relation_id": 11968100
+    "osm_relation_id": 11968100,
+    "population": 375800
   },
   {
     "id": "UA-126",
@@ -997,7 +1113,8 @@
     "country": "UA",
     "region": "Kherson Oblast",
     "domain": "skadovsk-gromada.gov.ua",
-    "osm_relation_id": 11874246
+    "osm_relation_id": 11874246,
+    "population": 127000
   },
   {
     "id": "UA-127",
@@ -1012,7 +1129,8 @@
     "country": "UA",
     "region": "Luhansk Oblast",
     "domain": "",
-    "osm_relation_id": 11955188
+    "osm_relation_id": 11955188,
+    "population": 129200
   },
   {
     "id": "UA-129",
@@ -1027,7 +1145,8 @@
     "country": "UA",
     "region": "Lviv Oblast",
     "domain": "",
-    "osm_relation_id": 11926090
+    "osm_relation_id": 11926090,
+    "population": 322853
   },
   {
     "id": "UA-131",
@@ -1035,7 +1154,8 @@
     "country": "UA",
     "region": "Sumy Oblast",
     "domain": "",
-    "osm_relation_id": 11795528
+    "osm_relation_id": 11795528,
+    "population": 449400
   },
   {
     "id": "UA-132",
@@ -1043,7 +1163,8 @@
     "country": "UA",
     "region": "Luhansk Oblast",
     "domain": "",
-    "osm_relation_id": 11956581
+    "osm_relation_id": 11956581,
+    "population": 80900
   },
   {
     "id": "UA-133",
@@ -1051,7 +1172,8 @@
     "country": "UA",
     "region": "Dnipropetrovsk Oblast",
     "domain": "",
-    "osm_relation_id": 1738047
+    "osm_relation_id": 1738047,
+    "population": 198974
   },
   {
     "id": "UA-134",
@@ -1059,7 +1181,8 @@
     "country": "UA",
     "region": "Ternopil Oblast",
     "domain": "",
-    "osm_relation_id": 11919556
+    "osm_relation_id": 11919556,
+    "population": 559357
   },
   {
     "id": "UA-135",
@@ -1067,7 +1190,8 @@
     "country": "UA",
     "region": "Zakarpattia Oblast",
     "domain": "",
-    "osm_relation_id": 11841037
+    "osm_relation_id": 11841037,
+    "population": 183756
   },
   {
     "id": "UA-136",
@@ -1075,14 +1199,16 @@
     "country": "UA",
     "region": "Vinnytsia Oblast",
     "domain": "",
-    "osm_relation_id": 11951843
+    "osm_relation_id": 11951843,
+    "population": 149429
   },
   {
     "id": "UA-137",
     "name": "Tysmenytsia Raion",
     "country": "UA",
     "region": "Ivano-Frankivsk Oblast",
-    "domain": ""
+    "domain": "",
+    "population": 82263
   },
   {
     "id": "UA-138",
@@ -1090,7 +1216,8 @@
     "country": "UA",
     "region": "Cherkasy Oblast",
     "domain": "",
-    "osm_relation_id": 11954138
+    "osm_relation_id": 11954138,
+    "population": 257500
   },
   {
     "id": "UA-139",
@@ -1098,7 +1225,8 @@
     "country": "UA",
     "region": "Zakarpattia Oblast",
     "domain": "",
-    "osm_relation_id": 11841375
+    "osm_relation_id": 11841375,
+    "population": 255000
   },
   {
     "id": "UA-140",
@@ -1106,7 +1234,8 @@
     "country": "UA",
     "region": "Rivne Oblast",
     "domain": "",
-    "osm_relation_id": 11832213
+    "osm_relation_id": 11832213,
+    "population": 139000
   },
   {
     "id": "UA-141",
@@ -1114,7 +1243,8 @@
     "country": "UA",
     "region": "Zaporizhzhia Oblast",
     "domain": "",
-    "osm_relation_id": 11872898
+    "osm_relation_id": 11872898,
+    "population": 181271
   },
   {
     "id": "UA-142",
@@ -1122,7 +1252,8 @@
     "country": "UA",
     "region": "Ivano-Frankivsk Oblast",
     "domain": "",
-    "osm_relation_id": 1741638
+    "osm_relation_id": 1741638,
+    "population": 30569
   },
   {
     "id": "UA-143",
@@ -1130,7 +1261,8 @@
     "country": "UA",
     "region": "Vinnytsia Oblast",
     "domain": "",
-    "osm_relation_id": 11914591
+    "osm_relation_id": 11914591,
+    "population": 647966
   },
   {
     "id": "UA-144",
@@ -1138,7 +1270,8 @@
     "country": "UA",
     "region": "Donetsk Oblast",
     "domain": "volnovrda.gov.ua",
-    "osm_relation_id": 11984354
+    "osm_relation_id": 11984354,
+    "population": 146000
   },
   {
     "id": "UA-145",
@@ -1146,14 +1279,16 @@
     "country": "UA",
     "region": "Volyn Oblast",
     "domain": "volodymyr-rada.gov.ua",
-    "osm_relation_id": 11921894
+    "osm_relation_id": 11921894,
+    "population": 169231
   },
   {
     "id": "UA-146",
     "name": "Volodymyr-Volynskyi Raion",
     "country": "UA",
     "region": "Volyn Oblast",
-    "domain": "vvadm.gov.ua"
+    "domain": "vvadm.gov.ua",
+    "population": 25175
   },
   {
     "id": "UA-147",
@@ -1168,7 +1303,8 @@
     "country": "UA",
     "region": "Mykolaiv Oblast",
     "domain": "",
-    "osm_relation_id": 1738971
+    "osm_relation_id": 1738971,
+    "population": 182500
   },
   {
     "id": "UA-149",
@@ -1176,7 +1312,8 @@
     "country": "UA",
     "region": "Kyiv Oblast",
     "domain": "vysh.gov.ua",
-    "osm_relation_id": 11892210
+    "osm_relation_id": 11892210,
+    "population": 130100
   },
   {
     "id": "UA-150",
@@ -1184,7 +1321,8 @@
     "country": "UA",
     "region": "Chernivtsi Oblast",
     "domain": "",
-    "osm_relation_id": 11905203
+    "osm_relation_id": 11905203,
+    "population": 91000
   },
   {
     "id": "UA-151",
@@ -1200,7 +1338,8 @@
     "country": "UA",
     "region": "Lviv Oblast",
     "domain": "",
-    "osm_relation_id": 11925828
+    "osm_relation_id": 11925828,
+    "population": 179219
   },
   {
     "id": "UA-153",
@@ -1216,7 +1355,8 @@
     "country": "UA",
     "region": "Zaporizhzhia Oblast",
     "domain": "",
-    "osm_relation_id": 11857100
+    "osm_relation_id": 11857100,
+    "population": 840866
   },
   {
     "id": "UA-155",
@@ -1238,7 +1378,8 @@
     "country": "UA",
     "region": "Vinnytsia Oblast",
     "domain": "zhmerynka-rda.gov.ua",
-    "osm_relation_id": 11951881
+    "osm_relation_id": 11951881,
+    "population": 158913
   },
   {
     "id": "UA-158",
@@ -1246,7 +1387,8 @@
     "country": "UA",
     "region": "Zhytomyr Oblast",
     "domain": "",
-    "osm_relation_id": 11812881
+    "osm_relation_id": 11812881,
+    "population": 606433
   },
   {
     "id": "UA-159",
@@ -1254,7 +1396,8 @@
     "country": "UA",
     "region": "Lviv Oblast",
     "domain": "zolochiv-rda.gov.ua",
-    "osm_relation_id": 11923087
+    "osm_relation_id": 11923087,
+    "population": 160664
   },
   {
     "id": "UA-160",
@@ -1262,7 +1405,8 @@
     "country": "UA",
     "region": "Cherkasy Oblast",
     "domain": "",
-    "osm_relation_id": 1739132
+    "osm_relation_id": 1739132,
+    "population": 142300
   },
   {
     "id": "UA-161",
@@ -1270,7 +1414,8 @@
     "country": "UA",
     "region": "Cherkasy Oblast",
     "domain": "",
-    "osm_relation_id": 11954459
+    "osm_relation_id": 11954459,
+    "population": 204000
   },
   {
     "id": "UA-162",
@@ -1278,6 +1423,7 @@
     "country": "UA",
     "region": "Zhytomyr Oblast",
     "domain": "",
-    "osm_relation_id": 11952373
+    "osm_relation_id": 11952373,
+    "population": 164972
   }
 ]

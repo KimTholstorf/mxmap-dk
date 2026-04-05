@@ -45,7 +45,8 @@
     "country": "TN",
     "region": "Béja Governorate",
     "domain": "",
-    "osm_relation_id": 7189391
+    "osm_relation_id": 7189391,
+    "population": 21187
   },
   {
     "id": "TN-007",
@@ -291,14 +292,16 @@
     "country": "TN",
     "region": "Béja Governorate",
     "domain": "",
-    "osm_relation_id": 7189387
+    "osm_relation_id": 7189387,
+    "population": 71198
   },
   {
     "id": "TN-038",
     "name": "delegation of Béja Sud",
     "country": "TN",
     "region": "Béja Governorate",
-    "domain": ""
+    "domain": "",
+    "population": 38101
   },
   {
     "id": "TN-039",
@@ -654,7 +657,8 @@
     "country": "TN",
     "region": "Tunis Governorate",
     "domain": "",
-    "osm_relation_id": 4132537
+    "osm_relation_id": 4132537,
+    "population": 62138
   },
   {
     "id": "TN-084",
@@ -868,7 +872,8 @@
     "country": "TN",
     "region": "Béja Governorate",
     "domain": "",
-    "osm_relation_id": 7189392
+    "osm_relation_id": 7189392,
+    "population": 15762
   },
   {
     "id": "TN-111",
@@ -1344,7 +1349,8 @@
     "country": "TN",
     "region": "Béja Governorate",
     "domain": "commune-medjezelbab.gov.tn",
-    "osm_relation_id": 7189393
+    "osm_relation_id": 7189393,
+    "population": 41749
   },
   {
     "id": "TN-171",
@@ -1392,7 +1398,8 @@
     "country": "TN",
     "region": "Sfax Governorate",
     "domain": "",
-    "osm_relation_id": 273307
+    "osm_relation_id": 273307,
+    "population": 38688
   },
   {
     "id": "TN-177",
@@ -1582,7 +1589,8 @@
     "country": "TN",
     "region": "Béja Governorate",
     "domain": "communenefza.tn",
-    "osm_relation_id": 7189394
+    "osm_relation_id": 7189394,
+    "population": 48101
   },
   {
     "id": "TN-201",
@@ -1686,7 +1694,8 @@
     "country": "TN",
     "region": "Tataouine Governorate",
     "domain": "commune-remada.gov.tn",
-    "osm_relation_id": 7143840
+    "osm_relation_id": 7143840,
+    "population": 9977
   },
   {
     "id": "TN-214",
@@ -2026,7 +2035,8 @@
     "country": "TN",
     "region": "Kef Governorate",
     "domain": "commune-tajerouine.gov.tn",
-    "osm_relation_id": 4752901
+    "osm_relation_id": 4752901,
+    "population": 30659
   },
   {
     "id": "TN-257",
@@ -2074,7 +2084,8 @@
     "country": "TN",
     "region": "Béja Governorate",
     "domain": "communetestour.tn",
-    "osm_relation_id": 7189389
+    "osm_relation_id": 7189389,
+    "population": 33613
   },
   {
     "id": "TN-263",
@@ -2090,7 +2101,8 @@
     "country": "TN",
     "region": "Béja Governorate",
     "domain": "",
-    "osm_relation_id": 7189390
+    "osm_relation_id": 7189390,
+    "population": 11206
   },
   {
     "id": "TN-265",
@@ -2137,7 +2149,8 @@
     "country": "TN",
     "region": "Béja Governorate",
     "domain": "",
-    "osm_relation_id": 7189388
+    "osm_relation_id": 7189388,
+    "population": 22115
   },
   {
     "id": "TN-271",

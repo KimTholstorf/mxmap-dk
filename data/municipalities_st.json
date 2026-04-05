@@ -5,7 +5,8 @@
     "country": "ST",
     "region": "São Tomé and Príncipe",
     "domain": "mnec.gov.st",
-    "osm_relation_id": 4779043
+    "osm_relation_id": 4779043,
+    "population": 20794
   },
   {
     "id": "ST-002",
@@ -13,7 +14,8 @@
     "country": "ST",
     "region": "São Tomé and Príncipe",
     "domain": "",
-    "osm_relation_id": 4779080
+    "osm_relation_id": 4779080,
+    "population": 7424
   },
   {
     "id": "ST-003",
@@ -21,7 +23,8 @@
     "country": "ST",
     "region": "São Tomé and Príncipe",
     "domain": "camaralemba.st",
-    "osm_relation_id": 4779079
+    "osm_relation_id": 4779079,
+    "population": 17129
   },
   {
     "id": "ST-004",
@@ -29,7 +32,8 @@
     "country": "ST",
     "region": "São Tomé and Príncipe",
     "domain": "",
-    "osm_relation_id": 4778829
+    "osm_relation_id": 4778829,
+    "population": 23086
   },
   {
     "id": "ST-005",
@@ -37,7 +41,8 @@
     "country": "ST",
     "region": "São Tomé and Príncipe",
     "domain": "",
-    "osm_relation_id": 4779033
+    "osm_relation_id": 4779033,
+    "population": 50697
   },
   {
     "id": "ST-006",
@@ -53,6 +58,7 @@
     "country": "ST",
     "region": "São Tomé and Príncipe",
     "domain": "",
-    "osm_relation_id": 4680163
+    "osm_relation_id": 4680163,
+    "population": 80647
   }
 ]

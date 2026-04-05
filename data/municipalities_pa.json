@@ -5,7 +5,8 @@
     "country": "PA",
     "region": "Coclé Province",
     "domain": "aguadulce.municipios.gob.pa",
-    "osm_relation_id": 8434677
+    "osm_relation_id": 8434677,
+    "population": 49005
   },
   {
     "id": "PA-002",
@@ -30,7 +31,8 @@
     "country": "PA",
     "region": "Coclé Province",
     "domain": "mupa.gob.pa",
-    "osm_relation_id": 8433063
+    "osm_relation_id": 8433063,
+    "population": 12000
   },
   {
     "id": "PA-005",
@@ -94,7 +96,8 @@
     "name": "Boquete District",
     "country": "PA",
     "region": "Chiriquí Province",
-    "domain": "boquete.municipios.gob.pa"
+    "domain": "boquete.municipios.gob.pa",
+    "population": 23562
   },
   {
     "id": "PA-013",
@@ -217,7 +220,8 @@
     "country": "PA",
     "region": "Chiriquí Province",
     "domain": "david.municipios.gob.pa",
-    "osm_relation_id": 8398055
+    "osm_relation_id": 8398055,
+    "population": 82907
   },
   {
     "id": "PA-028",
@@ -282,7 +286,8 @@
     "country": "PA",
     "region": "Panamá Oeste Province",
     "domain": "lachorrera.municipios.gob.pa",
-    "osm_relation_id": 8421533
+    "osm_relation_id": 8421533,
+    "population": 68896
   },
   {
     "id": "PA-036",
@@ -322,7 +327,8 @@
     "country": "PA",
     "region": "Los Santos Province",
     "domain": "lastablas.municipios.gob.pa",
-    "osm_relation_id": 8435498
+    "osm_relation_id": 8435498,
+    "population": 9255
   },
   {
     "id": "PA-041",
@@ -451,7 +457,8 @@
     "country": "PA",
     "region": "Coclé Province",
     "domain": "mupa.gob.pa",
-    "osm_relation_id": 8434519
+    "osm_relation_id": 8434519,
+    "population": 21748
   },
   {
     "id": "PA-057",
@@ -619,7 +626,8 @@
     "name": "Tierras Altas District",
     "country": "PA",
     "region": "Chiriquí Province",
-    "domain": "tierrasaltas.municipios.gob.pa"
+    "domain": "tierrasaltas.municipios.gob.pa",
+    "population": 23525
   },
   {
     "id": "PA-078",

@@ -177,7 +177,8 @@
     "name": "Agona District",
     "country": "GH",
     "region": "Central Region",
-    "domain": ""
+    "domain": "",
+    "population": 37123
   },
   {
     "id": "GH-024",
@@ -451,7 +452,8 @@
     "name": "Assin District",
     "country": "GH",
     "region": "Central Region",
-    "domain": ""
+    "domain": "",
+    "population": 135000
   },
   {
     "id": "GH-059",
@@ -528,7 +530,8 @@
     "name": "Atebubu District",
     "country": "GH",
     "region": "Brong-Ahafo Region",
-    "domain": ""
+    "domain": "",
+    "population": 105938
   },
   {
     "id": "GH-069",
@@ -1418,7 +1421,8 @@
     "name": "Kintampo District",
     "country": "GH",
     "region": "Brong-Ahafo Region",
-    "domain": ""
+    "domain": "",
+    "population": 49046
   },
   {
     "id": "GH-183",
@@ -1458,7 +1462,8 @@
     "country": "GH",
     "region": "Northern Region",
     "domain": "",
-    "osm_relation_id": 10215999
+    "osm_relation_id": 10215999,
+    "population": 10824
   },
   {
     "id": "GH-188",

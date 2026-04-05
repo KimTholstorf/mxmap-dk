@@ -5,7 +5,8 @@
     "country": "MU",
     "region": "Mauritius",
     "domain": "",
-    "osm_relation_id": 3488094
+    "osm_relation_id": 3488094,
+    "population": 140294
   },
   {
     "id": "MU-002",
@@ -13,7 +14,8 @@
     "country": "MU",
     "region": "Mauritius",
     "domain": "",
-    "osm_relation_id": 3488095
+    "osm_relation_id": 3488095,
+    "population": 115546
   },
   {
     "id": "MU-003",
@@ -21,7 +23,8 @@
     "country": "MU",
     "region": "Mauritius",
     "domain": "",
-    "osm_relation_id": 3488096
+    "osm_relation_id": 3488096,
+    "population": 81288
   },
   {
     "id": "MU-004",
@@ -37,7 +40,8 @@
     "country": "MU",
     "region": "Mauritius",
     "domain": "",
-    "osm_relation_id": 3488098
+    "osm_relation_id": 3488098,
+    "population": 385034
   },
   {
     "id": "MU-006",
@@ -45,7 +49,8 @@
     "country": "MU",
     "region": "Mauritius",
     "domain": "mccpl.mu",
-    "osm_relation_id": 3488099
+    "osm_relation_id": 3488099,
+    "population": 149194
   },
   {
     "id": "MU-007",
@@ -53,7 +58,8 @@
     "country": "MU",
     "region": "Mauritius",
     "domain": "",
-    "osm_relation_id": 3488093
+    "osm_relation_id": 3488093,
+    "population": 76627
   },
   {
     "id": "MU-008",
@@ -69,6 +75,7 @@
     "country": "MU",
     "region": "Mauritius",
     "domain": "",
-    "osm_relation_id": 3488101
+    "osm_relation_id": 3488101,
+    "population": 70471
   }
 ]

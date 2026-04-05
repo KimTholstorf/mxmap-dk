@@ -5,7 +5,8 @@
     "country": "VE",
     "region": "Portuguesa",
     "domain": "",
-    "osm_relation_id": 9829596
+    "osm_relation_id": 9829596,
+    "population": 21506
   },
   {
     "id": "VE-002",
@@ -60,7 +61,8 @@
     "country": "VE",
     "region": "Portuguesa",
     "domain": "",
-    "osm_relation_id": 9829691
+    "osm_relation_id": 9829691,
+    "population": 188800
   },
   {
     "id": "VE-009",
@@ -99,7 +101,8 @@
     "name": "Boconó",
     "country": "VE",
     "region": "Trujillo",
-    "domain": ""
+    "domain": "",
+    "population": 100240
   },
   {
     "id": "VE-014",
@@ -107,14 +110,16 @@
     "country": "VE",
     "region": "Sucre",
     "domain": "bolivar-sucre.gob.ve",
-    "osm_relation_id": 5749549
+    "osm_relation_id": 5749549,
+    "population": 2069064
   },
   {
     "id": "VE-015",
     "name": "Bolívar",
     "country": "VE",
     "region": "Trujillo",
-    "domain": "bolivar-trujillo.gob.ve"
+    "domain": "bolivar-trujillo.gob.ve",
+    "population": 2069064
   },
   {
     "id": "VE-016",
@@ -191,7 +196,8 @@
     "country": "VE",
     "region": "Portuguesa",
     "domain": "",
-    "osm_relation_id": 9821322
+    "osm_relation_id": 9821322,
+    "population": 192644
   },
   {
     "id": "VE-026",
@@ -251,7 +257,8 @@
     "country": "VE",
     "region": "Yaracuy",
     "domain": "latrinidad-yaracuy.gob.ve",
-    "osm_relation_id": 11126515
+    "osm_relation_id": 11126515,
+    "population": 17200
   },
   {
     "id": "VE-034",
@@ -259,7 +266,8 @@
     "country": "VE",
     "region": "Mérida",
     "domain": "libertador-merida.gob.ve",
-    "osm_relation_id": 3448255
+    "osm_relation_id": 3448255,
+    "population": 217537
   },
   {
     "id": "VE-035",
@@ -267,7 +275,8 @@
     "country": "VE",
     "region": "Sucre",
     "domain": "libertador-sucre.gov.ve",
-    "osm_relation_id": 5803420
+    "osm_relation_id": 5803420,
+    "population": 217537
   },
   {
     "id": "VE-036",
@@ -275,7 +284,8 @@
     "country": "VE",
     "region": "Capital District",
     "domain": "caracas.gob.ve",
-    "osm_relation_id": 3321735
+    "osm_relation_id": 3321735,
+    "population": 1943901
   },
   {
     "id": "VE-037",
@@ -343,7 +353,8 @@
     "country": "VE",
     "region": "Miranda",
     "domain": "acevedo-miranda.gob.ve",
-    "osm_relation_id": 3356595
+    "osm_relation_id": 3356595,
+    "population": 87371
   },
   {
     "id": "VE-046",
@@ -351,7 +362,8 @@
     "country": "VE",
     "region": "Apure",
     "domain": "",
-    "osm_relation_id": 3419320
+    "osm_relation_id": 3419320,
+    "population": 58516
   },
   {
     "id": "VE-047",
@@ -359,7 +371,8 @@
     "country": "VE",
     "region": "Falcón",
     "domain": "",
-    "osm_relation_id": 3460133
+    "osm_relation_id": 3460133,
+    "population": 18218
   },
   {
     "id": "VE-048",
@@ -367,7 +380,8 @@
     "country": "VE",
     "region": "Monagas",
     "domain": "acosta-monagas.gob.ve",
-    "osm_relation_id": 11089539
+    "osm_relation_id": 11089539,
+    "population": 18218
   },
   {
     "id": "VE-049",
@@ -375,7 +389,8 @@
     "country": "VE",
     "region": "Monagas",
     "domain": "",
-    "osm_relation_id": 11089543
+    "osm_relation_id": 11089543,
+    "population": 11856
   },
   {
     "id": "VE-050",
@@ -383,7 +398,8 @@
     "country": "VE",
     "region": "Zulia",
     "domain": "",
-    "osm_relation_id": 3447436
+    "osm_relation_id": 3447436,
+    "population": 11929
   },
   {
     "id": "VE-051",
@@ -391,7 +407,8 @@
     "country": "VE",
     "region": "Anzoátegui",
     "domain": "",
-    "osm_relation_id": 10962008
+    "osm_relation_id": 10962008,
+    "population": 122634
   },
   {
     "id": "VE-052",
@@ -399,7 +416,8 @@
     "country": "VE",
     "region": "Táchira",
     "domain": "andresbello-tachira.gob.ve",
-    "osm_relation_id": 3326458
+    "osm_relation_id": 3326458,
+    "population": 20358
   },
   {
     "id": "VE-053",
@@ -407,7 +425,8 @@
     "country": "VE",
     "region": "Miranda",
     "domain": "andresbello-miranda.gob.ve",
-    "osm_relation_id": 3356958
+    "osm_relation_id": 3356958,
+    "population": 20981
   },
   {
     "id": "VE-054",
@@ -415,7 +434,8 @@
     "country": "VE",
     "region": "Lara",
     "domain": "andreseloyblanco.gob.ve",
-    "osm_relation_id": 3919033
+    "osm_relation_id": 3919033,
+    "population": 47245
   },
   {
     "id": "VE-055",
@@ -423,7 +443,8 @@
     "country": "VE",
     "region": "Barinas",
     "domain": "andreseloyblanco-barinas.gob.ve",
-    "osm_relation_id": 8383371
+    "osm_relation_id": 8383371,
+    "population": 16144
   },
   {
     "id": "VE-056",
@@ -431,7 +452,8 @@
     "country": "VE",
     "region": "Bolívar",
     "domain": "",
-    "osm_relation_id": 11039541
+    "osm_relation_id": 11039541,
+    "population": 40927
   },
   {
     "id": "VE-057",
@@ -447,7 +469,8 @@
     "country": "VE",
     "region": "Delta Amacuro",
     "domain": "",
-    "osm_relation_id": 11046658
+    "osm_relation_id": 11046658,
+    "population": 26655
   },
   {
     "id": "VE-059",
@@ -455,7 +478,8 @@
     "country": "VE",
     "region": "Táchira",
     "domain": "",
-    "osm_relation_id": 3325382
+    "osm_relation_id": 3325382,
+    "population": 10061
   },
   {
     "id": "VE-060",
@@ -463,7 +487,8 @@
     "country": "VE",
     "region": "Cojedes",
     "domain": "anzoategui-cojedes.gob.ve",
-    "osm_relation_id": 11043137
+    "osm_relation_id": 11043137,
+    "population": 17030
   },
   {
     "id": "VE-061",
@@ -471,7 +496,8 @@
     "country": "VE",
     "region": "Anzoátegui",
     "domain": "aragua-anzoategui.gob.ve",
-    "osm_relation_id": 10962006
+    "osm_relation_id": 10962006,
+    "population": 29168
   },
   {
     "id": "VE-062",
@@ -479,7 +505,8 @@
     "country": "VE",
     "region": "Barinas",
     "domain": "arismendi-barinas.gob.ve",
-    "osm_relation_id": 11027148
+    "osm_relation_id": 11027148,
+    "population": 23727
   },
   {
     "id": "VE-063",
@@ -487,7 +514,8 @@
     "country": "VE",
     "region": "Nueva Esparta",
     "domain": "",
-    "osm_relation_id": 8150245
+    "osm_relation_id": 8150245,
+    "population": 23727
   },
   {
     "id": "VE-064",
@@ -495,7 +523,8 @@
     "country": "VE",
     "region": "Sucre",
     "domain": "enriocaribe.com",
-    "osm_relation_id": 5740456
+    "osm_relation_id": 5740456,
+    "population": 23727
   },
   {
     "id": "VE-065",
@@ -503,7 +532,8 @@
     "country": "VE",
     "region": "Yaracuy",
     "domain": "aristidesbastidas-yaracuy.gob.ve",
-    "osm_relation_id": 11126516
+    "osm_relation_id": 11126516,
+    "population": 20485
   },
   {
     "id": "VE-066",
@@ -511,7 +541,8 @@
     "country": "VE",
     "region": "Amazonas",
     "domain": "",
-    "osm_relation_id": 2730906
+    "osm_relation_id": 2730906,
+    "population": 12687
   },
   {
     "id": "VE-067",
@@ -519,7 +550,8 @@
     "country": "VE",
     "region": "Amazonas",
     "domain": "",
-    "osm_relation_id": 2730907
+    "osm_relation_id": 2730907,
+    "population": 9169
   },
   {
     "id": "VE-068",
@@ -527,7 +559,8 @@
     "country": "VE",
     "region": "Amazonas",
     "domain": "atures-amazonas.gob.ve",
-    "osm_relation_id": 2730908
+    "osm_relation_id": 2730908,
+    "population": 104228
   },
   {
     "id": "VE-069",
@@ -535,7 +568,8 @@
     "country": "VE",
     "region": "Amazonas",
     "domain": "",
-    "osm_relation_id": 2730909
+    "osm_relation_id": 2730909,
+    "population": 8352
   },
   {
     "id": "VE-070",
@@ -543,7 +577,8 @@
     "country": "VE",
     "region": "Amazonas",
     "domain": "manapiare-amazonas.gob.ve",
-    "osm_relation_id": 2730910
+    "osm_relation_id": 2730910,
+    "population": 7715
   },
   {
     "id": "VE-071",
@@ -551,7 +586,8 @@
     "country": "VE",
     "region": "Amazonas",
     "domain": "maroa-amazonas.gob.ve",
-    "osm_relation_id": 2730911
+    "osm_relation_id": 2730911,
+    "population": 2029
   },
   {
     "id": "VE-072",
@@ -559,7 +595,8 @@
     "country": "VE",
     "region": "Amazonas",
     "domain": "alcaldiarionegro.gob.ve",
-    "osm_relation_id": 2730912
+    "osm_relation_id": 2730912,
+    "population": 2300
   },
   {
     "id": "VE-073",
@@ -567,7 +604,8 @@
     "country": "VE",
     "region": "Táchira",
     "domain": "",
-    "osm_relation_id": 3322249
+    "osm_relation_id": 3322249,
+    "population": 59335
   },
   {
     "id": "VE-074",
@@ -575,7 +613,8 @@
     "country": "VE",
     "region": "Zulia",
     "domain": "alcaldiadebaralt-zulia.gob.ve",
-    "osm_relation_id": 3447560
+    "osm_relation_id": 3447560,
+    "population": 89847
   },
   {
     "id": "VE-075",
@@ -583,7 +622,8 @@
     "country": "VE",
     "region": "Barinas",
     "domain": "concejomunicipalbarinas.com",
-    "osm_relation_id": 3445109
+    "osm_relation_id": 3445109,
+    "population": 353851
   },
   {
     "id": "VE-076",
@@ -591,7 +631,8 @@
     "country": "VE",
     "region": "Miranda",
     "domain": "comunas.gob.ve",
-    "osm_relation_id": 3335760
+    "osm_relation_id": 3335760,
+    "population": 240755
   },
   {
     "id": "VE-077",
@@ -599,7 +640,8 @@
     "country": "VE",
     "region": "Carabobo",
     "domain": "",
-    "osm_relation_id": 10833251
+    "osm_relation_id": 10833251,
+    "population": 48538
   },
   {
     "id": "VE-078",
@@ -607,7 +649,8 @@
     "country": "VE",
     "region": "Apure",
     "domain": "",
-    "osm_relation_id": 3419321
+    "osm_relation_id": 3419321,
+    "population": 54323
   },
   {
     "id": "VE-079",
@@ -615,7 +658,8 @@
     "country": "VE",
     "region": "Yaracuy",
     "domain": "",
-    "osm_relation_id": 11126519
+    "osm_relation_id": 11126519,
+    "population": 61630
   },
   {
     "id": "VE-080",
@@ -623,7 +667,8 @@
     "country": "VE",
     "region": "Táchira",
     "domain": "alcaldiamunicipiobolivar.gob.ve",
-    "osm_relation_id": 3320843
+    "osm_relation_id": 3320843,
+    "population": 61630
   },
   {
     "id": "VE-081",
@@ -631,7 +676,8 @@
     "country": "VE",
     "region": "Monagas",
     "domain": "bolivar-barinas.gob.ve",
-    "osm_relation_id": 11089537
+    "osm_relation_id": 11089537,
+    "population": 38648
   },
   {
     "id": "VE-082",
@@ -639,7 +685,8 @@
     "country": "VE",
     "region": "Miranda",
     "domain": "simonbolivar-miranda.gob.ve",
-    "osm_relation_id": 3349737
+    "osm_relation_id": 3349737,
+    "population": 42597
   },
   {
     "id": "VE-083",
@@ -647,7 +694,8 @@
     "country": "VE",
     "region": "Aragua",
     "domain": "bolivar-aragua.gob.ve",
-    "osm_relation_id": 2256357
+    "osm_relation_id": 2256357,
+    "population": 38047
   },
   {
     "id": "VE-084",
@@ -655,7 +703,8 @@
     "country": "VE",
     "region": "Barinas",
     "domain": "",
-    "osm_relation_id": 7262467
+    "osm_relation_id": 7262467,
+    "population": 52872
   },
   {
     "id": "VE-085",
@@ -663,7 +712,8 @@
     "country": "VE",
     "region": "Falcón",
     "domain": "bolivar-falcon.gob.ve",
-    "osm_relation_id": 3460083
+    "osm_relation_id": 3460083,
+    "population": 8539
   },
   {
     "id": "VE-086",
@@ -671,7 +721,8 @@
     "country": "VE",
     "region": "Miranda",
     "domain": "brion-miranda.gob.ve",
-    "osm_relation_id": 3356952
+    "osm_relation_id": 3356952,
+    "population": 58940
   },
   {
     "id": "VE-087",
@@ -679,7 +730,8 @@
     "country": "VE",
     "region": "Anzoátegui",
     "domain": "manuelbruzual-anzoategui.gob.ve",
-    "osm_relation_id": 10962002
+    "osm_relation_id": 10962002,
+    "population": 32655
   },
   {
     "id": "VE-088",
@@ -687,7 +739,8 @@
     "country": "VE",
     "region": "Yaracuy",
     "domain": "",
-    "osm_relation_id": 11126510
+    "osm_relation_id": 11126510,
+    "population": 69732
   },
   {
     "id": "VE-089",
@@ -695,7 +748,8 @@
     "country": "VE",
     "region": "Falcón",
     "domain": "buchivacoa-falcon.gov.ve",
-    "osm_relation_id": 3460066
+    "osm_relation_id": 3460066,
+    "population": 22897
   },
   {
     "id": "VE-090",
@@ -703,7 +757,8 @@
     "country": "VE",
     "region": "Miranda",
     "domain": "buroz-miranda.gob.ve",
-    "osm_relation_id": 3372159
+    "osm_relation_id": 3372159,
+    "population": 27515
   },
   {
     "id": "VE-091",
@@ -711,7 +766,8 @@
     "country": "VE",
     "region": "Zulia",
     "domain": "",
-    "osm_relation_id": 3447561
+    "osm_relation_id": 3447561,
+    "population": 263056
   },
   {
     "id": "VE-092",
@@ -719,7 +775,8 @@
     "country": "VE",
     "region": "Falcón",
     "domain": "caciquemanaure-falcon.gov.ve",
-    "osm_relation_id": 3460134
+    "osm_relation_id": 3460134,
+    "population": 10874
   },
   {
     "id": "VE-093",
@@ -727,7 +784,8 @@
     "country": "VE",
     "region": "Anzoátegui",
     "domain": "",
-    "osm_relation_id": 10962004
+    "osm_relation_id": 10962004,
+    "population": 13476
   },
   {
     "id": "VE-094",
@@ -735,7 +793,8 @@
     "country": "VE",
     "region": "Guárico",
     "domain": "camaguan-guarico.gob.ve",
-    "osm_relation_id": 11066377
+    "osm_relation_id": 11066377,
+    "population": 24391
   },
   {
     "id": "VE-095",
@@ -743,7 +802,8 @@
     "country": "VE",
     "region": "Aragua",
     "domain": "web.archive.org",
-    "osm_relation_id": 11023949
+    "osm_relation_id": 11023949,
+    "population": 16627
   },
   {
     "id": "VE-096",
@@ -758,7 +818,8 @@
     "country": "VE",
     "region": "Monagas",
     "domain": "monagas.gob.ve",
-    "osm_relation_id": 11089538
+    "osm_relation_id": 11089538,
+    "population": 33738
   },
   {
     "id": "VE-098",
@@ -766,7 +827,8 @@
     "country": "VE",
     "region": "Falcón",
     "domain": "carirubana-falcon.gob.ve",
-    "osm_relation_id": 3460146
+    "osm_relation_id": 3460146,
+    "population": 239444
   },
   {
     "id": "VE-099",
@@ -774,7 +836,8 @@
     "country": "VE",
     "region": "Carabobo",
     "domain": "carlosarvelo-carabobo.gov.ve",
-    "osm_relation_id": 10833249
+    "osm_relation_id": 10833249,
+    "population": 150277
   },
   {
     "id": "VE-100",
@@ -782,7 +845,8 @@
     "country": "VE",
     "region": "Bolívar",
     "domain": "alcaldiacaroni.gob.ve",
-    "osm_relation_id": 11039535
+    "osm_relation_id": 11039535,
+    "population": 706736
   },
   {
     "id": "VE-101",
@@ -790,7 +854,8 @@
     "country": "VE",
     "region": "Miranda",
     "domain": "carrizal-miranda.gob.ve",
-    "osm_relation_id": 2458069
+    "osm_relation_id": 2458069,
+    "population": 51712
   },
   {
     "id": "VE-102",
@@ -798,7 +863,8 @@
     "country": "VE",
     "region": "Anzoátegui",
     "domain": "francisco-anzoategui.gob.ve",
-    "osm_relation_id": 10962003
+    "osm_relation_id": 10962003,
+    "population": 14653
   },
   {
     "id": "VE-103",
@@ -806,7 +872,8 @@
     "country": "VE",
     "region": "Delta Amacuro",
     "domain": "casacoima-deltaamacuro.gob.ve",
-    "osm_relation_id": 11046657
+    "osm_relation_id": 11046657,
+    "population": 29555
   },
   {
     "id": "VE-104",
@@ -814,7 +881,8 @@
     "country": "VE",
     "region": "Zulia",
     "domain": "",
-    "osm_relation_id": 3447438
+    "osm_relation_id": 3447438,
+    "population": 40702
   },
   {
     "id": "VE-105",
@@ -822,7 +890,8 @@
     "country": "VE",
     "region": "Bolívar",
     "domain": "cedeno-bolivar.gob.ve",
-    "osm_relation_id": 3417855
+    "osm_relation_id": 3417855,
+    "population": 67000
   },
   {
     "id": "VE-106",
@@ -830,7 +899,8 @@
     "country": "VE",
     "region": "Monagas",
     "domain": "",
-    "osm_relation_id": 11089540
+    "osm_relation_id": 11089540,
+    "population": 34463
   },
   {
     "id": "VE-107",
@@ -838,7 +908,8 @@
     "country": "VE",
     "region": "Miranda",
     "domain": "chacao.gob.ve",
-    "osm_relation_id": 3335672
+    "osm_relation_id": 3335672,
+    "population": 61213
   },
   {
     "id": "VE-108",
@@ -846,7 +917,8 @@
     "country": "VE",
     "region": "Guárico",
     "domain": "chaguaramas-guarico.gov.ve",
-    "osm_relation_id": 11066367
+    "osm_relation_id": 11066367,
+    "population": 12966
   },
   {
     "id": "VE-109",
@@ -854,7 +926,8 @@
     "country": "VE",
     "region": "Yaracuy",
     "domain": "",
-    "osm_relation_id": 11126513
+    "osm_relation_id": 11126513,
+    "population": 41481
   },
   {
     "id": "VE-110",
@@ -862,7 +935,8 @@
     "country": "VE",
     "region": "Falcón",
     "domain": "colina-falcon.gov.ve",
-    "osm_relation_id": 3460147
+    "osm_relation_id": 3460147,
+    "population": 41510
   },
   {
     "id": "VE-111",
@@ -878,7 +952,8 @@
     "country": "VE",
     "region": "Lara",
     "domain": "crespo-lara.gob.ve",
-    "osm_relation_id": 3919034
+    "osm_relation_id": 3919034,
+    "population": 49958
   },
   {
     "id": "VE-113",
@@ -886,7 +961,8 @@
     "country": "VE",
     "region": "Miranda",
     "domain": "cristobalrojas-miranda.gob.ve",
-    "osm_relation_id": 3349738
+    "osm_relation_id": 3349738,
+    "population": 117888
   },
   {
     "id": "VE-114",
@@ -894,7 +970,8 @@
     "country": "VE",
     "region": "Barinas",
     "domain": "cruzparedes-barinas.gob.ve",
-    "osm_relation_id": 7312338
+    "osm_relation_id": 7312338,
+    "population": 26042
   },
   {
     "id": "VE-115",
@@ -902,7 +979,8 @@
     "country": "VE",
     "region": "Táchira",
     "domain": "",
-    "osm_relation_id": 3326501
+    "osm_relation_id": 3326501,
+    "population": 122053
   },
   {
     "id": "VE-116",
@@ -910,7 +988,8 @@
     "country": "VE",
     "region": "Táchira",
     "domain": "alcaldiacordoba.org",
-    "osm_relation_id": 3324561
+    "osm_relation_id": 3324561,
+    "population": 33124
   },
   {
     "id": "VE-117",
@@ -918,7 +997,8 @@
     "country": "VE",
     "region": "Falcón",
     "domain": "dabajuro-falcon.gov.ve",
-    "osm_relation_id": 3460067
+    "osm_relation_id": 3460067,
+    "population": 23388
   },
   {
     "id": "VE-118",
@@ -926,7 +1006,8 @@
     "country": "VE",
     "region": "Falcón",
     "domain": "",
-    "osm_relation_id": 3460068
+    "osm_relation_id": 3460068,
+    "population": 9944
   },
   {
     "id": "VE-119",
@@ -934,7 +1015,8 @@
     "country": "VE",
     "region": "Carabobo",
     "domain": "",
-    "osm_relation_id": 10833248
+    "osm_relation_id": 10833248,
+    "population": 120650
   },
   {
     "id": "VE-120",
@@ -957,7 +1039,8 @@
     "country": "VE",
     "region": "Bolívar",
     "domain": "elcallao-bolivar.gob.ve",
-    "osm_relation_id": 11039539
+    "osm_relation_id": 11039539,
+    "population": 21769
   },
   {
     "id": "VE-123",
@@ -965,7 +1048,8 @@
     "country": "VE",
     "region": "Miranda",
     "domain": "alcaldiaelhatillo.gob.ve",
-    "osm_relation_id": 2458293
+    "osm_relation_id": 2458293,
+    "population": 58156
   },
   {
     "id": "VE-124",
@@ -973,7 +1057,8 @@
     "country": "VE",
     "region": "Cojedes",
     "domain": "",
-    "osm_relation_id": 11043141
+    "osm_relation_id": 11043141,
+    "population": 16810
   },
   {
     "id": "VE-125",
@@ -981,7 +1066,8 @@
     "country": "VE",
     "region": "Guárico",
     "domain": "",
-    "osm_relation_id": 11066373
+    "osm_relation_id": 11066373,
+    "population": 17097
   },
   {
     "id": "VE-126",
@@ -989,7 +1075,8 @@
     "country": "VE",
     "region": "Monagas",
     "domain": "",
-    "osm_relation_id": 11089541
+    "osm_relation_id": 11089541,
+    "population": 62751
   },
   {
     "id": "VE-127",
@@ -997,7 +1084,8 @@
     "country": "VE",
     "region": "Falcón",
     "domain": "falcon-falcon.gov.ve",
-    "osm_relation_id": 3460148
+    "osm_relation_id": 3460148,
+    "population": 46215
   },
   {
     "id": "VE-128",
@@ -1005,7 +1093,8 @@
     "country": "VE",
     "region": "Falcón",
     "domain": "",
-    "osm_relation_id": 3460084
+    "osm_relation_id": 3460084,
+    "population": 29251
   },
   {
     "id": "VE-129",
@@ -1013,7 +1102,8 @@
     "country": "VE",
     "region": "Anzoátegui",
     "domain": "fernando-anzoategui.gob.ve",
-    "osm_relation_id": 10961996
+    "osm_relation_id": 10961996,
+    "population": 33437
   },
   {
     "id": "VE-130",
@@ -1021,7 +1111,8 @@
     "country": "VE",
     "region": "Táchira",
     "domain": "",
-    "osm_relation_id": 3324593
+    "osm_relation_id": 3324593,
+    "population": 45891
   },
   {
     "id": "VE-131",
@@ -1029,7 +1120,8 @@
     "country": "VE",
     "region": "Guárico",
     "domain": "",
-    "osm_relation_id": 11066379
+    "osm_relation_id": 11066379,
+    "population": 141987
   },
   {
     "id": "VE-132",
@@ -1037,7 +1129,8 @@
     "country": "VE",
     "region": "Anzoátegui",
     "domain": "pedrofreites-anzoategui.gob.ve",
-    "osm_relation_id": 10962009
+    "osm_relation_id": 10962009,
+    "population": 73121
   },
   {
     "id": "VE-133",
@@ -1053,7 +1146,8 @@
     "country": "VE",
     "region": "Táchira",
     "domain": "garciadehevia-tachira.gob.ve",
-    "osm_relation_id": 3325384
+    "osm_relation_id": 3325384,
+    "population": 48476
   },
   {
     "id": "VE-135",
@@ -1061,7 +1155,8 @@
     "country": "VE",
     "region": "Aragua",
     "domain": "girardot-aragua.gob.ve",
-    "osm_relation_id": 2689580
+    "osm_relation_id": 2689580,
+    "population": 407109
   },
   {
     "id": "VE-136",
@@ -1069,7 +1164,8 @@
     "country": "VE",
     "region": "Cojedes",
     "domain": "",
-    "osm_relation_id": 11043142
+    "osm_relation_id": 11043142,
+    "population": 11906
   },
   {
     "id": "VE-137",
@@ -1077,7 +1173,8 @@
     "country": "VE",
     "region": "Bolívar",
     "domain": "",
-    "osm_relation_id": 3418068
+    "osm_relation_id": 3418068,
+    "population": 28450
   },
   {
     "id": "VE-138",
@@ -1085,7 +1182,8 @@
     "country": "VE",
     "region": "Carabobo",
     "domain": "diegoibarra-carabobo.gob.ve",
-    "osm_relation_id": 10833246
+    "osm_relation_id": 10833246,
+    "population": 176218
   },
   {
     "id": "VE-139",
@@ -1093,7 +1191,8 @@
     "country": "VE",
     "region": "Miranda",
     "domain": "guaicaipuro-miranda.gob.ve",
-    "osm_relation_id": 3337388
+    "osm_relation_id": 3337388,
+    "population": 252242
   },
   {
     "id": "VE-140",
@@ -1101,7 +1200,8 @@
     "country": "VE",
     "region": "Anzoátegui",
     "domain": "",
-    "osm_relation_id": 10962011
+    "osm_relation_id": 10962011,
+    "population": 76398
   },
   {
     "id": "VE-141",
@@ -1109,7 +1209,8 @@
     "country": "VE",
     "region": "Anzoátegui",
     "domain": "",
-    "osm_relation_id": 10961998
+    "osm_relation_id": 10961998,
+    "population": 30891
   },
   {
     "id": "VE-142",
@@ -1117,7 +1218,8 @@
     "country": "VE",
     "region": "Guárico",
     "domain": "guaribe.com.ve",
-    "osm_relation_id": 11066369
+    "osm_relation_id": 11066369,
+    "population": 11426
   },
   {
     "id": "VE-143",
@@ -1125,7 +1227,8 @@
     "country": "VE",
     "region": "Guárico",
     "domain": "",
-    "osm_relation_id": 11066376
+    "osm_relation_id": 11066376,
+    "population": 20206
   },
   {
     "id": "VE-144",
@@ -1133,7 +1236,8 @@
     "country": "VE",
     "region": "Táchira",
     "domain": "",
-    "osm_relation_id": 3326533
+    "osm_relation_id": 3326533,
+    "population": 43236
   },
   {
     "id": "VE-145",
@@ -1149,7 +1253,8 @@
     "country": "VE",
     "region": "Bolívar",
     "domain": "",
-    "osm_relation_id": 11039534
+    "osm_relation_id": 11039534,
+    "population": 342280
   },
   {
     "id": "VE-147",
@@ -1157,7 +1262,8 @@
     "country": "VE",
     "region": "Yaracuy",
     "domain": "alcaldiadeindependencia.gob.ve",
-    "osm_relation_id": 11126512
+    "osm_relation_id": 11126512,
+    "population": 57811
   },
   {
     "id": "VE-148",
@@ -1165,7 +1271,8 @@
     "country": "VE",
     "region": "Miranda",
     "domain": "independencia-miranda.gob.ve",
-    "osm_relation_id": 3349736
+    "osm_relation_id": 3349736,
+    "population": 138776
   },
   {
     "id": "VE-149",
@@ -1173,7 +1280,8 @@
     "country": "VE",
     "region": "Táchira",
     "domain": "independencia-tachira.gob.ve",
-    "osm_relation_id": 3325359
+    "osm_relation_id": 3325359,
+    "population": 36964
   },
   {
     "id": "VE-150",
@@ -1181,7 +1289,8 @@
     "country": "VE",
     "region": "Anzoátegui",
     "domain": "independencia-anzoategui.gob.ve",
-    "osm_relation_id": 10962012
+    "osm_relation_id": 10962012,
+    "population": 30016
   },
   {
     "id": "VE-151",
@@ -1189,7 +1298,8 @@
     "country": "VE",
     "region": "Guárico",
     "domain": "",
-    "osm_relation_id": 11066374
+    "osm_relation_id": 11066374,
+    "population": 120889
   },
   {
     "id": "VE-152",
@@ -1197,7 +1307,8 @@
     "country": "VE",
     "region": "Guárico",
     "domain": "",
-    "osm_relation_id": 11066372
+    "osm_relation_id": 11066372,
+    "population": 13161
   },
   {
     "id": "VE-153",
@@ -1213,7 +1324,8 @@
     "country": "VE",
     "region": "Lara",
     "domain": "iribarren-lara.gob.ve",
-    "osm_relation_id": 3919035
+    "osm_relation_id": 3919035,
+    "population": 996230
   },
   {
     "id": "VE-155",
@@ -1221,7 +1333,8 @@
     "country": "VE",
     "region": "Falcón",
     "domain": "jacura-falcon.gov.ve",
-    "osm_relation_id": 3460085
+    "osm_relation_id": 3460085,
+    "population": 11232
   },
   {
     "id": "VE-156",
@@ -1229,7 +1342,8 @@
     "country": "VE",
     "region": "Zulia",
     "domain": "",
-    "osm_relation_id": 3447440
+    "osm_relation_id": 3447440,
+    "population": 33942
   },
   {
     "id": "VE-157",
@@ -1237,7 +1351,8 @@
     "country": "VE",
     "region": "Lara",
     "domain": "jimenez-lara.gob.ve",
-    "osm_relation_id": 3919036
+    "osm_relation_id": 3919036,
+    "population": 100997
   },
   {
     "id": "VE-158",
@@ -1245,7 +1360,8 @@
     "country": "VE",
     "region": "Aragua",
     "domain": "",
-    "osm_relation_id": 11023950
+    "osm_relation_id": 11023950,
+    "population": 25540
   },
   {
     "id": "VE-159",
@@ -1260,7 +1376,8 @@
     "country": "VE",
     "region": "Guárico",
     "domain": "alcaldiajulianmellado.com.ve",
-    "osm_relation_id": 11066366
+    "osm_relation_id": 11066366,
+    "population": 27664
   },
   {
     "id": "VE-161",
@@ -1268,7 +1385,8 @@
     "country": "VE",
     "region": "Táchira",
     "domain": "",
-    "osm_relation_id": 3324562
+    "osm_relation_id": 3324562,
+    "population": 80680
   },
   {
     "id": "VE-162",
@@ -1276,7 +1394,8 @@
     "country": "VE",
     "region": "Táchira",
     "domain": "",
-    "osm_relation_id": 3326211
+    "osm_relation_id": 3326211,
+    "population": 41000
   },
   {
     "id": "VE-163",
@@ -1284,7 +1403,8 @@
     "country": "VE",
     "region": "Zulia",
     "domain": "alcaldiadeudta.blogspot.com",
-    "osm_relation_id": 3447443
+    "osm_relation_id": 3447443,
+    "population": 82210
   },
   {
     "id": "VE-164",
@@ -1299,7 +1419,8 @@
     "country": "VE",
     "region": "Zulia",
     "domain": "",
-    "osm_relation_id": 3447447
+    "osm_relation_id": 3447447,
+    "population": 65545
   },
   {
     "id": "VE-166",
@@ -1314,7 +1435,8 @@
     "country": "VE",
     "region": "Zulia",
     "domain": "",
-    "osm_relation_id": 3447562
+    "osm_relation_id": 3447562,
+    "population": 203435
   },
   {
     "id": "VE-168",
@@ -1322,7 +1444,8 @@
     "country": "VE",
     "region": "Aragua",
     "domain": "",
-    "osm_relation_id": 11023954
+    "osm_relation_id": 11023954,
+    "population": 32981
   },
   {
     "id": "VE-169",
@@ -1330,7 +1453,8 @@
     "country": "VE",
     "region": "Miranda",
     "domain": "lander-miranda.gob.ve",
-    "osm_relation_id": 3349785
+    "osm_relation_id": 3349785,
+    "population": 144947
   },
   {
     "id": "VE-170",
@@ -1338,7 +1462,8 @@
     "country": "VE",
     "region": "Guárico",
     "domain": "lasmercedes-guarico.gob.ve",
-    "osm_relation_id": 11066375
+    "osm_relation_id": 11066375,
+    "population": 33025
   },
   {
     "id": "VE-171",
@@ -1346,7 +1471,8 @@
     "country": "VE",
     "region": "Táchira",
     "domain": "libertad-tachira.gob.ve",
-    "osm_relation_id": 3324579
+    "osm_relation_id": 3324579,
+    "population": 50011
   },
   {
     "id": "VE-172",
@@ -1354,14 +1480,16 @@
     "country": "VE",
     "region": "Anzoátegui",
     "domain": "libertad-anzoategui.gob.ve",
-    "osm_relation_id": 10962001
+    "osm_relation_id": 10962001,
+    "population": 14437
   },
   {
     "id": "VE-173",
     "name": "Municipio Libertador",
     "country": "VE",
     "region": "",
-    "domain": ""
+    "domain": "",
+    "population": 166166
   },
   {
     "id": "VE-174",
@@ -1369,7 +1497,8 @@
     "country": "VE",
     "region": "Monagas",
     "domain": "libertador-monagas.gov.ve",
-    "osm_relation_id": 11089546
+    "osm_relation_id": 11089546,
+    "population": 45274
   },
   {
     "id": "VE-175",
@@ -1377,7 +1506,8 @@
     "country": "VE",
     "region": "Aragua",
     "domain": "libertador-aragua.gob.ve",
-    "osm_relation_id": 11023955
+    "osm_relation_id": 11023955,
+    "population": 114355
   },
   {
     "id": "VE-176",
@@ -1385,7 +1515,8 @@
     "country": "VE",
     "region": "Táchira",
     "domain": "",
-    "osm_relation_id": 3325982
+    "osm_relation_id": 3325982,
+    "population": 22464
   },
   {
     "id": "VE-177",
@@ -1393,7 +1524,8 @@
     "country": "VE",
     "region": "Carabobo",
     "domain": "libertador-carabobo.gov.ve",
-    "osm_relation_id": 10833240
+    "osm_relation_id": 10833240,
+    "population": 166166
   },
   {
     "id": "VE-178",
@@ -1401,7 +1533,8 @@
     "country": "VE",
     "region": "Cojedes",
     "domain": "limablanco-cojedes.gob.ve",
-    "osm_relation_id": 11043135
+    "osm_relation_id": 11043135,
+    "population": 9454
   },
   {
     "id": "VE-179",
@@ -1409,7 +1542,8 @@
     "country": "VE",
     "region": "Aragua",
     "domain": "franciscolinaresalcantara-aragua.gob.ve",
-    "osm_relation_id": 11023956
+    "osm_relation_id": 11023956,
+    "population": 123122
   },
   {
     "id": "VE-180",
@@ -1417,7 +1551,8 @@
     "country": "VE",
     "region": "Táchira",
     "domain": "lobatera-tachira.gob.ve",
-    "osm_relation_id": 3324630
+    "osm_relation_id": 3324630,
+    "population": 13558
   },
   {
     "id": "VE-181",
@@ -1425,7 +1560,8 @@
     "country": "VE",
     "region": "Carabobo",
     "domain": "losguayos-carabobo.gov.ve",
-    "osm_relation_id": 10833244
+    "osm_relation_id": 10833244,
+    "population": 149606
   },
   {
     "id": "VE-182",
@@ -1433,7 +1569,8 @@
     "country": "VE",
     "region": "Miranda",
     "domain": "alcaldialossalias.gov.ve",
-    "osm_relation_id": 3337496
+    "osm_relation_id": 3337496,
+    "population": 68255
   },
   {
     "id": "VE-183",
@@ -1441,7 +1578,8 @@
     "country": "VE",
     "region": "Falcón",
     "domain": "lostaques-falcon.gov.ve",
-    "osm_relation_id": 3460149
+    "osm_relation_id": 3460149,
+    "population": 41579
   },
   {
     "id": "VE-184",
@@ -1449,7 +1587,8 @@
     "country": "VE",
     "region": "Zulia",
     "domain": "",
-    "osm_relation_id": 3447441
+    "osm_relation_id": 3447441,
+    "population": 118756
   },
   {
     "id": "VE-185",
@@ -1465,7 +1604,8 @@
     "country": "VE",
     "region": "Zulia",
     "domain": "",
-    "osm_relation_id": 3447444
+    "osm_relation_id": 3447444,
+    "population": 122734
   },
   {
     "id": "VE-187",
@@ -1473,7 +1613,8 @@
     "country": "VE",
     "region": "Táchira",
     "domain": "samuelmaldonado-tachira.gob.ve",
-    "osm_relation_id": 3325398
+    "osm_relation_id": 3325398,
+    "population": 17911
   },
   {
     "id": "VE-188",
@@ -1489,7 +1630,8 @@
     "country": "VE",
     "region": "Yaracuy",
     "domain": "manuelmonge-yaracuy.gob.ve",
-    "osm_relation_id": 11126520
+    "osm_relation_id": 11126520,
+    "population": 13180
   },
   {
     "id": "VE-190",
@@ -1497,7 +1639,8 @@
     "country": "VE",
     "region": "Zulia",
     "domain": "alcaldiademara.gob.ve",
-    "osm_relation_id": 3447445
+    "osm_relation_id": 3447445,
+    "population": 207221
   },
   {
     "id": "VE-191",
@@ -1505,7 +1648,8 @@
     "country": "VE",
     "region": "Zulia",
     "domain": "",
-    "osm_relation_id": 3447446
+    "osm_relation_id": 3447446,
+    "population": 1459448
   },
   {
     "id": "VE-192",
@@ -1521,7 +1665,8 @@
     "country": "VE",
     "region": "Aragua",
     "domain": "santiagomarino-aragua.gob.ve",
-    "osm_relation_id": 9998350
+    "osm_relation_id": 9998350,
+    "population": 211010
   },
   {
     "id": "VE-194",
@@ -1529,7 +1674,8 @@
     "country": "VE",
     "region": "Nueva Esparta",
     "domain": "alcaldiasantiagomarino.gob.ve",
-    "osm_relation_id": 8150247
+    "osm_relation_id": 8150247,
+    "population": 211010
   },
   {
     "id": "VE-195",
@@ -1537,7 +1683,8 @@
     "country": "VE",
     "region": "Monagas",
     "domain": "",
-    "osm_relation_id": 11089544
+    "osm_relation_id": 11089544,
+    "population": 542259
   },
   {
     "id": "VE-196",
@@ -1545,7 +1692,8 @@
     "country": "VE",
     "region": "Falcón",
     "domain": "mauroa-falcon.gov.ve",
-    "osm_relation_id": 3460069
+    "osm_relation_id": 3460069,
+    "population": 24920
   },
   {
     "id": "VE-197",
@@ -1553,7 +1701,8 @@
     "country": "VE",
     "region": "Táchira",
     "domain": "",
-    "osm_relation_id": 3325371
+    "osm_relation_id": 3325371,
+    "population": 19547
   },
   {
     "id": "VE-198",
@@ -1561,7 +1710,8 @@
     "country": "VE",
     "region": "Zulia",
     "domain": "",
-    "osm_relation_id": 3447563
+    "osm_relation_id": 3447563,
+    "population": 97463
   },
   {
     "id": "VE-199",
@@ -1569,7 +1719,8 @@
     "country": "VE",
     "region": "Anzoátegui",
     "domain": "franciscodemiranda-anzoategui.gob.ve",
-    "osm_relation_id": 10928384
+    "osm_relation_id": 10928384,
+    "population": 43173
   },
   {
     "id": "VE-200",
@@ -1577,7 +1728,8 @@
     "country": "VE",
     "region": "Carabobo",
     "domain": "miranda-carabobo.gob.ve",
-    "osm_relation_id": 10833253
+    "osm_relation_id": 10833253,
+    "population": 29092
   },
   {
     "id": "VE-201",
@@ -1585,7 +1737,8 @@
     "country": "VE",
     "region": "Falcón",
     "domain": "alcaldiademiranda.gov.ve",
-    "osm_relation_id": 3460135
+    "osm_relation_id": 3460135,
+    "population": 211537
   },
   {
     "id": "VE-202",
@@ -1593,7 +1746,8 @@
     "country": "VE",
     "region": "Táchira",
     "domain": "",
-    "osm_relation_id": 3326502
+    "osm_relation_id": 3326502,
+    "population": 4127
   },
   {
     "id": "VE-203",
@@ -1601,7 +1755,8 @@
     "country": "VE",
     "region": "Guárico",
     "domain": "",
-    "osm_relation_id": 11066368
+    "osm_relation_id": 11066368,
+    "population": 74559
   },
   {
     "id": "VE-204",
@@ -1609,7 +1764,8 @@
     "country": "VE",
     "region": "Anzoátegui",
     "domain": "josegregoriomonagas-anzoategui.gob.ve",
-    "osm_relation_id": 10928385
+    "osm_relation_id": 10928385,
+    "population": 17534
   },
   {
     "id": "VE-205",
@@ -1617,7 +1773,8 @@
     "country": "VE",
     "region": "Falcón",
     "domain": "",
-    "osm_relation_id": 3460086
+    "osm_relation_id": 3460086,
+    "population": 19300
   },
   {
     "id": "VE-206",
@@ -1625,7 +1782,8 @@
     "country": "VE",
     "region": "Carabobo",
     "domain": "montalban-carabobo.gob.ve",
-    "osm_relation_id": 10833252
+    "osm_relation_id": 10833252,
+    "population": 24908
   },
   {
     "id": "VE-207",
@@ -1640,7 +1798,8 @@
     "country": "VE",
     "region": "Carabobo",
     "domain": "juanjosemora-carabobo.gob.ve",
-    "osm_relation_id": 9997544
+    "osm_relation_id": 9997544,
+    "population": 69236
   },
   {
     "id": "VE-209",
@@ -1648,7 +1807,8 @@
     "country": "VE",
     "region": "Lara",
     "domain": "moran-lara.gob.ve",
-    "osm_relation_id": 3933338
+    "osm_relation_id": 3933338,
+    "population": 123880
   },
   {
     "id": "VE-210",
@@ -1656,7 +1816,8 @@
     "country": "VE",
     "region": "Apure",
     "domain": "munoz-apure.gob.ve",
-    "osm_relation_id": 3419322
+    "osm_relation_id": 3419322,
+    "population": 27542
   },
   {
     "id": "VE-211",
@@ -1664,7 +1825,8 @@
     "country": "VE",
     "region": "Carabobo",
     "domain": "",
-    "osm_relation_id": 10833250
+    "osm_relation_id": 10833250,
+    "population": 157437
   },
   {
     "id": "VE-212",
@@ -1672,7 +1834,8 @@
     "country": "VE",
     "region": "Yaracuy",
     "domain": "",
-    "osm_relation_id": 11126507
+    "osm_relation_id": 11126507,
+    "population": 58932
   },
   {
     "id": "VE-213",
@@ -1680,7 +1843,8 @@
     "country": "VE",
     "region": "Barinas",
     "domain": "obispos-barinas.gob.ve",
-    "osm_relation_id": 8500041
+    "osm_relation_id": 8500041,
+    "population": 37493
   },
   {
     "id": "VE-214",
@@ -1688,7 +1852,8 @@
     "country": "VE",
     "region": "Aragua",
     "domain": "ocumare-aragua.gob.ve",
-    "osm_relation_id": 9998351
+    "osm_relation_id": 9998351,
+    "population": 12816
   },
   {
     "id": "VE-215",
@@ -1696,7 +1861,8 @@
     "country": "VE",
     "region": "Guárico",
     "domain": "municipioortiz.com",
-    "osm_relation_id": 11066378
+    "osm_relation_id": 11066378,
+    "population": 23755
   },
   {
     "id": "VE-216",
@@ -1704,7 +1870,8 @@
     "country": "VE",
     "region": "Bolívar",
     "domain": "padrepedrochien-bolivar.gob.ve",
-    "osm_relation_id": 11039536
+    "osm_relation_id": 11039536,
+    "population": 15488
   },
   {
     "id": "VE-217",
@@ -1712,7 +1879,8 @@
     "country": "VE",
     "region": "Lara",
     "domain": "palavecino-lara.gob.ve",
-    "osm_relation_id": 3919037
+    "osm_relation_id": 3919037,
+    "population": 174099
   },
   {
     "id": "VE-218",
@@ -1720,7 +1888,8 @@
     "country": "VE",
     "region": "Falcón",
     "domain": "palmasola-falcon.gov.ve",
-    "osm_relation_id": 3460087
+    "osm_relation_id": 3460087,
+    "population": 7077
   },
   {
     "id": "VE-219",
@@ -1728,7 +1897,8 @@
     "country": "VE",
     "region": "Táchira",
     "domain": "panamericano-tachira.gob.ve",
-    "osm_relation_id": 3325390
+    "osm_relation_id": 3325390,
+    "population": 32180
   },
   {
     "id": "VE-220",
@@ -1736,7 +1906,8 @@
     "country": "VE",
     "region": "Miranda",
     "domain": "pazcastillo-miranda.gob.ve",
-    "osm_relation_id": 3339667
+    "osm_relation_id": 3339667,
+    "population": 111197
   },
   {
     "id": "VE-221",
@@ -1744,7 +1915,8 @@
     "country": "VE",
     "region": "Delta Amacuro",
     "domain": "",
-    "osm_relation_id": 6924971
+    "osm_relation_id": 6924971,
+    "population": 6438
   },
   {
     "id": "VE-222",
@@ -1752,7 +1924,8 @@
     "country": "VE",
     "region": "Barinas",
     "domain": "",
-    "osm_relation_id": 8383424
+    "osm_relation_id": 8383424,
+    "population": 58822
   },
   {
     "id": "VE-223",
@@ -1760,7 +1933,8 @@
     "country": "VE",
     "region": "Apure",
     "domain": "",
-    "osm_relation_id": 3419323
+    "osm_relation_id": 3419323,
+    "population": 28966
   },
   {
     "id": "VE-224",
@@ -1768,7 +1942,8 @@
     "country": "VE",
     "region": "Miranda",
     "domain": "pedrogual-miranda.gob.ve",
-    "osm_relation_id": 3356996
+    "osm_relation_id": 3356996,
+    "population": 21831
   },
   {
     "id": "VE-225",
@@ -1776,7 +1951,8 @@
     "country": "VE",
     "region": "Falcón",
     "domain": "",
-    "osm_relation_id": 3460088
+    "osm_relation_id": 3460088,
+    "population": 13725
   },
   {
     "id": "VE-226",
@@ -1784,14 +1960,16 @@
     "country": "VE",
     "region": "Yaracuy",
     "domain": "pena-yaracuy.gob.ve",
-    "osm_relation_id": 11126511
+    "osm_relation_id": 11126511,
+    "population": 101620
   },
   {
     "id": "VE-227",
     "name": "Municipio Piar",
     "country": "VE",
     "region": "",
-    "domain": ""
+    "domain": "",
+    "population": 98274
   },
   {
     "id": "VE-228",
@@ -1799,7 +1977,8 @@
     "country": "VE",
     "region": "Monagas",
     "domain": "",
-    "osm_relation_id": 11089535
+    "osm_relation_id": 11089535,
+    "population": 46610
   },
   {
     "id": "VE-229",
@@ -1807,7 +1986,8 @@
     "country": "VE",
     "region": "Bolívar",
     "domain": "",
-    "osm_relation_id": 11039537
+    "osm_relation_id": 11039537,
+    "population": 98274
   },
   {
     "id": "VE-230",
@@ -1815,7 +1995,8 @@
     "country": "VE",
     "region": "Miranda",
     "domain": "plaza-miranda.gob.ve",
-    "osm_relation_id": 3349941
+    "osm_relation_id": 3349941,
+    "population": 209987
   },
   {
     "id": "VE-231",
@@ -1823,7 +2004,8 @@
     "country": "VE",
     "region": "Carabobo",
     "domain": "",
-    "osm_relation_id": 2689581
+    "osm_relation_id": 2689581,
+    "population": 182493
   },
   {
     "id": "VE-232",
@@ -1831,7 +2013,8 @@
     "country": "VE",
     "region": "Monagas",
     "domain": "",
-    "osm_relation_id": 11089536
+    "osm_relation_id": 11089536,
+    "population": 27954
   },
   {
     "id": "VE-233",
@@ -1839,7 +2022,8 @@
     "country": "VE",
     "region": "Miranda",
     "domain": "paez-miranda.gob.ve",
-    "osm_relation_id": 3356959
+    "osm_relation_id": 3356959,
+    "population": 37944
   },
   {
     "id": "VE-234",
@@ -1847,7 +2031,8 @@
     "country": "VE",
     "region": "Barinas",
     "domain": "",
-    "osm_relation_id": 16946496
+    "osm_relation_id": 16946496,
+    "population": 6568
   },
   {
     "id": "VE-235",
@@ -1855,7 +2040,8 @@
     "country": "VE",
     "region": "Yaracuy",
     "domain": "joseantoniopaez-yaracuy.gob.ve",
-    "osm_relation_id": 11126517
+    "osm_relation_id": 11126517,
+    "population": 19673
   },
   {
     "id": "VE-236",
@@ -1863,7 +2049,8 @@
     "country": "VE",
     "region": "Apure",
     "domain": "paez-apure.gob.ve",
-    "osm_relation_id": 3419300
+    "osm_relation_id": 3419300,
+    "population": 100125
   },
   {
     "id": "VE-237",
@@ -1871,7 +2058,8 @@
     "country": "VE",
     "region": "Falcón",
     "domain": "",
-    "osm_relation_id": 3460136
+    "osm_relation_id": 3460136,
+    "population": 10628
   },
   {
     "id": "VE-238",
@@ -1879,7 +2067,8 @@
     "country": "VE",
     "region": "Anzoátegui",
     "domain": "",
-    "osm_relation_id": 10961994
+    "osm_relation_id": 10961994,
+    "population": 23248
   },
   {
     "id": "VE-239",
@@ -1894,7 +2083,8 @@
     "country": "VE",
     "region": "Aragua",
     "domain": "joserafaelrevenga-aragua.gob.ve",
-    "osm_relation_id": 2256364
+    "osm_relation_id": 2256364,
+    "population": 48800
   },
   {
     "id": "VE-241",
@@ -1902,7 +2092,8 @@
     "country": "VE",
     "region": "Aragua",
     "domain": "",
-    "osm_relation_id": 2256363
+    "osm_relation_id": 2256363,
+    "population": 143501
   },
   {
     "id": "VE-242",
@@ -1910,7 +2101,8 @@
     "country": "VE",
     "region": "Guárico",
     "domain": "ribas-guarico.gob.ve",
-    "osm_relation_id": 11066370
+    "osm_relation_id": 11066370,
+    "population": 38408
   },
   {
     "id": "VE-243",
@@ -1918,7 +2110,8 @@
     "country": "VE",
     "region": "Cojedes",
     "domain": "ricaurte-cojedes.gob.ve",
-    "osm_relation_id": 11043138
+    "osm_relation_id": 11043138,
+    "population": 12657
   },
   {
     "id": "VE-244",
@@ -1926,7 +2119,8 @@
     "country": "VE",
     "region": "Barinas",
     "domain": "rojas-barinas.gob.ve",
-    "osm_relation_id": 8547415
+    "osm_relation_id": 8547415,
+    "population": 40126
   },
   {
     "id": "VE-245",
@@ -1934,7 +2128,8 @@
     "country": "VE",
     "region": "Zulia",
     "domain": "",
-    "osm_relation_id": 3447448
+    "osm_relation_id": 3447448,
+    "population": 85006
   },
   {
     "id": "VE-246",
@@ -1942,7 +2137,8 @@
     "country": "VE",
     "region": "Bolívar",
     "domain": "",
-    "osm_relation_id": 11039538
+    "osm_relation_id": 11039538,
+    "population": 21750
   },
   {
     "id": "VE-247",
@@ -1950,7 +2146,8 @@
     "country": "VE",
     "region": "Guárico",
     "domain": "",
-    "osm_relation_id": 11066365
+    "osm_relation_id": 11066365,
+    "population": 126178
   },
   {
     "id": "VE-248",
@@ -1958,7 +2155,8 @@
     "country": "VE",
     "region": "Cojedes",
     "domain": "",
-    "osm_relation_id": 11043139
+    "osm_relation_id": 11043139,
+    "population": 18297
   },
   {
     "id": "VE-249",
@@ -1966,7 +2164,8 @@
     "country": "VE",
     "region": "Apure",
     "domain": "romulogallegos-apure.gob.ve",
-    "osm_relation_id": 3419324
+    "osm_relation_id": 3419324,
+    "population": 24418
   },
   {
     "id": "VE-250",
@@ -1974,7 +2173,8 @@
     "country": "VE",
     "region": "Cojedes",
     "domain": "",
-    "osm_relation_id": 11043136
+    "osm_relation_id": 11043136,
+    "population": 106760
   },
   {
     "id": "VE-251",
@@ -1982,7 +2182,8 @@
     "country": "VE",
     "region": "Táchira",
     "domain": "",
-    "osm_relation_id": 3324584
+    "osm_relation_id": 3324584,
+    "population": 263765
   },
   {
     "id": "VE-252",
@@ -1990,7 +2191,8 @@
     "country": "VE",
     "region": "Carabobo",
     "domain": "alcaldiasandiego.net",
-    "osm_relation_id": 10833245
+    "osm_relation_id": 10833245,
+    "population": 93257
   },
   {
     "id": "VE-253",
@@ -1998,7 +2200,8 @@
     "country": "VE",
     "region": "Yaracuy",
     "domain": "",
-    "osm_relation_id": 11126509
+    "osm_relation_id": 11126509,
+    "population": 100759
   },
   {
     "id": "VE-254",
@@ -2006,7 +2209,8 @@
     "country": "VE",
     "region": "Apure",
     "domain": "",
-    "osm_relation_id": 3419325
+    "osm_relation_id": 3419325,
+    "population": 165135
   },
   {
     "id": "VE-255",
@@ -2014,7 +2218,8 @@
     "country": "VE",
     "region": "Falcón",
     "domain": "sanfrancisco-falcon.gov.ve",
-    "osm_relation_id": 3460137
+    "osm_relation_id": 3460137,
+    "population": 11030
   },
   {
     "id": "VE-256",
@@ -2022,7 +2227,8 @@
     "country": "VE",
     "region": "Zulia",
     "domain": "",
-    "osm_relation_id": 3447449
+    "osm_relation_id": 3447449,
+    "population": 446757
   },
   {
     "id": "VE-257",
@@ -2037,7 +2243,8 @@
     "country": "VE",
     "region": "Carabobo",
     "domain": "",
-    "osm_relation_id": 10833247
+    "osm_relation_id": 10833247,
+    "population": 64124
   },
   {
     "id": "VE-259",
@@ -2045,7 +2252,8 @@
     "country": "VE",
     "region": "Anzoátegui",
     "domain": "juancapistrano-anzoategui.gob.ve",
-    "osm_relation_id": 10961995
+    "osm_relation_id": 10961995,
+    "population": 9047
   },
   {
     "id": "VE-260",
@@ -2053,7 +2261,8 @@
     "country": "VE",
     "region": "Táchira",
     "domain": "sanjudastadeo-tachira.gob.ve",
-    "osm_relation_id": 3325386
+    "osm_relation_id": 3325386,
+    "population": 7649
   },
   {
     "id": "VE-261",
@@ -2061,7 +2270,8 @@
     "country": "VE",
     "region": "Aragua",
     "domain": "",
-    "osm_relation_id": 11023951
+    "osm_relation_id": 11023951,
+    "population": 23279
   },
   {
     "id": "VE-262",
@@ -2069,7 +2279,8 @@
     "country": "VE",
     "region": "Anzoátegui",
     "domain": "santaana-anzoategui.gob.ve",
-    "osm_relation_id": 10962007
+    "osm_relation_id": 10962007,
+    "population": 9636
   },
   {
     "id": "VE-263",
@@ -2077,14 +2288,16 @@
     "country": "VE",
     "region": "Monagas",
     "domain": "",
-    "osm_relation_id": 11089542
+    "osm_relation_id": 11089542,
+    "population": 9809
   },
   {
     "id": "VE-264",
     "name": "Municipio Santa Bárbara",
     "country": "VE",
     "region": "Monagas",
-    "domain": ""
+    "domain": "",
+    "population": 9809
   },
   {
     "id": "VE-265",
@@ -2092,7 +2305,8 @@
     "country": "VE",
     "region": "Zulia",
     "domain": "",
-    "osm_relation_id": 3447564
+    "osm_relation_id": 3447564,
+    "population": 59866
   },
   {
     "id": "VE-266",
@@ -2107,7 +2321,8 @@
     "country": "VE",
     "region": "Aragua",
     "domain": "santosmichelena-aragua.gob.ve",
-    "osm_relation_id": 11023952
+    "osm_relation_id": 11023952,
+    "population": 38574
   },
   {
     "id": "VE-268",
@@ -2115,7 +2330,8 @@
     "country": "VE",
     "region": "Táchira",
     "domain": "seboruco-tachira.gob.ve",
-    "osm_relation_id": 3325383
+    "osm_relation_id": 3325383,
+    "population": 10243
   },
   {
     "id": "VE-269",
@@ -2123,7 +2339,8 @@
     "country": "VE",
     "region": "Zulia",
     "domain": "",
-    "osm_relation_id": 3447442
+    "osm_relation_id": 3447442,
+    "population": 30484
   },
   {
     "id": "VE-270",
@@ -2131,7 +2348,8 @@
     "country": "VE",
     "region": "Bolívar",
     "domain": "sifontes-bolivar.gob.ve",
-    "osm_relation_id": 11039540
+    "osm_relation_id": 11039540,
+    "population": 50082
   },
   {
     "id": "VE-271",
@@ -2139,7 +2357,8 @@
     "country": "VE",
     "region": "Falcón",
     "domain": "",
-    "osm_relation_id": 3460089
+    "osm_relation_id": 3460089,
+    "population": 32193
   },
   {
     "id": "VE-272",
@@ -2147,7 +2366,8 @@
     "country": "VE",
     "region": "Anzoátegui",
     "domain": "simonbolivar-anzoategui.gob.ve",
-    "osm_relation_id": 10962000
+    "osm_relation_id": 10962000,
+    "population": 421424
   },
   {
     "id": "VE-273",
@@ -2155,7 +2375,8 @@
     "country": "VE",
     "region": "Zulia",
     "domain": "",
-    "osm_relation_id": 3447565
+    "osm_relation_id": 3447565,
+    "population": 43831
   },
   {
     "id": "VE-274",
@@ -2163,7 +2384,8 @@
     "country": "VE",
     "region": "Lara",
     "domain": "simonplanas-lara.gob.ve",
-    "osm_relation_id": 3919038
+    "osm_relation_id": 3919038,
+    "population": 35802
   },
   {
     "id": "VE-275",
@@ -2171,7 +2393,8 @@
     "country": "VE",
     "region": "Anzoátegui",
     "domain": "",
-    "osm_relation_id": 10962010
+    "osm_relation_id": 10962010,
+    "population": 182474
   },
   {
     "id": "VE-276",
@@ -2179,7 +2402,8 @@
     "country": "VE",
     "region": "Táchira",
     "domain": "simonrodriguez-tachira.gob.ve",
-    "osm_relation_id": 3326199
+    "osm_relation_id": 3326199,
+    "population": 2445
   },
   {
     "id": "VE-277",
@@ -2187,7 +2411,8 @@
     "country": "VE",
     "region": "Anzoátegui",
     "domain": "sirgregory-anzoategui.gob.ve",
-    "osm_relation_id": 10962005
+    "osm_relation_id": 10962005,
+    "population": 9768
   },
   {
     "id": "VE-278",
@@ -2195,7 +2420,8 @@
     "country": "VE",
     "region": "Barinas",
     "domain": "",
-    "osm_relation_id": 8547475
+    "osm_relation_id": 8547475,
+    "population": 24142
   },
   {
     "id": "VE-279",
@@ -2203,7 +2429,8 @@
     "country": "VE",
     "region": "Anzoátegui",
     "domain": "",
-    "osm_relation_id": 10961999
+    "osm_relation_id": 10961999,
+    "population": 244728
   },
   {
     "id": "VE-280",
@@ -2211,7 +2438,8 @@
     "country": "VE",
     "region": "Monagas",
     "domain": "",
-    "osm_relation_id": 11089547
+    "osm_relation_id": 11089547,
+    "population": 24238
   },
   {
     "id": "VE-281",
@@ -2219,7 +2447,8 @@
     "country": "VE",
     "region": "Táchira",
     "domain": "",
-    "osm_relation_id": 3326414
+    "osm_relation_id": 3326414,
+    "population": 7320
   },
   {
     "id": "VE-282",
@@ -2227,14 +2456,16 @@
     "country": "VE",
     "region": "Zulia",
     "domain": "",
-    "osm_relation_id": 3447437
+    "osm_relation_id": 3447437,
+    "population": 60819
   },
   {
     "id": "VE-283",
     "name": "Municipio Sucre",
     "country": "VE",
     "region": "Portuguesa",
-    "domain": ""
+    "domain": "",
+    "population": 600351
   },
   {
     "id": "VE-284",
@@ -2242,7 +2473,8 @@
     "country": "VE",
     "region": "Aragua",
     "domain": "sucre-aragua.gob.ve",
-    "osm_relation_id": 2256367
+    "osm_relation_id": 2256367,
+    "population": 114509
   },
   {
     "id": "VE-285",
@@ -2250,7 +2482,8 @@
     "country": "VE",
     "region": "Yaracuy",
     "domain": "sucre-yaracuy.gob.ve",
-    "osm_relation_id": 11126514
+    "osm_relation_id": 11126514,
+    "population": 18988
   },
   {
     "id": "VE-286",
@@ -2258,7 +2491,8 @@
     "country": "VE",
     "region": "Miranda",
     "domain": "alcaldiamunicipiosucre.gov.ve",
-    "osm_relation_id": 3335761
+    "osm_relation_id": 3335761,
+    "population": 600351
   },
   {
     "id": "VE-287",
@@ -2266,7 +2500,8 @@
     "country": "VE",
     "region": "Falcón",
     "domain": "",
-    "osm_relation_id": 3460090
+    "osm_relation_id": 3460090,
+    "population": 5781
   },
   {
     "id": "VE-288",
@@ -2274,7 +2509,8 @@
     "country": "VE",
     "region": "Bolívar",
     "domain": "sucre-bolivar.gov.ve",
-    "osm_relation_id": 3417866
+    "osm_relation_id": 3417866,
+    "population": 20359
   },
   {
     "id": "VE-289",
@@ -2282,7 +2518,8 @@
     "country": "VE",
     "region": "Barinas",
     "domain": "antoniojosedesucre-barinas.gob.ve",
-    "osm_relation_id": 8380234
+    "osm_relation_id": 8380234,
+    "population": 81665
   },
   {
     "id": "VE-290",
@@ -2290,7 +2527,8 @@
     "country": "VE",
     "region": "Cojedes",
     "domain": "alcaldiadelmunicipiotinaco.gob.ve",
-    "osm_relation_id": 11043140
+    "osm_relation_id": 11043140,
+    "population": 32564
   },
   {
     "id": "VE-291",
@@ -2298,7 +2536,8 @@
     "country": "VE",
     "region": "Cojedes",
     "domain": "falcon-cojedes.gob.ve",
-    "osm_relation_id": 11043134
+    "osm_relation_id": 11043134,
+    "population": 97687
   },
   {
     "id": "VE-292",
@@ -2306,7 +2545,8 @@
     "country": "VE",
     "region": "Falcón",
     "domain": "",
-    "osm_relation_id": 3460138
+    "osm_relation_id": 3460138,
+    "population": 5519
   },
   {
     "id": "VE-293",
@@ -2314,7 +2554,8 @@
     "country": "VE",
     "region": "Táchira",
     "domain": "",
-    "osm_relation_id": 3324586
+    "osm_relation_id": 3324586,
+    "population": 49577
   },
   {
     "id": "VE-294",
@@ -2322,7 +2563,8 @@
     "country": "VE",
     "region": "Barinas",
     "domain": "albertoarvelotorrealba-barinas.gob.ve",
-    "osm_relation_id": 8547416
+    "osm_relation_id": 8547416,
+    "population": 41232
   },
   {
     "id": "VE-295",
@@ -2330,7 +2572,8 @@
     "country": "VE",
     "region": "Aragua",
     "domain": "",
-    "osm_relation_id": 2256317
+    "osm_relation_id": 2256317,
+    "population": 14161
   },
   {
     "id": "VE-296",
@@ -2346,7 +2589,8 @@
     "country": "VE",
     "region": "Delta Amacuro",
     "domain": "",
-    "osm_relation_id": 11046659
+    "osm_relation_id": 11046659,
+    "population": 102877
   },
   {
     "id": "VE-298",
@@ -2354,7 +2598,8 @@
     "country": "VE",
     "region": "Falcón",
     "domain": "",
-    "osm_relation_id": 3460091
+    "osm_relation_id": 3460091,
+    "population": 15660
   },
   {
     "id": "VE-299",
@@ -2362,7 +2607,8 @@
     "country": "VE",
     "region": "Yaracuy",
     "domain": "urachiche-yaracuy.gob.ve",
-    "osm_relation_id": 11126518
+    "osm_relation_id": 11126518,
+    "population": 21966
   },
   {
     "id": "VE-300",
@@ -2370,7 +2616,8 @@
     "country": "VE",
     "region": "Monagas",
     "domain": "",
-    "osm_relation_id": 11089545
+    "osm_relation_id": 11089545,
+    "population": 9625
   },
   {
     "id": "VE-301",
@@ -2378,14 +2625,16 @@
     "country": "VE",
     "region": "Anzoátegui",
     "domain": "lecheria.gov.ve",
-    "osm_relation_id": 10961997
+    "osm_relation_id": 10961997,
+    "population": 37829
   },
   {
     "id": "VE-302",
     "name": "Municipio Urdaneta",
     "country": "VE",
     "region": "Aragua",
-    "domain": ""
+    "domain": "",
+    "population": 135432
   },
   {
     "id": "VE-303",
@@ -2393,7 +2642,8 @@
     "country": "VE",
     "region": "Lara",
     "domain": "urdaneta-lara.gob.ve",
-    "osm_relation_id": 3919040
+    "osm_relation_id": 3919040,
+    "population": 61381
   },
   {
     "id": "VE-304",
@@ -2401,7 +2651,8 @@
     "country": "VE",
     "region": "Aragua",
     "domain": "urdaneta-aragua.gob.ve",
-    "osm_relation_id": 11023948
+    "osm_relation_id": 11023948,
+    "population": 21271
   },
   {
     "id": "VE-305",
@@ -2409,7 +2660,8 @@
     "country": "VE",
     "region": "Táchira",
     "domain": "",
-    "osm_relation_id": 3320915
+    "osm_relation_id": 3320915,
+    "population": 5905
   },
   {
     "id": "VE-306",
@@ -2417,7 +2669,8 @@
     "country": "VE",
     "region": "Miranda",
     "domain": "urdaneta-miranda.gob.ve",
-    "osm_relation_id": 3345533
+    "osm_relation_id": 3345533,
+    "population": 135432
   },
   {
     "id": "VE-307",
@@ -2425,7 +2678,8 @@
     "country": "VE",
     "region": "Táchira",
     "domain": "pedromariaurena-tachira.gob.ve",
-    "osm_relation_id": 3321037
+    "osm_relation_id": 3321037,
+    "population": 51879
   },
   {
     "id": "VE-308",
@@ -2433,7 +2687,8 @@
     "country": "VE",
     "region": "Táchira",
     "domain": "",
-    "osm_relation_id": 3326210
+    "osm_relation_id": 3326210,
+    "population": 20104
   },
   {
     "id": "VE-309",
@@ -2441,7 +2696,8 @@
     "country": "VE",
     "region": "Falcón",
     "domain": "",
-    "osm_relation_id": 3460070
+    "osm_relation_id": 3460070,
+    "population": 8349
   },
   {
     "id": "VE-310",
@@ -2449,14 +2705,16 @@
     "country": "VE",
     "region": "Carabobo",
     "domain": "",
-    "osm_relation_id": 10833239
+    "osm_relation_id": 10833239,
+    "population": 829856
   },
   {
     "id": "VE-311",
     "name": "Municipio Valencia",
     "country": "VE",
     "region": "Carabobo",
-    "domain": ""
+    "domain": "",
+    "population": 829856
   },
   {
     "id": "VE-312",
@@ -2464,14 +2722,16 @@
     "country": "VE",
     "region": "Zulia",
     "domain": "",
-    "osm_relation_id": 3447566
+    "osm_relation_id": 3447566,
+    "population": 52624
   },
   {
     "id": "VE-313",
     "name": "Municipio Vargas",
     "country": "VE",
     "region": "Vargas state",
-    "domain": ""
+    "domain": "",
+    "population": 9879
   },
   {
     "id": "VE-314",
@@ -2479,7 +2739,8 @@
     "country": "VE",
     "region": "Táchira",
     "domain": "",
-    "osm_relation_id": 3326332
+    "osm_relation_id": 3326332,
+    "population": 9879
   },
   {
     "id": "VE-315",
@@ -2487,7 +2748,8 @@
     "country": "VE",
     "region": "Yaracuy",
     "domain": "veroes-yaracuy.gob.ve",
-    "osm_relation_id": 11126508
+    "osm_relation_id": 11126508,
+    "population": 27840
   },
   {
     "id": "VE-316",
@@ -2503,7 +2765,8 @@
     "country": "VE",
     "region": "Barinas",
     "domain": "ezequielzamora-barinas.gob.ve",
-    "osm_relation_id": 8380233
+    "osm_relation_id": 8380233,
+    "population": 53580
   },
   {
     "id": "VE-318",
@@ -2511,7 +2774,8 @@
     "country": "VE",
     "region": "Falcón",
     "domain": "zamora-falcon.gov.ve",
-    "osm_relation_id": 3460139
+    "osm_relation_id": 3460139,
+    "population": 33210
   },
   {
     "id": "VE-319",
@@ -2519,7 +2783,8 @@
     "country": "VE",
     "region": "Aragua",
     "domain": "",
-    "osm_relation_id": 11023953
+    "osm_relation_id": 11023953,
+    "population": 144754
   },
   {
     "id": "VE-320",
@@ -2527,7 +2792,8 @@
     "country": "VE",
     "region": "Miranda",
     "domain": "alcaldiadezamora.com",
-    "osm_relation_id": 3351338
+    "osm_relation_id": 3351338,
+    "population": 187075
   },
   {
     "id": "VE-321",
@@ -2535,7 +2801,8 @@
     "country": "VE",
     "region": "Guárico",
     "domain": "alcaldiadezaraza.com",
-    "osm_relation_id": 11066371
+    "osm_relation_id": 11066371,
+    "population": 62027
   },
   {
     "id": "VE-322",
@@ -2543,7 +2810,8 @@
     "country": "VE",
     "region": "Mérida",
     "domain": "obisporamos-merida.gov.ve",
-    "osm_relation_id": 11081227
+    "osm_relation_id": 11081227,
+    "population": 24774
   },
   {
     "id": "VE-323",
@@ -2597,7 +2865,8 @@
     "country": "VE",
     "region": "Portuguesa",
     "domain": "alcaldiapaez.gob.ve",
-    "osm_relation_id": 9828793
+    "osm_relation_id": 9828793,
+    "population": 177175
   },
   {
     "id": "VE-330",
@@ -2674,14 +2943,16 @@
     "country": "VE",
     "region": "Mérida",
     "domain": "sucre-merida.gov.ve",
-    "osm_relation_id": 3448257
+    "osm_relation_id": 3448257,
+    "population": 896291
   },
   {
     "id": "VE-340",
     "name": "Sucre",
     "country": "VE",
     "region": "Trujillo",
-    "domain": "sucre-trujillo.gob.ve"
+    "domain": "sucre-trujillo.gob.ve",
+    "population": 896291
   },
   {
     "id": "VE-341",
@@ -2689,7 +2960,8 @@
     "country": "VE",
     "region": "Portuguesa",
     "domain": "sucre-portuguesa.gob.ve",
-    "osm_relation_id": 9798056
+    "osm_relation_id": 9798056,
+    "population": 896291
   },
   {
     "id": "VE-342",
@@ -2697,7 +2969,8 @@
     "country": "VE",
     "region": "Sucre",
     "domain": "alcaldiamunicipiosucre.gov.ve",
-    "osm_relation_id": 5749568
+    "osm_relation_id": 5749568,
+    "population": 896291
   },
   {
     "id": "VE-343",
@@ -2705,7 +2978,8 @@
     "country": "VE",
     "region": "Lara",
     "domain": "",
-    "osm_relation_id": 3919039
+    "osm_relation_id": 3919039,
+    "population": 185275
   },
   {
     "id": "VE-344",
@@ -2720,7 +2994,8 @@
     "name": "Trujillo",
     "country": "VE",
     "region": "Trujillo",
-    "domain": ""
+    "domain": "",
+    "population": 38110
   },
   {
     "id": "VE-346",
@@ -2758,7 +3033,8 @@
     "name": "Valera",
     "country": "VE",
     "region": "Trujillo",
-    "domain": ""
+    "domain": "",
+    "population": 250000
   },
   {
     "id": "VE-351",

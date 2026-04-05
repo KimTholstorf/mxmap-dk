@@ -5,7 +5,8 @@
     "country": "ZW",
     "region": "Matabeleland South Province",
     "domain": "",
-    "osm_relation_id": 7858601
+    "osm_relation_id": 7858601,
+    "population": 41767
   },
   {
     "id": "ZW-002",
@@ -21,7 +22,8 @@
     "country": "ZW",
     "region": "Mashonaland Central Province",
     "domain": "bindurardc.co.zw",
-    "osm_relation_id": 5596168
+    "osm_relation_id": 5596168,
+    "population": 46275
   },
   {
     "id": "ZW-004",
@@ -67,7 +69,8 @@
     "name": "Centenary District",
     "country": "ZW",
     "region": "Masvingo Province",
-    "domain": "centenary.co.zw"
+    "domain": "centenary.co.zw",
+    "population": 121127
   },
   {
     "id": "ZW-010",
@@ -75,7 +78,8 @@
     "country": "ZW",
     "region": "Mashonaland West Province",
     "domain": "cheguturdc.co.zw",
-    "osm_relation_id": 7857099
+    "osm_relation_id": 7857099,
+    "population": 42959
   },
   {
     "id": "ZW-011",
@@ -98,14 +102,16 @@
     "country": "ZW",
     "region": "Manicaland Province",
     "domain": "",
-    "osm_relation_id": 4056298
+    "osm_relation_id": 4056298,
+    "population": 17458
   },
   {
     "id": "ZW-014",
     "name": "Chiredzi District",
     "country": "ZW",
     "region": "Masvingo Province",
-    "domain": "chiredzi.co.zw"
+    "domain": "chiredzi.co.zw",
+    "population": 26129
   },
   {
     "id": "ZW-015",
@@ -167,7 +173,8 @@
     "country": "ZW",
     "region": "Matabeleland South Province",
     "domain": "gwandardc.co.zw",
-    "osm_relation_id": 7858599
+    "osm_relation_id": 7858599,
+    "population": 14450
   },
   {
     "id": "ZW-023",
@@ -175,7 +182,8 @@
     "country": "ZW",
     "region": "Midlands Province",
     "domain": "gweru.co.zw",
-    "osm_relation_id": 5554780
+    "osm_relation_id": 5554780,
+    "population": 141260
   },
   {
     "id": "ZW-024",
@@ -183,7 +191,8 @@
     "country": "ZW",
     "region": "Mashonaland West Province",
     "domain": "hurungwerdc.co.zw",
-    "osm_relation_id": 7857103
+    "osm_relation_id": 7857103,
+    "population": 329127
   },
   {
     "id": "ZW-025",
@@ -191,7 +200,8 @@
     "country": "ZW",
     "region": "Matabeleland North Province",
     "domain": "hwangerdc.co.zw",
-    "osm_relation_id": 7878257
+    "osm_relation_id": 7878257,
+    "population": 42581
   },
   {
     "id": "ZW-026",
@@ -207,7 +217,8 @@
     "country": "ZW",
     "region": "Mashonaland West Province",
     "domain": "",
-    "osm_relation_id": 7857105
+    "osm_relation_id": 7857105,
+    "population": 116300
   },
   {
     "id": "ZW-028",
@@ -215,7 +226,8 @@
     "country": "ZW",
     "region": "Mashonaland West Province",
     "domain": "kariba.co.zw",
-    "osm_relation_id": 7857104
+    "osm_relation_id": 7857104,
+    "population": 24210
   },
   {
     "id": "ZW-029",
@@ -223,7 +235,8 @@
     "country": "ZW",
     "region": "Midlands Province",
     "domain": "",
-    "osm_relation_id": 5554781
+    "osm_relation_id": 5554781,
+    "population": 93072
   },
   {
     "id": "ZW-030",
@@ -238,7 +251,8 @@
     "country": "ZW",
     "region": "Matabeleland North Province",
     "domain": "",
-    "osm_relation_id": 7878256
+    "osm_relation_id": 7878256,
+    "population": 198600
   },
   {
     "id": "ZW-032",
@@ -268,7 +282,8 @@
     "country": "ZW",
     "region": "Mashonaland East Province",
     "domain": "maronderardc.co.zw",
-    "osm_relation_id": 5581944
+    "osm_relation_id": 5581944,
+    "population": 52283
   },
   {
     "id": "ZW-036",
@@ -276,7 +291,8 @@
     "country": "ZW",
     "region": "Masvingo Province",
     "domain": "masvingordc.co.zw",
-    "osm_relation_id": 5556619
+    "osm_relation_id": 5556619,
+    "population": 1638528
   },
   {
     "id": "ZW-037",
@@ -336,7 +352,8 @@
     "country": "ZW",
     "region": "Manicaland Province",
     "domain": "mutare.co.zw",
-    "osm_relation_id": 5555251
+    "osm_relation_id": 5555251,
+    "population": 224804
   },
   {
     "id": "ZW-045",
@@ -403,7 +420,8 @@
     "country": "ZW",
     "region": "Mashonaland Central Province",
     "domain": "",
-    "osm_relation_id": 5596175
+    "osm_relation_id": 5596175,
+    "population": 10353
   },
   {
     "id": "ZW-054",
@@ -411,7 +429,8 @@
     "country": "ZW",
     "region": "Midlands Province",
     "domain": "",
-    "osm_relation_id": 5554783
+    "osm_relation_id": 5554783,
+    "population": 16866
   },
   {
     "id": "ZW-055",
@@ -473,6 +492,7 @@
     "name": "Zvishavane District",
     "country": "ZW",
     "region": "Midlands Province",
-    "domain": ""
+    "domain": "",
+    "population": 35229
   }
 ]

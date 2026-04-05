@@ -5,14 +5,16 @@
     "country": "RW",
     "region": "Rulindo District",
     "domain": "rulindo.gov.rw",
-    "osm_relation_id": 1793060
+    "osm_relation_id": 1793060,
+    "population": 20528
   },
   {
     "id": "RW-002",
     "name": "Bigogwe Sector",
     "country": "RW",
     "region": "Western Province",
-    "domain": ""
+    "domain": "",
+    "population": 31657
   },
   {
     "id": "RW-003",
@@ -26,7 +28,8 @@
     "name": "Bugarama Sector",
     "country": "RW",
     "region": "Rusizi District",
-    "domain": "rusizi.gov.rw"
+    "domain": "rusizi.gov.rw",
+    "population": 30169
   },
   {
     "id": "RW-005",
@@ -34,7 +37,8 @@
     "country": "RW",
     "region": "Rubavu District",
     "domain": "rubavu.gov.rw",
-    "osm_relation_id": 2281187
+    "osm_relation_id": 2281187,
+    "population": 33892
   },
   {
     "id": "RW-006",
@@ -42,14 +46,16 @@
     "country": "RW",
     "region": "Gicumbi District",
     "domain": "gicumbi.gov.rw",
-    "osm_relation_id": 1793993
+    "osm_relation_id": 1793993,
+    "population": 20454
   },
   {
     "id": "RW-007",
     "name": "Bumbogo",
     "country": "RW",
     "region": "Gasabo District",
-    "domain": "gasabo.gov.rw"
+    "domain": "gasabo.gov.rw",
+    "population": 112899
   },
   {
     "id": "RW-008",
@@ -57,14 +63,16 @@
     "country": "RW",
     "region": "Burera District",
     "domain": "burera.gov.rw",
-    "osm_relation_id": 1738770
+    "osm_relation_id": 1738770,
+    "population": 16322
   },
   {
     "id": "RW-009",
     "name": "Busanze",
     "country": "RW",
     "region": "Nyaruguru District",
-    "domain": "nyaruguru.gov.rw"
+    "domain": "nyaruguru.gov.rw",
+    "population": 29795
   },
   {
     "id": "RW-010",
@@ -72,7 +80,8 @@
     "country": "RW",
     "region": "Rubavu District",
     "domain": "rubavu.gov.rw",
-    "osm_relation_id": 2281188
+    "osm_relation_id": 2281188,
+    "population": 40542
   },
   {
     "id": "RW-011",
@@ -80,7 +89,8 @@
     "country": "RW",
     "region": "Nyanza District",
     "domain": "nyanza.gov.rw",
-    "osm_relation_id": 1730872
+    "osm_relation_id": 1730872,
+    "population": 42870
   },
   {
     "id": "RW-012",
@@ -88,7 +98,8 @@
     "country": "RW",
     "region": "Gakenke District",
     "domain": "gakenke.gov.rw",
-    "osm_relation_id": 1755774
+    "osm_relation_id": 1755774,
+    "population": 21392
   },
   {
     "id": "RW-013",
@@ -110,7 +121,8 @@
     "country": "RW",
     "region": "Rulindo District",
     "domain": "rulindo.gov.rw",
-    "osm_relation_id": 1793061
+    "osm_relation_id": 1793061,
+    "population": 23570
   },
   {
     "id": "RW-016",
@@ -118,7 +130,8 @@
     "country": "RW",
     "region": "Northern Province",
     "domain": "",
-    "osm_relation_id": 1756034
+    "osm_relation_id": 1756034,
+    "population": 21512
   },
   {
     "id": "RW-017",
@@ -134,14 +147,16 @@
     "country": "RW",
     "region": "Western Province",
     "domain": "",
-    "osm_relation_id": 1746349
+    "osm_relation_id": 1746349,
+    "population": 19937
   },
   {
     "id": "RW-019",
     "name": "Butaro",
     "country": "RW",
     "region": "Burera District",
-    "domain": "burera.gov.rw"
+    "domain": "burera.gov.rw",
+    "population": 38013
   },
   {
     "id": "RW-020",
@@ -149,7 +164,8 @@
     "country": "RW",
     "region": "Rulindo District",
     "domain": "rulindo.gov.rw",
-    "osm_relation_id": 1793062
+    "osm_relation_id": 1793062,
+    "population": 24721
   },
   {
     "id": "RW-021",
@@ -189,7 +205,8 @@
     "country": "RW",
     "region": "Gicumbi District",
     "domain": "gicumbi.gov.rw",
-    "osm_relation_id": 1796128
+    "osm_relation_id": 1796128,
+    "population": 17274
   },
   {
     "id": "RW-026",
@@ -204,7 +221,8 @@
     "country": "RW",
     "region": "Northern Province",
     "domain": "",
-    "osm_relation_id": 1796174
+    "osm_relation_id": 1796174,
+    "population": 43134
   },
   {
     "id": "RW-028",
@@ -212,7 +230,8 @@
     "country": "RW",
     "region": "Gakenke District",
     "domain": "gakenke.gov.rw",
-    "osm_relation_id": 1755733
+    "osm_relation_id": 1755733,
+    "population": 17942
   },
   {
     "id": "RW-029",
@@ -228,14 +247,16 @@
     "country": "RW",
     "region": "Gakenke District",
     "domain": "gakenke.gov.rw",
-    "osm_relation_id": 1755775
+    "osm_relation_id": 1755775,
+    "population": 18785
   },
   {
     "id": "RW-031",
     "name": "Cyahinda",
     "country": "RW",
     "region": "Nyaruguru District",
-    "domain": "nyaruguru.gov.rw"
+    "domain": "nyaruguru.gov.rw",
+    "population": 24929
   },
   {
     "id": "RW-032",
@@ -243,14 +264,16 @@
     "country": "RW",
     "region": "Burera District",
     "domain": "burera.gov.rw",
-    "osm_relation_id": 1714332
+    "osm_relation_id": 1714332,
+    "population": 44510
   },
   {
     "id": "RW-033",
     "name": "Cyanika",
     "country": "RW",
     "region": "Nyamagabe District",
-    "domain": "nyamagabe.gov.rw"
+    "domain": "nyamagabe.gov.rw",
+    "population": 44510
   },
   {
     "id": "RW-034",
@@ -258,7 +281,8 @@
     "country": "RW",
     "region": "Rubavu District",
     "domain": "rubavu.gov.rw",
-    "osm_relation_id": 2281152
+    "osm_relation_id": 2281152,
+    "population": 38977
   },
   {
     "id": "RW-035",
@@ -274,7 +298,8 @@
     "country": "RW",
     "region": "Burera District",
     "domain": "burera.gov.rw",
-    "osm_relation_id": 1736854
+    "osm_relation_id": 1736854,
+    "population": 14719
   },
   {
     "id": "RW-037",
@@ -282,7 +307,8 @@
     "country": "RW",
     "region": "Muhanga District",
     "domain": "muhanga.gov.rw",
-    "osm_relation_id": 3952364
+    "osm_relation_id": 3952364,
+    "population": 34540
   },
   {
     "id": "RW-038",
@@ -290,7 +316,8 @@
     "country": "RW",
     "region": "Rulindo District",
     "domain": "rulindo.gov.rw",
-    "osm_relation_id": 1793020
+    "osm_relation_id": 1793020,
+    "population": 15768
   },
   {
     "id": "RW-039",
@@ -298,7 +325,8 @@
     "country": "RW",
     "region": "Gicumbi District",
     "domain": "gicumbi.gov.rw",
-    "osm_relation_id": 1796175
+    "osm_relation_id": 1796175,
+    "population": 17218
   },
   {
     "id": "RW-040",
@@ -306,14 +334,16 @@
     "country": "RW",
     "region": "Rulindo District",
     "domain": "rulindo.gov.rw",
-    "osm_relation_id": 1793072
+    "osm_relation_id": 1793072,
+    "population": 15350
   },
   {
     "id": "RW-041",
     "name": "Cyuve",
     "country": "RW",
     "region": "Musanze District",
-    "domain": "musanze.gov.rw"
+    "domain": "musanze.gov.rw",
+    "population": 62179
   },
   {
     "id": "RW-042",
@@ -321,7 +351,8 @@
     "country": "RW",
     "region": "Rwamagana district",
     "domain": "",
-    "osm_relation_id": 1729742
+    "osm_relation_id": 1729742,
+    "population": 33074
   },
   {
     "id": "RW-043",
@@ -329,7 +360,8 @@
     "country": "RW",
     "region": "Musanze District",
     "domain": "musanze.gov.rw",
-    "osm_relation_id": 1756500
+    "osm_relation_id": 1756500,
+    "population": 30719
   },
   {
     "id": "RW-044",
@@ -337,14 +369,16 @@
     "country": "RW",
     "region": "Kamonyi District",
     "domain": "kamonyi.gov.rw",
-    "osm_relation_id": 3954985
+    "osm_relation_id": 3954985,
+    "population": 36859
   },
   {
     "id": "RW-045",
     "name": "Gahanga",
     "country": "RW",
     "region": "Kicukiro District",
-    "domain": "kicukiro.gov.rw"
+    "domain": "kicukiro.gov.rw",
+    "population": 79082
   },
   {
     "id": "RW-046",
@@ -352,7 +386,8 @@
     "country": "RW",
     "region": "Kirehe District",
     "domain": "kirehe.gov.rw",
-    "osm_relation_id": 1716713
+    "osm_relation_id": 1716713,
+    "population": 44462
   },
   {
     "id": "RW-047",
@@ -360,14 +395,16 @@
     "country": "RW",
     "region": "Rwamagana district",
     "domain": "",
-    "osm_relation_id": 1729754
+    "osm_relation_id": 1729754,
+    "population": 35732
   },
   {
     "id": "RW-048",
     "name": "Gahini",
     "country": "RW",
     "region": "Kayonza District",
-    "domain": "kayonza.gov.rw"
+    "domain": "kayonza.gov.rw",
+    "population": 46009
   },
   {
     "id": "RW-049",
@@ -375,7 +412,8 @@
     "country": "RW",
     "region": "Northern Province",
     "domain": "",
-    "osm_relation_id": 1737412
+    "osm_relation_id": 1737412,
+    "population": 28059
   },
   {
     "id": "RW-050",
@@ -383,7 +421,8 @@
     "country": "RW",
     "region": "Gakenke District",
     "domain": "gakenke.gov.rw",
-    "osm_relation_id": 1755869
+    "osm_relation_id": 1755869,
+    "population": 25325
   },
   {
     "id": "RW-051",
@@ -391,7 +430,8 @@
     "country": "RW",
     "region": "Northern Province",
     "domain": "",
-    "osm_relation_id": 3966063
+    "osm_relation_id": 3966063,
+    "population": 41558
   },
   {
     "id": "RW-052",
@@ -399,7 +439,8 @@
     "country": "RW",
     "region": "Gatsibo District",
     "domain": "gatsibo.gov.rw",
-    "osm_relation_id": 1730280
+    "osm_relation_id": 1730280,
+    "population": 20725
   },
   {
     "id": "RW-053",
@@ -407,7 +448,8 @@
     "country": "RW",
     "region": "Musanze District",
     "domain": "musanze.gov.rw",
-    "osm_relation_id": 1756501
+    "osm_relation_id": 1756501,
+    "population": 14272
   },
   {
     "id": "RW-054",
@@ -415,7 +457,8 @@
     "country": "RW",
     "region": "Eastern Province",
     "domain": "",
-    "osm_relation_id": 1727496
+    "osm_relation_id": 1727496,
+    "population": 19345
   },
   {
     "id": "RW-055",
@@ -423,7 +466,8 @@
     "country": "RW",
     "region": "Gakenke District",
     "domain": "gakenke.gov.rw",
-    "osm_relation_id": 1755870
+    "osm_relation_id": 1755870,
+    "population": 22647
   },
   {
     "id": "RW-056",
@@ -438,7 +482,8 @@
     "country": "RW",
     "region": "Bugesera District",
     "domain": "bugesera.gov.rw",
-    "osm_relation_id": 1727940
+    "osm_relation_id": 1727940,
+    "population": 32251
   },
   {
     "id": "RW-058",
@@ -446,7 +491,8 @@
     "country": "RW",
     "region": "Musanze District",
     "domain": "musanze.gov.rw",
-    "osm_relation_id": 1756036
+    "osm_relation_id": 1756036,
+    "population": 26721
   },
   {
     "id": "RW-059",
@@ -462,14 +508,16 @@
     "country": "RW",
     "region": "Burera District",
     "domain": "burera.gov.rw",
-    "osm_relation_id": 1738771
+    "osm_relation_id": 1738771,
+    "population": 18867
   },
   {
     "id": "RW-061",
     "name": "Gatenga",
     "country": "RW",
     "region": "Kicukiro District",
-    "domain": "kicukiro.gov.rw"
+    "domain": "kicukiro.gov.rw",
+    "population": 67084
   },
   {
     "id": "RW-062",
@@ -477,14 +525,16 @@
     "country": "RW",
     "region": "Kirehe District",
     "domain": "kirehe.gov.rw",
-    "osm_relation_id": 1716714
+    "osm_relation_id": 1716714,
+    "population": 31687
   },
   {
     "id": "RW-063",
     "name": "Gatsata",
     "country": "RW",
     "region": "Gasabo District",
-    "domain": "gasabo.gov.rw"
+    "domain": "gasabo.gov.rw",
+    "population": 46262
   },
   {
     "id": "RW-064",
@@ -492,7 +542,8 @@
     "country": "RW",
     "region": "Gatsibo District",
     "domain": "gatsibo.gov.rw",
-    "osm_relation_id": 1730302
+    "osm_relation_id": 1730302,
+    "population": 40940
   },
   {
     "id": "RW-065",
@@ -508,7 +559,8 @@
     "country": "RW",
     "region": "Nyagatare District",
     "domain": "nyagatare.gov.rw",
-    "osm_relation_id": 1718810
+    "osm_relation_id": 1718810,
+    "population": 35310
   },
   {
     "id": "RW-067",
@@ -537,21 +589,24 @@
     "country": "RW",
     "region": "Western Province",
     "domain": "",
-    "osm_relation_id": 1744249
+    "osm_relation_id": 1744249,
+    "population": 27386
   },
   {
     "id": "RW-071",
     "name": "Gikomero",
     "country": "RW",
     "region": "Gasabo District",
-    "domain": "gasabo.gov.rw"
+    "domain": "gasabo.gov.rw",
+    "population": 19630
   },
   {
     "id": "RW-072",
     "name": "Gikondo",
     "country": "RW",
     "region": "Kicukiro District",
-    "domain": "kicukiro.gov.rw"
+    "domain": "kicukiro.gov.rw",
+    "population": 19803
   },
   {
     "id": "RW-073",
@@ -559,7 +614,8 @@
     "country": "RW",
     "region": "Gisagara District",
     "domain": "gisagara.gov.rw",
-    "osm_relation_id": 1729997
+    "osm_relation_id": 1729997,
+    "population": 28772
   },
   {
     "id": "RW-074",
@@ -574,7 +630,8 @@
     "country": "RW",
     "region": "Rubavu District",
     "domain": "rubavu.gov.rw",
-    "osm_relation_id": 16361593
+    "osm_relation_id": 16361593,
+    "population": 53603
   },
   {
     "id": "RW-076",
@@ -582,7 +639,8 @@
     "country": "RW",
     "region": "Rwamagana district",
     "domain": "",
-    "osm_relation_id": 1729765
+    "osm_relation_id": 1729765,
+    "population": 36692
   },
   {
     "id": "RW-077",
@@ -590,7 +648,8 @@
     "country": "RW",
     "region": "Huye District",
     "domain": "huye.gov.rw",
-    "osm_relation_id": 3952118
+    "osm_relation_id": 3952118,
+    "population": 14676
   },
   {
     "id": "RW-078",
@@ -605,7 +664,8 @@
     "country": "RW",
     "region": "Gisagara District",
     "domain": "gisagara.gov.rw",
-    "osm_relation_id": 1729958
+    "osm_relation_id": 1729958,
+    "population": 31860
   },
   {
     "id": "RW-080",
@@ -620,7 +680,8 @@
     "name": "Gisozi",
     "country": "RW",
     "region": "Gasabo District",
-    "domain": "gasabo.gov.rw"
+    "domain": "gasabo.gov.rw",
+    "population": 75611
   },
   {
     "id": "RW-082",
@@ -634,7 +695,8 @@
     "name": "Gitega Sector",
     "country": "RW",
     "region": "Kigali",
-    "domain": ""
+    "domain": "",
+    "population": 28728
   },
   {
     "id": "RW-084",
@@ -650,7 +712,8 @@
     "country": "RW",
     "region": "Gicumbi District",
     "domain": "gicumbi.gov.rw",
-    "osm_relation_id": 1793994
+    "osm_relation_id": 1793994,
+    "population": 17431
   },
   {
     "id": "RW-086",
@@ -658,7 +721,8 @@
     "country": "RW",
     "region": "Gatsibo District",
     "domain": "gatsibo.gov.rw",
-    "osm_relation_id": 1730309
+    "osm_relation_id": 1730309,
+    "population": 43414
   },
   {
     "id": "RW-087",
@@ -666,7 +730,8 @@
     "country": "RW",
     "region": "Burera District",
     "domain": "burera.gov.rw",
-    "osm_relation_id": 1738772
+    "osm_relation_id": 1738772,
+    "population": 11531
   },
   {
     "id": "RW-088",
@@ -682,21 +747,24 @@
     "country": "RW",
     "region": "Huye District",
     "domain": "huye.gov.rw",
-    "osm_relation_id": 3952124
+    "osm_relation_id": 3952124,
+    "population": 28232
   },
   {
     "id": "RW-090",
     "name": "Jabana",
     "country": "RW",
     "region": "Gasabo District",
-    "domain": "gasabo.gov.rw"
+    "domain": "gasabo.gov.rw",
+    "population": 63862
   },
   {
     "id": "RW-091",
     "name": "Jali",
     "country": "RW",
     "region": "Gasabo District",
-    "domain": "gasabo.gov.rw"
+    "domain": "gasabo.gov.rw",
+    "population": 41156
   },
   {
     "id": "RW-092",
@@ -704,7 +772,8 @@
     "country": "RW",
     "region": "Gakenke District",
     "domain": "gakenke.gov.rw",
-    "osm_relation_id": 1755763
+    "osm_relation_id": 1755763,
+    "population": 16007
   },
   {
     "id": "RW-093",
@@ -712,7 +781,8 @@
     "country": "RW",
     "region": "Eastern Province",
     "domain": "",
-    "osm_relation_id": 1716800
+    "osm_relation_id": 1716800,
+    "population": 31122
   },
   {
     "id": "RW-094",
@@ -720,7 +790,8 @@
     "country": "RW",
     "region": "Western Province",
     "domain": "",
-    "osm_relation_id": 3972565
+    "osm_relation_id": 3972565,
+    "population": 34648
   },
   {
     "id": "RW-095",
@@ -736,7 +807,8 @@
     "country": "RW",
     "region": "Bugesera District",
     "domain": "bugesera.gov.rw",
-    "osm_relation_id": 1727716
+    "osm_relation_id": 1727716,
+    "population": 33753
   },
   {
     "id": "RW-097",
@@ -760,7 +832,8 @@
     "country": "RW",
     "region": "Kayonza District",
     "domain": "kayonza.gov.rw",
-    "osm_relation_id": 1715255
+    "osm_relation_id": 1715255,
+    "population": 40228
   },
   {
     "id": "RW-100",
@@ -768,7 +841,8 @@
     "country": "RW",
     "region": "Kayonza District",
     "domain": "kayonza.gov.rw",
-    "osm_relation_id": 1715270
+    "osm_relation_id": 1715270,
+    "population": 37839
   },
   {
     "id": "RW-101",
@@ -790,7 +864,8 @@
     "name": "Kacyiru",
     "country": "RW",
     "region": "Gasabo District",
-    "domain": "gasabo.gov.rw"
+    "domain": "gasabo.gov.rw",
+    "population": 30036
   },
   {
     "id": "RW-104",
@@ -813,7 +888,8 @@
     "name": "Kageyo",
     "country": "RW",
     "region": "Ngororero District",
-    "domain": "ngororero.gov.rw"
+    "domain": "ngororero.gov.rw",
+    "population": 24702
   },
   {
     "id": "RW-107",
@@ -821,7 +897,8 @@
     "country": "RW",
     "region": "Gatsibo District",
     "domain": "gatsibo.gov.rw",
-    "osm_relation_id": 1730303
+    "osm_relation_id": 1730303,
+    "population": 24702
   },
   {
     "id": "RW-108",
@@ -829,7 +906,8 @@
     "country": "RW",
     "region": "Gicumbi District",
     "domain": "gicumbi.gov.rw",
-    "osm_relation_id": 1796129
+    "osm_relation_id": 1796129,
+    "population": 20888
   },
   {
     "id": "RW-109",
@@ -837,7 +915,8 @@
     "country": "RW",
     "region": "Northern Province",
     "domain": "",
-    "osm_relation_id": 1736839
+    "osm_relation_id": 1736839,
+    "population": 23089
   },
   {
     "id": "RW-110",
@@ -845,7 +924,8 @@
     "country": "RW",
     "region": "Bugesera District",
     "domain": "bugesera.gov.rw",
-    "osm_relation_id": 1728616
+    "osm_relation_id": 1728616,
+    "population": 24502
   },
   {
     "id": "RW-111",
@@ -860,7 +940,8 @@
     "country": "RW",
     "region": "Western Province",
     "domain": "",
-    "osm_relation_id": 1744268
+    "osm_relation_id": 1744268,
+    "population": 26693
   },
   {
     "id": "RW-113",
@@ -868,7 +949,8 @@
     "country": "RW",
     "region": "Gakenke District",
     "domain": "gakenke.gov.rw",
-    "osm_relation_id": 1755871
+    "osm_relation_id": 1755871,
+    "population": 23336
   },
   {
     "id": "RW-114",
@@ -876,7 +958,8 @@
     "country": "RW",
     "region": "Rubavu District",
     "domain": "rubavu.gov.rw",
-    "osm_relation_id": 2281189
+    "osm_relation_id": 2281189,
+    "population": 37584
   },
   {
     "id": "RW-115",
@@ -884,7 +967,8 @@
     "country": "RW",
     "region": "Northern Province",
     "domain": "",
-    "osm_relation_id": 1796176
+    "osm_relation_id": 1796176,
+    "population": 16772
   },
   {
     "id": "RW-116",
@@ -898,7 +982,8 @@
     "name": "Kanombe",
     "country": "RW",
     "region": "Kicukiro District",
-    "domain": "kicukiro.gov.rw"
+    "domain": "kicukiro.gov.rw",
+    "population": 72346
   },
   {
     "id": "RW-118",
@@ -906,14 +991,16 @@
     "country": "RW",
     "region": "Gisagara District",
     "domain": "gisagara.gov.rw",
-    "osm_relation_id": 1729923
+    "osm_relation_id": 1729923,
+    "population": 22310
   },
   {
     "id": "RW-119",
     "name": "Kanyinya Sector",
     "country": "RW",
     "region": "Nyarugenge District",
-    "domain": "nyarugenge.gov.rw"
+    "domain": "nyarugenge.gov.rw",
+    "population": 31026
   },
   {
     "id": "RW-120",
@@ -921,7 +1008,8 @@
     "country": "RW",
     "region": "Rubavu District",
     "domain": "rubavu.gov.rw",
-    "osm_relation_id": 2281190
+    "osm_relation_id": 2281190,
+    "population": 23127
   },
   {
     "id": "RW-121",
@@ -936,7 +1024,8 @@
     "country": "RW",
     "region": "Huye District",
     "domain": "huye.gov.rw",
-    "osm_relation_id": 3952122
+    "osm_relation_id": 3952122,
+    "population": 18323
   },
   {
     "id": "RW-123",
@@ -944,7 +1033,8 @@
     "country": "RW",
     "region": "Kamonyi District",
     "domain": "kamonyi.gov.rw",
-    "osm_relation_id": 3954861
+    "osm_relation_id": 3954861,
+    "population": 20879
   },
   {
     "id": "RW-124",
@@ -952,7 +1042,8 @@
     "country": "RW",
     "region": "Nyagatare District",
     "domain": "nyagatare.gov.rw",
-    "osm_relation_id": 1718811
+    "osm_relation_id": 1718811,
+    "population": 32949
   },
   {
     "id": "RW-125",
@@ -967,7 +1058,8 @@
     "country": "RW",
     "region": "Gakenke District",
     "domain": "gakenke.gov.rw",
-    "osm_relation_id": 1755872
+    "osm_relation_id": 1755872,
+    "population": 13617
   },
   {
     "id": "RW-127",
@@ -975,7 +1067,8 @@
     "country": "RW",
     "region": "Nyagatare District",
     "domain": "nyagatare.gov.rw",
-    "osm_relation_id": 1718812
+    "osm_relation_id": 1718812,
+    "population": 96915
   },
   {
     "id": "RW-128",
@@ -983,14 +1076,16 @@
     "country": "RW",
     "region": "Eastern Province",
     "domain": "",
-    "osm_relation_id": 1717052
+    "osm_relation_id": 1717052,
+    "population": 17726
   },
   {
     "id": "RW-129",
     "name": "Karenge",
     "country": "RW",
     "region": "Rwamagana district",
-    "domain": ""
+    "domain": "",
+    "population": 28525
   },
   {
     "id": "RW-130",
@@ -1005,7 +1100,8 @@
     "country": "RW",
     "region": "Nyagatare District",
     "domain": "nyagatare.gov.rw",
-    "osm_relation_id": 1718814
+    "osm_relation_id": 1718814,
+    "population": 43719
   },
   {
     "id": "RW-132",
@@ -1021,7 +1117,8 @@
     "country": "RW",
     "region": "Kamonyi District",
     "domain": "kamonyi.gov.rw",
-    "osm_relation_id": 3954862
+    "osm_relation_id": 3954862,
+    "population": 25209
   },
   {
     "id": "RW-134",
@@ -1029,7 +1126,8 @@
     "country": "RW",
     "region": "Kamonyi District",
     "domain": "kamonyi.gov.rw",
-    "osm_relation_id": 3954863
+    "osm_relation_id": 3954863,
+    "population": 17106
   },
   {
     "id": "RW-135",
@@ -1037,7 +1135,8 @@
     "country": "RW",
     "region": "Eastern Province",
     "domain": "",
-    "osm_relation_id": 1727478
+    "osm_relation_id": 1727478,
+    "population": 32450
   },
   {
     "id": "RW-136",
@@ -1051,7 +1150,8 @@
     "name": "Kibeho Sector",
     "country": "RW",
     "region": "Nyaruguru District",
-    "domain": "nyaruguru.gov.rw"
+    "domain": "nyaruguru.gov.rw",
+    "population": 21456
   },
   {
     "id": "RW-138",
@@ -1059,14 +1159,16 @@
     "country": "RW",
     "region": "Gisagara District",
     "domain": "gisagara.gov.rw",
-    "osm_relation_id": 1729959
+    "osm_relation_id": 1729959,
+    "population": 31445
   },
   {
     "id": "RW-139",
     "name": "Kibirizi",
     "country": "RW",
     "region": "Rwanda",
-    "domain": ""
+    "domain": "",
+    "population": 31445
   },
   {
     "id": "RW-140",
@@ -1074,7 +1176,8 @@
     "country": "RW",
     "region": "Nyanza District",
     "domain": "nyanza.gov.rw",
-    "osm_relation_id": 1730892
+    "osm_relation_id": 1730892,
+    "population": 31445
   },
   {
     "id": "RW-141",
@@ -1089,14 +1192,16 @@
     "country": "RW",
     "region": "Eastern Province",
     "domain": "",
-    "osm_relation_id": 1719026
+    "osm_relation_id": 1719026,
+    "population": 28338
   },
   {
     "id": "RW-143",
     "name": "Kicukiro",
     "country": "RW",
     "region": "Kicukiro District",
-    "domain": "kicukiro.gov.rw"
+    "domain": "kicukiro.gov.rw",
+    "population": 14039
   },
   {
     "id": "RW-144",
@@ -1104,28 +1209,32 @@
     "country": "RW",
     "region": "Eastern Province",
     "domain": "",
-    "osm_relation_id": 1729773
+    "osm_relation_id": 1729773,
+    "population": 47358
   },
   {
     "id": "RW-145",
     "name": "Kigali (sector)",
     "country": "RW",
     "region": "Nyarugenge District",
-    "domain": "nyarugenge.gov.rw"
+    "domain": "nyarugenge.gov.rw",
+    "population": 61499
   },
   {
     "id": "RW-146",
     "name": "Kigarama",
     "country": "RW",
     "region": "Kirehe District",
-    "domain": "kirehe.gov.rw"
+    "domain": "kirehe.gov.rw",
+    "population": 63153
   },
   {
     "id": "RW-147",
     "name": "Kigarama",
     "country": "RW",
     "region": "Kicukiro District",
-    "domain": "kicukiro.gov.rw"
+    "domain": "kicukiro.gov.rw",
+    "population": 63153
   },
   {
     "id": "RW-148",
@@ -1133,7 +1242,8 @@
     "country": "RW",
     "region": "Gisagara District",
     "domain": "gisagara.gov.rw",
-    "osm_relation_id": 1729864
+    "osm_relation_id": 1729864,
+    "population": 22488
   },
   {
     "id": "RW-149",
@@ -1148,7 +1258,8 @@
     "country": "RW",
     "region": "Kirehe District",
     "domain": "kirehe.gov.rw",
-    "osm_relation_id": 1716781
+    "osm_relation_id": 1716781,
+    "population": 34642
   },
   {
     "id": "RW-151",
@@ -1156,7 +1267,8 @@
     "country": "RW",
     "region": "Huye District",
     "domain": "huye.gov.rw",
-    "osm_relation_id": 3952147
+    "osm_relation_id": 3952147,
+    "population": 25455
   },
   {
     "id": "RW-152",
@@ -1164,21 +1276,24 @@
     "country": "RW",
     "region": "Nyanza District",
     "domain": "nyanza.gov.rw",
-    "osm_relation_id": 1730893
+    "osm_relation_id": 1730893,
+    "population": 25455
   },
   {
     "id": "RW-153",
     "name": "Kimihurura",
     "country": "RW",
     "region": "Gasabo District",
-    "domain": "gasabo.gov.rw"
+    "domain": "gasabo.gov.rw",
+    "population": 16425
   },
   {
     "id": "RW-154",
     "name": "Kimiromko",
     "country": "RW",
     "region": "Gasabo District",
-    "domain": "gasabo.gov.rw"
+    "domain": "gasabo.gov.rw",
+    "population": 61733
   },
   {
     "id": "RW-155",
@@ -1186,7 +1301,8 @@
     "country": "RW",
     "region": "Nyarugenge District",
     "domain": "nyarugenge.gov.rw",
-    "osm_relation_id": 16068485
+    "osm_relation_id": 16068485,
+    "population": 56534
   },
   {
     "id": "RW-156",
@@ -1194,7 +1310,8 @@
     "country": "RW",
     "region": "Musanze District",
     "domain": "musanze.gov.rw",
-    "osm_relation_id": 1756509
+    "osm_relation_id": 1756509,
+    "population": 21681
   },
   {
     "id": "RW-157",
@@ -1202,28 +1319,32 @@
     "country": "RW",
     "region": "Huye District",
     "domain": "huye.gov.rw",
-    "osm_relation_id": 3952162
+    "osm_relation_id": 3952162,
+    "population": 33114
   },
   {
     "id": "RW-158",
     "name": "Kinazi",
     "country": "RW",
     "region": "Ruhango District",
-    "domain": "ruhango.gov.rw"
+    "domain": "ruhango.gov.rw",
+    "population": 33114
   },
   {
     "id": "RW-159",
     "name": "Kinigi Sector",
     "country": "RW",
     "region": "Northern Province",
-    "domain": ""
+    "domain": "",
+    "population": 27221
   },
   {
     "id": "RW-160",
     "name": "Kinihira",
     "country": "RW",
     "region": "Ruhango District",
-    "domain": "ruhango.gov.rw"
+    "domain": "ruhango.gov.rw",
+    "population": 17145
   },
   {
     "id": "RW-161",
@@ -1231,7 +1352,8 @@
     "country": "RW",
     "region": "Rulindo District",
     "domain": "rulindo.gov.rw",
-    "osm_relation_id": 1793073
+    "osm_relation_id": 1793073,
+    "population": 17145
   },
   {
     "id": "RW-162",
@@ -1239,7 +1361,8 @@
     "country": "RW",
     "region": "Northern Province",
     "domain": "",
-    "osm_relation_id": 1737413
+    "osm_relation_id": 1737413,
+    "population": 19017
   },
   {
     "id": "RW-163",
@@ -1255,14 +1378,16 @@
     "country": "RW",
     "region": "Northern Province",
     "domain": "",
-    "osm_relation_id": 1736840
+    "osm_relation_id": 1736840,
+    "population": 23746
   },
   {
     "id": "RW-165",
     "name": "Kinyinya",
     "country": "RW",
     "region": "Gasabo District",
-    "domain": "gasabo.gov.rw"
+    "domain": "gasabo.gov.rw",
+    "population": 125400
   },
   {
     "id": "RW-166",
@@ -1270,14 +1395,16 @@
     "country": "RW",
     "region": "Gatsibo District",
     "domain": "gatsibo.gov.rw",
-    "osm_relation_id": 1730284
+    "osm_relation_id": 1730284,
+    "population": 40028
   },
   {
     "id": "RW-167",
     "name": "Kirehe",
     "country": "RW",
     "region": "Kirehe District",
-    "domain": "kirehe.gov.rw"
+    "domain": "kirehe.gov.rw",
+    "population": 29547
   },
   {
     "id": "RW-168",
@@ -1293,7 +1420,8 @@
     "country": "RW",
     "region": "Rulindo District",
     "domain": "rulindo.gov.rw",
-    "osm_relation_id": 1793063
+    "osm_relation_id": 1793063,
+    "population": 23113
   },
   {
     "id": "RW-170",
@@ -1323,7 +1451,8 @@
     "country": "RW",
     "region": "Gakenke District",
     "domain": "gakenke.gov.rw",
-    "osm_relation_id": 1755776
+    "osm_relation_id": 1755776,
+    "population": 19967
   },
   {
     "id": "RW-174",
@@ -1331,7 +1460,8 @@
     "country": "RW",
     "region": "Northern Province",
     "domain": "",
-    "osm_relation_id": 1738774
+    "osm_relation_id": 1738774,
+    "population": 18057
   },
   {
     "id": "RW-175",
@@ -1339,7 +1469,8 @@
     "country": "RW",
     "region": "Nyagatare District",
     "domain": "nyagatare.gov.rw",
-    "osm_relation_id": 1718817
+    "osm_relation_id": 1718817,
+    "population": 18801
   },
   {
     "id": "RW-176",
@@ -1355,7 +1486,8 @@
     "country": "RW",
     "region": "Gatsibo District",
     "domain": "gatsibo.gov.rw",
-    "osm_relation_id": 1730290
+    "osm_relation_id": 1730290,
+    "population": 39757
   },
   {
     "id": "RW-178",
@@ -1370,14 +1502,16 @@
     "name": "Mageragere Sector",
     "country": "RW",
     "region": "Nyarugenge District",
-    "domain": "nyarugenge.gov.rw"
+    "domain": "nyarugenge.gov.rw",
+    "population": 59747
   },
   {
     "id": "RW-180",
     "name": "Mahama",
     "country": "RW",
     "region": "Kirehe District",
-    "domain": "kirehe.gov.rw"
+    "domain": "kirehe.gov.rw",
+    "population": 81014
   },
   {
     "id": "RW-181",
@@ -1393,7 +1527,8 @@
     "country": "RW",
     "region": "Gisagara District",
     "domain": "gisagara.gov.rw",
-    "osm_relation_id": 1729998
+    "osm_relation_id": 1729998,
+    "population": 45283
   },
   {
     "id": "RW-183",
@@ -1408,28 +1543,32 @@
     "country": "RW",
     "region": "Gicumbi District",
     "domain": "gicumbi.gov.rw",
-    "osm_relation_id": 1796177
+    "osm_relation_id": 1796177,
+    "population": 22635
   },
   {
     "id": "RW-185",
     "name": "Maraba",
     "country": "RW",
     "region": "Huye District",
-    "domain": "huye.gov.rw"
+    "domain": "huye.gov.rw",
+    "population": 26807
   },
   {
     "id": "RW-186",
     "name": "Mareba",
     "country": "RW",
     "region": "Bugesera District",
-    "domain": "bugesera.gov.rw"
+    "domain": "bugesera.gov.rw",
+    "population": 29266
   },
   {
     "id": "RW-187",
     "name": "Masaka Sector",
     "country": "RW",
     "region": "Kigali",
-    "domain": ""
+    "domain": "",
+    "population": 39548
   },
   {
     "id": "RW-188",
@@ -1444,7 +1583,8 @@
     "country": "RW",
     "region": "Gakenke District",
     "domain": "gakenke.gov.rw",
-    "osm_relation_id": 1755741
+    "osm_relation_id": 1755741,
+    "population": 15520
   },
   {
     "id": "RW-190",
@@ -1452,7 +1592,8 @@
     "country": "RW",
     "region": "Eastern Province",
     "domain": "",
-    "osm_relation_id": 1718823
+    "osm_relation_id": 1718823,
+    "population": 28487
   },
   {
     "id": "RW-191",
@@ -1468,7 +1609,8 @@
     "country": "RW",
     "region": "Bugesera District",
     "domain": "bugesera.gov.rw",
-    "osm_relation_id": 1728624
+    "osm_relation_id": 1728624,
+    "population": 54084
   },
   {
     "id": "RW-193",
@@ -1476,7 +1618,8 @@
     "country": "RW",
     "region": "Huye District",
     "domain": "huye.gov.rw",
-    "osm_relation_id": 3952148
+    "osm_relation_id": 3952148,
+    "population": 35807
   },
   {
     "id": "RW-194",
@@ -1484,7 +1627,8 @@
     "country": "RW",
     "region": "Nyamagabe District",
     "domain": "nyamagabe.gov.rw",
-    "osm_relation_id": 3966164
+    "osm_relation_id": 3966164,
+    "population": 35807
   },
   {
     "id": "RW-195",
@@ -1499,7 +1643,8 @@
     "country": "RW",
     "region": "Nyagatare District",
     "domain": "nyagatare.gov.rw",
-    "osm_relation_id": 1718826
+    "osm_relation_id": 1718826,
+    "population": 34373
   },
   {
     "id": "RW-197",
@@ -1507,7 +1652,8 @@
     "country": "RW",
     "region": "Gakenke District",
     "domain": "gakenke.gov.rw",
-    "osm_relation_id": 1755734
+    "osm_relation_id": 1755734,
+    "population": 14193
   },
   {
     "id": "RW-198",
@@ -1515,14 +1661,16 @@
     "country": "RW",
     "region": "Gicumbi District",
     "domain": "gicumbi.gov.rw",
-    "osm_relation_id": 1796178
+    "osm_relation_id": 1796178,
+    "population": 20223
   },
   {
     "id": "RW-199",
     "name": "Mpanga",
     "country": "RW",
     "region": "Kirehe District",
-    "domain": "kirehe.gov.rw"
+    "domain": "kirehe.gov.rw",
+    "population": 40173
   },
   {
     "id": "RW-200",
@@ -1537,7 +1685,8 @@
     "country": "RW",
     "region": "Rubavu District",
     "domain": "rubavu.gov.rw",
-    "osm_relation_id": 2281191
+    "osm_relation_id": 2281191,
+    "population": 32077
   },
   {
     "id": "RW-202",
@@ -1552,21 +1701,24 @@
     "country": "RW",
     "region": "Gisagara District",
     "domain": "gisagara.gov.rw",
-    "osm_relation_id": 1729927
+    "osm_relation_id": 1729927,
+    "population": 36530
   },
   {
     "id": "RW-204",
     "name": "Muganza",
     "country": "RW",
     "region": "Nyaruguru District",
-    "domain": "nyaruguru.gov.rw"
+    "domain": "nyaruguru.gov.rw",
+    "population": 36530
   },
   {
     "id": "RW-205",
     "name": "Muganza",
     "country": "RW",
     "region": "Western Province",
-    "domain": ""
+    "domain": "",
+    "population": 36530
   },
   {
     "id": "RW-206",
@@ -1574,7 +1726,8 @@
     "country": "RW",
     "region": "Eastern Province",
     "domain": "",
-    "osm_relation_id": 1717053
+    "osm_relation_id": 1717053,
+    "population": 28637
   },
   {
     "id": "RW-207",
@@ -1582,7 +1735,8 @@
     "country": "RW",
     "region": "Kamonyi District",
     "domain": "kamonyi.gov.rw",
-    "osm_relation_id": 3952434
+    "osm_relation_id": 3952434,
+    "population": 38709
   },
   {
     "id": "RW-208",
@@ -1590,7 +1744,8 @@
     "country": "RW",
     "region": "Gisagara District",
     "domain": "gisagara.gov.rw",
-    "osm_relation_id": 1729924
+    "osm_relation_id": 1729924,
+    "population": 36469
   },
   {
     "id": "RW-209",
@@ -1598,7 +1753,8 @@
     "country": "RW",
     "region": "Gakenke District",
     "domain": "gakenke.gov.rw",
-    "osm_relation_id": 1755762
+    "osm_relation_id": 1755762,
+    "population": 19963
   },
   {
     "id": "RW-210",
@@ -1612,7 +1768,8 @@
     "name": "Muhanga",
     "country": "RW",
     "region": "Ruanda-Urundi",
-    "domain": ""
+    "domain": "",
+    "population": 319141
   },
   {
     "id": "RW-212",
@@ -1620,14 +1777,16 @@
     "country": "RW",
     "region": "Rwamagana district",
     "domain": "",
-    "osm_relation_id": 1729768
+    "osm_relation_id": 1729768,
+    "population": 53482
   },
   {
     "id": "RW-213",
     "name": "Muhima",
     "country": "RW",
     "region": "Nyarugenge District",
-    "domain": "nyarugenge.gov.rw"
+    "domain": "nyarugenge.gov.rw",
+    "population": 22531
   },
   {
     "id": "RW-214",
@@ -1635,7 +1794,8 @@
     "country": "RW",
     "region": "Gakenke District",
     "domain": "gakenke.gov.rw",
-    "osm_relation_id": 1751828
+    "osm_relation_id": 1751828,
+    "population": 21334
   },
   {
     "id": "RW-215",
@@ -1651,7 +1811,8 @@
     "country": "RW",
     "region": "Musanze District",
     "domain": "musanze.gov.rw",
-    "osm_relation_id": 1756510
+    "osm_relation_id": 1756510,
+    "population": 69741
   },
   {
     "id": "RW-217",
@@ -1659,7 +1820,8 @@
     "country": "RW",
     "region": "Gatsibo District",
     "domain": "gatsibo.gov.rw",
-    "osm_relation_id": 1730295
+    "osm_relation_id": 1730295,
+    "population": 33325
   },
   {
     "id": "RW-218",
@@ -1667,7 +1829,8 @@
     "country": "RW",
     "region": "Nyagatare District",
     "domain": "nyagatare.gov.rw",
-    "osm_relation_id": 1718829
+    "osm_relation_id": 1718829,
+    "population": 25659
   },
   {
     "id": "RW-219",
@@ -1675,7 +1838,8 @@
     "country": "RW",
     "region": "Nyabihu District",
     "domain": "nyabihu.gov.rw",
-    "osm_relation_id": 3972608
+    "osm_relation_id": 3972608,
+    "population": 28675
   },
   {
     "id": "RW-220",
@@ -1683,7 +1847,8 @@
     "country": "RW",
     "region": "Northern Province",
     "domain": "",
-    "osm_relation_id": 1796179
+    "osm_relation_id": 1796179,
+    "population": 18543
   },
   {
     "id": "RW-221",
@@ -1691,7 +1856,8 @@
     "country": "RW",
     "region": "Kayonza District",
     "domain": "kayonza.gov.rw",
-    "osm_relation_id": 1729790
+    "osm_relation_id": 1729790,
+    "population": 54818
   },
   {
     "id": "RW-222",
@@ -1699,7 +1865,8 @@
     "country": "RW",
     "region": "Gisagara District",
     "domain": "gisagara.gov.rw",
-    "osm_relation_id": 1729928
+    "osm_relation_id": 1729928,
+    "population": 32393
   },
   {
     "id": "RW-223",
@@ -1715,7 +1882,8 @@
     "country": "RW",
     "region": "Gicumbi District",
     "domain": "gicumbi.gov.rw",
-    "osm_relation_id": 1796184
+    "osm_relation_id": 1796184,
+    "population": 20050
   },
   {
     "id": "RW-225",
@@ -1723,7 +1891,8 @@
     "country": "RW",
     "region": "Musanze District",
     "domain": "musanze.gov.rw",
-    "osm_relation_id": 1756502
+    "osm_relation_id": 1756502,
+    "population": 26472
   },
   {
     "id": "RW-226",
@@ -1731,14 +1900,16 @@
     "country": "RW",
     "region": "Huye District",
     "domain": "huye.gov.rw",
-    "osm_relation_id": 3952119
+    "osm_relation_id": 3952119,
+    "population": 26340
   },
   {
     "id": "RW-227",
     "name": "Mukura",
     "country": "RW",
     "region": "Rutsiro District",
-    "domain": "rutsiro.gov.rw"
+    "domain": "rutsiro.gov.rw",
+    "population": 26340
   },
   {
     "id": "RW-228",
@@ -1753,14 +1924,16 @@
     "country": "RW",
     "region": "Rwamagana district",
     "domain": "",
-    "osm_relation_id": 1729117
+    "osm_relation_id": 1729117,
+    "population": 20812
   },
   {
     "id": "RW-230",
     "name": "Munyiginya",
     "country": "RW",
     "region": "Rwamagana district",
-    "domain": ""
+    "domain": "",
+    "population": 24197
   },
   {
     "id": "RW-231",
@@ -1768,7 +1941,8 @@
     "country": "RW",
     "region": "Kayonza District",
     "domain": "kayonza.gov.rw",
-    "osm_relation_id": 1715256
+    "osm_relation_id": 1715256,
+    "population": 23381
   },
   {
     "id": "RW-232",
@@ -1776,14 +1950,16 @@
     "country": "RW",
     "region": "Eastern Province",
     "domain": "",
-    "osm_relation_id": 1719035
+    "osm_relation_id": 1719035,
+    "population": 26702
   },
   {
     "id": "RW-233",
     "name": "Murambi",
     "country": "RW",
     "region": "Karongi district",
-    "domain": "karongi.gov.rw"
+    "domain": "karongi.gov.rw",
+    "population": 38498
   },
   {
     "id": "RW-234",
@@ -1791,7 +1967,8 @@
     "country": "RW",
     "region": "Gatsibo District",
     "domain": "gatsibo.gov.rw",
-    "osm_relation_id": 1730283
+    "osm_relation_id": 1730283,
+    "population": 38498
   },
   {
     "id": "RW-235",
@@ -1815,7 +1992,8 @@
     "country": "RW",
     "region": "Karongi district",
     "domain": "karongi.gov.rw",
-    "osm_relation_id": 1820471
+    "osm_relation_id": 1820471,
+    "population": 57809
   },
   {
     "id": "RW-238",
@@ -1823,7 +2001,8 @@
     "country": "RW",
     "region": "Kayonza District",
     "domain": "kayonza.gov.rw",
-    "osm_relation_id": 1729798
+    "osm_relation_id": 1729798,
+    "population": 57809
   },
   {
     "id": "RW-239",
@@ -1838,7 +2017,8 @@
     "country": "RW",
     "region": "Kamonyi District",
     "domain": "kamonyi.gov.rw",
-    "osm_relation_id": 3953742
+    "osm_relation_id": 3953742,
+    "population": 42198
   },
   {
     "id": "RW-241",
@@ -1854,7 +2034,8 @@
     "country": "RW",
     "region": "Northern Province",
     "domain": "",
-    "osm_relation_id": 1756511
+    "osm_relation_id": 1756511,
+    "population": 31864
   },
   {
     "id": "RW-243",
@@ -1868,7 +2049,8 @@
     "name": "Musaza",
     "country": "RW",
     "region": "Kirehe District",
-    "domain": "kirehe.gov.rw"
+    "domain": "kirehe.gov.rw",
+    "population": 30095
   },
   {
     "id": "RW-245",
@@ -1884,7 +2066,8 @@
     "country": "RW",
     "region": "Bugesera District",
     "domain": "bugesera.gov.rw",
-    "osm_relation_id": 1728625
+    "osm_relation_id": 1728625,
+    "population": 40610
   },
   {
     "id": "RW-247",
@@ -1892,7 +2075,8 @@
     "country": "RW",
     "region": "Gisagara District",
     "domain": "gisagara.gov.rw",
-    "osm_relation_id": 1729993
+    "osm_relation_id": 1729993,
+    "population": 28762
   },
   {
     "id": "RW-248",
@@ -1900,7 +2084,8 @@
     "country": "RW",
     "region": "Rwamagana district",
     "domain": "",
-    "osm_relation_id": 1729748
+    "osm_relation_id": 1729748,
+    "population": 27525
   },
   {
     "id": "RW-249",
@@ -1908,7 +2093,8 @@
     "country": "RW",
     "region": "Nyagatare District",
     "domain": "nyagatare.gov.rw",
-    "osm_relation_id": 1718833
+    "osm_relation_id": 1718833,
+    "population": 37343
   },
   {
     "id": "RW-250",
@@ -1916,7 +2102,8 @@
     "country": "RW",
     "region": "Kirehe District",
     "domain": "kirehe.gov.rw",
-    "osm_relation_id": 1727581
+    "osm_relation_id": 1727581,
+    "population": 32841
   },
   {
     "id": "RW-251",
@@ -1940,7 +2127,8 @@
     "country": "RW",
     "region": "Rutsiro District",
     "domain": "rutsiro.gov.rw",
-    "osm_relation_id": 3969657
+    "osm_relation_id": 3969657,
+    "population": 31539
   },
   {
     "id": "RW-254",
@@ -1956,7 +2144,8 @@
     "country": "RW",
     "region": "Eastern Province",
     "domain": "",
-    "osm_relation_id": 1716801
+    "osm_relation_id": 1716801,
+    "population": 24915
   },
   {
     "id": "RW-256",
@@ -1964,7 +2153,8 @@
     "country": "RW",
     "region": "Gicumbi District",
     "domain": "gicumbi.gov.rw",
-    "osm_relation_id": 1793995
+    "osm_relation_id": 1793995,
+    "population": 27517
   },
   {
     "id": "RW-257",
@@ -1988,7 +2178,8 @@
     "country": "RW",
     "region": "Gakenke District",
     "domain": "gakenke.gov.rw",
-    "osm_relation_id": 1755873
+    "osm_relation_id": 1755873,
+    "population": 16053
   },
   {
     "id": "RW-260",
@@ -1996,7 +2187,8 @@
     "country": "RW",
     "region": "Rwamagana district",
     "domain": "",
-    "osm_relation_id": 1729778
+    "osm_relation_id": 1729778,
+    "population": 56881
   },
   {
     "id": "RW-261",
@@ -2004,7 +2196,8 @@
     "country": "RW",
     "region": "Gakenke District",
     "domain": "gakenke.gov.rw",
-    "osm_relation_id": 1755764
+    "osm_relation_id": 1755764,
+    "population": 21816
   },
   {
     "id": "RW-262",
@@ -2019,14 +2212,16 @@
     "country": "RW",
     "region": "Kayonza District",
     "domain": "kayonza.gov.rw",
-    "osm_relation_id": 1729800
+    "osm_relation_id": 1729800,
+    "population": 37931
   },
   {
     "id": "RW-264",
     "name": "Mwogo",
     "country": "RW",
     "region": "Bugesera District",
-    "domain": "bugesera.gov.rw"
+    "domain": "bugesera.gov.rw",
+    "population": 30171
   },
   {
     "id": "RW-265",
@@ -2034,7 +2229,8 @@
     "country": "RW",
     "region": "Rwamagana district",
     "domain": "",
-    "osm_relation_id": 1729785
+    "osm_relation_id": 1729785,
+    "population": 33936
   },
   {
     "id": "RW-266",
@@ -2042,7 +2238,8 @@
     "country": "RW",
     "region": "Kirehe District",
     "domain": "kirehe.gov.rw",
-    "osm_relation_id": 1727585
+    "osm_relation_id": 1727585,
+    "population": 33665
   },
   {
     "id": "RW-267",
@@ -2058,28 +2255,32 @@
     "country": "RW",
     "region": "Kayonza District",
     "domain": "kayonza.gov.rw",
-    "osm_relation_id": 1715240
+    "osm_relation_id": 1715240,
+    "population": 24389
   },
   {
     "id": "RW-269",
     "name": "Ndera",
     "country": "RW",
     "region": "Gasabo District",
-    "domain": "gasabo.gov.rw"
+    "domain": "gasabo.gov.rw",
+    "population": 95164
   },
   {
     "id": "RW-270",
     "name": "Nduba",
     "country": "RW",
     "region": "Gasabo District",
-    "domain": "gasabo.gov.rw"
+    "domain": "gasabo.gov.rw",
+    "population": 68424
   },
   {
     "id": "RW-271",
     "name": "Nemba",
     "country": "RW",
     "region": "Bugesera District",
-    "domain": "bugesera.gov.rw"
+    "domain": "bugesera.gov.rw",
+    "population": 21401
   },
   {
     "id": "RW-272",
@@ -2087,7 +2288,8 @@
     "country": "RW",
     "region": "Gakenke District",
     "domain": "gakenke.gov.rw",
-    "osm_relation_id": 1755874
+    "osm_relation_id": 1755874,
+    "population": 16854
   },
   {
     "id": "RW-273",
@@ -2095,14 +2297,16 @@
     "country": "RW",
     "region": "Northern Province",
     "domain": "",
-    "osm_relation_id": 1738773
+    "osm_relation_id": 1738773,
+    "population": 21401
   },
   {
     "id": "RW-274",
     "name": "Ngamba",
     "country": "RW",
     "region": "Kamonyi District",
-    "domain": "kamonyi.gov.rw"
+    "domain": "kamonyi.gov.rw",
+    "population": 16416
   },
   {
     "id": "RW-275",
@@ -2110,7 +2314,8 @@
     "country": "RW",
     "region": "Gatsibo District",
     "domain": "gatsibo.gov.rw",
-    "osm_relation_id": 1729834
+    "osm_relation_id": 1729834,
+    "population": 38006
   },
   {
     "id": "RW-276",
@@ -2124,7 +2329,8 @@
     "name": "Ngeruka",
     "country": "RW",
     "region": "Bugesera District",
-    "domain": "bugesera.gov.rw"
+    "domain": "bugesera.gov.rw",
+    "population": 37328
   },
   {
     "id": "RW-278",
@@ -2132,14 +2338,16 @@
     "country": "RW",
     "region": "Huye District",
     "domain": "huye.gov.rw",
-    "osm_relation_id": 3952123
+    "osm_relation_id": 3952123,
+    "population": 35578
   },
   {
     "id": "RW-279",
     "name": "Ngoma",
     "country": "RW",
     "region": "Nyaruguru District",
-    "domain": "nyaruguru.gov.rw"
+    "domain": "nyaruguru.gov.rw",
+    "population": 35578
   },
   {
     "id": "RW-280",
@@ -2147,14 +2355,16 @@
     "country": "RW",
     "region": "Rulindo District",
     "domain": "rulindo.gov.rw",
-    "osm_relation_id": 1792997
+    "osm_relation_id": 1792997,
+    "population": 12703
   },
   {
     "id": "RW-281",
     "name": "Niboye",
     "country": "RW",
     "region": "Kicukiro District",
-    "domain": "kicukiro.gov.rw"
+    "domain": "kicukiro.gov.rw",
+    "population": 26912
   },
   {
     "id": "RW-282",
@@ -2182,7 +2392,8 @@
     "name": "Nkotsi",
     "country": "RW",
     "region": "Musanze District",
-    "domain": "musanze.gov.rw"
+    "domain": "musanze.gov.rw",
+    "population": 17349
   },
   {
     "id": "RW-286",
@@ -2197,7 +2408,8 @@
     "country": "RW",
     "region": "Eastern Province",
     "domain": "",
-    "osm_relation_id": 1727935
+    "osm_relation_id": 1727935,
+    "population": 45530
   },
   {
     "id": "RW-288",
@@ -2212,7 +2424,8 @@
     "country": "RW",
     "region": "Nyanza District",
     "domain": "nyanza.gov.rw",
-    "osm_relation_id": 1730895
+    "osm_relation_id": 1730895,
+    "population": 33826
   },
   {
     "id": "RW-290",
@@ -2243,7 +2456,8 @@
     "country": "RW",
     "region": "Nyamasheke District",
     "domain": "nyamasheke.gov.rw",
-    "osm_relation_id": 3973102
+    "osm_relation_id": 3973102,
+    "population": 29293
   },
   {
     "id": "RW-294",
@@ -2251,7 +2465,8 @@
     "country": "RW",
     "region": "Eastern Province",
     "domain": "",
-    "osm_relation_id": 1718836
+    "osm_relation_id": 1718836,
+    "population": 52107
   },
   {
     "id": "RW-295",
@@ -2259,7 +2474,8 @@
     "country": "RW",
     "region": "Eastern Province",
     "domain": "",
-    "osm_relation_id": 1729832
+    "osm_relation_id": 1729832,
+    "population": 28812
   },
   {
     "id": "RW-296",
@@ -2282,7 +2498,8 @@
     "name": "Nyakabanda",
     "country": "RW",
     "region": "Nyarugenge District",
-    "domain": "nyarugenge.gov.rw"
+    "domain": "nyarugenge.gov.rw",
+    "population": 29580
   },
   {
     "id": "RW-299",
@@ -2297,7 +2514,8 @@
     "country": "RW",
     "region": "Rwamagana district",
     "domain": "",
-    "osm_relation_id": 1728634
+    "osm_relation_id": 1728634,
+    "population": 37538
   },
   {
     "id": "RW-301",
@@ -2312,7 +2530,8 @@
     "country": "RW",
     "region": "Rubavu District",
     "domain": "rubavu.gov.rw",
-    "osm_relation_id": 2281192
+    "osm_relation_id": 2281192,
+    "population": 50834
   },
   {
     "id": "RW-303",
@@ -2327,28 +2546,32 @@
     "country": "RW",
     "region": "Eastern Province",
     "domain": "",
-    "osm_relation_id": 3952506
+    "osm_relation_id": 3952506,
+    "population": 34922
   },
   {
     "id": "RW-305",
     "name": "Nyamirama",
     "country": "RW",
     "region": "Kayonza District",
-    "domain": "kayonza.gov.rw"
+    "domain": "kayonza.gov.rw",
+    "population": 38562
   },
   {
     "id": "RW-306",
     "name": "Nyamirambo",
     "country": "RW",
     "region": "Nyarugenge District",
-    "domain": "nyarugenge.gov.rw"
+    "domain": "nyarugenge.gov.rw",
+    "population": 55315
   },
   {
     "id": "RW-307",
     "name": "Nyamiyaga",
     "country": "RW",
     "region": "Kamonyi District",
-    "domain": "kamonyi.gov.rw"
+    "domain": "kamonyi.gov.rw",
+    "population": 45645
   },
   {
     "id": "RW-308",
@@ -2356,7 +2579,8 @@
     "country": "RW",
     "region": "Gicumbi District",
     "domain": "gicumbi.gov.rw",
-    "osm_relation_id": 1796185
+    "osm_relation_id": 1796185,
+    "population": 20939
   },
   {
     "id": "RW-309",
@@ -2364,7 +2588,8 @@
     "country": "RW",
     "region": "Kirehe District",
     "domain": "kirehe.gov.rw",
-    "osm_relation_id": 1714379
+    "osm_relation_id": 1714379,
+    "population": 42938
   },
   {
     "id": "RW-310",
@@ -2372,7 +2597,8 @@
     "country": "RW",
     "region": "Rubavu District",
     "domain": "rubavu.gov.rw",
-    "osm_relation_id": 2281193
+    "osm_relation_id": 2281193,
+    "population": 48718
   },
   {
     "id": "RW-311",
@@ -2380,7 +2606,8 @@
     "country": "RW",
     "region": "Northern Province",
     "domain": "",
-    "osm_relation_id": 1756038
+    "osm_relation_id": 1756038,
+    "population": 31274
   },
   {
     "id": "RW-312",
@@ -2388,7 +2615,8 @@
     "country": "RW",
     "region": "Western Province",
     "domain": "",
-    "osm_relation_id": 2852671
+    "osm_relation_id": 2852671,
+    "population": 31274
   },
   {
     "id": "RW-313",
@@ -2396,7 +2624,8 @@
     "country": "RW",
     "region": "Gicumbi District",
     "domain": "gicumbi.gov.rw",
-    "osm_relation_id": 1796180
+    "osm_relation_id": 1796180,
+    "population": 27183
   },
   {
     "id": "RW-314",
@@ -2404,7 +2633,8 @@
     "country": "RW",
     "region": "Gisagara District",
     "domain": "gisagara.gov.rw",
-    "osm_relation_id": 1729865
+    "osm_relation_id": 1729865,
+    "population": 19627
   },
   {
     "id": "RW-315",
@@ -2412,7 +2642,8 @@
     "country": "RW",
     "region": "Kamonyi District",
     "domain": "kamonyi.gov.rw",
-    "osm_relation_id": 3953744
+    "osm_relation_id": 3953744,
+    "population": 28225
   },
   {
     "id": "RW-316",
@@ -2420,7 +2651,8 @@
     "country": "RW",
     "region": "Kirehe District",
     "domain": "kirehe.gov.rw",
-    "osm_relation_id": 1714360
+    "osm_relation_id": 1714360,
+    "population": 22660
   },
   {
     "id": "RW-317",
@@ -2428,21 +2660,24 @@
     "country": "RW",
     "region": "Bugesera District",
     "domain": "bugesera.gov.rw",
-    "osm_relation_id": 1727980
+    "osm_relation_id": 1727980,
+    "population": 25406
   },
   {
     "id": "RW-318",
     "name": "Nyarugenge Sector, Nyarugenge",
     "country": "RW",
     "region": "Nyarugenge District",
-    "domain": "nyarugenge.gov.rw"
+    "domain": "nyarugenge.gov.rw",
+    "population": 16665
   },
   {
     "id": "RW-319",
     "name": "Nyarugunga",
     "country": "RW",
     "region": "Kicukiro District",
-    "domain": "kicukiro.gov.rw"
+    "domain": "kicukiro.gov.rw",
+    "population": 49247
   },
   {
     "id": "RW-320",
@@ -2464,7 +2699,8 @@
     "country": "RW",
     "region": "Rwamagana district",
     "domain": "",
-    "osm_relation_id": 1729119
+    "osm_relation_id": 1729119,
+    "population": 19285
   },
   {
     "id": "RW-323",
@@ -2487,7 +2723,8 @@
     "name": "Remera",
     "country": "RW",
     "region": "Gasabo District",
-    "domain": "gasabo.gov.rw"
+    "domain": "gasabo.gov.rw",
+    "population": 38648
   },
   {
     "id": "RW-326",
@@ -2495,7 +2732,8 @@
     "country": "RW",
     "region": "Musanze District",
     "domain": "musanze.gov.rw",
-    "osm_relation_id": 1756504
+    "osm_relation_id": 1756504,
+    "population": 19987
   },
   {
     "id": "RW-327",
@@ -2503,7 +2741,8 @@
     "country": "RW",
     "region": "Gatsibo District",
     "domain": "gatsibo.gov.rw",
-    "osm_relation_id": 1730296
+    "osm_relation_id": 1730296,
+    "population": 31771
   },
   {
     "id": "RW-328",
@@ -2511,7 +2750,8 @@
     "country": "RW",
     "region": "Ngoma District",
     "domain": "ngoma.gov.rw",
-    "osm_relation_id": 1719024
+    "osm_relation_id": 1719024,
+    "population": 32344
   },
   {
     "id": "RW-329",
@@ -2519,7 +2759,8 @@
     "country": "RW",
     "region": "Bugesera District",
     "domain": "bugesera.gov.rw",
-    "osm_relation_id": 1727703
+    "osm_relation_id": 1727703,
+    "population": 32862
   },
   {
     "id": "RW-330",
@@ -2527,7 +2768,8 @@
     "country": "RW",
     "region": "Muhanga District",
     "domain": "muhanga.gov.rw",
-    "osm_relation_id": 3952179
+    "osm_relation_id": 3952179,
+    "population": 29389
   },
   {
     "id": "RW-331",
@@ -2535,7 +2777,8 @@
     "country": "RW",
     "region": "Rubavu District",
     "domain": "rubavu.gov.rw",
-    "osm_relation_id": 2281155
+    "osm_relation_id": 2281155,
+    "population": 80107
   },
   {
     "id": "RW-332",
@@ -2543,7 +2786,8 @@
     "country": "RW",
     "region": "Gicumbi District",
     "domain": "gicumbi.gov.rw",
-    "osm_relation_id": 1796181
+    "osm_relation_id": 1796181,
+    "population": 12044
   },
   {
     "id": "RW-333",
@@ -2551,7 +2795,8 @@
     "country": "RW",
     "region": "Karongi district",
     "domain": "karongi.gov.rw",
-    "osm_relation_id": 1820419
+    "osm_relation_id": 1820419,
+    "population": 33019
   },
   {
     "id": "RW-334",
@@ -2559,7 +2804,8 @@
     "country": "RW",
     "region": "Rwamagana district",
     "domain": "",
-    "osm_relation_id": 1729118
+    "osm_relation_id": 1729118,
+    "population": 29916
   },
   {
     "id": "RW-335",
@@ -2583,7 +2829,8 @@
     "country": "RW",
     "region": "Northern Province",
     "domain": "",
-    "osm_relation_id": 1737414
+    "osm_relation_id": 1737414,
+    "population": 27051
   },
   {
     "id": "RW-338",
@@ -2591,14 +2838,16 @@
     "country": "RW",
     "region": "Gatsibo District",
     "domain": "gatsibo.gov.rw",
-    "osm_relation_id": 1730291
+    "osm_relation_id": 1730291,
+    "population": 49442
   },
   {
     "id": "RW-339",
     "name": "Rugarika",
     "country": "RW",
     "region": "Kamonyi District",
-    "domain": "kamonyi.gov.rw"
+    "domain": "kamonyi.gov.rw",
+    "population": 59952
   },
   {
     "id": "RW-340",
@@ -2614,7 +2863,8 @@
     "country": "RW",
     "region": "Northern Province",
     "domain": "",
-    "osm_relation_id": 1738766
+    "osm_relation_id": 1738766,
+    "population": 20920
   },
   {
     "id": "RW-342",
@@ -2630,14 +2880,16 @@
     "country": "RW",
     "region": "Rubavu District",
     "domain": "rubavu.gov.rw",
-    "osm_relation_id": 2281156
+    "osm_relation_id": 2281156,
+    "population": 66926
   },
   {
     "id": "RW-344",
     "name": "Ruhango Sector",
     "country": "RW",
     "region": "Rutsiro District",
-    "domain": "rutsiro.gov.rw"
+    "domain": "rutsiro.gov.rw",
+    "population": 17051
   },
   {
     "id": "RW-345",
@@ -2660,7 +2912,8 @@
     "country": "RW",
     "region": "Huye District",
     "domain": "huye.gov.rw",
-    "osm_relation_id": 3952156
+    "osm_relation_id": 3952156,
+    "population": 24050
   },
   {
     "id": "RW-348",
@@ -2674,7 +2927,8 @@
     "name": "Ruhuha",
     "country": "RW",
     "region": "Bugesera District",
-    "domain": "bugesera.gov.rw"
+    "domain": "bugesera.gov.rw",
+    "population": 30028
   },
   {
     "id": "RW-350",
@@ -2682,7 +2936,8 @@
     "country": "RW",
     "region": "Northern Province",
     "domain": "",
-    "osm_relation_id": 1738781
+    "osm_relation_id": 1738781,
+    "population": 20157
   },
   {
     "id": "RW-351",
@@ -2690,7 +2945,8 @@
     "country": "RW",
     "region": "Kayonza District",
     "domain": "kayonza.gov.rw",
-    "osm_relation_id": 4095223
+    "osm_relation_id": 4095223,
+    "population": 38231
   },
   {
     "id": "RW-352",
@@ -2698,7 +2954,8 @@
     "country": "RW",
     "region": "Eastern Province",
     "domain": "",
-    "osm_relation_id": 1727480
+    "osm_relation_id": 1727480,
+    "population": 29893
   },
   {
     "id": "RW-353",
@@ -2706,14 +2963,16 @@
     "country": "RW",
     "region": "Kamonyi District",
     "domain": "kamonyi.gov.rw",
-    "osm_relation_id": 3954975
+    "osm_relation_id": 3954975,
+    "population": 39688
   },
   {
     "id": "RW-354",
     "name": "Rukomo",
     "country": "RW",
     "region": "Nyagatare District",
-    "domain": "nyagatare.gov.rw"
+    "domain": "nyagatare.gov.rw",
+    "population": 43650
   },
   {
     "id": "RW-355",
@@ -2721,7 +2980,8 @@
     "country": "RW",
     "region": "Northern Province",
     "domain": "",
-    "osm_relation_id": 1796130
+    "osm_relation_id": 1796130,
+    "population": 28127
   },
   {
     "id": "RW-356",
@@ -2729,7 +2989,8 @@
     "country": "RW",
     "region": "Eastern Province",
     "domain": "",
-    "osm_relation_id": 1717054
+    "osm_relation_id": 1717054,
+    "population": 39420
   },
   {
     "id": "RW-357",
@@ -2737,7 +2998,8 @@
     "country": "RW",
     "region": "Gakenke District",
     "domain": "gakenke.gov.rw",
-    "osm_relation_id": 1755735
+    "osm_relation_id": 1755735,
+    "population": 22464
   },
   {
     "id": "RW-358",
@@ -2745,7 +3007,8 @@
     "country": "RW",
     "region": "Northern Province",
     "domain": "",
-    "osm_relation_id": 3954976
+    "osm_relation_id": 3954976,
+    "population": 34839
   },
   {
     "id": "RW-359",
@@ -2759,7 +3022,8 @@
     "name": "Ruramira",
     "country": "RW",
     "region": "Kayonza District",
-    "domain": "kayonza.gov.rw"
+    "domain": "kayonza.gov.rw",
+    "population": 21185
   },
   {
     "id": "RW-361",
@@ -2774,7 +3038,8 @@
     "country": "RW",
     "region": "Eastern Province",
     "domain": "",
-    "osm_relation_id": 1719025
+    "osm_relation_id": 1719025,
+    "population": 33391
   },
   {
     "id": "RW-363",
@@ -2782,7 +3047,8 @@
     "country": "RW",
     "region": "Northern Province",
     "domain": "",
-    "osm_relation_id": 1738767
+    "osm_relation_id": 1738767,
+    "population": 20659
   },
   {
     "id": "RW-364",
@@ -2790,7 +3056,8 @@
     "country": "RW",
     "region": "Gakenke District",
     "domain": "gakenke.gov.rw",
-    "osm_relation_id": 1755765
+    "osm_relation_id": 1755765,
+    "population": 19242
   },
   {
     "id": "RW-365",
@@ -2798,7 +3065,8 @@
     "country": "RW",
     "region": "Huye District",
     "domain": "huye.gov.rw",
-    "osm_relation_id": 3952163
+    "osm_relation_id": 3952163,
+    "population": 29842
   },
   {
     "id": "RW-366",
@@ -2813,7 +3081,8 @@
     "name": "Rusenge",
     "country": "RW",
     "region": "Nyaruguru District",
-    "domain": "nyaruguru.gov.rw"
+    "domain": "nyaruguru.gov.rw",
+    "population": 26911
   },
   {
     "id": "RW-368",
@@ -2821,7 +3090,8 @@
     "country": "RW",
     "region": "Gicumbi District",
     "domain": "gicumbi.gov.rw",
-    "osm_relation_id": 1796131
+    "osm_relation_id": 1796131,
+    "population": 15048
   },
   {
     "id": "RW-369",
@@ -2829,7 +3099,8 @@
     "country": "RW",
     "region": "Gakenke District",
     "domain": "gakenke.gov.rw",
-    "osm_relation_id": 1755875
+    "osm_relation_id": 1755875,
+    "population": 18835
   },
   {
     "id": "RW-370",
@@ -2837,14 +3108,16 @@
     "country": "RW",
     "region": "Rulindo District",
     "domain": "rulindo.gov.rw",
-    "osm_relation_id": 1792251
+    "osm_relation_id": 1792251,
+    "population": 13452
   },
   {
     "id": "RW-371",
     "name": "Rusororo Sector",
     "country": "RW",
     "region": "Gasabo District",
-    "domain": "gasabo.gov.rw"
+    "domain": "gasabo.gov.rw",
+    "population": 35453
   },
   {
     "id": "RW-372",
@@ -2852,14 +3125,16 @@
     "country": "RW",
     "region": "Gicumbi District",
     "domain": "gicumbi.gov.rw",
-    "osm_relation_id": 1793996
+    "osm_relation_id": 1793996,
+    "population": 27837
   },
   {
     "id": "RW-373",
     "name": "Rutunga Sector",
     "country": "RW",
     "region": "Gasabo District",
-    "domain": "gasabo.gov.rw"
+    "domain": "gasabo.gov.rw",
+    "population": 17906
   },
   {
     "id": "RW-374",
@@ -2867,7 +3142,8 @@
     "country": "RW",
     "region": "Gicumbi District",
     "domain": "gicumbi.gov.rw",
-    "osm_relation_id": 1796186
+    "osm_relation_id": 1796186,
+    "population": 21990
   },
   {
     "id": "RW-375",
@@ -2883,7 +3159,8 @@
     "country": "RW",
     "region": "Gicumbi District",
     "domain": "gicumbi.gov.rw",
-    "osm_relation_id": 1793997
+    "osm_relation_id": 1793997,
+    "population": 14821
   },
   {
     "id": "RW-377",
@@ -2891,7 +3168,8 @@
     "country": "RW",
     "region": "Huye District",
     "domain": "huye.gov.rw",
-    "osm_relation_id": 3952157
+    "osm_relation_id": 3952157,
+    "population": 23239
   },
   {
     "id": "RW-378",
@@ -2906,7 +3184,8 @@
     "country": "RW",
     "region": "Musanze District",
     "domain": "musanze.gov.rw",
-    "osm_relation_id": 1756505
+    "osm_relation_id": 1756505,
+    "population": 23120
   },
   {
     "id": "RW-380",
@@ -2914,7 +3193,8 @@
     "country": "RW",
     "region": "Nyagatare District",
     "domain": "nyagatare.gov.rw",
-    "osm_relation_id": 1718844
+    "osm_relation_id": 1718844,
+    "population": 38592
   },
   {
     "id": "RW-381",
@@ -2922,28 +3202,32 @@
     "country": "RW",
     "region": "Northern Province",
     "domain": "",
-    "osm_relation_id": 1738782
+    "osm_relation_id": 1738782,
+    "population": 21611
   },
   {
     "id": "RW-382",
     "name": "Rweru",
     "country": "RW",
     "region": "Bugesera District",
-    "domain": "bugesera.gov.rw"
+    "domain": "bugesera.gov.rw",
+    "population": 37976
   },
   {
     "id": "RW-383",
     "name": "Rwezamenyo",
     "country": "RW",
     "region": "Nyarugenge District",
-    "domain": "nyarugenge.gov.rw"
+    "domain": "nyarugenge.gov.rw",
+    "population": 14754
   },
   {
     "id": "RW-384",
     "name": "Rwimbogo",
     "country": "RW",
     "region": "Rusizi District",
-    "domain": "rusizi.gov.rw"
+    "domain": "rusizi.gov.rw",
+    "population": 49975
   },
   {
     "id": "RW-385",
@@ -2951,7 +3235,8 @@
     "country": "RW",
     "region": "Gatsibo District",
     "domain": "gatsibo.gov.rw",
-    "osm_relation_id": 10311009
+    "osm_relation_id": 10311009,
+    "population": 49975
   },
   {
     "id": "RW-386",
@@ -2959,7 +3244,8 @@
     "country": "RW",
     "region": "Eastern Province",
     "domain": "",
-    "osm_relation_id": 1718847
+    "osm_relation_id": 1718847,
+    "population": 57527
   },
   {
     "id": "RW-387",
@@ -2967,7 +3253,8 @@
     "country": "RW",
     "region": "Kayonza District",
     "domain": "kayonza.gov.rw",
-    "osm_relation_id": 1715257
+    "osm_relation_id": 1715257,
+    "population": 36774
   },
   {
     "id": "RW-388",
@@ -2975,7 +3262,8 @@
     "country": "RW",
     "region": "Eastern Province",
     "domain": "",
-    "osm_relation_id": 1716820
+    "osm_relation_id": 1716820,
+    "population": 28822
   },
   {
     "id": "RW-389",
@@ -2983,7 +3271,8 @@
     "country": "RW",
     "region": "Northern Province",
     "domain": "",
-    "osm_relation_id": 1729985
+    "osm_relation_id": 1729985,
+    "population": 30941
   },
   {
     "id": "RW-390",
@@ -2991,7 +3280,8 @@
     "country": "RW",
     "region": "Gicumbi District",
     "domain": "gicumbi.gov.rw",
-    "osm_relation_id": 1796132
+    "osm_relation_id": 1796132,
+    "population": 18696
   },
   {
     "id": "RW-391",
@@ -3007,7 +3297,8 @@
     "country": "RW",
     "region": "Musanze District",
     "domain": "musanze.gov.rw",
-    "osm_relation_id": 1756039
+    "osm_relation_id": 1756039,
+    "population": 24726
   },
   {
     "id": "RW-393",
@@ -3015,7 +3306,8 @@
     "country": "RW",
     "region": "Bugesera District",
     "domain": "bugesera.gov.rw",
-    "osm_relation_id": 1728583
+    "osm_relation_id": 1728583,
+    "population": 15856
   },
   {
     "id": "RW-394",
@@ -3039,7 +3331,8 @@
     "country": "RW",
     "region": "Huye District",
     "domain": "huye.gov.rw",
-    "osm_relation_id": 3952158
+    "osm_relation_id": 3952158,
+    "population": 23284
   },
   {
     "id": "RW-397",
@@ -3055,7 +3348,8 @@
     "country": "RW",
     "region": "Eastern Province",
     "domain": "",
-    "osm_relation_id": 1718848
+    "osm_relation_id": 1718848,
+    "population": 53528
   },
   {
     "id": "RW-399",
@@ -3071,7 +3365,8 @@
     "country": "RW",
     "region": "Huye District",
     "domain": "huye.gov.rw",
-    "osm_relation_id": 3952120
+    "osm_relation_id": 3952120,
+    "population": 37153
   },
   {
     "id": "RW-401",
@@ -3079,7 +3374,8 @@
     "country": "RW",
     "region": "Rulindo District",
     "domain": "rulindo.gov.rw",
-    "osm_relation_id": 1793064
+    "osm_relation_id": 1793064,
+    "population": 20693
   },
   {
     "id": "RW-402",
@@ -3103,7 +3399,8 @@
     "country": "RW",
     "region": "Ngoma District",
     "domain": "ngoma.gov.rw",
-    "osm_relation_id": 1717055
+    "osm_relation_id": 1717055,
+    "population": 27836
   },
   {
     "id": "RW-405",
@@ -3119,6 +3416,7 @@
     "country": "RW",
     "region": "Rubavu District",
     "domain": "rubavu.gov.rw",
-    "osm_relation_id": 2281154
+    "osm_relation_id": 2281154,
+    "population": 42305
   }
 ]

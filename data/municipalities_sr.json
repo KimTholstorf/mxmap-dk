@@ -5,7 +5,8 @@
     "country": "SR",
     "region": "Marowijne District",
     "domain": "",
-    "osm_relation_id": 13011677
+    "osm_relation_id": 13011677,
+    "population": 5247
   },
   {
     "id": "SR-002",
@@ -27,7 +28,8 @@
     "country": "SR",
     "region": "Paramaribo District",
     "domain": "",
-    "osm_relation_id": 13028393
+    "osm_relation_id": 13028393,
+    "population": 17185
   },
   {
     "id": "SR-005",
@@ -80,7 +82,8 @@
     "country": "SR",
     "region": "Brokopondo District",
     "domain": "",
-    "osm_relation_id": 13024887
+    "osm_relation_id": 13024887,
+    "population": 4793
   },
   {
     "id": "SR-012",
@@ -147,7 +150,8 @@
     "name": "Galibi",
     "country": "SR",
     "region": "Marowijne District",
-    "domain": ""
+    "domain": "",
+    "population": 741
   },
   {
     "id": "SR-021",
@@ -220,7 +224,8 @@
     "name": "Latour",
     "country": "SR",
     "region": "Paramaribo District",
-    "domain": ""
+    "domain": "",
+    "population": 29526
   },
   {
     "id": "SR-031",
@@ -228,7 +233,8 @@
     "country": "SR",
     "region": "Wanica District",
     "domain": "",
-    "osm_relation_id": 13025491
+    "osm_relation_id": 13025491,
+    "population": 19991
   },
   {
     "id": "SR-032",
@@ -236,7 +242,8 @@
     "country": "SR",
     "region": "Paramaribo District",
     "domain": "",
-    "osm_relation_id": 13028404
+    "osm_relation_id": 13028404,
+    "population": 8209
   },
   {
     "id": "SR-033",
@@ -259,14 +266,16 @@
     "country": "SR",
     "region": "Brokopondo District",
     "domain": "",
-    "osm_relation_id": 13005000
+    "osm_relation_id": 13005000,
+    "population": 1171
   },
   {
     "id": "SR-036",
     "name": "Meerzorg",
     "country": "SR",
     "region": "Commewijne District",
-    "domain": ""
+    "domain": "",
+    "population": 12405
   },
   {
     "id": "SR-037",
@@ -295,7 +304,8 @@
     "name": "Nieuw Amsterdam",
     "country": "SR",
     "region": "Commewijne District",
-    "domain": ""
+    "domain": "",
+    "population": 5650
   },
   {
     "id": "SR-041",
@@ -362,7 +372,8 @@
     "country": "SR",
     "region": "Brokopondo District",
     "domain": "",
-    "osm_relation_id": 13005707
+    "osm_relation_id": 13005707,
+    "population": 3076
   },
   {
     "id": "SR-050",
@@ -409,7 +420,8 @@
     "country": "SR",
     "region": "Coronie District",
     "domain": "",
-    "osm_relation_id": 12994995
+    "osm_relation_id": 12994995,
+    "population": 2150
   },
   {
     "id": "SR-056",
@@ -424,7 +436,8 @@
     "country": "SR",
     "region": "Marowijne District",
     "domain": "",
-    "osm_relation_id": 13011763
+    "osm_relation_id": 13011763,
+    "population": 466
   },
   {
     "id": "SR-058",
@@ -448,7 +461,8 @@
     "country": "SR",
     "region": "Coronie District",
     "domain": "",
-    "osm_relation_id": 12995408
+    "osm_relation_id": 12995408,
+    "population": 19304
   },
   {
     "id": "SR-061",
@@ -456,7 +470,8 @@
     "country": "SR",
     "region": "Paramaribo District",
     "domain": "",
-    "osm_relation_id": 13026384
+    "osm_relation_id": 13026384,
+    "population": 19304
   },
   {
     "id": "SR-062",

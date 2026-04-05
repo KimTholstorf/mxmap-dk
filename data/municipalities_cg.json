@@ -39,7 +39,8 @@
     "name": "Boko-Songho District",
     "country": "CG",
     "region": "Bouenza Department",
-    "domain": ""
+    "domain": "",
+    "population": 12575
   },
   {
     "id": "CG-007",
@@ -60,7 +61,8 @@
     "name": "Boundji District",
     "country": "CG",
     "region": "Cuvette Department",
-    "domain": ""
+    "domain": "",
+    "population": 9970
   },
   {
     "id": "CG-010",
@@ -89,14 +91,16 @@
     "country": "CG",
     "region": "Likouala Department",
     "domain": "",
-    "osm_relation_id": 3221052
+    "osm_relation_id": 3221052,
+    "population": 9935
   },
   {
     "id": "CG-014",
     "name": "Enyellé District",
     "country": "CG",
     "region": "Likouala Department",
-    "domain": ""
+    "domain": "",
+    "population": 8481
   },
   {
     "id": "CG-015",
@@ -110,21 +114,24 @@
     "name": "Etoumbi District",
     "country": "CG",
     "region": "Cuvette-Ouest Department",
-    "domain": ""
+    "domain": "",
+    "population": 10862
   },
   {
     "id": "CG-017",
     "name": "Ewo District",
     "country": "CG",
     "region": "Cuvette-Ouest Department",
-    "domain": ""
+    "domain": "",
+    "population": 11457
   },
   {
     "id": "CG-018",
     "name": "Gamboma District",
     "country": "CG",
     "region": "Plateaux Department",
-    "domain": ""
+    "domain": "",
+    "population": 26053
   },
   {
     "id": "CG-019",
@@ -159,7 +166,8 @@
     "name": "Impfondo District",
     "country": "CG",
     "region": "Likouala Department",
-    "domain": ""
+    "domain": "",
+    "population": 39653
   },
   {
     "id": "CG-024",
@@ -215,7 +223,8 @@
     "name": "Kindamba District",
     "country": "CG",
     "region": "Pool Department",
-    "domain": ""
+    "domain": "",
+    "population": 8415
   },
   {
     "id": "CG-032",
@@ -229,21 +238,24 @@
     "name": "Kinkala District",
     "country": "CG",
     "region": "Pool Department",
-    "domain": ""
+    "domain": "",
+    "population": 12102
   },
   {
     "id": "CG-034",
     "name": "Komono District",
     "country": "CG",
     "region": "Lékoumou Department",
-    "domain": ""
+    "domain": "",
+    "population": 8941
   },
   {
     "id": "CG-035",
     "name": "Lekana District",
     "country": "CG",
     "region": "Plateaux Department",
-    "domain": ""
+    "domain": "",
+    "population": 16761
   },
   {
     "id": "CG-036",
@@ -271,7 +283,8 @@
     "name": "Loudima District",
     "country": "CG",
     "region": "Bouenza Department",
-    "domain": ""
+    "domain": "",
+    "population": 19884
   },
   {
     "id": "CG-040",
@@ -285,7 +298,8 @@
     "name": "Loukoléla District",
     "country": "CG",
     "region": "Congo-Oubangui Department",
-    "domain": ""
+    "domain": "",
+    "population": 21442
   },
   {
     "id": "CG-042",
@@ -320,7 +334,8 @@
     "name": "Madingou District",
     "country": "CG",
     "region": "Bouenza Department",
-    "domain": ""
+    "domain": "",
+    "population": 36183
   },
   {
     "id": "CG-047",
@@ -341,7 +356,8 @@
     "name": "Makoua District",
     "country": "CG",
     "region": "Cuvette Department",
-    "domain": ""
+    "domain": "",
+    "population": 20038
   },
   {
     "id": "CG-050",
@@ -383,7 +399,8 @@
     "name": "Mbinda District",
     "country": "CG",
     "region": "Niari Department",
-    "domain": ""
+    "domain": "",
+    "population": 4783
   },
   {
     "id": "CG-056",
@@ -411,7 +428,8 @@
     "name": "Mindouli District",
     "country": "CG",
     "region": "Pool Department",
-    "domain": ""
+    "domain": "",
+    "population": 20462
   },
   {
     "id": "CG-060",
@@ -502,7 +520,8 @@
     "name": "Nkayi District",
     "country": "CG",
     "region": "Bouenza Department",
-    "domain": ""
+    "domain": "",
+    "population": 104083
   },
   {
     "id": "CG-073",
@@ -537,7 +556,8 @@
     "name": "Ollombo District",
     "country": "CG",
     "region": "Plateaux Department",
-    "domain": ""
+    "domain": "",
+    "population": 21272
   },
   {
     "id": "CG-078",
@@ -551,14 +571,16 @@
     "name": "Ouésso District",
     "country": "CG",
     "region": "Sangha Department",
-    "domain": ""
+    "domain": "",
+    "population": 39653
   },
   {
     "id": "CG-080",
     "name": "Owando District",
     "country": "CG",
     "region": "Cuvette Department",
-    "domain": ""
+    "domain": "",
+    "population": 34808
   },
   {
     "id": "CG-081",
@@ -579,21 +601,24 @@
     "name": "Pointe-Noire District",
     "country": "CG",
     "region": "Pointe-Noire Department",
-    "domain": ""
+    "domain": "",
+    "population": 1420612
   },
   {
     "id": "CG-084",
     "name": "Sembé District",
     "country": "CG",
     "region": "Sangha Department",
-    "domain": ""
+    "domain": "",
+    "population": 4957
   },
   {
     "id": "CG-085",
     "name": "Sibiti District",
     "country": "CG",
     "region": "Lékoumou Department",
-    "domain": ""
+    "domain": "",
+    "population": 32296
   },
   {
     "id": "CG-086",
@@ -609,7 +634,8 @@
     "country": "CG",
     "region": "Pointe-Noire Department",
     "domain": "",
-    "osm_relation_id": 16251140
+    "osm_relation_id": 16251140,
+    "population": 21800
   },
   {
     "id": "CG-088",
@@ -651,6 +677,7 @@
     "name": "Zanaga District",
     "country": "CG",
     "region": "Lékoumou Department",
-    "domain": ""
+    "domain": "",
+    "population": 4117
   }
 ]

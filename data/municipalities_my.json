@@ -37,7 +37,8 @@
     "country": "MY",
     "region": "Kedah",
     "domain": "",
-    "osm_relation_id": 6166148
+    "osm_relation_id": 6166148,
+    "population": 142643
   },
   {
     "id": "MY-006",
@@ -61,7 +62,8 @@
     "country": "MY",
     "region": "Johor",
     "domain": "johordt.gov.my",
-    "osm_relation_id": 12306081
+    "osm_relation_id": 12306081,
+    "population": 140000
   },
   {
     "id": "MY-009",
@@ -92,7 +94,8 @@
     "country": "MY",
     "region": "Sandakan Division",
     "domain": "",
-    "osm_relation_id": 15977922
+    "osm_relation_id": 15977922,
+    "population": 101066
   },
   {
     "id": "MY-013",
@@ -139,7 +142,8 @@
     "name": "Bintulu District",
     "country": "MY",
     "region": "Bintulu",
-    "domain": ""
+    "domain": "",
+    "population": 114058
   },
   {
     "id": "MY-019",
@@ -258,7 +262,8 @@
     "country": "MY",
     "region": "Malacca",
     "domain": "",
-    "osm_relation_id": 4463195
+    "osm_relation_id": 4463195,
+    "population": 130719
   },
   {
     "id": "MY-034",
@@ -298,7 +303,8 @@
     "country": "MY",
     "region": "Johor",
     "domain": "pdnj.johor.gov.my",
-    "osm_relation_id": 12306920
+    "osm_relation_id": 12306920,
+    "population": 797882
   },
   {
     "id": "MY-039",
@@ -392,7 +398,8 @@
     "country": "MY",
     "region": "Selangor",
     "domain": "",
-    "osm_relation_id": 12391135
+    "osm_relation_id": 12391135,
+    "population": 878000
   },
   {
     "id": "MY-051",
@@ -416,7 +423,8 @@
     "country": "MY",
     "region": "Kelantan",
     "domain": "",
-    "osm_relation_id": 6311590
+    "osm_relation_id": 6311590,
+    "population": 491237
   },
   {
     "id": "MY-054",
@@ -424,7 +432,8 @@
     "country": "MY",
     "region": "West Coast",
     "domain": "",
-    "osm_relation_id": 15975929
+    "osm_relation_id": 15975929,
+    "population": 452058
   },
   {
     "id": "MY-055",
@@ -455,7 +464,8 @@
     "name": "Kuala Kangsar District",
     "country": "MY",
     "region": "Perak",
-    "domain": ""
+    "domain": "",
+    "population": 39300
   },
   {
     "id": "MY-059",
@@ -502,7 +512,8 @@
     "country": "MY",
     "region": "Negeri Sembilan",
     "domain": "",
-    "osm_relation_id": 10976220
+    "osm_relation_id": 10976220,
+    "population": 71004
   },
   {
     "id": "MY-065",
@@ -518,7 +529,8 @@
     "country": "MY",
     "region": "Terengganu",
     "domain": "",
-    "osm_relation_id": 12570056
+    "osm_relation_id": 12570056,
+    "population": 255109
   },
   {
     "id": "MY-067",
@@ -526,7 +538,8 @@
     "country": "MY",
     "region": "Pahang",
     "domain": "",
-    "osm_relation_id": 10744343
+    "osm_relation_id": 10744343,
+    "population": 607778
   },
   {
     "id": "MY-068",
@@ -541,7 +554,8 @@
     "country": "MY",
     "region": "Kuching",
     "domain": "",
-    "osm_relation_id": 15971408
+    "osm_relation_id": 15971408,
+    "population": 325132
   },
   {
     "id": "MY-070",
@@ -564,7 +578,8 @@
     "name": "Kulim",
     "country": "MY",
     "region": "Kedah",
-    "domain": ""
+    "domain": "",
+    "population": 150000
   },
   {
     "id": "MY-073",
@@ -580,14 +595,16 @@
     "country": "MY",
     "region": "Tawau Division",
     "domain": "",
-    "osm_relation_id": 15974770
+    "osm_relation_id": 15974770,
+    "population": 199830
   },
   {
     "id": "MY-075",
     "name": "Langkawi District",
     "country": "MY",
     "region": "Kedah",
-    "domain": ""
+    "domain": "",
+    "population": 64792
   },
   {
     "id": "MY-076",
@@ -688,7 +705,8 @@
     "name": "Marudi District",
     "country": "MY",
     "region": "Miri",
-    "domain": ""
+    "domain": "",
+    "population": 90100
   },
   {
     "id": "MY-089",
@@ -727,7 +745,8 @@
     "country": "MY",
     "region": "Miri",
     "domain": "miri.sarawak.gov.my",
-    "osm_relation_id": 15974642
+    "osm_relation_id": 15974642,
+    "population": 234541
   },
   {
     "id": "MY-094",
@@ -807,7 +826,8 @@
     "country": "MY",
     "region": "Kelantan",
     "domain": "",
-    "osm_relation_id": 6900420
+    "osm_relation_id": 6900420,
+    "population": 233400
   },
   {
     "id": "MY-104",
@@ -823,7 +843,8 @@
     "country": "MY",
     "region": "Pahang",
     "domain": "mdpekan.gov.my",
-    "osm_relation_id": 10744375
+    "osm_relation_id": 10744375,
+    "population": 105218
   },
   {
     "id": "MY-106",
@@ -911,7 +932,8 @@
     "country": "MY",
     "region": "West Coast",
     "domain": "",
-    "osm_relation_id": 15975848
+    "osm_relation_id": 15975848,
+    "population": 94000
   },
   {
     "id": "MY-117",
@@ -958,7 +980,8 @@
     "name": "Sandakan District",
     "country": "MY",
     "region": "Sandakan Division",
-    "domain": ""
+    "domain": "",
+    "population": 510600
   },
   {
     "id": "MY-123",
@@ -1018,7 +1041,8 @@
     "country": "MY",
     "region": "Tawau Division",
     "domain": "",
-    "osm_relation_id": 15974767
+    "osm_relation_id": 15974767,
+    "population": 35000
   },
   {
     "id": "MY-131",
@@ -1034,7 +1058,8 @@
     "country": "MY",
     "region": "Negeri Sembilan",
     "domain": "",
-    "osm_relation_id": 10976198
+    "osm_relation_id": 10976198,
+    "population": 419536
   },
   {
     "id": "MY-133",
@@ -1058,7 +1083,8 @@
     "country": "MY",
     "region": "Sibu",
     "domain": "sibudo.sarawak.gov.my",
-    "osm_relation_id": 15974654
+    "osm_relation_id": 15974654,
+    "population": 247995
   },
   {
     "id": "MY-136",
@@ -1097,7 +1123,8 @@
     "country": "MY",
     "region": "Kapit",
     "domain": "",
-    "osm_relation_id": 15974656
+    "osm_relation_id": 15974656,
+    "population": 20046
   },
   {
     "id": "MY-141",
@@ -1184,7 +1211,8 @@
     "country": "MY",
     "region": "Tawau Division",
     "domain": "",
-    "osm_relation_id": 15974768
+    "osm_relation_id": 15974768,
+    "population": 113809
   },
   {
     "id": "MY-152",
@@ -1215,7 +1243,8 @@
     "name": "Temerloh",
     "country": "MY",
     "region": "Malaysia",
-    "domain": ""
+    "domain": "",
+    "population": 158724
   },
   {
     "id": "MY-156",
@@ -1223,7 +1252,8 @@
     "country": "MY",
     "region": "Interior Division",
     "domain": "mdtenom.sabah.gov.my",
-    "osm_relation_id": 15974725
+    "osm_relation_id": 15974725,
+    "population": 51328
   },
   {
     "id": "MY-157",

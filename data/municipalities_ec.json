@@ -5,7 +5,8 @@
     "country": "EC",
     "region": "Orellana Province",
     "domain": "aguarico.gob.ec",
-    "osm_relation_id": 114241
+    "osm_relation_id": 114241,
+    "population": 6872
   },
   {
     "id": "EC-002",
@@ -13,7 +14,8 @@
     "country": "EC",
     "region": "Chimborazo Province",
     "domain": "alausi.gob.ec",
-    "osm_relation_id": 108862
+    "osm_relation_id": 108862,
+    "population": 37275
   },
   {
     "id": "EC-003",
@@ -21,7 +23,8 @@
     "country": "EC",
     "region": "Guayas Province",
     "domain": "gadmunicipaljujan.gob.ec",
-    "osm_relation_id": 109459
+    "osm_relation_id": 109459,
+    "population": 25526
   },
   {
     "id": "EC-004",
@@ -29,7 +32,8 @@
     "country": "EC",
     "region": "Tungurahua Province",
     "domain": "ambato.gob.ec",
-    "osm_relation_id": 113433
+    "osm_relation_id": 113433,
+    "population": 370664
   },
   {
     "id": "EC-005",
@@ -37,7 +41,8 @@
     "country": "EC",
     "region": "Imbabura Province",
     "domain": "antonioante.gob.ec",
-    "osm_relation_id": 113985
+    "osm_relation_id": 113985,
+    "population": 53771
   },
   {
     "id": "EC-006",
@@ -45,7 +50,8 @@
     "country": "EC",
     "region": "Pastaza Province",
     "domain": "arajuno.gob.ec",
-    "osm_relation_id": 113867
+    "osm_relation_id": 113867,
+    "population": 9553
   },
   {
     "id": "EC-007",
@@ -53,7 +59,8 @@
     "country": "EC",
     "region": "Napo Province",
     "domain": "archidona.gob.ec",
-    "osm_relation_id": 114273
+    "osm_relation_id": 114273,
+    "population": 30488
   },
   {
     "id": "EC-008",
@@ -61,7 +68,8 @@
     "country": "EC",
     "region": "El Oro Province",
     "domain": "",
-    "osm_relation_id": 108015
+    "osm_relation_id": 108015,
+    "population": 32366
   },
   {
     "id": "EC-009",
@@ -69,14 +77,16 @@
     "country": "EC",
     "region": "Esmeraldas Province",
     "domain": "municipiodeatacames.gob.ec",
-    "osm_relation_id": 113238
+    "osm_relation_id": 113238,
+    "population": 51204
   },
   {
     "id": "EC-010",
     "name": "Atahualpa Cantón",
     "country": "EC",
     "region": "El Oro Province",
-    "domain": ""
+    "domain": "",
+    "population": 6112
   },
   {
     "id": "EC-011",
@@ -84,7 +94,8 @@
     "country": "EC",
     "region": "Cañar Province",
     "domain": "",
-    "osm_relation_id": 108718
+    "osm_relation_id": 108718,
+    "population": 74515
   },
   {
     "id": "EC-012",
@@ -92,7 +103,8 @@
     "country": "EC",
     "region": "Los Ríos Province",
     "domain": "gadmunicipalbaba.gob.ec",
-    "osm_relation_id": 109251
+    "osm_relation_id": 109251,
+    "population": 45296
   },
   {
     "id": "EC-013",
@@ -100,7 +112,8 @@
     "country": "EC",
     "region": "Los Ríos Province",
     "domain": "babahoyo.gob.ec",
-    "osm_relation_id": 109250
+    "osm_relation_id": 109250,
+    "population": 178509
   },
   {
     "id": "EC-014",
@@ -108,7 +121,8 @@
     "country": "EC",
     "region": "Guayas Province",
     "domain": "municipiodebalao.gob.ec",
-    "osm_relation_id": 109445
+    "osm_relation_id": 109445,
+    "population": 25655
   },
   {
     "id": "EC-015",
@@ -116,7 +130,8 @@
     "country": "EC",
     "region": "El Oro Province",
     "domain": "",
-    "osm_relation_id": 108042
+    "osm_relation_id": 108042,
+    "population": 7875
   },
   {
     "id": "EC-016",
@@ -124,7 +139,8 @@
     "country": "EC",
     "region": "Guayas Province",
     "domain": "gadmbalzar.gob.ec",
-    "osm_relation_id": 109449
+    "osm_relation_id": 109449,
+    "population": 57829
   },
   {
     "id": "EC-017",
@@ -132,7 +148,8 @@
     "country": "EC",
     "region": "Tungurahua Province",
     "domain": "municipiobanos.gob.ec",
-    "osm_relation_id": 3824006
+    "osm_relation_id": 3824006,
+    "population": 21908
   },
   {
     "id": "EC-018",
@@ -140,7 +157,8 @@
     "country": "EC",
     "region": "Cañar Province",
     "domain": "",
-    "osm_relation_id": 108716
+    "osm_relation_id": 108716,
+    "population": 18852
   },
   {
     "id": "EC-019",
@@ -148,7 +166,8 @@
     "country": "EC",
     "region": "Manabí Province",
     "domain": "gadbolivar.gob.ec",
-    "osm_relation_id": 112900
+    "osm_relation_id": 112900,
+    "population": 41827
   },
   {
     "id": "EC-020",
@@ -156,7 +175,8 @@
     "country": "EC",
     "region": "Carchi Province",
     "domain": "municipiobolivar.gob.ec",
-    "osm_relation_id": 114042
+    "osm_relation_id": 114042,
+    "population": 15677
   },
   {
     "id": "EC-021",
@@ -164,7 +184,8 @@
     "country": "EC",
     "region": "Los Ríos Province",
     "domain": "buenafe.gob.ec",
-    "osm_relation_id": 3747811
+    "osm_relation_id": 3747811,
+    "population": 74410
   },
   {
     "id": "EC-022",
@@ -172,7 +193,8 @@
     "country": "EC",
     "region": "Loja Province",
     "domain": "",
-    "osm_relation_id": 108119
+    "osm_relation_id": 108119,
+    "population": 26042
   },
   {
     "id": "EC-023",
@@ -180,7 +202,8 @@
     "country": "EC",
     "region": "Azuay Province",
     "domain": "",
-    "osm_relation_id": 2674970
+    "osm_relation_id": 2674970,
+    "population": 22810
   },
   {
     "id": "EC-024",
@@ -188,7 +211,8 @@
     "country": "EC",
     "region": "Bolívar Province",
     "domain": "caluma.gob.ec",
-    "osm_relation_id": 108903
+    "osm_relation_id": 108903,
+    "population": 15607
   },
   {
     "id": "EC-025",
@@ -196,7 +220,8 @@
     "country": "EC",
     "region": "Bolívar Province",
     "domain": "echeandia.gob.ec",
-    "osm_relation_id": 108904
+    "osm_relation_id": 108904,
+    "population": 14654
   },
   {
     "id": "EC-026",
@@ -204,7 +229,8 @@
     "country": "EC",
     "region": "Bolívar Province",
     "domain": "lasnaves.gob.ec",
-    "osm_relation_id": 108905
+    "osm_relation_id": 108905,
+    "population": 7012
   },
   {
     "id": "EC-027",
@@ -212,7 +238,8 @@
     "country": "EC",
     "region": "Morona-Santiago Province",
     "domain": "",
-    "osm_relation_id": 108524
+    "osm_relation_id": 108524,
+    "population": 9602
   },
   {
     "id": "EC-028",
@@ -220,7 +247,8 @@
     "country": "EC",
     "region": "Napo Province",
     "domain": "gadarosemenatola.gob.ec",
-    "osm_relation_id": 114271
+    "osm_relation_id": 114271,
+    "population": 4647
   },
   {
     "id": "EC-029",
@@ -228,7 +256,8 @@
     "country": "EC",
     "region": "Sucumbíos Province",
     "domain": "cascales.gob.ec",
-    "osm_relation_id": 114563
+    "osm_relation_id": 114563,
+    "population": 11744
   },
   {
     "id": "EC-030",
@@ -236,7 +265,8 @@
     "country": "EC",
     "region": "Loja Province",
     "domain": "gadmunicipaldecatamayo.gob.ec",
-    "osm_relation_id": 108271
+    "osm_relation_id": 108271,
+    "population": 35240
   },
   {
     "id": "EC-031",
@@ -244,7 +274,8 @@
     "country": "EC",
     "region": "Pichincha Province",
     "domain": "municipiocayambe.gob.ec",
-    "osm_relation_id": 113716
+    "osm_relation_id": 113716,
+    "population": 105267
   },
   {
     "id": "EC-032",
@@ -252,7 +283,8 @@
     "country": "EC",
     "region": "Cañar Province",
     "domain": "canar.gob.ec",
-    "osm_relation_id": 919715
+    "osm_relation_id": 919715,
+    "population": 52150
   },
   {
     "id": "EC-033",
@@ -260,7 +292,8 @@
     "country": "EC",
     "region": "Loja Province",
     "domain": "",
-    "osm_relation_id": 108103
+    "osm_relation_id": 108103,
+    "population": 14379
   },
   {
     "id": "EC-034",
@@ -268,14 +301,16 @@
     "country": "EC",
     "region": "Zamora Chinchipe",
     "domain": "",
-    "osm_relation_id": 108331
+    "osm_relation_id": 108331,
+    "population": 7882
   },
   {
     "id": "EC-035",
     "name": "Cevallos Canton",
     "country": "EC",
     "region": "Tungurahua Province",
-    "domain": "cevallos.gob.ec"
+    "domain": "cevallos.gob.ec",
+    "population": 10433
   },
   {
     "id": "EC-036",
@@ -283,7 +318,8 @@
     "country": "EC",
     "region": "Loja Province",
     "domain": "",
-    "osm_relation_id": 108205
+    "osm_relation_id": 108205,
+    "population": 6857
   },
   {
     "id": "EC-037",
@@ -291,7 +327,8 @@
     "country": "EC",
     "region": "Chimborazo Province",
     "domain": "gobiernodechambo.gob.ec",
-    "osm_relation_id": 108866
+    "osm_relation_id": 108866,
+    "population": 13431
   },
   {
     "id": "EC-038",
@@ -299,7 +336,8 @@
     "country": "EC",
     "region": "El Oro Province",
     "domain": "",
-    "osm_relation_id": 107890
+    "osm_relation_id": 107890,
+    "population": 2251
   },
   {
     "id": "EC-039",
@@ -307,7 +345,8 @@
     "country": "EC",
     "region": "Bolívar Province",
     "domain": "chillanes.gob.ec",
-    "osm_relation_id": 108900
+    "osm_relation_id": 108900,
+    "population": 19802
   },
   {
     "id": "EC-040",
@@ -315,7 +354,8 @@
     "country": "EC",
     "region": "Bolívar Province",
     "domain": "gadchimbo.gob.ec",
-    "osm_relation_id": 3728204
+    "osm_relation_id": 3728204,
+    "population": 15524
   },
   {
     "id": "EC-041",
@@ -323,7 +363,8 @@
     "country": "EC",
     "region": "Zamora Chinchipe",
     "domain": "",
-    "osm_relation_id": 108327
+    "osm_relation_id": 108327,
+    "population": 10337
   },
   {
     "id": "EC-042",
@@ -331,7 +372,8 @@
     "country": "EC",
     "region": "Manabí Province",
     "domain": "chone.gob.ec",
-    "osm_relation_id": 112904
+    "osm_relation_id": 112904,
+    "population": 128166
   },
   {
     "id": "EC-043",
@@ -339,7 +381,8 @@
     "country": "EC",
     "region": "Azuay Province",
     "domain": "chordeleg.gob.ec",
-    "osm_relation_id": 107291
+    "osm_relation_id": 107291,
+    "population": 12197
   },
   {
     "id": "EC-044",
@@ -347,7 +390,8 @@
     "country": "EC",
     "region": "Chimborazo Province",
     "domain": "",
-    "osm_relation_id": 108859
+    "osm_relation_id": 108859,
+    "population": 10635
   },
   {
     "id": "EC-045",
@@ -355,7 +399,8 @@
     "country": "EC",
     "region": "Guayas Province",
     "domain": "gadcolimes.gob.ec",
-    "osm_relation_id": 109464
+    "osm_relation_id": 109464,
+    "population": 26251
   },
   {
     "id": "EC-046",
@@ -363,7 +408,8 @@
     "country": "EC",
     "region": "Chimborazo Province",
     "domain": "gadcolta.gob.ec",
-    "osm_relation_id": 108865
+    "osm_relation_id": 108865,
+    "population": 30468
   },
   {
     "id": "EC-047",
@@ -371,7 +417,8 @@
     "country": "EC",
     "region": "Guayas Province",
     "domain": "municipiommariduena.gob.ec",
-    "osm_relation_id": 109456
+    "osm_relation_id": 109456,
+    "population": 13183
   },
   {
     "id": "EC-048",
@@ -379,7 +426,8 @@
     "country": "EC",
     "region": "Imbabura Province",
     "domain": "cotacachi.gob.ec",
-    "osm_relation_id": 1779682
+    "osm_relation_id": 1779682,
+    "population": 53001
   },
   {
     "id": "EC-049",
@@ -387,7 +435,8 @@
     "country": "EC",
     "region": "Azuay Province",
     "domain": "cuenca.gob.ec",
-    "osm_relation_id": 107724
+    "osm_relation_id": 107724,
+    "population": 596101
   },
   {
     "id": "EC-050",
@@ -395,7 +444,8 @@
     "country": "EC",
     "region": "Chimborazo Province",
     "domain": "",
-    "osm_relation_id": 108861
+    "osm_relation_id": 108861,
+    "population": 16602
   },
   {
     "id": "EC-051",
@@ -403,7 +453,8 @@
     "country": "EC",
     "region": "Sucumbíos Province",
     "domain": "cuyabeno.gob.ec",
-    "osm_relation_id": 114567
+    "osm_relation_id": 114567,
+    "population": 8852
   },
   {
     "id": "EC-052",
@@ -411,7 +462,8 @@
     "country": "EC",
     "region": "Guayas Province",
     "domain": "daule.gob.ec",
-    "osm_relation_id": 109447
+    "osm_relation_id": 109447,
+    "population": 222446
   },
   {
     "id": "EC-053",
@@ -419,7 +471,8 @@
     "country": "EC",
     "region": "Guayas Province",
     "domain": "duran.gob.ec",
-    "osm_relation_id": 109455
+    "osm_relation_id": 109455,
+    "population": 303910
   },
   {
     "id": "EC-054",
@@ -427,7 +480,8 @@
     "country": "EC",
     "region": "Cañar Province",
     "domain": "",
-    "osm_relation_id": 108717
+    "osm_relation_id": 108717,
+    "population": 6046
   },
   {
     "id": "EC-055",
@@ -435,7 +489,8 @@
     "country": "EC",
     "region": "Manabí Province",
     "domain": "elcarmen.gob.ec",
-    "osm_relation_id": 112906
+    "osm_relation_id": 112906,
+    "population": 120936
   },
   {
     "id": "EC-056",
@@ -443,7 +498,8 @@
     "country": "EC",
     "region": "Napo Province",
     "domain": "gadmunicipalelchaco.gob.ec",
-    "osm_relation_id": 114275
+    "osm_relation_id": 114275,
+    "population": 9252
   },
   {
     "id": "EC-057",
@@ -451,7 +507,8 @@
     "country": "EC",
     "region": "Guayas Province",
     "domain": "",
-    "osm_relation_id": 109453
+    "osm_relation_id": 109453,
+    "population": 79767
   },
   {
     "id": "EC-058",
@@ -459,7 +516,8 @@
     "country": "EC",
     "region": "El Oro Province",
     "domain": "elguabo.gob.ec",
-    "osm_relation_id": 107888
+    "osm_relation_id": 107888,
+    "population": 59536
   },
   {
     "id": "EC-059",
@@ -467,7 +525,8 @@
     "country": "EC",
     "region": "Azuay Province",
     "domain": "",
-    "osm_relation_id": 107286
+    "osm_relation_id": 107286,
+    "population": 2776
   },
   {
     "id": "EC-060",
@@ -475,7 +534,8 @@
     "country": "EC",
     "region": "Zamora Chinchipe",
     "domain": "",
-    "osm_relation_id": 108336
+    "osm_relation_id": 108336,
+    "population": 12768
   },
   {
     "id": "EC-061",
@@ -483,7 +543,8 @@
     "country": "EC",
     "region": "Cañar Province",
     "domain": "",
-    "osm_relation_id": 108715
+    "osm_relation_id": 108715,
+    "population": 9285
   },
   {
     "id": "EC-062",
@@ -491,7 +552,8 @@
     "country": "EC",
     "region": "Guayas Province",
     "domain": "el-triunfo.gob.ec",
-    "osm_relation_id": 285105
+    "osm_relation_id": 285105,
+    "population": 60541
   },
   {
     "id": "EC-063",
@@ -499,14 +561,16 @@
     "country": "EC",
     "region": "Esmeraldas Province",
     "domain": "alcaldiaeloyalfaro.gob.ec",
-    "osm_relation_id": 2675277
+    "osm_relation_id": 2675277,
+    "population": 46305
   },
   {
     "id": "EC-064",
     "name": "Esmeraldas Canton",
     "country": "EC",
     "region": "Esmeraldas Province",
-    "domain": "esmeraldas.gob.ec"
+    "domain": "esmeraldas.gob.ec",
+    "population": 211848
   },
   {
     "id": "EC-065",
@@ -514,7 +578,8 @@
     "country": "EC",
     "region": "Carchi Province",
     "domain": "gadme.gob.ec",
-    "osm_relation_id": 114047
+    "osm_relation_id": 114047,
+    "population": 14522
   },
   {
     "id": "EC-066",
@@ -522,7 +587,8 @@
     "country": "EC",
     "region": "Loja Province",
     "domain": "",
-    "osm_relation_id": 108120
+    "osm_relation_id": 108120,
+    "population": 14119
   },
   {
     "id": "EC-067",
@@ -530,7 +596,8 @@
     "country": "EC",
     "region": "Manabí Province",
     "domain": "flavioalfaro.gob.ec",
-    "osm_relation_id": 112909
+    "osm_relation_id": 112909,
+    "population": 26415
   },
   {
     "id": "EC-068",
@@ -538,7 +605,8 @@
     "country": "EC",
     "region": "Orellana Province",
     "domain": "orellana.gob.ec",
-    "osm_relation_id": 114242
+    "osm_relation_id": 114242,
+    "population": 95130
   },
   {
     "id": "EC-069",
@@ -546,7 +614,8 @@
     "country": "EC",
     "region": "Guayas Province",
     "domain": "municipiobucay.gob.ec",
-    "osm_relation_id": 109457
+    "osm_relation_id": 109457,
+    "population": 11810
   },
   {
     "id": "EC-070",
@@ -554,7 +623,8 @@
     "country": "EC",
     "region": "Azuay Province",
     "domain": "",
-    "osm_relation_id": 107303
+    "osm_relation_id": 107303,
+    "population": 12182
   },
   {
     "id": "EC-071",
@@ -562,7 +632,8 @@
     "country": "EC",
     "region": "Sucumbíos Province",
     "domain": "gonzalopizarro.gob.ec",
-    "osm_relation_id": 114562
+    "osm_relation_id": 114562,
+    "population": 10356
   },
   {
     "id": "EC-072",
@@ -570,7 +641,8 @@
     "country": "EC",
     "region": "Loja Province",
     "domain": "gonzanama.gob.ec",
-    "osm_relation_id": 108296
+    "osm_relation_id": 108296,
+    "population": 12247
   },
   {
     "id": "EC-073",
@@ -578,7 +650,8 @@
     "country": "EC",
     "region": "Azuay Province",
     "domain": "",
-    "osm_relation_id": 107287
+    "osm_relation_id": 107287,
+    "population": 3586
   },
   {
     "id": "EC-074",
@@ -586,7 +659,8 @@
     "country": "EC",
     "region": "Azuay Province",
     "domain": "gualaceo.gob.ec",
-    "osm_relation_id": 107289
+    "osm_relation_id": 107289,
+    "population": 43188
   },
   {
     "id": "EC-075",
@@ -594,7 +668,8 @@
     "country": "EC",
     "region": "Morona-Santiago Province",
     "domain": "",
-    "osm_relation_id": 108522
+    "osm_relation_id": 108522,
+    "population": 21892
   },
   {
     "id": "EC-076",
@@ -602,7 +677,8 @@
     "country": "EC",
     "region": "Chimborazo Province",
     "domain": "municipiodeguamote.gob.ec",
-    "osm_relation_id": 108864
+    "osm_relation_id": 108864,
+    "population": 35769
   },
   {
     "id": "EC-077",
@@ -610,7 +686,8 @@
     "country": "EC",
     "region": "Chimborazo Province",
     "domain": "",
-    "osm_relation_id": 108868
+    "osm_relation_id": 108868,
+    "population": 48327
   },
   {
     "id": "EC-078",
@@ -618,7 +695,8 @@
     "country": "EC",
     "region": "Bolívar Province",
     "domain": "guaranda.gob.ec",
-    "osm_relation_id": 108906
+    "osm_relation_id": 108906,
+    "population": 98130
   },
   {
     "id": "EC-079",
@@ -626,14 +704,16 @@
     "country": "EC",
     "region": "Guayas Province",
     "domain": "guayaquil.gob.ec",
-    "osm_relation_id": 109443
+    "osm_relation_id": 109443,
+    "population": 2746403
   },
   {
     "id": "EC-080",
     "name": "Huamboya Canton",
     "country": "EC",
     "region": "Morona-Santiago Province",
-    "domain": ""
+    "domain": "",
+    "population": 10830
   },
   {
     "id": "EC-081",
@@ -641,7 +721,8 @@
     "country": "EC",
     "region": "El Oro Province",
     "domain": "",
-    "osm_relation_id": 107900
+    "osm_relation_id": 107900,
+    "population": 56303
   },
   {
     "id": "EC-082",
@@ -649,14 +730,16 @@
     "country": "EC",
     "region": "Imbabura Province",
     "domain": "ibarra.gob.ec",
-    "osm_relation_id": 113983
+    "osm_relation_id": 113983,
+    "population": 217469
   },
   {
     "id": "EC-083",
     "name": "Isabela Canton",
     "country": "EC",
     "region": "Galápagos Province",
-    "domain": ""
+    "domain": "",
+    "population": 3050
   },
   {
     "id": "EC-084",
@@ -664,7 +747,8 @@
     "country": "EC",
     "region": "Guayas Province",
     "domain": "isidroayora.gob.ec",
-    "osm_relation_id": 1768491
+    "osm_relation_id": 1768491,
+    "population": 14305
   },
   {
     "id": "EC-085",
@@ -672,7 +756,8 @@
     "country": "EC",
     "region": "Manabí Province",
     "domain": "jama.gob.ec",
-    "osm_relation_id": 286820
+    "osm_relation_id": 286820,
+    "population": 16588
   },
   {
     "id": "EC-086",
@@ -680,7 +765,8 @@
     "country": "EC",
     "region": "Manabí Province",
     "domain": "",
-    "osm_relation_id": 286801
+    "osm_relation_id": 286801,
+    "population": 29759
   },
   {
     "id": "EC-087",
@@ -688,7 +774,8 @@
     "country": "EC",
     "region": "Manabí Province",
     "domain": "jipijapa.gob.ec",
-    "osm_relation_id": 281843
+    "osm_relation_id": 281843,
+    "population": 78117
   },
   {
     "id": "EC-088",
@@ -696,7 +783,8 @@
     "country": "EC",
     "region": "Manabí Province",
     "domain": "junin.gob.ec",
-    "osm_relation_id": 112899
+    "osm_relation_id": 112899,
+    "population": 22324
   },
   {
     "id": "EC-089",
@@ -704,7 +792,8 @@
     "country": "EC",
     "region": "Santo Domingo de los Tsáchilas Province",
     "domain": "laconcordia.gob.ec",
-    "osm_relation_id": 288325
+    "osm_relation_id": 288325,
+    "population": 51386
   },
   {
     "id": "EC-090",
@@ -712,14 +801,16 @@
     "country": "EC",
     "region": "Orellana Province",
     "domain": "gadjoyasachas.gob.ec",
-    "osm_relation_id": 114243
+    "osm_relation_id": 114243,
+    "population": 52444
   },
   {
     "id": "EC-091",
     "name": "La Libertad Canton",
     "country": "EC",
     "region": "Santa Elena Province",
-    "domain": "lalibertad.gob.ec"
+    "domain": "lalibertad.gob.ec",
+    "population": 112247
   },
   {
     "id": "EC-092",
@@ -727,7 +818,8 @@
     "country": "EC",
     "region": "Cotopaxi Province",
     "domain": "lamana.gob.ec",
-    "osm_relation_id": 113403
+    "osm_relation_id": 113403,
+    "population": 53793
   },
   {
     "id": "EC-093",
@@ -735,7 +827,8 @@
     "country": "EC",
     "region": "Cañar Province",
     "domain": "",
-    "osm_relation_id": 108713
+    "osm_relation_id": 108713,
+    "population": 62103
   },
   {
     "id": "EC-094",
@@ -743,7 +836,8 @@
     "country": "EC",
     "region": "Sucumbíos Province",
     "domain": "lagoagrio.gob.ec",
-    "osm_relation_id": 114564
+    "osm_relation_id": 114564,
+    "population": 105044
   },
   {
     "id": "EC-095",
@@ -751,7 +845,8 @@
     "country": "EC",
     "region": "El Oro Province",
     "domain": "",
-    "osm_relation_id": 108044
+    "osm_relation_id": 108044,
+    "population": 5738
   },
   {
     "id": "EC-096",
@@ -759,7 +854,8 @@
     "country": "EC",
     "region": "Cotopaxi Province",
     "domain": "latacunga.gob.ec",
-    "osm_relation_id": 113400
+    "osm_relation_id": 113400,
+    "population": 217261
   },
   {
     "id": "EC-097",
@@ -767,7 +863,8 @@
     "country": "EC",
     "region": "Morona-Santiago Province",
     "domain": "",
-    "osm_relation_id": 108528
+    "osm_relation_id": 108528,
+    "population": 7484
   },
   {
     "id": "EC-098",
@@ -775,7 +872,8 @@
     "country": "EC",
     "region": "Loja Province",
     "domain": "",
-    "osm_relation_id": 108289
+    "osm_relation_id": 108289,
+    "population": 250028
   },
   {
     "id": "EC-099",
@@ -783,7 +881,8 @@
     "country": "EC",
     "region": "Guayas Province",
     "domain": "lomasdesargentillo.gob.ec",
-    "osm_relation_id": 109461
+    "osm_relation_id": 109461,
+    "population": 22254
   },
   {
     "id": "EC-100",
@@ -791,7 +890,8 @@
     "country": "EC",
     "region": "Orellana Province",
     "domain": "loreto.gob.ec",
-    "osm_relation_id": 114244
+    "osm_relation_id": 114244,
+    "population": 27720
   },
   {
     "id": "EC-101",
@@ -799,7 +899,8 @@
     "country": "EC",
     "region": "Pichincha Province",
     "domain": "gadmsmb.gob.ec",
-    "osm_relation_id": 113717
+    "osm_relation_id": 113717,
+    "population": 13661
   },
   {
     "id": "EC-102",
@@ -807,7 +908,8 @@
     "country": "EC",
     "region": "Loja Province",
     "domain": "",
-    "osm_relation_id": 108104
+    "osm_relation_id": 108104,
+    "population": 18215
   },
   {
     "id": "EC-103",
@@ -815,7 +917,8 @@
     "country": "EC",
     "region": "El Oro Province",
     "domain": "machala.gob.ec",
-    "osm_relation_id": 107889
+    "osm_relation_id": 107889,
+    "population": 306309
   },
   {
     "id": "EC-104",
@@ -823,7 +926,8 @@
     "country": "EC",
     "region": "Manabí Province",
     "domain": "manta.gob.ec",
-    "osm_relation_id": 112895
+    "osm_relation_id": 112895,
+    "population": 271145
   },
   {
     "id": "EC-105",
@@ -831,14 +935,16 @@
     "country": "EC",
     "region": "El Oro Province",
     "domain": "",
-    "osm_relation_id": 108043
+    "osm_relation_id": 108043,
+    "population": 6870
   },
   {
     "id": "EC-106",
     "name": "Mejía Canton",
     "country": "EC",
     "region": "Pichincha Province",
-    "domain": "municipiodemejia.gob.ec"
+    "domain": "municipiodemejia.gob.ec",
+    "population": 101894
   },
   {
     "id": "EC-107",
@@ -846,7 +952,8 @@
     "country": "EC",
     "region": "Pastaza Province",
     "domain": "municipiomera.gob.ec",
-    "osm_relation_id": 113865
+    "osm_relation_id": 113865,
+    "population": 15087
   },
   {
     "id": "EC-108",
@@ -854,7 +961,8 @@
     "country": "EC",
     "region": "Guayas Province",
     "domain": "milagro.gob.ec",
-    "osm_relation_id": 109450
+    "osm_relation_id": 109450,
+    "population": 195943
   },
   {
     "id": "EC-109",
@@ -862,7 +970,8 @@
     "country": "EC",
     "region": "Carchi Province",
     "domain": "mira.gob.ec",
-    "osm_relation_id": 114046
+    "osm_relation_id": 114046,
+    "population": 12727
   },
   {
     "id": "EC-110",
@@ -870,7 +979,8 @@
     "country": "EC",
     "region": "Los Ríos Province",
     "domain": "mocache.gob.ec",
-    "osm_relation_id": 109256
+    "osm_relation_id": 109256,
+    "population": 42026
   },
   {
     "id": "EC-111",
@@ -878,7 +988,8 @@
     "country": "EC",
     "region": "Tungurahua Province",
     "domain": "municipiomocha.gob.ec",
-    "osm_relation_id": 2676918
+    "osm_relation_id": 2676918,
+    "population": 7260
   },
   {
     "id": "EC-112",
@@ -886,7 +997,8 @@
     "country": "EC",
     "region": "Los Ríos Province",
     "domain": "montalvo.gob.ec",
-    "osm_relation_id": 109249
+    "osm_relation_id": 109249,
+    "population": 28354
   },
   {
     "id": "EC-113",
@@ -894,7 +1006,8 @@
     "country": "EC",
     "region": "Manabí Province",
     "domain": "montecristi.gob.ec",
-    "osm_relation_id": 112894
+    "osm_relation_id": 112894,
+    "population": 99937
   },
   {
     "id": "EC-114",
@@ -902,7 +1015,8 @@
     "country": "EC",
     "region": "Carchi Province",
     "domain": "gadmontufar.gob.ec",
-    "osm_relation_id": 114043
+    "osm_relation_id": 114043,
+    "population": 29590
   },
   {
     "id": "EC-115",
@@ -910,7 +1024,8 @@
     "country": "EC",
     "region": "Morona-Santiago Province",
     "domain": "",
-    "osm_relation_id": 108529
+    "osm_relation_id": 108529,
+    "population": 54935
   },
   {
     "id": "EC-116",
@@ -918,7 +1033,8 @@
     "country": "EC",
     "region": "Esmeraldas Province",
     "domain": "gadmuisne.gob.ec",
-    "osm_relation_id": 113236
+    "osm_relation_id": 113236,
+    "population": 36426
   },
   {
     "id": "EC-117",
@@ -926,7 +1042,8 @@
     "country": "EC",
     "region": "Azuay Province",
     "domain": "nabon.gob.ec",
-    "osm_relation_id": 107296
+    "osm_relation_id": 107296,
+    "population": 14776
   },
   {
     "id": "EC-118",
@@ -934,7 +1051,8 @@
     "country": "EC",
     "region": "Zamora Chinchipe",
     "domain": "nangaritza.gob.ec",
-    "osm_relation_id": 108329
+    "osm_relation_id": 108329,
+    "population": 6429
   },
   {
     "id": "EC-119",
@@ -942,7 +1060,8 @@
     "country": "EC",
     "region": "Guayas Province",
     "domain": "naranjal.gob.ec",
-    "osm_relation_id": 965884
+    "osm_relation_id": 965884,
+    "population": 83691
   },
   {
     "id": "EC-120",
@@ -950,7 +1069,8 @@
     "country": "EC",
     "region": "Guayas Province",
     "domain": "naranjito.gob.ec",
-    "osm_relation_id": 109454
+    "osm_relation_id": 109454,
+    "population": 44169
   },
   {
     "id": "EC-121",
@@ -958,7 +1078,8 @@
     "country": "EC",
     "region": "Guayas Province",
     "domain": "nobol.gob.ec",
-    "osm_relation_id": 109460
+    "osm_relation_id": 109460,
+    "population": 23850
   },
   {
     "id": "EC-122",
@@ -966,7 +1087,8 @@
     "country": "EC",
     "region": "Manabí Province",
     "domain": "olmedo.gob.ec",
-    "osm_relation_id": 286794
+    "osm_relation_id": 286794,
+    "population": 10090
   },
   {
     "id": "EC-123",
@@ -974,7 +1096,8 @@
     "country": "EC",
     "region": "Loja Province",
     "domain": "",
-    "osm_relation_id": 108265
+    "osm_relation_id": 108265,
+    "population": 4164
   },
   {
     "id": "EC-124",
@@ -982,7 +1105,8 @@
     "country": "EC",
     "region": "Imbabura Province",
     "domain": "otavalo.gob.ec",
-    "osm_relation_id": 113981
+    "osm_relation_id": 113981,
+    "population": 114303
   },
   {
     "id": "EC-125",
@@ -990,14 +1114,16 @@
     "country": "EC",
     "region": "Azuay Province",
     "domain": "",
-    "osm_relation_id": 107299
+    "osm_relation_id": 107299,
+    "population": 3422
   },
   {
     "id": "EC-126",
     "name": "Pablo Sexto Canton",
     "country": "EC",
     "region": "Morona-Santiago Province",
-    "domain": ""
+    "domain": "",
+    "population": 2267
   },
   {
     "id": "EC-127",
@@ -1005,7 +1131,8 @@
     "country": "EC",
     "region": "Manabí Province",
     "domain": "pajan.gob.ec",
-    "osm_relation_id": 112890
+    "osm_relation_id": 112890,
+    "population": 41879
   },
   {
     "id": "EC-128",
@@ -1013,7 +1140,8 @@
     "country": "EC",
     "region": "Zamora Chinchipe",
     "domain": "",
-    "osm_relation_id": 108328
+    "osm_relation_id": 108328,
+    "population": 8873
   },
   {
     "id": "EC-129",
@@ -1021,7 +1149,8 @@
     "country": "EC",
     "region": "Los Ríos Province",
     "domain": "palenque.gob.ec",
-    "osm_relation_id": 109254
+    "osm_relation_id": 109254,
+    "population": 24838
   },
   {
     "id": "EC-130",
@@ -1029,7 +1158,8 @@
     "country": "EC",
     "region": "Guayas Province",
     "domain": "",
-    "osm_relation_id": 109465
+    "osm_relation_id": 109465,
+    "population": 18019
   },
   {
     "id": "EC-131",
@@ -1037,7 +1167,8 @@
     "country": "EC",
     "region": "Chimborazo Province",
     "domain": "",
-    "osm_relation_id": 108863
+    "osm_relation_id": 108863,
+    "population": 11796
   },
   {
     "id": "EC-132",
@@ -1045,7 +1176,8 @@
     "country": "EC",
     "region": "Morona-Santiago Province",
     "domain": "",
-    "osm_relation_id": 108531
+    "osm_relation_id": 108531,
+    "population": 11882
   },
   {
     "id": "EC-133",
@@ -1053,7 +1185,8 @@
     "country": "EC",
     "region": "Loja Province",
     "domain": "",
-    "osm_relation_id": 108209
+    "osm_relation_id": 108209,
+    "population": 22841
   },
   {
     "id": "EC-134",
@@ -1061,7 +1194,8 @@
     "country": "EC",
     "region": "Cotopaxi Province",
     "domain": "pangua.gob.ec",
-    "osm_relation_id": 113397
+    "osm_relation_id": 113397,
+    "population": 21867
   },
   {
     "id": "EC-135",
@@ -1069,7 +1203,8 @@
     "country": "EC",
     "region": "Zamora Chinchipe",
     "domain": "",
-    "osm_relation_id": 108332
+    "osm_relation_id": 108332,
+    "population": 4737
   },
   {
     "id": "EC-136",
@@ -1077,14 +1212,16 @@
     "country": "EC",
     "region": "El Oro Province",
     "domain": "",
-    "osm_relation_id": 107885
+    "osm_relation_id": 107885,
+    "population": 83597
   },
   {
     "id": "EC-137",
     "name": "Pastaza Canton",
     "country": "EC",
     "region": "Pastaza Province",
-    "domain": "puyo.gob.ec"
+    "domain": "puyo.gob.ec",
+    "population": 82754
   },
   {
     "id": "EC-138",
@@ -1092,7 +1229,8 @@
     "country": "EC",
     "region": "Tungurahua Province",
     "domain": "patate.gob.ec",
-    "osm_relation_id": 113439
+    "osm_relation_id": 113439,
+    "population": 13879
   },
   {
     "id": "EC-139",
@@ -1100,7 +1238,8 @@
     "country": "EC",
     "region": "Azuay Province",
     "domain": "",
-    "osm_relation_id": 107288
+    "osm_relation_id": 107288,
+    "population": 26782
   },
   {
     "id": "EC-140",
@@ -1108,7 +1247,8 @@
     "country": "EC",
     "region": "Manabí Province",
     "domain": "pedernales.gob.ec",
-    "osm_relation_id": 112908
+    "osm_relation_id": 112908,
+    "population": 70408
   },
   {
     "id": "EC-141",
@@ -1116,7 +1256,8 @@
     "country": "EC",
     "region": "Guayas Province",
     "domain": "",
-    "osm_relation_id": 109463
+    "osm_relation_id": 109463,
+    "population": 52177
   },
   {
     "id": "EC-142",
@@ -1124,7 +1265,8 @@
     "country": "EC",
     "region": "Pichincha Province",
     "domain": "pedromoncayo.gob.ec",
-    "osm_relation_id": 113715
+    "osm_relation_id": 113715,
+    "population": 40483
   },
   {
     "id": "EC-143",
@@ -1132,7 +1274,8 @@
     "country": "EC",
     "region": "Pichincha Province",
     "domain": "pedrovicentemaldonado.gob.ec",
-    "osm_relation_id": 113718
+    "osm_relation_id": 113718,
+    "population": 15475
   },
   {
     "id": "EC-144",
@@ -1140,7 +1283,8 @@
     "country": "EC",
     "region": "Tungurahua Province",
     "domain": "pelileo.gob.ec",
-    "osm_relation_id": 113438
+    "osm_relation_id": 113438,
+    "population": 63897
   },
   {
     "id": "EC-145",
@@ -1148,7 +1292,8 @@
     "country": "EC",
     "region": "Chimborazo Province",
     "domain": "",
-    "osm_relation_id": 2675164
+    "osm_relation_id": 2675164,
+    "population": 6748
   },
   {
     "id": "EC-146",
@@ -1156,7 +1301,8 @@
     "country": "EC",
     "region": "Manabí Province",
     "domain": "municipiopichincha.gob.ec",
-    "osm_relation_id": 112901
+    "osm_relation_id": 112901,
+    "population": 30380
   },
   {
     "id": "EC-147",
@@ -1164,7 +1310,8 @@
     "country": "EC",
     "region": "Imbabura Province",
     "domain": "pimampiro.gob.ec",
-    "osm_relation_id": 113984
+    "osm_relation_id": 113984,
+    "population": 13366
   },
   {
     "id": "EC-148",
@@ -1172,7 +1319,8 @@
     "country": "EC",
     "region": "Loja Province",
     "domain": "",
-    "osm_relation_id": 108105
+    "osm_relation_id": 108105,
+    "population": 10409
   },
   {
     "id": "EC-149",
@@ -1180,7 +1328,8 @@
     "country": "EC",
     "region": "El Oro Province",
     "domain": "",
-    "osm_relation_id": 108041
+    "osm_relation_id": 108041,
+    "population": 29406
   },
   {
     "id": "EC-150",
@@ -1188,7 +1337,8 @@
     "country": "EC",
     "region": "Guayas Province",
     "domain": "municipioplayas.gob.ec",
-    "osm_relation_id": 109442
+    "osm_relation_id": 109442,
+    "population": 58768
   },
   {
     "id": "EC-151",
@@ -1196,7 +1346,8 @@
     "country": "EC",
     "region": "El Oro Province",
     "domain": "",
-    "osm_relation_id": 108009
+    "osm_relation_id": 108009,
+    "population": 13556
   },
   {
     "id": "EC-152",
@@ -1204,7 +1355,8 @@
     "country": "EC",
     "region": "Manabí Province",
     "domain": "portoviejo.gob.ec",
-    "osm_relation_id": 112897
+    "osm_relation_id": 112897,
+    "population": 322925
   },
   {
     "id": "EC-153",
@@ -1212,7 +1364,8 @@
     "country": "EC",
     "region": "Azuay Province",
     "domain": "gadmpucara.gob.ec",
-    "osm_relation_id": 107362
+    "osm_relation_id": 107362,
+    "population": 9693
   },
   {
     "id": "EC-154",
@@ -1220,7 +1373,8 @@
     "country": "EC",
     "region": "Los Ríos Province",
     "domain": "gadpuebloviejo.gob.ec",
-    "osm_relation_id": 109253
+    "osm_relation_id": 109253,
+    "population": 40961
   },
   {
     "id": "EC-155",
@@ -1228,7 +1382,8 @@
     "country": "EC",
     "region": "Manabí Province",
     "domain": "puertolopez.gob.ec",
-    "osm_relation_id": 112888
+    "osm_relation_id": 112888,
+    "population": 25630
   },
   {
     "id": "EC-156",
@@ -1236,7 +1391,8 @@
     "country": "EC",
     "region": "Pichincha Province",
     "domain": "puertoquito.gob.ec",
-    "osm_relation_id": 113719
+    "osm_relation_id": 113719,
+    "population": 25067
   },
   {
     "id": "EC-157",
@@ -1244,7 +1400,8 @@
     "country": "EC",
     "region": "Cotopaxi Province",
     "domain": "municipiopujili.gob.ec",
-    "osm_relation_id": 113398
+    "osm_relation_id": 113398,
+    "population": 66980
   },
   {
     "id": "EC-158",
@@ -1252,7 +1409,8 @@
     "country": "EC",
     "region": "Sucumbíos Province",
     "domain": "putumayo.gob.ec",
-    "osm_relation_id": 114566
+    "osm_relation_id": 114566,
+    "population": 9018
   },
   {
     "id": "EC-159",
@@ -1260,14 +1418,16 @@
     "country": "EC",
     "region": "Loja Province",
     "domain": "",
-    "osm_relation_id": 108075
+    "osm_relation_id": 108075,
+    "population": 16257
   },
   {
     "id": "EC-160",
     "name": "Píllaro Canton",
     "country": "EC",
     "region": "Tungurahua Province",
-    "domain": "pillaro.gob.ec"
+    "domain": "pillaro.gob.ec",
+    "population": 42497
   },
   {
     "id": "EC-161",
@@ -1275,7 +1435,8 @@
     "country": "EC",
     "region": "Chimborazo Province",
     "domain": "gadmriobamba.gob.ec",
-    "osm_relation_id": 108867
+    "osm_relation_id": 108867,
+    "population": 260882
   },
   {
     "id": "EC-162",
@@ -1283,7 +1444,8 @@
     "country": "EC",
     "region": "Esmeraldas Province",
     "domain": "rioverde.gob.ec",
-    "osm_relation_id": 113241
+    "osm_relation_id": 113241,
+    "population": 32885
   },
   {
     "id": "EC-163",
@@ -1291,14 +1453,16 @@
     "country": "EC",
     "region": "Manabí Province",
     "domain": "",
-    "osm_relation_id": 112898
+    "osm_relation_id": 112898,
+    "population": 42688
   },
   {
     "id": "EC-164",
     "name": "Rumiñahui Canton",
     "country": "EC",
     "region": "Pichincha Province",
-    "domain": "ruminahui.gob.ec"
+    "domain": "ruminahui.gob.ec",
+    "population": 107904
   },
   {
     "id": "EC-165",
@@ -1306,7 +1470,8 @@
     "country": "EC",
     "region": "Cotopaxi Province",
     "domain": "salcedo.gob.ec",
-    "osm_relation_id": 113399
+    "osm_relation_id": 113399,
+    "population": 67493
   },
   {
     "id": "EC-166",
@@ -1314,7 +1479,8 @@
     "country": "EC",
     "region": "Santa Elena Province",
     "domain": "salinas.gob.ec",
-    "osm_relation_id": 109438
+    "osm_relation_id": 109438,
+    "population": 86801
   },
   {
     "id": "EC-167",
@@ -1322,7 +1488,8 @@
     "country": "EC",
     "region": "Guayas Province",
     "domain": "salitre.gob.ec",
-    "osm_relation_id": 109452
+    "osm_relation_id": 109452,
+    "population": 61060
   },
   {
     "id": "EC-168",
@@ -1330,7 +1497,8 @@
     "country": "EC",
     "region": "Guayas Province",
     "domain": "",
-    "osm_relation_id": 109451
+    "osm_relation_id": 109451,
+    "population": 98540
   },
   {
     "id": "EC-169",
@@ -1338,7 +1506,8 @@
     "country": "EC",
     "region": "Galápagos Province",
     "domain": "",
-    "osm_relation_id": 2677049
+    "osm_relation_id": 2677049,
+    "population": 8300
   },
   {
     "id": "EC-170",
@@ -1346,7 +1515,8 @@
     "country": "EC",
     "region": "Azuay Province",
     "domain": "sanfernando.gob.ec",
-    "osm_relation_id": 107347
+    "osm_relation_id": 107347,
+    "population": 3738
   },
   {
     "id": "EC-171",
@@ -1354,7 +1524,8 @@
     "country": "EC",
     "region": "Morona-Santiago Province",
     "domain": "",
-    "osm_relation_id": 108523
+    "osm_relation_id": 108523,
+    "population": 4372
   },
   {
     "id": "EC-172",
@@ -1362,7 +1533,8 @@
     "country": "EC",
     "region": "Esmeraldas Province",
     "domain": "municipiosanlorenzo.gob.ec",
-    "osm_relation_id": 2675459
+    "osm_relation_id": 2675459,
+    "population": 48391
   },
   {
     "id": "EC-173",
@@ -1370,7 +1542,8 @@
     "country": "EC",
     "region": "Bolívar Province",
     "domain": "sanmigueldebolivar.gob.ec",
-    "osm_relation_id": 108901
+    "osm_relation_id": 108901,
+    "population": 28349
   },
   {
     "id": "EC-174",
@@ -1378,7 +1551,8 @@
     "country": "EC",
     "region": "Carchi Province",
     "domain": "huaca.gob.ec",
-    "osm_relation_id": 114044
+    "osm_relation_id": 114044,
+    "population": 7937
   },
   {
     "id": "EC-175",
@@ -1386,7 +1560,8 @@
     "country": "EC",
     "region": "Manabí Province",
     "domain": "sanvicente.gob.ec",
-    "osm_relation_id": 112905
+    "osm_relation_id": 112905,
+    "population": 24997
   },
   {
     "id": "EC-176",
@@ -1394,7 +1569,8 @@
     "country": "EC",
     "region": "Manabí Province",
     "domain": "santaana.gob.ec",
-    "osm_relation_id": 112893
+    "osm_relation_id": 112893,
+    "population": 51462
   },
   {
     "id": "EC-177",
@@ -1402,7 +1578,8 @@
     "country": "EC",
     "region": "Pastaza Province",
     "domain": "",
-    "osm_relation_id": 113866
+    "osm_relation_id": 113866,
+    "population": 4521
   },
   {
     "id": "EC-178",
@@ -1410,7 +1587,8 @@
     "country": "EC",
     "region": "Galápagos Province",
     "domain": "",
-    "osm_relation_id": 2677050
+    "osm_relation_id": 2677050,
+    "population": 17233
   },
   {
     "id": "EC-179",
@@ -1418,7 +1596,8 @@
     "country": "EC",
     "region": "Santa Elena Province",
     "domain": "gadse.gob.ec",
-    "osm_relation_id": 109440
+    "osm_relation_id": 109440,
+    "population": 186687
   },
   {
     "id": "EC-180",
@@ -1426,7 +1605,8 @@
     "country": "EC",
     "region": "Azuay Province",
     "domain": "",
-    "osm_relation_id": 107343
+    "osm_relation_id": 107343,
+    "population": 20753
   },
   {
     "id": "EC-181",
@@ -1434,7 +1614,8 @@
     "country": "EC",
     "region": "Guayas Province",
     "domain": "",
-    "osm_relation_id": 109466
+    "osm_relation_id": 109466,
+    "population": 43700
   },
   {
     "id": "EC-182",
@@ -1442,14 +1623,16 @@
     "country": "EC",
     "region": "El Oro Province",
     "domain": "",
-    "osm_relation_id": 107901
+    "osm_relation_id": 107901,
+    "population": 80299
   },
   {
     "id": "EC-183",
     "name": "Santiago de Méndez Canton",
     "country": "EC",
     "region": "Morona-Santiago Province",
-    "domain": ""
+    "domain": "",
+    "population": 9755
   },
   {
     "id": "EC-184",
@@ -1457,7 +1640,8 @@
     "country": "EC",
     "region": "Santo Domingo de los Tsáchilas Province",
     "domain": "santodomingo.gob.ec",
-    "osm_relation_id": 8009485
+    "osm_relation_id": 8009485,
+    "population": 441583
   },
   {
     "id": "EC-185",
@@ -1465,7 +1649,8 @@
     "country": "EC",
     "region": "Cotopaxi Province",
     "domain": "saquisili.gob.ec",
-    "osm_relation_id": 562970
+    "osm_relation_id": 562970,
+    "population": 24356
   },
   {
     "id": "EC-186",
@@ -1473,7 +1658,8 @@
     "country": "EC",
     "region": "Loja Province",
     "domain": "saraguro.gob.ec",
-    "osm_relation_id": 108298
+    "osm_relation_id": 108298,
+    "population": 29111
   },
   {
     "id": "EC-187",
@@ -1489,7 +1675,8 @@
     "country": "EC",
     "region": "Azuay Province",
     "domain": "",
-    "osm_relation_id": 107275
+    "osm_relation_id": 107275,
+    "population": 4613
   },
   {
     "id": "EC-189",
@@ -1497,7 +1684,8 @@
     "country": "EC",
     "region": "Sucumbíos Province",
     "domain": "shushufindi.gob.ec",
-    "osm_relation_id": 114565
+    "osm_relation_id": 114565,
+    "population": 50826
   },
   {
     "id": "EC-190",
@@ -1505,7 +1693,8 @@
     "country": "EC",
     "region": "Cotopaxi Province",
     "domain": "gadmsigchos.gob.ec",
-    "osm_relation_id": 113402
+    "osm_relation_id": 113402,
+    "population": 18460
   },
   {
     "id": "EC-191",
@@ -1513,7 +1702,8 @@
     "country": "EC",
     "region": "Guayas Province",
     "domain": "",
-    "osm_relation_id": 109458
+    "osm_relation_id": 109458,
+    "population": 29427
   },
   {
     "id": "EC-192",
@@ -1521,7 +1711,8 @@
     "country": "EC",
     "region": "Loja Province",
     "domain": "sozoranga.gob.ec",
-    "osm_relation_id": 108118
+    "osm_relation_id": 108118,
+    "population": 6970
   },
   {
     "id": "EC-193",
@@ -1529,7 +1720,8 @@
     "country": "EC",
     "region": "Manabí Province",
     "domain": "sucre.gob.ec",
-    "osm_relation_id": 112902
+    "osm_relation_id": 112902,
+    "population": 62841
   },
   {
     "id": "EC-194",
@@ -1537,7 +1729,8 @@
     "country": "EC",
     "region": "Sucumbíos Province",
     "domain": "gadmsucumbios.gob.ec",
-    "osm_relation_id": 114561
+    "osm_relation_id": 114561,
+    "population": 3174
   },
   {
     "id": "EC-195",
@@ -1545,7 +1738,8 @@
     "country": "EC",
     "region": "Morona-Santiago Province",
     "domain": "",
-    "osm_relation_id": 108527
+    "osm_relation_id": 108527,
+    "population": 23504
   },
   {
     "id": "EC-196",
@@ -1553,7 +1747,8 @@
     "country": "EC",
     "region": "Cañar Province",
     "domain": "",
-    "osm_relation_id": 108714
+    "osm_relation_id": 108714,
+    "population": 4627
   },
   {
     "id": "EC-197",
@@ -1561,7 +1756,8 @@
     "country": "EC",
     "region": "Azuay Province",
     "domain": "sigsig.gob.ec",
-    "osm_relation_id": 107292
+    "osm_relation_id": 107292,
+    "population": 24992
   },
   {
     "id": "EC-198",
@@ -1569,7 +1765,8 @@
     "country": "EC",
     "region": "Morona-Santiago Province",
     "domain": "",
-    "osm_relation_id": 3718294
+    "osm_relation_id": 3718294,
+    "population": 26700
   },
   {
     "id": "EC-199",
@@ -1577,7 +1774,8 @@
     "country": "EC",
     "region": "Napo Province",
     "domain": "tena.gob.ec",
-    "osm_relation_id": 114272
+    "osm_relation_id": 114272,
+    "population": 80816
   },
   {
     "id": "EC-200",
@@ -1585,7 +1783,8 @@
     "country": "EC",
     "region": "Tungurahua Province",
     "domain": "tisaleo.gob.ec",
-    "osm_relation_id": 113434
+    "osm_relation_id": 113434,
+    "population": 13910
   },
   {
     "id": "EC-201",
@@ -1593,7 +1792,8 @@
     "country": "EC",
     "region": "Morona-Santiago Province",
     "domain": "",
-    "osm_relation_id": 108525
+    "osm_relation_id": 108525,
+    "population": 9285
   },
   {
     "id": "EC-202",
@@ -1601,7 +1801,8 @@
     "country": "EC",
     "region": "Manabí Province",
     "domain": "tosagua.gob.ec",
-    "osm_relation_id": 112903
+    "osm_relation_id": 112903,
+    "population": 42853
   },
   {
     "id": "EC-203",
@@ -1609,7 +1810,8 @@
     "country": "EC",
     "region": "Carchi Province",
     "domain": "gmtulcan.gob.ec",
-    "osm_relation_id": 114045
+    "osm_relation_id": 114045,
+    "population": 92375
   },
   {
     "id": "EC-204",
@@ -1617,7 +1819,8 @@
     "country": "EC",
     "region": "Imbabura Province",
     "domain": "",
-    "osm_relation_id": 113986
+    "osm_relation_id": 113986,
+    "population": 17969
   },
   {
     "id": "EC-205",
@@ -1625,7 +1828,8 @@
     "country": "EC",
     "region": "Los Ríos Province",
     "domain": "urdaneta.gob.ec",
-    "osm_relation_id": 3747812
+    "osm_relation_id": 3747812,
+    "population": 33151
   },
   {
     "id": "EC-206",
@@ -1633,7 +1837,8 @@
     "country": "EC",
     "region": "Los Ríos Province",
     "domain": "valencia.gob.ec",
-    "osm_relation_id": 109259
+    "osm_relation_id": 109259,
+    "population": 51509
   },
   {
     "id": "EC-207",
@@ -1641,7 +1846,8 @@
     "country": "EC",
     "region": "Manabí Province",
     "domain": "24demayo.gob.ec",
-    "osm_relation_id": 112892
+    "osm_relation_id": 112892,
+    "population": 31473
   },
   {
     "id": "EC-208",
@@ -1649,7 +1855,8 @@
     "country": "EC",
     "region": "Los Ríos Province",
     "domain": "ventanas.gob.ec",
-    "osm_relation_id": 109258
+    "osm_relation_id": 109258,
+    "population": 73211
   },
   {
     "id": "EC-209",
@@ -1657,7 +1864,8 @@
     "country": "EC",
     "region": "Los Ríos Province",
     "domain": "vinces.gob.ec",
-    "osm_relation_id": 109255
+    "osm_relation_id": 109255,
+    "population": 80909
   },
   {
     "id": "EC-210",
@@ -1665,7 +1873,8 @@
     "country": "EC",
     "region": "Zamora Chinchipe",
     "domain": "",
-    "osm_relation_id": 108334
+    "osm_relation_id": 108334,
+    "population": 6391
   },
   {
     "id": "EC-211",
@@ -1673,7 +1882,8 @@
     "country": "EC",
     "region": "Guayas Province",
     "domain": "municipiodeyaguachi.gob.ec",
-    "osm_relation_id": 109448
+    "osm_relation_id": 109448,
+    "population": 72699
   },
   {
     "id": "EC-212",
@@ -1681,7 +1891,8 @@
     "country": "EC",
     "region": "Zamora Chinchipe",
     "domain": "",
-    "osm_relation_id": 108335
+    "osm_relation_id": 108335,
+    "population": 23370
   },
   {
     "id": "EC-213",
@@ -1689,7 +1900,8 @@
     "country": "EC",
     "region": "Zamora Chinchipe",
     "domain": "",
-    "osm_relation_id": 108330
+    "osm_relation_id": 108330,
+    "population": 30186
   },
   {
     "id": "EC-214",
@@ -1697,7 +1909,8 @@
     "country": "EC",
     "region": "Loja Province",
     "domain": "",
-    "osm_relation_id": 108087
+    "osm_relation_id": 108087,
+    "population": 14571
   },
   {
     "id": "EC-215",
@@ -1705,6 +1918,7 @@
     "country": "EC",
     "region": "El Oro Province",
     "domain": "",
-    "osm_relation_id": 108003
+    "osm_relation_id": 108003,
+    "population": 24374
   }
 ]

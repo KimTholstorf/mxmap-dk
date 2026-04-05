@@ -82,7 +82,8 @@
     "name": "Bor County",
     "country": "SS",
     "region": "Jonglei",
-    "domain": ""
+    "domain": "",
+    "population": 315351
   },
   {
     "id": "SS-012",
@@ -173,7 +174,8 @@
     "name": "Juba County",
     "country": "SS",
     "region": "Central Equatoria",
-    "domain": ""
+    "domain": "",
+    "population": 500088
   },
   {
     "id": "SS-024",
@@ -255,7 +257,8 @@
     "name": "Leer County",
     "country": "SS",
     "region": "Unity",
-    "domain": ""
+    "domain": "",
+    "population": 17827
   },
   {
     "id": "SS-035",
@@ -295,7 +298,8 @@
     "country": "SS",
     "region": "Upper Nile",
     "domain": "",
-    "osm_relation_id": 13518922
+    "osm_relation_id": 13518922,
+    "population": 147450
   },
   {
     "id": "SS-040",
@@ -309,7 +313,8 @@
     "name": "Maridi County",
     "country": "SS",
     "region": "Western Equatoria",
-    "domain": ""
+    "domain": "",
+    "population": 65072
   },
   {
     "id": "SS-042",
@@ -373,7 +378,8 @@
     "country": "SS",
     "region": "Upper Nile",
     "domain": "",
-    "osm_relation_id": 13526954
+    "osm_relation_id": 13526954,
+    "population": 43733
   },
   {
     "id": "SS-051",
@@ -443,7 +449,8 @@
     "country": "SS",
     "region": "Western Bahr el Ghazal",
     "domain": "",
-    "osm_relation_id": 13500667
+    "osm_relation_id": 13500667,
+    "population": 77203
   },
   {
     "id": "SS-060",
@@ -534,7 +541,8 @@
     "country": "SS",
     "region": "Eastern Equatoria",
     "domain": "",
-    "osm_relation_id": 13518852
+    "osm_relation_id": 13518852,
+    "population": 17957
   },
   {
     "id": "SS-072",
@@ -565,7 +573,8 @@
     "country": "SS",
     "region": "Western Bahr el Ghazal",
     "domain": "",
-    "osm_relation_id": 13500775
+    "osm_relation_id": 13500775,
+    "population": 320752
   },
   {
     "id": "SS-076",
@@ -580,7 +589,8 @@
     "name": "Yambio County",
     "country": "SS",
     "region": "Western Equatoria",
-    "domain": ""
+    "domain": "",
+    "population": 130250
   },
   {
     "id": "SS-078",

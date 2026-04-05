@@ -4,7 +4,8 @@
     "name": "Abala Department",
     "country": "NE",
     "region": "Tillabéri Region",
-    "domain": ""
+    "domain": "",
+    "population": 144287
   },
   {
     "id": "NE-002",
@@ -12,14 +13,16 @@
     "country": "NE",
     "region": "Tahoua Region",
     "domain": "",
-    "osm_relation_id": 3219397
+    "osm_relation_id": 3219397,
+    "population": 256301
   },
   {
     "id": "NE-003",
     "name": "Aderbissinat Department",
     "country": "NE",
     "region": "Agadez Region",
-    "domain": ""
+    "domain": "",
+    "population": 35320
   },
   {
     "id": "NE-004",
@@ -27,7 +30,8 @@
     "country": "NE",
     "region": "Maradi Region",
     "domain": "",
-    "osm_relation_id": 3219358
+    "osm_relation_id": 3219358,
+    "population": 245996
   },
   {
     "id": "NE-005",
@@ -35,56 +39,64 @@
     "country": "NE",
     "region": "Agadez Region",
     "domain": "",
-    "osm_relation_id": 3218841
+    "osm_relation_id": 3218841,
+    "population": 105025
   },
   {
     "id": "NE-006",
     "name": "Ayérou Department",
     "country": "NE",
     "region": "Tillabéri Region",
-    "domain": ""
+    "domain": "",
+    "population": 57030
   },
   {
     "id": "NE-007",
     "name": "Bagaroua Department",
     "country": "NE",
     "region": "Tahoua Region",
-    "domain": ""
+    "domain": "",
+    "population": 72293
   },
   {
     "id": "NE-008",
     "name": "Balleyara Department",
     "country": "NE",
     "region": "Tillabéri Region",
-    "domain": ""
+    "domain": "",
+    "population": 107134
   },
   {
     "id": "NE-009",
     "name": "Banibangou Department",
     "country": "NE",
     "region": "Tillabéri Region",
-    "domain": ""
+    "domain": "",
+    "population": 66949
   },
   {
     "id": "NE-010",
     "name": "Bankilaré Department",
     "country": "NE",
     "region": "Tillabéri Region",
-    "domain": ""
+    "domain": "",
+    "population": 84893
   },
   {
     "id": "NE-011",
     "name": "Belbédji Department",
     "country": "NE",
     "region": "Zinder Region",
-    "domain": ""
+    "domain": "",
+    "population": 96452
   },
   {
     "id": "NE-012",
     "name": "Bermo Department",
     "country": "NE",
     "region": "Maradi Region",
-    "domain": ""
+    "domain": "",
+    "population": 52274
   },
   {
     "id": "NE-013",
@@ -92,7 +104,8 @@
     "country": "NE",
     "region": "Agadez Region",
     "domain": "",
-    "osm_relation_id": 3218842
+    "osm_relation_id": 3218842,
+    "population": 17935
   },
   {
     "id": "NE-014",
@@ -100,7 +113,8 @@
     "country": "NE",
     "region": "Tahoua Region",
     "domain": "",
-    "osm_relation_id": 3219398
+    "osm_relation_id": 3219398,
+    "population": 312886
   },
   {
     "id": "NE-015",
@@ -108,14 +122,16 @@
     "country": "NE",
     "region": "Dosso Region",
     "domain": "",
-    "osm_relation_id": 3219442
+    "osm_relation_id": 3219442,
+    "population": 252597
   },
   {
     "id": "NE-016",
     "name": "Bosso Department",
     "country": "NE",
     "region": "Diffa Region",
-    "domain": ""
+    "domain": "",
+    "population": 76735
   },
   {
     "id": "NE-017",
@@ -123,7 +139,8 @@
     "country": "NE",
     "region": "Tahoua Region",
     "domain": "",
-    "osm_relation_id": 3219399
+    "osm_relation_id": 3219399,
+    "population": 445363
   },
   {
     "id": "NE-018",
@@ -131,14 +148,16 @@
     "country": "NE",
     "region": "Maradi Region",
     "domain": "",
-    "osm_relation_id": 3219359
+    "osm_relation_id": 3219359,
+    "population": 630421
   },
   {
     "id": "NE-019",
     "name": "Damagaram Takaya Department",
     "country": "NE",
     "region": "Zinder Region",
-    "domain": ""
+    "domain": "",
+    "population": 241169
   },
   {
     "id": "NE-020",
@@ -146,14 +165,16 @@
     "country": "NE",
     "region": "Diffa Region",
     "domain": "",
-    "osm_relation_id": 3218855
+    "osm_relation_id": 3218855,
+    "population": 159722
   },
   {
     "id": "NE-021",
     "name": "Dioundiou Department",
     "country": "NE",
     "region": "Dosso Region",
-    "domain": ""
+    "domain": "",
+    "population": 109615
   },
   {
     "id": "NE-022",
@@ -161,7 +182,8 @@
     "country": "NE",
     "region": "Dosso Region",
     "domain": "",
-    "osm_relation_id": 3219443
+    "osm_relation_id": 3219443,
+    "population": 372473
   },
   {
     "id": "NE-023",
@@ -169,21 +191,24 @@
     "country": "NE",
     "region": "Dosso Region",
     "domain": "",
-    "osm_relation_id": 3219444
+    "osm_relation_id": 3219444,
+    "population": 492560
   },
   {
     "id": "NE-024",
     "name": "Dungass Department",
     "country": "NE",
     "region": "Zinder Region",
-    "domain": ""
+    "domain": "",
+    "population": 353867
   },
   {
     "id": "NE-025",
     "name": "Falmey Department",
     "country": "NE",
     "region": "Dosso Region",
-    "domain": ""
+    "domain": "",
+    "population": 103271
   },
   {
     "id": "NE-026",
@@ -191,7 +216,8 @@
     "country": "NE",
     "region": "Tillabéri Region",
     "domain": "",
-    "osm_relation_id": 3219487
+    "osm_relation_id": 3219487,
+    "population": 306726
   },
   {
     "id": "NE-027",
@@ -199,28 +225,32 @@
     "country": "NE",
     "region": "Dosso Region",
     "domain": "",
-    "osm_relation_id": 3219445
+    "osm_relation_id": 3219445,
+    "population": 261638
   },
   {
     "id": "NE-028",
     "name": "Gazaoua Department",
     "country": "NE",
     "region": "Maradi Region",
-    "domain": ""
+    "domain": "",
+    "population": 160536
   },
   {
     "id": "NE-029",
     "name": "Gothèye Department",
     "country": "NE",
     "region": "Tillabéri Region",
-    "domain": ""
+    "domain": "",
+    "population": 241043
   },
   {
     "id": "NE-030",
     "name": "Goudoumaria Department",
     "country": "NE",
     "region": "Diffa Region",
-    "domain": ""
+    "domain": "",
+    "population": 100559
   },
   {
     "id": "NE-031",
@@ -228,7 +258,8 @@
     "country": "NE",
     "region": "Zinder Region",
     "domain": "",
-    "osm_relation_id": 3218897
+    "osm_relation_id": 3218897,
+    "population": 327818
   },
   {
     "id": "NE-032",
@@ -236,14 +267,16 @@
     "country": "NE",
     "region": "Maradi Region",
     "domain": "",
-    "osm_relation_id": 3219360
+    "osm_relation_id": 3219360,
+    "population": 523717
   },
   {
     "id": "NE-033",
     "name": "Iférouane Department",
     "country": "NE",
     "region": "Agadez Region",
-    "domain": ""
+    "domain": "",
+    "population": 32731
   },
   {
     "id": "NE-034",
@@ -251,14 +284,16 @@
     "country": "NE",
     "region": "Tahoua Region",
     "domain": "",
-    "osm_relation_id": 3219400
+    "osm_relation_id": 3219400,
+    "population": 335785
   },
   {
     "id": "NE-035",
     "name": "Ingall Department",
     "country": "NE",
     "region": "Agadez Region",
-    "domain": ""
+    "domain": "",
+    "population": 51903
   },
   {
     "id": "NE-036",
@@ -266,7 +301,8 @@
     "country": "NE",
     "region": "Tahoua Region",
     "domain": "",
-    "osm_relation_id": 3219401
+    "osm_relation_id": 3219401,
+    "population": 337098
   },
   {
     "id": "NE-037",
@@ -274,7 +310,8 @@
     "country": "NE",
     "region": "Tillabéri Region",
     "domain": "",
-    "osm_relation_id": 3219488
+    "osm_relation_id": 3219488,
+    "population": 465399
   },
   {
     "id": "NE-038",
@@ -282,7 +319,8 @@
     "country": "NE",
     "region": "Dosso Region",
     "domain": "",
-    "osm_relation_id": 3219446
+    "osm_relation_id": 3219446,
+    "population": 175543
   },
   {
     "id": "NE-039",
@@ -290,7 +328,8 @@
     "country": "NE",
     "region": "Tahoua Region",
     "domain": "",
-    "osm_relation_id": 3219402
+    "osm_relation_id": 3219402,
+    "population": 545538
   },
   {
     "id": "NE-040",
@@ -298,7 +337,8 @@
     "country": "NE",
     "region": "Maradi Region",
     "domain": "",
-    "osm_relation_id": 3219361
+    "osm_relation_id": 3219361,
+    "population": 448863
   },
   {
     "id": "NE-041",
@@ -306,14 +346,16 @@
     "country": "NE",
     "region": "Zinder Region",
     "domain": "",
-    "osm_relation_id": 3218898
+    "osm_relation_id": 3218898,
+    "population": 577743
   },
   {
     "id": "NE-042",
     "name": "Malbaza Department",
     "country": "NE",
     "region": "Tahoua Region",
-    "domain": ""
+    "domain": "",
+    "population": 232407
   },
   {
     "id": "NE-043",
@@ -321,7 +363,8 @@
     "country": "NE",
     "region": "Zinder Region",
     "domain": "",
-    "osm_relation_id": 3218899
+    "osm_relation_id": 3218899,
+    "population": 399181
   },
   {
     "id": "NE-044",
@@ -329,7 +372,8 @@
     "country": "NE",
     "region": "Maradi Region",
     "domain": "",
-    "osm_relation_id": 3219362
+    "osm_relation_id": 3219362,
+    "population": 557186
   },
   {
     "id": "NE-045",
@@ -337,7 +381,8 @@
     "country": "NE",
     "region": "Diffa Region",
     "domain": "",
-    "osm_relation_id": 3218856
+    "osm_relation_id": 3218856,
+    "population": 131664
   },
   {
     "id": "NE-046",
@@ -345,14 +390,16 @@
     "country": "NE",
     "region": "Zinder Region",
     "domain": "",
-    "osm_relation_id": 3218900
+    "osm_relation_id": 3218900,
+    "population": 507499
   },
   {
     "id": "NE-047",
     "name": "N'Gourti Department",
     "country": "NE",
     "region": "Diffa Region",
-    "domain": ""
+    "domain": "",
+    "population": 51767
   },
   {
     "id": "NE-048",
@@ -360,7 +407,8 @@
     "country": "NE",
     "region": "Diffa Region",
     "domain": "",
-    "osm_relation_id": 3218857
+    "osm_relation_id": 3218857,
+    "population": 73374
   },
   {
     "id": "NE-049",
@@ -368,7 +416,8 @@
     "country": "NE",
     "region": "Tillabéri Region",
     "domain": "",
-    "osm_relation_id": 3219489
+    "osm_relation_id": 3219489,
+    "population": 327224
   },
   {
     "id": "NE-050",
@@ -376,7 +425,8 @@
     "country": "NE",
     "region": "Tillabéri Region",
     "domain": "",
-    "osm_relation_id": 3219490
+    "osm_relation_id": 3219490,
+    "population": 175625
   },
   {
     "id": "NE-051",
@@ -384,14 +434,16 @@
     "country": "NE",
     "region": "Tahoua Region",
     "domain": "",
-    "osm_relation_id": 3219403
+    "osm_relation_id": 3219403,
+    "population": 432659
   },
   {
     "id": "NE-052",
     "name": "Takeita Department",
     "country": "NE",
     "region": "Zinder Region",
-    "domain": ""
+    "domain": "",
+    "population": 246818
   },
   {
     "id": "NE-053",
@@ -399,14 +451,16 @@
     "country": "NE",
     "region": "Zinder Region",
     "domain": "",
-    "osm_relation_id": 3218901
+    "osm_relation_id": 3218901,
+    "population": 429150
   },
   {
     "id": "NE-054",
     "name": "Tassara Department",
     "country": "NE",
     "region": "Tahoua Region",
-    "domain": ""
+    "domain": "",
+    "population": 24457
   },
   {
     "id": "NE-055",
@@ -414,7 +468,8 @@
     "country": "NE",
     "region": "Tahoua Region",
     "domain": "",
-    "osm_relation_id": 3219404
+    "osm_relation_id": 3219404,
+    "population": 145086
   },
   {
     "id": "NE-056",
@@ -422,14 +477,16 @@
     "country": "NE",
     "region": "Agadez Region",
     "domain": "",
-    "osm_relation_id": 3218843
+    "osm_relation_id": 3218843,
+    "population": 244706
   },
   {
     "id": "NE-057",
     "name": "Tesker Department",
     "country": "NE",
     "region": "Zinder Region",
-    "domain": ""
+    "domain": "",
+    "population": 37132
   },
   {
     "id": "NE-058",
@@ -437,14 +494,16 @@
     "country": "NE",
     "region": "Maradi Region",
     "domain": "",
-    "osm_relation_id": 3219363
+    "osm_relation_id": 3219363,
+    "population": 515852
   },
   {
     "id": "NE-059",
     "name": "Tibiri Department",
     "country": "NE",
     "region": "Dosso Region",
-    "domain": ""
+    "domain": "",
+    "population": 270016
   },
   {
     "id": "NE-060",
@@ -452,21 +511,24 @@
     "country": "NE",
     "region": "Tillabéri Region",
     "domain": "",
-    "osm_relation_id": 3219491
+    "osm_relation_id": 3219491,
+    "population": 227352
   },
   {
     "id": "NE-061",
     "name": "Tillia Department",
     "country": "NE",
     "region": "Tahoua Region",
-    "domain": ""
+    "domain": "",
+    "population": 38994
   },
   {
     "id": "NE-062",
     "name": "Torodi Department",
     "country": "NE",
     "region": "Tillabéri Region",
-    "domain": ""
+    "domain": "",
+    "population": 182613
   },
   {
     "id": "NE-063",
@@ -474,6 +536,7 @@
     "country": "NE",
     "region": "Tillabéri Region",
     "domain": "",
-    "osm_relation_id": 3219492
+    "osm_relation_id": 3219492,
+    "population": 336207
   }
 ]

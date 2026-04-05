@@ -5,7 +5,8 @@
     "country": "CN",
     "region": "People's Republic of China",
     "domain": "ah.gov.cn",
-    "osm_relation_id": 913011
+    "osm_relation_id": 913011,
+    "population": 61027171
   },
   {
     "id": "CN-002",
@@ -13,7 +14,8 @@
     "country": "CN",
     "region": "People's Republic of China",
     "domain": "fujian.gov.cn",
-    "osm_relation_id": 553303
+    "osm_relation_id": 553303,
+    "population": 41540086
   },
   {
     "id": "CN-003",
@@ -21,7 +23,8 @@
     "country": "CN",
     "region": "People's Republic of China",
     "domain": "gansu.gov.cn",
-    "osm_relation_id": 153314
+    "osm_relation_id": 153314,
+    "population": 25575254
   },
   {
     "id": "CN-004",
@@ -29,7 +32,8 @@
     "country": "CN",
     "region": "People's Republic of China",
     "domain": "gd.gov.cn",
-    "osm_relation_id": 911844
+    "osm_relation_id": 911844,
+    "population": 126012510
   },
   {
     "id": "CN-005",
@@ -37,7 +41,8 @@
     "country": "CN",
     "region": "People's Republic of China",
     "domain": "gzgov.gov.cn",
-    "osm_relation_id": 286937
+    "osm_relation_id": 286937,
+    "population": 38562148
   },
   {
     "id": "CN-006",
@@ -45,7 +50,8 @@
     "country": "CN",
     "region": "People's Republic of China",
     "domain": "en.hainan.gov.cn",
-    "osm_relation_id": 2128285
+    "osm_relation_id": 2128285,
+    "population": 10081232
   },
   {
     "id": "CN-007",
@@ -53,7 +59,8 @@
     "country": "CN",
     "region": "People's Republic of China",
     "domain": "hebei.gov.cn",
-    "osm_relation_id": 912998
+    "osm_relation_id": 912998,
+    "population": 74610235
   },
   {
     "id": "CN-008",
@@ -61,7 +68,8 @@
     "country": "CN",
     "region": "People's Republic of China",
     "domain": "hlj.gov.cn",
-    "osm_relation_id": 199073
+    "osm_relation_id": 199073,
+    "population": 38312224
   },
   {
     "id": "CN-009",
@@ -69,7 +77,8 @@
     "country": "CN",
     "region": "People's Republic of China",
     "domain": "henan.gov.cn",
-    "osm_relation_id": 407492
+    "osm_relation_id": 407492,
+    "population": 99365519
   },
   {
     "id": "CN-010",
@@ -77,7 +86,8 @@
     "country": "CN",
     "region": "People's Republic of China",
     "domain": "hubei.gov.cn",
-    "osm_relation_id": 913106
+    "osm_relation_id": 913106,
+    "population": 57752557
   },
   {
     "id": "CN-011",
@@ -85,7 +95,8 @@
     "country": "CN",
     "region": "People's Republic of China",
     "domain": "hunan.gov.cn",
-    "osm_relation_id": 913073
+    "osm_relation_id": 913073,
+    "population": 66444864
   },
   {
     "id": "CN-012",
@@ -93,7 +104,8 @@
     "country": "CN",
     "region": "People's Republic of China",
     "domain": "jiangsu.gov.cn",
-    "osm_relation_id": 913012
+    "osm_relation_id": 913012,
+    "population": 84748016
   },
   {
     "id": "CN-013",
@@ -101,7 +113,8 @@
     "country": "CN",
     "region": "People's Republic of China",
     "domain": "jiangxi.gov.cn",
-    "osm_relation_id": 913109
+    "osm_relation_id": 913109,
+    "population": 45188635
   },
   {
     "id": "CN-014",
@@ -109,7 +122,8 @@
     "country": "CN",
     "region": "People's Republic of China",
     "domain": "jl.gov.cn",
-    "osm_relation_id": 198590
+    "osm_relation_id": 198590,
+    "population": 27462297
   },
   {
     "id": "CN-015",
@@ -117,7 +131,8 @@
     "country": "CN",
     "region": "People's Republic of China",
     "domain": "ln.gov.cn",
-    "osm_relation_id": 912942
+    "osm_relation_id": 912942,
+    "population": 43746323
   },
   {
     "id": "CN-016",
@@ -125,7 +140,8 @@
     "country": "CN",
     "region": "",
     "domain": "shaanxi.gov.cn",
-    "osm_relation_id": 913100
+    "osm_relation_id": 913100,
+    "population": 39528999
   },
   {
     "id": "CN-017",
@@ -133,7 +149,8 @@
     "country": "CN",
     "region": "People's Republic of China",
     "domain": "sd.gov.cn",
-    "osm_relation_id": 913006
+    "osm_relation_id": 913006,
+    "population": 101527453
   },
   {
     "id": "CN-018",
@@ -141,7 +158,8 @@
     "country": "CN",
     "region": "People's Republic of China",
     "domain": "shanxi.gov.cn",
-    "osm_relation_id": 913105
+    "osm_relation_id": 913105,
+    "population": 36500000
   },
   {
     "id": "CN-019",
@@ -149,14 +167,16 @@
     "country": "CN",
     "region": "People's Republic of China",
     "domain": "sc.gov.cn",
-    "osm_relation_id": 913068
+    "osm_relation_id": 913068,
+    "population": 83674866
   },
   {
     "id": "CN-020",
     "name": "Taiwan",
     "country": "CN",
     "region": "People's Republic of China",
-    "domain": ""
+    "domain": "",
+    "population": 23140000
   },
   {
     "id": "CN-021",
@@ -164,7 +184,8 @@
     "country": "CN",
     "region": "People's Republic of China",
     "domain": "yn.gov.cn",
-    "osm_relation_id": 913094
+    "osm_relation_id": 913094,
+    "population": 47420000
   },
   {
     "id": "CN-022",
@@ -172,6 +193,7 @@
     "country": "CN",
     "region": "People's Republic of China",
     "domain": "zj.gov.cn",
-    "osm_relation_id": 553302
+    "osm_relation_id": 553302,
+    "population": 64567588
   }
 ]

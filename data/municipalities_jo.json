@@ -5,7 +5,8 @@
     "country": "JO",
     "region": "Jordan",
     "domain": "",
-    "osm_relation_id": 2925616
+    "osm_relation_id": 2925616,
+    "population": 181000
   },
   {
     "id": "JO-002",
@@ -13,7 +14,8 @@
     "country": "JO",
     "region": "Jordan",
     "domain": "",
-    "osm_relation_id": 2926344
+    "osm_relation_id": 2926344,
+    "population": 4007526
   },
   {
     "id": "JO-003",
@@ -21,7 +23,8 @@
     "country": "JO",
     "region": "Jordan",
     "domain": "",
-    "osm_relation_id": 2926345
+    "osm_relation_id": 2926345,
+    "population": 140000
   },
   {
     "id": "JO-004",
@@ -29,7 +32,8 @@
     "country": "JO",
     "region": "Jordan",
     "domain": "",
-    "osm_relation_id": 2925596
+    "osm_relation_id": 2925596,
+    "population": 491709
   },
   {
     "id": "JO-005",
@@ -37,7 +41,8 @@
     "country": "JO",
     "region": "Jordan",
     "domain": "moi.gov.jo",
-    "osm_relation_id": 2925617
+    "osm_relation_id": 2925617,
+    "population": 1911600
   },
   {
     "id": "JO-006",
@@ -45,7 +50,8 @@
     "country": "JO",
     "region": "Jordan",
     "domain": "",
-    "osm_relation_id": 2925599
+    "osm_relation_id": 2925599,
+    "population": 237059
   },
   {
     "id": "JO-007",
@@ -53,7 +59,8 @@
     "country": "JO",
     "region": "Jordan",
     "domain": "",
-    "osm_relation_id": 2926346
+    "osm_relation_id": 2926346,
+    "population": 316629
   },
   {
     "id": "JO-008",
@@ -61,7 +68,8 @@
     "country": "JO",
     "region": "Jordan",
     "domain": "",
-    "osm_relation_id": 2926347
+    "osm_relation_id": 2926347,
+    "population": 175200
   },
   {
     "id": "JO-009",
@@ -69,7 +77,8 @@
     "country": "JO",
     "region": "Jordan",
     "domain": "",
-    "osm_relation_id": 2926348
+    "osm_relation_id": 2926348,
+    "population": 189192
   },
   {
     "id": "JO-010",
@@ -77,7 +86,8 @@
     "country": "JO",
     "region": "Jordan",
     "domain": "",
-    "osm_relation_id": 2925608
+    "osm_relation_id": 2925608,
+    "population": 549948
   },
   {
     "id": "JO-011",
@@ -85,7 +95,8 @@
     "country": "JO",
     "region": "Jordan",
     "domain": "",
-    "osm_relation_id": 2926349
+    "osm_relation_id": 2926349,
+    "population": 10000
   },
   {
     "id": "JO-012",
@@ -93,6 +104,7 @@
     "country": "JO",
     "region": "Jordan",
     "domain": "",
-    "osm_relation_id": 2925597
+    "osm_relation_id": 2925597,
+    "population": 481300
   }
 ]

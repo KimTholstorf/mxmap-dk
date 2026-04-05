@@ -11,7 +11,8 @@
     "name": "Abaí",
     "country": "PY",
     "region": "Caazapá Department",
-    "domain": "muniabai.gov.py"
+    "domain": "muniabai.gov.py",
+    "population": 32538
   },
   {
     "id": "PY-003",
@@ -39,7 +40,8 @@
     "name": "Altos",
     "country": "PY",
     "region": "Cordillera Department",
-    "domain": ""
+    "domain": "",
+    "population": 14500
   },
   {
     "id": "PY-007",
@@ -54,7 +56,8 @@
     "country": "PY",
     "region": "Central Department",
     "domain": "municipios.gov.py",
-    "osm_relation_id": 3706499
+    "osm_relation_id": 3706499,
+    "population": 67487
   },
   {
     "id": "PY-009",
@@ -75,7 +78,8 @@
     "name": "Atyrá",
     "country": "PY",
     "region": "Cordillera Department",
-    "domain": "atyra.gov.py"
+    "domain": "atyra.gov.py",
+    "population": 18000
   },
   {
     "id": "PY-012",
@@ -96,7 +100,8 @@
     "name": "Bahía Negra",
     "country": "PY",
     "region": "Alto Paraguay Department",
-    "domain": ""
+    "domain": "",
+    "population": 2514
   },
   {
     "id": "PY-015",
@@ -132,7 +137,8 @@
     "name": "Borja",
     "country": "PY",
     "region": "Guairá Department",
-    "domain": ""
+    "domain": "",
+    "population": 9222
   },
   {
     "id": "PY-020",
@@ -147,14 +153,16 @@
     "name": "Caacupé",
     "country": "PY",
     "region": "Cordillera Department",
-    "domain": "mcaacupe.com"
+    "domain": "mcaacupe.com",
+    "population": 56864
   },
   {
     "id": "PY-022",
     "name": "Caaguazú District",
     "country": "PY",
     "region": "Caaguazú Department",
-    "domain": ""
+    "domain": "",
+    "population": 106
   },
   {
     "id": "PY-023",
@@ -176,7 +184,8 @@
     "country": "PY",
     "region": "Caazapá Department",
     "domain": "caazapa.gov.py",
-    "osm_relation_id": 5183572
+    "osm_relation_id": 5183572,
+    "population": 23996
   },
   {
     "id": "PY-026",
@@ -184,7 +193,8 @@
     "country": "PY",
     "region": "Itapúa Department",
     "domain": "",
-    "osm_relation_id": 9884789
+    "osm_relation_id": 9884789,
+    "population": 60722
   },
   {
     "id": "PY-027",
@@ -199,7 +209,8 @@
     "country": "PY",
     "region": "Central Department",
     "domain": "",
-    "osm_relation_id": 3710869
+    "osm_relation_id": 3710869,
+    "population": 236999
   },
   {
     "id": "PY-029",
@@ -214,7 +225,8 @@
     "name": "Capitán Carmelo Peralta",
     "country": "PY",
     "region": "Alto Paraguay Department",
-    "domain": ""
+    "domain": "",
+    "population": 4527
   },
   {
     "id": "PY-031",
@@ -235,7 +247,8 @@
     "name": "Capitán Miranda",
     "country": "PY",
     "region": "Itapúa Department",
-    "domain": "capitanmiranda.gov.py"
+    "domain": "capitanmiranda.gov.py",
+    "population": 13644
   },
   {
     "id": "PY-034",
@@ -249,7 +262,8 @@
     "name": "Caraguatay",
     "country": "PY",
     "region": "Cordillera Department",
-    "domain": ""
+    "domain": "",
+    "population": 13800
   },
   {
     "id": "PY-036",
@@ -257,7 +271,8 @@
     "country": "PY",
     "region": "Paraguarí Department",
     "domain": "municipalidaddecarapegua.gov.py",
-    "osm_relation_id": 14708964
+    "osm_relation_id": 14708964,
+    "population": 6000
   },
   {
     "id": "PY-037",
@@ -314,14 +329,16 @@
     "country": "PY",
     "region": "Ciudad del Este",
     "domain": "mcde.gov.py",
-    "osm_relation_id": 6552045
+    "osm_relation_id": 6552045,
+    "population": 350000
   },
   {
     "id": "PY-045",
     "name": "Ciudad del Este",
     "country": "PY",
     "region": "Alto Paraná Department",
-    "domain": ""
+    "domain": "",
+    "population": 350000
   },
   {
     "id": "PY-046",
@@ -335,14 +352,16 @@
     "name": "Concepción",
     "country": "PY",
     "region": "Concepción Department",
-    "domain": "municipalidadconcepcion.gov.py"
+    "domain": "municipalidadconcepcion.gov.py",
+    "population": 45068
   },
   {
     "id": "PY-048",
     "name": "Coronel Bogado",
     "country": "PY",
     "region": "Itapúa Department",
-    "domain": ""
+    "domain": "",
+    "population": 17192
   },
   {
     "id": "PY-049",
@@ -356,7 +375,8 @@
     "name": "Coronel Oviedo",
     "country": "PY",
     "region": "Caaguazú Department",
-    "domain": "mco.gov.py"
+    "domain": "mco.gov.py",
+    "population": 187514
   },
   {
     "id": "PY-051",
@@ -413,14 +433,16 @@
     "name": "Doctor Juan Eulogio Estigarribia",
     "country": "PY",
     "region": "Caaguazú Department",
-    "domain": ""
+    "domain": "",
+    "population": 38481
   },
   {
     "id": "PY-059",
     "name": "Doctor Juan León Mallorquín District",
     "country": "PY",
     "region": "Alto Paraná Department",
-    "domain": ""
+    "domain": "",
+    "population": 22460
   },
   {
     "id": "PY-060",
@@ -462,7 +484,8 @@
     "name": "Emboscada",
     "country": "PY",
     "region": "Cordillera Department",
-    "domain": ""
+    "domain": "",
+    "population": 19500
   },
   {
     "id": "PY-066",
@@ -477,7 +500,8 @@
     "name": "Eusebio Ayala",
     "country": "PY",
     "region": "Cordillera Department",
-    "domain": ""
+    "domain": "",
+    "population": 23600
   },
   {
     "id": "PY-068",
@@ -485,7 +509,8 @@
     "country": "PY",
     "region": "Central Department",
     "domain": "fdm.gov.py",
-    "osm_relation_id": 3681127
+    "osm_relation_id": 3681127,
+    "population": 110255
   },
   {
     "id": "PY-069",
@@ -493,7 +518,8 @@
     "country": "PY",
     "region": "Filadelfia",
     "domain": "filadelfia.gov.py",
-    "osm_relation_id": 6584434
+    "osm_relation_id": 6584434,
+    "population": 18210
   },
   {
     "id": "PY-070",
@@ -501,7 +527,8 @@
     "country": "PY",
     "region": "Itapúa Department",
     "domain": "",
-    "osm_relation_id": 10021232
+    "osm_relation_id": 10021232,
+    "population": 6923
   },
   {
     "id": "PY-071",
@@ -509,14 +536,16 @@
     "country": "PY",
     "region": "Fuerte Olimpo",
     "domain": "",
-    "osm_relation_id": 6585928
+    "osm_relation_id": 6585928,
+    "population": 4445
   },
   {
     "id": "PY-072",
     "name": "Fuerte Olimpo",
     "country": "PY",
     "region": "Alto Paraguay Department",
-    "domain": ""
+    "domain": "",
+    "population": 5029
   },
   {
     "id": "PY-073",
@@ -600,7 +629,8 @@
     "name": "Guarambaré",
     "country": "PY",
     "region": "Central Department",
-    "domain": ""
+    "domain": "",
+    "population": 10150
   },
   {
     "id": "PY-085",
@@ -628,7 +658,8 @@
     "name": "Hernandarias District",
     "country": "PY",
     "region": "Alto Paraná Department",
-    "domain": ""
+    "domain": "",
+    "population": 79036
   },
   {
     "id": "PY-089",
@@ -636,21 +667,24 @@
     "country": "PY",
     "region": "Itapúa Department",
     "domain": "hohenau.gov.py",
-    "osm_relation_id": 11800375
+    "osm_relation_id": 11800375,
+    "population": 15100
   },
   {
     "id": "PY-090",
     "name": "Horqueta",
     "country": "PY",
     "region": "Concepción Department",
-    "domain": ""
+    "domain": "",
+    "population": 60690
   },
   {
     "id": "PY-091",
     "name": "Humaitá",
     "country": "PY",
     "region": "Ñeembucú Department",
-    "domain": ""
+    "domain": "",
+    "population": 3214
   },
   {
     "id": "PY-092",
@@ -692,7 +726,8 @@
     "name": "Itakyry",
     "country": "PY",
     "region": "Alto Paraná Department",
-    "domain": ""
+    "domain": "",
+    "population": 38577
   },
   {
     "id": "PY-098",
@@ -706,7 +741,8 @@
     "name": "Itapé",
     "country": "PY",
     "region": "Guairá Department",
-    "domain": ""
+    "domain": "",
+    "population": 7900
   },
   {
     "id": "PY-100",
@@ -728,7 +764,8 @@
     "country": "PY",
     "region": "Central Department",
     "domain": "municipios.gov.py",
-    "osm_relation_id": 6601480
+    "osm_relation_id": 6601480,
+    "population": 81084
   },
   {
     "id": "PY-103",
@@ -778,7 +815,8 @@
     "name": "Julio Augusto Saldívar",
     "country": "PY",
     "region": "Central Department",
-    "domain": ""
+    "domain": "",
+    "population": 54290
   },
   {
     "id": "PY-110",
@@ -837,7 +875,8 @@
     "country": "PY",
     "region": "Central Department",
     "domain": "lambare.gov.py",
-    "osm_relation_id": 3678799
+    "osm_relation_id": 3678799,
+    "population": 127150
   },
   {
     "id": "PY-118",
@@ -873,7 +912,8 @@
     "country": "PY",
     "region": "Central Department",
     "domain": "",
-    "osm_relation_id": 3698016
+    "osm_relation_id": 3698016,
+    "population": 139652
   },
   {
     "id": "PY-123",
@@ -888,7 +928,8 @@
     "country": "PY",
     "region": "Boquerón Department",
     "domain": "lomaplata.gov.py",
-    "osm_relation_id": 6584435
+    "osm_relation_id": 6584435,
+    "population": 11488
   },
   {
     "id": "PY-125",
@@ -910,7 +951,8 @@
     "country": "PY",
     "region": "Central Department",
     "domain": "infoluque.com.py",
-    "osm_relation_id": 6002474
+    "osm_relation_id": 6002474,
+    "population": 259705
   },
   {
     "id": "PY-128",
@@ -932,7 +974,8 @@
     "country": "PY",
     "region": "Central Department",
     "domain": "mra.gov.py",
-    "osm_relation_id": 3691623
+    "osm_relation_id": 3691623,
+    "population": 101715
   },
   {
     "id": "PY-131",
@@ -940,7 +983,8 @@
     "country": "PY",
     "region": "Boquerón Department",
     "domain": "",
-    "osm_relation_id": 6584436
+    "osm_relation_id": 6584436,
+    "population": 15219
   },
   {
     "id": "PY-132",
@@ -997,7 +1041,8 @@
     "name": "Minga Guazú",
     "country": "PY",
     "region": "Alto Paraná Department",
-    "domain": ""
+    "domain": "",
+    "population": 89129
   },
   {
     "id": "PY-140",
@@ -1054,7 +1099,8 @@
     "name": "Nueva Asunción",
     "country": "PY",
     "region": "Presidente Hayes Department",
-    "domain": ""
+    "domain": "",
+    "population": 3172
   },
   {
     "id": "PY-148",
@@ -1075,7 +1121,8 @@
     "name": "Nueva Germania",
     "country": "PY",
     "region": "San Pedro Department",
-    "domain": ""
+    "domain": "",
+    "population": 4335
   },
   {
     "id": "PY-151",
@@ -1083,7 +1130,8 @@
     "country": "PY",
     "region": "Central Department",
     "domain": "",
-    "osm_relation_id": 6601482
+    "osm_relation_id": 6601482,
+    "population": 12506
   },
   {
     "id": "PY-152",
@@ -1098,7 +1146,8 @@
     "country": "PY",
     "region": "Itapúa Department",
     "domain": "obligado.gov.py",
-    "osm_relation_id": 3762870
+    "osm_relation_id": 3762870,
+    "population": 16936
   },
   {
     "id": "PY-154",
@@ -1106,14 +1155,16 @@
     "country": "PY",
     "region": "Paraguarí Department",
     "domain": "",
-    "osm_relation_id": 14699517
+    "osm_relation_id": 14699517,
+    "population": 24092
   },
   {
     "id": "PY-155",
     "name": "Paso Barreto",
     "country": "PY",
     "region": "Concepción Department",
-    "domain": "municipalidadpasobarreto.gov.py"
+    "domain": "municipalidadpasobarreto.gov.py",
+    "population": 4148
   },
   {
     "id": "PY-156",
@@ -1135,7 +1186,8 @@
     "country": "PY",
     "region": "Amambay Department",
     "domain": "",
-    "osm_relation_id": 6614169
+    "osm_relation_id": 6614169,
+    "population": 127437
   },
   {
     "id": "PY-159",
@@ -1157,7 +1209,8 @@
     "name": "Piribebuy",
     "country": "PY",
     "region": "Cordillera Department",
-    "domain": ""
+    "domain": "",
+    "population": 25363
   },
   {
     "id": "PY-162",
@@ -1165,7 +1218,8 @@
     "country": "PY",
     "region": "Alto Paraná Department",
     "domain": "munifrancopy.es.tl",
-    "osm_relation_id": 6604966
+    "osm_relation_id": 6604966,
+    "population": 101720
   },
   {
     "id": "PY-163",
@@ -1187,7 +1241,8 @@
     "country": "PY",
     "region": "Alto Paraguay Department",
     "domain": "",
-    "osm_relation_id": 6585929
+    "osm_relation_id": 6585929,
+    "population": 7800
   },
   {
     "id": "PY-166",
@@ -1223,7 +1278,8 @@
     "country": "PY",
     "region": "Canindeyú Department",
     "domain": "",
-    "osm_relation_id": 5158168
+    "osm_relation_id": 5158168,
+    "population": 37600
   },
   {
     "id": "PY-171",
@@ -1252,7 +1308,8 @@
     "country": "PY",
     "region": "Central Department",
     "domain": "",
-    "osm_relation_id": 6601483
+    "osm_relation_id": 6601483,
+    "population": 69976
   },
   {
     "id": "PY-175",
@@ -1266,7 +1323,8 @@
     "name": "San Carlos del Apa",
     "country": "PY",
     "region": "Concepción Department",
-    "domain": ""
+    "domain": "",
+    "population": 856
   },
   {
     "id": "PY-177",
@@ -1294,7 +1352,8 @@
     "name": "San Estanislao",
     "country": "PY",
     "region": "San Pedro Department",
-    "domain": ""
+    "domain": "",
+    "population": 55150
   },
   {
     "id": "PY-181",
@@ -1302,7 +1361,8 @@
     "country": "PY",
     "region": "Misiones Department",
     "domain": "sanignacioguazu.gov.py",
-    "osm_relation_id": 3809767
+    "osm_relation_id": 3809767,
+    "population": 50468
   },
   {
     "id": "PY-182",
@@ -1338,7 +1398,8 @@
     "country": "PY",
     "region": "Misiones Department",
     "domain": "sanjuanbautista.gov.py",
-    "osm_relation_id": 16221141
+    "osm_relation_id": 16221141,
+    "population": 33785
   },
   {
     "id": "PY-187",
@@ -1352,7 +1413,8 @@
     "name": "San Juan Nepomuceno",
     "country": "PY",
     "region": "Caazapá Department",
-    "domain": ""
+    "domain": "",
+    "population": 39200
   },
   {
     "id": "PY-189",
@@ -1360,7 +1422,8 @@
     "country": "PY",
     "region": "Itapúa Department",
     "domain": "",
-    "osm_relation_id": 9884772
+    "osm_relation_id": 9884772,
+    "population": 9693
   },
   {
     "id": "PY-190",
@@ -1368,21 +1431,24 @@
     "country": "PY",
     "region": "Central Department",
     "domain": "sanlorenzopy.com",
-    "osm_relation_id": 3720096
+    "osm_relation_id": 3720096,
+    "population": 225395
   },
   {
     "id": "PY-191",
     "name": "San Lorenzo District",
     "country": "PY",
     "region": "Central Department",
-    "domain": ""
+    "domain": "",
+    "population": 225395
   },
   {
     "id": "PY-192",
     "name": "San Lázaro",
     "country": "PY",
     "region": "Concepción Department",
-    "domain": ""
+    "domain": "",
+    "population": 11755
   },
   {
     "id": "PY-193",
@@ -1424,7 +1490,8 @@
     "name": "San Pedro de Ycuamandiyú",
     "country": "PY",
     "region": "San Pedro Department",
-    "domain": "municipios.gov.py"
+    "domain": "municipios.gov.py",
+    "population": 35021
   },
   {
     "id": "PY-199",
@@ -1452,7 +1519,8 @@
     "name": "San Salvador District",
     "country": "PY",
     "region": "Guairá Department",
-    "domain": ""
+    "domain": "",
+    "population": 3483
   },
   {
     "id": "PY-203",
@@ -1473,7 +1541,8 @@
     "name": "Santa María",
     "country": "PY",
     "region": "Misiones Department",
-    "domain": ""
+    "domain": "",
+    "population": 7385
   },
   {
     "id": "PY-206",
@@ -1481,7 +1550,8 @@
     "country": "PY",
     "region": "Alto Paraná Department",
     "domain": "mcde.gov.py",
-    "osm_relation_id": 6604968
+    "osm_relation_id": 6604968,
+    "population": 32600
   },
   {
     "id": "PY-207",
@@ -1532,7 +1602,8 @@
     "name": "Sargento José Félix López",
     "country": "PY",
     "region": "Concepción Department",
-    "domain": ""
+    "domain": "",
+    "population": 7003
   },
   {
     "id": "PY-214",
@@ -1603,7 +1674,8 @@
     "name": "Tobatí District",
     "country": "PY",
     "region": "Cordillera Department",
-    "domain": ""
+    "domain": "",
+    "population": 23295
   },
   {
     "id": "PY-224",
@@ -1640,7 +1712,8 @@
     "name": "Unión",
     "country": "PY",
     "region": "San Pedro Department",
-    "domain": ""
+    "domain": "",
+    "population": 11830
   },
   {
     "id": "PY-229",
@@ -1654,7 +1727,8 @@
     "name": "Vaquería",
     "country": "PY",
     "region": "Caaguazú Department",
-    "domain": ""
+    "domain": "",
+    "population": 11866
   },
   {
     "id": "PY-231",
@@ -1669,7 +1743,8 @@
     "country": "PY",
     "region": "Central Department",
     "domain": "villaelisa.gov.py",
-    "osm_relation_id": 3680237
+    "osm_relation_id": 3680237,
+    "population": 53166
   },
   {
     "id": "PY-233",
@@ -1684,7 +1759,8 @@
     "country": "PY",
     "region": "Presidente Hayes Department",
     "domain": "",
-    "osm_relation_id": 6590353
+    "osm_relation_id": 6590353,
+    "population": 49328
   },
   {
     "id": "PY-235",
@@ -1706,7 +1782,8 @@
     "country": "PY",
     "region": "Central Department",
     "domain": "municipios.gov.py",
-    "osm_relation_id": 3710875
+    "osm_relation_id": 3710875,
+    "population": 93213
   },
   {
     "id": "PY-238",
@@ -1714,7 +1791,8 @@
     "country": "PY",
     "region": "Guairá Department",
     "domain": "villarrica.gov.py",
-    "osm_relation_id": 3731173
+    "osm_relation_id": 3731173,
+    "population": 40300
   },
   {
     "id": "PY-239",
@@ -1722,7 +1800,8 @@
     "country": "PY",
     "region": "Central Department",
     "domain": "villeta.gov.py",
-    "osm_relation_id": 6601484
+    "osm_relation_id": 6601484,
+    "population": 35941
   },
   {
     "id": "PY-240",
@@ -1736,7 +1815,8 @@
     "name": "Yaguarón District",
     "country": "PY",
     "region": "Paraguarí Department",
-    "domain": ""
+    "domain": "",
+    "population": 32000
   },
   {
     "id": "PY-242",
@@ -1839,7 +1919,8 @@
     "country": "PY",
     "region": "Central Department",
     "domain": "municipios.gov.py",
-    "osm_relation_id": 6601485
+    "osm_relation_id": 6601485,
+    "population": 27379
   },
   {
     "id": "PY-256",
@@ -1847,7 +1928,8 @@
     "country": "PY",
     "region": "Central Department",
     "domain": "",
-    "osm_relation_id": 6601486
+    "osm_relation_id": 6601486,
+    "population": 66700
   },
   {
     "id": "PY-257",
@@ -1892,7 +1974,8 @@
     "name": "Ñemby",
     "country": "PY",
     "region": "Central Department",
-    "domain": ""
+    "domain": "",
+    "population": 116383
   },
   {
     "id": "PY-263",

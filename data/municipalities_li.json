@@ -5,7 +5,8 @@
     "country": "LI",
     "region": "Liechtenstein",
     "domain": "balzers.li",
-    "osm_relation_id": 1155953
+    "osm_relation_id": 1155953,
+    "population": 4628
   },
   {
     "id": "LI-002",
@@ -13,7 +14,8 @@
     "country": "LI",
     "region": "Liechtenstein",
     "domain": "eschen.li",
-    "osm_relation_id": 1155949
+    "osm_relation_id": 1155949,
+    "population": 4459
   },
   {
     "id": "LI-003",
@@ -21,7 +23,8 @@
     "country": "LI",
     "region": "Liechtenstein",
     "domain": "gamprin.li",
-    "osm_relation_id": 1155947
+    "osm_relation_id": 1155947,
+    "population": 1663
   },
   {
     "id": "LI-004",
@@ -29,7 +32,8 @@
     "country": "LI",
     "region": "Liechtenstein",
     "domain": "mauren.li",
-    "osm_relation_id": 1155951
+    "osm_relation_id": 1155951,
+    "population": 4404
   },
   {
     "id": "LI-005",
@@ -37,7 +41,8 @@
     "country": "LI",
     "region": "Liechtenstein",
     "domain": "planken.li",
-    "osm_relation_id": 1155954
+    "osm_relation_id": 1155954,
+    "population": 478
   },
   {
     "id": "LI-006",
@@ -45,7 +50,8 @@
     "country": "LI",
     "region": "Liechtenstein",
     "domain": "ruggell.li",
-    "osm_relation_id": 1155950
+    "osm_relation_id": 1155950,
+    "population": 2474
   },
   {
     "id": "LI-007",
@@ -53,7 +59,8 @@
     "country": "LI",
     "region": "Liechtenstein",
     "domain": "schaan.li",
-    "osm_relation_id": 1155952
+    "osm_relation_id": 1155952,
+    "population": 5998
   },
   {
     "id": "LI-008",
@@ -61,7 +68,8 @@
     "country": "LI",
     "region": "Liechtenstein",
     "domain": "schellenberg.li",
-    "osm_relation_id": 1155946
+    "osm_relation_id": 1155946,
+    "population": 1091
   },
   {
     "id": "LI-009",
@@ -69,7 +77,8 @@
     "country": "LI",
     "region": "Liechtenstein",
     "domain": "triesen.li",
-    "osm_relation_id": 1155945
+    "osm_relation_id": 1155945,
+    "population": 5230
   },
   {
     "id": "LI-010",
@@ -77,7 +86,8 @@
     "country": "LI",
     "region": "Liechtenstein",
     "domain": "triesenberg.li",
-    "osm_relation_id": 1155948
+    "osm_relation_id": 1155948,
+    "population": 2643
   },
   {
     "id": "LI-011",
@@ -85,6 +95,7 @@
     "country": "LI",
     "region": "Liechtenstein",
     "domain": "vaduz.li",
-    "osm_relation_id": 1155956
+    "osm_relation_id": 1155956,
+    "population": 5668
   }
 ]

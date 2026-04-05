@@ -25,7 +25,8 @@
     "name": "Ajdabiya",
     "country": "LY",
     "region": "Al Wahat District",
-    "domain": ""
+    "domain": "",
+    "population": 416000
   },
   {
     "id": "LY-005",
@@ -39,14 +40,16 @@
     "name": "Al Bayda",
     "country": "LY",
     "region": "Jabal al Akhdar",
-    "domain": ""
+    "domain": "",
+    "population": 250000
   },
   {
     "id": "LY-007",
     "name": "Al Khums",
     "country": "LY",
     "region": "Murqub",
-    "domain": "khoms.gov.ly"
+    "domain": "khoms.gov.ly",
+    "population": 201943
   },
   {
     "id": "LY-008",
@@ -60,7 +63,8 @@
     "name": "Al Qubbah",
     "country": "LY",
     "region": "Derna District",
-    "domain": ""
+    "domain": "",
+    "population": 60610
   },
   {
     "id": "LY-010",
@@ -88,14 +92,16 @@
     "name": "Bani Walid",
     "country": "LY",
     "region": "Misrata District",
-    "domain": ""
+    "domain": "",
+    "population": 50824
   },
   {
     "id": "LY-014",
     "name": "Benghazi",
     "country": "LY",
     "region": "Libya",
-    "domain": "benghazimun.ly"
+    "domain": "benghazimun.ly",
+    "population": 631555
   },
   {
     "id": "LY-015",
@@ -109,7 +115,8 @@
     "name": "Brega",
     "country": "LY",
     "region": "Libya",
-    "domain": ""
+    "domain": "",
+    "population": 13000
   },
   {
     "id": "LY-017",
@@ -123,7 +130,8 @@
     "name": "Derna",
     "country": "LY",
     "region": "Derna District",
-    "domain": ""
+    "domain": "",
+    "population": 150000
   },
   {
     "id": "LY-019",
@@ -144,14 +152,16 @@
     "name": "Gharyan",
     "country": "LY",
     "region": "Jabal al Gharbi District",
-    "domain": ""
+    "domain": "",
+    "population": 123456
   },
   {
     "id": "LY-022",
     "name": "Ghat",
     "country": "LY",
     "region": "Ghat District",
-    "domain": ""
+    "domain": "",
+    "population": 22000
   },
   {
     "id": "LY-023",
@@ -165,7 +175,8 @@
     "name": "Jadu",
     "country": "LY",
     "region": "Jabal al Gharbi District",
-    "domain": ""
+    "domain": "",
+    "population": 11500
   },
   {
     "id": "LY-025",
@@ -242,7 +253,8 @@
     "name": "Misrata",
     "country": "LY",
     "region": "Misrata District",
-    "domain": ""
+    "domain": "",
+    "population": 259056
   },
   {
     "id": "LY-036",
@@ -256,7 +268,8 @@
     "name": "Murzuk",
     "country": "LY",
     "region": "Murzuq District",
-    "domain": ""
+    "domain": "",
+    "population": 47324
   },
   {
     "id": "LY-038",
@@ -270,7 +283,8 @@
     "name": "Nalut",
     "country": "LY",
     "region": "",
-    "domain": ""
+    "domain": "",
+    "population": 26788
   },
   {
     "id": "LY-040",
@@ -284,14 +298,16 @@
     "name": "Sabratha",
     "country": "LY",
     "region": "Zawiya District",
-    "domain": "sabratha.gov.ly"
+    "domain": "sabratha.gov.ly",
+    "population": 102038
   },
   {
     "id": "LY-042",
     "name": "Sirte",
     "country": "LY",
     "region": "Sirte District",
-    "domain": ""
+    "domain": "",
+    "population": 76788
   },
   {
     "id": "LY-043",
@@ -319,14 +335,16 @@
     "name": "Surman",
     "country": "LY",
     "region": "Libya",
-    "domain": "surman.gov.ly"
+    "domain": "surman.gov.ly",
+    "population": 100707
   },
   {
     "id": "LY-047",
     "name": "Tajura",
     "country": "LY",
     "region": "Tripoli District",
-    "domain": ""
+    "domain": "",
+    "population": 48836
   },
   {
     "id": "LY-048",
@@ -340,7 +358,8 @@
     "name": "Tawergha",
     "country": "LY",
     "region": "Misrata District",
-    "domain": ""
+    "domain": "",
+    "population": 24223
   },
   {
     "id": "LY-050",
@@ -354,7 +373,8 @@
     "name": "Tobruk",
     "country": "LY",
     "region": "Butnan District",
-    "domain": ""
+    "domain": "",
+    "population": 135832
   },
   {
     "id": "LY-052",
@@ -376,7 +396,8 @@
     "country": "LY",
     "region": "Tripoli District",
     "domain": "tripoli.info",
-    "osm_relation_id": 5466235
+    "osm_relation_id": 5466235,
+    "population": 1293016
   },
   {
     "id": "LY-055",
@@ -404,21 +425,24 @@
     "name": "Yafran",
     "country": "LY",
     "region": "Jabal al Gharbi District",
-    "domain": ""
+    "domain": "",
+    "population": 72662
   },
   {
     "id": "LY-059",
     "name": "Zaltan",
     "country": "LY",
     "region": "Tripoli",
-    "domain": ""
+    "domain": "",
+    "population": 80310
   },
   {
     "id": "LY-060",
     "name": "Zaltan",
     "country": "LY",
     "region": "Nuqat al Khams District",
-    "domain": ""
+    "domain": "",
+    "population": 80310
   },
   {
     "id": "LY-061",
@@ -432,34 +456,39 @@
     "name": "Zawiya",
     "country": "LY",
     "region": "Zawiya District",
-    "domain": ""
+    "domain": "",
+    "population": 198567
   },
   {
     "id": "LY-063",
     "name": "Zintan",
     "country": "LY",
     "region": "Jabal al Gharbi District",
-    "domain": ""
+    "domain": "",
+    "population": 25000
   },
   {
     "id": "LY-064",
     "name": "Zliten",
     "country": "LY",
     "region": "Murqub",
-    "domain": "zliten.gov.ly"
+    "domain": "zliten.gov.ly",
+    "population": 200
   },
   {
     "id": "LY-065",
     "name": "encampment of Al Marj",
     "country": "LY",
     "region": "Marj District",
-    "domain": ""
+    "domain": "",
+    "population": 57267
   },
   {
     "id": "LY-066",
     "name": "‘Aziziya",
     "country": "LY",
     "region": "Jafara",
-    "domain": ""
+    "domain": "",
+    "population": 4000
   }
 ]

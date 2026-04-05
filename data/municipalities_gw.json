@@ -5,7 +5,8 @@
     "country": "GW",
     "region": "Bafatá",
     "domain": "",
-    "osm_relation_id": 1761587
+    "osm_relation_id": 1761587,
+    "population": 68956
   },
   {
     "id": "GW-002",
@@ -13,7 +14,8 @@
     "country": "GW",
     "region": "Bafatá",
     "domain": "",
-    "osm_relation_id": 1761588
+    "osm_relation_id": 1761588,
+    "population": 31834
   },
   {
     "id": "GW-003",
@@ -21,7 +23,8 @@
     "country": "GW",
     "region": "Tombali Region",
     "domain": "",
-    "osm_relation_id": 1761589
+    "osm_relation_id": 1761589,
+    "population": 24293
   },
   {
     "id": "GW-004",
@@ -44,21 +47,24 @@
     "name": "Bolama",
     "country": "GW",
     "region": "Bolama region",
-    "domain": ""
+    "domain": "",
+    "population": 5026
   },
   {
     "id": "GW-007",
     "name": "Buba",
     "country": "GW",
     "region": "",
-    "domain": ""
+    "domain": "",
+    "population": 17123
   },
   {
     "id": "GW-008",
     "name": "Bubaque",
     "country": "GW",
     "region": "Bolama region",
-    "domain": ""
+    "domain": "",
+    "population": 4484
   },
   {
     "id": "GW-009",
@@ -73,14 +79,16 @@
     "name": "Cacheu Sector",
     "country": "GW",
     "region": "Cacheu Region",
-    "domain": ""
+    "domain": "",
+    "population": 5674
   },
   {
     "id": "GW-011",
     "name": "Cacine",
     "country": "GW",
     "region": "Tombali Region",
-    "domain": ""
+    "domain": "",
+    "population": 15648
   },
   {
     "id": "GW-012",
@@ -102,14 +110,16 @@
     "name": "Caravela",
     "country": "GW",
     "region": "Bolama region",
-    "domain": ""
+    "domain": "",
+    "population": 10510
   },
   {
     "id": "GW-015",
     "name": "Catió",
     "country": "GW",
     "region": "Tombali Region",
-    "domain": ""
+    "domain": "",
+    "population": 26999
   },
   {
     "id": "GW-016",
@@ -117,28 +127,32 @@
     "country": "GW",
     "region": "Bafatá",
     "domain": "",
-    "osm_relation_id": 1761603
+    "osm_relation_id": 1761603,
+    "population": 44048
   },
   {
     "id": "GW-017",
     "name": "Empada",
     "country": "GW",
     "region": "",
-    "domain": ""
+    "domain": "",
+    "population": 17517
   },
   {
     "id": "GW-018",
     "name": "Farim",
     "country": "GW",
     "region": "Oio Region",
-    "domain": ""
+    "domain": "",
+    "population": 46268
   },
   {
     "id": "GW-019",
     "name": "Fulacunda",
     "country": "GW",
     "region": "",
-    "domain": ""
+    "domain": "",
+    "population": 11275
   },
   {
     "id": "GW-020",
@@ -153,7 +167,8 @@
     "country": "GW",
     "region": "Bafatá",
     "domain": "",
-    "osm_relation_id": 1761608
+    "osm_relation_id": 1761608,
+    "population": 14862
   },
   {
     "id": "GW-022",
@@ -161,14 +176,16 @@
     "country": "GW",
     "region": "Bafatá",
     "domain": "",
-    "osm_relation_id": 1761609
+    "osm_relation_id": 1761609,
+    "population": 24564
   },
   {
     "id": "GW-023",
     "name": "Komo",
     "country": "GW",
     "region": "Tombali Region",
-    "domain": ""
+    "domain": "",
+    "population": 8700
   },
   {
     "id": "GW-024",
@@ -253,7 +270,8 @@
     "country": "GW",
     "region": "",
     "domain": "",
-    "osm_relation_id": 1761621
+    "osm_relation_id": 1761621,
+    "population": 14862
   },
   {
     "id": "GW-035",
@@ -261,7 +279,8 @@
     "country": "GW",
     "region": "Bolama region",
     "domain": "",
-    "osm_relation_id": 5615996
+    "osm_relation_id": 5615996,
+    "population": 3324
   },
   {
     "id": "GW-036",
@@ -269,6 +288,7 @@
     "country": "GW",
     "region": "Bafatá",
     "domain": "",
-    "osm_relation_id": 1761622
+    "osm_relation_id": 1761622,
+    "population": 16928
   }
 ]

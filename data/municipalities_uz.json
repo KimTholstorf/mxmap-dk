@@ -5,7 +5,8 @@
     "country": "UZ",
     "region": "Uzbekistan",
     "domain": "andijan.uz",
-    "osm_relation_id": 178016
+    "osm_relation_id": 178016,
+    "population": 1899500
   },
   {
     "id": "UZ-002",
@@ -13,7 +14,8 @@
     "country": "UZ",
     "region": "Uzbekistan",
     "domain": "buxoro.uz",
-    "osm_relation_id": 1670973
+    "osm_relation_id": 1670973,
+    "population": 1543900
   },
   {
     "id": "UZ-003",
@@ -21,7 +23,8 @@
     "country": "UZ",
     "region": "Uzbekistan",
     "domain": "en.ferghana.uz",
-    "osm_relation_id": 178018
+    "osm_relation_id": 178018,
+    "population": 3564800
   },
   {
     "id": "UZ-004",
@@ -29,7 +32,8 @@
     "country": "UZ",
     "region": "Uzbekistan",
     "domain": "jizzax.gov.uz",
-    "osm_relation_id": 196254
+    "osm_relation_id": 196254,
+    "population": 1250100
   },
   {
     "id": "UZ-005",
@@ -37,7 +41,8 @@
     "country": "UZ",
     "region": "Uzbekistan",
     "domain": "namangan.uz",
-    "osm_relation_id": 178017
+    "osm_relation_id": 178017,
+    "population": 2554200
   },
   {
     "id": "UZ-006",
@@ -45,7 +50,8 @@
     "country": "UZ",
     "region": "Uzbekistan",
     "domain": "navoi.uz",
-    "osm_relation_id": 196246
+    "osm_relation_id": 196246,
+    "population": 767500
   },
   {
     "id": "UZ-007",
@@ -53,7 +59,8 @@
     "country": "UZ",
     "region": "Uzbekistan",
     "domain": "samarkand.uz",
-    "osm_relation_id": 196249
+    "osm_relation_id": 196249,
+    "population": 3444800
   },
   {
     "id": "UZ-008",
@@ -61,7 +68,8 @@
     "country": "UZ",
     "region": "Uzbekistan",
     "domain": "sirdaryo.uz",
-    "osm_relation_id": 196253
+    "osm_relation_id": 196253,
+    "population": 23501
   },
   {
     "id": "UZ-009",
@@ -77,7 +85,8 @@
     "country": "UZ",
     "region": "Uzbekistan",
     "domain": "tashvil.gov.uz",
-    "osm_relation_id": 196251
+    "osm_relation_id": 196251,
+    "population": 2644400
   },
   {
     "id": "UZ-011",
@@ -85,6 +94,7 @@
     "country": "UZ",
     "region": "Uzbekistan",
     "domain": "xorazm.uz",
-    "osm_relation_id": 196242
+    "osm_relation_id": 196242,
+    "population": 1715600
   }
 ]

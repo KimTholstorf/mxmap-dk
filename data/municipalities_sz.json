@@ -52,7 +52,8 @@
     "country": "SZ",
     "region": "Shiselweni Region",
     "domain": "",
-    "osm_relation_id": 1253035
+    "osm_relation_id": 1253035,
+    "population": 19608
   },
   {
     "id": "SZ-008",
@@ -83,7 +84,8 @@
     "name": "Lobamba",
     "country": "SZ",
     "region": "Hhohho - Mbabane Region",
-    "domain": ""
+    "domain": "",
+    "population": 114585
   },
   {
     "id": "SZ-012",
@@ -234,7 +236,8 @@
     "name": "Mhlume",
     "country": "SZ",
     "region": "Lubombo Region",
-    "domain": ""
+    "domain": "",
+    "population": 7761
   },
   {
     "id": "SZ-032",
@@ -350,7 +353,8 @@
     "name": "Piggs Peak",
     "country": "SZ",
     "region": "Hhohho - Mbabane Region",
-    "domain": ""
+    "domain": "",
+    "population": 4568
   },
   {
     "id": "SZ-047",

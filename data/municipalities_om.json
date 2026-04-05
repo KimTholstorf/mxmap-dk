@@ -81,35 +81,40 @@
     "name": "Al-Mazyunah",
     "country": "OM",
     "region": "Dhofar Governorate",
-    "domain": ""
+    "domain": "",
+    "population": 10000
   },
   {
     "id": "OM-013",
     "name": "Al-Musannah",
     "country": "OM",
     "region": "Al Batinah South Governorate",
-    "domain": ""
+    "domain": "",
+    "population": 6291
   },
   {
     "id": "OM-014",
     "name": "Bahla",
     "country": "OM",
     "region": "Ad Dakhiliyah Governorate",
-    "domain": ""
+    "domain": "",
+    "population": 20657
   },
   {
     "id": "OM-015",
     "name": "Barka",
     "country": "OM",
     "region": "Al Batinah South Governorate",
-    "domain": ""
+    "domain": "",
+    "population": 130000
   },
   {
     "id": "OM-016",
     "name": "Bawshar",
     "country": "OM",
     "region": "Muscat Governorate",
-    "domain": ""
+    "domain": "",
+    "population": 402023
   },
   {
     "id": "OM-017",
@@ -137,7 +142,8 @@
     "name": "Dhalkut",
     "country": "OM",
     "region": "Dhofar Governorate",
-    "domain": ""
+    "domain": "",
+    "population": 875
   },
   {
     "id": "OM-021",
@@ -179,7 +185,8 @@
     "name": "Ibri",
     "country": "OM",
     "region": "Ad Dhahirah Governorate",
-    "domain": ""
+    "domain": "",
+    "population": 98000
   },
   {
     "id": "OM-027",
@@ -207,7 +214,8 @@
     "name": "Khasab",
     "country": "OM",
     "region": "Musandam Governorate",
-    "domain": ""
+    "domain": "",
+    "population": 17777
   },
   {
     "id": "OM-031",
@@ -222,7 +230,8 @@
     "country": "OM",
     "region": "Musandam Governorate",
     "domain": "",
-    "osm_relation_id": 12486614
+    "osm_relation_id": 12486614,
+    "population": 4306
   },
   {
     "id": "OM-033",
@@ -251,14 +260,16 @@
     "country": "OM",
     "region": "Ash Sharqiyah South Governorate",
     "domain": "",
-    "osm_relation_id": 4803835
+    "osm_relation_id": 4803835,
+    "population": 8726
   },
   {
     "id": "OM-037",
     "name": "Mirbat",
     "country": "OM",
     "region": "Dhofar Governorate",
-    "domain": "web.archive.org"
+    "domain": "web.archive.org",
+    "population": 17305
   },
   {
     "id": "OM-038",
@@ -273,21 +284,24 @@
     "country": "OM",
     "region": "Muscat Governorate",
     "domain": "mm.gov.om",
-    "osm_relation_id": 3781239
+    "osm_relation_id": 3781239,
+    "population": 1302440
   },
   {
     "id": "OM-040",
     "name": "Muscat",
     "country": "OM",
     "region": "Muscat Governorate",
-    "domain": ""
+    "domain": "",
+    "population": 1421409
   },
   {
     "id": "OM-041",
     "name": "Muttrah",
     "country": "OM",
     "region": "Muscat Governorate",
-    "domain": ""
+    "domain": "",
+    "population": 230881
   },
   {
     "id": "OM-042",
@@ -301,14 +315,16 @@
     "name": "Nizwa",
     "country": "OM",
     "region": "Ad Dakhiliyah Governorate",
-    "domain": ""
+    "domain": "",
+    "population": 83544
   },
   {
     "id": "OM-044",
     "name": "Rachyut",
     "country": "OM",
     "region": "Dhofar Governorate",
-    "domain": ""
+    "domain": "",
+    "population": 4010
   },
   {
     "id": "OM-045",
@@ -329,7 +345,8 @@
     "name": "Saham",
     "country": "OM",
     "region": "Al Batinah North Governorate",
-    "domain": "omanet.om"
+    "domain": "omanet.om",
+    "population": 173055
   },
   {
     "id": "OM-048",
@@ -343,7 +360,8 @@
     "name": "Seeb",
     "country": "OM",
     "region": "Muscat Governorate",
-    "domain": "mctmnet.gov.om"
+    "domain": "mctmnet.gov.om",
+    "population": 470878
   },
   {
     "id": "OM-050",
@@ -364,7 +382,8 @@
     "name": "Sohar",
     "country": "OM",
     "region": "Al Batinah North Governorate",
-    "domain": ""
+    "domain": "",
+    "population": 219264
   },
   {
     "id": "OM-053",
@@ -378,7 +397,8 @@
     "name": "Sur",
     "country": "OM",
     "region": "Ash Sharqiyah South Governorate",
-    "domain": ""
+    "domain": "",
+    "population": 120000
   },
   {
     "id": "OM-055",

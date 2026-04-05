@@ -13,7 +13,8 @@
     "country": "MW",
     "region": "Southern Region",
     "domain": "",
-    "osm_relation_id": 7347100
+    "osm_relation_id": 7347100,
+    "population": 800264
   },
   {
     "id": "MW-003",
@@ -61,7 +62,8 @@
     "country": "MW",
     "region": "Northern Region",
     "domain": "",
-    "osm_relation_id": 7342879
+    "osm_relation_id": 7342879,
+    "population": 269890
   },
   {
     "id": "MW-009",
@@ -85,7 +87,8 @@
     "country": "MW",
     "region": "Central Region",
     "domain": "",
-    "osm_relation_id": 7345524
+    "osm_relation_id": 7345524,
+    "population": 989318
   },
   {
     "id": "MW-012",
@@ -93,7 +96,8 @@
     "country": "MW",
     "region": "Southern Region",
     "domain": "",
-    "osm_relation_id": 7345874
+    "osm_relation_id": 7345874,
+    "population": 1833
   },
   {
     "id": "MW-013",
@@ -101,7 +105,8 @@
     "country": "MW",
     "region": "Southern Region",
     "domain": "",
-    "osm_relation_id": 7345875
+    "osm_relation_id": 7345875,
+    "population": 51429
   },
   {
     "id": "MW-014",
@@ -117,7 +122,8 @@
     "country": "MW",
     "region": "Southern Region",
     "domain": "",
-    "osm_relation_id": 7347097
+    "osm_relation_id": 7347097,
+    "population": 20870
   },
   {
     "id": "MW-016",
@@ -133,7 +139,8 @@
     "country": "MW",
     "region": "Northern Region",
     "domain": "",
-    "osm_relation_id": 7343189
+    "osm_relation_id": 7343189,
+    "population": 26224
   },
   {
     "id": "MW-018",
@@ -141,7 +148,8 @@
     "country": "MW",
     "region": "Southern Region",
     "domain": "",
-    "osm_relation_id": 7800276
+    "osm_relation_id": 7800276,
+    "population": 2283
   },
   {
     "id": "MW-019",
@@ -173,7 +181,8 @@
     "country": "MW",
     "region": "Central Region",
     "domain": "",
-    "osm_relation_id": 7345522
+    "osm_relation_id": 7345522,
+    "population": 14642
   },
   {
     "id": "MW-023",
@@ -213,13 +222,15 @@
     "country": "MW",
     "region": "Southern Region",
     "domain": "",
-    "osm_relation_id": 7347769
+    "osm_relation_id": 7347769,
+    "population": 7029
   },
   {
     "id": "MW-028",
     "name": "Zomba District",
     "country": "MW",
     "region": "Southern Region",
-    "domain": ""
+    "domain": "",
+    "population": 101140
   }
 ]

@@ -11,7 +11,8 @@
     "name": "Al Daayen",
     "country": "QA",
     "region": "",
-    "domain": ""
+    "domain": "",
+    "population": 54339
   },
   {
     "id": "QA-003",
@@ -19,7 +20,8 @@
     "country": "QA",
     "region": "",
     "domain": "",
-    "osm_relation_id": 27329
+    "osm_relation_id": 27329,
+    "population": 202031
   },
   {
     "id": "QA-004",
@@ -27,7 +29,8 @@
     "country": "QA",
     "region": "",
     "domain": "mme.gov.qa",
-    "osm_relation_id": 27331
+    "osm_relation_id": 27331,
+    "population": 605712
   },
   {
     "id": "QA-005",
@@ -42,14 +45,16 @@
     "name": "Al Wakrah",
     "country": "QA",
     "region": "",
-    "domain": ""
+    "domain": "",
+    "population": 87970
   },
   {
     "id": "QA-007",
     "name": "Al-Shahaniya",
     "country": "QA",
     "region": "",
-    "domain": ""
+    "domain": "",
+    "population": 161240
   },
   {
     "id": "QA-008",

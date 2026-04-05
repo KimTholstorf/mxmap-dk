@@ -19,7 +19,8 @@
     "name": "Bururi Commune",
     "country": "BI",
     "region": "Burunga",
-    "domain": ""
+    "domain": "",
+    "population": 4478
   },
   {
     "id": "BI-004",
@@ -55,7 +56,8 @@
     "name": "Commune Mutimbuzi",
     "country": "BI",
     "region": "Bujumbura Province",
-    "domain": ""
+    "domain": "",
+    "population": 69525
   },
   {
     "id": "BI-009",
@@ -206,7 +208,8 @@
     "name": "Commune of Butezi",
     "country": "BI",
     "region": "Buhumuza",
-    "domain": ""
+    "domain": "",
+    "population": 39178
   },
   {
     "id": "BI-030",
@@ -221,7 +224,8 @@
     "country": "BI",
     "region": "Butanyerera",
     "domain": "",
-    "osm_relation_id": 2985686
+    "osm_relation_id": 2985686,
+    "population": 66816
   },
   {
     "id": "BI-032",
@@ -833,14 +837,16 @@
     "name": "Muyinga Commune",
     "country": "BI",
     "region": "Buhumuza",
-    "domain": ""
+    "domain": "",
+    "population": 9609
   },
   {
     "id": "BI-117",
     "name": "Mwaro",
     "country": "BI",
     "region": "Gitega Province",
-    "domain": ""
+    "domain": "",
+    "population": 2403
   },
   {
     "id": "BI-118",

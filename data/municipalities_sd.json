@@ -19,7 +19,8 @@
     "country": "SD",
     "region": "River Nile",
     "domain": "",
-    "osm_relation_id": 3924783
+    "osm_relation_id": 3924783,
+    "population": 50000
   },
   {
     "id": "SD-004",
@@ -209,7 +210,8 @@
     "country": "SD",
     "region": "Al Qadarif",
     "domain": "",
-    "osm_relation_id": 19713755
+    "osm_relation_id": 19713755,
+    "population": 1789806
   },
   {
     "id": "SD-030",
@@ -370,7 +372,8 @@
     "name": "Al Qadarif District",
     "country": "SD",
     "region": "Al Qadarif",
-    "domain": ""
+    "domain": "",
+    "population": 354927
   },
   {
     "id": "SD-052",
@@ -615,7 +618,8 @@
     "name": "Berber District",
     "country": "SD",
     "region": "River Nile",
-    "domain": ""
+    "domain": "",
+    "population": 26203
   },
   {
     "id": "SD-086",
@@ -694,7 +698,8 @@
     "name": "El Manaqil District",
     "country": "SD",
     "region": "Gezira",
-    "domain": ""
+    "domain": "",
+    "population": 99775
   },
   {
     "id": "SD-097",
@@ -739,7 +744,8 @@
     "name": "Gereida District",
     "country": "SD",
     "region": "South Darfur",
-    "domain": ""
+    "domain": "",
+    "population": 120000
   },
   {
     "id": "SD-103",
@@ -900,7 +906,8 @@
     "name": "Kassala District",
     "country": "SD",
     "region": "Kassala",
-    "domain": ""
+    "domain": "",
+    "population": 536009
   },
   {
     "id": "SD-125",
@@ -915,7 +922,8 @@
     "country": "SD",
     "region": "North Darfur",
     "domain": "",
-    "osm_relation_id": 8539326
+    "osm_relation_id": 8539326,
+    "population": 42376
   },
   {
     "id": "SD-127",
@@ -958,7 +966,8 @@
     "name": "Khartoum District",
     "country": "SD",
     "region": "Khartoum",
-    "domain": ""
+    "domain": "",
+    "population": 5345000
   },
   {
     "id": "SD-133",
@@ -966,7 +975,8 @@
     "country": "SD",
     "region": "White Nile",
     "domain": "",
-    "osm_relation_id": 8539319
+    "osm_relation_id": 8539319,
+    "population": 528458
   },
   {
     "id": "SD-134",
@@ -989,7 +999,8 @@
     "country": "SD",
     "region": "North Darfur",
     "domain": "",
-    "osm_relation_id": 8539325
+    "osm_relation_id": 8539325,
+    "population": 34694
   },
   {
     "id": "SD-137",
@@ -1011,7 +1022,8 @@
     "name": "Mellit District",
     "country": "SD",
     "region": "North Darfur",
-    "domain": ""
+    "domain": "",
+    "population": 50165
   },
   {
     "id": "SD-140",
@@ -1084,7 +1096,8 @@
     "country": "SD",
     "region": "South Darfur",
     "domain": "",
-    "osm_relation_id": 8539330
+    "osm_relation_id": 8539330,
+    "population": 492984
   },
   {
     "id": "SD-150",
@@ -1098,7 +1111,8 @@
     "name": "Omdurman District",
     "country": "SD",
     "region": "Khartoum",
-    "domain": ""
+    "domain": "",
+    "population": 2805396
   },
   {
     "id": "SD-152",
@@ -1106,7 +1120,8 @@
     "country": "SD",
     "region": "Red Sea",
     "domain": "",
-    "osm_relation_id": 3922829
+    "osm_relation_id": 3922829,
+    "population": 579942
   },
   {
     "id": "SD-153",

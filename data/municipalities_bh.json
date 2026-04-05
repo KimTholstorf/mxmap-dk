@@ -5,7 +5,8 @@
     "country": "BH",
     "region": "Bahrain",
     "domain": "capital.gov.bh",
-    "osm_relation_id": 3028094
+    "osm_relation_id": 3028094,
+    "population": 534939
   },
   {
     "id": "BH-002",
@@ -20,7 +21,8 @@
     "country": "BH",
     "region": "Bahrain",
     "domain": "muharraq.gov.bh",
-    "osm_relation_id": 3028095
+    "osm_relation_id": 3028095,
+    "population": 263373
   },
   {
     "id": "BH-004",
@@ -28,7 +30,8 @@
     "country": "BH",
     "region": "Bahrain",
     "domain": "northern.gov.bh",
-    "osm_relation_id": 2522303
+    "osm_relation_id": 2522303,
+    "population": 375648
   },
   {
     "id": "BH-005",
@@ -36,6 +39,7 @@
     "country": "BH",
     "region": "Bahrain",
     "domain": "southern.gov.bh",
-    "osm_relation_id": 2522430
+    "osm_relation_id": 2522430,
+    "population": 298244
   }
 ]

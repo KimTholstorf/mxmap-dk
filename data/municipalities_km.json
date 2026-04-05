@@ -5,7 +5,8 @@
     "country": "KM",
     "region": "Comoros",
     "domain": "",
-    "osm_relation_id": 7174452
+    "osm_relation_id": 7174452,
+    "population": 240000
   },
   {
     "id": "KM-002",
@@ -13,7 +14,8 @@
     "country": "KM",
     "region": "Comoros",
     "domain": "",
-    "osm_relation_id": 2955051
+    "osm_relation_id": 2955051,
+    "population": 379367
   },
   {
     "id": "KM-003",
@@ -21,6 +23,7 @@
     "country": "KM",
     "region": "Comoros",
     "domain": "",
-    "osm_relation_id": 7174450
+    "osm_relation_id": 7174450,
+    "population": 40000
   }
 ]

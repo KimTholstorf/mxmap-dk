@@ -4,7 +4,8 @@
     "name": "Banja Luka",
     "country": "BA",
     "region": "Republika Srpska",
-    "domain": "banjaluka.rs.ba"
+    "domain": "banjaluka.rs.ba",
+    "population": 185042
   },
   {
     "id": "BA-002",
@@ -12,7 +13,8 @@
     "country": "BA",
     "region": "Tuzla Canton",
     "domain": "",
-    "osm_relation_id": 2528157
+    "osm_relation_id": 2528157,
+    "population": 26590
   },
   {
     "id": "BA-003",
@@ -20,7 +22,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 2528158
+    "osm_relation_id": 2528158,
+    "population": 2114
   },
   {
     "id": "BA-004",
@@ -28,7 +31,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 2528161
+    "osm_relation_id": 2528161,
+    "population": 11536
   },
   {
     "id": "BA-005",
@@ -44,7 +48,8 @@
     "country": "BA",
     "region": "Una-Sana Canton",
     "domain": "",
-    "osm_relation_id": 2528168
+    "osm_relation_id": 2528168,
+    "population": 3427
   },
   {
     "id": "BA-007",
@@ -60,7 +65,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "bratunacopstina.com",
-    "osm_relation_id": 2530647
+    "osm_relation_id": 2530647,
+    "population": 7858
   },
   {
     "id": "BA-009",
@@ -68,7 +74,8 @@
     "country": "BA",
     "region": "Federation of Bosnia and Herzegovina",
     "domain": "",
-    "osm_relation_id": 2528171
+    "osm_relation_id": 2528171,
+    "population": 14564
   },
   {
     "id": "BA-010",
@@ -76,7 +83,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "opstina-brod.net",
-    "osm_relation_id": 2528166
+    "osm_relation_id": 2528166,
+    "population": 6767
   },
   {
     "id": "BA-011",
@@ -84,7 +92,8 @@
     "country": "BA",
     "region": "Central Bosnia Canton",
     "domain": "",
-    "osm_relation_id": 2528172
+    "osm_relation_id": 2528172,
+    "population": 15555
   },
   {
     "id": "BA-012",
@@ -100,7 +109,8 @@
     "country": "BA",
     "region": "Una-Sana Canton",
     "domain": "",
-    "osm_relation_id": 2528174
+    "osm_relation_id": 2528174,
+    "population": 2191
   },
   {
     "id": "BA-014",
@@ -132,7 +142,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "gradbijeljina.org",
-    "osm_relation_id": 2528160
+    "osm_relation_id": 2528160,
+    "population": 103874
   },
   {
     "id": "BA-018",
@@ -203,7 +214,8 @@
     "country": "BA",
     "region": "Canton 10",
     "domain": "",
-    "osm_relation_id": 2528226
+    "osm_relation_id": 2528226,
+    "population": 37487
   },
   {
     "id": "BA-027",
@@ -211,7 +223,8 @@
     "country": "BA",
     "region": "West Herzegovina Canton",
     "domain": "",
-    "osm_relation_id": 2528228
+    "osm_relation_id": 2528228,
+    "population": 23689
   },
   {
     "id": "BA-028",
@@ -243,7 +256,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 5729592
+    "osm_relation_id": 5729592,
+    "population": 97588
   },
   {
     "id": "BA-032",
@@ -282,7 +296,8 @@
     "country": "BA",
     "region": "Federation of Bosnia and Herzegovina",
     "domain": "visoko.gov.ba",
-    "osm_relation_id": 2528288
+    "osm_relation_id": 2528288,
+    "population": 46160
   },
   {
     "id": "BA-037",
@@ -290,7 +305,8 @@
     "country": "BA",
     "region": "Federation of Bosnia and Herzegovina",
     "domain": "zavidovici.ba",
-    "osm_relation_id": 2528292
+    "osm_relation_id": 2528292,
+    "population": 38027
   },
   {
     "id": "BA-038",
@@ -298,7 +314,8 @@
     "country": "BA",
     "region": "Zenica-Doboj Canton",
     "domain": "zenica.ba",
-    "osm_relation_id": 2528293
+    "osm_relation_id": 2528293,
+    "population": 110663
   },
   {
     "id": "BA-039",
@@ -330,7 +347,8 @@
     "country": "BA",
     "region": "Federation of Bosnia and Herzegovina",
     "domain": "opcinazivinice.org",
-    "osm_relation_id": 2528295
+    "osm_relation_id": 2528295,
+    "population": 55704
   },
   {
     "id": "BA-043",
@@ -362,7 +380,8 @@
     "country": "BA",
     "region": "Posavina Canton",
     "domain": "domaljevac.ba",
-    "osm_relation_id": 2528187
+    "osm_relation_id": 2528187,
+    "population": 4771
   },
   {
     "id": "BA-047",
@@ -370,7 +389,8 @@
     "country": "BA",
     "region": "Federation of Bosnia and Herzegovina",
     "domain": "donji-vakuf.ba",
-    "osm_relation_id": 2528188
+    "osm_relation_id": 2528188,
+    "population": 13985
   },
   {
     "id": "BA-048",
@@ -378,7 +398,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 2528189
+    "osm_relation_id": 2528189,
+    "population": 1208
   },
   {
     "id": "BA-049",
@@ -386,7 +407,8 @@
     "country": "BA",
     "region": "Federation of Bosnia and Herzegovina",
     "domain": "opstinadrvar.net",
-    "osm_relation_id": 2528190
+    "osm_relation_id": 2528190,
+    "population": 7506
   },
   {
     "id": "BA-050",
@@ -394,7 +416,8 @@
     "country": "BA",
     "region": "Federation of Bosnia and Herzegovina",
     "domain": "",
-    "osm_relation_id": 2528197
+    "osm_relation_id": 2528197,
+    "population": 13047
   },
   {
     "id": "BA-051",
@@ -402,7 +425,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 2528196
+    "osm_relation_id": 2528196,
+    "population": 12334
   },
   {
     "id": "BA-052",
@@ -434,7 +458,8 @@
     "country": "BA",
     "region": "Federation of Bosnia and Herzegovina",
     "domain": "",
-    "osm_relation_id": 2528204
+    "osm_relation_id": 2528204,
+    "population": 4404
   },
   {
     "id": "BA-056",
@@ -442,7 +467,8 @@
     "country": "BA",
     "region": "Sarajevo Canton",
     "domain": "",
-    "osm_relation_id": 2528205
+    "osm_relation_id": 2528205,
+    "population": 23891
   },
   {
     "id": "BA-057",
@@ -458,7 +484,8 @@
     "country": "BA",
     "region": "Sarajevo Canton",
     "domain": "",
-    "osm_relation_id": 2528207
+    "osm_relation_id": 2528207,
+    "population": 3
   },
   {
     "id": "BA-059",
@@ -466,7 +493,8 @@
     "country": "BA",
     "region": "Federation of Bosnia and Herzegovina",
     "domain": "ilijas.ba",
-    "osm_relation_id": 2528208
+    "osm_relation_id": 2528208,
+    "population": 18048
   },
   {
     "id": "BA-060",
@@ -482,7 +510,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 2528191
+    "osm_relation_id": 2528191,
+    "population": 79
   },
   {
     "id": "BA-062",
@@ -490,7 +519,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 2528193
+    "osm_relation_id": 2528193,
+    "population": 280
   },
   {
     "id": "BA-063",
@@ -514,7 +544,8 @@
     "country": "BA",
     "region": "Bosnia and Herzegovina",
     "domain": "gradistocnosarajevo.net",
-    "osm_relation_id": 2567396
+    "osm_relation_id": 2567396,
+    "population": 61516
   },
   {
     "id": "BA-066",
@@ -522,7 +553,8 @@
     "country": "BA",
     "region": "Herzegovina-Neretva Canton",
     "domain": "",
-    "osm_relation_id": 2528209
+    "osm_relation_id": 2528209,
+    "population": 10580
   },
   {
     "id": "BA-067",
@@ -530,7 +562,8 @@
     "country": "BA",
     "region": "Federation of Bosnia and Herzegovina",
     "domain": "",
-    "osm_relation_id": 2528210
+    "osm_relation_id": 2528210,
+    "population": 12000
   },
   {
     "id": "BA-068",
@@ -538,7 +571,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 2528212
+    "osm_relation_id": 2528212,
+    "population": 581
   },
   {
     "id": "BA-069",
@@ -546,7 +580,8 @@
     "country": "BA",
     "region": "Federation of Bosnia and Herzegovina",
     "domain": "",
-    "osm_relation_id": 2528213
+    "osm_relation_id": 2528213,
+    "population": 55950
   },
   {
     "id": "BA-070",
@@ -570,7 +605,8 @@
     "country": "BA",
     "region": "Federation of Bosnia and Herzegovina",
     "domain": "",
-    "osm_relation_id": 2528216
+    "osm_relation_id": 2528216,
+    "population": 363
   },
   {
     "id": "BA-073",
@@ -586,7 +622,8 @@
     "country": "BA",
     "region": "Una-Sana Canton",
     "domain": "",
-    "osm_relation_id": 2528218
+    "osm_relation_id": 2528218,
+    "population": 4898
   },
   {
     "id": "BA-075",
@@ -594,7 +631,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 2528266
+    "osm_relation_id": 2528266,
+    "population": 3749
   },
   {
     "id": "BA-076",
@@ -602,7 +640,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 2528163
+    "osm_relation_id": 2528163,
+    "population": 3834
   },
   {
     "id": "BA-077",
@@ -610,7 +649,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 2528220
+    "osm_relation_id": 2528220,
+    "population": 7603
   },
   {
     "id": "BA-078",
@@ -618,7 +658,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 2528165
+    "osm_relation_id": 2528165,
+    "population": 10544
   },
   {
     "id": "BA-079",
@@ -626,7 +667,8 @@
     "country": "BA",
     "region": "Central Bosnia Canton",
     "domain": "",
-    "osm_relation_id": 2528221
+    "osm_relation_id": 2528221,
+    "population": 5624
   },
   {
     "id": "BA-080",
@@ -634,7 +676,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "opstinakrupanauni.rs.ba",
-    "osm_relation_id": 2528222
+    "osm_relation_id": 2528222,
+    "population": 1597
   },
   {
     "id": "BA-081",
@@ -650,7 +693,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "srpskikupres.com",
-    "osm_relation_id": 2528223
+    "osm_relation_id": 2528223,
+    "population": 300
   },
   {
     "id": "BA-083",
@@ -658,7 +702,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 2528225
+    "osm_relation_id": 2528225,
+    "population": 5419
   },
   {
     "id": "BA-084",
@@ -674,7 +719,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 2528229
+    "osm_relation_id": 2528229,
+    "population": 723
   },
   {
     "id": "BA-086",
@@ -690,7 +736,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 2528232
+    "osm_relation_id": 2528232,
+    "population": 2272
   },
   {
     "id": "BA-088",
@@ -698,7 +745,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 2528235
+    "osm_relation_id": 2528235,
+    "population": 7371
   },
   {
     "id": "BA-089",
@@ -714,7 +762,8 @@
     "country": "BA",
     "region": "Federation of Bosnia and Herzegovina",
     "domain": "neum.ba",
-    "osm_relation_id": 2528236
+    "osm_relation_id": 2528236,
+    "population": 4960
   },
   {
     "id": "BA-091",
@@ -730,7 +779,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 2528167
+    "osm_relation_id": 2528167,
+    "population": 10120
   },
   {
     "id": "BA-093",
@@ -762,7 +812,8 @@
     "country": "BA",
     "region": "Posavina Canton",
     "domain": "",
-    "osm_relation_id": 2528242
+    "osm_relation_id": 2528242,
+    "population": 8259
   },
   {
     "id": "BA-097",
@@ -770,7 +821,8 @@
     "country": "BA",
     "region": "Federation of Bosnia and Herzegovina",
     "domain": "",
-    "osm_relation_id": 2528244
+    "osm_relation_id": 2528244,
+    "population": 10578
   },
   {
     "id": "BA-098",
@@ -778,7 +830,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 2528246
+    "osm_relation_id": 2528246,
+    "population": 998
   },
   {
     "id": "BA-099",
@@ -786,7 +839,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "opstinaostraluka.rs.ba",
-    "osm_relation_id": 2528247
+    "osm_relation_id": 2528247,
+    "population": 782
   },
   {
     "id": "BA-100",
@@ -794,7 +848,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 2528248
+    "osm_relation_id": 2528248,
+    "population": 93
   },
   {
     "id": "BA-101",
@@ -818,7 +873,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "drinic.rs.ba",
-    "osm_relation_id": 2528251
+    "osm_relation_id": 2528251,
+    "population": 361
   },
   {
     "id": "BA-104",
@@ -826,7 +882,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 2528252
+    "osm_relation_id": 2528252,
+    "population": 2322
   },
   {
     "id": "BA-105",
@@ -842,7 +899,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 2528255
+    "osm_relation_id": 2528255,
+    "population": 38399
   },
   {
     "id": "BA-107",
@@ -850,7 +908,8 @@
     "country": "BA",
     "region": "Federation of Bosnia and Herzegovina",
     "domain": "prozor-rama.org",
-    "osm_relation_id": 2528256
+    "osm_relation_id": 2528256,
+    "population": 14280
   },
   {
     "id": "BA-108",
@@ -866,7 +925,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "opstinaribnik.org",
-    "osm_relation_id": 2528258
+    "osm_relation_id": 2528258,
+    "population": 6048
   },
   {
     "id": "BA-110",
@@ -890,7 +950,8 @@
     "country": "BA",
     "region": "Una-Sana Canton",
     "domain": "sanskimost.gov.ba",
-    "osm_relation_id": 2528261
+    "osm_relation_id": 2528261,
+    "population": 43969
   },
   {
     "id": "BA-113",
@@ -906,7 +967,8 @@
     "country": "BA",
     "region": "Sarajevo Canton",
     "domain": "sarajevo.ba",
-    "osm_relation_id": 2567380
+    "osm_relation_id": 2567380,
+    "population": 275524
   },
   {
     "id": "BA-115",
@@ -914,7 +976,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 2528267
+    "osm_relation_id": 2528267,
+    "population": 133
   },
   {
     "id": "BA-116",
@@ -922,7 +985,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 2528268
+    "osm_relation_id": 2528268,
+    "population": 2801
   },
   {
     "id": "BA-117",
@@ -930,7 +994,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "srebrenica.gov.ba",
-    "osm_relation_id": 2528269
+    "osm_relation_id": 2528269,
+    "population": 15242
   },
   {
     "id": "BA-118",
@@ -945,7 +1010,8 @@
     "country": "BA",
     "region": "Sarajevo Canton",
     "domain": "starigrad.ba",
-    "osm_relation_id": 2528243
+    "osm_relation_id": 2528243,
+    "population": 126598
   },
   {
     "id": "BA-120",
@@ -953,7 +1019,8 @@
     "country": "BA",
     "region": "Tuzla Canton",
     "domain": "",
-    "osm_relation_id": 2528272
+    "osm_relation_id": 2528272,
+    "population": 7424
   },
   {
     "id": "BA-121",
@@ -961,7 +1028,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 2528274
+    "osm_relation_id": 2528274,
+    "population": 7057
   },
   {
     "id": "BA-122",
@@ -977,7 +1045,8 @@
     "country": "BA",
     "region": "Canton 10",
     "domain": "",
-    "osm_relation_id": 2528275
+    "osm_relation_id": 2528275,
+    "population": 5760
   },
   {
     "id": "BA-124",
@@ -985,7 +1054,8 @@
     "country": "BA",
     "region": "Federation of Bosnia and Herzegovina",
     "domain": "",
-    "osm_relation_id": 2528241
+    "osm_relation_id": 2528241,
+    "population": 24859
   },
   {
     "id": "BA-125",
@@ -993,7 +1063,8 @@
     "country": "BA",
     "region": "Central Bosnia Canton",
     "domain": "",
-    "osm_relation_id": 2528276
+    "osm_relation_id": 2528276,
+    "population": 53482
   },
   {
     "id": "BA-126",
@@ -1001,7 +1072,8 @@
     "country": "BA",
     "region": "Sarajevo Canton",
     "domain": "trnovo.ba",
-    "osm_relation_id": 2528280
+    "osm_relation_id": 2528280,
+    "population": 202
   },
   {
     "id": "BA-127",
@@ -1009,7 +1081,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 2568824
+    "osm_relation_id": 2568824,
+    "population": 202
   },
   {
     "id": "BA-128",
@@ -1017,7 +1090,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 2528282
+    "osm_relation_id": 2528282,
+    "population": 16275
   },
   {
     "id": "BA-129",
@@ -1033,7 +1107,8 @@
     "country": "BA",
     "region": "Federation of Bosnia and Herzegovina",
     "domain": "",
-    "osm_relation_id": 2528285
+    "osm_relation_id": 2528285,
+    "population": 9556
   },
   {
     "id": "BA-131",
@@ -1041,7 +1116,8 @@
     "country": "BA",
     "region": "Una-Sana Canton",
     "domain": "",
-    "osm_relation_id": 2528286
+    "osm_relation_id": 2528286,
+    "population": 4520
   },
   {
     "id": "BA-132",
@@ -1049,7 +1125,8 @@
     "country": "BA",
     "region": "Federation of Bosnia and Herzegovina",
     "domain": "",
-    "osm_relation_id": 2528289
+    "osm_relation_id": 2528289,
+    "population": 25836
   },
   {
     "id": "BA-133",
@@ -1057,7 +1134,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 2528287
+    "osm_relation_id": 2528287,
+    "population": 11774
   },
   {
     "id": "BA-134",
@@ -1065,7 +1143,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 2528290
+    "osm_relation_id": 2528290,
+    "population": 6715
   },
   {
     "id": "BA-135",
@@ -1081,7 +1160,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 2531450
+    "osm_relation_id": 2531450,
+    "population": 713
   },
   {
     "id": "BA-137",
@@ -1097,7 +1177,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 2528179
+    "osm_relation_id": 2528179,
+    "population": 16874
   },
   {
     "id": "BA-139",
@@ -1105,7 +1186,8 @@
     "country": "BA",
     "region": "Tuzla Canton",
     "domain": "",
-    "osm_relation_id": 2528178
+    "osm_relation_id": 2528178,
+    "population": 35
   },
   {
     "id": "BA-140",
@@ -1113,7 +1195,8 @@
     "country": "BA",
     "region": "Herzegovina-Neretva Canton",
     "domain": "",
-    "osm_relation_id": 2528181
+    "osm_relation_id": 2528181,
+    "population": 18552
   },
   {
     "id": "BA-141",
@@ -1121,7 +1204,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 2528169
+    "osm_relation_id": 2528169,
+    "population": 5133
   },
   {
     "id": "BA-142",
@@ -1129,7 +1213,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 2528263
+    "osm_relation_id": 2528263,
+    "population": 1322
   },
   {
     "id": "BA-143",
@@ -1137,7 +1222,8 @@
     "country": "BA",
     "region": "Republika Srpska",
     "domain": "",
-    "osm_relation_id": 2528264
+    "osm_relation_id": 2528264,
+    "population": 3856
   },
   {
     "id": "BA-144",
@@ -1145,7 +1231,8 @@
     "country": "BA",
     "region": "Federation of Bosnia and Herzegovina",
     "domain": "opcina-zepce.com",
-    "osm_relation_id": 2528294
+    "osm_relation_id": 2528294,
+    "population": 31067
   },
   {
     "id": "BA-145",
@@ -1153,6 +1240,7 @@
     "country": "BA",
     "region": "Brčko District",
     "domain": "bdcentral.net",
-    "osm_relation_id": 2528143
+    "osm_relation_id": 2528143,
+    "population": 83516
   }
 ]

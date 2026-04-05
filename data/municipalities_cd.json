@@ -20,7 +20,8 @@
     "country": "CD",
     "region": "Ituri Province",
     "domain": "",
-    "osm_relation_id": 12720424
+    "osm_relation_id": 12720424,
+    "population": 1633142
   },
   {
     "id": "CD-004",
@@ -70,7 +71,8 @@
     "name": "Beni Territory",
     "country": "CD",
     "region": "North Kivu",
-    "domain": ""
+    "domain": "",
+    "population": 916181
   },
   {
     "id": "CD-011",
@@ -342,7 +344,8 @@
     "name": "Isangi (Territoire)",
     "country": "CD",
     "region": "Tshopo",
-    "domain": ""
+    "domain": "",
+    "population": 12093
   },
   {
     "id": "CD-049",
@@ -408,7 +411,8 @@
     "country": "CD",
     "region": "South Kivu",
     "domain": "",
-    "osm_relation_id": 5327785
+    "osm_relation_id": 5327785,
+    "population": 933181
   },
   {
     "id": "CD-058",
@@ -993,7 +997,8 @@
     "country": "CD",
     "region": "North Kivu",
     "domain": "",
-    "osm_relation_id": 5327798
+    "osm_relation_id": 5327798,
+    "population": 9903
   },
   {
     "id": "CD-139",
@@ -1050,6 +1055,7 @@
     "name": "Tshela",
     "country": "CD",
     "region": "Kongo Central",
-    "domain": ""
+    "domain": "",
+    "population": 45051
   }
 ]

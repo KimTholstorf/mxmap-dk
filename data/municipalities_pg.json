@@ -109,21 +109,24 @@
     "name": "East Sepik Province",
     "country": "PG",
     "region": "Papua New Guinea",
-    "domain": ""
+    "domain": "",
+    "population": 450530
   },
   {
     "id": "PG-017",
     "name": "Eastern Highlands Province",
     "country": "PG",
     "region": "Papua New Guinea",
-    "domain": "ehp.gov.pg"
+    "domain": "ehp.gov.pg",
+    "population": 579825
   },
   {
     "id": "PG-018",
     "name": "Enga Province",
     "country": "PG",
     "region": "Papua New Guinea",
-    "domain": ""
+    "domain": "",
+    "population": 571060
   },
   {
     "id": "PG-019",
@@ -137,7 +140,8 @@
     "name": "Finschhafen District",
     "country": "PG",
     "region": "Morobe",
-    "domain": ""
+    "domain": "",
+    "population": 1240
   },
   {
     "id": "PG-021",
@@ -158,14 +162,16 @@
     "name": "Goroka District",
     "country": "PG",
     "region": "Eastern Highlands",
-    "domain": ""
+    "domain": "",
+    "population": 21507
   },
   {
     "id": "PG-024",
     "name": "Gulf Province",
     "country": "PG",
     "region": "Southern",
-    "domain": ""
+    "domain": "",
+    "population": 158197
   },
   {
     "id": "PG-025",
@@ -284,7 +290,8 @@
     "name": "Kavieng District",
     "country": "PG",
     "region": "New Ireland",
-    "domain": ""
+    "domain": "",
+    "population": 19849
   },
   {
     "id": "PG-042",
@@ -355,7 +362,8 @@
     "name": "Lae District",
     "country": "PG",
     "region": "Morobe",
-    "domain": ""
+    "domain": "",
+    "population": 100677
   },
   {
     "id": "PG-052",
@@ -495,7 +503,8 @@
     "name": "Mount Hagen District",
     "country": "PG",
     "region": "Western Highlands",
-    "domain": ""
+    "domain": "",
+    "population": 29765
   },
   {
     "id": "PG-072",
@@ -537,7 +546,8 @@
     "name": "New Ireland Province",
     "country": "PG",
     "region": "Papua New Guinea",
-    "domain": ""
+    "domain": "",
+    "population": 100000
   },
   {
     "id": "PG-078",
@@ -607,7 +617,8 @@
     "name": "Rabaul District",
     "country": "PG",
     "region": "East New Britain",
-    "domain": ""
+    "domain": "",
+    "population": 7024
   },
   {
     "id": "PG-088",
@@ -663,7 +674,8 @@
     "name": "Southern Highlands Province",
     "country": "PG",
     "region": "Papua New Guinea",
-    "domain": ""
+    "domain": "",
+    "population": 510245
   },
   {
     "id": "PG-096",
