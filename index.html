@@ -983,7 +983,10 @@ function buildAggregatedPopup(group, feature, cc) {
 // --- TopoJSON loading ---
 async function loadTopo(cc, level) {
   if (!manifest || !manifest[cc]) return null;
-  const fileEntry = manifest[cc].files[level];
+  // Fall back through levels: region → district → municipality
+  let fileEntry = manifest[cc].files[level];
+  if (!fileEntry && level === 'region') fileEntry = manifest[cc].files['district'];
+  if (!fileEntry) fileEntry = manifest[cc].files['municipality'];
   if (!fileEntry) return null;
 
   // String value: single file (standard path)
@@ -1097,7 +1100,8 @@ async function renderCountryLayer(cc) {
   // Aggregated if different level files, or if current is a string and muni is object (or vice versa)
   // Also aggregate when topo has fewer features than data (province-only topo for district-level data)
   const ALWAYS_AGGREGATE = ['PG', 'KH', 'OM', 'PH'];
-  const isAggregated = ALWAYS_AGGREGATE.includes(cc)
+  const isAggregated = !summaryLoaded
+    || ALWAYS_AGGREGATE.includes(cc)
     || ((typeof currentFile === 'string' && typeof muniFile === 'string')
       ? currentFile !== muniFile
       : (typeof currentFile !== typeof muniFile || currentLevel !== 'municipality'));
