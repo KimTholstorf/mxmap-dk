@@ -511,8 +511,8 @@ let muniByName = {};   // lowercase name -> municipality
 
 // --- Map ---
 const map = L.map('map', {
-  center: [20.0, 40.0],
-  zoom: 3,
+  center: [50.0, 15.0],
+  zoom: 4,
   minZoom: 2,
   maxZoom: 14,
   renderer: L.canvas()
@@ -988,6 +988,9 @@ async function loadTopo(cc, level) {
   if (!fileEntry && level === 'region') fileEntry = manifest[cc].files['district'];
   if (!fileEntry) fileEntry = manifest[cc].files['municipality'];
   if (!fileEntry) return null;
+
+  // Skip multi-file topo (e.g., DE per-state) before summary loads
+  if (!summaryLoaded && typeof fileEntry === 'object') return null;
 
   // String value: single file (standard path)
   if (typeof fileEntry === 'string') {
@@ -1575,8 +1578,31 @@ async function loadData() {
   // Stats panel (from region data initially)
   buildStatsFromRegions();
 
-  // Render all country layers at region level
-  await Promise.all(COUNTRY_LIST.map(function (cc) { return renderCountryLayer(cc); }));
+  // Viewport-based lazy loading: only render countries visible on screen
+  function getVisibleCountries() {
+    const bounds = map.getBounds();
+    const vw = bounds.getWest(), vs = bounds.getSouth();
+    const ve = bounds.getEast(), vn = bounds.getNorth();
+    return COUNTRY_LIST.filter(function (cc) {
+      if (!activeCountries.has(cc) || !manifest[cc]) return false;
+      var bbox = manifest[cc].bbox;
+      if (!bbox) return true; // no bbox = always render (small countries)
+      return bbox[0] <= ve && bbox[2] >= vw && bbox[1] <= vn && bbox[3] >= vs;
+    });
+  }
+
+  async function renderVisibleCountries() {
+    var visible = getVisibleCountries();
+    var toRender = visible.filter(function (cc) { return !countryLayers.has(cc); });
+    if (toRender.length > 0) {
+      await Promise.all(toRender.map(function (cc) { return renderCountryLayer(cc); }));
+      updateGatewayMarkers();
+      updateDominanceMarkers();
+    }
+  }
+
+  // Initial render: only countries visible in default viewport
+  await renderVisibleCountries();
   gatewayMarkers.addTo(map);
   dominanceMarkers.addTo(map);
   updateGatewayMarkers();
@@ -1586,6 +1612,9 @@ async function loadData() {
   const loading = document.getElementById('map-loading');
   if (loading) loading.remove();
   map.invalidateSize({ animate: false });
+
+  // Load more countries as user pans/zooms
+  map.on('moveend', function () { renderVisibleCountries(); });
 }
 
 loadData().catch(function (err) {
