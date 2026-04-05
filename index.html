@@ -61,6 +61,10 @@
   .stats-columns { display: flex; gap: 32px; flex-wrap: wrap; }
   .stats-column { flex: 1; min-width: 280px; }
   .stats-countries { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px 24px; }
+  .stats-mode-btn { padding: 3px 10px; font-size: 11px; border: 1px solid #ccc; background: #f5f5f5; cursor: pointer; border-radius: 3px; }
+  .stats-mode-btn.active { background: #444; color: #fff; border-color: #444; }
+  .stats-mode-btn:hover { background: #ddd; }
+  .stats-mode-btn.active:hover { background: #555; }
   .stats-countries .stats-label { width: 75px; font-size: 12px; }
   .stats-countries .stats-value { width: 60px; }
   .stats-countries .stats-row { margin: 3px 0; }
@@ -497,6 +501,49 @@ const COUNTRY_LIST = ['EE', 'LV', 'LT', 'FI', 'NO', 'IS', 'SE', 'DE', 'DK', 'AD'
 const US_PROVIDERS = new Set(['Microsoft', 'Google', 'AWS']);
 function hasLocalGateway(m) {
   return m.gateway && (m.mx_countries || []).includes(m.country) && US_PROVIDERS.has(m.classification.provider);
+}
+
+// World region hierarchy for stats panel
+const WORLD_REGIONS = {
+  'Europe': ['nordic','baltic','western','central','southern','eastern'],
+  'Africa': ['nafrica','wafrica','cafrica','eafrica','safrica'],
+  'Americas': ['namerica','camerica','caribbean','samerica'],
+  'Asia': ['sasia','seasia','easia','casia'],
+  'Middle East': ['mideast'],
+  'Oceania': ['oceania'],
+};
+// Map sub-region codes to display names
+const SUB_REGION_NAMES = {
+  nordic:'Nordic', baltic:'Baltic', western:'Western', central:'Central',
+  southern:'Southern', eastern:'Eastern', nafrica:'North', wafrica:'West',
+  cafrica:'Central', eafrica:'East', safrica:'Southern', namerica:'North America',
+  camerica:'Central America', caribbean:'Caribbean', samerica:'South America',
+  sasia:'South', seasia:'Southeast', easia:'East', casia:'Central',
+  mideast:'Middle East', oceania:'Oceania',
+};
+let statsMode = 'count'; // 'count' or 'pop'
+
+// Build sub-region → countries mapping from DOM
+function getSubRegionCountries() {
+  const map = {};
+  document.querySelectorAll('.region-group').forEach(function(group) {
+    group.querySelectorAll('.region-label').forEach(function(label) {
+      var region = label.dataset.region;
+      var countries = [];
+      var sibling = label.nextElementSibling;
+      while (sibling && sibling.classList.contains('country-btn')) {
+        countries.push(sibling.dataset.country);
+        sibling = sibling.nextElementSibling;
+      }
+      if (countries.length) map[region] = countries;
+    });
+  });
+  return map;
+}
+var _subRegionCountries = null;
+function subRegionCountries() {
+  if (!_subRegionCountries) _subRegionCountries = getSubRegionCountries();
+  return _subRegionCountries;
 }
 
 const INACTIVE_STYLE = { fillColor: '#f0f0f0', weight: 0.5, color: '#ccc', fillOpacity: 0.3 };
@@ -1389,7 +1436,7 @@ document.querySelectorAll('.country-btn').forEach(function (btn) {
     else activeCountries.add(country);
     updateStyles();
     updateLegend();
-    if (summaryLoaded && dnsData) buildStats(dnsData.municipalities); else buildStatsFromRegions();
+    renderStats();
   });
 });
 
@@ -1412,7 +1459,7 @@ document.querySelectorAll('.region-label').forEach(function (btn) {
     });
     updateStyles();
     updateLegend();
-    if (summaryLoaded && dnsData) buildStats(dnsData.municipalities); else buildStatsFromRegions();
+    renderStats();
   });
 });
 
@@ -1442,71 +1489,169 @@ function transformMuni(m) {
   };
 }
 
-function buildStatsFromRegions() {
-  const content = document.getElementById('stats-content');
-  if (!content || !regionData) return;
-  const allProviders = {};
-  let total = 0, us = 0, local = 0, unk = 0;
-  const perCountry = {};
+function buildStatsFromRegions() { renderStats(); }
 
-  for (const cc of COUNTRY_LIST) {
-    if (!activeCountries.has(cc)) continue;
-    var cd = regionData.countries[cc];
-    if (!cd) continue;
-    total += cd.total;
-    perCountry[cc] = cd;
-    for (var p in cd.providers) {
-      var count = cd.providers[p];
-      allProviders[p] = (allProviders[p] || 0) + count;
-      if (p === 'Microsoft' || p === 'Google' || p === 'AWS') us += count;
-      else if (p === 'Unknown') unk += count;
-      else local += count;
+function renderStats() {
+  var content = document.getElementById('stats-content');
+  if (!content) return;
+  var usePop = statsMode === 'pop';
+
+  // Gather per-country stats from regionData or dnsData
+  var perCC = {};
+  var src = regionData ? regionData.countries : {};
+  if (summaryLoaded && dnsData) {
+    // Compute from full municipality data
+    for (var i = 0; i < dnsData.municipalities.length; i++) {
+      var m = dnsData.municipalities[i];
+      if (!activeCountries.has(m.country)) continue;
+      var cc = m.country;
+      if (!perCC[cc]) perCC[cc] = { total: 0, pop: 0, providers: {}, popProviders: {} };
+      var d = perCC[cc];
+      d.total++;
+      var pop = m.population || 0;
+      d.pop += pop;
+      var p = m.classification.provider;
+      d.providers[p] = (d.providers[p] || 0) + 1;
+      d.popProviders[p] = (d.popProviders[p] || 0) + pop;
+    }
+  } else {
+    for (var ci = 0; ci < COUNTRY_LIST.length; ci++) {
+      var cc = COUNTRY_LIST[ci];
+      if (!activeCountries.has(cc)) continue;
+      var cd = src[cc];
+      if (!cd) continue;
+      perCC[cc] = { total: cd.total, pop: cd.popTotal || 0, providers: cd.providers, popProviders: cd.popProviders || {} };
     }
   }
 
-  const sectionTitle = '<div style="font-size:12px;color:#777;text-transform:uppercase;letter-spacing:0.3px;font-weight:600;margin-bottom:4px">';
-  const barHtml = function(label, count, max, color, tot) {
-    var pct = tot ? Math.round(count / tot * 100) : 0;
-    var w = max ? Math.round(count / max * 100) : 0;
-    return '<div style="display:flex;align-items:center;gap:6px;margin:2px 0;font-size:11px"><span style="width:80px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">' + label + '</span><div style="flex:1;background:#f0f0f0;border-radius:3px;height:14px"><div style="width:' + w + '%;background:' + color + ';height:100%;border-radius:3px;min-width:1px"></div></div><span style="width:40px;text-align:right;color:#888">' + pct + '%</span></div>';
-  };
+  function val(countV, popV) { return usePop ? (popV || 0) : countV; }
+  function fmt(n) { return n >= 1000000 ? (n/1000000).toFixed(1)+'M' : n >= 1000 ? (n/1000).toFixed(0)+'K' : String(n); }
+
+  function providerBar(providers, popProviders, base, popBase) {
+    var sorted = Object.entries(usePop ? (popProviders || providers) : providers).sort(function(a,b){return b[1]-a[1]});
+    var max = sorted.length > 0 ? sorted[0][1] : 1;
+    var tot = usePop ? (popBase || base) : base;
+    var html = '';
+    for (var i = 0; i < Math.min(sorted.length, 4); i++) {
+      var prov = sorted[i][0], v = sorted[i][1];
+      var pct = tot > 0 ? Math.round(v / tot * 100) : 0;
+      var w = max > 0 ? Math.round(v / max * 100) : 0;
+      var color = COLORS[prov] || '#888';
+      html += '<div style="display:flex;align-items:center;gap:4px;margin:1px 0;font-size:10px">' +
+        '<span style="width:70px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">' + prov + '</span>' +
+        '<div style="flex:1;background:#f0f0f0;border-radius:2px;height:10px"><div style="width:'+w+'%;background:'+color+';height:100%;border-radius:2px;min-width:1px"></div></div>' +
+        '<span style="width:30px;text-align:right;color:#888">'+pct+'%</span></div>';
+    }
+    return html;
+  }
+
+  // Aggregate by world region
+  var srMap = subRegionCountries();
+  var globalProviders = {}, globalPopProviders = {}, globalTotal = 0, globalPop = 0;
+  for (var cc in perCC) {
+    var d = perCC[cc];
+    globalTotal += d.total;
+    globalPop += d.pop;
+    for (var p in d.providers) { globalProviders[p] = (globalProviders[p] || 0) + d.providers[p]; }
+    for (var p in d.popProviders) { globalPopProviders[p] = (globalPopProviders[p] || 0) + d.popProviders[p]; }
+  }
 
   var html = '';
-  // Jurisdiction
-  html += sectionTitle + 'Email jurisdiction</div>';
-  var maxJ = Math.max(us, local, unk);
-  html += barHtml('US-based', us, maxJ, '#E83838', total);
-  html += barHtml('Local', local, maxJ, '#10B898', total);
-  html += barHtml('Unknown', unk, maxJ, '#BFBFBF', total);
+  // Toggle
+  html += '<div style="display:flex;gap:2px;margin-bottom:8px">';
+  html += '<button class="stats-mode-btn' + (statsMode==='count'?' active':'') + '" onclick="statsMode=\'count\';renderStats()">Municipalities</button>';
+  html += '<button class="stats-mode-btn' + (statsMode==='pop'?' active':'') + '" onclick="statsMode=\'pop\';renderStats()">Population</button>';
+  html += '</div>';
 
-  // Providers
-  html += '<div style="margin-top:10px">' + sectionTitle + 'Providers</div>';
-  var sortedP = Object.entries(allProviders).sort(function(a,b){return b[1]-a[1]});
-  var maxP = sortedP.length > 0 ? sortedP[0][1] : 1;
-  for (var i = 0; i < sortedP.length; i++) {
-    var color = COLORS[sortedP[i][0]] || '#888';
-    html += barHtml(sortedP[i][0], sortedP[i][1], maxP, color, total);
+  // Global overview
+  var gBase = usePop ? globalPop : globalTotal;
+  var usVal = 0, localVal = 0, unkVal = 0;
+  var usProvs = ['Microsoft','Google','AWS'];
+  for (var p in (usePop ? globalPopProviders : globalProviders)) {
+    var v = (usePop ? globalPopProviders : globalProviders)[p];
+    if (usProvs.indexOf(p) >= 0) usVal += v;
+    else if (p === 'Unknown') unkVal += v;
+    else localVal += v;
   }
+  html += '<div style="font-size:11px;color:#777;text-transform:uppercase;letter-spacing:0.3px;font-weight:600;margin-bottom:4px">Overview (' + fmt(gBase) + (usePop?' people':' municipalities') + ')</div>';
+  var maxJ = Math.max(usVal, localVal, unkVal) || 1;
+  function overviewBar(label, v, color) {
+    var pct = gBase > 0 ? Math.round(v/gBase*100) : 0;
+    var w = Math.round(v/maxJ*100);
+    return '<div style="display:flex;align-items:center;gap:6px;margin:2px 0;font-size:11px"><span style="width:70px">' + label + '</span>' +
+      '<div style="flex:1;background:#f0f0f0;border-radius:3px;height:14px"><div style="width:'+w+'%;background:'+color+';height:100%;border-radius:3px;min-width:1px"></div></div>' +
+      '<span style="width:55px;text-align:right;color:#888">'+fmt(v)+' ('+pct+'%)</span></div>';
+  }
+  html += overviewBar('US-based', usVal, '#E83838');
+  html += overviewBar('Local', localVal, '#10B898');
+  html += overviewBar('Unknown', unkVal, '#BFBFBF');
 
-  // Per country
-  var activeList = COUNTRY_LIST.filter(function(cc){return activeCountries.has(cc)});
-  var countryNames = {};
-  // Reuse countryNames from buildStats if it exists
-  html += '<div style="margin-top:10px">' + sectionTitle + 'By country (' + activeList.length + ')</div>';
-  var sortedCountries = activeList.filter(function(cc){return perCountry[cc]}).sort(function(a,b){return perCountry[b].total - perCountry[a].total});
-  for (var ci = 0; ci < Math.min(sortedCountries.length, 20); ci++) {
-    var cc = sortedCountries[ci];
-    var cd = perCountry[cc];
-    var flag = FLAGS[cc] || '';
-    html += '<div style="margin-top:6px;font-size:11px"><strong>' + flag + ' ' + cc + '</strong> <span style="color:#888">(' + cd.total + ')</span></div>';
-    var cProviders = Object.entries(cd.providers).sort(function(a,b){return b[1]-a[1]});
-    var cMax = cProviders.length > 0 ? cProviders[0][1] : 1;
-    for (var pi = 0; pi < Math.min(cProviders.length, 4); pi++) {
-      html += barHtml(cProviders[pi][0], cProviders[pi][1], cMax, COLORS[cProviders[pi][0]] || '#888', cd.total);
+  // World regions
+  html += '<div style="margin-top:10px;font-size:11px;color:#777;text-transform:uppercase;letter-spacing:0.3px;font-weight:600;margin-bottom:4px">World regions</div>';
+
+  for (var wrName in WORLD_REGIONS) {
+    var subRegions = WORLD_REGIONS[wrName];
+    var wrProviders = {}, wrPopProviders = {}, wrTotal = 0, wrPop = 0, wrCountries = 0;
+    var subData = [];
+
+    for (var si = 0; si < subRegions.length; si++) {
+      var sr = subRegions[si];
+      var srCCs = srMap[sr] || [];
+      var srP = {}, srPP = {}, srT = 0, srPop = 0, srCountryData = [];
+      for (var ci = 0; ci < srCCs.length; ci++) {
+        var cc = srCCs[ci];
+        var d = perCC[cc];
+        if (!d) continue;
+        srT += d.total; srPop += d.pop; wrTotal += d.total; wrPop += d.pop; wrCountries++;
+        for (var p in d.providers) { srP[p] = (srP[p]||0) + d.providers[p]; wrProviders[p] = (wrProviders[p]||0) + d.providers[p]; }
+        for (var p in d.popProviders) { srPP[p] = (srPP[p]||0) + d.popProviders[p]; wrPopProviders[p] = (wrPopProviders[p]||0) + d.popProviders[p]; }
+        srCountryData.push({ cc: cc, d: d });
+      }
+      if (srT > 0) subData.push({ name: SUB_REGION_NAMES[sr] || sr, providers: srP, popProviders: srPP, total: srT, pop: srPop, countries: srCountryData });
     }
-  }
-  if (sortedCountries.length > 20) {
-    html += '<div style="font-size:11px;color:#999;margin-top:4px">+' + (sortedCountries.length - 20) + ' more countries</div>';
+
+    if (wrTotal === 0) continue;
+
+    var wrBase = usePop ? wrPop : wrTotal;
+    // Find dominant provider
+    var wrSorted = Object.entries(usePop ? wrPopProviders : wrProviders).sort(function(a,b){return b[1]-a[1]});
+    var wrDominant = wrSorted.length > 0 ? wrSorted[0][0] : '?';
+    var wrDomPct = wrBase > 0 && wrSorted.length > 0 ? Math.round(wrSorted[0][1]/wrBase*100) : 0;
+
+    html += '<details style="margin:4px 0">';
+    html += '<summary style="cursor:pointer;font-size:12px;font-weight:600;padding:3px 0">' +
+      wrName + ' <span style="color:#888;font-weight:400">(' + wrCountries + ' countries, ' + fmt(wrBase) + ')</span>' +
+      ' <span style="color:' + (COLORS[wrDominant]||'#888') + '">' + wrDominant + ' ' + wrDomPct + '%</span></summary>';
+    html += '<div style="padding-left:8px">';
+    html += providerBar(wrProviders, wrPopProviders, wrTotal, wrPop);
+
+    // Sub-regions
+    subData.sort(function(a,b) { return val(b.total,b.pop) - val(a.total,a.pop); });
+    for (var si = 0; si < subData.length; si++) {
+      var sd = subData[si];
+      var sdBase = usePop ? sd.pop : sd.total;
+      var sdSorted = Object.entries(usePop ? sd.popProviders : sd.providers).sort(function(a,b){return b[1]-a[1]});
+      var sdDom = sdSorted.length > 0 ? sdSorted[0][0] : '?';
+      var sdPct = sdBase > 0 && sdSorted.length > 0 ? Math.round(sdSorted[0][1]/sdBase*100) : 0;
+
+      html += '<details style="margin:2px 0">';
+      html += '<summary style="cursor:pointer;font-size:11px;padding:2px 0">' +
+        sd.name + ' <span style="color:#888">(' + fmt(sdBase) + ')</span>' +
+        ' <span style="color:' + (COLORS[sdDom]||'#888') + '">' + sdDom + ' ' + sdPct + '%</span></summary>';
+      html += '<div style="padding-left:8px">';
+
+      // Countries
+      sd.countries.sort(function(a,b) { return val(b.d.total,b.d.pop) - val(a.d.total,a.d.pop); });
+      for (var ci = 0; ci < sd.countries.length; ci++) {
+        var c = sd.countries[ci];
+        var cBase = usePop ? c.d.pop : c.d.total;
+        var flag = FLAGS[c.cc] || '';
+        html += '<div style="margin-top:3px;font-size:10px"><strong>' + flag + ' ' + c.cc + '</strong> <span style="color:#888">(' + fmt(cBase) + ')</span></div>';
+        html += providerBar(c.d.providers, c.d.popProviders, c.d.total, c.d.pop);
+      }
+      html += '</div></details>';
+    }
+    html += '</div></details>';
   }
 
   content.innerHTML = html;
@@ -1548,7 +1693,7 @@ async function loadSummaryData() {
     }
 
     summaryLoaded = true;
-    buildStats(dnsData.municipalities);
+    renderStats();
     updateLegend();
 
     // Background-load detail data
@@ -1644,7 +1789,7 @@ async function loadData() {
   updateLegend();
 
   // Stats panel (from region data initially)
-  buildStatsFromRegions();
+  renderStats();
 
   // Viewport-based lazy loading: only render countries visible on screen
   function getVisibleCountries() {
