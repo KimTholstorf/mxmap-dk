@@ -1559,8 +1559,8 @@ function renderStats() {
   var html = '';
   // Toggle
   html += '<div style="display:flex;gap:2px;margin-bottom:8px">';
-  html += '<button class="stats-mode-btn' + (statsMode==='count'?' active':'') + '" onclick="statsMode=\'count\';renderStats()">Municipalities</button>';
-  html += '<button class="stats-mode-btn' + (statsMode==='pop'?' active':'') + '" onclick="statsMode=\'pop\';renderStats()">Population</button>';
+  html += '<button class="stats-mode-btn' + (statsMode==='count'?' active':'') + '" data-statsmode="count">Municipalities</button>';
+  html += '<button class="stats-mode-btn' + (statsMode==='pop'?' active':'') + '" data-statsmode="pop">Population</button>';
   html += '</div>';
 
   // Global overview
@@ -1655,6 +1655,14 @@ function renderStats() {
   }
 
   content.innerHTML = html;
+
+  // Attach toggle listeners (can't use inline onclick — closure scope)
+  content.querySelectorAll('.stats-mode-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      statsMode = btn.dataset.statsmode;
+      renderStats();
+    });
+  });
 }
 
 async function loadSummaryData() {
