@@ -25,6 +25,8 @@ OVERPASS_URLS = [
     "https://overpass-api.de/api/interpreter",
     "https://overpass.kumi.systems/api/interpreter",
     "https://overpass.private.coffee/api/interpreter",
+    "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+    "https://overpass-api.fr/api/interpreter",
 ]
 _overpass_idx = 0
 
@@ -39,7 +41,7 @@ COUNTRY_CONFIG = {
     "GB": {"admin_level": 10, "iso": "GB", "name": "United Kingdom"},
     "IT": {"admin_level": 6, "iso": "IT", "name": "Italy"},
     "FR": {"admin_level": 6, "iso": "FR", "name": "France"},
-    "ES": {"admin_level": 6, "iso": "ES", "name": "Spain"},
+    "ES": {"admin_level": 8, "iso": "ES", "name": "Spain"},
     "EE": {"admin_level": 7, "iso": "EE", "name": "Estonia"},
     "AL": {"admin_level": 7, "iso": "AL", "name": "Albania"},
     "XK": {"admin_level": 7, "iso": "XK", "name": "Kosovo"},
@@ -523,6 +525,13 @@ LARGE_COUNTRY_STATES = {
         "PI": 302819, "PR": 297640, "RJ": 57963, "RN": 301079,
         "RO": 325866, "RR": 326287, "RS": 242620, "SC": 296584,
         "SE": 303940, "SP": 298204, "TO": 336819,
+    },
+    "ES": {
+        "AN": 349044, "AR": 349045, "AS": 349033, "CB": 349013,
+        "CL": 349041, "CM": 349052, "CN": 349048, "CT": 349053,
+        "EX": 349050, "GA": 349036, "IB": 348981, "MC": 349047,
+        "MD": 349055, "NC": 349027, "PV": 349042, "RI": 348991,
+        "VC": 349043, "CE": 1822781, "ML": 1154757,
     },
     "PE": {
         "AMA": 1973462, "ANC": 1953170, "APU": 1929522, "ARE": 1879287,
