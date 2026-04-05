@@ -132,8 +132,11 @@ def build_region_data(munis: dict, generated: str) -> dict:
         if has_gateway:
             rd["gateway_count"] += 1
 
-    # Compute dominant provider and blended color per region
+    # Compute dominant provider and blended color per country and region
     for cc, cd in countries.items():
+        cd["blendedColor"] = blend_provider_colors(cd["providers"], cd["total"])
+        sorted_providers = sorted(cd["providers"].items(), key=lambda x: -x[1])
+        cd["dominant"] = sorted_providers[0][0] if sorted_providers else "Unknown"
         for rname, rd in cd["regions"].items():
             sorted_providers = sorted(
                 rd["providers"].items(), key=lambda x: -x[1]
