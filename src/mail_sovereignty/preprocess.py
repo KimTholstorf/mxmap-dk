@@ -204,6 +204,36 @@ SEED_FILES = {
     "ZA": "municipalities_za.json",
     "ZM": "municipalities_zm.json",
     "ZW": "municipalities_zw.json",
+    # Caribbean
+    "CU": "municipalities_cu.json",
+    "HT": "municipalities_ht.json",
+    "DO": "municipalities_do.json",
+    "JM": "municipalities_jm.json",
+    "TT": "municipalities_tt.json",
+    "BS": "municipalities_bs.json",
+    "BB": "municipalities_bb.json",
+    "AG": "municipalities_ag.json",
+    "DM": "municipalities_dm.json",
+    "GD": "municipalities_gd.json",
+    "KN": "municipalities_kn.json",
+    "LC": "municipalities_lc.json",
+    "VC": "municipalities_vc.json",
+    # Asia (additional)
+    "AF": "municipalities_af.json",
+    "SG": "municipalities_sg.json",
+    "YE": "municipalities_ye.json",
+    "SY": "municipalities_sy.json",
+    "PS": "municipalities_ps.json",
+    "TJ": "municipalities_tj.json",
+    "TM": "municipalities_tm.json",
+    "MV": "municipalities_mv.json",
+    "BT": "municipalities_bt.json",
+    # Oceania (additional)
+    "SB": "municipalities_sb.json",
+    "MH": "municipalities_mh.json",
+    "FM": "municipalities_fm.json",
+    "KI": "municipalities_ki.json",
+    "TV": "municipalities_tv.json",
 }
 
 
@@ -606,6 +636,36 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         "ZA": [".gov.za", ".za"],
         "ZM": [".gov.zm", ".zm"],
         "ZW": [".gov.zw", ".zw"],
+        # Caribbean
+        "CU": [".cu", ".gob.cu"],
+        "HT": [".ht", ".gouv.ht"],
+        "DO": [".gob.do", ".do"],
+        "JM": [".gov.jm", ".jm"],
+        "TT": [".gov.tt", ".tt"],
+        "BS": [".gov.bs", ".bs"],
+        "BB": [".gov.bb", ".bb"],
+        "AG": [".gov.ag", ".ag"],
+        "DM": [".gov.dm", ".dm"],
+        "GD": [".gov.gd", ".gd"],
+        "KN": [".gov.kn", ".kn"],
+        "LC": [".gov.lc", ".lc"],
+        "VC": [".gov.vc", ".vc"],
+        # Asia (additional)
+        "AF": [".gov.af", ".af"],
+        "SG": [".gov.sg", ".sg"],
+        "YE": [".gov.ye", ".ye"],
+        "SY": [".gov.sy", ".sy"],
+        "PS": [".gov.ps", ".ps"],
+        "TJ": [".gov.tj", ".tj"],
+        "TM": [".gov.tm", ".tm"],
+        "MV": [".gov.mv", ".mv"],
+        "BT": [".gov.bt", ".bt"],
+        # Oceania (additional)
+        "SB": [".gov.sb", ".sb"],
+        "MH": [".gov.mh", ".mh"],
+        "FM": [".gov.fm", ".fm"],
+        "KI": [".gov.ki", ".ki"],
+        "TV": [".gov.tv", ".tv"],
     }
     tlds = tld_map.get(
         country, [".ee", ".lv", ".lt", ".fi", ".no", ".se", ".de", ".dk"]
@@ -800,6 +860,8 @@ async def scan_municipality(
         }
         if m.get("osm_relation_id"):
             entry["osm_relation_id"] = m["osm_relation_id"]
+        if m.get("population"):
+            entry["population"] = m["population"]
         if spf_resolved and spf_resolved != spf:
             entry["spf_resolved"] = spf_resolved
         if gateway:
