@@ -131,7 +131,8 @@
     "country": "GH",
     "region": "Greater Accra Region",
     "domain": "",
-    "osm_relation_id": 1991851
+    "osm_relation_id": 1991851,
+    "population": 78215
   },
   {
     "id": "GH-018",
@@ -635,7 +636,8 @@
     "country": "GH",
     "region": "Greater Accra Region",
     "domain": "acma.gov.gh",
-    "osm_relation_id": 12759089
+    "osm_relation_id": 12759089,
+    "population": 94831
   },
   {
     "id": "GH-083",
@@ -659,7 +661,8 @@
     "country": "GH",
     "region": "Greater Accra Region",
     "domain": "aywma.gov.gh",
-    "osm_relation_id": 12759086
+    "osm_relation_id": 12759086,
+    "population": 93013
   },
   {
     "id": "GH-086",
@@ -683,7 +686,8 @@
     "country": "GH",
     "region": "Upper East Region",
     "domain": "bawkuma.gov.gh",
-    "osm_relation_id": 10440111
+    "osm_relation_id": 10440111,
+    "population": 98538
   },
   {
     "id": "GH-089",
@@ -1024,7 +1028,8 @@
     "country": "GH",
     "region": "North East Region",
     "domain": "",
-    "osm_relation_id": 12865969
+    "osm_relation_id": 12865969,
+    "population": 188006
   },
   {
     "id": "GH-133",
@@ -1040,7 +1045,8 @@
     "country": "GH",
     "region": "Central Region",
     "domain": "effutu.ghanadistricts.gov.gh",
-    "osm_relation_id": 12969844
+    "osm_relation_id": 12969844,
+    "population": 68592
   },
   {
     "id": "GH-135",
@@ -1180,7 +1186,8 @@
     "country": "GH",
     "region": "Central Region",
     "domain": "geda.gov.gh",
-    "osm_relation_id": 12969846
+    "osm_relation_id": 12969846,
+    "population": 207071
   },
   {
     "id": "GH-153",
@@ -1210,7 +1217,8 @@
     "country": "GH",
     "region": "Northern Region",
     "domain": "gusheguma.gov.gh",
-    "osm_relation_id": 12834033
+    "osm_relation_id": 12834033,
+    "population": 153965
   },
   {
     "id": "GH-157",
@@ -1334,7 +1342,8 @@
     "country": "GH",
     "region": "Northern Region",
     "domain": "karaga.gov.gh",
-    "osm_relation_id": 12834040
+    "osm_relation_id": 12834040,
+    "population": 114225
   },
   {
     "id": "GH-173",
@@ -1699,7 +1708,8 @@
     "country": "GH",
     "region": "Northern Region",
     "domain": "",
-    "osm_relation_id": 12834041
+    "osm_relation_id": 12834041,
+    "population": 94930
   },
   {
     "id": "GH-220",
@@ -1746,7 +1756,8 @@
     "country": "GH",
     "region": "Northern Region",
     "domain": "nanton.gov.gh",
-    "osm_relation_id": 12834038
+    "osm_relation_id": 12834038,
+    "population": 50767
   },
   {
     "id": "GH-226",
@@ -1793,7 +1804,8 @@
     "country": "GH",
     "region": "Greater Accra Region",
     "domain": "",
-    "osm_relation_id": 12757780
+    "osm_relation_id": 12757780,
+    "population": 204673
   },
   {
     "id": "GH-232",
@@ -1998,7 +2010,8 @@
     "country": "GH",
     "region": "Northern Region",
     "domain": "",
-    "osm_relation_id": 12834031
+    "osm_relation_id": 12834031,
+    "population": 95683
   },
   {
     "id": "GH-258",
@@ -2006,7 +2019,8 @@
     "country": "GH",
     "region": "Northern Region",
     "domain": "",
-    "osm_relation_id": 12834036
+    "osm_relation_id": 12834036,
+    "population": 341711
   },
   {
     "id": "GH-259",
@@ -2014,7 +2028,8 @@
     "country": "GH",
     "region": "Northern Region",
     "domain": "saveluguma.gov.gh",
-    "osm_relation_id": 12834039
+    "osm_relation_id": 12834039,
+    "population": 122888
   },
   {
     "id": "GH-260",
@@ -2178,7 +2193,8 @@
     "country": "GH",
     "region": "Volta Region",
     "domain": "",
-    "osm_relation_id": 12904680
+    "osm_relation_id": 12904680,
+    "population": 87950
   },
   {
     "id": "GH-281",
@@ -2256,7 +2272,8 @@
     "country": "GH",
     "region": "Northern Region",
     "domain": "",
-    "osm_relation_id": 12834037
+    "osm_relation_id": 12834037,
+    "population": 374744
   },
   {
     "id": "GH-291",
@@ -2343,7 +2360,8 @@
     "country": "GH",
     "region": "Northern Region",
     "domain": "tolon.gov.gh",
-    "osm_relation_id": 12834034
+    "osm_relation_id": 12834034,
+    "population": 181101
   },
   {
     "id": "GH-302",
@@ -2420,7 +2438,8 @@
     "country": "GH",
     "region": "Upper West Region",
     "domain": "waeastda.gov.gh",
-    "osm_relation_id": 12754458
+    "osm_relation_id": 12754458,
+    "population": 91457
   },
   {
     "id": "GH-312",
@@ -2522,7 +2541,8 @@
     "country": "GH",
     "region": "Northern Region",
     "domain": "",
-    "osm_relation_id": 12834030
+    "osm_relation_id": 12834030,
+    "population": 154421
   },
   {
     "id": "GH-325",

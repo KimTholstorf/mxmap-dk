@@ -1,0 +1,1253 @@
+[
+  {
+    "id": "SG-001",
+    "name": "Admiralty",
+    "country": "SG",
+    "region": "Sembawang",
+    "domain": ""
+  },
+  {
+    "id": "SG-002",
+    "name": "Alexandra Hill",
+    "country": "SG",
+    "region": "Bukit Merah",
+    "domain": ""
+  },
+  {
+    "id": "SG-003",
+    "name": "Alexandra North",
+    "country": "SG",
+    "region": "Bukit Merah",
+    "domain": ""
+  },
+  {
+    "id": "SG-004",
+    "name": "Aljunied",
+    "country": "SG",
+    "region": "Geylang",
+    "domain": ""
+  },
+  {
+    "id": "SG-005",
+    "name": "Anchorvale",
+    "country": "SG",
+    "region": "Sengkang",
+    "domain": ""
+  },
+  {
+    "id": "SG-006",
+    "name": "Ang Mo Kio",
+    "country": "SG",
+    "region": "North-East Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-007",
+    "name": "Anson",
+    "country": "SG",
+    "region": "Downtown Core",
+    "domain": ""
+  },
+  {
+    "id": "SG-008",
+    "name": "Balestier",
+    "country": "SG",
+    "region": "Novena",
+    "domain": ""
+  },
+  {
+    "id": "SG-009",
+    "name": "Bedok",
+    "country": "SG",
+    "region": "East Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-010",
+    "name": "Bedok North",
+    "country": "SG",
+    "region": "Bedok",
+    "domain": "",
+    "osm_relation_id": 19910222
+  },
+  {
+    "id": "SG-011",
+    "name": "Bendemeer, Kallang",
+    "country": "SG",
+    "region": "Kallang",
+    "domain": ""
+  },
+  {
+    "id": "SG-012",
+    "name": "Bidadari",
+    "country": "SG",
+    "region": "Toa Payoh",
+    "domain": ""
+  },
+  {
+    "id": "SG-013",
+    "name": "Bishan",
+    "country": "SG",
+    "region": "Central Region",
+    "domain": "",
+    "population": 88120
+  },
+  {
+    "id": "SG-014",
+    "name": "Bishan East",
+    "country": "SG",
+    "region": "Bishan",
+    "domain": ""
+  },
+  {
+    "id": "SG-015",
+    "name": "Boon Keng",
+    "country": "SG",
+    "region": "Kallang",
+    "domain": "",
+    "population": 10970
+  },
+  {
+    "id": "SG-016",
+    "name": "Boon Lay",
+    "country": "SG",
+    "region": "West Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-017",
+    "name": "Braddell",
+    "country": "SG",
+    "region": "Toa Payoh",
+    "domain": "",
+    "osm_relation_id": 19910290
+  },
+  {
+    "id": "SG-018",
+    "name": "Brickworks",
+    "country": "SG",
+    "region": "Bukit Batok",
+    "domain": ""
+  },
+  {
+    "id": "SG-019",
+    "name": "Bugis",
+    "country": "SG",
+    "region": "Downtown Core",
+    "domain": "",
+    "osm_relation_id": 18982445
+  },
+  {
+    "id": "SG-020",
+    "name": "Bukit Batok",
+    "country": "SG",
+    "region": "West Region",
+    "domain": "bukitbatok.org.sg"
+  },
+  {
+    "id": "SG-021",
+    "name": "Bukit Batok Central",
+    "country": "SG",
+    "region": "Bukit Batok",
+    "domain": ""
+  },
+  {
+    "id": "SG-022",
+    "name": "Bukit Batok East",
+    "country": "SG",
+    "region": "Bukit Batok",
+    "domain": ""
+  },
+  {
+    "id": "SG-023",
+    "name": "Bukit Batok South",
+    "country": "SG",
+    "region": "Bukit Batok",
+    "domain": ""
+  },
+  {
+    "id": "SG-024",
+    "name": "Bukit Batok West",
+    "country": "SG",
+    "region": "Bukit Batok",
+    "domain": ""
+  },
+  {
+    "id": "SG-025",
+    "name": "Bukit Ho Swee",
+    "country": "SG",
+    "region": "Bukit Merah",
+    "domain": "",
+    "osm_relation_id": 19910427
+  },
+  {
+    "id": "SG-026",
+    "name": "Bukit Merah",
+    "country": "SG",
+    "region": "Bukit Merah",
+    "domain": ""
+  },
+  {
+    "id": "SG-027",
+    "name": "Bukit Merah",
+    "country": "SG",
+    "region": "Central Region",
+    "domain": "",
+    "population": 151870
+  },
+  {
+    "id": "SG-028",
+    "name": "Bukit Panjang",
+    "country": "SG",
+    "region": "West Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-029",
+    "name": "Bukit Timah",
+    "country": "SG",
+    "region": "Central Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-030",
+    "name": "Cecil",
+    "country": "SG",
+    "region": "Downtown Core",
+    "domain": "",
+    "osm_relation_id": 19910269
+  },
+  {
+    "id": "SG-031",
+    "name": "Central Region",
+    "country": "SG",
+    "region": "Singapore",
+    "domain": ""
+  },
+  {
+    "id": "SG-032",
+    "name": "Central Singapore Community Development Council",
+    "country": "SG",
+    "region": "Singapore",
+    "domain": "cdc.gov.sg",
+    "osm_relation_id": 3831712
+  },
+  {
+    "id": "SG-033",
+    "name": "Central Water Catchment",
+    "country": "SG",
+    "region": "North Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-034",
+    "name": "Changi",
+    "country": "SG",
+    "region": "East Region",
+    "domain": "",
+    "osm_relation_id": 19194350
+  },
+  {
+    "id": "SG-035",
+    "name": "Changi Bay",
+    "country": "SG",
+    "region": "East Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-036",
+    "name": "Cheng San",
+    "country": "SG",
+    "region": "Ang Mo Kio",
+    "domain": ""
+  },
+  {
+    "id": "SG-037",
+    "name": "Chin Bee",
+    "country": "SG",
+    "region": "Jurong West",
+    "domain": ""
+  },
+  {
+    "id": "SG-038",
+    "name": "Chinatown",
+    "country": "SG",
+    "region": "Outram",
+    "domain": "chinatown.sg",
+    "osm_relation_id": 18195609
+  },
+  {
+    "id": "SG-039",
+    "name": "Choa Chu Kang",
+    "country": "SG",
+    "region": "West Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-040",
+    "name": "Chong Boon",
+    "country": "SG",
+    "region": "Ang Mo Kio",
+    "domain": ""
+  },
+  {
+    "id": "SG-041",
+    "name": "Clementi",
+    "country": "SG",
+    "region": "West Region",
+    "domain": "",
+    "population": 91630
+  },
+  {
+    "id": "SG-042",
+    "name": "Commonwealth",
+    "country": "SG",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "SG-043",
+    "name": "Compassvale",
+    "country": "SG",
+    "region": "Sengkang",
+    "domain": ""
+  },
+  {
+    "id": "SG-044",
+    "name": "Crawford",
+    "country": "SG",
+    "region": "Kallang",
+    "domain": "",
+    "osm_relation_id": 19910248
+  },
+  {
+    "id": "SG-045",
+    "name": "Defu Industrial Park",
+    "country": "SG",
+    "region": "Hougang",
+    "domain": ""
+  },
+  {
+    "id": "SG-046",
+    "name": "Depot Road",
+    "country": "SG",
+    "region": "Bukit Merah",
+    "domain": ""
+  },
+  {
+    "id": "SG-047",
+    "name": "Dhoby Ghaut",
+    "country": "SG",
+    "region": "Museum Planning Area",
+    "domain": ""
+  },
+  {
+    "id": "SG-048",
+    "name": "Dover",
+    "country": "SG",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "SG-049",
+    "name": "Downtown Core",
+    "country": "SG",
+    "region": "Central Region",
+    "domain": "",
+    "osm_relation_id": 12943475
+  },
+  {
+    "id": "SG-050",
+    "name": "East Region",
+    "country": "SG",
+    "region": "Singapore",
+    "domain": "",
+    "osm_relation_id": 19910155
+  },
+  {
+    "id": "SG-051",
+    "name": "Everton Park",
+    "country": "SG",
+    "region": "Bukit Merah",
+    "domain": ""
+  },
+  {
+    "id": "SG-052",
+    "name": "Farrer Park",
+    "country": "SG",
+    "region": "Rochor",
+    "domain": ""
+  },
+  {
+    "id": "SG-053",
+    "name": "Fernvale",
+    "country": "SG",
+    "region": "Sengkang",
+    "domain": ""
+  },
+  {
+    "id": "SG-054",
+    "name": "Geylang",
+    "country": "SG",
+    "region": "Central Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-055",
+    "name": "Geylang Bahru",
+    "country": "SG",
+    "region": "Kallang",
+    "domain": ""
+  },
+  {
+    "id": "SG-056",
+    "name": "Geylang East",
+    "country": "SG",
+    "region": "Geylang",
+    "domain": ""
+  },
+  {
+    "id": "SG-057",
+    "name": "Ghim Moh",
+    "country": "SG",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "SG-058",
+    "name": "Gombak",
+    "country": "SG",
+    "region": "Bukit Batok",
+    "domain": ""
+  },
+  {
+    "id": "SG-059",
+    "name": "Guilin",
+    "country": "SG",
+    "region": "Bukit Batok",
+    "domain": ""
+  },
+  {
+    "id": "SG-060",
+    "name": "Gul Circle",
+    "country": "SG",
+    "region": "Pioneer",
+    "domain": ""
+  },
+  {
+    "id": "SG-061",
+    "name": "Henderson Hill",
+    "country": "SG",
+    "region": "Bukit Merah",
+    "domain": ""
+  },
+  {
+    "id": "SG-062",
+    "name": "Hillview",
+    "country": "SG",
+    "region": "Bukit Batok",
+    "domain": ""
+  },
+  {
+    "id": "SG-063",
+    "name": "Holland Road",
+    "country": "SG",
+    "region": "Bukit Timah",
+    "domain": ""
+  },
+  {
+    "id": "SG-064",
+    "name": "Hong Kah",
+    "country": "SG",
+    "region": "Jurong West",
+    "domain": ""
+  },
+  {
+    "id": "SG-065",
+    "name": "Hougang",
+    "country": "SG",
+    "region": "North-East Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-066",
+    "name": "Joo Koon",
+    "country": "SG",
+    "region": "Pioneer",
+    "domain": ""
+  },
+  {
+    "id": "SG-067",
+    "name": "Jurong East",
+    "country": "SG",
+    "region": "West Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-068",
+    "name": "Jurong West",
+    "country": "SG",
+    "region": "West Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-069",
+    "name": "Jurong West Central",
+    "country": "SG",
+    "region": "Jurong West",
+    "domain": ""
+  },
+  {
+    "id": "SG-070",
+    "name": "Kaki Bukit",
+    "country": "SG",
+    "region": "Bedok",
+    "domain": ""
+  },
+  {
+    "id": "SG-071",
+    "name": "Kallang",
+    "country": "SG",
+    "region": "Central Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-072",
+    "name": "Kampong Glam",
+    "country": "SG",
+    "region": "Rochor",
+    "domain": ""
+  },
+  {
+    "id": "SG-073",
+    "name": "Kampong Java",
+    "country": "SG",
+    "region": "Kallang",
+    "domain": "",
+    "osm_relation_id": 19910262
+  },
+  {
+    "id": "SG-074",
+    "name": "Kampong Tiong Bahru",
+    "country": "SG",
+    "region": "Bukit Merah",
+    "domain": ""
+  },
+  {
+    "id": "SG-075",
+    "name": "Kampong Ubi",
+    "country": "SG",
+    "region": "Geylang",
+    "domain": ""
+  },
+  {
+    "id": "SG-076",
+    "name": "Katong",
+    "country": "SG",
+    "region": "Marine Parade",
+    "domain": ""
+  },
+  {
+    "id": "SG-077",
+    "name": "Kembangan",
+    "country": "SG",
+    "region": "Bedok",
+    "domain": ""
+  },
+  {
+    "id": "SG-078",
+    "name": "Kian Teck",
+    "country": "SG",
+    "region": "Jurong West",
+    "domain": ""
+  },
+  {
+    "id": "SG-079",
+    "name": "Kovan",
+    "country": "SG",
+    "region": "Hougang",
+    "domain": ""
+  },
+  {
+    "id": "SG-080",
+    "name": "Kranji",
+    "country": "SG",
+    "region": "Sungei Kadut",
+    "domain": ""
+  },
+  {
+    "id": "SG-081",
+    "name": "Lavender",
+    "country": "SG",
+    "region": "Kallang",
+    "domain": ""
+  },
+  {
+    "id": "SG-082",
+    "name": "Lim Chu Kang",
+    "country": "SG",
+    "region": "North Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-083",
+    "name": "Little India",
+    "country": "SG",
+    "region": "Rochor",
+    "domain": "",
+    "osm_relation_id": 18986208
+  },
+  {
+    "id": "SG-084",
+    "name": "Lorong Chuan",
+    "country": "SG",
+    "region": "Serangoon",
+    "domain": ""
+  },
+  {
+    "id": "SG-085",
+    "name": "Lower Seletar",
+    "country": "SG",
+    "region": "Yishun",
+    "domain": ""
+  },
+  {
+    "id": "SG-086",
+    "name": "Loyang",
+    "country": "SG",
+    "region": "Pasir Ris",
+    "domain": ""
+  },
+  {
+    "id": "SG-087",
+    "name": "MacPherson",
+    "country": "SG",
+    "region": "Geylang",
+    "domain": ""
+  },
+  {
+    "id": "SG-088",
+    "name": "Mandai",
+    "country": "SG",
+    "region": "North Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-089",
+    "name": "Margaret Drive",
+    "country": "SG",
+    "region": "",
+    "domain": "",
+    "osm_relation_id": 19910105
+  },
+  {
+    "id": "SG-090",
+    "name": "Marina Centre",
+    "country": "SG",
+    "region": "Downtown Core",
+    "domain": ""
+  },
+  {
+    "id": "SG-091",
+    "name": "Marina East",
+    "country": "SG",
+    "region": "Central Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-092",
+    "name": "Marina South",
+    "country": "SG",
+    "region": "Central Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-093",
+    "name": "Marine Parade",
+    "country": "SG",
+    "region": "Central Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-094",
+    "name": "Maritime Square (subzone)",
+    "country": "SG",
+    "region": "Bukit Merah",
+    "domain": ""
+  },
+  {
+    "id": "SG-095",
+    "name": "Marymount",
+    "country": "SG",
+    "region": "Bishan",
+    "domain": ""
+  },
+  {
+    "id": "SG-096",
+    "name": "Maxwell",
+    "country": "SG",
+    "region": "Downtown Core",
+    "domain": "",
+    "osm_relation_id": 19910270
+  },
+  {
+    "id": "SG-097",
+    "name": "Midview",
+    "country": "SG",
+    "region": "Woodlands",
+    "domain": ""
+  },
+  {
+    "id": "SG-098",
+    "name": "Mount Sophia",
+    "country": "SG",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "SG-099",
+    "name": "Mountbatten",
+    "country": "SG",
+    "region": "Marine Parade",
+    "domain": ""
+  },
+  {
+    "id": "SG-100",
+    "name": "Museum Planning Area",
+    "country": "SG",
+    "region": "Central Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-101",
+    "name": "Newton",
+    "country": "SG",
+    "region": "Central Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-102",
+    "name": "North East Community Development Council",
+    "country": "SG",
+    "region": "Singapore",
+    "domain": "cdc.gov.sg",
+    "osm_relation_id": 3831713
+  },
+  {
+    "id": "SG-103",
+    "name": "North Region",
+    "country": "SG",
+    "region": "Singapore",
+    "domain": "",
+    "osm_relation_id": 19910185,
+    "population": 504920
+  },
+  {
+    "id": "SG-104",
+    "name": "North West Community Development Council",
+    "country": "SG",
+    "region": "Singapore",
+    "domain": "cdc.gov.sg",
+    "osm_relation_id": 3831714
+  },
+  {
+    "id": "SG-105",
+    "name": "North-East Region",
+    "country": "SG",
+    "region": "Singapore",
+    "domain": "",
+    "osm_relation_id": 19910182,
+    "population": 747216
+  },
+  {
+    "id": "SG-106",
+    "name": "North-Eastern Islands",
+    "country": "SG",
+    "region": "North-East Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-107",
+    "name": "Novena",
+    "country": "SG",
+    "region": "Central Region",
+    "domain": "velocitynovena.com"
+  },
+  {
+    "id": "SG-108",
+    "name": "Orchard",
+    "country": "SG",
+    "region": "Central Region",
+    "domain": "",
+    "osm_relation_id": 19039158
+  },
+  {
+    "id": "SG-109",
+    "name": "Outram",
+    "country": "SG",
+    "region": "Central Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-110",
+    "name": "Pasir Panjang",
+    "country": "SG",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "SG-111",
+    "name": "Pasir Ris",
+    "country": "SG",
+    "region": "East Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-112",
+    "name": "Pasir Ris Central",
+    "country": "SG",
+    "region": "Pasir Ris",
+    "domain": "",
+    "osm_relation_id": 19913916
+  },
+  {
+    "id": "SG-113",
+    "name": "Paya Lebar",
+    "country": "SG",
+    "region": "East Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-114",
+    "name": "Penjuru Crescent",
+    "country": "SG",
+    "region": "Jurong East",
+    "domain": ""
+  },
+  {
+    "id": "SG-115",
+    "name": "Pioneer",
+    "country": "SG",
+    "region": "West Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-116",
+    "name": "Potong Pasir",
+    "country": "SG",
+    "region": "Toa Payoh",
+    "domain": ""
+  },
+  {
+    "id": "SG-117",
+    "name": "Punggol",
+    "country": "SG",
+    "region": "North-East Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-118",
+    "name": "Raffles Place",
+    "country": "SG",
+    "region": "Downtown Core",
+    "domain": ""
+  },
+  {
+    "id": "SG-119",
+    "name": "River Valley",
+    "country": "SG",
+    "region": "Central Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-120",
+    "name": "Rivervale",
+    "country": "SG",
+    "region": "Sengkang",
+    "domain": ""
+  },
+  {
+    "id": "SG-121",
+    "name": "Robertson Quay",
+    "country": "SG",
+    "region": "Singapore",
+    "domain": ""
+  },
+  {
+    "id": "SG-122",
+    "name": "Rochor",
+    "country": "SG",
+    "region": "Central Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-123",
+    "name": "SAFTI",
+    "country": "SG",
+    "region": "Jurong West",
+    "domain": ""
+  },
+  {
+    "id": "SG-124",
+    "name": "Seletar",
+    "country": "SG",
+    "region": "North-East Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-125",
+    "name": "Sembawang",
+    "country": "SG",
+    "region": "North Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-126",
+    "name": "Sembawang Hills",
+    "country": "SG",
+    "region": "Ang Mo Kio",
+    "domain": "",
+    "osm_relation_id": 19910456
+  },
+  {
+    "id": "SG-127",
+    "name": "Sengkang",
+    "country": "SG",
+    "region": "North-East Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-128",
+    "name": "Senoko",
+    "country": "SG",
+    "region": "Sembawang",
+    "domain": ""
+  },
+  {
+    "id": "SG-129",
+    "name": "Sentosa",
+    "country": "SG",
+    "region": "Southern Islands",
+    "domain": "sentosa.com.sg"
+  },
+  {
+    "id": "SG-130",
+    "name": "Serangoon",
+    "country": "SG",
+    "region": "North-East Region",
+    "domain": "",
+    "population": 120670
+  },
+  {
+    "id": "SG-131",
+    "name": "Serangoon Garden",
+    "country": "SG",
+    "region": "Serangoon",
+    "domain": ""
+  },
+  {
+    "id": "SG-132",
+    "name": "Serangoon North",
+    "country": "SG",
+    "region": "Serangoon",
+    "domain": ""
+  },
+  {
+    "id": "SG-133",
+    "name": "Siglap",
+    "country": "SG",
+    "region": "Bedok",
+    "domain": ""
+  },
+  {
+    "id": "SG-134",
+    "name": "Simei",
+    "country": "SG",
+    "region": "Tampines",
+    "domain": ""
+  },
+  {
+    "id": "SG-135",
+    "name": "Simpang",
+    "country": "SG",
+    "region": "North Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-136",
+    "name": "Singapore Riverside",
+    "country": "SG",
+    "region": "Central Region",
+    "domain": "",
+    "osm_relation_id": 18240482
+  },
+  {
+    "id": "SG-137",
+    "name": "South East Community Development Council",
+    "country": "SG",
+    "region": "Singapore",
+    "domain": "",
+    "osm_relation_id": 3831715
+  },
+  {
+    "id": "SG-138",
+    "name": "South West Community Development Council",
+    "country": "SG",
+    "region": "Singapore",
+    "domain": "cdc.gov.sg",
+    "osm_relation_id": 3831716
+  },
+  {
+    "id": "SG-139",
+    "name": "Southern Islands",
+    "country": "SG",
+    "region": "Central Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-140",
+    "name": "Straits View",
+    "country": "SG",
+    "region": "Central Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-141",
+    "name": "Sungei Kadut",
+    "country": "SG",
+    "region": "North Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-142",
+    "name": "Taman Jurong",
+    "country": "SG",
+    "region": "Jurong West",
+    "domain": ""
+  },
+  {
+    "id": "SG-143",
+    "name": "Tampines",
+    "country": "SG",
+    "region": "East Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-144",
+    "name": "Tampines East",
+    "country": "SG",
+    "region": "Tampines",
+    "domain": "",
+    "osm_relation_id": 19910187
+  },
+  {
+    "id": "SG-145",
+    "name": "Tampines West",
+    "country": "SG",
+    "region": "Tampines",
+    "domain": "",
+    "osm_relation_id": 19910218
+  },
+  {
+    "id": "SG-146",
+    "name": "Tanglin",
+    "country": "SG",
+    "region": "Central Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-147",
+    "name": "Tanglin Halt",
+    "country": "SG",
+    "region": "",
+    "domain": ""
+  },
+  {
+    "id": "SG-148",
+    "name": "Tanjong Pagar",
+    "country": "SG",
+    "region": "Downtown Core",
+    "domain": ""
+  },
+  {
+    "id": "SG-149",
+    "name": "Tanjong Rhu",
+    "country": "SG",
+    "region": "Kallang",
+    "domain": ""
+  },
+  {
+    "id": "SG-150",
+    "name": "Teban Gardens",
+    "country": "SG",
+    "region": "Jurong East",
+    "domain": ""
+  },
+  {
+    "id": "SG-151",
+    "name": "Telok Blangah",
+    "country": "SG",
+    "region": "Bukit Merah",
+    "domain": ""
+  },
+  {
+    "id": "SG-152",
+    "name": "Tengah",
+    "country": "SG",
+    "region": "West Region",
+    "domain": "",
+    "population": 10
+  },
+  {
+    "id": "SG-153",
+    "name": "Thomson",
+    "country": "SG",
+    "region": "Bishan",
+    "domain": ""
+  },
+  {
+    "id": "SG-154",
+    "name": "Tiong Bahru",
+    "country": "SG",
+    "region": "Bukit Merah",
+    "domain": "",
+    "osm_relation_id": 19910425
+  },
+  {
+    "id": "SG-155",
+    "name": "Toa Payoh",
+    "country": "SG",
+    "region": "Central Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-156",
+    "name": "Toh Tuck",
+    "country": "SG",
+    "region": "Clementi",
+    "domain": ""
+  },
+  {
+    "id": "SG-157",
+    "name": "Tuas",
+    "country": "SG",
+    "region": "West Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-158",
+    "name": "Tuas View",
+    "country": "SG",
+    "region": "Tuas",
+    "domain": ""
+  },
+  {
+    "id": "SG-159",
+    "name": "Upper Thomson (subzone)",
+    "country": "SG",
+    "region": "Bishan",
+    "domain": ""
+  },
+  {
+    "id": "SG-160",
+    "name": "West Region",
+    "country": "SG",
+    "region": "Singapore",
+    "domain": "",
+    "osm_relation_id": 19910184
+  },
+  {
+    "id": "SG-161",
+    "name": "Western Islands Planning Area",
+    "country": "SG",
+    "region": "West Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-162",
+    "name": "Western Water Catchment",
+    "country": "SG",
+    "region": "West Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-163",
+    "name": "Woodlands",
+    "country": "SG",
+    "region": "North Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-164",
+    "name": "Yew Tee",
+    "country": "SG",
+    "region": "Choa Chu Kang",
+    "domain": ""
+  },
+  {
+    "id": "SG-165",
+    "name": "Yio Chu Kang",
+    "country": "SG",
+    "region": "Ang Mo Kio",
+    "domain": ""
+  },
+  {
+    "id": "SG-166",
+    "name": "Yishun",
+    "country": "SG",
+    "region": "North Region",
+    "domain": ""
+  },
+  {
+    "id": "SG-167",
+    "name": "Yishun Central",
+    "country": "SG",
+    "region": "Yishun",
+    "domain": ""
+  },
+  {
+    "id": "SG-168",
+    "name": "Yishun East",
+    "country": "SG",
+    "region": "Yishun",
+    "domain": "",
+    "osm_relation_id": 19910470
+  },
+  {
+    "id": "SG-169",
+    "name": "Yishun South",
+    "country": "SG",
+    "region": "Yishun",
+    "domain": "",
+    "osm_relation_id": 19910469
+  },
+  {
+    "id": "SG-170",
+    "name": "Yishun West",
+    "country": "SG",
+    "region": "Yishun",
+    "domain": "",
+    "osm_relation_id": 19910467
+  },
+  {
+    "id": "SG-171",
+    "name": "Yuhua",
+    "country": "SG",
+    "region": "Jurong East",
+    "domain": ""
+  },
+  {
+    "id": "SG-172",
+    "name": "Yunnan",
+    "country": "SG",
+    "region": "Jurong West",
+    "domain": ""
+  },
+  {
+    "id": "SG-173",
+    "name": "one-north",
+    "country": "SG",
+    "region": "",
+    "domain": ""
+  }
+]

@@ -5,7 +5,8 @@
     "country": "FR",
     "region": "Auvergne-Rhône-Alpes",
     "domain": "ain.fr",
-    "osm_relation_id": 7387
+    "osm_relation_id": 7387,
+    "population": 679344
   },
   {
     "id": "FR-02",
@@ -13,7 +14,8 @@
     "country": "FR",
     "region": "Hauts-de-France",
     "domain": "aisne.com",
-    "osm_relation_id": 7411
+    "osm_relation_id": 7411,
+    "population": 523342
   },
   {
     "id": "FR-03",
@@ -21,7 +23,8 @@
     "country": "FR",
     "region": "Auvergne-Rhône-Alpes",
     "domain": "allier.fr",
-    "osm_relation_id": 1450201
+    "osm_relation_id": 1450201,
+    "population": 333298
   },
   {
     "id": "FR-04",
@@ -29,7 +32,8 @@
     "country": "FR",
     "region": "Provence-Alpes-Côte d'Azur",
     "domain": "mondepartement04.fr",
-    "osm_relation_id": 7380
+    "osm_relation_id": 7380,
+    "population": 168054
   },
   {
     "id": "FR-05",
@@ -37,7 +41,8 @@
     "country": "FR",
     "region": "Provence-Alpes-Côte d'Azur",
     "domain": "hautes-alpes.fr",
-    "osm_relation_id": 7436
+    "osm_relation_id": 7436,
+    "population": 143467
   },
   {
     "id": "FR-06",
@@ -45,7 +50,8 @@
     "country": "FR",
     "region": "Provence-Alpes-Côte d'Azur",
     "domain": "departement06.fr",
-    "osm_relation_id": 7385
+    "osm_relation_id": 7385,
+    "population": 1128418
   },
   {
     "id": "FR-07",
@@ -53,7 +59,8 @@
     "country": "FR",
     "region": "Auvergne-Rhône-Alpes",
     "domain": "ardeche.fr",
-    "osm_relation_id": 7430
+    "osm_relation_id": 7430,
+    "population": 334231
   },
   {
     "id": "FR-08",
@@ -61,7 +68,8 @@
     "country": "FR",
     "region": "Grand Est",
     "domain": "cd08.fr",
-    "osm_relation_id": 7395
+    "osm_relation_id": 7395,
+    "population": 265893
   },
   {
     "id": "FR-09",
@@ -69,7 +77,8 @@
     "country": "FR",
     "region": "Occitanie",
     "domain": "ariege.fr",
-    "osm_relation_id": 7439
+    "osm_relation_id": 7439,
+    "population": 155722
   },
   {
     "id": "FR-10",
@@ -77,7 +86,8 @@
     "country": "FR",
     "region": "Grand Est",
     "domain": "aube.fr",
-    "osm_relation_id": 7441
+    "osm_relation_id": 7441,
+    "population": 310447
   },
   {
     "id": "FR-11",
@@ -85,7 +95,8 @@
     "country": "FR",
     "region": "Occitanie",
     "domain": "aude.fr",
-    "osm_relation_id": 7446
+    "osm_relation_id": 7446,
+    "population": 379648
   },
   {
     "id": "FR-12",
@@ -93,7 +104,8 @@
     "country": "FR",
     "region": "Occitanie",
     "domain": "aveyron.fr",
-    "osm_relation_id": 7451
+    "osm_relation_id": 7451,
+    "population": 279609
   },
   {
     "id": "FR-13",
@@ -101,7 +113,8 @@
     "country": "FR",
     "region": "Provence-Alpes-Côte d'Azur",
     "domain": "departement13.fr",
-    "osm_relation_id": 7393
+    "osm_relation_id": 7393,
+    "population": 2087658
   },
   {
     "id": "FR-14",
@@ -109,7 +122,8 @@
     "country": "FR",
     "region": "Normandie",
     "domain": "calvados.fr",
-    "osm_relation_id": 7453
+    "osm_relation_id": 7453,
+    "population": 709441
   },
   {
     "id": "FR-15",
@@ -117,7 +131,8 @@
     "country": "FR",
     "region": "Auvergne-Rhône-Alpes",
     "domain": "cantal.fr",
-    "osm_relation_id": 7381
+    "osm_relation_id": 7381,
+    "population": 144196
   },
   {
     "id": "FR-16",
@@ -125,7 +140,8 @@
     "country": "FR",
     "region": "Nouvelle-Aquitaine",
     "domain": "lacharente.fr",
-    "osm_relation_id": 7428
+    "osm_relation_id": 7428,
+    "population": 352683
   },
   {
     "id": "FR-17",
@@ -133,7 +149,8 @@
     "country": "FR",
     "region": "Nouvelle-Aquitaine",
     "domain": "charente-maritime.fr",
-    "osm_relation_id": 7431
+    "osm_relation_id": 7431,
+    "population": 672279
   },
   {
     "id": "FR-18",
@@ -141,7 +158,8 @@
     "country": "FR",
     "region": "Centre-Val de Loire",
     "domain": "departement18.fr",
-    "osm_relation_id": 7456
+    "osm_relation_id": 7456,
+    "population": 298660
   },
   {
     "id": "FR-19",
@@ -149,7 +167,8 @@
     "country": "FR",
     "region": "Nouvelle-Aquitaine",
     "domain": "correze.fr",
-    "osm_relation_id": 7464
+    "osm_relation_id": 7464,
+    "population": 240826
   },
   {
     "id": "FR-21",
@@ -157,7 +176,8 @@
     "country": "FR",
     "region": "Bourgogne-Franche-Comté",
     "domain": "cotedor.fr",
-    "osm_relation_id": 7424
+    "osm_relation_id": 7424,
+    "population": 540100
   },
   {
     "id": "FR-22",
@@ -165,7 +185,8 @@
     "country": "FR",
     "region": "Bretagne",
     "domain": "cotesdarmor.fr",
-    "osm_relation_id": 7398
+    "osm_relation_id": 7398,
+    "population": 611859
   },
   {
     "id": "FR-23",
@@ -173,7 +194,8 @@
     "country": "FR",
     "region": "Nouvelle-Aquitaine",
     "domain": "creuse.fr",
-    "osm_relation_id": 7459
+    "osm_relation_id": 7459,
+    "population": 115527
   },
   {
     "id": "FR-24",
@@ -181,7 +203,8 @@
     "country": "FR",
     "region": "Nouvelle-Aquitaine",
     "domain": "dordogne.fr",
-    "osm_relation_id": 7375
+    "osm_relation_id": 7375,
+    "population": 417614
   },
   {
     "id": "FR-25",
@@ -189,7 +212,8 @@
     "country": "FR",
     "region": "Bourgogne-Franche-Comté",
     "domain": "doubs.fr",
-    "osm_relation_id": 7462
+    "osm_relation_id": 7462,
+    "population": 547163
   },
   {
     "id": "FR-26",
@@ -197,7 +221,8 @@
     "country": "FR",
     "region": "Auvergne-Rhône-Alpes",
     "domain": "ladrome.fr",
-    "osm_relation_id": 7434
+    "osm_relation_id": 7434,
+    "population": 524207
   },
   {
     "id": "FR-27",
@@ -205,7 +230,8 @@
     "country": "FR",
     "region": "Normandie",
     "domain": "eureennormandie.fr",
-    "osm_relation_id": 7435
+    "osm_relation_id": 7435,
+    "population": 602714
   },
   {
     "id": "FR-28",
@@ -213,7 +239,8 @@
     "country": "FR",
     "region": "Centre-Val de Loire",
     "domain": "eurelien.fr",
-    "osm_relation_id": 7374
+    "osm_relation_id": 7374,
+    "population": 433129
   },
   {
     "id": "FR-29",
@@ -221,7 +248,8 @@
     "country": "FR",
     "region": "Bretagne",
     "domain": "finistere.fr",
-    "osm_relation_id": 102430
+    "osm_relation_id": 102430,
+    "population": 933455
   },
   {
     "id": "FR-2A",
@@ -229,7 +257,8 @@
     "country": "FR",
     "region": "Corse",
     "domain": "corsedusud.fr",
-    "osm_relation_id": 76932
+    "osm_relation_id": 76932,
+    "population": 168306
   },
   {
     "id": "FR-2B",
@@ -237,7 +266,8 @@
     "country": "FR",
     "region": "Corse",
     "domain": "haute-corse.fr",
-    "osm_relation_id": 76931
+    "osm_relation_id": 76931,
+    "population": 187180
   },
   {
     "id": "FR-30",
@@ -245,7 +275,8 @@
     "country": "FR",
     "region": "Occitanie",
     "domain": "gard.fr",
-    "osm_relation_id": 7461
+    "osm_relation_id": 7461,
+    "population": 770940
   },
   {
     "id": "FR-31",
@@ -253,7 +284,8 @@
     "country": "FR",
     "region": "Occitanie",
     "domain": "haute-garonne.fr",
-    "osm_relation_id": 7413
+    "osm_relation_id": 7413,
+    "population": 1471468
   },
   {
     "id": "FR-32",
@@ -261,7 +293,8 @@
     "country": "FR",
     "region": "Occitanie",
     "domain": "gers.fr",
-    "osm_relation_id": 7422
+    "osm_relation_id": 7422,
+    "population": 192645
   },
   {
     "id": "FR-33",
@@ -269,7 +302,8 @@
     "country": "FR",
     "region": "Nouvelle-Aquitaine",
     "domain": "gironde.fr",
-    "osm_relation_id": 7405
+    "osm_relation_id": 7405,
+    "population": 1690493
   },
   {
     "id": "FR-34",
@@ -277,7 +311,8 @@
     "country": "FR",
     "region": "Occitanie",
     "domain": "herault.fr",
-    "osm_relation_id": 7429
+    "osm_relation_id": 7429,
+    "population": 1230289
   },
   {
     "id": "FR-35",
@@ -285,7 +320,8 @@
     "country": "FR",
     "region": "Bretagne",
     "domain": "ille-et-vilaine.fr",
-    "osm_relation_id": 7465
+    "osm_relation_id": 7465,
+    "population": 1120666
   },
   {
     "id": "FR-36",
@@ -293,7 +329,8 @@
     "country": "FR",
     "region": "Centre-Val de Loire",
     "domain": "indre.fr",
-    "osm_relation_id": 7417
+    "osm_relation_id": 7417,
+    "population": 216069
   },
   {
     "id": "FR-37",
@@ -301,7 +338,8 @@
     "country": "FR",
     "region": "Centre-Val de Loire",
     "domain": "touraine.fr",
-    "osm_relation_id": 7408
+    "osm_relation_id": 7408,
+    "population": 619362
   },
   {
     "id": "FR-38",
@@ -309,7 +347,8 @@
     "country": "FR",
     "region": "Auvergne-Rhône-Alpes",
     "domain": "isere.fr",
-    "osm_relation_id": 7437
+    "osm_relation_id": 7437,
+    "population": 1298990
   },
   {
     "id": "FR-39",
@@ -317,7 +356,8 @@
     "country": "FR",
     "region": "Bourgogne-Franche-Comté",
     "domain": "jura.fr",
-    "osm_relation_id": 7460
+    "osm_relation_id": 7460,
+    "population": 257973
   },
   {
     "id": "FR-40",
@@ -325,7 +365,8 @@
     "country": "FR",
     "region": "Nouvelle-Aquitaine",
     "domain": "landes.fr",
-    "osm_relation_id": 7376
+    "osm_relation_id": 7376,
+    "population": 433570
   },
   {
     "id": "FR-41",
@@ -333,7 +374,8 @@
     "country": "FR",
     "region": "Centre-Val de Loire",
     "domain": "departement41.fr",
-    "osm_relation_id": 7399
+    "osm_relation_id": 7399,
+    "population": 328543
   },
   {
     "id": "FR-42",
@@ -341,7 +383,8 @@
     "country": "FR",
     "region": "Auvergne-Rhône-Alpes",
     "domain": "loire.fr",
-    "osm_relation_id": 7420
+    "osm_relation_id": 7420,
+    "population": 774133
   },
   {
     "id": "FR-43",
@@ -349,7 +392,8 @@
     "country": "FR",
     "region": "Auvergne-Rhône-Alpes",
     "domain": "hauteloire.fr",
-    "osm_relation_id": 7452
+    "osm_relation_id": 7452,
+    "population": 228654
   },
   {
     "id": "FR-44",
@@ -357,7 +401,8 @@
     "country": "FR",
     "region": "Pays de la Loire",
     "domain": "loire-atlantique.fr",
-    "osm_relation_id": 7432
+    "osm_relation_id": 7432,
+    "population": 1487570
   },
   {
     "id": "FR-45",
@@ -365,7 +410,8 @@
     "country": "FR",
     "region": "Centre-Val de Loire",
     "domain": "loiret.fr",
-    "osm_relation_id": 7440
+    "osm_relation_id": 7440,
+    "population": 691268
   },
   {
     "id": "FR-46",
@@ -373,7 +419,8 @@
     "country": "FR",
     "region": "Occitanie",
     "domain": "lot.fr",
-    "osm_relation_id": 7454
+    "osm_relation_id": 7454,
+    "population": 176473
   },
   {
     "id": "FR-47",
@@ -381,7 +428,8 @@
     "country": "FR",
     "region": "Nouvelle-Aquitaine",
     "domain": "lotetgaronne.fr",
-    "osm_relation_id": 1284995
+    "osm_relation_id": 1284995,
+    "population": 333602
   },
   {
     "id": "FR-48",
@@ -389,7 +437,8 @@
     "country": "FR",
     "region": "Occitanie",
     "domain": "lozere.fr",
-    "osm_relation_id": 7421
+    "osm_relation_id": 7421,
+    "population": 76486
   },
   {
     "id": "FR-49",
@@ -397,7 +446,8 @@
     "country": "FR",
     "region": "Pays de la Loire",
     "domain": "maine-et-loire.fr",
-    "osm_relation_id": 7409
+    "osm_relation_id": 7409,
+    "population": 833776
   },
   {
     "id": "FR-50",
@@ -405,7 +455,8 @@
     "country": "FR",
     "region": "Normandie",
     "domain": "manche.fr",
-    "osm_relation_id": 7404
+    "osm_relation_id": 7404,
+    "population": 497522
   },
   {
     "id": "FR-51",
@@ -413,7 +464,8 @@
     "country": "FR",
     "region": "Grand Est",
     "domain": "marne.fr",
-    "osm_relation_id": 7379
+    "osm_relation_id": 7379,
+    "population": 563076
   },
   {
     "id": "FR-52",
@@ -421,7 +473,8 @@
     "country": "FR",
     "region": "Grand Est",
     "domain": "haute-marne.fr",
-    "osm_relation_id": 7396
+    "osm_relation_id": 7396,
+    "population": 168331
   },
   {
     "id": "FR-53",
@@ -429,7 +482,8 @@
     "country": "FR",
     "region": "Pays de la Loire",
     "domain": "lamayenne.fr",
-    "osm_relation_id": 7438
+    "osm_relation_id": 7438,
+    "population": 305468
   },
   {
     "id": "FR-54",
@@ -437,7 +491,8 @@
     "country": "FR",
     "region": "Grand Est",
     "domain": "meurthe-et-moselle.fr",
-    "osm_relation_id": 51856
+    "osm_relation_id": 51856,
+    "population": 732236
   },
   {
     "id": "FR-55",
@@ -445,7 +500,8 @@
     "country": "FR",
     "region": "Grand Est",
     "domain": "meuse.fr",
-    "osm_relation_id": 7382
+    "osm_relation_id": 7382,
+    "population": 180290
   },
   {
     "id": "FR-56",
@@ -453,7 +509,8 @@
     "country": "FR",
     "region": "Bretagne",
     "domain": "morbihan.fr",
-    "osm_relation_id": 7447
+    "osm_relation_id": 7447,
+    "population": 783390
   },
   {
     "id": "FR-57",
@@ -461,7 +518,8 @@
     "country": "FR",
     "region": "Grand Est",
     "domain": "moselle.fr",
-    "osm_relation_id": 51854
+    "osm_relation_id": 51854,
+    "population": 1051309
   },
   {
     "id": "FR-58",
@@ -469,7 +527,8 @@
     "country": "FR",
     "region": "Bourgogne-Franche-Comté",
     "domain": "nievre.fr",
-    "osm_relation_id": 7448
+    "osm_relation_id": 7448,
+    "population": 201417
   },
   {
     "id": "FR-59",
@@ -477,7 +536,8 @@
     "country": "FR",
     "region": "Hauts-de-France",
     "domain": "lenord.fr",
-    "osm_relation_id": 7400
+    "osm_relation_id": 7400,
+    "population": 2615635
   },
   {
     "id": "FR-60",
@@ -485,7 +545,8 @@
     "country": "FR",
     "region": "Hauts-de-France",
     "domain": "oise.fr",
-    "osm_relation_id": 7427
+    "osm_relation_id": 7427,
+    "population": 829899
   },
   {
     "id": "FR-61",
@@ -493,7 +554,8 @@
     "country": "FR",
     "region": "Normandie",
     "domain": "orne.fr",
-    "osm_relation_id": 7419
+    "osm_relation_id": 7419,
+    "population": 275201
   },
   {
     "id": "FR-62",
@@ -501,7 +563,8 @@
     "country": "FR",
     "region": "Hauts-de-France",
     "domain": "pasdecalais.fr",
-    "osm_relation_id": 7394
+    "osm_relation_id": 7394,
+    "population": 1457905
   },
   {
     "id": "FR-63",
@@ -509,7 +572,8 @@
     "country": "FR",
     "region": "Auvergne-Rhône-Alpes",
     "domain": "puy-de-dome.fr",
-    "osm_relation_id": 7406
+    "osm_relation_id": 7406,
+    "population": 664453
   },
   {
     "id": "FR-64",
@@ -517,7 +581,8 @@
     "country": "FR",
     "region": "Nouvelle-Aquitaine",
     "domain": "le64.fr",
-    "osm_relation_id": 7450
+    "osm_relation_id": 7450,
+    "population": 706564
   },
   {
     "id": "FR-65",
@@ -525,7 +590,8 @@
     "country": "FR",
     "region": "Occitanie",
     "domain": "hautespyrenees.fr",
-    "osm_relation_id": 7467
+    "osm_relation_id": 7467,
+    "population": 231349
   },
   {
     "id": "FR-66",
@@ -533,7 +599,8 @@
     "country": "FR",
     "region": "Occitanie",
     "domain": "ledepartement66.fr",
-    "osm_relation_id": 7466
+    "osm_relation_id": 7466,
+    "population": 496855
   },
   {
     "id": "FR-67",
@@ -541,7 +608,8 @@
     "country": "FR",
     "region": "Grand Est",
     "domain": "bas-rhin.fr",
-    "osm_relation_id": 7415
+    "osm_relation_id": 7415,
+    "population": 1163810
   },
   {
     "id": "FR-68",
@@ -549,7 +617,8 @@
     "country": "FR",
     "region": "Grand Est",
     "domain": "haut-rhin.fr",
-    "osm_relation_id": 7403
+    "osm_relation_id": 7403,
+    "population": 770738
   },
   {
     "id": "FR-69",
@@ -557,7 +626,8 @@
     "country": "FR",
     "region": "Auvergne-Rhône-Alpes",
     "domain": "rhone.fr",
-    "osm_relation_id": 4850451
+    "osm_relation_id": 4850451,
+    "population": 464176
   },
   {
     "id": "FR-70",
@@ -565,7 +635,8 @@
     "country": "FR",
     "region": "Bourgogne-Franche-Comté",
     "domain": "haute-saone.fr",
-    "osm_relation_id": 7423
+    "osm_relation_id": 7423,
+    "population": 233185
   },
   {
     "id": "FR-71",
@@ -573,7 +644,8 @@
     "country": "FR",
     "region": "Bourgogne-Franche-Comté",
     "domain": "saoneetloire71.fr",
-    "osm_relation_id": 7397
+    "osm_relation_id": 7397,
+    "population": 550310
   },
   {
     "id": "FR-72",
@@ -581,7 +653,8 @@
     "country": "FR",
     "region": "Pays de la Loire",
     "domain": "sarthe.fr",
-    "osm_relation_id": 7443
+    "osm_relation_id": 7443,
+    "population": 566733
   },
   {
     "id": "FR-73",
@@ -589,7 +662,8 @@
     "country": "FR",
     "region": "Auvergne-Rhône-Alpes",
     "domain": "savoie.fr",
-    "osm_relation_id": 7425
+    "osm_relation_id": 7425,
+    "population": 448226
   },
   {
     "id": "FR-74",
@@ -597,7 +671,8 @@
     "country": "FR",
     "region": "Auvergne-Rhône-Alpes",
     "domain": "hautesavoie.fr",
-    "osm_relation_id": 7407
+    "osm_relation_id": 7407,
+    "population": 861158
   },
   {
     "id": "FR-75",
@@ -605,7 +680,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "paris.fr",
-    "osm_relation_id": 7444
+    "osm_relation_id": 7444,
+    "population": 2103778
   },
   {
     "id": "FR-76",
@@ -613,7 +689,8 @@
     "country": "FR",
     "region": "Normandie",
     "domain": "seinemaritime.fr",
-    "osm_relation_id": 7426
+    "osm_relation_id": 7426,
+    "population": 1260964
   },
   {
     "id": "FR-77",
@@ -621,7 +698,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "seine-et-marne.fr",
-    "osm_relation_id": 7383
+    "osm_relation_id": 7383,
+    "population": 1468108
   },
   {
     "id": "FR-78",
@@ -629,7 +707,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "yvelines.fr",
-    "osm_relation_id": 7457
+    "osm_relation_id": 7457,
+    "population": 1485086
   },
   {
     "id": "FR-79",
@@ -637,7 +716,8 @@
     "country": "FR",
     "region": "Nouvelle-Aquitaine",
     "domain": "deux-sevres.fr",
-    "osm_relation_id": 7455
+    "osm_relation_id": 7455,
+    "population": 375229
   },
   {
     "id": "FR-80",
@@ -645,7 +725,8 @@
     "country": "FR",
     "region": "Hauts-de-France",
     "domain": "somme.fr",
-    "osm_relation_id": 7463
+    "osm_relation_id": 7463,
+    "population": 565413
   },
   {
     "id": "FR-81",
@@ -653,7 +734,8 @@
     "country": "FR",
     "region": "Occitanie",
     "domain": "tarn.fr",
-    "osm_relation_id": 7442
+    "osm_relation_id": 7442,
+    "population": 397352
   },
   {
     "id": "FR-82",
@@ -661,7 +743,8 @@
     "country": "FR",
     "region": "Occitanie",
     "domain": "ledepartement82.fr",
-    "osm_relation_id": 7388
+    "osm_relation_id": 7388,
+    "population": 265817
   },
   {
     "id": "FR-83",
@@ -669,7 +752,8 @@
     "country": "FR",
     "region": "Provence-Alpes-Côte d'Azur",
     "domain": "var.fr",
-    "osm_relation_id": 7390
+    "osm_relation_id": 7390,
+    "population": 1119307
   },
   {
     "id": "FR-84",
@@ -677,7 +761,8 @@
     "country": "FR",
     "region": "Provence-Alpes-Côte d'Azur",
     "domain": "vaucluse.fr",
-    "osm_relation_id": 7445
+    "osm_relation_id": 7445,
+    "population": 572056
   },
   {
     "id": "FR-85",
@@ -685,7 +770,8 @@
     "country": "FR",
     "region": "Pays de la Loire",
     "domain": "vendee.fr",
-    "osm_relation_id": 7402
+    "osm_relation_id": 7402,
+    "population": 713609
   },
   {
     "id": "FR-86",
@@ -693,7 +779,8 @@
     "country": "FR",
     "region": "Nouvelle-Aquitaine",
     "domain": "lavienne86.fr",
-    "osm_relation_id": 7377
+    "osm_relation_id": 7377,
+    "population": 438897
   },
   {
     "id": "FR-87",
@@ -701,7 +788,8 @@
     "country": "FR",
     "region": "Nouvelle-Aquitaine",
     "domain": "haute-vienne.fr",
-    "osm_relation_id": 7418
+    "osm_relation_id": 7418,
+    "population": 373167
   },
   {
     "id": "FR-88",
@@ -709,7 +797,8 @@
     "country": "FR",
     "region": "Grand Est",
     "domain": "vosges.fr",
-    "osm_relation_id": 7384
+    "osm_relation_id": 7384,
+    "population": 357248
   },
   {
     "id": "FR-89",
@@ -717,7 +806,8 @@
     "country": "FR",
     "region": "Bourgogne-Franche-Comté",
     "domain": "yonne.fr",
-    "osm_relation_id": 7392
+    "osm_relation_id": 7392,
+    "population": 332267
   },
   {
     "id": "FR-90",
@@ -725,7 +815,8 @@
     "country": "FR",
     "region": "Bourgogne-Franche-Comté",
     "domain": "territoiredebelfort.fr",
-    "osm_relation_id": 7410
+    "osm_relation_id": 7410,
+    "population": 140255
   },
   {
     "id": "FR-91",
@@ -733,7 +824,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "essonne.fr",
-    "osm_relation_id": 7401
+    "osm_relation_id": 7401,
+    "population": 1338485
   },
   {
     "id": "FR-92",
@@ -741,7 +833,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "hauts-de-seine.fr",
-    "osm_relation_id": 7449
+    "osm_relation_id": 7449,
+    "population": 1654712
   },
   {
     "id": "FR-93",
@@ -749,7 +842,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "seinesaintdenis.fr",
-    "osm_relation_id": 7389
+    "osm_relation_id": 7389,
+    "population": 1704316
   },
   {
     "id": "FR-94",
@@ -757,7 +851,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "valdemarne.fr",
-    "osm_relation_id": 7458
+    "osm_relation_id": 7458,
+    "population": 1426929
   },
   {
     "id": "FR-95",
@@ -765,7 +860,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "valdoise.fr",
-    "osm_relation_id": 7433
+    "osm_relation_id": 7433,
+    "population": 1281653
   },
   {
     "id": "FR-971",
@@ -773,7 +869,8 @@
     "country": "FR",
     "region": "Guadeloupe",
     "domain": "guadeloupe.fr",
-    "osm_relation_id": 1401835
+    "osm_relation_id": 1401835,
+    "population": 384160
   },
   {
     "id": "FR-972",
@@ -781,7 +878,8 @@
     "country": "FR",
     "region": "Martinique",
     "domain": "collectivitedemartinique.mq",
-    "osm_relation_id": 1891495
+    "osm_relation_id": 1891495,
+    "population": 360630
   },
   {
     "id": "FR-973",
@@ -789,7 +887,8 @@
     "country": "FR",
     "region": "Guyane",
     "domain": "ctguyane.fr",
-    "osm_relation_id": 1260551
+    "osm_relation_id": 1260551,
+    "population": 293996
   },
   {
     "id": "FR-974",
@@ -797,7 +896,8 @@
     "country": "FR",
     "region": "La Réunion",
     "domain": "departement974.fr",
-    "osm_relation_id": 1785276
+    "osm_relation_id": 1785276,
+    "population": 889679
   },
   {
     "id": "FR-976",
@@ -805,7 +905,8 @@
     "country": "FR",
     "region": "Mayotte",
     "domain": "cg976.fr",
-    "osm_relation_id": 1259885
+    "osm_relation_id": 1259885,
+    "population": 320901
   },
   {
     "id": "FR-01053",
@@ -813,7 +914,8 @@
     "country": "FR",
     "region": "Auvergne-Rhône-Alpes",
     "domain": "bourgenbresse.fr",
-    "osm_relation_id": 140253
+    "osm_relation_id": 140253,
+    "population": 42372
   },
   {
     "id": "FR-02408",
@@ -821,7 +923,8 @@
     "country": "FR",
     "region": "Hauts-de-France",
     "domain": "ville-laon.fr",
-    "osm_relation_id": 74127
+    "osm_relation_id": 74127,
+    "population": 24220
   },
   {
     "id": "FR-02691",
@@ -829,7 +932,8 @@
     "country": "FR",
     "region": "Hauts-de-France",
     "domain": "saint-quentin.fr",
-    "osm_relation_id": 153656
+    "osm_relation_id": 153656,
+    "population": 52813
   },
   {
     "id": "FR-03190",
@@ -837,7 +941,8 @@
     "country": "FR",
     "region": "Auvergne-Rhône-Alpes",
     "domain": "moulins-auvergne.fr",
-    "osm_relation_id": 120072
+    "osm_relation_id": 120072,
+    "population": 19206
   },
   {
     "id": "FR-04070",
@@ -845,7 +950,8 @@
     "country": "FR",
     "region": "Provence-Alpes-Côte d'Azur",
     "domain": "dignelesbains.fr",
-    "osm_relation_id": 85909
+    "osm_relation_id": 85909,
+    "population": 17979
   },
   {
     "id": "FR-05061",
@@ -853,7 +959,8 @@
     "country": "FR",
     "region": "Provence-Alpes-Côte d'Azur",
     "domain": "ville-gap.fr",
-    "osm_relation_id": 367142
+    "osm_relation_id": 367142,
+    "population": 41293
   },
   {
     "id": "FR-06004",
@@ -861,7 +968,8 @@
     "country": "FR",
     "region": "Provence-Alpes-Côte d'Azur",
     "domain": "antibes-juanlespins.com",
-    "osm_relation_id": 74687
+    "osm_relation_id": 74687,
+    "population": 77637
   },
   {
     "id": "FR-06027",
@@ -869,7 +977,8 @@
     "country": "FR",
     "region": "Provence-Alpes-Côte d'Azur",
     "domain": "ville.cagnes.fr",
-    "osm_relation_id": 78617
+    "osm_relation_id": 78617,
+    "population": 53354
   },
   {
     "id": "FR-06029",
@@ -877,7 +986,8 @@
     "country": "FR",
     "region": "Provence-Alpes-Côte d'Azur",
     "domain": "cannes.com",
-    "osm_relation_id": 91734
+    "osm_relation_id": 91734,
+    "population": 74350
   },
   {
     "id": "FR-06069",
@@ -885,7 +995,8 @@
     "country": "FR",
     "region": "Provence-Alpes-Côte d'Azur",
     "domain": "ville-grasse.fr",
-    "osm_relation_id": 102748
+    "osm_relation_id": 102748,
+    "population": 50970
   },
   {
     "id": "FR-06088",
@@ -893,7 +1004,8 @@
     "country": "FR",
     "region": "Provence-Alpes-Côte d'Azur",
     "domain": "nice.fr",
-    "osm_relation_id": 170100
+    "osm_relation_id": 170100,
+    "population": 357737
   },
   {
     "id": "FR-07186",
@@ -901,7 +1013,8 @@
     "country": "FR",
     "region": "Auvergne-Rhône-Alpes",
     "domain": "privas.fr",
-    "osm_relation_id": 87515
+    "osm_relation_id": 87515,
+    "population": 8538
   },
   {
     "id": "FR-08105",
@@ -909,7 +1022,8 @@
     "country": "FR",
     "region": "Grand Est",
     "domain": "charleville-mezieres.fr",
-    "osm_relation_id": 153838
+    "osm_relation_id": 153838,
+    "population": 45560
   },
   {
     "id": "FR-09122",
@@ -917,7 +1031,8 @@
     "country": "FR",
     "region": "Occitanie",
     "domain": "ville-foix.fr",
-    "osm_relation_id": 74088
+    "osm_relation_id": 74088,
+    "population": 9934
   },
   {
     "id": "FR-10387",
@@ -925,7 +1040,8 @@
     "country": "FR",
     "region": "Grand Est",
     "domain": "troyes.fr",
-    "osm_relation_id": 414972
+    "osm_relation_id": 414972,
+    "population": 62088
   },
   {
     "id": "FR-11069",
@@ -933,7 +1049,8 @@
     "country": "FR",
     "region": "Occitanie",
     "domain": "carcassonne.fr",
-    "osm_relation_id": 37774
+    "osm_relation_id": 37774,
+    "population": 46080
   },
   {
     "id": "FR-11262",
@@ -941,7 +1058,8 @@
     "country": "FR",
     "region": "Occitanie",
     "domain": "narbonne.fr",
-    "osm_relation_id": 54737
+    "osm_relation_id": 54737,
+    "population": 57587
   },
   {
     "id": "FR-12202",
@@ -949,7 +1067,8 @@
     "country": "FR",
     "region": "Occitanie",
     "domain": "rodez.fr",
-    "osm_relation_id": 116558
+    "osm_relation_id": 116558,
+    "population": 23981
   },
   {
     "id": "FR-13001",
@@ -957,7 +1076,8 @@
     "country": "FR",
     "region": "Provence-Alpes-Côte d'Azur",
     "domain": "aixenprovence.fr",
-    "osm_relation_id": 70279
+    "osm_relation_id": 70279,
+    "population": 149695
   },
   {
     "id": "FR-13004",
@@ -965,7 +1085,8 @@
     "country": "FR",
     "region": "Provence-Alpes-Côte d'Azur",
     "domain": "arles.fr",
-    "osm_relation_id": 73911
+    "osm_relation_id": 73911,
+    "population": 51811
   },
   {
     "id": "FR-13055",
@@ -973,7 +1094,8 @@
     "country": "FR",
     "region": "Provence-Alpes-Côte d'Azur",
     "domain": "marseille.fr",
-    "osm_relation_id": 76469
+    "osm_relation_id": 76469,
+    "population": 886040
   },
   {
     "id": "FR-14118",
@@ -981,7 +1103,8 @@
     "country": "FR",
     "region": "Normandie",
     "domain": "caen.fr",
-    "osm_relation_id": 149197
+    "osm_relation_id": 149197,
+    "population": 109400
   },
   {
     "id": "FR-15014",
@@ -989,7 +1112,8 @@
     "country": "FR",
     "region": "Auvergne-Rhône-Alpes",
     "domain": "aurillac.fr",
-    "osm_relation_id": 115997
+    "osm_relation_id": 115997,
+    "population": 26214
   },
   {
     "id": "FR-16015",
@@ -997,7 +1121,8 @@
     "country": "FR",
     "region": "Nouvelle-Aquitaine",
     "domain": "angouleme.fr",
-    "osm_relation_id": 85809
+    "osm_relation_id": 85809,
+    "population": 41908
   },
   {
     "id": "FR-17300",
@@ -1005,7 +1130,8 @@
     "country": "FR",
     "region": "Nouvelle-Aquitaine",
     "domain": "larochelle.fr",
-    "osm_relation_id": 117858
+    "osm_relation_id": 117858,
+    "population": 79851
   },
   {
     "id": "FR-18033",
@@ -1013,7 +1139,8 @@
     "country": "FR",
     "region": "Centre-Val de Loire",
     "domain": "ville-bourges.fr",
-    "osm_relation_id": 50312
+    "osm_relation_id": 50312,
+    "population": 64186
   },
   {
     "id": "FR-19272",
@@ -1021,7 +1148,8 @@
     "country": "FR",
     "region": "Nouvelle-Aquitaine",
     "domain": "ville-tulle.fr",
-    "osm_relation_id": 104501
+    "osm_relation_id": 104501,
+    "population": 13401
   },
   {
     "id": "FR-21231",
@@ -1029,7 +1157,8 @@
     "country": "FR",
     "region": "Bourgogne-Franche-Comté",
     "domain": "dijon.fr",
-    "osm_relation_id": 74090
+    "osm_relation_id": 74090,
+    "population": 161830
   },
   {
     "id": "FR-22278",
@@ -1037,7 +1166,8 @@
     "country": "FR",
     "region": "Bretagne",
     "domain": "saint-brieuc.fr",
-    "osm_relation_id": 301829
+    "osm_relation_id": 301829,
+    "population": 44364
   },
   {
     "id": "FR-23096",
@@ -1045,7 +1175,8 @@
     "country": "FR",
     "region": "Nouvelle-Aquitaine",
     "domain": "gueret.fr",
-    "osm_relation_id": 118768
+    "osm_relation_id": 118768,
+    "population": 12955
   },
   {
     "id": "FR-24322",
@@ -1053,7 +1184,8 @@
     "country": "FR",
     "region": "Nouvelle-Aquitaine",
     "domain": "perigueux.fr",
-    "osm_relation_id": 76351
+    "osm_relation_id": 76351,
+    "population": 29055
   },
   {
     "id": "FR-25056",
@@ -1061,7 +1193,8 @@
     "country": "FR",
     "region": "Bourgogne-Franche-Comté",
     "domain": "besancon.fr",
-    "osm_relation_id": 103599
+    "osm_relation_id": 103599,
+    "population": 118489
   },
   {
     "id": "FR-26362",
@@ -1069,7 +1202,8 @@
     "country": "FR",
     "region": "Auvergne-Rhône-Alpes",
     "domain": "valence.fr",
-    "osm_relation_id": 37586
+    "osm_relation_id": 37586,
+    "population": 64458
   },
   {
     "id": "FR-27229",
@@ -1077,7 +1211,8 @@
     "country": "FR",
     "region": "Normandie",
     "domain": "evreux.fr",
-    "osm_relation_id": 543082
+    "osm_relation_id": 543082,
+    "population": 49360
   },
   {
     "id": "FR-28085",
@@ -1085,7 +1220,8 @@
     "country": "FR",
     "region": "Centre-Val de Loire",
     "domain": "chartres.fr",
-    "osm_relation_id": 276905
+    "osm_relation_id": 276905,
+    "population": 38324
   },
   {
     "id": "FR-29019",
@@ -1093,7 +1229,8 @@
     "country": "FR",
     "region": "Bretagne",
     "domain": "brest.fr",
-    "osm_relation_id": 1076124
+    "osm_relation_id": 1076124,
+    "population": 142346
   },
   {
     "id": "FR-29232",
@@ -1101,7 +1238,8 @@
     "country": "FR",
     "region": "Bretagne",
     "domain": "quimper.fr",
-    "osm_relation_id": 296095
+    "osm_relation_id": 296095,
+    "population": 64385
   },
   {
     "id": "FR-2A004",
@@ -1109,7 +1247,8 @@
     "country": "FR",
     "region": "Corse",
     "domain": "ajaccio.fr",
-    "osm_relation_id": 73283
+    "osm_relation_id": 73283,
+    "population": 76320
   },
   {
     "id": "FR-2B033",
@@ -1117,7 +1256,8 @@
     "country": "FR",
     "region": "Corse",
     "domain": "bastia.fr",
-    "osm_relation_id": 73444
+    "osm_relation_id": 73444,
+    "population": 46867
   },
   {
     "id": "FR-30189",
@@ -1125,7 +1265,8 @@
     "country": "FR",
     "region": "Occitanie",
     "domain": "nimes.fr",
-    "osm_relation_id": 378685
+    "osm_relation_id": 378685,
+    "population": 151839
   },
   {
     "id": "FR-31555",
@@ -1133,7 +1274,8 @@
     "country": "FR",
     "region": "Occitanie",
     "domain": "toulouse.fr",
-    "osm_relation_id": 35738
+    "osm_relation_id": 35738,
+    "population": 514819
   },
   {
     "id": "FR-32013",
@@ -1141,7 +1283,8 @@
     "country": "FR",
     "region": "Occitanie",
     "domain": "auch.fr",
-    "osm_relation_id": 128184
+    "osm_relation_id": 128184,
+    "population": 22428
   },
   {
     "id": "FR-33063",
@@ -1149,7 +1292,8 @@
     "country": "FR",
     "region": "Nouvelle-Aquitaine",
     "domain": "bordeaux.fr",
-    "osm_relation_id": 105270
+    "osm_relation_id": 105270,
+    "population": 267991
   },
   {
     "id": "FR-33281",
@@ -1157,7 +1301,8 @@
     "country": "FR",
     "region": "Nouvelle-Aquitaine",
     "domain": "merignac.com",
-    "osm_relation_id": 105275
+    "osm_relation_id": 105275,
+    "population": 78090
   },
   {
     "id": "FR-33318",
@@ -1165,7 +1310,8 @@
     "country": "FR",
     "region": "Nouvelle-Aquitaine",
     "domain": "pessac.fr",
-    "osm_relation_id": 105281
+    "osm_relation_id": 105281,
+    "population": 67339
   },
   {
     "id": "FR-34032",
@@ -1173,7 +1319,8 @@
     "country": "FR",
     "region": "Occitanie",
     "domain": "ville-beziers.fr",
-    "osm_relation_id": 70070
+    "osm_relation_id": 70070,
+    "population": 81545
   },
   {
     "id": "FR-34172",
@@ -1181,7 +1328,8 @@
     "country": "FR",
     "region": "Occitanie",
     "domain": "montpellier.fr",
-    "osm_relation_id": 28722
+    "osm_relation_id": 28722,
+    "population": 310240
   },
   {
     "id": "FR-35238",
@@ -1189,7 +1337,8 @@
     "country": "FR",
     "region": "Bretagne",
     "domain": "rennes.fr",
-    "osm_relation_id": 54517
+    "osm_relation_id": 54517,
+    "population": 230890
   },
   {
     "id": "FR-36044",
@@ -1197,7 +1346,8 @@
     "country": "FR",
     "region": "Centre-Val de Loire",
     "domain": "chateauroux-metropole.fr",
-    "osm_relation_id": 1536593
+    "osm_relation_id": 1536593,
+    "population": 42963
   },
   {
     "id": "FR-37261",
@@ -1205,7 +1355,8 @@
     "country": "FR",
     "region": "Centre-Val de Loire",
     "domain": "tours.fr",
-    "osm_relation_id": 76306
+    "osm_relation_id": 76306,
+    "population": 139259
   },
   {
     "id": "FR-38185",
@@ -1213,7 +1364,8 @@
     "country": "FR",
     "region": "Auvergne-Rhône-Alpes",
     "domain": "grenoble.fr",
-    "osm_relation_id": 80348
+    "osm_relation_id": 80348,
+    "population": 156140
   },
   {
     "id": "FR-39300",
@@ -1221,7 +1373,8 @@
     "country": "FR",
     "region": "Bourgogne-Franche-Comté",
     "domain": "lfranche-comte.fr",
-    "osm_relation_id": 152508
+    "osm_relation_id": 152508,
+    "population": 16618
   },
   {
     "id": "FR-40192",
@@ -1229,7 +1382,8 @@
     "country": "FR",
     "region": "Nouvelle-Aquitaine",
     "domain": "montdemarsan.fr",
-    "osm_relation_id": 150319
+    "osm_relation_id": 150319,
+    "population": 31592
   },
   {
     "id": "FR-41018",
@@ -1237,7 +1391,8 @@
     "country": "FR",
     "region": "Centre-Val de Loire",
     "domain": "blois.fr",
-    "osm_relation_id": 273622
+    "osm_relation_id": 273622,
+    "population": 47219
   },
   {
     "id": "FR-42218",
@@ -1245,7 +1400,8 @@
     "country": "FR",
     "region": "Auvergne-Rhône-Alpes",
     "domain": "saint-etienne.fr",
-    "osm_relation_id": 117905
+    "osm_relation_id": 117905,
+    "population": 173136
   },
   {
     "id": "FR-43157",
@@ -1253,7 +1409,8 @@
     "country": "FR",
     "region": "Auvergne-Rhône-Alpes",
     "domain": "lepuyenvelay.fr",
-    "osm_relation_id": 120067
+    "osm_relation_id": 120067,
+    "population": 18540
   },
   {
     "id": "FR-44109",
@@ -1261,7 +1418,8 @@
     "country": "FR",
     "region": "Pays de la Loire",
     "domain": "nantes.fr",
-    "osm_relation_id": 59874
+    "osm_relation_id": 59874,
+    "population": 327734
   },
   {
     "id": "FR-44162",
@@ -1269,7 +1427,8 @@
     "country": "FR",
     "region": "Pays de la Loire",
     "domain": "saint-herblain.fr",
-    "osm_relation_id": 64362
+    "osm_relation_id": 64362,
+    "population": 50973
   },
   {
     "id": "FR-44184",
@@ -1277,7 +1436,8 @@
     "country": "FR",
     "region": "Pays de la Loire",
     "domain": "saintnazaire.fr",
-    "osm_relation_id": 182415
+    "osm_relation_id": 182415,
+    "population": 74568
   },
   {
     "id": "FR-45234",
@@ -1285,7 +1445,8 @@
     "country": "FR",
     "region": "Centre-Val de Loire",
     "domain": "orleans-metropole.fr",
-    "osm_relation_id": 147559
+    "osm_relation_id": 147559,
+    "population": 116357
   },
   {
     "id": "FR-46042",
@@ -1293,7 +1454,8 @@
     "country": "FR",
     "region": "Occitanie",
     "domain": "cahors.fr",
-    "osm_relation_id": 122324
+    "osm_relation_id": 122324,
+    "population": 20050
   },
   {
     "id": "FR-47001",
@@ -1301,7 +1463,8 @@
     "country": "FR",
     "region": "Nouvelle-Aquitaine",
     "domain": "agen.fr",
-    "osm_relation_id": 146357
+    "osm_relation_id": 146357,
+    "population": 32801
   },
   {
     "id": "FR-48095",
@@ -1309,7 +1472,8 @@
     "country": "FR",
     "region": "Occitanie",
     "domain": "mende.fr",
-    "osm_relation_id": 287404
+    "osm_relation_id": 287404,
+    "population": 12464
   },
   {
     "id": "FR-49007",
@@ -1317,7 +1481,8 @@
     "country": "FR",
     "region": "Pays de la Loire",
     "domain": "angers.fr",
-    "osm_relation_id": 178351
+    "osm_relation_id": 178351,
+    "population": 159022
   },
   {
     "id": "FR-49099",
@@ -1325,7 +1490,8 @@
     "country": "FR",
     "region": "Pays de la Loire",
     "domain": "cholet.fr",
-    "osm_relation_id": 286516
+    "osm_relation_id": 286516,
+    "population": 54404
   },
   {
     "id": "FR-50129",
@@ -1333,7 +1499,8 @@
     "country": "FR",
     "region": "Normandie",
     "domain": "cherbourg.fr",
-    "osm_relation_id": 5812062
+    "osm_relation_id": 5812062,
+    "population": 78258
   },
   {
     "id": "FR-50502",
@@ -1341,7 +1508,8 @@
     "country": "FR",
     "region": "Normandie",
     "domain": "saint-lo.fr",
-    "osm_relation_id": 404816
+    "osm_relation_id": 404816,
+    "population": 19471
   },
   {
     "id": "FR-51108",
@@ -1349,7 +1517,8 @@
     "country": "FR",
     "region": "Grand Est",
     "domain": "chalonsenchampagne.fr",
-    "osm_relation_id": 417365
+    "osm_relation_id": 417365,
+    "population": 42971
   },
   {
     "id": "FR-51454",
@@ -1357,7 +1526,8 @@
     "country": "FR",
     "region": "Grand Est",
     "domain": "reims.fr",
-    "osm_relation_id": 36458
+    "osm_relation_id": 36458,
+    "population": 177674
   },
   {
     "id": "FR-52121",
@@ -1365,7 +1535,8 @@
     "country": "FR",
     "region": "Grand Est",
     "domain": "ville-chaumont.fr",
-    "osm_relation_id": 904595
+    "osm_relation_id": 904595,
+    "population": 20827
   },
   {
     "id": "FR-53130",
@@ -1373,7 +1544,8 @@
     "country": "FR",
     "region": "Pays de la Loire",
     "domain": "laval.fr",
-    "osm_relation_id": 393284
+    "osm_relation_id": 393284,
+    "population": 49400
   },
   {
     "id": "FR-54395",
@@ -1381,7 +1553,8 @@
     "country": "FR",
     "region": "Grand Est",
     "domain": "nancy.fr",
-    "osm_relation_id": 52399
+    "osm_relation_id": 52399,
+    "population": 103671
   },
   {
     "id": "FR-55029",
@@ -1389,7 +1562,8 @@
     "country": "FR",
     "region": "Grand Est",
     "domain": "barleduc.fr",
-    "osm_relation_id": 2106627
+    "osm_relation_id": 2106627,
+    "population": 14607
   },
   {
     "id": "FR-56121",
@@ -1397,7 +1571,8 @@
     "country": "FR",
     "region": "Bretagne",
     "domain": "lorient.bzh",
-    "osm_relation_id": 30305
+    "osm_relation_id": 30305,
+    "population": 58329
   },
   {
     "id": "FR-56260",
@@ -1405,7 +1580,8 @@
     "country": "FR",
     "region": "Bretagne",
     "domain": "vannes.fr",
-    "osm_relation_id": 192306
+    "osm_relation_id": 192306,
+    "population": 55790
   },
   {
     "id": "FR-57463",
@@ -1413,7 +1589,8 @@
     "country": "FR",
     "region": "Grand Est",
     "domain": "metz.fr",
-    "osm_relation_id": 450381
+    "osm_relation_id": 450381,
+    "population": 122572
   },
   {
     "id": "FR-58194",
@@ -1421,7 +1598,8 @@
     "country": "FR",
     "region": "Bourgogne-Franche-Comté",
     "domain": "nevers.fr",
-    "osm_relation_id": 161753
+    "osm_relation_id": 161753,
+    "population": 33085
   },
   {
     "id": "FR-59009",
@@ -1429,7 +1607,8 @@
     "country": "FR",
     "region": "Hauts-de-France",
     "domain": "villeneuvedascq.fr",
-    "osm_relation_id": 58213
+    "osm_relation_id": 58213,
+    "population": 62868
   },
   {
     "id": "FR-59183",
@@ -1437,7 +1616,8 @@
     "country": "FR",
     "region": "Hauts-de-France",
     "domain": "ville-dunkerque.fr",
-    "osm_relation_id": 139610
+    "osm_relation_id": 139610,
+    "population": 86263
   },
   {
     "id": "FR-59350",
@@ -1445,7 +1625,8 @@
     "country": "FR",
     "region": "Hauts-de-France",
     "domain": "lille.fr",
-    "osm_relation_id": 58404
+    "osm_relation_id": 58404,
+    "population": 238246
   },
   {
     "id": "FR-59512",
@@ -1453,7 +1634,8 @@
     "country": "FR",
     "region": "Hauts-de-France",
     "domain": "ville-roubaix.fr",
-    "osm_relation_id": 59043
+    "osm_relation_id": 59043,
+    "population": 98286
   },
   {
     "id": "FR-59599",
@@ -1461,7 +1643,8 @@
     "country": "FR",
     "region": "Hauts-de-France",
     "domain": "tourcoing.fr",
-    "osm_relation_id": 59551
+    "osm_relation_id": 59551,
+    "population": 98772
   },
   {
     "id": "FR-60057",
@@ -1469,7 +1652,8 @@
     "country": "FR",
     "region": "Hauts-de-France",
     "domain": "beauvais.fr",
-    "osm_relation_id": 158311
+    "osm_relation_id": 158311,
+    "population": 55550
   },
   {
     "id": "FR-61001",
@@ -1477,7 +1661,8 @@
     "country": "FR",
     "region": "Normandie",
     "domain": "alencon.fr",
-    "osm_relation_id": 553607
+    "osm_relation_id": 553607,
+    "population": 25490
   },
   {
     "id": "FR-62041",
@@ -1485,7 +1670,8 @@
     "country": "FR",
     "region": "Hauts-de-France",
     "domain": "arras.fr",
-    "osm_relation_id": 1121015
+    "osm_relation_id": 1121015,
+    "population": 42875
   },
   {
     "id": "FR-62193",
@@ -1493,7 +1679,8 @@
     "country": "FR",
     "region": "Hauts-de-France",
     "domain": "calais.fr",
-    "osm_relation_id": 286380
+    "osm_relation_id": 286380,
+    "population": 67571
   },
   {
     "id": "FR-63113",
@@ -1501,7 +1688,8 @@
     "country": "FR",
     "region": "Auvergne-Rhône-Alpes",
     "domain": "clermontferrand.fr",
-    "osm_relation_id": 110866
+    "osm_relation_id": 110866,
+    "population": 146351
   },
   {
     "id": "FR-64102",
@@ -1509,7 +1697,8 @@
     "country": "FR",
     "region": "Nouvelle-Aquitaine",
     "domain": "bayonne.fr",
-    "osm_relation_id": 166713
+    "osm_relation_id": 166713,
+    "population": 54306
   },
   {
     "id": "FR-64445",
@@ -1517,7 +1706,8 @@
     "country": "FR",
     "region": "Nouvelle-Aquitaine",
     "domain": "pau.fr",
-    "osm_relation_id": 162431
+    "osm_relation_id": 162431,
+    "population": 80441
   },
   {
     "id": "FR-65440",
@@ -1525,7 +1715,8 @@
     "country": "FR",
     "region": "Occitanie",
     "domain": "tarbes.fr",
-    "osm_relation_id": 159060
+    "osm_relation_id": 159060,
+    "population": 44399
   },
   {
     "id": "FR-66136",
@@ -1533,7 +1724,8 @@
     "country": "FR",
     "region": "Occitanie",
     "domain": "perpignan.fr",
-    "osm_relation_id": 18000
+    "osm_relation_id": 18000,
+    "population": 121616
   },
   {
     "id": "FR-67482",
@@ -1541,7 +1733,8 @@
     "country": "FR",
     "region": "Grand Est",
     "domain": "strasbourg.eu",
-    "osm_relation_id": 71033
+    "osm_relation_id": 71033,
+    "population": 293771
   },
   {
     "id": "FR-68066",
@@ -1549,7 +1742,8 @@
     "country": "FR",
     "region": "Grand Est",
     "domain": "colmar.fr",
-    "osm_relation_id": 61423
+    "osm_relation_id": 61423,
+    "population": 66970
   },
   {
     "id": "FR-68224",
@@ -1557,7 +1751,8 @@
     "country": "FR",
     "region": "Grand Est",
     "domain": "mulhouse.fr",
-    "osm_relation_id": 38246
+    "osm_relation_id": 38246,
+    "population": 104978
   },
   {
     "id": "FR-69123",
@@ -1565,7 +1760,8 @@
     "country": "FR",
     "region": "Auvergne-Rhône-Alpes",
     "domain": "lyon.fr",
-    "osm_relation_id": 120965
+    "osm_relation_id": 120965,
+    "population": 519127
   },
   {
     "id": "FR-69256",
@@ -1573,7 +1769,8 @@
     "country": "FR",
     "region": "Auvergne-Rhône-Alpes",
     "domain": "vaulx-en-velin.net",
-    "osm_relation_id": 112529
+    "osm_relation_id": 112529,
+    "population": 53069
   },
   {
     "id": "FR-69259",
@@ -1581,7 +1778,8 @@
     "country": "FR",
     "region": "Auvergne-Rhône-Alpes",
     "domain": "venissieux.fr",
-    "osm_relation_id": 164210
+    "osm_relation_id": 164210,
+    "population": 65502
   },
   {
     "id": "FR-69266",
@@ -1589,7 +1787,8 @@
     "country": "FR",
     "region": "Auvergne-Rhône-Alpes",
     "domain": "villeurbanne.fr",
-    "osm_relation_id": 120989
+    "osm_relation_id": 120989,
+    "population": 163684
   },
   {
     "id": "FR-70550",
@@ -1597,7 +1796,8 @@
     "country": "FR",
     "region": "Bourgogne-Franche-Comté",
     "domain": "vesoul.fr",
-    "osm_relation_id": 152354
+    "osm_relation_id": 152354,
+    "population": 15078
   },
   {
     "id": "FR-71270",
@@ -1605,7 +1805,8 @@
     "country": "FR",
     "region": "Bourgogne-Franche-Comté",
     "domain": "macon.fr",
-    "osm_relation_id": 912201
+    "osm_relation_id": 912201,
+    "population": 35177
   },
   {
     "id": "FR-72181",
@@ -1613,7 +1814,8 @@
     "country": "FR",
     "region": "Pays de la Loire",
     "domain": "lemans.fr",
-    "osm_relation_id": 107435
+    "osm_relation_id": 107435,
+    "population": 146249
   },
   {
     "id": "FR-73065",
@@ -1621,7 +1823,8 @@
     "country": "FR",
     "region": "Auvergne-Rhône-Alpes",
     "domain": "chambery.fr",
-    "osm_relation_id": 1670129
+    "osm_relation_id": 1670129,
+    "population": 292832
   },
   {
     "id": "FR-74010",
@@ -1629,7 +1832,8 @@
     "country": "FR",
     "region": "Auvergne-Rhône-Alpes",
     "domain": "annecy.fr",
-    "osm_relation_id": 6791758
+    "osm_relation_id": 6791758,
+    "population": 132117
   },
   {
     "id": "FR-75056",
@@ -1637,7 +1841,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "paris.fr",
-    "osm_relation_id": 7444
+    "osm_relation_id": 7444,
+    "population": 2103778
   },
   {
     "id": "FR-76351",
@@ -1645,7 +1850,8 @@
     "country": "FR",
     "region": "Normandie",
     "domain": "lehavre.fr",
-    "osm_relation_id": 104492
+    "osm_relation_id": 104492,
+    "population": 166687
   },
   {
     "id": "FR-76540",
@@ -1653,7 +1859,8 @@
     "country": "FR",
     "region": "Normandie",
     "domain": "rouen.fr",
-    "osm_relation_id": 75628
+    "osm_relation_id": 75628,
+    "population": 117662
   },
   {
     "id": "FR-77108",
@@ -1661,7 +1868,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "chelles.fr",
-    "osm_relation_id": 402614
+    "osm_relation_id": 402614,
+    "population": 54620
   },
   {
     "id": "FR-77284",
@@ -1669,7 +1877,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "ville-meaux.fr",
-    "osm_relation_id": 86609
+    "osm_relation_id": 86609,
+    "population": 56905
   },
   {
     "id": "FR-77288",
@@ -1677,7 +1886,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "melun.fr",
-    "osm_relation_id": 80071
+    "osm_relation_id": 80071,
+    "population": 45995
   },
   {
     "id": "FR-78586",
@@ -1685,7 +1895,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "sartrouville.fr",
-    "osm_relation_id": 75022
+    "osm_relation_id": 75022,
+    "population": 52763
   },
   {
     "id": "FR-78646",
@@ -1693,7 +1904,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "versailles.fr",
-    "osm_relation_id": 30295
+    "osm_relation_id": 30295,
+    "population": 84095
   },
   {
     "id": "FR-79191",
@@ -1701,7 +1913,8 @@
     "country": "FR",
     "region": "Nouvelle-Aquitaine",
     "domain": "niort.fr",
-    "osm_relation_id": 150303
+    "osm_relation_id": 150303,
+    "population": 59854
   },
   {
     "id": "FR-80021",
@@ -1709,7 +1922,8 @@
     "country": "FR",
     "region": "Hauts-de-France",
     "domain": "amiens.fr",
-    "osm_relation_id": 114347
+    "osm_relation_id": 114347,
+    "population": 136449
   },
   {
     "id": "FR-81004",
@@ -1717,7 +1931,8 @@
     "country": "FR",
     "region": "Occitanie",
     "domain": "mairie-albi.fr",
-    "osm_relation_id": 135628
+    "osm_relation_id": 135628,
+    "population": 51290
   },
   {
     "id": "FR-82121",
@@ -1725,7 +1940,8 @@
     "country": "FR",
     "region": "Occitanie",
     "domain": "montauban.fr",
-    "osm_relation_id": 137735
+    "osm_relation_id": 137735,
+    "population": 62945
   },
   {
     "id": "FR-83061",
@@ -1733,7 +1949,8 @@
     "country": "FR",
     "region": "Provence-Alpes-Côte d'Azur",
     "domain": "ville-frejus.fr",
-    "osm_relation_id": 186322
+    "osm_relation_id": 186322,
+    "population": 59719
   },
   {
     "id": "FR-83069",
@@ -1741,7 +1958,8 @@
     "country": "FR",
     "region": "Provence-Alpes-Côte d'Azur",
     "domain": "hyeres.fr",
-    "osm_relation_id": 380060
+    "osm_relation_id": 380060,
+    "population": 55858
   },
   {
     "id": "FR-83126",
@@ -1749,7 +1967,8 @@
     "country": "FR",
     "region": "Provence-Alpes-Côte d'Azur",
     "domain": "la-seyne.fr",
-    "osm_relation_id": 29188
+    "osm_relation_id": 29188,
+    "population": 63732
   },
   {
     "id": "FR-83137",
@@ -1757,7 +1976,8 @@
     "country": "FR",
     "region": "Provence-Alpes-Côte d'Azur",
     "domain": "toulon.fr",
-    "osm_relation_id": 35280
+    "osm_relation_id": 35280,
+    "population": 179116
   },
   {
     "id": "FR-84007",
@@ -1765,7 +1985,8 @@
     "country": "FR",
     "region": "Provence-Alpes-Côte d'Azur",
     "domain": "avignon.fr",
-    "osm_relation_id": 102478
+    "osm_relation_id": 102478,
+    "population": 92188
   },
   {
     "id": "FR-85191",
@@ -1773,7 +1994,8 @@
     "country": "FR",
     "region": "Pays de la Loire",
     "domain": "larochesuryon.fr",
-    "osm_relation_id": 166641
+    "osm_relation_id": 166641,
+    "population": 54849
   },
   {
     "id": "FR-86194",
@@ -1781,7 +2003,8 @@
     "country": "FR",
     "region": "Nouvelle-Aquitaine",
     "domain": "poitiers.fr",
-    "osm_relation_id": 132348
+    "osm_relation_id": 132348,
+    "population": 89916
   },
   {
     "id": "FR-87085",
@@ -1789,7 +2012,8 @@
     "country": "FR",
     "region": "Nouvelle-Aquitaine",
     "domain": "limoges.fr",
-    "osm_relation_id": 114172
+    "osm_relation_id": 114172,
+    "population": 129937
   },
   {
     "id": "FR-88160",
@@ -1797,7 +2021,8 @@
     "country": "FR",
     "region": "Grand Est",
     "domain": "epinal.fr",
-    "osm_relation_id": 78828
+    "osm_relation_id": 78828,
+    "population": 32251
   },
   {
     "id": "FR-89024",
@@ -1805,7 +2030,8 @@
     "country": "FR",
     "region": "Bourgogne-Franche-Comté",
     "domain": "auxerre.fr",
-    "osm_relation_id": 282525
+    "osm_relation_id": 282525,
+    "population": 35097
   },
   {
     "id": "FR-90010",
@@ -1813,7 +2039,8 @@
     "country": "FR",
     "region": "Bourgogne-Franche-Comté",
     "domain": "ville-belfort.fr",
-    "osm_relation_id": 75618
+    "osm_relation_id": 75618,
+    "population": 45912
   },
   {
     "id": "FR-91174",
@@ -1821,7 +2048,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "corbeil-essonnes.fr",
-    "osm_relation_id": 149203
+    "osm_relation_id": 149203,
+    "population": 54471
   },
   {
     "id": "FR-91228",
@@ -1829,7 +2057,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "evry-courcouronnes.fr",
-    "osm_relation_id": 90335
+    "osm_relation_id": 90335,
+    "population": 53641
   },
   {
     "id": "FR-91377",
@@ -1837,7 +2066,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "ville-massy.fr",
-    "osm_relation_id": 29251
+    "osm_relation_id": 29251,
+    "population": 51729
   },
   {
     "id": "FR-92002",
@@ -1845,7 +2075,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "ville-antony.fr",
-    "osm_relation_id": 57750
+    "osm_relation_id": 57750,
+    "population": 64263
   },
   {
     "id": "FR-92004",
@@ -1853,7 +2084,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "asnieres-sur-seine.fr",
-    "osm_relation_id": 91641
+    "osm_relation_id": 91641,
+    "population": 93941
   },
   {
     "id": "FR-92012",
@@ -1861,7 +2093,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "boulognebillancourt.com",
-    "osm_relation_id": 72020
+    "osm_relation_id": 72020,
+    "population": 119019
   },
   {
     "id": "FR-92023",
@@ -1869,7 +2102,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "clamart.fr",
-    "osm_relation_id": 29036
+    "osm_relation_id": 29036,
+    "population": 58576
   },
   {
     "id": "FR-92024",
@@ -1877,7 +2111,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "ville-clichy.fr",
-    "osm_relation_id": 86999
+    "osm_relation_id": 86999,
+    "population": 64410
   },
   {
     "id": "FR-92025",
@@ -1885,7 +2120,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "colombes.fr",
-    "osm_relation_id": 91738
+    "osm_relation_id": 91738,
+    "population": 91053
   },
   {
     "id": "FR-92026",
@@ -1893,7 +2129,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "ville-courbevoie.fr",
-    "osm_relation_id": 91768
+    "osm_relation_id": 91768,
+    "population": 82902
   },
   {
     "id": "FR-92036",
@@ -1901,7 +2138,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "ville-gennevilliers.fr",
-    "osm_relation_id": 90082
+    "osm_relation_id": 90082,
+    "population": 50979
   },
   {
     "id": "FR-92040",
@@ -1909,7 +2147,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "issy.com",
-    "osm_relation_id": 85527
+    "osm_relation_id": 85527,
+    "population": 67669
   },
   {
     "id": "FR-92044",
@@ -1917,7 +2156,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "ville-levallois.fr",
-    "osm_relation_id": 86985
+    "osm_relation_id": 86985,
+    "population": 68092
   },
   {
     "id": "FR-92050",
@@ -1925,7 +2165,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "nanterre.fr",
-    "osm_relation_id": 85799
+    "osm_relation_id": 85799,
+    "population": 97783
   },
   {
     "id": "FR-92051",
@@ -1933,7 +2174,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "neuillysurseine.fr",
-    "osm_relation_id": 85802
+    "osm_relation_id": 85802,
+    "population": 59538
   },
   {
     "id": "FR-92063",
@@ -1941,7 +2183,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "rueil-tourisme.com",
-    "osm_relation_id": 72261
+    "osm_relation_id": 72261,
+    "population": 82874
   },
   {
     "id": "FR-93001",
@@ -1949,7 +2192,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "aubervilliers.fr",
-    "osm_relation_id": 87628
+    "osm_relation_id": 87628,
+    "population": 88365
   },
   {
     "id": "FR-93005",
@@ -1957,7 +2201,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "aulnay-sous-bois.fr",
-    "osm_relation_id": 162259
+    "osm_relation_id": 162259,
+    "population": 87599
   },
   {
     "id": "FR-93007",
@@ -1965,7 +2210,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "blancmesnil.fr",
-    "osm_relation_id": 162209
+    "osm_relation_id": 162209,
+    "population": 62376
   },
   {
     "id": "FR-93008",
@@ -1973,7 +2219,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "bobigny.fr",
-    "osm_relation_id": 131240
+    "osm_relation_id": 131240,
+    "population": 56927
   },
   {
     "id": "FR-93010",
@@ -1981,7 +2228,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "ville-bondy.fr",
-    "osm_relation_id": 158667
+    "osm_relation_id": 158667,
+    "population": 50595
   },
   {
     "id": "FR-93029",
@@ -1989,7 +2237,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "drancy.fr",
-    "osm_relation_id": 158481
+    "osm_relation_id": 158481,
+    "population": 72390
   },
   {
     "id": "FR-93031",
@@ -1997,7 +2246,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "epinay-sur-seine.fr",
-    "osm_relation_id": 162856
+    "osm_relation_id": 162856,
+    "population": 52833
   },
   {
     "id": "FR-93048",
@@ -2005,7 +2255,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "montreuil.fr",
-    "osm_relation_id": 129423
+    "osm_relation_id": 129423,
+    "population": 111934
   },
   {
     "id": "FR-93051",
@@ -2013,7 +2264,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "noisylegrand.fr",
-    "osm_relation_id": 130492
+    "osm_relation_id": 130492,
+    "population": 72978
   },
   {
     "id": "FR-93055",
@@ -2021,7 +2273,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "pantin.fr",
-    "osm_relation_id": 67685
+    "osm_relation_id": 67685,
+    "population": 61929
   },
   {
     "id": "FR-93066",
@@ -2029,7 +2282,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "saint-denis.fr",
-    "osm_relation_id": 18476624
+    "osm_relation_id": 18476624,
+    "population": 149077
   },
   {
     "id": "FR-93070",
@@ -2037,7 +2291,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "saint-ouen.fr",
-    "osm_relation_id": 87002
+    "osm_relation_id": 87002,
+    "population": 53615
   },
   {
     "id": "FR-93071",
@@ -2045,7 +2300,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "ville-sevran.fr",
-    "osm_relation_id": 162527
+    "osm_relation_id": 162527,
+    "population": 52535
   },
   {
     "id": "FR-94017",
@@ -2053,7 +2309,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "champignysurmarne.fr",
-    "osm_relation_id": 106735
+    "osm_relation_id": 106735,
+    "population": 78072
   },
   {
     "id": "FR-94028",
@@ -2061,7 +2318,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "creteil.fr",
-    "osm_relation_id": 105389
+    "osm_relation_id": 105389,
+    "population": 93397
   },
   {
     "id": "FR-94033",
@@ -2069,7 +2327,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "fontenay.fr",
-    "osm_relation_id": 109366
+    "osm_relation_id": 109366,
+    "population": 53757
   },
   {
     "id": "FR-94041",
@@ -2077,7 +2336,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "ivry94.fr",
-    "osm_relation_id": 105748
+    "osm_relation_id": 105748,
+    "population": 65064
   },
   {
     "id": "FR-94046",
@@ -2085,7 +2345,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "maisons-alfort.fr",
-    "osm_relation_id": 105404
+    "osm_relation_id": 105404,
+    "population": 56799
   },
   {
     "id": "FR-94068",
@@ -2093,7 +2354,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "saint-maur.com",
-    "osm_relation_id": 50964
+    "osm_relation_id": 50964,
+    "population": 76572
   },
   {
     "id": "FR-94076",
@@ -2101,7 +2363,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "villejuif.fr",
-    "osm_relation_id": 105146
+    "osm_relation_id": 105146,
+    "population": 60183
   },
   {
     "id": "FR-94081",
@@ -2109,7 +2372,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "vitry94.fr",
-    "osm_relation_id": 104768
+    "osm_relation_id": 104768,
+    "population": 93963
   },
   {
     "id": "FR-95018",
@@ -2117,7 +2381,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "argenteuil.fr",
-    "osm_relation_id": 103245
+    "osm_relation_id": 103245,
+    "population": 106130
   },
   {
     "id": "FR-95127",
@@ -2125,7 +2390,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "cergy.fr",
-    "osm_relation_id": 120955
+    "osm_relation_id": 120955,
+    "population": 70906
   },
   {
     "id": "FR-95500",
@@ -2133,7 +2399,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "ville-pontoise.fr",
-    "osm_relation_id": 120958
+    "osm_relation_id": 120958,
+    "population": 31970
   },
   {
     "id": "FR-95585",
@@ -2141,7 +2408,8 @@
     "country": "FR",
     "region": "Île-de-France",
     "domain": "sarcelles.fr",
-    "osm_relation_id": 222531
+    "osm_relation_id": 222531,
+    "population": 59173
   },
   {
     "id": "FR-97101",
@@ -2149,7 +2417,8 @@
     "country": "FR",
     "region": "Guadeloupe",
     "domain": "abymes.fr",
-    "osm_relation_id": 239133
+    "osm_relation_id": 239133,
+    "population": 51055
   },
   {
     "id": "FR-97209",
@@ -2157,7 +2426,8 @@
     "country": "FR",
     "region": "Martinique",
     "domain": "fortdefrance.fr",
-    "osm_relation_id": 290031
+    "osm_relation_id": 290031,
+    "population": 75506
   },
   {
     "id": "FR-97302",
@@ -2165,7 +2435,8 @@
     "country": "FR",
     "region": "Guyane",
     "domain": "ville-cayenne.com",
-    "osm_relation_id": 1663791
+    "osm_relation_id": 1663791,
+    "population": 62675
   },
   {
     "id": "FR-97311",
@@ -2173,7 +2444,8 @@
     "country": "FR",
     "region": "Guyane",
     "domain": "saintlaurentdumaroni.fr",
-    "osm_relation_id": 1663806
+    "osm_relation_id": 1663806,
+    "population": 54429
   },
   {
     "id": "FR-97409",
@@ -2181,7 +2453,8 @@
     "country": "FR",
     "region": "La Réunion",
     "domain": "saint-andre.re",
-    "osm_relation_id": 280118
+    "osm_relation_id": 280118,
+    "population": 58885
   },
   {
     "id": "FR-97411",
@@ -2189,7 +2462,8 @@
     "country": "FR",
     "region": "La Réunion",
     "domain": "saintdenis.re",
-    "osm_relation_id": 192468
+    "osm_relation_id": 192468,
+    "population": 155634
   },
   {
     "id": "FR-97414",
@@ -2197,7 +2471,8 @@
     "country": "FR",
     "region": "La Réunion",
     "domain": "saintlouis.re",
-    "osm_relation_id": 1282229
+    "osm_relation_id": 1282229,
+    "population": 54941
   },
   {
     "id": "FR-97415",
@@ -2205,7 +2480,8 @@
     "country": "FR",
     "region": "La Réunion",
     "domain": "mairie-saintpaul.re",
-    "osm_relation_id": 278308
+    "osm_relation_id": 278308,
+    "population": 108088
   },
   {
     "id": "FR-97416",
@@ -2213,7 +2489,8 @@
     "country": "FR",
     "region": "La Réunion",
     "domain": "saintpierre.re",
-    "osm_relation_id": 315484
+    "osm_relation_id": 315484,
+    "population": 85038
   },
   {
     "id": "FR-97422",
@@ -2221,7 +2498,8 @@
     "country": "FR",
     "region": "La Réunion",
     "domain": "letampon.fr",
-    "osm_relation_id": 317239
+    "osm_relation_id": 317239,
+    "population": 82579
   },
   {
     "id": "FR-97611",
@@ -2229,6 +2507,7 @@
     "country": "FR",
     "region": "Mayotte",
     "domain": "mamoudzou.yt",
-    "osm_relation_id": 3366531
+    "osm_relation_id": 3366531,
+    "population": 71437
   }
 ]

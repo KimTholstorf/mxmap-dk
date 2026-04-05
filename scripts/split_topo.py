@@ -206,6 +206,36 @@ COUNTRIES = [
     "ZA",
     "ZM",
     "ZW",
+    # Caribbean
+    "CU",
+    "HT",
+    "DO",
+    "JM",
+    "TT",
+    "BS",
+    "BB",
+    "AG",
+    "DM",
+    "GD",
+    "KN",
+    "LC",
+    "VC",
+    # Asia (additional)
+    "AF",
+    "SG",
+    "YE",
+    "SY",
+    "PS",
+    "TJ",
+    "TM",
+    "MV",
+    "BT",
+    # Oceania (additional)
+    "SB",
+    "MH",
+    "FM",
+    "KI",
+    "TV",
 ]
 
 # Which conceptual level maps to which file level per country.
@@ -434,6 +464,36 @@ LEVEL_MAP = {
     "ZA": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     "ZM": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     "ZW": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    # Caribbean
+    "CU": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "HT": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "DO": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "JM": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "TT": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "BS": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "BB": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "AG": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "DM": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "GD": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "KN": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "LC": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "VC": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    # Asia (additional)
+    "AF": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "SG": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "YE": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "SY": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "PS": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "TJ": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "TM": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "MV": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "BT": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    # Oceania (additional)
+    "SB": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "MH": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "FM": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "KI": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "TV": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
 }
 
 

@@ -1,0 +1,344 @@
+[
+  {
+    "id": "HT-001",
+    "name": "Acul-du-Nord Arrondissement",
+    "country": "HT",
+    "region": "Nord",
+    "domain": "",
+    "osm_relation_id": 394463
+  },
+  {
+    "id": "HT-002",
+    "name": "Anse d'Hainault Arrondissement",
+    "country": "HT",
+    "region": "Grand'Anse",
+    "domain": "",
+    "osm_relation_id": 393396
+  },
+  {
+    "id": "HT-003",
+    "name": "Anse-à-Veau Arrondissement",
+    "country": "HT",
+    "region": "Nippes",
+    "domain": "",
+    "osm_relation_id": 393324
+  },
+  {
+    "id": "HT-004",
+    "name": "Aquin Arrondissement",
+    "country": "HT",
+    "region": "Sud",
+    "domain": "",
+    "osm_relation_id": 394517
+  },
+  {
+    "id": "HT-005",
+    "name": "Arcahaie Arrondissement",
+    "country": "HT",
+    "region": "Ouest",
+    "domain": "",
+    "osm_relation_id": 387690
+  },
+  {
+    "id": "HT-006",
+    "name": "Bainet Arrondissement",
+    "country": "HT",
+    "region": "Sud-Est",
+    "domain": "",
+    "osm_relation_id": 394504
+  },
+  {
+    "id": "HT-007",
+    "name": "Baradères Arrondissement",
+    "country": "HT",
+    "region": "Nippes",
+    "domain": ""
+  },
+  {
+    "id": "HT-008",
+    "name": "Belle-Anse Arrondissement",
+    "country": "HT",
+    "region": "Sud-Est",
+    "domain": "",
+    "osm_relation_id": 394505
+  },
+  {
+    "id": "HT-009",
+    "name": "Borgne Arrondissement",
+    "country": "HT",
+    "region": "Nord",
+    "domain": "",
+    "osm_relation_id": 394465
+  },
+  {
+    "id": "HT-010",
+    "name": "Cap-Haïtien Arrondissement",
+    "country": "HT",
+    "region": "Nord",
+    "domain": "",
+    "osm_relation_id": 394467
+  },
+  {
+    "id": "HT-011",
+    "name": "Cerca-la-Source Arrondissement",
+    "country": "HT",
+    "region": "Centre",
+    "domain": "",
+    "osm_relation_id": 393483
+  },
+  {
+    "id": "HT-012",
+    "name": "Chardonnières Arrondissement",
+    "country": "HT",
+    "region": "Sud",
+    "domain": "",
+    "osm_relation_id": 394519
+  },
+  {
+    "id": "HT-013",
+    "name": "Corail Arrondissement",
+    "country": "HT",
+    "region": "Grand'Anse",
+    "domain": "",
+    "osm_relation_id": 393435
+  },
+  {
+    "id": "HT-014",
+    "name": "Croix-des-Bouquets Arrondissement",
+    "country": "HT",
+    "region": "Ouest",
+    "domain": "",
+    "osm_relation_id": 393329
+  },
+  {
+    "id": "HT-015",
+    "name": "Dessalines Arrondissement",
+    "country": "HT",
+    "region": "Artibonite",
+    "domain": "",
+    "osm_relation_id": 392354
+  },
+  {
+    "id": "HT-016",
+    "name": "Fort-Liberté Arrondissement",
+    "country": "HT",
+    "region": "Nord-Est",
+    "domain": "",
+    "osm_relation_id": 394452
+  },
+  {
+    "id": "HT-017",
+    "name": "Gonaïves Arrondissement",
+    "country": "HT",
+    "region": "Artibonite",
+    "domain": "",
+    "osm_relation_id": 392359
+  },
+  {
+    "id": "HT-018",
+    "name": "Gonâve Island",
+    "country": "HT",
+    "region": "Ouest",
+    "domain": "",
+    "osm_relation_id": 7165492,
+    "population": 79188
+  },
+  {
+    "id": "HT-019",
+    "name": "Grande-Rivière-du-Nord Arrondissement",
+    "country": "HT",
+    "region": "Nord",
+    "domain": "",
+    "osm_relation_id": 394488
+  },
+  {
+    "id": "HT-020",
+    "name": "Gros-Morne Arrondissement",
+    "country": "HT",
+    "region": "Artibonite",
+    "domain": ""
+  },
+  {
+    "id": "HT-021",
+    "name": "Hinche Arrondissement",
+    "country": "HT",
+    "region": "Centre",
+    "domain": "",
+    "osm_relation_id": 393486
+  },
+  {
+    "id": "HT-022",
+    "name": "Jacmel Arrondissement",
+    "country": "HT",
+    "region": "Sud-Est",
+    "domain": "",
+    "osm_relation_id": 394516
+  },
+  {
+    "id": "HT-023",
+    "name": "Jérémie Arrondissement",
+    "country": "HT",
+    "region": "Grand'Anse",
+    "domain": "",
+    "osm_relation_id": 393437
+  },
+  {
+    "id": "HT-024",
+    "name": "La Gonâve Arrondissement",
+    "country": "HT",
+    "region": "Ouest",
+    "domain": ""
+  },
+  {
+    "id": "HT-025",
+    "name": "Lascahobas Arrondissement",
+    "country": "HT",
+    "region": "Centre",
+    "domain": "",
+    "osm_relation_id": 393488
+  },
+  {
+    "id": "HT-026",
+    "name": "Les Cayes Arrondissement",
+    "country": "HT",
+    "region": "Sud",
+    "domain": "",
+    "osm_relation_id": 394518
+  },
+  {
+    "id": "HT-027",
+    "name": "Les Côteaux Arrondissement",
+    "country": "HT",
+    "region": "Sud",
+    "domain": "",
+    "osm_relation_id": 394521
+  },
+  {
+    "id": "HT-028",
+    "name": "Limbé Arrondissement",
+    "country": "HT",
+    "region": "Nord",
+    "domain": "",
+    "osm_relation_id": 394493
+  },
+  {
+    "id": "HT-029",
+    "name": "Léogâne Arrondissement",
+    "country": "HT",
+    "region": "Ouest",
+    "domain": "",
+    "osm_relation_id": 387650
+  },
+  {
+    "id": "HT-030",
+    "name": "Marmelade Arrondissement",
+    "country": "HT",
+    "region": "Artibonite",
+    "domain": "",
+    "osm_relation_id": 392363
+  },
+  {
+    "id": "HT-031",
+    "name": "Miragoâne Arrondissement",
+    "country": "HT",
+    "region": "Nippes",
+    "domain": "",
+    "osm_relation_id": 393320
+  },
+  {
+    "id": "HT-032",
+    "name": "Mirebalais Arrondissement",
+    "country": "HT",
+    "region": "Centre",
+    "domain": "",
+    "osm_relation_id": 393492
+  },
+  {
+    "id": "HT-033",
+    "name": "Môle-Saint-Nicolas Arrondissement",
+    "country": "HT",
+    "region": "Nord-Ouest",
+    "domain": "",
+    "osm_relation_id": 4556037
+  },
+  {
+    "id": "HT-034",
+    "name": "Ouanaminthe Arrondissement",
+    "country": "HT",
+    "region": "Nord-Est",
+    "domain": "",
+    "osm_relation_id": 394456
+  },
+  {
+    "id": "HT-035",
+    "name": "Plaisance Arrondissement",
+    "country": "HT",
+    "region": "Nord",
+    "domain": "",
+    "osm_relation_id": 394494
+  },
+  {
+    "id": "HT-036",
+    "name": "Port-Salut Arrondissement",
+    "country": "HT",
+    "region": "Sud",
+    "domain": "",
+    "osm_relation_id": 394522
+  },
+  {
+    "id": "HT-037",
+    "name": "Port-au-Prince Arrondissement",
+    "country": "HT",
+    "region": "Ouest",
+    "domain": ""
+  },
+  {
+    "id": "HT-038",
+    "name": "Port-de-Paix Arrondissement",
+    "country": "HT",
+    "region": "Nord-Ouest",
+    "domain": "",
+    "osm_relation_id": 393379
+  },
+  {
+    "id": "HT-039",
+    "name": "Saint-Louis-du-Nord Arrondissement",
+    "country": "HT",
+    "region": "Nord-Ouest",
+    "domain": "",
+    "osm_relation_id": 393381
+  },
+  {
+    "id": "HT-040",
+    "name": "Saint-Marc Arrondissement",
+    "country": "HT",
+    "region": "Artibonite",
+    "domain": "",
+    "osm_relation_id": 392364
+  },
+  {
+    "id": "HT-041",
+    "name": "Saint-Raphaël Arrondissement",
+    "country": "HT",
+    "region": "Nord",
+    "domain": "",
+    "osm_relation_id": 395432
+  },
+  {
+    "id": "HT-042",
+    "name": "Trou-du-Nord Arrondissement",
+    "country": "HT",
+    "region": "Nord-Est",
+    "domain": "",
+    "osm_relation_id": 394459,
+    "population": 86586
+  },
+  {
+    "id": "HT-043",
+    "name": "Vallières Arrondissement",
+    "country": "HT",
+    "region": "Nord-Est",
+    "domain": "",
+    "osm_relation_id": 394460
+  }
+]

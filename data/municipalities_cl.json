@@ -29,7 +29,8 @@
     "country": "CL",
     "region": "Tarapacá Region",
     "domain": "maho.cl",
-    "osm_relation_id": 239461
+    "osm_relation_id": 239461,
+    "population": 108375
   },
   {
     "id": "CL-005",
@@ -37,7 +38,8 @@
     "country": "CL",
     "region": "Huasco Province",
     "domain": "vallenar.cl",
-    "osm_relation_id": 1572124
+    "osm_relation_id": 1572124,
+    "population": 5299
   },
   {
     "id": "CL-006",
@@ -52,7 +54,8 @@
     "country": "CL",
     "region": "Elqui Province",
     "domain": "andacollo.cl",
-    "osm_relation_id": 1589155
+    "osm_relation_id": 1589155,
+    "population": 11044
   },
   {
     "id": "CL-008",
@@ -67,7 +70,8 @@
     "country": "CL",
     "region": "El Ranco Province",
     "domain": "municipalidadelagoranco.cl",
-    "osm_relation_id": 1791290
+    "osm_relation_id": 1791290,
+    "population": 9896
   },
   {
     "id": "CL-010",
@@ -103,7 +107,8 @@
     "country": "CL",
     "region": "Arauco",
     "domain": "",
-    "osm_relation_id": 1654884
+    "osm_relation_id": 1654884,
+    "population": 17597
   },
   {
     "id": "CL-015",
@@ -118,7 +123,8 @@
     "country": "CL",
     "region": "Aysén Province",
     "domain": "puertoaysen.cl",
-    "osm_relation_id": 1982383
+    "osm_relation_id": 1982383,
+    "population": 22353
   },
   {
     "id": "CL-017",
@@ -126,7 +132,8 @@
     "country": "CL",
     "region": "Maipo Province",
     "domain": "buin.cl",
-    "osm_relation_id": 660816
+    "osm_relation_id": 660816,
+    "population": 96614
   },
   {
     "id": "CL-018",
@@ -134,7 +141,8 @@
     "country": "CL",
     "region": "Diguillín Province",
     "domain": "municipalidaddebulnes.cl",
-    "osm_relation_id": 1597490
+    "osm_relation_id": 1597490,
+    "population": 20595
   },
   {
     "id": "CL-019",
@@ -142,7 +150,8 @@
     "country": "CL",
     "region": "Petorca Province",
     "domain": "municipiocabildo.cl",
-    "osm_relation_id": 113204
+    "osm_relation_id": 113204,
+    "population": 19388
   },
   {
     "id": "CL-020",
@@ -180,7 +189,8 @@
     "country": "CL",
     "region": "Copiapó Province",
     "domain": "caldera.cl",
-    "osm_relation_id": 295912
+    "osm_relation_id": 295912,
+    "population": 16150
   },
   {
     "id": "CL-025",
@@ -212,7 +222,8 @@
     "country": "CL",
     "region": "Tarapacá Region",
     "domain": "",
-    "osm_relation_id": 239347
+    "osm_relation_id": 239347,
+    "population": 1250
   },
   {
     "id": "CL-029",
@@ -228,7 +239,8 @@
     "country": "CL",
     "region": "Cautín Province",
     "domain": "carahue.cl",
-    "osm_relation_id": 1742431
+    "osm_relation_id": 1742431,
+    "population": 25696
   },
   {
     "id": "CL-031",
@@ -236,7 +248,8 @@
     "country": "CL",
     "region": "San Antonio Province",
     "domain": "municipalidadcartagena.cl",
-    "osm_relation_id": 296823
+    "osm_relation_id": 296823,
+    "population": 22738
   },
   {
     "id": "CL-032",
@@ -244,7 +257,8 @@
     "country": "CL",
     "region": "Valparaíso Province",
     "domain": "municasablanca.cl",
-    "osm_relation_id": 112129
+    "osm_relation_id": 112129,
+    "population": 21874
   },
   {
     "id": "CL-033",
@@ -252,7 +266,8 @@
     "country": "CL",
     "region": "Chiloé Province",
     "domain": "",
-    "osm_relation_id": 3076091
+    "osm_relation_id": 3076091,
+    "population": 46997
   },
   {
     "id": "CL-034",
@@ -268,7 +283,8 @@
     "country": "CL",
     "region": "Cauquenes",
     "domain": "cauquenes.cl",
-    "osm_relation_id": 255374
+    "osm_relation_id": 255374,
+    "population": 40441
   },
   {
     "id": "CL-036",
@@ -283,7 +299,8 @@
     "country": "CL",
     "region": "Arauco Province",
     "domain": "nic.cl",
-    "osm_relation_id": 1656043
+    "osm_relation_id": 1656043,
+    "population": 34537
   },
   {
     "id": "CL-038",
@@ -291,7 +308,8 @@
     "country": "CL",
     "region": "Santiago province",
     "domain": "mcerrillos.cl",
-    "osm_relation_id": 168260
+    "osm_relation_id": 168260,
+    "population": 80832
   },
   {
     "id": "CL-039",
@@ -299,7 +317,8 @@
     "country": "CL",
     "region": "Santiago province",
     "domain": "cerronavia.com",
-    "osm_relation_id": 168271
+    "osm_relation_id": 168271,
+    "population": 127250
   },
   {
     "id": "CL-040",
@@ -307,7 +326,8 @@
     "country": "CL",
     "region": "Palena Province",
     "domain": "municipalidaddechaiten.cl",
-    "osm_relation_id": 1820338
+    "osm_relation_id": 1820338,
+    "population": 5071
   },
   {
     "id": "CL-041",
@@ -330,7 +350,8 @@
     "country": "CL",
     "region": "Concepción Province",
     "domain": "chiguayante.cl",
-    "osm_relation_id": 1622086
+    "osm_relation_id": 1622086,
+    "population": 85863
   },
   {
     "id": "CL-044",
@@ -352,7 +373,8 @@
     "country": "CL",
     "region": "Chillán Viejo",
     "domain": "chillanviej0.cl",
-    "osm_relation_id": 269390
+    "osm_relation_id": 269390,
+    "population": 27359
   },
   {
     "id": "CL-047",
@@ -390,7 +412,8 @@
     "country": "CL",
     "region": "Colchagua Province",
     "domain": "chepicanos.cl",
-    "osm_relation_id": 252816
+    "osm_relation_id": 252816,
+    "population": 15037
   },
   {
     "id": "CL-052",
@@ -414,7 +437,8 @@
     "country": "CL",
     "region": "Llanquihue Province",
     "domain": "cochamo.com",
-    "osm_relation_id": 1798828
+    "osm_relation_id": 1798828,
+    "population": 3908
   },
   {
     "id": "CL-055",
@@ -437,7 +461,8 @@
     "country": "CL",
     "region": "Itata Province",
     "domain": "municipalidaddecoelemu.cl",
-    "osm_relation_id": 1558627
+    "osm_relation_id": 1558627,
+    "population": 15995
   },
   {
     "id": "CL-058",
@@ -453,7 +478,8 @@
     "country": "CL",
     "region": "Tamarugal Province",
     "domain": "",
-    "osm_relation_id": 239348
+    "osm_relation_id": 239348,
+    "population": 1649
   },
   {
     "id": "CL-060",
@@ -461,7 +487,8 @@
     "country": "CL",
     "region": "Chacabuco Province",
     "domain": "colina.cl",
-    "osm_relation_id": 164101
+    "osm_relation_id": 164101,
+    "population": 146209
   },
   {
     "id": "CL-061",
@@ -500,7 +527,8 @@
     "country": "CL",
     "region": "Concepción",
     "domain": "concepcion.cl",
-    "osm_relation_id": 1620105
+    "osm_relation_id": 1620105,
+    "population": 217537
   },
   {
     "id": "CL-066",
@@ -516,7 +544,8 @@
     "country": "CL",
     "region": "Valparaíso Province",
     "domain": "concon.cl",
-    "osm_relation_id": 110722
+    "osm_relation_id": 110722,
+    "population": 32273
   },
   {
     "id": "CL-068",
@@ -532,7 +561,8 @@
     "country": "CL",
     "region": "Arauco Province",
     "domain": "contulmo.cl",
-    "osm_relation_id": 1656148
+    "osm_relation_id": 1656148,
+    "population": 5581
   },
   {
     "id": "CL-070",
@@ -554,7 +584,8 @@
     "country": "CL",
     "region": "Concepción Province",
     "domain": "coronel.cl",
-    "osm_relation_id": 1622313
+    "osm_relation_id": 1622313,
+    "population": 116262
   },
   {
     "id": "CL-073",
@@ -562,7 +593,8 @@
     "country": "CL",
     "region": "Los Ríos Region",
     "domain": "municipalidadcorral.cl",
-    "osm_relation_id": 1785692
+    "osm_relation_id": 1785692,
+    "population": 3469
   },
   {
     "id": "CL-074",
@@ -585,7 +617,8 @@
     "country": "CL",
     "region": "Cautín Province",
     "domain": "municunco.cl",
-    "osm_relation_id": 1735940
+    "osm_relation_id": 1735940,
+    "population": 19063
   },
   {
     "id": "CL-077",
@@ -593,7 +626,8 @@
     "country": "CL",
     "region": "Malleco Province",
     "domain": "mcuracautin.cl",
-    "osm_relation_id": 1736036
+    "osm_relation_id": 1736036,
+    "population": 16418
   },
   {
     "id": "CL-078",
@@ -601,7 +635,8 @@
     "country": "CL",
     "region": "Melipilla Province",
     "domain": "municipalidadcuracavi.cl",
-    "osm_relation_id": 168297
+    "osm_relation_id": 168297,
+    "population": 24298
   },
   {
     "id": "CL-079",
@@ -616,7 +651,8 @@
     "country": "CL",
     "region": "Arauco Province",
     "domain": "munichue.cl",
-    "osm_relation_id": 1655930
+    "osm_relation_id": 1655930,
+    "population": 32288
   },
   {
     "id": "CL-081",
@@ -624,7 +660,8 @@
     "country": "CL",
     "region": "Araucanía Region",
     "domain": "curarrehue.cl",
-    "osm_relation_id": 1734789
+    "osm_relation_id": 1734789,
+    "population": 7489
   },
   {
     "id": "CL-082",
@@ -647,7 +684,8 @@
     "country": "CL",
     "region": "Chiloé Province",
     "domain": "munidalcahue.cl",
-    "osm_relation_id": 3077688
+    "osm_relation_id": 3077688,
+    "population": 13762
   },
   {
     "id": "CL-085",
@@ -655,7 +693,8 @@
     "country": "CL",
     "region": "Chañaral Province",
     "domain": "diegodalmagro.cl",
-    "osm_relation_id": 295896
+    "osm_relation_id": 295896,
+    "population": 13925
   },
   {
     "id": "CL-086",
@@ -703,7 +742,8 @@
     "country": "CL",
     "region": "San Antonio Province",
     "domain": "eltabo.cl",
-    "osm_relation_id": 296841
+    "osm_relation_id": 296841,
+    "population": 13286
   },
   {
     "id": "CL-092",
@@ -727,7 +767,8 @@
     "country": "CL",
     "region": "Santiago province",
     "domain": "municipalidaddeestacioncentral.cl",
-    "osm_relation_id": 168058
+    "osm_relation_id": 168058,
+    "population": 147041
   },
   {
     "id": "CL-095",
@@ -773,7 +814,8 @@
     "country": "CL",
     "region": "Palena Province",
     "domain": "",
-    "osm_relation_id": 3067460
+    "osm_relation_id": 3067460,
+    "population": 1831
   },
   {
     "id": "CL-101",
@@ -781,7 +823,8 @@
     "country": "CL",
     "region": "El Ranco Province",
     "domain": "municipalidadfutrono.cl",
-    "osm_relation_id": 1785847
+    "osm_relation_id": 1785847,
+    "population": 15670
   },
   {
     "id": "CL-102",
@@ -789,7 +832,8 @@
     "country": "CL",
     "region": "Cautín Province",
     "domain": "galvarinochile.cl",
-    "osm_relation_id": 1767319
+    "osm_relation_id": 1767319,
+    "population": 11996
   },
   {
     "id": "CL-103",
@@ -829,7 +873,8 @@
     "country": "CL",
     "region": "",
     "domain": "hijuelas.cl",
-    "osm_relation_id": 175918
+    "osm_relation_id": 175918,
+    "population": 17988
   },
   {
     "id": "CL-108",
@@ -845,7 +890,8 @@
     "country": "CL",
     "region": "Curicó Province",
     "domain": "hualane.cl",
-    "osm_relation_id": 252814
+    "osm_relation_id": 252814,
+    "population": 9657
   },
   {
     "id": "CL-110",
@@ -853,7 +899,8 @@
     "country": "CL",
     "region": "Concepción Province",
     "domain": "hualpenciudad.cl",
-    "osm_relation_id": 1614641
+    "osm_relation_id": 1614641,
+    "population": 91773
   },
   {
     "id": "CL-111",
@@ -861,7 +908,8 @@
     "country": "CL",
     "region": "Concepción Province",
     "domain": "munihualqui.cl",
-    "osm_relation_id": 1620107
+    "osm_relation_id": 1620107,
+    "population": 20968
   },
   {
     "id": "CL-112",
@@ -869,7 +917,8 @@
     "country": "CL",
     "region": "Tarapacá Region",
     "domain": "imhuara.cl",
-    "osm_relation_id": 239349
+    "osm_relation_id": 239349,
+    "population": 3510
   },
   {
     "id": "CL-113",
@@ -885,7 +934,8 @@
     "country": "CL",
     "region": "Santiago province",
     "domain": "huechuraba.cl",
-    "osm_relation_id": 164091
+    "osm_relation_id": 164091,
+    "population": 74070
   },
   {
     "id": "CL-115",
@@ -915,7 +965,8 @@
     "country": "CL",
     "region": "Talagante Province",
     "domain": "islademaipo.cl",
-    "osm_relation_id": 1557251
+    "osm_relation_id": 1557251,
+    "population": 36219
   },
   {
     "id": "CL-119",
@@ -931,7 +982,8 @@
     "country": "CL",
     "region": "Valparaíso Province",
     "domain": "comunajuanfernandez.cl",
-    "osm_relation_id": 1773333
+    "osm_relation_id": 1773333,
+    "population": 926
   },
   {
     "id": "CL-121",
@@ -939,7 +991,8 @@
     "country": "CL",
     "region": "",
     "domain": "lacalera.cl",
-    "osm_relation_id": 113226
+    "osm_relation_id": 113226,
+    "population": 50554
   },
   {
     "id": "CL-122",
@@ -955,7 +1008,8 @@
     "country": "CL",
     "region": "",
     "domain": "lacruz.cl",
-    "osm_relation_id": 113197
+    "osm_relation_id": 113197,
+    "population": 22098
   },
   {
     "id": "CL-124",
@@ -971,7 +1025,8 @@
     "country": "CL",
     "region": "Santiago province",
     "domain": "laflorida.cl",
-    "osm_relation_id": 224590
+    "osm_relation_id": 224590,
+    "population": 366916
   },
   {
     "id": "CL-126",
@@ -979,7 +1034,8 @@
     "country": "CL",
     "region": "Santiago province",
     "domain": "municipalidadlagranja.cl",
-    "osm_relation_id": 191220
+    "osm_relation_id": 191220,
+    "population": 116571
   },
   {
     "id": "CL-127",
@@ -1002,7 +1058,8 @@
     "country": "CL",
     "region": "Santiago province",
     "domain": "pintana.cl",
-    "osm_relation_id": 191216
+    "osm_relation_id": 191216,
+    "population": 177335
   },
   {
     "id": "CL-130",
@@ -1010,7 +1067,8 @@
     "country": "CL",
     "region": "Santiago province",
     "domain": "lareina.cl",
-    "osm_relation_id": 162992
+    "osm_relation_id": 162992,
+    "population": 92787
   },
   {
     "id": "CL-131",
@@ -1025,7 +1083,8 @@
     "country": "CL",
     "region": "El Ranco Province",
     "domain": "munilaunion.cl",
-    "osm_relation_id": 1791148
+    "osm_relation_id": 1791148,
+    "population": 39447
   },
   {
     "id": "CL-133",
@@ -1057,7 +1116,8 @@
     "country": "CL",
     "region": "Chacabuco Province",
     "domain": "lampa.cl",
-    "osm_relation_id": 168295
+    "osm_relation_id": 168295,
+    "population": 102034
   },
   {
     "id": "CL-137",
@@ -1072,7 +1132,8 @@
     "country": "CL",
     "region": "Cachapoal Province",
     "domain": "lagorapelchile.cl",
-    "osm_relation_id": 1556980
+    "osm_relation_id": 1556980,
+    "population": 24640
   },
   {
     "id": "CL-139",
@@ -1080,7 +1141,8 @@
     "country": "CL",
     "region": "Santiago province",
     "domain": "lascondes.cl",
-    "osm_relation_id": 162991
+    "osm_relation_id": 162991,
+    "population": 249893
   },
   {
     "id": "CL-140",
@@ -1150,7 +1212,8 @@
     "country": "CL",
     "region": "Santiago province",
     "domain": "lobarnechea.cl",
-    "osm_relation_id": 164090
+    "osm_relation_id": 164090,
+    "population": 105833
   },
   {
     "id": "CL-149",
@@ -1158,7 +1221,8 @@
     "country": "CL",
     "region": "Santiago province",
     "domain": "loespejo.cl",
-    "osm_relation_id": 191193
+    "osm_relation_id": 191193,
+    "population": 101615
   },
   {
     "id": "CL-150",
@@ -1166,7 +1230,8 @@
     "country": "CL",
     "region": "Santiago province",
     "domain": "loprado.cl",
-    "osm_relation_id": 168268
+    "osm_relation_id": 168268,
+    "population": 96249
   },
   {
     "id": "CL-151",
@@ -1198,7 +1263,8 @@
     "country": "CL",
     "region": "Malleco Province",
     "domain": "turismolonquimay.cl",
-    "osm_relation_id": 1736001
+    "osm_relation_id": 1736001,
+    "population": 10251
   },
   {
     "id": "CL-155",
@@ -1237,7 +1303,8 @@
     "country": "CL",
     "region": "Choapa Province",
     "domain": "comunadelosvilos.com",
-    "osm_relation_id": 231954
+    "osm_relation_id": 231954,
+    "population": 21382
   },
   {
     "id": "CL-160",
@@ -1260,7 +1327,8 @@
     "country": "CL",
     "region": "Los Ángeles",
     "domain": "losangeles.cl",
-    "osm_relation_id": 1658515
+    "osm_relation_id": 1658515,
+    "population": 143023
   },
   {
     "id": "CL-163",
@@ -1275,7 +1343,8 @@
     "country": "CL",
     "region": "Lota",
     "domain": "lota.cl",
-    "osm_relation_id": 1654885
+    "osm_relation_id": 1654885,
+    "population": 43272
   },
   {
     "id": "CL-165",
@@ -1307,7 +1376,8 @@
     "country": "CL",
     "region": "Santiago province",
     "domain": "municipalidadmaipu.cl",
-    "osm_relation_id": 168259
+    "osm_relation_id": 168259,
+    "population": 521627
   },
   {
     "id": "CL-169",
@@ -1338,7 +1408,8 @@
     "country": "CL",
     "region": "Valdivia Province",
     "domain": "munimariquina.cl",
-    "osm_relation_id": 1785656
+    "osm_relation_id": 1785656,
+    "population": 21278
   },
   {
     "id": "CL-173",
@@ -1346,7 +1417,8 @@
     "country": "CL",
     "region": "Tocopilla Province",
     "domain": "imme.cl",
-    "osm_relation_id": 1561887
+    "osm_relation_id": 1561887,
+    "population": 6457
   },
   {
     "id": "CL-174",
@@ -1354,7 +1426,8 @@
     "country": "CL",
     "region": "Melipilla Province",
     "domain": "municipaliddemariapinto.cl",
-    "osm_relation_id": 296839
+    "osm_relation_id": 296839,
+    "population": 10343
   },
   {
     "id": "CL-175",
@@ -1394,7 +1467,8 @@
     "country": "CL",
     "region": "Melipilla Province",
     "domain": "melipilla.cl",
-    "osm_relation_id": 296835
+    "osm_relation_id": 296835,
+    "population": 148899
   },
   {
     "id": "CL-180",
@@ -1458,7 +1532,8 @@
     "country": "CL",
     "region": "Última Esperanza Province",
     "domain": "muninatales.cl",
-    "osm_relation_id": 1980619
+    "osm_relation_id": 1980619,
+    "population": 21477
   },
   {
     "id": "CL-188",
@@ -1498,7 +1573,8 @@
     "country": "CL",
     "region": "Araucanía Region",
     "domain": "nuevaimperial.cl",
-    "osm_relation_id": 1768732
+    "osm_relation_id": 1768732,
+    "population": 31632
   },
   {
     "id": "CL-193",
@@ -1559,7 +1635,8 @@
     "country": "CL",
     "region": "Cautín Province",
     "domain": "padrelascasas.cl",
-    "osm_relation_id": 1768743
+    "osm_relation_id": 1768743,
+    "population": 76126
   },
   {
     "id": "CL-201",
@@ -1598,7 +1675,8 @@
     "country": "CL",
     "region": "Colchagua Province",
     "domain": "munipalmilla.cl",
-    "osm_relation_id": 1675976
+    "osm_relation_id": 1675976,
+    "population": 11844
   },
   {
     "id": "CL-206",
@@ -1621,7 +1699,8 @@
     "country": "CL",
     "region": "Petorca Province",
     "domain": "",
-    "osm_relation_id": 113203
+    "osm_relation_id": 113203,
+    "population": 6356
   },
   {
     "id": "CL-209",
@@ -1637,7 +1716,8 @@
     "country": "CL",
     "region": "Linares Province",
     "domain": "parral.cl",
-    "osm_relation_id": 255306
+    "osm_relation_id": 255306,
+    "population": 39404
   },
   {
     "id": "CL-211",
@@ -1661,7 +1741,8 @@
     "country": "CL",
     "region": "Cauquenes Province",
     "domain": "sinim.gov.cl",
-    "osm_relation_id": 296293
+    "osm_relation_id": 296293,
+    "population": 7202
   },
   {
     "id": "CL-214",
@@ -1685,7 +1766,8 @@
     "country": "CL",
     "region": "Concepción Province",
     "domain": "penco.cl",
-    "osm_relation_id": 1614637
+    "osm_relation_id": 1614637,
+    "population": 47367
   },
   {
     "id": "CL-217",
@@ -1717,7 +1799,8 @@
     "country": "CL",
     "region": "Cachapoal Province",
     "domain": "mpeumo.cl",
-    "osm_relation_id": 1556987
+    "osm_relation_id": 1556987,
+    "population": 14313
   },
   {
     "id": "CL-221",
@@ -1725,7 +1808,8 @@
     "country": "CL",
     "region": "Talagante Province",
     "domain": "penaflor.cl",
-    "osm_relation_id": 1626477
+    "osm_relation_id": 1626477,
+    "population": 90201
   },
   {
     "id": "CL-222",
@@ -1749,7 +1833,8 @@
     "country": "CL",
     "region": "Cachapoal Province",
     "domain": "pichidegua.cl",
-    "osm_relation_id": 1661293
+    "osm_relation_id": 1661293,
+    "population": 19714
   },
   {
     "id": "CL-225",
@@ -1764,7 +1849,8 @@
     "country": "CL",
     "region": "Diguillín Province",
     "domain": "comunadepinto.cl",
-    "osm_relation_id": 269309
+    "osm_relation_id": 269309,
+    "population": 55
   },
   {
     "id": "CL-227",
@@ -1804,7 +1890,8 @@
     "country": "CL",
     "region": "Tierra del Fuego Province",
     "domain": "muniporvenir.cl",
-    "osm_relation_id": 1980517
+    "osm_relation_id": 1980517,
+    "population": 6801
   },
   {
     "id": "CL-232",
@@ -1819,7 +1906,8 @@
     "country": "CL",
     "region": "Tierra del Fuego Province",
     "domain": "",
-    "osm_relation_id": 1980521
+    "osm_relation_id": 1980521,
+    "population": 1158
   },
   {
     "id": "CL-234",
@@ -1827,7 +1915,8 @@
     "country": "CL",
     "region": "Santiago province",
     "domain": "providencia.cl",
-    "osm_relation_id": 162983
+    "osm_relation_id": 162983,
+    "population": 120874
   },
   {
     "id": "CL-235",
@@ -1842,7 +1931,8 @@
     "country": "CL",
     "region": "Araucanía Region",
     "domain": "municipalidadpucon.cl",
-    "osm_relation_id": 1734577
+    "osm_relation_id": 1734577,
+    "population": 28923
   },
   {
     "id": "CL-237",
@@ -1858,7 +1948,8 @@
     "country": "CL",
     "region": "Santiago Metropolitan Region",
     "domain": "mpuentealto.cl",
-    "osm_relation_id": 166571
+    "osm_relation_id": 166571,
+    "population": 573935
   },
   {
     "id": "CL-239",
@@ -1887,7 +1978,8 @@
     "country": "CL",
     "region": "Colchagua Province",
     "domain": "municipalidaddepumanque.cl",
-    "osm_relation_id": 1661441
+    "osm_relation_id": 1661441,
+    "population": 3421
   },
   {
     "id": "CL-243",
@@ -1895,7 +1987,8 @@
     "country": "CL",
     "region": "Limarí Province",
     "domain": "munipunitaqui.cl",
-    "osm_relation_id": 1589895
+    "osm_relation_id": 1589895,
+    "population": 10956
   },
   {
     "id": "CL-244",
@@ -1903,7 +1996,8 @@
     "country": "CL",
     "region": "Magallanes Province",
     "domain": "puntaarenas.cl",
-    "osm_relation_id": 1979467
+    "osm_relation_id": 1979467,
+    "population": 131592
   },
   {
     "id": "CL-245",
@@ -1911,7 +2005,8 @@
     "country": "CL",
     "region": "Chiloé Province",
     "domain": "puqueldon.com",
-    "osm_relation_id": 3078387
+    "osm_relation_id": 3078387,
+    "population": 560
   },
   {
     "id": "CL-246",
@@ -1919,7 +2014,8 @@
     "country": "CL",
     "region": "Osorno Province",
     "domain": "purranque.cl",
-    "osm_relation_id": 1795811
+    "osm_relation_id": 1795811,
+    "population": 20949
   },
   {
     "id": "CL-247",
@@ -1927,7 +2023,8 @@
     "country": "CL",
     "region": "Araucanía Region",
     "domain": "puren.cl",
-    "osm_relation_id": 1742662
+    "osm_relation_id": 1742662,
+    "population": 12868
   },
   {
     "id": "CL-248",
@@ -2028,7 +2125,8 @@
     "country": "CL",
     "region": "Los Andes Province",
     "domain": "munirinconada.cl",
-    "osm_relation_id": 175949
+    "osm_relation_id": 175949,
+    "population": 10207
   },
   {
     "id": "CL-261",
@@ -2036,7 +2134,8 @@
     "country": "CL",
     "region": "Curicó Province",
     "domain": "muniromeral.cl",
-    "osm_relation_id": 544818
+    "osm_relation_id": 544818,
+    "population": 15187
   },
   {
     "id": "CL-262",
@@ -2115,7 +2214,8 @@
     "country": "CL",
     "region": "Choapa Province",
     "domain": "salamanca.cl",
-    "osm_relation_id": 231952
+    "osm_relation_id": 231952,
+    "population": 29359
   },
   {
     "id": "CL-272",
@@ -2130,7 +2230,8 @@
     "country": "CL",
     "region": "Maipo Province",
     "domain": "sanbernardo.cl",
-    "osm_relation_id": 660810
+    "osm_relation_id": 660810,
+    "population": 301313
   },
   {
     "id": "CL-274",
@@ -2138,7 +2239,8 @@
     "country": "CL",
     "region": "Punilla Province",
     "domain": "sancarlos.cl",
-    "osm_relation_id": 255339
+    "osm_relation_id": 255339,
+    "population": 32529
   },
   {
     "id": "CL-275",
@@ -2146,7 +2248,8 @@
     "country": "CL",
     "region": "Punilla Province",
     "domain": "municoihueco.cl",
-    "osm_relation_id": 255295
+    "osm_relation_id": 255295,
+    "population": 23583
   },
   {
     "id": "CL-276",
@@ -2154,7 +2257,8 @@
     "country": "CL",
     "region": "Talca Province",
     "domain": "sinim.gov.cl",
-    "osm_relation_id": 546213
+    "osm_relation_id": 546213,
+    "population": 43269
   },
   {
     "id": "CL-277",
@@ -2170,7 +2274,8 @@
     "country": "CL",
     "region": "Punilla Province",
     "domain": "sanfabiandealico.cl",
-    "osm_relation_id": 255296
+    "osm_relation_id": 255296,
+    "population": 4308
   },
   {
     "id": "CL-279",
@@ -2215,7 +2320,8 @@
     "country": "CL",
     "region": "Santiago province",
     "domain": "sanjoaquin.cl",
-    "osm_relation_id": 168055
+    "osm_relation_id": 168055,
+    "population": 94492
   },
   {
     "id": "CL-285",
@@ -2223,7 +2329,8 @@
     "country": "CL",
     "region": "Cordillera Province",
     "domain": "sanjosedemaipo.cl",
-    "osm_relation_id": 166556
+    "osm_relation_id": 166556,
+    "population": 13376
   },
   {
     "id": "CL-286",
@@ -2239,7 +2346,8 @@
     "country": "CL",
     "region": "Santiago province",
     "domain": "sanmiguel.cl",
-    "osm_relation_id": 168056
+    "osm_relation_id": 168056,
+    "population": 107954
   },
   {
     "id": "CL-288",
@@ -2247,7 +2355,8 @@
     "country": "CL",
     "region": "Punilla Province",
     "domain": "municipalidadsannicolas.cl",
-    "osm_relation_id": 1558759
+    "osm_relation_id": 1558759,
+    "population": 12414
   },
   {
     "id": "CL-289",
@@ -2263,7 +2372,8 @@
     "country": "CL",
     "region": "Melipilla Province",
     "domain": "sanpedrodemelipilla.cl",
-    "osm_relation_id": 296836
+    "osm_relation_id": 296836,
+    "population": 9726
   },
   {
     "id": "CL-291",
@@ -2278,7 +2388,8 @@
     "country": "CL",
     "region": "Concepción Province",
     "domain": "sanpedrodelapaz.cl",
-    "osm_relation_id": 1622326
+    "osm_relation_id": 1622326,
+    "population": 131808
   },
   {
     "id": "CL-293",
@@ -2349,7 +2460,8 @@
     "country": "CL",
     "region": "Santiago province",
     "domain": "municipalidaddesantiago.cl",
-    "osm_relation_id": 164609
+    "osm_relation_id": 164609,
+    "population": 404495
   },
   {
     "id": "CL-302",
@@ -2357,7 +2469,8 @@
     "country": "CL",
     "region": "San Antonio Province",
     "domain": "santodomingo.cl",
-    "osm_relation_id": 296814
+    "osm_relation_id": 296814,
+    "population": 7418
   },
   {
     "id": "CL-303",
@@ -2373,7 +2486,8 @@
     "country": "CL",
     "region": "Talagante Province",
     "domain": "munitalagante.cl",
-    "osm_relation_id": 1626706
+    "osm_relation_id": 1626706,
+    "population": 56990
   },
   {
     "id": "CL-305",
@@ -2395,7 +2509,8 @@
     "country": "CL",
     "region": "Talcahuano",
     "domain": "talcahuano.cl",
-    "osm_relation_id": 1614638
+    "osm_relation_id": 1614638,
+    "population": 270000
   },
   {
     "id": "CL-308",
@@ -2403,7 +2518,8 @@
     "country": "CL",
     "region": "Antofagasta Province",
     "domain": "taltal.cl",
-    "osm_relation_id": 295883
+    "osm_relation_id": 295883,
+    "population": 12100
   },
   {
     "id": "CL-309",
@@ -2434,7 +2550,8 @@
     "country": "CL",
     "region": "Copiapó Province",
     "domain": "tierramarilla.com",
-    "osm_relation_id": 1572123
+    "osm_relation_id": 1572123,
+    "population": 14019
   },
   {
     "id": "CL-313",
@@ -2480,7 +2597,8 @@
     "country": "CL",
     "region": "Tomé",
     "domain": "tome.cl",
-    "osm_relation_id": 1558890
+    "osm_relation_id": 1558890,
+    "population": 42312
   },
   {
     "id": "CL-319",
@@ -2564,7 +2682,8 @@
     "country": "CL",
     "region": "Malleco Province",
     "domain": "envictoria.cl",
-    "osm_relation_id": 1766981
+    "osm_relation_id": 1766981,
+    "population": 34890
   },
   {
     "id": "CL-330",
@@ -2580,7 +2699,8 @@
     "country": "CL",
     "region": "Cautín Province",
     "domain": "vilcun.cl",
-    "osm_relation_id": 1736000
+    "osm_relation_id": 1736000,
+    "population": 31575
   },
   {
     "id": "CL-332",
@@ -2603,7 +2723,8 @@
     "country": "CL",
     "region": "Cautín Province",
     "domain": "munivillarrica.cl",
-    "osm_relation_id": 1734921
+    "osm_relation_id": 1734921,
+    "population": 55478
   },
   {
     "id": "CL-335",
@@ -2611,7 +2732,8 @@
     "country": "CL",
     "region": "Santiago province",
     "domain": "vitacura.cl",
-    "osm_relation_id": 13132
+    "osm_relation_id": 13132,
+    "population": 85384
   },
   {
     "id": "CL-336",

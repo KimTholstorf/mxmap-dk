@@ -1,0 +1,51 @@
+[
+  {
+    "id": "VC-001",
+    "name": "Charlotte Parish",
+    "country": "VC",
+    "region": "Saint Vincent and the Grenadines",
+    "domain": "",
+    "osm_relation_id": 4016640
+  },
+  {
+    "id": "VC-002",
+    "name": "Grenadines Parish",
+    "country": "VC",
+    "region": "Saint Vincent and the Grenadines",
+    "domain": "",
+    "osm_relation_id": 4016680,
+    "population": 9200
+  },
+  {
+    "id": "VC-003",
+    "name": "Saint Andrew Parish",
+    "country": "VC",
+    "region": "Saint Vincent and the Grenadines",
+    "domain": "",
+    "osm_relation_id": 4016641
+  },
+  {
+    "id": "VC-004",
+    "name": "Saint David Parish",
+    "country": "VC",
+    "region": "Saint Vincent and the Grenadines",
+    "domain": "",
+    "osm_relation_id": 4016642
+  },
+  {
+    "id": "VC-005",
+    "name": "Saint George Parish",
+    "country": "VC",
+    "region": "Saint Vincent and the Grenadines",
+    "domain": "",
+    "osm_relation_id": 4016643
+  },
+  {
+    "id": "VC-006",
+    "name": "Saint Patrick Parish",
+    "country": "VC",
+    "region": "Saint Vincent and the Grenadines",
+    "domain": "",
+    "osm_relation_id": 4016644
+  }
+]

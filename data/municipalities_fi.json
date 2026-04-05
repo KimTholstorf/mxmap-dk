@@ -5,7 +5,8 @@
     "country": "FI",
     "region": "Etelä-Pohjanmaa",
     "domain": "alajarvi.fi",
-    "osm_relation_id": 2367272
+    "osm_relation_id": 2367272,
+    "population": 9113
   },
   {
     "id": "FI-009",
@@ -13,7 +14,8 @@
     "country": "FI",
     "region": "Pohjois-Pohjanmaa",
     "domain": "alavieska.fi",
-    "osm_relation_id": 2525916
+    "osm_relation_id": 2525916,
+    "population": 2437
   },
   {
     "id": "FI-010",
@@ -21,7 +23,8 @@
     "country": "FI",
     "region": "Etelä-Pohjanmaa",
     "domain": "alavus.fi",
-    "osm_relation_id": 2641546
+    "osm_relation_id": 2641546,
+    "population": 10933
   },
   {
     "id": "FI-016",
@@ -29,7 +32,8 @@
     "country": "FI",
     "region": "Päijät-Häme",
     "domain": "asikkala.fi",
-    "osm_relation_id": 2509098
+    "osm_relation_id": 2509098,
+    "population": 7968
   },
   {
     "id": "FI-018",
@@ -37,7 +41,8 @@
     "country": "FI",
     "region": "Uusimaa",
     "domain": "askola.fi",
-    "osm_relation_id": 37202
+    "osm_relation_id": 37202,
+    "population": 4700
   },
   {
     "id": "FI-019",
@@ -45,7 +50,8 @@
     "country": "FI",
     "region": "Varsinais-Suomi",
     "domain": "aura.fi",
-    "osm_relation_id": 2380605
+    "osm_relation_id": 2380605,
+    "population": 3961
   },
   {
     "id": "FI-020",
@@ -53,7 +59,8 @@
     "country": "FI",
     "region": "Pirkanmaa",
     "domain": "akaa.fi",
-    "osm_relation_id": 2389014
+    "osm_relation_id": 2389014,
+    "population": 16405
   },
   {
     "id": "FI-035",
@@ -61,7 +68,8 @@
     "country": "FI",
     "region": "Ahvenanmaa",
     "domain": "brando.ax",
-    "osm_relation_id": 2375650
+    "osm_relation_id": 2375650,
+    "population": 436
   },
   {
     "id": "FI-043",
@@ -69,7 +77,8 @@
     "country": "FI",
     "region": "Ahvenanmaa",
     "domain": "eckero.ax",
-    "osm_relation_id": 2587484
+    "osm_relation_id": 2587484,
+    "population": 942
   },
   {
     "id": "FI-046",
@@ -77,7 +86,8 @@
     "country": "FI",
     "region": "Etelä-Savo",
     "domain": "enonkoski.fi",
-    "osm_relation_id": 2522457
+    "osm_relation_id": 2522457,
+    "population": 1320
   },
   {
     "id": "FI-047",
@@ -85,7 +95,8 @@
     "country": "FI",
     "region": "Lappi",
     "domain": "enontekio.fi",
-    "osm_relation_id": 1724976
+    "osm_relation_id": 1724976,
+    "population": 1771
   },
   {
     "id": "FI-049",
@@ -93,7 +104,8 @@
     "country": "FI",
     "region": "Uusimaa",
     "domain": "espoo.fi",
-    "osm_relation_id": 36097
+    "osm_relation_id": 36097,
+    "population": 314821
   },
   {
     "id": "FI-050",
@@ -101,7 +113,8 @@
     "country": "FI",
     "region": "Satakunta",
     "domain": "eura.fi",
-    "osm_relation_id": 2378804
+    "osm_relation_id": 2378804,
+    "population": 11184
   },
   {
     "id": "FI-051",
@@ -109,7 +122,8 @@
     "country": "FI",
     "region": "Satakunta",
     "domain": "eurajoki.fi",
-    "osm_relation_id": 2506773
+    "osm_relation_id": 2506773,
+    "population": 9143
   },
   {
     "id": "FI-052",
@@ -117,7 +131,8 @@
     "country": "FI",
     "region": "Etelä-Pohjanmaa",
     "domain": "evijarvi.fi",
-    "osm_relation_id": 1855917
+    "osm_relation_id": 1855917,
+    "population": 2292
   },
   {
     "id": "FI-060",
@@ -125,7 +140,8 @@
     "country": "FI",
     "region": "Ahvenanmaa",
     "domain": "finstrom.ax",
-    "osm_relation_id": 2587482
+    "osm_relation_id": 2587482,
+    "population": 2610
   },
   {
     "id": "FI-061",
@@ -133,7 +149,8 @@
     "country": "FI",
     "region": "Kanta-Häme",
     "domain": "forssa.fi",
-    "osm_relation_id": 2387804
+    "osm_relation_id": 2387804,
+    "population": 16469
   },
   {
     "id": "FI-062",
@@ -149,7 +166,8 @@
     "country": "FI",
     "region": "Ahvenanmaa",
     "domain": "geta.ax",
-    "osm_relation_id": 2587476
+    "osm_relation_id": 2587476,
+    "population": 509
   },
   {
     "id": "FI-069",
@@ -173,7 +191,8 @@
     "country": "FI",
     "region": "Pohjois-Pohjanmaa",
     "domain": "hailuoto.fi",
-    "osm_relation_id": 2525811
+    "osm_relation_id": 2525811,
+    "population": 948
   },
   {
     "id": "FI-074",
@@ -181,7 +200,8 @@
     "country": "FI",
     "region": "Keski-Pohjanmaa",
     "domain": "halsua.fi",
-    "osm_relation_id": 2523786
+    "osm_relation_id": 2523786,
+    "population": 1013
   },
   {
     "id": "FI-075",
@@ -189,7 +209,8 @@
     "country": "FI",
     "region": "Kymenlaakso",
     "domain": "hamina.fi",
-    "osm_relation_id": 2502574
+    "osm_relation_id": 2502574,
+    "population": 19534
   },
   {
     "id": "FI-076",
@@ -197,7 +218,8 @@
     "country": "FI",
     "region": "Ahvenanmaa",
     "domain": "hammarland.ax",
-    "osm_relation_id": 2587483
+    "osm_relation_id": 2587483,
+    "population": 1646
   },
   {
     "id": "FI-077",
@@ -205,7 +227,8 @@
     "country": "FI",
     "region": "Keski-Suomi",
     "domain": "hankasalmi.fi",
-    "osm_relation_id": 1216480
+    "osm_relation_id": 1216480,
+    "population": 4549
   },
   {
     "id": "FI-078",
@@ -213,7 +236,8 @@
     "country": "FI",
     "region": "Uusimaa",
     "domain": "hanko.fi",
-    "osm_relation_id": 38033
+    "osm_relation_id": 38033,
+    "population": 7721
   },
   {
     "id": "FI-079",
@@ -221,7 +245,8 @@
     "country": "FI",
     "region": "Satakunta",
     "domain": "harjavalta.fi",
-    "osm_relation_id": 2506774
+    "osm_relation_id": 2506774,
+    "population": 6703
   },
   {
     "id": "FI-081",
@@ -229,7 +254,8 @@
     "country": "FI",
     "region": "Päijät-Häme",
     "domain": "hartola.fi",
-    "osm_relation_id": 1703044
+    "osm_relation_id": 1703044,
+    "population": 2531
   },
   {
     "id": "FI-082",
@@ -237,7 +263,8 @@
     "country": "FI",
     "region": "Kanta-Häme",
     "domain": "hattula.fi",
-    "osm_relation_id": 2390003
+    "osm_relation_id": 2390003,
+    "population": 9371
   },
   {
     "id": "FI-086",
@@ -245,7 +272,8 @@
     "country": "FI",
     "region": "Kanta-Häme",
     "domain": "hausjarvi.fi",
-    "osm_relation_id": 37062
+    "osm_relation_id": 37062,
+    "population": 7998
   },
   {
     "id": "FI-090",
@@ -253,7 +281,8 @@
     "country": "FI",
     "region": "Pohjois-Karjala",
     "domain": "heinavesi.fi",
-    "osm_relation_id": 2522458
+    "osm_relation_id": 2522458,
+    "population": 3001
   },
   {
     "id": "FI-091",
@@ -261,7 +290,8 @@
     "country": "FI",
     "region": "Uusimaa",
     "domain": "hel.fi",
-    "osm_relation_id": 34914
+    "osm_relation_id": 34914,
+    "population": 686595
   },
   {
     "id": "FI-092",
@@ -269,7 +299,8 @@
     "country": "FI",
     "region": "Uusimaa",
     "domain": "vantaa.fi",
-    "osm_relation_id": 34920
+    "osm_relation_id": 34920,
+    "population": 248199
   },
   {
     "id": "FI-097",
@@ -277,7 +308,8 @@
     "country": "FI",
     "region": "Etelä-Savo",
     "domain": "hirvensalmi.fi",
-    "osm_relation_id": 2519797
+    "osm_relation_id": 2519797,
+    "population": 2062
   },
   {
     "id": "FI-098",
@@ -285,7 +317,8 @@
     "country": "FI",
     "region": "Päijät-Häme",
     "domain": "hollola.fi",
-    "osm_relation_id": 37186
+    "osm_relation_id": 37186,
+    "population": 22885
   },
   {
     "id": "FI-102",
@@ -293,7 +326,8 @@
     "country": "FI",
     "region": "Satakunta",
     "domain": "huittinen.fi",
-    "osm_relation_id": 2385387
+    "osm_relation_id": 2385387,
+    "population": 9646
   },
   {
     "id": "FI-103",
@@ -301,7 +335,8 @@
     "country": "FI",
     "region": "Kanta-Häme",
     "domain": "humppila.fi",
-    "osm_relation_id": 2387805
+    "osm_relation_id": 2387805,
+    "population": 2125
   },
   {
     "id": "FI-105",
@@ -309,7 +344,8 @@
     "country": "FI",
     "region": "Kainuu",
     "domain": "hyrynsalmi.fi",
-    "osm_relation_id": 2525692
+    "osm_relation_id": 2525692,
+    "population": 2063
   },
   {
     "id": "FI-106",
@@ -317,7 +353,8 @@
     "country": "FI",
     "region": "Uusimaa",
     "domain": "hyvinkaa.fi",
-    "osm_relation_id": 36101
+    "osm_relation_id": 36101,
+    "population": 46925
   },
   {
     "id": "FI-108",
@@ -325,7 +362,8 @@
     "country": "FI",
     "region": "Pirkanmaa",
     "domain": "hameenkyro.fi",
-    "osm_relation_id": 1666766
+    "osm_relation_id": 1666766,
+    "population": 10319
   },
   {
     "id": "FI-109",
@@ -333,7 +371,8 @@
     "country": "FI",
     "region": "Kanta-Häme",
     "domain": "hameenlinna.fi",
-    "osm_relation_id": 2388843
+    "osm_relation_id": 2388843,
+    "population": 68288
   },
   {
     "id": "FI-111",
@@ -341,7 +380,8 @@
     "country": "FI",
     "region": "Päijät-Häme",
     "domain": "heinola.fi",
-    "osm_relation_id": 2509099
+    "osm_relation_id": 2509099,
+    "population": 17953
   },
   {
     "id": "FI-139",
@@ -349,7 +389,8 @@
     "country": "FI",
     "region": "Pohjois-Pohjanmaa",
     "domain": "ii.fi",
-    "osm_relation_id": 2525740
+    "osm_relation_id": 2525740,
+    "population": 9766
   },
   {
     "id": "FI-140",
@@ -357,7 +398,8 @@
     "country": "FI",
     "region": "Pohjois-Savo",
     "domain": "iisalmi.fi",
-    "osm_relation_id": 2522178
+    "osm_relation_id": 2522178,
+    "population": 20618
   },
   {
     "id": "FI-142",
@@ -365,7 +407,8 @@
     "country": "FI",
     "region": "Päijät-Häme",
     "domain": "iitti.fi",
-    "osm_relation_id": 2473559
+    "osm_relation_id": 2473559,
+    "population": 6444
   },
   {
     "id": "FI-143",
@@ -373,7 +416,8 @@
     "country": "FI",
     "region": "Pirkanmaa",
     "domain": "ikaalinen.fi",
-    "osm_relation_id": 2524087
+    "osm_relation_id": 2524087,
+    "population": 6850
   },
   {
     "id": "FI-145",
@@ -381,7 +425,8 @@
     "country": "FI",
     "region": "Etelä-Pohjanmaa",
     "domain": "ilmajoki.fi",
-    "osm_relation_id": 2269241
+    "osm_relation_id": 2269241,
+    "population": 12369
   },
   {
     "id": "FI-146",
@@ -389,7 +434,8 @@
     "country": "FI",
     "region": "Pohjois-Karjala",
     "domain": "ilomantsi.fi",
-    "osm_relation_id": 2521758
+    "osm_relation_id": 2521758,
+    "population": 4406
   },
   {
     "id": "FI-148",
@@ -397,7 +443,8 @@
     "country": "FI",
     "region": "Lappi",
     "domain": "inari.fi",
-    "osm_relation_id": 1724821
+    "osm_relation_id": 1724821,
+    "population": 7127
   },
   {
     "id": "FI-149",
@@ -405,7 +452,8 @@
     "country": "FI",
     "region": "Uusimaa",
     "domain": "inkoo.fi",
-    "osm_relation_id": 36103
+    "osm_relation_id": 36103,
+    "population": 5379
   },
   {
     "id": "FI-151",
@@ -413,7 +461,8 @@
     "country": "FI",
     "region": "Etelä-Pohjanmaa",
     "domain": "isojoki.fi",
-    "osm_relation_id": 2523700
+    "osm_relation_id": 2523700,
+    "population": 1814
   },
   {
     "id": "FI-152",
@@ -421,7 +470,8 @@
     "country": "FI",
     "region": "Etelä-Pohjanmaa",
     "domain": "isokyro.fi",
-    "osm_relation_id": 2208657
+    "osm_relation_id": 2208657,
+    "population": 4357
   },
   {
     "id": "FI-153",
@@ -429,7 +479,8 @@
     "country": "FI",
     "region": "Etelä-Karjala",
     "domain": "imatra.fi",
-    "osm_relation_id": 2259189
+    "osm_relation_id": 2259189,
+    "population": 24919
   },
   {
     "id": "FI-165",
@@ -437,7 +488,8 @@
     "country": "FI",
     "region": "Kanta-Häme",
     "domain": "janakkala.fi",
-    "osm_relation_id": 37087
+    "osm_relation_id": 37087,
+    "population": 16123
   },
   {
     "id": "FI-167",
@@ -445,7 +497,8 @@
     "country": "FI",
     "region": "Pohjois-Karjala",
     "domain": "joensuu.fi",
-    "osm_relation_id": 2521759
+    "osm_relation_id": 2521759,
+    "population": 78175
   },
   {
     "id": "FI-169",
@@ -461,7 +514,8 @@
     "country": "FI",
     "region": "Ahvenanmaa",
     "domain": "jomala.ax",
-    "osm_relation_id": 2297664
+    "osm_relation_id": 2297664,
+    "population": 5697
   },
   {
     "id": "FI-171",
@@ -469,7 +523,8 @@
     "country": "FI",
     "region": "Pohjois-Savo",
     "domain": "joroinen.fi",
-    "osm_relation_id": 2522459
+    "osm_relation_id": 2522459,
+    "population": 4590
   },
   {
     "id": "FI-172",
@@ -477,7 +532,8 @@
     "country": "FI",
     "region": "Keski-Suomi",
     "domain": "joutsa.fi",
-    "osm_relation_id": 1703043
+    "osm_relation_id": 1703043,
+    "population": 4079
   },
   {
     "id": "FI-176",
@@ -485,7 +541,8 @@
     "country": "FI",
     "region": "Pohjois-Karjala",
     "domain": "juuka.fi",
-    "osm_relation_id": 2521589
+    "osm_relation_id": 2521589,
+    "population": 4259
   },
   {
     "id": "FI-177",
@@ -493,7 +550,8 @@
     "country": "FI",
     "region": "Pirkanmaa",
     "domain": "juupajoki.fi",
-    "osm_relation_id": 2371980
+    "osm_relation_id": 2371980,
+    "population": 1708
   },
   {
     "id": "FI-178",
@@ -501,7 +559,8 @@
     "country": "FI",
     "region": "Etelä-Savo",
     "domain": "juva.fi",
-    "osm_relation_id": 2522460
+    "osm_relation_id": 2522460,
+    "population": 5734
   },
   {
     "id": "FI-179",
@@ -509,7 +568,8 @@
     "country": "FI",
     "region": "Keski-Suomi",
     "domain": "jyvaskyla.fi",
-    "osm_relation_id": 569407
+    "osm_relation_id": 569407,
+    "population": 147856
   },
   {
     "id": "FI-181",
@@ -517,7 +577,8 @@
     "country": "FI",
     "region": "Satakunta",
     "domain": "jamijarvi.fi",
-    "osm_relation_id": 2506777
+    "osm_relation_id": 2506777,
+    "population": 1682
   },
   {
     "id": "FI-182",
@@ -525,7 +586,8 @@
     "country": "FI",
     "region": "Keski-Suomi",
     "domain": "jamsa.fi",
-    "osm_relation_id": 1518903
+    "osm_relation_id": 1518903,
+    "population": 19182
   },
   {
     "id": "FI-186",
@@ -533,7 +595,8 @@
     "country": "FI",
     "region": "Uusimaa",
     "domain": "jarvenpaa.fi",
-    "osm_relation_id": 36107
+    "osm_relation_id": 36107,
+    "population": 46490
   },
   {
     "id": "FI-202",
@@ -541,7 +604,8 @@
     "country": "FI",
     "region": "Varsinais-Suomi",
     "domain": "kaarina.fi",
-    "osm_relation_id": 2506378
+    "osm_relation_id": 2506378,
+    "population": 36389
   },
   {
     "id": "FI-204",
@@ -549,7 +613,8 @@
     "country": "FI",
     "region": "Pohjois-Savo",
     "domain": "kaavi.fi",
-    "osm_relation_id": 2522183
+    "osm_relation_id": 2522183,
+    "population": 2628
   },
   {
     "id": "FI-205",
@@ -565,7 +630,8 @@
     "country": "FI",
     "region": "Pohjois-Pohjanmaa",
     "domain": "kalajoki.fi",
-    "osm_relation_id": 2525919
+    "osm_relation_id": 2525919,
+    "population": 12372
   },
   {
     "id": "FI-211",
@@ -573,7 +639,8 @@
     "country": "FI",
     "region": "Pirkanmaa",
     "domain": "kangasala.fi",
-    "osm_relation_id": 1700625
+    "osm_relation_id": 1700625,
+    "population": 33601
   },
   {
     "id": "FI-213",
@@ -581,7 +648,8 @@
     "country": "FI",
     "region": "Etelä-Savo",
     "domain": "kangasniemi.fi",
-    "osm_relation_id": 2519794
+    "osm_relation_id": 2519794,
+    "population": 5114
   },
   {
     "id": "FI-214",
@@ -589,7 +657,8 @@
     "country": "FI",
     "region": "Satakunta",
     "domain": "kankaanpaa.fi",
-    "osm_relation_id": 2506778
+    "osm_relation_id": 2506778,
+    "population": 12394
   },
   {
     "id": "FI-216",
@@ -597,7 +666,8 @@
     "country": "FI",
     "region": "Keski-Suomi",
     "domain": "kannonkoski.fi",
-    "osm_relation_id": 1707308
+    "osm_relation_id": 1707308,
+    "population": 1217
   },
   {
     "id": "FI-217",
@@ -605,7 +675,8 @@
     "country": "FI",
     "region": "Keski-Pohjanmaa",
     "domain": "kannus.fi",
-    "osm_relation_id": 2523787
+    "osm_relation_id": 2523787,
+    "population": 5246
   },
   {
     "id": "FI-218",
@@ -613,7 +684,8 @@
     "country": "FI",
     "region": "Etelä-Pohjanmaa",
     "domain": "karijoki.fi",
-    "osm_relation_id": 2365310
+    "osm_relation_id": 2365310,
+    "population": 1188
   },
   {
     "id": "FI-224",
@@ -629,7 +701,8 @@
     "country": "FI",
     "region": "Keski-Suomi",
     "domain": "karstula.fi",
-    "osm_relation_id": 1702333
+    "osm_relation_id": 1702333,
+    "population": 3625
   },
   {
     "id": "FI-230",
@@ -637,7 +710,8 @@
     "country": "FI",
     "region": "Satakunta",
     "domain": "karvia.fi",
-    "osm_relation_id": 2354312
+    "osm_relation_id": 2354312,
+    "population": 2216
   },
   {
     "id": "FI-231",
@@ -645,7 +719,8 @@
     "country": "FI",
     "region": "Pohjanmaa",
     "domain": "kaskinen.fi",
-    "osm_relation_id": 2366153
+    "osm_relation_id": 2366153,
+    "population": 1208
   },
   {
     "id": "FI-232",
@@ -653,7 +728,8 @@
     "country": "FI",
     "region": "Etelä-Pohjanmaa",
     "domain": "kauhajoki.fi",
-    "osm_relation_id": 2316286
+    "osm_relation_id": 2316286,
+    "population": 12618
   },
   {
     "id": "FI-233",
@@ -661,7 +737,8 @@
     "country": "FI",
     "region": "Etelä-Pohjanmaa",
     "domain": "kauhava.fi",
-    "osm_relation_id": 1855919
+    "osm_relation_id": 1855919,
+    "population": 15165
   },
   {
     "id": "FI-235",
@@ -669,7 +746,8 @@
     "country": "FI",
     "region": "Uusimaa",
     "domain": "kauniainen.fi",
-    "osm_relation_id": 37224
+    "osm_relation_id": 37224,
+    "population": 10270
   },
   {
     "id": "FI-236",
@@ -677,7 +755,8 @@
     "country": "FI",
     "region": "Keski-Pohjanmaa",
     "domain": "kaustinen.fi",
-    "osm_relation_id": 2523788
+    "osm_relation_id": 2523788,
+    "population": 4137
   },
   {
     "id": "FI-239",
@@ -685,7 +764,8 @@
     "country": "FI",
     "region": "Pohjois-Savo",
     "domain": "keitele.fi",
-    "osm_relation_id": 1723579
+    "osm_relation_id": 1723579,
+    "population": 2035
   },
   {
     "id": "FI-240",
@@ -693,7 +773,8 @@
     "country": "FI",
     "region": "Lappi",
     "domain": "kemi.fi",
-    "osm_relation_id": 2527259
+    "osm_relation_id": 2527259,
+    "population": 19371
   },
   {
     "id": "FI-241",
@@ -701,7 +782,8 @@
     "country": "FI",
     "region": "Lappi",
     "domain": "keminmaa.fi",
-    "osm_relation_id": 2528471
+    "osm_relation_id": 2528471,
+    "population": 7691
   },
   {
     "id": "FI-244",
@@ -709,7 +791,8 @@
     "country": "FI",
     "region": "Pohjois-Pohjanmaa",
     "domain": "kempele.fi",
-    "osm_relation_id": 2513124
+    "osm_relation_id": 2513124,
+    "population": 19514
   },
   {
     "id": "FI-245",
@@ -717,7 +800,8 @@
     "country": "FI",
     "region": "Uusimaa",
     "domain": "kerava.fi",
-    "osm_relation_id": 35157
+    "osm_relation_id": 35157,
+    "population": 38211
   },
   {
     "id": "FI-249",
@@ -725,7 +809,8 @@
     "country": "FI",
     "region": "Keski-Suomi",
     "domain": "keuruu.fi",
-    "osm_relation_id": 1701739
+    "osm_relation_id": 1701739,
+    "population": 9184
   },
   {
     "id": "FI-250",
@@ -733,7 +818,8 @@
     "country": "FI",
     "region": "Pirkanmaa",
     "domain": "kihnio.fi",
-    "osm_relation_id": 2270668
+    "osm_relation_id": 2270668,
+    "population": 1749
   },
   {
     "id": "FI-256",
@@ -741,7 +827,8 @@
     "country": "FI",
     "region": "Keski-Suomi",
     "domain": "kinnula.fi",
-    "osm_relation_id": 2422933
+    "osm_relation_id": 2422933,
+    "population": 1523
   },
   {
     "id": "FI-257",
@@ -749,7 +836,8 @@
     "country": "FI",
     "region": "Uusimaa",
     "domain": "kirkkonummi.fi",
-    "osm_relation_id": 36099
+    "osm_relation_id": 36099,
+    "population": 41154
   },
   {
     "id": "FI-260",
@@ -757,7 +845,8 @@
     "country": "FI",
     "region": "Pohjois-Karjala",
     "domain": "kitee.fi",
-    "osm_relation_id": 2654556
+    "osm_relation_id": 2654556,
+    "population": 9689
   },
   {
     "id": "FI-261",
@@ -765,7 +854,8 @@
     "country": "FI",
     "region": "Lappi",
     "domain": "kittila.fi",
-    "osm_relation_id": 2266938
+    "osm_relation_id": 2266938,
+    "population": 6822
   },
   {
     "id": "FI-263",
@@ -773,7 +863,8 @@
     "country": "FI",
     "region": "Pohjois-Savo",
     "domain": "kiuruvesi.fi",
-    "osm_relation_id": 2522179
+    "osm_relation_id": 2522179,
+    "population": 7475
   },
   {
     "id": "FI-265",
@@ -781,7 +872,8 @@
     "country": "FI",
     "region": "Keski-Suomi",
     "domain": "kivijarvi.fi",
-    "osm_relation_id": 2416995
+    "osm_relation_id": 2416995,
+    "population": 1035
   },
   {
     "id": "FI-271",
@@ -789,7 +881,8 @@
     "country": "FI",
     "region": "Satakunta",
     "domain": "kokemaki.fi",
-    "osm_relation_id": 2508074
+    "osm_relation_id": 2508074,
+    "population": 6766
   },
   {
     "id": "FI-272",
@@ -797,7 +890,8 @@
     "country": "FI",
     "region": "Keski-Pohjanmaa",
     "domain": "kokkola.fi",
-    "osm_relation_id": 1855920
+    "osm_relation_id": 1855920,
+    "population": 48299
   },
   {
     "id": "FI-273",
@@ -805,7 +899,8 @@
     "country": "FI",
     "region": "Lappi",
     "domain": "kolari.fi",
-    "osm_relation_id": 2527260
+    "osm_relation_id": 2527260,
+    "population": 4011
   },
   {
     "id": "FI-275",
@@ -813,7 +908,8 @@
     "country": "FI",
     "region": "Keski-Suomi",
     "domain": "konnevesi.fi",
-    "osm_relation_id": 1709291
+    "osm_relation_id": 1709291,
+    "population": 2499
   },
   {
     "id": "FI-276",
@@ -821,7 +917,8 @@
     "country": "FI",
     "region": "Pohjois-Karjala",
     "domain": "kontiolahti.fi",
-    "osm_relation_id": 2521760
+    "osm_relation_id": 2521760,
+    "population": 15136
   },
   {
     "id": "FI-280",
@@ -829,7 +926,8 @@
     "country": "FI",
     "region": "Pohjanmaa",
     "domain": "korsnas.fi",
-    "osm_relation_id": 2362421
+    "osm_relation_id": 2362421,
+    "population": 2015
   },
   {
     "id": "FI-284",
@@ -837,7 +935,8 @@
     "country": "FI",
     "region": "Varsinais-Suomi",
     "domain": "koski-tl.fi",
-    "osm_relation_id": 2506379
+    "osm_relation_id": 2506379,
+    "population": 2207
   },
   {
     "id": "FI-285",
@@ -845,7 +944,8 @@
     "country": "FI",
     "region": "Kymenlaakso",
     "domain": "kotka.fi",
-    "osm_relation_id": 2485457
+    "osm_relation_id": 2485457,
+    "population": 50477
   },
   {
     "id": "FI-286",
@@ -853,7 +953,8 @@
     "country": "FI",
     "region": "Kymenlaakso",
     "domain": "kouvola.fi",
-    "osm_relation_id": 2472594
+    "osm_relation_id": 2472594,
+    "population": 78824
   },
   {
     "id": "FI-287",
@@ -861,7 +962,8 @@
     "country": "FI",
     "region": "Pohjanmaa",
     "domain": "krs.fi",
-    "osm_relation_id": 2365311
+    "osm_relation_id": 2365311,
+    "population": 6199
   },
   {
     "id": "FI-288",
@@ -869,7 +971,8 @@
     "country": "FI",
     "region": "Pohjanmaa",
     "domain": "kronoby.fi",
-    "osm_relation_id": 1855921
+    "osm_relation_id": 1855921,
+    "population": 6368
   },
   {
     "id": "FI-290",
@@ -877,7 +980,8 @@
     "country": "FI",
     "region": "Kainuu",
     "domain": "kuhmo.fi",
-    "osm_relation_id": 2525694
+    "osm_relation_id": 2525694,
+    "population": 7582
   },
   {
     "id": "FI-291",
@@ -885,7 +989,8 @@
     "country": "FI",
     "region": "Pirkanmaa",
     "domain": "kuhmoinen.fi",
-    "osm_relation_id": 1704307
+    "osm_relation_id": 1704307,
+    "population": 2092
   },
   {
     "id": "FI-295",
@@ -893,7 +998,8 @@
     "country": "FI",
     "region": "Ahvenanmaa",
     "domain": "kumlinge.ax",
-    "osm_relation_id": 2375653
+    "osm_relation_id": 2375653,
+    "population": 290
   },
   {
     "id": "FI-297",
@@ -901,7 +1007,8 @@
     "country": "FI",
     "region": "Pohjois-Savo",
     "domain": "kuopio.fi",
-    "osm_relation_id": 919417
+    "osm_relation_id": 919417,
+    "population": 124131
   },
   {
     "id": "FI-300",
@@ -909,7 +1016,8 @@
     "country": "FI",
     "region": "Etelä-Pohjanmaa",
     "domain": "kuortane.fi",
-    "osm_relation_id": 2366532
+    "osm_relation_id": 2366532,
+    "population": 3381
   },
   {
     "id": "FI-301",
@@ -917,7 +1025,8 @@
     "country": "FI",
     "region": "Etelä-Pohjanmaa",
     "domain": "kurikka.fi",
-    "osm_relation_id": 2269242
+    "osm_relation_id": 2269242,
+    "population": 19759
   },
   {
     "id": "FI-304",
@@ -925,7 +1034,8 @@
     "country": "FI",
     "region": "Varsinais-Suomi",
     "domain": "kustavi.fi",
-    "osm_relation_id": 2375715
+    "osm_relation_id": 2375715,
+    "population": 949
   },
   {
     "id": "FI-305",
@@ -933,7 +1043,8 @@
     "country": "FI",
     "region": "Pohjois-Pohjanmaa",
     "domain": "kuusamo.fi",
-    "osm_relation_id": 2525741
+    "osm_relation_id": 2525741,
+    "population": 15019
   },
   {
     "id": "FI-309",
@@ -941,7 +1052,8 @@
     "country": "FI",
     "region": "Pohjois-Karjala",
     "domain": "outokumpu.fi",
-    "osm_relation_id": 2521594
+    "osm_relation_id": 2521594,
+    "population": 6409
   },
   {
     "id": "FI-312",
@@ -949,7 +1061,8 @@
     "country": "FI",
     "region": "Keski-Suomi",
     "domain": "kyyjarvi.fi",
-    "osm_relation_id": 1702328
+    "osm_relation_id": 1702328,
+    "population": 1174
   },
   {
     "id": "FI-316",
@@ -957,7 +1070,8 @@
     "country": "FI",
     "region": "Päijät-Häme",
     "domain": "karkola.fi",
-    "osm_relation_id": 37090
+    "osm_relation_id": 37090,
+    "population": 4114
   },
   {
     "id": "FI-317",
@@ -965,7 +1079,8 @@
     "country": "FI",
     "region": "Pohjois-Pohjanmaa",
     "domain": "karsamaki.fi",
-    "osm_relation_id": 2525920
+    "osm_relation_id": 2525920,
+    "population": 2440
   },
   {
     "id": "FI-318",
@@ -981,7 +1096,8 @@
     "country": "FI",
     "region": "Lappi",
     "domain": "kemijarvi.fi",
-    "osm_relation_id": 2528662
+    "osm_relation_id": 2528662,
+    "population": 7030
   },
   {
     "id": "FI-322",
@@ -989,7 +1105,8 @@
     "country": "FI",
     "region": "Varsinais-Suomi",
     "domain": "kemionsaari.fi",
-    "osm_relation_id": 2373192
+    "osm_relation_id": 2373192,
+    "population": 6462
   },
   {
     "id": "FI-398",
@@ -997,7 +1114,8 @@
     "country": "FI",
     "region": "Päijät-Häme",
     "domain": "lahti.fi",
-    "osm_relation_id": 345901
+    "osm_relation_id": 345901,
+    "population": 120809
   },
   {
     "id": "FI-399",
@@ -1005,7 +1123,8 @@
     "country": "FI",
     "region": "Pohjanmaa",
     "domain": "laihia.fi",
-    "osm_relation_id": 2194232
+    "osm_relation_id": 2194232,
+    "population": 7682
   },
   {
     "id": "FI-400",
@@ -1013,7 +1132,8 @@
     "country": "FI",
     "region": "Varsinais-Suomi",
     "domain": "laitila.fi",
-    "osm_relation_id": 2378069
+    "osm_relation_id": 2378069,
+    "population": 8441
   },
   {
     "id": "FI-402",
@@ -1021,7 +1141,8 @@
     "country": "FI",
     "region": "Pohjois-Savo",
     "domain": "lapinlahti.fi",
-    "osm_relation_id": 2522180
+    "osm_relation_id": 2522180,
+    "population": 8975
   },
   {
     "id": "FI-403",
@@ -1029,7 +1150,8 @@
     "country": "FI",
     "region": "Etelä-Pohjanmaa",
     "domain": "lappajarvi.fi",
-    "osm_relation_id": 2213830
+    "osm_relation_id": 2213830,
+    "population": 2789
   },
   {
     "id": "FI-405",
@@ -1037,7 +1159,8 @@
     "country": "FI",
     "region": "Etelä-Karjala",
     "domain": "lappeenranta.fi",
-    "osm_relation_id": 2273016
+    "osm_relation_id": 2273016,
+    "population": 72959
   },
   {
     "id": "FI-407",
@@ -1045,7 +1168,8 @@
     "country": "FI",
     "region": "Uusimaa",
     "domain": "lapinjarvi.fi",
-    "osm_relation_id": 2473508
+    "osm_relation_id": 2473508,
+    "population": 2449
   },
   {
     "id": "FI-408",
@@ -1053,7 +1177,8 @@
     "country": "FI",
     "region": "Etelä-Pohjanmaa",
     "domain": "lapua.fi",
-    "osm_relation_id": 2361474
+    "osm_relation_id": 2361474,
+    "population": 14024
   },
   {
     "id": "FI-410",
@@ -1061,7 +1186,8 @@
     "country": "FI",
     "region": "Keski-Suomi",
     "domain": "laukaa.fi",
-    "osm_relation_id": 569417
+    "osm_relation_id": 569417,
+    "population": 18762
   },
   {
     "id": "FI-416",
@@ -1069,7 +1195,8 @@
     "country": "FI",
     "region": "Etelä-Karjala",
     "domain": "lemi.fi",
-    "osm_relation_id": 2502702
+    "osm_relation_id": 2502702,
+    "population": 2862
   },
   {
     "id": "FI-417",
@@ -1085,7 +1212,8 @@
     "country": "FI",
     "region": "Pirkanmaa",
     "domain": "lempaala.fi",
-    "osm_relation_id": 1700646
+    "osm_relation_id": 1700646,
+    "population": 24711
   },
   {
     "id": "FI-420",
@@ -1093,7 +1221,8 @@
     "country": "FI",
     "region": "Pohjois-Savo",
     "domain": "leppavirta.fi",
-    "osm_relation_id": 2521952
+    "osm_relation_id": 2521952,
+    "population": 9049
   },
   {
     "id": "FI-421",
@@ -1101,7 +1230,8 @@
     "country": "FI",
     "region": "Keski-Pohjanmaa",
     "domain": "lestijarvi.fi",
-    "osm_relation_id": 2424504
+    "osm_relation_id": 2424504,
+    "population": 682
   },
   {
     "id": "FI-422",
@@ -1109,7 +1239,8 @@
     "country": "FI",
     "region": "Pohjois-Karjala",
     "domain": "lieksa.fi",
-    "osm_relation_id": 2521761
+    "osm_relation_id": 2521761,
+    "population": 10228
   },
   {
     "id": "FI-423",
@@ -1117,7 +1248,8 @@
     "country": "FI",
     "region": "Varsinais-Suomi",
     "domain": "lieto.fi",
-    "osm_relation_id": 4446204
+    "osm_relation_id": 4446204,
+    "population": 20637
   },
   {
     "id": "FI-425",
@@ -1125,7 +1257,8 @@
     "country": "FI",
     "region": "Pohjois-Pohjanmaa",
     "domain": "liminka.fi",
-    "osm_relation_id": 2525813
+    "osm_relation_id": 2525813,
+    "population": 10256
   },
   {
     "id": "FI-426",
@@ -1133,7 +1266,8 @@
     "country": "FI",
     "region": "Pohjois-Karjala",
     "domain": "liperi.fi",
-    "osm_relation_id": 2521592
+    "osm_relation_id": 2521592,
+    "population": 11969
   },
   {
     "id": "FI-430",
@@ -1141,7 +1275,8 @@
     "country": "FI",
     "region": "Varsinais-Suomi",
     "domain": "loimaa.fi",
-    "osm_relation_id": 2385027
+    "osm_relation_id": 2385027,
+    "population": 15423
   },
   {
     "id": "FI-433",
@@ -1149,7 +1284,8 @@
     "country": "FI",
     "region": "Kanta-Häme",
     "domain": "loppi.fi",
-    "osm_relation_id": 37064
+    "osm_relation_id": 37064,
+    "population": 7692
   },
   {
     "id": "FI-434",
@@ -1157,7 +1293,8 @@
     "country": "FI",
     "region": "Uusimaa",
     "domain": "loviisa.fi",
-    "osm_relation_id": 2473051
+    "osm_relation_id": 2473051,
+    "population": 14557
   },
   {
     "id": "FI-435",
@@ -1165,7 +1302,8 @@
     "country": "FI",
     "region": "Keski-Suomi",
     "domain": "luhanka.fi",
-    "osm_relation_id": 1703365
+    "osm_relation_id": 1703365,
+    "population": 702
   },
   {
     "id": "FI-436",
@@ -1173,7 +1311,8 @@
     "country": "FI",
     "region": "Pohjois-Pohjanmaa",
     "domain": "lumijoki.fi",
-    "osm_relation_id": 2525814
+    "osm_relation_id": 2525814,
+    "population": 2033
   },
   {
     "id": "FI-438",
@@ -1189,7 +1328,8 @@
     "country": "FI",
     "region": "Pohjanmaa",
     "domain": "larsmo.fi",
-    "osm_relation_id": 1855922
+    "osm_relation_id": 1855922,
+    "population": 5843
   },
   {
     "id": "FI-441",
@@ -1197,7 +1337,8 @@
     "country": "FI",
     "region": "Etelä-Karjala",
     "domain": "luumaki.fi",
-    "osm_relation_id": 2502586
+    "osm_relation_id": 2502586,
+    "population": 4396
   },
   {
     "id": "FI-444",
@@ -1205,7 +1346,8 @@
     "country": "FI",
     "region": "Uusimaa",
     "domain": "lohja.fi",
-    "osm_relation_id": 2752633
+    "osm_relation_id": 2752633,
+    "population": 45645
   },
   {
     "id": "FI-445",
@@ -1213,7 +1355,8 @@
     "country": "FI",
     "region": "Varsinais-Suomi",
     "domain": "parainen.fi",
-    "osm_relation_id": 2374222
+    "osm_relation_id": 2374222,
+    "population": 14999
   },
   {
     "id": "FI-475",
@@ -1221,7 +1364,8 @@
     "country": "FI",
     "region": "Pohjanmaa",
     "domain": "malax.fi",
-    "osm_relation_id": 1855923
+    "osm_relation_id": 1855923,
+    "population": 5456
   },
   {
     "id": "FI-478",
@@ -1229,7 +1373,8 @@
     "country": "FI",
     "region": "Ahvenanmaa",
     "domain": "mariehamn.ax",
-    "osm_relation_id": 2297665
+    "osm_relation_id": 2297665,
+    "population": 11812
   },
   {
     "id": "FI-480",
@@ -1245,7 +1390,8 @@
     "country": "FI",
     "region": "Varsinais-Suomi",
     "domain": "masku.fi",
-    "osm_relation_id": 2381627
+    "osm_relation_id": 2381627,
+    "population": 9619
   },
   {
     "id": "FI-483",
@@ -1253,7 +1399,8 @@
     "country": "FI",
     "region": "Pohjois-Pohjanmaa",
     "domain": "merijarvi.fi",
-    "osm_relation_id": 2525921
+    "osm_relation_id": 2525921,
+    "population": 1055
   },
   {
     "id": "FI-484",
@@ -1261,7 +1408,8 @@
     "country": "FI",
     "region": "Satakunta",
     "domain": "merikarvia.fi",
-    "osm_relation_id": 2506784
+    "osm_relation_id": 2506784,
+    "population": 2966
   },
   {
     "id": "FI-489",
@@ -1269,7 +1417,8 @@
     "country": "FI",
     "region": "Kymenlaakso",
     "domain": "miehikkala.fi",
-    "osm_relation_id": 2502573
+    "osm_relation_id": 2502573,
+    "population": 1752
   },
   {
     "id": "FI-491",
@@ -1277,7 +1426,8 @@
     "country": "FI",
     "region": "Etelä-Savo",
     "domain": "mikkeli.fi",
-    "osm_relation_id": 2752683
+    "osm_relation_id": 2752683,
+    "population": 51919
   },
   {
     "id": "FI-494",
@@ -1285,7 +1435,8 @@
     "country": "FI",
     "region": "Pohjois-Pohjanmaa",
     "domain": "muhos.fi",
-    "osm_relation_id": 2525815
+    "osm_relation_id": 2525815,
+    "population": 8827
   },
   {
     "id": "FI-495",
@@ -1293,7 +1444,8 @@
     "country": "FI",
     "region": "Keski-Suomi",
     "domain": "multia.fi",
-    "osm_relation_id": 1702329
+    "osm_relation_id": 1702329,
+    "population": 1430
   },
   {
     "id": "FI-498",
@@ -1301,7 +1453,8 @@
     "country": "FI",
     "region": "Lappi",
     "domain": "muonio.fi",
-    "osm_relation_id": 2266939
+    "osm_relation_id": 2266939,
+    "population": 2325
   },
   {
     "id": "FI-499",
@@ -1309,7 +1462,8 @@
     "country": "FI",
     "region": "Pohjanmaa",
     "domain": "mustasaari.fi",
-    "osm_relation_id": 1855924
+    "osm_relation_id": 1855924,
+    "population": 19763
   },
   {
     "id": "FI-500",
@@ -1317,7 +1471,8 @@
     "country": "FI",
     "region": "Keski-Suomi",
     "domain": "muurame.fi",
-    "osm_relation_id": 569408
+    "osm_relation_id": 569408,
+    "population": 10551
   },
   {
     "id": "FI-503",
@@ -1325,7 +1480,8 @@
     "country": "FI",
     "region": "Varsinais-Suomi",
     "domain": "mynamaki.fi",
-    "osm_relation_id": 2378805
+    "osm_relation_id": 2378805,
+    "population": 7515
   },
   {
     "id": "FI-504",
@@ -1333,7 +1489,8 @@
     "country": "FI",
     "region": "Uusimaa",
     "domain": "myrskyla.fi",
-    "osm_relation_id": 37204
+    "osm_relation_id": 37204,
+    "population": 1715
   },
   {
     "id": "FI-505",
@@ -1341,7 +1498,8 @@
     "country": "FI",
     "region": "Uusimaa",
     "domain": "mantsala.fi",
-    "osm_relation_id": 36117
+    "osm_relation_id": 36117,
+    "population": 20957
   },
   {
     "id": "FI-507",
@@ -1349,7 +1507,8 @@
     "country": "FI",
     "region": "Etelä-Savo",
     "domain": "mantyharju.fi",
-    "osm_relation_id": 2519795
+    "osm_relation_id": 2519795,
+    "population": 5522
   },
   {
     "id": "FI-508",
@@ -1357,7 +1516,8 @@
     "country": "FI",
     "region": "Pirkanmaa",
     "domain": "manttavilppula.fi",
-    "osm_relation_id": 1701738
+    "osm_relation_id": 1701738,
+    "population": 9271
   },
   {
     "id": "FI-529",
@@ -1365,7 +1525,8 @@
     "country": "FI",
     "region": "Varsinais-Suomi",
     "domain": "naantali.fi",
-    "osm_relation_id": 2376175
+    "osm_relation_id": 2376175,
+    "population": 19999
   },
   {
     "id": "FI-531",
@@ -1373,7 +1534,8 @@
     "country": "FI",
     "region": "Satakunta",
     "domain": "nakkila.fi",
-    "osm_relation_id": 2506785
+    "osm_relation_id": 2506785,
+    "population": 4966
   },
   {
     "id": "FI-535",
@@ -1381,7 +1543,8 @@
     "country": "FI",
     "region": "Pohjois-Pohjanmaa",
     "domain": "nivala.fi",
-    "osm_relation_id": 2525922
+    "osm_relation_id": 2525922,
+    "population": 10454
   },
   {
     "id": "FI-536",
@@ -1389,7 +1552,8 @@
     "country": "FI",
     "region": "Pirkanmaa",
     "domain": "nokia.fi",
-    "osm_relation_id": 75300
+    "osm_relation_id": 75300,
+    "population": 35730
   },
   {
     "id": "FI-538",
@@ -1397,7 +1561,8 @@
     "country": "FI",
     "region": "Varsinais-Suomi",
     "domain": "nousiainen.fi",
-    "osm_relation_id": 2379144
+    "osm_relation_id": 2379144,
+    "population": 4695
   },
   {
     "id": "FI-541",
@@ -1405,7 +1570,8 @@
     "country": "FI",
     "region": "Pohjois-Karjala",
     "domain": "nurmes.fi",
-    "osm_relation_id": 2521593
+    "osm_relation_id": 2521593,
+    "population": 9130
   },
   {
     "id": "FI-543",
@@ -1413,7 +1579,8 @@
     "country": "FI",
     "region": "Uusimaa",
     "domain": "nurmijarvi.fi",
-    "osm_relation_id": 36098
+    "osm_relation_id": 36098,
+    "population": 44833
   },
   {
     "id": "FI-545",
@@ -1421,7 +1588,8 @@
     "country": "FI",
     "region": "Pohjanmaa",
     "domain": "narpio.fi",
-    "osm_relation_id": 2320684
+    "osm_relation_id": 2320684,
+    "population": 9621
   },
   {
     "id": "FI-560",
@@ -1429,7 +1597,8 @@
     "country": "FI",
     "region": "Päijät-Häme",
     "domain": "orimattila.fi",
-    "osm_relation_id": 37167
+    "osm_relation_id": 37167,
+    "population": 15669
   },
   {
     "id": "FI-561",
@@ -1437,7 +1606,8 @@
     "country": "FI",
     "region": "Varsinais-Suomi",
     "domain": "oripaa.fi",
-    "osm_relation_id": 2506381
+    "osm_relation_id": 2506381,
+    "population": 1315
   },
   {
     "id": "FI-562",
@@ -1445,7 +1615,8 @@
     "country": "FI",
     "region": "Pirkanmaa",
     "domain": "orivesi.fi",
-    "osm_relation_id": 1700624
+    "osm_relation_id": 1700624,
+    "population": 8842
   },
   {
     "id": "FI-563",
@@ -1453,7 +1624,8 @@
     "country": "FI",
     "region": "Pohjois-Pohjanmaa",
     "domain": "oulainen.fi",
-    "osm_relation_id": 2525923
+    "osm_relation_id": 2525923,
+    "population": 6978
   },
   {
     "id": "FI-564",
@@ -1461,7 +1633,8 @@
     "country": "FI",
     "region": "Pohjois-Pohjanmaa",
     "domain": "ouka.fi",
-    "osm_relation_id": 2711874
+    "osm_relation_id": 2711874,
+    "population": 214814
   },
   {
     "id": "FI-576",
@@ -1477,7 +1650,8 @@
     "country": "FI",
     "region": "Varsinais-Suomi",
     "domain": "paimio.fi",
-    "osm_relation_id": 2506382
+    "osm_relation_id": 2506382,
+    "population": 11236
   },
   {
     "id": "FI-578",
@@ -1485,7 +1659,8 @@
     "country": "FI",
     "region": "Kainuu",
     "domain": "paltamo.fi",
-    "osm_relation_id": 2525695
+    "osm_relation_id": 2525695,
+    "population": 3037
   },
   {
     "id": "FI-580",
@@ -1493,7 +1668,8 @@
     "country": "FI",
     "region": "Etelä-Karjala",
     "domain": "parikkala.fi",
-    "osm_relation_id": 2309671
+    "osm_relation_id": 2309671,
+    "population": 4366
   },
   {
     "id": "FI-581",
@@ -1501,7 +1677,8 @@
     "country": "FI",
     "region": "Pirkanmaa",
     "domain": "parkano.fi",
-    "osm_relation_id": 2270669
+    "osm_relation_id": 2270669,
+    "population": 6123
   },
   {
     "id": "FI-583",
@@ -1509,7 +1686,8 @@
     "country": "FI",
     "region": "Lappi",
     "domain": "pelkosenniemi.fi",
-    "osm_relation_id": 2528663
+    "osm_relation_id": 2528663,
+    "population": 912
   },
   {
     "id": "FI-584",
@@ -1517,7 +1695,8 @@
     "country": "FI",
     "region": "Keski-Pohjanmaa",
     "domain": "perho.fi",
-    "osm_relation_id": 2420899
+    "osm_relation_id": 2420899,
+    "population": 2578
   },
   {
     "id": "FI-592",
@@ -1525,7 +1704,8 @@
     "country": "FI",
     "region": "Keski-Suomi",
     "domain": "petajavesi.fi",
-    "osm_relation_id": 1208006
+    "osm_relation_id": 1208006,
+    "population": 3596
   },
   {
     "id": "FI-593",
@@ -1533,7 +1713,8 @@
     "country": "FI",
     "region": "Etelä-Savo",
     "domain": "pieksamaki.fi",
-    "osm_relation_id": 918895
+    "osm_relation_id": 918895,
+    "population": 17050
   },
   {
     "id": "FI-595",
@@ -1549,7 +1730,8 @@
     "country": "FI",
     "region": "Pohjanmaa",
     "domain": "pietarsaari.fi",
-    "osm_relation_id": 1855918
+    "osm_relation_id": 1855918,
+    "population": 19475
   },
   {
     "id": "FI-599",
@@ -1557,7 +1739,8 @@
     "country": "FI",
     "region": "Pohjanmaa",
     "domain": "pedersore.fi",
-    "osm_relation_id": 1855925
+    "osm_relation_id": 1855925,
+    "population": 11225
   },
   {
     "id": "FI-601",
@@ -1565,7 +1748,8 @@
     "country": "FI",
     "region": "Keski-Suomi",
     "domain": "pihtipudas.fi",
-    "osm_relation_id": 2424664
+    "osm_relation_id": 2424664,
+    "population": 3739
   },
   {
     "id": "FI-604",
@@ -1573,7 +1757,8 @@
     "country": "FI",
     "region": "Pirkanmaa",
     "domain": "pirkkala.fi",
-    "osm_relation_id": 1700655
+    "osm_relation_id": 1700655,
+    "population": 20763
   },
   {
     "id": "FI-607",
@@ -1581,7 +1766,8 @@
     "country": "FI",
     "region": "Pohjois-Karjala",
     "domain": "polvijarvi.fi",
-    "osm_relation_id": 2521595
+    "osm_relation_id": 2521595,
+    "population": 4064
   },
   {
     "id": "FI-608",
@@ -1589,7 +1775,8 @@
     "country": "FI",
     "region": "Satakunta",
     "domain": "pomarkku.fi",
-    "osm_relation_id": 2506787
+    "osm_relation_id": 2506787,
+    "population": 1943
   },
   {
     "id": "FI-609",
@@ -1597,7 +1784,8 @@
     "country": "FI",
     "region": "Satakunta",
     "domain": "pori.fi",
-    "osm_relation_id": 4446212
+    "osm_relation_id": 4446212,
+    "population": 83219
   },
   {
     "id": "FI-611",
@@ -1605,7 +1793,8 @@
     "country": "FI",
     "region": "Uusimaa",
     "domain": "pornainen.fi",
-    "osm_relation_id": 37194
+    "osm_relation_id": 37194,
+    "population": 4973
   },
   {
     "id": "FI-614",
@@ -1613,7 +1802,8 @@
     "country": "FI",
     "region": "Lappi",
     "domain": "posio.fi",
-    "osm_relation_id": 2528472
+    "osm_relation_id": 2528472,
+    "population": 2923
   },
   {
     "id": "FI-615",
@@ -1621,7 +1811,8 @@
     "country": "FI",
     "region": "Pohjois-Pohjanmaa",
     "domain": "pudasjarvi.fi",
-    "osm_relation_id": 2525742
+    "osm_relation_id": 2525742,
+    "population": 7479
   },
   {
     "id": "FI-616",
@@ -1629,7 +1820,8 @@
     "country": "FI",
     "region": "Uusimaa",
     "domain": "pukkila.fi",
-    "osm_relation_id": 37203
+    "osm_relation_id": 37203,
+    "population": 1781
   },
   {
     "id": "FI-619",
@@ -1637,7 +1829,8 @@
     "country": "FI",
     "region": "Pirkanmaa",
     "domain": "punkalaidun.fi",
-    "osm_relation_id": 2387683
+    "osm_relation_id": 2387683,
+    "population": 2650
   },
   {
     "id": "FI-620",
@@ -1645,7 +1838,8 @@
     "country": "FI",
     "region": "Kainuu",
     "domain": "puolanka.fi",
-    "osm_relation_id": 2525696
+    "osm_relation_id": 2525696,
+    "population": 2359
   },
   {
     "id": "FI-623",
@@ -1653,7 +1847,8 @@
     "country": "FI",
     "region": "Etelä-Savo",
     "domain": "puumala.fi",
-    "osm_relation_id": 2301965
+    "osm_relation_id": 2301965,
+    "population": 2108
   },
   {
     "id": "FI-624",
@@ -1669,7 +1864,8 @@
     "country": "FI",
     "region": "Pohjois-Pohjanmaa",
     "domain": "pyhajoki.fi",
-    "osm_relation_id": 2525924
+    "osm_relation_id": 2525924,
+    "population": 2980
   },
   {
     "id": "FI-626",
@@ -1677,7 +1873,8 @@
     "country": "FI",
     "region": "Pohjois-Pohjanmaa",
     "domain": "pyhajarvi.fi",
-    "osm_relation_id": 2525816
+    "osm_relation_id": 2525816,
+    "population": 4756
   },
   {
     "id": "FI-630",
@@ -1685,7 +1882,8 @@
     "country": "FI",
     "region": "Pohjois-Pohjanmaa",
     "domain": "pyhanta.fi",
-    "osm_relation_id": 2525817
+    "osm_relation_id": 2525817,
+    "population": 1646
   },
   {
     "id": "FI-631",
@@ -1701,7 +1899,8 @@
     "country": "FI",
     "region": "Pirkanmaa",
     "domain": "palkane.fi",
-    "osm_relation_id": 2373140
+    "osm_relation_id": 2373140,
+    "population": 6337
   },
   {
     "id": "FI-636",
@@ -1709,7 +1908,8 @@
     "country": "FI",
     "region": "Varsinais-Suomi",
     "domain": "poytya.fi",
-    "osm_relation_id": 2379143
+    "osm_relation_id": 2379143,
+    "population": 8130
   },
   {
     "id": "FI-638",
@@ -1717,7 +1917,8 @@
     "country": "FI",
     "region": "Uusimaa",
     "domain": "porvoo.fi",
-    "osm_relation_id": 37197
+    "osm_relation_id": 37197,
+    "population": 51464
   },
   {
     "id": "FI-678",
@@ -1725,7 +1926,8 @@
     "country": "FI",
     "region": "Pohjois-Pohjanmaa",
     "domain": "raahe.fi",
-    "osm_relation_id": 2752723
+    "osm_relation_id": 2752723,
+    "population": 23797
   },
   {
     "id": "FI-680",
@@ -1733,7 +1935,8 @@
     "country": "FI",
     "region": "Varsinais-Suomi",
     "domain": "raisio.fi",
-    "osm_relation_id": 2506383
+    "osm_relation_id": 2506383,
+    "population": 25331
   },
   {
     "id": "FI-681",
@@ -1741,7 +1944,8 @@
     "country": "FI",
     "region": "Etelä-Savo",
     "domain": "rantasalmi.fi",
-    "osm_relation_id": 2522464
+    "osm_relation_id": 2522464,
+    "population": 3297
   },
   {
     "id": "FI-683",
@@ -1749,7 +1953,8 @@
     "country": "FI",
     "region": "Lappi",
     "domain": "ranua.fi",
-    "osm_relation_id": 2528473
+    "osm_relation_id": 2528473,
+    "population": 3599
   },
   {
     "id": "FI-684",
@@ -1757,7 +1962,8 @@
     "country": "FI",
     "region": "Satakunta",
     "domain": "rauma.fi",
-    "osm_relation_id": 2377364
+    "osm_relation_id": 2377364,
+    "population": 38832
   },
   {
     "id": "FI-686",
@@ -1765,7 +1971,8 @@
     "country": "FI",
     "region": "Pohjois-Savo",
     "domain": "rautalampi.fi",
-    "osm_relation_id": 1214216
+    "osm_relation_id": 1214216,
+    "population": 2933
   },
   {
     "id": "FI-687",
@@ -1773,7 +1980,8 @@
     "country": "FI",
     "region": "Pohjois-Savo",
     "domain": "rautavaara.fi",
-    "osm_relation_id": 2522181
+    "osm_relation_id": 2522181,
+    "population": 1424
   },
   {
     "id": "FI-689",
@@ -1781,7 +1989,8 @@
     "country": "FI",
     "region": "Etelä-Karjala",
     "domain": "rautjarvi.fi",
-    "osm_relation_id": 2257160
+    "osm_relation_id": 2257160,
+    "population": 3032
   },
   {
     "id": "FI-691",
@@ -1789,7 +1998,8 @@
     "country": "FI",
     "region": "Pohjois-Pohjanmaa",
     "domain": "reisjarvi.fi",
-    "osm_relation_id": 2525926
+    "osm_relation_id": 2525926,
+    "population": 2598
   },
   {
     "id": "FI-694",
@@ -1797,7 +2007,8 @@
     "country": "FI",
     "region": "Kanta-Häme",
     "domain": "riihimaki.fi",
-    "osm_relation_id": 37066
+    "osm_relation_id": 37066,
+    "population": 28483
   },
   {
     "id": "FI-697",
@@ -1805,7 +2016,8 @@
     "country": "FI",
     "region": "Kainuu",
     "domain": "ristijarvi.fi",
-    "osm_relation_id": 2525697
+    "osm_relation_id": 2525697,
+    "population": 1164
   },
   {
     "id": "FI-698",
@@ -1813,7 +2025,8 @@
     "country": "FI",
     "region": "Lappi",
     "domain": "rovaniemi.fi",
-    "osm_relation_id": 2528474
+    "osm_relation_id": 2528474,
+    "population": 65329
   },
   {
     "id": "FI-700",
@@ -1821,7 +2034,8 @@
     "country": "FI",
     "region": "Etelä-Karjala",
     "domain": "ruokolahti.fi",
-    "osm_relation_id": 2257159
+    "osm_relation_id": 2257159,
+    "population": 4758
   },
   {
     "id": "FI-702",
@@ -1829,7 +2043,8 @@
     "country": "FI",
     "region": "Pirkanmaa",
     "domain": "ruovesi.fi",
-    "osm_relation_id": 1670949
+    "osm_relation_id": 1670949,
+    "population": 4124
   },
   {
     "id": "FI-704",
@@ -1845,7 +2060,8 @@
     "country": "FI",
     "region": "Pohjois-Karjala",
     "domain": "raakkyla.fi",
-    "osm_relation_id": 405791
+    "osm_relation_id": 405791,
+    "population": 1902
   },
   {
     "id": "FI-710",
@@ -1853,7 +2069,8 @@
     "country": "FI",
     "region": "Uusimaa",
     "domain": "raasepori.fi",
-    "osm_relation_id": 452116
+    "osm_relation_id": 452116,
+    "population": 27209
   },
   {
     "id": "FI-729",
@@ -1861,7 +2078,8 @@
     "country": "FI",
     "region": "Keski-Suomi",
     "domain": "saarijarvi.fi",
-    "osm_relation_id": 1702335
+    "osm_relation_id": 1702335,
+    "population": 8847
   },
   {
     "id": "FI-732",
@@ -1869,7 +2087,8 @@
     "country": "FI",
     "region": "Lappi",
     "domain": "salla.fi",
-    "osm_relation_id": 2528664
+    "osm_relation_id": 2528664,
+    "population": 3344
   },
   {
     "id": "FI-734",
@@ -1877,7 +2096,8 @@
     "country": "FI",
     "region": "Varsinais-Suomi",
     "domain": "salo.fi",
-    "osm_relation_id": 2373964
+    "osm_relation_id": 2373964,
+    "population": 51056
   },
   {
     "id": "FI-736",
@@ -1909,7 +2129,8 @@
     "country": "FI",
     "region": "Etelä-Savo",
     "domain": "savonlinna.fi",
-    "osm_relation_id": 2673137
+    "osm_relation_id": 2673137,
+    "population": 31842
   },
   {
     "id": "FI-742",
@@ -1917,7 +2138,8 @@
     "country": "FI",
     "region": "Lappi",
     "domain": "savukoski.fi",
-    "osm_relation_id": 2528665
+    "osm_relation_id": 2528665,
+    "population": 978
   },
   {
     "id": "FI-743",
@@ -1925,7 +2147,8 @@
     "country": "FI",
     "region": "Etelä-Pohjanmaa",
     "domain": "seinajoki.fi",
-    "osm_relation_id": 2216875
+    "osm_relation_id": 2216875,
+    "population": 66271
   },
   {
     "id": "FI-746",
@@ -1933,7 +2156,8 @@
     "country": "FI",
     "region": "Pohjois-Pohjanmaa",
     "domain": "sievi.fi",
-    "osm_relation_id": 2525927
+    "osm_relation_id": 2525927,
+    "population": 4713
   },
   {
     "id": "FI-747",
@@ -1941,7 +2165,8 @@
     "country": "FI",
     "region": "Satakunta",
     "domain": "siikainen.fi",
-    "osm_relation_id": 2506789
+    "osm_relation_id": 2506789,
+    "population": 1283
   },
   {
     "id": "FI-748",
@@ -1949,7 +2174,8 @@
     "country": "FI",
     "region": "Pohjois-Pohjanmaa",
     "domain": "siikajoki.fi",
-    "osm_relation_id": 2525928
+    "osm_relation_id": 2525928,
+    "population": 4837
   },
   {
     "id": "FI-749",
@@ -1957,7 +2183,8 @@
     "country": "FI",
     "region": "Pohjois-Savo",
     "domain": "siilinjarvi.fi",
-    "osm_relation_id": 1406989
+    "osm_relation_id": 1406989,
+    "population": 21290
   },
   {
     "id": "FI-751",
@@ -1965,7 +2192,8 @@
     "country": "FI",
     "region": "Lappi",
     "domain": "simo.fi",
-    "osm_relation_id": 2528475
+    "osm_relation_id": 2528475,
+    "population": 2828
   },
   {
     "id": "FI-753",
@@ -1973,7 +2201,8 @@
     "country": "FI",
     "region": "Uusimaa",
     "domain": "sipoo.fi",
-    "osm_relation_id": 35159
+    "osm_relation_id": 35159,
+    "population": 22595
   },
   {
     "id": "FI-755",
@@ -1981,7 +2210,8 @@
     "country": "FI",
     "region": "Uusimaa",
     "domain": "siuntio.fi",
-    "osm_relation_id": 36102
+    "osm_relation_id": 36102,
+    "population": 6158
   },
   {
     "id": "FI-758",
@@ -1989,7 +2219,8 @@
     "country": "FI",
     "region": "Lappi",
     "domain": "sodankyla.fi",
-    "osm_relation_id": 2528666
+    "osm_relation_id": 2528666,
+    "population": 8126
   },
   {
     "id": "FI-759",
@@ -1997,7 +2228,8 @@
     "country": "FI",
     "region": "Etelä-Pohjanmaa",
     "domain": "soini.fi",
-    "osm_relation_id": 1702332
+    "osm_relation_id": 1702332,
+    "population": 1873
   },
   {
     "id": "FI-761",
@@ -2005,7 +2237,8 @@
     "country": "FI",
     "region": "Varsinais-Suomi",
     "domain": "somero.fi",
-    "osm_relation_id": 38111
+    "osm_relation_id": 38111,
+    "population": 8410
   },
   {
     "id": "FI-762",
@@ -2013,7 +2246,8 @@
     "country": "FI",
     "region": "Pohjois-Savo",
     "domain": "sonkajarvi.fi",
-    "osm_relation_id": 2522198
+    "osm_relation_id": 2522198,
+    "population": 3637
   },
   {
     "id": "FI-765",
@@ -2021,7 +2255,8 @@
     "country": "FI",
     "region": "Kainuu",
     "domain": "sotkamo.fi",
-    "osm_relation_id": 2525698
+    "osm_relation_id": 2525698,
+    "population": 10274
   },
   {
     "id": "FI-766",
@@ -2029,7 +2264,8 @@
     "country": "FI",
     "region": "Ahvenanmaa",
     "domain": "sottunga.ax",
-    "osm_relation_id": 2375652
+    "osm_relation_id": 2375652,
+    "population": 115
   },
   {
     "id": "FI-768",
@@ -2037,7 +2273,8 @@
     "country": "FI",
     "region": "Etelä-Savo",
     "domain": "sulkava.fi",
-    "osm_relation_id": 2522467
+    "osm_relation_id": 2522467,
+    "population": 2368
   },
   {
     "id": "FI-771",
@@ -2053,7 +2290,8 @@
     "country": "FI",
     "region": "Kainuu",
     "domain": "suomussalmi.fi",
-    "osm_relation_id": 2525699
+    "osm_relation_id": 2525699,
+    "population": 7172
   },
   {
     "id": "FI-778",
@@ -2061,7 +2299,8 @@
     "country": "FI",
     "region": "Pohjois-Savo",
     "domain": "suonenjoki.fi",
-    "osm_relation_id": 918896
+    "osm_relation_id": 918896,
+    "population": 6708
   },
   {
     "id": "FI-781",
@@ -2069,7 +2308,8 @@
     "country": "FI",
     "region": "Päijät-Häme",
     "domain": "sysma.fi",
-    "osm_relation_id": 1704306
+    "osm_relation_id": 1704306,
+    "population": 3496
   },
   {
     "id": "FI-783",
@@ -2077,7 +2317,8 @@
     "country": "FI",
     "region": "Satakunta",
     "domain": "sakyla.fi",
-    "osm_relation_id": 2385028
+    "osm_relation_id": 2385028,
+    "population": 6377
   },
   {
     "id": "FI-785",
@@ -2085,7 +2326,8 @@
     "country": "FI",
     "region": "Pohjois-Pohjanmaa",
     "domain": "vaala.fi",
-    "osm_relation_id": 2525700
+    "osm_relation_id": 2525700,
+    "population": 2589
   },
   {
     "id": "FI-790",
@@ -2093,7 +2335,8 @@
     "country": "FI",
     "region": "Pirkanmaa",
     "domain": "sastamala.fi",
-    "osm_relation_id": 2524088
+    "osm_relation_id": 2524088,
+    "population": 23515
   },
   {
     "id": "FI-791",
@@ -2101,7 +2344,8 @@
     "country": "FI",
     "region": "Pohjois-Pohjanmaa",
     "domain": "siikalatva.fi",
-    "osm_relation_id": 2525940
+    "osm_relation_id": 2525940,
+    "population": 4931
   },
   {
     "id": "FI-831",
@@ -2109,7 +2353,8 @@
     "country": "FI",
     "region": "Etelä-Karjala",
     "domain": "taipalsaari.fi",
-    "osm_relation_id": 2289002
+    "osm_relation_id": 2289002,
+    "population": 4625
   },
   {
     "id": "FI-832",
@@ -2117,7 +2362,8 @@
     "country": "FI",
     "region": "Pohjois-Pohjanmaa",
     "domain": "taivalkoski.fi",
-    "osm_relation_id": 2525743
+    "osm_relation_id": 2525743,
+    "population": 3731
   },
   {
     "id": "FI-833",
@@ -2125,7 +2371,8 @@
     "country": "FI",
     "region": "Varsinais-Suomi",
     "domain": "taivassalo.fi",
-    "osm_relation_id": 2376176
+    "osm_relation_id": 2376176,
+    "population": 1705
   },
   {
     "id": "FI-834",
@@ -2133,7 +2380,8 @@
     "country": "FI",
     "region": "Kanta-Häme",
     "domain": "tammela.fi",
-    "osm_relation_id": 37078
+    "osm_relation_id": 37078,
+    "population": 5844
   },
   {
     "id": "FI-837",
@@ -2141,7 +2389,8 @@
     "country": "FI",
     "region": "Pirkanmaa",
     "domain": "tampere.fi",
-    "osm_relation_id": 3579531
+    "osm_relation_id": 3579531,
+    "population": 255333
   },
   {
     "id": "FI-844",
@@ -2149,7 +2398,8 @@
     "country": "FI",
     "region": "Pohjois-Savo",
     "domain": "tervo.fi",
-    "osm_relation_id": 2433381
+    "osm_relation_id": 2433381,
+    "population": 1412
   },
   {
     "id": "FI-845",
@@ -2157,7 +2407,8 @@
     "country": "FI",
     "region": "Lappi",
     "domain": "tervola.fi",
-    "osm_relation_id": 2528476
+    "osm_relation_id": 2528476,
+    "population": 2831
   },
   {
     "id": "FI-846",
@@ -2165,7 +2416,8 @@
     "country": "FI",
     "region": "Etelä-Pohjanmaa",
     "domain": "teuva.fi",
-    "osm_relation_id": 2364122
+    "osm_relation_id": 2364122,
+    "population": 4758
   },
   {
     "id": "FI-848",
@@ -2173,7 +2425,8 @@
     "country": "FI",
     "region": "Pohjois-Karjala",
     "domain": "tohmajarvi.fi",
-    "osm_relation_id": 2521762
+    "osm_relation_id": 2521762,
+    "population": 4066
   },
   {
     "id": "FI-849",
@@ -2181,7 +2434,8 @@
     "country": "FI",
     "region": "Keski-Pohjanmaa",
     "domain": "toholampi.fi",
-    "osm_relation_id": 2523790
+    "osm_relation_id": 2523790,
+    "population": 2849
   },
   {
     "id": "FI-850",
@@ -2189,7 +2443,8 @@
     "country": "FI",
     "region": "Keski-Suomi",
     "domain": "toivakka.fi",
-    "osm_relation_id": 1703340
+    "osm_relation_id": 1703340,
+    "population": 2368
   },
   {
     "id": "FI-851",
@@ -2197,7 +2452,8 @@
     "country": "FI",
     "region": "Lappi",
     "domain": "tornio.fi",
-    "osm_relation_id": 403011
+    "osm_relation_id": 403011,
+    "population": 21018
   },
   {
     "id": "FI-853",
@@ -2213,7 +2469,8 @@
     "country": "FI",
     "region": "Lappi",
     "domain": "pello.fi",
-    "osm_relation_id": 2527261
+    "osm_relation_id": 2527261,
+    "population": 3253
   },
   {
     "id": "FI-857",
@@ -2221,7 +2478,8 @@
     "country": "FI",
     "region": "Pohjois-Savo",
     "domain": "tuusniemi.fi",
-    "osm_relation_id": 2426368
+    "osm_relation_id": 2426368,
+    "population": 2313
   },
   {
     "id": "FI-858",
@@ -2229,7 +2487,8 @@
     "country": "FI",
     "region": "Uusimaa",
     "domain": "tuusula.fi",
-    "osm_relation_id": 35158
+    "osm_relation_id": 35158,
+    "population": 41475
   },
   {
     "id": "FI-859",
@@ -2237,7 +2496,8 @@
     "country": "FI",
     "region": "Pohjois-Pohjanmaa",
     "domain": "tyrnava.fi",
-    "osm_relation_id": 2525818
+    "osm_relation_id": 2525818,
+    "population": 6525
   },
   {
     "id": "FI-886",
@@ -2245,7 +2505,8 @@
     "country": "FI",
     "region": "Satakunta",
     "domain": "ulvila.fi",
-    "osm_relation_id": 2506790
+    "osm_relation_id": 2506790,
+    "population": 12533
   },
   {
     "id": "FI-887",
@@ -2253,7 +2514,8 @@
     "country": "FI",
     "region": "Pirkanmaa",
     "domain": "urjala.fi",
-    "osm_relation_id": 2387806
+    "osm_relation_id": 2387806,
+    "population": 4568
   },
   {
     "id": "FI-889",
@@ -2261,7 +2523,8 @@
     "country": "FI",
     "region": "Pohjois-Pohjanmaa",
     "domain": "utajarvi.fi",
-    "osm_relation_id": 2525744
+    "osm_relation_id": 2525744,
+    "population": 2491
   },
   {
     "id": "FI-890",
@@ -2269,7 +2532,8 @@
     "country": "FI",
     "region": "Lappi",
     "domain": "utsjoki.fi",
-    "osm_relation_id": 1724822
+    "osm_relation_id": 1724822,
+    "population": 1139
   },
   {
     "id": "FI-892",
@@ -2277,7 +2541,8 @@
     "country": "FI",
     "region": "Keski-Suomi",
     "domain": "uurainen.fi",
-    "osm_relation_id": 1200893
+    "osm_relation_id": 1200893,
+    "population": 3615
   },
   {
     "id": "FI-893",
@@ -2285,7 +2550,8 @@
     "country": "FI",
     "region": "Pohjanmaa",
     "domain": "uusikaarlepyy.fi",
-    "osm_relation_id": 1855329
+    "osm_relation_id": 1855329,
+    "population": 7500
   },
   {
     "id": "FI-895",
@@ -2293,7 +2559,8 @@
     "country": "FI",
     "region": "Varsinais-Suomi",
     "domain": "uusikaupunki.fi",
-    "osm_relation_id": 2376177
+    "osm_relation_id": 2376177,
+    "population": 14938
   },
   {
     "id": "FI-905",
@@ -2301,7 +2568,8 @@
     "country": "FI",
     "region": "Pohjanmaa",
     "domain": "vaasa.fi",
-    "osm_relation_id": 1855926
+    "osm_relation_id": 1855926,
+    "population": 69036
   },
   {
     "id": "FI-908",
@@ -2309,7 +2577,8 @@
     "country": "FI",
     "region": "Pirkanmaa",
     "domain": "valkeakoski.fi",
-    "osm_relation_id": 2248587
+    "osm_relation_id": 2248587,
+    "population": 20694
   },
   {
     "id": "FI-915",
@@ -2317,7 +2586,8 @@
     "country": "FI",
     "region": "Pohjois-Savo",
     "domain": "varkaus.fi",
-    "osm_relation_id": 2521955
+    "osm_relation_id": 2521955,
+    "population": 19727
   },
   {
     "id": "FI-918",
@@ -2325,7 +2595,8 @@
     "country": "FI",
     "region": "Varsinais-Suomi",
     "domain": "vehmaa.fi",
-    "osm_relation_id": 2384801
+    "osm_relation_id": 2384801,
+    "population": 2245
   },
   {
     "id": "FI-921",
@@ -2333,7 +2604,8 @@
     "country": "FI",
     "region": "Pohjois-Savo",
     "domain": "vesanto.fi",
-    "osm_relation_id": 1709292
+    "osm_relation_id": 1709292,
+    "population": 1895
   },
   {
     "id": "FI-922",
@@ -2341,7 +2613,8 @@
     "country": "FI",
     "region": "Pirkanmaa",
     "domain": "vesilahti.fi",
-    "osm_relation_id": 2524089
+    "osm_relation_id": 2524089,
+    "population": 4469
   },
   {
     "id": "FI-924",
@@ -2349,7 +2622,8 @@
     "country": "FI",
     "region": "Keski-Pohjanmaa",
     "domain": "veteli.fi",
-    "osm_relation_id": 2213831
+    "osm_relation_id": 2213831,
+    "population": 2936
   },
   {
     "id": "FI-925",
@@ -2357,7 +2631,8 @@
     "country": "FI",
     "region": "Pohjois-Savo",
     "domain": "vierema.fi",
-    "osm_relation_id": 2522182
+    "osm_relation_id": 2522182,
+    "population": 3387
   },
   {
     "id": "FI-927",
@@ -2365,7 +2640,8 @@
     "country": "FI",
     "region": "Uusimaa",
     "domain": "vihti.fi",
-    "osm_relation_id": 36100
+    "osm_relation_id": 36100,
+    "population": 28811
   },
   {
     "id": "FI-931",
@@ -2373,7 +2649,8 @@
     "country": "FI",
     "region": "Keski-Suomi",
     "domain": "viitasaari.fi",
-    "osm_relation_id": 1709290
+    "osm_relation_id": 1709290,
+    "population": 5877
   },
   {
     "id": "FI-934",
@@ -2389,7 +2666,8 @@
     "country": "FI",
     "region": "Kymenlaakso",
     "domain": "virolahti.fi",
-    "osm_relation_id": 2502572
+    "osm_relation_id": 2502572,
+    "population": 2927
   },
   {
     "id": "FI-936",
@@ -2397,7 +2675,8 @@
     "country": "FI",
     "region": "Pirkanmaa",
     "domain": "virrat.fi",
-    "osm_relation_id": 1670950
+    "osm_relation_id": 1670950,
+    "population": 6275
   },
   {
     "id": "FI-941",
@@ -2413,7 +2692,8 @@
     "country": "FI",
     "region": "Pohjanmaa",
     "domain": "vora.fi",
-    "osm_relation_id": 1855927
+    "osm_relation_id": 1855927,
+    "population": 471
   },
   {
     "id": "FI-976",
@@ -2421,7 +2701,8 @@
     "country": "FI",
     "region": "Lappi",
     "domain": "ylitornio.fi",
-    "osm_relation_id": 2527262
+    "osm_relation_id": 2527262,
+    "population": 3765
   },
   {
     "id": "FI-977",
@@ -2429,7 +2710,8 @@
     "country": "FI",
     "region": "Pohjois-Pohjanmaa",
     "domain": "ylivieska.fi",
-    "osm_relation_id": 2525930
+    "osm_relation_id": 2525930,
+    "population": 15369
   },
   {
     "id": "FI-980",
@@ -2437,7 +2719,8 @@
     "country": "FI",
     "region": "Pirkanmaa",
     "domain": "ylojarvi.fi",
-    "osm_relation_id": 156823
+    "osm_relation_id": 156823,
+    "population": 33653
   },
   {
     "id": "FI-981",
@@ -2445,7 +2728,8 @@
     "country": "FI",
     "region": "Kanta-Häme",
     "domain": "ypaja.fi",
-    "osm_relation_id": 2510290
+    "osm_relation_id": 2510290,
+    "population": 2207
   },
   {
     "id": "FI-989",
@@ -2453,7 +2737,8 @@
     "country": "FI",
     "region": "Etelä-Pohjanmaa",
     "domain": "ahtari.fi",
-    "osm_relation_id": 1153387
+    "osm_relation_id": 1153387,
+    "population": 5316
   },
   {
     "id": "FI-992",
@@ -2461,6 +2746,7 @@
     "country": "FI",
     "region": "Keski-Suomi",
     "domain": "aanekoski.fi",
-    "osm_relation_id": 1200894
+    "osm_relation_id": 1200894,
+    "population": 17971
   }
 ]

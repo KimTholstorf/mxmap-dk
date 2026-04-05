@@ -1221,6 +1221,394 @@ SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE 
 }
 ORDER BY ?itemLabel
 """,
+    # ── Caribbean ───────────────────────────────────────────────────
+    # Cuba: Q558330 (municipality of Cuba) — ~168
+    "CU": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q558330 .
+  ?item wdt:P17 wd:Q241 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  OPTIONAL { ?item wdt:P1082 ?population }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,es" }
+}
+ORDER BY ?itemLabel
+""",
+    # Haiti: Q1665357 (arrondissement of Haiti) — ~39
+    "HT": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q1665357 .
+  ?item wdt:P17 wd:Q790 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  OPTIONAL { ?item wdt:P1082 ?population }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr,ht" }
+}
+ORDER BY ?itemLabel
+""",
+    # Dominican Republic: Q6005581 (municipality of the Dominican Republic) — ~128
+    "DO": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q6005581 .
+  ?item wdt:P17 wd:Q786 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  OPTIONAL { ?item wdt:P1082 ?population }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,es" }
+}
+ORDER BY ?itemLabel
+""",
+    # Jamaica: Q936955 (parish of Jamaica) — ~14
+    "JM": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q936955 .
+  ?item wdt:P17 wd:Q766 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  OPTIONAL { ?item wdt:P1082 ?population }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?itemLabel
+""",
+    # Trinidad and Tobago: Q3146899 (regional corporation) + Q15304003 (borough) — ~14
+    "TT": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE {
+  VALUES ?type { wd:Q3146899 wd:Q15304003 }
+  ?item wdt:P31/wdt:P279* ?type .
+  ?item wdt:P17 wd:Q754 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  OPTIONAL { ?item wdt:P1082 ?population }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?itemLabel
+""",
+    # Bahamas: Q1230132 (district of The Bahamas) — ~29
+    "BS": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q1230132 .
+  ?item wdt:P17 wd:Q778 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  OPTIONAL { ?item wdt:P1082 ?population }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?itemLabel
+""",
+    # Barbados: Q1631888 (parish of Barbados) — ~11
+    "BB": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q1631888 .
+  ?item wdt:P17 wd:Q244 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  OPTIONAL { ?item wdt:P1082 ?population }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?itemLabel
+""",
+    # Antigua and Barbuda: Q1647142 (parish of Antigua and Barbuda) — ~6
+    "AG": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q1647142 .
+  ?item wdt:P17 wd:Q781 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  OPTIONAL { ?item wdt:P1082 ?population }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?itemLabel
+""",
+    # Dominica: Q1405085 (parish of Dominica) — ~10
+    "DM": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q1405085 .
+  ?item wdt:P17 wd:Q784 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  OPTIONAL { ?item wdt:P1082 ?population }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?itemLabel
+""",
+    # Grenada: Q531645 (parish of Grenada) — ~6
+    "GD": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q531645 .
+  ?item wdt:P17 wd:Q769 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  OPTIONAL { ?item wdt:P1082 ?population }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?itemLabel
+""",
+    # Saint Kitts and Nevis: Q1750854 (parish of Saint Kitts and Nevis) — ~14
+    "KN": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q1750854 .
+  ?item wdt:P17 wd:Q763 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  OPTIONAL { ?item wdt:P1082 ?population }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?itemLabel
+""",
+    # Saint Lucia: Q1753792 (quarter of Saint Lucia) — ~7
+    "LC": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE {
+  VALUES ?type { wd:Q1753792 wd:Q149621 }
+  ?item wdt:P31/wdt:P279* ?type .
+  ?item wdt:P17 wd:Q760 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  OPTIONAL { ?item wdt:P1082 ?population }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?itemLabel
+""",
+    # Saint Vincent and the Grenadines: Q1870831 (parish of SVG) — ~6
+    "VC": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE {
+  VALUES ?type { wd:Q1870831 wd:Q102496 }
+  ?item wdt:P31/wdt:P279* ?type .
+  ?item wdt:P17 wd:Q757 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  OPTIONAL { ?item wdt:P1082 ?population }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?itemLabel
+""",
+    # ── Asia (additional) ───────────────────────────────────────────
+    # Afghanistan: Q496825 (district of Afghanistan) — ~367
+    "AF": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q496825 .
+  ?item wdt:P17 wd:Q889 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  OPTIONAL { ?item wdt:P1082 ?population }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,ps,fa" }
+}
+ORDER BY ?itemLabel
+""",
+    # Singapore: Q50513 (administrative territorial entity of Singapore) — ~19
+    "SG": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q50513 .
+  ?item wdt:P17 wd:Q334 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  OPTIONAL { ?item wdt:P1082 ?population }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,zh" }
+}
+ORDER BY ?itemLabel
+""",
+    # Yemen: Q331130 (governorate of Yemen) — ~22
+    "YE": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q331130 .
+  ?item wdt:P17 wd:Q805 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  OPTIONAL { ?item wdt:P1082 ?population }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,ar" }
+}
+ORDER BY ?itemLabel
+""",
+    # Syria: Q517351 (governorate of Syria) — ~14 (kept as-is, already worked)
+    "SY": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q517351 .
+  ?item wdt:P17 wd:Q858 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  OPTIONAL { ?item wdt:P1082 ?population }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,ar" }
+}
+ORDER BY ?itemLabel
+""",
+    # Palestine: Q50495 (governorate of the State of Palestine) — ~16
+    "PS": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q50495 .
+  ?item wdt:P17 wd:Q219060 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  OPTIONAL { ?item wdt:P1082 ?population }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,ar" }
+}
+ORDER BY ?itemLabel
+""",
+    # Tajikistan: Q4389115 (district of Tajikistan) — ~55
+    "TJ": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q4389115 .
+  ?item wdt:P17 wd:Q863 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  OPTIONAL { ?item wdt:P1082 ?population }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,tg,ru" }
+}
+ORDER BY ?itemLabel
+""",
+    # Turkmenistan: Q5283544 (district of Turkmenistan) — ~37
+    "TM": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q5283544 .
+  ?item wdt:P17 wd:Q874 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  OPTIONAL { ?item wdt:P1082 ?population }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,tk,ru" }
+}
+ORDER BY ?itemLabel
+""",
+    # Maldives: Q757549 (atoll of the Maldives) — ~20
+    "MV": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q757549 .
+  ?item wdt:P17 wd:Q826 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  OPTIONAL { ?item wdt:P1082 ?population }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,dv" }
+}
+ORDER BY ?itemLabel
+""",
+    # Bhutan: Q831889 (district of Bhutan) — ~8
+    "BT": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q831889 .
+  ?item wdt:P17 wd:Q917 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  OPTIONAL { ?item wdt:P1082 ?population }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,dz" }
+}
+ORDER BY ?itemLabel
+""",
+    # ── Oceania (additional) ────────────────────────────────────────
+    # Solomon Islands: Q1025116 (province of the Solomon Islands) — ~9
+    "SB": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q1025116 .
+  ?item wdt:P17 wd:Q685 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  OPTIONAL { ?item wdt:P1082 ?population }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?itemLabel
+""",
+    # Marshall Islands: Q56061 (administrative territorial entity) — ~2+
+    "MH": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE {
+  VALUES ?type { wd:Q42523 wd:Q56061 wd:Q10864048 wd:Q1664473 }
+  ?item wdt:P31/wdt:P279* ?type .
+  ?item wdt:P17 wd:Q709 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  OPTIONAL { ?item wdt:P1082 ?population }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,mh" }
+}
+ORDER BY ?itemLabel
+""",
+    # Micronesia: Q3327903 (municipality of the Federated States of Micronesia) — ~13
+    "FM": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE {
+  VALUES ?type { wd:Q3327903 wd:Q15618452 }
+  ?item wdt:P31/wdt:P279* ?type .
+  ?item wdt:P17 wd:Q702 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  OPTIONAL { ?item wdt:P1082 ?population }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?itemLabel
+""",
+    # Kiribati: Q17305516 (island group of Kiribati) + atolls — ~5
+    "KI": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE {
+  VALUES ?type { wd:Q17305516 wd:Q42523 wd:Q23442 }
+  ?item wdt:P31/wdt:P279* ?type .
+  ?item wdt:P17 wd:Q710 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  OPTIONAL { ?item wdt:P1082 ?population }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?itemLabel
+""",
+    # Tuvalu: Q59369306 (Council of Tuvalu) — ~6
+    "TV": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE {
+  VALUES ?type { wd:Q59369306 wd:Q42523 }
+  ?item wdt:P31/wdt:P279* ?type .
+  ?item wdt:P17 wd:Q672 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  OPTIONAL { ?item wdt:P1082 ?population }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?itemLabel
+""",
 }
 
 

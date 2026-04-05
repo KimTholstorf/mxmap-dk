@@ -191,6 +191,36 @@ COUNTRY_CONFIG = {
     "ZA": {"admin_level": 6, "iso": "ZA", "name": "South Africa"},
     "ZM": {"admin_level": 4, "iso": "ZM", "name": "Zambia"},
     "ZW": {"admin_level": 4, "iso": "ZW", "name": "Zimbabwe"},
+    # Caribbean
+    "CU": {"admin_level": 6, "iso": "CU", "name": "Cuba"},
+    "HT": {"admin_level": 6, "iso": "HT", "name": "Haiti"},
+    "DO": {"admin_level": 4, "iso": "DO", "name": "Dominican Republic"},
+    "JM": {"admin_level": 6, "iso": "JM", "name": "Jamaica"},
+    "TT": {"admin_level": 4, "iso": "TT", "name": "Trinidad and Tobago"},
+    "BS": {"admin_level": 4, "iso": "BS", "name": "Bahamas"},
+    "BB": {"admin_level": 6, "iso": "BB", "name": "Barbados"},
+    "AG": {"admin_level": 6, "iso": "AG", "name": "Antigua and Barbuda"},
+    "DM": {"admin_level": 6, "iso": "DM", "name": "Dominica"},
+    "GD": {"admin_level": 6, "iso": "GD", "name": "Grenada"},
+    "KN": {"admin_level": 6, "iso": "KN", "name": "Saint Kitts and Nevis"},
+    "LC": {"admin_level": 6, "iso": "LC", "name": "Saint Lucia"},
+    "VC": {"admin_level": 6, "iso": "VC", "name": "Saint Vincent and the Grenadines"},
+    # Asia (additional)
+    "AF": {"admin_level": 4, "iso": "AF", "name": "Afghanistan"},
+    "SG": {"admin_level": 6, "iso": "SG", "name": "Singapore"},
+    "YE": {"admin_level": 4, "iso": "YE", "name": "Yemen"},
+    "SY": {"admin_level": 4, "iso": "SY", "name": "Syria"},
+    "PS": {"admin_level": 4, "iso": "PS", "name": "Palestine"},
+    "TJ": {"admin_level": 6, "iso": "TJ", "name": "Tajikistan"},
+    "TM": {"admin_level": 6, "iso": "TM", "name": "Turkmenistan"},
+    "MV": {"admin_level": 4, "iso": "MV", "name": "Maldives"},
+    "BT": {"admin_level": 4, "iso": "BT", "name": "Bhutan"},
+    # Oceania (additional)
+    "SB": {"admin_level": 4, "iso": "SB", "name": "Solomon Islands"},
+    "MH": {"admin_level": 4, "iso": "MH", "name": "Marshall Islands"},
+    "FM": {"admin_level": 4, "iso": "FM", "name": "Micronesia"},
+    "KI": {"admin_level": 4, "iso": "KI", "name": "Kiribati"},
+    "TV": {"admin_level": 8, "iso": "TV", "name": "Tuvalu"},
 }
 
 

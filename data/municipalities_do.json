@@ -1,0 +1,1377 @@
+[
+  {
+    "id": "DO-001",
+    "name": "Altamira",
+    "country": "DO",
+    "region": "Puerto Plata Province",
+    "domain": "",
+    "osm_relation_id": 7380617,
+    "population": 18868
+  },
+  {
+    "id": "DO-002",
+    "name": "Arenoso",
+    "country": "DO",
+    "region": "Duarte Province",
+    "domain": "",
+    "osm_relation_id": 7376870,
+    "population": 14062
+  },
+  {
+    "id": "DO-003",
+    "name": "Azua",
+    "country": "DO",
+    "region": "Azua Province",
+    "domain": "",
+    "population": 103276
+  },
+  {
+    "id": "DO-004",
+    "name": "Baitoa",
+    "country": "DO",
+    "region": "Santiago Province",
+    "domain": "",
+    "population": 11
+  },
+  {
+    "id": "DO-005",
+    "name": "Bajos de Haina",
+    "country": "DO",
+    "region": "San Cristóbal Province",
+    "domain": "",
+    "osm_relation_id": 7159796,
+    "population": 124193
+  },
+  {
+    "id": "DO-006",
+    "name": "Baní",
+    "country": "DO",
+    "region": "Peravia Province",
+    "domain": "",
+    "osm_relation_id": 7394782,
+    "population": 145595
+  },
+  {
+    "id": "DO-007",
+    "name": "Bayaguana",
+    "country": "DO",
+    "region": "Monte Plata Province",
+    "domain": "",
+    "osm_relation_id": 7405667,
+    "population": 31889
+  },
+  {
+    "id": "DO-008",
+    "name": "Bisonó",
+    "country": "DO",
+    "region": "Santiago Province",
+    "domain": "",
+    "osm_relation_id": 7380647,
+    "population": 42092
+  },
+  {
+    "id": "DO-009",
+    "name": "Boca Chica",
+    "country": "DO",
+    "region": "Santo Domingo Province",
+    "domain": "",
+    "osm_relation_id": 7407701,
+    "population": 142019
+  },
+  {
+    "id": "DO-010",
+    "name": "Bohechío",
+    "country": "DO",
+    "region": "San Juan Province",
+    "domain": "bohechiodigital.com",
+    "osm_relation_id": 7155987,
+    "population": 9685
+  },
+  {
+    "id": "DO-011",
+    "name": "Bonao",
+    "country": "DO",
+    "region": "Monseñor Nouel Province",
+    "domain": "",
+    "osm_relation_id": 7384719,
+    "population": 125338
+  },
+  {
+    "id": "DO-012",
+    "name": "Bánica",
+    "country": "DO",
+    "region": "Elías Piña Province",
+    "domain": "",
+    "osm_relation_id": 7400827,
+    "population": 6533
+  },
+  {
+    "id": "DO-013",
+    "name": "Cabral",
+    "country": "DO",
+    "region": "Barahona Province",
+    "domain": "",
+    "osm_relation_id": 7149200,
+    "population": 14823
+  },
+  {
+    "id": "DO-014",
+    "name": "Cambita Garabitos",
+    "country": "DO",
+    "region": "San Cristóbal Province",
+    "domain": "",
+    "osm_relation_id": 7394815,
+    "population": 31057
+  },
+  {
+    "id": "DO-015",
+    "name": "Castañuela",
+    "country": "DO",
+    "region": "Monte Cristi Province",
+    "domain": "",
+    "osm_relation_id": 7187303,
+    "population": 14921
+  },
+  {
+    "id": "DO-016",
+    "name": "Castillo",
+    "country": "DO",
+    "region": "Duarte Province",
+    "domain": "",
+    "osm_relation_id": 7386285,
+    "population": 15709
+  },
+  {
+    "id": "DO-017",
+    "name": "Cayetano Germosén",
+    "country": "DO",
+    "region": "Espaillat Province",
+    "domain": "",
+    "osm_relation_id": 7366014,
+    "population": 6911
+  },
+  {
+    "id": "DO-018",
+    "name": "Cevicos. Alcalde",
+    "country": "DO",
+    "region": "Sánchez Ramírez Province",
+    "domain": "",
+    "osm_relation_id": 7384706,
+    "population": 16311
+  },
+  {
+    "id": "DO-019",
+    "name": "Comendador",
+    "country": "DO",
+    "region": "Elías Piña Province",
+    "domain": "",
+    "osm_relation_id": 7400760,
+    "population": 25475
+  },
+  {
+    "id": "DO-020",
+    "name": "Constanza",
+    "country": "DO",
+    "region": "La Vega Province",
+    "domain": "alcaldiaconstanza.com",
+    "population": 59052
+  },
+  {
+    "id": "DO-021",
+    "name": "Cotuí",
+    "country": "DO",
+    "region": "Sánchez Ramírez Province",
+    "domain": "",
+    "population": 76554
+  },
+  {
+    "id": "DO-022",
+    "name": "Cristóbal",
+    "country": "DO",
+    "region": "Independencia",
+    "domain": "",
+    "osm_relation_id": 7153746,
+    "population": 7617
+  },
+  {
+    "id": "DO-023",
+    "name": "Dajabón",
+    "country": "DO",
+    "region": "Dajabón Province",
+    "domain": "",
+    "population": 28071
+  },
+  {
+    "id": "DO-024",
+    "name": "Duvergé",
+    "country": "DO",
+    "region": "Independencia",
+    "domain": "",
+    "osm_relation_id": 7153735,
+    "population": 12029
+  },
+  {
+    "id": "DO-025",
+    "name": "El Cercado",
+    "country": "DO",
+    "region": "San Juan Province",
+    "domain": "",
+    "osm_relation_id": 7155990,
+    "population": 20843
+  },
+  {
+    "id": "DO-026",
+    "name": "El Factor",
+    "country": "DO",
+    "region": "María Trinidad Sánchez Province",
+    "domain": "",
+    "osm_relation_id": 7386633,
+    "population": 29736
+  },
+  {
+    "id": "DO-027",
+    "name": "El Llano",
+    "country": "DO",
+    "region": "Elías Piña Province",
+    "domain": "",
+    "osm_relation_id": 7155959,
+    "population": 8344
+  },
+  {
+    "id": "DO-028",
+    "name": "El Peñón",
+    "country": "DO",
+    "region": "Barahona Province",
+    "domain": "",
+    "osm_relation_id": 7151618,
+    "population": 3970
+  },
+  {
+    "id": "DO-029",
+    "name": "El Pino",
+    "country": "DO",
+    "region": "Dajabón Province",
+    "domain": "",
+    "osm_relation_id": 7187302,
+    "population": 6035
+  },
+  {
+    "id": "DO-030",
+    "name": "El Valle",
+    "country": "DO",
+    "region": "Hato Mayor Province",
+    "domain": "",
+    "population": 7228
+  },
+  {
+    "id": "DO-031",
+    "name": "Enriquillo",
+    "country": "DO",
+    "region": "Barahona Province",
+    "domain": "",
+    "population": 12523
+  },
+  {
+    "id": "DO-032",
+    "name": "Esperanza",
+    "country": "DO",
+    "region": "Valverde Province",
+    "domain": "",
+    "osm_relation_id": 7391016,
+    "population": 62205
+  },
+  {
+    "id": "DO-033",
+    "name": "Estebanía",
+    "country": "DO",
+    "region": "Azua Province",
+    "domain": "",
+    "osm_relation_id": 7394777,
+    "population": 8227
+  },
+  {
+    "id": "DO-034",
+    "name": "Fantino",
+    "country": "DO",
+    "region": "Sánchez Ramírez Province",
+    "domain": "",
+    "osm_relation_id": 7384712,
+    "population": 23780
+  },
+  {
+    "id": "DO-035",
+    "name": "Fundación",
+    "country": "DO",
+    "region": "Barahona Province",
+    "domain": "",
+    "osm_relation_id": 7151620,
+    "population": 9223
+  },
+  {
+    "id": "DO-036",
+    "name": "Galván",
+    "country": "DO",
+    "region": "Baoruco Province",
+    "domain": "",
+    "osm_relation_id": 7151393,
+    "population": 15702
+  },
+  {
+    "id": "DO-037",
+    "name": "Gaspar Hernández",
+    "country": "DO",
+    "region": "Espaillat Province",
+    "domain": "",
+    "osm_relation_id": 7366018,
+    "population": 37378
+  },
+  {
+    "id": "DO-038",
+    "name": "Guananico",
+    "country": "DO",
+    "region": "Puerto Plata Province",
+    "domain": "",
+    "osm_relation_id": 7366332,
+    "population": 6333
+  },
+  {
+    "id": "DO-039",
+    "name": "Guayabal",
+    "country": "DO",
+    "region": "Azua Province",
+    "domain": "",
+    "osm_relation_id": 7394770,
+    "population": 5263
+  },
+  {
+    "id": "DO-040",
+    "name": "Guayacanes",
+    "country": "DO",
+    "region": "San Pedro de Macorís",
+    "domain": "",
+    "osm_relation_id": 7405613,
+    "population": 14592
+  },
+  {
+    "id": "DO-041",
+    "name": "Guaymate",
+    "country": "DO",
+    "region": "La Romana",
+    "domain": "",
+    "osm_relation_id": 7405535,
+    "population": 17228
+  },
+  {
+    "id": "DO-042",
+    "name": "Guayubín",
+    "country": "DO",
+    "region": "Monte Cristi Province",
+    "domain": "",
+    "osm_relation_id": 7390982,
+    "population": 35923
+  },
+  {
+    "id": "DO-043",
+    "name": "Hato Mayor del Rey",
+    "country": "DO",
+    "region": "Hato Mayor Province",
+    "domain": "",
+    "population": 61517
+  },
+  {
+    "id": "DO-044",
+    "name": "Higüey",
+    "country": "DO",
+    "region": "La Altagracia Province",
+    "domain": "higuey.info",
+    "population": 251243
+  },
+  {
+    "id": "DO-045",
+    "name": "Hondo Valle",
+    "country": "DO",
+    "region": "Elías Piña Province",
+    "domain": "",
+    "osm_relation_id": 7155960,
+    "population": 10587
+  },
+  {
+    "id": "DO-046",
+    "name": "Hostos",
+    "country": "DO",
+    "region": "Duarte Province",
+    "domain": "",
+    "population": 5497
+  },
+  {
+    "id": "DO-047",
+    "name": "Imbert",
+    "country": "DO",
+    "region": "Puerto Plata Province",
+    "domain": "",
+    "osm_relation_id": 7366345,
+    "population": 22058
+  },
+  {
+    "id": "DO-048",
+    "name": "Jamao al Norte",
+    "country": "DO",
+    "region": "Espaillat Province",
+    "domain": "",
+    "osm_relation_id": 7366308,
+    "population": 7820
+  },
+  {
+    "id": "DO-049",
+    "name": "Jaquimeyes",
+    "country": "DO",
+    "region": "Barahona Province",
+    "domain": "",
+    "osm_relation_id": 7400753,
+    "population": 4491
+  },
+  {
+    "id": "DO-050",
+    "name": "Jarabacoa",
+    "country": "DO",
+    "region": "La Vega Province",
+    "domain": "",
+    "population": 58803
+  },
+  {
+    "id": "DO-051",
+    "name": "Jaragua",
+    "country": "DO",
+    "region": "Baoruco Province",
+    "domain": "",
+    "osm_relation_id": 7151459,
+    "population": 10619
+  },
+  {
+    "id": "DO-052",
+    "name": "Jima Abajo",
+    "country": "DO",
+    "region": "La Vega Province",
+    "domain": "",
+    "osm_relation_id": 7373852,
+    "population": 30261
+  },
+  {
+    "id": "DO-053",
+    "name": "Jimaní",
+    "country": "DO",
+    "region": "Independencia",
+    "domain": "",
+    "osm_relation_id": 7153734,
+    "population": 11414
+  },
+  {
+    "id": "DO-054",
+    "name": "Juan Santiago",
+    "country": "DO",
+    "region": "Elías Piña Province",
+    "domain": "",
+    "osm_relation_id": 7155984,
+    "population": 4360
+  },
+  {
+    "id": "DO-055",
+    "name": "Juan de Herrera",
+    "country": "DO",
+    "region": "San Juan Province",
+    "domain": "",
+    "osm_relation_id": 7400853,
+    "population": 13062
+  },
+  {
+    "id": "DO-056",
+    "name": "Jánico",
+    "country": "DO",
+    "region": "Santiago Province",
+    "domain": "",
+    "osm_relation_id": 7380651,
+    "population": 16993
+  },
+  {
+    "id": "DO-057",
+    "name": "La Ciénaga",
+    "country": "DO",
+    "region": "Barahona Province",
+    "domain": "",
+    "osm_relation_id": 7151619,
+    "population": 9112
+  },
+  {
+    "id": "DO-058",
+    "name": "La Descubierta",
+    "country": "DO",
+    "region": "Independencia",
+    "domain": "",
+    "osm_relation_id": 7153737,
+    "population": 8310
+  },
+  {
+    "id": "DO-059",
+    "name": "La Mata",
+    "country": "DO",
+    "region": "Sánchez Ramírez Province",
+    "domain": "",
+    "osm_relation_id": 7384718,
+    "population": 38962
+  },
+  {
+    "id": "DO-060",
+    "name": "La Romana",
+    "country": "DO",
+    "region": "La Romana",
+    "domain": "",
+    "osm_relation_id": 7405532,
+    "population": 139238
+  },
+  {
+    "id": "DO-061",
+    "name": "La Vega",
+    "country": "DO",
+    "region": "La Vega Province",
+    "domain": "lavega.com",
+    "population": 220279
+  },
+  {
+    "id": "DO-062",
+    "name": "Laguna Salada",
+    "country": "DO",
+    "region": "Valverde Province",
+    "domain": "",
+    "osm_relation_id": 7391022,
+    "population": 23962
+  },
+  {
+    "id": "DO-063",
+    "name": "Las Charcas",
+    "country": "DO",
+    "region": "Azua Province",
+    "domain": "",
+    "osm_relation_id": 7162901,
+    "population": 14341
+  },
+  {
+    "id": "DO-064",
+    "name": "Las Guáranas",
+    "country": "DO",
+    "region": "Duarte Province",
+    "domain": "lasguaranas.org",
+    "osm_relation_id": 7386390,
+    "population": 14661
+  },
+  {
+    "id": "DO-065",
+    "name": "Las Matas de Farfán",
+    "country": "DO",
+    "region": "San Juan Province",
+    "domain": "",
+    "osm_relation_id": 7400868,
+    "population": 44163
+  },
+  {
+    "id": "DO-066",
+    "name": "Las Matas de Santa Cruz",
+    "country": "DO",
+    "region": "Monte Cristi Province",
+    "domain": "",
+    "osm_relation_id": 7187306,
+    "population": 11114
+  },
+  {
+    "id": "DO-067",
+    "name": "Las Salinas",
+    "country": "DO",
+    "region": "Barahona Province",
+    "domain": "",
+    "osm_relation_id": 7151622,
+    "population": 4703
+  },
+  {
+    "id": "DO-068",
+    "name": "Las Terrenas",
+    "country": "DO",
+    "region": "Samaná Province",
+    "domain": "",
+    "osm_relation_id": 7187336,
+    "population": 18829
+  },
+  {
+    "id": "DO-069",
+    "name": "Las Yayas de Viajama",
+    "country": "DO",
+    "region": "Azua Province",
+    "domain": "lasyayas.com.do",
+    "osm_relation_id": 7394727,
+    "population": 17620
+  },
+  {
+    "id": "DO-070",
+    "name": "Licey al Medio",
+    "country": "DO",
+    "region": "Santiago Province",
+    "domain": "",
+    "osm_relation_id": 7380690,
+    "population": 25539
+  },
+  {
+    "id": "DO-071",
+    "name": "Loma de Cabrera",
+    "country": "DO",
+    "region": "Dajabón Province",
+    "domain": "",
+    "osm_relation_id": 7390913,
+    "population": 15624
+  },
+  {
+    "id": "DO-072",
+    "name": "Los Alcarrizos",
+    "country": "DO",
+    "region": "Santo Domingo Province",
+    "domain": "",
+    "osm_relation_id": 7407715,
+    "population": 272776
+  },
+  {
+    "id": "DO-073",
+    "name": "Los Cacaos",
+    "country": "DO",
+    "region": "San Cristóbal Province",
+    "domain": "",
+    "osm_relation_id": 7394816,
+    "population": 13778
+  },
+  {
+    "id": "DO-074",
+    "name": "Los Hidalgos",
+    "country": "DO",
+    "region": "Puerto Plata Province",
+    "domain": "",
+    "osm_relation_id": 7366401,
+    "population": 12639
+  },
+  {
+    "id": "DO-075",
+    "name": "Los Ríos",
+    "country": "DO",
+    "region": "Baoruco Province",
+    "domain": "",
+    "osm_relation_id": 7151462,
+    "population": 9305
+  },
+  {
+    "id": "DO-076",
+    "name": "Luperón",
+    "country": "DO",
+    "region": "Puerto Plata Province",
+    "domain": "",
+    "osm_relation_id": 7380629,
+    "population": 16494
+  },
+  {
+    "id": "DO-077",
+    "name": "Maimón",
+    "country": "DO",
+    "region": "Monseñor Nouel Province",
+    "domain": "",
+    "osm_relation_id": 7384722,
+    "population": 23885
+  },
+  {
+    "id": "DO-078",
+    "name": "Mao",
+    "country": "DO",
+    "region": "Valverde Province",
+    "domain": "",
+    "population": 76863
+  },
+  {
+    "id": "DO-079",
+    "name": "Matanzas, Prov. Peravia, Rep. Dom",
+    "country": "DO",
+    "region": "Peravia Province",
+    "domain": "",
+    "population": 19162
+  },
+  {
+    "id": "DO-080",
+    "name": "Mella",
+    "country": "DO",
+    "region": "Independencia",
+    "domain": "",
+    "osm_relation_id": 7153747,
+    "population": 3641
+  },
+  {
+    "id": "DO-081",
+    "name": "Miches",
+    "country": "DO",
+    "region": "El Seibo Province",
+    "domain": "",
+    "osm_relation_id": 7400887,
+    "population": 20813
+  },
+  {
+    "id": "DO-082",
+    "name": "Moca",
+    "country": "DO",
+    "region": "Espaillat Province",
+    "domain": "ayuntamientomoca.gob.do",
+    "population": 94981
+  },
+  {
+    "id": "DO-083",
+    "name": "Monción",
+    "country": "DO",
+    "region": "Santiago Rodríguez Province",
+    "domain": "",
+    "osm_relation_id": 7391002,
+    "population": 11753
+  },
+  {
+    "id": "DO-084",
+    "name": "Monte Cristi",
+    "country": "DO",
+    "region": "Monte Cristi Province",
+    "domain": "",
+    "osm_relation_id": 7390957,
+    "population": 24674
+  },
+  {
+    "id": "DO-085",
+    "name": "Monte Plata",
+    "country": "DO",
+    "region": "Monte Plata Province",
+    "domain": "",
+    "population": 37614
+  },
+  {
+    "id": "DO-086",
+    "name": "Municipio Consuelo",
+    "country": "DO",
+    "region": "San Pedro de Macorís",
+    "domain": "",
+    "osm_relation_id": 7158789,
+    "population": 30051
+  },
+  {
+    "id": "DO-087",
+    "name": "Municipio de Cabrera",
+    "country": "DO",
+    "region": "María Trinidad Sánchez Province",
+    "domain": "",
+    "osm_relation_id": 7187309,
+    "population": 25524
+  },
+  {
+    "id": "DO-088",
+    "name": "Nagua",
+    "country": "DO",
+    "region": "María Trinidad Sánchez Province",
+    "domain": "",
+    "population": 76933
+  },
+  {
+    "id": "DO-089",
+    "name": "Neiba",
+    "country": "DO",
+    "region": "Baoruco Province",
+    "domain": "",
+    "osm_relation_id": 7156012,
+    "population": 36511
+  },
+  {
+    "id": "DO-090",
+    "name": "Nizao",
+    "country": "DO",
+    "region": "Peravia Province",
+    "domain": "",
+    "osm_relation_id": 7394787,
+    "population": 27028
+  },
+  {
+    "id": "DO-091",
+    "name": "Oviedo",
+    "country": "DO",
+    "region": "Pedernales Province",
+    "domain": "",
+    "osm_relation_id": 7153752,
+    "population": 7296
+  },
+  {
+    "id": "DO-092",
+    "name": "Padre Las Casas",
+    "country": "DO",
+    "region": "Azua Province",
+    "domain": "",
+    "osm_relation_id": 7394737,
+    "population": 20041
+  },
+  {
+    "id": "DO-093",
+    "name": "Paraíso",
+    "country": "DO",
+    "region": "Barahona Province",
+    "domain": "",
+    "osm_relation_id": 7394881,
+    "population": 15390
+  },
+  {
+    "id": "DO-094",
+    "name": "Partido",
+    "country": "DO",
+    "region": "Dajabón Province",
+    "domain": "",
+    "osm_relation_id": 7390919,
+    "population": 6951
+  },
+  {
+    "id": "DO-095",
+    "name": "Pedernales",
+    "country": "DO",
+    "region": "Pedernales Province",
+    "domain": "",
+    "osm_relation_id": 7153751,
+    "population": 13805
+  },
+  {
+    "id": "DO-096",
+    "name": "Pedro Brand",
+    "country": "DO",
+    "region": "Santo Domingo Province",
+    "domain": "",
+    "osm_relation_id": 7407721,
+    "population": 74016
+  },
+  {
+    "id": "DO-097",
+    "name": "Pedro Santana",
+    "country": "DO",
+    "region": "Elías Piña Province",
+    "domain": "",
+    "osm_relation_id": 7400837,
+    "population": 7281
+  },
+  {
+    "id": "DO-098",
+    "name": "Pepillo Salcedo",
+    "country": "DO",
+    "region": "Monte Cristi Province",
+    "domain": "",
+    "osm_relation_id": 7167287,
+    "population": 9136
+  },
+  {
+    "id": "DO-099",
+    "name": "Peralta",
+    "country": "DO",
+    "region": "Azua Province",
+    "domain": "",
+    "osm_relation_id": 7394756,
+    "population": 15257
+  },
+  {
+    "id": "DO-100",
+    "name": "Peralvillo",
+    "country": "DO",
+    "region": "Monte Plata Province",
+    "domain": "",
+    "osm_relation_id": 7158797,
+    "population": 20900
+  },
+  {
+    "id": "DO-101",
+    "name": "Piedra Blanca",
+    "country": "DO",
+    "region": "Monseñor Nouel Province",
+    "domain": "",
+    "osm_relation_id": 7373854,
+    "population": 20934
+  },
+  {
+    "id": "DO-102",
+    "name": "Pimentel",
+    "country": "DO",
+    "region": "Duarte Province",
+    "domain": "",
+    "osm_relation_id": 7386295,
+    "population": 17864
+  },
+  {
+    "id": "DO-103",
+    "name": "Polo",
+    "country": "DO",
+    "region": "Barahona Province",
+    "domain": "",
+    "osm_relation_id": 7400721,
+    "population": 8186
+  },
+  {
+    "id": "DO-104",
+    "name": "Postrer Río",
+    "country": "DO",
+    "region": "Independencia",
+    "domain": "",
+    "osm_relation_id": 7153745,
+    "population": 7178
+  },
+  {
+    "id": "DO-105",
+    "name": "Pueblo Viejo",
+    "country": "DO",
+    "region": "Azua Province",
+    "domain": "",
+    "osm_relation_id": 7162902,
+    "population": 11235
+  },
+  {
+    "id": "DO-106",
+    "name": "Puerto Plata",
+    "country": "DO",
+    "region": "Puerto Plata Province",
+    "domain": "puertoplata.com",
+    "osm_relation_id": 7380607,
+    "population": 318419
+  },
+  {
+    "id": "DO-107",
+    "name": "Puñal",
+    "country": "DO",
+    "region": "Santiago Province",
+    "domain": "elpunal.blogspot.com",
+    "osm_relation_id": 7380742,
+    "population": 46090
+  },
+  {
+    "id": "DO-108",
+    "name": "Ramón Santana",
+    "country": "DO",
+    "region": "San Pedro de Macorís",
+    "domain": "",
+    "osm_relation_id": 7158788,
+    "population": 8901
+  },
+  {
+    "id": "DO-109",
+    "name": "Rancho Arriba",
+    "country": "DO",
+    "region": "San José de Ocoa Province",
+    "domain": "",
+    "osm_relation_id": 7156019,
+    "population": 14052
+  },
+  {
+    "id": "DO-110",
+    "name": "Restauración",
+    "country": "DO",
+    "region": "Dajabón Province",
+    "domain": "",
+    "osm_relation_id": 7390953,
+    "population": 7274
+  },
+  {
+    "id": "DO-111",
+    "name": "Río San Juan",
+    "country": "DO",
+    "region": "María Trinidad Sánchez Province",
+    "domain": "",
+    "osm_relation_id": 7187312,
+    "population": 15168
+  },
+  {
+    "id": "DO-112",
+    "name": "Sabana Grande de Boyá",
+    "country": "DO",
+    "region": "Monte Plata Province",
+    "domain": "",
+    "osm_relation_id": 7405672,
+    "population": 31096
+  },
+  {
+    "id": "DO-113",
+    "name": "Sabana Grande de Palenque",
+    "country": "DO",
+    "region": "San Cristóbal Province",
+    "domain": "",
+    "osm_relation_id": 7159795,
+    "population": 15466
+  },
+  {
+    "id": "DO-114",
+    "name": "Sabana Iglesia",
+    "country": "DO",
+    "region": "Santiago Province",
+    "domain": "",
+    "osm_relation_id": 7380752,
+    "population": 13348
+  },
+  {
+    "id": "DO-115",
+    "name": "Sabana Larga",
+    "country": "DO",
+    "region": "San José de Ocoa Province",
+    "domain": "",
+    "osm_relation_id": 7394827,
+    "population": 11636
+  },
+  {
+    "id": "DO-116",
+    "name": "Sabana Yegua",
+    "country": "DO",
+    "region": "Azua Province",
+    "domain": "",
+    "population": 11235
+  },
+  {
+    "id": "DO-117",
+    "name": "Sabana de la Mar",
+    "country": "DO",
+    "region": "Hato Mayor Province",
+    "domain": "",
+    "osm_relation_id": 7407668,
+    "population": 16272
+  },
+  {
+    "id": "DO-118",
+    "name": "Sabaneta",
+    "country": "DO",
+    "region": "Santiago Rodríguez Province",
+    "domain": "",
+    "population": 34540
+  },
+  {
+    "id": "DO-119",
+    "name": "Salcedo",
+    "country": "DO",
+    "region": "Hermanas Mirabal Province",
+    "domain": "",
+    "population": 39557
+  },
+  {
+    "id": "DO-120",
+    "name": "Samaná",
+    "country": "DO",
+    "region": "Samaná Province",
+    "domain": "",
+    "osm_relation_id": 7386746,
+    "population": 58156
+  },
+  {
+    "id": "DO-121",
+    "name": "San Antonio de Guerra",
+    "country": "DO",
+    "region": "Santo Domingo Province",
+    "domain": "",
+    "osm_relation_id": 7376886,
+    "population": 43963
+  },
+  {
+    "id": "DO-122",
+    "name": "San Cristóbal",
+    "country": "DO",
+    "region": "San Cristóbal Province",
+    "domain": "sancristobal.org.do",
+    "osm_relation_id": 7394810,
+    "population": 232769
+  },
+  {
+    "id": "DO-123",
+    "name": "San Francisco de Macorís",
+    "country": "DO",
+    "region": "Duarte Province",
+    "domain": "sanfrancisco.gob.do",
+    "population": 188118
+  },
+  {
+    "id": "DO-124",
+    "name": "San Gregorio de Nigua",
+    "country": "DO",
+    "region": "San Cristóbal Province",
+    "domain": "",
+    "osm_relation_id": 7159852,
+    "population": 30268
+  },
+  {
+    "id": "DO-125",
+    "name": "San José de Ocoa",
+    "country": "DO",
+    "region": "San José de Ocoa Province",
+    "domain": "",
+    "osm_relation_id": 7394824,
+    "population": 39451
+  },
+  {
+    "id": "DO-126",
+    "name": "San José de las Matas",
+    "country": "DO",
+    "region": "Santiago Province",
+    "domain": "",
+    "osm_relation_id": 7380701,
+    "population": 38628
+  },
+  {
+    "id": "DO-127",
+    "name": "San José de los Llanos",
+    "country": "DO",
+    "region": "San Pedro de Macorís",
+    "domain": "",
+    "osm_relation_id": 7405604,
+    "population": 22573
+  },
+  {
+    "id": "DO-128",
+    "name": "San Juan de la Maguana",
+    "country": "DO",
+    "region": "San Juan Province",
+    "domain": "",
+    "population": 132177
+  },
+  {
+    "id": "DO-129",
+    "name": "San Pedro de Macorís",
+    "country": "DO",
+    "region": "San Pedro de Macorís",
+    "domain": "",
+    "population": 195307
+  },
+  {
+    "id": "DO-130",
+    "name": "San Rafael del Yuma",
+    "country": "DO",
+    "region": "La Altagracia Province",
+    "domain": "",
+    "osm_relation_id": 7405521,
+    "population": 21967
+  },
+  {
+    "id": "DO-131",
+    "name": "San Victor",
+    "country": "DO",
+    "region": "Espaillat Province",
+    "domain": "",
+    "population": 21009
+  },
+  {
+    "id": "DO-132",
+    "name": "Santa Cruz de Barahona",
+    "country": "DO",
+    "region": "Barahona Province",
+    "domain": "",
+    "population": 83619
+  },
+  {
+    "id": "DO-133",
+    "name": "Santa Cruz del Seibo",
+    "country": "DO",
+    "region": "El Seibo Province",
+    "domain": "",
+    "population": 66867
+  },
+  {
+    "id": "DO-134",
+    "name": "Santiago de los Caballeros",
+    "country": "DO",
+    "region": "Santiago Province",
+    "domain": "santiagodeloscaballeros.gob.do",
+    "population": 1343423
+  },
+  {
+    "id": "DO-135",
+    "name": "Santo Domingo Este",
+    "country": "DO",
+    "region": "Santo Domingo Province",
+    "domain": "asde.gov.do",
+    "osm_relation_id": 7407685,
+    "population": 948855
+  },
+  {
+    "id": "DO-136",
+    "name": "Santo Domingo Norte",
+    "country": "DO",
+    "region": "Santo Domingo Province",
+    "domain": "ayuntamientosde.gob.do",
+    "osm_relation_id": 7407691,
+    "population": 529390
+  },
+  {
+    "id": "DO-137",
+    "name": "Santo Domingo Oeste",
+    "country": "DO",
+    "region": "Santo Domingo Province",
+    "domain": "asdo.gov.do",
+    "osm_relation_id": 7407687,
+    "population": 363321
+  },
+  {
+    "id": "DO-138",
+    "name": "Sosúa",
+    "country": "DO",
+    "region": "Puerto Plata Province",
+    "domain": "thegoodlifesosua.com",
+    "osm_relation_id": 7367027,
+    "population": 49593
+  },
+  {
+    "id": "DO-139",
+    "name": "Sánchez",
+    "country": "DO",
+    "region": "Samaná Province",
+    "domain": "",
+    "osm_relation_id": 7386768,
+    "population": 24509
+  },
+  {
+    "id": "DO-140",
+    "name": "Tabara Arriba",
+    "country": "DO",
+    "region": "Azua Province",
+    "domain": "",
+    "osm_relation_id": 7394767,
+    "population": 17647
+  },
+  {
+    "id": "DO-141",
+    "name": "Tamayo",
+    "country": "DO",
+    "region": "Baoruco Province",
+    "domain": "",
+    "population": 26772
+  },
+  {
+    "id": "DO-142",
+    "name": "Tamboríl",
+    "country": "DO",
+    "region": "Santiago Province",
+    "domain": "",
+    "osm_relation_id": 7380703,
+    "population": 51695
+  },
+  {
+    "id": "DO-143",
+    "name": "Tenares",
+    "country": "DO",
+    "region": "Hermanas Mirabal Province",
+    "domain": "",
+    "osm_relation_id": 7386647,
+    "population": 27765
+  },
+  {
+    "id": "DO-144",
+    "name": "Vallejuelo",
+    "country": "DO",
+    "region": "San Juan Province",
+    "domain": "",
+    "osm_relation_id": 7155992,
+    "population": 12403
+  },
+  {
+    "id": "DO-145",
+    "name": "Vicente Noble",
+    "country": "DO",
+    "region": "Barahona Province",
+    "domain": "",
+    "osm_relation_id": 7151616,
+    "population": 21605
+  },
+  {
+    "id": "DO-146",
+    "name": "Villa Altagracia",
+    "country": "DO",
+    "region": "San Cristóbal Province",
+    "domain": "",
+    "osm_relation_id": 7159844,
+    "population": 84312
+  },
+  {
+    "id": "DO-147",
+    "name": "Villa González",
+    "country": "DO",
+    "region": "Santiago Province",
+    "domain": "",
+    "osm_relation_id": 7373398,
+    "population": 37349
+  },
+  {
+    "id": "DO-148",
+    "name": "Villa Hermosa",
+    "country": "DO",
+    "region": "La Romana",
+    "domain": "",
+    "osm_relation_id": 7405581,
+    "population": 89204
+  },
+  {
+    "id": "DO-149",
+    "name": "Villa Isabela",
+    "country": "DO",
+    "region": "Puerto Plata Province",
+    "domain": "",
+    "population": 17169
+  },
+  {
+    "id": "DO-150",
+    "name": "Villa Los Almácigos",
+    "country": "DO",
+    "region": "Santiago Rodríguez Province",
+    "domain": "",
+    "osm_relation_id": 7390993,
+    "population": 11183
+  },
+  {
+    "id": "DO-151",
+    "name": "Villa Montellano",
+    "country": "DO",
+    "region": "Puerto Plata Province",
+    "domain": "",
+    "osm_relation_id": 7373133,
+    "population": 19717
+  },
+  {
+    "id": "DO-152",
+    "name": "Villa Riva",
+    "country": "DO",
+    "region": "Duarte Province",
+    "domain": "",
+    "osm_relation_id": 7386377,
+    "population": 33663
+  },
+  {
+    "id": "DO-153",
+    "name": "Villa Tapia",
+    "country": "DO",
+    "region": "Hermanas Mirabal Province",
+    "domain": "",
+    "osm_relation_id": 7386660,
+    "population": 26159
+  },
+  {
+    "id": "DO-154",
+    "name": "Villa Vásquez",
+    "country": "DO",
+    "region": "Monte Cristi Province",
+    "domain": "",
+    "osm_relation_id": 7167186,
+    "population": 14424
+  },
+  {
+    "id": "DO-155",
+    "name": "Yaguate",
+    "country": "DO",
+    "region": "San Cristóbal Province",
+    "domain": "",
+    "osm_relation_id": 7159850,
+    "population": 51489
+  },
+  {
+    "id": "DO-156",
+    "name": "Yamasá",
+    "country": "DO",
+    "region": "Monte Plata Province",
+    "domain": "",
+    "osm_relation_id": 7405676,
+    "population": 55348
+  }
+]

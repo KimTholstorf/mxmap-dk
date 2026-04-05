@@ -1,0 +1,1417 @@
+[
+  {
+    "id": "CU-001",
+    "name": "Abreus",
+    "country": "CU",
+    "region": "Cienfuegos Province",
+    "domain": "",
+    "osm_relation_id": 5884785,
+    "population": 23144
+  },
+  {
+    "id": "CU-002",
+    "name": "Aguada de Pasajeros",
+    "country": "CU",
+    "region": "Cienfuegos Province",
+    "domain": "",
+    "osm_relation_id": 5884786
+  },
+  {
+    "id": "CU-003",
+    "name": "Alquízar",
+    "country": "CU",
+    "region": "Artemisa Province",
+    "domain": "",
+    "osm_relation_id": 2576645,
+    "population": 29616
+  },
+  {
+    "id": "CU-004",
+    "name": "Amancio",
+    "country": "CU",
+    "region": "Las Tunas Province",
+    "domain": "",
+    "osm_relation_id": 5901287
+  },
+  {
+    "id": "CU-005",
+    "name": "Antilla",
+    "country": "CU",
+    "region": "Holguín Province",
+    "domain": "holguin.cu",
+    "osm_relation_id": 5904268
+  },
+  {
+    "id": "CU-006",
+    "name": "Arroyo Naranjo",
+    "country": "CU",
+    "region": "Havana",
+    "domain": "",
+    "osm_relation_id": 5489817,
+    "population": 210053
+  },
+  {
+    "id": "CU-007",
+    "name": "Artemisa",
+    "country": "CU",
+    "region": "Havana Province",
+    "domain": "",
+    "population": 59130
+  },
+  {
+    "id": "CU-008",
+    "name": "Bahía Honda",
+    "country": "CU",
+    "region": "Artemisa Province",
+    "domain": "",
+    "osm_relation_id": 2576647,
+    "population": 43483
+  },
+  {
+    "id": "CU-009",
+    "name": "Banes",
+    "country": "CU",
+    "region": "Holguín Province",
+    "domain": "",
+    "population": 34452
+  },
+  {
+    "id": "CU-010",
+    "name": "Baracoa",
+    "country": "CU",
+    "region": "Guantánamo Province",
+    "domain": "baracoa.org",
+    "osm_relation_id": 5927810,
+    "population": 78056
+  },
+  {
+    "id": "CU-011",
+    "name": "Baraguá",
+    "country": "CU",
+    "region": "Ciego de Ávila Province",
+    "domain": "",
+    "osm_relation_id": 5887664,
+    "population": 32909
+  },
+  {
+    "id": "CU-012",
+    "name": "Bartolomé Masó",
+    "country": "CU",
+    "region": "Granma Province",
+    "domain": "",
+    "osm_relation_id": 5915220,
+    "population": 56460
+  },
+  {
+    "id": "CU-013",
+    "name": "Batabanó",
+    "country": "CU",
+    "region": "Mayabeque Province",
+    "domain": "",
+    "osm_relation_id": 5539163,
+    "population": 25664
+  },
+  {
+    "id": "CU-014",
+    "name": "Bauta",
+    "country": "CU",
+    "region": "Artemisa Province",
+    "domain": "",
+    "osm_relation_id": 2576648,
+    "population": 23557
+  },
+  {
+    "id": "CU-015",
+    "name": "Bayamo",
+    "country": "CU",
+    "region": "Granma Province",
+    "domain": "",
+    "osm_relation_id": 5915221,
+    "population": 235107
+  },
+  {
+    "id": "CU-016",
+    "name": "Bejucal",
+    "country": "CU",
+    "region": "Mayabeque Province",
+    "domain": "",
+    "osm_relation_id": 5539164
+  },
+  {
+    "id": "CU-017",
+    "name": "Bolivia",
+    "country": "CU",
+    "region": "Ciego de Ávila Province",
+    "domain": "",
+    "osm_relation_id": 5887665
+  },
+  {
+    "id": "CU-018",
+    "name": "Boyeros",
+    "country": "CU",
+    "region": "Havana",
+    "domain": "",
+    "osm_relation_id": 5489818
+  },
+  {
+    "id": "CU-019",
+    "name": "Buey Arriba",
+    "country": "CU",
+    "region": "Granma Province",
+    "domain": "",
+    "osm_relation_id": 5915222
+  },
+  {
+    "id": "CU-020",
+    "name": "Báguanos",
+    "country": "CU",
+    "region": "Holguín Province",
+    "domain": "",
+    "osm_relation_id": 5904270
+  },
+  {
+    "id": "CU-021",
+    "name": "Cabaiguán",
+    "country": "CU",
+    "region": "Sancti Spíritus Province",
+    "domain": "",
+    "osm_relation_id": 5884862,
+    "population": 32000
+  },
+  {
+    "id": "CU-022",
+    "name": "Cacocum",
+    "country": "CU",
+    "region": "Holguín Province",
+    "domain": "",
+    "osm_relation_id": 5904271
+  },
+  {
+    "id": "CU-023",
+    "name": "Caibarién",
+    "country": "CU",
+    "region": "Villa Clara Province",
+    "domain": "",
+    "population": 38479
+  },
+  {
+    "id": "CU-024",
+    "name": "Caimanera",
+    "country": "CU",
+    "region": "Guantánamo Province",
+    "domain": "",
+    "osm_relation_id": 5927811,
+    "population": 11273
+  },
+  {
+    "id": "CU-025",
+    "name": "Caimito",
+    "country": "CU",
+    "region": "Artemisa Province",
+    "domain": "",
+    "osm_relation_id": 2576649,
+    "population": 36813
+  },
+  {
+    "id": "CU-026",
+    "name": "Calimete",
+    "country": "CU",
+    "region": "Matanzas Province",
+    "domain": "",
+    "osm_relation_id": 5875945
+  },
+  {
+    "id": "CU-027",
+    "name": "Calixto García",
+    "country": "CU",
+    "region": "Holguín Province",
+    "domain": "",
+    "osm_relation_id": 5904272
+  },
+  {
+    "id": "CU-028",
+    "name": "Camagüey",
+    "country": "CU",
+    "region": "Camagüey Province",
+    "domain": "camaguey.cu",
+    "osm_relation_id": 5892220,
+    "population": 321992
+  },
+  {
+    "id": "CU-029",
+    "name": "Camajuaní",
+    "country": "CU",
+    "region": "Villa Clara Province",
+    "domain": "",
+    "osm_relation_id": 5884788
+  },
+  {
+    "id": "CU-030",
+    "name": "Campechuela",
+    "country": "CU",
+    "region": "Granma Province",
+    "domain": "",
+    "osm_relation_id": 5915223
+  },
+  {
+    "id": "CU-031",
+    "name": "Candelaria",
+    "country": "CU",
+    "region": "Artemisa Province",
+    "domain": "",
+    "osm_relation_id": 2576650,
+    "population": 19523
+  },
+  {
+    "id": "CU-032",
+    "name": "Carlos Manuel de Céspedes",
+    "country": "CU",
+    "region": "Camagüey Province",
+    "domain": "",
+    "osm_relation_id": 5892221,
+    "population": 224488
+  },
+  {
+    "id": "CU-033",
+    "name": "Cauto Cristo",
+    "country": "CU",
+    "region": "Granma Province",
+    "domain": "",
+    "osm_relation_id": 5915224
+  },
+  {
+    "id": "CU-034",
+    "name": "Centro Habana",
+    "country": "CU",
+    "region": "Havana",
+    "domain": "",
+    "osm_relation_id": 5489819,
+    "population": 132451
+  },
+  {
+    "id": "CU-035",
+    "name": "Cerro",
+    "country": "CU",
+    "region": "Havana",
+    "domain": ""
+  },
+  {
+    "id": "CU-036",
+    "name": "Chambas",
+    "country": "CU",
+    "region": "Ciego de Ávila Province",
+    "domain": "",
+    "osm_relation_id": 5887666,
+    "population": 41000
+  },
+  {
+    "id": "CU-037",
+    "name": "Ciego de Ávila",
+    "country": "CU",
+    "region": "Ciego de Ávila Province",
+    "domain": "asambleaciegodeavila.gob.cu",
+    "population": 143449
+  },
+  {
+    "id": "CU-038",
+    "name": "Cienfuegos",
+    "country": "CU",
+    "region": "Cienfuegos Province",
+    "domain": "",
+    "population": 164924
+  },
+  {
+    "id": "CU-039",
+    "name": "Cifuentes",
+    "country": "CU",
+    "region": "Villa Clara Province",
+    "domain": "",
+    "osm_relation_id": 5884790
+  },
+  {
+    "id": "CU-040",
+    "name": "Ciro Redondo",
+    "country": "CU",
+    "region": "Ciego de Ávila Province",
+    "domain": "",
+    "osm_relation_id": 5887668,
+    "population": 28370
+  },
+  {
+    "id": "CU-041",
+    "name": "Ciénaga de Zapata",
+    "country": "CU",
+    "region": "Matanzas Province",
+    "domain": "cenagueros.gob.cu",
+    "population": 8611
+  },
+  {
+    "id": "CU-042",
+    "name": "Colombia",
+    "country": "CU",
+    "region": "Las Tunas Province",
+    "domain": "",
+    "osm_relation_id": 5901288
+  },
+  {
+    "id": "CU-043",
+    "name": "Colón",
+    "country": "CU",
+    "region": "Matanzas Province",
+    "domain": "",
+    "population": 72000
+  },
+  {
+    "id": "CU-044",
+    "name": "Consolación del Sur",
+    "country": "CU",
+    "region": "Pinar del Río Province",
+    "domain": "consolaciondelsur.pinarte.cult.cu",
+    "osm_relation_id": 2575065,
+    "population": 87500
+  },
+  {
+    "id": "CU-045",
+    "name": "Contramaestre",
+    "country": "CU",
+    "region": "Santiago de Cuba Province",
+    "domain": "",
+    "osm_relation_id": 5919047,
+    "population": 106002
+  },
+  {
+    "id": "CU-046",
+    "name": "Cotorro",
+    "country": "CU",
+    "region": "Havana",
+    "domain": "",
+    "osm_relation_id": 5489821
+  },
+  {
+    "id": "CU-047",
+    "name": "Cruces",
+    "country": "CU",
+    "region": "Cienfuegos Province",
+    "domain": "",
+    "osm_relation_id": 5884792
+  },
+  {
+    "id": "CU-048",
+    "name": "Cueto",
+    "country": "CU",
+    "region": "Holguín Province",
+    "domain": "",
+    "osm_relation_id": 5904273
+  },
+  {
+    "id": "CU-049",
+    "name": "Cumanayagua",
+    "country": "CU",
+    "region": "Cienfuegos Province",
+    "domain": "",
+    "osm_relation_id": 5884793
+  },
+  {
+    "id": "CU-050",
+    "name": "Cárdenas",
+    "country": "CU",
+    "region": "Matanzas Province",
+    "domain": "",
+    "osm_relation_id": 11288692,
+    "population": 86700
+  },
+  {
+    "id": "CU-051",
+    "name": "Diez de Octubre",
+    "country": "CU",
+    "region": "Havana",
+    "domain": "",
+    "osm_relation_id": 5489822,
+    "population": 227293
+  },
+  {
+    "id": "CU-052",
+    "name": "El Salvador",
+    "country": "CU",
+    "region": "Guantánamo Province",
+    "domain": "",
+    "population": 45773
+  },
+  {
+    "id": "CU-053",
+    "name": "Encrucijada",
+    "country": "CU",
+    "region": "Villa Clara Province",
+    "domain": ""
+  },
+  {
+    "id": "CU-054",
+    "name": "Esmeralda",
+    "country": "CU",
+    "region": "Camagüey Province",
+    "domain": "",
+    "osm_relation_id": 5892222
+  },
+  {
+    "id": "CU-055",
+    "name": "Florencia",
+    "country": "CU",
+    "region": "Ciego de Ávila Province",
+    "domain": "",
+    "osm_relation_id": 5887669,
+    "population": 21150
+  },
+  {
+    "id": "CU-056",
+    "name": "Florida",
+    "country": "CU",
+    "region": "Camagüey Province",
+    "domain": "",
+    "population": 71676
+  },
+  {
+    "id": "CU-057",
+    "name": "Fomento",
+    "country": "CU",
+    "region": "Sancti Spíritus Province",
+    "domain": "",
+    "osm_relation_id": 5884863
+  },
+  {
+    "id": "CU-058",
+    "name": "Frank País",
+    "country": "CU",
+    "region": "Holguín Province",
+    "domain": "",
+    "osm_relation_id": 5904274
+  },
+  {
+    "id": "CU-059",
+    "name": "Gibara",
+    "country": "CU",
+    "region": "Holguín Province",
+    "domain": "",
+    "osm_relation_id": 5904275,
+    "population": 71126
+  },
+  {
+    "id": "CU-060",
+    "name": "Guamá",
+    "country": "CU",
+    "region": "Santiago de Cuba Province",
+    "domain": "",
+    "osm_relation_id": 5919049,
+    "population": 35516
+  },
+  {
+    "id": "CU-061",
+    "name": "Guanabacoa",
+    "country": "CU",
+    "region": "Havana Province",
+    "domain": "",
+    "osm_relation_id": 5501389,
+    "population": 115180
+  },
+  {
+    "id": "CU-062",
+    "name": "Guanabacoa",
+    "country": "CU",
+    "region": "Guanabacoa",
+    "domain": ""
+  },
+  {
+    "id": "CU-063",
+    "name": "Guanajay",
+    "country": "CU",
+    "region": "Artemisa Province",
+    "domain": "",
+    "osm_relation_id": 2576651,
+    "population": 22839
+  },
+  {
+    "id": "CU-064",
+    "name": "Guane",
+    "country": "CU",
+    "region": "Pinar del Río Province",
+    "domain": "",
+    "osm_relation_id": 2575066,
+    "population": 35718
+  },
+  {
+    "id": "CU-065",
+    "name": "Guantánamo",
+    "country": "CU",
+    "region": "Guantánamo Province",
+    "domain": "",
+    "population": 228436
+  },
+  {
+    "id": "CU-066",
+    "name": "Guisa",
+    "country": "CU",
+    "region": "Granma Province",
+    "domain": "",
+    "osm_relation_id": 5915225
+  },
+  {
+    "id": "CU-067",
+    "name": "Guáimaro",
+    "country": "CU",
+    "region": "Camagüey Province",
+    "domain": "",
+    "osm_relation_id": 5892224
+  },
+  {
+    "id": "CU-068",
+    "name": "Güines",
+    "country": "CU",
+    "region": "Mayabeque Province",
+    "domain": "",
+    "population": 66892
+  },
+  {
+    "id": "CU-069",
+    "name": "Güira de Melena",
+    "country": "CU",
+    "region": "Artemisa Province",
+    "domain": "",
+    "osm_relation_id": 2576652,
+    "population": 37838
+  },
+  {
+    "id": "CU-070",
+    "name": "Habana del Este",
+    "country": "CU",
+    "region": "Havana",
+    "domain": "",
+    "osm_relation_id": 5489823,
+    "population": 172040
+  },
+  {
+    "id": "CU-071",
+    "name": "Holguin",
+    "country": "CU",
+    "region": "Holguín Province",
+    "domain": "ciudadholguin.gob.cu",
+    "osm_relation_id": 5904276,
+    "population": 350191
+  },
+  {
+    "id": "CU-072",
+    "name": "Imías",
+    "country": "CU",
+    "region": "Guantánamo Province",
+    "domain": "",
+    "osm_relation_id": 5927814,
+    "population": 9699
+  },
+  {
+    "id": "CU-073",
+    "name": "Isla de la Juventud",
+    "country": "CU",
+    "region": "Cuba",
+    "domain": "gerona.inf.cu",
+    "osm_relation_id": 1854614,
+    "population": 86420
+  },
+  {
+    "id": "CU-074",
+    "name": "Jagüey Grande",
+    "country": "CU",
+    "region": "Matanzas Province",
+    "domain": "",
+    "osm_relation_id": 5875949,
+    "population": 87771
+  },
+  {
+    "id": "CU-075",
+    "name": "Jaruco",
+    "country": "CU",
+    "region": "Mayabeque Province",
+    "domain": "",
+    "osm_relation_id": 5539166
+  },
+  {
+    "id": "CU-076",
+    "name": "Jatibonico",
+    "country": "CU",
+    "region": "Sancti Spíritus Province",
+    "domain": "",
+    "osm_relation_id": 5884864,
+    "population": 42959
+  },
+  {
+    "id": "CU-077",
+    "name": "Jesús Menéndez",
+    "country": "CU",
+    "region": "Las Tunas Province",
+    "domain": "",
+    "osm_relation_id": 5901289
+  },
+  {
+    "id": "CU-078",
+    "name": "Jiguaní",
+    "country": "CU",
+    "region": "Granma Province",
+    "domain": "",
+    "osm_relation_id": 5915226
+  },
+  {
+    "id": "CU-079",
+    "name": "Jimaguayú",
+    "country": "CU",
+    "region": "Camagüey Province",
+    "domain": "",
+    "osm_relation_id": 5892225
+  },
+  {
+    "id": "CU-080",
+    "name": "Jobabo",
+    "country": "CU",
+    "region": "Las Tunas Province",
+    "domain": "",
+    "osm_relation_id": 5901298,
+    "population": 47350
+  },
+  {
+    "id": "CU-081",
+    "name": "Jovellanos",
+    "country": "CU",
+    "region": "Matanzas Province",
+    "domain": "",
+    "osm_relation_id": 5875950,
+    "population": 58685
+  },
+  {
+    "id": "CU-082",
+    "name": "La Lisa",
+    "country": "CU",
+    "region": "Havana",
+    "domain": "",
+    "osm_relation_id": 5489825
+  },
+  {
+    "id": "CU-083",
+    "name": "La Palma",
+    "country": "CU",
+    "region": "Pinar del Río Province",
+    "domain": "",
+    "osm_relation_id": 2575067,
+    "population": 35346
+  },
+  {
+    "id": "CU-084",
+    "name": "La Sierpe",
+    "country": "CU",
+    "region": "Sancti Spíritus Province",
+    "domain": "",
+    "osm_relation_id": 5884865
+  },
+  {
+    "id": "CU-085",
+    "name": "Lajas",
+    "country": "CU",
+    "region": "Cienfuegos Province",
+    "domain": "",
+    "osm_relation_id": 5884804,
+    "population": 22602
+  },
+  {
+    "id": "CU-086",
+    "name": "Las Tunas",
+    "country": "CU",
+    "region": "Las Tunas Province",
+    "domain": "guije.com",
+    "osm_relation_id": 5901299,
+    "population": 202105
+  },
+  {
+    "id": "CU-087",
+    "name": "Limonar",
+    "country": "CU",
+    "region": "Matanzas Province",
+    "domain": "",
+    "osm_relation_id": 5875952,
+    "population": 25421
+  },
+  {
+    "id": "CU-088",
+    "name": "Los Arabos",
+    "country": "CU",
+    "region": "Matanzas Province",
+    "domain": "",
+    "osm_relation_id": 5875953
+  },
+  {
+    "id": "CU-089",
+    "name": "Los Palacios",
+    "country": "CU",
+    "region": "Pinar del Río Province",
+    "domain": "",
+    "osm_relation_id": 2575068,
+    "population": 38731
+  },
+  {
+    "id": "CU-090",
+    "name": "Madruga",
+    "country": "CU",
+    "region": "Mayabeque Province",
+    "domain": "",
+    "osm_relation_id": 5539167,
+    "population": 30640
+  },
+  {
+    "id": "CU-091",
+    "name": "Maisí",
+    "country": "CU",
+    "region": "Guantánamo Province",
+    "domain": "",
+    "osm_relation_id": 5927815,
+    "population": 2938
+  },
+  {
+    "id": "CU-092",
+    "name": "Majagua",
+    "country": "CU",
+    "region": "Ciego de Ávila Province",
+    "domain": "",
+    "osm_relation_id": 5887679,
+    "population": 26830
+  },
+  {
+    "id": "CU-093",
+    "name": "Majibacoa",
+    "country": "CU",
+    "region": "Las Tunas Province",
+    "domain": "",
+    "osm_relation_id": 5901300
+  },
+  {
+    "id": "CU-094",
+    "name": "Manatí",
+    "country": "CU",
+    "region": "Las Tunas Province",
+    "domain": "",
+    "osm_relation_id": 5901301
+  },
+  {
+    "id": "CU-095",
+    "name": "Manicaragua",
+    "country": "CU",
+    "region": "Villa Clara Province",
+    "domain": "",
+    "osm_relation_id": 5884795,
+    "population": 61990
+  },
+  {
+    "id": "CU-096",
+    "name": "Mantua",
+    "country": "CU",
+    "region": "Pinar del Río Province",
+    "domain": "",
+    "osm_relation_id": 2575069
+  },
+  {
+    "id": "CU-097",
+    "name": "Manuel Tames",
+    "country": "CU",
+    "region": "Guantánamo Province",
+    "domain": "",
+    "osm_relation_id": 5927816,
+    "population": 21237
+  },
+  {
+    "id": "CU-098",
+    "name": "Manzanillo",
+    "country": "CU",
+    "region": "Granma Province",
+    "domain": "",
+    "population": 150999
+  },
+  {
+    "id": "CU-099",
+    "name": "Marianao",
+    "country": "CU",
+    "region": "Havana Province",
+    "domain": "",
+    "osm_relation_id": 5489826
+  },
+  {
+    "id": "CU-100",
+    "name": "Mariel",
+    "country": "CU",
+    "region": "Artemisa Province",
+    "domain": "",
+    "osm_relation_id": 2576653,
+    "population": 42500
+  },
+  {
+    "id": "CU-101",
+    "name": "Martí",
+    "country": "CU",
+    "region": "Matanzas Province",
+    "domain": "",
+    "osm_relation_id": 5875982
+  },
+  {
+    "id": "CU-102",
+    "name": "Matanzas",
+    "country": "CU",
+    "region": "Matanzas Province",
+    "domain": "guije.com",
+    "population": 151624
+  },
+  {
+    "id": "CU-103",
+    "name": "Mayarí",
+    "country": "CU",
+    "region": "Holguín Province",
+    "domain": "",
+    "osm_relation_id": 5904277,
+    "population": 102354
+  },
+  {
+    "id": "CU-104",
+    "name": "Media Luna",
+    "country": "CU",
+    "region": "Granma Province",
+    "domain": "",
+    "osm_relation_id": 5915228
+  },
+  {
+    "id": "CU-105",
+    "name": "Melena del Sur",
+    "country": "CU",
+    "region": "Mayabeque Province",
+    "domain": "facebook.com",
+    "osm_relation_id": 5539168,
+    "population": 20646
+  },
+  {
+    "id": "CU-106",
+    "name": "Mella",
+    "country": "CU",
+    "region": "Santiago de Cuba Province",
+    "domain": "",
+    "osm_relation_id": 5919050,
+    "population": 33667
+  },
+  {
+    "id": "CU-107",
+    "name": "Minas",
+    "country": "CU",
+    "region": "Camagüey Province",
+    "domain": "",
+    "osm_relation_id": 5892226
+  },
+  {
+    "id": "CU-108",
+    "name": "Minas de Matahambre",
+    "country": "CU",
+    "region": "Pinar del Río Province",
+    "domain": "",
+    "osm_relation_id": 2575070
+  },
+  {
+    "id": "CU-109",
+    "name": "Moa",
+    "country": "CU",
+    "region": "Holguín Province",
+    "domain": "",
+    "population": 73053
+  },
+  {
+    "id": "CU-110",
+    "name": "Morón",
+    "country": "CU",
+    "region": "Ciego de Ávila Province",
+    "domain": "",
+    "population": 59371
+  },
+  {
+    "id": "CU-111",
+    "name": "Municipio Especial Isla de la Juventud",
+    "country": "CU",
+    "region": "Cuba",
+    "domain": ""
+  },
+  {
+    "id": "CU-112",
+    "name": "Najasa",
+    "country": "CU",
+    "region": "Camagüey Province",
+    "domain": "",
+    "osm_relation_id": 5892227,
+    "population": 15579
+  },
+  {
+    "id": "CU-113",
+    "name": "Niceto Pérez",
+    "country": "CU",
+    "region": "Guantánamo Province",
+    "domain": "",
+    "osm_relation_id": 5927817,
+    "population": 2873
+  },
+  {
+    "id": "CU-114",
+    "name": "Niquero",
+    "country": "CU",
+    "region": "Granma Province",
+    "domain": "",
+    "osm_relation_id": 5915229,
+    "population": 41252
+  },
+  {
+    "id": "CU-115",
+    "name": "Nueva Paz",
+    "country": "CU",
+    "region": "Mayabeque Province",
+    "domain": "",
+    "osm_relation_id": 5539169,
+    "population": 24277
+  },
+  {
+    "id": "CU-116",
+    "name": "Nuevitas",
+    "country": "CU",
+    "region": "Camagüey Province",
+    "domain": "",
+    "population": 38995
+  },
+  {
+    "id": "CU-117",
+    "name": "Old Havana",
+    "country": "CU",
+    "region": "Havana Province",
+    "domain": "",
+    "osm_relation_id": 5489824,
+    "population": 95383
+  },
+  {
+    "id": "CU-118",
+    "name": "Palma Soriano",
+    "country": "CU",
+    "region": "Santiago de Cuba Province",
+    "domain": "guije.com",
+    "population": 119740
+  },
+  {
+    "id": "CU-119",
+    "name": "Palmira",
+    "country": "CU",
+    "region": "Cienfuegos Province",
+    "domain": "",
+    "osm_relation_id": 5884796
+  },
+  {
+    "id": "CU-120",
+    "name": "Pedro Betancourt",
+    "country": "CU",
+    "region": "Matanzas Province",
+    "domain": "",
+    "osm_relation_id": 5875984
+  },
+  {
+    "id": "CU-121",
+    "name": "Perico",
+    "country": "CU",
+    "region": "Matanzas Province",
+    "domain": "",
+    "osm_relation_id": 5875951
+  },
+  {
+    "id": "CU-122",
+    "name": "Pilón",
+    "country": "CU",
+    "region": "Granma Province",
+    "domain": "",
+    "osm_relation_id": 5915230
+  },
+  {
+    "id": "CU-123",
+    "name": "Pinar del Río",
+    "country": "CU",
+    "region": "Pinar del Río Province",
+    "domain": "pinardelrio.pinar.cu",
+    "population": 188614
+  },
+  {
+    "id": "CU-124",
+    "name": "Placetas",
+    "country": "CU",
+    "region": "Villa Clara Province",
+    "domain": "cenit.cult.cu",
+    "osm_relation_id": 5884797,
+    "population": 71208
+  },
+  {
+    "id": "CU-125",
+    "name": "Playa",
+    "country": "CU",
+    "region": "Havana",
+    "domain": "",
+    "osm_relation_id": 5489827,
+    "population": 175394
+  },
+  {
+    "id": "CU-126",
+    "name": "Plaza de la Revolución",
+    "country": "CU",
+    "region": "Havana",
+    "domain": "",
+    "osm_relation_id": 5489828,
+    "population": 147789
+  },
+  {
+    "id": "CU-127",
+    "name": "Primero de Enero",
+    "country": "CU",
+    "region": "Ciego de Ávila Province",
+    "domain": "",
+    "osm_relation_id": 5887681,
+    "population": 29117
+  },
+  {
+    "id": "CU-128",
+    "name": "Puerto Padre",
+    "country": "CU",
+    "region": "Las Tunas Province",
+    "domain": ""
+  },
+  {
+    "id": "CU-129",
+    "name": "Rafael Freyre",
+    "country": "CU",
+    "region": "Holguín Province",
+    "domain": "",
+    "osm_relation_id": 5904288
+  },
+  {
+    "id": "CU-130",
+    "name": "Ranchuelo",
+    "country": "CU",
+    "region": "Villa Clara Province",
+    "domain": "",
+    "osm_relation_id": 5884799
+  },
+  {
+    "id": "CU-131",
+    "name": "Regla",
+    "country": "CU",
+    "region": "Havana",
+    "domain": "",
+    "osm_relation_id": 5489829
+  },
+  {
+    "id": "CU-132",
+    "name": "Remedios",
+    "country": "CU",
+    "region": "Villa Clara Province",
+    "domain": "",
+    "osm_relation_id": 5884800,
+    "population": 45621
+  },
+  {
+    "id": "CU-133",
+    "name": "Rodas",
+    "country": "CU",
+    "region": "Cienfuegos Province",
+    "domain": "",
+    "osm_relation_id": 5884801
+  },
+  {
+    "id": "CU-134",
+    "name": "Río Cauto",
+    "country": "CU",
+    "region": "Granma Province",
+    "domain": "",
+    "osm_relation_id": 5915231
+  },
+  {
+    "id": "CU-135",
+    "name": "Sagua La Grande",
+    "country": "CU",
+    "region": "Villa Clara Province",
+    "domain": "",
+    "population": 53077
+  },
+  {
+    "id": "CU-136",
+    "name": "Sagua de Tánamo",
+    "country": "CU",
+    "region": "Holguín Province",
+    "domain": "",
+    "osm_relation_id": 5904289
+  },
+  {
+    "id": "CU-137",
+    "name": "San Antonio de los Baños",
+    "country": "CU",
+    "region": "Artemisa Province",
+    "domain": "",
+    "osm_relation_id": 2576654,
+    "population": 33811
+  },
+  {
+    "id": "CU-138",
+    "name": "San Antonio del Sur",
+    "country": "CU",
+    "region": "Guantánamo Province",
+    "domain": "",
+    "osm_relation_id": 5927818,
+    "population": 25752
+  },
+  {
+    "id": "CU-139",
+    "name": "San Cristóbal",
+    "country": "CU",
+    "region": "Artemisa Province",
+    "domain": "pri.jovenclub.cu",
+    "osm_relation_id": 2575072,
+    "population": 29119
+  },
+  {
+    "id": "CU-140",
+    "name": "San Fernando de Camarones",
+    "country": "CU",
+    "region": "Cienfuegos Province",
+    "domain": ""
+  },
+  {
+    "id": "CU-141",
+    "name": "San José de las Lajas",
+    "country": "CU",
+    "region": "Havana Province",
+    "domain": "",
+    "osm_relation_id": 5539171,
+    "population": 80960
+  },
+  {
+    "id": "CU-142",
+    "name": "San Juan y Martínez",
+    "country": "CU",
+    "region": "Pinar del Río Province",
+    "domain": "",
+    "osm_relation_id": 2575073,
+    "population": 44344
+  },
+  {
+    "id": "CU-143",
+    "name": "San Luis",
+    "country": "CU",
+    "region": "Pinar del Río Province",
+    "domain": "",
+    "osm_relation_id": 2575074,
+    "population": 33039
+  },
+  {
+    "id": "CU-144",
+    "name": "San Luis",
+    "country": "CU",
+    "region": "Santiago de Cuba Province",
+    "domain": "",
+    "osm_relation_id": 5919052,
+    "population": 88496
+  },
+  {
+    "id": "CU-145",
+    "name": "San Miguel del Padrón",
+    "country": "CU",
+    "region": "Havana Province",
+    "domain": "",
+    "osm_relation_id": 5489830
+  },
+  {
+    "id": "CU-146",
+    "name": "San Nicolás de Bari",
+    "country": "CU",
+    "region": "Mayabeque Province",
+    "domain": "",
+    "osm_relation_id": 5539172,
+    "population": 21563
+  },
+  {
+    "id": "CU-147",
+    "name": "Sancti Spíritus",
+    "country": "CU",
+    "region": "Sancti Spíritus Province",
+    "domain": "guije.com",
+    "population": 138504
+  },
+  {
+    "id": "CU-148",
+    "name": "Sandino",
+    "country": "CU",
+    "region": "Pinar del Río Province",
+    "domain": "",
+    "osm_relation_id": 2575075,
+    "population": 37293
+  },
+  {
+    "id": "CU-149",
+    "name": "Santa Clara",
+    "country": "CU",
+    "region": "Villa Clara Province",
+    "domain": "",
+    "population": 247436
+  },
+  {
+    "id": "CU-150",
+    "name": "Santa Cruz del Norte",
+    "country": "CU",
+    "region": "Mayabeque Province",
+    "domain": "",
+    "osm_relation_id": 5539173
+  },
+  {
+    "id": "CU-151",
+    "name": "Santa Cruz del Sur",
+    "country": "CU",
+    "region": "Camagüey Province",
+    "domain": "",
+    "osm_relation_id": 5892229
+  },
+  {
+    "id": "CU-152",
+    "name": "Santiago de Cuba",
+    "country": "CU",
+    "region": "Santiago de Cuba Province",
+    "domain": "",
+    "osm_relation_id": 5919053,
+    "population": 444851
+  },
+  {
+    "id": "CU-153",
+    "name": "Santo Domingo",
+    "country": "CU",
+    "region": "Villa Clara Province",
+    "domain": "",
+    "osm_relation_id": 5884805
+  },
+  {
+    "id": "CU-154",
+    "name": "Segundo Frente",
+    "country": "CU",
+    "region": "Santiago de Cuba Province",
+    "domain": "",
+    "osm_relation_id": 5919054,
+    "population": 40885
+  },
+  {
+    "id": "CU-155",
+    "name": "Sibanicú",
+    "country": "CU",
+    "region": "Camagüey Province",
+    "domain": "",
+    "osm_relation_id": 5892230
+  },
+  {
+    "id": "CU-156",
+    "name": "Sierra de Cubitas",
+    "country": "CU",
+    "region": "Camagüey Province",
+    "domain": "",
+    "osm_relation_id": 5892231
+  },
+  {
+    "id": "CU-157",
+    "name": "Songo-La Maya",
+    "country": "CU",
+    "region": "Santiago de Cuba Province",
+    "domain": "",
+    "osm_relation_id": 5919055,
+    "population": 100287
+  },
+  {
+    "id": "CU-158",
+    "name": "Taguasco",
+    "country": "CU",
+    "region": "Sancti Spíritus Province",
+    "domain": "",
+    "osm_relation_id": 5884867,
+    "population": 32968
+  },
+  {
+    "id": "CU-159",
+    "name": "Tercer Frente",
+    "country": "CU",
+    "region": "Santiago de Cuba Province",
+    "domain": "",
+    "osm_relation_id": 5919056,
+    "population": 30457
+  },
+  {
+    "id": "CU-160",
+    "name": "Trinidad",
+    "country": "CU",
+    "region": "Sancti Spíritus Province",
+    "domain": "trinidad.gob.cu",
+    "population": 51994
+  },
+  {
+    "id": "CU-161",
+    "name": "Unión de Reyes",
+    "country": "CU",
+    "region": "Matanzas Province",
+    "domain": "",
+    "osm_relation_id": 5875985
+  },
+  {
+    "id": "CU-162",
+    "name": "Urbano Noris",
+    "country": "CU",
+    "region": "Holguín Province",
+    "domain": "",
+    "osm_relation_id": 5904290
+  },
+  {
+    "id": "CU-163",
+    "name": "Vertientes",
+    "country": "CU",
+    "region": "Camagüey Province",
+    "domain": "",
+    "osm_relation_id": 5892232
+  },
+  {
+    "id": "CU-164",
+    "name": "Viñales",
+    "country": "CU",
+    "region": "Pinar del Río Province",
+    "domain": "vinales.pinar.cu",
+    "osm_relation_id": 2575076,
+    "population": 27771
+  },
+  {
+    "id": "CU-165",
+    "name": "Yaguajay",
+    "country": "CU",
+    "region": "Sancti Spíritus Province",
+    "domain": ""
+  },
+  {
+    "id": "CU-166",
+    "name": "Yara",
+    "country": "CU",
+    "region": "Granma Province",
+    "domain": "",
+    "osm_relation_id": 5915232,
+    "population": 59415
+  },
+  {
+    "id": "CU-167",
+    "name": "Yateras",
+    "country": "CU",
+    "region": "Guantánamo Province",
+    "domain": "",
+    "population": 3309
+  },
+  {
+    "id": "CU-168",
+    "name": "Corralillo",
+    "country": "CU",
+    "region": "Villa Clara Province",
+    "domain": "",
+    "osm_relation_id": 5884791
+  }
+]

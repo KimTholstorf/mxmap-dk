@@ -5,7 +5,8 @@
     "country": "CR",
     "region": "Guanacaste Province",
     "domain": "abangares.go.cr",
-    "osm_relation_id": 6157166
+    "osm_relation_id": 6157166,
+    "population": 22211
   },
   {
     "id": "CR-002",
@@ -13,7 +14,8 @@
     "country": "CR",
     "region": "San José Province",
     "domain": "acosta.go.cr",
-    "osm_relation_id": 6292178
+    "osm_relation_id": 6292178,
+    "population": 22542
   },
   {
     "id": "CR-003",
@@ -21,7 +23,8 @@
     "country": "CR",
     "region": "Alajuela Province",
     "domain": "munialajuela.go.cr",
-    "osm_relation_id": 5369889
+    "osm_relation_id": 5369889,
+    "population": 322143
   },
   {
     "id": "CR-004",
@@ -29,7 +32,8 @@
     "country": "CR",
     "region": "San José Province",
     "domain": "munialajuelita.go.cr",
-    "osm_relation_id": 5675713
+    "osm_relation_id": 5675713,
+    "population": 81012
   },
   {
     "id": "CR-005",
@@ -37,7 +41,8 @@
     "country": "CR",
     "region": "Cartago Province",
     "domain": "munialvarado.go.cr",
-    "osm_relation_id": 5685045
+    "osm_relation_id": 5685045,
+    "population": 17134
   },
   {
     "id": "CR-006",
@@ -45,7 +50,8 @@
     "country": "CR",
     "region": "San José Province",
     "domain": "aserri.go.cr",
-    "osm_relation_id": 6291877
+    "osm_relation_id": 6291877,
+    "population": 59588
   },
   {
     "id": "CR-007",
@@ -53,7 +59,8 @@
     "country": "CR",
     "region": "Alajuela Province",
     "domain": "atenasmuni.go.cr",
-    "osm_relation_id": 5366458
+    "osm_relation_id": 5366458,
+    "population": 25460
   },
   {
     "id": "CR-008",
@@ -61,7 +68,8 @@
     "country": "CR",
     "region": "Guanacaste Province",
     "domain": "bagaces.go.cr",
-    "osm_relation_id": 6156048
+    "osm_relation_id": 6156048,
+    "population": 23709
   },
   {
     "id": "CR-009",
@@ -69,7 +77,8 @@
     "country": "CR",
     "region": "Heredia Province",
     "domain": "munibarva.go.cr",
-    "osm_relation_id": 5670537
+    "osm_relation_id": 5670537,
+    "population": 47699
   },
   {
     "id": "CR-010",
@@ -77,7 +86,8 @@
     "country": "CR",
     "region": "Heredia Province",
     "domain": "belen.go.cr",
-    "osm_relation_id": 5370093
+    "osm_relation_id": 5370093,
+    "population": 23759
   },
   {
     "id": "CR-011",
@@ -85,7 +95,8 @@
     "country": "CR",
     "region": "Puntarenas Province",
     "domain": "munibuenosaires.go.cr",
-    "osm_relation_id": 6268475
+    "osm_relation_id": 6268475,
+    "population": 50562
   },
   {
     "id": "CR-012",
@@ -93,7 +104,8 @@
     "country": "CR",
     "region": "Guanacaste Province",
     "domain": "municarrillo.go.cr",
-    "osm_relation_id": 5726574
+    "osm_relation_id": 5726574,
+    "population": 48227
   },
   {
     "id": "CR-013",
@@ -101,7 +113,8 @@
     "country": "CR",
     "region": "Cartago Province",
     "domain": "muni-carta.go.cr",
-    "osm_relation_id": 5698504
+    "osm_relation_id": 5698504,
+    "population": 165417
   },
   {
     "id": "CR-014",
@@ -109,7 +122,8 @@
     "country": "CR",
     "region": "Guanacaste Province",
     "domain": "municanas.go.cr",
-    "osm_relation_id": 6156366
+    "osm_relation_id": 6156366,
+    "population": 31738
   },
   {
     "id": "CR-015",
@@ -117,7 +131,8 @@
     "country": "CR",
     "region": "Puntarenas Province",
     "domain": "municorredores.go.cr",
-    "osm_relation_id": 6157583
+    "osm_relation_id": 6157583,
+    "population": 51023
   },
   {
     "id": "CR-016",
@@ -125,7 +140,8 @@
     "country": "CR",
     "region": "Puntarenas Province",
     "domain": "municotobrus.go.cr",
-    "osm_relation_id": 6265593
+    "osm_relation_id": 6265593,
+    "population": 46351
   },
   {
     "id": "CR-017",
@@ -133,7 +149,8 @@
     "country": "CR",
     "region": "San José Province",
     "domain": "curridabat.go.cr",
-    "osm_relation_id": 4068814
+    "osm_relation_id": 4068814,
+    "population": 71026
   },
   {
     "id": "CR-018",
@@ -141,7 +158,8 @@
     "country": "CR",
     "region": "San José Province",
     "domain": "desamparados.go.cr",
-    "osm_relation_id": 6200736
+    "osm_relation_id": 6200736,
+    "population": 223226
   },
   {
     "id": "CR-019",
@@ -149,7 +167,8 @@
     "country": "CR",
     "region": "San José Province",
     "domain": "dota.go.cr",
-    "osm_relation_id": 5695433
+    "osm_relation_id": 5695433,
+    "population": 9364
   },
   {
     "id": "CR-020",
@@ -157,7 +176,8 @@
     "country": "CR",
     "region": "Cartago Province",
     "domain": "muniguarco.go.cr",
-    "osm_relation_id": 5692182
+    "osm_relation_id": 5692182,
+    "population": 47375
   },
   {
     "id": "CR-021",
@@ -165,7 +185,8 @@
     "country": "CR",
     "region": "San José Province",
     "domain": "escazu.go.cr",
-    "osm_relation_id": 4071270
+    "osm_relation_id": 4071270,
+    "population": 71500
   },
   {
     "id": "CR-022",
@@ -173,7 +194,8 @@
     "country": "CR",
     "region": "Puntarenas Province",
     "domain": "muniesparza.go.cr",
-    "osm_relation_id": 5720555
+    "osm_relation_id": 5720555,
+    "population": 34808
   },
   {
     "id": "CR-023",
@@ -181,7 +203,8 @@
     "country": "CR",
     "region": "Heredia Province",
     "domain": "flores.go.cr",
-    "osm_relation_id": 5370094
+    "osm_relation_id": 5370094,
+    "population": 22026
   },
   {
     "id": "CR-024",
@@ -189,7 +212,8 @@
     "country": "CR",
     "region": "Puntarenas Province",
     "domain": "munigarabito.go.cr",
-    "osm_relation_id": 5718795
+    "osm_relation_id": 5718795,
+    "population": 26672
   },
   {
     "id": "CR-025",
@@ -197,7 +221,8 @@
     "country": "CR",
     "region": "San José Province",
     "domain": "munigoicoechea.go.cr",
-    "osm_relation_id": 5413776
+    "osm_relation_id": 5413776,
+    "population": 132104
   },
   {
     "id": "CR-026",
@@ -205,7 +230,8 @@
     "country": "CR",
     "region": "Puntarenas Province",
     "domain": "munidegolfito.go.cr",
-    "osm_relation_id": 6263891
+    "osm_relation_id": 6263891,
+    "population": 44086
   },
   {
     "id": "CR-027",
@@ -213,7 +239,8 @@
     "country": "CR",
     "region": "Alajuela Province",
     "domain": "grecia.go.cr",
-    "osm_relation_id": 5725181
+    "osm_relation_id": 5725181,
+    "population": 76226
   },
   {
     "id": "CR-028",
@@ -221,7 +248,8 @@
     "country": "CR",
     "region": "Alajuela Province",
     "domain": "muniguatuso.go.cr",
-    "osm_relation_id": 6193517
+    "osm_relation_id": 6193517,
+    "population": 18316
   },
   {
     "id": "CR-029",
@@ -229,7 +257,8 @@
     "country": "CR",
     "region": "Limón Province",
     "domain": "guacimo.go.cr",
-    "osm_relation_id": 5700770
+    "osm_relation_id": 5700770,
+    "population": 49606
   },
   {
     "id": "CR-030",
@@ -237,7 +266,8 @@
     "country": "CR",
     "region": "Heredia Province",
     "domain": "heredia.go.cr",
-    "osm_relation_id": 5730526
+    "osm_relation_id": 5730526,
+    "population": 131901
   },
   {
     "id": "CR-031",
@@ -245,7 +275,8 @@
     "country": "CR",
     "region": "Guanacaste Province",
     "domain": "munihojancha.com",
-    "osm_relation_id": 6195113
+    "osm_relation_id": 6195113,
+    "population": 8224
   },
   {
     "id": "CR-032",
@@ -253,7 +284,8 @@
     "country": "CR",
     "region": "Cartago Province",
     "domain": "munijimenez.go.cr",
-    "osm_relation_id": 6195371
+    "osm_relation_id": 6195371,
+    "population": 18710
   },
   {
     "id": "CR-033",
@@ -261,7 +293,8 @@
     "country": "CR",
     "region": "Guanacaste Province",
     "domain": "munilacruz.go.cr",
-    "osm_relation_id": 5726504
+    "osm_relation_id": 5726504,
+    "population": 26829
   },
   {
     "id": "CR-034",
@@ -269,7 +302,8 @@
     "country": "CR",
     "region": "Cartago Province",
     "domain": "launion.go.cr",
-    "osm_relation_id": 5413515
+    "osm_relation_id": 5413515,
+    "population": 99539
   },
   {
     "id": "CR-035",
@@ -277,7 +311,8 @@
     "country": "CR",
     "region": "San José Province",
     "domain": "munileco.go.cr",
-    "osm_relation_id": 5677863
+    "osm_relation_id": 5677863,
+    "population": 13553
   },
   {
     "id": "CR-036",
@@ -285,7 +320,8 @@
     "country": "CR",
     "region": "Guanacaste Province",
     "domain": "muniliberia.go.cr",
-    "osm_relation_id": 5725526
+    "osm_relation_id": 5725526,
+    "population": 80130
   },
   {
     "id": "CR-037",
@@ -293,7 +329,8 @@
     "country": "CR",
     "region": "Limón Province",
     "domain": "municlimon.go.cr",
-    "osm_relation_id": 5708171
+    "osm_relation_id": 5708171,
+    "population": 116457
   },
   {
     "id": "CR-038",
@@ -301,7 +338,8 @@
     "country": "CR",
     "region": "Alajuela Province",
     "domain": "muniloschiles.go.cr",
-    "osm_relation_id": 6193364
+    "osm_relation_id": 6193364,
+    "population": 34701
   },
   {
     "id": "CR-039",
@@ -309,7 +347,8 @@
     "country": "CR",
     "region": "Limón Province",
     "domain": "",
-    "osm_relation_id": 5708069
+    "osm_relation_id": 5708069,
+    "population": 45329
   },
   {
     "id": "CR-040",
@@ -317,7 +356,8 @@
     "country": "CR",
     "region": "San José Province",
     "domain": "montesdeoca.go.cr",
-    "osm_relation_id": 4073558
+    "osm_relation_id": 4073558,
+    "population": 53862
   },
   {
     "id": "CR-041",
@@ -325,7 +365,8 @@
     "country": "CR",
     "region": "Puntarenas Province",
     "domain": "munimontesdeoro.go.cr",
-    "osm_relation_id": 6150952
+    "osm_relation_id": 6150952,
+    "population": 16395
   },
   {
     "id": "CR-042",
@@ -333,7 +374,8 @@
     "country": "CR",
     "region": "Puntarenas Province",
     "domain": "monteverde.go.cr",
-    "osm_relation_id": 12951635
+    "osm_relation_id": 12951635,
+    "population": 5386
   },
   {
     "id": "CR-043",
@@ -341,7 +383,8 @@
     "country": "CR",
     "region": "San José Province",
     "domain": "mora.go.cr",
-    "osm_relation_id": 5723773
+    "osm_relation_id": 5723773,
+    "population": 32348
   },
   {
     "id": "CR-044",
@@ -349,7 +392,8 @@
     "country": "CR",
     "region": "San José Province",
     "domain": "moravia.go.cr",
-    "osm_relation_id": 5415430
+    "osm_relation_id": 5415430,
+    "population": 59546
   },
   {
     "id": "CR-045",
@@ -357,7 +401,8 @@
     "country": "CR",
     "region": "Guanacaste Province",
     "domain": "nandayure.go.cr",
-    "osm_relation_id": 6194683
+    "osm_relation_id": 6194683,
+    "population": 12058
   },
   {
     "id": "CR-046",
@@ -365,7 +410,8 @@
     "country": "CR",
     "region": "Alajuela Province",
     "domain": "naranjo.go.cr",
-    "osm_relation_id": 5900570
+    "osm_relation_id": 5900570,
+    "population": 46647
   },
   {
     "id": "CR-047",
@@ -373,7 +419,8 @@
     "country": "CR",
     "region": "Guanacaste Province",
     "domain": "nicoya.go.cr",
-    "osm_relation_id": 6195190
+    "osm_relation_id": 6195190,
+    "population": 66268
   },
   {
     "id": "CR-048",
@@ -381,7 +428,8 @@
     "country": "CR",
     "region": "Cartago Province",
     "domain": "oreamuno.go.cr",
-    "osm_relation_id": 5675483
+    "osm_relation_id": 5675483,
+    "population": 48911
   },
   {
     "id": "CR-049",
@@ -389,7 +437,8 @@
     "country": "CR",
     "region": "Alajuela Province",
     "domain": "muniorotina.go.cr",
-    "osm_relation_id": 5721071
+    "osm_relation_id": 5721071,
+    "population": 24217
   },
   {
     "id": "CR-050",
@@ -397,7 +446,8 @@
     "country": "CR",
     "region": "Puntarenas Province",
     "domain": "gobiernolocalosa.go.cr",
-    "osm_relation_id": 6196749
+    "osm_relation_id": 6196749,
+    "population": 36088
   },
   {
     "id": "CR-051",
@@ -405,7 +455,8 @@
     "country": "CR",
     "region": "Alajuela Province",
     "domain": "munipalmares.go.cr",
-    "osm_relation_id": 5654789
+    "osm_relation_id": 5654789,
+    "population": 39148
   },
   {
     "id": "CR-052",
@@ -413,7 +464,8 @@
     "country": "CR",
     "region": "Cartago Province",
     "domain": "muniparaiso.go.cr",
-    "osm_relation_id": 6195322
+    "osm_relation_id": 6195322,
+    "population": 65941
   },
   {
     "id": "CR-053",
@@ -421,7 +473,8 @@
     "country": "CR",
     "region": "Puntarenas Province",
     "domain": "muniparrita.go.cr",
-    "osm_relation_id": 6145859
+    "osm_relation_id": 6145859,
+    "population": 20068
   },
   {
     "id": "CR-054",
@@ -429,7 +482,8 @@
     "country": "CR",
     "region": "Limón Province",
     "domain": "munipococi.go.cr",
-    "osm_relation_id": 5698591
+    "osm_relation_id": 5698591,
+    "population": 146320
   },
   {
     "id": "CR-055",
@@ -437,7 +491,8 @@
     "country": "CR",
     "region": "Alajuela Province",
     "domain": "poasdigital.go.cr",
-    "osm_relation_id": 5659036
+    "osm_relation_id": 5659036,
+    "population": 36207
   },
   {
     "id": "CR-056",
@@ -445,7 +500,8 @@
     "country": "CR",
     "region": "Puntarenas Province",
     "domain": "",
-    "osm_relation_id": 14010855
+    "osm_relation_id": 14010855,
+    "population": 10644
   },
   {
     "id": "CR-057",
@@ -453,7 +509,8 @@
     "country": "CR",
     "region": "Puntarenas Province",
     "domain": "puntarenas.go.cr",
-    "osm_relation_id": 6404570
+    "osm_relation_id": 6404570,
+    "population": 141697
   },
   {
     "id": "CR-058",
@@ -461,7 +518,8 @@
     "country": "CR",
     "region": "San José Province",
     "domain": "puriscal.go.cr",
-    "osm_relation_id": 6153333
+    "osm_relation_id": 6153333,
+    "population": 38525
   },
   {
     "id": "CR-059",
@@ -469,7 +527,8 @@
     "country": "CR",
     "region": "San José Province",
     "domain": "perezzeledon.go.cr",
-    "osm_relation_id": 6200642
+    "osm_relation_id": 6200642,
+    "population": 156917
   },
   {
     "id": "CR-060",
@@ -477,7 +536,8 @@
     "country": "CR",
     "region": "Alajuela Province",
     "domain": "muniriocuarto.go.cr",
-    "osm_relation_id": 7105576
+    "osm_relation_id": 7105576,
+    "population": 14418
   },
   {
     "id": "CR-061",
@@ -485,7 +545,8 @@
     "country": "CR",
     "region": "Alajuela Province",
     "domain": "munisc.go.cr",
-    "osm_relation_id": 5992810
+    "osm_relation_id": 5992810,
+    "population": 198742
   },
   {
     "id": "CR-062",
@@ -493,7 +554,8 @@
     "country": "CR",
     "region": "Heredia Province",
     "domain": "munisanisidro.go.cr",
-    "osm_relation_id": 5730657
+    "osm_relation_id": 5730657,
+    "population": 22806
   },
   {
     "id": "CR-063",
@@ -501,7 +563,8 @@
     "country": "CR",
     "region": "San José Province",
     "domain": "msj.go.cr",
-    "osm_relation_id": 4069041
+    "osm_relation_id": 4069041,
+    "population": 352381
   },
   {
     "id": "CR-064",
@@ -509,7 +572,8 @@
     "country": "CR",
     "region": "Alajuela Province",
     "domain": "sanmateo.go.cr",
-    "osm_relation_id": 5722749
+    "osm_relation_id": 5722749,
+    "population": 6952
   },
   {
     "id": "CR-065",
@@ -517,7 +581,8 @@
     "country": "CR",
     "region": "Heredia Province",
     "domain": "sanpablo.go.cr",
-    "osm_relation_id": 5672742
+    "osm_relation_id": 5672742,
+    "population": 29860
   },
   {
     "id": "CR-066",
@@ -525,7 +590,8 @@
     "country": "CR",
     "region": "Heredia Province",
     "domain": "munisrh.go.cr",
-    "osm_relation_id": 5731159
+    "osm_relation_id": 5731159,
+    "population": 48848
   },
   {
     "id": "CR-067",
@@ -533,7 +599,8 @@
     "country": "CR",
     "region": "Alajuela Province",
     "domain": "sanramon.go.cr",
-    "osm_relation_id": 5994895
+    "osm_relation_id": 5994895,
+    "population": 93264
   },
   {
     "id": "CR-068",
@@ -541,7 +608,8 @@
     "country": "CR",
     "region": "San José Province",
     "domain": "santaana.go.cr",
-    "osm_relation_id": 5657109
+    "osm_relation_id": 5657109,
+    "population": 58020
   },
   {
     "id": "CR-069",
@@ -549,7 +617,8 @@
     "country": "CR",
     "region": "Heredia Province",
     "domain": "santabarbara.go.cr",
-    "osm_relation_id": 5668081
+    "osm_relation_id": 5668081,
+    "population": 39133
   },
   {
     "id": "CR-070",
@@ -557,7 +626,8 @@
     "country": "CR",
     "region": "Guanacaste Province",
     "domain": "santacruz.go.cr",
-    "osm_relation_id": 6153858
+    "osm_relation_id": 6153858,
+    "population": 72366
   },
   {
     "id": "CR-071",
@@ -565,7 +635,8 @@
     "country": "CR",
     "region": "Heredia Province",
     "domain": "munisantodomingo.go.cr",
-    "osm_relation_id": 5729243
+    "osm_relation_id": 5729243,
+    "population": 45932
   },
   {
     "id": "CR-072",
@@ -573,7 +644,8 @@
     "country": "CR",
     "region": "Heredia Province",
     "domain": "sarapiqui.go.cr",
-    "osm_relation_id": 5597651
+    "osm_relation_id": 5597651,
+    "population": 67153
   },
   {
     "id": "CR-073",
@@ -581,7 +653,8 @@
     "country": "CR",
     "region": "Alajuela Province",
     "domain": "munisarchi.go.cr",
-    "osm_relation_id": 5657065
+    "osm_relation_id": 5657065,
+    "population": 21562
   },
   {
     "id": "CR-074",
@@ -589,7 +662,8 @@
     "country": "CR",
     "region": "Limón Province",
     "domain": "siquirres.go.cr",
-    "osm_relation_id": 5703339
+    "osm_relation_id": 5703339,
+    "population": 63765
   },
   {
     "id": "CR-075",
@@ -597,7 +671,8 @@
     "country": "CR",
     "region": "Limón Province",
     "domain": "municipalidadtalamanca.go.cr",
-    "osm_relation_id": 5708170
+    "osm_relation_id": 5708170,
+    "population": 48906
   },
   {
     "id": "CR-076",
@@ -605,7 +680,8 @@
     "country": "CR",
     "region": "San José Province",
     "domain": "munitarrazu.cr",
-    "osm_relation_id": 5697661
+    "osm_relation_id": 5697661,
+    "population": 17810
   },
   {
     "id": "CR-077",
@@ -613,7 +689,8 @@
     "country": "CR",
     "region": "San José Province",
     "domain": "munitibas.go.cr",
-    "osm_relation_id": 5375374
+    "osm_relation_id": 5375374,
+    "population": 74592
   },
   {
     "id": "CR-078",
@@ -621,7 +698,8 @@
     "country": "CR",
     "region": "Guanacaste Province",
     "domain": "tilaran.go.cr",
-    "osm_relation_id": 6157562
+    "osm_relation_id": 6157562,
+    "population": 21232
   },
   {
     "id": "CR-079",
@@ -629,7 +707,8 @@
     "country": "CR",
     "region": "Cartago Province",
     "domain": "muniturrialba.go.cr",
-    "osm_relation_id": 6195387
+    "osm_relation_id": 6195387,
+    "population": 82065
   },
   {
     "id": "CR-080",
@@ -637,7 +716,8 @@
     "country": "CR",
     "region": "San José Province",
     "domain": "turrubares.go.cr",
-    "osm_relation_id": 5716966
+    "osm_relation_id": 5716966,
+    "population": 6173
   },
   {
     "id": "CR-081",
@@ -645,7 +725,8 @@
     "country": "CR",
     "region": "Alajuela Province",
     "domain": "muniupala.go.cr",
-    "osm_relation_id": 6193310
+    "osm_relation_id": 6193310,
+    "population": 57361
   },
   {
     "id": "CR-082",
@@ -653,7 +734,8 @@
     "country": "CR",
     "region": "San José Province",
     "domain": "coromuni.go.cr",
-    "osm_relation_id": 5416054
+    "osm_relation_id": 5416054,
+    "population": 67078
   },
   {
     "id": "CR-083",
@@ -661,6 +743,7 @@
     "country": "CR",
     "region": "Alajuela Province",
     "domain": "zarcero.go.cr",
-    "osm_relation_id": 5995231
+    "osm_relation_id": 5995231,
+    "population": 15153
   }
 ]

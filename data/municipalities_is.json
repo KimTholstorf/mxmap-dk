@@ -5,7 +5,8 @@
     "country": "IS",
     "region": "Vesturland",
     "domain": "akranes.is",
-    "osm_relation_id": 8810762
+    "osm_relation_id": 8810762,
+    "population": 8285
   },
   {
     "id": "IS-0002",
@@ -13,7 +14,8 @@
     "country": "IS",
     "region": "Norðurland eystra",
     "domain": "akureyri.is",
-    "osm_relation_id": 56086
+    "osm_relation_id": 56086,
+    "population": 20050
   },
   {
     "id": "IS-0003",
@@ -21,7 +23,8 @@
     "country": "IS",
     "region": "Suðurland",
     "domain": "blaskogabyggd.is",
-    "osm_relation_id": 9177051
+    "osm_relation_id": 9177051,
+    "population": 1362
   },
   {
     "id": "IS-0004",
@@ -29,7 +32,8 @@
     "country": "IS",
     "region": "Vestfirðir",
     "domain": "bolungarvik.is",
-    "osm_relation_id": 56180
+    "osm_relation_id": 56180,
+    "population": 997
   },
   {
     "id": "IS-0005",
@@ -37,7 +41,8 @@
     "country": "IS",
     "region": "Vesturland",
     "domain": "borgarbyggd.is",
-    "osm_relation_id": 8826397
+    "osm_relation_id": 8826397,
+    "population": 4102
   },
   {
     "id": "IS-0006",
@@ -45,7 +50,8 @@
     "country": "IS",
     "region": "Vesturland",
     "domain": "dalir.is",
-    "osm_relation_id": 56196
+    "osm_relation_id": 56196,
+    "population": 645
   },
   {
     "id": "IS-0007",
@@ -53,7 +59,8 @@
     "country": "IS",
     "region": "Norðurland eystra",
     "domain": "dalvikurbyggd.is",
-    "osm_relation_id": 55969
+    "osm_relation_id": 55969,
+    "population": 1906
   },
   {
     "id": "IS-0008",
@@ -61,7 +68,8 @@
     "country": "IS",
     "region": "Vesturland",
     "domain": "emh.is",
-    "osm_relation_id": 56200
+    "osm_relation_id": 56200,
+    "population": 124
   },
   {
     "id": "IS-0009",
@@ -69,7 +77,8 @@
     "country": "IS",
     "region": "Norðurland eystra",
     "domain": "esveit.is",
-    "osm_relation_id": 56092
+    "osm_relation_id": 56092,
+    "population": 1184
   },
   {
     "id": "IS-0010",
@@ -77,7 +86,8 @@
     "country": "IS",
     "region": "Norðurland eystra",
     "domain": "fjallabyggd.is",
-    "osm_relation_id": 55967
+    "osm_relation_id": 55967,
+    "population": 1966
   },
   {
     "id": "IS-0011",
@@ -85,7 +95,8 @@
     "country": "IS",
     "region": "Austurland",
     "domain": "fjardabyggd.is",
-    "osm_relation_id": 56135
+    "osm_relation_id": 56135,
+    "population": 5247
   },
   {
     "id": "IS-0012",
@@ -93,7 +104,8 @@
     "country": "IS",
     "region": "Austurland",
     "domain": "fljotsdal.is",
-    "osm_relation_id": 56120
+    "osm_relation_id": 56120,
+    "population": 90
   },
   {
     "id": "IS-0013",
@@ -101,7 +113,8 @@
     "country": "IS",
     "region": "Suðurland",
     "domain": "floahreppur.is",
-    "osm_relation_id": 8810681
+    "osm_relation_id": 8810681,
+    "population": 726
   },
   {
     "id": "IS-0014",
@@ -109,7 +122,8 @@
     "country": "IS",
     "region": "Höfuðborgarsvæðið",
     "domain": "gardabaer.is",
-    "osm_relation_id": 2556726
+    "osm_relation_id": 2556726,
+    "population": 20116
   },
   {
     "id": "IS-0015",
@@ -117,7 +131,8 @@
     "country": "IS",
     "region": "Suðurnes",
     "domain": "grindavik.is",
-    "osm_relation_id": 8485628
+    "osm_relation_id": 8485628,
+    "population": 3669
   },
   {
     "id": "IS-0016",
@@ -125,7 +140,8 @@
     "country": "IS",
     "region": "Vesturland",
     "domain": "grundarfjordur.is",
-    "osm_relation_id": 56198
+    "osm_relation_id": 56198,
+    "population": 826
   },
   {
     "id": "IS-0017",
@@ -133,7 +149,8 @@
     "country": "IS",
     "region": "Suðurland",
     "domain": "gogg.is",
-    "osm_relation_id": 9176913
+    "osm_relation_id": 9176913,
+    "population": 575
   },
   {
     "id": "IS-0018",
@@ -141,7 +158,8 @@
     "country": "IS",
     "region": "Norðurland eystra",
     "domain": "grenivik.is",
-    "osm_relation_id": 56091
+    "osm_relation_id": 56091,
+    "population": 389
   },
   {
     "id": "IS-0019",
@@ -149,7 +167,8 @@
     "country": "IS",
     "region": "Höfuðborgarsvæðið",
     "domain": "hafnarfjordur.is",
-    "osm_relation_id": 2582273
+    "osm_relation_id": 2582273,
+    "population": 30568
   },
   {
     "id": "IS-0020",
@@ -157,7 +176,8 @@
     "country": "IS",
     "region": "Suðurland",
     "domain": "fludir.is",
-    "osm_relation_id": 8817618
+    "osm_relation_id": 8817618,
+    "population": 914
   },
   {
     "id": "IS-0021",
@@ -165,7 +185,8 @@
     "country": "IS",
     "region": "Vesturland",
     "domain": "hvalfjordur.is",
-    "osm_relation_id": 8823263
+    "osm_relation_id": 8823263,
+    "population": 760
   },
   {
     "id": "IS-0022",
@@ -173,7 +194,8 @@
     "country": "IS",
     "region": "Suðurland",
     "domain": "hveragerdi.is",
-    "osm_relation_id": 8485632
+    "osm_relation_id": 8485632,
+    "population": 2564
   },
   {
     "id": "IS-0023",
@@ -181,7 +203,8 @@
     "country": "IS",
     "region": "Norðurland eystra",
     "domain": "horgarsveit.is",
-    "osm_relation_id": 56084
+    "osm_relation_id": 56084,
+    "population": 847
   },
   {
     "id": "IS-0024",
@@ -197,7 +220,8 @@
     "country": "IS",
     "region": "Norðurland vestra",
     "domain": "hunathing.is",
-    "osm_relation_id": 56115
+    "osm_relation_id": 56115,
+    "population": 1203
   },
   {
     "id": "IS-0026",
@@ -205,7 +229,8 @@
     "country": "IS",
     "region": "Vestfirðir",
     "domain": "drangsnes.is",
-    "osm_relation_id": 56190
+    "osm_relation_id": 56190,
+    "population": 115
   },
   {
     "id": "IS-0027",
@@ -213,7 +238,8 @@
     "country": "IS",
     "region": "Höfuðborgarsvæðið",
     "domain": "kjos.is",
-    "osm_relation_id": 8485922
+    "osm_relation_id": 8485922,
+    "population": 301
   },
   {
     "id": "IS-0028",
@@ -221,7 +247,8 @@
     "country": "IS",
     "region": "Höfuðborgarsvæðið",
     "domain": "kopavogur.is",
-    "osm_relation_id": 2580603
+    "osm_relation_id": 2580603,
+    "population": 40040
   },
   {
     "id": "IS-0029",
@@ -229,7 +256,8 @@
     "country": "IS",
     "region": "Norðurland eystra",
     "domain": "langanesbyggd.is",
-    "osm_relation_id": 56146
+    "osm_relation_id": 56146,
+    "population": 560
   },
   {
     "id": "IS-0030",
@@ -237,7 +265,8 @@
     "country": "IS",
     "region": "Höfuðborgarsvæðið",
     "domain": "mos.is",
-    "osm_relation_id": 2580604
+    "osm_relation_id": 2580604,
+    "population": 13715
   },
   {
     "id": "IS-0031",
@@ -245,7 +274,8 @@
     "country": "IS",
     "region": "Austurland",
     "domain": "mulathing.is",
-    "osm_relation_id": 11759435
+    "osm_relation_id": 11759435,
+    "population": 5232
   },
   {
     "id": "IS-0032",
@@ -253,7 +283,8 @@
     "country": "IS",
     "region": "Suðurland",
     "domain": "vik.is",
-    "osm_relation_id": 56206
+    "osm_relation_id": 56206,
+    "population": 965
   },
   {
     "id": "IS-0033",
@@ -261,7 +292,8 @@
     "country": "IS",
     "region": "Norðurland eystra",
     "domain": "nordurthing.is",
-    "osm_relation_id": 56160
+    "osm_relation_id": 56160,
+    "population": 3114
   },
   {
     "id": "IS-0034",
@@ -269,7 +301,8 @@
     "country": "IS",
     "region": "Suðurland",
     "domain": "hvolsvollur.is",
-    "osm_relation_id": 8803280
+    "osm_relation_id": 8803280,
+    "population": 2073
   },
   {
     "id": "IS-0035",
@@ -277,7 +310,8 @@
     "country": "IS",
     "region": "Suðurland",
     "domain": "ry.is",
-    "osm_relation_id": 8808785
+    "osm_relation_id": 8808785,
+    "population": 1940
   },
   {
     "id": "IS-0036",
@@ -285,7 +319,8 @@
     "country": "IS",
     "region": "Vestfirðir",
     "domain": "reykholar.is",
-    "osm_relation_id": 56188
+    "osm_relation_id": 56188,
+    "population": 246
   },
   {
     "id": "IS-0037",
@@ -293,7 +328,8 @@
     "country": "IS",
     "region": "Suðurnes",
     "domain": "reykjanesbaer.is",
-    "osm_relation_id": 8467955
+    "osm_relation_id": 8467955,
+    "population": 22499
   },
   {
     "id": "IS-0038",
@@ -301,7 +337,8 @@
     "country": "IS",
     "region": "Höfuðborgarsvæðið",
     "domain": "reykjavik.is",
-    "osm_relation_id": 2580605
+    "osm_relation_id": 2580605,
+    "population": 139875
   },
   {
     "id": "IS-0039",
@@ -309,7 +346,8 @@
     "country": "IS",
     "region": "Höfuðborgarsvæðið",
     "domain": "seltjarnarnes.is",
-    "osm_relation_id": 2580606
+    "osm_relation_id": 2580606,
+    "population": 4585
   },
   {
     "id": "IS-0040",
@@ -317,7 +355,8 @@
     "country": "IS",
     "region": "Suðurland",
     "domain": "klaustur.is",
-    "osm_relation_id": 56208
+    "osm_relation_id": 56208,
+    "population": 627
   },
   {
     "id": "IS-0041",
@@ -325,7 +364,8 @@
     "country": "IS",
     "region": "Norðurland vestra",
     "domain": "skagafjordur.is",
-    "osm_relation_id": 56103
+    "osm_relation_id": 56103,
+    "population": 4316
   },
   {
     "id": "IS-0042",
@@ -333,7 +373,8 @@
     "country": "IS",
     "region": "Suðurland",
     "domain": "sogsveit.is",
-    "osm_relation_id": 8813115
+    "osm_relation_id": 8813115,
+    "population": 617
   },
   {
     "id": "IS-0043",
@@ -341,7 +382,8 @@
     "country": "IS",
     "region": "Vesturland",
     "domain": "skorradalshr.is",
-    "osm_relation_id": 8826192
+    "osm_relation_id": 8826192,
+    "population": 65
   },
   {
     "id": "IS-0044",
@@ -349,7 +391,8 @@
     "country": "IS",
     "region": "Vesturland",
     "domain": "snb.is",
-    "osm_relation_id": 56197
+    "osm_relation_id": 56197,
+    "population": 1669
   },
   {
     "id": "IS-0045",
@@ -357,7 +400,8 @@
     "country": "IS",
     "region": "Vestfirðir",
     "domain": "strandabyggd.is",
-    "osm_relation_id": 56191
+    "osm_relation_id": 56191,
+    "population": 511
   },
   {
     "id": "IS-0046",
@@ -365,7 +409,8 @@
     "country": "IS",
     "region": "Suðurnes",
     "domain": "sudurnesjabaer.is",
-    "osm_relation_id": 8467956
+    "osm_relation_id": 8467956,
+    "population": 4091
   },
   {
     "id": "IS-0047",
@@ -373,7 +418,8 @@
     "country": "IS",
     "region": "Norðurland eystra",
     "domain": "svalbardsstrond.is",
-    "osm_relation_id": 56090
+    "osm_relation_id": 56090,
+    "population": 504
   },
   {
     "id": "IS-0048",
@@ -381,7 +427,8 @@
     "country": "IS",
     "region": "Suðurland",
     "domain": "hornafjordur.is",
-    "osm_relation_id": 55966
+    "osm_relation_id": 55966,
+    "population": 2589
   },
   {
     "id": "IS-0049",
@@ -389,7 +436,8 @@
     "country": "IS",
     "region": "Norðurland vestra",
     "domain": "skagastrond.is",
-    "osm_relation_id": 56105
+    "osm_relation_id": 56105,
+    "population": 484
   },
   {
     "id": "IS-0050",
@@ -397,7 +445,8 @@
     "country": "IS",
     "region": "Vesturland",
     "domain": "stykkisholmur.is",
-    "osm_relation_id": 8405089
+    "osm_relation_id": 8405089,
+    "population": 1173
   },
   {
     "id": "IS-0051",
@@ -405,7 +454,8 @@
     "country": "IS",
     "region": "Suðurnes",
     "domain": "vogar.is",
-    "osm_relation_id": 8485229
+    "osm_relation_id": 8485229,
+    "population": 1741
   },
   {
     "id": "IS-0052",
@@ -413,7 +463,8 @@
     "country": "IS",
     "region": "Suðurland",
     "domain": "arborg.is",
-    "osm_relation_id": 8811609
+    "osm_relation_id": 8811609,
+    "population": 12064
   },
   {
     "id": "IS-0053",
@@ -421,7 +472,8 @@
     "country": "IS",
     "region": "Suðurland",
     "domain": "olfus.is",
-    "osm_relation_id": 3822960
+    "osm_relation_id": 3822960,
+    "population": 2757
   },
   {
     "id": "IS-0054",
@@ -429,7 +481,8 @@
     "country": "IS",
     "region": "Vestfirðir",
     "domain": "sudavik.is",
-    "osm_relation_id": 56184
+    "osm_relation_id": 56184,
+    "population": 209
   },
   {
     "id": "IS-0055",
@@ -437,7 +490,8 @@
     "country": "IS",
     "region": "Norðurland eystra",
     "domain": "tjorneshreppur.is",
-    "osm_relation_id": 56153
+    "osm_relation_id": 56153,
+    "population": 53
   },
   {
     "id": "IS-0056",
@@ -461,7 +515,8 @@
     "country": "IS",
     "region": "Austurland",
     "domain": "vopnafjardarhreppur.is",
-    "osm_relation_id": 56147
+    "osm_relation_id": 56147,
+    "population": 648
   },
   {
     "id": "IS-0059",
@@ -469,7 +524,8 @@
     "country": "IS",
     "region": "Vestfirðir",
     "domain": "arneshreppur.is",
-    "osm_relation_id": 56189
+    "osm_relation_id": 56189,
+    "population": 60
   },
   {
     "id": "IS-0060",
@@ -477,7 +533,8 @@
     "country": "IS",
     "region": "Suðurland",
     "domain": "asahreppur.is",
-    "osm_relation_id": 8809518
+    "osm_relation_id": 8809518,
+    "population": 299
   },
   {
     "id": "IS-0061",
@@ -485,7 +542,8 @@
     "country": "IS",
     "region": "Vestfirðir",
     "domain": "isafjordur.is",
-    "osm_relation_id": 56181
+    "osm_relation_id": 56181,
+    "population": 3832
   },
   {
     "id": "IS-0062",
@@ -493,6 +551,7 @@
     "country": "IS",
     "region": "Norðurland eystra",
     "domain": "thingeyjarsveit.is",
-    "osm_relation_id": 56165
+    "osm_relation_id": 56165,
+    "population": 1453
   }
 ]

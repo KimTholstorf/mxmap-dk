@@ -6,7 +6,8 @@
     "region": "England",
     "domain": "hartlepool.gov.uk",
     "osm_relation_id": 153375,
-    "district": "County Durham"
+    "district": "County Durham",
+    "population": 93242
   },
   {
     "id": "GB-E06000002",
@@ -15,7 +16,8 @@
     "region": "England",
     "domain": "middlesbrough.gov.uk",
     "osm_relation_id": 150988,
-    "district": "North Yorkshire"
+    "district": "North Yorkshire",
+    "population": 148285
   },
   {
     "id": "GB-E06000003",
@@ -24,7 +26,8 @@
     "region": "England",
     "domain": "redcar-cleveland.gov.uk",
     "osm_relation_id": 150989,
-    "district": "North Yorkshire"
+    "district": "North Yorkshire",
+    "population": 136531
   },
   {
     "id": "GB-E06000004",
@@ -33,7 +36,8 @@
     "region": "England",
     "domain": "stockton.gov.uk",
     "osm_relation_id": 150994,
-    "district": "County Durham"
+    "district": "County Durham",
+    "population": 199966
   },
   {
     "id": "GB-E06000005",
@@ -42,7 +46,8 @@
     "region": "England",
     "domain": "darlington.gov.uk",
     "osm_relation_id": 153377,
-    "district": "County Durham"
+    "district": "County Durham",
+    "population": 109469
   },
   {
     "id": "GB-E06000006",
@@ -51,7 +56,8 @@
     "region": "England",
     "domain": "halton.gov.uk",
     "osm_relation_id": 147284,
-    "district": "Cheshire"
+    "district": "Cheshire",
+    "population": 128432
   },
   {
     "id": "GB-E06000007",
@@ -60,7 +66,8 @@
     "region": "England",
     "domain": "warrington.gov.uk",
     "osm_relation_id": 147278,
-    "district": "Cheshire"
+    "district": "Cheshire",
+    "population": 209547
   },
   {
     "id": "GB-E06000008",
@@ -69,7 +76,8 @@
     "region": "England",
     "domain": "blackburn.gov.uk",
     "osm_relation_id": 148780,
-    "district": "Lancashire"
+    "district": "Lancashire",
+    "population": 154739
   },
   {
     "id": "GB-E06000009",
@@ -78,7 +86,8 @@
     "region": "England",
     "domain": "blackpool.gov.uk",
     "osm_relation_id": 148603,
-    "district": "Lancashire"
+    "district": "Lancashire",
+    "population": 141036
   },
   {
     "id": "GB-E06000010",
@@ -87,7 +96,8 @@
     "region": "England",
     "domain": "hullcc.gov.uk",
     "osm_relation_id": 60148,
-    "district": "East Riding of Yorkshire"
+    "district": "East Riding of Yorkshire",
+    "population": 260645
   },
   {
     "id": "GB-E06000011",
@@ -96,7 +106,8 @@
     "region": "England",
     "domain": "eastriding.gov.uk",
     "osm_relation_id": 88083,
-    "district": "East Riding of Yorkshire"
+    "district": "East Riding of Yorkshire",
+    "population": 339614
   },
   {
     "id": "GB-E06000012",
@@ -105,7 +116,8 @@
     "region": "England",
     "domain": "nelincs.gov.uk",
     "osm_relation_id": 69361,
-    "district": "Lincolnshire"
+    "district": "Lincolnshire",
+    "population": 159821
   },
   {
     "id": "GB-E06000013",
@@ -114,7 +126,8 @@
     "region": "England",
     "domain": "northlincs.gov.uk",
     "osm_relation_id": 107240,
-    "district": "Lincolnshire"
+    "district": "Lincolnshire",
+    "population": 172005
   },
   {
     "id": "GB-E06000014",
@@ -123,7 +136,8 @@
     "region": "England",
     "domain": "york.gov.uk",
     "osm_relation_id": 134353,
-    "district": "North Yorkshire"
+    "district": "North Yorkshire",
+    "population": 209893
   },
   {
     "id": "GB-E06000015",
@@ -132,7 +146,8 @@
     "region": "England",
     "domain": "derby.gov.uk",
     "osm_relation_id": 142308,
-    "district": "Derbyshire"
+    "district": "Derbyshire",
+    "population": 257174
   },
   {
     "id": "GB-E06000016",
@@ -141,7 +156,8 @@
     "region": "England",
     "domain": "leicester.gov.uk",
     "osm_relation_id": 162353,
-    "district": "Leicestershire"
+    "district": "Leicestershire",
+    "population": 368572
   },
   {
     "id": "GB-E06000017",
@@ -150,7 +166,8 @@
     "region": "England",
     "domain": "rutland.gov.uk",
     "osm_relation_id": 57398,
-    "district": "Rutland"
+    "district": "Rutland",
+    "population": 41151
   },
   {
     "id": "GB-E06000018",
@@ -159,7 +176,8 @@
     "region": "England",
     "domain": "nottinghamcity.gov.uk",
     "osm_relation_id": 123292,
-    "district": "Nottinghamshire"
+    "district": "Nottinghamshire",
+    "population": 331069
   },
   {
     "id": "GB-E06000019",
@@ -168,7 +186,8 @@
     "region": "England",
     "domain": "herefordshire.gov.uk",
     "osm_relation_id": 10187,
-    "district": "Herefordshire"
+    "district": "Herefordshire",
+    "population": 193615
   },
   {
     "id": "GB-E06000020",
@@ -177,7 +196,8 @@
     "region": "England",
     "domain": "telford.gov.uk",
     "osm_relation_id": 167058,
-    "district": "Shropshire"
+    "district": "Shropshire",
+    "population": 188871
   },
   {
     "id": "GB-E06000021",
@@ -186,7 +206,8 @@
     "region": "England",
     "domain": "stoke.gov.uk",
     "osm_relation_id": 163183,
-    "district": "Staffordshire"
+    "district": "Staffordshire",
+    "population": 255833
   },
   {
     "id": "GB-E06000022",
@@ -195,7 +216,8 @@
     "region": "England",
     "domain": "bathnes.gov.uk",
     "osm_relation_id": 81941,
-    "district": "Somerset"
+    "district": "Somerset",
+    "population": 193409
   },
   {
     "id": "GB-E06000023",
@@ -204,7 +226,8 @@
     "region": "England",
     "domain": "bristol.gov.uk",
     "osm_relation_id": 57539,
-    "district": "Bristol"
+    "district": "Bristol",
+    "population": 463405
   },
   {
     "id": "GB-E06000024",
@@ -213,7 +236,8 @@
     "region": "England",
     "domain": "n-somerset.gov.uk",
     "osm_relation_id": 80277,
-    "district": "Somerset"
+    "district": "Somerset",
+    "population": 213919
   },
   {
     "id": "GB-E06000025",
@@ -222,7 +246,8 @@
     "region": "England",
     "domain": "southglos.gov.uk",
     "osm_relation_id": 82631,
-    "district": "Gloucestershire"
+    "district": "Gloucestershire",
+    "population": 282644
   },
   {
     "id": "GB-E06000026",
@@ -231,7 +256,8 @@
     "region": "England",
     "domain": "plymouth.gov.uk",
     "osm_relation_id": 189924,
-    "district": "Devon"
+    "district": "Devon",
+    "population": 263100
   },
   {
     "id": "GB-E06000027",
@@ -240,7 +266,8 @@
     "region": "England",
     "domain": "torbay.gov.uk",
     "osm_relation_id": 161649,
-    "district": "Devon"
+    "district": "Devon",
+    "population": 139479
   },
   {
     "id": "GB-E06000030",
@@ -249,7 +276,8 @@
     "region": "England",
     "domain": "swindon.gov.uk",
     "osm_relation_id": 110212,
-    "district": "Wiltshire"
+    "district": "Wiltshire",
+    "population": 235657
   },
   {
     "id": "GB-E06000031",
@@ -258,7 +286,8 @@
     "region": "England",
     "domain": "peterborough.gov.uk",
     "osm_relation_id": 161640,
-    "district": "Cambridgeshire"
+    "district": "Cambridgeshire",
+    "population": 201041
   },
   {
     "id": "GB-E06000032",
@@ -267,7 +296,8 @@
     "region": "England",
     "domain": "luton.gov.uk",
     "osm_relation_id": 158392,
-    "district": "Bedfordshire"
+    "district": "Bedfordshire",
+    "population": 214109
   },
   {
     "id": "GB-E06000033",
@@ -276,7 +306,8 @@
     "region": "England",
     "domain": "southend.gov.uk",
     "osm_relation_id": 76489,
-    "district": "Essex"
+    "district": "Essex",
+    "population": 180915
   },
   {
     "id": "GB-E06000034",
@@ -285,7 +316,8 @@
     "region": "England",
     "domain": "thurrock.gov.uk",
     "osm_relation_id": 76521,
-    "district": "Essex"
+    "district": "Essex",
+    "population": 172525
   },
   {
     "id": "GB-E06000035",
@@ -294,7 +326,8 @@
     "region": "England",
     "domain": "medway.gov.uk",
     "osm_relation_id": 158019,
-    "district": "Kent"
+    "district": "Kent",
+    "population": 277855
   },
   {
     "id": "GB-E06000036",
@@ -303,7 +336,8 @@
     "region": "England",
     "domain": "bracknell-forest.gov.uk",
     "osm_relation_id": 113682,
-    "district": "Berkshire"
+    "district": "Berkshire",
+    "population": 124607
   },
   {
     "id": "GB-E06000037",
@@ -312,7 +346,8 @@
     "region": "England",
     "domain": "westberks.gov.uk",
     "osm_relation_id": 116938,
-    "district": "Berkshire"
+    "district": "Berkshire",
+    "population": 158527
   },
   {
     "id": "GB-E06000038",
@@ -321,7 +356,8 @@
     "region": "England",
     "domain": "reading.gov.uk",
     "osm_relation_id": 115074,
-    "district": "Berkshire"
+    "district": "Berkshire",
+    "population": 162666
   },
   {
     "id": "GB-E06000039",
@@ -330,7 +366,8 @@
     "region": "England",
     "domain": "slough.gov.uk",
     "osm_relation_id": 117097,
-    "district": "Berkshire"
+    "district": "Berkshire",
+    "population": 149112
   },
   {
     "id": "GB-E06000040",
@@ -339,7 +376,8 @@
     "region": "England",
     "domain": "rbwm.gov.uk",
     "osm_relation_id": 111014,
-    "district": "Berkshire"
+    "district": "Berkshire",
+    "population": 150906
   },
   {
     "id": "GB-E06000041",
@@ -348,7 +386,8 @@
     "region": "England",
     "domain": "wokingham.gov.uk",
     "osm_relation_id": 114311,
-    "district": "Berkshire"
+    "district": "Berkshire",
+    "population": 167979
   },
   {
     "id": "GB-E06000042",
@@ -357,7 +396,8 @@
     "region": "England",
     "domain": "miltonkeynes.gov.uk",
     "osm_relation_id": 172504,
-    "district": "Buckinghamshire"
+    "district": "Buckinghamshire",
+    "population": 268607
   },
   {
     "id": "GB-E06000043",
@@ -366,7 +406,8 @@
     "region": "England",
     "domain": "brighton-hove.gov.uk",
     "osm_relation_id": 114085,
-    "district": "East Sussex"
+    "district": "East Sussex",
+    "population": 277103
   },
   {
     "id": "GB-E06000044",
@@ -375,7 +416,8 @@
     "region": "England",
     "domain": "portsmouth.gov.uk",
     "osm_relation_id": 127167,
-    "district": "Hampshire"
+    "district": "Hampshire",
+    "population": 248440
   },
   {
     "id": "GB-E06000045",
@@ -384,7 +426,8 @@
     "region": "England",
     "domain": "southampton.gov.uk",
     "osm_relation_id": 127864,
-    "district": "Hampshire"
+    "district": "Hampshire",
+    "population": 271173
   },
   {
     "id": "GB-E06000046",
@@ -393,7 +436,8 @@
     "region": "England",
     "domain": "iwight.com",
     "osm_relation_id": 154350,
-    "district": "Isle of Wight"
+    "district": "Isle of Wight",
+    "population": 140459
   },
   {
     "id": "GB-E06000047",
@@ -402,7 +446,8 @@
     "region": "England",
     "domain": "durham.gov.uk",
     "osm_relation_id": 88067,
-    "district": "County Durham"
+    "district": "County Durham",
+    "population": 526980
   },
   {
     "id": "GB-E06000049",
@@ -411,7 +456,8 @@
     "region": "England",
     "domain": "cheshireeast.gov.uk",
     "osm_relation_id": 153487,
-    "district": "Cheshire"
+    "district": "Cheshire",
+    "population": 380790
   },
   {
     "id": "GB-E06000050",
@@ -420,7 +466,8 @@
     "region": "England",
     "domain": "cheshirewestandchester.gov.uk",
     "osm_relation_id": 153488,
-    "district": "Cheshire"
+    "district": "Cheshire",
+    "population": 340502
   },
   {
     "id": "GB-E06000051",
@@ -429,7 +476,8 @@
     "region": "England",
     "domain": "shropshire.gov.uk",
     "osm_relation_id": 167060,
-    "district": "Shropshire"
+    "district": "Shropshire",
+    "population": 320274
   },
   {
     "id": "GB-E06000052",
@@ -438,7 +486,8 @@
     "region": "England",
     "domain": "cornwall.gov.uk",
     "osm_relation_id": 57537,
-    "district": "Cornwall"
+    "district": "Cornwall",
+    "population": 565968
   },
   {
     "id": "GB-E06000053",
@@ -447,7 +496,8 @@
     "region": "England",
     "domain": "scilly.gov.uk",
     "osm_relation_id": 158039,
-    "district": "Cornwall"
+    "district": "Cornwall",
+    "population": 2281
   },
   {
     "id": "GB-E06000054",
@@ -456,7 +506,8 @@
     "region": "England",
     "domain": "wiltshire.gov.uk",
     "osm_relation_id": 57533,
-    "district": "Wiltshire"
+    "district": "Wiltshire",
+    "population": 498064
   },
   {
     "id": "GB-E06000055",
@@ -465,7 +516,8 @@
     "region": "England",
     "domain": "bedford.gov.uk",
     "osm_relation_id": 158396,
-    "district": "Bedfordshire"
+    "district": "Bedfordshire",
+    "population": 185225
   },
   {
     "id": "GB-E06000056",
@@ -474,7 +526,8 @@
     "region": "England",
     "domain": "centralbedfordshire.gov.uk",
     "osm_relation_id": 161643,
-    "district": "Bedfordshire"
+    "district": "Bedfordshire",
+    "population": 274000
   },
   {
     "id": "GB-E06000057",
@@ -483,7 +536,8 @@
     "region": "England",
     "domain": "northumberland.gov.uk",
     "osm_relation_id": 88066,
-    "district": "Northumberland"
+    "district": "Northumberland",
+    "population": 323820
   },
   {
     "id": "GB-E06000058",
@@ -492,7 +546,8 @@
     "region": "England",
     "domain": "bcpcouncil.gov.uk",
     "osm_relation_id": 9448448,
-    "district": "Dorset"
+    "district": "Dorset",
+    "population": 400196
   },
   {
     "id": "GB-E06000059",
@@ -501,7 +556,8 @@
     "region": "England",
     "domain": "dorsetcouncil.gov.uk",
     "osm_relation_id": 9448449,
-    "district": "Dorset"
+    "district": "Dorset",
+    "population": 376484
   },
   {
     "id": "GB-E06000060",
@@ -510,7 +566,8 @@
     "region": "England",
     "domain": "buckinghamshire.gov.uk",
     "osm_relation_id": 172710,
-    "district": "Buckinghamshire"
+    "district": "Buckinghamshire",
+    "population": 560409
   },
   {
     "id": "GB-E06000061",
@@ -519,7 +576,8 @@
     "region": "England",
     "domain": "northnorthants.gov.uk",
     "osm_relation_id": 10792352,
-    "district": "Northamptonshire"
+    "district": "Northamptonshire",
+    "population": 363408
   },
   {
     "id": "GB-E06000062",
@@ -528,7 +586,8 @@
     "region": "England",
     "domain": "westnorthants.gov.uk",
     "osm_relation_id": 10792351,
-    "district": "Northamptonshire"
+    "district": "Northamptonshire",
+    "population": 429013
   },
   {
     "id": "GB-E06000063",
@@ -546,7 +605,8 @@
     "region": "England",
     "domain": "westmorlandandfurness.gov.uk",
     "osm_relation_id": 15684265,
-    "district": "Cumbria"
+    "district": "Cumbria",
+    "population": 227643
   },
   {
     "id": "GB-E06000065",
@@ -555,7 +615,8 @@
     "region": "England",
     "domain": "northyorks.gov.uk",
     "osm_relation_id": 88068,
-    "district": "North Yorkshire"
+    "district": "North Yorkshire",
+    "population": 623501
   },
   {
     "id": "GB-E06000066",
@@ -564,7 +625,8 @@
     "region": "England",
     "domain": "somerset.gov.uk",
     "osm_relation_id": 72894,
-    "district": "Somerset"
+    "district": "Somerset",
+    "population": 576852
   },
   {
     "id": "GB-E07000008",
@@ -573,7 +635,8 @@
     "region": "England",
     "domain": "cambridge.gov.uk",
     "osm_relation_id": 295355,
-    "district": "Cambridgeshire"
+    "district": "Cambridgeshire",
+    "population": 125758
   },
   {
     "id": "GB-E07000009",
@@ -582,7 +645,8 @@
     "region": "England",
     "domain": "eastcambs.gov.uk",
     "osm_relation_id": 295352,
-    "district": "Cambridgeshire"
+    "district": "Cambridgeshire",
+    "population": 89394
   },
   {
     "id": "GB-E07000010",
@@ -591,7 +655,8 @@
     "region": "England",
     "domain": "fenland.gov.uk",
     "osm_relation_id": 295349,
-    "district": "Cambridgeshire"
+    "district": "Cambridgeshire",
+    "population": 101491
   },
   {
     "id": "GB-E07000011",
@@ -600,7 +665,8 @@
     "region": "England",
     "domain": "huntingdonshire.gov.uk",
     "osm_relation_id": 295351,
-    "district": "Cambridgeshire"
+    "district": "Cambridgeshire",
+    "population": 177352
   },
   {
     "id": "GB-E07000012",
@@ -609,7 +675,8 @@
     "region": "England",
     "domain": "southcambridgeshire.gov.uk",
     "osm_relation_id": 295353,
-    "district": "Cambridgeshire"
+    "district": "Cambridgeshire",
+    "population": 157519
   },
   {
     "id": "GB-E07000032",
@@ -618,7 +685,8 @@
     "region": "England",
     "domain": "ambervalley.gov.uk",
     "osm_relation_id": 141905,
-    "district": "Derbyshire"
+    "district": "Derbyshire",
+    "population": 126678
   },
   {
     "id": "GB-E07000033",
@@ -627,7 +695,8 @@
     "region": "England",
     "domain": "bolsover.gov.uk",
     "osm_relation_id": 108323,
-    "district": "Derbyshire"
+    "district": "Derbyshire",
+    "population": 79530
   },
   {
     "id": "GB-E07000034",
@@ -636,7 +705,8 @@
     "region": "England",
     "domain": "chesterfield.gov.uk",
     "osm_relation_id": 138738,
-    "district": "Derbyshire"
+    "district": "Derbyshire",
+    "population": 104110
   },
   {
     "id": "GB-E07000035",
@@ -645,7 +715,8 @@
     "region": "England",
     "domain": "derbyshiredales.gov.uk",
     "osm_relation_id": 108100,
-    "district": "Derbyshire"
+    "district": "Derbyshire",
+    "population": 71977
   },
   {
     "id": "GB-E07000036",
@@ -654,7 +725,8 @@
     "region": "England",
     "domain": "erewash.gov.uk",
     "osm_relation_id": 142306,
-    "district": "Derbyshire"
+    "district": "Derbyshire",
+    "population": 115490
   },
   {
     "id": "GB-E07000037",
@@ -663,7 +735,8 @@
     "region": "England",
     "domain": "highpeak.gov.uk",
     "osm_relation_id": 108092,
-    "district": "Derbyshire"
+    "district": "Derbyshire",
+    "population": 90900
   },
   {
     "id": "GB-E07000038",
@@ -672,7 +745,8 @@
     "region": "England",
     "domain": "northeastderbyshire.gov.uk",
     "osm_relation_id": 108320,
-    "district": "Derbyshire"
+    "district": "Derbyshire",
+    "population": 103783
   },
   {
     "id": "GB-E07000039",
@@ -681,7 +755,8 @@
     "region": "England",
     "domain": "southderbyshire.gov.uk",
     "osm_relation_id": 142627,
-    "district": "Derbyshire"
+    "district": "Derbyshire",
+    "population": 111133
   },
   {
     "id": "GB-E07000040",
@@ -690,7 +765,8 @@
     "region": "England",
     "domain": "eastdevon.gov.uk",
     "osm_relation_id": 2114883,
-    "district": "Devon"
+    "district": "Devon",
+    "population": 154500
   },
   {
     "id": "GB-E07000041",
@@ -699,7 +775,8 @@
     "region": "England",
     "domain": "exeter.gov.uk",
     "osm_relation_id": 2154556,
-    "district": "Devon"
+    "district": "Devon",
+    "population": 130428
   },
   {
     "id": "GB-E07000042",
@@ -708,7 +785,8 @@
     "region": "England",
     "domain": "middevon.gov.uk",
     "osm_relation_id": 2183131,
-    "district": "Devon"
+    "district": "Devon",
+    "population": 83786
   },
   {
     "id": "GB-E07000043",
@@ -717,7 +795,8 @@
     "region": "England",
     "domain": "northdevon.gov.uk",
     "osm_relation_id": 2189992,
-    "district": "Devon"
+    "district": "Devon",
+    "population": 96110
   },
   {
     "id": "GB-E07000044",
@@ -726,7 +805,8 @@
     "region": "England",
     "domain": "southhams.gov.uk",
     "osm_relation_id": 2118151,
-    "district": "Devon"
+    "district": "Devon",
+    "population": 86221
   },
   {
     "id": "GB-E07000045",
@@ -735,7 +815,8 @@
     "region": "England",
     "domain": "teignbridge.gov.uk",
     "osm_relation_id": 2124339,
-    "district": "Devon"
+    "district": "Devon",
+    "population": 135952
   },
   {
     "id": "GB-E07000046",
@@ -744,7 +825,8 @@
     "region": "England",
     "domain": "torridge.gov.uk",
     "osm_relation_id": 2197541,
-    "district": "Devon"
+    "district": "Devon",
+    "population": 68143
   },
   {
     "id": "GB-E07000047",
@@ -753,7 +835,8 @@
     "region": "England",
     "domain": "westdevon.gov.uk",
     "osm_relation_id": 2198344,
-    "district": "Devon"
+    "district": "Devon",
+    "population": 58190
   },
   {
     "id": "GB-E07000061",
@@ -762,7 +845,8 @@
     "region": "England",
     "domain": "eastbourne.gov.uk",
     "osm_relation_id": 131194,
-    "district": "East Sussex"
+    "district": "East Sussex",
+    "population": 103160
   },
   {
     "id": "GB-E07000062",
@@ -771,7 +855,8 @@
     "region": "England",
     "domain": "hastings.gov.uk",
     "osm_relation_id": 131199,
-    "district": "East Sussex"
+    "district": "East Sussex",
+    "population": 92855
   },
   {
     "id": "GB-E07000063",
@@ -780,7 +865,8 @@
     "region": "England",
     "domain": "lewes.gov.uk",
     "osm_relation_id": 131295,
-    "district": "East Sussex"
+    "district": "East Sussex",
+    "population": 100677
   },
   {
     "id": "GB-E07000064",
@@ -789,7 +875,8 @@
     "region": "England",
     "domain": "rother.gov.uk",
     "osm_relation_id": 134053,
-    "district": "East Sussex"
+    "district": "East Sussex",
+    "population": 95656
   },
   {
     "id": "GB-E07000065",
@@ -798,7 +885,8 @@
     "region": "England",
     "domain": "wealden.gov.uk",
     "osm_relation_id": 131298,
-    "district": "East Sussex"
+    "district": "East Sussex",
+    "population": 160175
   },
   {
     "id": "GB-E07000066",
@@ -807,7 +895,8 @@
     "region": "England",
     "domain": "basildon.gov.uk",
     "osm_relation_id": 76516,
-    "district": "Essex"
+    "district": "Essex",
+    "population": 185862
   },
   {
     "id": "GB-E07000067",
@@ -816,7 +905,8 @@
     "region": "England",
     "domain": "braintree.gov.uk",
     "osm_relation_id": 52187,
-    "district": "Essex"
+    "district": "Essex",
+    "population": 151561
   },
   {
     "id": "GB-E07000068",
@@ -825,7 +915,8 @@
     "region": "England",
     "domain": "brentwood.gov.uk",
     "osm_relation_id": 76515,
-    "district": "Essex"
+    "district": "Essex",
+    "population": 76550
   },
   {
     "id": "GB-E07000069",
@@ -834,7 +925,8 @@
     "region": "England",
     "domain": "castlepoint.gov.uk",
     "osm_relation_id": 76488,
-    "district": "Essex"
+    "district": "Essex",
+    "population": 90070
   },
   {
     "id": "GB-E07000070",
@@ -843,7 +935,8 @@
     "region": "England",
     "domain": "chelmsford.gov.uk",
     "osm_relation_id": 52189,
-    "district": "Essex"
+    "district": "Essex",
+    "population": 177079
   },
   {
     "id": "GB-E07000071",
@@ -852,7 +945,8 @@
     "region": "England",
     "domain": "colchester.gov.uk",
     "osm_relation_id": 76493,
-    "district": "Essex"
+    "district": "Essex",
+    "population": 192523
   },
   {
     "id": "GB-E07000072",
@@ -861,7 +955,8 @@
     "region": "England",
     "domain": "eppingforestdc.gov.uk",
     "osm_relation_id": 76512,
-    "district": "Essex"
+    "district": "Essex",
+    "population": 131137
   },
   {
     "id": "GB-E07000073",
@@ -870,7 +965,8 @@
     "region": "England",
     "domain": "harlow.gov.uk",
     "osm_relation_id": 76615,
-    "district": "Essex"
+    "district": "Essex",
+    "population": 86594
   },
   {
     "id": "GB-E07000074",
@@ -879,7 +975,8 @@
     "region": "England",
     "domain": "maldon.gov.uk",
     "osm_relation_id": 1551151,
-    "district": "Essex"
+    "district": "Essex",
+    "population": 66208
   },
   {
     "id": "GB-E07000075",
@@ -888,7 +985,8 @@
     "region": "England",
     "domain": "rochford.gov.uk",
     "osm_relation_id": 76490,
-    "district": "Essex"
+    "district": "Essex",
+    "population": 86981
   },
   {
     "id": "GB-E07000076",
@@ -897,7 +995,8 @@
     "region": "England",
     "domain": "tendringdc.gov.uk",
     "osm_relation_id": 76494,
-    "district": "Essex"
+    "district": "Essex",
+    "population": 145803
   },
   {
     "id": "GB-E07000077",
@@ -906,7 +1005,8 @@
     "region": "England",
     "domain": "uttlesford.gov.uk",
     "osm_relation_id": 76508,
-    "district": "Essex"
+    "district": "Essex",
+    "population": 89179
   },
   {
     "id": "GB-E07000078",
@@ -915,7 +1015,8 @@
     "region": "England",
     "domain": "cheltenham.gov.uk",
     "osm_relation_id": 184094,
-    "district": "Gloucestershire"
+    "district": "Gloucestershire",
+    "population": 117090
   },
   {
     "id": "GB-E07000079",
@@ -924,7 +1025,8 @@
     "region": "England",
     "domain": "cotswold.gov.uk",
     "osm_relation_id": 2682252,
-    "district": "Gloucestershire"
+    "district": "Gloucestershire",
+    "population": 91311
   },
   {
     "id": "GB-E07000080",
@@ -933,7 +1035,8 @@
     "region": "England",
     "domain": "fdean.gov.uk",
     "osm_relation_id": 417631,
-    "district": "Gloucestershire"
+    "district": "Gloucestershire",
+    "population": 87937
   },
   {
     "id": "GB-E07000081",
@@ -942,7 +1045,8 @@
     "region": "England",
     "domain": "gloucester.gov.uk",
     "osm_relation_id": 181362,
-    "district": "Gloucestershire"
+    "district": "Gloucestershire",
+    "population": 129285
   },
   {
     "id": "GB-E07000082",
@@ -951,7 +1055,8 @@
     "region": "England",
     "domain": "stroud.gov.uk",
     "osm_relation_id": 2657473,
-    "district": "Gloucestershire"
+    "district": "Gloucestershire",
+    "population": 119019
   },
   {
     "id": "GB-E07000083",
@@ -960,7 +1065,8 @@
     "region": "England",
     "domain": "tewkesbury.gov.uk",
     "osm_relation_id": 417658,
-    "district": "Gloucestershire"
+    "district": "Gloucestershire",
+    "population": 97000
   },
   {
     "id": "GB-E07000084",
@@ -969,7 +1075,8 @@
     "region": "England",
     "domain": "basingstoke.gov.uk",
     "osm_relation_id": 127249,
-    "district": "Hampshire"
+    "district": "Hampshire",
+    "population": 175729
   },
   {
     "id": "GB-E07000085",
@@ -978,7 +1085,8 @@
     "region": "England",
     "domain": "easthants.gov.uk",
     "osm_relation_id": 127161,
-    "district": "Hampshire"
+    "district": "Hampshire",
+    "population": 120681
   },
   {
     "id": "GB-E07000086",
@@ -987,7 +1095,8 @@
     "region": "England",
     "domain": "eastleigh.gov.uk",
     "osm_relation_id": 127815,
-    "district": "Hampshire"
+    "district": "Hampshire",
+    "population": 129000
   },
   {
     "id": "GB-E07000087",
@@ -996,7 +1105,8 @@
     "region": "England",
     "domain": "fareham.gov.uk",
     "osm_relation_id": 127232,
-    "district": "Hampshire"
+    "district": "Hampshire",
+    "population": 116339
   },
   {
     "id": "GB-E07000088",
@@ -1005,7 +1115,8 @@
     "region": "England",
     "domain": "gosport.gov.uk",
     "osm_relation_id": 127211,
-    "district": "Hampshire"
+    "district": "Hampshire",
+    "population": 85283
   },
   {
     "id": "GB-E07000089",
@@ -1014,7 +1125,8 @@
     "region": "England",
     "domain": "hart.gov.uk",
     "osm_relation_id": 127197,
-    "district": "Hampshire"
+    "district": "Hampshire",
+    "population": 96293
   },
   {
     "id": "GB-E07000090",
@@ -1023,7 +1135,8 @@
     "region": "England",
     "domain": "havant.gov.uk",
     "osm_relation_id": 127165,
-    "district": "Hampshire"
+    "district": "Hampshire",
+    "population": 125813
   },
   {
     "id": "GB-E07000091",
@@ -1032,7 +1145,8 @@
     "region": "England",
     "domain": "newforest.gov.uk",
     "osm_relation_id": 129306,
-    "district": "Hampshire"
+    "district": "Hampshire",
+    "population": 179753
   },
   {
     "id": "GB-E07000092",
@@ -1041,7 +1155,8 @@
     "region": "England",
     "domain": "rushmoor.gov.uk",
     "osm_relation_id": 127187,
-    "district": "Hampshire"
+    "district": "Hampshire",
+    "population": 99754
   },
   {
     "id": "GB-E07000093",
@@ -1050,7 +1165,8 @@
     "region": "England",
     "domain": "testvalley.gov.uk",
     "osm_relation_id": 127642,
-    "district": "Hampshire"
+    "district": "Hampshire",
+    "population": 125169
   },
   {
     "id": "GB-E07000094",
@@ -1059,7 +1175,8 @@
     "region": "England",
     "domain": "winchester.gov.uk",
     "osm_relation_id": 127238,
-    "district": "Hampshire"
+    "district": "Hampshire",
+    "population": 124295
   },
   {
     "id": "GB-E07000095",
@@ -1068,7 +1185,8 @@
     "region": "England",
     "domain": "broxbourne.gov.uk",
     "osm_relation_id": 2677978,
-    "district": "Hertfordshire"
+    "district": "Hertfordshire",
+    "population": 96876
   },
   {
     "id": "GB-E07000096",
@@ -1077,7 +1195,8 @@
     "region": "England",
     "domain": "dacorum.gov.uk",
     "osm_relation_id": 2683586,
-    "district": "Hertfordshire"
+    "district": "Hertfordshire",
+    "population": 154280
   },
   {
     "id": "GB-E07000098",
@@ -1086,7 +1205,8 @@
     "region": "England",
     "domain": "hertsmere.gov.uk",
     "osm_relation_id": 2682847,
-    "district": "Hertfordshire"
+    "district": "Hertfordshire",
+    "population": 104205
   },
   {
     "id": "GB-E07000099",
@@ -1095,7 +1215,8 @@
     "region": "England",
     "domain": "north-herts.gov.uk",
     "osm_relation_id": 2684089,
-    "district": "Hertfordshire"
+    "district": "Hertfordshire",
+    "population": 131700
   },
   {
     "id": "GB-E07000102",
@@ -1104,7 +1225,8 @@
     "region": "England",
     "domain": "threerivers.gov.uk",
     "osm_relation_id": 2683120,
-    "district": "Hertfordshire"
+    "district": "Hertfordshire",
+    "population": 93045
   },
   {
     "id": "GB-E07000103",
@@ -1113,7 +1235,8 @@
     "region": "England",
     "domain": "watford.gov.uk",
     "osm_relation_id": 2683176,
-    "district": "Hertfordshire"
+    "district": "Hertfordshire",
+    "population": 96767
   },
   {
     "id": "GB-E07000105",
@@ -1122,7 +1245,8 @@
     "region": "England",
     "domain": "ashford.gov.uk",
     "osm_relation_id": 2068847,
-    "district": "Kent"
+    "district": "Kent",
+    "population": 129281
   },
   {
     "id": "GB-E07000106",
@@ -1131,7 +1255,8 @@
     "region": "England",
     "domain": "canterbury.gov.uk",
     "osm_relation_id": 448590,
-    "district": "Kent"
+    "district": "Kent",
+    "population": 164553
   },
   {
     "id": "GB-E07000107",
@@ -1140,7 +1265,8 @@
     "region": "England",
     "domain": "dartford.gov.uk",
     "osm_relation_id": 2210488,
-    "district": "Kent"
+    "district": "Kent",
+    "population": 109709
   },
   {
     "id": "GB-E07000108",
@@ -1149,7 +1275,8 @@
     "region": "England",
     "domain": "dover.gov.uk",
     "osm_relation_id": 1481934,
-    "district": "Kent"
+    "district": "Kent",
+    "population": 116969
   },
   {
     "id": "GB-E07000109",
@@ -1158,7 +1285,8 @@
     "region": "England",
     "domain": "gravesham.gov.uk",
     "osm_relation_id": 1475656,
-    "district": "Kent"
+    "district": "Kent",
+    "population": 106385
   },
   {
     "id": "GB-E07000110",
@@ -1167,7 +1295,8 @@
     "region": "England",
     "domain": "maidstone.gov.uk",
     "osm_relation_id": 2208739,
-    "district": "Kent"
+    "district": "Kent",
+    "population": 169955
   },
   {
     "id": "GB-E07000111",
@@ -1176,7 +1305,8 @@
     "region": "England",
     "domain": "sevenoaks.gov.uk",
     "osm_relation_id": 2204490,
-    "district": "Kent"
+    "district": "Kent",
+    "population": 121106
   },
   {
     "id": "GB-E07000112",
@@ -1185,7 +1315,8 @@
     "region": "England",
     "domain": "folkestone-hythe.gov.uk",
     "osm_relation_id": 2208689,
-    "district": "Kent"
+    "district": "Kent",
+    "population": 110237
   },
   {
     "id": "GB-E07000113",
@@ -1194,7 +1325,8 @@
     "region": "England",
     "domain": "swale.gov.uk",
     "osm_relation_id": 2068848,
-    "district": "Kent"
+    "district": "Kent",
+    "population": 148519
   },
   {
     "id": "GB-E07000114",
@@ -1203,7 +1335,8 @@
     "region": "England",
     "domain": "thanet.gov.uk",
     "osm_relation_id": 1605596,
-    "district": "Kent"
+    "district": "Kent",
+    "population": 140689
   },
   {
     "id": "GB-E07000115",
@@ -1212,7 +1345,8 @@
     "region": "England",
     "domain": "tmbc.gov.uk",
     "osm_relation_id": 2209932,
-    "district": "Kent"
+    "district": "Kent",
+    "population": 130508
   },
   {
     "id": "GB-E07000116",
@@ -1221,7 +1355,8 @@
     "region": "England",
     "domain": "tunbridgewells.gov.uk",
     "osm_relation_id": 2212730,
-    "district": "Kent"
+    "district": "Kent",
+    "population": 118054
   },
   {
     "id": "GB-E07000117",
@@ -1230,7 +1365,8 @@
     "region": "England",
     "domain": "burnley.gov.uk",
     "osm_relation_id": 149101,
-    "district": "Lancashire"
+    "district": "Lancashire",
+    "population": 88527
   },
   {
     "id": "GB-E07000118",
@@ -1239,7 +1375,8 @@
     "region": "England",
     "domain": "chorley.gov.uk",
     "osm_relation_id": 148744,
-    "district": "Lancashire"
+    "district": "Lancashire",
+    "population": 116821
   },
   {
     "id": "GB-E07000119",
@@ -1248,7 +1385,8 @@
     "region": "England",
     "domain": "fylde.gov.uk",
     "osm_relation_id": 148600,
-    "district": "Lancashire"
+    "district": "Lancashire",
+    "population": 79770
   },
   {
     "id": "GB-E07000120",
@@ -1257,7 +1395,8 @@
     "region": "England",
     "domain": "hyndburnbc.gov.uk",
     "osm_relation_id": 149074,
-    "district": "Lancashire"
+    "district": "Lancashire",
+    "population": 80815
   },
   {
     "id": "GB-E07000121",
@@ -1266,7 +1405,8 @@
     "region": "England",
     "domain": "lancaster.gov.uk",
     "osm_relation_id": 148608,
-    "district": "Lancashire"
+    "district": "Lancashire",
+    "population": 144246
   },
   {
     "id": "GB-E07000122",
@@ -1275,7 +1415,8 @@
     "region": "England",
     "domain": "pendle.gov.uk",
     "osm_relation_id": 149122,
-    "district": "Lancashire"
+    "district": "Lancashire",
+    "population": 91405
   },
   {
     "id": "GB-E07000123",
@@ -1284,7 +1425,8 @@
     "region": "England",
     "domain": "preston.gov.uk",
     "osm_relation_id": 148606,
-    "district": "Lancashire"
+    "district": "Lancashire",
+    "population": 141818
   },
   {
     "id": "GB-E07000124",
@@ -1293,7 +1435,8 @@
     "region": "England",
     "domain": "ribblevalley.gov.uk",
     "osm_relation_id": 148609,
-    "district": "Lancashire"
+    "district": "Lancashire",
+    "population": 63107
   },
   {
     "id": "GB-E07000125",
@@ -1302,7 +1445,8 @@
     "region": "England",
     "domain": "rossendale.gov.uk",
     "osm_relation_id": 149077,
-    "district": "Lancashire"
+    "district": "Lancashire",
+    "population": 70895
   },
   {
     "id": "GB-E07000126",
@@ -1311,7 +1455,8 @@
     "region": "England",
     "domain": "southribble.gov.uk",
     "osm_relation_id": 148745,
-    "district": "Lancashire"
+    "district": "Lancashire",
+    "population": 110527
   },
   {
     "id": "GB-E07000127",
@@ -1320,7 +1465,8 @@
     "region": "England",
     "domain": "westlancs.gov.uk",
     "osm_relation_id": 148586,
-    "district": "Lancashire"
+    "district": "Lancashire",
+    "population": 113949
   },
   {
     "id": "GB-E07000128",
@@ -1329,7 +1475,8 @@
     "region": "England",
     "domain": "wyre.gov.uk",
     "osm_relation_id": 148604,
-    "district": "Lancashire"
+    "district": "Lancashire",
+    "population": 111223
   },
   {
     "id": "GB-E07000129",
@@ -1338,7 +1485,8 @@
     "region": "England",
     "domain": "blaby.gov.uk",
     "osm_relation_id": 162357,
-    "district": "Leicestershire"
+    "district": "Leicestershire",
+    "population": 104182
   },
   {
     "id": "GB-E07000130",
@@ -1347,7 +1495,8 @@
     "region": "England",
     "domain": "charnwood.gov.uk",
     "osm_relation_id": 172008,
-    "district": "Leicestershire"
+    "district": "Leicestershire",
+    "population": 184748
   },
   {
     "id": "GB-E07000131",
@@ -1356,7 +1505,8 @@
     "region": "England",
     "domain": "harborough.gov.uk",
     "osm_relation_id": 162361,
-    "district": "Leicestershire"
+    "district": "Leicestershire",
+    "population": 100481
   },
   {
     "id": "GB-E07000132",
@@ -1365,7 +1515,8 @@
     "region": "England",
     "domain": "hinckleyandbosworth.gov.uk",
     "osm_relation_id": 171999,
-    "district": "Leicestershire"
+    "district": "Leicestershire",
+    "population": 112423
   },
   {
     "id": "GB-E07000133",
@@ -1374,7 +1525,8 @@
     "region": "England",
     "domain": "melton.gov.uk",
     "osm_relation_id": 172470,
-    "district": "Leicestershire"
+    "district": "Leicestershire",
+    "population": 52433
   },
   {
     "id": "GB-E07000134",
@@ -1383,7 +1535,8 @@
     "region": "England",
     "domain": "northwestleicestershire.gov.uk",
     "osm_relation_id": 172000,
-    "district": "Leicestershire"
+    "district": "Leicestershire",
+    "population": 102126
   },
   {
     "id": "GB-E07000135",
@@ -1392,7 +1545,8 @@
     "region": "England",
     "domain": "oadby-wigston.gov.uk",
     "osm_relation_id": 162358,
-    "district": "Leicestershire"
+    "district": "Leicestershire",
+    "population": 58341
   },
   {
     "id": "GB-E07000136",
@@ -1401,7 +1555,8 @@
     "region": "England",
     "domain": "boston.gov.uk",
     "osm_relation_id": 58553,
-    "district": "Lincolnshire"
+    "district": "Lincolnshire",
+    "population": 70806
   },
   {
     "id": "GB-E07000137",
@@ -1410,7 +1565,8 @@
     "region": "England",
     "domain": "eastlindsey.gov.uk",
     "osm_relation_id": 59828,
-    "district": "Lincolnshire"
+    "district": "Lincolnshire",
+    "population": 144415
   },
   {
     "id": "GB-E07000138",
@@ -1419,7 +1575,8 @@
     "region": "England",
     "domain": "lincoln.gov.uk",
     "osm_relation_id": 69144,
-    "district": "Lincolnshire"
+    "district": "Lincolnshire",
+    "population": 99039
   },
   {
     "id": "GB-E07000139",
@@ -1428,7 +1585,8 @@
     "region": "England",
     "domain": "northkesteven.gov.uk",
     "osm_relation_id": 59829,
-    "district": "Lincolnshire"
+    "district": "Lincolnshire",
+    "population": 119709
   },
   {
     "id": "GB-E07000140",
@@ -1437,7 +1595,8 @@
     "region": "England",
     "domain": "southholland.gov.uk",
     "osm_relation_id": 59831,
-    "district": "Lincolnshire"
+    "district": "Lincolnshire",
+    "population": 96983
   },
   {
     "id": "GB-E07000141",
@@ -1446,7 +1605,8 @@
     "region": "England",
     "domain": "southkesteven.gov.uk",
     "osm_relation_id": 59830,
-    "district": "Lincolnshire"
+    "district": "Lincolnshire",
+    "population": 141853
   },
   {
     "id": "GB-E07000142",
@@ -1455,7 +1615,8 @@
     "region": "England",
     "domain": "westlindsey.gov.uk",
     "osm_relation_id": 69331,
-    "district": "Lincolnshire"
+    "district": "Lincolnshire",
+    "population": 94869
   },
   {
     "id": "GB-E07000143",
@@ -1464,7 +1625,8 @@
     "region": "England",
     "domain": "breckland.gov.uk",
     "osm_relation_id": 1168814,
-    "district": "Norfolk"
+    "district": "Norfolk",
+    "population": 139329
   },
   {
     "id": "GB-E07000144",
@@ -1473,7 +1635,8 @@
     "region": "England",
     "domain": "broadland.gov.uk",
     "osm_relation_id": 1168615,
-    "district": "Norfolk"
+    "district": "Norfolk",
+    "population": 129464
   },
   {
     "id": "GB-E07000145",
@@ -1482,7 +1645,8 @@
     "region": "England",
     "domain": "greatyarmouth.gov.uk",
     "osm_relation_id": 1168547,
-    "district": "Norfolk"
+    "district": "Norfolk",
+    "population": 99370
   },
   {
     "id": "GB-E07000146",
@@ -1491,7 +1655,8 @@
     "region": "England",
     "domain": "kingslynnandwestnorfolk.gov.uk",
     "osm_relation_id": 1170907,
-    "district": "Norfolk"
+    "district": "Norfolk",
+    "population": 151811
   },
   {
     "id": "GB-E07000147",
@@ -1500,7 +1665,8 @@
     "region": "England",
     "domain": "northnorfolk.gov.uk",
     "osm_relation_id": 1174635,
-    "district": "Norfolk"
+    "district": "Norfolk",
+    "population": 104552
   },
   {
     "id": "GB-E07000148",
@@ -1509,7 +1675,8 @@
     "region": "England",
     "domain": "norwich.gov.uk",
     "osm_relation_id": 172506,
-    "district": "Norfolk"
+    "district": "Norfolk",
+    "population": 141137
   },
   {
     "id": "GB-E07000149",
@@ -1518,7 +1685,8 @@
     "region": "England",
     "domain": "southnorfolk.gov.uk",
     "osm_relation_id": 1164570,
-    "district": "Norfolk"
+    "district": "Norfolk",
+    "population": 138017
   },
   {
     "id": "GB-E07000170",
@@ -1527,7 +1695,8 @@
     "region": "England",
     "domain": "ashfield.gov.uk",
     "osm_relation_id": 154043,
-    "district": "Nottinghamshire"
+    "district": "Nottinghamshire",
+    "population": 127151
   },
   {
     "id": "GB-E07000171",
@@ -1536,7 +1705,8 @@
     "region": "England",
     "domain": "bassetlaw.gov.uk",
     "osm_relation_id": 77270,
-    "district": "Nottinghamshire"
+    "district": "Nottinghamshire",
+    "population": 116839
   },
   {
     "id": "GB-E07000172",
@@ -1545,7 +1715,8 @@
     "region": "England",
     "domain": "broxtowe.gov.uk",
     "osm_relation_id": 154058,
-    "district": "Nottinghamshire"
+    "district": "Nottinghamshire",
+    "population": 112113
   },
   {
     "id": "GB-E07000173",
@@ -1554,7 +1725,8 @@
     "region": "England",
     "domain": "gedling.gov.uk",
     "osm_relation_id": 155494,
-    "district": "Nottinghamshire"
+    "district": "Nottinghamshire",
+    "population": 117786
   },
   {
     "id": "GB-E07000174",
@@ -1563,7 +1735,8 @@
     "region": "England",
     "domain": "mansfield.gov.uk",
     "osm_relation_id": 154006,
-    "district": "Nottinghamshire"
+    "district": "Nottinghamshire",
+    "population": 111117
   },
   {
     "id": "GB-E07000175",
@@ -1572,7 +1745,8 @@
     "region": "England",
     "domain": "newarkandsherwood.gov.uk",
     "osm_relation_id": 77271,
-    "district": "Nottinghamshire"
+    "district": "Nottinghamshire",
+    "population": 125089
   },
   {
     "id": "GB-E07000176",
@@ -1581,7 +1755,8 @@
     "region": "England",
     "domain": "rushcliffe.gov.uk",
     "osm_relation_id": 77311,
-    "district": "Nottinghamshire"
+    "district": "Nottinghamshire",
+    "population": 121582
   },
   {
     "id": "GB-E07000177",
@@ -1590,7 +1765,8 @@
     "region": "England",
     "domain": "cherwell.gov.uk",
     "osm_relation_id": 394565,
-    "district": "Oxfordshire"
+    "district": "Oxfordshire",
+    "population": 149161
   },
   {
     "id": "GB-E07000178",
@@ -1599,7 +1775,8 @@
     "region": "England",
     "domain": "oxford.gov.uk",
     "osm_relation_id": 394037,
-    "district": "Oxfordshire"
+    "district": "Oxfordshire",
+    "population": 154327
   },
   {
     "id": "GB-E07000179",
@@ -1608,7 +1785,8 @@
     "region": "England",
     "domain": "southoxon.gov.uk",
     "osm_relation_id": 299097,
-    "district": "Oxfordshire"
+    "district": "Oxfordshire",
+    "population": 140504
   },
   {
     "id": "GB-E07000180",
@@ -1617,7 +1795,8 @@
     "region": "England",
     "domain": "whitehorsedc.gov.uk",
     "osm_relation_id": 299092,
-    "district": "Oxfordshire"
+    "district": "Oxfordshire",
+    "population": 133732
   },
   {
     "id": "GB-E07000181",
@@ -1626,7 +1805,8 @@
     "region": "England",
     "domain": "westoxon.gov.uk",
     "osm_relation_id": 394036,
-    "district": "Oxfordshire"
+    "district": "Oxfordshire",
+    "population": 109800
   },
   {
     "id": "GB-E07000192",
@@ -1635,7 +1815,8 @@
     "region": "England",
     "domain": "cannockchase.gov.uk",
     "osm_relation_id": 168500,
-    "district": "Staffordshire"
+    "district": "Staffordshire",
+    "population": 100109
   },
   {
     "id": "GB-E07000195",
@@ -1644,7 +1825,8 @@
     "region": "England",
     "domain": "newcastleunderlyme.gov.uk",
     "osm_relation_id": 163551,
-    "district": "Staffordshire"
+    "district": "Staffordshire",
+    "population": 127000
   },
   {
     "id": "GB-E07000196",
@@ -1653,7 +1835,8 @@
     "region": "England",
     "domain": "southstaffordshire.gov.uk",
     "osm_relation_id": 165853,
-    "district": "Staffordshire"
+    "district": "Staffordshire",
+    "population": 111527
   },
   {
     "id": "GB-E07000200",
@@ -1662,7 +1845,8 @@
     "region": "England",
     "domain": "babergh.gov.uk",
     "osm_relation_id": 53322,
-    "district": "Suffolk"
+    "district": "Suffolk",
+    "population": 91401
   },
   {
     "id": "GB-E07000202",
@@ -1671,7 +1855,8 @@
     "region": "England",
     "domain": "ipswich.gov.uk",
     "osm_relation_id": 53324,
-    "district": "Suffolk"
+    "district": "Suffolk",
+    "population": 137532
   },
   {
     "id": "GB-E07000203",
@@ -1680,7 +1865,8 @@
     "region": "England",
     "domain": "midsuffolk.gov.uk",
     "osm_relation_id": 53332,
-    "district": "Suffolk"
+    "district": "Suffolk",
+    "population": 102493
   },
   {
     "id": "GB-E07000207",
@@ -1689,7 +1875,8 @@
     "region": "England",
     "domain": "elmbridge.gov.uk",
     "osm_relation_id": 109611,
-    "district": "Surrey"
+    "district": "Surrey",
+    "population": 136626
   },
   {
     "id": "GB-E07000208",
@@ -1698,7 +1885,8 @@
     "region": "England",
     "domain": "epsom-ewell.gov.uk",
     "osm_relation_id": 109944,
-    "district": "Surrey"
+    "district": "Surrey",
+    "population": 81184
   },
   {
     "id": "GB-E07000209",
@@ -1707,7 +1895,8 @@
     "region": "England",
     "domain": "guildford.gov.uk",
     "osm_relation_id": 108787,
-    "district": "Surrey"
+    "district": "Surrey",
+    "population": 147889
   },
   {
     "id": "GB-E07000210",
@@ -1716,7 +1905,8 @@
     "region": "England",
     "domain": "molevalley.gov.uk",
     "osm_relation_id": 108792,
-    "district": "Surrey"
+    "district": "Surrey",
+    "population": 87253
   },
   {
     "id": "GB-E07000211",
@@ -1725,7 +1915,8 @@
     "region": "England",
     "domain": "reigate-banstead.gov.uk",
     "osm_relation_id": 109949,
-    "district": "Surrey"
+    "district": "Surrey",
+    "population": 147757
   },
   {
     "id": "GB-E07000212",
@@ -1734,7 +1925,8 @@
     "region": "England",
     "domain": "runnymede.gov.uk",
     "osm_relation_id": 109219,
-    "district": "Surrey"
+    "district": "Surrey",
+    "population": 88000
   },
   {
     "id": "GB-E07000213",
@@ -1743,7 +1935,8 @@
     "region": "England",
     "domain": "spelthorne.gov.uk",
     "osm_relation_id": 114741,
-    "district": "Surrey"
+    "district": "Surrey",
+    "population": 103551
   },
   {
     "id": "GB-E07000214",
@@ -1752,7 +1945,8 @@
     "region": "England",
     "domain": "surreyheath.gov.uk",
     "osm_relation_id": 109211,
-    "district": "Surrey"
+    "district": "Surrey",
+    "population": 91237
   },
   {
     "id": "GB-E07000215",
@@ -1761,7 +1955,8 @@
     "region": "England",
     "domain": "tandridge.gov.uk",
     "osm_relation_id": 113753,
-    "district": "Surrey"
+    "district": "Surrey",
+    "population": 87496
   },
   {
     "id": "GB-E07000216",
@@ -1770,7 +1965,8 @@
     "region": "England",
     "domain": "waverley.gov.uk",
     "osm_relation_id": 108786,
-    "district": "Surrey"
+    "district": "Surrey",
+    "population": 130063
   },
   {
     "id": "GB-E07000217",
@@ -1779,7 +1975,8 @@
     "region": "England",
     "domain": "woking.gov.uk",
     "osm_relation_id": 109202,
-    "district": "Surrey"
+    "district": "Surrey",
+    "population": 101167
   },
   {
     "id": "GB-E07000221",
@@ -1788,7 +1985,8 @@
     "region": "England",
     "domain": "stratfordonavon.gov.uk",
     "osm_relation_id": 176449,
-    "district": "Warwickshire"
+    "district": "Warwickshire",
+    "population": 127580
   },
   {
     "id": "GB-E07000223",
@@ -1797,7 +1995,8 @@
     "region": "England",
     "domain": "adur-worthing.gov.uk",
     "osm_relation_id": 114656,
-    "district": "West Sussex"
+    "district": "West Sussex",
+    "population": 63869
   },
   {
     "id": "GB-E07000224",
@@ -1806,7 +2005,8 @@
     "region": "England",
     "domain": "arun.gov.uk",
     "osm_relation_id": 114663,
-    "district": "West Sussex"
+    "district": "West Sussex",
+    "population": 159827
   },
   {
     "id": "GB-E07000225",
@@ -1815,7 +2015,8 @@
     "region": "England",
     "domain": "chichester.gov.uk",
     "osm_relation_id": 114677,
-    "district": "West Sussex"
+    "district": "West Sussex",
+    "population": 120750
   },
   {
     "id": "GB-E07000226",
@@ -1824,7 +2025,8 @@
     "region": "England",
     "domain": "crawley.gov.uk",
     "osm_relation_id": 114858,
-    "district": "West Sussex"
+    "district": "West Sussex",
+    "population": 112448
   },
   {
     "id": "GB-E07000227",
@@ -1833,7 +2035,8 @@
     "region": "England",
     "domain": "horsham.gov.uk",
     "osm_relation_id": 114662,
-    "district": "West Sussex"
+    "district": "West Sussex",
+    "population": 142217
   },
   {
     "id": "GB-E07000228",
@@ -1842,7 +2045,8 @@
     "region": "England",
     "domain": "midsussex.gov.uk",
     "osm_relation_id": 2778993,
-    "district": "West Sussex"
+    "district": "West Sussex",
+    "population": 149716
   },
   {
     "id": "GB-E07000229",
@@ -1851,7 +2055,8 @@
     "region": "England",
     "domain": "adur-worthing.gov.uk",
     "osm_relation_id": 117548,
-    "district": "West Sussex"
+    "district": "West Sussex",
+    "population": 110025
   },
   {
     "id": "GB-E07000234",
@@ -1860,7 +2065,8 @@
     "region": "England",
     "domain": "bromsgrove.gov.uk",
     "osm_relation_id": 1875338,
-    "district": "Worcestershire"
+    "district": "Worcestershire",
+    "population": 100076
   },
   {
     "id": "GB-E07000235",
@@ -1869,7 +2075,8 @@
     "region": "England",
     "domain": "malvernhills.gov.uk",
     "osm_relation_id": 1875339,
-    "district": "Worcestershire"
+    "district": "Worcestershire",
+    "population": 81024
   },
   {
     "id": "GB-E07000236",
@@ -1878,7 +2085,8 @@
     "region": "England",
     "domain": "redditchbc.gov.uk",
     "osm_relation_id": 1875340,
-    "district": "Worcestershire"
+    "district": "Worcestershire",
+    "population": 84989
   },
   {
     "id": "GB-E07000237",
@@ -1887,7 +2095,8 @@
     "region": "England",
     "domain": "worcester.gov.uk",
     "osm_relation_id": 1875341,
-    "district": "Worcestershire"
+    "district": "Worcestershire",
+    "population": 101891
   },
   {
     "id": "GB-E07000238",
@@ -1896,7 +2105,8 @@
     "region": "England",
     "domain": "wychavon.gov.uk",
     "osm_relation_id": 1875342,
-    "district": "Worcestershire"
+    "district": "Worcestershire",
+    "population": 121500
   },
   {
     "id": "GB-E07000239",
@@ -1905,7 +2115,8 @@
     "region": "England",
     "domain": "wyreforestdc.gov.uk",
     "osm_relation_id": 1875343,
-    "district": "Worcestershire"
+    "district": "Worcestershire",
+    "population": 101062
   },
   {
     "id": "GB-E07000240",
@@ -1914,7 +2125,8 @@
     "region": "England",
     "domain": "stalbans.gov.uk",
     "osm_relation_id": 2683265,
-    "district": "Hertfordshire"
+    "district": "Hertfordshire",
+    "population": 147373
   },
   {
     "id": "GB-E07000241",
@@ -1923,7 +2135,8 @@
     "region": "England",
     "domain": "welhat.gov.uk",
     "osm_relation_id": 2679796,
-    "district": "Hertfordshire"
+    "district": "Hertfordshire",
+    "population": 122746
   },
   {
     "id": "GB-E07000242",
@@ -1932,7 +2145,8 @@
     "region": "England",
     "domain": "eastherts.gov.uk",
     "osm_relation_id": 2678149,
-    "district": "Hertfordshire"
+    "district": "Hertfordshire",
+    "population": 151635
   },
   {
     "id": "GB-E07000243",
@@ -1941,7 +2155,8 @@
     "region": "England",
     "domain": "stevenage.gov.uk",
     "osm_relation_id": 2684172,
-    "district": "Hertfordshire"
+    "district": "Hertfordshire",
+    "population": 87754
   },
   {
     "id": "GB-E07000244",
@@ -1950,7 +2165,8 @@
     "region": "England",
     "domain": "eastsuffolk.gov.uk",
     "osm_relation_id": 9456323,
-    "district": "Suffolk"
+    "district": "Suffolk",
+    "population": 248249
   },
   {
     "id": "GB-E07000245",
@@ -1959,7 +2175,8 @@
     "region": "England",
     "domain": "westsuffolk.gov.uk",
     "osm_relation_id": 9448531,
-    "district": "Suffolk"
+    "district": "Suffolk",
+    "population": 182228
   },
   {
     "id": "GB-E08000001",
@@ -1968,7 +2185,8 @@
     "region": "England",
     "domain": "bolton.gov.uk",
     "osm_relation_id": 146937,
-    "district": "Greater Manchester"
+    "district": "Greater Manchester",
+    "population": 298903
   },
   {
     "id": "GB-E08000002",
@@ -1977,7 +2195,8 @@
     "region": "England",
     "domain": "bury.gov.uk",
     "osm_relation_id": 146927,
-    "district": "Greater Manchester"
+    "district": "Greater Manchester",
+    "population": 190708
   },
   {
     "id": "GB-E08000003",
@@ -1986,7 +2205,8 @@
     "region": "England",
     "domain": "manchester.gov.uk",
     "osm_relation_id": 146656,
-    "district": "Greater Manchester"
+    "district": "Greater Manchester",
+    "population": 568996
   },
   {
     "id": "GB-E08000004",
@@ -1995,7 +2215,8 @@
     "region": "England",
     "domain": "oldham.gov.uk",
     "osm_relation_id": 146925,
-    "district": "Greater Manchester"
+    "district": "Greater Manchester",
+    "population": 237628
   },
   {
     "id": "GB-E08000005",
@@ -2004,7 +2225,8 @@
     "region": "England",
     "domain": "rochdale.gov.uk",
     "osm_relation_id": 146926,
-    "district": "Greater Manchester"
+    "district": "Greater Manchester",
+    "population": 223659
   },
   {
     "id": "GB-E08000006",
@@ -2013,7 +2235,8 @@
     "region": "England",
     "domain": "salford.gov.uk",
     "osm_relation_id": 146657,
-    "district": "Greater Manchester"
+    "district": "Greater Manchester",
+    "population": 262697
   },
   {
     "id": "GB-E08000007",
@@ -2022,7 +2245,8 @@
     "region": "England",
     "domain": "stockport.gov.uk",
     "osm_relation_id": 146658,
-    "district": "Greater Manchester"
+    "district": "Greater Manchester",
+    "population": 294197
   },
   {
     "id": "GB-E08000008",
@@ -2031,7 +2255,8 @@
     "region": "England",
     "domain": "tameside.gov.uk",
     "osm_relation_id": 146655,
-    "district": "Greater Manchester"
+    "district": "Greater Manchester",
+    "population": 232753
   },
   {
     "id": "GB-E08000009",
@@ -2040,7 +2265,8 @@
     "region": "England",
     "domain": "trafford.gov.uk",
     "osm_relation_id": 146675,
-    "district": "Greater Manchester"
+    "district": "Greater Manchester",
+    "population": 237579
   },
   {
     "id": "GB-E08000010",
@@ -2049,7 +2275,8 @@
     "region": "England",
     "domain": "wigan.gov.uk",
     "osm_relation_id": 146938,
-    "district": "Greater Manchester"
+    "district": "Greater Manchester",
+    "population": 330712
   },
   {
     "id": "GB-E08000011",
@@ -2058,7 +2285,8 @@
     "region": "England",
     "domain": "knowsley.gov.uk",
     "osm_relation_id": 173025,
-    "district": "Merseyside"
+    "district": "Merseyside",
+    "population": 149571
   },
   {
     "id": "GB-E08000012",
@@ -2067,7 +2295,8 @@
     "region": "England",
     "domain": "liverpool.gov.uk",
     "osm_relation_id": 172987,
-    "district": "Merseyside"
+    "district": "Merseyside",
+    "population": 494814
   },
   {
     "id": "GB-E08000013",
@@ -2076,7 +2305,8 @@
     "region": "England",
     "domain": "sthelens.gov.uk",
     "osm_relation_id": 173478,
-    "district": "Merseyside"
+    "district": "Merseyside",
+    "population": 180049
   },
   {
     "id": "GB-E08000014",
@@ -2085,7 +2315,8 @@
     "region": "England",
     "domain": "sefton.gov.uk",
     "osm_relation_id": 173023,
-    "district": "Merseyside"
+    "district": "Merseyside",
+    "population": 275396
   },
   {
     "id": "GB-E08000015",
@@ -2094,7 +2325,8 @@
     "region": "England",
     "domain": "wirral.gov.uk",
     "osm_relation_id": 162456,
-    "district": "Merseyside"
+    "district": "Merseyside",
+    "population": 323235
   },
   {
     "id": "GB-E08000017",
@@ -2103,7 +2335,8 @@
     "region": "England",
     "domain": "doncaster.gov.uk",
     "osm_relation_id": 106961,
-    "district": "South Yorkshire"
+    "district": "South Yorkshire",
+    "population": 310542
   },
   {
     "id": "GB-E08000018",
@@ -2112,7 +2345,8 @@
     "region": "England",
     "domain": "rotherham.gov.uk",
     "osm_relation_id": 106960,
-    "district": "South Yorkshire"
+    "district": "South Yorkshire",
+    "population": 260800
   },
   {
     "id": "GB-E08000021",
@@ -2121,7 +2355,8 @@
     "region": "England",
     "domain": "newcastle.gov.uk",
     "osm_relation_id": 142282,
-    "district": "Tyne and Wear"
+    "district": "Tyne and Wear",
+    "population": 300196
   },
   {
     "id": "GB-E08000022",
@@ -2130,7 +2365,8 @@
     "region": "England",
     "domain": "northtyneside.gov.uk",
     "osm_relation_id": 142245,
-    "district": "Tyne and Wear"
+    "district": "Tyne and Wear",
+    "population": 205985
   },
   {
     "id": "GB-E08000023",
@@ -2139,7 +2375,8 @@
     "region": "England",
     "domain": "southtyneside.gov.uk",
     "osm_relation_id": 140390,
-    "district": "Tyne and Wear"
+    "district": "Tyne and Wear",
+    "population": 150265
   },
   {
     "id": "GB-E08000024",
@@ -2148,7 +2385,8 @@
     "region": "England",
     "domain": "sunderland.gov.uk",
     "osm_relation_id": 116279,
-    "district": "Tyne and Wear"
+    "district": "Tyne and Wear",
+    "population": 277417
   },
   {
     "id": "GB-E08000025",
@@ -2157,7 +2395,8 @@
     "region": "England",
     "domain": "birmingham.gov.uk",
     "osm_relation_id": 162378,
-    "district": "West Midlands"
+    "district": "West Midlands",
+    "population": 1141374
   },
   {
     "id": "GB-E08000026",
@@ -2166,7 +2405,8 @@
     "region": "England",
     "domain": "coventry.gov.uk",
     "osm_relation_id": 162370,
-    "district": "West Midlands"
+    "district": "West Midlands",
+    "population": 366785
   },
   {
     "id": "GB-E08000027",
@@ -2175,7 +2415,8 @@
     "region": "England",
     "domain": "dudley.gov.uk",
     "osm_relation_id": 162488,
-    "district": "West Midlands"
+    "district": "West Midlands",
+    "population": 320626
   },
   {
     "id": "GB-E08000028",
@@ -2184,7 +2425,8 @@
     "region": "England",
     "domain": "sandwell.gov.uk",
     "osm_relation_id": 162485,
-    "district": "West Midlands"
+    "district": "West Midlands",
+    "population": 327378
   },
   {
     "id": "GB-E08000029",
@@ -2193,7 +2435,8 @@
     "region": "England",
     "domain": "solihull.gov.uk",
     "osm_relation_id": 162373,
-    "district": "West Midlands"
+    "district": "West Midlands",
+    "population": 214909
   },
   {
     "id": "GB-E08000030",
@@ -2202,7 +2445,8 @@
     "region": "England",
     "domain": "walsall.gov.uk",
     "osm_relation_id": 162486,
-    "district": "West Midlands"
+    "district": "West Midlands",
+    "population": 67594
   },
   {
     "id": "GB-E08000031",
@@ -2211,7 +2455,8 @@
     "region": "England",
     "domain": "wolverhampton.gov.uk",
     "osm_relation_id": 173722,
-    "district": "West Midlands"
+    "district": "West Midlands",
+    "population": 262008
   },
   {
     "id": "GB-E08000032",
@@ -2220,7 +2465,8 @@
     "region": "England",
     "domain": "bradford.gov.uk",
     "osm_relation_id": 118323,
-    "district": "West Yorkshire"
+    "district": "West Yorkshire",
+    "population": 537173
   },
   {
     "id": "GB-E08000033",
@@ -2229,7 +2475,8 @@
     "region": "England",
     "domain": "calderdale.gov.uk",
     "osm_relation_id": 118327,
-    "district": "West Yorkshire"
+    "district": "West Yorkshire",
+    "population": 210082
   },
   {
     "id": "GB-E08000034",
@@ -2238,7 +2485,8 @@
     "region": "England",
     "domain": "kirklees.gov.uk",
     "osm_relation_id": 109954,
-    "district": "West Yorkshire"
+    "district": "West Yorkshire",
+    "population": 438727
   },
   {
     "id": "GB-E08000035",
@@ -2247,7 +2495,8 @@
     "region": "England",
     "domain": "leeds.gov.uk",
     "osm_relation_id": 118362,
-    "district": "West Yorkshire"
+    "district": "West Yorkshire",
+    "population": 789194
   },
   {
     "id": "GB-E08000036",
@@ -2256,7 +2505,8 @@
     "region": "England",
     "domain": "wakefield.gov.uk",
     "osm_relation_id": 109960,
-    "district": "West Yorkshire"
+    "district": "West Yorkshire",
+    "population": 345038
   },
   {
     "id": "GB-E08000037",
@@ -2265,7 +2515,8 @@
     "region": "England",
     "domain": "gateshead.gov.uk",
     "osm_relation_id": 140462,
-    "district": "Tyne and Wear"
+    "district": "Tyne and Wear",
+    "population": 202508
   },
   {
     "id": "GB-E08000038",
@@ -2274,7 +2525,8 @@
     "region": "England",
     "domain": "barnsley.gov.uk",
     "osm_relation_id": 106964,
-    "district": "South Yorkshire"
+    "district": "South Yorkshire",
+    "population": 245199
   },
   {
     "id": "GB-E08000039",
@@ -2283,7 +2535,8 @@
     "region": "England",
     "domain": "sheffield.gov.uk",
     "osm_relation_id": 106956,
-    "district": "South Yorkshire"
+    "district": "South Yorkshire",
+    "population": 569700
   },
   {
     "id": "GB-E09000002",
@@ -2292,7 +2545,8 @@
     "region": "England",
     "domain": "barkinganddagenham.gov.uk",
     "osm_relation_id": 185483,
-    "district": "Greater London"
+    "district": "Greater London",
+    "population": 211998
   },
   {
     "id": "GB-E09000003",
@@ -2301,7 +2555,8 @@
     "region": "England",
     "domain": "barnet.gov.uk",
     "osm_relation_id": 51831,
-    "district": "Greater London"
+    "district": "Greater London",
+    "population": 392140
   },
   {
     "id": "GB-E09000004",
@@ -2310,7 +2565,8 @@
     "region": "England",
     "domain": "bexley.gov.uk",
     "osm_relation_id": 51903,
-    "district": "Greater London"
+    "district": "Greater London",
+    "population": 247258
   },
   {
     "id": "GB-E09000005",
@@ -2319,7 +2575,8 @@
     "region": "England",
     "domain": "brent.gov.uk",
     "osm_relation_id": 75767,
-    "district": "Greater London"
+    "district": "Greater London",
+    "population": 330795
   },
   {
     "id": "GB-E09000006",
@@ -2328,7 +2585,8 @@
     "region": "England",
     "domain": "bromley.gov.uk",
     "osm_relation_id": 152126,
-    "district": "Greater London"
+    "district": "Greater London",
+    "population": 331096
   },
   {
     "id": "GB-E09000007",
@@ -2337,7 +2595,8 @@
     "region": "England",
     "domain": "camden.gov.uk",
     "osm_relation_id": 51827,
-    "district": "Greater London"
+    "district": "Greater London",
+    "population": 262226
   },
   {
     "id": "GB-E09000008",
@@ -2346,7 +2605,8 @@
     "region": "England",
     "domain": "croydon.gov.uk",
     "osm_relation_id": 51907,
-    "district": "Greater London"
+    "district": "Greater London",
+    "population": 385346
   },
   {
     "id": "GB-E09000009",
@@ -2355,7 +2615,8 @@
     "region": "England",
     "domain": "ealing.gov.uk",
     "osm_relation_id": 181321,
-    "district": "Greater London"
+    "district": "Greater London",
+    "population": 341982
   },
   {
     "id": "GB-E09000010",
@@ -2364,7 +2625,8 @@
     "region": "England",
     "domain": "enfield.gov.uk",
     "osm_relation_id": 51841,
-    "district": "Greater London"
+    "district": "Greater London",
+    "population": 333869
   },
   {
     "id": "GB-E09000011",
@@ -2373,7 +2635,8 @@
     "region": "England",
     "domain": "royalgreenwich.gov.uk",
     "osm_relation_id": 51902,
-    "district": "Greater London"
+    "district": "Greater London",
+    "population": 291080
   },
   {
     "id": "GB-E09000012",
@@ -2382,7 +2645,8 @@
     "region": "England",
     "domain": "hackney.gov.uk",
     "osm_relation_id": 51806,
-    "district": "Greater London"
+    "district": "Greater London",
+    "population": 279665
   },
   {
     "id": "GB-E09000013",
@@ -2391,7 +2655,8 @@
     "region": "England",
     "domain": "lbhf.gov.uk",
     "osm_relation_id": 184484,
-    "district": "Greater London"
+    "district": "Greater London",
+    "population": 185426
   },
   {
     "id": "GB-E09000014",
@@ -2400,7 +2665,8 @@
     "region": "England",
     "domain": "haringey.gov.uk",
     "osm_relation_id": 51814,
-    "district": "Greater London"
+    "district": "Greater London",
+    "population": 270624
   },
   {
     "id": "GB-E09000015",
@@ -2409,7 +2675,8 @@
     "region": "England",
     "domain": "harrow.gov.uk",
     "osm_relation_id": 181292,
-    "district": "Greater London"
+    "district": "Greater London",
+    "population": 250149
   },
   {
     "id": "GB-E09000016",
@@ -2418,7 +2685,8 @@
     "region": "England",
     "domain": "havering.gov.uk",
     "osm_relation_id": 185478,
-    "district": "Greater London"
+    "district": "Greater London",
+    "population": 257810
   },
   {
     "id": "GB-E09000017",
@@ -2427,7 +2695,8 @@
     "region": "England",
     "domain": "hillingdon.gov.uk",
     "osm_relation_id": 183779,
-    "district": "Greater London"
+    "district": "Greater London",
+    "population": 304824
   },
   {
     "id": "GB-E09000018",
@@ -2436,7 +2705,8 @@
     "region": "England",
     "domain": "hounslow.gov.uk",
     "osm_relation_id": 51848,
-    "district": "Greater London"
+    "district": "Greater London",
+    "population": 270782
   },
   {
     "id": "GB-E09000019",
@@ -2445,7 +2715,8 @@
     "region": "England",
     "domain": "islington.gov.uk",
     "osm_relation_id": 51821,
-    "district": "Greater London"
+    "district": "Greater London",
+    "population": 239142
   },
   {
     "id": "GB-E09000020",
@@ -2454,7 +2725,8 @@
     "region": "England",
     "domain": "rbkc.gov.uk",
     "osm_relation_id": 51793,
-    "district": "Greater London"
+    "district": "Greater London",
+    "population": 156197
   },
   {
     "id": "GB-E09000021",
@@ -2463,7 +2735,8 @@
     "region": "England",
     "domain": "kingston.gov.uk",
     "osm_relation_id": 51909,
-    "district": "Greater London"
+    "district": "Greater London",
+    "population": 175470
   },
   {
     "id": "GB-E09000022",
@@ -2472,7 +2745,8 @@
     "region": "England",
     "domain": "lambeth.gov.uk",
     "osm_relation_id": 184710,
-    "district": "Greater London"
+    "district": "Greater London",
+    "population": 325917
   },
   {
     "id": "GB-E09000023",
@@ -2481,7 +2755,8 @@
     "region": "England",
     "domain": "lewisham.gov.uk",
     "osm_relation_id": 184724,
-    "district": "Greater London"
+    "district": "Greater London",
+    "population": 303536
   },
   {
     "id": "GB-E09000024",
@@ -2490,7 +2765,8 @@
     "region": "England",
     "domain": "merton.gov.uk",
     "osm_relation_id": 51905,
-    "district": "Greater London"
+    "district": "Greater London",
+    "population": 206186
   },
   {
     "id": "GB-E09000025",
@@ -2499,7 +2775,8 @@
     "region": "England",
     "domain": "newham.gov.uk",
     "osm_relation_id": 185505,
-    "district": "Greater London"
+    "district": "Greater London",
+    "population": 352005
   },
   {
     "id": "GB-E09000026",
@@ -2508,7 +2785,8 @@
     "region": "England",
     "domain": "redbridge.gov.uk",
     "osm_relation_id": 65598,
-    "district": "Greater London"
+    "district": "Greater London",
+    "population": 303858
   },
   {
     "id": "GB-E09000027",
@@ -2517,7 +2795,8 @@
     "region": "England",
     "domain": "richmond.gov.uk",
     "osm_relation_id": 151795,
-    "district": "Greater London"
+    "district": "Greater London",
+    "population": 196904
   },
   {
     "id": "GB-E09000028",
@@ -2526,7 +2805,8 @@
     "region": "England",
     "domain": "southwark.gov.uk",
     "osm_relation_id": 8450265,
-    "district": "Greater London"
+    "district": "Greater London",
+    "population": 317256
   },
   {
     "id": "GB-E09000029",
@@ -2535,7 +2815,8 @@
     "region": "England",
     "domain": "sutton.gov.uk",
     "osm_relation_id": 17529,
-    "district": "Greater London"
+    "district": "Greater London",
+    "population": 204525
   },
   {
     "id": "GB-E09000030",
@@ -2544,7 +2825,8 @@
     "region": "England",
     "domain": "towerhamlets.gov.uk",
     "osm_relation_id": 51805,
-    "district": "Greater London"
+    "district": "Greater London",
+    "population": 317705
   },
   {
     "id": "GB-E09000031",
@@ -2553,7 +2835,8 @@
     "region": "England",
     "domain": "walthamforest.gov.uk",
     "osm_relation_id": 65595,
-    "district": "Greater London"
+    "district": "Greater London",
+    "population": 276700
   },
   {
     "id": "GB-E09000032",
@@ -2562,7 +2845,8 @@
     "region": "England",
     "domain": "wandsworth.gov.uk",
     "osm_relation_id": 51906,
-    "district": "Greater London"
+    "district": "Greater London",
+    "population": 326474
   },
   {
     "id": "GB-E09000033",
@@ -2571,7 +2855,8 @@
     "region": "England",
     "domain": "westminster.gov.uk",
     "osm_relation_id": 51781,
-    "district": "Greater London"
+    "district": "Greater London",
+    "population": 211365
   },
   {
     "id": "GB-N09000001",
@@ -2625,7 +2910,8 @@
     "region": "Northern Ireland",
     "domain": "fermanaghomagh.com",
     "osm_relation_id": 4183318,
-    "district": "Fermanagh and Omagh"
+    "district": "Fermanagh and Omagh",
+    "population": 116835
   },
   {
     "id": "GB-N09000007",
@@ -2643,7 +2929,8 @@
     "region": "Northern Ireland",
     "domain": "midandeastantrim.gov.uk",
     "osm_relation_id": 6459896,
-    "district": "Mid and East Antrim"
+    "district": "Mid and East Antrim",
+    "population": 7171
   },
   {
     "id": "GB-N09000009",
@@ -2679,7 +2966,8 @@
     "region": "Scotland",
     "domain": "clacks.gov.uk",
     "osm_relation_id": 1920841,
-    "district": "Clackmannanshire"
+    "district": "Clackmannanshire",
+    "population": 51540
   },
   {
     "id": "GB-S12000006",
@@ -2688,7 +2976,8 @@
     "region": "Scotland",
     "domain": "dumgal.gov.uk",
     "osm_relation_id": 1877232,
-    "district": "Dumfries and Galloway"
+    "district": "Dumfries and Galloway",
+    "population": 148860
   },
   {
     "id": "GB-S12000008",
@@ -2697,7 +2986,8 @@
     "region": "Scotland",
     "domain": "east-ayrshire.gov.uk",
     "osm_relation_id": 1920348,
-    "district": "East Ayrshire"
+    "district": "East Ayrshire",
+    "population": 122010
   },
   {
     "id": "GB-S12000010",
@@ -2706,7 +2996,8 @@
     "region": "Scotland",
     "domain": "eastlothian.gov.uk",
     "osm_relation_id": 1920902,
-    "district": "East Lothian"
+    "district": "East Lothian",
+    "population": 107090
   },
   {
     "id": "GB-S12000011",
@@ -2715,7 +3006,8 @@
     "region": "Scotland",
     "domain": "eastrenfrewshire.gov.uk",
     "osm_relation_id": 1921238,
-    "district": "East Renfrewshire"
+    "district": "East Renfrewshire",
+    "population": 95530
   },
   {
     "id": "GB-S12000013",
@@ -2724,7 +3016,8 @@
     "region": "Scotland",
     "domain": "cne-siar.gov.uk",
     "osm_relation_id": 1959008,
-    "district": "Western Isles"
+    "district": "Western Isles",
+    "population": 26720
   },
   {
     "id": "GB-S12000014",
@@ -2733,7 +3026,8 @@
     "region": "Scotland",
     "domain": "falkirk.gov.uk",
     "osm_relation_id": 1920842,
-    "district": "Falkirk"
+    "district": "Falkirk",
+    "population": 160340
   },
   {
     "id": "GB-S12000017",
@@ -2742,7 +3036,8 @@
     "region": "Scotland",
     "domain": "highland.gov.uk",
     "osm_relation_id": 1433249,
-    "district": "Highland"
+    "district": "Highland",
+    "population": 235540
   },
   {
     "id": "GB-S12000018",
@@ -2751,7 +3046,8 @@
     "region": "Scotland",
     "domain": "inverclyde.gov.uk",
     "osm_relation_id": 1921239,
-    "district": "Inverclyde"
+    "district": "Inverclyde",
+    "population": 77800
   },
   {
     "id": "GB-S12000019",
@@ -2760,7 +3056,8 @@
     "region": "Scotland",
     "domain": "midlothian.gov.uk",
     "osm_relation_id": 1920903,
-    "district": "Midlothian"
+    "district": "Midlothian",
+    "population": 92460
   },
   {
     "id": "GB-S12000020",
@@ -2769,7 +3066,8 @@
     "region": "Scotland",
     "domain": "moray.gov.uk",
     "osm_relation_id": 1775792,
-    "district": "Moray"
+    "district": "Moray",
+    "population": 95820
   },
   {
     "id": "GB-S12000021",
@@ -2778,7 +3076,8 @@
     "region": "Scotland",
     "domain": "north-ayrshire.gov.uk",
     "osm_relation_id": 1910014,
-    "district": "North Ayrshire"
+    "district": "North Ayrshire",
+    "population": 134740
   },
   {
     "id": "GB-S12000023",
@@ -2796,7 +3095,8 @@
     "region": "Scotland",
     "domain": "scotborders.gov.uk",
     "osm_relation_id": 1919950,
-    "district": "Scottish Borders"
+    "district": "Scottish Borders",
+    "population": 115510
   },
   {
     "id": "GB-S12000027",
@@ -2814,7 +3114,8 @@
     "region": "Scotland",
     "domain": "south-ayrshire.gov.uk",
     "osm_relation_id": 1920349,
-    "district": "South Ayrshire"
+    "district": "South Ayrshire",
+    "population": 112610
   },
   {
     "id": "GB-S12000029",
@@ -2823,7 +3124,8 @@
     "region": "Scotland",
     "domain": "southlanarkshire.gov.uk",
     "osm_relation_id": 1921241,
-    "district": "South Lanarkshire"
+    "district": "South Lanarkshire",
+    "population": 319020
   },
   {
     "id": "GB-S12000030",
@@ -2832,7 +3134,8 @@
     "region": "Scotland",
     "domain": "stirling.gov.uk",
     "osm_relation_id": 1905258,
-    "district": "Stirling"
+    "district": "Stirling",
+    "population": 94210
   },
   {
     "id": "GB-S12000033",
@@ -2841,7 +3144,8 @@
     "region": "Scotland",
     "domain": "aberdeencity.gov.uk",
     "osm_relation_id": 1900654,
-    "district": "Aberdeen City"
+    "district": "Aberdeen City",
+    "population": 227560
   },
   {
     "id": "GB-S12000034",
@@ -2850,7 +3154,8 @@
     "region": "Scotland",
     "domain": "aberdeenshire.gov.uk",
     "osm_relation_id": 1900655,
-    "district": "Aberdeenshire"
+    "district": "Aberdeenshire",
+    "population": 261210
   },
   {
     "id": "GB-S12000035",
@@ -2859,7 +3164,8 @@
     "region": "Scotland",
     "domain": "argyll-bute.gov.uk",
     "osm_relation_id": 1775685,
-    "district": "Argyll and Bute"
+    "district": "Argyll and Bute",
+    "population": 85870
   },
   {
     "id": "GB-S12000036",
@@ -2868,7 +3174,8 @@
     "region": "Scotland",
     "domain": "edinburgh.gov.uk",
     "osm_relation_id": 1920901,
-    "district": "City of Edinburgh"
+    "district": "City of Edinburgh",
+    "population": 524930
   },
   {
     "id": "GB-S12000038",
@@ -2877,7 +3184,8 @@
     "region": "Scotland",
     "domain": "renfrewshire.gov.uk",
     "osm_relation_id": 1921240,
-    "district": "Renfrewshire"
+    "district": "Renfrewshire",
+    "population": 179100
   },
   {
     "id": "GB-S12000039",
@@ -2886,7 +3194,8 @@
     "region": "Scotland",
     "domain": "west-dunbarton.gov.uk",
     "osm_relation_id": 1920242,
-    "district": "West Dunbartonshire"
+    "district": "West Dunbartonshire",
+    "population": 88930
   },
   {
     "id": "GB-S12000040",
@@ -2895,7 +3204,8 @@
     "region": "Scotland",
     "domain": "westlothian.gov.uk",
     "osm_relation_id": 1910704,
-    "district": "West Lothian"
+    "district": "West Lothian",
+    "population": 182140
   },
   {
     "id": "GB-S12000041",
@@ -2904,7 +3214,8 @@
     "region": "Scotland",
     "domain": "angus.gov.uk",
     "osm_relation_id": 1921172,
-    "district": "Angus"
+    "district": "Angus",
+    "population": 115820
   },
   {
     "id": "GB-S12000042",
@@ -2913,7 +3224,8 @@
     "region": "Scotland",
     "domain": "dundee.gov.uk",
     "osm_relation_id": 1921173,
-    "district": "Dundee City"
+    "district": "Dundee City",
+    "population": 149320
   },
   {
     "id": "GB-S12000045",
@@ -2922,7 +3234,8 @@
     "region": "Scotland",
     "domain": "eastdunbarton.gov.uk",
     "osm_relation_id": 1920660,
-    "district": "East Dunbartonshire"
+    "district": "East Dunbartonshire",
+    "population": 108640
   },
   {
     "id": "GB-S12000047",
@@ -2931,7 +3244,8 @@
     "region": "Scotland",
     "domain": "fifedirect.org.uk",
     "osm_relation_id": 1905841,
-    "district": "Fife"
+    "district": "Fife",
+    "population": 373550
   },
   {
     "id": "GB-S12000048",
@@ -2940,7 +3254,8 @@
     "region": "Scotland",
     "domain": "pkc.gov.uk",
     "osm_relation_id": 1915429,
-    "district": "Perth and Kinross"
+    "district": "Perth and Kinross",
+    "population": 151950
   },
   {
     "id": "GB-S12000049",
@@ -2949,7 +3264,8 @@
     "region": "Scotland",
     "domain": "glasgow.gov.uk",
     "osm_relation_id": 1906767,
-    "district": "Glasgow City"
+    "district": "Glasgow City",
+    "population": 633120
   },
   {
     "id": "GB-S12000050",
@@ -2958,7 +3274,8 @@
     "region": "Scotland",
     "domain": "northlanarkshire.gov.uk",
     "osm_relation_id": 1920584,
-    "district": "North Lanarkshire"
+    "district": "North Lanarkshire",
+    "population": 340180
   },
   {
     "id": "GB-W06000001",
@@ -2967,7 +3284,8 @@
     "region": "Wales",
     "domain": "anglesey.gov.uk",
     "osm_relation_id": 298793,
-    "district": "Isle of Anglesey"
+    "district": "Isle of Anglesey",
+    "population": 69961
   },
   {
     "id": "GB-W06000002",
@@ -2976,7 +3294,8 @@
     "region": "Wales",
     "domain": "gwynedd.llyw.cymru",
     "osm_relation_id": 297286,
-    "district": "Gwynedd"
+    "district": "Gwynedd",
+    "population": 124560
   },
   {
     "id": "GB-W06000003",
@@ -2985,7 +3304,8 @@
     "region": "Wales",
     "domain": "conwy.gov.uk",
     "osm_relation_id": 297287,
-    "district": "Conwy"
+    "district": "Conwy",
+    "population": 117181
   },
   {
     "id": "GB-W06000004",
@@ -2994,7 +3314,8 @@
     "region": "Wales",
     "domain": "denbighshire.gov.uk",
     "osm_relation_id": 192442,
-    "district": "Denbighshire"
+    "district": "Denbighshire",
+    "population": 95330
   },
   {
     "id": "GB-W06000005",
@@ -3003,7 +3324,8 @@
     "region": "Wales",
     "domain": "flintshire.gov.uk",
     "osm_relation_id": 198566,
-    "district": "Flintshire"
+    "district": "Flintshire",
+    "population": 155593
   },
   {
     "id": "GB-W06000006",
@@ -3012,7 +3334,8 @@
     "region": "Wales",
     "domain": "wrexham.gov.uk",
     "osm_relation_id": 137981,
-    "district": "Wrexham"
+    "district": "Wrexham",
+    "population": 136126
   },
   {
     "id": "GB-W06000008",
@@ -3021,7 +3344,8 @@
     "region": "Wales",
     "domain": "ceredigion.gov.uk",
     "osm_relation_id": 77904,
-    "district": "Ceredigion"
+    "district": "Ceredigion",
+    "population": 72992
   },
   {
     "id": "GB-W06000009",
@@ -3030,7 +3354,8 @@
     "region": "Wales",
     "domain": "pembrokeshire.gov.uk",
     "osm_relation_id": 57535,
-    "district": "Pembrokeshire"
+    "district": "Pembrokeshire",
+    "population": 125818
   },
   {
     "id": "GB-W06000010",
@@ -3039,7 +3364,8 @@
     "region": "Wales",
     "domain": "carmarthenshire.gov.uk",
     "osm_relation_id": 57534,
-    "district": "Carmarthenshire"
+    "district": "Carmarthenshire",
+    "population": 187568
   },
   {
     "id": "GB-W06000011",
@@ -3048,7 +3374,8 @@
     "region": "Wales",
     "domain": "swansea.gov.uk",
     "osm_relation_id": 87944,
-    "district": "Swansea"
+    "district": "Swansea",
+    "population": 246466
   },
   {
     "id": "GB-W06000012",
@@ -3057,7 +3384,8 @@
     "region": "Wales",
     "domain": "neath-porttalbot.gov.uk",
     "osm_relation_id": 89846,
-    "district": "Neath Port Talbot"
+    "district": "Neath Port Talbot",
+    "population": 142906
   },
   {
     "id": "GB-W06000013",
@@ -3066,7 +3394,8 @@
     "region": "Wales",
     "domain": "bridgend.gov.uk",
     "osm_relation_id": 99774,
-    "district": "Bridgend County Borough"
+    "district": "Bridgend County Borough",
+    "population": 144876
   },
   {
     "id": "GB-W06000014",
@@ -3075,7 +3404,8 @@
     "region": "Wales",
     "domain": "valeofglamorgan.gov.uk",
     "osm_relation_id": 103776,
-    "district": "Vale of Glamorgan"
+    "district": "Vale of Glamorgan",
+    "population": 132165
   },
   {
     "id": "GB-W06000015",
@@ -3084,7 +3414,8 @@
     "region": "Wales",
     "domain": "cardiff.gov.uk",
     "osm_relation_id": 1625787,
-    "district": "Cardiff"
+    "district": "Cardiff",
+    "population": 364248
   },
   {
     "id": "GB-W06000016",
@@ -3093,7 +3424,8 @@
     "region": "Wales",
     "domain": "rctcbc.gov.uk",
     "osm_relation_id": 2751428,
-    "district": "Rhondda Cynon Taf"
+    "district": "Rhondda Cynon Taf",
+    "population": 240131
   },
   {
     "id": "GB-W06000018",
@@ -3102,7 +3434,8 @@
     "region": "Wales",
     "domain": "caerphilly.gov.uk",
     "osm_relation_id": 2750677,
-    "district": "Caerphilly County Borough"
+    "district": "Caerphilly County Borough",
+    "population": 181019
   },
   {
     "id": "GB-W06000019",
@@ -3111,7 +3444,8 @@
     "region": "Wales",
     "domain": "blaenau-gwent.gov.uk",
     "osm_relation_id": 2750598,
-    "district": "Blaenau Gwent"
+    "district": "Blaenau Gwent",
+    "population": 69713
   },
   {
     "id": "GB-W06000020",
@@ -3120,7 +3454,8 @@
     "region": "Wales",
     "domain": "torfaen.gov.uk",
     "osm_relation_id": 2750460,
-    "district": "Torfaen"
+    "district": "Torfaen",
+    "population": 91075
   },
   {
     "id": "GB-W06000021",
@@ -3129,7 +3464,8 @@
     "region": "Wales",
     "domain": "monmouthshire.gov.uk",
     "osm_relation_id": 358021,
-    "district": "Monmouthshire"
+    "district": "Monmouthshire",
+    "population": 94142
   },
   {
     "id": "GB-W06000022",
@@ -3138,7 +3474,8 @@
     "region": "Wales",
     "domain": "newport.gov.uk",
     "osm_relation_id": 335184,
-    "district": "Newport"
+    "district": "Newport",
+    "population": 167899
   },
   {
     "id": "GB-W06000023",
@@ -3147,7 +3484,8 @@
     "region": "Wales",
     "domain": "powys.gov.uk",
     "osm_relation_id": 134324,
-    "district": "Powys"
+    "district": "Powys",
+    "population": 132447
   },
   {
     "id": "GB-W06000024",
@@ -3156,7 +3494,8 @@
     "region": "Wales",
     "domain": "merthyr.gov.uk",
     "osm_relation_id": 2750939,
-    "district": "Merthyr Tydfil County Borough"
+    "district": "Merthyr Tydfil County Borough",
+    "population": 60183
   },
   {
     "id": "GB-IM",
@@ -3165,6 +3504,7 @@
     "region": "Crown Dependencies",
     "domain": "gov.im",
     "osm_relation_id": 62269,
-    "district": "Isle of Man"
+    "district": "Isle of Man",
+    "population": 84523
   }
 ]
