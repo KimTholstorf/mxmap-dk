@@ -305,10 +305,17 @@ SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
 ORDER BY ?itemLabel
 """,
     # ── Canada ───────────────────────────────────────────────────────
-    # Canada: Q27676428 (municipality) — ~655
+    # Canada: multiple municipal types — ~3500+
     "CA": """
 SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
-  ?item wdt:P31 wd:Q27676428 .
+  VALUES ?type {
+    wd:Q27676428 wd:Q3957 wd:Q27676416 wd:Q15210668 wd:Q55774719
+    wd:Q532 wd:Q27676524 wd:Q3327874 wd:Q14762300 wd:Q55430416
+    wd:Q515 wd:Q6644778 wd:Q6644696 wd:Q44529188 wd:Q14762205
+    wd:Q60458065 wd:Q6641762 wd:Q6644759 wd:Q3327871 wd:Q27676420
+    wd:Q27676422 wd:Q59341087 wd:Q204613
+  }
+  ?item wdt:P31 ?type .
   ?item wdt:P17 wd:Q16 .
   OPTIONAL { ?item wdt:P856 ?website }
   OPTIONAL { ?item wdt:P402 ?osmId }

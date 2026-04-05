@@ -13,24 +13,63 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
-  cancel-in-progress: true
+  group: nightly-update
+  cancel-in-progress: false
 
 jobs:
   update-data:
     runs-on: ubuntu-latest
+    timeout-minutes: 240
     steps:
       - uses: actions/checkout@v6
       - uses: astral-sh/setup-uv@v7
       - run: uv python install 3.13
       - run: uv sync
-      - name: Preprocess (all countries except DE)
+      - name: Preprocess (small + medium countries)
         run: |
-          ALL_EXCEPT_DE=$(uv run python3 -c "
+          # Countries with <1000 municipalities — scan every night
+          SMALL=$(uv run python3 -c "
+          import json
           from mail_sovereignty.preprocess import SEED_FILES
-          print(' '.join(cc for cc in SEED_FILES if cc != 'DE'))
+          from pathlib import Path
+          large = set()
+          for cc, fname in SEED_FILES.items():
+              p = Path('data') / fname
+              if p.exists():
+                  n = len(json.load(open(p)))
+                  if n >= 1000:
+                      large.add(cc)
+          print(' '.join(cc for cc in SEED_FILES if cc not in large and cc != 'DE'))
           ")
-          uv run preprocess $ALL_EXCEPT_DE
+          echo "Small/medium countries: $SMALL"
+          uv run preprocess $SMALL
+      - name: Preprocess large countries (rotating)
+        run: |
+          # Countries with >=1000 municipalities rotate on a 3-day cycle
+          # (excludes DE which has its own rotation below)
+          DAY_OF_YEAR=$(date +%j)
+          LARGE=$(uv run python3 -c "
+          import json
+          from mail_sovereignty.preprocess import SEED_FILES
+          from pathlib import Path
+          large = []
+          for cc, fname in sorted(SEED_FILES.items()):
+              if cc == 'DE': continue
+              p = Path('data') / fname
+              if p.exists():
+                  n = len(json.load(open(p)))
+                  if n >= 1000:
+                      large.append(cc)
+          day = $DAY_OF_YEAR
+          group_size = (len(large) + 2) // 3
+          idx = day % 3
+          batch = large[idx * group_size:(idx + 1) * group_size]
+          print(' '.join(batch))
+          ")
+          echo "Large country batch: $LARGE"
+          if [ -n "$LARGE" ]; then
+            uv run preprocess $LARGE
+          fi
       - name: Preprocess DE (rotating 3 states per night)
         run: |
           DAY=$(date +%j)
@@ -84,6 +123,9 @@ jobs:
   deploy:
     needs: update-data
     runs-on: ubuntu-latest
+    concurrency:
+      group: pages
+      cancel-in-progress: true
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

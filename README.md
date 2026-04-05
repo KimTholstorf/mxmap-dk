@@ -1,10 +1,10 @@
-# MX Map — Email Providers of European Municipalities
+# MX Map — Email Providers of Municipalities Worldwide
 
 [![Nightly](https://github.com/livenson/mxmap/actions/workflows/nightly.yml/badge.svg)](https://github.com/livenson/mxmap/actions/workflows/nightly.yml)
 
-An interactive map showing where ~20,000 municipalities across 47 European countries host their official email — whether with US hyperscalers (Microsoft, Google, AWS), local/EU providers, or self-hosted solutions.
+An interactive map showing where ~46,000 municipalities across 166 countries host their official email — whether with US hyperscalers (Microsoft, Google, AWS), local providers, or self-hosted solutions.
 
-All 27 EU member states plus 20 non-EU European countries including Norway, Iceland, the United Kingdom, Switzerland's neighbours, the Western Balkans, and the Caucasus.
+Coverage spans Europe (48 countries), Africa (54), the Americas (21), Asia (30), Oceania (8), and the Middle East (11).
 
 **[View the live map](https://livenson.github.io/mxmap/)**
 
@@ -14,7 +14,7 @@ All 27 EU member states plus 20 non-EU European countries including Norway, Icel
 
 The data pipeline has three steps:
 
-1. **Preprocess** — Loads ~20,000 municipalities from curated seed data across 47 countries, performs MX, SPF, CNAME, DKIM, autodiscover, and TXT DNS lookups on their official domains (with domain guessing for missing entries), detects email security gateways (SeppMail, Barracuda, Hornetsecurity, etc.), and classifies each municipality's email provider. TXT domain verification tokens (e.g., `MS=` for Microsoft 365, `google-site-verification=` for Google Workspace) serve as tiebreakers when other signals are ambiguous.
+1. **Preprocess** — Loads ~46,000 municipalities from curated seed data across 166 countries, performs MX, SPF, CNAME, DKIM, autodiscover, and TXT DNS lookups on their official domains (with domain guessing for missing entries), detects email security gateways (SeppMail, Barracuda, Hornetsecurity, etc.), and classifies each municipality's email provider. TXT domain verification tokens (e.g., `MS=` for Microsoft 365, `google-site-verification=` for Google Workspace) serve as tiebreakers when other signals are ambiguous.
 2. **Postprocess** — Applies manual overrides for edge cases, retries DNS for unresolved domains, checks SMTP banners of independent MX hosts for hidden providers, then scrapes websites of still-unclassified municipalities for email addresses.
 3. **Validate** — Cross-validates MX and SPF records, assigns a confidence score (0–100) to each entry, and generates a validation report.
 
@@ -23,7 +23,7 @@ flowchart TD
     trigger["Nightly trigger"] --> seed
 
     subgraph pre ["1 · Preprocess"]
-        seed[/"Seed data (47 countries)"/] --> fetch["Load ~20,000 municipalities"]
+        seed[/"Seed data (166 countries)"/] --> fetch["Load ~46,000 municipalities"]
         fetch --> domains["Extract domains +<br/>guess candidates"]
         domains --> dns["MX + TXT lookups<br/>(3 resolvers)"]
         dns --> spf_resolve["Resolve SPF includes<br/>& redirects"]
@@ -65,12 +65,29 @@ flowchart TD
     style gate fill:#fdebd0,stroke:#e67e22,color:#935116
 ```
 
+## Coverage
+
+| Region | Countries | Municipalities | With domains |
+|--------|:---------:|:--------------:|:------------:|
+| Europe | 48 | ~25,000 | ~22,000 |
+| Africa | 54 | ~8,500 | ~2,400 |
+| Americas | 21 | ~7,700 | ~5,500 |
+| Asia | 30 | ~4,200 | ~2,100 |
+| Middle East | 11 | ~700 | ~200 |
+| Oceania | 8 | ~400 | ~200 |
+| **Total** | **166** | **~46,000** | **~32,000** |
+
+Seed data is sourced from Wikidata (SPARQL queries for municipal entities per country) and supplemented with domain pattern discovery (e.g., `{name}.go.ke` for Kenya, `{name}dc.go.tz` for Tanzania, `muni{name}.go.cr` for Costa Rica, `{name}.municipios.gob.pa` for Panama).
+
 ## Quick start
 
 ```bash
 uv sync
 
-uv run preprocess
+uv run preprocess          # All countries
+uv run preprocess DE       # Single country
+uv run preprocess DE:BY    # Single Bundesland
+
 uv run postprocess
 uv run validate
 
@@ -91,9 +108,18 @@ uv run ruff check src tests
 uv run ruff format src tests
 ```
 
+## Nightly pipeline
+
+A [GitHub Actions workflow](.github/workflows/nightly.yml) runs every night at 04:00 UTC:
+
+- **Small/medium countries** (<1,000 municipalities) are scanned every night
+- **Large countries** (>=1,000 municipalities: BR, CA, DZ, MA, etc.) rotate on a 3-day cycle
+- **Germany** (11K Gemeinden) rotates 3 Bundesländer per night on a 6-day cycle
+- Results are validated, committed, and deployed to GitHub Pages
+
 ## Attribution
 
-This project is a fork of [mxmap.ch](https://mxmap.ch) by [David Huser](https://github.com/davidhuser/mxmap), which maps email providers of Swiss municipalities. Adapted for 47 European countries with region-specific provider detection (Telia, TET, Zone.eu, local ISPs), gateway look-through (SeppMail, Barracuda, Hornetsecurity, etc.), DKIM/TXT verification-based classification, curated seed data, and per-country TopoJSON geodata.
+This project is a fork of [mxmap.ch](https://mxmap.ch) by [David Huser](https://github.com/davidhuser/mxmap), which maps email providers of Swiss municipalities. Extended to 166 countries worldwide with region-specific provider detection, gateway look-through, DKIM/TXT verification-based classification, curated seed data, and per-country TopoJSON geodata.
 
 ## Related work
 

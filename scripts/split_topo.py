@@ -215,7 +215,7 @@ LEVEL_MAP = {
     "BE": {"region": "region", "district": "district", "municipality": "municipality"},
     "DE": {
         "region": "region",
-        "district": "municipality",  # becomes "district" after Gemeinde expansion
+        "district": "district",
         "municipality": "municipality",
     },
     "FI": {"region": "region", "district": "region", "municipality": "municipality"},
