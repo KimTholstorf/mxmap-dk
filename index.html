@@ -784,13 +784,13 @@ function getGroupKey(m, fileLevelName) {
 function computeAggregation(cc, fileLevelName) {
   // Fast path: use pre-computed region data before summary is loaded
   if (fileLevelName === 'region' && regionData && !summaryLoaded) {
-    var cd = regionData.countries[cc];
+    const cd = regionData.countries[cc];
     if (!cd) return {};
-    var groups = {};
-    for (var rname of Object.keys(cd.regions)) {
-      var r = cd.regions[rname];
-      var sorted = Object.entries(r.providers).sort(function(a,b){return b[1]-a[1]});
-      groups[rname] = {
+    const result = {};
+    for (const rname of Object.keys(cd.regions)) {
+      const r = cd.regions[rname];
+      const sorted = Object.entries(r.providers).sort((a,b) => b[1]-a[1]);
+      result[rname] = {
         name: rname,
         municipalities: [],
         providers: r.providers,
@@ -802,7 +802,7 @@ function computeAggregation(cc, fileLevelName) {
         hasGateway: (r.gateway_count || 0) > 0,
       };
     }
-    return groups;
+    return result;
   }
 
   const munis = dnsData.municipalities.filter(m => m.country === cc);
