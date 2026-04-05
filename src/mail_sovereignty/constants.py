@@ -334,6 +334,8 @@ GATEWAY_KEYWORDS = {
     "mxthunder": ["mxthunder.net"],
     "mx-hub": ["mx-hub.cz", "mx-hub.sk", "mx-hub.net", "mx-hub.eu"],
     "dsidata": ["dsidata.sk"],
+    "spamtador": ["spamtador.com"],
+    "jellyfish": ["jellyfish.systems"],
 }
 
 # Local ISP ASNs (replaces SWISS_ISP_ASNS)
@@ -539,6 +541,27 @@ LOCAL_ISP_ASNS: dict[int, str] = {
     60729: "Nowo Communications (PT)",
     25291: "Adclick (PT)",
     24768: "CleanMX (PT)",
+    # Spain
+    3352: "Telefonica (ES)",
+    200521: "SEAP-AGE/Gobierno (ES)",
+    42612: "Dinahosting (ES)",
+    16371: "Acens (ES)",
+    25487: "DigitalValue (ES)",
+    31577: "Prored/DNSxperta (ES)",
+    198871: "Diputación Castellón (ES)",
+    44280: "Diputació Girona (ES)",
+    12430: "Vodafone España (ES)",
+    50926: "Axarnet (ES)",
+    15704: "Xtra Telecom (ES)",
+    56958: "Raiola Networks (ES)",
+    201446: "ProfesionalHosting (ES)",
+    57910: "SCIP (ES)",
+    198066: "Loading (ES)",
+    57286: "Gigas (ES)",
+    15954: "Tecnocratica (ES)",
+    12338: "Euskaltel (ES)",
+    203051: "Diputación Ávila (ES)",
+    3262: "Sarenet (ES)",
     # Italy
     12874: "Fastweb (IT)",
     3269: "Telecom Italia/TIM (IT)",
