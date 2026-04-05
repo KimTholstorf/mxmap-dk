@@ -431,8 +431,8 @@
       </div>
     </div>
     <div class="level-toggle">
-      <button class="level-btn" data-level="region">Regions</button>
-      <button class="level-btn active" data-level="district">Districts</button>
+      <button class="level-btn active" data-level="region">Regions</button>
+      <button class="level-btn" data-level="district">Districts</button>
       <button class="level-btn" data-level="municipality">Municipalities</button>
     </div>
   </div>
@@ -496,7 +496,10 @@ function blendProviderColors(providers, total) {
 // --- State ---
 let dnsData = null;
 let manifest = null;
-let currentLevel = 'district';
+let regionData = null;          // data-regions.json (lightweight)
+let summaryLoaded = false;      // true once data-summary.json loaded
+let summaryLoadPromise = null;  // dedup in-flight loads
+let currentLevel = 'region';
 const topoCache = {};           // cacheKey -> parsed TopoJSON
 const countryLayers = new Map(); // "EE" -> L.geoJSON layer
 let gatewayMarkers = L.layerGroup();
@@ -779,6 +782,29 @@ function getGroupKey(m, fileLevelName) {
 }
 
 function computeAggregation(cc, fileLevelName) {
+  // Fast path: use pre-computed region data before summary is loaded
+  if (fileLevelName === 'region' && regionData && !summaryLoaded) {
+    var cd = regionData.countries[cc];
+    if (!cd) return {};
+    var groups = {};
+    for (var rname of Object.keys(cd.regions)) {
+      var r = cd.regions[rname];
+      var sorted = Object.entries(r.providers).sort(function(a,b){return b[1]-a[1]});
+      groups[rname] = {
+        name: rname,
+        municipalities: [],
+        providers: r.providers,
+        dominant: r.dominant,
+        dominance: r.dominance,
+        second: sorted.length > 1 ? sorted[1][0] : null,
+        blendedColor: r.blendedColor,
+        count: r.count,
+        hasGateway: (r.gateway_count || 0) > 0,
+      };
+    }
+    return groups;
+  }
+
   const munis = dnsData.municipalities.filter(m => m.country === cc);
   const groups = {};
   for (const m of munis) {
@@ -930,14 +956,20 @@ function buildAggregatedPopup(group, feature, cc) {
   providerLegend += '</div>';
 
   // Municipality list (scrollable)
+  let muniList;
+  if (group.municipalities.length === 0) {
+    muniList = '<div class="popup-section"><div class="popup-section-title">Municipalities (' + total + ')</div>';
+    muniList += '<div style="font-size:11px;color:#999;padding:4px 0">Switch to Districts or Municipalities level for details</div>';
+  } else {
   const sorted = group.municipalities.slice().sort((a, b) => a.name.localeCompare(b.name));
-  let muniList = '<div class="popup-section"><div class="popup-section-title">Municipalities (' + total + ')</div>';
+  muniList = '<div class="popup-section"><div class="popup-section-title">Municipalities (' + total + ')</div>';
   muniList += '<div style="max-height:200px;overflow-y:auto;font-size:11px">';
   for (const m of sorted) {
     const color = COLORS[m.classification.provider] || '#888';
     muniList += `<div style="padding:1px 0"><span style="display:inline-block;width:8px;height:8px;background:${color};border-radius:2px;margin-right:4px;vertical-align:middle"></span>${escapeHtml(m.name)}</div>`;
   }
   muniList += '</div></div>';
+  }
 
   return `<div class="info-popup">` +
     `<strong>${flag} ${escapeHtml(name)}</strong>` +
@@ -1230,9 +1262,19 @@ async function setLevel(newLevel) {
     btn.classList.toggle('active', btn.dataset.level === newLevel);
   });
 
-  // Show loading indicator briefly
-  const loading = document.getElementById('map-loading');
-  if (loading) loading.style.display = 'none';
+  // If switching away from region and summary not loaded, load it on demand
+  if (newLevel !== 'region' && !summaryLoaded) {
+    var overlay = document.createElement('div');
+    overlay.id = 'map-loading';
+    overlay.style.cssText = 'position:absolute;inset:0;display:flex;align-items:center;justify-content:center;z-index:1000;background:rgba(255,255,255,0.85);font-size:15px;color:#555;';
+    overlay.textContent = 'Loading municipality data\u2026';
+    document.getElementById('map').appendChild(overlay);
+
+    await loadSummaryData();
+
+    var loadingEl = document.getElementById('map-loading');
+    if (loadingEl) loadingEl.remove();
+  }
 
   await Promise.all(COUNTRY_LIST.map(function (cc) { return renderCountryLayer(cc); }));
   gatewayMarkers.addTo(map);
@@ -1265,7 +1307,7 @@ document.querySelectorAll('.country-btn').forEach(function (btn) {
     else activeCountries.add(country);
     updateStyles();
     updateLegend();
-    if (dnsData) buildStats(dnsData.municipalities);
+    if (summaryLoaded && dnsData) buildStats(dnsData.municipalities); else buildStatsFromRegions();
   });
 });
 
@@ -1288,7 +1330,7 @@ document.querySelectorAll('.region-label').forEach(function (btn) {
     });
     updateStyles();
     updateLegend();
-    if (dnsData) buildStats(dnsData.municipalities);
+    if (summaryLoaded && dnsData) buildStats(dnsData.municipalities); else buildStatsFromRegions();
   });
 });
 
@@ -1296,7 +1338,7 @@ document.querySelectorAll('.region-label').forEach(function (btn) {
 const providerDisplayMap = {
   'microsoft': 'Microsoft', 'google': 'Google', 'aws': 'AWS',
   'telia': 'Local Provider', 'tet': 'Local Provider', 'zone': 'Local Provider', 'elkdata': 'Local Provider',
-  'local-isp': 'Local Provider', 'independent': 'Self-hosted', 'unknown': 'Unknown',
+  'local-isp': 'Local Provider', 'zoho': 'Local Provider', 'independent': 'Self-hosted', 'unknown': 'Unknown',
 };
 
 function transformMuni(m) {
@@ -1318,55 +1360,157 @@ function transformMuni(m) {
   };
 }
 
+function buildStatsFromRegions() {
+  const content = document.getElementById('stats-content');
+  if (!content || !regionData) return;
+  const allProviders = {};
+  let total = 0, us = 0, local = 0, unk = 0;
+  const perCountry = {};
+
+  for (const cc of COUNTRY_LIST) {
+    if (!activeCountries.has(cc)) continue;
+    var cd = regionData.countries[cc];
+    if (!cd) continue;
+    total += cd.total;
+    perCountry[cc] = cd;
+    for (var p in cd.providers) {
+      var count = cd.providers[p];
+      allProviders[p] = (allProviders[p] || 0) + count;
+      if (p === 'Microsoft' || p === 'Google' || p === 'AWS') us += count;
+      else if (p === 'Unknown') unk += count;
+      else local += count;
+    }
+  }
+
+  const sectionTitle = '<div style="font-size:12px;color:#777;text-transform:uppercase;letter-spacing:0.3px;font-weight:600;margin-bottom:4px">';
+  const barHtml = function(label, count, max, color, tot) {
+    var pct = tot ? Math.round(count / tot * 100) : 0;
+    var w = max ? Math.round(count / max * 100) : 0;
+    return '<div style="display:flex;align-items:center;gap:6px;margin:2px 0;font-size:11px"><span style="width:80px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">' + label + '</span><div style="flex:1;background:#f0f0f0;border-radius:3px;height:14px"><div style="width:' + w + '%;background:' + color + ';height:100%;border-radius:3px;min-width:1px"></div></div><span style="width:40px;text-align:right;color:#888">' + pct + '%</span></div>';
+  };
+
+  var html = '';
+  // Jurisdiction
+  html += sectionTitle + 'Email jurisdiction</div>';
+  var maxJ = Math.max(us, local, unk);
+  html += barHtml('US-based', us, maxJ, '#E83838', total);
+  html += barHtml('Local', local, maxJ, '#10B898', total);
+  html += barHtml('Unknown', unk, maxJ, '#BFBFBF', total);
+
+  // Providers
+  html += '<div style="margin-top:10px">' + sectionTitle + 'Providers</div>';
+  var sortedP = Object.entries(allProviders).sort(function(a,b){return b[1]-a[1]});
+  var maxP = sortedP.length > 0 ? sortedP[0][1] : 1;
+  for (var i = 0; i < sortedP.length; i++) {
+    var color = COLORS[sortedP[i][0]] || '#888';
+    html += barHtml(sortedP[i][0], sortedP[i][1], maxP, color, total);
+  }
+
+  // Per country
+  var activeList = COUNTRY_LIST.filter(function(cc){return activeCountries.has(cc)});
+  var countryNames = {};
+  // Reuse countryNames from buildStats if it exists
+  html += '<div style="margin-top:10px">' + sectionTitle + 'By country (' + activeList.length + ')</div>';
+  var sortedCountries = activeList.filter(function(cc){return perCountry[cc]}).sort(function(a,b){return perCountry[b].total - perCountry[a].total});
+  for (var ci = 0; ci < Math.min(sortedCountries.length, 20); ci++) {
+    var cc = sortedCountries[ci];
+    var cd = perCountry[cc];
+    var flag = FLAGS[cc] || '';
+    html += '<div style="margin-top:6px;font-size:11px"><strong>' + flag + ' ' + cc + '</strong> <span style="color:#888">(' + cd.total + ')</span></div>';
+    var cProviders = Object.entries(cd.providers).sort(function(a,b){return b[1]-a[1]});
+    var cMax = cProviders.length > 0 ? cProviders[0][1] : 1;
+    for (var pi = 0; pi < Math.min(cProviders.length, 4); pi++) {
+      html += barHtml(cProviders[pi][0], cProviders[pi][1], cMax, COLORS[cProviders[pi][0]] || '#888', cd.total);
+    }
+  }
+  if (sortedCountries.length > 20) {
+    html += '<div style="font-size:11px;color:#999;margin-top:4px">+' + (sortedCountries.length - 20) + ' more countries</div>';
+  }
+
+  content.innerHTML = html;
+}
+
+async function loadSummaryData() {
+  if (summaryLoaded) return;
+  if (summaryLoadPromise) return summaryLoadPromise;
+
+  summaryLoadPromise = (async function() {
+    const res = await fetch('data-summary.json');
+    const raw = await res.json();
+
+    const rawList = Array.isArray(raw.municipalities)
+      ? raw.municipalities
+      : Object.values(raw.municipalities || {});
+
+    const muniList = rawList.map(transformMuni);
+
+    const providerCounts = {};
+    for (const m of muniList) {
+      const p = m.classification.provider;
+      providerCounts[p] = (providerCounts[p] || 0) + 1;
+    }
+
+    dnsData = {
+      municipalities: muniList,
+      stats: { total: muniList.length, provider_counts: providerCounts },
+      generated_at: raw.generated || raw.generated_at,
+    };
+
+    // Build lookups
+    const muniByBfs = {};
+    for (const m of dnsData.municipalities) {
+      if (m.osm_relation_id) muniByOsm['relation/' + m.osm_relation_id] = m;
+      muniByName[m.name.toLowerCase()] = m;
+      if (m.name_en) muniByName[m.name_en.toLowerCase()] = m;
+      if (m.bfs) muniByBfs[m.bfs] = m;
+    }
+
+    summaryLoaded = true;
+    buildStats(dnsData.municipalities);
+    updateLegend();
+
+    // Background-load detail data
+    fetch('data-detail.json').then(function (res) { return res.json(); }).then(function (detail) {
+      for (const bfs of Object.keys(detail)) {
+        const m = muniByBfs[bfs];
+        if (!m) continue;
+        const d = detail[bfs];
+        m.mx = d.mx || [];
+        m.dkim = d.dkim || null;
+        m.autodiscover = d.autodiscover || null;
+        m.txt_verifications = d.txt_verifications || null;
+        m.tenant = d.tenant || null;
+        m.smtp_software = d.smtp_software || null;
+        m.classification.mx_records = (d.mx || []).map(function (host, i) {
+          return { priority: (i + 1) * 10, host: host };
+        });
+        m.classification.spf = d.spf || '';
+        m.classification.reason = d.reason || '';
+      }
+    }).catch(function (err) { console.warn('Detail data load failed:', err); });
+  })();
+
+  return summaryLoadPromise;
+}
+
 async function loadData() {
-  // Load summary (small, fast) + manifest in parallel
-  const [summaryRes, manifestRes] = await Promise.all([
-    fetch('data-summary.json'),
+  // Phase 1: Load lightweight region data + manifest (fast)
+  const [regionsRes, manifestRes] = await Promise.all([
+    fetch('data-regions.json'),
     fetch('topo/manifest.json')
   ]);
 
-  const raw = await summaryRes.json();
+  regionData = await regionsRes.json();
   manifest = await manifestRes.json();
 
-  // Normalise pipeline output: municipalities may be a dict keyed by BFS
-  const rawList = Array.isArray(raw.municipalities)
-    ? raw.municipalities
-    : Object.values(raw.municipalities || {});
-
-  // Transform summary entries (no mx/spf/dkim yet — loaded in background)
-  const muniList = rawList.map(transformMuni);
-
-  const providerCounts = {};
-  for (const m of muniList) {
-    const p = m.classification.provider;
-    providerCounts[p] = (providerCounts[p] || 0) + 1;
-  }
-
-  dnsData = {
-    municipalities: muniList,
-    stats: { total: muniList.length, provider_counts: providerCounts },
-    generated_at: raw.generated || raw.generated_at,
-  };
-
-  // Build lookups
-  const muniByBfs = {};
-  for (const m of dnsData.municipalities) {
-    if (m.osm_relation_id) {
-      muniByOsm['relation/' + m.osm_relation_id] = m;
-    }
-    muniByName[m.name.toLowerCase()] = m;
-    if (m.name_en) muniByName[m.name_en.toLowerCase()] = m;
-    if (m.bfs) muniByBfs[m.bfs] = m;
-  }
-
   // Show date
-  if (dnsData.generated_at) {
-    const date = new Date(dnsData.generated_at);
+  if (regionData.generated) {
+    const date = new Date(regionData.generated);
     document.getElementById('generated').textContent =
       'Updated ' + date.toLocaleDateString('en-GB', { dateStyle: 'medium' });
   }
 
-  // Legend
+  // Legend (works with region data)
   const isMobile = window.innerWidth <= 600;
   const legend = L.control({ position: isMobile ? 'topright' : 'bottomright' });
   legend.onAdd = function () {
@@ -1383,13 +1527,28 @@ async function loadData() {
   updateLegend = function () {
     const counts = {};
     let total = 0, gwCount = 0;
-    for (const m of dnsData.municipalities) {
-      if (!activeCountries.has(m.country)) continue;
-      const p = m.classification.provider;
-      counts[p] = (counts[p] || 0) + 1;
-      total++;
-      if (hasLocalGateway(m)) gwCount++;
+
+    if (summaryLoaded && dnsData) {
+      for (const m of dnsData.municipalities) {
+        if (!activeCountries.has(m.country)) continue;
+        const p = m.classification.provider;
+        counts[p] = (counts[p] || 0) + 1;
+        total++;
+        if (hasLocalGateway(m)) gwCount++;
+      }
+    } else if (regionData) {
+      for (const cc of COUNTRY_LIST) {
+        if (!activeCountries.has(cc)) continue;
+        var cd = regionData.countries[cc];
+        if (!cd) continue;
+        for (var p in cd.providers) {
+          counts[p] = (counts[p] || 0) + cd.providers[p];
+        }
+        total += cd.total;
+        gwCount += cd.gateway_count || 0;
+      }
     }
+
     const content = document.querySelector('.legend-content');
     if (content) {
       content.innerHTML =
@@ -1402,10 +1561,10 @@ async function loadData() {
   };
   updateLegend();
 
-  // Stats panel
-  buildStats(dnsData.municipalities);
+  // Stats panel (from region data initially)
+  buildStatsFromRegions();
 
-  // Render all country layers at default level (district)
+  // Render all country layers at region level
   await Promise.all(COUNTRY_LIST.map(function (cc) { return renderCountryLayer(cc); }));
   gatewayMarkers.addTo(map);
   dominanceMarkers.addTo(map);
@@ -1416,26 +1575,6 @@ async function loadData() {
   const loading = document.getElementById('map-loading');
   if (loading) loading.remove();
   map.invalidateSize({ animate: false });
-
-  // Background-load detail data (popup fields: mx, spf, dkim, etc.)
-  fetch('data-detail.json').then(function (res) { return res.json(); }).then(function (detail) {
-    for (const bfs of Object.keys(detail)) {
-      const m = muniByBfs[bfs];
-      if (!m) continue;
-      const d = detail[bfs];
-      m.mx = d.mx || [];
-      m.dkim = d.dkim || null;
-      m.autodiscover = d.autodiscover || null;
-      m.txt_verifications = d.txt_verifications || null;
-      m.tenant = d.tenant || null;
-      m.smtp_software = d.smtp_software || null;
-      m.classification.mx_records = (d.mx || []).map(function (host, i) {
-        return { priority: (i + 1) * 10, host: host };
-      });
-      m.classification.spf = d.spf || '';
-      m.classification.reason = d.reason || '';
-    }
-  }).catch(function (err) { console.warn('Detail data load failed:', err); });
 }
 
 loadData().catch(function (err) {
