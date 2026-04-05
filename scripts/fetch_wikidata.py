@@ -304,6 +304,112 @@ SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
 }
 ORDER BY ?itemLabel
 """,
+    # ── Canada ───────────────────────────────────────────────────────
+    # Canada: Q27676428 (municipality) — ~655
+    "CA": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31 wd:Q27676428 .
+  ?item wdt:P17 wd:Q16 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr" }
+}
+ORDER BY ?itemLabel
+""",
+    # ── Central America ─────────────────────────────────────────────
+    # Belize: Q765865 (district of Belize) — ~6
+    "BZ": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q765865 .
+  ?item wdt:P17 wd:Q242 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+}
+ORDER BY ?itemLabel
+""",
+    # Guatemala: Q1872284 (municipality of Guatemala) — ~299
+    "GT": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q1872284 .
+  ?item wdt:P17 wd:Q774 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,es" }
+}
+ORDER BY ?itemLabel
+""",
+    # Honduras: Q2602693 (municipality of Honduras) — ~298
+    "HN": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q2602693 .
+  ?item wdt:P17 wd:Q783 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,es" }
+}
+ORDER BY ?itemLabel
+""",
+    # El Salvador: Q127499753 (district of El Salvador) — ~262
+    "SV": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q127499753 .
+  ?item wdt:P17 wd:Q792 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,es" }
+}
+ORDER BY ?itemLabel
+""",
+    # Nicaragua: Q318727 (municipality of Nicaragua) — ~153
+    "NI": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q318727 .
+  ?item wdt:P17 wd:Q811 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,es" }
+}
+ORDER BY ?itemLabel
+""",
+    # Costa Rica: Q953822 (canton of Costa Rica) — ~84
+    "CR": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q953822 .
+  ?item wdt:P17 wd:Q800 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,es" }
+}
+ORDER BY ?itemLabel
+""",
+    # Panama: Q3710488 (district of Panama) — ~75
+    "PA": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q3710488 .
+  ?item wdt:P17 wd:Q804 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,es" }
+}
+ORDER BY ?itemLabel
+""",
     # ── Africa — North ──────────────────────────────────────────────
     # Algeria: Q2989398 (commune of Algeria) — ~569
     "DZ": """

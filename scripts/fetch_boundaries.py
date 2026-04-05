@@ -120,6 +120,16 @@ COUNTRY_CONFIG = {
     "SR": {"admin_level": 4, "iso": "SR", "name": "Suriname"},
     "UY": {"admin_level": 4, "iso": "UY", "name": "Uruguay"},
     "VE": {"admin_level": 6, "iso": "VE", "name": "Venezuela"},
+    # Canada
+    "CA": {"admin_level": 8, "iso": "CA", "name": "Canada"},
+    # Central America
+    "BZ": {"admin_level": 4, "iso": "BZ", "name": "Belize"},
+    "GT": {"admin_level": 6, "iso": "GT", "name": "Guatemala"},
+    "HN": {"admin_level": 6, "iso": "HN", "name": "Honduras"},
+    "SV": {"admin_level": 6, "iso": "SV", "name": "El Salvador"},
+    "NI": {"admin_level": 6, "iso": "NI", "name": "Nicaragua"},
+    "CR": {"admin_level": 6, "iso": "CR", "name": "Costa Rica"},
+    "PA": {"admin_level": 6, "iso": "PA", "name": "Panama"},
     # Africa — North
     "DZ": {"admin_level": 6, "iso": "DZ", "name": "Algeria"},
     "EG": {"admin_level": 4, "iso": "EG", "name": "Egypt"},

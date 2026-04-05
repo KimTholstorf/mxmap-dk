@@ -1,0 +1,2082 @@
+[
+  {
+    "id": "SV-001",
+    "name": "Acajutla",
+    "country": "SV",
+    "region": "Western Sonsonate",
+    "domain": "acajutla.gob.sv",
+    "osm_relation_id": 5977122
+  },
+  {
+    "id": "SV-002",
+    "name": "Agua Caliente",
+    "country": "SV",
+    "region": "Central Chalatenango",
+    "domain": "",
+    "osm_relation_id": 19564030
+  },
+  {
+    "id": "SV-003",
+    "name": "Aguilares",
+    "country": "SV",
+    "region": "Northern San Salvador",
+    "domain": "",
+    "osm_relation_id": 9229624
+  },
+  {
+    "id": "SV-004",
+    "name": "Ahuachapán",
+    "country": "SV",
+    "region": "Central Ahuachapán",
+    "domain": "",
+    "osm_relation_id": 6744515
+  },
+  {
+    "id": "SV-005",
+    "name": "Alegría",
+    "country": "SV",
+    "region": "Northern Usulután",
+    "domain": "",
+    "osm_relation_id": 19560744
+  },
+  {
+    "id": "SV-006",
+    "name": "Anamorós",
+    "country": "SV",
+    "region": "Northern La Unión",
+    "domain": "",
+    "osm_relation_id": 19563640
+  },
+  {
+    "id": "SV-007",
+    "name": "Antiguo Cuscatlán",
+    "country": "SV",
+    "region": "Eastern La Libertad",
+    "domain": "lalibertadeste.gob.sv",
+    "osm_relation_id": 6805100
+  },
+  {
+    "id": "SV-008",
+    "name": "Apaneca",
+    "country": "SV",
+    "region": "Central Ahuachapán",
+    "domain": "",
+    "osm_relation_id": 6626641
+  },
+  {
+    "id": "SV-009",
+    "name": "Apastepeque",
+    "country": "SV",
+    "region": "Northern San Vicente",
+    "domain": "",
+    "osm_relation_id": 19560284
+  },
+  {
+    "id": "SV-010",
+    "name": "Apopa",
+    "country": "SV",
+    "region": "Western San Salvador",
+    "domain": "alcaldiasansalvadoroeste.com",
+    "osm_relation_id": 9229558
+  },
+  {
+    "id": "SV-011",
+    "name": "Arambala",
+    "country": "SV",
+    "region": "Northern Morazán",
+    "domain": "",
+    "osm_relation_id": 19560554
+  },
+  {
+    "id": "SV-012",
+    "name": "Arcatao",
+    "country": "SV",
+    "region": "Southern Chalatenango",
+    "domain": "",
+    "osm_relation_id": 19564017
+  },
+  {
+    "id": "SV-013",
+    "name": "Armenia",
+    "country": "SV",
+    "region": "Eastern Sonsonate",
+    "domain": "",
+    "osm_relation_id": 6651387
+  },
+  {
+    "id": "SV-014",
+    "name": "Atiquizaya",
+    "country": "SV",
+    "region": "Northern Ahuachapán",
+    "domain": "",
+    "osm_relation_id": 9620563
+  },
+  {
+    "id": "SV-015",
+    "name": "Ayutuxtepeque",
+    "country": "SV",
+    "region": "Central San Salvador",
+    "domain": "",
+    "osm_relation_id": 6873233
+  },
+  {
+    "id": "SV-016",
+    "name": "Azacualpa",
+    "country": "SV",
+    "region": "Southern Chalatenango",
+    "domain": "",
+    "osm_relation_id": 19563801
+  },
+  {
+    "id": "SV-017",
+    "name": "Berlín",
+    "country": "SV",
+    "region": "Northern Usulután",
+    "domain": "",
+    "osm_relation_id": 19560755
+  },
+  {
+    "id": "SV-018",
+    "name": "Bolívar",
+    "country": "SV",
+    "region": "Northern La Unión",
+    "domain": "",
+    "osm_relation_id": 19563648
+  },
+  {
+    "id": "SV-019",
+    "name": "Cacaopera",
+    "country": "SV",
+    "region": "Northern Morazán",
+    "domain": "",
+    "osm_relation_id": 19560578
+  },
+  {
+    "id": "SV-020",
+    "name": "California",
+    "country": "SV",
+    "region": "Eastern Usulután",
+    "domain": "",
+    "osm_relation_id": 19560761
+  },
+  {
+    "id": "SV-021",
+    "name": "Caluco",
+    "country": "SV",
+    "region": "Eastern Sonsonate",
+    "domain": "",
+    "osm_relation_id": 13128742
+  },
+  {
+    "id": "SV-022",
+    "name": "Candelaria",
+    "country": "SV",
+    "region": "Southern Cuscatlán",
+    "domain": "",
+    "osm_relation_id": 8022709
+  },
+  {
+    "id": "SV-023",
+    "name": "Candelaria de la Frontera",
+    "country": "SV",
+    "region": "Western Santa Ana",
+    "domain": "",
+    "osm_relation_id": 8527341
+  },
+  {
+    "id": "SV-024",
+    "name": "Carolina",
+    "country": "SV",
+    "region": "Northern San Miguel",
+    "domain": "",
+    "osm_relation_id": 19560347
+  },
+  {
+    "id": "SV-025",
+    "name": "Chalatenango",
+    "country": "SV",
+    "region": "Southern Chalatenango",
+    "domain": "chalatenango.gob.sv",
+    "osm_relation_id": 19563800
+  },
+  {
+    "id": "SV-026",
+    "name": "Chalchuapa",
+    "country": "SV",
+    "region": "Western Santa Ana",
+    "domain": "",
+    "osm_relation_id": 8527345
+  },
+  {
+    "id": "SV-027",
+    "name": "Chapeltique",
+    "country": "SV",
+    "region": "Northern San Miguel",
+    "domain": "",
+    "osm_relation_id": 19560370
+  },
+  {
+    "id": "SV-028",
+    "name": "Chilanga",
+    "country": "SV",
+    "region": "Southern Morazán",
+    "domain": "",
+    "osm_relation_id": 19560767
+  },
+  {
+    "id": "SV-029",
+    "name": "Chiltiupán",
+    "country": "SV",
+    "region": "Coastal La Libertad",
+    "domain": "",
+    "osm_relation_id": 7369381
+  },
+  {
+    "id": "SV-030",
+    "name": "Chinameca",
+    "country": "SV",
+    "region": "Western San Miguel",
+    "domain": "",
+    "osm_relation_id": 19560408
+  },
+  {
+    "id": "SV-031",
+    "name": "Chirilagua",
+    "country": "SV",
+    "region": "Central San Miguel",
+    "domain": "",
+    "osm_relation_id": 19560506
+  },
+  {
+    "id": "SV-032",
+    "name": "Cinquera",
+    "country": "SV",
+    "region": "Western Cabañas",
+    "domain": "",
+    "osm_relation_id": 19560306
+  },
+  {
+    "id": "SV-033",
+    "name": "Citalá",
+    "country": "SV",
+    "region": "Northern Chalatenango",
+    "domain": "",
+    "osm_relation_id": 13284888
+  },
+  {
+    "id": "SV-034",
+    "name": "Ciudad Arce",
+    "country": "SV",
+    "region": "Central La Libertad",
+    "domain": "",
+    "osm_relation_id": 6678084
+  },
+  {
+    "id": "SV-035",
+    "name": "Ciudad Barrios",
+    "country": "SV",
+    "region": "Northern San Miguel",
+    "domain": "",
+    "osm_relation_id": 19560519
+  },
+  {
+    "id": "SV-036",
+    "name": "Ciudad Delgado",
+    "country": "SV",
+    "region": "Central San Salvador",
+    "domain": "",
+    "osm_relation_id": 9229415
+  },
+  {
+    "id": "SV-037",
+    "name": "Coatepeque",
+    "country": "SV",
+    "region": "Eastern Santa Ana",
+    "domain": "",
+    "osm_relation_id": 13128867
+  },
+  {
+    "id": "SV-038",
+    "name": "Cojutepeque",
+    "country": "SV",
+    "region": "Southern Cuscatlán",
+    "domain": "cuscatlansur.gob.sv",
+    "osm_relation_id": 9222747
+  },
+  {
+    "id": "SV-039",
+    "name": "Colón",
+    "country": "SV",
+    "region": "Western La Libertad",
+    "domain": "",
+    "osm_relation_id": 19563383
+  },
+  {
+    "id": "SV-040",
+    "name": "Comacarán",
+    "country": "SV",
+    "region": "Central San Miguel",
+    "domain": "",
+    "osm_relation_id": 19560533
+  },
+  {
+    "id": "SV-041",
+    "name": "Comalapa",
+    "country": "SV",
+    "region": "Southern Chalatenango",
+    "domain": "",
+    "osm_relation_id": 19564035
+  },
+  {
+    "id": "SV-042",
+    "name": "Comasagua",
+    "country": "SV",
+    "region": "Southern La Libertad",
+    "domain": "",
+    "osm_relation_id": 19563423
+  },
+  {
+    "id": "SV-043",
+    "name": "Concepción Batres",
+    "country": "SV",
+    "region": "Eastern Usulután",
+    "domain": "",
+    "osm_relation_id": 19560879
+  },
+  {
+    "id": "SV-044",
+    "name": "Concepción Quezaltepeque",
+    "country": "SV",
+    "region": "Southern Chalatenango",
+    "domain": "",
+    "osm_relation_id": 19563650
+  },
+  {
+    "id": "SV-045",
+    "name": "Concepción de Ataco",
+    "country": "SV",
+    "region": "Central Ahuachapán",
+    "domain": "",
+    "osm_relation_id": 6173339
+  },
+  {
+    "id": "SV-046",
+    "name": "Concepción de Oriente",
+    "country": "SV",
+    "region": "Northern La Unión",
+    "domain": "",
+    "osm_relation_id": 19563653
+  },
+  {
+    "id": "SV-047",
+    "name": "Conchagua",
+    "country": "SV",
+    "region": "Southern La Unión",
+    "domain": "",
+    "osm_relation_id": 6560289
+  },
+  {
+    "id": "SV-048",
+    "name": "Corinto",
+    "country": "SV",
+    "region": "Northern Morazán",
+    "domain": "",
+    "osm_relation_id": 8811961
+  },
+  {
+    "id": "SV-049",
+    "name": "Cuisnahuat",
+    "country": "SV",
+    "region": "Eastern Sonsonate",
+    "domain": "",
+    "osm_relation_id": 13128748
+  },
+  {
+    "id": "SV-050",
+    "name": "Cuscatancingo",
+    "country": "SV",
+    "region": "Central San Salvador",
+    "domain": "",
+    "osm_relation_id": 6867826
+  },
+  {
+    "id": "SV-051",
+    "name": "Cuyultitán",
+    "country": "SV",
+    "region": "Western La Paz",
+    "domain": "",
+    "osm_relation_id": 19563473
+  },
+  {
+    "id": "SV-052",
+    "name": "Delicias de Concepción",
+    "country": "SV",
+    "region": "Southern Morazán",
+    "domain": "",
+    "osm_relation_id": 19560779
+  },
+  {
+    "id": "SV-053",
+    "name": "Dolores",
+    "country": "SV",
+    "region": "Eastern Cabañas",
+    "domain": "",
+    "osm_relation_id": 12653303
+  },
+  {
+    "id": "SV-054",
+    "name": "Dulce Nombre de María",
+    "country": "SV",
+    "region": "Central Chalatenango",
+    "domain": "",
+    "osm_relation_id": 19563639
+  },
+  {
+    "id": "SV-055",
+    "name": "El Carmen",
+    "country": "SV",
+    "region": "Southern Cuscatlán",
+    "domain": "",
+    "osm_relation_id": 19563312
+  },
+  {
+    "id": "SV-056",
+    "name": "El Carmen",
+    "country": "SV",
+    "region": "Southern La Unión",
+    "domain": "",
+    "osm_relation_id": 8283252
+  },
+  {
+    "id": "SV-057",
+    "name": "El Carrizal",
+    "country": "SV",
+    "region": "Southern Chalatenango",
+    "domain": "",
+    "osm_relation_id": 19563615
+  },
+  {
+    "id": "SV-058",
+    "name": "El Congo",
+    "country": "SV",
+    "region": "Eastern Santa Ana",
+    "domain": "",
+    "osm_relation_id": 13128868
+  },
+  {
+    "id": "SV-059",
+    "name": "El Divisadero",
+    "country": "SV",
+    "region": "Southern Morazán",
+    "domain": "",
+    "osm_relation_id": 19560840
+  },
+  {
+    "id": "SV-060",
+    "name": "El Paisnal",
+    "country": "SV",
+    "region": "Northern San Salvador",
+    "domain": "",
+    "osm_relation_id": 6433677
+  },
+  {
+    "id": "SV-061",
+    "name": "El Paraíso",
+    "country": "SV",
+    "region": "Central Chalatenango",
+    "domain": "",
+    "osm_relation_id": 19563609
+  },
+  {
+    "id": "SV-062",
+    "name": "El Porvenir",
+    "country": "SV",
+    "region": "Western Santa Ana",
+    "domain": "",
+    "osm_relation_id": 8196206
+  },
+  {
+    "id": "SV-063",
+    "name": "El Refugio",
+    "country": "SV",
+    "region": "Northern Ahuachapán",
+    "domain": "",
+    "osm_relation_id": 9620562
+  },
+  {
+    "id": "SV-064",
+    "name": "El Rosario",
+    "country": "SV",
+    "region": "Northern Morazán",
+    "domain": "",
+    "osm_relation_id": 19512041
+  },
+  {
+    "id": "SV-065",
+    "name": "El Rosario",
+    "country": "SV",
+    "region": "Central La Paz",
+    "domain": "",
+    "osm_relation_id": 8418085
+  },
+  {
+    "id": "SV-066",
+    "name": "El Rosario",
+    "country": "SV",
+    "region": "Southern Cuscatlán",
+    "domain": "",
+    "osm_relation_id": 19563313
+  },
+  {
+    "id": "SV-067",
+    "name": "El Sauce",
+    "country": "SV",
+    "region": "Northern La Unión",
+    "domain": "",
+    "osm_relation_id": 19563776
+  },
+  {
+    "id": "SV-068",
+    "name": "El Triunfo",
+    "country": "SV",
+    "region": "Northern Usulután",
+    "domain": "",
+    "osm_relation_id": 19560962
+  },
+  {
+    "id": "SV-069",
+    "name": "El Tránsito",
+    "country": "SV",
+    "region": "Western San Miguel",
+    "domain": "",
+    "osm_relation_id": 19560547
+  },
+  {
+    "id": "SV-070",
+    "name": "Ereguayquín",
+    "country": "SV",
+    "region": "Eastern Usulután",
+    "domain": "",
+    "osm_relation_id": 19560979
+  },
+  {
+    "id": "SV-071",
+    "name": "Estanzuelas",
+    "country": "SV",
+    "region": "Northern Usulután",
+    "domain": "",
+    "osm_relation_id": 19560993
+  },
+  {
+    "id": "SV-072",
+    "name": "Guacotecti",
+    "country": "SV",
+    "region": "Eastern Cabañas",
+    "domain": "",
+    "osm_relation_id": 10303109
+  },
+  {
+    "id": "SV-073",
+    "name": "Guadalupe",
+    "country": "SV",
+    "region": "Southern San Vicente",
+    "domain": "",
+    "osm_relation_id": 19560304
+  },
+  {
+    "id": "SV-074",
+    "name": "Gualococti",
+    "country": "SV",
+    "region": "Southern Morazán",
+    "domain": "",
+    "osm_relation_id": 19560882
+  },
+  {
+    "id": "SV-075",
+    "name": "Guatajiagua",
+    "country": "SV",
+    "region": "Southern Morazán",
+    "domain": "",
+    "osm_relation_id": 19560948
+  },
+  {
+    "id": "SV-076",
+    "name": "Guaymango",
+    "country": "SV",
+    "region": "Southern Ahuachapán",
+    "domain": "",
+    "osm_relation_id": 6626607
+  },
+  {
+    "id": "SV-077",
+    "name": "Guazapa",
+    "country": "SV",
+    "region": "Northern San Salvador",
+    "domain": "",
+    "osm_relation_id": 9229449
+  },
+  {
+    "id": "SV-078",
+    "name": "Huizúcar",
+    "country": "SV",
+    "region": "Eastern La Libertad",
+    "domain": "",
+    "osm_relation_id": 19563428
+  },
+  {
+    "id": "SV-079",
+    "name": "Ilobasco",
+    "country": "SV",
+    "region": "Western Cabañas",
+    "domain": "alcaldiailobasco.gob.sv",
+    "osm_relation_id": 19560333
+  },
+  {
+    "id": "SV-080",
+    "name": "Ilopango",
+    "country": "SV",
+    "region": "Eastern San Salvador",
+    "domain": "",
+    "osm_relation_id": 8147955
+  },
+  {
+    "id": "SV-081",
+    "name": "Intipucá",
+    "country": "SV",
+    "region": "Southern La Unión",
+    "domain": "",
+    "osm_relation_id": 8283242
+  },
+  {
+    "id": "SV-082",
+    "name": "Izalco",
+    "country": "SV",
+    "region": "Eastern Sonsonate",
+    "domain": "sonsonateeste.gob.sv",
+    "osm_relation_id": 6946258
+  },
+  {
+    "id": "SV-083",
+    "name": "Jayaque",
+    "country": "SV",
+    "region": "Western La Libertad",
+    "domain": "",
+    "osm_relation_id": 7369614
+  },
+  {
+    "id": "SV-084",
+    "name": "Jerusalén",
+    "country": "SV",
+    "region": "Central La Paz",
+    "domain": "",
+    "osm_relation_id": 6594206
+  },
+  {
+    "id": "SV-085",
+    "name": "Jicalapa",
+    "country": "SV",
+    "region": "Coastal La Libertad",
+    "domain": "",
+    "osm_relation_id": 7369369
+  },
+  {
+    "id": "SV-086",
+    "name": "Jiquilisco",
+    "country": "SV",
+    "region": "Western Usulután",
+    "domain": "",
+    "osm_relation_id": 19563792
+  },
+  {
+    "id": "SV-087",
+    "name": "Joateca",
+    "country": "SV",
+    "region": "Northern Morazán",
+    "domain": "",
+    "osm_relation_id": 19560978
+  },
+  {
+    "id": "SV-088",
+    "name": "Jocoaitique",
+    "country": "SV",
+    "region": "Northern Morazán",
+    "domain": "",
+    "osm_relation_id": 19512042
+  },
+  {
+    "id": "SV-089",
+    "name": "Jocoro",
+    "country": "SV",
+    "region": "Southern Morazán",
+    "domain": "",
+    "osm_relation_id": 19560992
+  },
+  {
+    "id": "SV-090",
+    "name": "Juayúa",
+    "country": "SV",
+    "region": "Northern Sonsonate",
+    "domain": "",
+    "osm_relation_id": 6955011
+  },
+  {
+    "id": "SV-091",
+    "name": "Jucuapa",
+    "country": "SV",
+    "region": "Northern Usulután",
+    "domain": "",
+    "osm_relation_id": 19561034
+  },
+  {
+    "id": "SV-092",
+    "name": "Jucuarán",
+    "country": "SV",
+    "region": "Eastern Usulután",
+    "domain": "",
+    "osm_relation_id": 10298565
+  },
+  {
+    "id": "SV-093",
+    "name": "Jujutla",
+    "country": "SV",
+    "region": "Southern Ahuachapán",
+    "domain": "",
+    "osm_relation_id": 6172140
+  },
+  {
+    "id": "SV-094",
+    "name": "Jutiapa",
+    "country": "SV",
+    "region": "Western Cabañas",
+    "domain": "",
+    "osm_relation_id": 19560440
+  },
+  {
+    "id": "SV-095",
+    "name": "La Laguna",
+    "country": "SV",
+    "region": "Southern Chalatenango",
+    "domain": "",
+    "osm_relation_id": 19563606
+  },
+  {
+    "id": "SV-096",
+    "name": "La Libertad",
+    "country": "SV",
+    "region": "Coastal La Libertad",
+    "domain": "",
+    "osm_relation_id": 7369049
+  },
+  {
+    "id": "SV-097",
+    "name": "La Palma",
+    "country": "SV",
+    "region": "Northern Chalatenango",
+    "domain": "",
+    "osm_relation_id": 19563595
+  },
+  {
+    "id": "SV-098",
+    "name": "La Reina",
+    "country": "SV",
+    "region": "Central Chalatenango",
+    "domain": "",
+    "osm_relation_id": 19563578
+  },
+  {
+    "id": "SV-099",
+    "name": "La Unión",
+    "country": "SV",
+    "region": "Southern La Unión",
+    "domain": "",
+    "osm_relation_id": 6553305
+  },
+  {
+    "id": "SV-100",
+    "name": "Las Flores",
+    "country": "SV",
+    "region": "Southern Chalatenango",
+    "domain": "",
+    "osm_relation_id": 19563544
+  },
+  {
+    "id": "SV-101",
+    "name": "Las Vueltas",
+    "country": "SV",
+    "region": "Southern Chalatenango",
+    "domain": "",
+    "osm_relation_id": 19563526
+  },
+  {
+    "id": "SV-102",
+    "name": "Lislique",
+    "country": "SV",
+    "region": "Northern La Unión",
+    "domain": "",
+    "osm_relation_id": 19563797
+  },
+  {
+    "id": "SV-103",
+    "name": "Lolotique",
+    "country": "SV",
+    "region": "Western San Miguel",
+    "domain": "",
+    "osm_relation_id": 19560555
+  },
+  {
+    "id": "SV-104",
+    "name": "Lolotiquillo",
+    "country": "SV",
+    "region": "Southern Morazán",
+    "domain": "",
+    "osm_relation_id": 19561007
+  },
+  {
+    "id": "SV-105",
+    "name": "Masahuat",
+    "country": "SV",
+    "region": "Northern Santa Ana",
+    "domain": "",
+    "osm_relation_id": 6525328
+  },
+  {
+    "id": "SV-106",
+    "name": "Meanguera",
+    "country": "SV",
+    "region": "Northern Morazán",
+    "domain": "",
+    "osm_relation_id": 12017123
+  },
+  {
+    "id": "SV-107",
+    "name": "Meanguera del Golfo",
+    "country": "SV",
+    "region": "Southern La Unión",
+    "domain": "",
+    "osm_relation_id": 19563814
+  },
+  {
+    "id": "SV-108",
+    "name": "Mejicanos",
+    "country": "SV",
+    "region": "Central San Salvador",
+    "domain": "",
+    "osm_relation_id": 6846481
+  },
+  {
+    "id": "SV-109",
+    "name": "Mercedes La Ceiba",
+    "country": "SV",
+    "region": "Central La Paz",
+    "domain": "",
+    "osm_relation_id": 6594216
+  },
+  {
+    "id": "SV-110",
+    "name": "Mercedes Umaña",
+    "country": "SV",
+    "region": "Northern Usulután",
+    "domain": "",
+    "osm_relation_id": 19561039
+  },
+  {
+    "id": "SV-111",
+    "name": "Metapán",
+    "country": "SV",
+    "region": "Northern Santa Ana",
+    "domain": "santaananorte.gob.sv",
+    "osm_relation_id": 6525275
+  },
+  {
+    "id": "SV-112",
+    "name": "Moncagua",
+    "country": "SV",
+    "region": "Central San Miguel",
+    "domain": "",
+    "osm_relation_id": 19560557
+  },
+  {
+    "id": "SV-113",
+    "name": "Monte San Juan",
+    "country": "SV",
+    "region": "Southern Cuscatlán",
+    "domain": "",
+    "osm_relation_id": 19563315
+  },
+  {
+    "id": "SV-114",
+    "name": "Nahuizalco",
+    "country": "SV",
+    "region": "Northern Sonsonate",
+    "domain": "",
+    "osm_relation_id": 13128806
+  },
+  {
+    "id": "SV-115",
+    "name": "Nahulingo",
+    "country": "SV",
+    "region": "Central Sonsonate",
+    "domain": "",
+    "osm_relation_id": 13128761
+  },
+  {
+    "id": "SV-116",
+    "name": "Nejapa",
+    "country": "SV",
+    "region": "Western San Salvador",
+    "domain": "",
+    "osm_relation_id": 9229622
+  },
+  {
+    "id": "SV-117",
+    "name": "Nombre de Jesús",
+    "country": "SV",
+    "region": "Southern Chalatenango",
+    "domain": "",
+    "osm_relation_id": 19563516
+  },
+  {
+    "id": "SV-118",
+    "name": "Nueva Concepción",
+    "country": "SV",
+    "region": "Central Chalatenango",
+    "domain": "",
+    "osm_relation_id": 13287651
+  },
+  {
+    "id": "SV-119",
+    "name": "Nueva Esparta",
+    "country": "SV",
+    "region": "Northern La Unión",
+    "domain": "",
+    "osm_relation_id": 19563910
+  },
+  {
+    "id": "SV-120",
+    "name": "Nueva Granada",
+    "country": "SV",
+    "region": "Northern Usulután",
+    "domain": "",
+    "osm_relation_id": 19561046
+  },
+  {
+    "id": "SV-121",
+    "name": "Nueva Guadalupe",
+    "country": "SV",
+    "region": "Western San Miguel",
+    "domain": "",
+    "osm_relation_id": 19560560
+  },
+  {
+    "id": "SV-122",
+    "name": "Nueva Trinidad",
+    "country": "SV",
+    "region": "Southern Chalatenango",
+    "domain": "",
+    "osm_relation_id": 19563499
+  },
+  {
+    "id": "SV-123",
+    "name": "Nuevo Cuscatlán",
+    "country": "SV",
+    "region": "Eastern La Libertad",
+    "domain": "",
+    "osm_relation_id": 19563431
+  },
+  {
+    "id": "SV-124",
+    "name": "Nuevo Edén de San Juan",
+    "country": "SV",
+    "region": "Northern San Miguel",
+    "domain": "",
+    "osm_relation_id": 19560593
+  },
+  {
+    "id": "SV-125",
+    "name": "Ojos de Agua",
+    "country": "SV",
+    "region": "Southern Chalatenango",
+    "domain": "",
+    "osm_relation_id": 19563450
+  },
+  {
+    "id": "SV-126",
+    "name": "Olocuilta",
+    "country": "SV",
+    "region": "Western La Paz",
+    "domain": "olocuilta.gob.sv",
+    "osm_relation_id": 19563511
+  },
+  {
+    "id": "SV-127",
+    "name": "Oratorio de Concepción",
+    "country": "SV",
+    "region": "Northern Cuscatlán",
+    "domain": "",
+    "osm_relation_id": 9222624
+  },
+  {
+    "id": "SV-128",
+    "name": "Osicala",
+    "country": "SV",
+    "region": "Southern Morazán",
+    "domain": "",
+    "osm_relation_id": 19561035
+  },
+  {
+    "id": "SV-129",
+    "name": "Ozatlán",
+    "country": "SV",
+    "region": "Eastern Usulután",
+    "domain": "",
+    "osm_relation_id": 19563816
+  },
+  {
+    "id": "SV-130",
+    "name": "Panchimalco",
+    "country": "SV",
+    "region": "Southern San Salvador",
+    "domain": "",
+    "osm_relation_id": 13298479
+  },
+  {
+    "id": "SV-131",
+    "name": "Paraíso de Osorio",
+    "country": "SV",
+    "region": "Central La Paz",
+    "domain": "",
+    "osm_relation_id": 8730034
+  },
+  {
+    "id": "SV-132",
+    "name": "Pasaquina",
+    "country": "SV",
+    "region": "Northern La Unión",
+    "domain": "",
+    "osm_relation_id": 8527398
+  },
+  {
+    "id": "SV-133",
+    "name": "Perquín",
+    "country": "SV",
+    "region": "Northern Morazán",
+    "domain": "",
+    "osm_relation_id": 19561041
+  },
+  {
+    "id": "SV-134",
+    "name": "Polorós",
+    "country": "SV",
+    "region": "Northern La Unión",
+    "domain": "",
+    "osm_relation_id": 19564006
+  },
+  {
+    "id": "SV-135",
+    "name": "Potonico",
+    "country": "SV",
+    "region": "Southern Chalatenango",
+    "domain": "",
+    "osm_relation_id": 19563445
+  },
+  {
+    "id": "SV-136",
+    "name": "Puerto El Triunfo",
+    "country": "SV",
+    "region": "Western Usulután",
+    "domain": "",
+    "osm_relation_id": 19564004
+  },
+  {
+    "id": "SV-137",
+    "name": "Rosario de Mora",
+    "country": "SV",
+    "region": "Southern San Salvador",
+    "domain": "",
+    "osm_relation_id": 13298469
+  },
+  {
+    "id": "SV-138",
+    "name": "Sacacoyo",
+    "country": "SV",
+    "region": "Western La Libertad",
+    "domain": "",
+    "osm_relation_id": 19563444
+  },
+  {
+    "id": "SV-139",
+    "name": "Salcoatitán",
+    "country": "SV",
+    "region": "Northern Sonsonate",
+    "domain": "",
+    "osm_relation_id": 6955016
+  },
+  {
+    "id": "SV-140",
+    "name": "San Agustín",
+    "country": "SV",
+    "region": "Western Usulután",
+    "domain": "",
+    "osm_relation_id": 19564016
+  },
+  {
+    "id": "SV-141",
+    "name": "San Alejo",
+    "country": "SV",
+    "region": "Southern La Unión",
+    "domain": "",
+    "osm_relation_id": 8527388
+  },
+  {
+    "id": "SV-142",
+    "name": "San Antonio",
+    "country": "SV",
+    "region": "Northern San Miguel",
+    "domain": "",
+    "osm_relation_id": 19560625
+  },
+  {
+    "id": "SV-143",
+    "name": "San Antonio Los Ranchos",
+    "country": "SV",
+    "region": "Southern Chalatenango",
+    "domain": "",
+    "osm_relation_id": 19563434
+  },
+  {
+    "id": "SV-144",
+    "name": "San Antonio Masahuat",
+    "country": "SV",
+    "region": "Central La Paz",
+    "domain": "",
+    "osm_relation_id": 19563515
+  },
+  {
+    "id": "SV-145",
+    "name": "San Antonio Pajonal",
+    "country": "SV",
+    "region": "Western Santa Ana",
+    "domain": "",
+    "osm_relation_id": 6311426
+  },
+  {
+    "id": "SV-146",
+    "name": "San Antonio de la Cruz",
+    "country": "SV",
+    "region": "Southern Chalatenango",
+    "domain": "",
+    "osm_relation_id": 19563439
+  },
+  {
+    "id": "SV-147",
+    "name": "San Antonio del Monte",
+    "country": "SV",
+    "region": "Central Sonsonate",
+    "domain": "",
+    "osm_relation_id": 13128805
+  },
+  {
+    "id": "SV-148",
+    "name": "San Bartolomé Perulapía",
+    "country": "SV",
+    "region": "Northern Cuscatlán",
+    "domain": "",
+    "osm_relation_id": 9222746
+  },
+  {
+    "id": "SV-149",
+    "name": "San Buenaventura",
+    "country": "SV",
+    "region": "Northern Usulután",
+    "domain": "",
+    "osm_relation_id": 19564042
+  },
+  {
+    "id": "SV-150",
+    "name": "San Carlos",
+    "country": "SV",
+    "region": "Southern Morazán",
+    "domain": "",
+    "osm_relation_id": 8322543
+  },
+  {
+    "id": "SV-151",
+    "name": "San Cayetano Istepeque",
+    "country": "SV",
+    "region": "Southern San Vicente",
+    "domain": "",
+    "osm_relation_id": 19560309
+  },
+  {
+    "id": "SV-152",
+    "name": "San Cristóbal",
+    "country": "SV",
+    "region": "Southern Cuscatlán",
+    "domain": "",
+    "osm_relation_id": 19563319
+  },
+  {
+    "id": "SV-153",
+    "name": "San Dionisio",
+    "country": "SV",
+    "region": "Eastern Usulután",
+    "domain": "",
+    "osm_relation_id": 19564046
+  },
+  {
+    "id": "SV-154",
+    "name": "San Emigdio",
+    "country": "SV",
+    "region": "Central La Paz",
+    "domain": "",
+    "osm_relation_id": 19563518
+  },
+  {
+    "id": "SV-155",
+    "name": "San Esteban Catarina",
+    "country": "SV",
+    "region": "Northern San Vicente",
+    "domain": "",
+    "osm_relation_id": 19560346
+  },
+  {
+    "id": "SV-156",
+    "name": "San Fernando",
+    "country": "SV",
+    "region": "Central Chalatenango",
+    "domain": "",
+    "osm_relation_id": 19560538
+  },
+  {
+    "id": "SV-157",
+    "name": "San Fernando",
+    "country": "SV",
+    "region": "Northern Morazán",
+    "domain": "",
+    "osm_relation_id": 19563617
+  },
+  {
+    "id": "SV-158",
+    "name": "San Francisco Chinameca",
+    "country": "SV",
+    "region": "Western La Paz",
+    "domain": "",
+    "osm_relation_id": 19563519
+  },
+  {
+    "id": "SV-159",
+    "name": "San Francisco Gotera",
+    "country": "SV",
+    "region": "Southern Morazán",
+    "domain": "",
+    "osm_relation_id": 8322749
+  },
+  {
+    "id": "SV-160",
+    "name": "San Francisco Javier",
+    "country": "SV",
+    "region": "Western Usulután",
+    "domain": "",
+    "osm_relation_id": 19564053
+  },
+  {
+    "id": "SV-161",
+    "name": "San Francisco Lempa",
+    "country": "SV",
+    "region": "Southern Chalatenango",
+    "domain": "",
+    "osm_relation_id": 19560532
+  },
+  {
+    "id": "SV-162",
+    "name": "San Francisco Menéndez",
+    "country": "SV",
+    "region": "Southern Ahuachapán",
+    "domain": "",
+    "osm_relation_id": 6172096
+  },
+  {
+    "id": "SV-163",
+    "name": "San Francisco Morazán",
+    "country": "SV",
+    "region": "Central Chalatenango",
+    "domain": "",
+    "osm_relation_id": 19560529
+  },
+  {
+    "id": "SV-164",
+    "name": "San Gerardo",
+    "country": "SV",
+    "region": "Northern San Miguel",
+    "domain": "",
+    "osm_relation_id": 19560641
+  },
+  {
+    "id": "SV-165",
+    "name": "San Ignacio",
+    "country": "SV",
+    "region": "Northern Chalatenango",
+    "domain": "",
+    "osm_relation_id": 13284906
+  },
+  {
+    "id": "SV-166",
+    "name": "San Ildefonso",
+    "country": "SV",
+    "region": "Northern San Vicente",
+    "domain": "",
+    "osm_relation_id": 19560372
+  },
+  {
+    "id": "SV-167",
+    "name": "San Isidro",
+    "country": "SV",
+    "region": "Northern Morazán",
+    "domain": "",
+    "osm_relation_id": 19563651
+  },
+  {
+    "id": "SV-168",
+    "name": "San Isidro",
+    "country": "SV",
+    "region": "Eastern Cabañas",
+    "domain": "",
+    "osm_relation_id": 19560462
+  },
+  {
+    "id": "SV-169",
+    "name": "San Isidro Labrador",
+    "country": "SV",
+    "region": "Southern Chalatenango",
+    "domain": "",
+    "osm_relation_id": 19564347
+  },
+  {
+    "id": "SV-170",
+    "name": "San Jorge",
+    "country": "SV",
+    "region": "Western San Miguel",
+    "domain": "",
+    "osm_relation_id": 19560659
+  },
+  {
+    "id": "SV-171",
+    "name": "San José",
+    "country": "SV",
+    "region": "Northern La Unión",
+    "domain": "",
+    "osm_relation_id": 19564015
+  },
+  {
+    "id": "SV-172",
+    "name": "San José Cancasque",
+    "country": "SV",
+    "region": "Southern Chalatenango",
+    "domain": "",
+    "osm_relation_id": 19563810
+  },
+  {
+    "id": "SV-173",
+    "name": "San José Guayabal",
+    "country": "SV",
+    "region": "Northern Cuscatlán",
+    "domain": "",
+    "osm_relation_id": 9222324
+  },
+  {
+    "id": "SV-174",
+    "name": "San José Villanueva",
+    "country": "SV",
+    "region": "Eastern La Libertad",
+    "domain": "",
+    "osm_relation_id": 19563446
+  },
+  {
+    "id": "SV-175",
+    "name": "San Juan Nonualco",
+    "country": "SV",
+    "region": "Eastern La Paz",
+    "domain": "",
+    "osm_relation_id": 8418051
+  },
+  {
+    "id": "SV-176",
+    "name": "San Juan Opico",
+    "country": "SV",
+    "region": "Central La Libertad",
+    "domain": "",
+    "osm_relation_id": 6575978
+  },
+  {
+    "id": "SV-177",
+    "name": "San Juan Talpa",
+    "country": "SV",
+    "region": "Western La Paz",
+    "domain": "",
+    "osm_relation_id": 8729910
+  },
+  {
+    "id": "SV-178",
+    "name": "San Juan Tepezontes",
+    "country": "SV",
+    "region": "Central La Paz",
+    "domain": "",
+    "osm_relation_id": 19563529
+  },
+  {
+    "id": "SV-179",
+    "name": "San Julián",
+    "country": "SV",
+    "region": "Eastern Sonsonate",
+    "domain": "",
+    "osm_relation_id": 7922757
+  },
+  {
+    "id": "SV-180",
+    "name": "San Lorenzo",
+    "country": "SV",
+    "region": "Northern Ahuachapán",
+    "domain": "",
+    "osm_relation_id": 9395435
+  },
+  {
+    "id": "SV-181",
+    "name": "San Lorenzo",
+    "country": "SV",
+    "region": "Northern San Vicente",
+    "domain": "",
+    "osm_relation_id": 19560397
+  },
+  {
+    "id": "SV-182",
+    "name": "San Luis La Herradura",
+    "country": "SV",
+    "region": "Central La Paz",
+    "domain": "",
+    "osm_relation_id": 6594235
+  },
+  {
+    "id": "SV-183",
+    "name": "San Luis Talpa",
+    "country": "SV",
+    "region": "Western La Paz",
+    "domain": "",
+    "osm_relation_id": 8551728
+  },
+  {
+    "id": "SV-184",
+    "name": "San Luis de la Reina",
+    "country": "SV",
+    "region": "Northern San Miguel",
+    "domain": "",
+    "osm_relation_id": 19560654
+  },
+  {
+    "id": "SV-185",
+    "name": "San Luis del Carmen",
+    "country": "SV",
+    "region": "Southern Chalatenango",
+    "domain": "",
+    "osm_relation_id": 19560485
+  },
+  {
+    "id": "SV-186",
+    "name": "San Marcos",
+    "country": "SV",
+    "region": "Southern San Salvador",
+    "domain": "sansalvadorsur.gob.sv",
+    "osm_relation_id": 6487125
+  },
+  {
+    "id": "SV-187",
+    "name": "San Martín",
+    "country": "SV",
+    "region": "Eastern San Salvador",
+    "domain": "",
+    "osm_relation_id": 8113619
+  },
+  {
+    "id": "SV-188",
+    "name": "San Matías",
+    "country": "SV",
+    "region": "Northern La Libertad",
+    "domain": "",
+    "osm_relation_id": 6669092
+  },
+  {
+    "id": "SV-189",
+    "name": "San Miguel",
+    "country": "SV",
+    "region": "Central San Miguel",
+    "domain": "sanmiguel.gob.sv",
+    "osm_relation_id": 19560713
+  },
+  {
+    "id": "SV-190",
+    "name": "San Miguel Tepezontes",
+    "country": "SV",
+    "region": "Central La Paz",
+    "domain": "",
+    "osm_relation_id": 19563540
+  },
+  {
+    "id": "SV-191",
+    "name": "San Miguel de Mercedes",
+    "country": "SV",
+    "region": "Southern Chalatenango",
+    "domain": "",
+    "osm_relation_id": 19560456
+  },
+  {
+    "id": "SV-192",
+    "name": "San Pablo Tacachico",
+    "country": "SV",
+    "region": "Northern La Libertad",
+    "domain": "",
+    "osm_relation_id": 6669083
+  },
+  {
+    "id": "SV-193",
+    "name": "San Pedro Masahuat",
+    "country": "SV",
+    "region": "Western La Paz",
+    "domain": "",
+    "osm_relation_id": 19563580
+  },
+  {
+    "id": "SV-194",
+    "name": "San Pedro Nonualco",
+    "country": "SV",
+    "region": "Central La Paz",
+    "domain": "",
+    "osm_relation_id": 8592737
+  },
+  {
+    "id": "SV-195",
+    "name": "San Pedro Perulapán",
+    "country": "SV",
+    "region": "Northern Cuscatlán",
+    "domain": "",
+    "osm_relation_id": 19563341
+  },
+  {
+    "id": "SV-196",
+    "name": "San Pedro Puxtla",
+    "country": "SV",
+    "region": "Southern Ahuachapán",
+    "domain": "",
+    "osm_relation_id": 6626627
+  },
+  {
+    "id": "SV-197",
+    "name": "San Rafael",
+    "country": "SV",
+    "region": "Central Chalatenango",
+    "domain": "",
+    "osm_relation_id": 19560447
+  },
+  {
+    "id": "SV-198",
+    "name": "San Rafael Cedros",
+    "country": "SV",
+    "region": "Southern Cuscatlán",
+    "domain": "",
+    "osm_relation_id": 19563345
+  },
+  {
+    "id": "SV-199",
+    "name": "San Rafael Obrajuelo",
+    "country": "SV",
+    "region": "Eastern La Paz",
+    "domain": "",
+    "osm_relation_id": 19563583
+  },
+  {
+    "id": "SV-200",
+    "name": "San Rafael Oriente",
+    "country": "SV",
+    "region": "Western San Miguel",
+    "domain": "",
+    "osm_relation_id": 19560721
+  },
+  {
+    "id": "SV-201",
+    "name": "San Ramón",
+    "country": "SV",
+    "region": "Southern Cuscatlán",
+    "domain": "",
+    "osm_relation_id": 9222765
+  },
+  {
+    "id": "SV-202",
+    "name": "San Salvador",
+    "country": "SV",
+    "region": "Central San Salvador",
+    "domain": "sansalvador.gob.sv",
+    "osm_relation_id": 6462027
+  },
+  {
+    "id": "SV-203",
+    "name": "San Sebastián",
+    "country": "SV",
+    "region": "Northern San Vicente",
+    "domain": "",
+    "osm_relation_id": 19560415
+  },
+  {
+    "id": "SV-204",
+    "name": "San Sebastián Salitrillo",
+    "country": "SV",
+    "region": "Western Santa Ana",
+    "domain": "",
+    "osm_relation_id": 6094976
+  },
+  {
+    "id": "SV-205",
+    "name": "San Simón",
+    "country": "SV",
+    "region": "Southern Morazán",
+    "domain": "",
+    "osm_relation_id": 19563793
+  },
+  {
+    "id": "SV-206",
+    "name": "San Vicente",
+    "country": "SV",
+    "region": "Southern San Vicente",
+    "domain": "",
+    "osm_relation_id": 19560481
+  },
+  {
+    "id": "SV-207",
+    "name": "Santa Ana",
+    "country": "SV",
+    "region": "Central Santa Ana",
+    "domain": "santaana.gob.sv",
+    "osm_relation_id": 5901411
+  },
+  {
+    "id": "SV-208",
+    "name": "Santa Catarina Masahuat",
+    "country": "SV",
+    "region": "Northern Sonsonate",
+    "domain": "",
+    "osm_relation_id": 13128730
+  },
+  {
+    "id": "SV-209",
+    "name": "Santa Clara",
+    "country": "SV",
+    "region": "Northern San Vicente",
+    "domain": "",
+    "osm_relation_id": 19560496
+  },
+  {
+    "id": "SV-210",
+    "name": "Santa Cruz Analquito",
+    "country": "SV",
+    "region": "Southern Cuscatlán",
+    "domain": "",
+    "osm_relation_id": 8022699
+  },
+  {
+    "id": "SV-211",
+    "name": "Santa Cruz Michapa",
+    "country": "SV",
+    "region": "Southern Cuscatlán",
+    "domain": "",
+    "osm_relation_id": 19563354
+  },
+  {
+    "id": "SV-212",
+    "name": "Santa Elena",
+    "country": "SV",
+    "region": "Eastern Usulután",
+    "domain": "",
+    "osm_relation_id": 19564062
+  },
+  {
+    "id": "SV-213",
+    "name": "Santa Isabel Ishuatán",
+    "country": "SV",
+    "region": "Eastern Sonsonate",
+    "domain": "",
+    "osm_relation_id": 6832812
+  },
+  {
+    "id": "SV-214",
+    "name": "Santa María",
+    "country": "SV",
+    "region": "Eastern Usulután",
+    "domain": "",
+    "osm_relation_id": 19564066
+  },
+  {
+    "id": "SV-215",
+    "name": "Santa María Ostuma",
+    "country": "SV",
+    "region": "Central La Paz",
+    "domain": "",
+    "osm_relation_id": 8729975
+  },
+  {
+    "id": "SV-216",
+    "name": "Santa Rita",
+    "country": "SV",
+    "region": "Central Chalatenango",
+    "domain": "",
+    "osm_relation_id": 19560436
+  },
+  {
+    "id": "SV-217",
+    "name": "Santa Rosa Guachipilín",
+    "country": "SV",
+    "region": "Northern Santa Ana",
+    "domain": "",
+    "osm_relation_id": 6525316
+  },
+  {
+    "id": "SV-218",
+    "name": "Santa Rosa de Lima",
+    "country": "SV",
+    "region": "Northern La Unión",
+    "domain": "",
+    "osm_relation_id": 19564018
+  },
+  {
+    "id": "SV-219",
+    "name": "Santa Tecla",
+    "country": "SV",
+    "region": "Southern La Libertad",
+    "domain": "lalibertadsur.gob.sv",
+    "osm_relation_id": 8705400
+  },
+  {
+    "id": "SV-220",
+    "name": "Santiago Nonualco",
+    "country": "SV",
+    "region": "Central La Paz",
+    "domain": "",
+    "osm_relation_id": 19563614
+  },
+  {
+    "id": "SV-221",
+    "name": "Santiago Texacuangos",
+    "country": "SV",
+    "region": "Southern San Salvador",
+    "domain": "",
+    "osm_relation_id": 8147940
+  },
+  {
+    "id": "SV-222",
+    "name": "Santiago de María",
+    "country": "SV",
+    "region": "Northern Usulután",
+    "domain": "",
+    "osm_relation_id": 19564069
+  },
+  {
+    "id": "SV-223",
+    "name": "Santiago de la Frontera",
+    "country": "SV",
+    "region": "Western Santa Ana",
+    "domain": "",
+    "osm_relation_id": 8527319
+  },
+  {
+    "id": "SV-224",
+    "name": "Santo Domingo",
+    "country": "SV",
+    "region": "Northern San Vicente",
+    "domain": "",
+    "osm_relation_id": 19560505
+  },
+  {
+    "id": "SV-225",
+    "name": "Santo Domingo de Guzmán",
+    "country": "SV",
+    "region": "Central Sonsonate",
+    "domain": "",
+    "osm_relation_id": 13128734
+  },
+  {
+    "id": "SV-226",
+    "name": "Santo Tomás",
+    "country": "SV",
+    "region": "Southern San Salvador",
+    "domain": "",
+    "osm_relation_id": 8147932
+  },
+  {
+    "id": "SV-227",
+    "name": "Sensembra",
+    "country": "SV",
+    "region": "Southern Morazán",
+    "domain": "",
+    "osm_relation_id": 19563809
+  },
+  {
+    "id": "SV-228",
+    "name": "Sensuntepeque",
+    "country": "SV",
+    "region": "Eastern Cabañas",
+    "domain": "",
+    "osm_relation_id": 19560495
+  },
+  {
+    "id": "SV-229",
+    "name": "Sesori",
+    "country": "SV",
+    "region": "Northern San Miguel",
+    "domain": "",
+    "osm_relation_id": 19560734
+  },
+  {
+    "id": "SV-230",
+    "name": "Sociedad",
+    "country": "SV",
+    "region": "Southern Morazán",
+    "domain": "",
+    "osm_relation_id": 19563906
+  },
+  {
+    "id": "SV-231",
+    "name": "Sonsonate",
+    "country": "SV",
+    "region": "Central Sonsonate",
+    "domain": "alcaldiadesonsonate.gob.sv",
+    "osm_relation_id": 13128797
+  },
+  {
+    "id": "SV-232",
+    "name": "Sonzacate",
+    "country": "SV",
+    "region": "Central Sonsonate",
+    "domain": "",
+    "osm_relation_id": 13128820
+  },
+  {
+    "id": "SV-233",
+    "name": "Soyapango",
+    "country": "SV",
+    "region": "Eastern San Salvador",
+    "domain": "alcaldiasansalvadoreste.gob.sv",
+    "osm_relation_id": 8148131
+  },
+  {
+    "id": "SV-234",
+    "name": "Suchitoto",
+    "country": "SV",
+    "region": "Northern Cuscatlán",
+    "domain": "",
+    "osm_relation_id": 9222262
+  },
+  {
+    "id": "SV-235",
+    "name": "Tacuba",
+    "country": "SV",
+    "region": "Central Ahuachapán",
+    "domain": "",
+    "osm_relation_id": 6172141
+  },
+  {
+    "id": "SV-236",
+    "name": "Talnique",
+    "country": "SV",
+    "region": "Western La Libertad",
+    "domain": "",
+    "osm_relation_id": 19563447
+  },
+  {
+    "id": "SV-237",
+    "name": "Tamanique",
+    "country": "SV",
+    "region": "Coastal La Libertad",
+    "domain": "tamanique.gob.sv",
+    "osm_relation_id": 7369200
+  },
+  {
+    "id": "SV-238",
+    "name": "Tapalhuaca",
+    "country": "SV",
+    "region": "Western La Paz",
+    "domain": "",
+    "osm_relation_id": 19563618
+  },
+  {
+    "id": "SV-239",
+    "name": "Tecapán",
+    "country": "SV",
+    "region": "Eastern Usulután",
+    "domain": "",
+    "osm_relation_id": 19564074
+  },
+  {
+    "id": "SV-240",
+    "name": "Tecoluca",
+    "country": "SV",
+    "region": "Southern San Vicente",
+    "domain": "",
+    "osm_relation_id": 19560518
+  },
+  {
+    "id": "SV-241",
+    "name": "Tejutepeque",
+    "country": "SV",
+    "region": "Western Cabañas",
+    "domain": "",
+    "osm_relation_id": 19560504
+  },
+  {
+    "id": "SV-242",
+    "name": "Tejutla",
+    "country": "SV",
+    "region": "Central Chalatenango",
+    "domain": "",
+    "osm_relation_id": 19560399
+  },
+  {
+    "id": "SV-243",
+    "name": "Tenancingo",
+    "country": "SV",
+    "region": "Southern Cuscatlán",
+    "domain": "",
+    "osm_relation_id": 19563369
+  },
+  {
+    "id": "SV-244",
+    "name": "Teotepeque",
+    "country": "SV",
+    "region": "Coastal La Libertad",
+    "domain": "",
+    "osm_relation_id": 6637187
+  },
+  {
+    "id": "SV-245",
+    "name": "Tepecoyo",
+    "country": "SV",
+    "region": "Western La Libertad",
+    "domain": "",
+    "osm_relation_id": 7369464
+  },
+  {
+    "id": "SV-246",
+    "name": "Tepetitán",
+    "country": "SV",
+    "region": "Southern San Vicente",
+    "domain": "",
+    "osm_relation_id": 19560531
+  },
+  {
+    "id": "SV-247",
+    "name": "Texistepeque",
+    "country": "SV",
+    "region": "Northern Santa Ana",
+    "domain": "",
+    "osm_relation_id": 8527293
+  },
+  {
+    "id": "SV-248",
+    "name": "Tonacatepeque",
+    "country": "SV",
+    "region": "Eastern San Salvador",
+    "domain": "",
+    "osm_relation_id": 9229437
+  },
+  {
+    "id": "SV-249",
+    "name": "Torola",
+    "country": "SV",
+    "region": "Northern Morazán",
+    "domain": "",
+    "osm_relation_id": 19563912
+  },
+  {
+    "id": "SV-250",
+    "name": "Turín",
+    "country": "SV",
+    "region": "Northern Ahuachapán",
+    "domain": "",
+    "osm_relation_id": 6744519
+  },
+  {
+    "id": "SV-251",
+    "name": "Uluazapa",
+    "country": "SV",
+    "region": "Central San Miguel",
+    "domain": "",
+    "osm_relation_id": 19560737
+  },
+  {
+    "id": "SV-252",
+    "name": "Usulután",
+    "country": "SV",
+    "region": "Eastern Usulután",
+    "domain": "usulutan.gob.sv",
+    "osm_relation_id": 19566995
+  },
+  {
+    "id": "SV-253",
+    "name": "Verapaz",
+    "country": "SV",
+    "region": "Southern San Vicente",
+    "domain": "",
+    "osm_relation_id": 19560536
+  },
+  {
+    "id": "SV-254",
+    "name": "Victoria",
+    "country": "SV",
+    "region": "Eastern Cabañas",
+    "domain": "",
+    "osm_relation_id": 19560526
+  },
+  {
+    "id": "SV-255",
+    "name": "Yamabal",
+    "country": "SV",
+    "region": "Southern Morazán",
+    "domain": "",
+    "osm_relation_id": 19564005
+  },
+  {
+    "id": "SV-256",
+    "name": "Yayantique",
+    "country": "SV",
+    "region": "Southern La Unión",
+    "domain": "",
+    "osm_relation_id": 8283266
+  },
+  {
+    "id": "SV-257",
+    "name": "Yoloaiquín",
+    "country": "SV",
+    "region": "Southern Morazán",
+    "domain": "",
+    "osm_relation_id": 19560316
+  },
+  {
+    "id": "SV-258",
+    "name": "Yucuaiquín",
+    "country": "SV",
+    "region": "Southern La Unión",
+    "domain": "",
+    "osm_relation_id": 8527399
+  },
+  {
+    "id": "SV-259",
+    "name": "Zacatecoluca",
+    "country": "SV",
+    "region": "Eastern La Paz",
+    "domain": "",
+    "osm_relation_id": 8434190
+  },
+  {
+    "id": "SV-260",
+    "name": "Zaragoza",
+    "country": "SV",
+    "region": "Eastern La Libertad",
+    "domain": "zaragoza.gob.sv",
+    "osm_relation_id": 19563470
+  }
+]

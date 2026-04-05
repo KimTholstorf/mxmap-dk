@@ -1,0 +1,2378 @@
+[
+  {
+    "id": "HN-001",
+    "name": "Aguanqueterique",
+    "country": "HN",
+    "region": "La Paz Department",
+    "domain": "",
+    "osm_relation_id": 15718056
+  },
+  {
+    "id": "HN-002",
+    "name": "Ahuas",
+    "country": "HN",
+    "region": "Gracias a Dios Department",
+    "domain": "",
+    "osm_relation_id": 6050273
+  },
+  {
+    "id": "HN-003",
+    "name": "Ajuterique",
+    "country": "HN",
+    "region": "Comayagua Department",
+    "domain": "",
+    "osm_relation_id": 12108945
+  },
+  {
+    "id": "HN-004",
+    "name": "Alauca",
+    "country": "HN",
+    "region": "El Paraíso Department",
+    "domain": "",
+    "osm_relation_id": 16101512
+  },
+  {
+    "id": "HN-005",
+    "name": "Alianza",
+    "country": "HN",
+    "region": "Valle Department",
+    "domain": "",
+    "osm_relation_id": 10480253
+  },
+  {
+    "id": "HN-006",
+    "name": "Alubarén",
+    "country": "HN",
+    "region": "Francisco Morazán Department",
+    "domain": "",
+    "osm_relation_id": 11755127
+  },
+  {
+    "id": "HN-007",
+    "name": "Amapala",
+    "country": "HN",
+    "region": "Valle Department",
+    "domain": "",
+    "osm_relation_id": 10568007
+  },
+  {
+    "id": "HN-008",
+    "name": "Apacilagua",
+    "country": "HN",
+    "region": "Choluteca Department",
+    "domain": "",
+    "osm_relation_id": 16167685
+  },
+  {
+    "id": "HN-009",
+    "name": "Arada",
+    "country": "HN",
+    "region": "Santa Bárbara Department",
+    "domain": "",
+    "osm_relation_id": 16099627
+  },
+  {
+    "id": "HN-010",
+    "name": "Aramecina",
+    "country": "HN",
+    "region": "Valle Department",
+    "domain": "",
+    "osm_relation_id": 13776589
+  },
+  {
+    "id": "HN-011",
+    "name": "Arenal",
+    "country": "HN",
+    "region": "Yoro Department",
+    "domain": "",
+    "osm_relation_id": 13779276
+  },
+  {
+    "id": "HN-012",
+    "name": "Arizona",
+    "country": "HN",
+    "region": "Atlántida Department",
+    "domain": "",
+    "osm_relation_id": 6050869
+  },
+  {
+    "id": "HN-013",
+    "name": "Atima",
+    "country": "HN",
+    "region": "Santa Bárbara Department",
+    "domain": "",
+    "osm_relation_id": 16093188
+  },
+  {
+    "id": "HN-014",
+    "name": "Azacualpa",
+    "country": "HN",
+    "region": "Santa Bárbara Department",
+    "domain": "",
+    "osm_relation_id": 16089369
+  },
+  {
+    "id": "HN-015",
+    "name": "Balfate",
+    "country": "HN",
+    "region": "Colón Department",
+    "domain": "",
+    "osm_relation_id": 6049786
+  },
+  {
+    "id": "HN-016",
+    "name": "Belén",
+    "country": "HN",
+    "region": "Lempira Department",
+    "domain": "",
+    "osm_relation_id": 11727217
+  },
+  {
+    "id": "HN-017",
+    "name": "Belén Gualcho",
+    "country": "HN",
+    "region": "Ocotepeque Department",
+    "domain": "",
+    "osm_relation_id": 11703683
+  },
+  {
+    "id": "HN-018",
+    "name": "Bonito Oriental",
+    "country": "HN",
+    "region": "Colón Department",
+    "domain": "",
+    "osm_relation_id": 6042433
+  },
+  {
+    "id": "HN-019",
+    "name": "Brus Laguna",
+    "country": "HN",
+    "region": "Gracias a Dios Department",
+    "domain": "",
+    "osm_relation_id": 6050265
+  },
+  {
+    "id": "HN-020",
+    "name": "Cabañas",
+    "country": "HN",
+    "region": "La Paz Department",
+    "domain": "",
+    "osm_relation_id": 15737470
+  },
+  {
+    "id": "HN-021",
+    "name": "Cabañas",
+    "country": "HN",
+    "region": "Copán Department",
+    "domain": "",
+    "osm_relation_id": 15694793
+  },
+  {
+    "id": "HN-022",
+    "name": "Camasca",
+    "country": "HN",
+    "region": "Intibucá Department",
+    "domain": "",
+    "osm_relation_id": 15713797
+  },
+  {
+    "id": "HN-023",
+    "name": "Campamento",
+    "country": "HN",
+    "region": "Olancho Department",
+    "domain": "",
+    "osm_relation_id": 13743601
+  },
+  {
+    "id": "HN-024",
+    "name": "Candelaria",
+    "country": "HN",
+    "region": "Lempira Department",
+    "domain": "",
+    "osm_relation_id": 10922977
+  },
+  {
+    "id": "HN-025",
+    "name": "Cane",
+    "country": "HN",
+    "region": "La Paz Department",
+    "domain": "",
+    "osm_relation_id": 13783202
+  },
+  {
+    "id": "HN-026",
+    "name": "Caridad",
+    "country": "HN",
+    "region": "Valle Department",
+    "domain": "",
+    "osm_relation_id": 13775535
+  },
+  {
+    "id": "HN-027",
+    "name": "Catacamas",
+    "country": "HN",
+    "region": "Olancho Department",
+    "domain": "catacamas.net",
+    "osm_relation_id": 13739907
+  },
+  {
+    "id": "HN-028",
+    "name": "Cedros",
+    "country": "HN",
+    "region": "Francisco Morazán Department",
+    "domain": "",
+    "osm_relation_id": 13760435
+  },
+  {
+    "id": "HN-029",
+    "name": "Ceguaca",
+    "country": "HN",
+    "region": "Santa Bárbara Department",
+    "domain": "",
+    "osm_relation_id": 16099566
+  },
+  {
+    "id": "HN-030",
+    "name": "Chinacla",
+    "country": "HN",
+    "region": "La Paz Department",
+    "domain": "",
+    "osm_relation_id": 15722654
+  },
+  {
+    "id": "HN-031",
+    "name": "Chinda",
+    "country": "HN",
+    "region": "Santa Bárbara Department",
+    "domain": "",
+    "osm_relation_id": 16093236
+  },
+  {
+    "id": "HN-032",
+    "name": "Choloma",
+    "country": "HN",
+    "region": "Cortés Department",
+    "domain": "choloma.hn",
+    "osm_relation_id": 6055183
+  },
+  {
+    "id": "HN-033",
+    "name": "Choluteca",
+    "country": "HN",
+    "region": "Choluteca Department",
+    "domain": "",
+    "osm_relation_id": 16161140
+  },
+  {
+    "id": "HN-034",
+    "name": "Cololaca",
+    "country": "HN",
+    "region": "Lempira Department",
+    "domain": "",
+    "osm_relation_id": 10923254
+  },
+  {
+    "id": "HN-035",
+    "name": "Colomoncagua",
+    "country": "HN",
+    "region": "Intibucá Department",
+    "domain": "",
+    "osm_relation_id": 15713393
+  },
+  {
+    "id": "HN-036",
+    "name": "Comayagua",
+    "country": "HN",
+    "region": "Comayagua Department",
+    "domain": "amcomayagua.com",
+    "osm_relation_id": 12110080
+  },
+  {
+    "id": "HN-037",
+    "name": "Concepción",
+    "country": "HN",
+    "region": "Copán Department",
+    "domain": "",
+    "osm_relation_id": 15695131
+  },
+  {
+    "id": "HN-038",
+    "name": "Concepción",
+    "country": "HN",
+    "region": "Intibucá Department",
+    "domain": "concepcionintibuca.blogspot.com",
+    "osm_relation_id": 15713190
+  },
+  {
+    "id": "HN-039",
+    "name": "Concepción",
+    "country": "HN",
+    "region": "Ocotepeque Department",
+    "domain": "",
+    "osm_relation_id": 11683927
+  },
+  {
+    "id": "HN-040",
+    "name": "Concepción del Norte",
+    "country": "HN",
+    "region": "Santa Bárbara Department",
+    "domain": "",
+    "osm_relation_id": 16093278
+  },
+  {
+    "id": "HN-041",
+    "name": "Concepción del Sur",
+    "country": "HN",
+    "region": "Santa Bárbara Department",
+    "domain": "",
+    "osm_relation_id": 16099567
+  },
+  {
+    "id": "HN-042",
+    "name": "Concordia",
+    "country": "HN",
+    "region": "Olancho Department",
+    "domain": "",
+    "osm_relation_id": 13744486
+  },
+  {
+    "id": "HN-043",
+    "name": "Copán Ruinas",
+    "country": "HN",
+    "region": "Copán Department",
+    "domain": "",
+    "osm_relation_id": 15694966
+  },
+  {
+    "id": "HN-044",
+    "name": "Corquín",
+    "country": "HN",
+    "region": "Copán Department",
+    "domain": "",
+    "osm_relation_id": 15691521
+  },
+  {
+    "id": "HN-045",
+    "name": "Coxen Hole",
+    "country": "HN",
+    "region": "Bay Islands Department",
+    "domain": "",
+    "osm_relation_id": 3146641
+  },
+  {
+    "id": "HN-046",
+    "name": "Cucuyagua",
+    "country": "HN",
+    "region": "Copán Department",
+    "domain": "",
+    "osm_relation_id": 15691563
+  },
+  {
+    "id": "HN-047",
+    "name": "Curarén",
+    "country": "HN",
+    "region": "Francisco Morazán Department",
+    "domain": "",
+    "osm_relation_id": 11761766
+  },
+  {
+    "id": "HN-048",
+    "name": "Danlí",
+    "country": "HN",
+    "region": "El Paraíso Department",
+    "domain": "",
+    "osm_relation_id": 15738166
+  },
+  {
+    "id": "HN-049",
+    "name": "Distrito Central",
+    "country": "HN",
+    "region": "Francisco Morazán Department",
+    "domain": "amdc.hn",
+    "osm_relation_id": 11734396
+  },
+  {
+    "id": "HN-050",
+    "name": "Dolores",
+    "country": "HN",
+    "region": "Intibucá Department",
+    "domain": "",
+    "osm_relation_id": 15710499
+  },
+  {
+    "id": "HN-051",
+    "name": "Dolores",
+    "country": "HN",
+    "region": "Copán Department",
+    "domain": "",
+    "osm_relation_id": 15695294
+  },
+  {
+    "id": "HN-052",
+    "name": "Dolores Merendón",
+    "country": "HN",
+    "region": "Ocotepeque Department",
+    "domain": "",
+    "osm_relation_id": 11684960
+  },
+  {
+    "id": "HN-053",
+    "name": "Dulce Nombre",
+    "country": "HN",
+    "region": "Copán Department",
+    "domain": "",
+    "osm_relation_id": 15695280
+  },
+  {
+    "id": "HN-054",
+    "name": "Dulce Nombre de Culmí",
+    "country": "HN",
+    "region": "Olancho Department",
+    "domain": "",
+    "osm_relation_id": 13741420
+  },
+  {
+    "id": "HN-055",
+    "name": "Duyure",
+    "country": "HN",
+    "region": "Choluteca Department",
+    "domain": "",
+    "osm_relation_id": 16167703
+  },
+  {
+    "id": "HN-056",
+    "name": "El Corpus",
+    "country": "HN",
+    "region": "Choluteca Department",
+    "domain": "",
+    "osm_relation_id": 16172486
+  },
+  {
+    "id": "HN-057",
+    "name": "El Negrito",
+    "country": "HN",
+    "region": "Yoro Department",
+    "domain": "",
+    "osm_relation_id": 13780338
+  },
+  {
+    "id": "HN-058",
+    "name": "El Níspero",
+    "country": "HN",
+    "region": "Santa Bárbara Department",
+    "domain": "",
+    "osm_relation_id": 16099576
+  },
+  {
+    "id": "HN-059",
+    "name": "El Paraíso",
+    "country": "HN",
+    "region": "El Paraíso Department",
+    "domain": "",
+    "osm_relation_id": 16101401
+  },
+  {
+    "id": "HN-060",
+    "name": "El Paraíso",
+    "country": "HN",
+    "region": "Copán Department",
+    "domain": "",
+    "osm_relation_id": 15695596
+  },
+  {
+    "id": "HN-061",
+    "name": "El Porvenir",
+    "country": "HN",
+    "region": "Atlántida Department",
+    "domain": "",
+    "osm_relation_id": 6051857
+  },
+  {
+    "id": "HN-062",
+    "name": "El Porvenir",
+    "country": "HN",
+    "region": "Francisco Morazán Department",
+    "domain": "",
+    "osm_relation_id": 13759876
+  },
+  {
+    "id": "HN-063",
+    "name": "El Progreso",
+    "country": "HN",
+    "region": "Yoro Department",
+    "domain": "munielprogreso.hn",
+    "osm_relation_id": 13780236
+  },
+  {
+    "id": "HN-064",
+    "name": "El Rosario",
+    "country": "HN",
+    "region": "Olancho Department",
+    "domain": "",
+    "osm_relation_id": 13749487
+  },
+  {
+    "id": "HN-065",
+    "name": "El Rosario",
+    "country": "HN",
+    "region": "Comayagua Department",
+    "domain": "",
+    "osm_relation_id": 12108948
+  },
+  {
+    "id": "HN-066",
+    "name": "El Triunfo",
+    "country": "HN",
+    "region": "Choluteca Department",
+    "domain": "",
+    "osm_relation_id": 16172607
+  },
+  {
+    "id": "HN-067",
+    "name": "Erandique",
+    "country": "HN",
+    "region": "Lempira Department",
+    "domain": "",
+    "osm_relation_id": 10924515
+  },
+  {
+    "id": "HN-068",
+    "name": "Esparta",
+    "country": "HN",
+    "region": "Atlántida Department",
+    "domain": "",
+    "osm_relation_id": 6051548
+  },
+  {
+    "id": "HN-069",
+    "name": "Esquipulas del Norte",
+    "country": "HN",
+    "region": "Olancho Department",
+    "domain": "",
+    "osm_relation_id": 13752221
+  },
+  {
+    "id": "HN-070",
+    "name": "Esquías",
+    "country": "HN",
+    "region": "Comayagua Department",
+    "domain": "",
+    "osm_relation_id": 12108531
+  },
+  {
+    "id": "HN-071",
+    "name": "Florida",
+    "country": "HN",
+    "region": "Copán Department",
+    "domain": "",
+    "osm_relation_id": 15695709
+  },
+  {
+    "id": "HN-072",
+    "name": "Fraternidad",
+    "country": "HN",
+    "region": "Ocotepeque Department",
+    "domain": "",
+    "osm_relation_id": 11696549
+  },
+  {
+    "id": "HN-073",
+    "name": "Goascorán",
+    "country": "HN",
+    "region": "Valle Department",
+    "domain": "migoascoran.com",
+    "osm_relation_id": 13776672
+  },
+  {
+    "id": "HN-074",
+    "name": "Gracias",
+    "country": "HN",
+    "region": "Lempira Department",
+    "domain": "",
+    "osm_relation_id": 11722036
+  },
+  {
+    "id": "HN-075",
+    "name": "Guaimaca",
+    "country": "HN",
+    "region": "Francisco Morazán Department",
+    "domain": "",
+    "osm_relation_id": 13759992
+  },
+  {
+    "id": "HN-076",
+    "name": "Guajiquiro",
+    "country": "HN",
+    "region": "La Paz Department",
+    "domain": "",
+    "osm_relation_id": 15724554
+  },
+  {
+    "id": "HN-077",
+    "name": "Gualaco",
+    "country": "HN",
+    "region": "Olancho Department",
+    "domain": "",
+    "osm_relation_id": 13747688
+  },
+  {
+    "id": "HN-078",
+    "name": "Gualala",
+    "country": "HN",
+    "region": "Santa Bárbara Department",
+    "domain": "",
+    "osm_relation_id": 16093337
+  },
+  {
+    "id": "HN-079",
+    "name": "Gualcince",
+    "country": "HN",
+    "region": "Lempira Department",
+    "domain": "",
+    "osm_relation_id": 10923476
+  },
+  {
+    "id": "HN-080",
+    "name": "Guanaja",
+    "country": "HN",
+    "region": "Bay Islands Department",
+    "domain": "",
+    "osm_relation_id": 5989995
+  },
+  {
+    "id": "HN-081",
+    "name": "Guarita",
+    "country": "HN",
+    "region": "Lempira Department",
+    "domain": "",
+    "osm_relation_id": 10922998
+  },
+  {
+    "id": "HN-082",
+    "name": "Guarizama",
+    "country": "HN",
+    "region": "Olancho Department",
+    "domain": "",
+    "osm_relation_id": 13741136
+  },
+  {
+    "id": "HN-083",
+    "name": "Guata",
+    "country": "HN",
+    "region": "Olancho Department",
+    "domain": "",
+    "osm_relation_id": 13752015
+  },
+  {
+    "id": "HN-084",
+    "name": "Guayape",
+    "country": "HN",
+    "region": "Olancho Department",
+    "domain": "",
+    "osm_relation_id": 13749468
+  },
+  {
+    "id": "HN-085",
+    "name": "Güinope",
+    "country": "HN",
+    "region": "El Paraíso Department",
+    "domain": "",
+    "osm_relation_id": 16248927
+  },
+  {
+    "id": "HN-086",
+    "name": "Humuya",
+    "country": "HN",
+    "region": "Comayagua Department",
+    "domain": "",
+    "osm_relation_id": 12110078
+  },
+  {
+    "id": "HN-087",
+    "name": "Ilama",
+    "country": "HN",
+    "region": "Santa Bárbara Department",
+    "domain": "",
+    "osm_relation_id": 16093310
+  },
+  {
+    "id": "HN-088",
+    "name": "Intibucá",
+    "country": "HN",
+    "region": "Intibucá Department",
+    "domain": "",
+    "osm_relation_id": 10554980
+  },
+  {
+    "id": "HN-089",
+    "name": "Iriona",
+    "country": "HN",
+    "region": "Colón Department",
+    "domain": "",
+    "osm_relation_id": 6050098
+  },
+  {
+    "id": "HN-090",
+    "name": "Jacaleapa",
+    "country": "HN",
+    "region": "El Paraíso Department",
+    "domain": "",
+    "osm_relation_id": 16248478
+  },
+  {
+    "id": "HN-091",
+    "name": "Jano",
+    "country": "HN",
+    "region": "Olancho Department",
+    "domain": "",
+    "osm_relation_id": 13753173
+  },
+  {
+    "id": "HN-092",
+    "name": "Jesús de Otoro",
+    "country": "HN",
+    "region": "Intibucá Department",
+    "domain": "",
+    "osm_relation_id": 15700622
+  },
+  {
+    "id": "HN-093",
+    "name": "Jocón",
+    "country": "HN",
+    "region": "Yoro Department",
+    "domain": "",
+    "osm_relation_id": 13779584
+  },
+  {
+    "id": "HN-094",
+    "name": "José Santos Guardiola",
+    "country": "HN",
+    "region": "Bay Islands Department",
+    "domain": "",
+    "osm_relation_id": 10554182
+  },
+  {
+    "id": "HN-095",
+    "name": "Juan Francisco Bulnes",
+    "country": "HN",
+    "region": "Gracias a Dios Department",
+    "domain": "",
+    "osm_relation_id": 6050246
+  },
+  {
+    "id": "HN-096",
+    "name": "Jutiapa",
+    "country": "HN",
+    "region": "Atlántida Department",
+    "domain": "",
+    "osm_relation_id": 6054028
+  },
+  {
+    "id": "HN-097",
+    "name": "Juticalpa",
+    "country": "HN",
+    "region": "Olancho Department",
+    "domain": "",
+    "osm_relation_id": 13747841
+  },
+  {
+    "id": "HN-098",
+    "name": "La Campa",
+    "country": "HN",
+    "region": "Lempira Department",
+    "domain": "",
+    "osm_relation_id": 10948809
+  },
+  {
+    "id": "HN-099",
+    "name": "La Ceiba",
+    "country": "HN",
+    "region": "Atlántida Department",
+    "domain": "",
+    "osm_relation_id": 6054029
+  },
+  {
+    "id": "HN-100",
+    "name": "La Encarnación",
+    "country": "HN",
+    "region": "Ocotepeque Department",
+    "domain": "",
+    "osm_relation_id": 11688142
+  },
+  {
+    "id": "HN-101",
+    "name": "La Esperanza",
+    "country": "HN",
+    "region": "Intibucá Department",
+    "domain": "",
+    "osm_relation_id": 10554873
+  },
+  {
+    "id": "HN-102",
+    "name": "La Iguala",
+    "country": "HN",
+    "region": "Lempira Department",
+    "domain": "",
+    "osm_relation_id": 11729752
+  },
+  {
+    "id": "HN-103",
+    "name": "La Jigua",
+    "country": "HN",
+    "region": "Copán Department",
+    "domain": "",
+    "osm_relation_id": 15695665
+  },
+  {
+    "id": "HN-104",
+    "name": "La Labor",
+    "country": "HN",
+    "region": "Ocotepeque Department",
+    "domain": "",
+    "osm_relation_id": 11702675
+  },
+  {
+    "id": "HN-105",
+    "name": "La Libertad",
+    "country": "HN",
+    "region": "Francisco Morazán Department",
+    "domain": "",
+    "osm_relation_id": 11754780
+  },
+  {
+    "id": "HN-106",
+    "name": "La Libertad",
+    "country": "HN",
+    "region": "Comayagua Department",
+    "domain": "",
+    "osm_relation_id": 12088768
+  },
+  {
+    "id": "HN-107",
+    "name": "La Lima",
+    "country": "HN",
+    "region": "Cortés Department",
+    "domain": "",
+    "osm_relation_id": 6055155
+  },
+  {
+    "id": "HN-108",
+    "name": "La Masica",
+    "country": "HN",
+    "region": "Atlántida Department",
+    "domain": "",
+    "osm_relation_id": 6051659
+  },
+  {
+    "id": "HN-109",
+    "name": "La Paz",
+    "country": "HN",
+    "region": "La Paz Department",
+    "domain": "",
+    "osm_relation_id": 13783554
+  },
+  {
+    "id": "HN-110",
+    "name": "La Trinidad",
+    "country": "HN",
+    "region": "Comayagua Department",
+    "domain": "",
+    "osm_relation_id": 12110227
+  },
+  {
+    "id": "HN-111",
+    "name": "La Unión",
+    "country": "HN",
+    "region": "Lempira Department",
+    "domain": "",
+    "osm_relation_id": 11729912
+  },
+  {
+    "id": "HN-112",
+    "name": "La Unión",
+    "country": "HN",
+    "region": "Copán Department",
+    "domain": "",
+    "osm_relation_id": 15691575
+  },
+  {
+    "id": "HN-113",
+    "name": "La Unión",
+    "country": "HN",
+    "region": "Olancho Department",
+    "domain": "",
+    "osm_relation_id": 13753212
+  },
+  {
+    "id": "HN-114",
+    "name": "La Venta",
+    "country": "HN",
+    "region": "Francisco Morazán Department",
+    "domain": "",
+    "osm_relation_id": 13775252
+  },
+  {
+    "id": "HN-115",
+    "name": "La Virtud",
+    "country": "HN",
+    "region": "Lempira Department",
+    "domain": "",
+    "osm_relation_id": 10921203
+  },
+  {
+    "id": "HN-116",
+    "name": "Lamaní",
+    "country": "HN",
+    "region": "Comayagua Department",
+    "domain": "",
+    "osm_relation_id": 12108942
+  },
+  {
+    "id": "HN-117",
+    "name": "Langue",
+    "country": "HN",
+    "region": "Valle Department",
+    "domain": "",
+    "osm_relation_id": 13776637
+  },
+  {
+    "id": "HN-118",
+    "name": "Las Flores",
+    "country": "HN",
+    "region": "Lempira Department",
+    "domain": "",
+    "osm_relation_id": 11726917
+  },
+  {
+    "id": "HN-119",
+    "name": "Las Lajas",
+    "country": "HN",
+    "region": "Comayagua Department",
+    "domain": "",
+    "osm_relation_id": 12108950
+  },
+  {
+    "id": "HN-120",
+    "name": "Las Vegas",
+    "country": "HN",
+    "region": "Santa Bárbara Department",
+    "domain": "",
+    "osm_relation_id": 16096012
+  },
+  {
+    "id": "HN-121",
+    "name": "Lauterique",
+    "country": "HN",
+    "region": "La Paz Department",
+    "domain": "",
+    "osm_relation_id": 15717448
+  },
+  {
+    "id": "HN-122",
+    "name": "Lejamaní",
+    "country": "HN",
+    "region": "Comayagua Department",
+    "domain": "",
+    "osm_relation_id": 12108944
+  },
+  {
+    "id": "HN-123",
+    "name": "Lepaera",
+    "country": "HN",
+    "region": "Lempira Department",
+    "domain": "",
+    "osm_relation_id": 11722377
+  },
+  {
+    "id": "HN-124",
+    "name": "Lepaterique",
+    "country": "HN",
+    "region": "Francisco Morazán Department",
+    "domain": "",
+    "osm_relation_id": 13775092
+  },
+  {
+    "id": "HN-125",
+    "name": "Limón",
+    "country": "HN",
+    "region": "Colón Department",
+    "domain": "",
+    "osm_relation_id": 6042538
+  },
+  {
+    "id": "HN-126",
+    "name": "Liure",
+    "country": "HN",
+    "region": "El Paraíso Department",
+    "domain": "",
+    "osm_relation_id": 16249105
+  },
+  {
+    "id": "HN-127",
+    "name": "Lucerna",
+    "country": "HN",
+    "region": "Ocotepeque Department",
+    "domain": "",
+    "osm_relation_id": 11700940
+  },
+  {
+    "id": "HN-128",
+    "name": "Macuelizo",
+    "country": "HN",
+    "region": "Santa Bárbara Department",
+    "domain": "",
+    "osm_relation_id": 16089381
+  },
+  {
+    "id": "HN-129",
+    "name": "Magdalena",
+    "country": "HN",
+    "region": "Intibucá Department",
+    "domain": "",
+    "osm_relation_id": 15713901
+  },
+  {
+    "id": "HN-130",
+    "name": "Mangulile",
+    "country": "HN",
+    "region": "Olancho Department",
+    "domain": "",
+    "osm_relation_id": 13751759
+  },
+  {
+    "id": "HN-131",
+    "name": "Manto",
+    "country": "HN",
+    "region": "Olancho Department",
+    "domain": "",
+    "osm_relation_id": 13748804
+  },
+  {
+    "id": "HN-132",
+    "name": "Mapulaca",
+    "country": "HN",
+    "region": "Lempira Department",
+    "domain": "",
+    "osm_relation_id": 10921185
+  },
+  {
+    "id": "HN-133",
+    "name": "Maraita",
+    "country": "HN",
+    "region": "Francisco Morazán Department",
+    "domain": "",
+    "osm_relation_id": 13761097
+  },
+  {
+    "id": "HN-134",
+    "name": "Marale",
+    "country": "HN",
+    "region": "Francisco Morazán Department",
+    "domain": "",
+    "osm_relation_id": 13757388
+  },
+  {
+    "id": "HN-135",
+    "name": "Marcala",
+    "country": "HN",
+    "region": "La Paz Department",
+    "domain": "",
+    "osm_relation_id": 15723683
+  },
+  {
+    "id": "HN-136",
+    "name": "Marcovia",
+    "country": "HN",
+    "region": "Choluteca Department",
+    "domain": "",
+    "osm_relation_id": 16160984
+  },
+  {
+    "id": "HN-137",
+    "name": "Masaguara",
+    "country": "HN",
+    "region": "Intibucá Department",
+    "domain": "",
+    "osm_relation_id": 15708370
+  },
+  {
+    "id": "HN-138",
+    "name": "Mercedes",
+    "country": "HN",
+    "region": "Ocotepeque Department",
+    "domain": "",
+    "osm_relation_id": 11703669
+  },
+  {
+    "id": "HN-139",
+    "name": "Mercedes de Oriente",
+    "country": "HN",
+    "region": "La Paz Department",
+    "domain": "",
+    "osm_relation_id": 15718183
+  },
+  {
+    "id": "HN-140",
+    "name": "Meámbar",
+    "country": "HN",
+    "region": "Comayagua Department",
+    "domain": "",
+    "osm_relation_id": 12108949
+  },
+  {
+    "id": "HN-141",
+    "name": "Minas de Oro",
+    "country": "HN",
+    "region": "Comayagua Department",
+    "domain": "",
+    "osm_relation_id": 4627387
+  },
+  {
+    "id": "HN-142",
+    "name": "Morazán",
+    "country": "HN",
+    "region": "Yoro Department",
+    "domain": "",
+    "osm_relation_id": 13782694
+  },
+  {
+    "id": "HN-143",
+    "name": "Morocelí",
+    "country": "HN",
+    "region": "El Paraíso Department",
+    "domain": "",
+    "osm_relation_id": 16248262
+  },
+  {
+    "id": "HN-144",
+    "name": "Morolica",
+    "country": "HN",
+    "region": "Choluteca Department",
+    "domain": "",
+    "osm_relation_id": 16167715
+  },
+  {
+    "id": "HN-145",
+    "name": "Nacaome",
+    "country": "HN",
+    "region": "Valle Department",
+    "domain": "",
+    "osm_relation_id": 13775640
+  },
+  {
+    "id": "HN-146",
+    "name": "Namasigüe",
+    "country": "HN",
+    "region": "Choluteca Department",
+    "domain": "",
+    "osm_relation_id": 16172558
+  },
+  {
+    "id": "HN-147",
+    "name": "Naranjito",
+    "country": "HN",
+    "region": "Santa Bárbara Department",
+    "domain": "",
+    "osm_relation_id": 16092625
+  },
+  {
+    "id": "HN-148",
+    "name": "Nueva Arcadia",
+    "country": "HN",
+    "region": "Copán Department",
+    "domain": "",
+    "osm_relation_id": 15695483
+  },
+  {
+    "id": "HN-149",
+    "name": "Nueva Armenia",
+    "country": "HN",
+    "region": "Francisco Morazán Department",
+    "domain": "",
+    "osm_relation_id": 13775327
+  },
+  {
+    "id": "HN-150",
+    "name": "Nueva Frontera",
+    "country": "HN",
+    "region": "Santa Bárbara Department",
+    "domain": "",
+    "osm_relation_id": 16089342
+  },
+  {
+    "id": "HN-151",
+    "name": "Nuevo Celilac",
+    "country": "HN",
+    "region": "Santa Bárbara Department",
+    "domain": "",
+    "osm_relation_id": 16099757
+  },
+  {
+    "id": "HN-152",
+    "name": "Ocotepeque",
+    "country": "HN",
+    "region": "Ocotepeque Department",
+    "domain": "",
+    "osm_relation_id": 10559532
+  },
+  {
+    "id": "HN-153",
+    "name": "Ojojona",
+    "country": "HN",
+    "region": "Francisco Morazán Department",
+    "domain": "",
+    "osm_relation_id": 13775178
+  },
+  {
+    "id": "HN-154",
+    "name": "Ojos de Agua",
+    "country": "HN",
+    "region": "Comayagua Department",
+    "domain": "",
+    "osm_relation_id": 12110226
+  },
+  {
+    "id": "HN-155",
+    "name": "Olanchito",
+    "country": "HN",
+    "region": "Yoro Department",
+    "domain": "",
+    "osm_relation_id": 13778927
+  },
+  {
+    "id": "HN-156",
+    "name": "Omoa",
+    "country": "HN",
+    "region": "Cortés Department",
+    "domain": "",
+    "osm_relation_id": 6055122
+  },
+  {
+    "id": "HN-157",
+    "name": "Opatoro",
+    "country": "HN",
+    "region": "La Paz Department",
+    "domain": "",
+    "osm_relation_id": 15724502
+  },
+  {
+    "id": "HN-158",
+    "name": "Orica",
+    "country": "HN",
+    "region": "Francisco Morazán Department",
+    "domain": "",
+    "osm_relation_id": 13759448
+  },
+  {
+    "id": "HN-159",
+    "name": "Orocuina",
+    "country": "HN",
+    "region": "Choluteca Department",
+    "domain": "",
+    "osm_relation_id": 16167682
+  },
+  {
+    "id": "HN-160",
+    "name": "Oropolí",
+    "country": "HN",
+    "region": "El Paraíso Department",
+    "domain": "",
+    "osm_relation_id": 16248988
+  },
+  {
+    "id": "HN-161",
+    "name": "Patuca",
+    "country": "HN",
+    "region": "Olancho Department",
+    "domain": "",
+    "osm_relation_id": 13741300
+  },
+  {
+    "id": "HN-162",
+    "name": "Pespire",
+    "country": "HN",
+    "region": "Choluteca Department",
+    "domain": "",
+    "osm_relation_id": 16167680
+  },
+  {
+    "id": "HN-163",
+    "name": "Petoa",
+    "country": "HN",
+    "region": "Santa Bárbara Department",
+    "domain": "",
+    "osm_relation_id": 16090491
+  },
+  {
+    "id": "HN-164",
+    "name": "Pimienta",
+    "country": "HN",
+    "region": "Cortés Department",
+    "domain": "",
+    "osm_relation_id": 6057226
+  },
+  {
+    "id": "HN-165",
+    "name": "Piraera",
+    "country": "HN",
+    "region": "Lempira Department",
+    "domain": "",
+    "osm_relation_id": 10925203
+  },
+  {
+    "id": "HN-166",
+    "name": "Potrerillos",
+    "country": "HN",
+    "region": "El Paraíso Department",
+    "domain": "",
+    "osm_relation_id": 16248588
+  },
+  {
+    "id": "HN-167",
+    "name": "Potrerillos",
+    "country": "HN",
+    "region": "Cortés Department",
+    "domain": "",
+    "osm_relation_id": 6057569
+  },
+  {
+    "id": "HN-168",
+    "name": "Protección",
+    "country": "HN",
+    "region": "Santa Bárbara Department",
+    "domain": "",
+    "osm_relation_id": 16090890
+  },
+  {
+    "id": "HN-169",
+    "name": "Puerto Cortés",
+    "country": "HN",
+    "region": "Cortés Department",
+    "domain": "ampuertocortes.hn",
+    "osm_relation_id": 6055098
+  },
+  {
+    "id": "HN-170",
+    "name": "Puerto Lempira",
+    "country": "HN",
+    "region": "Gracias a Dios Department",
+    "domain": "",
+    "osm_relation_id": 6050318
+  },
+  {
+    "id": "HN-171",
+    "name": "Reitoca",
+    "country": "HN",
+    "region": "Francisco Morazán Department",
+    "domain": "",
+    "osm_relation_id": 11761722
+  },
+  {
+    "id": "HN-172",
+    "name": "Sabanagrande",
+    "country": "HN",
+    "region": "Francisco Morazán Department",
+    "domain": "",
+    "osm_relation_id": 13775385
+  },
+  {
+    "id": "HN-173",
+    "name": "Sabá",
+    "country": "HN",
+    "region": "Colón Department",
+    "domain": "",
+    "osm_relation_id": 6040147
+  },
+  {
+    "id": "HN-174",
+    "name": "Salamá",
+    "country": "HN",
+    "region": "Olancho Department",
+    "domain": "",
+    "osm_relation_id": 13749045
+  },
+  {
+    "id": "HN-175",
+    "name": "San Agustín",
+    "country": "HN",
+    "region": "Copán Department",
+    "domain": "",
+    "osm_relation_id": 15694761
+  },
+  {
+    "id": "HN-176",
+    "name": "San Andrés",
+    "country": "HN",
+    "region": "Lempira Department",
+    "domain": "",
+    "osm_relation_id": 10923466
+  },
+  {
+    "id": "HN-177",
+    "name": "San Antonio",
+    "country": "HN",
+    "region": "Intibucá Department",
+    "domain": "",
+    "osm_relation_id": 15713979
+  },
+  {
+    "id": "HN-178",
+    "name": "San Antonio",
+    "country": "HN",
+    "region": "Copán Department",
+    "domain": "",
+    "osm_relation_id": 15695608
+  },
+  {
+    "id": "HN-179",
+    "name": "San Antonio de Cortés",
+    "country": "HN",
+    "region": "Cortés Department",
+    "domain": "",
+    "osm_relation_id": 6059578
+  },
+  {
+    "id": "HN-180",
+    "name": "San Antonio de Flores",
+    "country": "HN",
+    "region": "El Paraíso Department",
+    "domain": "",
+    "osm_relation_id": 16248994
+  },
+  {
+    "id": "HN-181",
+    "name": "San Antonio de Flores",
+    "country": "HN",
+    "region": "Choluteca Department",
+    "domain": "",
+    "osm_relation_id": 16167643
+  },
+  {
+    "id": "HN-182",
+    "name": "San Antonio de Oriente",
+    "country": "HN",
+    "region": "Francisco Morazán Department",
+    "domain": "",
+    "osm_relation_id": 13760922
+  },
+  {
+    "id": "HN-183",
+    "name": "San Antonio del Norte",
+    "country": "HN",
+    "region": "La Paz Department",
+    "domain": "",
+    "osm_relation_id": 15717491
+  },
+  {
+    "id": "HN-184",
+    "name": "San Buenaventura",
+    "country": "HN",
+    "region": "Francisco Morazán Department",
+    "domain": "",
+    "osm_relation_id": 13761149
+  },
+  {
+    "id": "HN-185",
+    "name": "San Esteban",
+    "country": "HN",
+    "region": "Olancho Department",
+    "domain": "",
+    "osm_relation_id": 13745153
+  },
+  {
+    "id": "HN-186",
+    "name": "San Fernando",
+    "country": "HN",
+    "region": "Ocotepeque Department",
+    "domain": "",
+    "osm_relation_id": 11688350
+  },
+  {
+    "id": "HN-187",
+    "name": "San Francisco",
+    "country": "HN",
+    "region": "Lempira Department",
+    "domain": "",
+    "osm_relation_id": 10925209
+  },
+  {
+    "id": "HN-188",
+    "name": "San Francisco",
+    "country": "HN",
+    "region": "Atlántida Department",
+    "domain": "",
+    "osm_relation_id": 6051824
+  },
+  {
+    "id": "HN-189",
+    "name": "San Francisco de Becerra",
+    "country": "HN",
+    "region": "Olancho Department",
+    "domain": "",
+    "osm_relation_id": 16999992
+  },
+  {
+    "id": "HN-190",
+    "name": "San Francisco de Coray",
+    "country": "HN",
+    "region": "Valle Department",
+    "domain": "",
+    "osm_relation_id": 13776438
+  },
+  {
+    "id": "HN-191",
+    "name": "San Francisco de Ojuera",
+    "country": "HN",
+    "region": "Santa Bárbara Department",
+    "domain": "",
+    "osm_relation_id": 16098742
+  },
+  {
+    "id": "HN-192",
+    "name": "San Francisco de Opalaca",
+    "country": "HN",
+    "region": "Intibucá Department",
+    "domain": "",
+    "osm_relation_id": 10558428
+  },
+  {
+    "id": "HN-193",
+    "name": "San Francisco de Yojoa",
+    "country": "HN",
+    "region": "Cortés Department",
+    "domain": "",
+    "osm_relation_id": 6059579
+  },
+  {
+    "id": "HN-194",
+    "name": "San Francisco de la Paz",
+    "country": "HN",
+    "region": "Olancho Department",
+    "domain": "",
+    "osm_relation_id": 13741040
+  },
+  {
+    "id": "HN-195",
+    "name": "San Francisco del Valle",
+    "country": "HN",
+    "region": "Ocotepeque Department",
+    "domain": "",
+    "osm_relation_id": 11703342
+  },
+  {
+    "id": "HN-196",
+    "name": "San Ignacio",
+    "country": "HN",
+    "region": "Francisco Morazán Department",
+    "domain": "",
+    "osm_relation_id": 13759762
+  },
+  {
+    "id": "HN-197",
+    "name": "San Isidro",
+    "country": "HN",
+    "region": "Choluteca Department",
+    "domain": "",
+    "osm_relation_id": 16167650
+  },
+  {
+    "id": "HN-198",
+    "name": "San Isidro",
+    "country": "HN",
+    "region": "Intibucá Department",
+    "domain": "",
+    "osm_relation_id": 15698538
+  },
+  {
+    "id": "HN-199",
+    "name": "San Jerónimo",
+    "country": "HN",
+    "region": "Comayagua Department",
+    "domain": "",
+    "osm_relation_id": 12108947
+  },
+  {
+    "id": "HN-200",
+    "name": "San Jerónimo",
+    "country": "HN",
+    "region": "Copán Department",
+    "domain": "",
+    "osm_relation_id": 15695518
+  },
+  {
+    "id": "HN-201",
+    "name": "San Jorge",
+    "country": "HN",
+    "region": "Ocotepeque Department",
+    "domain": "",
+    "osm_relation_id": 11688032
+  },
+  {
+    "id": "HN-202",
+    "name": "San José",
+    "country": "HN",
+    "region": "La Paz Department",
+    "domain": "",
+    "osm_relation_id": 15722562
+  },
+  {
+    "id": "HN-203",
+    "name": "San José",
+    "country": "HN",
+    "region": "Choluteca Department",
+    "domain": "",
+    "osm_relation_id": 16166838
+  },
+  {
+    "id": "HN-204",
+    "name": "San José",
+    "country": "HN",
+    "region": "Copán Department",
+    "domain": "",
+    "osm_relation_id": 15695359
+  },
+  {
+    "id": "HN-205",
+    "name": "San José de Colinas",
+    "country": "HN",
+    "region": "Santa Bárbara Department",
+    "domain": "",
+    "osm_relation_id": 16095097
+  },
+  {
+    "id": "HN-206",
+    "name": "San José de Comayagua",
+    "country": "HN",
+    "region": "Comayagua Department",
+    "domain": "",
+    "osm_relation_id": 12108952
+  },
+  {
+    "id": "HN-207",
+    "name": "San José del Potrero",
+    "country": "HN",
+    "region": "Comayagua Department",
+    "domain": "",
+    "osm_relation_id": 12030251
+  },
+  {
+    "id": "HN-208",
+    "name": "San Juan",
+    "country": "HN",
+    "region": "Intibucá Department",
+    "domain": "",
+    "osm_relation_id": 15708748
+  },
+  {
+    "id": "HN-209",
+    "name": "San Juan",
+    "country": "HN",
+    "region": "La Paz Department",
+    "domain": "",
+    "osm_relation_id": 15717832
+  },
+  {
+    "id": "HN-210",
+    "name": "San Juan Guarita",
+    "country": "HN",
+    "region": "Lempira Department",
+    "domain": "",
+    "osm_relation_id": 10921475
+  },
+  {
+    "id": "HN-211",
+    "name": "San Juan de Flores",
+    "country": "HN",
+    "region": "Francisco Morazán Department",
+    "domain": "",
+    "osm_relation_id": 13760784
+  },
+  {
+    "id": "HN-212",
+    "name": "San Juan de Opoa",
+    "country": "HN",
+    "region": "Copán Department",
+    "domain": "",
+    "osm_relation_id": 15691602
+  },
+  {
+    "id": "HN-213",
+    "name": "San Lorenzo",
+    "country": "HN",
+    "region": "Valle Department",
+    "domain": "",
+    "osm_relation_id": 13776296
+  },
+  {
+    "id": "HN-214",
+    "name": "San Lucas",
+    "country": "HN",
+    "region": "El Paraíso Department",
+    "domain": "",
+    "osm_relation_id": 16249038
+  },
+  {
+    "id": "HN-215",
+    "name": "San Luis",
+    "country": "HN",
+    "region": "Comayagua Department",
+    "domain": "",
+    "osm_relation_id": 12088787
+  },
+  {
+    "id": "HN-216",
+    "name": "San Luis",
+    "country": "HN",
+    "region": "Santa Bárbara Department",
+    "domain": "",
+    "osm_relation_id": 16091018
+  },
+  {
+    "id": "HN-217",
+    "name": "San Manuel",
+    "country": "HN",
+    "region": "Cortés Department",
+    "domain": "",
+    "osm_relation_id": 6057210
+  },
+  {
+    "id": "HN-218",
+    "name": "San Manuel Colohete",
+    "country": "HN",
+    "region": "Lempira Department",
+    "domain": "",
+    "osm_relation_id": 10948773
+  },
+  {
+    "id": "HN-219",
+    "name": "San Marcos",
+    "country": "HN",
+    "region": "Ocotepeque Department",
+    "domain": "",
+    "osm_relation_id": 11703679
+  },
+  {
+    "id": "HN-220",
+    "name": "San Marcos",
+    "country": "HN",
+    "region": "Santa Bárbara Department",
+    "domain": "",
+    "osm_relation_id": 16090607
+  },
+  {
+    "id": "HN-221",
+    "name": "San Marcos de Caiquín",
+    "country": "HN",
+    "region": "Lempira Department",
+    "domain": "",
+    "osm_relation_id": 10925245
+  },
+  {
+    "id": "HN-222",
+    "name": "San Marcos de Colon",
+    "country": "HN",
+    "region": "Choluteca Department",
+    "domain": "",
+    "osm_relation_id": 16172153
+  },
+  {
+    "id": "HN-223",
+    "name": "San Marcos de Colón",
+    "country": "HN",
+    "region": "Choluteca Department",
+    "domain": "",
+    "osm_relation_id": 16170380
+  },
+  {
+    "id": "HN-224",
+    "name": "San Marcos de Sierra",
+    "country": "HN",
+    "region": "Intibucá Department",
+    "domain": "",
+    "osm_relation_id": 15713077
+  },
+  {
+    "id": "HN-225",
+    "name": "San Matías",
+    "country": "HN",
+    "region": "El Paraíso Department",
+    "domain": "",
+    "osm_relation_id": 16248422
+  },
+  {
+    "id": "HN-226",
+    "name": "San Miguel Guancapla",
+    "country": "HN",
+    "region": "Intibucá Department",
+    "domain": "",
+    "osm_relation_id": 15709904
+  },
+  {
+    "id": "HN-227",
+    "name": "San Miguelito",
+    "country": "HN",
+    "region": "Francisco Morazán Department",
+    "domain": "",
+    "osm_relation_id": 11755089
+  },
+  {
+    "id": "HN-228",
+    "name": "San Nicolás",
+    "country": "HN",
+    "region": "Santa Bárbara Department",
+    "domain": "",
+    "osm_relation_id": 16099738
+  },
+  {
+    "id": "HN-229",
+    "name": "San Nicolás",
+    "country": "HN",
+    "region": "Copán Department",
+    "domain": "",
+    "osm_relation_id": 15695406
+  },
+  {
+    "id": "HN-230",
+    "name": "San Pedro",
+    "country": "HN",
+    "region": "Copán Department",
+    "domain": "",
+    "osm_relation_id": 15691548
+  },
+  {
+    "id": "HN-231",
+    "name": "San Pedro Sula",
+    "country": "HN",
+    "region": "Cortés Department",
+    "domain": "sanpedrosula.hn",
+    "osm_relation_id": 6057211
+  },
+  {
+    "id": "HN-232",
+    "name": "San Pedro Zacapa",
+    "country": "HN",
+    "region": "Santa Bárbara Department",
+    "domain": "",
+    "osm_relation_id": 16096136
+  },
+  {
+    "id": "HN-233",
+    "name": "San Pedro de Tutule",
+    "country": "HN",
+    "region": "La Paz Department",
+    "domain": "",
+    "osm_relation_id": 15716451
+  },
+  {
+    "id": "HN-234",
+    "name": "San Rafael",
+    "country": "HN",
+    "region": "Lempira Department",
+    "domain": "",
+    "osm_relation_id": 11729881
+  },
+  {
+    "id": "HN-235",
+    "name": "San Sebastián",
+    "country": "HN",
+    "region": "Lempira Department",
+    "domain": "",
+    "osm_relation_id": 10923295
+  },
+  {
+    "id": "HN-236",
+    "name": "San Sebastián",
+    "country": "HN",
+    "region": "Comayagua Department",
+    "domain": "",
+    "osm_relation_id": 12110079
+  },
+  {
+    "id": "HN-237",
+    "name": "San Vicente Centenario",
+    "country": "HN",
+    "region": "Santa Bárbara Department",
+    "domain": "",
+    "osm_relation_id": 16099602
+  },
+  {
+    "id": "HN-238",
+    "name": "Santa Ana",
+    "country": "HN",
+    "region": "La Paz Department",
+    "domain": "",
+    "osm_relation_id": 15737442
+  },
+  {
+    "id": "HN-239",
+    "name": "Santa Ana",
+    "country": "HN",
+    "region": "Francisco Morazán Department",
+    "domain": "",
+    "osm_relation_id": 13770134
+  },
+  {
+    "id": "HN-240",
+    "name": "Santa Ana de Yusguare",
+    "country": "HN",
+    "region": "Choluteca Department",
+    "domain": "",
+    "osm_relation_id": 16172290
+  },
+  {
+    "id": "HN-241",
+    "name": "Santa Bárbara",
+    "country": "HN",
+    "region": "Santa Bárbara Department",
+    "domain": "",
+    "osm_relation_id": 16095620
+  },
+  {
+    "id": "HN-242",
+    "name": "Santa Cruz",
+    "country": "HN",
+    "region": "Lempira Department",
+    "domain": "",
+    "osm_relation_id": 10925215
+  },
+  {
+    "id": "HN-243",
+    "name": "Santa Cruz de Yojoa",
+    "country": "HN",
+    "region": "Cortés Department",
+    "domain": "",
+    "osm_relation_id": 6085508
+  },
+  {
+    "id": "HN-244",
+    "name": "Santa Elena",
+    "country": "HN",
+    "region": "La Paz Department",
+    "domain": "",
+    "osm_relation_id": 15724070
+  },
+  {
+    "id": "HN-245",
+    "name": "Santa Fe",
+    "country": "HN",
+    "region": "Ocotepeque Department",
+    "domain": "",
+    "osm_relation_id": 11683693
+  },
+  {
+    "id": "HN-246",
+    "name": "Santa Fe",
+    "country": "HN",
+    "region": "Colón Department",
+    "domain": "",
+    "osm_relation_id": 6049682
+  },
+  {
+    "id": "HN-247",
+    "name": "Santa Lucía",
+    "country": "HN",
+    "region": "Intibucá Department",
+    "domain": "",
+    "osm_relation_id": 15713949
+  },
+  {
+    "id": "HN-248",
+    "name": "Santa Lucía",
+    "country": "HN",
+    "region": "Francisco Morazán Department",
+    "domain": "",
+    "osm_relation_id": 11744217
+  },
+  {
+    "id": "HN-249",
+    "name": "Santa María",
+    "country": "HN",
+    "region": "La Paz Department",
+    "domain": "",
+    "osm_relation_id": 15717215
+  },
+  {
+    "id": "HN-250",
+    "name": "Santa María del Real",
+    "country": "HN",
+    "region": "Olancho Department",
+    "domain": "",
+    "osm_relation_id": 13737150
+  },
+  {
+    "id": "HN-251",
+    "name": "Santa Rita",
+    "country": "HN",
+    "region": "Santa Bárbara Department",
+    "domain": "",
+    "osm_relation_id": 16098819
+  },
+  {
+    "id": "HN-252",
+    "name": "Santa Rita",
+    "country": "HN",
+    "region": "Yoro Department",
+    "domain": "",
+    "osm_relation_id": 13780279
+  },
+  {
+    "id": "HN-253",
+    "name": "Santa Rita",
+    "country": "HN",
+    "region": "Copán Department",
+    "domain": "",
+    "osm_relation_id": 15694848
+  },
+  {
+    "id": "HN-254",
+    "name": "Santa Rosa de Aguán",
+    "country": "HN",
+    "region": "Colón Department",
+    "domain": "",
+    "osm_relation_id": 6042541
+  },
+  {
+    "id": "HN-255",
+    "name": "Santa Rosa de Copán",
+    "country": "HN",
+    "region": "Copán Department",
+    "domain": "alcaldiasrc.hn",
+    "osm_relation_id": 15691624
+  },
+  {
+    "id": "HN-256",
+    "name": "Santiago de Puringla",
+    "country": "HN",
+    "region": "La Paz Department",
+    "domain": "",
+    "osm_relation_id": 15714024
+  },
+  {
+    "id": "HN-257",
+    "name": "Sensenti",
+    "country": "HN",
+    "region": "Ocotepeque Department",
+    "domain": "",
+    "osm_relation_id": 11703258
+  },
+  {
+    "id": "HN-258",
+    "name": "Siguatepeque",
+    "country": "HN",
+    "region": "Comayagua Department",
+    "domain": "",
+    "osm_relation_id": 12108951
+  },
+  {
+    "id": "HN-259",
+    "name": "Silca",
+    "country": "HN",
+    "region": "Olancho Department",
+    "domain": "",
+    "osm_relation_id": 13748952
+  },
+  {
+    "id": "HN-260",
+    "name": "Sinuapa",
+    "country": "HN",
+    "region": "Ocotepeque Department",
+    "domain": "",
+    "osm_relation_id": 11684541
+  },
+  {
+    "id": "HN-261",
+    "name": "Soledad",
+    "country": "HN",
+    "region": "El Paraíso Department",
+    "domain": "",
+    "osm_relation_id": 16249118
+  },
+  {
+    "id": "HN-262",
+    "name": "Sonaguera",
+    "country": "HN",
+    "region": "Colón Department",
+    "domain": "",
+    "osm_relation_id": 6049958
+  },
+  {
+    "id": "HN-263",
+    "name": "Sulaco",
+    "country": "HN",
+    "region": "Yoro Department",
+    "domain": "",
+    "osm_relation_id": 13779896
+  },
+  {
+    "id": "HN-264",
+    "name": "Talanga",
+    "country": "HN",
+    "region": "Francisco Morazán Department",
+    "domain": "",
+    "osm_relation_id": 13760745
+  },
+  {
+    "id": "HN-265",
+    "name": "Talgua",
+    "country": "HN",
+    "region": "Lempira Department",
+    "domain": "",
+    "osm_relation_id": 11722737
+  },
+  {
+    "id": "HN-266",
+    "name": "Tambla",
+    "country": "HN",
+    "region": "Lempira Department",
+    "domain": "",
+    "osm_relation_id": 10923381
+  },
+  {
+    "id": "HN-267",
+    "name": "Tatumbla",
+    "country": "HN",
+    "region": "Francisco Morazán Department",
+    "domain": "",
+    "osm_relation_id": 13761028
+  },
+  {
+    "id": "HN-268",
+    "name": "Taulabé",
+    "country": "HN",
+    "region": "Comayagua Department",
+    "domain": "",
+    "osm_relation_id": 12108953
+  },
+  {
+    "id": "HN-269",
+    "name": "Tela",
+    "country": "HN",
+    "region": "Atlántida Department",
+    "domain": "",
+    "osm_relation_id": 6050679
+  },
+  {
+    "id": "HN-270",
+    "name": "Teupasenti",
+    "country": "HN",
+    "region": "El Paraíso Department",
+    "domain": "",
+    "osm_relation_id": 15738334
+  },
+  {
+    "id": "HN-271",
+    "name": "Texiguat",
+    "country": "HN",
+    "region": "El Paraíso Department",
+    "domain": "",
+    "osm_relation_id": 16249123
+  },
+  {
+    "id": "HN-272",
+    "name": "Tocoa",
+    "country": "HN",
+    "region": "Colón Department",
+    "domain": "",
+    "osm_relation_id": 6042392
+  },
+  {
+    "id": "HN-273",
+    "name": "Tomalá",
+    "country": "HN",
+    "region": "Lempira Department",
+    "domain": "",
+    "osm_relation_id": 10923364
+  },
+  {
+    "id": "HN-274",
+    "name": "Trinidad",
+    "country": "HN",
+    "region": "Santa Bárbara Department",
+    "domain": "",
+    "osm_relation_id": 16093226
+  },
+  {
+    "id": "HN-275",
+    "name": "Trinidad de Copán",
+    "country": "HN",
+    "region": "Copán Department",
+    "domain": "",
+    "osm_relation_id": 15695371
+  },
+  {
+    "id": "HN-276",
+    "name": "Trojes",
+    "country": "HN",
+    "region": "El Paraíso Department",
+    "domain": "",
+    "osm_relation_id": 15738150
+  },
+  {
+    "id": "HN-277",
+    "name": "Trujillo",
+    "country": "HN",
+    "region": "Colón Department",
+    "domain": "",
+    "osm_relation_id": 6049959
+  },
+  {
+    "id": "HN-278",
+    "name": "Utila",
+    "country": "HN",
+    "region": "Bay Islands Department",
+    "domain": "",
+    "osm_relation_id": 5901151
+  },
+  {
+    "id": "HN-279",
+    "name": "Vado Ancho",
+    "country": "HN",
+    "region": "El Paraíso Department",
+    "domain": "",
+    "osm_relation_id": 16249069
+  },
+  {
+    "id": "HN-280",
+    "name": "Valladolid",
+    "country": "HN",
+    "region": "Lempira Department",
+    "domain": "",
+    "osm_relation_id": 10921244
+  },
+  {
+    "id": "HN-281",
+    "name": "Valle de Ángeles",
+    "country": "HN",
+    "region": "Francisco Morazán Department",
+    "domain": "",
+    "osm_relation_id": 13760885
+  },
+  {
+    "id": "HN-282",
+    "name": "Vallecillo",
+    "country": "HN",
+    "region": "Francisco Morazán Department",
+    "domain": "",
+    "osm_relation_id": 13760294
+  },
+  {
+    "id": "HN-283",
+    "name": "Veracruz",
+    "country": "HN",
+    "region": "Copán Department",
+    "domain": "",
+    "osm_relation_id": 15695349
+  },
+  {
+    "id": "HN-284",
+    "name": "Victoria",
+    "country": "HN",
+    "region": "Yoro Department",
+    "domain": "",
+    "osm_relation_id": 13782328
+  },
+  {
+    "id": "HN-285",
+    "name": "Villa de San Antonio",
+    "country": "HN",
+    "region": "Comayagua Department",
+    "domain": "",
+    "osm_relation_id": 12108943
+  },
+  {
+    "id": "HN-286",
+    "name": "Villa de San Francisco",
+    "country": "HN",
+    "region": "Francisco Morazán Department",
+    "domain": "vsanfransico.wixsite.com",
+    "osm_relation_id": 13760847
+  },
+  {
+    "id": "HN-287",
+    "name": "Villanueva",
+    "country": "HN",
+    "region": "Cortés Department",
+    "domain": "munivillanueva.org",
+    "osm_relation_id": 6057227
+  },
+  {
+    "id": "HN-288",
+    "name": "Villeda Morales",
+    "country": "HN",
+    "region": "Gracias a Dios Department",
+    "domain": "",
+    "osm_relation_id": 6050323
+  },
+  {
+    "id": "HN-289",
+    "name": "Virginia",
+    "country": "HN",
+    "region": "Lempira Department",
+    "domain": "",
+    "osm_relation_id": 10921173
+  },
+  {
+    "id": "HN-290",
+    "name": "Wampusirpi",
+    "country": "HN",
+    "region": "Gracias a Dios Department",
+    "domain": "",
+    "osm_relation_id": 6050319
+  },
+  {
+    "id": "HN-291",
+    "name": "Yamaranguila",
+    "country": "HN",
+    "region": "Intibucá Department",
+    "domain": "",
+    "osm_relation_id": 15712926
+  },
+  {
+    "id": "HN-292",
+    "name": "Yarula",
+    "country": "HN",
+    "region": "La Paz Department",
+    "domain": "",
+    "osm_relation_id": 15723876
+  },
+  {
+    "id": "HN-293",
+    "name": "Yauyupe",
+    "country": "HN",
+    "region": "El Paraíso Department",
+    "domain": "",
+    "osm_relation_id": 16249061
+  },
+  {
+    "id": "HN-294",
+    "name": "Yocón",
+    "country": "HN",
+    "region": "Olancho Department",
+    "domain": "",
+    "osm_relation_id": 13749541
+  },
+  {
+    "id": "HN-295",
+    "name": "Yorito",
+    "country": "HN",
+    "region": "Yoro Department",
+    "domain": "",
+    "osm_relation_id": 13780141
+  },
+  {
+    "id": "HN-296",
+    "name": "Yoro",
+    "country": "HN",
+    "region": "Yoro Department",
+    "domain": "",
+    "osm_relation_id": 13782920
+  },
+  {
+    "id": "HN-297",
+    "name": "Yuscarán",
+    "country": "HN",
+    "region": "El Paraíso Department",
+    "domain": "",
+    "osm_relation_id": 16248654
+  }
+]

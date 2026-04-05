@@ -135,6 +135,16 @@ SEED_FILES = {
     "SR": "municipalities_sr.json",
     "UY": "municipalities_uy.json",
     "VE": "municipalities_ve.json",
+    # Canada
+    "CA": "municipalities_ca.json",
+    # Central America
+    "BZ": "municipalities_bz.json",
+    "GT": "municipalities_gt.json",
+    "HN": "municipalities_hn.json",
+    "SV": "municipalities_sv.json",
+    "NI": "municipalities_ni.json",
+    "CR": "municipalities_cr.json",
+    "PA": "municipalities_pa.json",
     # Africa — North
     "DZ": "municipalities_dz.json",
     "EG": "municipalities_eg.json",
@@ -527,6 +537,16 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         "SR": [".gov.sr", ".sr"],
         "UY": [".gub.uy", ".uy"],
         "VE": [".gob.ve", ".ve"],
+        # Canada
+        "CA": [".ca", ".gc.ca"],
+        # Central America
+        "BZ": [".gov.bz", ".bz"],
+        "GT": [".gob.gt", ".gt"],
+        "HN": [".gob.hn", ".hn"],
+        "SV": [".gob.sv", ".sv"],
+        "NI": [".gob.ni", ".ni"],
+        "CR": [".go.cr", ".cr"],
+        "PA": [".gob.pa", ".pa"],
         # Africa — North
         "DZ": [".dz", ".gov.dz"],
         "EG": [".gov.eg", ".eg"],

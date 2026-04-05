@@ -137,6 +137,16 @@ COUNTRIES = [
     "SR",
     "UY",
     "VE",
+    # Canada
+    "CA",
+    # Central America
+    "BZ",
+    "GT",
+    "HN",
+    "SV",
+    "NI",
+    "CR",
+    "PA",
     # Africa — North
     "DZ",
     "EG",
@@ -355,6 +365,16 @@ LEVEL_MAP = {
     "SR": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     "UY": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     "VE": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    # Canada
+    "CA": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    # Central America
+    "BZ": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "GT": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "HN": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "SV": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "NI": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "CR": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "PA": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     # Africa — North
     "DZ": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     "EG": {"region": "municipality", "district": "municipality", "municipality": "municipality"},

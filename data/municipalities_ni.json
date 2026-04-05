@@ -1,0 +1,1210 @@
+[
+  {
+    "id": "NI-001",
+    "name": "Achuapa",
+    "country": "NI",
+    "region": "León Department",
+    "domain": "",
+    "osm_relation_id": 5723598
+  },
+  {
+    "id": "NI-002",
+    "name": "Acoyapa",
+    "country": "NI",
+    "region": "Chontales Department",
+    "domain": "",
+    "osm_relation_id": 5758276
+  },
+  {
+    "id": "NI-003",
+    "name": "Altagracia",
+    "country": "NI",
+    "region": "Rivas Department",
+    "domain": "",
+    "osm_relation_id": 5742169
+  },
+  {
+    "id": "NI-004",
+    "name": "Belén",
+    "country": "NI",
+    "region": "Rivas Department",
+    "domain": "",
+    "osm_relation_id": 5743419
+  },
+  {
+    "id": "NI-005",
+    "name": "Bluefields",
+    "country": "NI",
+    "region": "South Caribbean Coast Autonomous Region",
+    "domain": "bluefields.gob.ni",
+    "osm_relation_id": 5776259
+  },
+  {
+    "id": "NI-006",
+    "name": "Boaco",
+    "country": "NI",
+    "region": "Boaco Department",
+    "domain": "",
+    "osm_relation_id": 5753388
+  },
+  {
+    "id": "NI-007",
+    "name": "Bonanza",
+    "country": "NI",
+    "region": "North Caribbean Coast Autonomous Region",
+    "domain": "alcaldiabonanza.gob.ni",
+    "osm_relation_id": 5762334
+  },
+  {
+    "id": "NI-008",
+    "name": "Buenos Aires",
+    "country": "NI",
+    "region": "Rivas Department",
+    "domain": "",
+    "osm_relation_id": 5743420
+  },
+  {
+    "id": "NI-009",
+    "name": "Camoapa",
+    "country": "NI",
+    "region": "Boaco Department",
+    "domain": "",
+    "osm_relation_id": 5753443
+  },
+  {
+    "id": "NI-010",
+    "name": "Catarina",
+    "country": "NI",
+    "region": "Masaya Department",
+    "domain": "alcaldiadecatarina.gob.ni",
+    "osm_relation_id": 5740289
+  },
+  {
+    "id": "NI-011",
+    "name": "Chichigalpa",
+    "country": "NI",
+    "region": "Chinandega Department",
+    "domain": "alcaldiadechichigalpa.gob.ni",
+    "osm_relation_id": 5721087
+  },
+  {
+    "id": "NI-012",
+    "name": "Chinandega",
+    "country": "NI",
+    "region": "Chinandega Department",
+    "domain": "alcaldiadechinandega.gob.ni",
+    "osm_relation_id": 5721088
+  },
+  {
+    "id": "NI-013",
+    "name": "Ciudad Antigua",
+    "country": "NI",
+    "region": "Nueva Segovia Department",
+    "domain": "",
+    "osm_relation_id": 5730763
+  },
+  {
+    "id": "NI-014",
+    "name": "Ciudad Darío",
+    "country": "NI",
+    "region": "Matagalpa Department",
+    "domain": "",
+    "osm_relation_id": 5750237
+  },
+  {
+    "id": "NI-015",
+    "name": "Ciudad Sandino",
+    "country": "NI",
+    "region": "Managua Department",
+    "domain": "alcisa.gob.ni",
+    "osm_relation_id": 5835633
+  },
+  {
+    "id": "NI-016",
+    "name": "Comalapa",
+    "country": "NI",
+    "region": "Chontales Department",
+    "domain": "",
+    "osm_relation_id": 5754846
+  },
+  {
+    "id": "NI-017",
+    "name": "Condega",
+    "country": "NI",
+    "region": "Estelí Department",
+    "domain": "alcaldiacondega.gob.ni",
+    "osm_relation_id": 5728877
+  },
+  {
+    "id": "NI-018",
+    "name": "Corinto",
+    "country": "NI",
+    "region": "Chinandega Department",
+    "domain": "",
+    "osm_relation_id": 5718982
+  },
+  {
+    "id": "NI-019",
+    "name": "Corn Islands",
+    "country": "NI",
+    "region": "South Caribbean Coast Autonomous Region",
+    "domain": "cornisland.gob.ni",
+    "osm_relation_id": 3114213
+  },
+  {
+    "id": "NI-020",
+    "name": "Cárdenas",
+    "country": "NI",
+    "region": "Rivas Department",
+    "domain": "",
+    "osm_relation_id": 5742170
+  },
+  {
+    "id": "NI-021",
+    "name": "Desembocadura de Río Grande",
+    "country": "NI",
+    "region": "South Caribbean Coast Autonomous Region",
+    "domain": "",
+    "osm_relation_id": 5763096
+  },
+  {
+    "id": "NI-022",
+    "name": "Dipilto",
+    "country": "NI",
+    "region": "Nueva Segovia Department",
+    "domain": "",
+    "osm_relation_id": 5729421
+  },
+  {
+    "id": "NI-023",
+    "name": "Diriamba",
+    "country": "NI",
+    "region": "Carazo Department",
+    "domain": "",
+    "osm_relation_id": 5737928
+  },
+  {
+    "id": "NI-024",
+    "name": "Diriomo",
+    "country": "NI",
+    "region": "Granada Department",
+    "domain": "",
+    "osm_relation_id": 5745658
+  },
+  {
+    "id": "NI-025",
+    "name": "Diriá",
+    "country": "NI",
+    "region": "Granada Department",
+    "domain": "",
+    "osm_relation_id": 5745659
+  },
+  {
+    "id": "NI-026",
+    "name": "Dolores",
+    "country": "NI",
+    "region": "Carazo Department",
+    "domain": "",
+    "osm_relation_id": 5737929
+  },
+  {
+    "id": "NI-027",
+    "name": "El Almendro",
+    "country": "NI",
+    "region": "Río San Juan Department",
+    "domain": "",
+    "osm_relation_id": 5758811
+  },
+  {
+    "id": "NI-028",
+    "name": "El Ayote",
+    "country": "NI",
+    "region": "South Caribbean Coast Autonomous Region",
+    "domain": "",
+    "osm_relation_id": 5765707
+  },
+  {
+    "id": "NI-029",
+    "name": "El Castillo",
+    "country": "NI",
+    "region": "Río San Juan Department",
+    "domain": "",
+    "osm_relation_id": 6641395
+  },
+  {
+    "id": "NI-030",
+    "name": "El Coral",
+    "country": "NI",
+    "region": "Chontales Department",
+    "domain": "",
+    "osm_relation_id": 5758786
+  },
+  {
+    "id": "NI-031",
+    "name": "El Crucero",
+    "country": "NI",
+    "region": "Managua Department",
+    "domain": "alcaldiaelcrucero.gob.ni",
+    "osm_relation_id": 5835648
+  },
+  {
+    "id": "NI-032",
+    "name": "El Cuá",
+    "country": "NI",
+    "region": "Jinotega Department",
+    "domain": "",
+    "osm_relation_id": 5748205
+  },
+  {
+    "id": "NI-033",
+    "name": "El Jicaral",
+    "country": "NI",
+    "region": "León Department",
+    "domain": "",
+    "osm_relation_id": 5725722
+  },
+  {
+    "id": "NI-034",
+    "name": "El Jícaro",
+    "country": "NI",
+    "region": "Nueva Segovia Department",
+    "domain": "",
+    "osm_relation_id": 5731468
+  },
+  {
+    "id": "NI-035",
+    "name": "El Rama",
+    "country": "NI",
+    "region": "South Caribbean Coast Autonomous Region",
+    "domain": "alcaldiaelrama.gob.ni",
+    "osm_relation_id": 5768379
+  },
+  {
+    "id": "NI-036",
+    "name": "El Realejo",
+    "country": "NI",
+    "region": "Chinandega Department",
+    "domain": "",
+    "osm_relation_id": 5719092
+  },
+  {
+    "id": "NI-037",
+    "name": "El Rosario",
+    "country": "NI",
+    "region": "Carazo Department",
+    "domain": "",
+    "osm_relation_id": 5739982
+  },
+  {
+    "id": "NI-038",
+    "name": "El Sauce",
+    "country": "NI",
+    "region": "León Department",
+    "domain": "",
+    "osm_relation_id": 5723599
+  },
+  {
+    "id": "NI-039",
+    "name": "El Tortuguero",
+    "country": "NI",
+    "region": "South Caribbean Coast Autonomous Region",
+    "domain": "",
+    "osm_relation_id": 5765724
+  },
+  {
+    "id": "NI-040",
+    "name": "El Viejo",
+    "country": "NI",
+    "region": "Chinandega Department",
+    "domain": "",
+    "osm_relation_id": 5718187
+  },
+  {
+    "id": "NI-041",
+    "name": "Esquipulas",
+    "country": "NI",
+    "region": "Matagalpa Department",
+    "domain": "",
+    "osm_relation_id": 5751949
+  },
+  {
+    "id": "NI-042",
+    "name": "Estelí",
+    "country": "NI",
+    "region": "Estelí Department",
+    "domain": "alcaldiaesteli.gob.ni",
+    "osm_relation_id": 5728609
+  },
+  {
+    "id": "NI-043",
+    "name": "Granada",
+    "country": "NI",
+    "region": "Granada Department",
+    "domain": "granadaciudadcreativa.com",
+    "osm_relation_id": 5745675
+  },
+  {
+    "id": "NI-044",
+    "name": "Jalapa",
+    "country": "NI",
+    "region": "Nueva Segovia Department",
+    "domain": "",
+    "osm_relation_id": 5731469
+  },
+  {
+    "id": "NI-045",
+    "name": "Jinotega",
+    "country": "NI",
+    "region": "Jinotega Department",
+    "domain": "alcaldiajinotega.gob.ni",
+    "osm_relation_id": 5748004
+  },
+  {
+    "id": "NI-046",
+    "name": "Jinotepe",
+    "country": "NI",
+    "region": "Carazo Department",
+    "domain": "",
+    "osm_relation_id": 5738009
+  },
+  {
+    "id": "NI-047",
+    "name": "Juigalpa",
+    "country": "NI",
+    "region": "Chontales Department",
+    "domain": "juigalpan.gob.ni",
+    "osm_relation_id": 5755628
+  },
+  {
+    "id": "NI-048",
+    "name": "Kukra Hill",
+    "country": "NI",
+    "region": "South Caribbean Coast Autonomous Region",
+    "domain": "alcaldiakukrahill.gob.ni",
+    "osm_relation_id": 5776226
+  },
+  {
+    "id": "NI-049",
+    "name": "La Concepción",
+    "country": "NI",
+    "region": "Masaya Department",
+    "domain": "",
+    "osm_relation_id": 5740056
+  },
+  {
+    "id": "NI-050",
+    "name": "La Concordia",
+    "country": "NI",
+    "region": "Jinotega Department",
+    "domain": "",
+    "osm_relation_id": 5745842
+  },
+  {
+    "id": "NI-051",
+    "name": "La Conquista",
+    "country": "NI",
+    "region": "Carazo Department",
+    "domain": "",
+    "osm_relation_id": 5738068
+  },
+  {
+    "id": "NI-052",
+    "name": "La Cruz de Río Grande",
+    "country": "NI",
+    "region": "South Caribbean Coast Autonomous Region",
+    "domain": "",
+    "osm_relation_id": 5763016
+  },
+  {
+    "id": "NI-053",
+    "name": "La Libertad",
+    "country": "NI",
+    "region": "Chontales Department",
+    "domain": "",
+    "osm_relation_id": 5758782
+  },
+  {
+    "id": "NI-054",
+    "name": "La Paz Centro",
+    "country": "NI",
+    "region": "León Department",
+    "domain": "",
+    "osm_relation_id": 5722999
+  },
+  {
+    "id": "NI-055",
+    "name": "La Paz de Carazo",
+    "country": "NI",
+    "region": "Carazo Department",
+    "domain": "",
+    "osm_relation_id": 5739753
+  },
+  {
+    "id": "NI-056",
+    "name": "La Trinidad",
+    "country": "NI",
+    "region": "Estelí Department",
+    "domain": "",
+    "osm_relation_id": 5729176
+  },
+  {
+    "id": "NI-057",
+    "name": "Larreynaga",
+    "country": "NI",
+    "region": "León Department",
+    "domain": "",
+    "osm_relation_id": 5723000
+  },
+  {
+    "id": "NI-058",
+    "name": "Las Sabanas",
+    "country": "NI",
+    "region": "Madriz Department",
+    "domain": "",
+    "osm_relation_id": 5726602
+  },
+  {
+    "id": "NI-059",
+    "name": "León",
+    "country": "NI",
+    "region": "León Department",
+    "domain": "",
+    "osm_relation_id": 5721089
+  },
+  {
+    "id": "NI-060",
+    "name": "Macuelizo",
+    "country": "NI",
+    "region": "Nueva Segovia Department",
+    "domain": "",
+    "osm_relation_id": 5729386
+  },
+  {
+    "id": "NI-061",
+    "name": "Managua",
+    "country": "NI",
+    "region": "Managua Department",
+    "domain": "managua.gob.ni",
+    "osm_relation_id": 5835475
+  },
+  {
+    "id": "NI-062",
+    "name": "Masatepe",
+    "country": "NI",
+    "region": "Masaya Department",
+    "domain": "",
+    "osm_relation_id": 5740290
+  },
+  {
+    "id": "NI-063",
+    "name": "Masaya",
+    "country": "NI",
+    "region": "Masaya Department",
+    "domain": "masaya.gob.ni",
+    "osm_relation_id": 5745793
+  },
+  {
+    "id": "NI-064",
+    "name": "Matagalpa",
+    "country": "NI",
+    "region": "Matagalpa Department",
+    "domain": "alcaldiadematagalpa.gob.ni",
+    "osm_relation_id": 5750389
+  },
+  {
+    "id": "NI-065",
+    "name": "Mateare",
+    "country": "NI",
+    "region": "Managua Department",
+    "domain": "alcaldiademateare.gob.ni",
+    "osm_relation_id": 5736002
+  },
+  {
+    "id": "NI-066",
+    "name": "Matiguás",
+    "country": "NI",
+    "region": "Matagalpa Department",
+    "domain": "",
+    "osm_relation_id": 5752451
+  },
+  {
+    "id": "NI-067",
+    "name": "Morrito",
+    "country": "NI",
+    "region": "Río San Juan Department",
+    "domain": "",
+    "osm_relation_id": 5757253
+  },
+  {
+    "id": "NI-068",
+    "name": "Moyogalpa",
+    "country": "NI",
+    "region": "Rivas Department",
+    "domain": "",
+    "osm_relation_id": 5743368
+  },
+  {
+    "id": "NI-069",
+    "name": "Mozonte",
+    "country": "NI",
+    "region": "Nueva Segovia Department",
+    "domain": "",
+    "osm_relation_id": 5729422
+  },
+  {
+    "id": "NI-070",
+    "name": "Muelle de los Bueyes",
+    "country": "NI",
+    "region": "South Caribbean Coast Autonomous Region",
+    "domain": "",
+    "osm_relation_id": 5768313
+  },
+  {
+    "id": "NI-071",
+    "name": "Mulukukú",
+    "country": "NI",
+    "region": "North Caribbean Coast Autonomous Region",
+    "domain": "",
+    "osm_relation_id": 5760868
+  },
+  {
+    "id": "NI-072",
+    "name": "Murra",
+    "country": "NI",
+    "region": "Nueva Segovia Department",
+    "domain": "",
+    "osm_relation_id": 5731470
+  },
+  {
+    "id": "NI-073",
+    "name": "Muy Muy",
+    "country": "NI",
+    "region": "Matagalpa Department",
+    "domain": "",
+    "osm_relation_id": 5752135
+  },
+  {
+    "id": "NI-074",
+    "name": "Nagarote",
+    "country": "NI",
+    "region": "León Department",
+    "domain": "",
+    "osm_relation_id": 5723001
+  },
+  {
+    "id": "NI-075",
+    "name": "Nandaime",
+    "country": "NI",
+    "region": "Granada Department",
+    "domain": "",
+    "osm_relation_id": 5745660
+  },
+  {
+    "id": "NI-076",
+    "name": "Nandasmo",
+    "country": "NI",
+    "region": "Masaya Department",
+    "domain": "",
+    "osm_relation_id": 5740291
+  },
+  {
+    "id": "NI-077",
+    "name": "Nindirí",
+    "country": "NI",
+    "region": "Masaya Department",
+    "domain": "",
+    "osm_relation_id": 5745794
+  },
+  {
+    "id": "NI-078",
+    "name": "Niquinohomo",
+    "country": "NI",
+    "region": "Masaya Department",
+    "domain": "",
+    "osm_relation_id": 5740292
+  },
+  {
+    "id": "NI-079",
+    "name": "Nueva Guinea",
+    "country": "NI",
+    "region": "South Caribbean Coast Autonomous Region",
+    "domain": "alcaldianuevaguinea.com",
+    "osm_relation_id": 2194696
+  },
+  {
+    "id": "NI-080",
+    "name": "Ocotal",
+    "country": "NI",
+    "region": "Nueva Segovia Department",
+    "domain": "alcaldiaocotal.gob.ni",
+    "osm_relation_id": 5729423
+  },
+  {
+    "id": "NI-081",
+    "name": "Paiwas",
+    "country": "NI",
+    "region": "South Caribbean Coast Autonomous Region",
+    "domain": "",
+    "osm_relation_id": 5760869
+  },
+  {
+    "id": "NI-082",
+    "name": "Palacagüina",
+    "country": "NI",
+    "region": "Madriz Department",
+    "domain": "",
+    "osm_relation_id": 5726732
+  },
+  {
+    "id": "NI-083",
+    "name": "Pearl Lagoon",
+    "country": "NI",
+    "region": "South Caribbean Coast Autonomous Region",
+    "domain": "",
+    "osm_relation_id": 5765742
+  },
+  {
+    "id": "NI-084",
+    "name": "Posoltega",
+    "country": "NI",
+    "region": "Chinandega Department",
+    "domain": "",
+    "osm_relation_id": 5721122
+  },
+  {
+    "id": "NI-085",
+    "name": "Potosí",
+    "country": "NI",
+    "region": "Rivas Department",
+    "domain": "",
+    "osm_relation_id": 5743421
+  },
+  {
+    "id": "NI-086",
+    "name": "Prinzapolka",
+    "country": "NI",
+    "region": "North Caribbean Coast Autonomous Region",
+    "domain": "",
+    "osm_relation_id": 5762574
+  },
+  {
+    "id": "NI-087",
+    "name": "Pueblo Nuevo",
+    "country": "NI",
+    "region": "Estelí Department",
+    "domain": "",
+    "osm_relation_id": 5728066
+  },
+  {
+    "id": "NI-088",
+    "name": "Puerto Cabezas",
+    "country": "NI",
+    "region": "North Caribbean Coast Autonomous Region",
+    "domain": "puertocabezas.gob.ni",
+    "osm_relation_id": 5762511
+  },
+  {
+    "id": "NI-089",
+    "name": "Puerto Morazán",
+    "country": "NI",
+    "region": "Chinandega Department",
+    "domain": "",
+    "osm_relation_id": 5718983
+  },
+  {
+    "id": "NI-090",
+    "name": "Rancho Grande",
+    "country": "NI",
+    "region": "Matagalpa Department",
+    "domain": "",
+    "osm_relation_id": 14713062
+  },
+  {
+    "id": "NI-091",
+    "name": "Rivas",
+    "country": "NI",
+    "region": "Rivas Department",
+    "domain": "",
+    "osm_relation_id": 5743428
+  },
+  {
+    "id": "NI-092",
+    "name": "Rosita",
+    "country": "NI",
+    "region": "North Caribbean Coast Autonomous Region",
+    "domain": "alcaldiaderosita.gob.ni",
+    "osm_relation_id": 5762483
+  },
+  {
+    "id": "NI-093",
+    "name": "Río Blanco",
+    "country": "NI",
+    "region": "Matagalpa Department",
+    "domain": "",
+    "osm_relation_id": 5762216
+  },
+  {
+    "id": "NI-094",
+    "name": "San Carlos",
+    "country": "NI",
+    "region": "Río San Juan Department",
+    "domain": "",
+    "osm_relation_id": 5758820
+  },
+  {
+    "id": "NI-095",
+    "name": "San Dionisio",
+    "country": "NI",
+    "region": "Matagalpa Department",
+    "domain": "",
+    "osm_relation_id": 5750376
+  },
+  {
+    "id": "NI-096",
+    "name": "San Fernando",
+    "country": "NI",
+    "region": "Nueva Segovia Department",
+    "domain": "",
+    "osm_relation_id": 5730764
+  },
+  {
+    "id": "NI-097",
+    "name": "San Francisco Libre",
+    "country": "NI",
+    "region": "Managua Department",
+    "domain": "",
+    "osm_relation_id": 5735620
+  },
+  {
+    "id": "NI-098",
+    "name": "San Francisco de Cuapa",
+    "country": "NI",
+    "region": "Chontales Department",
+    "domain": "",
+    "osm_relation_id": 5754983
+  },
+  {
+    "id": "NI-099",
+    "name": "San Francisco del Norte",
+    "country": "NI",
+    "region": "Chinandega Department",
+    "domain": "",
+    "osm_relation_id": 5720378
+  },
+  {
+    "id": "NI-100",
+    "name": "San Isidro",
+    "country": "NI",
+    "region": "Matagalpa Department",
+    "domain": "",
+    "osm_relation_id": 5749842
+  },
+  {
+    "id": "NI-101",
+    "name": "San Jorge",
+    "country": "NI",
+    "region": "Rivas Department",
+    "domain": "",
+    "osm_relation_id": 5743369
+  },
+  {
+    "id": "NI-102",
+    "name": "San José de Bocay",
+    "country": "NI",
+    "region": "Jinotega Department",
+    "domain": "",
+    "osm_relation_id": 5748206
+  },
+  {
+    "id": "NI-103",
+    "name": "San José de Cusmapa",
+    "country": "NI",
+    "region": "Madriz Department",
+    "domain": "",
+    "osm_relation_id": 5726603
+  },
+  {
+    "id": "NI-104",
+    "name": "San José de los Remates",
+    "country": "NI",
+    "region": "Boaco Department",
+    "domain": "",
+    "osm_relation_id": 5753332
+  },
+  {
+    "id": "NI-105",
+    "name": "San Juan de Cinco Pinos",
+    "country": "NI",
+    "region": "Chinandega Department",
+    "domain": "",
+    "osm_relation_id": 5720377
+  },
+  {
+    "id": "NI-106",
+    "name": "San Juan de Limay",
+    "country": "NI",
+    "region": "Estelí Department",
+    "domain": "",
+    "osm_relation_id": 5724027
+  },
+  {
+    "id": "NI-107",
+    "name": "San Juan de Nicaragua",
+    "country": "NI",
+    "region": "Río San Juan Department",
+    "domain": "",
+    "osm_relation_id": 5760615
+  },
+  {
+    "id": "NI-108",
+    "name": "San Juan de Oriente",
+    "country": "NI",
+    "region": "Masaya Department",
+    "domain": "",
+    "osm_relation_id": 5740293
+  },
+  {
+    "id": "NI-109",
+    "name": "San Juan del Río Coco",
+    "country": "NI",
+    "region": "Madriz Department",
+    "domain": "",
+    "osm_relation_id": 5726760
+  },
+  {
+    "id": "NI-110",
+    "name": "San Juan del Sur",
+    "country": "NI",
+    "region": "Rivas Department",
+    "domain": "",
+    "osm_relation_id": 5743247
+  },
+  {
+    "id": "NI-111",
+    "name": "San Lorenzo",
+    "country": "NI",
+    "region": "Boaco Department",
+    "domain": "",
+    "osm_relation_id": 5753361
+  },
+  {
+    "id": "NI-112",
+    "name": "San Lucas",
+    "country": "NI",
+    "region": "Madriz Department",
+    "domain": "",
+    "osm_relation_id": 5726604
+  },
+  {
+    "id": "NI-113",
+    "name": "San Marcos",
+    "country": "NI",
+    "region": "Carazo Department",
+    "domain": "",
+    "osm_relation_id": 5739983
+  },
+  {
+    "id": "NI-114",
+    "name": "San Miguelito",
+    "country": "NI",
+    "region": "Río San Juan Department",
+    "domain": "",
+    "osm_relation_id": 5758807
+  },
+  {
+    "id": "NI-115",
+    "name": "San Nicolás",
+    "country": "NI",
+    "region": "Estelí Department",
+    "domain": "",
+    "osm_relation_id": 5728878
+  },
+  {
+    "id": "NI-116",
+    "name": "San Pedro de Lóvago",
+    "country": "NI",
+    "region": "Chontales Department",
+    "domain": "",
+    "osm_relation_id": 5758784
+  },
+  {
+    "id": "NI-117",
+    "name": "San Pedro del Norte",
+    "country": "NI",
+    "region": "Chinandega Department",
+    "domain": "",
+    "osm_relation_id": 5720379
+  },
+  {
+    "id": "NI-118",
+    "name": "San Rafael del Norte",
+    "country": "NI",
+    "region": "Jinotega Department",
+    "domain": "",
+    "osm_relation_id": 5747250
+  },
+  {
+    "id": "NI-119",
+    "name": "San Rafael del Sur",
+    "country": "NI",
+    "region": "Managua Department",
+    "domain": "",
+    "osm_relation_id": 5733714
+  },
+  {
+    "id": "NI-120",
+    "name": "San Ramón",
+    "country": "NI",
+    "region": "Matagalpa Department",
+    "domain": "",
+    "osm_relation_id": 5752418
+  },
+  {
+    "id": "NI-121",
+    "name": "San Sebastián de Yalí",
+    "country": "NI",
+    "region": "Jinotega Department",
+    "domain": "",
+    "osm_relation_id": 5745841
+  },
+  {
+    "id": "NI-122",
+    "name": "Santa Lucía",
+    "country": "NI",
+    "region": "Boaco Department",
+    "domain": "",
+    "osm_relation_id": 5753356
+  },
+  {
+    "id": "NI-123",
+    "name": "Santa María",
+    "country": "NI",
+    "region": "Nueva Segovia Department",
+    "domain": "",
+    "osm_relation_id": 5729201
+  },
+  {
+    "id": "NI-124",
+    "name": "Santa María de Pantasma",
+    "country": "NI",
+    "region": "Jinotega Department",
+    "domain": "",
+    "osm_relation_id": 5748097
+  },
+  {
+    "id": "NI-125",
+    "name": "Santa Rosa del Peñón",
+    "country": "NI",
+    "region": "León Department",
+    "domain": "",
+    "osm_relation_id": 5723963
+  },
+  {
+    "id": "NI-126",
+    "name": "Santa Teresa",
+    "country": "NI",
+    "region": "Carazo Department",
+    "domain": "",
+    "osm_relation_id": 5739754
+  },
+  {
+    "id": "NI-127",
+    "name": "Santo Domingo",
+    "country": "NI",
+    "region": "Chontales Department",
+    "domain": "",
+    "osm_relation_id": 5758404
+  },
+  {
+    "id": "NI-128",
+    "name": "Santo Tomás",
+    "country": "NI",
+    "region": "Chontales Department",
+    "domain": "",
+    "osm_relation_id": 5758502
+  },
+  {
+    "id": "NI-129",
+    "name": "Santo Tomás del Norte",
+    "country": "NI",
+    "region": "Chinandega Department",
+    "domain": "",
+    "osm_relation_id": 5720261
+  },
+  {
+    "id": "NI-130",
+    "name": "Siuna",
+    "country": "NI",
+    "region": "North Caribbean Coast Autonomous Region",
+    "domain": "",
+    "osm_relation_id": 5760838
+  },
+  {
+    "id": "NI-131",
+    "name": "Somotillo",
+    "country": "NI",
+    "region": "Chinandega Department",
+    "domain": "",
+    "osm_relation_id": 5719075
+  },
+  {
+    "id": "NI-132",
+    "name": "Somoto",
+    "country": "NI",
+    "region": "Madriz Department",
+    "domain": "alcaldiadesomoto.gob.ni",
+    "osm_relation_id": 5726605
+  },
+  {
+    "id": "NI-133",
+    "name": "Sébaco",
+    "country": "NI",
+    "region": "Matagalpa Department",
+    "domain": "",
+    "osm_relation_id": 5750121
+  },
+  {
+    "id": "NI-134",
+    "name": "Telica",
+    "country": "NI",
+    "region": "León Department",
+    "domain": "",
+    "osm_relation_id": 5721091
+  },
+  {
+    "id": "NI-135",
+    "name": "Telpaneca",
+    "country": "NI",
+    "region": "Madriz Department",
+    "domain": "",
+    "osm_relation_id": 5726750
+  },
+  {
+    "id": "NI-136",
+    "name": "Terrabona",
+    "country": "NI",
+    "region": "Matagalpa Department",
+    "domain": "",
+    "osm_relation_id": 5750283
+  },
+  {
+    "id": "NI-137",
+    "name": "Teustepe",
+    "country": "NI",
+    "region": "Boaco Department",
+    "domain": "",
+    "osm_relation_id": 5753322
+  },
+  {
+    "id": "NI-138",
+    "name": "Ticuantepe",
+    "country": "NI",
+    "region": "Managua Department",
+    "domain": "",
+    "osm_relation_id": 5835755
+  },
+  {
+    "id": "NI-139",
+    "name": "Tipitapa",
+    "country": "NI",
+    "region": "Managua Department",
+    "domain": "tipitapa.gob.ni",
+    "osm_relation_id": 5735801
+  },
+  {
+    "id": "NI-140",
+    "name": "Tisma",
+    "country": "NI",
+    "region": "Masaya Department",
+    "domain": "alcaldiadetisma.gob.ni",
+    "osm_relation_id": 5745786
+  },
+  {
+    "id": "NI-141",
+    "name": "Tola",
+    "country": "NI",
+    "region": "Rivas Department",
+    "domain": "alcaldiadetola.gob.ni",
+    "osm_relation_id": 5743403
+  },
+  {
+    "id": "NI-142",
+    "name": "Totogalpa",
+    "country": "NI",
+    "region": "Madriz Department",
+    "domain": "",
+    "osm_relation_id": 5726723
+  },
+  {
+    "id": "NI-143",
+    "name": "Tuma-La Dalia",
+    "country": "NI",
+    "region": "Matagalpa Department",
+    "domain": "",
+    "osm_relation_id": 5752417
+  },
+  {
+    "id": "NI-144",
+    "name": "Villa El Carmen",
+    "country": "NI",
+    "region": "Managua Department",
+    "domain": "",
+    "osm_relation_id": 5733552
+  },
+  {
+    "id": "NI-145",
+    "name": "Villa Sandino",
+    "country": "NI",
+    "region": "Chontales Department",
+    "domain": "",
+    "osm_relation_id": 5758405
+  },
+  {
+    "id": "NI-146",
+    "name": "Villanueva",
+    "country": "NI",
+    "region": "Chinandega Department",
+    "domain": "",
+    "osm_relation_id": 5720941
+  },
+  {
+    "id": "NI-147",
+    "name": "Waslala",
+    "country": "NI",
+    "region": "North Caribbean Coast Autonomous Region",
+    "domain": "",
+    "osm_relation_id": 5760794
+  },
+  {
+    "id": "NI-148",
+    "name": "Waspán",
+    "country": "NI",
+    "region": "North Caribbean Coast Autonomous Region",
+    "domain": "",
+    "osm_relation_id": 5762297
+  },
+  {
+    "id": "NI-149",
+    "name": "Wiwilí de Jinotega",
+    "country": "NI",
+    "region": "Jinotega Department",
+    "domain": "",
+    "osm_relation_id": 5748207
+  },
+  {
+    "id": "NI-150",
+    "name": "Wiwilí de Nueva Segovia",
+    "country": "NI",
+    "region": "Nueva Segovia Department",
+    "domain": "",
+    "osm_relation_id": 5731472
+  },
+  {
+    "id": "NI-151",
+    "name": "Yalagüina",
+    "country": "NI",
+    "region": "Madriz Department",
+    "domain": "",
+    "osm_relation_id": 5726611
+  }
+]
