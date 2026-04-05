@@ -1150,7 +1150,8 @@ async function renderCountryLayer(cc) {
         // Fallback: if summary not loaded and no region match, use pre-computed country-level color
         if (!summaryLoaded && regionData && regionData.countries[cc]) {
           const cd = regionData.countries[cc];
-          feature._matchedGroup = { name: cc, count: cd.total, providers: cd.providers, dominant: cd.dominant, dominance: 1, blendedColor: cd.blendedColor, municipalities: [], hasGateway: false };
+          var featureName = (feature.properties && (feature.properties.name || feature.properties.region)) || cc;
+          feature._matchedGroup = { name: featureName, count: cd.total, providers: cd.providers, dominant: cd.dominant, dominance: 1, blendedColor: cd.blendedColor, municipalities: [], hasGateway: false };
           return { fillColor: cd.blendedColor, fillOpacity: 0.75, color: '#999', weight: 0.5 };
         }
       } else {
