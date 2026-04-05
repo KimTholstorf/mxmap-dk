@@ -823,10 +823,12 @@ function computeAggregation(cc, fileLevelName) {
         name: rname,
         municipalities: [],
         providers: r.providers,
+        popProviders: r.popProviders || {},
         dominant: r.dominant,
         dominance: r.dominance,
         second: sorted.length > 1 ? sorted[1][0] : null,
         blendedColor: r.blendedColor,
+        popTotal: r.popTotal || 0,
         count: r.count,
         hasGateway: (r.gateway_count || 0) > 0,
       };
@@ -987,12 +989,20 @@ function buildAggregatedPopup(group, feature, cc) {
   }
   barChart += '</div>';
 
-  // Provider legend
+  // Provider legend with population breakdown
+  const popProviders = group.popProviders || {};
+  const popTotal = group.popTotal || 0;
+  const hasPop = popTotal > total; // population data available (not just fallback 1 per muni)
   let providerLegend = '<div style="font-size:11px;color:#666">';
   for (const [provider, count] of sortedProviders) {
     const color = COLORS[provider] || '#888';
     const pct = (count / total * 100).toFixed(0);
-    providerLegend += `<span style="display:inline-block;width:10px;height:10px;background:${color};border-radius:2px;margin-right:4px;vertical-align:middle"></span>${escapeHtml(provider)}: ${count} (${pct}%)<br>`;
+    let popInfo = '';
+    if (hasPop && popProviders[provider]) {
+      const popPct = (popProviders[provider] / popTotal * 100).toFixed(0);
+      popInfo = ` · ${popProviders[provider].toLocaleString()} pop (${popPct}%)`;
+    }
+    providerLegend += `<span style="display:inline-block;width:10px;height:10px;background:${color};border-radius:2px;margin-right:4px;vertical-align:middle"></span>${escapeHtml(provider)}: ${count} (${pct}%)${popInfo}<br>`;
   }
   providerLegend += '</div>';
 
@@ -1012,10 +1022,18 @@ function buildAggregatedPopup(group, feature, cc) {
   muniList += '</div></div>';
   }
 
+  // Aggregate population (reuse popTotal from provider legend)
+  let finalPopTotal = popTotal;
+  if (!finalPopTotal && group.municipalities.length > 0) {
+    finalPopTotal = group.municipalities.reduce((sum, m) => sum + (m.population || 0), 0);
+  }
+  const popStr = finalPopTotal > 0 ? `<br><span style="font-size:11px;color:#999">Pop. ${finalPopTotal.toLocaleString()}</span>` : '';
+
   return `<div class="info-popup">` +
     `<strong>${flag} ${escapeHtml(name)}</strong>` +
     ` <span class="provider-badge" style="background:${dominantColor};color:${textColor}">${escapeHtml(group.dominant)}</span>` +
     `<br><span style="font-size:12px;color:#666">${total} municipalities</span>` +
+    popStr +
     barChart + providerLegend + muniList +
     `</div>`;
 }
@@ -1180,7 +1198,7 @@ async function renderCountryLayer(cc) {
         if (!summaryLoaded && regionData && regionData.countries[cc]) {
           const cd = regionData.countries[cc];
           var featureName = (feature.properties && (feature.properties.name || feature.properties.region || feature.properties.name_en)) || cc;
-          feature._matchedGroup = { name: featureName, count: cd.total, providers: cd.providers, dominant: cd.dominant, dominance: 1, blendedColor: cd.blendedColor, municipalities: [], hasGateway: false };
+          feature._matchedGroup = { name: featureName, count: cd.total, providers: cd.providers, popProviders: cd.popProviders || {}, popTotal: cd.popTotal || 0, dominant: cd.dominant, dominance: 1, blendedColor: cd.blendedColor, municipalities: [], hasGateway: false };
           return { fillColor: cd.blendedColor, fillOpacity: 0.75, color: '#999', weight: 0.5 };
         }
       } else {
