@@ -19,7 +19,7 @@
     "id": "AL-03",
     "name": "Bashkia Cërrik",
     "country": "AL",
-    "region": "",
+    "region": "Elbasan County",
     "domain": "",
     "osm_relation_id": 7688139,
     "population": 27445
@@ -36,7 +36,7 @@
     "id": "AL-05",
     "name": "Bashkia Devoll",
     "country": "AL",
-    "region": "",
+    "region": "Korçë County",
     "domain": "bashkiadevoll.al",
     "osm_relation_id": 1252602,
     "population": 26716
@@ -85,7 +85,7 @@
     "id": "AL-11",
     "name": "Bashkia Finiq",
     "country": "AL",
-    "region": "",
+    "region": "Vlorë County",
     "domain": "bfiniq.gov.al",
     "osm_relation_id": 7699112,
     "population": 10529
@@ -94,7 +94,7 @@
     "id": "AL-12",
     "name": "Bashkia Fushë-Arrëz",
     "country": "AL",
-    "region": "",
+    "region": "Shkodër County",
     "domain": "bashkiafushearrez.gov.al",
     "osm_relation_id": 7690961
   },
@@ -102,7 +102,7 @@
     "id": "AL-13",
     "name": "Bashkia Gjirokastër",
     "country": "AL",
-    "region": "",
+    "region": "Gjirokastër District",
     "domain": "bashkiagjirokaster.gov.al",
     "osm_relation_id": 1253902
   },
@@ -150,7 +150,7 @@
     "id": "AL-19",
     "name": "Bashkia Kolonjë",
     "country": "AL",
-    "region": "",
+    "region": "Korçë County",
     "domain": "kolonja.gov.al",
     "osm_relation_id": 1759871,
     "population": 11070
@@ -159,7 +159,7 @@
     "id": "AL-20",
     "name": "Bashkia Konispol",
     "country": "AL",
-    "region": "",
+    "region": "Vlorë County",
     "domain": "",
     "osm_relation_id": 7699111,
     "population": 8245
@@ -168,7 +168,7 @@
     "id": "AL-21",
     "name": "Bashkia Korçë",
     "country": "AL",
-    "region": "",
+    "region": "Korçë County",
     "domain": "bashkiakorce.gov.al",
     "osm_relation_id": 1252572,
     "population": 75994
@@ -193,7 +193,7 @@
     "id": "AL-24",
     "name": "Bashkia Kurbin",
     "country": "AL",
-    "region": "",
+    "region": "Lezhë County",
     "domain": "bashkiakurbin.gov.al",
     "osm_relation_id": 1248920,
     "population": 46291
@@ -202,7 +202,7 @@
     "id": "AL-25",
     "name": "Bashkia Kuçovë",
     "country": "AL",
-    "region": "",
+    "region": "Berat County",
     "domain": "bashkiakucove.gov.al",
     "osm_relation_id": 7689966,
     "population": 31262
@@ -219,7 +219,7 @@
     "id": "AL-27",
     "name": "Bashkia Libohovë",
     "country": "AL",
-    "region": "",
+    "region": "Gjirokastër District",
     "domain": "",
     "osm_relation_id": 7700262,
     "population": 3667
@@ -252,7 +252,7 @@
     "id": "AL-31",
     "name": "Bashkia Mallakastër",
     "country": "AL",
-    "region": "",
+    "region": "Fier County",
     "domain": "bashkiamallakaster.gov.al",
     "osm_relation_id": 1251487,
     "population": 25062
@@ -261,7 +261,7 @@
     "id": "AL-32",
     "name": "Bashkia Malësi e Madhe",
     "country": "AL",
-    "region": "",
+    "region": "Shkodër County",
     "domain": "bashkiamalesiemadhe.gov.al",
     "osm_relation_id": 1248268,
     "population": 30823
@@ -278,7 +278,7 @@
     "id": "AL-34",
     "name": "Bashkia Mirditë",
     "country": "AL",
-    "region": "",
+    "region": "Lezhë County",
     "domain": "bashkiamirdite.gov.al",
     "osm_relation_id": 1248916,
     "population": 22103
@@ -327,7 +327,7 @@
     "id": "AL-40",
     "name": "Bashkia Pukë",
     "country": "AL",
-    "region": "",
+    "region": "Shkodër County",
     "domain": "bashkiapuke.gov.al",
     "osm_relation_id": 1248286,
     "population": 11069
@@ -368,7 +368,7 @@
     "id": "AL-45",
     "name": "Bashkia Sarandë",
     "country": "AL",
-    "region": "",
+    "region": "Vlorë County",
     "domain": "bashkiasarande.gov.al",
     "osm_relation_id": 1255520,
     "population": 20227
@@ -393,7 +393,7 @@
     "id": "AL-48",
     "name": "Bashkia Skrapar",
     "country": "AL",
-    "region": "",
+    "region": "Berat County",
     "domain": "bashkiaskrapar.gov.al",
     "osm_relation_id": 1252295,
     "population": 12403
@@ -418,7 +418,7 @@
     "id": "AL-51",
     "name": "Bashkia Vau-Dejës",
     "country": "AL",
-    "region": "",
+    "region": "Shkodër County",
     "domain": "",
     "osm_relation_id": 7690962,
     "population": 30438
@@ -443,7 +443,7 @@
     "id": "AL-54",
     "name": "Berat Municipality",
     "country": "AL",
-    "region": "",
+    "region": "Berat County",
     "domain": "bashkiaberat.gov.al",
     "osm_relation_id": 7689922,
     "population": 60031
@@ -452,7 +452,7 @@
     "id": "AL-55",
     "name": "Elbasan Municipality",
     "country": "AL",
-    "region": "",
+    "region": "Elbasan District",
     "domain": "elbasani.gov.al",
     "osm_relation_id": 7688953,
     "population": 141714
@@ -479,7 +479,7 @@
     "id": "AL-58",
     "name": "Mat Municipality",
     "country": "AL",
-    "region": "",
+    "region": "Dibra County",
     "domain": "bashkiamat.gov.al",
     "osm_relation_id": 1249548,
     "population": 27600
@@ -488,7 +488,7 @@
     "id": "AL-59",
     "name": "Shkodër Municipality",
     "country": "AL",
-    "region": "",
+    "region": "Shkodër County",
     "domain": "bashkiashkoder.gov.al",
     "osm_relation_id": 1248284,
     "population": 142513
@@ -497,7 +497,7 @@
     "id": "AL-60",
     "name": "Tirana Municipality",
     "country": "AL",
-    "region": "",
+    "region": "Tirana County",
     "domain": "tirana.al",
     "osm_relation_id": 1250113,
     "population": 557422
@@ -506,7 +506,7 @@
     "id": "AL-61",
     "name": "Tropojë Municipality",
     "country": "AL",
-    "region": "",
+    "region": "Kukës County",
     "domain": "tropoje.gov.al",
     "osm_relation_id": 1759995,
     "population": 20517
