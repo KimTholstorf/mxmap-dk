@@ -31,6 +31,7 @@ SUMMARY_FIELDS = {
     "mx_countries",
     "gateway",
     "isp_name",
+    "population",
 }
 
 # Fields needed only for popups (loaded in background)
@@ -93,14 +94,33 @@ def blend_provider_colors(providers: dict[str, int], total: int) -> str:
 
 
 def build_region_data(munis: dict, generated: str) -> dict:
-    """Build pre-computed region-level aggregations."""
+    """Build pre-computed region-level aggregations with population weighting."""
     countries: dict[str, dict] = {}
+
+    # First pass: collect per-country population stats for fallback estimation
+    country_pops: dict[str, list[int]] = {}
+    for bfs, m in munis.items():
+        cc = m.get("country", "")
+        pop = m.get("population", 0) or 0
+        if pop > 0:
+            country_pops.setdefault(cc, []).append(pop)
+
+    # Compute median population per country for fallback
+    country_median: dict[str, int] = {}
+    for cc, pops in country_pops.items():
+        sorted_pops = sorted(pops)
+        mid = len(sorted_pops) // 2
+        country_median[cc] = sorted_pops[mid] if sorted_pops else 0
 
     for bfs, m in munis.items():
         cc = m.get("country", "")
         region = m.get("canton", "") or ""
         raw_provider = m.get("provider", "unknown")
         provider = PROVIDER_DISPLAY.get(raw_provider, raw_provider)
+        pop = m.get("population", 0) or 0
+        # Fallback: use country median if no population, or 1 if no data at all
+        if pop <= 0:
+            pop = country_median.get(cc, 0) or 1
         has_gateway = bool(
             m.get("gateway")
             and cc in (m.get("mx_countries") or [])
@@ -111,12 +131,16 @@ def build_region_data(munis: dict, generated: str) -> dict:
             countries[cc] = {
                 "total": 0,
                 "providers": {},
+                "popProviders": {},
+                "popTotal": 0,
                 "gateway_count": 0,
                 "regions": {},
             }
         cd = countries[cc]
         cd["total"] += 1
         cd["providers"][provider] = cd["providers"].get(provider, 0) + 1
+        cd["popProviders"][provider] = cd["popProviders"].get(provider, 0) + pop
+        cd["popTotal"] += pop
         if has_gateway:
             cd["gateway_count"] += 1
 
@@ -124,19 +148,27 @@ def build_region_data(munis: dict, generated: str) -> dict:
             cd["regions"][region] = {
                 "count": 0,
                 "providers": {},
+                "popProviders": {},
+                "popTotal": 0,
                 "gateway_count": 0,
             }
         rd = cd["regions"][region]
         rd["count"] += 1
         rd["providers"][provider] = rd["providers"].get(provider, 0) + 1
+        rd["popProviders"][provider] = rd["popProviders"].get(provider, 0) + pop
+        rd["popTotal"] += pop
         if has_gateway:
             rd["gateway_count"] += 1
 
-    # Compute dominant provider and blended color per country and region
+    # Compute blended colors: population-weighted if available, count-based as fallback
     for cc, cd in countries.items():
-        cd["blendedColor"] = blend_provider_colors(cd["providers"], cd["total"])
+        if cd["popTotal"] > cd["total"]:
+            cd["blendedColor"] = blend_provider_colors(cd["popProviders"], cd["popTotal"])
+        else:
+            cd["blendedColor"] = blend_provider_colors(cd["providers"], cd["total"])
         sorted_providers = sorted(cd["providers"].items(), key=lambda x: -x[1])
         cd["dominant"] = sorted_providers[0][0] if sorted_providers else "Unknown"
+
         for rname, rd in cd["regions"].items():
             sorted_providers = sorted(
                 rd["providers"].items(), key=lambda x: -x[1]
@@ -145,7 +177,11 @@ def build_region_data(munis: dict, generated: str) -> dict:
             rd["dominance"] = round(
                 sorted_providers[0][1] / rd["count"], 3
             ) if sorted_providers else 0
-            rd["blendedColor"] = blend_provider_colors(rd["providers"], rd["count"])
+            # Use population-weighted color if we have real population data
+            if rd["popTotal"] > rd["count"]:
+                rd["blendedColor"] = blend_provider_colors(rd["popProviders"], rd["popTotal"])
+            else:
+                rd["blendedColor"] = blend_provider_colors(rd["providers"], rd["count"])
 
     return {"generated": generated, "total": len(munis), "countries": countries}
 

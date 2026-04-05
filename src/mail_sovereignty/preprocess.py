@@ -643,7 +643,7 @@ def load_seed_data() -> dict[str, dict[str, str]]:
 
         for entry in entries:
             muni_id = entry["id"]
-            municipalities[muni_id] = {
+            muni = {
                 "bfs": muni_id,  # reuse "bfs" field as generic municipality ID
                 "name": entry["name"],
                 "canton": entry.get("region", ""),  # reuse "canton" field for region
@@ -652,6 +652,9 @@ def load_seed_data() -> dict[str, dict[str, str]]:
                 "website": entry.get("domain", ""),
                 "osm_relation_id": entry.get("osm_relation_id"),
             }
+            if entry.get("population"):
+                muni["population"] = entry["population"]
+            municipalities[muni_id] = muni
         print(f"  {country_code}: {len(entries)} municipalities")
 
     # Apply overrides

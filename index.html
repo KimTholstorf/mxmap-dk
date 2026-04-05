@@ -810,17 +810,25 @@ function computeAggregation(cc, fileLevelName) {
   const groups = {};
   for (const m of munis) {
     const key = getGroupKey(m, fileLevelName);
-    if (!groups[key]) groups[key] = { name: key, municipalities: [], providers: {} };
+    if (!groups[key]) groups[key] = { name: key, municipalities: [], providers: {}, popProviders: {}, popTotal: 0 };
     groups[key].municipalities.push(m);
     const p = m.classification.provider;
+    const w = m.population || 1;
     groups[key].providers[p] = (groups[key].providers[p] || 0) + 1;
+    groups[key].popProviders[p] = (groups[key].popProviders[p] || 0) + w;
+    groups[key].popTotal += w;
   }
   for (const g of Object.values(groups)) {
     const entries = Object.entries(g.providers).sort((a, b) => b[1] - a[1]);
     g.dominant = entries[0] ? entries[0][0] : 'Unknown';
     g.dominance = entries[0] ? entries[0][1] / g.municipalities.length : 0;
     g.second = entries[1] ? entries[1][0] : null;
-    g.blendedColor = blendProviderColors(g.providers, g.municipalities.length);
+    // Use population-weighted color if population data is available
+    if (g.popTotal > g.municipalities.length) {
+      g.blendedColor = blendProviderColors(g.popProviders, g.popTotal);
+    } else {
+      g.blendedColor = blendProviderColors(g.providers, g.municipalities.length);
+    }
     g.count = g.municipalities.length;
     g.hasGateway = g.municipalities.some(m => hasLocalGateway(m));
   }
@@ -919,10 +927,13 @@ function buildPopup(m) {
       `Self-hosted using <strong>${escapeHtml(swName)}</strong> software</div>`;
   }
 
+  const popStr = m.population ? `<br><span style="font-size:11px;color:#999">Pop. ${m.population.toLocaleString()}</span>` : '';
+
   return `<div class="info-popup">` +
     `<strong>${flag} ${eName}</strong><br>` +
     `${eDomain} <span class="provider-badge" style="background:${color};color:${textColor}">${escapeHtml(cls.provider)}</span>` +
     (hasLocalGateway(m) ? ' <span title="Local gateway" style="font-size:13px">\u{1F6E1}\uFE0F</span>' : '') +
+    popStr +
     `<br><span style="font-size:11px;color:#888">${m.region ? escapeHtml(m.region) + ' \u00b7 ' : ''}${m.country}</span>` +
     (cls.reason ? `<div style="margin-top:4px;font-size:11px;color:#666;font-style:italic">${escapeHtml(cls.reason)}</div>` : '') +
     gatewayNote + tenantNote + smtpSoftwareNote + mxSection + spfSection + autodiscoverSection + dkimSection + txtVerifSection +
@@ -991,6 +1002,15 @@ async function loadTopo(cc, level) {
 
   // Skip multi-file topo (e.g., DE per-state) before summary loads
   if (!summaryLoaded && typeof fileEntry === 'object') return null;
+  // At region level, skip large municipality files used as fallback (>300KB)
+  // These would render thousands of tiny tiles instead of aggregated regions
+  if (!summaryLoaded && level === 'region' && typeof fileEntry === 'string') {
+    var origEntry = manifest[cc].files['region'];
+    if (!origEntry || origEntry === manifest[cc].files['municipality']) {
+      var fsize = (manifest[cc].sizes || {})[fileEntry] || 0;
+      if (fsize > 300000) return null;
+    }
+  }
 
   // String value: single file (standard path)
   if (typeof fileEntry === 'string') {
