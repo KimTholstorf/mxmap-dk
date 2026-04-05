@@ -783,7 +783,7 @@ function getGroupKey(m, fileLevelName) {
 
 function computeAggregation(cc, fileLevelName) {
   // Fast path: use pre-computed region data before summary is loaded
-  if (fileLevelName === 'region' && regionData && !summaryLoaded) {
+  if (!summaryLoaded && regionData) {
     const cd = regionData.countries[cc];
     if (!cd) return {};
     const result = {};
@@ -805,6 +805,7 @@ function computeAggregation(cc, fileLevelName) {
     return result;
   }
 
+  if (!dnsData || !dnsData.municipalities) return {};
   const munis = dnsData.municipalities.filter(m => m.country === cc);
   const groups = {};
   for (const m of munis) {
