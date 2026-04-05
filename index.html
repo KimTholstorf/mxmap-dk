@@ -1128,7 +1128,7 @@ async function renderCountryLayer(cc) {
         if (!summaryLoaded && regionData && regionData.countries[cc]) {
           const cd = regionData.countries[cc];
           feature._matchedGroup = { name: cc, count: cd.total, providers: cd.providers, dominant: cd.dominant, dominance: 1, blendedColor: cd.blendedColor, municipalities: [], hasGateway: false };
-          return { fillColor: cd.blendedColor, fillOpacity: 0.65, color: '#999', weight: 0.5 };
+          return { fillColor: cd.blendedColor, fillOpacity: 0.75, color: '#999', weight: 0.5 };
         }
       } else {
         const m = matchFeature(feature);
