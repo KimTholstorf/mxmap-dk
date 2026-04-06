@@ -234,12 +234,10 @@ def main():
         entry = {k: m[k] for k in SUMMARY_FIELDS if k in m}
         entry["has_mx"] = len(m.get("mx", [])) > 0
         # Add detail fields needed for drill-down
-        if m.get("mx"):
-            entry["mx"] = m["mx"]
-        if m.get("reason"):
-            entry["reason"] = m["reason"]
-        if m.get("gateway"):
-            entry["gateway"] = m["gateway"]
+        for field in ("mx", "reason", "gateway", "spf", "autodiscover",
+                      "dkim", "txt_verifications", "tenant", "smtp_software"):
+            if m.get(field):
+                entry[field] = m[field]
         by_country.setdefault(cc, []).append(entry)
     total_country_size = 0
     for cc, entries in by_country.items():

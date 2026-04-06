@@ -1152,6 +1152,13 @@ function buildAggregatedPopup(group, feature, cc) {
       (pop ? '<span style="color:#999;font-size:10px;float:right">' + pop + '</span>' : '') +
       '</div>';
     // Detail section (hidden until expanded)
+    var spf = m.spf || m.classification.spf || '';
+    var autodiscover = m.autodiscover || {};
+    var dkim = m.dkim || {};
+    var txtVerif = m.txt_verifications || {};
+    var tenant = m.tenant || '';
+    var smtpSw = m.smtp_software || '';
+
     muniList += '<div class="popup-muni-detail">';
     muniList += '<div><span style="color:' + color + ';font-weight:600">' + escapeHtml(prov) + '</span>';
     if (mxCountries) muniList += ' <span style="color:#999">server in ' + escapeHtml(mxCountries) + '</span>';
@@ -1164,7 +1171,26 @@ function buildAggregatedPopup(group, feature, cc) {
       }
       muniList += '</div>';
     }
+    if (spf) {
+      var includes = [];
+      var re = /include:([^\s]+)/g, match;
+      while ((match = re.exec(spf)) !== null) includes.push(match[1]);
+      if (includes.length > 0) {
+        muniList += '<div style="color:#555">SPF includes: ' + includes.map(function(h){return '<code style="font-size:9px;background:#f5f5f5;padding:1px 3px;border-radius:2px">'+escapeHtml(h)+'</code>'}).join(', ') + '</div>';
+      }
+    }
+    if (Object.keys(autodiscover).length > 0) {
+      muniList += '<div style="color:#555">Autodiscover: ' + Object.values(autodiscover).map(function(v){return '<code style="font-size:9px;background:#f5f5f5;padding:1px 3px;border-radius:2px">'+escapeHtml(v)+'</code>'}).join(', ') + '</div>';
+    }
+    if (Object.keys(dkim).length > 0) {
+      muniList += '<div style="color:#555">DKIM: ' + Object.entries(dkim).map(function(e){return '<code style="font-size:9px;background:#f5f5f5;padding:1px 3px;border-radius:2px">'+escapeHtml(e[0])+'='+escapeHtml(String(e[1]).substring(0,40))+'</code>'}).join(' ') + '</div>';
+    }
+    if (Object.keys(txtVerif).length > 0) {
+      muniList += '<div style="color:#555">TXT: ' + Object.entries(txtVerif).map(function(e){return '<code style="font-size:9px;background:#f5f5f5;padding:1px 3px;border-radius:2px">'+escapeHtml(e[0])+'='+escapeHtml(String(e[1]).substring(0,30))+'</code>'}).join(' ') + '</div>';
+    }
     if (gateway) muniList += '<div style="color:#795548">\u{1F6E1}\uFE0F Gateway: ' + escapeHtml(gateway) + '</div>';
+    if (tenant) muniList += '<div style="color:#4a148c">MS365 tenant: <strong>' + escapeHtml(tenant) + '</strong></div>';
+    if (smtpSw) muniList += '<div style="color:#555">SMTP: ' + escapeHtml(smtpSw) + '</div>';
     if (ispName) muniList += '<div style="color:#555">ISP: ' + escapeHtml(ispName) + '</div>';
     muniList += '</div></div>';
   }
