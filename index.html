@@ -65,6 +65,9 @@
   .stats-mode-btn.active { background: #444; color: #fff; border-color: #444; }
   .stats-mode-btn:hover { background: #ddd; }
   .stats-mode-btn.active:hover { background: #555; }
+  .popup-load-btn { padding: 4px 12px; font-size: 11px; cursor: pointer; background: #4a90d9; color: #fff; border: none; border-radius: 3px; margin-top: 4px; }
+  .popup-load-btn:hover { background: #3a7bc0; }
+  .popup-load-btn:disabled { background: #aaa; cursor: wait; }
   .stats-countries .stats-label { width: 75px; font-size: 12px; }
   .stats-countries .stats-value { width: 60px; }
   .stats-countries .stats-row { margin: 3px 0; }
@@ -575,6 +578,7 @@ let manifest = null;
 let regionData = null;          // data-regions.json (lightweight)
 let summaryLoaded = false;      // true once data-summary.json loaded
 let summaryLoadPromise = null;  // dedup in-flight loads
+const countryData = {};         // cc -> [municipality, ...] (per-country on-demand)
 let currentLevel = 'region';
 const topoCache = {};           // cacheKey -> parsed TopoJSON
 const countryLayers = new Map(); // "EE" -> L.geoJSON layer
@@ -1057,7 +1061,7 @@ function buildAggregatedPopup(group, feature, cc) {
   let muniList;
   if (group.municipalities.length === 0) {
     muniList = '<div class="popup-section"><div class="popup-section-title">Municipalities (' + total + ')</div>';
-    muniList += '<div style="font-size:11px;color:#999;padding:4px 0">Switch to Districts or Municipalities level for details</div>';
+    muniList += '<button class="popup-load-btn" data-cc="' + cc + '">Load municipality details</button>';
   } else {
   const sorted = group.municipalities.slice().sort((a, b) => a.name.localeCompare(b.name));
   muniList = '<div class="popup-section"><div class="popup-section-title">Municipalities (' + total + ')</div>';
@@ -1728,6 +1732,26 @@ async function loadSummaryData() {
   return summaryLoadPromise;
 }
 
+async function loadCountryData(cc) {
+  if (countryData[cc]) return countryData[cc];
+  var res = await fetch('data/summary/' + cc.toLowerCase() + '.json');
+  var raw = await res.json();
+  var munis = raw.map(transformMuni);
+  countryData[cc] = munis;
+  // Merge into dnsData if exists, or create minimal dnsData
+  if (!dnsData) {
+    dnsData = { municipalities: [], stats: { total: 0, provider_counts: {} }, generated_at: '' };
+  }
+  for (var i = 0; i < munis.length; i++) {
+    var m = munis[i];
+    dnsData.municipalities.push(m);
+    if (m.osm_relation_id) muniByOsm['relation/' + m.osm_relation_id] = m;
+    muniByName[m.name.toLowerCase()] = m;
+    if (m.name_en) muniByName[m.name_en.toLowerCase()] = m;
+  }
+  return munis;
+}
+
 async function loadData() {
   // Phase 1: Load lightweight region data + manifest (fast)
   const [regionsRes, manifestRes] = await Promise.all([
@@ -1836,6 +1860,38 @@ async function loadData() {
 
   // Load more countries as user pans/zooms
   map.on('moveend', function () { renderVisibleCountries(); });
+
+  // Drill-down: load per-country data from popup button
+  document.getElementById('map').addEventListener('click', function(e) {
+    if (!e.target.classList.contains('popup-load-btn')) return;
+    var btn = e.target;
+    var cc = btn.dataset.cc;
+    btn.textContent = 'Loading\u2026';
+    btn.disabled = true;
+
+    loadCountryData(cc).then(function() {
+      // Find the open popup and refresh its content
+      map.eachLayer(function(layer) {
+        if (!layer.eachLayer) return;
+        layer.eachLayer(function(sub) {
+          if (!sub.eachLayer) return;
+          sub.eachLayer(function(feat) {
+            if (feat.isPopupOpen && feat.isPopupOpen() && feat.feature) {
+              var fileLevelName = getFileLevelName(cc, currentLevel);
+              var groups = computeAggregation(cc, fileLevelName);
+              var g = matchGroupFeature(feat.feature, groups);
+              if (g) {
+                feat.setPopupContent(buildAggregatedPopup(g, feat.feature, cc));
+              }
+            }
+          });
+        });
+      });
+    }).catch(function(err) {
+      btn.textContent = 'Failed — retry';
+      btn.disabled = false;
+    });
+  });
 }
 
 loadData().catch(function (err) {

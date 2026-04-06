@@ -222,6 +222,22 @@ def main():
         json.dump(regions_data, f, separators=(",", ":"), ensure_ascii=False)
     print(f"  data-regions.json: {regions_out.stat().st_size:,} bytes")
 
+    # Write per-country summary files (for on-demand drill-down)
+    summary_dir = ROOT / "data" / "summary"
+    summary_dir.mkdir(exist_ok=True)
+    by_country: dict[str, list] = {}
+    for bfs, m in summary_munis.items():
+        cc = m.get("country", "")
+        if cc:
+            by_country.setdefault(cc, []).append(m)
+    total_country_size = 0
+    for cc, entries in by_country.items():
+        cc_path = summary_dir / f"{cc.lower()}.json"
+        with open(cc_path, "w") as f:
+            json.dump(entries, f, separators=(",", ":"), ensure_ascii=False)
+        total_country_size += cc_path.stat().st_size
+    print(f"  data/summary/*.json: {len(by_country)} files, {total_country_size:,} bytes total")
+
     # Write summary
     summary_out = ROOT / "data-summary.json"
     summary_data = {
