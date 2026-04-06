@@ -1869,25 +1869,51 @@ async function loadData() {
     btn.textContent = 'Loading\u2026';
     btn.disabled = true;
 
-    loadCountryData(cc).then(function() {
-      // Find the open popup and refresh its content
-      map.eachLayer(function(layer) {
-        if (!layer.eachLayer) return;
-        layer.eachLayer(function(sub) {
-          if (!sub.eachLayer) return;
-          sub.eachLayer(function(feat) {
-            if (feat.isPopupOpen && feat.isPopupOpen() && feat.feature) {
-              var fileLevelName = getFileLevelName(cc, currentLevel);
-              var groups = computeAggregation(cc, fileLevelName);
-              var g = matchGroupFeature(feat.feature, groups);
-              if (g) {
-                feat.setPopupContent(buildAggregatedPopup(g, feat.feature, cc));
+    loadCountryData(cc).then(function(munis) {
+      // Build aggregation from the loaded country data
+      var fileLevelName = getFileLevelName(cc, currentLevel);
+      var groups = {};
+      for (var i = 0; i < munis.length; i++) {
+        var m = munis[i];
+        var key = getGroupKey(m, fileLevelName);
+        if (!groups[key]) groups[key] = { name: key, municipalities: [], providers: {}, popProviders: {}, popTotal: 0 };
+        groups[key].municipalities.push(m);
+        var p = m.classification.provider;
+        var w = m.population || 1;
+        groups[key].providers[p] = (groups[key].providers[p] || 0) + 1;
+        groups[key].popProviders[p] = (groups[key].popProviders[p] || 0) + w;
+        groups[key].popTotal += w;
+      }
+      for (var key in groups) {
+        var g = groups[key];
+        var entries = Object.entries(g.providers).sort(function(a,b){return b[1]-a[1]});
+        g.dominant = entries[0] ? entries[0][0] : 'Unknown';
+        g.dominance = entries[0] ? entries[0][1] / g.municipalities.length : 0;
+        g.second = entries.length > 1 ? entries[1][0] : null;
+        g.blendedColor = blendProviderColors(g.popTotal > g.municipalities.length ? g.popProviders : g.providers, g.popTotal > g.municipalities.length ? g.popTotal : g.municipalities.length);
+        g.count = g.municipalities.length;
+        g.hasGateway = g.municipalities.some(function(m){return hasLocalGateway(m)});
+      }
+
+      // Find the open popup layer and refresh
+      var countryLayer = countryLayers.get(cc);
+      if (countryLayer) {
+        countryLayer.eachLayer(function(sub) {
+          if (sub.eachLayer) {
+            sub.eachLayer(function(feat) {
+              if (feat.isPopupOpen && feat.isPopupOpen() && feat.feature) {
+                var g = matchGroupFeature(feat.feature, groups);
+                if (g) feat.setPopupContent(buildAggregatedPopup(g, feat.feature, cc));
               }
-            }
-          });
+            });
+          } else if (sub.isPopupOpen && sub.isPopupOpen() && sub.feature) {
+            var g = matchGroupFeature(sub.feature, groups);
+            if (g) sub.setPopupContent(buildAggregatedPopup(g, sub.feature, cc));
+          }
         });
-      });
+      }
     }).catch(function(err) {
+      console.warn('Load country data failed:', err);
       btn.textContent = 'Failed — retry';
       btn.disabled = false;
     });
