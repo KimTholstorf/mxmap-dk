@@ -2035,21 +2035,39 @@ async function loadData() {
         g.hasGateway = g.municipalities.some(function(m){return hasLocalGateway(m)});
       }
 
+      // Build a fallback group with all municipalities (for name mismatch cases)
+      var allGroup = { name: cc, municipalities: munis, providers: {}, popProviders: {}, popTotal: 0, count: munis.length, hasGateway: false };
+      for (var i = 0; i < munis.length; i++) {
+        var p = munis[i].classification.provider;
+        var w = munis[i].population || 1;
+        allGroup.providers[p] = (allGroup.providers[p] || 0) + 1;
+        allGroup.popProviders[p] = (allGroup.popProviders[p] || 0) + w;
+        allGroup.popTotal += w;
+      }
+      var allEntries = Object.entries(allGroup.providers).sort(function(a,b){return b[1]-a[1]});
+      allGroup.dominant = allEntries[0] ? allEntries[0][0] : 'Unknown';
+      allGroup.dominance = allEntries[0] ? allEntries[0][1] / allGroup.count : 0;
+      allGroup.second = allEntries.length > 1 ? allEntries[1][0] : null;
+      allGroup.blendedColor = blendProviderColors(allGroup.providers, allGroup.count);
+
       // Find the open popup layer and refresh
       var countryLayer = countryLayers.get(cc);
       if (countryLayer) {
         countryLayer.eachLayer(function(sub) {
-          if (sub.eachLayer) {
-            sub.eachLayer(function(feat) {
-              if (feat.isPopupOpen && feat.isPopupOpen() && feat.feature) {
-                var g = matchGroupFeature(feat.feature, groups);
-                if (g) feat.setPopupContent(buildAggregatedPopup(g, feat.feature, cc));
+          var refreshFeat = function(feat) {
+            if (feat.isPopupOpen && feat.isPopupOpen() && feat.feature) {
+              var g = matchGroupFeature(feat.feature, groups);
+              if (!g) {
+                // Name mismatch (e.g., Chinese vs English) — use feature name with all data
+                var fname = (feat.feature.properties || {}).name || (feat.feature.properties || {}).region || cc;
+                g = allGroup;
+                g.name = fname;
               }
-            });
-          } else if (sub.isPopupOpen && sub.isPopupOpen() && sub.feature) {
-            var g = matchGroupFeature(sub.feature, groups);
-            if (g) sub.setPopupContent(buildAggregatedPopup(g, sub.feature, cc));
-          }
+              feat.setPopupContent(buildAggregatedPopup(g, feat.feature, cc));
+            }
+          };
+          if (sub.eachLayer) sub.eachLayer(refreshFeat);
+          else refreshFeat(sub);
         });
       }
     }).catch(function(err) {
