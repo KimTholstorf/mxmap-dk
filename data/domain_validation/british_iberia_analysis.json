@@ -1,0 +1,51 @@
+{
+  "analysis_date": "2026-04-06",
+  "region": "british + iberia",
+  "countries_analyzed": ["GB", "IE", "ES", "PT"],
+  "total_municipalities": 8653,
+  "verdicts_summary": {
+    "GB_IE": {
+      "flagged": 22,
+      "wrong": 0,
+      "correct": 22,
+      "patterns": [
+        "UK councils use .gov.uk abbreviations (hullcc, rbwm, tmbc, lbhf, rbkc, pkc, rctcbc, bathnes, dumgal)",
+        "Welsh councils use .llyw.cymru domain",
+        "Northern Ireland councils use .com/.org TLDs (derrystrabane.com, fermanaghomagh.com, midulstercouncil.org)",
+        "Scottish Gaelic: cne-siar.gov.uk = Comhairle nan Eilean Siar (Western Isles)",
+        "Irish county councils use abbreviations (dlrcoco, sdcc)"
+      ]
+    },
+    "PT": {
+      "flagged": 14,
+      "wrong": 0,
+      "correct": 14,
+      "patterns": [
+        "Portuguese Câmara Municipal abbreviations: cm-oaz.pt, cm-sjm.pt, cmpv.pt, cmvfc.pt, cm-vrsa.pt, cm-fcr.pt, cmav.pt, cmpb.pt, cm-sbras.pt, cm-gaia.pt",
+        "MCR = Município de Caldas da Rainha",
+        "Some use .com (cm-ofrades.com, cm-santana.com) instead of .pt"
+      ]
+    },
+    "ES": {
+      "flagged": 1604,
+      "high_risk_50plus": 180,
+      "wrong_patterns": {
+        "count": 87,
+        "categories": [
+          "altanet.org subdomains: 61 municipalities — regional IT platform, not municipal domains",
+          "blogspot.com/blogia.com: 11 — blog platforms used as municipality 'websites'",
+          "free hosting (weebly.com, webcindario.com, netne.net, galeon.com, localtic.net): 10",
+          "ISP personal pages (personales.ya.com, webs.ono.com): 2",
+          "Generic directories (pueblos-espana.org): 4",
+          "ese2.com, es.tl, es.mn, opennemas.com: 4"
+        ],
+        "note": "These domains should NOT be used for email classification — they belong to hosting platforms, not municipalities. Most have no MX or belong to the platform."
+      },
+      "correct_patterns": {
+        "count": 1517,
+        "note": "Most flags are low-risk (score 20-35) abbreviation mismatches — Spanish municipality names with 'de/del/la/las/los' prepositions that get stripped from domain slugs. These are legitimate."
+      },
+      "action": "ES needs dedicated seed data cleanup for the ~87 platform domains. These should have domain cleared or corrected to actual municipal domain (.es/.gob.es). A separate script could detect platform hosting patterns automatically."
+    }
+  }
+}

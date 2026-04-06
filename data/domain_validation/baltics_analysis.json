@@ -1,0 +1,89 @@
+{
+  "analysis_date": "2026-04-06",
+  "region": "baltics",
+  "countries": ["EE", "LV", "LT"],
+  "total_municipalities": 182,
+  "total_flagged": 7,
+  "verdicts": [
+    {
+      "id": "EE-0528",
+      "name": "Nõo vald",
+      "domain_in_data": "noo.ee",
+      "verdict": "WRONG",
+      "correct_domain": "nvv.ee",
+      "explanation": "noo.ee belongs to Nõo Lihatööstus (meat factory). The municipality's actual domain is nvv.ee (confirmed: website at nvv.ee shows municipal content, email is vald@nvv.ee). The seed domain nvald.ee has no MX records, so the pipeline guessed noo.ee which has Microsoft MX — but that's the meat company's M365 tenant, not the municipality.",
+      "action": "Fix seed data domain to nvv.ee",
+      "evidence": ["noo.ee website = meat factory", "nvv.ee website = Nõo vald municipality", "nvv.ee MX = zonemx.eu (Zone provider)", "nvald.ee has no MX"]
+    },
+    {
+      "id": "EE-0205",
+      "name": "Hiiumaa vald",
+      "domain_in_data": "hiiumaa.ee",
+      "verdict": "CORRECT",
+      "explanation": "hiiumaa.ee is a tourism portal website BUT the municipality uses hiiumaa.ee for email. MX record (hiiumaa-ee.h-v1.mx.microsoft) confirms Microsoft 365 on this domain. Municipal admin site is at vald.hiiumaa.ee (subdomain). Email domain is correct.",
+      "action": "No change needed. Remove from KNOWN_CORPORATE_DOMAINS.",
+      "evidence": ["hiiumaa.ee MX = Microsoft", "vald.hiiumaa.ee = municipal admin subdomain", "Municipality email uses @hiiumaa.ee"]
+    },
+    {
+      "id": "LT-03",
+      "name": "Alytaus rajono savivaldybė",
+      "domain_in_data": "arsa.lt",
+      "verdict": "CORRECT",
+      "explanation": "arsa.lt is the official abbreviation for Alytaus Rajono Savivaldybės Administracija. Confirmed: www.arsa.lt shows municipality content, contact email is info@arsa.lt. Low similarity score is expected — Lithuanian municipalities use abbreviations.",
+      "action": "No change needed. Pattern: Lithuanian rajono municipalities use abbreviations.",
+      "evidence": ["www.arsa.lt = official municipal website", "info@arsa.lt = contact email"]
+    },
+    {
+      "id": "LT-16",
+      "name": "Kauno rajono savivaldybė",
+      "domain_in_data": "krs.lt",
+      "verdict": "LIKELY_CORRECT",
+      "explanation": "krs.lt = Kauno Rajono Savivaldybė abbreviation. Website was unreachable during fetch but domain pattern matches the Lithuanian abbreviation convention (same as arsa.lt, panrs.lt, vrsa.lt). Has Microsoft MX.",
+      "action": "No change needed but verify website accessibility.",
+      "evidence": ["Microsoft MX confirms active email domain", "Abbreviation pattern matches other LT rajono municipalities"]
+    },
+    {
+      "id": "LT-33",
+      "name": "Panevėžio rajono savivaldybė",
+      "domain_in_data": "panrs.lt",
+      "verdict": "LIKELY_CORRECT",
+      "explanation": "panrs.lt = Panevėžio Rajono Savivaldybė abbreviation. Seed domain was panevezys-r.lt (no MX), pipeline found panrs.lt. Website unreachable but domain pattern matches Lithuanian convention. Has local-isp provider.",
+      "action": "No change needed but verify.",
+      "evidence": ["Domain changed from seed panevezys-r.lt", "Abbreviation matches LT pattern"]
+    },
+    {
+      "id": "LT-58",
+      "name": "Vilniaus rajono savivaldybė",
+      "domain_in_data": "vrsa.lt",
+      "verdict": "CORRECT",
+      "explanation": "vrsa.lt = Vilniaus Rajono Savivaldybės Administracija. Confirmed: website shows 'Vilniaus rajono savivaldybė' content with municipal governance information. Microsoft MX.",
+      "action": "No change needed.",
+      "evidence": ["vrsa.lt website = municipal content confirmed", "Microsoft MX"]
+    },
+    {
+      "id": "LV-0112",
+      "name": "Dienvidkurzemes novads",
+      "domain_in_data": "dkn.lv",
+      "verdict": "CORRECT",
+      "explanation": "dkn.lv = Dienvidkurzemes Novads abbreviation. Confirmed: www.dkn.lv is the official municipality website. Contact email is pasts@dkn.lv. Changed from seed domain dienvidkurzeme.lv. Microsoft MX.",
+      "action": "No change needed.",
+      "evidence": ["www.dkn.lv = official municipal website confirmed", "pasts@dkn.lv = official contact email"]
+    }
+  ],
+  "summary": {
+    "wrong": 1,
+    "correct": 5,
+    "likely_correct": 1,
+    "corrections_needed": [
+      {
+        "id": "EE-0528",
+        "fix": "Change seed domain from nvald.ee to nvv.ee"
+      }
+    ],
+    "patterns_discovered": [
+      "Lithuanian rajono municipalities consistently use abbreviations (arsa, krs, panrs, vrsa) — low name-similarity is expected, not suspicious",
+      "Latvian novads municipalities use short abbreviations (dkn) — same pattern",
+      "Estonian hiiumaa.ee: tourism portal website but municipal email domain — website ≠ email domain"
+    ]
+  }
+}

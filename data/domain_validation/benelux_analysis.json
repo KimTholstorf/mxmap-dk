@@ -1,0 +1,20 @@
+{
+  "analysis_date": "2026-04-06",
+  "region": "benelux",
+  "countries": ["BE", "NL"],
+  "total_municipalities": 906,
+  "total_flagged": 36,
+  "verdicts_summary": {
+    "wrong": 1,
+    "correct": 35,
+    "corrections_needed": [
+      {"id": "BE-31042", "name": "Zuienkerke", "old_domain": "mebosoft.be", "new_domain": "zuienkerke.be", "explanation": "mebosoft.be is a web hosting company. Municipal website is at mebosoft.be/zuienkerke_gemeente/ (subdirectory) but email is on zuienkerke.be which has Microsoft MX. Seed data fixed."}
+    ],
+    "patterns_discovered": [
+      "Belgian bilingual municipalities use French name for domain (Ukkel→uccle.be, Bergen→mons.be, Hoei→huy.be, Geldenaken→jodoigne.be) — name mismatch is expected",
+      "Brussels municipalities use .brussels TLD and abbreviations (sjtn.brussels, 1030.be postal codes)",
+      "NL: lv.nl = Leidschendam-Voorburg abbreviation, bernheze.org and montferland.info use non-.nl TLDs but are legitimate",
+      "NL: Tytsjerksteradiel uses Frisian abbreviation t-diel.nl"
+    ]
+  }
+}

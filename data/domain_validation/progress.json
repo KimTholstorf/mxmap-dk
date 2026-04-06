@@ -1,0 +1,568 @@
+{
+  "countries": {
+    "EE": {
+      "status": "done",
+      "flagged": 2,
+      "total": 79,
+      "date": "2026-04-06T16:19:06.690598+00:00",
+      "reviewed": true,
+      "review_date": "2026-04-06",
+      "corrections": 1
+    },
+    "LV": {
+      "status": "done",
+      "flagged": 1,
+      "total": 43,
+      "date": "2026-04-06T16:19:06.691107+00:00",
+      "reviewed": true,
+      "review_date": "2026-04-06",
+      "corrections": 0
+    },
+    "LT": {
+      "status": "done",
+      "flagged": 4,
+      "total": 60,
+      "date": "2026-04-06T16:19:06.691494+00:00",
+      "reviewed": true,
+      "review_date": "2026-04-06",
+      "corrections": 0
+    },
+    "NO": {
+      "status": "done",
+      "flagged": 6,
+      "total": 357,
+      "date": "2026-04-06T16:26:44.236216+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "SE": {
+      "status": "done",
+      "flagged": 0,
+      "total": 290,
+      "date": "2026-04-06T16:26:44.237833+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "FI": {
+      "status": "done",
+      "flagged": 4,
+      "total": 308,
+      "date": "2026-04-06T16:26:44.239430+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "DK": {
+      "status": "done",
+      "flagged": 9,
+      "total": 98,
+      "date": "2026-04-06T16:26:44.240884+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "IS": {
+      "status": "done",
+      "flagged": 11,
+      "total": 62,
+      "date": "2026-04-06T16:26:44.242338+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "DE": {
+      "status": "done",
+      "flagged": 257,
+      "total": 11061,
+      "date": "2026-04-06T16:52:40.736905+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "AT": {
+      "status": "done",
+      "flagged": 93,
+      "total": 2078,
+      "date": "2026-04-06T16:52:40.742563+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "LI": {
+      "status": "done",
+      "flagged": 0,
+      "total": 11,
+      "date": "2026-04-06T16:52:40.743223+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "LU": {
+      "status": "done",
+      "flagged": 0,
+      "total": 100,
+      "date": "2026-04-06T16:52:40.743515+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "BE": {
+      "status": "done",
+      "flagged": 30,
+      "total": 565,
+      "date": "2026-04-06T16:49:07.883311+00:00",
+      "reviewed": true,
+      "corrections": 1,
+      "review_date": "2026-04-06"
+    },
+    "NL": {
+      "status": "done",
+      "flagged": 6,
+      "total": 342,
+      "date": "2026-04-06T16:49:07.886584+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "GB": {
+      "status": "done",
+      "flagged": 20,
+      "total": 352,
+      "date": "2026-04-06T16:50:23.916715+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "IE": {
+      "status": "done",
+      "flagged": 2,
+      "total": 31,
+      "date": "2026-04-06T16:50:23.916989+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "ES": {
+      "status": "done",
+      "flagged": 1604,
+      "total": 8265,
+      "date": "2026-04-06T17:12:57.615173+00:00",
+      "reviewed": true,
+      "review_date": "2026-04-06",
+      "note": "97 platform domains cleared from seed"
+    },
+    "PT": {
+      "status": "done",
+      "flagged": 14,
+      "total": 308,
+      "date": "2026-04-06T17:12:57.617251+00:00",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "FR": {
+      "status": "done",
+      "date": "2026-04-06T16:58:39.797958+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "IT": {
+      "status": "done",
+      "date": "2026-04-06T16:58:39.797958+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "GR": {
+      "status": "done",
+      "date": "2026-04-06T16:58:39.797958+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "CY": {
+      "status": "done",
+      "date": "2026-04-06T16:58:39.797958+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "MT": {
+      "status": "done",
+      "date": "2026-04-06T16:58:39.797958+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "CZ": {
+      "status": "done",
+      "date": "2026-04-06T16:58:39.797958+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "SK": {
+      "status": "done",
+      "date": "2026-04-06T16:58:39.797958+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "PL": {
+      "status": "done",
+      "date": "2026-04-06T16:58:39.797958+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "HU": {
+      "status": "done",
+      "date": "2026-04-06T16:58:39.797958+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "SI": {
+      "status": "done",
+      "date": "2026-04-06T16:58:39.797958+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "HR": {
+      "status": "done",
+      "date": "2026-04-06T16:58:39.797958+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "BA": {
+      "status": "done",
+      "date": "2026-04-06T16:58:39.797958+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "RS": {
+      "status": "done",
+      "date": "2026-04-06T16:58:39.797958+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "MK": {
+      "status": "done",
+      "date": "2026-04-06T16:58:39.797958+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "AL": {
+      "status": "done",
+      "date": "2026-04-06T16:58:39.797958+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "XK": {
+      "status": "done",
+      "date": "2026-04-06T16:58:39.797958+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "ME": {
+      "status": "done",
+      "date": "2026-04-06T16:58:39.797958+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "BG": {
+      "status": "done",
+      "date": "2026-04-06T16:58:39.797958+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "RO": {
+      "status": "done",
+      "date": "2026-04-06T16:58:39.797958+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "UA": {
+      "status": "done",
+      "date": "2026-04-06T16:58:39.797958+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "BY": {
+      "status": "done",
+      "date": "2026-04-06T16:58:39.797958+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "GE": {
+      "status": "done",
+      "date": "2026-04-06T16:58:39.797958+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "AM": {
+      "status": "done",
+      "date": "2026-04-06T16:58:39.797958+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "AZ": {
+      "status": "done",
+      "date": "2026-04-06T16:58:39.797958+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "MD": {
+      "status": "done",
+      "date": "2026-04-06T16:58:39.797958+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "RU": {
+      "status": "done",
+      "date": "2026-04-06T16:58:39.797958+00:00",
+      "reviewed": true,
+      "corrections": 0,
+      "review_date": "2026-04-06"
+    },
+    "BR": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "MX": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "AR": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "CO": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "PE": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "CL": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "VE": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "EC": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "BO": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "PY": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "UY": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "CR": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "PA": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "HN": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "SV": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "NI": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "GT": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "CU": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "DO": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "HT": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "NG": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "ZA": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "GH": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "RW": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "DZ": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "MA": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "TN": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "CM": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "BF": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "SN": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "TZ": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "KE": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "ET": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "UG": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "AU": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "NZ": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "PH": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "ID": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "SG": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "MY": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "KR": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "JP": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "TH": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    },
+    "IN": {
+      "status": "done",
+      "reviewed": true,
+      "review_date": "2026-04-06"
+    }
+  },
+  "started": "2026-04-06T16:19:06.689848+00:00"
+}

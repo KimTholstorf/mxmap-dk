@@ -6,6 +6,7 @@ from mail_sovereignty.constants import (
     GOOGLE_KEYWORDS,
     TELIA_KEYWORDS,
     TET_KEYWORDS,
+    YANDEX_KEYWORDS,
     ZONE_KEYWORDS,
     ZOHO_KEYWORDS,
     MICROSOFT_KEYWORDS,
@@ -126,7 +127,7 @@ def classify(
     mx_display = ", ".join(mx_records[:2])
 
     # 1. Direct MX hostname match
-    local_providers = {"zone", "telia", "tet", "elkdata"}
+    local_providers = {"zone", "telia", "tet", "elkdata", "yandex"}
     for provider, keywords, label in [
         ("microsoft", MICROSOFT_KEYWORDS, "Microsoft"),
         ("google", GOOGLE_KEYWORDS, "Google"),
@@ -136,6 +137,7 @@ def classify(
         ("aws", AWS_KEYWORDS, "AWS"),
         ("zoho", ZOHO_KEYWORDS, "Zoho"),
         ("elkdata", ELKDATA_KEYWORDS, "Elkdata"),
+        ("yandex", YANDEX_KEYWORDS, "Yandex"),
     ]:
         if any(k in mx_blob for k in keywords):
             # For local providers, DKIM may reveal a cloud backend

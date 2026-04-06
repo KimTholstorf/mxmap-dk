@@ -1,0 +1,3540 @@
+{
+  "AD": {
+    "total": 7,
+    "with_domain": 7,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "AE": {
+    "total": 7,
+    "with_domain": 6,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "AF": {
+    "total": 403,
+    "with_domain": 2,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "AG": {
+    "total": 6,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "AL": {
+    "total": 61,
+    "with_domain": 49,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "AM": {
+    "total": 46,
+    "with_domain": 37,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "AO": {
+    "total": 162,
+    "with_domain": 12,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "AR": {
+    "total": 1602,
+    "with_domain": 601,
+    "flagged": 19,
+    "top_risks": [
+      {
+        "id": "AR-789",
+        "name": "Los Altos",
+        "domain": "web.facebook.com",
+        "risk": 90,
+        "flags": [
+          "platform_domain:facebook.com"
+        ]
+      },
+      {
+        "id": "AR-1013",
+        "name": "Presidencia Roque Sáenz Peña",
+        "domain": "ciudadtermal.com.ar",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.27",
+          "foreign_tld:.com.ar",
+          "independent_provider"
+        ]
+      },
+      {
+        "id": "AR-1060",
+        "name": "Rauch Partido",
+        "domain": "rauch.mun.gba.gov.ar",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.13",
+          "foreign_tld:.gba.gov.ar",
+          "independent_provider"
+        ]
+      },
+      {
+        "id": "AR-1094",
+        "name": "Río Gallegos",
+        "domain": "mrg.gov.ar",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.29",
+          "foreign_tld:.gov.ar",
+          "independent_provider"
+        ]
+      },
+      {
+        "id": "AR-1126",
+        "name": "San Antonio",
+        "domain": "corrientes.gov.ar",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.20",
+          "foreign_tld:.gov.ar",
+          "independent_provider"
+        ]
+      },
+      {
+        "id": "AR-1149",
+        "name": "San Cosme",
+        "domain": "munired.mcypcorrientes.gob.ar",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.27",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "AR-1205",
+        "name": "San Miguel Partido",
+        "domain": "msm.gov.ar",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.21",
+          "foreign_tld:.gov.ar",
+          "independent_provider"
+        ]
+      },
+      {
+        "id": "AR-1276",
+        "name": "Sauce",
+        "domain": "corrientes.gov.ar",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.13",
+          "foreign_tld:.gov.ar",
+          "independent_provider"
+        ]
+      },
+      {
+        "id": "AR-1323",
+        "name": "Tatacuá",
+        "domain": "corrientes.gov.ar",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.12",
+          "foreign_tld:.gov.ar",
+          "independent_provider"
+        ]
+      },
+      {
+        "id": "AR-134",
+        "name": "Bonpland",
+        "domain": "corrientes.gov.ar",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.22",
+          "foreign_tld:.gov.ar",
+          "independent_provider"
+        ]
+      }
+    ]
+  },
+  "AT": {
+    "total": 2078,
+    "with_domain": 2077,
+    "flagged": 7,
+    "top_risks": [
+      {
+        "id": "AT-61049",
+        "name": "Ehrenhausen an der Weinstraße",
+        "domain": "ehrenhausen.steiermark.at",
+        "risk": 55,
+        "flags": [
+          "low_name_match:0.22",
+          "domain_changed_from_seed:ehrenhausen-gv.at",
+          "independent_provider"
+        ]
+      },
+      {
+        "id": "AT-70915",
+        "name": "Hart im Zillertal",
+        "domain": "gemeinde-hart.com",
+        "risk": 55,
+        "flags": [
+          "low_name_match:0.30",
+          "commercial_tld:.com"
+        ]
+      },
+      {
+        "id": "AT-32001",
+        "name": "Gaming",
+        "domain": "gaming.noe.at",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.22",
+          "domain_changed_from_seed:gaming.gv.at"
+        ]
+      },
+      {
+        "id": "AT-50314",
+        "name": "Grödig",
+        "domain": "groedig.salzburg.at",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.14",
+          "domain_changed_from_seed:groedig.gv.at"
+        ]
+      },
+      {
+        "id": "AT-50508",
+        "name": "St. Margarethen im Lungau",
+        "domain": "gde-st-margarethen.salzburg.at",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.27",
+          "domain_changed_from_seed:st.margarethen.salzburg.at"
+        ]
+      },
+      {
+        "id": "AT-60323",
+        "name": "Pölfing-Brunn",
+        "domain": "poelfing-brunn.steiermark.at",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.18",
+          "domain_changed_from_seed:poelfing-brunn.gv.at"
+        ]
+      },
+      {
+        "id": "AT-61115",
+        "name": "Sankt Stefan ob Leoben",
+        "domain": "st-stefan-leoben.steiermark.at",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.28",
+          "domain_changed_from_seed:st-stefan-leoben.at"
+        ]
+      }
+    ]
+  },
+  "AU": {
+    "total": 699,
+    "with_domain": 532,
+    "flagged": 3,
+    "top_risks": [
+      {
+        "id": "AU-018",
+        "name": "Anangu Pitjantjatjara Yankunytjatjara",
+        "domain": "waru.org",
+        "risk": 55,
+        "flags": [
+          "low_name_match:0.15",
+          "commercial_tld:.org"
+        ]
+      },
+      {
+        "id": "AU-629",
+        "name": "Toowoomba Region",
+        "domain": "tr.qld.gov.au",
+        "risk": 55,
+        "flags": [
+          "low_name_match:0.24",
+          "foreign_tld:.qld.gov.au",
+          "very_short_slug:tr"
+        ]
+      },
+      {
+        "id": "AU-374",
+        "name": "Shire of Bulloo",
+        "domain": "bullooshire.net.au",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.12",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "AZ": {
+    "total": 65,
+    "with_domain": 60,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "BA": {
+    "total": 145,
+    "with_domain": 98,
+    "flagged": 2,
+    "top_risks": [
+      {
+        "id": "BA-145",
+        "name": "Brčko",
+        "domain": "bdcentral.net",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.29",
+          "commercial_tld:.net",
+          "independent_provider"
+        ]
+      },
+      {
+        "id": "BA-064",
+        "name": "Istočno Novo Sarajevo",
+        "domain": "opistinasns.net",
+        "risk": 55,
+        "flags": [
+          "weak_name_match:0.40",
+          "commercial_tld:.net",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "BB": {
+    "total": 11,
+    "with_domain": 3,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "BD": {
+    "total": 8,
+    "with_domain": 8,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "BE": {
+    "total": 565,
+    "with_domain": 564,
+    "flagged": 1,
+    "top_risks": [
+      {
+        "id": "BE-31042",
+        "name": "Zuienkerke",
+        "domain": "mebosoft.be",
+        "risk": 55,
+        "flags": [
+          "low_name_match:0.11",
+          "domain_changed_from_seed:zuienkerke.be",
+          "independent_provider"
+        ]
+      }
+    ]
+  },
+  "BF": {
+    "total": 351,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "BG": {
+    "total": 48,
+    "with_domain": 48,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "BH": {
+    "total": 5,
+    "with_domain": 5,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "BI": {
+    "total": 125,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "BJ": {
+    "total": 80,
+    "with_domain": 13,
+    "flagged": 2,
+    "top_risks": [
+      {
+        "id": "BJ-008",
+        "name": "Allada",
+        "domain": "web-africa.org",
+        "risk": 70,
+        "flags": [
+          "low_name_match:0.27",
+          "commercial_tld:.org",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "BJ-024",
+        "name": "Cotonou",
+        "domain": "cotonou.mairie.bj",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.00",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "BN": {
+    "total": 40,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "BO": {
+    "total": 336,
+    "with_domain": 49,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "BR": {
+    "total": 5529,
+    "with_domain": 4174,
+    "flagged": 41,
+    "top_risks": [
+      {
+        "id": "BR-1111",
+        "name": "Casa Nova",
+        "domain": "casanova.ba.io.org.br",
+        "risk": 70,
+        "flags": [
+          "low_name_match:0.20",
+          "foreign_tld:.org.br",
+          "unknown_provider",
+          "very_short_slug:io"
+        ]
+      },
+      {
+        "id": "BR-488",
+        "name": "Barra do Rocha",
+        "domain": "barradorocha.ba.io.org.br",
+        "risk": 70,
+        "flags": [
+          "low_name_match:0.14",
+          "foreign_tld:.org.br",
+          "unknown_provider",
+          "very_short_slug:io"
+        ]
+      },
+      {
+        "id": "BR-506",
+        "name": "Barro Preto",
+        "domain": "barropreto.ba.io.org.br",
+        "risk": 70,
+        "flags": [
+          "low_name_match:0.17",
+          "foreign_tld:.org.br",
+          "unknown_provider",
+          "very_short_slug:io"
+        ]
+      },
+      {
+        "id": "BR-5501",
+        "name": "Água Doce do Norte",
+        "domain": "guiacapixaba.net",
+        "risk": 70,
+        "flags": [
+          "low_name_match:0.30",
+          "commercial_tld:.net",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "BR-1009",
+        "name": "Capela do Alto Alegre",
+        "domain": "capeladoaltoalegre.ba.indap.org.br",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.17",
+          "foreign_tld:.org.br",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "BR-2949",
+        "name": "Mata Grande",
+        "domain": "matagrande.al.cnm.org.br",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.15",
+          "foreign_tld:.org.br",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "BR-3075",
+        "name": "Mombaça",
+        "domain": "mariapereiraweb.net",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.18",
+          "commercial_tld:.net",
+          "independent_provider"
+        ]
+      },
+      {
+        "id": "BR-3842",
+        "name": "Plácido de Castro",
+        "domain": "placidodecastro.ac.cnm.org.br",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.11",
+          "foreign_tld:.org.br",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "BR-3984",
+        "name": "Presidente Kubitschek",
+        "domain": "pk.mg.gov.br",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.18",
+          "foreign_tld:.mg.gov.br",
+          "independent_provider",
+          "very_short_slug:pk"
+        ]
+      },
+      {
+        "id": "BR-431",
+        "name": "Balneário Camboriú",
+        "domain": "bc.sc.gov.br",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.21",
+          "foreign_tld:.sc.gov.br",
+          "independent_provider",
+          "very_short_slug:bc"
+        ]
+      }
+    ]
+  },
+  "BS": {
+    "total": 32,
+    "with_domain": 2,
+    "flagged": 1,
+    "top_risks": [
+      {
+        "id": "BS-012",
+        "name": "Freeport",
+        "domain": "gbpa.com",
+        "risk": 55,
+        "flags": [
+          "low_name_match:0.17",
+          "commercial_tld:.com"
+        ]
+      }
+    ]
+  },
+  "BT": {
+    "total": 20,
+    "with_domain": 20,
+    "flagged": 3,
+    "top_risks": [
+      {
+        "id": "BT-006",
+        "name": "Lhuntse District",
+        "domain": "bhutan.gov.bt",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.29",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "BT-011",
+        "name": "Samdrup Jongkhar District",
+        "domain": "bhutan.gov.bt",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.14",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "BT-019",
+        "name": "Wangdue Phodrang District",
+        "domain": "bhutan.gov.bt",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.14",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "BW": {
+    "total": 10,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "BY": {
+    "total": 118,
+    "with_domain": 106,
+    "flagged": 4,
+    "top_risks": [
+      {
+        "id": "BY-010",
+        "name": "Bierastavica District",
+        "domain": "berestovitsa.grodno-region.by",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.06",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "BY-030",
+        "name": "Hantsavichy district",
+        "domain": "gantsevichi.brest-region.by",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.27",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "BY-051",
+        "name": "Kruhlaje District",
+        "domain": "krugloe.mogilev-region.by",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.21",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "BY-056",
+        "name": "Liachavičy District",
+        "domain": "liahovichi.brest-region.by",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.28",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "BZ": {
+    "total": 6,
+    "with_domain": 3,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "CA": {
+    "total": 3864,
+    "with_domain": 2813,
+    "flagged": 214,
+    "top_risks": [
+      {
+        "id": "CA-1341",
+        "name": "Kennedy",
+        "domain": "angelfire.com",
+        "risk": 90,
+        "flags": [
+          "platform_domain:angelfire.com"
+        ]
+      },
+      {
+        "id": "CA-1620",
+        "name": "Lemberg",
+        "domain": "lemberg-sk-ca.weebly.com",
+        "risk": 90,
+        "flags": [
+          "platform_domain:weebly.com"
+        ]
+      },
+      {
+        "id": "CA-1851",
+        "name": "Meath Park",
+        "domain": "villageofmeathpark.wix.com",
+        "risk": 90,
+        "flags": [
+          "platform_domain:wix.com"
+        ]
+      },
+      {
+        "id": "CA-214",
+        "name": "Belleterre",
+        "domain": "facebook.com",
+        "risk": 90,
+        "flags": [
+          "platform_domain:facebook.com"
+        ]
+      },
+      {
+        "id": "CA-3083",
+        "name": "Sainte-Marguerite-Marie",
+        "domain": "facebook.com",
+        "risk": 90,
+        "flags": [
+          "platform_domain:facebook.com"
+        ]
+      },
+      {
+        "id": "CA-1051",
+        "name": "Goodsoil",
+        "domain": "goodsoil.sasktelwebsite.net",
+        "risk": 70,
+        "flags": [
+          "low_name_match:0.18",
+          "commercial_tld:.net",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "CA-1486",
+        "name": "Lac-Bouchette",
+        "domain": "municipalites-du-quebec.org",
+        "risk": 70,
+        "flags": [
+          "low_name_match:0.18",
+          "commercial_tld:.org",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "CA-1714",
+        "name": "Love",
+        "domain": "cybervillagemall.com",
+        "risk": 70,
+        "flags": [
+          "low_name_match:0.20",
+          "commercial_tld:.com",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "CA-1732",
+        "name": "MacNutt",
+        "domain": "macnutt.yolasite.com",
+        "risk": 70,
+        "flags": [
+          "low_name_match:0.27",
+          "commercial_tld:.com",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "CA-1825",
+        "name": "Mayfield No. 406",
+        "domain": "rm502.sasktelwebhosting.com",
+        "risk": 70,
+        "flags": [
+          "low_name_match:0.26",
+          "commercial_tld:.com",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "CD": {
+    "total": 146,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "CF": {
+    "total": 109,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "CG": {
+    "total": 93,
+    "with_domain": 3,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "CI": {
+    "total": 31,
+    "with_domain": 2,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "CL": {
+    "total": 342,
+    "with_domain": 307,
+    "flagged": 1,
+    "top_risks": [
+      {
+        "id": "CL-213",
+        "name": "Pelluhue",
+        "domain": "sinim.gov.cl",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.00",
+          "foreign_tld:.gov.cl",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "CM": {
+    "total": 359,
+    "with_domain": 279,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "CN": {
+    "total": 22,
+    "with_domain": 21,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "CO": {
+    "total": 1097,
+    "with_domain": 1088,
+    "flagged": 1,
+    "top_risks": [
+      {
+        "id": "CO-109",
+        "name": "Bogotá",
+        "domain": "cajica-cundinamarca.gov.co",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.08",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "CR": {
+    "total": 83,
+    "with_domain": 81,
+    "flagged": 1,
+    "top_risks": [
+      {
+        "id": "CR-061",
+        "name": "San Carlos Canton",
+        "domain": "munisc.go.cr",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.29",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "CU": {
+    "total": 168,
+    "with_domain": 81,
+    "flagged": 6,
+    "top_risks": [
+      {
+        "id": "CU-105",
+        "name": "Melena del Sur",
+        "domain": "facebook.com",
+        "risk": 90,
+        "flags": [
+          "platform_domain:facebook.com"
+        ]
+      },
+      {
+        "id": "CU-086",
+        "name": "Las Tunas",
+        "domain": "guije.com",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.15",
+          "commercial_tld:.com",
+          "independent_provider"
+        ]
+      },
+      {
+        "id": "CU-102",
+        "name": "Matanzas",
+        "domain": "guije.com",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.00",
+          "commercial_tld:.com",
+          "independent_provider"
+        ]
+      },
+      {
+        "id": "CU-118",
+        "name": "Palma Soriano",
+        "domain": "guije.com",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.12",
+          "commercial_tld:.com",
+          "independent_provider"
+        ]
+      },
+      {
+        "id": "CU-147",
+        "name": "Sancti Spíritus",
+        "domain": "guije.com",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.11",
+          "commercial_tld:.com",
+          "independent_provider"
+        ]
+      },
+      {
+        "id": "CU-044",
+        "name": "Consolación del Sur",
+        "domain": "consolaciondelsur.pinarte.cult.cu",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.19",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "CV": {
+    "total": 22,
+    "with_domain": 10,
+    "flagged": 1,
+    "top_risks": [
+      {
+        "id": "CV-017",
+        "name": "São Lourenço dos Órgãos",
+        "domain": "cmslo.org",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.24",
+          "commercial_tld:.org",
+          "independent_provider"
+        ]
+      }
+    ]
+  },
+  "CY": {
+    "total": 50,
+    "with_domain": 21,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "CZ": {
+    "total": 205,
+    "with_domain": 205,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "DE": {
+    "total": 11061,
+    "with_domain": 11041,
+    "flagged": 22,
+    "top_risks": [
+      {
+        "id": "DE-15085125",
+        "name": "Groß Quenstedt",
+        "domain": "vorharz.net",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.10",
+          "commercial_tld:.net",
+          "independent_provider"
+        ]
+      },
+      {
+        "id": "DE-15085160",
+        "name": "Hedersleben",
+        "domain": "vorharz.net",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.22",
+          "commercial_tld:.net",
+          "independent_provider"
+        ]
+      },
+      {
+        "id": "DE-15085285",
+        "name": "Schwanebeck",
+        "domain": "vorharz.net",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.22",
+          "commercial_tld:.net",
+          "independent_provider"
+        ]
+      },
+      {
+        "id": "DE-15085287",
+        "name": "Selke-Aue",
+        "domain": "vorharz.net",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.13",
+          "commercial_tld:.net",
+          "independent_provider"
+        ]
+      },
+      {
+        "id": "DE-15085365",
+        "name": "Wegeleben",
+        "domain": "vorharz.net",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.00",
+          "commercial_tld:.net",
+          "independent_provider"
+        ]
+      },
+      {
+        "id": "DE-07340002",
+        "name": "Busenberg",
+        "domain": "dahner-felsenland.net",
+        "risk": 55,
+        "flags": [
+          "low_name_match:0.24",
+          "commercial_tld:.net"
+        ]
+      },
+      {
+        "id": "DE-07340502",
+        "name": "Bundenthal",
+        "domain": "dahner-felsenland.net",
+        "risk": 55,
+        "flags": [
+          "low_name_match:0.15",
+          "commercial_tld:.net"
+        ]
+      },
+      {
+        "id": "DE-16063033",
+        "name": "Gerstengrund",
+        "domain": "stadt-geisa.org",
+        "risk": 55,
+        "flags": [
+          "low_name_match:0.27",
+          "commercial_tld:.org"
+        ]
+      },
+      {
+        "id": "DE-01055010",
+        "name": "Dahme",
+        "domain": "groemitz.eu",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.15",
+          "foreign_tld:.eu",
+          "independent_provider"
+        ]
+      },
+      {
+        "id": "DE-01058007",
+        "name": "Arpsdorf",
+        "domain": "arpsdorf.amt-mittelholstein.de",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.16",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "DJ": {
+    "total": 6,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "DK": {
+    "total": 98,
+    "with_domain": 98,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "DM": {
+    "total": 10,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "DO": {
+    "total": 156,
+    "with_domain": 22,
+    "flagged": 2,
+    "top_risks": [
+      {
+        "id": "DO-107",
+        "name": "Puñal",
+        "domain": "elpunal.blogspot.com",
+        "risk": 90,
+        "flags": [
+          "platform_domain:blogspot."
+        ]
+      },
+      {
+        "id": "DO-137",
+        "name": "Santo Domingo Oeste",
+        "domain": "asdo.gov.do",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.29",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "DZ": {
+    "total": 1555,
+    "with_domain": 19,
+    "flagged": 2,
+    "top_risks": [
+      {
+        "id": "DZ-1087",
+        "name": "Ouenza",
+        "domain": "ouenzasport.blogspot.com",
+        "risk": 90,
+        "flags": [
+          "platform_domain:blogspot."
+        ]
+      },
+      {
+        "id": "DZ-532",
+        "name": "Djouab",
+        "domain": "rapidumdz.blogspot.com",
+        "risk": 90,
+        "flags": [
+          "platform_domain:blogspot."
+        ]
+      }
+    ]
+  },
+  "EC": {
+    "total": 215,
+    "with_domain": 173,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "EE": {
+    "total": 79,
+    "with_domain": 79,
+    "flagged": 1,
+    "top_risks": [
+      {
+        "id": "EE-0528",
+        "name": "Nõo vald",
+        "domain": "noo.ee",
+        "risk": 65,
+        "flags": [
+          "known_corporate_domain",
+          "domain_changed_from_seed:nvv.ee"
+        ]
+      }
+    ]
+  },
+  "EG": {
+    "total": 26,
+    "with_domain": 24,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "ER": {
+    "total": 6,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "ES": {
+    "total": 8265,
+    "with_domain": 7013,
+    "flagged": 208,
+    "top_risks": [
+      {
+        "id": "ES-012",
+        "name": "A Lama",
+        "domain": "concellodalama.weebly.com",
+        "risk": 90,
+        "flags": [
+          "platform_domain:weebly.com"
+        ]
+      },
+      {
+        "id": "ES-1037",
+        "name": "Bellmunt del Priorat",
+        "domain": "bellmunt.altanet.org",
+        "risk": 90,
+        "flags": [
+          "platform_domain:altanet.org"
+        ]
+      },
+      {
+        "id": "ES-1111",
+        "name": "Benifallet",
+        "domain": "benifallet.altanet.org",
+        "risk": 90,
+        "flags": [
+          "platform_domain:altanet.org"
+        ]
+      },
+      {
+        "id": "ES-1235",
+        "name": "Blancafort",
+        "domain": "blancafort.altanet.org",
+        "risk": 90,
+        "flags": [
+          "platform_domain:altanet.org"
+        ]
+      },
+      {
+        "id": "ES-1276",
+        "name": "Bonastre",
+        "domain": "bonastre.altanet.org",
+        "risk": 90,
+        "flags": [
+          "platform_domain:altanet.org"
+        ]
+      },
+      {
+        "id": "ES-1298",
+        "name": "Bot",
+        "domain": "bot.altanet.org",
+        "risk": 90,
+        "flags": [
+          "platform_domain:altanet.org"
+        ]
+      },
+      {
+        "id": "ES-1413",
+        "name": "Cabacés",
+        "domain": "cabaces.altanet.org",
+        "risk": 90,
+        "flags": [
+          "platform_domain:altanet.org"
+        ]
+      },
+      {
+        "id": "ES-1456",
+        "name": "Cabra del Camp",
+        "domain": "cabra.altanet.org",
+        "risk": 90,
+        "flags": [
+          "platform_domain:altanet.org"
+        ]
+      },
+      {
+        "id": "ES-1477",
+        "name": "Cadalso",
+        "domain": "galeon.com",
+        "risk": 90,
+        "flags": [
+          "platform_domain:galeon.com"
+        ]
+      },
+      {
+        "id": "ES-1785",
+        "name": "Cascante del Río",
+        "domain": "cascante.es.mn",
+        "risk": 90,
+        "flags": [
+          "platform_domain:es.mn"
+        ]
+      }
+    ]
+  },
+  "ET": {
+    "total": 95,
+    "with_domain": 4,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "FI": {
+    "total": 308,
+    "with_domain": 308,
+    "flagged": 2,
+    "top_risks": [
+      {
+        "id": "FI-536",
+        "name": "Nokia",
+        "domain": "nokia.fi",
+        "risk": 65,
+        "flags": [
+          "known_corporate_domain",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "FI-309",
+        "name": "Outokumpu",
+        "domain": "outokumpu.fi",
+        "risk": 55,
+        "flags": [
+          "known_corporate_domain",
+          "independent_provider"
+        ]
+      }
+    ]
+  },
+  "FJ": {
+    "total": 14,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "FM": {
+    "total": 129,
+    "with_domain": 5,
+    "flagged": 1,
+    "top_risks": [
+      {
+        "id": "FM-090",
+        "name": "Pulusuk",
+        "domain": "houkisland.org",
+        "risk": 70,
+        "flags": [
+          "low_name_match:0.24",
+          "commercial_tld:.org",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "FR": {
+    "total": 279,
+    "with_domain": 279,
+    "flagged": 1,
+    "top_risks": [
+      {
+        "id": "FR-39300",
+        "name": "Lons-le-Saunier",
+        "domain": "lfranche-comte.fr",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.23",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "GA": {
+    "total": 9,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "GB": {
+    "total": 352,
+    "with_domain": 352,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "GD": {
+    "total": 6,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "GE": {
+    "total": 67,
+    "with_domain": 61,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "GH": {
+    "total": 328,
+    "with_domain": 74,
+    "flagged": 2,
+    "top_risks": [
+      {
+        "id": "GH-212",
+        "name": "Ledzokuku-Krowor Municipal District",
+        "domain": "lekmagh.org",
+        "risk": 70,
+        "flags": [
+          "low_name_match:0.26",
+          "commercial_tld:.org",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "GH-185",
+        "name": "Komenda/Edina/Eguafo/Abirem Municipal District",
+        "domain": "keea.ghanadistricts.gov.gh",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.12",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "GL": {
+    "total": 5,
+    "with_domain": 5,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "GM": {
+    "total": 40,
+    "with_domain": 1,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "GN": {
+    "total": 33,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "GQ": {
+    "total": 8,
+    "with_domain": 1,
+    "flagged": 1,
+    "top_risks": [
+      {
+        "id": "GQ-008",
+        "name": "Wele-Nzas",
+        "domain": "guineaecuatorialpress.com",
+        "risk": 55,
+        "flags": [
+          "low_name_match:0.28",
+          "commercial_tld:.com"
+        ]
+      }
+    ]
+  },
+  "GR": {
+    "total": 332,
+    "with_domain": 332,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "GT": {
+    "total": 338,
+    "with_domain": 134,
+    "flagged": 3,
+    "top_risks": [
+      {
+        "id": "GT-168",
+        "name": "San Andrés Semetabaj",
+        "domain": "munisas.blogspot.com",
+        "risk": 90,
+        "flags": [
+          "platform_domain:blogspot."
+        ]
+      },
+      {
+        "id": "GT-240",
+        "name": "San Miguel Panán",
+        "domain": "panan.muni.gob.gt",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.22",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "GT-290",
+        "name": "Santa Lucía Utatlán",
+        "domain": "santacruzlalaguna.muni.gob.gt",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.19",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "GW": {
+    "total": 36,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "GY": {
+    "total": 10,
+    "with_domain": 3,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "HN": {
+    "total": 297,
+    "with_domain": 14,
+    "flagged": 2,
+    "top_risks": [
+      {
+        "id": "HN-038",
+        "name": "Concepción",
+        "domain": "concepcionintibuca.blogspot.com",
+        "risk": 90,
+        "flags": [
+          "platform_domain:blogspot."
+        ]
+      },
+      {
+        "id": "HN-286",
+        "name": "Villa de San Francisco",
+        "domain": "vsanfransico.wixsite.com",
+        "risk": 90,
+        "flags": [
+          "platform_domain:wixsite.com"
+        ]
+      }
+    ]
+  },
+  "HR": {
+    "total": 556,
+    "with_domain": 556,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "HT": {
+    "total": 43,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "HU": {
+    "total": 174,
+    "with_domain": 170,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "ID": {
+    "total": 521,
+    "with_domain": 375,
+    "flagged": 2,
+    "top_risks": [
+      {
+        "id": "ID-294",
+        "name": "Ogan Komering Ilir",
+        "domain": "go.kaboki.go.id",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.27",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "ID-425",
+        "name": "Southwest Aceh",
+        "domain": "abdya.nad.go.id",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.12",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "IE": {
+    "total": 31,
+    "with_domain": 31,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "IL": {
+    "total": 63,
+    "with_domain": 38,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "IN": {
+    "total": 36,
+    "with_domain": 35,
+    "flagged": 5,
+    "top_risks": [
+      {
+        "id": "IN-007",
+        "name": "Chhattisgarh",
+        "domain": "chhattisgarh.nic.in",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.13",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "IN-012",
+        "name": "Himachal Pradesh",
+        "domain": "himachal.nic.in",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.22",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "IN-013",
+        "name": "Jammu and Kashmir",
+        "domain": "jammukashmir.nic.in",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.22",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "IN-019",
+        "name": "Madhya Pradesh",
+        "domain": "mp.gov.in",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.27",
+          "independent_provider",
+          "very_short_slug:mp"
+        ]
+      },
+      {
+        "id": "IN-034",
+        "name": "Uttar Pradesh",
+        "domain": "up.gov.in",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.29",
+          "independent_provider",
+          "very_short_slug:up"
+        ]
+      }
+    ]
+  },
+  "IQ": {
+    "total": 19,
+    "with_domain": 6,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "IR": {
+    "total": 29,
+    "with_domain": 13,
+    "flagged": 7,
+    "top_risks": [
+      {
+        "id": "IR-013",
+        "name": "Kerman Province",
+        "domain": "gov.kr.ir",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.25",
+          "unknown_provider",
+          "very_short_slug:kr"
+        ]
+      },
+      {
+        "id": "IR-002",
+        "name": "Ardabil Province",
+        "domain": "ardabil.ostan-ar.ir",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.18",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "IR-003",
+        "name": "Bushehr Province",
+        "domain": "ostb.ir",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.11",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "IR-005",
+        "name": "East Azarbaijan Province",
+        "domain": "ostan-as.gov.ir",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.28",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "IR-011",
+        "name": "Ilam Province",
+        "domain": "portal-il.ir",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.20",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "IR-020",
+        "name": "Mazandaran Province",
+        "domain": "ostan-mz.ir",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.16",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "IR-027",
+        "name": "West Azarbaijan Province",
+        "domain": "ostan-ag.gov.ir",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.28",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "IS": {
+    "total": 62,
+    "with_domain": 62,
+    "flagged": 1,
+    "top_risks": [
+      {
+        "id": "IS-0042",
+        "name": "Skeiða- og Gnúpverjahreppur",
+        "domain": "sogsveit.is",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.19",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "IT": {
+    "total": 175,
+    "with_domain": 175,
+    "flagged": 1,
+    "top_risks": [
+      {
+        "id": "IT-060",
+        "name": "Pesaro e Urbino",
+        "domain": "provincia.pu.it",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.27",
+          "independent_provider",
+          "very_short_slug:pu"
+        ]
+      }
+    ]
+  },
+  "JM": {
+    "total": 14,
+    "with_domain": 1,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "JO": {
+    "total": 12,
+    "with_domain": 1,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "JP": {
+    "total": 47,
+    "with_domain": 47,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "KE": {
+    "total": 47,
+    "with_domain": 47,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "KG": {
+    "total": 7,
+    "with_domain": 3,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "KH": {
+    "total": 25,
+    "with_domain": 1,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "KI": {
+    "total": 115,
+    "with_domain": 1,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "KM": {
+    "total": 3,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "KN": {
+    "total": 14,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "KP": {
+    "total": 9,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "KR": {
+    "total": 194,
+    "with_domain": 191,
+    "flagged": 25,
+    "top_risks": [
+      {
+        "id": "KR-132",
+        "name": "Pyeongchang County",
+        "domain": "en.yes-pc.net",
+        "risk": 70,
+        "flags": [
+          "low_name_match:0.27",
+          "commercial_tld:.net",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "KR-177",
+        "name": "Yangpyeong County",
+        "domain": "yp21.net",
+        "risk": 65,
+        "flags": [
+          "low_name_match:0.20",
+          "commercial_tld:.net",
+          "independent_provider",
+          "numeric_in_domain"
+        ]
+      },
+      {
+        "id": "KR-018",
+        "name": "Cheongsong County",
+        "domain": "cs.go.kr",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.22",
+          "unknown_provider",
+          "very_short_slug:cs"
+        ]
+      },
+      {
+        "id": "KR-041",
+        "name": "Gapyeong County",
+        "domain": "gp.go.kr",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.25",
+          "unknown_provider",
+          "very_short_slug:gp"
+        ]
+      },
+      {
+        "id": "KR-052",
+        "name": "Goesan County",
+        "domain": "cbgs.net",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.25",
+          "commercial_tld:.net",
+          "independent_provider"
+        ]
+      },
+      {
+        "id": "KR-082",
+        "name": "Hapcheon County",
+        "domain": "hc.go.kr",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.25",
+          "unknown_provider",
+          "very_short_slug:hc"
+        ]
+      },
+      {
+        "id": "KR-101",
+        "name": "Jeungpyeong County",
+        "domain": "jp.go.kr",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.21",
+          "unknown_provider",
+          "very_short_slug:jp"
+        ]
+      },
+      {
+        "id": "KR-103",
+        "name": "Jincheon County",
+        "domain": "jc.go.kr",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.25",
+          "unknown_provider",
+          "very_short_slug:jc"
+        ]
+      },
+      {
+        "id": "KR-164",
+        "name": "Uijeongbu",
+        "domain": "ui4u.net",
+        "risk": 60,
+        "flags": [
+          "weak_name_match:0.46",
+          "commercial_tld:.net",
+          "unknown_provider",
+          "numeric_in_domain"
+        ]
+      },
+      {
+        "id": "KR-185",
+        "name": "Yeongdeok County",
+        "domain": "eng.yd.go.kr",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.24",
+          "unknown_provider",
+          "very_short_slug:yd"
+        ]
+      }
+    ]
+  },
+  "KW": {
+    "total": 6,
+    "with_domain": 1,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "KZ": {
+    "total": 17,
+    "with_domain": 9,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "LA": {
+    "total": 17,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "LB": {
+    "total": 9,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "LC": {
+    "total": 11,
+    "with_domain": 1,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "LI": {
+    "total": 11,
+    "with_domain": 11,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "LK": {
+    "total": 25,
+    "with_domain": 3,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "LR": {
+    "total": 140,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "LS": {
+    "total": 8,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "LT": {
+    "total": 60,
+    "with_domain": 60,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "LU": {
+    "total": 100,
+    "with_domain": 100,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "LV": {
+    "total": 43,
+    "with_domain": 43,
+    "flagged": 1,
+    "top_risks": [
+      {
+        "id": "LV-0112",
+        "name": "Dienvidkurzemes novads",
+        "domain": "dkn.lv",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.22",
+          "domain_changed_from_seed:dienvidkurzeme.lv"
+        ]
+      }
+    ]
+  },
+  "LY": {
+    "total": 66,
+    "with_domain": 21,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "MA": {
+    "total": 1274,
+    "with_domain": 22,
+    "flagged": 1,
+    "top_risks": [
+      {
+        "id": "MA-723",
+        "name": "Moulay Brahim",
+        "domain": "azapro.freetzi.com",
+        "risk": 70,
+        "flags": [
+          "low_name_match:0.21",
+          "commercial_tld:.com",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "MC": {
+    "total": 1,
+    "with_domain": 1,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "MD": {
+    "total": 32,
+    "with_domain": 32,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "ME": {
+    "total": 25,
+    "with_domain": 22,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "MG": {
+    "total": 24,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "MH": {
+    "total": 59,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "MK": {
+    "total": 85,
+    "with_domain": 84,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "ML": {
+    "total": 73,
+    "with_domain": 1,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "MM": {
+    "total": 14,
+    "with_domain": 7,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "MN": {
+    "total": 21,
+    "with_domain": 21,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "MR": {
+    "total": 15,
+    "with_domain": 2,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "MT": {
+    "total": 68,
+    "with_domain": 68,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "MU": {
+    "total": 9,
+    "with_domain": 2,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "MV": {
+    "total": 21,
+    "with_domain": 2,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "MW": {
+    "total": 28,
+    "with_domain": 1,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "MX": {
+    "total": 2471,
+    "with_domain": 1322,
+    "flagged": 24,
+    "top_risks": [
+      {
+        "id": "MX-1089",
+        "name": "Naranjal",
+        "domain": "naranjalver14.wordpress.com",
+        "risk": 90,
+        "flags": [
+          "platform_domain:wordpress.com"
+        ]
+      },
+      {
+        "id": "MX-2239",
+        "name": "Trincheras Municipality",
+        "domain": "es-la.facebook.com",
+        "risk": 90,
+        "flags": [
+          "platform_domain:facebook.com"
+        ]
+      },
+      {
+        "id": "MX-640",
+        "name": "Guadalupe y Calvo Municipality",
+        "domain": "guadalupeycalvo.es.tl",
+        "risk": 90,
+        "flags": [
+          "platform_domain:es.tl"
+        ]
+      },
+      {
+        "id": "MX-060",
+        "name": "Albino Zertuche Municipality",
+        "domain": "albinozertuche.puebla.gob.mx",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.10",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "MX-085",
+        "name": "Amacueca Municipality",
+        "domain": "amacueca.jalisco.gob.mx",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.27",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "MX-1019",
+        "name": "Miguel Hidalgo",
+        "domain": "miguelhidalgo.cdmx.gob.mx",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.12",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "MX-1670",
+        "name": "San Rafael",
+        "domain": "oc4jver.veracruz.gob.mx",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.24",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "MX-1724",
+        "name": "Santa Catarina Tlaltempan Municipality",
+        "domain": "santacatarinatlaltempan.puebla.gob.mx",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.14",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "MX-1989",
+        "name": "Tantoyuca",
+        "domain": "portal.veracruz.gob.mx",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.24",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "MX-2009",
+        "name": "Techaluta de Montenegro Municipality",
+        "domain": "techalutademontenegro.jalisco.gob.mx",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.21",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "MY": {
+    "total": 161,
+    "with_domain": 35,
+    "flagged": 4,
+    "top_risks": [
+      {
+        "id": "MY-038",
+        "name": "Johor Bahru District",
+        "domain": "pdnj.johor.gov.my",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.09",
+          "foreign_tld:.johor.gov.my",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "MY-008",
+        "name": "Batu Pahat District",
+        "domain": "johordt.gov.my",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.08",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "MY-082",
+        "name": "Lubok Antu",
+        "domain": "archive.is",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.12",
+          "foreign_tld:.is",
+          "independent_provider"
+        ]
+      },
+      {
+        "id": "MY-148",
+        "name": "Tangkak District",
+        "domain": "johordt.gov.my",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.09",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "MZ": {
+    "total": 159,
+    "with_domain": 8,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "NA": {
+    "total": 14,
+    "with_domain": 12,
+    "flagged": 5,
+    "top_risks": [
+      {
+        "id": "NA-002",
+        "name": "Hardap Region",
+        "domain": "arc.org.na",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.27",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "NA-007",
+        "name": "Kunene Region",
+        "domain": "arc.org.na",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.13",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "NA-008",
+        "name": "Ohangwena Region",
+        "domain": "arc.org.na",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.22",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "NA-009",
+        "name": "Omaheke Region",
+        "domain": "arc.org.na",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.25",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "NA-014",
+        "name": "Zambezi Region",
+        "domain": "arc.org.na",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.25",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "NE": {
+    "total": 63,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "NG": {
+    "total": 811,
+    "with_domain": 741,
+    "flagged": 2,
+    "top_risks": [
+      {
+        "id": "NG-343",
+        "name": "Ikot Abasi",
+        "domain": "aksgonline.com",
+        "risk": 70,
+        "flags": [
+          "low_name_match:0.11",
+          "commercial_tld:.com",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "NG-268",
+        "name": "Gwagwalada",
+        "domain": "fctacss.org.ng",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.12",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "NI": {
+    "total": 151,
+    "with_domain": 27,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "NL": {
+    "total": 342,
+    "with_domain": 342,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "NO": {
+    "total": 357,
+    "with_domain": 357,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "NP": {
+    "total": 77,
+    "with_domain": 69,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "NR": {
+    "total": 14,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "NZ": {
+    "total": 66,
+    "with_domain": 66,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "OM": {
+    "total": 61,
+    "with_domain": 7,
+    "flagged": 3,
+    "top_risks": [
+      {
+        "id": "OM-037",
+        "name": "Mirbat",
+        "domain": "web.archive.org",
+        "risk": 70,
+        "flags": [
+          "low_name_match:0.15",
+          "commercial_tld:.org",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "OM-039",
+        "name": "Muscat",
+        "domain": "mm.gov.om",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.25",
+          "independent_provider",
+          "very_short_slug:mm"
+        ]
+      },
+      {
+        "id": "OM-049",
+        "name": "Seeb",
+        "domain": "mctmnet.gov.om",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.18",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "PA": {
+    "total": 80,
+    "with_domain": 80,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "PE": {
+    "total": 1858,
+    "with_domain": 314,
+    "flagged": 15,
+    "top_risks": [
+      {
+        "id": "PE-1498",
+        "name": "Santa Barbara de Carhuacayan",
+        "domain": "carhuacayan.blogspot.com",
+        "risk": 90,
+        "flags": [
+          "platform_domain:blogspot."
+        ]
+      },
+      {
+        "id": "PE-697",
+        "name": "Iguain District",
+        "domain": "municipalidaddeigu.wixsite.com",
+        "risk": 90,
+        "flags": [
+          "platform_domain:wixsite.com"
+        ]
+      },
+      {
+        "id": "PE-1118",
+        "name": "Paiján District",
+        "domain": "passageway.city",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.25",
+          "foreign_tld:.city",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "PE-343",
+        "name": "Chincha Baja District",
+        "domain": "chinchabaja.md.gob.pe",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.10",
+          "unknown_provider",
+          "very_short_slug:md"
+        ]
+      },
+      {
+        "id": "PE-1157",
+        "name": "Parco District",
+        "domain": "gob.pe",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.12",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "PE-1416",
+        "name": "San Juan de Lurigancho",
+        "domain": "web.munisjl.gob.pe",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.23",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "PE-1471",
+        "name": "San Pedro de Larcay District",
+        "domain": "cuspel.pe",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.27",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "PE-1595",
+        "name": "Shilla District",
+        "domain": "gob.pe",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.00",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "PE-1616",
+        "name": "Sivia District",
+        "domain": "desa.inei.gob.pe",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.24",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "PE-1776",
+        "name": "Vilcabamba District",
+        "domain": "gob.pe",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.10",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "PG": {
+    "total": 112,
+    "with_domain": 11,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "PH": {
+    "total": 1486,
+    "with_domain": 1027,
+    "flagged": 23,
+    "top_risks": [
+      {
+        "id": "PH-1109",
+        "name": "San Antonio",
+        "domain": "sanantonio-quezon.webs.com",
+        "risk": 90,
+        "flags": [
+          "platform_domain:webs.com"
+        ]
+      },
+      {
+        "id": "PH-1431",
+        "name": "Tubay",
+        "domain": "tubayagusan.wordpress.com",
+        "risk": 90,
+        "flags": [
+          "platform_domain:wordpress.com"
+        ]
+      },
+      {
+        "id": "PH-915",
+        "name": "Obando",
+        "domain": "obandopilipinas.wordpress.com",
+        "risk": 90,
+        "flags": [
+          "platform_domain:wordpress.com"
+        ]
+      },
+      {
+        "id": "PH-1065",
+        "name": "Rizal",
+        "domain": "rizal.zamboangadelnorte.com",
+        "risk": 70,
+        "flags": [
+          "low_name_match:0.27",
+          "commercial_tld:.com",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "PH-1098",
+        "name": "Salug",
+        "domain": "salug.zamboangadelnorte.com",
+        "risk": 70,
+        "flags": [
+          "low_name_match:0.18",
+          "commercial_tld:.com",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "PH-118",
+        "name": "Baliguian",
+        "domain": "baliguian.zamboangadelnorte.com",
+        "risk": 70,
+        "flags": [
+          "low_name_match:0.23",
+          "commercial_tld:.com",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "PH-1274",
+        "name": "Sergio Osmeña Sr.",
+        "domain": "sergioosmena.zamboangadelnorte.com",
+        "risk": 70,
+        "flags": [
+          "low_name_match:0.19",
+          "commercial_tld:.com",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "PH-1287",
+        "name": "Sibutad",
+        "domain": "sibutad.zamboangadelnorte.com",
+        "risk": 70,
+        "flags": [
+          "low_name_match:0.25",
+          "commercial_tld:.com",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "PH-1302",
+        "name": "Siocon",
+        "domain": "siocon.zamboangadelnorte.com",
+        "risk": 70,
+        "flags": [
+          "low_name_match:0.17",
+          "commercial_tld:.com",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "PH-1306",
+        "name": "Sirawai",
+        "domain": "sirawai.zamboangadelnorte.com",
+        "risk": 70,
+        "flags": [
+          "low_name_match:0.08",
+          "commercial_tld:.com",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "PK": {
+    "total": 4,
+    "with_domain": 4,
+    "flagged": 1,
+    "top_risks": [
+      {
+        "id": "PK-002",
+        "name": "Khyber Pakhtunkhwa",
+        "domain": "kp.gov.pk",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.21",
+          "independent_provider",
+          "very_short_slug:kp"
+        ]
+      }
+    ]
+  },
+  "PL": {
+    "total": 380,
+    "with_domain": 380,
+    "flagged": 5,
+    "top_risks": [
+      {
+        "id": "PL-0083",
+        "name": "Powiat Strzelecko-drezdenecki",
+        "domain": "powiat.fsd.pl",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.13",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "PL-0105",
+        "name": "Powiat Nowodworski",
+        "domain": "regioset.pl",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.16",
+          "domain_changed_from_seed:nowodworski.pl"
+        ]
+      },
+      {
+        "id": "PL-0183",
+        "name": "Powiat Ropczycko-sędziszowski",
+        "domain": "powiat.ropczyce.rze.pl",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.20",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "PL-0232",
+        "name": "Powiat Bartoszycki",
+        "domain": "powiatbartoszyce.republika.pl",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.23",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "PL-0238",
+        "name": "Powiat Gołdapski",
+        "domain": "powiatgoldap.home.pl",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.11",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "PS": {
+    "total": 14,
+    "with_domain": 2,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "PT": {
+    "total": 308,
+    "with_domain": 307,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "PW": {
+    "total": 16,
+    "with_domain": 16,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "PY": {
+    "total": 265,
+    "with_domain": 68,
+    "flagged": 2,
+    "top_risks": [
+      {
+        "id": "PY-162",
+        "name": "Presidente Franco District",
+        "domain": "munifrancopy.es.tl",
+        "risk": 90,
+        "flags": [
+          "platform_domain:es.tl"
+        ]
+      },
+      {
+        "id": "PY-050",
+        "name": "Coronel Oviedo",
+        "domain": "mco.gov.py",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.25",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "QA": {
+    "total": 8,
+    "with_domain": 1,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "RO": {
+    "total": 42,
+    "with_domain": 42,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "RS": {
+    "total": 174,
+    "with_domain": 158,
+    "flagged": 1,
+    "top_risks": [
+      {
+        "id": "RS-082",
+        "name": "Mali Iđoš Municipality",
+        "domain": "kishegyes.com",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.24",
+          "commercial_tld:.com",
+          "independent_provider"
+        ]
+      }
+    ]
+  },
+  "RU": {
+    "total": 89,
+    "with_domain": 89,
+    "flagged": 6,
+    "top_risks": [
+      {
+        "id": "RU-088",
+        "name": "Zabaykalsky Krai",
+        "domain": "75.ru",
+        "risk": 65,
+        "flags": [
+          "low_name_match:0.00",
+          "unknown_provider",
+          "very_short_slug:75",
+          "numeric_in_domain"
+        ]
+      },
+      {
+        "id": "RU-089",
+        "name": "Zaporozhye Oblast",
+        "domain": "zo.gov.ru",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.22",
+          "foreign_tld:.gov.ru",
+          "independent_provider",
+          "very_short_slug:zo"
+        ]
+      },
+      {
+        "id": "RU-013",
+        "name": "Chukotka Autonomous Okrug",
+        "domain": "чукотка.рф",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.00",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "RU-042",
+        "name": "Luhansk People's Republic",
+        "domain": "главалнр.рф",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.00",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "RU-081",
+        "name": "Ulyanovsk Oblast",
+        "domain": "ulgov.gosuslugi.ru",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.17",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "RU-086",
+        "name": "Yamalo-Nenets Autonomous Okrug",
+        "domain": "правительство.янао.рф",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.00",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "RW": {
+    "total": 406,
+    "with_domain": 337,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "SA": {
+    "total": 14,
+    "with_domain": 6,
+    "flagged": 1,
+    "top_risks": [
+      {
+        "id": "SA-014",
+        "name": "Ḥaʼil Province",
+        "domain": "spaceref.com",
+        "risk": 55,
+        "flags": [
+          "low_name_match:0.29",
+          "commercial_tld:.com"
+        ]
+      }
+    ]
+  },
+  "SB": {
+    "total": 9,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "SC": {
+    "total": 28,
+    "with_domain": 24,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "SD": {
+    "total": 202,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "SE": {
+    "total": 290,
+    "with_domain": 290,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "SG": {
+    "total": 173,
+    "with_domain": 26,
+    "flagged": 4,
+    "top_risks": [
+      {
+        "id": "SG-032",
+        "name": "Central Singapore Community Development Council",
+        "domain": "cdc.gov.sg",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.10",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "SG-102",
+        "name": "North East Community Development Council",
+        "domain": "cdc.gov.sg",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.12",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "SG-104",
+        "name": "North West Community Development Council",
+        "domain": "cdc.gov.sg",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.12",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "SG-138",
+        "name": "South West Community Development Council",
+        "domain": "cdc.gov.sg",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.12",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "SI": {
+    "total": 212,
+    "with_domain": 212,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "SK": {
+    "total": 79,
+    "with_domain": 79,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "SL": {
+    "total": 16,
+    "with_domain": 2,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "SM": {
+    "total": 9,
+    "with_domain": 9,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "SN": {
+    "total": 223,
+    "with_domain": 18,
+    "flagged": 2,
+    "top_risks": [
+      {
+        "id": "SN-078",
+        "name": "Khombole",
+        "domain": "sipsenegal.org",
+        "risk": 70,
+        "flags": [
+          "low_name_match:0.11",
+          "commercial_tld:.org",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "SN-181",
+        "name": "Tambacounda",
+        "domain": "mairietamba.com",
+        "risk": 55,
+        "flags": [
+          "weak_name_match:0.45",
+          "commercial_tld:.com",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "SO": {
+    "total": 112,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "SR": {
+    "total": 64,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "SS": {
+    "total": 80,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "ST": {
+    "total": 7,
+    "with_domain": 2,
+    "flagged": 1,
+    "top_risks": [
+      {
+        "id": "ST-001",
+        "name": "Cantagalo",
+        "domain": "mnec.gov.st",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.15",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "SV": {
+    "total": 260,
+    "with_domain": 20,
+    "flagged": 2,
+    "top_risks": [
+      {
+        "id": "SV-010",
+        "name": "Apopa",
+        "domain": "alcaldiasansalvadoroeste.com",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.14",
+          "commercial_tld:.com",
+          "independent_provider"
+        ]
+      },
+      {
+        "id": "SV-233",
+        "name": "Soyapango",
+        "domain": "alcaldiasansalvadoreste.gob.sv",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.25",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "SY": {
+    "total": 13,
+    "with_domain": 8,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "SZ": {
+    "total": 55,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "TD": {
+    "total": 23,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "TG": {
+    "total": 39,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "TH": {
+    "total": 79,
+    "with_domain": 76,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "TJ": {
+    "total": 55,
+    "with_domain": 26,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "TL": {
+    "total": 14,
+    "with_domain": 11,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "TM": {
+    "total": 48,
+    "with_domain": 2,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "TN": {
+    "total": 279,
+    "with_domain": 114,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "TO": {
+    "total": 5,
+    "with_domain": 1,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "TR": {
+    "total": 81,
+    "with_domain": 79,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "TT": {
+    "total": 15,
+    "with_domain": 15,
+    "flagged": 2,
+    "top_risks": [
+      {
+        "id": "TT-003",
+        "name": "Couva-Tabaquite-Talparo",
+        "domain": "ctt.gov.tt",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.25",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "TT-010",
+        "name": "San Fernando",
+        "domain": "sfcity.gov.tt",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.24",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "TV": {
+    "total": 10,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "TW": {
+    "total": 13,
+    "with_domain": 12,
+    "flagged": 1,
+    "top_risks": [
+      {
+        "id": "TW-012",
+        "name": "Yilan County",
+        "domain": "enwww.e-land.gov.tw",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.12",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "TZ": {
+    "total": 199,
+    "with_domain": 170,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "UA": {
+    "total": 162,
+    "with_domain": 68,
+    "flagged": 10,
+    "top_risks": [
+      {
+        "id": "UA-076",
+        "name": "Kupiansk Raion",
+        "domain": "kupyansk-rayon.osp-ua.info",
+        "risk": 70,
+        "flags": [
+          "low_name_match:0.22",
+          "commercial_tld:.info",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "UA-012",
+        "name": "Bilhorod-Dnistrovskyi Raion",
+        "domain": "bd-rda.od.gov.ua",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.27",
+          "foreign_tld:.od.gov.ua",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "UA-093",
+        "name": "Novoselytsia Raion",
+        "domain": "novoselica-rda.cv.ua",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.11",
+          "unknown_provider",
+          "very_short_slug:cv"
+        ]
+      },
+      {
+        "id": "UA-121",
+        "name": "Sheptytskyi Raion",
+        "domain": "gromada.info",
+        "risk": 60,
+        "flags": [
+          "low_name_match:0.17",
+          "commercial_tld:.info",
+          "independent_provider"
+        ]
+      },
+      {
+        "id": "UA-038",
+        "name": "Halych Raion",
+        "domain": "ww2.gov.if.ua",
+        "risk": 55,
+        "flags": [
+          "low_name_match:0.00",
+          "unknown_provider",
+          "numeric_in_domain"
+        ]
+      },
+      {
+        "id": "UA-056",
+        "name": "Khmelnytskyi Raion",
+        "domain": "rayrada.km.ua",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.21",
+          "independent_provider",
+          "very_short_slug:km"
+        ]
+      },
+      {
+        "id": "UA-087",
+        "name": "Mykolaiv Raion",
+        "domain": "mk.gov.ua",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.27",
+          "independent_provider",
+          "very_short_slug:mk"
+        ]
+      },
+      {
+        "id": "UA-098",
+        "name": "Oleksandriia Raion",
+        "domain": "alex.gov.ua",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.19",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "UA-147",
+        "name": "Volodymyrets Raion",
+        "domain": "rv.gov.ua",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.11",
+          "independent_provider",
+          "very_short_slug:rv"
+        ]
+      },
+      {
+        "id": "UA-155",
+        "name": "Zarichne Raion",
+        "domain": "rv.gov.ua",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.13",
+          "independent_provider",
+          "very_short_slug:rv"
+        ]
+      }
+    ]
+  },
+  "UG": {
+    "total": 135,
+    "with_domain": 133,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "UY": {
+    "total": 19,
+    "with_domain": 19,
+    "flagged": 1,
+    "top_risks": [
+      {
+        "id": "UY-019",
+        "name": "Treinta y Tres Department",
+        "domain": "33.gub.uy",
+        "risk": 55,
+        "flags": [
+          "low_name_match:0.00",
+          "independent_provider",
+          "very_short_slug:33",
+          "numeric_in_domain"
+        ]
+      }
+    ]
+  },
+  "UZ": {
+    "total": 11,
+    "with_domain": 11,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "VC": {
+    "total": 6,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "VE": {
+    "total": 352,
+    "with_domain": 200,
+    "flagged": 10,
+    "top_risks": [
+      {
+        "id": "VE-016",
+        "name": "Cajigal",
+        "domain": "alcaldiadecajigal.wordpress.com",
+        "risk": 90,
+        "flags": [
+          "platform_domain:wordpress.com"
+        ]
+      },
+      {
+        "id": "VE-163",
+        "name": "Municipio La Cañada",
+        "domain": "alcaldiadeudta.blogspot.com",
+        "risk": 90,
+        "flags": [
+          "platform_domain:blogspot."
+        ]
+      },
+      {
+        "id": "VE-324",
+        "name": "Padre Noguera",
+        "domain": "diariociudadcaparo.blogspot.com",
+        "risk": 90,
+        "flags": [
+          "platform_domain:blogspot."
+        ]
+      },
+      {
+        "id": "VE-326",
+        "name": "Pampán",
+        "domain": "alcaldiapampan.blogspot.com",
+        "risk": 90,
+        "flags": [
+          "platform_domain:blogspot."
+        ]
+      },
+      {
+        "id": "VE-095",
+        "name": "Municipio Camatagua",
+        "domain": "web.archive.org",
+        "risk": 70,
+        "flags": [
+          "low_name_match:0.08",
+          "commercial_tld:.org",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "VE-064",
+        "name": "Municipio Arismendi",
+        "domain": "enriocaribe.com",
+        "risk": 55,
+        "flags": [
+          "weak_name_match:0.48",
+          "commercial_tld:.com",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "VE-321",
+        "name": "Municipio Zaraza",
+        "domain": "alcaldiadezaraza.com",
+        "risk": 55,
+        "flags": [
+          "weak_name_match:0.45",
+          "commercial_tld:.com",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "VE-071",
+        "name": "Municipio Autónomo Maroa",
+        "domain": "maroa-amazonas.gob.ve",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.29",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "VE-102",
+        "name": "Municipio Carvajal",
+        "domain": "francisco-anzoategui.gob.ve",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.22",
+          "unknown_provider"
+        ]
+      },
+      {
+        "id": "VE-291",
+        "name": "Municipio Tinaquillo",
+        "domain": "falcon-cojedes.gob.ve",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.19",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "VN": {
+    "total": 31,
+    "with_domain": 31,
+    "flagged": 1,
+    "top_risks": [
+      {
+        "id": "VN-023",
+        "name": "Thanh Hóa",
+        "domain": "en-us.thanhhoa.gov.vn",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.17",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "VU": {
+    "total": 6,
+    "with_domain": 1,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "WS": {
+    "total": 11,
+    "with_domain": 11,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "XK": {
+    "total": 38,
+    "with_domain": 27,
+    "flagged": 1,
+    "top_risks": [
+      {
+        "id": "XK-004",
+        "name": "Elez Han Municipality",
+        "domain": "haniielezit.rks-gov.net",
+        "risk": 55,
+        "flags": [
+          "weak_name_match:0.44",
+          "commercial_tld:.net",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "YE": {
+    "total": 22,
+    "with_domain": 0,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "ZA": {
+    "total": 205,
+    "with_domain": 187,
+    "flagged": 1,
+    "top_risks": [
+      {
+        "id": "ZA-190",
+        "name": "Victor Khanye Local Municipality",
+        "domain": "delmasmunic.co.za",
+        "risk": 50,
+        "flags": [
+          "low_name_match:0.14",
+          "unknown_provider"
+        ]
+      }
+    ]
+  },
+  "ZM": {
+    "total": 113,
+    "with_domain": 93,
+    "flagged": 0,
+    "top_risks": []
+  },
+  "ZW": {
+    "total": 62,
+    "with_domain": 35,
+    "flagged": 0,
+    "top_risks": []
+  }
+}
