@@ -68,11 +68,16 @@
   .popup-load-btn { padding: 4px 12px; font-size: 11px; cursor: pointer; background: #4a90d9; color: #fff; border: none; border-radius: 3px; margin-top: 4px; }
   .popup-load-btn:hover { background: #3a7bc0; }
   .popup-load-btn:disabled { background: #aaa; cursor: wait; }
-  .popup-muni-list { max-height: 300px; overflow-y: auto; font-size: 11px; }
+  .popup-muni-list { max-height: 350px; overflow-y: auto; font-size: 11px; }
   .popup-muni-row { padding: 3px 0; border-bottom: 1px solid #f0f0f0; }
   .popup-muni-row:last-child { border-bottom: none; }
-  .popup-search { width: 100%; padding: 4px 8px; font-size: 11px; border: 1px solid #ddd; border-radius: 3px; margin-bottom: 4px; box-sizing: border-box; }
-  .leaflet-popup-content.popup-detail { width: 420px !important; }
+  .popup-muni-detail { display: none; padding: 4px 4px 4px 16px; font-size: 10px; background: #fafafa; border-radius: 3px; margin-top: 2px; }
+  .popup-muni-row.expanded .popup-muni-detail { display: block; }
+  .popup-muni-summary:hover { background: #f0f0f0; border-radius: 3px; }
+  .popup-search { padding: 4px 8px; font-size: 11px; border: 1px solid #ddd; border-radius: 3px; box-sizing: border-box; }
+  .popup-filter-chip { padding: 1px 6px; font-size: 9px; border-radius: 10px; background: #fff; cursor: pointer; white-space: nowrap; }
+  .popup-filter-chip.active { color: #fff !important; }
+  .popup-filter-chip:hover { opacity: 0.8; }
   .stats-countries .stats-label { width: 75px; font-size: 12px; }
   .stats-countries .stats-value { width: 60px; }
   .stats-countries .stats-row { margin: 3px 0; }
@@ -508,9 +513,39 @@ const COUNTRY_LIST = ['EE', 'LV', 'LT', 'FI', 'NO', 'IS', 'SE', 'DE', 'DK', 'AD'
 
 window.filterMuniList = function(input) {
   var query = input.value.toLowerCase();
-  var rows = input.parentElement.querySelectorAll('.popup-muni-row');
+  var container = input.closest('.popup-section');
+  var rows = container.querySelectorAll('.popup-muni-row');
+  var activeFilter = container.querySelector('.popup-filter-chip.active');
+  var provFilter = activeFilter ? activeFilter.dataset.provider : null;
   for (var i = 0; i < rows.length; i++) {
-    rows[i].style.display = rows[i].dataset.name.indexOf(query) >= 0 ? '' : 'none';
+    var nameMatch = rows[i].dataset.name.indexOf(query) >= 0;
+    var provMatch = !provFilter || rows[i].dataset.prov === provFilter;
+    rows[i].style.display = (nameMatch && provMatch) ? '' : 'none';
+  }
+};
+
+window.toggleProviderFilter = function(chip) {
+  var wasActive = chip.classList.contains('active');
+  // Deactivate all chips in this group
+  var chips = chip.parentElement.querySelectorAll('.popup-filter-chip');
+  for (var i = 0; i < chips.length; i++) {
+    chips[i].classList.remove('active');
+    chips[i].style.background = '#fff';
+  }
+  if (!wasActive) {
+    chip.classList.add('active');
+    chip.style.background = chip.style.borderColor;
+  }
+  // Apply filter
+  var container = chip.closest('.popup-section');
+  var provFilter = !wasActive ? chip.dataset.provider : null;
+  var searchInput = container.querySelector('.popup-search');
+  var query = searchInput ? searchInput.value.toLowerCase() : '';
+  var rows = container.querySelectorAll('.popup-muni-row');
+  for (var i = 0; i < rows.length; i++) {
+    var nameMatch = !query || rows[i].dataset.name.indexOf(query) >= 0;
+    var provMatch = !provFilter || rows[i].dataset.prov === provFilter;
+    rows[i].style.display = (nameMatch && provMatch) ? '' : 'none';
   }
 };
 
@@ -1077,31 +1112,61 @@ function buildAggregatedPopup(group, feature, cc) {
     muniList += '<button class="popup-load-btn" data-cc="' + cc + '">Load municipality details</button>';
   } else {
   const sorted = group.municipalities.slice().sort((a, b) => a.name.localeCompare(b.name));
+  // Collect unique providers for filter chips
+  const provSet = {};
+  for (const m of sorted) { provSet[m.classification.provider] = (provSet[m.classification.provider]||0)+1; }
+  const provList = Object.entries(provSet).sort((a,b) => b[1]-a[1]);
+
   muniList = '<div class="popup-section">';
   muniList += '<div class="popup-section-title">Municipalities (' + total + ')</div>';
+  // Search + filter row
+  muniList += '<div style="display:flex;gap:4px;flex-wrap:wrap;margin-bottom:4px;align-items:center">';
   if (total > 10) {
-    muniList += '<input type="text" class="popup-search" placeholder="Search municipalities\u2026" oninput="filterMuniList(this)">';
+    muniList += '<input type="text" class="popup-search" placeholder="Search\u2026" oninput="filterMuniList(this)" style="flex:1;min-width:100px">';
   }
+  for (const [prov, cnt] of provList) {
+    const col = COLORS[prov] || '#888';
+    muniList += '<button class="popup-filter-chip" data-provider="' + escapeHtml(prov) + '" onclick="toggleProviderFilter(this)" style="border:1px solid ' + col + ';color:' + col + '">' + escapeHtml(prov) + ' (' + cnt + ')</button>';
+  }
+  muniList += '</div>';
+
   muniList += '<div class="popup-muni-list">';
   for (const m of sorted) {
     const color = COLORS[m.classification.provider] || '#888';
     const prov = m.classification.provider;
     const domain = m.domain || '';
-    const mx = (m.mx || []).join(', ') || '';
-    const reason = (m.classification.reason || m.reason || '').substring(0, 80);
+    const mx = m.mx || [];
+    const reason = m.classification.reason || m.reason || '';
     const pop = m.population ? m.population.toLocaleString() : '';
-    muniList += '<div class="popup-muni-row" data-name="' + escapeHtml(m.name.toLowerCase()) + '">' +
-      '<div style="display:flex;align-items:center;gap:4px">' +
-      '<span style="display:inline-block;width:8px;height:8px;background:' + color + ';border-radius:2px;flex-shrink:0"></span>' +
+    const mxCountries = (m.mx_countries || []).join(', ');
+    const gateway = m.gateway || '';
+    const ispName = m.isp_name || '';
+
+    // Expandable row with details toggle
+    muniList += '<div class="popup-muni-row" data-name="' + escapeHtml(m.name.toLowerCase()) + '" data-prov="' + escapeHtml(prov) + '">';
+    // Summary line (always visible)
+    muniList += '<div class="popup-muni-summary" onclick="this.parentElement.classList.toggle(\'expanded\')" style="cursor:pointer">' +
+      '<span style="display:inline-block;width:8px;height:8px;background:' + color + ';border-radius:2px;flex-shrink:0;margin-right:4px;vertical-align:middle"></span>' +
       '<strong style="font-size:11px">' + escapeHtml(m.name) + '</strong>' +
-      (pop ? '<span style="color:#999;font-size:10px;margin-left:auto">' + pop + '</span>' : '') +
-      '</div>' +
-      '<div style="font-size:10px;color:#666;padding-left:12px">' +
-      (domain ? escapeHtml(domain) + ' ' : '') +
-      '<span style="color:' + color + '">' + escapeHtml(prov) + '</span>' +
-      (mx ? '<br><span style="color:#999">' + escapeHtml(mx).substring(0, 60) + '</span>' : '') +
-      (reason ? '<br><span style="color:#888;font-style:italic">' + escapeHtml(reason) + '</span>' : '') +
-      '</div></div>';
+      ' <span style="font-size:10px;color:#888">' + escapeHtml(domain) + '</span>' +
+      (pop ? '<span style="color:#999;font-size:10px;float:right">' + pop + '</span>' : '') +
+      '</div>';
+    // Detail section (hidden until expanded)
+    muniList += '<div class="popup-muni-detail">';
+    muniList += '<div><span style="color:' + color + ';font-weight:600">' + escapeHtml(prov) + '</span>';
+    if (mxCountries) muniList += ' <span style="color:#999">server in ' + escapeHtml(mxCountries) + '</span>';
+    muniList += '</div>';
+    if (reason) muniList += '<div style="font-style:italic;color:#666">' + escapeHtml(reason) + '</div>';
+    if (mx.length > 0) {
+      muniList += '<div style="color:#555">MX: ';
+      for (var mi = 0; mi < mx.length; mi++) {
+        muniList += (mi > 0 ? ', ' : '') + '<code style="font-size:9px;background:#f5f5f5;padding:1px 3px;border-radius:2px">' + escapeHtml(mx[mi]) + '</code>';
+      }
+      muniList += '</div>';
+    }
+    if (gateway) muniList += '<div style="color:#795548">\u{1F6E1}\uFE0F Gateway: ' + escapeHtml(gateway) + '</div>';
+    if (ispName) muniList += '<div style="color:#555">ISP: ' + escapeHtml(ispName) + '</div>';
+    muniList += '</div></div>';
   }
   muniList += '</div></div>';
   }
