@@ -47,7 +47,7 @@ jobs:
         run: |
           # Countries with >=1000 municipalities rotate on a 3-day cycle
           # (excludes DE which has its own rotation below)
-          DAY_OF_YEAR=$(date +%j)
+          DAY_OF_YEAR=$(date +%-j)
           LARGE=$(uv run python3 -c "
           import json
           from mail_sovereignty.preprocess import SEED_FILES
