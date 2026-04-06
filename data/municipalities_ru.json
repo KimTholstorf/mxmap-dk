@@ -130,7 +130,7 @@
     "name": "Dagestan",
     "country": "RU",
     "region": "Russia",
-    "domain": "e-dag.ru",
+    "domain": "dagestan.gov.ru",
     "osm_relation_id": 109876,
     "population": 3232224
   },
@@ -201,7 +201,7 @@
     "name": "Kalmykia",
     "country": "RU",
     "region": "Russia",
-    "domain": "glava.region08.ru",
+    "domain": "kalmregion.ru",
     "osm_relation_id": 108083,
     "population": 267588
   },
@@ -228,7 +228,7 @@
     "name": "Karachay-Cherkessia",
     "country": "RU",
     "region": "Russia",
-    "domain": "kchr.info",
+    "domain": "kchr.ru",
     "osm_relation_id": 109878,
     "population": 468322
   },
@@ -450,7 +450,7 @@
     "name": "North Ossetia–Alania",
     "country": "RU",
     "region": "Russia",
-    "domain": "rso-a.ru",
+    "domain": "glava.rso-a.ru",
     "osm_relation_id": 110032,
     "population": 678879
   },

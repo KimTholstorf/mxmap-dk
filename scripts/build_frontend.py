@@ -60,6 +60,7 @@ PROVIDER_DISPLAY = {
     "elkdata": "Local Provider",
     "local-isp": "Local Provider",
     "zoho": "Local Provider",
+    "yandex": "Local Provider",
     "independent": "Self-hosted",
     "unknown": "Unknown",
 }

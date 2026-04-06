@@ -28,12 +28,14 @@ TELIA_KEYWORDS = ["telia.ee", "telia.lt", "telia.lv", "telia.com"]
 TET_KEYWORDS = ["tet.lv"]
 ELKDATA_KEYWORDS = ["elkdata.ee"]
 ZOHO_KEYWORDS = ["zoho.com", "zoho.eu", "zoho.in", "zohocorp.com"]
+YANDEX_KEYWORDS = ["yandex.net", "yandex.ru"]
 
 PROVIDER_KEYWORDS = {
     "microsoft": MICROSOFT_KEYWORDS,
     "google": GOOGLE_KEYWORDS,
     "aws": AWS_KEYWORDS,
     "zoho": ZOHO_KEYWORDS,
+    "yandex": YANDEX_KEYWORDS,
     "zone": ZONE_KEYWORDS,
     "telia": TELIA_KEYWORDS,
     "tet": TET_KEYWORDS,
@@ -394,6 +396,9 @@ GATEWAY_KEYWORDS = {
     "dsidata": ["dsidata.sk"],
     "spamtador": ["spamtador.com"],
     "jellyfish": ["jellyfish.systems"],
+    "anti-spam-premium": ["anti-spam-premium.com"],
+    "suantispam": ["suantispam.com"],
+    "spamhero": ["spamhero.net", "spamhero.com"],
 }
 
 # Local ISP ASNs (replaces SWISS_ISP_ASNS)
