@@ -137,8 +137,9 @@ COUNTRIES = [
     "SR",
     "UY",
     "VE",
-    # Canada
+    # Canada + Mexico
     "CA",
+    "MX",
     # Central America
     "BZ",
     "GT",
@@ -395,8 +396,9 @@ LEVEL_MAP = {
     "SR": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     "UY": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     "VE": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
-    # Canada
+    # Canada + Mexico
     "CA": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "MX": {"region": "region", "district": "municipality", "municipality": "municipality"},
     # Central America
     "BZ": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     "GT": {"region": "municipality", "district": "municipality", "municipality": "municipality"},

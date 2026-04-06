@@ -135,8 +135,9 @@ SEED_FILES = {
     "SR": "municipalities_sr.json",
     "UY": "municipalities_uy.json",
     "VE": "municipalities_ve.json",
-    # Canada
+    # Canada + Mexico
     "CA": "municipalities_ca.json",
+    "MX": "municipalities_mx.json",
     # Central America
     "BZ": "municipalities_bz.json",
     "GT": "municipalities_gt.json",
@@ -567,8 +568,9 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         "SR": [".gov.sr", ".sr"],
         "UY": [".gub.uy", ".uy"],
         "VE": [".gob.ve", ".ve"],
-        # Canada
+        # Canada + Mexico
         "CA": [".ca", ".gc.ca"],
+        "MX": [".gob.mx", ".mx"],
         # Central America
         "BZ": [".gov.bz", ".bz"],
         "GT": [".gob.gt", ".gt"],

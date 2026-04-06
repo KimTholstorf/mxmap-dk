@@ -338,6 +338,21 @@ SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE 
 }
 ORDER BY ?itemLabel
 """,
+    # ── Mexico ────────────────────────────────────────────────────────
+    # Mexico: Q1952852 (municipality of Mexico) + Q2734310 (demarcación of CDMX) — ~2,475
+    "MX": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE {
+  VALUES ?type { wd:Q1952852 wd:Q2734310 }
+  ?item wdt:P31 ?type .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  OPTIONAL { ?item wdt:P1082 ?population }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,es" }
+}
+ORDER BY ?itemLabel
+""",
     # ── Canada ───────────────────────────────────────────────────────
     # Canada: multiple municipal types — ~3500+
     "CA": """
@@ -347,7 +362,8 @@ SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE 
     wd:Q532 wd:Q27676524 wd:Q3327874 wd:Q14762300 wd:Q55430416
     wd:Q515 wd:Q6644778 wd:Q6644696 wd:Q44529188 wd:Q14762205
     wd:Q60458065 wd:Q6641762 wd:Q6644759 wd:Q3327871 wd:Q27676420
-    wd:Q27676422 wd:Q59341087 wd:Q204613
+    wd:Q27676422 wd:Q59341087 wd:Q204613 wd:Q85796467 wd:Q16295254
+    wd:Q14763041 wd:Q1549591
   }
   ?item wdt:P31 ?type .
   ?item wdt:P17 wd:Q16 .

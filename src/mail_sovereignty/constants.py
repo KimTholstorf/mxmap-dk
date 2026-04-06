@@ -133,6 +133,9 @@ SKIP_DOMAINS = {
     "gov.py",
     "gub.uy",
     "gob.ve",
+    # Mexico
+    "example.mx",
+    "gob.mx",
     # Canada + Central America
     "example.ca",
     "gc.ca",

@@ -30670,5 +30670,553 @@
     "country": "CA",
     "region": "",
     "domain": ""
+  },
+  {
+    "id": "CA-3802",
+    "name": "Alberni-Clayoquot Regional District",
+    "country": "CA",
+    "region": "British Columbia",
+    "domain": "acrd.bc.ca",
+    "osm_relation_id": 2218263,
+    "population": 30981
+  },
+  {
+    "id": "CA-3803",
+    "name": "Capital Regional District",
+    "country": "CA",
+    "region": "British Columbia",
+    "domain": "crd.bc.ca",
+    "osm_relation_id": 2217554,
+    "population": 383360
+  },
+  {
+    "id": "CA-3804",
+    "name": "Cariboo Regional District",
+    "country": "CA",
+    "region": "British Columbia",
+    "domain": "cariboord.ca",
+    "osm_relation_id": 2218434,
+    "population": 61988
+  },
+  {
+    "id": "CA-3805",
+    "name": "Central Coast Regional District",
+    "country": "CA",
+    "region": "British Columbia",
+    "domain": "ccrd.ca",
+    "osm_relation_id": 2219641,
+    "population": 3319
+  },
+  {
+    "id": "CA-3806",
+    "name": "Central Fraser Valley Regional District",
+    "country": "CA",
+    "region": "British Columbia",
+    "domain": ""
+  },
+  {
+    "id": "CA-3807",
+    "name": "Columbia-Shuswap Regional District",
+    "country": "CA",
+    "region": "British Columbia",
+    "domain": "csrd.bc.ca",
+    "osm_relation_id": 2218398,
+    "population": 51366
+  },
+  {
+    "id": "CA-3808",
+    "name": "Comox Valley Regional District",
+    "country": "CA",
+    "region": "British Columbia",
+    "domain": "comoxvalleyrd.ca",
+    "osm_relation_id": 2218264,
+    "population": 66527
+  },
+  {
+    "id": "CA-3809",
+    "name": "Cowichan Valley Regional District",
+    "country": "CA",
+    "region": "British Columbia",
+    "domain": "cvrd.ca",
+    "osm_relation_id": 2218177,
+    "population": 83739
+  },
+  {
+    "id": "CA-3810",
+    "name": "Dewdney-Alouette Regional District",
+    "country": "CA",
+    "region": "British Columbia",
+    "domain": ""
+  },
+  {
+    "id": "CA-3811",
+    "name": "Fraser Valley Regional District",
+    "country": "CA",
+    "region": "British Columbia",
+    "domain": "fvrd.ca",
+    "osm_relation_id": 2218281,
+    "population": 295934
+  },
+  {
+    "id": "CA-3812",
+    "name": "Metro Vancouver Regional District",
+    "country": "CA",
+    "region": "British Columbia",
+    "domain": "metrovancouver.org",
+    "osm_relation_id": 2218280,
+    "population": 2463431
+  },
+  {
+    "id": "CA-3813",
+    "name": "North Coast Regional District",
+    "country": "CA",
+    "region": "British Columbia",
+    "domain": "ncrdbc.com",
+    "osm_relation_id": 2219688,
+    "population": 18133
+  },
+  {
+    "id": "CA-3814",
+    "name": "Northern Rockies Regional Municipality",
+    "country": "CA",
+    "region": "British Columbia",
+    "domain": "northernrockies.ca",
+    "osm_relation_id": 2219984,
+    "population": 5393
+  },
+  {
+    "id": "CA-3815",
+    "name": "Peace River Regional District",
+    "country": "CA",
+    "region": "British Columbia",
+    "domain": "prrd.bc.ca",
+    "osm_relation_id": 2219965,
+    "population": 62942
+  },
+  {
+    "id": "CA-3816",
+    "name": "Regional District of Bulkley-Nechako",
+    "country": "CA",
+    "region": "British Columbia",
+    "domain": "rdbn.bc.ca",
+    "osm_relation_id": 2219755,
+    "population": 37896
+  },
+  {
+    "id": "CA-3817",
+    "name": "Regional District of Central Kootenay",
+    "country": "CA",
+    "region": "British Columbia",
+    "domain": "rdck.ca",
+    "osm_relation_id": 2218360,
+    "population": 59517
+  },
+  {
+    "id": "CA-3818",
+    "name": "Regional District of Central Okanagan",
+    "country": "CA",
+    "region": "British Columbia",
+    "domain": "rdco.com",
+    "osm_relation_id": 2218288,
+    "population": 194882
+  },
+  {
+    "id": "CA-3819",
+    "name": "Regional District of East Kootenay",
+    "country": "CA",
+    "region": "British Columbia",
+    "domain": "rdek.bc.ca",
+    "osm_relation_id": 2218392,
+    "population": 60439
+  },
+  {
+    "id": "CA-3820",
+    "name": "Regional District of Fraser-Fort George",
+    "country": "CA",
+    "region": "British Columbia",
+    "domain": "rdffg.bc.ca",
+    "osm_relation_id": 2219774,
+    "population": 94506
+  },
+  {
+    "id": "CA-3821",
+    "name": "Regional District of Kitimat-Stikine",
+    "country": "CA",
+    "region": "British Columbia",
+    "domain": "rdks.bc.ca",
+    "osm_relation_id": 2219740,
+    "population": 37367
+  },
+  {
+    "id": "CA-3822",
+    "name": "Regional District of Kootenay Boundary",
+    "country": "CA",
+    "region": "British Columbia",
+    "domain": "rdkb.com",
+    "osm_relation_id": 2218291,
+    "population": 31447
+  },
+  {
+    "id": "CA-3823",
+    "name": "Regional District of Mount Waddington",
+    "country": "CA",
+    "region": "British Columbia",
+    "domain": "rdmw.bc.ca",
+    "osm_relation_id": 2219537,
+    "population": 11035
+  },
+  {
+    "id": "CA-3824",
+    "name": "Regional District of Nanaimo",
+    "country": "CA",
+    "region": "British Columbia",
+    "domain": "rdn.bc.ca",
+    "osm_relation_id": 2218188,
+    "population": 155698
+  },
+  {
+    "id": "CA-3825",
+    "name": "Regional District of North Okanagan",
+    "country": "CA",
+    "region": "British Columbia",
+    "domain": "rdno.ca",
+    "osm_relation_id": 2218289,
+    "population": 84354
+  },
+  {
+    "id": "CA-3826",
+    "name": "Regional District of Okanagan-Similkameen",
+    "country": "CA",
+    "region": "British Columbia",
+    "domain": "rdos.bc.ca",
+    "osm_relation_id": 2218285,
+    "population": 83022
+  },
+  {
+    "id": "CA-3827",
+    "name": "Squamish-Lillooet Regional District",
+    "country": "CA",
+    "region": "British Columbia",
+    "domain": "slrd.bc.ca",
+    "osm_relation_id": 2218277,
+    "population": 42665
+  },
+  {
+    "id": "CA-3828",
+    "name": "Stikine Region",
+    "country": "CA",
+    "region": "British Columbia",
+    "domain": "",
+    "osm_relation_id": 2219985
+  },
+  {
+    "id": "CA-3829",
+    "name": "Strathcona Regional District",
+    "country": "CA",
+    "region": "British Columbia",
+    "domain": "srd.ca",
+    "osm_relation_id": 2218266,
+    "population": 44671
+  },
+  {
+    "id": "CA-3830",
+    "name": "Sunshine Coast Regional District",
+    "country": "CA",
+    "region": "British Columbia",
+    "domain": "scrd.ca",
+    "osm_relation_id": 2218268
+  },
+  {
+    "id": "CA-3831",
+    "name": "Thompson-Nicola Regional District",
+    "country": "CA",
+    "region": "British Columbia",
+    "domain": "tnrd.ca",
+    "osm_relation_id": 2218416,
+    "population": 132663
+  },
+  {
+    "id": "CA-3832",
+    "name": "qathet Regional District",
+    "country": "CA",
+    "region": "British Columbia",
+    "domain": "qathet.ca",
+    "osm_relation_id": 2218267,
+    "population": 20070
+  },
+  {
+    "id": "CA-3833",
+    "name": "Bruce County",
+    "country": "CA",
+    "region": "Ontario",
+    "domain": "brucecounty.on.ca",
+    "osm_relation_id": 7489200,
+    "population": 68147
+  },
+  {
+    "id": "CA-3834",
+    "name": "Dufferin County",
+    "country": "CA",
+    "region": "Ontario",
+    "domain": "dufferincounty.ca",
+    "osm_relation_id": 7480377,
+    "population": 61735
+  },
+  {
+    "id": "CA-3835",
+    "name": "Elgin County",
+    "country": "CA",
+    "region": "Ontario",
+    "domain": "elgin-county.on.ca",
+    "osm_relation_id": 2912012
+  },
+  {
+    "id": "CA-3836",
+    "name": "Essex County",
+    "country": "CA",
+    "region": "Ontario",
+    "domain": "countyofessex.ca",
+    "osm_relation_id": 5852550,
+    "population": 398953
+  },
+  {
+    "id": "CA-3837",
+    "name": "Frontenac County",
+    "country": "CA",
+    "region": "Ontario",
+    "domain": "frontenaccounty.ca",
+    "osm_relation_id": 7430910
+  },
+  {
+    "id": "CA-3838",
+    "name": "Grey County",
+    "country": "CA",
+    "region": "Ontario",
+    "domain": "grey.ca",
+    "osm_relation_id": 7480378,
+    "population": 93830
+  },
+  {
+    "id": "CA-3839",
+    "name": "Haliburton County",
+    "country": "CA",
+    "region": "Ontario",
+    "domain": "haliburtoncounty.ca",
+    "osm_relation_id": 7453394
+  },
+  {
+    "id": "CA-3840",
+    "name": "Hastings County",
+    "country": "CA",
+    "region": "Ontario",
+    "domain": "hastingscounty.com",
+    "osm_relation_id": 4660559
+  },
+  {
+    "id": "CA-3841",
+    "name": "Huron County",
+    "country": "CA",
+    "region": "Ontario",
+    "domain": "huroncounty.ca",
+    "osm_relation_id": 7456898,
+    "population": 59297
+  },
+  {
+    "id": "CA-3842",
+    "name": "Lambton County",
+    "country": "CA",
+    "region": "Ontario",
+    "domain": "lambtononline.ca",
+    "osm_relation_id": 3642163,
+    "population": 126638
+  },
+  {
+    "id": "CA-3843",
+    "name": "Lennox and Addington County",
+    "country": "CA",
+    "region": "Ontario",
+    "domain": "lennox-addington.on.ca",
+    "osm_relation_id": 4650810
+  },
+  {
+    "id": "CA-3844",
+    "name": "Middlesex County",
+    "country": "CA",
+    "region": "Ontario",
+    "domain": "county.middlesex.on.ca",
+    "osm_relation_id": 3353089,
+    "population": 455526
+  },
+  {
+    "id": "CA-3845",
+    "name": "Muskoka District Municipality",
+    "country": "CA",
+    "region": "Ontario",
+    "domain": "muskoka.on.ca",
+    "osm_relation_id": 7070870
+  },
+  {
+    "id": "CA-3846",
+    "name": "Northumberland County",
+    "country": "CA",
+    "region": "Ontario",
+    "domain": "northumberland.ca",
+    "osm_relation_id": 4660796
+  },
+  {
+    "id": "CA-3847",
+    "name": "Oxford County",
+    "country": "CA",
+    "region": "Ontario",
+    "domain": "oxfordcounty.ca",
+    "osm_relation_id": 2064409,
+    "population": 110862
+  },
+  {
+    "id": "CA-3848",
+    "name": "Perth County",
+    "country": "CA",
+    "region": "Ontario",
+    "domain": "countyofperth.on.ca",
+    "osm_relation_id": 2064400
+  },
+  {
+    "id": "CA-3849",
+    "name": "Peterborough County",
+    "country": "CA",
+    "region": "Ontario",
+    "domain": "county.peterborough.on.ca",
+    "osm_relation_id": 2922731
+  },
+  {
+    "id": "CA-3850",
+    "name": "Regional Municipality of Durham",
+    "country": "CA",
+    "region": "Ontario",
+    "domain": "durham.ca",
+    "osm_relation_id": 2408843,
+    "population": 645862
+  },
+  {
+    "id": "CA-3851",
+    "name": "Regional Municipality of Halton",
+    "country": "CA",
+    "region": "Ontario",
+    "domain": "halton.ca",
+    "osm_relation_id": 7034889,
+    "population": 548435
+  },
+  {
+    "id": "CA-3852",
+    "name": "Regional Municipality of Peel",
+    "country": "CA",
+    "region": "Ontario",
+    "domain": "peelregion.ca",
+    "osm_relation_id": 4198907,
+    "population": 1381739
+  },
+  {
+    "id": "CA-3853",
+    "name": "Regional Municipality of York",
+    "country": "CA",
+    "region": "Ontario",
+    "domain": "york.ca",
+    "osm_relation_id": 324214,
+    "population": 1109909
+  },
+  {
+    "id": "CA-3854",
+    "name": "Renfrew County",
+    "country": "CA",
+    "region": "Ontario",
+    "domain": "countyofrenfrew.on.ca",
+    "osm_relation_id": 7434181
+  },
+  {
+    "id": "CA-3855",
+    "name": "Simcoe County",
+    "country": "CA",
+    "region": "Ontario",
+    "domain": "simcoe.ca",
+    "osm_relation_id": 7477259,
+    "population": 479650
+  },
+  {
+    "id": "CA-3856",
+    "name": "United Counties of Leeds and Grenville",
+    "country": "CA",
+    "region": "Ontario",
+    "domain": "leedsandgrenville.ca",
+    "osm_relation_id": 7430944,
+    "population": 100546
+  },
+  {
+    "id": "CA-3857",
+    "name": "United Counties of Prescott and Russell",
+    "country": "CA",
+    "region": "Ontario",
+    "domain": "prescott-russell.on.ca",
+    "osm_relation_id": 7426622
+  },
+  {
+    "id": "CA-3858",
+    "name": "Wellington County",
+    "country": "CA",
+    "region": "Ontario",
+    "domain": "wellington.ca",
+    "osm_relation_id": 2064392,
+    "population": 222726
+  },
+  {
+    "id": "CA-3859",
+    "name": "County of York",
+    "country": "CA",
+    "region": "Ontario",
+    "domain": ""
+  },
+  {
+    "id": "CA-3860",
+    "name": "Lanark County",
+    "country": "CA",
+    "region": "Ontario",
+    "domain": "lanarkcounty.ca",
+    "osm_relation_id": 7426114,
+    "population": 68698
+  },
+  {
+    "id": "CA-3861",
+    "name": "United Counties of Stormont, Dundas and Glengarry",
+    "country": "CA",
+    "region": "Ontario",
+    "domain": "sdg.on.ca",
+    "osm_relation_id": 7430945,
+    "population": 113429
+  },
+  {
+    "id": "CA-3862",
+    "name": "Red Deer",
+    "country": "CA",
+    "region": "Alberta",
+    "domain": "reddeer.ca",
+    "osm_relation_id": 4166847,
+    "population": 100418
+  },
+  {
+    "id": "CA-3863",
+    "name": "St. John's",
+    "country": "CA",
+    "region": "Newfoundland and Labrador",
+    "domain": "stjohns.ca",
+    "osm_relation_id": 2805426,
+    "population": 110525
+  },
+  {
+    "id": "CA-3864",
+    "name": "Winnipeg",
+    "country": "CA",
+    "region": "Ontario",
+    "domain": "winnipeg.ca",
+    "osm_relation_id": 1790696,
+    "population": 749607
   }
 ]

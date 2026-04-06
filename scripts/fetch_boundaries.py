@@ -122,8 +122,9 @@ COUNTRY_CONFIG = {
     "SR": {"admin_level": 4, "iso": "SR", "name": "Suriname"},
     "UY": {"admin_level": 4, "iso": "UY", "name": "Uruguay"},
     "VE": {"admin_level": 6, "iso": "VE", "name": "Venezuela"},
-    # Canada
+    # Canada + Mexico
     "CA": {"admin_level": 8, "iso": "CA", "name": "Canada"},
+    "MX": {"admin_level": 6, "iso": "MX", "name": "Mexico"},
     # Central America
     "BZ": {"admin_level": 4, "iso": "BZ", "name": "Belize"},
     "GT": {"admin_level": 6, "iso": "GT", "name": "Guatemala"},
