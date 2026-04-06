@@ -222,14 +222,25 @@ def main():
         json.dump(regions_data, f, separators=(",", ":"), ensure_ascii=False)
     print(f"  data-regions.json: {regions_out.stat().st_size:,} bytes")
 
-    # Write per-country summary files (for on-demand drill-down)
+    # Write per-country drill-down files (summary + key detail fields)
     summary_dir = ROOT / "data" / "summary"
     summary_dir.mkdir(exist_ok=True)
     by_country: dict[str, list] = {}
-    for bfs, m in summary_munis.items():
+    for bfs, m in munis.items():
         cc = m.get("country", "")
-        if cc:
-            by_country.setdefault(cc, []).append(m)
+        if not cc:
+            continue
+        # Merge summary + selected detail fields
+        entry = {k: m[k] for k in SUMMARY_FIELDS if k in m}
+        entry["has_mx"] = len(m.get("mx", [])) > 0
+        # Add detail fields needed for drill-down
+        if m.get("mx"):
+            entry["mx"] = m["mx"]
+        if m.get("reason"):
+            entry["reason"] = m["reason"]
+        if m.get("gateway"):
+            entry["gateway"] = m["gateway"]
+        by_country.setdefault(cc, []).append(entry)
     total_country_size = 0
     for cc, entries in by_country.items():
         cc_path = summary_dir / f"{cc.lower()}.json"

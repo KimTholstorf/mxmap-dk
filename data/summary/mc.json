@@ -1,1 +1,1 @@
-[{"canton":"","osm_relation_id":1124039,"bfs":"MC-01","provider":"independent","population":38423,"country":"MC","domain":"gouv.mc","mx_countries":["MC"],"name":"Monaco","district":"","has_mx":true}]
+[{"osm_relation_id":1124039,"country":"MC","canton":"","district":"","mx_countries":["MC"],"population":38423,"name":"Monaco","bfs":"MC-01","domain":"gouv.mc","provider":"independent","has_mx":true,"mx":["alpha.gouv.mc","qg-monaco-02.gouv.mc","qg-monaco-03.gouv.mc"],"reason":"MX (alpha.gouv.mc, qg-monaco-02.gouv.mc) is self-hosted"}]
