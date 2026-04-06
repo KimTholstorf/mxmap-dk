@@ -2513,6 +2513,20 @@ SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE 
 }
 ORDER BY ?itemLabel
 """,
+    # Russia: Q43263 (federal subject of Russia) — ~84
+    "RU": """
+SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q43263 .
+  ?item wdt:P17 wd:Q159 .
+  OPTIONAL { ?item wdt:P856 ?website }
+  OPTIONAL { ?item wdt:P402 ?osmId }
+  OPTIONAL { ?item wdt:P131 ?region }
+  OPTIONAL { ?item wdt:P1082 ?population }
+  FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,ru" }
+}
+ORDER BY ?itemLabel
+""",
     # Saudi Arabia: Q15728204 (province) — 13 provinces
     "SA": """
 SELECT DISTINCT ?item ?itemLabel ?website ?osmId ?regionLabel ?population WHERE {

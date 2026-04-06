@@ -97,6 +97,7 @@ COUNTRY_CONFIG = {
     "KZ": {"admin_level": 4, "iso": "KZ", "name": "Kazakhstan"},
     "UZ": {"admin_level": 4, "iso": "UZ", "name": "Uzbekistan"},
     "KG": {"admin_level": 4, "iso": "KG", "name": "Kyrgyzstan"},
+    "RU": {"admin_level": 4, "iso": "RU", "name": "Russia"},
     # Middle East
     "OM": {"admin_level": 4, "iso": "OM", "name": "Oman"},
     "AE": {"admin_level": 4, "iso": "AE", "name": "UAE"},

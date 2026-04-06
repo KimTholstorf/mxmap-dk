@@ -110,6 +110,7 @@ SEED_FILES = {
     "KZ": "municipalities_kz.json",
     "UZ": "municipalities_uz.json",
     "KG": "municipalities_kg.json",
+    "RU": "municipalities_ru.json",
     # Middle East
     "OM": "municipalities_om.json",
     "AE": "municipalities_ae.json",
@@ -543,6 +544,7 @@ def guess_domains(name: str, country: str = "") -> list[str]:
         "KZ": [".gov.kz", ".kz"],
         "UZ": [".gov.uz", ".uz"],
         "KG": [".gov.kg", ".kg"],
+        "RU": [".gov.ru", ".ru"],
         # Middle East
         "OM": [".gov.om", ".om"],
         "AE": [".gov.ae", ".ae"],

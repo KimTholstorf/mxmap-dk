@@ -112,6 +112,7 @@ COUNTRIES = [
     "KZ",
     "UZ",
     "KG",
+    "RU",
     # Middle East
     "OM",
     "AE",
@@ -371,6 +372,7 @@ LEVEL_MAP = {
     "KZ": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     "UZ": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     "KG": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
+    "RU": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     # Middle East
     "OM": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
     "AE": {"region": "municipality", "district": "municipality", "municipality": "municipality"},
