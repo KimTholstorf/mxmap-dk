@@ -13,17 +13,9 @@
     "name": "Bakhchysarai Raion",
     "country": "UA",
     "region": "Autonomous Republic of Crimea",
-    "domain": "bahchisaray.rk.gov.ru",
+    "domain": "",
     "osm_relation_id": 19261230,
     "population": 94462
-  },
-  {
-    "id": "UA-003",
-    "name": "Bakhchysarai Raion",
-    "country": "UA",
-    "region": "Autonomous Republic of Crimea",
-    "domain": "",
-    "osm_relation_id": 1574582
   },
   {
     "id": "UA-004",
@@ -107,19 +99,11 @@
     "population": 201400
   },
   {
-    "id": "UA-013",
+    "id": "UA-014",
     "name": "Bilohirsk Raion",
     "country": "UA",
     "region": "Autonomous Republic of Crimea",
     "domain": "",
-    "osm_relation_id": 19161849
-  },
-  {
-    "id": "UA-014",
-    "name": "Bilohirsk Raion (1921—2023)",
-    "country": "UA",
-    "region": "Autonomous Republic of Crimea",
-    "domain": "belogorskiy.rk.gov.ru",
     "osm_relation_id": 1754552,
     "population": 66396
   },
@@ -487,7 +471,7 @@
     "id": "UA-056",
     "name": "Khmelnytskyi Raion",
     "country": "UA",
-    "region": "Ukrainian Soviet Socialist Republic",
+    "region": "Khmelnytskyi Oblast",
     "domain": "rayrada.km.ua",
     "population": 53236
   },
@@ -520,7 +504,7 @@
   },
   {
     "id": "UA-060",
-    "name": "Kirovske Raion",
+    "name": "Isliam-Terek Raion",
     "country": "UA",
     "region": "Autonomous Republic of Crimea",
     "domain": "",
@@ -601,7 +585,7 @@
   },
   {
     "id": "UA-069",
-    "name": "Krasnohvardiiske Raion",
+    "name": "Kurman Raion",
     "country": "UA",
     "region": "Autonomous Republic of Crimea",
     "domain": "",
@@ -610,7 +594,7 @@
   },
   {
     "id": "UA-070",
-    "name": "Krasnoperekopsk Raion",
+    "name": "Perekop Raion",
     "country": "UA",
     "region": "Autonomous Republic of Crimea",
     "domain": "rajonperekop.com.ua",
@@ -671,10 +655,10 @@
   },
   {
     "id": "UA-077",
-    "name": "Lenine Raion of Crimea",
+    "name": "Yedy-Kuiu Raion",
     "country": "UA",
     "region": "Autonomous Republic of Crimea",
-    "domain": "lenino.rk.gov.ru",
+    "domain": "",
     "osm_relation_id": 1754557,
     "population": 77335
   },
@@ -876,14 +860,6 @@
     "population": 173300
   },
   {
-    "id": "UA-100",
-    "name": "Perekop Raion",
-    "country": "UA",
-    "region": "Autonomous Republic of Crimea",
-    "domain": "",
-    "osm_relation_id": 19162067
-  },
-  {
     "id": "UA-101",
     "name": "Pervomaisk Raion",
     "country": "UA",
@@ -897,7 +873,7 @@
     "name": "Pervomaiske Raion",
     "country": "UA",
     "region": "Autonomous Republic of Crimea",
-    "domain": "pervmo.rk.gov.ru",
+    "domain": "",
     "osm_relation_id": 1754559,
     "population": 40349
   },
@@ -1013,7 +989,7 @@
     "name": "Saky Raion",
     "country": "UA",
     "region": "Autonomous Republic of Crimea",
-    "domain": "sakimo.rk.gov.ru",
+    "domain": "",
     "osm_relation_id": 1754561,
     "population": 98336
   },
@@ -1085,17 +1061,8 @@
     "name": "Simferopol Raion",
     "country": "UA",
     "region": "Autonomous Republic of Crimea",
-    "domain": "simfmo.rk.gov.ru",
-    "osm_relation_id": 1754564,
-    "population": 168161
-  },
-  {
-    "id": "UA-124",
-    "name": "Simferopol Raion",
-    "country": "UA",
-    "region": "Autonomous Republic of Crimea",
     "domain": "",
-    "osm_relation_id": 19162084,
+    "osm_relation_id": 1754564,
     "population": 168161
   },
   {
