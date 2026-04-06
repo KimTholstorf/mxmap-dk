@@ -1224,13 +1224,13 @@ async function loadTopo(cc, level) {
 
   // Skip multi-file topo (e.g., DE per-state) before summary loads
   if (!summaryLoaded && typeof fileEntry === 'object') return null;
-  // At region level, skip large municipality files used as fallback (>300KB)
-  // These would render thousands of tiny tiles instead of aggregated regions
+  // At region level, skip very large municipality files used as fallback (>1.5MB)
+  // These would render thousands of tiny tiles; smaller ones get country-level color
   if (!summaryLoaded && level === 'region' && typeof fileEntry === 'string') {
     var origEntry = manifest[cc].files['region'];
     if (!origEntry || origEntry === manifest[cc].files['municipality']) {
       var fsize = (manifest[cc].sizes || {})[fileEntry] || 0;
-      if (fsize > 300000) return null;
+      if (fsize > 1500000) return null;
     }
   }
 
