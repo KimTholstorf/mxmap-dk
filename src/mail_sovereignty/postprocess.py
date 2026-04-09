@@ -156,7 +156,15 @@ async def process_unknown(
             print(f"  SKIP     {bfs:>5} {name:<30} (no domain)")
             return m
 
-        email_domains = await scrape_email_domains(client, domain)
+        try:
+            email_domains = await asyncio.wait_for(
+                scrape_email_domains(client, domain), timeout=90
+            )
+        except asyncio.TimeoutError:
+            print(
+                f"  TIMEOUT  {bfs:>5} {name:<30} (scraping timed out)"
+            )
+            return m
 
         for email_domain in sorted(email_domains):
             mx = await lookup_mx(email_domain)
@@ -449,23 +457,28 @@ async def run(data_path: Path) -> None:
                 muni[bfs]["tenant"] = tenant
             print(f"  {bfs:>5} {muni[bfs]['name']:<30} -> {provider} (DNS re-lookup)")
 
-    # Step 2: Retry DNS for unknowns that have a domain
+    # Step 2: Retry DNS for unknowns that have a domain (concurrent)
     dns_retry_candidates = [
         m for m in muni.values() if m["provider"] == "unknown" and m.get("domain")
     ]
     if dns_retry_candidates:
         print(f"\nRetrying DNS for {len(dns_retry_candidates)} unknown domains...")
-        for m in dns_retry_candidates:
-            mx = await lookup_mx(m["domain"])
-            if mx:
-                spf, txt_verifications = await lookup_txt(m["domain"])
+        dns_retry_sem = asyncio.Semaphore(20)
+
+        async def _dns_retry(m):
+            async with dns_retry_sem:
+                domain = m["domain"]
+                mx = await lookup_mx(domain)
+                if not mx:
+                    return
+                spf, txt_verifications = await lookup_txt(domain)
                 spf_resolved = await resolve_spf_includes(spf) if spf else ""
                 mx_cnames = await resolve_mx_cnames(mx)
                 mx_asns = await resolve_mx_asns(mx)
                 mx_countries = await resolve_mx_countries(mx)
-                autodiscover = await lookup_autodiscover(m["domain"])
-                dkim = await lookup_dkim(m["domain"])
-                tenant = await lookup_tenant(m["domain"])
+                autodiscover = await lookup_autodiscover(domain)
+                dkim = await lookup_dkim(domain)
+                tenant = await lookup_tenant(domain)
                 provider, reason = classify(
                     mx,
                     spf,
@@ -501,6 +514,8 @@ async def run(data_path: Path) -> None:
                 if tenant:
                     m["tenant"] = tenant
                 print(f"  RECOVERED {m['bfs']:>5} {m['name']:<30} -> {provider}")
+
+        await asyncio.gather(*[_dns_retry(m) for m in dns_retry_candidates])
 
     # Step 2.5: SMTP banner check for independent/unknown with MX records
     smtp_candidates = [
