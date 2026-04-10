@@ -17,6 +17,7 @@ from mail_sovereignty.constants import (
     CONCURRENCY_SMTP,
     EMAIL_RE,
     PROVIDER_KEYWORDS,
+    SCRAPE_TIME_BUDGET,
     SKIP_DOMAINS,
     SUBPAGES,
     TYPO3_RE,
@@ -158,7 +159,7 @@ async def process_unknown(
 
         try:
             email_domains = await asyncio.wait_for(
-                scrape_email_domains(client, domain), timeout=90
+                scrape_email_domains(client, domain), timeout=30
             )
         except asyncio.TimeoutError:
             print(
@@ -585,19 +586,41 @@ async def run(data_path: Path) -> None:
 
         print(f"  SMTP reclassified: {smtp_reclassified}")
 
-    # Step 3: Scrape remaining unknowns
+    # Step 3: Scrape remaining unknowns (with time budget)
     unknowns = [m for m in muni.values() if m["provider"] == "unknown"]
     print(f"\n{len(unknowns)} unknown municipalities to investigate\n")
 
     if unknowns:
+        import time
+
+        scrape_budget = SCRAPE_TIME_BUDGET
+        scrape_start = time.monotonic()
+        budget_exhausted = False
         semaphore = asyncio.Semaphore(CONCURRENCY_POSTPROCESS)
+
+        async def process_with_budget(
+            client: httpx.AsyncClient, m: dict[str, Any]
+        ) -> dict[str, Any]:
+            nonlocal budget_exhausted
+            if budget_exhausted:
+                return m
+            elapsed = time.monotonic() - scrape_start
+            if elapsed >= scrape_budget:
+                budget_exhausted = True
+                print(
+                    f"\n  Time budget exhausted ({scrape_budget}s) — "
+                    f"skipping remaining unknowns"
+                )
+                return m
+            return await process_unknown(client, semaphore, m)
+
         async with httpx.AsyncClient(
             headers={
                 "User-Agent": "mxmap.ee/1.0 (https://github.com/livenson/mxmap)"
             },
             follow_redirects=True,
         ) as client:
-            tasks = [process_unknown(client, semaphore, m) for m in unknowns]
+            tasks = [process_with_budget(client, m) for m in unknowns]
             results = await asyncio.gather(*tasks)
 
         resolved = 0
@@ -605,7 +628,8 @@ async def run(data_path: Path) -> None:
             muni[m["bfs"]] = m
             if m["provider"] != "unknown":
                 resolved += 1
-        print(f"\nResolved {resolved}/{len(unknowns)} via scraping")
+        elapsed = int(time.monotonic() - scrape_start)
+        print(f"\nResolved {resolved}/{len(unknowns)} via scraping ({elapsed}s)")
 
     # Recompute counts
     counts = {}

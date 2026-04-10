@@ -860,8 +860,9 @@ DE_STATE_CODES = {v: k for k, v in DE_STATES.items()}
 PARTITIONED_COUNTRIES = {"DE": lambda muni_id: muni_id[3:5]}
 
 CONCURRENCY = 20
-CONCURRENCY_POSTPROCESS = 10
+CONCURRENCY_POSTPROCESS = 20
 CONCURRENCY_SMTP = 10
+SCRAPE_TIME_BUDGET = 5400  # 90 minutes max for website scraping step
 
 SMTP_BANNER_KEYWORDS = {
     "microsoft": [
