@@ -451,8 +451,8 @@ class TestRun:
         run(sample_data_json, tmp_path)
         csv_path = tmp_path / "validation_report.csv"
         lines = csv_path.read_text().strip().split("\n")
-        # header + 3 municipalities
-        assert len(lines) == 4
+        # header + 4 municipalities
+        assert len(lines) == 5
 
     def test_console_output(self, sample_data_json, tmp_path, capsys):
         run(sample_data_json, tmp_path)

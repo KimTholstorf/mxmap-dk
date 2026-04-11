@@ -320,11 +320,21 @@ def run(data_path: Path, output_dir: Path, quality_gate: bool = False) -> bool:
 
     print_report(scored)
 
-    avg_score = round(sum(e["score"] for e in scored) / len(scored), 1)
+    # Quality gate only evaluates entries with domains — entries without
+    # domains are a seed data coverage issue, not a pipeline quality issue
+    gated = [e for e in scored if e["domain"]]
+    no_domain_count = len(scored) - len(gated)
+    if no_domain_count:
+        print(
+            f"  Quality gate: excluding {no_domain_count} entries without domains "
+            f"({len(gated)} evaluated)\n"
+        )
+
+    avg_score = round(sum(e["score"] for e in gated) / len(gated), 1)
     high_confidence_count = sum(
-        1 for e in scored if e["score"] >= HIGH_CONFIDENCE_THRESHOLD
+        1 for e in gated if e["score"] >= HIGH_CONFIDENCE_THRESHOLD
     )
-    high_confidence_pct = round(high_confidence_count / len(scored) * 100, 1)
+    high_confidence_pct = round(high_confidence_count / len(gated) * 100, 1)
     quality_passed = (
         avg_score >= MIN_AVERAGE_SCORE
         and high_confidence_pct >= MIN_HIGH_CONFIDENCE_PCT

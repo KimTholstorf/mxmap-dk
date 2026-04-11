@@ -100,6 +100,7 @@ jobs:
           git push
       - name: Create issue on quality gate failure
         if: steps.validate.outcome == 'failure'
+        continue-on-error: true
         run: |
           existing=$(gh issue list --label quality-gate --state open --limit 1 --json number -q '.[0].number')
           if [ -n "$existing" ]; then

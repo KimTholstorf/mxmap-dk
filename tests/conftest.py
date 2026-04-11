@@ -49,8 +49,8 @@ def unknown_municipality():
 def sample_data_json(tmp_path):
     data = {
         "generated": "2025-01-01T00:00:00Z",
-        "total": 3,
-        "counts": {"microsoft": 1, "independent": 1, "unknown": 1},
+        "total": 4,
+        "counts": {"microsoft": 1, "independent": 1, "unknown": 2},
         "municipalities": {
             "EE-0784": {
                 "bfs": "EE-0784",
@@ -78,6 +78,16 @@ def sample_data_json(tmp_path):
                 "canton": "Testland",
                 "country": "LT",
                 "domain": "",
+                "mx": [],
+                "spf": "",
+                "provider": "unknown",
+            },
+            "LT-98": {
+                "bfs": "LT-98",
+                "name": "Žemasis",
+                "canton": "Testland",
+                "country": "LT",
+                "domain": "zemasis.lt",
                 "mx": [],
                 "spf": "",
                 "provider": "unknown",
