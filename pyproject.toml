@@ -5,12 +5,11 @@ build-backend = "hatchling.build"
 [project]
 name = "mxmap"
 version = "0.1.0"
-description = "Interactive map showing where Baltic municipalities (EE, LV, LT) host their email"
+description = "Interactive map showing where Nordic municipalities and listed companies host their email"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "aiohttp>=3.13.5",
-    "anthropic>=0.89.0",
     "dnspython>=2.8.0",
     "httpx>=0.28.1",
 ]
