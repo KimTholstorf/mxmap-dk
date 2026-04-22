@@ -72,9 +72,7 @@ def _check_spf_for_provider(spf_blob: str) -> str | None:
     return None
 
 
-def _check_spf_all(
-    spf_record: str | None, resolved_spf: str | None
-) -> str | None:
+def _check_spf_all(spf_record: str | None, resolved_spf: str | None) -> str | None:
     """Check raw and resolved SPF for a provider keyword."""
     spf_blob = (spf_record or "").lower()
     provider = _check_spf_for_provider(spf_blob)
@@ -222,9 +220,7 @@ def classify(
                 f"MX is {gateway} gateway; MS365 tenant detected ({tenant})"
             )
         # Gateway relays to unknown backend
-        return "independent", (
-            f"MX is {gateway} gateway; backend provider unknown"
-        )
+        return "independent", (f"MX is {gateway} gateway; backend provider unknown")
 
     # 4. MX exists but no direct provider match → check DKIM for hidden
     #    backend (self-hosted gateway pattern), then Local ISP, then independent
@@ -246,17 +242,13 @@ def classify(
 
         if is_local_isp:
             asn_names = [
-                LOCAL_ISP_ASNS[a]
-                for a in sorted(mx_asns & LOCAL_ISP_ASNS.keys())
+                LOCAL_ISP_ASNS[a] for a in sorted(mx_asns & LOCAL_ISP_ASNS.keys())
             ]
             return "local-isp", (
-                f"MX ({mx_display}) hosted on Local ISP "
-                f"({', '.join(asn_names)})"
+                f"MX ({mx_display}) hosted on Local ISP ({', '.join(asn_names)})"
             )
 
-        return "independent", (
-            f"MX ({mx_display}) is self-hosted"
-        )
+        return "independent", (f"MX ({mx_display}) is self-hosted")
 
     # 5. No MX → unknown
     return "unknown", "No MX records found"

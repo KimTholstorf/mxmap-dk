@@ -162,9 +162,7 @@ async def process_unknown(
                 scrape_email_domains(client, domain), timeout=30
             )
         except asyncio.TimeoutError:
-            print(
-                f"  TIMEOUT  {bfs:>5} {name:<30} (scraping timed out)"
-            )
+            print(f"  TIMEOUT  {bfs:>5} {name:<30} (scraping timed out)")
             return m
 
         for email_domain in sorted(email_domains):
@@ -557,11 +555,16 @@ async def run(data_path: Path) -> None:
             # provider (e.g. "220 xxx.mail.protection.outlook.com ...").
             # If so, the municipality truly uses that provider's cloud
             # even though the MX hostname looked self-hosted.
-            banner_host_is_cloud = provider and any(
-                kw in banner.lower().split()[1]
-                for kw in PROVIDER_KEYWORDS.get(provider, [])
-                if "." in kw  # only domain-like keywords
-            ) if len(banner.split()) > 1 else False
+            banner_host_is_cloud = (
+                provider
+                and any(
+                    kw in banner.lower().split()[1]
+                    for kw in PROVIDER_KEYWORDS.get(provider, [])
+                    if "." in kw  # only domain-like keywords
+                )
+                if len(banner.split()) > 1
+                else False
+            )
             for bfs in mx_host_to_bfs[mx_host]:
                 muni[bfs]["smtp_banner"] = banner
                 if provider and muni[bfs]["provider"] in ("independent", "unknown"):
@@ -615,9 +618,7 @@ async def run(data_path: Path) -> None:
             return await process_unknown(client, semaphore, m)
 
         async with httpx.AsyncClient(
-            headers={
-                "User-Agent": "mxmap.ee/1.0 (https://github.com/livenson/mxmap)"
-            },
+            headers={"User-Agent": "mxmap.ee/1.0 (https://github.com/livenson/mxmap)"},
             follow_redirects=True,
         ) as client:
             tasks = [process_with_budget(client, m) for m in unknowns]

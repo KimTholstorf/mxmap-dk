@@ -348,7 +348,12 @@ SUBPAGES = [
 GATEWAY_KEYWORDS = {
     "seppmail": ["seppmail.cloud", "seppmail.com"],
     "barracuda": ["barracudanetworks.com", "barracuda.com"],
-    "trendmicro": ["tmes.trendmicro.eu", "tmes.trendmicro.com", "trendmicro.eu", "trendmicro.com"],
+    "trendmicro": [
+        "tmes.trendmicro.eu",
+        "tmes.trendmicro.com",
+        "trendmicro.eu",
+        "trendmicro.com",
+    ],
     "hornetsecurity": ["hornetsecurity.com"],
     "proofpoint": ["ppe-hosted.com", "pphosted.com"],
     "sophos": ["hydra.sophos.com"],
@@ -844,10 +849,22 @@ LOCAL_ISP_ASNS: dict[int, str] = {
 }
 
 DE_STATES = {
-    "SH": "01", "HH": "02", "NI": "03", "HB": "04",
-    "NW": "05", "HE": "06", "RP": "07", "BW": "08",
-    "BY": "09", "SL": "10", "BE": "11", "BB": "12",
-    "MV": "13", "SN": "14", "ST": "15", "TH": "16",
+    "SH": "01",
+    "HH": "02",
+    "NI": "03",
+    "HB": "04",
+    "NW": "05",
+    "HE": "06",
+    "RP": "07",
+    "BW": "08",
+    "BY": "09",
+    "SL": "10",
+    "BE": "11",
+    "BB": "12",
+    "MV": "13",
+    "SN": "14",
+    "ST": "15",
+    "TH": "16",
 }
 
 # Reverse mapping: state code → abbreviation (for display)

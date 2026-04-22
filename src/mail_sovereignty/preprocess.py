@@ -7,7 +7,11 @@ from typing import Any
 from urllib.parse import urlparse
 
 from mail_sovereignty.classify import classify
-from mail_sovereignty.constants import CONCURRENCY, LOCAL_ISP_ASNS, PARTITIONED_COUNTRIES
+from mail_sovereignty.constants import (
+    CONCURRENCY,
+    LOCAL_ISP_ASNS,
+    PARTITIONED_COUNTRIES,
+)
 from mail_sovereignty.dns import (
     lookup_autodiscover,
     lookup_dkim,
@@ -770,9 +774,7 @@ async def scan_municipality(
                     if guess == domain:
                         continue
                     # Check cache for guessed domain too
-                    gcached = (
-                        dns_cache.get_domain(guess) if dns_cache else None
-                    )
+                    gcached = dns_cache.get_domain(guess) if dns_cache else None
                     if gcached and gcached.get("mx"):
                         mx = gcached["mx"]
                         spf = gcached.get("spf", "")
@@ -806,6 +808,7 @@ async def scan_municipality(
 
             # Backfill tenant if missing from old cache (only for gateway scenarios)
             from mail_sovereignty.classify import detect_gateway
+
             if tenant is None and domain and mx and detect_gateway(mx):
                 tenant = await lookup_tenant(domain)
                 if tenant:
@@ -820,12 +823,18 @@ async def scan_municipality(
             dkim = await lookup_dkim(domain) if domain else {}
             # Only lookup tenant for gateway scenarios (avoids HTTP call for ~80% of domains)
             from mail_sovereignty.classify import detect_gateway
-            tenant = await lookup_tenant(domain) if domain and mx and detect_gateway(mx) else None
+
+            tenant = (
+                await lookup_tenant(domain)
+                if domain and mx and detect_gateway(mx)
+                else None
+            )
 
             # Store in cache
             if dns_cache and domain:
                 cache_data = {
-                    "mx": mx, "spf": spf,
+                    "mx": mx,
+                    "spf": spf,
                     "spf_resolved": spf_resolved,
                     "mx_cnames": mx_cnames,
                     "mx_asns": sorted(mx_asns) if mx_asns else [],
@@ -935,12 +944,15 @@ async def run(
             else:
                 filtered[k] = v
         from mail_sovereignty.constants import DE_STATE_CODES
+
         filter_labels = []
         for cc, codes in state_filters.items():
             abbrevs = [DE_STATE_CODES.get(c, c) for c in codes] if cc == "DE" else codes
             filter_labels.append(f"{cc}:{','.join(abbrevs)}")
-        print(f"  State filter: {', '.join(filter_labels)} "
-              f"({len(filtered)}/{len(municipalities)} municipalities)")
+        print(
+            f"  State filter: {', '.join(filter_labels)} "
+            f"({len(filtered)}/{len(municipalities)} municipalities)"
+        )
         municipalities = filtered
 
     total = len(municipalities)
@@ -958,10 +970,13 @@ async def run(
         if cc in PARTITIONED_COUNTRIES:
             # Create one cache per partition (state)
             extract = PARTITIONED_COUNTRIES[cc]
-            partitions = sorted({
-                extract(k) for k, v in municipalities.items()
-                if v.get("country", "") == cc
-            })
+            partitions = sorted(
+                {
+                    extract(k)
+                    for k, v in municipalities.items()
+                    if v.get("country", "") == cc
+                }
+            )
             for part in partitions:
                 caches[f"{cc}:{part}"] = DnsCache(cc, partition=part)
         else:
@@ -1043,8 +1058,7 @@ async def run(
                 return True
 
             merged = {
-                k: v for k, v in existing_munis.items()
-                if not should_replace(k, v)
+                k: v for k, v in existing_munis.items() if not should_replace(k, v)
             }
         else:
             # Remove old entries for the filtered countries, keep the rest
