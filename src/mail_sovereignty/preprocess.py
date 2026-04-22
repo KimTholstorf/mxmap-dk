@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import urlparse
 
-from mail_sovereignty.classify import classify, detect_gateway
+from mail_sovereignty.classify import classify
 from mail_sovereignty.constants import CONCURRENCY, LOCAL_ISP_ASNS, PARTITIONED_COUNTRIES
 from mail_sovereignty.dns import (
     lookup_autodiscover,

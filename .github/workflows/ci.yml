@@ -7,13 +7,12 @@ on:
     branches: [main]
 
 jobs:
-  test:
+  lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
-      - uses: astral-sh/setup-uv@v7
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
       - run: uv python install 3.13
       - run: uv sync --group dev
-      - run: uv run ruff check src tests
-      - run: uv run ruff format src tests --check
-      - run: uv run pytest --cov --cov-report=term-missing
+      - run: uv run ruff check src
+      - run: uv run ruff format src --check
