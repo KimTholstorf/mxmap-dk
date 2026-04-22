@@ -3,6 +3,12 @@
 # Claude
 .claude/
 
+# IDE
+.idea/
+
+# Tests (local dev only)
+tests/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
