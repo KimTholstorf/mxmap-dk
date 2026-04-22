@@ -1,10 +1,10 @@
 name: Nightly data update
 # Runs preprocess (DNS) + postprocess (overrides, SMTP) + validate + deploy
 
+# Disabled for mxmap-dk — replaced by weekly.yml (Nordic-only focus)
+# Kept for reference; do not re-enable without reviewing the country list.
 on:
-  schedule:
-    - cron: '0 4 * * *'
-  workflow_dispatch:
+  workflow_dispatch:  # manual only — schedule removed
 
 permissions:
   contents: write
@@ -21,8 +21,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 240
     steps:
-      - uses: actions/checkout@v6
-      - uses: astral-sh/setup-uv@v7
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
       - run: uv python install 3.13
       - run: uv sync
       - name: Preprocess (small + medium countries)
@@ -131,10 +131,10 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v4
         with:
-          ref: baltic
-      - uses: actions/upload-pages-artifact@v4
+          ref: main
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: .
       - id: deployment

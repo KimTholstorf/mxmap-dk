@@ -1,0 +1,744 @@
+{
+  "generated": "2026-04-21T09:59:34.214851+00:00",
+  "companies": [
+    {
+      "ticker": "ABB",
+      "name": "ABB",
+      "domain": "abb.com",
+      "sector": "Industrial Automation",
+      "hq_address": "Västerås",
+      "hq_municipality": "Västerås",
+      "hq_lat": 59.6099,
+      "hq_lng": 16.5448,
+      "verified": true,
+      "mx": [
+        "mxa-00661e01.gslb.pphosted.com",
+        "mxb-00661e01.gslb.pphosted.com"
+      ],
+      "spf": "v=spf1 include:spf.abb.com ip4:212.108.233.70 ip4:203.19.232.232 ip4:92.52.113.146 ip4:92.52.113.148 include:aspmx.pardot.com include:_spf.anpdm.com ip4:80.80.228.50 include:spf.mandrillapp.com ip4:168.138.226.49 ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": "proofpoint",
+      "tenant": "Federated",
+      "provider": "microsoft",
+      "reason": "MX is proofpoint gateway; autodiscover points to microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "ADDT-B",
+      "name": "Addtech",
+      "domain": "addtech.com",
+      "sector": "Industrial Trading",
+      "hq_address": "Stockholm",
+      "hq_municipality": "Stockholm",
+      "hq_lat": 59.3293,
+      "hq_lng": 18.0686,
+      "verified": true,
+      "mx": [
+        "addtech-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:213.212.35.0/25 ip4:147.253.222.149 ip4:178.21.131.158  include:spf.lianamailer.com include:spf.protection.outlook.com include:sparkpostmail.com include:spf.mailanyone.net include:servers.mcsv.net include:smtp-spf.dgcsystems.net include:spf.mailjet.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (addtech-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "ALFA",
+      "name": "Alfa Laval",
+      "domain": "alfalaval.com",
+      "sector": "Heat Transfer Equipment",
+      "hq_address": "Lund",
+      "hq_municipality": "Lund",
+      "hq_lat": 55.7047,
+      "hq_lng": 13.191,
+      "verified": true,
+      "mx": [
+        "alfalaval-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 mx ip4:101.99.65.16 ip4:101.99.65.19 ip4:168.138.226.49 ip4:91.223.62.225 ip4:212.39.34.0/25 ip4:212.39.42.0/24 ip4:83.151.158.125 ip4:62.209.53.67 ip4:46.22.189.51 ip4:80.95.173.197 ip4:195.242.46.240/28 ip4:212.39.32.0/24 ip4:185.4.4.17 ip4:91.233.125.0/24 ip4:185.183.28.226 ip4:185.132.181.87 include:spf.protection.outlook.com include:_spf.anpdm.com include:_spf.netigate.se include:spf.afas.online a:c.spf.service-now.com include:spf.mandrillapp.com include:mktomail.com include:docebosaas.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (alfalaval-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "ASSA-B",
+      "name": "Assa Abloy",
+      "domain": "assaabloy.com",
+      "sector": "Security & Access",
+      "hq_address": "Stockholm",
+      "hq_municipality": "Stockholm",
+      "hq_lat": 59.3293,
+      "hq_lng": 18.0686,
+      "verified": true,
+      "mx": [
+        "assaabloy-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf1.assaabloy.com include:spf2.assaabloy.com include:spf3.assaabloy.com include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (assaabloy-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "AZN",
+      "name": "AstraZeneca",
+      "domain": "astrazeneca.com",
+      "sector": "Pharmaceuticals",
+      "hq_address": "Södertälje",
+      "hq_municipality": "Södertälje",
+      "hq_lat": 59.1955,
+      "hq_lng": 17.6253,
+      "verified": true,
+      "mx": [
+        "de-smtp-inbound-1.mimecast.com",
+        "de-smtp-inbound-2.mimecast.com"
+      ],
+      "spf": "v=spf1 include:spf.mandrillapp.com ip4:74.116.124.0/22 ip4:199.168.64.0/22 ip4:210.129.217.47/32 include:mailgun.org include:_spf.anpdm.com include:de._netblocks.mimecast.com ~all",
+      "mx_countries": [
+        "DE"
+      ],
+      "gateway": "mimecast",
+      "tenant": "Managed",
+      "provider": "microsoft",
+      "reason": "MX is mimecast gateway; DKIM signs via microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "ATCO-A",
+      "name": "Atlas Copco",
+      "domain": "atlascopco.com",
+      "sector": "Industrial Machinery",
+      "hq_address": "Nacka",
+      "hq_municipality": "Nacka",
+      "hq_lat": 59.3155,
+      "hq_lng": 18.1641,
+      "verified": true,
+      "mx": [
+        "atlascopco-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:18.168.51.200 ip4:18.168.140.58 include:spfip.atlascopco.com include:spf.mandrillapp.com include:_spf.anpdm.com include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (atlascopco-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "BOL",
+      "name": "Boliden",
+      "domain": "boliden.com",
+      "sector": "Mining & Metals",
+      "hq_address": "Stockholm",
+      "hq_municipality": "Stockholm",
+      "hq_lat": 59.3293,
+      "hq_lng": 18.0686,
+      "verified": true,
+      "mx": [
+        "boliden-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 mx ip4:62.20.82.185 ip4:62.183.198.32/27 ip4:212.181.0.10 ip4:195.67.21.5 ip4:195.67.21.7 ip4:195.67.39.75 ip4:131.207.55.48/29 ip4:149.72.30.77 ip4:76.223.128.48 ip4:76.223.128.49 ip4:76.223.128.50 include:spf.nebu.com include:spf.protection.outlook.com include:spf.mailjet.com a:smtp-out1.tucaas.com a:smtp-out2.tucaas.com a:c.spf.service-now.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (boliden-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "EPI-A",
+      "name": "Epiroc",
+      "domain": "epiroc.com",
+      "sector": "Mining Equipment",
+      "hq_address": "Örebro",
+      "hq_municipality": "Örebro",
+      "hq_lat": 59.2741,
+      "hq_lng": 15.2066,
+      "verified": true,
+      "mx": [
+        "epiroc-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spfip.epiroc.com include:spf.protection.outlook.com include:_spf.netigate.se include:spf.mailjet.com include:_spf-dc2.successfactors.com include:_spf.salesforce.com ip4:188.95.96.121 ip4:87.253.233.53 -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (epiroc-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "EQT",
+      "name": "EQT",
+      "domain": "eqtgroup.com",
+      "sector": "Private Equity",
+      "hq_address": "Stockholm",
+      "hq_municipality": "Stockholm",
+      "hq_lat": 59.3293,
+      "hq_lng": 18.0686,
+      "verified": true,
+      "mx": [
+        "alt1.aspmx.l.google.com",
+        "alt2.aspmx.l.google.com",
+        "alt3.aspmx.l.google.com",
+        "alt4.aspmx.l.google.com",
+        "aspmx.l.google.com"
+      ],
+      "spf": "v=spf1 include:_spf.google.com include:sendgrid.net include:spf.mandrillapp.com include:servers.mcsv.net include:_spf.salesforce.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "google",
+      "reason": "MX record (alt1.aspmx.l.google.com, alt2.aspmx.l.google.com) matches Google",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "ERIC-B",
+      "name": "Ericsson",
+      "domain": "ericsson.com",
+      "sector": "Telecommunications",
+      "hq_address": "Stockholm",
+      "hq_municipality": "Stockholm",
+      "hq_lat": 59.4045,
+      "hq_lng": 17.9543,
+      "verified": true,
+      "mx": [
+        "ericsson-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:193.180.251.71/32 ip4:193.180.251.72/31 ip4:198.24.6.0/25 ip4:192.176.1.74/32 ip4:213.68.11.254/32 ip4:109.203.101.205/32 ip4:129.192.139.193/32 ip4:129.192.129.0/24 ip4:130.100.64.168/32 include:spf.protection.outlook.com ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (ericsson-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "ESSITY-B",
+      "name": "Essity",
+      "domain": "essity.com",
+      "sector": "Hygiene & Health",
+      "hq_address": "Stockholm",
+      "hq_municipality": "Stockholm",
+      "hq_lat": 59.3293,
+      "hq_lng": 18.0686,
+      "verified": true,
+      "mx": [
+        "essity-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 a:gilrain.ngninfra.net ip4:193.221.47.0/25 ip4:72.44.214.60 ip4:62.209.53.67 ip4:103.25.130.111 ip4:130.214.105.240/28 ip4:130.214.163.240/28 ip4:130.214.134.192/28 ip4:130.214.240.208/28 include:de._netblocks.mimecast.com include:spf.protection.outlook.com include:spf2.essity.com include:spf3.essity.com include:amazonses.com include:mail.zendesk.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (essity-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "EVO",
+      "name": "Evolution",
+      "domain": "evolution.com",
+      "sector": "Online Gaming",
+      "hq_address": "Stockholm",
+      "hq_municipality": "Stockholm",
+      "hq_lat": 59.3293,
+      "hq_lng": 18.0686,
+      "verified": true,
+      "mx": [
+        "evolution-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com include:sendgrid.net include:spf.surveymonkey.com include:_spf1.evolution.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (evolution-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "SHB-A",
+      "name": "Handelsbanken",
+      "domain": "handelsbanken.se",
+      "sector": "Banking",
+      "hq_address": "Stockholm",
+      "hq_municipality": "Stockholm",
+      "hq_lat": 59.3293,
+      "hq_lng": 18.0686,
+      "verified": true,
+      "mx": [
+        "mx01.handelsbanken.se",
+        "mx02.handelsbanken.se"
+      ],
+      "spf": "v=spf1 ip4:194.68.56.145 ip4:194.68.56.146 ip4:194.68.56.149 ip4:194.68.56.150 ip4:194.68.126.226 include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "SE"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "independent",
+      "reason": "MX (mx01.handelsbanken.se, mx02.handelsbanken.se) is self-hosted",
+      "smtp_banner": "220 mx01.handelsbanken.se ESMTP",
+      "smtp_software": "mx01.handelsbanken.se ESMTP"
+    },
+    {
+      "ticker": "HM-B",
+      "name": "H&M",
+      "domain": "hm.com",
+      "sector": "Retail",
+      "hq_address": "Stockholm",
+      "hq_municipality": "Stockholm",
+      "hq_lat": 59.3293,
+      "hq_lng": 18.0686,
+      "verified": true,
+      "mx": [
+        "hm-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com include:%{i}._ip.%{h}._ehlo.%{d}._spf.vali.email ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (hm-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "HEXA-B",
+      "name": "Hexagon",
+      "domain": "hexagon.com",
+      "sector": "Measurement Technology",
+      "hq_address": "Stockholm",
+      "hq_municipality": "Stockholm",
+      "hq_lat": 59.3293,
+      "hq_lng": 18.0686,
+      "verified": true,
+      "mx": [
+        "hexagon-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:%{i}._ip.%{h}._ehlo.%{d}._spf.vali.email ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (hexagon-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "INDU-C",
+      "name": "Industrivärden",
+      "domain": "industrivarden.se",
+      "sector": "Investment",
+      "hq_address": "Stockholm",
+      "hq_municipality": "Stockholm",
+      "hq_lat": 59.3293,
+      "hq_lng": 18.0686,
+      "verified": true,
+      "mx": [
+        "industrivarden-se.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:46.21.107.240 include:spf.protection.outlook.com ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (industrivarden-se.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "INVE-B",
+      "name": "Investor",
+      "domain": "investorab.com",
+      "sector": "Investment",
+      "hq_address": "Stockholm",
+      "hq_municipality": "Stockholm",
+      "hq_lat": 59.3293,
+      "hq_lng": 18.0686,
+      "verified": true,
+      "mx": [
+        "investorab-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 a:ems1.ems.investorab.com a:sto-adex01.investor.se a:mx4.investorab.com a:mx5.investorab.com include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (investorab-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "LIFCO-B",
+      "name": "Lifco",
+      "domain": "lifco.se",
+      "sector": "Industrial Conglomerate",
+      "hq_address": "Enköping",
+      "hq_municipality": "Enköping",
+      "hq_lat": 59.6351,
+      "hq_lng": 17.0776,
+      "verified": true,
+      "mx": [
+        "lifco-se.mx1.staysecuregroup.com",
+        "lifco-se.mx2.staysecuregroup.net"
+      ],
+      "spf": "v=spf1 include:_spf.staysecuregroup.com -all",
+      "mx_countries": [
+        "IE"
+      ],
+      "gateway": "staysecure",
+      "tenant": "Managed",
+      "provider": "microsoft",
+      "reason": "MX is staysecure gateway; autodiscover points to microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "NIBE-B",
+      "name": "Nibe Industrier",
+      "domain": "nibe.eu",
+      "sector": "Energy Systems",
+      "hq_address": "Markaryd",
+      "hq_municipality": "Markaryd",
+      "hq_lat": 56.4623,
+      "hq_lng": 13.5942,
+      "verified": true,
+      "mx": [
+        "mxa-00373502.gslb.pphosted.com",
+        "mxb-00373502.gslb.pphosted.com"
+      ],
+      "spf": "v=spf1 ip4:20.42.80.160 ip4:20.103.25.156 include:mail.sitevision-cloud.net include:spf-00373501.pphosted.com include:spf-00373502.pphosted.com include:spf.protection.outlook.com include:spf1.emarketeer.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": "proofpoint",
+      "tenant": "Managed",
+      "provider": "microsoft",
+      "reason": "MX is proofpoint gateway; SPF+DKIM confirm microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "NDA-SE",
+      "name": "Nordea",
+      "domain": "nordea.com",
+      "sector": "Banking",
+      "hq_address": "Helsinki (SE-listed)",
+      "hq_municipality": "Stockholm",
+      "hq_lat": 59.3293,
+      "hq_lng": 18.0686,
+      "verified": true,
+      "mx": [
+        "nordea-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf-1.nordea.com include:spf-2.nordea.com include:spf-3.nordea.com include:spf-4.nordea.com include:spf-5.nordea.com include:nets1.spf.messagelabs.com include:spf.protection.outlook.com include:spf.mailanyone.net ip4:195.244.107.235 ip4:195.244.107.236 ip4:195.244.107.237 ip4:185.21.40.0/24 ip4:139.116.71.0/25 ip4:212.100.250.16/29 ip4:52.232.27.151 ip4:209.172.40.80/28 ip4:185.136.189.108 ip4:198.2.179.61 ip4:192.254.122.173 ip4:167.89.22.98 ip4:139.113.128.44 ip4:139.113.128.45 -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (nordea-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "SAAB-B",
+      "name": "Saab",
+      "domain": "saabgroup.com",
+      "sector": "Defence & Aerospace",
+      "hq_address": "Linköping",
+      "hq_municipality": "Linköping",
+      "hq_lat": 58.4108,
+      "hq_lng": 15.6214,
+      "verified": true,
+      "mx": [
+        "mail1.saabgroup.com",
+        "mail2.saabgroup.com"
+      ],
+      "spf": "v=spf1 ip4:64.49.204.152/32 ip4:64.49.204.153/32 ip4:147.13.200.22/32 ip4:213.180.72.14/32 ip4:213.180.72.15/32 ip4:213.180.72.147/28 ip4:217.198.155.15/32 ip4:54.229.2.165/32 ip4:52.30.130.201/32 ip4:185.14.244.9/32 ip4:185.14.245.9/32 ip4:185.14.246.9/32 ip4:185.14.247.9/32 ip4:136.163.211.82/32 ip4:136.163.211.83/32 ip4:136.163.212.3/32 ip4:136.163.212.4/32 ip4:136.163.208.2/32 include:spf.protection.outlook.com mx -all",
+      "mx_countries": [
+        "SE"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX (mail1.saabgroup.com, mail2.saabgroup.com) is local gateway; DKIM reveals microsoft backend",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "SAND",
+      "name": "Sandvik",
+      "domain": "sandvik.com",
+      "sector": "Engineering",
+      "hq_address": "Sandviken",
+      "hq_municipality": "Sandviken",
+      "hq_lat": 60.6167,
+      "hq_lng": 16.7667,
+      "verified": true,
+      "mx": [
+        "sandvik-com.mail.protection.outlook.com",
+        "sandvik-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:51.105.101.163 ip4:20.13.53.235 include:spf.protection.outlook.com include:spfa.sandvik.com include:spfb.sandvik.com ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (sandvik-com.mail.protection.outlook.com, sandvik-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "SCA-B",
+      "name": "SCA",
+      "domain": "sca.com",
+      "sector": "Forest Products",
+      "hq_address": "Sundsvall",
+      "hq_municipality": "Sundsvall",
+      "hq_lat": 62.3908,
+      "hq_lng": 17.3069,
+      "verified": true,
+      "mx": [
+        "sca-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:193.235.12.212 ip4:193.235.12.213 include:spf.protection.outlook.com include:spf1.emarketeer.com include:_spf-dc2.successfactors.com include:sendgrid.net include:servers.mcsv.net -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (sca-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "SEB-A",
+      "name": "SEB",
+      "domain": "sebgroup.com",
+      "sector": "Banking",
+      "hq_address": "Stockholm",
+      "hq_municipality": "Stockholm",
+      "hq_lat": 59.3293,
+      "hq_lng": 18.0686,
+      "verified": true,
+      "mx": [
+        "smtp-01.seb.se",
+        "smtp-02.seb.se",
+        "smtp-03.seb.se",
+        "smtp-04.seb.se",
+        "smtp-05.seb.se",
+        "smtp-06.seb.se"
+      ],
+      "spf": "v=spf1 mx include:_spf-a.seb.se include:_spf-b.seb.se ip4:35.228.242.140 ip4:35.241.148.106 ip4:35.228.5.32 include:servers.mcsv.net include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "SE"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "independent",
+      "reason": "MX (smtp-01.seb.se, smtp-02.seb.se) is self-hosted",
+      "smtp_banner": "220 smtp-01.seb.se ESMTP Ready",
+      "smtp_software": "smtp-01.seb.se ESMTP Ready"
+    },
+    {
+      "ticker": "SKA-B",
+      "name": "Skanska",
+      "domain": "skanska.com",
+      "sector": "Construction",
+      "hq_address": "Stockholm",
+      "hq_municipality": "Stockholm",
+      "hq_lat": 59.3293,
+      "hq_lng": 18.0686,
+      "verified": true,
+      "mx": [
+        "skanska-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:_spfo365.skanska.com include:spf.skanska.net ip4:66.150.161.30 a:b.spf.service-now.com a:d.spf.service-now.com a:c.spf.service-now.com a:mail.prologsky.com include:_spf.salesforce.com include:_spf.qualtrics.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (skanska-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "SKF-B",
+      "name": "SKF",
+      "domain": "skf.com",
+      "sector": "Bearings & Seals",
+      "hq_address": "Gothenburg",
+      "hq_municipality": "Göteborg",
+      "hq_lat": 57.7089,
+      "hq_lng": 11.9746,
+      "verified": true,
+      "mx": [
+        "skf-com.mail.protection.outlook.com",
+        "skf-com.mail.protection.outlook.com",
+        "skf-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com include:spf1.skf.com include:spf2.skf.com include:spf3.skf.com include:_spf.google.com include:4611544.spf07.hubspotemail.net include:spf.eu.odmad.quest-on-demand.com ip4:217.77.192.9 ip4:217.77.193.9 -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (skf-com.mail.protection.outlook.com, skf-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "SWED-A",
+      "name": "Swedbank",
+      "domain": "swedbank.se",
+      "sector": "Banking",
+      "hq_address": "Stockholm",
+      "hq_municipality": "Stockholm",
+      "hq_lat": 59.3293,
+      "hq_lng": 18.0686,
+      "verified": true,
+      "mx": [
+        "mail1.swedbank.se",
+        "mail2.swedbank.se"
+      ],
+      "spf": "v=spf1 mx mx:swedbank.ee ip4:164.10.52.33 ip4:164.10.52.34 ip4:164.10.46.101 ip4:164.10.46.102 ip4:164.10.106.10 ip4:164.10.106.11 ip4:164.10.107.10 ip4:164.10.107.11 mx:first.no a:smtp5.crebit.ee ip4:82.115.146.1 ip4:82.115.146.60 ip4:79.136.114.89 ip4:213.131.154.7 ip4:213.131.154.60 ip4:213.131.154.61 ip4:81.201.219.9 ip4:79.136.117.242 ip4:164.10.46.103 ip4:164.10.46.104 -all",
+      "mx_countries": [
+        "SE"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "independent",
+      "reason": "MX (mail1.swedbank.se, mail2.swedbank.se) is self-hosted",
+      "smtp_banner": "220 mail1.swedbank.se ESMTP",
+      "smtp_software": "mail1.swedbank.se ESMTP"
+    },
+    {
+      "ticker": "TEL2-B",
+      "name": "Tele2",
+      "domain": "tele2.com",
+      "sector": "Telecommunications",
+      "hq_address": "Stockholm",
+      "hq_municipality": "Stockholm",
+      "hq_lat": 59.3293,
+      "hq_lng": 18.0686,
+      "verified": true,
+      "mx": [
+        "tele2-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:_spf-a.tele2.com include:_spf-b.tele2.com include:_spf-c.tele2.com include:_spf-d.tele2.com include:spf.protection.outlook.com include:mail.zendesk.com include:spf1.email-messaging.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (tele2-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "TELIA",
+      "name": "Telia Company",
+      "domain": "telia.com",
+      "sector": "Telecommunications",
+      "hq_address": "Stockholm",
+      "hq_municipality": "Stockholm",
+      "hq_lat": 59.3293,
+      "hq_lng": 18.0686,
+      "verified": true,
+      "mx": [
+        "mail.telia.com"
+      ],
+      "spf": "v=spf1 ip4:81.236.60.128/26 ip4:81.236.60.192/28 ip4:81.236.57.0/24 ip4:81.227.116.64/26 ip4:81.236.55.0/24 ~all",
+      "mx_countries": [
+        "SE"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "telia",
+      "reason": "MX record (mail.telia.com) matches Telia",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "VOLV-B",
+      "name": "Volvo",
+      "domain": "volvogroup.com",
+      "sector": "Vehicles & Transport",
+      "hq_address": "Gothenburg",
+      "hq_municipality": "Göteborg",
+      "hq_lat": 57.7089,
+      "hq_lng": 11.9746,
+      "verified": true,
+      "mx": [
+        "volvogroup-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:%{i}._ip.%{h}._ehlo.%{d}._spf.vali.email ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (volvogroup-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    }
+  ]
+}

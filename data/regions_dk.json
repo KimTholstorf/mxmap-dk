@@ -1,0 +1,7 @@
+[
+  {"id": "DK-R-HV", "name": "Hovedstaden",  "full_name": "Region Hovedstaden", "country": "DK", "domain": "regionh.dk",           "verified": false},
+  {"id": "DK-R-MJ", "name": "Midtjylland",  "full_name": "Region Midtjylland",  "country": "DK", "domain": "rm.dk",                "verified": false},
+  {"id": "DK-R-NJ", "name": "Nordjylland",  "full_name": "Region Nordjylland",  "country": "DK", "domain": "rn.dk",                "verified": false},
+  {"id": "DK-R-SJ", "name": "Sjælland",     "full_name": "Region Sjælland",     "country": "DK", "domain": "regionsjaelland.dk",   "verified": false},
+  {"id": "DK-R-SY", "name": "Syddanmark",   "full_name": "Region Syddanmark",   "country": "DK", "domain": "rsyd.dk",              "verified": false}
+]

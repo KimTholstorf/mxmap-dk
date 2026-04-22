@@ -1,0 +1,17 @@
+[
+  {"id": "NO-R-AG", "name": "Agder",          "full_name": "Agder fylkeskommune",          "country": "NO", "domain": "agderfk.no",          "verified": false},
+  {"id": "NO-R-AK", "name": "Akershus",       "full_name": "Akershus fylkeskommune",       "country": "NO", "domain": "afk.no",              "verified": false},
+  {"id": "NO-R-BU", "name": "Buskerud",       "full_name": "Buskerud fylkeskommune",       "country": "NO", "domain": "bfk.no",              "verified": false},
+  {"id": "NO-R-FI", "name": "Finnmark",       "full_name": "Finnmark fylkeskommune",       "country": "NO", "domain": "ffk.no",              "verified": false},
+  {"id": "NO-R-IN", "name": "Innlandet",      "full_name": "Innlandet fylkeskommune",      "country": "NO", "domain": "innlandetfylke.no",   "verified": false},
+  {"id": "NO-R-MR", "name": "Møre og Romsdal","full_name": "Møre og Romsdal fylkeskommune","country": "NO", "domain": "mrfylke.no",          "verified": false},
+  {"id": "NO-R-ND", "name": "Nordland",       "full_name": "Nordland fylkeskommune",       "country": "NO", "domain": "nfk.no",              "verified": false},
+  {"id": "NO-R-OS", "name": "Oslo",           "full_name": "Oslo kommune",                 "country": "NO", "domain": "oslo.kommune.no",     "verified": false},
+  {"id": "NO-R-RO", "name": "Rogaland",       "full_name": "Rogaland fylkeskommune",       "country": "NO", "domain": "rogfk.no",            "verified": false},
+  {"id": "NO-R-TE", "name": "Telemark",       "full_name": "Telemark fylkeskommune",       "country": "NO", "domain": "telemarkfk.no",       "verified": false},
+  {"id": "NO-R-TR", "name": "Troms",          "full_name": "Troms fylkeskommune",          "country": "NO", "domain": "tromsfylke.no",       "verified": false},
+  {"id": "NO-R-TL", "name": "Trøndelag",      "full_name": "Trøndelag fylkeskommune",      "country": "NO", "domain": "trondelagfylke.no",   "verified": false},
+  {"id": "NO-R-VF", "name": "Vestfold",       "full_name": "Vestfold fylkeskommune",       "country": "NO", "domain": "vestfoldfk.no",       "verified": false},
+  {"id": "NO-R-VL", "name": "Vestland",       "full_name": "Vestland fylkeskommune",       "country": "NO", "domain": "vestlandfylke.no",    "verified": false},
+  {"id": "NO-R-OF", "name": "Østfold",        "full_name": "Østfold fylkeskommune",        "country": "NO", "domain": "ofk.no",              "verified": false}
+]

@@ -27,6 +27,8 @@ SUMMARY_FIELDS = {
     "country",
     "domain",
     "provider",
+    "jurisdiction",
+    "confidence",
     "osm_relation_id",
     "mx_countries",
     "gateway",
@@ -49,32 +51,50 @@ DETAIL_FIELDS = {
 # Fields intentionally dropped (not used by frontend)
 # spf_resolved, mx_asns, smtp_banner, mx_cnames
 
+# Jurisdiction grouping: each raw provider maps to a sovereignty category.
+# US Cloud = subject to US CLOUD Act / FISA 702.
+# EU Provider = hosted within EU/EEA legal jurisdiction.
+# Self-hosted = municipality runs its own mail server.
+PROVIDER_JURISDICTION = {
+    "microsoft": "us-cloud",
+    "google": "us-cloud",
+    "aws": "us-cloud",
+    "zoho": "us-cloud",
+    "yandex": "foreign-cloud",   # Russian jurisdiction
+    "zone": "eu-provider",
+    "telia": "eu-provider",
+    "tet": "eu-provider",
+    "elkdata": "eu-provider",
+    "local-isp": "eu-provider",
+    "independent": "self-hosted",
+    "unknown": "unknown",
+}
 
+# Display names for jurisdiction categories (used in region data + legend)
 PROVIDER_DISPLAY = {
-    "microsoft": "Microsoft",
-    "google": "Google",
-    "aws": "AWS",
-    "telia": "Local Provider",
-    "tet": "Local Provider",
-    "zone": "Local Provider",
-    "elkdata": "Local Provider",
-    "local-isp": "Local Provider",
-    "zoho": "Local Provider",
-    "yandex": "Local Provider",
+    "microsoft": "US Cloud",
+    "google": "US Cloud",
+    "aws": "US Cloud",
+    "zoho": "US Cloud",
+    "yandex": "Foreign Cloud",
+    "zone": "EU Provider",
+    "telia": "EU Provider",
+    "tet": "EU Provider",
+    "elkdata": "EU Provider",
+    "local-isp": "EU Provider",
     "independent": "Self-hosted",
     "unknown": "Unknown",
 }
 
 COLORS = {
-    "Microsoft": "#E83838",
-    "Google": "#FFAB96",
-    "AWS": "#FF7A5C",
-    "Local Provider": "#10B898",
-    "Self-hosted": "#0E9680",
-    "Unknown": "#BFBFBF",
+    "US Cloud":      "#E83838",
+    "Foreign Cloud": "#FF7A5C",
+    "EU Provider":   "#10B898",
+    "Self-hosted":   "#5B8DEF",
+    "Unknown":       "#BFBFBF",
 }
 
-US_PROVIDERS = {"Microsoft", "Google", "AWS"}
+US_PROVIDERS = {"US Cloud", "Foreign Cloud"}
 
 
 def hex_to_rgb(h: str) -> tuple[int, int, int]:
@@ -187,6 +207,71 @@ def build_region_data(munis: dict, generated: str) -> dict:
     return {"generated": generated, "total": len(munis), "countries": countries}
 
 
+def _compute_confidence(entry: dict) -> int:
+    """Compute a 0-100 confidence score for an entry.
+
+    Derived from validate.score_entry() logic — duplicated here to avoid a
+    full pipeline dependency and the MANUAL_OVERRIDE_BFS side-effect.
+    """
+    from mail_sovereignty.classify import classify_from_mx, classify_from_spf, spf_mentions_providers
+    from mail_sovereignty.constants import PROVIDER_KEYWORDS
+
+    provider = entry.get("provider", "unknown")
+    domain = entry.get("domain", "")
+    mx = entry.get("mx", [])
+    spf = entry.get("spf", "")
+
+    if provider == "merged":
+        return 100
+
+    score = 0
+
+    if domain:
+        score += 15
+    if mx:
+        score += 25
+        if len(mx) >= 2:
+            score += 5
+    if spf:
+        score += 15
+        if spf.rstrip().endswith("-all"):
+            score += 5
+        elif "~all" in spf:
+            score += 3
+
+    mx_provider = classify_from_mx(mx)
+    spf_provider = classify_from_spf(spf)
+    spf_providers = spf_mentions_providers(spf)
+
+    if mx_provider and spf_provider:
+        if mx_provider == spf_provider or mx_provider in spf_providers:
+            score += 20
+        elif mx_provider == "independent" and spf_provider:
+            score += 10
+        else:
+            score -= 20
+    elif mx_provider == "independent" and spf and not spf_provider:
+        score += 20
+
+    main_spf_providers = spf_providers & set(PROVIDER_KEYWORDS.keys())
+    if len(main_spf_providers) >= 2:
+        score -= 10
+
+    if not mx and provider not in ("unknown", "merged") and spf_provider:
+        score -= 15
+
+    if provider not in ("unknown",):
+        score += 10
+
+    if entry.get("gateway"):
+        pass  # gateway adds uncertainty, neutral
+
+    if provider == "unknown":
+        score = min(score, 25)
+
+    return max(0, min(100, score))
+
+
 def main():
     data_path = ROOT / "data.json"
     if not data_path.exists():
@@ -206,9 +291,15 @@ def main():
     detail_munis = {}
 
     for bfs, m in munis.items():
-        # Summary: core fields + has_mx flag
+        raw_provider = m.get("provider", "unknown")
+        jurisdiction = PROVIDER_JURISDICTION.get(raw_provider, "unknown")
+        confidence = _compute_confidence(m)
+
+        # Summary: core fields + computed fields + has_mx flag
         summary = {k: m[k] for k in SUMMARY_FIELDS if k in m}
         summary["has_mx"] = len(m.get("mx", [])) > 0
+        summary["jurisdiction"] = jurisdiction
+        summary["confidence"] = confidence
         summary_munis[bfs] = summary
 
         # Detail: popup-only fields
@@ -231,9 +322,12 @@ def main():
         cc = m.get("country", "")
         if not cc:
             continue
+        raw_provider = m.get("provider", "unknown")
         # Merge summary + selected detail fields
         entry = {k: m[k] for k in SUMMARY_FIELDS if k in m}
         entry["has_mx"] = len(m.get("mx", [])) > 0
+        entry["jurisdiction"] = PROVIDER_JURISDICTION.get(raw_provider, "unknown")
+        entry["confidence"] = _compute_confidence(m)
         # Add detail fields needed for drill-down
         for field in ("mx", "reason", "gateway", "spf", "autodiscover",
                       "dkim", "txt_verifications", "tenant", "smtp_software"):

@@ -1,0 +1,616 @@
+{
+  "generated": "2026-04-21T10:03:47.981196+00:00",
+  "companies": [
+    {
+      "ticker": "DNB",
+      "name": "DNB Bank",
+      "domain": "dnb.no",
+      "sector": "Banking",
+      "hq_address": "Oslo",
+      "hq_municipality": "Oslo",
+      "hq_lat": 59.9139,
+      "hq_lng": 10.7522,
+      "verified": true,
+      "mx": [
+        "mxa-00588c01.gslb.pphosted.com",
+        "mxb-00588c01.gslb.pphosted.com"
+      ],
+      "spf": "v=spf1 include:%{ir}.%{v}.%{d}.spf.has.pphosted.com ~all",
+      "mx_countries": [
+        "GB",
+        "US"
+      ],
+      "gateway": "proofpoint",
+      "tenant": "Managed",
+      "provider": "microsoft",
+      "reason": "MX is proofpoint gateway; TXT verification proves microsoft tenant",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "EQNR",
+      "name": "Equinor",
+      "domain": "equinor.com",
+      "sector": "Oil & Gas",
+      "hq_address": "Stavanger",
+      "hq_municipality": "Stavanger",
+      "hq_lat": 58.97,
+      "hq_lng": 5.7331,
+      "verified": true,
+      "mx": [
+        "equinor-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 mx a:pc-mail.peopleclick.eu.com include:spf.protection.outlook.com include:msg-out._spf.f24cim.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (equinor-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "TEL",
+      "name": "Telenor",
+      "domain": "telenor.com",
+      "sector": "Telecommunications",
+      "hq_address": "Fornebu",
+      "hq_municipality": "Bærum",
+      "hq_lat": 59.8939,
+      "hq_lng": 10.5418,
+      "verified": true,
+      "mx": [
+        "telenor-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:_spf1.telenor.com include:_spf2.telenor.com include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (telenor-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "MOWI",
+      "name": "Mowi",
+      "domain": "mowi.com",
+      "sector": "Aquaculture",
+      "hq_address": "Bergen",
+      "hq_municipality": "Bergen",
+      "hq_lat": 60.3913,
+      "hq_lng": 5.3221,
+      "verified": true,
+      "mx": [
+        "mowi-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:%{ir}.%{v}.%{d}.spf.has.pphosted.com ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (mowi-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "SALM",
+      "name": "SalMar",
+      "domain": "salmar.no",
+      "sector": "Aquaculture",
+      "hq_address": "Kverva",
+      "hq_municipality": "Frøya",
+      "hq_lat": 63.7004,
+      "hq_lng": 8.7921,
+      "verified": true,
+      "mx": [
+        "mx1.hc242-21.eu.iphmx.com",
+        "mx2.hc242-21.eu.iphmx.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com include:mailgun.org exists:%{i}.spf.hc242-21.eu.iphmx.com ip4:185.43.88.190 ip4:81.26.32.157 ip4:80.86.134.74 -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": "cisco-ironport",
+      "tenant": "Managed",
+      "provider": "microsoft",
+      "reason": "MX is cisco-ironport gateway; SPF+autodiscover confirm microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "ORK",
+      "name": "Orkla",
+      "domain": "orkla.com",
+      "sector": "Consumer Goods",
+      "hq_address": "Oslo",
+      "hq_municipality": "Oslo",
+      "hq_lat": 59.9139,
+      "hq_lng": 10.7522,
+      "verified": true,
+      "mx": [
+        "orkla-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf1.orkla.com include:spf2.orkla.com include:_spf-dc33.sapsf.eu -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (orkla-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "AKRBP",
+      "name": "Aker BP",
+      "domain": "akerbp.com",
+      "sector": "Oil & Gas",
+      "hq_address": "Fornebu",
+      "hq_municipality": "Bærum",
+      "hq_lat": 59.8939,
+      "hq_lng": 10.5418,
+      "verified": true,
+      "mx": [
+        "akerbp-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:185.195.142.7 ip4:139.105.129.205 ip4:139.105.129.206 a:msg-out.onevoice.no a:c.spf.service-now.com include:spf.protection.outlook.com include:spfa.cpmails.com include:mailgun.org -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (akerbp-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "STB",
+      "name": "Storebrand",
+      "domain": "storebrand.no",
+      "sector": "Insurance & Finance",
+      "hq_address": "Lysaker",
+      "hq_municipality": "Bærum",
+      "hq_lat": 59.9027,
+      "hq_lng": 10.6201,
+      "verified": true,
+      "mx": [
+        "mxa-0028d802.gslb.pphosted.com",
+        "mxb-0028d802.gslb.pphosted.com"
+      ],
+      "spf": "v=spf1 include:%{ir}.%{v}.%{d}.spf.has.pphosted.com ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": "proofpoint",
+      "tenant": "Managed",
+      "provider": "google",
+      "reason": "MX is proofpoint gateway; TXT verification proves google tenant",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "NHY",
+      "name": "Norsk Hydro",
+      "domain": "hydro.com",
+      "sector": "Aluminium",
+      "hq_address": "Oslo",
+      "hq_municipality": "Oslo",
+      "hq_lat": 59.9139,
+      "hq_lng": 10.7522,
+      "verified": true,
+      "mx": [
+        "hydro-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.hydro.com.eu-qjtfrwya.e1.dspf.app -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (hydro-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "SCATC",
+      "name": "Scatec",
+      "domain": "scatec.com",
+      "sector": "Renewable Energy",
+      "hq_address": "Oslo",
+      "hq_municipality": "Oslo",
+      "hq_lat": 59.9139,
+      "hq_lng": 10.7522,
+      "verified": true,
+      "mx": [
+        "scatec-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.eu.exclaimer.net include:_spf.intility.com include:spf.sendinblue.com a:email.eye-share.com include:spf.protection.outlook.com ip4:35.195.226.206 include:mailgun.org -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (scatec-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "YAR",
+      "name": "Yara International",
+      "domain": "yara.com",
+      "sector": "Fertilizers",
+      "hq_address": "Oslo",
+      "hq_municipality": "Oslo",
+      "hq_lat": 59.9139,
+      "hq_lng": 10.7522,
+      "verified": true,
+      "mx": [
+        "yara-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:%{i}._ip.%{h}._ehlo.%{d}._spf.vali.email include:spf.protection.outlook.com ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (yara-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "SUBC",
+      "name": "Subsea 7",
+      "domain": "subsea7.com",
+      "sector": "Oil Services",
+      "hq_address": "Lysaker",
+      "hq_municipality": "Bærum",
+      "hq_lat": 59.9027,
+      "hq_lng": 10.6201,
+      "verified": true,
+      "mx": [
+        "mxa-0060ad01.gslb.pphosted.com",
+        "mxb-0060ad01.gslb.pphosted.com"
+      ],
+      "spf": "v=spf1 include:spf-0060ad01.pphosted.com include:_spf1.subsea7.com include:_spf2.subsea7.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": "proofpoint",
+      "tenant": "Managed",
+      "provider": "microsoft",
+      "reason": "MX is proofpoint gateway; TXT verification proves microsoft tenant",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "RECSI",
+      "name": "REC Silicon",
+      "domain": "recsilicon.com",
+      "sector": "Solar Materials",
+      "hq_address": "Lysaker",
+      "hq_municipality": "Bærum",
+      "hq_lat": 59.9027,
+      "hq_lng": 10.6201,
+      "verified": true,
+      "mx": [
+        "recsilicon-com.mail.eo.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:208.84.222.131 ip4:128.177.81.183 ip4:63.208.140.164 ip4:4.1.154.228 include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (recsilicon-com.mail.eo.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "KAHOT",
+      "name": "Kahoot",
+      "domain": "kahoot.com",
+      "sector": "EdTech",
+      "hq_address": "Oslo",
+      "hq_municipality": "Oslo",
+      "hq_lat": 59.9139,
+      "hq_lng": 10.7522,
+      "verified": true,
+      "mx": [
+        "alt1.aspmx.l.google.com",
+        "alt2.aspmx.l.google.com",
+        "aspmx.l.google.com",
+        "aspmx2.googlemail.com",
+        "aspmx3.googlemail.com"
+      ],
+      "spf": "v=spf1 include:_spf.google.com include:4739183.spf02.hubspotemail.net include:sendgrid.net include:shops.shopify.com include:mail.zendesk.com include:spf.tripletex.no -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "google",
+      "reason": "MX record (alt1.aspmx.l.google.com, alt2.aspmx.l.google.com) matches Google",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "AUTO",
+      "name": "AutoStore Holdings",
+      "domain": "autostoresystem.com",
+      "sector": "Warehouse Automation",
+      "hq_address": "Nedre Vats",
+      "hq_municipality": "Vindafjord",
+      "hq_lat": 59.6,
+      "hq_lng": 5.9167,
+      "verified": true,
+      "mx": [
+        "autostoresystem-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:167.89.43.190 ip4:162.214.150.196 ip4:46.250.205.16 ip4:185.12.57.64 ip4:185.12.57.26 include:spf.hatteland.com include:_spf.salesforce.com include:spf.protection.outlook.com include:mail.zendesk.com include:amazonses.com include:4565296.spf03.hubspotemail.net include:stspg-customer.com mx include:docebosaas.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (autostoresystem-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "AGAS",
+      "name": "Avance Gas",
+      "domain": "avancegas.com",
+      "sector": "Shipping",
+      "hq_address": "Oslo",
+      "hq_municipality": "Oslo",
+      "hq_lat": 59.9139,
+      "hq_lng": 10.7522,
+      "verified": true,
+      "mx": [
+        "avancegas-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:185.120.101.29 include:spf.protection.outlook.com include:mailout.osl.basefarm.net -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (avancegas-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "FRONTL",
+      "name": "Frontline",
+      "domain": "frontline.bm",
+      "sector": "Shipping",
+      "hq_address": "Oslo",
+      "hq_municipality": "Oslo",
+      "hq_lat": 59.9139,
+      "hq_lng": 10.7522,
+      "verified": true,
+      "mx": [
+        "frontline-bm.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (frontline-bm.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "GOGL",
+      "name": "Golden Ocean",
+      "domain": "goldenocean.no",
+      "sector": "Shipping",
+      "hq_address": "Oslo",
+      "hq_municipality": "Oslo",
+      "hq_lat": 59.9139,
+      "hq_lng": 10.7522,
+      "verified": true,
+      "mx": [
+        "goldenocean-no.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 a:o57.sedna.goldenocean.no include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (goldenocean-no.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "HAFNI",
+      "name": "Hafnia",
+      "domain": "hafnia.com",
+      "sector": "Shipping",
+      "hq_address": "Oslo",
+      "hq_municipality": "Oslo",
+      "hq_lat": 59.9139,
+      "hq_lng": 10.7522,
+      "verified": true,
+      "mx": [
+        "hafnia-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (hafnia-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "PGS",
+      "name": "PGS",
+      "domain": "pgs.com",
+      "sector": "Seismic Services",
+      "hq_address": "Lysaker",
+      "hq_municipality": "Bærum",
+      "hq_lat": 59.9027,
+      "hq_lng": 10.6201,
+      "verified": true,
+      "mx": [
+        "pgs-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com include:5102583.spf05.hubspotemail.net include:msg-out._spf.onevoice.no include:spf-inm.eqs-service.com a:ees1.mx.csod.com a:ees2.mx.csod.com ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (pgs-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "NOD",
+      "name": "Nordic Semiconductor",
+      "domain": "nordicsemi.com",
+      "sector": "Semiconductors",
+      "hq_address": "Oslo",
+      "hq_municipality": "Oslo",
+      "hq_lat": 59.9139,
+      "hq_lng": 10.7522,
+      "verified": true,
+      "mx": [
+        "nordicsemi-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (nordicsemi-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "SRBANK",
+      "name": "SpareBank 1 SR-Bank",
+      "domain": "sparebank1.no",
+      "sector": "Banking",
+      "hq_address": "Stavanger",
+      "hq_municipality": "Stavanger",
+      "hq_lat": 58.97,
+      "hq_lng": 5.7331,
+      "verified": true,
+      "mx": [
+        "de-smtp-inbound-1.mimecast.com",
+        "de-smtp-inbound-2.mimecast.com"
+      ],
+      "spf": "v=spf1 include:de._netblocks.mimecast.com include:_spf_1.sparebank1.no include:_spf_2.sparebank1.no include:_spf_3.sparebank1.no include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "DE"
+      ],
+      "gateway": "mimecast",
+      "tenant": "Federated",
+      "provider": "microsoft",
+      "reason": "MX is mimecast gateway; SPF+DKIM confirm microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "AKER",
+      "name": "Aker ASA",
+      "domain": "aker.com",
+      "sector": "Investment",
+      "hq_address": "Lysaker",
+      "hq_municipality": "Bærum",
+      "hq_lat": 59.9027,
+      "hq_lng": 10.6201,
+      "verified": true,
+      "mx": [
+        "mx.netidentity.com.cust.hostedemail.com",
+        "mx.netidentity.com.cust.hostedemail.com"
+      ],
+      "spf": "v=spf1 include:_spf.hostedemail.com ~all",
+      "mx_countries": [
+        "CA"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "independent",
+      "reason": "MX (mx.netidentity.com.cust.hostedemail.com, mx.netidentity.com.cust.hostedemail.com) is self-hosted",
+      "smtp_banner": "220 smtp.hostedemail.com ESMTP",
+      "smtp_software": "smtp.hostedemail.com ESMTP"
+    },
+    {
+      "ticker": "BAKKA",
+      "name": "Bakkafrost",
+      "domain": "bakkafrost.com",
+      "sector": "Aquaculture",
+      "hq_address": "Glyvrar",
+      "hq_municipality": "Faroe Islands",
+      "hq_lat": 62.05,
+      "hq_lng": -6.8167,
+      "verified": true,
+      "mx": [
+        "bakkafrost-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 a:smtp.bakkafrost.com include:spf.protection.outlook.com include:turbo-smtp.com include:spf.uk.exclaimer.net include:_spf.safewebservices.com include:_spf_euwest1.prod.hydra.sophos.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (bakkafrost-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "FLNG",
+      "name": "Flex LNG",
+      "domain": "flexlng.com",
+      "sector": "Shipping",
+      "hq_address": "Oslo",
+      "hq_municipality": "Oslo",
+      "hq_lat": 59.9139,
+      "hq_lng": 10.7522,
+      "verified": true,
+      "mx": [
+        "flexlng-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (flexlng-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    }
+  ]
+}

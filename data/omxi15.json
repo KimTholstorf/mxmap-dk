@@ -1,0 +1,17 @@
+[
+  {"ticker":"ARION",    "name":"Arion Bank",         "domain":"arionbanki.is",     "sector":"Banking",               "hq_address":"Reykjavík",    "hq_municipality":"Reykjavík",   "hq_lat":64.1355, "hq_lng":-21.8954,"verified":false},
+  {"ticker":"ICEAIR",   "name":"Icelandair Group",   "domain":"icelandairgroup.is","sector":"Aviation",              "hq_address":"Reykjavík",    "hq_municipality":"Reykjavík",   "hq_lat":64.1355, "hq_lng":-21.8954,"verified":false},
+  {"ticker":"MAREL",    "name":"Marel",              "domain":"marel.com",         "sector":"Food Processing Equipment","hq_address":"Garðabær",  "hq_municipality":"Garðabær",    "hq_lat":64.0842, "hq_lng":-21.9368,"verified":false},
+  {"ticker":"HAGA",     "name":"Hagar",              "domain":"hagar.is",          "sector":"Retail",                "hq_address":"Kópavogur",    "hq_municipality":"Kópavogur",   "hq_lat":64.1136, "hq_lng":-21.9090,"verified":false},
+  {"ticker":"SIMINN",   "name":"Siminn",             "domain":"siminn.is",         "sector":"Telecommunications",    "hq_address":"Reykjavík",    "hq_municipality":"Reykjavík",   "hq_lat":64.1355, "hq_lng":-21.8954,"verified":false},
+  {"ticker":"ISLA",     "name":"Íslandsbanki",       "domain":"islandsbanki.is",   "sector":"Banking",               "hq_address":"Reykjavík",    "hq_municipality":"Reykjavík",   "hq_lat":64.1355, "hq_lng":-21.8954,"verified":false},
+  {"ticker":"KVIKA",    "name":"Kvika banki",         "domain":"kvika.is",          "sector":"Banking",               "hq_address":"Reykjavík",    "hq_municipality":"Reykjavík",   "hq_lat":64.1355, "hq_lng":-21.8954,"verified":false},
+  {"ticker":"VIS",      "name":"Össur",              "domain":"ossur.com",         "sector":"Medical Devices",       "hq_address":"Reykjavík",    "hq_municipality":"Reykjavík",   "hq_lat":64.1355, "hq_lng":-21.8954,"verified":false},
+  {"ticker":"EIM",      "name":"Eimskip",            "domain":"eimskip.com",       "sector":"Shipping",              "hq_address":"Reykjavík",    "hq_municipality":"Reykjavík",   "hq_lat":64.1355, "hq_lng":-21.8954,"verified":false},
+  {"ticker":"REGINN",   "name":"Reginn",             "domain":"reginn.is",         "sector":"Real Estate",           "hq_address":"Reykjavík",    "hq_municipality":"Reykjavík",   "hq_lat":64.1355, "hq_lng":-21.8954,"verified":false},
+  {"ticker":"REITIR",   "name":"Reitir fasteignafélag","domain":"reitir.is",       "sector":"Real Estate",           "hq_address":"Reykjavík",    "hq_municipality":"Reykjavík",   "hq_lat":64.1355, "hq_lng":-21.8954,"verified":false},
+  {"ticker":"SKAGI",    "name":"Skaginn 3X",         "domain":"skaginn3x.com",     "sector":"Fish Processing Equipment","hq_address":"Sauðárkrókur","hq_municipality":"Skagafjörður","hq_lat":65.7453,"hq_lng":-19.6394,"verified":false},
+  {"ticker":"N1",       "name":"N1",                 "domain":"n1.is",             "sector":"Fuel Retail",           "hq_address":"Reykjavík",    "hq_municipality":"Reykjavík",   "hq_lat":64.1355, "hq_lng":-21.8954,"verified":false},
+  {"ticker":"ORIGO",    "name":"Origo",              "domain":"origo.is",          "sector":"IT Services",           "hq_address":"Reykjavík",    "hq_municipality":"Reykjavík",   "hq_lat":64.1355, "hq_lng":-21.8954,"verified":false},
+  {"ticker":"BRIM",     "name":"Brim",               "domain":"brim.is",           "sector":"Fishing",               "hq_address":"Reykjavík",    "hq_municipality":"Reykjavík",   "hq_lat":64.1355, "hq_lng":-21.8954,"verified":false}
+]

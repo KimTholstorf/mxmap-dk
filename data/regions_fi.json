@@ -1,0 +1,21 @@
+[
+  {"id": "FI-R-AH", "name": "Ahvenanmaa",       "full_name": "Ålands landskapsregering",              "country": "FI", "domain": "regeringen.ax",        "verified": false},
+  {"id": "FI-R-EK", "name": "Etelä-Karjala",    "full_name": "Etelä-Karjalan liitto",                 "country": "FI", "domain": "ekarjala.fi",          "verified": false},
+  {"id": "FI-R-EP", "name": "Etelä-Pohjanmaa",  "full_name": "Etelä-Pohjanmaan liitto",               "country": "FI", "domain": "etela-pohjanmaa.fi",   "verified": false},
+  {"id": "FI-R-ES", "name": "Etelä-Savo",       "full_name": "Etelä-Savon maakuntaliitto",            "country": "FI", "domain": "esavo.fi",             "verified": false},
+  {"id": "FI-R-KA", "name": "Kainuu",           "full_name": "Kainuun liitto",                        "country": "FI", "domain": "kainuu.fi",            "verified": false},
+  {"id": "FI-R-KH", "name": "Kanta-Häme",       "full_name": "Hämeen liitto",                         "country": "FI", "domain": "hameenliitto.fi",      "verified": false},
+  {"id": "FI-R-KP", "name": "Keski-Pohjanmaa",  "full_name": "Keski-Pohjanmaan liitto",               "country": "FI", "domain": "keski-pohjanmaa.fi",   "verified": false},
+  {"id": "FI-R-KS", "name": "Keski-Suomi",      "full_name": "Keski-Suomen liitto",                   "country": "FI", "domain": "keskisuomi.fi",        "verified": false},
+  {"id": "FI-R-KY", "name": "Kymenlaakso",      "full_name": "Kymenlaakson liitto",                   "country": "FI", "domain": "kymenlaakso.fi",       "verified": false},
+  {"id": "FI-R-LA", "name": "Lappi",            "full_name": "Lapin liitto",                          "country": "FI", "domain": "lappi.fi",             "verified": false},
+  {"id": "FI-R-PI", "name": "Pirkanmaa",        "full_name": "Pirkanmaan liitto",                     "country": "FI", "domain": "pirkanmaa.fi",         "verified": false},
+  {"id": "FI-R-PH", "name": "Pohjanmaa",        "full_name": "Pohjanmaan liitto",                     "country": "FI", "domain": "obotnia.fi",           "verified": false},
+  {"id": "FI-R-PK", "name": "Pohjois-Karjala",  "full_name": "Pohjois-Karjalan maakuntaliitto",       "country": "FI", "domain": "pohjois-karjala.fi",   "verified": false},
+  {"id": "FI-R-PP", "name": "Pohjois-Pohjanmaa","full_name": "Pohjois-Pohjanmaan liitto",             "country": "FI", "domain": "pohjois-pohjanmaa.fi", "verified": false},
+  {"id": "FI-R-PS", "name": "Pohjois-Savo",     "full_name": "Pohjois-Savon liitto",                  "country": "FI", "domain": "pohjois-savo.fi",      "verified": false},
+  {"id": "FI-R-PA", "name": "Päijät-Häme",      "full_name": "Päijät-Hämeen liitto",                  "country": "FI", "domain": "paijat-hame.fi",       "verified": false},
+  {"id": "FI-R-SA", "name": "Satakunta",        "full_name": "Satakuntaliitto",                       "country": "FI", "domain": "satakuntaliitto.fi",   "verified": false},
+  {"id": "FI-R-UU", "name": "Uusimaa",          "full_name": "Uudenmaan liitto",                      "country": "FI", "domain": "uudenmaanliitto.fi",   "verified": false},
+  {"id": "FI-R-VS", "name": "Varsinais-Suomi",  "full_name": "Varsinais-Suomen liitto",               "country": "FI", "domain": "varsinais-suomi.fi",   "verified": false}
+]

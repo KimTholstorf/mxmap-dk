@@ -3,7 +3,7 @@
     "id": "SE-0114",
     "name": "Upplands Väsby",
     "country": "SE",
-    "region": "Stockholms län",
+    "region": "Region Stockholm",
     "domain": "upplandsvasby.se",
     "osm_relation_id": 397187,
     "population": 50495
@@ -12,7 +12,7 @@
     "id": "SE-0115",
     "name": "Vallentuna",
     "country": "SE",
-    "region": "Stockholms län",
+    "region": "Region Stockholm",
     "domain": "vallentuna.se",
     "osm_relation_id": 959462,
     "population": 35361
@@ -21,7 +21,7 @@
     "id": "SE-0117",
     "name": "Österåker",
     "country": "SE",
-    "region": "Stockholms län",
+    "region": "Region Stockholm",
     "domain": "osteraker.se",
     "osm_relation_id": 398037,
     "population": 49943
@@ -30,7 +30,7 @@
     "id": "SE-0120",
     "name": "Värmdö",
     "country": "SE",
-    "region": "Stockholms län",
+    "region": "Region Stockholm",
     "domain": "varmdo.se",
     "osm_relation_id": 398649,
     "population": 46601
@@ -39,7 +39,7 @@
     "id": "SE-0123",
     "name": "Järfälla",
     "country": "SE",
-    "region": "Stockholms län",
+    "region": "Region Stockholm",
     "domain": "jarfalla.se",
     "osm_relation_id": 398022
   },
@@ -47,7 +47,7 @@
     "id": "SE-0125",
     "name": "Ekerö",
     "country": "SE",
-    "region": "Stockholms län",
+    "region": "Region Stockholm",
     "domain": "ekero.se",
     "osm_relation_id": 398920,
     "population": 29062
@@ -56,7 +56,7 @@
     "id": "SE-0126",
     "name": "Huddinge",
     "country": "SE",
-    "region": "Stockholms län",
+    "region": "Region Stockholm",
     "domain": "huddinge.se",
     "osm_relation_id": 398567,
     "population": 114686
@@ -65,7 +65,7 @@
     "id": "SE-0127",
     "name": "Botkyrka",
     "country": "SE",
-    "region": "Stockholms län",
+    "region": "Region Stockholm",
     "domain": "botkyrka.se",
     "osm_relation_id": 398626,
     "population": 96750
@@ -74,7 +74,7 @@
     "id": "SE-0128",
     "name": "Salem",
     "country": "SE",
-    "region": "Stockholms län",
+    "region": "Region Stockholm",
     "domain": "salem.se",
     "osm_relation_id": 398918,
     "population": 17370
@@ -83,7 +83,7 @@
     "id": "SE-0136",
     "name": "Haninge",
     "country": "SE",
-    "region": "Stockholms län",
+    "region": "Region Stockholm",
     "domain": "haninge.se",
     "osm_relation_id": 398625,
     "population": 101408
@@ -92,7 +92,7 @@
     "id": "SE-0138",
     "name": "Tyresö",
     "country": "SE",
-    "region": "Stockholms län",
+    "region": "Region Stockholm",
     "domain": "tyreso.se",
     "osm_relation_id": 398575,
     "population": 49645
@@ -101,7 +101,7 @@
     "id": "SE-0139",
     "name": "Upplands-Bro",
     "country": "SE",
-    "region": "Stockholms län",
+    "region": "Region Stockholm",
     "domain": "upplands-bro.se",
     "osm_relation_id": 369474,
     "population": 33333
@@ -110,7 +110,7 @@
     "id": "SE-0140",
     "name": "Nykvarn",
     "country": "SE",
-    "region": "Stockholms län",
+    "region": "Region Stockholm",
     "domain": "nykvarn.se",
     "osm_relation_id": 935473,
     "population": 12384
@@ -119,7 +119,7 @@
     "id": "SE-0160",
     "name": "Täby",
     "country": "SE",
-    "region": "Stockholms län",
+    "region": "Region Stockholm",
     "domain": "taby.se",
     "osm_relation_id": 397194,
     "population": 78514
@@ -128,7 +128,7 @@
     "id": "SE-0162",
     "name": "Danderyd",
     "country": "SE",
-    "region": "Stockholms län",
+    "region": "Region Stockholm",
     "domain": "danderyd.se",
     "osm_relation_id": 398034,
     "population": 32500
@@ -137,7 +137,7 @@
     "id": "SE-0163",
     "name": "Sollentuna",
     "country": "SE",
-    "region": "Stockholms län",
+    "region": "Region Stockholm",
     "domain": "sollentuna.se",
     "osm_relation_id": 398023,
     "population": 78033
@@ -146,7 +146,7 @@
     "id": "SE-0180",
     "name": "Stockholm",
     "country": "SE",
-    "region": "Stockholms län",
+    "region": "Region Stockholm",
     "domain": "stockholm.se",
     "osm_relation_id": 398021,
     "population": 999239
@@ -155,7 +155,7 @@
     "id": "SE-0181",
     "name": "Södertälje",
     "country": "SE",
-    "region": "Stockholms län",
+    "region": "Region Stockholm",
     "domain": "sodertalje.se",
     "osm_relation_id": 398919,
     "population": 102772
@@ -164,7 +164,7 @@
     "id": "SE-0182",
     "name": "Nacka",
     "country": "SE",
-    "region": "Stockholms län",
+    "region": "Region Stockholm",
     "domain": "nacka.se",
     "osm_relation_id": 398038,
     "population": 113730
@@ -173,7 +173,7 @@
     "id": "SE-0183",
     "name": "Sundbyberg",
     "country": "SE",
-    "region": "Stockholms län",
+    "region": "Region Stockholm",
     "domain": "sundbyberg.se",
     "osm_relation_id": 398039
   },
@@ -181,7 +181,7 @@
     "id": "SE-0184",
     "name": "Solna",
     "country": "SE",
-    "region": "Stockholms län",
+    "region": "Region Stockholm",
     "domain": "solna.se",
     "osm_relation_id": 398040,
     "population": 86435
@@ -190,7 +190,7 @@
     "id": "SE-0186",
     "name": "Lidingö",
     "country": "SE",
-    "region": "Stockholms län",
+    "region": "Region Stockholm",
     "domain": "lidingo.se",
     "osm_relation_id": 398035,
     "population": 48369
@@ -199,7 +199,7 @@
     "id": "SE-0187",
     "name": "Vaxholm",
     "country": "SE",
-    "region": "Stockholms län",
+    "region": "Region Stockholm",
     "domain": "vaxholm.se",
     "osm_relation_id": 398036,
     "population": 11636
@@ -208,7 +208,7 @@
     "id": "SE-0188",
     "name": "Norrtälje",
     "country": "SE",
-    "region": "Stockholms län",
+    "region": "Region Stockholm",
     "domain": "norrtalje.se",
     "osm_relation_id": 397159,
     "population": 66832
@@ -217,7 +217,7 @@
     "id": "SE-0191",
     "name": "Sigtuna",
     "country": "SE",
-    "region": "Stockholms län",
+    "region": "Region Stockholm",
     "domain": "sigtuna.se",
     "osm_relation_id": 397127,
     "population": 53365
@@ -226,7 +226,7 @@
     "id": "SE-0192",
     "name": "Nynäshamn",
     "country": "SE",
-    "region": "Stockholms län",
+    "region": "Region Stockholm",
     "domain": "nynashamn.se",
     "osm_relation_id": 398627,
     "population": 30610
@@ -235,7 +235,7 @@
     "id": "SE-0305",
     "name": "Håbo",
     "country": "SE",
-    "region": "Uppsala län",
+    "region": "Region Uppsala",
     "domain": "habo.se",
     "osm_relation_id": 308558,
     "population": 23252
@@ -244,7 +244,7 @@
     "id": "SE-0319",
     "name": "Älvkarleby",
     "country": "SE",
-    "region": "Uppsala län",
+    "region": "Region Uppsala",
     "domain": "alvkarleby.se",
     "osm_relation_id": 289344,
     "population": 9573
@@ -253,7 +253,7 @@
     "id": "SE-0330",
     "name": "Knivsta",
     "country": "SE",
-    "region": "Uppsala län",
+    "region": "Region Uppsala",
     "domain": "knivsta.se",
     "osm_relation_id": 397128,
     "population": 21733
@@ -262,7 +262,7 @@
     "id": "SE-0331",
     "name": "Heby",
     "country": "SE",
-    "region": "Uppsala län",
+    "region": "Region Uppsala",
     "domain": "heby.se",
     "osm_relation_id": 305452,
     "population": 14275
@@ -271,7 +271,7 @@
     "id": "SE-0360",
     "name": "Tierp",
     "country": "SE",
-    "region": "Uppsala län",
+    "region": "Region Uppsala",
     "domain": "tierp.se",
     "osm_relation_id": 305453,
     "population": 21028
@@ -280,7 +280,7 @@
     "id": "SE-0380",
     "name": "Uppsala",
     "country": "SE",
-    "region": "Uppsala län",
+    "region": "Region Uppsala",
     "domain": "uppsala.se",
     "osm_relation_id": 305455,
     "population": 249726
@@ -289,7 +289,7 @@
     "id": "SE-0381",
     "name": "Enköping",
     "country": "SE",
-    "region": "Uppsala län",
+    "region": "Region Uppsala",
     "domain": "enkoping.se",
     "osm_relation_id": 308557,
     "population": 48804
@@ -298,7 +298,7 @@
     "id": "SE-0382",
     "name": "Östhammar",
     "country": "SE",
-    "region": "Uppsala län",
+    "region": "Region Uppsala",
     "domain": "osthammar.se",
     "osm_relation_id": 398892,
     "population": 22181
@@ -307,7 +307,7 @@
     "id": "SE-0428",
     "name": "Vingåker",
     "country": "SE",
-    "region": "Södermanlands län",
+    "region": "Region Sörmland",
     "domain": "vingaker.se",
     "osm_relation_id": 935676,
     "population": 8666
@@ -316,7 +316,7 @@
     "id": "SE-0461",
     "name": "Gnesta",
     "country": "SE",
-    "region": "Södermanlands län",
+    "region": "Region Sörmland",
     "domain": "gnesta.se",
     "osm_relation_id": 935602,
     "population": 11343
@@ -325,7 +325,7 @@
     "id": "SE-0480",
     "name": "Nyköping",
     "country": "SE",
-    "region": "Södermanlands län",
+    "region": "Region Sörmland",
     "domain": "nykoping.se",
     "osm_relation_id": 935516,
     "population": 58310
@@ -334,7 +334,7 @@
     "id": "SE-0481",
     "name": "Oxelösund",
     "country": "SE",
-    "region": "Södermanlands län",
+    "region": "Region Sörmland",
     "domain": "oxelosund.se",
     "osm_relation_id": 935524,
     "population": 11962
@@ -343,7 +343,7 @@
     "id": "SE-0482",
     "name": "Flen",
     "country": "SE",
-    "region": "Södermanlands län",
+    "region": "Region Sörmland",
     "domain": "flen.se",
     "osm_relation_id": 935683,
     "population": 15095
@@ -352,7 +352,7 @@
     "id": "SE-0483",
     "name": "Katrineholm",
     "country": "SE",
-    "region": "Södermanlands län",
+    "region": "Region Sörmland",
     "domain": "katrineholm.se",
     "osm_relation_id": 935400,
     "population": 33984
@@ -361,7 +361,7 @@
     "id": "SE-0484",
     "name": "Eskilstuna",
     "country": "SE",
-    "region": "Södermanlands län",
+    "region": "Region Sörmland",
     "domain": "eskilstuna.se",
     "osm_relation_id": 935569,
     "population": 106789
@@ -370,7 +370,7 @@
     "id": "SE-0486",
     "name": "Strängnä",
     "country": "SE",
-    "region": "Södermanlands län",
+    "region": "Region Sörmland",
     "domain": "strangnas.se",
     "osm_relation_id": 398917,
     "population": 39387
@@ -379,7 +379,7 @@
     "id": "SE-0488",
     "name": "Trosa",
     "country": "SE",
-    "region": "Södermanlands län",
+    "region": "Region Sörmland",
     "domain": "trosa.se",
     "osm_relation_id": 935460,
     "population": 14900
@@ -388,7 +388,7 @@
     "id": "SE-0509",
     "name": "Ödeshög",
     "country": "SE",
-    "region": "Östergötlands län",
+    "region": "Region Östergötland",
     "domain": "odeshog.se",
     "osm_relation_id": 935434,
     "population": 5221
@@ -397,7 +397,7 @@
     "id": "SE-0512",
     "name": "Ydre",
     "country": "SE",
-    "region": "Östergötlands län",
+    "region": "Region Östergötland",
     "domain": "ydre.se",
     "osm_relation_id": 935618,
     "population": 3619
@@ -406,7 +406,7 @@
     "id": "SE-0513",
     "name": "Kinda",
     "country": "SE",
-    "region": "Östergötlands län",
+    "region": "Region Östergötland",
     "domain": "kinda.se",
     "osm_relation_id": 935596,
     "population": 9924
@@ -415,7 +415,7 @@
     "id": "SE-0560",
     "name": "Boxholm",
     "country": "SE",
-    "region": "Östergötlands län",
+    "region": "Region Östergötland",
     "domain": "boxholm.se",
     "osm_relation_id": 935594,
     "population": 5451
@@ -424,7 +424,7 @@
     "id": "SE-0561",
     "name": "Åtvidaberg",
     "country": "SE",
-    "region": "Östergötlands län",
+    "region": "Region Östergötland",
     "domain": "atvidaberg.se",
     "osm_relation_id": 935464,
     "population": 11490
@@ -433,7 +433,7 @@
     "id": "SE-0562",
     "name": "Finspång",
     "country": "SE",
-    "region": "Östergötlands län",
+    "region": "Region Östergötland",
     "domain": "finspang.se",
     "osm_relation_id": 935444,
     "population": 21502
@@ -442,7 +442,7 @@
     "id": "SE-0563",
     "name": "Valdemarsvik",
     "country": "SE",
-    "region": "Östergötlands län",
+    "region": "Region Östergötland",
     "domain": "valdemarsvik.se",
     "osm_relation_id": 935443,
     "population": 7526
@@ -451,7 +451,7 @@
     "id": "SE-0580",
     "name": "Linköping",
     "country": "SE",
-    "region": "Östergötlands län",
+    "region": "Region Östergötland",
     "domain": "linkoping.se",
     "osm_relation_id": 935467,
     "population": 168714
@@ -460,7 +460,7 @@
     "id": "SE-0581",
     "name": "Norrköping",
     "country": "SE",
-    "region": "Östergötlands län",
+    "region": "Region Östergötland",
     "domain": "norrkoping.se",
     "osm_relation_id": 935447,
     "population": 144904
@@ -469,7 +469,7 @@
     "id": "SE-0582",
     "name": "Söderköping",
     "country": "SE",
-    "region": "Östergötlands län",
+    "region": "Region Östergötland",
     "domain": "soderkoping.se",
     "osm_relation_id": 935556,
     "population": 14741
@@ -478,7 +478,7 @@
     "id": "SE-0583",
     "name": "Motala",
     "country": "SE",
-    "region": "Östergötlands län",
+    "region": "Region Östergötland",
     "domain": "motala.se",
     "osm_relation_id": 935668,
     "population": 43131
@@ -487,7 +487,7 @@
     "id": "SE-0584",
     "name": "Vadstena",
     "country": "SE",
-    "region": "Östergötlands län",
+    "region": "Region Östergötland",
     "domain": "vadstena.se",
     "osm_relation_id": 935553,
     "population": 7484
@@ -496,7 +496,7 @@
     "id": "SE-0586",
     "name": "Mjölby",
     "country": "SE",
-    "region": "Östergötlands län",
+    "region": "Region Östergötland",
     "domain": "mjolby.se",
     "osm_relation_id": 935507,
     "population": 28823
@@ -505,7 +505,7 @@
     "id": "SE-0604",
     "name": "Aneby",
     "country": "SE",
-    "region": "Jönköpings län",
+    "region": "Region Jönköping",
     "domain": "aneby.se",
     "osm_relation_id": 935684,
     "population": 6851
@@ -514,7 +514,7 @@
     "id": "SE-0617",
     "name": "Gnosjö",
     "country": "SE",
-    "region": "Jönköpings län",
+    "region": "Region Jönköping",
     "domain": "gnosjo.se",
     "osm_relation_id": 935543,
     "population": 9010
@@ -523,7 +523,7 @@
     "id": "SE-0642",
     "name": "Mullsjö",
     "country": "SE",
-    "region": "Jönköpings län",
+    "region": "Region Jönköping",
     "domain": "mullsjo.se",
     "osm_relation_id": 935634,
     "population": 7546
@@ -532,7 +532,7 @@
     "id": "SE-0643",
     "name": "Habo",
     "country": "SE",
-    "region": "Jönköpings län",
+    "region": "Region Jönköping",
     "domain": "habokommun.se",
     "osm_relation_id": 935405,
     "population": 13511
@@ -541,7 +541,7 @@
     "id": "SE-0662",
     "name": "Gislaved",
     "country": "SE",
-    "region": "Jönköpings län",
+    "region": "Region Jönköping",
     "domain": "gislaved.se",
     "osm_relation_id": 935604,
     "population": 28641
@@ -550,7 +550,7 @@
     "id": "SE-0665",
     "name": "Vaggeryd",
     "country": "SE",
-    "region": "Jönköpings län",
+    "region": "Region Jönköping",
     "domain": "vaggeryd.se",
     "osm_relation_id": 935581,
     "population": 14943
@@ -559,7 +559,7 @@
     "id": "SE-0680",
     "name": "Jönköping",
     "country": "SE",
-    "region": "Jönköpings län",
+    "region": "Region Jönköping",
     "domain": "jonkoping.se",
     "osm_relation_id": 935495,
     "population": 148152
@@ -568,7 +568,7 @@
     "id": "SE-0682",
     "name": "Nässjö",
     "country": "SE",
-    "region": "Jönköpings län",
+    "region": "Region Jönköping",
     "domain": "nassjo.se",
     "osm_relation_id": 935670,
     "population": 31474
@@ -577,7 +577,7 @@
     "id": "SE-0683",
     "name": "Värnamo",
     "country": "SE",
-    "region": "Jönköpings län",
+    "region": "Region Jönköping",
     "domain": "kommun.varnamo.se",
     "osm_relation_id": 935439,
     "population": 34534
@@ -586,7 +586,7 @@
     "id": "SE-0684",
     "name": "Sävsjö",
     "country": "SE",
-    "region": "Jönköpings län",
+    "region": "Region Jönköping",
     "domain": "savsjo.se",
     "osm_relation_id": 935481,
     "population": 11531
@@ -595,7 +595,7 @@
     "id": "SE-0685",
     "name": "Vetlanda",
     "country": "SE",
-    "region": "Jönköpings län",
+    "region": "Region Jönköping",
     "domain": "kommun.vetlanda.se",
     "osm_relation_id": 935454,
     "population": 27313
@@ -604,7 +604,7 @@
     "id": "SE-0686",
     "name": "Eksjö",
     "country": "SE",
-    "region": "Jönköpings län",
+    "region": "Region Jönköping",
     "domain": "eksjo.se",
     "osm_relation_id": 935636,
     "population": 17660
@@ -613,7 +613,7 @@
     "id": "SE-0687",
     "name": "Tranå",
     "country": "SE",
-    "region": "Jönköpings län",
+    "region": "Region Jönköping",
     "domain": "tranas.se",
     "osm_relation_id": 935570,
     "population": 18555
@@ -622,7 +622,7 @@
     "id": "SE-0760",
     "name": "Uppvidinge",
     "country": "SE",
-    "region": "Kronobergs län",
+    "region": "Region Kronoberg",
     "domain": "uppvidinge.se",
     "osm_relation_id": 935488,
     "population": 8911
@@ -631,7 +631,7 @@
     "id": "SE-0761",
     "name": "Lessebo",
     "country": "SE",
-    "region": "Kronobergs län",
+    "region": "Region Kronoberg",
     "domain": "lessebo.se",
     "osm_relation_id": 935521,
     "population": 8115
@@ -640,7 +640,7 @@
     "id": "SE-0763",
     "name": "Tingsryd",
     "country": "SE",
-    "region": "Kronobergs län",
+    "region": "Region Kronoberg",
     "domain": "tingsryd.se",
     "osm_relation_id": 935578,
     "population": 11896
@@ -649,7 +649,7 @@
     "id": "SE-0764",
     "name": "Alvesta",
     "country": "SE",
-    "region": "Kronobergs län",
+    "region": "Region Kronoberg",
     "domain": "alvesta.se",
     "osm_relation_id": 935435,
     "population": 19687
@@ -658,7 +658,7 @@
     "id": "SE-0765",
     "name": "Älmhult",
     "country": "SE",
-    "region": "Kronobergs län",
+    "region": "Region Kronoberg",
     "domain": "almhult.se",
     "osm_relation_id": 935538,
     "population": 17579
@@ -667,7 +667,7 @@
     "id": "SE-0767",
     "name": "Markaryd",
     "country": "SE",
-    "region": "Kronobergs län",
+    "region": "Region Kronoberg",
     "domain": "markaryd.se",
     "osm_relation_id": 935621,
     "population": 9862
@@ -676,7 +676,7 @@
     "id": "SE-0780",
     "name": "Växjö",
     "country": "SE",
-    "region": "Kronobergs län",
+    "region": "Region Kronoberg",
     "domain": "vaxjo.se",
     "osm_relation_id": 935654,
     "population": 98940
@@ -685,7 +685,7 @@
     "id": "SE-0781",
     "name": "Ljungby",
     "country": "SE",
-    "region": "Kronobergs län",
+    "region": "Region Kronoberg",
     "domain": "ljungby.se",
     "osm_relation_id": 935542,
     "population": 28132
@@ -694,7 +694,7 @@
     "id": "SE-0821",
     "name": "Högsby",
     "country": "SE",
-    "region": "Kalmar län",
+    "region": "Region Kalmar",
     "domain": "hogsby.se",
     "osm_relation_id": 935487,
     "population": 5134
@@ -703,7 +703,7 @@
     "id": "SE-0834",
     "name": "Torså",
     "country": "SE",
-    "region": "Kalmar län",
+    "region": "Region Kalmar",
     "domain": "torsas.se",
     "osm_relation_id": 935512,
     "population": 6919
@@ -712,7 +712,7 @@
     "id": "SE-0840",
     "name": "Mörbylånga",
     "country": "SE",
-    "region": "Kalmar län",
+    "region": "Region Kalmar",
     "domain": "morbylanga.se",
     "osm_relation_id": 935518,
     "population": 16306
@@ -721,7 +721,7 @@
     "id": "SE-0860",
     "name": "Hultsfred",
     "country": "SE",
-    "region": "Kalmar län",
+    "region": "Region Kalmar",
     "domain": "hultsfred.se",
     "osm_relation_id": 935677,
     "population": 13484
@@ -730,7 +730,7 @@
     "id": "SE-0861",
     "name": "Mönsterå",
     "country": "SE",
-    "region": "Kalmar län",
+    "region": "Region Kalmar",
     "domain": "monsteras.se",
     "osm_relation_id": 935575,
     "population": 12978
@@ -739,7 +739,7 @@
     "id": "SE-0862",
     "name": "Emmaboda",
     "country": "SE",
-    "region": "Kalmar län",
+    "region": "Region Kalmar",
     "domain": "emmaboda.se",
     "osm_relation_id": 935598,
     "population": 8807
@@ -748,7 +748,7 @@
     "id": "SE-0880",
     "name": "Kalmar",
     "country": "SE",
-    "region": "Kalmar län",
+    "region": "Region Kalmar",
     "domain": "kalmar.se",
     "osm_relation_id": 935466,
     "population": 73068
@@ -757,7 +757,7 @@
     "id": "SE-0881",
     "name": "Nybro",
     "country": "SE",
-    "region": "Kalmar län",
+    "region": "Region Kalmar",
     "domain": "nybro.se",
     "osm_relation_id": 935475,
     "population": 19803
@@ -766,7 +766,7 @@
     "id": "SE-0882",
     "name": "Oskarshamn",
     "country": "SE",
-    "region": "Kalmar län",
+    "region": "Region Kalmar",
     "domain": "oskarshamn.se",
     "osm_relation_id": 935653,
     "population": 26762
@@ -775,7 +775,7 @@
     "id": "SE-0883",
     "name": "Västervik",
     "country": "SE",
-    "region": "Kalmar län",
+    "region": "Region Kalmar",
     "domain": "vastervik.se",
     "osm_relation_id": 935408,
     "population": 36269
@@ -784,7 +784,7 @@
     "id": "SE-0884",
     "name": "Vimmerby",
     "country": "SE",
-    "region": "Kalmar län",
+    "region": "Region Kalmar",
     "domain": "vimmerby.se",
     "osm_relation_id": 935546,
     "population": 15327
@@ -793,16 +793,16 @@
     "id": "SE-0885",
     "name": "Borgholm",
     "country": "SE",
-    "region": "Kalmar län",
+    "region": "Region Kalmar",
     "domain": "borgholm.se",
     "osm_relation_id": 935406,
     "population": 10626
   },
   {
     "id": "SE-0980",
-    "name": "Region Gotland",
+    "name": "Gotland",
     "country": "SE",
-    "region": "Gotlands län",
+    "region": "Region Gotland",
     "domain": "gotland.se",
     "osm_relation_id": 1125739,
     "population": 60852
@@ -811,7 +811,7 @@
     "id": "SE-1060",
     "name": "Olofström",
     "country": "SE",
-    "region": "Blekinge län",
+    "region": "Region Blekinge",
     "domain": "olofstrom.se",
     "osm_relation_id": 935603,
     "population": 12844
@@ -820,7 +820,7 @@
     "id": "SE-1080",
     "name": "Karlskrona",
     "country": "SE",
-    "region": "Blekinge län",
+    "region": "Region Blekinge",
     "domain": "karlskrona.se",
     "osm_relation_id": 935548,
     "population": 66021
@@ -829,7 +829,7 @@
     "id": "SE-1081",
     "name": "Ronneby",
     "country": "SE",
-    "region": "Blekinge län",
+    "region": "Region Blekinge",
     "domain": "ronneby.se",
     "osm_relation_id": 935527,
     "population": 28708
@@ -838,7 +838,7 @@
     "id": "SE-1082",
     "name": "Karlshamn",
     "country": "SE",
-    "region": "Blekinge län",
+    "region": "Region Blekinge",
     "domain": "karlshamn.se",
     "osm_relation_id": 935522,
     "population": 31642
@@ -847,7 +847,7 @@
     "id": "SE-1083",
     "name": "Sölvesborg",
     "country": "SE",
-    "region": "Blekinge län",
+    "region": "Region Blekinge",
     "domain": "solvesborg.se",
     "osm_relation_id": 935608,
     "population": 17405
@@ -856,7 +856,7 @@
     "id": "SE-1214",
     "name": "Svalöv",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "svalov.se",
     "osm_relation_id": 935403,
     "population": 14474
@@ -865,7 +865,7 @@
     "id": "SE-1230",
     "name": "Staffanstorp",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "staffanstorp.se",
     "osm_relation_id": 935502,
     "population": 27482
@@ -874,7 +874,7 @@
     "id": "SE-1231",
     "name": "Burlöv",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "burlov.se",
     "osm_relation_id": 935642,
     "population": 20444
@@ -883,7 +883,7 @@
     "id": "SE-1233",
     "name": "Vellinge",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "vellinge.se",
     "osm_relation_id": 935451,
     "population": 37833
@@ -892,7 +892,7 @@
     "id": "SE-1256",
     "name": "Östra Göinge",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "ostragoinge.se",
     "osm_relation_id": 935535,
     "population": 13718
@@ -901,7 +901,7 @@
     "id": "SE-1257",
     "name": "Örkelljunga",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "orkelljunga.se",
     "osm_relation_id": 935449,
     "population": 10293
@@ -910,7 +910,7 @@
     "id": "SE-1260",
     "name": "Bjuv",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "bjuv.se",
     "osm_relation_id": 935478,
     "population": 16052
@@ -919,7 +919,7 @@
     "id": "SE-1261",
     "name": "Kävlinge",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "kavlinge.se",
     "osm_relation_id": 935625,
     "population": 32655
@@ -928,7 +928,7 @@
     "id": "SE-1262",
     "name": "Lomma",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "lomma.se",
     "osm_relation_id": 935410,
     "population": 24677
@@ -937,7 +937,7 @@
     "id": "SE-1263",
     "name": "Svedala",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "svedala.se",
     "osm_relation_id": 935510,
     "population": 23714
@@ -946,7 +946,7 @@
     "id": "SE-1264",
     "name": "Skurup",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "skurup.se",
     "osm_relation_id": 935437,
     "population": 17139
@@ -955,7 +955,7 @@
     "id": "SE-1265",
     "name": "Sjöbo",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "sjobo.se",
     "osm_relation_id": 935525,
     "population": 19397
@@ -964,7 +964,7 @@
     "id": "SE-1266",
     "name": "Hörby",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "horby.se",
     "osm_relation_id": 935623,
     "population": 15559
@@ -973,7 +973,7 @@
     "id": "SE-1267",
     "name": "Höör",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "hoor.se",
     "osm_relation_id": 935450,
     "population": 17680
@@ -982,7 +982,7 @@
     "id": "SE-1270",
     "name": "Tomelilla",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "tomelilla.se",
     "osm_relation_id": 935671,
     "population": 13669
@@ -991,7 +991,7 @@
     "id": "SE-1272",
     "name": "Bromölla",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "bromolla.se",
     "osm_relation_id": 935659,
     "population": 12497
@@ -1000,7 +1000,7 @@
     "id": "SE-1273",
     "name": "Osby",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "osby.se",
     "osm_relation_id": 935492,
     "population": 12861
@@ -1009,7 +1009,7 @@
     "id": "SE-1275",
     "name": "Perstorp",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "perstorp.se",
     "osm_relation_id": 935530,
     "population": 7115
@@ -1018,7 +1018,7 @@
     "id": "SE-1276",
     "name": "Klippan",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "klippan.se",
     "osm_relation_id": 935658,
     "population": 17713
@@ -1027,7 +1027,7 @@
     "id": "SE-1277",
     "name": "Åstorp",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "astorp.se",
     "osm_relation_id": 935517,
     "population": 16491
@@ -1036,7 +1036,7 @@
     "id": "SE-1278",
     "name": "Båstad",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "bastad.se",
     "osm_relation_id": 935399,
     "population": 16046
@@ -1045,7 +1045,7 @@
     "id": "SE-1280",
     "name": "Malmö",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "malmo.se",
     "osm_relation_id": 935416,
     "population": 367924
@@ -1054,7 +1054,7 @@
     "id": "SE-1281",
     "name": "Lund",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "lund.se",
     "osm_relation_id": 935666,
     "population": 132333
@@ -1063,7 +1063,7 @@
     "id": "SE-1282",
     "name": "Landskrona",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "landskrona.se",
     "osm_relation_id": 935414,
     "population": 47571
@@ -1072,7 +1072,7 @@
     "id": "SE-1283",
     "name": "Helsingborg",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "helsingborg.se",
     "osm_relation_id": 935560,
     "population": 152776
@@ -1081,7 +1081,7 @@
     "id": "SE-1284",
     "name": "Höganä",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "hoganas.se",
     "osm_relation_id": 935552,
     "population": 28489
@@ -1090,7 +1090,7 @@
     "id": "SE-1285",
     "name": "Eslöv",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "eslov.se",
     "osm_relation_id": 935571,
     "population": 35126
@@ -1099,7 +1099,7 @@
     "id": "SE-1286",
     "name": "Ystad",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "ystad.se",
     "osm_relation_id": 935599,
     "population": 32188
@@ -1108,7 +1108,7 @@
     "id": "SE-1287",
     "name": "Trelleborg",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "trelleborg.se",
     "osm_relation_id": 935531,
     "population": 47405
@@ -1117,7 +1117,7 @@
     "id": "SE-1290",
     "name": "Kristianstad",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "kristianstad.se",
     "osm_relation_id": 935448,
     "population": 85908
@@ -1126,7 +1126,7 @@
     "id": "SE-1291",
     "name": "Simrishamn",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "simrishamn.se",
     "osm_relation_id": 935529,
     "population": 18779
@@ -1135,7 +1135,7 @@
     "id": "SE-1292",
     "name": "Ängelholm",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "engelholm.se",
     "osm_relation_id": 935679,
     "population": 45159
@@ -1144,7 +1144,7 @@
     "id": "SE-1293",
     "name": "Hässleholm",
     "country": "SE",
-    "region": "Skåne län",
+    "region": "Region Skåne",
     "domain": "hassleholm.se",
     "osm_relation_id": 935519,
     "population": 51915
@@ -1153,7 +1153,7 @@
     "id": "SE-1315",
     "name": "Hylte",
     "country": "SE",
-    "region": "Hallands län",
+    "region": "Region Halland",
     "domain": "hylte.se",
     "osm_relation_id": 935407,
     "population": 10094
@@ -1162,7 +1162,7 @@
     "id": "SE-1380",
     "name": "Halmstad",
     "country": "SE",
-    "region": "Hallands län",
+    "region": "Region Halland",
     "domain": "halmstad.se",
     "osm_relation_id": 935442,
     "population": 106315
@@ -1171,7 +1171,7 @@
     "id": "SE-1381",
     "name": "Laholm",
     "country": "SE",
-    "region": "Hallands län",
+    "region": "Region Halland",
     "domain": "laholm.se",
     "osm_relation_id": 935662,
     "population": 26565
@@ -1180,7 +1180,7 @@
     "id": "SE-1382",
     "name": "Falkenberg",
     "country": "SE",
-    "region": "Hallands län",
+    "region": "Region Halland",
     "domain": "kommun.falkenberg.se",
     "osm_relation_id": 935411,
     "population": 47321
@@ -1189,7 +1189,7 @@
     "id": "SE-1383",
     "name": "Varberg",
     "country": "SE",
-    "region": "Hallands län",
+    "region": "Region Halland",
     "domain": "varberg.se",
     "osm_relation_id": 935585,
     "population": 69460
@@ -1198,7 +1198,7 @@
     "id": "SE-1384",
     "name": "Kungsbacka",
     "country": "SE",
-    "region": "Hallands län",
+    "region": "Region Halland",
     "domain": "kungsbacka.se",
     "osm_relation_id": 935626,
     "population": 86332
@@ -1207,7 +1207,7 @@
     "id": "SE-1401",
     "name": "Härryda",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "harryda.se",
     "osm_relation_id": 935649,
     "population": 40011
@@ -1216,7 +1216,7 @@
     "id": "SE-1402",
     "name": "Partille",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "partille.se",
     "osm_relation_id": 935656,
     "population": 41164
@@ -1225,7 +1225,7 @@
     "id": "SE-1407",
     "name": "Öckerö",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "ockero.se",
     "osm_relation_id": 1120170,
     "population": 12863
@@ -1234,7 +1234,7 @@
     "id": "SE-1415",
     "name": "Stenungsund",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "stenungsund.se",
     "osm_relation_id": 935503,
     "population": 27854
@@ -1243,7 +1243,7 @@
     "id": "SE-1419",
     "name": "Tjörn",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "tjorn.se",
     "osm_relation_id": 1120171,
     "population": 16003
@@ -1252,7 +1252,7 @@
     "id": "SE-1421",
     "name": "Orust",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "orust.se",
     "osm_relation_id": 935532,
     "population": 15363
@@ -1261,7 +1261,7 @@
     "id": "SE-1427",
     "name": "Sotenä",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "sotenas.se",
     "osm_relation_id": 935430,
     "population": 9036
@@ -1270,7 +1270,7 @@
     "id": "SE-1430",
     "name": "Munkedal",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "munkedal.se",
     "osm_relation_id": 935678,
     "population": 10272
@@ -1279,7 +1279,7 @@
     "id": "SE-1435",
     "name": "Tanum",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "tanum.se",
     "osm_relation_id": 935640,
     "population": 12677
@@ -1288,7 +1288,7 @@
     "id": "SE-1440",
     "name": "Ale",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "ale.se",
     "osm_relation_id": 935506,
     "population": 32620
@@ -1297,7 +1297,7 @@
     "id": "SE-1480",
     "name": "Göteborg",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "goteborg.se",
     "osm_relation_id": 935611,
     "population": 613278
@@ -1306,7 +1306,7 @@
     "id": "SE-1481",
     "name": "Mölndal",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "molndal.se",
     "osm_relation_id": 935463,
     "population": 72128
@@ -1315,7 +1315,7 @@
     "id": "SE-1482",
     "name": "Kungälv",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "kungalv.se",
     "osm_relation_id": 935505,
     "population": 50496
@@ -1324,7 +1324,7 @@
     "id": "SE-1484",
     "name": "Lysekil",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "lysekil.se",
     "osm_relation_id": 935549,
     "population": 13796
@@ -1333,7 +1333,7 @@
     "id": "SE-1485",
     "name": "Uddevalla",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "uddevalla.se",
     "osm_relation_id": 935644,
     "population": 56744
@@ -1342,7 +1342,7 @@
     "id": "SE-1486",
     "name": "Strömstad",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "stromstad.se",
     "osm_relation_id": 935489,
     "population": 13557
@@ -1351,7 +1351,7 @@
     "id": "SE-1438",
     "name": "Dals-Ed",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "dalsed.se",
     "osm_relation_id": 935404,
     "population": 4571
@@ -1360,7 +1360,7 @@
     "id": "SE-1439",
     "name": "Färgelanda",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "fargelanda.se",
     "osm_relation_id": 935431,
     "population": 6288
@@ -1369,7 +1369,7 @@
     "id": "SE-1441",
     "name": "Lerum",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "lerum.se",
     "osm_relation_id": 935550,
     "population": 43752
@@ -1378,7 +1378,7 @@
     "id": "SE-1442",
     "name": "Vårgårda",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "vargarda.se",
     "osm_relation_id": 935441,
     "population": 12472
@@ -1387,7 +1387,7 @@
     "id": "SE-1443",
     "name": "Bollebygd",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "bollebygd.se",
     "osm_relation_id": 935565,
     "population": 9784
@@ -1396,7 +1396,7 @@
     "id": "SE-1452",
     "name": "Tranemo",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "tranemo.se",
     "osm_relation_id": 935584,
     "population": 11873
@@ -1405,7 +1405,7 @@
     "id": "SE-1460",
     "name": "Bengtsfor",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "bengtsfors.se",
     "osm_relation_id": 935491,
     "population": 8955
@@ -1414,7 +1414,7 @@
     "id": "SE-1461",
     "name": "Mellerud",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "mellerud.se",
     "osm_relation_id": 935622,
     "population": 9038
@@ -1423,7 +1423,7 @@
     "id": "SE-1462",
     "name": "Lilla Edet",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "lillaedet.se",
     "osm_relation_id": 935526,
     "population": 14398
@@ -1432,7 +1432,7 @@
     "id": "SE-1463",
     "name": "Mark",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "mark.se",
     "osm_relation_id": 935639,
     "population": 35134
@@ -1441,7 +1441,7 @@
     "id": "SE-1465",
     "name": "Svenljunga",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "svenljunga.se",
     "osm_relation_id": 935586,
     "population": 10616
@@ -1450,7 +1450,7 @@
     "id": "SE-1466",
     "name": "Herrljunga",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "herrljunga.se",
     "osm_relation_id": 935533,
     "population": 9509
@@ -1459,7 +1459,7 @@
     "id": "SE-1487",
     "name": "Vänersborg",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "vanersborg.se",
     "osm_relation_id": 935453,
     "population": 40078
@@ -1468,7 +1468,7 @@
     "id": "SE-1488",
     "name": "Trollhättan",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "trollhattan.se",
     "osm_relation_id": 935609,
     "population": 59265
@@ -1477,7 +1477,7 @@
     "id": "SE-1489",
     "name": "Alingså",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "alingsas.se",
     "osm_relation_id": 935547,
     "population": 42861
@@ -1486,7 +1486,7 @@
     "id": "SE-1490",
     "name": "Borås",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "boras.se",
     "osm_relation_id": 935544,
     "population": 115238
@@ -1495,7 +1495,7 @@
     "id": "SE-1491",
     "name": "Ulricehamn",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "ulricehamn.se",
     "osm_relation_id": 935554,
     "population": 24954
@@ -1504,7 +1504,7 @@
     "id": "SE-1492",
     "name": "Åmål",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "amal.se",
     "osm_relation_id": 935601,
     "population": 11679
@@ -1513,7 +1513,7 @@
     "id": "SE-1444",
     "name": "Grästorp",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "grastorp.se",
     "osm_relation_id": 935415,
     "population": 5602
@@ -1522,7 +1522,7 @@
     "id": "SE-1445",
     "name": "Essunga",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "essunga.se",
     "osm_relation_id": 935417,
     "population": 5559
@@ -1531,7 +1531,7 @@
     "id": "SE-1446",
     "name": "Karlsborg",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "karlsborg.se",
     "osm_relation_id": 935617,
     "population": 7047
@@ -1540,7 +1540,7 @@
     "id": "SE-1447",
     "name": "Gullspång",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "gullspang.se",
     "osm_relation_id": 935470,
     "population": 4949
@@ -1549,7 +1549,7 @@
     "id": "SE-1470",
     "name": "Vara",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "vara.se",
     "osm_relation_id": 935476
   },
@@ -1557,7 +1557,7 @@
     "id": "SE-1471",
     "name": "Götene",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "gotene.se",
     "osm_relation_id": 935419,
     "population": 13223
@@ -1566,7 +1566,7 @@
     "id": "SE-1472",
     "name": "Tibro",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "tibro.se",
     "osm_relation_id": 935650,
     "population": 11326
@@ -1575,7 +1575,7 @@
     "id": "SE-1473",
     "name": "Töreboda",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "toreboda.se",
     "osm_relation_id": 935637,
     "population": 9093
@@ -1584,7 +1584,7 @@
     "id": "SE-1493",
     "name": "Mariestad",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "mariestad.se",
     "osm_relation_id": 935422,
     "population": 24421
@@ -1593,7 +1593,7 @@
     "id": "SE-1494",
     "name": "Lidköping",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "lidkoping.se",
     "osm_relation_id": 935469,
     "population": 40359
@@ -1602,7 +1602,7 @@
     "id": "SE-1495",
     "name": "Skara",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "skara.se",
     "osm_relation_id": 935508,
     "population": 18753
@@ -1611,7 +1611,7 @@
     "id": "SE-1496",
     "name": "Skövde",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "skovde.se",
     "osm_relation_id": 935485,
     "population": 58272
@@ -1620,7 +1620,7 @@
     "id": "SE-1497",
     "name": "Hjo",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "hjo.se",
     "osm_relation_id": 935672,
     "population": 9322
@@ -1629,7 +1629,7 @@
     "id": "SE-1498",
     "name": "Tidaholm",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "tidaholm.se",
     "osm_relation_id": 935567,
     "population": 12736
@@ -1638,7 +1638,7 @@
     "id": "SE-1499",
     "name": "Falköping",
     "country": "SE",
-    "region": "Västra Götalands län",
+    "region": "Region Västra Götaland",
     "domain": "falkoping.se",
     "osm_relation_id": 935600,
     "population": 32794
@@ -1647,7 +1647,7 @@
     "id": "SE-1715",
     "name": "Kil",
     "country": "SE",
-    "region": "Värmlands län",
+    "region": "Region Värmland",
     "domain": "kil.se",
     "osm_relation_id": 935606,
     "population": 12024
@@ -1656,7 +1656,7 @@
     "id": "SE-1730",
     "name": "Eda",
     "country": "SE",
-    "region": "Värmlands län",
+    "region": "Region Värmland",
     "domain": "eda.se",
     "osm_relation_id": 935657,
     "population": 8289
@@ -1665,7 +1665,7 @@
     "id": "SE-1737",
     "name": "Torsby",
     "country": "SE",
-    "region": "Värmlands län",
+    "region": "Region Värmland",
     "domain": "torsby.se",
     "osm_relation_id": 935682,
     "population": 11278
@@ -1674,7 +1674,7 @@
     "id": "SE-1760",
     "name": "Storfor",
     "country": "SE",
-    "region": "Värmlands län",
+    "region": "Region Värmland",
     "domain": "storfors.se",
     "osm_relation_id": 935493,
     "population": 3777
@@ -1683,7 +1683,7 @@
     "id": "SE-1761",
     "name": "Hammarö",
     "country": "SE",
-    "region": "Värmlands län",
+    "region": "Region Värmland",
     "domain": "hammaro.se",
     "osm_relation_id": 1076755,
     "population": 16932
@@ -1692,7 +1692,7 @@
     "id": "SE-1762",
     "name": "Munkfor",
     "country": "SE",
-    "region": "Värmlands län",
+    "region": "Region Värmland",
     "domain": "munkfors.se",
     "osm_relation_id": 935501,
     "population": 3637
@@ -1701,7 +1701,7 @@
     "id": "SE-1763",
     "name": "Forshaga",
     "country": "SE",
-    "region": "Värmlands län",
+    "region": "Region Värmland",
     "domain": "forshaga.se",
     "osm_relation_id": 935539,
     "population": 11439
@@ -1710,7 +1710,7 @@
     "id": "SE-1764",
     "name": "Grum",
     "country": "SE",
-    "region": "Värmlands län",
+    "region": "Region Värmland",
     "domain": "grums.se",
     "osm_relation_id": 935612,
     "population": 8854
@@ -1719,7 +1719,7 @@
     "id": "SE-1765",
     "name": "Årjäng",
     "country": "SE",
-    "region": "Värmlands län",
+    "region": "Region Värmland",
     "domain": "arjang.se",
     "osm_relation_id": 935665,
     "population": 9734
@@ -1728,7 +1728,7 @@
     "id": "SE-1766",
     "name": "Sunne",
     "country": "SE",
-    "region": "Värmlands län",
+    "region": "Region Värmland",
     "domain": "sunne.se",
     "osm_relation_id": 935627,
     "population": 13354
@@ -1737,7 +1737,7 @@
     "id": "SE-1780",
     "name": "Karlstad",
     "country": "SE",
-    "region": "Värmlands län",
+    "region": "Region Värmland",
     "domain": "karlstad.se",
     "osm_relation_id": 935514,
     "population": 99007
@@ -1746,7 +1746,7 @@
     "id": "SE-1781",
     "name": "Kristinehamn",
     "country": "SE",
-    "region": "Värmlands län",
+    "region": "Region Värmland",
     "domain": "kristinehamn.se",
     "osm_relation_id": 935461,
     "population": 23590
@@ -1755,7 +1755,7 @@
     "id": "SE-1782",
     "name": "Filipstad",
     "country": "SE",
-    "region": "Värmlands län",
+    "region": "Region Värmland",
     "domain": "filipstad.se",
     "osm_relation_id": 935619,
     "population": 9625
@@ -1764,7 +1764,7 @@
     "id": "SE-1783",
     "name": "Hagfor",
     "country": "SE",
-    "region": "Värmlands län",
+    "region": "Region Värmland",
     "domain": "hagfors.se",
     "osm_relation_id": 935638,
     "population": 11324
@@ -1773,7 +1773,7 @@
     "id": "SE-1784",
     "name": "Arvika",
     "country": "SE",
-    "region": "Värmlands län",
+    "region": "Region Värmland",
     "domain": "arvika.se",
     "osm_relation_id": 935465,
     "population": 25408
@@ -1782,7 +1782,7 @@
     "id": "SE-1785",
     "name": "Säffle",
     "country": "SE",
-    "region": "Värmlands län",
+    "region": "Region Värmland",
     "domain": "saffle.se",
     "osm_relation_id": 935597,
     "population": 14756
@@ -1791,7 +1791,7 @@
     "id": "SE-1814",
     "name": "Lekeberg",
     "country": "SE",
-    "region": "Örebro län",
+    "region": "Region Örebro",
     "domain": "lekeberg.se",
     "osm_relation_id": 935673
   },
@@ -1799,7 +1799,7 @@
     "id": "SE-1860",
     "name": "Laxå",
     "country": "SE",
-    "region": "Örebro län",
+    "region": "Region Örebro",
     "domain": "laxa.se",
     "osm_relation_id": 935605,
     "population": 5397
@@ -1808,7 +1808,7 @@
     "id": "SE-1861",
     "name": "Hallsberg",
     "country": "SE",
-    "region": "Örebro län",
+    "region": "Region Örebro",
     "domain": "hallsberg.se",
     "osm_relation_id": 935572,
     "population": 16082
@@ -1817,7 +1817,7 @@
     "id": "SE-1862",
     "name": "Degerfor",
     "country": "SE",
-    "region": "Örebro län",
+    "region": "Region Örebro",
     "domain": "degerfors.se",
     "osm_relation_id": 935498,
     "population": 9237
@@ -1826,7 +1826,7 @@
     "id": "SE-1863",
     "name": "Hällefor",
     "country": "SE",
-    "region": "Örebro län",
+    "region": "Region Örebro",
     "domain": "hellefors.se",
     "osm_relation_id": 935486,
     "population": 6269
@@ -1835,7 +1835,7 @@
     "id": "SE-1864",
     "name": "Ljusnarsberg",
     "country": "SE",
-    "region": "Örebro län",
+    "region": "Region Örebro",
     "domain": "ljusnarsberg.se",
     "osm_relation_id": 935563,
     "population": 4290
@@ -1844,7 +1844,7 @@
     "id": "SE-1880",
     "name": "Örebro",
     "country": "SE",
-    "region": "Örebro län",
+    "region": "Region Örebro",
     "domain": "orebro.se",
     "osm_relation_id": 935628,
     "population": 160687
@@ -1853,7 +1853,7 @@
     "id": "SE-1881",
     "name": "Kumla",
     "country": "SE",
-    "region": "Örebro län",
+    "region": "Region Örebro",
     "domain": "kumla.se",
     "osm_relation_id": 935494,
     "population": 22665
@@ -1862,7 +1862,7 @@
     "id": "SE-1882",
     "name": "Askersund",
     "country": "SE",
-    "region": "Örebro län",
+    "region": "Region Örebro",
     "domain": "askersund.se",
     "osm_relation_id": 935513,
     "population": 11382
@@ -1871,7 +1871,7 @@
     "id": "SE-1883",
     "name": "Karlskoga",
     "country": "SE",
-    "region": "Örebro län",
+    "region": "Region Örebro",
     "domain": "karlskoga.se",
     "osm_relation_id": 935520,
     "population": 30128
@@ -1880,7 +1880,7 @@
     "id": "SE-1884",
     "name": "Nora",
     "country": "SE",
-    "region": "Örebro län",
+    "region": "Region Örebro",
     "domain": "nora.se",
     "osm_relation_id": 935472,
     "population": 10603
@@ -1889,7 +1889,7 @@
     "id": "SE-1885",
     "name": "Lindesberg",
     "country": "SE",
-    "region": "Örebro län",
+    "region": "Region Örebro",
     "domain": "lindesberg.se",
     "osm_relation_id": 935557,
     "population": 23014
@@ -1898,7 +1898,7 @@
     "id": "SE-1904",
     "name": "Skinnskatteberg",
     "country": "SE",
-    "region": "Västmanlands län",
+    "region": "Region Västmanland",
     "domain": "skinnskatteberg.se",
     "osm_relation_id": 935423,
     "population": 4234
@@ -1907,7 +1907,7 @@
     "id": "SE-1907",
     "name": "Surahammar",
     "country": "SE",
-    "region": "Västmanlands län",
+    "region": "Region Västmanland",
     "domain": "surahammar.se",
     "osm_relation_id": 935426,
     "population": 9733
@@ -1916,7 +1916,7 @@
     "id": "SE-1960",
     "name": "Kungsör",
     "country": "SE",
-    "region": "Västmanlands län",
+    "region": "Region Västmanland",
     "domain": "kungsor.se",
     "osm_relation_id": 935537,
     "population": 8550
@@ -1925,7 +1925,7 @@
     "id": "SE-1961",
     "name": "Hallstahammar",
     "country": "SE",
-    "region": "Västmanlands län",
+    "region": "Region Västmanland",
     "domain": "hallstahammar.se",
     "osm_relation_id": 935590,
     "population": 16600
@@ -1934,7 +1934,7 @@
     "id": "SE-1962",
     "name": "Norberg",
     "country": "SE",
-    "region": "Västmanlands län",
+    "region": "Region Västmanland",
     "domain": "norberg.se",
     "osm_relation_id": 307885,
     "population": 5351
@@ -1943,7 +1943,7 @@
     "id": "SE-1980",
     "name": "Västerå",
     "country": "SE",
-    "region": "Västmanlands län",
+    "region": "Region Västmanland",
     "domain": "vasteras.se",
     "osm_relation_id": 935588,
     "population": 161240
@@ -1952,7 +1952,7 @@
     "id": "SE-1981",
     "name": "Sala",
     "country": "SE",
-    "region": "Västmanlands län",
+    "region": "Region Västmanland",
     "domain": "sala.se",
     "osm_relation_id": 369508,
     "population": 22600
@@ -1961,7 +1961,7 @@
     "id": "SE-1982",
     "name": "Fagersta",
     "country": "SE",
-    "region": "Västmanlands län",
+    "region": "Region Västmanland",
     "domain": "fagersta.se",
     "osm_relation_id": 935504,
     "population": 12915
@@ -1970,7 +1970,7 @@
     "id": "SE-1983",
     "name": "Köping",
     "country": "SE",
-    "region": "Västmanlands län",
+    "region": "Region Västmanland",
     "domain": "koping.se",
     "osm_relation_id": 935409,
     "population": 25610
@@ -1979,7 +1979,7 @@
     "id": "SE-1984",
     "name": "Arboga",
     "country": "SE",
-    "region": "Västmanlands län",
+    "region": "Region Västmanland",
     "domain": "arboga.se",
     "osm_relation_id": 935652,
     "population": 13929
@@ -1988,7 +1988,7 @@
     "id": "SE-2021",
     "name": "Vansbro",
     "country": "SE",
-    "region": "Dalarnas län",
+    "region": "Region Dalarna",
     "domain": "vansbro.se",
     "osm_relation_id": 57891,
     "population": 6741
@@ -1997,7 +1997,7 @@
     "id": "SE-2023",
     "name": "Malung-Sälen",
     "country": "SE",
-    "region": "Dalarnas län",
+    "region": "Region Dalarna",
     "domain": "malung-salen.se",
     "osm_relation_id": 935398,
     "population": 10192
@@ -2006,7 +2006,7 @@
     "id": "SE-2026",
     "name": "Gagnef",
     "country": "SE",
-    "region": "Dalarnas län",
+    "region": "Region Dalarna",
     "domain": "gagnef.se",
     "osm_relation_id": 307849,
     "population": 10307
@@ -2015,7 +2015,7 @@
     "id": "SE-2029",
     "name": "Leksand",
     "country": "SE",
-    "region": "Dalarnas län",
+    "region": "Region Dalarna",
     "domain": "leksand.se",
     "osm_relation_id": 307848,
     "population": 16167
@@ -2024,7 +2024,7 @@
     "id": "SE-2031",
     "name": "Rättvik",
     "country": "SE",
-    "region": "Dalarnas län",
+    "region": "Region Dalarna",
     "domain": "rattvik.se",
     "osm_relation_id": 300964,
     "population": 10978
@@ -2033,7 +2033,7 @@
     "id": "SE-2034",
     "name": "Orsa",
     "country": "SE",
-    "region": "Dalarnas län",
+    "region": "Region Dalarna",
     "domain": "orsa.se",
     "osm_relation_id": 290048
   },
@@ -2041,7 +2041,7 @@
     "id": "SE-2039",
     "name": "Älvdalen",
     "country": "SE",
-    "region": "Dalarnas län",
+    "region": "Region Dalarna",
     "domain": "alvdalen.se",
     "osm_relation_id": 935540,
     "population": 6831
@@ -2050,7 +2050,7 @@
     "id": "SE-2061",
     "name": "Smedjebacken",
     "country": "SE",
-    "region": "Dalarnas län",
+    "region": "Region Dalarna",
     "domain": "smedjebacken.se",
     "osm_relation_id": 307884,
     "population": 10758
@@ -2059,7 +2059,7 @@
     "id": "SE-2062",
     "name": "Mora",
     "country": "SE",
-    "region": "Dalarnas län",
+    "region": "Region Dalarna",
     "domain": "morakommun.se",
     "osm_relation_id": 304100,
     "population": 20419
@@ -2068,7 +2068,7 @@
     "id": "SE-2080",
     "name": "Falu",
     "country": "SE",
-    "region": "Dalarnas län",
+    "region": "Region Dalarna",
     "domain": "falun.se",
     "osm_relation_id": 300963,
     "population": 59974
@@ -2077,7 +2077,7 @@
     "id": "SE-2081",
     "name": "Borlänge",
     "country": "SE",
-    "region": "Dalarnas län",
+    "region": "Region Dalarna",
     "domain": "borlange.se",
     "osm_relation_id": 307850,
     "population": 51354
@@ -2086,7 +2086,7 @@
     "id": "SE-2082",
     "name": "Säter",
     "country": "SE",
-    "region": "Dalarnas län",
+    "region": "Region Dalarna",
     "domain": "sater.se",
     "osm_relation_id": 300938,
     "population": 11222
@@ -2095,7 +2095,7 @@
     "id": "SE-2083",
     "name": "Hedemora",
     "country": "SE",
-    "region": "Dalarnas län",
+    "region": "Region Dalarna",
     "domain": "hedemora.se",
     "osm_relation_id": 300939,
     "population": 15025
@@ -2104,7 +2104,7 @@
     "id": "SE-2084",
     "name": "Avesta",
     "country": "SE",
-    "region": "Dalarnas län",
+    "region": "Region Dalarna",
     "domain": "avesta.se",
     "osm_relation_id": 312618,
     "population": 22366
@@ -2113,7 +2113,7 @@
     "id": "SE-2085",
     "name": "Ludvika",
     "country": "SE",
-    "region": "Dalarnas län",
+    "region": "Region Dalarna",
     "domain": "ludvika.se",
     "osm_relation_id": 57886,
     "population": 26812
@@ -2122,7 +2122,7 @@
     "id": "SE-2101",
     "name": "Ockelbo",
     "country": "SE",
-    "region": "Gävleborgs län",
+    "region": "Region Gävleborg",
     "domain": "ockelbo.se",
     "osm_relation_id": 278632,
     "population": 5715
@@ -2131,7 +2131,7 @@
     "id": "SE-2104",
     "name": "Hofors",
     "country": "SE",
-    "region": "Gävleborgs län",
+    "region": "Region Gävleborg",
     "domain": "hofors.se",
     "osm_relation_id": 289354,
     "population": 9138
@@ -2140,7 +2140,7 @@
     "id": "SE-2121",
     "name": "Ovanåker",
     "country": "SE",
-    "region": "Gävleborgs län",
+    "region": "Region Gävleborg",
     "domain": "ovanaker.se",
     "osm_relation_id": 368254,
     "population": 11272
@@ -2149,7 +2149,7 @@
     "id": "SE-2132",
     "name": "Nordanstig",
     "country": "SE",
-    "region": "Gävleborgs län",
+    "region": "Region Gävleborg",
     "domain": "nordanstig.se",
     "osm_relation_id": 935645,
     "population": 9284
@@ -2158,7 +2158,7 @@
     "id": "SE-2161",
     "name": "Ljusdal",
     "country": "SE",
-    "region": "Gävleborgs län",
+    "region": "Region Gävleborg",
     "domain": "ljusdal.se",
     "osm_relation_id": 935592,
     "population": 18377
@@ -2167,7 +2167,7 @@
     "id": "SE-2180",
     "name": "Gävle",
     "country": "SE",
-    "region": "Gävleborgs län",
+    "region": "Region Gävleborg",
     "domain": "gavle.se",
     "osm_relation_id": 278620,
     "population": 104108
@@ -2176,7 +2176,7 @@
     "id": "SE-2181",
     "name": "Sandviken",
     "country": "SE",
-    "region": "Gävleborgs län",
+    "region": "Region Gävleborg",
     "domain": "sandviken.se",
     "osm_relation_id": 278633,
     "population": 38033
@@ -2185,7 +2185,7 @@
     "id": "SE-2182",
     "name": "Söderhamn",
     "country": "SE",
-    "region": "Gävleborgs län",
+    "region": "Region Gävleborg",
     "domain": "soderhamn.se",
     "osm_relation_id": 296292,
     "population": 24163
@@ -2194,7 +2194,7 @@
     "id": "SE-2183",
     "name": "Bollnä",
     "country": "SE",
-    "region": "Gävleborgs län",
+    "region": "Region Gävleborg",
     "domain": "bollnas.se",
     "osm_relation_id": 296291,
     "population": 26018
@@ -2203,7 +2203,7 @@
     "id": "SE-2184",
     "name": "Hudiksvall",
     "country": "SE",
-    "region": "Gävleborgs län",
+    "region": "Region Gävleborg",
     "domain": "hudiksvall.se",
     "osm_relation_id": 935648,
     "population": 37341
@@ -2212,7 +2212,7 @@
     "id": "SE-2260",
     "name": "Ånge",
     "country": "SE",
-    "region": "Västernorrlands län",
+    "region": "Region Västernorrland",
     "domain": "ange.se",
     "osm_relation_id": 935477,
     "population": 9000
@@ -2221,7 +2221,7 @@
     "id": "SE-2262",
     "name": "Timrå",
     "country": "SE",
-    "region": "Västernorrlands län",
+    "region": "Region Västernorrland",
     "domain": "timra.se",
     "osm_relation_id": 935568,
     "population": 17465
@@ -2230,7 +2230,7 @@
     "id": "SE-2280",
     "name": "Härnösand",
     "country": "SE",
-    "region": "Västernorrlands län",
+    "region": "Region Västernorrland",
     "domain": "harnosand.se",
     "osm_relation_id": 935418
   },
@@ -2238,7 +2238,7 @@
     "id": "SE-2281",
     "name": "Sundsvall",
     "country": "SE",
-    "region": "Västernorrlands län",
+    "region": "Region Västernorrland",
     "domain": "sundsvall.se",
     "osm_relation_id": 935497,
     "population": 98962
@@ -2247,7 +2247,7 @@
     "id": "SE-2282",
     "name": "Kramfor",
     "country": "SE",
-    "region": "Västernorrlands län",
+    "region": "Region Västernorrland",
     "domain": "kramfors.se",
     "osm_relation_id": 935445,
     "population": 17390
@@ -2256,7 +2256,7 @@
     "id": "SE-2283",
     "name": "Sollefteå",
     "country": "SE",
-    "region": "Västernorrlands län",
+    "region": "Region Västernorrland",
     "domain": "solleftea.se",
     "osm_relation_id": 935624,
     "population": 18138
@@ -2265,7 +2265,7 @@
     "id": "SE-2284",
     "name": "Örnsköldsvik",
     "country": "SE",
-    "region": "Västernorrlands län",
+    "region": "Region Västernorrland",
     "domain": "ornskoldsvik.se",
     "osm_relation_id": 935455,
     "population": 55338
@@ -2274,7 +2274,7 @@
     "id": "SE-2303",
     "name": "Ragunda",
     "country": "SE",
-    "region": "Jämtlands län",
+    "region": "Region Jämtland Härjedalen",
     "domain": "ragunda.se",
     "osm_relation_id": 935558,
     "population": 5152
@@ -2283,7 +2283,7 @@
     "id": "SE-2305",
     "name": "Bräcke",
     "country": "SE",
-    "region": "Jämtlands län",
+    "region": "Region Jämtland Härjedalen",
     "domain": "bracke.se",
     "osm_relation_id": 935457,
     "population": 5950
@@ -2292,7 +2292,7 @@
     "id": "SE-2309",
     "name": "Krokom",
     "country": "SE",
-    "region": "Jämtlands län",
+    "region": "Region Jämtland Härjedalen",
     "domain": "krokom.se",
     "osm_relation_id": 935615,
     "population": 15795
@@ -2301,7 +2301,7 @@
     "id": "SE-2313",
     "name": "Strömsund",
     "country": "SE",
-    "region": "Jämtlands län",
+    "region": "Region Jämtland Härjedalen",
     "domain": "stromsund.se",
     "osm_relation_id": 935413,
     "population": 10904
@@ -2310,7 +2310,7 @@
     "id": "SE-2321",
     "name": "Åre",
     "country": "SE",
-    "region": "Jämtlands län",
+    "region": "Region Jämtland Härjedalen",
     "domain": "are.se",
     "osm_relation_id": 935429,
     "population": 12770
@@ -2319,7 +2319,7 @@
     "id": "SE-2326",
     "name": "Berg",
     "country": "SE",
-    "region": "Jämtlands län",
+    "region": "Region Jämtland Härjedalen",
     "domain": "berg.se",
     "osm_relation_id": 935633,
     "population": 7085
@@ -2328,7 +2328,7 @@
     "id": "SE-2361",
     "name": "Härjedalen",
     "country": "SE",
-    "region": "Jämtlands län",
+    "region": "Region Jämtland Härjedalen",
     "domain": "herjedalen.se",
     "osm_relation_id": 935534,
     "population": 10117
@@ -2337,7 +2337,7 @@
     "id": "SE-2380",
     "name": "Östersund",
     "country": "SE",
-    "region": "Jämtlands län",
+    "region": "Region Jämtland Härjedalen",
     "domain": "ostersund.se",
     "osm_relation_id": 935577,
     "population": 64963
@@ -2346,7 +2346,7 @@
     "id": "SE-2401",
     "name": "Nordmaling",
     "country": "SE",
-    "region": "Västerbottens län",
+    "region": "Region Västerbotten",
     "domain": "nordmaling.se",
     "osm_relation_id": 935647,
     "population": 6905
@@ -2355,7 +2355,7 @@
     "id": "SE-2403",
     "name": "Bjurholm",
     "country": "SE",
-    "region": "Västerbottens län",
+    "region": "Region Västerbotten",
     "domain": "bjurholm.se",
     "osm_relation_id": 935607,
     "population": 2327
@@ -2364,7 +2364,7 @@
     "id": "SE-2404",
     "name": "Vindeln",
     "country": "SE",
-    "region": "Västerbottens län",
+    "region": "Region Västerbotten",
     "domain": "vindeln.se",
     "osm_relation_id": 935402,
     "population": 5421
@@ -2373,7 +2373,7 @@
     "id": "SE-2409",
     "name": "Robertsfor",
     "country": "SE",
-    "region": "Västerbottens län",
+    "region": "Region Västerbotten",
     "domain": "robertsfors.se",
     "osm_relation_id": 935681,
     "population": 6595
@@ -2382,7 +2382,7 @@
     "id": "SE-2417",
     "name": "Norsjö",
     "country": "SE",
-    "region": "Västerbottens län",
+    "region": "Region Västerbotten",
     "domain": "norsjo.se",
     "osm_relation_id": 935593,
     "population": 3811
@@ -2391,7 +2391,7 @@
     "id": "SE-2418",
     "name": "Malå",
     "country": "SE",
-    "region": "Västerbottens län",
+    "region": "Region Västerbotten",
     "domain": "mala.se",
     "osm_relation_id": 935500,
     "population": 2902
@@ -2400,7 +2400,7 @@
     "id": "SE-2421",
     "name": "Storuman",
     "country": "SE",
-    "region": "Västerbottens län",
+    "region": "Region Västerbotten",
     "domain": "storuman.se",
     "osm_relation_id": 935479,
     "population": 5543
@@ -2409,7 +2409,7 @@
     "id": "SE-2422",
     "name": "Sorsele",
     "country": "SE",
-    "region": "Västerbottens län",
+    "region": "Region Västerbotten",
     "domain": "sorsele.se",
     "osm_relation_id": 935655,
     "population": 2362
@@ -2418,7 +2418,7 @@
     "id": "SE-2425",
     "name": "Dorotea",
     "country": "SE",
-    "region": "Västerbottens län",
+    "region": "Region Västerbotten",
     "domain": "dorotea.se",
     "osm_relation_id": 935438,
     "population": 2241
@@ -2427,7 +2427,7 @@
     "id": "SE-2460",
     "name": "Vännä",
     "country": "SE",
-    "region": "Västerbottens län",
+    "region": "Region Västerbotten",
     "domain": "vannas.se",
     "osm_relation_id": 935564,
     "population": 9225
@@ -2436,7 +2436,7 @@
     "id": "SE-2462",
     "name": "Vilhelmina",
     "country": "SE",
-    "region": "Västerbottens län",
+    "region": "Region Västerbotten",
     "domain": "vilhelmina.se",
     "osm_relation_id": 935528,
     "population": 6172
@@ -2445,7 +2445,7 @@
     "id": "SE-2463",
     "name": "Åsele",
     "country": "SE",
-    "region": "Västerbottens län",
+    "region": "Region Västerbotten",
     "domain": "asele.se",
     "osm_relation_id": 935432,
     "population": 2683
@@ -2454,7 +2454,7 @@
     "id": "SE-2480",
     "name": "Umeå",
     "country": "SE",
-    "region": "Västerbottens län",
+    "region": "Region Västerbotten",
     "domain": "umea.se",
     "osm_relation_id": 935646,
     "population": 135273
@@ -2463,7 +2463,7 @@
     "id": "SE-2481",
     "name": "Lycksele",
     "country": "SE",
-    "region": "Västerbottens län",
+    "region": "Region Västerbotten",
     "domain": "lycksele.se",
     "osm_relation_id": 935428,
     "population": 12159
@@ -2472,7 +2472,7 @@
     "id": "SE-2482",
     "name": "Skellefteå",
     "country": "SE",
-    "region": "Västerbottens län",
+    "region": "Region Västerbotten",
     "domain": "skelleftea.se",
     "osm_relation_id": 935576,
     "population": 75405
@@ -2481,7 +2481,7 @@
     "id": "SE-2505",
     "name": "Arvidsjaur",
     "country": "SE",
-    "region": "Norrbottens län",
+    "region": "Region Norrbotten",
     "domain": "arvidsjaur.se",
     "osm_relation_id": 935667,
     "population": 6026
@@ -2490,7 +2490,7 @@
     "id": "SE-2506",
     "name": "Arjeplog",
     "country": "SE",
-    "region": "Norrbottens län",
+    "region": "Region Norrbotten",
     "domain": "arjeplog.se",
     "osm_relation_id": 935425,
     "population": 2570
@@ -2499,7 +2499,7 @@
     "id": "SE-2510",
     "name": "Jokkmokk",
     "country": "SE",
-    "region": "Norrbottens län",
+    "region": "Region Norrbotten",
     "domain": "jokkmokk.se",
     "osm_relation_id": 935630,
     "population": 4695
@@ -2508,7 +2508,7 @@
     "id": "SE-2513",
     "name": "Överkalix",
     "country": "SE",
-    "region": "Norrbottens län",
+    "region": "Region Norrbotten",
     "domain": "overkalix.se",
     "osm_relation_id": 935629,
     "population": 3183
@@ -2517,7 +2517,7 @@
     "id": "SE-2514",
     "name": "Kalix",
     "country": "SE",
-    "region": "Norrbottens län",
+    "region": "Region Norrbotten",
     "domain": "kalix.se",
     "osm_relation_id": 935474,
     "population": 15252
@@ -2526,7 +2526,7 @@
     "id": "SE-2518",
     "name": "Övertorneå",
     "country": "SE",
-    "region": "Norrbottens län",
+    "region": "Region Norrbotten",
     "domain": "overtornea.se",
     "osm_relation_id": 935620,
     "population": 3995
@@ -2535,7 +2535,7 @@
     "id": "SE-2521",
     "name": "Pajala",
     "country": "SE",
-    "region": "Norrbottens län",
+    "region": "Region Norrbotten",
     "domain": "pajala.se",
     "osm_relation_id": 935573,
     "population": 5706
@@ -2544,7 +2544,7 @@
     "id": "SE-2523",
     "name": "Gällivare",
     "country": "SE",
-    "region": "Norrbottens län",
+    "region": "Region Norrbotten",
     "domain": "gellivare.se",
     "osm_relation_id": 935446,
     "population": 17135
@@ -2553,7 +2553,7 @@
     "id": "SE-2560",
     "name": "Älvsbyn",
     "country": "SE",
-    "region": "Norrbottens län",
+    "region": "Region Norrbotten",
     "domain": "alvsbyn.se",
     "osm_relation_id": 935574,
     "population": 7815
@@ -2562,7 +2562,7 @@
     "id": "SE-2580",
     "name": "Luleå",
     "country": "SE",
-    "region": "Norrbottens län",
+    "region": "Region Norrbotten",
     "domain": "lulea.se",
     "osm_relation_id": 935482,
     "population": 80304
@@ -2571,7 +2571,7 @@
     "id": "SE-2581",
     "name": "Piteå",
     "country": "SE",
-    "region": "Norrbottens län",
+    "region": "Region Norrbotten",
     "domain": "pitea.se",
     "osm_relation_id": 935490,
     "population": 42184
@@ -2580,7 +2580,7 @@
     "id": "SE-2582",
     "name": "Boden",
     "country": "SE",
-    "region": "Norrbottens län",
+    "region": "Region Norrbotten",
     "domain": "boden.se",
     "osm_relation_id": 935421,
     "population": 28624
@@ -2589,7 +2589,7 @@
     "id": "SE-2583",
     "name": "Haparanda",
     "country": "SE",
-    "region": "Norrbottens län",
+    "region": "Region Norrbotten",
     "domain": "haparanda.se",
     "osm_relation_id": 935579,
     "population": 9027
@@ -2598,7 +2598,7 @@
     "id": "SE-2584",
     "name": "Kiruna",
     "country": "SE",
-    "region": "Norrbottens län",
+    "region": "Region Norrbotten",
     "domain": "kiruna.se",
     "osm_relation_id": 935541,
     "population": 22402

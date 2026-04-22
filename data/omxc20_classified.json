@@ -1,0 +1,470 @@
+{
+  "generated": "2026-04-21T08:13:20.488004+00:00",
+  "companies": [
+    {
+      "ticker": "NOVO B",
+      "name": "Novo Nordisk",
+      "domain": "novonordisk.com",
+      "sector": "Pharmaceuticals",
+      "hq_address": "Novo Allé, 2880 Bagsværd",
+      "hq_municipality": "Gladsaxe",
+      "hq_municipality_id": "DK-159",
+      "hq_lat": 55.7554,
+      "hq_lng": 12.4611,
+      "verified": true,
+      "mx": [
+        "de-smtp-inbound-1.mimecast.com",
+        "de-smtp-inbound-2.mimecast.com"
+      ],
+      "spf": "v=spf1 include:%{i}._ip.%{h}._ehlo.%{d}._spf.vali.email include:de._netblocks.mimecast.com ~all",
+      "mx_countries": [
+        "DE"
+      ],
+      "gateway": "mimecast",
+      "tenant": "Managed",
+      "provider": "microsoft",
+      "reason": "MX is mimecast gateway; autodiscover points to microsoft"
+    },
+    {
+      "ticker": "MAERSK B",
+      "name": "A.P. Møller - Mærsk",
+      "domain": "maersk.com",
+      "sector": "Transportation & Logistics",
+      "hq_address": "Esplanaden 50, 1263 København K",
+      "hq_municipality": "København",
+      "hq_municipality_id": "DK-101",
+      "hq_lat": 55.6853,
+      "hq_lng": 12.5924,
+      "verified": true,
+      "mx": [
+        "maersk-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:_u.maersk.com._spf.smart.ondmarc.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (maersk-com.mail.protection.outlook.com) matches Microsoft"
+    },
+    {
+      "ticker": "VWS",
+      "name": "Vestas Wind Systems",
+      "domain": "vestas.com",
+      "sector": "Energy",
+      "hq_address": "Hedeager 42, 8200 Aarhus N",
+      "hq_municipality": "Aarhus",
+      "hq_municipality_id": "DK-751",
+      "hq_lat": 56.1816,
+      "hq_lng": 10.1788,
+      "verified": true,
+      "mx": [
+        "vestas-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 mx a:c.spf.service-now.com include:spf.protection.outlook.com include:u2309092.wl093.sendgrid.net include:_spf.my317228.mail.sapbydesign.com include:_spf.salesforce.com ip4:135.84.68.123 ip4:195.225.12.120 ip4:193.47.71.0/24 ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (vestas-com.mail.protection.outlook.com) matches Microsoft"
+    },
+    {
+      "ticker": "ORSTED",
+      "name": "Ørsted",
+      "domain": "orsted.com",
+      "sector": "Energy & Utilities",
+      "hq_address": "Kraftværksvej 53, 7000 Fredericia",
+      "hq_municipality": "Fredericia",
+      "hq_municipality_id": "DK-607",
+      "hq_lat": 55.5572,
+      "hq_lng": 9.75,
+      "verified": true,
+      "mx": [
+        "orsted-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:194.28.248.218 ip4:194.28.248.221 ip4:131.207.55.52 ip4:131.207.55.53 ip4:159.122.219.43 include:aspmx.pardot.com include:msg-out._spf.onevoice.no include:_spf-dc2.successfactors.com include:musvc.com include:_spf.etrack1.com include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (orsted-com.mail.protection.outlook.com) matches Microsoft"
+    },
+    {
+      "ticker": "GMAB",
+      "name": "Genmab",
+      "domain": "genmab.com",
+      "sector": "Biotechnology",
+      "hq_address": "Kalvebod Brygge 43, 1560 København V",
+      "hq_municipality": "København",
+      "hq_municipality_id": "DK-101",
+      "hq_lat": 55.663,
+      "hq_lng": 12.5643,
+      "verified": true,
+      "mx": [
+        "genmab-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:67.231.153.112 ip4:67.231.145.124 ip4:195.217.50.22 ip4:82.33.229.22 ip4:194.223.153.14 ip4:62.182.250.20 ip4:50.73.207.217 ip4:194.171.10.220 ip4:89.221.170.234 ip4:144.121.247.130 ip4:167.89.109.219 ip4:34.192.164.107 ip4:52.44.199.241 ip4:34.195.228.51 include:spf.protection.outlook.com include:_lob.genmab.com include:amazonses.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (genmab-com.mail.protection.outlook.com) matches Microsoft"
+    },
+    {
+      "ticker": "PNDORA",
+      "name": "Pandora",
+      "domain": "pandoragroup.com",
+      "sector": "Consumer Goods",
+      "hq_address": "Havneholmen 17-19, 1561 København V",
+      "hq_municipality": "København",
+      "hq_municipality_id": "DK-101",
+      "hq_lat": 55.6625,
+      "hq_lng": 12.5556,
+      "verified": true,
+      "mx": [
+        "pandoragroup-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (pandoragroup-com.mail.protection.outlook.com) matches Microsoft"
+    },
+    {
+      "ticker": "DSV",
+      "name": "DSV",
+      "domain": "dsv.com",
+      "sector": "Logistics",
+      "hq_address": "Hovedgaden 630, 2640 Hedehusene",
+      "hq_municipality": "Høje-Taastrup",
+      "hq_municipality_id": "DK-169",
+      "hq_lat": 55.6546,
+      "hq_lng": 12.2001,
+      "verified": true,
+      "mx": [
+        "mx1.dsv.c3s2.iphmx.com",
+        "mx2.dsv.c3s2.iphmx.com"
+      ],
+      "spf": "v=spf1 include:spf.dsv.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": "cisco-ironport",
+      "tenant": "Federated",
+      "provider": "microsoft",
+      "reason": "MX is cisco-ironport gateway; DKIM signs via microsoft"
+    },
+    {
+      "ticker": "COLO B",
+      "name": "Coloplast",
+      "domain": "coloplast.com",
+      "sector": "Medical Devices",
+      "hq_address": "Holtedam 1, 3050 Humlebæk",
+      "hq_municipality": "Fredensborg",
+      "hq_municipality_id": "DK-210",
+      "hq_lat": 55.9716,
+      "hq_lng": 12.5365,
+      "verified": true,
+      "mx": [
+        "coloplast-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:193.0.60.0/24 ip4:142.0.162.16/28 ip4:94.236.52.150 include:_spf1.coloplast.com include:_spf2.coloplast.com include:_spf3.coloplast.com include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (coloplast-com.mail.protection.outlook.com) matches Microsoft"
+    },
+    {
+      "ticker": "DEMANT",
+      "name": "Demant",
+      "domain": "demant.com",
+      "sector": "Medical Devices",
+      "hq_address": "Kongebakken 9, 2765 Smørum",
+      "hq_municipality": "Egedal",
+      "hq_municipality_id": "DK-240",
+      "hq_lat": 55.748,
+      "hq_lng": 12.259,
+      "verified": true,
+      "mx": [
+        "demant-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 redirect=2vfytcr6._spf._d.mim.ec",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (demant-com.mail.protection.outlook.com) matches Microsoft"
+    },
+    {
+      "ticker": "NSIS B",
+      "name": "Novonesis",
+      "domain": "novonesis.com",
+      "sector": "Biotechnology",
+      "hq_address": "Krogshoejvej 36, 2880 Bagsværd",
+      "hq_municipality": "Gladsaxe",
+      "hq_municipality_id": "DK-159",
+      "hq_lat": 55.7475,
+      "hq_lng": 12.4547,
+      "verified": true,
+      "mx": [
+        "novonesis-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:91.235.139.7 include:spf.protection.outlook.com include:spf.odmad.quest-on-demand.com include:_spf.salesforce.com include:spf.mailjet.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (novonesis-com.mail.protection.outlook.com) matches Microsoft"
+    },
+    {
+      "ticker": "ROCK B",
+      "name": "Rockwool",
+      "domain": "rockwool.com",
+      "sector": "Construction Materials",
+      "hq_address": "Hovedgaden 584, 2640 Hedehusene",
+      "hq_municipality": "Høje-Taastrup",
+      "hq_municipality_id": "DK-169",
+      "hq_lat": 55.6546,
+      "hq_lng": 12.206,
+      "verified": true,
+      "mx": [
+        "rockwool-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:195.191.109.191 ip4:185.2.54.209 ip4:195.191.109.225 ip4:195.191.109.227 include:spf-1.rockwool.com include:spf-2.rockwool.com include:spf-3.rockwool.com include:spf.protection.outlook.com include:mktomail.com ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (rockwool-com.mail.protection.outlook.com) matches Microsoft"
+    },
+    {
+      "ticker": "GN",
+      "name": "GN Store Nord",
+      "domain": "gn.com",
+      "sector": "Technology",
+      "hq_address": "Lautrupbjerg 7, 2750 Ballerup",
+      "hq_municipality": "Ballerup",
+      "hq_municipality_id": "DK-151",
+      "hq_lat": 55.734,
+      "hq_lng": 12.358,
+      "verified": true,
+      "mx": [
+        "gn-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:_spf26950.spfprotect.com include:spf1.gn.com include:spf.protection.outlook.com a:o1.mail.online.gnresound.com IP4:195.50.76.237 IP4:20.52.225.187 IP4:20.52.249.150 IP4:20.52.249.146 IP4:195.122.177.106 -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (gn-com.mail.protection.outlook.com) matches Microsoft"
+    },
+    {
+      "ticker": "ISS",
+      "name": "ISS",
+      "domain": "issworld.com",
+      "sector": "Facilities Services",
+      "hq_address": "Buddingevej 197, 2860 Søborg",
+      "hq_municipality": "Gladsaxe",
+      "hq_municipality_id": "DK-159",
+      "hq_lat": 55.726,
+      "hq_lng": 12.482,
+      "verified": true,
+      "mx": [
+        "issworld-com.mail.eo.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com include:spf1.issworld.com include:145604164.spf06.hubspotemail.net -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (issworld-com.mail.eo.outlook.com) matches Microsoft"
+    },
+    {
+      "ticker": "FLS",
+      "name": "FLSmidth",
+      "domain": "flsmidth.com",
+      "sector": "Industrial Equipment",
+      "hq_address": "Vigerslev Allé 77, 2500 Valby",
+      "hq_municipality": "København",
+      "hq_municipality_id": "DK-101",
+      "hq_lat": 55.659,
+      "hq_lng": 12.5046,
+      "verified": true,
+      "mx": [
+        "flsmidth-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:91.220.7.26 ip4:52.157.231.27 include:spf.protection.outlook.com include:spf.topdesk.net include:spf_c.oracle.com include:spf_c.oraclecloud.com include:amazonses.com  include:_spf.psm.knowbe4.com  -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (flsmidth-com.mail.protection.outlook.com) matches Microsoft"
+    },
+    {
+      "ticker": "AMBU B",
+      "name": "Ambu",
+      "domain": "ambu.com",
+      "sector": "Medical Devices",
+      "hq_address": "Baltorpbakken 13, 2750 Ballerup",
+      "hq_municipality": "Ballerup",
+      "hq_municipality_id": "DK-151",
+      "hq_lat": 55.734,
+      "hq_lng": 12.348,
+      "verified": true,
+      "mx": [
+        "ambu-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:20.47.149.138 ip4:23.249.208.0/20 ip4:23.251.224.0/19 ip4:35.190.247.0/24 ip4:35.191.0.0/16 ip4:37.188.97.188 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:50.31.32.0/19 ip4:50.56.130.220 ip4:50.203.113.0/25 ip4:51.4.72.0/24 ip4:51.4.80.0/27 ip4:51.5.72.0/24 ip4:51.5.80.0/27 ip4:52.100.0.0/14 ip4:52.112.0.0/14 ip4:54.240.0.0/18 ip4:54.240.64.0/19 ip4:59.60.7.48/29 ip4:64.233.160.0/19 ip4:66.102.0.0/20 ip4:66.249.80.0/20 ip4:113.210.190.32/28 include:spf1.ambu.com include:spf.nnithosting.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (ambu-com.mail.protection.outlook.com) matches Microsoft"
+    },
+    {
+      "ticker": "TRYG",
+      "name": "Tryg",
+      "domain": "tryg.com",
+      "sector": "Insurance",
+      "hq_address": "Klausdalsbrovej 601, 2750 Ballerup",
+      "hq_municipality": "Ballerup",
+      "hq_municipality_id": "DK-151",
+      "hq_lat": 55.735,
+      "hq_lng": 12.362,
+      "verified": true,
+      "mx": [
+        "dk.mx1.mailanyone.net",
+        "dk.mx2.mx25.net",
+        "dk.mx3.mailanyone.net",
+        "dk.mx4.mx25.net"
+      ],
+      "spf": "v=spf1 include:spf.mailanyone.net include:spf.protection.outlook.com include:_spf.qualtrics.com include:spf.actimo.com a:b.spf.service-now.com a:c.spf.service-now.com a:d.spf.service-now.com ip4:148.139.1.8 ip4:148.139.1.10 ip4:148.139.1.11 -all",
+      "mx_countries": [
+        "IE"
+      ],
+      "gateway": "mailanyone",
+      "tenant": "Managed",
+      "provider": "google",
+      "reason": "MX is mailanyone gateway; TXT verification proves google tenant"
+    },
+    {
+      "ticker": "TOP",
+      "name": "Topdanmark",
+      "domain": "topdanmark.dk",
+      "sector": "Insurance",
+      "hq_address": "Borupvang 4, 2750 Ballerup",
+      "hq_municipality": "Ballerup",
+      "hq_municipality_id": "DK-151",
+      "hq_lat": 55.722,
+      "hq_lng": 12.376,
+      "verified": true,
+      "mx": [
+        "topdanmark-dk.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:195.189.232.23 ip4:77.66.23.122 ip4:35.242.247.107 ip4:34.107.8.58 ip4:94.237.95.0  ip4:51.105.188.144 ip4:51.105.186.105 include:spf.protection.outlook.com include:amazonses.com include:sendgrid.net include:sas.mail.e.sparkpost.com include:_spf.salesforce.com include:spf.eu.odmad.quest-on-demand.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (topdanmark-dk.mail.protection.outlook.com) matches Microsoft"
+    },
+    {
+      "ticker": "ZEAL",
+      "name": "Zealand Pharma",
+      "domain": "zealandpharma.com",
+      "sector": "Biotechnology",
+      "hq_address": "Smedeland 36, 2600 Glostrup",
+      "hq_municipality": "Glostrup",
+      "hq_municipality_id": "DK-161",
+      "hq_lat": 55.664,
+      "hq_lng": 12.398,
+      "verified": true,
+      "mx": [
+        "zealandpharma-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (zealandpharma-com.mail.protection.outlook.com) matches Microsoft"
+    },
+    {
+      "ticker": "BAVA",
+      "name": "Bavarian Nordic",
+      "domain": "bavarian-nordic.com",
+      "sector": "Vaccines & Biotechnology",
+      "hq_address": "Hejreskovvej 10, 3490 Kvistgård",
+      "hq_municipality": "Helsingør",
+      "hq_municipality_id": "DK-217",
+      "hq_lat": 56.0357,
+      "hq_lng": 12.5021,
+      "verified": true,
+      "mx": [
+        "bavariannordic-com02b.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:130.185.135.23/32 include:em285164.bavarian-nordic.com include:spf.protection.outlook.com include:spf-westeu.emailsignatures365.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (bavariannordic-com02b.mail.protection.outlook.com) matches Microsoft"
+    },
+    {
+      "ticker": "CARL B",
+      "name": "Carlsberg",
+      "domain": "carlsberg.com",
+      "sector": "Consumer Beverages",
+      "hq_address": "Ny Carlsberg Vej 100, 1799 København V",
+      "hq_municipality": "København",
+      "hq_municipality_id": "DK-101",
+      "hq_lat": 55.6629,
+      "hq_lng": 12.5285,
+      "verified": true,
+      "mx": [
+        "carlsberg-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:91.223.85.144 ip4:91.223.85.145 ip4:91.223.85.151 ip4:72.5.52.234 ip4:72.5.52.236 ip4:70.42.174.90 ip4:46.249.61.91 ip4:40.85.245.181 ip4:70.42.174.181 ip4:70.42.174.182 ip4:70.42.174.188 ip4:205.201.128.0/20 ip4:198.2.128.0/18 ip4:148.105.12.0/24 a:mail.b2b-email.net include:spf.protection.outlook.com include:eu._netblocks.mimecast.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (carlsberg-com.mail.protection.outlook.com) matches Microsoft"
+    }
+  ]
+}

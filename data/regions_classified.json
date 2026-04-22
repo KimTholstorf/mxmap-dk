@@ -1,0 +1,1396 @@
+{
+  "generated": "2026-04-21T09:32:04.507275+00:00",
+  "regions": [
+    {
+      "id": "DK-R-HV",
+      "name": "Hovedstaden",
+      "full_name": "Region Hovedstaden",
+      "country": "DK",
+      "domain": "regionh.dk",
+      "verified": true,
+      "mx": [
+        "dk.mx1.mailanyone.net",
+        "dk.mx2.mx25.net",
+        "dk.mx3.mailanyone.net",
+        "dk.mx4.mx25.net"
+      ],
+      "spf": "v=spf1 ip4:188.244.78.177 ip4:62.242.220.144 ip4:188.244.78.174 ip4:185.158.63.35 ip4:128.0.78.138 ip4:62.242.38.6 ip4:94.231.108.75 ip4:94.231.106.100 include:c.spf.service-now.com.regionh.dk include:spf.mailanyone.net include:spf.protection.outlook.com include:mailmailmail.net include:_spf1.mailgun.org include:_spf2.mailgun.org include:_spf.eu.mailgun.org include:spf.b14cms.dk include:spf.ubivox.com ~all",
+      "mx_countries": [
+        "IE"
+      ],
+      "gateway": "mailanyone",
+      "tenant": "Federated",
+      "provider": "microsoft",
+      "reason": "MX is mailanyone gateway; SPF+DKIM confirm microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "DK-R-MJ",
+      "name": "Midtjylland",
+      "full_name": "Region Midtjylland",
+      "country": "DK",
+      "domain": "rm.dk",
+      "verified": true,
+      "mx": [
+        "mail-a.rm.dk",
+        "mail-b.rm.dk",
+        "mail1.rm.dk",
+        "mail2.rm.dk",
+        "mail3.rm.dk",
+        "mail4.rm.dk",
+        "regionmidt01.hosted.netic.dk"
+      ],
+      "spf": "v=spf1 include:spf1.rm.dk include:_spf-ironport.rm.dk include:spf2.rm.dk include:spf3.rm.dk include:spf4.rm.dk include:_spf-external.rm.dk include:_spf.consignor.com -all",
+      "mx_countries": [
+        "DK"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "independent",
+      "reason": "MX (mail-a.rm.dk, mail-b.rm.dk) is self-hosted",
+      "smtp_banner": "220 mail-a.rm.dk ESMTP",
+      "smtp_software": "mail-a.rm.dk ESMTP"
+    },
+    {
+      "id": "DK-R-NJ",
+      "name": "Nordjylland",
+      "full_name": "Region Nordjylland",
+      "country": "DK",
+      "domain": "rn.dk",
+      "verified": true,
+      "mx": [
+        "rn-dk.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:o._spf.hostedsepo.dk include:spf.protection.outlook.com a:c.spf.service-now.com include:_spf-hosting.eg.dk include:essprod0.templafy-ess.com ip4:62.70.4.47 ip4:80.196.242.132 ip4:80.196.242.133 ip4:80.196.242.200 ip4:81.207.100.149 ip4:95.128.25.130 ip4:104.40.144.230 ip4:176.22.243.23 ip4:176.22.243.91 ip4:185.101.89.170 ip4:199.91.137.8/29 ip4:94.130.228.67 ip4:185.31.77.170 ip4:185.31.77.172 ip4:185.31.76.171 ip4:185.31.78.25 ip4:185.31.79.183 ip4:185.31.79.168 ip4:212.98.103.125 ip4:212.88.77.41 ip4:212.88.77.42 ip4:93.90.117.1/24 iP4:185.163.188.0/24 ip4:86.58.133.128/25 ip4:93.90.115.1/24 ip4:185.163.188.0/23 ip4:147.29.236.1 ip4:147.29.238.1 ip4:94.231.96.0/20 ip4:188.244.78.174 ip4:87.118.67.8 ip4:76.22.243.91 ip4:77.247.70.244 ip4:205.201.128.0/20 ip4:198.2.128.0/18 ip4:148.105.0.0/16 ip4:5.79.88.64/26 ip4:5.79.99.192/26 ip4:89.188.72.237 ip4:149.72.220.174 ip4:87.53.131.96 ip4:157.90.15.36 ip4:188.244.78.161 ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (rn-dk.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "DK-R-SJ",
+      "name": "Sjælland",
+      "full_name": "Region Sjælland",
+      "country": "DK",
+      "domain": "regionsjaelland.dk",
+      "verified": true,
+      "mx": [
+        "d304050.a.ess.de.barracudanetworks.com",
+        "d304050.b.ess.de.barracudanetworks.com"
+      ],
+      "spf": "v=spf1 mx ip4:91.198.168.162/32 ip4:91.198.168.163/32 ip4:91.198.168.8/32 include:_spf_trust1.regionsjaelland.dk include:_spf_trust2.regionsjaelland.dk include:_spf_trust3.regionsjaelland.dk -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": "barracuda",
+      "tenant": "Managed",
+      "provider": "microsoft",
+      "reason": "MX is barracuda gateway; TXT verification proves microsoft tenant",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "DK-R-SY",
+      "name": "Syddanmark",
+      "full_name": "Region Syddanmark",
+      "country": "DK",
+      "domain": "rsyd.dk",
+      "verified": true,
+      "mx": [
+        "mail01.rsyd.dk",
+        "mail02.rsyd.dk"
+      ],
+      "spf": "v=spf1 mx a:mail01.rsyd.dk a:mail02.rsyd.dk a:srvodedmzces01v.rsyd.net a:srvodedmzces02v.rsyd.net ip4:193.163.231.56 ip4:193.163.231.57 include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "DK"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "Exchange on-prem: own autodiscover SRV (autodiscover.rsyd.dk) returns HTTP 401 — Exchange challenge",
+      "smtp_banner": "220 srvodedmzces01v.rsyd.net ESMTP",
+      "smtp_software": "srvodedmzces01v.rsyd.net ESMTP [Exchange on-prem confirmed via autodiscover]"
+    },
+    {
+      "id": "SE-R-BL",
+      "name": "Region Blekinge",
+      "full_name": "Region Blekinge",
+      "country": "SE",
+      "domain": "regionblekinge.se",
+      "verified": true,
+      "mx": [
+        "mx1.regionblekinge.se",
+        "mx2.regionblekinge.se",
+        "smtp.ltblekinge.se"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com mx a ip4:79.171.249.40/32 a:smtp.ltblekinge.se a:mx1.regionblekinge.se a:mx2.regionblekinge.se include:spf1.emarketeer.com a:smtp.u4a.se ~all",
+      "mx_countries": [
+        "SE"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "local-isp",
+      "reason": "MX (mx1.regionblekinge.se, mx2.regionblekinge.se) hosted on Local ISP (BLL (SE))",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "SE-R-DA",
+      "name": "Region Dalarna",
+      "full_name": "Region Dalarna",
+      "country": "SE",
+      "domain": "regiondalarna.se",
+      "verified": true,
+      "mx": [
+        "regiondalarna-se.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:a-spf.regiondalarna.se include:ip4-spf.regiondalarna.se include:spf.protection.outlook.com include:_spf.elasticemail.com include:all._spf.plma.se include:_se_net.axiell.com ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (regiondalarna-se.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "SE-R-GO",
+      "name": "Region Gotland",
+      "full_name": "Region Gotland",
+      "country": "SE",
+      "domain": "gotland.se",
+      "verified": true,
+      "mx": [
+        "mail.gotland.se",
+        "mail2.gotland.se"
+      ],
+      "spf": "v=spf1 mx a ip4:212.247.85.136 ip4:193.11.12.148 ip4:46.59.104.5 ip4:91.123.56.128 ip4:185.84.1.202 ip4:212.85.68.72 include:spf.protection.outlook.com include:mg-lcsse.tietoevry.com include:_spf.ungapped.io -all",
+      "mx_countries": [
+        "SE"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "local-isp",
+      "reason": "MX (mail.gotland.se, mail2.gotland.se) hosted on Local ISP (Telia Sweden)",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "SE-R-GV",
+      "name": "Region Gävleborg",
+      "full_name": "Region Gävleborg",
+      "country": "SE",
+      "domain": "regiongavleborg.se",
+      "verified": true,
+      "mx": [
+        "regiongavleborg-se.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:212.85.68.72 ip4:212.247.54.56 ip4:212.247.54.57 ip6:2001:6f0:7500:1a05:39be:421f:baff:1b87 ip6:2001:6f0:7500:1a05:be43:e1ac:9ed4:d58a ip6:2001:6f0:7500:1a05:570:5a0c:3a65:d3a3 ip6:2001:6f0:7500:1a05:a4e1:875a:e234:3cf9 ip6:2001:6f0:7500:1a05:9e62:15bb:8450:a85c ip6:2001:6f0:7500:1a05:b885:9f4c:c714:b51 ip4:81.236.57.189 ip4:81.236.57.190 ip4:81.236.57.193 ip4:81.236.57.204 ip4:81.236.57.205 ip4:81.236.57.206 ip4:193.235.191.70 ip4:31.216.32.156 ip4:167.71.0.140 ip4:217.114.80.100 ip4:192.71.21.94 ip6:2001:67c:2448:10::52 ip4:193.75.92.154 ip4:91.123.56.128 ip4:217.114.93.252 ip4:81.90.65.27 ip4:194.68.212.152 ip4:46.254.8.14 include:_spf-ftg.bahnhof.se include:mail.webropolsurveys.com include:_spf.ext.platform24.com include:_se_net.axiell.com include:spf.multinet.com include:spf.tipimail.com include:_spf.tem.scaleway.com include:sendgrid.net include:spf.protection.outlook.com -all ",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (regiongavleborg-se.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "SE-R-HA",
+      "name": "Region Halland",
+      "full_name": "Region Halland",
+      "country": "SE",
+      "domain": "regionhalland.se",
+      "verified": true,
+      "mx": [
+        "regionhalland-se.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:193.183.16.32 ip4:193.183.16.33 ip4:193.183.15.25 ip4:193.183.15.26 ip4:193.183.16.30 ip4:193.183.16.31 include:spf.protection.outlook.com include:mail.sitevision-cloud.net include:_spf.ext.platform24.com include:email-messaging.com include:spf.bngaged.io include:_spf.ungapped.io include:_spf.imcode.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (regionhalland-se.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "SE-R-JH",
+      "name": "Region Jämtland Härjedalen",
+      "full_name": "Region Jämtland Härjedalen",
+      "country": "SE",
+      "domain": "regionjh.se",
+      "verified": true,
+      "mx": [
+        "regionjh-se.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com include:servers.mcsv.net include:_spf.google.com include:spf.defgo.com include:mail.webropolsurveys.com include:_spf.online.superoffice.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (regionjh-se.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "SE-R-JO",
+      "name": "Region Jönköping",
+      "full_name": "Region Jönköping",
+      "country": "SE",
+      "domain": "rjl.se",
+      "verified": true,
+      "mx": [
+        "mail3.rjl.se"
+      ],
+      "spf": "v=spf1 ip4:194.103.118.240 include:em3366.rjl.se include:spf.mandrillapp.com a:smtp.tripnet.se include:all._spf.plma.se include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "SE"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX (mail3.rjl.se) is local gateway; DKIM reveals microsoft backend",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "SE-R-KA",
+      "name": "Region Kalmar",
+      "full_name": "Region Kalmar",
+      "country": "SE",
+      "domain": "regionkalmar.se",
+      "verified": true,
+      "mx": [
+        "mx1.regionkalmar.se",
+        "mx2.regionkalmar.se"
+      ],
+      "spf": "v=spf1 a:mx1.regionkalmar.se a:mx2.regionkalmar.se a:edge1.ltkalmar.se a:edge2.ltkalmar.se -all",
+      "mx_countries": [
+        "SE"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "Exchange on-prem: own autodiscover SRV (autodiscover.ltkalmar.se) returns HTTP 401 — Exchange challenge",
+      "smtp_banner": "220 mx1.regionkalmar.se ESMTP",
+      "smtp_software": "mx1.regionkalmar.se ESMTP [Exchange on-prem confirmed via autodiscover]"
+    },
+    {
+      "id": "SE-R-KR",
+      "name": "Region Kronoberg",
+      "full_name": "Region Kronoberg",
+      "country": "SE",
+      "domain": "kronoberg.se",
+      "verified": true,
+      "mx": [
+        "kronoberg-se.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:194.68.88.191 ip4:194.68.88.192 ip4:194.68.88.193 ip4:194.68.88.194 include:spf.protection.outlook.com include:sp247.net -all exp=spf-fail.kronoberg.se",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (kronoberg-se.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "SE-R-NO",
+      "name": "Region Norrbotten",
+      "full_name": "Region Norrbotten",
+      "country": "SE",
+      "domain": "norrbotten.se",
+      "verified": true,
+      "mx": [
+        "norrbotten-se.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 a:c2s.c2management.se include:spf.protection.outlook.com include:_spf.ext.platform24.com include:mailgun.org include:sendgrid.net -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (norrbotten-se.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "SE-R-SK",
+      "name": "Region Skåne",
+      "full_name": "Region Skåne",
+      "country": "SE",
+      "domain": "skane.se",
+      "verified": true,
+      "mx": [
+        "skane-se.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf1.skane.se include:spf2.skane.se include:spf3.skane.se include:spf4.skane.se include:spf.protection.outlook.com include:spf.advania.cloud include:outboundspf.cloud.advania.se include:_se_net.axiell.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (skane-se.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "SE-R-ST",
+      "name": "Region Stockholm",
+      "full_name": "Region Stockholm",
+      "country": "SE",
+      "domain": "regionstockholm.se",
+      "verified": true,
+      "mx": [
+        "regionstockholm-se.mx1.mailanyone.net",
+        "regionstockholm-se.mx2.mx25.net",
+        "regionstockholm-se.mx3.mailanyone.net",
+        "regionstockholm-se.mx4.mx25.net"
+      ],
+      "spf": "v=spf1 ip4:192.44.242.0/23 include:_spf.staysecuregroup.com include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": "mailanyone",
+      "tenant": "Federated",
+      "provider": "microsoft",
+      "reason": "MX is mailanyone gateway; SPF+autodiscover confirm microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "SE-R-SO",
+      "name": "Region Sörmland",
+      "full_name": "Region Sörmland",
+      "country": "SE",
+      "domain": "regionsormland.se",
+      "verified": true,
+      "mx": [
+        "regionsormland-se.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 mx ip4:193.181.154.0/24 include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (regionsormland-se.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "SE-R-UP",
+      "name": "Region Uppsala",
+      "full_name": "Region Uppsala",
+      "country": "SE",
+      "domain": "regionuppsala.se",
+      "verified": true,
+      "mx": [
+        "regionuppsala-se.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 mx ip4:195.252.0.0/19 ip4:192.121.175.0/24 ip4:85.112.161.5/32 ip6:2a01:58::/32 include:spf.protection.outlook.com include:all._spf.plma.se -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (regionuppsala-se.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "SE-R-VA",
+      "name": "Region Värmland",
+      "full_name": "Region Värmland",
+      "country": "SE",
+      "domain": "regionvarmland.se",
+      "verified": true,
+      "mx": [
+        "regionvarmland-se.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com include:_spf.grade.se include:_spf.imcode.com include:spf1.regionvarmland.se include:spf2.regionvarmland.se -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (regionvarmland-se.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "SE-R-VB",
+      "name": "Region Västerbotten",
+      "full_name": "Region Västerbotten",
+      "country": "SE",
+      "domain": "regionvasterbotten.se",
+      "verified": true,
+      "mx": [
+        "regionvasterbotten-se.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:193.10.32.0/24 include:spf.protection.outlook.com include:spfa.cpmails.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (regionvasterbotten-se.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "SE-R-VN",
+      "name": "Region Västernorrland",
+      "full_name": "Region Västernorrland",
+      "country": "SE",
+      "domain": "rvn.se",
+      "verified": true,
+      "mx": [
+        "rvn-se.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:193.235.70.187 ip4:193.235.70.183 ip4:91.123.56.128 include:spf.protection.outlook.com include:spf.mailanyone.net -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (rvn-se.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "SE-R-VM",
+      "name": "Region Västmanland",
+      "full_name": "Region Västmanland",
+      "country": "SE",
+      "domain": "regionvastmanland.se",
+      "verified": true,
+      "mx": [
+        "regionvastmanland-se.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com a:exhybrid.regionvastmanland.se -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (regionvastmanland-se.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "SE-R-VG",
+      "name": "Region Västra Götaland",
+      "full_name": "Region Västra Götaland",
+      "country": "SE",
+      "domain": "vgregion.se",
+      "verified": true,
+      "mx": [
+        "vgregion-se.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 mx ip4:194.14.235.221 ip4:194.14.235.222 ip4:194.14.235.223 ip4:194.14.235.224 ip4:138.233.179.165 ip4:138.233.179.166 include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (vgregion-se.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "SE-R-OR",
+      "name": "Region Örebro",
+      "full_name": "Region Örebro",
+      "country": "SE",
+      "domain": "regionorebrolan.se",
+      "verified": true,
+      "mx": [
+        "regionorebrolan-se.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com include:spf.regionorebrolan.se include:spf2.regionorebrolan.se include:spf.multinet.com include:spf.mailanyone.net include:spf.wm.net include:sendgrid.net include:_spf.grade.se include:_spf.proweb.no ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (regionorebrolan-se.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "SE-R-OG",
+      "name": "Region Östergötland",
+      "full_name": "Region Östergötland",
+      "country": "SE",
+      "domain": "regionostergotland.se",
+      "verified": true,
+      "mx": [
+        "mailgw1.regionostergotland.se",
+        "mailgw2.regionostergotland.se"
+      ],
+      "spf": "v=spf1 mx ip4:158.126.240.146 -all",
+      "mx_countries": [
+        "SE"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "local-isp",
+      "reason": "MX (mailgw1.regionostergotland.se, mailgw2.regionostergotland.se) hosted on Local ISP (Telia Sweden)",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "NO-R-AG",
+      "name": "Agder",
+      "full_name": "Agder fylkeskommune",
+      "country": "NO",
+      "domain": "agderfk.no",
+      "verified": true,
+      "mx": [
+        "agderfk-no.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:159.171.252.22 include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (agderfk-no.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "NO-R-AK",
+      "name": "Akershus",
+      "full_name": "Akershus fylkeskommune",
+      "country": "NO",
+      "domain": "afk.no",
+      "verified": true,
+      "mx": [
+        "afk-no.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com include:_se_net.axiell.com include:_spf.sndr.no include:spf.topdesk.net include:sendgrid.net include:_spf.isp.as2116.net include:spf.mailjet.com ip4:20.251.41.144/28 ip4:51.13.86.102 ip4:149.72.200.207 ip4:82.134.18.219 ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (afk-no.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "NO-R-BU",
+      "name": "Buskerud",
+      "full_name": "Buskerud fylkeskommune",
+      "country": "NO",
+      "domain": "bfk.no",
+      "verified": true,
+      "mx": [
+        "bfk-no.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com include:_se_net.axiell.com include:_spf.sndr.no include:spf.topdesk.net include:sendgrid.net include:_spf.isp.as2116.net include:spf.mailjet.com ip4:20.251.41.144/28 ip4:51.13.86.102 ip4:149.72.200.207 ip4:82.134.18.219 ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (bfk-no.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "NO-R-FI",
+      "name": "Finnmark",
+      "full_name": "Finnmark fylkeskommune",
+      "country": "NO",
+      "domain": "ffk.no",
+      "verified": true,
+      "mx": [
+        "ffk-no.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com include:spf.mailjet.com include:utpost.acos.no -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (ffk-no.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "NO-R-IN",
+      "name": "Innlandet",
+      "full_name": "Innlandet fylkeskommune",
+      "country": "NO",
+      "domain": "innlandetfylke.no",
+      "verified": true,
+      "mx": [
+        "innlandetfylke-no.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com include:sendgrid.net ip4:149.72.200.207 include:msg-out._spf.onevoice.no include:utpost.acos.no include:spf.interaxo.com include:_spf.easycruit.com include:spf.mailjet.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (innlandetfylke-no.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "NO-R-MR",
+      "name": "Møre og Romsdal",
+      "full_name": "Møre og Romsdal fylkeskommune",
+      "country": "NO",
+      "domain": "mrfylke.no",
+      "verified": true,
+      "mx": [
+        "se.mx1.mailanyone.net",
+        "se.mx2.mx25.net",
+        "se.mx3.mailanyone.net",
+        "se.mx4.mx25.net"
+      ],
+      "spf": "v=spf1 include:_spf.mrfylke.no include:spf.mailanyone.net include:spf.protection.outlook.com include:msg-out._spf.onevoice.no -all",
+      "mx_countries": [
+        "IE"
+      ],
+      "gateway": "mailanyone",
+      "tenant": "Managed",
+      "provider": "microsoft",
+      "reason": "MX is mailanyone gateway; SPF+DKIM confirm microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "NO-R-ND",
+      "name": "Nordland",
+      "full_name": "Nordland fylkeskommune",
+      "country": "NO",
+      "domain": "nfk.no",
+      "verified": true,
+      "mx": [
+        "nfk-no.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:l1ik929woc.powerspf.com ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (nfk-no.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "NO-R-OS",
+      "name": "Oslo",
+      "full_name": "Oslo kommune",
+      "country": "NO",
+      "domain": "oslo.kommune.no",
+      "verified": true,
+      "mx": [
+        "oslokommune.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (oslokommune.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "NO-R-RO",
+      "name": "Rogaland",
+      "full_name": "Rogaland fylkeskommune",
+      "country": "NO",
+      "domain": "rogfk.no",
+      "verified": true,
+      "mx": [
+        "rogfk-no.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:152.93.253.216 include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (rogfk-no.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "NO-R-TE",
+      "name": "Telemark",
+      "full_name": "Telemark fylkeskommune",
+      "country": "NO",
+      "domain": "telemarkfk.no",
+      "verified": true,
+      "mx": [
+        ""
+      ],
+      "spf": "v=spf1 -all",
+      "mx_countries": [],
+      "gateway": null,
+      "tenant": null,
+      "provider": "independent",
+      "reason": "MX () is self-hosted",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "NO-R-TR",
+      "name": "Troms",
+      "full_name": "Troms fylkeskommune",
+      "country": "NO",
+      "domain": "tromsfylke.no",
+      "verified": true,
+      "mx": [
+        "tromsfylke-no.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com a:jojoen.tromsfylke.no include:spf.flowmailer.net include:spf.mailjet.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (tromsfylke-no.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "NO-R-TL",
+      "name": "Trøndelag",
+      "full_name": "Trøndelag fylkeskommune",
+      "country": "NO",
+      "domain": "trondelagfylke.no",
+      "verified": true,
+      "mx": [
+        "trondelagfylke-no.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 a:mailrelay.trondelagfylke.no include:spf.protection.outlook.com include:utpost.acos.no -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (trondelagfylke-no.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "NO-R-VF",
+      "name": "Vestfold",
+      "full_name": "Vestfold fylkeskommune",
+      "country": "NO",
+      "domain": "vestfoldfk.no",
+      "verified": true,
+      "mx": [
+        ""
+      ],
+      "spf": "v=spf1 -all",
+      "mx_countries": [],
+      "gateway": null,
+      "tenant": null,
+      "provider": "independent",
+      "reason": "MX () is self-hosted",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "NO-R-VL",
+      "name": "Vestland",
+      "full_name": "Vestland fylkeskommune",
+      "country": "NO",
+      "domain": "vestlandfylke.no",
+      "verified": true,
+      "mx": [
+        "vestlandfylke-no.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (vestlandfylke-no.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "NO-R-OF",
+      "name": "Østfold",
+      "full_name": "Østfold fylkeskommune",
+      "country": "NO",
+      "domain": "ofk.no",
+      "verified": true,
+      "mx": [
+        "ofk-no.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com include:_se_net.axiell.com include:_spf.sndr.no include:spf.topdesk.net include:sendgrid.net include:_spf.isp.as2116.net include:spf.mailjet.com ip4:20.251.41.144/28 ip4:51.13.86.102 ip4:149.72.200.207 ip4:82.134.18.219 ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (ofk-no.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "FI-R-AH",
+      "name": "Ahvenanmaa",
+      "full_name": "Ålands landskapsregering",
+      "country": "FI",
+      "domain": "regeringen.ax",
+      "verified": true,
+      "mx": [
+        "regeringen-ax.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:servers.mcsv.net include:spf.protection.outlook.com include:_spf.ada.ax ip4:194.17.7.184ip4:194.110.187.0/24 ip4:213.204.62.1/23 ip4:213.157.70.73 ip4:194.110.190.0/25 ip4:194.110.189.14 ip4:194.110.189.4 ip4:212.17.176.137 -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (regeringen-ax.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "FI-R-EK",
+      "name": "Etelä-Karjala",
+      "full_name": "Etelä-Karjalan liitto",
+      "country": "FI",
+      "domain": "ekarjala.fi",
+      "verified": true,
+      "mx": [
+        "posti.saita.fi"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com ip4:194.251.35.220 include:spf.epressi.com include:mail.webropolsurveys.com -all",
+      "mx_countries": [
+        "FI"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "local-isp",
+      "reason": "MX (posti.saita.fi) hosted on Local ISP (Cinia/SecMail)",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "FI-R-EP",
+      "name": "Etelä-Pohjanmaa",
+      "full_name": "Etelä-Pohjanmaan liitto",
+      "country": "FI",
+      "domain": "etela-pohjanmaa.fi",
+      "verified": true,
+      "mx": [
+        "etelapohjanmaa-fi01c.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com include:spf.mandrillapp.com include:mediaporrasSPF.smtp.com a:smtp.tele.fi ip4:193.210.47.242 ip4:217.78.212.80/28 include:spf.creamailer.com ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (etelapohjanmaa-fi01c.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "FI-R-ES",
+      "name": "Etelä-Savo",
+      "full_name": "Etelä-Savon maakuntaliitto",
+      "country": "FI",
+      "domain": "esavo.fi",
+      "verified": true,
+      "mx": [
+        "esavo-fi.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com ip4:212.68.20.187 include:spf.mailjet.com include:mail.webropolsurveys.com -all include:mailgun.org ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (esavo-fi.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "FI-R-KA",
+      "name": "Kainuu",
+      "full_name": "Kainuun liitto",
+      "country": "FI",
+      "domain": "kainuu.fi",
+      "verified": true,
+      "mx": [
+        "kainuu-fi.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 a:turvaposti.kainuu.fi ip4:213.214.170.95 ip4:213.143.189.209 ip4:213.143.189.236 ip4:213.143.163.68 ip4:213.143.189.230 include:spf.protection.outlook.com include:spf.creamailer.com include:_se_net.axiell.com include:spf.csamhealth.fi include:_spf.signicat.cloud a:smtp-out.mpynet.fi ip4:81.22.169.238/31 ip4:193.64.173.33 -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (kainuu-fi.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "FI-R-KH",
+      "name": "Kanta-Häme",
+      "full_name": "Hämeen liitto",
+      "country": "FI",
+      "domain": "hameenliitto.fi",
+      "verified": true,
+      "mx": [
+        "securemail1.hostingservice.fi",
+        "securemail2.hostingservice.fi"
+      ],
+      "spf": "v=spf1 +a +mx +ip4:94.237.117.184 +ip4:135.181.236.180 +ip4:31.217.192.35 +ip4:31.217.193.28 +ip4:31.217.192.128 +ip4:31.217.192.144 ~all",
+      "mx_countries": [
+        "FI"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "independent",
+      "reason": "MX (securemail1.hostingservice.fi, securemail2.hostingservice.fi) is self-hosted",
+      "smtp_banner": "220 filter2.hostingservice.fi ESMTP Exim 20260414.1019 Tue, 21 Apr 2026 12:26:23 +0300",
+      "smtp_software": "filter2.hostingservice.fi ESMTP Exim 20260414.1019 Tue, 21 Apr 2026 12:26:23 +0300"
+    },
+    {
+      "id": "FI-R-KP",
+      "name": "Keski-Pohjanmaa",
+      "full_name": "Keski-Pohjanmaan liitto",
+      "country": "FI",
+      "domain": "keski-pohjanmaa.fi",
+      "verified": true,
+      "mx": [
+        "keskipohjanmaa-fi01c.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 a mx include:spf.protection.outlook.com include:spf.creamailer.com include:spf.canoramacloud.fi ip4:80.69.175.62 -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (keskipohjanmaa-fi01c.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "FI-R-KS",
+      "name": "Keski-Suomi",
+      "full_name": "Keski-Suomen liitto",
+      "country": "FI",
+      "domain": "keskisuomi.fi",
+      "verified": true,
+      "mx": [
+        "keskisuomi-fi.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 mx include:spf.protection.outlook.com include:spf.tnnet.fi include:spf.creamailer.com ip4:193.64.221.4 ip4:194.28.2.176 ip4:217.78.212.80/28 -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (keskisuomi-fi.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "FI-R-KY",
+      "name": "Kymenlaakso",
+      "full_name": "Kymenlaakson liitto",
+      "country": "FI",
+      "domain": "kymenlaakso.fi",
+      "verified": true,
+      "mx": [
+        "kymenlaakso-fi.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:185.55.85.15 ip4:217.78.212.167 ip4:62.165.137.134 ip4:62.165.137.135 ip4:193.229.0.32/27 ip4:217.78.212.80/28 include:spf.protection.outlook.com include:spf.mailjet.com include:_spf.createsend.com include:spf.lianamailer.com ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (kymenlaakso-fi.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "FI-R-LA",
+      "name": "Lappi",
+      "full_name": "Lapin liitto",
+      "country": "FI",
+      "domain": "lappi.fi",
+      "verified": true,
+      "mx": [
+        "mail.lappi.fi"
+      ],
+      "spf": "v=spf1 a mx -all",
+      "mx_countries": [
+        "FI"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "independent",
+      "reason": "MX (mail.lappi.fi) is self-hosted",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "FI-R-PI",
+      "name": "Pirkanmaa",
+      "full_name": "Pirkanmaan liitto",
+      "country": "FI",
+      "domain": "pirkanmaa.fi",
+      "verified": true,
+      "mx": [
+        "pirkanmaa-fi.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.mailjet.com include:spf.protection.outlook.com ip4:217.78.212.80/28 ip4:193.111.93.55 ip4:37.44.54.224 ip4:167.89.23.189 include:eu.mailgun.org -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (pirkanmaa-fi.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "FI-R-PH",
+      "name": "Pohjanmaa",
+      "full_name": "Pohjanmaan liitto",
+      "country": "FI",
+      "domain": "obotnia.fi",
+      "verified": true,
+      "mx": [
+        "obotnia-fi.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com include:_spf.emaileri.fi include:spf.creamarketing.com ip4:217.78.212.80/28 ip4:62.142.5.0/24 -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (obotnia-fi.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "FI-R-PK",
+      "name": "Pohjois-Karjala",
+      "full_name": "Pohjois-Karjalan maakuntaliitto",
+      "country": "FI",
+      "domain": "pohjois-karjala.fi",
+      "verified": true,
+      "mx": [
+        "pohjoiskarjala-fi01i.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com include:spf-a.meita.fi include:spf.creamailer.com include:mail.webropolsurveys.com ip4:62.236.116.67 ip4:95.175.113.181 -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (pohjoiskarjala-fi01i.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "FI-R-PP",
+      "name": "Pohjois-Pohjanmaa",
+      "full_name": "Pohjois-Pohjanmaan liitto",
+      "country": "FI",
+      "domain": "pohjois-pohjanmaa.fi",
+      "verified": true,
+      "mx": [
+        "pohjoispohjanmaa-fi01i.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.lianamailer.com include:spf.protection.outlook.com include:sendgrid.net a ip4:213.255.168.35/32 ip4:213.255.168.67/32 ip4:80.64.13.0/25 ip4:62.237.81.32/27 ip4:80.64.7.192/26 ip6:2001:6e8:0:1::10:0/110 -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (pohjoispohjanmaa-fi01i.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "FI-R-PS",
+      "name": "Pohjois-Savo",
+      "full_name": "Pohjois-Savon liitto",
+      "country": "FI",
+      "domain": "pohjois-savo.fi",
+      "verified": true,
+      "mx": [
+        "pohjoissavo-fi01i.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:217.78.212.80/28 ip4:37.44.54.205 include:spf.protection.outlook.com include:spf.creamailer.com ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (pohjoissavo-fi01i.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "FI-R-PA",
+      "name": "Päijät-Häme",
+      "full_name": "Päijät-Hämeen liitto",
+      "country": "FI",
+      "domain": "paijat-hame.fi",
+      "verified": true,
+      "mx": [
+        "paijathame-fi01e.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:213.157.70.73 ip4:213.157.70.75 ip4:213.157.70.76 ip4:213.157.70.77 ip4:213.157.70.78 ip4:213.157.70.79 ip4:213.157.70.80 ip4:213.157.70.81 include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (paijathame-fi01e.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "FI-R-SA",
+      "name": "Satakunta",
+      "full_name": "Satakuntaliitto",
+      "country": "FI",
+      "domain": "satakuntaliitto.fi",
+      "verified": true,
+      "mx": [
+        "eforward.louhi.net"
+      ],
+      "spf": "v=spf1 a mx include:sendgrid.net ~all",
+      "mx_countries": [],
+      "gateway": null,
+      "tenant": null,
+      "provider": "independent",
+      "reason": "MX (eforward.louhi.net) is self-hosted",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "FI-R-UU",
+      "name": "Uusimaa",
+      "full_name": "Uudenmaan liitto",
+      "country": "FI",
+      "domain": "uudenmaanliitto.fi",
+      "verified": true,
+      "mx": [
+        "uudenmaanliitto-fi.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 a mx ip4:194.28.2.138 include:spf.protection.outlook.com include:spf.creamailer.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (uudenmaanliitto-fi.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "FI-R-VS",
+      "name": "Varsinais-Suomi",
+      "full_name": "Varsinais-Suomen liitto",
+      "country": "FI",
+      "domain": "varsinais-suomi.fi",
+      "verified": true,
+      "mx": [
+        "varsinaissuomi-fi02c.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 mx a ip4:62.73.52.112/29 ip4:192.194.70.162 ip4:213.214.170.95 include:_spf.lyyti.fi include:spf.protection.outlook.com include:sendgrid.net include:spf.lianamailer.com ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (varsinaissuomi-fi02c.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "GL-R-AV",
+      "name": "Avannaata",
+      "full_name": "Avannaata Kommunia",
+      "country": "GL",
+      "domain": "avannaata.gl",
+      "verified": true,
+      "mx": [
+        "avannaata-gl.mx1-dk.mailanyone.net",
+        "avannaata-gl.mx2-dk.mailanyone.net",
+        "avannaata-gl.mx3-dk.mailanyone.net"
+      ],
+      "spf": "v=spf1 ip4:46.16.19.235 ip4:88.83.31.128/29 ip4:185.18.190.178 ip4:185.38.180.0/22 ip4:89.104.206.0/23 ip4:192.162.216.0/22 include:spf.mailanyone.net include:webhouse.net include:mail.zendesk.com -all",
+      "mx_countries": [
+        "IE"
+      ],
+      "gateway": "mailanyone",
+      "tenant": "Managed",
+      "provider": "microsoft",
+      "reason": "MX is mailanyone gateway; TXT verification proves microsoft tenant",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "GL-R-KU",
+      "name": "Kujalleq",
+      "full_name": "Kommune Kujalleq",
+      "country": "GL",
+      "domain": "kujalleq.gl",
+      "verified": true,
+      "mx": [
+        "dk.mx1.mailanyone.net",
+        "dk.mx2.mx25.net",
+        "dk.mx3.mailanyone.net",
+        "dk.mx4.mx25.net"
+      ],
+      "spf": "v=spf1 ip4:194.177.255.184/29 ip4:194.177.251.72/29 ip4:194.177.251.64/29 ip4:194.177.251.35 ip4:185.18.190.178 ip4:185.38.180.0/22 ip4:89.104.206.0/23 ip4:192.162.216.0/22 include:spf.mailanyone.net include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "IE"
+      ],
+      "gateway": "mailanyone",
+      "tenant": "Managed",
+      "provider": "microsoft",
+      "reason": "MX is mailanyone gateway; MS365 tenant detected (Managed)",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "GL-R-QT",
+      "name": "Qeqertalik",
+      "full_name": "Qeqertalik Kommunia",
+      "country": "GL",
+      "domain": "qeqertalik.gl",
+      "verified": true,
+      "mx": [
+        "frontmta2.hostedsepo.dk"
+      ],
+      "spf": "v=spf1 ip4:194.177.251.248/29 ip4:194.177.251.56/29 ip4:194.177.251.48/29 ip4:89.104.206.0/23 ip4:194.177.254.24/29 ip4:194.177.252.216/29 ip4:185.18.190.178 ip4:168.245.61.203 ip4:46.16.21.208/28 include:spf.protection.outlook.com include:spf.mailanyone.net -all",
+      "mx_countries": [
+        "DK"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX (frontmta2.hostedsepo.dk) is local gateway; DKIM reveals microsoft backend",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "GL-R-QQ",
+      "name": "Qeqqata",
+      "full_name": "Qeqqata Kommunia",
+      "country": "GL",
+      "domain": "qeqqata.gl",
+      "verified": true,
+      "mx": [
+        "qeqqata-gl.mx1-dk.mailanyone.net",
+        "qeqqata-gl.mx2-dk.mailanyone.net",
+        "qeqqata-gl.mx3-dk.mailanyone.net"
+      ],
+      "spf": "v=spf1 ip4:194.177.251.42 ip4:194.177.251.43  ip4:194.177.251.46  ip4:194.177.251.90 ip4:194.177.251.91 ip4:185.18.190.178 include:spf.mailanyone.net include:spf.protection.outlook.com  -all",
+      "mx_countries": [
+        "IE"
+      ],
+      "gateway": "mailanyone",
+      "tenant": "Managed",
+      "provider": "microsoft",
+      "reason": "MX is mailanyone gateway; TXT verification proves microsoft tenant",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "id": "GL-R-SE",
+      "name": "Sermersooq",
+      "full_name": "Kommuneqarfik Sermersooq",
+      "country": "GL",
+      "domain": "sermersooq.gl",
+      "verified": true,
+      "mx": [
+        "sermersooq-gl.mx1-dk.mailanyone.net",
+        "sermersooq-gl.mx2-dk.mailanyone.net",
+        "sermersooq-gl.mx3-dk.mailanyone.net"
+      ],
+      "spf": "v=spf1 include:_spf77980.spf-protect.com -all",
+      "mx_countries": [
+        "IE"
+      ],
+      "gateway": "mailanyone",
+      "tenant": "Managed",
+      "provider": "microsoft",
+      "reason": "MX is mailanyone gateway; TXT verification proves microsoft tenant",
+      "smtp_banner": "",
+      "smtp_software": ""
+    }
+  ]
+}

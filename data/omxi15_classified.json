@@ -1,0 +1,364 @@
+{
+  "generated": "2026-04-21T10:02:24.833684+00:00",
+  "companies": [
+    {
+      "ticker": "ARION",
+      "name": "Arion Bank",
+      "domain": "arionbanki.is",
+      "sector": "Banking",
+      "hq_address": "Reykjavík",
+      "hq_municipality": "Reykjavík",
+      "hq_lat": 64.1355,
+      "hq_lng": -21.8954,
+      "verified": true,
+      "mx": [
+        "mxa-009aaa02.gslb.pphosted.com",
+        "mxb-009aaa02.gslb.pphosted.com"
+      ],
+      "spf": "v=spf1 ip4:88.151.48.0/22 include:spf-009aaa01.pphosted.com include:spf-009aaa02.pphosted.com include:spf.protection.outlook.com include:customers.clickdimensions.com include:stspg-customer.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": "proofpoint",
+      "tenant": "Managed",
+      "provider": "microsoft",
+      "reason": "MX is proofpoint gateway; SPF+DKIM confirm microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "ICEAIR",
+      "name": "Icelandair Group",
+      "domain": "icelandairgroup.is",
+      "sector": "Aviation",
+      "hq_address": "Reykjavík",
+      "hq_municipality": "Reykjavík",
+      "hq_lat": 64.1355,
+      "hq_lng": -21.8954,
+      "verified": true,
+      "mx": [
+        "icelandairgroup-is.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 mx ip4:52.169.0.179 ip4:104.40.229.156 ip4:213.52.186.141/30 ip4:188.95.96.121 ip4:80.248.29.201 ip4:62.209.165.210 ip4:66.48.80.132 ip4:82.150.225.79 ip4:207.67.38.45 ip4:212.30.230.100 ip4:217.28.176.106/31 include:successfactors.eu include:spf.protection.outlook.com ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (icelandairgroup-is.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "MAREL",
+      "name": "Marel",
+      "domain": "marel.com",
+      "sector": "Food Processing Equipment",
+      "hq_address": "Garðabær",
+      "hq_municipality": "Garðabær",
+      "hq_lat": 64.0842,
+      "hq_lng": -21.9368,
+      "verified": true,
+      "mx": [
+        "marel-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:89.250.178.88 ip4:89.250.178.89 ip4:172.176.100.159 ip4:104.45.169.94 include:spf.protection.outlook.com include:spf.marel.com include:_spf.mypup.app -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (marel-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "HAGA",
+      "name": "Hagar",
+      "domain": "hagar.is",
+      "sector": "Retail",
+      "hq_address": "Kópavogur",
+      "hq_municipality": "Kópavogur",
+      "hq_lat": 64.1136,
+      "hq_lng": -21.909,
+      "verified": true,
+      "mx": [
+        "hagar-is.mail.eo.outlook.com"
+      ],
+      "spf": "v=spf1 mx include:_spf.vist.is include:spf.protection.outlook.com include:_spf.hagar.is -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (hagar-is.mail.eo.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "SIMINN",
+      "name": "Siminn",
+      "domain": "siminn.is",
+      "sector": "Telecommunications",
+      "hq_address": "Reykjavík",
+      "hq_municipality": "Reykjavík",
+      "hq_lat": 64.1355,
+      "hq_lng": -21.8954,
+      "verified": true,
+      "mx": [
+        "siminn-is.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:amazonses.com include:_spf.vist.is include:_spf.salesforce.com include:mktomail.com include:spf.protection.outlook.com include:spf.vizito.be ip4:72.5.52.0/24 ip4:70.42.174.0/24 include:spf.exclaimer.net include:servers.mcsv.net include:smtp.umsja.is -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (siminn-is.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "ISLA",
+      "name": "Íslandsbanki",
+      "domain": "islandsbanki.is",
+      "sector": "Banking",
+      "hq_address": "Reykjavík",
+      "hq_municipality": "Reykjavík",
+      "hq_lat": 64.1355,
+      "hq_lng": -21.8954,
+      "verified": true,
+      "mx": [
+        "islandsbanki-is.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:_spf.createsend.com include:spf.protection.outlook.com ip4:62.70.39.128/27 ip4:79.171.96.15 ip4:79.171.96.16 ip4:79.171.96.17 ip4:79.171.96.39 ip4:46.28.152.0/22 ip4:185.107.60.0/22 ip4:217.73.9.0/24 ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (islandsbanki-is.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "KVIKA",
+      "name": "Kvika banki",
+      "domain": "kvika.is",
+      "sector": "Banking",
+      "hq_address": "Reykjavík",
+      "hq_municipality": "Reykjavík",
+      "hq_lat": 64.1355,
+      "hq_lng": -21.8954,
+      "verified": true,
+      "mx": [
+        "kvika-is.mail.protection.outlook.com",
+        "mxa-00a47401.gslb.pphosted.com",
+        "mxb-00a47401.gslb.pphosted.com"
+      ],
+      "spf": "v=spf1 include:_spf.zenter.is include:spf.hysing.is include:spf.mandrillapp.com include:customers.clickdimensions.com include:spf.protection.outlook.com include:spf-00a47401.pphosted.com include:mail.zendesk.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": "proofpoint",
+      "tenant": "Managed",
+      "provider": "microsoft",
+      "reason": "MX record (kvika-is.mail.protection.outlook.com, mxa-00a47401.gslb.pphosted.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "VIS",
+      "name": "Össur",
+      "domain": "ossur.com",
+      "sector": "Medical Devices",
+      "hq_address": "Reykjavík",
+      "hq_municipality": "Reykjavík",
+      "hq_lat": 64.1355,
+      "hq_lng": -21.8954,
+      "verified": true,
+      "mx": [
+        "ossur-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:_s88594838.fdmarc.net ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (ossur-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "EIM",
+      "name": "Eimskip",
+      "domain": "eimskip.com",
+      "sector": "Shipping",
+      "hq_address": "Reykjavík",
+      "hq_municipality": "Reykjavík",
+      "hq_lat": 64.1355,
+      "hq_lng": -21.8954,
+      "verified": true,
+      "mx": [
+        "eimskip-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:emaileuc.freshservice.com include:spf.protection.outlook.com include:_spf.eimskip.is -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (eimskip-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "REGINN",
+      "name": "Reginn",
+      "domain": "reginn.is",
+      "sector": "Real Estate",
+      "hq_address": "Reykjavík",
+      "hq_municipality": "Reykjavík",
+      "hq_lat": 64.1355,
+      "hq_lng": -21.8954,
+      "verified": true,
+      "mx": [
+        "reginn-is.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 a ip4:80.248.30.97 include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (reginn-is.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "REITIR",
+      "name": "Reitir fasteignafélag",
+      "domain": "reitir.is",
+      "sector": "Real Estate",
+      "hq_address": "Reykjavík",
+      "hq_municipality": "Reykjavík",
+      "hq_lat": 64.1355,
+      "hq_lng": -21.8954,
+      "verified": true,
+      "mx": [
+        "reitir-is.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:80.248.30.97 ip4:217.28.176.106/31 include:spf.protection.outlook.com include:servers.mcsv.net include:_spf.email.stefna.is -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (reitir-is.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "SKAGI",
+      "name": "Skaginn 3X",
+      "domain": "skaginn3x.com",
+      "sector": "Fish Processing Equipment",
+      "hq_address": "Sauðárkrókur",
+      "hq_municipality": "Skagafjörður",
+      "hq_lat": 65.7453,
+      "hq_lng": -19.6394,
+      "verified": true,
+      "mx": [],
+      "spf": null,
+      "mx_countries": [],
+      "gateway": null,
+      "tenant": null,
+      "provider": "unknown",
+      "reason": "No MX records found",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "N1",
+      "name": "N1",
+      "domain": "n1.is",
+      "sector": "Fuel Retail",
+      "hq_address": "Reykjavík",
+      "hq_municipality": "Reykjavík",
+      "hq_lat": 64.1355,
+      "hq_lng": -21.8954,
+      "verified": true,
+      "mx": [
+        "n1-is.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:_spf.n1.is include:%{l}._spf.%{o} -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (n1-is.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "ORIGO",
+      "name": "Origo",
+      "domain": "origo.is",
+      "sector": "IT Services",
+      "hq_address": "Reykjavík",
+      "hq_municipality": "Reykjavík",
+      "hq_lat": 64.1355,
+      "hq_lng": -21.8954,
+      "verified": true,
+      "mx": [
+        "origo-is.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:80.248.30.97 include:spf.protection.outlook.com include:_spf.zenter.is include:_atlassian.nyherji.is include:servers.mcsv.net include:spf.exclaimer.net include:eu.mailgun.org include:stspg-customer.com include:6348411.spf01.hubspotemail.net -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (origo-is.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "BRIM",
+      "name": "Brim",
+      "domain": "brim.is",
+      "sector": "Fishing",
+      "hq_address": "Reykjavík",
+      "hq_municipality": "Reykjavík",
+      "hq_lat": 64.1355,
+      "hq_lng": -21.8954,
+      "verified": true,
+      "mx": [
+        "brim-is.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:212.30.230.100 ip4:212.30.230.101 ip4:212.30.252.22 ip4:212.30.252.23 ip4:217.9.143.94 ip4:212.30.252.17 ip4:80.248.30.97 include:spf.protection.outlook.com include:spf.UAE.exclaimer.net include:spf.hysing.is include:cvent-planner.com include:smtp.umsja.is  ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (brim-is.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    }
+  ]
+}

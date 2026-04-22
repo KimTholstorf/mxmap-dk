@@ -3,6 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://unpkg.com" crossorigin>
 <link rel="preconnect" href="https://a.basemaps.cartocdn.com" crossorigin>
 <link rel="preconnect" href="https://b.basemaps.cartocdn.com" crossorigin>
@@ -16,184 +19,479 @@
 <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script defer src="https://unpkg.com/topojson-client@3/dist/topojson-client.min.js"></script>
 <style>
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; display: flex; flex-direction: column; height: 100dvh; overflow: hidden; }
+  /* ============================================================
+     DESIGN TOKENS
+     ============================================================ */
+  :root {
+    --font: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-mono: ui-monospace, 'Cascadia Code', monospace;
 
+    --navy:       #1a1a2e;
+    --navy-mid:   #252540;
+
+    --bg:         #faf9f7;
+    --bg-panel:   #ffffff;
+    --bg-raised:  #f4f1ed;
+    --border:     #e6ddd3;
+    --border-light: #ede8e1;
+
+    --text:       #1a1a2e;
+    --text-2:     #514d49;
+    --text-3:     #7a746d;
+    --text-muted: #a09890;
+
+    --accent:     #1a1a2e;
+
+    --radius-sm:  6px;
+    --radius:     10px;
+    --radius-lg:  14px;
+    --radius-pill: 999px;
+
+    --shadow-xs: 0 1px 3px rgba(0,0,0,0.08);
+    --shadow-sm: 0 2px 8px rgba(0,0,0,0.10), 0 1px 2px rgba(0,0,0,0.06);
+    --shadow-md: 0 4px 16px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.06);
+    --shadow-lg: 0 8px 28px rgba(0,0,0,0.14), 0 2px 6px rgba(0,0,0,0.06);
+
+    --transition: 0.18s ease;
+  }
+
+  /* ============================================================
+     BASE
+     ============================================================ */
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: var(--font);
+    display: flex; flex-direction: column;
+    height: 100dvh; overflow: hidden;
+    background: var(--bg);
+    color: var(--text);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ============================================================
+     HEADER
+     ============================================================ */
   #header {
-    background: #1a1a2e; color: #fff; height: 44px; padding: 0 16px;
-    display: flex; align-items: center; justify-content: space-between; flex-shrink: 0;
+    background: var(--navy);
+    color: #fff;
+    height: 50px;
+    padding: 0 20px;
+    display: flex; align-items: center; justify-content: space-between;
+    flex-shrink: 0;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.06), var(--shadow-sm);
+    position: relative; z-index: 10;
   }
-  .header-left { display: flex; align-items: center; gap: 10px; min-width: 0; }
-  .brand { font-size: 17px; font-weight: 700; white-space: nowrap; margin: 0; }
-  .separator { color: #555; font-size: 15px; }
-  .tagline { color: #a0a0b0; font-size: 13px; white-space: nowrap; }
-  .header-right { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
-  .updated { font-size: 11px; color: #888; }
+  .header-left { display: flex; align-items: center; gap: 12px; min-width: 0; }
+  .brand {
+    font-size: 16px; font-weight: 700; white-space: nowrap; margin: 0;
+    letter-spacing: -0.02em;
+  }
+  .separator { color: rgba(255,255,255,0.2); font-size: 18px; font-weight: 300; }
+  .tagline { color: rgba(255,255,255,0.5); font-size: 13px; font-weight: 500; white-space: nowrap; letter-spacing: 0.01em; }
+  .header-right { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+  .updated { font-size: 11px; color: rgba(255,255,255,0.35); margin-right: 4px; }
   .toggle-info {
-    background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3);
-    color: #ccc; font-size: 13px; font-weight: 500; padding: 5px 14px; border-radius: 4px; cursor: pointer;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.18);
+    color: rgba(255,255,255,0.8);
+    font-family: var(--font);
+    font-size: 12px; font-weight: 600;
+    padding: 5px 14px;
+    border-radius: var(--radius-pill);
+    cursor: pointer;
     white-space: nowrap;
+    transition: background var(--transition), color var(--transition), border-color var(--transition);
+    letter-spacing: 0.01em;
   }
-  .toggle-info:hover { background: rgba(255,255,255,0.25); color: #fff; }
+  .toggle-info:hover {
+    background: rgba(255,255,255,0.18);
+    border-color: rgba(255,255,255,0.32);
+    color: #fff;
+  }
   .gateway-icon { background: none !important; border: none !important; }
   .dominance-label { background: none !important; border: none !important; text-align: center; }
 
-  #info-bar, #stats-bar {
-    background: #f8f9fb; border-bottom: 1px solid #e2e4e8; overflow: hidden; flex-shrink: 0;
-    max-height: 2000px; padding: 16px 20px;
+  /* ============================================================
+     APP BODY (map + side panel row)
+     ============================================================ */
+  #app-body {
+    flex: 1; display: flex; overflow: hidden; min-height: 0;
   }
-  #stats-bar:not(.collapsed) { max-height: 80vh; overflow-y: auto; }
-  #info-bar.collapsed, #stats-bar.collapsed { max-height: 0; padding-top: 0; padding-bottom: 0; }
-  .info-grid {
-    display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 10px;
+
+  /* ============================================================
+     SIDE PANEL
+     ============================================================ */
+  #side-panel {
+    width: 380px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-panel);
+    border-left: 1px solid var(--border);
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: width 0.3s ease;
+    box-shadow: -4px 0 16px rgba(0,0,0,0.06);
+    -webkit-overflow-scrolling: touch;
   }
-  .info-card h3 { font-size: 13px; font-weight: 600; margin-bottom: 2px; color: #1a1a2e; }
-  .info-card p { font-size: 12px; color: #444; line-height: 1.4; margin: 0; }
-  .info-card a { color: #2563eb; text-decoration: none; }
-  .info-card a:hover { text-decoration: underline; }
-  .info-title { display: none; font-size: 16px; font-weight: 600; color: #1a1a2e; margin-bottom: 12px; }
+  #side-panel.collapsed { width: 0; border-left: none; }
+  #side-panel::-webkit-scrollbar { width: 5px; }
+  #side-panel::-webkit-scrollbar-thumb { background: var(--border); border-radius: 99px; }
+
+  .panel-brand-block {
+    background: var(--navy);
+    color: #fff;
+    padding: 20px 22px 18px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+    flex-shrink: 0;
+  }
+  .panel-brand-name {
+    font-size: 20px; font-weight: 700; letter-spacing: -0.03em;
+    margin-bottom: 4px;
+  }
+  .panel-brand-tag {
+    font-size: 12px; color: rgba(255,255,255,0.5); font-weight: 500;
+    letter-spacing: 0.01em;
+  }
+  .panel-close-btn {
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.18);
+    color: rgba(255,255,255,0.7);
+    font-size: 14px; cursor: pointer;
+    border-radius: var(--radius-pill);
+    width: 30px; height: 30px;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+    transition: all var(--transition);
+    font-family: var(--font);
+  }
+  .panel-close-btn:hover { background: rgba(255,255,255,0.2); color: #fff; }
+
+  .panel-section {
+    padding: 20px 22px;
+    border-bottom: 1px solid var(--border-light);
+    flex-shrink: 0;
+  }
+  .panel-section:last-child { border-bottom: none; flex-shrink: 1; }
+  .panel-section-kicker {
+    font-size: 10px; font-weight: 700; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--text-muted);
+    margin-bottom: 14px;
+  }
+
+  .panel-info-stack { display: flex; flex-direction: column; gap: 10px; }
+  .panel-info-card {
+    background: var(--bg-raised);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-lg);
+    padding: 13px 15px;
+  }
+  .panel-info-card h3 {
+    font-size: 10px; font-weight: 700; margin-bottom: 6px;
+    color: var(--text-3);
+    text-transform: uppercase; letter-spacing: 0.08em;
+  }
+  .panel-info-card p { font-size: 12px; color: var(--text-2); line-height: 1.55; margin: 0; }
+  .panel-info-card a { color: var(--navy); text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 2px; }
+  .panel-info-card a:hover { text-decoration-color: var(--navy); }
+
+  /* Keep legacy selectors working (e.g. info-title on mobile) */
+  .info-title { display: none; font-size: 16px; font-weight: 700; color: var(--navy); margin-bottom: 14px; letter-spacing: -0.02em; }
+
   .stats-row { display: flex; align-items: center; gap: 8px; margin: 5px 0; font-size: 13px; }
-  .stats-label { width: 90px; text-align: right; color: #555; flex-shrink: 0; }
-  .stats-bar-bg { flex: 1; background: #e8e8e8; border-radius: 3px; height: 16px; overflow: hidden; }
-  .stats-bar { height: 100%; border-radius: 3px; min-width: 2px; }
-  .stats-value { width: 70px; font-size: 12px; color: #666; flex-shrink: 0; }
+  .stats-label { width: 90px; text-align: right; color: var(--text-3); flex-shrink: 0; font-size: 12px; font-weight: 500; }
+  .stats-bar-bg { flex: 1; background: var(--bg-raised); border-radius: 99px; height: 14px; overflow: hidden; }
+  .stats-bar { height: 100%; border-radius: 99px; min-width: 2px; }
+  .stats-value { width: 70px; font-size: 12px; color: var(--text-3); flex-shrink: 0; }
   .stats-columns { display: flex; gap: 32px; flex-wrap: wrap; }
   .stats-column { flex: 1; min-width: 280px; }
   .stats-countries { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px 24px; }
-  .stats-mode-btn { padding: 3px 10px; font-size: 11px; border: 1px solid #ccc; background: #f5f5f5; cursor: pointer; border-radius: 3px; }
-  .stats-mode-btn.active { background: #444; color: #fff; border-color: #444; }
-  .stats-mode-btn:hover { background: #ddd; }
-  .stats-mode-btn.active:hover { background: #555; }
-  .popup-load-btn { padding: 4px 12px; font-size: 11px; cursor: pointer; background: #4a90d9; color: #fff; border: none; border-radius: 3px; margin-top: 4px; }
-  .popup-load-btn:hover { background: #3a7bc0; }
-  .popup-load-btn:disabled { background: #aaa; cursor: wait; }
-  .popup-muni-list { max-height: 350px; overflow-y: auto; font-size: 11px; }
-  .popup-muni-row { padding: 3px 0; border-bottom: 1px solid #f0f0f0; }
-  .popup-muni-row:last-child { border-bottom: none; }
-  .popup-muni-detail { display: none; padding: 4px 4px 4px 16px; font-size: 10px; background: #fafafa; border-radius: 3px; margin-top: 2px; }
-  .popup-muni-row.expanded .popup-muni-detail { display: block; }
-  .popup-muni-summary:hover { background: #f0f0f0; border-radius: 3px; }
-  .popup-search { padding: 4px 8px; font-size: 11px; border: 1px solid #ddd; border-radius: 3px; box-sizing: border-box; }
-  .popup-filter-chip { padding: 1px 6px; font-size: 9px; border-radius: 10px; background: #fff; cursor: pointer; white-space: nowrap; }
-  .popup-filter-chip.active { color: #fff !important; }
-  .popup-filter-chip:hover { opacity: 0.8; }
+
+  .stats-mode-btn {
+    padding: 4px 12px; font-size: 11px; font-weight: 600; font-family: var(--font);
+    border: 1.5px solid var(--border); background: var(--bg-raised);
+    color: var(--text-3);
+    cursor: pointer; border-radius: var(--radius-pill);
+    transition: all var(--transition);
+  }
+  .stats-mode-btn.active { background: var(--navy); color: #fff; border-color: var(--navy); }
+  .stats-mode-btn:hover:not(.active) { border-color: var(--text-3); color: var(--text); }
+
   .stats-countries .stats-label { width: 75px; font-size: 12px; }
   .stats-countries .stats-value { width: 60px; }
   .stats-countries .stats-row { margin: 3px 0; }
+
   @media (max-width: 1100px) { .stats-countries { grid-template-columns: repeat(3, 1fr); } }
-  @media (max-width: 900px) { .stats-countries { grid-template-columns: repeat(2, 1fr); } }
-  @media (max-width: 600px) { .stats-countries { grid-template-columns: 1fr; } }
+  @media (max-width: 900px)  { .stats-countries { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 600px)  { .stats-countries { grid-template-columns: 1fr; } }
 
-  #map { flex: 1; position: relative; width: 100%; will-change: transform; }
+  /* ============================================================
+     MAP
+     ============================================================ */
+  #map { flex: 1; min-width: 0; position: relative; will-change: transform; }
 
+  /* ============================================================
+     LEGEND
+     ============================================================ */
   .legend {
-    background: white; padding: 10px 14px; border-radius: 6px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.2); font-size: 13px; line-height: 1.8;
+    background: rgba(255,255,255,0.94);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 12px 16px;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-light);
+    box-shadow: var(--shadow-md);
+    font-size: 13px;
+    line-height: 1.85;
+  }
+  .legend strong {
+    font-size: 11px; font-weight: 700; letter-spacing: 0.07em;
+    text-transform: uppercase; color: var(--text-3);
   }
   .legend i {
-    width: 14px; height: 14px; display: inline-block; margin-right: 6px;
-    border-radius: 3px; vertical-align: middle;
+    width: 12px; height: 12px; display: inline-block; margin-right: 7px;
+    border-radius: 4px; vertical-align: middle;
   }
-  .legend-group { margin-top: 8px; }
+  .legend-group { margin-top: 10px; }
   .legend-group:first-child { margin-top: 4px; }
   .legend-group-label {
-    font-size: 11px; color: #999; text-transform: uppercase; letter-spacing: 0.3px;
-    font-weight: 600; display: block; margin-bottom: 2px;
+    font-size: 10px; color: var(--text-muted); text-transform: uppercase;
+    letter-spacing: 0.1em; font-weight: 700; display: block; margin-bottom: 2px;
   }
   .legend-toggle {
     display: none; background: none; border: none; font-size: 13px;
-    font-weight: 600; cursor: pointer; padding: 0; color: #333;
+    font-weight: 700; cursor: pointer; padding: 0; color: var(--text);
+    font-family: var(--font);
   }
+  .color-toggle {
+    display: block; margin-top: 10px; padding: 4px 10px; font-size: 11px;
+    font-weight: 600; font-family: var(--font);
+    color: var(--text-3); background: var(--bg-raised);
+    border: 1.5px solid var(--border);
+    border-radius: var(--radius-pill);
+    cursor: pointer; width: 100%;
+    transition: all var(--transition);
+  }
+  .color-toggle:hover { border-color: var(--text-3); color: var(--text); }
 
+  /* ============================================================
+     MAP CONTROLS
+     ============================================================ */
   .map-controls {
-    position: absolute; top: 10px; right: 10px; z-index: 1000;
-    display: flex; flex-direction: column; align-items: flex-end; gap: 6px;
+    position: absolute; top: 12px; right: 12px; z-index: 1000;
+    display: flex; flex-direction: column; align-items: flex-end; gap: 7px;
   }
   .country-toggle {
-    background: rgba(255,255,255,0.92); border: 1.5px solid #ccc; border-radius: 4px;
-    padding: 4px 12px; cursor: pointer; font-size: 11px; font-weight: 600;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1); white-space: nowrap;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+    border: 1.5px solid var(--border); border-radius: var(--radius-pill);
+    padding: 5px 14px; cursor: pointer; font-size: 11px; font-weight: 700;
+    font-family: var(--font); letter-spacing: 0.03em;
+    box-shadow: var(--shadow-xs); white-space: nowrap;
+    transition: all var(--transition);
   }
-  .country-toggle:hover { border-color: #999; }
+  .country-toggle:hover { border-color: var(--text-3); box-shadow: var(--shadow-sm); }
+
   .country-filters {
-    display: none; flex-wrap: wrap; justify-content: flex-end; gap: 2px;
+    display: none; flex-wrap: wrap; justify-content: flex-end; gap: 4px;
     max-width: 520px;
-    background: rgba(255,255,255,0.95); border-radius: 6px;
-    padding: 6px 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    background: rgba(255,255,255,0.95);
+    backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+    border-radius: var(--radius);
+    border: 1px solid var(--border-light);
+    padding: 8px 10px;
+    box-shadow: var(--shadow-md);
   }
   .country-filters.expanded { display: flex; }
-  .region-group {
-    display: flex; align-items: center; gap: 2px;
-  }
+  .region-group { display: flex; align-items: center; gap: 3px; }
   .region-label {
-    font-size: 9px; color: #888; font-weight: 700; text-transform: uppercase;
-    letter-spacing: 0.3px; cursor: pointer; user-select: none;
-    background: none; border: none; padding: 1px 3px;
+    font-size: 9px; color: var(--text-muted); font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.08em;
+    cursor: pointer; user-select: none;
+    background: none; border: none; padding: 1px 4px;
+    font-family: var(--font);
     white-space: nowrap;
   }
-  .region-label:hover { color: #333; }
+  .region-label:hover { color: var(--text); }
   .country-btn {
-    background: white; border: 1.5px solid #ccc; border-radius: 3px;
-    padding: 1px 5px; cursor: pointer; font-size: 10px; font-weight: 600;
-    transition: all 0.15s; line-height: 1.4;
+    background: var(--bg-panel);
+    border: 1.5px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 2px 7px; cursor: pointer; font-size: 10px; font-weight: 700;
+    font-family: var(--font);
+    transition: all var(--transition); line-height: 1.5;
   }
-  .country-btn.active { border-color: #333; background: #333; color: white; }
-  .country-btn:hover { border-color: #999; }
+  .country-btn.active { border-color: var(--navy); background: var(--navy); color: white; }
+  .country-btn:hover:not(.active) { border-color: var(--text-3); }
 
   .level-toggle {
-    display: flex; background: white; border-radius: 5px;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.1); overflow: hidden;
+    display: flex;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+    border-radius: var(--radius-pill);
+    border: 1.5px solid var(--border);
+    box-shadow: var(--shadow-xs);
+    overflow: hidden;
   }
   .level-btn {
-    background: white; border: none; border-right: 1px solid #e0e0e0;
-    padding: 6px 14px; cursor: pointer; font-size: 12px; font-weight: 600;
-    color: #666; transition: all 0.15s;
+    background: transparent; border: none;
+    border-right: 1px solid var(--border);
+    padding: 5px 16px; cursor: pointer; font-size: 12px; font-weight: 700;
+    font-family: var(--font); letter-spacing: 0.01em;
+    color: var(--text-3); transition: all var(--transition);
   }
   .level-btn:last-child { border-right: none; }
-  .level-btn.active { background: #333; color: white; }
-  .level-btn:hover:not(.active) { background: #f0f0f0; }
+  .level-btn.active { background: var(--navy); color: white; }
+  .level-btn:hover:not(.active) { background: var(--bg-raised); color: var(--text); }
 
-  .info-popup { font-size: 13px; line-height: 1.6; }
-  .info-popup strong { font-size: 14px; }
+  /* ============================================================
+     POPUPS
+     ============================================================ */
+  .info-popup { font-size: 13px; line-height: 1.6; font-family: var(--font); }
+  .info-popup strong { font-size: 14px; font-weight: 700; }
   .info-popup .provider-badge {
-    display: inline-block; padding: 1px 8px; margin-left: 5px; border-radius: 3px;
-    color: #fff; font-size: 12px; font-weight: 600;
+    display: inline-block; padding: 2px 9px; margin-left: 6px;
+    border-radius: var(--radius-pill);
+    color: #fff; font-size: 11px; font-weight: 700; letter-spacing: 0.02em;
   }
-  .popup-section { margin-top: 10px; }
+  .popup-section { margin-top: 12px; }
   .popup-section-title {
-    font-size: 11px; color: #999; text-transform: uppercase;
-    letter-spacing: 0.5px; margin-bottom: 2px; font-weight: 600;
+    font-size: 10px; color: var(--text-muted); text-transform: uppercase;
+    letter-spacing: 0.09em; margin-bottom: 4px; font-weight: 700;
   }
   .popup-section-hint { font-weight: 400; opacity: 0.7; }
   .dns-table { border-collapse: collapse; }
-  .dns-table td {
-    padding: 1px 8px 1px 0; vertical-align: baseline; font-size: 12px; white-space: nowrap;
-  }
-  .dns-table .pri { color: #999; font-size: 11px; }
+  .dns-table td { padding: 2px 8px 2px 0; vertical-align: baseline; font-size: 12px; white-space: nowrap; }
+  .dns-table .pri { color: var(--text-muted); font-size: 11px; }
   .dns-table .host {
-    font-family: ui-monospace, monospace; font-size: 11px; color: #555;
+    font-family: var(--font-mono); font-size: 11px; color: var(--text-3);
     max-width: 260px; overflow: hidden; text-overflow: ellipsis;
   }
 
-  .provider-bar {
-    display: flex; height: 16px; border-radius: 3px; overflow: hidden; margin: 6px 0;
-  }
+  .provider-bar { display: flex; height: 14px; border-radius: 99px; overflow: hidden; margin: 6px 0; }
   .provider-bar-seg { min-width: 2px; }
 
+  /* ============================================================
+     POPUP LISTS (district/region drill-down)
+     ============================================================ */
+  .popup-load-btn {
+    padding: 5px 14px; font-size: 11px; font-weight: 700; font-family: var(--font);
+    cursor: pointer; background: var(--navy); color: #fff;
+    border: none; border-radius: var(--radius-pill); margin-top: 6px;
+    transition: opacity var(--transition);
+  }
+  .popup-load-btn:hover { opacity: 0.85; }
+  .popup-load-btn:disabled { background: var(--text-muted); cursor: wait; }
+  .popup-muni-list { max-height: 350px; overflow-y: auto; font-size: 11px; }
+  .popup-muni-row { padding: 4px 0; border-bottom: 1px solid var(--border-light); }
+  .popup-muni-row:last-child { border-bottom: none; }
+  .popup-muni-detail { display: none; padding: 4px 4px 4px 16px; font-size: 10px; background: var(--bg-raised); border-radius: var(--radius-sm); margin-top: 3px; }
+  .popup-muni-row.expanded .popup-muni-detail { display: block; }
+  .popup-muni-summary:hover { background: var(--bg-raised); border-radius: var(--radius-sm); }
+  .popup-search { padding: 5px 10px; font-size: 11px; font-family: var(--font); border: 1.5px solid var(--border); border-radius: var(--radius-sm); box-sizing: border-box; }
+  .popup-filter-chip {
+    padding: 2px 8px; font-size: 9px; font-weight: 700; font-family: var(--font);
+    border-radius: var(--radius-pill); background: var(--bg-panel);
+    border: 1px solid var(--border); cursor: pointer; white-space: nowrap;
+    transition: all var(--transition);
+  }
+  .popup-filter-chip.active { color: #fff !important; border-color: transparent; }
+  .popup-filter-chip:hover { opacity: 0.8; }
+
+  /* ============================================================
+     COMPANY INDEX PANEL
+     ============================================================ */
+  .omxc20-btn {
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+    border: 1.5px solid var(--border); border-radius: var(--radius-pill);
+    padding: 5px 14px; cursor: pointer; font-size: 11px; font-weight: 700;
+    font-family: var(--font); letter-spacing: 0.03em;
+    box-shadow: var(--shadow-xs); white-space: nowrap;
+    transition: all var(--transition);
+  }
+  .omxc20-btn:hover { border-color: var(--text-3); box-shadow: var(--shadow-sm); }
+  .omxc20-btn.active { border-color: var(--navy); background: var(--navy); color: #fff; }
+
+  .idx-panel {
+    position: absolute; bottom: 32px; left: 12px; z-index: 1000;
+    background: rgba(255,255,255,0.96);
+    backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    width: 275px;
+    display: flex; flex-direction: column;
+    max-height: min(580px, calc(100vh - 160px));
+    overscroll-behavior: contain;
+  }
+  .idx-panel-title {
+    font-size: 10px; font-weight: 700; color: var(--text-muted);
+    text-transform: uppercase; letter-spacing: 0.09em;
+    padding: 11px 14px 8px;
+    border-bottom: 1px solid var(--border-light);
+    flex-shrink: 0;
+  }
+  .idx-panel-list {
+    overflow-y: scroll; padding: 6px 10px 12px;
+    overscroll-behavior: contain; touch-action: pan-y;
+  }
+  .omxc20-row {
+    display: flex; align-items: center; gap: 6px;
+    padding: 5px 6px; border-radius: var(--radius-sm);
+    cursor: pointer; margin: 1px 0; min-width: 0;
+    transition: background var(--transition);
+  }
+  .omxc20-row:hover { background: var(--bg-raised); }
+
+  .omxc20-panel {
+    position: absolute; bottom: 32px; left: 12px; z-index: 1000;
+    background: rgba(255,255,255,0.96);
+    backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-lg);
+    padding: 12px 14px;
+    box-shadow: var(--shadow-lg);
+    max-height: 420px; overflow-y: auto; width: 235px;
+  }
+  .omxc20-panel-title {
+    font-size: 10px; font-weight: 700; color: var(--text-muted);
+    text-transform: uppercase; letter-spacing: 0.09em;
+    margin-bottom: 8px; padding-bottom: 6px;
+    border-bottom: 1px solid var(--border-light);
+  }
+
+  /* ============================================================
+     RESPONSIVE
+     ============================================================ */
+  @media (max-width: 768px) {
+    /* On mobile the panel slides over the map full-width */
+    #side-panel {
+      position: absolute; top: 0; right: 0; bottom: 0;
+      width: 100%; max-width: 380px;
+      z-index: 2000;
+      box-shadow: var(--shadow-lg);
+    }
+    #side-panel.collapsed { width: 0; }
+  }
   @media (max-width: 600px) {
     .separator, .tagline { display: none; }
     .info-title { display: block; }
-    .info-grid { grid-template-columns: 1fr; }
     .legend-toggle { display: block; }
     .legend.legend-collapsed .legend-content { display: none; }
     .legend.legend-collapsed { padding: 8px 12px; }
-    .map-controls { top: 6px; right: 6px; }
+    .map-controls { top: 8px; right: 8px; }
     .country-filters { max-width: 280px; }
-    .country-btn { padding: 1px 4px; font-size: 9px; }
+    .country-btn { padding: 1px 5px; font-size: 9px; }
     .region-label { font-size: 8px; }
-    .country-toggle { font-size: 10px; padding: 3px 8px; }
-    .level-btn { padding: 4px 10px; font-size: 11px; }
+    .country-toggle, .omxc20-btn { font-size: 10px; padding: 4px 10px; }
+    .level-btn { padding: 4px 11px; font-size: 11px; }
+    .idx-panel { max-width: calc(100vw - 20px); width: 220px; bottom: 24px; }
+    .omxc20-panel { max-width: calc(100vw - 20px); width: 200px; bottom: 24px; }
   }
 </style>
 </head>
@@ -202,34 +500,14 @@
   <div class="header-left">
     <h1 class="brand">MX Map</h1>
     <span class="separator">|</span>
-    <span class="tagline">Email Sovereignty Map</span>
+    <span class="tagline">Nordic Email Sovereignty Map</span>
   </div>
   <div class="header-right">
     <span class="updated" id="generated"></span>
-    <button class="toggle-info" id="toggle-stats" aria-expanded="false" aria-controls="stats-bar">Statistics &#9662;</button>
-    <button class="toggle-info" id="toggle-info" aria-expanded="false" aria-controls="info-bar">About &#9662;</button>
+    <button class="toggle-info" id="panel-toggle-btn" aria-expanded="true" aria-controls="side-panel">&#9776; Overview</button>
   </div>
 </header>
-<section id="info-bar" class="collapsed" aria-label="About this project">
-  <h2 class="info-title">Email Sovereignty Map</h2>
-  <div class="info-grid">
-    <div class="info-card">
-      <h3>What is this?</h3>
-      <p>A map showing which provider handles official email for municipalities worldwide — based on public DNS records. US-based providers (Microsoft, Google, AWS) are subject to the <strong>US CLOUD Act</strong>, which allows US authorities to request stored data regardless of where it is hosted. This raises data sovereignty concerns across jurisdictions.</p>
-    </div>
-    <div class="info-card">
-      <h3>How does it work?</h3>
-      <p>For each municipality domain, DNS records (MX, SPF, CNAME, DKIM, autodiscover, TXT) are queried and classified in priority order: <strong>MX hostname</strong> or <strong>CNAME</strong> matching a known provider; <strong>gateway look-through</strong> via SPF, autodiscover, DKIM, and TXT verification tokens when MX points to a security gateway (FortiMail, Barracuda, Hornetsecurity, etc.) — SPF is only trusted when exactly one backend provider is found, and TXT tokens (e.g., <code>MS=</code>, <code>google-site-verification=</code>) are only used as a last resort behind gateways; <strong>DKIM check</strong> for unrecognized MX hosts to detect hidden backends (e.g., self-hosted MX with Microsoft 365 DKIM); <strong>local provider</strong> by matching MX server ASN to known local ISPs, government mail infrastructure, and municipal IT cooperatives; or <strong>self-hosted</strong> if no known provider or ISP is detected. DKIM is the most reliable signal — a CNAME proving a provider signs mail for the domain is definitive proof of mail hosting.</p>
-    </div>
-    <div class="info-card">
-      <h3>Open source &amp; open data</h3>
-      <p>Inspired by <a href="https://mxmap.ch" target="_blank">mxmap.ch</a>. Code and data on <a href="https://github.com/livenson/mxmap" target="_blank">GitHub</a>.</p>
-    </div>
-  </div>
-</section>
-<section id="stats-bar" class="collapsed" aria-label="Statistics">
-  <div id="stats-content"></div>
-</section>
+<div id="app-body">
 <main id="map" role="application" aria-label="Interactive map of municipal email providers">
   <div id="map-loading" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;z-index:1000;background:rgba(255,255,255,0.85);font-size:15px;color:#555;">Loading map data&hellip;</div>
   <div class="map-controls">
@@ -244,247 +522,79 @@
         <button class="country-btn active" data-country="IS">IS</button>
         <button class="country-btn active" data-country="GL">GL</button>
       </div>
-      <div class="region-group">
-        <button class="region-label" data-region="baltic">Baltic</button>
-        <button class="country-btn active" data-country="EE">EE</button>
-        <button class="country-btn active" data-country="LV">LV</button>
-        <button class="country-btn active" data-country="LT">LT</button>
-      </div>
-      <div class="region-group">
-        <button class="region-label" data-region="western">Western</button>
-        <button class="country-btn active" data-country="NL">NL</button>
-        <button class="country-btn active" data-country="BE">BE</button>
-        <button class="country-btn active" data-country="LU">LU</button>
-        <button class="country-btn active" data-country="FR">FR</button>
-        <button class="country-btn active" data-country="IE">IE</button>
-        <button class="country-btn active" data-country="GB">UK</button>
-      </div>
-      <div class="region-group">
-        <button class="region-label" data-region="central">Central</button>
-        <button class="country-btn active" data-country="DE">DE</button>
-        <button class="country-btn active" data-country="AT">AT</button>
-        <button class="country-btn active" data-country="CZ">CZ</button>
-        <button class="country-btn active" data-country="SK">SK</button>
-        <button class="country-btn active" data-country="PL">PL</button>
-        <button class="country-btn active" data-country="SI">SI</button>
-        <button class="country-btn active" data-country="HR">HR</button>
-        <button class="country-btn active" data-country="HU">HU</button>
-        <button class="country-btn active" data-country="RO">RO</button>
-        <button class="country-btn active" data-country="BG">BG</button>
-        <button class="country-btn active" data-country="BA">BA</button>
-        <button class="country-btn active" data-country="ME">ME</button>
-        <button class="country-btn active" data-country="RS">RS</button>
-        <button class="country-btn active" data-country="AL">AL</button>
-        <button class="country-btn active" data-country="XK">XK</button>
-        <button class="country-btn active" data-country="MK">MK</button>
-        <button class="country-btn active" data-country="UA">UA</button>
-        <button class="country-btn active" data-country="MD">MD</button>
-        <button class="country-btn active" data-country="BY">BY</button>
-      </div>
-      <div class="region-group">
-        <button class="region-label" data-region="southern">Southern</button>
-        <button class="country-btn active" data-country="ES">ES</button>
-        <button class="country-btn active" data-country="PT">PT</button>
-        <button class="country-btn active" data-country="IT">IT</button>
-        <button class="country-btn active" data-country="GR">GR</button>
-        <button class="country-btn active" data-country="CY">CY</button>
-        <button class="country-btn active" data-country="MT">MT</button>
-        <button class="country-btn active" data-country="SM">SM</button>
-        <button class="country-btn active" data-country="AD">AD</button>
-        <button class="country-btn active" data-country="TR">TR</button>
-        <button class="country-btn active" data-country="GE">GE</button>
-        <button class="country-btn active" data-country="AM">AM</button>
-        <button class="country-btn active" data-country="AZ">AZ</button>
-        <button class="country-btn active" data-country="LI">LI</button>
-        <button class="country-btn active" data-country="MC">MC</button>
-
-        <button class="region-label" data-region="mideast">Middle East</button>
-        <button class="country-btn active" data-country="AE">AE</button>
-        <button class="country-btn active" data-country="SA">SA</button>
-        <button class="country-btn active" data-country="OM">OM</button>
-        <button class="country-btn active" data-country="QA">QA</button>
-        <button class="country-btn active" data-country="BH">BH</button>
-        <button class="country-btn active" data-country="KW">KW</button>
-        <button class="country-btn active" data-country="IQ">IQ</button>
-        <button class="country-btn active" data-country="JO">JO</button>
-        <button class="country-btn active" data-country="LB">LB</button>
-        <button class="country-btn active" data-country="IR">IR</button>
-        <button class="country-btn active" data-country="IL">IL</button>
-        <button class="country-btn active" data-country="YE">YE</button>
-        <button class="country-btn active" data-country="SY">SY</button>
-        <button class="country-btn active" data-country="PS">PS</button>
-
-        <button class="region-label" data-region="casia">C Asia</button>
-        <button class="country-btn active" data-country="KZ">KZ</button>
-        <button class="country-btn active" data-country="UZ">UZ</button>
-        <button class="country-btn active" data-country="KG">KG</button>
-        <button class="country-btn active" data-country="RU">RU</button>
-        <button class="country-btn active" data-country="TJ">TJ</button>
-        <button class="country-btn active" data-country="TM">TM</button>
-
-        <button class="region-label" data-region="sasia">S Asia</button>
-        <button class="country-btn active" data-country="IN">IN</button>
-        <button class="country-btn active" data-country="PK">PK</button>
-        <button class="country-btn active" data-country="BD">BD</button>
-        <button class="country-btn active" data-country="LK">LK</button>
-        <button class="country-btn active" data-country="NP">NP</button>
-        <button class="country-btn active" data-country="AF">AF</button>
-        <button class="country-btn active" data-country="MV">MV</button>
-        <button class="country-btn active" data-country="BT">BT</button>
-
-        <button class="region-label" data-region="seasia">SE Asia</button>
-        <button class="country-btn active" data-country="ID">ID</button>
-        <button class="country-btn active" data-country="MY">MY</button>
-        <button class="country-btn active" data-country="TH">TH</button>
-        <button class="country-btn active" data-country="PH">PH</button>
-        <button class="country-btn active" data-country="KH">KH</button>
-        <button class="country-btn active" data-country="VN">VN</button>
-        <button class="country-btn active" data-country="MM">MM</button>
-        <button class="country-btn active" data-country="LA">LA</button>
-        <button class="country-btn active" data-country="BN">BN</button>
-        <button class="country-btn active" data-country="TL">TL</button>
-        <button class="country-btn active" data-country="SG">SG</button>
-        <button class="country-btn active" data-country="PG">PG</button>
-
-        <button class="region-label" data-region="easia">E Asia</button>
-        <button class="country-btn active" data-country="JP">JP</button>
-        <button class="country-btn active" data-country="KR">KR</button>
-        <button class="country-btn active" data-country="CN">CN</button>
-        <button class="country-btn active" data-country="TW">TW</button>
-        <button class="country-btn active" data-country="MN">MN</button>
-        <button class="country-btn active" data-country="KP">KP</button>
-
-        <button class="region-label" data-region="oceania">Oceania</button>
-        <button class="country-btn active" data-country="AU">AU</button>
-        <button class="country-btn active" data-country="NZ">NZ</button>
-        <button class="country-btn active" data-country="FJ">FJ</button>
-        <button class="country-btn active" data-country="WS">WS</button>
-        <button class="country-btn active" data-country="VU">VU</button>
-        <button class="country-btn active" data-country="TO">TO</button>
-        <button class="country-btn active" data-country="NR">NR</button>
-        <button class="country-btn active" data-country="PW">PW</button>
-        <button class="country-btn active" data-country="SB">SB</button>
-        <button class="country-btn active" data-country="MH">MH</button>
-        <button class="country-btn active" data-country="FM">FM</button>
-        <button class="country-btn active" data-country="KI">KI</button>
-        <button class="country-btn active" data-country="TV">TV</button>
-      </div>
-      <div class="region-group">
-        <button class="region-label" data-region="samerica">S America</button>
-        <button class="country-btn active" data-country="AR">AR</button>
-        <button class="country-btn active" data-country="BO">BO</button>
-        <button class="country-btn active" data-country="BR">BR</button>
-        <button class="country-btn active" data-country="CL">CL</button>
-        <button class="country-btn active" data-country="CO">CO</button>
-        <button class="country-btn active" data-country="EC">EC</button>
-        <button class="country-btn active" data-country="GY">GY</button>
-        <button class="country-btn active" data-country="PE">PE</button>
-        <button class="country-btn active" data-country="PY">PY</button>
-        <button class="country-btn active" data-country="SR">SR</button>
-        <button class="country-btn active" data-country="UY">UY</button>
-        <button class="country-btn active" data-country="VE">VE</button>
-
-        <button class="region-label" data-region="caribbean">Caribbean</button>
-        <button class="country-btn active" data-country="CU">CU</button>
-        <button class="country-btn active" data-country="HT">HT</button>
-        <button class="country-btn active" data-country="DO">DO</button>
-        <button class="country-btn active" data-country="JM">JM</button>
-        <button class="country-btn active" data-country="TT">TT</button>
-        <button class="country-btn active" data-country="BS">BS</button>
-        <button class="country-btn active" data-country="BB">BB</button>
-        <button class="country-btn active" data-country="AG">AG</button>
-        <button class="country-btn active" data-country="DM">DM</button>
-        <button class="country-btn active" data-country="GD">GD</button>
-        <button class="country-btn active" data-country="KN">KN</button>
-        <button class="country-btn active" data-country="LC">LC</button>
-        <button class="country-btn active" data-country="VC">VC</button>
-
-        <button class="region-label" data-region="namerica">N America</button>
-        <button class="country-btn active" data-country="CA">CA</button>
-        <button class="country-btn active" data-country="MX">MX</button>
-
-        <button class="region-label" data-region="camerica">C America</button>
-        <button class="country-btn active" data-country="BZ">BZ</button>
-        <button class="country-btn active" data-country="GT">GT</button>
-        <button class="country-btn active" data-country="HN">HN</button>
-        <button class="country-btn active" data-country="SV">SV</button>
-        <button class="country-btn active" data-country="NI">NI</button>
-        <button class="country-btn active" data-country="CR">CR</button>
-        <button class="country-btn active" data-country="PA">PA</button>
-      </div>
-      <div class="region-group">
-        <button class="region-label" data-region="nafrica">N Africa</button>
-        <button class="country-btn active" data-country="DZ">DZ</button>
-        <button class="country-btn active" data-country="EG">EG</button>
-        <button class="country-btn active" data-country="LY">LY</button>
-        <button class="country-btn active" data-country="MA">MA</button>
-        <button class="country-btn active" data-country="TN">TN</button>
-        <button class="country-btn active" data-country="SD">SD</button>
-
-        <button class="region-label" data-region="wafrica">W Africa</button>
-        <button class="country-btn active" data-country="BJ">BJ</button>
-        <button class="country-btn active" data-country="BF">BF</button>
-        <button class="country-btn active" data-country="CV">CV</button>
-        <button class="country-btn active" data-country="CI">CI</button>
-        <button class="country-btn active" data-country="GM">GM</button>
-        <button class="country-btn active" data-country="GH">GH</button>
-        <button class="country-btn active" data-country="GN">GN</button>
-        <button class="country-btn active" data-country="GW">GW</button>
-        <button class="country-btn active" data-country="LR">LR</button>
-        <button class="country-btn active" data-country="ML">ML</button>
-        <button class="country-btn active" data-country="MR">MR</button>
-        <button class="country-btn active" data-country="NE">NE</button>
-        <button class="country-btn active" data-country="NG">NG</button>
-        <button class="country-btn active" data-country="SN">SN</button>
-        <button class="country-btn active" data-country="SL">SL</button>
-        <button class="country-btn active" data-country="TG">TG</button>
-
-        <button class="region-label" data-region="cafrica">C Africa</button>
-        <button class="country-btn active" data-country="CM">CM</button>
-        <button class="country-btn active" data-country="CF">CF</button>
-        <button class="country-btn active" data-country="TD">TD</button>
-        <button class="country-btn active" data-country="CG">CG</button>
-        <button class="country-btn active" data-country="CD">CD</button>
-        <button class="country-btn active" data-country="GQ">GQ</button>
-        <button class="country-btn active" data-country="GA">GA</button>
-        <button class="country-btn active" data-country="ST">ST</button>
-
-        <button class="region-label" data-region="eafrica">E Africa</button>
-        <button class="country-btn active" data-country="BI">BI</button>
-        <button class="country-btn active" data-country="KM">KM</button>
-        <button class="country-btn active" data-country="DJ">DJ</button>
-        <button class="country-btn active" data-country="ER">ER</button>
-        <button class="country-btn active" data-country="ET">ET</button>
-        <button class="country-btn active" data-country="KE">KE</button>
-        <button class="country-btn active" data-country="MG">MG</button>
-        <button class="country-btn active" data-country="MW">MW</button>
-        <button class="country-btn active" data-country="MU">MU</button>
-        <button class="country-btn active" data-country="MZ">MZ</button>
-        <button class="country-btn active" data-country="RW">RW</button>
-        <button class="country-btn active" data-country="SC">SC</button>
-        <button class="country-btn active" data-country="SO">SO</button>
-        <button class="country-btn active" data-country="SS">SS</button>
-        <button class="country-btn active" data-country="TZ">TZ</button>
-        <button class="country-btn active" data-country="UG">UG</button>
-
-        <button class="region-label" data-region="safrica">S Africa</button>
-        <button class="country-btn active" data-country="AO">AO</button>
-        <button class="country-btn active" data-country="BW">BW</button>
-        <button class="country-btn active" data-country="SZ">SZ</button>
-        <button class="country-btn active" data-country="LS">LS</button>
-        <button class="country-btn active" data-country="NA">NA</button>
-        <button class="country-btn active" data-country="ZA">ZA</button>
-        <button class="country-btn active" data-country="ZM">ZM</button>
-        <button class="country-btn active" data-country="ZW">ZW</button>
-      </div>
     </div>
     <div class="level-toggle">
-      <button class="level-btn active" data-level="region">Regions</button>
-      <button class="level-btn" data-level="district">Districts</button>
+      <button class="level-btn" data-level="adminregion">Regions</button>
+      <button class="level-btn active" data-level="region">Rollup</button>
       <button class="level-btn" data-level="municipality">Municipalities</button>
     </div>
+    <div style="display:flex;gap:4px;flex-wrap:wrap">
+      <button class="omxc20-btn" id="idx-btn-dk" style="display:none">&#127465;&#127472; OMXC20 &#9662;</button>
+      <button class="omxc20-btn" id="idx-btn-se" style="display:none">&#127480;&#127466; OMXS30 &#9662;</button>
+      <button class="omxc20-btn" id="idx-btn-no" style="display:none">&#127475;&#127476; OBX &#9662;</button>
+      <button class="omxc20-btn" id="idx-btn-fi" style="display:none">&#127467;&#127470; OMXH25 &#9662;</button>
+      <button class="omxc20-btn" id="idx-btn-is" style="display:none">&#127470;&#127480; OMXI15 &#9662;</button>
+    </div>
+  </div>
+  <div class="idx-panel" id="idx-panel-dk" style="display:none">
+    <div class="idx-panel-title">&#127465;&#127472; OMXC20 — Email Providers</div>
+    <div class="idx-panel-list" id="idx-list-dk"><span style="font-size:11px;color:#999">Loading&hellip;</span></div>
+  </div>
+  <div class="idx-panel" id="idx-panel-se" style="display:none">
+    <div class="idx-panel-title">&#127480;&#127466; OMXS30 — Email Providers</div>
+    <div class="idx-panel-list" id="idx-list-se"><span style="font-size:11px;color:#999">Loading&hellip;</span></div>
+  </div>
+  <div class="idx-panel" id="idx-panel-no" style="display:none">
+    <div class="idx-panel-title">&#127475;&#127476; OBX — Email Providers</div>
+    <div class="idx-panel-list" id="idx-list-no"><span style="font-size:11px;color:#999">Loading&hellip;</span></div>
+  </div>
+  <div class="idx-panel" id="idx-panel-fi" style="display:none">
+    <div class="idx-panel-title">&#127467;&#127470; OMXH25 — Email Providers</div>
+    <div class="idx-panel-list" id="idx-list-fi"><span style="font-size:11px;color:#999">Loading&hellip;</span></div>
+  </div>
+  <div class="idx-panel" id="idx-panel-is" style="display:none">
+    <div class="idx-panel-title">&#127470;&#127480; OMXI15 — Email Providers</div>
+    <div class="idx-panel-list" id="idx-list-is"><span style="font-size:11px;color:#999">Loading&hellip;</span></div>
   </div>
 </main>
+
+<aside id="side-panel" aria-label="Overview panel">
+  <div class="panel-brand-block">
+    <div>
+      <div class="panel-brand-name">MX Map</div>
+      <div class="panel-brand-tag">Email Sovereignty Map — Nordic</div>
+    </div>
+    <button class="panel-close-btn" id="panel-close-btn" aria-label="Close panel">&#10005;</button>
+  </div>
+
+  <div class="panel-section">
+    <div class="panel-section-kicker">About <a href="#panel-stats" onclick="document.getElementById('panel-stats').scrollIntoView({behavior:'smooth'});return false;" style="font-size:10px;font-weight:600;color:var(--text-muted);text-decoration:none;margin-left:8px;letter-spacing:0.05em;border-bottom:1px solid var(--border);padding-bottom:1px">↓ Statistics</a></div>
+    <div class="panel-info-stack">
+      <div class="panel-info-card">
+        <h3>What is this?</h3>
+        <p>A map of municipalities in <strong>Denmark, Finland, Norway, Sweden and Iceland</strong> showing which provider handles their official email — grouped by legal jurisdiction — based on public DNS records and other public network signals. Also covers the largest publicly traded companies from each country (OMXC20, OMXS30, OBX, OMXH25). Click any municipality or company to see the evidence and a <em>Why this label?</em> explanation with a confidence score.</p>
+      </div>
+      <div class="panel-info-card">
+        <h3>Context</h3>
+        <p><strong>US Cloud</strong> providers (Microsoft 365, Google Workspace, AWS) are subject to the <strong>US CLOUD Act</strong>, which allows US authorities to request stored data regardless of where it is physically hosted — even when GDPR applies. <strong>EU Provider</strong> and <strong>Self-hosted</strong> keep data under European jurisdiction. <em>DNS records indicate mail routing and authorised senders, not necessarily where data is stored.</em></p>
+      </div>
+      <div class="panel-info-card">
+        <h3>How does it work?</h3>
+        <p>Each municipality's official domain is checked via DNS records (MX, SPF, CNAME, DKIM, autodiscover, TXT), SMTP banners, ASN lookups, and a public Microsoft API endpoint, then classified by provider type with confidence scoring. Local email security gateways (FortiMail, Barracuda, etc.) are detected and looked through to find the actual backend provider. Data is refreshed nightly via GitHub Actions.</p>
+      </div>
+      <div class="panel-info-card">
+        <h3>Open source &amp; open data</h3>
+        <p>Code and data on <a href="https://github.com/KimTholstorf/mxmap-dk" target="_blank">GitHub</a>. Built on <a href="https://github.com/livenson/mxmap" target="_blank">livenson/mxmap</a>, originally by <a href="https://github.com/davidhuser/mxmap" target="_blank">David Huser</a> for Swiss municipalities. Use <strong>⊙ Colorblind mode</strong> in the legend for a deuteranopia-safe palette.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel-section" id="panel-stats">
+    <div class="panel-section-kicker">Statistics</div>
+    <div id="stats-content"></div>
+  </div>
+</aside>
+</div><!-- #app-body -->
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
@@ -492,26 +602,42 @@ if (!CSS.supports('height', '100dvh')) {
   document.body.style.height = window.innerHeight + 'px';
 }
 
-const COLORS = {
-  'Microsoft':      '#E83838',
-  'Google':         '#FFAB96',
-  'AWS':            '#FF7A5C',
-  'Local Provider': '#10B898',
-  'Self-hosted':    '#0E9680',
-  'Unknown':        '#BFBFBF'
+const COLOR_SCHEMES = {
+  default: {
+    'US Cloud':      '#E83838',
+    'Foreign Cloud': '#FF7A5C',
+    'EU Provider':   '#10B898',
+    'Self-hosted':   '#5B8DEF',
+    'Unknown':       '#BFBFBF',
+  },
+  colorblind: {
+    // Amber/blue — safe for deuteranopia and protanopia
+    'US Cloud':      '#e8a030',
+    'Foreign Cloud': '#c87820',
+    'EU Provider':   '#6fa2d0',
+    'Self-hosted':   '#9C6FD6',
+    'Unknown':       '#BFBFBF',
+  },
 };
+let colorScheme = 'default';
+let COLORS = Object.assign({}, COLOR_SCHEMES.default);
 
-const DARK_TEXT = new Set(['Google', 'AWS', 'Unknown']);
+// Which category labels need dark (#333) text on their badge background
+const DARK_TEXT_SCHEMES = {
+  default:    new Set(['Unknown']),
+  colorblind: new Set(['US Cloud', 'Foreign Cloud', 'EU Provider', 'Unknown']),
+};
+let DARK_TEXT = DARK_TEXT_SCHEMES.default;
 
 const TIERS = {
-  'US (CLOUD Act)': ['Microsoft', 'Google', 'AWS'],
-  'Local':       ['Local Provider', 'Self-hosted'],
-  'Unknown':        ['Unknown']
+  'Foreign jurisdiction': ['US Cloud', 'Foreign Cloud'],
+  'EU / Nordic':          ['EU Provider', 'Self-hosted'],
+  'Unknown':              ['Unknown']
 };
 
 const FLAGS = { EE: '\u{1F1EA}\u{1F1EA}', LV: '\u{1F1F1}\u{1F1FB}', LT: '\u{1F1F1}\u{1F1F9}', FI: '\u{1F1EB}\u{1F1EE}', NO: '\u{1F1F3}\u{1F1F4}', IS: '\u{1F1EE}\u{1F1F8}', SE: '\u{1F1F8}\u{1F1EA}', DE: '\u{1F1E9}\u{1F1EA}', DK: '\u{1F1E9}\u{1F1F0}', AD: '\u{1F1E6}\u{1F1E9}', LU: '\u{1F1F1}\u{1F1FA}', BE: '\u{1F1E7}\u{1F1EA}', AT: '\u{1F1E6}\u{1F1F9}', CZ: '\u{1F1E8}\u{1F1FF}', SK: '\u{1F1F8}\u{1F1F0}', SI: '\u{1F1F8}\u{1F1EE}', ES: '\u{1F1EA}\u{1F1F8}', FR: '\u{1F1EB}\u{1F1F7}', PL: '\u{1F1F5}\u{1F1F1}', PT: '\u{1F1F5}\u{1F1F9}', IT: '\u{1F1EE}\u{1F1F9}', IE: '\u{1F1EE}\u{1F1EA}', NL: '\u{1F1F3}\u{1F1F1}', BG: '\u{1F1E7}\u{1F1EC}', GB: '\u{1F1EC}\u{1F1E7}', HR: '\u{1F1ED}\u{1F1F7}', CY: '\u{1F1E8}\u{1F1FE}', GR: '\u{1F1EC}\u{1F1F7}', HU: '\u{1F1ED}\u{1F1FA}', MT: '\u{1F1F2}\u{1F1F9}', RO: '\u{1F1F7}\u{1F1F4}', AL: '\u{1F1E6}\u{1F1F1}', XK: '\u{1F1FD}\u{1F1F0}', ME: '\u{1F1F2}\u{1F1EA}', BA: '\u{1F1E7}\u{1F1E6}', RS: '\u{1F1F7}\u{1F1F8}', MK: '\u{1F1F2}\u{1F1F0}', UA: '\u{1F1FA}\u{1F1E6}', MD: '\u{1F1F2}\u{1F1E9}', LI: '\u{1F1F1}\u{1F1EE}', SM: '\u{1F1F8}\u{1F1F2}', GE: '\u{1F1EC}\u{1F1EA}', AM: '\u{1F1E6}\u{1F1F2}', AZ: '\u{1F1E6}\u{1F1FF}', BY: '\u{1F1E7}\u{1F1FE}', TR: '\u{1F1F9}\u{1F1F7}', MC: '\u{1F1F2}\u{1F1E8}', GL: '\u{1F1EC}\u{1F1F1}', AU: '\u{1F1E6}\u{1F1FA}', NZ: '\u{1F1F3}\u{1F1FF}', FJ: '\u{1F1EB}\u{1F1EF}', WS: '\u{1F1FC}\u{1F1F8}', VU: '\u{1F1FB}\u{1F1FA}', TO: '\u{1F1F9}\u{1F1F4}', NR: '\u{1F1F3}\u{1F1F7}', PW: '\u{1F1F5}\u{1F1FC}', ID: '\u{1F1EE}\u{1F1E9}', PG: '\u{1F1F5}\u{1F1EC}', MY: '\u{1F1F2}\u{1F1FE}', TH: '\u{1F1F9}\u{1F1ED}', KH: '\u{1F1F0}\u{1F1ED}', PH: '\u{1F1F5}\u{1F1ED}', VN: '\u{1F1FB}\u{1F1F3}', MM: '\u{1F1F2}\u{1F1F2}', JP: '\u{1F1EF}\u{1F1F5}', TW: '\u{1F1F9}\u{1F1FC}', KR: '\u{1F1F0}\u{1F1F7}', KP: '\u{1F1F0}\u{1F1F5}', CN: '\u{1F1E8}\u{1F1F3}', MN: '\u{1F1F2}\u{1F1F3}', IN: '\u{1F1EE}\u{1F1F3}', BD: '\u{1F1E7}\u{1F1E9}', PK: '\u{1F1F5}\u{1F1F0}', LK: '\u{1F1F1}\u{1F1F0}', NP: '\u{1F1F3}\u{1F1F5}', LA: '\u{1F1F1}\u{1F1E6}', BN: '\u{1F1E7}\u{1F1F3}', TL: '\u{1F1F9}\u{1F1F1}', KZ: '\u{1F1F0}\u{1F1FF}', UZ: '\u{1F1FA}\u{1F1FF}', KG: '\u{1F1F0}\u{1F1EC}', RU: '\u{1F1F7}\u{1F1FA}', SA: '\u{1F1F8}\u{1F1E6}', IQ: '\u{1F1EE}\u{1F1F6}', JO: '\u{1F1EF}\u{1F1F4}', LB: '\u{1F1F1}\u{1F1E7}', KW: '\u{1F1F0}\u{1F1FC}', IR: '\u{1F1EE}\u{1F1F7}', IL: '\u{1F1EE}\u{1F1F1}', OM: '\u{1F1F4}\u{1F1F2}', AE: '\u{1F1E6}\u{1F1EA}', QA: '\u{1F1F6}\u{1F1E6}', BH: '\u{1F1E7}\u{1F1ED}', AR: '\u{1F1E6}\u{1F1F7}', BO: '\u{1F1E7}\u{1F1F4}', BR: '\u{1F1E7}\u{1F1F7}', CL: '\u{1F1E8}\u{1F1F1}', CO: '\u{1F1E8}\u{1F1F4}', EC: '\u{1F1EA}\u{1F1E8}', GY: '\u{1F1EC}\u{1F1FE}', PE: '\u{1F1F5}\u{1F1EA}', PY: '\u{1F1F5}\u{1F1FE}', SR: '\u{1F1F8}\u{1F1F7}', UY: '\u{1F1FA}\u{1F1FE}', VE: '\u{1F1FB}\u{1F1EA}', DZ: '\u{1F1E9}\u{1F1FF}', EG: '\u{1F1EA}\u{1F1EC}', LY: '\u{1F1F1}\u{1F1FE}', MA: '\u{1F1F2}\u{1F1E6}', TN: '\u{1F1F9}\u{1F1F3}', SD: '\u{1F1F8}\u{1F1E9}', BJ: '\u{1F1E7}\u{1F1EF}', BF: '\u{1F1E7}\u{1F1EB}', CV: '\u{1F1E8}\u{1F1FB}', CI: '\u{1F1E8}\u{1F1EE}', GM: '\u{1F1EC}\u{1F1F2}', GH: '\u{1F1EC}\u{1F1ED}', GN: '\u{1F1EC}\u{1F1F3}', GW: '\u{1F1EC}\u{1F1FC}', LR: '\u{1F1F1}\u{1F1F7}', ML: '\u{1F1F2}\u{1F1F1}', MR: '\u{1F1F2}\u{1F1F7}', NE: '\u{1F1F3}\u{1F1EA}', NG: '\u{1F1F3}\u{1F1EC}', SN: '\u{1F1F8}\u{1F1F3}', SL: '\u{1F1F8}\u{1F1F1}', TG: '\u{1F1F9}\u{1F1EC}', CM: '\u{1F1E8}\u{1F1F2}', CF: '\u{1F1E8}\u{1F1EB}', TD: '\u{1F1F9}\u{1F1E9}', CG: '\u{1F1E8}\u{1F1EC}', CD: '\u{1F1E8}\u{1F1E9}', GQ: '\u{1F1EC}\u{1F1F6}', GA: '\u{1F1EC}\u{1F1E6}', ST: '\u{1F1F8}\u{1F1F9}', BI: '\u{1F1E7}\u{1F1EE}', KM: '\u{1F1F0}\u{1F1F2}', DJ: '\u{1F1E9}\u{1F1EF}', ER: '\u{1F1EA}\u{1F1F7}', ET: '\u{1F1EA}\u{1F1F9}', KE: '\u{1F1F0}\u{1F1EA}', MG: '\u{1F1F2}\u{1F1EC}', MW: '\u{1F1F2}\u{1F1FC}', MU: '\u{1F1F2}\u{1F1FA}', MZ: '\u{1F1F2}\u{1F1FF}', RW: '\u{1F1F7}\u{1F1FC}', SC: '\u{1F1F8}\u{1F1E8}', SO: '\u{1F1F8}\u{1F1F4}', SS: '\u{1F1F8}\u{1F1F8}', TZ: '\u{1F1F9}\u{1F1FF}', UG: '\u{1F1FA}\u{1F1EC}', AO: '\u{1F1E6}\u{1F1F4}', BW: '\u{1F1E7}\u{1F1FC}', SZ: '\u{1F1F8}\u{1F1FF}', LS: '\u{1F1F1}\u{1F1F8}', NA: '\u{1F1F3}\u{1F1E6}', ZA: '\u{1F1FF}\u{1F1E6}', ZM: '\u{1F1FF}\u{1F1F2}', ZW: '\u{1F1FF}\u{1F1FC}', CA: '\u{1F1E8}\u{1F1E6}', BZ: '\u{1F1E7}\u{1F1FF}', GT: '\u{1F1EC}\u{1F1F9}', HN: '\u{1F1ED}\u{1F1F3}', SV: '\u{1F1F8}\u{1F1FB}', NI: '\u{1F1F3}\u{1F1EE}', CR: '\u{1F1E8}\u{1F1F7}', PA: '\u{1F1F5}\u{1F1E6}', CU: '\u{1F1E8}\u{1F1FA}', HT: '\u{1F1ED}\u{1F1F9}', DO: '\u{1F1E9}\u{1F1F4}', JM: '\u{1F1EF}\u{1F1F2}', TT: '\u{1F1F9}\u{1F1F9}', BS: '\u{1F1E7}\u{1F1F8}', BB: '\u{1F1E7}\u{1F1E7}', AG: '\u{1F1E6}\u{1F1EC}', DM: '\u{1F1E9}\u{1F1F2}', GD: '\u{1F1EC}\u{1F1E9}', KN: '\u{1F1F0}\u{1F1F3}', LC: '\u{1F1F1}\u{1F1E8}', VC: '\u{1F1FB}\u{1F1E8}', AF: '\u{1F1E6}\u{1F1EB}', SG: '\u{1F1F8}\u{1F1EC}', YE: '\u{1F1FE}\u{1F1EA}', SY: '\u{1F1F8}\u{1F1FE}', PS: '\u{1F1F5}\u{1F1F8}', TJ: '\u{1F1F9}\u{1F1EF}', TM: '\u{1F1F9}\u{1F1F2}', MV: '\u{1F1F2}\u{1F1FB}', BT: '\u{1F1E7}\u{1F1F9}', SB: '\u{1F1F8}\u{1F1E7}', MH: '\u{1F1F2}\u{1F1ED}', FM: '\u{1F1EB}\u{1F1F2}', KI: '\u{1F1F0}\u{1F1EE}', TV: '\u{1F1F9}\u{1F1FB}', MX: '\u{1F1F2}\u{1F1FD}' };
 
-const COUNTRY_LIST = ['EE', 'LV', 'LT', 'FI', 'NO', 'IS', 'SE', 'DE', 'DK', 'AD', 'LU', 'BE', 'AT', 'CZ', 'SK', 'SI', 'ES', 'FR', 'PL', 'PT', 'IT', 'IE', 'NL', 'BG', 'GB', 'HR', 'CY', 'GR', 'HU', 'MT', 'RO', 'AL', 'XK', 'ME', 'BA', 'RS', 'MK', 'UA', 'MD', 'LI', 'SM', 'GE', 'AM', 'AZ', 'BY', 'TR', 'MC', 'GL', 'AU', 'NZ', 'FJ', 'WS', 'VU', 'TO', 'NR', 'PW', 'SB', 'MH', 'FM', 'KI', 'TV', 'ID', 'PG', 'MY', 'TH', 'KH', 'PH', 'VN', 'MM', 'JP', 'TW', 'KR', 'KP', 'CN', 'MN', 'IN', 'BD', 'PK', 'LK', 'NP', 'AF', 'LA', 'BN', 'TL', 'SG', 'MV', 'BT', 'KZ', 'UZ', 'KG', 'RU', 'TJ', 'TM', 'SA', 'IQ', 'JO', 'LB', 'KW', 'IR', 'IL', 'OM', 'AE', 'QA', 'BH', 'YE', 'SY', 'PS', 'AR', 'BO', 'BR', 'CL', 'CO', 'EC', 'GY', 'PE', 'PY', 'SR', 'UY', 'VE', 'CU', 'HT', 'DO', 'JM', 'TT', 'BS', 'BB', 'AG', 'DM', 'GD', 'KN', 'LC', 'VC', 'CA', 'MX', 'BZ', 'GT', 'HN', 'SV', 'NI', 'CR', 'PA', 'DZ', 'EG', 'LY', 'MA', 'TN', 'SD', 'BJ', 'BF', 'CV', 'CI', 'GM', 'GH', 'GN', 'GW', 'LR', 'ML', 'MR', 'NE', 'NG', 'SN', 'SL', 'TG', 'CM', 'CF', 'TD', 'CG', 'CD', 'GQ', 'GA', 'ST', 'BI', 'KM', 'DJ', 'ER', 'ET', 'KE', 'MG', 'MW', 'MU', 'MZ', 'RW', 'SC', 'SO', 'SS', 'TZ', 'UG', 'AO', 'BW', 'SZ', 'LS', 'NA', 'ZA', 'ZM', 'ZW'];
+const COUNTRY_LIST = ['FI', 'SE', 'NO', 'DK', 'IS', 'GL'];
 
 window.filterMuniList = function(input) {
   var query = input.value.toLowerCase();
@@ -551,53 +677,12 @@ window.toggleProviderFilter = function(chip) {
   }
 };
 
-const US_PROVIDERS = new Set(['Microsoft', 'Google', 'AWS']);
+const US_PROVIDERS = new Set(['US Cloud', 'Foreign Cloud']);
 function hasLocalGateway(m) {
   return m.gateway && (m.mx_countries || []).includes(m.country) && US_PROVIDERS.has(m.classification.provider);
 }
 
-// World region hierarchy for stats panel
-const WORLD_REGIONS = {
-  'Europe': ['nordic','baltic','western','central','southern','eastern'],
-  'Africa': ['nafrica','wafrica','cafrica','eafrica','safrica'],
-  'Americas': ['namerica','camerica','caribbean','samerica'],
-  'Asia': ['sasia','seasia','easia','casia'],
-  'Middle East': ['mideast'],
-  'Oceania': ['oceania'],
-};
-// Map sub-region codes to display names
-const SUB_REGION_NAMES = {
-  nordic:'Nordic', baltic:'Baltic', western:'Western', central:'Central',
-  southern:'Southern', eastern:'Eastern', nafrica:'North', wafrica:'West',
-  cafrica:'Central', eafrica:'East', safrica:'Southern', namerica:'North America',
-  camerica:'Central America', caribbean:'Caribbean', samerica:'South America',
-  sasia:'South', seasia:'Southeast', easia:'East', casia:'Central',
-  mideast:'Middle East', oceania:'Oceania',
-};
 let statsMode = 'count'; // 'count' or 'pop'
-
-// Build sub-region → countries mapping from DOM
-function getSubRegionCountries() {
-  const map = {};
-  document.querySelectorAll('.region-group').forEach(function(group) {
-    group.querySelectorAll('.region-label').forEach(function(label) {
-      var region = label.dataset.region;
-      var countries = [];
-      var sibling = label.nextElementSibling;
-      while (sibling && sibling.classList.contains('country-btn')) {
-        countries.push(sibling.dataset.country);
-        sibling = sibling.nextElementSibling;
-      }
-      if (countries.length) map[region] = countries;
-    });
-  });
-  return map;
-}
-var _subRegionCountries = null;
-function subRegionCountries() {
-  if (!_subRegionCountries) _subRegionCountries = getSubRegionCountries();
-  return _subRegionCountries;
-}
 
 const INACTIVE_STYLE = { fillColor: '#f0f0f0', weight: 0.5, color: '#ccc', fillOpacity: 0.3 };
 
@@ -630,6 +715,9 @@ let summaryLoaded = false;      // true once data-summary.json loaded
 let summaryLoadPromise = null;  // dedup in-flight loads
 const countryData = {};         // cc -> [municipality, ...] (per-country on-demand)
 let currentLevel = 'region';
+let adminRegionData = null;          // regions_classified.json payload
+let adminRegionsByKey = {};          // cc -> { name -> region entity }
+let adminRegionDataPromise = null;   // dedup in-flight load
 const topoCache = {};           // cacheKey -> parsed TopoJSON
 const countryLayers = new Map(); // "EE" -> L.geoJSON layer
 let gatewayMarkers = L.layerGroup();
@@ -641,13 +729,14 @@ let muniByName = {};   // lowercase name -> municipality
 
 // --- Map ---
 const map = L.map('map', {
-  center: [50.0, 15.0],
-  zoom: 4,
+  center: [56.7286, 13.7823],
+  zoom: 7,
   minZoom: 2,
   maxZoom: 14,
   renderer: L.canvas()
 });
 window._map = map; // expose for debugging
+
 
 L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
@@ -667,39 +756,19 @@ window.addEventListener('resize', function () {
   resizeTimer = setTimeout(function () { map.invalidateSize({ animate: false }); }, 100);
 });
 
-// --- Info bar toggle ---
-function collapsePanel(id, btnId, label) {
-  document.getElementById(id).classList.add('collapsed');
-  const b = document.getElementById(btnId);
-  b.innerHTML = label + ' \u25be';
-  b.setAttribute('aria-expanded', 'false');
+// --- Side panel toggle ---
+let panelOpen = true;
+function togglePanel() {
+  panelOpen = !panelOpen;
+  const panel = document.getElementById('side-panel');
+  const btn = document.getElementById('panel-toggle-btn');
+  panel.classList.toggle('collapsed', !panelOpen);
+  btn.innerHTML = panelOpen ? '&#9776; Overview' : '&#9776; Overview';
+  btn.setAttribute('aria-expanded', String(panelOpen));
+  setTimeout(() => map.invalidateSize({ animate: false }), 320);
 }
-
-function toggleInfo() {
-  const bar = document.getElementById('info-bar');
-  const btn = document.getElementById('toggle-info');
-  const wasCollapsed = bar.classList.contains('collapsed');
-  bar.classList.toggle('collapsed');
-  const collapsed = bar.classList.contains('collapsed');
-  btn.innerHTML = collapsed ? 'About \u25be' : 'About \u25b4';
-  btn.setAttribute('aria-expanded', String(!collapsed));
-  if (wasCollapsed) collapsePanel('stats-bar', 'toggle-stats', 'Statistics');
-  map.invalidateSize({ animate: false });
-}
-document.getElementById('toggle-info').addEventListener('click', toggleInfo);
-
-function toggleStats() {
-  const bar = document.getElementById('stats-bar');
-  const btn = document.getElementById('toggle-stats');
-  const wasCollapsed = bar.classList.contains('collapsed');
-  bar.classList.toggle('collapsed');
-  const collapsed = bar.classList.contains('collapsed');
-  btn.innerHTML = collapsed ? 'Statistics \u25be' : 'Statistics \u25b4';
-  btn.setAttribute('aria-expanded', String(!collapsed));
-  if (wasCollapsed) collapsePanel('info-bar', 'toggle-info', 'About');
-  map.invalidateSize({ animate: false });
-}
-document.getElementById('toggle-stats').addEventListener('click', toggleStats);
+document.getElementById('panel-toggle-btn').addEventListener('click', togglePanel);
+document.getElementById('panel-close-btn').addEventListener('click', togglePanel);
 
 // --- Legend ---
 function toggleLegend() {
@@ -726,6 +795,65 @@ function legendGroupHtml(label, keys, counts) {
   return `<div class="legend-group">${heading}${items}</div>`;
 }
 
+// --- Colorblind mode ---
+function recomputeBlendedColors() {
+  // Recompute blendedColor on all group features using current COLORS
+  for (const [, layer] of countryLayers) {
+    layer.eachLayer(function (sublayer) {
+      const g = sublayer.feature && sublayer.feature._matchedGroup;
+      if (!g || !g.providers) return;
+      const usePop = g.popTotal > (g.count || (g.municipalities && g.municipalities.length) || 0);
+      const src = usePop ? g.popProviders : g.providers;
+      const tot = usePop ? g.popTotal : (g.count || (g.municipalities && g.municipalities.length) || 1);
+      g.blendedColor = blendProviderColors(src, tot);
+    });
+  }
+  // Recompute pre-aggregated regionData colors (used as fallback before full data loads)
+  if (regionData) {
+    for (const cc of Object.keys(regionData.countries)) {
+      const cd = regionData.countries[cc];
+      const usePopC = cd.popTotal > cd.total;
+      cd.blendedColor = blendProviderColors(usePopC ? cd.popProviders : cd.providers, usePopC ? cd.popTotal : cd.total);
+      for (const rname of Object.keys(cd.regions)) {
+        const rd = cd.regions[rname];
+        const usePopR = rd.popTotal > rd.count;
+        rd.blendedColor = blendProviderColors(usePopR ? rd.popProviders : rd.providers, usePopR ? rd.popTotal : rd.count);
+      }
+    }
+  }
+}
+
+function restyleAllLayers() {
+  for (const [cc, layer] of countryLayers) {
+    if (!activeCountries.has(cc)) continue;
+    layer.eachLayer(function (sublayer) {
+      const feature = sublayer.feature;
+      if (!feature) return;
+      const r = feature._matchedAdminRegion;
+      const g = feature._matchedGroup;
+      const m = feature._matchedMuni;
+      if (r) {
+        // Admin region view: color by the region's own provider
+        const dp = providerDisplayMap[r.provider] || r.provider;
+        sublayer.setStyle({ fillColor: COLORS[dp] || COLORS['Unknown'] });
+      } else if (g) {
+        sublayer.setStyle({ fillColor: g.blendedColor });
+      } else if (m) {
+        sublayer.setStyle({ fillColor: COLORS[m.classification.provider] || COLORS['Unknown'] });
+      }
+    });
+  }
+}
+
+window.toggleColorScheme = function () {
+  colorScheme = colorScheme === 'default' ? 'colorblind' : 'default';
+  Object.assign(COLORS, COLOR_SCHEMES[colorScheme]);
+  DARK_TEXT = DARK_TEXT_SCHEMES[colorScheme];
+  recomputeBlendedColors();
+  restyleAllLayers();
+  updateLegend();
+};
+
 // --- Stats panel (always municipality-level) ---
 function buildStats(muniList) {
   const content = document.getElementById('stats-content');
@@ -736,7 +864,7 @@ function buildStats(muniList) {
   if (total === 0) { content.innerHTML = '<p style="color:#999">No municipalities selected.</p>'; return; }
   const withMx = filtered.filter(m => m.has_mx || (m.mx || []).length > 0).length;
 
-  const usProviders = new Set(['Microsoft', 'Google', 'AWS']);
+  const usProviders = new Set(['US Cloud', 'Foreign Cloud']);
   const countryColors = { US: '#E83838', EE: '#2EDBA8', LV: '#34D5A0', LT: '#78FFD6', DE: '#6BA3D6', DK: '#4FC3D6', NL: '#6BA3D6', FI: '#6BA3D6', SE: '#56E8B0', IE: '#6BA3D6', NO: '#10B898', IS: '#20C8A0', AD: '#56C8B0', LU: '#4DB8A8', BE: '#3DA898', AT: '#5DBCA0', CZ: '#4EB8A8', SK: '#45B0A0', SI: '#52C498', ES: '#E8A040', FR: '#4088E8', PT: '#40A8E8', IT: '#50B868', BG: '#58A878', GB: '#4090D0', HR: '#48B890', CY: '#60C870', GR: '#3880D0', HU: '#55A8B0', MT: '#68C890', RO: '#4898C0', AL: '#50B0A0', XK: '#58B8A8', ME: '#45A898', BA: '#4CA0A0', RS: '#52A8A0', MK: '#48B0A8', UA: '#3090D8', MD: '#4898B0', LI: '#60C0A0', SM: '#58B890', GE: '#40A0C0', AM: '#5098B0', AZ: '#48A8B8', BY: '#3888C0', TR: '#D88040', MC: '#60B8A0', GL: '#58C8E0', AU: '#E8C840', NZ: '#48D898', FJ: '#4080C0', WS: '#30A878', VU: '#48B8A0', TO: '#C84040', NR: '#3878A0', PW: '#58C0D0', ID: '#D06840', PG: '#60A068', MY: '#4090C8', TH: '#D8A830', KH: '#3878B8', PH: '#5088D0', VN: '#D04848', MM: '#48A870', JP: '#E84060', TW: '#4080C0', KR: '#3070B0', KP: '#C04040', CN: '#D05050', MN: '#4890A0', IN: '#E89030', BD: '#30A050', PK: '#20803E', LK: '#8B4513', NP: '#DC143C', LA: '#002868', BN: '#D0B020', TL: '#BE0027', KZ: '#00AFCA', UZ: '#1EB53A', KG: '#E8112D', RU: '#0039A6', SA: '#006C35', IQ: '#A06830', JO: '#B87840', LB: '#C04848', KW: '#007A3D', IR: '#C8A030', IL: '#0038B8', OM: '#C09050', AE: '#4098D0', QA: '#8040A0', BH: '#D07050', AR: '#75AADB', BO: '#D52B1E', BR: '#009B3A', CL: '#D52B1E', CO: '#FCD116', EC: '#FFD100', GY: '#009E49', PE: '#D91023', PY: '#0038A8', SR: '#377E3F', UY: '#5089C6', VE: '#CF142B', DZ: '#006633', EG: '#C8102E', LY: '#000000', MA: '#C1272D', TN: '#E70013', SD: '#007229', BJ: '#E8D71E', BF: '#009E49', CV: '#003893', CI: '#F77F00', GM: '#3A7728', GH: '#006B3F', GN: '#CE1126', GW: '#CE1126', LR: '#002868', ML: '#14B53A', MR: '#006233', NE: '#E05206', NG: '#008751', SN: '#00853F', SL: '#1EB53A', TG: '#006A4E', CM: '#007A5E', CF: '#003082', TD: '#002664', CG: '#009543', CD: '#007FFF', GQ: '#3E9A00', GA: '#009E60', ST: '#12AD2B', BI: '#CE1126', KM: '#3A75C4', DJ: '#6AB2E7', ER: '#4189DD', ET: '#FCDD09', KE: '#BB0000', MG: '#FC3D32', MW: '#CE1126', MU: '#00A551', MZ: '#FFD100', RW: '#00A1DE', SC: '#003DA5', SO: '#4189DD', SS: '#078930', TZ: '#1EB53A', UG: '#D90000', AO: '#CC092F', BW: '#75AADB', SZ: '#3E5EB9', LS: '#00209F', NA: '#003580', ZA: '#007749', ZM: '#198A00', ZW: '#FFD200', CA: '#FF0000', BZ: '#003DA5', GT: '#4997D0', HN: '#0038A8', SV: '#0F47AF', NI: '#003893', CR: '#002B7F', PA: '#003DA5', CU: '#002A8F', HT: '#00209F', DO: '#002D62', JM: '#009B3A', TT: '#CE1126', BS: '#00778B', BB: '#00267F', AG: '#CE1126', DM: '#006B3F', GD: '#CE1126', KN: '#009E49', LC: '#65CFFF', VC: '#0072C6', AF: '#009900', SG: '#EF3340', YE: '#CE1126', SY: '#CE1126', PS: '#009736', TJ: '#006600', TM: '#28AE66', MV: '#D21034', BT: '#FF4E12', SB: '#0051A5', MH: '#003DA5', FM: '#75B2DD', KI: '#CE1126', TV: '#009FCA', MX: '#006847' };
   const sectionTitle = '<div style="font-size:12px;color:#777;text-transform:uppercase;letter-spacing:0.3px;font-weight:600;margin-bottom:4px">';
 
@@ -760,7 +888,7 @@ function buildStats(muniList) {
     for (const m of list) {
       const p = m.classification.provider;
       providers[p] = (providers[p] || 0) + 1;
-      if (m.isp_name && (p === 'Local Provider')) {
+      if (m.isp_name && (p === 'EU Provider')) {
         ispNames[m.isp_name] = (ispNames[m.isp_name] || 0) + 1;
       }
       if (usProviders.has(p)) {
@@ -890,6 +1018,21 @@ function matchFeature(feature) {
   return null;
 }
 
+function matchAdminRegion(feature, cc) {
+  if (!adminRegionsByKey[cc]) return null;
+  const props = feature.properties || {};
+  for (const key of ['name', 'name_en', 'name:en']) {
+    const name = props[key] || '';
+    if (!name) continue;
+    if (adminRegionsByKey[cc][name]) return adminRegionsByKey[cc][name];
+    const lower = name.toLowerCase();
+    for (const [k, r] of Object.entries(adminRegionsByKey[cc])) {
+      if (k.toLowerCase() === lower) return r;
+    }
+  }
+  return null;
+}
+
 function escapeHtml(str) {
   const el = document.createElement('span');
   el.textContent = str;
@@ -912,8 +1055,11 @@ function getGroupKey(m, fileLevelName) {
 }
 
 function computeAggregation(cc, fileLevelName) {
-  // Fast path: use pre-computed region data before summary is loaded
-  if (!summaryLoaded && regionData) {
+  // For region-level rollup, always use pre-computed regionData as the authoritative
+  // source of group keys and colors — it is built from the same data and its keys are
+  // guaranteed to match the topo polygon names. Supplement with municipalities from
+  // dnsData when available (for popup detail).
+  if (fileLevelName === 'region' && regionData) {
     const cd = regionData.countries[cc];
     if (!cd) return {};
     const result = {};
@@ -933,6 +1079,14 @@ function computeAggregation(cc, fileLevelName) {
         count: r.count,
         hasGateway: (r.gateway_count || 0) > 0,
       };
+    }
+    // Supplement with individual municipalities when dnsData is available
+    if (summaryLoaded && dnsData) {
+      for (const m of dnsData.municipalities) {
+        if (m.country !== cc) continue;
+        const key = m.region || '';
+        if (result[key]) result[key].municipalities.push(m);
+      }
     }
     return result;
   }
@@ -1039,11 +1193,25 @@ function buildPopup(m) {
     }
   }
 
+  // Confidence badge
+  const conf = cls.confidence || 0;
+  const confLabel = conf >= 80 ? 'High' : conf >= 50 ? 'Medium' : conf > 0 ? 'Low' : '';
+  const confColor = conf >= 80 ? '#4caf50' : conf >= 50 ? '#ff9800' : '#f44336';
+  const confBadge = confLabel
+    ? `<span style="font-size:11px;color:${confColor};margin-left:6px" title="Classification confidence: ${conf}/100">◆ ${confLabel}</span>`
+    : '';
+
+  // Vendor name (secondary detail under jurisdiction badge)
+  const vendor = cls.vendor || '';
+  const vendorNote = (vendor && vendor !== cls.provider)
+    ? `<span style="font-size:11px;color:#666;margin-left:4px">${escapeHtml(vendor)}</span>`
+    : '';
+
   let gatewayNote = '';
   if (hasLocalGateway(m)) {
     gatewayNote = `<div style="margin-top:6px;padding:5px 8px;background:#fff3e0;border-left:3px solid #ff9800;font-size:11px;color:#795548">` +
       `\u{1F6E1}\uFE0F Mail filtered locally via <strong>${escapeHtml(m.gateway)}</strong> (${m.country}), ` +
-      `but mailboxes hosted by <strong>${escapeHtml(cls.provider)}</strong> (US)</div>`;
+      `but mailboxes hosted via <strong>${escapeHtml(vendor || cls.provider)}</strong></div>`;
   }
 
   let tenantNote = '';
@@ -1059,16 +1227,20 @@ function buildPopup(m) {
       `Self-hosted using <strong>${escapeHtml(swName)}</strong> software</div>`;
   }
 
+  // Classification signal (why this label?)
+  const signalSection = cls.reason
+    ? `<div class="popup-section"><div class="popup-section-title">Why this label?</div><div style="font-size:11px;color:#555">${escapeHtml(cls.reason)}</div></div>`
+    : '';
+
   const popStr = m.population ? `<br><span style="font-size:11px;color:#999">Pop. ${m.population.toLocaleString()}</span>` : '';
 
   return `<div class="info-popup">` +
     `<strong>${flag} ${eName}</strong><br>` +
-    `${eDomain} <span class="provider-badge" style="background:${color};color:${textColor}">${escapeHtml(cls.provider)}</span>` +
+    `${eDomain} <span class="provider-badge" style="background:${color};color:${textColor}">${escapeHtml(cls.provider)}</span>${vendorNote}${confBadge}` +
     (hasLocalGateway(m) ? ' <span title="Local gateway" style="font-size:13px">\u{1F6E1}\uFE0F</span>' : '') +
     popStr +
     `<br><span style="font-size:11px;color:#888">${m.region ? escapeHtml(m.region) + ' \u00b7 ' : ''}${m.country}</span>` +
-    (cls.reason ? `<div style="margin-top:4px;font-size:11px;color:#666;font-style:italic">${escapeHtml(cls.reason)}</div>` : '') +
-    gatewayNote + tenantNote + smtpSoftwareNote + mxSection + spfSection + autodiscoverSection + dkimSection + txtVerifSection +
+    gatewayNote + tenantNote + smtpSoftwareNote + mxSection + spfSection + autodiscoverSection + dkimSection + txtVerifSection + signalSection +
     `</div>`;
 }
 
@@ -1215,11 +1387,68 @@ function buildAggregatedPopup(group, feature, cc) {
     `</div>`;
 }
 
+function buildRegionEntityPopup(r, cc) {
+  const dp = providerDisplayMap[r.provider] || r.provider;
+  const color = COLORS[dp] || COLORS['Unknown'];
+  const textColor = DARK_TEXT.has(dp) ? '#333' : '#fff';
+  const flag = FLAGS[cc] || '';
+
+  let mxSection = '';
+  if (r.mx && r.mx.length > 0) {
+    const countries = (r.mx_countries || []).join(', ');
+    const countryNote = countries ? ` <span style="font-size:11px;color:#999">server in ${escapeHtml(countries)}</span>` : '';
+    const rows = r.mx.map((host, i) =>
+      `<tr><td class="pri">${(i + 1) * 10}</td><td class="host" title="${escapeHtml(host)}">${escapeHtml(host)}</td></tr>`
+    ).join('');
+    mxSection = `<div class="popup-section"><div class="popup-section-title">Incoming mail <span class="popup-section-hint">(MX)</span>${countryNote}</div><table class="dns-table">${rows}</table></div>`;
+  }
+
+  let spfSection = '';
+  if (r.spf) {
+    const includes = [];
+    const re = /include:([^\s]+)/g;
+    let m;
+    while ((m = re.exec(r.spf)) !== null) includes.push(m[1]);
+    if (includes.length > 0) {
+      const rows = includes.map(h => `<tr><td class="host" title="${escapeHtml(h)}">${escapeHtml(h)}</td></tr>`).join('');
+      spfSection = `<div class="popup-section"><div class="popup-section-title">Authorized senders <span class="popup-section-hint">(SPF)</span></div><table class="dns-table">${rows}</table></div>`;
+    }
+  }
+
+  let smtpNote = '';
+  if (r.smtp_software && r.provider === 'independent') {
+    smtpNote = `<div style="margin-top:6px;padding:5px 8px;background:#e3f2fd;border-left:3px solid #1976d2;font-size:11px;color:#37474f">` +
+      `SMTP: <strong>${escapeHtml(r.smtp_software)}</strong></div>`;
+  }
+
+  let gatewayNote = '';
+  if (r.gateway) {
+    gatewayNote = `<div style="margin-top:6px;padding:5px 8px;background:#fff3e0;border-left:3px solid #ff9800;font-size:11px;color:#795548">` +
+      `\u{1F6E1}\uFE0F Mail filtered via <strong>${escapeHtml(r.gateway)}</strong>, mailboxes hosted by <strong>${escapeHtml(r.provider)}</strong></div>`;
+  }
+
+  let tenantNote = '';
+  if (r.tenant) {
+    tenantNote = `<div style="margin-top:6px;padding:5px 8px;background:#ede7f6;border-left:3px solid #7e57c2;font-size:11px;color:#4a148c">` +
+      `MS365 tenant: <strong>${escapeHtml(r.tenant)}</strong></div>`;
+  }
+
+  return `<div class="info-popup">` +
+    `<strong>${flag} ${escapeHtml(r.full_name)}</strong><br>` +
+    `${escapeHtml(r.domain)} <span class="provider-badge" style="background:${color};color:${textColor}">${escapeHtml(dp)}</span><br>` +
+    `<span style="font-size:11px;color:#888">${escapeHtml(cc)}</span>` +
+    (r.reason ? `<div style="margin-top:4px;font-size:11px;color:#666;font-style:italic">${escapeHtml(r.reason)}</div>` : '') +
+    gatewayNote + tenantNote + smtpNote + mxSection + spfSection +
+    `</div>`;
+}
+
 // --- TopoJSON loading ---
 async function loadTopo(cc, level) {
   if (!manifest || !manifest[cc]) return null;
+  // adminregion reuses the same topo boundaries as geo-region
+  const topoLevel = level === 'adminregion' ? 'region' : level;
   // Fall back through levels: region → district → municipality
-  let fileEntry = manifest[cc].files[level];
+  let fileEntry = manifest[cc].files[topoLevel];
   if (!fileEntry && level === 'region') fileEntry = manifest[cc].files['district'];
   if (!fileEntry) fileEntry = manifest[cc].files['municipality'];
   if (!fileEntry) return null;
@@ -1304,6 +1533,7 @@ async function loadTopoMulti(cc, level, fileMap) {
 // --- Rendering ---
 function getFileLevelName(cc, level) {
   if (!manifest || !manifest[cc]) return 'municipality';
+  if (level === 'adminregion') return 'region';
   const fileEntry = manifest[cc].files[level];
   if (!fileEntry) return 'municipality';
   // Object value (multi-file): level name is the level itself
@@ -1344,14 +1574,15 @@ async function renderCountryLayer(cc) {
   const fileLevelName = getFileLevelName(cc, currentLevel);
   const muniFile = manifest[cc].files.municipality;
   const currentFile = manifest[cc].files[currentLevel];
+  const isAdminRegion = currentLevel === 'adminregion';
   // Aggregated if different level files, or if current is a string and muni is object (or vice versa)
   // Also aggregate when topo has fewer features than data (province-only topo for district-level data)
   const ALWAYS_AGGREGATE = ['PG', 'KH', 'OM', 'PH'];
-  const isAggregated = !summaryLoaded
+  const isAggregated = !isAdminRegion && (!summaryLoaded
     || ALWAYS_AGGREGATE.includes(cc)
     || ((typeof currentFile === 'string' && typeof muniFile === 'string')
       ? currentFile !== muniFile
-      : (typeof currentFile !== typeof muniFile || currentLevel !== 'municipality'));
+      : (typeof currentFile !== typeof muniFile || currentLevel !== 'municipality')));
 
   let groups = null;
   if (isAggregated) {
@@ -1363,11 +1594,24 @@ async function renderCountryLayer(cc) {
   const layer = L.geoJSON(geojson, {
     style: function (feature) {
       if (!active) return INACTIVE_STYLE;
+      // Admin region: match each polygon to its classified region entity
+      if (isAdminRegion) {
+        const r = matchAdminRegion(feature, cc);
+        feature._matchedAdminRegion = r;
+        feature._matchedGroup = null;
+        feature._matchedMuni = null;
+        if (r) {
+          const dp = providerDisplayMap[r.provider] || r.provider;
+          return { fillColor: COLORS[dp] || COLORS['Unknown'], fillOpacity: 0.75, color: '#666', weight: 0.5 };
+        }
+        return INACTIVE_STYLE;
+      }
       // Match once in style(), reuse in onEachFeature()
       if (isAggregated && groups) {
         const g = matchGroupFeature(feature, groups);
         feature._matchedGroup = g;
         feature._matchedMuni = null;
+        feature._matchedAdminRegion = null;
         if (g) {
           return { fillColor: g.blendedColor, fillOpacity: 0.75, color: '#999', weight: 0.5 };
         }
@@ -1382,6 +1626,7 @@ async function renderCountryLayer(cc) {
         const m = matchFeature(feature);
         feature._matchedMuni = m;
         feature._matchedGroup = null;
+        feature._matchedAdminRegion = null;
         if (m) {
           return { fillColor: COLORS[m.classification.provider] || COLORS['Unknown'], fillOpacity: 0.75, color: '#666', weight: 0.5 };
         }
@@ -1390,9 +1635,12 @@ async function renderCountryLayer(cc) {
     },
     onEachFeature: function (feature, layer) {
       // Reuse match from style()
+      const r = feature._matchedAdminRegion;
       const g = feature._matchedGroup;
       const m = feature._matchedMuni;
-      if (isAggregated && g) {
+      if (isAdminRegion && r) {
+        layer.bindPopup(function () { return buildRegionEntityPopup(r, cc); }, { maxWidth: 400 });
+      } else if (isAggregated && g) {
         layer.bindPopup(function () { return buildAggregatedPopup(g, feature, cc); }, { maxWidth: 400 });
       } else if (m) {
         layer.bindPopup(function () { return buildPopup(m); }, { maxWidth: 400 });
@@ -1424,7 +1672,7 @@ const shieldIcon = L.divIcon({
 function updateGatewayMarkers() {
   gatewayMarkers.clearLayers();
   // Only show gateway markers at municipality level
-  if (currentLevel !== 'municipality') return;
+  if (currentLevel !== 'municipality' && currentLevel !== 'adminregion') return;
   for (const [cc, layer] of countryLayers) {
     if (!activeCountries.has(cc)) continue;
     layer.eachLayer(function (sublayer) {
@@ -1440,7 +1688,7 @@ function updateGatewayMarkers() {
 function updateDominanceMarkers() {
   dominanceMarkers.clearLayers();
   // Only show at aggregated levels and when zoomed in enough
-  if (currentLevel === 'municipality') return;
+  if (currentLevel === 'municipality' || currentLevel === 'adminregion') return;
   var zoom = map.getZoom();
   var minZoom = currentLevel === 'region' ? 5 : 6;
   if (zoom < minZoom) return;
@@ -1497,9 +1745,13 @@ function updateStyles() {
         sublayer.setStyle(INACTIVE_STYLE);
         return;
       }
+      const r = feature._matchedAdminRegion;
       const g = feature._matchedGroup;
       const m = feature._matchedMuni;
-      if (g) {
+      if (r) {
+        const dp = providerDisplayMap[r.provider] || r.provider;
+        sublayer.setStyle({ fillColor: COLORS[dp] || COLORS['Unknown'], fillOpacity: 0.75, color: '#666', weight: 0.5 });
+      } else if (g) {
         const borderColor = g.second && g.dominance < 0.95 ? (COLORS[g.second] || '#666') : '#666';
         const borderWeight = g.second && g.dominance < 0.95 ? 3 : 0.5;
         sublayer.setStyle({ fillColor: COLORS[g.dominant] || COLORS['Unknown'], fillOpacity: 0.75, color: borderColor, weight: borderWeight });
@@ -1514,6 +1766,22 @@ function updateStyles() {
   updateDominanceMarkers();
 }
 
+async function loadAdminRegionData() {
+  if (adminRegionData) return;
+  if (adminRegionDataPromise) return adminRegionDataPromise;
+  adminRegionDataPromise = fetch('data/regions_classified.json')
+    .then(r => r.json())
+    .then(data => {
+      adminRegionData = data;
+      adminRegionsByKey = {};
+      for (const r of data.regions) {
+        if (!adminRegionsByKey[r.country]) adminRegionsByKey[r.country] = {};
+        adminRegionsByKey[r.country][r.name] = r;
+      }
+    });
+  return adminRegionDataPromise;
+}
+
 // --- Level toggle ---
 async function setLevel(newLevel) {
   currentLevel = newLevel;
@@ -1521,8 +1789,20 @@ async function setLevel(newLevel) {
     btn.classList.toggle('active', btn.dataset.level === newLevel);
   });
 
+  // Load required data for the new level
+  if (newLevel === 'adminregion' && !adminRegionData) {
+    var overlay = document.createElement('div');
+    overlay.id = 'map-loading';
+    overlay.style.cssText = 'position:absolute;inset:0;display:flex;align-items:center;justify-content:center;z-index:1000;background:rgba(255,255,255,0.85);font-size:15px;color:#555;';
+    overlay.textContent = 'Loading region data\u2026';
+    document.getElementById('map').appendChild(overlay);
+    await loadAdminRegionData();
+    var loadingEl = document.getElementById('map-loading');
+    if (loadingEl) loadingEl.remove();
+  }
+
   // If switching away from region and summary not loaded, load it on demand
-  if (newLevel !== 'region' && !summaryLoaded) {
+  if (newLevel !== 'region' && newLevel !== 'adminregion' && !summaryLoaded) {
     var overlay = document.createElement('div');
     overlay.id = 'map-loading';
     overlay.style.cssText = 'position:absolute;inset:0;display:flex;align-items:center;justify-content:center;z-index:1000;background:rgba(255,255,255,0.85);font-size:15px;color:#555;';
@@ -1567,6 +1847,7 @@ document.querySelectorAll('.country-btn').forEach(function (btn) {
     updateStyles();
     updateLegend();
     renderStats();
+    updateIndexButtons();
   });
 });
 
@@ -1590,18 +1871,35 @@ document.querySelectorAll('.region-label').forEach(function (btn) {
     updateStyles();
     updateLegend();
     renderStats();
+    updateIndexButtons();
   });
 });
 
 // --- Load data ---
+// Maps raw provider key → jurisdiction display name (used for map coloring + legend)
 const providerDisplayMap = {
-  'microsoft': 'Microsoft', 'google': 'Google', 'aws': 'AWS',
-  'telia': 'Local Provider', 'tet': 'Local Provider', 'zone': 'Local Provider', 'elkdata': 'Local Provider',
-  'local-isp': 'Local Provider', 'zoho': 'Local Provider', 'yandex': 'Local Provider', 'independent': 'Self-hosted', 'unknown': 'Unknown',
+  'microsoft': 'US Cloud',   'google': 'US Cloud',  'aws': 'US Cloud',  'zoho': 'US Cloud',
+  'yandex': 'Foreign Cloud',
+  'telia': 'EU Provider', 'tet': 'EU Provider', 'zone': 'EU Provider',
+  'elkdata': 'EU Provider', 'local-isp': 'EU Provider',
+  'independent': 'Self-hosted', 'unknown': 'Unknown',
+};
+
+// Maps raw provider key → human-readable vendor name (shown in popup detail)
+const vendorDisplayMap = {
+  'microsoft': 'Microsoft 365',  'google': 'Google Workspace',
+  'aws': 'Amazon SES',           'zoho': 'Zoho Mail',
+  'yandex': 'Yandex Mail',       'telia': 'Telia',
+  'tet': 'TET',                  'zone': 'Zone.eu',
+  'elkdata': 'Elkdata',          'local-isp': 'Local ISP',
+  'independent': 'Self-hosted',  'unknown': 'Unknown',
 };
 
 function transformMuni(m) {
-  const displayProvider = providerDisplayMap[m.provider] || m.provider;
+  const displayProvider = m.jurisdiction
+    ? ({ 'us-cloud':'US Cloud','foreign-cloud':'Foreign Cloud','eu-provider':'EU Provider','self-hosted':'Self-hosted','unknown':'Unknown' }[m.jurisdiction] || providerDisplayMap[m.provider] || m.provider)
+    : (providerDisplayMap[m.provider] || m.provider);
+  const vendor = vendorDisplayMap[m.provider] || m.provider;
   const mxRecords = (m.mx || []).map(function (host, i) { return { priority: (i + 1) * 10, host: host }; });
   return {
     ...m,
@@ -1611,10 +1909,11 @@ function transformMuni(m) {
     domain: m.domain || '',
     classification: {
       provider: displayProvider,
+      vendor: vendor,
       mx_records: mxRecords,
       spf: m.spf || '',
       reason: m.reason || '',
-      confidence: 80,
+      confidence: m.confidence || 0,
     },
   };
 }
@@ -1675,8 +1974,6 @@ function renderStats() {
     return html;
   }
 
-  // Aggregate by world region
-  var srMap = subRegionCountries();
   var globalProviders = {}, globalPopProviders = {}, globalTotal = 0, globalPop = 0;
   for (var cc in perCC) {
     var d = perCC[cc];
@@ -1696,7 +1993,7 @@ function renderStats() {
   // Global overview
   var gBase = usePop ? globalPop : globalTotal;
   var usVal = 0, localVal = 0, unkVal = 0;
-  var usProvs = ['Microsoft','Google','AWS'];
+  var usProvs = ['US Cloud','Foreign Cloud'];
   for (var p in (usePop ? globalPopProviders : globalProviders)) {
     var v = (usePop ? globalPopProviders : globalProviders)[p];
     if (usProvs.indexOf(p) >= 0) usVal += v;
@@ -1712,76 +2009,36 @@ function renderStats() {
       '<div style="flex:1;background:#f0f0f0;border-radius:3px;height:14px"><div style="width:'+w+'%;background:'+color+';height:100%;border-radius:3px;min-width:1px"></div></div>' +
       '<span style="width:55px;text-align:right;color:#888">'+fmt(v)+' ('+pct+'%)</span></div>';
   }
-  html += overviewBar('US-based', usVal, '#E83838');
-  html += overviewBar('Local', localVal, '#10B898');
-  html += overviewBar('Unknown', unkVal, '#BFBFBF');
+  html += overviewBar('US Cloud', usVal, COLORS['US Cloud']);
+  html += overviewBar('EU / Local', localVal, COLORS['EU Provider']);
+  html += overviewBar('Unknown', unkVal, COLORS['Unknown']);
 
-  // World regions
-  html += '<div style="margin-top:10px;font-size:11px;color:#777;text-transform:uppercase;letter-spacing:0.3px;font-weight:600;margin-bottom:4px">World regions</div>';
+  // Per-country Nordic breakdown
+  var nordicNames = { FI:'Finland', SE:'Sweden', NO:'Norway', DK:'Denmark', IS:'Iceland', GL:'Greenland' };
+  var activeList = COUNTRY_LIST.filter(function(cc) { return activeCountries.has(cc) && perCC[cc]; });
 
-  for (var wrName in WORLD_REGIONS) {
-    var subRegions = WORLD_REGIONS[wrName];
-    var wrProviders = {}, wrPopProviders = {}, wrTotal = 0, wrPop = 0, wrCountries = 0;
-    var subData = [];
+  if (activeList.length > 0) {
+    html += '<div style="margin-top:14px;font-size:11px;color:#777;text-transform:uppercase;letter-spacing:0.3px;font-weight:600;margin-bottom:6px">Nordic</div>';
+    for (var ni = 0; ni < activeList.length; ni++) {
+      var cc = activeList[ni];
+      var d = perCC[cc];
+      var cBase = usePop ? d.pop : d.total;
+      var cname = nordicNames[cc] || cc;
+      var flag = FLAGS[cc] || '';
+      var cSorted = Object.entries(usePop ? (d.popProviders || d.providers) : d.providers).sort(function(a,b){return b[1]-a[1]});
+      var cDom = cSorted.length > 0 ? cSorted[0][0] : '';
+      var cDomPct = cBase > 0 && cSorted.length > 0 ? Math.round(cSorted[0][1] / cBase * 100) : 0;
+      var cDomColor = COLORS[cDom] || '#888';
 
-    for (var si = 0; si < subRegions.length; si++) {
-      var sr = subRegions[si];
-      var srCCs = srMap[sr] || [];
-      var srP = {}, srPP = {}, srT = 0, srPop = 0, srCountryData = [];
-      for (var ci = 0; ci < srCCs.length; ci++) {
-        var cc = srCCs[ci];
-        var d = perCC[cc];
-        if (!d) continue;
-        srT += d.total; srPop += d.pop; wrTotal += d.total; wrPop += d.pop; wrCountries++;
-        for (var p in d.providers) { srP[p] = (srP[p]||0) + d.providers[p]; wrProviders[p] = (wrProviders[p]||0) + d.providers[p]; }
-        for (var p in d.popProviders) { srPP[p] = (srPP[p]||0) + d.popProviders[p]; wrPopProviders[p] = (wrPopProviders[p]||0) + d.popProviders[p]; }
-        srCountryData.push({ cc: cc, d: d });
-      }
-      if (srT > 0) subData.push({ name: SUB_REGION_NAMES[sr] || sr, providers: srP, popProviders: srPP, total: srT, pop: srPop, countries: srCountryData });
+      html += '<div style="margin:10px 0 6px">';
+      html += '<div style="font-size:12px;font-weight:600;color:#444;margin-bottom:3px">' +
+        flag + ' ' + cname +
+        ' <span style="color:#999;font-weight:400">(' + fmt(cBase) + (usePop ? ' people' : ' municipalities') + ')</span>' +
+        (cDom ? ' <span style="color:' + cDomColor + ';font-size:11px">' + cDom + ' ' + cDomPct + '%</span>' : '') +
+        '</div>';
+      html += providerBar(d.providers, d.popProviders, d.total, d.pop);
+      html += '</div>';
     }
-
-    if (wrTotal === 0) continue;
-
-    var wrBase = usePop ? wrPop : wrTotal;
-    // Find dominant provider
-    var wrSorted = Object.entries(usePop ? wrPopProviders : wrProviders).sort(function(a,b){return b[1]-a[1]});
-    var wrDominant = wrSorted.length > 0 ? wrSorted[0][0] : '?';
-    var wrDomPct = wrBase > 0 && wrSorted.length > 0 ? Math.round(wrSorted[0][1]/wrBase*100) : 0;
-
-    html += '<details style="margin:4px 0">';
-    html += '<summary style="cursor:pointer;font-size:12px;font-weight:600;padding:3px 0">' +
-      wrName + ' <span style="color:#888;font-weight:400">(' + wrCountries + ' countries, ' + fmt(wrBase) + ')</span>' +
-      ' <span style="color:' + (COLORS[wrDominant]||'#888') + '">' + wrDominant + ' ' + wrDomPct + '%</span></summary>';
-    html += '<div style="padding-left:8px">';
-    html += providerBar(wrProviders, wrPopProviders, wrTotal, wrPop);
-
-    // Sub-regions
-    subData.sort(function(a,b) { return val(b.total,b.pop) - val(a.total,a.pop); });
-    for (var si = 0; si < subData.length; si++) {
-      var sd = subData[si];
-      var sdBase = usePop ? sd.pop : sd.total;
-      var sdSorted = Object.entries(usePop ? sd.popProviders : sd.providers).sort(function(a,b){return b[1]-a[1]});
-      var sdDom = sdSorted.length > 0 ? sdSorted[0][0] : '?';
-      var sdPct = sdBase > 0 && sdSorted.length > 0 ? Math.round(sdSorted[0][1]/sdBase*100) : 0;
-
-      html += '<details style="margin:2px 0">';
-      html += '<summary style="cursor:pointer;font-size:11px;padding:2px 0">' +
-        sd.name + ' <span style="color:#888">(' + fmt(sdBase) + ')</span>' +
-        ' <span style="color:' + (COLORS[sdDom]||'#888') + '">' + sdDom + ' ' + sdPct + '%</span></summary>';
-      html += '<div style="padding-left:8px">';
-
-      // Countries
-      sd.countries.sort(function(a,b) { return val(b.d.total,b.d.pop) - val(a.d.total,a.d.pop); });
-      for (var ci = 0; ci < sd.countries.length; ci++) {
-        var c = sd.countries[ci];
-        var cBase = usePop ? c.d.pop : c.d.total;
-        var flag = FLAGS[c.cc] || '';
-        html += '<div style="margin-top:3px;font-size:10px"><strong>' + flag + ' ' + c.cc + '</strong> <span style="color:#888">(' + fmt(cBase) + ')</span></div>';
-        html += providerBar(c.d.providers, c.d.popProviders, c.d.total, c.d.pop);
-      }
-      html += '</div></details>';
-    }
-    html += '</div></details>';
   }
 
   content.innerHTML = html;
@@ -1936,12 +2193,15 @@ async function loadData() {
 
     const content = document.querySelector('.legend-content');
     if (content) {
+      const cbLabel = colorScheme === 'colorblind' ? '\u2299 Default colors' : '\u2299 Colorblind mode';
       content.innerHTML =
-        '<strong>Email Provider</strong>' +
-        legendGroupHtml('US-based', ['Microsoft', 'Google', 'AWS'], counts) +
-        legendGroupHtml('Local', ['Local Provider', 'Self-hosted', 'Unknown'], counts) +
-        (gwCount > 0 ? `<div style="margin-top:8px;font-size:11px;color:#795548">\u{1F6E1}\uFE0F = local gateway, US mailbox (${gwCount})</div>` : '') +
-        `<div style="margin-top:4px;font-size:11px;color:#999">${total} municipalities</div>`;
+        '<strong>Email Hosting</strong>' +
+        legendGroupHtml('Foreign jurisdiction', ['US Cloud', 'Foreign Cloud'], counts) +
+        legendGroupHtml('EU / Nordic hosted', ['EU Provider', 'Self-hosted'], counts) +
+        legendGroupHtml('', ['Unknown'], counts) +
+        (gwCount > 0 ? `<div style="margin-top:8px;font-size:11px;color:#795548">\u{1F6E1}\uFE0F = via local gateway (${gwCount})</div>` : '') +
+        `<div style="margin-top:4px;font-size:11px;color:#999">${total} municipalities</div>` +
+        `<button class="color-toggle" onclick="toggleColorScheme()">${cbLabel}</button>`;
     }
   };
   updateLegend();
@@ -1986,6 +2246,9 @@ async function loadData() {
 
   // Load more countries as user pans/zooms
   map.on('moveend', function () { renderVisibleCountries(); });
+
+  // Preload admin region data in background (small file, instant switch)
+  loadAdminRegionData();
 
   // Drill-down: load per-country data from popup button
   document.getElementById('map').addEventListener('click', function(e) {
@@ -2087,6 +2350,176 @@ loadData().catch(function (err) {
     loading.style.color = '#dc2626';
   }
 });
+
+// --- Stock Indices layers ---
+const INDEX_CONFIG = [
+  { key: 'dk', cc: 'DK', file: 'data/omxc20_classified.json' },
+  { key: 'se', cc: 'SE', file: 'data/omxs30_classified.json' },
+  { key: 'no', cc: 'NO', file: 'data/obx_classified.json'    },
+  { key: 'fi', cc: 'FI', file: 'data/omxh25_classified.json' },
+  { key: 'is', cc: 'IS', file: 'data/omxi15_classified.json' },
+];
+const indexData = {};
+const indexMarkers = {};
+const indexPanelOpen = {};
+for (const cfg of INDEX_CONFIG) {
+  indexMarkers[cfg.key] = L.layerGroup();
+  indexPanelOpen[cfg.key] = false;
+}
+
+// Disable Leaflet map drag/scroll on all index panels
+function initIndexPanelEvents() {
+  for (const cfg of INDEX_CONFIG) {
+    const panel = document.getElementById(`idx-panel-${cfg.key}`);
+    if (!panel) continue;
+    L.DomEvent.disableClickPropagation(panel);
+    L.DomEvent.disableScrollPropagation(panel);
+    panel.addEventListener('wheel', e => e.stopPropagation(), { passive: false });
+    panel.addEventListener('touchstart', e => e.stopPropagation(), { passive: true });
+    panel.addEventListener('touchmove', e => e.stopPropagation(), { passive: false });
+  }
+}
+
+function buildCompanyPopup(c) {
+  const jurisdiction = providerDisplayMap[c.provider] || c.provider || 'Unknown';
+  const vendor = vendorDisplayMap[c.provider] || c.provider || 'Unknown';
+  const color = COLORS[jurisdiction] || COLORS['Unknown'];
+  const textColor = DARK_TEXT.has(jurisdiction) ? '#333' : '#fff';
+  const vendorNote = (vendor && vendor !== jurisdiction)
+    ? `<span style="font-size:11px;color:#666;margin-left:4px">${escapeHtml(vendor)}</span>` : '';
+  let html = `<div class="info-popup">
+    <strong>${escapeHtml(c.name)}</strong>
+    <span class="provider-badge" style="background:${color};color:${textColor}">${escapeHtml(jurisdiction)}</span>${vendorNote}
+    <br><span style="font-size:11px;color:#999">${escapeHtml(c.ticker)} &middot; ${escapeHtml(c.sector)}</span>
+    <br><span style="font-size:11px;color:#777">${escapeHtml(c.hq_address)}</span>`;
+  if (c.gateway) {
+    html += `<div style="margin-top:5px;padding:4px 8px;background:#fff3e0;border-left:3px solid #ff9800;font-size:11px;color:#795548">&#128737;&#65039; Gateway: <strong>${escapeHtml(c.gateway)}</strong></div>`;
+  }
+  if (c.mx && c.mx.length > 0) {
+    html += `<div class="popup-section"><div class="popup-section-title">MX</div>`;
+    html += c.mx.slice(0, 3).map(h => `<div style="font-family:ui-monospace,monospace;font-size:11px;color:#555;overflow:hidden;text-overflow:ellipsis">${escapeHtml(h)}</div>`).join('');
+    html += `</div>`;
+  }
+  if (c.reason) {
+    html += `<div class="popup-section"><div class="popup-section-title">Why this label?</div><div style="font-size:11px;color:#555">${escapeHtml(c.reason)}</div></div>`;
+  }
+  html += `</div>`;
+  return html;
+}
+
+function renderIndexMarkers(key) {
+  const layer = indexMarkers[key];
+  layer.clearLayers();
+  const data = indexData[key];
+  if (!data) return;
+  for (const c of data.companies) {
+    const provider = providerDisplayMap[c.provider] || c.provider || 'Unknown';
+    const color = COLORS[provider] || COLORS['Unknown'];
+    const marker = L.circleMarker([c.hq_lat, c.hq_lng], {
+      radius: 8, fillColor: color, color: '#fff', weight: 2.5, fillOpacity: 0.92,
+    });
+    marker.bindPopup(buildCompanyPopup(c), { maxWidth: 320 });
+    layer.addLayer(marker);
+  }
+}
+
+function renderIndexList(key) {
+  const listEl = document.getElementById(`idx-list-${key}`);
+  if (!listEl) return;
+  const data = indexData[key];
+  if (!data) return;
+  const sorted = data.companies.slice().sort((a, b) => a.name.localeCompare(b.name));
+  let html = '';
+  for (const c of sorted) {
+    const jurisdiction = providerDisplayMap[c.provider] || c.provider || 'Unknown';
+    const vendor = vendorDisplayMap[c.provider] || '';
+    const color = COLORS[jurisdiction] || COLORS['Unknown'];
+    const textColor = DARK_TEXT.has(jurisdiction) ? '#333' : '#fff';
+    // Show vendor name in the list row (more informative than jurisdiction alone)
+    const badgeLabel = (vendor && vendor !== jurisdiction) ? vendor : jurisdiction;
+    html += `<div class="omxc20-row" onclick="panToCompany(${c.hq_lat},${c.hq_lng})" title="${escapeHtml(c.name)} — ${escapeHtml(c.hq_address)}">
+      <span style="display:inline-block;width:9px;height:9px;background:${color};border-radius:50%;border:1.5px solid #fff;box-shadow:0 0 0 1px ${color};flex-shrink:0"></span>
+      <span style="flex:1;font-size:11px;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${escapeHtml(c.name)}</span>
+      <span class="provider-badge" style="background:${color};color:${textColor};font-size:9px;padding:1px 5px;margin-left:3px;flex-shrink:0">${escapeHtml(badgeLabel)}</span>
+    </div>`;
+  }
+  listEl.innerHTML = html;
+}
+
+window.panToCompany = function(lat, lng) {
+  map.setView([lat, lng], Math.max(map.getZoom(), 11));
+  for (const key of Object.keys(indexMarkers)) {
+    indexMarkers[key].eachLayer(function(m) {
+      const ll = m.getLatLng();
+      if (Math.abs(ll.lat - lat) < 0.001 && Math.abs(ll.lng - lng) < 0.001) m.openPopup();
+    });
+  }
+};
+
+window.toggleIndex = function(key) {
+  const isOpen = indexPanelOpen[key];
+  // Close all panels first
+  for (const cfg of INDEX_CONFIG) {
+    indexPanelOpen[cfg.key] = false;
+    const p = document.getElementById(`idx-panel-${cfg.key}`);
+    if (p) p.style.display = 'none';
+    const b = document.getElementById(`idx-btn-${cfg.key}`);
+    if (b) { b.classList.remove('active'); b.innerHTML = b.innerHTML.replace('&#9650;','&#9662;').replace('▲','▽'); }
+  }
+  if (!isOpen) {
+    // Open this one
+    indexPanelOpen[key] = true;
+    const p = document.getElementById(`idx-panel-${key}`);
+    if (p) p.style.display = 'flex';
+    const b = document.getElementById(`idx-btn-${key}`);
+    if (b) { b.classList.add('active'); b.innerHTML = b.innerHTML.replace('&#9662;','&#9650;').replace('▽','▲'); }
+  }
+};
+
+// Hook button clicks
+for (const cfg of INDEX_CONFIG) {
+  const btn = document.getElementById(`idx-btn-${cfg.key}`);
+  if (btn) btn.addEventListener('click', () => window.toggleIndex(cfg.key));
+}
+
+// Show/hide index buttons based on country selection
+function updateIndexButtons() {
+  for (const cfg of INDEX_CONFIG) {
+    const btn = document.getElementById(`idx-btn-${cfg.key}`);
+    if (!btn) continue;
+    const visible = activeCountries.has(cfg.cc);
+    btn.style.display = visible ? '' : 'none';
+    // If country gets hidden, also close its panel
+    if (!visible && indexPanelOpen[cfg.key]) {
+      window.toggleIndex(cfg.key); // toggles it closed
+      // re-toggle to close since toggleIndex would re-open due to !isOpen logic
+      // Actually just close directly:
+      indexPanelOpen[cfg.key] = false;
+      const p = document.getElementById(`idx-panel-${cfg.key}`);
+      if (p) p.style.display = 'none';
+      btn.classList.remove('active');
+    }
+  }
+}
+
+async function loadIndex(cfg) {
+  try {
+    const res = await fetch(cfg.file);
+    if (!res.ok) return;
+    indexData[cfg.key] = await res.json();
+    renderIndexMarkers(cfg.key);
+    renderIndexList(cfg.key);
+    indexMarkers[cfg.key].addTo(map);
+    // Show button only if country is active
+    updateIndexButtons();
+  } catch(e) {
+    console.warn(`Index data unavailable: ${cfg.file}`, e);
+  }
+}
+
+for (const cfg of INDEX_CONFIG) loadIndex(cfg);
+initIndexPanelEvents();
+
 });
 </script>
 </body>

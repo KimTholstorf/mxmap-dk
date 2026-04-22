@@ -1,0 +1,617 @@
+{
+  "generated": "2026-04-21T10:01:38.737988+00:00",
+  "companies": [
+    {
+      "ticker": "NOKIA",
+      "name": "Nokia",
+      "domain": "nokia.com",
+      "sector": "Telecommunications",
+      "hq_address": "Espoo",
+      "hq_municipality": "Espoo",
+      "hq_lat": 60.2052,
+      "hq_lng": 24.6522,
+      "verified": true,
+      "mx": [
+        "nokia-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:%{i}._ip.%{h}._ehlo.%{d}._spf.vali.email ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (nokia-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "KNEBV",
+      "name": "KONE",
+      "domain": "kone.com",
+      "sector": "Elevators & Escalators",
+      "hq_address": "Espoo",
+      "hq_municipality": "Espoo",
+      "hq_lat": 60.2052,
+      "hq_lng": 24.6522,
+      "verified": true,
+      "mx": [
+        "kone-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf1.kone.com include:spf2.kone.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (kone-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "NESTE",
+      "name": "Neste",
+      "domain": "neste.com",
+      "sector": "Oil Refining",
+      "hq_address": "Espoo",
+      "hq_municipality": "Espoo",
+      "hq_lat": 60.2052,
+      "hq_lng": 24.6522,
+      "verified": true,
+      "mx": [
+        "alt1.aspmx.l.google.com",
+        "alt2.aspmx.l.google.com",
+        "alt3.aspmx.l.google.com",
+        "alt4.aspmx.l.google.com",
+        "aspmx.l.google.com"
+      ],
+      "spf": "v=spf1 include:Sendgrid.net include:sendsmaily.info include:_spf.google.com include:_spf.salesforce.com ip4:145.247.12.192/27 ip4:132.155.155.224/28 ip4:80.69.172.31 ip4:134.213.156.199 ip4:134.213.132.132 ip4:194.204.27.130/31 IP4:192.89.123.25 ip4:81.22.160.12/31 ip4:81.22.163.205 ip4:194.86.29.51 ip4:155.56.0.0/16 ip4:172.29.1.13 ip4:130.214.0.0/16 ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "google",
+      "reason": "MX record (alt1.aspmx.l.google.com, alt2.aspmx.l.google.com) matches Google",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "STERV",
+      "name": "Stora Enso",
+      "domain": "storaenso.com",
+      "sector": "Paper & Packaging",
+      "hq_address": "Helsinki",
+      "hq_municipality": "Helsinki",
+      "hq_lat": 60.1699,
+      "hq_lng": 24.9384,
+      "verified": true,
+      "mx": [
+        "storaenso-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:20.31.189.248 ip4:20.23.169.57 ip4:13.95.232.64 include:spf.protection.outlook.com include:_spf.salesforce.com include:ipreomail.com include:spf.emailsignatures365.com ip4:84.22.190.160 ip4:83.145.214.97 include:spf.wm.net ip4:208.87.221.26 ip4:167.89.87.16 include:spf.hypeinnovation.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (storaenso-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "UPM",
+      "name": "UPM-Kymmene",
+      "domain": "upm.com",
+      "sector": "Forest Products",
+      "hq_address": "Helsinki",
+      "hq_municipality": "Helsinki",
+      "hq_lat": 60.1699,
+      "hq_lng": 24.9384,
+      "verified": true,
+      "mx": [
+        "upm-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:176.98.164.41 ip4:176.98.164.47 ip4:193.24.71.10 ip4:207.54.65.76 ip4:148.139.1.2 ip4:148.139.0.2 ip4:207.54.67.121 ip4:67.231.148.140 ip4:67.231.156.139 ip4:193.66.190.13 ip4:193.66.190.14 ip4:146.177.4.183 a:c.spf.service-now.com include:spf.mailjet.com include:_spf.salesforce.com include:spf.sofor.fi include:et._spf.pardot.com include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (upm-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "SAMPO",
+      "name": "Sampo",
+      "domain": "sampo.com",
+      "sector": "Insurance",
+      "hq_address": "Helsinki",
+      "hq_municipality": "Helsinki",
+      "hq_lat": 60.1699,
+      "hq_lng": 24.9384,
+      "verified": true,
+      "mx": [
+        "sampo-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com include:spf.if.eu include:spf.mailjet.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (sampo-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "WRT1V",
+      "name": "Wärtsilä",
+      "domain": "wartsila.com",
+      "sector": "Marine & Energy",
+      "hq_address": "Helsinki",
+      "hq_municipality": "Helsinki",
+      "hq_lat": 60.1699,
+      "hq_lng": 24.9384,
+      "verified": true,
+      "mx": [
+        "wartsila-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com include:spf1.wartsila.com include:_spf.salesforce.com ip4:198.37.158.255 ip4:149.72.213.6 -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (wartsila-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "ORNBV",
+      "name": "Orion",
+      "domain": "orion.fi",
+      "sector": "Pharmaceuticals",
+      "hq_address": "Espoo",
+      "hq_municipality": "Espoo",
+      "hq_lat": 60.2052,
+      "hq_lng": 24.6522,
+      "verified": true,
+      "mx": [
+        "orion-fi.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:160.71.208.24 ip4:213.214.129.119 include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (orion-fi.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "ELISA",
+      "name": "Elisa",
+      "domain": "elisa.fi",
+      "sector": "Telecommunications",
+      "hq_address": "Helsinki",
+      "hq_municipality": "Helsinki",
+      "hq_lat": 60.1699,
+      "hq_lng": 24.9384,
+      "verified": true,
+      "mx": [
+        "mx1.elisa.fi",
+        "mx2.elisa.fi"
+      ],
+      "spf": "v=spf1 redirect=_spf1.elisa.fi",
+      "mx_countries": [
+        "FI"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX (mx1.elisa.fi, mx2.elisa.fi) is local gateway; DKIM reveals microsoft backend",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "FORTUM",
+      "name": "Fortum",
+      "domain": "fortum.com",
+      "sector": "Energy",
+      "hq_address": "Espoo",
+      "hq_municipality": "Espoo",
+      "hq_lat": 60.2052,
+      "hq_lng": 24.6522,
+      "verified": true,
+      "mx": [
+        "fortum-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:%{i}._ip.%{h}._ehlo.%{d}._spf.vali.email include:spf.protection.outlook.com include:spf.mailjet.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (fortum-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "KESBV",
+      "name": "Kesko",
+      "domain": "kesko.fi",
+      "sector": "Retail",
+      "hq_address": "Helsinki",
+      "hq_municipality": "Helsinki",
+      "hq_lat": 60.1699,
+      "hq_lng": 24.9384,
+      "verified": true,
+      "mx": [
+        "kesko-fi.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com ip4:88.148.163.128/26 ip4:104.45.82.9 ip4:131.207.55.48/29 ip4:185.192.14.12 ip4:185.192.14.14 ip4:157.144.241.15 ip4:131.207.84.118 ip4:131.207.75.3 ip4:82.197.31.39 ip4:82.197.31.40 ip4:82.197.31.41 ip4:94.199.58.208 ip4:213.141.125.164 ip4:91.217.141.12 ip4:131.207.55.41 ip4:62.121.49.16 ip4:168.245.94.35 ip4:168.245.15.153 ip4:188.117.37.109 ip4:81.22.169.238 ip4:81.22.169.239 ip4:94.237.104.60 ip4:35.214.208.81 ip4:35.214.213.218 ip4:35.214.183.81 ip4:35.214.212.238 include:spf.lianamailer.com include:spf.mailjet.com include:postimessaging.net include:mail.zendesk.com -all ",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (kesko-fi.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "METSO",
+      "name": "Metso",
+      "domain": "metso.com",
+      "sector": "Industrial Machinery",
+      "hq_address": "Helsinki",
+      "hq_municipality": "Helsinki",
+      "hq_lat": 60.1699,
+      "hq_lng": 24.9384,
+      "verified": true,
+      "mx": [
+        "metso-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com include:et._spf.pardot.com exists:%{ir}-spf.metso.com include:amazonses.com include:_spf.qemailserver.com include:spf.mailjet.com include:successfactors.eu include:_spf.salesforce.com ip4:208.185.229.0/24 ip4:208.185.235.0/24 ip4:148.59.108.0/23 ip4:148.59.106.0/23 ip4:192.194.58.235 ip4:148.139.1.2 ip4:148.139.0.2 ip4:92.51.191.52 -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (metso-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "OUT1V",
+      "name": "Outokumpu",
+      "domain": "outokumpu.com",
+      "sector": "Steel",
+      "hq_address": "Helsinki",
+      "hq_municipality": "Helsinki",
+      "hq_lat": 60.1699,
+      "hq_lng": 24.9384,
+      "verified": true,
+      "mx": [
+        "outokumpu-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf2.outokumpu.com include:spf3.outokumpu.com include:spf.protection.outlook.com a:c.spf.service-now.com include:spf.mandrillapp.com include:_spf.retriever-info.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (outokumpu-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "TIETO",
+      "name": "Tietoevry",
+      "domain": "tietoevry.com",
+      "sector": "IT Services",
+      "hq_address": "Espoo",
+      "hq_municipality": "Espoo",
+      "hq_lat": 60.2052,
+      "hq_lng": 24.6522,
+      "verified": true,
+      "mx": [
+        "tietoevry-com.d-v1.mx.microsoft"
+      ],
+      "spf": "v=spf1 include:_spf1.tietoevry.com include:_spf2.tietoevry.com include:mktomail.com include:spf.protection.outlook.com include:mail.zendesk.com include:_smtpspf.fxh42.net ip4:51.140.185.73 ip4:51.145.26.67 ip4:51.140.29.80 ip4:195.167.132.162 -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (tietoevry-com.d-v1.mx.microsoft) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "CGCBV",
+      "name": "Cargotec",
+      "domain": "cargotec.com",
+      "sector": "Cargo Handling",
+      "hq_address": "Helsinki",
+      "hq_municipality": "Helsinki",
+      "hq_lat": 60.1699,
+      "hq_lng": 24.9384,
+      "verified": true,
+      "mx": [
+        "alt1.aspmx.l.google.com",
+        "alt2.aspmx.l.google.com",
+        "alt3.aspmx.l.google.com",
+        "alt4.aspmx.l.google.com",
+        "aspmx.l.google.com"
+      ],
+      "spf": "v=spf1 include:spf.cargotec.com.eu-1pfzdmlj.e1.dspf.app -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "google",
+      "reason": "MX record (alt1.aspmx.l.google.com, alt2.aspmx.l.google.com) matches Google",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "METSB",
+      "name": "Metsä Board",
+      "domain": "metsagroup.com",
+      "sector": "Paperboard",
+      "hq_address": "Espoo",
+      "hq_municipality": "Espoo",
+      "hq_lat": 60.2052,
+      "hq_lng": 24.6522,
+      "verified": true,
+      "mx": [
+        "metsagroup-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.lianamailer.com include:customers.clickdimensions.com include:spf.protection.outlook.com include:spf.mailjet.com include:spf.ipzmarketing.com ip4:82.197.31.32/28 ip4:146.119.16.2 ip4:146.119.16.3 ip4:83.145.214.97 ip4:195.50.76.237 ip4:80.74.207.118 ip4:146.119.208.23 ip4:146.119.208.24 a:c.spf.service-now.com ip4:141.101.36.84 ip4:12.129.29.143 ip4:74.122.253.71 ip4:74.122.253.72 ip4:193.122.6.83 ip4:193.122.60.73 ip4:77.86.165.104 -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (metsagroup-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "HLAG",
+      "name": "Huhtamäki",
+      "domain": "huhtamaki.com",
+      "sector": "Packaging",
+      "hq_address": "Espoo",
+      "hq_municipality": "Espoo",
+      "hq_lat": 60.2052,
+      "hq_lng": 24.6522,
+      "verified": true,
+      "mx": [
+        "d309357.a.ess.de.barracudanetworks.com",
+        "d309357.b.ess.de.barracudanetworks.com"
+      ],
+      "spf": "v=spf1 mx ip4:98.191.93.95 ip4:195.236.7.52 ip4:128.242.114.124 ip4:12.105.150.28 ip4:32.58.219.225 ip4:194.157.69.71 ip4:195.201.75.0/24 ip4:195.201.73.0/24 ip4:193.66.190.12 ip4:193.66.190.13 ip4:193.66.190.14 ip4:205.201.128.0/20 ip4:198.2.128.0/18 ip4:148.105.8.0/21 ip4:199.255.192.0/22 ip4:199.127.232.0/24 ip4:54.240.0.0/18 ip4:69.169.224.0/24 ip4:76.223.180.0/23 ip4:76.223.188.0/24 ip4:76.223.189.0/24 ip4:76.223.190.0/24 ip4:52.172.186.206 ip4:50.31.156.96/27 ip4:104.245.209.192/26 ip4:50.31.205.0/24 ip4:167.89.18.77 ip4:167.89.69.224 include:spf.ess.de.barracudanetworks.com include:eu.rp.oracleemaildelivery.com include:theaccessgroupspf.smtp.com include:spf_c.oraclecloud.com include:25597700.spf03.hubspotemail.net include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": "barracuda",
+      "tenant": "Federated",
+      "provider": "microsoft",
+      "reason": "MX is barracuda gateway; SPF+autodiscover confirm microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "VALMT",
+      "name": "Valmet",
+      "domain": "valmet.com",
+      "sector": "Pulp & Paper Machinery",
+      "hq_address": "Espoo",
+      "hq_municipality": "Espoo",
+      "hq_lat": 60.2052,
+      "hq_lng": 24.6522,
+      "verified": true,
+      "mx": [
+        "valmet-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.mailjet.com include:spf.protection.outlook.com include:_spf.questback.net include:_spf.salesforce.com include:spf.a.valmet.com include:amazonses.com include:et._spf.pardot.com include:spf.lianamailer.com include:_spf.tivian.com ip4:16.16.164.185 ip4:51.21.35.155 -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (valmet-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "KEMIRA",
+      "name": "Kemira",
+      "domain": "kemira.com",
+      "sector": "Chemicals",
+      "hq_address": "Helsinki",
+      "hq_municipality": "Helsinki",
+      "hq_lat": 60.1699,
+      "hq_lng": 24.9384,
+      "verified": true,
+      "mx": [
+        "kemira-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:spf.protection.outlook.com ip4:192.40.79.2 include:mktomail.com ip4:195.7.64.8 ip4:80.81.171.48/29 ip4:194.131.241.83 ip4:193.93.132.103 ip4:62.70.39.128/27 ip4:217.73.9.208/28 ip4:95.142.102.0/25 include:spf.mailjet.com include:smtp-out.ivalua.fr include:_spf.salesforce.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (kemira-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "NXTMH",
+      "name": "Nokian Tyres",
+      "domain": "nokiantyres.com",
+      "sector": "Tyres",
+      "hq_address": "Nokia",
+      "hq_municipality": "Nokia",
+      "hq_lat": 61.4783,
+      "hq_lng": 23.5089,
+      "verified": true,
+      "mx": [
+        "d340247.a.ess.de.barracudanetworks.com",
+        "d340247.b.ess.de.barracudanetworks.com"
+      ],
+      "spf": "v=spf1 ip4:37.19.20.10 ip4:95.175.113.181 include:spf_c.oraclecloud.com include:spf.dynect.net include:_spf.salesforce.com include:spf.mailjet.com include:et._spf.pardot.com include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": "barracuda",
+      "tenant": "Federated",
+      "provider": "microsoft",
+      "reason": "MX is barracuda gateway; SPF+DKIM confirm microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "VIASAV",
+      "name": "Vaisala",
+      "domain": "vaisala.com",
+      "sector": "Measurement Instruments",
+      "hq_address": "Vantaa",
+      "hq_municipality": "Vantaa",
+      "hq_lat": 60.2934,
+      "hq_lng": 25.0378,
+      "verified": true,
+      "mx": [
+        "vaisala-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:192.81.123.0/24 ip4:193.143.230.0/24 ip4:192.101.77.176 ip4:199.33.72.11 ip4:77.240.17.136 ip4:195.60.252.134 ip4:195.60.252.50 include:spf2.vaisala.com include:spf3.vaisala.com include:spf.protection.outlook.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (vaisala-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "ASAVAV",
+      "name": "Aspo",
+      "domain": "aspo.com",
+      "sector": "Conglomerate",
+      "hq_address": "Helsinki",
+      "hq_municipality": "Helsinki",
+      "hq_lat": 60.1699,
+      "hq_lng": 24.9384,
+      "verified": true,
+      "mx": [
+        "de-smtp-inbound-1.mimecast.com",
+        "de-smtp-inbound-2.mimecast.com"
+      ],
+      "spf": "v=spf1 a mx include:de._netblocks.mimecast.com include:1706192.spf03.hubspotemail.net include:_spf.psm.knowbe4.com include:emaileuc.freshservice.com include:amazonses.com ip4:87.253.233.197 ~all",
+      "mx_countries": [
+        "DE"
+      ],
+      "gateway": "mimecast",
+      "tenant": "Managed",
+      "provider": "microsoft",
+      "reason": "MX is mimecast gateway; TXT verification proves microsoft tenant",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "AKTIA",
+      "name": "Aktia Bank",
+      "domain": "aktia.fi",
+      "sector": "Banking",
+      "hq_address": "Helsinki",
+      "hq_municipality": "Helsinki",
+      "hq_lat": 60.1699,
+      "hq_lng": 24.9384,
+      "verified": true,
+      "mx": [
+        "aktia-fi.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:%{i}._ip.%{h}._ehlo.%{d}._spf.vali.email ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (aktia-fi.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "SRED",
+      "name": "Sanoma",
+      "domain": "sanoma.com",
+      "sector": "Media",
+      "hq_address": "Helsinki",
+      "hq_municipality": "Helsinki",
+      "hq_lat": 60.1699,
+      "hq_lng": 24.9384,
+      "verified": true,
+      "mx": [
+        "sanoma-com.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 ip4:158.127.0.0/16 include:spf1.sanoma.com include:spf.mandrillapp.com  include:amazonses.com include:spf.protection.outlook.com include:_spf.salesforce.com include:spf.lianamailer.com include:spf.mailjet.com include:mktomail.com -all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (sanoma-com.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    },
+    {
+      "ticker": "PUUILO",
+      "name": "Puuilo",
+      "domain": "puuilo.fi",
+      "sector": "Retail",
+      "hq_address": "Oulu",
+      "hq_municipality": "Oulu",
+      "hq_lat": 65.0121,
+      "hq_lng": 25.4651,
+      "verified": true,
+      "mx": [
+        "puuilo-fi.mail.protection.outlook.com"
+      ],
+      "spf": "v=spf1 include:sendgrid.net include:spf.protection.outlook.com include:ebs.spf.vismaconsulting.fi include:_spf.lipscore.com include:spf.cuuma.fi include:em4468.puuilo.fi ~all",
+      "mx_countries": [
+        "US"
+      ],
+      "gateway": null,
+      "tenant": null,
+      "provider": "microsoft",
+      "reason": "MX record (puuilo-fi.mail.protection.outlook.com) matches Microsoft",
+      "smtp_banner": "",
+      "smtp_software": ""
+    }
+  ]
+}

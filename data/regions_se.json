@@ -1,0 +1,23 @@
+[
+  {"id": "SE-R-BL", "name": "Region Blekinge",           "full_name": "Region Blekinge",           "country": "SE", "domain": "regionblekinge.se",    "verified": false},
+  {"id": "SE-R-DA", "name": "Region Dalarna",            "full_name": "Region Dalarna",            "country": "SE", "domain": "regiondalarna.se",     "verified": false},
+  {"id": "SE-R-GO", "name": "Region Gotland",            "full_name": "Region Gotland",            "country": "SE", "domain": "gotland.se",           "verified": false},
+  {"id": "SE-R-GV", "name": "Region Gävleborg",          "full_name": "Region Gävleborg",          "country": "SE", "domain": "regiongavleborg.se",   "verified": false},
+  {"id": "SE-R-HA", "name": "Region Halland",            "full_name": "Region Halland",            "country": "SE", "domain": "regionhalland.se",     "verified": false},
+  {"id": "SE-R-JH", "name": "Region Jämtland Härjedalen","full_name": "Region Jämtland Härjedalen","country": "SE", "domain": "regionjh.se",          "verified": false},
+  {"id": "SE-R-JO", "name": "Region Jönköping",          "full_name": "Region Jönköping",          "country": "SE", "domain": "rjl.se",               "verified": false},
+  {"id": "SE-R-KA", "name": "Region Kalmar",             "full_name": "Region Kalmar",             "country": "SE", "domain": "regionkalmar.se",      "verified": false},
+  {"id": "SE-R-KR", "name": "Region Kronoberg",          "full_name": "Region Kronoberg",          "country": "SE", "domain": "kronoberg.se",         "verified": false},
+  {"id": "SE-R-NO", "name": "Region Norrbotten",         "full_name": "Region Norrbotten",         "country": "SE", "domain": "norrbotten.se",        "verified": false},
+  {"id": "SE-R-SK", "name": "Region Skåne",              "full_name": "Region Skåne",              "country": "SE", "domain": "skane.se",             "verified": false},
+  {"id": "SE-R-ST", "name": "Region Stockholm",          "full_name": "Region Stockholm",          "country": "SE", "domain": "regionstockholm.se",   "verified": false},
+  {"id": "SE-R-SO", "name": "Region Sörmland",           "full_name": "Region Sörmland",           "country": "SE", "domain": "regionsormland.se",    "verified": false},
+  {"id": "SE-R-UP", "name": "Region Uppsala",            "full_name": "Region Uppsala",            "country": "SE", "domain": "regionuppsala.se",     "verified": false},
+  {"id": "SE-R-VA", "name": "Region Värmland",           "full_name": "Region Värmland",           "country": "SE", "domain": "regionvarmland.se",    "verified": false},
+  {"id": "SE-R-VB", "name": "Region Västerbotten",       "full_name": "Region Västerbotten",       "country": "SE", "domain": "regionvasterbotten.se","verified": false},
+  {"id": "SE-R-VN", "name": "Region Västernorrland",     "full_name": "Region Västernorrland",     "country": "SE", "domain": "rvn.se",               "verified": false},
+  {"id": "SE-R-VM", "name": "Region Västmanland",        "full_name": "Region Västmanland",        "country": "SE", "domain": "regionvastmanland.se", "verified": false},
+  {"id": "SE-R-VG", "name": "Region Västra Götaland",    "full_name": "Region Västra Götaland",    "country": "SE", "domain": "vgregion.se",          "verified": false},
+  {"id": "SE-R-OR", "name": "Region Örebro",             "full_name": "Region Örebro",             "country": "SE", "domain": "regionorebrolan.se",   "verified": false},
+  {"id": "SE-R-OG", "name": "Region Östergötland",       "full_name": "Region Östergötland",       "country": "SE", "domain": "regionostergotland.se","verified": false}
+]
