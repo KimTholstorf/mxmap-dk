@@ -150,3 +150,4 @@ Built on [livenson/mxmap](https://github.com/livenson/mxmap), which extended the
 - [mxmap.ch](https://mxmap.ch) — the original Swiss municipality email provider map by David Huser
 - [livenson/mxmap](https://github.com/livenson/mxmap) — worldwide fork this project is based on
 - [swedish-mail-dependency.netlify.app](https://swedish-mail-dependency.netlify.app) — Swedish-focused equivalent
+- [kommune-epost-norge.netlify.app](https://kommune-epost-norge.netlify.app) — Norwegian-focused equivalent
