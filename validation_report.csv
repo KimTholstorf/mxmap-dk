@@ -1,0 +1,1150 @@
+bfs,name,provider,domain,confidence,flags
+IS-0012,Fljótsdalshreppur,unknown,fljotsdal.is,15,no_mx; no_spf; provider_unknown
+IS-0042,Skeiða- og Gnúpverjahreppur,unknown,sogsveit.is,15,no_mx; no_spf; provider_unknown
+IS-0043,Skorradalshreppur,unknown,skorradalshr.is,15,no_mx; no_spf; provider_unknown
+DK-316,Holbæk,independent,holbaek.dk,50,no_spf; provider_classified
+IS-0021,Hvalfjarðarsveit,local-isp,hvalfjordur.is,55,multiple_mx; no_spf; provider_classified
+NO-4617,Kvinnherad,microsoft,kvinnherad.kommune.no,55,no_spf; provider_classified; autodiscover_confirms
+SE-1285,Eslöv,microsoft,eslov.se,68,spf_softfail; provider_classified
+SE-1082,Karlshamn,microsoft,karlshamn.se,68,spf_softfail; provider_classified
+FI-710,Raasepori,microsoft,raasepori.fi,68,spf_softfail; provider_classified
+SE-0120,Värmdö,microsoft,varmdo.se,68,spf_softfail; provider_classified
+SE-1292,Ängelholm,microsoft,engelholm.se,68,spf_softfail; provider_classified
+DK-201,Allerød,microsoft,alleroed.dk,70,spf_strict; provider_classified
+DK-151,Ballerup,microsoft,balk.dk,70,spf_strict; provider_classified
+DK-190,Furesø,microsoft,furesoe.dk,70,spf_strict; provider_classified
+SE-0126,Huddinge,microsoft,huddinge.se,70,spf_strict; provider_classified
+FI-108,Hämeenkyrö,microsoft,hameenkyro.fi,70,spf_strict; provider_classified
+FI-211,Kangasala,microsoft,kangasala.fi,70,spf_strict; provider_classified
+FI-418,Lempäälä,microsoft,lempaala.fi,70,spf_strict; provider_classified
+DK-825,Læsø,microsoft,laesoe.dk,70,spf_strict; provider_classified
+FI-536,Nokia,microsoft,nokiankaupunki.fi,70,spf_strict; provider_classified
+FI-562,Orivesi,microsoft,orivesi.fi,70,spf_strict; provider_classified
+SE-1273,Osby,microsoft,osby.se,70,spf_strict; independent_mx_with_cloud_spf; multi_provider_spf:aws+mailgun+microsoft; provider_classified
+FI-604,Pirkkala,microsoft,pirkkala.fi,70,spf_strict; provider_classified
+SE-0163,Sollentuna,local-isp,sollentuna.se,70,spf_strict; independent_mx_with_cloud_spf; multi_provider_spf:google+microsoft; provider_classified
+SE-1766,Sunne,microsoft,sunne.se,70,spf_strict; provider_classified
+FI-837,Tampere,microsoft,tampere.fi,70,spf_strict; provider_classified
+SE-1270,Tomelilla,microsoft,tomelilla.se,70,spf_strict; provider_classified
+FI-922,Vesilahti,microsoft,vesilahti.fi,70,spf_strict; provider_classified
+SE-2404,Vindeln,microsoft,vindeln.se,70,spf_strict; independent_mx_with_cloud_spf; multi_provider_spf:google+microsoft; provider_classified
+SE-2460,Vännä,microsoft,vannas.se,70,spf_strict; provider_classified
+NO-3114,Våler (Østfold),microsoft,valer-of.kommune.no,70,spf_strict; provider_classified
+FI-980,Ylöjärvi,microsoft,ylojarvi.fi,70,spf_strict; provider_classified
+SE-0319,Älvkarleby,microsoft,alvkarleby.se,70,spf_strict; independent_mx_with_cloud_spf; multi_provider_spf:microsoft+telia; provider_classified
+DK-492,Ærø,microsoft,aeroekommune.dk,70,spf_strict; provider_classified
+SE-1256,Östra Göinge,microsoft,ostragoinge.se,70,spf_strict; independent_mx_with_cloud_spf; multi_provider_spf:aws+mailgun+microsoft; provider_classified
+FI-010,Alavus,microsoft,alavus.fi,73,spf_softfail; provider_classified; autodiscover_confirms
+SE-1984,Arboga,microsoft,arboga.se,73,spf_softfail; provider_classified; autodiscover_confirms
+SE-0125,Ekerö,microsoft,ekero.se,73,spf_softfail; provider_classified; autodiscover_confirms
+NO-5036,Frosta,microsoft,frosta.kommune.no,73,spf_softfail; provider_classified; autodiscover_confirms
+SE-0880,Kalmar,microsoft,kalmar.se,73,spf_softfail; provider_classified; autodiscover_confirms
+SE-1960,Kungsör,microsoft,kungsor.se,73,spf_softfail; provider_classified; autodiscover_confirms
+SE-1983,Köping,microsoft,koping.se,73,spf_softfail; provider_classified; autodiscover_confirms
+NO-5034,Meråker,microsoft,meraker.kommune.no,73,spf_softfail; provider_classified; autodiscover_confirms
+NO-5059,Orkland,microsoft,orkland.kommune.no,73,spf_softfail; provider_classified; autodiscover_confirms
+NO-5032,Selbu,microsoft,selbu.kommune.no,73,spf_softfail; provider_classified; autodiscover_confirms
+NO-5035,Stjørdal,microsoft,stjordal.kommune.no,73,spf_softfail; provider_classified; autodiscover_confirms
+SE-1907,Surahammar,microsoft,surahammar.se,73,spf_softfail; provider_classified; autodiscover_confirms
+NO-5001,Trondheim - Tråante,google,trondheim.kommune.no,73,multiple_mx; spf_softfail; provider_classified
+SE-0488,Trosa,microsoft,trosa.se,73,spf_softfail; provider_classified; autodiscover_confirms
+NO-5033,Tydal,microsoft,tydal.kommune.no,73,spf_softfail; provider_classified; autodiscover_confirms
+SE-0380,Uppsala,microsoft,uppsala.se,73,spf_softfail; provider_classified; autodiscover_confirms
+SE-1765,Årjäng,microsoft,arjang.se,73,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; multi_provider_spf:hornetsecurity+microsoft+telia; provider_classified; provider_via_gateway_spf
+SE-0117,Österåker,microsoft,osteraker.se,73,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; multi_provider_spf:google+microsoft; provider_classified; provider_via_gateway_spf
+SE-1489,Alingså,local-isp,alingsas.se,75,multiple_mx; spf_strict; independent_mx_with_cloud_spf; multi_provider_spf:mailgun+microsoft+telia; provider_classified
+SE-0604,Aneby,microsoft,aneby.se,75,spf_strict; provider_classified; autodiscover_confirms
+NO-4645,Askvoll,microsoft,askvoll.kommune.no,75,spf_strict; provider_classified; autodiscover_confirms
+SE-1460,Bengtsfor,microsoft,bengtsfors.se,75,spf_strict; provider_classified; autodiscover_confirms
+SE-0560,Boxholm,google,boxholm.se,75,multiple_mx; spf_strict; provider_classified
+DK-810,Brønderslev,microsoft,99454545.dk,75,multiple_mx; spf_strict; independent_mx_with_cloud_spf; multi_provider_spf:aws+microsoft; provider_classified; provider_via_gateway_spf
+SE-0686,Eksjö,microsoft,eksjo.se,75,spf_strict; provider_classified; autodiscover_confirms
+NO-1853,Evenes - Evenášši,microsoft,evenes.kommune.no,75,spf_strict; provider_classified; autodiscover_confirms
+SE-1782,Filipstad,microsoft,filipstad.se,75,spf_strict; provider_classified; autodiscover_confirms
+NO-4646,Fjaler,microsoft,fjaler.kommune.no,75,spf_strict; provider_classified; autodiscover_confirms
+DK-210,Fredensborg,microsoft,fredensborg.dk,75,spf_strict; provider_classified; autodiscover_confirms
+DK-607,Fredericia,microsoft,fredericia.dk,75,spf_strict; provider_classified; autodiscover_confirms
+SE-0617,Gnosjö,microsoft,gnosjo.se,75,spf_strict; provider_classified; autodiscover_confirms
+SE-1961,Hallstahammar,microsoft,hallstahammar.se,75,spf_strict; provider_classified; autodiscover_confirms
+SE-1761,Hammarö,microsoft,hammaro.se,75,spf_strict; provider_classified; autodiscover_confirms
+NO-4637,Hyllestad,microsoft,hyllestad.kommune.no,75,spf_strict; provider_classified; autodiscover_confirms
+SE-0305,Håbo,microsoft,habo.se,75,spf_strict; provider_classified; autodiscover_confirms
+NO-4638,Høyanger,microsoft,hoyanger.kommune.no,75,spf_strict; provider_classified; autodiscover_confirms
+DK-849,Jammerbugt,microsoft,jammerbugt.dk,75,spf_strict; provider_classified; autodiscover_confirms
+DK-326,Kalundborg,microsoft,kalundborg.dk,75,spf_strict; provider_classified; autodiscover_confirms
+SE-0483,Katrineholm,microsoft,katrineholm.se,75,spf_strict; provider_classified; autodiscover_confirms
+SE-1781,Kristinehamn,microsoft,kristinehamn.se,75,spf_strict; provider_classified; autodiscover_confirms
+DK-360,Lolland,microsoft,lolland.dk,75,spf_strict; provider_classified; autodiscover_confirms
+SE-2580,Luleå,microsoft,lulea.se,75,spf_strict; provider_classified; autodiscover_confirms
+NO-4644,Luster,microsoft,luster.kommune.no,75,spf_strict; provider_classified; autodiscover_confirms
+SE-1762,Munkfor,microsoft,munkfors.se,75,multiple_mx; spf_strict; independent_mx_with_cloud_spf; multi_provider_spf:microsoft+telia; provider_classified; provider_via_gateway_spf
+NO-3448,Nordre Land,microsoft,nordre-land.kommune.no,75,spf_strict; provider_classified; autodiscover_confirms
+SE-0682,Nässjö,microsoft,nassjo.se,75,spf_strict; provider_classified; autodiscover_confirms
+FI-854,Pello,microsoft,pello.fi,75,spf_strict; independent_mx_with_cloud_spf; multi_provider_spf:google+microsoft+sendgrid; provider_classified; autodiscover_confirms
+FI-680,Raisio,microsoft,raisio.fi,75,spf_strict; provider_classified; autodiscover_confirms
+DK-840,Rebild,microsoft,rebild.dk,75,spf_strict; provider_classified; autodiscover_confirms
+IS-0039,Seltjarnarnesbær,microsoft,seltjarnarnes.is,75,spf_strict; provider_classified; autodiscover_confirms
+NO-4636,Solund,microsoft,solund.kommune.no,75,spf_strict; provider_classified; autodiscover_confirms
+SE-1760,Storfor,microsoft,storfors.se,75,spf_strict; provider_classified; autodiscover_confirms
+SE-1486,Strömstad,microsoft,stromstad.se,75,multiple_mx; spf_strict; provider_classified
+NO-4647,Sunnfjord,microsoft,sunnfjord.kommune.no,75,spf_strict; provider_classified; autodiscover_confirms
+DK-706,Syddjurs,microsoft,syddjurs.dk,75,spf_strict; provider_classified; autodiscover_confirms
+SE-1785,Säffle,microsoft,saffle.se,75,multiple_mx; spf_strict; independent_mx_with_cloud_spf; multi_provider_spf:aws+microsoft+sendgrid+telia; provider_classified; provider_via_gateway_spf
+SE-0684,Sävsjö,microsoft,savsjo.se,75,spf_strict; provider_classified; autodiscover_confirms
+SE-1083,Sölvesborg,microsoft,solvesborg.se,75,spf_strict; provider_classified; autodiscover_confirms
+NO-5501,Tromsø,microsoft,tromso.kommune.no,75,spf_strict; provider_classified; autodiscover_confirms
+DK-575,Vejen,microsoft,vejen.dk,75,spf_strict; provider_classified; autodiscover_confirms
+SE-0685,Vetlanda,microsoft,vetlanda.se,75,spf_strict; provider_classified; autodiscover_confirms
+NO-4639,Vik,microsoft,vik.kommune.no,75,spf_strict; provider_classified; autodiscover_confirms
+SE-0884,Vimmerby,google,vimmerby.se,75,multiple_mx; spf_strict; provider_classified
+SE-0512,Ydre,google,ydre.se,75,multiple_mx; spf_strict; provider_classified
+SE-0561,Åtvidaberg,google,atvidaberg.se,75,multiple_mx; spf_strict; provider_classified
+SE-0509,Ödeshög,google,odeshog.se,75,multiple_mx; spf_strict; provider_classified
+SE-2523,Gällivare,microsoft,gellivare.se,78,spf_softfail; independent_mx_with_cloud_spf; provider_classified
+SE-2161,Ljusdal,local-isp,ljusdal.se,78,spf_softfail; independent_mx_with_cloud_spf; provider_classified
+FI-564,Oulu,microsoft,ouka.fi,78,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; multi_provider_spf:aws+google+microsoft; provider_classified; autodiscover_confirms
+FI-689,Rautjärvi,local-isp,rautjarvi.fi,78,spf_softfail; independent_mx_with_cloud_spf; provider_classified
+NO-3438,Sør-Fron,microsoft,sor-fron.kommune.no,78,spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+SE-2021,Vansbro,microsoft,vansbro.se,78,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; multi_provider_spf:google+microsoft; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+SE-0187,Vaxholm,microsoft,vaxholm.se,78,spf_softfail; independent_mx_with_cloud_spf; provider_classified
+NO-5601,Alta,local-isp,alta.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
+SE-2506,Arjeplog,local-isp,arjeplog.se,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
+SE-1272,Bromölla,microsoft,bromolla.se,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
+NO-3420,Elverum,microsoft,elverum.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
+DK-561,Esbjerg,microsoft,esbjerg.dk,80,multiple_mx; spf_strict; provider_classified; autodiscover_confirms
+NO-1578,Fjord,microsoft,fjord.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+NO-5626,Gamvik,microsoft,gamvik.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+NO-1532,Giske,microsoft,giske.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+NO-5045,Grong,microsoft,grong.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+NO-1580,Haram,microsoft,haram.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+SE-0331,Heby,microsoft,heby.se,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
+NO-5056,Hitra,microsoft,hitra.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+SE-2104,Hofors,local-isp,hofors.se,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
+SE-2184,Hudiksvall,local-isp,hudiksvall.se,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
+SE-1266,Hörby,microsoft,horby.se,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
+SE-1267,Höör,microsoft,hoor.se,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
+NO-5046,Høylandet,microsoft,hoylandet.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+FI-261,Kittilä,microsoft,kittila.fi,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+SE-0330,Knivsta,microsoft,knivsta.se,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
+FI-416,Lemi,local-isp,lemi.fi,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
+NO-3312,Lier,microsoft,lier.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+NO-5042,Lierne,microsoft,lierne.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+FI-444,Lohja,microsoft,lohja.fi,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
+FI-441,Luumäki,local-isp,luumaki.fi,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
+FI-499,Mustasaari,microsoft,mustasaari.fi,80,spf_strict; mx_spf_match; multi_provider_spf:google+mailgun+microsoft; provider_classified
+NO-5044,Namsskogan,microsoft,namsskogan.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+SE-2132,Nordanstig,local-isp,nordanstig.se,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
+SE-2121,Ovanåker,microsoft,ovanaker.se,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
+FI-580,Parikkala,local-isp,parikkala.fi,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
+GL-003,Qeqertalik,microsoft,qeqertalik.gl,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
+NO-5043,Raarvihke - Røyrvik,microsoft,royrvik.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+DK-329,Ringsted,independent,ringsted.dk,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
+SE-1081,Ronneby,local-isp,ronneby.se,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
+FI-700,Ruokolahti,local-isp,ruokolahti.fi,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
+FI-739,Savitaipale,local-isp,savitaipale.fi,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
+SE-1265,Sjöbo,microsoft,sjobo.se,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
+NO-1531,Sula,microsoft,sula.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+SE-2281,Sundsvall,microsoft,sundsvall.se,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
+SE-1263,Svedala,microsoft,svedala.se,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
+DK-540,Sønderborg,local-isp,soenderborg.dk,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
+FI-831,Taipalsaari,local-isp,taipalsaari.fi,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
+SE-0360,Tierp,microsoft,tierp.se,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
+FI-889,Utajärvi,local-isp,utajarvi.fi,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
+NO-5607,Vadsø,local-isp,vadso.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
+FO-26,Vága kommuna,independent,vaga.fo,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; autodiscover_suggests:microsoft
+NO-1508,Ålesund,microsoft,alesund.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+SE-0382,Östhammar,local-isp,osthammar.se,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
+SE-1231,Burlöv,microsoft,burlov.se,83,spf_softfail; mx_spf_match; multi_provider_spf:aws+microsoft; provider_classified; autodiscover_confirms
+NO-4613,Bømlo,local-isp,bomlo.kommune.no,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified
+NO-5528,Dyrøy,local-isp,dyroy.kommune.no,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified
+SE-2080,Falu,microsoft,falun.se,83,spf_softfail; mx_spf_match; multi_provider_spf:google+microsoft; provider_classified; autodiscover_confirms
+DK-157,Gentofte,microsoft,gentofte.dk,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+IS-0015,Grindavíkurbær,microsoft,grindavik.is,83,spf_softfail; mx_spf_match; multi_provider_spf:google+microsoft; provider_classified; autodiscover_confirms
+FI-074,Halsua,local-isp,halsua.fi,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified
+FI-076,Hammarland,microsoft,hammarland.ax,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+SE-1283,Helsingborg,microsoft,helsingborg.se,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+FI-153,Imatra,microsoft,imatra.fi,83,spf_softfail; mx_spf_match; multi_provider_spf:mailgun+microsoft+telia; provider_classified; autodiscover_confirms
+FI-236,Kaustinen,local-isp,kaustinen.fi,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified
+SE-0513,Kinda,microsoft,kinda.se,83,spf_softfail; mx_spf_match; multi_provider_spf:google+microsoft; provider_classified; autodiscover_confirms
+SE-1261,Kävlinge,microsoft,kavlinge.se,83,spf_softfail; mx_spf_match; multi_provider_spf:aws+mailgun+microsoft; provider_classified; autodiscover_confirms
+FI-421,Lestijärvi,local-isp,lestijarvi.fi,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified
+FI-425,Liminka,local-isp,liminka.fi,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified
+SE-0140,Nykvarn,microsoft,nykvarn.se,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+SE-1421,Orust,microsoft,orust.se,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+NO-1833,Rana - Raane,microsoft,rana.kommune.no,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+FI-734,Salo,microsoft,salo.fi,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified
+SE-0180,Stockholm,local-isp,stockholm.se,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified
+FI-849,Toholampi,local-isp,toholampi.fi,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified
+SE-1488,Trollhättan,microsoft,trollhattan.se,83,spf_softfail; mx_spf_match; multi_provider_spf:microsoft+telia; provider_classified; autodiscover_confirms
+SE-0584,Vadstena,microsoft,vadstena.se,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+FI-924,Veteli,local-isp,veteli.fi,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified
+SE-1407,Öckerö,microsoft,ockero.se,83,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+DK-751,Aarhus,microsoft,aarhus.dk,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; autodiscover_confirms
+NO-3203,Asker,microsoft,asker.kommune.no,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+NO-1839,Beiarn,microsoft,beiarn.kommune.no,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+SE-2326,Berg,microsoft,berg.se,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+SE-0127,Botkyrka,microsoft,botkyrka.se,85,spf_strict; mx_spf_match; multi_provider_spf:aws+microsoft; provider_classified; autodiscover_confirms
+SE-0162,Danderyd,microsoft,danderyd.se,85,spf_strict; mx_spf_match; multi_provider_spf:google+microsoft; provider_classified; autodiscover_confirms
+DK-155,Dragør,local-isp,dragoer.dk,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
+SE-1382,Falkenberg,microsoft,falkenberg.se,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; autodiscover_confirms
+NO-1859,Flakstad,microsoft,flakstad.kommune.no,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+DK-813,Frederikshavn,microsoft,frederikshavn.dk,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+DK-250,Frederikssund,microsoft,frederikssund.dk,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
+FI-065,Geta,microsoft,geta.ax,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+SE-0980,Gotland,local-isp,gotland.se,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
+SE-1380,Halmstad,microsoft,halmstad.se,85,spf_strict; mx_spf_match; multi_provider_spf:google+microsoft+sendgrid; provider_classified; autodiscover_confirms
+NO-5603,Hammerfest - Hámmerfeasta,microsoft,hammerfest.kommune.no,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+DK-217,Helsingør,microsoft,helsingor.dk,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
+NO-1832,Hemnes,microsoft,hemnes.kommune.no,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+SE-1315,Hylte,local-isp,hylte.se,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
+NO-1119,Hå,microsoft,ha.kommune.no,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
+SE-1284,Höganä,microsoft,hoganas.se,85,spf_strict; mx_spf_match; multi_provider_spf:google+microsoft; provider_classified; autodiscover_confirms
+DK-169,Høje-Taastrup,microsoft,htk.dk,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; autodiscover_confirms
+FI-139,Ii,microsoft,ii.fi,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+FI-148,Inari,microsoft,inari.fi,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+FI-152,Isokyrö,microsoft,isokyro.fi,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+NO-3236,Jevnaker,microsoft,jevnaker.kommune.no,85,spf_strict; mx_spf_match; multi_provider_spf:aws+microsoft; provider_classified; autodiscover_confirms
+FI-181,Jämijärvi,local-isp,jamijarvi.fi,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
+IS-0026,Kaldrananeshreppur,local-isp,drangsnes.is,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
+FI-320,Kemijärvi,microsoft,kemijarvi.fi,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+FI-241,Keminmaa,microsoft,keminmaa.fi,85,spf_strict; mx_spf_match; multi_provider_spf:aws+microsoft; provider_classified; autodiscover_confirms
+FI-272,Kokkola,local-isp,kokkola.fi,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
+FI-273,Kolari,microsoft,kolari.fi,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+FI-285,Kotka,microsoft,kotka.fi,85,spf_strict; mx_spf_match; multi_provider_spf:microsoft+telia; provider_classified; autodiscover_confirms
+GL-002,Kujalleq,microsoft,kujalleq.gl,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+SE-1482,Kungälv,microsoft,kungalv.se,85,spf_strict; mx_spf_match; multi_provider_spf:microsoft+telia; provider_classified; autodiscover_confirms
+FI-297,Kuopio,local-isp,kuopio.fi,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
+FI-301,Kurikka,microsoft,kurikka.fi,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
+FI-304,Kustavi,microsoft,kustavi.fi,85,multiple_mx; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+FI-305,Kuusamo,microsoft,kuusamo.fi,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+SE-1282,Landskrona,microsoft,landskrona.se,85,spf_strict; mx_spf_match; multi_provider_spf:aws+microsoft; provider_classified; autodiscover_confirms
+NO-5624,Lebesby,microsoft,lebesby.kommune.no,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+FI-417,Lemland,microsoft,lemland.ax,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+SE-1262,Lomma,microsoft,lomma.se,85,spf_strict; mx_spf_match; multi_provider_spf:google+microsoft; provider_classified; autodiscover_confirms
+FI-438,Lumparland,microsoft,lumparland.ax,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+SE-0586,Mjölby,microsoft,mjolby.se,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+NO-3316,Modum,microsoft,modum.kommune.no,85,spf_strict; mx_spf_match; multi_provider_spf:aws+microsoft; provider_classified; autodiscover_confirms
+NO-1874,Moskenes,microsoft,moskenes.kommune.no,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+SE-0583,Motala,microsoft,motala.se,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
+FI-494,Muhos,microsoft,muhos.fi,85,spf_strict; mx_spf_match; multi_provider_spf:google+microsoft+sendgrid; provider_classified; autodiscover_confirms
+FI-498,Muonio,microsoft,muonio.fi,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+NO-5618,Måsøy,microsoft,masoy.kommune.no,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+SE-1481,Mölndal,microsoft,molndal.se,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
+FI-529,Naantali,microsoft,naantali.fi,85,spf_strict; mx_spf_match; multi_provider_spf:mailjet+microsoft+telia; provider_classified; autodiscover_confirms
+NO-5007,Namsos - Nåavmesjenjaelmie,microsoft,namsos.kommune.no,85,spf_strict; mx_spf_match; multi_provider_spf:aws+mailjet+microsoft+sendgrid; provider_classified; autodiscover_confirms
+NO-4018,Nome,microsoft,nome.kommune.no,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+SE-0581,Norrköping,microsoft,norrkoping.se,85,spf_strict; mx_spf_match; multi_provider_spf:google+mailgun+microsoft; provider_classified; autodiscover_confirms
+SE-0188,Norrtälje,microsoft,norrtalje.se,85,spf_strict; mx_spf_match; multi_provider_spf:aws+microsoft; provider_classified; autodiscover_confirms
+FI-538,Nousiainen,microsoft,nousiainen.fi,85,spf_strict; mx_spf_match; multi_provider_spf:google+microsoft+sendgrid; provider_classified; autodiscover_confirms
+SE-1060,Olofström,microsoft,olofstrom.se,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+NO-5021,Oppdal,microsoft,oppdal.kommune.no,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+FI-581,Parkano,microsoft,parkano.fi,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+FI-583,Pelkosenniemi,microsoft,pelkosenniemi.fi,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+FI-598,Pietarsaari,microsoft,pietarsaari.fi,85,spf_strict; mx_spf_match; multi_provider_spf:google+microsoft; provider_classified; autodiscover_confirms
+SE-2581,Piteå,microsoft,pitea.se,85,spf_strict; mx_spf_match; multi_provider_spf:microsoft+telia; provider_classified; autodiscover_confirms
+FI-614,Posio,microsoft,posio.fi,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; autodiscover_confirms
+FI-615,Pudasjärvi,microsoft,pudasjarvi.fi,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+GL-004,Qeqqata,microsoft,qeqqata.gl,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+DK-730,Randers,microsoft,randers.dk,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+FI-684,Rauma,microsoft,rauma.fi,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+FI-694,Riihimäki,microsoft,riihimaki.fi,85,mx_spf_match; provider_classified
+NO-3439,Ringebu,microsoft,ringebu.kommune.no,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+DK-760,Ringkøbing-Skjern,microsoft,rksk.dk,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
+FI-698,Rovaniemi,microsoft,rovaniemi.fi,85,spf_strict; mx_spf_match; multi_provider_spf:google+microsoft+telia; provider_classified; autodiscover_confirms
+FI-732,Salla,microsoft,salla.fi,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+NO-3907,Sandefjord,microsoft,sandefjord.kommune.no,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+NO-5530,Senja,microsoft,senja.kommune.no,85,spf_strict; mx_spf_match; multi_provider_spf:aws+microsoft+sendgrid; provider_classified; autodiscover_confirms
+SE-0191,Sigtuna,local-isp,sigtuna.se,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
+FI-751,Simo,microsoft,simo.fi,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+NO-1111,Sokndal,microsoft,sokndal.kommune.no,85,spf_strict; mx_spf_match; multi_provider_spf:aws+mailjet+microsoft; provider_classified; autodiscover_confirms
+SE-2283,Sollefteå,microsoft,solleftea.se,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; autodiscover_confirms
+SE-1415,Stenungsund,microsoft,stenungsund.se,85,spf_strict; mx_spf_match; multi_provider_spf:microsoft+telia; provider_classified; autodiscover_confirms
+FI-783,Säkylä,microsoft,sakyla.fi,85,spf_strict; mx_spf_match; multi_provider_spf:google+microsoft; provider_classified; autodiscover_confirms
+FI-832,Taivalkoski,microsoft,taivalkoski.fi,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+SE-1498,Tidaholm,microsoft,tidaholm.se,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+SE-2262,Timrå,local-isp,timra.se,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
+SE-1419,Tjörn,microsoft,tjorn.se,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+SE-0834,Torså,microsoft,torsas.se,85,spf_strict; mx_spf_match; multi_provider_spf:google+microsoft; provider_classified; autodiscover_confirms
+SE-0114,Upplands Väsby,microsoft,upplandsvasby.se,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+FI-785,Vaala,microsoft,vaala.fi,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+SE-0665,Vaggeryd,microsoft,vaggeryd.se,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+SE-0683,Värnamo,microsoft,varnamo.se,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+NO-1865,Vågan,microsoft,vagan.kommune.no,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+NO-3419,Våler (Innlandet),microsoft,vaaler-he.kommune.no,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
+FI-941,Vårdö,microsoft,vardo.ax,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+NO-1857,Værøy,microsoft,varoy.kommune.no,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
+FI-976,Ylitornio,microsoft,ylitornio.fi,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+NO-3418,Åsnes,local-isp,asnes.kommune.no,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
+FO-02,Eysturkommuna,independent,eysturkommuna.fo,88,spf_softfail; mx_spf_match; provider_classified
+FI-062,Föglö,local-isp,foglo.ax,88,spf_softfail; mx_spf_match; provider_classified
+NO-1122,Gjesdal,microsoft,gjesdal.kommune.no,88,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+NO-3446,Gran,microsoft,gran.kommune.no,88,spf_softfail; mx_spf_match; provider_classified
+SE-2583,Haparanda,microsoft,haparanda.se,88,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+FI-086,Hausjärvi,microsoft,hausjarvi.fi,88,spf_softfail; mx_spf_match; provider_classified
+DK-163,Herlev,microsoft,herlev.dk,88,spf_softfail; mx_spf_match; provider_classified
+DK-657,Herning,microsoft,herning.dk,88,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; autodiscover_confirms
+SE-2510,Jokkmokk,microsoft,jokkmokk.se,88,spf_softfail; mx_spf_match; provider_classified
+FI-214,Kankaanpää,local-isp,kankaanpaa.fi,88,spf_softfail; mx_spf_match; provider_classified
+FI-322,Kemiönsaari,local-isp,kemionsaari.fi,88,spf_softfail; mx_spf_match; provider_classified
+FI-284,Koski Tl,microsoft,koski.fi,88,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+SE-2282,Kramfor,microsoft,kramfors.se,88,spf_softfail; mx_spf_match; provider_classified
+FI-400,Laitila,microsoft,laitila.fi,88,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+SE-2029,Leksand,microsoft,leksand.se,88,spf_softfail; mx_spf_match; provider_classified
+SE-0761,Lessebo,microsoft,lessebo.se,88,spf_softfail; mx_spf_match; provider_classified
+SE-0781,Ljungby,microsoft,ljungby.se,88,spf_softfail; mx_spf_match; provider_classified
+FI-433,Loppi,microsoft,loppi.fi,88,spf_softfail; mx_spf_match; provider_classified
+NO-5524,Målselv,microsoft,malselv.kommune.no,88,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+NO-1828,Nesna,microsoft,nesna.kommune.no,88,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+FI-445,Parainen,microsoft,parainen.fi,88,spf_softfail; mx_spf_match; provider_classified
+FI-619,Punkalaidun,microsoft,punkalaidun.fi,88,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+FI-790,Sastamala,microsoft,sastamala.fi,88,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+IS-0055,Tjörneshreppur,google,tjorneshreppur.is,88,spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+SE-1233,Vellinge,microsoft,vellinge.se,88,multiple_mx; spf_softfail; mx_spf_match; multi_provider_spf:aws+microsoft; provider_classified; autodiscover_confirms
+NO-1860,Vestvågøy,microsoft,vestvagoy.kommune.no,88,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+SE-1980,Västerå,microsoft,vasteras.se,88,spf_softfail; mx_spf_match; provider_classified
+SE-2380,Östersund,microsoft,ostersund.se,88,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+DK-580,Aabenraa,microsoft,aabenraa.dk,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; autodiscover_confirms
+NO-1826,Aarborte - Hattfjelldal,microsoft,hattfjelldal.kommune.no,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+IS-0001,Akraneskaupstaður,microsoft,akranes.is,90,spf_strict; mx_spf_match; provider_classified
+IS-0002,Akureyrarbær,microsoft,akureyri.is,90,multiple_mx; spf_strict; mx_spf_match; multi_provider_spf:aws+microsoft; provider_classified; autodiscover_confirms
+SE-2505,Arvidsjaur,microsoft,arvidsjaur.se,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+SE-1882,Askersund,microsoft,askersund.se,90,spf_strict; mx_spf_match; provider_classified
+NO-1114,Bjerkreim,microsoft,bjerkreim.kommune.no,90,spf_strict; mx_spf_match; provider_classified
+SE-2081,Borlänge,microsoft,borlange.se,90,spf_strict; mx_spf_match; provider_classified
+IS-0007,Dalvíkurbyggð,microsoft,dalvikurbyggd.is,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+SE-1862,Degerfor,microsoft,degerfors.se,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+NO-3240,Eidsvoll,microsoft,eidsvoll.kommune.no,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+SE-0862,Emmaboda,microsoft,emmaboda.se,90,spf_strict; mx_spf_match; provider_classified
+NO-3220,Enebakk,microsoft,enebakk.kommune.no,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+SE-0381,Enköping,microsoft,enkoping.se,90,spf_strict; mx_spf_match; provider_classified
+DK-430,Faaborg-Midtfyn,microsoft,fmk.dk,90,spf_strict; mx_spf_match; provider_classified
+DK-563,Fanø,microsoft,fanoe.dk,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; autodiscover_confirms
+SE-1763,Forshaga,microsoft,forshaga.se,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+DK-147,Frederiksberg,microsoft,frederiksberg.dk,90,spf_strict; mx_spf_match; provider_classified
+NO-3214,Frogn,microsoft,frogn.kommune.no,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+NO-4032,Fyresdal,microsoft,fyresdal.kommune.no,90,spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+FO-03,Fámjins kommuna,independent,famjin.fo,90,spf_strict; mx_spf_match; provider_classified
+NO-3441,Gausdal,microsoft,gausdal.kommune.no,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+NO-1838,Gildeskål,microsoft,gildeskal.kommune.no,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+NO-3230,Gjerdrum,microsoft,gjerdrum.kommune.no,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+NO-1825,Grane,microsoft,grane.kommune.no,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+DK-270,Gribskov,microsoft,gribskov.dk,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+SE-1480,Göteborg,microsoft,goteborg.se,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+SE-0643,Habo,local-isp,habokommun.se,90,spf_strict; mx_spf_match; provider_classified
+DK-510,Haderslev,microsoft,haderslev.dk,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+SE-1861,Hallsberg,microsoft,hallsberg.se,90,spf_strict; mx_spf_match; provider_classified
+DK-260,Halsnæs,microsoft,halsnaes.dk,90,spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+FI-078,Hanko,microsoft,hanko.fi,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+FI-091,Helsinki,microsoft,hel.fi,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+SE-1497,Hjo,microsoft,hjo.se,90,spf_strict; mx_spf_match; provider_classified
+DK-860,Hjørring,microsoft,hjoerring.dk,90,spf_strict; mx_spf_match; provider_classified
+FI-098,Hollola,microsoft,hollola.fi,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+NO-3242,Hurdal,microsoft,hurdal.kommune.no,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+SE-2280,Härnösand,local-isp,harnosand.se,90,spf_strict; mx_spf_match; provider_classified
+FI-172,Joutsa,microsoft,joutsa.fi,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+FI-182,Jämsä,microsoft,jamsa.fi,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+DK-440,Kerteminde,microsoft,kerteminde.dk,90,spf_strict; mx_spf_match; provider_classified
+SE-2584,Kiruna,microsoft,kiruna.se,90,spf_strict; mx_spf_match; provider_classified
+FO-10,Klaksvíkar kommuna,microsoft,klaksvik.fo,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+SE-1290,Kristianstad,microsoft,kristianstad.se,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+NO-4028,Kviteseid,microsoft,kviteseid.kommune.no,90,spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+NO-5610,Kárášjohka - Karasjok,microsoft,karasjok.kommune.no,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+DK-482,Langeland,microsoft,langelandkommune.dk,90,spf_strict; mx_spf_match; provider_classified
+FI-410,Laukaa,local-isp,laukaa.fi,90,spf_strict; mx_spf_match; provider_classified
+SE-1860,Laxå,microsoft,laxa.se,90,spf_strict; mx_spf_match; provider_classified
+SE-1814,Lekeberg,microsoft,lekeberg.se,90,spf_strict; mx_spf_match; provider_classified
+NO-3405,Lillehammer,microsoft,lillehammer.kommune.no,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+NO-5614,Loppa,microsoft,loppa.kommune.no,90,mx_spf_match; provider_classified; autodiscover_confirms
+SE-2085,Ludvika,microsoft,ludvika.se,90,spf_strict; mx_spf_match; provider_classified
+NO-1834,Lurøy,microsoft,luroy.kommune.no,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+SE-2418,Malå,microsoft,mala.se,90,spf_strict; mx_spf_match; provider_classified
+SE-1463,Mark,microsoft,mark.se,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+DK-410,Middelfart,microsoft,middelfart.dk,90,spf_strict; mx_spf_match; provider_classified
+NO-4020,Midt-Telemark,microsoft,midt-telemark.kommune.no,90,spf_strict; mx_spf_match; provider_classified
+FI-508,Mänttä-Vilppula,local-isp,manttavilppula.fi,90,spf_strict; mx_spf_match; provider_classified
+NO-3238,Nannestad,microsoft,nannestad.kommune.no,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+NO-3228,Nes,microsoft,nes.kommune.no,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+NO-3212,Nesodden,microsoft,nesodden.kommune.no,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+NO-5620,Nordkapp,microsoft,nordkapp.kommune.no,90,spf_strict; mx_spf_match; provider_classified
+SE-2417,Norsjö,microsoft,norsjo.se,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+DK-306,Odsherred,microsoft,odsherred.dk,90,spf_strict; mx_spf_match; provider_classified
+SE-0882,Oskarshamn,microsoft,oskarshamn.se,90,spf_strict; mx_spf_match; provider_classified
+FI-609,Pori,microsoft,pori.fi,90,spf_strict; mx_spf_match; provider_classified
+FI-687,Rautavaara,microsoft,rautavaara.fi,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+FO-15,Runavíkar kommuna,microsoft,runavik.fo,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+NO-3224,Rælingen,microsoft,ralingen.kommune.no,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+SE-2181,Sandviken,microsoft,sandviken.se,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; autodiscover_confirms
+FI-742,Savukoski,microsoft,savukoski.fi,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+DK-746,Skanderborg,microsoft,skanderborg.dk,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+NO-3116,Skiptvet,microsoft,skiptvet.kommune.no,90,mx_spf_match; provider_classified; autodiscover_confirms
+FO-18,Skálavíkar kommuna,independent,skalavik.fo,90,spf_strict; mx_spf_match; provider_classified
+SE-1496,Skövde,microsoft,skovde.se,90,spf_strict; mx_spf_match; provider_classified
+SE-2061,Smedjebacken,microsoft,smedjebacken.se,90,spf_strict; mx_spf_match; provider_classified
+DK-336,Stevns,microsoft,stevns.dk,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; autodiscover_confirms
+DK-671,Struer,microsoft,struer.dk,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+SE-0486,Strängnä,microsoft,strangnas.se,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+SE-1465,Svenljunga,microsoft,svenljunga.se,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; autodiscover_confirms
+SE-1472,Tibro,microsoft,tibro.se,90,spf_strict; mx_spf_match; provider_classified
+SE-0763,Tingsryd,microsoft,tingsryd.se,90,spf_strict; mx_spf_match; provider_classified
+NO-4034,Tokke,microsoft,tokke.kommune.no,90,spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+SE-1452,Tranemo,microsoft,tranemo.se,90,spf_strict; mx_spf_match; provider_classified
+SE-0687,Tranå,microsoft,tranas.se,90,spf_strict; mx_spf_match; provider_classified
+FO-25,Tvøroyrar kommuna,independent,tvk.fo,90,spf_strict; mx_spf_match; provider_classified
+SE-0138,Tyresö,local-isp,tyreso.se,90,spf_strict; mx_spf_match; provider_classified
+DK-185,Tårnby,microsoft,taarnby.dk,90,spf_strict; mx_spf_match; provider_classified
+SE-1485,Uddevalla,microsoft,uddevalla.se,90,spf_strict; mx_spf_match; provider_classified
+SE-1491,Ulricehamn,microsoft,ulricehamn.se,90,spf_strict; mx_spf_match; provider_classified
+NO-1151,Utsira,microsoft,utsira.kommune.no,90,spf_strict; mx_spf_match; provider_classified
+DK-187,Vallensbæk,microsoft,vallensbaek.dk,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; autodiscover_confirms
+NO-3216,Vestby,microsoft,vestby.kommune.no,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+DK-791,Viborg,microsoft,viborg.dk,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+NO-4036,Vinje,microsoft,vinje.kommune.no,90,spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+SE-0780,Växjö,microsoft,vaxjo.se,90,spf_strict; mx_spf_match; provider_classified
+SE-1286,Ystad,microsoft,ystad.se,90,spf_strict; mx_spf_match; provider_classified
+SE-2560,Älvsbyn,microsoft,alvsbyn.se,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+NO-3218,Ås,microsoft,as.kommune.no,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+SE-1880,Örebro,microsoft,orebro.se,90,spf_strict; mx_spf_match; provider_classified
+NO-3440,Øyer,microsoft,oyer.kommune.no,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+NO-3428,Alvdal,microsoft,alvdal.kommune.no,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+NO-4631,Alver,microsoft,alver.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4641,Aurland,microsoft,aurland.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3226,Aurskog-Høland,microsoft,ahk.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4625,Austevoll,microsoft,austevoll.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4632,Austrheim,microsoft,austrheim.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0004,Bolungarvíkurkaupstaður,microsoft,bolungarvik.is,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1490,Borås,local-isp,boras.se,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
+NO-4648,Bremanger,microsoft,bremanger.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2305,Bräcke,microsoft,bracke.se,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4220,Bygland,microsoft,bygland.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1867,Bø,microsoft,boe.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1101,Eigersund,microsoft,eigersund.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+SE-0484,Eskilstuna,microsoft,eskilstuna.se,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-049,Espoo,microsoft,espoo.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3450,Etnedal,microsoft,etnedal.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1499,Falköping,microsoft,falkoping.se,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+NO-4206,Farsund,microsoft,farsund.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4633,Fedje,microsoft,fedje.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-060,Finström,microsoft,finstrom.ax,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4207,Flekkefjord,microsoft,flekkefjord.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+SE-0482,Flen,google,flen.se,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
+NO-3429,Folldal,microsoft,folldal.kommune.no,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+NO-4650,Gloppen,microsoft,gloppen.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1764,Grum,microsoft,grums.se,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4635,Gulen,microsoft,gulen.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1783,Hagfor,google,hagfors.se,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
+FI-082,Hattula,microsoft,hattula.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5055,Heim,microsoft,heim.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-111,Heinola,microsoft,heinola.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-097,Hirvensalmi,microsoft,hirvensalmi.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-106,Hyvinkää,microsoft,hyvinkaa.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1875,Hábmer - Hamarøy,microsoft,hamaroy.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-142,Iitti,microsoft,iitti.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-143,Ikaalinen,microsoft,ikaalinen.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-151,Isojoki,microsoft,isojoki.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-165,Janakkala,microsoft,janakkala.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-171,Joroinen,microsoft,joroinen.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+SE-0123,Järfälla,microsoft,jarfalla.se,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+SE-0680,Jönköping,microsoft,jonkoping.se,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
+FI-202,Kaarina,microsoft,kaarina.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2514,Kalix,microsoft,kalix.se,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-218,Karijoki,microsoft,karijoki.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1149,Karmøy,microsoft,karmoy.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-230,Karvia,microsoft,karvia.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-232,Kauhajoki,microsoft,kauhajoki.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-244,Kempele,microsoft,kempele.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-245,Kerava,microsoft,kerava.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4602,Kinn,microsoft,kinn.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1276,Klippan,microsoft,klippan.se,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-275,Konnevesi,microsoft,konnevesi.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-280,Korsnäs,microsoft,korsnas.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-300,Kuortane,microsoft,kuortane.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4227,Kvinesdal,microsoft,kvinesdal.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-316,Kärkölä,microsoft,karkola.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-399,Laihia,microsoft,laihia.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-405,Lappeenranta,microsoft,lappeenranta.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-408,Lapua,google,lapua.fi,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
+NO-3909,Larvik,google,larvik.kommune.no,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
+DK-665,Lemvig,local-isp,lemvig.dk,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
+NO-4205,Lindesnes,microsoft,lindesnes.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+SE-0580,Linköping,google,linkoping.se,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
+NO-4225,Lyngdal,microsoft,lyngdal.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5536,Lyngen,microsoft,lyngen.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-480,Marttila,microsoft,marttila.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4634,Masfjorden,microsoft,masfjorden.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-481,Masku,microsoft,masku.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5027,Midtre Gauldal,microsoft,mgk.no,93,spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+NO-4629,Modalen,microsoft,modalen.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+DK-773,Morsø,microsoft,morsoe.dk,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-503,Mynämäki,microsoft,mynamaki.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-507,Mäntyharju,microsoft,mantyharju.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+SE-0182,Nacka,microsoft,nacka.se,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1806,Narvik,google,narvik.kommune.no,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
+NO-3232,Nittedal,microsoft,nittedal.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1884,Nora,microsoft,nora.se,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3451,Nord-Aurdal,microsoft,nord-aurdal.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-543,Nurmijärvi,microsoft,nurmijarvi.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+SE-0480,Nyköping,google,nykoping.se,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+SE-0192,Nynäshamn,microsoft,nynashamn.se,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-561,Oripää,microsoft,oripaa.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4630,Osterøy,microsoft,osteroy.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+SE-0481,Oxelösund,microsoft,oxelosund.se,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+FI-577,Paimio,microsoft,paimio.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1275,Perstorp,microsoft,perstorp.se,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4001,Porsgrunn,microsoft,porsgrunn.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-616,Pukkila,microsoft,pukkila.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-620,Puolanka,microsoft,puolanka.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3424,Rendalen,microsoft,rendalen.kommune.no,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+NO-3411,Ringsaker,microsoft,ringsaker.kommune.no,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+FI-704,Rusko,microsoft,rusko.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3112,Råde,microsoft,rade.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1856,Røst,microsoft,rost.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1981,Sala,microsoft,sala.se,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+SE-0128,Salem,google,salem.se,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
+FI-736,Saltvik,microsoft,saltvik.ax,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4623,Samnanger,microsoft,samnanger.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3105,Sarpsborg,microsoft,sarpsborg.com,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-746,Sievi,microsoft,sievi.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1904,Skinnskatteberg,microsoft,skinnskatteberg.se,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-758,Sodankylä,microsoft,sodankyla.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-761,Somero,local-isp,somero.fi,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
+FI-762,Sonkajärvi,microsoft,sonkajarvi.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-765,Sotkamo,microsoft,sotkamo.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4649,Stad,microsoft,stad.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1230,Staffanstorp,microsoft,staffanstorp.se,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4651,Stryn,microsoft,stryn.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-778,Suonenjoki,microsoft,suonenjoki.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4612,Sveio,microsoft,sveio.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-781,Sysmä,microsoft,sysma.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+SE-0582,Söderköping,local-isp,soderkoping.se,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
+NO-3449,Sør-Aurdal,microsoft,sor-aurdal.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-833,Taivassalo,microsoft,taivassalo.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-834,Tammela,microsoft,tammela.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-846,Teuva,microsoft,teuva.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+DK-787,Thisted,microsoft,thisted.dk,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3426,Tolga,microsoft,tolga.kommune.no,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+FI-859,Tyrnävä,microsoft,tyrnava.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4616,Tysnes,microsoft,tysnes.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1146,Tysvær,microsoft,tysver.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4618,Ullensvang,google,ullensvang.kommune.no,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
+NO-4628,Vaksdal,microsoft,vaksdal.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+SE-0563,Valdemarsvik,local-isp,valdemarsvik.se,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
+SE-0115,Vallentuna,microsoft,vallentuna.se,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified
+NO-3454,Vang,microsoft,vang.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+DK-630,Vejle,microsoft,vejle.dk,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3452,Vestre Slidre,microsoft,vestre-slidre.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-931,Viitasaari,microsoft,viitasaari.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+SE-0428,Vingåker,microsoft,vingaker.se,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-936,Virrat,microsoft,virrat.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FO-27,Vágs kommuna,microsoft,vagur.fo,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+SE-0883,Västervik,microsoft,vastervik.se,93,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf
+FI-981,Ypäjä,microsoft,ypaja.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0059,Árneshreppur,microsoft,arneshreppur.is,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-989,Ähtäri,microsoft,ahtari.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+FI-992,Äänekoski,microsoft,aanekoski.fi,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1257,Örkelljunga,microsoft,orkelljunga.se,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2284,Örnsköldsvik,microsoft,ornskoldsvik.se,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2513,Överkalix,microsoft,overkalix.se,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2518,Övertorneå,microsoft,overtornea.se,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4626,Øygarden,microsoft,oygarden.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3453,Øystre Slidre,microsoft,oystre-slidre.kommune.no,93,spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+DK-851,Aalborg,microsoft,aalborg.dk,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-020,Akaa,microsoft,akaa.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-005,Alajärvi,microsoft,alajarvi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-009,Alavieska,microsoft,alavieska.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DK-165,Albertslund,microsoft,albertslund.dk,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1440,Ale,microsoft,ale.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-0764,Alvesta,microsoft,alvesta.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1871,Andøy,microsoft,andoy.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3124,Aremark,microsoft,aremark.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4203,Arendal,microsoft,arendal.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-016,Asikkala,microsoft,asikkala.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-018,Askola,microsoft,askola.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4627,Askøy,microsoft,askoy.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DK-420,Assens,local-isp,assens.dk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
+NO-1547,Aukra,microsoft,aukra.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-019,Aura,microsoft,aura.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1576,Aure,microsoft,aure.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+GL-001,Avannaata,microsoft,avannaata.gl,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+NO-1554,Averøy,microsoft,averoy.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2084,Avesta,microsoft,avesta.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5532,Balsfjord,microsoft,balsfjord.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4012,Bamble,microsoft,bamble.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5520,Bardu,microsoft,bardu.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4601,Bergen,microsoft,bergen.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5630,Berlevåg,microsoft,berlevag.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DK-530,Billund,microsoft,billund.dk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
+NO-1811,Bindal,microsoft,bindal.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4216,Birkenes,microsoft,birkenes.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2403,Bjurholm,microsoft,bjurholm.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1260,Bjuv,microsoft,bjuv.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4624,Bjørnafjorden,microsoft,bjornafjorden.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0003,Bláskógabyggð,microsoft,blaskogabyggd.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1804,Bodø,microsoft,bodo.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1145,Bokn,microsoft,bokn.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1443,Bollebygd,microsoft,bollebygd.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2183,Bollnä,microsoft,bollnas.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0005,Borgarbyggð,microsoft,borgarbyggd.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-0885,Borgholm,microsoft,borgholm.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DK-400,Bornholm,microsoft,brk.dk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
+FI-035,Brändö,microsoft,brando.ax,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DK-153,Brøndby,microsoft,brondby.dk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
+NO-1813,Brønnøy,microsoft,bronnoy.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4222,Bykle,microsoft,bykle.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1278,Båstad,microsoft,bastad.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5632,Båtsfjord,microsoft,batsfjord.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3201,Bærum,microsoft,baerum.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0006,Dalabyggð,microsoft,dalir.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1438,Dals-Ed,google,dalsed.se,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
+NO-5628,Deatnu - Tana,microsoft,tana.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5512,Dielddanuorri - Tjeldsund,microsoft,tjeldsund.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2425,Dorotea,microsoft,dorotea.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3431,Dovre,microsoft,dovre.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3301,Drammen,microsoft,drammen.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4016,Drangedal,microsoft,drangedal.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-043,Eckerö,microsoft,eckero.ax,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DK-240,Egedal,google,egedalkommune.dk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+NO-4619,Eidfjord,microsoft,eidfjord.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3416,Eidskog,microsoft,eidskog.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FO-01,Eiðis kommuna,microsoft,eidi.fo,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3425,Engerdal,microsoft,engerdal.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-046,Enonkoski,microsoft,enonkoski.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-047,Enontekiö,microsoft,enontekio.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1445,Essunga,microsoft,essunga.se,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+NO-4611,Etne,microsoft,etne.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-050,Eura,microsoft,eura.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-051,Eurajoki,microsoft,eurajoki.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-052,Evijärvi,microsoft,evijarvi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4219,Evje og Hornnes,microsoft,e-h.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0008,Eyja- og Miklaholtshreppur,independent,emh.is,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+IS-0009,Eyjafjarðarsveit,microsoft,esveit.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1982,Fagersta,microsoft,fagersta.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DK-710,Favrskov,microsoft,favrskov.dk,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DK-320,Faxe,local-isp,faxekommune.dk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
+SE-0562,Finspång,local-isp,finspang.se,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
+NO-4615,Fitjar,microsoft,fitjar.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0010,Fjallabyggð,microsoft,fjallabyggd.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0011,Fjarðabyggð,microsoft,fjardabyggd.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5049,Flatanger,microsoft,flatanger.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3334,Flesberg,microsoft,flesberg.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3320,Flå,microsoft,flaa.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0013,Flóahreppur,microsoft,floahreppur.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-061,Forssa,microsoft,forssa.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3107,Fredrikstad,microsoft,fredrikstad.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4214,Froland,microsoft,froland.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5014,Frøya,microsoft,froya.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FO-04,Fuglafjarðar kommuna,microsoft,fuglafjordur.fo,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FO-05,Fugloyar kommuna,microsoft,fugloy.fo,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1439,Färgelanda,microsoft,fargelanda.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3911,Færder,microsoft,faerder.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2026,Gagnef,microsoft,gagnef.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0014,Garðabær,microsoft,gardabaer.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-0662,Gislaved,microsoft,gislaved.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1557,Gjemnes,microsoft,gjemnes.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4211,Gjerstad,microsoft,gjerstad.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3407,Gjøvik,microsoft,gjovik.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-0461,Gnesta,microsoft,gnesta.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3324,Gol,microsoft,gol.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5516,Gratangen - Rivtták,microsoft,gratangen.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DK-253,Greve,microsoft,greve.dk,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4202,Grimstad,microsoft,grimstad.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3417,Grue,local-isp,grue.kommune.no,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
+IS-0016,Grundarfjarðarbær,microsoft,grundarfjordur.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1444,Grästorp,microsoft,grastorp.se,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+IS-0017,Grímsnes- og Grafningshreppur,microsoft,gogg.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0018,Grýtubakkahreppur,microsoft,grenivik.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DK-376,Guldborgsund,microsoft,guldborgsund.dk,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1447,Gullspång,microsoft,gullspang.se,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+NO-5612,Guovdageaidnu - Kautokeino,microsoft,kautokeino.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5540,Gáivuotna - Kåfjord - Kaivuono,microsoft,kafjord.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2180,Gävle,microsoft,gavle.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1471,Götene,microsoft,gotene.se,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+FI-069,Haapajärvi,microsoft,haapajarvi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-071,Haapavesi,microsoft,haapavesi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1866,Hadsel,microsoft,hadsel.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0019,Hafnarfjarðarkaupstaður,microsoft,hafnarfjordur.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-072,Hailuoto,microsoft,hailuoto.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3101,Halden,microsoft,halden.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3403,Hamar,local-isp,hamar.kommune.no,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
+FI-075,Hamina,google,hamina.fi,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
+SE-0136,Haninge,microsoft,haninge.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-077,Hankasalmi,microsoft,hankasalmi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1517,Hareid,microsoft,hareid.kommune.no,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+FI-079,Harjavalta,microsoft,harjavalta.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5503,Harstad - Hárstták,microsoft,harstad.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-081,Hartola,microsoft,hartola.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5616,Hasvik,microsoft,hasvik.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1106,Haugesund,microsoft,haugesund.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2083,Hedemora,microsoft,hedemora.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DK-766,Hedensted,microsoft,hedensted.dk,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-090,Heinävesi,microsoft,heinavesi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3326,Hemsedal,microsoft,hemsedal.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1466,Herrljunga,microsoft,herrljunga.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1515,Herøy (Møre og Romsdal),microsoft,heroy.kommune.no,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+DK-219,Hillerød,microsoft,hillerod.dk,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4024,Hjartdal,microsoft,hjartdal.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1133,Hjelmeland,microsoft,hjelmeland.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3330,Hol,microsoft,hol.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3310,Hole,microsoft,hole.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3903,Holmestrand,microsoft,holmestrand.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DK-661,Holstebro,independent,holstebro.dk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
+NO-5026,Holtålen,microsoft,holtalen.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3901,Horten,microsoft,horten.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FO-06,Hovs kommuna,microsoft,hov.fo,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0020,Hrunamannahreppur,microsoft,fludir.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-102,Huittinen,microsoft,huittinen.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-103,Humppila,microsoft,humppila.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1579,Hustadvika,microsoft,hustadvika.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FO-08,Hvalbiar kommuna,microsoft,hvalba.fo,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3110,Hvaler,microsoft,hvaler.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FO-09,Hvannasunds kommuna,microsoft,hvannasund.fo,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0022,Hveragerðisbær,microsoft,hveragerdi.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-105,Hyrynsalmi,microsoft,hyrynsalmi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1863,Hällefor,microsoft,hellefors.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-109,Hämeenlinna,microsoft,hameenlinna.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2361,Härjedalen,microsoft,herjedalen.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1401,Härryda,microsoft,harryda.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1293,Hässleholm,microsoft,hassleholm.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4226,Hægebostad,microsoft,haegebostad.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-0821,Högsby,microsoft,hogsby.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0023,Hörgársveit,microsoft,horgarsveit.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DK-223,Hørsholm,microsoft,horsholm.dk,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0024,Húnabyggð,microsoft,hunabyggd.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0025,Húnaþing vestra,microsoft,hunathing.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FO-07,Húsavíkar kommuna,microsoft,husavik.fo,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5514,Ibestad,microsoft,ibestad.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-140,Iisalmi,microsoft,iisalmi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DK-756,Ikast-Brande,independent,ikast-brande.dk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
+FI-145,Ilmajoki,microsoft,ilmajoki.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-146,Ilomantsi,microsoft,ilomantsi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5053,Inderøy,microsoft,inderoy.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5054,Indre Fosen,microsoft,indrefosen.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-149,Inkoo,microsoft,inkoo.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DK-183,Ishøj,local-isp,ishoj.dk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
+NO-4218,Iveland,microsoft,iveland.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-167,Joensuu,microsoft,joensuu.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-169,Jokioinen,microsoft,jokioinen.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-170,Jomala,microsoft,jomala.ax,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-176,Juuka,microsoft,juuka.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-177,Juupajoki,microsoft,juupajoki.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-178,Juva,microsoft,juva.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-179,Jyväskylä,microsoft,jyvaskyla.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-186,Järvenpää,microsoft,jarvenpaa.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-204,Kaavi,microsoft,kaavi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-205,Kajaani,microsoft,kajaani.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-208,Kalajoki,microsoft,kalajoki.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-213,Kangasniemi,microsoft,kangasniemi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-216,Kannonkoski,microsoft,kannonkoski.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-217,Kannus,google,kannus.fi,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
+FI-224,Karkkila,microsoft,karkkila.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1446,Karlsborg,microsoft,karlsborg.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1883,Karlskoga,microsoft,karlskoga.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1080,Karlskrona,microsoft,karlskrona.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1780,Karlstad,microsoft,karlstad.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5534,Karlsøy,microsoft,karlsoy.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-226,Karstula,microsoft,karstula.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-231,Kaskinen,microsoft,kaskinen.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-233,Kauhava,microsoft,kauhava.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-235,Kauniainen,microsoft,kauniainen.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-239,Keitele,microsoft,keitele.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-240,Kemi,microsoft,kemi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-249,Keuruu,microsoft,keuruu.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-250,Kihniö,microsoft,kihnio.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-256,Kinnula,microsoft,kinnula.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-257,Kirkkonummi,microsoft,kirkkonummi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-260,Kitee,microsoft,kitee.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-263,Kiuruvesi,microsoft,kiuruvesi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-265,Kivijärvi,microsoft,kivijarvi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0027,Kjósarhreppur,microsoft,kjos.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1120,Klepp,microsoft,klepp.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-271,Kokemäki,microsoft,kokemaki.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DK-621,Kolding,microsoft,kolding.dk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+NO-3303,Kongsberg,microsoft,kongsberg.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3401,Kongsvinger,local-isp,kongsvinger.kommune.no,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
+FI-276,Kontiolahti,microsoft,kontiolahti.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-286,Kouvola,microsoft,kouvola.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4014,Kragerø,microsoft,kragero.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4204,Kristiansand,microsoft,kristiansand.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1505,Kristiansund,microsoft,kristiansund.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-287,Kristiinankaupunki,microsoft,krs.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2309,Krokom,microsoft,krokom.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-288,Kruunupyy,microsoft,kronoby.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3318,Krødsherad,microsoft,krodsherad.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-290,Kuhmo,microsoft,kuhmo.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-291,Kuhmoinen,microsoft,kuhmoinen.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-295,Kumlinge,microsoft,kumlinge.ax,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1384,Kungsbacka,microsoft,kungsbacka.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FO-11,Kunoyar kommuna,microsoft,kunoy.fo,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4622,Kvam,microsoft,kvam.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1144,Kvitsøy,microsoft,kvitsoy.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5510,Kvæfjord,microsoft,kvafjord.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5546,Kvænangen,microsoft,kvanangen.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FO-12,Kvívíkar kommuna,microsoft,kvivik.fo,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-312,Kyyjärvi,microsoft,kyyjarvi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-317,Kärsämäki,microsoft,karsamaki.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0028,Kópavogsbær,microsoft,kopavogur.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-318,Kökar,microsoft,kokar.ax,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DK-101,København,microsoft,kk.dk,95,spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+DK-259,Køge,microsoft,koege.dk,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1381,Laholm,microsoft,laholm.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-398,Lahti,microsoft,lahti.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0029,Langanesbyggð,microsoft,langanesbyggd.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-407,Lapinjärvi,microsoft,lapinjarvi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-402,Lapinlahti,microsoft,lapinlahti.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-403,Lappajärvi,microsoft,lappajarvi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-420,Leppävirta,microsoft,leppavirta.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1441,Lerum,microsoft,lerum.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3432,Lesja,microsoft,lesja.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5037,Levanger - Levangke,microsoft,levanger.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-0186,Lidingö,microsoft,lidingo.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1494,Lidköping,microsoft,lidkoping.se,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+FI-422,Lieksa,microsoft,lieksa.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-423,Lieto,microsoft,lieto.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1462,Lilla Edet,microsoft,lillaedet.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4215,Lillesand,microsoft,lillesand.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3205,Lillestrøm,microsoft,lillestrom.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1885,Lindesberg,microsoft,lindesberg.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-426,Liperi,microsoft,liperi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1864,Ljusnarsberg,microsoft,ljusnarsberg.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5518,Loabák - Lavangen,microsoft,lavangen.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-430,Loimaa,microsoft,loimaa.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3434,Lom,microsoft,lom.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-434,Loviisa,microsoft,loviisa.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-435,Luhanka,microsoft,luhanka.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-436,Lumijoki,microsoft,lumijoki.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1112,Lund,microsoft,lund.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1281,Lund,microsoft,lund.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3234,Lunner,microsoft,lunner.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-440,Luoto,microsoft,larsmo.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2481,Lycksele,microsoft,lycksele.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DK-173,Lyngby-Taarbæk,microsoft,ltk.dk,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1484,Lysekil,microsoft,lysekil.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4642,Lærdal,microsoft,laerdal.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1851,Lødingen,microsoft,lodingen.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3222,Lørenskog,microsoft,lorenskog.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3412,Løten,local-isp,loten.kommune.no,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
+FI-475,Maalahti,microsoft,malax.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-478,Maarianhamina - Mariehamn,microsoft,mariehamn.ax,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1280,Malmö,microsoft,malmo.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2023,Malung-Sälen,microsoft,malung-salen.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5031,Malvik,microsoft,malvik.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DK-846,Mariagerfjord,microsoft,mariagerfjord.dk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+SE-1493,Mariestad,microsoft,mariestad.se,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+SE-0767,Markaryd,microsoft,markaryd.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3122,Marker,microsoft,marker.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5028,Melhus,microsoft,melhus.kommune.no,95,spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+SE-1461,Mellerud,microsoft,mellerud.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1837,Meløy,microsoft,meloy.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-483,Merijärvi,microsoft,merijarvi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-484,Merikarvia,microsoft,merikarvia.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-489,Miehikkälä,microsoft,miehikkala.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-491,Mikkeli,microsoft,mikkeli.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1506,Molde,microsoft,molde.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2062,Mora,microsoft,morakommun.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0030,Mosfellsbær,microsoft,mos.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3103,Moss,microsoft,moss.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-0642,Mullsjö,microsoft,mullsjo.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1430,Munkedal,microsoft,munkedal.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-500,Muurame,microsoft,muurame.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-504,Myrskylä,microsoft,myrskyla.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-505,Mäntsälä,microsoft,mantsala.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-0861,Mönsterå,microsoft,monsteras.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-0840,Mörbylånga,microsoft,morbylanga.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0031,Múlaþing,microsoft,mulathing.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0032,Mýrdalshreppur,microsoft,vik.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-531,Nakkila,microsoft,nakkila.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FO-13,Nes kommuna,microsoft,nes.fo,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3322,Nesbyen,microsoft,nes-bu.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4030,Nissedal,microsoft,nissedal.kommune.no,95,spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+FI-535,Nivala,microsoft,nivala.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1962,Norberg,microsoft,norberg.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3436,Nord-Fron,microsoft,nord-fron.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3414,Nord-Odal,local-isp,nord-odal.kommune.no,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
+DK-707,Norddjurs,local-isp,norddjurs.dk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
+DK-480,Nordfyns,local-isp,nordfynskommune.dk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
+SE-2401,Nordmaling,microsoft,nordmaling.se,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+NO-3207,Nordre Follo,microsoft,nordrefollo.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5544,Nordreisa - Ráisa - Raisi,microsoft,nordreisa.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3338,Nore og Uvdal,microsoft,nore-og-uvdal.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0033,Norðurþing,microsoft,nordurthing.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4005,Notodden,microsoft,notodden.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-541,Nurmes,microsoft,nurmes.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-0881,Nybro,microsoft,nybro.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-545,Närpiö,microsoft,narpes.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5060,Nærøysund,microsoft,naroysund.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DK-370,Næstved,microsoft,naestved.dk,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2101,Ockelbo,microsoft,ockelbo.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DK-727,Odder,local-isp,odder.dk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
+DK-461,Odense,microsoft,odense.dk,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-560,Orimattila,microsoft,orimattila.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2034,Orsa,microsoft,orsa.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3430,Os,microsoft,os.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5020,Osen,microsoft,osen.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-0301,Oslo,microsoft,oslo.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-563,Oulainen,microsoft,oulainen.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-309,Outokumpu,microsoft,outokummunkaupunki.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5047,Overhalla,microsoft,overhalla.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-576,Padasjoki,microsoft,padasjoki.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2521,Pajala,microsoft,pajala.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-578,Paltamo,microsoft,paltamo.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1402,Partille,microsoft,partille.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-599,Pedersören kunta,microsoft,pedersore.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-584,Perho,microsoft,perho.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-592,Petäjävesi,microsoft,petajavesi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-593,Pieksämäki,microsoft,pieksamaki.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-595,Pielavesi,microsoft,pielavesi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-601,Pihtipudas,microsoft,pihtipudas.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-607,Polvijärvi,microsoft,polvijarvi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-608,Pomarkku,microsoft,pomarkku.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FO-14,Porkeris kommuna,microsoft,porkeri.fo,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-611,Pornainen,microsoft,pornainen.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5622,Porsanger - Porsángu - Porsanki,microsoft,porsanger.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-638,Porvoo,microsoft,porvoo.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-623,Puumala,microsoft,puumala.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-624,Pyhtää,microsoft,pyhtaa.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-625,Pyhäjoki,microsoft,pyhajoki.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-626,Pyhäjärvi,microsoft,pyhajarvi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-630,Pyhäntä,microsoft,pyhanta.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-631,Pyhäranta,microsoft,pyharanta.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-635,Pälkäne,microsoft,palkane.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-636,Pöytyä,microsoft,poytya.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-678,Raahe,microsoft,raahe.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2303,Ragunda,microsoft,ragunda.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1127,Randaberg,microsoft,randaberg.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0034,Rangárþing eystra,microsoft,hvolsvollur.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0035,Rangárþing ytra,microsoft,ry.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-681,Rantasalmi,microsoft,rantasalmi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-683,Ranua,microsoft,ranua.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1539,Rauma,microsoft,rauma.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-686,Rautalampi,microsoft,rautalampi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-691,Reisjärvi,microsoft,reisjarvi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5022,Rennebu,microsoft,rennebu.kommune.no,95,spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+IS-0036,Reykhólahreppur,microsoft,reykholar.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0037,Reykjanesbær,microsoft,reykjanesbaer.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0038,Reykjavíkurborg,microsoft,reykjavik.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5061,Rindal,microsoft,rindal.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3305,Ringerike,microsoft,ringerike.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-697,Ristijärvi,microsoft,ristijarvi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4201,Risør,microsoft,risor.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2409,Robertsfor,microsoft,robertsfors.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3336,Rollag,microsoft,rollag.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DK-265,Roskilde,local-isp,roskilde.dk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
+DK-230,Rudersdal,microsoft,rudersdal.dk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+FI-702,Ruovesi,microsoft,ruovesi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2031,Rättvik,microsoft,rattvik.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-707,Rääkkylä,microsoft,raakkyla.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1836,Rødøy,microsoft,rodoy.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5025,Røros - Rosse,microsoft,roros.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-729,Saarijärvi,microsoft,saarijarvi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5522,Salangen,microsoft,salangen.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1840,Saltdal,microsoft,saltdal.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1514,Sande,microsoft,sande-mr.kommune.no,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+NO-1108,Sandnes,microsoft,sandnes.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FO-16,Sands kommuna,microsoft,sandur.fo,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1135,Sauda,microsoft,sauda.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-738,Sauvo,microsoft,sauvo.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-740,Savonlinna,microsoft,savonlinna.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-743,Seinäjoki,microsoft,seinajoki.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3437,Sel,microsoft,sel.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4022,Seljord,microsoft,seljord.kommune.no,95,spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+GL-005,Sermersooq,microsoft,sermersooq.gl,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+NO-3332,Sigdal,microsoft,sigdal.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-747,Siikainen,microsoft,siikainen.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-748,Siikajoki,microsoft,siikajoki.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-791,Siikalatva,microsoft,siikalatva.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-749,Siilinjärvi,microsoft,siilinjarvi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4010,Siljan,microsoft,siljan.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DK-740,Silkeborg,microsoft,silkeborg.dk,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1291,Simrishamn,microsoft,simrishamn.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-753,Sipoo,microsoft,sipoo.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4228,Sirdal,microsoft,sirdal.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-755,Siuntio,microsoft,siuntio.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FO-17,Sjóvar kommuna,microsoft,sjovar.fo,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0040,Skaftárhreppur,microsoft,klaustur.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0041,Skagafjörður,microsoft,skagafjordur.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1495,Skara,microsoft,skara.se,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+NO-5029,Skaun,microsoft,skaun.kommune.no,95,spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+SE-2482,Skellefteå,microsoft,skelleftea.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4003,Skien,microsoft,skien.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DK-779,Skive,microsoft,skive.dk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
+NO-5542,Skjervøy,microsoft,skjervoy.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3433,Skjåk,microsoft,skjaak.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FO-19,Skopunar kommuna,microsoft,skopun.fo,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1264,Skurup,microsoft,skurup.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FO-20,Skúvoyar kommuna,microsoft,skugvoy.fo,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DK-330,Slagelse,local-isp,slagelse.dk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
+NO-1573,Smøla,microsoft,smola.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5041,Snåase - Snåsa,microsoft,snasa.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0044,Snæfellsbær,microsoft,snb.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4640,Sogndal,microsoft,sogndal.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-759,Soini,microsoft,soini.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1124,Sola,microsoft,sola.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-0184,Solna,microsoft,solna.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DK-269,Solrød,microsoft,solrod.dk,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2422,Sorsele,microsoft,sorsele.se,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+NO-1870,Sortland - Suortá,microsoft,sortland.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1427,Sotenä,microsoft,sotenas.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-766,Sottunga,microsoft,sottunga.ax,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3413,Stange,local-isp,stange.kommune.no,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
+NO-1103,Stavanger,microsoft,stavanger.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1848,Steigen,microsoft,steigen.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5006,Steinkjer,microsoft,steinkjer.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3423,Stor-Elvdal,microsoft,stor-elvdal.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4614,Stord,microsoft,stord.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5538,Storfjord - Omasvuotna - Omasvuono,microsoft,storfjord.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2421,Storuman,microsoft,storuman.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1130,Strand,microsoft,strand.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1525,Stranda,microsoft,stranda.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0045,Strandabyggð,microsoft,strandabyggd.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2313,Strömsund,microsoft,stromsund.se,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+NO-1134,Suldal,microsoft,suldal.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-768,Sulkava,microsoft,sulkava.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FO-21,Sumbiar kommuna,microsoft,sumba.fo,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-771,Sund,microsoft,sund.ax,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FO-22,Sunda kommuna,microsoft,sunda.fo,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-0183,Sundbyberg,microsoft,sundbyberg.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1563,Sunndal,microsoft,sunndal.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-777,Suomussalmi,microsoft,suomussalmi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1566,Surnadal,microsoft,surnadal.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0046,Suðurnesjabær,microsoft,sudurnesjabaer.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0047,Svalbarðsstrandarhreppur,microsoft,svalbardsstrond.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1214,Svalöv,microsoft,svalov.se,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+IS-0048,Sveitarfélagið Hornafjörður,microsoft,hornafjordur.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0049,Sveitarfélagið Skagaströnd,microsoft,skagastrond.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0050,Sveitarfélagið Stykkishólmur,microsoft,stykkisholmur.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0051,Sveitarfélagið Vogar,microsoft,vogar.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0052,Sveitarfélagið Árborg,microsoft,arborg.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0053,Sveitarfélagið Ölfus,microsoft,olfus.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1528,Sykkylven,microsoft,sykkylven.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2082,Säter,microsoft,sater.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2182,Söderhamn,microsoft,soderhamn.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-0181,Södertälje,microsoft,sodertalje.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1812,Sømna,microsoft,somna.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3447,Søndre Land,microsoft,sondre-land.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3415,Sør-Odal,local-isp,sor-odal.kommune.no,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
+NO-5605,Sør-Varanger,microsoft,sor-varanger.kommune.no,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
+NO-1845,Sørfold - Fuolldá,microsoft,sorfold.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5526,Sørreisa,microsoft,sorreisa.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FO-23,Sørvágs kommuna,microsoft,sorvag.fo,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0054,Súðavíkurhreppur,microsoft,sudavik.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1435,Tanum,microsoft,tanum.se,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+FI-844,Tervo,microsoft,tervo.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-845,Tervola,microsoft,tervola.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1121,Time,microsoft,time.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1560,Tingvoll,microsoft,tingvoll.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4026,Tinn,microsoft,tinn.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-848,Tohmajärvi,microsoft,tohmajarvi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-850,Toivakka,microsoft,toivakka.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-851,Tornio,microsoft,tornio.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1287,Trelleborg,microsoft,trelleborg.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3421,Trysil,microsoft,trysil.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-853,Turku,microsoft,turku.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-857,Tuusniemi,microsoft,tuusniemi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-858,Tuusula,microsoft,tuusula.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4213,Tvedestrand,microsoft,tvedestrand.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3427,Tynset,microsoft,tynset.kommune.no,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+SE-0160,Täby,microsoft,taby.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FO-24,Tórshavnar kommuna,microsoft,torshavn.fo,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+SE-1473,Töreboda,microsoft,toreboda.se,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+DK-550,Tønder,local-isp,toender.dk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
+NO-3905,Tønsberg,microsoft,tonsberg.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3209,Ullensaker,microsoft,ullensaker.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1516,Ulstein,microsoft,ulstein.kommune.no,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+NO-4620,Ulvik,microsoft,ulvik.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-886,Ulvila,microsoft,ulvila.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2480,Umeå,microsoft,umea.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5636,Unjárga - Nesseby,microsoft,nesseby.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-0139,Upplands-Bro,microsoft,upplands-bro.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-0760,Uppvidinge,microsoft,uppvidinge.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-887,Urjala,microsoft,urjala.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-890,Utsjoki,microsoft,utsjoki.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-892,Uurainen,microsoft,uurainen.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-893,Uusikaarlepyy,microsoft,uusikaarlepyy.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-895,Uusikaupunki,microsoft,uusikaupunki.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-905,Vaasa,microsoft,vaasa.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-908,Valkeakoski,microsoft,valkeakoski.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4221,Valle,microsoft,valle.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-092,Vantaa,microsoft,vantaa.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1511,Vanylven,microsoft,vanylven.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1470,Vara,microsoft,vara.se,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+SE-1383,Varberg,microsoft,varberg.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DK-573,Varde,microsoft,vardekommune.dk,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5634,Vardø,microsoft,vardo.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-915,Varkaus,microsoft,varkaus.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1824,Vefsn,microsoft,vefsn.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1815,Vega,microsoft,vega.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4212,Vegårshei,microsoft,vegarshei.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-918,Vehmaa,microsoft,vehmaa.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4223,Vennesla,microsoft,vennesla.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5038,Verdal,microsoft,verdal.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-921,Vesanto,microsoft,vesanto.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DK-820,Vesthimmerland,microsoft,vesthimmerland.dk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+FO-28,Vestmanna kommuna,microsoft,vestmanna.fo,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0056,Vestmannaeyjabær,microsoft,vestmannaeyjar.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1535,Vestnes,microsoft,vestnes.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3443,Vestre Toten,microsoft,vestre-toten.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0057,Vesturbyggð,microsoft,vesturbyggd.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1816,Vevelstad,microsoft,vevelstad.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-925,Vieremä,microsoft,vierema.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-927,Vihti,microsoft,vihti.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2462,Vilhelmina,microsoft,vilhelmina.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-934,Vimpeli,microsoft,vimpeli.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1160,Vindafjord,microsoft,vindafjord.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-935,Virolahti,microsoft,virolahti.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FO-29,Viðareiðis kommuna,microsoft,vidareidi.fo,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1577,Volda,microsoft,volda.kommune.no,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+IS-0058,Vopnafjarðarhreppur,microsoft,vopnafjardarhreppur.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4621,Voss,microsoft,voss.herad.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1487,Vänersborg,microsoft,vanersborg.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3435,Vågå,microsoft,vaga.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1442,Vårgårda,microsoft,vargarda.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-946,Vöyri,microsoft,vora.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-977,Ylivieska,microsoft,ylivieska.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0060,Ásahreppur,microsoft,asahreppur.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-0765,Älmhult,microsoft,almhult.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2039,Älvdalen,microsoft,alvdalen.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5058,Åfjord,microsoft,afjord.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3328,Ål,microsoft,aal.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4217,Åmli,microsoft,amli.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3422,Åmot,microsoft,amot.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1492,Åmål,microsoft,amal.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2260,Ånge,microsoft,ange.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4643,Årdal,microsoft,ardal.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2321,Åre,microsoft,are.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-2463,Åsele,microsoft,asele.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-4224,Åseral,microsoft,aseral.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1277,Åstorp,microsoft,astorp.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0061,Ísafjarðarbær,microsoft,isafjordur.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1868,Øksnes,microsoft,oksnes.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5057,Ørland,microsoft,orland.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1520,Ørsta,microsoft,orsta.kommune.no,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+NO-3442,Østre Toten,microsoft,ostre-toten.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-3314,Øvre Eiker,microsoft,ovre-eiker.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+IS-0062,Þingeyjarsveit,microsoft,thingeyjarsveit.is,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1841,Fauske - Fuossko,microsoft,fauske.kommune.no,98,multiple_mx; spf_softfail; mx_spf_match; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+FI-495,Multia,microsoft,multia.fi,98,multiple_mx; spf_softfail; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1820,Alstahaug,microsoft,alstahaug.kommune.no,100,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+SE-1784,Arvika,microsoft,arvika.se,100,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+SE-2582,Boden,microsoft,boden.se,100,multiple_mx; spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1827,Dønna,microsoft,donna.kommune.no,100,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+SE-1730,Eda,microsoft,eda.se,100,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+DK-159,Gladsaxe,microsoft,gladsaxe.dk,100,multiple_mx; spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DK-161,Glostrup,microsoft,glostrup.dk,100,multiple_mx; spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-1818,Herøy (Nordland),microsoft,heroy-no.kommune.no,100,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+DK-615,Horsens,microsoft,horsens.dk,100,multiple_mx; spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-0860,Hultsfred,microsoft,hultsfred.se,100,multiple_mx; spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DK-167,Hvidovre,microsoft,hvidovre.dk,100,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+NO-3118,Indre Østfold,microsoft,io.kommune.no,100,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+SE-1715,Kil,microsoft,kil.se,100,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+SE-1881,Kumla,microsoft,kumla.se,100,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+NO-1822,Leirfjord,microsoft,leirfjord.kommune.no,100,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+DK-350,Lejre,microsoft,lejre.dk,100,multiple_mx; spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+NO-5052,Leka,microsoft,leka.kommune.no,100,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+DK-450,Nyborg,microsoft,nyborg.dk,100,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+NO-3120,Rakkestad,microsoft,rakkestad.kommune.no,100,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+DK-175,Rødovre,microsoft,rk.dk,100,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+DK-741,Samsø,microsoft,samsoe.dk,100,multiple_mx; spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+DK-340,Sorø,microsoft,soroe.dk,100,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+DK-479,Svendborg,microsoft,svendborg.dk,100,multiple_mx; spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+SE-1737,Torsby,microsoft,torsby.se,100,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+NO-1835,Træna,microsoft,trana.kommune.no,100,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+DK-390,Vordingborg,microsoft,vordingborg.dk,100,multiple_mx; spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
