@@ -607,7 +607,7 @@
   </div>
 
   <div class="panel-section">
-    <div class="panel-section-kicker">About <a href="#panel-stats" onclick="document.getElementById('panel-stats').scrollIntoView({behavior:'smooth'});return false;" style="font-size:10px;font-weight:600;color:var(--text-muted);text-decoration:none;margin-left:8px;letter-spacing:0.05em;border-bottom:1px solid var(--border);padding-bottom:1px">↓ Statistics</a></div>
+    <div class="panel-section-kicker" id="panel-about">About <a href="#panel-stats" onclick="document.getElementById('panel-stats').scrollIntoView({behavior:'smooth'});return false;" style="font-size:10px;font-weight:600;color:var(--text-muted);text-decoration:none;margin-left:8px;letter-spacing:0.05em;border-bottom:1px solid var(--border);padding-bottom:1px">↓ Statistics</a></div>
     <div class="panel-info-stack">
       <div class="panel-info-card">
         <h3>What is this?</h3>
@@ -623,13 +623,13 @@
       </div>
       <div class="panel-info-card">
         <h3>Open source &amp; open data</h3>
-        <p>Code and data on <a href="https://github.com/KimTholstorf/mxmap-dk" target="_blank">GitHub</a>. Built on <a href="https://github.com/livenson/mxmap" target="_blank">livenson/mxmap</a>, originally by <a href="https://github.com/davidhuser/mxmap" target="_blank">David Huser</a> for Swiss municipalities. Use <strong>⊙ Colorblind mode</strong> in the legend for a deuteranopia-safe palette.</p>
+        <p>Code and data on <a href="https://github.com/KimTholstorf/mxmap-dk" target="_blank">GitHub</a>. Built on <a href="https://github.com/livenson/mxmap" target="_blank">livenson/mxmap</a>, originally by <a href="https://github.com/davidhuser/mxmap" target="_blank">David Huser</a> for Swiss municipalities. This fork narrows the focus to the Nordic region, adds stock index company classification, sovereignty-framed legend, weekly automated pipeline, and a redesigned frontend. Map powered by <a href="https://leafletjs.com" target="_blank">Leaflet</a>, an open-source project by Volodymyr Agafonkin 🇺🇦. Use <strong>⊙ Colorblind mode</strong> in the legend for a deuteranopia-safe palette.</p>
       </div>
     </div>
   </div>
 
   <div class="panel-section" id="panel-stats">
-    <div class="panel-section-kicker">Statistics</div>
+    <div class="panel-section-kicker">Statistics <a href="#panel-about" onclick="document.getElementById('panel-about').scrollIntoView({behavior:'smooth'});return false;" style="font-size:10px;font-weight:600;color:var(--text-muted);text-decoration:none;margin-left:8px;letter-spacing:0.05em;border-bottom:1px solid var(--border);padding-bottom:1px">↑ About</a></div>
     <div id="stats-content"></div>
   </div>
 </aside>
@@ -769,7 +769,7 @@ let muniByName = {};   // lowercase name -> municipality
 // --- Map ---
 const map = L.map('map', {
   center: [56.7286, 13.7823],
-  zoom: 7,
+  zoom: 6,
   minZoom: 2,
   maxZoom: 14,
   renderer: L.canvas()
