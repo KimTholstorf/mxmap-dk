@@ -2595,7 +2595,7 @@ async function navigateToMuni(m) {
     return dnsData.municipalities.filter(function(m) {
       return m.name.toLowerCase().includes(ql)
         || (m.domain && m.domain.toLowerCase().includes(ql))
-        || (m.classification && m.classification.mx_records && m.classification.mx_records.some(function(r) { return r.toLowerCase().includes(ql); }));
+        || (m.classification && m.classification.mx_records && m.classification.mx_records.some(function(r) { return (r.host || '').toLowerCase().includes(ql); }));
     }).slice(0, 8);
   }
 
@@ -2620,9 +2620,12 @@ async function navigateToMuni(m) {
     resultsEl.style.display = 'block';
   }
 
-  input.addEventListener('input', function() {
+  input.addEventListener('input', async function() {
     const q = input.value.trim();
-    if (!summaryLoaded || q.length < 2) { resultsEl.style.display = 'none'; return; }
+    if (q.length < 2) { resultsEl.style.display = 'none'; return; }
+    if (!summaryLoaded) {
+      await loadSummaryData();
+    }
     render(searchMunis(q));
   });
 
