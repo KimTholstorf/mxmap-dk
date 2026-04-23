@@ -59,6 +59,7 @@ COUNTRY_CONFIG = {
     "BY": {"admin_level": 6, "iso": "BY", "name": "Belarus"},
     "TR": {"admin_level": 4, "iso": "TR", "name": "Turkey"},
     "GL": {"admin_level": 4, "iso": "GL", "name": "Greenland"},
+    "FO": {"admin_level": 7, "iso": "FO", "name": "Faroe Islands"},
     # Oceania
     "AU": {"admin_level": 6, "iso": "AU", "name": "Australia"},
     "NZ": {"admin_level": 6, "iso": "NZ", "name": "New Zealand"},

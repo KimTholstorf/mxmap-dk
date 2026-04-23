@@ -33,7 +33,7 @@ jobs:
 
       # --- Municipalities ---
       - name: Scan Nordic municipalities (DNS)
-        run: uv run preprocess DK FI NO SE IS
+        run: uv run preprocess DK FI NO SE IS FO
 
       - name: Postprocess (overrides, SMTP banners, scraping)
         run: uv run postprocess

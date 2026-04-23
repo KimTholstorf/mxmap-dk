@@ -29,7 +29,7 @@ flowchart TD
     trigger["Weekly trigger (Monday 04:00 UTC)"] --> seed
 
     subgraph pre ["1 · Preprocess"]
-        seed[/"Seed data\nDK · FI · NO · SE · IS"/] --> fetch["Load ~1,100 municipalities"]
+        seed[/"Seed data\nDK · FI · NO · SE · IS · FO"/] --> fetch["Load ~1,130 municipalities"]
         fetch --> domains["Extract / guess domains"]
         domains --> dns["MX + TXT lookups\n(3 resolvers)"]
         dns --> spf_resolve["Resolve SPF includes"]
@@ -85,7 +85,8 @@ flowchart TD
 | 🇳🇴 Norway | ~356 |
 | 🇸🇪 Sweden | ~290 |
 | 🇮🇸 Iceland | ~64 |
-| **Total** | **~1,100** |
+| 🇫🇴 Faroe Islands | 29 |
+| **Total** | **~1,130** |
 
 ### Stock indices
 
@@ -104,7 +105,7 @@ flowchart TD
 uv sync
 
 # Run the full pipeline for all Nordic countries
-uv run preprocess DK FI NO SE IS
+uv run preprocess DK FI NO SE IS FO
 uv run postprocess
 uv run validate
 

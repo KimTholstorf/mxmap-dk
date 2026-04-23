@@ -297,16 +297,14 @@
   .country-toggle:hover { border-color: var(--text-3); box-shadow: var(--shadow-sm); }
 
   .country-filters {
-    display: none; flex-wrap: wrap; justify-content: flex-end; gap: 4px;
-    max-width: 520px;
+    display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 4px;
     background: rgba(255,255,255,0.95);
     backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
     border-radius: var(--radius);
     border: 1px solid var(--border-light);
-    padding: 8px 10px;
+    padding: 6px 10px;
     box-shadow: var(--shadow-md);
   }
-  .country-filters.expanded { display: flex; }
   .region-group { display: flex; align-items: center; gap: 3px; }
   .region-label {
     font-size: 9px; color: var(--text-muted); font-weight: 700;
@@ -550,16 +548,15 @@
 <main id="map" role="application" aria-label="Interactive map of municipal email providers">
   <div id="map-loading" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;z-index:1000;background:rgba(255,255,255,0.85);font-size:15px;color:#555;">Loading map data&hellip;</div>
   <div class="map-controls">
-    <button class="country-toggle" id="country-toggle">Countries &#9662;</button>
     <div class="country-filters" id="country-filters">
       <div class="region-group">
-        <button class="region-label" data-region="nordic">Nordic</button>
         <button class="country-btn active" data-country="FI">FI</button>
         <button class="country-btn active" data-country="SE">SE</button>
         <button class="country-btn active" data-country="NO">NO</button>
         <button class="country-btn active" data-country="DK">DK</button>
         <button class="country-btn active" data-country="IS">IS</button>
         <button class="country-btn active" data-country="GL">GL</button>
+        <button class="country-btn active" data-country="FO">FO</button>
       </div>
     </div>
     <div class="level-toggle">
@@ -611,7 +608,7 @@
     <div class="panel-info-stack">
       <div class="panel-info-card">
         <h3>What is this?</h3>
-        <p>A map of municipalities in <strong>Denmark, Finland, Norway, Sweden and Iceland</strong> showing which provider handles their official email — grouped by legal jurisdiction — based on public DNS records and other public network signals. Also covers the largest publicly traded companies from each country (OMXC20, OMXS30, OBX, OMXH25). Click any municipality or company to see the evidence and a <em>Why this label?</em> explanation with a confidence score.</p>
+        <p>A map of municipalities in <strong>Denmark, Finland, Norway, Sweden, Iceland and the Faroe Islands</strong> showing which provider handles their official email — grouped by legal jurisdiction — based on public DNS records and other public network signals. Also covers the largest publicly traded companies from each country (OMXC20, OMXS30, OBX, OMXH25). Click any municipality or company to see the evidence and a <em>Why this label?</em> explanation with a confidence score.</p>
       </div>
       <div class="panel-info-card">
         <h3>Context</h3>
@@ -674,9 +671,9 @@ const TIERS = {
   'Unknown':              ['Unknown']
 };
 
-const FLAGS = { EE: '\u{1F1EA}\u{1F1EA}', LV: '\u{1F1F1}\u{1F1FB}', LT: '\u{1F1F1}\u{1F1F9}', FI: '\u{1F1EB}\u{1F1EE}', NO: '\u{1F1F3}\u{1F1F4}', IS: '\u{1F1EE}\u{1F1F8}', SE: '\u{1F1F8}\u{1F1EA}', DE: '\u{1F1E9}\u{1F1EA}', DK: '\u{1F1E9}\u{1F1F0}', AD: '\u{1F1E6}\u{1F1E9}', LU: '\u{1F1F1}\u{1F1FA}', BE: '\u{1F1E7}\u{1F1EA}', AT: '\u{1F1E6}\u{1F1F9}', CZ: '\u{1F1E8}\u{1F1FF}', SK: '\u{1F1F8}\u{1F1F0}', SI: '\u{1F1F8}\u{1F1EE}', ES: '\u{1F1EA}\u{1F1F8}', FR: '\u{1F1EB}\u{1F1F7}', PL: '\u{1F1F5}\u{1F1F1}', PT: '\u{1F1F5}\u{1F1F9}', IT: '\u{1F1EE}\u{1F1F9}', IE: '\u{1F1EE}\u{1F1EA}', NL: '\u{1F1F3}\u{1F1F1}', BG: '\u{1F1E7}\u{1F1EC}', GB: '\u{1F1EC}\u{1F1E7}', HR: '\u{1F1ED}\u{1F1F7}', CY: '\u{1F1E8}\u{1F1FE}', GR: '\u{1F1EC}\u{1F1F7}', HU: '\u{1F1ED}\u{1F1FA}', MT: '\u{1F1F2}\u{1F1F9}', RO: '\u{1F1F7}\u{1F1F4}', AL: '\u{1F1E6}\u{1F1F1}', XK: '\u{1F1FD}\u{1F1F0}', ME: '\u{1F1F2}\u{1F1EA}', BA: '\u{1F1E7}\u{1F1E6}', RS: '\u{1F1F7}\u{1F1F8}', MK: '\u{1F1F2}\u{1F1F0}', UA: '\u{1F1FA}\u{1F1E6}', MD: '\u{1F1F2}\u{1F1E9}', LI: '\u{1F1F1}\u{1F1EE}', SM: '\u{1F1F8}\u{1F1F2}', GE: '\u{1F1EC}\u{1F1EA}', AM: '\u{1F1E6}\u{1F1F2}', AZ: '\u{1F1E6}\u{1F1FF}', BY: '\u{1F1E7}\u{1F1FE}', TR: '\u{1F1F9}\u{1F1F7}', MC: '\u{1F1F2}\u{1F1E8}', GL: '\u{1F1EC}\u{1F1F1}', AU: '\u{1F1E6}\u{1F1FA}', NZ: '\u{1F1F3}\u{1F1FF}', FJ: '\u{1F1EB}\u{1F1EF}', WS: '\u{1F1FC}\u{1F1F8}', VU: '\u{1F1FB}\u{1F1FA}', TO: '\u{1F1F9}\u{1F1F4}', NR: '\u{1F1F3}\u{1F1F7}', PW: '\u{1F1F5}\u{1F1FC}', ID: '\u{1F1EE}\u{1F1E9}', PG: '\u{1F1F5}\u{1F1EC}', MY: '\u{1F1F2}\u{1F1FE}', TH: '\u{1F1F9}\u{1F1ED}', KH: '\u{1F1F0}\u{1F1ED}', PH: '\u{1F1F5}\u{1F1ED}', VN: '\u{1F1FB}\u{1F1F3}', MM: '\u{1F1F2}\u{1F1F2}', JP: '\u{1F1EF}\u{1F1F5}', TW: '\u{1F1F9}\u{1F1FC}', KR: '\u{1F1F0}\u{1F1F7}', KP: '\u{1F1F0}\u{1F1F5}', CN: '\u{1F1E8}\u{1F1F3}', MN: '\u{1F1F2}\u{1F1F3}', IN: '\u{1F1EE}\u{1F1F3}', BD: '\u{1F1E7}\u{1F1E9}', PK: '\u{1F1F5}\u{1F1F0}', LK: '\u{1F1F1}\u{1F1F0}', NP: '\u{1F1F3}\u{1F1F5}', LA: '\u{1F1F1}\u{1F1E6}', BN: '\u{1F1E7}\u{1F1F3}', TL: '\u{1F1F9}\u{1F1F1}', KZ: '\u{1F1F0}\u{1F1FF}', UZ: '\u{1F1FA}\u{1F1FF}', KG: '\u{1F1F0}\u{1F1EC}', RU: '\u{1F1F7}\u{1F1FA}', SA: '\u{1F1F8}\u{1F1E6}', IQ: '\u{1F1EE}\u{1F1F6}', JO: '\u{1F1EF}\u{1F1F4}', LB: '\u{1F1F1}\u{1F1E7}', KW: '\u{1F1F0}\u{1F1FC}', IR: '\u{1F1EE}\u{1F1F7}', IL: '\u{1F1EE}\u{1F1F1}', OM: '\u{1F1F4}\u{1F1F2}', AE: '\u{1F1E6}\u{1F1EA}', QA: '\u{1F1F6}\u{1F1E6}', BH: '\u{1F1E7}\u{1F1ED}', AR: '\u{1F1E6}\u{1F1F7}', BO: '\u{1F1E7}\u{1F1F4}', BR: '\u{1F1E7}\u{1F1F7}', CL: '\u{1F1E8}\u{1F1F1}', CO: '\u{1F1E8}\u{1F1F4}', EC: '\u{1F1EA}\u{1F1E8}', GY: '\u{1F1EC}\u{1F1FE}', PE: '\u{1F1F5}\u{1F1EA}', PY: '\u{1F1F5}\u{1F1FE}', SR: '\u{1F1F8}\u{1F1F7}', UY: '\u{1F1FA}\u{1F1FE}', VE: '\u{1F1FB}\u{1F1EA}', DZ: '\u{1F1E9}\u{1F1FF}', EG: '\u{1F1EA}\u{1F1EC}', LY: '\u{1F1F1}\u{1F1FE}', MA: '\u{1F1F2}\u{1F1E6}', TN: '\u{1F1F9}\u{1F1F3}', SD: '\u{1F1F8}\u{1F1E9}', BJ: '\u{1F1E7}\u{1F1EF}', BF: '\u{1F1E7}\u{1F1EB}', CV: '\u{1F1E8}\u{1F1FB}', CI: '\u{1F1E8}\u{1F1EE}', GM: '\u{1F1EC}\u{1F1F2}', GH: '\u{1F1EC}\u{1F1ED}', GN: '\u{1F1EC}\u{1F1F3}', GW: '\u{1F1EC}\u{1F1FC}', LR: '\u{1F1F1}\u{1F1F7}', ML: '\u{1F1F2}\u{1F1F1}', MR: '\u{1F1F2}\u{1F1F7}', NE: '\u{1F1F3}\u{1F1EA}', NG: '\u{1F1F3}\u{1F1EC}', SN: '\u{1F1F8}\u{1F1F3}', SL: '\u{1F1F8}\u{1F1F1}', TG: '\u{1F1F9}\u{1F1EC}', CM: '\u{1F1E8}\u{1F1F2}', CF: '\u{1F1E8}\u{1F1EB}', TD: '\u{1F1F9}\u{1F1E9}', CG: '\u{1F1E8}\u{1F1EC}', CD: '\u{1F1E8}\u{1F1E9}', GQ: '\u{1F1EC}\u{1F1F6}', GA: '\u{1F1EC}\u{1F1E6}', ST: '\u{1F1F8}\u{1F1F9}', BI: '\u{1F1E7}\u{1F1EE}', KM: '\u{1F1F0}\u{1F1F2}', DJ: '\u{1F1E9}\u{1F1EF}', ER: '\u{1F1EA}\u{1F1F7}', ET: '\u{1F1EA}\u{1F1F9}', KE: '\u{1F1F0}\u{1F1EA}', MG: '\u{1F1F2}\u{1F1EC}', MW: '\u{1F1F2}\u{1F1FC}', MU: '\u{1F1F2}\u{1F1FA}', MZ: '\u{1F1F2}\u{1F1FF}', RW: '\u{1F1F7}\u{1F1FC}', SC: '\u{1F1F8}\u{1F1E8}', SO: '\u{1F1F8}\u{1F1F4}', SS: '\u{1F1F8}\u{1F1F8}', TZ: '\u{1F1F9}\u{1F1FF}', UG: '\u{1F1FA}\u{1F1EC}', AO: '\u{1F1E6}\u{1F1F4}', BW: '\u{1F1E7}\u{1F1FC}', SZ: '\u{1F1F8}\u{1F1FF}', LS: '\u{1F1F1}\u{1F1F8}', NA: '\u{1F1F3}\u{1F1E6}', ZA: '\u{1F1FF}\u{1F1E6}', ZM: '\u{1F1FF}\u{1F1F2}', ZW: '\u{1F1FF}\u{1F1FC}', CA: '\u{1F1E8}\u{1F1E6}', BZ: '\u{1F1E7}\u{1F1FF}', GT: '\u{1F1EC}\u{1F1F9}', HN: '\u{1F1ED}\u{1F1F3}', SV: '\u{1F1F8}\u{1F1FB}', NI: '\u{1F1F3}\u{1F1EE}', CR: '\u{1F1E8}\u{1F1F7}', PA: '\u{1F1F5}\u{1F1E6}', CU: '\u{1F1E8}\u{1F1FA}', HT: '\u{1F1ED}\u{1F1F9}', DO: '\u{1F1E9}\u{1F1F4}', JM: '\u{1F1EF}\u{1F1F2}', TT: '\u{1F1F9}\u{1F1F9}', BS: '\u{1F1E7}\u{1F1F8}', BB: '\u{1F1E7}\u{1F1E7}', AG: '\u{1F1E6}\u{1F1EC}', DM: '\u{1F1E9}\u{1F1F2}', GD: '\u{1F1EC}\u{1F1E9}', KN: '\u{1F1F0}\u{1F1F3}', LC: '\u{1F1F1}\u{1F1E8}', VC: '\u{1F1FB}\u{1F1E8}', AF: '\u{1F1E6}\u{1F1EB}', SG: '\u{1F1F8}\u{1F1EC}', YE: '\u{1F1FE}\u{1F1EA}', SY: '\u{1F1F8}\u{1F1FE}', PS: '\u{1F1F5}\u{1F1F8}', TJ: '\u{1F1F9}\u{1F1EF}', TM: '\u{1F1F9}\u{1F1F2}', MV: '\u{1F1F2}\u{1F1FB}', BT: '\u{1F1E7}\u{1F1F9}', SB: '\u{1F1F8}\u{1F1E7}', MH: '\u{1F1F2}\u{1F1ED}', FM: '\u{1F1EB}\u{1F1F2}', KI: '\u{1F1F0}\u{1F1EE}', TV: '\u{1F1F9}\u{1F1FB}', MX: '\u{1F1F2}\u{1F1FD}' };
+const FLAGS = { EE: '\u{1F1EA}\u{1F1EA}', LV: '\u{1F1F1}\u{1F1FB}', LT: '\u{1F1F1}\u{1F1F9}', FI: '\u{1F1EB}\u{1F1EE}', NO: '\u{1F1F3}\u{1F1F4}', IS: '\u{1F1EE}\u{1F1F8}', SE: '\u{1F1F8}\u{1F1EA}', DE: '\u{1F1E9}\u{1F1EA}', DK: '\u{1F1E9}\u{1F1F0}', AD: '\u{1F1E6}\u{1F1E9}', LU: '\u{1F1F1}\u{1F1FA}', BE: '\u{1F1E7}\u{1F1EA}', AT: '\u{1F1E6}\u{1F1F9}', CZ: '\u{1F1E8}\u{1F1FF}', SK: '\u{1F1F8}\u{1F1F0}', SI: '\u{1F1F8}\u{1F1EE}', ES: '\u{1F1EA}\u{1F1F8}', FR: '\u{1F1EB}\u{1F1F7}', PL: '\u{1F1F5}\u{1F1F1}', PT: '\u{1F1F5}\u{1F1F9}', IT: '\u{1F1EE}\u{1F1F9}', IE: '\u{1F1EE}\u{1F1EA}', NL: '\u{1F1F3}\u{1F1F1}', BG: '\u{1F1E7}\u{1F1EC}', GB: '\u{1F1EC}\u{1F1E7}', HR: '\u{1F1ED}\u{1F1F7}', CY: '\u{1F1E8}\u{1F1FE}', GR: '\u{1F1EC}\u{1F1F7}', HU: '\u{1F1ED}\u{1F1FA}', MT: '\u{1F1F2}\u{1F1F9}', RO: '\u{1F1F7}\u{1F1F4}', AL: '\u{1F1E6}\u{1F1F1}', XK: '\u{1F1FD}\u{1F1F0}', ME: '\u{1F1F2}\u{1F1EA}', BA: '\u{1F1E7}\u{1F1E6}', RS: '\u{1F1F7}\u{1F1F8}', MK: '\u{1F1F2}\u{1F1F0}', UA: '\u{1F1FA}\u{1F1E6}', MD: '\u{1F1F2}\u{1F1E9}', LI: '\u{1F1F1}\u{1F1EE}', SM: '\u{1F1F8}\u{1F1F2}', GE: '\u{1F1EC}\u{1F1EA}', AM: '\u{1F1E6}\u{1F1F2}', AZ: '\u{1F1E6}\u{1F1FF}', BY: '\u{1F1E7}\u{1F1FE}', TR: '\u{1F1F9}\u{1F1F7}', MC: '\u{1F1F2}\u{1F1E8}', GL: '\u{1F1EC}\u{1F1F1}', FO: '\u{1F1EB}\u{1F1F4}', AU: '\u{1F1E6}\u{1F1FA}', NZ: '\u{1F1F3}\u{1F1FF}', FJ: '\u{1F1EB}\u{1F1EF}', WS: '\u{1F1FC}\u{1F1F8}', VU: '\u{1F1FB}\u{1F1FA}', TO: '\u{1F1F9}\u{1F1F4}', NR: '\u{1F1F3}\u{1F1F7}', PW: '\u{1F1F5}\u{1F1FC}', ID: '\u{1F1EE}\u{1F1E9}', PG: '\u{1F1F5}\u{1F1EC}', MY: '\u{1F1F2}\u{1F1FE}', TH: '\u{1F1F9}\u{1F1ED}', KH: '\u{1F1F0}\u{1F1ED}', PH: '\u{1F1F5}\u{1F1ED}', VN: '\u{1F1FB}\u{1F1F3}', MM: '\u{1F1F2}\u{1F1F2}', JP: '\u{1F1EF}\u{1F1F5}', TW: '\u{1F1F9}\u{1F1FC}', KR: '\u{1F1F0}\u{1F1F7}', KP: '\u{1F1F0}\u{1F1F5}', CN: '\u{1F1E8}\u{1F1F3}', MN: '\u{1F1F2}\u{1F1F3}', IN: '\u{1F1EE}\u{1F1F3}', BD: '\u{1F1E7}\u{1F1E9}', PK: '\u{1F1F5}\u{1F1F0}', LK: '\u{1F1F1}\u{1F1F0}', NP: '\u{1F1F3}\u{1F1F5}', LA: '\u{1F1F1}\u{1F1E6}', BN: '\u{1F1E7}\u{1F1F3}', TL: '\u{1F1F9}\u{1F1F1}', KZ: '\u{1F1F0}\u{1F1FF}', UZ: '\u{1F1FA}\u{1F1FF}', KG: '\u{1F1F0}\u{1F1EC}', RU: '\u{1F1F7}\u{1F1FA}', SA: '\u{1F1F8}\u{1F1E6}', IQ: '\u{1F1EE}\u{1F1F6}', JO: '\u{1F1EF}\u{1F1F4}', LB: '\u{1F1F1}\u{1F1E7}', KW: '\u{1F1F0}\u{1F1FC}', IR: '\u{1F1EE}\u{1F1F7}', IL: '\u{1F1EE}\u{1F1F1}', OM: '\u{1F1F4}\u{1F1F2}', AE: '\u{1F1E6}\u{1F1EA}', QA: '\u{1F1F6}\u{1F1E6}', BH: '\u{1F1E7}\u{1F1ED}', AR: '\u{1F1E6}\u{1F1F7}', BO: '\u{1F1E7}\u{1F1F4}', BR: '\u{1F1E7}\u{1F1F7}', CL: '\u{1F1E8}\u{1F1F1}', CO: '\u{1F1E8}\u{1F1F4}', EC: '\u{1F1EA}\u{1F1E8}', GY: '\u{1F1EC}\u{1F1FE}', PE: '\u{1F1F5}\u{1F1EA}', PY: '\u{1F1F5}\u{1F1FE}', SR: '\u{1F1F8}\u{1F1F7}', UY: '\u{1F1FA}\u{1F1FE}', VE: '\u{1F1FB}\u{1F1EA}', DZ: '\u{1F1E9}\u{1F1FF}', EG: '\u{1F1EA}\u{1F1EC}', LY: '\u{1F1F1}\u{1F1FE}', MA: '\u{1F1F2}\u{1F1E6}', TN: '\u{1F1F9}\u{1F1F3}', SD: '\u{1F1F8}\u{1F1E9}', BJ: '\u{1F1E7}\u{1F1EF}', BF: '\u{1F1E7}\u{1F1EB}', CV: '\u{1F1E8}\u{1F1FB}', CI: '\u{1F1E8}\u{1F1EE}', GM: '\u{1F1EC}\u{1F1F2}', GH: '\u{1F1EC}\u{1F1ED}', GN: '\u{1F1EC}\u{1F1F3}', GW: '\u{1F1EC}\u{1F1FC}', LR: '\u{1F1F1}\u{1F1F7}', ML: '\u{1F1F2}\u{1F1F1}', MR: '\u{1F1F2}\u{1F1F7}', NE: '\u{1F1F3}\u{1F1EA}', NG: '\u{1F1F3}\u{1F1EC}', SN: '\u{1F1F8}\u{1F1F3}', SL: '\u{1F1F8}\u{1F1F1}', TG: '\u{1F1F9}\u{1F1EC}', CM: '\u{1F1E8}\u{1F1F2}', CF: '\u{1F1E8}\u{1F1EB}', TD: '\u{1F1F9}\u{1F1E9}', CG: '\u{1F1E8}\u{1F1EC}', CD: '\u{1F1E8}\u{1F1E9}', GQ: '\u{1F1EC}\u{1F1F6}', GA: '\u{1F1EC}\u{1F1E6}', ST: '\u{1F1F8}\u{1F1F9}', BI: '\u{1F1E7}\u{1F1EE}', KM: '\u{1F1F0}\u{1F1F2}', DJ: '\u{1F1E9}\u{1F1EF}', ER: '\u{1F1EA}\u{1F1F7}', ET: '\u{1F1EA}\u{1F1F9}', KE: '\u{1F1F0}\u{1F1EA}', MG: '\u{1F1F2}\u{1F1EC}', MW: '\u{1F1F2}\u{1F1FC}', MU: '\u{1F1F2}\u{1F1FA}', MZ: '\u{1F1F2}\u{1F1FF}', RW: '\u{1F1F7}\u{1F1FC}', SC: '\u{1F1F8}\u{1F1E8}', SO: '\u{1F1F8}\u{1F1F4}', SS: '\u{1F1F8}\u{1F1F8}', TZ: '\u{1F1F9}\u{1F1FF}', UG: '\u{1F1FA}\u{1F1EC}', AO: '\u{1F1E6}\u{1F1F4}', BW: '\u{1F1E7}\u{1F1FC}', SZ: '\u{1F1F8}\u{1F1FF}', LS: '\u{1F1F1}\u{1F1F8}', NA: '\u{1F1F3}\u{1F1E6}', ZA: '\u{1F1FF}\u{1F1E6}', ZM: '\u{1F1FF}\u{1F1F2}', ZW: '\u{1F1FF}\u{1F1FC}', CA: '\u{1F1E8}\u{1F1E6}', BZ: '\u{1F1E7}\u{1F1FF}', GT: '\u{1F1EC}\u{1F1F9}', HN: '\u{1F1ED}\u{1F1F3}', SV: '\u{1F1F8}\u{1F1FB}', NI: '\u{1F1F3}\u{1F1EE}', CR: '\u{1F1E8}\u{1F1F7}', PA: '\u{1F1F5}\u{1F1E6}', CU: '\u{1F1E8}\u{1F1FA}', HT: '\u{1F1ED}\u{1F1F9}', DO: '\u{1F1E9}\u{1F1F4}', JM: '\u{1F1EF}\u{1F1F2}', TT: '\u{1F1F9}\u{1F1F9}', BS: '\u{1F1E7}\u{1F1F8}', BB: '\u{1F1E7}\u{1F1E7}', AG: '\u{1F1E6}\u{1F1EC}', DM: '\u{1F1E9}\u{1F1F2}', GD: '\u{1F1EC}\u{1F1E9}', KN: '\u{1F1F0}\u{1F1F3}', LC: '\u{1F1F1}\u{1F1E8}', VC: '\u{1F1FB}\u{1F1E8}', AF: '\u{1F1E6}\u{1F1EB}', SG: '\u{1F1F8}\u{1F1EC}', YE: '\u{1F1FE}\u{1F1EA}', SY: '\u{1F1F8}\u{1F1FE}', PS: '\u{1F1F5}\u{1F1F8}', TJ: '\u{1F1F9}\u{1F1EF}', TM: '\u{1F1F9}\u{1F1F2}', MV: '\u{1F1F2}\u{1F1FB}', BT: '\u{1F1E7}\u{1F1F9}', SB: '\u{1F1F8}\u{1F1E7}', MH: '\u{1F1F2}\u{1F1ED}', FM: '\u{1F1EB}\u{1F1F2}', KI: '\u{1F1F0}\u{1F1EE}', TV: '\u{1F1F9}\u{1F1FB}', MX: '\u{1F1F2}\u{1F1FD}' };
 
-const COUNTRY_LIST = ['FI', 'SE', 'NO', 'DK', 'IS', 'GL'];
+const COUNTRY_LIST = ['FI', 'SE', 'NO', 'DK', 'IS', 'GL', 'FO'];
 
 window.filterMuniList = function(input) {
   var query = input.value.toLowerCase();
@@ -768,13 +765,17 @@ let muniByName = {};   // lowercase name -> municipality
 
 // --- Map ---
 const map = L.map('map', {
-  center: [56.7286, 13.7823],
-  zoom: 6,
+  center: [57.8202, 12.7988],
+  zoom: 6.5,
   minZoom: 2,
   maxZoom: 14,
+  zoomSnap: 0.1,
+  zoomDelta: 0.5,
   renderer: L.canvas()
 });
 window._map = map; // expose for debugging
+
+
 
 
 L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
@@ -904,7 +905,7 @@ function buildStats(muniList) {
   const withMx = filtered.filter(m => m.has_mx || (m.mx || []).length > 0).length;
 
   const usProviders = new Set(['US Cloud', 'Foreign Cloud']);
-  const countryColors = { US: '#E83838', EE: '#2EDBA8', LV: '#34D5A0', LT: '#78FFD6', DE: '#6BA3D6', DK: '#4FC3D6', NL: '#6BA3D6', FI: '#6BA3D6', SE: '#56E8B0', IE: '#6BA3D6', NO: '#10B898', IS: '#20C8A0', AD: '#56C8B0', LU: '#4DB8A8', BE: '#3DA898', AT: '#5DBCA0', CZ: '#4EB8A8', SK: '#45B0A0', SI: '#52C498', ES: '#E8A040', FR: '#4088E8', PT: '#40A8E8', IT: '#50B868', BG: '#58A878', GB: '#4090D0', HR: '#48B890', CY: '#60C870', GR: '#3880D0', HU: '#55A8B0', MT: '#68C890', RO: '#4898C0', AL: '#50B0A0', XK: '#58B8A8', ME: '#45A898', BA: '#4CA0A0', RS: '#52A8A0', MK: '#48B0A8', UA: '#3090D8', MD: '#4898B0', LI: '#60C0A0', SM: '#58B890', GE: '#40A0C0', AM: '#5098B0', AZ: '#48A8B8', BY: '#3888C0', TR: '#D88040', MC: '#60B8A0', GL: '#58C8E0', AU: '#E8C840', NZ: '#48D898', FJ: '#4080C0', WS: '#30A878', VU: '#48B8A0', TO: '#C84040', NR: '#3878A0', PW: '#58C0D0', ID: '#D06840', PG: '#60A068', MY: '#4090C8', TH: '#D8A830', KH: '#3878B8', PH: '#5088D0', VN: '#D04848', MM: '#48A870', JP: '#E84060', TW: '#4080C0', KR: '#3070B0', KP: '#C04040', CN: '#D05050', MN: '#4890A0', IN: '#E89030', BD: '#30A050', PK: '#20803E', LK: '#8B4513', NP: '#DC143C', LA: '#002868', BN: '#D0B020', TL: '#BE0027', KZ: '#00AFCA', UZ: '#1EB53A', KG: '#E8112D', RU: '#0039A6', SA: '#006C35', IQ: '#A06830', JO: '#B87840', LB: '#C04848', KW: '#007A3D', IR: '#C8A030', IL: '#0038B8', OM: '#C09050', AE: '#4098D0', QA: '#8040A0', BH: '#D07050', AR: '#75AADB', BO: '#D52B1E', BR: '#009B3A', CL: '#D52B1E', CO: '#FCD116', EC: '#FFD100', GY: '#009E49', PE: '#D91023', PY: '#0038A8', SR: '#377E3F', UY: '#5089C6', VE: '#CF142B', DZ: '#006633', EG: '#C8102E', LY: '#000000', MA: '#C1272D', TN: '#E70013', SD: '#007229', BJ: '#E8D71E', BF: '#009E49', CV: '#003893', CI: '#F77F00', GM: '#3A7728', GH: '#006B3F', GN: '#CE1126', GW: '#CE1126', LR: '#002868', ML: '#14B53A', MR: '#006233', NE: '#E05206', NG: '#008751', SN: '#00853F', SL: '#1EB53A', TG: '#006A4E', CM: '#007A5E', CF: '#003082', TD: '#002664', CG: '#009543', CD: '#007FFF', GQ: '#3E9A00', GA: '#009E60', ST: '#12AD2B', BI: '#CE1126', KM: '#3A75C4', DJ: '#6AB2E7', ER: '#4189DD', ET: '#FCDD09', KE: '#BB0000', MG: '#FC3D32', MW: '#CE1126', MU: '#00A551', MZ: '#FFD100', RW: '#00A1DE', SC: '#003DA5', SO: '#4189DD', SS: '#078930', TZ: '#1EB53A', UG: '#D90000', AO: '#CC092F', BW: '#75AADB', SZ: '#3E5EB9', LS: '#00209F', NA: '#003580', ZA: '#007749', ZM: '#198A00', ZW: '#FFD200', CA: '#FF0000', BZ: '#003DA5', GT: '#4997D0', HN: '#0038A8', SV: '#0F47AF', NI: '#003893', CR: '#002B7F', PA: '#003DA5', CU: '#002A8F', HT: '#00209F', DO: '#002D62', JM: '#009B3A', TT: '#CE1126', BS: '#00778B', BB: '#00267F', AG: '#CE1126', DM: '#006B3F', GD: '#CE1126', KN: '#009E49', LC: '#65CFFF', VC: '#0072C6', AF: '#009900', SG: '#EF3340', YE: '#CE1126', SY: '#CE1126', PS: '#009736', TJ: '#006600', TM: '#28AE66', MV: '#D21034', BT: '#FF4E12', SB: '#0051A5', MH: '#003DA5', FM: '#75B2DD', KI: '#CE1126', TV: '#009FCA', MX: '#006847' };
+  const countryColors = { US: '#E83838', EE: '#2EDBA8', LV: '#34D5A0', LT: '#78FFD6', DE: '#6BA3D6', DK: '#4FC3D6', NL: '#6BA3D6', FI: '#6BA3D6', SE: '#56E8B0', IE: '#6BA3D6', NO: '#10B898', IS: '#20C8A0', AD: '#56C8B0', LU: '#4DB8A8', BE: '#3DA898', AT: '#5DBCA0', CZ: '#4EB8A8', SK: '#45B0A0', SI: '#52C498', ES: '#E8A040', FR: '#4088E8', PT: '#40A8E8', IT: '#50B868', BG: '#58A878', GB: '#4090D0', HR: '#48B890', CY: '#60C870', GR: '#3880D0', HU: '#55A8B0', MT: '#68C890', RO: '#4898C0', AL: '#50B0A0', XK: '#58B8A8', ME: '#45A898', BA: '#4CA0A0', RS: '#52A8A0', MK: '#48B0A8', UA: '#3090D8', MD: '#4898B0', LI: '#60C0A0', SM: '#58B890', GE: '#40A0C0', AM: '#5098B0', AZ: '#48A8B8', BY: '#3888C0', TR: '#D88040', MC: '#60B8A0', GL: '#58C8E0', FO: '#003897', AU: '#E8C840', NZ: '#48D898', FJ: '#4080C0', WS: '#30A878', VU: '#48B8A0', TO: '#C84040', NR: '#3878A0', PW: '#58C0D0', ID: '#D06840', PG: '#60A068', MY: '#4090C8', TH: '#D8A830', KH: '#3878B8', PH: '#5088D0', VN: '#D04848', MM: '#48A870', JP: '#E84060', TW: '#4080C0', KR: '#3070B0', KP: '#C04040', CN: '#D05050', MN: '#4890A0', IN: '#E89030', BD: '#30A050', PK: '#20803E', LK: '#8B4513', NP: '#DC143C', LA: '#002868', BN: '#D0B020', TL: '#BE0027', KZ: '#00AFCA', UZ: '#1EB53A', KG: '#E8112D', RU: '#0039A6', SA: '#006C35', IQ: '#A06830', JO: '#B87840', LB: '#C04848', KW: '#007A3D', IR: '#C8A030', IL: '#0038B8', OM: '#C09050', AE: '#4098D0', QA: '#8040A0', BH: '#D07050', AR: '#75AADB', BO: '#D52B1E', BR: '#009B3A', CL: '#D52B1E', CO: '#FCD116', EC: '#FFD100', GY: '#009E49', PE: '#D91023', PY: '#0038A8', SR: '#377E3F', UY: '#5089C6', VE: '#CF142B', DZ: '#006633', EG: '#C8102E', LY: '#000000', MA: '#C1272D', TN: '#E70013', SD: '#007229', BJ: '#E8D71E', BF: '#009E49', CV: '#003893', CI: '#F77F00', GM: '#3A7728', GH: '#006B3F', GN: '#CE1126', GW: '#CE1126', LR: '#002868', ML: '#14B53A', MR: '#006233', NE: '#E05206', NG: '#008751', SN: '#00853F', SL: '#1EB53A', TG: '#006A4E', CM: '#007A5E', CF: '#003082', TD: '#002664', CG: '#009543', CD: '#007FFF', GQ: '#3E9A00', GA: '#009E60', ST: '#12AD2B', BI: '#CE1126', KM: '#3A75C4', DJ: '#6AB2E7', ER: '#4189DD', ET: '#FCDD09', KE: '#BB0000', MG: '#FC3D32', MW: '#CE1126', MU: '#00A551', MZ: '#FFD100', RW: '#00A1DE', SC: '#003DA5', SO: '#4189DD', SS: '#078930', TZ: '#1EB53A', UG: '#D90000', AO: '#CC092F', BW: '#75AADB', SZ: '#3E5EB9', LS: '#00209F', NA: '#003580', ZA: '#007749', ZM: '#198A00', ZW: '#FFD200', CA: '#FF0000', BZ: '#003DA5', GT: '#4997D0', HN: '#0038A8', SV: '#0F47AF', NI: '#003893', CR: '#002B7F', PA: '#003DA5', CU: '#002A8F', HT: '#00209F', DO: '#002D62', JM: '#009B3A', TT: '#CE1126', BS: '#00778B', BB: '#00267F', AG: '#CE1126', DM: '#006B3F', GD: '#CE1126', KN: '#009E49', LC: '#65CFFF', VC: '#0072C6', AF: '#009900', SG: '#EF3340', YE: '#CE1126', SY: '#CE1126', PS: '#009736', TJ: '#006600', TM: '#28AE66', MV: '#D21034', BT: '#FF4E12', SB: '#0051A5', MH: '#003DA5', FM: '#75B2DD', KI: '#CE1126', TV: '#009FCA', MX: '#006847' };
   const sectionTitle = '<div style="font-size:12px;color:#777;text-transform:uppercase;letter-spacing:0.3px;font-weight:600;margin-bottom:4px">';
 
   function barHtml(label, value, max, color, base) {
@@ -1000,7 +1001,7 @@ function buildStats(muniList) {
   html += `<p style="font-size:12px;color:#777;margin-top:8px"><strong>${mxInUs}</strong> of ${withMx} municipalities with MX records route mail through servers registered in the US.</p>`;
 
   // Per-country breakdown
-  const countryNames = { EE: 'Estonia', LV: 'Latvia', LT: 'Lithuania', FI: 'Finland', NO: 'Norway', IS: 'Iceland', SE: 'Sweden', DE: 'Germany', DK: 'Denmark', AD: 'Andorra', LU: 'Luxembourg', BE: 'Belgium', AT: 'Austria', CZ: 'Czechia', SK: 'Slovakia', SI: 'Slovenia', ES: 'Spain', FR: 'France', PL: 'Poland', PT: 'Portugal', IT: 'Italy', IE: 'Ireland', NL: 'Netherlands', BG: 'Bulgaria', GB: 'United Kingdom', HR: 'Croatia', CY: 'Cyprus', GR: 'Greece', HU: 'Hungary', MT: 'Malta', RO: 'Romania', AL: 'Albania', XK: 'Kosovo', ME: 'Montenegro', BA: 'Bosnia and Herzegovina', RS: 'Serbia', MK: 'North Macedonia', UA: 'Ukraine', MD: 'Moldova', LI: 'Liechtenstein', SM: 'San Marino', GE: 'Georgia', AM: 'Armenia', AZ: 'Azerbaijan', BY: 'Belarus', TR: 'Turkey', MC: 'Monaco', GL: 'Greenland', AU: 'Australia', NZ: 'New Zealand', FJ: 'Fiji', WS: 'Samoa', VU: 'Vanuatu', TO: 'Tonga', NR: 'Nauru', PW: 'Palau', ID: 'Indonesia', PG: 'Papua New Guinea', MY: 'Malaysia', TH: 'Thailand', KH: 'Cambodia', PH: 'Philippines', VN: 'Vietnam', MM: 'Myanmar', JP: 'Japan', TW: 'Taiwan', KR: 'South Korea', KP: 'North Korea', CN: 'China', MN: 'Mongolia', IN: 'India', BD: 'Bangladesh', PK: 'Pakistan', LK: 'Sri Lanka', NP: 'Nepal', LA: 'Laos', BN: 'Brunei', TL: 'Timor-Leste', KZ: 'Kazakhstan', UZ: 'Uzbekistan', KG: 'Kyrgyzstan', RU: 'Russia', SA: 'Saudi Arabia', IQ: 'Iraq', JO: 'Jordan', LB: 'Lebanon', KW: 'Kuwait', IR: 'Iran', IL: 'Israel', OM: 'Oman', AE: 'UAE', QA: 'Qatar', BH: 'Bahrain', AR: 'Argentina', BO: 'Bolivia', BR: 'Brazil', CL: 'Chile', CO: 'Colombia', EC: 'Ecuador', GY: 'Guyana', PE: 'Peru', PY: 'Paraguay', SR: 'Suriname', UY: 'Uruguay', VE: 'Venezuela', DZ: 'Algeria', EG: 'Egypt', LY: 'Libya', MA: 'Morocco', TN: 'Tunisia', SD: 'Sudan', BJ: 'Benin', BF: 'Burkina Faso', CV: 'Cape Verde', CI: "Côte d'Ivoire", GM: 'Gambia', GH: 'Ghana', GN: 'Guinea', GW: 'Guinea-Bissau', LR: 'Liberia', ML: 'Mali', MR: 'Mauritania', NE: 'Niger', NG: 'Nigeria', SN: 'Senegal', SL: 'Sierra Leone', TG: 'Togo', CM: 'Cameroon', CF: 'Central African Republic', TD: 'Chad', CG: 'Congo', CD: 'DR Congo', GQ: 'Equatorial Guinea', GA: 'Gabon', ST: 'São Tomé and Príncipe', BI: 'Burundi', KM: 'Comoros', DJ: 'Djibouti', ER: 'Eritrea', ET: 'Ethiopia', KE: 'Kenya', MG: 'Madagascar', MW: 'Malawi', MU: 'Mauritius', MZ: 'Mozambique', RW: 'Rwanda', SC: 'Seychelles', SO: 'Somalia', SS: 'South Sudan', TZ: 'Tanzania', UG: 'Uganda', AO: 'Angola', BW: 'Botswana', SZ: 'Eswatini', LS: 'Lesotho', NA: 'Namibia', ZA: 'South Africa', ZM: 'Zambia', ZW: 'Zimbabwe', CA: 'Canada', BZ: 'Belize', GT: 'Guatemala', HN: 'Honduras', SV: 'El Salvador', NI: 'Nicaragua', CR: 'Costa Rica', PA: 'Panama', CU: 'Cuba', HT: 'Haiti', DO: 'Dominican Republic', JM: 'Jamaica', TT: 'Trinidad and Tobago', BS: 'Bahamas', BB: 'Barbados', AG: 'Antigua and Barbuda', DM: 'Dominica', GD: 'Grenada', KN: 'Saint Kitts and Nevis', LC: 'Saint Lucia', VC: 'Saint Vincent and the Grenadines', AF: 'Afghanistan', SG: 'Singapore', YE: 'Yemen', SY: 'Syria', PS: 'Palestine', TJ: 'Tajikistan', TM: 'Turkmenistan', MV: 'Maldives', BT: 'Bhutan', SB: 'Solomon Islands', MH: 'Marshall Islands', FM: 'Micronesia', KI: 'Kiribati', TV: 'Tuvalu', MX: 'Mexico' };
+  const countryNames = { EE: 'Estonia', LV: 'Latvia', LT: 'Lithuania', FI: 'Finland', NO: 'Norway', IS: 'Iceland', SE: 'Sweden', DE: 'Germany', DK: 'Denmark', AD: 'Andorra', LU: 'Luxembourg', BE: 'Belgium', AT: 'Austria', CZ: 'Czechia', SK: 'Slovakia', SI: 'Slovenia', ES: 'Spain', FR: 'France', PL: 'Poland', PT: 'Portugal', IT: 'Italy', IE: 'Ireland', NL: 'Netherlands', BG: 'Bulgaria', GB: 'United Kingdom', HR: 'Croatia', CY: 'Cyprus', GR: 'Greece', HU: 'Hungary', MT: 'Malta', RO: 'Romania', AL: 'Albania', XK: 'Kosovo', ME: 'Montenegro', BA: 'Bosnia and Herzegovina', RS: 'Serbia', MK: 'North Macedonia', UA: 'Ukraine', MD: 'Moldova', LI: 'Liechtenstein', SM: 'San Marino', GE: 'Georgia', AM: 'Armenia', AZ: 'Azerbaijan', BY: 'Belarus', TR: 'Turkey', MC: 'Monaco', GL: 'Greenland', FO: 'Faroe Islands', AU: 'Australia', NZ: 'New Zealand', FJ: 'Fiji', WS: 'Samoa', VU: 'Vanuatu', TO: 'Tonga', NR: 'Nauru', PW: 'Palau', ID: 'Indonesia', PG: 'Papua New Guinea', MY: 'Malaysia', TH: 'Thailand', KH: 'Cambodia', PH: 'Philippines', VN: 'Vietnam', MM: 'Myanmar', JP: 'Japan', TW: 'Taiwan', KR: 'South Korea', KP: 'North Korea', CN: 'China', MN: 'Mongolia', IN: 'India', BD: 'Bangladesh', PK: 'Pakistan', LK: 'Sri Lanka', NP: 'Nepal', LA: 'Laos', BN: 'Brunei', TL: 'Timor-Leste', KZ: 'Kazakhstan', UZ: 'Uzbekistan', KG: 'Kyrgyzstan', RU: 'Russia', SA: 'Saudi Arabia', IQ: 'Iraq', JO: 'Jordan', LB: 'Lebanon', KW: 'Kuwait', IR: 'Iran', IL: 'Israel', OM: 'Oman', AE: 'UAE', QA: 'Qatar', BH: 'Bahrain', AR: 'Argentina', BO: 'Bolivia', BR: 'Brazil', CL: 'Chile', CO: 'Colombia', EC: 'Ecuador', GY: 'Guyana', PE: 'Peru', PY: 'Paraguay', SR: 'Suriname', UY: 'Uruguay', VE: 'Venezuela', DZ: 'Algeria', EG: 'Egypt', LY: 'Libya', MA: 'Morocco', TN: 'Tunisia', SD: 'Sudan', BJ: 'Benin', BF: 'Burkina Faso', CV: 'Cape Verde', CI: "Côte d'Ivoire", GM: 'Gambia', GH: 'Ghana', GN: 'Guinea', GW: 'Guinea-Bissau', LR: 'Liberia', ML: 'Mali', MR: 'Mauritania', NE: 'Niger', NG: 'Nigeria', SN: 'Senegal', SL: 'Sierra Leone', TG: 'Togo', CM: 'Cameroon', CF: 'Central African Republic', TD: 'Chad', CG: 'Congo', CD: 'DR Congo', GQ: 'Equatorial Guinea', GA: 'Gabon', ST: 'São Tomé and Príncipe', BI: 'Burundi', KM: 'Comoros', DJ: 'Djibouti', ER: 'Eritrea', ET: 'Ethiopia', KE: 'Kenya', MG: 'Madagascar', MW: 'Malawi', MU: 'Mauritius', MZ: 'Mozambique', RW: 'Rwanda', SC: 'Seychelles', SO: 'Somalia', SS: 'South Sudan', TZ: 'Tanzania', UG: 'Uganda', AO: 'Angola', BW: 'Botswana', SZ: 'Eswatini', LS: 'Lesotho', NA: 'Namibia', ZA: 'South Africa', ZM: 'Zambia', ZW: 'Zimbabwe', CA: 'Canada', BZ: 'Belize', GT: 'Guatemala', HN: 'Honduras', SV: 'El Salvador', NI: 'Nicaragua', CR: 'Costa Rica', PA: 'Panama', CU: 'Cuba', HT: 'Haiti', DO: 'Dominican Republic', JM: 'Jamaica', TT: 'Trinidad and Tobago', BS: 'Bahamas', BB: 'Barbados', AG: 'Antigua and Barbuda', DM: 'Dominica', GD: 'Grenada', KN: 'Saint Kitts and Nevis', LC: 'Saint Lucia', VC: 'Saint Vincent and the Grenadines', AF: 'Afghanistan', SG: 'Singapore', YE: 'Yemen', SY: 'Syria', PS: 'Palestine', TJ: 'Tajikistan', TM: 'Turkmenistan', MV: 'Maldives', BT: 'Bhutan', SB: 'Solomon Islands', MH: 'Marshall Islands', FM: 'Micronesia', KI: 'Kiribati', TV: 'Tuvalu', MX: 'Mexico' };
   const activeList = COUNTRY_LIST.filter(cc => activeCountries.has(cc));
   const countryStats = {};
   for (const cc of activeList) {
@@ -1869,13 +1870,7 @@ document.querySelectorAll('.level-btn').forEach(function (btn) {
   });
 });
 
-// --- Country filters toggle ---
-document.getElementById('country-toggle').addEventListener('click', function () {
-  const panel = document.getElementById('country-filters');
-  const btn = document.getElementById('country-toggle');
-  const expanded = panel.classList.toggle('expanded');
-  btn.innerHTML = expanded ? 'Countries \u25b4' : 'Countries \u25be';
-});
+
 
 document.querySelectorAll('.country-btn').forEach(function (btn) {
   btn.addEventListener('click', function () {
@@ -1890,29 +1885,6 @@ document.querySelectorAll('.country-btn').forEach(function (btn) {
   });
 });
 
-// Region label toggles all countries in the group
-document.querySelectorAll('.region-label').forEach(function (btn) {
-  btn.addEventListener('click', function () {
-    const group = btn.closest('.region-group');
-    const countryBtns = group.querySelectorAll('.country-btn');
-    // If any active, deactivate all; otherwise activate all
-    const anyActive = Array.from(countryBtns).some(function (b) { return b.classList.contains('active'); });
-    countryBtns.forEach(function (b) {
-      const cc = b.dataset.country;
-      if (anyActive) {
-        b.classList.remove('active');
-        activeCountries.delete(cc);
-      } else {
-        b.classList.add('active');
-        activeCountries.add(cc);
-      }
-    });
-    updateStyles();
-    updateLegend();
-    renderStats();
-    updateIndexButtons();
-  });
-});
 
 // --- Load data ---
 // Maps raw provider key → jurisdiction display name (used for map coloring + legend)
@@ -2589,7 +2561,7 @@ async function navigateToMuni(m) {
     if (!summaryLoaded) loadSummaryData();
   }, { once: true });
 
-  const NORDIC_CC = new Set(['DK','FI','NO','SE','IS','GL']);
+  const NORDIC_CC = new Set(['DK','FI','NO','SE','IS','GL','FO']);
 
   function searchMunis(q) {
     if (!dnsData || !dnsData.municipalities || q.length < 2) return [];

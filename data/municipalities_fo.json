@@ -1,0 +1,234 @@
+[
+  {
+    "id": "FO-01",
+    "name": "Eiðis kommuna",
+    "country": "FO",
+    "region": "Eysturoyar sýsla",
+    "domain": "eidi.fo",
+    "osm_relation_id": 18404161
+  },
+  {
+    "id": "FO-02",
+    "name": "Eysturkommuna",
+    "country": "FO",
+    "region": "Eysturoyar sýsla",
+    "domain": "eysturkommuna.fo",
+    "osm_relation_id": 18396710
+  },
+  {
+    "id": "FO-03",
+    "name": "Fámjins kommuna",
+    "country": "FO",
+    "region": "Suðuroyar sýsla",
+    "domain": "famjin.fo",
+    "osm_relation_id": 18418406
+  },
+  {
+    "id": "FO-04",
+    "name": "Fuglafjarðar kommuna",
+    "country": "FO",
+    "region": "Eysturoyar sýsla",
+    "domain": "fuglafjordur.fo",
+    "osm_relation_id": 18392661
+  },
+  {
+    "id": "FO-05",
+    "name": "Fugloyar kommuna",
+    "country": "FO",
+    "region": "Norðoya sýsla",
+    "domain": "fugloy.fo",
+    "osm_relation_id": 18392529
+  },
+  {
+    "id": "FO-06",
+    "name": "Hovs kommuna",
+    "country": "FO",
+    "region": "Suðuroyar sýsla",
+    "domain": "hov.fo",
+    "osm_relation_id": 18418407
+  },
+  {
+    "id": "FO-07",
+    "name": "Húsavíkar kommuna",
+    "country": "FO",
+    "region": "Sandoyar sýsla",
+    "domain": "husavik.fo",
+    "osm_relation_id": 18417724
+  },
+  {
+    "id": "FO-08",
+    "name": "Hvalbiar kommuna",
+    "country": "FO",
+    "region": "Suðuroyar sýsla",
+    "domain": "hvalba.fo",
+    "osm_relation_id": 18418404
+  },
+  {
+    "id": "FO-09",
+    "name": "Hvannasunds kommuna",
+    "country": "FO",
+    "region": "Norðoya sýsla",
+    "domain": "hvannasund.fo",
+    "osm_relation_id": 18392532
+  },
+  {
+    "id": "FO-10",
+    "name": "Klaksvíkar kommuna",
+    "country": "FO",
+    "region": "Norðoya sýsla",
+    "domain": "klaksvik.fo",
+    "osm_relation_id": 18392533
+  },
+  {
+    "id": "FO-11",
+    "name": "Kunoyar kommuna",
+    "country": "FO",
+    "region": "Norðoya sýsla",
+    "domain": "kunoy.fo",
+    "osm_relation_id": 18392531
+  },
+  {
+    "id": "FO-12",
+    "name": "Kvívíkar kommuna",
+    "country": "FO",
+    "region": "Streymoyar sýsla",
+    "domain": "kvivik.fo",
+    "osm_relation_id": 18406061
+  },
+  {
+    "id": "FO-13",
+    "name": "Nes kommuna",
+    "country": "FO",
+    "region": "Eysturoyar sýsla",
+    "domain": "nes.fo",
+    "osm_relation_id": 18397616
+  },
+  {
+    "id": "FO-14",
+    "name": "Porkeris kommuna",
+    "country": "FO",
+    "region": "Suðuroyar sýsla",
+    "domain": "porkeri.fo",
+    "osm_relation_id": 18418408
+  },
+  {
+    "id": "FO-15",
+    "name": "Runavíkar kommuna",
+    "country": "FO",
+    "region": "Eysturoyar sýsla",
+    "domain": "runavik.fo",
+    "osm_relation_id": 18397615
+  },
+  {
+    "id": "FO-16",
+    "name": "Sands kommuna",
+    "country": "FO",
+    "region": "Sandoyar sýsla",
+    "domain": "sandur.fo",
+    "osm_relation_id": 18417726
+  },
+  {
+    "id": "FO-17",
+    "name": "Sjóvar kommuna",
+    "country": "FO",
+    "region": "Eysturoyar sýsla",
+    "domain": "sjovar.fo",
+    "osm_relation_id": 18404157
+  },
+  {
+    "id": "FO-18",
+    "name": "Skálavíkar kommuna",
+    "country": "FO",
+    "region": "Sandoyar sýsla",
+    "domain": "skalavik.fo",
+    "osm_relation_id": 18417725
+  },
+  {
+    "id": "FO-19",
+    "name": "Skopunar kommuna",
+    "country": "FO",
+    "region": "Sandoyar sýsla",
+    "domain": "skopun.fo",
+    "osm_relation_id": 18417727
+  },
+  {
+    "id": "FO-20",
+    "name": "Skúvoyar kommuna",
+    "country": "FO",
+    "region": "Sandoyar sýsla",
+    "domain": "skugvoy.fo",
+    "osm_relation_id": 18417723
+  },
+  {
+    "id": "FO-21",
+    "name": "Sumbiar kommuna",
+    "country": "FO",
+    "region": "Suðuroyar sýsla",
+    "domain": "sumba.fo",
+    "osm_relation_id": 18418410
+  },
+  {
+    "id": "FO-22",
+    "name": "Sunda kommuna",
+    "country": "FO",
+    "region": "Eysturoyar sýsla",
+    "domain": "sunda.fo",
+    "osm_relation_id": 18405110
+  },
+  {
+    "id": "FO-23",
+    "name": "Sørvágs kommuna",
+    "country": "FO",
+    "region": "Vága sýsla",
+    "domain": "sorvag.fo",
+    "osm_relation_id": 18413391
+  },
+  {
+    "id": "FO-24",
+    "name": "Tórshavnar kommuna",
+    "country": "FO",
+    "region": "Streymoyar sýsla",
+    "domain": "torshavn.fo",
+    "osm_relation_id": 18413208
+  },
+  {
+    "id": "FO-25",
+    "name": "Tvøroyrar kommuna",
+    "country": "FO",
+    "region": "Suðuroyar sýsla",
+    "domain": "tvk.fo",
+    "osm_relation_id": 18418405
+  },
+  {
+    "id": "FO-26",
+    "name": "Vága kommuna",
+    "country": "FO",
+    "region": "Vága sýsla",
+    "domain": "vaga.fo",
+    "osm_relation_id": 18413396
+  },
+  {
+    "id": "FO-27",
+    "name": "Vágs kommuna",
+    "country": "FO",
+    "region": "Suðuroyar sýsla",
+    "domain": "vagur.fo",
+    "osm_relation_id": 18418409
+  },
+  {
+    "id": "FO-28",
+    "name": "Vestmanna kommuna",
+    "country": "FO",
+    "region": "Streymoyar sýsla",
+    "domain": "vestmanna.fo",
+    "osm_relation_id": 18405706
+  },
+  {
+    "id": "FO-29",
+    "name": "Viðareiðis kommuna",
+    "country": "FO",
+    "region": "Norðoya sýsla",
+    "domain": "vidareidi.fo",
+    "osm_relation_id": 18392530
+  }
+]
