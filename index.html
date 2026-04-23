@@ -478,7 +478,41 @@
     }
     #side-panel.collapsed { width: 0; }
   }
+  /* Search */
+  #search-container { position: relative; display: flex; align-items: center; }
+  #map-search {
+    width: 220px; height: 30px; padding: 0 12px 0 32px;
+    border-radius: var(--radius-pill); border: 1px solid rgba(255,255,255,0.25);
+    background: rgba(255,255,255,0.12); color: #fff;
+    font-family: var(--font); font-size: 13px; outline: none;
+    transition: background 0.2s, border-color 0.2s;
+  }
+  #map-search::placeholder { color: rgba(255,255,255,0.55); }
+  #map-search:focus { background: rgba(255,255,255,0.2); border-color: rgba(255,255,255,0.5); }
+  #search-icon {
+    position: absolute; left: 10px; top: 50%; transform: translateY(-50%);
+    pointer-events: none; opacity: 0.6; font-size: 13px;
+  }
+  #search-results {
+    display: none; position: absolute; top: calc(100% + 6px); left: 0;
+    min-width: 300px; max-height: 280px; overflow-y: auto;
+    background: var(--bg-panel); border: 1px solid var(--border);
+    border-radius: var(--radius-lg); box-shadow: var(--shadow-md); z-index: 2000;
+  }
+  .sr-row {
+    display: flex; align-items: center; gap: 8px;
+    padding: 8px 12px; cursor: pointer; font-size: 13px;
+    border-bottom: 1px solid var(--border);
+  }
+  .sr-row:last-child { border-bottom: none; }
+  .sr-row:hover { background: var(--bg-raised); }
+  .sr-name { flex: 1; font-weight: 500; color: var(--navy); }
+  .sr-domain { font-size: 11px; color: #888; }
+  .sr-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .sr-empty { padding: 10px 14px; font-size: 13px; color: #888; }
+
   @media (max-width: 600px) {
+    #map-search { width: 120px; font-size: 12px; }
     .separator, .tagline { display: none; }
     .info-title { display: block; }
     .legend-toggle { display: block; }
@@ -501,6 +535,11 @@
     <h1 class="brand">MX Map app</h1>
     <span class="separator">|</span>
     <span class="tagline">Nordic Email Sovereignty Map</span>
+  </div>
+  <div id="search-container">
+    <span id="search-icon">&#128269;</span>
+    <input id="map-search" type="search" placeholder="Search municipality or domain…" autocomplete="off" spellcheck="false">
+    <div id="search-results"></div>
   </div>
   <div class="header-right">
     <span class="updated" id="generated"></span>
@@ -2519,6 +2558,94 @@ async function loadIndex(cfg) {
 
 for (const cfg of INDEX_CONFIG) loadIndex(cfg);
 initIndexPanelEvents();
+
+// --- Search ---
+async function navigateToMuni(m) {
+  if (currentLevel !== 'municipality') await setLevel('municipality');
+  const cc = m.country;
+  if (!countryLayers.has(cc)) await renderCountryLayer(cc);
+  const layer = countryLayers.get(cc);
+  if (!layer) return;
+  let found = false;
+  layer.eachLayer(function(sub) {
+    if (found || !sub.feature) return;
+    const mm = sub.feature._matchedMuni;
+    if (!mm) return;
+    if (mm === m || (m.osm_relation_id && mm.osm_relation_id === m.osm_relation_id) || (m.bfs && mm.bfs === m.bfs)) {
+      found = true;
+      map.setView(sub.getBounds().getCenter(), Math.max(map.getZoom(), 11));
+      sub.openPopup();
+    }
+  });
+}
+
+(function setupSearch() {
+  const input = document.getElementById('map-search');
+  const resultsEl = document.getElementById('search-results');
+  if (!input || !resultsEl) return;
+
+  // Pre-load summary data on first focus so it's ready when the user types
+  input.addEventListener('focus', function() {
+    if (!summaryLoaded) loadSummaryData();
+  }, { once: true });
+
+  function searchMunis(q) {
+    if (!dnsData || !dnsData.municipalities || q.length < 2) return [];
+    const ql = q.toLowerCase();
+    return dnsData.municipalities.filter(function(m) {
+      return m.name.toLowerCase().includes(ql)
+        || (m.domain && m.domain.toLowerCase().includes(ql))
+        || (m.classification && m.classification.mx_records && m.classification.mx_records.some(function(r) { return r.toLowerCase().includes(ql); }));
+    }).slice(0, 8);
+  }
+
+  let currentResults = [];
+
+  function render(results) {
+    currentResults = results;
+    if (results.length === 0) {
+      resultsEl.style.display = 'none';
+      return;
+    }
+    resultsEl.innerHTML = results.map(function(m, i) {
+      const flag = FLAGS[m.country] || '';
+      const color = COLORS[m.classification.provider] || '#888';
+      return '<div class="sr-row" data-idx="' + i + '">'
+        + '<span>' + flag + '</span>'
+        + '<span class="sr-name">' + escapeHtml(m.name) + '</span>'
+        + '<span class="sr-domain">' + escapeHtml(m.domain || '') + '</span>'
+        + '<span class="sr-dot" style="background:' + color + '"></span>'
+        + '</div>';
+    }).join('');
+    resultsEl.style.display = 'block';
+  }
+
+  input.addEventListener('input', function() {
+    const q = input.value.trim();
+    if (!summaryLoaded || q.length < 2) { resultsEl.style.display = 'none'; return; }
+    render(searchMunis(q));
+  });
+
+  input.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') { resultsEl.style.display = 'none'; input.blur(); }
+  });
+
+  resultsEl.addEventListener('click', function(e) {
+    const row = e.target.closest('.sr-row');
+    if (!row) return;
+    const m = currentResults[parseInt(row.dataset.idx, 10)];
+    if (!m) return;
+    resultsEl.style.display = 'none';
+    input.value = m.name;
+    navigateToMuni(m);
+  });
+
+  document.addEventListener('click', function(e) {
+    if (!input.contains(e.target) && !resultsEl.contains(e.target)) {
+      resultsEl.style.display = 'none';
+    }
+  });
+})();
 
 });
 </script>
