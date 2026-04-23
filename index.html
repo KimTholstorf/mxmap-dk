@@ -479,9 +479,9 @@
     #side-panel.collapsed { width: 0; }
   }
   /* Search */
-  #search-container { position: relative; display: flex; align-items: center; }
+  #search-container { position: relative; display: flex; align-items: center; margin-left: 12px; }
   #map-search {
-    width: 220px; height: 30px; padding: 0 12px 0 32px;
+    width: 440px; height: 30px; padding: 0 12px 0 32px;
     border-radius: var(--radius-pill); border: 1px solid rgba(255,255,255,0.25);
     background: rgba(255,255,255,0.12); color: #fff;
     font-family: var(--font); font-size: 13px; outline: none;
@@ -535,11 +535,11 @@
     <h1 class="brand">MX Map app</h1>
     <span class="separator">|</span>
     <span class="tagline">Nordic Email Sovereignty Map</span>
-  </div>
-  <div id="search-container">
-    <span id="search-icon">&#128269;</span>
-    <input id="map-search" type="search" placeholder="Search municipality or domain…" autocomplete="off" spellcheck="false">
-    <div id="search-results"></div>
+    <div id="search-container">
+      <span id="search-icon">&#128374;</span>
+      <input id="map-search" type="search" placeholder="Search municipality or domain…" autocomplete="off" spellcheck="false">
+      <div id="search-results"></div>
+    </div>
   </div>
   <div class="header-right">
     <span class="updated" id="generated"></span>
@@ -2589,10 +2589,13 @@ async function navigateToMuni(m) {
     if (!summaryLoaded) loadSummaryData();
   }, { once: true });
 
+  const NORDIC_CC = new Set(['DK','FI','NO','SE','IS','GL']);
+
   function searchMunis(q) {
     if (!dnsData || !dnsData.municipalities || q.length < 2) return [];
     const ql = q.toLowerCase();
     return dnsData.municipalities.filter(function(m) {
+      if (!NORDIC_CC.has(m.country)) return false;
       return m.name.toLowerCase().includes(ql)
         || (m.domain && m.domain.toLowerCase().includes(ql))
         || (m.classification && m.classification.mx_records && m.classification.mx_records.some(function(r) { return (r.host || '').toLowerCase().includes(ql); }));
