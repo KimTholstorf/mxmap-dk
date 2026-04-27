@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-21T08:13:20.488004+00:00",
+  "generated": "2026-04-27T05:22:15.929252+00:00",
   "companies": [
     {
       "ticker": "NOVO B",
@@ -270,7 +270,7 @@
       "mx": [
         "gn-com.mail.protection.outlook.com"
       ],
-      "spf": "v=spf1 include:_spf26950.spfprotect.com include:spf1.gn.com include:spf.protection.outlook.com a:o1.mail.online.gnresound.com IP4:195.50.76.237 IP4:20.52.225.187 IP4:20.52.249.150 IP4:20.52.249.146 IP4:195.122.177.106 -all",
+      "spf": "v=spf1 include:_spf26950.spfprotect.com include:spf1.gn.com include:spf.protection.outlook.com include:amazonses.com a:o1.mail.online.gnresound.com IP4:195.50.76.237 IP4:20.52.225.187 IP4:20.52.249.150 IP4:20.52.249.146 IP4:195.122.177.106 -all",
       "mx_countries": [
         "US"
       ],
@@ -457,7 +457,7 @@
       "mx": [
         "carlsberg-com.mail.protection.outlook.com"
       ],
-      "spf": "v=spf1 ip4:91.223.85.144 ip4:91.223.85.145 ip4:91.223.85.151 ip4:72.5.52.234 ip4:72.5.52.236 ip4:70.42.174.90 ip4:46.249.61.91 ip4:40.85.245.181 ip4:70.42.174.181 ip4:70.42.174.182 ip4:70.42.174.188 ip4:205.201.128.0/20 ip4:198.2.128.0/18 ip4:148.105.12.0/24 a:mail.b2b-email.net include:spf.protection.outlook.com include:eu._netblocks.mimecast.com -all",
+      "spf": "v=spf1 ip4:91.223.85.144 ip4:52.236.146.81 ip4:91.223.85.145 ip4:91.223.85.151 ip4:72.5.52.234 ip4:72.5.52.236 ip4:70.42.174.90 ip4:46.249.61.91 ip4:40.85.245.181 ip4:70.42.174.181 ip4:70.42.174.182 ip4:70.42.174.188 ip4:205.201.128.0/20 ip4:198.2.128.0/18 ip4:148.105.12.0/24 a:mail.b2b-email.net include:spf.protection.outlook.com include:eu._netblocks.mimecast.com -all",
       "mx_countries": [
         "US"
       ],

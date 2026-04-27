@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-21T10:02:24.833684+00:00",
+  "generated": "2026-04-27T05:20:28.897507+00:00",
   "companies": [
     {
       "ticker": "ARION",
@@ -111,7 +111,7 @@
       "mx": [
         "siminn-is.mail.protection.outlook.com"
       ],
-      "spf": "v=spf1 include:amazonses.com include:_spf.vist.is include:_spf.salesforce.com include:mktomail.com include:spf.protection.outlook.com include:spf.vizito.be ip4:72.5.52.0/24 ip4:70.42.174.0/24 include:spf.exclaimer.net include:servers.mcsv.net include:smtp.umsja.is -all",
+      "spf": "v=spf1 include:amazonses.com include:_spf.vist.is include:_spf.salesforce.com include:mktomail.com include:spf.protection.outlook.com include:spf.vizito.be ip4:72.5.52.0/24 ip4:70.42.174.0/24 include:servers.mcsv.net include:smtp.umsja.is include:_spf.telavox.se -all",
       "mx_countries": [
         "US"
       ],

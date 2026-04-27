@@ -1,5 +1,5 @@
 {
-  "generated":"2026-04-23T17:54:05Z",
+  "generated":"2026-04-27T05:10:58Z",
   "total":1149,
   "counts":{
     "google":20,
@@ -104,9 +104,9 @@
         "selector2":"selector2-balk-dk._domainkey.balkdk.onmicrosoft.com"
       },
       "txt_verifications":{
-        "microsoft":"ms58624801",
-        "apple":"Js8GbIk58hOfshqI",
-        "atlassian":"YuqJCIC6ZfOUNsyev1yIYRpVyuYls6F8A7/8JLQtgR0JeaS/npQdORnRDVQZQBdQ"
+        "apple":"vOTD3mWuYJy3kyil",
+        "atlassian":"YuqJCIC6ZfOUNsyev1yIYRpVyuYls6F8A7/8JLQtgR0JeaS/npQdORnRDVQZQBdQ",
+        "microsoft":"7A9E0574FCA0E42B433BCCB9BF5975C3D8DD14FF"
       },
       "tenant":"Federated"
     },
@@ -1246,7 +1246,7 @@
         "microsoft":"ms81101091",
         "facebook":"95shhfb9g7tbevhxfefpqht16pbsic"
       },
-      "smtp_banner":"220 mx101.ringsted.dk ESMTP Hello from Ringsted"
+      "smtp_banner":"554 Blocked - see https://ipcheck.proofpoint.com/?ip=64.236.161.23"
     },
     "DK-330":{
       "bfs":"DK-330",
@@ -2429,7 +2429,7 @@
         "microsoft":"ms89615024",
         "apple":"81hvIlXX2kAx4u4U"
       },
-      "smtp_banner":"220 hkmgw1.holstebro.dk ESMTP Smtpd; Thu, 23 Apr 2026 19:54:33 +0200"
+      "smtp_banner":"220 hkmgw1.holstebro.dk ESMTP Smtpd; Mon, 27 Apr 2026 07:11:11 +0200"
     },
     "DK-665":{
       "bfs":"DK-665",
@@ -3083,8 +3083,8 @@
         "selector2":"selector2-99454545-dk._domainkey.brslevkom.onmicrosoft.com"
       },
       "txt_verifications":{
-        "apple":"11vCQq9M79YDSvkf",
-        "microsoft":"ms93707808"
+        "microsoft":"ms93707808",
+        "apple":"11vCQq9M79YDSvkf"
       },
       "tenant":"Federated"
     },
@@ -6735,7 +6735,7 @@
         "autodiscover_cname":"autodiscover.outlook.com"
       },
       "txt_verifications":{
-        "microsoft":"ms40403648"
+        "microsoft":"2D2846F37AF917C047EB708C5ED317DC62836BAB"
       },
       "tenant":"Managed"
     },
@@ -8976,8 +8976,8 @@
         "selector2":"selector2-nokiankaupunki-fi._domainkey.tampereenseutu.onmicrosoft.com"
       },
       "txt_verifications":{
-        "microsoft":"ms16719869",
-        "apple":"6DjcyAiiMy4biAOt"
+        "apple":"6DjcyAiiMy4biAOt",
+        "microsoft":"ms16719869"
       },
       "tenant":"Managed"
     },
@@ -9102,9 +9102,9 @@
         "selector2":"selector2-narpes-fi._domainkey.narpes.onmicrosoft.com"
       },
       "txt_verifications":{
-        "google":"6BQb5D56srOxLExDJsijbcKDd7Y7oyzVFea-siybYsY",
         "microsoft":"ms61089014",
-        "apple":"38hHrERcffaQxiQr"
+        "apple":"38hHrERcffaQxiQr",
+        "google":"6BQb5D56srOxLExDJsijbcKDd7Y7oyzVFea-siybYsY"
       },
       "tenant":"Managed"
     },
@@ -14054,7 +14054,7 @@
       "txt_verifications":{
         "microsoft":"ms85240966"
       },
-      "smtp_banner":"220 mail.elektron.fo ESMTP Smtpd; Thu, 23 Apr 2026 18:54:33 +0100"
+      "smtp_banner":"220 mail.elektron.fo ESMTP Smtpd; Mon, 27 Apr 2026 06:11:11 +0100"
     },
     "FO-27":{
       "bfs":"FO-27",
