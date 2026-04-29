@@ -346,6 +346,29 @@
   .level-btn.active { background: var(--navy); color: white; }
   .level-btn:hover:not(.active) { background: var(--bg-raised); color: var(--text); }
 
+  /* Mode tabs: MX | CA */
+  .mode-tabs {
+    display: flex;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+    border-radius: var(--radius-pill);
+    border: 1.5px solid var(--border);
+    box-shadow: var(--shadow-xs);
+    overflow: hidden;
+    margin-left: 10px;
+    flex-shrink: 0;
+  }
+  .mode-tab {
+    background: transparent; border: none;
+    border-right: 1px solid var(--border);
+    padding: 4px 14px; cursor: pointer; font-size: 12px; font-weight: 700;
+    font-family: var(--font); letter-spacing: 0.05em;
+    color: var(--text-3); transition: all var(--transition);
+  }
+  .mode-tab:last-child { border-right: none; }
+  .mode-tab.active { background: var(--navy); color: white; }
+  .mode-tab:hover:not(.active) { background: var(--bg-raised); color: var(--text); }
+
   /* ============================================================
      POPUPS
      ============================================================ */
@@ -533,6 +556,10 @@
     <h1 class="brand">MX Map app</h1>
     <span class="separator">|</span>
     <span class="tagline">Nordic Email Sovereignty Map</span>
+    <div class="mode-tabs" id="mode-tabs">
+      <button class="mode-tab active" data-mode="mx" title="Email provider (MX) view">MX</button>
+      <button class="mode-tab" data-mode="ca" title="Certificate Authority (TLS) view">CA</button>
+    </div>
     <div id="search-container">
       <span id="search-icon">&#128374;</span>
       <input id="map-search" type="search" placeholder="Search municipality or domain…" autocomplete="off" spellcheck="false">
@@ -658,6 +685,35 @@ const COLOR_SCHEMES = {
 let colorScheme = 'default';
 let COLORS = Object.assign({}, COLOR_SCHEMES.default);
 
+// CA mode colors — 5 risk tiers
+const CA_COLORS = {
+  'critical': '#E83838',   // US CLOUD Act (DigiCert, Amazon, Google, Cloudflare…)
+  'high':     '#FF7A5C',   // US non-profit (Let's Encrypt / ISRG)
+  'medium':   '#F5A623',   // Allied non-EU (GlobalSign, SwissSign…)
+  'low':      '#5B8DEF',   // EU-controlled (HARICA, Certum, D-TRUST…)
+  'minimal':  '#10B898',   // Nordic / national (Buypass, Telia…)
+  'unknown':  '#BFBFBF',   // No TLS / error / unclassified
+};
+const CA_TIERS = {
+  'US jurisdiction':  ['critical', 'high'],
+  'Non-EU / Allied':  ['medium'],
+  'EU / Nordic':      ['low', 'minimal'],
+  'Unknown / Error':  ['unknown'],
+};
+const CA_TIER_LABELS = {
+  'critical': 'US Cloud Act',
+  'high':     "Let's Encrypt (US non-profit)",
+  'medium':   'Allied non-EU',
+  'low':      'EU-controlled',
+  'minimal':  'Nordic / national',
+  'unknown':  'Unknown / Error',
+};
+
+// Current mode: 'mx' (email providers) or 'ca' (certificate authorities)
+let currentMode = 'mx';
+let caData = null;          // loaded lazily on first CA tab click
+let caDetailLoaded = false; // true once ca-data-detail.json merged in
+
 // Which category labels need dark (#333) text on their badge background
 const DARK_TEXT_SCHEMES = {
   default:    new Set(['Unknown']),
@@ -759,6 +815,7 @@ const countryLayers = new Map(); // "EE" -> L.geoJSON layer
 let gatewayMarkers = L.layerGroup();
 let dominanceMarkers = L.layerGroup();
 let updateLegend = function () {};
+let renderVisibleCountries = function () {};
 let activeCountries = new Set(COUNTRY_LIST);
 let muniByOsm = {};   // "relation/12345" -> municipality
 let muniByName = {};   // lowercase name -> municipality
@@ -873,13 +930,25 @@ function restyleAllLayers() {
       const g = feature._matchedGroup;
       const m = feature._matchedMuni;
       if (r) {
-        // Admin region view: color by the region's own provider
+        if (currentMode === 'ca') return; // CA mode doesn't support admin region coloring
         const dp = providerDisplayMap[r.provider] || r.provider;
         sublayer.setStyle({ fillColor: COLORS[dp] || COLORS['Unknown'] });
       } else if (g) {
-        sublayer.setStyle({ fillColor: g.blendedColor });
+        if (currentMode === 'ca') {
+          // CA mode: blend by risk_level across the group's municipalities
+          var caCounts = {};
+          (g.municipalities || []).forEach(function (gm) {
+            var ca = getCaEntry(gm);
+            var rl = (ca && ca.risk_level) || 'unknown';
+            caCounts[rl] = (caCounts[rl] || 0) + 1;
+          });
+          var topRisk = Object.entries(caCounts).sort(function(a,b){return b[1]-a[1]})[0];
+          sublayer.setStyle({ fillColor: topRisk ? (CA_COLORS[topRisk[0]] || CA_COLORS['unknown']) : CA_COLORS['unknown'] });
+        } else {
+          sublayer.setStyle({ fillColor: g.blendedColor });
+        }
       } else if (m) {
-        sublayer.setStyle({ fillColor: COLORS[m.classification.provider] || COLORS['Unknown'] });
+        sublayer.setStyle({ fillColor: currentMode === 'ca' ? getCaColor(m) : (COLORS[m.classification.provider] || COLORS['Unknown']) });
       }
     });
   }
@@ -893,6 +962,155 @@ window.toggleColorScheme = function () {
   restyleAllLayers();
   updateLegend();
 };
+
+// --- CA data helpers ---
+function getCaEntry(m) {
+  // m is a municipality object from dnsData. Look up its CA entry by BFS id.
+  if (!caData) return null;
+  return caData.municipalities && caData.municipalities[m.bfs];
+}
+
+function getCaColor(m) {
+  const ca = getCaEntry(m);
+  if (!ca) return CA_COLORS['unknown'];
+  return CA_COLORS[ca.risk_level] || CA_COLORS['unknown'];
+}
+
+function mergeCaDetail(detail) {
+  if (!caData || !caData.municipalities) return;
+  for (const bfsId of Object.keys(detail)) {
+    const entry = caData.municipalities[bfsId];
+    if (!entry) continue;
+    const d = detail[bfsId];
+    entry.cert_chain = d.cert_chain;
+    entry.caa_records = d.caa_records;
+    entry.ct_issuers = d.ct_issuers;
+    entry.tls_version = d.tls_version;
+    entry.cert_expiry = d.cert_expiry;
+    entry.scanned_domain = d.scanned_domain;
+  }
+  caDetailLoaded = true;
+}
+
+// --- Mode switching ---
+async function switchMode(newMode) {
+  if (newMode === currentMode) return;
+  currentMode = newMode;
+
+  // Update tab active state
+  document.querySelectorAll('.mode-tab').forEach(function (b) {
+    b.classList.toggle('active', b.dataset.mode === newMode);
+  });
+
+  // Update side panel title
+  const panelTitle = document.querySelector('.panel-section-kicker');
+  if (panelTitle) {
+    panelTitle.textContent = newMode === 'ca' ? 'Certificate Authority Sovereignty' : 'Email Sovereignty';
+  }
+
+  // Lazy-load CA data on first switch
+  if (newMode === 'ca' && !caData) {
+    try {
+      caData = await fetch('ca-data-summary.json').then(function (r) { return r.json(); });
+      // Merge detail data in background
+      fetch('ca-data-detail.json').then(function (r) { return r.json(); }).then(mergeCaDetail).catch(function () {});
+    } catch (e) {
+      console.warn('CA data not yet available:', e);
+      // Revert mode if data unavailable
+      currentMode = 'mx';
+      document.querySelectorAll('.mode-tab').forEach(function (b) {
+        b.classList.toggle('active', b.dataset.mode === 'mx');
+      });
+      return;
+    }
+  }
+
+  // Re-render all layers with new color scheme
+  // Force re-render by clearing rendered files cache
+  renderedFiles.clear();
+  for (const [cc, layer] of countryLayers) {
+    map.removeLayer(layer);
+  }
+  countryLayers.clear();
+  renderVisibleCountries();
+
+  updateLegend();
+  renderStats();
+}
+
+// Wire up mode tab buttons
+document.querySelectorAll('.mode-tab').forEach(function (btn) {
+  btn.addEventListener('click', function () { switchMode(btn.dataset.mode); });
+});
+
+// --- CA popup builder ---
+function buildCaPopup(m) {
+  const ca = getCaEntry(m);
+  if (!ca) {
+    return '<div class="info-popup"><strong>' + (m.name || m.bfs) + '</strong><br><span style="color:#999">CA data not loaded</span></div>';
+  }
+
+  const riskLabel = { critical:'Critical', high:'High', medium:'Medium', low:'Low', minimal:'Minimal', unknown:'Unknown' };
+  const jurisdictionLabel = { us:'US CLOUD Act', eu:'EU-controlled', nordic:'Nordic', allied:'Allied non-EU', other:'Other' };
+  const color = CA_COLORS[ca.risk_level] || CA_COLORS['unknown'];
+  const risk = riskLabel[ca.risk_level] || ca.risk_level || 'Unknown';
+  const jur = jurisdictionLabel[ca.jurisdiction] || ca.jurisdiction || '—';
+  const domain = ca.scanned_domain || ca.domain || m.domain || '—';
+  const confPct = ca.confidence != null ? ca.confidence.toFixed(0) + '%' : '—';
+
+  let html = '<div class="info-popup">';
+  html += '<strong>' + (m.name || ca.name || m.bfs) + '</strong>';
+  html += '<span class="provider-badge" style="background:' + color + '">' + risk + '</span>';
+
+  html += '<div class="popup-section" style="margin-top:8px">';
+  html += '<table style="width:100%;font-size:12px;border-collapse:collapse">';
+
+  function row(label, val) {
+    return '<tr><td style="color:#888;padding:1px 6px 1px 0;white-space:nowrap">' + label + '</td><td>' + val + '</td></tr>';
+  }
+
+  html += row('Domain', '<a href="https://' + (ca.domain || domain) + '" target="_blank" rel="noopener" style="color:var(--navy)">' + (ca.domain || domain) + '</a>');
+  html += row('Jurisdiction', '<span style="font-weight:600">' + jur + '</span>');
+  html += row('CA', (ca.primary_ca || '—') + (ca.ca_country ? ' <span style="font-size:10px;color:#888">(' + ca.ca_country + ')</span>' : ''));
+  html += row('CA owner', ca.ca_owner || '—');
+  if (ca.tls_version) html += row('TLS', ca.tls_version);
+  if (ca.cert_expiry) {
+    var exp = ca.cert_expiry.split('T')[0];
+    var daysLeft = Math.round((new Date(exp) - new Date()) / 86400000);
+    var expColor = daysLeft < 30 ? '#E83838' : daysLeft < 60 ? '#F5A623' : '#333';
+    html += row('Cert expires', '<span style="color:' + expColor + '">' + exp + (daysLeft >= 0 ? ' (' + daysLeft + ' days)' : ' (expired)')  + '</span>');
+  }
+  if (ca.confidence != null) {
+    html += row('Confidence', '<div style="display:inline-flex;align-items:center;gap:4px">' +
+      '<div style="width:60px;height:6px;background:#f0f0f0;border-radius:3px"><div style="width:' + Math.round(ca.confidence) + '%;height:100%;background:' + color + ';border-radius:3px"></div></div>' +
+      '<span style="font-size:10px;color:#888">' + confPct + '</span></div>');
+  }
+
+  html += '</table>';
+
+  if (ca.caa_records && ca.caa_records.length) {
+    html += '<div style="margin-top:6px;font-size:11px"><span style="color:#888">CAA records:</span> ' + ca.caa_records.join(', ') + '</div>';
+  }
+  if (ca.error_category && ca.error_category !== 'shared_hosting') {
+    html += '<div style="margin-top:4px;font-size:11px;color:#E83838">⚠ ' + (ca.error || ca.error_category) + '</div>';
+  }
+
+  // Cert chain (collapsible)
+  if (ca.cert_chain && ca.cert_chain.length) {
+    const chainId = 'chain_' + (m.bfs || '').replace(/[^a-z0-9]/gi, '_');
+    html += '<details style="margin-top:8px"><summary style="font-size:11px;color:#888;cursor:pointer">Certificate chain (' + ca.cert_chain.length + ')</summary>';
+    html += '<div style="font-size:10px;margin-top:4px">';
+    for (var i = 0; i < ca.cert_chain.length; i++) {
+      var c = ca.cert_chain[i];
+      var label = c.cert_type === 'leaf' ? '🌿 Leaf' : c.cert_type === 'root' ? '🔑 Root' : '🔗 Intermediate';
+      html += '<div style="padding:3px 0;border-top:1px solid #f0f0f0"><strong>' + label + ':</strong> ' + (c.issuer_cn || c.issuer_org || '—') + '</div>';
+    }
+    html += '</div></details>';
+  }
+
+  html += '</div></div>';
+  return html;
+}
 
 // --- Stats panel (always municipality-level) ---
 function buildStats(muniList) {
@@ -1668,7 +1886,8 @@ async function renderCountryLayer(cc) {
         feature._matchedGroup = null;
         feature._matchedAdminRegion = null;
         if (m) {
-          return { fillColor: COLORS[m.classification.provider] || COLORS['Unknown'], fillOpacity: 0.75, color: '#666', weight: 0.5 };
+          const fillColor = currentMode === 'ca' ? getCaColor(m) : (COLORS[m.classification.provider] || COLORS['Unknown']);
+          return { fillColor, fillOpacity: 0.75, color: '#666', weight: 0.5 };
         }
       }
       return INACTIVE_STYLE;
@@ -1683,7 +1902,7 @@ async function renderCountryLayer(cc) {
       } else if (isAggregated && g) {
         layer.bindPopup(function () { return buildAggregatedPopup(g, feature, cc); }, { maxWidth: 400 });
       } else if (m) {
-        layer.bindPopup(function () { return buildPopup(m); }, { maxWidth: 400 });
+        layer.bindPopup(function () { return currentMode === 'ca' ? buildCaPopup(m) : buildPopup(m); }, { maxWidth: 400 });
       }
       feature._country = cc;
 
@@ -1934,6 +2153,83 @@ function buildStatsFromRegions() { renderStats(); }
 function renderStats() {
   var content = document.getElementById('stats-content');
   if (!content) return;
+
+  // CA mode stats
+  if (currentMode === 'ca') {
+    if (!caData || !caData.municipalities) {
+      content.innerHTML = '<p style="font-size:12px;color:#999">Loading CA data&hellip;</p>';
+      return;
+    }
+    var caPerCC = {};
+    for (var bfsId in caData.municipalities) {
+      var caEntry = caData.municipalities[bfsId];
+      var cc = caEntry.country;
+      if (!activeCountries.has(cc)) continue;
+      if (!caPerCC[cc]) caPerCC[cc] = { total: 0, by_risk: {} };
+      caPerCC[cc].total++;
+      var rl = caEntry.risk_level || 'unknown';
+      caPerCC[cc].by_risk[rl] = (caPerCC[cc].by_risk[rl] || 0) + 1;
+    }
+    var caHtml = '<div style="font-size:11px;color:#777;text-transform:uppercase;letter-spacing:0.3px;font-weight:600;margin-bottom:8px">TLS Certificate Authority Risk</div>';
+    var caGlobal = {};
+    var caGlobalTotal = 0;
+    for (var cc in caPerCC) {
+      for (var rl in caPerCC[cc].by_risk) {
+        caGlobal[rl] = (caGlobal[rl] || 0) + caPerCC[cc].by_risk[rl];
+        caGlobalTotal += caPerCC[cc].by_risk[rl];
+      }
+    }
+    // Global overview bars
+    var RISK_ORDER = ['critical','high','medium','low','minimal','unknown'];
+    var maxCa = Math.max.apply(null, RISK_ORDER.map(function(r){return caGlobal[r]||0})) || 1;
+    caHtml += '<div style="font-size:11px;color:#777;margin-bottom:4px">Global (' + caGlobalTotal + ' municipalities)</div>';
+    RISK_ORDER.forEach(function(rl) {
+      var v = caGlobal[rl] || 0;
+      if (!v) return;
+      var pct = Math.round(v / caGlobalTotal * 100);
+      var w = Math.round(v / maxCa * 100);
+      var color = CA_COLORS[rl];
+      caHtml += '<div style="display:flex;align-items:center;gap:4px;margin:2px 0;font-size:10px">' +
+        '<span style="width:70px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">' + CA_TIER_LABELS[rl].split(' ')[0] + '</span>' +
+        '<div style="flex:1;background:#f0f0f0;border-radius:2px;height:10px"><div style="width:'+w+'%;background:'+color+';height:100%;border-radius:2px;min-width:1px"></div></div>' +
+        '<span style="width:30px;text-align:right;color:#888">'+pct+'%</span></div>';
+    });
+
+    // US exposure highlight
+    var usPct = Math.round(((caGlobal['critical']||0) + (caGlobal['high']||0)) / Math.max(caGlobalTotal,1) * 100);
+    caHtml += '<div style="margin-top:8px;padding:6px 8px;background:#fff5f5;border-radius:4px;font-size:11px;color:#c0392b">' +
+      '<strong>' + usPct + '%</strong> of websites use US-controlled CAs</div>';
+
+    // Per-country breakdown
+    var nordicNames = { FI:'Finland', SE:'Sweden', NO:'Norway', DK:'Denmark', IS:'Iceland', GL:'Greenland', FO:'Faroe Islands' };
+    var activeList = COUNTRY_LIST.filter(function(cc) { return activeCountries.has(cc) && caPerCC[cc]; });
+    if (activeList.length > 0) {
+      caHtml += '<div style="margin-top:12px;font-size:11px;color:#777;text-transform:uppercase;letter-spacing:0.3px;font-weight:600;margin-bottom:6px">By Country</div>';
+      activeList.forEach(function(cc) {
+        var cd = caPerCC[cc];
+        var flag = FLAGS[cc] || cc;
+        var ccUs = ((cd.by_risk['critical']||0) + (cd.by_risk['high']||0));
+        var ccUsPct = Math.round(ccUs / Math.max(cd.total,1) * 100);
+        caHtml += '<div style="margin-bottom:8px"><div style="display:flex;justify-content:space-between;font-size:11px;margin-bottom:2px">' +
+          '<span>' + flag + ' ' + (nordicNames[cc]||cc) + '</span>' +
+          '<span style="color:#888">' + cd.total + ' · US: ' + ccUsPct + '%</span></div>';
+        var ccMax = Math.max.apply(null, RISK_ORDER.map(function(r){return cd.by_risk[r]||0})) || 1;
+        RISK_ORDER.forEach(function(rl) {
+          var v = cd.by_risk[rl] || 0;
+          if (!v) return;
+          var pct = Math.round(v/cd.total*100);
+          var w = Math.round(v/ccMax*100);
+          caHtml += '<div style="display:flex;align-items:center;gap:4px;margin:1px 0;font-size:10px">' +
+            '<span style="width:55px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">' + CA_TIER_LABELS[rl].split(' ')[0] + '</span>' +
+            '<div style="flex:1;background:#f0f0f0;border-radius:2px;height:8px"><div style="width:'+w+'%;background:'+CA_COLORS[rl]+';height:100%;border-radius:2px;min-width:1px"></div></div>' +
+            '<span style="width:28px;text-align:right;color:#888">'+pct+'%</span></div>';
+        });
+      });
+    }
+    content.innerHTML = caHtml;
+    return;
+  }
+
   var usePop = statsMode === 'pop';
 
   // Gather per-country stats from regionData or dnsData
@@ -2178,6 +2474,44 @@ async function loadData() {
   if (toggleBtn) toggleBtn.addEventListener('click', toggleLegend);
 
   updateLegend = function () {
+    const content = document.querySelector('.legend-content');
+    if (!content) return;
+
+    if (currentMode === 'ca') {
+      // CA legend: 5 risk tiers
+      var caCounts = {};
+      var caTotal = 0;
+      if (caData && caData.municipalities) {
+        for (var bfsId in caData.municipalities) {
+          var caEntry = caData.municipalities[bfsId];
+          if (!activeCountries.has(caEntry.country)) continue;
+          var rl = caEntry.risk_level || 'unknown';
+          caCounts[rl] = (caCounts[rl] || 0) + 1;
+          caTotal++;
+        }
+      }
+
+      function caLegendGroup(label, keys) {
+        var visible = keys.filter(function(k) { return (caCounts[k] || 0) > 0; });
+        if (!visible.length) return '';
+        var heading = label ? '<span class="legend-group-label">' + label + '</span>' : '';
+        var items = visible.map(function(k) {
+          return '<i style="background:' + CA_COLORS[k] + '"></i>' + CA_TIER_LABELS[k] + ' (' + (caCounts[k] || 0) + ')';
+        }).join('<br>');
+        return '<div class="legend-group">' + heading + items + '</div>';
+      }
+
+      content.innerHTML =
+        '<strong>Certificate Authority</strong>' +
+        caLegendGroup('US jurisdiction', ['critical', 'high']) +
+        caLegendGroup('Non-EU / Allied', ['medium']) +
+        caLegendGroup('EU / Nordic', ['low', 'minimal']) +
+        caLegendGroup('', ['unknown']) +
+        '<div style="margin-top:4px;font-size:11px;color:#999">' + caTotal + ' municipalities</div>';
+      return;
+    }
+
+    // MX mode legend
     const counts = {};
     let total = 0, gwCount = 0;
 
@@ -2202,18 +2536,15 @@ async function loadData() {
       }
     }
 
-    const content = document.querySelector('.legend-content');
-    if (content) {
-      const cbLabel = colorScheme === 'colorblind' ? '\u2299 Default colors' : '\u2299 Colorblind mode';
-      content.innerHTML =
-        '<strong>Email Hosting</strong>' +
-        legendGroupHtml('Foreign jurisdiction', ['US Cloud', 'Foreign Cloud'], counts) +
-        legendGroupHtml('EU / Nordic hosted', ['EU Provider', 'Self-hosted'], counts) +
-        legendGroupHtml('', ['Unknown'], counts) +
-        (gwCount > 0 ? `<div style="margin-top:8px;font-size:11px;color:#795548">\u{1F6E1}\uFE0F = via local gateway (${gwCount})</div>` : '') +
-        `<div style="margin-top:4px;font-size:11px;color:#999">${total} municipalities</div>` +
-        `<button class="color-toggle" onclick="toggleColorScheme()">${cbLabel}</button>`;
-    }
+    const cbLabel = colorScheme === 'colorblind' ? '\u2299 Default colors' : '\u2299 Colorblind mode';
+    content.innerHTML =
+      '<strong>Email Hosting</strong>' +
+      legendGroupHtml('Foreign jurisdiction', ['US Cloud', 'Foreign Cloud'], counts) +
+      legendGroupHtml('EU / Nordic hosted', ['EU Provider', 'Self-hosted'], counts) +
+      legendGroupHtml('', ['Unknown'], counts) +
+      (gwCount > 0 ? `<div style="margin-top:8px;font-size:11px;color:#795548">\u{1F6E1}\uFE0F = via local gateway (${gwCount})</div>` : '') +
+      `<div style="margin-top:4px;font-size:11px;color:#999">${total} municipalities</div>` +
+      `<button class="color-toggle" onclick="toggleColorScheme()">${cbLabel}</button>`;
   };
   updateLegend();
 
@@ -2233,7 +2564,7 @@ async function loadData() {
     });
   }
 
-  async function renderVisibleCountries() {
+  renderVisibleCountries = async function () {
     var visible = getVisibleCountries();
     var toRender = visible.filter(function (cc) { return !countryLayers.has(cc); });
     if (toRender.length > 0) {
@@ -2241,7 +2572,7 @@ async function loadData() {
       updateGatewayMarkers();
       updateDominanceMarkers();
     }
-  }
+  };
 
   // Initial render: only countries visible in default viewport
   await renderVisibleCountries();

@@ -10,17 +10,22 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "aiohttp>=3.13.5",
+    "cryptography>=44.0.0",
     "dnspython>=2.8.0",
     "httpx>=0.28.1",
+    "loguru>=0.7.0",
+    "pydantic>=2.0",
+    "stamina>=24.0",
 ]
 
 [project.scripts]
 preprocess = "mail_sovereignty.cli:preprocess"
 postprocess = "mail_sovereignty.cli:postprocess"
 validate = "mail_sovereignty.cli:validate"
+scan-certs = "cert_sovereignty.cli:scan_certs"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/mail_sovereignty"]
+packages = ["src/mail_sovereignty", "src/cert_sovereignty"]
 
 [dependency-groups]
 dev = [

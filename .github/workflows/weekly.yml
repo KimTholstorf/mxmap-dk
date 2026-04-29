@@ -51,10 +51,19 @@ jobs:
       - name: Scan Danish stock index (OMXC20)
         run: uv run python3 scripts/classify_omxc20.py
 
+      # --- Certificate Authority scan ---
+      - name: Scan TLS certificates (CA sovereignty)
+        if: steps.validate.outcome == 'success'
+        run: uv run scan-certs --skip-ct --timeout 20
+
       # --- Frontend ---
-      - name: Build frontend data files
+      - name: Build MX frontend data files
         if: steps.validate.outcome == 'success'
         run: uv run python3 scripts/build_frontend.py
+
+      - name: Build CA frontend data files
+        if: steps.validate.outcome == 'success'
+        run: uv run python3 scripts/build_ca_frontend.py
 
       # --- Commit ---
       - name: Commit and push if data changed
@@ -67,6 +76,9 @@ jobs:
             data-regions.json \
             data-summary.json \
             data-detail.json \
+            ca-data.json \
+            ca-data-summary.json \
+            ca-data-detail.json \
             data/summary/ \
             data/dns_cache/ \
             data/obx_classified.json \
