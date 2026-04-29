@@ -713,6 +713,17 @@ const CA_TIER_LABELS = {
 let currentMode = 'mx';
 let caData = null;          // loaded lazily on first CA tab click
 let caDetailLoaded = false; // true once ca-data-detail.json merged in
+let companyCaData = null;   // loaded lazily alongside caData
+
+// Maps INDEX_CONFIG key → companies-ca-data.json ID prefix
+const INDEX_KEY_TO_NAME = { dk: 'OMXC20', se: 'OMXS30', no: 'OBX', fi: 'OMXH25', is: 'OMXI15' };
+
+function getCompanyCaEntry(c, indexKey) {
+  if (!companyCaData || !companyCaData.companies) return null;
+  const indexName = INDEX_KEY_TO_NAME[indexKey] || '';
+  const id = `${indexName}:${c.ticker}`;
+  return companyCaData.companies[id] || null;
+}
 
 // Which category labels need dark (#333) text on their badge background
 const DARK_TEXT_SCHEMES = {
@@ -1132,7 +1143,10 @@ async function switchMode(newMode) {
   // Lazy-load CA data on first switch
   if (newMode === 'ca' && !caData) {
     try {
-      caData = await fetch('ca-data-summary.json').then(function (r) { return r.json(); });
+      [caData, companyCaData] = await Promise.all([
+        fetch('ca-data-summary.json').then(function (r) { return r.json(); }),
+        fetch('companies-ca-summary.json').then(function (r) { return r.json(); }),
+      ]);
       // Merge detail data in background
       fetch('ca-data-detail.json').then(function (r) { return r.json(); }).then(mergeCaDetail).catch(function () {});
     } catch (e) {
@@ -1154,6 +1168,11 @@ async function switchMode(newMode) {
   }
   countryLayers.clear();
   renderVisibleCountries();
+
+  // Re-render company markers with new color scheme
+  for (const cfg of INDEX_CONFIG) {
+    if (indexData[cfg.key]) renderIndexMarkers(cfg.key);
+  }
 
   updateLegend();
   renderStats();
@@ -2872,18 +2891,68 @@ function buildCompanyPopup(c) {
   return html;
 }
 
+function buildCompanyCaPopup(c, indexKey) {
+  const ca = getCompanyCaEntry(c, indexKey);
+  if (!ca) {
+    return `<div class="info-popup"><strong>${escapeHtml(c.name)}</strong><br><span style="font-size:11px;color:#999">CA data not available</span></div>`;
+  }
+  const color = CA_COLORS[ca.risk_level] || CA_COLORS['unknown'];
+  const label = CA_TIER_LABELS[ca.risk_level] || ca.risk_level || 'Unknown';
+  let html = `<div class="info-popup">
+    <div class="popup-header" style="background:${color};color:#fff">
+      <strong>${escapeHtml(c.name)}</strong>
+      <span style="font-size:11px;opacity:0.85;margin-left:6px">${escapeHtml(c.ticker)} &middot; ${escapeHtml(INDEX_KEY_TO_NAME[indexKey] || '')}</span>
+    </div>
+    <div class="popup-body">
+      <div style="margin-bottom:6px">
+        <span class="provider-badge" style="background:${color};color:#fff">${escapeHtml(label)}</span>
+        <span style="font-size:11px;color:#666;margin-left:6px">${escapeHtml(ca.ca_owner || '')}</span>
+      </div>`;
+  if (ca.primary_ca) {
+    html += `<div style="font-size:11px;color:#555;margin-bottom:4px"><strong>CA:</strong> ${escapeHtml(ca.primary_ca)}</div>`;
+  }
+  if (ca.ca_country) {
+    html += `<div style="font-size:11px;color:#555;margin-bottom:4px"><strong>CA Country:</strong> ${escapeHtml(ca.ca_country)}</div>`;
+  }
+  if (ca.tls_version) {
+    html += `<div style="font-size:11px;color:#555;margin-bottom:4px"><strong>TLS:</strong> ${escapeHtml(ca.tls_version)}</div>`;
+  }
+  if (ca.cert_expiry) {
+    html += `<div style="font-size:11px;color:#555;margin-bottom:4px"><strong>Cert expires:</strong> ${escapeHtml(ca.cert_expiry.slice(0, 10))}</div>`;
+  }
+  if (ca.domain) {
+    html += `<div style="font-size:11px;color:#555;margin-bottom:4px"><strong>Domain:</strong> ${escapeHtml(ca.domain)}</div>`;
+  }
+  if (ca.confidence) {
+    html += `<div style="font-size:11px;color:#777;margin-top:6px">Confidence: ${ca.confidence}%</div>`;
+  }
+  if (ca.error) {
+    html += `<div style="font-size:11px;color:#999;margin-top:4px">⚠ ${escapeHtml(ca.error)}</div>`;
+  }
+  html += `</div></div>`;
+  return html;
+}
+
 function renderIndexMarkers(key) {
   const layer = indexMarkers[key];
   layer.clearLayers();
   const data = indexData[key];
   if (!data) return;
   for (const c of data.companies) {
-    const provider = providerDisplayMap[c.provider] || c.provider || 'Unknown';
-    const color = COLORS[provider] || COLORS['Unknown'];
+    let color;
+    if (currentMode === 'ca') {
+      const ca = getCompanyCaEntry(c, key);
+      color = ca ? (CA_COLORS[ca.risk_level] || CA_COLORS['unknown']) : CA_COLORS['unknown'];
+    } else {
+      const provider = providerDisplayMap[c.provider] || c.provider || 'Unknown';
+      color = COLORS[provider] || COLORS['Unknown'];
+    }
     const marker = L.circleMarker([c.hq_lat, c.hq_lng], {
       radius: 8, fillColor: color, color: '#fff', weight: 2.5, fillOpacity: 0.92,
     });
-    marker.bindPopup(buildCompanyPopup(c), { maxWidth: 320 });
+    marker.bindPopup(function () {
+      return currentMode === 'ca' ? buildCompanyCaPopup(c, key) : buildCompanyPopup(c);
+    }, { maxWidth: 320 });
     layer.addLayer(marker);
   }
 }
