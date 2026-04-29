@@ -976,6 +976,127 @@ function getCaColor(m) {
   return CA_COLORS[ca.risk_level] || CA_COLORS['unknown'];
 }
 
+function computeCaGroupColor(g) {
+  if (!caData || !caData.municipalities) return CA_COLORS['unknown'];
+  const counts = {};
+
+  if (g.municipalities && g.municipalities.length > 0) {
+    // Municipality-level groups: each member has a .bfs key
+    for (const m of g.municipalities) {
+      const ca = caData.municipalities[m.bfs];
+      const rl = (ca && ca.risk_level) || 'unknown';
+      counts[rl] = (counts[rl] || 0) + 1;
+    }
+  } else if (g.name) {
+    // Region-level groups: municipalities array is empty — scan caData by region name
+    for (const ca of Object.values(caData.municipalities)) {
+      if ((ca.region || '') === g.name) {
+        const rl = ca.risk_level || 'unknown';
+        counts[rl] = (counts[rl] || 0) + 1;
+      }
+    }
+  }
+
+  // Find dominant risk level
+  let best = 'unknown', bestCount = 0;
+  for (const [rl, cnt] of Object.entries(counts)) {
+    if (cnt > bestCount) { bestCount = cnt; best = rl; }
+  }
+  return CA_COLORS[best] || CA_COLORS['unknown'];
+}
+
+function buildCaAggregatedPopup(group, cc) {
+  const flag = FLAGS[cc] || '';
+  const name = group.name || cc;
+  let munis = group.municipalities || [];
+  const total = group.count || munis.length;
+
+  // If municipalities list is empty (region-level view), synthesize from caData
+  let caEntries = [];
+  if (!caData || !caData.municipalities) {
+    return '<div class="info-popup"><div class="popup-header" style="background:#999;color:#fff"><span class="popup-flag">' + flag + '</span><strong>' + escapeHtml(name) + '</strong></div><div class="popup-body"><div style="color:#999;font-size:11px">CA data not loaded yet</div></div></div>';
+  }
+  if (munis.length > 0) {
+    for (const m of munis) {
+      const ca = caData.municipalities[m.bfs];
+      if (ca) caEntries.push(ca);
+    }
+  } else if (group.name) {
+    for (const ca of Object.values(caData.municipalities)) {
+      if ((ca.region || '') === group.name) caEntries.push(ca);
+    }
+  }
+
+  // Count risk levels
+  const riskCounts = {};
+  for (const ca of caEntries) {
+    const rl = ca.risk_level || 'unknown';
+    riskCounts[rl] = (riskCounts[rl] || 0) + 1;
+  }
+
+  // Tier order for display
+  const tierOrder = ['critical', 'high', 'medium', 'low', 'minimal', 'unknown'];
+  const sorted = tierOrder.filter(rl => riskCounts[rl] > 0).map(rl => [rl, riskCounts[rl]]);
+  const hasData = sorted.length > 0 && !(sorted.length === 1 && sorted[0][0] === 'unknown' && caEntries.length === 0);
+
+  let barChart = '<div class="provider-bar">';
+  const grandTotal = Math.max(caEntries.length, total, 1);
+  for (const [rl, cnt] of sorted) {
+    const pct = (cnt / grandTotal * 100).toFixed(1);
+    barChart += `<div class="provider-bar-seg" style="width:${pct}%;background:${CA_COLORS[rl]}" title="${CA_TIER_LABELS[rl]}: ${cnt} (${pct}%)"></div>`;
+  }
+  barChart += '</div>';
+
+  let tierLegend = '<div style="font-size:11px;color:#666">';
+  for (const [rl, cnt] of sorted) {
+    const pct = (cnt / grandTotal * 100).toFixed(0);
+    tierLegend += `<span style="display:inline-block;width:10px;height:10px;background:${CA_COLORS[rl]};border-radius:2px;margin-right:4px;vertical-align:middle"></span>${escapeHtml(CA_TIER_LABELS[rl] || rl)}: ${cnt} (${pct}%)<br>`;
+  }
+  tierLegend += '</div>';
+
+  // Municipality list sorted by risk level severity then name
+  const riskOrder = { critical: 0, high: 1, medium: 2, low: 3, minimal: 4, unknown: 5 };
+  const sortedCaEntries = caEntries.slice().sort((a, b) => {
+    const ra = riskOrder[a.risk_level || 'unknown'] ?? 5;
+    const rb = riskOrder[b.risk_level || 'unknown'] ?? 5;
+    return ra !== rb ? ra - rb : (a.name || '').localeCompare(b.name || '');
+  });
+
+  const listCount = Math.max(total, sortedCaEntries.length);
+  let muniList = '<div class="popup-section"><div class="popup-section-title">Municipalities (' + listCount + ')</div>';
+  if (sortedCaEntries.length === 0) {
+    muniList += '<div style="color:#999;font-size:11px">Switch to Municipality view for details</div>';
+  } else {
+    muniList += '<div class="popup-muni-list">';
+    for (const ca of sortedCaEntries) {
+      const rl = ca.risk_level || 'unknown';
+      const color = CA_COLORS[rl] || CA_COLORS['unknown'];
+      const caOwner = ca.ca_owner || '';
+      muniList += '<div class="popup-muni-row">';
+      muniList += '<div class="popup-muni-summary" style="cursor:default">' +
+        '<span style="display:inline-block;width:8px;height:8px;background:' + color + ';border-radius:2px;flex-shrink:0;margin-right:4px;vertical-align:middle"></span>' +
+        '<strong style="font-size:11px">' + escapeHtml(ca.name || '') + '</strong>' +
+        ' <span style="font-size:10px;color:#888">' + escapeHtml(caOwner) + '</span>' +
+        '</div>';
+      muniList += '</div>';
+    }
+    muniList += '</div>';
+  }
+  muniList += '</div>';
+
+  return `<div class="info-popup">
+    <div class="popup-header" style="background:${CA_COLORS[(sorted[0] && sorted[0][0]) || 'unknown']};color:#fff">
+      <span class="popup-flag">${flag}</span>
+      <strong>${escapeHtml(name)}</strong>
+      <span style="font-size:11px;opacity:0.85;margin-left:6px">CA Sovereignty</span>
+    </div>
+    <div class="popup-body">
+      ${hasData ? barChart + tierLegend : '<div style="color:#999;font-size:11px">No CA data available</div>'}
+      ${muniList}
+    </div>
+  </div>`;
+}
+
 function mergeCaDetail(detail) {
   if (!caData || !caData.municipalities) return;
   for (const bfsId of Object.keys(detail)) {
@@ -1871,14 +1992,16 @@ async function renderCountryLayer(cc) {
         feature._matchedMuni = null;
         feature._matchedAdminRegion = null;
         if (g) {
-          return { fillColor: g.blendedColor, fillOpacity: 0.75, color: '#999', weight: 0.5 };
+          const fillColor = currentMode === 'ca' ? computeCaGroupColor(g) : g.blendedColor;
+          return { fillColor, fillOpacity: 0.75, color: '#999', weight: 0.5 };
         }
         // Fallback: if summary not loaded and no region match, use pre-computed country-level color
         if (!summaryLoaded && regionData && regionData.countries[cc]) {
           const cd = regionData.countries[cc];
           var featureName = (feature.properties && (feature.properties.name || feature.properties.region || feature.properties.name_en)) || cc;
           feature._matchedGroup = { name: featureName, count: cd.total, providers: cd.providers, popProviders: cd.popProviders || {}, popTotal: cd.popTotal || 0, dominant: cd.dominant, dominance: 1, blendedColor: cd.blendedColor, municipalities: [], hasGateway: false };
-          return { fillColor: cd.blendedColor, fillOpacity: 0.75, color: '#999', weight: 0.5 };
+          const fallbackFill = currentMode === 'ca' ? computeCaGroupColor(feature._matchedGroup) : cd.blendedColor;
+          return { fillColor: fallbackFill, fillOpacity: 0.75, color: '#999', weight: 0.5 };
         }
       } else {
         const m = matchFeature(feature);
@@ -1900,7 +2023,7 @@ async function renderCountryLayer(cc) {
       if (isAdminRegion && r) {
         layer.bindPopup(function () { return buildRegionEntityPopup(r, cc); }, { maxWidth: 400 });
       } else if (isAggregated && g) {
-        layer.bindPopup(function () { return buildAggregatedPopup(g, feature, cc); }, { maxWidth: 400 });
+        layer.bindPopup(function () { return currentMode === 'ca' ? buildCaAggregatedPopup(g, cc) : buildAggregatedPopup(g, feature, cc); }, { maxWidth: 400 });
       } else if (m) {
         layer.bindPopup(function () { return currentMode === 'ca' ? buildCaPopup(m) : buildPopup(m); }, { maxWidth: 400 });
       }

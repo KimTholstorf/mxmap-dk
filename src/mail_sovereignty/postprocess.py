@@ -225,6 +225,14 @@ async def process_unknown(
 
 
 MANUAL_OVERRIDES = {
+    # Brønderslev: public domain is bronderslev.dk; email runs under CVR domain 99454545.dk
+    # (bronderslev.dk has no MX — keep the Heimdal→Microsoft classification from 99454545.dk)
+    "DK-810": {
+        "domain": "bronderslev.dk",
+        "mx": ["eu-esec-01.heimdalsecurity.com", "eu-esec-02.heimdalsecurity.com"],
+        "provider": "microsoft",
+        "gateway": "heimdal",
+    },
     # Outokumpu: outokumpu.fi is the mining company, not the city
     "FI-309": {
         "domain": "outokummunkaupunki.fi",

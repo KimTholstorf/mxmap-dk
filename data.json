@@ -1246,7 +1246,7 @@
         "microsoft":"ms81101091",
         "facebook":"95shhfb9g7tbevhxfefpqht16pbsic"
       },
-      "smtp_banner":"554 Blocked - see https://ipcheck.proofpoint.com/?ip=64.236.161.23"
+      "smtp_banner":"220 mx101.ringsted.dk ESMTP Hello from Ringsted"
     },
     "DK-330":{
       "bfs":"DK-330",
@@ -2429,7 +2429,7 @@
         "microsoft":"ms89615024",
         "apple":"81hvIlXX2kAx4u4U"
       },
-      "smtp_banner":"220 hkmgw1.holstebro.dk ESMTP Smtpd; Mon, 27 Apr 2026 07:11:11 +0200"
+      "smtp_banner":"220 hkmgw1.holstebro.dk ESMTP Smtpd; Wed, 29 Apr 2026 14:17:00 +0200"
     },
     "DK-665":{
       "bfs":"DK-665",
@@ -3057,7 +3057,7 @@
       "canton":"Nordjylland",
       "district":"",
       "country":"DK",
-      "domain":"99454545.dk",
+      "domain":"bronderslev.dk",
       "mx":[
         "eu-esec-01.heimdalsecurity.com",
         "eu-esec-02.heimdalsecurity.com"
@@ -6735,7 +6735,7 @@
         "autodiscover_cname":"autodiscover.outlook.com"
       },
       "txt_verifications":{
-        "microsoft":"2D2846F37AF917C047EB708C5ED317DC62836BAB"
+        "microsoft":"ms40403648"
       },
       "tenant":"Managed"
     },
@@ -8976,8 +8976,8 @@
         "selector2":"selector2-nokiankaupunki-fi._domainkey.tampereenseutu.onmicrosoft.com"
       },
       "txt_verifications":{
-        "apple":"6DjcyAiiMy4biAOt",
-        "microsoft":"ms16719869"
+        "microsoft":"ms16719869",
+        "apple":"6DjcyAiiMy4biAOt"
       },
       "tenant":"Managed"
     },
@@ -9102,8 +9102,8 @@
         "selector2":"selector2-narpes-fi._domainkey.narpes.onmicrosoft.com"
       },
       "txt_verifications":{
-        "microsoft":"ms61089014",
         "apple":"38hHrERcffaQxiQr",
+        "microsoft":"ms61089014",
         "google":"6BQb5D56srOxLExDJsijbcKDd7Y7oyzVFea-siybYsY"
       },
       "tenant":"Managed"
@@ -14054,7 +14054,7 @@
       "txt_verifications":{
         "microsoft":"ms85240966"
       },
-      "smtp_banner":"220 mail.elektron.fo ESMTP Smtpd; Mon, 27 Apr 2026 06:11:11 +0100"
+      "smtp_banner":"220 mail.elektron.fo ESMTP Smtpd; Wed, 29 Apr 2026 13:17:00 +0100"
     },
     "FO-27":{
       "bfs":"FO-27",
