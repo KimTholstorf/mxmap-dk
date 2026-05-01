@@ -1,10 +1,13 @@
-# MX Map — Nordic Email Sovereignty Map
+# MX Map — Nordic Digital Sovereignty Map
 
 [![Weekly data update](https://github.com/KimTholstorf/mxmap-dk/actions/workflows/weekly.yml/badge.svg)](https://github.com/KimTholstorf/mxmap-dk/actions/workflows/weekly.yml)
 
-An interactive map showing where Nordic municipalities and publicly traded companies host their official email — classified by legal jurisdiction: **US Cloud**, **EU Provider**, **Self-hosted**, or **Unknown**.
+An interactive map showing digital sovereignty exposure for Nordic municipalities and publicly traded companies across two dimensions:
 
-Covers ~1,100 municipalities across Denmark, Finland, Norway, Sweden and Iceland, plus ~115 companies from the OMXC20, OMXS30, OBX, OMXH25 and OMXI15 stock indices.
+- **MX view** — which provider handles official email, classified by legal jurisdiction
+- **CA view** — which Certificate Authority controls the TLS certificate for each public website
+
+Covers ~1,150 municipalities across Denmark, Finland, Norway, Sweden, Iceland, the Faroe Islands and Greenland, plus ~115 companies from the OMXC20, OMXS30, OBX, OMXH25 and OMXI15 stock indices.
 
 **[mxmap.app](https://mxmap.app)**
 
@@ -12,64 +15,91 @@ Covers ~1,100 municipalities across Denmark, Finland, Norway, Sweden and Iceland
 
 ## Why this matters
 
-US Cloud providers (Microsoft 365, Google Workspace, AWS) are subject to the **US CLOUD Act**, which allows US authorities to demand access to stored data regardless of where it is physically hosted — even when GDPR applies. This map makes that exposure visible for Nordic public institutions and major listed companies.
+US-headquartered providers — Microsoft, Google, Amazon, DigiCert, Let's Encrypt (ISRG) and others — are subject to the **US CLOUD Act**, which allows US authorities to demand access to data and infrastructure regardless of where it is physically hosted, even when GDPR applies.
+
+An institution may have migrated email to a European provider yet still rely on a US-controlled CA for its public website — or vice versa. Both layers matter for a complete sovereignty assessment. This map makes both visible.
+
+## Two views
+
+### MX — Email sovereignty
+
+Each domain's MX records are resolved and the backend email provider identified, looking through email security gateways (FortiMail, Barracuda, Heimdal, Mimecast, etc.) to the actual hosting provider. Classified into four jurisdictions:
+
+| Category | Examples |
+|----------|---------|
+| US Cloud | Microsoft 365, Google Workspace, AWS |
+| EU Provider | Zone, Telia, local ISPs |
+| Self-hosted | Own MX infrastructure |
+| Unknown | No MX records found |
+
+### CA — Certificate Authority sovereignty
+
+Each domain is scanned via a live TLS handshake. The issuing CA is matched against a signature database and classified into five risk tiers:
+
+| Tier | Jurisdiction | Examples |
+|------|-------------|---------|
+| Critical | US CLOUD Act | DigiCert, Amazon, Google Trust |
+| High | US non-profit | Let's Encrypt (ISRG) |
+| Medium | Allied non-EU | GlobalSign |
+| Low | EU-controlled | HARICA, Certum, D-TRUST |
+| Minimal | Nordic / national | Buypass, Telia |
 
 ## How it works
 
-The data pipeline has three stages, run weekly via GitHub Actions:
+### MX pipeline (3 stages, weekly)
 
-1. **Preprocess** — Loads municipalities from seed data for DK, FI, NO, SE, IS. For each domain performs MX, SPF, CNAME, DKIM, autodiscover, TXT, and ASN lookups across three resolvers, detects email security gateways (FortiMail, Barracuda, Hornetsecurity, etc.), and classifies the backend email provider.
-2. **Postprocess** — Applies manual overrides, retries DNS for unresolved entries, checks SMTP banners on independent MX hosts, and scrapes municipal websites for email addresses as a last resort.
-3. **Validate** — Assigns a confidence score (0–100) to each entry based on DNS evidence quality, and enforces a quality gate before publishing.
+1. **Preprocess** — Loads municipalities from seed data (DK, FI, NO, SE, IS, FO, GL). For each domain: MX, SPF, CNAME, DKIM, autodiscover, TXT and ASN lookups across three resolvers. Detects email security gateways and classifies the backend provider with confidence scoring.
+2. **Postprocess** — Applies manual overrides, retries DNS for unresolved entries, checks SMTP banners on independent MX hosts, scrapes municipal websites as a last resort.
+3. **Validate** — Assigns a confidence score (0–100) per entry and enforces a quality gate before publishing.
 
-Stock index companies are classified in a separate pass using the same DNS pipeline.
+### CA pipeline (weekly, independent)
+
+Async TLS scan of all municipality and company domains. Certificate chain retrieved, leaf issuer matched against CA signature database, classified into risk tier with confidence scoring. Municipalities gated on MX quality; company CA scan runs unconditionally.
+
+### Stock indices (weekly, independent)
+
+DNS classification of all ~115 companies using the same MX pipeline, plus a separate CA scan, both running unconditionally regardless of municipality quality gate.
 
 ```mermaid
 flowchart TD
-    trigger["Weekly trigger (Monday 04:00 UTC)"] --> seed
+    trigger["Weekly trigger\n(Monday 04:00 UTC)"] --> seed
 
-    subgraph pre ["1 · Preprocess"]
-        seed[/"Seed data\nDK · FI · NO · SE · IS · FO"/] --> fetch["Load ~1,130 municipalities"]
-        fetch --> domains["Extract / guess domains"]
-        domains --> dns["MX + TXT lookups\n(3 resolvers)"]
-        dns --> spf_resolve["Resolve SPF includes"]
-        spf_resolve --> cname["Follow CNAME chains"]
-        cname --> asn["ASN lookups (Team Cymru)"]
-        asn --> autodiscover["Autodiscover + DKIM lookups"]
-        autodiscover --> gateway["Detect gateways\n(FortiMail, Barracuda …)"]
-        gateway --> classify["Classify\nMX → CNAME → SPF → DKIM → TXT"]
+    subgraph pre ["MX · 1 Preprocess"]
+        seed[/"Seed data\nDK FI NO SE IS FO GL"/] --> fetch["~1,150 municipalities"]
+        fetch --> dns["MX + DNS lookups\n(3 resolvers)"]
+        dns --> classify["Classify provider\nMX → CNAME → SPF → DKIM → TXT"]
     end
 
-    classify --> overrides
-
-    subgraph post ["2 · Postprocess"]
-        overrides["Apply manual overrides"] --> retry["Retry DNS for unknowns"]
-        retry --> smtp["SMTP banner check"]
-        smtp --> scrape["Scrape municipal websites"]
-        scrape --> reclassify["Reclassify resolved entries"]
+    subgraph post ["MX · 2 Postprocess"]
+        classify --> overrides["Manual overrides"]
+        overrides --> smtp["SMTP banners + scraping"]
     end
 
-    reclassify --> companies
-
-    subgraph idx ["Stock indices"]
-        companies["Classify OMXC20 · OMXS30\nOBX · OMXH25 · OMXI15"]
+    subgraph val ["MX · 3 Validate"]
+        smtp --> gate{"Quality gate\navg ≥ 70 · high-conf ≥ 80%"}
     end
 
-    companies --> data[("data.json")]
-    data --> score
-
-    subgraph val ["3 · Validate"]
-        score["Confidence scoring · 0–100"] --> gate{"Quality gate\navg ≥ 70 · high-conf ≥ 80%"}
+    subgraph idx ["Stock indices (unconditional)"]
+        companies["MX classify\nOMXC20 · OMXS30 · OBX · OMXH25 · OMXI15"]
+        companies_ca["CA scan\n115 company domains"]
     end
 
-    gate -- "Pass" --> build["Build frontend data files"]
-    build --> deploy["Commit & deploy to mxmap.app"]
+    gate -- "Pass" --> ca_scan
     gate -- "Fail" --> issue["Open GitHub issue"]
+
+    subgraph ca ["CA scan (quality-gated)"]
+        ca_scan["TLS scan ~1,150 domains"]
+        ca_scan --> ca_classify["Match CA signatures\nAssign risk tier"]
+    end
+
+    ca_classify --> build["Build frontend files"]
+    companies_ca --> build
+    idx --> build
+    build --> commit["Commit & deploy\nmxmap.app"]
 
     style trigger fill:#e8f4fd,stroke:#4a90d9,color:#1a5276
     style seed fill:#e8f4fd,stroke:#4a90d9,color:#1a5276
-    style data fill:#d5f5e3,stroke:#27ae60,color:#1e8449
-    style deploy fill:#d5f5e3,stroke:#27ae60,color:#1e8449
+    style commit fill:#d5f5e3,stroke:#27ae60,color:#1e8449
     style issue fill:#fadbd8,stroke:#e74c3c,color:#922b21
     style gate fill:#fdebd0,stroke:#e67e22,color:#935116
 ```
@@ -86,7 +116,8 @@ flowchart TD
 | 🇸🇪 Sweden | ~290 |
 | 🇮🇸 Iceland | ~64 |
 | 🇫🇴 Faroe Islands | 29 |
-| **Total** | **~1,130** |
+| 🇬🇱 Greenland | 5 |
+| **Total** | **~1,150** |
 
 ### Stock indices
 
@@ -97,26 +128,32 @@ flowchart TD
 | OBX | 🇳🇴 Norway | 25 |
 | OMXH25 | 🇫🇮 Finland | 25 |
 | OMXI15 | 🇮🇸 Iceland | 15 |
-| **Total** | | **~115** |
+| **Total** | | **115** |
 
 ## Quick start
 
 ```bash
 uv sync
 
-# Run the full pipeline for all Nordic countries
-uv run preprocess DK FI NO SE IS FO
+# MX pipeline
+uv run preprocess DK FI NO SE IS FO GL
 uv run postprocess
 uv run validate
 
-# Classify stock index companies
+# CA scan (municipalities)
+uv run scan-certs --skip-ct --timeout 20
+
+# Stock index companies (MX + CA)
 uv run python3 scripts/classify_nordic_indices.py   # OBX, OMXS30, OMXH25, OMXI15
 uv run python3 scripts/classify_omxc20.py           # OMXC20
+uv run python3 scripts/scan_companies_ca.py --skip-ct --timeout 20
 
 # Build frontend data files
 uv run python3 scripts/build_frontend.py
+uv run python3 scripts/build_ca_frontend.py
+uv run python3 scripts/build_companies_ca_frontend.py
 
-# Serve the map locally
+# Serve locally
 python -m http.server
 ```
 
@@ -134,21 +171,22 @@ uv run ruff format src tests                     # Format
 
 A [GitHub Actions workflow](.github/workflows/weekly.yml) runs every Monday at 04:00 UTC:
 
-- Scans all ~1,100 Nordic municipalities via DNS
-- Rescans all ~115 stock index companies
-- Validates results against a quality gate (average confidence ≥ 70, ≥ 80% of entries above 80)
+- MX-scans all ~1,150 Nordic municipalities and quality-gates before publishing
+- CA-scans all ~1,150 municipality domains (gated) and all 115 company domains (unconditional)
+- MX-classifies all 115 stock index companies
 - Commits updated data and deploys to [mxmap.app](https://mxmap.app) via GitHub Pages
-- Opens a GitHub issue if the quality gate fails
+- Opens a GitHub issue if the municipality quality gate fails
 
-The workflow can also be triggered manually from the [Actions tab](https://github.com/KimTholstorf/mxmap-dk/actions/workflows/weekly.yml).
+Can also be triggered manually from the [Actions tab](https://github.com/KimTholstorf/mxmap-dk/actions/workflows/weekly.yml).
 
 ## Attribution
 
-Built on [livenson/mxmap](https://github.com/livenson/mxmap), which extended the original [mxmap.ch](https://mxmap.ch) by [David Huser](https://github.com/davidhuser/mxmap) from Swiss municipalities to a worldwide dataset. This project narrows the focus to the Nordic region and adds stock index company classification, a sovereignty-framed legend, and a redesigned frontend.
+MX pipeline built on [livenson/mxmap](https://github.com/livenson/mxmap), which extended the original [mxmap.ch](https://mxmap.ch) by [David Huser](https://github.com/davidhuser/mxmap) from Swiss municipalities to a worldwide dataset. CA pipeline adapted from [koldex/ca-sovereignty-map](https://github.com/koldex/ca-sovereignty-map).
 
 ## Related
 
 - [mxmap.ch](https://mxmap.ch) — the original Swiss municipality email provider map by David Huser
 - [livenson/mxmap](https://github.com/livenson/mxmap) — worldwide fork this project is based on
+- [koldex/ca-sovereignty-map](https://github.com/koldex/ca-sovereignty-map) — CA-focused Nordic & Baltic equivalent, basis for the CA pipeline
 - [swedish-mail-dependency.netlify.app](https://swedish-mail-dependency.netlify.app) — Swedish-focused equivalent
 - [kommune-epost-norge.netlify.app](https://kommune-epost-norge.netlify.app) — Norwegian-focused equivalent
