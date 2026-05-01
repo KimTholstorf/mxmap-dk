@@ -18,7 +18,7 @@ from pathlib import Path
 from loguru import logger
 
 from .classifier import classify
-from .models import ClassificationResult, Jurisdiction, RiskLevel
+from .models import ClassificationResult
 from .probes import probe_caa, probe_ct_log
 from .tls import scan_certificate_chain
 
