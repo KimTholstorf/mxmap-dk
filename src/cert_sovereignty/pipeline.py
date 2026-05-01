@@ -49,7 +49,9 @@ async def scan_domain(
     async with semaphore:
         logger.debug("Scanning {}", domain)
 
-        tls_result = await scan_certificate_chain(domain, port=port, timeout=tls_timeout)
+        tls_result = await scan_certificate_chain(
+            domain, port=port, timeout=tls_timeout
+        )
         tls_evidence = tls_result.get("evidence", [])
         chain = tls_result.get("chain", [])
         tls_version = tls_result.get("tls_version", "")
@@ -227,7 +229,9 @@ def serialize_result(
         "cert_expiry": cert_expiry,
         "caa_records": result.caa_records,
         "ct_issuers": result.ct_issuers,
-        "cert_chain": [entry.model_dump(exclude_none=True) for entry in result.cert_chain],
+        "cert_chain": [
+            entry.model_dump(exclude_none=True) for entry in result.cert_chain
+        ],
         "cert_mismatch": result.cert_mismatch,
         "http_accessible": result.http_accessible,
         "shared_hosting": shared_hosting,
@@ -271,7 +275,9 @@ def build_ca_data(
 
         if result:
             is_shared, fp = shared_info.get(domain, (False, ""))
-            serialized = serialize_result(result, entry, shared_hosting=is_shared, shared_cert_fp=fp)
+            serialized = serialize_result(
+                result, entry, shared_hosting=is_shared, shared_cert_fp=fp
+            )
             if result.error == "http_only":
                 counts["http_only"] += 1
             else:

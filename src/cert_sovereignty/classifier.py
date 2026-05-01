@@ -34,9 +34,15 @@ class _Rule:
 # Confidence rules (cf. mxmap's _PROVIDER_RULES)
 _CA_RULES: tuple[_Rule, ...] = (
     # 3+ signals → high confidence
-    _Rule("leaf_inter_root", frozenset({_S.LEAF_ISSUER, _S.INTERMEDIATE_ISSUER, _S.ROOT_CA}), 0.95),
     _Rule(
-        "leaf_inter_caa", frozenset({_S.LEAF_ISSUER, _S.INTERMEDIATE_ISSUER, _S.CAA_RECORD}), 0.95
+        "leaf_inter_root",
+        frozenset({_S.LEAF_ISSUER, _S.INTERMEDIATE_ISSUER, _S.ROOT_CA}),
+        0.95,
+    ),
+    _Rule(
+        "leaf_inter_caa",
+        frozenset({_S.LEAF_ISSUER, _S.INTERMEDIATE_ISSUER, _S.CAA_RECORD}),
+        0.95,
     ),
     _Rule("leaf_caa_ct", frozenset({_S.LEAF_ISSUER, _S.CAA_RECORD, _S.CT_LOG}), 0.90),
     # 2 signals → medium-high

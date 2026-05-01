@@ -100,7 +100,9 @@ def _no_kommune_fallback(domain: str) -> str | None:
     return f"{slug}.kommune.no"
 
 
-async def scan_certificate_chain(domain: str, port: int = 443, timeout: int = 15) -> dict:
+async def scan_certificate_chain(
+    domain: str, port: int = 443, timeout: int = 15
+) -> dict:
     """Scan TLS cert chain with full recovery chain + redirect following.
 
     Runs the recovery chain once at the caller-supplied ``timeout``. If the
@@ -161,7 +163,9 @@ async def _scan_with_recovery_chain(domain: str, port: int, timeout: int) -> dic
             shared["cert_mismatch"] = True
             return shared
         if not domain.startswith("www."):
-            shared_www = await _scan_asyncio_ssl_no_verify(f"www.{domain}", port, min(timeout, 10))
+            shared_www = await _scan_asyncio_ssl_no_verify(
+                f"www.{domain}", port, min(timeout, 10)
+            )
             if not shared_www.get("error") and shared_www.get("chain"):
                 shared_www["domain"] = domain
                 shared_www["scanned_domain"] = f"www.{domain}"
@@ -215,8 +219,12 @@ async def _scan_with_recovery_chain(domain: str, port: int, timeout: int) -> dic
     if not result["error"] and result.get("chain"):
         redirect_host = await _follow_https_redirect(domain, timeout=6)
         if redirect_host:
-            logger.debug("Following cross-domain redirect: {} → {}", domain, redirect_host)
-            redir_result = await _scan_asyncio_ssl(redirect_host, port, min(timeout, 10))
+            logger.debug(
+                "Following cross-domain redirect: {} → {}", domain, redirect_host
+            )
+            redir_result = await _scan_asyncio_ssl(
+                redirect_host, port, min(timeout, 10)
+            )
             if not redir_result.get("error") and redir_result.get("chain"):
                 redir_result["domain"] = domain
                 redir_result["scanned_domain"] = redirect_host
@@ -271,7 +279,9 @@ async def _connect_and_scan(domain: str, port: int, timeout: int, verify: bool) 
         connect_target = ipv4_addrs[0]
 
         reader, writer = await asyncio.wait_for(
-            asyncio.open_connection(connect_target, port, ssl=ssl_ctx, server_hostname=domain),
+            asyncio.open_connection(
+                connect_target, port, ssl=ssl_ctx, server_hostname=domain
+            ),
             timeout=timeout,
         )
 
@@ -284,7 +294,9 @@ async def _connect_and_scan(domain: str, port: int, timeout: int, verify: bool) 
                 cert = x509.load_der_x509_certificate(der_cert, default_backend())
                 entry = _parse_x509_cert(cert, 0, "leaf")
                 result["chain"].append(entry)
-                result["evidence"].extend(_match_cert_to_ca(entry, SignalKind.LEAF_ISSUER))
+                result["evidence"].extend(
+                    _match_cert_to_ca(entry, SignalKind.LEAF_ISSUER)
+                )
             if hasattr(ssl_obj, "get_verified_chain"):
                 try:
                     for i, der in enumerate(ssl_obj.get_verified_chain()[1:], start=1):
@@ -293,7 +305,9 @@ async def _connect_and_scan(domain: str, port: int, timeout: int, verify: bool) 
                         entry = _parse_x509_cert(cert, i, ct)
                         result["chain"].append(entry)
                         kind = (
-                            SignalKind.ROOT_CA if ct == "root" else SignalKind.INTERMEDIATE_ISSUER
+                            SignalKind.ROOT_CA
+                            if ct == "root"
+                            else SignalKind.INTERMEDIATE_ISSUER
                         )
                         result["evidence"].extend(_match_cert_to_ca(entry, kind))
                 except Exception:
@@ -346,7 +360,9 @@ async def _follow_https_redirect(domain: str, timeout: int = 6) -> str | None:
             original = domain.lower().removeprefix("www.")
             if final_host != original:
                 # Cross-domain redirect found
-                return resp.url.host  # Return actual final host including www if present
+                return (
+                    resp.url.host
+                )  # Return actual final host including www if present
     except Exception:
         pass
     return None
@@ -394,12 +410,16 @@ def _get_name_attr(name: x509.Name, oid: object) -> str:
         # attrs[0].value is str | bytes in cryptography's stubs; we always
         # receive str for standard DN attributes (CN, O, C) — cast explicitly
         value = attrs[0].value if attrs else ""
-        return value if isinstance(value, str) else value.decode("utf-8", errors="replace")
+        return (
+            value if isinstance(value, str) else value.decode("utf-8", errors="replace")
+        )
     except Exception:
         return ""
 
 
-def _parse_x509_cert(cert: x509.Certificate, position: int, cert_type: str) -> CertChainEntry:
+def _parse_x509_cert(
+    cert: x509.Certificate, position: int, cert_type: str
+) -> CertChainEntry:
     OID = x509.oid.NameOID
     return CertChainEntry(
         position=position,
@@ -429,7 +449,9 @@ def _match_cert_to_ca(entry: CertChainEntry, kind: SignalKind) -> list[Evidence]
         if match_patterns(entry.issuer_cn, sig.issuer_cn_patterns):
             matched = True
             detail_parts.append(f"issuer_cn={entry.issuer_cn}")
-        if kind == SignalKind.ROOT_CA and match_patterns(entry.subject_cn, sig.root_cn_patterns):
+        if kind == SignalKind.ROOT_CA and match_patterns(
+            entry.subject_cn, sig.root_cn_patterns
+        ):
             matched = True
             detail_parts.append(f"root_cn={entry.subject_cn}")
         if matched:
