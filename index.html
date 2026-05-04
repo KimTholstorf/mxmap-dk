@@ -77,19 +77,19 @@
     color: #fff;
     height: 50px;
     padding: 0 20px;
-    display: flex; align-items: center; justify-content: space-between;
+    display: flex; align-items: center; gap: 12px;
     flex-shrink: 0;
     box-shadow: 0 1px 0 rgba(255,255,255,0.06), var(--shadow-sm);
     position: relative; z-index: 10;
   }
-  .header-left { display: flex; align-items: center; gap: 12px; min-width: 0; }
+  .header-left { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
   .brand {
     font-size: 16px; font-weight: 700; white-space: nowrap; margin: 0;
     letter-spacing: -0.02em;
   }
   .separator { color: rgba(255,255,255,0.2); font-size: 18px; font-weight: 300; }
   .tagline { color: rgba(255,255,255,0.5); font-size: 13px; font-weight: 500; white-space: nowrap; letter-spacing: 0.01em; }
-  .header-right { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+  .header-right { display: flex; align-items: center; gap: 8px; flex-shrink: 0; margin-left: auto; }
   .updated { font-size: 11px; color: rgba(255,255,255,0.35); margin-right: 4px; }
   .toggle-info {
     background: rgba(255,255,255,0.1);
@@ -505,7 +505,7 @@
     #side-panel.collapsed { width: 0; }
   }
   /* Search */
-  #search-container { position: relative; display: flex; align-items: center; margin-left: 12px; }
+  #search-container { position: relative; display: flex; align-items: center; }
   #map-search {
     width: 440px; height: 30px; padding: 0 12px 0 32px;
     border-radius: var(--radius-pill); border: 1px solid rgba(255,255,255,0.25);
@@ -537,30 +537,26 @@
   .sr-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
   .sr-empty { padding: 10px 14px; font-size: 13px; color: #888; }
 
-  @media (max-width: 600px) {
-    /* Header: two-row layout on mobile */
+  @media (max-width: 1200px) {
+    /* Header: two-row layout — row 1: brand+tabs+overview, row 2: search */
     #header {
       height: auto;
       flex-wrap: wrap;
       padding: 0 12px;
-      row-gap: 0;
+      gap: 0 8px;
     }
     .header-left {
       flex: 1 1 auto;
-      flex-wrap: wrap;
-      min-width: 0;
       padding: 8px 0 0;
-      gap: 8px;
     }
+    .header-right { padding: 8px 0 0; }
     /* Search drops to its own full-width row */
     #search-container {
       order: 10;
-      width: 100%;
-      margin: 0;
+      flex: 0 0 100%;
       padding: 6px 0 8px;
     }
     #map-search { width: 100%; font-size: 13px; }
-    .header-right { padding: 8px 0; }
     /* Hide updated date in header — it moves into the side panel */
     .updated { display: none; }
     .separator, .tagline { display: none; }
@@ -592,11 +588,11 @@
       <button class="mode-tab active" data-mode="mx" title="Email provider (MX) view">MX</button>
       <button class="mode-tab" data-mode="ca" title="Certificate Authority (TLS) view">CA</button>
     </div>
-    <div id="search-container">
-      <span id="search-icon">&#128374;</span>
-      <input id="map-search" type="search" placeholder="Search municipality or domain…" autocomplete="off" spellcheck="false">
-      <div id="search-results"></div>
-    </div>
+  </div>
+  <div id="search-container">
+    <span id="search-icon">&#128374;</span>
+    <input id="map-search" type="search" placeholder="Search municipality or domain…" autocomplete="off" spellcheck="false">
+    <div id="search-results"></div>
   </div>
   <div class="header-right">
     <span class="updated" id="generated"></span>
@@ -916,8 +912,16 @@ function togglePanel() {
 document.getElementById('panel-toggle-btn').addEventListener('click', togglePanel);
 document.getElementById('panel-close-btn').addEventListener('click', togglePanel);
 if (!panelOpen) {
-  document.getElementById('side-panel').classList.add('collapsed');
+  const panel = document.getElementById('side-panel');
+  // Suppress transition on initial load so panel starts collapsed instantly
+  panel.style.transition = 'none';
+  panel.classList.add('collapsed');
   document.getElementById('panel-toggle-btn').setAttribute('aria-expanded', 'false');
+  // Re-enable transition after first paint, then fix Leaflet's size measurement
+  requestAnimationFrame(() => {
+    panel.style.transition = '';
+    map.invalidateSize({ animate: false });
+  });
 }
 
 // --- Legend ---
@@ -2651,7 +2655,7 @@ async function loadData() {
 
   // Legend (works with region data)
   const isMobile = window.innerWidth <= 600;
-  const legend = L.control({ position: isMobile ? 'topright' : 'bottomright' });
+  const legend = L.control({ position: 'bottomright' });
   legend.onAdd = function () {
     const div = L.DomUtil.create('div', 'legend');
     if (isMobile) div.classList.add('legend-collapsed');
