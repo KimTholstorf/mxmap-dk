@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-04T05:33:54.551331+00:00",
+  "generated": "2026-05-04T15:36:21.261738+00:00",
   "companies": [
     {
       "ticker": "NOVO B",
@@ -351,7 +351,7 @@
     {
       "ticker": "TRYG",
       "name": "Tryg",
-      "domain": "tryg.com",
+      "domain": "tryg.dk",
       "sector": "Insurance",
       "hq_address": "Klausdalsbrovej 601, 2750 Ballerup",
       "hq_municipality": "Ballerup",
@@ -365,14 +365,14 @@
         "dk.mx3.mailanyone.net",
         "dk.mx4.mx25.net"
       ],
-      "spf": "v=spf1 include:spf.mailanyone.net include:spf.protection.outlook.com include:_spf.qualtrics.com include:spf.actimo.com a:b.spf.service-now.com a:c.spf.service-now.com a:d.spf.service-now.com ip4:148.139.1.8 ip4:148.139.1.10 ip4:148.139.1.11 -all",
+      "spf": "v=spf1 include:spf.mailanyone.net include:spf.protection.outlook.com include:_spf.qualtrics.com include:spf.hatteland.com include:spf.mailjet.com include:sendgrid.net include:spf.tryg.dk ~all",
       "mx_countries": [
         "IE"
       ],
       "gateway": "mailanyone",
       "tenant": "Managed",
-      "provider": "google",
-      "reason": "MX is mailanyone gateway; TXT verification proves google tenant"
+      "provider": "microsoft",
+      "reason": "MX is mailanyone gateway; SPF+autodiscover confirm microsoft"
     },
     {
       "ticker": "TOP",
