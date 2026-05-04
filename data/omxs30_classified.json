@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-27T05:14:26.937392+00:00",
+  "generated": "2026-05-04T05:24:58.706575+00:00",
   "companies": [
     {
       "ticker": "ABB",
@@ -236,7 +236,7 @@
       "mx": [
         "ericsson-com.mail.protection.outlook.com"
       ],
-      "spf": "v=spf1 ip4:193.180.251.71/32 ip4:193.180.251.72/31 ip4:198.24.6.0/25 ip4:192.176.1.74/32 ip4:213.68.11.254/32 ip4:109.203.101.205/32 ip4:129.192.139.193/32 ip4:129.192.129.0/24 ip4:130.100.64.168/32 include:spf.protection.outlook.com ~all",
+      "spf": "v=spf1 ip4:198.24.6.0/25 ip4:192.176.1.74/32 ip4:213.68.11.254/32 ip4:109.203.101.205/32 ip4:129.192.139.193/32 ip4:129.192.129.0/24 ip4:130.100.64.168/32 include:spf.protection.outlook.com ~all",
       "mx_countries": [
         "US"
       ],
@@ -260,7 +260,7 @@
       "mx": [
         "essity-com.mail.protection.outlook.com"
       ],
-      "spf": "v=spf1 a:gilrain.ngninfra.net ip4:193.221.47.0/25 ip4:72.44.214.60 ip4:62.209.53.67 ip4:103.25.130.111 ip4:130.214.105.240/28 ip4:130.214.163.240/28 ip4:130.214.134.192/28 ip4:130.214.240.208/28 include:de._netblocks.mimecast.com include:spf.protection.outlook.com include:spf2.essity.com include:spf3.essity.com include:amazonses.com include:mail.zendesk.com -all",
+      "spf": "v=spf1 a:gilrain.ngninfra.net ip4:193.221.47.0/25 ip4:72.44.214.60 ip4:62.209.53.67 ip4:103.25.130.111 ip4:130.214.105.240/28 ip4:130.214.163.240/28 ip4:130.214.134.192/28 ip4:130.214.240.208/28 include:spf.protection.outlook.com include:spf2.essity.com include:spf3.essity.com include:amazonses.com include:mail.zendesk.com -all",
       "mx_countries": [
         "US"
       ],
@@ -317,8 +317,8 @@
       "tenant": null,
       "provider": "independent",
       "reason": "MX (mx01.handelsbanken.se, mx02.handelsbanken.se) is self-hosted",
-      "smtp_banner": "220 mx01.handelsbanken.se ESMTP",
-      "smtp_software": "mx01.handelsbanken.se ESMTP"
+      "smtp_banner": "554 mx01.handelsbanken.se",
+      "smtp_software": "554 mx01.handelsbanken.se"
     },
     {
       "ticker": "HM-B",

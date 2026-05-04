@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-27T05:16:53.344613+00:00",
+  "generated": "2026-05-04T05:27:40.119716+00:00",
   "companies": [
     {
       "ticker": "DNB",
@@ -113,7 +113,7 @@
         "mx1.hc242-21.eu.iphmx.com",
         "mx2.hc242-21.eu.iphmx.com"
       ],
-      "spf": "v=spf1 include:spf.protection.outlook.com include:mailgun.org exists:%{i}.spf.hc242-21.eu.iphmx.com ip4:185.43.88.190 ip4:81.26.32.157 ip4:80.86.134.74 -all",
+      "spf": "v=spf1 include:spf.protection.outlook.com include:mailgun.org include:spf.axia-asp.no exists:%{i}.spf.hc242-21.eu.iphmx.com ip4:185.43.88.190 ip4:81.26.32.157 ip4:80.86.134.74 -all",
       "mx_countries": [
         "US"
       ],
