@@ -1,7 +1,7 @@
 {
   "total": 1149,
-  "average_score": 90.3,
-  "high_confidence_pct": 90.7,
+  "average_score": 90.2,
+  "high_confidence_pct": 90.3,
   "quality_passed": true,
   "entries": {
     "DK-101": {
@@ -21,10 +21,9 @@
       "name": "Frederiksberg",
       "provider": "microsoft",
       "domain": "frederiksberg.dk",
-      "confidence": 90,
+      "confidence": 70,
       "flags": [
         "spf_strict",
-        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -1146,13 +1145,10 @@
       "name": "Mariagerfjord",
       "provider": "microsoft",
       "domain": "mariagerfjord.dk",
-      "confidence": 95,
+      "confidence": 70,
       "flags": [
-        "multiple_mx",
         "spf_strict",
-        "mx_spf_match",
-        "provider_classified",
-        "provider_via_gateway_spf"
+        "provider_classified"
       ]
     },
     "DK-849": {
@@ -9522,10 +9518,9 @@
       "name": "Frøya",
       "provider": "microsoft",
       "domain": "froya.kommune.no",
-      "confidence": 95,
+      "confidence": 75,
       "flags": [
         "spf_strict",
-        "mx_spf_match",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -11775,10 +11770,9 @@
       "name": "Båstad",
       "provider": "microsoft",
       "domain": "bastad.se",
-      "confidence": 95,
+      "confidence": 75,
       "flags": [
         "spf_strict",
-        "mx_spf_match",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -13107,9 +13101,9 @@
       "name": "Leksand",
       "provider": "microsoft",
       "domain": "leksand.se",
-      "confidence": 88,
+      "confidence": 90,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -13214,8 +13208,9 @@
       "name": "Hedemora",
       "provider": "microsoft",
       "domain": "hedemora.se",
-      "confidence": 90,
+      "confidence": 95,
       "flags": [
+        "spf_strict",
         "mx_spf_match",
         "provider_classified",
         "autodiscover_confirms"
@@ -13506,13 +13501,14 @@
       "name": "Berg",
       "provider": "microsoft",
       "domain": "berg.se",
-      "confidence": 85,
+      "confidence": 90,
       "flags": [
         "multiple_mx",
         "spf_strict",
         "independent_mx_with_cloud_spf",
         "provider_classified",
-        "provider_via_gateway_spf"
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
       ]
     },
     "SE-2361": {

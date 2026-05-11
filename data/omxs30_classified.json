@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-04T05:24:58.706575+00:00",
+  "generated": "2026-05-11T05:36:30.244558+00:00",
   "companies": [
     {
       "ticker": "ABB",
@@ -112,7 +112,7 @@
         "de-smtp-inbound-1.mimecast.com",
         "de-smtp-inbound-2.mimecast.com"
       ],
-      "spf": "v=spf1 include:spf.mandrillapp.com ip4:74.116.124.0/22 ip4:199.168.64.0/22 ip4:210.129.217.47/32 include:mailgun.org include:_spf.anpdm.com include:de._netblocks.mimecast.com ~all",
+      "spf": "v=spf1 include:spf.mandrillapp.com ip4:74.116.124.0/22 ip4:199.168.64.0/22 ip4:210.129.217.47/32 include:mailgun.org include:_spf.anpdm.com include:de._netblocks.mimecast.com include:spf-00320c03.pphosted.com include:spf-00320c04.pphosted.com ~all",
       "mx_countries": [
         "DE"
       ],
@@ -317,8 +317,8 @@
       "tenant": null,
       "provider": "independent",
       "reason": "MX (mx01.handelsbanken.se, mx02.handelsbanken.se) is self-hosted",
-      "smtp_banner": "554 mx01.handelsbanken.se",
-      "smtp_software": "554 mx01.handelsbanken.se"
+      "smtp_banner": "220 mx01.handelsbanken.se ESMTP",
+      "smtp_software": "mx01.handelsbanken.se ESMTP"
     },
     {
       "ticker": "HM-B",
