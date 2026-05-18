@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-11T05:41:33.409735+00:00",
+  "generated": "2026-05-18T05:43:16.929806+00:00",
   "companies": [
     {
       "ticker": "NOKIA",
@@ -283,7 +283,7 @@
       "mx": [
         "metso-com.mail.protection.outlook.com"
       ],
-      "spf": "v=spf1 include:spf.protection.outlook.com include:et._spf.pardot.com exists:%{ir}-spf.metso.com include:amazonses.com include:_spf.qemailserver.com include:spf.mailjet.com include:successfactors.eu include:_spf.salesforce.com ip4:208.185.229.0/24 ip4:208.185.235.0/24 ip4:148.59.108.0/23 ip4:148.59.106.0/23 ip4:192.194.58.235 ip4:148.139.1.2 ip4:148.139.0.2 ip4:92.51.191.52 -all",
+      "spf": "v=spf1 include:spf.protection.outlook.com include:et._spf.pardot.com exists:%{ir}-spf.metso.com include:amazonses.com include:_spf.qemailserver.com include:spf.mailjet.com include:successfactors.eu include:_spf.salesforce.com ip4:208.185.229.0/24 ip4:208.185.235.0/24 ip4:148.59.108.0/23 ip4:148.59.106.0/23 ip4:192.194.58.235 ip4:148.139.1.2 ip4:148.139.0.2 ip4:92.51.191.52 ip4:149.72.159.176 -all",
       "mx_countries": [
         "US"
       ],
@@ -432,7 +432,7 @@
       "mx": [
         "valmet-com.mail.protection.outlook.com"
       ],
-      "spf": "v=spf1 include:spf.mailjet.com include:spf.protection.outlook.com include:_spf.questback.net include:_spf.salesforce.com include:spf.a.valmet.com include:amazonses.com include:et._spf.pardot.com include:spf.lianamailer.com include:_spf.tivian.com ip4:16.16.164.185 ip4:51.21.35.155 -all",
+      "spf": "",
       "mx_countries": [
         "US"
       ],

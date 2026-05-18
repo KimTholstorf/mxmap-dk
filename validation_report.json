@@ -7562,12 +7562,14 @@
       "name": "Jevnaker",
       "provider": "microsoft",
       "domain": "jevnaker.kommune.no",
-      "confidence": 85,
+      "confidence": 80,
       "flags": [
+        "multiple_mx",
         "spf_strict",
-        "mx_spf_match",
+        "independent_mx_with_cloud_spf",
         "multi_provider_spf:aws+microsoft",
         "provider_classified",
+        "provider_via_gateway_spf",
         "autodiscover_confirms"
       ]
     },
@@ -12356,11 +12358,11 @@
       "name": "Töreboda",
       "provider": "microsoft",
       "domain": "toreboda.se",
-      "confidence": 95,
+      "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "mx_spf_match",
+        "independent_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf"
       ]
@@ -12515,11 +12517,11 @@
       "name": "Mariestad",
       "provider": "microsoft",
       "domain": "mariestad.se",
-      "confidence": 95,
+      "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "mx_spf_match",
+        "independent_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf"
       ]
@@ -13067,7 +13069,7 @@
         "multiple_mx",
         "spf_strict",
         "independent_mx_with_cloud_spf",
-        "multi_provider_spf:google+microsoft",
+        "multi_provider_spf:google+mailjet+microsoft",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
