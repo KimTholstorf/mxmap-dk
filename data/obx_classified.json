@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-18T05:39:50.442322+00:00",
+  "generated": "2026-05-25T05:52:37.123604+00:00",
   "companies": [
     {
       "ticker": "DNB",
@@ -560,8 +560,8 @@
       "tenant": null,
       "provider": "independent",
       "reason": "MX (mx.netidentity.com.cust.hostedemail.com, mx.netidentity.com.cust.hostedemail.com) is self-hosted",
-      "smtp_banner": "220 smtp.hostedemail.com ESMTP",
-      "smtp_software": "smtp.hostedemail.com ESMTP"
+      "smtp_banner": "220 mx.hostedemail.com ESMTP",
+      "smtp_software": "mx.hostedemail.com ESMTP"
     },
     {
       "ticker": "BAKKA",

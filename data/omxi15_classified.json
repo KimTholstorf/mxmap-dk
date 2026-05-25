@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-18T05:44:59.677687+00:00",
+  "generated": "2026-05-25T05:57:35.227169+00:00",
   "companies": [
     {
       "ticker": "ARION",
@@ -301,7 +301,7 @@
       "mx": [
         "n1-is.mail.protection.outlook.com"
       ],
-      "spf": "v=spf1 include:_spf.n1.is include:%{l}._spf.%{o} -all",
+      "spf": "v=spf1 include:_spf.n1.is include:mailgun.org  include:%{l}._spf.%{o} -all",
       "mx_countries": [
         "US"
       ],

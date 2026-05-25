@@ -1,7 +1,7 @@
 {
   "total": 1149,
   "average_score": 90.2,
-  "high_confidence_pct": 90.3,
+  "high_confidence_pct": 90.2,
   "quality_passed": true,
   "entries": {
     "DK-101": {
@@ -9096,12 +9096,11 @@
       "name": "Eidfjord",
       "provider": "microsoft",
       "domain": "eidfjord.kommune.no",
-      "confidence": 95,
+      "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "autodiscover_confirms"
+        "provider_classified"
       ]
     },
     "NO-4620": {
@@ -10192,7 +10191,7 @@
     },
     "NO-5601": {
       "name": "Alta",
-      "provider": "local-isp",
+      "provider": "independent",
       "domain": "alta.kommune.no",
       "confidence": 80,
       "flags": [
@@ -11692,9 +11691,8 @@
       "name": "Höör",
       "provider": "microsoft",
       "domain": "hoor.se",
-      "confidence": 80,
+      "confidence": 75,
       "flags": [
-        "spf_strict",
         "independent_mx_with_cloud_spf",
         "provider_classified"
       ]
@@ -11713,9 +11711,8 @@
       "name": "Bromölla",
       "provider": "microsoft",
       "domain": "bromolla.se",
-      "confidence": 80,
+      "confidence": 75,
       "flags": [
-        "spf_strict",
         "independent_mx_with_cloud_spf",
         "provider_classified"
       ]
@@ -12223,11 +12220,11 @@
       "name": "Gullspång",
       "provider": "microsoft",
       "domain": "gullspang.se",
-      "confidence": 95,
+      "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "mx_spf_match",
+        "independent_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf"
       ]
@@ -13568,12 +13565,13 @@
       "name": "Vindeln",
       "provider": "microsoft",
       "domain": "vindeln.se",
-      "confidence": 70,
+      "confidence": 75,
       "flags": [
         "spf_strict",
         "independent_mx_with_cloud_spf",
         "multi_provider_spf:google+microsoft",
-        "provider_classified"
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "SE-2409": {
