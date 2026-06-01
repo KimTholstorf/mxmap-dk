@@ -1964,14 +1964,15 @@
     },
     "FI-181": {
       "name": "Jämijärvi",
-      "provider": "local-isp",
+      "provider": "microsoft",
       "domain": "jamijarvi.fi",
-      "confidence": 85,
+      "confidence": 90,
       "flags": [
         "multiple_mx",
         "spf_strict",
         "independent_mx_with_cloud_spf",
-        "provider_classified"
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "FI-182": {
@@ -10191,7 +10192,7 @@
     },
     "NO-5601": {
       "name": "Alta",
-      "provider": "independent",
+      "provider": "local-isp",
       "domain": "alta.kommune.no",
       "confidence": 80,
       "flags": [
@@ -12047,13 +12048,12 @@
       "name": "Tjörn",
       "provider": "microsoft",
       "domain": "tjorn.se",
-      "confidence": 85,
+      "confidence": 95,
       "flags": [
-        "multiple_mx",
         "spf_strict",
-        "independent_mx_with_cloud_spf",
+        "mx_spf_match",
         "provider_classified",
-        "provider_via_gateway_spf"
+        "autodiscover_confirms"
       ]
     },
     "SE-1421": {
