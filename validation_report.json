@@ -11597,9 +11597,9 @@
       "name": "Örkelljunga",
       "provider": "microsoft",
       "domain": "orkelljunga.se",
-      "confidence": 93,
+      "confidence": 95,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified",
         "autodiscover_confirms"
@@ -11746,9 +11746,9 @@
       "name": "Klippan",
       "provider": "microsoft",
       "domain": "klippan.se",
-      "confidence": 93,
+      "confidence": 95,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified",
         "autodiscover_confirms"

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-01T05:59:06.754663+00:00",
+  "generated": "2026-06-08T05:50:29.997805+00:00",
   "companies": [
     {
       "ticker": "NOKIA",
@@ -235,7 +235,7 @@
       "mx": [
         "fortum-com.mail.protection.outlook.com"
       ],
-      "spf": "v=spf1 include:%{i}._ip.%{h}._ehlo.%{d}._spf.vali.email include:spf.protection.outlook.com include:spf.mailjet.com -all",
+      "spf": "v=spf1 include:%{i}._ip.%{h}._ehlo.%{d}._spf.vali.email include:spf.protection.outlook.com include:spf.mailjet.com include:9033695.spf03.hubspotemail.net -all",
       "mx_countries": [
         "US"
       ],
@@ -432,7 +432,7 @@
       "mx": [
         "valmet-com.mail.protection.outlook.com"
       ],
-      "spf": "",
+      "spf": "v=spf1 include:spf.mailjet.com include:spf.protection.outlook.com include:_spf.questback.net include:_spf.salesforce.com include:spf.a.valmet.com include:amazonses.com include:et._spf.pardot.com include:spf.lianamailer.com include:_spf.tivian.com ip4:16.16.164.185 ip4:51.21.35.155 -all",
       "mx_countries": [
         "US"
       ],
