@@ -1,7 +1,7 @@
 {
   "total": 1149,
-  "average_score": 90.2,
-  "high_confidence_pct": 90.2,
+  "average_score": 90.3,
+  "high_confidence_pct": 90.4,
   "quality_passed": true,
   "entries": {
     "DK-101": {
@@ -1124,10 +1124,12 @@
       "name": "Læsø",
       "provider": "microsoft",
       "domain": "laesoe.dk",
-      "confidence": 70,
+      "confidence": 95,
       "flags": [
         "spf_strict",
-        "provider_classified"
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "DK-840": {
@@ -2339,10 +2341,10 @@
       "name": "Kittilä",
       "provider": "microsoft",
       "domain": "kittila.fi",
-      "confidence": 80,
+      "confidence": 90,
       "flags": [
         "spf_strict",
-        "independent_mx_with_cloud_spf",
+        "mx_spf_match",
         "provider_classified",
         "provider_via_gateway_spf"
       ]
@@ -3868,12 +3870,12 @@
     },
     "FI-689": {
       "name": "Rautjärvi",
-      "provider": "local-isp",
+      "provider": "microsoft",
       "domain": "rautjarvi.fi",
-      "confidence": 78,
+      "confidence": 88,
       "flags": [
         "spf_softfail",
-        "independent_mx_with_cloud_spf",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -5984,9 +5986,8 @@
       "name": "Vesturbyggð",
       "provider": "microsoft",
       "domain": "vesturbyggd.is",
-      "confidence": 95,
+      "confidence": 90,
       "flags": [
-        "spf_strict",
         "mx_spf_match",
         "provider_classified",
         "autodiscover_confirms"
@@ -9074,9 +9075,10 @@
       "name": "Kvinnherad",
       "provider": "microsoft",
       "domain": "kvinnherad.kommune.no",
-      "confidence": 55,
+      "confidence": 83,
       "flags": [
-        "no_spf",
+        "spf_softfail",
+        "independent_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -9593,9 +9595,9 @@
       "name": "Midtre Gauldal",
       "provider": "microsoft",
       "domain": "mgk.no",
-      "confidence": 93,
+      "confidence": 95,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified",
         "provider_via_gateway_spf",
@@ -10590,14 +10592,16 @@
     },
     "SE-0163": {
       "name": "Sollentuna",
-      "provider": "local-isp",
+      "provider": "microsoft",
       "domain": "sollentuna.se",
-      "confidence": 70,
+      "confidence": 75,
       "flags": [
+        "multiple_mx",
         "spf_strict",
         "independent_mx_with_cloud_spf",
         "multi_provider_spf:google+microsoft",
-        "provider_classified"
+        "provider_classified",
+        "provider_via_gateway_spf"
       ]
     },
     "SE-0180": {
@@ -11218,11 +11222,12 @@
       "name": "Tranå",
       "provider": "microsoft",
       "domain": "tranas.se",
-      "confidence": 90,
+      "confidence": 95,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "SE-0760": {
@@ -11734,9 +11739,9 @@
       "name": "Perstorp",
       "provider": "microsoft",
       "domain": "perstorp.se",
-      "confidence": 93,
+      "confidence": 95,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified",
         "autodiscover_confirms"
@@ -12629,11 +12634,12 @@
       "name": "Torsby",
       "provider": "microsoft",
       "domain": "torsby.se",
-      "confidence": 100,
+      "confidence": 80,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "mx_spf_match",
+        "independent_mx_with_cloud_spf",
+        "multi_provider_spf:microsoft+telia",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"

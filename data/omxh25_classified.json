@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-08T05:50:29.997805+00:00",
+  "generated": "2026-06-15T06:09:57.322837+00:00",
   "companies": [
     {
       "ticker": "NOKIA",
@@ -208,17 +208,16 @@
       "hq_lng": 24.9384,
       "verified": true,
       "mx": [
-        "mx1.elisa.fi",
-        "mx2.elisa.fi"
+        "elisa-fi.mail.protection.outlook.com"
       ],
       "spf": "v=spf1 redirect=_spf1.elisa.fi",
       "mx_countries": [
-        "FI"
+        "US"
       ],
       "gateway": null,
       "tenant": null,
       "provider": "microsoft",
-      "reason": "MX (mx1.elisa.fi, mx2.elisa.fi) is local gateway; DKIM reveals microsoft backend",
+      "reason": "MX record (elisa-fi.mail.protection.outlook.com) matches Microsoft",
       "smtp_banner": "",
       "smtp_software": ""
     },
