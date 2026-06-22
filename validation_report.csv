@@ -129,7 +129,6 @@ SE-0330,Knivsta,microsoft,knivsta.se,80,spf_strict; independent_mx_with_cloud_sp
 FI-416,Lemi,local-isp,lemi.fi,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
 NO-3312,Lier,microsoft,lier.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 NO-5042,Lierne,microsoft,lierne.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
-FI-444,Lohja,microsoft,lohja.fi,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
 FI-441,Luumäki,local-isp,luumaki.fi,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
 FI-499,Mustasaari,microsoft,mustasaari.fi,80,spf_strict; mx_spf_match; multi_provider_spf:google+mailgun+microsoft; provider_classified
 NO-5044,Namsskogan,microsoft,namsskogan.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
@@ -361,6 +360,7 @@ SE-1860,Laxå,microsoft,laxa.se,90,spf_strict; mx_spf_match; provider_classified
 SE-1814,Lekeberg,microsoft,lekeberg.se,90,spf_strict; mx_spf_match; provider_classified
 SE-2029,Leksand,microsoft,leksand.se,90,spf_strict; mx_spf_match; provider_classified
 NO-3405,Lillehammer,microsoft,lillehammer.kommune.no,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+FI-444,Lohja,microsoft,lohja.fi,90,spf_strict; mx_spf_match; provider_classified
 NO-5614,Loppa,microsoft,loppa.kommune.no,90,mx_spf_match; provider_classified; autodiscover_confirms
 SE-2085,Ludvika,microsoft,ludvika.se,90,spf_strict; mx_spf_match; provider_classified
 NO-1834,Lurøy,microsoft,luroy.kommune.no,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms

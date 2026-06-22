@@ -3005,10 +3005,10 @@
       "name": "Lohja",
       "provider": "microsoft",
       "domain": "lohja.fi",
-      "confidence": 80,
+      "confidence": 90,
       "flags": [
         "spf_strict",
-        "independent_mx_with_cloud_spf",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
