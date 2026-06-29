@@ -1,7 +1,7 @@
 {
   "total": 1149,
-  "average_score": 90.3,
-  "high_confidence_pct": 90.4,
+  "average_score": 90.2,
+  "high_confidence_pct": 90.3,
   "quality_passed": true,
   "entries": {
     "DK-101": {
@@ -10353,10 +10353,9 @@
       "name": "Deatnu - Tana",
       "provider": "microsoft",
       "domain": "tana.kommune.no",
-      "confidence": 95,
+      "confidence": 75,
       "flags": [
         "spf_strict",
-        "mx_spf_match",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -10377,10 +10376,9 @@
       "name": "Båtsfjord",
       "provider": "microsoft",
       "domain": "batsfjord.kommune.no",
-      "confidence": 95,
+      "confidence": 73,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
+        "spf_softfail",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -10401,10 +10399,9 @@
       "name": "Unjárga - Nesseby",
       "provider": "microsoft",
       "domain": "nesseby.kommune.no",
-      "confidence": 95,
+      "confidence": 75,
       "flags": [
         "spf_strict",
-        "mx_spf_match",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -10680,10 +10677,10 @@
       "name": "Vaxholm",
       "provider": "microsoft",
       "domain": "vaxholm.se",
-      "confidence": 78,
+      "confidence": 88,
       "flags": [
         "spf_softfail",
-        "independent_mx_with_cloud_spf",
+        "mx_spf_match",
         "provider_classified"
       ]
     },

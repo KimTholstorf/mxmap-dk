@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-22T06:07:42.552391+00:00",
+  "generated": "2026-06-29T05:52:00.512234+00:00",
   "companies": [
     {
       "ticker": "DNB",
@@ -17,7 +17,8 @@
       ],
       "spf": "v=spf1 include:%{ir}.%{v}.%{d}.spf.has.pphosted.com ~all",
       "mx_countries": [
-        "GB"
+        "GB",
+        "US"
       ],
       "gateway": "proofpoint",
       "tenant": "Managed",
@@ -560,8 +561,8 @@
       "tenant": null,
       "provider": "independent",
       "reason": "MX (mx.netidentity.com.cust.hostedemail.com, mx.netidentity.com.cust.hostedemail.com) is self-hosted",
-      "smtp_banner": "220 mx.hostedemail.com ESMTP",
-      "smtp_software": "mx.hostedemail.com ESMTP"
+      "smtp_banner": "220 mx.hostedemail.com ESMTP he-tls-proxy",
+      "smtp_software": "mx.hostedemail.com ESMTP he-tls-proxy"
     },
     {
       "ticker": "BAKKA",

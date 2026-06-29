@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-22T06:10:27.364252+00:00",
+  "generated": "2026-06-29T05:54:13.251550+00:00",
   "companies": [
     {
       "ticker": "NOKIA",
@@ -414,7 +414,7 @@
       "gateway": "barracuda",
       "tenant": "Federated",
       "provider": "microsoft",
-      "reason": "MX is barracuda gateway; SPF+autodiscover confirm microsoft",
+      "reason": "MX is barracuda gateway; SPF+DKIM confirm microsoft",
       "smtp_banner": "",
       "smtp_software": ""
     },
