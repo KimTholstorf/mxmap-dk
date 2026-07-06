@@ -127,6 +127,7 @@ SE-2184,Hudiksvall,local-isp,hudiksvall.se,80,spf_strict; independent_mx_with_cl
 SE-1266,Hörby,microsoft,horby.se,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
 NO-5046,Høylandet,microsoft,hoylandet.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 NO-3236,Jevnaker,microsoft,jevnaker.kommune.no,80,multiple_mx; spf_strict; independent_mx_with_cloud_spf; multi_provider_spf:aws+microsoft; provider_classified; provider_via_gateway_spf; autodiscover_confirms
+FI-261,Kittilä,microsoft,kittila.fi,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 SE-0330,Knivsta,microsoft,knivsta.se,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
 FI-416,Lemi,local-isp,lemi.fi,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
 NO-3312,Lier,microsoft,lier.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
@@ -352,7 +353,6 @@ FI-181,Jämijärvi,microsoft,jamijarvi.fi,90,multiple_mx; spf_strict; independen
 FI-182,Jämsä,microsoft,jamsa.fi,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
 DK-440,Kerteminde,microsoft,kerteminde.dk,90,spf_strict; mx_spf_match; provider_classified
 SE-2584,Kiruna,microsoft,kiruna.se,90,spf_strict; mx_spf_match; provider_classified
-FI-261,Kittilä,microsoft,kittila.fi,90,spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
 FO-10,Klaksvíkar kommuna,microsoft,klaksvik.fo,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
 SE-1290,Kristianstad,microsoft,kristianstad.se,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
 NO-4028,Kviteseid,microsoft,kviteseid.kommune.no,90,spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf

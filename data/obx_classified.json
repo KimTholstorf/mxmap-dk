@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-29T05:52:00.512234+00:00",
+  "generated": "2026-07-06T05:41:07.090833+00:00",
   "companies": [
     {
       "ticker": "DNB",
@@ -17,7 +17,6 @@
       ],
       "spf": "v=spf1 include:%{ir}.%{v}.%{d}.spf.has.pphosted.com ~all",
       "mx_countries": [
-        "GB",
         "US"
       ],
       "gateway": "proofpoint",

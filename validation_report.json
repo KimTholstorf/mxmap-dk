@@ -2341,10 +2341,10 @@
       "name": "Kittilä",
       "provider": "microsoft",
       "domain": "kittila.fi",
-      "confidence": 90,
+      "confidence": 80,
       "flags": [
         "spf_strict",
-        "mx_spf_match",
+        "independent_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf"
       ]
