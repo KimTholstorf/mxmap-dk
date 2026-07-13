@@ -3434,12 +3434,12 @@
     },
     "FI-580": {
       "name": "Parikkala",
-      "provider": "local-isp",
+      "provider": "microsoft",
       "domain": "parikkala.fi",
-      "confidence": 80,
+      "confidence": 90,
       "flags": [
         "spf_strict",
-        "independent_mx_with_cloud_spf",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -10025,10 +10025,11 @@
       "name": "Bardu",
       "provider": "microsoft",
       "domain": "bardu.kommune.no",
-      "confidence": 95,
+      "confidence": 83,
       "flags": [
-        "spf_strict",
+        "spf_softfail",
         "mx_spf_match",
+        "multi_provider_spf:aws+mailjet+microsoft+sendgrid",
         "provider_classified",
         "autodiscover_confirms"
       ]

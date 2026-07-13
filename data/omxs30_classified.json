@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-06T05:38:39.285750+00:00",
+  "generated": "2026-07-13T05:20:56.830245+00:00",
   "companies": [
     {
       "ticker": "ABB",
@@ -109,17 +109,17 @@
       "hq_lng": 17.6253,
       "verified": true,
       "mx": [
-        "de-smtp-inbound-1.mimecast.com",
-        "de-smtp-inbound-2.mimecast.com"
+        "mxa-00320c03.gslb.pphosted.com",
+        "mxb-00320c03.gslb.pphosted.com"
       ],
       "spf": "v=spf1 include:spf.mandrillapp.com ip4:74.116.124.0/22 ip4:199.168.64.0/22 ip4:210.129.217.47/32 include:mailgun.org include:_spf.anpdm.com include:de._netblocks.mimecast.com include:spf-00320c03.pphosted.com include:spf-00320c04.pphosted.com ~all",
       "mx_countries": [
-        "DE"
+        "US"
       ],
-      "gateway": "mimecast",
+      "gateway": "proofpoint",
       "tenant": "Managed",
       "provider": "microsoft",
-      "reason": "MX is mimecast gateway; DKIM signs via microsoft",
+      "reason": "MX is proofpoint gateway; DKIM signs via microsoft",
       "smtp_banner": "",
       "smtp_software": ""
     },
