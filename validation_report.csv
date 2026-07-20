@@ -116,7 +116,6 @@ SE-2506,Arjeplog,local-isp,arjeplog.se,80,spf_strict; independent_mx_with_cloud_
 NO-3420,Elverum,microsoft,elverum.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
 DK-561,Esbjerg,microsoft,esbjerg.dk,80,multiple_mx; spf_strict; provider_classified; autodiscover_confirms
 NO-1578,Fjord,microsoft,fjord.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
-NO-5626,Gamvik,microsoft,gamvik.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 NO-1532,Giske,microsoft,giske.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 NO-5045,Grong,microsoft,grong.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 NO-1580,Haram,microsoft,haram.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
@@ -195,6 +194,7 @@ SE-1382,Falkenberg,microsoft,falkenberg.se,85,spf_strict; independent_mx_with_cl
 NO-1859,Flakstad,microsoft,flakstad.kommune.no,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 DK-813,Frederikshavn,microsoft,frederikshavn.dk,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 DK-250,Frederikssund,microsoft,frederikssund.dk,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
+NO-5626,Gamvik,microsoft,gamvik.kommune.no,85,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
 FI-065,Geta,microsoft,geta.ax,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 SE-0980,Gotland,local-isp,gotland.se,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified
 SE-1447,Gullspång,microsoft,gullspang.se,85,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf

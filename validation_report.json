@@ -10342,12 +10342,13 @@
       "name": "Gamvik",
       "provider": "microsoft",
       "domain": "gamvik.kommune.no",
-      "confidence": 80,
+      "confidence": 85,
       "flags": [
         "spf_strict",
         "independent_mx_with_cloud_spf",
         "provider_classified",
-        "provider_via_gateway_spf"
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
       ]
     },
     "NO-5628": {

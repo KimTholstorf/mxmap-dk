@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-13T05:23:52.529411+00:00",
+  "generated": "2026-07-20T05:30:36.515023+00:00",
   "companies": [
     {
       "ticker": "DNB",
@@ -17,7 +17,6 @@
       ],
       "spf": "v=spf1 include:%{ir}.%{v}.%{d}.spf.has.pphosted.com ~all",
       "mx_countries": [
-        "GB",
         "US"
       ],
       "gateway": "proofpoint",
@@ -40,7 +39,7 @@
       "mx": [
         "equinor-com.mail.protection.outlook.com"
       ],
-      "spf": "v=spf1 mx a:pc-mail.peopleclick.eu.com include:spf.protection.outlook.com include:msg-out._spf.f24cim.com -all",
+      "spf": "v=spf1 mx include:spf.protection.outlook.com include:msg-out._spf.f24cim.com -all",
       "mx_countries": [
         "US"
       ],
