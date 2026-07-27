@@ -131,7 +131,6 @@ SE-0330,Knivsta,microsoft,knivsta.se,80,spf_strict; independent_mx_with_cloud_sp
 FI-416,Lemi,local-isp,lemi.fi,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
 NO-3312,Lier,microsoft,lier.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 NO-5042,Lierne,microsoft,lierne.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
-FI-441,Luumäki,local-isp,luumaki.fi,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
 FI-499,Mustasaari,microsoft,mustasaari.fi,80,spf_strict; mx_spf_match; multi_provider_spf:google+mailgun+microsoft; provider_classified
 NO-5044,Namsskogan,microsoft,namsskogan.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 SE-2132,Nordanstig,local-isp,nordanstig.se,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
@@ -140,7 +139,6 @@ GL-003,Qeqertalik,microsoft,qeqertalik.gl,80,spf_strict; independent_mx_with_clo
 NO-5043,Raarvihke - Røyrvik,microsoft,royrvik.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
 DK-329,Ringsted,independent,ringsted.dk,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
 SE-1081,Ronneby,local-isp,ronneby.se,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
-FI-700,Ruokolahti,local-isp,ruokolahti.fi,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
 FI-739,Savitaipale,local-isp,savitaipale.fi,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
 SE-1265,Sjöbo,microsoft,sjobo.se,80,spf_strict; independent_mx_with_cloud_spf; provider_classified
 NO-1531,Sula,microsoft,sula.kommune.no,80,spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf
@@ -814,6 +812,7 @@ NO-1112,Lund,microsoft,lund.kommune.no,95,spf_strict; mx_spf_match; provider_cla
 SE-1281,Lund,microsoft,lund.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 NO-3234,Lunner,microsoft,lunner.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 FI-440,Luoto,microsoft,larsmo.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
+FI-441,Luumäki,microsoft,luumaki.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 SE-2481,Lycksele,microsoft,lycksele.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 DK-173,Lyngby-Taarbæk,microsoft,ltk.dk,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 SE-1484,Lysekil,microsoft,lysekil.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
@@ -930,6 +929,7 @@ SE-2409,Robertsfor,microsoft,robertsfors.se,95,spf_strict; mx_spf_match; provide
 NO-3336,Rollag,microsoft,rollag.kommune.no,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 DK-265,Roskilde,local-isp,roskilde.dk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified
 DK-230,Rudersdal,microsoft,rudersdal.dk,95,multiple_mx; spf_strict; mx_spf_match; provider_classified; provider_via_gateway_spf
+FI-700,Ruokolahti,microsoft,ruokolahti.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 FI-702,Ruovesi,microsoft,ruovesi.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 SE-2031,Rättvik,microsoft,rattvik.se,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
 FI-707,Rääkkylä,microsoft,raakkyla.fi,95,spf_strict; mx_spf_match; provider_classified; autodiscover_confirms
