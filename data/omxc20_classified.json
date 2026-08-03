@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-27T05:39:56.984137+00:00",
+  "generated": "2026-08-03T05:31:11.450395+00:00",
   "companies": [
     {
       "ticker": "NOVO B",
@@ -388,7 +388,7 @@
       "mx": [
         "topdanmark-dk.mail.protection.outlook.com"
       ],
-      "spf": "v=spf1 ip4:195.189.232.23 ip4:77.66.23.122 ip4:35.242.247.107 ip4:34.107.8.58 ip4:94.237.95.0  ip4:51.105.188.144 ip4:51.105.186.105 include:spf.protection.outlook.com include:amazonses.com include:sendgrid.net include:sas.mail.e.sparkpost.com include:_spf.salesforce.com include:spf.eu.odmad.quest-on-demand.com -all",
+      "spf": "v=spf1 ip4:193.34.40.42/32 ip4:195.189.232.23 ip4:77.66.23.122 ip4:35.242.247.107 ip4:34.107.8.58 ip4:94.237.95.0  ip4:51.105.188.144 ip4:51.105.186.105 include:spf.protection.outlook.com include:amazonses.com include:sendgrid.net include:sas.mail.e.sparkpost.com include:_spf.salesforce.com include:spf.eu.odmad.quest-on-demand.com -all",
       "mx_countries": [
         "US"
       ],

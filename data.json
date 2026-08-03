@@ -1,5 +1,5 @@
 {
-  "generated":"2026-07-27T05:27:25Z",
+  "generated":"2026-08-03T05:18:12Z",
   "total":1149,
   "counts":{
     "google":20,
@@ -106,7 +106,7 @@
       "txt_verifications":{
         "apple":"vOTD3mWuYJy3kyil",
         "atlassian":"YuqJCIC6ZfOUNsyev1yIYRpVyuYls6F8A7/8JLQtgR0JeaS/npQdORnRDVQZQBdQ",
-        "microsoft":"ms58624801"
+        "microsoft":"7A9E0574FCA0E42B433BCCB9BF5975C3D8DD14FF"
       },
       "tenant":"Federated"
     },
@@ -169,7 +169,7 @@
         3292,
         3308
       ],
-      "isp_name":"TDC/Nuuday (DK)",
+      "isp_name":"TDC NET (DK)",
       "mx_countries":[
         "DK"
       ],
@@ -510,7 +510,7 @@
         3292,
         3308
       ],
-      "isp_name":"TDC/Nuuday (DK)",
+      "isp_name":"TDC NET (DK)",
       "mx_countries":[
         "DK"
       ],
@@ -1013,7 +1013,7 @@
         3292,
         3308
       ],
-      "isp_name":"TDC/Nuuday (DK)",
+      "isp_name":"TDC NET (DK)",
       "mx_countries":[
         "DK"
       ]
@@ -1165,7 +1165,7 @@
         3292,
         3308
       ],
-      "isp_name":"TDC/Nuuday (DK)",
+      "isp_name":"TDC NET (DK)",
       "mx_countries":[
         "DK"
       ],
@@ -1238,7 +1238,7 @@
         "apple":"IqdVtIWjPJmmL8kA",
         "facebook":"95shhfb9g7tbevhxfefpqht16pbsic"
       },
-      "smtp_banner":"554 Blocked - see https://ipcheck.proofpoint.com/?ip=52.159.247.178"
+      "smtp_banner":"220 mx101.ringsted.dk ESMTP Hello from Ringsted"
     },
     "DK-330":{
       "bfs":"DK-330",
@@ -1262,7 +1262,7 @@
         3292,
         3308
       ],
-      "isp_name":"TDC/Nuuday (DK)",
+      "isp_name":"TDC NET (DK)",
       "mx_countries":[
         "DK"
       ],
@@ -1618,7 +1618,7 @@
         3292,
         3308
       ],
-      "isp_name":"TDC/Nuuday (DK)",
+      "isp_name":"TDC NET (DK)",
       "mx_countries":[
         "DK"
       ],
@@ -1819,7 +1819,7 @@
         3292,
         3308
       ],
-      "isp_name":"TDC/Nuuday (DK)",
+      "isp_name":"TDC NET (DK)",
       "mx_countries":[
         "DK"
       ],
@@ -2018,7 +2018,7 @@
         3292,
         3308
       ],
-      "isp_name":"TDC/Nuuday (DK)",
+      "isp_name":"TDC NET (DK)",
       "mx_countries":[
         "DK"
       ],
@@ -2412,7 +2412,7 @@
         "microsoft":"ms89615024",
         "apple":"81hvIlXX2kAx4u4U"
       },
-      "smtp_banner":"220 hkmgw1.holstebro.dk ESMTP Smtpd; Mon, 27 Jul 2026 07:27:42 +0200"
+      "smtp_banner":"220 hkmgw1.holstebro.dk ESMTP Smtpd; Mon, 3 Aug 2026 07:18:25 +0200"
     },
     "DK-665":{
       "bfs":"DK-665",
@@ -2436,7 +2436,7 @@
         3292,
         3308
       ],
-      "isp_name":"TDC/Nuuday (DK)",
+      "isp_name":"TDC NET (DK)",
       "mx_countries":[
         "DK"
       ],
@@ -2537,7 +2537,7 @@
         3292,
         3308
       ],
-      "isp_name":"TDC/Nuuday (DK)",
+      "isp_name":"TDC NET (DK)",
       "mx_countries":[
         "DK"
       ],
@@ -2600,7 +2600,7 @@
         3292,
         3308
       ],
-      "isp_name":"TDC/Nuuday (DK)",
+      "isp_name":"TDC NET (DK)",
       "mx_countries":[
         "DK"
       ],
@@ -14033,7 +14033,7 @@
       "txt_verifications":{
         "microsoft":"ms85240966"
       },
-      "smtp_banner":"220 mail.elektron.fo ESMTP Smtpd; Mon, 27 Jul 2026 06:27:38 +0100"
+      "smtp_banner":"220 mail.elektron.fo ESMTP Smtpd; Mon, 3 Aug 2026 06:18:20 +0100"
     },
     "FO-27":{
       "bfs":"FO-27",
@@ -15668,8 +15668,8 @@
         "selector2":"selector2-sudurnesjabaer-is._domainkey.sudurnesjabaer.onmicrosoft.com"
       },
       "txt_verifications":{
-        "apple":"28q1CmOwv2PNZO5r",
-        "microsoft":"ms45064867"
+        "microsoft":"ms45064867",
+        "apple":"28q1CmOwv2PNZO5r"
       }
     },
     "IS-0047":{
@@ -15728,8 +15728,8 @@
         "selector2":"selector2-hornafjordur-is._domainkey.hornafjordur.onmicrosoft.com"
       },
       "txt_verifications":{
-        "microsoft":"ms91558654",
-        "google":"ycl2CgeXDyJVUaNM6DDHosz6TQMafrem6DN_mIb9dSY"
+        "microsoft":"2638B50591C5C21AFA7205BB8783B7BA01AEA8F0",
+        "google":"rXOxyZounnZasA8Z7oaD3c14JdjS9aKSWvsR1EbUSIQ"
       }
     },
     "IS-0049":{
@@ -16126,7 +16126,7 @@
         "selector2":"selector2-isafjordur-is._domainkey.isafjordur.onmicrosoft.com"
       },
       "txt_verifications":{
-        "microsoft":"04C937310B0D05FC67300D6520AC65AD5CA44D15",
+        "microsoft":"ms62977884",
         "apple":"yS7Rlse4BP9yRhad"
       }
     },
@@ -25991,8 +25991,8 @@
         "selector2":"selector2-holtalen-kommune-no._domainkey.roroskommune.onmicrosoft.com"
       },
       "txt_verifications":{
-        "microsoft":"ms42420777",
-        "apple":"6q1TUxSMPp7OFEJ9"
+        "apple":"6q1TUxSMPp7OFEJ9",
+        "microsoft":"ms42420777"
       }
     },
     "NO-5027":{
@@ -26026,8 +26026,8 @@
         "selector2":"selector2-mgk-no._domainkey.itmidt.p-v1.dkim.mail.microsoft"
       },
       "txt_verifications":{
-        "microsoft":"ms11813651",
-        "google":"X21uh3ncn3reOClh1g8lWYsGa-hBDepZ2a_KWWbqElI"
+        "google":"X21uh3ncn3reOClh1g8lWYsGa-hBDepZ2a_KWWbqElI",
+        "microsoft":"ms11813651"
       },
       "tenant":"Managed"
     },
@@ -26046,7 +26046,7 @@
       "reason":"MX is trendmicro gateway; autodiscover points to microsoft",
       "osm_relation_id":406537,
       "population":17828,
-      "spf_resolved":"v=spf1 include:jkp19mcgmg.powerspf.com ip4:149.72.200.207 include:spf.tmes.trendmicro.eu include:sendgrid.net -all v=spf1 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:f000::/52 ip6:2a05:d014:10e:d900::/60 ip6:2600:1f18:42fe:5c00::/60 ip6:2406:da1c:1ef6:1c00::/60 ip6:2406:da18:4ed:be00::/60 ip6:2406:da14:194d:a200::/60 ip4:52.100.0.0/15 ip4:40.92.0.0/15 ip4:52.102.0.0/16 ip4:40.107.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip4:87.253.232.0/21 ip4:45.14.148.0/22 ip4:185.250.236.0/22 include:_s1.jkp19mcgmg.powerspf.com ~all v=spf1 ip4:18.185.115.0/25 ip4:18.185.115.128/26 ip4:34.253.238.128/26 ip4:34.253.238.192/26 ip4:3.72.196.143 ip4:18.156.0.20 ip4:35.156.245.132 ip4:18.208.22.124 ip4:18.208.22.125 ip4:18.96.32.128/27 ip6:2a05:d014:10e:d900::/60 ~all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:185.211.120.0/22 ip4:185.189.236.0/22 ip4:34.253.238.128/25 ip4:18.208.22.128/25 ip4:18.185.115.0/25 ip4:18.177.156.0/25 ip4:18.176.203.128/25 ip4:15.168.56.0/25 ip4:13.238.202.0/25 ip4:13.213.220.0/25 ip4:13.213.174.128/25 ip4:18.208.22.64/26 ip4:18.188.9.192/26 ip4:18.188.239.128/26 ip4:18.185.115.128/26 ip4:15.168.56.128/26 ip4:15.168.49.64/26 ip4:13.238.202.128/26 ip4:18.97.0.160/27 ip4:18.96.32.128/27 ip6:2a04:6fb0:121::/124 include:_s2.jkp19mcgmg.powerspf.com ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all v=spf1 ip6:2a04:6fb0:121::21/126 ip4:212.247.85.136/30 ip4:185.38.121.20/30 ip4:185.38.121.6/31 ip6:2001:7b8:100:1::68 ip4:54.174.82.86 ip4:54.146.4.63 ip4:52.70.252.86 ip4:52.232.27.151 ip4:52.143.59.192 ip4:52.138.216.130 ip4:40.114.221.220 ip4:40.113.3.253 ip4:37.221.225.39 ip4:35.156.245.132 ip4:3.72.196.143 ip4:23.100.56.64 ip4:212.85.68.72 ip4:194.187.25.111 ip4:185.38.121.8 ip4:185.121.206.13 ip4:185.121.204.223 ip4:185.121.204.164 include:_s3.jkp19mcgmg.powerspf.com ~all v=spf1 ip4:185.121.204.138 ip4:18.156.0.20 ip4:178.21.131.158 ip4:151.252.13.148 ip4:149.72.200.207 ip4:137.116.240.241 ip4:13.82.183.201 ip4:13.74.144.83 ip4:13.74.137.176 ip4:107.22.223.18 ~all",
+      "spf_resolved":"v=spf1 include:jkp19mcgmg.powerspf.com ip4:149.72.200.207 include:spf.tmes.trendmicro.eu include:sendgrid.net -all v=spf1 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:f000::/52 ip6:2a05:d014:10e:d900::/60 ip6:2600:1f18:42fe:5c00::/60 ip6:2406:da1c:1ef6:1c00::/60 ip6:2406:da18:4ed:be00::/60 ip6:2406:da14:194d:a200::/60 ip4:52.100.0.0/15 ip4:40.92.0.0/15 ip4:52.102.0.0/16 ip4:40.107.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip4:87.253.232.0/21 ip4:45.14.148.0/22 ip4:185.250.236.0/22 include:_s1.jkp19mcgmg.powerspf.com ~all v=spf1 ip4:18.185.115.0/25 ip4:18.185.115.128/26 ip4:34.253.238.128/26 ip4:34.253.238.192/26 ip4:3.72.196.143 ip4:18.156.0.20 ip4:35.156.245.132 ip4:18.208.22.124 ip4:18.208.22.125 ip4:18.96.32.128/27 ip6:2a05:d014:10e:d900::/60 ~all v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 include:ab.sendgrid.net ~all v=spf1 ip4:185.211.120.0/22 ip4:185.189.236.0/22 ip4:34.253.238.128/25 ip4:18.208.22.128/25 ip4:18.185.115.0/25 ip4:18.177.156.0/25 ip4:18.176.203.128/25 ip4:15.168.56.0/25 ip4:13.238.202.0/25 ip4:13.213.220.0/25 ip4:13.213.174.128/25 ip4:18.208.22.64/26 ip4:18.188.9.192/26 ip4:18.188.239.128/26 ip4:18.185.115.128/26 ip4:15.168.56.128/26 ip4:15.168.49.64/26 ip4:13.238.202.128/26 ip4:18.97.0.160/27 ip4:18.96.32.128/27 ip6:2a04:6fb0:121::/124 include:_s2.jkp19mcgmg.powerspf.com ~all v=spf1 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ~all v=spf1 ip6:2a04:6fb0:121::20/126 ip4:212.247.85.136/30 ip4:185.38.121.20/30 ip4:185.38.121.6/31 ip6:2001:7b8:100:1::68 ip4:54.174.82.86 ip4:54.146.4.63 ip4:52.70.252.86 ip4:52.232.27.151 ip4:52.143.59.192 ip4:52.138.216.130 ip4:40.114.221.220 ip4:40.113.3.253 ip4:37.221.225.39 ip4:35.156.245.132 ip4:3.72.196.143 ip4:23.100.56.64 ip4:212.85.68.72 ip4:194.187.25.111 ip4:185.38.121.8 ip4:185.121.206.13 ip4:185.121.204.223 ip4:185.121.204.164 include:_s3.jkp19mcgmg.powerspf.com ~all v=spf1 ip4:185.121.204.138 ip4:18.156.0.20 ip4:178.21.131.158 ip4:151.252.13.148 ip4:149.72.200.207 ip4:137.116.240.241 ip4:13.82.183.201 ip4:13.74.144.83 ip4:13.74.137.176 ip4:107.22.223.18 ~all",
       "gateway":"trendmicro",
       "mx_asns":[
         16509
@@ -26442,8 +26442,8 @@
         "US"
       ],
       "txt_verifications":{
-        "apple":"Hb8lSFrNzV1fWeD1",
-        "microsoft":"ms83903856"
+        "microsoft":"ms83903856",
+        "apple":"Hb8lSFrNzV1fWeD1"
       },
       "tenant":"Managed"
     },
@@ -27378,8 +27378,8 @@
         "selector2":"selector2-senja-kommune-no._domainkey.senjakommune.onmicrosoft.com"
       },
       "txt_verifications":{
-        "microsoft":"ms10909826",
-        "apple":"cj4b5TQ2DlntXJ2N"
+        "apple":"cj4b5TQ2DlntXJ2N",
+        "microsoft":"ms10909826"
       }
     },
     "NO-5532":{
@@ -27823,8 +27823,8 @@
         "selector2":"selector2-kautokeino-kommune-no._domainkey.kautokeinokommune.onmicrosoft.com"
       },
       "txt_verifications":{
-        "apple":"NpWFUUFubzwkJKnF",
-        "microsoft":"ms99304626"
+        "microsoft":"ms99304626",
+        "apple":"NpWFUUFubzwkJKnF"
       }
     },
     "NO-5614":{
@@ -28188,10 +28188,10 @@
         "selector2":"selector2-vardo-kommune-no._domainkey.vardo.onmicrosoft.com"
       },
       "txt_verifications":{
+        "apple":"MbB1AbZpRw30LaTX",
         "facebook":"dsnji9zvocc7rl2bb079zqvkvb1lnj",
         "google":"KisXvEWSQ5px7LPCVoaOICYVQL_9GNOyqM6nOI48dyI",
-        "microsoft":"ms15512047",
-        "apple":"MbB1AbZpRw30LaTX"
+        "microsoft":"ms15512047"
       }
     },
     "NO-5636":{
@@ -28685,9 +28685,9 @@
         "selector2":"selector2-taby-se._domainkey.tabykommun.onmicrosoft.com"
       },
       "txt_verifications":{
-        "apple":"q3JHdMHh9vlCF4NY",
+        "google":"bvPl464y9cdgKphiPLA3c7YDSObROhzjm_A4e-BOrPQ",
         "microsoft":"ms46699166",
-        "google":"bvPl464y9cdgKphiPLA3c7YDSObROhzjm_A4e-BOrPQ"
+        "apple":"q3JHdMHh9vlCF4NY"
       }
     },
     "SE-0162":{
@@ -28720,9 +28720,9 @@
         "selector2":"selector2-danderyd-se._domainkey.danderyd365.onmicrosoft.com"
       },
       "txt_verifications":{
-        "apple":"35UskMLrMK30vlH2",
-        "google":"uDm236OwWm98SkVNoUa1R-hMHqKlsrFp48kVr6-MeZ8",
-        "microsoft":"ms12027285"
+        "microsoft":"ms12027285",
+        "apple":"urySBdw1z32E5oSf",
+        "google":"uDm236OwWm98SkVNoUa1R-hMHqKlsrFp48kVr6-MeZ8"
       }
     },
     "SE-0163":{
@@ -29079,8 +29079,8 @@
       },
       "txt_verifications":{
         "google":"oSKi4f8kNvwwE3lDdOSDJuI_0SgeCFA7XxHb3Oj9Rmw",
-        "apple":"VVWuLvvaiknyoWgf",
-        "microsoft":"ms31681300"
+        "microsoft":"ms31681300",
+        "apple":"MJVZSx191KCRsFVf"
       }
     },
     "SE-0305":{
@@ -29536,8 +29536,8 @@
         "selector2":"selector2-katrineholm-se._domainkey.katrineholm.onmicrosoft.com"
       },
       "txt_verifications":{
-        "google":"HqDASxiYR6ew_VReIMR2YVIo_CnR2_-XnLxqCBnUfQk",
-        "apple":"1jA2AL9CLFbyknBX"
+        "apple":"1jA2AL9CLFbyknBX",
+        "google":"9lbXjCVWRD_glRG8o5k5X4CxU7EKzcy_QBxsU6QWciU"
       }
     },
     "SE-0484":{
@@ -29920,8 +29920,8 @@
         "selector2":"selector2-norrkoping-se._domainkey.norrkoping.onmicrosoft.com"
       },
       "txt_verifications":{
-        "google":"f98SDCUpiESasCGWd7JcoaFIZJ3twIMaLvpwRe1Wn3g",
-        "apple":"n91wraWvPsN8lRAE"
+        "apple":"30meozqYsNqDmCzj",
+        "google":"f98SDCUpiESasCGWd7JcoaFIZJ3twIMaLvpwRe1Wn3g"
       }
     },
     "SE-0582":{
@@ -29985,9 +29985,9 @@
         "selector2":"selector2-motala-se._domainkey.motala.onmicrosoft.com"
       },
       "txt_verifications":{
-        "microsoft":"C6CC9A9B94BB923893B5535DFDE498B83C700399",
+        "google":"WaVesr_cWf6zVwVocGVCYZrRFNFQGPCdLDhk_8Ps01M",
         "apple":"4Zn0NvAGmn9qAh9U",
-        "google":"WaVesr_cWf6zVwVocGVCYZrRFNFQGPCdLDhk_8Ps01M"
+        "microsoft":"C6CC9A9B94BB923893B5535DFDE498B83C700399"
       }
     },
     "SE-0584":{
@@ -30084,8 +30084,8 @@
         "selector2":"selector2-aneby-se._domainkey.liveateduhoglandet.onmicrosoft.com"
       },
       "txt_verifications":{
-        "microsoft":"ms68976507",
-        "apple":"exFa93SthP5DjNqI"
+        "apple":"exFa93SthP5DjNqI",
+        "microsoft":"ms68976507"
       }
     },
     "SE-0617":{
@@ -30465,9 +30465,9 @@
         "selector2":"selector2-eksjo-se._domainkey.liveateduhoglandet.onmicrosoft.com"
       },
       "txt_verifications":{
-        "google":"w_6wbO6BwP5Nfjn18KrVzqCFe4bfk44wRZ6Zn_yaa6I",
         "microsoft":"ms27923557",
-        "apple":"BfuY9V0mDS31bSBM"
+        "apple":"BfuY9V0mDS31bSBM",
+        "google":"w_6wbO6BwP5Nfjn18KrVzqCFe4bfk44wRZ6Zn_yaa6I"
       }
     },
     "SE-0687":{
@@ -30485,7 +30485,7 @@
       "reason":"MX record (tranas-se.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":935570,
       "population":18555,
-      "spf_resolved":"v=spf1 include:174jr516qs.powerspf.com include:spf.protection.outlook.com -all v=spf1 ip4:81.91.14.0/25 ip4:213.180.82.128/25 ip4:213.180.66.128/26 ip4:212.247.85.136/30 ip6:2a01:111:f403:ca09::3 ip6:2a01:111:f403:ca04::b ip6:2a01:111:f403:ca04::9 ip6:2a01:111:f403:ca04::8 ip6:2001:7b8:100:1::68 ip4:92.42.75.79 ip4:91.106.193.64 ip4:81.91.10.50 ip4:81.91.10.31 ip4:81.91.1.34 ip4:52.101.68.29 ip4:52.101.68.21 ip4:52.101.68.12 ip4:52.101.68.10 ip4:37.221.225.39 ip4:217.119.175.150 ip4:213.180.78.19 ip4:213.174.93.92 ip4:194.103.192.187 include:_s1.174jr516qs.powerspf.com ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:193.75.92.154 ip4:193.235.87.113 ip4:193.235.87.101 ip4:192.121.235.30 ip4:185.121.206.13 ip4:185.121.204.223 ip4:185.121.204.164 ip4:185.121.204.138 ip4:176.57.88.208 ip4:176.57.88.179 ip4:176.57.88.117 ~all",
+      "spf_resolved":"v=spf1 include:174jr516qs.powerspf.com include:spf.protection.outlook.com -all v=spf1 ip4:81.91.14.0/25 ip4:213.180.82.128/25 ip4:213.180.66.128/26 ip4:212.247.85.136/30 ip6:2a01:111:f403:ca09::c ip6:2a01:111:f403:ca09::2 ip6:2a01:111:f403:ca04::a ip6:2a01:111:f403:ca04:: ip6:2001:7b8:100:1::68 ip4:92.42.75.79 ip4:91.106.193.64 ip4:81.91.10.50 ip4:81.91.10.31 ip4:81.91.1.34 ip4:52.101.73.2 ip4:52.101.68.36 ip4:52.101.68.27 ip4:52.101.68.16 ip4:37.221.225.39 ip4:217.119.175.150 ip4:213.180.78.19 ip4:213.174.93.92 ip4:194.103.192.187 include:_s1.174jr516qs.powerspf.com ~all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:193.75.92.154 ip4:193.235.87.113 ip4:193.235.87.101 ip4:192.121.235.30 ip4:185.121.206.13 ip4:185.121.204.223 ip4:185.121.204.164 ip4:185.121.204.138 ip4:176.57.88.208 ip4:176.57.88.179 ip4:176.57.88.117 ~all",
       "mx_asns":[
         8075
       ],
@@ -30865,8 +30865,8 @@
         "selector2":"selector2-morbylanga-se._domainkey.driftsam.onmicrosoft.com"
       },
       "txt_verifications":{
-        "facebook":"apw9ss76rsd7vyjfykts2oqwlrow41",
-        "apple":"zU2rKlcCIRQML4zR"
+        "apple":"zU2rKlcCIRQML4zR",
+        "facebook":"apw9ss76rsd7vyjfykts2oqwlrow41"
       }
     },
     "SE-0860":{
@@ -30901,8 +30901,8 @@
       },
       "txt_verifications":{
         "google":"-V2_UtF5Fn3jJkqP4I1Cq2zKgmrtrVyTIrQ_4avBhPw",
-        "microsoft":"ms36391789",
-        "apple":"SCzdgQHY7eObuHwX"
+        "apple":"SCzdgQHY7eObuHwX",
+        "microsoft":"ms36391789"
       }
     },
     "SE-0861":{
@@ -32204,9 +32204,9 @@
         "selector2":"selector2-hoganas-se._domainkey.hoganas365.onmicrosoft.com"
       },
       "txt_verifications":{
+        "apple":"jv4aKaN0OM1dTHwe",
         "microsoft":"3DB1AC28D07A2E079920E3DEE732CE891BF73F9B",
-        "google":"ZseRLdD_zXkzeWKj3qe4EyjbFSd2llKVVjV1RfYEMlU",
-        "apple":"jv4aKaN0OM1dTHwe"
+        "google":"KTSE6WLR9ustrOeIJybBkZoam5yNFJHSvvmpstyIDmg"
       }
     },
     "SE-1285":{
@@ -32236,8 +32236,8 @@
         "selector2":"selector2-eslov-se._domainkey.eslov.onmicrosoft.com"
       },
       "txt_verifications":{
-        "apple":"6loOKxJHkIQy3jhh",
-        "microsoft":"ms45592844"
+        "microsoft":"ms45592844",
+        "apple":"6loOKxJHkIQy3jhh"
       }
     },
     "SE-1286":{
@@ -32270,9 +32270,9 @@
         "selector2":"selector2-ystad-se._domainkey.ystad5.onmicrosoft.com"
       },
       "txt_verifications":{
+        "google":"5I-Et72xCOH70fLFZCIYl8CCXyRZiae1nXHwFJS8rKA",
         "apple":"978jclVrKB8zs2Ut",
-        "microsoft":"ms91235215",
-        "google":"5I-Et72xCOH70fLFZCIYl8CCXyRZiae1nXHwFJS8rKA"
+        "microsoft":"ms91235215"
       }
     },
     "SE-1287":{
@@ -33879,8 +33879,8 @@
         "selector2":"selector2-stromstad-se._domainkey.stromstadskommun.onmicrosoft.com"
       },
       "txt_verifications":{
-        "apple":"YqlQpMYuP261xC5j",
-        "microsoft":"ms58365400"
+        "microsoft":"ms58365400",
+        "apple":"mLatRzvaJ34DZ1K3"
       }
     },
     "SE-1487":{
@@ -34110,8 +34110,8 @@
         "autodiscover_srv":"autodiscover.toreboda.se"
       },
       "txt_verifications":{
-        "apple":"GcsBjuSyXd2l5jvH",
-        "microsoft":"ms34254194"
+        "microsoft":"ms13983004",
+        "apple":"GcsBjuSyXd2l5jvH"
       },
       "tenant":"Managed"
     },
@@ -34495,7 +34495,7 @@
       "reason":"MX record (hammaro-se.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":1076755,
       "population":16932,
-      "spf_resolved":"v=spf1 include:_u.hammaro.se._spf.dmarcly.com -all v=spf1 ip4:185.84.52.245 ip4:192.165.245.0/24 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 ip4:13.72.14.112 ip4:23.97.0.167 ip4:51.107.181.126 ip4:51.107.181.69 ip4:51.12.5.148 ip4:51.12.5.88 include:nb0._u.hammaro.se._spf.dmarcly.com -all v=spf1 ip4:52.238.73.234 ip4:104.210.72.65 ip4:104.210.76.66 ip4:40.127.84.30 ip4:40.127.87.233 ip4:191.232.39.149 ip4:104.41.45.30 ip4:52.233.26.202 ip4:52.233.28.167 ip4:52.232.131.201 ip4:52.242.35.18 ip4:104.211.76.245 ip4:104.211.73.29 ip4:40.69.136.121 ip4:52.176.53.79 ip4:40.121.150.95 ip4:40.71.37.33 ip4:40.70.65.224 ip4:40.70.217.223 ip4:52.143.139.64 ip4:52.143.137.234 include:nb1._u.hammaro.se._spf.dmarcly.com -all v=spf1 ip4:52.136.153.118 ip4:52.136.153.156 ip4:52.185.154.48 ip4:13.78.93.31 ip4:52.175.157.246 ip4:52.175.158.143 ip4:52.231.38.7 ip4:52.231.39.244 ip4:52.238.74.183 ip4:52.231.206.229 ip4:52.231.202.124 ip4:157.55.210.193 ip4:65.52.235.159 ip4:157.55.141.197 ip4:65.52.234.215 ip4:52.240.144.116 ip4:52.178.166.22 ip4:52.169.67.105 ip4:102.133.161.59 ip4:102.133.163.113 include:nb2._u.hammaro.se._spf.dmarcly.com -all v=spf1 ip4:102.133.75.216 ip4:102.133.75.177 ip4:13.65.210.221 ip4:13.84.40.64 ip4:104.210.145.26 ip4:13.84.45.239 ip4:13.84.168.104 ip4:13.76.139.48 ip4:52.163.61.106 ip4:13.71.120.233 ip4:13.71.123.17 ip4:20.45.67.210 ip4:20.45.71.220 ip4:40.123.212.44 ip4:40.123.204.47 ip4:51.140.117.180 ip4:51.140.126.121 ip4:51.141.38.99 ip4:51.141.28.200 ip4:52.232.126.143 ip4:52.232.123.80 include:nb3._u.hammaro.se._spf.dmarcly.com -all v=spf1 ip4:104.211.186.227 ip4:104.211.186.224 ip4:23.97.120.184 ip4:23.97.120.217 ip4:51.116.216.41 ip4:51.116.219.197 ip4:51.116.235.158 ip4:51.116.235.177 ip4:51.120.76.171 ip4:51.120.79.45 ip4:51.120.164.34 ip4:51.120.164.65 ip4:51.107.79.214 ip4:51.107.79.228 ip4:51.107.224.82 ip4:51.107.231.204 ip4:81.236.60.128/26 ip4:81.236.60.192/28 ip4:81.227.116.74 ip4:81.227.116.81 include:nb4._u.hammaro.se._spf.dmarcly.com -all v=spf1 ip4:81.236.55.0/24 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4864::/56 ip6:2800:3f0:4864::/56 ip6:2a00:1450:4864::/56 ip6:2c0f:fb50:4864::/56 ip4:194.103.31.151 ip4:81.236.57.189 ip4:81.236.57.190 ip4:81.236.57.193 ip4:81.236.57.205 ip4:81.236.57.206 ip4:195.252.0.52 ip4:217.28.202.8 ip4:217.28.204.8 ip4:217.150.169.247 include:nb5._u.hammaro.se._spf.dmarcly.com -all v=spf1 ip4:85.119.129.36 ip4:212.85.68.72 ip4:84.216.4.90 ip4:217.78.31.250 ip4:192.121.32.231 ip4:192.121.32.232 ip4:81.109.161.67 ip4:45.137.210.135 ip4:45.137.211.170 ip4:195.178.176.106 ip4:91.123.56.128 ip4:193.75.92.154 ip4:46.16.237.0/24 ip6:2a02:28f1:8001::/48 ip4:46.254.8.64/28 ip4:185.121.206.13/32 ip4:212.247.85.136/30 ip4:185.121.204.138/32 ip4:185.121.204.164/32 include:nb6._u.hammaro.se._spf.dmarcly.com -all v=spf1 ip6:2001:7b8:100:1::68 ip4:37.221.225.39/32 ip4:185.121.204.223/32 ip4:193.180.185.32/27 ip4:84.19.149.64/27 ip4:84.19.143.0/27 ip4:194.14.67.124 ip4:194.14.67.125 ip4:192.176.136.195 ip4:192.176.136.197 ip4:192.176.133.70 ip4:192.176.133.71 ip4:85.119.129.0/24 ip6:2a02:c58:4:4::/64 ip4:72.35.23.0/24 ip4:72.35.12.0/24 ip4:192.162.216.0/22 ip4:208.70.128.0/21 include:nb7._u.hammaro.se._spf.dmarcly.com -all v=spf1 ip4:185.38.180.0/22 ip4:89.104.206.0/23 ip6:2a01:77c0:1180::/46 ip6:2a01:77c0:1619::/48 ip6:2a01:77c0:7135::/48 ip6:2a01:77c0:6::/47 ip6:2001:978:2a01:0:6:0:1089:1091/128 ip6:2001:978:2a01:0:6:0:1089:1092/128 ip6:2001:978:2a01::/48 ip4:194.103.128.32 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:31.216.229.115 ip4:31.216.224.123 ip4:185.5.21.50 ip4:185.5.21.100 ip4:85.158.136.0/21 ip4:193.109.254.0/23 ip4:194.106.220.0/23 ip4:195.245.230.0/23 ip4:95.131.104.0/21 ip4:46.226.48.0/21 ip4:216.82.240.0/20 ip4:67.219.240.0/20 ip4:117.120.16.0/21 ip4:103.9.96.0/22 ip4:35.228.216.85 ip4:146.148.116.76 ip4:34.141.160.224 ip4:34.70.158.162 ip4:34.74.74.140 ip4:34.83.159.189 ip4:52.101.73.1 ip4:52.101.73.8 ip4:52.101.68.39 ip4:52.101.68.32 include:nb8._u.hammaro.se._spf.dmarcly.com -all v=spf1 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ip4:141.193.32.0/23 ip4:159.135.140.80/29 ip4:159.135.132.128/25 ip4:161.38.204.0/22 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:143.55.236.0/22 ip4:198.244.60.0/22 ip4:204.220.160.0/21 ip4:213.157.70.72/29 ip4:213.157.70.80/31 ip4:194.71.224.128/25 ip4:178.21.131.158 ip4:13.82.183.201 ip4:52.232.27.151 ip4:52.143.59.192 ip4:92.42.75.63 ip4:195.67.74.184 ip4:80.244.207.179 ip4:80.244.206.142 ip4:80.244.206.92 ip4:79.136.102.64/26 ip4:94.136.64.224/27 ip4:83.140.31.128/26 ip4:213.136.34.128/26 ip4:91.236.209.128/26 ip4:185.37.140.0/26 ip6:2001:16d8:c001:2073::/64 ip6:2001:9b0:1:704::/64 ip6:2001:67c:27e0:2212::/64 ip6:2a04:7180:0:2400::/64 ip4:91.106.198.136 ip4:188.95.226.240 ip4:188.126.67.220 ip4:46.246.39.100 ip4:46.246.109.140 ip4:193.108.5.69 ip4:107.20.91.250 ip4:3.209.231.65 ip4:3.96.249.213 ip4:34.242.156.53 ip4:34.251.63.7 ip4:52.64.32.126 ip4:52.4.156.8 ip4:13.202.86.121 ip4:13.210.149.194 ip4:13.210.30.79 ip4:15.156.36.228 ip4:15.156.98.116 ip4:15.157.101.221 ip4:18.132.189.127 ip4:18.197.43.76 ip4:18.233.38.249 ip4:3.105.157.127 ip4:3.105.27.226 ip4:3.107.216.134 ip4:3.11.129.102 ip4:3.248.148.18 ip4:3.97.84.192 ip4:3.98.111.232 ip4:34.206.143.108 ip4:35.157.192.122 ip4:35.170.85.243 ip4:35.182.113.167 ip4:35.182.126.159 ip4:43.204.59.56 ip4:44.206.39.232 ip4:52.22.249.69 ip4:52.50.129.119 ip4:52.60.52.9 ip4:52.62.46.3 ip4:52.65.131.224 ip4:52.72.46.53 ip4:54.174.209.165 ip4:54.206.147.47 ip4:54.208.140.116 ip4:54.243.86.18 ip4:54.85.129.207 ip4:160.20.96.17 ip4:195.67.74.128/26 -all",
+      "spf_resolved":"v=spf1 include:_u.hammaro.se._spf.dmarcly.com -all v=spf1 ip4:185.84.52.245 ip4:192.165.245.0/24 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 ip4:13.72.14.112 ip4:23.97.0.167 ip4:51.107.181.126 ip4:51.107.181.69 ip4:51.12.5.148 ip4:51.12.5.88 include:nb0._u.hammaro.se._spf.dmarcly.com -all v=spf1 ip4:52.238.73.234 ip4:104.210.72.65 ip4:104.210.76.66 ip4:40.127.84.30 ip4:40.127.87.233 ip4:191.232.39.149 ip4:104.41.45.30 ip4:52.233.26.202 ip4:52.233.28.167 ip4:52.232.131.201 ip4:52.242.35.18 ip4:104.211.76.245 ip4:104.211.73.29 ip4:40.69.136.121 ip4:52.176.53.79 ip4:40.121.150.95 ip4:40.71.37.33 ip4:40.70.65.224 ip4:40.70.217.223 ip4:52.143.139.64 ip4:52.143.137.234 include:nb1._u.hammaro.se._spf.dmarcly.com -all v=spf1 ip4:52.136.153.118 ip4:52.136.153.156 ip4:52.185.154.48 ip4:13.78.93.31 ip4:52.175.157.246 ip4:52.175.158.143 ip4:52.231.38.7 ip4:52.231.39.244 ip4:52.238.74.183 ip4:52.231.206.229 ip4:52.231.202.124 ip4:157.55.210.193 ip4:65.52.235.159 ip4:157.55.141.197 ip4:65.52.234.215 ip4:52.240.144.116 ip4:52.178.166.22 ip4:52.169.67.105 ip4:102.133.161.59 ip4:102.133.163.113 include:nb2._u.hammaro.se._spf.dmarcly.com -all v=spf1 ip4:102.133.75.216 ip4:102.133.75.177 ip4:13.65.210.221 ip4:13.84.40.64 ip4:104.210.145.26 ip4:13.84.45.239 ip4:13.84.168.104 ip4:13.76.139.48 ip4:52.163.61.106 ip4:13.71.120.233 ip4:13.71.123.17 ip4:20.45.67.210 ip4:20.45.71.220 ip4:40.123.212.44 ip4:40.123.204.47 ip4:51.140.117.180 ip4:51.140.126.121 ip4:51.141.38.99 ip4:51.141.28.200 ip4:52.232.126.143 ip4:52.232.123.80 include:nb3._u.hammaro.se._spf.dmarcly.com -all v=spf1 ip4:104.211.186.227 ip4:104.211.186.224 ip4:23.97.120.184 ip4:23.97.120.217 ip4:51.116.216.41 ip4:51.116.219.197 ip4:51.116.235.158 ip4:51.116.235.177 ip4:51.120.76.171 ip4:51.120.79.45 ip4:51.120.164.34 ip4:51.120.164.65 ip4:51.107.79.214 ip4:51.107.79.228 ip4:51.107.224.82 ip4:51.107.231.204 ip4:81.236.60.128/26 ip4:81.236.60.192/28 ip4:81.227.116.74 ip4:81.227.116.81 include:nb4._u.hammaro.se._spf.dmarcly.com -all v=spf1 ip4:81.236.55.0/24 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4864::/56 ip6:2607:f8b0:4864::/56 ip6:2800:3f0:4864::/56 ip6:2a00:1450:4864::/56 ip6:2c0f:fb50:4864::/56 ip4:194.103.31.151 ip4:81.236.57.189 ip4:81.236.57.190 ip4:81.236.57.193 ip4:81.236.57.205 ip4:81.236.57.206 ip4:195.252.0.52 ip4:217.28.202.8 ip4:217.28.204.8 ip4:217.150.169.247 include:nb5._u.hammaro.se._spf.dmarcly.com -all v=spf1 ip4:85.119.129.36 ip4:212.85.68.72 ip4:84.216.4.90 ip4:217.78.31.250 ip4:192.121.32.231 ip4:192.121.32.232 ip4:81.109.161.67 ip4:45.137.210.135 ip4:45.137.211.170 ip4:195.178.176.106 ip4:91.123.56.128 ip4:193.75.92.154 ip4:46.16.237.0/24 ip6:2a02:28f1:8001::/48 ip4:46.254.8.64/28 ip4:185.121.206.13/32 ip4:212.247.85.136/30 ip4:185.121.204.138/32 ip4:185.121.204.164/32 include:nb6._u.hammaro.se._spf.dmarcly.com -all v=spf1 ip6:2001:7b8:100:1::68 ip4:37.221.225.39/32 ip4:185.121.204.223/32 ip4:193.180.185.32/27 ip4:84.19.149.64/27 ip4:84.19.143.0/27 ip4:194.14.67.124 ip4:194.14.67.125 ip4:192.176.136.195 ip4:192.176.136.197 ip4:192.176.133.70 ip4:192.176.133.71 ip4:85.119.129.0/24 ip6:2a02:c58:4:4::/64 ip4:72.35.23.0/24 ip4:72.35.12.0/24 ip4:192.162.216.0/22 ip4:208.70.128.0/21 include:nb7._u.hammaro.se._spf.dmarcly.com -all v=spf1 ip4:185.38.180.0/22 ip4:89.104.206.0/23 ip6:2a01:77c0:1180::/46 ip6:2a01:77c0:1619::/48 ip6:2a01:77c0:7135::/48 ip6:2a01:77c0:6::/47 ip6:2001:978:2a01:0:6:0:1089:1091/128 ip6:2001:978:2a01:0:6:0:1089:1092/128 ip6:2001:978:2a01::/48 ip4:194.103.128.32 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:31.216.229.115 ip4:31.216.224.123 ip4:185.5.21.50 ip4:185.5.21.100 ip4:85.158.136.0/21 ip4:193.109.254.0/23 ip4:194.106.220.0/23 ip4:195.245.230.0/23 ip4:95.131.104.0/21 ip4:46.226.48.0/21 ip4:216.82.240.0/20 ip4:67.219.240.0/20 ip4:117.120.16.0/21 ip4:103.9.96.0/22 ip4:35.228.216.85 ip4:146.148.116.76 ip4:34.141.160.224 ip4:34.70.158.162 ip4:34.74.74.140 ip4:34.83.159.189 ip4:52.101.68.25 ip4:52.101.68.32 ip4:52.101.68.8 ip4:52.101.68.5 include:nb8._u.hammaro.se._spf.dmarcly.com -all v=spf1 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 ip4:134.128.64.0/19 ip4:134.128.96.0/19 ip4:223.165.113.0/24 ip4:223.165.115.0/24 ip4:223.165.118.0/23 ip4:223.165.120.0/23 ip4:141.193.32.0/23 ip4:159.135.140.80/29 ip4:159.135.132.128/25 ip4:161.38.204.0/22 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:143.55.236.0/22 ip4:198.244.60.0/22 ip4:204.220.160.0/21 ip4:213.157.70.72/29 ip4:213.157.70.80/31 ip4:194.71.224.128/25 ip4:178.21.131.158 ip4:13.82.183.201 ip4:52.232.27.151 ip4:52.143.59.192 ip4:92.42.75.63 ip4:195.67.74.184 ip4:80.244.207.179 ip4:80.244.206.142 ip4:80.244.206.92 ip4:79.136.102.64/26 ip4:94.136.64.224/27 ip4:83.140.31.128/26 ip4:213.136.34.128/26 ip4:91.236.209.128/26 ip4:185.37.140.0/26 ip6:2001:16d8:c001:2073::/64 ip6:2001:9b0:1:704::/64 ip6:2001:67c:27e0:2212::/64 ip6:2a04:7180:0:2400::/64 ip4:91.106.198.136 ip4:188.95.226.240 ip4:188.126.67.220 ip4:46.246.39.100 ip4:46.246.109.140 ip4:193.108.5.69 ip4:107.20.91.250 ip4:3.209.231.65 ip4:3.96.249.213 ip4:34.242.156.53 ip4:34.251.63.7 ip4:52.64.32.126 ip4:52.4.156.8 ip4:13.202.86.121 ip4:13.210.149.194 ip4:13.210.30.79 ip4:15.156.36.228 ip4:15.156.98.116 ip4:15.157.101.221 ip4:18.132.189.127 ip4:18.197.43.76 ip4:18.233.38.249 ip4:3.105.157.127 ip4:3.105.27.226 ip4:3.107.216.134 ip4:3.11.129.102 ip4:3.248.148.18 ip4:3.97.84.192 ip4:3.98.111.232 ip4:34.206.143.108 ip4:35.157.192.122 ip4:35.170.85.243 ip4:35.182.113.167 ip4:35.182.126.159 ip4:43.204.59.56 ip4:44.206.39.232 ip4:52.22.249.69 ip4:52.50.129.119 ip4:52.60.52.9 ip4:52.62.46.3 ip4:52.65.131.224 ip4:52.72.46.53 ip4:54.174.209.165 ip4:54.206.147.47 ip4:54.208.140.116 ip4:54.243.86.18 ip4:54.85.129.207 ip4:160.20.96.17 ip4:195.67.74.128/26 -all",
       "mx_asns":[
         8075
       ],
@@ -34510,8 +34510,8 @@
         "selector2":"selector2-hammaro-se._domainkey.hammarokommunse.onmicrosoft.com"
       },
       "txt_verifications":{
-        "microsoft":"ms38555849",
         "apple":"KJO2tPwDXcC0EMrM",
+        "microsoft":"ms38555849",
         "google":"wpUQ9kTlsv0AWEflCy6n4AxpYjyPU0oKVvJcYF4069U"
       }
     },
@@ -34546,8 +34546,8 @@
       },
       "txt_verifications":{
         "microsoft":"ms84959570",
-        "apple":"puUoKzNZzBJqY5BC",
-        "google":"VZN4qpmegMGzPthWGJ9GvYFSlvF0xb2X_LMxoElFzw8"
+        "google":"VZN4qpmegMGzPthWGJ9GvYFSlvF0xb2X_LMxoElFzw8",
+        "apple":"puUoKzNZzBJqY5BC"
       },
       "tenant":"Managed"
     },
@@ -34585,9 +34585,9 @@
         "selector2":"selector2-forshaga-se._domainkey.samverkansnamnden.onmicrosoft.com"
       },
       "txt_verifications":{
-        "apple":"7NkI4fsm7JuwFQsu",
         "google":"nMIQnW_WCWzumU1dIeXrv4ei5LXTJv7J7fRGvmnfB3M",
-        "microsoft":"ms68657380"
+        "microsoft":"ms68657380",
+        "apple":"7NkI4fsm7JuwFQsu"
       },
       "tenant":"Managed"
     },
@@ -34621,8 +34621,8 @@
         "selector2":"selector2-grums-se._domainkey.grums.onmicrosoft.com"
       },
       "txt_verifications":{
-        "apple":"zTkN0I1g8xKWr97L",
-        "google":"M8LaPjYyEuEs6Q5Gn0ZfzHLIn0dNj3D80wAvuvSuSXY"
+        "google":"M8LaPjYyEuEs6Q5Gn0ZfzHLIn0dNj3D80wAvuvSuSXY",
+        "apple":"zTkN0I1g8xKWr97L"
       }
     },
     "SE-1765":{
@@ -34933,8 +34933,8 @@
         "selector2":"selector2-lekeberg-se._domainkey.sydnarke.onmicrosoft.com"
       },
       "txt_verifications":{
-        "apple":"afGWe1BvRLuQI4dK",
-        "microsoft":"6933BFC53E09D754C2C6BADD1F663D5FCAE60513",
+        "apple":"yH2q6Bo5SHTk66RD",
+        "microsoft":"ms45678548",
         "google":"e2OH6r6gwper0EXbW0FBV5_IhutIbn-DIBOGOy3LP2A"
       }
     },
@@ -34968,7 +34968,7 @@
         "selector2":"selector2-laxa-se._domainkey.sydnarke.onmicrosoft.com"
       },
       "txt_verifications":{
-        "apple":"Cm1XYEow07er5UBo",
+        "apple":"8ZcKQttkaw6xJxSH",
         "microsoft":"ms31797879"
       }
     },
@@ -35478,8 +35478,8 @@
         "selector2":"selector2-norberg-se._domainkey.nvknet.onmicrosoft.com"
       },
       "txt_verifications":{
-        "apple":"vd6ukPSLZHslCXXX",
-        "microsoft":"ms15796471"
+        "microsoft":"ms15796471",
+        "apple":"vd6ukPSLZHslCXXX"
       }
     },
     "SE-1980":{
@@ -35509,7 +35509,7 @@
         "selector2":"selector2-vasteras-se._domainkey.livevasteras.onmicrosoft.com"
       },
       "txt_verifications":{
-        "microsoft":"ms17011521",
+        "microsoft":"ms44675299",
         "apple":"aVTowN78VavSPk8a"
       }
     },
@@ -36348,8 +36348,8 @@
       },
       "txt_verifications":{
         "google":"5DHAktqLFa0CfXUH0Ty_ZM9buUoPGSz8ewqPHRRUzLk",
-        "microsoft":"ms36660799",
-        "apple":"uj7FReASZ508zw8E"
+        "apple":"uj7FReASZ508zw8E",
+        "microsoft":"ms36660799"
       }
     },
     "SE-2181":{
@@ -36383,9 +36383,9 @@
         "selector2":"selector2-sandviken-se._domainkey.sandviken2.onmicrosoft.com"
       },
       "txt_verifications":{
-        "facebook":"o7qs90tofdl555yysfntr11outtzao",
+        "microsoft":"ms58323004",
         "google":"uDsBS_wUiRTDsQZjb8jB4sd6DMIlogsZU0JcmXdk4DI",
-        "microsoft":"ms58323004"
+        "facebook":"o7qs90tofdl555yysfntr11outtzao"
       }
     },
     "SE-2182":{
@@ -36452,8 +36452,8 @@
         "selector2":"selector2-bollnas-se._domainkey.bollnaskommun.onmicrosoft.com"
       },
       "txt_verifications":{
-        "apple":"Bq9Rteo9F1dMvR9e",
         "google":"K8iM33EaNueKpUF3TLyB7DcQahHBljZrJg9I0pTeA8s",
+        "apple":"KMuDKjwUfvIuLlvH",
         "microsoft":"ms44126947"
       }
     },
@@ -36877,8 +36877,8 @@
         "selector2":"selector2-are-se._domainkey.arekommun.onmicrosoft.com"
       },
       "txt_verifications":{
-        "apple":"TVqvU4m9dXFwzhiJ",
-        "microsoft":"ms80972398"
+        "microsoft":"ms80972398",
+        "apple":"TVqvU4m9dXFwzhiJ"
       }
     },
     "SE-2326":{
@@ -37305,8 +37305,8 @@
         "selector2":"selector2-dorotea-se._domainkey.doroteakommun.onmicrosoft.com"
       },
       "txt_verifications":{
-        "google":"wjczOsXA-Rx0JH6QWDiDhq9FzNaCkRRPdBTPVIw7AHM",
-        "microsoft":"ms42597942"
+        "microsoft":"ms42597942",
+        "google":"wjczOsXA-Rx0JH6QWDiDhq9FzNaCkRRPdBTPVIw7AHM"
       }
     },
     "SE-2460":{
@@ -37770,8 +37770,8 @@
         "selector2":"selector2-gallivare-se._domainkey.gallivareskolor.onmicrosoft.com"
       },
       "txt_verifications":{
-        "microsoft":"ms27991820",
-        "apple":"mNKkfOZ0jetB3S4B"
+        "apple":"mNKkfOZ0jetB3S4B",
+        "microsoft":"ms27991820"
       }
     },
     "SE-2560":{
@@ -37804,8 +37804,8 @@
         "autodiscover_cname":"autodiscover.outlook.com"
       },
       "txt_verifications":{
-        "microsoft":"ms65413725",
-        "apple":"KmXdo6Ps48xrF3eg"
+        "apple":"KmXdo6Ps48xrF3eg",
+        "microsoft":"ms65413725"
       },
       "tenant":"Managed"
     },
