@@ -1,6 +1,6 @@
 {
   "total": 1149,
-  "average_score": 90.2,
+  "average_score": 90.3,
   "high_confidence_pct": 90.3,
   "quality_passed": true,
   "entries": {
@@ -980,7 +980,6 @@
         "spf_strict",
         "independent_mx_with_cloud_spf",
         "provider_classified",
-        "provider_via_gateway_spf",
         "autodiscover_confirms"
       ]
     },
@@ -1698,8 +1697,9 @@
       "name": "Heinola",
       "provider": "microsoft",
       "domain": "heinola.fi",
-      "confidence": 93,
+      "confidence": 98,
       "flags": [
+        "multiple_mx",
         "spf_softfail",
         "mx_spf_match",
         "provider_classified",
@@ -2802,13 +2802,14 @@
     },
     "FI-416": {
       "name": "Lemi",
-      "provider": "local-isp",
+      "provider": "microsoft",
       "domain": "lemi.fi",
-      "confidence": 80,
+      "confidence": 95,
       "flags": [
         "spf_strict",
-        "independent_mx_with_cloud_spf",
-        "provider_classified"
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "FI-417": {
@@ -4366,13 +4367,14 @@
     },
     "FI-831": {
       "name": "Taipalsaari",
-      "provider": "local-isp",
+      "provider": "microsoft",
       "domain": "taipalsaari.fi",
-      "confidence": 80,
+      "confidence": 95,
       "flags": [
         "spf_strict",
-        "independent_mx_with_cloud_spf",
-        "provider_classified"
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "FI-832": {
@@ -11316,11 +11318,12 @@
       "name": "Ljungby",
       "provider": "microsoft",
       "domain": "ljungby.se",
-      "confidence": 88,
+      "confidence": 93,
       "flags": [
         "spf_softfail",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "SE-0821": {
@@ -11718,8 +11721,9 @@
       "name": "Bromölla",
       "provider": "microsoft",
       "domain": "bromolla.se",
-      "confidence": 75,
+      "confidence": 80,
       "flags": [
+        "spf_strict",
         "independent_mx_with_cloud_spf",
         "provider_classified"
       ]
