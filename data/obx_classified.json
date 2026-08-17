@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-10T04:47:50.136255+00:00",
+  "generated": "2026-08-17T04:58:29.969856+00:00",
   "companies": [
     {
       "ticker": "DNB",
@@ -17,6 +17,7 @@
       ],
       "spf": "v=spf1 include:%{ir}.%{v}.%{d}.spf.has.pphosted.com ~all",
       "mx_countries": [
+        "GB",
         "US"
       ],
       "gateway": "proofpoint",
@@ -334,7 +335,7 @@
         "aspmx2.googlemail.com",
         "aspmx3.googlemail.com"
       ],
-      "spf": "v=spf1 include:_spf.google.com include:4739183.spf02.hubspotemail.net include:sendgrid.net include:shops.shopify.com include:mail.zendesk.com include:spf.tripletex.no -all",
+      "spf": "v=spf1 include:_spf.google.com include:4739183.spf02.hubspotemail.net include:sendgrid.net include:shops.shopify.com include:mail.zendesk.com include:_spf.tripletex.no -all",
       "mx_countries": [
         "US"
       ],

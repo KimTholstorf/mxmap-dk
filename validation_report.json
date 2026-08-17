@@ -1613,13 +1613,11 @@
       "name": "Hollola",
       "provider": "microsoft",
       "domain": "hollola.fi",
-      "confidence": 90,
+      "confidence": 95,
       "flags": [
-        "multiple_mx",
         "spf_strict",
-        "independent_mx_with_cloud_spf",
+        "mx_spf_match",
         "provider_classified",
-        "provider_via_gateway_spf",
         "autodiscover_confirms"
       ]
     },
@@ -4049,13 +4047,14 @@
     },
     "FI-739": {
       "name": "Savitaipale",
-      "provider": "local-isp",
+      "provider": "microsoft",
       "domain": "savitaipale.fi",
-      "confidence": 80,
+      "confidence": 95,
       "flags": [
         "spf_strict",
-        "independent_mx_with_cloud_spf",
-        "provider_classified"
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "FI-740": {
@@ -11471,7 +11470,7 @@
     },
     "SE-0980": {
       "name": "Gotland",
-      "provider": "local-isp",
+      "provider": "microsoft",
       "domain": "gotland.se",
       "confidence": 85,
       "flags": [
