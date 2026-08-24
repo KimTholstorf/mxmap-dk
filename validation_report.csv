@@ -290,7 +290,6 @@ SE-2282,Kramfor,microsoft,kramfors.se,88,spf_softfail; mx_spf_match; provider_cl
 FI-400,Laitila,microsoft,laitila.fi,88,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
 SE-0761,Lessebo,microsoft,lessebo.se,88,spf_softfail; mx_spf_match; provider_classified
 FI-433,Loppi,microsoft,loppi.fi,88,spf_softfail; mx_spf_match; provider_classified
-NO-5524,Målselv,microsoft,malselv.kommune.no,88,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
 NO-1828,Nesna,microsoft,nesna.kommune.no,88,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
 FI-445,Parainen,microsoft,parainen.fi,88,spf_softfail; mx_spf_match; provider_classified
 FI-619,Punkalaidun,microsoft,punkalaidun.fi,88,multiple_mx; spf_softfail; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
@@ -365,6 +364,7 @@ SE-1463,Mark,microsoft,mark.se,90,multiple_mx; spf_strict; independent_mx_with_c
 DK-410,Middelfart,microsoft,middelfart.dk,90,spf_strict; mx_spf_match; provider_classified
 NO-4020,Midt-Telemark,microsoft,midt-telemark.kommune.no,90,spf_strict; mx_spf_match; provider_classified
 FI-508,Mänttä-Vilppula,local-isp,manttavilppula.fi,90,spf_strict; mx_spf_match; provider_classified
+NO-5524,Målselv,microsoft,malselv.kommune.no,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
 NO-3238,Nannestad,microsoft,nannestad.kommune.no,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
 NO-3228,Nes,microsoft,nes.kommune.no,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms
 NO-3212,Nesodden,microsoft,nesodden.kommune.no,90,multiple_mx; spf_strict; independent_mx_with_cloud_spf; provider_classified; provider_via_gateway_spf; autodiscover_confirms

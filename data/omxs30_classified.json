@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-17T04:55:12.751378+00:00",
+  "generated": "2026-08-24T04:54:47.022114+00:00",
   "companies": [
     {
       "ticker": "ABB",
@@ -317,8 +317,8 @@
       "tenant": null,
       "provider": "independent",
       "reason": "MX (mx01.handelsbanken.se, mx02.handelsbanken.se) is self-hosted",
-      "smtp_banner": "554 mx01.handelsbanken.se",
-      "smtp_software": "554 mx01.handelsbanken.se"
+      "smtp_banner": "220 mx01.handelsbanken.se ESMTP",
+      "smtp_software": "mx01.handelsbanken.se ESMTP"
     },
     {
       "ticker": "HM-B",

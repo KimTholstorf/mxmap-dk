@@ -10053,10 +10053,10 @@
       "name": "Målselv",
       "provider": "microsoft",
       "domain": "malselv.kommune.no",
-      "confidence": 88,
+      "confidence": 90,
       "flags": [
         "multiple_mx",
-        "spf_softfail",
+        "spf_strict",
         "independent_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
