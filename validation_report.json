@@ -127,11 +127,10 @@
       "name": "Hvidovre",
       "provider": "microsoft",
       "domain": "hvidovre.dk",
-      "confidence": 100,
+      "confidence": 60,
       "flags": [
         "multiple_mx",
-        "spf_strict",
-        "mx_spf_match",
+        "no_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -881,7 +880,6 @@
         "spf_strict",
         "independent_mx_with_cloud_spf",
         "provider_classified",
-        "provider_via_gateway_spf",
         "autodiscover_confirms"
       ]
     },
@@ -6337,9 +6335,9 @@
       "name": "Vindafjord",
       "provider": "microsoft",
       "domain": "vindafjord.kommune.no",
-      "confidence": 95,
+      "confidence": 93,
       "flags": [
-        "spf_strict",
+        "spf_softfail",
         "mx_spf_match",
         "provider_classified",
         "autodiscover_confirms"
@@ -9006,9 +9004,9 @@
       "name": "Etne",
       "provider": "microsoft",
       "domain": "etne.kommune.no",
-      "confidence": 95,
+      "confidence": 93,
       "flags": [
-        "spf_strict",
+        "spf_softfail",
         "mx_spf_match",
         "provider_classified",
         "autodiscover_confirms"
