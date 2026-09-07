@@ -1,5 +1,5 @@
 {
-  "generated":"2026-08-31T10:46:16Z",
+  "generated":"2026-09-07T09:05:14Z",
   "total":1149,
   "counts":{
     "google":20,
@@ -104,9 +104,9 @@
         "selector2":"selector2-balk-dk._domainkey.balkdk.onmicrosoft.com"
       },
       "txt_verifications":{
-        "microsoft":"7A9E0574FCA0E42B433BCCB9BF5975C3D8DD14FF",
-        "apple":"7NUllwKSN8BhNHdv",
-        "atlassian":"YuqJCIC6ZfOUNsyev1yIYRpVyuYls6F8A7/8JLQtgR0JeaS/npQdORnRDVQZQBdQ"
+        "atlassian":"YuqJCIC6ZfOUNsyev1yIYRpVyuYls6F8A7/8JLQtgR0JeaS/npQdORnRDVQZQBdQ",
+        "apple":"Js8GbIk58hOfshqI",
+        "microsoft":"ms58624801"
       },
       "tenant":"Federated"
     },
@@ -377,6 +377,11 @@
       "dkim":{
         "selector1":"selector1-hvidovre-dk._domainkey.hvidovrekommune.onmicrosoft.com",
         "selector2":"selector2-hvidovre-dk._domainkey.hvidovrekommune.onmicrosoft.com"
+      },
+      "txt_verifications":{
+        "apple":"sIIQQMgOR3RaKpFZ",
+        "google":"cJ3jVPRDA8wrlg_0wItsM8SFuajLatJLO1_4uUI8nDI",
+        "microsoft":"ms81164921"
       },
       "tenant":"Managed"
     },
@@ -2406,7 +2411,7 @@
         "apple":"81hvIlXX2kAx4u4U",
         "google":"ve9cHf-rPpcGh86czrpP41K5ivV37JL_sBd7jjICn7c"
       },
-      "smtp_banner":"220 hkmgw1.holstebro.dk ESMTP Smtpd; Mon, 31 Aug 2026 12:46:28 +0200"
+      "smtp_banner":"220 hkmgw1.holstebro.dk ESMTP Smtpd; Mon, 7 Sep 2026 11:05:26 +0200"
     },
     "DK-665":{
       "bfs":"DK-665",
@@ -2815,7 +2820,7 @@
         "apple":"5Ge0HilIOmfVOqFd",
         "google":"Tc3f_jqZQYszskitmTKyFtG4p4qPtx8DGsmChOOmW5w"
       },
-      "smtp_banner":"220 mta01.scanscope.net v10.0.0.0 ESMTP ready"
+      "smtp_banner":"220 mail1.scanscope.net v10.0.0.0 ESMTP ready"
     },
     "DK-760":{
       "bfs":"DK-760",
@@ -6697,7 +6702,7 @@
         "autodiscover_cname":"autodiscover.outlook.com"
       },
       "txt_verifications":{
-        "microsoft":"ms40403648"
+        "microsoft":"2D2846F37AF917C047EB708C5ED317DC62836BAB"
       },
       "tenant":"Managed"
     },
@@ -9069,8 +9074,8 @@
         "selector2":"selector2-narpes-fi._domainkey.narpes.onmicrosoft.com"
       },
       "txt_verifications":{
-        "microsoft":"ms61089014",
         "apple":"38hHrERcffaQxiQr",
+        "microsoft":"ms61089014",
         "google":"6BQb5D56srOxLExDJsijbcKDd7Y7oyzVFea-siybYsY"
       },
       "tenant":"Managed"
@@ -14031,7 +14036,7 @@
       "txt_verifications":{
         "microsoft":"ms85240966"
       },
-      "smtp_banner":"220 mail.elektron.fo ESMTP Smtpd; Mon, 31 Aug 2026 11:46:28 +0100"
+      "smtp_banner":"220 mail.elektron.fo ESMTP Smtpd; Mon, 7 Sep 2026 10:05:26 +0100"
     },
     "FO-27":{
       "bfs":"FO-27",
