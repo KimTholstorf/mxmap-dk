@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-07T09:11:32.843369+00:00",
+  "generated": "2026-09-14T09:52:28.545307+00:00",
   "companies": [
     {
       "ticker": "DNB",
@@ -17,8 +17,7 @@
       ],
       "spf": "v=spf1 include:%{ir}.%{v}.%{d}.spf.has.pphosted.com ~all",
       "mx_countries": [
-        "GB",
-        "US"
+        "GB"
       ],
       "gateway": "proofpoint",
       "tenant": "Managed",
@@ -137,7 +136,7 @@
       "mx": [
         "orkla-com.mail.protection.outlook.com"
       ],
-      "spf": "v=spf1 include:spf1.orkla.com include:spf2.orkla.com include:_spf-dc33.sapsf.eu -all",
+      "spf": "v=spf1 include:spf1.orkla.com include:_spf-dc33.sapsf.eu -all",
       "mx_countries": [
         "US"
       ],
