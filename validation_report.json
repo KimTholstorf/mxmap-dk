@@ -442,7 +442,8 @@
       "flags": [
         "spf_strict",
         "independent_mx_with_cloud_spf",
-        "provider_classified"
+        "provider_classified",
+        "autodiscover_suggests:microsoft"
       ]
     },
     "DK-330": {
@@ -703,7 +704,7 @@
     },
     "DK-540": {
       "name": "Sønderborg",
-      "provider": "local-isp",
+      "provider": "microsoft",
       "domain": "soenderborg.dk",
       "confidence": 80,
       "flags": [
@@ -6132,9 +6133,9 @@
       "name": "Lund",
       "provider": "microsoft",
       "domain": "lund.kommune.no",
-      "confidence": 95,
+      "confidence": 93,
       "flags": [
-        "spf_strict",
+        "spf_softfail",
         "mx_spf_match",
         "provider_classified",
         "autodiscover_confirms"
@@ -7890,13 +7891,14 @@
       "name": "Ringsaker",
       "provider": "microsoft",
       "domain": "ringsaker.kommune.no",
-      "confidence": 93,
+      "confidence": 98,
       "flags": [
         "multiple_mx",
         "spf_softfail",
         "mx_spf_match",
         "provider_classified",
-        "provider_via_gateway_spf"
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
       ]
     },
     "NO-3412": {
@@ -10344,10 +10346,9 @@
       "name": "Gamvik",
       "provider": "microsoft",
       "domain": "gamvik.kommune.no",
-      "confidence": 85,
+      "confidence": 90,
       "flags": [
-        "spf_strict",
-        "independent_mx_with_cloud_spf",
+        "mx_spf_match",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-14T09:52:28.545307+00:00",
+  "generated": "2026-09-21T09:57:43.113852+00:00",
   "companies": [
     {
       "ticker": "DNB",
@@ -17,7 +17,7 @@
       ],
       "spf": "v=spf1 include:%{ir}.%{v}.%{d}.spf.has.pphosted.com ~all",
       "mx_countries": [
-        "GB"
+        "US"
       ],
       "gateway": "proofpoint",
       "tenant": "Managed",
@@ -87,7 +87,7 @@
       "mx": [
         "mowi-com.mail.protection.outlook.com"
       ],
-      "spf": "v=spf1 include:%{ir}.%{v}.%{d}.spf.has.pphosted.com ~all",
+      "spf": "v=spf1 include:27uwwf83w.spf.checkpoint-spf.com include:spf.protection.outlook.com ~all",
       "mx_countries": [
         "US"
       ],

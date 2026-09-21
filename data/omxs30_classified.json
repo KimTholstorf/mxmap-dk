@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-14T09:50:25.711649+00:00",
+  "generated": "2026-09-21T09:54:37.356453+00:00",
   "companies": [
     {
       "ticker": "ABB",
@@ -112,7 +112,7 @@
         "mxa-00320c03.gslb.pphosted.com",
         "mxb-00320c03.gslb.pphosted.com"
       ],
-      "spf": "v=spf1 include:spf.mandrillapp.com ip4:74.116.124.0/22 ip4:199.168.64.0/22 ip4:210.129.217.47/32 include:mailgun.org include:_spf.anpdm.com include:de._netblocks.mimecast.com include:spf-00320c03.pphosted.com include:spf-00320c04.pphosted.com ~all",
+      "spf": "v=spf1 include:spf.mandrillapp.com ip4:74.116.124.0/22 ip4:199.168.64.0/22 ip4:210.129.217.47/32 include:mailgun.org include:_spf.anpdm.com include:spf-00320c03.pphosted.com include:spf-00320c04.pphosted.com ~all",
       "mx_countries": [
         "US"
       ],
@@ -317,8 +317,8 @@
       "tenant": null,
       "provider": "independent",
       "reason": "MX (mx01.handelsbanken.se, mx02.handelsbanken.se) is self-hosted",
-      "smtp_banner": "220 mx01.handelsbanken.se ESMTP",
-      "smtp_software": "mx01.handelsbanken.se ESMTP"
+      "smtp_banner": "554 mx01.handelsbanken.se",
+      "smtp_software": "554 mx01.handelsbanken.se"
     },
     {
       "ticker": "HM-B",
@@ -501,17 +501,16 @@
       "hq_lng": 15.6214,
       "verified": true,
       "mx": [
-        "mail1.saabgroup.com",
-        "mail2.saabgroup.com"
+        "saabgroup-com.mail.protection.outlook.com"
       ],
       "spf": "v=spf1 ip4:64.49.204.152/32 ip4:64.49.204.153/32 ip4:147.13.200.22/32 ip4:213.180.72.14/32 ip4:213.180.72.15/32 ip4:213.180.72.147/28 ip4:217.198.155.15/32 ip4:54.229.2.165/32 ip4:52.30.130.201/32 ip4:185.14.244.9/32 ip4:185.14.245.9/32 ip4:185.14.246.9/32 ip4:185.14.247.9/32 ip4:136.163.211.82/32 ip4:136.163.211.83/32 ip4:136.163.212.3/32 ip4:136.163.212.4/32 ip4:136.163.208.2/32 include:spf.protection.outlook.com mx -all",
       "mx_countries": [
-        "SE"
+        "US"
       ],
       "gateway": null,
       "tenant": null,
       "provider": "microsoft",
-      "reason": "MX (mail1.saabgroup.com, mail2.saabgroup.com) is local gateway; DKIM reveals microsoft backend",
+      "reason": "MX record (saabgroup-com.mail.protection.outlook.com) matches Microsoft",
       "smtp_banner": "",
       "smtp_software": ""
     },
@@ -729,7 +728,7 @@
       "mx": [
         "volvogroup-com.mail.protection.outlook.com"
       ],
-      "spf": "",
+      "spf": "v=spf1 include:%{i}._ip.%{h}._ehlo.%{d}._spf.vali.email ~all",
       "mx_countries": [
         "US"
       ],

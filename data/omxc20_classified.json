@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-14T09:58:57.161111+00:00",
+  "generated": "2026-09-21T10:03:49.664247+00:00",
   "companies": [
     {
       "ticker": "NOVO B",
@@ -178,7 +178,7 @@
       "mx": [
         "coloplast-com.mail.protection.outlook.com"
       ],
-      "spf": "v=spf1 ip4:193.0.60.0/24 ip4:142.0.162.16/28 ip4:94.236.52.150 include:_spf1.coloplast.com include:_spf2.coloplast.com include:_spf3.coloplast.com include:spf.protection.outlook.com -all",
+      "spf": "v=spf1 ip4:193.0.60.0/24 ip4:142.0.162.16/28 include:_spf1.coloplast.com include:_spf2.coloplast.com include:_spf3.coloplast.com include:_spf.outbound.ore.mailhop.org include:spf.protection.outlook.com -all",
       "mx_countries": [
         "US"
       ],
