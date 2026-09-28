@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21T09:54:37.356453+00:00",
+  "generated": "2026-09-28T10:52:00.866389+00:00",
   "companies": [
     {
       "ticker": "ABB",
@@ -309,7 +309,7 @@
         "mx01.handelsbanken.se",
         "mx02.handelsbanken.se"
       ],
-      "spf": "v=spf1 ip4:194.68.56.145 ip4:194.68.56.146 ip4:194.68.56.149 ip4:194.68.56.150 ip4:194.68.126.226 include:spf.protection.outlook.com -all",
+      "spf": "v=spf1 ip4:194.68.56.149 ip4:194.68.56.150 ip4:194.68.126.226 include:spf.protection.outlook.com -all",
       "mx_countries": [
         "SE"
       ],
@@ -381,7 +381,7 @@
       "mx": [
         "industrivarden-se.mail.protection.outlook.com"
       ],
-      "spf": "v=spf1 ip4:46.21.107.240 include:spf.protection.outlook.com ~all",
+      "spf": "v=spf1 ip4:79.142.245.138 ip4:46.21.107.240 include:spf.protection.outlook.com ~all",
       "mx_countries": [
         "US"
       ],

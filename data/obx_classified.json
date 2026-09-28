@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21T09:57:43.113852+00:00",
+  "generated": "2026-09-28T10:55:18.359500+00:00",
   "companies": [
     {
       "ticker": "DNB",
@@ -160,7 +160,7 @@
       "mx": [
         "akerbp-com.mail.protection.outlook.com"
       ],
-      "spf": "v=spf1 ip4:185.195.142.7 ip4:139.105.129.205 ip4:139.105.129.206 a:msg-out.onevoice.no a:c.spf.service-now.com include:spf.protection.outlook.com include:spfa.cpmails.com include:mailgun.org -all",
+      "spf": "v=spf1 ip4:35.156.0.138 ip4:193.3.183.0/25 ip4:185.195.142.7 ip4:139.105.129.205 ip4:139.105.129.206 a:msg-out.onevoice.no a:c.spf.service-now.com include:spf.protection.outlook.com include:spfa.cpmails.com include:mailgun.org -all",
       "mx_countries": [
         "US"
       ],

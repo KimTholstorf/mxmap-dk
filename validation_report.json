@@ -10078,14 +10078,15 @@
     },
     "NO-5528": {
       "name": "Dyrøy",
-      "provider": "local-isp",
+      "provider": "microsoft",
       "domain": "dyroy.kommune.no",
-      "confidence": 83,
+      "confidence": 98,
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "independent_mx_with_cloud_spf",
-        "provider_classified"
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "NO-5530": {
@@ -11402,9 +11403,9 @@
       "name": "Kalmar",
       "provider": "microsoft",
       "domain": "kalmar.se",
-      "confidence": 73,
+      "confidence": 75,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "provider_classified",
         "autodiscover_confirms"
       ]
