@@ -127,14 +127,13 @@
       "name": "Hvidovre",
       "provider": "microsoft",
       "domain": "hvidovre.dk",
-      "confidence": 100,
+      "confidence": 95,
       "flags": [
         "multiple_mx",
         "spf_strict",
         "mx_spf_match",
         "provider_classified",
-        "provider_via_gateway_spf",
-        "autodiscover_confirms"
+        "provider_via_gateway_spf"
       ]
     },
     "DK-169": {
@@ -1391,13 +1390,14 @@
     },
     "FI-062": {
       "name": "Föglö",
-      "provider": "local-isp",
+      "provider": "microsoft",
       "domain": "foglo.ax",
-      "confidence": 78,
+      "confidence": 93,
       "flags": [
         "spf_softfail",
-        "independent_mx_with_cloud_spf",
-        "provider_classified"
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "FI-065": {
@@ -11656,11 +11656,12 @@
       "name": "Svedala",
       "provider": "microsoft",
       "domain": "svedala.se",
-      "confidence": 80,
+      "confidence": 95,
       "flags": [
         "spf_strict",
-        "independent_mx_with_cloud_spf",
-        "provider_classified"
+        "mx_spf_match",
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "SE-1264": {
@@ -12772,15 +12773,15 @@
     },
     "SE-1783": {
       "name": "Hagfor",
-      "provider": "google",
+      "provider": "microsoft",
       "domain": "hagfors.se",
       "confidence": 83,
       "flags": [
-        "multiple_mx",
         "spf_softfail",
         "mx_spf_match",
         "multi_provider_spf:google+microsoft",
-        "provider_classified"
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "SE-1784": {
@@ -13535,16 +13536,14 @@
     },
     "SE-2380": {
       "name": "Östersund",
-      "provider": "microsoft",
+      "provider": "independent",
       "domain": "ostersund.se",
-      "confidence": 88,
+      "confidence": 78,
       "flags": [
-        "multiple_mx",
         "spf_softfail",
         "independent_mx_with_cloud_spf",
         "provider_classified",
-        "provider_via_gateway_spf",
-        "autodiscover_confirms"
+        "autodiscover_suggests:microsoft"
       ]
     },
     "SE-2401": {

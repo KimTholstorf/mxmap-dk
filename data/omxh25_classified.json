@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-28T10:58:00.812919+00:00",
+  "generated": "2026-10-05T11:37:34.875323+00:00",
   "companies": [
     {
       "ticker": "NOKIA",
@@ -90,7 +90,7 @@
       "mx": [
         "storaenso-com.mail.protection.outlook.com"
       ],
-      "spf": "v=spf1 ip4:20.31.189.248 ip4:20.23.169.57 ip4:13.95.232.64 include:spf.protection.outlook.com include:_spf.salesforce.com include:ipreomail.com include:spf.emailsignatures365.com ip4:84.22.190.160 ip4:83.145.214.97 include:spf.wm.net ip4:208.87.221.26 ip4:167.89.87.16 include:spf.hypeinnovation.com -all",
+      "spf": "v=spf1 ip4:20.31.189.248 ip4:20.23.169.57 ip4:13.95.232.64 include:spf.protection.outlook.com include:_spf.salesforce.com include:ipreomail.com include:spf.emailsignatures365.com ip4:84.22.190.160 ip4:83.145.214.97 include:spf.wm.net ip4:208.87.221.26 ip4:167.89.87.16 include:spf.hypeinnovation.com include:spf.eu.exclaimer.net -all",
       "mx_countries": [
         "US"
       ],
