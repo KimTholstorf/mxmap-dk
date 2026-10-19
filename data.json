@@ -1,5 +1,5 @@
 {
-  "generated":"2026-10-12T11:52:21Z",
+  "generated":"2026-10-19T09:42:22Z",
   "total":1149,
   "counts":{
     "google":19,
@@ -104,9 +104,9 @@
         "selector2":"selector2-balk-dk._domainkey.balkdk.onmicrosoft.com"
       },
       "txt_verifications":{
-        "microsoft":"7A9E0574FCA0E42B433BCCB9BF5975C3D8DD14FF",
+        "apple":"vOTD3mWuYJy3kyil",
         "atlassian":"YuqJCIC6ZfOUNsyev1yIYRpVyuYls6F8A7/8JLQtgR0JeaS/npQdORnRDVQZQBdQ",
-        "apple":"Kl2v1eZ3ss9vaLPL"
+        "microsoft":"7A9E0574FCA0E42B433BCCB9BF5975C3D8DD14FF"
       },
       "tenant":"Federated"
     },
@@ -169,7 +169,7 @@
         3292,
         3308
       ],
-      "isp_name":"TDC/Nuuday (DK)",
+      "isp_name":"TDC NET (DK)",
       "mx_countries":[
         "DK"
       ],
@@ -503,7 +503,7 @@
         3292,
         3308
       ],
-      "isp_name":"TDC/Nuuday (DK)",
+      "isp_name":"TDC NET (DK)",
       "mx_countries":[
         "DK"
       ],
@@ -1235,7 +1235,7 @@
         "microsoft":"ms81101091",
         "google":"Y4nj7y3DdBl2xTxRzI4QV8hY2RfwPNvLqUrX_gDZe4c"
       },
-      "smtp_banner":"554 Blocked - see https://ipcheck.proofpoint.com/?ip=20.161.60.18"
+      "smtp_banner":"220 mx101.ringsted.dk ESMTP Hello from Ringsted"
     },
     "DK-330":{
       "bfs":"DK-330",
@@ -1615,7 +1615,7 @@
         3292,
         3308
       ],
-      "isp_name":"TDC/Nuuday (DK)",
+      "isp_name":"TDC NET (DK)",
       "mx_countries":[
         "DK"
       ],
@@ -1813,7 +1813,7 @@
         3292,
         3308
       ],
-      "isp_name":"TDC/Nuuday (DK)",
+      "isp_name":"TDC NET (DK)",
       "mx_countries":[
         "DK"
       ],
@@ -2015,7 +2015,7 @@
         3292,
         3308
       ],
-      "isp_name":"TDC/Nuuday (DK)",
+      "isp_name":"TDC NET (DK)",
       "mx_countries":[
         "DK"
       ],
@@ -2414,7 +2414,7 @@
         "apple":"81hvIlXX2kAx4u4U",
         "google":"ve9cHf-rPpcGh86czrpP41K5ivV37JL_sBd7jjICn7c"
       },
-      "smtp_banner":"220 hkmgw1.holstebro.dk ESMTP Smtpd; Mon, 12 Oct 2026 13:52:37 +0200"
+      "smtp_banner":"220 hkmgw1.holstebro.dk ESMTP Smtpd; Mon, 19 Oct 2026 11:42:35 +0200"
     },
     "DK-665":{
       "bfs":"DK-665",
@@ -2438,7 +2438,7 @@
         3292,
         3308
       ],
-      "isp_name":"TDC/Nuuday (DK)",
+      "isp_name":"TDC NET (DK)",
       "mx_countries":[
         "DK"
       ],
@@ -2539,7 +2539,7 @@
         3292,
         3308
       ],
-      "isp_name":"TDC/Nuuday (DK)",
+      "isp_name":"TDC NET (DK)",
       "mx_countries":[
         "DK"
       ],
@@ -2602,7 +2602,7 @@
         3292,
         3308
       ],
-      "isp_name":"TDC/Nuuday (DK)",
+      "isp_name":"TDC NET (DK)",
       "mx_countries":[
         "DK"
       ],
@@ -6708,7 +6708,7 @@
         "autodiscover_cname":"autodiscover.outlook.com"
       },
       "txt_verifications":{
-        "microsoft":"ms40403648"
+        "microsoft":"2D2846F37AF917C047EB708C5ED317DC62836BAB"
       },
       "tenant":"Managed"
     },
@@ -9084,9 +9084,9 @@
         "selector2":"selector2-narpes-fi._domainkey.narpes.onmicrosoft.com"
       },
       "txt_verifications":{
-        "apple":"38hHrERcffaQxiQr",
+        "google":"6BQb5D56srOxLExDJsijbcKDd7Y7oyzVFea-siybYsY",
         "microsoft":"ms61089014",
-        "google":"6BQb5D56srOxLExDJsijbcKDd7Y7oyzVFea-siybYsY"
+        "apple":"38hHrERcffaQxiQr"
       },
       "tenant":"Managed"
     },
@@ -14055,7 +14055,7 @@
       "txt_verifications":{
         "microsoft":"ms85240966"
       },
-      "smtp_banner":"220 mail.elektron.fo ESMTP Smtpd; Mon, 12 Oct 2026 12:52:35 +0100"
+      "smtp_banner":"220 mail.elektron.fo ESMTP Smtpd; Mon, 19 Oct 2026 10:42:35 +0100"
     },
     "FO-27":{
       "bfs":"FO-27",
@@ -37060,7 +37060,7 @@
         "apple":"YKCmIh2glwnKzcob",
         "microsoft":"ms98548991"
       },
-      "smtp_banner":"220 mailgw.ostersund.se ESMTP Smtpd; Mon, 12 Oct 2026 13:52:34 +0200"
+      "smtp_banner":"220 mailgw.ostersund.se ESMTP Smtpd; Mon, 19 Oct 2026 11:42:35 +0200"
     },
     "SE-2401":{
       "bfs":"SE-2401",
