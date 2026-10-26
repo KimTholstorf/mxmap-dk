@@ -838,10 +838,10 @@
       "name": "Herning",
       "provider": "microsoft",
       "domain": "herning.dk",
-      "confidence": 88,
+      "confidence": 90,
       "flags": [
         "multiple_mx",
-        "spf_softfail",
+        "spf_strict",
         "independent_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
@@ -2204,14 +2204,15 @@
     },
     "FI-236": {
       "name": "Kaustinen",
-      "provider": "local-isp",
+      "provider": "microsoft",
       "domain": "kaustinen.fi",
-      "confidence": 83,
+      "confidence": 88,
       "flags": [
         "multiple_mx",
         "spf_softfail",
         "independent_mx_with_cloud_spf",
-        "provider_classified"
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "FI-239": {
@@ -9091,10 +9092,10 @@
       "name": "Ullensvang",
       "provider": "google",
       "domain": "ullensvang.kommune.no",
-      "confidence": 93,
+      "confidence": 95,
       "flags": [
         "multiple_mx",
-        "spf_softfail",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -10130,9 +10131,9 @@
       "name": "Lyngen",
       "provider": "microsoft",
       "domain": "lyngen.kommune.no",
-      "confidence": 93,
+      "confidence": 95,
       "flags": [
-        "spf_softfail",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified",
         "autodiscover_confirms"
@@ -10226,11 +10227,9 @@
       "name": "Sør-Varanger",
       "provider": "microsoft",
       "domain": "sor-varanger.kommune.no",
-      "confidence": 95,
+      "confidence": 70,
       "flags": [
-        "multiple_mx",
         "spf_strict",
-        "mx_spf_match",
         "provider_classified"
       ]
     },

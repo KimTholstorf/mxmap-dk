@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19T09:57:08.016432+00:00",
+  "generated": "2026-10-26T09:57:12.285781+00:00",
   "companies": [
     {
       "ticker": "ARION",
@@ -157,7 +157,6 @@
       "hq_lng": -21.8954,
       "verified": true,
       "mx": [
-        "kvika-is.mail.protection.outlook.com",
         "mxa-00a47401.gslb.pphosted.com",
         "mxb-00a47401.gslb.pphosted.com"
       ],
@@ -168,7 +167,7 @@
       "gateway": "proofpoint",
       "tenant": "Managed",
       "provider": "microsoft",
-      "reason": "MX record (kvika-is.mail.protection.outlook.com, mxa-00a47401.gslb.pphosted.com) matches Microsoft",
+      "reason": "MX is proofpoint gateway; SPF+DKIM confirm microsoft",
       "smtp_banner": "",
       "smtp_software": ""
     },

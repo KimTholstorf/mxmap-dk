@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19T09:47:20.770497+00:00",
+  "generated": "2026-10-26T09:55:57.816823+00:00",
   "companies": [
     {
       "ticker": "ABB",
@@ -317,8 +317,8 @@
       "tenant": null,
       "provider": "independent",
       "reason": "MX (mx01.handelsbanken.se, mx02.handelsbanken.se) is self-hosted",
-      "smtp_banner": "220 mx01.handelsbanken.se ESMTP",
-      "smtp_software": "mx01.handelsbanken.se ESMTP"
+      "smtp_banner": "554 mx01.handelsbanken.se",
+      "smtp_software": "554 mx01.handelsbanken.se"
     },
     {
       "ticker": "HM-B",
@@ -664,8 +664,8 @@
       "tenant": null,
       "provider": "independent",
       "reason": "MX (mail1.swedbank.se, mail2.swedbank.se) is self-hosted",
-      "smtp_banner": "220 mail1.swedbank.se ESMTP",
-      "smtp_software": "mail1.swedbank.se ESMTP"
+      "smtp_banner": "",
+      "smtp_software": ""
     },
     {
       "ticker": "TEL2-B",
