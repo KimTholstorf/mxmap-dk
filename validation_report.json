@@ -1695,9 +1695,8 @@
       "name": "Heinola",
       "provider": "microsoft",
       "domain": "heinola.fi",
-      "confidence": 98,
+      "confidence": 93,
       "flags": [
-        "multiple_mx",
         "spf_softfail",
         "mx_spf_match",
         "provider_classified",
@@ -8623,12 +8622,13 @@
       "name": "Kviteseid",
       "provider": "microsoft",
       "domain": "kviteseid.kommune.no",
-      "confidence": 90,
+      "confidence": 95,
       "flags": [
         "spf_strict",
         "mx_spf_match",
         "provider_classified",
-        "provider_via_gateway_spf"
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
       ]
     },
     "NO-4030": {
@@ -8648,36 +8648,39 @@
       "name": "Fyresdal",
       "provider": "microsoft",
       "domain": "fyresdal.kommune.no",
-      "confidence": 90,
+      "confidence": 95,
       "flags": [
         "spf_strict",
         "mx_spf_match",
         "provider_classified",
-        "provider_via_gateway_spf"
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
       ]
     },
     "NO-4034": {
       "name": "Tokke",
       "provider": "microsoft",
       "domain": "tokke.kommune.no",
-      "confidence": 90,
+      "confidence": 95,
       "flags": [
         "spf_strict",
         "mx_spf_match",
         "provider_classified",
-        "provider_via_gateway_spf"
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
       ]
     },
     "NO-4036": {
       "name": "Vinje",
       "provider": "microsoft",
       "domain": "vinje.kommune.no",
-      "confidence": 90,
+      "confidence": 95,
       "flags": [
         "spf_strict",
         "mx_spf_match",
         "provider_classified",
-        "provider_via_gateway_spf"
+        "provider_via_gateway_spf",
+        "autodiscover_confirms"
       ]
     },
     "NO-4201": {
@@ -12492,10 +12495,10 @@
       "name": "Borås",
       "provider": "local-isp",
       "domain": "boras.se",
-      "confidence": 93,
+      "confidence": 95,
       "flags": [
         "multiple_mx",
-        "spf_softfail",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified"
       ]
