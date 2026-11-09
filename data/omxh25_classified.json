@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-02T12:24:34.432720+00:00",
+  "generated": "2026-11-09T12:59:35.142500+00:00",
   "companies": [
     {
       "ticker": "NOKIA",
@@ -601,7 +601,7 @@
       "mx": [
         "puuilo-fi.mail.protection.outlook.com"
       ],
-      "spf": "v=spf1 include:sendgrid.net include:spf.protection.outlook.com include:ebs.spf.vismaconsulting.fi include:_spf.lipscore.com include:spf.cuuma.fi include:em4468.puuilo.fi ~all",
+      "spf": "v=spf1 include:sendgrid.net include:spf.protection.outlook.com include:_spf.lipscore.com include:spf.cuuma.fi include:em4468.puuilo.fi -all",
       "mx_countries": [
         "US"
       ],

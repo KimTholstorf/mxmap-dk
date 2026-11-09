@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-02T12:27:58.110354+00:00",
+  "generated": "2026-11-09T13:04:52.693253+00:00",
   "companies": [
     {
       "ticker": "NOVO B",
@@ -16,7 +16,7 @@
         "de-smtp-inbound-1.mimecast.com",
         "de-smtp-inbound-2.mimecast.com"
       ],
-      "spf": "v=spf1 include:%{i}._ip.%{h}._ehlo.%{d}._spf.vali.email include:de._netblocks.mimecast.com ~all",
+      "spf": "v=spf1 include:%{i}._ip.%{h}._ehlo.%{d}._spf.vali.email ~all",
       "mx_countries": [
         "DE"
       ],
@@ -224,7 +224,7 @@
       "mx": [
         "novonesis-com.mail.protection.outlook.com"
       ],
-      "spf": "v=spf1 ip4:91.235.139.7 include:spf.protection.outlook.com include:spf.odmad.quest-on-demand.com include:_spf.salesforce.com include:spf.mailjet.com -all",
+      "spf": "v=spf1 ip4:91.235.139.7 include:spf.protection.outlook.com include:_spf.salesforce.com include:spf.mailjet.com -all",
       "mx_countries": [
         "US"
       ],
