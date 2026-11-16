@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-09T12:59:35.142500+00:00",
+  "generated": "2026-11-16T12:43:06.624878+00:00",
   "companies": [
     {
       "ticker": "NOKIA",
@@ -258,7 +258,7 @@
       "mx": [
         "kesko-fi.mail.protection.outlook.com"
       ],
-      "spf": "v=spf1 include:spf.protection.outlook.com ip4:88.148.163.128/26 ip4:104.45.82.9 ip4:131.207.55.48/29 ip4:185.192.14.12 ip4:185.192.14.14 ip4:157.144.241.15 ip4:131.207.84.118 ip4:131.207.75.3 ip4:82.197.31.39 ip4:82.197.31.40 ip4:82.197.31.41 ip4:94.199.58.208 ip4:213.141.125.164 ip4:91.217.141.12 ip4:131.207.55.41 ip4:62.121.49.16 ip4:168.245.94.35 ip4:168.245.15.153 ip4:188.117.37.109 ip4:81.22.169.238 ip4:81.22.169.239 ip4:94.237.104.60 ip4:35.214.208.81 ip4:35.214.213.218 ip4:35.214.183.81 ip4:35.214.212.238 include:spf.lianamailer.com include:spf.mailjet.com include:postimessaging.net include:mail.zendesk.com -all ",
+      "spf": "v=spf1 include:spf.protection.outlook.com ip4:88.148.163.128/26 ip4:104.45.82.9 ip4:131.207.55.48/29 ip4:185.192.14.12 ip4:185.192.14.14 ip4:157.144.241.15 ip4:131.207.84.118 ip4:131.207.75.3 ip4:82.197.31.39 ip4:82.197.31.40 ip4:82.197.31.41 ip4:94.199.58.208 ip4:213.141.125.164 ip4:91.217.141.12 ip4:131.207.55.41 ip4:62.121.49.16 ip4:168.245.94.35 ip4:168.245.15.153 ip4:188.117.37.109 ip4:81.22.169.238 ip4:81.22.169.239 ip4:94.237.104.60 ip4:35.214.208.81 ip4:35.214.213.218 ip4:35.214.183.81 ip4:35.214.212.238 ip4:81.22.169.229 include:spf.lianamailer.com include:spf.mailjet.com include:postimessaging.net include:mail.zendesk.com -all ",
       "mx_countries": [
         "US"
       ],

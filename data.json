@@ -1,5 +1,5 @@
 {
-  "generated":"2026-11-09T12:46:21Z",
+  "generated":"2026-11-16T12:30:49Z",
   "total":1149,
   "counts":{
     "google":19,
@@ -104,9 +104,9 @@
         "selector2":"selector2-balk-dk._domainkey.balkdk.onmicrosoft.com"
       },
       "txt_verifications":{
-        "microsoft":"ms58624801",
+        "apple":"vOTD3mWuYJy3kyil",
         "atlassian":"YuqJCIC6ZfOUNsyev1yIYRpVyuYls6F8A7/8JLQtgR0JeaS/npQdORnRDVQZQBdQ",
-        "apple":"Js8GbIk58hOfshqI"
+        "microsoft":"7A9E0574FCA0E42B433BCCB9BF5975C3D8DD14FF"
       },
       "tenant":"Federated"
     },
@@ -170,7 +170,7 @@
         3292,
         3308
       ],
-      "isp_name":"TDC/Nuuday (DK)",
+      "isp_name":"TDC NET (DK)",
       "mx_countries":[
         "DK"
       ],
@@ -504,7 +504,7 @@
         3292,
         3308
       ],
-      "isp_name":"TDC/Nuuday (DK)",
+      "isp_name":"TDC NET (DK)",
       "mx_countries":[
         "DK"
       ],
@@ -1008,7 +1008,7 @@
         3292,
         3308
       ],
-      "isp_name":"TDC/Nuuday (DK)",
+      "isp_name":"TDC NET (DK)",
       "mx_countries":[
         "DK"
       ]
@@ -1160,7 +1160,7 @@
         3292,
         3308
       ],
-      "isp_name":"TDC/Nuuday (DK)",
+      "isp_name":"TDC NET (DK)",
       "mx_countries":[
         "DK"
       ],
@@ -1260,7 +1260,7 @@
         3292,
         3308
       ],
-      "isp_name":"TDC/Nuuday (DK)",
+      "isp_name":"TDC NET (DK)",
       "mx_countries":[
         "DK"
       ],
@@ -2415,7 +2415,7 @@
         "apple":"81hvIlXX2kAx4u4U",
         "google":"ve9cHf-rPpcGh86czrpP41K5ivV37JL_sBd7jjICn7c"
       },
-      "smtp_banner":"220 hkmgw1.holstebro.dk ESMTP Smtpd; Mon, 9 Nov 2026 13:46:35 +0100"
+      "smtp_banner":"220 hkmgw1.holstebro.dk ESMTP Smtpd; Mon, 16 Nov 2026 13:31:02 +0100"
     },
     "DK-665":{
       "bfs":"DK-665",
@@ -8944,12 +8944,12 @@
       "mx":[
         "nokiankaupunki-fi.mail.protection.outlook.com"
       ],
-      "spf":"v=spf1 mx ip4:213.214.136.11 ip4:82.197.21.80/28 ip4:185.26.50.48 ip4:217.78.212.80/28 ip4:213.138.147.128/27 ip4:89.250.48.136 ip4:192.89.123.25 include:spf.tampere.fi include:spf.mailjet.com include:spf.qb-feedback.com include:spf.cloudcity.fi -all",
+      "spf":"v=spf1 mx ip4:81.22.169.238 ip4:213.214.136.11 ip4:82.197.21.80/28 ip4:185.26.50.48 ip4:217.78.212.80/28 ip4:213.138.147.128/27 ip4:89.250.48.136 ip4:192.89.123.25 include:spf.tampere.fi include:spf.mailjet.com include:spf.qb-feedback.com include:spf.cloudcity.fi -all",
       "provider":"microsoft",
       "reason":"MX record (nokiankaupunki-fi.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":75300,
       "population":35730,
-      "spf_resolved":"v=spf1 mx ip4:213.214.136.11 ip4:82.197.21.80/28 ip4:185.26.50.48 ip4:217.78.212.80/28 ip4:213.138.147.128/27 ip4:89.250.48.136 ip4:192.89.123.25 include:spf.tampere.fi include:spf.mailjet.com include:spf.qb-feedback.com include:spf.cloudcity.fi -all v=spf1 ip4:131.207.109.86 ip4:131.207.109.87 ip4:131.207.109.88 ip4:131.207.109.89 ip4:131.207.84.71 ip4:91.230.5.6 ip4:91.230.5.7 ip4:91.230.5.8 include:spf.protection.outlook.com v=spf1 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:45.14.148.0/22 ~all v=spf1 ip4:195.66.99.135 ip4:62.75.247.44 ip4:212.227.89.57 ip4:217.160.226.166 ip4:82.165.193.1 ip4:85.25.144.9 ip4:54.194.192.132 ip4:87.79.30.25 ip4:87.79.30.30 ip4:91.217.141.0/24 ~all v=spf1 ip4:185.220.76.0/22 ip6:2a0b:f240::/29 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
+      "spf_resolved":"v=spf1 mx ip4:81.22.169.238 ip4:213.214.136.11 ip4:82.197.21.80/28 ip4:185.26.50.48 ip4:217.78.212.80/28 ip4:213.138.147.128/27 ip4:89.250.48.136 ip4:192.89.123.25 include:spf.tampere.fi include:spf.mailjet.com include:spf.qb-feedback.com include:spf.cloudcity.fi -all v=spf1 ip4:131.207.109.86 ip4:131.207.109.87 ip4:131.207.109.88 ip4:131.207.109.89 ip4:131.207.84.71 ip4:91.230.5.6 ip4:91.230.5.7 ip4:91.230.5.8 include:spf.protection.outlook.com v=spf1 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:45.14.148.0/22 ~all v=spf1 ip4:195.66.99.135 ip4:62.75.247.44 ip4:212.227.89.57 ip4:217.160.226.166 ip4:82.165.193.1 ip4:85.25.144.9 ip4:54.194.192.132 ip4:87.79.30.25 ip4:87.79.30.30 ip4:91.217.141.0/24 ~all v=spf1 ip4:185.220.76.0/22 ip6:2a0b:f240::/29 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         8075
       ],
@@ -9078,7 +9078,7 @@
       "reason":"MX record (narpes-fi.mail.protection.outlook.com) matches Microsoft",
       "osm_relation_id":2320684,
       "population":9621,
-      "spf_resolved":"v=spf1 mx ip4:85.134.54.126 include:spf.protection.outlook.com include:_spf.datacenter.fi include:mailgun.org include:_se_net.axiell.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:142.0.176.0/20 ip4:89.250.60.42 ip4:5.250.160.26 ip4:89.250.48.136 ip4:80.242.31.11 ?all v=spf1 include:_spf.mailgun.org include:_spf.eu.mailgun.org -all v=spf1 ip4:185.121.206.13/32 ip4:212.247.85.136/30 ip4:185.121.204.138/32 ip4:185.121.204.164/32 ip6:2001:7b8:100:1::68 ip4:37.221.225.39/32 ip4:185.121.204.223/32 ~all v=spf1 include:_spf1.mailgun.org include:_spf2.mailgun.org ~all v=spf1 ip4:141.193.32.0/23 ip4:159.135.140.80/29 ip4:159.135.132.128/25 ip4:161.38.204.0/22 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:143.55.236.0/22 ip4:198.244.60.0/22 ip4:204.220.160.0/20 ~all v=spf1 ip4:159.135.224.0/20 ip4:69.72.32.0/20 ip4:204.220.90.0/23 ip4:204.220.92.0/22 ~all v=spf1 ip4:161.38.192.0/20 ip4:143.55.224.0/21 ip4:143.55.232.0/22 ip4:159.112.240.0/20 ip4:198.244.48.0/20 ip4:204.220.168.0/21 ip4:204.220.176.0/20 ~all",
+      "spf_resolved":"v=spf1 mx ip4:85.134.54.126 include:spf.protection.outlook.com include:_spf.datacenter.fi include:mailgun.org include:_se_net.axiell.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:142.0.176.0/20 ip4:89.250.60.42 ip4:5.250.160.26 ip4:89.250.48.136 ip4:80.242.31.11 ?all v=spf1 include:_spf.mailgun.org include:_spf.eu.mailgun.org -all v=spf1 ip4:185.121.206.13/32 ip4:212.247.85.136/30 ip4:185.121.204.138/32 ip4:185.121.204.164/32 ip6:2001:7b8:100:1::68 ip4:37.221.225.39/32 ip4:185.121.204.223/32 ~all v=spf1 include:_spf1.mailgun.org include:_spf2.mailgun.org ~all v=spf1 ip4:141.193.32.0/23 ip4:159.135.140.80/29 ip4:159.135.132.128/25 ip4:161.38.204.0/22 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:143.55.236.0/22 ip4:198.244.60.0/22 ip4:204.220.160.0/20 ~all v=spf1 ip4:159.135.224.0/20 ip4:69.72.32.0/20 ip4:204.220.90.0/23 ip4:204.220.92.0/22 ip4:204.220.89.0/24 ~all v=spf1 ip4:161.38.192.0/20 ip4:143.55.224.0/21 ip4:143.55.232.0/22 ip4:159.112.240.0/20 ip4:198.244.48.0/20 ip4:204.220.168.0/21 ip4:204.220.176.0/20 ~all",
       "mx_asns":[
         8075
       ],
@@ -9094,9 +9094,9 @@
         "selector2":"selector2-narpes-fi._domainkey.narpes.onmicrosoft.com"
       },
       "txt_verifications":{
-        "apple":"38hHrERcffaQxiQr",
+        "google":"6BQb5D56srOxLExDJsijbcKDd7Y7oyzVFea-siybYsY",
         "microsoft":"ms61089014",
-        "google":"6BQb5D56srOxLExDJsijbcKDd7Y7oyzVFea-siybYsY"
+        "apple":"38hHrERcffaQxiQr"
       },
       "tenant":"Managed"
     },
@@ -14060,7 +14060,7 @@
       "txt_verifications":{
         "microsoft":"ms85240966"
       },
-      "smtp_banner":"220 mail.elektron.fo ESMTP Smtpd; Mon, 9 Nov 2026 12:46:35 GMT"
+      "smtp_banner":"220 mail.elektron.fo ESMTP Smtpd; Mon, 16 Nov 2026 12:31:02 GMT"
     },
     "FO-27":{
       "bfs":"FO-27",
@@ -37087,7 +37087,7 @@
         "microsoft":"ms98548991",
         "apple":"YKCmIh2glwnKzcob"
       },
-      "smtp_banner":"220 mailgw.ostersund.se ESMTP Smtpd; Mon, 9 Nov 2026 13:46:35 +0100"
+      "smtp_banner":"220 mailgw.ostersund.se ESMTP Smtpd; Mon, 16 Nov 2026 13:31:02 +0100"
     },
     "SE-2401":{
       "bfs":"SE-2401",
